@@ -1,0 +1,73 @@
+# Wwise BKHD soundbanks (.BNK) extractor
+#
+# v1 by Nicknine
+# v2 by bnnm (old extensions)
+
+idstring "BKHD"
+get SEC_SIZE long
+endian guess SEC_SIZE
+get BANK_VERSION long
+get EOF asize
+
+set EXT string "wem"
+
+# May not be present which means there are no sounds in the bank.
+callfunction FIND_SECTION 1 "DIDX"
+set TABLE_OFF SEC_OFF
+set TABLE_SIZE SEC_SIZE
+
+callfunction FIND_SECTION 1 "DATA"
+set DATA_OFF SEC_OFF
+
+goto TABLE_OFF
+xmath FILES "TABLE_SIZE / 0x0c"
+for i = 0 < FILES
+	get ID long
+	get OFFSET long
+	get SIZE long
+	
+	math OFFSET + DATA_OFF
+
+    # get codec ID to guess extension
+    if BANK_VERSION < 62
+        savepos CURRENT
+
+        math CODEC_OFFSET = OFFSET
+        math CODEC_OFFSET += 0x14 #maybe should find "fmt " chunk first
+        goto CODEC_OFFSET
+        get CODEC short
+
+        if CODEC == 0x0401 || CODEC == 0x0166 #0x0401: old XMA (not a codec)
+            set EXT string "xma"
+        elif CODEC == 0xFFFF
+            set EXT string "ogg"
+        else
+            set EXT string "wav" #PCM, PCMEX, ADPCM, WIIADPCM
+        endif
+
+        goto CURRENT
+    endif
+
+	string NAME p "%u.%s" ID EXT
+	log NAME OFFSET SIZE
+next i
+
+startfunction FIND_SECTION
+	savepos PREV_OFF
+	goto 0x00
+
+	do
+		getdstring SEC_ID 0x04
+		get SEC_SIZE long
+		savepos SEC_OFF
+		xmath SEC_END "SEC_OFF + SEC_SIZE"
+		goto SEC_END
+	while SEC_ID != FIND_SECTION_ARG1 && SEC_END != EOF
+
+	if SEC_ID != FIND_SECTION_ARG1
+		print "Section %FIND_SECTION_ARG1% not found. The bank does not contain any sounds."
+		cleanexit
+	endif
+
+	goto PREV_OFF
+endfunction

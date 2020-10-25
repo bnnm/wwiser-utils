@@ -1,0 +1,17 @@
+## Jungle Speed (Wii)
+
+Init
+GEN
+MUS
+L1
+L2
+L3
+L5
+L4
+MASTER_VOLUME
+play_mus_bug
+play_mus_theme
+play_mus_jungle
+play_mus_bones
+play_mus_volcano
+play_mus_stinger

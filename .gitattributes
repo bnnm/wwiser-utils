@@ -1,0 +1,5 @@
+* text=auto
+
+fnv/*.lst text eol=crlf
+scripts/*.bms text eol=crlf
+wwnames/*.txt text eol=crlf

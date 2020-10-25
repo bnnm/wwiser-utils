@@ -1,0 +1,97 @@
+# List of 2 combos (bigrams) that aren't likely to appear in a real English word,
+# using a simple format, so the final search space can be reduced a bit.
+#
+# With "na" in the list, it would ignore words like "banana" but allow "banbnb" (skips
+# *na* but not "na*"), while "^ba" would ignore "banana" but not "bbanana" (separate to 
+# allow more filter for  beginning combos). By default all combos are allowed, and these
+# rules shut down paths.
+#
+# dictionary: abcdefghijklmnopqrstuvwxyz_0123456789
+# ^aa: remove words that start with aa
+# aa: remove words with aa in the middle (or end)
+# a[abc]: remove words with aa, ab, ac...
+# a[a]: same as aa
+# [abc]a: doesn't work (only for 2nd letter)
+#
+# Default list removes some possible paths like "sub3" but not "sub1". Since main use of
+# the reverser is getting (short-ish) gamesyncs, one should try to find related gamesyncs
+# then adjust the list (or guess missing).
+#
+# refs
+# http://norvig.com/mayzner.html
+# https://www.quora.com/What-are-all-of-the-two-letter-combinations-that-never-occur-in-an-English-dictionary
+# https://linguistics.stackexchange.com/questions/4082/impossible-bigrams-in-the-english-language
+# https://stackoverflow.com/questions/1891404/how-do-you-create-an-english-like-word
+
+
+# beginning combos
+^a[aeiouq3456789]
+^b[bcdfhjkmnpqstvwxyz_3456789]
+^c[bcdfghjkmnpqstvwxyz_3456789]
+^d[bcdfghjkmnpqstvwxyz_3456789]
+^e[eq23456789]
+^f[bcdfghjkmnpqstvwxyz_3456789]
+^g[bcdfghjkmnpqstvwxyz_3456789]
+^h[bcdfghjklmnpqrstvwxyz_3456789]
+^i[aeiouq3456789]
+^j[bcdfghjkmnpqstvwxyz_3456789]
+^k[bcdfghjkmnpqstvwxyz_3456789]
+^l[bcdfghjkmnpqstvwxyz_3456789]
+^m[bcdfghjkmnpqstvwxyz_3456789]
+^n[bcdfghjkmnpqstvwxyz_3456789]
+^o[aeioq3456789]
+^p[bcdfghjkmnpqstvwxyz_3456789]
+^q[bcdfghjkmnpqstvwxyz_3456789]
+^r[bcdfghjkmnpqstvwxyz_3456789]
+^s[hjsvx_3456789]
+^t[bcdfgjklmnpqstvwxyz_3456789]
+^u[aeiouq3456789]
+^v[bcdfghjkmnpqstvwxyz_3456789]
+^w[bcdfghjklmnpqstvwxyz_3456789]
+^x[x3456789]
+^y[yw3456789]
+^z[zw3456789]
+
+
+# mid combos
+a[a3456789]
+b[qxz3456789]
+c[bfgjpvw3456789]
+d[x3456789]
+e[e3456789]
+f[kqvxz3456789]
+g[qvx3456789]
+h[kvxz3456789]
+i[y3456789]
+j[bcdfghklmnpqrstvwxyz3456789]
+k[kqvxz3456789]
+l[qx3456789]
+m[gjqxz3456789]
+n[3456789]
+o[3456789]
+p[qvxz3456789]
+q[bcdefghjklmnopqrstvwxyz3456789]
+r[3456789]
+s[xz3456789]
+t[3456789]
+u[3456789]
+v[bcdfghjkmnpqtwxz3456789]
+w[qvxz3456789]
+x[bdgjkrvxz3456789]
+y[qvyz3456789]
+z[bcfghjnqrsx3456789]
+
+# numbers not allowed to be used as start (but _ is)
+^0[abcdefghijklmnopqrstuvwxyz_0123456789]
+^1[abcdefghijklmnopqrstuvwxyz_0123456789]
+^2[abcdefghijklmnopqrstuvwxyz_0123456789]
+^3[abcdefghijklmnopqrstuvwxyz_0123456789]
+^4[abcdefghijklmnopqrstuvwxyz_0123456789]
+^5[abcdefghijklmnopqrstuvwxyz_0123456789]
+^6[abcdefghijklmnopqrstuvwxyz_0123456789]
+^7[abcdefghijklmnopqrstuvwxyz_0123456789]
+^8[abcdefghijklmnopqrstuvwxyz_0123456789]
+^9[abcdefghijklmnopqrstuvwxyz_0123456789]
+
+^__
+__
