@@ -169,6 +169,7 @@ startfunction PARSE_TABLE
 		if LANG_ID == 0
 			string NAME p "%u.%s" ID EXT
 		else
+            getarray LANG_NAME 0 LANG_ID 
 			string NAME p "%s/%u.%s" LANG_NAME ID EXT
             #string NAME p "%u/%u.%s" LANG_ID ID EXT
 		endif
