@@ -6,33 +6,32 @@
 #   ./song.txtp      #points to 123.wem
 
 #todo improve mixed case (.WEM will be moved to .wem)
-#todo maybe use **/*.wem (python3.5 only) or os.walk (blerg)
 
-import glob, os, re
+import glob, os, re, sys
 
 move_dir = 'unwanted'
-glob_paths = ['wem', 'sound', 'audio', 'music', 'sound-dlc03']
-glob_exts = ['wem', 'xma', 'ogg', 'wav', 'logg', 'lwav']
-glob_txtps = '*.txtp'
 
+# put filenames to print on which .txtp they are referenced
+targets = []
+if len(sys.argv) > 1:
+    targets.append(sys.argv[1])
 
 def main():
-    txtps = glob.glob(glob_txtps)
+    # folders are taken from .txtp (meaning with no .txtp moves nothing)
+    glob_folders = set() #set(['wem', 'sound', 'audio'])
+    # fixed list since folders may have more extensions than those used in .txtp
+    glob_exts = ['wem', 'xma', 'ogg', 'wav', 'logg', 'lwav'] #, 'bnk', 'txt', 'xml'
+    # base txtps
+    glob_txtps = '*.txtp'
 
-    # wems in folders
-    files_move = set()
-    for glob_path in glob_paths:
-        for glob_ext in glob_exts:
-            files = glob.glob("%s/*.%s" % (glob_path, glob_ext))
-            for file in files:
-                path = os.path.normpath(file)
-                path = os.path.normcase(path)
-                files_move.add(path)
-        
+    # catch folder-like parts followed by name + extension
+    pattern = re.compile(r"^[ ]*[?]*[ ]*([0-9a-zA-Z_\- \\/\.]*[0-9a-zA-Z_]+\.[0-9a-zA-Z_]+).*$")
+
+
     # wems in txtp
+    txtps = glob.glob(glob_txtps)
     files_used = set()
     for txtp in txtps:
-        pattern = re.compile(r"^[ ]*[?]*[ ]*([0-9a-zA-Z_\- \\/\.]*[0-9a-zA-Z_]+\.[0-9a-zA-Z_]+).*$")
         with open(txtp, 'r', encoding='utf-8') as infile:
             for line in infile:
                 if line.startswith('#'):
@@ -40,10 +39,26 @@ def main():
                 match = pattern.match(line)
                 if match:
                     name, = match.groups()
-                    path = os.path.normpath(name)
-                    path = os.path.normcase(path)
-                    files_used.add(path)
+                    file = os.path.normpath(name)
+                    file = os.path.normcase(file)
+                    path = os.path.dirname(file)
+                    files_used.add(file)
+                    glob_folders.add(path)
 
+                    for target in targets:
+                        if name.lower().endswith(target.lower()):
+                            print("file %s in %s" % (target, txtp))
+
+    # wems in folders
+    files_move = set()
+    for glob_folder in glob_folders:
+        for glob_ext in glob_exts:
+            glob_search = os.path.join(glob_folder, '*.%s' % (glob_ext))
+            files = glob.glob(glob_search)
+            for file in files:
+                path = os.path.normpath(file)
+                path = os.path.normcase(path)
+                files_move.add(path)
 
     # remove used from folders
     for file_used in files_used:
@@ -58,7 +73,7 @@ def main():
 
     moved = (len(files_move))
     print("moved %i" % (moved))
-
+    #input()
 
 if __name__ == "__main__":
     main()
