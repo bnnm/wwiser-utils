@@ -19,7 +19,8 @@ Quick guide to get decent Wwise rips
   - if you change .txtp also change the filename so it doesn't get overwritten if re-generated
     - ex. from "blah {r}.txtp" you may need to make "blah {r1}.txtp" "blah {r2}.txtp"
 - remove unwanted .txtp (like voices)
-- use this script to move .wem not in .txtp to /unwanted: 
+- use this script to move .wem not in .txtp to /unwanted:
+  https://github.com/bnnm/wwiser-utils/blob/master/scripts/wwise-cleaner.py
   - check if /unwanted does have wanted music (may have removed good .txtp)
 - check if there are .wem in root (before /txtp folder) not moved with have useful/unused audio
   - put in "/unused" folder

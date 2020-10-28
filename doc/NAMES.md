@@ -209,13 +209,16 @@ Sequels sometimes share base Wwise project and names (ex. *Doom Eternal* vs *Doo
 
 You can even include very different games but it increases the chance of false positives (make sure to clean the final list).
 
-### try to similar names
+### try similar names
 Files may have `bgm_start` and `bgm_mute` that are properly used, but you are missing other bgm-related names.
 It's worth adding some variations of the above that could be used, like `bgm_stop` or `bgm_unmute`.
 
 This is good to test with the `fnv.exe` reversing tool (explained before), as `fnv.exe (number) -p "bgm_"` may reverse some of those variations with some guessing.
 
 When guessing keep in mind name styles the dev uses their games. For example, one dev may often use "bgm_(stage)_001", other likes "play_mus_(stage)", other "play_music_(stage)", etc.
+
+### trim prefixes/suffixes
+Sometimes you can find games with "variable-setter" events, for example `Set_State_BGM_Vocal_On`. This often means variable isn't referenced directly (no associated name), but with some luck `BGM_Vocal` will be the missing name. So looking for `Set_(something)` or `(something)_on/off` and removing the prefix/suffix is a good way to try a few extra names. Other suffixes like `_in/out` work, as well as adding the other prefix/suffix (if you have `(something)_on` but not `(something)_off`, or `stop_(something)` but not `play_(something)`).
 
 ### ignore close numbers
 If you have numbers that are the same save the last 2 digits (more or less) that means they share the same root and you only need to reverse one, wwiser automatically fills the rest. For example with 1189781958 and 1189781957 you only need to reverse first (`bgm1`), second (`bgm2`) will be automatically found.
