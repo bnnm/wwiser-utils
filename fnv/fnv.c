@@ -427,7 +427,8 @@ static void reverse_names(fnv_config* cfg) {
 
         uint32_t hash = 2166136261;
         for (int i = 0; i < strlen(name); i++) {
-            hash = (hash * 16777619) ^ name[i];
+            char c = tolower(name[i]);
+            hash = (hash * 16777619) ^ (uint8_t)c;
         }
 
         printf("%s: %u / 0x%x \n", name, hash, hash);
