@@ -10,7 +10,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 bin
-fnv/fnv.exe
+fnv/*.exe
 
 # extra for tests
 wwnames.db3
