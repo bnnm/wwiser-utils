@@ -5,6 +5,14 @@
 #include <time.h>
 #include <ctype.h>
 
+// FNV.EXE
+// Reverses Wwise fnv hashes.
+// 
+// Some parts but have been coded for performance reasons, may be improved.
+// We want to reduce ops+ifs, and calling separate functions with less ifs is a
+// good way, though the copy-pasting could be improved with some inline'ing.
+// fors are faster with fixed values, so it uses a list of allowed chars.
+
 
 #define ENABLE_BANLIST  1
 
@@ -15,6 +23,7 @@
 #define MAX_BASE 1024 //in case of starting words
 #define MAX_DEPTH 16
 #define MAX_LETTERS 37
+#define MAX_TABLE 123 //z= 123 = ASCII max
 
 // constants
 const char* dict = "abcdefghijklmnopqrstuvwxyz_0123456789";
@@ -24,7 +33,7 @@ const int default_depth = 7;
 // config
 const int list_start = 0;
 const int list_inner = 1;
-uint8_t list[2][256][256];
+uint8_t list[2][MAX_TABLE][MAX_TABLE];
 char name[MAX_DEPTH + 1] = {0};
 char base_name[MAX_BASE + 1] = {0};
 
@@ -32,12 +41,15 @@ typedef struct {
     //config
     char start_letter;
     char end_letter;
+    int begin_i;
+    int end_i;
 
     char name_prefix[MAX_CHARS];
     char name_suffix[MAX_CHARS];
     
     int ignore_banlist;
     int print_text;
+    int restrict_letters;
 
     //state
     const char* targets_s[MAX_TARGETS];
@@ -70,10 +82,6 @@ static void print_name(int depth, int show_suffix) {
 }
 
 
-// FNV FUNCTIONS
-// To improve performance we want to reduce ops+ifs, and calling separate functions with less ifs
-// is a good way, though the copy-pasting could be improved with some inline'ing
-
 static inline void fnv_test_suffix(const uint32_t cur_hash, const int depth, const char elem) {
     uint32_t new_hash = cur_hash;
     for (int n = 0; n < strlen(cfg.name_suffix); n++) {
@@ -88,6 +96,8 @@ static inline void fnv_test_suffix(const uint32_t cur_hash, const int depth, con
 // depth of N for suffixes
 static void fvn_depth_suffix(const uint32_t cur_hash, const int depth, int pos) {
     char prev = name[depth-1];
+
+
     for (int i = 0; i < MAX_LETTERS; i++) {
         char elem = dict[i];
 #if ENABLE_BANLIST
@@ -127,6 +137,8 @@ static void fvn_depth_max(const uint32_t cur_hash, const int depth) {
 static void fvn_depth2(const uint32_t cur_hash, const int depth) {
     int pos = list_inner;
     char prev = name[depth-1];
+    
+
     for (int i = 0; i < MAX_LETTERS; i++) {
         char elem = dict[i];
 #if ENABLE_BANLIST
@@ -156,6 +168,7 @@ static void fvn_depth2(const uint32_t cur_hash, const int depth) {
 static void fvn_depth1(uint32_t cur_hash, int depth) {
     int pos = list_start;
     char prev = name[depth-1];
+
     for (int i = 0; i < MAX_LETTERS; i++) {
         char elem = dict[i];
 #if ENABLE_BANLIST
@@ -179,21 +192,13 @@ static void fvn_depth1(uint32_t cur_hash, int depth) {
     }
 }
 
+
 // depth of 1 letter (base)
 static void fvn_depth0(uint32_t cur_hash) {
-    int begin = 0;
-    int end = MAX_LETTERS;
-    for (int i = 0; i < MAX_LETTERS; i++) {
-        if (dict[i] == cfg.start_letter) {
-            begin = i;
-        }
-        if (dict[i] == cfg.end_letter) {
-            end = i + 1;
-        }
-    }
-
     int depth = 0;
-    for (int i = begin; i < end; i++) {
+
+    //for (int i = 0; i < MAX_LETTERS; i++) {
+    for (int i = cfg.begin_i; i < cfg.end_i; i++) { //slower but ok at this level
         char elem = dict[i];
         if (cfg.print_text)
             printf("- letter: %c\n", elem);
@@ -221,6 +226,67 @@ static void fvn_depth0(uint32_t cur_hash) {
 
 //*************************************************************************
 
+static int get_dict_pos(char comp) {
+    // must translate values as banlist works with ASCII
+    int pos = -1;
+    for (int i = 0; i < MAX_LETTERS; i++) {
+        if (dict[i] == comp) {
+            pos = i;
+        }
+    }
+
+    return pos;
+}
+
+static void read_banlist_restrict() {
+    // overwrite values in banlist
+    if (!cfg.restrict_letters)
+        return;
+    
+    if (cfg.start_letter != '\0') {
+        for (int i = 0; i < MAX_TABLE; i++) {
+            int pos = get_dict_pos(i);
+            if (pos >= 0 && pos < cfg.begin_i) {
+                for (int j = 0; j < MAX_TABLE; j++) {
+                    list[0][i][j] = 0;
+                    list[1][i][j] = 0;
+                }
+            }
+        }
+    }
+
+    if (cfg.end_letter != '\0') {
+        for (int i = 0; i < (uint8_t)cfg.start_letter; i++) {
+            int pos = get_dict_pos(i);
+            if (pos >= 0 &&pos > cfg.end_i) {
+                for (int j = 0; j < MAX_TABLE; j++) {
+                    list[0][i][j] = 0;
+                    list[1][i][j] = 0;
+                }
+            }
+        }
+    }
+
+}
+
+static void read_begin_end() {
+    int begin = 0;
+    int end = MAX_LETTERS;
+    
+    for (int i = 0; i < MAX_LETTERS; i++) {
+        if (dict[i] == cfg.start_letter) {
+            begin = i;
+        }
+        if (dict[i] == cfg.end_letter) {
+            end = i + 1;
+        }
+    }
+
+    cfg.begin_i = begin;
+    cfg.end_i = end;
+}
+
+
 static int in_dict(char chr) {
     for (int i = 0; i < MAX_LETTERS; i++) {
         if (dict[i] == chr)
@@ -231,9 +297,9 @@ static int in_dict(char chr) {
 }
 
 static int read_banlist() {
-    // 2 chars = 0xFF | 0xFF, where [char][char] = 0/1
-    for (int i = 0; i < 256; i++) {
-        for (int j = 0; j < 256; j++) {
+    // 2 ASCII chars = 0x7F | 0x7F, where [char][char] = 0/1, [0] = begin, [1] = middle
+    for (int i = 0; i < MAX_TABLE; i++) {
+        for (int j = 0; j < MAX_TABLE; j++) {
             list[0][i][j] = 1;
             list[1][i][j] = 1;
         }
@@ -292,6 +358,35 @@ static int read_banlist() {
 
 //*************************************************************************
 
+static void print_usage(const char* name) {
+    fprintf(stderr,"Wwise FNV name reversing tool " FNV_VERSION " " __DATE__ "\n\n"
+            "Finds original name for Wwise event/variable IDs (FNV hashes)\n"
+            "Usage: %s [options] (target id)\n"
+            "Options:\n"
+            "    -p NAME_PREFIX: start text of original name\n"
+            "       Use when possible to reduce search space (ex. 'play_')\n"
+            "    -s NAME_SUFFIX: end text of original name\n"
+            "       Use when possible to reduce search space (ex. '_bgm')\n"
+            "    -l START_LETTER: start letter (use to resume searches)\n"
+            "    -L END_LETTER: end letter\n"
+            "       Dictionary letters: %s\n"
+            "    -r: restrict START/END letters on all levels (default to base level only)\n"
+            "    -m N: max characters in name (default %i)\n"
+            "       Beyond 8 search is too slow and gives too many false positives\n"
+            "    -i: ignore ban list (%s)\n"
+            "       List greatly improves speed and results but may skip valid names\n"
+            "       (try disabling if no proper names are found for smaller variables)\n"
+            "    -t: print letter text info (when using high max characters)\n"
+            "    -n: treat input as names and prints FNV IDs\n"
+            "    -h: show this help\n"
+            ,
+            name,
+            dict,
+            default_depth,
+            list_name);
+}
+
+
 #define CHECK_EXIT(condition, ...) \
     do {if (condition) { \
        fprintf(stderr, __VA_ARGS__); \
@@ -348,6 +443,12 @@ static int parse_cfg(fnv_config* cfg, int argc, const char* argv[]) {
             case 'n':
                 cfg->reverse_names = 1;
                 break;
+            case 'r':
+                cfg->restrict_letters = 1;
+                break;
+            case 'h':
+                print_usage(argv[0]);
+                return 0;
             default:
                 CHECK_EXIT(1, "ERROR: unknown parameter '%s'\n", argv[i]);
                 break;
@@ -382,35 +483,11 @@ static int parse_cfg(fnv_config* cfg, int argc, const char* argv[]) {
             cfg->name_suffix[i] = tolower(cfg->name_suffix[i]);
         }
     }
-
+    
+    read_begin_end();
+    
     return 1;
 }    
-
-static void usage(const char* name) {
-    fprintf(stderr,"Wwise FNV name reversing tool " FNV_VERSION " " __DATE__ "\n\n"
-            "Finds original name for Wwise event/variable IDs (FNV hashes)\n"
-            "Usage: %s [options] (target id)\n"
-            "Options:\n"
-            "    -p NAME_PREFIX: start text of original name\n"
-            "       Use when possible to reduce search space (ex. 'play_')\n"
-            "    -s NAME_SUFFIX: end text of original name\n"
-            "       Use when possible to reduce search space (ex. '_bgm')\n"
-            "    -l START_LETTER: start letter (use to resume searches)\n"
-            "    -L END_LETTER: end letter\n"
-            "       Dictionary letters: %s\n"
-            "    -m N: max characters in name (default %i)\n"
-            "       Beyond 8 search is too slow and gives too many false positives\n"
-            "    -i: ignore ban list (%s)\n"
-            "       List greatly improves speed and results but may skip valid names\n"
-            "       (try disabling if no proper names are found for smaller variables)\n"
-            "    -t: print letter text info (when using high max characters)\n"
-            "    -n: treat input as names and prints FNV IDs\n"
-            ,
-            name,
-            dict,
-            default_depth,
-            list_name);
-}
 
 static void print_time(const char* info) {
     time_t timer;
@@ -431,13 +508,14 @@ static void reverse_names(fnv_config* cfg) {
             hash = (hash * 16777619) ^ (uint8_t)c;
         }
 
-        printf("%s: %u / 0x%x \n", name, hash, hash);
+        printf("%s: %u / 0x%x\n", name, hash, hash);
+        //printf("%u: \"%s\",\n", hash, name);
     }
 }
 
 int main(int argc, const char* argv[]) {
     if (argc <= 1) {
-        usage(argv[0]);
+        print_usage(argv[0]);
         return 1;
     }
 
@@ -453,6 +531,8 @@ int main(int argc, const char* argv[]) {
     if (!read_banlist()) {
         return 1;
     }
+    read_banlist_restrict();
+    
 
 
     cfg.max_depth--;
@@ -461,23 +541,22 @@ int main(int argc, const char* argv[]) {
     printf("starting, max %i letters\n", cfg.max_depth + 1);
     printf("\n");
 
+    uint32_t base_hash = 2166136261;
+    if (cfg.name_prefix) {
+        for (int i = 0; i < strlen(cfg.name_prefix); i++) {
+            base_hash = (base_hash * 16777619) ^ cfg.name_prefix[i];
+        }
+
+        if (base_hash == cfg.target) {
+            print_name(-1, 0);
+        }
+    }
+
     for (int t = 0; t < cfg.targets_count; t++) {
         cfg.target = cfg.targets[t];
 
         printf("finding %u\n", cfg.target);
         print_time("start");
-
-        uint32_t base_hash = 2166136261;
-
-        if (cfg.name_prefix) {
-            for (int i = 0; i < strlen(cfg.name_prefix); i++) {
-                base_hash = (base_hash * 16777619) ^ cfg.name_prefix[i];
-            }
-
-            if (base_hash == cfg.target) {
-                print_name(-1, 0);
-            }
-        }
 
         fvn_depth0(base_hash);
 
