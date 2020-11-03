@@ -113,7 +113,7 @@ Adding `-sm` it'll also write a list of reversable IDs with missing names, so yo
 
 While parsing you may get *alt hashname found, old=..., new=...* in the CLI output. This means it has 2 names that could correspond to one ID. In those cases easiest is taking the correct name and putting it on top of `wwnames.txt` (first name found has priority, you can also remove the incorrect one so that the message doesn't appear). The list contains and marks the new/alt name for easy identification.
 
-**NOTE!** don't use `-d none`, it's important that a dump is created (`-d txt` is ok too). List is created from names *actually used*, and without output none would be (if you add `-g` instead it'll make a list from names used in `.txtp` = less names).
+**NOTE!** by default `-sl` doesn't generate dump output (`.xml`) but ensures all names are included in the list. Don't use `-d none` unless you are very sure, as that forces generating only names that are *actually used* (so `-d none -g` makes a list from names used in `.txtp` = less names).
 
 Now check the output to see if there are still missing names. With some tricks you can improve the original list (see below), and with the improved list call *wwiser* again and check the output, repeat until satisfied.
 
@@ -159,6 +159,12 @@ fnv.exe -n play_bgm_0 play_bgm_00 play_bgm_001
 ```
 It's faster to add all names you can think of to `wwnames.txt` though.
 
+When you suspect a name doesn't contain letters you can restrict a bit to skip certain ranges of letters (order is `abcdefghijklmnopqrstuvwxyz_0123456789`). Without `-r` it only restricts on base level (used to resume finds from a letter)
+```
+fnv.exe 1492557634 -l b -L t -r
+#finds "planet_04"
+```
+
 
 Finally, take any reversed names and put them (preferable on top for priority) in `wwnames.txt`.
 
@@ -174,8 +180,10 @@ Finally you could upload somewhere or include in your audio rips so others can b
 ## WWNAMES CREATION TIPS
 The following are a bunch of ideas you can follow to create `wwnames.txt` in steps. For each step the point is to keep adding to the base `wwnames.txt` until you have more and more names.
 
+To recap, basic loop is: name `wwnames.txt` from one step, load all banks + use `-sl` to create a used list, and add those to a final list, keep trying steps and adding to the final list, then do a final cleanup of that.
+
 ### use words.txt as a base
-This is a giant dictionary of English words. Rename to `wwnames.txt` and use *wwiser* to create a base *wwnames-banks-(timestamp).txt* list, then rename that to `wwnames.txt` and remove the word list. This sometimes gives you a bunch of unusual-but-used names for free (like `Adam` and `Eve` in Nier Automata).
+This is a giant dictionary of English words: https://github.com/dwyl/english-words/. Download and rename to `wwnames.txt` and use *wwiser* to create a base *wwnames-banks-(timestamp).txt* list, then rename that to `wwnames.txt` and remove the word list. This sometimes gives you a bunch of unusual-but-used names for free (like `Adam` and `Eve` in Nier Automata), but also a bunch of false positives.
 
 ### add .exe strings
 Take the `.exe` and use `strings2.exe` as described before to add to the previous `wwnames.txt`. In multiplatform games, sometimes one version has debug strings in the `.exe` while others don't, so it's useful to add strings from all versions.
@@ -204,6 +212,9 @@ You don't need to clean all the garbage strings it creates (names like `$asDFFC`
 
 Sometimes game's files have lines like `C_PlayMusic("bgm_results")`, those are automatically handled by *wwiser* and read `bgm_results` just fine (explained before).
 
+### ignore close numbers
+If you have numbers that are the same save the last 2 digits (more or less) that means they share the same root and you only need to reverse one, wwiser automatically fills the rest. For example with 1189781958 and 1189781957 you only need to reverse first (`bgm1`), second (`bgm2`) will be automatically found.
+
 ### try newer/older games lists' as a base
 Sequels sometimes share base Wwise project and names (ex. *Doom Eternal* vs *Doom 2016*), so it's useful to include names from previous names, and also names from newer games in older games works too.
 
@@ -220,8 +231,14 @@ When guessing keep in mind name styles the dev uses their games. For example, on
 ### trim prefixes/suffixes
 Sometimes you can find games with "variable-setter" events, for example `Set_State_BGM_Vocal_On`. This often means variable isn't referenced directly (no associated name), but with some luck `BGM_Vocal` will be the missing name. So looking for `Set_(something)` or `(something)_on/off` and removing the prefix/suffix is a good way to try a few extra names. Other suffixes like `_in/out` work, as well as adding the other prefix/suffix (if you have `(something)_on` but not `(something)_off`, or `stop_(something)` but not `play_(something)`).
 
-### ignore close numbers
-If you have numbers that are the same save the last 2 digits (more or less) that means they share the same root and you only need to reverse one, wwiser automatically fills the rest. For example with 1189781958 and 1189781957 you only need to reverse first (`bgm1`), second (`bgm2`) will be automatically found.
+### split word lists
+To help with the above you can use this script: https://github.com/bnnm/wwiser-utils/blob/master/scripts/word-splitter.py
+Pass a `words.txt` list of things like `BGM_Vocal_Camp_Off`, and it'll generate a list of split parts in order (`BGM`, `BGM_Vocal_Camp` `Vocal_Camp_Off`, `Vocal_Camp`, etc). You can add extra prefixes/suffixes (like `_On`)
+
+Mainly useful when files have names, but some related variable/values are missing (in this case `Camp_Off` and `BGM_Vocal_Camp` were useful).
+
+### clean incorrectly used strings
+Sometimes seemingly correct words are marked as used, like `sheep`. Because how Wwise creates names there is a chance some words can be used in incorrect places. Check that `banks.xml` wwiser creates for suspicious words and see they are not used in incorrect places (wwiser sometimes will do this). Generally only events/states/variables/values/busses and a few other are allowed to have names. If `banks.xml` is too big find strings in a hex editor (much faster).
 
 ### give up
 Say you have almost every name-number down, save a couple. Just need to try a few more names...! Well, bad news: sometimes it's just too hard. Give up and move on. But you can always come back later, maybe names you need will be in the sequel or other game, or some extra tricks to get names will be added later.

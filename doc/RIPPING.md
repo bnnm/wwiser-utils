@@ -137,6 +137,8 @@ https://github.com/bnnm/wwiser-utils/blob/master/scripts/wwise_pck_extractor.bms
 First consider if you *REALLY* want this. The guide recommends to include `.bnk` in the rip for a reason, so might as well leave it untouched in the /wem dir. "*But my `.bnk` has sfx too!!!*". Well. Is it really worth for you wasting time to trim a few MB from a file you won't ever see or open manually? If so, make sure you check "treat internal .wem as external" when generating `.txtp`, and use this .bms to extract `.bnk`:
 https://github.com/bnnm/wwiser-utils/blob/master/scripts/wwise_bnk_extractor.bms 
 
+If file is marked with `{!}` this means it uses some hard-to-simulate feature and won't play sound off/silent.
+
 ### "I DON'T HAVE .WEM BUT .WAV/XMA/OGG, WHAT DO I DO?"
 Early games (before mid-2011) use those extensions, don't rename to .wem! That's correct and will work fine as-is, just pretend they are .wem. There is an option to use .logg/.lwav too, but it's not needed (.txtp work fine with .ogg/wav). Conversely if you used some random program to extract from bigfiles and your game is after mid-2011, you need to rename to .wem first.
 
