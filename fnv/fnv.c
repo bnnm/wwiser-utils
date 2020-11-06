@@ -46,7 +46,9 @@ typedef struct {
 
     char name_prefix[MAX_CHARS];
     char name_suffix[MAX_CHARS];
-    
+    int name_prefix_len;
+    int name_suffix_len;
+
     int ignore_banlist;
     int print_text;
     int restrict_letters;
@@ -54,6 +56,7 @@ typedef struct {
     //state
     const char* targets_s[MAX_TARGETS];
     uint32_t target;
+    uint32_t target_fuzzy;
     uint32_t targets[MAX_TARGETS];
     int targets_count;
     int reverse_names;
@@ -69,13 +72,13 @@ fnv_config cfg;
 static void print_name(int depth, int show_suffix) {
     printf("* match: ");
 
-    if (cfg.name_prefix)
+    if (cfg.name_prefix_len)
         printf("%s", cfg.name_prefix);
 
     if (depth >= 0)
         printf("%.*s", depth + 1, name);
 
-    if (show_suffix && cfg.name_suffix)
+    if (show_suffix && cfg.name_suffix_len)
         printf("%s", cfg.name_suffix);
 
     printf("\n");
@@ -84,7 +87,7 @@ static void print_name(int depth, int show_suffix) {
 
 static inline void fnv_test_suffix(const uint32_t cur_hash, const int depth, const char elem) {
     uint32_t new_hash = cur_hash;
-    for (int n = 0; n < strlen(cfg.name_suffix); n++) {
+    for (int n = 0; n < cfg.name_suffix_len; n++) {
         new_hash = (new_hash * 16777619) ^ cfg.name_suffix[n];
     }
     if (new_hash == cfg.target) {
@@ -120,6 +123,13 @@ static void fvn_depth_suffix(const uint32_t cur_hash, const int depth, int pos) 
 // depth of exactly N letters
 static void fvn_depth_max(const uint32_t cur_hash, const int depth) {
 
+    // since different letters in dict only change last byte
+    // we can quickly check if target hash will be found in this loop
+    uint32_t fuzzy_hash = (cur_hash * 16777619) & 0xFFFFFF00;
+    if (fuzzy_hash != cfg.target_fuzzy) 
+        return;
+
+    // target will be in this loop
     for (int i = 0; i < MAX_LETTERS; i++) {
         char elem = dict[i];
         //if (!list[1][prev][elem])
@@ -177,7 +187,7 @@ static void fvn_depth1(uint32_t cur_hash, int depth) {
 #endif
 
         uint32_t new_hash = (cur_hash * 16777619) ^ elem;
-        if (cfg.name_suffix) {
+        if (cfg.name_suffix_len) {
             fnv_test_suffix(new_hash, depth, elem);
         }
         else if (new_hash == cfg.target) {
@@ -204,7 +214,7 @@ static void fvn_depth0(uint32_t cur_hash) {
             printf("- letter: %c\n", elem);
 
         uint32_t new_hash = (cur_hash * 16777619) ^ elem;
-        if (cfg.name_suffix) {
+        if (cfg.name_suffix_len) {
             fnv_test_suffix(new_hash, depth, elem);
         }
         else if (new_hash == cfg.target) {
@@ -215,7 +225,7 @@ static void fvn_depth0(uint32_t cur_hash) {
         if (depth < cfg.max_depth) {
             name[depth] = elem;
 
-            if (cfg.name_suffix)
+            if (cfg.name_suffix_len)
                 fvn_depth_suffix(new_hash, depth + 1, list_start);
             else
                 fvn_depth1(new_hash, depth + 1);
@@ -244,10 +254,13 @@ static void read_banlist_restrict() {
         return;
     
     if (cfg.start_letter != '\0') {
+        int pos = get_dict_pos(cfg.start_letter);
+
         for (int i = 0; i < MAX_TABLE; i++) {
-            int pos = get_dict_pos(i);
-            if (pos >= 0 && pos < cfg.begin_i) {
-                for (int j = 0; j < MAX_TABLE; j++) {
+            for (int j = 0; j < MAX_TABLE; j++) {
+                int pos_1 = get_dict_pos(i);
+                int pos_2 = get_dict_pos(j);
+                if (pos_1 >= 0 && pos_1 < pos || pos_2 >= 0 && pos_2 < pos) {
                     list[0][i][j] = 0;
                     list[1][i][j] = 0;
                 }
@@ -256,10 +269,13 @@ static void read_banlist_restrict() {
     }
 
     if (cfg.end_letter != '\0') {
-        for (int i = 0; i < (uint8_t)cfg.start_letter; i++) {
-            int pos = get_dict_pos(i);
-            if (pos >= 0 &&pos > cfg.end_i) {
-                for (int j = 0; j < MAX_TABLE; j++) {
+        int pos = get_dict_pos(cfg.end_letter);
+
+        for (int i = 0; i < MAX_TABLE; i++) {
+            for (int j = 0; j < MAX_TABLE; j++) {
+                int pos_1 = get_dict_pos(i);
+                int pos_2 = get_dict_pos(j);
+                if (pos_1 >= 0 && pos_1 > pos || pos_2 >= 0 && pos_2 > pos) {
                     list[0][i][j] = 0;
                     list[1][i][j] = 0;
                 }
@@ -366,7 +382,7 @@ static void print_usage(const char* name) {
             "    -p NAME_PREFIX: start text of original name\n"
             "       Use when possible to reduce search space (ex. 'play_')\n"
             "    -s NAME_SUFFIX: end text of original name\n"
-            "       Use when possible to reduce search space (ex. '_bgm')\n"
+            "       Use to reduce search space, but slower than prefix (ex. '_bgm')\n"
             "    -l START_LETTER: start letter (use to resume searches)\n"
             "    -L END_LETTER: end letter\n"
             "       Dictionary letters: %s\n"
@@ -411,23 +427,25 @@ static int parse_cfg(fnv_config* cfg, int argc, const char* argv[]) {
                 i++;
                 CHECK_EXIT(i >= argc, "ERROR: missing name prefix");
                 strncpy(cfg->name_prefix, argv[i], MAX_CHARS);
+                cfg->name_prefix_len = strlen(cfg->name_prefix);
                 break;
             case 's':
                 i++;
                 CHECK_EXIT(i >= argc, "ERROR: missing name suffix");
                 strncpy(cfg->name_suffix, argv[i], MAX_CHARS);
+                cfg->name_suffix_len = strlen(cfg->name_suffix);
                 break;
             case 'l':
                 i++;
                 CHECK_EXIT(i >= argc, "ERROR: missing start letter");
                 CHECK_EXIT(strlen(argv[i]) > 1, "ERROR: start letter must be 1 character");
-                cfg->start_letter = argv[i][0];
+                cfg->start_letter = tolower(argv[i][0]);
                 break;
             case 'L':
                 i++;
                 CHECK_EXIT(i >= argc, "ERROR: missing end letter");
                 CHECK_EXIT(strlen(argv[i]) > 1, "ERROR: end letter must be 1 character");
-                cfg->end_letter = argv[i][0];
+                cfg->end_letter = tolower(argv[i][0]);
                 break;
             case 'i':
                 cfg->ignore_banlist = 1;
@@ -472,14 +490,14 @@ static int parse_cfg(fnv_config* cfg, int argc, const char* argv[]) {
         }
     }
 
-    if (cfg->name_prefix) {
-        for (int i = 0; i < strlen(cfg->name_prefix); i++) {
+    if (cfg->name_prefix_len) {
+        for (int i = 0; i < cfg->name_prefix_len; i++) {
             cfg->name_prefix[i] = tolower(cfg->name_prefix[i]);
         }
     }
 
-    if (cfg->name_suffix) {
-        for (int i = 0; i < strlen(cfg->name_suffix); i++) {
+    if (cfg->name_suffix_len) {
+        for (int i = 0; i < cfg->name_suffix_len; i++) {
             cfg->name_suffix[i] = tolower(cfg->name_suffix[i]);
         }
     }
@@ -542,21 +560,32 @@ int main(int argc, const char* argv[]) {
     printf("\n");
 
     uint32_t base_hash = 2166136261;
-    if (cfg.name_prefix) {
-        for (int i = 0; i < strlen(cfg.name_prefix); i++) {
+    if (cfg.name_prefix_len) {
+        for (int i = 0; i < cfg.name_prefix_len; i++) {
             base_hash = (base_hash * 16777619) ^ cfg.name_prefix[i];
-        }
-
-        if (base_hash == cfg.target) {
-            print_name(-1, 0);
         }
     }
 
     for (int t = 0; t < cfg.targets_count; t++) {
         cfg.target = cfg.targets[t];
+        cfg.target_fuzzy = cfg.target & 0xFFFFFF00;
 
         printf("finding %u\n", cfg.target);
         print_time("start");
+
+        if (base_hash == cfg.target) {
+            print_name(-1, 0);
+        }
+        else if (cfg.name_suffix_len) {
+            uint32_t new_hash = base_hash;
+            for (int n = 0; n < cfg.name_suffix_len; n++) {
+                new_hash = (new_hash * 16777619) ^ cfg.name_suffix[n];
+            }
+
+            if (new_hash == cfg.target) {
+                print_name(-1, 1);
+            }
+        }
 
         fvn_depth0(base_hash);
 
