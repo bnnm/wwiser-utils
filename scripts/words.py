@@ -175,6 +175,9 @@ class Words(object):
                                 if fnv_fuzz != fnv & 0xFFFFFF00:
                                     continue
                                 out_final = self._fnv.unfuzzy_hashname(fnv, out)
+                                if not out_final: #shouln't happen for proper cases
+                                    #out_final = "%s???" % (out)
+                                    continue
                                 outfile.write("%s: %s\n" % (fnv, out_final))
                                 outfile.flush() #reversing is most interesting with lots of loops = slow, keep flushing
                                 written += 1
