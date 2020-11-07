@@ -31,12 +31,6 @@ if SUM < HEADER_SIZE
 	get SEC4_SIZE long
 endif
 
-# possible?
-if SEC2_SIZE == 0
-    print "can't detect bank version, assuming new (set manually)"
-    math BANK_VERSION = 62
-endif
-
 ###
 
 # Get languages
@@ -47,6 +41,12 @@ set SECTION_SIZE SEC2_SIZE
 set IS_SOUNDS long 0
 set EXT string "bnk"
 callfunction PARSE_TABLE 1
+
+# banks section always exists but may set 0 files = can't autodetect
+if BANK_VERSION == 0
+    print "can't detect bank version, assuming new (set manually)"
+    math BANK_VERSION = 62
+endif
 
 # Extract sounds
 set SECTION_SIZE SEC3_SIZE
