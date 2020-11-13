@@ -21,12 +21,16 @@ Quick guide to get decent Wwise rips
 - remove unwanted .txtp (like voices)
 - use this script to move .wem not in .txtp to /unwanted:
   https://github.com/bnnm/wwiser-utils/blob/master/scripts/wwise-cleaner.py
-  - check if /unwanted does have wanted music (may have removed good .txtp)
+  - check if /unwanted does have wanted music (you may have removed good .txtp)
+  - normally you don't need to keep /unwanted in the rip, if it only contains sfx/voices
 - check if there are .wem in root (before /txtp folder) not moved with have useful/unused audio
-  - put in "/unused" folder
+  - put those in "/unused" folder
+  - these can be unused unique .wem, unused copies of other .wem, or unused copies of .wem inside .bnk
+  - use this script to move .wem in /unused that aren't unique to dupe folder:
+    https://github.com/bnnm/wwiser-utils/blob/master/scripts/wwise-dupes.py
 - include companion files (.xml/.txt/etc) + .bnk in some /extra folder or !extra.7z
   - you may need to re-generate when new features/fixes are added (!!!)
-  - some .bnk may need to go to /wem folder instead (see log!), might as well put files there
+  - some .bnk may need to go to /wem folder instead (see log!), might as well put all files there
 - 7zip files and folders (with .txtp in root) + upload rip somewhere
 
 Note! .txtp are Good Enough but not perfect in all cases. This means you may need to generate them again later when I fix bugs. I wanted to make them future-proof and avoid re-generating but it was too time-consuming, sorry.

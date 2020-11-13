@@ -253,6 +253,19 @@ For the daring you can use the combinator feature. `words.py -c N` takes `words.
 
 Downside is that many words + high `-c N` = humongous number of results. So `words.txt` here should be restricted to mostly relevant words (remove `Desert` if you aren't trying to find events related to that). Best is to combine with `fnv.txt` to reverse only, since generated `.txt` can be +GBs big otherwise. Try `-c 2` and see if some names worked, reduce words and try `-c 3`. `-c 4` is possible but could take a few hours, `-c 5` and beyond may take ages. Add `-S` to disable the *split words by _* feature to fine tune your word count too.
 
+A more specialized version is using `words.py -p`. this takes `words.txt`, that must be divided into "section", and makes permutations of those sections to create combo words. For example:
+```
+BGM
+Play_BGM
+### section end
+mission
+stage
+### section end
+01
+001
+```
+With those 3 sections it makes: `BGM_mission_01`, `BGM_stage_01`, `BGM_mission_001`, ..., `Play_BGM_mission_01`, `Play_BGM_stage_001`, an so on. This is similar as making formats (`BGM_%s_01`, `BGM_%s_001`) but simplifies testing more combos. Formats can be used on top of the permutations too.
+
 ### clean incorrectly used strings
 Sometimes seemingly correct words are marked as used, like `sheep`. Because how Wwise creates names there is a chance some words can be used in incorrect places. Check that `banks.xml` wwiser creates for suspicious words and see they are not used in incorrect places (wwiser sometimes will do this). Generally only events/states/variables/values/busses and a few other are allowed to have names. If `banks.xml` is too big find strings in a hex editor (much faster).
 
