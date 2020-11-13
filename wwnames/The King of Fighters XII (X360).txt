@@ -624,6 +624,7 @@ ralf
 ranking
 replay
 result
+result_f
 result_final
 rob_loop_stop
 rob_se_geneikyaku_kara

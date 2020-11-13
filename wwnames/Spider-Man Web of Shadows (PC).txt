@@ -103,3 +103,7 @@ vulture_hive
 vulture_hive_igc
 vulture_s
 wolverine
+
+spidey_alignment
+red
+black
