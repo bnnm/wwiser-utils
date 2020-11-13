@@ -31,11 +31,13 @@ class Words(object):
     FILENAME_REVERSE = 'fnv.txt'
     PATTERN_LINE = re.compile(r'[\t\n\r .<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|]')
     PATTERN_WORD = re.compile(r'[_]')
-    
+
     def __init__(self):
         self._args = None
         self._words = {} #set() #ordered in python 3.7+, might as well
         self._formats = []
+        self._sections = []
+        self._sections.append({})
         self._section = 0
         self._fnv = Fnv()
 
@@ -48,25 +50,29 @@ class Words(object):
             "examples:\n"
             "  %(prog)s\n"
             "  - makes output with default files\n"
-            "  %(prog)s -f BGM_%%s_01\n"
+            "  %(prog)s -F BGM_%%s_01\n"
             "  - may pass formats directly (formats.txt can be ommited)\n"
             "  %(prog)s -c 3\n"
             "  - combines words from list: A_A_A, A_A_B, A_A_C ...\n"
+            "  %(prog)s -p\n"
+            "  - combines words from sections in list: A1_B1_C1, A1_B2_C1, ...\n"
+            "    (end sections in words.txt with ###)\n"
             "  %(prog)s -c 4 -r 123543234 654346764\n"
             "  - combines words from list and tries to match them to FNV IDs\n"
         )
 
         parser = argparse.ArgumentParser(description=description, epilog=epilog, formatter_class=argparse.RawTextHelpFormatter)
-        #parser.add_argument('files', help="Files to get (wildcards work)", nargs='+')
-        parser.add_argument('-i',  '--input',  help="Input list\n- separate into multiple sections with #", default=self.FILENAME_IN)
-        parser.add_argument('-o',  '--output',  help="Output list", default=self.FILENAME_OUT)
-        parser.add_argument('-f',  '--formats', help="Set format to replace word\n- use {n} to replace a word in section N", default=[], nargs='*')
-        parser.add_argument('-F',  '--formats-file', help="Loads format list from a file intead of parameters", default=self.FILENAME_FORMATS)
-        parser.add_argument('-S',  '--no-split', help="Disable splitting words by '_'", action='store_true')
+        parser.add_argument('-i',  '--input_file',   help="Input list", default=self.FILENAME_IN)
+        parser.add_argument('-o',  '--output_file',  help="Output list", default=self.FILENAME_OUT)
+        parser.add_argument('-f',  '--formats-file', help="Format list file\n- use %%s to replace a word from input list", default=self.FILENAME_FORMATS)
+        parser.add_argument('-F',  '--formats',      help="Pass extra formats", default=[], nargs='*')
+        parser.add_argument('-c',  '--combinations', help="Combine words in input list by N\nWARNING! don't set high with lots of formats/words\nand use -S")
+        parser.add_argument('-p',  '--permutations', help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words.txt and start next with ###\nWARNING! don't combine many sections+words", action='store_true')
+        parser.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only writes words that match FND IDs", default=self.FILENAME_REVERSE)
+        parser.add_argument('-R',  '--reverse',      help="Pass FNV list", nargs='*')
         parser.add_argument('-j',  '--join-blank', help="Join words without '_'\n(Word + Word = WordWord instead of Word_Word)", action='store_true')
-        parser.add_argument('-c',  '--combos',  help="Combine words in input list by N, ignoring formats\nWARNING! don't set high with lots of formats/words\nand use -S\n")
-        parser.add_argument('-r',  '--reverse', help="Writes only words that match FND IDs in the passed list or fnv.txt\n", nargs='*')
-        parser.add_argument('-R',  '--reverse-file', help="Loads FNV list to reverse intead of parameters", default=self.FILENAME_REVERSE)
+        parser.add_argument('-ns', '--no-split', help="Disable splitting words by '_'", action='store_true')
+        parser.add_argument('-nz', '--no-fuzzy', help="Disable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
         return parser.parse_args()
 
     def _add_format(self, format):
@@ -105,8 +111,13 @@ class Words(object):
         if not elem:
             return
 
+        if self._args.permutations:
+            words = self._sections[self._section]
+        else:
+            words = self._words
+
         if self._args.no_split:
-            self._words[elem.lower()] = elem
+            words[elem.lower()] = elem
             return
 
         joiner = self._get_joiner()
@@ -116,30 +127,60 @@ class Words(object):
             combo = joiner.join(subwords[i:j])
             if not combo:
                 continue
-            self._words[combo.lower()] = combo
+            words[combo.lower()] = combo
 
     def _read_words(self):
         try:
-            with open(self._args.input, 'r') as infile:
+            with open(self._args.input_file, 'r') as infile:
                 for line in infile:
+                    # section end when using permutations
+                    if self._args.permutations and line.startswith('###'):
+                        self._sections.append({})
+                        self._section += 1
+                        continue
+                    # comment
+                    if line.startswith('#'):
+                        continue
+
                     elems = self.PATTERN_LINE.split(line)
                     for elem in elems:
                         self._add_word(elem)
         except FileNotFoundError:
-            print("couldn't find input file %s" % (self._args.input))
+            print("couldn't find input file %s" % (self._args.input_file))
 
-    def _get_combos(self):
-        total = len(self._words)
-        combos = int(self._args.combos)
-        print("creating %i combinations" % (pow(total, combos))) #can be gigantic!
+    def _get_permutations(self):
+        permutations = 1
+        for section in self._sections:
+            permutations *= len(section.keys())
+        print("creating %i permutations * %i formats" % (permutations, len(self._formats)) )
 
-        words = self._words.values()
-        elems = itertools.product(words, repeat = combos)
+        elems = itertools.product(*self._sections)
         return elems
 
+    def _get_combinations(self):
+        total = len(self._words)
+        combinations = int(self._args.combinations)
+        print("creating %i combinations * %i formats" % (pow(total, combinations), len(self._formats)) )
+
+        words = self._words.values()
+        elems = itertools.product(words, repeat = combinations)
+        return elems
+
+    def _get_basewords(self):
+        elems = self._words.values()
+        print("creating %i words * %i formats" % (len(elems), len(self._formats)))
+        return elems
 
     def _write_words(self):
-        if not self._words:
+        #words = ["_".join(x) for x in self._get_xxx()] #huge memery consumption, not iterator?
+        if self._args.permutations:
+            words = self._get_permutations()
+        elif self._args.combinations:
+            words = self._get_combinations()
+        else:
+            words = self._words.values()
+
+        if not words:
             print("no words found")
             return
 
@@ -148,43 +189,58 @@ class Words(object):
             print("reversing FNVs")
         else:
             print("generating words")
-
-        if self._args.combos:
-            #words = ["_".join(x) for x in self._get_combos()] #huge memery consumption, not iterator?
-            words = self._get_combos()
-        else:
-            words = self._words.values()
+        reversed = {}
 
         joiner = self._get_joiner()
+        combine = self._args.combinations or self._args.permutations
 
+        count = 0
+        top = 10000000
         written = 0
-        with open(self._args.output, 'w') as outfile:
+        with open(self._args.output_file, 'w') as outfile:
             for word in words:
                 for format in self._formats:
-                    if self._args.combos:
+                    if combine:
                         out = format % (joiner.join(word))
                     else:
                         out = format % (word)
 
                     if fnv_dict:
-                        out = out.lower()
-                        fnv_fuzz = self._fnv.get_hash(out) & 0xFFFFFF00
+                        #out = out.lower()
+                        fnv_base = self._fnv.get_hash(out.lower())
+                        fnv_fuzz = fnv_base & 0xFFFFFF00
                         if fnv_fuzz in fuzzy_dict:
                             for fnv in fnv_dict.keys():
-                                # multiple fnv may use the same fuzz
-                                if fnv_fuzz != fnv & 0xFFFFFF00:
+                                if self._args.no_fuzzy:
+                                    # regular match
+                                    if fnv != fnv_base:
+                                        continue
+                                    out_final = out
+                                else:
+                                    # multiple fnv may use the same fuzz
+                                    if fnv_fuzz != fnv & 0xFFFFFF00:
+                                        continue
+                                    if fnv == fnv_base:
+                                        out_final = out
+                                    else:
+                                        out_final = self._fnv.unfuzzy_hashname(fnv, out)
+                                    if not out_final: #shouln't happen for proper cases
+                                        #out_final = "%s???" % (out)
+                                        continue
+
+                                if out_final in reversed:
                                     continue
-                                out_final = self._fnv.unfuzzy_hashname(fnv, out)
-                                if not out_final: #shouln't happen for proper cases
-                                    #out_final = "%s???" % (out)
-                                    continue
+                                reversed[out_final] = True
                                 outfile.write("%s: %s\n" % (fnv, out_final))
                                 outfile.flush() #reversing is most interesting with lots of loops = slow, keep flushing
                                 written += 1
                     else:
                         outfile.write(out + '\n')
                         written += 1
-
+                count += 1
+                if count == top:
+                    top += 1000000
+                    print("%i..." % (count), word)
         if fnv_dict:
             print("found %i matches" % (written))
         else:
