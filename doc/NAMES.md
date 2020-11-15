@@ -231,7 +231,7 @@ When guessing keep in mind name styles the dev uses their games. For example, on
 ### trim prefixes/suffixes
 Sometimes you can find games with "variable-setter" events, for example `Set_State_BGM_Vocal_On`. This often means variable isn't referenced directly (no associated name), but with some luck `BGM_Vocal` will be the missing name. So looking for `Set_(something)` or `(something)_on/off` and removing the prefix/suffix is a good way to try a few extra names. Other suffixes like `_in/out` work, as well as adding the other prefix/suffix (if you have `(something)_on` but not `(something)_off`, or `stop_(something)` but not `play_(something)`).
 
-## check close/related Wwise objects
+### check close/related Wwise objects
 The way `bnk` saves objects (see `.xml` wwiser generates) actually has some semblance of order. Some parts (like playlist children) are ordered by ID, but events often are saved near related objects, and particularly `init.bnk` may have a `GlobalSettingsChunk` that lists all variables in dev order.
 
 If you have some named variables in that chunk you can narrow the search a lot. For example in Nier Automata: we have 3 variables: `BGM_Shop`, `3758536580`, `BGM_Slow`. Logically `3758536580` must be `BGM_Sh*/BGM_Si*/BGM_Sl*`. `Si*` looks the most likely, so we try `fnv.exe 3758536580 -p BGM_Si`. No results, but just in case again with extra checks disabled (these speed up reversing but also reject some less common names): `fnv.exe 3758536580 -p BGM_Si -i`. Now one of the results is `BGM_Sine_1khz`, which makes sense as the variable is used with channel test events.
@@ -253,7 +253,7 @@ For the daring you can use the combinator feature. `words.py -c N` takes `words.
 
 Downside is that many words + high `-c N` = humongous number of results. So `words.txt` here should be restricted to mostly relevant words (remove `Desert` if you aren't trying to find events related to that). Best is to combine with `fnv.txt` to reverse only, since generated `.txt` can be +GBs big otherwise. Try `-c 2` and see if some names worked, reduce words and try `-c 3`. `-c 4` is possible but could take a few hours, `-c 5` and beyond may take ages. Add `-S` to disable the *split words by _* feature to fine tune your word count too.
 
-A more specialized version is using `words.py -p`. this takes `words.txt`, that must be divided into "section", and makes permutations of those sections to create combo words. For example:
+A more specialized version is using `words.py -p`. this takes `words.txt`, that must be divided into "sections", and makes permutations of those sections to create combo words. For example:
 ```
 BGM
 Play_BGM
