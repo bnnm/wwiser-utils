@@ -387,6 +387,7 @@ static void print_usage(const char* name) {
             "    -L END_LETTER: end letter\n"
             "       Dictionary letters: %s\n"
             "    -r: restrict START/END letters on all levels (default to base level only)\n"
+            "    -R: restrict START/END letters on all levels to a..z\n"
             "    -m N: max characters in name (default %i)\n"
             "       Beyond 8 search is too slow and gives too many false positives\n"
             "    -i: ignore ban list (%s)\n"
@@ -463,6 +464,11 @@ static int parse_cfg(fnv_config* cfg, int argc, const char* argv[]) {
                 break;
             case 'r':
                 cfg->restrict_letters = 1;
+                break;
+            case 'R':
+                cfg->restrict_letters = 1;
+                cfg->start_letter = 'a';
+                cfg->end_letter = 'z';
                 break;
             case 'h':
                 print_usage(argv[0]);
