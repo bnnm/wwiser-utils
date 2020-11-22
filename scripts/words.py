@@ -99,6 +99,9 @@ class Words(object):
         parser.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only writes words that match FND IDs", default=self.FILENAME_REVERSE)
         parser.add_argument('-R',  '--reverse-list', help="Pass FNV list", nargs='*')
         parser.add_argument('-j',  '--join-blank',   help="Join words without '_'\n(Word + Word = WordWord instead of Word_Word)", action='store_true')
+        parser.add_argument('-sp', '--split-prefix', help="Splits words by (prefix)_(word) rather than any '_'", action='store_true')
+        parser.add_argument('-ss', '--split-suffix', help="Splits words by (word)_(suffix) rather than any '_'", action='store_true')
+        parser.add_argument('-sb', '--split-both',   help="Splits words by (prefix)_(word)_(suffix) rather than any '_'", action='store_true')
         parser.add_argument('-ns', '--no-split',     help="Disable splitting words by '_'", action='store_true')
         parser.add_argument('-nz', '--no-fuzzy',     help="Disable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
         return parser.parse_args()
@@ -147,8 +150,38 @@ class Words(object):
         joiner = self._get_joiner()
 
         subwords = self.PATTERN_WORD.split(elem)
-        for i, j in itertools.combinations(range(len(subwords) + 1), 2):
-            combo = joiner.join(subwords[i:j])
+        combos = []
+
+        if self._args.split_prefix:
+            prefix = subwords[0]
+            word = joiner.join(subwords[1:])
+            combos.extend([elem, prefix, word])
+
+            #print("pre: %s: %s / %s" % (elem, prefix, word))
+            #return
+
+        elif self._args.split_suffix:
+            suffix = subwords[-1]
+            word = joiner.join(subwords[:-1])
+            combos.extend([elem, word, suffix])
+
+            #print("suf: %s: %s / %s" % (elem, word, suffix))
+            #return
+
+        elif self._args.split_both:
+            prefix = subwords[0]
+            suffix = subwords[-1]
+            word = joiner.join(subwords[1:-1])
+            combos.extend([elem, prefix, word, suffix])
+
+            #print("bot: %s: %s / %s / %s" % (elem, prefix, word, suffix))
+
+        else:
+            # all combos by default
+            for i, j in itertools.combinations(range(len(subwords) + 1), 2):
+                combos.append( joiner.join(subwords[i:j]) )
+
+        for combo in combos:
             if not combo:
                 continue
             words[combo.lower()] = combo

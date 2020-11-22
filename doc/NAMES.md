@@ -19,12 +19,13 @@ Quick guide to (possibly) get extra names:
   - unzip on same dir as `files.zip`
   - call on Windows CLI: `strings2.exe "files.zip" > wwnames.txt`
   - or create a file like `files.bat`, copy the line above + save, double click
+  - if zipped files are too big try splitting by max size, repeat steps below, and fuse all `wwnames.txt` created to a final one
 - this generates a `wwnames.txt` file with "possible" (not necessarily used) names
   - some "names" will be long lines or contain crap like `  "bgm"="name"  `,  that is fine and will be cleaned up automatically (reads `bgm` and `name`)
 - now put that file with all `.bnk`, wwiser can use it to get all possible names (may take a while to load if wwnames is big)
 - **HOWEVER** some names may be garbage, preferably do this:
   - put `wwiser.pyz`, `wwnames.db3` and `wwnames.txt` together with *all* banks (even voice/sfx)
-  - open windows CLI and call wwiser like this: `wwiser.pyz *.bnk -sl -sc`
+  - open windows CLI and call wwiser like this: `wwiser.pyz *.bnk -sl`
   - this creates a "clean" `wwnames-banks-(date).txt` with actually used names
   - open said file, look for clearly wrong names (like *x8273s* or *aXNuy*) and remove them, or change lower/uppercase in some cases (like `wIN` to `win` and such)
   - now rename `wwnames-bank-(date).txt` to `wwnames.txt` and use wwiser with that instead of the original file, since you just cleaned it up
@@ -239,19 +240,21 @@ If you have some named variables in that chunk you can narrow the search a lot. 
 For events, follow called IDs (see `tid`) and see what actions they trigger for hints. Events `BGM_Area_CampRoom_Out` and `BGM_Area_CampRoom_In` calls a SetState action that changes variable `4087916061` to value `on/off`. After some reversing that variable happens to be `BGM_Camp_Duck`. If values were `EN/JP`, that variable would have to do with `vocal` or `language`, etc.
 
 ### use words.py
-To help testing you can use this script: https://github.com/bnnm/wwiser-utils/blob/master/scripts/words.py (for advanced users). It automates some of the above tips. This is mainly useful when we already have a bunch of names (names are somewhat previsible) but are missing some others.
+To help testing you can use this script: https://github.com/bnnm/wwiser-utils/blob/master/scripts/words.py (for advanced users). It automates some of the above tips. This is mainly useful when we already have a bunch of names but are missing some others (names being are somewhat previsible).
 
 Basically make a `words.txt` list of things like `BGM_Vocal_Camp_Off`, launch `words.py` in the dir and it'll generate in `words_out.txt` a list of split parts (`BGM`, `BGM_Vocal_Camp` `Vocal_Camp_Off`, `Vocal_Camp`, `Vocal`, etc) from those words. This is useful because `Vocal` or `Vocal_Camp` are likely to be used as variable/values. It's best to start with all names we have, copy `wwnames.txt` and rename to `words.txt`.
 
 You can make `formats.txt` and add prefixes/suffixes: `%s`, `BGM_%s`, `BGM_%s_On`, `BGM_%s_Off`, `BGM_Play_%s`, etc. This will also make things that weren't in the original words, like `BGM_Play_Camp`, `BGM_Vocal_Camp_On` and so on (so you can target a certain type of names like missing `BGM_*`). Also remember last letter are auto-calculated, so a format like `%s_0` may find `BGM_Vocal_A` `BGM_Vocal_B`.
 
-Key here is we want quantity over quality. Just generate huge lists of possible names, rename `words_out.txtp` to `wwnames.txt` and let *wwiser* decide which names are good enough, as long as you have free memory big-ish files (ex. +300MB) are ok. You can get a bunch of false positives this way, but most should be obviously fake like `BGM_Voca4` (a few may need to be checked how are they used in the `.xml`).
+Key here is we want quantity over quality. Just generate huge lists of possible names, rename `words_out.txtp` to `wwnames.txt` and let *wwiser* decide which names are good enough, as long as you have free memory big-ish files (ex. +300MB) are ok (you may want to split giant words lists as they take a lot of memory). You can get a bunch of false positives this way, but most should be obviously fake like `BGM_Voca4` (a few may need to be checked how are they used in the `.xml`).
+
+Because splitting removes `_` (`_Vocal` won't be added), sometimes it's useful to add `_%s` and `%s_` as formats, as some game use names like `_01`. You can also try using the `-j` so words are joined without `_`, though not many games join words like `VocalCamp`.
 
 If there is a `fnv.txt` present with some ID numbers, instead of writing all generated words it'll only write words that match one of those IDs. Remember missing names can be created with *wwiser* using `-sl -sm`.
 
 For the daring you can use the combinator feature. `words.py -c N` takes `words.txt` and tries all combinations of N parts (`formats.txt` are also applied after those combinations). For example from `BGM`, `Vocal`, `Camp` `Desert` in `words.txt`, `-c 3` makes `BGM_Desert_Camp`, `BGM_Vocal_Desert` `Vocal_Camp_BGM` `Desert_BGM_Vocal` and so on. Many will be useless but again, quantity over quality. You can squeeze out a few names this way.
 
-Downside is that many words + high `-c N` = humongous number of results. So `words.txt` here should be restricted to mostly relevant words (remove `Desert` if you aren't trying to find events related to that). Best is to combine with `fnv.txt` to reverse only, since generated `.txt` can be +GBs big otherwise. Try `-c 2` and see if some names worked, reduce words and try `-c 3`. `-c 4` is possible but could take a few hours, `-c 5` and beyond may take ages. Add `-S` to disable the *split words by _* feature to fine tune your word count too.
+Downside is that many words + high `-c N` = humongous number of results. So `words.txt` here should be restricted to mostly relevant words (remove `Desert` if you aren't trying to find events related to that). Best is to combine with `fnv.txt` to reverse only, since generated `.txt` can be +GBs big otherwise. Try `-c 2` and see if some names worked, reduce words and try `-c 3`. `-c 4` is possible but could take many hours, `-c 5` and beyond may take ages. Total words and current word is printed every now and then so you can estimate time it'll take.
 
 A more specialized version is using `words.py -p`. this takes `words.txt`, that must be divided into "sections", and makes permutations of those sections to create combo words. For example:
 ```
@@ -266,11 +269,29 @@ stage
 ```
 With those 3 sections it makes: `BGM_mission_01`, `BGM_stage_01`, `BGM_mission_001`, ..., `Play_BGM_mission_01`, `Play_BGM_stage_001`, an so on. This is similar as making formats (`BGM_%s_01`, `BGM_%s_001`) but simplifies testing more combos. Formats can be used on top of the permutations too.
 
+To fine tune results a bit you can add some extra flags, particularly useful with combinations since they take tons of time if you split words by default. 
+- `-ns`: disables *split words by _*.
+- `-sp`: splits words by prefix like `(preffix)_(word)`
+- `-ss`: splits words by suffix like `(word)_(suffix)`
+- `-sb`: splits words by both prefix/suffix like `(preffix)_(word)_(suffix)`
+- `-nz`: disables "fuzzy matching" when reversing (last letter isn't autocalculated)
+
+
 ### clean incorrectly used strings
 Sometimes seemingly correct words are marked as used, like `sheep`. Because how Wwise creates names there is a chance some words can be used in incorrect places. Check that `banks.xml` wwiser creates for suspicious words and see they are not used in incorrect places (wwiser sometimes will do this). Generally only events/states/variables/values/busses and a few other are allowed to have names. If `banks.xml` is too big find strings in a hex editor (much faster).
 
 ### repeat steps
 Since the list keeps growing it's useful to repeat some steps so newer names have a chance to contribute. For example, after using `words.py` we later reverse `BGM_Sine_1khz`. Then calling `words.py` again with a bunch of formats variations revealed `BGM_Stop_1khz`, `Ot_1khz`, `BGM_Set_Ot_1khz`, and so on.
+
+### handle bus names
+While generally not very interesting, audio buses' names can also be reversed. But annoyingly enough they follow slightly different rules. Reversable (event/variable/etc) names can only contain lowercase letters, numbers, underscore `_` and cannot start with a number, but buses do allow spaces, start with numbers, and possibly some symbols like `()`.
+
+By default *wwiser* ignores bus rules (improves overall output), but you can enable them by adding `= 0` after a name:
+```
+# will load bus names properly, without = 0 would load "Audio", "Bus" and ignore "01_Bus".
+Audio Bus = 0
+01_Bus = 0
+```
 
 ### give up
 Say you have almost every name-number down, save a couple. Just need to try a few more names...! Well, bad news: sometimes it's just too hard. Give up and move on. But you can always come back later, maybe names you need will be in the sequel or other game, or some extra tricks to get names will be added later.
