@@ -1,6 +1,7 @@
 ### Spider-Man: Web of Shadows (PC)
 ###  original by Nicknine
 
+#events
 mx_main_menu_loop
 mx_city
 mx_spiderman_dies
@@ -28,23 +29,31 @@ mx_act2
 mx_act3
 music_enable_city
 music_disable_city
+music_enable_city_delay
 
+#variables
 act1_city
 act2_city
 act3_city
 
-music_intensity
 act
 act1
 act2
 act3
+
 spidey_suit
 suit
 redsuit
 blacksuit
+
+music_intensity
 low
 mid
 high
+
+spidey_alignment
+red
+black
 
 #banks
 act1_character
@@ -109,10 +118,6 @@ vulture_hive
 vulture_hive_igc
 vulture_s
 wolverine
-
-spidey_alignment
-red
-black
 
 ### EXTRA
 
@@ -210,7 +215,6 @@ _25
 _50
 _75
 _100
-
 
 afternoon
 air
