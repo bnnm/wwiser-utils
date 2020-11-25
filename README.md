@@ -18,6 +18,14 @@ Compile with: `gcc -O3 fnv.c -o fnv.exe` or similar tools (no particular depende
 See *doc/NAMES.md* and *doc/RIPPING.md* about tips on usage.
 
 
+## WORDS
+A helper to reverse names from existing word lists.
+
+Run `words.py` with a `words.txt` nearby (usually a renamed `wwnames.txt`) to generate `words_out.txt` with variations of the list, that then can be fed to *wwiser*. With some extra commands and tricks it can create variations of names that may used by the game.
+
+See *doc/NAMES.md* and *doc/RIPPING.md* about tips on usage.
+
+
 ## DB3
 Sample of `wwnames.db3`, a file *wwiser* can get to write extra names. At the moment it only has default/common names, but may be expanded in the future.
 
@@ -25,7 +33,7 @@ Use *wwiser* to create or fill the .db3, for example: `wwiser.pyz -d none dummy.
 
 
 ## SCRIPTS
-Helper scripts for Wwise ripping, for see docs for intended usage.
+Other helper scripts for Wwise ripping, for see docs for tips on usage.
 
 
 ## CLI EXAMPLES

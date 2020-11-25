@@ -187,6 +187,7 @@ class Words(object):
             words[combo.lower()] = combo
 
     def _read_words(self):
+        print("reading words")
         try:
             with open(self._args.input_file, 'r') as infile:
                 for line in infile:
