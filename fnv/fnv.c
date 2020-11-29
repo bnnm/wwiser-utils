@@ -19,7 +19,7 @@
 #define FNV_VERSION "1.0"
 
 #define MAX_CHARS 64
-#define MAX_TARGETS 256
+#define MAX_TARGETS 512
 #define MAX_BASE 1024 //in case of starting words
 #define MAX_DEPTH 16
 #define MAX_LETTERS 37
@@ -572,12 +572,12 @@ int main(int argc, const char* argv[]) {
         }
     }
 
+    print_time("start");
     for (int t = 0; t < cfg.targets_count; t++) {
         cfg.target = cfg.targets[t];
         cfg.target_fuzzy = cfg.target & 0xFFFFFF00;
 
         printf("finding %u\n", cfg.target);
-        print_time("start");
 
         if (base_hash == cfg.target) {
             print_name(-1, 0);
@@ -595,9 +595,9 @@ int main(int argc, const char* argv[]) {
 
         fvn_depth0(base_hash);
 
-        print_time("end");
         printf("\n");
     }
+    print_time("end");
 
 
     return 0;
