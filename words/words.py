@@ -141,6 +141,8 @@ class Words(object):
     def _add_word(self, elem):
         if not elem:
             return
+        if elem.count('_') > 20: #bad line like _______...____
+            return
 
         words = self._words
         if self._args.no_split:
@@ -155,7 +157,7 @@ class Words(object):
         if self._args.split_prefix:
             prefix = subwords[0]
             word = joiner.join(subwords[1:])
-            combos.extend([elem, prefix, word])
+            combos.extend([prefix, word])
 
             #print("pre: %s: %s / %s" % (elem, prefix, word))
             #return
@@ -163,7 +165,7 @@ class Words(object):
         elif self._args.split_suffix:
             suffix = subwords[-1]
             word = joiner.join(subwords[:-1])
-            combos.extend([elem, word, suffix])
+            combos.extend([word, suffix])
 
             #print("suf: %s: %s / %s" % (elem, word, suffix))
             #return
@@ -172,7 +174,7 @@ class Words(object):
             prefix = subwords[0]
             suffix = subwords[-1]
             word = joiner.join(subwords[1:-1])
-            combos.extend([elem, prefix, word, suffix])
+            combos.extend([prefix, word, suffix])
 
             #print("bot: %s: %s / %s / %s" % (elem, prefix, word, suffix))
 
@@ -185,6 +187,9 @@ class Words(object):
             if not combo:
                 continue
             words[combo.lower()] = combo
+
+        # always add itself (needed when joiner is not _)
+        words[elem.lower()] = elem
 
     def _read_words(self):
         print("reading words")
@@ -200,6 +205,9 @@ class Words(object):
 
                     # comment
                     if line.startswith('#'):
+                        continue
+
+                    if len(line) > 500:
                         continue
 
                     elems = self.PATTERN_LINE.split(line)
@@ -290,7 +298,8 @@ class Words(object):
         combine = self._args.combinations or self._args.permutations
 
         info_count = 0
-        info_top = 1000000
+        info_add = 1000000 // len(formats)
+        info_top = info_add
         written = 0
         with open(self._args.output_file, 'w') as outfile:
             for word in words:
@@ -333,7 +342,7 @@ class Words(object):
 
                 info_count += 1
                 if info_count == info_top:
-                    info_top += 1000000
+                    info_top += info_add
                     print("%i..." % (info_count), word)
 
         if self._reverse:
