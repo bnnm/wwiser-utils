@@ -271,12 +271,14 @@ You can even include very different games but it increases the chance of false p
 ### add game-related strings
 Since Wwise thing are generally named using game terms, it's often useful to add names that may not be in the original list but are used by the game (like  `mario` `luigi`). Characters, weapons, items, game modes, stages, environments, the more the merrier. If the list so far has some names but not others, just add a bunch. Conversely if the list doesn't refer to typical terms might not be worth bothering.
 
-This is best used in the `words.py` step + combinations, described later.
+These terms are best used with `words.py` step + combinations, described below. Watch out for usage of abbreviations (`Wpn`, `amb`), joint words (`RoomWindow`) and even misspelling (`lazer`).
+
+Sometimes even related media may hold the key. In some developer blog post, Platinum Games kindly provided nice dev screenshots+videos for Nier Automata revealing the elusive `BGM_IntroOff_Cansel`.
 
 ### use words.py
-As decribed above, this automates some tips, though it only works with existing words. Best used before we start adding names manually, since it'll often find a bunch automatically.
+As explained before, this automates some of the steps, though only works with existing words lists. Best used before we start adding names manually, since it'll often find a bunch automatically.
 
-A trick for games with very few names is combining common `formats_common.txt` with `engligh_words.txt`.
+A trick for games with few names is combining `formats_common.txt` with `engligh_words.txt`.
 
 ### try similar names + fnv.exe
 Files may have `bgm_start` and `bgm_mute` that are properly used, but you are missing other bgm-related names.
@@ -305,7 +307,7 @@ Unfortunately this also means some events/states/etc may be named incorrectly, a
 Since the list keeps growing it's useful to repeat some steps so newer names have a chance to contribute. For example, after using `words.py` we later reverse `BGM_Sine_1khz`. Then calling `words.py` again with a bunch of formats variations revealed `BGM_Stop_1khz`, `Ot_1khz`, `BGM_Set_Ot_1khz`, and so on.
 
 ### handle bus names
-While generally not very interesting, audio buses' names can also be reversed. But annoyingly enough they follow slightly different rules. Reversable (event/variable/etc) names can only contain lowercase letters, numbers, underscore `_` and cannot start with a number, but buses do allow spaces, start with numbers, and possibly some symbols like `()`.
+While generally not very interesting, audio buses' names can also be reversed. But annoyingly enough they follow slightly different rules. Reversable (event/variable/etc) names can only contain lowercase letters, numbers, underscore `_` and cannot start with a number, but buses do allow spaces, start with numbers, and some extra symbols like `()-`.
 
 By default *wwiser* ignores bus rules (improves overall output), but you can enable them by adding `= 0` after a name:
 ```
@@ -313,7 +315,7 @@ By default *wwiser* ignores bus rules (improves overall output), but you can ena
 Audio Bus = 0
 01_Bus = 0
 ```
-Buses are often named like usual (`audio_bus`, `sfx_volume`), but if you are missing a few it may be due to this.
+Buses are named like usual (`audio_bus`, `sfx_volume`) too, but if you are missing a few it may be due to this. Also in some (early?) banks some buses take special GUIDs (not reversable).
 
 ### give up
 Say you have almost every name-number down, save a couple. Just need to try a few more names...! Well, bad news: sometimes it's just too hard. Give up and move on. But you can always come back later, maybe names you need will be in the DLC, sequel or other game, or some extra tricks to get names will be added later.
