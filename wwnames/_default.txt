@@ -141,6 +141,14 @@ DynamicDialogue
 
 
 # bus/fc related
+Master Audio Bus = 0
+Master Secondary Bus = 0
+Master Motion Bus = 0
+Environmental Bus = 0
+Non Recordable Bus = 0
+Voices
+Voice
+
 Audio_Config
 dry_scream_routing
 tunnel_reverb_routing
@@ -177,10 +185,12 @@ env
 env_on
 env_off
 
+master
 master_volume
 volume
 volume_sfx
 volume_music
+pre_master
 
 
 RTPC
@@ -217,13 +227,6 @@ Sound000
 Sound_0
 Sound_00
 Sound_000
-
-#m01_?? #dmc5
-
-bgm_ingame
-bgm_common
-bgm_00
-bgm_10
 
 _1
 _01
@@ -281,6 +284,15 @@ music_play
 play_bgm_000
 play_bgm_100
 play_music_menu
+bgm_ingame
+bgm_common
+bgm_00
+bgm_10
+bgm_system
+bgm_cutscene
+bgm_battle
+bgm_boss
+
 
 ###
 
@@ -295,6 +307,7 @@ combat
 pause
 break
 ending
+game_pause
 game_over
 gameover
 stinger
@@ -303,6 +316,7 @@ dynamic
 distance
 elevation
 delay
+doppler
 layered
 intro
 loop
@@ -413,6 +427,8 @@ forest
 bridge
 alienship
 azimuth
+obstruction
+occlusion
 bridge
 camp
 countdown
@@ -504,3 +520,11 @@ radio
 telephone
 enemy
 phase
+
+cutscene
+cutscenes
+ingame
+downmix
+downmixer
+upmix
+upmixer
