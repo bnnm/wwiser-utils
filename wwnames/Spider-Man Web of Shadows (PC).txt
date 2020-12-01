@@ -35,6 +35,9 @@ music_enable_city_delay
 act1_city
 act2_city
 act3_city
+city
+shield_sz
+kp_sz
 
 act
 act1
@@ -54,6 +57,12 @@ high
 spidey_alignment
 red
 black
+
+time_of_day
+afternoon
+evening
+morning
+night
 
 #banks
 act1_character
@@ -120,6 +129,9 @@ vulture_s
 wolverine
 
 ### EXTRA
+master_volume
+sfx_volume
+voice_volume
 
 igc_igw_cageintro
 igc_pre_intro
@@ -134,12 +146,9 @@ wood
 grass
 gravel
 none
-master_volume
 igc_vul_intro_3
-kp_sz
 null
 mx_prelude
-city
 mx_combat_stop
 music_volume
 mx_igc_ele_shot
@@ -187,7 +196,6 @@ mx_megavenom_stop
 igc_techmech_intro
 mx_main_menu_loop_stop
 mx_city_stop
-shield_sz
 mx_chase_mission_stop
 mx_defend_mission_stop
 mx_human_boss_stop
@@ -196,6 +204,7 @@ mx_mission_complete_red
 mx_mission_complete_black
 cutscene_stop
 cutscene_start
+cutscene_music_stop
 mx_igc_pre_bubble
 mx_igc_pre_mjintro
 mx_igc_gpr_blackchoice
@@ -215,8 +224,7 @@ _25
 _50
 _75
 _100
-
-afternoon
+ 
 air
 altitude
 asphalt
@@ -226,7 +234,6 @@ concrete
 damage
 dodge
 earth
-evening
 extend
 force
 glass
@@ -235,7 +242,6 @@ ground
 health
 miss
 modulation
-night
 retract
 speed
 water
@@ -260,7 +266,6 @@ grenade_throw
 map_on
 Mission_Completed_Stinger
 Mission_Failed_Stinger
-morning
 orb_xp_air
 orb_xp_air_spawn
 orb_xp_ground
@@ -274,13 +279,11 @@ orb_xp_wall
 orb_xp_wall_spawn
 PAUSE_GAME
 scrapbook_activate
-sfx_volume
 slide_force
 start_grenade_loop
 stop_all
 stop_grenade_loop
 terrain_type
-time_of_day
 TOA_FAILURE
 TOA_START
 TOA_SUCCESS
@@ -291,12 +294,14 @@ ui_collect_spider
 ui_gain_black_points
 ui_gain_red_points
 ui_loading_mute
+ui_loading_unmute
 ui_map_turn_off
 ui_map_turn_on
 ui_mute_music
 ui_objectives_off
 ui_objectives_on
 ui_quest_complete
+ui_quest_fail
 ui_rescue_locator
 ui_SCREEN_SWITCH
 ui_scroll_down
@@ -308,6 +313,17 @@ ui_scroll_up
 ui_scroll_voice
 ui_unmute_music
 ui_upgrade_purchase
-UNPAUSE_GAME
 vertical_speed
-voice_volume
+horizontal_speed
+UNPAUSE_GAME
+ui_PAUSE_off
+ui_PAUSE_on
+ui_PAUSE_GAME_music
+ui_loading_unmute
+ui_collect_spider_level_up
+ui_gain_xp
+ui_UNPAUSE_GAME_music
+
+ch_spiderman_stop_all
+ch_spiderman_web_shield
+ch_spiderman_web_shield_stop
