@@ -71,6 +71,10 @@ There is also the provided *wwnames.db3* companion file that contains common nam
 - splitting: if a line contains something like `type="bgm01"`, it'll read `type` and `bgm01`. This allows to use lines from scripts or XML (though may slightly increase false positives).
 - runtime names: some games use names like `bgm_%02i_start` or `game_clear_%d`. That means a number is passed to call `bgm_24_start`, `game_clear_5` and so on. Those cases are detected and multiple numbers are generated (within some limits).
 
+*wwiser* internally calls "name derivation" of last letter "fuzzy matching". You can disable it by adding `#@nofuzzy` to `wwnames.txt` (useful for complete, longer name lists where some odd name is being misused by this fuzzy matching).
+
+Similarly lines are normally split by spaces and non-valid characters, but you can force (some) by adding `= 0` after a name. See *handle bus names* below for more info.
+
 
 ## REVERSING STEPS
 The basic flow is this:
