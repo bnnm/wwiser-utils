@@ -417,9 +417,14 @@ class Words(object):
 class Fnv(object):
     FNV_DICT = '0123456789abcdefghijklmnopqrstuvwxyz_'
     FNV_FORMAT = re.compile(r"^[a-z_][a-z0-9\_]*$")
+    FNV_FORMAT_EX = re.compile(r"^[a-z_0-9][a-z0-9_()\- ]*$")
 
     def is_hashable(self, lowname):
         return self.FNV_FORMAT.match(lowname)
+
+    def is_hashable_extended(self, lowname):
+        return self.FNV_FORMAT_EX.match(lowname)
+
 
     # Find actual name from a close name (same up to last char) using some fuzzy searching
     # ('bgm0' and 'bgm9' IDs only differ in the last byte, so it calcs 'bgm' + '0', '1'...)
@@ -441,7 +446,8 @@ class Fnv(object):
 
                 hashname = hashname[:-1] + c
                 return hashname
-
+        # it's possible to reach here with incorrect (manually input) ids,
+        # since not all 255 values are in FNV_DICT
         return None
 
     def unfuzzy_hashname(self, id, hashname):
@@ -458,10 +464,8 @@ class Fnv(object):
     def _get_hash(self, namebytes):
         hash = 2166136261 #FNV offset basis
 
-        #for i in range(len(namebytes)):
-        for namebyte in namebytes:
+        for namebyte in namebytes:  #for i in range(len(namebytes)):
             hash = hash * 16777619 #FNV prime
-            #hash = hash ^ namebytes[i] #FNV xor
             hash = hash ^ namebyte #FNV xor
             hash = hash & 0xFFFFFFFF #python clamp
         return hash
