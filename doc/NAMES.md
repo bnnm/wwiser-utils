@@ -241,9 +241,11 @@ This is a giant dictionary of English words: https://github.com/dwyl/english-wor
 Take the `.exe` and use `strings2.exe` as described before to add to the previous `wwnames.txt`. In multiplatform games, sometimes one version has debug strings in the `.exe` while others don't, so it's useful to add strings from all versions.
 
 Tips for different platforms:
-- PC/Switch: usually straight .exe (or `main` file in Switch) can be used. So sometimes it's compressed and you may need something like load with *IDA PRO* (plus appropriate loaders) and take the strings inside.
-- PS3: first decrypt EBOOT.BIN to EBOOT.ELF, using *TrueAncestor SELF Resigner*
-- X360: first decrypt default.xex, using XEXTool (`xextool.exe -e u -c u -o decrypted.xex default.xex`)
+- PC: usually straight .exe can be used. So sometimes it's compressed or protected, and you may need something like load with *IDA PRO* and take the strings inside.
+- PS3: decrypt `EBOOT.BIN` to `EBOOT.ELF`, using *TrueAncestor SELF Resigner*
+- X360: decrypt `default.xex`, using *XEXTool* (`xextool.exe -e u -c u -o decrypted.xex default.xex`)
+- WiiU: decompress rpx/rpl with `rpl2elf`
+- Switch: decompress `main`, using *nsnsotool*
 
 ### add data strings
 For games where names come from scripts and data files you can look around and find those, and extract names with `strings2` then add to `wwnames.txt`.
@@ -267,10 +269,17 @@ Sometimes game's files have lines like `C_PlayMusic("bgm_results")`, those are a
 ### ignore close numbers
 If you have numbers that are the same save the last 2 digits (more or less) that means they share the same root and you only need to reverse one, wwiser automatically fills the rest. For example with 1189781958 and 1189781957 you only need to reverse first (`bgm1`), second (`bgm2`) will be automatically found.
 
+### try other releases/platforms
+It can be useful to check the same game in different platforms. The exe may have different strings (see above), but also data itself may be packaged differently and contain extra things. It's worth trying demos (early revisions) or maybe even remasters too.
+
+For example the later PC release of Metal Gear Rising has an extra "debug" folder in one .cpk that graciously contains Wwise companion files/names for all banks, while the X360/PS3 version don't.
+
+
 ### try newer/older games lists' as a base
 Sequels sometimes share base Wwise project and names (ex. *Doom Eternal* vs *Doom 2016*), so it's useful to include names from previous names, and also names from newer games in older games works too.
 
 You can even include very different games but it increases the chance of false positives (make sure to clean the final list).
+
 
 ### add game-related strings
 Since Wwise thing are generally named using game terms, it's often useful to add names that may not be in the original list but are used by the game (like  `mario` `luigi`). Characters, weapons, items, game modes, stages, environments, the more the merrier. If the list so far has some names but not others, just add a bunch. Conversely if the list doesn't refer to typical terms might not be worth bothering.

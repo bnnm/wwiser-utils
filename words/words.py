@@ -40,6 +40,14 @@
 
 import argparse, re, itertools
 
+# TODO:
+# - try implementing hashing in .c and calling that for performance?
+# - when using combinations, first part's hash can be precalculated 
+# - load words that end with "= 0" as-is for buses (not useful?)
+# - allow %i to make N numbers
+
+
+
 
 class Words(object):
     DEFAULT_FORMAT = '%s'
@@ -191,28 +199,44 @@ class Words(object):
         # always add itself (needed when joiner is not _)
         words[elem.lower()] = elem
 
+    def _read_words_lines(self, infile):
+        for line in infile:
+            # section end when using permutations
+            if self._args.permutations and line.startswith('###'):
+                self._words = {} #old section is in _sections
+                self._sections.append(self._words)
+                self._section += 1
+                continue
+
+            # comment
+            if line.startswith('#'):
+                continue
+
+            if len(line) > 500:
+                continue
+
+            elems = self.PATTERN_LINE.split(line)
+            for elem in elems:
+                self._add_word(elem)
+
     def _read_words(self):
         print("reading words")
+
+        encodings = ['utf-8', 'iso-8859-1']
         try:
-            with open(self._args.input_file, 'r') as infile:
-                for line in infile:
-                    # section end when using permutations
-                    if self._args.permutations and line.startswith('###'):
-                        self._words = {} #old section is in _sections
-                        self._sections.append(self._words)
-                        self._section += 1
-                        continue
+            done = False
+            for encoding in encodings:
+                try:
+                    with open(self._args.input_file, 'r', encoding=encoding) as infile:
+                        self._read_words_lines(infile)
+                        done = True
+                    break
+                except UnicodeDecodeError:
+                    continue
 
-                    # comment
-                    if line.startswith('#'):
-                        continue
+            if not done:
+                print("couldn't read input file %s (bad encoding?)" % (self._args.input_file))
 
-                    if len(line) > 500:
-                        continue
-
-                    elems = self.PATTERN_LINE.split(line)
-                    for elem in elems:
-                        self._add_word(elem)
         except FileNotFoundError:
             print("couldn't find input file %s" % (self._args.input_file))
 
@@ -391,7 +415,7 @@ class Words(object):
 
             if self._args.reverse_list:
                 for elem in self._args.reverse:
-                    elem = line.strip()
+                    elem = elem.strip()
                     if not elem:
                         continue
                     self._fnv_dict[int(elem)] = True
