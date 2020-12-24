@@ -17,9 +17,9 @@ class Cli(object):
         )
         epilog = (
             "examples:\n"
-            "  %(prog)s *.txtp -cm 2 -ms 5.0\n"
+            "  %(prog)s *.txtp -fcm 2 -fms 5.0\n"
             "  - move files that have less that 2 channels and 5 seconds (mono voices)\n"
-            "  %(prog)s *.adx -d\n"
+            "  %(prog)s *.adx -fd\n"
             "  - move files that have output (.wav) duplicates\n"
         )
 
