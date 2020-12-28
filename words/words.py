@@ -55,7 +55,7 @@ class Words(object):
     FILENAME_OUT = 'words_out.txt'
     FILENAME_FORMATS = 'formats.txt'
     FILENAME_REVERSE = 'fnv.txt'
-    PATTERN_LINE = re.compile(r'[\t\n\r .<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|]')
+    PATTERN_LINE = re.compile(r'[\t\n\r .<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~]')
     PATTERN_WORD = re.compile(r'[_]')
 
     def __init__(self):
