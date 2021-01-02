@@ -15,6 +15,7 @@ idstring "AKPK"
 goto 0x08
 get TEST long
 endian guess TEST
+endian save CURRENT_ENDIAN
 
 goto 0x04
 get HEADER_SIZE long # not counting padding
@@ -22,13 +23,12 @@ get FLAG long # always 1?
 get SEC1_SIZE long # Languages
 get SEC2_SIZE long # Banks
 get SEC3_SIZE long # Sounds
+set SEC4_SIZE long 0 # Externals
 
-# Later Wwise versions have the fourth section with unknown data.
-# From SDKs it's called "externals" (related to debug files?).
-# Detect its presense.
-xmath SUM "SEC1_SIZE + SEC2_SIZE + SEC3_SIZE + 0x10"
+# Later Wwise versions (+2012) have the fourth section with "externals" (.wem set at runtime).
+xmath SUM "SEC1_SIZE + SEC2_SIZE + SEC3_SIZE + 0x10" # Detect its presense.
 if SUM < HEADER_SIZE
-	get SEC4_SIZE long
+    get SEC4_SIZE long
 endif
 
 ###
@@ -39,18 +39,30 @@ callfunction PARSE_LANGS 1
 # Extract banks
 set SECTION_SIZE SEC2_SIZE
 set IS_SOUNDS long 0
+set IS_EXTERNALS long 0
 set EXT string "bnk"
 callfunction PARSE_TABLE 1
 
 # banks section always exists but may set 0 files = can't autodetect
 if BANK_VERSION == 0
-    print "can't detect bank version, assuming new (set manually)"
+    # section 4 was added after .wem
+    if SEC4_SIZE == 0
+        print "can't detect bank version, assuming new (set manually)"
+    endif
     math BANK_VERSION = 62
 endif
 
 # Extract sounds
 set SECTION_SIZE SEC3_SIZE
 set IS_SOUNDS long 1
+set IS_EXTERNALS long 0
+set EXT string "wem"
+callfunction PARSE_TABLE 1
+
+# Extract externals
+set SECTION_SIZE SEC4_SIZE
+set IS_SOUNDS long 1
+set IS_EXTERNALS long 1
 set EXT string "wem"
 callfunction PARSE_TABLE 1
 
@@ -111,34 +123,55 @@ startfunction DETECT_BANK_VERSION
 endfunction
 
 startfunction PARSE_TABLE
-	get FILES long
-	if FILES == 0
-		return
-	endif
-	
-	xmath ENTRY_SIZE "(SECTION_SIZE - 0x04) / FILES"
-	if ENTRY_SIZE == 0x18
-		math 64BIT_MODE = 1
-	else
-		math 64BIT_MODE = 0
-	endif
+    if SECTION_SIZE == 0
+        return
+    endif
 
-	for i = 0 < FILES
-		get ID long
-		get MULT long
-		
-		# Size is 64-bit in some versions.
-		if 64BIT_MODE == 1
-			get SIZE longlong
-		else
-			get SIZE long
-		endif	
-		get OFFSET long
-		get LANG_ID long
+    get FILES long
+    if FILES == 0
+        return
+    endif
 
-		if MULT != 0
-			math OFFSET * MULT
-		endif
+    xmath ENTRY_SIZE "(SECTION_SIZE - 0x04) / FILES"
+    if ENTRY_SIZE == 0x18
+        math ALT_MODE = 1
+    else
+        math ALT_MODE = 0
+    endif
+
+    for I = 0 < FILES
+        if ALT_MODE == 1 && IS_EXTERNALS == 1
+            #TODO: externals use 64b ID, but quickbms 32b doesn't support 64b vars
+            #get ID longlong
+
+            if CURRENT_ENDIAN == 0 #LE
+                get ID2 long
+                get ID1 long
+            else
+                get ID1 long
+                get ID2 long
+            endif
+        else
+            get ID long
+        endif
+
+        get BLOCK_SIZE long
+
+        if ALT_MODE == 1 && IS_EXTERNALS == 1
+            get SIZE long
+        elif ALT_MODE == 1
+            get SIZE longlong
+        else
+            get SIZE long
+        endif
+
+        get OFFSET long # START_BLOCK
+        get LANG_ID long
+
+
+        if BLOCK_SIZE != 0
+            math OFFSET * BLOCK_SIZE
+        endif
 
         # get version from first bnk for proper sound extensions
         if IS_SOUNDS == 0 AND BANK_VERSION == 0
@@ -166,15 +199,21 @@ startfunction PARSE_TABLE
         endif
 
         # ID 0 is "sfx" so just print in root
-		if LANG_ID == 0
-			string NAME p "%u.%s" ID EXT
-		else
+        if LANG_ID == 0
+            string PATH = ""
+        else
             getarray LANG_NAME 0 LANG_ID 
-			string NAME p "%s/%u.%s" LANG_NAME ID EXT
-            #string NAME p "%u/%u.%s" LANG_ID ID EXT
-		endif
+            string PATH = "%s/" LANG_NAME ID EXT
+        endif
+
+        if ALT_MODE == 1 && IS_EXTERNALS == 1
+            #TODO: should print as non-hex but quickbms 32b doesn't support 64b vars
+            string NAME p "%s%08x%08x.%s" PATH ID1 ID2 EXT
+        else
+            string NAME p "%s%u.%s" PATH ID EXT
+        endif
 
         #print "%NAME%: %OFFSET|h% %SIZE|h%"
-		log NAME OFFSET SIZE
-	next i
+        log NAME OFFSET SIZE
+    next I
 endfunction
