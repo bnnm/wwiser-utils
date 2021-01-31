@@ -203,7 +203,7 @@ startfunction PARSE_TABLE
             string PATH = ""
         else
             getarray LANG_NAME 0 LANG_ID 
-            string PATH = "%s/" LANG_NAME ID EXT
+            string PATH p= "%s/" LANG_NAME
         endif
 
         if ALT_MODE == 1 && IS_EXTERNALS == 1
