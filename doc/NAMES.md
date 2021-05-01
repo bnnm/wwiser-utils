@@ -200,6 +200,8 @@ For the daring you can use the combinator mode. `words.py -c N` takes `words.txt
 
 Downside is that many words + high `-c N` = humongous number of results. So `words.txt` here should be restricted to mostly relevant words (remove `Desert` if you aren't trying to find events related to that). Best is to combine with `fnv.txt` to reverse only, since generated `.txt` can be +GBs big otherwise. Try `-c 2` and see if some names worked (this is typically most useful), reduce words and try `-c 3` (this gets a few more, but often creates a few valid-looking-enough-but-actually-wrong names, though). `-c 4` is possible but could take many hours, `-c 5` and beyond may take ages. Total words and current word is printed every now and then so you can estimate time it'll take. It's recommended you add extra flags like `-nz` too (see below).
 
+In some cases it's better to use fully split stems by using the flag `-fs`. Normally `BGM_Vocal_Camp` splits into `BGM_Vocal`, `Vocal_Camp`, `BGM`, `Vocal`, `Camp`. With the flag, only `BGM`, `Vocal`, `Camp` are used. Combine custom `formats.txt`, this flag and `-c N` to create words like `(prefix)_(combos up to N)_(suffix)`, that can be useful when we have clear prefix/suffixes in `formats.txt`.
+
 A more specialized version is using `words.py -p`. This takes `words.txt`, that must be divided into "sections", and makes permutations of those sections to create combo words. For example:
 ```
 BGM
@@ -213,13 +215,19 @@ stage
 ```
 With those 3 sections it makes: `BGM_mission_01`, `BGM_stage_01`, `BGM_mission_001`, ..., `Play_BGM_mission_01`, `Play_BGM_stage_001`, an so on. This is similar as making formats (`BGM_%s_01`, `BGM_%s_001`) but simplifies testing more combos. Formats can be used on top of the permutations too.
 
+Sometimes `strings2.exe` results aren't that good because strings are mixed with code, and it can only guess so much. For example `bgm_001E` may be just `bgm_001` while the `E` is a number that got mixed in. You can use `-cl N` to cut last N chars in hopes of fixing those cases. For example `-c 1` adds `bgm_001E` and `bgm_001`, the downside being this multiplies total results. Files may start with the wrong chars too, but it's much less common so no option ATM.
+
+When trying variations of commands and using `fnv.txt`, you often get the same *wrong* results again and again in the output found words. Make a `skipped.txt` list (separated by spaces/lines) and those words will be ignored.
+
 To fine tune results a bit you can add extra flags, most useful with combinations since they take tons of time if you split words by default. 
 - `-nz`: disables "fuzzy matching" when reversing (last letter isn't autocalculated)
 - `-ns`: disables splitting words by `_`.
+- `-fs`: fully splits stems and doesn't add any subword containing `_`.
 - `-sp`: splits words by prefix like `(preffix)_(word)`
 - `-ss`: splits words by suffix like `(word)_(suffix)`
 - `-sb`: splits words by both prefix/suffix like `(preffix)_(word)_(suffix)`
 
+*python* isn't exactly known for speed, so `words.py` can be rather slow. A trick to improve this is using *pypy* (https://www.pypy.org/), a reimplementation of *python.exe* that often results in faster execution (download, unzip, then use `pypy3.exe words.py ...`). While *wwiser* doesn't seem very affected, `words.py` gets a huge boost (specially with `fnv.txt`).
 
 ### FINISHING THE LIST
 Once you get "enough" names (getting "all" names is not very likely) generate a final clean list. Rename this `wwnames-banks-(timestamp).txt` to `wwnames.txt`. Then clean up as needed, by removing false positives (improbable names like `uTXs`) inside, and maybe rename "NAME" in CAPS to "name" if other vars are lowercase for consistency.
@@ -234,7 +242,7 @@ The following are a bunch of ideas you can follow to create `wwnames.txt` in ste
 
 To recap, basic loop is: name `wwnames.txt` from one step, load all banks + use `-sl` to create a used list, and add those to a final list, keep trying steps and adding to the final list, then do a final cleanup of that.
 
-### use engligh_words.txt as a base
+### use english_words.txt as a base
 This is a giant dictionary of English words: https://github.com/dwyl/english-words/. Download and rename to `wwnames.txt` and use *wwiser* to create a base *wwnames-banks-(timestamp).txt* list, then rename that to `wwnames.txt` and remove the word list. This sometimes gives you a bunch of unusual-but-used names for free (like `Adam` and `Eve` in Nier Automata), but also a bunch of false positives.
 
 ### add .exe strings
@@ -291,7 +299,7 @@ Sometimes even related media may hold the key. In some developer blog post, Plat
 ### use words.py
 As explained before, this automates some of the steps, though only works with existing words lists. Best used before we start adding names manually, since it'll often find a bunch automatically.
 
-A trick for games with few names is combining `formats_common.txt` with `engligh_words.txt`.
+A trick for games with few names is combining `formats_common.txt` with `english_words.txt`.
 
 ### try similar names + fnv.exe
 Files may have `bgm_start` and `bgm_mute` that are properly used, but you are missing other bgm-related names.

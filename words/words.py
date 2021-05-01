@@ -54,6 +54,7 @@ class Words(object):
     FILENAME_IN = 'words.txt'
     FILENAME_OUT = 'words_out.txt'
     FILENAME_FORMATS = 'formats.txt'
+    FILENAME_SKIPPED = 'skipped.txt'
     FILENAME_REVERSE = 'fnv.txt'
     PATTERN_LINE = re.compile(r'[\t\n\r .<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~]')
     PATTERN_WORD = re.compile(r'[_]')
@@ -65,6 +66,7 @@ class Words(object):
         # When reversing uses lowercase to avoid lower() loops, but normal case when returning results
         self._words = {} #OrderedDict() # dicts are ordered in python 3.7+
         self._formats = {}
+        self._skipped = {}
 
         self._sections = []
         self._sections.append(self._words)
@@ -102,14 +104,17 @@ class Words(object):
         parser.add_argument('-o',  '--output_file',  help="Output list", default=self.FILENAME_OUT)
         parser.add_argument('-f',  '--formats-file', help="Format list file\n- use %%s to replace a word from input list", default=self.FILENAME_FORMATS)
         parser.add_argument('-F',  '--formats-list', help="Pass extra formats", default=[], nargs='*')
-        parser.add_argument('-c',  '--combinations', help="Combine words in input list by N\nWARNING! don't set high with lots of formats/words\nand use -S")
+        parser.add_argument('-s',  '--skipped-file', help="List of words to ignore\n(so they arent tested again when doing test variations)", default=self.FILENAME_SKIPPED)
+        parser.add_argument('-c',  '--combinations', help="Combine words in input list by N\nWARNING! don't set high with lots of formats/words")
         parser.add_argument('-p',  '--permutations', help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words.txt and start next with ###\nWARNING! don't combine many sections+words", action='store_true')
-        parser.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only writes words that match FND IDs", default=self.FILENAME_REVERSE)
+        parser.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs", default=self.FILENAME_REVERSE)
         parser.add_argument('-R',  '--reverse-list', help="Pass FNV list", nargs='*')
         parser.add_argument('-j',  '--join-blank',   help="Join words without '_'\n(Word + Word = WordWord instead of Word_Word)", action='store_true')
         parser.add_argument('-sp', '--split-prefix', help="Splits words by (prefix)_(word) rather than any '_'", action='store_true')
         parser.add_argument('-ss', '--split-suffix', help="Splits words by (word)_(suffix) rather than any '_'", action='store_true')
         parser.add_argument('-sb', '--split-both',   help="Splits words by (prefix)_(word)_(suffix) rather than any '_'", action='store_true')
+        parser.add_argument('-fs', '--full-split',   help="Only adds stems (from 'aa_bb_cc' only adds 'aa', 'bb', 'cc')", action='store_true')
+        parser.add_argument('-cl', '--cut-last',     help="Cut last N chars (for strings2.exe off results like bgm_main8)", type=int)
         parser.add_argument('-ns', '--no-split',     help="Disable splitting words by '_'", action='store_true')
         parser.add_argument('-nz', '--no-fuzzy',     help="Disable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
         return parser.parse_args()
@@ -140,6 +145,31 @@ class Words(object):
         if not self._formats:
             self._add_format(self.DEFAULT_FORMAT)
 
+    def _add_skipped(self, line):
+        line = line.strip()
+        if not line:
+            return
+        if line.startswith('#'):
+            return
+        elems = line.split()
+        for elem in elems:
+            elem_hashable = elem.lower()
+            if not self._fnv.is_hashable(elem_hashable):
+                continue
+            self._skipped[elem_hashable] = True
+            self._skipped[elem] = True
+
+    def _process_skipped(self):
+        try:
+            with open(self._args.skipped_file, 'r') as infile:
+                for line in infile:
+                    self._add_skipped(line)
+        except FileNotFoundError:
+            pass
+
+        if not self._formats:
+            self._add_format(self.DEFAULT_FORMAT)
+
     def _get_joiner(self):
         joiner = "_"
         if self._args.join_blank:
@@ -161,8 +191,20 @@ class Words(object):
 
         subwords = self.PATTERN_WORD.split(elem)
         combos = []
+        add_self = True
 
-        if self._args.split_prefix:
+        if self._args.full_split:
+            for subword in subwords:
+                if '_' in subword:
+                    continue
+                combos.append(subword)
+
+            add_self = False
+
+            #print("ful:", combos)
+            #return
+
+        elif self._args.split_prefix:
             prefix = subwords[0]
             word = joiner.join(subwords[1:])
             combos.extend([prefix, word])
@@ -192,12 +234,19 @@ class Words(object):
                 combos.append( joiner.join(subwords[i:j]) )
 
         for combo in combos:
+            combo_hashable = combo.lower()
+            if not self._fnv.is_hashable(combo_hashable):
+                continue
             if not combo:
                 continue
-            words[combo.lower()] = combo
+            words[combo_hashable] = combo
 
-        # always add itself (needed when joiner is not _)
-        words[elem.lower()] = elem
+        # add itself (needed when joiner is not _)
+        if add_self:
+            elem_hashable = elem.lower()
+            if self._fnv.is_hashable(elem_hashable):
+                words[elem_hashable] = elem
+
 
     def _read_words_lines(self, infile):
         for line in infile:
@@ -218,6 +267,17 @@ class Words(object):
             elems = self.PATTERN_LINE.split(line)
             for elem in elems:
                 self._add_word(elem)
+                if self._args.cut_last and elem:
+                    elem_len = len(elem)
+                    max = self._args.cut_last
+                    if elem_len <= max:
+                        continue
+                    for i in range(1, self._args.cut_last+1):
+                        elem_cut = elem[0:-i]
+                        self._add_word(elem_cut)
+
+                
+                
 
     def _read_words(self):
         print("reading words")
@@ -333,6 +393,9 @@ class Words(object):
                     else:
                         out = format % (word)
 
+                    if out in self._skipped:
+                        continue
+
                     if self._reverse:
                         out_lower = out #out.lower() #should be pre-lowered already
                         fnv_base = self._fnv.get_hash_lw(out_lower)
@@ -355,6 +418,8 @@ class Words(object):
                                             continue
 
                                 if out_final in reversed:
+                                    continue
+                                if out_final in self._skipped:
                                     continue
                                 reversed[out_final] = True
                                 outfile.write("%s: %s\n" % (fnv, out_final))
@@ -432,6 +497,7 @@ class Words(object):
     def start(self):
         self._args = self._parse()
         self._process_formats()
+        self._process_skipped()
         self._process_reverse()
         self._read_words()
         self._write_words()
