@@ -17,10 +17,16 @@ class Cli(object):
         )
         epilog = (
             "examples:\n"
+            "  %(prog)s *.adx\n"
+            "  - does nothing (needs at least one filter)\n"
             "  %(prog)s *.txtp -fcm 2 -fms 5.0\n"
             "  - move files that have less that 2 channels and 5 seconds (mono voices)\n"
             "  %(prog)s *.adx -fd\n"
             "  - move files that have output (.wav) duplicates\n"
+            "  %(prog)s *.* -p \"{fs}: channels={ch}, samples={sn}\"\n"
+            "  - prints formatted info for all files\n"
+            "  %(prog)s *.* -fcm 2 -p \"{fn}: channels={ch}, samples={ns}\"\n"
+            "  - prints formatted info for all non-mono files\n"
         )
 
         p = argparse.ArgumentParser(description=description, epilog=epilog, formatter_class=argparse.RawTextHelpFormatter)
@@ -36,6 +42,19 @@ class Cli(object):
         p.add_argument('-fsm', dest='min_seconds', help="Filter by less than seconds (N.N)", type=float)
         p.add_argument('-fsM', dest='max_seconds', help="Filter by more than seconds (N.N)", type=float)
         p.add_argument('-fss', dest='min_subsongs', help="Filter min subsongs\n(1 filters formats incapable of subsongs)", type=int)
+        p.add_argument('-p',   dest='print_info', help=("Print text info, formatted using:\n"
+                                                      "- {fn}=filename\n"
+                                                      "- {ss}=total subsong)\n"
+                                                      "- {in}=internal stream name\n"
+                                                      "- {if}=internal name or filename if not found\n"
+                                                      "- {ns}=number of samples\n"
+                                                      "- {ls}=loop start\n"
+                                                      "- {le}=loop end\n"
+                                                      "- {sr}=sample rate\n"
+                                                      "- {ch}=channels\n"
+                                                      "* may be inside <...> for conditional text\n"
+                                                      "Example: file {fn} = {ns}< {ls}>< {le}>\n"))
+
         return p.parse_args()
 
     def start(self):
@@ -99,12 +118,15 @@ class Cr32Helper(object):
 
 class CliFilter(object):
 
-    def __init__(self, args, output_b):
+    def __init__(self, args, output_b, basename):
         self.args = args
+        self.basename = basename
         self.output = str(output_b).replace("\\r","").replace("\\n","\n")
         self.channels = self._get_value("channels: ")
         self.sample_rate = self._get_value("sample rate: ")
         self.num_samples = self._get_value("stream total samples: ")
+        self.loop_start = self._get_value("loop start: ")
+        self.loop_end = self._get_value("loop end: ")
         self.stream_count = self._get_value("stream count: ")
         self.stream_index = self._get_value("stream index: ")
         self.stream_name = self._get_text("stream name: ")
@@ -114,6 +136,7 @@ class CliFilter(object):
 
         self.stream_seconds = self.num_samples / self.sample_rate
         self.ignorable = self._is_ignorable()
+        self.has_filters = self._has_filters()
 
     def __str__(self):
         return str(self.__dict__)
@@ -140,6 +163,14 @@ class CliFilter(object):
 
     def is_ignorable(self):
         return self.ignorable
+
+    def _has_filters(self):
+        cfg = self.args
+        if cfg.min_channels or cfg.max_channels or cfg.min_sample_rate or cfg.max_sample_rate:
+            return True
+        if cfg.min_seconds or cfg.max_seconds or cfg.min_subsongs:
+            return True
+        return False
 
     def _is_ignorable(self):
         cfg = self.args
@@ -204,7 +235,7 @@ class App(object):
         if os.path.isdir(pattern):
             dir = pattern
             pattern = None
-    
+
         files = []
         for root, dirnames, filenames in os.walk(dir):
             for filename in fnmatch.filter(filenames, pattern):
@@ -214,6 +245,77 @@ class App(object):
                 break
 
         return files
+
+
+    def _print_info(self, filter):
+        cfg = self.args
+
+        stream_name = filter.stream_name
+        internal_filename = stream_name
+        if not internal_filename:
+            internal_filename = filter.basename
+
+        if not filter.stream_count:
+            subsongs = None
+        else:
+            subsongs = str(filter.stream_count)
+            
+        
+        ns = filter.num_samples
+        ns_le = (((ns << 24) & 0xFF000000) |
+                ((ns <<  8) & 0x00FF0000) |
+                ((ns >>  8) & 0x0000FF00) |
+                ((ns >> 24) & 0x000000FF))
+        hex_ns_le = "%08x" % (ns_le)
+        hex_ns_be = "%08x" % (ns)
+
+        replaces = {
+            'fn': filter.basename,
+            'ss': subsongs,
+            'in': stream_name,
+            'if': internal_filename,
+            'ns': str(filter.num_samples),
+            'ls': str(filter.loop_start),
+            'le': str(filter.loop_end),
+            'sr': str(filter.sample_rate),
+            'ch': str(filter.channels),
+            'hsle': hex_ns_le,
+            'hsbe': hex_ns_be,
+        }
+
+        pattern1 = re.compile(r"<(.+?)>")
+        pattern2 = re.compile(r"{(.+?)}")
+        txt = cfg.print_info
+
+        txt = txt.replace('\\t', '\t')
+        txt = txt.replace('\\n', '\n')
+
+
+        # print optional info like "<text__{cmd}__>" only if value in {cmd} exists
+        optionals = pattern1.findall(txt)
+        for optional in optionals:
+            has_values = False
+            cmds = pattern2.findall(optional)
+            for cmd in cmds:
+                if cmd in replaces and replaces[cmd] is not None:
+                    has_values = True
+                    break
+            if has_values: #leave text there (cmds will be replaced later)
+                txt = txt.replace('<%s>' % optional, optional, 1)
+            else:
+                txt = txt.replace('<%s>' % optional, '', 1)
+
+        # replace "{cmd}" if cmd exists with its value (non-existent values use '')
+        cmds = pattern2.findall(txt)
+        for cmd in cmds:
+            if cmd in replaces:
+                value = replaces[cmd]
+                if value is None:
+                   value = ''
+                txt = txt.replace('{%s}' % cmd, value, 1)
+
+        print(txt)
+
 
     def _move(self, filename_in):
         basename_in = os.path.basename(filename_in)
@@ -257,19 +359,23 @@ class App(object):
                 total_errors += 1
                 break
 
-            filter = CliFilter(self.args, output_b)
+            filter = CliFilter(self.args, output_b, basename_in)
 
             if not filter.is_ignorable():
                 self.crc32.update(filename_out)
+            filtered = filter.is_ignorable() or self.crc32.is_last_dupe()
 
-            if filter.is_ignorable() or self.crc32.is_last_dupe():
+            if self.args.print_info and (filtered or not filter.has_filters):
+                self._print_info(filter)
+            elif filter.is_ignorable() or self.crc32.is_last_dupe():
                 self._move(filename_in)
                 total_filtered += 1
 
             if os.path.exists(filename_out):
                 os.remove(filename_out)
 
-        log.info("done! (%s filtered, %s errors)", total_filtered, total_errors)
+        if not self.args.print_info:
+            log.info("done! (%s filtered, %s errors)", total_filtered, total_errors)
 
 
 if __name__ == "__main__":
