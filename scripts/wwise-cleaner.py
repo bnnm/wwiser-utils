@@ -13,9 +13,10 @@ move_dir = 'unwanted'
 
 # put filenames to print on which .txtp they are referenced
 targets = []
+targets_done = {}
 if len(sys.argv) > 1:
     for i in range(1, len(sys.argv)):
-        targets.append(sys.argv[i])
+        targets.append(sys.argv[i].lower())
 
 def main():
     # folders are taken from .txtp (meaning with no .txtp moves nothing)
@@ -46,9 +47,15 @@ def main():
                     files_used.add(file)
                     glob_folders.add(path)
 
-                    for target in targets:
-                        if name.lower().endswith(target.lower()):
-                            print("file %s in %s" % (target, txtp))
+                    if targets:
+                        basename = os.path.basename(name.lower())
+                        basename = os.path.splitext(basename)[0]
+                        if basename in targets_done:
+                            continue
+                        targets_done[basename] = True
+                        for target in targets:
+                            if basename.endswith(target):
+                                print("file %s in %s" % (target, txtp))
 
     if targets:
         print("done")
