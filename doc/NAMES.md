@@ -31,6 +31,7 @@ Quick guide to (possibly) get extra names:
   - load all to ensure getting most names (could limit to only music or sfx, but might as well do everything at once while we are at it)
 - **HOWEVER** some names may be garbage, preferably do this:
   - put `wwiser.pyz`, `wwnames.db3` and `wwnames.txt` together with *all* banks (even voice/sfx)
+    - technically `wwnames.txt` must go near `.bnk`, while `wwnames.db3` goes with `.pyz`
   - open windows CLI and call wwiser like this: `wwiser.pyz *.bnk -sl`
   - this creates a "clean" `wwnames-banks-(date).txt` with actually used names
   - open said file, look for clearly wrong names (like *x8273s* or *aXNuy*) and remove them, or change lower/uppercase in some cases (like `wIN` to `win` and such)
