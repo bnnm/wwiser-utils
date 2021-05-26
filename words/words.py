@@ -110,6 +110,7 @@ class Words(object):
         parser.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs", default=self.FILENAME_REVERSE)
         parser.add_argument('-R',  '--reverse-list', help="Pass FNV list", nargs='*')
         parser.add_argument('-j',  '--join-blank',   help="Join words without '_'\n(Word + Word = WordWord instead of Word_Word)", action='store_true')
+        parser.add_argument('-ho', '--hashable-only',help="Consider only hashable chunks\nSet to ignore numbers", action='store_true')
         parser.add_argument('-sp', '--split-prefix', help="Splits words by (prefix)_(word) rather than any '_'", action='store_true')
         parser.add_argument('-ss', '--split-suffix', help="Splits words by (word)_(suffix) rather than any '_'", action='store_true')
         parser.add_argument('-sb', '--split-both',   help="Splits words by (prefix)_(word)_(suffix) rather than any '_'", action='store_true')
@@ -234,10 +235,11 @@ class Words(object):
                 combos.append( joiner.join(subwords[i:j]) )
 
         for combo in combos:
-            combo_hashable = combo.lower()
-            if not self._fnv.is_hashable(combo_hashable):
-                continue
             if not combo:
+                continue
+            combo_hashable = combo.lower()
+            # makes only sense on simpler cases with no formats
+            if self._args.hashable_only and not self._fnv.is_hashable(combo_hashable):
                 continue
             words[combo_hashable] = combo
 
@@ -422,6 +424,10 @@ class Words(object):
                                 if out_final in self._skipped:
                                     continue
                                 reversed[out_final] = True
+                                
+                                # don't print non-useful hashes
+                                if not self._fnv.is_hashable(out_final.lower()):
+                                    continue
                                 outfile.write("%s: %s\n" % (fnv, out_final))
                                 outfile.flush() #reversing is most interesting with lots of loops = slow, keep flushing
                                 written += 1
