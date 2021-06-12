@@ -1,11 +1,14 @@
 # Wwise AKPK packages (.PCK) extractor
 #
 # v1 by Nicknine
-# v2 by bnnm (old extensions, lang names)
+# v2 by bnnm (old extensions, lang names, etc)
 
 
 # set if cannot be autodetected: 62< uses old extensions, 62>= uses new extensions
 set BANK_VERSION long 0
+
+# set 1 to extract BNK only
+set FILTER_BNK long 0
 
 ###
 
@@ -123,15 +126,19 @@ startfunction DETECT_BANK_VERSION
 endfunction
 
 startfunction PARSE_TABLE
-    if SECTION_SIZE == 0
-        return
+    if SECTION_SIZE != 0
+        get FILES long
+        if FILES != 0
+            if FILTER_BNK == 1 && EXT == "wem"
+                print "skip wems"
+            else
+                callfunction PARSE_TABLE_INTERNAL 1
+            endif
+        endif
     endif
+endfunction
 
-    get FILES long
-    if FILES == 0
-        return
-    endif
-
+startfunction PARSE_TABLE_INTERNAL
     xmath ENTRY_SIZE "(SECTION_SIZE - 0x04) / FILES"
     if ENTRY_SIZE == 0x18
         math ALT_MODE = 1
