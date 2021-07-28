@@ -5,14 +5,14 @@ Quick guide to get decent Wwise rips
 - get latest wwiser: https://github.com/bnnm/wwiser/releases
 - put all .bnk and .wem in a dir
   - .bnk/wem may be in other bigfiles like .pck, use this:
-     https://github.com/bnnm/wwiser-utils/blob/master/scripts/wwise_pck_extractor.bms
+     https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise_pck_extractor.bms
 - put SoundbankInfo.xml/(bankname).txt/Wwise_IDs.h/etc together too
   - you want ALL of those, SoundbankInfo.xml doesn't have every name
   - if you don't have those it's still possible to get names, see
     https://github.com/bnnm/wwiser-utils/blob/master/doc/NAMES.md
 - open (double click) wwiser.pyz, make sure you have "wwnames.db3" in wwiser folder
 - press LOAD and choose some .bnk (bgm.bnk or just all of them), check "move .wem"
-  - It's recommented to load `init.bnk` too if you have companion files.
+  - It's recommented to load `init.bnk` (also `1355168291.bnk`) too if you have companion files.
 - press GENERATE to get .txtp (pay attention to log, you may need to tweak things manually)
   - this creates /txtp folder with .txtp and /txtp/wem folders with .wem
 - test .txtp with vgmstream (you may need to tweak some manually to improve)
@@ -20,14 +20,19 @@ Quick guide to get decent Wwise rips
     - ex. from "blah {r}.txtp" you may need to make "blah {r1}.txtp" "blah {r2}.txtp"
 - remove unwanted .txtp (like voices)
 - use this script to move .wem not in .txtp to /unwanted:
-  https://github.com/bnnm/wwiser-utils/blob/master/scripts/wwise-cleaner.py
+  https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise-cleaner.py
+  - this only moves .wem from the /wem (or similarly named) folder
   - check if /unwanted does have wanted music (you may have removed good .txtp)
   - normally you don't need to keep /unwanted in the rip, if it only contains sfx/voices
+- use this script to remove unused .bnk as well:
+  https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise-cleaner-bnk.py
+  - this moves .bnk in /wem folder, and the folder with .txtp (so move .bnk there first)
+  - note that it will keep .bnk used to generate, .bnk used to play, and init.bnk
 - check if there are .wem in root (before /txtp folder) not moved with have useful/unused audio
   - put those in "/unused" folder
   - these can be unused unique .wem, unused copies of other .wem, or unused copies of .wem inside .bnk
   - use this script to move .wem in /unused that aren't unique to dupe folder:
-    https://github.com/bnnm/wwiser-utils/blob/master/scripts/wwise-dupes.py
+    https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise-dupes.py
 - include companion files (.xml/.txt/etc) + .bnk in some /extra folder or !extra.7z
   - you may need to re-generate when new features/fixes are added (!!!)
   - some .bnk may need to go to /wem folder instead (see log!), might as well put all files there
@@ -48,7 +53,7 @@ Recommended steps to follow when ripping Wwise games.
 ### FIND FILES
 You *need* `.bnk` and possibly `.wem`, put those together in a dir. Banks store song info (loops) and sometimes audio, `.wem` are audio.
 
-If your game has `.pck`, extract `.bnk+wem` inside first using: https://github.com/bnnm/wwiser-utils/blob/master/scripts/wwise_pck_extractor.bms (you don't need to extract `.wem` inside `.bnk`).
+If your game has `.pck`, extract `.bnk+wem` inside first using: https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise_pck_extractor.bms (you don't need to extract `.wem` inside `.bnk`).
 
 
 ### FIND NAMES
@@ -64,7 +69,7 @@ Make sure `wwiser.pyz` has a file called `wwnames.db3` nearby (has common names 
 
 If your files only have funny numbers, try to locate `412724365.bnk` (bgm.bnk in Wwise), `3991942870.bnk` (music.bnk) or open big-ish banks first, or open all banks even.
 
-For games with companion files it's a good idea to load `init.bnk`, as some names that bnk/txtp uses are only in `init.txt`. Similarly some games load multiple `.bnk` at once 
+For games with companion files it's a good idea to load `init.bnk` (`1355168291.bnk`), as some names that bnk/txtp uses are only in `init.txt`. Similarly some games load multiple `.bnk` at once 
 
 
 ### EXPLORE BANK
@@ -89,7 +94,7 @@ Since .txtp are generated for each "usable audio", there may be an excess of unw
 There may be some `.wem` that weren't moved. These could be from other banks (like sfx), or unused `.wem` not used at all by any bank (not uncommon!). Move useful unused `.wem` to some "/unused" folder. Note that unused audio can be clones of other files, or `.wem` that are inside some `.bnk`, you can ignore those.
 
 The `/wem` folder may have some unwanted SFX/voices moved automatically, previously used by deleted .txtp. Use this `.py` to find and move .wem not referenced in .txtp:
-https://github.com/bnnm/wwiser-utils/blob/master/scripts/wwise-cleaner.py
+https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise-cleaner.py
 
 
 ### GET MORE NAMES
@@ -135,11 +140,11 @@ Not unless you want to manually change every .txtp that uses them, the tool can'
 
 ### "I USED SOME RANDOM PROGRAM TO EXTRACT .WEM/BNK FROM .PCK AND GENERATED TXTP DON'T WORK"
 This tool needs original Wwise numbers and correct extensions. Make sure you use this .bms to extract `.pck`:
-https://github.com/bnnm/wwiser-utils/blob/master/scripts/wwise_pck_extractor.bms
+https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise_pck_extractor.bms
 
 ### "I USED SOME RANDOM PROGRAM TO EXTRACT .WEM FROM .BNK AND GENERATED TXTP DON'T WORK"
 First consider if you *REALLY* want this. The guide recommends to include `.bnk` in the rip for a reason, so might as well leave it untouched in the /wem dir. "*But my `.bnk` has sfx too!!!*". Well. Is it really worth for you wasting time to trim a few MB from a file you won't ever see or open manually? If so, make sure you check "treat internal .wem as external" when generating `.txtp`, and use this .bms to extract `.bnk`:
-https://github.com/bnnm/wwiser-utils/blob/master/scripts/wwise_bnk_extractor.bms 
+https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise_bnk_extractor.bms
 
 If file is marked with `{!}` this means it uses some hard-to-simulate feature and won't play sound off/silent.
 
