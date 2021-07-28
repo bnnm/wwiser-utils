@@ -5100,7 +5100,6 @@ GroundSlamHeightScalara
 HDR
 HDR_Meter_RTPC
 Heavy1_Pain_Cryo_LP_Brean
-HeldActorInterfaceE
 Hib_EleanorBoss
 Hib_Firecracker_Tracen
 Hib_Gradient_Bottlea
@@ -10972,7 +10971,7 @@ Oak_DLC3_VOBD_TownfolkMale2_Pain_Acid_Lp_Break
 Oak_DLC3_VOBD_TownfolkMale2_Pain_Stagger
 Oak_DLC3_VOBD_TownfolkMale3_Pain_Acid_Lp
 Oak_DLC3_VOBD_TownfolkMale3_Pain_Acid_Lp_Break
-Oak_DLC3_VOBD_TownfolkMale3_Pain_Stagger #alt
+Oak_DLC3_VOBD_TownfolkMale3_Pain_Stagger
 Oak_DLC3_VOCT_Adi
 Oak_DLC3_VOCT_Barkeep
 Oak_DLC3_VOCT_Betty
