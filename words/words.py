@@ -284,7 +284,7 @@ class Words(object):
     def _read_words(self):
         print("reading words")
 
-        encodings = ['utf-8', 'iso-8859-1']
+        encodings = ['utf-8-sig', 'iso-8859-1']
         try:
             done = False
             for encoding in encodings:
