@@ -268,6 +268,11 @@ Sometimes that's too time consuming since there can be many scripts, so here is 
 
 This makes a "solid" archive that has everything. Then apply `strings2.exe` to the whole archive to extract all text at once.
 
+### add memory dumps
+Similar to the above, you can make a memory dump, apply `strings2.exe` over it and grab some extra names.
+
+On Windows 10 you can make memdumps in the task manager > right click on process > create dump file. Other systems are harder though (emus may have some option like that, while rooted Android can use certain tools to achieve it).
+
 ### clean incorrectly extracted strings
 Because `strings2.exe` can only guess so much, sometimes it gets names like `fbgm_play` instead of `bgm_play`, so you may want to recheck a bit (try searching `wwnames.txt` for obvious things like `bgm` to see everything looks ok).
 
@@ -283,12 +288,10 @@ It can be useful to check the same game in different platforms. The exe may have
 
 For example the later PC release of Metal Gear Rising has an extra "debug" folder in one .cpk that graciously contains Wwise companion files/names for all banks, while the X360/PS3 version don't.
 
-
 ### try newer/older games lists' as a base
 Sequels sometimes share base Wwise project and names (ex. *Doom Eternal* vs *Doom 2016*), so it's useful to include names from previous names, and also names from newer games in older games works too.
 
 You can even include very different games but it increases the chance of false positives (make sure to clean the final list).
-
 
 ### add game-related strings
 Since Wwise thing are generally named using game terms, it's often useful to add names that may not be in the original list but are used by the game (like  `mario` `luigi`). Characters, weapons, items, game modes, stages, environments, the more the merrier. If the list so far has some names but not others, just add a bunch. Conversely if the list doesn't refer to typical terms might not be worth bothering.
