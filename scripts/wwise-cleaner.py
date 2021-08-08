@@ -34,7 +34,7 @@ def main():
     txtps = glob.glob(glob_txtps)
     files_used = set()
     for txtp in txtps:
-        with open(txtp, 'r', encoding='utf-8') as infile:
+        with open(txtp, 'r', encoding='utf-8-sig') as infile:
             for line in infile:
                 if line.startswith('#'):
                     continue
