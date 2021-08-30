@@ -18,11 +18,12 @@ Quick guide to (possibly) get extra names:
   - this makes a single, huge file like `files.zip`
   - this file MUST NOT BE COMPRESSED (not an actual zip, but a package; you could use `.tar` or others)
 - use `strings2.exe` to get a text file with names from `files.zip`
-  - get strings2.exe: http://split-code.com/files/strings2_x64_v1-2.zip
+  - get `strings2.exe`: http://split-code.com/files/strings2_x64_v1-2.zip
   - unzip on same dir as `files.zip`
   - call on Windows CLI: `strings2.exe "files.zip" > wwnames.txt`
   - or create a file like `files.bat`, copy the line above + save, double click
   - if zipped files are too big try splitting by max size, repeat steps below, and fuse all `wwnames.txt` created to a final one
+  - you may want to try `sstr.exe` if the above gives wonky names that incorrectly contain extra bytes like `@nbgm_01<`
 - this generates a `wwnames.txt` file with "possible" (not necessarily used) names
   - you don't need to change `strings2` default parameters (gets you more names = good)
   - many "names" will be garbage-looking strings, that is ok and will be ignored by *wwiser*
@@ -107,6 +108,8 @@ strings2.exe config.lua >> wwnames.txt
 ```
 
 This `wwnames.txt` will contain lots of garbage (no need to clean), but also many possible candidates. A thing to note is that Wwise conversion from names to numbers is fairly simple, meaning multiple names may end up with the same number AKA "false positives".
+
+`strings2.exe` tries to finds names separated by null bytes. This sometimes makes text that contains unwanted letters (like `@nbgm_01<` that would be bytes). To improve those cases you can try `wwiser-utils/sstr/sstr.exe`, that tries to find *sized strings* that games often use and gives much better results on those cases. Note that games may mix both types of strings you could try both anyway.
 
 So you want to fill the list with many candidates, but not so many that false positives start appearing. Various tricks about making and improving the list are described later.
 
