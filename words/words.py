@@ -109,8 +109,10 @@ class Words(object):
         parser.add_argument('-p',  '--permutations', help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words.txt and start next with ###\nWARNING! don't combine many sections+words", action='store_true')
         parser.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs", default=self.FILENAME_REVERSE)
         parser.add_argument('-R',  '--reverse-list', help="Pass FNV list", nargs='*')
-        parser.add_argument('-j',  '--join-blank',   help="Join words without '_'\n(Word + Word = WordWord instead of Word_Word)", action='store_true')
+        parser.add_argument('-js', '--join-spaces',  help="Join words with spaces in lines\n('Word Word' = 'Word_Word')", action='store_true')
+        parser.add_argument('-jb', '--join-blank',   help="Join words without '_'\n('Word' + 'Word' = WordWord instead of Word_Word)", action='store_true')
         parser.add_argument('-ho', '--hashable-only',help="Consider only hashable chunks\nSet to ignore numbers", action='store_true')
+        parser.add_argument('-sc', '--split-caps',   help="Splits words by (Word)(...)(Word) and makes (word)_(...)_(word)", action='store_true')
         parser.add_argument('-sp', '--split-prefix', help="Splits words by (prefix)_(word) rather than any '_'", action='store_true')
         parser.add_argument('-ss', '--split-suffix', help="Splits words by (word)_(suffix) rather than any '_'", action='store_true')
         parser.add_argument('-sb', '--split-both',   help="Splits words by (prefix)_(word)_(suffix) rather than any '_'", action='store_true')
@@ -266,9 +268,29 @@ class Words(object):
             if len(line) > 500:
                 continue
 
+            # some games like Death Stranding somehow have spaces in their names
+            if self._args.join_spaces:
+                line = line.replace(' ', '_')
+
             elems = self.PATTERN_LINE.split(line)
             for elem in elems:
                 self._add_word(elem)
+
+                if elem and len(elem) > 1 and self._args.split_caps and not elem.islower() and not elem.isupper():
+                    new_elem = ''
+                    pre_letter = ''
+                    for letter in elem:
+                        if letter.isupper():
+                            if pre_letter.islower():
+                                new_elem += "_"
+                            new_elem += letter.lower()
+                        else:
+                            new_elem += letter
+                        pre_letter = letter
+
+                    if '_' in new_elem:
+                        self._add_word(new_elem)
+
                 if self._args.cut_last and elem:
                     elem_len = len(elem)
                     max = self._args.cut_last
