@@ -280,7 +280,7 @@ class Words(object):
                     new_elem = ''
                     pre_letter = ''
                     for letter in elem:
-                        if letter.isupper():
+                        if letter.isupper() or letter.isdigit():
                             if pre_letter.islower():
                                 new_elem += "_"
                             new_elem += letter.lower()
