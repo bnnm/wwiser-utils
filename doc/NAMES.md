@@ -4,6 +4,8 @@
 
 Even with those companion files some names may be missing (usually variables), so we may still want to reverse a few.
 
+In short, make a file named `wwnames.txt`, inside write *reversed names* (strings that become Wwise numbers) and put together with the banks. *wwiser* will use this file for names. With some luck, game's data and executable will have a bunch of names somewhere that you can extract with some tools.
+
 This process requires some knowledge of command line though, no GUI at the moment.
 
 ## TL;DR
@@ -23,7 +25,8 @@ Quick guide to (possibly) get extra names:
   - call on Windows CLI: `strings2.exe "files.zip" > wwnames.txt`
   - or create a file like `files.bat`, copy the line above + save, double click
   - if zipped files are too big try splitting by max size, repeat steps below, and fuse all `wwnames.txt` created to a final one
-  - you may want to try `sstr.exe` if the above gives wonky names that incorrectly contain extra bytes like `@nbgm_01<`
+  - you may want to also use `sstr.exe` (https://github.com/bnnm/wwiser-utils/raw/master/sstr/sstr.exe) to possible add extra names that `strings2.exe` may get wrong (like `@nbgm_01<`).
+  - `sstr.exe "files.zip" >> wwnames.txt`
 - this generates a `wwnames.txt` file with "possible" (not necessarily used) names
   - you don't need to change `strings2` default parameters (gets you more names = good)
   - many "names" will be garbage-looking strings, that is ok and will be ignored by *wwiser*
