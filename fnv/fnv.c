@@ -468,7 +468,7 @@ static int parse_cfg(fnv_config* cfg, int argc, const char* argv[]) {
             case 'R':
                 cfg->restrict_letters = 1;
                 cfg->start_letter = 'a';
-                cfg->end_letter = 'z';
+                cfg->end_letter = '_';
                 break;
             case 'h':
                 print_usage(argv[0]);
