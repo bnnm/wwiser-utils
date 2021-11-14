@@ -67,7 +67,7 @@ def main():
         return
 
     # bnks in folders
-    files_move = set()
+    files_move = {}
     for glob_folder in glob_folders:
         for glob_ext in glob_exts:
             glob_search = os.path.join(glob_folder, '*.%s' % (glob_ext))
@@ -75,16 +75,22 @@ def main():
             for file in files:
                 path = os.path.normpath(file)
                 path = os.path.normcase(path)
-                files_move.add(path)
+                files_move[path] = file
 
     # remove used from folders
     for file_used in files_used:
-        files_move.discard(file_used)
+        if file_used in files_move:
+            files_move.pop(file_used)
 
     # move remaining in folders = unused
     count = 0
-    for file_move in files_move:
-        if file_move.lower() in ['init.bnk', '1355168291.bnk']:
+    for _, file_move in files_move.items():
+        ignore = False
+        for bnk in ['init.bnk', '1355168291.bnk']:
+            if bnk in file_move.lower():
+                ignore = True
+                continue
+        if ignore:
             continue
 
         #move .bnk and companion files if any
@@ -94,6 +100,7 @@ def main():
             file_unwanted = os.path.join(move_dir, file_base)
 
             try:
+                print("moving:", file_unwanted)
                 os.makedirs(os.path.dirname(file_unwanted), exist_ok=True)
                 os.rename(file_base, file_unwanted)
                 #print(file_base, file_unwanted)
