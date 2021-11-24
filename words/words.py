@@ -16,7 +16,7 @@
 # Modes of operacion:
 # - default: creates words from words
 # - combinations: takes input words and combines them: A, B, C: A_B, A_C, B_A, C_A, etc.
-# - permutations: takes input words divided into "sections". Add "###" in words.txt to end
+# - permutations: takes input words divided into "sections". Add "#@section#" in words.txt to end
 #   a section. If section 1 has A, B and section 2 has C, D, makes: A_C, A_D, B_C, B_D.
 # All those are also combines with formats.txt ("play_%s": play_A_C, ...)
 # By default words are combined adding "_" but can be avoided via parameters.
@@ -38,7 +38,7 @@
 #   * with combinator/permutation mode and big word list may take ages and make lots
 #     of false positives, use with care 
 
-import argparse, re, itertools
+import argparse, re, itertools, time
 
 # TODO:
 # - try implementing hashing in .c and calling that for performance?
@@ -94,7 +94,7 @@ class Words(object):
             "  - combines words from list: A_A_A, A_A_B, A_A_C ...\n"
             "  %(prog)s -p\n"
             "  - combines words from sections in list: A1_B1_C1, A1_B2_C1, ...\n"
-            "    (end sections in words.txt with ###)\n"
+            "    (end sections in words.txt with #@section)\n"
             "  %(prog)s -c 4 -r 123543234 654346764\n"
             "  - combines words from list and tries to match them to FNV IDs\n"
         )
@@ -106,7 +106,7 @@ class Words(object):
         parser.add_argument('-F',  '--formats-list', help="Pass extra formats", default=[], nargs='*')
         parser.add_argument('-s',  '--skipped-file', help="List of words to ignore\n(so they arent tested again when doing test variations)", default=self.FILENAME_SKIPPED)
         parser.add_argument('-c',  '--combinations', help="Combine words in input list by N\nWARNING! don't set high with lots of formats/words")
-        parser.add_argument('-p',  '--permutations', help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words.txt and start next with ###\nWARNING! don't combine many sections+words", action='store_true')
+        parser.add_argument('-p',  '--permutations', help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words.txt and start next with #@section\nWARNING! don't combine many sections+words", action='store_true')
         parser.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs", default=self.FILENAME_REVERSE)
         parser.add_argument('-R',  '--reverse-list', help="Pass FNV list", nargs='*')
         parser.add_argument('-js', '--join-spaces',  help="Join words with spaces in lines\n('Word Word' = 'Word_Word')", action='store_true')
@@ -255,7 +255,7 @@ class Words(object):
     def _read_words_lines(self, infile):
         for line in infile:
             # section end when using permutations
-            if self._args.permutations and line.startswith('###'):
+            if self._args.permutations and line.startswith('#@section'):
                 self._words = {} #old section is in _sections
                 self._sections.append(self._words)
                 self._section += 1
@@ -409,6 +409,8 @@ class Words(object):
         info_add = 1000000 // len(formats)
         info_top = info_add
         written = 0
+
+        start_time = time.time()
         with open(self._args.output_file, 'w') as outfile:
             for word in words:
                 for format in formats:
@@ -417,12 +419,25 @@ class Words(object):
                     else:
                         out = format % (word)
 
-                    if out in self._skipped:
+                    if self._skipped and out in self._skipped: #non-empty test first = minor speedup
                         continue
 
                     if self._reverse:
                         out_lower = out #out.lower() #should be pre-lowered already
-                        fnv_base = self._fnv.get_hash_lw(out_lower)
+
+                        # inline'd FNV hash, ~5% speedup
+                        #fnv_base = self._fnv.get_hash_lw(out_lower)
+                        namebytes = bytes(out_lower, 'UTF-8')
+                        hash = 2166136261 #FNV offset basis
+                        for namebyte in namebytes:  #for i in range(len(namebytes)):
+                            hash = hash * 16777619 #FNV prime
+                            hash = hash ^ namebyte #FNV xor
+                            hash = hash & 0xFFFFFFFF #python clamp
+                        fnv_base = hash
+
+                        if self._args.no_fuzzy and fnv_base not in self._fnv_dict:
+                            continue
+
                         fnv_fuzz = fnv_base & 0xFFFFFF00
                         if fnv_fuzz in self._fuzzy_dict:
                             for fnv in self._fnv_dict.keys():
@@ -466,7 +481,9 @@ class Words(object):
             print("found %i matches" % (written))
         else:
             print("created %i words" % (written))
-        print("done")
+        
+        end_time = time.time()
+        print("done (elapsed %ss)" % (end_time - start_time))
 
     # when reversing format/word are lowercase, but we have regular case saved to get original combo
     def _get_original_case(self, format, word, joiner):
