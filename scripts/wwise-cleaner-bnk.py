@@ -11,6 +11,7 @@
 import glob, os, re, sys
 
 move_dir = 'unwanted-bnk'
+default_dir = 'wem'
 
 # put filenames to print on which .txtp they are referenced
 targets = []
@@ -32,14 +33,16 @@ def main():
     # catch folder-like parts followed by name + extension
     pattern1 = re.compile(r"^[ ]*[?]*[ ]*([0-9a-zA-Z_\- \\/\.]*[0-9a-zA-Z_]+\.[0-9a-zA-Z_]+).*$")
     # catch comment with .bnk used to generate current .txtp
-    pattern2 = re.compile(r"^#[ ]*-([0-9a-zA-Z_\- \\/\.]*[0-9a-zA-Z_]+\.bnk).*$")
+    pattern2 = re.compile(r"^#[ ]*-[ ]*([0-9a-zA-Z_\- \\/\.]*[0-9a-zA-Z_]+\.bnk).*$")
 
     # wems in txtp
     txtps = glob.glob(glob_txtps)
     files_used = set()
+    last_path = default_dir
     for txtp in txtps:
         with open(txtp, 'r', encoding='utf-8-sig') as infile:
             for line in infile:
+                #
                 if line.startswith('#'):
                     match = pattern2.match(line)
                 else:
@@ -48,12 +51,19 @@ def main():
                     name, = match.groups()
                     file = os.path.normpath(name)
                     file = os.path.normcase(file)
+
+                    # todo detect last_path better (or use all paths) 
+                    if line.startswith('#') and '.bnk' in file:
+                        file = os.path.join(last_path, file)
+
                     path = os.path.dirname(file)
                     files_used.add(file.strip())
                     glob_folders.add(path.strip())
+  
+                    last_path = path.strip()
 
                     if targets:
-                        basename = os.path.basename(name.lower())
+                        basename = os.path.basename(name.lower().strip())
                         basename = os.path.splitext(basename)[0]
                         if basename in targets_done:
                             continue
