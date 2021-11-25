@@ -512,13 +512,26 @@ class Words(object):
     def _process_reverse(self):
         try:
             try:
+                # flag to use as-is generated wwnames.txt with "missing ID" comments
+                ignore_comments = False
+
                 with open(self._args.reverse_file, 'r') as infile:
                     for line in infile:
-                        if line.startswith('#'):
+                        if line.startswith('### MISSING'):
+                            ignore_comments = True
                             continue
+                        if line.startswith('#'):
+                            if ignore_comments:
+                                line = line[1:]
+                            else:
+                                continue
+
                         elem = line.strip()
                         if not elem:
                             continue
+                        if not elem.isnumeric():
+                            continue
+
                         self._fnv_dict[int(elem)] = True
             except FileNotFoundError:
                 pass
