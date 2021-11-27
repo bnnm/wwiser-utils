@@ -215,7 +215,7 @@ startfunction PARSE_TABLE_INTERNAL
 
         if ALT_MODE == 1 && IS_EXTERNALS == 1
             #TODO: should print as non-hex but quickbms 32b doesn't support 64b vars
-            string NAME p "%s%08x%08x.%s" PATH ID1 ID2 EXT
+            string NAME p "externals/%s%08x%08x.%s" PATH ID1 ID2 EXT
         else
             string NAME p "%s%u.%s" PATH ID EXT
         endif
