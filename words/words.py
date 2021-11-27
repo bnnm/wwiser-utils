@@ -74,6 +74,7 @@ class Words(object):
         # With dicts we use: words[index] = value, index = lowercase name, value = normal case.
         # When reversing uses lowercase to avoid lower() loops, but normal case when returning results
         self._words = {} #OrderedDict() # dicts are ordered in python 3.7+
+        self._words_reversed = set()
 
         self._sections = []
         self._sections.append(self._words)
@@ -196,6 +197,11 @@ class Words(object):
         if key < 0xFFFFF or key > 0xFFFFFFFF:
             return
 
+        # skip already useful names in wwnames.txt
+        if self._parsing_wwnames:
+            if key in self._words_reversed:
+                return
+
         self._reversables.add(key)
 
     def _read_reversables(self, file):
@@ -275,7 +281,6 @@ class Words(object):
             for i, j in itertools.combinations(range(len(subwords) + 1), 2):
                 combos.append( joiner.join(subwords[i:j]) )
 
-        combine = self._args.combinations or self._args.permutations
         for combo in combos:
             if not combo:
                 continue
@@ -312,7 +317,7 @@ class Words(object):
             if len(line) > 500:
                 continue
 
-            # some games like Death Stranding somehow have spaces in their names
+            # games like Death Stranding somehow have spaces in their names
             if self._args.join_spaces:
                 line = line.replace(' ', '_')
 
@@ -343,6 +348,15 @@ class Words(object):
                     for i in range(1, self._args.cut_last+1):
                         elem_cut = elem[0:-i]
                         self._add_word(elem_cut)
+
+                # When reading wwnames.txt that contain IDs, should ignore IDs that are included in the file
+                # This way we keep can keep adding reversed names to wwnames.txt without having to remove IDs
+                # Only for base elem and not derived parts.
+                if self._parsing_wwnames:
+                    elem_lw = elem.lower()
+                    if self._fnv.is_hashable(elem_lw):
+                        fnv = self._fnv.get_hash(elem_lw)
+                        self._words_reversed.add(int(fnv))
 
 
     def _read_words(self, file):
@@ -474,7 +488,7 @@ class Words(object):
                     else:
                         out = format % (word)
 
-                    if self._skips and out in self._skips: #non-empty test first = minor speedup
+                    if self._skips and out in self._skips: #non-empty test first = minor speedup if file doesn't exist
                         continue
 
                     if is_text_output:
@@ -482,8 +496,9 @@ class Words(object):
                         written += 1
                         continue
 
-                    # quick ignore
-                    #if 
+                    # quick ignore non-hashable
+                    if out[0].isdigit():
+                        continue
 
                     out_lower = out #out.lower() #should be pre-lowered already
 
@@ -526,7 +541,6 @@ class Words(object):
 
                             # don't print non-useful hashes
                             if not self._fnv.is_hashable(out_final.lower()):
-                                print("ignore", out_final)
                                 continue
 
                             outfile.write("%s: %s\n" % (fnv, out_final))
@@ -574,13 +588,20 @@ class Words(object):
     #--------------------------------------------------------------------------
 
     def _process_config(self):
-        # separate output to make clearer output
+        cb = self._args.combinations
+        pt = self._args.permutations
+
+        # separate output files to make it clearer
         if self._args.output_file == self.FILENAME_OUT:
-            
-            if self._args.combinations:
-                self._args.output_file = self.FILENAME_OUT_EX % (self._args.combinations)
-            elif self._args.permutations:
+            if cb:
+                self._args.output_file = self.FILENAME_OUT_EX % (cb)
+            elif pt:
                 self._args.output_file = self.FILENAME_OUT_EX % ('p')
+        
+        # unless splicitly enabled, don't use fuzzy in these modes
+        if not self._args.fuzzy_enable and (cb or pt):
+            self._args.fuzzy_disable = True
+
 
     def start(self):
         self._args = self._parse()
