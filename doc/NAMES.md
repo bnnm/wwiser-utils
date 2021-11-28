@@ -14,21 +14,24 @@ Quick guide to (possibly) get extra names:
   - binary files with names are ok too
   - make sure they are decompressed first (like for Unreal Engine use gildor's package decompressor/extractor/etc)
   - binary that *don't* have names are ok too, but the more files the more noise/bad names you may get, try to trim down when possible
+    - for example, remove all texture/shader/model files
   - also add the executable (.exe/so/main/xex/eboot/etc) too
   - some executables like main/xex/eboot/exe should be decompressed first (ask in hcs64/discord, or just won't worry)
 - zip all files into a single file with the "no compression option"
   - this makes a single, huge file like `files.zip`
   - this file MUST NOT BE COMPRESSED (not an actual zip, but a package; you could use `.tar` or others)
+  - doesn't matter if you include folders
 - use `strings2.exe` to get a text file with names from `files.zip`
   - get `strings2.exe`: http://split-code.com/files/strings2_x64_v1-2.zip
+    - on Linux you may use `strings` too
   - unzip on same dir as `files.zip`
   - call on Windows CLI: `strings2.exe "files.zip" > wwnames.txt`
+  - you don't need to change `strings2` default parameters (gets you more names = good)
   - or create a file like `files.bat`, copy the line above + save, double click
   - if zipped files are too big try splitting by max size, repeat steps below, and fuse all `wwnames.txt` created to a final one
   - you may want to also use `sstr.exe` (https://github.com/bnnm/wwiser-utils/raw/master/sstr/sstr.exe) to possible add extra names that `strings2.exe` may get wrong (like `@nbgm_01<`).
   - `sstr.exe "files.zip" >> wwnames.txt`
-- this generates a `wwnames.txt` file with "possible" (not necessarily used) names
-  - you don't need to change `strings2` default parameters (gets you more names = good)
+- the above generates a `wwnames.txt` file with "possible" (not necessarily used) names
   - many "names" will be garbage-looking strings, that is ok and will be ignored by *wwiser*
   - some "names" will be long lines or contain crap like `  "bgm"="name"  `, that is ok too and will be cleaned up automatically (reads `bgm` and `name`)
 - now put that file with all `.bnk`, wwiser can use it to get all possible names (may take a while to load if wwnames is big)
@@ -40,7 +43,7 @@ Quick guide to (possibly) get extra names:
   - this creates a "clean" `wwnames-banks-(date).txt` with actually used names
   - open said file, look for clearly wrong names (like *x8273s* or *aXNuy*) and remove them, or change lower/uppercase in some cases (like `wIN` to `win` and such)
   - now rename `wwnames-bank-(date).txt` to `wwnames.txt` and use wwiser with that instead of the original file, since you just cleaned it up
-- you may also add missing names (sometimes are easy to guess) or use `fnv.exe` to reverse a few numbers
+- you may also add missing names manually (sometimes are easy to guess) or use `fnv.exe`/`words.py` helpers
   - see guide below about tips to squeeze out more names, particularly `words.py` info if you are an advanced user
 - be cool and post this list somewhere or include `wwnames.txt` with your rip for everybody to enjoy
 - also check if your game is here: https://github.com/bnnm/wwiser-utils/wwnames/
@@ -60,6 +63,8 @@ Games roughly fall in two categories depending on how they call events/variables
 - by IDs: no actual names anywhere and just numbers. Simpler games may do this (just constant enum/class with values like NAME_1 = 12345678 used directly in code). Harder, but we may still get a few names.
 
 Even in the second case game files may still contain a few leftover names, so we can still try the usual tricks. Theoretically we can reverse any event/variable, but realistically we may only recover a few, depending on how the game created the names (the longer, more elaborate the less likely). Still, having *some names* is better than *no names*.
+
+Also keep in mind game variables are often in code only (numbers), even if game calls events *by name*.
 
 Knowing all this, we can extract a list of leftover names, plus add some common ones, and make a extra name list for *wwiser* to use.
 
@@ -95,7 +100,7 @@ The basic flow is this:
 ### BNKS
 It's best if you use all possible banks in the game, more banks = more names detected = yay. You can restrict to `bgm.bnk` or whatever only, but might as well try to get most names at once while we are at it.
 
-If the game has `SoundbankInfo.xml`, `(bankname).txt`, `Wwise_IDs.h` and similar files put those together too. Not all names are in each of those files, so you want *all* at once (IOW don't delete `(bankname).txt` thinking `SoundbankInfo.xml` is enough).
+If the game has `SoundbankInfo.xml`, `(bankname).txt`, `Wwise_IDs.h` and similar files put those together too. Not all names are in each of those files, so you want *all* at once (in otyher words don't delete `(bankname).txt` thinking `SoundbankInfo.xml` is enough).
 
 Another gotcha is that if you only load `bgm.bnk` + `bgm.txt` + `SoundbankInfo.xml`, some names may actually be in `init.bnk` + `init.txt`, so loading every bank ensures you find all at once.
 
@@ -112,7 +117,7 @@ strings2.exe config.lua >> wwnames.txt
 
 This `wwnames.txt` will contain lots of garbage (no need to clean), but also many possible candidates. A thing to note is that Wwise conversion from names to numbers is fairly simple, meaning multiple names may end up with the same number AKA "false positives".
 
-`strings2.exe` tries to finds names separated by null bytes. This sometimes makes text that contains unwanted letters (like `@nbgm_01<` that would be bytes). To improve those cases you can try `wwiser-utils/sstr/sstr.exe`, that tries to find *sized strings* that games often use and gives much better results on those cases. Note that games may mix both types of strings you could try both anyway.
+`strings2.exe` tries to finds names separated by null bytes. This sometimes makes text that contains unwanted letters (like `@nbgm_01<` that would be bytes). To improve those cases you can try `wwiser-utils/sstr/sstr.exe`, that tries to find *sized strings* that games often use and gives much better results on those cases. Note that games may mix both types of strings so you could try both anyway.
 
 So you want to fill the list with many candidates, but not so many that false positives start appearing. Various tricks about making and improving the list are described later.
 
@@ -155,7 +160,7 @@ fnv.exe 123456789 -m 8 -p "play_"
 ```
 That will start from `play_` and search up to 7 letters, making it feasible to find `bgm_001`.
 
-You can also set suffix, but it's slower than prefixing:
+You can also set suffix, but it's much slower than prefixing:
 ```
 fnv.exe 123456789 -m 8 -s "_001"
 ```
@@ -183,6 +188,7 @@ When you suspect a name doesn't contain letters you can restrict a bit to skip c
 fnv.exe 1492557634 -l b -L t -r
 #finds "planet_04"
 ```
+Alse use `-R` for a quick "ignore all numbers in any level" setting.
 
 
 Finally, take any reversed names and put them (preferable on top for priority) in `wwnames.txt`.
@@ -192,49 +198,144 @@ Finally, take any reversed names and put them (preferable on top for priority) i
 This automates some of the tips explained later. It's mainly useful when we already have a bunch of names, and are missing others that are variations of existing names (since devs use somewhat previsible names):
 https://github.com/bnnm/wwiser-utils/blob/master/scripts/words/words.py
 
-Basically make a `words.txt` list of things like `BGM_Vocal_Camp_Off`, launch `words.py` in the dir and it'll generate in `words_out.txt` a list of split parts (`BGM`, `BGM_Vocal_Camp` `Vocal_Camp_Off`, `Vocal_Camp`, `Vocal`, etc) from those words. This is useful because `Vocal` or `Vocal_Camp` are likely to be used as variable/values. It's best to start with all names we have (even output straight from `strings2`), copy `wwnames.txt` and rename to `words.txt`.
+The basic theory this tool uses is: if you know a game has `play_bgm_01` but are missing other names, there is a good chance `bgm_01`, `bgm_02` or `play_bgm_01_short` could be valid names. *words.py* basically takes words and generates other words, to test vs missing ID numbers.
 
-You can also make `formats.txt` and add prefixes/suffixes: `%s`, `BGM_%s`, `BGM_%s_On`, `BGM_%s_Off`, `BGM_Play_%s`, etc. This will also make things that weren't in the original words, like `BGM_Play_Camp`, `BGM_Vocal_Camp_On` and so on (so you can target a certain type of names like missing `BGM_*`). Also remember last letter are auto-calculated, so a format like `%s_0` may find `BGM_Vocal_A` `BGM_Vocal_B`. Some typical formats to do a quick test can be found here:
-https://github.com/bnnm/wwiser-utils/blob/master/scripts/words/formats_common.txt
+By default it reads some expected files (like `wwnames.txt`, or `formats.txt`) to get base names and IDs then tries certain patterns.
 
-Key here is we want quantity over quality. Just generate huge lists of possible names, rename `words_out.txtp` to `wwnames.txt` and let *wwiser* decide which names are good enough, as long as you have free memory big-ish files (ex. +300MB) are ok (you may want to split giant words lists as they take a lot of memory). You can get a bunch of false positives this way, but most should be obviously fake like `BGM_Voca4` (a few may need to be checked how are they used in the `.xml`).
+With some manual tweaking you can quickly try lots of variations. For example, if you only have a bunch of `bgm_01` you can try prefixing `play_`, `stop_`, ..., and suffixing `_short`. The tool needs some manual fine tuning, as the more words the longer it takes and more false positives appear. Maybe your game needs `playmusic_` or a `_play` suffix instead, or you want to find only `ST_MU_`, so to get most out of it you need to keep tweaking input (can't guess those affixes).
 
-Because splitting removes `_` (`_Vocal` won't be added), sometimes it's useful to add `_%s` in formats, as some game use names like `_01`. You can also try using the `-j` so words are joined without `_`, though not many games join words like `VocalCamp`.
+You need to start with a base word list and some imagination to guess how names could be created. The more names and formats you add the longer it takes and the more false positives you get though, so keeping lists reasonable is part of the process, though often you can just throw lots of junk there and see what sticks.
 
-If there is a `fnv.txt` present with some ID numbers, instead of writing all generated words it'll only write words that match one of those IDs. Remember missing names can be created with *wwiser* using `-sl -sm`. Since this is a bit faster that reloading *wwiser* every time, a simpler way to use `words.py` is taking all missing IDs from `-sl -sm` (remove `# `), and trying various formats/modes that only target those IDs.
 
+#### Quick guide
+Typical use of *words.py*:
+- use `wwiser.pyz *.bnk -sl -sm` to generate a base `wwnames-banks-(date).txt` with valid words + missing FNV numbers
+- put that file (now base word list + reversable FNV numbers) with *words.py*
+  - by default it reads any and all `wwnames*.txt` in dir
+- run and check `words_out.txt` for possible matches (this will also create `skips.txt`)
+  - *words.py* cuts base list names in various ways, and tries to find missing FNV numbers
+  - `skips.txt` is a list of already reversed names that keeps growing, so when retrying same reversed names don't reappear
+- copy good matches to the *wwnames* near *words.py* (no need to change `number: name` format)
+- create `formats.txt` and add prefixes/suffixes like `play_%s`, `stop_%s`, `play_%s_bgm` and so on
+  - observe your current *wwnames* list and try to guess possible patterns
+  - example: https://github.com/bnnm/wwiser-utils/blob/master/scripts/words/formats.txt
+- run again and save new possible matches
+- keep tweaking `formats.txt` and adding/removing words in `wwnames.txt` trying to guess more names
+- every now and then update original list, then `wwiser.pyz *.bnk -sl -sm` to see how numbers keep decreasing
+- make a `ww.txt` file with extra posible names (together with `wwnames*`), run again
+  - you could add it to `wwnames.txt` directly too, but this coexists and it's a bit easier
+  - this is best used with many `formats.txt` variations
+  - prone to false positives, try disabling "fuzzy matching" with `-zd` or writting `#@nofuzzy` in the file
+  - examples of useful texts to try:
+    - output of `strings2` (often game has stems in files that aren't used as base wwnames)
+    - `english.txt` (extra useful words every now and then): https://github.com/dwyl/english-words/
+    - text faqs/guides of the game (possible game-related words)
+    - `wwnames.txt` from other games: https://github.com/bnnm/wwiser-utils/tree/master/wwnames
+      - Windows batch: `copy *.txt .allnames.txt` to try many at once
+- try flags to fine-tune (see below)
+- trim word list a bit and try *combinations* (see below)
+  - preferably limit FNV numbers to certain banks, as this makes tons of false positives
+- trim word list a bit and try *permutations* with another list (see below)
+  - for example wwnames + `strings2` results or `english.txt`
+- repeat again and again as you get more valid words (new words = new combos = new chances)
+- give up at some point, copy names to the original *wwnames.txt*, re-create with `wwiser.pyz *.bnk -sl` and move on
+
+Get *pypy* (https://www.pypy.org/) and use it to run *words.py* for a nice speed up.
+
+
+#### Basic reversing
+Basically make a `wwnames.txt` list of things like `BGM_Vocal_Camp_Off`, include some ID numbers to reverse too, launch `words.py` in the dir and it'll output in `words_out.txt` with reversed names. For example `Vocal_Camp` could be one of them.
+
+You can have an extra `ww.txt` list (only reads words and ignores IDs), and `fnv.txt` (only reads ID numbers) too, or use those two instead of `wwnames.txt`. Include `formats.txt` to fine tune prefixes/suffixes.
+
+FNV ID numbers must be plain `(number)` or `# (number)` (as the later is how it appears in `wwnames.txt`), and will ignore non-numbers and multiple numbers in the same line, or `(number): name` (*words.py* results). Remember missing names can be created with *wwiser* using `-sl -sm`.
+
+Internally *words.py* splits parts (`BGM`, `BGM_Vocal_Camp` `Vocal_Camp_Off`, `Vocal_Camp`, `Vocal`, etc) from lists and combines with formats (see below). It's best to start with all names we have (like `wwnames.txt` or even output straight from `strings2`). You can force generate internally combined words with a flag, but it'll make huge lists.
+
+Key here is quantity over quality. Just make huge lists of possible names and see how it goes. As long as you have free memory big-ish files are ok, but you may want to split giant words lists for easier handling. You can get a bunch of false positives this way, but most should look fake enough.
+
+
+#### Formats
+You can make a `formats.txt` with prefixes/suffixes: `%s` (default if no file is found), `BGM_%s`, `BGM_%s_On`, `BGM_%s_Off`, `BGM_Play_%s`, etc. This will make things that weren't in the original words, like `BGM_Play_Camp`, `BGM_Vocal_Camp_On` and so on (so you can target a certain type of names like missing `BGM_*`).
+
+Because splitting removes `_` (`_Vocal` won't be added), sometimes it's useful to add `_%s` in formats, as some game use names like `_01`. 
+
+A base list with typical formats can be found here: https://github.com/bnnm/wwiser-utils/blob/master/scripts/words/formats.txt
+
+
+#### Fuzzy feeling
+By default last letters are auto-calculated, so a format like `%s_0` may find `BGM_Vocal_A` `BGM_Vocal_B`, but also from `BGM_Vocal` you may get `BGM_Voca2`. It's disabled when using *combinations/permutations* as it tends to get lots of useless matches.
+
+This "fuzzy matching" can be enabled/disabled with flags, or disabled writting `#@nofuzzy` in the word file.
+
+
+#### Combinations
 For the daring you can use the combinator mode. `words.py -c N` takes `words.txt` and tries all combinations of N parts (`formats.txt` are also applied after those combinations). For example from `BGM`, `Vocal`, `Camp` `Desert` in `words.txt`, `-c 3` makes `BGM_Desert_Camp`, `BGM_Vocal_Desert` `Vocal_Camp_BGM` `Desert_BGM_Vocal` and so on. Many will be useless but again, quantity over quality. You can squeeze out a more names this way.
 
-Downside is that many words + high `-c N` = humongous number of results. So `words.txt` here should be restricted to mostly relevant words (remove `Desert` if you aren't trying to find events related to that). Best is to combine with `fnv.txt` to reverse only, since generated `.txt` can be +GBs big otherwise. Try `-c 2` and see if some names worked (this is typically most useful), reduce words and try `-c 3` (this gets a few more, but often creates a few valid-looking-enough-but-actually-wrong names, though). `-c 4` is possible but could take many hours, `-c 5` and beyond may take ages. Total words and current word is printed every now and then so you can estimate time it'll take. It's recommended you add extra flags like `-nz` too (see below).
+Downside is that many words + high `-c N` = humongous number of results. So `words.txt` here should be restricted to mostly relevant words (remove `Desert` if you aren't trying to find events related to that).  Try `-c 2` and see if some names worked (this is typically most useful), reduce words and try `-c 3` (this gets a few more, but often creates a many valid-looking-enough-but-actually-wrong names, though). `-c 4` is possible but could take many, many hours, `-c 5` and beyond may take ages. Total words and current word is printed every now and then so you can estimate the time it'll take.
 
 In some cases it's better to use fully split stems by using the flag `-fs`. Normally `BGM_Vocal_Camp` splits into `BGM_Vocal`, `Vocal_Camp`, `BGM`, `Vocal`, `Camp`. With the flag, only `BGM`, `Vocal`, `Camp` are used. Combine custom `formats.txt`, this flag and `-c N` to create words like `(prefix)_(combos up to N)_(suffix)`, that can be useful when we have clear prefix/suffixes in `formats.txt`.
 
+#### Permutations
 A more specialized version is using `words.py -p`. This takes `words.txt`, that must be divided into "sections", and makes permutations of those sections to create combo words. For example:
 ```
 BGM
 Play_BGM
-### section end
+
+#@section
 mission
 stage
-### section end
+
+#@section
 01
 001
 ```
 With those 3 sections it makes: `BGM_mission_01`, `BGM_stage_01`, `BGM_mission_001`, ..., `Play_BGM_mission_01`, `Play_BGM_stage_001`, an so on. This is similar as making formats (`BGM_%s_01`, `BGM_%s_001`) but simplifies testing more combos. Formats can be used on top of the permutations too.
 
-Sometimes `strings2.exe` results aren't that good because strings are mixed with code, and it can only guess so much. For example `bgm_001E` may be just `bgm_001` while the `E` is a number that got mixed in. You can use `-cl N` to cut last N chars in hopes of fixing those cases. For example `-c 1` adds `bgm_001E` and `bgm_001`, the downside being this multiplies total results. Files may start with the wrong chars too, but it's much less common so no option ATM.
+You can also add `#@section` in `ww.txt` to designate a new section combined with `wwnames.txt` default section.
 
-When trying variations of commands and using `fnv.txt`, you often get the same *wrong* results again and again in the output found words. Make a `skipped.txt` list (separated by spaces/lines) and those words will be ignored.
 
-To fine tune results a bit you can add extra flags, most useful with combinations since they take tons of time if you split words by default. 
-- `-nz`: disables "fuzzy matching" when reversing (last letter isn't autocalculated)
-- `-ns`: disables splitting words by `_`.
-- `-fs`: fully splits stems and doesn't add any subword containing `_`.
-- `-sp`: splits words by prefix like `(preffix)_(word)`
-- `-ss`: splits words by suffix like `(word)_(suffix)`
+#### False positives
+Because combinations and permutations makes lots of words, and Wwise IDs are very collision-prone (meaning 2 words may match the same ID), it tends to get tons of false positives. Those are easy to check at a glance, but it gets old to wade through lists of weird pseudo-words.
+
+Easiest would be trimming your word list. If you are trying to find states, probably having `play_vo_s01_m10_char10323` isn't going to help much. Or maybe you have a `play_%s` format, remove all `play_*` in your file, or they'll combine too (`play_play_something`).
+
+A trick is to pair related formats you know game uses. For example with `play_%s` and `stop_%s`, only results that have both could be valid (`play_bgm_park` + `stop_bgm_park`, but not a lone `play_flowers_high`). Or `st_%s` and `set_state_%s` may get `st_bgm01_long` + `set_state_bgm01_long` (good) and lone `st_bgm01_burger` (bad).
+
+See modifiers to tweak how words are treated to decrease total results, for example `-mc 50` ignores words bigger than 50 chars. Some games do use huge +80 char names, but if you are targeting some small-ish state it helps a bit.
+
+
+#### Skips
+A special file `skips.txt` contain names that should be ignored in next runs, so output isn't filled with the same results when re-running. This list also doubles as a log.
+
+It's only to decrease output noise, so you can always delete it to start again. Remove it when trying new games, as otherwise good matches that were in other games won't show up.
+
+
+#### Modifiers
+Base tweaks:
+- `-zd`: disables "fuzzy matching" in default mode (last letter isn't autocalculated)
+- `-ze`: enables "fuzzy matching" in combination/permutation modes
+
+Word modifiers for special cases found in internal files:
+- `-js`: joins words that are separated by spaces (`play music` becomes `play_music`)
+- `-jb`: joins words by blanks (`Play_Music` becomes `PlayMusic`)
+- `-sc`: split by caps (`PlayMusic` becomes `Play_Music`)
+
+Others, mainly useful to control max results for combination/permutations: 
+- `-mc N`: limits resulting words to max (to ignore huge, unlikely useful words)
+- `-ns`: disables splitting words by `_`
+- `-fs`: fully splits stems and don't add any subword containing `_`
+- `-sp`: splits words by prefix like `(preffix)_(word_word...)`
+- `-ss`: splits words by suffix like `(word_word...)_(suffix)`
 - `-sb`: splits words by both prefix/suffix like `(preffix)_(word)_(suffix)`
+- `-cl N`: cuts last N chars (for `strings2` garbage like having `bgm_001E` instead of `bgm_001`)
 
+
+#### Other info
 *python* isn't exactly known for speed, so `words.py` can be rather slow. A trick to improve this is using *pypy* (https://www.pypy.org/), a reimplementation of *python.exe* that often results in faster execution (download, unzip, then use `pypy3.exe words.py ...`). While *wwiser* doesn't seem very affected, `words.py` gets a huge boost (specially with `fnv.txt`).
+
+Keep in mind this tool is memory hungry, is it needs to store words, reversed strings and other stuff.
+
 
 ### FINISHING THE LIST
 Once you get "enough" names (getting "all" names is not very likely) generate a final clean list. Rename this `wwnames-banks-(timestamp).txt` to `wwnames.txt`. Then clean up as needed, by removing false positives (improbable names like `uTXs`) inside, and maybe rename "NAME" in CAPS to "name" if other vars are lowercase for consistency.

@@ -124,13 +124,13 @@ Nope, sorry. This tool is not intended for that and can only read files, and wil
 Nope, sorry. Info about .wems is inside .bnk.
 
 ### "I USED SOUNDBANKINFO.XML TO RENAME .WEM TO SOMETHING ELSE, CAN I USE WWISER?"
-.bnk and generated .txtp point to original names/numbers. You must re-rip, or un-rename to original Wwise numbers.
+.bnk and generated .txtp point to original names/numbers. You must re-rip, or un-rename to original Wwise numbers. Note wwiser has an option to create !tags.m3u (tags for vgmstream) for .wem.
 
 ### "I DON'T LIKE WWISE NUMBERS AND WANT TO RENAME .WEM TO OTHER THINGS"
-This tool needs original Wwise numbers. There is an option to add .wem names to .txtp though. Understand those .wem names are never used, they are simply references for the sound designers during development. "Song names" would be event names + variable names (what is used in generated .txtp).
+This tool needs original Wwise numbers. There is an option to add .wem names to .txtp though. Understand those .wem names are never used, they are simply references for the sound designers during development. "Song names" would be event names + variable names (what is used in generated .txtp). 
 
 ### "SOME GENERATED TXTP DON'T WORK"
-First, open the .txtp, and check all the (number).(ext) exist in the /wem (or configured) folder. If they don't, you need to fix that (remember .wem may be in some .pck or bigfile). If all looks in place yet fails, report and upload the .bnk and .wem.
+First, open the .txtp, and check all the (number).(ext) exist in the /wem (or configured) folder, as well as (name).bnk. If they don't, you need to fix that (remember .wem may be in some .pck or bigfile). If all looks in place yet fails, report and upload the .bnk and .wem.
 
 ### "SOME TXTP SOUNDS OFF/LOOP POINT ISN'T SMOOTH/HAS PROBLEMS"
 This tool is still WIP. See wwiser's README for info about missing features, report bugs other than those.
@@ -146,7 +146,7 @@ https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise_pck_ext
 First consider if you *REALLY* want this. The guide recommends to include `.bnk` in the rip for a reason, so might as well leave it untouched in the /wem dir. "*But my `.bnk` has sfx too!!!*". Well. Is it really worth for you wasting time to trim a few MB from a file you won't ever see or open manually? If so, make sure you check "treat internal .wem as external" when generating `.txtp`, and use this .bms to extract `.bnk`:
 https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise_bnk_extractor.bms
 
-If file is marked with `{!}` this means it uses some hard-to-simulate feature and won't play sound off/silent.
+If a file is marked with `{!}` this means it uses some hard-to-simulate feature and won't play/sound off/silent.
 
 ### "I DON'T HAVE .WEM BUT .WAV/XMA/OGG, WHAT DO I DO?"
 Early games (before mid-2011) use those extensions, don't rename to .wem! That's correct and will work fine as-is, just pretend they are .wem. There is an option to use .logg/.lwav too, but it's not needed (.txtp work fine with .ogg/wav). Conversely if you used some random program to extract from bigfiles and your game is after mid-2011, you need to rename to .wem first.
