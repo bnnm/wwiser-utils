@@ -62,6 +62,10 @@ class Words(object):
     FILENAME_REVERSABLES = 'fnv.txt'
     PATTERN_LINE = re.compile(r'[\t\n\r .<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~]')
     PATTERN_WORD = re.compile(r'[_]')
+    FORMAT_TYPE_NONE = 0
+    FORMAT_TYPE_PREFIX = 1
+    FORMAT_TYPE_SUFFIX = 2
+    FORMAT_TYPE_BOTH = 3
 
     def __init__(self):
         self._args = None
@@ -75,6 +79,9 @@ class Words(object):
         # When reversing uses lowercase to avoid lower() loops, but normal case when returning results
         self._words = {} #OrderedDict() # dicts are ordered in python 3.7+
         self._words_reversed = set()
+
+        #self._format_fnvs = {} #stem = base FNV
+        #self._format_baselen = {} #stem = base lenth
 
         self._sections = []
         self._sections.append(self._words)
@@ -138,7 +145,37 @@ class Words(object):
             print("ignored wrong format:", format)
             return
 
-        self._formats[format.lower()] = format
+        if format == '%s':
+            type = self.FORMAT_TYPE_NONE
+            sub = None
+
+        elif format.endswith('%s'):
+            type = self.FORMAT_TYPE_PREFIX
+            sub = format[:-2].lower()
+
+        elif format.startswith('%s'):
+            type = self.FORMAT_TYPE_SUFFIX
+            sub = format[2:].lower()
+
+        else:
+            type = self.FORMAT_TYPE_BOTH
+            sub = format.lower()
+
+        key = format.lower()
+        if self._args.text_output:
+            val = format
+        else:
+            val = key
+
+        self._formats[key] = (val, format, type, sub)
+
+        #index = format.index('%')
+        #if index:
+        #    val = self._fnv.get_hash(format[0:index])
+        #else:
+        #    val = None
+        #self._format_fnvs[key] = val
+        #self._format_baselen[key] = index
 
     def _read_formats(self, file):
         try:
@@ -381,16 +418,13 @@ class Words(object):
     #--------------------------------------------------------------------------
 
     def _get_formats(self):
-        formats = []
-        for format_key, format_val in self._formats.items():
-            if self._args.text_output:
-                format = format_val #original
-            else:
-                format = format_key #lowercase
+        #formats = []
+        #for key in self._formats:
+        #    format, format_og, type, sub = self._formats[key]
+        #    formats.append(format) #original/lowercase
 
-            formats.append(format)
-
-        return formats
+        # pre-loaded
+        return self._formats.values()
 
     def _get_permutations(self):
         permutations = 1
@@ -405,7 +439,7 @@ class Words(object):
             sections.append(words)
 
         f_len = len(self._formats)
-        print("creating %i permutations * %i formats" % (permutations, f_len) )
+        print("creating %i permutations * %i formats (%s sections)" % (permutations, f_len, len(self._sections)) )
 
         elems = itertools.product(*sections)
         return elems
@@ -482,14 +516,26 @@ class Words(object):
 
         with open(self._args.output_file, 'w') as outfile, open(self._args.skips_file, 'a') as skipfile:
             for word in words:
-                for format in formats:
+                for format, _, type, sub in formats:
                     if combine:
-                        out = format % (joiner.join(word))
+                        baseword = joiner.join(word)
                     else:
-                        out = format % (word)
+                        baseword = word
 
-                    if self._skips and out in self._skips: #non-empty test first = minor speedup if file doesn't exist
-                        continue
+                    # doing "str % (str)" every time is ~40% slower
+                    if   type == self.FORMAT_TYPE_NONE:
+                        out = baseword
+                    elif type == self.FORMAT_TYPE_PREFIX:
+                        out = sub + baseword
+                    elif type == self.FORMAT_TYPE_SUFFIX:
+                        out = baseword + sub
+                    else:
+                        out = format % (baseword) 
+
+                    # its ~2-5% faster calc FNV + check if it a target FNV, than checking for skips first (less common)
+                    # non-empty test first = minor speedup if file doesn't exist
+                    #if self._skips and out in self._skips:
+                    #    continue
 
                     if is_text_output:
                         outfile.write(out + '\n')
@@ -501,6 +547,15 @@ class Words(object):
                         continue
 
                     out_lower = out #out.lower() #should be pre-lowered already
+
+                    # pre-calculated FNV for prefixes, no actual speedup it seems (maybe due to the substring?)
+                    #baselen = self._format_baselen[format]
+                    #if baselen:
+                    #    base_fnv = out_lower[baselen:]
+                    #    basehash = self._format_fnvs[format]
+                    #else:
+                    #    base_fnv = out_lower
+                    #    basehash = 2166136261
 
                     # inline'd FNV hash, ~5% speedup
                     #fnv_base = self._fnv.get_hash_lw(out_lower)
@@ -555,7 +610,7 @@ class Words(object):
                     info_top += info_add
                     print("%i..." % (info_count), word)
 
-        
+
         print("total %i results" % (written))
 
         end_time = time.time()
@@ -563,8 +618,8 @@ class Words(object):
 
     # when reversing format/word are lowercase, but we have regular case saved to get original combo
     def _get_original_case(self, format, word, joiner):
-        format_og = self._formats[format]
-        
+        _, format_og, _, _ = self._formats[format]
+
         if self._args.permutations:
             word_og = []
             i = 0
@@ -597,7 +652,7 @@ class Words(object):
                 self._args.output_file = self.FILENAME_OUT_EX % (cb)
             elif pt:
                 self._args.output_file = self.FILENAME_OUT_EX % ('p')
-        
+
         # unless splicitly enabled, don't use fuzzy in these modes
         if not self._args.fuzzy_enable and (cb or pt):
             self._args.fuzzy_disable = True
