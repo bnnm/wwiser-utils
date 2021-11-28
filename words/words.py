@@ -121,6 +121,8 @@ class Words(object):
         p.add_argument('-zd', '--fuzzy-disable',help="Disable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
         p.add_argument('-ze', '--fuzzy-enable', help="Enable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
         # other flags
+
+        p.add_argument('-mc',  '--max-chars',   help="Ignores results that go beyond N chars", type=int)        
         p.add_argument('-js', '--join-spaces',  help="Join words with spaces in lines\n('Word Word' = 'Word_Word')", action='store_true')
         p.add_argument('-jb', '--join-blank',   help="Join words without '_'\n('Word' + 'Word' = WordWord instead of Word_Word)", action='store_true')
         p.add_argument('-ho', '--hashable-only',help="Consider only hashable chunks\nSet to ignore numbers", action='store_true')
@@ -345,6 +347,10 @@ class Words(object):
                 self._words = {} #old section is in _sections
                 self._sections.append(self._words)
                 self._section += 1
+                continue
+
+            if line.startswith('#@nofuzzy'):
+                self._args.fuzzy_disable = True
                 continue
 
             # comment
@@ -596,6 +602,8 @@ class Words(object):
 
                             # don't print non-useful hashes
                             if not self._fnv.is_hashable(out_final.lower()):
+                                continue
+                            if self._args.max_chars and len(out_final) > self._args.max_chars:
                                 continue
 
                             outfile.write("%s: %s\n" % (fnv, out_final))
