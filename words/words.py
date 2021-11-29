@@ -60,8 +60,10 @@ class Words(object):
     FILENAME_FORMATS = 'formats.txt'
     FILENAME_SKIPS = 'skips.txt'
     FILENAME_REVERSABLES = 'fnv.txt'
-    PATTERN_LINE = re.compile(r'[\t\n\r .<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~]')
+    PATTERN_LINE = re.compile(r'[\t\n\r .<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
     PATTERN_WORD = re.compile(r'[_]')
+    PATTERN_WRONG = re.compile(r'[\t.<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
+
     FORMAT_TYPE_NONE = 0
     FORMAT_TYPE_PREFIX = 1
     FORMAT_TYPE_SUFFIX = 2
@@ -358,6 +360,14 @@ class Words(object):
                 continue
 
             if len(line) > 500:
+                continue
+
+            line = line.strip("\n")
+            if not line:
+                continue
+
+            # skip wonky words created by strings2
+            if len(line) < 8 and self.PATTERN_WRONG.search(line):
                 continue
 
             # games like Death Stranding somehow have spaces in their names
