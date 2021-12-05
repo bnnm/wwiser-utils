@@ -525,7 +525,7 @@ class Words(object):
 
         # info
         info_count = 0
-        info_add = 1000000 // len(formats)
+        info_add = 5000000 // len(formats)
         info_top = info_add
         written = 0
         start_time = time.time()

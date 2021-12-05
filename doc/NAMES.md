@@ -8,6 +8,8 @@ In short, make a file named `wwnames.txt`, inside write *reversed names* (string
 
 This process requires some knowledge of command line though, no GUI at the moment.
 
+Also note that sometimes you can recover (some) names, but others it's just too hard, if devs were too creative with names and files don't have any name references (Wwise can function using only numbers).
+
 ## TL;DR
 Quick guide to (possibly) get extra names:
 - put all files that may contain names inside in some dir, the more the merrier

@@ -50,9 +50,9 @@ def main():
                     if targets:
                         basename = os.path.basename(name.lower())
                         basename = os.path.splitext(basename)[0]
-                        if basename in targets_done:
+                        if (txtp,basename) in targets_done:
                             continue
-                        targets_done[basename] = True
+                        targets_done[(txtp,basename)] = True
                         for target in targets:
                             if basename.endswith(target):
                                 print("file %s in %s" % (target, txtp))

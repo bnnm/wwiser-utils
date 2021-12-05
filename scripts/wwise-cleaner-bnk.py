@@ -110,10 +110,9 @@ def main():
             file_unwanted = os.path.join(move_dir, file_base)
 
             try:
-                print("moving:", file_unwanted)
+                #print("moving:", file_unwanted)
                 os.makedirs(os.path.dirname(file_unwanted), exist_ok=True)
                 os.rename(file_base, file_unwanted)
-                #print(file_base, file_unwanted)
                 count += 1
             except:
                 pass #ignore not companion
