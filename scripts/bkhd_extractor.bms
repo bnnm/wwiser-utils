@@ -1,0 +1,72 @@
+# Wwise BKHD .bnk extractor by bnnm
+#
+# Try better extractors first, and this as a last resort.
+# Note that it's impossible to extract .wem like this (wrong RIFF sizes and no ID in file).
+
+
+get FILE_SIZE asize
+
+for OFFSET = 0 < FILE_SIZE
+    findloc OFFSET string "BKHD" 0 ""
+    if OFFSET == ""
+        exit
+    endif
+
+    goto OFFSET
+
+    get HEADER long
+    get TEST long
+    endian guess TEST
+    get DUMMY long
+    get ID long
+
+    # wrong size = bad match
+    if TEST > 0x10000
+        savepos OFFSET
+        continue
+    endif
+
+    #print "found BKHD at %OFFSET|h%"
+
+    goto OFFSET
+    
+    math SIZE = 0
+    for SUB_OFFSET = OFFSET < FILE_SIZE
+        endian save CURRENT_ENDIAN
+        endian big
+        get BLOCK_ID long
+        endian set CURRENT_ENDIAN
+        get BLOCK_SIZE long
+        
+        #print "%BLOCK_ID|h%: %BLOCK_SIZE|h%"
+
+        # quickbms can't handle too many ORs
+        math IS_BLOCK = 0
+
+        # BKHD HIRC DATA FXPR ENVS / STID STMG DIDX PLAT INIT (only existing BKHD blocks)
+        if   BLOCK_ID == 0x424B4844 || BLOCK_ID == 0x48495243 || BLOCK_ID == 0x44415441 || BLOCK_ID == 0x46585052 || BLOCK_ID == 0x454E5653
+            math IS_BLOCK = 1
+        elif BLOCK_ID == 0x53544944 ||  BLOCK_ID == 0x53544D47 || BLOCK_ID == 0x44494458 || BLOCK_ID == 0x504C4154 || BLOCK_ID == 0x494E4954
+            math IS_BLOCK = 1
+        endif
+        
+        #if BLOCK_ID == 0x424B4844 || BLOCK_ID == 0x48495243 || BLOCK_ID == 0x44415441 || BLOCK_ID == 0x46585052 || BLOCK_ID == 0x454E5653 || BLOCK_ID == 0x53544944 || BLOCK_ID == 0x53544D47 || BLOCK_ID == 0x44494458 || BLOCK_ID == 0x504C4154 || BLOCK_ID == 0x494E4954
+        if IS_BLOCK == 1
+            math SIZE += BLOCK_SIZE
+            math SIZE += 0x08
+            
+            math SUB_OFFSET += BLOCK_SIZE
+            math SUB_OFFSET += 0x08
+            goto SUB_OFFSET
+        else
+            break
+        endif
+    next
+   
+    string NAME p= "%u.bnk" ID
+    #print "%NAME%: %OFFSET|h% %SIZE|h%"
+    log NAME OFFSET SIZE
+
+    math OFFSET += SIZE
+    goto OFFSET
+next
