@@ -63,6 +63,7 @@ class Words(object):
     PATTERN_LINE = re.compile(r'[\t\n\r .<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
     PATTERN_WORD = re.compile(r'[_]')
     PATTERN_WRONG = re.compile(r'[\t.<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
+    WORD_ALLOWED = ['xiii', 'xviii','zzz']
 
     FORMAT_TYPE_NONE = 0
     FORMAT_TYPE_PREFIX = 1
@@ -127,6 +128,8 @@ class Words(object):
         p.add_argument('-mc',  '--max-chars',   help="Ignores results that go beyond N chars", type=int)        
         p.add_argument('-js', '--join-spaces',  help="Join words with spaces in lines\n('Word Word' = 'Word_Word')", action='store_true')
         p.add_argument('-jb', '--join-blank',   help="Join words without '_'\n('Word' + 'Word' = WordWord instead of Word_Word)", action='store_true')
+        p.add_argument('-j',  '--joiner',       help="Set word joiner")
+        p.add_argument('-iw', '--ignore-wrong', help="Ignores words that don't make much sense\nMay remove unusual valid words, like rank_sss", action='store_true')
         p.add_argument('-ho', '--hashable-only',help="Consider only hashable chunks\nSet to ignore numbers", action='store_true')
         p.add_argument('-sc', '--split-caps',   help="Splits words by (Word)(...)(Word) and makes (word)_(...)_(word)", action='store_true')
         p.add_argument('-sp', '--split-prefix', help="Splits words by (prefix)_(word) rather than any '_'", action='store_true')
@@ -263,6 +266,8 @@ class Words(object):
         joiner = "_"
         if self._args.join_blank:
             joiner = ""
+        if self._args.joiner:
+            joiner = self._args.joiner
         return joiner
 
     def _add_word(self, elem):
@@ -339,6 +344,27 @@ class Words(object):
             if self._fnv.is_hashable(elem_hashable):
                 words[elem_hashable] = elem
 
+    def _is_line_ok(self, line):
+        line = line.strip()
+        line_len = len(line)
+
+        if line.lower() in self.WORD_ALLOWED:
+            return True
+
+        # skip wonky mini words
+        if line_len < 4 and self._PATTERN_WRONG.search(line):
+            return False
+
+        if line_len < 12:
+            # check for words like 
+            for key, group in itertools.groupby(line):
+                group_len = len(list(group))
+                if key.lower() in ['0', '1', 'x', ' ']: #allow 000, 111, xxx
+                    continue
+                if group_len > 2:
+                    return False
+
+        return True
 
     def _read_words_lines(self, infile):
         print("reading words: %s" % (infile.name))
@@ -367,12 +393,23 @@ class Words(object):
                 continue
 
             # skip wonky words created by strings2
-            if len(line) < 8 and self.PATTERN_WRONG.search(line):
+            if self._args.ignore_wrong and self._is_line_ok(line):
                 continue
 
             # games like Death Stranding somehow have spaces in their names
             if self._args.join_spaces:
                 line = line.replace(' ', '_')
+
+            # clean vars
+            types = ['%d' '%c' '%s' '%f' '0x%08x' '%02d' '%u' '%4d' '%10d']
+            for type in types:
+                line = line.replace(type, '')
+
+            # clean copied fnvs
+            if ': ' in line:
+                index = line.index(': ') 
+                if line[0:index].isnumeric():
+                    line = line[index+1:]
 
             elems = self.PATTERN_LINE.split(line)
             for elem in elems:
@@ -518,7 +555,6 @@ class Words(object):
             print("generating words")
         else:
             print("reversing FNVs")
-        reversed = set()
 
         joiner = self._get_joiner()
         combine = self._args.combinations or self._args.permutations
@@ -604,14 +640,13 @@ class Words(object):
                                     if not out_final: #may happen in rare cases
                                         continue
 
-                            if out_final in reversed:
+                            out_final_lw = out_final.lower()
+                            if out_final_lw in self._skips:
                                 continue
-                            if self._skips and out_final in self._skips:
-                                continue
-                            reversed.add(out_final)
+                            self._skips.add(out_final_lw)
 
                             # don't print non-useful hashes
-                            if not self._fnv.is_hashable(out_final.lower()):
+                            if not self._fnv.is_hashable(out_final_lw):
                                 continue
                             if self._args.max_chars and len(out_final) > self._args.max_chars:
                                 continue
@@ -619,7 +654,7 @@ class Words(object):
                             outfile.write("%s: %s\n" % (fnv, out_final))
                             outfile.flush() #reversing is most interesting with lots of loops = slow, keep flushing
 
-                            skipfile.write("%s: %s\n" % (fnv, out_final))
+                            skipfile.write("%s: %s\n" % (fnv, out_final_lw))
 
                             written += 1
 
