@@ -6,12 +6,17 @@ _PATTERN_WRONG = re.compile(r'[\t.<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
 _WORD_ALLOWED = ['xiii', 'xviii','zzz']
 _BAD_GROUPS = ['uu', 'fwfw','ldlD', 'vwu']
 _ENDS_WITH = ['bc']
+DONE = set()
 
 def is_line_ok(line):
     line = line.strip()
     line_lw = line.lower()
     line_len = len(line)
     #print(line, line_len)
+
+    if line_lw in DONE:
+        return None
+    DONE.add(line_lw)
 
     if line_lw in _WORD_ALLOWED:
         return True
@@ -42,26 +47,29 @@ def is_line_ok(line):
 
 
 
-def read_line(line, outfile_ok, outfile_ko):
+def read_line(line, outfile_ok, outfile_ko, outfile_dp):
     line = line.strip("\n")
     if not line:
         return
 
-    if is_line_ok(line):
+    res = is_line_ok(line)
+    if res is None:
+        outfile_dp.write(line + '\n')
+    elif res:
         outfile_ok.write(line + '\n')
     else:
         outfile_ko.write(line + '\n')
 
 
-def read_file(in_name, out_name_ok, out_name_ko):
+def read_file(in_name, out_name_ok, out_name_ko, out_name_dp):
     encodings = ['utf-8-sig', 'iso-8859-1']
     done = False
     try:
         for encoding in encodings:
             try:
-                with open(in_name, 'r', encoding=encoding) as infile, open(out_name_ok, 'w', encoding=encoding) as outfile_ok, open(out_name_ko, 'w', encoding=encoding) as outfile_ko:
+                with open(in_name, 'r', encoding=encoding) as infile, open(out_name_ok, 'w', encoding=encoding) as outfile_ok, open(out_name_ko, 'w', encoding=encoding) as outfile_ko, open(out_name_dp, 'w', encoding=encoding) as outfile_dp:
                     for line in infile:
-                        read_line(line, outfile_ok, outfile_ko)
+                        read_line(line, outfile_ok, outfile_ko, outfile_dp)
                     done = True
                 break
             except UnicodeDecodeError:
@@ -83,7 +91,8 @@ def main():
     base, _ = os.path.splitext(in_name)
     out_name_ok = base + "_ok.txt"
     out_name_ko = base + "_ko.txt"
-    read_file(in_name, out_name_ok, out_name_ko)
+    out_name_dp = base + "_dp.txt"
+    read_file(in_name, out_name_ok, out_name_ko, out_name_dp)
 
 # #####################################
 
