@@ -69,7 +69,7 @@ typedef struct {
 fnv_config cfg;
 
 
-static void print_name(int depth, int show_suffix) {
+static void print_name(int depth) {
     printf("* match: ");
 
     if (cfg.name_prefix_len)
@@ -78,46 +78,30 @@ static void print_name(int depth, int show_suffix) {
     if (depth >= 0)
         printf("%.*s", depth + 1, name);
 
-    if (show_suffix && cfg.name_suffix_len)
+    if (cfg.name_suffix_len)
         printf("%s", cfg.name_suffix);
 
     printf("\n");
 }
 
 
-static inline void fnv_test_suffix(const uint32_t cur_hash, const int depth, const char elem) {
-    uint32_t new_hash = cur_hash;
-    for (int n = 0; n < cfg.name_suffix_len; n++) {
-        new_hash = (new_hash * 16777619) ^ cfg.name_suffix[n];
+
+// FNV is invertible, so fnv("abc") == ifnv("cba")
+// this allows various optimizations (specially when mixing suffixes)
+// thanks to jbosboom for pointing this out
+//uint32_t ifnv(uint32_t h, string_view s) {
+//    for (char c : s)
+//        h = (h ^ c) * 0x359c449b;
+//    return h;
+//}
+
+// with a suffix of length N, take expected final hash and undo last N steps
+uint32_t ifnv_target(uint32_t hash, char* str, int len) {
+    for (int n = len - 1; n >= 0; n--) {
+        hash = (hash ^ str[n]) * 899433627; //inverse of prime 16777619
     }
-    if (new_hash == cfg.target) {
-        name[depth] = elem;
-        print_name(depth, 1);
-    }
+    return hash;
 }
-
-// depth of N for suffixes
-static void fvn_depth_suffix(const uint32_t cur_hash, const int depth, int pos) {
-    char prev = name[depth-1];
-
-
-    for (int i = 0; i < MAX_LETTERS; i++) {
-        char elem = dict[i];
-#if ENABLE_BANLIST
-        if (!list[pos][prev][elem])
-            continue;
-#endif
-
-        uint32_t new_hash = (cur_hash * 16777619) ^ elem;
-        fnv_test_suffix(new_hash, depth, elem);
-
-        if (depth < cfg.max_depth) {
-            name[depth] = elem;
-            fvn_depth_suffix(new_hash, depth + 1, list_inner);
-        }
-    }
-}
-
 
 
 // depth of exactly N letters
@@ -138,7 +122,7 @@ static void fvn_depth_max(const uint32_t cur_hash, const int depth) {
         uint32_t new_hash = (cur_hash * 16777619) ^ elem;
         if (new_hash == cfg.target) {
             name[depth] = elem;
-            print_name(depth, 0);
+            print_name(depth);
         }
     }
 }
@@ -159,7 +143,7 @@ static void fvn_depth2(const uint32_t cur_hash, const int depth) {
         uint32_t new_hash = (cur_hash * 16777619) ^ elem;
         if (new_hash == cfg.target) {
             name[depth] = elem;
-            print_name(depth, 0);
+            print_name(depth);
         } 
 
         if (depth < cfg.max_depth_1) {
@@ -187,12 +171,9 @@ static void fvn_depth1(uint32_t cur_hash, int depth) {
 #endif
 
         uint32_t new_hash = (cur_hash * 16777619) ^ elem;
-        if (cfg.name_suffix_len) {
-            fnv_test_suffix(new_hash, depth, elem);
-        }
-        else if (new_hash == cfg.target) {
+        if (new_hash == cfg.target) {
             name[depth] = elem;
-            print_name(depth, 0);
+            print_name(depth);
         }
 
         if (depth < cfg.max_depth) {
@@ -214,21 +195,14 @@ static void fvn_depth0(uint32_t cur_hash) {
             printf("- letter: %c\n", elem);
 
         uint32_t new_hash = (cur_hash * 16777619) ^ elem;
-        if (cfg.name_suffix_len) {
-            fnv_test_suffix(new_hash, depth, elem);
-        }
-        else if (new_hash == cfg.target) {
+        if (new_hash == cfg.target) {
             name[depth] = elem;
-            print_name(depth, 0);
+            print_name(depth);
         }
 
         if (depth < cfg.max_depth) {
             name[depth] = elem;
-
-            if (cfg.name_suffix_len)
-                fvn_depth_suffix(new_hash, depth + 1, list_start);
-            else
-                fvn_depth1(new_hash, depth + 1);
+            fvn_depth1(new_hash, depth + 1);
         }
     }
 }
@@ -579,18 +553,14 @@ int main(int argc, const char* argv[]) {
 
         printf("finding %u\n", cfg.target);
 
-        if (base_hash == cfg.target) {
-            print_name(-1, 0);
+        // with a suffix we can undo last N steps of target
+        if (cfg.name_suffix_len) {
+            cfg.target = ifnv_target(cfg.target, cfg.name_suffix, cfg.name_suffix_len);
         }
-        else if (cfg.name_suffix_len) {
-            uint32_t new_hash = base_hash;
-            for (int n = 0; n < cfg.name_suffix_len; n++) {
-                new_hash = (new_hash * 16777619) ^ cfg.name_suffix[n];
-            }
 
-            if (new_hash == cfg.target) {
-                print_name(-1, 1);
-            }
+        // check base (that includes prefix and suffix) first just in case
+        if (base_hash == cfg.target) {
+            print_name(-1);
         }
 
         fvn_depth0(base_hash);

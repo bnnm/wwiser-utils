@@ -162,7 +162,7 @@ fnv.exe 123456789 -m 8 -p "play_"
 ```
 That will start from `play_` and search up to 7 letters, making it feasible to find `bgm_001`.
 
-You can also set suffix, but it's much slower than prefixing:
+You can also set suffix:
 ```
 fnv.exe 123456789 -m 8 -s "_001"
 ```
