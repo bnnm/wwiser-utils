@@ -3304,3 +3304,11 @@ wp0201_Rocket_Shot
 wp_0000_Shot
 wp_0001_Shot
 wp_000e_Shot
+
+
+gr_art
+gr_art_character
+gr_art_generations
+gr_art_game
+gr_art_scene
+gr_art_stage

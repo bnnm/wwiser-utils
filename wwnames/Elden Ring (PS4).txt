@@ -1,0 +1,339 @@
+cs_c2180
+cs_main
+cs_c2010
+cs_c3350
+cs_c6070
+cs_c8000
+cs_c2100
+cs_M10
+cs_SM10
+SFX
+enemy
+distance
+azimuth
+none
+cs_c6071
+init
+_00
+_25
+occlusion
+SS_AIR_RPM
+SS_AIR_FURY
+SS_AIR_FEAR
+SS_AIR_MONTH
+SS_AIR_FREEFALL
+SS_AIR_SIZE
+SS_AIR_TIMEOFDAY
+SS_AIR_STORM
+SS_AIR_PRESENCE
+SS_AIR_TURBULENCE
+doppler
+default
+Wood
+No_Output
+system
+Master Audio Bus = 0
+se
+field
+bgm
+on
+player
+fe
+Voice
+Master Secondary Bus = 0
+normal
+slow
+fast
+_01
+_1
+Cloth
+battle
+forest
+false
+true
+cs_M18
+_20
+play
+character
+no
+c4750
+Death
+TIMEOFDAY
+_1_on
+resume_W_Event6000
+resume_W_Event6001
+c2030
+c2120
+c4720
+vc700
+s10_00_0010
+AUX
+TIMEZONE
+NIGHT
+s60_42_0000
+AEG003_362
+s60_42_0001
+s60_42_0005
+s60_42_0003
+s60_42_0004
+YES
+s60_42_0007
+HU1
+HU2
+CAVE
+ASSET
+_042
+Nude
+c3050
+AEG810_001
+AEG810_002
+AEG810_005
+AEG810_007
+AEG810_008
+AEG810_020
+Open
+AEG027_002
+c4800
+AEG800_011
+c2110
+c2190
+LEGACY
+c4760
+c4520
+PLACE
+c2130_A
+MidBoss_TreeKnights
+MidBoss_Wyvern
+MidBoss_BasementRoom
+MidBoss_CircleEvent
+MidBoss_Catacombs
+MidBoss_Cave
+MidBoss_Tunnel
+Tunnel
+_BgmSilent
+_BgmSilent_MistWall
+FieldBoss_Lv02
+FieldBoss_Lv12
+FieldBoss_Lv25
+MultiHostile_00
+Bgm_000_Green
+Bgm_100_Castle
+Bgm_180_Tutorial
+Bgm_300_Catacombs
+Bgm_310_Cave
+Bgm_320_Tunnel
+Env_000_Green
+Env_100_Castle
+Env_180_Tutorial
+Env_300_Catacombs
+Env_310_Cave
+Env_320_Tunnel
+AttackStrength
+_01_Small
+AttackType
+_0_Cut
+_1_Pierce
+_2_Hit
+DamageAmount
+_0_Small
+_1_Big
+DeffensiveMaterial
+_001_StonePavement
+_003_Dirt
+_004_Timber
+_005_Grass
+_006_Gravel
+_007_Magma
+_008_Wood
+_009_Swamp
+_011_Iron
+_012_FleshAndBlood
+_013_Sand
+_014_Bone
+_015_Ash
+_017_Cloth
+_018_FallenLeaves
+_020_Paddle
+_021_Water
+_023_PoisonSwamp
+_026_PoisonSwampPaddle
+_028_Carpet
+_029_None
+_034_Glass
+_043_Snow
+_044_Mud
+_045_Ice
+_100_IronWeapon
+_101_Mercury
+_102_WoodWeapon
+_103_FleshWeapon
+_104_IronShield
+_105_WoodShield
+_106_Iron
+_107_DriedFlesh
+_108_LeatherArmor
+_109_Flesh
+_110_FleshWeakness
+_111_FleshWeaknessHuge
+_112_HeavyIron
+_113_Cloth
+_114_Rune
+_115_RuneWeakness
+_116_StoneSoft
+_117_Stone
+_118_Mud
+_119_LavaWeakness
+_120_Lava
+_121_Spirit
+_122_Crystal
+_123_Shell
+_124_Bone
+_125_Carapace
+_126_SpiritWeakness
+_127_StoneShield
+_128_Wood
+_129_HeavyIronShield
+_130_WhiteGhost
+_134_Shadow
+_135_WGhostGuard
+_139_None
+_140_OldMetal
+_141_ShadowWeakness
+_142_SpiritGeneral
+_143_SpiritGeneralWeakness
+_144_ChainMail
+ChainMail
+_145_BodyFluid
+_146_BodyFluidWeakness
+_147_Rotten
+_148_RottenWeakness
+_149_IronWeapon_Light
+_150_IronWeapon_Middle
+_151_IronWeapon_Heavy
+_152_WoodWeapon_Heavy
+_153_StoneWeapon
+_154_StoneWeapon_Light
+_155_StoneWeapon_Heavy
+_156_MercuryWeapon
+_157_CrystalWeapon
+_159_FingerWeapon
+_160_IronShield_Light
+_161_WoodShield_Heavy
+_162_StoneShield_Heavy
+_163_CrystalShield
+_164_GhostShield
+_165_MercuryHard
+_166_MalikethRobe
+_167_MalikethArmor
+_168_MassiveUniverse
+_171_Scale
+_172_ScaleWeakness
+_173_ScaleWeaknessHuge
+_174_HardScale
+GrassHitType
+NotHit
+HitNormal
+HitStop
+_2_Repel
+OffensiveMaterial
+_000_Iron
+_002_Wood
+_003_Flesh
+_006_None
+PlayerEquipmentBottoms
+Armour
+LeatherArmour
+PlayerEquipmentTops
+PlayerShoes
+Boots
+Barefoot
+_000_None
+_001_Outdoor
+Outdoor
+_002_Outdoor_Narrow
+_003_Room
+_004_Room_Large
+_005_Hall
+_006_Hall_Large
+_007_Underground_Tunnel
+_008_Underground_HugeSpace
+MIDNIGHT
+DAYTIME
+SEARCH
+Troll
+OldGeneral
+NOMAL
+c4510
+_040
+_041
+MultiHostile_01
+MultiHostile_03
+MultiHostile_02
+MultiHostile_05
+MultiHostile_04
+FieldBoss_Lv27
+FieldBoss_Lv26
+FieldBoss_Lv24
+FieldBoss_Lv23
+FieldBoss_Lv22
+FieldBoss_Lv21
+FieldBoss_Lv20
+FieldBoss_Lv29
+FieldBoss_Lv28
+FieldBoss_Lv18
+FieldBoss_Lv19
+FieldBoss_Lv13
+FieldBoss_Lv10
+FieldBoss_Lv11
+FieldBoss_Lv16
+FieldBoss_Lv17
+FieldBoss_Lv14
+FieldBoss_Lv15
+FieldBoss_Lv09
+FieldBoss_Lv08
+FieldBoss_Lv05
+FieldBoss_Lv04
+FieldBoss_Lv07
+FieldBoss_Lv06
+FieldBoss_Lv03
+c2130_b
+AEG800_010
+AEG800_012
+AEG800_013
+AEG810_004
+AEG810_003
+AEG810_022
+AEG810_023
+AEG810_021
+
+1238029285: play_a000000000
+214525819: stop_a000000000
+178976626: play_f000000200
+1977607112: stop_f000000200
+279789435: play_f000000300
+2078420017: stop_f000000300
+263011720: play_f000000310
+2061642334: stop_f000000310
+313344577: play_f000000320
+2044864747: stop_f000000320
+380602212: play_f000000400
+2045703422: stop_f000000400
+481415021: play_f000000500
+2146516199: stop_f000000500
+2192879286: play_f000000600
+3991509772: stop_f000000600
+2394504872: play_f000000800
+1909510930: stop_f000000800
+347885585: play_f000000900
+2010323739: stop_f000000900
+4248634347: play_f000001000
+1639556581: stop_f000001000
+4231856760: play_f000001010
+1622778994: stop_f000001010
+3685274209: play_f000003000
+55381487: stop_f000003000
+1482176083: play_f000030000
+1317995305: stop_f000030000
+713277698: Echo
+133642231: General
+2596938600: _031
