@@ -6974,19 +6974,6 @@ None_5000mm
 #em5000_Idle_Loop
 #em00E1_Idle_Loop
 
-#pe_el
-#TalkScript_speech_c87w
-#tutorial_thumb_25b1
-#legion_style_thumb_d26v
-#EVENT_AREADATE_TIME_908G
-#EVENT_BOSS_CODE_0a58
-#EVENT_STAFF_NAME_451H
-#MENU_DATA_AREA_HELP_975C
-#MENU_DATA_CHIMERA_HELP_7705
-#MENU_DATA_CHIMERA_NAME_516K
-#MENU_DATA_SYN_NAME_2caw
-#MENU_ORDER_INFO_3CAG
-#bgm_Fire_Sign_r
 #bgm_NP_c0002_1030_00080_JIN
 #bgm_NP_c0003_M010_00210_TED
 #bgm_NP_c0003_M010_00260_TED
@@ -7001,4 +6988,14 @@ None_5000mm
 #bgm_RD_c0003_Pg50_00200_OPE
 #bgm_RD_c0004_P450_00010_ALI
 #bgm_RD_c0004_q009_00110_OPE
+#menu_PLAZA_HELP
 
+SE_Enemy
+SE_Core
+SE_SYS_Blend
+SE_SYS_Elevation
+BGM_Vol_Down
+BGM_VocalSwitch
+BGM_Times_of_Day
+BGM_Subway_Layer_subway
+BGM_Subway_Layer_crossroad

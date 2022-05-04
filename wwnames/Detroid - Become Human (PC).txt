@@ -22099,6 +22099,496 @@ A05_GameOverKamski
 A05_GameOverTVCamps
 MP_RCT_ON
 
+# States
+Scenes_States
+	M01_Painter
+	M01_Painter_District
+	M05_Jericho
+	_0101_Hostage
+	M02_Broken
+	M03_MassGrave
+	M06_SpareParts_Jericho
+	M07_BigScreen
+	M08_NightOfTheLongKnives
+	M10_WeArePeople
+	M10_WeArePeople_AboutNorth
+	A02_BoatAssault
+	A02_Inside_HQ
+	A04_Final
+	A04_CyberLife_49th_Floor
+	A04_BadConnor_RoofTop
+	A04_Final_War_Zone
+	SCENE_RESET
+	A04_Final_War_Horror
+Environnement
+	Vehicule_Silent
+M10_Mix_States
+	M10_MixState_March_Stage2
+	M10_MixState_March_Stage3
+Game_Status
+	GameStatus_LoadingScreen
+	GameStatus_Game
+A04_FINAL_MIX_STATES
+	A04_Mix_RESET
+A04_FINAL_MIX_STATES_Pacific
+	A04_Mix_Pacific_RESET
+	A04_Mix_Pacific_11M08_CamsysHelico
+
+# Switches
+FS_StepType
+	Walk
+	Stairs_Up
+	Stairs_Down
+	Run
+	Walk_Last
+	Jog
+MP_Trigger_Time
+	Normal
+	Soften
+FS_GroundFX
+	Liquid_Puddle
+	Liquid_Rainy
+	CLEAN
+	Patch_Snow
+	Debris_Ice
+	Debris_StoneConcrete
+	Debris_Glass
+	SpecialFX
+	Debris_Gritty
+	Debris_Grass
+	Blood
+	Debris_GlassScattered
+	Debris_Books
+	Liquid_Water
+	Debris_Junk
+MP_CHARACTER
+	MP_Character_CONNOR
+	MP_Character_MARKUS
+	MP_Character_KARA
+FS_GroundMaterial
+	Int_Tile_Glass
+	Metal_Boat_HQ
+	Ext_Grass_Wet
+	Ext_Concrete_Wet
+	Building_Glass_Window
+	Building_Metal_Window
+	Car_Charge
+	Ext_Concrete
+	Ext_Corn
+	Ext_DeepSnow
+	Ext_Dirt
+	Ext_Grass
+	Ext_Hard
+	Ext_Hard_Gritty
+	Ext_Mud
+	Ext_Plastic
+	Ext_Snow
+	Ext_Teak
+	Ext_Tile
+	Ext_Wheat
+	Ext_WoodPalette
+	Int_Bus
+	Int_Carpet
+	Int_CarpetParquet
+	Int_Concrete
+	Int_Concrete_Ruin
+	Int_LiftPlastic
+	Int_Lino
+	Int_Lino_Boat
+	Int_Metal_Boat
+	Int_Metal_Grid
+	Int_Metal_Plate
+	Int_Parquet
+	Int_ParquetHard
+	Int_Sand
+	Int_Tile
+	Int_Tile_Debris
+	Int_Wood
+	Int_WoodRotten
+	Int_WoodStrat
+	Int_Wood_Debris
+	Int_Wood_Old
+	Metal
+	Metal_Container
+	Metal_Crane
+	Metal_Manhole
+	Metal_Scaffold
+FS_ShoeType
+	Smart
+	Casual
+RCT_PlayWay
+	Forward
+	Reverse
+
+# RTPC
+MP_OBS_CursorDensity
+MP_OBS_CursorFocus
+MP_OBS_ItemAvgLenght
+MP_OBS_ItemCount
+MP_OBS_CamSpeed
+MP_RCT_CamSpeed
+MP_THGT_CamSpeed_Markus
+MP_THGT_CamSpeed_Connor
+MP_THGT_Glitch_Intensity
+MP_PRECO_MovieSpeed_FWD
+MP_PRECO_MovieSpeed_BWD
+MP_PRECO_CamSpeed
+MP_ALS_CamSpeed_M_CrashZoom
+MP_PRECO_MovieSpeed_Anims
+Global_Occlusion
+C05_Pgn_FrontFlockSize
+Global_Slope_Angle
+Global_FS_Context_Intensity
+M02_Distance_To_Workshop
+M00_WheelChair_Speed
+M00_WheelChair_Orientation
+PBY_Speed
+Global_Crowd_Density
+TRF_Auto_EngineSpeed
+M01_Drone_Speed
+M08_Drone_Speed
+M05_Distance_To_Parking
+M05_Distance_To_ParkingDeadEnd
+M05_Boat_Distance_To_MedRoom
+TRF_Ground_FX
+M05_Welding_Variable
+M05_RedAdvert_Variable
+K04_DistanceTrackerCurrentPlayer
+K03_DistanceTrackerCurrentPlayer
+Global_BusVolume_FootSteps
+M06_Truck_Speed
+C01_Distance_Connor_Pool
+_0101_Volume
+_0101_LowPassFilter
+C01_Emma_Scream_Distance
+K01_FakeOcclu_Car
+M01_DistanceTo_Protestors
+M01_DistanceTo_Guitarist
+M01_DistanceTo_Preacher
+M01_Megaphone_DistanceToMouth
+Music_TouchPad_Note_Velocity
+SEND_VOLUME
+K02_Kara_Death
+MP_Deviance_LP_Volume
+MP_Deviance_Evolution
+K02_MP_Deviance_Evolution_Wall
+M03_Crevasse_Creshendo
+M03_Distance_To_Ear_L
+M03_Amb_Tone
+M03_Audition
+M03_Distance_To_Ear_R
+M03_Distance_To_Crevasse
+M03_Distance_To_Slope
+M03_Distance_To_Eye
+M03_Vision
+C04_Door_Open
+K04_Occlusion_BathroomMotel
+K04_Occlusion_MotelReception
+C05_WindIntensity
+K05_TrappedTimer
+M05_Flashlight_Speed
+M05_Dumpster_Speed
+MP_TAG_CamSpeed
+MP_PRECO_Strenght
+M05_Boat_Distance_To_TightPath
+M05_Occlusion_Waterfall
+C06_HankHouse_BathroomDoor
+M00_Jericho_HQ_Population
+M08_TimeControledTruck
+K07_Jerry_Automate
+K07_Pickup_Speed
+M07_AndroidPark_FX_Reverb
+M07_Cart_Orientation
+M07_Cart_Speed
+M07_Platform_Speed
+M07_Spiderman_Wind
+M07_Roomba_Rotation
+M07_Roomba_Speed
+Global_mPAR_Speed
+K08_StewLid
+M08_TimeControled_RoadBlock
+M08_TimeControledTruck_ForMusic
+M08_TimeControlledTruck_Speed
+M08_SirenPolice_Distance
+M08_Welding_Variable
+M08_ScreenMessage_Reset
+M08_Banner_SeqMix
+M08_Distance_To_Street
+M10_Weapon_Distance
+M10_Megaphone_FX
+M10_Connected_Androids
+March_Size_Walking
+C11_Amb_Crossfade
+C11_Door_Pool_Opening
+C11_Int_Car
+Weapon_GameDefinedSend_Level
+A02_Connor_Wall_Breaker_Intensity
+A02_SirenPolice_Distance
+K09_Drone_Speed
+A04_Android_Wake_Up
+A04_Border_AnnouncementOcclusion
+A04_11M02_Distance_To_Invasion
+A04_Boat_Speed
+A04_WarHorror_Occlusion
+A04_SuicideLP_Level
+A04_Perkins_Distance_NOHP
+A0508_Ext_Occlusion
+A0509_NPC_FS_Density
+A0509_Walla_Density
+A0507_Cross_Amb_Int
+A0507_Ext_Occlusion
+BRICK_VOLUME
+RCT_TouchPad_Speed
+DPC_User_Volume
+
+# Auxiliary Busses
+M05_Jericho_QuartersRoom
+ZZZ_TPL_ConvoAndEQ
+M00_CarlHouse_CarlBedroom
+A04_HartPlaza_Barricades_SpecialFX
+C05_Outside_Street
+A02_Jericho_Boat_SmallCorridors
+M03_Dial_Kara_In_MP
+M07_Offices_Corridors
+Com_AddDelayExt
+K05_Zlatko_CountDown
+MP_Glitch_FX
+C00_Hank_House_Kitchen
+K00_SavShop
+C08_Vault
+Hostage_Lift
+C00_Hall
+M05_Jericho_PeopleMover
+StreetLife_Park
+M05_Jericho_Courtyard
+K00_LoriHouse_BedRoom_REINJECT_AliceRoom
+A02_Jericho_Boat_HostageRoom
+C00_Cell
+K05_Zlatko_BedRoom
+M05_Jericho_Hangar
+C05_FoodTruck_Street
+M00_Piano
+C05_Warehouse
+C05_Shelter_Corridor
+M00_CarlHouse_HouseTTS
+K07_FunFair_Ext
+M07_Roof
+zzz_TestRvb_Dmx
+Com_Tramway
+M00_CarlDistrict_CentralPlace
+Dial_Telepathy_AUX
+C00_Interro_Room
+RCT_FX_Delay
+zzz_FreezeDial
+StreetLife_Boulevard
+M08_Plaza
+M00_CarlDistrict_BigAlley
+A04_WarZone_Street
+A04_HartPlaza_Street
+A0503_Lobby
+C00_Monitor_Room
+K00_Squat_Ext_Walkway
+A03_Church_Dome
+C05_Shelter_Main_Room
+SPAD_Thoughts
+A04_BusTerminal_Parking
+SPAD_MENU
+C11_Pool
+C09_Roof
+C06_CrimeScene
+K05_Zlatko_Ext
+M05_Jericho_TVNewsFX
+Hostage_BedRoom
+M07_Elevator
+C05_Nest
+C00_Hank_House_Ext
+M05_Jericho_Station
+C09_Offices_SmallRoom
+TGH_FX_Reverb
+K02_DarkNight_Fight_NextDoor
+C00_Open_Space
+C09_LastFloor_ControlRoom
+M03_Fight_Club_Corridor_REINJECT_Corridor
+ARI_Pad_Feedback
+M00_CarlDistrict_Park
+M07_Speech_Outside
+K00_Ext_HighWay
+C09_LastFloor_Corridor_Guards
+C05_Shelter_Bathroom
+K00_LoriHouse_BedRoom_REINJECT_ToddRoom
+K08_A_Place_To_Hide_Int_FirstFloor
+M07_Offices_Cafeteria
+M07_LastFloor_Corridor_Guards
+C02_Attic
+StreetLife_BigAlley
+C03_Cell
+C05_PetShop
+K00_LoriHouse_FirstFloor_Corridor
+C09_Offices_Toilets
+M00_CarlHouse_Hall
+M00_Jericho_HQ_MediumRoom
+M00_Jericho_HQ_BigRoom
+TEST_Big_Convolution
+A04_HartPlaza_Camp
+K00_LoriHouse_BedRoom
+A02_Int_Car
+M06_Spare_Parts_Dock
+K07_FunFair_IntShop
+A03_Church_Corridor
+M03_MassGrave_NoEar
+M07_LastFloor_ControlRoom
+C09_LastFloor_ConstructionArea
+M00_CarlHouse_Workshop
+A02_Jericho_Boat_MediumRooms
+M00_CarlHouse_Living
+C06_Club_Main_Room
+M08_Store
+M05_Jericho_Corridors
+K00_LoriHouse_BathRoom
+A04_HartPlaza_Tent
+C09_LastFloor_Corridor_Small
+Menu_hall
+Hostage_INT_TEMP
+C02_InsideHouse
+C00_Hank_House_Room
+C03_Amanda_Garden
+M10_Boulevard
+Hostage_Corridor
+M08_BIG_Screen
+A04_HartPlaza_Machine
+Reverb_SlowMo
+K00_GazStation
+C03_Office
+K08_A_Place_To_Hide_Ext
+K00_Motel
+M05_Jericho_Docks
+M03_Fight_Club_Corridor
+K00_Squat_Kitchen
+M06_Spare_Parts_Bathroom
+K00_Bus_01
+M03_Fight_Club_Attic
+M03_Fight_Club_MassGrave
+M07_Speech_Hall
+K00_Outside_Street
+zzz_TestAuxSC
+M05_Jericho_FactoryMain
+M00_CarlHouse_Kitchen
+M03_Fight_Club_Arena_REINJECT_Corridor
+K00_Bus
+M00_CarlDistrict_Street_REINJECT
+A04_Cyberlife_Hall
+C09_Entrance_Hall
+K00_Car
+K00_Coffee
+SPAD_Telepathy
+C06_Warehouse_Int
+C04_ControlRoom
+C11_Ext
+M07_LastFloor_Corridor_Small
+Com_GunShot_Ext_Long
+M10_JerichoRoof
+Hostage_Living
+C06_Warehouse_Ext
+M03_Fight_Club_Exterior
+K00_Squat_Bathroom
+C00_Hank_House_Bathroom
+M07_LastFloor_ConstructionArea
+C00_Fowler_Office
+A04_Cyberlife_Ext
+K00_LoriHouse_Laundry
+A02_Jericho_Boat_Main_Room
+C05_Open_Field
+M07_Special_Street_InsideHead
+M00_CarlDistrict_Boulevard
+M10_Mall
+K07_FunFair_Ext_02
+M05_Jericho_ParkingLot
+Menu_rvb
+M00_Jericho_HQ_SmallCorridor
+M00_CarlDistrict_Street
+M08_Boulevard
+A03_HankHouse
+A02_Jericho_Docks_Building
+M07_Entrance_Hall
+A04_PressConferenceRoom
+A02_Jericho_Boat_Markus_Office
+Freeze
+C09_Offices_Corridors
+A02_Jericho_Docks_Docks
+K05_Zlatko_Cellar
+C05_Roof_Top
+C09_Offices_Cafeteria
+StreetLife_Square
+M07_Speech_TV_Kara
+M07_Speech_TV_Connor
+M06_Spare_Parts_Guard_Station
+A02_Jericho_Boat_QuartersRoom
+M10_Place
+C02_Bar
+M07_Straford_Plaza
+K00_LoriHouse_Downstairs
+A02_Jericho_Boat_GridRoom
+M00_Jericho_HQ_Prefab
+M10_Jericho_Docks
+K07_CarInside
+Hostage_Hall
+ZZZ_SandBox_Occ
+C02_ExtStreet
+K05_Zlatko_Toilet
+A04_Cyberlife_Elevator
+M03_Fight_Club_Roof
+M03_Fight_Club_Room
+Hostage_OUT_TEMP
+A02_Jericho_Boat_Corridor
+C11_Lobby
+M01_CarlDistrict_VasariShop
+M03_Fight_Club_Stairs
+M08_SmallStreet
+K00_MotelReception
+A04_Cyberlife_Storage
+C05_UrbanField
+Hostage_Balcony
+ZZZ_SandBox_Ext
+M05_Jericho_MediumRooms
+A03_GraveYard
+M07_Offices_SmallRoom
+C00_Hank_House_Main
+M00_CarlHouse_Mezzanine
+C05_Hangar_Metal
+M05_Jericho_EngineRoom
+M08_InsideTruck
+K00_LoriHouse_Garden
+StreetLife_UnderColumns
+StreetLife_CoverdedStreet
+ZZZ_SandBox_Int
+K05_Zlatko_Hall
+C06_Club_Corridor
+C09_Elevator
+C03_OpenSpace
+C00_Amanda
+A0501_Lab
+Com_Car_Saloon
+M05_Jericho_Roof_02
+M05_Jericho_Roof_01
+C04_IntrRoom
+A03_outside
+C05_Orchard
+M07_Offices_Toilets
+M05_Jericho_Street
+Com_Ext_SmallStreet
+M05_Jericho_LadderRoom
+A04_HartPlaza_InsideStore
+SWAT_RadioCom
+K00_Lavomatic
+M07_Climbing
+A02_Jericho_Boat_OutDeck
+A04_TheBorder_SpeakerInt
+M03_Fight_Club_Arena
+C11_HankCar
+C06_HankHouse
+K00_LoriHouse_Street
+
+
 ### EXTRA (WORDS.PY - VARIABLES)
 C06_Tv
 C02_Music_State
