@@ -152,21 +152,27 @@ class Words(object):
             print("ignored wrong format:", format)
             return
 
+        format_lw = format.lower()
         if format == '%s':
             type = self.FORMAT_TYPE_NONE
-            sub = None
+            pre = None
+            suf = None
 
         elif format.endswith('%s'):
             type = self.FORMAT_TYPE_PREFIX
-            sub = format[:-2].lower()
+            pre = format_lw[:-2]
+            suf = None
 
         elif format.startswith('%s'):
             type = self.FORMAT_TYPE_SUFFIX
-            sub = format[2:].lower()
+            pre = None
+            suf = format_lw[2:]
 
         else:
             type = self.FORMAT_TYPE_BOTH
-            sub = format.lower()
+            presuf = format_lw.split('%s')
+            pre = presuf[0]
+            suf = presuf[1]
 
         key = format.lower()
         if self._args.text_output:
@@ -174,7 +180,7 @@ class Words(object):
         else:
             val = key
 
-        self._formats[key] = (val, format, type, sub)
+        self._formats[key] = (val, format, type, pre, suf)
 
         #index = format.index('%')
         #if index:
@@ -566,58 +572,113 @@ class Words(object):
         written = 0
         start_time = time.time()
 
+        joinerbytes = bytes(joiner, 'UTF-8')
+
         with open(self._args.output_file, 'w') as outfile, open(self._args.skips_file, 'a') as skipfile:
             for word in words:
-                for format, _, type, sub in formats:
-                    if combine:
-                        baseword = joiner.join(word)
-                    else:
-                        baseword = word
+                for full_format in formats:
+                    format, _, type, pre, suf = full_format
 
-                    # doing "str % (str)" every time is ~40% slower
-                    if   type == self.FORMAT_TYPE_NONE:
-                        out = baseword
-                    elif type == self.FORMAT_TYPE_PREFIX:
-                        out = sub + baseword
-                    elif type == self.FORMAT_TYPE_SUFFIX:
-                        out = baseword + sub
+                    if is_text_output:
+                        out = self._get_outword(full_format, word, joiner, combine)
+                        outfile.write(out + '\n')
+                        written += 1
+                        continue
+
+                    # concats, slower (30-50%?)
+                    #out = self._get_outword(full_format, word, joiner, combine)
+                    # inline'd FNV hash, ~5% speedup
+                    #fnv_base = self._fnv.get_hash_lw(out_lower)
+
+                    # 'word' is a list on combos like ("aaa", "bbb") + formats "base_%s".
+                    # Instead of hash("base_aaa_bbb") we can avoid str concat by doing 
+                    # hash("base_"), hash("aaa"), hash("_"), hash("bbb") passing output as next seed.
+
+                    if True:
+                        hash = 2166136261 #base FNV hash
+
+                        if pre:
+                            namebytes = bytes(pre, 'UTF-8')
+                            for namebyte in namebytes:
+                                hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF 
+
+                        if combine:
+                            # quick ignore non-hashable
+                            if not pre and word[0][0].isdigit():
+                                continue
+
+                            len_word = len(word) - 1
+                            for i, subword in enumerate(word):
+                                namebytes = bytes(subword, 'UTF-8')
+                                for namebyte in namebytes:
+                                    hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF 
+                                if i < len_word:
+                                    for namebyte in joinerbytes:
+                                        hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF 
+
+                        else:
+                            # quick ignore non-hashable
+                            if not pre and word[0].isdigit():
+                                continue
+
+                            namebytes = bytes(word, 'UTF-8')
+                            for namebyte in namebytes:
+                                hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF 
+
+                        if suf:
+                            namebytes = bytes(suf, 'UTF-8')
+                            for namebyte in namebytes:
+                                hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF 
+
+                        fnv_base = hash
+
                     else:
-                        out = format % (baseword) 
+                        if combine:
+                            baseword = joiner.join(word)
+                        else:
+                            baseword = word
+
+                        # doing "str % (str)" every time is ~40% slower
+                        if   type == self.FORMAT_TYPE_NONE:
+                            out = baseword
+                        elif type == self.FORMAT_TYPE_PREFIX:
+                            out = pre + baseword
+                        elif type == self.FORMAT_TYPE_SUFFIX:
+                            out = baseword + suf
+                        else: #prefix+suffix
+                            out = format % (baseword) 
+
+
+                        # quick ignore non-hashable
+                        if out[0].isdigit():
+                            continue
+
+
+                        out_lower = out #out.lower() #should be pre-lowered already
+
+                        # pre-calculated FNV for prefixes, no actual speedup it seems (maybe due to the substring?)
+                        #baselen = self._format_baselen[format]
+                        #if baselen:
+                        #    base_fnv = out_lower[baselen:]
+                        #    basehash = self._format_fnvs[format]
+                        #else:
+                        #    base_fnv = out_lower
+                        #    basehash = 2166136261
+
+                        # inline'd FNV hash, ~5% speedup
+                        #fnv_base = self._fnv.get_hash_lw(out_lower)
+                        namebytes = bytes(out_lower, 'UTF-8')
+                        hash = 2166136261 #FNV offset basis
+                        for namebyte in namebytes:  #for i in range(len(namebytes)):
+                            hash = (hash * 16777619) #FNV prime
+                            hash = hash ^ namebyte #FNV xor
+                            hash = hash & 0xFFFFFFFF #python clamp
+                        fnv_base = hash
 
                     # its ~2-5% faster calc FNV + check if it a target FNV, than checking for skips first (less common)
                     # non-empty test first = minor speedup if file doesn't exist
                     #if self._skips and out in self._skips:
                     #    continue
-
-                    if is_text_output:
-                        outfile.write(out + '\n')
-                        written += 1
-                        continue
-
-                    # quick ignore non-hashable
-                    if out[0].isdigit():
-                        continue
-
-                    out_lower = out #out.lower() #should be pre-lowered already
-
-                    # pre-calculated FNV for prefixes, no actual speedup it seems (maybe due to the substring?)
-                    #baselen = self._format_baselen[format]
-                    #if baselen:
-                    #    base_fnv = out_lower[baselen:]
-                    #    basehash = self._format_fnvs[format]
-                    #else:
-                    #    base_fnv = out_lower
-                    #    basehash = 2166136261
-
-                    # inline'd FNV hash, ~5% speedup
-                    #fnv_base = self._fnv.get_hash_lw(out_lower)
-                    namebytes = bytes(out_lower, 'UTF-8')
-                    hash = 2166136261 #FNV offset basis
-                    for namebyte in namebytes:  #for i in range(len(namebytes)):
-                        hash = hash * 16777619 #FNV prime
-                        hash = hash ^ namebyte #FNV xor
-                        hash = hash & 0xFFFFFFFF #python clamp
-                    fnv_base = hash
 
                     if no_fuzzy and fnv_base not in reversables:
                         continue
@@ -636,6 +697,7 @@ class Words(object):
                                     continue
                                 out_final = self._get_original_case(format, word, joiner)
                                 if fnv != fnv_base:
+                                    out_lower = self._get_outword(full_format, word, joiner, combine)
                                     out_final = self._fnv.unfuzzy_hashname_lw(fnv, out_lower, out_final)
                                     if not out_final: #may happen in rare cases
                                         continue
@@ -669,9 +731,28 @@ class Words(object):
         end_time = time.time()
         print("done (elapsed %ss)" % (end_time - start_time))
 
+    def _get_outword(self, full_format, word, joiner, combine):
+        format, _, type, pre, suf = full_format    
+
+        if combine:
+            baseword = joiner.join(word)
+        else:
+            baseword = word
+
+        # doing "str % (str)" every time is ~40% slower
+        if   type == self.FORMAT_TYPE_NONE:
+            out = baseword
+        elif type == self.FORMAT_TYPE_PREFIX:
+            out = pre + baseword
+        elif type == self.FORMAT_TYPE_SUFFIX:
+            out = baseword + suf
+        else: #prefix+suffix
+            out = format % (baseword) 
+        return out
+
     # when reversing format/word are lowercase, but we have regular case saved to get original combo
     def _get_original_case(self, format, word, joiner):
-        _, format_og, _, _ = self._formats[format]
+        _, format_og, _, _, _ = self._formats[format]
 
         if self._args.permutations:
             word_og = []
