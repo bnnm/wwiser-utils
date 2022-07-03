@@ -28,12 +28,13 @@
 // constants
 const char* dict = "abcdefghijklmnopqrstuvwxyz_0123456789";
 const char* list_name = "fnv.lst";
+const char* list3_name = "fnv3.lst";
 const int default_depth = 7;
 
 // config
 const int list_start = 0;
 const int list_inner = 1;
-uint8_t list[2][MAX_TABLE][MAX_TABLE];
+uint8_t list3[2][MAX_TABLE][MAX_TABLE][MAX_TABLE];
 char name[MAX_DEPTH + 1] = {0};
 char base_name[MAX_BASE + 1] = {0};
 
@@ -63,6 +64,9 @@ typedef struct {
 
     int max_depth;
     int max_depth_1;
+
+    int read_oklist;
+    int list_threshold;
 
 } fnv_config;
 
@@ -113,11 +117,9 @@ static void fvn_depth_max(const uint32_t cur_hash, const int depth) {
     if (fuzzy_hash != cfg.target_fuzzy) 
         return;
 
-    // target will be in this loop
+    // target will be in this loop (no need to check list)
     for (int i = 0; i < MAX_LETTERS; i++) {
         char elem = dict[i];
-        //if (!list[1][prev][elem])
-        //    continue;
 
         uint32_t new_hash = (cur_hash * 16777619) ^ elem;
         if (new_hash == cfg.target) {
@@ -128,15 +130,16 @@ static void fvn_depth_max(const uint32_t cur_hash, const int depth) {
 }
 
 // depth of N letters up to last
-static void fvn_depth2(const uint32_t cur_hash, const int depth) {
+static void fvn_depth3(const uint32_t cur_hash, const int depth) {
     int pos = list_inner;
-    char prev = name[depth-1];
+    char prev2 = name[depth-2];
+    char prev1 = name[depth-1];
     
 
     for (int i = 0; i < MAX_LETTERS; i++) {
         char elem = dict[i];
 #if ENABLE_BANLIST
-        if (!list[pos][prev][elem])
+        if (!list3[pos][prev2][prev1][elem])
             continue;
 #endif
 
@@ -148,7 +151,7 @@ static void fvn_depth2(const uint32_t cur_hash, const int depth) {
 
         if (depth < cfg.max_depth_1) {
             name[depth] = elem;
-            fvn_depth2(new_hash, depth + 1);
+            fvn_depth3(new_hash, depth + 1);
         }
         else {
             name[depth] = elem;
@@ -157,18 +160,37 @@ static void fvn_depth2(const uint32_t cur_hash, const int depth) {
     }
 }
 
-
-// depth of 2 letters
-static void fvn_depth1(uint32_t cur_hash, int depth) {
+// depth of 3 letters (from start)
+static void fvn_depth2(uint32_t cur_hash, int depth) {
     int pos = list_start;
-    char prev = name[depth-1];
+    char prev2 = name[depth-2];
+    char prev1 = name[depth-1];
 
     for (int i = 0; i < MAX_LETTERS; i++) {
         char elem = dict[i];
 #if ENABLE_BANLIST
-        if (!list[pos][prev][elem])
+        if (!list3[pos][prev2][prev1][elem])
             continue;
 #endif
+
+        uint32_t new_hash = (cur_hash * 16777619) ^ elem;
+        if (new_hash == cfg.target) {
+            name[depth] = elem;
+            print_name(depth);
+        }
+
+        if (depth < cfg.max_depth) {
+            name[depth] = elem;
+            fvn_depth3(new_hash, depth + 1);
+        }
+    }
+}
+
+// depth of 2 letters (from start)
+static void fvn_depth1(uint32_t cur_hash, int depth) {
+
+    for (int i = 0; i < MAX_LETTERS; i++) {
+        char elem = dict[i];
 
         uint32_t new_hash = (cur_hash * 16777619) ^ elem;
         if (new_hash == cfg.target) {
@@ -222,21 +244,24 @@ static int get_dict_pos(char comp) {
     return pos;
 }
 
-static void read_banlist_restrict() {
-    // overwrite values in banlist
+static void list_restrict() {
+    // overwrite values in list
     if (!cfg.restrict_letters)
         return;
-    
+
     if (cfg.start_letter != '\0') {
         int pos = get_dict_pos(cfg.start_letter);
 
         for (int i = 0; i < MAX_TABLE; i++) {
             for (int j = 0; j < MAX_TABLE; j++) {
-                int pos_1 = get_dict_pos(i);
-                int pos_2 = get_dict_pos(j);
-                if (pos_1 >= 0 && pos_1 < pos || pos_2 >= 0 && pos_2 < pos) {
-                    list[0][i][j] = 0;
-                    list[1][i][j] = 0;
+                for (int k = 0; k < MAX_TABLE; k++) {
+                    int pos_1 = get_dict_pos(i);
+                    int pos_2 = get_dict_pos(j);
+                    int pos_3 = get_dict_pos(k);
+                    if (pos_1 >= 0 && pos_1 < pos || pos_2 >= 0 && pos_2 < pos || pos_3 >= 0 && pos_3 < pos) {
+                        list3[0][i][j][k] = 0;
+                        list3[1][i][j][k] = 0;
+                    }
                 }
             }
         }
@@ -247,11 +272,14 @@ static void read_banlist_restrict() {
 
         for (int i = 0; i < MAX_TABLE; i++) {
             for (int j = 0; j < MAX_TABLE; j++) {
-                int pos_1 = get_dict_pos(i);
-                int pos_2 = get_dict_pos(j);
-                if (pos_1 >= 0 && pos_1 > pos || pos_2 >= 0 && pos_2 > pos) {
-                    list[0][i][j] = 0;
-                    list[1][i][j] = 0;
+                for (int k = 0; k < MAX_TABLE; k++) {
+                    int pos_1 = get_dict_pos(i);
+                    int pos_2 = get_dict_pos(j);
+                    int pos_3 = get_dict_pos(k);
+                    if (pos_1 >= 0 && pos_1 > pos || pos_2 >= 0 && pos_2 > pos || pos_3 >= 0 && pos_3 > pos) {
+                        list3[0][i][j][k] = 0;
+                        list3[1][i][j][k] = 0;
+                    }
                 }
             }
         }
@@ -286,12 +314,80 @@ static int in_dict(char chr) {
     return 0;
 }
 
+static int read_oklist() {
+    // 2 ASCII chars = 0x7F | 0x7F, where [char][char] = 0/1, [0] = begin, [1] = middle
+    for (int i = 0; i < MAX_TABLE; i++) {
+        for (int j = 0; j < MAX_TABLE; j++) {
+            for (int k = 0; k < MAX_TABLE; k++) {
+                list3[0][i][j][k] = 0;
+                list3[1][i][j][k] = 0;
+            }
+        }
+    }
+
+    if (cfg.ignore_banlist)
+        return 1;
+
+    FILE* file = fopen(list3_name, "r");
+    if (!file) {
+        printf("ignore list not found (%s)\n", list3_name);
+        return 1;
+    }
+//printf("2\n");
+    char line[0x2000];
+    while (fgets(line, sizeof(line), file)) {
+        if (line[0] == '#')
+            continue;
+
+        int posA = 0;
+        int posB = 1;
+        int posC = 2;
+        int index = 1;
+        if (line[0] == '^') {
+            posA++;
+            posB++;
+            posC++;
+            index = 0;
+        }
+
+        if ( !in_dict(line[posA]) )
+            continue;
+        if ( !in_dict(line[posB]) )
+            continue;
+        if ( !in_dict(line[posC]) )
+            continue;
+        if ( line[posC+1] != ':')
+            continue;
+        
+        int n, m;
+        int count;
+        m = sscanf(&line[posC+2], "%d%n", &count,&n);
+        if (m != 1 || count < 0)
+            continue;
+
+        if (count > 0xFF)
+            count = 0xFF;
+        if (count < cfg.list_threshold)
+            count = 0;
+        
+        list3[index][ (uint8_t)line[posA] ][ (uint8_t)line[posB] ][ (uint8_t)line[posC] ] = count;
+        //printf("- %c%c%c: %i\n", line[posA], line[posB], line[posC], count);
+    }
+
+    printf("loaded ignore list\n");
+
+    fclose(file);
+    return 1;
+}
+
 static int read_banlist() {
     // 2 ASCII chars = 0x7F | 0x7F, where [char][char] = 0/1, [0] = begin, [1] = middle
     for (int i = 0; i < MAX_TABLE; i++) {
         for (int j = 0; j < MAX_TABLE; j++) {
-            list[0][i][j] = 1;
-            list[1][i][j] = 1;
+            for (int k = 0; k < MAX_TABLE; k++) {
+                list3[0][i][j][k] = 1;
+                list3[1][i][j][k] = 1;
+            }
         }
     }
 
@@ -329,13 +425,17 @@ static int read_banlist() {
         if (line[posB] == '[') {
             posB++;
             while( in_dict(line[posB]) ) {
-                list[index][ (uint8_t)line[posA] ][ (uint8_t)line[posB] ] = 0;
+                for (int k = 0; k < MAX_LETTERS; k++) {
+                    list3[index][ (uint8_t)line[posA] ][ (uint8_t)line[posB] ][ (uint8_t)dict[k] ] = 0;
+                }
                 //printf("- %c%c / %i %i\n", line[posA], line[posB], line[posA], line[posB]);
                 posB++;
             }
         }
         else if ( in_dict(line[posB]) ) {
-            list[index][ (uint8_t)line[posA] ][ (uint8_t)line[posB] ] = 0;
+            for (int k = 0; k < MAX_LETTERS; k++) {
+                list3[index][ (uint8_t)line[posA] ][ (uint8_t)line[posB] ][ (uint8_t)dict[k] ] = 0;
+            }
             //printf("- %c%c / %i %i\n", line[posA], line[posB], line[posA], line[posB]);
         }
     }
@@ -349,7 +449,7 @@ static int read_banlist() {
 //*************************************************************************
 
 static void print_usage(const char* name) {
-    fprintf(stderr,"Wwise FNV name reversing tool " FNV_VERSION " " __DATE__ "\n\n"
+    fprintf(stderr,"Wwise FNV name reversing tool " FNV_VERSION " " __DATE__ " (%s)\n\n"
             "Finds original name for Wwise event/variable IDs (FNV hashes)\n"
             "Usage: %s [options] (target id)\n"
             "Options:\n"
@@ -364,6 +464,7 @@ static void print_usage(const char* name) {
             "    -R: restrict START/END letters on all levels to a..z\n"
             "    -m N: max characters in name (default %i)\n"
             "       Beyond 8 search is too slow and gives too many false positives\n"
+            "    -I THRESHOLD: enable allowed 3-gram lists, at threshold N\n"
             "    -i: ignore ban list (%s)\n"
             "       List greatly improves speed and results but may skip valid names\n"
             "       (try disabling if no proper names are found for smaller variables)\n"
@@ -371,6 +472,7 @@ static void print_usage(const char* name) {
             "    -n: treat input as names and prints FNV IDs\n"
             "    -h: show this help\n"
             ,
+            (sizeof(void*) >= 8 ? "64-bit" : "32-bit"),
             name,
             dict,
             default_depth,
@@ -424,6 +526,12 @@ static int parse_cfg(fnv_config* cfg, int argc, const char* argv[]) {
                 break;
             case 'i':
                 cfg->ignore_banlist = 1;
+                break;
+            case 'I':
+                i++;
+                CHECK_EXIT(i >= argc, "ERROR: missing max characters");
+                cfg->read_oklist = 1;
+                cfg->list_threshold = strtoul(argv[i], NULL, 10);
                 break;
             case 't':
                 cfg->print_text = 1;
@@ -526,11 +634,17 @@ int main(int argc, const char* argv[]) {
         return 0;
     }
 
-    if (!read_banlist()) {
-        return 1;
+    if (cfg.read_oklist) {
+        if (!read_oklist()) {
+            return 1;
+        }
     }
-    read_banlist_restrict();
-    
+    else {
+        if (!read_banlist()) {
+            return 1;
+        }
+    }
+    list_restrict();
 
 
     cfg.max_depth--;
