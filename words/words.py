@@ -125,17 +125,26 @@ class Words(object):
         p.add_argument('-ze', '--fuzzy-enable', help="Enable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
         # other flags
 
-        p.add_argument('-mc',  '--max-chars',   help="Ignores results that go beyond N chars", type=int)        
+        p.add_argument('-mc',  '--max-chars',   help="Ignores results that go beyond N chars", type=int)
         p.add_argument('-js', '--join-spaces',  help="Join words with spaces in lines\n('Word Word' = 'Word_Word')", action='store_true')
         p.add_argument('-jb', '--join-blank',   help="Join words without '_'\n('Word' + 'Word' = WordWord instead of Word_Word)", action='store_true')
         p.add_argument('-j',  '--joiner',       help="Set word joiner")
+
+        p.add_argument('-fa', '--format-auto',  help="Auto-makes format combos of (prefix)_%s_(suffix)", action='store_true')
+        p.add_argument('-fj', '--format-joiner',help="Set auto-format joiner")
+        p.add_argument('-fp', '--format-prefix',help="Add prefixes to all formats", nargs='*')
+        p.add_argument('-fs', '--format-suffix',help="Add suffixes to all formats", nargs='*')
+        p.add_argument('-fsf','--format-split-full',help="Auto makes format combos fully split")
+        p.add_argument('-fb', '--format-begins',help="Use only auto-formats that begin with text", nargs='*')
         p.add_argument('-iw', '--ignore-wrong', help="Ignores words that don't make much sense\nMay remove unusual valid words, like rank_sss", action='store_true')
-        p.add_argument('-ho', '--hashable-only',help="Consider only hashable chunks\nSet to ignore numbers", action='store_true')
+        p.add_argument('-ho', '--hashable-only',help="Consider only hashable chunks", action='store_true')
+        p.add_argument('-ao', '--alpha-only',   help="Ignores words with numbers (no play_12345)", action='store_true')
         p.add_argument('-sc', '--split-caps',   help="Splits words by (Word)(...)(Word) and makes (word)_(...)_(word)", action='store_true')
         p.add_argument('-sp', '--split-prefix', help="Splits words by (prefix)_(word) rather than any '_'", action='store_true')
         p.add_argument('-ss', '--split-suffix', help="Splits words by (word)_(suffix) rather than any '_'", action='store_true')
         p.add_argument('-sb', '--split-both',   help="Splits words by (prefix)_(word)_(suffix) rather than any '_'", action='store_true')
-        p.add_argument('-fs', '--full-split',   help="Only adds stems (from 'aa_bb_cc' only adds 'aa', 'bb', 'cc')", action='store_true')
+        p.add_argument('-sn', '--split-number', help="Splits in N parts: a_b_c with 2 = a_b, b_c", type=int)
+        p.add_argument('-sf', '--split-full',   help="Only adds stems (from 'aa_bb_cc' only adds 'aa', 'bb', 'cc')", action='store_true')
         p.add_argument('-ns', '--no-split',     help="Disable splitting words by '_'", action='store_true')
         p.add_argument('-cl', '--cut-last',     help="Cut last N chars (for strings2.exe off results like bgm_main8)", type=int)
         return p.parse_args()
@@ -151,6 +160,26 @@ class Words(object):
         if format.count('%s') != 1:
             print("ignored wrong format:", format)
             return
+
+        if format.count('_') > 20: #bad line like _______...____
+            return
+        self._add_format_pf(format)
+
+
+    def _add_format_pf(self, format):
+        if self._args.format_prefix:
+            for pf in self._args.format_prefix:
+                self._add_format_sf(pf + format)
+        self._add_format_sf(format)
+
+
+    def _add_format_sf(self, format):
+        if self._args.format_suffix:
+            for sf in self._args.format_suffix:
+                self._add_format_main(format + sf)
+        self._add_format_main(format)
+
+    def _add_format_main(self, format):
 
         format_lw = format.lower()
         if format == '%s':
@@ -207,6 +236,67 @@ class Words(object):
 
         if not self._formats:
             self._add_format(self.DEFAULT_FORMAT)
+
+    def _add_format_auto(self, elem):
+        if not elem:
+            return
+        if elem.count('_') > 20: #bad line like _______...____
+            return
+
+        mark = '%s'
+        joiner = self._get_format_joiner()
+        
+        if self._args.no_split:
+            subformats = [
+                elem + joiner + mark, 
+                mark + joiner + elem, 
+            ]
+            for subformat in subformats:
+                self._add_format(subformat)
+            return
+       
+        subwords = self.PATTERN_WORD.split(elem)
+        combos = []
+
+        if self._args.format_split_full:
+            for subword in subwords:
+                #if '_' in subword:
+                #    continue
+                combo = subword + joiner + mark
+                combos.append(combo)
+                combo = mark + joiner + subword
+                combos.append(combo)
+
+        else:
+            for i in range(len(subwords)):
+                items = itertools.combinations(subwords, i + 1)
+                for item in items:
+                    for j in range(len(item) + 1):
+                        subitems = list(item)
+                        subitems.insert(j, mark)
+                        
+                        combo = joiner.join(subitems)
+                        combos.append(combo)
+
+
+        for combo in combos:
+            if self._args.format_begins:
+                combo_lw = combo.lower()
+                if not any(combo_lw.startswith(fb) for fb in self._args.format_begins):
+                    continue
+
+            #print(combo)
+            if not combo:
+                continue
+            combo_hashable = combo.lower()
+
+            # makes only sense on simpler cases with no formats
+            # (ex. if combining format "play_bgm_%s" and number in list is reasonable)
+            #if self._args.hashable_only and not self._fnv.is_hashable(combo_hashable):
+            #    continue
+            if self._args.alpha_only and any(char.isdigit() for char in combo_hashable):
+                continue
+            self._add_format(combo)
 
     #--------------------------------------------------------------------------
 
@@ -283,6 +373,14 @@ class Words(object):
             joiner = self._args.joiner
         return joiner
 
+    def _get_format_joiner(self):
+        joiner = "_"
+        #if self._args.join_blank:
+        #    joiner = ""
+        if self._args.format_joiner:
+            joiner = self._args.format_joiner
+        return joiner
+
     def _add_word(self, elem):
         if not elem:
             return
@@ -300,7 +398,7 @@ class Words(object):
         combos = []
         add_self = True
 
-        if self._args.full_split:
+        if self._args.split_full:
             for subword in subwords:
                 if '_' in subword:
                     continue
@@ -335,10 +433,18 @@ class Words(object):
 
             #print("bot: %s: %s / %s / %s" % (elem, prefix, word, suffix))
 
+        elif self._args.split_number:
+            num = int(self._args.split_number)
+            for i in range(len(subwords) + 1 - num):
+                combos.append( joiner.join(subwords[i:i+num]) )
+
+            add_self = False
+
         else:
             # all combos by default
             for i, j in itertools.combinations(range(len(subwords) + 1), 2):
                 combos.append( joiner.join(subwords[i:j]) )
+
 
         for combo in combos:
             if not combo:
@@ -349,6 +455,9 @@ class Words(object):
             # (ex. if combining format "play_bgm_%s" and number in list is reasonable)
             if self._args.hashable_only and not self._fnv.is_hashable(combo_hashable):
                 continue
+            if self._args.alpha_only and any(char.isdigit() for char in combo_hashable):
+                continue
+
             combo_hashable = bytes(combo_hashable, "UTF-8")
             words[combo_hashable] = combo
 
@@ -462,6 +571,10 @@ class Words(object):
                     if self._fnv.is_hashable(elem_lw):
                         fnv = self._fnv.get_hash(elem_lw)
                         self._words_reversed.add(int(fnv))
+
+            if self._args.format_auto:
+                for elem in elems:
+                    self._add_format_auto(elem)
 
 
     def _read_words(self, file):
