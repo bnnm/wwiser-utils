@@ -276,7 +276,7 @@ For the daring you can use the combinator mode. `words.py -c N` takes `words.txt
 
 Downside is that many words + high `-c N` = humongous number of results. So `words.txt` here should be restricted to mostly relevant words (remove `Desert` if you aren't trying to find events related to that).  Try `-c 2` and see if some names worked (this is typically most useful), reduce words and try `-c 3` (this gets a few more, but often creates a many valid-looking-enough-but-actually-wrong names, though). `-c 4` is possible but could take many, many hours, `-c 5` and beyond may take ages. Total words and current word is printed every now and then so you can estimate the time it'll take.
 
-In some cases it's better to use fully split stems by using the flag `-fs`. Normally `BGM_Vocal_Camp` splits into `BGM_Vocal`, `Vocal_Camp`, `BGM`, `Vocal`, `Camp`. With the flag, only `BGM`, `Vocal`, `Camp` are used. Combine custom `formats.txt`, this flag and `-c N` to create words like `(prefix)_(combos up to N)_(suffix)`, that can be useful when we have clear prefix/suffixes in `formats.txt`.
+In some cases it's better to use fully split stems by using the flag `-sf`. Normally `BGM_Vocal_Camp` splits into `BGM_Vocal`, `Vocal_Camp`, `BGM`, `Vocal`, `Camp`. With the flag, only `BGM`, `Vocal`, `Camp` are used. Combine custom `formats.txt`, this flag and `-c N` to create words like `(prefix)_(combos up to N)_(suffix)`, that can be useful when we have clear prefix/suffixes in `formats.txt`.
 
 #### Permutations
 A more specialized version is using `words.py -p`. This takes `words.txt`, that must be divided into "sections", and makes permutations of those sections to create combo words. For example:
@@ -295,6 +295,13 @@ stage
 With those 3 sections it makes: `BGM_mission_01`, `BGM_stage_01`, `BGM_mission_001`, ..., `Play_BGM_mission_01`, `Play_BGM_stage_001`, an so on. This is similar as making formats (`BGM_%s_01`, `BGM_%s_001`) but simplifies testing more combos. Formats can be used on top of the permutations too.
 
 You can also add `#@section` in `ww.txt` to designate a new section combined with `wwnames.txt` default section.
+
+#### Format combos
+A variation of the above is `-fa`. This generates combos that become formats, mainly used to get words in the middle. `BGM_Vocal_Camp` makes `%s_BGM_Vocal_Camp`, `BGM_%s_Vocal_Camp`, `BGM_Vocal_%s_Camp`, `%s_Vocal_Camp`, `BGM_Vocal_Camp_%s`, `BGM_Vocal_%s`, `BGM_%s_Camp` and so on, that may catch `BGM_Desert_Camp`.
+
+This makes even more combos than the above. It's best used with `-sf` to only have formats with a single word, or flags like `-ao` (removes words with numbers).
+
+Another flag is `-fp`/`-fs` adds a format with a preffix/suffix. With `-fp BGM_` creates `BGM_%s`, so `stage` may find `BGM_stage`, while `-fs s` creates `%ss`, and could get `BGM_stages`.
 
 
 #### False positives
@@ -326,7 +333,7 @@ Word modifiers for special cases found in internal files:
 Others, mainly useful to control max results for combination/permutations: 
 - `-mc N`: limits resulting words to max (to ignore huge, unlikely useful words)
 - `-ns`: disables splitting words by `_`
-- `-fs`: fully splits stems and don't add any subword containing `_`
+- `-sf`: splits stems fully and don't add any subword containing `_`
 - `-sp`: splits words by prefix like `(preffix)_(word_word...)`
 - `-ss`: splits words by suffix like `(word_word...)_(suffix)`
 - `-sb`: splits words by both prefix/suffix like `(preffix)_(word)_(suffix)`

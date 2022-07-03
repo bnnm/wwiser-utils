@@ -505,6 +505,11 @@ class Words(object):
                 self._args.fuzzy_disable = True
                 continue
 
+            # allows partially using autoformats to combine with bigger word lists
+            if line.startswith('#@noautoformat'):
+                self._args.format_auto = False
+                continue
+
             # comment
             if line.startswith('#'):
                 continue
