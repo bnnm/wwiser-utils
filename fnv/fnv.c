@@ -53,6 +53,7 @@ typedef struct {
     int ignore_banlist;
     int print_text;
     int restrict_letters;
+    int restrict_overwrite;
 
     //state
     const char* targets_s[MAX_TARGETS];
@@ -234,52 +235,47 @@ static void fvn_depth0(uint32_t cur_hash) {
 
 static int get_dict_pos(char comp) {
     // must translate values as banlist works with ASCII
-    int pos = -1;
     for (int i = 0; i < MAX_LETTERS; i++) {
         if (dict[i] == comp) {
-            pos = i;
+            return i;
         }
     }
 
-    return pos;
+    return -1;
 }
 
 static void list_restrict() {
     // overwrite values in list
     if (!cfg.restrict_letters)
         return;
+    
+    if (cfg.start_letter == '\0')
+        cfg.start_letter = 'a';
+    if (cfg.end_letter == '\0')
+        cfg.end_letter = '9';
+    int pos_1 = get_dict_pos(cfg.start_letter);
+    int pos_2 = get_dict_pos(cfg.end_letter);
+    if (pos_2 < pos_1 || pos_1 < 0 || pos_2 < 0)
+        return;
 
-    if (cfg.start_letter != '\0') {
-        int pos = get_dict_pos(cfg.start_letter);
-
-        for (int i = 0; i < MAX_TABLE; i++) {
-            for (int j = 0; j < MAX_TABLE; j++) {
-                for (int k = 0; k < MAX_TABLE; k++) {
-                    int pos_1 = get_dict_pos(i);
-                    int pos_2 = get_dict_pos(j);
-                    int pos_3 = get_dict_pos(k);
-                    if (pos_1 >= 0 && pos_1 < pos || pos_2 >= 0 && pos_2 < pos || pos_3 >= 0 && pos_3 < pos) {
-                        list3[0][i][j][k] = 0;
-                        list3[1][i][j][k] = 0;
-                    }
+    printf("restricting letters: '%c~%c' %s\n", cfg.start_letter, cfg.end_letter, cfg.restrict_overwrite ? "(overwrite)" : "" );
+    for (int i = 0; i < MAX_TABLE; i++) {
+        int pos_i = get_dict_pos(i);
+        for (int j = 0; j < MAX_TABLE; j++) {
+            int pos_j = get_dict_pos(j);
+            for (int k = 0; k < MAX_TABLE; k++) {
+                int pos_k = get_dict_pos(k);
+                if (!(pos_i >= pos_1 && pos_i <= pos_2) ||
+                    !(pos_j >= pos_1 && pos_j <= pos_2) ||
+                    !(pos_k >= pos_1 && pos_k <= pos_2)) {
+                    //printf("ko=[%c][%c][%c] = 0\n", pos_i < 0 ? '*' : dict[pos_i], pos_j < 0 ? '*' : dict[pos_j], pos_k < 0 ? '*' : dict[pos_k]);
+                    list3[0][i][j][k] = 0;
+                    list3[1][i][j][k] = 0;
                 }
-            }
-        }
-    }
-
-    if (cfg.end_letter != '\0') {
-        int pos = get_dict_pos(cfg.end_letter);
-
-        for (int i = 0; i < MAX_TABLE; i++) {
-            for (int j = 0; j < MAX_TABLE; j++) {
-                for (int k = 0; k < MAX_TABLE; k++) {
-                    int pos_1 = get_dict_pos(i);
-                    int pos_2 = get_dict_pos(j);
-                    int pos_3 = get_dict_pos(k);
-                    if (pos_1 >= 0 && pos_1 > pos || pos_2 >= 0 && pos_2 > pos || pos_3 >= 0 && pos_3 > pos) {
-                        list3[0][i][j][k] = 0;
-                        list3[1][i][j][k] = 0;
-                    }
+                else if (cfg.restrict_overwrite) {
+                    //printf("ok=[%c][%c][%c] = 1\n", pos_i < 0 ? '*' : dict[pos_i], pos_j < 0 ? '*' : dict[pos_j], pos_k < 0 ? '*' : dict[pos_k]);
+                    list3[0][i][j][k] = 1;
+                    list3[1][i][j][k] = 1;
                 }
             }
         }
@@ -460,10 +456,12 @@ static void print_usage(const char* name) {
             "    -l START_LETTER: start letter (use to resume searches)\n"
             "    -L END_LETTER: end letter\n"
             "       Dictionary letters: %s\n"
-            "    -r: restrict START/END letters on all levels (default to base level only)\n"
-            "    -R: restrict START/END letters on all levels to a..z\n"
+            "    -r: restrict START/END letters to all levels (uses ignore list combos)\n"
+            "    -R: restrict START/END letters to all levels (overwrites ignore list combos)\n"
+            "    -X x: restrict START/END letters to all levels, where x is a letter:\n"
+            "         a=a..z_; A=a..z; n=_..9; N=0..9\n"
             "    -m N: max characters in name (default %i)\n"
-            "       Beyond 8 search is too slow and gives too many false positives\n"
+            "       Beyond 8 search is slow and gives many false positives (may improve with -I)\n"
             "    -I THRESHOLD: enable allowed 3-gram lists, at threshold N\n"
             "    -i: ignore ban list (%s)\n"
             "       List greatly improves speed and results but may skip valid names\n"
@@ -549,8 +547,34 @@ static int parse_cfg(fnv_config* cfg, int argc, const char* argv[]) {
                 break;
             case 'R':
                 cfg->restrict_letters = 1;
-                cfg->start_letter = 'a';
-                cfg->end_letter = '_';
+                cfg->restrict_overwrite = 1;
+                break;
+            case 'X':
+                cfg->restrict_letters = 1;
+                i++;
+                CHECK_EXIT(i >= argc, "ERROR: missing max characters");
+                switch(argv[i][0]) {
+                    case 'a':
+                        cfg->start_letter = 'a';
+                        cfg->end_letter = '_';
+                        break;
+                    case 'A':
+                        cfg->start_letter = 'a';
+                        cfg->end_letter = 'z';
+                        break;
+                    case 'n':
+                        cfg->restrict_overwrite = 1;
+                        cfg->start_letter = '_';
+                        cfg->end_letter = '9';
+                        break;
+                    case 'N':
+                        cfg->restrict_overwrite = 1;
+                        cfg->start_letter = '0';
+                        cfg->end_letter = '9';
+                        break;
+                    default:
+                        break;
+                }
                 break;
             case 'h':
                 print_usage(argv[0]);
