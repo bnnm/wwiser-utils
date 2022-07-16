@@ -26,6 +26,9 @@ def main():
                     continue
 
                 line = line.strip()
+                # for "id: name" results
+                if ':' in line:
+                    line = line.split(':')[1].strip()
                 key = fnv(line)
                 names[key] = line
     except:
