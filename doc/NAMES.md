@@ -456,7 +456,7 @@ By default *wwiser* ignores bus rules (improves overall output), but you can ena
 Audio Bus = 0
 01_Bus = 0
 ```
-Buses are named like usual (`audio_bus`, `sfx_volume`) too, but if you are missing a few it may be due to this. Also in some (early?) banks some buses take special GUIDs (not reversable).
+Buses are named like usual (`audio_bus`, `sfx_volume`) too, but if you are missing a few it may be due to this. Also in some (early?) banks some buses take special GUIDs (not reversable). Note that *aux buses* (a subtype of bus) follow standard rules and not these extended rules, even though they are mostly the same object type.
 
 ### give up
 Say you have almost every name-number down, save a couple. Just need to try a few more names...! Well, bad news: sometimes it's just too hard. Give up and move on. But you can always come back later, maybe names you need will be in the DLC, sequel or other game, or some extra tricks to get names will be added later.
