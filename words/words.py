@@ -119,10 +119,11 @@ class Words(object):
         p.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs", default=self.FILENAME_REVERSABLES)
         p.add_argument('-to',  '--text-output', help="Write words rather than reversing", action='store_true')
         # modes
-        p.add_argument('-c',  '--combinations', help="Combine words in input list by N\nWARNING! don't set high with lots of formats/words")
-        p.add_argument('-p',  '--permutations', help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words list and start next with #@section\nWARNING! don't combine many sections+words", action='store_true')
-        p.add_argument('-zd', '--fuzzy-disable',help="Disable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
-        p.add_argument('-ze', '--fuzzy-enable', help="Enable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
+        p.add_argument('-c',  '--combinations',         help="Combine words in input list by N (repeats words)\nWARNING! don't set high with lots of formats/words")
+        p.add_argument('-p',  '--permutations',         help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words list and start next with #@section\nWARNING! don't combine many sections+words", action='store_true')
+        p.add_argument('-cu', '--combinations-unique',  help="Combine words with unique combos only\nMakes a_b, b_a but not a_a, b_b", action='store_true')
+        p.add_argument('-zd', '--fuzzy-disable',        help="Disable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
+        p.add_argument('-ze', '--fuzzy-enable',         help="Enable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
         # other flags
 
         p.add_argument('-mc',  '--max-chars',   help="Ignores results that go beyond N chars", type=int)
@@ -130,7 +131,7 @@ class Words(object):
         p.add_argument('-jb', '--join-blank',   help="Join words without '_'\n('Word' + 'Word' = WordWord instead of Word_Word)", action='store_true')
         p.add_argument('-j',  '--joiner',       help="Set word joiner")
 
-        p.add_argument('-fa', '--format-auto',  help="Auto-makes format combos of (prefix)_%s_(suffix)", action='store_true')
+        p.add_argument('-fa', '--format-auto',  help="Auto-makes format combos of (prefix)_%%s_(suffix)", action='store_true')
         p.add_argument('-fj', '--format-joiner',help="Set auto-format joiner")
         p.add_argument('-fp', '--format-prefix',help="Add prefixes to all formats", nargs='*')
         p.add_argument('-fs', '--format-suffix',help="Add suffixes to all formats", nargs='*')
@@ -211,12 +212,14 @@ class Words(object):
 
         prebytes = None
         sufbytes = None
+        pre_fnv = None
         if pre:
             prebytes = bytes(pre, 'UTF-8')
+            pre_fnv = self._fnv.get_hash_nb(prebytes)
         if suf:
             sufbytes = bytes(suf, 'UTF-8')
 
-        self._formats[key] = (val, format, type, prebytes, sufbytes)
+        self._formats[key] = (val, format, type, prebytes, sufbytes, pre_fnv)
 
         #index = format.index('%')
         #if index:
@@ -245,11 +248,11 @@ class Words(object):
 
         mark = '%s'
         joiner = self._get_format_joiner()
-        
+
         if self._args.no_split:
             subformats = [
-                elem + joiner + mark, 
-                mark + joiner + elem, 
+                elem + joiner + mark,
+                mark + joiner + elem,
             ]
             for subformat in subformats:
                 self._add_format(subformat)
@@ -274,7 +277,7 @@ class Words(object):
                     for j in range(len(item) + 1):
                         subitems = list(item)
                         subitems.insert(j, mark)
-                        
+
                         combo = joiner.join(subitems)
                         combos.append(combo)
 
@@ -480,7 +483,6 @@ class Words(object):
             return False
 
         if line_len < 12:
-            # check for words like 
             for key, group in itertools.groupby(line):
                 group_len = len(list(group))
                 if key.lower() in ['0', '1', 'x', ' ']: #allow 000, 111, xxx
@@ -536,7 +538,7 @@ class Words(object):
 
             # clean copied fnvs
             if ': ' in line:
-                index = line.index(': ') 
+                index = line.index(': ')
                 if line[0:index].isnumeric():
                     line = line[index+1:]
 
@@ -628,6 +630,7 @@ class Words(object):
         print("creating %i permutations * %i formats (%s sections)" % (permutations, f_len, len(self._sections)) )
 
         elems = itertools.product(*sections)
+
         return elems
 
     def _get_combinations(self):
@@ -639,9 +642,22 @@ class Words(object):
         w_len = len(words)
         f_len = len(self._formats)
         combinations = int(self._args.combinations)
-        print("creating %i combinations * %i formats" % (pow(w_len, combinations), f_len) )
 
-        elems = itertools.product(words, repeat=combinations)
+        if self._args.combinations_unique:
+            total = 1
+            for i in range(w_len, w_len - combinations, -1):
+                total *= i
+
+            elems = itertools.permutations(words, r=combinations)
+            # not appropriate due to removed elems
+            #elems = itertools.combinations(words, r=combinations)
+            #elems = itertools.combinations_with_replacement(words, r=combinations)
+        else:
+            total = pow(w_len, combinations)
+
+            elems = itertools.product(words, repeat=combinations)
+        print("creating %i combinations * %i formats" % (total, f_len) )
+
         return elems
 
     def _get_basewords(self):
@@ -653,6 +669,7 @@ class Words(object):
         w_len = len(words)
         f_len = len(self._formats)
         print("creating %i words * %i formats" % (w_len, f_len))
+
         return words
 
     #--------------------------------------------------------------------------
@@ -704,7 +721,7 @@ class Words(object):
         with open(self._args.output_file, 'w') as outfile, open(self._args.skips_file, 'a') as skipfile:
             for word in words:
                 for full_format in formats:
-                    format, _, type, pre, suf = full_format
+                    format, _, type, pre, suf, pre_fnv = full_format
 
                     if is_text_output:
                         out = self._get_outword(full_format, word, joiner, combine, True)
@@ -721,14 +738,15 @@ class Words(object):
                     # MAIN HASHING (inline'd)
                     #
                     # 'word' is a list on combos like ("aaa", "bbb") + formats "base_%s".
-                    # Instead of hash("base_aaa_bbb") we can avoid str concat by doing 
+                    # Instead of hash("base_aaa_bbb") we can avoid str concat by doing
                     # hash("base_"), hash("aaa"), hash("_"), hash("bbb") passing output as next seed.
                     # combos are pre-converted to bytes for a minor speed up too.
                     hash = 2166136261 #base FNV hash
 
                     if pre:
-                        for namebyte in pre:
-                            hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF 
+                        hash = pre_fnv
+                        #for namebyte in pre:
+                        #    hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
 
                     if combine:
                         # quick ignore non-hashable
@@ -738,10 +756,10 @@ class Words(object):
                         len_word = len(word) - 1
                         for i, subword in enumerate(word):
                             for namebyte in subword:
-                                hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF 
+                                hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
                             if i < len_word:
                                 for namebyte in joinerbytes:
-                                    hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF 
+                                    hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
 
                     else:
                         # quick ignore non-hashable
@@ -749,14 +767,14 @@ class Words(object):
                             continue
 
                         for namebyte in word:
-                            hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF 
+                            hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
 
                     if suf:
                         for namebyte in suf:
-                            hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF 
+                            hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
 
                     fnv_base = hash
-                    
+
                     #----------------------------------------------------------
 
                     # its ~2-5% faster calc FNV + check if it a target FNV, than checking for skips first (less common)
@@ -816,12 +834,12 @@ class Words(object):
         print("done (elapsed %ss)" % (end_time - start_time))
 
     def _get_outword(self, full_format, word, joiner, combine, text=False):
-        format, _, type, pre, suf = full_format    
+        format, _, type, pre, suf, _ = full_format    
 
         if pre:
-            pre = pre.decode("utf-8") 
+            pre = pre.decode("utf-8")
         if suf:
-            suf = suf.decode("utf-8") 
+            suf = suf.decode("utf-8")
 
         if combine:
             if text:
@@ -843,14 +861,14 @@ class Words(object):
         elif type == self.FORMAT_TYPE_SUFFIX:
             out = baseword + suf
         else: #prefix+suffix
-            #out = format % (baseword) 
+            #out = format % (baseword)
             out = pre + baseword + suf
 
         return out
 
     # when reversing format/word are lowercase, but we have regular case saved to get original combo
     def _get_original_case(self, format, word, joiner):
-        _, format_og, _, _, _ = self._formats[format]
+        _, format_og, _type, _pre, _suf, _pre_fnv = self._formats[format]
 
         if self._args.permutations:
             word_og = []
@@ -972,6 +990,9 @@ class Fnv(object):
 
     def get_hash_lw(self, lowname):
         namebytes = bytes(lowname, 'UTF-8')
+        return self._get_hash(namebytes)
+
+    def get_hash_nb(self, namebytes):
         return self._get_hash(namebytes)
 
 
