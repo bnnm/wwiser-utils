@@ -1,0 +1,2434 @@
+#@classify-bank
+
+### BANK NAMES
+Init
+WSB_CH_Hunter
+WSB_CH_Main
+WSB_CH_UMA
+WSB_CH_Wilson
+WSB_CS
+WSB_EV
+WSB_FX
+WSB_Home
+WSB_IT
+WSB_MX
+WSB_PA
+WSB_PBP
+WSB_PM
+WSB_ST
+WSB_SY
+WSB_Test
+WSB_Title
+WSB_VO_Hunter
+WSB_VO_Main
+WSB_VO_Preview
+WSB_VO_UMA
+WSB_VO_Wilson
+WSB_WP
+WSB_WV
+
+### LANGUAGE NAMES
+English(US) = 0
+SFX
+
+### BUS NAMES
+Master_Motion_Bus
+WB_CH
+WB_CS
+WB_EV
+WB_Hallucination
+WB_MASTER
+WB_motion
+WB_MX
+WB_PA
+WB_PBP
+WB_Reverb_Auto
+WB_Reverb_Basket
+WB_Reverb_Cave
+WB_Reverb_City
+WB_Reverb_Collapse
+WB_Reverb_Common
+WB_Reverb_CS
+WB_Reverb_Dune
+WB_Reverb_Hall
+WB_Reverb_Island
+WB_Reverb_Jungle
+WB_Reverb_Nature
+WB_Reverb_Outside
+WB_Reverb_Palace
+WB_Reverb_Room
+WB_Reverb_Ruin
+WB_Reverb_Trench
+WB_Reverb_YetiNest
+WB_SE
+WB_ST
+WB_SY
+WB_VO
+# 2683962506
+# 219045866
+# 3473980802
+# 4044272802
+# 3608201734
+# 3724398552
+# 3652890776
+# 3945446119
+# 1704069652
+
+### SFX NAMES (Init.bnk)
+Basket
+Common
+Communication
+CS_VO
+No_Output
+Room_Medium_High_Absorbtion
+System
+Trench
+YetiNest
+# 1156359885
+# 61591434
+# 100000951
+# 175079065
+# 249250547
+# 343695589
+# 433916474
+# 579764823
+# 645451946
+# 827880854
+# 855610804
+# 957914337
+# 1031882085
+# 1057855245
+# 1073300293
+# 1399684379
+# 1844189408
+# 2559014130
+# 3120195931
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+WGP_BATTLETIME
+WGP_EMOTE_DISTANCE
+WGP_MYCHARACTER
+WGP_OBJECT_AZIMUTH
+WGP_OBJECT_DISTANCE
+WGP_OBJECT_ELEVATION
+WGP_OBJECT_LISTENERCONE
+WGP_OBSTRUCTION_VALUE
+WGP_OCCULUSION_VALUE
+WGP_OPTION_CHARACTER
+WGP_OPTION_ENVIRONMENT
+WGP_OPTION_MASTER
+WGP_OPTION_MUSIC
+WGP_OPTION_PBP
+WGP_OPTION_SE
+WGP_OPTION_STAGE
+WGP_OPTION_SYSTEM
+WGP_OPTION_VOICE
+WGP_OUTSIDE_AMBIENT_OCCULUSION
+WGP_PLAYER_AIR_STATE
+WGP_PLAYER_DAMAGE_AMOUNT
+WGP_PLAYER_HEIGHT_MYSELF
+WGP_PLAYER_HIT_OWNER
+WGP_PLAYER_HP
+WGP_PLAYER_INFINALAREA
+WGP_PLAYER_MUTE
+WGP_PLAYER_SHIELD
+WGP_PLAYER_STAMINA
+WGP_PLAYER_STATE_BUSH
+WGP_PLAYER_STATE_HUNTER03
+WGP_PLAYER_STATE_LAUGH
+WGP_PLAYER_STATE_STEALTH
+WGP_PLAYER_WALK_SPEED
+WGP_RAIN_AMOUNT
+WGP_REMAININGAREA
+WGP_REMAININGAREA_RATIO
+WGP_REMAININGPLAYER
+WGP_REMAININGPLAYER_RATIO
+WGP_REMAININGTIME_CONTAMINATEDAREA
+WGP_REMAININGTIME_SMACKDOWNZONE_CLOSE
+WGP_RESULT_RANK
+WGP_REVERB_DISTANCE
+WGP_SELECT_MUTE
+WGP_WATER_DEPTH
+WGP_WEAPON_GAUGE
+WGP_WEAPON_VISIBLE
+# 2977497174
+
+### VARIABLE NAMES (Init.bnk)
+WSWG_RemainingArea
+WSWG_RemainingArea_Ratio
+WSWG_RemainingPlayer
+WSWG_RemainingPlayer_Ratio
+WSWG_Result_Rank
+# 3098216149
+# 2633573742
+# 974085620
+# 757770760
+# 2552688652
+# 3123293655
+# 3631167613
+# 4061413236
+# 3980241593
+# 2219369968
+# 546629239
+# 3368449987
+# 3295019768
+# 504613968
+# 4125219089
+# 3971579792
+# 1921025122
+# 3883947566
+# 1251822171
+# 2470713723
+# 1994996534
+# 529738567
+# 1372144872
+# 970085484
+# 1916429340
+# 2633454104
+# 4002759656
+# 1303832661
+# 1777800476
+# 3865062713
+# 2587258487
+# 1437104756
+# 2507492359
+# 3252904856
+# 1481595862
+# 1426938121
+# 2288806285
+# 392294285
+# 2336423495
+# 2953716644
+# 2639253316
+# 3543714938
+# 2062504493
+# 1583855341
+# 762763281
+# 867920627
+# 919856063
+# 669411094
+# 2303679466
+# 3640741155
+# 320098257
+# 2804224834
+
+### VALUE NAMES (Init.bnk)
+Alive
+Battle
+Battle_Finish
+Battle_Ready
+Begin
+Dead
+End
+End_Hide
+False
+Home_Main
+Intro
+Logo
+Matching
+NoEncount
+None
+Open
+Opening
+Title
+Training
+True
+Tutorial
+# 617721474
+# 3119661963
+
+### EVENT NAMES (WSB_CH_Hunter.bnk)
+WE_CH_H01_Move
+WE_CH_H02_Appear
+WE_CH_H02_BreakWeapon
+WE_CH_H02_Clap
+WE_CH_H02_DashATK_Kick
+WE_CH_H02_DashATK_Punch
+WE_CH_H02_Disappear
+WE_CH_H02_Hand_Hit
+WE_CH_H02_Headbutt_Ready_FX_In
+WE_CH_H02_Headbutt_Ready_FX_Out
+WE_CH_H02_Jump_In
+WE_CH_H02_Jump_Out
+WE_CH_H02_Jump_Out_FX
+WE_CH_H02_Move
+WE_CH_H02_Swing
+WE_CH_H02_WarpJumpATK_In
+WE_CH_H02_WarpJumpATK_Out
+WE_CH_H03_Attack_Finish_M
+WE_CH_H03_Attack_Finish_ShockWave
+WE_CH_H03_Attack_Jump
+WE_CH_H03_Attack_ShieldBreak
+WE_CH_H03_Attack_Skill1
+WE_CH_H03_Attack_Special
+WE_CH_H03_Attack_Stomp
+WE_CH_H03_Attack_Swing
+WE_CH_H03_Down_In
+WE_CH_H03_Down_Out
+WE_CH_H03_Drone_Bullet_Charge_In
+WE_CH_H03_Drone_Bullet_Charge_Out
+WE_CH_H03_Drone_Bullet_In
+WE_CH_H03_Drone_Bullet_Out
+WE_CH_H03_Drone_GetUp
+WE_CH_H03_Drone_Shot
+WE_CH_H03_Fly_In
+WE_CH_H03_Fly_Out
+WE_CH_H03_JumpAttack_Land_L
+WE_CH_H03_JumpAttack_Land_M
+WE_CH_H03_JumpAttack_Land_S
+WE_CH_H03_Morph_In
+WE_CH_H03_Morph_Out
+WE_CH_H03_Possession_In
+WE_CH_HC_Appear
+WE_CH_HC_Death
+WE_CH_HC_Disappear
+WE_CH_HC_DMG
+WE_CH_HC_Down
+WE_CH_HC_Explosion
+
+### RTPC/GAME-VARIABLE NAMES (WSB_CH_Hunter.bnk)
+WGP_OBJECT_DISTANCE
+
+### VARIABLE NAMES (WSB_CH_Hunter.bnk)
+# 4002759656
+
+### VALUE NAMES (WSB_CH_Hunter.bnk)
+True
+
+### EVENT NAMES (WSB_CH_Main.bnk)
+WE_CH_Main_Aim_In
+WE_CH_Main_Aim_Out
+WE_CH_Main_Avoid
+WE_CH_Main_Avoid_InFighter
+WE_CH_Main_Burst
+WE_CH_Main_Clap
+WE_CH_Main_Climb_In
+WE_CH_Main_Climb_Out
+WE_CH_Main_Climb_Walk
+WE_CH_Main_CoasterWarp
+WE_CH_Main_Crouch_In
+WE_CH_Main_Crouch_Out
+WE_CH_Main_Die
+WE_CH_Main_Die_Water_SeaSerpent
+WE_CH_Main_Disappear
+WE_CH_Main_DMG_A
+WE_CH_Main_DMG_B
+WE_CH_Main_DMG_C
+WE_CH_Main_DMG_D
+WE_CH_Main_DMG_Door
+WE_CH_Main_DMG_Electric_In
+WE_CH_Main_DMG_Electric_Out
+WE_CH_Main_DMG_GuardAttack
+WE_CH_Main_DMG_GuardBreak
+WE_CH_Main_DMG_Water
+WE_CH_Main_Down
+WE_CH_Main_Drink
+WE_CH_Main_DropKick
+WE_CH_Main_Eat
+WE_CH_Main_Emote_008_MX_In
+WE_CH_Main_Emote_008_MX_Out
+WE_CH_Main_Emote_010_MX_In
+WE_CH_Main_Emote_010_MX_Out
+WE_CH_Main_Emote_011_MX_In
+WE_CH_Main_Emote_011_MX_Out
+WE_CH_Main_Emote_012_MX_In
+WE_CH_Main_Emote_012_MX_Out
+WE_CH_Main_Emote_017_MX_In
+WE_CH_Main_Emote_017_MX_Out
+WE_CH_Main_Emote_024_MX_In
+WE_CH_Main_Emote_024_MX_Out
+WE_CH_Main_Emote_Camera_Flash
+WE_CH_Main_Emote_Death_Flash
+WE_CH_Main_Fall_In
+WE_CH_Main_Fall_Out
+WE_CH_Main_GetUp
+WE_CH_Main_Grasp
+WE_CH_Main_Guard
+WE_CH_Main_Guard_Impact
+WE_CH_Main_GuardBreak_Ready
+WE_CH_Main_Heatbeat_In
+WE_CH_Main_Heatbeat_Out
+WE_CH_Main_Hold_Sticky
+WE_CH_Main_HunterTrophy_In
+WE_CH_Main_HunterTrophy_Loop
+WE_CH_Main_HunterTrophy_Out
+WE_CH_Main_Jump
+WE_CH_Main_Jump_Hit
+WE_CH_Main_JumpAttack_Fall_In
+WE_CH_Main_JumpAttack_Fall_Out
+WE_CH_Main_JumpAttack_Land_L
+WE_CH_Main_JumpAttack_Land_M
+WE_CH_Main_JumpAttack_Land_S
+WE_CH_Main_Kick
+WE_CH_Main_Land
+WE_CH_Main_Land_Damage
+WE_CH_Main_LevelUp
+WE_CH_Main_LevelUp_Multi_In
+WE_CH_Main_LevelUp_Multi_Out
+WE_CH_Main_Move
+WE_CH_Main_Move_S
+WE_CH_Main_Punch_A
+WE_CH_Main_Punch_B
+WE_CH_Main_ReverseStrike_Hit
+WE_CH_Main_Run
+WE_CH_Main_Spawn
+WE_CH_Main_Squat_In
+WE_CH_Main_Squat_Out
+WE_CH_Main_Stair
+WE_CH_Main_Swim_In
+WE_CH_Main_Swim_Out
+WE_CH_Main_Tackle
+WE_CH_Main_Tap
+WE_CH_Main_Throw
+WE_CH_Main_Walk
+WE_CH_Main_Walk_Rain
+WE_CH_Main_WalkSoft
+WE_CH_Main_WallHit
+WE_CH_Main_Warp
+WE_CH_Main_Warp_Fade
+WE_CH_Main_Wet
+WE_CH_Main_Wilson_Land
+
+### SFX NAMES (WSB_CH_Main.bnk)
+WE_CH_Main_Jump_Hit_WGP_OBJECT_DISTANCE
+# 542145602
+# 716601227
+# 808888393
+# 1040449824
+# 175323507
+# 945191031
+# 607035877
+# 1031083233
+
+### RTPC/GAME-VARIABLE NAMES (WSB_CH_Main.bnk)
+WGP_MYCHARACTER
+WGP_OBJECT_DISTANCE
+WGP_PLAYER_WALK_SPEED
+
+### VARIABLE NAMES (WSB_CH_Main.bnk)
+WSWG_Costume
+WSWG_Material
+WSWG_Player_State_Wet
+WSWG_Player_Transform
+# 867920627
+# 546629239
+
+### VALUE NAMES (WSB_CH_Main.bnk)
+Armor
+Avoid
+Battle_Finish
+Battle_Ingame
+Battle_Ingame_Final
+Battle_Ready
+Bush
+Cloth
+Dash
+default
+Down
+Flesh
+grass
+Gravel
+Home_Main
+Hunter03
+Jog
+Jump
+Land
+Leather
+Logo
+Matching
+Metal
+Mud
+None
+Opening
+Prologue
+Sand
+Sky
+Slide
+Soil
+Stealth
+Stone
+Title
+Training
+True
+Tutorial
+Walk
+Water
+Wood
+# 973182163
+# 3853347175
+# 2267512122
+# 2350902364
+# 3119661963
+# 617721474
+
+### EVENT NAMES (WSB_CH_UMA.bnk)
+WE_CH_UMA_Common_Die_FX
+WE_CH_UMA_Jackalope_DMG
+WE_CH_UMA_Jackalope_Down
+WE_CH_UMA_Jackalope_Fall_Loop_In
+WE_CH_UMA_Jackalope_Fall_Loop_Out
+WE_CH_UMA_Jackalope_Groom
+WE_CH_UMA_Jackalope_Jump
+WE_CH_UMA_Jackalope_Land
+WE_CH_UMA_Jackalope_Stand
+WE_CH_UMA_Jackalope_Walk
+WE_CH_UMA_Jackalope_WalkSoft
+WE_CH_UMA_Skyfish_Die
+WE_CH_UMA_Skyfish_Dive
+WE_CH_UMA_Skyfish_Dive_Hit
+WE_CH_UMA_Skyfish_Dive_Loop_In
+WE_CH_UMA_Skyfish_Dive_Loop_Out
+WE_CH_UMA_Skyfish_DMG
+WE_CH_UMA_Skyfish_Down
+WE_CH_UMA_Skyfish_Down_Loop_In
+WE_CH_UMA_Skyfish_Down_Loop_Out
+WE_CH_UMA_Skyfish_Fall_Loop_In
+WE_CH_UMA_Skyfish_Fall_Loop_Out
+WE_CH_UMA_Skyfish_Fly_Loop_In
+WE_CH_UMA_Skyfish_Fly_Loop_Out
+WE_CH_UMA_Skyfish_Ready_Loop_In
+WE_CH_UMA_Skyfish_Ready_Loop_Out
+WE_CH_UMA_Skyfish_Rise
+WE_CH_UMA_Skyfish_Turn
+WE_CH_UMA_Tsuchinoko_Alarm_A_In
+WE_CH_UMA_Tsuchinoko_Alarm_A_Out
+WE_CH_UMA_Tsuchinoko_DMG
+WE_CH_UMA_Tsuchinoko_Down
+WE_CH_UMA_Tsuchinoko_Idle
+WE_CH_UMA_Tsuchinoko_Jump
+WE_CH_UMA_Tsuchinoko_Land
+WE_CH_UMA_Tsuchinoko_Lie
+WE_CH_UMA_Tsuchinoko_Run
+WE_CH_UMA_Tsuchinoko_Stand
+WE_CH_UMA_Tsuchinoko_Walk
+WE_CH_UMA_Wolf_Bite
+WE_CH_UMA_Wolf_Breath
+WE_CH_UMA_Wolf_Claw
+WE_CH_UMA_Wolf_DMG
+WE_CH_UMA_Wolf_Down
+WE_CH_UMA_Wolf_Drain
+WE_CH_UMA_Wolf_Jump
+WE_CH_UMA_Wolf_Land
+WE_CH_UMA_Wolf_Walk
+WE_CH_UMA_Wolf_WalkSoft
+WE_CH_UMA_Yeti_Dig
+WE_CH_UMA_Yeti_DMG_A
+WE_CH_UMA_Yeti_DMG_B
+WE_CH_UMA_Yeti_Down
+WE_CH_UMA_Yeti_Grab
+WE_CH_UMA_Yeti_Jump
+WE_CH_UMA_Yeti_Land
+WE_CH_UMA_Yeti_Rock_Hit
+WE_CH_UMA_Yeti_Swing
+WE_CH_UMA_Yeti_Tackle
+WE_CH_UMA_Yeti_Throw
+WE_CH_UMA_Yeti_Walk
+
+### VARIABLE NAMES (WSB_CH_UMA.bnk)
+WSWG_Material
+# 4002759656
+
+### VALUE NAMES (WSB_CH_UMA.bnk)
+Flesh
+grass
+Gravel
+Metal
+Mud
+Sand
+Sky
+Soil
+Stone
+True
+Water
+Wood
+# 973182163
+# 3853347175
+# 2267512122
+# 2350902364
+
+### EVENT NAMES (WSB_CS.bnk)
+WE_CS_Craft_Doll_Open
+WE_CS_Craft_Start
+WE_CS_Craft_VO_DOLL_010
+WE_CS_Craft_VO_DOLL_011
+WE_CS_Craft_VO_DOLL_012
+WE_CS_Craft_VO_DOLL_013
+WE_CS_Craft_VO_DOLL_014
+WE_CS_Craft_VO_DOLL_Complete
+WE_CS_Craft_VO_DOLL_Menu_In
+WE_CS_Craft_VO_DOLL_Menu_Out
+WE_CS_Ending_MX_Fanfare
+WE_CS_Ending_MX_In
+WE_CS_Ending_MX_Out
+WE_CS_Ending_SE_Applause
+WE_CS_Ending_SE_Fire_A
+WE_CS_Ending_SE_Fire_B
+WE_CS_Ending_SE_Walk_MCF
+WE_CS_Ending_SE_Walk_MCM
+WE_CS_Ending_VO_MCF
+WE_CS_Ending_VO_MCF_A
+WE_CS_Ending_VO_MCF_B
+WE_CS_Ending_VO_MCF_C
+WE_CS_Ending_VO_MCF_D
+WE_CS_Ending_VO_MCF_E
+WE_CS_Ending_VO_MCM
+WE_CS_Ending_VO_MCM_A
+WE_CS_Ending_VO_MCM_B
+WE_CS_Ending_VO_MCM_C
+WE_CS_Ending_VO_MCM_D
+WE_CS_Ending_VO_MCM_E
+WE_CS_Ending_VO_MCW_A
+WE_CS_Ending_VO_MCW_B
+WE_CS_Ending_VO_MCW_C
+WE_CS_Ending_VO_MCW_D
+WE_CS_Ending_VO_MCW_E
+WE_CS_Opening_MX_Fanfare
+WE_CS_Opening_MX_Studio_In
+WE_CS_Opening_MX_Studio_Out
+WE_CS_Opening_MX_Studio_Room_Out
+WE_CS_Opening_SE_Applause_In
+WE_CS_Opening_SE_Applause_Out
+WE_CS_Opening_SE_Gong
+WE_CS_Opening_SE_Taiko
+WE_CS_Opening_SE_Walk_MCF
+WE_CS_Opening_SE_Walk_MCM
+WE_CS_Opening_SE_Whoosh
+WE_CS_Opening_VO_MCF_0010_A
+WE_CS_Opening_VO_MCF_0010_B
+WE_CS_Opening_VO_MCF_0010_C
+WE_CS_Opening_VO_MCF_0020_A
+WE_CS_Opening_VO_MCF_0020_B
+WE_CS_Opening_VO_MCF_0020_C
+WE_CS_Opening_VO_MCF_0020_D
+WE_CS_Opening_VO_MCF_0020_E
+WE_CS_Opening_VO_MCF_0020_F
+WE_CS_Opening_VO_MCF_0020_G
+WE_CS_Opening_VO_MCM_0010_A
+WE_CS_Opening_VO_MCM_0010_B
+WE_CS_Opening_VO_MCM_0010_C
+WE_CS_Opening_VO_MCM_0020_A
+WE_CS_Opening_VO_MCM_0020_B
+WE_CS_Opening_VO_MCM_0020_C
+WE_CS_Opening_VO_MCM_0020_D
+WE_CS_Opening_VO_MCM_0020_E
+WE_CS_Opening_VO_MCM_0020_F
+WE_CS_Opening_VO_MCM_0020_G
+WE_CS_Prologue_MX_01
+WE_CS_Prologue_MX_01_Out
+WE_CS_Prologue_MX_02
+WE_CS_Prologue_SE_MCW_01_01
+WE_CS_Prologue_SE_MCW_01_02
+WE_CS_Prologue_SE_MCW_01_03
+WE_CS_Prologue_SE_MCW_01_04
+WE_CS_Prologue_SE_MCW_01_05
+WE_CS_Prologue_SE_MCW_01_06
+WE_CS_Prologue_SE_MCW_01_07
+WE_CS_Prologue_SE_MCW_02_01
+WE_CS_Prologue_SE_MCW_02_02
+WE_CS_Prologue_SE_MCW_02_03
+WE_CS_Prologue_SE_MCW_02_04
+WE_CS_Prologue_SE_MCW_02_05
+WE_CS_Prologue_SE_MCW_02_06
+WE_CS_Prologue_SE_MCW_02_07
+WE_CS_Prologue_SE_MCW_02_08
+WE_CS_Prologue_SE_MCW_02_09
+WE_CS_Prologue_SE_Walk_MCM
+WE_CS_Prologue_SE_Wilson_02_01
+WE_CS_Prologue_SE_Wilson_02_02
+WE_CS_Prologue_SE_Wilson_02_03
+WE_CS_Prologue_VO_MCM_0010
+WE_CS_Prologue_VO_MCM_0011
+WE_CS_Prologue_VO_MCM_0030
+WE_CS_Prologue_VO_MCM_0040
+WE_CS_Prologue_VO_MCM_0041
+WE_CS_Prologue_VO_MCM_0060
+WE_CS_Prologue_VO_MCM_0070
+WE_CS_Prologue_VO_MCM_0080
+WE_CS_Prologue_VO_MCM_0081
+WE_CS_Prologue_VO_MCM_0082
+WE_CS_Prologue_VO_MCM_0100
+WE_CS_Prologue_VO_MCM_0101
+WE_CS_Prologue_VO_MCM_0102
+WE_CS_Prologue_VO_MCM_0120
+WE_CS_Prologue_VO_MCW_0020
+WE_CS_Prologue_VO_MCW_0050
+WE_CS_Prologue_VO_MCW_0051
+WE_CS_Prologue_VO_MCW_0110
+WE_CS_Prologue_VO_MCW_0130
+WE_CS_Skip
+WE_CS_Special_VO_MCF
+WE_CS_Special_VO_MCM
+WE_CS_StarRank_CameraShutter
+WE_CS_StarRank_MX
+WE_CS_StarRank_MX_Out
+WE_CS_StarRank_Room_Down
+WE_CS_StarRank_Room_Up
+WE_CS_StarRank_SE
+WE_CS_StarRank_VO_MCW_010
+WE_CS_StarRank_VO_MCW_020
+WE_CS_Tutorial_Battle_Alarm
+WE_CS_Tutorial_Battle_In
+WE_CS_Tutorial_Battle_Machete_Swing
+WE_CS_Tutorial_Battle_MX
+WE_CS_Tutorial_Battle_Spawn
+WE_CS_Tutorial_End_SE_01
+WE_CS_Tutorial_End_SE_02
+WE_CS_Tutorial_End_SE_03
+WE_CS_Tutorial_End_SE_04
+WE_CS_Tutorial_MX
+WE_CS_Tutorial_SE_01
+WE_CS_Tutorial_SE_02
+WE_CS_Tutorial_SE_03
+WE_CS_Tutorial_SE_04
+WE_CS_Tutorial_SE_05
+WE_CS_Tutorial_ToHome_SE_01
+WE_CS_Tutorial_ToHome_SE_02
+WE_CS_Tutorial_ToHome_SE_03
+WE_CS_Tutorial_ToHome_SE_04
+WE_CS_Tutorial_ToHome_SE_05
+WE_CS_Tutorial_ToHome_SE_06
+WE_CS_Tutorial_ToHome_SE_07
+WE_CS_Tutorial_ToHome_SE_08
+WE_CS_Tutorial_ToHome_SE_09
+WE_CS_Tutorial_ToHome_SE_10
+WE_CS_Tutorial_ToHome_SE_11
+WE_CS_Tutorial_ToHome_SE_12
+WE_CS_Tutorial_ToHome_SE_13
+WE_CS_Tutorial_VO_MCW_010
+WE_CS_Tutorial_VO_MCW_011
+WE_CS_Tutorial_VO_MCW_020
+WE_CS_Tutorial_VO_MCW_030
+WE_CS_Tutorial_VO_MCW_031
+WE_CS_Tutorial_VO_MCW_040
+WE_CS_Tutorial_VO_MCW_050
+WE_CS_Tutorial_VO_MCW_060
+WE_CS_Tutorial_VO_MCW_070
+WE_CS_Tutorial_VO_MCW_080
+WE_CS_Tutorial_VO_MCW_090
+WE_CS_Tutorial_VO_MCW_100
+WE_CS_Tutorial_VO_MCW_110
+WE_CS_Tutorial_VO_MCW_120
+WE_CS_Tutorial_VO_MCW_130
+WE_CS_Tutorial_VO_MCW_140
+WE_CS_Tutorial_VO_MCW_150
+WE_CS_Tutorial_VO_MCW_160
+WE_CS_Tutorial_VO_MCW_170
+WE_CS_Tutorial_VO_MCW_180
+WE_CS_Tutorial_VO_MCW_190
+WE_CS_Tutorial_VO_MCW_200
+WE_CS_Tutorial_VO_MCW_210
+WE_CS_Tutorial_VO_MCW_220
+WE_CS_Tutorial_VO_MCW_230
+WE_CS_Tutorial_VO_MCW_240
+WE_CS_Tutorial_VO_MCW_250
+WE_CS_Tutorial_VO_MCW_260
+WE_CS_Tutorial_VO_MCW_270
+WE_CS_Tutorial_VO_MCW_280
+WE_CS_Tutorial_VO_MCW_290
+WE_CS_Tutorial_VO_MCW_300
+WE_CS_Tutorial_VO_MCW_310
+WE_CS_Tutorial_VO_MCW_320
+WE_CS_Tutorial_VO_MCW_330
+WE_CS_Tutorial_VO_MCW_340
+WE_CS_Tutorial_VO_MCW_350
+WE_CS_Tutorial_VO_MCW_360
+WE_CS_Tutorial_VO_MCW_370
+WE_CS_Tutorial_VO_MCW_380
+WE_CS_Tutorial_VO_MCW_390
+WE_CS_Tutorial_VO_MCW_400
+WE_CS_Tutorial_VO_MCW_410
+WE_CS_Tutorial_VO_MCW_420
+WE_CS_Tutorial_VO_MCW_430
+WE_CS_Tutorial_VO_MCW_440
+WE_CS_Tutorial_VO_MCW_450
+WE_CS_Tutorial_VO_MCW_460
+WE_CS_Tutorial_VO_MCW_470
+WE_CS_Tutorial_VO_MCW_Speak_In
+WE_CS_Tutorial_VO_MCW_Speak_Out
+
+### SFX NAMES (WSB_CS.bnk)
+# 679727898
+
+### RTPC/GAME-VARIABLE NAMES (WSB_CS.bnk)
+WGP_OPTION_MUSIC
+WGP_OPTION_SE
+WGP_OPTION_VOICE
+
+### VARIABLE NAMES (WSB_CS.bnk)
+# 867920627
+# 2303679466
+# 757770760
+# 2633573742
+# 546629239
+# 669411094
+# 256063015
+# 2288806285
+# 2440650591
+# 2219369968
+# 3123293655
+# 392294285
+
+### VALUE NAMES (WSB_CS.bnk)
+Battle
+Battle_Finish
+Battle_Ingame
+Battle_Ingame_Final
+Battle_Ready
+Begin
+Bronze
+Cup
+Eagle
+End
+Exhibition
+F01
+F02
+F03
+F04
+F05
+F06
+F07
+False
+Gimmick
+Gold
+Intro
+M01
+M02
+M03
+M04
+M05
+M06
+M07
+Move
+NoEncount
+None
+Open
+Platinum
+Rank
+Room
+Silver
+Title
+Training
+True
+# 617721474
+
+### EVENT NAMES (WSB_EV.bnk)
+WE_EV_Animal_Crane
+WE_EV_Animal_Eagle
+WE_EV_Animal_Flies
+WE_EV_Animal_Frog
+WE_EV_Animal_Mix
+WE_EV_Base
+WE_EV_Base_Basket
+WE_EV_Base_Cave
+WE_EV_Base_City
+WE_EV_Base_Dune
+WE_EV_Base_Island
+WE_EV_Base_Jungle
+WE_EV_Base_Nature
+WE_EV_Base_Out
+WE_EV_Base_Palace
+WE_EV_Base_Ruin
+WE_EV_Base_Rust
+WE_EV_Base_Trench
+WE_EV_Base_YetiNest
+WE_EV_Break_Metal
+WE_EV_Break_Wood
+WE_EV_Breakable_Box_Break
+WE_EV_Breakable_Box_Hit
+WE_EV_Breakable_Bridge_Break
+WE_EV_Breakable_Bridge_Hit
+WE_EV_Breakable_Fence_Break
+WE_EV_Breakable_Fence_Hit
+WE_EV_Breakable_Wall_Break
+WE_EV_Breakable_Wall_Hit
+WE_EV_Display_Noise
+WE_EV_Hit_Metal
+WE_EV_Hit_Window
+WE_EV_Hit_Wood
+WE_EV_Leaf_Rustle
+WE_EV_Meteor_Impact
+WE_EV_Palace_Antenna
+WE_EV_Water_Drip
+WE_EV_Water_Rain_Common_In
+WE_EV_Water_Rain_Common_Out
+WE_EV_Water_River_Jungle_L
+WE_EV_Water_River_Jungle_S
+WE_EV_Wind_Draft
+WE_EV_Wind_Inside_A
+WE_EV_Wind_Inside_B
+WE_EV_Wind_Jungle
+WE_EV_Wind_Outside_A
+WE_EV_Wind_Outside_B
+WE_EV_Wind_Roof
+
+### RTPC/GAME-VARIABLE NAMES (WSB_EV.bnk)
+WGP_OBJECT_DISTANCE
+WGP_PLAYER_HEIGHT_MYSELF
+WGP_RAIN_AMOUNT
+
+### VARIABLE NAMES (WSB_EV.bnk)
+# 2062504493
+# 867920627
+# 919856063
+
+### VALUE NAMES (WSB_EV.bnk)
+True
+
+### EVENT NAMES (WSB_FX.bnk)
+WE_FX_CounterHit
+WE_FX_SmokeBomb
+WE_FX_Wilson_CraftComplete
+
+### VARIABLE NAMES (WSB_FX.bnk)
+# 4002759656
+
+### VALUE NAMES (WSB_FX.bnk)
+True
+
+### EVENT NAMES (WSB_IT.bnk)
+WE_IT_Airbag_Appear
+WE_IT_Airbag_Disappear
+WE_IT_Airbag_Touch
+WE_IT_AntiShieldBomb_Explosion
+WE_IT_Attach
+WE_IT_Beep
+WE_IT_Box_Open
+WE_IT_Bush_Appear
+WE_IT_Bush_Disappear
+WE_IT_Bush_Land
+WE_IT_Bush_Move_In
+WE_IT_Bush_Move_Out
+WE_IT_Bush_Use
+WE_IT_Decoy_Appear
+WE_IT_Decoy_Disappear
+WE_IT_Decoy_Explosion
+WE_IT_Drop
+WE_IT_ElectricGrenade_Drop
+WE_IT_Explosion
+WE_IT_Explosion_Small
+WE_IT_FlashBomb_Explosion
+WE_IT_Hunter_BonusItem_In
+WE_IT_Hunter_BonusItem_Out
+WE_IT_Mushroom_Open
+WE_IT_OctagonWall_Break
+WE_IT_OctagonWall_In
+WE_IT_OctagonWall_Out
+WE_IT_Put
+WE_IT_Radar_Use
+WE_IT_Recovery
+WE_IT_Sheet
+WE_IT_Spirit_Get
+WE_IT_StealthCloak_In
+WE_IT_StealthCloak_Out
+WE_IT_Stick
+WE_IT_Trash
+WE_IT_WeaponBuff
+
+### RTPC/GAME-VARIABLE NAMES (WSB_IT.bnk)
+WGP_PLAYER_AIR_STATE
+WGP_PLAYER_STATE_BUSH
+
+### VARIABLE NAMES (WSB_IT.bnk)
+WSWG_Material
+# 546629239
+
+### VALUE NAMES (WSB_IT.bnk)
+Battle_Finish
+Flesh
+grass
+Gravel
+Metal
+Mud
+Sand
+Sky
+Soil
+Stone
+Water
+Wood
+# 973182163
+# 3853347175
+# 2267512122
+# 2350902364
+
+### EVENT NAMES (WSB_MX.bnk)
+WE_MX_Battle_Encount_In
+WE_MX_Battle_Encount_Out
+WE_MX_Battle_Final_In
+WE_MX_Battle_Final_Out
+WE_MX_Battle_Remaining_In
+WE_MX_Battle_Remaining_Out
+WE_MX_Battle_Remaining_Spectate_In
+WE_MX_Battle_Remaining_Spectate_Out
+WE_MX_Credit_In
+WE_MX_Credit_Out
+WE_MX_Home_In
+WE_MX_Home_Mute
+WE_MX_Home_Out
+WE_MX_Home_UnMute
+WE_MX_Hunter_Chase_In
+WE_MX_Hunter_Chase_Out
+WE_MX_Matching_In
+WE_MX_Matching_Out
+WE_MX_Player_Laugh_In
+WE_MX_Player_Laugh_Out
+WE_MX_Shop_In
+WE_MX_Shop_Out
+WE_MX_Title_In
+WE_MX_Title_Out
+WE_MX_Tutorial_In
+WE_MX_Tutorial_Out
+
+### VARIABLE NAMES (WSB_MX.bnk)
+WSWG_RemainingPlayer
+# 529738567
+# 757770760
+# 3865062713
+# 2336423495
+# 546629239
+# 867920627
+# 2062504493
+# 2633573742
+# 762763281
+# 392294285
+# 1481595862
+# 4125219089
+# 1916429340
+# 2633454104
+# 3123293655
+# 2552688652
+# 1426938121
+# 1994996534
+# 3252904856
+# 2507492359
+# 3368449987
+# 1251822171
+# 3971579792
+
+### VALUE NAMES (WSB_MX.bnk)
+Battle
+Battle_Finish
+Battle_Ingame
+Battle_Ingame_Final
+Battle_Ready
+False
+Gimmick
+H01
+H02
+H03
+H04
+H05
+Intro
+Matching
+Move
+NoEncount
+Open
+RemainingPlayer_01
+RemainingPlayer_02
+RemainingPlayer_03
+RemainingPlayer_04
+RemainingPlayer_05
+RemainingPlayer_06
+RemainingPlayer_07
+RemainingPlayer_08
+RemainingPlayer_09
+RemainingPlayer_10
+RemainingPlayer_11
+RemainingPlayer_12
+RemainingPlayer_13
+RemainingPlayer_14
+RemainingPlayer_15
+RemainingPlayer_16
+Title
+Training
+True
+Tutorial
+# 3119661963
+# 617721474
+
+### EVENT NAMES (WSB_PA.bnk)
+WE_PA_0020
+WE_PA_0030
+WE_PA_0072
+WE_PA_0090
+WE_PA_0100
+WE_PA_0140
+WE_PA_0141
+WE_PA_0150
+WE_PA_0160
+WE_PA_0190
+WE_PA_0200
+WE_PA_0240
+WE_PA_0250
+WE_PA_0260
+WE_PA_0270
+
+### VARIABLE NAMES (WSB_PA.bnk)
+WSWG_RemainingArea_Ratio
+WSWG_RemainingPlayer_Ratio
+# 4272014180
+# 961227189
+
+### VALUE NAMES (WSB_PA.bnk)
+High
+MCF
+MCM
+MCW
+Normal
+Slow
+# 2125522313
+# 259832468
+# 4069279927
+# 1747571374
+# 2592784585
+# 3017771472
+# 1437492707
+# 762103882
+# 2380252053
+# 1471239964
+# 757211790
+# 1366330126
+# 3904248181
+# 2292797078
+# 1021795743
+# 108655928
+# 127024913
+# 81718642
+# 269819723
+# 4139617012
+# 3866299533
+# 2357668497
+
+### EVENT NAMES (WSB_PBP.bnk)
+WE_PBP_0010
+WE_PBP_0011
+WE_PBP_0020
+WE_PBP_0021
+WE_PBP_0030
+WE_PBP_0040
+WE_PBP_0050
+WE_PBP_0060
+WE_PBP_0061
+WE_PBP_0070
+WE_PBP_0071
+WE_PBP_0080
+WE_PBP_0090
+WE_PBP_0100
+WE_PBP_0110
+WE_PBP_0120
+WE_PBP_0150
+WE_PBP_0170
+WE_PBP_0180
+WE_PBP_0190
+WE_PBP_0200
+WE_PBP_0210
+WE_PBP_0220
+WE_PBP_0230
+WE_PBP_0240
+WE_PBP_0270
+WE_PBP_0280
+WE_PBP_0290
+WE_PBP_0300
+WE_PBP_0310
+
+### SFX NAMES (WSB_PBP.bnk)
+Have_U_Ever_Been_Outside
+
+### VARIABLE NAMES (WSB_PBP.bnk)
+WSWG_RemainingArea
+WSWG_RemainingPlayer
+WSWG_Time
+# 4272014180
+# 961227189
+# 2669539759
+# 2312883210
+# 3226714332
+
+### VALUE NAMES (WSB_PBP.bnk)
+H01
+H02
+H03
+H04
+H05
+H06
+High
+Jackalope
+MCF
+MCF_A
+MCF_B
+MCF_C
+MCF_D
+MCF_E
+MCM
+MCM_A
+MCM_B
+MCM_C
+MCM_D
+MCM_E
+MCM_F
+MCW
+Normal
+Ra01
+Ra02
+Ra03
+Ra04
+Ra05
+Ra06
+Ra07
+Ra08
+RemainingPlayer_01
+RemainingPlayer_02
+RemainingPlayer_03
+RemainingPlayer_04
+RemainingPlayer_05
+RemainingPlayer_06
+RemainingPlayer_07
+RemainingPlayer_08
+RemainingPlayer_09
+RemainingPlayer_10
+RemainingPlayer_11
+RemainingPlayer_12
+RemainingPlayer_13
+RemainingPlayer_14
+RemainingPlayer_15
+RemainingPlayer_16
+Skyfish
+Slow
+T01
+T02
+T03
+T04
+T05
+T06
+T07
+T08
+T09
+T10
+T11
+T12
+T13
+T14
+T15
+T16
+T17
+T18
+T19
+T20
+T21
+T22
+T23
+T24
+T25
+T26
+T27
+T28
+T29
+T30
+Tsuchinoko
+TsuchinokoNa
+Wolf
+WolfNa
+Yeti
+
+### EVENT NAMES (WSB_PM.bnk)
+WE_PM_Hit_Arms_Beam_In
+WE_PM_Hit_Arms_Beam_Out
+WE_PM_Hit_Arms_Stab
+WE_PM_Hit_Arms_Swing
+WE_PM_Hit_Bow_Arrow
+WE_PM_Hit_CircleSaw_In
+WE_PM_Hit_CircleSaw_Out
+WE_PM_Hit_Gun_Bullet
+WE_PM_Hit_HammerMetal_Swing
+WE_PM_Hit_Hunter
+WE_PM_Hit_Kick
+WE_PM_Hit_Projectile
+WE_PM_Hit_Skyfish_Tackle
+WE_PM_Hit_SwordMetal_Stab
+WE_PM_Hit_SwordMetal_Swing
+WE_PM_Hit_Tsuchinoko_Bite
+WE_PM_Hit_TsuchinokoNA_Bite
+WE_PM_Hit_UMA
+WE_PM_Hit_Weapon
+WE_PM_Hit_Wolf_Bite
+WE_PM_Hit_Wolf_Claw
+WE_PM_Hit_WolfNA_Bite
+WE_PM_Hit_WolfNA_Claw
+WE_PM_Hit_Yeti_Rock
+WE_PM_Hit_Yeti_Swing
+WE_PM_Hit_Yeti_Tackle
+
+### SFX NAMES (WSB_PM.bnk)
+# 494787703
+# 101693208
+# 478361636
+# 879995917
+# 1050451505
+# 455868470
+# 481212844
+# 602342092
+# 98468576
+# 903305259
+# 382276737
+
+### RTPC/GAME-VARIABLE NAMES (WSB_PM.bnk)
+WGP_OBJECT_DISTANCE
+WGP_PLAYER_HIT_OWNER
+
+### VARIABLE NAMES (WSB_PM.bnk)
+WSWG_Material
+# 2614828876
+# 2312883210
+# 2669539759
+# 1818296245
+# 3123105572
+# 546629239
+# 4002759656
+
+### VALUE NAMES (WSB_PM.bnk)
+AirBurstGrenade
+AntiShieldBomb_Bound
+Arms
+Arrow
+AssaultRifleBullet
+Battle_Finish
+Beam_In
+Beam_Out
+Bite
+Bomb
+BombDecoy_Bound
+Bullet
+Circle_Saw
+CircleSaw_Skill02
+Claw
+default
+DelayBomb_Bound
+FlashBomb_Bound
+Flesh
+grass
+Gravel
+Grenade
+H01
+H02
+H03
+H04
+H05
+H06
+Hammer
+Hammer_SP02
+Hand
+Hunter03Bullet
+in
+Jackalope
+Katana
+Knife
+Matchet
+Metal
+Mud
+Out
+Rock
+Sand
+Sickle
+Sky
+Skyfish
+SniperRifleBullet
+Soil
+Spear
+Stab
+Stone
+Swing
+Tackle
+True
+Tsuchinoko
+TsuchinokoNa
+Water
+WilsonBullet
+Wolf
+WolfNa
+Wood
+Yeti
+# 973182163
+# 3853347175
+# 2267512122
+# 2350902364
+
+### EVENT NAMES (WSB_ST.bnk)
+WE_ST_Door_Common
+WE_ST_HunterTrap_Laser_In
+WE_ST_HunterTrap_Laser_Out
+WE_ST_HunterTrap_Launch
+WE_ST_HunterTrap_Spawn
+WE_ST_Mashroom_Common_Spawn
+WE_ST_Material_Get
+WE_ST_Place_Inside
+WE_ST_Place_Outside
+WE_ST_PowerPod_BreakPod
+WE_ST_PowerPod_GetPower
+WE_ST_PowerPod_Lever_Pull
+WE_ST_PowerPod_Lever_Push
+WE_ST_PowerPod_Progress_In
+WE_ST_PowerPod_Progress_Out
+WE_ST_PowerPod_Warp_Disappear
+WE_ST_PowerPod_Warp_Spawn
+
+### RTPC/GAME-VARIABLE NAMES (WSB_ST.bnk)
+WGP_OBJECT_DISTANCE
+
+### VARIABLE NAMES (WSB_ST.bnk)
+WSWG_DoorState
+# 4061413236
+# 1240000792
+# 2953716644
+
+### VALUE NAMES (WSB_ST.bnk)
+Close
+EXStage
+Inside
+Open
+True
+UpSlide
+UpSlide_L
+# 1821034777
+
+### EVENT NAMES (WSB_SY.bnk)
+WE_SY_Attack_Up
+WE_SY_Battle_Finish
+WE_SY_Battle_Finish_Fadeout
+WE_SY_Battle_Leave
+WE_SY_BGM_AllStop_1000ms
+WE_SY_Blind_In
+WE_SY_Blind_Out
+WE_SY_Cancel
+WE_SY_Challenge_Complete
+WE_SY_CharaCreate_Confirm
+WE_SY_CharaCreate_In
+WE_SY_CharaCreate_Out
+WE_SY_CharaCreate_Zoom_In
+WE_SY_CharaCreate_Zoom_Out
+WE_SY_Close
+WE_SY_Coin_Count_In
+WE_SY_Coin_Count_Out
+WE_SY_Config_HUD_Off
+WE_SY_Config_HUD_On
+WE_SY_Config_Voice_Volume_Change
+WE_SY_ContaminatedArea_Alarm
+WE_SY_ContaminatedArea_Countdown
+WE_SY_ContaminatedArea_In
+WE_SY_ContaminatedArea_Out
+WE_SY_CoolTime_End
+WE_SY_Countdown_0
+WE_SY_Countdown_1
+WE_SY_Countdown_2
+WE_SY_Countdown_3
+WE_SY_Countdown_All
+WE_SY_Craft_Doll_Close
+WE_SY_Craft_Doll_Open
+WE_SY_Craft_Material_Complete
+WE_SY_Craft_Skin_Complete
+WE_SY_Craft_Weapon_Complete
+WE_SY_Craft_WeaponSkin_Complete
+WE_SY_Craft_WilsonSkin_Complete
+WE_SY_Critical_In
+WE_SY_Critical_Out
+WE_SY_DailyChallenge_Close
+WE_SY_DailyChallenge_Open
+WE_SY_Die
+WE_SY_Emote_Menu_Decision
+WE_SY_Emote_Menu_In
+WE_SY_Emote_Menu_Out
+WE_SY_Emote_Menu_Select
+WE_SY_Equip_Body
+WE_SY_Equip_FacePaint
+WE_SY_Equip_Head_Off
+WE_SY_Equip_Head_On
+WE_SY_Equip_ShieldSkin
+WE_SY_Equip_WeaponSkin
+WE_SY_Equip_WilsonSkin
+WE_SY_FinalBattle_Cheer
+WE_SY_FinalBattle_Warp
+WE_SY_FirstKill
+WE_SY_GameMode_Hunter_Info
+WE_SY_GameMode_Page_Change
+WE_SY_GameOver
+WE_SY_GameStart
+WE_SY_Get
+WE_SY_Get_Bullet
+WE_SY_Get_CraftMaterial
+WE_SY_GP_Bravo
+WE_SY_GP_Brilliant
+WE_SY_GP_Count_In
+WE_SY_GP_Count_Out
+WE_SY_GP_Excellent
+WE_SY_GP_Fireworks
+WE_SY_GP_Good
+WE_SY_GP_Great
+WE_SY_GP_Perk
+WE_SY_Hallucination_In
+WE_SY_Hallucination_Out
+WE_SY_Help_Close
+WE_SY_Help_New
+WE_SY_Help_Open
+WE_SY_Help_Page
+WE_SY_Home_In
+WE_SY_Home_Out
+WE_SY_Hunter_Chase_In
+WE_SY_Hunter_Chase_Out
+WE_SY_Hunter_Intro
+WE_SY_Hunter_Trap_Touch
+WE_SY_HunterDropItem
+WE_SY_Info
+WE_SY_Interact
+WE_SY_Item_Charged
+WE_SY_Item_On
+WE_SY_KillLog
+WE_SY_LevelUp_Skill
+WE_SY_Limit_Up
+WE_SY_LoginBonus_Check
+WE_SY_LoginBonus_Open
+WE_SY_Logo_In
+WE_SY_Logo_Out
+WE_SY_Map
+WE_SY_Marker
+WE_SY_Matching_Complete
+WE_SY_Matching_Search_Cancel
+WE_SY_NG
+WE_SY_Notice
+WE_SY_Notice_FinalArea_Close
+WE_SY_Notice_FinalArea_Go
+WE_SY_Notice_FinalArea_Open
+WE_SY_Notice_HazardArea_Caution
+WE_SY_Notice_HazardArea_In
+WE_SY_Notice_HazardArea_Progress
+WE_SY_Notice_Hunter_Attack
+WE_SY_Notice_Hunter_Drop
+WE_SY_Notice_Hunter_Target
+WE_SY_OK
+WE_SY_OK_Final
+WE_SY_OK_Sub
+WE_SY_Open_In
+WE_SY_Open_Out
+WE_SY_OptionMenu_In
+WE_SY_OptionMenu_Out
+WE_SY_Play
+WE_SY_PlayerDie_Myself
+WE_SY_PlayerDie_Opponent
+WE_SY_PopUp
+WE_SY_PrizeBox_01_In
+WE_SY_PrizeBox_01_Out
+WE_SY_PrizeBox_02_In
+WE_SY_PrizeBox_02_Out
+WE_SY_PrizeBox_03_In
+WE_SY_PrizeBox_03_Out
+WE_SY_PrizeBox_In
+WE_SY_PrizeBox_Out
+WE_SY_Radar_In
+WE_SY_Radar_Out
+WE_SY_Recover
+WE_SY_Result_Challenge_Success
+WE_SY_Result_Count_Coin
+WE_SY_Result_Count_Level
+WE_SY_Result_GaugeDown_Rank_In
+WE_SY_Result_GaugeDown_Rank_Out
+WE_SY_Result_GaugeUp_Player_In
+WE_SY_Result_GaugeUp_Player_Out
+WE_SY_Result_GaugeUp_Rank_In
+WE_SY_Result_GaugeUp_Rank_Out
+WE_SY_Result_GaugeUp_Season_In
+WE_SY_Result_GaugeUp_Season_Out
+WE_SY_Result_GaugeUp_Weapon_In
+WE_SY_Result_GaugeUp_Weapon_Out
+WE_SY_Result_GP_Rank
+WE_SY_Result_GP_Rank_Out
+WE_SY_Result_In
+WE_SY_Result_LevelUp_Player
+WE_SY_Result_LevelUp_Season
+WE_SY_Result_LevelUp_Weapon
+WE_SY_Result_Out
+WE_SY_Result_PopUp_Get
+WE_SY_Result_PopUp_RankDown
+WE_SY_Result_PopUp_RankUp
+WE_SY_Result_Rank
+WE_SY_Result_Rank_Down
+WE_SY_Result_Rank_Up
+WE_SY_Result_TreasureBox
+WE_SY_Reward_Delete
+WE_SY_Reward_Get
+WE_SY_SE_AllStop
+WE_SY_Season_LevelUp
+WE_SY_Select
+WE_SY_Select_Category
+WE_SY_Select_Miss
+WE_SY_Select_Page
+WE_SY_Select_Slider
+WE_SY_Select_Subcategory
+WE_SY_Select_Tab
+WE_SY_ShieldGauge_Max
+WE_SY_Shop_Buy
+WE_SY_Shop_Coin
+WE_SY_Shop_In
+WE_SY_Shop_Out
+WE_SY_Skill_CoolTime_End
+WE_SY_Skill_Gauge_Full
+WE_SY_Skill_Get
+WE_SY_Skill_Mode_In
+WE_SY_Skill_Mode_Out
+WE_SY_SmackDownZone_Close_Count
+WE_SY_SmackDownZone_In
+WE_SY_SmackDownZone_Out
+WE_SY_Sound_AllStop
+WE_SY_SpecialGame_Emblem
+WE_SY_SpecialGame_NiceVote
+WE_SY_Spectate_Camera_Zoom_In
+WE_SY_Spectate_Camera_Zoom_Out
+WE_SY_Spectate_Change_Camera
+WE_SY_Spectate_Change_Fighter
+WE_SY_Spectate_In
+WE_SY_Spectate_Out
+WE_SY_Status_Menu_Close
+WE_SY_Status_Menu_Open
+WE_SY_SystemMessage_Close
+WE_SY_SystemMessage_Open
+WE_SY_TimeUp
+WE_SY_Tips_Change
+WE_SY_Title_In
+WE_SY_Title_Out
+WE_SY_Training_In
+WE_SY_Training_Out
+WE_SY_Tutorial_In
+WE_SY_Tutorial_Out
+WE_SY_Tutorial_Success
+WE_SY_Tutorial_Tips
+WE_SY_Victory
+WE_SY_Voltage_Fever_In
+WE_SY_Voltage_Fever_Out
+WE_SY_Warning
+WE_SY_Wipe_In
+WE_SY_Wipe_Out
+
+### SFX NAMES (WSB_SY.bnk)
+# 381574871
+# 907970797
+
+### RTPC/GAME-VARIABLE NAMES (WSB_SY.bnk)
+WGP_MYCHARACTER
+WGP_SELECT_MUTE
+# 484768881
+# 37746658
+# 47902222
+
+### VARIABLE NAMES (WSB_SY.bnk)
+WSWG_Costume
+WSWG_Result_GP_Rank
+WSWG_Result_Rank
+# 2336423495
+# 1916429340
+# 3723512359
+# 546629239
+# 4254240296
+# 2062504493
+# 2804224834
+# 529738567
+# 3971579792
+# 4002759656
+# 2507492359
+# 3543714938
+# 762763281
+# 867920627
+
+### VALUE NAMES (WSB_SY.bnk)
+Amazing
+Armor
+Bad
+Battle_Finish
+Brilliant
+Cloth
+False
+Good
+L
+Leather
+M
+Metal
+Rank01
+Rank02
+Rank03
+Rank04
+Rank05
+Rank06
+Rank07
+Rank08
+Rank09
+Rank10
+Rank11
+Rank12
+Rank13
+Rank14
+Rank15
+Rank16
+S
+Time_00
+Time_01
+Time_02
+Time_03
+Time_04
+Time_05
+Time_06
+Time_07
+Time_08
+Time_09
+Time_10
+Time_11
+Time_12
+Time_13
+Time_14
+Time_15
+Time_16
+Time_17
+Time_18
+Time_19
+Title
+True
+Wood
+# 617721474
+# 1922791313
+# 745954867
+# 745954866
+# 745954865
+# 745954864
+# 745954871
+# 745954870
+# 745954869
+# 745954868
+# 745954875
+# 745954874
+# 729177152
+
+### EVENT NAMES (WSB_Test.bnk)
+WE_Bus_CH_Mute
+WE_Bus_CH_UnMute
+WE_Bus_EV_Mute
+WE_Bus_EV_UnMute
+WE_Bus_Master_Mute
+WE_Bus_Master_UnMute
+WE_Bus_MX_Mute
+WE_Bus_MX_UnMute
+WE_Bus_PBP_Mute
+WE_Bus_PBP_UnMute
+WE_Bus_SE_Mute
+WE_Bus_SE_UnMute
+WE_Bus_ST_Mute
+WE_Bus_ST_UnMute
+WE_Bus_SY_Mute
+WE_Bus_SY_UnMute
+WE_Bus_VO_Mute
+WE_Bus_VO_UnMute
+WE_Debug_Emitter_In
+WE_Debug_Emitter_Out
+WE_Test_Loop_Sine_Wave
+WE_Test_Loop_VO
+WE_Test_Loop_Walk
+WE_Test_Loop_WP
+WE_Test_LR_SoundCheck
+WE_Test_Radio
+
+### EVENT NAMES (WSB_VO_Hunter.bnk)
+WE_VO_H01_Breath_A
+WE_VO_H01_Breath_B
+WE_VO_H01_Finish
+WE_VO_H01_Laugh_A
+WE_VO_H01_Laugh_B
+WE_VO_H01_Pose_A
+WE_VO_H01_Pose_B
+WE_VO_H01_Pose_C
+WE_VO_H01_Pose_D
+WE_VO_H01_Shoot_A
+WE_VO_H01_Shoot_B
+WE_VO_H01_Shoot_C
+WE_VO_H01_Shoot_D
+WE_VO_H01_Through
+WE_VO_H02_ATK_B
+WE_VO_H02_ATK_C
+WE_VO_H02_ATK_D
+WE_VO_H02_ATK_E
+WE_VO_H02_Breath_A
+WE_VO_H02_Breath_B
+WE_VO_H02_Breath_C
+WE_VO_H02_Breath_D
+WE_VO_H02_Caution
+WE_VO_H02_Climb
+WE_VO_H02_Crazy
+WE_VO_H02_Dash
+WE_VO_H02_DMG_A
+WE_VO_H02_DMG_B
+WE_VO_H02_DMG_C
+WE_VO_H02_DMG_D
+WE_VO_H02_Finish_A
+WE_VO_H02_Finish_B
+WE_VO_H02_Finish_C
+WE_VO_H02_Jump_A
+WE_VO_H02_Jump_B
+WE_VO_H02_Jump_C
+WE_VO_H02_Land_A
+WE_VO_H02_Land_B
+WE_VO_H02_Land_C
+WE_VO_H02_Laugh
+WE_VO_H02_Lost
+WE_VO_H02_Run
+WE_VO_H02_Search
+WE_VO_H02_SearchWalk
+WE_VO_H02_Walk
+WE_VO_H03_F_ATK
+WE_VO_H03_F_ATK_Chome_M
+WE_VO_H03_F_ATK_Chome_X
+WE_VO_H03_F_ATK_Chome_Y
+WE_VO_H03_F_ATK_Chome_Z
+WE_VO_H03_F_ATK_M
+WE_VO_H03_F_ATK_M_Chome
+WE_VO_H03_F_ATK_X
+WE_VO_H03_F_ATK_X_Chome
+WE_VO_H03_F_ATK_Y
+WE_VO_H03_F_ATK_Y_Chome
+WE_VO_H03_F_ATK_Z_Chome
+WE_VO_H03_F_Beam
+WE_VO_H03_F_Chome
+WE_VO_H03_F_Die
+WE_VO_H03_M_ATK
+WE_VO_H03_M_ATK_M
+WE_VO_H03_M_ATK_Q
+WE_VO_H03_M_ATK_X
+WE_VO_H03_M_ATK_Z
+WE_VO_H03_M_DMG_A
+WE_VO_H03_M_DMG_B
+WE_VO_H03_M_Eat
+WE_VO_H03_M_Fly_A
+WE_VO_H03_M_Fly_B
+WE_VO_H03_M_Fly_C
+WE_VO_H03_M_Fly_D
+WE_VO_H03_M_Fly_Out
+WE_VO_H03_M_Possession
+WE_VO_H03_M_Sign
+WE_VO_H03_M_Transform
+WE_VO_HC_All_Out
+WE_VO_HC_REQUIEM
+
+### RTPC/GAME-VARIABLE NAMES (WSB_VO_Hunter.bnk)
+WGP_OBJECT_DISTANCE
+
+### EVENT NAMES (WSB_VO_Main.bnk)
+WE_VO_Main_Angry
+WE_VO_Main_ATK_A
+WE_VO_Main_ATK_B
+WE_VO_Main_ATK_C
+WE_VO_Main_ATK_D
+WE_VO_Main_ATK_E
+WE_VO_Main_Blue
+WE_VO_Main_Breath_A
+WE_VO_Main_Breath_B
+WE_VO_Main_Breath_C
+WE_VO_Main_Breath_D
+WE_VO_Main_Bye
+WE_VO_Main_Charge_A
+WE_VO_Main_Charge_B
+WE_VO_Main_Climb
+WE_VO_Main_ComeOn
+WE_VO_Main_Die_A
+WE_VO_Main_Die_B
+WE_VO_Main_Die_C
+WE_VO_Main_Die_D
+WE_VO_Main_Die_E
+WE_VO_Main_Die_Out
+WE_VO_Main_Die_TimeOver
+WE_VO_Main_DMG_A
+WE_VO_Main_DMG_B
+WE_VO_Main_DMG_C
+WE_VO_Main_DMG_D
+WE_VO_Main_DMG_E
+WE_VO_Main_DMG_F
+WE_VO_Main_DMG_F_In
+WE_VO_Main_DMG_F_Out
+WE_VO_Main_DMG_G
+WE_VO_Main_DMG_H
+WE_VO_Main_DMG_H_In
+WE_VO_Main_DMG_H_Out
+WE_VO_Main_DMG_I
+WE_VO_Main_DMG_J
+WE_VO_Main_Eat
+WE_VO_Main_Emote_All_Out
+WE_VO_Main_Fall
+WE_VO_Main_Glad
+WE_VO_Main_Hum
+WE_VO_Main_Jump_A
+WE_VO_Main_Jump_B
+WE_VO_Main_Jump_C
+WE_VO_Main_JumpAttack
+WE_VO_Main_KillLog
+WE_VO_Main_Land_A
+WE_VO_Main_Land_B
+WE_VO_Main_Land_C
+WE_VO_Main_Laugh_A
+WE_VO_Main_Laugh_B
+WE_VO_Main_Laugh_Mushroom
+WE_VO_Main_Laugh_Mushroom_In
+WE_VO_Main_Laugh_Mushroom_Out
+WE_VO_Main_Provoke
+WE_VO_Main_Run_In
+WE_VO_Main_Run_Out
+WE_VO_Main_Sleep
+WE_VO_Main_Sorry
+WE_VO_Main_Stagger_A
+WE_VO_Main_Stagger_B
+WE_VO_Main_Swim_In
+WE_VO_Main_Swim_Out
+WE_VO_Main_Vomit
+WE_VO_Main_Whistle
+
+### SFX NAMES (WSB_VO_Main.bnk)
+# 198608053
+# 194860510
+# 34340780
+# 753068460
+# 255985352
+# 631610104
+# 16671092
+# 678051243
+# 206795689
+# 645356890
+# 468436002
+# 999354194
+
+### RTPC/GAME-VARIABLE NAMES (WSB_VO_Main.bnk)
+WGP_MYCHARACTER
+WGP_OBJECT_DISTANCE
+WGP_PLAYER_STAMINA
+WGP_PLAYER_STATE_LAUGH
+
+### VARIABLE NAMES (WSB_VO_Main.bnk)
+WSWG_Player_Transform
+# 3825896238
+# 546629239
+# 2510134678
+# 2776928964
+
+### VALUE NAMES (WSB_VO_Main.bnk)
+Battle_Finish
+Battle_Ingame
+Battle_Ingame_Final
+Battle_Ready
+Bush
+default
+F01
+F02
+F03
+F04
+False
+Home_Main
+Hunter03
+Kill
+Logo
+M01
+M02
+M03
+M04
+Matching
+None
+Opening
+Prologue
+S01
+Stealth
+TimeOver
+Title
+Training
+True
+Tutorial
+WaterDeath
+# 3119661963
+# 617721474
+# 1260183542
+# 398723528
+# 1087733272
+
+### EVENT NAMES (WSB_VO_Preview.bnk)
+WE_VO_Preview_A
+WE_VO_Preview_B
+WE_VO_Preview_C
+WE_VO_Preview_D
+WE_VO_Preview_E
+
+### VARIABLE NAMES (WSB_VO_Preview.bnk)
+# 3825896238
+
+### VALUE NAMES (WSB_VO_Preview.bnk)
+F01
+F02
+F03
+F04
+M01
+M02
+M03
+M04
+S01
+
+### EVENT NAMES (WSB_VO_UMA.bnk)
+WE_VO_UMA_Jackalope_Die
+WE_VO_UMA_Jackalope_DMG
+WE_VO_UMA_Jackalope_Neutral
+WE_VO_UMA_Jackalope_Purr
+WE_VO_UMA_Jackalope_Purr_Loop_In
+WE_VO_UMA_Jackalope_Purr_Loop_Out
+WE_VO_UMA_Jackalope_Sniff
+WE_VO_UMA_Skyfish_Die
+WE_VO_UMA_Skyfish_Dive
+WE_VO_UMA_Skyfish_DMG
+WE_VO_UMA_Skyfish_Down
+WE_VO_UMA_Skyfish_Neutral
+WE_VO_UMA_Tsuchinoko_ATK
+WE_VO_UMA_Tsuchinoko_Die
+WE_VO_UMA_Tsuchinoko_DMG
+WE_VO_UMA_Tsuchinoko_Howling_In
+WE_VO_UMA_Tsuchinoko_Howling_Out
+WE_VO_UMA_Tsuchinoko_Threatening_In
+WE_VO_UMA_Tsuchinoko_Threatening_Out
+WE_VO_UMA_Wolf_ATK
+WE_VO_UMA_Wolf_Bite
+WE_VO_UMA_Wolf_Claw
+WE_VO_UMA_Wolf_Die
+WE_VO_UMA_Wolf_DMG
+WE_VO_UMA_Wolf_Growl
+WE_VO_UMA_Wolf_Jog_In
+WE_VO_UMA_Wolf_Jog_Out
+WE_VO_UMA_Wolf_Neutral
+WE_VO_UMA_Wolf_Run_In
+WE_VO_UMA_Wolf_Run_Out
+WE_VO_UMA_Wolf_Sniff
+WE_VO_UMA_Wolf_Threat
+WE_VO_UMA_Wolf_Walk_In
+WE_VO_UMA_Wolf_Walk_Out
+WE_VO_UMA_Yeti_ATK
+WE_VO_UMA_Yeti_Breath
+WE_VO_UMA_Yeti_Die_Sit
+WE_VO_UMA_Yeti_Die_Stand
+WE_VO_UMA_Yeti_DMG
+WE_VO_UMA_Yeti_Neutral
+WE_VO_UMA_Yeti_Relax
+WE_VO_UMA_Yeti_Sit
+
+### VARIABLE NAMES (WSB_VO_UMA.bnk)
+# 2669539759
+
+### VALUE NAMES (WSB_VO_UMA.bnk)
+Jackalope
+Skyfish
+Tsuchinoko
+TsuchinokoNa
+Wolf
+WolfNa
+Yeti
+
+### EVENT NAMES (WSB_VO_Wilson.bnk)
+WE_VO_Wilson_Charge_Complete
+WE_VO_Wilson_Closet_Complete
+WE_VO_Wilson_Closet_DB
+WE_VO_Wilson_Closet_Skill
+WE_VO_Wilson_Closet_WP
+WE_VO_Wilson_DB_A
+WE_VO_Wilson_DB_B
+WE_VO_Wilson_DB_C
+WE_VO_Wilson_Get_Skill
+WE_VO_Wilson_LevelUp
+WE_VO_Wilson_NG_Dash
+WE_VO_Wilson_NG_Scan
+WE_VO_Wilson_NG_Shield
+WE_VO_Wilson_NG_Skill
+WE_VO_Wilson_Panic_In
+WE_VO_Wilson_Panic_Out
+WE_VO_Wilson_Scan
+WE_VO_Wilson_ShieldBreak
+WE_VO_Wilson_Shot
+WE_VO_Wilson_Skill_A
+WE_VO_Wilson_Skill_B
+WE_VO_Wilson_Skill_C
+WE_VO_Wilson_Skill_D
+WE_VO_Wilson_Skill_E
+WE_VO_Wilson_Skill_F
+WE_VO_Wilson_Skill_G
+WE_VO_Wilson_Skill_H
+WE_VO_Wilson_Syncope
+
+### RTPC/GAME-VARIABLE NAMES (WSB_VO_Wilson.bnk)
+WGP_OBJECT_DISTANCE
+
+### EVENT NAMES (WSB_WP.bnk)
+WE_WP_AirBurst_Failure
+WE_WP_AirBurst_Reload_A
+WE_WP_AirBurst_Reload_B
+WE_WP_AirBurst_Shot_A
+WE_WP_AirBurst_Shot_B
+WE_WP_Arms_Finish_Electric
+WE_WP_Arms_Impact_A
+WE_WP_Arms_Impact_B
+WE_WP_Arms_Impact_Electric
+WE_WP_Arms_SetUp_Swing
+WE_WP_Arms_Skill1
+WE_WP_Arms_Skill2_Mine_Explosion
+WE_WP_Arms_Skill2_Mine_In
+WE_WP_Arms_Skill2_Mine_Out
+WE_WP_Arms_Skill2_Push
+WE_WP_Arms_Skill2_Spark
+WE_WP_Arms_SP01_Shot
+WE_WP_Arms_SP02_Beam
+WE_WP_Arms_SP03_Charge
+WE_WP_Arms_SP03_Impact
+WE_WP_Arms_SP05
+WE_WP_Arms_SP05_Fly
+WE_WP_Arms_SP1
+WE_WP_Arms_SP2
+WE_WP_Arms_SP3
+WE_WP_Arms_SP4
+WE_WP_Arms_Swing_A
+WE_WP_Arms_Swing_B
+WE_WP_Arms_Swing_Electric
+WE_WP_AssaultRifle_Aim_In
+WE_WP_AssaultRifle_Aim_Out
+WE_WP_AssaultRifle_Failure
+WE_WP_AssaultRifle_Reload_A
+WE_WP_AssaultRifle_Reload_B
+WE_WP_AssaultRifle_Shot
+WE_WP_Bare_GuardBreak
+WE_WP_Bare_Kick
+WE_WP_Bare_Punch_A
+WE_WP_Bare_Punch_B
+WE_WP_Bare_Tackle
+WE_WP_Bow_Failure
+WE_WP_Bow_Shot_A
+WE_WP_Bow_Shot_B
+WE_WP_Carbine_Pull
+WE_WP_Carbine_Reload_A
+WE_WP_Carbine_Reload_B
+WE_WP_Carbine_Shot_A
+WE_WP_Carbine_Shot_B
+WE_WP_CircleSaw_Finish_DMG_In
+WE_WP_CircleSaw_Finish_DMG_Out
+WE_WP_CircleSaw_Finish_Hit
+WE_WP_CircleSaw_Motor_In
+WE_WP_CircleSaw_Motor_Out
+WE_WP_CircleSaw_Motor_Short
+WE_WP_CircleSaw_SetUp_Motor
+WE_WP_CircleSaw_Skill01_Jump
+WE_WP_CircleSaw_Skill01_Motor_In
+WE_WP_CircleSaw_Skill01_Motor_Out
+WE_WP_CircleSaw_Skill2_FX_In
+WE_WP_CircleSaw_Skill2_FX_Out
+WE_WP_CircleSaw_SP01
+WE_WP_CircleSaw_SP01_Shot
+WE_WP_CircleSaw_SP01_Swing
+WE_WP_CircleSaw_SP02
+WE_WP_CircleSaw_SP02_Put
+WE_WP_CircleSaw_SP02_Shot
+WE_WP_CircleSaw_SP03
+WE_WP_CircleSaw_SP03_Shot
+WE_WP_CircleSaw_SP05
+WE_WP_CircleSaw_SP05_Get_Off
+WE_WP_CircleSaw_SP05_Get_On
+WE_WP_CircleSaw_SP05_Motor_In
+WE_WP_CircleSaw_SP05_Motor_Out
+WE_WP_CircleSaw_SP05_Water_In
+WE_WP_CircleSaw_SP05_Water_Out
+WE_WP_CircleSaw_SP1_Bullet_In
+WE_WP_CircleSaw_SP1_Bullet_Out
+WE_WP_CircleSaw_SP2_Bullet_In
+WE_WP_CircleSaw_SP2_Bullet_Out
+WE_WP_CircleSaw_SP2_Explosion
+WE_WP_CircleSaw_SP3_Bullet_In
+WE_WP_CircleSaw_SP3_Bullet_Out
+WE_WP_CircleSaw_SP3_Explosion
+WE_WP_CircleSaw_SP4
+WE_WP_CircleSaw_SP4_Swing
+WE_WP_CircleSaw_Swing
+WE_WP_Common_Charge_In
+WE_WP_Common_Charge_Out
+WE_WP_Common_Finish_Blood
+WE_WP_Common_Finish_Pull
+WE_WP_Common_Finish_Pull_FX
+WE_WP_Common_Finish_Stab
+WE_WP_Common_Finish_Stab_FX
+WE_WP_Common_SP
+WE_WP_Crossbow_Failure
+WE_WP_Crossbow_Fire_In
+WE_WP_Crossbow_Fire_Out
+WE_WP_Crossbow_Shot
+WE_WP_DischargeGun_3Way_In
+WE_WP_DischargeGun_3Way_Out
+WE_WP_DischargeGun_Ball_In
+WE_WP_DischargeGun_Ball_Out
+WE_WP_DischargeGun_Failure
+WE_WP_DischargeGun_Shot
+WE_WP_GasLauncher_Failure
+WE_WP_GasLauncher_Shot_A
+WE_WP_GasLauncher_Shot_B
+WE_WP_Hammer_Finish_Swing
+WE_WP_Hammer_GuardBreak_Charge1
+WE_WP_Hammer_GuardBreak_Charge2
+WE_WP_Hammer_GuardBreak_Charge3
+WE_WP_Hammer_GuardBreak_Loop_In
+WE_WP_Hammer_GuardBreak_Loop_Out
+WE_WP_Hammer_GuardBreak_Spark
+WE_WP_Hammer_GuardBreak_Swing
+WE_WP_Hammer_Impact_A
+WE_WP_Hammer_Impact_B
+WE_WP_Hammer_SetUp_Impact
+WE_WP_Hammer_Skill1_Attack
+WE_WP_Hammer_Skill1_Fire_In
+WE_WP_Hammer_Skill1_Fire_Out
+WE_WP_Hammer_Skill1_FX
+WE_WP_Hammer_Skill1_In
+WE_WP_Hammer_Skill1_Whoosh
+WE_WP_Hammer_Skill2_FX
+WE_WP_Hammer_Skill2_Hit
+WE_WP_Hammer_Skill2_Stab
+WE_WP_Hammer_SP04
+WE_WP_Hammer_SP04_Finish
+WE_WP_Hammer_SP04_Swing
+WE_WP_Hammer_SP1
+WE_WP_Hammer_SP1_Explosion
+WE_WP_Hammer_SP1_Jump
+WE_WP_Hammer_SP1_Swing
+WE_WP_Hammer_SP2
+WE_WP_Hammer_SP2_Bullet_In
+WE_WP_Hammer_SP2_Bullet_Out
+WE_WP_Hammer_SP2_Swing
+WE_WP_Hammer_SP2_Wind
+WE_WP_Hammer_SP3
+WE_WP_Hammer_SP3_Swing
+WE_WP_Hammer_SP5
+WE_WP_Hammer_SP5_Swing
+WE_WP_Hammer_Stab
+WE_WP_Hammer_Sub_Explosion
+WE_WP_Hammer_Swing
+WE_WP_Katana_Finish_Hit
+WE_WP_Katana_Finish_MX
+WE_WP_Katana_GuardBreak_Reflection
+WE_WP_Katana_Move_A
+WE_WP_Katana_Move_B
+WE_WP_Katana_Setup
+WE_WP_Katana_SetUp_Move
+WE_WP_Katana_Skill1_FX_In
+WE_WP_Katana_Skill1_FX_Out
+WE_WP_Katana_Skill1_Reflection
+WE_WP_Katana_Skill1_Swing
+WE_WP_Katana_Skill2_Catch
+WE_WP_Katana_Skill2_Spin
+WE_WP_Katana_Skill2_Use
+WE_WP_Katana_SP1
+WE_WP_Katana_SP1_Fire
+WE_WP_Katana_SP1_Swing
+WE_WP_Katana_SP2
+WE_WP_Katana_SP2_Swing
+WE_WP_Katana_SP3
+WE_WP_Katana_SP3_Charge_1
+WE_WP_Katana_SP3_Charge_2
+WE_WP_Katana_SP3_Charge_3
+WE_WP_Katana_SP3_Charge_In
+WE_WP_Katana_SP3_Charge_Out
+WE_WP_Katana_SP3_Swing
+WE_WP_Katana_SP4
+WE_WP_Katana_SP4_FX
+WE_WP_Katana_SP4_Swing
+WE_WP_Katana_SP5
+WE_WP_Katana_SP5_MX
+WE_WP_Katana_SP5_MX_Out
+WE_WP_Katana_SP5_Swing
+WE_WP_Katana_Stab
+WE_WP_Katana_Sub_HitBack
+WE_WP_Katana_Sub_Swing
+WE_WP_Katana_Swing_A
+WE_WP_Katana_Swing_B
+WE_WP_Knife_GuardBreak_Swing
+WE_WP_Knife_Move
+WE_WP_Knife_SetUp_Swing
+WE_WP_Knife_Skill1_Fire_In
+WE_WP_Knife_Skill1_Fire_Out
+WE_WP_Knife_Skill2_FX
+WE_WP_Knife_SP1_Attack
+WE_WP_Knife_SP1_In
+WE_WP_Knife_SP1_Out
+WE_WP_Knife_SP3_In
+WE_WP_Knife_SP3_Out
+WE_WP_Knife_SP4_Attack
+WE_WP_Knife_SP4_Catch
+WE_WP_Knife_SP4_In
+WE_WP_Knife_SP4_Roll
+WE_WP_Knife_SP_Slash
+WE_WP_Knife_SP_Spin
+WE_WP_Knife_Stab
+WE_WP_Knife_Swing
+WE_WP_Knife_Swing_S
+WE_WP_Machete_GuardBreak_In
+WE_WP_Machete_GuardBreak_Out
+WE_WP_Machete_GuardBreak_Swing
+WE_WP_Machete_SetUp_Swing
+WE_WP_Machete_Skill1_End
+WE_WP_Machete_Skill1_Fire_In
+WE_WP_Machete_Skill1_Fire_Out
+WE_WP_Machete_Skill2_Net
+WE_WP_Machete_Skill2_Shot
+WE_WP_Machete_SP1
+WE_WP_Machete_SP1_Shot
+WE_WP_Machete_SP2
+WE_WP_Machete_SP2_Jet
+WE_WP_Machete_SP3
+WE_WP_Machete_SP3_Air
+WE_WP_Machete_SP3_Explosion
+WE_WP_Machete_SP4
+WE_WP_Machete_SP4_Electric
+WE_WP_Machete_SP5
+WE_WP_Machete_SP5_Jet
+WE_WP_Machete_SP6_Jet
+WE_WP_Machete_SP_Close
+WE_WP_Machete_SP_Open
+WE_WP_Machete_SP_Slash
+WE_WP_Machete_Stab_A
+WE_WP_Machete_Stab_B
+WE_WP_Machete_Stab_Dash
+WE_WP_Machete_Swing_A
+WE_WP_Machete_Swing_B
+WE_WP_Mushroom_Scan_MX
+WE_WP_Mushroom_Vomit_Hit
+WE_WP_Mushroom_Vomit_Shot
+WE_WP_Mushroom_Vomit_Shot_In
+WE_WP_Mushroom_Vomit_Shot_Out
+WE_WP_Perk_Drop_Kick
+WE_WP_Perk_InFighter
+WE_WP_Perk_Wilson_Punch
+WE_WP_Perk_Wilson_Punch_Charge
+WE_WP_RocketLauncher_Aim_In_A
+WE_WP_RocketLauncher_Aim_In_B
+WE_WP_RocketLauncher_Aim_Out
+WE_WP_RocketLauncher_Failure
+WE_WP_RocketLauncher_Reload_A
+WE_WP_RocketLauncher_Reload_B
+WE_WP_RocketLauncher_Shot_A
+WE_WP_RocketLauncher_Shot_B
+WE_WP_Shotgun_Failure
+WE_WP_Shotgun_Shot_A
+WE_WP_Shotgun_Shot_B
+WE_WP_Spear_GuardBreak
+WE_WP_Spear_GuardBreak_Charge
+WE_WP_Spear_GuardBreak_Loop_In
+WE_WP_Spear_GuardBreak_Loop_Out
+WE_WP_Spear_GuardBreak_Spark
+WE_WP_Spear_SetUp
+WE_WP_Spear_Skill01_FX
+WE_WP_Spear_Sp01_Spark
+WE_WP_Spear_Sp01_Swing
+WE_WP_Spear_Sp01_Swing_Finish
+WE_WP_Spear_Sp02_Catch
+WE_WP_Spear_Sp02_In
+WE_WP_Spear_Sp02_Kick
+WE_WP_Spear_Sp02_Kick_S
+WE_WP_Spear_Sp02_Out
+WE_WP_Spear_Sp02_Whoosh
+WE_WP_Spear_Sp05_Finish
+WE_WP_Spear_Sp05_Swing
+WE_WP_Spear_Sp05_Whoosh
+WE_WP_Spear_Stab_A
+WE_WP_Spear_Stab_B
+WE_WP_Spear_Swing_A
+WE_WP_Spear_Swing_B
+WE_WP_SubMachinegun_Aim_In
+WE_WP_SubMachinegun_Aim_Out
+WE_WP_SubMachinegun_Failure
+WE_WP_SubMachinegun_Reload_A
+WE_WP_SubMachinegun_Reload_B
+WE_WP_SubMachinegun_Shot_A
+WE_WP_SubMachinegun_Shot_B
+WE_WP_SwitchWeapon_A
+WE_WP_SwitchWeapon_B
+WE_WP_SwitchWeapon_C
+WE_WP_Wilson_Appear
+WE_WP_Wilson_Bullet_Electric_Explosion
+WE_WP_Wilson_Bullet_Electric_In
+WE_WP_Wilson_Bullet_Electric_Out
+WE_WP_Wilson_Charge_Complete
+WE_WP_Wilson_Charge_In
+WE_WP_Wilson_Charge_Out
+WE_WP_Wilson_Disappear
+WE_WP_Wilson_ElectricFloor
+WE_WP_Wilson_Failure
+WE_WP_Wilson_Hit
+WE_WP_Wilson_Neutral_In
+WE_WP_Wilson_Neutral_Out
+WE_WP_Wilson_Shield_Absorb
+WE_WP_Wilson_Shield_Break
+WE_WP_Wilson_Shield_Hit
+WE_WP_Wilson_Shield_In
+WE_WP_Wilson_Shield_Out
+WE_WP_Wilson_Shield_Spread
+WE_WP_Wilson_Shot
+WE_WP_Wilson_Shot_In
+WE_WP_Wilson_Shot_Out
+WE_WP_Wilson_SubSkill_AirBag
+WE_WP_Wilson_SubSkill_AntiShieldBomb
+WE_WP_Wilson_SubSkill_Bush
+WE_WP_Wilson_SubSkill_Decoy
+WE_WP_Wilson_SubSkill_EchoBomb
+WE_WP_Wilson_SubSkill_FlashBomb
+WE_WP_Wilson_SubSkill_OctagonWall
+WE_WP_Wilson_SubSkill_RadarJammer
+WE_WP_Wilson_SubSkill_StealthCloak
+
+### SFX NAMES (WSB_WP.bnk)
+Deep
+# 633261745
+
+### RTPC/GAME-VARIABLE NAMES (WSB_WP.bnk)
+WGP_OBJECT_DISTANCE
+WGP_PLAYER_HP
+WGP_PLAYER_SHIELD
+WGP_PLAYER_STATE_BUSH
+WGP_WEAPON_GAUGE
+WGP_WEAPON_VISIBLE
+# 698021785
+
+### VARIABLE NAMES (WSB_WP.bnk)
+WSWG_MyCharacter
+# 4002759656
+# 546629239
+# 2336423495
+# 529738567
+
+### VALUE NAMES (WSB_WP.bnk)
+Battle_Finish
+False
+Home_Main
+True
+# 3119661963
+# 617721474
+
+### EVENT NAMES (WSB_WV.bnk)
+WE_WV_Avoid
+WE_WV_Avoid_In
+WE_WV_Hit_Item_A
+WE_WV_Hit_Item_B
+WE_WV_Hit_Item_C
+WE_WV_Hit_Projectile_A
+WE_WV_Hit_Projectile_B
+WE_WV_Hit_Projectile_C
+WE_WV_Hit_Stab
+WE_WV_Hit_Swing
+WE_WV_Jump
+WE_WV_Land_A
+WE_WV_Land_B
+WE_WV_Land_C
+WE_WV_Walk_Loop_In
+WE_WV_Walk_Loop_Out
+
+### RTPC/GAME-VARIABLE NAMES (WSB_WV.bnk)
+WGP_OBJECT_DISTANCE
+WGP_OBJECT_LISTENERCONE
+WGP_OBSTRUCTION_VALUE
+WGP_OCCULUSION_VALUE
+WGP_WATER_DEPTH
+
+### VARIABLE NAMES (WSB_WV.bnk)
+# 4002759656
+
+### VALUE NAMES (WSB_WV.bnk)
+True

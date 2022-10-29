@@ -1,0 +1,2761 @@
+#@nofuzzy
+#@classify-bank
+
+### BANK NAMES
+BGM
+Init
+
+### LANGUAGE NAMES
+English(US) = 0
+SFX
+
+### BUS NAMES
+BGM
+bgm_2d
+bgm_3d
+BGM_Battle_Inst
+BGM_Battle_vo
+bgm_Default
+bgm_Default_3d
+bgm_Duck_signal
+bgm_gallery_spectrum
+BGM_Gramophone
+bgm_jingle
+bgm_jingle_duck
+BGM_raid_BGMCountdown
+bgm_Recording_NG
+bgm_Recording_NG_signal
+BGM_shop
+BGM_shop_normal
+BGM_shop_record
+BGM_SubMenu
+bgm_Surround
+bgm_upmixer
+bgm_upmixer_copy
+BGM_VOICE_duck
+BGM_Witchtime_fx
+core_GalleryMode_scene_07
+ev7041_vo_bg1
+ev7041_vo_bg1_s
+ev7041_vo_bg1_v
+gramophone_duck
+Master Audio Bus = 0
+SE01_pl
+SE05_env
+SFX
+SFX_Aux
+sfx_Env
+sfx_Se
+sfx_Voice
+sfx_WitchTime
+sfx_WitchTime_s
+sfx_WitchTime_v
+VO01_pl
+VO01_pl_bayonetta
+VO01_pl_Normal
+VO02_em
+VO02_pl_jeanne
+VO02_pl_Normal
+# 2944097092
+# 1927374104
+# 2983172547
+# 2983172550
+# 2983172568
+# 3562199015
+# 3793877492
+# 355566108
+# 2894597218
+# 2894597223
+# 2894597244
+# 487298594
+# 4203825896
+# 4203825901
+# 4203825910
+# 622664918
+# 4049245674
+# 4049245681
+# 4049245684
+# 865100366
+# 414001890
+# 414001913
+# 414001916
+# 1680707170
+# 1213059880
+# 1213059885
+# 1213059894
+# 1778363925
+# 234802819
+# 234802822
+# 234802845
+# 2054984127
+# 1561016704
+# 1561016709
+# 1561016731
+# 2505799772
+# 697811618
+# 697811623
+# 697811644
+# 2595891482
+# 522510286
+# 522510288
+# 522510293
+# 2645154999
+# 3058241544
+# 3058241549
+# 3058241555
+# 2978211306
+# 3581820640
+# 3581820645
+# 3581820670
+# 3058115039
+# 1276090208
+# 1276090213
+# 1276090235
+# 3064988388
+# 1952021924
+# 1952021946
+# 1952021951
+# 3093923595
+# 1522088039
+# 1522088057
+# 1522088060
+# 3178603300
+# 2856813028
+# 2856813050
+# 2856813055
+# 3996653459
+# 1046702447
+# 1046702449
+# 1046702452
+# 4281800793
+# 2128979809
+# 2128979834
+# 2128979839
+# 884087207
+# 916144971
+# 16924301
+# 73336166
+# 649489802
+# 1558194013
+# 2554533036
+# 1162452450
+# 2082234577
+# 4187059711
+# 4153274896
+# 1404372591
+# 4176299345
+# 653464482
+# 1048107574
+# 1795992896
+# 2523913770
+# 339839419
+# 2439157786
+# 3519189195
+# 3945879742
+# 1935652146
+# 3207998959
+# 671420633
+# 3447874393
+# 3961663454
+# 3910412883
+# 4083527376
+# 13978804
+# 483385626
+# 990155559
+# 1353576395
+# 1724797340
+# 1932451808
+# 1982346327
+# 4198953940
+# 465144597
+# 311806289
+# 3603340620
+# 4103952282
+# 3017195386
+# 3979252191
+
+### EVENT NAMES (BGM.bnk)
+BGM_Area_Sewer_Disable
+BGM_Area_Sewer_Enable
+BGM_Battle_Ignore_Off
+BGM_Battle_Ignore_On
+BGM_battle_normal_reset_region
+BGM_battle_normal_reset_region_moon
+BGM_battle_normal_reset_region_theme
+BGM_battle_normal_reset_region_viola
+BGM_battle_vo_mute
+BGM_battle_vo_mute_Gameover
+BGM_battle_vo_mute_Verse_End
+BGM_battle_vo_unmute
+BGM_bt_anubis
+BGM_bt_battleship
+BGM_bt_kraken2
+BGM_bt_mysterious
+BGM_bt_shark_backfin
+bgm_bt_shin_demon
+bgm_bt_shin_demon_intro
+BGM_bt_shinbaal_Gameover
+BGM_bt_shinbaal_play_en
+BGM_bt_shinbaal_play_jp
+BGM_bt_shinbaal_stop
+BGM_bt_shingomorrah
+BGM_bt_shinmadame_event
+BGM_bt_shinmadame_phase_1
+BGM_bt_shinmadame_phase_2
+BGM_bt_shinmadame_phase_3
+BGM_bt_singularity_1
+bgm_bt_Summons
+bgm_bt_Summons_p920
+BGM_chapter_select_to_shop_1
+BGM_chapter_select_to_shop_2
+BGM_chapter_select_to_shop_3
+BGM_environment_se_mute_0_sec
+BGM_environment_se_mute_1_sec
+BGM_environment_se_mute_2_sec
+BGM_environment_se_mute_3_sec
+BGM_environment_se_unmute_1_sec
+BGM_environment_se_unmute_2_sec
+BGM_environment_se_unmute_3_sec
+BGM_ev0000_ingame_music_start
+BGM_ev0005_ingame_music_start
+BGM_ev0005_ingame_music_transition1
+BGM_ev0005_ingame_music_transition2
+BGM_ev0010_01
+BGM_ev0010_ingame_music_stop
+BGM_ev0020_01
+BGM_ev0020_02
+BGM_ev0021_01
+BGM_ev0021_02
+BGM_ev0022_01
+BGM_ev0023_01
+BGM_ev0023_02
+BGM_ev0023_03
+BGM_ev0025_01
+BGM_ev0025_02
+BGM_ev0026_homunculus_appear
+BGM_ev0026_ingame_music_start
+BGM_ev0030_01
+BGM_ev0030_02
+BGM_ev0030_03
+BGM_ev0030_ingame_music1_stop
+BGM_ev0030_ingame_music2_start
+BGM_ev0035_ingame_music_stop
+BGM_ev0036_01
+BGM_ev0036_02
+BGM_ev0036_homunculus_appear
+BGM_ev0040_01
+BGM_ev0040_02
+BGM_ev0050_01
+BGM_ev0050_ingame_music1_start
+BGM_ev0050_ingame_music1_stop
+BGM_ev0050_ingame_music2_start
+BGM_ev0060_01
+BGM_ev0060_ingame_music1_start
+BGM_ev0060_ingame_music1_stop
+BGM_ev0060_ingame_music2_start
+BGM_ev0060ingame_gallery_dragon_02
+BGM_ev0070_01
+BGM_ev0070_ingame_music1_stop
+BGM_ev1000_a_01
+BGM_ev1000_a_02
+BGM_ev1000_a_03
+BGM_ev1000_a_04
+BGM_ev1000_b_01
+BGM_ev1000_b_02
+BGM_ev1000_b_03
+BGM_ev1000_b_04
+BGM_ev1010_01
+BGM_ev1010_02
+BGM_ev1010_homunculus_appear
+BGM_ev1045_01
+BGM_ev1045_ingame_music_stop
+BGM_ev1055_01
+BGM_ev1055_02
+BGM_ev1055_demon_appear
+BGM_ev1060_battle_start
+BGM_ev1070_01
+BGM_ev1070_02
+BGM_ev1070_ingame_music_stop
+BGM_ev1080_01
+BGM_ev1080_02
+BGM_ev1100_01
+BGM_ev1100_ingame_music1_stop
+BGM_ev1100_ingame_music2_start
+BGM_ev1112_01
+BGM_ev1112_02
+BGM_ev1125_01
+BGM_ev1125_02
+BGM_ev1125_gear
+BGM_ev2010_01
+BGM_ev2040_01
+BGM_ev2045_01
+BGM_ev2050_01
+BGM_ev2050_02
+BGM_ev2055_01
+BGM_ev2060_01
+BGM_ev2060_battle_start
+BGM_ev2060_homunculus_appear
+BGM_ev2070_01
+BGM_ev2070_02
+BGM_ev2070_ingame_music_start
+BGM_ev2082_01
+BGM_ev2082_02
+BGM_ev2082_gear
+BGM_ev3000_01
+BGM_ev3000_02
+BGM_ev3010_01
+BGM_ev3020_01
+BGM_ev3020_02
+BGM_ev3020_battle_start
+BGM_ev3030_01
+BGM_ev3030_ingame_music_pause
+BGM_ev3030_ingame_music_resume
+BGM_ev3040_ingame_music_stop
+BGM_ev3042_01
+BGM_ev3042_02
+BGM_ev3048_01
+BGM_ev3055_ingame_music_play
+BGM_ev3065_01
+BGM_ev3070_01
+BGM_ev3080_01
+BGM_ev3080_02
+BGM_ev3080_ingame_music_stop
+BGM_ev3085_01
+BGM_ev3085_02
+BGM_ev3085_03
+BGM_ev3085_homunculus_appear
+BGM_ev3085_ingame_music_start
+BGM_ev3092_01
+BGM_ev3092_02
+BGM_ev4015_ingame_music_start
+BGM_ev4018_01
+BGM_ev4030_01
+BGM_ev4030_battle_start
+BGM_ev4040_ingame_music_stop
+BGM_ev4065_01
+BGM_ev4070_01
+BGM_ev4072_01
+BGM_ev4072_02
+BGM_ev4072_homunculus_appear
+BGM_ev4074_01
+BGM_ev4074_02
+BGM_ev4074_03
+BGM_ev4074_homunculus_appear
+BGM_ev4076_ingame_music_stop
+BGM_ev4077_01
+BGM_ev4078_demon_appear
+BGM_ev4078_ingame_music1_stop
+BGM_ev4078_ingame_music2_start
+BGM_ev4080_01
+BGM_ev4080_ingame_music_stop
+BGM_ev4082_01
+BGM_ev4086_01
+BGM_ev4086_02
+BGM_ev4090_01
+BGM_ev4090_02
+BGM_ev4090_03
+BGM_ev4092_ingame_music_start
+BGM_ev4100_ingame_music_stop
+BGM_ev4104_01
+BGM_ev4110_01
+BGM_ev5000_01
+BGM_ev5000_02
+BGM_ev5002_ingame_music_start
+BGM_ev5020_01
+BGM_ev5020_02
+BGM_ev5030_01
+BGM_ev5030_ingame_music1_start
+BGM_ev5030_ingame_music1_stop
+BGM_ev5030_ingame_music2_start
+BGM_ev5030_ingame_music2_stop
+BGM_ev5040_01
+BGM_ev5050_ingame_music_start
+BGM_ev5070_ingame_music_stop
+BGM_ev5090_01
+BGM_ev5100_01
+BGM_ev5100_ingame_music_start
+BGM_ev5112_01
+BGM_ev6000_01
+BGM_ev6000_02
+BGM_ev6000_03
+BGM_ev6000_04
+BGM_ev6010_01
+BGM_ev6010_02
+BGM_ev6020_01
+BGM_ev6020_ingame_music_stop
+BGM_ev6040_01
+BGM_ev6040_ingame_music1_stop
+BGM_ev6040_ingame_music2_play
+BGM_ev6040_ingame_music2_stop
+BGM_ev6040_moon
+BGM_ev6050_ingame_music1_play
+BGM_ev6050_ingame_music1_stop
+BGM_ev6050_ingame_music2_play
+BGM_ev6060_ingame_music1_stop
+BGM_ev6060_ingame_music2_play
+BGM_ev6060_ingame_music2_stop
+BGM_ev6060_ingame_music3_play
+BGM_ev6072_01
+BGM_ev6080_01
+BGM_ev6080_02
+BGM_ev6080_03
+BGM_ev6080_ingame_music1_stop
+BGM_ev6080_ingame_music2_play
+BGM_ev6090_01
+BGM_ev6090_02
+BGM_ev6090_03
+BGM_ev6090_ingame_music1_stop
+BGM_ev6090_ingame_music2_play
+BGM_ev6100_01
+BGM_ev6100_ingame_music1_stop
+BGM_ev6102_01
+BGM_ev6106_music_start
+BGM_ev6110_01
+BGM_ev6110_02
+BGM_ev6110_03
+BGM_ev6110_ingame_music_start
+BGM_ev6120_ingame_music1_stop
+BGM_ev6120_ingame_music2_play
+BGM_ev6130_01
+BGM_ev6130_ingame_music_stop
+BGM_ev7000_01
+BGM_ev7000_02
+BGM_ev7000_03
+BGM_ev7000_04
+BGM_ev7023_01
+BGM_ev7027_end
+BGM_ev7030_01
+bgm_eva101_01
+bgm_eva101_02
+BGM_eva101_homunculus_appear
+BGM_eva101_ingame_music1_stop
+BGM_eva101_ingame_music2_start
+BGM_eva121_01
+BGM_eva121_02
+BGM_eva121_battle_start
+BGM_eva122_01
+BGM_eva122_02
+BGM_eva122_02_u_
+BGM_eva122_homunculus_appear
+BGM_eva123_end
+BGM_eva123_music_stop
+BGM_eva123_start
+BGM_eva124_01
+BGM_eva124_02
+BGM_eva124_homunculus_appear
+BGM_eva124_ingame_music1_stop
+BGM_eva128_01
+BGM_eva12f_01
+BGM_eva140_ingame_music_start
+bgm_eva183_01
+BGM_eva1a1_ingame_music1_stop
+BGM_eva1a3_01
+BGM_eva1a3_02
+BGM_eva1a3_ingame_music1_stop
+BGM_eva1a3_ingame_music2_play
+BGM_eva1a3_ingame_music2_stop
+BGM_eva1a4_homunculus_appear
+BGM_eva1a9_ingame_music2_start
+BGM_eva202_01
+BGM_eva20a_01
+BGM_eva20a_02
+BGM_eva20a_ingame_music_start
+BGM_eva226_ingame_music_start
+BGM_eva227_01
+BGM_eva227_battle_start
+BGM_eva227_homunculus_appear
+BGM_eva228_01
+BGM_eva228_ingame_music_stop
+BGM_eva242_ingame_music_transition
+BGM_eva290_01
+BGM_eva290_homunculus_appear
+BGM_eva290_ingame_music1_stop
+BGM_eva290_ingame_music2_start
+BGM_eva2a0_ingame_music_stop
+bgm_eva2a1
+BGM_eva2aa_ingame_music_stop
+BGM_eva301_homunculus_appear
+BGM_eva302_01
+BGM_eva302_ingame_music_start
+BGM_eva304_01
+BGM_eva305_01
+BGM_eva305_ingame_music_stop
+BGM_eva306_01
+BGM_eva321_01
+BGM_eva321_02
+BGM_eva321_homunculus_appear
+BGM_eva327_01
+BGM_eva327_homunculus_appear
+BGM_eva328_01
+BGM_eva328_homunculus_appear
+BGM_eva32f_ingame_music_start
+BGM_eva32f_ingame_music_stop
+BGM_eva361_01
+BGM_eva38f_01
+BGM_eva38f_gear
+BGM_eva38f_ingame_music1_play
+BGM_eva38f_ingame_music1_stop
+BGM_eva38f_ingame_music2_play
+BGM_evc000_demon_appear
+bgm_event_gallery_ev2005_play
+bgm_event_gallery_ev2005_stop
+bgm_event_gallery_ev6106_play
+bgm_event_gallery_ev6106_stop
+bgm_event_gallery_ev7030_play
+bgm_event_gallery_ev7030_stop
+BGM_Event_Hourglass_end
+BGM_Event_Hourglass_start
+BGM_gallery_bt_anubis_play
+BGM_gallery_bt_battleship_play
+BGM_gallery_bt_bayo1_dragon_play
+BGM_gallery_bt_beast_play
+BGM_gallery_bt_beta_bayonetta_play
+BGM_gallery_bt_beta_jeanne_play
+BGM_gallery_bt_beta_rosa_play
+BGM_gallery_bt_bigboss_play
+BGM_gallery_bt_darkeve_play
+BGM_gallery_bt_free_play
+BGM_gallery_bt_jeanne_play
+BGM_gallery_bt_kraken1_play
+BGM_gallery_bt_kraken2_play
+BGM_gallery_bt_midboss_1_play
+BGM_gallery_bt_moon_play
+BGM_gallery_bt_mysterious_play
+BGM_gallery_bt_nohead_1_play
+BGM_gallery_bt_normal_bayo_play
+BGM_gallery_bt_shark_backfin_play
+BGM_gallery_bt_sharkboss_core_play
+BGM_gallery_bt_shin_demon_play
+BGM_gallery_bt_shingomorrah_play
+BGM_gallery_bt_singularity_1_play
+BGM_gallery_bt_singularity_2_play
+BGM_gallery_bt_singularity_3_play
+BGM_gallery_bt_spider_play
+BGM_gallery_bt_spy_boss_play
+BGM_gallery_bt_spy_play
+BGM_gallery_bt_Summons_play
+BGM_gallery_bt_viola_play
+bgm_gallery_default_music_play_1
+bgm_gallery_default_music_play_2
+bgm_gallery_default_music_play_3
+bgm_gallery_default_music_stop
+BGM_gallery_enter
+BGM_gallery_ev0010_01_play
+BGM_gallery_ev0020_01_play
+BGM_gallery_ev0020_02_play
+BGM_gallery_ev0021_01_play
+BGM_gallery_ev0021_02_play
+BGM_gallery_ev0022_01_play
+BGM_gallery_ev0023_01_play
+BGM_gallery_ev0023_02_play
+BGM_gallery_ev0023_03_play
+BGM_gallery_ev0025_01_play
+BGM_gallery_ev0025_02_play
+BGM_gallery_ev0030_01_play
+BGM_gallery_ev0030_02_play
+BGM_gallery_ev0030_03_play
+BGM_gallery_ev0036_01_play
+BGM_gallery_ev0036_02_play
+BGM_gallery_ev0040_01_play
+BGM_gallery_ev0040_02_play
+BGM_gallery_ev0050_01_play
+BGM_gallery_ev0060_01_play
+BGM_gallery_ev0071_play
+BGM_gallery_ev1000_b_01_play
+BGM_gallery_ev1000_b_02_play
+BGM_gallery_ev1000_b_03_play
+BGM_gallery_ev1000_b_04_play
+BGM_gallery_ev1010_01_play
+BGM_gallery_ev1010_02_play
+BGM_gallery_ev1045_01_play
+BGM_gallery_ev1050_play
+BGM_gallery_ev1055_01_play
+BGM_gallery_ev1055_02_play
+BGM_gallery_ev1060_play
+BGM_gallery_ev1070_01_play
+BGM_gallery_ev1070_02_play
+BGM_gallery_ev1080_01_play
+BGM_gallery_ev1080_02_play
+BGM_gallery_ev1100_01_play
+BGM_gallery_ev1112_01_play
+BGM_gallery_ev1120_play
+BGM_gallery_ev1125_01_play
+BGM_gallery_ev1125_02_play
+BGM_gallery_ev2000_play
+BGM_gallery_ev2010_01_play
+BGM_gallery_ev2020_play
+BGM_gallery_ev2040_01_play
+BGM_gallery_ev2045_01_play
+BGM_gallery_ev2050_01_play
+BGM_gallery_ev2050_02_play
+BGM_gallery_ev2055_01_play
+BGM_gallery_ev2060_01_play
+BGM_gallery_ev2070_01_play
+BGM_gallery_ev2082_01_play
+BGM_gallery_ev2082_02_play
+BGM_gallery_ev3000_01_play
+BGM_gallery_ev3000_02_play
+BGM_gallery_ev3010_01_play
+BGM_gallery_ev3020_01_play
+BGM_gallery_ev3020_02_play
+BGM_gallery_ev3030_01_play
+BGM_gallery_ev3042_01_play
+BGM_gallery_ev3042_02_play
+BGM_gallery_ev3048_01_play
+BGM_gallery_ev3050_play
+BGM_gallery_ev3060_play
+BGM_gallery_ev3065_01_play
+BGM_gallery_ev3070_01_play
+BGM_gallery_ev3080_01_play
+BGM_gallery_ev3080_02_play
+BGM_gallery_ev3085_01_play
+BGM_gallery_ev3085_02_play
+BGM_gallery_ev3092_01_play
+BGM_gallery_ev3092_02_play
+BGM_gallery_ev4010_play
+BGM_gallery_ev4018_01_play
+BGM_gallery_ev4020_play
+BGM_gallery_ev4030_01_play
+BGM_gallery_ev4044_play
+BGM_gallery_ev4060_play
+BGM_gallery_ev4065_01_play
+BGM_gallery_ev4070_01_play
+BGM_gallery_ev4072_01_play
+BGM_gallery_ev4072_02_play
+BGM_gallery_ev4074_01_play
+BGM_gallery_ev4074_02_play
+BGM_gallery_ev4074_03_play
+BGM_gallery_ev4077_01_play
+BGM_gallery_ev4080_01_play
+BGM_gallery_ev4082_01_play
+BGM_gallery_ev4086_01_play
+BGM_gallery_ev4086_02_play
+BGM_gallery_ev4090_01_play
+BGM_gallery_ev4090_02_play
+BGM_gallery_ev4090_03_play
+BGM_gallery_ev4104_01_play
+BGM_gallery_ev4110_01_play
+BGM_gallery_ev5000_01_play
+BGM_gallery_ev5000_02_play
+BGM_gallery_ev5010_play
+BGM_gallery_ev5020_01_play
+BGM_gallery_ev5020_02_play
+BGM_gallery_ev5030_01_play
+BGM_gallery_ev5040_01_play
+BGM_gallery_ev5090_01_play
+BGM_gallery_ev5100_01_play
+BGM_gallery_ev5112_01_play
+BGM_gallery_ev5120_play
+BGM_gallery_ev6000_01_play
+BGM_gallery_ev6000_02_play
+BGM_gallery_ev6000_03_play
+BGM_gallery_ev6000_04_play
+BGM_gallery_ev6010_01_play
+BGM_gallery_ev6030_play
+BGM_gallery_ev6040_01_play
+BGM_gallery_ev6072_01_play
+BGM_gallery_ev6080_01_play
+BGM_gallery_ev6080_02_play
+BGM_gallery_ev6090_01_play
+BGM_gallery_ev6090_02_play
+BGM_gallery_ev6102_01_play
+BGM_gallery_ev6110_01_play
+BGM_gallery_ev6130_01_play
+BGM_gallery_ev6135_play
+BGM_gallery_ev7000_01_play
+BGM_gallery_ev_demon_appear_play
+BGM_gallery_ev_gear_play
+BGM_gallery_ev_homunculus_appear_2_play
+BGM_gallery_eva101_01_play
+BGM_gallery_eva101_02_play
+BGM_gallery_eva121_01_play
+BGM_gallery_eva121_02_play
+BGM_gallery_eva122_01_play
+BGM_gallery_eva122_02_play
+BGM_gallery_eva124_play
+BGM_gallery_eva128_01_play
+BGM_gallery_eva12f_01_play
+BGM_gallery_eva145_play
+BGM_gallery_eva183_01_play
+BGM_gallery_eva1a3_01_play
+BGM_gallery_eva1a3_02_play
+BGM_gallery_eva200_play
+BGM_gallery_eva202_01_play
+BGM_gallery_eva205_play
+BGM_gallery_eva20a_01_play
+BGM_gallery_eva20a_02_play
+BGM_gallery_eva226_play
+BGM_gallery_eva227_01_play
+BGM_gallery_eva228_01_play
+BGM_gallery_eva290_01_play
+BGM_gallery_eva2a1_play
+BGM_gallery_eva302_01_play
+BGM_gallery_eva304_01_play
+BGM_gallery_eva305_01_play
+BGM_gallery_eva306_01_play
+BGM_gallery_eva307_play
+BGM_gallery_eva321_01_play
+BGM_gallery_eva321_02_play
+BGM_gallery_eva327_01_play
+BGM_gallery_eva328_01_play
+BGM_gallery_eva32e_play
+BGM_gallery_eva361_01_play
+BGM_gallery_eva36f_play
+BGM_gallery_eva38f_01_play
+BGM_gallery_exit
+BGM_gallery_jg_arabian_play
+BGM_gallery_movies_enter
+BGM_gallery_movies_exit
+BGM_gallery_ot_backfire_play
+BGM_gallery_ot_bluessong_play
+BGM_gallery_ot_chapter_play
+BGM_gallery_ot_dark_eva123_play
+BGM_gallery_ot_dark_play
+BGM_gallery_ot_rush_2_play
+BGM_gallery_ot_rush_play
+BGM_gallery_ot_shop1_play
+BGM_gallery_ot_shop2_play
+BGM_gallery_ot_shop3_play
+BGM_gallery_ot_SP_result_play
+BGM_gallery_ot_spy_ed_play
+BGM_gallery_ot_spy_op_play
+BGM_gallery_ot_total_result_play
+BGM_gallery_pause
+BGM_gallery_resume
+BGM_gallery_st_alfheim_play
+BGM_gallery_st_asakusa_play
+BGM_gallery_st_athletics_1_play
+BGM_gallery_st_baal_temple_play
+BGM_gallery_st_bike_play
+BGM_gallery_st_cheshire_ride_play
+BGM_gallery_st_collapse_play
+BGM_gallery_st_desert1_play
+BGM_gallery_st_elevator_play
+BGM_gallery_st_france1_play
+BGM_gallery_st_france2_play
+BGM_gallery_st_france3_play
+BGM_gallery_st_gomoride_play
+BGM_gallery_st_greatwall1_play
+BGM_gallery_st_greatwall2_play
+BGM_gallery_st_greatwall3_play
+BGM_gallery_st_greatwall4_play
+BGM_gallery_st_interspace_play
+BGM_gallery_st_malphas_ride_play
+BGM_gallery_st_malphas_temple_play
+BGM_gallery_st_malphas_tower1_play
+BGM_gallery_st_malphas_tower2_play
+BGM_gallery_st_raid_play
+BGM_gallery_st_rocket_play
+BGM_gallery_st_rosa_shooting_play
+BGM_gallery_st_sewer_play
+BGM_gallery_st_shark_chase_play
+BGM_gallery_st_shinjuku_play
+BGM_gallery_st_spy1_play
+BGM_gallery_st_thile2_play
+BGM_gallery_st_thile_event_play
+BGM_gallery_st_thile_play
+BGM_gallery_stop_fadeout
+BGM_gallery_stop_immediate
+BGM_Gameover_ev4015_ingame_music
+BGM_Gameover_in
+BGM_Gramophone_Mute
+BGM_Gramophone_play
+BGM_Gramophone_reset
+BGM_Gramophone_Unmute
+BGM_Initialize
+BGM_jg_arabian
+BGM_Load_in
+BGM_Load_In_Gameover
+BGM_Load_out
+BGM_Load_Out_Gameover
+BGM_malphas_tower_step_1
+BGM_malphas_tower_step_2
+BGM_malphas_tower_step_3
+BGM_malphas_tower_step_4
+bgm_moon_Intro_Off
+bgm_moon_region_01
+bgm_moon_region_02
+bgm_moon_region_03
+BGM_none_0100ms
+BGM_none_0500ms
+BGM_none_1000ms
+BGM_none_1500ms
+BGM_none_2000ms
+BGM_none_3000ms
+BGM_none_4000ms
+BGM_none_5000ms
+BGM_none_6000ms
+BGM_none_7000ms
+BGM_none_8000ms
+BGM_none_9000ms
+BGM_ot_backfire
+bgm_ot_backfire_outro
+BGM_ot_bluessong
+BGM_ot_chapter_result
+BGM_ot_chapter_select
+BGM_ot_dark
+BGM_Ot_Funny_SE_Load
+BGM_ot_gomorra_slider_1
+BGM_ot_gomorra_slider_1_2
+BGM_ot_gomorra_slider_2
+BGM_ot_gomorra_slider_3
+BGM_ot_hourglass
+BGM_ot_record_of_time_1
+BGM_ot_record_of_time_2
+BGM_ot_rush
+BGM_ot_rush_2
+BGM_ot_spy_ed
+BGM_ot_spy_op
+BGM_ot_spy_op_fx
+BGM_ot_spy_result
+BGM_ot_total_result
+BGM_P260_Ch06_A2_Monkey_Boss_Appear
+BGM_P260_Ch06_A2_Monkey_Boss_Pre_Appear
+BGM_p380_Root_Pause
+BGM_p380_Root_resume
+BGM_p920_Boss_Finish
+BGM_p960_Boss_Appear
+BGM_p960_elevator_start
+BGM_p960_MiniGameStage3_Clear
+BGM_p960_title
+bgm_path_Collapse
+BGM_Pause
+BGM_Pause_Event_Movie
+BGM_Pause_Event_Realtime
+Bgm_Pause_Movie_switch
+Bgm_Pause_Movie_Windows
+Bgm_Pause_Realtime_switch
+Bgm_Pause_Realtime_Windows
+Bgm_Pause_switch
+bgm_pause_Windows
+BGM_QTJ_Start_MiniGame
+BGM_QTJ_Start_SP1_2
+BGM_QTJ_Start_SP3
+BGM_QTJ_Start_SP4
+BGM_Reset_eva123
+BGM_Reset_GameParameter
+BGM_Reset_gramophone
+BGM_Reset_jg_arabian
+BGM_Reset_malphas_tower
+BGM_Reset_Others
+BGM_Reset_sewer
+BGM_Reset_State
+bgm_RESET_SyncState
+BGM_Result_Off
+BGM_Result_On
+BGM_Resume
+BGM_Resume_Event_Movie
+BGM_Resume_Event_Realtime
+BGM_Resume_Movie_switch
+BGM_Resume_Realtime_switch
+BGM_Resume_Realtime_Windows
+BGM_Resume_switch
+bgm_Resume_Windows
+BGM_root_pause_1000ms
+BGM_root_pause_2000ms
+BGM_root_pause_3000ms
+BGM_Root_Reset_Play
+BGM_root_resume_3000ms
+BGM_set_volume_ev0026_bt_moon
+BGM_set_volume_ev0030_bt_theme
+BGM_set_volume_ev6080_bt_moon
+BGM_set_volume_ev6090_bt_theme
+bgm_sewer_appear
+BGM_Sewer_gramophone_duck_Disable
+BGM_Sewer_gramophone_duck_Enable
+BGM_sewer_In
+BGM_sewer_Out
+BGM_shop_arrange_1
+BGM_shop_arrange_2
+BGM_shop_arrange_3
+BGM_shop_gramophone_start
+BGM_shop_gramophone_stop
+BGM_shop_leave
+BGM_shop_music_normal
+BGM_shop_music_record
+BGM_shop_music_record_to_normal
+BGM_shop_record_noise
+BGM_skip_event
+BGM_skip_event_normal
+BGM_st_alfheim
+BGM_st_asakusa
+BGM_st_asakusa_Outro
+BGM_st_athletics_1
+BGM_st_baal_temple
+BGM_st_bike
+BGM_st_bike_fx
+BGM_st_cheshire_ride
+BGM_st_collapse
+BGM_st_desert1
+BGM_st_desert1_no_intro
+BGM_st_elevator
+BGM_st_elevator_fx
+BGM_st_france1
+BGM_st_france2
+BGM_st_france3
+BGM_st_gomoride
+BGM_st_gomoride_outro
+BGM_st_greatwall1
+BGM_st_greatwall2
+BGM_st_greatwall3
+BGM_st_greatwall4
+BGM_st_interspace
+BGM_st_malphas_ride
+BGM_st_malphas_temple
+BGM_st_malphas_tower1_1st
+BGM_st_malphas_tower1_2nd
+BGM_st_malphas_tower2
+BGM_st_none
+BGM_st_raid
+BGM_st_raid_Outro
+BGM_st_rosa_shooting
+BGM_st_sewer
+BGM_st_shark_chase
+BGM_st_shibuya
+BGM_st_shibuya_no_intro
+BGM_st_shinjuku
+BGM_st_spy1
+BGM_st_spy1_fx
+BGM_st_thile
+BGM_st_thile2
+BGM_st_thile_event
+BGM_st_thile_event_skip
+BGM_Stage
+BGM_stop_battle_normal
+BGM_stop_battle_normal_0500ms
+BGM_stop_battle_normal_1000ms
+BGM_stop_battle_normal_2000ms
+BGM_stop_battle_normal_3000ms
+BGM_stop_event
+BGM_stop_root
+BGM_SubMenu_Play
+BGM_SubMenu_Stop
+bgm_theme_Intro_Off
+bgm_theme_region_01
+bgm_theme_region_02
+bgm_theme_region_03
+bgm_theme_region_04
+bgm_theme_region_05
+BGM_verse_bt_angel_bayo
+BGM_verse_bt_angel_viola
+BGM_verse_bt_bayo1_dragon
+BGM_verse_bt_beast
+BGM_verse_bt_beast_lukar
+BGM_verse_bt_beta_bayonetta
+BGM_verse_bt_beta_jeanne
+BGM_verse_bt_beta_rosa
+BGM_verse_bt_bigboss
+BGM_verse_bt_darkeve
+BGM_verse_bt_free
+BGM_verse_bt_kraken1
+BGM_verse_bt_midboss_bayo1
+BGM_verse_bt_midboss_bayo2
+BGM_verse_bt_midboss_bayo3
+BGM_verse_bt_moon
+BGM_verse_bt_moon_long
+BGM_verse_bt_moon_vo_mute
+BGM_verse_bt_none
+BGM_verse_bt_sharkboss_core
+BGM_verse_bt_singularity_2
+BGM_verse_bt_singularity_3
+BGM_verse_bt_spider
+BGM_verse_bt_spy1
+BGM_verse_bt_spy1_fx
+BGM_verse_bt_spy2
+BGM_verse_bt_spy_boss
+BGM_verse_bt_spy_boss_fx
+BGM_verse_bt_spy_boss_outro
+BGM_verse_bt_spy_boss_outro_fx
+BGM_verse_bt_theme
+BGM_verse_bt_viola
+BGM_verse_bt_viola_long
+BGM_verse_bt_woman_devil
+BGM_Verse_End
+BGM_Verse_End_NoFadeIn
+BGM_Verse_End_NoOutro
+BGM_Verse_End_SP
+BGM_Verse_End_SP_NoOutro
+BGM_verse_no_head
+BGM_Verse_Start
+BGM_Verse_Start_FadeIn
+bgm_viola_Intro_Off
+BGM_WitchTime_Off
+BGM_WitchTime_On
+bt_beast_lukar
+bt_bomb_prefx
+bt_singularity_3
+ev0010_bgm
+ev0020_bgm
+ev0021_bgm
+ev0025_bgm
+ev0030_bgm
+ev0036_bgm
+ev0040_bgm
+ev0050_bgm
+ev0060_bgm
+ev0070_bgm
+ev0071_Bgm
+ev1000_bgm
+ev1010_bgm
+ev1045_bgm
+ev1050_Bgm
+ev1055_bgm
+ev1060_Bgm
+ev1070_bgm
+ev1080_bgm
+ev1100_bgm
+ev1110_Bgm
+ev1112_bgm
+ev1120_Bgm
+ev1125_bgm
+ev2000_Bgm
+ev2010_bgm
+ev2020_Bgm
+ev2040_bgm
+ev2045_bgm
+ev2050_bgm
+ev2055_bgm
+ev2060_bgm
+ev2070_bgm
+ev2080_Bgm
+ev2082_bgm
+ev3000_bgm
+ev3010_bgm
+ev3020_bgm
+ev3030_bgm
+ev3042_bgm
+ev3048_bgm
+ev3050_Bgm
+ev3060_Bgm
+ev3065_bgm
+ev3070_bgm
+ev3080_bgm
+ev3085_bgm
+ev3090_Bgm
+ev3092_bgm
+ev4010_Bgm
+ev4018_bgm
+ev4020_Bgm
+ev4030_bgm
+ev4044_Bgm
+ev4060_Bgm
+ev4065_bgm
+ev4070_bgm
+ev4072_bgm
+ev4074_bgm
+ev4077_bgm
+ev4080_bgm
+ev4082_bgm
+ev4086_bgm
+ev4090_bgm
+ev4104_bgm
+ev4110_bgm
+ev5000_bgm
+ev5010_Bgm
+ev5020_bgm
+ev5030_bgm
+ev5040_bgm
+ev5090_bgm
+ev5100_bgm
+ev5110_Bgm
+ev5112_bgm
+ev5120_Bgm
+ev6000_bgm
+ev6010_bgm
+ev6020_bgm
+ev6030_Bgm
+ev6040_bgm
+ev6072_bgm
+ev6080_bgm
+ev6090_bgm
+ev6100_bgm
+ev6102_bgm
+ev6110_bgm
+ev6130_bgm
+ev6135_Bgm
+ev7000_bgm
+ev7023_bgm
+ev7030_bgm
+eva101_bgm
+eva121_bgm
+eva122_bgm
+eva128_bgm
+eva12f_bgm
+eva145_Bgm
+eva183_bgm
+eva1a3_bgm
+eva200_Bgm
+eva202_bgm
+eva205_Bgm
+eva20a_bgm
+eva226_Bgm
+eva227_bgm
+eva228_bgm
+eva290_bgm
+eva2a1_Bgm
+eva302_bgm
+eva304_bgm
+eva305_bgm
+eva306_bgm
+eva307_Bgm
+eva321_bgm
+eva327_bgm
+eva328_bgm
+eva32e_Bgm
+eva361_bgm
+eva36f_Bgm
+eva38f_bgm
+light_off
+light_on
+ot_race_Bullet_Fly_Loop
+stop_1khz
+SubMenu_13o
+# 22845425
+# 30439085
+# 37364257
+# 100256890
+# 102621991
+# 122555744
+# 173679748
+# 194475721
+# 229617292
+# 253103374
+# 254673673
+# 273991912
+# 285383763
+# 333858563
+# 338786473
+# 369920782
+# 372131894
+# 393342417
+# 401007619
+# 404649459
+# 411740074
+# 419141063
+# 445513152
+# 452334123
+# 461480425
+# 476049591
+# 476049592
+# 476049593
+# 476049594
+# 476049595
+# 476049596
+# 476049597
+# 476049598
+# 479008930
+# 533483805
+# 574601655
+# 577447931
+# 583178075
+# 604397520
+# 628222784
+# 632675927
+# 654090463
+# 662828275
+# 667218370
+# 692826268
+# 696855736
+# 702243883
+# 706245357
+# 707270739
+# 715056117
+# 734757304
+# 772920661
+# 777642885
+# 809805954
+# 813529409
+# 817056574
+# 817593956
+# 819240874
+# 832962389
+# 866943217
+# 896187972
+# 926721255
+# 944354682
+# 965373821
+# 998225111
+# 1041326406
+# 1042244476
+# 1064565687
+# 1067088866
+# 1079038920
+# 1083264712
+# 1093521696
+# 1093521726
+# 1094311645
+# 1109168722
+# 1111549444
+# 1111672764
+# 1120305006
+# 1136389927
+# 1146054093
+# 1150111084
+# 1161739716
+# 1204295570
+# 1213012130
+# 1226269557
+# 1246461086
+# 1263527485
+# 1266788132
+# 1293135994
+# 1319844320
+# 1354526415
+# 1396193015
+# 1454829204
+# 1475947728
+# 1479407091
+# 1489881906
+# 1535299577
+# 1580080360
+# 1580080362
+# 1580080363
+# 1580080365
+# 1580521642
+# 1580521644
+# 1580521645
+# 1580521647
+# 1635030594
+# 1689577151
+# 1725194657
+# 1753107334
+# 1775276274
+# 1775868502
+# 1776118324
+# 1828650615
+# 1844364847
+# 1918625676
+# 1942111758
+# 1975104417
+# 1976440289
+# 1988432572
+# 1998758679
+# 2026840710
+# 2056587835
+# 2060018115
+# 2091719781
+# 2092244355
+# 2092244360
+# 2092244361
+# 2092244362
+# 2092244364
+# 2092244365
+# 2092244366
+# 2092244367
+# 2163465368
+# 2203732515
+# 2209991928
+# 2213232255
+# 2214907169
+# 2241429574
+# 2286198887
+# 2294322837
+# 2323796913
+# 2341650382
+# 2346312859
+# 2389247550
+# 2392691307
+# 2395253741
+# 2419660600
+# 2428048775
+# 2446085633
+# 2476995316
+# 2486941095
+# 2498912231
+# 2541327110
+# 2549764300
+# 2570416087
+# 2589314378
+# 2598140436
+# 2666157194
+# 2670382986
+# 2697636866
+# 2708580903
+# 2720451043
+# 2722707731
+# 2758568026
+# 2791073642
+# 2797095857
+# 2825398311
+# 2869636643
+# 2900685627
+# 2926717391
+# 2975879694
+# 2980715801
+# 2983645830
+# 3023167560
+# 3028715575
+# 3040983402
+# 3059471019
+# 3065894773
+# 3078820163
+# 3109353876
+# 3146612060
+# 3168593857
+# 3174283710
+# 3202003565
+# 3209517862
+# 3264571192
+# 3275781228
+# 3275781231
+# 3298945466
+# 3299067962
+# 3309860983
+# 3329111808
+# 3342356441
+# 3348059478
+# 3376788116
+# 3414468137
+# 3434010546
+# 3449882891
+# 3465126708
+# 3469443264
+# 3472902129
+# 3487346463
+# 3489948565
+# 3541263454
+# 3561993805
+# 3564126665
+# 3623603802
+# 3687766013
+# 3744937664
+# 3829428045
+# 3843081326
+# 3862629259
+# 3903187205
+# 3903187220
+# 3903187227
+# 3913841358
+# 3914370680
+# 3919669744
+# 3922520179
+# 3931148265
+# 3931148267
+# 3934832808
+# 3968938193
+# 3983331221
+# 3985433305
+# 4000239751
+# 4010008449
+# 4052948876
+# 4055596730
+# 4071231551
+# 4101205528
+# 4108668984
+# 4110515566
+# 4133355734
+# 4172473866
+# 4180325740
+# 4184742568
+# 4202256715
+# 4211134821
+# 4236372433
+# 4267673991
+# 4273339212
+# 4290441499
+
+### SFX NAMES (BGM.bnk)
+SE_PG_Simple3D
+
+### RTPC/GAME-VARIABLE NAMES (BGM.bnk)
+BGM_st_desert1_Volume
+BGM_st_malphas_tower1_Volume
+SE_core_Azimuth
+se_core_elevation
+# 2376276174
+# 1009038204
+# 3849960781
+
+### VARIABLE NAMES (BGM.bnk)
+BGM_Area_Sewer
+BGM_Battle_Ignore
+BGM_battle_normal
+BGM_battle_normal_intro_moon
+BGM_battle_normal_intro_theme
+BGM_battle_normal_intro_viola
+BGM_battle_normal_Outro
+BGM_battle_normal_region_moon
+BGM_battle_normal_region_theme
+BGM_battle_normal_region_viola
+BGM_Battle_special
+BGM_bt_shinmadame
+bgm_bt_spy_boss
+bgm_bt_spy_boss_fx
+BGM_none
+BGM_ot_backfire
+BGM_ot_gomorra_slider
+BGM_ot_record_of_time
+BGM_ot_shop_arrange
+bgm_ot_shop_segment
+BGM_Others
+BGM_root
+BGM_st_asakusa
+BGM_st_gomoride
+BGM_st_malphas_tower1
+BGM_st_raid
+BGM_st_thile_event_skip
+BGM_Stage
+# 2738232496
+# 930065775
+# 3075903376
+# 3641395620
+# 3641395623
+# 3641395622
+# 1149918946
+
+### VALUE NAMES (BGM.bnk)
+battle_normal_Outro
+bt_angel_bayo
+bt_angel_viola
+bt_anubis
+bt_battleship
+bt_bayo1_dragon
+bt_beast
+bt_beast_lukar
+bt_beta_bayonetta
+bt_beta_jeanne
+bt_beta_rosa
+bt_bigboss
+bt_darkeve
+bt_free
+bt_kraken1
+bt_kraken2
+bt_midboss_bayo1
+bt_midboss_bayo2
+bt_midboss_bayo3
+bt_moon
+bt_mysterious
+bt_no_head
+bt_none
+bt_shark_backfin
+bt_sharkboss_core
+bt_shin_demon
+bt_shin_demon_intro
+bt_shingomorrah
+bt_shinmadame
+bt_shinmadame_event
+bt_shinmadame_phase_1
+bt_shinmadame_phase_2
+bt_shinmadame_phase_3
+bt_singularity_1
+bt_singularity_2
+bt_singularity_3
+bt_spider
+bt_spy1
+bt_spy1_fx
+bt_spy2
+bt_spy_boss
+bt_spy_boss_fx
+bt_spy_boss_fx_intro_loop
+bt_spy_boss_fx_Outro
+bt_spy_boss_intro_loop
+bt_spy_boss_outro
+bt_Summons
+bt_Summons_p920
+bt_theme
+bt_viola
+bt_woman_devil
+intro_moon_long
+intro_moon_short
+intro_theme
+intro_viola_long
+intro_viola_short
+malphas_tower1_1st
+malphas_tower1_2nd
+None
+none_0100ms
+none_0500ms
+none_1000ms
+None_1500ms
+none_2000ms
+None_3000ms
+None_4000ms
+none_5000ms
+None_6000ms
+None_7000ms
+None_8000ms
+None_9000ms
+none_shop_leave
+off
+on
+ot_backfire
+ot_backfire_intro_loop
+ot_backfire_outro
+ot_bluessong
+ot_chapter_result
+ot_chapter_select
+ot_dark
+ot_gomorra_slider
+ot_gomorra_slider_scene_1
+ot_gomorra_slider_scene_1_2
+ot_gomorra_slider_scene_2
+ot_gomorra_slider_scene_3
+ot_hourglass
+ot_record_of_time_1
+ot_record_of_time_2
+ot_rush
+ot_rush_2
+ot_shop
+ot_shop_arrange_1
+ot_shop_arrange_2
+ot_shop_arrange_3
+ot_shop_segment_loop
+ot_shop_segment_noise
+ot_spy_ed
+ot_spy_op
+ot_spy_op_fx
+ot_spy_result
+ot_total_result
+record_of_time_intro_loop
+region_moon_01
+region_moon_02
+region_moon_03
+region_theme_01
+region_theme_02
+region_theme_03
+region_theme_04
+region_theme_05
+root_battle_special
+root_none
+root_others
+root_Stage
+SE01_LightOn
+Skip
+st_alfheim
+st_asakusa
+st_asakusa_intro_loop
+st_asakusa_Outro
+st_athletics_1
+st_baal_temple
+st_bike
+st_bike_fx
+st_cheshire_ride
+st_collapse
+st_desert1
+st_desert1_no_intro
+st_elevator
+st_elevator_fx
+st_france1
+st_france2
+st_france3
+st_gomoride
+st_gomoride_loop
+st_gomoride_outro
+st_greatwall1
+st_greatwall2
+st_greatwall3
+st_greatwall4
+st_interspace
+st_malphas_ride
+st_malphas_temple
+st_malphas_tower1
+st_malphas_tower2
+st_none
+st_raid
+st_raid_loop
+st_raid_loop_submix
+st_raid_Outro
+st_rosa_shooting
+st_sewer
+st_sewer_entrance
+st_shark_chase
+st_shibuya
+st_shibuya_no_intro
+st_shinjuku
+st_spy1
+st_spy1_fx
+st_thile
+st_thile2
+st_thile_event
+# 119539801
+# 119539802
+# 3797905885
+# 383551577
+# 1718129177
+# 3079130231
+# 4177986484
+# 108037993
+# 1213560798
+# 1324623498
+# 1475608784
+# 3195095611
+# 3516894443
+# 3834412099
+# 4075442555
+# 3531478837
+# 122431156
+# 1625148161
+# 1625148164
+# 1625148166
+# 1625148167
+# 1625692616
+# 1625692617
+# 1625692619
+# 1625692622
+# 1132379175
+
+### EVENT NAMES (BGM_us.bnk)
+Area_enter
+Area_Exit
+BGM_Area_Sewer_Disable
+BGM_Area_Sewer_Enable
+BGM_Area_Story_Off
+BGM_Area_Story_On
+BGM_Battle_Finish
+BGM_Battle_Ignore_Off
+BGM_Battle_Ignore_On
+bgm_battle_Missile_r600
+bgm_battle_Missile_r605
+bgm_battle_Missile_r615
+BGM_bt_anubis
+BGM_bt_anubis2
+bgm_bt_balder4
+BGM_bt_battleship
+bgm_bt_bayo1_dragon_tmp
+bgm_bt_beast
+bgm_bt_beast_lukar
+bgm_bt_beta_bayonetta
+bgm_bt_beta_jeanne
+bgm_bt_beta_rosa
+bgm_bt_bigboss
+bgm_bt_centipede
+BGM_bt_kraken1
+BGM_bt_kraken2
+BGM_bt_midboss_root_bayo3
+BGM_bt_shark_backfin
+bgm_bt_sharkboss_core
+bgm_bt_shin_demon
+bgm_bt_shin_demon_intro
+BGM_bt_shingomorrah
+BGM_bt_shinmadame_event
+BGM_bt_shinmadame_phase_1
+BGM_bt_shinmadame_phase_2
+BGM_bt_shinmadame_phase_3
+BGM_bt_singularity_1
+BGM_bt_singularity_2
+BGM_bt_singularity_3
+BGM_bt_Summon_boss
+bgm_bt_tornado
+BGM_Countdown_In
+BGM_Countdown_Out
+BGM_ev0010
+BGM_ev1055_01
+BGM_ev1055_02
+BGM_ev1055_demon_appear
+BGM_ev1060_battle_start
+BGM_ev2010_01
+BGM_ev2040_01
+BGM_ev2045_01
+BGM_ev2050_01
+BGM_ev2050_02
+BGM_ev2055_01
+BGM_ev2060_01
+BGM_ev2060_battle_start
+BGM_ev2060_homunculus_appear
+BGM_ev2070_01
+BGM_ev2070_bt_shin_demon
+BGM_ev2070_ingame_music_start
+BGM_ev3000_01
+BGM_ev3000_02
+BGM_ev3010
+BGM_ev3020_01
+BGM_ev3020_02
+BGM_ev3020_battle_start
+BGM_ev3065_01
+BGM_ev3070_01
+BGM_ev4018_01
+BGM_ev4030_01
+BGM_ev4030_battle_start
+BGM_ev5090_01
+BGM_ev5100_01
+BGM_ev6000_01
+BGM_ev6000_02
+BGM_ev6000_03
+BGM_ev6000_04
+bgm_ev_demon_appear
+bgm_ev_homunculus_appear_1
+bgm_ev_homunculus_appear_2
+bgm_eva101
+BGM_eva101_ingame_music_start
+BGM_eva121
+BGM_eva121_01
+BGM_eva121_02
+BGM_eva121_battle_start
+BGM_eva122
+BGM_eva122_01
+BGM_eva122_02
+BGM_eva122_homunculus_appear
+BGM_eva123_end
+BGM_eva123_music_stop
+BGM_eva123_start
+BGM_eva124
+BGM_eva128_01
+BGM_eva12f_01
+BGM_eva140_ingame_music_start
+bgm_eva160
+bgm_eva162
+bgm_eva181
+bgm_eva183
+bgm_eva18f
+BGM_eva202_01
+BGM_eva226_ingame_music_start
+BGM_eva227_01
+BGM_eva227_battle_start
+BGM_eva227_homunculus_appear
+BGM_eva228_01
+BGM_eva290_01
+BGM_eva290_homunculus_appear
+BGM_eva290_ingame_music_start
+BGM_eva301_homunculus_appear
+BGM_eva302_01
+BGM_eva304_01
+BGM_eva306_01
+BGM_Event_Hourglass_end
+BGM_Event_Hourglass_start
+bgm_event_pause
+bgm_event_resume
+BGM_gallery_bt_balder1_play
+BGM_gallery_bt_dragon_index_01
+BGM_gallery_bt_dragon_index_02
+BGM_gallery_bt_dragon_index_03
+BGM_gallery_bt_dragon_play
+BGM_gallery_bt_gomorra_index_01
+BGM_gallery_bt_gomorra_index_02
+BGM_gallery_bt_gomorra_index_03
+BGM_gallery_bt_gomorra_index_04
+BGM_gallery_bt_gomorra_play
+BGM_gallery_enter
+BGM_gallery_ev1000_2_play
+BGM_gallery_exit
+BGM_gallery_movies_enter
+BGM_gallery_movies_exit
+BGM_gallery_pause
+BGM_gallery_resume
+BGM_gallery_st_backalley_index_01
+BGM_gallery_st_backalley_index_02
+BGM_gallery_st_backalley_play
+BGM_gallery_st_port_play
+BGM_gallery_st_worldwar_index_01
+BGM_gallery_st_worldwar_index_02
+BGM_gallery_st_worldwar_index_03
+BGM_gallery_st_worldwar_index_04
+BGM_gallery_st_worldwar_index_05
+BGM_gallery_st_worldwar_index_06
+BGM_gallery_st_worldwar_index_07
+BGM_gallery_st_worldwar_index_08
+BGM_gallery_st_worldwar_index_09
+BGM_gallery_st_worldwar_play
+BGM_gallery_stop_fadeout
+BGM_gallery_stop_immediate
+BGM_Gameover_ev4015_ingame_music
+BGM_Gameover_in
+BGM_Gramophone_Mute
+BGM_Gramophone_play
+BGM_Gramophone_Unmute
+bgm_ingame_pause
+bgm_ingame_resume
+BGM_Initialize
+BGM_jg_arabian
+BGM_Load_in
+BGM_Load_out
+BGM_malphas_tower_step_1
+BGM_malphas_tower_step_2
+BGM_malphas_tower_step_3
+BGM_malphas_tower_step_4
+BGM_none_1000ms
+BGM_none_1500ms
+BGM_none_2000ms
+BGM_none_3000ms
+BGM_none_4000ms
+BGM_none_5000ms
+BGM_none_6000ms
+BGM_none_7000ms
+BGM_none_8000ms
+BGM_none_9000ms
+BGM_ot_backfire
+bgm_ot_backfire_outro
+BGM_ot_bluessong
+BGM_ot_chapter_result
+BGM_ot_chapter_select
+BGM_ot_dark
+BGM_ot_dark_play
+BGM_Ot_Funny_SE_Load
+BGM_ot_gomorra_slider_1
+BGM_ot_gomorra_slider_1_2
+BGM_ot_gomorra_slider_2
+BGM_ot_gomorra_slider_3
+BGM_ot_hourglass
+BGM_ot_record_of_time_2
+BGM_ot_rush
+BGM_ot_rush_2
+BGM_ot_SP_result
+BGM_ot_spy_op
+BGM_P260_Ch06_A2_Monkey_Boss_Appear
+BGM_p380_Root_Pause
+BGM_p380_Root_resume
+BGM_p960_Boss_Appear
+bgm_path_Collapse
+BGM_Pause_In
+BGM_Pause_Out
+BGM_playing_battle_normal_FALSE
+BGM_playing_battle_normal_TRUE
+BGM_QTJ_fx_pause
+BGM_QTJ_fx_resume
+BGM_QTJ_pause
+BGM_QTJ_resume
+BGM_QTJ_Start_MiniGame
+BGM_QTJ_Start_SP1_2
+BGM_QTJ_Start_SP3
+BGM_QTJ_Start_SP4
+BGM_Reset_eva123
+BGM_Reset_GameParameter
+BGM_Reset_gramophone
+BGM_Reset_jg_arabian
+BGM_Reset_malphas_tower
+BGM_Reset_Others
+BGM_Reset_pause
+BGM_Reset_sewer
+BGM_Reset_State
+BGM_Reset_SubMenu
+BGM_Result_Off
+BGM_Result_On
+BGM_root_pause
+BGM_root_pause_1000ms
+BGM_root_pause_2000ms
+BGM_root_pause_3000ms
+BGM_root_pause_immediate
+BGM_Root_Reset_Play
+BGM_root_resume
+BGM_root_resume_3000ms
+BGM_root_resume_immediate
+bgm_sewer_appear
+BGM_Sewer_gramophone_duck_Disable
+BGM_Sewer_gramophone_duck_Enable
+BGM_sewer_In
+BGM_sewer_Out
+BGM_shop_arrange_1
+BGM_shop_arrange_2
+BGM_shop_arrange_3
+BGM_shop_gramophone_start
+BGM_shop_gramophone_stop
+BGM_shop_leave
+BGM_shop_music_normal
+BGM_shop_music_record
+BGM_shop_music_record_to_normal
+BGM_shop_record_noise
+BGM_st_alfheim
+BGM_st_asakusa
+BGM_st_asakusa_Outro
+BGM_st_athletics_1
+BGM_st_baal_temple
+BGM_st_bike
+BGM_st_bike_fx
+BGM_st_cheshire_ride
+BGM_st_collapse
+BGM_st_desert1
+BGM_st_desert1_no_intro
+BGM_st_elevator
+BGM_st_elevator_fx
+bgm_st_forest
+BGM_st_france1
+BGM_st_france2
+BGM_st_france3
+BGM_st_gomoride
+BGM_st_gomoride_outro
+bgm_st_grave
+BGM_st_greatwall1
+BGM_st_greatwall2
+BGM_st_greatwall3
+BGM_st_greatwall4
+BGM_st_interspace
+BGM_st_malphas_ride
+BGM_st_malphas_temple
+BGM_st_malphas_tower1_1st
+BGM_st_malphas_tower1_2nd
+BGM_st_malphas_tower2
+BGM_st_none
+bgm_st_prologue
+BGM_st_raid
+BGM_st_raid_Outro
+BGM_st_rosa_shooting
+BGM_st_sewer
+BGM_st_shibuya
+BGM_st_shibuya_no_intro
+BGM_st_shinjuku
+BGM_st_spy1
+BGM_st_spy1_fx
+BGM_st_thile
+BGM_st_thile2
+BGM_st_thile_event
+BGM_st_thile_event_skip
+bgm_st_tunnel
+BGM_st_underground_scene_01
+BGM_Stage
+BGM_SubMenu_In
+BGM_SubMenu_Out
+BGM_verse_bt_angel_bayo
+BGM_verse_bt_angel_viola
+BGM_verse_bt_bayo1_dragon
+BGM_verse_bt_beast
+BGM_verse_bt_beast_lukar
+BGM_verse_bt_beta_bayonetta
+BGM_verse_bt_beta_jeanne
+BGM_verse_bt_beta_rosa
+BGM_verse_bt_bigboss
+BGM_verse_bt_darkeve
+BGM_verse_bt_free
+BGM_verse_bt_kraken1
+BGM_verse_bt_midboss_bayo1
+BGM_verse_bt_midboss_bayo2
+BGM_verse_bt_midboss_bayo3
+BGM_verse_bt_moon
+BGM_verse_bt_none
+BGM_Verse_bt_normal_bayo3
+BGM_verse_bt_normal_bayo3_Inst
+BGM_Verse_bt_normal_viola
+BGM_Verse_bt_normal_viola_long
+BGM_verse_bt_singularity_2
+BGM_verse_bt_singularity_3
+BGM_verse_bt_spider
+BGM_verse_bt_spy1
+BGM_verse_bt_spy1_fx
+BGM_verse_bt_spy2
+BGM_verse_bt_spy_boss
+BGM_verse_bt_spy_boss_fx
+BGM_verse_bt_woman_devil
+BGM_Verse_End
+BGM_Verse_End_NoFadeIn
+BGM_Verse_End_NoOutro
+BGM_Verse_End_SP
+BGM_Verse_Start
+BGM_Verse_Start_FadeIn
+BGM_verse_Summon_eva228
+BGM_verse_Summon_eva242
+BGM_verse_Summon_eva305
+BGM_verse_Summon_eva32f
+BGM_WitchTime_Off
+BGM_WitchTime_On
+bt_Bound_Sky
+ev0010_bgm
+ev0040_bgm
+ev1055_bgm
+ev1060_Bgm
+ev2000_Bgm
+ev2010_bgm
+ev2040_bgm
+ev2045_bgm
+ev2050_bgm
+ev2055_bgm
+ev2060_bgm
+ev2070_bgm
+ev3000_bgm
+ev3010_bgm
+ev3020_bgm
+ev3050_Bgm
+ev3065_bgm
+ev3070_bgm
+ev4010_Bgm
+ev4018_bgm
+ev4030_bgm
+ev5010_Bgm
+ev5090_bgm
+ev5100_bgm
+ev6000_bgm
+ev6030_Bgm
+eva101_bgm
+eva121_bgm
+eva122_bgm
+eva124_bgm
+eva128_bgm
+eva12f_bgm
+eva145_Bgm
+eva160_bgm
+eva162_bgm
+eva181_bgm
+eva183_bgm
+eva18f_bgm
+eva200_Bgm
+eva202_bgm
+eva205_Bgm
+eva226_Bgm
+eva227_bgm
+eva228_bgm
+eva290_bgm
+eva302_bgm
+eva304_bgm
+eva306_bgm
+light_off
+light_on
+st_shinbaal_play
+st_shinbaal_stop
+# 30665504
+# 127834904
+# 129700829
+# 137126074
+# 173679748
+# 194475721
+# 211371944
+# 229617292
+# 253103374
+# 271335125
+# 271335126
+# 273991912
+# 404649459
+# 432736495
+# 441773443
+# 461480425
+# 542635172
+# 550176388
+# 556727616
+# 559412753
+# 576190336
+# 586699901
+# 592968063
+# 604397520
+# 608776910
+# 609745640
+# 628222784
+# 643300914
+# 643300922
+# 660078499
+# 667218370
+# 680167722
+# 706245357
+# 710411390
+# 714097972
+# 714540871
+# 714939089
+# 727188951
+# 747653142
+# 747653150
+# 764430735
+# 772920661
+# 777642885
+# 781208440
+# 797986029
+# 804918676
+# 814763588
+# 821696257
+# 831541299
+# 832962389
+# 838473968
+# 855251567
+# 861203598
+# 872029144
+# 888646522
+# 905584426
+# 922362003
+# 942646546
+# 948984634
+# 959424131
+# 965373821
+# 965762219
+# 968781790
+# 972694894
+# 976201852
+# 989472455
+# 1004719424
+# 1009757014
+# 1009757022
+# 1023840555
+# 1026534711
+# 1041326406
+# 1043312288
+# 1060089877
+# 1064565687
+# 1066602491
+# 1067088866
+# 1076867468
+# 1093645179
+# 1120305006
+# 1131433873
+# 1134678602
+# 1136389927
+# 1150111084
+# 1218715254
+# 1226269557
+# 1246461086
+# 1263056723
+# 1276259994
+# 1293135994
+# 1341870461
+# 1437586823
+# 1441062327
+# 1444660728
+# 1454364538
+# 1454364543
+# 1471142120
+# 1587973338
+# 1588384804
+# 1622957726
+# 1635030594
+# 1689577151
+# 1696284503
+# 1776118324
+# 1784629087
+# 1832985260
+# 1906576529
+# 1976440289
+# 1998758679
+# 2015081670
+# 2036537641
+# 2059596268
+# 2060018115
+# 2061221108
+# 2079256365
+# 2080395244
+# 2091719781
+# 2131451064
+# 2133381844
+# 2137404804
+# 2284373083
+# 2286198887
+# 2294322837
+# 2296701089
+# 2419660600
+# 2421620020
+# 2428048775
+# 2440993659
+# 2446085633
+# 2476995316
+# 2488836162
+# 2548149384
+# 2548149387
+# 2549764300
+# 2658644371
+# 2702897473
+# 2702897481
+# 2702897483
+# 2702897485
+# 2702897487
+# 2706277791
+# 2708580903
+# 2719675192
+# 2719675194
+# 2719675198
+# 2720451043
+# 2722707731
+# 2747676304
+# 2764453893
+# 2792820637
+# 2797035753
+# 2822582273
+# 2839637098
+# 2879598822
+# 2881897230
+# 2892012759
+# 2894404309
+# 2894404313
+# 2894404315
+# 2894404317
+# 2894404319
+# 2896376403
+# 2896376411
+# 2898674941
+# 2911181898
+# 2911181900
+# 2911181902
+# 2915452522
+# 2929031452
+# 2929931709
+# 2932230083
+# 2940889786
+# 2946709290
+# 2949007796
+# 2949007804
+# 2960069048
+# 2963486873
+# 2965785377
+# 2975879694
+# 2980264560
+# 2982562974
+# 2993584816
+# 2993624219
+# 2997042145
+# 3010362409
+# 3010401905
+# 3010401908
+# 3028715575
+# 3058930436
+# 3080930178
+# 3090099942
+# 3094250442
+# 3097707895
+# 3099204371
+# 3109353876
+# 3111028159
+# 3127805736
+# 3137812674
+# 3144583303
+# 3178138595
+# 3194916188
+# 3211693765
+# 3211693773
+# 3236536653
+# 3277144846
+# 3293333256
+# 3293463481
+# 3306479977
+# 3341045399
+# 3343017336
+# 3354082599
+# 3357822986
+# 3357822991
+# 3374600696
+# 3414468137
+# 3455934989
+# 3469443264
+# 3472712699
+# 3472712702
+# 3472902129
+# 3487346463
+# 3489490286
+# 3499618987
+# 3504038583
+# 3520816160
+# 3537593745
+# 3537593753
+# 3554371342
+# 3561993805
+# 3564126665
+# 3571149051
+# 3578822833
+# 3578822835
+# 3578822839
+# 3587926612
+# 3595600416
+# 3595600418
+# 3595600420
+# 3595600422
+# 3595600428
+# 3604704195
+# 3687766013
+# 3710354365
+# 3722147532
+# 3727131947
+# 3727131950
+# 3738925245
+# 3743909534
+# 3788864457
+# 3788864460
+# 3805642170
+# 3814908370
+# 3839197317
+# 3843081326
+# 3862629259
+# 3914370680
+# 3931148265
+# 3931148267
+# 3968938193
+# 3985433305
+# 4000239751
+# 4010008449
+# 4051800941
+# 4055596730
+# 4070701482
+# 4083050593
+# 4099828178
+# 4099828183
+# 4113595943
+# 4116605770
+# 4142863685
+# 4172473866
+# 4238199149
+# 4239125899
+
+### SFX NAMES (BGM_us.bnk)
+SE_PG_Simple3D
+
+### RTPC/GAME-VARIABLE NAMES (BGM_us.bnk)
+BGM_st_desert1_Volume
+BGM_st_malphas_tower1_Volume
+SE_core_Azimuth
+se_core_elevation
+# 1009038204
+
+### VARIABLE NAMES (BGM_us.bnk)
+BGM_Area_Sewer
+BGM_Area_Story
+BGM_Battle_Ignore
+BGM_battle_normal
+bgm_Battle_Normal_segment
+BGM_Battle_special
+BGM_Boss
+BGM_bt_dragon
+BGM_bt_gomorra
+BGM_bt_gomorra_All
+BGM_bt_shinmadame
+BGM_Climax
+bgm_Event
+BGM_none
+BGM_ot_backfire
+BGM_ot_gomorra_slider
+BGM_ot_shop_arrange
+bgm_ot_shop_segment
+BGM_Others
+BGM_playing_battle_normal
+BGM_root
+BGM_st_asakusa
+BGM_st_backalley
+BGM_st_gomoride
+BGM_st_malphas_tower1
+BGM_st_raid
+BGM_st_thile_event_skip
+BGM_st_underground
+BGM_st_worldwar
+BGM_Stage
+BGM_Summons
+BGM_Summons_Endtype
+# 3641395620
+# 3641395623
+# 3641395622
+# 1149918946
+
+### VALUE NAMES (BGM_us.bnk)
+battle_normal_loop
+battle_normal_Outro
+bayo1
+bt_angel_bayo
+bt_angel_viola
+bt_anubis
+bt_anubis2
+bt_balder4
+bt_battleship
+bt_bayo1_dragon
+bt_beast
+bt_beast_lukar
+bt_beta_bayonetta
+bt_beta_jeanne
+bt_beta_rosa
+bt_bigboss
+bt_centipede
+bt_darkeve
+bt_free
+bt_gomorra_All
+bt_kraken1
+bt_kraken2
+bt_midboss_bayo1
+bt_midboss_bayo2
+bt_midboss_bayo3
+bt_moon
+bt_none
+bt_normal_bayo3
+bt_normal_bayo3_Inst
+bt_normal_viola
+bt_normal_viola_long
+bt_shark_backfin
+bt_sharkboss_core
+bt_shin_demon
+bt_shin_demon_intro
+bt_shingomorrah
+bt_shinmadame
+bt_shinmadame_event
+bt_shinmadame_phase_1
+bt_shinmadame_phase_2
+bt_shinmadame_phase_3
+bt_singularity_1
+bt_singularity_2
+bt_singularity_3
+bt_spider
+bt_spy1
+bt_spy1_fx
+bt_spy2
+bt_spy_boss
+bt_spy_boss_fx
+bt_Summon
+bt_Summon_eva228
+bt_Summon_eva242
+bt_Summon_eva305
+bt_Summon_eva32f
+bt_tornado
+bt_woman_devil
+demon_appear
+End
+FALSE
+homunculus_appear_1
+homunculus_appear_2
+long
+malphas_tower1_1st
+malphas_tower1_2nd
+None
+none_1000ms
+None_1500ms
+none_2000ms
+None_3000ms
+None_4000ms
+none_5000ms
+None_6000ms
+None_7000ms
+None_8000ms
+None_9000ms
+none_shop_leave
+off
+on
+ot_backfire
+ot_backfire_intro_loop
+ot_backfire_outro
+ot_bluessong
+ot_chapter_result
+ot_chapter_select
+ot_dark
+ot_gomorra_slider
+ot_gomorra_slider_scene_1
+ot_gomorra_slider_scene_1_2
+ot_gomorra_slider_scene_2
+ot_gomorra_slider_scene_3
+ot_hourglass
+ot_record_of_time_2
+ot_rush
+ot_rush_2
+ot_shop
+ot_shop_arrange_1
+ot_shop_arrange_2
+ot_shop_arrange_3
+ot_shop_segment_loop
+ot_shop_segment_noise
+ot_SP_result
+ot_spy_op
+root_battle_special
+root_event
+root_none
+root_others
+root_Stage
+scene_01
+scene_02
+scene_03
+scene_04
+scene_05
+scene_06
+scene_07_normal
+scene_07_Skip
+scene_08
+scene_09
+scene_gallery_01
+scene_gallery_02
+scene_gallery_03
+scene_gallery_04
+scene_gallery_05
+scene_gallery_06
+scene_gallery_07_Skip
+scene_gallery_08
+scene_gallery_09
+SE01_LightOn
+short
+silent
+silent_long
+Skip
+st_alfheim
+st_asakusa
+st_asakusa_intro_loop
+st_asakusa_Outro
+st_athletics_1
+st_baal_temple
+st_bike
+st_bike_fx
+st_cheshire_ride
+st_collapse
+st_desert1
+st_desert1_no_intro
+st_elevator
+st_elevator_fx
+st_forest
+st_france1
+st_france2
+st_france3
+st_gomoride
+st_gomoride_loop
+st_gomoride_outro
+st_grave
+st_greatwall1
+st_greatwall2
+st_greatwall3
+st_greatwall4
+st_interspace
+st_malphas_ride
+st_malphas_temple
+st_malphas_tower1
+st_malphas_tower2
+st_none
+st_prologue
+st_raid
+st_raid_loop
+st_raid_loop_submix
+st_raid_Outro
+st_rosa_shooting
+st_sewer
+st_sewer_entrance
+st_shibuya
+st_shibuya_no_intro
+st_shinjuku
+st_spy1
+st_spy1_fx
+st_thile
+st_thile2
+st_thile_event
+st_tunnel
+st_underground
+START
+TRUE
+veryshort
+# 2859472713
+# 2315431365
+# 2315431366
+# 383551577
+# 2212673982
+# 1132379175
+
+### SFX NAMES (Init.bnk)
+No_Output
+pg_spectrum_viewer
+system
+# 5287968
+# 43974560
+# 52206618
+# 83139843
+# 94833815
+# 114545424
+# 229749665
+# 352017818
+# 366511487
+# 419738259
+# 473778619
+# 528115464
+# 544515693
+# 594229404
+# 774446267
+# 844124385
+# 886169126
+# 915651138
+# 965860844
+# 1008403583
+# 1123504480
+# 1259602799
+# 1367964453
+# 1498662262
+# 1517033126
+# 1628177712
+# 2078396456
+# 2382840177
+# 2693020310
+# 2702841424
+# 2956450721
+# 3186519693
+# 3302970054
+# 3369983591
+# 3380395234
+# 3383300639
+# 3515319972
+# 3792739261
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+BGM_gallery_SW
+BGM_RMS_gramophone
+BGM_RMS_Recording_NG_music
+BGM_st_desert1_Volume
+BGM_st_malphas_tower1_Volume
+SE_ba_Cannon
+SE_ba_Collision
+SE_ba_elevation
+SE_ba_SlideSpeed
+SE_CharacterType
+SE_core_Azimuth
+SE_core_BldgBreakCount
+SE_core_DemonSlave
+se_core_elevation
+SE_core_EnemyMaterialType
+SE_core_FloorCollisionType
+SE_core_SeamlessTrans
+SE_core_UI_ActionBt
+SE_core_UI_ActionBt_time
+SE_core_UI_CountDown
+SE_core_WitchTime
+SE_Doppler
+SE_em3010_RollingPow
+SE_em3071_Speed
+SE_em3100_DowsingSonar
+SE_GramophoneDistance
+SE_ListenerPreset
+SE_ListenerPresetFadeTime
+SE_pl_DemonMasquerade
+se_pl_PlayerType
+SE_pl_WeaponCount
+SE_Speed
+SE_z1200_JAlertBroadcast
+SE_z3c00_Balance_Speed
+Summon_CountDown_jingle
+Volume_BGM
+Volume_Environment
+Volume_Master
+Volume_SE
+Volume_VOICE
+# 3278106597
+# 3780147475
+# 1522714401
+# 605427834
+# 6661122
+# 33937705
+# 143413876
+# 155906175
+# 309513074
+# 412512667
+# 584165453
+# 587992615
+# 626643113
+# 656713196
+# 842231238
+# 847273914
+# 925719049
+# 1009038204
+# 1097893957
+# 1254663746
+# 1321976648
+# 1361707482
+# 1380306955
+# 1545198366
+# 1550129351
+# 1562902318
+# 1573184808
+# 1633485575
+# 1779119564
+# 1838710759
+# 2034590869
+# 2376276174
+# 2379870899
+# 2387954086
+# 2513103512
+# 2654288125
+# 2693655799
+# 2727409701
+# 2952628149
+# 3091710016
+# 3173583836
+# 3177124270
+# 3282654400
+# 3321094551
+# 3380936681
+# 3383320150
+# 3409221639
+# 3477282308
+# 3849960781
+# 3921939775
+# 4123370462
+# 4229966901
+# 575779676
+
+### VARIABLE NAMES (Init.bnk)
+BGM_Area_Sewer
+BGM_Battle_Ignore
+BGM_battle_normal
+BGM_battle_normal_intro_moon
+BGM_battle_normal_intro_theme
+BGM_battle_normal_intro_viola
+BGM_battle_normal_Outro
+BGM_battle_normal_region_moon
+BGM_battle_normal_region_theme
+BGM_battle_normal_region_viola
+BGM_Battle_special
+BGM_bt_shinmadame
+bgm_bt_spy_boss
+bgm_bt_spy_boss_fx
+BGM_none
+BGM_ot_backfire
+BGM_ot_gomorra_slider
+BGM_ot_record_of_time
+BGM_ot_shop_arrange
+bgm_ot_shop_Mix
+bgm_ot_shop_segment
+BGM_Others
+BGM_root
+BGM_st_asakusa
+BGM_st_gomoride
+BGM_st_malphas_tower1
+BGM_st_raid
+BGM_st_thile_event_skip
+BGM_Stage
+SE_ba_Collision_Car
+SE_ba_spin
+SE_core_BldgBreakCount
+SE_core_DemonSlaveState
+SE_core_EnemyMaterialType
+se_core_FinishSlow
+SE_core_FireExtinguishing
+SE_core_FloorCollisionType
+se_core_GalleryMode
+SE_core_JukeBox
+SE_core_mute
+SE_core_ROT
+SE_core_TitleCall
+SE_core_UI_ActionBt
+SE_core_WitchTimeslow
+SE_em3010_RollingPow
+SE_p820
+SE_z1200_JAlertBroadcast
+# 3641395620
+# 3641395623
+# 3641395622
+# 930065775
+# 2738232496
+# 3075903376
+# 416087636
+# 2595839104
+# 1442027631
+# 3039481148
+# 3843964539
+# 1344382391
+# 3506651045
+# 161170129
+# 3743606424
+# 3188848326
+# 477210857
+# 2010320937
+# 4222228434
+# 3888838402
+# 2681949582
+# 419454288
+# 1885894520
+# 2171841977
+# 1149918946
+# 3979897786
+# 544257335
+# 1478991539
+# 1031006606
+# 1643555371
+# 3135650578
+# 1024832947
+# 745837934
+# 1173559681
+# 2525345198
+# 2794133555
+# 1291747938
+# 618148171
+# 3891562685
+# 3499927284
+# 149235011
+# 2609658270
+# 1179598080
+# 2249131430
+# 3840398731
+# 3553672108
+# 3780147475
+# 1522714401
+# 605427834
+
+### VALUE NAMES (Init.bnk)
+BGM_gallery_ev_demon_scene_1
+off
+SE01_Finish
+SE01_In
+SE01_InBattle
+SE01_LightOn
+SE01_Look
+SE01_on
+SE01_WitchTime
+# 472142437
+# 898169317
+# 4257321307
+# 180463040
+# 2235435211
+# 1653127645
+# 2732505639
+# 1132379175
+# 3854887468
