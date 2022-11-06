@@ -32,13 +32,19 @@ for OFFSET = 0 < FILE_SIZE
     
     math SIZE = 0
     for SUB_OFFSET = OFFSET < FILE_SIZE
+        xmath TEST_OFFSET " SUB_OFFSET + 8 " 
+        if TEST_OFFSET >= FILE_SIZE
+            math TEST_OFFSET = FILE_SIZE
+            break
+        endif
+    
         endian save CURRENT_ENDIAN
         endian big
         get BLOCK_ID long
         endian set CURRENT_ENDIAN
         get BLOCK_SIZE long
         
-        #print "%BLOCK_ID|h%: %BLOCK_SIZE|h%"
+        #print "%BLOCK_ID|h%: %BLOCK_SIZE|h%, o=%SUB_OFFSET|h%"
 
         # quickbms can't handle too many ORs
         math IS_BLOCK = 0
@@ -62,7 +68,7 @@ for OFFSET = 0 < FILE_SIZE
             break
         endif
     next
-   
+
     string NAME p= "%u.bnk" ID
     #print "%NAME%: %OFFSET|h% %SIZE|h%"
     log NAME OFFSET SIZE
