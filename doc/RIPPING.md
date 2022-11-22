@@ -6,21 +6,32 @@ Quick guide to get decent Wwise rips
 - put all .bnk and .wem in a dir
   - .bnk/wem may be in other bigfiles like .pck, use this:
      https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise_pck_extractor.bms
-- put SoundbankInfo.xml/(bankname).txt/Wwise_IDs.h/etc together too
+- put SoundbankInfo.xml/(bankname).txt/Wwise_IDs.h/etc (or `wwnames.txt`) with the `.bnk` too
   - you want ALL of those, SoundbankInfo.xml doesn't have every name
-  - if you don't have those it's still possible to get names, see
+  - if you don't have those it's still possible to get names using `wwnames.txt`, see
     https://github.com/bnnm/wwiser-utils/blob/master/doc/NAMES.md
-- open (double click) wwiser.pyz, make sure you have "wwnames.db3" in wwiser folder
-- press LOAD and choose some .bnk (bgm.bnk or just all of them), check "move .wem"
+- open (double click) wwiser.pyz
+  - make sure you have "wwnames.db3" in wwiser folder
+- press LOAD and choose some .bnk (bgm.bnk or just all of them)
   - It's recommented to load `init.bnk` (also `1355168291.bnk`) too if you have companion files.
+- check `move referenced .wem to subdir` if you are doing a distributable rip
+  - if you aren't, you can uncheck it and set `wem subdir` to `..` so you don't have to move wem/bnk files later
 - press GENERATE to get .txtp (pay attention to log, you may need to tweak things manually)
   - this creates /txtp folder with .txtp and /txtp/wem folders with .wem
+- before continuing on make sure about these points:
+  - if you loaded `C:\blah\bgm.bnk` and generated TXTP, you should now have a `C:\blah\txtp\` folder
+  - inside that new folder, there is a bunch of (something).txtp
+  - each .txtp points to one or several .wem files, that (by default) are expected to be inside `C:\blah\txtp\wem\`
+  - with the `move .wem to subdir` option wems are moved automatically, so you should have `C:\blah\txtp\wem\123456789.wem`
+  - in some cases you also need to move .bnk to `C:\blah\txtp\wem\`
+    - *wwiser* tells you which ones in the output log, or just move all .bnk
 - test .txtp with vgmstream (you may need to tweak some manually to improve)
   - if you change .txtp also change the filename so it doesn't get overwritten if re-generated
     - ex. from "blah {r}.txtp" you may need to make "blah {r1}.txtp" "blah {r2}.txtp"
 - remove unwanted .txtp (like voices)
-- use this script to move .wem not in .txtp to /unwanted:
+- use these scripts to move .wem not in .txtp to /unwanted:
   https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise-cleaner.py
+  https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise-cleaner-bnk.py
   - this only moves .wem from the /wem (or similarly named) folder
   - check if /unwanted does have wanted music (you may have removed good .txtp)
   - normally you don't need to keep /unwanted in the rip, if it only contains sfx/voices
