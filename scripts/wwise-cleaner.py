@@ -79,6 +79,9 @@ def main():
     # move remaining in folders = unused
     for file_move in files_move:
         file_unwanted = os.path.join(move_dir, file_move)
+        if '..' in file_unwanted:
+            file_unwanted = file_unwanted.replace('..\\', 'prev\\')
+            file_unwanted = file_unwanted.replace('../', 'prev/')
 
         os.makedirs(os.path.dirname(file_unwanted), exist_ok=True)
         os.rename(file_move, file_unwanted)
