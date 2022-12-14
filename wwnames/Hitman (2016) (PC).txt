@@ -1,0 +1,4375 @@
+#@classify-bank
+
+### BANK NAMES
+global
+Init
+main
+
+### BUS NAMES
+airport
+ambience
+animation
+Bangkok
+Colorado
+Crowd
+dialogue
+dialogue_game
+Effects
+Effects_explosions
+FOL_Item_Place
+FOL_Items
+footsteps
+FS_HM
+FS_NPC
+GenericFoley
+GUI
+GUI_Ingame
+GUI_Menu
+HM
+HM_Head
+HM_tail
+Hokkaido
+impacts
+Marrakesh
+Master Audio Bus = 0
+Master Secondary Bus = 0
+music
+music_menu
+NPC
+NPC_Head
+NPC_tail
+Paris
+Play_FOL_HM_Eject_Reload
+prologue
+Props
+ricochets
+SFX
+SFX_BulletImpacts
+SFX_SpecialSFX
+Silenced
+SilencedSweetener
+weapons
+# 3852799359
+# 706898732
+# 449866816
+# 2149036294
+# 3582692356
+# 4250869407
+# 2607695663
+# 2348361200
+# 95883140
+# 827331604
+# 970149429
+# 1555720320
+# 113274976
+# 248526937
+# 2339037907
+# 2865303305
+# 2347232008
+# 3812529520
+# 3334769694
+# 472509748
+# 4160861134
+# 1231264469
+# 858469341
+# 1335746988
+# 725029229
+# 725029230
+# 3264155994
+# 3628766311
+# 3710151351
+# 4200754318
+# 1652586111
+# 1724802254
+# 8595415
+# 62528598
+# 187167177
+# 444646943
+# 653935960
+# 938258642
+# 975904604
+# 1052190917
+# 1108163783
+# 1252243367
+# 1275495529
+# 1323766322
+# 1473078608
+# 1633903779
+# 1916021980
+# 2019091737
+# 2747051219
+# 2767861500
+# 3124940301
+# 3507389807
+# 3550600481
+# 3568653141
+# 3808792305
+# 3864324328
+# 4005240101
+# 4068869669
+# 4285070944
+# 79805624
+# 370010224
+# 580544885
+# 853549104
+# 956525538
+# 1014451082
+# 1017043019
+# 2035804222
+# 2083882603
+# 2228894212
+# 2277095674
+# 2485039649
+# 2491540415
+# 2554710662
+# 2979829402
+# 3045825465
+# 3130467063
+# 3165295205
+# 3212660220
+# 3394505022
+# 3635977762
+# 3731950885
+# 2123481911
+# 513684633
+# 584281513
+# 1543425681
+# 1635222099
+# 1648200409
+# 1907708289
+# 1988039643
+# 2033272420
+# 2853324787
+# 2938246395
+# 2998244216
+# 3081483706
+# 3148326457
+# 3294332686
+# 2736990792
+# 2228240258
+# 3489260016
+# 8681072
+# 310906929
+# 385235139
+# 660417088
+# 703965668
+# 1282113448
+# 1384385645
+# 1591557865
+# 1593535621
+# 1654624339
+# 1665341913
+# 2449732509
+# 2544656498
+# 2607636866
+# 2836563814
+# 3279960198
+# 3311402916
+# 3897493745
+# 3974228973
+# 3652792400
+# 372947515
+# 581644010
+# 2445727659
+# 2863874912
+# 2933150723
+# 3673476799
+# 413128090
+# 494820173
+# 758921565
+# 1073194708
+# 1778110849
+# 2410394597
+# 2887675068
+# 62093097
+# 179764285
+# 1427431465
+# 1771424905
+# 2443905317
+# 2458715562
+# 3051940044
+# 4093968960
+# 4233084018
+# 53161999
+# 3790813009
+# 3985106098
+# 1346408359
+# 2715279025
+# 3428895606
+# 3501579261
+# 2647003509
+# 181408750
+# 3045217691
+# 2117766722
+# 1150900129
+# 2546267700
+# 716022068
+# 538267975
+# 3996756957
+# 3391494711
+# 4211958813
+# 3347183937
+# 918584566
+# 1538853972
+# 2786285003
+# 4257911941
+
+### SFX NAMES (Init.bnk)
+Play_FOL_Clock_Sword_PullOut
+TutorialModalDialog_FibreWire
+# 13143380
+# 48620415
+# 53502688
+# 53921374
+# 75823138
+# 86157773
+# 93311079
+# 97996412
+# 98313097
+# 109121807
+# 134786539
+# 139456951
+# 152398084
+# 157656604
+# 166377939
+# 175850695
+# 182606104
+# 193226790
+# 198487779
+# 214652860
+# 215689296
+# 223451436
+# 226069695
+# 235156104
+# 246493467
+# 247272438
+# 253790308
+# 271899482
+# 300136655
+# 308022600
+# 310513825
+# 311788930
+# 346958465
+# 355440701
+# 356000205
+# 370666066
+# 375675301
+# 378459333
+# 420646769
+# 447649707
+# 461990328
+# 481778622
+# 484890516
+# 514909074
+# 540186111
+# 545472079
+# 572792084
+# 572826987
+# 578721419
+# 602618463
+# 616167063
+# 620714114
+# 639839444
+# 645754913
+# 677215965
+# 701863527
+# 716343969
+# 717877389
+# 741265383
+# 750374040
+# 767822729
+# 793408132
+# 814302506
+# 842560070
+# 852583025
+# 880733990
+# 885041669
+# 891186952
+# 893641889
+# 960909641
+# 965821917
+# 971926255
+# 972695476
+# 975904089
+# 980655600
+# 1000513615
+# 1000954481
+# 1004549295
+# 1012517323
+# 1028620445
+# 1029830335
+# 1116362911
+# 1159390747
+# 1243228033
+# 1460980901
+# 1464691786
+# 1503689060
+# 1595483261
+# 1707087622
+# 1744964121
+# 1773170983
+# 1795652635
+# 1878910241
+# 1990128658
+# 2062056595
+# 2080872166
+# 2090556023
+# 2166168802
+# 2180422931
+# 2206362952
+# 2312838139
+# 2417532148
+# 2517827404
+# 2522362081
+# 2556983361
+# 2574460079
+# 2623479211
+# 2648499661
+# 2661330501
+# 2835409953
+# 2844912338
+# 2865833497
+# 2891462749
+# 2970354948
+# 3007613314
+# 3035941020
+# 3157077980
+# 3231637232
+# 3248699609
+# 3251901035
+# 3290519051
+# 3343133713
+# 3442768367
+# 3453218191
+# 3458274105
+# 3509624715
+# 3676731765
+# 3728139533
+# 3729897086
+# 3812252018
+# 3819430641
+# 3900114836
+# 3992162056
+# 4036388234
+# 4094317425
+# 4097922806
+# 4110676291
+# 4261502824
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+attention
+Bus_Master_Volume
+Bus_Music_Volume
+Debug
+drone
+elevation
+Foliage_Wet
+health
+obstruction
+occlusion
+RTPC_Amb_Gain
+RTPC_Amb_LPF
+RTPC_Amb_TreeWindStrength
+RTPC_ATT_Generator
+RTPC_AttentionVolMod
+RTPC_Crowd_Distant_Ambient_Volume
+RTPC_Crowd_Distant_ATT
+RTPC_Crowd_Distant_LPF
+RTPC_Crowd_Dynamic_ATT
+RTPC_Crowd_Dynamic_CrowdDistance
+RTPC_Crowd_Dynamic_DensityLPF
+RTPC_Crowd_Dynamic_ForCrowdEnabler
+RTPC_Crowd_Dynamic_ForCrowdIndoorFilter
+RTPC_Crowd_Dynamic_GenericRandom_ATT
+RTPC_Crowd_Dynamic_InsideOutside
+RTPC_Crowd_Dynamic_LPF
+RTPC_Crowd_PanX
+RTPC_Crowd_PanY
+RTPC_DynamicMusicAtt
+RTPC_Effects_ATT
+RTPC_FS_HM_Adaptive_Mix
+RTPC_FS_Sweeteners_CharacterStancePitch
+RTPC_FS_Sweeteners_CharacterStanceVol
+RTPC_Generic_ATT
+RTPC_Generic_BiP_Azimuth
+RTPC_Generic_BiP_Distance
+RTPC_Generic_Doppler
+RTPC_Generic_HPF
+RTPC_Generic_LPF
+RTPC_generic_Pitch
+RTPC_GUI_CountdownTimer_Pitch
+RTPC_GUI_CountdownTimer_Volume
+RTPC_IngameMusic_PM_Att
+RTPC_InteractiveProps_ATT
+RTPC_LPF_Generator
+RTPC_PeekAcceleration
+RTPC_PeekValue
+RTPC_Props_CeilingFanSpeed
+RTPC_Props_FreezerOpen
+RTPC_Setpieces_ATT
+RTPC_Setpieces_HPF
+RTPC_Setpieces_LPF
+RTPC_SFX_RigidBodyImpact_MIX_Ragdoll
+RTPC_SFX_TreeWindStrength
+RTPC_StaticProps_ATT
+RTPC_weapons_HPF
+RTPC_weapons_LPF
+RTPC_WindDistortionVolume
+stealth_heartbeat_vol
+volume_level
+# 1764856564
+# 14755490
+# 48128523
+# 108110858
+# 127537191
+# 156915332
+# 197164823
+# 203755823
+# 240153585
+# 290354580
+# 340852289
+# 354385054
+# 356526724
+# 359039581
+# 450338960
+# 471524576
+# 474088081
+# 486683307
+# 499886372
+# 504671692
+# 504817503
+# 523981643
+# 540695916
+# 559671427
+# 610283803
+# 624572493
+# 642307206
+# 643386964
+# 656953421
+# 670125785
+# 676160583
+# 727715846
+# 731692681
+# 752028789
+# 795868408
+# 866435314
+# 899319378
+# 902821043
+# 933710617
+# 943288694
+# 958802576
+# 964636184
+# 1009849978
+# 1092285645
+# 1102414285
+# 1102500474
+# 1103203717
+# 1157955588
+# 1184165887
+# 1196181214
+# 1210302364
+# 1227141117
+# 1329225510
+# 1333158344
+# 1338396556
+# 1378463887
+# 1380436829
+# 1391354120
+# 1431209593
+# 1439133643
+# 1446154621
+# 1468227672
+# 1495363556
+# 1501518685
+# 1506764757
+# 1515308484
+# 1523338420
+# 1538959519
+# 1541768996
+# 1552185193
+# 1567177827
+# 1592377966
+# 1639404525
+# 1650107943
+# 1674965124
+# 1675461630
+# 1678196401
+# 1711993150
+# 1737434676
+# 1739884757
+# 1767718622
+# 1783131284
+# 1785194218
+# 1787126935
+# 1830592977
+# 1860384050
+# 1886548373
+# 1895051924
+# 1917182245
+# 1922526566
+# 1984464491
+# 2028118755
+# 2051750498
+# 2055366565
+# 2085098871
+# 2120914624
+# 2142453823
+# 2145276847
+# 2152433626
+# 2192345065
+# 2210704702
+# 2226754568
+# 2241696117
+# 2271381581
+# 2334368222
+# 2338616828
+# 2350556531
+# 2361636749
+# 2380682675
+# 2406908516
+# 2411575328
+# 2417296735
+# 2438173054
+# 2495054467
+# 2498949055
+# 2516056194
+# 2579544709
+# 2593636560
+# 2599834422
+# 2622230859
+# 2645296802
+# 2702126460
+# 2718429849
+# 2739643610
+# 2752512623
+# 2762991230
+# 2763001519
+# 2802732475
+# 2804895299
+# 2817949443
+# 2864789547
+# 2871226200
+# 2871226201
+# 2871226202
+# 2871226207
+# 2874824694
+# 2879460192
+# 2902211658
+# 2947615153
+# 2954814676
+# 2989078321
+# 3000007257
+# 3002475478
+# 3047155985
+# 3065377955
+# 3117942043
+# 3156391714
+# 3156854627
+# 3196369693
+# 3200820561
+# 3229262818
+# 3234904931
+# 3280930915
+# 3285879538
+# 3287289613
+# 3300487785
+# 3315601118
+# 3340960736
+# 3384798324
+# 3386325695
+# 3409498171
+# 3417722608
+# 3425660550
+# 3464675948
+# 3468348960
+# 3468830802
+# 3479714279
+# 3524069376
+# 3532790160
+# 3539052813
+# 3549981295
+# 3551361198
+# 3561909659
+# 3566443855
+# 3568990439
+# 3581229493
+# 3589069767
+# 3618325987
+# 3636586366
+# 3689539278
+# 3702609132
+# 3705612522
+# 3727607108
+# 3744245936
+# 3749548540
+# 3804731846
+# 3876043408
+# 3895349933
+# 3947411390
+# 3949112832
+# 3959499946
+# 3970314662
+# 4021234942
+# 4025412500
+# 4087619287
+# 4112559223
+# 4177105113
+# 4198389523
+# 4213879402
+# 4229959824
+# 4236987342
+# 4285083502
+
+### VARIABLE NAMES (Init.bnk)
+GameFlow_States
+Gameplay_GameStates
+InsideOutsideCrowd
+MenuMusic
+MusicCore_AmbientState
+MusicCore_CompStates
+# 2789131005
+# 1100208474
+# 1100208475
+# 4098760510
+# 913596838
+# 296798498
+# 57313553
+# 1089725673
+# 1304838836
+# 2183172990
+# 4207986241
+# 4056590271
+# 2341300419
+# 3474953283
+# 4187178040
+# 1040761112
+# 548053102
+# 425119921
+
+### VALUE NAMES (Init.bnk)
+Dead
+InCloset
+InGame
+InPauseMenu
+Instinct
+InVent
+InVent_Peeking
+LookAt
+menu_enter
+Moment
+NoGame
+Normal_Ambient
+Normal_Combat
+Opportunity_Eavesdrop
+PointShooting
+PreGame
+SniperMode
+SniperSlowDown
+# 2556999532
+# 2647923717
+
+### EVENT NAMES (global.bnk)
+Anim_GenFoley_Flap
+Anim_GenFoley_Grab
+Anim_GenFoley_InitAttack
+Anim_GenFoley_LandImpact
+Anim_GenFoley_Release
+Anim_GenFoley_RipBody
+Anim_GenFoley_Roll
+Anim_GenFoley_Slide
+Anim_GenFoley_SlideFast
+Anim_GenFoley_SwooshBody
+Anim_GenFoley_SwooshFast
+ATTBackup_Destructables_in_CC
+ATTDown_Destructables_in_CC
+Gameplay_Reset
+Gameplay_Started
+Gameplay_Stopped_NoGame
+GUI_Phone_PhoneMenuMusic_Play
+Mute_AllButDialogue
+Mute_AllButMusic
+Mute_AllMusic
+Mute_Body_Fall
+Mute_BreakNeck
+Mute_HandlerAndCinematics
+Pause_All
+Pause_Debriefing
+Pause_Inventory
+Pause_LogbookMenu
+Pause_LogbookMenuDuringIntro
+Pause_PauseMenu
+Pause_TutorialModalDialog
+Play_FOL_NPC_Cloth_Grab_H
+Play_FOL_NPC_Cloth_Grab_L
+Play_FOL_NPC_Cloth_Grab_M
+Play_FOL_NPC_Cloth_Movement_H
+Play_FOL_NPC_Cloth_Movement_L
+Play_FOL_NPC_Cloth_Movement_M
+Play_FOL_NPC_Cloth_Rustle_H
+Play_FOL_NPC_Cloth_Rustle_L
+Play_FOL_NPC_Cloth_Rustle_M
+Play_FOL_NPC_Cloth_Scratch_M
+Play_FOL_NPC_Cloth_Slide_H
+Play_FOL_NPC_Cloth_Slide_L
+Play_FOL_NPC_Cloth_Slide_M
+Play_FOL_NPC_Cloth_Stretch_H
+Play_FOL_NPC_Cloth_Stretch_L
+Play_FOL_NPC_Cloth_Stretch_M
+Play_FOL_NPC_Weapon_Aim
+Play_FOL_PhoneFromPocket
+Play_FOL_PutPhoneInPocket
+Play_FOL_SmartPhone_HomeButton
+Play_FOL_SmartPhone_Scroll
+Play_FOL_SmartPhone_Swipe
+Play_FOL_SmartPhone_Type
+Play_GUI_EndGameMenu
+Play_GUI_Global_Accept
+Play_GUI_Global_Cancel
+Play_GUI_Global_ChangeSelection
+Play_GUI_Global_ClosePauseMenu
+Play_GUI_Global_Map_SnapToIcon
+Play_GUI_Global_Map_ZoomIn
+Play_GUI_Global_Map_ZoomOut
+Play_GUI_Global_NextPage
+Play_GUI_Global_NoEntry
+Play_GUI_Global_OpenPauseMenu
+Play_GUI_Global_PreviousPage
+Play_GUI_Global_Slide
+Resume_All
+Resume_Inventory
+Resume_LogbookMenu
+Resume_PauseMenu
+Resume_TutorialModalDialog
+Unmute_AllButDialogue
+UnMute_AllButMusic
+Unmute_AllMusic
+UnMute_Body_Fall
+UnMute_HandlerAndCinematics
+# 26670175
+# 137418445
+# 224623628
+# 554114842
+# 558312055
+# 599195045
+# 684285469
+# 774020354
+# 1243806627
+# 1396911506
+# 1673793026
+# 1973593963
+# 2101841557
+# 2553910560
+# 2671586001
+# 2689016769
+# 3073810018
+# 3089411043
+# 3104210362
+# 3350154487
+# 4015255420
+# 4197829212
+# 4275382034
+
+### SFX NAMES (global.bnk)
+# 29350469
+
+### RTPC/GAME-VARIABLE NAMES (global.bnk)
+occlusion
+RTPC_FS_HM_Adaptive_Mix
+RTPC_Generic_BiP_Azimuth
+# 1495363556
+# 3568990439
+# 450338960
+
+### VARIABLE NAMES (global.bnk)
+GameFlow_States
+ItemWeapon
+MenuMusic
+Outfit
+
+### VALUE NAMES (global.bnk)
+Armour
+Bells
+BodyguardSuit
+CatwalkDress
+EmptyHanded
+Handgun
+InGame
+Item_Bottle
+Item_Can_Liquid
+Item_Container
+Item_Keys
+Item_Liquid
+Item_Rattly_Metal
+Item_Solid_Medium
+Item_Squishy
+Janitor
+LabBioSuit
+LeatherBag
+Metal
+Naked
+NoGame
+PoliceUniform
+PreGame
+Rifle
+Robe
+Suit47
+# 2556999532
+# 2647923717
+# 3254566550
+
+### EVENT NAMES (main.bnk)
+Anim_GenFoley_Flap
+Anim_GenFoley_Grab
+Anim_GenFoley_InitAttack
+Anim_GenFoley_LandImpact
+Anim_GenFoley_Release
+Anim_GenFoley_RipBody
+Anim_GenFoley_RipBody_Screwdriveq
+Anim_GenFoley_RipBody_Screwdriver
+Anim_GenFoley_Roll
+Anim_GenFoley_Slide
+Anim_GenFoley_SlideFast
+Anim_GenFoley_SwooshBody
+Anim_GenFoley_SwooshFast
+ATTBackup_Destructables_in_CC
+ATTDown_Destructables_in_CC
+BodyFall_Play
+DEBUG_GameEventListener_IntroFadeFailsafe
+DEBUG_GameEventListenerIntroCutStartSent
+DEBUG_Generic
+DEBUG_GlobalSound_GameplayStart
+DEBUG_GlobalSound_GameplayStop
+DEBUG_GlobalSound_IntroCutStart
+DEBUG_GlobalSound_IntroSeqEvent
+DEBUG_GlobalSound_IntroSeqSkip
+DEBUG_GlobalSound_IntroSeqStart
+DEBUG_GlobalSound_SavegameRestored
+DEBUG_HeroSpawnSD_EventCSent
+DEBUG_HeroSpawnSD_OnPlay
+DEBUG_MenuController_AutoLoadPressed
+DEBUG_MenuController_ExitToMainMenuPressed
+DEBUG_MenuController_QuickLoadPressed
+DEBUG_MenuController_ReplayPressed
+DEBUG_MenuController_SavePressed
+ElectrocuteNPC_Play
+ElectrocuteNPC_Stop
+Explosion_Generic_Play
+Explosion_Generic_Play_01
+Explosion_PropaneFlask_Play
+Firearm_Handling_Aim_Pistol_Play
+Firearm_Handling_Aim_Rifle_Play
+Firearm_Handling_EmpthyShot_Default_Play
+Firearm_Handling_EnterCrouch_Pistol_Play
+Firearm_Handling_EnterCrouch_Rifle_Play
+Firearm_Handling_EnterStand_Pistol_Play
+Firearm_Handling_EnterStand_Rifle_Play
+Firearm_Handling_Equip_Default_Play
+Firearm_Handling_Equip_Pistol_Play
+Firearm_Handling_Equip_Rifle_Play
+Firearm_Handling_UnEquip_Holster_Pistol_Play
+Firearm_Handling_UnEquip_Holster_Rifle_Play
+Firearm_Handling_UnEquip_Place_Pistol_Play
+Firearm_Handling_UnEquip_Place_Rifle_Play
+FOL_Footstep_MetalLadder_Climb
+FOL_Item_Katana_CloseCombat_Impact_Play
+FOL_Item_Katana_DeadlyThrowImpact_Play
+FOL_Item_Katana_Foley_Item_Place_Play
+Foley_BigSpot_Lights_Off_Play
+Foley_BigSpot_Lights_On_Play
+Foley_Cigarette_Inhale_fast_01
+Foley_Cloth_Grab_Play
+Foley_Smoking_Cigar_PullFromPackage_Play
+Foley_Smoking_Cigarette_DropDown
+Foley_Smoking_Cigarette_StubOutFoot
+Foley_Smoking_Cough_Svereal
+Foley_Smoking_Dispose_Play
+Foley_Smoking_Exhale_Play
+Foley_Smoking_Inhale_Generic
+Foley_Smoking_InhaleBig_Play
+Food_Cooking_Play
+Gameplay_Reset
+Gameplay_Started
+Gameplay_Stopped_NoGame
+Generic_CrowdDialogue_Push_PLAY
+Generic_CrowdFoley_Push_PLAY
+GUI_Ingame_AmmoPickup_Play
+GUI_Ingame_AttentionHUD_Play
+GUI_Ingame_AttentionHUD_Stop
+GUI_Ingame_PauseMenu_Play
+GUI_ingame_TrappedRiggedIcon_Play
+GUI_Phone_PhoneMenuMusic_Play
+Handgun_WeaponRattle_Play
+HandImpact_DrainPipePlay
+HandImpact_Grab_Leather_MetalPipe_Play
+HandImpact_OnWallPlay
+IngameMusic_EnvMusicCombatState_Enter
+IngameMusic_EnvMusicCombatState_Leave
+Item_BottleCognac_Foley_Item_Place_Play
+Item_CloseCombat_Impact_Play
+Item_Crowbar_CloseCombat_Impact_Play
+Item_Crowbar_CloseCombat_ImpactBack
+Item_Crowbar_CloseCombat_ImpactBack_Play
+Item_Crowbar_DeadlyThrow
+Item_DeadlyThrowImpact_Play
+Item_ElectricalKit_CloseCombat_Impact_Play
+Item_Foley_Item_Place_Play
+Item_Wrench_CloseCombat_Impact_Low_Play
+Item_Wrench_CloseCombat_Impact_Play
+Key_In_Lock_Open_Play
+Mtl_AddOn_Layer_End
+Mtl_AddOn_Layer_Start
+Mtl_AmbientZone_UnMuteStingerBus
+Mtl_C00_Stop_Moment
+Mtl_C03_Stop_Moment
+Mtl_CL1_to_CL2
+Mtl_CL1_to_CL3
+Mtl_CL2_to_CL1
+Mtl_CL2_to_CL3
+Mtl_CL3_to_CL1
+Mtl_CL3_to_CL2
+Mtl_CloseToExit
+Mtl_DisableBioSuitFilter
+Mtl_EnableBioSuitFilter
+Mtl_EndCombat
+Mtl_Exf_Amb
+Mtl_Exf_Com
+Mtl_Exf_Sus
+Mtl_ExitCut
+Mtl_ExitCut_End
+Mtl_GoCombat
+Mtl_GoCombat_01
+Mtl_GoCombat_02
+Mtl_GoExf
+Mtl_HighTension_End
+Mtl_HighTension_Start
+Mtl_L0_to_L1
+Mtl_L0_to_L2
+Mtl_L0_to_L3
+Mtl_L0_to_L4
+Mtl_L1_to_L0
+Mtl_L1_to_L2
+Mtl_L1_to_L3
+Mtl_L1_to_L4
+Mtl_L2_to_L0
+Mtl_L2_to_L1
+Mtl_L2_to_L3
+Mtl_L2_to_L4
+Mtl_L3_to_L0
+Mtl_L3_to_L1
+Mtl_L3_to_L2
+Mtl_L3_to_L4
+Mtl_L4_to_L0
+Mtl_L4_to_L1
+Mtl_L4_to_L2
+Mtl_L4_to_L3
+Mtl_NotCloseToExit
+Mtl_SilenceZone_MuteStingerBus
+Mtl_TargetLayer_End
+Mtl_TargetLayer_EndNow
+Mtl_TargetLayer_Start
+Mute_All
+Mute_AllButDialogue
+Mute_AllButMusic
+Mute_AllMusic
+Mute_Body_Fall
+Mute_BreakNeck
+Mute_Bus_Master
+Mute_Bus_Music
+Mute_HandlerAndCinematics
+Mute_Weapons_HM
+Pause_All
+Pause_Debriefing
+Pause_Inventory
+Pause_LogbookMenu
+Pause_LogbookMenu_DuringExitSeq
+Pause_LogbookMenuDuringIntro
+Pause_PauseMenu
+Pause_PauseMenu_DuringExitSeq
+Pause_TutorialModalDialog
+Play_13_Schubert_Ave_Maria
+Play_Action_ButtonHold_ChangeDisguise
+Play_Activator_ToiletInteraction
+Play_Airconditioner01
+Play_Airconditioner02
+Play_Airconditioner02_Low
+Play_Airconditioner03
+Play_Airconditioner04
+Play_Airconditioner05
+Play_Airconditioner05_Start
+Play_Airconditioner05_Stop
+Play_AIState_Arrest_EsclamationImpact_01
+Play_AIState_Arrest_EsclamationLeadIn_01
+Play_AIState_Arrest_MoronArrest_01
+Play_AIState_WhiteDots_01
+Play_AIState_WhiteDots_Disappear_01
+Play_Alarm_04_Mono_LOOP_01
+Play_ambience
+Play_Ashtray
+Play_BLD_SFX_Stress
+Play_Body_Container_Crate_BodyDrop
+Play_Body_Container_Crate_Close
+Play_Body_Container_Crate_Close_NoSlam_01
+Play_Body_Container_Crate_Open
+Play_Body_Container_Freezer_BodyDrop
+Play_Body_Container_Freezer_BodyDrop_02
+Play_Body_Container_Freezer_BodyDrop_03
+Play_Body_Container_Freezer_Close
+Play_Body_Container_Freezer_Close_01
+Play_Body_Container_Freezer_Close_NoSlam_01
+Play_Body_Container_Freezer_Close_NoSlam_02
+Play_Body_Container_Freezer_Open
+Play_Body_Container_Freezer_Open_01
+Play_Body_Container_Locker_BodyFall
+Play_Body_Container_Locker_Close
+Play_Body_Container_Locker_Close_NoSlam
+Play_Body_Container_Locker_Close_NoSqueak
+Play_Body_Container_Locker_Open
+Play_Body_Freezer_Amb_Loop
+Play_Bottle
+Play_Bottle_Empty
+Play_BulletImpacts
+Play_ButtonPress_metallic_01
+Play_ButtonPress_metallic_02
+Play_ButtonPress_metallic_03
+Play_ButtonPress_metallic_04
+Play_ButtonPress_metallic_05
+Play_C00_Moment
+Play_C03_Moment
+Play_Can_Soda_A
+Play_Can_Soda_A_Break
+Play_Can_Soda_A_Open
+Play_CannedSpaghetti_Pour
+Play_Car_Explosion_Car
+Play_Car_Explosion_Van
+Play_Car_Tire_Deflate
+Play_CarAlarm_01a_Start_01
+Play_CC_C00_IntroPart1
+Play_CC_C00_IntroPart2
+Play_CC_IntroPart1
+Play_CC_IntroPart1_01
+Play_CC_IntroPart1_02
+Play_CC_IntroPart2
+Play_CC_IntroPart2_01
+Play_CC_IntroPart2_02
+Play_Chess_Cloth
+Play_Chess_Drop
+Play_Chess_pickUp
+Play_ClubDoor_Close
+Play_ClubDoor_Open
+Play_ClubDoor_Slam
+Play_Collection_OpenDevice_01
+Play_Composition_09_Niels03
+Play_Composition_11_Niels00
+Play_ComputerCaseNoise
+Play_Crate_Electronics
+Play_Crate_Kitchenwaret
+Play_Crate_Tomatoes
+Play_CrowBar_Action_Metal_Break
+Play_CrowBar_Action_Metal_Impact
+Play_Crowbar_Foley_Item_Placed
+Play_Crowbar_Interact_Door_01a
+Play_Crowbar_Interact_Door_01b
+Play_Crowd_Bar_RandomSounds_2D
+Play_Crowd_Bar_RandomSounds_2D_RandomPan
+Play_Crowd_Dummy_FS
+Play_Crowd_Generic_RandomSounds_2D
+Play_Crowd_Generic_RandomSounds_2D_RandomPan
+Play_Crowd_Prologue_Dynamic_Arc_Pan
+Play_Crowd_Prologue_Dynamic_Arc_Pan_01
+Play_CT_StepUp_Plus1
+Play_CT_StepUp_Plus2
+Play_Cups_Plastic_A
+Play_Door_Crowbar_Wood_Break
+Play_Door_CrowBar_Wood_Impact
+Play_Door_FenceDoubleClose
+Play_Door_FenceDoubleOpen
+Play_Door_FenceDoubleSlam1
+Play_Door_FenceDoubleSlam2
+Play_Door_Freezer_Close
+Play_Door_Freezer_Open
+Play_Door_Handle_Wood_Light_01
+Play_Door_MetalSwing_Close
+Play_Door_MetalSwing_Open
+Play_Door_MetalSwing_Slam
+Play_DuckArmed
+Play_DuckCountDown
+Play_DuckTimer
+Play_EjectorSeat_Buckle02
+Play_EjectorSeat_Buckle03
+Play_EjectorSeat_Buckle1
+Play_EjectorSeat_Debris
+Play_EjectorSeat_EnterPlane
+Play_EjectorSeat_Fire
+Play_EjectorSeat_Ladder
+Play_EjectorSeat_Plane_Idle
+Play_EjectorSeat_PullFailed
+Play_EjectorSeat_Rig
+Play_EjectorSeat_Sequence
+Play_Ejectorseat_ThroughRoof
+Play_Equip_Grab
+Play_ExplosiveDevice_Placed
+Play_FanCeiling6063_50_ST_LOOP
+Play_FinishPhone
+Play_FinishPhone_01
+Play_FinishPhone_02
+Play_FinishPhone_03
+Play_FOL_47EnterCover_Flap
+Play_FOL_47EnterCover_Slide
+Play_FOL_47GetInCoverImpact
+Play_FOL_47GetOutOfCover
+Play_FOL_47StartSneak_Flap
+Play_FOL_47StopSneak_Flap
+Play_FOL_47StopSneak_Release
+Play_FOL_Agility_Ladder_Slide
+Play_FOL_Agility_Ladder_Slide_Loop
+Play_FOL_Agility_Ledge_Climb_Foot
+Play_FOL_Agility_Pipe_Slide
+Play_FOL_Agility_Pipe_Slide_Loop
+Play_FOL_Agility_Sweetener_High
+Play_FOL_Agility_Sweetener_Low
+Play_FOL_Armchair_SitDown
+Play_FOL_AttackElbow_Impact
+Play_FOL_AttackKick_Impact
+Play_FOL_AttackKnee_Impact
+Play_FOL_BodyFall
+Play_FOL_BodyFall_01
+Play_FOL_BoneBreak
+Play_FOL_Bottle_Grab
+Play_FOL_BreakNeck_01
+Play_FOL_Brush_ShoePolish_Slide
+Play_FOL_Canned_Spaghetti_CloseCombat_Impact
+Play_FOL_Canned_Spaghetti_CloseCombat_ImpactBack
+Play_FOL_Canned_Spaghetti_DeadlyThrowImpact
+Play_FOL_Canned_Spaghetti_Placed
+Play_FOL_Canned_Spaghetti_Throw
+Play_FOL_CanSoda_CloseCombat_Impact
+Play_FOL_CanSoda_CloseCombat_ImpactBack
+Play_FOL_Chair_Cafe_Move
+Play_FOL_Chair_Cafe_Squeak
+Play_FOL_ChangeDisguise_Arm_01
+Play_FOL_ChangeDisguise_Arm_02
+Play_FOL_ChangeDisguise_Flap
+Play_FOL_ChangeDisguise_GetDown_01
+Play_FOL_ChangeDisguise_GetUp_01
+Play_FOL_ChangeDisguise_GrabClothes_01
+Play_FOL_CleanHands
+Play_FOL_CleanTable
+Play_FOL_CloseCombatBegin_InitAttack
+Play_FOL_Cloth_Scratch
+Play_FOL_Cloth_Struggle
+Play_FOL_ClothGrabPush
+Play_FOL_ClothStretch
+Play_FOL_Coffee_Drink
+Play_FOL_CoffeeMug_Down
+Play_FOL_CoffeeMug_Up
+Play_FOL_Computer_Typing
+Play_FOL_Crowd_Cloth_Movement
+Play_FOL_Crowd_Push
+Play_FOL_DragBody_Event_Loud
+Play_FOL_DragBody_Event_Med
+Play_FOL_DrinkingWine
+Play_FOL_FibreWire_Impact
+Play_FOL_FibreWire_Strangle
+Play_FOL_FibreWire_Swoosh
+Play_FOL_FibreWire_SwooshFast
+Play_FOL_Fiddle_Screw
+Play_FOL_Fiddle_With_Metal
+Play_FOL_Fiddle_With_Plastic
+Play_FOL_Fiddle_With_Plastic_Hero
+Play_FOL_Footstep_MetalLadder_End
+Play_FOL_Footstep_MetalLadder_Turn
+Play_FOL_FS_Ladder
+Play_FOL_FuseBox_Classic_Close_01
+Play_FOL_FuseBox_Classic_Open_01
+Play_FOL_FuseBox_Close
+Play_FOL_FuseBox_Modern_Close_01
+Play_FOL_FuseBox_Modern_Open_01
+Play_FOL_FuseBox_Slide_Close_01
+Play_FOL_FuseBox_Slide_Open_01
+Play_FOL_GettingSick_Content
+Play_FOL_GettingSick_Cough
+Play_FOL_GettingSick_Idle
+Play_FOL_GettingSick_Vomitting
+Play_FOL_Hammar_Placed
+Play_FOL_Hammer_DeadlyThrow
+Play_FOL_Hammer_Impact_CloseCombat
+Play_FOL_Hammer_ImpactBack_CloseCombat
+Play_FOL_HandClaps
+Play_FOL_Hero_Computer_Typing
+Play_FOL_Hero_Pencil_Period
+Play_FOL_Hero_Pencil_Write
+Play_FOL_Hero_Tablet_HomeButton
+Play_FOL_Hero_Tablet_Swipe
+Play_FOL_HM_Bottle_Grab
+Play_FOL_HM_Fiddle_Grab_Something
+Play_FOL_HM_KnifeHandling_Ring
+Play_FOL_HM_KnifeHandling_ScrapeThumb
+Play_FOL_item_Ammo_Placed_Copperhead
+Play_FOL_Item_Axe_AxeDeadlyThrow
+Play_FOL_Item_Axe_Impact
+Play_FOL_Item_Axe_Impact_Low
+Play_FOL_Item_Axe_Placed
+Play_FOL_Item_Axe_PullOut
+Play_FOL_Item_Axe_PullOut_After_Throw
+Play_FOL_Item_Axe_Slit_Throath
+Play_FOL_Item_BaseballBat_Impact
+Play_FOL_Item_BaseballBat_Impact_DeadlyThrow
+Play_FOL_Item_BaseballBat_ImpactBack
+Play_FOL_Item_BaseballBat_Placed
+Play_FOL_Item_Brick_Break
+Play_FOL_Item_Bust_Break
+Play_FOL_Item_Bust_Hide
+Play_FOL_Item_Bust_Impact_CloseCombat
+Play_FOL_Item_Bust_Impact_Deadly_Throw
+Play_FOL_Item_Bust_ImpactBack_CloseCombat
+Play_FOL_Item_CanSoda_DeadlyThrowImpact
+Play_FOL_Item_CanSoda_Throw
+Play_FOL_Item_Cleaver_Impact
+Play_FOL_Item_Cleaver_Impact_Back
+Play_FOL_Item_Cleaver_Impact_Throw
+Play_FOL_Item_Cleaver_PullOut
+Play_FOL_Item_Cleaver_PullOut_After_Throw
+Play_FOL_Item_Cleaver_Slit_Throath
+Play_FOL_Item_Coconut_Break
+Play_FOL_Item_Coconut_Impact_CloseCombat
+Play_FOL_Item_Coconut_Place
+Play_FOL_Item_Coin_Hide
+Play_FOL_Item_CrystalBall_Break
+Play_FOL_Item_FireExtinguisher_DeadlyThrow
+Play_FOL_Item_FireExtinguisher_Impact
+Play_FOL_Item_FireExtinguisher_Impact_Low
+Play_FOL_Item_FirePoker_deadlyThrow
+Play_FOL_Item_FirePoker_Impact
+Play_FOL_Item_FirePoker_Impact_back
+Play_FOL_Item_GolfClub_DeadlyThrow
+Play_FOL_Item_GolfClub_Impact
+Play_FOL_Item_GolfClub_ImpactBack
+Play_FOl_Item_Insecticide_pour
+Play_FOL_Item_Knife_PullOut
+Play_FOL_Item_Knife_PullOut_after_throw
+Play_FOL_Item_LeadPipe_Impact
+Play_FOL_Item_LeadPipe_Impact_Back
+Play_FOL_Item_LeadPipe_Impact_Low
+Play_FOL_Item_LockPick_Impact
+Play_FOL_Item_Lockpick_Placed
+Play_FOL_Item_Poison_Pills_pickUp
+Play_FOL_Item_Poison_Pills_Placed
+Play_FOL_Item_PoliceBaton_DeadlyThrow
+Play_FOL_Item_PoolBall_CloseCombatImpact
+Play_FOL_Item_PoolBall_DeadlyThrowImpact
+Play_FOL_Item_PropaneFlask_Impact
+Play_FOL_Item_Scissor_DeadlyThrowImpact
+Play_FOL_Item_Sword_Imapct_DeadlyThrow
+Play_FOL_Item_Sword_Impact
+Play_FOL_Item_Sword_Impact_back
+Play_FOL_Item_Sword_PullOut
+Play_FOL_Item_Sword_PullOut_afterthrow
+Play_FOL_Item_Syringe_Placed
+Play_FOL_Item_ToyTank_Break
+Play_FOL_Key_Move
+Play_FOL_Knife_Impact_Back
+Play_FOL_Knife_Impact_Custom
+Play_FOL_LabBioSuit_GasMask_2D
+Play_FOL_LabBioSuit_GasMask_FibreWire
+Play_FOL_LabBioSuit_GasMask_Lp_2D
+Play_FOL_LeadPipe_DeadlyThrow
+Play_FOL_LeatherGlovesCreak
+Play_FOL_LighterOn
+Play_FOL_MetalRailing_Grab
+Play_FOL_Military_Movement
+Play_FOL_Military_Salute
+Play_FOL_Millitary_PushUp_Gasp
+Play_FOL_Millitary_PushUp_WeaponRattle
+Play_FOL_NeckBreak
+Play_FOL_Newspaper_Close_Hero
+Play_FOL_Newspaper_Open_Hero
+Play_FOL_Newspaper_Pickup_Hero
+Play_FOL_Newspaper_PutDown_Hero
+Play_FOL_NPC_Cloth_Grab_H
+Play_FOL_NPC_Cloth_Grab_L
+Play_FOL_NPC_Cloth_Grab_M
+Play_FOL_NPC_Cloth_Movement_H
+Play_FOL_NPC_Cloth_Movement_L
+Play_FOL_NPC_Cloth_Movement_M
+Play_FOL_NPC_Cloth_Rustle_H
+Play_FOL_NPC_Cloth_Rustle_L
+Play_FOL_NPC_Cloth_Rustle_M
+Play_FOL_NPC_Cloth_Scratch_M
+Play_FOL_NPC_Cloth_Slide_H
+Play_FOL_NPC_Cloth_Slide_L
+Play_FOL_NPC_Cloth_Slide_M
+Play_FOL_NPC_Cloth_Stretch_H
+Play_FOL_NPC_Cloth_Stretch_L
+Play_FOL_NPC_Cloth_Stretch_M
+Play_FOL_NPC_PunchFace
+Play_FOL_NPC_Weapon_Aim
+Play_FOL_Paint_Handling_Roller_Down
+Play_FOL_Paint_Handling_Roller_Up
+Play_FOL_Paint_Roller_Down
+Play_FOL_Paint_Roller_Up
+Play_FOL_Pencil_Period_01
+Play_FOL_Pencil_Write
+Play_FOL_PhoneFromPocket
+Play_FOL_Pickup_Bottle
+Play_FOL_Pickup_Plate
+Play_FOL_Place_Bottle
+Play_FOL_PowerGenerator_Kick
+Play_FOL_PunchBody_Impact
+Play_FOL_PunchBody_LeadIn
+Play_FOL_PunchFace_Impact
+Play_FOL_PunchFace_LeadIn
+Play_FOL_PutDown_Plate
+Play_FOL_PutDown_ValveOpen_Hero
+Play_FOL_PutPhoneInPocket
+Play_FOL_PutTabletFromPocket
+Play_FOL_PutTabletInPocket
+Play_FOL_RadioChatter_Close
+Play_FOL_RadioChatter_Open
+Play_FOL_Ragdoll_FirstImpact
+Play_FOL_Reload_Glock_ClipIn_P_01
+Play_FOL_Reload_Glock_ClipIn_P_02
+Play_FOL_Reload_Glock_ClipOut
+Play_FOL_Reload_HK416_ClipIn_01
+Play_FOL_Reload_HK416_ClipIn_02
+Play_FOL_Reload_HK416_ClipIn_Hit_01
+Play_FOL_Reload_HK416_ClipOut_01
+Play_FOL_Reload_HK416_Reload_Cocking
+Play_FOL_Reload_HM_DualHardballer_Reload_ClipsIn
+Play_FOL_Reload_HM_DualHardballer_Reload_ClipsOut
+Play_FOL_Reload_HM_DualHardballer_Reload_Cock
+Play_FOL_Reload_HM_DualSMG_Reload_ClipsIn
+Play_FOL_Reload_HM_DualSMG_Reload_ClipsOut
+Play_FOL_Reload_HM_DualSMG_Reload_ClipsOut_Short
+Play_FOL_Reload_HM_DualSMG_Reload_Cock
+Play_FOL_Reload_HM_HK416_Reload_ClipIn
+Play_FOL_Reload_HM_HK416_Reload_ClipOut
+Play_FOL_Reload_HM_Mossberg_Reload_CartridgeIn_01
+Play_FOL_Reload_HM_Mossberg_Reload_Cock_01
+Play_FOL_Reload_HM_Mossberg_Reload_GrabCartridge_01
+Play_FOL_Reload_HM_SingleHardBaller_Reload_ClipOn_01
+Play_FOL_Reload_HM_SingleHardBaller_Reload_ClipOut_01
+Play_FOL_Reload_HM_SingleHardBaller_Reload_Cock_01
+Play_FOL_Reload_HM_Spas12_Reload_CartridgeIn_01
+Play_FOL_Reload_HM_Spas12_Reload_Cock_01
+Play_FOL_Reload_HM_Spas12_reload_Fiddle
+Play_FOL_Reload_HM_Spas12_Reload_GrabCartridge_01
+Play_FOL_Reload_Reload_Sniper_Saiko_Eject
+Play_FOL_Reload_Reload_Sniper_Saiko_Mag_In
+Play_FOL_Reload_SMG_ClipIn_01
+Play_FOL_Reload_SMG_ClipIn_02
+Play_FOL_Reload_SMG_ClipOut_01
+Play_FOL_Reload_SMG_ClipOut_02
+Play_FOL_Reload_Sniper_Saiko_Eject
+Play_FOL_Reload_Sniper_Saiko_Mag_In
+Play_FOL_Reload_SniperSakoTRG_ClipIn_01
+Play_FOL_Reload_SniperSakoTRG_ClipOut_01
+Play_FOL_Reload_SniperSakoTRG_Cock_01
+Play_FOL_Rubbing_Squeak
+Play_FOL_Scissors_CloseCombat_Impact
+Play_FOL_Sink_ValveOpen_SqueaksShort
+Play_FOL_SkullCrack
+Play_FOL_SlitThroat
+Play_FOL_SlitThroat_01
+Play_FOL_SlitThroat_02
+Play_FOL_SmartPhone_AutoDial
+Play_FOL_SmartPhone_End
+Play_FOL_SmartPhone_HomeButton
+Play_FOL_SmartPhone_Scroll
+Play_FOL_SmartPhone_Swipe
+Play_FOL_SmartPhone_Type
+Play_FOL_Stirring_Sauce
+Play_FOL_Stirring_TapSpoon
+Play_FOL_SwallowWine
+Play_FOL_SwingAtWill_Flap
+Play_FOL_Tablet_HomeButton
+Play_FOL_Tablet_Scroll
+Play_FOL_Tablet_Swipe
+Play_FOL_Tablet_Type
+Play_FOL_TakeDown_BreakNeck
+Play_FOL_TakeDown_ClothStruggle
+Play_FOL_TakeDown_Flap
+Play_FOL_TakeDown_GrabBody
+Play_FOL_TakeDown_MoveBody_01
+Play_FOL_TakeDown_NPC_ClothKick
+Play_FOL_TakeDown_NPC_ClothStruggle
+Play_FOL_TakeDown_NPC_ClothStruggle_Last
+Play_FOL_TakeDown_NPC_FirstGrab
+Play_FOL_TakeDown_NPC_HitGrab_1
+Play_FOL_TakeDown_NPC_HitGrab_2
+Play_FOL_TakeDown_NPC_HitGrab_3
+Play_FOL_TakeDown_NPC_HitGrab_4
+Play_FOL_TakeDown_NPC_HitGrab_5
+Play_FOL_TakeDown_NPC_SwooshBody
+Play_FOL_TakeDown_Release
+Play_FOL_TakeDown_SlideFast
+Play_FOL_TakeDown_Subdue_Press
+Play_FOL_TakeDown_SwooshBody
+Play_FOL_ThrowBody_01
+Play_FOL_ToiletKill_Bubble_Single_01
+Play_FOL_ToiletKill_Gargle_End
+Play_FOL_ToiletKill_Gargle_Hard_01
+Play_FOL_ToiletKill_Gargle_Low
+Play_FOL_ToiletKill_Gargle_Medium
+Play_FOL_ToiletKill_Gargle_Start_01
+Play_FOL_ToiletKill_Head_In_Toilet_01
+Play_FOL_ToiletKill_Head_Out_Toilet
+Play_FOL_ToiletKill_Hit_hand
+Play_FOL_ToiletKill_Water_On_floor_01
+Play_FOL_ToiletKill_Water_Splash
+Play_FOL_Typewriter_Typing
+Play_FOL_ValveOpen_SqueaksShort
+Play_FOL_VentCreaks
+Play_FOL_Wine_Pour_Many
+Play_FOL_Wine_Pour_Short
+Play_FOL_WineGlassDown
+Play_FOL_WireKill
+Play_FOL_ZippoClose
+Play_FOL_ZippoOn
+Play_Foley_BigSpot_Lights_Blink
+Play_Foley_BigSpot_Lights_Blink_Short
+Play_Foley_BigSpot_Lights_Off
+Play_Foley_BigSpot_Lights_Off_01
+Play_Foley_BigSpot_Lights_On
+Play_Foley_Brick_Placed
+Play_Foley_Item_CanSoda_Placed
+Play_Foley_Item_DeadlyThrow_Shovel
+Play_Foley_Item_Impact_Shovel
+Play_Foley_Item_ImpactBack_Shovel
+Play_Foley_Item_Placed
+Play_Foley_Item_Placed_Shovel
+Play_Foley_Item_PoolBall_Placed
+Play_Foley_Item_Scissor_Placed
+Play_Foley_Knife_Placed
+Play_Foley_MessWithWires_01
+Play_Foley_MessWithWires_02
+Play_Foley_MessWithWires_03
+Play_Foley_MessWithWires_04
+Play_Foley_Pipe_Placed
+Play_Foley_PlasticDevice_Placed
+Play_Foley_PoliceBaton_Placed
+Play_Foley_Screwdriver_Placed
+Play_Foley_Suitcase_Metal_Placed
+Play_Foley_Suitcase_Placed
+Play_Foley_Sword_Placed
+Play_Foley_Wrench_Placed
+Play_Food_Plate_A
+Play_Food_Plate_A_Empty
+Play_FreezerSetpiece
+Play_Fuse_Box_Off
+Play_Fuse_Box_Off_02
+Play_Fuse_Box_Off_03
+Play_Fusebox_Disconnect_Spark_01
+Play_Fusebox_Disconnect_Spark_02
+Play_Fusebox_Disconnect_Spark_03
+Play_FuseBox_Loop_Classic
+Play_FuseBox_Loop_Modern
+Play_Generic_CrowdFoley_HandClaps_Male_COMBO
+Play_Glass_Martini
+Play_Glass_Martini_Empty
+Play_Glass_Water_A
+Play_Glass_Water_A_Empty
+Play_Glass_Wine_A
+Play_Glass_Wine_A_Empty
+Play_GUI_EndGameMenu
+Play_GUI_Global_Accept
+Play_GUI_Global_Cancel
+Play_GUI_Global_ChangeSelection
+Play_GUI_Global_ClosePauseMenu
+Play_GUI_Global_DialoguePopup_Close
+Play_GUI_Global_DialoguePopup_Open
+Play_GUI_Global_Map_SnapToIcon
+Play_GUI_Global_Map_ZoomIn
+Play_GUI_Global_Map_ZoomOut
+Play_GUI_Global_NextPage
+Play_GUI_Global_NoEntry
+Play_GUI_Global_OpenPauseMenu
+Play_GUI_Global_PreviousPage
+Play_GUI_Global_Slide
+Play_GUI_Objective_Complete
+Play_GUI_Objective_Exit
+Play_GUI_Objective_Failed
+Play_GUI_Objective_New
+Play_GUI_Objective_Removed
+Play_GUI_Objective_Timer_Count
+Play_GUI_Objective_Timer_Count_Urgent
+Play_GUI_Objective_Timer_End_Succesful
+Play_GUI_Objective_Timer_New
+Play_GUI_Opportunity_Disabled
+Play_GUI_Opportunity_Failed
+Play_GUI_Opportunity_Finished
+Play_GUI_Opportunity_Nearby
+Play_GUI_Opportunity_New
+Play_GUI_Opportunity_Reveal_Timeout
+Play_GUI_Opportunity_Tracked
+Play_GUI_Opportunity_Unlocked
+Play_GUI_Opportunity_Untracked
+Play_GUI_Reward_LevelUp
+Play_GUI_Reward_ShowChallenge
+Play_GUI_Reward_ShowDrop
+Play_GUI_SelectorWheel_ChangeSelection
+Play_GUI_SelectorWheel_Close
+Play_GUI_SelectorWheel_NotUsable
+Play_GUI_SelectorWheel_Open
+Play_GUI_SelectorWheel_SelectItem
+Play_GUI_Tutorial_Dialogue_Close
+Play_GUI_Tutorial_Dialogue_Show
+Play_GUI_Tutorial_Task
+Play_GUI_Tutorial_Text
+Play_HM_FS
+Play_HM_TakeDown_InitAttack
+Play_Hum_Loop
+Play_Idle_FEM
+Play_Idle_MALE
+Play_Impact_Knife_Deadly_Throw
+Play_Impact_Wrench_Throw
+Play_Interact_Wrench_01a
+Play_Interact_Wrench_01b
+Play_Interact_Wrench_01c
+Play_Interact_Wrench_01d
+Play_Item_Button_Press
+Play_Item_PlasticDevice_ImpactBack_CloseCombat
+Play_Item_Poison_Pills_Close
+Play_Item_Poison_Pills_Open
+Play_Item_Poison_Pills_Pour
+Play_Item_Poison_Vial_Close
+Play_Item_Poison_Vial_Open
+Play_Item_Poison_Vial_Pour
+Play_Item_Pyroremote_Disabled
+Play_Item_Pyroremote_Enabled
+Play_Item_PyroRemote_PushButton
+Play_Item_Remote_Fireworks_Activate
+Play_Item_Syringe_ImpactBack_CloseCombat
+Play_Items_Flowers_placed
+Play_Items_Mine_placed
+Play_Key_In_Lock_Open_Fast
+Play_Lamp_Basement_Hanging_A
+Play_Lamp_Desk
+Play_Lamp_Modern_Black
+Play_Lamp_Paris_street_C_Triple
+Play_Lamp_Spot_neon
+Play_Lamp_Strip_Light
+Play_Lamp_Strip_Light_A_Break
+Play_Lamp_Table_Tuscan
+Play_Lights_Off
+Play_Lights_On
+Play_LISTENER_FEM
+Play_LISTENER_FEM_TUTORIAL
+Play_LISTENER_MALE
+Play_LISTENER_MALE_TUTORIAL
+Play_Logbook_BriefingVideo
+Play_Metal_Door_Close
+Play_Metal_Door_Open
+Play_MetalHingeClose
+Play_MetalHingeOpen
+Play_Mounting_FireExt_Open
+Play_Mtl_Recorder_Loop
+Play_Mtl_SFX_ExplosiveProp_LandMine
+Play_Mug_A
+Play_Mug_Empty
+Play_Museum_PaperStack
+Play_NPC_FS
+Play_Office_Binder_ABDEF
+Play_OpportunityEnd
+Play_OpportunityStart
+Play_PLOT_Stinger
+Play_PoliceBaton_CloseCombat_impact
+Play_PoliceBaton_CloseCombat_impact_Back
+Play_PushButton
+Play_Radio_Content_Music_Italy
+Play_Radio_Content_Music_Prologue
+Play_Radio_Content_Sport_Italy
+Play_Scissors_PullOut
+Play_Scissors_PullOut_after_throw
+Play_Scissors_Throw
+Play_Screwdriver_CloseCombat_Impact
+Play_Screwdriver_Impact_Deadly_Throw
+Play_ServerRack_A
+Play_ServerRack_b
+Play_ServerRack_c
+Play_ServerRack_LoopA
+Play_ServerRack_Loopb
+Play_ServerRack_Loopc
+Play_Setpiece_Massage_bodydown
+Play_Setpiece_Massage_Material
+Play_SFX_Activator_FireAlarm_Button_01
+Play_SFX_AllroundBreath_Exhale
+Play_SFX_AllroundBreath_Inhale
+Play_SFX_AmbientHeadshot_Stinger
+Play_SFX_BassFinisher
+Play_SFX_BoatSplashing
+Play_SFX_BodyGuard_InEarCommand
+Play_SFX_BulletFlybys
+Play_SFX_BurglarAlarm_2D
+Play_SFX_Camera_Impact
+Play_SFX_Camera_On
+Play_SFX_CannedBolognese_Lp
+Play_SFX_CannedBolognese_Open
+Play_SFX_CannedBolognese_Pour
+Play_SFX_Car_Tank_Leak
+Play_SFX_ChangeDisguise_Finished
+Play_SFX_Crowbar_Loudspeaker
+Play_SFX_Distraction_Generator_ButtonPress_metallic_02
+Play_SFX_Distraction_Sink_Kitchen_Drain
+Play_SFX_Distraction_Sink_Kitchen_FillUp
+Play_SFX_Distraction_Sink_Kitchen_Flood_Loop
+Play_SFX_Distraction_Sink_Kitchen_Full_Loop
+Play_SFX_Distraction_Sink_Kitchen_On_Loop
+Play_SFX_Distraction_Sink_Kitchen_Stop
+Play_SFX_Distraction_Sink_Metal_Drain
+Play_SFX_Distraction_Sink_Metal_FillUp
+Play_SFX_Distraction_Sink_Metal_Flood_Loop
+Play_SFX_Distraction_Sink_Metal_Full_Loop
+Play_SFX_Distraction_Sink_Metal_On_Loop
+Play_SFX_Distraction_Sink_Metal_Stop
+Play_SFX_Dust_Agility
+Play_SFX_ElectricSpark
+Play_SFX_Eliminate_ShotSweetener
+Play_SFX_Explosion_ExplodingVehicle
+Play_SFX_ExplosiveProp_ActionFigure_DIALOGUE
+Play_SFX_FireRamp_Display_CountDown
+Play_SFX_FireRamp_Display_CountDown_First
+Play_SFX_Fluorescent_Blink_01
+Play_SFX_Fluorescent_Blink_02
+Play_SFX_Foliage_GreenSoft_WindRTPC
+Play_SFX_Generator_6051_44_Mono_Loop
+Play_SFX_Generator_6051_44_Mono_StartEngine
+Play_SFX_Generator_6051_44_Mono_StopEngine
+Play_SFX_GolfBall_Explosion
+Play_SFX_GUI_CloseCombat_ButtonPressFeedback
+Play_SFX_Helicopter_Blades_Whoosh_Loop_02
+Play_SFX_Helicopter_Idle_Ext_Loop_02
+Play_SFX_Helicopter_TailRotor_Loop_02
+Play_SFX_Helicopter_WindDebris_01
+Play_SFX_HideEnd
+Play_SFX_HideStart
+Play_SFX_HIPS_Fix_Engine_Metal_Sound
+Play_SFX_HIPS_Fix_Engine_Unscrew
+Play_SFX_HushShush
+Play_SFX_Inflatable_Deflate
+Play_SFX_Kitchen_Pot_Boil_No_Poison_Loop
+Play_SFX_LabBioSuit_GasMask
+Play_SFX_Loudspeaker_Impact
+Play_SFX_Loudspeaker_Whoosh
+Play_SFX_MineActivate
+Play_SFX_MineBeep
+Play_SFX_NeonTube_Break_01
+Play_SFX_NPCCrushed
+Play_SFX_PointShooting_Execution_End
+Play_SFX_PointShooting_Execution_EndBoom
+Play_SFX_PointShooting_Execution_EndImpact
+Play_SFX_PointShooting_Execution_KillAllBonus
+Play_SFX_PointShooting_Execution_TagEnd
+Play_SFX_PointShooting_Execution_ZoomReverse
+Play_SFX_PointShooting_Stress_End
+Play_SFX_PointShooting_Tag_AddHi
+Play_SFX_PointShooting_Tag_Autolock
+Play_SFX_PointShooting_Tag_AutolockExpl
+Play_SFX_PointShooting_Tag_Cancel
+Play_SFX_PointShooting_Tag_Cancel_Reverse
+Play_SFX_PointShooting_Tag_EnterTagReverse
+Play_SFX_PointShooting_Tag_ExiterSeq
+Play_SFX_PointShooting_Tag_FeedFilter
+Play_SFX_PointShooting_Tag_FirstTag
+Play_SFX_PointShooting_Tag_FocusGain
+Play_SFX_PointShooting_Tag_Kill
+Play_SFX_PointShooting_Tag_Start
+Play_SFX_PointShooting_Tag_TagAdd_01
+Play_SFX_PointShooting_Tag_TagAdd_02
+Play_SFX_PointShooting_Tag_Untaggable
+Play_SFX_PointShooting_WeaponFX_AirTail
+Play_SFX_PointShooting_WeaponFX_Blast
+Play_SFX_PointShooting_WeaponFX_BulletFlare
+Play_SFX_PointShooting_WeaponFX_Shell
+Play_SFX_PointShooting_WeaponFX_SoundWave
+Play_SFX_PointShooting_WeaponFX_Trigger
+Play_SFX_Poison_KitchenPot_Loop
+Play_SFX_PrecisionKill
+Play_SFX_PreExplosion_ExplodingVehicle
+Play_SFX_Prop_Device_AudioDistraction
+Play_SFX_Prop_Device_BreachCharge
+Play_SFX_Prop_Device_MusicDistraction
+Play_SFX_PropHelper_GasLeak_Loop
+PLAY_SFX_RigidBodyImpact
+Play_SFX_Screwdriver_Loudspeaker
+Play_SFX_Setpiece_Distraction_CellPhone_AveMaria
+Play_SFX_ShellImpact
+Play_SFX_Short_Sparks
+Play_SFX_TimeWarp
+Play_SFX_TimeWarp_Counter
+Play_SFX_Trap_PoisonedDrink
+Play_SFX_Vodka_Bottle_Place
+Play_SFX_WalkieChatter_Close
+Play_SFX_WalkieChatter_Open
+Play_SFX_Wind_through_Threes_Heavy
+Play_SFX_Wind_through_Threes_Light
+Play_SFX_Wind_through_Threes_Medium
+Play_SFX_WindBurst
+Play_SFX_WindEvent
+Play_SFX_Zoom_CameraClip
+Play_SFX_Zoom_CinematicImpact
+Play_SFX_Zoom_Flybys
+Play_SFX_Zoom_NPCImpacts
+Play_SFX_Zoom_NPCTails
+Play_SFX_Zoom_SubKick_01
+Play_SFX_Zoom_SubKick_02
+Play_SFX_Zoom_Target_01
+Play_SFX_Zoom_Target_02
+Play_Slam
+Play_SmallExplosions
+Play_ST_Com_SusEvent
+Play_ST_ComHero
+Play_ST_OpportunityEnd
+Play_ST_OpportunityStart
+Play_ST_PlotReward
+Play_ST_ShockImpact
+Play_ST_StealthReward
+Play_ST_Sus_Event
+Play_ST_TakedownFinish
+Play_ST_TakedownStart
+Play_ST_TakedownStop
+Play_ST_TargetAppear
+Play_ST_TargetDied
+Play_ST_TargetPresent
+Play_ST_ThreatFinish
+Play_ST_ThreatStart
+Play_ST_ThreatStop
+Play_StaticProp_ClockTick
+Play_Streetlight_Hum_01
+Play_Surveillance_Camera_Beep
+Play_Surveillance_Camera_Damaged_01
+Play_Surveillance_Camera_Motor_01
+Play_Surveillance_Recorder_Deactivate
+Play_Switch_PowerGenerator
+Play_Switch_RadioModern
+Play_Switch_RadioNoise_off
+Play_Switch_RadioNoise_on
+Play_Switch_RadioTransistor
+Play_TrappedRiggedIcon
+Play_Turn_Lock_Light_01
+Play_Unequip_Grab
+Play_UsePhone
+Play_UsePhone_01
+Play_UsePhone_02
+Play_UsePhone_03
+Play_UseWalkie
+Play_Van_Tire_Deflate
+Play_Weapons2
+PreExplosion_Generic_Play
+PreExplosion_PropaneFlask_Play
+Resume_All
+Resume_Inventory
+Resume_LogbookMenu
+Resume_LogbookMenu_DuringExitSeq
+Resume_PauseMenu
+Resume_PauseMenu_DuringExitSeq
+Resume_TutorialModalDialog
+Sniper_EnterSniperMode_Play
+Sniper_ExitSniperMode_Play
+Sniper_Zoom_Play
+SniperFX_Breath_In_Hold_Play
+SniperFX_Breath_Out_Play
+SpecialSFX_Deadly_Throw_Foley_Play
+SpecialSFX_Deadly_Throw_TargetSnap_Play
+SpecialSFX_HM_Death2016
+SpecialSFX_Instinct_Play_Effects_Enable
+SpecialSFX_Instinct_Stop_Effects_Disable
+SpecialSFX_Stealth_Heartbeat_Play
+Stop_CarAlarm_01a_End_01
+Stop_DuckArmed
+Stop_DuckCountDown
+Stop_DuckTimer
+Stop_FOL_Agility_Ladder_Slide
+Stop_FOL_Agility_Pipe_Slide
+Stop_FreezerSetpiece
+Stop_Logbook_BriefingVideo
+Stop_Radio_Content_Music_Prologue
+Stop_ServerRack_A
+Stop_ServerRack_b
+Stop_ServerRack_c
+Stop_ServerRack_LoopA
+Stop_ServerRack_Loopb
+Stop_ServerRack_Loopc
+Stop_Weapons2
+Syringe_Resume
+Syringe_Resume_Short
+TurnDown_Bus_Master
+TurnUp_Bus_Master
+UnmMute_BreakNeck
+UnMute_All
+Unmute_AllButDialogue
+UnMute_AllButMusic
+Unmute_AllMusic
+UnMute_Body_Fall
+UnMute_Bus_Master
+UnMute_Bus_Music
+UnMute_HandlerAndCinematics
+UnMute_Weapons_HM
+WaterDrop_in_Water_Play
+# 236155
+# 13573605
+# 15606575
+# 17048486
+# 17536476
+# 18562849
+# 18887998
+# 26670175
+# 28658521
+# 29612613
+# 31523767
+# 31816478
+# 33618420
+# 34787828
+# 35975648
+# 35975649
+# 35975651
+# 39896971
+# 42706934
+# 42770823
+# 43905710
+# 44281318
+# 45963274
+# 47938996
+# 48273224
+# 51343785
+# 52899754
+# 54984603
+# 57177530
+# 58602576
+# 63079466
+# 63095330
+# 65792091
+# 67203485
+# 67404586
+# 72225396
+# 75469178
+# 75680818
+# 77078163
+# 78705315
+# 78727294
+# 82301727
+# 84392013
+# 84727225
+# 85802779
+# 88131280
+# 88131283
+# 89606259
+# 90061956
+# 91424528
+# 94824085
+# 94824086
+# 99015721
+# 100962565
+# 106711205
+# 108800981
+# 109856596
+# 112862400
+# 115726706
+# 117745095
+# 119513973
+# 120102047
+# 121294748
+# 126162918
+# 126939248
+# 127084408
+# 128649373
+# 130421546
+# 131906704
+# 133172869
+# 137418445
+# 144819826
+# 145988780
+# 147257261
+# 147856391
+# 153354887
+# 157668776
+# 163729989
+# 164597978
+# 164652079
+# 165404297
+# 165976724
+# 168050636
+# 169547052
+# 171211845
+# 171992781
+# 172840220
+# 173039700
+# 173119982
+# 174076392
+# 174906292
+# 175042627
+# 176658568
+# 176714721
+# 182214101
+# 184377233
+# 187580161
+# 188045958
+# 188948098
+# 191697154
+# 195395181
+# 201266540
+# 201266543
+# 202665837
+# 204346895
+# 205182877
+# 206590314
+# 206859559
+# 208021561
+# 208369174
+# 219333554
+# 221843956
+# 222205513
+# 222329865
+# 223610800
+# 224623628
+# 227387064
+# 228895528
+# 229017915
+# 229215776
+# 230888203
+# 236810033
+# 238087118
+# 241242541
+# 243839608
+# 243882631
+# 246376106
+# 247211580
+# 253640178
+# 259281440
+# 259829465
+# 259829466
+# 259829467
+# 259829468
+# 259829469
+# 259829470
+# 261717293
+# 263949237
+# 265009656
+# 266164088
+# 269269662
+# 270133701
+# 270133702
+# 271201793
+# 274428820
+# 276348427
+# 278267652
+# 281291024
+# 282978555
+# 283736267
+# 283923130
+# 290717937
+# 293009989
+# 295432120
+# 304666108
+# 309163560
+# 310207089
+# 312695249
+# 312781768
+# 313838662
+# 320404036
+# 320723905
+# 323247461
+# 325057792
+# 325057793
+# 325057794
+# 325057795
+# 325057796
+# 325057797
+# 325057798
+# 325057807
+# 325820137
+# 326478583
+# 327236641
+# 329229366
+# 333610912
+# 335278721
+# 336481824
+# 339900332
+# 339970601
+# 340554065
+# 341281425
+# 350122945
+# 351280898
+# 356576339
+# 360027742
+# 360258859
+# 367827628
+# 370632111
+# 376065938
+# 378086684
+# 382431655
+# 383276343
+# 387228330
+# 391177933
+# 396839023
+# 399755972
+# 400223951
+# 400881100
+# 401030388
+# 406227254
+# 407081211
+# 407590312
+# 407933914
+# 410217185
+# 411771609
+# 415154274
+# 415512095
+# 416163549
+# 416198373
+# 417175916
+# 417422582
+# 417998840
+# 419382958
+# 421141596
+# 426215494
+# 429373776
+# 430206959
+# 431205792
+# 436493169
+# 437504314
+# 438518387
+# 441949017
+# 444388326
+# 448230105
+# 450990016
+# 452432092
+# 452432093
+# 454746330
+# 459185846
+# 464004152
+# 468819550
+# 475836762
+# 476470294
+# 477129513
+# 477946478
+# 479474904
+# 481166253
+# 486004093
+# 490925593
+# 491498558
+# 497353678
+# 500267083
+# 500600700
+# 502975700
+# 504763757
+# 505676465
+# 508772811
+# 516871862
+# 521414295
+# 524016471
+# 525955074
+# 526628725
+# 537693803
+# 540865309
+# 542757658
+# 543973762
+# 544216533
+# 549311559
+# 554114842
+# 555453183
+# 556712369
+# 557960214
+# 558312055
+# 563047613
+# 563862029
+# 563932700
+# 564579614
+# 564767707
+# 566196306
+# 566657225
+# 572412244
+# 572878539
+# 573140547
+# 577061035
+# 579022445
+# 582203708
+# 588797279
+# 590829251
+# 591860797
+# 591952093
+# 593820291
+# 593901263
+# 594355719
+# 595193781
+# 596215762
+# 596675482
+# 596842348
+# 599195045
+# 604585903
+# 604809278
+# 605244957
+# 607361986
+# 610796295
+# 613813207
+# 617911763
+# 621804468
+# 622564682
+# 623574266
+# 623631680
+# 628387980
+# 629432954
+# 630081589
+# 630736996
+# 631304979
+# 634050572
+# 634156167
+# 636233143
+# 636504335
+# 637039352
+# 637445705
+# 638108802
+# 639341788
+# 639567246
+# 640113640
+# 640734307
+# 640789283
+# 643441975
+# 644588560
+# 646448732
+# 650459060
+# 650669378
+# 650742252
+# 651143119
+# 652239291
+# 655114069
+# 656514506
+# 659711721
+# 660012837
+# 664045978
+# 669301586
+# 670540081
+# 672377510
+# 673459478
+# 673525510
+# 681256254
+# 684285469
+# 688059158
+# 695313701
+# 697638435
+# 697644255
+# 698818719
+# 699759600
+# 712640536
+# 713518235
+# 713528645
+# 714859701
+# 716053706
+# 716306782
+# 718638175
+# 719379001
+# 720734104
+# 721193227
+# 722880286
+# 724551694
+# 725539905
+# 730573970
+# 731844277
+# 731922262
+# 732020878
+# 732775640
+# 733849629
+# 735330252
+# 737586073
+# 738620213
+# 739348223
+# 739547660
+# 741257603
+# 746551361
+# 748798489
+# 751787273
+# 752131233
+# 755640933
+# 756215865
+# 757150299
+# 760465701
+# 765144153
+# 767703270
+# 769865031
+# 771028315
+# 774020354
+# 775679611
+# 775696244
+# 776912572
+# 777003825
+# 777325071
+# 777719170
+# 779061266
+# 786775772
+# 786940357
+# 790557151
+# 791850413
+# 795138611
+# 795538312
+# 797300964
+# 798962282
+# 804035217
+# 805123892
+# 806844172
+# 809718579
+# 813422541
+# 816787024
+# 817405271
+# 818120894
+# 818737968
+# 818747541
+# 823205982
+# 824323448
+# 830026387
+# 830662028
+# 834947007
+# 835080555
+# 839156097
+# 839793095
+# 840983021
+# 840983022
+# 841309588
+# 844619368
+# 846253608
+# 848498100
+# 849132476
+# 850550652
+# 851189006
+# 852349688
+# 856102288
+# 858126587
+# 861319055
+# 861407612
+# 867244137
+# 868539283
+# 871118877
+# 874765106
+# 878346335
+# 884093845
+# 886317046
+# 886863986
+# 888168180
+# 888891997
+# 890324088
+# 891291959
+# 895390435
+# 895697028
+# 898544919
+# 902255049
+# 902302597
+# 902524908
+# 905918003
+# 906609365
+# 908741244
+# 914571862
+# 915981923
+# 917346561
+# 920213568
+# 922884233
+# 925425026
+# 926307205
+# 928134972
+# 929099134
+# 933950705
+# 937769836
+# 942698227
+# 944536313
+# 953808393
+# 954041858
+# 954191591
+# 954864613
+# 956340641
+# 957542809
+# 958714322
+# 959529341
+# 963899137
+# 965520701
+# 967399831
+# 972660722
+# 973121459
+# 973526690
+# 974138652
+# 974405926
+# 975081878
+# 975231653
+# 975349470
+# 976016029
+# 976520063
+# 976997200
+# 980203765
+# 981795041
+# 983786193
+# 983786194
+# 983786195
+# 983786196
+# 983786197
+# 983786198
+# 983786199
+# 983834085
+# 987148635
+# 988495573
+# 988644025
+# 988955736
+# 989998552
+# 990588791
+# 991638403
+# 993497890
+# 994085446
+# 995046826
+# 996843116
+# 996843119
+# 999542177
+# 1000407802
+# 1003129486
+# 1004498434
+# 1005043209
+# 1008816414
+# 1010115368
+# 1010713668
+# 1015258634
+# 1018150359
+# 1020604584
+# 1024653355
+# 1024667607
+# 1024885890
+# 1028533983
+# 1028582520
+# 1029333811
+# 1043191231
+# 1043977420
+# 1045548562
+# 1046648866
+# 1052794979
+# 1052849275
+# 1053429102
+# 1055950830
+# 1057520659
+# 1059386014
+# 1062848390
+# 1067775613
+# 1069268805
+# 1075593903
+# 1078885759
+# 1080985229
+# 1081359316
+# 1081359319
+# 1084435310
+# 1086665272
+# 1090740885
+# 1092212153
+# 1092212154
+# 1092212155
+# 1092212156
+# 1098505459
+# 1100977340
+# 1101598479
+# 1103902956
+# 1105468738
+# 1106742516
+# 1108696757
+# 1112820865
+# 1114850251
+# 1115556730
+# 1117272736
+# 1120216573
+# 1124114153
+# 1124405033
+# 1124718495
+# 1125489526
+# 1126867158
+# 1129732334
+# 1130276486
+# 1132692422
+# 1133611909
+# 1138475382
+# 1139028989
+# 1139481257
+# 1140081335
+# 1142460729
+# 1142688752
+# 1143469069
+# 1147761709
+# 1148116761
+# 1148243146
+# 1148333278
+# 1152209994
+# 1157125787
+# 1157744116
+# 1157744119
+# 1157924766
+# 1160638597
+# 1165346777
+# 1166554940
+# 1169525896
+# 1169954990
+# 1170870936
+# 1171624824
+# 1172217963
+# 1173363980
+# 1173959944
+# 1174011020
+# 1174045098
+# 1174282305
+# 1176256039
+# 1177265314
+# 1182297183
+# 1183201481
+# 1184163103
+# 1187922484
+# 1190571050
+# 1200421757
+# 1201593761
+# 1202156015
+# 1203152135
+# 1203933522
+# 1210483124
+# 1211108208
+# 1211487453
+# 1211493241
+# 1212468287
+# 1214866266
+# 1215889208
+# 1225567303
+# 1227434672
+# 1227650053
+# 1235566101
+# 1238473429
+# 1240118370
+# 1241090805
+# 1243407577
+# 1243806627
+# 1250458077
+# 1251293366
+# 1253966999
+# 1254354399
+# 1257572624
+# 1258572185
+# 1259476597
+# 1260543408
+# 1262488372
+# 1262488919
+# 1265282295
+# 1265796499
+# 1265820424
+# 1268102360
+# 1270139309
+# 1275335070
+# 1276111837
+# 1278536128
+# 1279691106
+# 1287870225
+# 1290396571
+# 1299515546
+# 1301938738
+# 1303481582
+# 1306625670
+# 1311222206
+# 1314010240
+# 1315198297
+# 1315831161
+# 1316258277
+# 1316345220
+# 1319966588
+# 1320677823
+# 1323889858
+# 1323889859
+# 1325684304
+# 1329073815
+# 1332209511
+# 1335254571
+# 1337949930
+# 1339603344
+# 1341374823
+# 1342639697
+# 1343746791
+# 1345581515
+# 1348289708
+# 1349794466
+# 1351387995
+# 1351487285
+# 1353856441
+# 1358149309
+# 1359711010
+# 1362385995
+# 1363730895
+# 1365078956
+# 1366828886
+# 1371729308
+# 1373112823
+# 1375587050
+# 1376606622
+# 1377055155
+# 1377257744
+# 1385764529
+# 1396911506
+# 1399727381
+# 1401268373
+# 1403468433
+# 1405310438
+# 1406656553
+# 1407670078
+# 1408104415
+# 1408997913
+# 1411773818
+# 1414018115
+# 1417193945
+# 1417670620
+# 1419587953
+# 1419899509
+# 1420463137
+# 1420937341
+# 1422793186
+# 1426656038
+# 1433121256
+# 1437144524
+# 1437144527
+# 1441191869
+# 1441486311
+# 1443187103
+# 1444783508
+# 1444818329
+# 1448085437
+# 1448085438
+# 1451914342
+# 1455062764
+# 1455267422
+# 1455330877
+# 1459413066
+# 1459658058
+# 1460895850
+# 1460979383
+# 1462306095
+# 1462596084
+# 1464315154
+# 1465193175
+# 1468883143
+# 1469672802
+# 1470760966
+# 1470856402
+# 1471681467
+# 1473452661
+# 1475405737
+# 1475621127
+# 1476971696
+# 1478708797
+# 1478843086
+# 1480261584
+# 1483751532
+# 1489525375
+# 1493177595
+# 1494873953
+# 1496506662
+# 1499430527
+# 1502338324
+# 1502458665
+# 1504368003
+# 1504735654
+# 1505411436
+# 1505411439
+# 1511040208
+# 1511072266
+# 1511119119
+# 1511615995
+# 1511805468
+# 1513213633
+# 1514183859
+# 1519343533
+# 1521739620
+# 1522001173
+# 1522418388
+# 1529709687
+# 1530495304
+# 1534862813
+# 1539663989
+# 1540747545
+# 1543547331
+# 1543563915
+# 1544342486
+# 1545995258
+# 1546590141
+# 1550491312
+# 1551842759
+# 1553783542
+# 1554038763
+# 1555124646
+# 1564865626
+# 1566600194
+# 1567185756
+# 1569833657
+# 1569939984
+# 1572609218
+# 1577634992
+# 1578128411
+# 1578236918
+# 1578838171
+# 1579341810
+# 1581190386
+# 1588561310
+# 1591852251
+# 1593148417
+# 1593541739
+# 1599569848
+# 1603773189
+# 1609499433
+# 1612336158
+# 1612555206
+# 1617801980
+# 1619771155
+# 1619943178
+# 1622519046
+# 1624860815
+# 1628547408
+# 1629322184
+# 1631054030
+# 1635605221
+# 1640990927
+# 1641177695
+# 1643917057
+# 1649461757
+# 1649461758
+# 1651128328
+# 1651145728
+# 1652975751
+# 1656593807
+# 1657408301
+# 1657408302
+# 1660069218
+# 1662154688
+# 1664361663
+# 1665188875
+# 1665615151
+# 1665981277
+# 1665981278
+# 1667778272
+# 1670038146
+# 1672697665
+# 1673793026
+# 1674040024
+# 1676470369
+# 1679993968
+# 1683118161
+# 1685049423
+# 1688380444
+# 1688380445
+# 1688489386
+# 1688836944
+# 1688981227
+# 1689958931
+# 1690888150
+# 1699073494
+# 1700719807
+# 1701146538
+# 1708265319
+# 1710168350
+# 1714963415
+# 1722943981
+# 1729874040
+# 1733104218
+# 1734115406
+# 1738477771
+# 1738979627
+# 1740921773
+# 1741872297
+# 1745710486
+# 1745859305
+# 1754951037
+# 1755412397
+# 1755838364
+# 1759324424
+# 1763744614
+# 1764971312
+# 1764971313
+# 1764971315
+# 1764971318
+# 1765137475
+# 1765790293
+# 1766688597
+# 1768001695
+# 1768204541
+# 1768727956
+# 1769711203
+# 1770192231
+# 1775686276
+# 1777139468
+# 1778420665
+# 1779157551
+# 1779930368
+# 1779930369
+# 1779930370
+# 1781512001
+# 1783654351
+# 1788656480
+# 1794300568
+# 1810840372
+# 1812519381
+# 1814531315
+# 1815345500
+# 1817661362
+# 1819646224
+# 1820381416
+# 1823226667
+# 1824144063
+# 1824442772
+# 1824482404
+# 1829307117
+# 1830027863
+# 1836396094
+# 1836563229
+# 1838137212
+# 1840875875
+# 1842420972
+# 1851208643
+# 1852555965
+# 1854715088
+# 1856271780
+# 1856477170
+# 1859728944
+# 1860289485
+# 1861448795
+# 1867463554
+# 1869616007
+# 1872836660
+# 1873492040
+# 1878306345
+# 1878707937
+# 1881595827
+# 1882007866
+# 1883585376
+# 1884322860
+# 1886164187
+# 1888119101
+# 1889016809
+# 1889731016
+# 1893523777
+# 1894201139
+# 1894449285
+# 1897209474
+# 1902926885
+# 1904839494
+# 1905904702
+# 1907600667
+# 1917387892
+# 1921824381
+# 1923272675
+# 1923543541
+# 1925982852
+# 1926124521
+# 1928636689
+# 1929774091
+# 1930226268
+# 1932460671
+# 1934215177
+# 1935131684
+# 1936068273
+# 1938968184
+# 1938968188
+# 1938968189
+# 1942694657
+# 1944470793
+# 1945714923
+# 1949759014
+# 1950152565
+# 1951656029
+# 1956450189
+# 1969635550
+# 1970511313
+# 1970812887
+# 1973593963
+# 1976731962
+# 1980697626
+# 1981129210
+# 1981515358
+# 1984751129
+# 1985800489
+# 1994000059
+# 1997068828
+# 1997947125
+# 2000218527
+# 2002011928
+# 2003747654
+# 2007525554
+# 2008187164
+# 2010933926
+# 2013298297
+# 2019918023
+# 2020749793
+# 2023090691
+# 2023519553
+# 2024175422
+# 2024320963
+# 2026907405
+# 2031977153
+# 2032528880
+# 2034316857
+# 2034646656
+# 2035190870
+# 2037928547
+# 2038801074
+# 2040804617
+# 2045195931
+# 2045591213
+# 2045656436
+# 2045887030
+# 2047503919
+# 2048422126
+# 2050850343
+# 2054036586
+# 2054156605
+# 2056350456
+# 2057755909
+# 2059388808
+# 2059437298
+# 2063761390
+# 2066021985
+# 2068003392
+# 2069343797
+# 2070819082
+# 2072197883
+# 2072622068
+# 2072622071
+# 2074611156
+# 2077797680
+# 2077797681
+# 2077797687
+# 2078065270
+# 2079397316
+# 2088090166
+# 2089001395
+# 2091213879
+# 2091462764
+# 2093085368
+# 2098594508
+# 2099756326
+# 2101762979
+# 2101841557
+# 2105653865
+# 2105753000
+# 2109295791
+# 2110079675
+# 2112287832
+# 2112314285
+# 2113234792
+# 2120459306
+# 2132778379
+# 2134927974
+# 2135152487
+# 2136191962
+# 2140479700
+# 2141403102
+# 2147689475
+# 2148166688
+# 2152222417
+# 2153140636
+# 2153140637
+# 2153985320
+# 2156386861
+# 2160968613
+# 2162821441
+# 2163790335
+# 2164063866
+# 2164182897
+# 2164856237
+# 2165796023
+# 2167242398
+# 2173258949
+# 2173946920
+# 2175545133
+# 2176801884
+# 2178636580
+# 2178636582
+# 2178636583
+# 2179366826
+# 2180865955
+# 2180985896
+# 2186199810
+# 2188499868
+# 2189464588
+# 2203529037
+# 2203954082
+# 2205289541
+# 2206192069
+# 2209627474
+# 2214344026
+# 2215007787
+# 2217235122
+# 2219241436
+# 2219621026
+# 2220451300
+# 2221297046
+# 2227299916
+# 2228457540
+# 2228826665
+# 2233207409
+# 2235619789
+# 2236244990
+# 2237008111
+# 2238198292
+# 2239585905
+# 2240576817
+# 2240783345
+# 2241604137
+# 2248666925
+# 2248741322
+# 2252488003
+# 2252581792
+# 2254207616
+# 2254551346
+# 2255635802
+# 2256150504
+# 2265312828
+# 2265930578
+# 2266507447
+# 2267828495
+# 2270744457
+# 2271632602
+# 2273979978
+# 2277069596
+# 2280191902
+# 2283042060
+# 2283543340
+# 2286524659
+# 2290154755
+# 2292417211
+# 2292657463
+# 2292658394
+# 2294402773
+# 2294717369
+# 2295032055
+# 2295474792
+# 2297865270
+# 2300995896
+# 2300995898
+# 2300995901
+# 2300995902
+# 2300995903
+# 2302426194
+# 2304404706
+# 2305690402
+# 2309346829
+# 2312537971
+# 2313927835
+# 2316751225
+# 2317133194
+# 2318469874
+# 2324816055
+# 2325289629
+# 2328118898
+# 2328924100
+# 2329102192
+# 2333688624
+# 2334287117
+# 2336285702
+# 2336395889
+# 2336417858
+# 2336961881
+# 2337644851
+# 2338626383
+# 2340550538
+# 2342198256
+# 2343249414
+# 2347449613
+# 2348498860
+# 2349139279
+# 2349279418
+# 2353078405
+# 2358447972
+# 2358740244
+# 2358991346
+# 2360301808
+# 2360301810
+# 2360301811
+# 2364901928
+# 2367658448
+# 2370289244
+# 2370289247
+# 2372225384
+# 2372225385
+# 2372225386
+# 2372225391
+# 2373177698
+# 2373929375
+# 2375261710
+# 2378497229
+# 2378905401
+# 2379969907
+# 2381787393
+# 2386384687
+# 2392780415
+# 2397244934
+# 2399128529
+# 2399994611
+# 2402728003
+# 2404444852
+# 2405226230
+# 2407649843
+# 2411792634
+# 2412806837
+# 2413435274
+# 2414478293
+# 2419385530
+# 2422598343
+# 2424627259
+# 2434265415
+# 2435509685
+# 2438948334
+# 2439529533
+# 2440618202
+# 2442630137
+# 2443385926
+# 2445127649
+# 2452788201
+# 2454575417
+# 2454744325
+# 2456517343
+# 2456636542
+# 2458521198
+# 2459014745
+# 2459433896
+# 2461195882
+# 2463257225
+# 2465480252
+# 2470589854
+# 2471468187
+# 2475160719
+# 2476033971
+# 2476484569
+# 2477833554
+# 2480800277
+# 2483362988
+# 2485428824
+# 2485491848
+# 2486264388
+# 2486926429
+# 2486969629
+# 2491874395
+# 2492599377
+# 2493676116
+# 2496989088
+# 2504947370
+# 2505182979
+# 2505665843
+# 2507583469
+# 2509228934
+# 2513313871
+# 2514078836
+# 2515846734
+# 2516092505
+# 2517060214
+# 2523591028
+# 2523700600
+# 2524904209
+# 2525829170
+# 2530947390
+# 2532007720
+# 2535966107
+# 2536195447
+# 2538468260
+# 2538897859
+# 2541043904
+# 2541116838
+# 2541423799
+# 2543264791
+# 2547169451
+# 2550066941
+# 2553891185
+# 2553910560
+# 2557518730
+# 2559074844
+# 2560662394
+# 2560762877
+# 2562941572
+# 2564990095
+# 2566389732
+# 2570672112
+# 2572964346
+# 2575479491
+# 2576375809
+# 2581543515
+# 2583564599
+# 2584179564
+# 2584643676
+# 2588112418
+# 2590104417
+# 2590886765
+# 2595662687
+# 2597496980
+# 2597959210
+# 2601295681
+# 2605695882
+# 2612224688
+# 2612396572
+# 2612425632
+# 2613547654
+# 2613766341
+# 2616046539
+# 2619543458
+# 2620104331
+# 2623247817
+# 2630533776
+# 2630639757
+# 2631040740
+# 2640596736
+# 2642139020
+# 2642619231
+# 2643967799
+# 2657784946
+# 2662709742
+# 2664856117
+# 2670137747
+# 2671586001
+# 2674169314
+# 2676724429
+# 2682228596
+# 2685542247
+# 2688034558
+# 2688672184
+# 2688677817
+# 2689016769
+# 2690454324
+# 2690797146
+# 2692384324
+# 2695605782
+# 2696526720
+# 2697520673
+# 2698641301
+# 2700471729
+# 2704655867
+# 2707327889
+# 2709301126
+# 2710505786
+# 2711075784
+# 2713278963
+# 2714031043
+# 2714420075
+# 2716301497
+# 2717904702
+# 2719594590
+# 2722485893
+# 2726952679
+# 2731688639
+# 2732055222
+# 2732354709
+# 2733323783
+# 2734591079
+# 2735922727
+# 2738197867
+# 2740176221
+# 2740322246
+# 2745627500
+# 2749410366
+# 2750653585
+# 2752936325
+# 2753777583
+# 2756114584
+# 2759411652
+# 2766927944
+# 2766927947
+# 2779174540
+# 2779712031
+# 2781037131
+# 2782631297
+# 2782765280
+# 2782765281
+# 2782765283
+# 2782765286
+# 2786087811
+# 2786426107
+# 2791358950
+# 2791735700
+# 2792010106
+# 2793446906
+# 2801305420
+# 2801447896
+# 2803798840
+# 2806411486
+# 2806559285
+# 2808029059
+# 2809256033
+# 2809256034
+# 2809256035
+# 2809256036
+# 2809426690
+# 2810720365
+# 2812161842
+# 2818746290
+# 2818967763
+# 2819183227
+# 2826909765
+# 2830399336
+# 2834457605
+# 2834457606
+# 2834539155
+# 2835488052
+# 2836195248
+# 2837049550
+# 2838001488
+# 2839130000
+# 2846174091
+# 2850824004
+# 2852417714
+# 2853246279
+# 2860425306
+# 2860713946
+# 2862733000
+# 2873957565
+# 2874434692
+# 2882183854
+# 2883023052
+# 2885727907
+# 2888531407
+# 2888708906
+# 2889186546
+# 2889217855
+# 2889812916
+# 2893104449
+# 2895259156
+# 2899491768
+# 2899491770
+# 2899491771
+# 2899940912
+# 2902219237
+# 2906018180
+# 2906436969
+# 2913095618
+# 2913095619
+# 2913095620
+# 2913095621
+# 2913095623
+# 2921129655
+# 2921994007
+# 2924837514
+# 2926711118
+# 2927624249
+# 2928254697
+# 2933018225
+# 2934329087
+# 2934442644
+# 2938287308
+# 2941619803
+# 2943672266
+# 2944570247
+# 2948676566
+# 2953040231
+# 2955797824
+# 2955797827
+# 2957410149
+# 2957570409
+# 2958138230
+# 2958623263
+# 2959520712
+# 2960834333
+# 2961395062
+# 2961780106
+# 2963492558
+# 2967518187
+# 2970027119
+# 2970088271
+# 2970690151
+# 2974213525
+# 2978959036
+# 2980356998
+# 2982720009
+# 2982720010
+# 2988498389
+# 2989656858
+# 2989881446
+# 2991444740
+# 2993416391
+# 2996092800
+# 2996347890
+# 2997260100
+# 2997391311
+# 2999661764
+# 3002443680
+# 3002477955
+# 3004371682
+# 3006638080
+# 3010266058
+# 3010719015
+# 3017626475
+# 3025216386
+# 3027248950
+# 3042525580
+# 3046831104
+# 3047376210
+# 3047458100
+# 3049062227
+# 3053927510
+# 3058758081
+# 3060599509
+# 3062060610
+# 3063332127
+# 3065487432
+# 3065669082
+# 3067245079
+# 3069820749
+# 3073810018
+# 3078355758
+# 3085543705
+# 3086363484
+# 3089249638
+# 3089411043
+# 3090340835
+# 3092495149
+# 3092495150
+# 3092900456
+# 3094114538
+# 3095057258
+# 3097878102
+# 3099275656
+# 3102174397
+# 3102214909
+# 3104210362
+# 3105905858
+# 3105905860
+# 3105905861
+# 3105905863
+# 3106395931
+# 3107794414
+# 3110886455
+# 3112524279
+# 3114069783
+# 3119305825
+# 3120885846
+# 3121986235
+# 3122680654
+# 3122749948
+# 3124369101
+# 3125939210
+# 3133634157
+# 3137170756
+# 3142060300
+# 3152504677
+# 3152967593
+# 3154068237
+# 3156018336
+# 3162069779
+# 3162096319
+# 3167535969
+# 3167919092
+# 3170137065
+# 3173549235
+# 3175516931
+# 3176882699
+# 3179430348
+# 3181025118
+# 3181498457
+# 3182294273
+# 3182777895
+# 3183011539
+# 3183914832
+# 3186939310
+# 3192030286
+# 3193153325
+# 3194482029
+# 3194988539
+# 3202652811
+# 3205685691
+# 3211336791
+# 3212093420
+# 3212403306
+# 3212602456
+# 3212880392
+# 3213440284
+# 3215312910
+# 3216542654
+# 3217876481
+# 3218264183
+# 3218845229
+# 3219099976
+# 3221449824
+# 3222504949
+# 3224630036
+# 3225731379
+# 3237520731
+# 3238736215
+# 3245081571
+# 3246061148
+# 3251016593
+# 3261362422
+# 3266190451
+# 3268880454
+# 3269034579
+# 3269792189
+# 3272620175
+# 3272753595
+# 3277802524
+# 3288212999
+# 3289583710
+# 3290331997
+# 3292141363
+# 3292759977
+# 3294574684
+# 3294737034
+# 3295118604
+# 3295678373
+# 3300640168
+# 3305825115
+# 3309915201
+# 3318646734
+# 3320078188
+# 3322743502
+# 3323273660
+# 3325310858
+# 3326400594
+# 3327418213
+# 3328928311
+# 3334319656
+# 3334995953
+# 3339001265
+# 3339250849
+# 3339531090
+# 3343138049
+# 3343348164
+# 3344232094
+# 3346434815
+# 3349233958
+# 3349994539
+# 3350154487
+# 3350717117
+# 3350810297
+# 3350810298
+# 3350810303
+# 3351048799
+# 3351407003
+# 3352746624
+# 3353895259
+# 3354699864
+# 3356112692
+# 3356261778
+# 3356270390
+# 3357238879
+# 3357512465
+# 3358279304
+# 3361886295
+# 3364988631
+# 3366381406
+# 3368267368
+# 3369296808
+# 3373370284
+# 3380992203
+# 3381177770
+# 3388003935
+# 3390877433
+# 3396832264
+# 3398028100
+# 3404089538
+# 3405985877
+# 3408789233
+# 3408957255
+# 3411148609
+# 3413628582
+# 3415780120
+# 3420245583
+# 3420534690
+# 3425547619
+# 3425601271
+# 3426941743
+# 3435988163
+# 3436495516
+# 3438618819
+# 3441253454
+# 3442037302
+# 3443705322
+# 3449562744
+# 3454207656
+# 3456314479
+# 3461777588
+# 3464242781
+# 3465212018
+# 3465658965
+# 3465859970
+# 3468561609
+# 3469020216
+# 3472210836
+# 3475562917
+# 3476335440
+# 3478505155
+# 3481296529
+# 3481728626
+# 3483477490
+# 3483485970
+# 3483510503
+# 3484092296
+# 3485152227
+# 3485952732
+# 3486007805
+# 3488232891
+# 3491472877
+# 3491472878
+# 3493898082
+# 3496044695
+# 3497909709
+# 3499832232
+# 3500699583
+# 3500899477
+# 3504044762
+# 3505843311
+# 3506405831
+# 3515486752
+# 3522139266
+# 3524805415
+# 3527984904
+# 3528894539
+# 3529977203
+# 3532764056
+# 3533180521
+# 3535703090
+# 3538053116
+# 3538178914
+# 3541200507
+# 3543105849
+# 3543891751
+# 3547075177
+# 3547951273
+# 3550302583
+# 3553688138
+# 3555430354
+# 3557997946
+# 3559003016
+# 3559320888
+# 3559936586
+# 3561523548
+# 3564916935
+# 3565742952
+# 3565742953
+# 3570752162
+# 3572079430
+# 3575142027
+# 3575409742
+# 3576788228
+# 3578362025
+# 3581535537
+# 3586798512
+# 3587445799
+# 3587557848
+# 3590811436
+# 3591665854
+# 3595156138
+# 3597201963
+# 3597771318
+# 3598128529
+# 3599013417
+# 3600754763
+# 3602456355
+# 3602646156
+# 3602649374
+# 3611552491
+# 3614136567
+# 3614842130
+# 3615572173
+# 3622297059
+# 3628147363
+# 3630089618
+# 3632442953
+# 3633599880
+# 3635634544
+# 3636130177
+# 3636130178
+# 3639468509
+# 3639468510
+# 3639468511
+# 3641242105
+# 3645173231
+# 3653421618
+# 3653847950
+# 3659285072
+# 3662596416
+# 3664441483
+# 3670897444
+# 3671100204
+# 3672210946
+# 3672478899
+# 3674735893
+# 3681088822
+# 3687356390
+# 3690145178
+# 3692009988
+# 3693888570
+# 3695738680
+# 3696521565
+# 3697625373
+# 3698642992
+# 3700716758
+# 3703273314
+# 3708485132
+# 3708510519
+# 3709344598
+# 3710325491
+# 3710609534
+# 3711039192
+# 3713697905
+# 3715372923
+# 3716405958
+# 3716832493
+# 3718285857
+# 3721561655
+# 3721848047
+# 3729453173
+# 3732570964
+# 3734786928
+# 3738059531
+# 3738585663
+# 3740323493
+# 3741391349
+# 3741431041
+# 3742195184
+# 3746904766
+# 3753736369
+# 3756513279
+# 3756730538
+# 3757638624
+# 3762468501
+# 3765583084
+# 3766517479
+# 3769052322
+# 3769214810
+# 3770418517
+# 3770967618
+# 3772000561
+# 3772258132
+# 3772679251
+# 3776366276
+# 3781855135
+# 3782214702
+# 3784856013
+# 3785002651
+# 3787477427
+# 3791215014
+# 3792400363
+# 3793693703
+# 3795878638
+# 3796635944
+# 3797294099
+# 3797988776
+# 3798129620
+# 3798146435
+# 3799651421
+# 3802265549
+# 3803617846
+# 3803980451
+# 3806113946
+# 3813633589
+# 3818862424
+# 3819796167
+# 3825594299
+# 3829628984
+# 3829873732
+# 3830274833
+# 3830401868
+# 3830587237
+# 3833370806
+# 3834308523
+# 3838557450
+# 3838821720
+# 3844676044
+# 3851853569
+# 3852345262
+# 3853699428
+# 3853699431
+# 3854774628
+# 3858886094
+# 3860988625
+# 3861346137
+# 3863014323
+# 3867241145
+# 3867656321
+# 3871028624
+# 3871582438
+# 3874872785
+# 3875267987
+# 3878015067
+# 3878296364
+# 3880615226
+# 3881371628
+# 3886314012
+# 3887069276
+# 3887251185
+# 3889958949
+# 3892185424
+# 3893225490
+# 3893611695
+# 3898915676
+# 3902304048
+# 3904638539
+# 3905684776
+# 3909400114
+# 3910240436
+# 3910240439
+# 3913365410
+# 3914828903
+# 3921022166
+# 3930884127
+# 3931593306
+# 3931602082
+# 3934069386
+# 3934407123
+# 3934407124
+# 3934407125
+# 3934407126
+# 3935138894
+# 3937220013
+# 3937490279
+# 3942222968
+# 3943216158
+# 3945562289
+# 3946599361
+# 3949851964
+# 3949965938
+# 3953263781
+# 3953943298
+# 3955153077
+# 3961987038
+# 3962472779
+# 3965823574
+# 3965870932
+# 3966256053
+# 3968278167
+# 3968589144
+# 3972879580
+# 3972879583
+# 3973479699
+# 3979154589
+# 3979659719
+# 3981726450
+# 3982707695
+# 3983443653
+# 3983600620
+# 3986395075
+# 3987087467
+# 3990925639
+# 3991006072
+# 3991564471
+# 3992265495
+# 3994334263
+# 3996232632
+# 3999775531
+# 3999913990
+# 4005361289
+# 4006090457
+# 4006881934
+# 4007115984
+# 4007576615
+# 4008120090
+# 4008890691
+# 4015255420
+# 4017520711
+# 4019704541
+# 4020022172
+# 4029195422
+# 4030039957
+# 4030907070
+# 4035840803
+# 4036493157
+# 4036695579
+# 4041678295
+# 4044423561
+# 4045833592
+# 4045833593
+# 4045833595
+# 4045833596
+# 4045833598
+# 4045833599
+# 4047407372
+# 4051898095
+# 4052967307
+# 4061442908
+# 4061977153
+# 4062950946
+# 4063177109
+# 4064851442
+# 4065253372
+# 4066721567
+# 4068770291
+# 4071119626
+# 4073815342
+# 4075345629
+# 4080405672
+# 4080655301
+# 4081010928
+# 4081889529
+# 4083568776
+# 4084454279
+# 4088128221
+# 4093111631
+# 4093149994
+# 4093579978
+# 4094959450
+# 4095992092
+# 4096289198
+# 4099490961
+# 4099611399
+# 4100155934
+# 4100269529
+# 4100566202
+# 4102373115
+# 4105696973
+# 4107378995
+# 4107664842
+# 4113974595
+# 4115749618
+# 4119510525
+# 4129351600
+# 4131132613
+# 4131132614
+# 4132394882
+# 4134146812
+# 4135696431
+# 4136269035
+# 4138880881
+# 4141795683
+# 4146261379
+# 4152823994
+# 4155452637
+# 4157200746
+# 4157853266
+# 4159010036
+# 4159821774
+# 4160485582
+# 4161952438
+# 4166218170
+# 4167887472
+# 4168936923
+# 4172155892
+# 4175787583
+# 4180024745
+# 4182745751
+# 4185100515
+# 4185445915
+# 4186183777
+# 4186267135
+# 4187025852
+# 4187025853
+# 4187025854
+# 4188677601
+# 4190061840
+# 4194298474
+# 4195605194
+# 4196503521
+# 4196625494
+# 4197608505
+# 4197829212
+# 4198243034
+# 4198949093
+# 4199163487
+# 4203006924
+# 4203636462
+# 4204718755
+# 4208155478
+# 4208314286
+# 4210845490
+# 4215690293
+# 4216496710
+# 4220525312
+# 4222673879
+# 4222755463
+# 4224229969
+# 4225278773
+# 4226061352
+# 4226285637
+# 4231220384
+# 4232830813
+# 4233343280
+# 4239188907
+# 4239209243
+# 4240832424
+# 4240849476
+# 4241245323
+# 4243433028
+# 4245410621
+# 4251404935
+# 4251472717
+# 4253046607
+# 4253100829
+# 4253140274
+# 4255091608
+# 4255703705
+# 4256339968
+# 4256540763
+# 4257462249
+# 4258675916
+# 4266652515
+# 4267323347
+# 4267456537
+# 4268156050
+# 4269301890
+# 4269301891
+# 4269301892
+# 4269301893
+# 4269301894
+# 4271378517
+# 4275382034
+# 4278486744
+# 4279329669
+# 4284958000
+# 4287567835
+# 4287942020
+# 4292625370
+# 4293641556
+
+### SFX NAMES (main.bnk)
+# 29350469
+# 172248807
+# 331352111
+# 337356179
+# 720894659
+# 537527714
+# 687745526
+# 746511146
+# 781846531
+# 786052448
+# 89964969
+# 1057325992
+# 511441527
+# 516739786
+# 305264579
+# 691177579
+# 844415192
+# 1603595646
+# 1696905676
+# 2010998771
+# 3825584972
+
+### TRIGGER NAMES (main.bnk)
+CT_Exf_Amb
+CT_Exf_Com
+CT_Exf_Sus
+CT_StepUpPlus1
+CT_StepUpPlus2
+PM_Attack
+ST_Com_Sus_Event
+ST_ComHero
+ST_Sus_Event
+ST_TargetAppear
+ST_TargetPresent
+# 3178740878
+# 387477320
+# 1219131081
+# 3567229180
+# 2952327809
+# 1863599667
+# 1274478227
+# 3245648869
+# 3908466819
+# 1959901129
+# 3702894078
+# 1019098554
+# 1745582188
+# 2530320617
+# 2863125606
+# 3564049967
+
+### RTPC/GAME-VARIABLE NAMES (main.bnk)
+attention
+health
+obstruction
+occlusion
+RTPC_Amb_Gain
+RTPC_Amb_LPF
+RTPC_Amb_TreeWindStrength
+RTPC_ATT_Generator
+RTPC_AttentionVolMod
+RTPC_Crowd_Distant_LPF
+RTPC_Crowd_Dynamic_ATT
+RTPC_Crowd_Dynamic_CrowdDistance
+RTPC_Crowd_Dynamic_DensityLPF
+RTPC_Crowd_Dynamic_ForCrowdEnabler
+RTPC_Crowd_Dynamic_ForCrowdIndoorFilter
+RTPC_Crowd_Dynamic_GenericRandom_ATT
+RTPC_Crowd_Dynamic_InsideOutside
+RTPC_Crowd_Dynamic_LPF
+RTPC_Crowd_PanX
+RTPC_Crowd_PanY
+RTPC_DynamicMusicAtt
+RTPC_Effects_ATT
+RTPC_FS_HM_Adaptive_Mix
+RTPC_FS_Sweeteners_CharacterStancePitch
+RTPC_FS_Sweeteners_CharacterStanceVol
+RTPC_Generic_ATT
+RTPC_Generic_BiP_Azimuth
+RTPC_generic_Pitch
+RTPC_GUI_CountdownTimer_Pitch
+RTPC_GUI_CountdownTimer_Volume
+RTPC_IngameMusic_PM_Att
+RTPC_InteractiveProps_ATT
+RTPC_LPF_Generator
+RTPC_PeekAcceleration
+RTPC_PeekValue
+RTPC_Props_CeilingFanSpeed
+RTPC_Props_FreezerOpen
+RTPC_Setpieces_ATT
+RTPC_Setpieces_HPF
+RTPC_Setpieces_LPF
+RTPC_SFX_RigidBodyImpact_MIX_Ragdoll
+RTPC_StaticProps_ATT
+RTPC_weapons_HPF
+RTPC_weapons_LPF
+stealth_heartbeat_vol
+# 1538959519
+# 1541768996
+# 246460768
+# 3804731846
+# 450338960
+# 1495363556
+# 340852289
+# 2051750498
+# 156948370
+# 2864789547
+# 1515308484
+# 3895349933
+# 2804895299
+# 2417296735
+# 3549981295
+# 290354580
+# 2702126460
+# 2152433626
+# 14755490
+# 3468348960
+# 4198389523
+# 3532790160
+# 656953421
+# 3000007257
+# 2902211658
+# 2438173054
+# 3409498171
+# 2411575328
+# 1674965124
+# 4177105113
+# 2752512623
+# 902821043
+# 595368335
+# 867838365
+# 3002475478
+# 2334368222
+# 3384798324
+# 3959499946
+# 1210302364
+# 3561909659
+# 499886372
+# 2817949443
+# 795868408
+# 964636184
+# 2622230859
+# 1506764757
+# 1102500474
+# 3340960736
+# 474088081
+# 1196181214
+# 2763001519
+# 2350556531
+# 1338396556
+# 3300487785
+# 2271381581
+# 559671427
+# 3156391714
+# 4087619287
+# 2498949055
+# 3234904931
+# 523981643
+# 670125785
+# 4285083502
+# 4021234942
+# 1711993150
+# 3581229493
+# 993213140
+# 2142453823
+# 3618325987
+# 3464675948
+# 471524576
+# 596276265
+# 3280930915
+# 3568990439
+# 2516056194
+# 2226754568
+# 2989078321
+# 2406908516
+# 2192345065
+# 3156854627
+# 1639404525
+# 3566443855
+# 2085098871
+# 3479714279
+
+### VARIABLE NAMES (main.bnk)
+AgilityMaterial
+Character_Weapon
+Exotics
+female_Character
+Fire_Types
+FS_Stance
+FS_Sweetener
+GameFlow_States
+Gameplay_GameStates
+gender
+HeadType
+ItemWeapon
+Location
+MALE_Character
+MenuMusic
+MusicCore_AmbientState
+MusicCore_CompStates
+Outfit
+TailType
+valve
+Weapon_Class
+Weapons_Family
+# 1089725673
+# 1667907441
+# 2105445486
+# 753956359
+# 4187178040
+# 1855066116
+# 1878741257
+# 2831346543
+# 309922086
+# 57313553
+# 3907641770
+# 2444432621
+# 3512877457
+# 2303861225
+# 3713458445
+# 3626150918
+
+### VALUE NAMES (main.bnk)
+_01_Mini_Pistol
+_02_OneHandSpinReload_Shotgun
+_03_TranquilizerDart_Pistol
+_04_Walther2000_SniperRifle
+_05_ShootingRange_NPC_AssaultRifle
+Ambient
+AmbientZone
+Arabic
+Armour
+AssaultRifle
+Bells
+BodyguardSuit
+both
+CatwalkDress
+Chinese
+Clock
+Combat
+CreakyRattlyMetal
+CreakyStairs
+CreakyWood
+Danish
+Default
+DryDusty
+Empty
+EmptyHanded
+Exfiltration
+ExitCut
+Exotics
+female
+French
+FS_Catwalk
+FS_Cloth
+FS_Glass
+FS_Land
+FS_Leather
+FS_Metal
+FS_MetalCar
+FS_MetalFence
+FS_MetalHeavy
+FS_Plastic
+FS_Slide
+FS_Sneak
+FS_Start
+FS_Stop
+FS_Turn
+FS_Water
+FS_Wood
+FS_WoodCreaky
+Full_Automatic
+generic
+German
+Glass
+Handgun
+Heavy
+HM
+Indoor
+indoors
+InGame
+Instinct
+IronPole
+Italian
+Item_Bottle
+Item_Can_Liquid
+Item_Container
+Item_Keys
+Item_Liquid
+Item_Rattly_Metal
+Item_Solid_Medium
+Item_Squishy
+Janitor
+Japanese
+LabBioSuit
+LeatherBag
+Leaves
+Light
+MALE
+men
+Metal
+MetalFence
+modulation_01
+modulation_02
+modulation_03
+MuteExplosion
+Naked
+NoGame
+None
+Normal
+Normal_Ambient
+NormalSweetener
+NPC
+OilPuddle
+original
+Outdoor
+Pistol
+PoliceUniform
+PreGame
+Rifle
+Robe
+RottenWoodDebris
+Rubble
+Rusty
+Sand
+Shotgun
+Silence
+Silenced
+SilencedSweetener
+SilentZone
+Single
+SmallStones
+SMG
+SniperRifle
+Spanish
+Standard
+stores
+streets
+Suit47
+Swedish
+Thai
+variation_01
+variation_02
+Wet_shallow
+WindowFrame_Wood
+women
+# 1832406862
+# 3998087105
+# 3998087107
+# 3998087106
+# 292708208
+# 1415080107
+# 2694875943
+# 1208172673
+# 3062394525
+# 816520966
+# 135288121
+# 1880337367
+# 3025372497
+# 3494299742
+# 2042426900
+# 4192856509
+# 1130220639
+# 1245325937
+# 1848750115
+# 674776461
+# 3729081812
+# 361971899
+# 2447830130
+# 1742238725
+# 1224747344
+# 908327021
+# 2993430395
+# 532336059
+# 2041307875
+# 1583921685
+# 1484990346
+# 2438988808
+# 4009240629
+# 237713262
+# 1669334640
+# 2725574902
+# 3067283150
+# 845953449
+# 169532513
+# 3822961569
+# 3145480653
+# 215520347
+# 387976285
+# 1160211914
+# 40907552
+# 345210016
+# 187737122
+# 2389706259
+# 2564248416
+# 607109317
+# 3866484521
+# 352355475
+# 2328267371
+# 3109452636
+# 2067264215
+# 3674660151
+# 3524015058
+# 4059836970
+# 3277445052
+# 8792361
+# 2915677437
+# 14041816
+# 524021137
+# 2932204768
+# 3570895678
+# 1704352493
+# 240029972
+# 757599477
+# 2446051170
+# 328389162
+# 1951948288
+# 3263234410
+# 3682668048
+# 139651248
+# 2368913880
+# 2660699350
+# 2292601718
+# 91570450
+# 877324696
+# 4039110130
+# 4039110128
+# 429027071
+# 1082440463
+# 3998087109
+# 3998087111
+# 1868599532
+# 3599755568
+# 362749134
+# 224169600
+# 604603074
+# 242201375
+# 2897150797
+# 1019125130
+# 2517613408
+# 83925039
+# 889971200
+# 731988014
+# 3444696560
+# 4046565844
+# 642133791
+# 1815218118
+# 3974668510
+# 3526960842
+# 3625690246
+# 3697581996
+# 3177440757
+# 3104964601
+# 837709841
+# 2168258122
+# 2840586828
+# 2916843642
+# 2556999532
+# 2647923717
+# 3254566550
+# 1051693607
+# 3944214864
+# 2372483423
+# 4264471663
+# 620402214
+# 4206428466
+# 1866108635
+# 2954854560
+# 1509758463
+# 1715354981
+# 536920639
+# 1262378637

@@ -411,6 +411,8 @@ title
 versus
 VS
 Win
+Lose
+Loose
 fight
 prefight
 obj
