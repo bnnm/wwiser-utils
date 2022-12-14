@@ -527,10 +527,6 @@ class Words(object):
             if self._args.ignore_wrong and self._is_line_ok(line):
                 continue
 
-            # games like Death Stranding somehow have spaces in their names
-            if self._args.join_spaces:
-                line = line.replace(' ', '_')
-
             # clean vars
             types = ['%d' '%c' '%s' '%f' '0x%08x' '%02d' '%u' '%4d' '%10d']
             for type in types:
@@ -539,8 +535,12 @@ class Words(object):
             # clean copied fnvs
             if ': ' in line:
                 index = line.index(': ')
-                if line[0:index].isnumeric():
-                    line = line[index+1:]
+                if line[0:index].strip().isnumeric():
+                    line = line[index+1:].strip()
+
+            # games like Death Stranding somehow have spaces in their names
+            if self._args.join_spaces:
+                line = line.replace(' ', '_')
 
             elems = self.PATTERN_LINE.split(line)
             for elem in elems:

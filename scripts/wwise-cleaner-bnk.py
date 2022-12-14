@@ -108,6 +108,9 @@ def main():
             file_base = file_move.replace('.bnk', ext)
 
             file_unwanted = os.path.join(move_dir, file_base)
+            if '..' in file_unwanted:
+                file_unwanted = file_unwanted.replace('..\\', 'prev\\')
+                file_unwanted = file_unwanted.replace('../', 'prev/')
 
             try:
                 #print("moving:", file_unwanted)

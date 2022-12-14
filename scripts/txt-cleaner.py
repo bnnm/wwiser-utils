@@ -8,6 +8,16 @@ _BAD_GROUPS = ['uu', 'fwfw','ldlD', 'vwu']
 _ENDS_WITH = ['bc']
 DONE = set()
 
+def is_match_max(line, regex, max):
+    count = 0
+    for match in regex.finditer(line):
+        count += 1
+        if count >= max:
+            return True
+        
+    return False
+    
+
 def is_line_ok(line):
     line = line.strip()
     line_lw = line.lower()
@@ -16,13 +26,17 @@ def is_line_ok(line):
 
     if line_lw in DONE:
         return None
-    DONE.add(line_lw)
+    DONE.add(hash(line_lw)) #hash rather than line for a bit less memory
 
     if line_lw in _WORD_ALLOWED:
         return True
 
     # skip wonky mini words
     if line_len < 4 and _PATTERN_WRONG.search(line):
+        return False
+        
+    # skip mini words with several
+    if (line_len >= 4 and line_len <= 5) and is_match_max(line, _PATTERN_WRONG, 2):
         return False
 
     if line_len < 12:
@@ -86,13 +100,14 @@ def main():
         print("missing filename")
         return
 
-    in_name = sys.argv[1]
+    for i in range(1, len(sys.argv)):
+        in_name = sys.argv[i]
 
-    base, _ = os.path.splitext(in_name)
-    out_name_ok = base + "_ok.txt"
-    out_name_ko = base + "_ko.txt"
-    out_name_dp = base + "_dp.txt"
-    read_file(in_name, out_name_ok, out_name_ko, out_name_dp)
+        base, _ = os.path.splitext(in_name)
+        out_name_ok = base + "_ok.txt"
+        out_name_ko = base + "_ko.txt"
+        out_name_dp = base + "_dp.txt"
+        read_file(in_name, out_name_ok, out_name_ko, out_name_dp)
 
 # #####################################
 

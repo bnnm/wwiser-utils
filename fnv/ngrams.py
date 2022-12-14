@@ -1,3 +1,12 @@
+# NGRAMS
+# This tool makes a list of 3-gram counts based on a dictionary (words.txt), for fnv.exe to use.
+# English words has many words like -ion but few like -urp. By making a list of counts
+# and telling fnv.exe to ignore combos bellow some count, we can speed up search a lot.
+# It also separates 3-grams at the beginning and middle (few words start with ion-) and
+# inxcludes a few useful 3-grams for games, like **1.
+# A weakness is that it's hard to make a dictionary of useful words for wwise, current list
+# was made from generic English words.
+
 import itertools, re
 
 #TODO reset to start grams when _ is found
