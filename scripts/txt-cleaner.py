@@ -26,7 +26,7 @@ def is_line_ok(line):
 
     if line_lw in DONE:
         return None
-    DONE.add(hash(line_lw)) #hash rather than line for a bit less memory
+    DONE.add(line_lw) #hash may take less memory, python hash function isn't useful here tho
 
     if line_lw in _WORD_ALLOWED:
         return True

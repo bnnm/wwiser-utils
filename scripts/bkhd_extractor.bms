@@ -15,6 +15,13 @@ for OFFSET = 0 < FILE_SIZE
     goto OFFSET
 
     get HEADER long
+    
+    # wrong ID (sometimes reads lowercase)
+    if HEADER != 0x44484B42 #LE BKHD
+        savepos OFFSET
+        continue
+    endif
+    
     get TEST long
     endian guess TEST
     get DUMMY long

@@ -40,15 +40,13 @@
 #   * with combinator/permutation mode and big word list may take ages and make lots
 #     of false positives, use with care 
 
-import argparse, re, itertools, time, glob
+import argparse, re, itertools, time, glob, os
 
 # TODO:
 # - try implementing hashing in .c and calling that for performance?
 # - first part's hash can be precalculated + saved
 # - load words that end with "= 0" as-is for buses (not useful?)
 # - allow %i to make N numbers
-
-
 
 
 class Words(object):
@@ -117,7 +115,8 @@ class Words(object):
         p.add_argument('-f',  '--formats-file', help="Format list file\n- use %%s to replace a word from input list", default=self.FILENAME_FORMATS)
         p.add_argument('-s',  '--skips-file',   help="List of words to ignore\n(so they arent tested again when doing test variations)", default=self.FILENAME_SKIPS)
         p.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs", default=self.FILENAME_REVERSABLES)
-        p.add_argument('-to',  '--text-output', help="Write words rather than reversing", action='store_true')
+        p.add_argument('-to', '--text-output',  help="Write words rather than reversing", action='store_true')
+        p.add_argument('-de', '--delete-empty', help="Delete empty output files", action='store_true')
         # modes
         p.add_argument('-c',  '--combinations',         help="Combine words in input list by N (repeats words)\nWARNING! don't set high with lots of formats/words")
         p.add_argument('-p',  '--permutations',         help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words list and start next with #@section\nWARNING! don't combine many sections+words", action='store_true')
@@ -718,6 +717,7 @@ class Words(object):
 
         joinerbytes = bytes(joiner, 'UTF-8')
 
+        print("writting %s" % (self._args.output_file))
         with open(self._args.output_file, 'w') as outfile, open(self._args.skips_file, 'a') as skipfile:
             for word in words:
                 for full_format in formats:
@@ -829,6 +829,11 @@ class Words(object):
 
 
         print("total %i results" % (written))
+
+        if written == 0 and self._args.delete_empty:
+            os.remove(self._args.output_file)
+        else:
+            print("wrote %s" % (self._args.output_file))
 
         end_time = time.time()
         print("done (elapsed %ss)" % (end_time - start_time))

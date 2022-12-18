@@ -1,11 +1,6 @@
 import sys
 
-def main():
-    if len(sys.argv) != 2:
-        print("name not found")
-        return
-    inname = sys.argv[1]
-
+def write_order(inname):
     items = []
     with open(inname, 'r') as f:
         for line in f:
@@ -29,6 +24,16 @@ def main():
     outname = inname.replace('.txt', '-order.txt')
     with open(outname, 'w') as f:
        f.write('\n'.join(lines))
+
+
+def main():
+    if len(sys.argv) < 2:
+        print("name not found")
+        return
+        
+    for i in range(1, len(sys.argv)):
+        inname = sys.argv[i]
+        write_order(inname)
 
 if __name__ == "__main__":
     main()

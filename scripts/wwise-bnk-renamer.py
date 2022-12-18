@@ -3,6 +3,7 @@
 
 import glob, os, hashlib
 
+undo_rename = False
 unused_dir = 'unused'
 dupe_dir = 'dupe'
 
@@ -41,10 +42,16 @@ def main():
 
         basefile = os.path.basename(file)
         basefile, __ = os.path.splitext(basefile)
-        if not basefile.isnumeric():
-            continue
-        key = int(basefile)
-        name = names.get(key)
+        
+        if undo_rename:
+            if basefile.isnumeric():
+                continue
+            name = '%s' % (fnv(basefile))
+        else:
+            if not basefile.isnumeric():
+                continue
+            key = int(basefile)
+            name = names.get(key)
         if not name:
             continue
         file_new = file.replace(basefile, name)
