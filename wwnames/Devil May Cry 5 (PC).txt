@@ -6427,8 +6427,6 @@ play_em5000_magma_eat3
 play_em5000_fx_hanni_tame_low
 play_em5000_fx_wsh_punch1
 play_em5000_fx_wsh_punch2
-play_em5000_fx_wsh_punch1Ｒ90
-play_em5000_fx_wsh_punch2Ｒ90
 play_em5000_fx_wsh_st01_l
 play_em5000_fx_wsh_st01_r
 play_em5000_fx_wsh_st02_l
