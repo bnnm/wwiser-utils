@@ -40,17 +40,14 @@
 #   * with combinator/permutation mode and big word list may take ages and make lots
 #     of false positives, use with care 
 
-import argparse, re, itertools, time, glob, os
+import argparse, re, itertools, time, glob, os, datetime
 
 # TODO:
-# - try implementing hashing in .c and calling that for performance?
-# - first part's hash can be precalculated + saved
 # - load words that end with "= 0" as-is for buses (not useful?)
 # - allow %i to make N numbers
 
-
 class Words(object):
-    DEFAULT_FORMAT = '%s'
+    DEFAULT_FORMAT = b'%s'
     FILENAME_WWNAMES = 'wwnames*.txt'
     FILENAME_IN = 'ww.txt'
     FILENAME_OUT = 'words_out.txt'
@@ -58,10 +55,12 @@ class Words(object):
     FILENAME_FORMATS = 'formats.txt'
     FILENAME_SKIPS = 'skips.txt'
     FILENAME_REVERSABLES = 'fnv.txt'
-    PATTERN_LINE = re.compile(r'[\t\n\r .<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
-    PATTERN_WORD = re.compile(r'[_]')
-    PATTERN_WRONG = re.compile(r'[\t.<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
-    WORD_ALLOWED = ['xiii', 'xviii','zzz']
+    #PATTERN_LINE = re.compile(r'[\t\n\r .<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
+    PATTERN_LINE = re.compile(b'[^A-Za-z0-9_]')
+    PATTERN_WORD = re.compile(b'[_]')
+    PATTERN_WRONG = re.compile(b'[^A-Za-z0-9_]')
+    #PATTERN_WRONG = re.compile(r'[\t.<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
+    WORD_ALLOWED = [b'xiii', b'xviii', b'zzz']
 
     FORMAT_TYPE_NONE = 0
     FORMAT_TYPE_PREFIX = 1
@@ -155,13 +154,13 @@ class Words(object):
         format = format.strip()
         if not format:
             return
-        if format.startswith('#'):
+        if format.startswith(b'#'):
             return
-        if format.count('%s') != 1:
+        if format.count(b'%s') != 1:
             print("ignored wrong format:", format)
             return
 
-        if format.count('_') > 20: #bad line like _______...____
+        if format.count(b'_') > 20: #bad line like _______...____
             return
         self._add_format_pf(format)
 
@@ -182,24 +181,24 @@ class Words(object):
     def _add_format_main(self, format):
 
         format_lw = format.lower()
-        if format == '%s':
+        if format == b'%s':
             type = self.FORMAT_TYPE_NONE
             pre = None
             suf = None
 
-        elif format.endswith('%s'):
+        elif format.endswith(b'%s'):
             type = self.FORMAT_TYPE_PREFIX
             pre = format_lw[:-2]
             suf = None
 
-        elif format.startswith('%s'):
+        elif format.startswith(b'%s'):
             type = self.FORMAT_TYPE_SUFFIX
             pre = None
             suf = format_lw[2:]
 
         else:
             type = self.FORMAT_TYPE_BOTH
-            presuf = format_lw.split('%s')
+            presuf = format_lw.split(b'%s')
             pre = presuf[0]
             suf = presuf[1]
 
@@ -209,18 +208,16 @@ class Words(object):
         else:
             val = key
 
-        prebytes = None
-        sufbytes = None
         pre_fnv = None
         if pre:
-            prebytes = bytes(pre, 'UTF-8')
-            pre_fnv = self._fnv.get_hash_nb(prebytes)
-        if suf:
-            sufbytes = bytes(suf, 'UTF-8')
+            #pre = bytes(pre, 'UTF-8')
+            pre_fnv = self._fnv.get_hash_nb(pre)
+        #if suf:
+        #    suf = bytes(suf, 'UTF-8')
 
-        self._formats[key] = (val, format, type, prebytes, sufbytes, pre_fnv)
+        self._formats[key] = (val, format, type, pre, suf, pre_fnv)
 
-        #index = format.index('%')
+        #index = format.index(b'%')
         #if index:
         #    val = self._fnv.get_hash(format[0:index])
         #else:
@@ -230,7 +227,7 @@ class Words(object):
 
     def _read_formats(self, file):
         try:
-            with open(file, 'r') as infile:
+            with open(file, 'rb') as infile:
                 for line in infile:
                     self._add_format(line)
         except FileNotFoundError:
@@ -242,10 +239,10 @@ class Words(object):
     def _add_format_auto(self, elem):
         if not elem:
             return
-        if elem.count('_') > 20: #bad line like _______...____
+        if elem.count(b'_') > 20: #bad line like _______...____
             return
 
-        mark = '%s'
+        mark = b'%s'
         joiner = self._get_format_joiner()
 
         if self._args.no_split:
@@ -262,7 +259,7 @@ class Words(object):
 
         if self._args.format_split_full:
             for subword in subwords:
-                #if '_' in subword:
+                #if b'_' in subword:
                 #    continue
                 combo = subword + joiner + mark
                 combos.append(combo)
@@ -306,7 +303,7 @@ class Words(object):
         line = line.strip()
         if not line:
             return
-        if line.startswith('#'):
+        if line.startswith(b'#'):
             return
         elems = line.split()
         for elem in elems:
@@ -318,7 +315,7 @@ class Words(object):
 
     def _read_skips(self, file):
         try:
-            with open(file, 'r') as infile:
+            with open(file, 'rb') as infile:
                 for line in infile:
                     self._add_skip(line)
         except FileNotFoundError:
@@ -327,15 +324,15 @@ class Words(object):
     #--------------------------------------------------------------------------
 
     def _add_reversable(self, line):
-        if line.startswith('# '): #allow fnv in wwnames.txt with -sm
+        if line.startswith(b'# '): #allow fnv in wwnames.txt with -sm
             line = line[2:]
-        if line.startswith('#'):
+        if line.startswith(b'#'):
             return
 
         elem = line.strip()
         if not elem:
             return
-        if not elem.isnumeric():
+        if not elem.isdigit():
             return
 
         try:
@@ -355,7 +352,7 @@ class Words(object):
 
     def _read_reversables(self, file):
         try:
-            with open(file, 'r') as infile:
+            with open(file, 'rb') as infile:
                 for line in infile:
                     self._add_reversable(line)
         except FileNotFoundError:
@@ -368,17 +365,17 @@ class Words(object):
     #--------------------------------------------------------------------------
 
     def _get_joiner(self):
-        joiner = "_"
+        joiner = b'_'
         if self._args.join_blank:
-            joiner = ""
+            joiner = b''
         if self._args.joiner:
             joiner = self._args.joiner
         return joiner
 
     def _get_format_joiner(self):
-        joiner = "_"
+        joiner = b'_'
         #if self._args.join_blank:
-        #    joiner = ""
+        #    joiner = b''
         if self._args.format_joiner:
             joiner = self._args.format_joiner
         return joiner
@@ -386,7 +383,7 @@ class Words(object):
     def _add_word(self, elem):
         if not elem:
             return
-        if elem.count('_') > 20: #bad line like _______...____
+        if elem.count(b'_') > 20: #bad line like _______...____
             return
 
         words = self._words
@@ -402,7 +399,7 @@ class Words(object):
 
         if self._args.split_full:
             for subword in subwords:
-                if '_' in subword:
+                if b'_' in subword:
                     continue
                 combos.append(subword)
 
@@ -460,14 +457,14 @@ class Words(object):
             if self._args.alpha_only and any(char.isdigit() for char in combo_hashable):
                 continue
 
-            combo_hashable = bytes(combo_hashable, "UTF-8")
+            #combo_hashable = bytes(combo_hashable, "UTF-8")
             words[combo_hashable] = combo
 
         # add itself (needed when joiner is not _)
         if add_self:
             elem_hashable = elem.lower()
             if self._fnv.is_hashable(elem_hashable):
-                elem_hashable = bytes(elem_hashable, "UTF-8")
+                #elem_hashable = bytes(elem_hashable, "UTF-8")
                 words[elem_hashable] = elem
 
     def _is_line_ok(self, line):
@@ -484,7 +481,7 @@ class Words(object):
         if line_len < 12:
             for key, group in itertools.groupby(line):
                 group_len = len(list(group))
-                if key.lower() in ['0', '1', 'x', ' ']: #allow 000, 111, xxx
+                if key.lower() in [b'0', b'1', b'x', b' ']: #allow 000, 111, xxx
                     continue
                 if group_len > 2:
                     return False
@@ -492,33 +489,35 @@ class Words(object):
         return True
 
     def _read_words_lines(self, infile):
-        print("reading words: %s" % (infile.name))
+        ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print("reading words: %s (%s)" % (infile.name, ts))
 
         for line in infile:
             # section end when using permutations
-            if self._args.permutations and line.startswith('#@section'):
+            if self._args.permutations and line.startswith(b'#@section'):
                 self._words = {} #old section is in _sections
                 self._sections.append(self._words)
                 self._section += 1
                 continue
 
-            if line.startswith('#@nofuzzy'):
+            if line.startswith(b'#@nofuzzy'):
                 self._args.fuzzy_disable = True
                 continue
 
             # allows partially using autoformats to combine with bigger word lists
-            if line.startswith('#@noautoformat'):
+            if line.startswith(b'#@noautoformat'):
                 self._args.format_auto = False
                 continue
 
             # comment
-            if line.startswith('#'):
+            if line.startswith(b'#'):
                 continue
 
             if len(line) > 500:
                 continue
 
-            line = line.strip("\n")
+            line = line.strip(b'\r')
+            line = line.strip(b'\n')
             if not line:
                 continue
 
@@ -527,37 +526,37 @@ class Words(object):
                 continue
 
             # clean vars
-            types = ['%d' '%c' '%s' '%f' '0x%08x' '%02d' '%u' '%4d' '%10d']
-            for type in types:
-                line = line.replace(type, '')
+            var_types = [b'%d' b'%c' b'%s' b'%f' b'0x%08x' b'%02d' b'%u' b'%4d' b'%10d']
+            for var_type in var_types:
+                line = line.replace(var_type, b'')
 
             # clean copied fnvs
-            if ': ' in line:
-                index = line.index(': ')
-                if line[0:index].strip().isnumeric():
+            if b': ' in line:
+                index = line.index(b': ')
+                if line[0:index].strip().isdigit():
                     line = line[index+1:].strip()
 
             # games like Death Stranding somehow have spaces in their names
             if self._args.join_spaces:
-                line = line.replace(' ', '_')
+                line = line.replace(b' ', b'_')
 
             elems = self.PATTERN_LINE.split(line)
             for elem in elems:
                 self._add_word(elem)
 
                 if elem and len(elem) > 1 and self._args.split_caps and not elem.islower() and not elem.isupper():
-                    new_elem = ''
-                    pre_letter = ''
+                    new_elem = b''
+                    pre_letter = b''
                     for letter in elem:
                         if letter.isupper() or letter.isdigit():
                             if pre_letter.islower():
-                                new_elem += "_"
+                                new_elem += b'_'
                             new_elem += letter.lower()
                         else:
                             new_elem += letter
                         pre_letter = letter
 
-                    if '_' in new_elem:
+                    if b'_' in new_elem:
                         self._add_word(new_elem)
 
                 if self._args.cut_last and elem:
@@ -565,7 +564,7 @@ class Words(object):
                     max = self._args.cut_last
                     if elem_len <= max:
                         continue
-                    for i in range(1, self._args.cut_last+1):
+                    for i in range(1, self._args.cut_last + 1):
                         elem_cut = elem[0:-i]
                         self._add_word(elem_cut)
 
@@ -582,23 +581,15 @@ class Words(object):
                 for elem in elems:
                     self._add_format_auto(elem)
 
+        ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print("reading done (%s)" % (ts) )
+
 
     def _read_words(self, file):
-        encodings = ['utf-8-sig', 'iso-8859-1']
         try:
-            done = False
-            for encoding in encodings:
-                try:
-                    with open(file, 'r', encoding=encoding) as infile:
-                        self._read_words_lines(infile)
-                        done = True
-                    break
-                except UnicodeDecodeError:
-                    continue
-
-            if not done:
-                print("couldn't read input file %s (bad encoding?)" % (file))
-
+            # lines are read as binary (works fine) to simplify and slightly speed up loading
+            with open(file, 'rb') as infile:
+                self._read_words_lines(infile)
         except FileNotFoundError:
             pass
 
@@ -706,6 +697,7 @@ class Words(object):
             print("reversing FNVs")
 
         joiner = self._get_joiner()
+        #joiner = bytes(joiner, 'UTF-8')
         combine = self._args.combinations or self._args.permutations
 
         # info
@@ -715,16 +707,16 @@ class Words(object):
         written = 0
         start_time = time.time()
 
-        joinerbytes = bytes(joiner, 'UTF-8')
-
-        print("writting %s" % (self._args.output_file))
+        ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print("writting %s (%s)" % (self._args.output_file, ts))
         with open(self._args.output_file, 'w') as outfile, open(self._args.skips_file, 'a') as skipfile:
             for word in words:
                 for full_format in formats:
                     format, _, type, pre, suf, pre_fnv = full_format
 
                     if is_text_output:
-                        out = self._get_outword(full_format, word, joiner, combine, True)
+                        out = self._get_outword(full_format, word, joiner, combine)
+                        out = str(out, 'utf-8') #for standard linesep'ing
                         outfile.write(out + '\n')
                         written += 1
                         continue
@@ -758,7 +750,7 @@ class Words(object):
                             for namebyte in subword:
                                 hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
                             if i < len_word:
-                                for namebyte in joinerbytes:
+                                for namebyte in joiner:
                                     hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
 
                     else:
@@ -815,9 +807,11 @@ class Words(object):
                             if self._args.max_chars and len(out_final) > self._args.max_chars:
                                 continue
 
+                            out_final = str(out_final, 'utf-8')
                             outfile.write("%s: %s\n" % (fnv, out_final))
                             outfile.flush() #reversing is most interesting with lots of loops = slow, keep flushing
 
+                            out_final_lw = str(out_final_lw, 'utf-8')
                             skipfile.write("%s: %s\n" % (fnv, out_final_lw))
 
                             written += 1
@@ -836,27 +830,22 @@ class Words(object):
             print("wrote %s" % (self._args.output_file))
 
         end_time = time.time()
-        print("done (elapsed %ss)" % (end_time - start_time))
+        ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print("writting done (%s, elapsed %ss)" % (ts, end_time - start_time))
 
-    def _get_outword(self, full_format, word, joiner, combine, text=False):
+
+    def _get_outword(self, full_format, word, joiner, combine):
         format, _, type, pre, suf, _ = full_format    
 
-        if pre:
-            pre = pre.decode("utf-8")
-        if suf:
-            suf = suf.decode("utf-8")
+        #if pre:
+        #    pre = pre.decode("utf-8")
+        #if suf:
+        #    suf = suf.decode("utf-8")
 
         if combine:
-            if text:
-                baseword = joiner.join(word)
-            else:
-                temp = [x.decode('utf-8') for x in word]
-                baseword = joiner.join(temp)
+            baseword = joiner.join(word)
         else:
-            if text:
-                baseword = word
-            else:
-                baseword = word.decode("utf-8")
+            baseword = word
 
         # doing "str % (str)" every time is ~40% slower
         if   type == self.FORMAT_TYPE_NONE:
@@ -921,6 +910,8 @@ class Words(object):
         self._parsing_wwnames = True
         files = glob.glob(self._args.wwnames_file)
         for file in files:
+            if file == self._args.input_file:
+                continue
             self._read_words(file)
             self._read_reversables(file)
         self._parsing_wwnames = False
@@ -935,9 +926,9 @@ class Words(object):
 ###############################################################################
 
 class Fnv(object):
-    FNV_DICT = '0123456789abcdefghijklmnopqrstuvwxyz_'
-    FNV_FORMAT = re.compile(r"^[a-z_][a-z0-9\_]*$")
-    FNV_FORMAT_EX = re.compile(r"^[a-z_0-9][a-z0-9_()\- ]*$")
+    FNV_DICT = b'0123456789abcdefghijklmnopqrstuvwxyz_'
+    FNV_FORMAT = re.compile(b"^[a-z_][a-z0-9\_]*$")
+    FNV_FORMAT_EX = re.compile(b"^[a-z_0-9][a-z0-9_()\- ]*$")
 
     def is_hashable(self, lowname):
         return self.FNV_FORMAT.match(lowname)
@@ -952,7 +943,8 @@ class Fnv(object):
         if not id or not hashname:
             return None
 
-        namebytes = bytearray(lowname, 'UTF-8')
+        #namebytes = bytearray(lowname, 'UTF-8')
+        namebytes = lowname
         basehash = self._get_hash(namebytes[:-1]) #up to last byte
         for c in self.FNV_DICT: #try each last char
             id_hash = self._get_partial_hash(basehash, ord(c))
@@ -994,7 +986,8 @@ class Fnv(object):
         return self.get_hash_lw(name.lower())
 
     def get_hash_lw(self, lowname):
-        namebytes = bytes(lowname, 'UTF-8')
+        #namebytes = bytes(lowname, 'UTF-8')
+        namebytes = lowname
         return self._get_hash(namebytes)
 
     def get_hash_nb(self, namebytes):
