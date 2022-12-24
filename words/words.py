@@ -548,12 +548,13 @@ class Words(object):
                     new_elem = b''
                     pre_letter = b''
                     for letter in elem:
-                        if letter.isupper() or letter.isdigit():
+                        letter_b = bytearray(letter)
+                        if letter_b.isupper() or letter_b.isdigit():
                             if pre_letter.islower():
                                 new_elem += b'_'
-                            new_elem += letter.lower()
+                            new_elem += letter_b.lower()
                         else:
-                            new_elem += letter
+                            new_elem += letter_b
                         pre_letter = letter
 
                     if b'_' in new_elem:
