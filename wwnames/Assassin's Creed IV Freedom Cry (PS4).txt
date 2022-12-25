@@ -2540,3 +2540,25 @@ ST_WALLA_REACTION_BURST_CONNOR_HURTING
 
 ### MISSING TRIGGER NAMES (BNK_DLC_CN_MU_Global_DLC_CN.bnk)
 # 2587335169
+
+4059770120  : GP_GLOBAL_SLOWMOTION
+
+3965813315  : Env_InGame_Amb_Rfx_Objects
+635154600   : ENV_InGame_Foley_Falla_Guards
+718666815   : ENV_InGame_Foley_Object_Physic
+1688652096  : Env_InGame_VO_AI_Dialog
+3419470218  : ENV_InGame_VO_AI_Dialogue
+4122925661  : ENV_InGame_VO_AI_NPC
+3787623478  : ENV_InGame_VO_AI_Ono
+3416604782  : ENV_InGame_VO_AI_Ono_Assassin
+2668876115  : Env_InGame_Weapon_Hidden_Blade
+1519074919  : ENV_VO_AI_Ono_Scripted
+
+4037768494  : NonEnv_InGame_Amb_Pad_EXT_Forest
+1041098311  : NonEnv_InGame_Amb_Pad_Exterior_Duck_Charleston
+3686406197  : NonEnv_InGame_Amb_pads_Delirium
+1562035242  : NonEnv_Mix_Music_Title_Screen
+2128336132  : NonEnv_SFX_Menu_Map
+394167703   : NonEnv_SFX_Menu_Title_Screen
+
+1134150373  : SW_AMBIENCE_TIMEOFDAY
