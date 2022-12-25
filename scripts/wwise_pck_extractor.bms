@@ -7,8 +7,9 @@
 # set if cannot be autodetected: 62< uses old extensions, 62>= uses new extensions
 set BANK_VERSION long 0
 
-# set 1 to extract BNK only
-set FILTER_BNK long 0
+# set 1 to extract BNK/WEM only
+set FILTER_BNK_ONLY long 0
+set FILTER_WEM_ONLY long 0
 
 ###
 
@@ -129,11 +130,7 @@ startfunction PARSE_TABLE
     if SECTION_SIZE != 0
         get FILES long
         if FILES != 0
-            if FILTER_BNK == 1 && EXT == "wem"
-                print "skip wems"
-            else
-                callfunction PARSE_TABLE_INTERNAL 1
-            endif
+            callfunction PARSE_TABLE_INTERNAL 1
         endif
     endif
 endfunction
@@ -218,6 +215,14 @@ startfunction PARSE_TABLE_INTERNAL
             string NAME p "externals/%s%08x%08x.%s" PATH ID1 ID2 EXT
         else
             string NAME p "%s%u.%s" PATH ID EXT
+        endif
+
+        
+        if FILTER_BNK_ONLY == 1 && EXT != "bnk"
+            continue
+        endif
+        if FILTER_WEM_ONLY == 1 && EXT != "wem"
+            continue
         endif
 
         #print "%NAME%: %OFFSET|h% %SIZE|h%"
