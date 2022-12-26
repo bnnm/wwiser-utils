@@ -1,4 +1,4 @@
-#@classify-bank-path
+#@classify-bank
 
 ### BANK NAMES
 abl_alien_photon
