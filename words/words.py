@@ -943,21 +943,23 @@ class Fnv(object):
     def unfuzzy_hashname_lw(self, id, lowname, hashname):
         if not id or not hashname:
             return None
+        print(lowname, hashname)
 
         #namebytes = bytearray(lowname, 'UTF-8')
         namebytes = lowname
         basehash = self._get_hash(namebytes[:-1]) #up to last byte
         for c in self.FNV_DICT: #try each last char
-            id_hash = self._get_partial_hash(basehash, ord(c))
+            id_hash = self._get_partial_hash(basehash, c)  #ord(c) #already byte
 
             if id_hash == id:
-                c = c.upper()
+                c_str = chr(c)
                 for cs in hashname: #upper only if all base name is all upper
-                    if cs.islower():
-                       c = c.lower()
+                    cs_str = chr(cs)
+                    if cs_str.islower():
+                       c_str = c_str.lower()
                        break
 
-                hashname = hashname[:-1] + c
+                hashname = hashname[:-1] + c_str.encode() #todo better way?
                 return hashname
         # it's possible to reach here with incorrect (manually input) ids,
         # since not all 255 values are in FNV_DICT
