@@ -846,3 +846,6 @@ kiru_ex
 ranbu_finish
 sousai
 tobi_hit
+
+
+889655069: result_f
