@@ -211,7 +211,8 @@ You need to start with a base word list and some imagination to guess how names 
 
 #### Quick guide
 Typical use of *words.py*:
-- use `wwiser.pyz *.bnk -sl -sm` to generate a base `wwnames-banks-(date).txt` with valid words + missing FNV numbers
+- use `wwiser.pyz *.bnk -sl -sm` + a base `wwnames.txt` (if you have one) to generate a clean `wwnames-banks-(date).txt` with valid words + missing FNV numbers
+  - In the GUI you can create this list by loading banks, pressing the "*Redump clean wwnames.txt*" button and checking "*Also include missing IDs*"
 - put that file (now base word list + reversable FNV numbers) with *words.py*
   - by default it reads any and all `wwnames*.txt` in dir
 - run and check `words_out.txt` for possible matches (this will also create `skips.txt`)
@@ -225,21 +226,22 @@ Typical use of *words.py*:
 - keep tweaking `formats.txt` and adding/removing words in `wwnames.txt` trying to guess more names
 - every now and then update original list, then `wwiser.pyz *.bnk -sl -sm` to see how numbers keep decreasing
 - make a `ww.txt` file with extra posible names (together with `wwnames*`), run again
-  - you could add it to `wwnames.txt` directly too, but this coexists and it's a bit easier
-  - this is best used with many `formats.txt` variations
-  - prone to false positives, try disabling "fuzzy matching" with `-zd` or writting `#@nofuzzy` in the file
+  - you could add it to `wwnames.txt` directly too, but this coexists and it's a bit easier to tweak
+  - best used with many `formats.txt` variations (include format `%s` for no-affix default)
   - examples of useful texts to try:
     - output of `strings2` (often game has stems in files that aren't used as base wwnames)
-    - `english.txt` (extra useful words every now and then): https://github.com/dwyl/english-words/
-    - text faqs/guides of the game (possible game-related words)
+    - `english.txt` (useful words every now and then but many false positives): https://github.com/dwyl/english-words/
+    - parts from faqs/guides of the game (common game-related words)
     - `wwnames.txt` from other games: https://github.com/bnnm/wwiser-utils/tree/master/wwnames
-      - Windows batch: `copy *.txt .allnames.txt` to try many at once
+      - Windows batch: `copy *.txt .allnames.txt` to try several at once
 - try flags to fine-tune (see below)
-- trim word list a bit and try *combinations* (see below)
+- trim word list a bit and try *combinations*: `words.py -c 2` (see below)
   - preferably limit FNV numbers to certain banks, as this makes tons of false positives
 - trim word list a bit and try *permutations* with another list (see below)
   - for example wwnames + `strings2` results or `english.txt`
 - repeat again and again as you get more valid words (new words = new combos = new chances)
+- adding a `#@classify-bank` line to `wwnames.txt` and re-generating the list alters output a bit, and usually makes checking false positives easier
+- using *pypy* (python optimization) to run this tools makes it noticeably faster, specially when using combinations
 - give up at some point, copy names to the original *wwnames.txt*, re-create with `wwiser.pyz *.bnk -sl` and move on
 
 Get *pypy* (https://www.pypy.org/) and use it to run *words.py* for a nice speed up.
@@ -254,7 +256,7 @@ FNV ID numbers must be plain `(number)` or `# (number)` (as the later is how it 
 
 Internally *words.py* splits parts (`BGM`, `BGM_Vocal_Camp` `Vocal_Camp_Off`, `Vocal_Camp`, `Vocal`, etc) from lists and combines with formats (see below). It's best to start with all names we have (like `wwnames.txt` or even output straight from `strings2`). You can force generate internally combined words with a flag, but it'll make huge lists.
 
-Key here is quantity over quality. Just make huge lists of possible names and see how it goes. As long as you have free memory big-ish files are ok, but you may want to split giant words lists for easier handling. You can get a bunch of false positives this way, but most should look fake enough.
+Key here is quantity over quality. Just make huge lists of possible names and see how it goes. As long as you have free memory big-ish files are ok, but you may want to split giant words lists for easier handling. You can get a bunch of false positives this way, but most should look fake enough (do pay attention).
 
 
 #### Formats
@@ -278,6 +280,7 @@ Downside is that many words + high `-c N` = humongous number of results. So `wor
 
 In some cases it's better to use fully split stems by using the flag `-sf`. Normally `BGM_Vocal_Camp` splits into `BGM_Vocal`, `Vocal_Camp`, `BGM`, `Vocal`, `Camp`. With the flag, only `BGM`, `Vocal`, `Camp` are used. Combine custom `formats.txt`, this flag and `-c N` to create words like `(prefix)_(combos up to N)_(suffix)`, that can be useful when we have clear prefix/suffixes in `formats.txt`.
 
+
 #### Permutations
 A more specialized version is using `words.py -p`. This takes `words.txt`, that must be divided into "sections", and makes permutations of those sections to create combo words. For example:
 ```
@@ -295,6 +298,7 @@ stage
 With those 3 sections it makes: `BGM_mission_01`, `BGM_stage_01`, `BGM_mission_001`, ..., `Play_BGM_mission_01`, `Play_BGM_stage_001`, an so on. This is similar as making formats (`BGM_%s_01`, `BGM_%s_001`) but simplifies testing more combos. Formats can be used on top of the permutations too.
 
 You can also add `#@section` in `ww.txt` to designate a new section combined with `wwnames.txt` default section.
+
 
 #### Format combos
 A variation of the above is `-fa`. This generates combos that become formats, mainly used to get words in the middle. `BGM_Vocal_Camp` makes `%s_BGM_Vocal_Camp`, `BGM_%s_Vocal_Camp`, `BGM_Vocal_%s_Camp`, `%s_Vocal_Camp`, `BGM_Vocal_Camp_%s`, `BGM_Vocal_%s`, `BGM_%s_Camp` and so on, that may catch `BGM_Desert_Camp`.
@@ -341,7 +345,7 @@ Others, mainly useful to control max results for combination/permutations:
 
 
 #### Other info
-*python* isn't exactly known for speed, so `words.py` can be rather slow. A trick to improve this is using *pypy* (https://www.pypy.org/), a reimplementation of *python.exe* that often results in faster execution (download, unzip, then use `pypy3.exe words.py ...`). While *wwiser* doesn't seem very affected, `words.py` gets a huge boost (specially with `fnv.txt`).
+*python* isn't exactly known for speed, so `words.py` can be rather slow. A trick to improve this is using *pypy* (https://www.pypy.org/), a reimplementation of *python.exe* that often results in faster execution (download, unzip, then use `pypy3.exe words.py ...`). While *wwiser* doesn't seem very affected, `words.py` gets a huge boost.
 
 Keep in mind this tool is memory hungry, is it needs to store words, reversed strings and other stuff.
 
