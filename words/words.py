@@ -116,6 +116,7 @@ class Words(object):
         p.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs", default=self.FILENAME_REVERSABLES)
         p.add_argument('-to', '--text-output',  help="Write words rather than reversing", action='store_true')
         p.add_argument('-de', '--delete-empty', help="Delete empty output files", action='store_true')
+        p.add_argument('-sr', '--sort-results', help="Sort results after processing", action='store_true', default=True)
         # modes
         p.add_argument('-c',  '--combinations',         help="Combine words in input list by N (repeats words)\nWARNING! don't set high with lots of formats/words")
         p.add_argument('-p',  '--permutations',         help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words list and start next with #@section\nWARNING! don't combine many sections+words", action='store_true')
@@ -887,6 +888,45 @@ class Words(object):
 
     #--------------------------------------------------------------------------
 
+    def _sort_results(self):
+        if not self._args.sort_results:
+            return
+
+        inname = self._args.output_file
+
+        # separate fnv + hash
+        items = []
+        try:
+            with open(inname, 'r') as f:
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    if ':' not in line:
+                        continue
+
+                    fnv, name = line.split(':')
+                    fnv = fnv.strip()
+                    name = name.strip()
+                    items.append( (fnv, name) )
+        except FileNotFoundError:
+            return
+       
+        lines = []
+        items.sort(key=lambda x : x[1].lower())
+        for fnv, name in items:
+            #fnv += ':'
+            fnv = fnv.ljust(12)
+
+            name = name.strip()
+            lines.append("%s: %s" % (fnv, name))
+
+        outname = inname #.replace('.txt', '-order.txt')
+        with open(outname, 'w') as f:
+           f.write('\n'.join(lines))
+
+    #--------------------------------------------------------------------------
+
     def _process_config(self):
         cb = self._args.combinations
         pt = self._args.permutations
@@ -923,6 +963,7 @@ class Words(object):
 
         self._process_config()
         self._write_words()
+        self._sort_results()
 
 ###############################################################################
 
