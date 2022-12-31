@@ -488,3 +488,6 @@ Stop_SFX_Waterfall_Medium
 Stop_SFX_Waterfall_Medium_LP
 Stop_SFX_Waterfall_Small_LP
 TreasureChest_Aurora_000
+
+
+1578224956: Aurora_Short_Altar_Intro

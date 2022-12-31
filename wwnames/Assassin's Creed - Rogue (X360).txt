@@ -31135,3 +31135,27 @@ GP_VOLUME_SFX
 
 ### MISSING SFX NAMES (Reference_Test.bnk)
 # 3472459455
+
+
+4059770120  : GP_GLOBAL_SLOWMOTION
+952758365   : Play_F_Obj_Metal_Impact_Heavy_Generic
+2328170931  : Play_F_Obj_Tool_Medium
+1808052023  : Play_F_Obj_Wood_Crate_Impact_Heavy
+2085963351  : Play_F_Obj_Wood_Crate_Impact_Medium
+2463834672  : Play_Wwise_Pink_Noise_Minus_20fsd_LFE
+1472239763  : Play_Wwise_White_Noise_Minus_20fsd_C
+1472239772  : Play_Wwise_White_Noise_Minus_20fsd_L
+2112979859  : Play_Wwise_White_Noise_Minus_20fsd_LFE
+3224387047  : Play_Wwise_White_Noise_Minus_20fsd_LS
+1472239746  : Play_Wwise_White_Noise_Minus_20fsd_R
+2788168917  : Play_Wwise_White_Noise_Minus_20fsd_RS
+1367458057  : Set_Switch_Animal_Goat
+1220237445  : Set_Switch_Animal_Sheep
+
+1686368102  : Mute_Amb_Wind_Global_System_LP_QUAD_SS
+1948225701  : Stop_Amb_Wind_Global_System_LP_QUAD_SS
+999794487   : Unmute_Amb_Wind_Global_System_LP_QUAD_SS
+1833755684  : play_SFX_Fire_Fish_Smoker_01_LP
+3769109998  : Stop_SFX_Fire_Fish_Smoker_01_LP
+3611796426  : Stop_sfx_bird_pigeons_idle
+3814783096  : Unmute_sfx_bird_pigeons_idle

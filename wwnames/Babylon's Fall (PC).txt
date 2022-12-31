@@ -353,10 +353,12 @@ sfx
 ### BUS NAMES
 BGM
 BGM_Combat
-BGM_Combat_boss
+BGM_Combat_Boss
 BGM_Combat_MobEnemy
-BGM_dungeon
+BGM_Dungeon
+BGM_Mob_Inst
 BGM_Stereo
+BGM_Upmixer
 Master Audio Bus = 0
 Master Secondary Bus = 0
 SE_Em
@@ -375,19 +377,20 @@ SE_pl_wp
 SE_pl_wp_Gideon
 SE_Stage_Bus
 SE_Stage_Environment
+SE_Stage_Environment_obj
 SE_Stage_Environment_underwater
+SE_Stage_gimmick_obj
+SE_Stage_obj
 SE_System
 underwater_delay
 underwater_delay_m
 underwater_delay_s
 underwater_delay_v
-vo_event
-vo_gideon_coffin
-vo_gideon_option
+vo_Event
+vo_Gideon_Coffin
+VO_Gideon_Option
 VO_Ingame
-vo_option
-bgm_upmixer
-# 1244766325
+vo_Option
 # 1457925577
 # 1966167868
 # 2988527371
@@ -397,7 +400,6 @@ bgm_upmixer
 # 3694822850
 # 430938813
 # 2672176385
-# 445053590
 # 2352875034
 # 3558393913
 # 17215224
@@ -405,7 +407,6 @@ bgm_upmixer
 # 1267326188
 # 1619656162
 # 3974714400
-# 687785492
 # 3447848733
 # 1917143811
 # 1983050269
@@ -446,10 +447,10 @@ bgm_upmixer
 # 1155447976
 # 1155447981
 # 1155447990
-# 3569779924
 
 ### EVENT NAMES (BGM.bnk)
 BGM_Base_disable
+BGM_Base_Enable
 BGM_Base_Pause
 BGM_Base_Resume
 BGM_Boss_effect_in
@@ -475,6 +476,8 @@ BGM_Dungeon_typeE_C
 BGM_Dungeon_typeH
 BGM_Dungeon_typeJ
 BGM_Dungeon_typeK
+BGM_Enable_Combat
+BGM_Enable_Dungeon
 BGM_ev0000_Start
 BGM_ev1010_End
 BGM_ev1010_Start
@@ -754,9 +757,15 @@ BGM_root_combat
 BGM_Root_dungeon
 BGM_set_base
 BGM_set_login
+BGM_set_None_1000ms
 BGM_set_none_2000ms
 BGM_set_none_3000ms
+BGM_set_None_4000ms
+BGM_set_None_5000ms
 BGM_set_none_6000ms
+BGM_set_None_7000ms
+BGM_set_None_8000ms
+BGM_set_None_9000ms
 BGM_set_title
 BGM_verse_in
 BGM_verse_out
@@ -795,6 +804,23 @@ Load_in_BGM
 Load_out_BGM
 Set_BGM
 Set_BossA
+set_midbossa_lv1
+set_midbossa_lv2
+set_midbossa_lv3
+set_midbossb_lv1
+set_midbossb_lv2
+set_midbossb_lv3
+set_midbossc_lv1
+set_midbossc_lv2
+set_midbossc_lv3
+set_moba_lv1
+set_moba_lv2
+set_moba_lv3
+set_moba_lv4
+set_mobb_lv1
+set_mobb_lv2
+set_mobb_lv3
+set_mobb_lv4
 # 27108730
 # 51693728
 # 51693731
@@ -812,21 +838,13 @@ Set_BossA
 # 759635578
 # 949967121
 # 949967122
-# 1370563233
-# 1370563234
-# 1370563235
-# 1413016056
-# 1413016057
-# 1413016059
 # 1413016060
-# 1413016062
 # 1413016063
 # 1449268449
 # 1459658657
 # 1459658662
 # 1459658663
 # 1479101693
-# 1567953071
 # 1605719299
 # 1646012692
 # 1698779263
@@ -842,28 +860,15 @@ Set_BossA
 # 1870387312
 # 1898742852
 # 1973958369
-# 2020494919
-# 2056048414
-# 2308951332
-# 2308951334
-# 2308951335
 # 2356512362
-# 2362665009
 # 2382309637
 # 2408560351
-# 2539202840
 # 2541811185
-# 2603157864
-# 2603157866
-# 2603157867
 # 2603157868
-# 2603157869
 # 2603157871
 # 2688021450
 # 2688021452
 # 2688021453
-# 2861213059
-# 2900845051
 # 2922275712
 # 2957436658
 # 3132359276
@@ -874,17 +879,12 @@ Set_BossA
 # 3420868692
 # 3420868693
 # 3420868695
-# 3423322840
-# 3423322841
-# 3423322842
-# 3497663480
 # 3674367105
 # 3685232028
 # 3685232029
 # 3685232030
 # 3724471097
 # 4043173887
-# 4219193836
 
 ### SFX NAMES (BGM.bnk)
 PG_Simple3D
@@ -986,6 +986,8 @@ boss_typeC
 boss_typeD1
 boss_typeD2
 boss_typeE
+BossEffect_In
+BossEffect_Out
 C
 combat
 current_wave_1
@@ -1042,6 +1044,23 @@ midboss_3_typec
 midboss_typeA
 midboss_typeB
 midboss_typeC
+midbossa_Lv1
+midbossa_Lv2
+midbossa_Lv3
+midbossb_Lv1
+midbossb_Lv2
+midbossb_Lv3
+midbossc_lv1
+midbossc_lv2
+midbossc_lv3
+moba_lv1
+moba_lv2
+moba_lv3
+moba_lv4
+mobb_lv1
+mobb_lv2
+mobb_lv3
+mobb_lv4
 mobenemy
 mobenemy_typeA
 mobenemy_typeB
@@ -1049,9 +1068,15 @@ mobenemy_typeC
 nier
 no_phase
 none
+None_1000ms
 none_2000ms
 none_3000ms
+None_4000ms
+None_5000ms
 none_6000ms
+None_7000ms
+None_8000ms
+None_9000ms
 num_waves_1
 num_waves_2
 off
@@ -1096,17 +1121,9 @@ variant_3_named
 # 1820986175
 # 4023272982
 # 762063970
-# 2265504064
-# 2265504066
-# 2265504067
 # 2265504068
-# 2265504069
 # 2265504071
-# 2903413712
-# 2903413713
-# 2903413715
 # 2903413716
-# 2903413718
 # 2903413719
 # 1485774391
 # 1628887550
@@ -1125,20 +1142,10 @@ variant_3_named
 # 335279430
 # 3486941084
 # 4112307564
-# 1543528068
-# 1543528069
-# 1543528070
-# 3643301232
-# 3643301233
-# 3643301235
 # 4192039310
 # 468945112
 # 1524976385
 # 1731755140
-# 4210193261
-# 4210193262
-# 4210193263
-# 2517985617
 # 35402994
 # 35402996
 # 35402997
@@ -1147,13 +1154,6 @@ variant_3_named
 # 1153941588
 # 2103361170
 # 3715103005
-# 334150803
-# 762903354
-# 1332965557
-# 1884569913
-# 2195315137
-# 2967860766
-# 2310028400
 # 1283566950
 
 ### SFX NAMES (Init.bnk)
@@ -1231,6 +1231,7 @@ SE_menu_duck
 SE_Occlusion
 SE_PlayerType
 SE_Speed
+SE_TribeType
 SE_UnderwaterType
 SE_Weather_type
 Sound_Output
@@ -1241,7 +1242,6 @@ Volume_Master
 Volume_SE
 Volume_Voice
 # 204142819
-# 1199381328
 # 164315962
 # 253426148
 # 494386366
@@ -1319,6 +1319,7 @@ em6000_type
 em_core_entryanim
 SE_Weather_type
 step_speed
+tribe_type
 # 1075352015
 # 1265937450
 # 2979746942
@@ -1331,7 +1332,6 @@ step_speed
 # 3076777233
 # 2147574980
 # 779427024
-# 413540742
 
 ### VALUE NAMES (Init.bnk)
 none
@@ -1796,8 +1796,94 @@ pl_core_tinnitus_loop
 pl_core_verse_area_in
 pl_core_weapon_appear
 pl_core_weapon_disappear
+pl_guard_em_bullet_C
+pl_guard_em_bullet_m
+pl_guard_em_bullet_s
+pl_guard_em_magic_c
+pl_guard_em_magic_m
+pl_guard_em_magic_s
 pl_guard_parry
+pl_hit_em0001_bullet_s
+pl_hit_em0001_magic_s
+pl_hit_em0002_bullet_s
+pl_hit_em0002_magic_s
+pl_hit_em0003_bullet_s
+pl_hit_em0003_magic_s
+pl_hit_em000b_bullet_s
+pl_hit_em000b_magic_s
+pl_hit_em0010_bullet_s
+pl_hit_em0010_magic_s
+pl_hit_em0011_bullet_s
+pl_hit_em0011_magic_s
+pl_hit_em0012_bullet_s
+pl_hit_em0012_magic_s
+pl_hit_em0013_bullet_s
+pl_hit_em0013_magic_s
+pl_hit_em0014_bullet_s
+pl_hit_em0014_magic_s
+pl_hit_em0015_bullet_s
+pl_hit_em0015_magic_s
+pl_hit_em0016_bullet_s
+pl_hit_em0016_magic_s
+pl_hit_em0017_bullet_s
+pl_hit_em0017_magic_s
+pl_hit_em0018_bullet_s
+pl_hit_em0018_magic_s
+pl_hit_em0120_bullet_s
+pl_hit_em0120_magic_s
+pl_hit_em0121_bullet_s
+pl_hit_em0121_magic_s
+pl_hit_em0122_bullet_s
+pl_hit_em0122_magic_s
+pl_hit_em0126_bullet_s
+pl_hit_em0126_magic_s
+pl_hit_em0127_bullet_s
+pl_hit_em0127_magic_s
+pl_hit_em0128_bullet_s
+pl_hit_em0128_magic_s
+pl_hit_em0427_bullet_s
+pl_hit_em0427_magic_s
+pl_hit_em0436_bullet_s
+pl_hit_em0436_magic_s
+pl_hit_em0900_bullet_s
+pl_hit_em0900_magic_s
+pl_hit_em0910_bullet_s
+pl_hit_em0910_magic_s
+pl_hit_em0911_bullet_s
+pl_hit_em0911_magic_s
+pl_hit_em1000_bullet_s
+pl_hit_em1000_magic_s
+pl_hit_em_bullet_C
+pl_hit_em_bullet_m
+pl_hit_em_bullet_s
 pl_hit_em_finish
+pl_hit_em_magic_C
+pl_hit_em_magic_m
+pl_hit_em_magic_s
+pl_hit_zze040_bullet_m
+pl_hit_zze040_bullet_s
+pl_hit_zze040_magic_m
+pl_hit_zze040_magic_s
+pl_hit_zze100_bullet_m
+pl_hit_zze100_bullet_s
+pl_hit_zze100_magic_m
+pl_hit_zze100_magic_s
+pl_hit_zze150_bullet_m
+pl_hit_zze150_bullet_s
+pl_hit_zze150_magic_m
+pl_hit_zze150_magic_s
+pl_hit_zze151_bullet_m
+pl_hit_zze151_bullet_s
+pl_hit_zze151_magic_m
+pl_hit_zze151_magic_s
+pl_hit_zze153_bullet_m
+pl_hit_zze153_bullet_s
+pl_hit_zze153_magic_m
+pl_hit_zze153_magic_s
+pl_hit_zze15a_bullet_m
+pl_hit_zze15a_bullet_s
+pl_hit_zze15a_magic_m
+pl_hit_zze15a_magic_s
 pla000_Blocking_wsh
 pla000_Shotei_Wsh
 pla000_Shoulder_Atk_Wsh
@@ -1819,6 +1905,7 @@ SE_Start_pl_appear
 Sound_Output_Auto
 Sound_Output_Mono
 Sound_Output_Stereo
+Sound_Output_Surround
 stage_com_underwater_loop
 stage_com_water_in_splash
 stage_com_water_out_splash
@@ -1888,7 +1975,6 @@ System_Pause_All
 System_Resume_All
 System_Unmute_All
 # 7282662
-# 18865300
 # 41758458
 # 43581822
 # 47905260
@@ -1898,10 +1984,7 @@ System_Unmute_All
 # 68249121
 # 68249137
 # 68249151
-# 72597131
 # 76931100
-# 77286091
-# 77286101
 # 77818747
 # 78535235
 # 91647213
@@ -1915,7 +1998,6 @@ System_Unmute_All
 # 175273466
 # 177816707
 # 178971742
-# 230032463
 # 236585515
 # 268884001
 # 304266401
@@ -1923,13 +2005,10 @@ System_Unmute_All
 # 328594611
 # 328594621
 # 337294924
-# 339469869
-# 339469875
 # 343596903
 # 360104594
 # 385268426
 # 397444710
-# 410207687
 # 410833681
 # 414783372
 # 439675140
@@ -1940,20 +2019,13 @@ System_Unmute_All
 # 469213738
 # 469213748
 # 469213754
-# 478427658
-# 478427668
 # 516967847
 # 523305623
-# 533101889
-# 533101919
 # 570390445
 # 570432988
-# 574507298
-# 596182913
 # 606791812
 # 606791818
 # 606791834
-# 610365003
 # 630238171
 # 650556530
 # 667461016
@@ -1961,15 +2033,11 @@ System_Unmute_All
 # 707119548
 # 713602566
 # 735413516
-# 741840322
 # 761290056
-# 768633457
 # 772920661
 # 780109584
-# 782685470
 # 817020337
 # 847730399
-# 858827746
 # 868476698
 # 872241083
 # 885948588
@@ -1984,17 +2052,12 @@ System_Unmute_All
 # 950164508
 # 950631720
 # 950631734
-# 971314032
 # 974118511
 # 974118513
 # 974118527
 # 977516409
 # 986920236
 # 993979258
-# 1000660240
-# 1006862726
-# 1024637027
-# 1024637053
 # 1055250978
 # 1059786205
 # 1063807715
@@ -2019,20 +2082,14 @@ System_Unmute_All
 # 1260470956
 # 1260470962
 # 1269295552
-# 1270285848
 # 1280543042
 # 1280543068
-# 1284272325
 # 1301891666
 # 1321608075
 # 1321608085
 # 1321608091
-# 1337786838
 # 1392551447
-# 1399433721
 # 1401698695
-# 1413022526
-# 1418581327
 # 1421341292
 # 1437212777
 # 1440887654
@@ -2046,16 +2103,9 @@ System_Unmute_All
 # 1534671553
 # 1534671567
 # 1534671569
-# 1546724072
-# 1546724086
 # 1554808970
-# 1555919694
-# 1562290639
-# 1562290641
-# 1570391496
 # 1589067605
 # 1597933877
-# 1623864075
 # 1629403654
 # 1629403672
 # 1640864127
@@ -2076,11 +2126,6 @@ System_Unmute_All
 # 1779179517
 # 1818801704
 # 1833606595
-# 1834455748
-# 1834455754
-# 1834455770
-# 1842649770
-# 1861205496
 # 1862566546
 # 1870676609
 # 1870676639
@@ -2099,16 +2144,12 @@ System_Unmute_All
 # 1968154873
 # 1986158380
 # 1995485265
-# 2005539987
 # 2013583259
 # 2090476363
 # 2099809508
 # 2099809530
 # 2104067272
 # 2105776202
-# 2142872353
-# 2142872369
-# 2142872383
 # 2146618884
 # 2146618890
 # 2146618900
@@ -2125,10 +2166,8 @@ System_Unmute_All
 # 2275833012
 # 2276165536
 # 2287140748
-# 2303788413
 # 2315183143
 # 2317324239
-# 2321155095
 # 2327084858
 # 2351763301
 # 2351763307
@@ -2139,35 +2178,28 @@ System_Unmute_All
 # 2419823203
 # 2430420339
 # 2433856894
-# 2434305787
-# 2434516971
 # 2472837108
 # 2476995316
 # 2477627972
 # 2487652982
 # 2489477851
 # 2491139551
-# 2499363509
 # 2499666938
 # 2515044298
 # 2516558433
 # 2516558447
 # 2516558463
-# 2521407159
 # 2525480512
 # 2541825772
 # 2541825778
 # 2546546696
 # 2546546710
 # 2546546712
-# 2550821162
-# 2550821172
 # 2552466976
 # 2552466992
 # 2552467006
 # 2555187190
 # 2574981290
-# 2577531353
 # 2610911885
 # 2610911891
 # 2616598895
@@ -2198,10 +2230,6 @@ System_Unmute_All
 # 2714759331
 # 2717424481
 # 2718007449
-# 2735219885
-# 2735219891
-# 2753048582
-# 2753048600
 # 2761424337
 # 2773592469
 # 2782940266
@@ -2211,20 +2239,11 @@ System_Unmute_All
 # 2813061634
 # 2817557988
 # 2874559289
-# 2893635809
-# 2893635823
-# 2893635825
-# 2907274088
 # 2927946077
 # 2928265193
 # 2928265207
 # 2948759356
-# 2963134250
-# 2963134260
-# 2975451908
-# 2975451930
 # 2978301491
-# 2986036536
 # 2998948451
 # 3030649289
 # 3041295494
@@ -2238,7 +2257,6 @@ System_Unmute_All
 # 3101942162
 # 3108281093
 # 3109198985
-# 3126094929
 # 3167413213
 # 3187815484
 # 3217929148
@@ -2252,18 +2270,13 @@ System_Unmute_All
 # 3264423050
 # 3276296562
 # 3295798437
-# 3302600385
 # 3305350024
 # 3305350038
 # 3306613496
 # 3309047526
 # 3316348236
-# 3316806216
 # 3331132424
 # 3335550362
-# 3337016799
-# 3338264181
-# 3341341255
 # 3342021292
 # 3350569965
 # 3366136729
@@ -2274,7 +2287,6 @@ System_Unmute_All
 # 3446423683
 # 3459181763
 # 3484942070
-# 3505400188
 # 3512195668
 # 3525211951
 # 3537043661
@@ -2282,7 +2294,6 @@ System_Unmute_All
 # 3553115332
 # 3553115348
 # 3553115354
-# 3554614951
 # 3564927628
 # 3565444262
 # 3565444280
@@ -2296,10 +2307,8 @@ System_Unmute_All
 # 3630949419
 # 3650202691
 # 3671978369
-# 3681035506
 # 3695077053
 # 3703216596
-# 3704773792
 # 3706556522
 # 3721376879
 # 3721740160
@@ -2342,33 +2351,24 @@ System_Unmute_All
 # 3993112903
 # 3993112921
 # 3995521372
-# 4006834537
-# 4016048872
 # 4017790710
 # 4035558358
-# 4057424756
 # 4059525704
 # 4060982785
 # 4060982815
 # 4066510798
 # 4066510800
-# 4074848864
 # 4084457922
 # 4101340436
 # 4106872445
 # 4110316138
 # 4110316148
 # 4110316154
-# 4147371281
-# 4161456140
 # 4163471394
 # 4163471404
 # 4163471410
 # 4181491571
 # 4192407738
-# 4193456970
-# 4193456980
-# 4193456986
 # 4209035198
 # 4218750443
 # 4218750453
@@ -2419,38 +2419,39 @@ step_speed
 # 779427024
 
 ### VALUE NAMES (core.bnk)
+c00_none
+c01_normal
+c01_soil
+c02_flame
+c02_stone
+c03_ice
+c03_iron
+c04_thunder
+c04_tree
+c05_light
+c05_wooden
+c06_dark
+c06_grass
+c07_water
+c08_flower
+c09_snow
+c10_lava
+c11_poison
+c13_tar
+c15_ice
+c17_carpet
 off
 on
 run
-Walk
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
-# 2706724829
-# 4045841205
-# 3871283036
-# 2096303688
-# 3199056871
-# 3327193506
-# 3360222533
-# 3463206039
-# 316263686
-# 3324477241
-# 2141818976
-# 1212883729
+walk
 # 1360865370
-# 1110913528
 # 3657167964
-# 986107506
 # 2461478625
-# 3670935494
 
 ### EVENT NAMES (em0002.bnk)
 em0001_wp_arw_exp
 em0001_wp_arw_hit
+em0001_wp_arw_hit_down
 em0001_wp_arw_wsh_down
 em0001_wp_arw_wsh_loop
 em0001_wp_arw_wsh_up
@@ -2461,7 +2462,6 @@ em0001_wp_bow_shot
 em0001_wp_bow_wsh
 Stop_em0001_wp_arw_wsh_loop
 # 3335860705
-# 3576808806
 
 ### SFX NAMES (em0002.bnk)
 PG_Simple3D
@@ -2488,13 +2488,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0002.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0003.bnk)
 em0001_Atk_Hammer
@@ -2524,13 +2524,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0003.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em000b.bnk)
 em000b_act_exp
@@ -2594,13 +2594,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em000b.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0010.bnk)
 em0001_wp_sonic_h_loop
@@ -2645,13 +2645,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0010.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0011.bnk)
 em0001_Com_KnifeAttack_L
@@ -2677,13 +2677,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0011.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0012.bnk)
 em0001_Magic_bombcharge
@@ -2768,13 +2768,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0014.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0015.bnk)
 em000b_wp_hm_jump_jet
@@ -2799,13 +2799,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0015.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0016.bnk)
 em000b_atk_laser_loop
@@ -2871,13 +2871,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0017.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0060.bnk)
 em0060_atk_foley_short
@@ -2942,13 +2942,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0060.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0061.bnk)
 em0061_Bullet_Fly_Loop
@@ -3013,13 +3013,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0061.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0062.bnk)
 em0061_Bullet_Fly_Loop
@@ -3084,13 +3084,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0062.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0063.bnk)
 em0061_Bullet_Fly_Loop
@@ -3155,13 +3155,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0063.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0070.bnk)
 em0070_akt_dmball_01
@@ -3535,13 +3535,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0130.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0140.bnk)
 em0140_atk_debris
@@ -3778,17 +3778,17 @@ em0425_claw_atk_start
 em0425_claw_Atk_Wsh
 em0425_com_Atk_L
 em0425_com_Atk_M
+em0425_dive_atk_dive_loop
+em0425_dive_atk_dive_wsh
+em0425_dive_atk_start
 em0425_tail_atk_start
 em0425_tail_atk_tele
 em0425_tail_atk_wsh
 em0425_vo_atk
-# 481826192
 # 1317396186
-# 1522848847
 # 2149934944
 # 2150685232
 # 2493954216
-# 3840210620
 
 ### SFX NAMES (em0425.bnk)
 PG_Simple3D
@@ -3811,13 +3811,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0425.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0427.bnk)
 em0427_allstop_dead
@@ -3866,13 +3866,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0427.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0431.bnk)
 em0431_atk_db_cancel
@@ -3921,13 +3921,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0431.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0432.bnk)
 em0432_allstop_dead
@@ -4204,6 +4204,8 @@ em0470_wing_move_down
 em0470_wing_move_up
 em0470_wing_wait_down
 em0470_wing_wait_up
+em0475_akt_dmball_03_shot
+em0475_akt_dmball_05_pass_loop
 em0475_akt_dmball_05_spawn_loop
 em0475_akt_dmball_05_start
 em0475_akt_dmball_06
@@ -4236,14 +4238,12 @@ Stop_em0470_atk_db_loop_02
 Stop_em0470_atk_death_area_loop
 stop_em0470_atk_dmball_01_loop
 stop_em0470_atk_stone_beam_loop
+stop_em0475_akt_dmball_05_pass_loop
 stop_em0475_akt_dmball_05_spawn_loop
 stop_em0475_akt_dmball_07_shot_loop
 Stop_em0475_atk_lazer_loop
 stop_em0475_atk_rush_wsh
-# 259201100
 # 1304690096
-# 1496444970
-# 1738009751
 # 3448505716
 
 ### SFX NAMES (em0470.bnk)
@@ -4268,13 +4268,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0470.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0475.bnk)
 em0470_akt_wsh_land
@@ -4307,6 +4307,8 @@ em0470_wing_move_down
 em0470_wing_move_up
 em0470_wing_wait_down
 em0470_wing_wait_up
+em0475_akt_dmball_03_shot
+em0475_akt_dmball_05_pass_loop
 em0475_akt_dmball_05_spawn_loop
 em0475_akt_dmball_05_start
 em0475_akt_dmball_06
@@ -4339,14 +4341,12 @@ Stop_em0470_atk_db_loop_02
 Stop_em0470_atk_death_area_loop
 stop_em0470_atk_dmball_01_loop
 stop_em0470_atk_stone_beam_loop
+stop_em0475_akt_dmball_05_pass_loop
 stop_em0475_akt_dmball_05_spawn_loop
 stop_em0475_akt_dmball_07_shot_loop
 Stop_em0475_atk_lazer_loop
 stop_em0475_atk_rush_wsh
-# 259201100
 # 1304690096
-# 1496444970
-# 1738009751
 # 3448505716
 
 ### SFX NAMES (em0475.bnk)
@@ -4371,13 +4371,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0475.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0476.bnk)
 em0470_akt_wsh_land
@@ -4410,6 +4410,8 @@ em0470_wing_move_down
 em0470_wing_move_up
 em0470_wing_wait_down
 em0470_wing_wait_up
+em0475_akt_dmball_03_shot
+em0475_akt_dmball_05_pass_loop
 em0475_akt_dmball_05_spawn_loop
 em0475_akt_dmball_05_start
 em0475_akt_dmball_06
@@ -4445,16 +4447,14 @@ Stop_em0470_atk_db_loop_02
 Stop_em0470_atk_death_area_loop
 stop_em0470_atk_dmball_01_loop
 stop_em0470_atk_stone_beam_loop
+stop_em0475_akt_dmball_05_pass_loop
 stop_em0475_akt_dmball_05_spawn_loop
 stop_em0475_akt_dmball_07_shot_loop
 Stop_em0475_atk_lazer_loop
 stop_em0475_atk_rush_wsh
 Stop_em0477_sonic_shot_loop
 Stop_em0477_sonic_shot_loop_short
-# 259201100
 # 1304690096
-# 1496444970
-# 1738009751
 # 3448505716
 
 ### SFX NAMES (em0476.bnk)
@@ -4479,13 +4479,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0476.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0477.bnk)
 em0470_akt_wsh_land
@@ -4518,6 +4518,8 @@ em0470_wing_move_down
 em0470_wing_move_up
 em0470_wing_wait_down
 em0470_wing_wait_up
+em0475_akt_dmball_03_shot
+em0475_akt_dmball_05_pass_loop
 em0475_akt_dmball_05_spawn_loop
 em0475_akt_dmball_05_start
 em0475_akt_dmball_06
@@ -4553,16 +4555,14 @@ Stop_em0470_atk_db_loop_02
 Stop_em0470_atk_death_area_loop
 stop_em0470_atk_dmball_01_loop
 stop_em0470_atk_stone_beam_loop
+stop_em0475_akt_dmball_05_pass_loop
 stop_em0475_akt_dmball_05_spawn_loop
 stop_em0475_akt_dmball_07_shot_loop
 Stop_em0475_atk_lazer_loop
 stop_em0475_atk_rush_wsh
 Stop_em0477_sonic_shot_loop
 Stop_em0477_sonic_shot_loop_short
-# 259201100
 # 1304690096
-# 1496444970
-# 1738009751
 # 3448505716
 
 ### SFX NAMES (em0477.bnk)
@@ -4587,13 +4587,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0477.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0500.bnk)
 em0500_Attack_s
@@ -4637,13 +4637,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0500.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0510.bnk)
 em0510_Act_Dash
@@ -4693,13 +4693,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0510.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0520.bnk)
 em0520_Act_Dash
@@ -4798,13 +4798,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (em0800.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (em0810.bnk)
 em0810_Arow_shoot
@@ -4862,6 +4862,12 @@ em0810_Pubrius_MagicBall_bound
 em0810_Pubrius_MagicBall_Disappear
 em0810_Pubrius_MagicBall_shot
 em0810_rod_swing_wsh
+em0810_spear_foley_l
+em0810_spear_foley_swing
+em0810_spear_ground_hit
+em0810_spear_short_wsh
+em0810_spear_speed_stinger
+em0810_spear_speed_swing_wsh
 em0810_Sword_Magic_Disappear
 em0810_Sword_Magic_Hit
 em0810_Sword_Magic_Shoot
@@ -4873,20 +4879,14 @@ Stop_em0810_magic_thunder_Loop
 # 89840081
 # 89840082
 # 89840083
-# 195192550
 # 701490286
-# 986743823
 # 1435678659
 # 1453334180
 # 1453334182
 # 1453334183
-# 1997367290
-# 2510967470
 # 2572660974
-# 2754639721
 # 3025887870
 # 3060765337
-# 3247748089
 # 3411509913
 # 3512086070
 # 3863013345
@@ -5793,29 +5793,29 @@ em_core_entryanim
 # 779427024
 
 ### VALUE NAMES (em6000.bnk)
+c00_none
+c01_soil
+c02_stone
+c03_iron
+c04_tree
+c05_wooden
+c06_grass
+c07_water
+c08_flower
+c09_snow
+c10_lava
+c11_poison
+c13_tar
+c15_ice
+c17_carpet
 core
-NORMAL
+normal
 spear
 wing
 # 3871770152
-# 2706724829
-# 4045841205
-# 3871283036
-# 2096303688
-# 3199056871
-# 3327193506
-# 3360222533
-# 3463206039
-# 316263686
-# 3324477241
-# 2141818976
-# 1212883729
 # 1360865370
-# 1110913528
 # 3657167964
-# 986107506
 # 2461478625
-# 3670935494
 
 ### EVENT NAMES (em6100.bnk)
 em6100_atk_playerfollow_explosion
@@ -5890,13 +5890,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (emf000.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (emf001.bnk)
 em0001_atk_tnd_ch_start
@@ -5961,13 +5961,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (emf001.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (emf002.bnk)
 em0120_allstop_dead
@@ -5986,6 +5986,7 @@ em0120_run_foley
 em0120_run_step
 em0120_run_step_low
 em0120_sonic_ax_wsh
+em0120_sonic_ax_wsh_pass
 em0120_sonic_ring_loop
 em0120_vo_atk_exp
 em0120_vo_atk_exp_start
@@ -6021,6 +6022,7 @@ em0122_sonic_impact_first
 em0122_sonic_impact_second
 em0122_sonic_impact_synth
 em0122_sonic_tele_charge
+em0122_sonic_wsh_pass
 em0122_sonicshot_loop
 em0122_stomp_foley_large
 em0122_stomp_foley_small
@@ -6033,8 +6035,6 @@ Stop_em0120_atk_exp_prefx
 Stop_em0120_atk_tornado_loop
 Stop_em0120_sonic_ring_loop
 Stop_em0122_sonicshot_loop
-# 1429384032
-# 3194533256
 
 ### SFX NAMES (emf002.bnk)
 PG_Simple3D
@@ -6058,13 +6058,13 @@ element_type
 em_core_entryanim
 
 ### VALUE NAMES (emf002.bnk)
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 on
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (emf010.bnk)
 emf010_idle_loop
@@ -6134,16 +6134,16 @@ pl0010_long_sword_ground_scrape
 pl0010_long_sword_heavy_wsh
 pl0010_long_sword_speed_stinger
 pl0010_long_sword_speed_wsh
+pl0014_spear_foley_l
+pl0014_spear_foley_swing
+pl0014_spear_ground_hit
+pl0014_spear_short_wsh
+pl0014_spear_speed_stinger
+pl0014_spear_speed_swing_wsh
 Stop_pl0010_long_sword_ALL
-# 84900144
-# 401073119
-# 1017379609
+Stop_pl0014_spear_all
 # 1097376532
-# 1424100092
-# 1909337355
 # 2605599587
-# 3133455541
-# 3688496916
 
 ### SFX NAMES (pl0010.bnk)
 PG_Simple3D
@@ -6163,30 +6163,30 @@ element_type
 # 779427024
 
 ### VALUE NAMES (pl0010.bnk)
-# 2706724829
-# 4045841205
-# 3871283036
-# 2096303688
-# 3199056871
-# 3327193506
-# 3360222533
-# 3463206039
-# 316263686
-# 3324477241
-# 2141818976
-# 1212883729
+c00_none
+c01_normal
+c01_soil
+c02_flame
+c02_stone
+c03_ice
+c03_iron
+c04_thunder
+c04_tree
+c05_light
+c05_wooden
+c06_dark
+c06_grass
+c07_water
+c08_flower
+c09_snow
+c10_lava
+c11_poison
+c13_tar
+c15_ice
+c17_carpet
 # 1360865370
-# 1110913528
 # 3657167964
-# 986107506
 # 2461478625
-# 3670935494
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (pl0011.bnk)
 pl0011_hammer_charge_wsh_h
@@ -6200,7 +6200,7 @@ pl0011_hammer_speed_wsh
 pl0011_hammer_warcry_LV1
 pl0011_hammer_warcry_LV2
 pl0011_hammer_warcry_LV3
-# 489954655
+Stop_pl0011_hammer_all
 
 ### SFX NAMES (pl0011.bnk)
 PG_Simple3D
@@ -6220,30 +6220,30 @@ element_type
 # 779427024
 
 ### VALUE NAMES (pl0011.bnk)
-# 3871283036
-# 2706724829
-# 4045841205
-# 2096303688
-# 3199056871
-# 3327193506
-# 3360222533
-# 3463206039
-# 316263686
-# 3324477241
-# 2141818976
-# 1212883729
+c00_none
+c01_normal
+c01_soil
+c02_flame
+c02_stone
+c03_ice
+c03_iron
+c04_thunder
+c04_tree
+c05_light
+c05_wooden
+c06_dark
+c06_grass
+c07_water
+c08_flower
+c09_snow
+c10_lava
+c11_poison
+c13_tar
+c15_ice
+c17_carpet
 # 1360865370
-# 1110913528
 # 3657167964
-# 986107506
 # 2461478625
-# 3670935494
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (pl0012.bnk)
 pl0012_bow_aim_shot
@@ -6276,12 +6276,12 @@ Volume_SE
 element_type
 
 ### VALUE NAMES (pl0012.bnk)
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 
 ### EVENT NAMES (pl0013.bnk)
 pl0013_magic_circle_appear
@@ -6312,23 +6312,23 @@ Volume_SE
 element_type
 
 ### VALUE NAMES (pl0013.bnk)
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
+c01_normal
+c02_flame
+c03_ice
+c04_thunder
+c05_light
+c06_dark
 
 ### EVENT NAMES (pl0014.bnk)
-# 84900144
-# 401073119
-# 1017379609
+pl0014_spear_foley_l
+pl0014_spear_foley_swing
+pl0014_spear_ground_hit
+pl0014_spear_short_wsh
+pl0014_spear_speed_stinger
+pl0014_spear_speed_swing_wsh
+Stop_pl0014_spear_all
 # 1097376532
-# 1424100092
-# 1909337355
 # 2605599587
-# 3133455541
-# 3688496916
 
 ### SFX NAMES (pl0014.bnk)
 PG_Simple3D
@@ -6345,24 +6345,24 @@ Volume_SE
 # 779427024
 
 ### VALUE NAMES (pl0014.bnk)
-# 2706724829
-# 4045841205
-# 3871283036
-# 2096303688
-# 3199056871
-# 3327193506
-# 3360222533
-# 3463206039
-# 316263686
-# 3324477241
-# 2141818976
-# 1212883729
+c00_none
+c01_soil
+c02_stone
+c03_iron
+c04_tree
+c05_wooden
+c06_grass
+c07_water
+c08_flower
+c09_snow
+c10_lava
+c11_poison
+c13_tar
+c15_ice
+c17_carpet
 # 1360865370
-# 1110913528
 # 3657167964
-# 986107506
 # 2461478625
-# 3670935494
 
 ### EVENT NAMES (pl0016.bnk)
 pl0016_shield_guard_wsh
@@ -6413,30 +6413,30 @@ element_type
 # 779427024
 
 ### VALUE NAMES (pl0017.bnk)
-# 3871283036
-# 2706724829
-# 4045841205
-# 2096303688
-# 3199056871
-# 3327193506
-# 3360222533
-# 3463206039
-# 316263686
-# 3324477241
-# 2141818976
-# 1212883729
+c00_none
+c01_normal
+c01_soil
+c02_flame
+c02_stone
+c03_ice
+c03_iron
+c04_thunder
+c04_tree
+c05_light
+c05_wooden
+c06_dark
+c06_grass
+c07_water
+c08_flower
+c09_snow
+c10_lava
+c11_poison
+c13_tar
+c15_ice
+c17_carpet
 # 1360865370
-# 1110913528
 # 3657167964
-# 986107506
 # 2461478625
-# 3670935494
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (pl0019.bnk)
 pl0019_handgun_charge
@@ -6572,26 +6572,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r100.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r110.bnk)
 p110_0a30_cut003_f15_Footstep
@@ -6644,26 +6644,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r110.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r200.bnk)
 r200_amb_all_loop
@@ -6689,26 +6689,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r200.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r213.bnk)
 p213_0540_cut016_Jump
@@ -6748,26 +6748,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r213.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r300.bnk)
 r300_amb_all_loop
@@ -6789,26 +6789,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r300.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r301.bnk)
 pev0190_End
@@ -6831,26 +6831,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r301.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r311.bnk)
 p311_0170_cut000_FadeIn
@@ -6904,26 +6904,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r313.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 491867764
-# 4200585059
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r314.bnk)
 p314_0660_cut001_Footsteps
@@ -6964,26 +6964,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r314.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r400.bnk)
 pev0240_End
@@ -7008,26 +7008,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r400.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r410.bnk)
 p410_0240_cut000_FadeIn
@@ -7092,26 +7092,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r412.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r500.bnk)
 pev0270_End
@@ -7129,26 +7129,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r500.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r510.bnk)
 p510_0260_cut003_movement
@@ -7209,26 +7209,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r510.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r512.bnk)
 p512_0290_com_AmbLoop
@@ -7270,26 +7270,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r513.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 3379886545
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r600.bnk)
 pev0340_End
@@ -7307,26 +7307,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r600.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r601.bnk)
 r601_amb_all_loop
@@ -7340,26 +7340,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r601.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r611.bnk)
 p611_0330_cut000_Bodymove
@@ -7418,26 +7418,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r612.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r613.bnk)
 p613_0380_com_Amb_Far
@@ -7487,26 +7487,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r613.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r615.bnk)
 p615_0390_cut003_Bodymove
@@ -7548,26 +7548,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r615.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r616.bnk)
 r616_Amb_Lake_Loop
@@ -7586,26 +7586,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r616.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r617.bnk)
 p617_0400_com_Loop
@@ -7673,26 +7673,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r617.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r700.bnk)
 pev0430_End
@@ -7717,26 +7717,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r700.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r701.bnk)
 r701_amb_Switch
@@ -7756,26 +7756,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r701.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 2366576018
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (r710.bnk)
 p710_0430_cut002_bodymove
@@ -7878,26 +7878,26 @@ SE_Weather_type
 
 ### VALUE NAMES (r714.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 3379886545
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (rf10.bnk)
 fr10_ONLY_near_harbor_duck_in
@@ -8402,26 +8402,26 @@ SE_Weather_type
 
 ### VALUE NAMES (rf10.bnk)
 battle_field
+blue_sun
 Christmas
 darkness
 Halloween
 miasma
 nier
+night_rain
+night_sunny
+noon_blizzard
+noon_rain
+noon_snow
+noon_storm
+noon_sunny
+noon_wind
 pollution
 Shadow
 summer
-# 4200585059
-# 491867764
-# 2968121284
-# 1525301877
-# 1678982483
-# 313371456
+white_sun
 # 2150653651
 # 4071024324
-# 3379886545
-# 2366576018
-# 816940374
-# 1530908075
 
 ### EVENT NAMES (vo_core.bnk)
 core_option_gideon_voice_cursor
@@ -8728,6 +8728,10 @@ S0260_Syl_0020
 S0260_Syl_0060
 S0260_Syl_0100
 S0260_Syl_0120
+S0300_Syl_0100
+S0300_Syl_0140
+S0300_Syl_0145
+S0300_Syl_0150
 S0303_SylRD_0010
 S0303_SylRD_0020
 S0303_SylRD_0030
@@ -8803,6 +8807,19 @@ S0312_PygRD_0120
 S0312_Syl_0010
 S0312_Syl_0110
 S0312_Syl_0140
+S0320_Sop_0040
+S0320_SopRD_0002
+S0320_SopRD_0004
+S0320_SopRD_0006
+S0320_SopRD_0035
+S0320_Soprd_0040
+S0320_Soprd_0050
+S0320_Syl_0008
+S0320_Syl_0010
+S0320_Syl_0020
+S0320_Syl_0030
+S0320_Syl_0045
+S0320_Syl_0050
 S0330_GalaRD_0090
 S0330_GalaRD_0110
 S0330_GalaRD_0130
@@ -8932,6 +8949,7 @@ S0411_Lyc_0110
 S0411_Syl_0040
 S0411_Syl_0120
 S0411_Syl_0130
+S0414_Lyc_0140
 S0420_GalaRD_0020
 S0420_GalaRD_0040
 S0420_GalaRD_0050
@@ -8959,6 +8977,20 @@ S0440_PygRD_0040
 S0440_PygRD_0060
 S0440_Syl_0020
 S0440_Syl_0050
+S0442_slide_0020
+S0442_slide_0050
+S0442_slide_0100
+S0442_slide_0110
+S0442_slide_0150
+S0442_slide_0170
+S0442_slide_0190
+S0442_slide_0240
+S0442_slide_0250
+S0442_slide_0280
+S0442_slide_0350
+S0442_slide_0360
+S0442_slide_0380
+S0442_slide_0390
 S0500_IshRD_0130
 S0500_IshRD_0140
 S0500_Lyc_0030
@@ -9057,6 +9089,15 @@ S0530_Lyc_0050
 S0530_PygRD_0030
 S0530_Sop_0020
 S0530_Syl_0060
+S0600_Lyc_0030
+S0600_Lyc_0040
+S0600_Sop_0010
+S0600_Sop_0020
+S0600_Sop_0065
+S0600_Sop_0070
+S0600_Syl_0050
+S0600_Syl_0060
+S0604_Lyc_0100
 S0605_IshRD_0010
 S0605_IshRD_0011
 S0605_IshRD_0012
@@ -9069,6 +9110,50 @@ S0605_IshRD_0050
 S0605_IshRD_0060
 S0605_IshRD_0065
 S0605_IshRD_0070
+S0700_Ish_0010
+S0700_Ish_0020
+S0700_Ish_0040
+S0700_Ish_0050
+S0700_Ish_0070
+S0700_Ish_0080
+S0700_Ish_0100
+S0700_Ish_0110
+S0700_Ish_0120
+S0700_Ish_0130
+S0700_Ish_0150
+S0700_Ish_0160
+S0700_Ish_0170
+S0700_Ish_0200
+S0700_Ish_0210
+S0700_Ish_0220
+S0700_Ish_0230
+S0700_Ish_0240
+S0700_Ish_0430
+S0700_Lyc_0140
+S0700_Lyc_0470
+S0700_Sop_0260
+S0700_Sop_0330
+S0700_Sop_0340
+S0700_Sop_0350
+S0700_Sop_0360
+S0700_Sop_0380
+S0700_Sop_0400
+S0700_Sop_0420
+S0700_Sop_0440
+S0700_Sop_0450
+S0700_Sop_0460
+S0700_SopUnn_0320
+S0700_Syl_0030
+S0700_Syl_0060
+S0700_Syl_0090
+S0700_Syl_0180
+S0700_Syl_0190
+S0700_Syl_0250
+S0700_Syl_0270
+S0700_Syl_0280
+S0700_Syl_0370
+S0700_Syl_0390
+S0700_Syl_0410
 S0701_Ele_0010
 S0701_Ele_0030
 S0701_Ele_0060
@@ -9099,6 +9184,13 @@ S0701_Syl_0250
 S0701_Syl_0255
 S0701_Syl_0280
 S0701_Syl_0290
+S0800_Ishrd_0020
+S0800_Ishrd_0030
+S0800_Ishrd_0040
+S0800_Lyc_0010
+S0800_Syl_0050
+S0800_Syl_0060
+S0800_Syl_0070
 S0801_IshRD_0010
 S0801_IshRD_0020
 S0801_IshRD_0030
@@ -9113,6 +9205,89 @@ S0801_Syl_0110
 S0801_Syl_0120
 S0801_Syl_0130
 S0801_Syl_0140
+S0802_Ish_0010
+S0802_Ish_0020
+S0802_Ish_0030
+S0802_Ish_0040
+S0802_Ish_0050
+S0802_Ish_0060
+S0802_Ish_0070
+S0802_Ish_0080
+S0802_Ish_0090
+S0802_Ish_0100
+S0802_Ish_0105
+S0802_Ish_0110
+S0802_Ish_0120
+S0802_Ish_0130
+S0802_Ish_0140
+S0802_Ish_0150
+S0802_Ish_0160
+S0802_Ish_0170
+S0802_Ish_0180
+S0802_Ish_0190
+S0802_Ish_0200
+S0802_Ish_0210
+S0802_Ish_0240
+S0802_Ish_0290
+S0802_Ish_0300
+S0803_Ele_0270
+S0803_Ele_0280
+S0803_Ele_0470
+S0803_Ish_0110
+S0803_Ish_0200
+S0803_Ish_0210
+S0803_Ish_0220
+S0803_Ish_0230
+S0803_Ish_0240
+S0803_Ish_0300
+S0803_Ish_0310
+S0803_Ish_0570
+S0803_Ish_0580
+S0803_Ish_0590
+S0803_Kai_0500
+S0803_Lyc_0020
+S0803_Lyc_0030
+S0803_Lyc_0040
+S0803_Lyc_0050
+S0803_Lyc_0060
+S0803_Lyc_0250
+S0803_Lyc_0260
+S0803_Lyc_0350
+S0803_Lyc_0420
+S0803_Sop_0070
+S0803_Sop_0080
+S0803_Sop_0100
+S0803_Sop_0120
+S0803_Sop_0130
+S0803_Sop_0140
+S0803_Sop_0150
+S0803_Sop_0160
+S0803_Sop_0170
+S0803_Sop_0180
+S0803_Sop_0190
+S0803_Sop_0290
+S0803_Sop_0320
+S0803_Sop_0340
+S0803_Sop_0360
+S0803_Sop_0370
+S0803_Sop_0380
+S0803_Sop_0410
+S0803_Sop_0430
+S0803_Sop_0450
+S0803_Sop_0460
+S0803_Sop_0490
+S0803_Sop_0505
+S0803_Sop_0510
+S0803_Sop_0540
+S0803_Sop_0550
+S0803_Syl_0010
+S0803_Syl_0090
+S0803_Syl_0400
+S0803_Syl_0440
+S0803_Syl_0480
+S0803_Syl_0520
+S0803_Syl_0530
+S0803_Syl_0560
 S0900_IshRD_0010
 S0900_IshRD_0020
 S0900_IshRD_0100
@@ -9125,6 +9300,21 @@ S0900_SopRD_0060
 S0900_SopRD_0070
 S0900_SopRD_0080
 S0900_SopRD_0090
+S0940_Stereo_0120
+S0940_Stereo_0140
+S0940_Stereo_0150
+S0940_Stereo_0160
+S0940_Stereo_0170
+S0940_Stereo_0210
+S0940_Stereo_0260
+S0940_Stereo_0300
+S0940_Stereo_0320
+S0940_Stereo_0330
+S0940_Stereo_0340
+S0940_Stereo_0410
+S0940_Stereo_0420
+S0940_Stereo_0440
+S0940_Stereo_0460
 S1100_Ele_0160
 S1100_Ele_0210
 S1100_Ele_0240
@@ -10016,60 +10206,40 @@ S2020_Syl_0090
 # 8757918
 # 18328782
 # 25388442
-# 27095240
-# 31149408
 # 42166029
 # 46614323
-# 47927003
 # 53002731
 # 59090775
-# 64704582
 # 75868362
-# 81482297
 # 82903302
 # 84666614
 # 86558001
-# 94205812
-# 98259884
 # 99197310
 # 100541595
 # 101444201
-# 110983399
-# 115037466
 # 119127469
 # 120113175
 # 139455360
-# 145297889
 # 156233075
-# 162075476
 # 174308299
-# 178853063
-# 179985960
 # 185332232
 # 191086014
-# 195018621
-# 195630778
-# 196763547
 # 197162066
 # 200157150
 # 201962756
 # 202109947
 # 216934833
-# 230318817
 # 230570177
 # 230717368
 # 245361627
 # 252442804
-# 263873991
 # 269666867
 # 285997978
 # 290453995
-# 297429293
 # 302775565
 # 303813296
 # 307231582
 # 314605399
-# 320702083
 # 324156328
 # 328004412
 # 335505233
@@ -10085,13 +10255,11 @@ S2020_Syl_0090
 # 437443057
 # 437590120
 # 441599661
-# 442490840
 # 442585367
 # 450389570
 # 454824604
 # 470998231
 # 471595626
-# 472663711
 # 479002887
 # 483298288
 # 488379874
@@ -10099,17 +10267,12 @@ S2020_Syl_0090
 # 513527568
 # 533631049
 # 538255866
-# 538811162
-# 539105384
 # 550408764
 # 550799422
-# 556551870
 # 556614729
 # 566433707
 # 567186351
-# 572490782
 # 573392444
-# 589268465
 # 590170031
 # 592048710
 # 597495081
@@ -10122,10 +10285,8 @@ S2020_Syl_0090
 # 621067547
 # 631050255
 # 636956059
-# 639601231
 # 651829175
 # 653733646
-# 656378941
 # 667896191
 # 674058062
 # 676727172
@@ -10152,72 +10313,51 @@ S2020_Syl_0090
 # 752861926
 # 754084924
 # 764174665
-# 765333451
 # 765338980
 # 765644916
 # 768561905
-# 782111166
 # 782570047
 # 784906728
 # 785001176
 # 787640066
 # 788616816
 # 793380202
-# 794542114
 # 806652096
 # 810304948
 # 818461902
-# 830591120
 # 836997735
-# 840150968
 # 843860122
-# 847368707
-# 849221615
 # 853775322
 # 860637709
-# 864146422
-# 865999197
 # 873762572
-# 880924009
 # 884693440
 # 885813953
-# 890483825
-# 890630888
 # 902444509
 # 902591668
 # 909160278
 # 913049560
-# 914479183
-# 924038999
 # 924095429
 # 925575348
-# 928763034
 # 929586277
-# 931403929
 # 936012035
 # 939489273
 # 942352935
 # 942715580
 # 951803916
 # 956266860
-# 957594301
-# 957741332
 # 965506157
 # 965566496
 # 969567337
 # 976270722
 # 989822130
-# 991296634
 # 999121670
 # 1006599717
-# 1008074221
 # 1009826024
 # 1013096193
 # 1013474308
 # 1013715306
 # 1015899385
 # 1016493292
-# 1029268960
 # 1039986847
 # 1044406629
 # 1047029610
@@ -10226,42 +10366,26 @@ S2020_Syl_0090
 # 1063723304
 # 1063807197
 # 1066232242
-# 1082402532
 # 1083009829
-# 1084729339
 # 1090319704
 # 1095296168
-# 1096526467
-# 1099180119
-# 1101181264
-# 1102492632
 # 1107097291
-# 1113157023
 # 1115033920
 # 1117006384
-# 1117958851
 # 1124022037
 # 1126846425
 # 1130833748
 # 1142644870
-# 1147006515
-# 1152825489
 # 1160548758
 # 1178933156
 # 1179595144
-# 1185069321
-# 1185069323
-# 1185069325
 # 1190340991
 # 1195710743
-# 1197045182
-# 1201847015
 # 1208467884
 # 1211901580
 # 1215846729
 # 1228679295
 # 1229266045
-# 1232419524
 # 1240526657
 # 1241465370
 # 1258800741
@@ -10274,8 +10398,6 @@ S2020_Syl_0090
 # 1310568251
 # 1317369352
 # 1324417436
-# 1331413133
-# 1331560292
 # 1349920586
 # 1351104129
 # 1351665663
@@ -10284,7 +10406,6 @@ S2020_Syl_0090
 # 1360068761
 # 1364003827
 # 1364105915
-# 1365115466
 # 1368670637
 # 1371301560
 # 1381690888
@@ -10306,12 +10427,10 @@ S2020_Syl_0090
 # 1448038921
 # 1448801460
 # 1455189591
-# 1456018147
 # 1460587444
 # 1468957441
 # 1469040554
 # 1469104632
-# 1472795734
 # 1476147814
 # 1477033168
 # 1479229733
@@ -10340,7 +10459,6 @@ S2020_Syl_0090
 # 1596967288
 # 1617785001
 # 1627053212
-# 1640571924
 # 1642986678
 # 1643442204
 # 1643830799
@@ -10349,13 +10467,11 @@ S2020_Syl_0090
 # 1647152986
 # 1647300145
 # 1649634249
-# 1657349511
 # 1659764265
 # 1660564930
 # 1660902704
 # 1670199462
 # 1677342645
-# 1677444075
 # 1677533132
 # 1677680291
 # 1680855319
@@ -10363,13 +10479,10 @@ S2020_Syl_0090
 # 1692705186
 # 1693319439
 # 1694120232
-# 1694221662
 # 1697632906
-# 1702174781
 # 1703895826
 # 1704216852
 # 1710097122
-# 1710999345
 # 1711919834
 # 1715339888
 # 1715356835
@@ -10415,13 +10528,11 @@ S2020_Syl_0090
 # 1857843634
 # 1862808863
 # 1871677985
-# 1872927584
 # 1873932226
 # 1874621221
 # 1879586546
 # 1883115982
 # 1888308541
-# 1889705171
 # 1894945121
 # 1895789370
 # 1896364133
@@ -10436,31 +10547,15 @@ S2020_Syl_0090
 # 1917003979
 # 1921218507
 # 1922010874
-# 1923260473
-# 1923407504
 # 1934404588
-# 1940038060
-# 1940185091
 # 1948462680
-# 1956815647
-# 1956962806
 # 1963445241
 # 1965240267
 # 1966717447
-# 1973593330
-# 1973740393
 # 1981884463
 # 1982017982
-# 1990370917
-# 1990517980
-# 2007295562
-# 2007295567
-# 2024073250
 # 2033967522
-# 2040703806
-# 2040850837
 # 2050745109
-# 2057481361
 # 2064110859
 # 2064536912
 # 2067522696
@@ -10480,12 +10575,10 @@ S2020_Syl_0090
 # 2117855553
 # 2123710702
 # 2123857733
-# 2124738996
 # 2124749145
 # 2131830322
 # 2139357532
 # 2140488257
-# 2141516583
 # 2146943632
 # 2147999018
 # 2148607909
@@ -10528,11 +10621,8 @@ S2020_Syl_0090
 # 2280136379
 # 2281458774
 # 2283233996
-# 2293170616
-# 2293170621
 # 2296075291
 # 2296331232
-# 2309948203
 # 2312852878
 # 2313544490
 # 2316825384
@@ -10542,7 +10632,6 @@ S2020_Syl_0090
 # 2330469236
 # 2331791663
 # 2333566853
-# 2334287904
 # 2338370887
 # 2348569218
 # 2350380558
@@ -10550,55 +10639,31 @@ S2020_Syl_0090
 # 2352691893
 # 2355148602
 # 2355148607
-# 2355580691
-# 2360281060
 # 2363185735
 # 2367158241
-# 2367843078
-# 2372358278
-# 2376868343
 # 2379963450
 # 2380949156
 # 2383935828
-# 2384767824
 # 2385898710
-# 2389135993
-# 2389283024
 # 2396741037
 # 2397726743
 # 2400713415
-# 2401398380
 # 2401610127
-# 2405913580
-# 2418323126
-# 2422691167
-# 2422838326
 # 2434268717
-# 2435100713
 # 2435165397
-# 2439468850
-# 2439615913
 # 2439732640
 # 2446903763
-# 2451731237
-# 2456246437
 # 2456344320
 # 2460154494
 # 2463267574
-# 2468508824
 # 2473122035
-# 2473171087
 # 2473287814
 # 2482790266
-# 2485433570
 # 2486564456
 # 2489899622
-# 2489948770
 # 2503342043
-# 2519282966
 # 2522706579
 # 2530290283
-# 2536060553
 # 2536750154
 # 2539484166
 # 2547067870
@@ -10608,7 +10673,6 @@ S2020_Syl_0090
 # 2557175973
 # 2572504337
 # 2581277292
-# 2586099316
 # 2587230202
 # 2589817055
 # 2592438524
@@ -10617,48 +10681,28 @@ S2020_Syl_0090
 # 2607655893
 # 2610723534
 # 2615126656
-# 2619948712
-# 2622463878
 # 2623372325
-# 2636726299
-# 2639241593
-# 2640947277
-# 2641241499
 # 2643740792
 # 2647751438
-# 2653503886
 # 2659548968
 # 2660665410
 # 2664529121
 # 2665459548
 # 2665606704
 # 2668925827
-# 2670134410
 # 2672223267
 # 2677834106
 # 2685938129
-# 2687059156
-# 2689574450
-# 2689721513
-# 2691574356
 # 2701639366
-# 2703836743
-# 2708351943
 # 2708468702
 # 2717527878
 # 2718417081
-# 2720614458
 # 2724038071
-# 2725129658
 # 2736183462
-# 2736463104
-# 2737392045
 # 2741435229
-# 2741907245
 # 2743436999
 # 2749464825
 # 2753048605
-# 2756831957
 # 2758359975
 # 2775137562
 # 2776511683
@@ -10667,18 +10711,13 @@ S2020_Syl_0090
 # 2793289398
 # 2798756773
 # 2803070092
-# 2803573580
 # 2819847807
-# 2820351295
 # 2820856979
 # 2821947113
-# 2823942401
-# 2837128850
 # 2851748926
 # 2851895957
 # 2853479732
 # 2853626795
-# 2853906437
 # 2866120846
 # 2868526481
 # 2868673544
@@ -10688,7 +10727,6 @@ S2020_Syl_0090
 # 2886958251
 # 2887461739
 # 2888114614
-# 2890903256
 # 2891465115
 # 2899422519
 # 2902228846
@@ -10705,7 +10743,6 @@ S2020_Syl_0090
 # 2941797972
 # 2943341874
 # 2949714783
-# 2951799455
 # 2952561703
 # 2954068695
 # 2956513096
@@ -10730,29 +10767,23 @@ S2020_Syl_0090
 # 3023770731
 # 3029674571
 # 3031065119
-# 3031521523
 # 3037383875
 # 3038103917
-# 3048299110
 # 3050032324
 # 3051712771
 # 3053059916
 # 3057326001
 # 3058164548
 # 3063260557
-# 3065076697
 # 3074103588
 # 3081397976
-# 3081854284
 # 3087863923
 # 3089293399
 # 3089445978
 # 3091719850
 # 3097110049
-# 3098631999
 # 3100365213
 # 3104124472
-# 3105423627
 # 3106218145
 # 3107658762
 # 3108624035
@@ -10771,14 +10802,12 @@ S2020_Syl_0090
 # 3157655478
 # 3158956924
 # 3162542528
-# 3162581184
 # 3163521309
 # 3164042650
 # 3167970893
 # 3170503345
 # 3173328621
 # 3180820237
-# 3189311786
 # 3195950671
 # 3198932402
 # 3220651381
@@ -10791,11 +10820,8 @@ S2020_Syl_0090
 # 3229800163
 # 3237613821
 # 3243170413
-# 3246023867
 # 3259579504
-# 3260442024
 # 3276357091
-# 3277219611
 # 3279838830
 # 3294633708
 # 3296616385
@@ -10803,7 +10829,6 @@ S2020_Syl_0090
 # 3309765202
 # 3314181286
 # 3314347362
-# 3316888109
 # 3317341936
 # 3317889480
 # 3320289299
@@ -10829,11 +10854,8 @@ S2020_Syl_0090
 # 3418873456
 # 3425821545
 # 3426431105
-# 3430871866
-# 3434462893
 # 3435479972
 # 3443208820
-# 3447649453
 # 3447909242
 # 3457706093
 # 3471729187
@@ -10841,7 +10863,6 @@ S2020_Syl_0090
 # 3493260438
 # 3494493846
 # 3495650650
-# 3495896411
 # 3499269739
 # 3499569180
 # 3499815059
@@ -10859,7 +10880,6 @@ S2020_Syl_0090
 # 3600160735
 # 3606706275
 # 3607062924
-# 3613610666
 # 3613872659
 # 3616697424
 # 3617258392
@@ -10878,13 +10898,11 @@ S2020_Syl_0090
 # 3664205548
 # 3667591249
 # 3669524744
-# 3670810886
 # 3677814215
 # 3680983135
 # 3681034812
 # 3683807900
 # 3684048894
-# 3687588601
 # 3689838266
 # 3701146551
 # 3711369517
@@ -10896,7 +10914,6 @@ S2020_Syl_0090
 # 3723366658
 # 3734140757
 # 3734891226
-# 3738068521
 # 3740006214
 # 3750918344
 # 3753172713
@@ -10913,7 +10930,6 @@ S2020_Syl_0090
 # 3780422152
 # 3790339103
 # 3794594438
-# 3798444638
 # 3803505570
 # 3807116786
 # 3808037639
@@ -10922,31 +10938,23 @@ S2020_Syl_0090
 # 3830428290
 # 3830607978
 # 3830755009
-# 3831999908
 # 3837207935
 # 3840809991
 # 3840819023
 # 3843789238
 # 3847058846
 # 3847385565
-# 3848777495
 # 3848906484
 # 3853985490
-# 3855511854
 # 3860566825
 # 3863836529
-# 3872289409
-# 3872436600
-# 3888919965
 # 3894121999
 # 3897865485
-# 3905844711
 # 3910899682
 # 3930132627
 # 3930149574
 # 3931281846
 # 3935987744
-# 3939399885
 # 3944454856
 # 3946910214
 # 3947074320
@@ -10954,14 +10962,12 @@ S2020_Syl_0090
 # 3961232571
 # 3963687929
 # 3964099097
-# 3968845800
 # 3979702137
 # 3980465516
 # 3980629622
 # 3980876684
 # 3986467664
 # 3988350952
-# 3989879933
 # 3996479724
 # 3996626755
 # 3997407209
@@ -10970,7 +10976,6 @@ S2020_Syl_0090
 # 4013257311
 # 4014020786
 # 4014331955
-# 4019178657
 # 4030798373
 # 4030962383
 # 4031356732
@@ -10993,27 +10998,22 @@ S2020_Syl_0090
 # 4148552875
 # 4149390797
 # 4164660504
-# 4165194230
 # 4181960986
 # 4182255208
 # 4198215806
 # 4198738573
 # 4214993361
-# 4215526991
 # 4227585638
 # 4232440906
 # 4242720444
 # 4244951162
 # 4248548663
-# 4255711408
 # 4259498031
 # 4261728749
 # 4265326250
 # 4265620472
 # 4270170040
-# 4271729679
 # 4276275586
-# 4276783951
 # 4286947627
 # 4293053301
 
@@ -12600,6 +12600,9 @@ SE_UnderwaterType
 pl0800_vo_001_001
 pl0800_vo_001_002
 pl0800_vo_001_003
+pl0800_vo_002_001
+pl0800_vo_002_002
+pl0800_vo_002_003
 pl0800_vo_003_001
 pl0800_vo_003_002
 pl0800_vo_004_001
@@ -12640,9 +12643,6 @@ pl0800_vo_019_003
 pl0800_vo_020_001
 pl0800_vo_020_002
 pl0800_vo_gideon_voice_cursor
-# 67330796
-# 67330797
-# 67330798
 # 1985346512
 # 1985346513
 # 1985346515
@@ -12660,6 +12660,9 @@ pl0801_vo_000_001
 pl0801_vo_001_001
 pl0801_vo_001_002
 pl0801_vo_001_003
+pl0801_vo_002_001
+pl0801_vo_002_002
+pl0801_vo_002_003
 pl0801_vo_003_001
 pl0801_vo_003_002
 pl0801_vo_004_001
@@ -12725,9 +12728,6 @@ pl0801_vo_020_003
 pl0801_vo_020_004
 pl0801_vo_020_005
 pl0801_vo_gideon_voice_cursor
-# 636767689
-# 636767690
-# 636767691
 # 2743430348
 # 2743430350
 # 2743430351
@@ -12745,6 +12745,9 @@ pl0802_vo_000_001
 pl0802_vo_001_001
 pl0802_vo_001_002
 pl0802_vo_001_003
+pl0802_vo_002_001
+pl0802_vo_002_002
+pl0802_vo_002_003
 pl0802_vo_003_001
 pl0802_vo_003_002
 pl0802_vo_004_001
@@ -12810,9 +12813,6 @@ pl0802_vo_020_003
 pl0802_vo_020_004
 pl0802_vo_020_005
 pl0802_vo_gideon_voice_cursor
-# 1907263260
-# 1907263262
-# 1907263263
 # 3115007549
 # 3115007550
 # 3115007551
@@ -12830,6 +12830,9 @@ pl0803_vo_000_001
 pl0803_vo_001_001
 pl0803_vo_001_002
 pl0803_vo_001_003
+pl0803_vo_002_001
+pl0803_vo_002_002
+pl0803_vo_002_003
 pl0803_vo_003_001
 pl0803_vo_003_002
 pl0803_vo_004_001
@@ -12898,9 +12901,6 @@ pl0803_vo_gideon_voice_cursor
 # 1642929612
 # 1642929613
 # 1642929614
-# 3366769292
-# 3366769293
-# 3366769295
 
 ### SFX NAMES (vo_pl0803.bnk)
 # 1054141980
@@ -12915,6 +12915,9 @@ pl0804_vo_000_001
 pl0804_vo_001_001
 pl0804_vo_001_002
 pl0804_vo_001_003
+pl0804_vo_002_001
+pl0804_vo_002_002
+pl0804_vo_002_003
 pl0804_vo_003_001
 pl0804_vo_003_002
 pl0804_vo_004_001
@@ -12983,9 +12986,6 @@ pl0804_vo_gideon_voice_cursor
 # 1678126044
 # 1678126045
 # 1678126047
-# 3247904928
-# 3247904929
-# 3247904930
 
 ### SFX NAMES (vo_pl0804.bnk)
 # 1054141980
@@ -13000,6 +13000,9 @@ pl0805_vo_000_001
 pl0805_vo_001_001
 pl0805_vo_001_002
 pl0805_vo_001_003
+pl0805_vo_002_001
+pl0805_vo_002_002
+pl0805_vo_002_003
 pl0805_vo_003_001
 pl0805_vo_003_002
 pl0805_vo_004_001
@@ -13065,9 +13068,6 @@ pl0805_vo_020_003
 pl0805_vo_020_004
 pl0805_vo_020_005
 pl0805_vo_gideon_voice_cursor
-# 3622064701
-# 3622064702
-# 3622064703
 # 3846361240
 # 3846361242
 # 3846361243
@@ -13085,6 +13085,9 @@ pl0806_vo_000_001
 pl0806_vo_001_001
 pl0806_vo_001_002
 pl0806_vo_001_003
+pl0806_vo_002_001
+pl0806_vo_002_002
+pl0806_vo_002_003
 pl0806_vo_003_001
 pl0806_vo_003_002
 pl0806_vo_004_001
@@ -13150,9 +13153,6 @@ pl0806_vo_020_003
 pl0806_vo_020_004
 pl0806_vo_020_005
 pl0806_vo_gideon_voice_cursor
-# 946537440
-# 946537442
-# 946537443
 # 2935546265
 # 2935546266
 # 2935546267
@@ -13170,6 +13170,9 @@ pl0807_vo_000_001
 pl0807_vo_001_001
 pl0807_vo_001_002
 pl0807_vo_001_003
+pl0807_vo_002_001
+pl0807_vo_002_002
+pl0807_vo_002_003
 pl0807_vo_003_001
 pl0807_vo_003_002
 pl0807_vo_004_001
@@ -13238,9 +13241,6 @@ pl0807_vo_gideon_voice_cursor
 # 85388088
 # 85388089
 # 85388090
-# 3065715824
-# 3065715825
-# 3065715827
 
 ### SFX NAMES (vo_pl0807.bnk)
 # 1054141980
@@ -13255,6 +13255,9 @@ pl0808_vo_000_001
 pl0808_vo_001_001
 pl0808_vo_001_002
 pl0808_vo_001_003
+pl0808_vo_002_001
+pl0808_vo_002_002
+pl0808_vo_002_003
 pl0808_vo_003_001
 pl0808_vo_003_002
 pl0808_vo_004_001
@@ -13323,9 +13326,6 @@ pl0808_vo_gideon_voice_cursor
 # 188792600
 # 188792601
 # 188792603
-# 3374435028
-# 3374435029
-# 3374435030
 
 ### SFX NAMES (vo_pl0808.bnk)
 # 1054141980
@@ -13340,6 +13340,9 @@ pl0809_vo_000_001
 pl0809_vo_001_001
 pl0809_vo_001_002
 pl0809_vo_001_003
+pl0809_vo_002_001
+pl0809_vo_002_002
+pl0809_vo_002_003
 pl0809_vo_003_001
 pl0809_vo_003_002
 pl0809_vo_004_001
@@ -13408,9 +13411,6 @@ pl0809_vo_gideon_voice_cursor
 # 930638644
 # 930638646
 # 930638647
-# 2922331537
-# 2922331538
-# 2922331539
 
 ### SFX NAMES (vo_pl0809.bnk)
 # 1054141980
@@ -13425,6 +13425,9 @@ pl0810_vo_000_001
 pl0810_vo_001_001
 pl0810_vo_001_002
 pl0810_vo_001_003
+pl0810_vo_002_001
+pl0810_vo_002_002
+pl0810_vo_002_003
 pl0810_vo_003_001
 pl0810_vo_003_002
 pl0810_vo_004_001
@@ -13493,9 +13496,6 @@ pl0810_vo_gideon_voice_cursor
 # 3177953584
 # 3177953585
 # 3177953586
-# 3556310920
-# 3556310921
-# 3556310923
 
 ### SFX NAMES (vo_pl0810.bnk)
 # 1054141980
@@ -13549,30 +13549,30 @@ element_type
 # 779427024
 
 ### VALUE NAMES (wp0100.bnk)
-# 3871283036
-# 2706724829
-# 4045841205
-# 2096303688
-# 3199056871
-# 3327193506
-# 3360222533
-# 3463206039
-# 316263686
-# 3324477241
-# 2141818976
-# 1212883729
+c00_none
+c01_normal
+c01_soil
+c02_flame
+c02_stone
+c03_ice
+c03_iron
+c04_thunder
+c04_tree
+c05_light
+c05_wooden
+c06_dark
+c06_grass
+c07_water
+c08_flower
+c09_snow
+c10_lava
+c11_poison
+c13_tar
+c15_ice
+c17_carpet
 # 1360865370
-# 1110913528
 # 3657167964
-# 986107506
 # 2461478625
-# 3670935494
-# 175964777
-# 3778834982
-# 2735967951
-# 2902170619
-# 2838670576
-# 2597629873
 
 ### EVENT NAMES (wp0102.bnk)
 Stop_wp0102_gideon_chg_Lv1_loop
@@ -15549,83 +15549,3 @@ azimuth
 Distance
 elevation
 Volume_SE
-
-2706724829: C00_none
-175964777: c01_normal
-4045841205: c01_soil
-3871283036: c02_stone
-3778834982: c02_flame
-2735967951: c03_ice
-2096303688: c03_iron
-2902170619: c04_thunder
-3199056871: c04_tree
-2838670576: c05_light
-3327193506: c05_wooden
-3360222533: c06_grass
-2597629873: c06_dark
-3463206039: c07_water
-316263686: c08_flower
-3324477241: c09_snow
-2141818976: c10_lava
-1212883729: c11_poison
-1110913528: c13_tar
-986107506: c15_ice
-3670935494: c17_carpet
-
-2968121284: noon_wind
-491867764: noon_rain
-1678982483: noon_snow
-1525301877: noon_storm
-313371456: noon_blizzard
-4200585059: noon_sunny
-2366576018: night_rain
-3379886545: night_sunny
-4210193261: midbossa_Lv1
-4210193262: midbossa_Lv2
-4210193263: midbossa_Lv3
-1543528070: midbossb_Lv1
-1543528069: midbossb_Lv2
-1543528068: midbossb_Lv3
-3643301235: midbossc_lv1
-3643301232: midbossc_lv2
-3643301233: midbossc_lv3
-2265504064: moba_lv1
-2265504067: moba_lv2
-2265504066: moba_lv3
-2265504069: moba_lv4
-2903413715: mobb_lv1
-2903413712: mobb_lv2
-2903413713: mobb_lv3
-2903413718: mobb_lv4
-3423322842: set_midbossa_Lv1
-3423322841: set_midbossa_Lv2
-3423322840: set_midbossa_Lv3
-1370563233: set_midbossb_Lv1
-1370563234: set_midbossb_Lv2
-1370563235: set_midbossb_Lv3
-1413016059: set_moba_lv1
-1413016056: set_moba_lv2
-1413016057: set_moba_lv3
-1413016062: set_moba_lv4
-2603157864: set_mobb_lv1
-2603157867: set_mobb_lv2
-2603157866: set_mobb_lv3
-2603157869: set_mobb_lv4
-3423322842: set_midbossa_lv1
-3423322841: set_midbossa_lv2
-3423322840: set_midbossa_lv3
-1370563233: set_midbossb_lv1
-1370563234: set_midbossb_lv2
-1370563235: set_midbossb_lv3
-2308951332: set_midbossc_lv1
-2308951335: set_midbossc_lv2
-2308951334: set_midbossc_lv3
-
-413540742: tribe_type
-
-2195315137: None_1000ms
-762903354: None_4000ms
-1332965557: None_5000ms
-334150803: None_7000ms
-2967860766: None_8000ms
-1884569913: None_9000ms
