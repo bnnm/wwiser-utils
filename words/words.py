@@ -146,6 +146,7 @@ class Words(object):
         p.add_argument('-sn', '--split-number', help="Splits in N parts: a_b_c with 2 = a_b, b_c", type=int)
         p.add_argument('-sf', '--split-full',   help="Only adds stems (from 'aa_bb_cc' only adds 'aa', 'bb', 'cc')", action='store_true')
         p.add_argument('-ns', '--no-split',     help="Disable splitting words by '_'", action='store_true')
+        p.add_argument('-cf', '--cut-first',    help="Cut first N chars (for strings2.exe off results like 8bgm_main)", type=int)
         p.add_argument('-cl', '--cut-last',     help="Cut last N chars (for strings2.exe off results like bgm_main8)", type=int)
         return p.parse_args()
 
@@ -560,6 +561,15 @@ class Words(object):
 
                     if b'_' in new_elem:
                         self._add_word(new_elem)
+
+                if self._args.cut_first and elem:
+                    elem_len = len(elem)
+                    max = self._args.cut_first
+                    if elem_len <= max:
+                        continue
+                    for i in range(1, self._args.cut_first + 1):
+                        elem_cut = elem[i:]
+                        self._add_word(elem_cut)
 
                 if self._args.cut_last and elem:
                     elem_len = len(elem)
