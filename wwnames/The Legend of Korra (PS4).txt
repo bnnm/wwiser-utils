@@ -1,0 +1,10015 @@
+#@nofuzzy
+#@classify-bank
+
+### BANK NAMES
+BGM
+core
+em0000
+em0020
+em0030
+em0100
+em0140
+em0200
+em0220
+em0240
+em0300
+em0320
+em0340
+em0400
+em0420
+em0500
+em0600
+em1000
+em2000
+em2010
+em3000
+em5000
+em5010
+em5020
+em5030
+em5040
+em5050
+em5060
+em5070
+em5080
+em5090
+em50a0
+em50b0
+em50c0
+em50d0
+em50e0
+et0030
+Init
+pc10
+pl0000
+pl00f3
+pl1000
+pl5000
+pl5010
+plffff
+r1a0
+r1a1
+r2c0
+r2c1
+r3a0
+r3a2
+r4a0
+r4a1
+r500
+r501
+r5a0
+r5c0
+r6a0
+r6a1
+r7a0
+r7a3
+r8a0
+r8a1
+
+### BUS NAMES
+Action
+Action_em_spirit_Voice
+Action_em_Voice
+Action_pl_Voice
+battle
+BGM
+BM_SE
+dialog
+em1000_se
+em_se
+em_spirit_se
+environment
+jingle
+Master Audio Bus = 0
+Master Secondary Bus = 0
+music
+ND_dialog
+ND_event_SE
+ND_SE
+PBL
+PBL_anouncer_Voice
+PBL_em_Voice
+PBL_Hundun_Voice
+PBL_pl_Voice
+PBL_se
+PBL_shiro_Voice
+PBL_silence
+pl1000_naga_vo
+pl1000_naga_vo_breath
+pl_se
+pre_Movie_Voice
+premaster
+se
+sfx
+shop
+shop_enter_Voice
+stage
+system
+Voice
+Voice_event
+# 1443789771
+# 1587052034
+# 1782797576
+# 2114474210
+# 3066316158
+# 584383
+# 1274800022
+# 1497321967
+# 2106316357
+# 3230131736
+# 3536592120
+# 1733920969
+# 37911445
+# 2594293973
+# 276048001
+# 2625081931
+# 2903901100
+# 3346997203
+# 4050840001
+# 3131480522
+
+### EVENT NAMES (BGM.bnk)
+AvatarState_FadeOut_01
+AvatarState_FadeOut_02
+AvatarState_FadeOut_03
+AvatarState_FadeOut_04
+AvatarState_FadeOut_05
+AvatarState_FadeOut_Reset
+bgm_Bending1_Water
+bgm_Bending2_Earth
+bgm_Bending3_Fire
+bgm_Bending4_Air
+bgm_Camera_enter
+bgm_Camera_exit
+bgm_change_battle_boss
+bgm_change_Battle_Boss_Nightmare
+bgm_change_Battle_Boss_Outro_to_None
+bgm_change_Battle_Boss_Outro_to_stage
+bgm_change_battle_normal
+bgm_change_battle_normal_Nightmare
+bgm_change_battle_normal_spirit
+bgm_change_battle_normal_Tutorial
+bgm_change_None
+bgm_change_stage
+bgm_change_Stage_slow
+bgm_Chapter1
+bgm_Chapter2
+bgm_Chapter3
+bgm_Chapter3_Nightmare
+bgm_Chapter4
+bgm_Chapter5
+bgm_chapter5_from_movie
+bgm_chapter5c_01
+bgm_chapter5c_01_from_movie
+bgm_chapter5c_02
+bgm_chapter5c_03
+bgm_Chapter6
+bgm_Chapter7
+bgm_chapter7_RabbitFight
+bgm_chapter7_WarpOut
+bgm_Chapter8
+bgm_ChapterA
+bgm_chapterA_Result
+bgm_ChapterResult_c2
+bgm_ChapterResult_c8
+bgm_ChapterSelect
+bgm_ChapterSelect_Shop_enter
+bgm_ChapterSelect_Shop_exit
+bgm_Continue
+bgm_Continue_GameOver
+bgm_Continue_NagaRush
+bgm_Continue_Shop_enter
+bgm_Continue_Shop_exit
+bgm_Continue_Yes
+bgm_cs11_01_play
+bgm_cs11_skip
+bgm_cs12_enter
+bgm_cs12_skip
+bgm_cs21_01_play
+bgm_cs21_skip
+bgm_cs22_01_stop
+bgm_cs22_skip
+bgm_cs31_01_play
+bgm_cs31_skip
+bgm_cs32_01_play
+bgm_cs32_skip
+bgm_cs33_01_switch
+bgm_cs33_skip
+bgm_cs41_01_play
+bgm_cs41_skip
+bgm_cs42_01_switch
+bgm_cs42_skip
+bgm_cs43_01_play
+bgm_cs43_skip
+bgm_cs44_enter
+bgm_cs44_skip
+bgm_cs51_01_play
+bgm_cs51_skip
+bgm_cs52_01_play
+bgm_cs52_skip
+bgm_cs53_00_Stop
+bgm_cs54_01_play
+bgm_cs54_skip
+bgm_cs55_01_play
+bgm_cs55_skip
+bgm_cs56_01_switch
+bgm_cs56_skip
+bgm_cs61_01_play
+bgm_cs61_skip
+bgm_cs62_01_play
+bgm_cs62_02_switch
+bgm_cs62_03_stop
+bgm_cs62_skip
+bgm_cs63_01_stop
+bgm_cs63_02_play
+bgm_cs63_skip
+bgm_cs71a_01_switch
+bgm_cs71a_exit
+bgm_cs71a_skip
+bgm_cs71b_01_play
+bgm_cs71b_skip
+bgm_cs72_enter
+bgm_cs72_skip
+bgm_cs81_01_play
+bgm_cs81_skip
+bgm_cs82_01_play
+bgm_cs82_enter
+bgm_cs82_skip
+bgm_cs83_enter
+bgm_cs83_skip
+bgm_csp1_01_play
+bgm_csp1_skip
+bgm_csp2_01_switch
+bgm_csp2_skip
+bgm_Dieing_cancel
+bgm_Dieing_enter
+bgm_Dieing_exit
+bgm_EndSlate
+bgm_ev0104_01_stop
+bgm_ev0104_02_play
+bgm_ev0106_01_stop
+bgm_ev0106_02_play
+bgm_ev0106_03_play
+bgm_ev0107_01_stop
+bgm_ev0107_02_play
+bgm_ev0200_enter
+bgm_ev0200_exit
+bgm_ev0201_enter
+bgm_ev0201_exit
+bgm_ev0202_01_play
+bgm_ev0202_02_play
+bgm_ev0203_01_stop
+bgm_ev0203_02_play
+bgm_ev0203_exit
+bgm_FallDown_enter
+bgm_FallDown_exit
+bgm_Hundun1
+bgm_Hundun2
+bgm_Hundun3
+bgm_Hundun4
+bgm_Instruction
+bgm_JetStreamNaga_Play
+bgm_JetStreamNaga_RePlay
+bgm_JetStreamNaga_Scene_02
+bgm_JetStreamNaga_Scene_03
+bgm_JetStreamNaga_Scene_04
+bgm_Levelup
+bgm_Levelup_Nightmare
+bgm_MissionResult
+bgm_MissionResult_NagaRush
+bgm_MissionResult_NagaRush_Nightmare
+bgm_MissionResult_Nightmare
+bgm_MissionResult_PBL
+bgm_MissionResult_PBL_Nightmare
+bgm_Movie_enter
+bgm_Movie_exit
+bgm_NagaRush_CheckPoint
+bgm_NagaRush_DayCity_Play
+bgm_NagaRush_DayCity_RePlay
+bgm_NagaRush_NightCity_Play
+bgm_NagaRush_NightCity_RePlay
+bgm_NagaRush_SouthPole2_Play
+bgm_NagaRush_SouthPole2_RePlay
+bgm_NagaRush_SouthPole_Play
+bgm_NagaRush_SouthPole_RePlay
+bgm_NagaRush_Stop_Clear
+bgm_NagaRush_Stop_Miss
+bgm_Nightmare_FadeOut
+bgm_Nightmare_Off
+bgm_Nightmare_on
+bgm_p210_em01_enter
+bgm_p210_em01_exit
+bgm_p210_em05_enter
+bgm_p310_em01_enter
+bgm_p310_em01_exit
+bgm_p310_em03_enter
+bgm_p310_em03_exit
+bgm_p310_em11_enter
+bgm_p310_em11_exit
+bgm_p410_em07_enter
+bgm_p410_em07_exit
+bgm_p510_em03_enter
+bgm_p510_em03_exit
+bgm_p510_em08_enter
+bgm_p510_em08_exit
+bgm_p510a_em01_enter
+bgm_p510a_em01_exit
+bgm_p510b_em01_enter
+bgm_p610_em06_enter
+bgm_p610_em06_exit
+bgm_p610_em07_enter
+bgm_p610_em07_exit
+bgm_p610_em12_enter
+bgm_p610_em12_exit
+bgm_p610_em12_gate_exit
+bgm_p610_last_enter
+bgm_p610_last_exit
+bgm_p710_HundunWarp
+bgm_Paused_enter
+bgm_Paused_exit
+bgm_PausedCancel_enter
+bgm_PausedCancel_exit
+bgm_PBL_FaceOff
+bgm_PBL_FaceOff_OpeningCamera
+bgm_PBL_Flash
+bgm_PBL_KnockOut
+bgm_PBL_Omake_Final
+bgm_PBL_Omake_Normal
+bgm_PBL_OpeningCamera
+bgm_PBL_OpeningCamera_Epilogue
+bgm_PBL_OpeningCamera_Skip
+bgm_PBL_Result_Skip
+bgm_PBL_Round
+bgm_PBL_RoundsOver
+bgm_PBL_TimesUp
+bgm_PBL_YouLose
+bgm_PBL_YouWin
+bgm_pend
+bgm_pstart
+bgm_Slow_enter
+bgm_Slow_exit
+bgm_sync_Off
+bgm_sync_On
+bgm_Sync_Pause
+bgm_Sync_Resume
+bgm_Title
+bgm_Title_exit
+bgm_TitleMenu
+bgm_TotalResult
+bgm_Treasure_1
+bgm_Treasure_1_Nightmare
+bgm_Treasure_2
+bgm_Treasure_2_Nightmare
+bgm_Treasure_3
+bgm_Treasure_3_Nightmare
+bgm_Treasure_4
+bgm_Treasure_4_Nightmare
+bgm_Treasure_5
+bgm_Treasure_5_Nightmare
+Debug_Loudness_Meter_Off
+Debug_Loudness_Meter_On
+# 184888
+# 22246064
+# 48430458
+# 185023203
+# 489278979
+# 561426165
+# 561426166
+# 823604040
+# 840119590
+# 1132491753
+# 1163003369
+# 1226538483
+# 1231949597
+# 1375795917
+# 1408181350
+# 1547802313
+# 1556220301
+# 1703186542
+# 1945506404
+# 1965830408
+# 2071697939
+# 2271187492
+# 2376922827
+# 2407757328
+# 2443580300
+# 2443580303
+# 2465551415
+# 2476995316
+# 2533790549
+# 2611167744
+# 2651378922
+# 2671663568
+# 2704725584
+# 2832550763
+# 2850261572
+# 2880200909
+# 2884213694
+# 2928367227
+# 3058947519
+# 3077197124
+# 3151496383
+# 3382535494
+# 3495022576
+# 3495022579
+# 3548184164
+# 3548184167
+# 3597745057
+# 3837950901
+# 3843807354
+# 3843807355
+# 3843807356
+# 3843807357
+# 3843807359
+# 3965100757
+# 4198189333
+# 4208419350
+
+### VARIABLE NAMES (BGM.bnk)
+bgm_Dieing
+bgm_hundun
+bgm_JetStreamNaga
+bgm_NagaRush
+bgm_NagaRush_Speed
+bgm_Nightmare
+bgm_PBL
+bgm_Slow
+bgm_st3_AirTemple
+bgm_st4_DayCity
+bgm_st7_treeoftime
+bgm_sync_ssbgm1
+# 1614145143
+# 1120829950
+# 264825918
+# 264825917
+# 3624258362
+# 2396576082
+# 3739901183
+
+### VALUE NAMES (BGM.bnk)
+bgm_down
+chorus
+cs31
+cs33
+cs42
+cs56
+CsP2
+env_down
+env_off
+ev0104
+ev0105
+ev0200
+ev0201
+ev_portal
+finale
+main
+None
+Normal
+Off
+on
+Outro
+p210_em01
+p310_em01
+p510_em03
+p610_last
+Prologue
+Speed_01
+Speed_02
+Speed_03
+Speed_04
+Speed_05
+# 1355624819
+# 1372402380
+# 1325927571
+# 3934023823
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+bgm_NagaRush_Speed
+em0500_swing_Speed
+em1000_duck_Se
+em_duck_se
+em_duck_Voice
+em_spirit_duck_se
+em_spirit_duck_Voice
+hit_duck_se
+mecha_tank_speed
+pl_duck_se
+Voice_duck_Action_Voice
+Voice_duck_bgm
+Voice_duck_se
+Volume_BGM
+Volume_environment
+Volume_Master
+Volume_SE
+Volume_Voice
+# 2680624748
+# 2476995316
+# 3297818656
+
+### VARIABLE NAMES (Init.bnk)
+bgm_Dieing
+bgm_NagaRush_Speed
+bgm_Nightmare
+bgm_Slow
+bgm_sync_ssbgm1
+ngr_type
+PBL_mode_type
+PBL_type
+triad_event_type
+# 3739901183
+# 2396576082
+# 1777186296
+# 3459249645
+# 2060574452
+
+### VALUE NAMES (Init.bnk)
+bgm_down
+env_down
+env_off
+Off
+on
+
+### EVENT NAMES (core.bnk)
+ba1130_treasure_box_barrier
+ba1130_treasure_box_hit
+ba1130_treasure_box_hit_water
+ba1140_break
+ba1141_break
+ba1142_break
+ba1143_break
+ba1144_break
+ba1145_break
+ba1170_break
+ba1171_break
+ba1172_break
+ba1173_break
+bm1110_break
+bm1110_fire_hit
+bm1111_break
+bm1150_break
+bm1150_signboard_hit
+bm1151_break
+bm1152_break
+bm2050_break
+bm2051_break
+bm2080_break
+bm2081_break
+bm2082_break
+bm2090_break
+bm2091_break
+bm2092_break
+bm2093_break
+bm2094_break
+bm4101_break
+bm4102_break
+bm4106_break
+bm5090_break
+bm5091_break
+bm5160_break
+bm5161_break
+bm5167_break
+bm5168_break
+bm5170_break
+bm5171_break
+bm5173_break
+bm5175_break
+bm5176_break
+bm6100_break
+bm6101_break
+bma000_break
+bma001_break
+bma002_break
+bma003_break
+bma004_break
+bma005_break
+bma006_break
+bma007_break
+bma008_break
+bma009_break
+bma00a_break
+bma00b_break
+bma00c_break
+bma00d_break
+bma020_break
+bma021_break
+core_air_counter_hit
+core_air_hit
+core_air_metal_counter_hit
+core_air_metal_hit
+core_air_wall_hit
+core_bend_wall_barrier
+core_bend_wall_crack_air
+core_bend_wall_crack_earth
+core_bend_wall_crack_fire
+core_bend_wall_crack_water
+core_bt_field_barrier
+core_bt_field_off
+core_bt_field_on
+core_car_hit
+core_car_hit_water
+core_common_item_get
+core_common_item_get_naga
+core_counter_finish
+core_counter_guard_break
+core_counter_in
+core_counter_lp
+core_counter_lp_stop
+core_counter_out
+core_counter_success
+core_default_guard
+core_default_hit
+core_default_hit_counter
+core_default_metal_hit
+core_default_metal_hit_7st
+core_earth_counter_hit
+core_earth_hit
+core_earth_metal_counter_hit
+core_earth_metal_hit
+core_elec_hit
+core_em1000_guard
+core_em1000_guard_7st
+core_em1000_guard_water
+core_fire_counter_hit
+core_fire_dmg_lp
+core_fire_dmg_lp_stop
+core_fire_hit
+core_fire_metal_counter_hit
+core_fire_metal_hit
+core_fire_metal_hit_ngr
+core_fire_wall_hit
+core_it0010_cure_get
+core_it0010_cure_get_naga
+core_jinora_appear
+core_jinora_disappear
+core_metal_hit
+core_metal_hit_water
+core_quest_countup
+core_rock_hit
+core_rock_water_hit
+core_spatk_hit
+core_spirit_catharsis
+core_spirit_catharsis_big
+core_spirit_get
+core_spirit_get_large
+core_spirit_get_mid
+core_spirit_get_naga_large
+core_spirit_get_naga_mid
+core_spirit_get_naga_small
+core_spirit_get_small
+core_spirit_hole_catharsis
+core_truck_hit
+core_truck_hit_water
+core_tutorial_bend_air
+core_tutorial_bend_earth
+core_tutorial_bend_fire
+core_tutorial_bend_water
+core_tutorial_nalation
+core_ui_buzzer
+core_ui_cancel
+core_ui_cursor
+core_ui_decision
+core_ui_equipset
+core_ui_gamestart
+core_ui_icon_appear
+core_ui_itembonus_A
+core_ui_itembonus_B
+core_ui_itembonus_C
+core_ui_menuclose
+core_ui_menuopen
+core_ui_message_in
+core_ui_message_out
+core_ui_nagagamestart
+core_ui_optioncursor
+core_ui_shopbuy
+core_ui_spiritcount
+core_ui_titlecursor
+core_ui_unlock
+core_water_counter_hit
+core_water_guard
+core_water_hit
+core_water_metal_counter_hit
+core_water_metal_hit
+core_water_wall_hit
+core_wood_hit
+core_wood_hit_water
+cp02_0440
+cp02_0470
+cp02_0480
+cp02_0490
+cp02_0500
+cp03_0070
+cp03_0630
+em0000_dmg_switch
+em0000_rope_dmg_lp
+em0000_rope_dmg_lp_stop
+em0000_rope_dmg_recover
+em_down_floor
+em_down_iron
+em_down_rock
+em_down_snow
+em_down_wood
+em_ice_dmg_big
+em_ice_dmg_break_big
+em_ice_dmg_break_small
+em_ice_dmg_small
+em_land_floor
+em_land_iron
+em_land_rock
+em_land_snow
+em_land_wood
+ep_0000
+ep_0010
+ep_0020
+ep_0030
+ep_0040
+ep_0050
+ep_0060
+ep_0070
+ep_0080
+ep_0090
+ep_0100
+ep_0110
+ep_0120
+ep_0130
+ep_0140
+ep_0150
+ep_0160
+ep_0170
+ep_0180
+ep_0190
+ep_0200
+ep_0210
+ep_0220
+ep_0230
+ep_0240
+ep_0250
+ep_0260
+ep_0270
+ep_0280
+ep_0290
+ep_0300
+ep_0310
+ep_0320
+ep_0330
+ep_0340
+ep_0350
+ep_0360
+ep_0370
+ep_0380
+ep_0390
+ep_0400
+ep_0410
+ep_0420
+ep_0430
+ep_0440
+ep_0450
+ep_0460
+ep_0470
+ep_0480
+ep_0490
+ep_0500
+ep_0510
+iroh_vo_shop_enter
+iroh_vo_shop_leav_01
+korra_room_cos_select
+korra_room_cos_select_miss
+korra_vo_cont_yes
+korra_vo_cos_select
+korra_vo_room_enter_01
+korra_vo_room_enter_02
+korra_vo_room_enter_03
+korra_vo_room_enter_04
+korra_vo_room_enter_05
+korra_vo_room_exit
+PBL_dmg_switch
+pl_down_floor
+pl_down_iron
+pl_down_rock
+pl_down_snow
+pl_down_wood
+pl_land_floor
+pl_land_iron
+pl_land_rock
+pl_land_snow
+pl_land_wood
+se_7st_PBL_fade_off
+se_7st_PBL_fade_on
+se_7st_stage_start
+se_continue_enter
+se_continue_exit
+se_fall_enter
+se_fall_exit
+se_game_exit
+se_go_in_peace_off
+se_go_in_peace_on
+se_level_up_enter
+se_level_up_exit
+se_Movie_enter
+se_Movie_exit
+se_naga_spirit_pitch_reset
+se_naga_spirit_pitch_reset_time
+se_ngr_type_default
+se_ngr_type_jsn
+se_Paused_enter
+se_Paused_exit
+se_PBL_mode_default
+se_PBL_mode_PBL
+se_PBL_skip
+se_PBL_type_default
+se_PBL_type_st7
+se_stage_end
+se_stage_start
+se_triad_event_type_st3
+se_triad_event_type_st4
+spirit_disappear
+Stop_core_ui_spiritcount
+System_Mute_All
+system_pause_all
+system_resume_all
+System_Unmute_All
+thank_you_for_play
+# 24168992
+# 24566297
+# 169750806
+# 217419107
+# 228251310
+# 341701126
+# 354097281
+# 776928164
+# 818487021
+# 909027672
+# 909027674
+# 909027675
+# 1041376312
+# 1098083793
+# 1100199612
+# 1100199614
+# 1100199615
+# 1105289489
+# 1105289490
+# 1309269041
+# 1490227179
+# 1491175631
+# 1624368043
+# 1717039558
+# 2043510986
+# 2173624665
+# 2181954245
+# 2181954246
+# 2181954247
+# 2276079296
+# 2304905804
+# 2354862831
+# 2435553740
+# 2599777971
+# 2713110798
+# 2730003970
+# 2773576214
+# 2803531152
+# 2803531154
+# 2803531155
+# 2947028956
+# 2995759565
+# 3133177426
+# 3224976532
+# 3458789622
+# 3662636025
+# 3699849566
+# 3738122565
+# 3816621932
+# 3816621934
+# 3816621935
+# 3831906616
+# 3863646280
+# 3863646281
+# 3863646283
+# 3889117120
+# 3889117123
+# 3955935766
+# 4183088888
+# 4183088889
+# 4183088890
+# 4212902677
+# 4212902678
+# 4263543224
+
+### RTPC/GAME-VARIABLE NAMES (core.bnk)
+hit_duck_se
+
+### VARIABLE NAMES (core.bnk)
+damage_type
+ngr_type
+PBL_mode_type
+PBL_type
+triad_event_type
+# 3459249645
+
+### VALUE NAMES (core.bnk)
+Default
+die
+jsn
+None
+Normal
+p000
+p100
+p1000
+p1100
+p1200
+p1300
+p1400
+p1500
+p1600
+p1700
+p1800
+p1900
+p200
+p2000
+p2100
+p2200
+p2300
+p2400
+p2500
+p2600
+p2700
+p2800
+p2900
+p300
+p3000
+p3100
+p3200
+p3300
+p3400
+p3500
+p3600
+p3700
+p3800
+p3900
+p400
+p4000
+p4100
+p4200
+p4300
+p4400
+p4500
+p4600
+p4700
+p4800
+p4900
+p500
+p5000
+p5100
+p5200
+p5300
+p5400
+p5500
+p5600
+p5700
+p5800
+p5900
+p600
+p6000
+p700
+p800
+p900
+PBL
+st3
+st4
+st7
+
+### EVENT NAMES (em0000.bnk)
+em0000_1033_recover
+em0000_1036_recover01
+em0000_1039_recover01
+em0000_112_smoke
+em0000_112_smoke_wsh
+em0000_appear_bom
+em0000_avoidance
+em0000_chi_atk_final_hit
+em0000_chi_atk_final_land
+em0000_chi_atk_final_wah
+em0000_chi_atk_hit
+em0000_chi_atk_sway
+em0000_chi_atk_wsh
+em0000_combo01
+em0000_combo02
+em0000_combo03
+em0000_drop_kick
+em0000_elec_atk
+em0000_elec_ball_shot
+em0000_elec_ball_tele
+em0000_elec_ball_wsh
+em0000_elec_break
+em0000_elec_loop
+em0000_elec_loop_stop
+em0000_jump01
+em0000_jump02
+em0000_land
+em0000_retire_bom
+em0000_retire_jump
+em0000_rope_break
+em0000_rope_hit
+em0000_rope_loop
+em0000_rope_loop_stop
+em0000_rope_throw
+em0000_rope_throw_notele
+em0000_rope_wait
+em0000_rope_whip
+em0000_rope_whip_break
+em0000_rope_whip_down
+em0000_rope_whip_fall
+em0000_rope_whip_hit
+em0000_rope_whip_pull
+em0000_rope_whip_tele
+em0000_spatk01
+em0000_step
+em0000_sway01
+em0000_Vo_Jump
+em0000_vo_l_atk
+em0000_vo_l_dmg
+em0000_vo_s_atk
+em0000_vo_s_counter_finish
+em0000_vo_s_dmg
+em0010_vo_atk_finish
+em0010_vo_counter_atk
+em0010_vo_counter_dmg
+em0010_vo_dmg_finish
+em0010_vo_dmg_recover
+em0010_vo_fire_dmg_lp
+em0010_vo_fire_dmg_lp_stop
+em0010_vo_jump
+em0010_vo_l_atk
+em0010_vo_l_dmg
+em0010_vo_pain_dmg
+em0010_vo_s_atk
+em0010_vo_s_dmg
+em0010_vo_spatk
+eml0000_retire_bom_wsh
+# 1379842398
+
+### RTPC/GAME-VARIABLE NAMES (em0000.bnk)
+em_duck_se
+em_duck_Voice
+
+### VARIABLE NAMES (em0000.bnk)
+damage_type
+
+### VALUE NAMES (em0000.bnk)
+die
+Normal
+
+### EVENT NAMES (em0020.bnk)
+em0020_vo_atk_finish
+em0020_vo_counter_atk
+em0020_vo_counter_dmg
+em0020_vo_dmg_finish
+em0020_vo_dmg_recover
+em0020_vo_fire_dmg_lp
+em0020_vo_fire_dmg_lp_stop
+em0020_Vo_Jump
+em0020_vo_l_atk
+em0020_vo_l_dmg
+em0020_vo_pain_dmg
+em0020_vo_s_atk
+em0020_vo_s_dmg
+em0020_vo_spatk
+
+### RTPC/GAME-VARIABLE NAMES (em0020.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em0020.bnk)
+damage_type
+
+### VALUE NAMES (em0020.bnk)
+die
+Normal
+
+### EVENT NAMES (em0030.bnk)
+em0030_vo_atk_finish
+em0030_vo_counter_atk
+em0030_vo_counter_dmg
+em0030_vo_dmg_finish
+em0030_vo_dmg_recover
+em0030_vo_fire_dmg_lp
+em0030_vo_fire_dmg_lp_stop
+em0030_Vo_Jump
+em0030_vo_l_atk
+em0030_vo_l_dmg
+em0030_vo_pain_dmg
+em0030_vo_s_atk
+em0030_vo_s_dmg
+em0030_vo_spatk
+
+### RTPC/GAME-VARIABLE NAMES (em0030.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em0030.bnk)
+damage_type
+
+### VALUE NAMES (em0030.bnk)
+die
+Normal
+
+### EVENT NAMES (em0100.bnk)
+em0000_appear_bom
+em0100_sway
+em0100_vo_atk_finish
+em0100_vo_charge
+em0100_vo_counter_atk
+em0100_vo_counter_dmg
+em0100_vo_counter_guard_break
+em0100_vo_counter_in
+em0100_vo_dmg_finish
+em0100_vo_fire_dmg_lp
+em0100_vo_fire_dmg_lp_stop
+em0100_Vo_Jump
+em0100_vo_l_atk
+em0100_vo_l_dmg
+em0100_vo_m_atk
+em0100_vo_pain_dmg
+em0100_vo_recover
+em0100_vo_s_atk
+em0100_vo_s_dmg
+em0100_vo_water_bend_finish
+three_triad_appear_water_voice01
+three_triad_appear_water_voice02
+
+### RTPC/GAME-VARIABLE NAMES (em0100.bnk)
+em_duck_se
+
+### VARIABLE NAMES (em0100.bnk)
+damage_type
+triad_event_type
+
+### VALUE NAMES (em0100.bnk)
+die
+None
+Normal
+st3
+st4
+
+### EVENT NAMES (em0140.bnk)
+em0140_vo_charge
+em0140_vo_counter_atk
+em0140_vo_counter_dmg
+em0140_vo_counter_guard_break
+em0140_vo_counter_in
+em0140_vo_dmg_finish
+em0140_Vo_Jump
+em0140_vo_l_atk
+em0140_vo_l_dmg
+em0140_vo_m_atk
+em0140_vo_pain_dmg
+em0140_vo_recover
+em0140_vo_s_atk
+em0140_vo_s_dmg
+em0140_vo_water_bend_finish
+em50e0_vo_counter_in
+# 2780355058
+
+### RTPC/GAME-VARIABLE NAMES (em0140.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em0140.bnk)
+damage_type
+
+### VALUE NAMES (em0140.bnk)
+die
+Normal
+
+### EVENT NAMES (em0200.bnk)
+em0200_vo_atk_finish
+em0200_vo_charge
+em0200_vo_counter_atk
+em0200_vo_counter_dmg
+em0200_vo_counter_guard_break
+em0200_vo_counter_in
+em0200_vo_dmg_finish
+em0200_vo_fire_bend_finish
+em0200_vo_fire_dmg_lp
+em0200_vo_fire_dmg_lp_stop
+em0200_Vo_Jump
+em0200_vo_l_atk
+em0200_vo_l_dmg
+em0200_vo_m_atk
+em0200_vo_pain_dmg
+em0200_vo_recover
+em0200_vo_s_atk
+em0200_vo_s_dmg
+fire_bender_appear_voice01
+fire_bender_appear_voice02
+fire_bender_appear_voice03
+
+### VARIABLE NAMES (em0200.bnk)
+damage_type
+
+### VALUE NAMES (em0200.bnk)
+die
+Normal
+
+### EVENT NAMES (em0220.bnk)
+em0200_vo_atk_finish
+em0200_vo_charge
+em0200_vo_counter_atk
+em0200_vo_counter_dmg
+em0200_vo_counter_guard_break
+em0200_vo_counter_in
+em0200_vo_dmg_finish
+em0200_vo_fire_bend_finish
+em0200_vo_fire_dmg_lp
+em0200_vo_fire_dmg_lp_stop
+em0200_Vo_Jump
+em0200_vo_l_atk
+em0200_vo_l_dmg
+em0200_vo_m_atk
+em0200_vo_pain_dmg
+em0200_vo_recover
+em0200_vo_s_atk
+em0200_vo_s_dmg
+fire_bender_appear_voice01
+fire_bender_appear_voice02
+fire_bender_appear_voice03
+
+### VARIABLE NAMES (em0220.bnk)
+damage_type
+
+### VALUE NAMES (em0220.bnk)
+die
+Normal
+
+### EVENT NAMES (em0240.bnk)
+em0200_vo_counter_in
+em0240_vo_atk_finish
+em0240_vo_charge
+em0240_vo_counter_atk
+em0240_vo_counter_dmg
+em0240_vo_counter_guard_break
+em0240_vo_counter_in
+em0240_vo_dmg_finish
+em0240_vo_fire_bend_finish
+em0240_vo_fire_dmg_lp
+em0240_vo_fire_dmg_lp_stop
+em0240_Vo_Jump
+em0240_vo_l_atk
+em0240_vo_l_dmg
+em0240_vo_m_atk
+em0240_vo_pain_dmg
+em0240_vo_recover
+em0240_vo_s_atk
+em0240_vo_s_dmg
+
+### VARIABLE NAMES (em0240.bnk)
+damage_type
+
+### VALUE NAMES (em0240.bnk)
+die
+Normal
+
+### EVENT NAMES (em0300.bnk)
+earth_bender_voice01
+earth_bender_voice02
+em0300_vo_atk_finish
+em0300_vo_charge
+em0300_vo_counter_atk
+em0300_vo_counter_dmg
+em0300_vo_counter_guard_break
+em0300_vo_counter_in
+em0300_vo_dmg_finish
+em0300_vo_earth_bend_finish
+em0300_vo_fire_dmg_lp
+em0300_vo_fire_dmg_lp_stop
+em0300_Vo_Jump
+em0300_vo_l_atk
+em0300_vo_l_dmg
+em0300_vo_m_atk
+em0300_vo_pain_dmg
+em0300_vo_recover
+em0300_vo_s_atk
+em0300_vo_s_dmg
+
+### VARIABLE NAMES (em0300.bnk)
+damage_type
+
+### VALUE NAMES (em0300.bnk)
+die
+Normal
+
+### EVENT NAMES (em0320.bnk)
+earth_bender_voice01
+earth_bender_voice02
+em0300_vo_atk_finish
+em0300_vo_charge
+em0300_vo_counter_atk
+em0300_vo_counter_dmg
+em0300_vo_counter_guard_break
+em0300_vo_counter_in
+em0300_vo_dmg_finish
+em0300_vo_earth_bend_finish
+em0300_vo_fire_dmg_lp
+em0300_vo_fire_dmg_lp_stop
+em0300_Vo_Jump
+em0300_vo_l_atk
+em0300_vo_l_dmg
+em0300_vo_m_atk
+em0300_vo_pain_dmg
+em0300_vo_recover
+em0300_vo_s_atk
+em0300_vo_s_dmg
+
+### VARIABLE NAMES (em0320.bnk)
+damage_type
+
+### VALUE NAMES (em0320.bnk)
+die
+Normal
+
+### EVENT NAMES (em0340.bnk)
+em0300_vo_counter_in
+em0340_vo_atk_finish
+em0340_vo_charge
+em0340_vo_counter_atk
+em0340_vo_counter_dmg
+em0340_vo_counter_guard_break
+em0340_vo_counter_in
+em0340_vo_dmg_finish
+em0340_vo_earth_bend_finish
+em0340_vo_fire_dmg_lp
+em0340_vo_fire_dmg_lp_stop
+em0340_Vo_Jump
+em0340_vo_l_atk
+em0340_vo_l_dmg
+em0340_vo_m_atk
+em0340_vo_pain_dmg
+em0340_vo_recover
+em0340_vo_s_atk
+em0340_vo_s_dmg
+
+### VARIABLE NAMES (em0340.bnk)
+damage_type
+
+### VALUE NAMES (em0340.bnk)
+die
+Normal
+
+### EVENT NAMES (em0400.bnk)
+em0400_appear_break
+em0400_appear_start
+em0400_appear_step
+em0400_avoid_step
+em0400_avoid_wsh
+em0400_disappear_fx
+em0400_disappear_jumo
+em0400_disappear_step
+em0400_dizzy_step_big
+em0400_dizzy_step_small
+em0400_down
+em0400_down_recover
+em0400_f_step
+em0400_f_step_forly
+em0400_fall_down
+em0400_ground_atk_add_imp
+em0400_ground_atk_in_impact
+em0400_ground_atk_in_jump
+em0400_ground_atk_Jump
+em0400_ground_atk_out_impact
+em0400_ground_atk_out_land
+em0400_ground_atk_out_tele
+em0400_hammer_impact
+em0400_hammer_tele
+em0400_hammer_wsh
+em0400_punch_impact
+em0400_punch_jump
+em0400_punch_wsh
+em0400_r_step
+em0400_r_step_forly
+em0400_vo_death
+em0400_vo_dizzy
+em0400_vo_fire_dmg_lp
+em0400_vo_fire_dmg_lp_stop
+em0400_vo_jump
+em0400_vo_l_atk
+em0400_vo_l_dmg
+em0400_vo_s_atk
+em0400_vo_s_dmg
+em1000_counter_air_finish_charge_fx
+em1000_counter_air_finish_fx
+em1000_counter_air_fx
+em1000_counter_earth_charge_fx
+em1000_counter_earth_finish_fx
+em1000_counter_earth_fx
+em1000_counter_finish_forly
+em1000_counter_finish_metal_hit
+em1000_counter_finish_wsh
+em1000_counter_fire_finish_charge_fx
+em1000_counter_fire_finish_fx
+em1000_counter_fire_fx
+em1000_counter_water_finish_charge_fx
+em1000_counter_water_finish_fx
+em1000_counter_water_fx
+em1000_counter_wsh
+
+### RTPC/GAME-VARIABLE NAMES (em0400.bnk)
+em1000_duck_Se
+em_duck_se
+
+### EVENT NAMES (em0420.bnk)
+em0420_appear_break
+em0420_appear_land
+em0420_appear_start
+em0420_disappear_fx
+em0420_disappear_step
+em0420_disappear_wsh
+em0420_dizziy_f_step
+em0420_dizziy_r_step
+em0420_dmg_recover_impact
+em0420_dmg_recover_step
+em0420_down_recover_impact
+em0420_down_recover_step
+em0420_f_step
+em0420_punch_impact
+em0420_punch_step
+em0420_punch_tele
+em0420_punch_wsh
+em0420_r_step
+em0420_rev_punch_impact
+em0420_rev_punch_step
+em0420_rev_punch_tele
+em0420_rev_punch_wsh
+em0420_rolling_impact
+em0420_rolling_step
+em0420_rolling_tele
+em0420_rolling_wsh
+em0420_stomp_impact
+em0420_stomp_tele
+em0420_stomp_wsh
+em0420_vo_death
+em0420_vo_dizzy
+em0420_vo_jump
+em0420_vo_l_atk
+em0420_vo_l_dmg
+em0420_vo_s_atk
+em0420_vo_s_dmg
+em1000_counter_air_finish_charge_fx
+em1000_counter_air_finish_fx
+em1000_counter_air_fx
+em1000_counter_earth_charge_fx
+em1000_counter_earth_finish_fx
+em1000_counter_earth_fx
+em1000_counter_finish_forly
+em1000_counter_finish_metal_hit
+em1000_counter_finish_wsh
+em1000_counter_fire_finish_charge_fx
+em1000_counter_fire_finish_fx
+em1000_counter_fire_fx
+em1000_counter_water_finish_charge_fx
+em1000_counter_water_finish_fx
+em1000_counter_water_fx
+em1000_counter_wsh
+
+### RTPC/GAME-VARIABLE NAMES (em0420.bnk)
+em1000_duck_Se
+em_duck_se
+
+### EVENT NAMES (em0500.bnk)
+em0500_air_shot_tele
+em0500_air_shot_wsh
+em0500_air_tackle_slide
+em0500_air_tackle_tele
+em0500_air_tackle_wsh
+em0500_air_tornado_tele
+em0500_air_tornado_wsh
+em0500_appear_flap
+em0500_appear_fx
+em0500_appear_start
+em0500_avoidance
+em0500_counter_catch
+em0500_counter_final_impact
+em0500_counter_final_swing
+em0500_counter_swing
+em0500_disappear_falp
+em0500_disappear_fx
+em0500_disappear_land
+em0500_dizzy_flap
+em0500_down
+em0500_flap
+em0500_foward
+em0500_vo_death
+em0500_vo_dizzy
+em0500_vo_fire_dmg_lp
+em0500_vo_fire_dmg_lp_stop
+em0500_vo_jump
+em0500_vo_l_atk
+em0500_vo_l_dmg
+em0500_vo_s_atk
+em0500_vo_s_dmg
+em0500_wind_lp
+em0500_wind_lp_stop
+
+### RTPC/GAME-VARIABLE NAMES (em0500.bnk)
+em0500_swing_Speed
+em_duck_se
+
+### EVENT NAMES (em0600.bnk)
+em0600_air_tackle_jump
+em0600_air_tackle_land
+em0600_air_tackle_wsh
+em0600_appear_start
+em0600_appear_step
+em0600_counter_catch
+em0600_counter_final_impact
+em0600_counter_final_wsh
+em0600_counter_first_wsh
+em0600_counter_swing
+em0600_disappear_fx
+em0600_disappear_step
+em0600_dizzy_step
+em0600_down_impact
+em0600_down_step
+em0600_fall_down_impact
+em0600_fall_down_step
+em0600_jump
+em0600_jump_step_land
+em0600_jump_step_wsh
+em0600_step
+em0600_tackle
+em0600_vo_death
+em0600_vo_dizzy
+em0600_vo_fire_dmg_lp
+em0600_vo_fire_dmg_lp_stop
+em0600_vo_jump
+em0600_vo_l_atk
+em0600_vo_l_dmg
+em0600_vo_s_atk
+em0600_vo_s_dmg
+
+### RTPC/GAME-VARIABLE NAMES (em0600.bnk)
+em_duck_se
+
+### EVENT NAMES (em1000.bnk)
+em1000_400_dush_end
+em1000_400_dush_end02
+em1000_400_dush_lp
+em1000_400_dush_lp02
+em1000_400_dush_lp02_stop
+em1000_400_dush_lp_stop
+em1000_400_dush_start
+em1000_400_dush_wsh
+em1000_406_upper_end
+em1000_406_upper_start
+em1000_406_upper_wsh
+em1000_407_turn_end
+em1000_407_turn_start
+em1000_407_turn_wsh
+em1000_40b_punch_end
+em1000_40b_punch_start
+em1000_40b_punch_wsh
+em1000_40e_punch_end
+em1000_40e_punch_start
+em1000_40e_punch_wsh
+em1000_410_hook_end
+em1000_410_hook_start
+em1000_410_hook_wsh
+em1000_414_combo_end
+em1000_414_combo_start
+em1000_414_combo_wsh
+em1000_415_combo_end
+em1000_415_combo_start
+em1000_415_combo_wsh
+em1000_420_disc_end
+em1000_420_disc_shot
+em1000_420_disc_start
+em1000_424_elec_wire_catch
+em1000_424_elec_wire_comb_end
+em1000_424_elec_wire_comb_start
+em1000_424_elec_wire_comb_wsh
+em1000_424_elec_wire_elec_lp
+em1000_424_elec_wire_elec_lp_stop
+em1000_424_elec_wire_end
+em1000_424_elec_wire_shot_l
+em1000_424_elec_wire_shot_s
+em1000_424_elec_wire_start
+em1000_430_elec_ground_elec_lp
+em1000_430_elec_ground_elec_lp_stop
+em1000_430_elec_ground_end
+em1000_430_elec_ground_shot
+em1000_430_elec_ground_start
+em1000_430_elec_wire_land
+em1000_440_car_break
+em1000_440_magnet_end
+em1000_440_magnet_imp
+em1000_440_magnet_power_lp
+em1000_440_magnet_power_lp_stop
+em1000_440_magnet_release
+em1000_440_magnet_start
+em1000_440_magnet_wsh
+em1000_730_dizzy_down_start
+em1000_732_dizzy_down_recover
+em1000_733_dizzy
+em1000_735_down_land
+em1000_735_down_wsh
+em1000_b10_hook_end
+em1000_b10_hook_start
+em1000_b10_hook_wsh
+em1000_b12_upper_end
+em1000_b12_upper_start
+em1000_b12_upper_wsh
+em1000_common_rock_break_long
+em1000_common_rock_break_mid
+em1000_common_rock_break_short
+em1000_counter_air_finish_charge_fx
+em1000_counter_air_finish_fx
+em1000_counter_air_fx
+em1000_counter_earth_charge_fx
+em1000_counter_earth_finish_fx
+em1000_counter_earth_fx
+em1000_counter_finish_forly
+em1000_counter_finish_metal_hit
+em1000_counter_finish_wsh
+em1000_counter_fire_finish_charge_fx
+em1000_counter_fire_finish_fx
+em1000_counter_fire_fx
+em1000_counter_water_finish_charge_fx
+em1000_counter_water_finish_fx
+em1000_counter_water_fx
+em1000_counter_wsh
+em1000_dmg_big
+em1000_dmg_fly
+em1000_dmg_roll
+em1000_dmg_small
+em1000_dmg_wall_hit
+em1000_eb_finish_earth_rock_appear
+em1000_eb_finish_earth_rock_down
+em1000_eb_finish_earth_rock_wsh
+em1000_eb_finish_earth_upper
+em1000_elec_atk_loop
+em1000_elec_atk_loop_stop
+em1000_elec_dmg_lp
+em1000_elec_dmg_lp_stop
+em1000_engine_lp
+em1000_engine_lp_stop
+em1000_JSN_run
+em1000_JSN_run_move
+em1000_rope_hit
+em1000_rope_loop
+em1000_rope_loop_stop
+em1000_W_swing_end
+em1000_W_swing_start
+em1000_W_swing_wsh
+em1000_wb_finish_down
+em1000_wb_finish_down_wsh
+em1000_wb_finish_korra_jump
+em1000_wb_finish_korra_land
+em1000_wb_finish_korra_move01
+em1000_wb_finish_water01
+em1000_wb_finish_water02
+em1000_wb_finish_water03
+pl0000_vo_eb_finish01
+pl0000_vo_eb_finish02
+pl0000_vo_eb_finish03
+pl0000_vo_wb_finish01
+pl0000_vo_wb_finish02
+# 44150328
+# 44150331
+# 918920797
+# 1175058527
+# 1270041324
+# 1270041326
+# 1270041327
+# 1576854190
+# 2063303097
+# 3588115853
+# 4085363720
+# 4120946170
+
+### RTPC/GAME-VARIABLE NAMES (em1000.bnk)
+em1000_duck_Se
+mecha_tank_speed
+
+### EVENT NAMES (em2000.bnk)
+em0000_elec_ball_shot
+em0000_elec_ball_tele
+em0000_elec_ball_wsh
+em0000_elec_break
+em0000_elec_loop
+em0000_elec_loop_stop
+em2000_disappear
+em2000_frustrated
+em2000_spirit_shot_tele
+em2000_spirit_shot_wsh
+em2000_thunder_tele
+em2000_thunder_wsh
+em2000_vo_disappear
+em2000_vo_frustrated
+em2000_vo_laugh
+em2000_vo_s_atk
+em3000_spirit_shot
+em3000_spirit_shot_disappear
+em3000_spirit_shot_fly_lp
+em3000_spirit_shot_fly_lp_stop
+em3000_spirit_shot_tele
+em3000_thunder_end
+em3000_thunder_imp
+em3000_thunder_imp_tele
+em3000_thunder_tele
+em3000_thunder_wsh
+
+### RTPC/GAME-VARIABLE NAMES (em2000.bnk)
+em_duck_se
+em_duck_Voice
+
+### EVENT NAMES (em2010.bnk)
+em0000_elec_ball_shot
+em0000_elec_ball_tele
+em0000_elec_ball_wsh
+em0000_elec_break
+em0000_elec_loop
+em0000_elec_loop_stop
+em2010_frustrated
+em2010_thunder_tele
+em2010_vo_frustrated
+em2010_vo_laugh
+em3000_thunder_end
+em3000_thunder_imp
+em3000_thunder_imp_tele
+em3000_thunder_tele
+em3000_thunder_wsh
+
+### RTPC/GAME-VARIABLE NAMES (em2010.bnk)
+em_duck_se
+em_duck_Voice
+
+### EVENT NAMES (em3000.bnk)
+em0000_elec_break
+em3000_appear
+em3000_bend_wall_barrier
+em3000_bend_wall_crack_air
+em3000_bend_wall_crack_earth
+em3000_bend_wall_crack_fire
+em3000_bend_wall_crack_water
+em3000_bend_wall_glass_break
+em3000_combo01_wsh01
+em3000_combo01_wsh02
+em3000_combo01_wsh03
+em3000_combo01_wsh03_crack
+em3000_combo01_wsh03_end
+em3000_combo02_wsh01
+em3000_combo02_wsh02
+em3000_combo02_wsh02_land
+em3000_combo02_wsh03
+em3000_common_rock_break
+em3000_counter_comb_air
+em3000_counter_comb_fire
+em3000_counter_comb_start_air
+em3000_counter_comb_start_earth
+em3000_counter_comb_start_fire
+em3000_counter_comb_start_water
+em3000_counter_comb_water
+em3000_counter_em_down
+em3000_counter_end_wsh_air
+em3000_counter_end_wsh_earth
+em3000_counter_end_wsh_fire
+em3000_counter_end_wsh_water
+em3000_counter_final_hit
+em3000_counter_final_wsh
+em3000_counter_hit_air
+em3000_counter_hit_earth
+em3000_counter_hit_fire
+em3000_counter_hit_water
+em3000_counter_jump
+em3000_counter_pl_land
+em3000_counter_slow_wsh_air
+em3000_counter_slow_wsh_earth
+em3000_counter_slow_wsh_fire
+em3000_counter_slow_wsh_water
+em3000_disappear
+em3000_down
+em3000_down_barrier
+em3000_down_imp
+em3000_down_wsh
+em3000_fall_punch_end
+em3000_fall_punch_imp
+em3000_fall_punch_wsh
+em3000_far_punch_end
+em3000_far_punch_land
+em3000_far_punch_tele
+em3000_far_punch_wsh
+em3000_guard_start
+em3000_jump_land
+em3000_long_lange_kick_tele
+em3000_long_lange_kick_wsh
+em3000_recover
+em3000_rider_kick_jump
+em3000_rider_kick_land
+em3000_rider_kick_slide
+em3000_rider_kick_wsh
+em3000_rock_throw_break
+em3000_rock_throw_fly_lp
+em3000_rock_throw_fly_lp_stop
+em3000_rock_throw_imp
+em3000_rock_throw_tele
+em3000_rock_throw_wsh
+em3000_slide_land
+em3000_slide_wsh
+em3000_spin_lp_end
+em3000_spin_lp_end_land
+em3000_spin_lp_wsh
+em3000_spin_start
+em3000_spin_start_wsh
+em3000_spirit_hole_shot
+em3000_spirit_hole_tele
+em3000_spirit_shot
+em3000_spirit_shot_disappear
+em3000_spirit_shot_fly_lp
+em3000_spirit_shot_fly_lp_stop
+em3000_spirit_shot_tele
+em3000_step
+em3000_step_forly
+em3000_stinger01_dash
+em3000_stinger01_kick_hit
+em3000_stinger01_kick_wsh
+em3000_stinger01_kick_wsh_end
+em3000_stinger01_punch_hit
+em3000_stinger01_punch_wsh
+em3000_stinger02_dash
+em3000_stinger02_knee_hit
+em3000_stinger02_knee_wsh
+em3000_stinger02_punch_hit
+em3000_stinger02_punch_wsh
+em3000_stinger02_punch_wsh_end
+em3000_stinger_lp
+em3000_stinger_lp_stop
+em3000_stomp_crack
+em3000_stomp_wsh
+em3000_suplex_catch
+em3000_suplex_catch_end
+em3000_suplex_catch_fall
+em3000_suplex_catch_imp
+em3000_suplex_catch_imp_wsh
+em3000_suplex_catch_jump
+em3000_suplex_land01
+em3000_suplex_land02
+em3000_suplex_step
+em3000_suplex_wsh
+em3000_taunt_forly01
+em3000_thunder_end
+em3000_thunder_imp
+em3000_thunder_imp_tele
+em3000_thunder_shot
+em3000_thunder_tele
+em3000_thunder_wsh
+em3000_turn_left
+em3000_turn_right
+em3000_vo_charge
+em3000_vo_charge_2D
+em3000_vo_finish_after_word
+em3000_vo_finish_after_word_2D
+em3000_vo_finish_atk
+em3000_vo_finish_atk_2D
+em3000_vo_finish_word
+em3000_vo_finish_word_2D
+em3000_vo_jump
+em3000_vo_l_atk
+em3000_vo_l_atk_2D
+em3000_vo_l_dmg
+em3000_vo_laugh
+em3000_vo_laugh_2D
+em3000_vo_pain_dmg
+em3000_vo_s_atk
+em3000_vo_s_atk_2D
+em3000_vo_s_dmg
+
+### RTPC/GAME-VARIABLE NAMES (em3000.bnk)
+em_duck_se
+em_duck_Voice
+
+### VARIABLE NAMES (em3000.bnk)
+footstep_type
+
+### VALUE NAMES (em3000.bnk)
+Barrier
+Floor
+Grass
+Ice
+Iron
+Mud
+Sand
+Snow
+Spirit
+Stone
+Water
+Wood
+
+### EVENT NAMES (em5000.bnk)
+em5000_vo_charge
+em5000_vo_counter_guard_break
+em5000_vo_dmg_finish
+em5000_vo_fire_bend_finish
+em5000_vo_fire_dmg_lp
+em5000_vo_fire_dmg_lp_stop
+em5000_Vo_Jump
+em5000_vo_l_atk
+em5000_vo_l_dmg
+em5000_vo_m_atk
+em5000_vo_pain_dmg
+em5000_vo_recover
+em5000_vo_s_atk
+em5000_vo_s_dmg
+# 2562051142
+
+### RTPC/GAME-VARIABLE NAMES (em5000.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em5000.bnk)
+damage_type
+
+### VALUE NAMES (em5000.bnk)
+die
+Normal
+
+### EVENT NAMES (em5010.bnk)
+em5010_vo_charge
+em5010_vo_counter_guard_break
+em5010_vo_dmg_finish
+em5010_vo_earth_bend_finish
+em5010_vo_fire_dmg_lp
+em5010_vo_fire_dmg_lp_stop
+em5010_Vo_Jump
+em5010_vo_l_atk
+em5010_vo_l_dmg
+em5010_vo_m_atk
+em5010_vo_pain_dmg
+em5010_vo_recover
+em5010_vo_s_atk
+em5010_vo_s_dmg
+# 507648899
+
+### RTPC/GAME-VARIABLE NAMES (em5010.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em5010.bnk)
+damage_type
+
+### VALUE NAMES (em5010.bnk)
+die
+Normal
+
+### EVENT NAMES (em5020.bnk)
+em5020_vo_charge
+em5020_vo_counter_guard_break
+em5020_vo_dmg_finish
+em5020_vo_fire_dmg_lp
+em5020_vo_fire_dmg_lp_stop
+em5020_Vo_Jump
+em5020_vo_l_atk
+em5020_vo_l_dmg
+em5020_vo_m_atk
+em5020_vo_pain_dmg
+em5020_vo_recover
+em5020_vo_s_atk
+em5020_vo_s_dmg
+em5020_vo_water_bend_finish
+# 3708400392
+
+### RTPC/GAME-VARIABLE NAMES (em5020.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em5020.bnk)
+damage_type
+
+### VALUE NAMES (em5020.bnk)
+die
+Normal
+
+### EVENT NAMES (em5030.bnk)
+em5030_vo_charge
+em5030_vo_counter_guard_break
+em5030_vo_dmg_finish
+em5030_vo_fire_bend_finish
+em5030_Vo_Jump
+em5030_vo_l_atk
+em5030_vo_l_dmg
+em5030_vo_m_atk
+em5030_vo_pain_dmg
+em5030_vo_recover
+em5030_vo_s_atk
+em5030_vo_s_dmg
+# 4073017509
+
+### RTPC/GAME-VARIABLE NAMES (em5030.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em5030.bnk)
+damage_type
+
+### VALUE NAMES (em5030.bnk)
+die
+Normal
+
+### EVENT NAMES (em5040.bnk)
+em5040_vo_charge
+em5040_vo_counter_guard_break
+em5040_vo_dmg_finish
+em5040_vo_earth_bend_finish
+em5040_Vo_Jump
+em5040_vo_l_atk
+em5040_vo_l_dmg
+em5040_vo_m_atk
+em5040_vo_pain_dmg
+em5040_vo_recover
+em5040_vo_s_atk
+em5040_vo_s_dmg
+# 2928913498
+
+### RTPC/GAME-VARIABLE NAMES (em5040.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em5040.bnk)
+damage_type
+
+### VALUE NAMES (em5040.bnk)
+die
+Normal
+
+### EVENT NAMES (em5050.bnk)
+em5050_vo_charge
+em5050_vo_counter_guard_break
+em5050_vo_dmg_finish
+em5050_Vo_Jump
+em5050_vo_l_atk
+em5050_vo_l_dmg
+em5050_vo_m_atk
+em5050_vo_pain_dmg
+em5050_vo_recover
+em5050_vo_s_atk
+em5050_vo_s_dmg
+em5050_vo_water_bend_finish
+# 761775719
+
+### RTPC/GAME-VARIABLE NAMES (em5050.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em5050.bnk)
+damage_type
+
+### VALUE NAMES (em5050.bnk)
+die
+Normal
+
+### EVENT NAMES (em5060.bnk)
+em5060_vo_charge
+em5060_vo_counter_guard_break
+em5060_vo_dmg_finish
+em5060_vo_fire_bend_finish
+em5060_vo_fire_dmg_lp
+em5060_vo_fire_dmg_lp_stop
+em5060_Vo_Jump
+em5060_vo_l_atk
+em5060_vo_l_dmg
+em5060_vo_m_atk
+em5060_vo_pain_dmg
+em5060_vo_recover
+em5060_vo_s_atk
+em5060_vo_s_dmg
+# 1921903084
+
+### RTPC/GAME-VARIABLE NAMES (em5060.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em5060.bnk)
+damage_type
+
+### VALUE NAMES (em5060.bnk)
+die
+Normal
+
+### EVENT NAMES (em5070.bnk)
+em5070_vo_charge
+em5070_vo_counter_guard_break
+em5070_vo_dmg_finish
+em5070_vo_earth_bend_finish
+em5070_vo_fire_dmg_lp
+em5070_vo_fire_dmg_lp_stop
+em5070_Vo_Jump
+em5070_vo_l_atk
+em5070_vo_l_dmg
+em5070_vo_m_atk
+em5070_vo_pain_dmg
+em5070_vo_recover
+em5070_vo_s_atk
+em5070_vo_s_dmg
+# 159946521
+
+### RTPC/GAME-VARIABLE NAMES (em5070.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em5070.bnk)
+damage_type
+
+### VALUE NAMES (em5070.bnk)
+die
+Normal
+
+### EVENT NAMES (em5080.bnk)
+em5080_vo_charge
+em5080_vo_counter_guard_break
+em5080_vo_dmg_finish
+em5080_vo_fire_dmg_lp
+em5080_vo_fire_dmg_lp_stop
+em5080_Vo_Jump
+em5080_vo_l_atk
+em5080_vo_l_dmg
+em5080_vo_m_atk
+em5080_vo_pain_dmg
+em5080_vo_recover
+em5080_vo_s_atk
+em5080_vo_s_dmg
+em5080_vo_water_bend_finish
+# 724151694
+
+### RTPC/GAME-VARIABLE NAMES (em5080.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em5080.bnk)
+damage_type
+
+### VALUE NAMES (em5080.bnk)
+die
+Normal
+
+### EVENT NAMES (em5090.bnk)
+em5090_vo_charge
+em5090_vo_counter_guard_break
+em5090_vo_dmg_finish
+em5090_Vo_Jump
+em5090_vo_l_atk
+em5090_vo_l_dmg
+em5090_vo_m_atk
+em5090_vo_pain_dmg
+em5090_vo_recover
+em5090_vo_s_atk
+em5090_vo_s_dmg
+em5090_vo_water_bend_finish
+# 1605191819
+
+### RTPC/GAME-VARIABLE NAMES (em5090.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em5090.bnk)
+damage_type
+
+### VALUE NAMES (em5090.bnk)
+die
+Normal
+
+### EVENT NAMES (em50a0.bnk)
+em50a0_vo_charge
+em50a0_vo_counter_guard_break
+em50a0_vo_dmg_finish
+em50a0_vo_earth_bend_finish
+em50a0_vo_fire_dmg_lp
+em50a0_vo_fire_dmg_lp_stop
+em50a0_Vo_Jump
+em50a0_vo_l_atk
+em50a0_vo_l_dmg
+em50a0_vo_m_atk
+em50a0_vo_pain_dmg
+em50a0_vo_s_atk
+em50a0_vo_s_dmg
+# 1077800691
+# 3587338468
+
+### RTPC/GAME-VARIABLE NAMES (em50a0.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em50a0.bnk)
+damage_type
+
+### VALUE NAMES (em50a0.bnk)
+die
+Normal
+
+### EVENT NAMES (em50b0.bnk)
+em50b0_vo_charge
+em50b0_vo_counter_guard_break
+em50b0_vo_dmg_finish
+em50b0_vo_fire_dmg_lp
+em50b0_vo_fire_dmg_lp_stop
+em50b0_Vo_Jump
+em50b0_vo_l_atk
+em50b0_vo_l_dmg
+em50b0_vo_m_atk
+em50b0_vo_pain_dmg
+em50b0_vo_recover
+em50b0_vo_s_atk
+em50b0_vo_s_dmg
+em50b0_vo_water_bend_finish
+# 1420908024
+
+### RTPC/GAME-VARIABLE NAMES (em50b0.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em50b0.bnk)
+damage_type
+
+### VALUE NAMES (em50b0.bnk)
+die
+Normal
+
+### EVENT NAMES (em50c0.bnk)
+em50c0_vo_charge
+em50c0_vo_counter_guard_break
+em50c0_vo_dmg_finish
+em50c0_vo_fire_bend_finish
+em50c0_vo_fire_dmg_lp
+em50c0_vo_fire_dmg_lp_stop
+em50c0_Vo_Jump
+em50c0_vo_l_atk
+em50c0_vo_l_dmg
+em50c0_vo_m_atk
+em50c0_vo_pain_dmg
+em50c0_vo_recover
+em50c0_vo_s_atk
+em50c0_vo_s_dmg
+# 1067898389
+
+### RTPC/GAME-VARIABLE NAMES (em50c0.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em50c0.bnk)
+damage_type
+
+### VALUE NAMES (em50c0.bnk)
+die
+Normal
+
+### EVENT NAMES (em50d0.bnk)
+em50d0_vo_charge
+em50d0_vo_counter_guard_break
+em50d0_vo_dmg_finish
+em50d0_vo_earth_bend_finish
+em50d0_vo_fire_dmg_lp
+em50d0_vo_fire_dmg_lp_stop
+em50d0_Vo_Jump
+em50d0_vo_l_atk
+em50d0_vo_l_dmg
+em50d0_vo_m_atk
+em50d0_vo_pain_dmg
+em50d0_vo_s_atk
+em50d0_vo_s_dmg
+# 2309872330
+# 3402652111
+
+### RTPC/GAME-VARIABLE NAMES (em50d0.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em50d0.bnk)
+damage_type
+
+### VALUE NAMES (em50d0.bnk)
+die
+Normal
+
+### EVENT NAMES (em50e0.bnk)
+em50e0_vo_charge
+em50e0_vo_counter_atk
+em50e0_vo_counter_dmg
+em50e0_vo_counter_guard_break
+em50e0_vo_counter_in
+em50e0_vo_dmg_finish
+em50e0_Vo_Jump
+em50e0_vo_l_atk
+em50e0_vo_l_dmg
+em50e0_vo_m_atk
+em50e0_vo_pain_dmg
+em50e0_vo_recover
+em50e0_vo_s_atk
+em50e0_vo_s_dmg
+em50e0_vo_water_bend_finish
+# 2266847775
+
+### RTPC/GAME-VARIABLE NAMES (em50e0.bnk)
+em_duck_Voice
+
+### VARIABLE NAMES (em50e0.bnk)
+damage_type
+
+### VALUE NAMES (em50e0.bnk)
+die
+Normal
+
+### EVENT NAMES (et0030.bnk)
+et0030_break
+et0030_idling_lp
+et0030_idling_lp_stop
+et0030_run_lp
+et0030_run_lp_stop
+et0030_run_tele
+et0030_slide_down
+et0030_turn_stop
+st2_bike_appear
+st4_bike_appear_01
+st4_bike_appear_02
+
+### EVENT NAMES (pc10.bnk)
+bgm_NagaRush_DayCity_Play
+bgm_NagaRush_DayCity_RePlay
+# 179633359
+
+### VARIABLE NAMES (pc10.bnk)
+bgm_NagaRush
+bgm_NagaRush_Speed
+
+### VALUE NAMES (pc10.bnk)
+main
+Speed_01
+Speed_02
+Speed_03
+Speed_04
+Speed_05
+# 1355624819
+# 1372402380
+
+### EVENT NAMES (pl0000.bnk)
+pl0000_air_charge
+pl0000_air_comb_forly01
+pl0000_air_comb_forly02
+pl0000_air_comb_forly03
+pl0000_air_comb_forly04
+pl0000_air_comb_forly05
+pl0000_air_comb_forly06
+pl0000_air_comb_wsh01
+pl0000_air_comb_wsh02
+pl0000_air_comb_wsh03
+pl0000_air_comb_wsh04
+pl0000_air_comb_wsh05
+pl0000_air_comb_wsh06
+pl0000_air_combo_fx01
+pl0000_air_combo_fx01_lv2
+pl0000_air_combo_fx01_lv3
+pl0000_air_combo_fx02
+pl0000_air_combo_fx02_lv2
+pl0000_air_combo_fx02_lv3
+pl0000_air_combo_fx03
+pl0000_air_combo_fx03_lv2
+pl0000_air_combo_fx04
+pl0000_air_combo_fx04_lv2
+pl0000_air_combo_fx05
+pl0000_air_combo_fx05_lv2
+pl0000_air_combo_fx06
+pl0000_air_combo_fx06_lv2
+pl0000_air_combo_fx07
+pl0000_air_combo_fx07_lv2
+pl0000_air_finish_fx01
+pl0000_air_finish_fx02
+pl0000_air_finish_wsh01
+pl0000_air_finish_wsh02
+pl0000_air_jump_atk_forly
+pl0000_air_jump_atk_fx
+pl0000_air_jump_atk_fx_lv2
+pl0000_air_jump_atk_wsh
+pl0000_air_scooter_end
+pl0000_air_scooter_jump
+pl0000_air_scooter_land
+pl0000_air_scooter_lp
+pl0000_air_scooter_start
+pl0000_air_spatk01_forly01
+pl0000_air_spatk01_forly02
+pl0000_air_spatk01_fx01
+pl0000_air_spatk01_fx01_lv2
+pl0000_air_spatk01_fx02
+pl0000_air_spatk01_fx02_lv2
+pl0000_air_spatk01_fx03
+pl0000_air_spatk01_fx03_lv2
+pl0000_air_spatk01_wsh01
+pl0000_air_spatk01_wsh02
+pl0000_air_spatk02_forly
+pl0000_air_spatk02_fx
+pl0000_air_spatk02_fx_lv2
+pl0000_air_spatk02_wsh
+pl0000_air_tornado_lv0
+pl0000_air_tornado_lv2
+pl0000_air_wait_end
+pl0000_air_wait_lp
+pl0000_air_wait_start
+pl0000_avatar_charge
+pl0000_avatar_charge_atk
+pl0000_avatar_charge_stop
+pl0000_avatar_combo_air
+pl0000_avatar_combo_earth
+pl0000_avatar_combo_fire
+pl0000_avatar_combo_water
+pl0000_avatar_dush
+pl0000_avatar_end
+pl0000_avatar_jump
+pl0000_avatar_sonic
+pl0000_avatar_start
+pl0000_avatar_wait_loop
+pl0000_avatar_wait_loop_stop
+pl0000_avoidance
+pl0000_bend_change_air
+pl0000_bend_change_air_lock
+pl0000_bend_change_earth
+pl0000_bend_change_earth_lock
+pl0000_bend_change_fire
+pl0000_bend_change_fire_lock
+pl0000_bend_change_water
+pl0000_bend_change_water_lock
+pl0000_bender_change
+pl0000_bender_charge_stop
+pl0000_charge_count_01
+pl0000_charge_count_01_double
+pl0000_charge_count_02
+pl0000_charge_count_02_double
+pl0000_charge_count_03
+pl0000_charge_count_03_double
+pl0000_charge_count_stop
+pl0000_charge_max
+pl0000_counter
+pl0000_counter_end
+pl0000_counter_slow_wsh
+pl0000_dmg_recover
+pl0000_down_death
+pl0000_earth_avoid_shot_lv01
+pl0000_earth_avoid_shot_lv02
+pl0000_earth_avoid_shot_lv03
+pl0000_earth_charge
+pl0000_earth_comb_forly01
+pl0000_earth_comb_forly02
+pl0000_earth_comb_forly03
+pl0000_earth_comb_fx01
+pl0000_earth_comb_fx02
+pl0000_earth_comb_fx03
+pl0000_earth_comb_fx_LV2_01
+pl0000_earth_comb_fx_LV2_02
+pl0000_earth_comb_fx_LV2_03
+pl0000_earth_comb_fx_LV3_01
+pl0000_earth_comb_fx_LV3_02
+pl0000_earth_comb_fx_LV3_03
+pl0000_earth_comb_wsh01
+pl0000_earth_comb_wsh02
+pl0000_earth_comb_wsh03
+pl0000_earth_combo_break_LV0
+pl0000_earth_combo_break_LV2
+pl0000_earth_combo_tele_fx01_LV0
+pl0000_earth_combo_tele_fx01_LV3
+pl0000_earth_combo_tele_fx02_LV0
+pl0000_earth_combo_tele_fx02_LV3
+pl0000_earth_combo_tele_fx03_LV0
+pl0000_earth_combo_tele_fx03_LV3
+pl0000_earth_finish_fx01
+pl0000_earth_finish_fx02
+pl0000_earth_finish_fx03
+pl0000_earth_finish_wsh01
+pl0000_earth_finish_wsh02
+pl0000_earth_jump_atk01_forly01
+pl0000_earth_jump_atk01_forly02
+pl0000_earth_jump_atk01_fx
+pl0000_earth_jump_atk01_impact
+pl0000_earth_jump_atk01_wsh
+pl0000_earth_jump_atk02_forly01
+pl0000_earth_jump_atk02_forly02
+pl0000_earth_jump_atk02_fx
+pl0000_earth_jump_atk02_impact
+pl0000_earth_jump_atk02_wsh
+pl0000_earth_quake
+pl0000_earth_quake_lv3
+pl0000_earth_spatk01_break_LV0
+pl0000_earth_spatk01_break_LV2
+pl0000_earth_spatk01_forly01
+pl0000_earth_spatk01_forly02
+pl0000_earth_spatk01_fx01
+pl0000_earth_spatk01_fx01_LV2
+pl0000_earth_spatk01_fx02
+pl0000_earth_spatk01_fx02_LV2
+pl0000_earth_spatk01_impact
+pl0000_earth_spatk01_wsh01
+pl0000_earth_spatk01_wsh02
+pl0000_earth_spatk01_wsh03
+pl0000_earth_spatk02_break_LV0
+pl0000_earth_spatk02_break_LV2
+pl0000_earth_spatk02_forly01
+pl0000_earth_spatk02_forly02
+pl0000_earth_spatk02_fx
+pl0000_earth_spatk02_fx_LV2
+pl0000_earth_spatk02_impact
+pl0000_earth_spatk02_jump
+pl0000_earth_spatk02_wsh01
+pl0000_earth_spatk02_wsh02
+pl0000_fire_charge
+pl0000_fire_comb_forly01
+pl0000_fire_comb_forly02
+pl0000_fire_comb_forly03
+pl0000_fire_comb_forly04
+pl0000_fire_comb_forly05
+pl0000_fire_comb_forly06
+pl0000_fire_comb_forly08
+pl0000_fire_comb_fx01
+pl0000_fire_comb_fx01_lv1
+pl0000_fire_comb_fx01_lv3
+pl0000_fire_comb_fx02
+pl0000_fire_comb_fx02_lv1
+pl0000_fire_comb_fx02_lv3
+pl0000_fire_comb_fx03
+pl0000_fire_comb_fx03_lv1
+pl0000_fire_comb_fx03_lv3
+pl0000_fire_comb_fx04
+pl0000_fire_comb_fx04_lv1
+pl0000_fire_comb_fx04_lv3
+pl0000_fire_comb_fx05
+pl0000_fire_comb_fx05_lv1
+pl0000_fire_comb_fx05_lv3
+pl0000_fire_comb_fx06
+pl0000_fire_comb_fx06_lv1
+pl0000_fire_comb_fx06_lv3
+pl0000_fire_comb_fx07
+pl0000_fire_comb_fx07_lv3
+pl0000_fire_comb_fx08
+pl0000_fire_comb_fx08_lv2
+pl0000_fire_comb_fx08_lv3
+pl0000_fire_comb_wsh01
+pl0000_fire_comb_wsh02
+pl0000_fire_comb_wsh03
+pl0000_fire_comb_wsh04
+pl0000_fire_comb_wsh05
+pl0000_fire_comb_wsh06
+pl0000_fire_comb_wsh07
+pl0000_fire_comb_wsh08
+pl0000_fire_dush_end
+pl0000_fire_dush_loop
+pl0000_fire_dush_start
+pl0000_fire_finish_fx
+pl0000_fire_finish_wsh
+pl0000_fire_fly_loop
+pl0000_fire_fly_loop_stop
+pl0000_fire_shot
+pl0000_fire_spatk01_forly
+pl0000_fire_spatk01_fx
+pl0000_fire_spatk01_fx_lv2
+pl0000_fire_spatk01_fx_lv3
+pl0000_fire_spatk01_wsh
+pl0000_fire_wait_end
+pl0000_fire_wait_lp
+pl0000_fire_wait_start
+pl0000_idle01
+pl0000_idle02
+pl0000_idle_stop
+pl0000_jump
+pl0000_jump_catch
+pl0000_jump_catch_land
+pl0000_jump_catch_wsh
+pl0000_jump_land_imp
+pl0000_just_charge
+pl0000_katara_water
+pl0000_oasis_water
+pl0000_rope_dmg_lp
+pl0000_rope_dmg_lp_stop
+pl0000_rope_dmg_recover
+pl0000_spirit_hall_dmg
+pl0000_step
+pl0000_step_forly
+pl0000_vo_air_bend_finish
+pl0000_vo_air_finish_move
+pl0000_vo_avatar_start
+pl0000_vo_charge
+pl0000_vo_counter_finish01
+pl0000_vo_counter_guard_break
+pl0000_vo_counter_success
+pl0000_vo_dmg_death
+pl0000_vo_dmg_finish
+pl0000_vo_dmg_finish_2D
+pl0000_vo_dmg_pain
+pl0000_vo_earth_bend_finish
+pl0000_vo_earth_finish_move
+pl0000_vo_finish
+pl0000_vo_fire_bend_finish
+pl0000_vo_fire_dmg_lp
+pl0000_vo_fire_dmg_lp_stop
+pl0000_vo_go_in_peace_duck
+pl0000_vo_go_in_peace_duck_reset
+pl0000_vo_go_in_pease
+pl0000_vo_idle01
+pl0000_vo_idle02
+pl0000_vo_jump
+pl0000_vo_katara_water
+pl0000_vo_l_atk
+pl0000_vo_l_atk_2D
+pl0000_vo_l_atk_2D_hundun_QTE
+pl0000_vo_l_dmg
+pl0000_vo_l_dmg_2D
+pl0000_vo_m_atk
+pl0000_vo_paralyz_dmg
+pl0000_vo_recover
+pl0000_vo_s_atk
+pl0000_vo_s_atk_2D
+pl0000_vo_s_dmg
+pl0000_vo_s_dmg_2D
+pl0000_vo_taunt01
+pl0000_vo_taunt02
+pl0000_vo_water_bend_finish
+pl0000_water_avoid_shot_lv01
+pl0000_water_avoid_shot_lv02
+pl0000_water_avoid_shot_lv03
+pl0000_water_charge
+pl0000_water_comb_forly01
+pl0000_water_comb_forly02
+pl0000_water_comb_forly03
+pl0000_water_comb_forly04
+pl0000_water_comb_fx01
+pl0000_water_comb_fx01_lv2
+pl0000_water_comb_fx01_lv3
+pl0000_water_comb_fx02
+pl0000_water_comb_fx02_lv2
+pl0000_water_comb_fx02_lv3
+pl0000_water_comb_fx03
+pl0000_water_comb_fx03_lv2
+pl0000_water_comb_fx03_lv3
+pl0000_water_comb_fx04
+pl0000_water_comb_fx04_lv2
+pl0000_water_comb_fx04_lv3
+pl0000_water_comb_fx05
+pl0000_water_comb_fx05_lv2
+pl0000_water_comb_fx05_lv3
+pl0000_water_comb_fx06
+pl0000_water_comb_fx07
+pl0000_water_comb_fx07_lv2
+pl0000_water_comb_wsh01
+pl0000_water_comb_wsh02
+pl0000_water_comb_wsh03
+pl0000_water_comb_wsh04
+pl0000_water_combo_tele_fx01_LV0
+pl0000_water_combo_tele_fx01_LV3
+pl0000_water_combo_tele_fx02_LV0
+pl0000_water_combo_tele_fx02_LV3
+pl0000_water_combo_tele_fx03_LV0
+pl0000_water_combo_tele_fx03_LV3
+pl0000_water_combo_tele_fx04_LV0
+pl0000_water_combo_tele_fx04_LV3
+pl0000_water_finish_fx01
+pl0000_water_finish_fx02
+pl0000_water_finish_fx03
+pl0000_water_finish_fx04
+pl0000_water_finish_wsh
+pl0000_water_fly_loop
+pl0000_water_fly_loop_stop
+pl0000_water_ice_break
+pl0000_water_PBL_spatk_jump
+pl0000_water_spatk01_forly01
+pl0000_water_spatk01_fx
+pl0000_water_spatk01_fx02
+pl0000_water_spatk01_hit
+pl0000_water_spatk01_hit_lv2
+pl0000_water_spatk01_whip
+pl0000_water_spatk01_wsh01
+pl0000_water_spatk02_ice01
+pl0000_water_spatk02_ice01_lv1
+pl0000_water_spatk02_ice01_lv3
+pl0000_water_spatk02_ice02
+pl0000_water_spatk02_ice02_lv1
+pl0000_water_spatk02_ice02_lv2
+pl0000_water_spatk02_ice02_lv3
+pl0000_water_spatk03_whip_hit
+pl0000_water_spatk03_whip_return
+pl0000_water_spatk03_whip_throw
+pl0000_water_wait_end
+pl0000_water_wait_lp
+pl0000_water_wait_start
+# 1294071417
+
+### RTPC/GAME-VARIABLE NAMES (pl0000.bnk)
+pl_duck_se
+
+### VARIABLE NAMES (pl0000.bnk)
+damage_type
+footstep_type
+
+### VALUE NAMES (pl0000.bnk)
+Barrier
+die
+Floor
+Grass
+Ice
+Iron
+Mud
+Normal
+Sand
+Snow
+Spirit
+Stone
+Water
+Wood
+
+### EVENT NAMES (pl00f3.bnk)
+pl0050_avoidance
+pl0050_avoidance_final
+pl0050_avoidance_land
+pl0050_combo01
+pl0050_combo02
+pl0050_combo03
+pl0050_death
+pl0050_down
+pl0050_guard
+pl0050_hammer_end
+pl0050_hammer_imp
+pl0050_hammer_wsh
+pl0050_jump
+pl0050_jump_land
+pl0050_recover
+pl0050_small_dmg
+pl0050_step
+pl0050_stomp_imp
+pl0050_stomp_tele
+pl0050_stomp_wsh
+pl0050_upper
+pl0050_vo_death
+pl0050_vo_l_atk
+pl0050_vo_l_dmg
+pl0050_vo_s_atk
+pl0050_vo_s_dmg
+pl0050_vo_wakeup
+pl0050_wakeup
+
+### EVENT NAMES (pl1000.bnk)
+korra_vo_naga_rush_tuto_01
+korra_vo_naga_rush_tuto_02
+korra_vo_naga_rush_tuto_03
+korra_vo_naga_rush_tuto_04
+korra_vo_naga_rush_tuto_05
+korra_vo_naga_rush_tuto_06
+korra_vo_naga_rush_tuto_07
+korra_vo_naga_rush_tuto_08
+pl0000_jump_land
+pl0000_jump_land_iron
+pl0000_jump_land_wood
+pl0000_jump_vo
+pl0000_naga_air_dush
+pl0000_naga_air_dush_rise
+pl0000_naga_buzzer
+pl0000_naga_charge_max
+pl0000_naga_down
+pl0000_naga_earth_jump
+pl0000_naga_earth_jump_vo
+pl0000_naga_fire_shot
+pl0000_naga_fire_wsh
+pl0000_naga_water_barrier_break
+pl0000_naga_water_barrier_lp
+pl0000_naga_water_barrier_lp_stop
+pl0000_naga_water_barrier_start
+pl0000_vo_naga_finish_word
+pl0000_vo_naga_fire_shot
+pl0000_vo_naga_water_barrier
+pl1000_check_pass_end_wsh
+pl1000_check_pass_wsh
+pl1000_dmg_big_down
+pl1000_dmg_big_imp
+pl1000_dmg_big_imp_iron
+pl1000_dmg_small
+pl1000_dmg_small_air
+pl1000_fall_wsh
+pl1000_finish_jump
+pl1000_finish_slide
+pl1000_jump_step
+pl1000_jump_wsh
+pl1000_m_comp_end_wsh
+pl1000_m_comp_wsh
+pl1000_m_start_end_wsh
+pl1000_m_start_wsh
+pl1000_naga_air_dush_end
+pl1000_naga_air_dush_jump_loop
+pl1000_naga_air_dush_loop
+pl1000_naga_lane_move
+pl1000_naga_punch
+pl1000_naga_start
+pl1000_naga_turn_wsh
+pl1000_naga_wall_fire_hit
+pl1000_sliding
+pl1000_step
+pl1000_vo_check_pass
+pl1000_vo_dmg_big_down
+pl1000_vo_dmg_big_imp
+pl1000_vo_dmg_small
+pl1000_vo_fall
+pl1000_vo_finish_breath_lp
+pl1000_vo_finish_breath_lp_stop
+pl1000_vo_finish_jump
+pl1000_vo_finish_slide
+pl1000_vo_jump
+pl1000_vo_naga_dmg_big_down
+pl1000_vo_naga_dmg_big_imp
+pl1000_vo_naga_fall
+pl1000_vo_naga_finish
+pl1000_vo_naga_jump
+pl1000_vo_start_howl
+pl1000_vo_step
+pl1000_vo_tuto_move
+# 1525782401
+
+### RTPC/GAME-VARIABLE NAMES (pl1000.bnk)
+pl_duck_se
+
+### VARIABLE NAMES (pl1000.bnk)
+footstep_type
+
+### VALUE NAMES (pl1000.bnk)
+Barrier
+Floor
+Grass
+Ice
+Iron
+Mud
+Sand
+Snow
+Spirit
+Stone
+Water
+Wood
+
+### EVENT NAMES (pl5000.bnk)
+pl5000_vo_charge
+pl5000_vo_counter_guard_break
+pl5000_vo_dmg_finish
+pl5000_vo_Fall_dmg
+pl5000_vo_fire_bend_finish
+pl5000_vo_fire_dmg_lp
+pl5000_vo_fire_dmg_lp_stop
+pl5000_Vo_Jump
+pl5000_vo_l_atk
+pl5000_vo_l_dmg
+pl5000_vo_m_atk
+pl5000_vo_pain_dmg
+pl5000_vo_recover
+pl5000_vo_s_atk
+pl5000_vo_s_dmg
+# 915490352
+
+### VARIABLE NAMES (pl5000.bnk)
+damage_type
+
+### VALUE NAMES (pl5000.bnk)
+die
+Normal
+
+### EVENT NAMES (pl5010.bnk)
+pl5010_vo_charge
+pl5010_vo_counter_guard_break
+pl5010_vo_dmg_finish
+pl5010_vo_earth_bend_finish
+pl5010_vo_Fall_dmg
+pl5010_vo_fire_dmg_lp
+pl5010_vo_fire_dmg_lp_stop
+pl5010_Vo_Jump
+pl5010_vo_l_atk
+pl5010_vo_l_dmg
+pl5010_vo_m_atk
+pl5010_vo_pain_dmg
+pl5010_vo_recover
+pl5010_vo_s_atk
+pl5010_vo_s_dmg
+# 1246405165
+
+### VARIABLE NAMES (pl5010.bnk)
+damage_type
+
+### VALUE NAMES (pl5010.bnk)
+die
+Normal
+
+### EVENT NAMES (plffff.bnk)
+core_ui_rock_break_long
+em1000_430_elec_core_fire_wall_hit
+pl0000_vo_s_atk_air_shot
+pl5000_vo_s_dmg_nagagamestart
+# 1118335
+# 1612125
+# 2945888
+# 2963845
+# 3297788
+# 4873527
+# 5139204
+# 5449056
+# 6275012
+# 7046357
+# 7091202
+# 7265900
+# 7604651
+# 8477846
+# 8617650
+# 8654874
+# 12268480
+# 13473404
+# 14235865
+# 15565974
+# 18349614
+# 18406649
+# 18725015
+# 20245745
+# 20547860
+# 20627776
+# 20705007
+# 20731315
+# 21651931
+# 21961847
+# 22730421
+# 23209104
+# 24165463
+# 26078910
+# 26217206
+# 26515386
+# 27035346
+# 27672133
+# 29664137
+# 29973909
+# 30550508
+# 33260289
+# 35549770
+# 36254749
+# 36956213
+# 37281633
+# 37764280
+# 38412148
+# 39392258
+# 43019327
+# 44015441
+# 44082726
+# 44808290
+# 45575720
+# 45995198
+# 46254795
+# 46999162
+# 49105593
+# 49455889
+# 51683021
+# 51709441
+# 53327931
+# 53367639
+# 54483183
+# 55182867
+# 55895549
+# 56857498
+# 57737167
+# 59205448
+# 59728415
+# 61101611
+# 61158010
+# 62246543
+# 62848398
+# 63092242
+# 63488704
+# 63755501
+# 64499217
+# 66934744
+# 67891212
+# 68448369
+# 69124691
+# 69373152
+# 69503853
+# 70193974
+# 70520099
+# 71846574
+# 71896400
+# 73152204
+# 75230544
+# 76458358
+# 76665072
+# 77235292
+# 77764912
+# 78658065
+# 79268014
+# 80248252
+# 81526290
+# 82766869
+# 82916008
+# 83813089
+# 83875161
+# 84029458
+# 86375548
+# 86686470
+# 88590533
+# 88714214
+# 88922112
+# 89892822
+# 90271248
+# 90930228
+# 91229173
+# 92185257
+# 92538983
+# 97632765
+# 99036058
+# 99049692
+# 99325679
+# 99637602
+# 100391218
+# 100584377
+# 100895372
+# 101145194
+# 101203067
+# 101608837
+# 102911609
+# 103102505
+# 103407425
+# 103948108
+# 104611335
+# 104617825
+# 105293023
+# 105401709
+# 105856934
+# 105894045
+# 106171810
+# 107302573
+# 107320303
+# 107392492
+# 108500288
+# 108571382
+# 108909560
+# 109304235
+# 109774568
+# 110626929
+# 110646042
+# 111053692
+# 111067590
+# 112702408
+# 114004640
+# 115346404
+# 116032282
+# 116269254
+# 116306172
+# 116519503
+# 117475436
+# 119087217
+# 120024499
+# 120114794
+# 121170313
+# 121255031
+# 122236913
+# 122382156
+# 123006935
+# 123221140
+# 123475067
+# 124349582
+# 124445293
+# 125905970
+# 125939878
+# 125953056
+# 126030599
+# 126838323
+# 127937372
+# 129732547
+# 129832180
+# 130592203
+# 130797306
+# 131376577
+# 131718273
+# 131786094
+# 133041091
+# 133773412
+# 134037600
+# 136091746
+# 136151140
+# 138278723
+# 138542295
+# 140740570
+# 140892461
+# 141265291
+# 143042346
+# 143179874
+# 143189197
+# 143531526
+# 143958339
+# 144253551
+# 145473691
+# 145721378
+# 145973484
+# 146148985
+# 146543067
+# 147953554
+# 148071530
+# 148297361
+# 148848946
+# 149435514
+# 150856071
+# 151156330
+# 151444219
+# 151482795
+# 152168095
+# 153840926
+# 156163721
+# 156459503
+# 159365251
+# 159691216
+# 159995117
+# 160905032
+# 161376309
+# 161501663
+# 162026275
+# 162213090
+# 163092779
+# 163238118
+# 163489601
+# 163502294
+# 163562934
+# 164140566
+# 164397700
+# 164878683
+# 165528412
+# 166428781
+# 168196588
+# 168479019
+# 168793364
+# 168916460
+# 169039170
+# 169635332
+# 169687404
+# 170094496
+# 170369939
+# 171448165
+# 172781042
+# 174245360
+# 175314948
+# 175798165
+# 176649232
+# 176874139
+# 177712384
+# 178965821
+# 179277628
+# 179691722
+# 180010565
+# 180848819
+# 181423444
+# 183528819
+# 183557243
+# 184045159
+# 184647120
+# 184662327
+# 184699059
+# 184759351
+# 185090343
+# 185929591
+# 185953375
+# 186666639
+# 187860655
+# 188427264
+# 188528544
+# 188809420
+# 188838537
+# 188923009
+# 189345461
+# 190721860
+# 191736353
+# 192848556
+# 193494693
+# 193988878
+# 194200306
+# 197632289
+# 198231299
+# 199056060
+# 201688125
+# 201945150
+# 202357625
+# 203932270
+# 204307671
+# 205253694
+# 206210432
+# 206287663
+# 207199916
+# 207284615
+# 207931728
+# 208074406
+# 208272431
+# 208665391
+# 208990651
+# 209524238
+# 210491326
+# 210857421
+# 211543880
+# 212394084
+# 214056488
+# 214267820
+# 216133164
+# 216170942
+# 216680451
+# 216859253
+# 217325734
+# 218409884
+# 220181846
+# 221458485
+# 223225865
+# 223346936
+# 224972733
+# 225788641
+# 226268145
+# 226662765
+# 227520705
+# 227522601
+# 227776547
+# 228194192
+# 228759266
+# 229587908
+# 229591848
+# 229598097
+# 229665382
+# 231397375
+# 232461598
+# 232592219
+# 234245654
+# 236911951
+# 241914016
+# 242149583
+# 242157489
+# 242616160
+# 242800984
+# 244137130
+# 244788104
+# 244917084
+# 245244749
+# 245324013
+# 246748815
+# 246891893
+# 246959257
+# 247201846
+# 247588347
+# 247829199
+# 248037060
+# 249245151
+# 249795431
+# 250583628
+# 251269026
+# 251919834
+# 254311841
+# 254446815
+# 254452127
+# 254707347
+# 254955808
+# 255491753
+# 255776630
+# 256102755
+# 257026776
+# 257050401
+# 257429230
+# 258907673
+# 260297186
+# 264081827
+# 264348252
+# 264775988
+# 264879793
+# 266644507
+# 268378435
+# 270443902
+# 270757421
+# 271813461
+# 272182223
+# 272253209
+# 272439973
+# 274489963
+# 277463044
+# 277625069
+# 277767913
+# 278121639
+# 279589740
+# 283013355
+# 283130495
+# 284632348
+# 284908335
+# 285973874
+# 286091031
+# 286100711
+# 286179847
+# 286299057
+# 286478028
+# 286785723
+# 287320400
+# 287415122
+# 288494265
+# 288685161
+# 288866602
+# 288893054
+# 290101113
+# 290193991
+# 290665794
+# 291631269
+# 291754466
+# 292505750
+# 292975148
+# 293079002
+# 294272093
+# 294329830
+# 295167707
+# 295308089
+# 295357224
+# 295783919
+# 296347587
+# 296636348
+# 296689283
+# 296849183
+# 297906267
+# 298039447
+# 298072332
+# 298285064
+# 298614928
+# 299735044
+# 300097330
+# 300929060
+# 301814717
+# 302004735
+# 302297749
+# 302870556
+# 306126087
+# 307879702
+# 308803796
+# 310027949
+# 310779919
+# 311299736
+# 311613255
+# 311658918
+# 311945234
+# 312420979
+# 313139654
+# 315414836
+# 316870323
+# 318100855
+# 318319038
+# 318564532
+# 318636033
+# 319175354
+# 319504980
+# 319620256
+# 319661279
+# 321483161
+# 321727306
+# 321733796
+# 323003327
+# 323950772
+# 323986329
+# 324463772
+# 324686965
+# 325280370
+# 325803141
+# 326847947
+# 327035664
+# 327333990
+# 327704196
+# 328045892
+# 328460611
+# 329020267
+# 329836207
+# 331738639
+# 331840199
+# 332036413
+# 333187548
+# 333686411
+# 333918436
+# 335149872
+# 336949344
+# 337705145
+# 338221387
+# 339826688
+# 340395709
+# 340591038
+# 340775590
+# 340844984
+# 341138788
+# 341746377
+# 342180887
+# 342798320
+# 342860569
+# 342870686
+# 346005213
+# 346958965
+# 347054591
+# 347608931
+# 347810414
+# 349087749
+# 349500500
+# 349977295
+# 350075063
+# 350459811
+# 350625094
+# 350883783
+# 351111068
+# 351635881
+# 352439004
+# 352624416
+# 352801100
+# 353569675
+# 354349554
+# 354621826
+# 354770835
+# 357072974
+# 359174872
+# 359420398
+# 359817220
+# 361206302
+# 361386899
+# 363118103
+# 363127345
+# 363859161
+# 364548477
+# 364806638
+# 364879453
+# 365274378
+# 366066016
+# 367471313
+# 367703909
+# 368560190
+# 368663733
+# 369021390
+# 369627815
+# 370908474
+# 372249295
+# 372503241
+# 373201758
+# 373399123
+# 373780515
+# 374131086
+# 374928117
+# 375089329
+# 375590864
+# 377140584
+# 377319009
+# 378072625
+# 379077349
+# 379465538
+# 380372778
+# 380401792
+# 381446872
+# 382366926
+# 382417098
+# 382602339
+# 383853217
+# 384881898
+# 384992535
+# 385804209
+# 385878045
+# 386433607
+# 386587026
+# 388408529
+# 388666248
+# 389089000
+# 389272790
+# 389782714
+# 390826534
+# 390833257
+# 392491715
+# 392867271
+# 393657062
+# 393954063
+# 393955187
+# 394522125
+# 395185719
+# 395799399
+# 397126536
+# 398864266
+# 399361138
+# 400163969
+# 400276232
+# 400673214
+# 401856464
+# 402434536
+# 403587377
+# 404621223
+# 405053171
+# 405662472
+# 406567552
+# 406951507
+# 407041141
+# 408690045
+# 408808521
+# 408828799
+# 408852324
+# 409416024
+# 410781306
+# 411719039
+# 412245421
+# 413105257
+# 413162830
+# 413653039
+# 413768681
+# 413773153
+# 413932496
+# 414748260
+# 415529746
+# 415786701
+# 415945195
+# 416116960
+# 416149274
+# 417510279
+# 417966922
+# 419428652
+# 420119650
+# 420231611
+# 420321532
+# 420861281
+# 422028470
+# 422595764
+# 423402785
+# 423848324
+# 424333314
+# 424400586
+# 425929733
+# 426106622
+# 426660075
+# 427113095
+# 427409558
+# 427442892
+# 428268221
+# 428641043
+# 429966002
+# 430384852
+# 430499740
+# 430735415
+# 430827405
+# 432331471
+# 432541913
+# 433261279
+# 433804480
+# 434100046
+# 434692052
+# 434827807
+# 435493602
+# 436333618
+# 436357963
+# 437288711
+# 438175881
+# 438485108
+# 438871578
+# 439894497
+# 441074409
+# 441184381
+# 441529048
+# 442217356
+# 442904612
+# 443435749
+# 444443243
+# 444490329
+# 444646418
+# 446016946
+# 446735542
+# 447775935
+# 447930035
+# 448041002
+# 448390061
+# 449104834
+# 449684633
+# 450462449
+# 451302649
+# 452040188
+# 452774080
+# 453101255
+# 454129723
+# 455142748
+# 456151429
+# 456401132
+# 456443503
+# 460194765
+# 461207412
+# 461717147
+# 462156186
+# 462880083
+# 463528248
+# 464258651
+# 464510725
+# 464704318
+# 465172396
+# 465189308
+# 465328611
+# 466666347
+# 466962456
+# 467386219
+# 467684415
+# 468870731
+# 470817582
+# 471427812
+# 471703517
+# 471762503
+# 471881713
+# 472425507
+# 474117241
+# 474166372
+# 474593757
+# 475683769
+# 477684819
+# 478088406
+# 478228489
+# 479031843
+# 480009081
+# 480730816
+# 480750363
+# 482428330
+# 482626676
+# 482922202
+# 483073318
+# 483513200
+# 483607043
+# 484492020
+# 484634570
+# 485502284
+# 485679986
+# 486959631
+# 487880405
+# 487900783
+# 488631769
+# 489960828
+# 490733724
+# 491457116
+# 491706647
+# 492334224
+# 492355856
+# 492796659
+# 494013165
+# 494027191
+# 494233886
+# 494814171
+# 495186505
+# 495670776
+# 496277505
+# 496362575
+# 496606778
+# 497480317
+# 497998323
+# 499482026
+# 499821705
+# 500463613
+# 500846243
+# 501050727
+# 501656690
+# 502063278
+# 503184393
+# 503295818
+# 503901694
+# 504063559
+# 504085106
+# 504307464
+# 505560152
+# 505669675
+# 506531874
+# 506569494
+# 506895266
+# 507065817
+# 507371653
+# 508239862
+# 508363744
+# 508540249
+# 509274981
+# 510190855
+# 510270464
+# 510650653
+# 511046271
+# 511673416
+# 512241718
+# 514443009
+# 514587095
+# 514602923
+# 514963652
+# 516345147
+# 516997073
+# 517205389
+# 519163004
+# 520196808
+# 521724204
+# 521840589
+# 522258065
+# 523482542
+# 524152620
+# 524510950
+# 525203277
+# 525347886
+# 525978365
+# 526321408
+# 526358246
+# 526469001
+# 527763543
+# 527815593
+# 528345592
+# 528729226
+# 530559133
+# 532637247
+# 532805061
+# 532992189
+# 533137040
+# 535422000
+# 535553914
+# 535596874
+# 536130183
+# 536567701
+# 537218537
+# 537713050
+# 537978593
+# 538998170
+# 539152331
+# 539901845
+# 541281811
+# 541533958
+# 543942063
+# 544757528
+# 545035804
+# 545671605
+# 546197591
+# 546620722
+# 546680623
+# 548201469
+# 548487885
+# 548700759
+# 549408822
+# 549692285
+# 551648672
+# 551902105
+# 552383237
+# 553053969
+# 554246389
+# 554354364
+# 555462394
+# 557111836
+# 558005871
+# 559150188
+# 559960966
+# 560473107
+# 560493833
+# 561173520
+# 561335890
+# 562237101
+# 562338694
+# 562688590
+# 563655281
+# 564334812
+# 564864022
+# 565203557
+# 566059239
+# 566203720
+# 567949582
+# 567999754
+# 568308234
+# 568750349
+# 569435873
+# 569806299
+# 571839917
+# 573920989
+# 573991185
+# 574400244
+# 575543839
+# 577778737
+# 578059499
+# 578834459
+# 579772095
+# 582131828
+# 582512717
+# 582580562
+# 582756200
+# 583172317
+# 588017192
+# 588802300
+# 589283073
+# 589343847
+# 589646465
+# 591366917
+# 591444907
+# 592100280
+# 592534163
+# 594434980
+# 595692750
+# 596675480
+# 597625906
+# 597655682
+# 598745486
+# 598824250
+# 601731930
+# 602189870
+# 602388482
+# 603092935
+# 603879980
+# 604337660
+# 605857673
+# 606076524
+# 606738128
+# 607611126
+# 609350715
+# 609714107
+# 610291739
+# 611817897
+# 612272814
+# 612624855
+# 612719549
+# 613914680
+# 615760360
+# 616265967
+# 616399801
+# 616872291
+# 617152201
+# 617179534
+# 618843935
+# 619388833
+# 619682702
+# 621075475
+# 621446610
+# 623436428
+# 623628916
+# 623758537
+# 624362517
+# 624578629
+# 625709012
+# 626543897
+# 626925184
+# 627800012
+# 627876557
+# 629247042
+# 629595757
+# 629881851
+# 630305855
+# 630389700
+# 630889124
+# 631705706
+# 632030961
+# 632175010
+# 632310213
+# 632318198
+# 633710471
+# 637247144
+# 637347582
+# 637486370
+# 637915281
+# 637977252
+# 638036352
+# 638356736
+# 638511676
+# 638556942
+# 638581638
+# 638891175
+# 639895762
+# 640518756
+# 640770862
+# 642026159
+# 642646813
+# 642802360
+# 643045704
+# 645211168
+# 645374900
+# 645572937
+# 645777421
+# 645873498
+# 646713635
+# 646790068
+# 648099212
+# 648630179
+# 648805131
+# 649318421
+# 649730818
+# 650093381
+# 650823357
+# 652964954
+# 652970282
+# 653128648
+# 654404682
+# 655228727
+# 656111944
+# 657010468
+# 658624552
+# 659699897
+# 660176413
+# 661248515
+# 661284288
+# 662529345
+# 662566125
+# 662993966
+# 663267475
+# 663713838
+# 663843528
+# 663889666
+# 664292390
+# 664484782
+# 665428198
+# 666166435
+# 667591821
+# 667854537
+# 668010986
+# 668209332
+# 668732519
+# 669095856
+# 670074676
+# 670103036
+# 670217226
+# 670649063
+# 671074276
+# 671161689
+# 671245694
+# 671867457
+# 671909165
+# 672542287
+# 672603029
+# 673466042
+# 676490635
+# 676812787
+# 677042545
+# 677930368
+# 678043319
+# 678203416
+# 678367834
+# 679414019
+# 680393400
+# 680396827
+# 681626696
+# 682596987
+# 682704627
+# 683128720
+# 683606798
+# 684848301
+# 686428899
+# 687236417
+# 688185319
+# 689582816
+# 689661093
+# 690586812
+# 691141790
+# 691935099
+# 692477922
+# 692605124
+# 692865493
+# 693353019
+# 693798399
+# 696479501
+# 696628927
+# 697378346
+# 697801057
+# 700169725
+# 701729250
+# 703674408
+# 704569672
+# 704745660
+# 705340616
+# 706361866
+# 706622173
+# 706627861
+# 707304059
+# 707647409
+# 708916316
+# 709065198
+# 710293463
+# 710770628
+# 710930542
+# 712101528
+# 713175009
+# 713398249
+# 714015025
+# 715241273
+# 715285204
+# 716147021
+# 717008037
+# 718083834
+# 720393737
+# 720498229
+# 723914127
+# 726335485
+# 726658644
+# 727116614
+# 727202196
+# 732469769
+# 733274872
+# 733294704
+# 733461118
+# 733531252
+# 734166178
+# 734663770
+# 734984099
+# 736531408
+# 737430954
+# 737484761
+# 737647066
+# 738346390
+# 738656923
+# 738735152
+# 739552418
+# 739615260
+# 742006932
+# 742412621
+# 742853128
+# 745378650
+# 745692662
+# 745788559
+# 746916660
+# 747921350
+# 749917468
+# 750083286
+# 751169775
+# 751641895
+# 751786376
+# 751984970
+# 753274590
+# 753572413
+# 753778480
+# 754254083
+# 754488653
+# 754870891
+# 757002983
+# 757702493
+# 759024170
+# 759982900
+# 762386858
+# 763286229
+# 763361393
+# 763702444
+# 764260706
+# 764770089
+# 765256175
+# 766133918
+# 766562482
+# 767937328
+# 770175642
+# 770495631
+# 772920275
+# 774106356
+# 774316952
+# 774384956
+# 774387118
+# 774926503
+# 775162078
+# 776616535
+# 777138356
+# 778437293
+# 779167763
+# 779213240
+# 780852387
+# 781275406
+# 781766513
+# 782694924
+# 783709637
+# 784213281
+# 784406906
+# 785384922
+# 785610692
+# 785671466
+# 785974084
+# 786045183
+# 786551844
+# 786629996
+# 787772526
+# 788985238
+# 789102796
+# 789909697
+# 791094044
+# 791659180
+# 791706965
+# 792869710
+# 793612172
+# 794743980
+# 798302205
+# 799289396
+# 799497336
+# 799792421
+# 800272116
+# 800498749
+# 801343016
+# 801848623
+# 801906961
+# 803583549
+# 804217259
+# 805603924
+# 806709621
+# 807029266
+# 808951335
+# 809488243
+# 809977339
+# 810718775
+# 810871497
+# 810893129
+# 812094317
+# 812225685
+# 812937320
+# 815242952
+# 817735544
+# 819293127
+# 819355442
+# 819696298
+# 820193963
+# 820208906
+# 822622379
+# 823550886
+# 824284741
+# 824302129
+# 824795220
+# 825179106
+# 826466686
+# 826901017
+# 827482815
+# 827500355
+# 828358580
+# 828628360
+# 828630374
+# 828788518
+# 829330111
+# 829811722
+# 832296291
+# 832890381
+# 832912013
+# 834468134
+# 835039878
+# 835824592
+# 835888493
+# 836406013
+# 836504804
+# 836658652
+# 837576624
+# 838197410
+# 838256387
+# 839422956
+# 840262165
+# 840621293
+# 840935814
+# 841694600
+# 844136839
+# 846305211
+# 846866944
+# 846997822
+# 847598478
+# 847878581
+# 848052536
+# 848841312
+# 848919901
+# 849875046
+# 849903002
+# 850450501
+# 850674043
+# 852207427
+# 854078944
+# 854315175
+# 855818056
+# 856656932
+# 856856276
+# 856898767
+# 856939299
+# 857619947
+# 858856964
+# 859758560
+# 860879734
+# 865060138
+# 865157995
+# 865976056
+# 867237651
+# 867303992
+# 867322520
+# 867666088
+# 868338649
+# 869092166
+# 869214446
+# 873168911
+# 873370164
+# 873823162
+# 874416589
+# 875165472
+# 875307313
+# 876724446
+# 876731571
+# 876857769
+# 877687429
+# 877962103
+# 878603797
+# 878656079
+# 878958183
+# 880201047
+# 882961002
+# 883533724
+# 883564036
+# 883721183
+# 885397588
+# 885491291
+# 885705951
+# 886394168
+# 887567562
+# 887853656
+# 887963629
+# 888624239
+# 888741094
+# 888783627
+# 889312534
+# 890357533
+# 892204829
+# 892530275
+# 893450805
+# 896613058
+# 896657029
+# 896778074
+# 897615366
+# 897754729
+# 898614720
+# 899712958
+# 900000888
+# 900499152
+# 901729677
+# 902051115
+# 902349739
+# 903975028
+# 904546283
+# 904775402
+# 905145554
+# 905491473
+# 906080885
+# 906150137
+# 907190246
+# 907384371
+# 908561474
+# 908614903
+# 909051070
+# 909317719
+# 909856417
+# 910342644
+# 910468990
+# 912386738
+# 912889482
+# 913776135
+# 914024873
+# 914031520
+# 914549159
+# 914917028
+# 914973193
+# 915167777
+# 915260794
+# 915272551
+# 915911035
+# 916163179
+# 916599138
+# 917319004
+# 918032268
+# 918741135
+# 918877360
+# 919113908
+# 919512041
+# 920025972
+# 920537930
+# 921907010
+# 922240270
+# 924577145
+# 924613765
+# 925275401
+# 925294122
+# 926561913
+# 927589588
+# 927698565
+# 929639589
+# 930290980
+# 931371215
+# 932454252
+# 932480672
+# 932659346
+# 933663082
+# 934495286
+# 934608145
+# 934984542
+# 935865595
+# 936902288
+# 936992077
+# 937014734
+# 937258578
+# 937353178
+# 939316841
+# 940568792
+# 940709327
+# 941690035
+# 942307880
+# 942820106
+# 946832355
+# 947294285
+# 947347967
+# 947859807
+# 949906904
+# 950712283
+# 951198510
+# 951324824
+# 954153413
+# 954880707
+# 955890230
+# 956078287
+# 957027157
+# 957082344
+# 957804285
+# 958059041
+# 958392891
+# 958888230
+# 959597097
+# 959689012
+# 959969774
+# 960407023
+# 962341855
+# 962390498
+# 962691986
+# 962763004
+# 963229477
+# 964364992
+# 964913946
+# 966131363
+# 966451977
+# 968277580
+# 970204357
+# 971080293
+# 971136962
+# 971250600
+# 973640130
+# 974143205
+# 974567894
+# 975468211
+# 977717590
+# 978094132
+# 978114444
+# 979194828
+# 980299662
+# 980610780
+# 981052221
+# 983103830
+# 984178656
+# 985686728
+# 985817756
+# 986237316
+# 986857382
+# 987199078
+# 988150247
+# 988203801
+# 988470861
+# 988715769
+# 990755866
+# 991208579
+# 991672234
+# 992054344
+# 992351657
+# 992691200
+# 996934249
+# 997808341
+# 1000367272
+# 1000660720
+# 1000670272
+# 1000825608
+# 1001329252
+# 1001665993
+# 1001692644
+# 1002591468
+# 1003197817
+# 1003547852
+# 1003892914
+# 1005598712
+# 1006322104
+# 1008402034
+# 1009725466
+# 1010222685
+# 1011847585
+# 1012489504
+# 1012609136
+# 1013903983
+# 1014496124
+# 1016521582
+# 1017206223
+# 1017233825
+# 1018949998
+# 1020310707
+# 1020622534
+# 1020629748
+# 1021316337
+# 1021325423
+# 1021396766
+# 1023684877
+# 1023960428
+# 1025844821
+# 1025954672
+# 1026007191
+# 1026203949
+# 1026934020
+# 1027093310
+# 1028152967
+# 1028214812
+# 1028221072
+# 1030138973
+# 1030819211
+# 1031740916
+# 1032670416
+# 1033370364
+# 1033461237
+# 1033697608
+# 1035125946
+# 1035485658
+# 1036409098
+# 1036567563
+# 1037242388
+# 1037564226
+# 1037682202
+# 1037980361
+# 1038886322
+# 1039670839
+# 1040487058
+# 1040767002
+# 1041093467
+# 1041400712
+# 1041942113
+# 1042145548
+# 1043202603
+# 1044162421
+# 1044243889
+# 1044260832
+# 1047251863
+# 1051297617
+# 1051896694
+# 1052197501
+# 1052703451
+# 1055068681
+# 1056750576
+# 1057076678
+# 1057377416
+# 1057821492
+# 1058089691
+# 1058502957
+# 1058751567
+# 1058891657
+# 1059805832
+# 1059900792
+# 1059999245
+# 1060018036
+# 1062172203
+# 1062326983
+# 1062391714
+# 1063421182
+# 1064164806
+# 1066706310
+# 1067059783
+# 1067790014
+# 1067949144
+# 1068863237
+# 1070066122
+# 1070073962
+# 1070095594
+# 1070372777
+# 1070808133
+# 1071409429
+# 1071634932
+# 1071675173
+# 1071976824
+# 1072542289
+# 1072750943
+# 1073139491
+# 1073546285
+# 1073589466
+# 1073843503
+# 1074157941
+# 1074366283
+# 1077687792
+# 1080910541
+# 1081342924
+# 1081748822
+# 1081919301
+# 1082195714
+# 1082797979
+# 1083001510
+# 1083198022
+# 1083394575
+# 1083974750
+# 1084197376
+# 1084463826
+# 1085099755
+# 1085676322
+# 1086117911
+# 1087705133
+# 1089710700
+# 1090128939
+# 1090728210
+# 1091509003
+# 1091628652
+# 1091732793
+# 1092171012
+# 1093094437
+# 1093213739
+# 1093860298
+# 1093918343
+# 1094144130
+# 1094803400
+# 1095158375
+# 1095924643
+# 1096989134
+# 1097036849
+# 1097261830
+# 1097461302
+# 1097638166
+# 1098593098
+# 1098677358
+# 1099448271
+# 1099607529
+# 1100131154
+# 1100873902
+# 1102228674
+# 1102860513
+# 1103082015
+# 1103514064
+# 1103607425
+# 1103614924
+# 1104277016
+# 1104567063
+# 1107956171
+# 1108291936
+# 1108645848
+# 1108845683
+# 1110076215
+# 1110368960
+# 1110876778
+# 1111408337
+# 1112125572
+# 1112586005
+# 1113606905
+# 1114402119
+# 1115878817
+# 1117919909
+# 1117943527
+# 1118233806
+# 1119190784
+# 1120360470
+# 1121448251
+# 1121813317
+# 1122597390
+# 1122841234
+# 1123214207
+# 1124250537
+# 1126015980
+# 1126522751
+# 1126972388
+# 1127058827
+# 1127272691
+# 1128980772
+# 1129257459
+# 1129650419
+# 1129857489
+# 1130581965
+# 1130880951
+# 1131760383
+# 1131942521
+# 1133027006
+# 1133492491
+# 1136120872
+# 1138285570
+# 1138301416
+# 1139533192
+# 1140194428
+# 1140296658
+# 1140304233
+# 1141411811
+# 1141472886
+# 1141729736
+# 1141779734
+# 1141812316
+# 1142665000
+# 1142896590
+# 1143084668
+# 1143645078
+# 1143937977
+# 1145989679
+# 1147039902
+# 1147800021
+# 1148311350
+# 1150792756
+# 1151714019
+# 1152846326
+# 1152981566
+# 1153849939
+# 1154361865
+# 1154934355
+# 1156719618
+# 1157099854
+# 1157344429
+# 1158194050
+# 1159349493
+# 1160682707
+# 1161175689
+# 1162518306
+# 1162964200
+# 1163430695
+# 1163730128
+# 1164070041
+# 1164626908
+# 1166193436
+# 1166634877
+# 1167378585
+# 1168194614
+# 1169785865
+# 1172879789
+# 1173732903
+# 1173882840
+# 1174053517
+# 1174116838
+# 1174175658
+# 1174348453
+# 1175175012
+# 1175508862
+# 1175549006
+# 1176380749
+# 1177832786
+# 1178295833
+# 1179141564
+# 1181282118
+# 1183194573
+# 1184477866
+# 1184639823
+# 1185718017
+# 1186088925
+# 1187275300
+# 1189397469
+# 1189449971
+# 1190068145
+# 1190680503
+# 1191712959
+# 1192740002
+# 1192852383
+# 1192890595
+# 1193726475
+# 1193837400
+# 1194136699
+# 1194280545
+# 1195217827
+# 1196526628
+# 1196580563
+# 1198290634
+# 1199050044
+# 1199407264
+# 1199486639
+# 1200314717
+# 1201099298
+# 1201202709
+# 1203572745
+# 1205025685
+# 1205551993
+# 1205893363
+# 1206276336
+# 1207764545
+# 1208596752
+# 1208993080
+# 1210105090
+# 1210162111
+# 1210807234
+# 1210992186
+# 1211537328
+# 1212387723
+# 1212739398
+# 1213798416
+# 1213832659
+# 1214300730
+# 1214884158
+# 1214909479
+# 1215620288
+# 1215624147
+# 1215721629
+# 1216364696
+# 1216768947
+# 1217236711
+# 1217427607
+# 1217643956
+# 1217999479
+# 1218235674
+# 1218325260
+# 1218382653
+# 1219036425
+# 1223146882
+# 1223781304
+# 1224114143
+# 1224468978
+# 1225217978
+# 1225495785
+# 1225591629
+# 1225654442
+# 1227728204
+# 1227832187
+# 1228963556
+# 1230924011
+# 1232568793
+# 1233553302
+# 1233708345
+# 1234349796
+# 1235136411
+# 1237821131
+# 1239530222
+# 1239588095
+# 1240384413
+# 1240571508
+# 1241055309
+# 1241284886
+# 1242333232
+# 1242411900
+# 1243960226
+# 1250321150
+# 1250982902
+# 1250991493
+# 1251663228
+# 1253223091
+# 1253243685
+# 1253563823
+# 1254453623
+# 1254480248
+# 1254587677
+# 1255439561
+# 1257257829
+# 1257607635
+# 1258248190
+# 1258499822
+# 1259058084
+# 1259068054
+# 1259892387
+# 1260767280
+# 1260868458
+# 1261471698
+# 1261541751
+# 1261860095
+# 1262692358
+# 1263270448
+# 1264002876
+# 1266322368
+# 1268578435
+# 1268977231
+# 1269393634
+# 1270046482
+# 1271700567
+# 1273036829
+# 1273156274
+# 1275293356
+# 1276490418
+# 1277091659
+# 1277220884
+# 1277458445
+# 1277492302
+# 1277842331
+# 1278677093
+# 1279125598
+# 1279490938
+# 1279650319
+# 1280443929
+# 1280628800
+# 1280935200
+# 1281427374
+# 1281507299
+# 1281574321
+# 1281911271
+# 1283043958
+# 1283900174
+# 1284132925
+# 1284175754
+# 1286083441
+# 1286456558
+# 1286709825
+# 1288409550
+# 1288971810
+# 1289380954
+# 1289541358
+# 1289829247
+# 1289867823
+# 1290170943
+# 1293364468
+# 1296395107
+# 1296557932
+# 1296990993
+# 1297559912
+# 1298904037
+# 1299355656
+# 1300495893
+# 1301477807
+# 1302462813
+# 1302715929
+# 1303526183
+# 1304527958
+# 1305140418
+# 1305943126
+# 1305959032
+# 1306864047
+# 1306909468
+# 1308286264
+# 1308477160
+# 1309833193
+# 1311585270
+# 1311598636
+# 1314271146
+# 1316156133
+# 1316493213
+# 1316567729
+# 1317947621
+# 1318094122
+# 1318413991
+# 1319976484
+# 1320428525
+# 1320438205
+# 1320506281
+# 1320815490
+# 1320898482
+# 1321942271
+# 1322430187
+# 1324734813
+# 1325968763
+# 1326265413
+# 1326939307
+# 1327194544
+# 1327312392
+# 1327362390
+# 1327366074
+# 1328667324
+# 1330397192
+# 1330685081
+# 1332376941
+# 1332994788
+# 1333501434
+# 1334257090
+# 1334638067
+# 1335868599
+# 1337486637
+# 1338564222
+# 1339040067
+# 1340043998
+# 1340073121
+# 1340965996
+# 1341104582
+# 1342497669
+# 1342682510
+# 1345676938
+# 1345722477
+# 1346758345
+# 1347375679
+# 1349242545
+# 1349638074
+# 1349706773
+# 1350209564
+# 1350366453
+# 1350689027
+# 1351523640
+# 1351758310
+# 1352703965
+# 1353497445
+# 1353777270
+# 1355382159
+# 1356478534
+# 1356794880
+# 1358206683
+# 1358481531
+# 1360951090
+# 1361167202
+# 1361284359
+# 1361671484
+# 1362798105
+# 1363357729
+# 1363496587
+# 1364000213
+# 1364761075
+# 1365170453
+# 1368777229
+# 1368803923
+# 1368898786
+# 1369816855
+# 1372735555
+# 1372960824
+# 1373232775
+# 1375113084
+# 1377048736
+# 1377607226
+# 1377909106
+# 1379309131
+# 1379420056
+# 1380800483
+# 1380928987
+# 1381018604
+# 1381973761
+# 1382045636
+# 1383181897
+# 1383302080
+# 1384308034
+# 1384816989
+# 1385218624
+# 1385906994
+# 1385973375
+# 1386395764
+# 1386578311
+# 1386761747
+# 1387608995
+# 1387614307
+# 1388231513
+# 1390098411
+# 1390743491
+# 1392612880
+# 1393347201
+# 1394176933
+# 1395107281
+# 1395214240
+# 1396297620
+# 1397330647
+# 1397455597
+# 1397976620
+# 1399415315
+# 1401206803
+# 1401929879
+# 1402041403
+# 1402611820
+# 1402733248
+# 1402754880
+# 1402819367
+# 1403010263
+# 1403818330
+# 1403907916
+# 1403965309
+# 1404092164
+# 1404213595
+# 1404352549
+# 1404426215
+# 1405974508
+# 1406435785
+# 1406816189
+# 1407732280
+# 1408247539
+# 1408247941
+# 1409191602
+# 1409478071
+# 1409627879
+# 1409633191
+# 1409720250
+# 1410116343
+# 1410181479
+# 1410250397
+# 1411252670
+# 1411396516
+# 1412829646
+# 1412874991
+# 1413414843
+# 1413564330
+# 1414423890
+# 1415316234
+# 1415453771
+# 1417383441
+# 1418638886
+# 1419135958
+# 1419256468
+# 1420165093
+# 1420378154
+# 1421022047
+# 1421398383
+# 1422621073
+# 1422901630
+# 1424485739
+# 1424979611
+# 1425004820
+# 1425170751
+# 1426193404
+# 1427220305
+# 1427251630
+# 1427363287
+# 1427880198
+# 1428454669
+# 1429259116
+# 1429454066
+# 1430851594
+# 1431322489
+# 1431464030
+# 1432018582
+# 1432857257
+# 1432897256
+# 1433259414
+# 1435153658
+# 1435808263
+# 1436298322
+# 1436574149
+# 1438826341
+# 1438958717
+# 1440199713
+# 1441539435
+# 1442910927
+# 1444553221
+# 1444763878
+# 1445127270
+# 1445475043
+# 1448848093
+# 1449521580
+# 1451316085
+# 1451680835
+# 1451859637
+# 1452108504
+# 1452653713
+# 1455279756
+# 1458442454
+# 1458527411
+# 1460866408
+# 1461076875
+# 1461409421
+# 1461878009
+# 1462077353
+# 1462364916
+# 1462775210
+# 1463074958
+# 1463283948
+# 1463430070
+# 1463757464
+# 1463842249
+# 1464927091
+# 1465232975
+# 1465539951
+# 1466026585
+# 1466157623
+# 1466211456
+# 1466664373
+# 1467405295
+# 1467493927
+# 1468107464
+# 1468312590
+# 1469677558
+# 1470054304
+# 1470417696
+# 1470421409
+# 1471127397
+# 1471572544
+# 1472071439
+# 1472911822
+# 1473751354
+# 1473992206
+# 1476554818
+# 1476606415
+# 1477254693
+# 1477773243
+# 1477901940
+# 1478154772
+# 1478238890
+# 1478780705
+# 1478990899
+# 1479770459
+# 1480221431
+# 1481055579
+# 1482411060
+# 1483037444
+# 1483142568
+# 1483154847
+# 1483766889
+# 1485861133
+# 1487511638
+# 1487611731
+# 1488045469
+# 1488580274
+# 1488711571
+# 1491251409
+# 1493868920
+# 1494059816
+# 1495475768
+# 1496014175
+# 1496393428
+# 1497341717
+# 1498034287
+# 1498345230
+# 1499874802
+# 1500114764
+# 1500682744
+# 1502150385
+# 1502228740
+# 1502235527
+# 1503194021
+# 1504286285
+# 1505044151
+# 1505158359
+# 1506088937
+# 1506481138
+# 1508647788
+# 1512895348
+# 1512927401
+# 1512948730
+# 1514642026
+# 1517440832
+# 1517462377
+# 1517944537
+# 1518010150
+# 1519839746
+# 1521316378
+# 1521641633
+# 1521929748
+# 1522509714
+# 1523544833
+# 1523893438
+# 1525288336
+# 1526044141
+# 1526548652
+# 1527134025
+# 1528080325
+# 1528295538
+# 1528766182
+# 1529300811
+# 1529315925
+# 1530261365
+# 1530448785
+# 1531305133
+# 1532335689
+# 1532523222
+# 1533180289
+# 1534466788
+# 1535388221
+# 1536870137
+# 1536942926
+# 1538481527
+# 1538903627
+# 1539568915
+# 1542717222
+# 1543006251
+# 1543079800
+# 1543084734
+# 1543300576
+# 1543608867
+# 1543612475
+# 1543789339
+# 1544247279
+# 1545898297
+# 1546867015
+# 1546944771
+# 1547075041
+# 1548363052
+# 1548814258
+# 1549135127
+# 1549152909
+# 1549452661
+# 1550837681
+# 1551584563
+# 1552624947
+# 1552638688
+# 1553159942
+# 1553855479
+# 1554056608
+# 1554171825
+# 1554251909
+# 1554330223
+# 1554354573
+# 1554534302
+# 1555168326
+# 1555399511
+# 1557010536
+# 1557202621
+# 1557621658
+# 1557901646
+# 1558318211
+# 1558471302
+# 1558616639
+# 1559048301
+# 1559613640
+# 1560695740
+# 1560873314
+# 1563011187
+# 1563073733
+# 1563128086
+# 1563278593
+# 1563365580
+# 1564009735
+# 1565627751
+# 1566423459
+# 1566653217
+# 1566899975
+# 1567367436
+# 1568007648
+# 1568884736
+# 1569212529
+# 1569495702
+# 1569913044
+# 1572301658
+# 1573763115
+# 1574425553
+# 1574426581
+# 1574742991
+# 1575597502
+# 1576140302
+# 1576850738
+# 1577250732
+# 1577256606
+# 1578301380
+# 1578400330
+# 1579473409
+# 1580473700
+# 1580535085
+# 1580689937
+# 1581513717
+# 1582163732
+# 1582828271
+# 1583940568
+# 1584092679
+# 1584508078
+# 1585192019
+# 1586090301
+# 1586426030
+# 1587039074
+# 1587512535
+# 1587930907
+# 1589674820
+# 1589935205
+# 1590008871
+# 1590092881
+# 1590348746
+# 1591376386
+# 1592514751
+# 1592531664
+# 1593527744
+# 1594462523
+# 1594607048
+# 1594770736
+# 1595022363
+# 1595027691
+# 1595210535
+# 1595458442
+# 1596207912
+# 1596659467
+# 1596918252
+# 1598412302
+# 1599472473
+# 1600453923
+# 1600541214
+# 1600774309
+# 1600824980
+# 1601362566
+# 1601912493
+# 1602956871
+# 1603116338
+# 1603694282
+# 1604534540
+# 1605771247
+# 1605960810
+# 1606542191
+# 1606604703
+# 1607255759
+# 1608815747
+# 1610021708
+# 1610055029
+# 1610068395
+# 1612802961
+# 1614276002
+# 1615086812
+# 1615192370
+# 1615598953
+# 1618479912
+# 1618842070
+# 1619143336
+# 1620117070
+# 1620425243
+# 1620813358
+# 1621390919
+# 1621491357
+# 1621880978
+# 1621981387
+# 1622472807
+# 1622714182
+# 1623183852
+# 1623184464
+# 1623681341
+# 1623887408
+# 1625874114
+# 1626258388
+# 1627281864
+# 1629118720
+# 1630258385
+# 1631323492
+# 1633245602
+# 1633370585
+# 1634018035
+# 1635248567
+# 1635259884
+# 1635345359
+# 1635865313
+# 1637247190
+# 1638632497
+# 1638848609
+# 1639435755
+# 1642384362
+# 1642504087
+# 1643999642
+# 1645390502
+# 1646394618
+# 1646449064
+# 1646580193
+# 1646962349
+# 1647460665
+# 1647660009
+# 1648111721
+# 1650106764
+# 1651122607
+# 1651912011
+# 1652247029
+# 1652987951
+# 1654033220
+# 1654398666
+# 1654730175
+# 1655151110
+# 1655389469
+# 1655590513
+# 1656677304
+# 1657315684
+# 1657490128
+# 1657773890
+# 1658494478
+# 1658909698
+# 1659503237
+# 1660013208
+# 1660537350
+# 1661202338
+# 1661669192
+# 1663018771
+# 1663588401
+# 1663737428
+# 1664363361
+# 1666227207
+# 1667431121
+# 1667794513
+# 1670680928
+# 1672074956
+# 1672244758
+# 1673268053
+# 1673385335
+# 1674776391
+# 1675478535
+# 1676142170
+# 1676562813
+# 1676721179
+# 1676834065
+# 1677301834
+# 1677383198
+# 1678469717
+# 1678713596
+# 1679225436
+# 1679488363
+# 1679491896
+# 1679704475
+# 1679782806
+# 1680292730
+# 1681058424
+# 1685245638
+# 1685383736
+# 1686873009
+# 1687436059
+# 1687537380
+# 1687818183
+# 1688335561
+# 1690741986
+# 1690893974
+# 1693594098
+# 1693615730
+# 1693707484
+# 1694889214
+# 1695496832
+# 1695586009
+# 1695896676
+# 1696446379
+# 1698151299
+# 1698478004
+# 1698629884
+# 1699098915
+# 1701081579
+# 1702719808
+# 1703070013
+# 1703408566
+# 1704444267
+# 1705720761
+# 1706792930
+# 1707135473
+# 1709804635
+# 1710354445
+# 1711150153
+# 1712233051
+# 1713122638
+# 1713661612
+# 1713683244
+# 1715964190
+# 1716444527
+# 1716974550
+# 1717041993
+# 1717604893
+# 1719171094
+# 1719872452
+# 1720774611
+# 1722501181
+# 1722525582
+# 1723044714
+# 1723998587
+# 1724064183
+# 1724511749
+# 1726142999
+# 1727442331
+# 1727728875
+# 1728249603
+# 1729829935
+# 1730787990
+# 1733169037
+# 1733190248
+# 1734396914
+# 1734717783
+# 1735711004
+# 1735745048
+# 1738757604
+# 1739060877
+# 1740116958
+# 1740576880
+# 1741469866
+# 1742508154
+# 1742593192
+# 1742785277
+# 1744444419
+# 1744630957
+# 1745501003
+# 1746096531
+# 1746164038
+# 1747165300
+# 1747735743
+# 1747796357
+# 1750499444
+# 1751277023
+# 1751314739
+# 1751433425
+# 1751933844
+# 1752006115
+# 1752482631
+# 1752545271
+# 1753313263
+# 1753744979
+# 1755187820
+# 1756225261
+# 1758825118
+# 1759182342
+# 1759249155
+# 1759962514
+# 1760008209
+# 1760728446
+# 1760882444
+# 1761023485
+# 1761753707
+# 1761821552
+# 1761899829
+# 1762433394
+# 1764191012
+# 1766261681
+# 1767746388
+# 1768147317
+# 1768266879
+# 1769811719
+# 1770062051
+# 1770090734
+# 1770344715
+# 1775801028
+# 1777556209
+# 1779158027
+# 1780189704
+# 1781038672
+# 1782500908
+# 1783769188
+# 1784258526
+# 1785486791
+# 1786336490
+# 1786356965
+# 1788021166
+# 1788710413
+# 1789276938
+# 1790117196
+# 1791340477
+# 1791355310
+# 1791538154
+# 1791960411
+# 1792080935
+# 1792496377
+# 1793806054
+# 1794386074
+# 1797343685
+# 1798928391
+# 1799768607
+# 1800687600
+# 1800818380
+# 1801584280
+# 1802952203
+# 1803342491
+# 1805976945
+# 1806396014
+# 1807117547
+# 1807396706
+# 1807547491
+# 1807685003
+# 1807998002
+# 1809263997
+# 1809609267
+# 1809727936
+# 1809945814
+# 1810591933
+# 1810610461
+# 1810839799
+# 1810946568
+# 1811200677
+# 1811271855
+# 1811578494
+# 1813723842
+# 1813855007
+# 1814062273
+# 1814760204
+# 1816657022
+# 1816752862
+# 1817020106
+# 1817032386
+# 1817192552
+# 1817763308
+# 1818507874
+# 1818828258
+# 1819136752
+# 1820982015
+# 1821774456
+# 1822253515
+# 1822270018
+# 1822485302
+# 1823273754
+# 1825018411
+# 1826495665
+# 1827185029
+# 1827949634
+# 1828046121
+# 1828065516
+# 1829101573
+# 1829566375
+# 1830064219
+# 1830320127
+# 1830813900
+# 1831141597
+# 1831461758
+# 1831738047
+# 1832211144
+# 1834447644
+# 1834960116
+# 1835513722
+# 1835763374
+# 1837584070
+# 1838506890
+# 1838835483
+# 1841755810
+# 1842919333
+# 1843288829
+# 1843356546
+# 1843825609
+# 1845444150
+# 1845450512
+# 1845689087
+# 1846637829
+# 1847251848
+# 1847301312
+# 1848979335
+# 1849514132
+# 1851192502
+# 1851809863
+# 1852434328
+# 1852555129
+# 1853013777
+# 1854532145
+# 1854579836
+# 1855964580
+# 1856044858
+# 1857284181
+# 1857827414
+# 1857888380
+# 1860864794
+# 1861837849
+# 1862884490
+# 1863696164
+# 1864720481
+# 1865074552
+# 1865510872
+# 1867351531
+# 1868805628
+# 1869242092
+# 1869616147
+# 1871175961
+# 1872317592
+# 1872593881
+# 1873048798
+# 1875149586
+# 1875720491
+# 1875815982
+# 1876032094
+# 1876619208
+# 1876797014
+# 1876920159
+# 1878000256
+# 1879095191
+# 1879410587
+# 1881479332
+# 1882222594
+# 1883026703
+# 1883200628
+# 1883856733
+# 1884212540
+# 1884388594
+# 1885138501
+# 1885595821
+# 1886107160
+# 1886544921
+# 1887090358
+# 1888302464
+# 1888652669
+# 1888991222
+# 1891957409
+# 1892773998
+# 1892873777
+# 1893194845
+# 1894459859
+# 1894612765
+# 1897409198
+# 1898012706
+# 1898705294
+# 1899724566
+# 1900370285
+# 1900671746
+# 1900771886
+# 1900969623
+# 1902027183
+# 1903273171
+# 1903463092
+# 1904342454
+# 1904385617
+# 1904456108
+# 1904753750
+# 1904934154
+# 1905250064
+# 1906971355
+# 1907382539
+# 1907838550
+# 1908560670
+# 1908563805
+# 1908759994
+# 1909581243
+# 1910094405
+# 1910927009
+# 1911068937
+# 1913295677
+# 1913746266
+# 1915455493
+# 1916005452
+# 1916671816
+# 1917199105
+# 1917225460
+# 1918098106
+# 1918772904
+# 1919516026
+# 1920615928
+# 1921653611
+# 1923078588
+# 1923769950
+# 1923882665
+# 1924056494
+# 1924218012
+# 1925122783
+# 1925260766
+# 1925676695
+# 1926260049
+# 1927605508
+# 1928843091
+# 1929479040
+# 1931806272
+# 1932813275
+# 1933087821
+# 1933467066
+# 1933629832
+# 1933729643
+# 1934706949
+# 1937266747
+# 1938265032
+# 1938883745
+# 1940770476
+# 1941114558
+# 1941226119
+# 1941527740
+# 1941627720
+# 1941683766
+# 1942310451
+# 1943540983
+# 1943655213
+# 1943909441
+# 1946368659
+# 1947538026
+# 1948117430
+# 1948362367
+# 1948886653
+# 1949610045
+# 1950077134
+# 1951782875
+# 1952369730
+# 1952517526
+# 1955479772
+# 1957858796
+# 1958081326
+# 1958364553
+# 1958578991
+# 1959486994
+# 1959684634
+# 1960654342
+# 1961681772
+# 1962589300
+# 1963977083
+# 1964912328
+# 1965978745
+# 1966621328
+# 1967403845
+# 1968220516
+# 1969023184
+# 1970144744
+# 1970352618
+# 1970953724
+# 1971275505
+# 1971297137
+# 1971951566
+# 1973883828
+# 1976027401
+# 1976111312
+# 1976244458
+# 1977543067
+# 1978079033
+# 1979033283
+# 1979142483
+# 1979681445
+# 1979739611
+# 1979968730
+# 1980338882
+# 1980680578
+# 1982663751
+# 1982824411
+# 1983091635
+# 1983376646
+# 1984322167
+# 1984378656
+# 1984474337
+# 1984511047
+# 1984690239
+# 1986270256
+# 1987181015
+# 1988288030
+# 1989059071
+# 1989218201
+# 1989959637
+# 1991182871
+# 1993267659
+# 1994828531
+# 1996004975
+# 1996059063
+# 1996100726
+# 1996480832
+# 1997566971
+# 1998046285
+# 1998206938
+# 1998456355
+# 1998937160
+# 2000342860
+# 2002304564
+# 2002602762
+# 2003188733
+# 2003445166
+# 2005417787
+# 2006661254
+# 2008157305
+# 2009005855
+# 2009805577
+# 2010389892
+# 2010418644
+# 2011015948
+# 2011237085
+# 2012078321
+# 2012131371
+# 2012153003
+# 2012451906
+# 2012471441
+# 2012767685
+# 2014197066
+# 2015095588
+# 2015264765
+# 2015646875
+# 2016726248
+# 2016883363
+# 2018095744
+# 2019261091
+# 2020475232
+# 2020475233
+# 2020475234
+# 2020475235
+# 2020475236
+# 2020475237
+# 2020475238
+# 2020475239
+# 2020475246
+# 2020475247
+# 2021194876
+# 2021346030
+# 2022487741
+# 2022823284
+# 2025546073
+# 2026391838
+# 2027012662
+# 2027168655
+# 2028523930
+# 2029390821
+# 2029914905
+# 2031824461
+# 2032983552
+# 2033730483
+# 2034123621
+# 2034961015
+# 2035163102
+# 2036140346
+# 2037084466
+# 2037410693
+# 2038902247
+# 2040114801
+# 2040734767
+# 2041198822
+# 2041279975
+# 2042931311
+# 2043160430
+# 2043898290
+# 2044301000
+# 2045548822
+# 2046447450
+# 2047564957
+# 2047775386
+# 2049861817
+# 2050438160
+# 2050859764
+# 2051245886
+# 2051933789
+# 2052446070
+# 2052934187
+# 2053307900
+# 2053657579
+# 2054296063
+# 2054648073
+# 2054768843
+# 2054824748
+# 2055595528
+# 2055670692
+# 2057151980
+# 2057202965
+# 2059127569
+# 2059313718
+# 2060982181
+# 2062164814
+# 2062201864
+# 2063245350
+# 2063965804
+# 2064196908
+# 2066489248
+# 2066865562
+# 2068024617
+# 2068925834
+# 2069924255
+# 2072048110
+# 2072468218
+# 2073001669
+# 2073725061
+# 2075738206
+# 2076483010
+# 2076666957
+# 2076837050
+# 2078741308
+# 2079086242
+# 2080042515
+# 2080472282
+# 2081589357
+# 2081836452
+# 2082232424
+# 2083503238
+# 2084016264
+# 2084386544
+# 2085078113
+# 2085679409
+# 2085945025
+# 2085952941
+# 2086552279
+# 2086747788
+# 2087732746
+# 2087855765
+# 2088535776
+# 2089201396
+# 2089925110
+# 2091715630
+# 2094143326
+# 2095151897
+# 2095504035
+# 2096189281
+# 2096509665
+# 2096777919
+# 2097908786
+# 2099331918
+# 2099575945
+# 2100588786
+# 2103129384
+# 2104819086
+# 2106012667
+# 2106252141
+# 2106297864
+# 2106362860
+# 2106662704
+# 2107364289
+# 2108880451
+# 2109073380
+# 2111259351
+# 2111761019
+# 2111781897
+# 2111842705
+# 2111900336
+# 2112202524
+# 2112903944
+# 2113724934
+# 2115106457
+# 2116233067
+# 2116499568
+# 2117170781
+# 2117339004
+# 2117388928
+# 2117522919
+# 2117981230
+# 2119399528
+# 2119437217
+# 2120955061
+# 2121594829
+# 2121826540
+# 2122084230
+# 2122445191
+# 2122685973
+# 2123580999
+# 2124197440
+# 2124202752
+# 2124408139
+# 2124685904
+# 2124886696
+# 2126535275
+# 2126697214
+# 2127431931
+# 2128042980
+# 2129140894
+# 2129951800
+# 2130057262
+# 2130468677
+# 2131936568
+# 2132189761
+# 2133420690
+# 2133800781
+# 2133938260
+# 2136083297
+# 2137054998
+# 2137507555
+# 2137633753
+# 2138162162
+# 2139943499
+# 2140237060
+# 2141564118
+# 2141932976
+# 2142074042
+# 2142190630
+# 2143183049
+# 2143567626
+# 2144241363
+# 2144691496
+# 2144836514
+# 2144904142
+# 2146236998
+# 2146602757
+# 2149662261
+# 2149681811
+# 2152257403
+# 2152387676
+# 2153803172
+# 2154382718
+# 2155999716
+# 2156536380
+# 2157534222
+# 2158229676
+# 2158342090
+# 2158781972
+# 2158837064
+# 2159084516
+# 2159652637
+# 2160293083
+# 2161344287
+# 2161610057
+# 2162028602
+# 2162070001
+# 2163594825
+# 2163987785
+# 2164971752
+# 2165201933
+# 2165264101
+# 2166872334
+# 2167069245
+# 2167116178
+# 2167481056
+# 2167553048
+# 2167598338
+# 2167624756
+# 2167659730
+# 2167711851
+# 2168674291
+# 2169204239
+# 2169904823
+# 2171590207
+# 2172048406
+# 2173162722
+# 2173826948
+# 2173870686
+# 2174276556
+# 2174327504
+# 2174952591
+# 2175694113
+# 2178121526
+# 2178883987
+# 2179152030
+# 2179517247
+# 2180530672
+# 2180727184
+# 2181141794
+# 2181587631
+# 2182063488
+# 2182241294
+# 2182464466
+# 2183465744
+# 2183628941
+# 2184039011
+# 2184555898
+# 2185539364
+# 2185560117
+# 2185613709
+# 2186006669
+# 2186070106
+# 2186793498
+# 2186939944
+# 2189943608
+# 2193934070
+# 2194090424
+# 2194790992
+# 2195238552
+# 2196122260
+# 2196598604
+# 2197726312
+# 2197768189
+# 2198564987
+# 2199027933
+# 2200557231
+# 2201590308
+# 2201627018
+# 2202200249
+# 2202308904
+# 2202812213
+# 2202925867
+# 2203437068
+# 2204050207
+# 2204843747
+# 2206057895
+# 2207972044
+# 2208070397
+# 2208405940
+# 2208458990
+# 2208480622
+# 2208572472
+# 2208685947
+# 2209956742
+# 2210060201
+# 2210690772
+# 2211974494
+# 2212751311
+# 2214520476
+# 2214682942
+# 2215472689
+# 2215808553
+# 2215989955
+# 2218911701
+# 2219313139
+# 2219728048
+# 2220543671
+# 2221050869
+# 2221948888
+# 2222533758
+# 2222872902
+# 2223484783
+# 2223693367
+# 2224633815
+# 2226862631
+# 2227379804
+# 2228102543
+# 2228421268
+# 2228513967
+# 2229079607
+# 2229480946
+# 2229894031
+# 2231438363
+# 2231598767
+# 2233930290
+# 2234464925
+# 2235229866
+# 2236407964
+# 2236442420
+# 2237454566
+# 2239240235
+# 2240230729
+# 2240372186
+# 2240847853
+# 2243464596
+# 2244906169
+# 2246061458
+# 2246341199
+# 2246587189
+# 2248523283
+# 2248828006
+# 2249336456
+# 2249548460
+# 2249924241
+# 2249985198
+# 2250916035
+# 2251106313
+# 2251765101
+# 2252448218
+# 2253607273
+# 2253610885
+# 2255538776
+# 2255679822
+# 2256664387
+# 2259833279
+# 2260151531
+# 2262249613
+# 2262744992
+# 2263389592
+# 2263704816
+# 2264668898
+# 2265252754
+# 2265443855
+# 2265822494
+# 2267513537
+# 2267519778
+# 2268425040
+# 2269008042
+# 2269969200
+# 2270749993
+# 2271527681
+# 2272335299
+# 2273125197
+# 2274118432
+# 2275701814
+# 2275747432
+# 2278811280
+# 2279372144
+# 2281703687
+# 2282152134
+# 2282272644
+# 2284414559
+# 2284905653
+# 2284914574
+# 2285158601
+# 2285972012
+# 2287197161
+# 2287492235
+# 2287581179
+# 2289317077
+# 2289883718
+# 2289982268
+# 2290117640
+# 2290840482
+# 2291962275
+# 2292620935
+# 2292946945
+# 2294570485
+# 2294811581
+# 2296337114
+# 2297107448
+# 2297160771
+# 2297343675
+# 2297858211
+# 2299440651
+# 2299662306
+# 2300689113
+# 2302082224
+# 2302194084
+# 2303691908
+# 2304550347
+# 2304982184
+# 2305019873
+# 2305064571
+# 2306038061
+# 2306108620
+# 2306299817
+# 2306821173
+# 2307136863
+# 2307177485
+# 2307666886
+# 2308027847
+# 2309225900
+# 2309557582
+# 2309579341
+# 2310121813
+# 2311015154
+# 2312560686
+# 2312733481
+# 2312786187
+# 2313014587
+# 2313173889
+# 2313305252
+# 2313850538
+# 2313981159
+# 2314680710
+# 2318981560
+# 2319537648
+# 2319877095
+# 2321883205
+# 2322113138
+# 2322707997
+# 2322862894
+# 2323183604
+# 2323880380
+# 2324311559
+# 2324615968
+# 2325270521
+# 2325482421
+# 2325611278
+# 2325855122
+# 2326014563
+# 2326494067
+# 2327724599
+# 2328348197
+# 2328517380
+# 2328876990
+# 2329625192
+# 2329824019
+# 2329889990
+# 2330421471
+# 2330425985
+# 2332185413
+# 2332217473
+# 2332521727
+# 2337042368
+# 2337317176
+# 2337970332
+# 2338621388
+# 2339561162
+# 2339820887
+# 2340296613
+# 2342180652
+# 2342383411
+# 2343613943
+# 2343924746
+# 2344170687
+# 2344364628
+# 2345239810
+# 2345555375
+# 2345678888
+# 2345875739
+# 2347992825
+# 2348033447
+# 2349312632
+# 2349818128
+# 2350493627
+# 2350772751
+# 2350915829
+# 2353199268
+# 2353416520
+# 2353642149
+# 2354537763
+# 2355621739
+# 2356620702
+# 2356710384
+# 2356767649
+# 2357073776
+# 2357276323
+# 2357631062
+# 2357783477
+# 2358778410
+# 2362435563
+# 2363405314
+# 2363718728
+# 2364039470
+# 2364223946
+# 2364990002
+# 2365111313
+# 2366113328
+# 2366336247
+# 2366632364
+# 2368047122
+# 2368975433
+# 2369309039
+# 2369732824
+# 2370984362
+# 2371277433
+# 2372967465
+# 2373361989
+# 2373377561
+# 2375689221
+# 2376185197
+# 2376206159
+# 2376556647
+# 2379025638
+# 2379295207
+# 2379440433
+# 2381704916
+# 2383073807
+# 2385026521
+# 2385057516
+# 2386095804
+# 2386393739
+# 2386524979
+# 2387755511
+# 2387834939
+# 2388387926
+# 2388394869
+# 2389464474
+# 2389485474
+# 2391628713
+# 2392043449
+# 2394268603
+# 2395396445
+# 2396091810
+# 2396230428
+# 2399253486
+# 2402385514
+# 2402872101
+# 2404252698
+# 2404832619
+# 2404895304
+# 2405030712
+# 2405375269
+# 2406318358
+# 2407045405
+# 2407263455
+# 2408446785
+# 2408563476
+# 2409652502
+# 2409856626
+# 2410802830
+# 2410926648
+# 2411604380
+# 2411607379
+# 2411800308
+# 2414003924
+# 2415058290
+# 2415476687
+# 2415623284
+# 2415843569
+# 2417041031
+# 2417062121
+# 2417906210
+# 2418911611
+# 2418926597
+# 2420296299
+# 2420299706
+# 2420812522
+# 2422517921
+# 2422797290
+# 2423190250
+# 2423555795
+# 2423929769
+# 2424249509
+# 2425801918
+# 2426346034
+# 2426430509
+# 2427765982
+# 2428514427
+# 2429047252
+# 2429875686
+# 2429924140
+# 2430870440
+# 2431948666
+# 2432484547
+# 2433694485
+# 2433784781
+# 2434434945
+# 2434831383
+# 2434951642
+# 2434954214
+# 2435125804
+# 2436498691
+# 2436606326
+# 2437347757
+# 2438245378
+# 2438608770
+# 2438690043
+# 2438763709
+# 2440109320
+# 2440363781
+# 2440712688
+# 2440782613
+# 2441283142
+# 2442247043
+# 2442584905
+# 2443206100
+# 2443223177
+# 2443830774
+# 2443970685
+# 2444049824
+# 2445010183
+# 2445162495
+# 2445294464
+# 2445351879
+# 2445619557
+# 2448119417
+# 2449448721
+# 2450844129
+# 2453096193
+# 2453995194
+# 2454502587
+# 2456332649
+# 2456479150
+# 2456699435
+# 2457917955
+# 2458823201
+# 2460244640
+# 2460815215
+# 2461100322
+# 2461978693
+# 2463373787
+# 2463841156
+# 2464353791
+# 2464603789
+# 2465242061
+# 2466536950
+# 2466657752
+# 2467114832
+# 2467697235
+# 2467855300
+# 2469299365
+# 2469997215
+# 2470344760
+# 2473163835
+# 2475049376
+# 2476423688
+# 2476591285
+# 2476866501
+# 2477123207
+# 2477544931
+# 2477691125
+# 2477699922
+# 2478144899
+# 2478298547
+# 2479101372
+# 2479529079
+# 2481858246
+# 2482377444
+# 2482642652
+# 2483947410
+# 2484079139
+# 2485397249
+# 2486030131
+# 2486430426
+# 2487260663
+# 2488634451
+# 2489274564
+# 2491524545
+# 2492403829
+# 2493107851
+# 2493512008
+# 2494113174
+# 2495140238
+# 2495396995
+# 2496773845
+# 2496866559
+# 2497188483
+# 2497334984
+# 2498368843
+# 2498819658
+# 2499264457
+# 2499433194
+# 2499563815
+# 2499632508
+# 2499679067
+# 2500298477
+# 2501881615
+# 2502003017
+# 2503813299
+# 2505043831
+# 2505209625
+# 2505813326
+# 2506098023
+# 2506650496
+# 2508024006
+# 2509501508
+# 2509736906
+# 2510308778
+# 2510853177
+# 2511071190
+# 2511093492
+# 2511491650
+# 2511592187
+# 2511611697
+# 2512845396
+# 2513328265
+# 2513930853
+# 2513999075
+# 2514138783
+# 2514459646
+# 2515109461
+# 2515207848
+# 2515706390
+# 2516202689
+# 2517694159
+# 2518555788
+# 2519069078
+# 2521087203
+# 2521257197
+# 2521283341
+# 2522180542
+# 2522247682
+# 2524021901
+# 2525879269
+# 2525880936
+# 2526112011
+# 2526565487
+# 2526753604
+# 2526756275
+# 2527228509
+# 2528483439
+# 2528545092
+# 2530837847
+# 2531134236
+# 2531995034
+# 2532738307
+# 2533932258
+# 2533963813
+# 2535260934
+# 2535347149
+# 2536017959
+# 2536198722
+# 2536270331
+# 2537722393
+# 2540120419
+# 2540426431
+# 2541154311
+# 2541522811
+# 2541890859
+# 2542203358
+# 2542293040
+# 2542353686
+# 2542737577
+# 2543064796
+# 2543106087
+# 2544135936
+# 2544361066
+# 2545220636
+# 2545647591
+# 2546633119
+# 2547598795
+# 2548018219
+# 2549567128
+# 2550503735
+# 2550688371
+# 2551156517
+# 2551918903
+# 2551949358
+# 2552131770
+# 2552347644
+# 2553432218
+# 2553838799
+# 2554230534
+# 2554994745
+# 2555315480
+# 2556128273
+# 2558763182
+# 2559411750
+# 2559741277
+# 2560125942
+# 2560304372
+# 2561271877
+# 2561685756
+# 2561767853
+# 2562086201
+# 2562139303
+# 2562616150
+# 2562870767
+# 2563036376
+# 2563103676
+# 2563773602
+# 2564094916
+# 2565690146
+# 2567609598
+# 2568080389
+# 2568085701
+# 2568521889
+# 2568546750
+# 2568633989
+# 2569401086
+# 2570020709
+# 2571588361
+# 2571976395
+# 2572107635
+# 2573338167
+# 2573417795
+# 2573883620
+# 2574171573
+# 2574597812
+# 2574928804
+# 2575047130
+# 2575768052
+# 2576402455
+# 2577054716
+# 2581282265
+# 2582187270
+# 2583226402
+# 2584441771
+# 2584644538
+# 2584969654
+# 2585272070
+# 2586057051
+# 2586758694
+# 2587489081
+# 2588203674
+# 2588454757
+# 2588696561
+# 2588718933
+# 2589357205
+# 2591125676
+# 2592655705
+# 2592805192
+# 2593607245
+# 2593664880
+# 2593872754
+# 2594146132
+# 2594694761
+# 2597192144
+# 2597348553
+# 2599405955
+# 2599461903
+# 2599619016
+# 2599764594
+# 2599965245
+# 2601160238
+# 2601692881
+# 2602929055
+# 2603301149
+# 2603488866
+# 2604494267
+# 2604774404
+# 2605912351
+# 2608285788
+# 2608465432
+# 2608981197
+# 2609377755
+# 2610256920
+# 2611384574
+# 2613940268
+# 2614026059
+# 2614950020
+# 2615044161
+# 2615539312
+# 2616158271
+# 2616623918
+# 2617577142
+# 2618067203
+# 2618094534
+# 2618199579
+# 2619367437
+# 2619832108
+# 2620414039
+# 2621742358
+# 2622779837
+# 2623382417
+# 2624272699
+# 2624346365
+# 2625946437
+# 2627252503
+# 2627777862
+# 2627903218
+# 2628177898
+# 2628204410
+# 2629176355
+# 2630762564
+# 2631787479
+# 2632269639
+# 2632331031
+# 2633036886
+# 2634157002
+# 2636027582
+# 2636697144
+# 2636878454
+# 2638204515
+# 2638440927
+# 2638872002
+# 2639577850
+# 2639633892
+# 2642016072
+# 2642542373
+# 2642671409
+# 2645398485
+# 2645630398
+# 2645806744
+# 2646682978
+# 2646768313
+# 2647135767
+# 2649423812
+# 2650368259
+# 2650874395
+# 2652044066
+# 2653027054
+# 2653188856
+# 2653279891
+# 2653650207
+# 2654608950
+# 2654882021
+# 2655141023
+# 2655806014
+# 2656488412
+# 2656495555
+# 2657014105
+# 2657077905
+# 2657479752
+# 2658110544
+# 2659462293
+# 2660223399
+# 2661457622
+# 2662126154
+# 2663881203
+# 2665102123
+# 2665111735
+# 2667166881
+# 2667252664
+# 2667685839
+# 2667960100
+# 2669073934
+# 2669481644
+# 2669543078
+# 2669652278
+# 2669661795
+# 2670968362
+# 2671618558
+# 2671713939
+# 2672426193
+# 2673773217
+# 2674217107
+# 2675199874
+# 2675929492
+# 2675939172
+# 2675947162
+# 2676478189
+# 2676883416
+# 2677288655
+# 2678004659
+# 2679032989
+# 2679235191
+# 2679296889
+# 2681173699
+# 2681724868
+# 2681976342
+# 2681997503
+# 2683527275
+# 2684402314
+# 2685881133
+# 2686486232
+# 2687538033
+# 2687852164
+# 2687877908
+# 2688027614
+# 2689141544
+# 2691395982
+# 2691680679
+# 2692739697
+# 2694506169
+# 2694833504
+# 2695319562
+# 2696006686
+# 2696661848
+# 2697912354
+# 2698234446
+# 2698891728
+# 2701750704
+# 2701785345
+# 2701787370
+# 2702425642
+# 2702769422
+# 2703187699
+# 2703936250
+# 2704418231
+# 2706492169
+# 2707939316
+# 2710012822
+# 2710628624
+# 2710732759
+# 2711463592
+# 2711694667
+# 2712148143
+# 2712474392
+# 2713791492
+# 2714629083
+# 2716055868
+# 2718144617
+# 2718168287
+# 2718302056
+# 2719546469
+# 2720578569
+# 2721852987
+# 2722837032
+# 2722853337
+# 2723288971
+# 2724080261
+# 2724475297
+# 2726548210
+# 2728381638
+# 2728393899
+# 2728511053
+# 2728708158
+# 2729385464
+# 2729924055
+# 2730078575
+# 2732019348
+# 2732256883
+# 2733096341
+# 2733412719
+# 2733487415
+# 2733595563
+# 2735044495
+# 2735044800
+# 2735076085
+# 2736023185
+# 2736443483
+# 2736670785
+# 2736875557
+# 2737926079
+# 2738141203
+# 2739014874
+# 2739492806
+# 2739813190
+# 2739913524
+# 2740371484
+# 2741633639
+# 2742244792
+# 2742300533
+# 2742597453
+# 2744345838
+# 2744872221
+# 2744994406
+# 2748354454
+# 2748406832
+# 2748453423
+# 2749356258
+# 2749530576
+# 2752550629
+# 2752730815
+# 2752956564
+# 2753386302
+# 2753471808
+# 2753663045
+# 2755214481
+# 2755849536
+# 2756272095
+# 2757171017
+# 2758270282
+# 2758466922
+# 2758534284
+# 2758638782
+# 2759024249
+# 2759466276
+# 2761205482
+# 2761985111
+# 2765043359
+# 2765062397
+# 2765331163
+# 2765992229
+# 2768014863
+# 2769563992
+# 2769775482
+# 2770552310
+# 2772530730
+# 2773703385
+# 2773999266
+# 2774830996
+# 2775900457
+# 2777268467
+# 2777820783
+# 2778017739
+# 2778498999
+# 2779189901
+# 2779386822
+# 2780015171
+# 2780754244
+# 2780769390
+# 2780925317
+# 2782384670
+# 2782774800
+# 2785024180
+# 2785201672
+# 2785637860
+# 2785661692
+# 2786779929
+# 2787275537
+# 2787727249
+# 2790297039
+# 2790526423
+# 2793586649
+# 2793791538
+# 2794242136
+# 2794459684
+# 2795722269
+# 2797467658
+# 2797970336
+# 2798026979
+# 2799390246
+# 2800532676
+# 2800626817
+# 2800905998
+# 2801121968
+# 2802922203
+# 2804023278
+# 2805618463
+# 2805899321
+# 2807670989
+# 2807873331
+# 2807892598
+# 2808362493
+# 2808870825
+# 2809103863
+# 2810313634
+# 2811371780
+# 2813400931
+# 2813859052
+# 2814240947
+# 2814489429
+# 2814527198
+# 2814947809
+# 2815471479
+# 2815605533
+# 2815816849
+# 2816043173
+# 2817873391
+# 2818873701
+# 2819739658
+# 2820045863
+# 2820625530
+# 2820973608
+# 2821625224
+# 2823924275
+# 2824023583
+# 2824242743
+# 2824444338
+# 2824680672
+# 2825154807
+# 2827808084
+# 2828143548
+# 2830790826
+# 2831153001
+# 2832092480
+# 2832718423
+# 2832980134
+# 2833418766
+# 2834751158
+# 2834831407
+# 2835419815
+# 2836271760
+# 2837148698
+# 2839466607
+# 2840191606
+# 2841388670
+# 2841455009
+# 2843371553
+# 2843946633
+# 2844879112
+# 2845538171
+# 2846474425
+# 2852659531
+# 2852835320
+# 2853034664
+# 2853486376
+# 2855234934
+# 2856551018
+# 2857435579
+# 2858008849
+# 2858595701
+# 2858750002
+# 2859714002
+# 2859963290
+# 2860886177
+# 2860907809
+# 2861429742
+# 2861508366
+# 2861529818
+# 2862060845
+# 2862383615
+# 2862466072
+# 2863587315
+# 2863892322
+# 2864817847
+# 2865462354
+# 2865965517
+# 2866712597
+# 2867433995
+# 2867518844
+# 2867558998
+# 2869393782
+# 2871554161
+# 2874035193
+# 2877256827
+# 2877602771
+# 2878817516
+# 2879564019
+# 2879854894
+# 2881170273
+# 2881545108
+# 2881747064
+# 2881992435
+# 2882244504
+# 2883191330
+# 2883222967
+# 2883439413
+# 2883865652
+# 2883886031
+# 2884439203
+# 2884474384
+# 2884802595
+# 2889067316
+# 2889595435
+# 2890405947
+# 2890889188
+# 2892528178
+# 2892709916
+# 2893083608
+# 2893993754
+# 2895109825
+# 2895595478
+# 2899877113
+# 2900138735
+# 2900569868
+# 2901360210
+# 2901641795
+# 2901742043
+# 2902285576
+# 2902916679
+# 2902955836
+# 2903239449
+# 2903280071
+# 2903305045
+# 2904425556
+# 2905947487
+# 2906318220
+# 2906458087
+# 2906821479
+# 2908289957
+# 2908564998
+# 2910718923
+# 2910882876
+# 2910956702
+# 2911095416
+# 2912595692
+# 2913432685
+# 2914549268
+# 2915177467
+# 2915729417
+# 2917543055
+# 2917602004
+# 2918220535
+# 2918301867
+# 2918612306
+# 2920403794
+# 2920627456
+# 2920710728
+# 2920779701
+# 2922026139
+# 2923767976
+# 2924312001
+# 2924364385
+# 2924528051
+# 2924741993
+# 2925258333
+# 2925758583
+# 2926652944
+# 2927557866
+# 2929725473
+# 2929923182
+# 2930857878
+# 2931786133
+# 2931790176
+# 2932771102
+# 2934447132
+# 2934449994
+# 2934813386
+# 2935113232
+# 2935307117
+# 2935348213
+# 2936036052
+# 2936869751
+# 2937370674
+# 2937748301
+# 2938262928
+# 2938539220
+# 2938968958
+# 2939033078
+# 2939203504
+# 2940264347
+# 2941160086
+# 2941337231
+# 2941425830
+# 2941432192
+# 2941854751
+# 2942216076
+# 2942371223
+# 2943649168
+# 2943852938
+# 2944116940
+# 2944379643
+# 2944606905
+# 2945502575
+# 2946070031
+# 2946803449
+# 2948618711
+# 2949585705
+# 2949727589
+# 2949888249
+# 2950161594
+# 2950533445
+# 2951574885
+# 2952569730
+# 2953078709
+# 2954568438
+# 2955897700
+# 2957438188
+# 2958399017
+# 2960014189
+# 2960413652
+# 2961259660
+# 2961658782
+# 2961719795
+# 2962387282
+# 2962845094
+# 2962950327
+# 2963403439
+# 2965146871
+# 2965577352
+# 2965597827
+# 2965694634
+# 2966716256
+# 2967661649
+# 2969226377
+# 2970581339
+# 2970779016
+# 2972464608
+# 2972514943
+# 2973909137
+# 2975533235
+# 2975593761
+# 2975965214
+# 2976763767
+# 2976774675
+# 2977706828
+# 2979781034
+# 2979824792
+# 2982193193
+# 2982710713
+# 2985217839
+# 2986918983
+# 2986925993
+# 2987670566
+# 2988018885
+# 2988135520
+# 2988504859
+# 2989832795
+# 2990080661
+# 2990199458
+# 2990441539
+# 2991198908
+# 2991245261
+# 2992394041
+# 2996809484
+# 2996954436
+# 2997871032
+# 2999249822
+# 3000071174
+# 3000870023
+# 3002245850
+# 3002463316
+# 3003243148
+# 3004229617
+# 3005717395
+# 3010082339
+# 3012960992
+# 3013353166
+# 3014018939
+# 3014105519
+# 3014572012
+# 3015393699
+# 3015780188
+# 3016373482
+# 3017550678
+# 3020333814
+# 3021518509
+# 3021798148
+# 3022529691
+# 3023031362
+# 3025520365
+# 3025905650
+# 3027037665
+# 3028550720
+# 3028729636
+# 3029554299
+# 3032101223
+# 3033420776
+# 3034109607
+# 3034446656
+# 3034680322
+# 3034834067
+# 3035309315
+# 3037412583
+# 3038502492
+# 3041282514
+# 3042294160
+# 3043660673
+# 3044099110
+# 3044332658
+# 3045545946
+# 3045973164
+# 3046317426
+# 3047966271
+# 3048393473
+# 3048653067
+# 3051680673
+# 3052131294
+# 3053016651
+# 3053865046
+# 3054390576
+# 3055921591
+# 3056726850
+# 3057929784
+# 3058183504
+# 3058284963
+# 3058471778
+# 3058570980
+# 3060038639
+# 3060080835
+# 3060487524
+# 3061106280
+# 3062603008
+# 3062654142
+# 3062687469
+# 3063477132
+# 3063601882
+# 3063728315
+# 3063887356
+# 3064400172
+# 3065821446
+# 3066384940
+# 3066715922
+# 3066777900
+# 3067881780
+# 3068067849
+# 3068174637
+# 3068461115
+# 3068773986
+# 3069022069
+# 3069592741
+# 3070385251
+# 3070953366
+# 3071472945
+# 3072114671
+# 3073239741
+# 3073315851
+# 3073583570
+# 3074734786
+# 3075536316
+# 3075651775
+# 3078023780
+# 3078666264
+# 3079636579
+# 3080303847
+# 3080905808
+# 3082138380
+# 3082765897
+# 3085923054
+# 3086500959
+# 3086623529
+# 3087271649
+# 3087681153
+# 3087995041
+# 3088822105
+# 3089509029
+# 3090644837
+# 3091126208
+# 3091437444
+# 3092404135
+# 3093864768
+# 3094147654
+# 3094372798
+# 3095319675
+# 3098069662
+# 3098091294
+# 3100131924
+# 3101087322
+# 3101312073
+# 3101655463
+# 3102117174
+# 3102125745
+# 3102126726
+# 3102325072
+# 3102362111
+# 3103149098
+# 3103509976
+# 3103543303
+# 3103803191
+# 3104194962
+# 3105986450
+# 3106362357
+# 3106509938
+# 3107521918
+# 3107571788
+# 3108259693
+# 3108737646
+# 3109189710
+# 3109894657
+# 3109950562
+# 3110840989
+# 3111726228
+# 3112073507
+# 3112277794
+# 3114065590
+# 3114439436
+# 3114629486
+# 3115407384
+# 3116507609
+# 3116524452
+# 3117459747
+# 3118353758
+# 3120032650
+# 3121542259
+# 3122772791
+# 3122781845
+# 3122953330
+# 3122994342
+# 3123150776
+# 3123330957
+# 3126778888
+# 3127008486
+# 3127356921
+# 3128850907
+# 3129257320
+# 3129962299
+# 3130227885
+# 3131652687
+# 3132293438
+# 3133220917
+# 3134092391
+# 3135168361
+# 3135228632
+# 3135672130
+# 3135744250
+# 3135951999
+# 3136591966
+# 3137378365
+# 3138526493
+# 3138661365
+# 3139478631
+# 3141480356
+# 3142168035
+# 3142940582
+# 3143020844
+# 3143217945
+# 3143802815
+# 3144469811
+# 3145596845
+# 3145700343
+# 3146842316
+# 3148284768
+# 3148377752
+# 3148427750
+# 3149593480
+# 3150516399
+# 3150538031
+# 3150729527
+# 3151523539
+# 3151860413
+# 3152298912
+# 3153649761
+# 3153704693
+# 3153814327
+# 3153896428
+# 3154809033
+# 3155485320
+# 3157646239
+# 3158207030
+# 3160872737
+# 3161495614
+# 3161547870
+# 3163429754
+# 3163563029
+# 3164186919
+# 3164279022
+# 3165236829
+# 3166092900
+# 3166908958
+# 3167863541
+# 3168654694
+# 3168850780
+# 3170246550
+# 3171353400
+# 3171404490
+# 3172508649
+# 3172768211
+# 3173149272
+# 3173718176
+# 3174931882
+# 3175299925
+# 3175706324
+# 3176807833
+# 3176827917
+# 3176952354
+# 3177210076
+# 3177287275
+# 3177371186
+# 3179144246
+# 3182349719
+# 3182429595
+# 3183453688
+# 3184658649
+# 3184832478
+# 3185653830
+# 3185906790
+# 3186160414
+# 3187698278
+# 3187948716
+# 3190140090
+# 3190278916
+# 3190350572
+# 3191115344
+# 3192042607
+# 3192391378
+# 3193153871
+# 3193491218
+# 3193863933
+# 3193945120
+# 3194098640
+# 3194505627
+# 3195719420
+# 3196686974
+# 3197262771
+# 3197354757
+# 3198493303
+# 3198567266
+# 3198789796
+# 3198826717
+# 3199367209
+# 3199601595
+# 3199732485
+# 3200557236
+# 3201018678
+# 3201362844
+# 3201830224
+# 3202351448
+# 3203086435
+# 3205814276
+# 3206677533
+# 3207911563
+# 3208631683
+# 3211065451
+# 3211197216
+# 3211634259
+# 3211825414
+# 3212988704
+# 3213364483
+# 3213455074
+# 3214133376
+# 3214201877
+# 3215052081
+# 3216104739
+# 3217985994
+# 3218239803
+# 3218828811
+# 3218857310
+# 3219035373
+# 3219613392
+# 3220647238
+# 3220667584
+# 3223248102
+# 3223729978
+# 3225105319
+# 3228232188
+# 3228428842
+# 3229681766
+# 3230083411
+# 3230936066
+# 3231134910
+# 3231580794
+# 3233247244
+# 3234009833
+# 3234921110
+# 3237502837
+# 3237542808
+# 3239988292
+# 3240223043
+# 3242309506
+# 3244153636
+# 3244348562
+# 3244721092
+# 3245190217
+# 3245407536
+# 3245504412
+# 3248270125
+# 3248767525
+# 3249059788
+# 3249224915
+# 3250146047
+# 3250587520
+# 3251698034
+# 3251958855
+# 3253331662
+# 3253650505
+# 3253995766
+# 3254005157
+# 3254324774
+# 3254618095
+# 3255683291
+# 3255871252
+# 3255907947
+# 3256800201
+# 3257675648
+# 3258971309
+# 3259684773
+# 3259979953
+# 3260217152
+# 3260706819
+# 3262186441
+# 3262269501
+# 3262793167
+# 3263927590
+# 3264920303
+# 3265082588
+# 3266488464
+# 3267209101
+# 3267880865
+# 3268796644
+# 3270039508
+# 3271579652
+# 3271765548
+# 3271792060
+# 3271990744
+# 3272083615
+# 3272913133
+# 3273399272
+# 3275091685
+# 3275975429
+# 3276631466
+# 3276708864
+# 3277998748
+# 3278328527
+# 3278819085
+# 3282268936
+# 3283492170
+# 3284205325
+# 3285204428
+# 3285253529
+# 3285577086
+# 3287526104
+# 3287907728
+# 3288966829
+# 3289218016
+# 3289971666
+# 3290294067
+# 3290666017
+# 3290972144
+# 3291001881
+# 3292063428
+# 3292600573
+# 3292807042
+# 3294488498
+# 3294506467
+# 3297860450
+# 3298453364
+# 3299156180
+# 3300835819
+# 3301426455
+# 3303042403
+# 3303587057
+# 3303649129
+# 3304387620
+# 3304389130
+# 3304668962
+# 3304674274
+# 3305111012
+# 3305454241
+# 3306096879
+# 3307732790
+# 3308576998
+# 3308656430
+# 3312407962
+# 3312435646
+# 3312661680
+# 3312800922
+# 3312939577
+# 3313020765
+# 3313041771
+# 3313957733
+# 3314556012
+# 3315206176
+# 3316482550
+# 3316525351
+# 3317076742
+# 3318803573
+# 3319184489
+# 3320659274
+# 3321700120
+# 3323831391
+# 3324385303
+# 3324391793
+# 3324455134
+# 3325178526
+# 3325307506
+# 3325945778
+# 3326146442
+# 3326432920
+# 3330133655
+# 3330613238
+# 3330827532
+# 3332406885
+# 3332919422
+# 3333867424
+# 3334294684
+# 3336153185
+# 3337277980
+# 3337924026
+# 3340297827
+# 3340878054
+# 3340913791
+# 3341310895
+# 3342618049
+# 3343248907
+# 3343789686
+# 3344442923
+# 3345375020
+# 3346013292
+# 3346310107
+# 3346357168
+# 3346455393
+# 3347005350
+# 3347070975
+# 3347078270
+# 3347523900
+# 3349145685
+# 3349207124
+# 3349512264
+# 3353291480
+# 3353594938
+# 3354566465
+# 3355424081
+# 3360514538
+# 3360831433
+# 3361705456
+# 3361832869
+# 3362223734
+# 3362535010
+# 3362685691
+# 3362792732
+# 3362869931
+# 3364510405
+# 3364726902
+# 3364854699
+# 3365247659
+# 3366031511
+# 3366168480
+# 3366231498
+# 3367798418
+# 3367912001
+# 3367932375
+# 3368197385
+# 3369806556
+# 3372295776
+# 3372507138
+# 3372944678
+# 3373614894
+# 3373775256
+# 3374561818
+# 3374634107
+# 3374792960
+# 3374816574
+# 3375587378
+# 3375861572
+# 3376720777
+# 3377009051
+# 3377625263
+# 3377988708
+# 3378420410
+# 3378757214
+# 3379681296
+# 3381800243
+# 3382085254
+# 3382142594
+# 3382370941
+# 3383030775
+# 3383283607
+# 3384104869
+# 3384191345
+# 3384578732
+# 3384949865
+# 3385015836
+# 3385315141
+# 3386309363
+# 3387539895
+# 3387631969
+# 3387926809
+# 3387934104
+# 3387979643
+# 3388199690
+# 3389043866
+# 3389581663
+# 3389959201
+# 3390216269
+# 3390833246
+# 3391321937
+# 3393494219
+# 3393804752
+# 3394713583
+# 3395367246
+# 3396050866
+# 3396973920
+# 3397216915
+# 3398056222
+# 3398235104
+# 3398536559
+# 3398739661
+# 3399051468
+# 3399066582
+# 3399784533
+# 3400586933
+# 3401115598
+# 3402054572
+# 3402934229
+# 3403568650
+# 3404411467
+# 3404720133
+# 3404793132
+# 3405369862
+# 3406250240
+# 3407393070
+# 3407574904
+# 3408320469
+# 3408574033
+# 3408654284
+# 3409945693
+# 3411510321
+# 3412074021
+# 3412240898
+# 3412415717
+# 3412535349
+# 3413363132
+# 3413632701
+# 3414011498
+# 3414470728
+# 3415845652
+# 3416717566
+# 3416793651
+# 3417141953
+# 3417907871
+# 3418024183
+# 3419645121
+# 3420624919
+# 3421183208
+# 3421461965
+# 3422727689
+# 3425302448
+# 3425554258
+# 3425877263
+# 3425886943
+# 3427058583
+# 3428435714
+# 3428487835
+# 3429509300
+# 3430437625
+# 3430815067
+# 3434848954
+# 3435728703
+# 3437825679
+# 3438914318
+# 3439595623
+# 3439712763
+# 3439907430
+# 3440200751
+# 3440299043
+# 3441453908
+# 3441490603
+# 3442935375
+# 3443449599
+# 3444177238
+# 3444187045
+# 3444493744
+# 3444746573
+# 3445562609
+# 3448056976
+# 3448248904
+# 3449533916
+# 3450850501
+# 3450876178
+# 3451171215
+# 3452235566
+# 3452349009
+# 3452366187
+# 3454265550
+# 3454379300
+# 3454633761
+# 3455052593
+# 3456057038
+# 3456203200
+# 3456676789
+# 3457573400
+# 3458495789
+# 3458524626
+# 3458587003
+# 3458981928
+# 3460668834
+# 3461753108
+# 3462214122
+# 3462317927
+# 3463583651
+# 3464213180
+# 3466187773
+# 3466410124
+# 3466733225
+# 3466742905
+# 3466822041
+# 3467362187
+# 3469168877
+# 3469684914
+# 3470524966
+# 3470836185
+# 3472433669
+# 3472504206
+# 3474052443
+# 3474378476
+# 3475041879
+# 3475956372
+# 3476124648
+# 3476211608
+# 3476248673
+# 3476554800
+# 3476584537
+# 3477006512
+# 3477007178
+# 3477578842
+# 3477614005
+# 3478329605
+# 3478681641
+# 3479585595
+# 3479726934
+# 3481967119
+# 3483483426
+# 3483569217
+# 3484096444
+# 3484305433
+# 3484758534
+# 3484996836
+# 3485281690
+# 3485602535
+# 3486418475
+# 3486675078
+# 3487637724
+# 3488878655
+# 3489752428
+# 3489815807
+# 3490670143
+# 3491136481
+# 3491606862
+# 3492027177
+# 3492255449
+# 3492571816
+# 3493068560
+# 3493091400
+# 3494006767
+# 3494405524
+# 3495333203
+# 3495489627
+# 3495815392
+# 3495908459
+# 3496408988
+# 3497163438
+# 3498040526
+# 3498383578
+# 3498603421
+# 3499351623
+# 3499380492
+# 3499452954
+# 3499488437
+# 3499914676
+# 3500138668
+# 3500820591
+# 3502904335
+# 3504211334
+# 3504392682
+# 3505064350
+# 3505096112
+# 3505953815
+# 3506485957
+# 3506559563
+# 3506965461
+# 3507589059
+# 3508218149
+# 3509369390
+# 3509652617
+# 3511674472
+# 3512264927
+# 3512635913
+# 3512852970
+# 3513744186
+# 3516002666
+# 3517513890
+# 3517788570
+# 3518108136
+# 3519537475
+# 3520719412
+# 3521388906
+# 3521398151
+# 3521588557
+# 3521662668
+# 3522846995
+# 3522854805
+# 3523506682
+# 3523673424
+# 3526219967
+# 3527446227
+# 3528200705
+# 3528831563
+# 3529379441
+# 3529734489
+# 3530041040
+# 3530261083
+# 3530645176
+# 3530671641
+# 3530884938
+# 3531244241
+# 3531387223
+# 3531525977
+# 3531671501
+# 3532653631
+# 3532883011
+# 3534501277
+# 3534615424
+# 3535009157
+# 3536984092
+# 3537747717
+# 3538019272
+# 3538150665
+# 3538254871
+# 3538945668
+# 3539177594
+# 3539724368
+# 3540149121
+# 3540425635
+# 3540770542
+# 3542299514
+# 3542637726
+# 3542731561
+# 3543018710
+# 3543217647
+# 3544407455
+# 3545577109
+# 3546938634
+# 3547288112
+# 3547415525
+# 3548220374
+# 3548233665
+# 3549989376
+# 3550225224
+# 3550894084
+# 3551078002
+# 3551753373
+# 3552465525
+# 3552690525
+# 3552879635
+# 3553120889
+# 3553269156
+# 3553544861
+# 3556677649
+# 3557296639
+# 3558274510
+# 3558681327
+# 3559197550
+# 3560169549
+# 3561093641
+# 3561182318
+# 3561575278
+# 3561864585
+# 3562444519
+# 3563149852
+# 3563545297
+# 3563571364
+# 3564239620
+# 3565411067
+# 3565634729
+# 3566899455
+# 3566996373
+# 3567075801
+# 3567667910
+# 3568861717
+# 3568866263
+# 3570235307
+# 3570355453
+# 3570647331
+# 3573028998
+# 3573336670
+# 3573509465
+# 3574395794
+# 3575541857
+# 3576652088
+# 3576656634
+# 3576935758
+# 3577075071
+# 3578342120
+# 3578448122
+# 3579006627
+# 3579387408
+# 3580240194
+# 3581503121
+# 3581626376
+# 3582112963
+# 3582350369
+# 3582355681
+# 3582392653
+# 3582556576
+# 3583112525
+# 3583883469
+# 3584290561
+# 3584616131
+# 3585263417
+# 3589094685
+# 3590386780
+# 3590952518
+# 3591477331
+# 3592642678
+# 3592666215
+# 3592887615
+# 3593040276
+# 3593749244
+# 3594156689
+# 3595084463
+# 3595528349
+# 3595948177
+# 3597003368
+# 3597418104
+# 3597792528
+# 3598152473
+# 3599239506
+# 3599333477
+# 3599377097
+# 3600053384
+# 3600343431
+# 3601025511
+# 3602038152
+# 3602369166
+# 3602376307
+# 3602431112
+# 3602724609
+# 3602988913
+# 3603606839
+# 3603627185
+# 3604358203
+# 3604747940
+# 3605095614
+# 3607044621
+# 3607075172
+# 3607755289
+# 3607837940
+# 3608052818
+# 3608310345
+# 3609236814
+# 3609282284
+# 3610540605
+# 3613025771
+# 3613469572
+# 3613997946
+# 3615251660
+# 3615972740
+# 3616158882
+# 3617442016
+# 3617930905
+# 3618004571
+# 3619554394
+# 3620171357
+# 3620431610
+# 3620657496
+# 3621027648
+# 3621391040
+# 3621395981
+# 3621867555
+# 3622436776
+# 3622792251
+# 3623211547
+# 3623368684
+# 3624266683
+# 3624815454
+# 3624977350
+# 3625178279
+# 3627399850
+# 3629082997
+# 3629304424
+# 3629774173
+# 3630329229
+# 3630674707
+# 3631492879
+# 3632130186
+# 3632429485
+# 3633743449
+# 3634363703
+# 3634846980
+# 3635116572
+# 3635923242
+# 3636753871
+# 3637284857
+# 3637313116
+# 3637818222
+# 3639206709
+# 3639949789
+# 3640216417
+# 3640328144
+# 3640397916
+# 3640836959
+# 3641639694
+# 3642259445
+# 3643541899
+# 3643844779
+# 3643886439
+# 3643905291
+# 3644483051
+# 3645074618
+# 3647300963
+# 3648077594
+# 3648540227
+# 3648693806
+# 3648908684
+# 3649977215
+# 3650312548
+# 3650816154
+# 3651063603
+# 3651148306
+# 3651380212
+# 3652294135
+# 3652944843
+# 3653494072
+# 3654397747
+# 3654751533
+# 3655628279
+# 3655762333
+# 3656107622
+# 3656110081
+# 3656217028
+# 3656812225
+# 3656828734
+# 3657062679
+# 3658016325
+# 3658769941
+# 3659668465
+# 3659961132
+# 3660693493
+# 3661539028
+# 3661589997
+# 3661707304
+# 3662407025
+# 3662651359
+# 3663024578
+# 3663196661
+# 3664497039
+# 3664853050
+# 3666124973
+# 3666501525
+# 3666879139
+# 3667549775
+# 3667628539
+# 3668374706
+# 3669066082
+# 3669151873
+# 3669319847
+# 3669982244
+# 3670341190
+# 3670380062
+# 3671749732
+# 3671766921
+# 3672348841
+# 3672673405
+# 3672702860
+# 3673220380
+# 3673732273
+# 3674651475
+# 3674655359
+# 3675702974
+# 3677435660
+# 3677519888
+# 3677609833
+# 3678674056
+# 3679896836
+# 3680137095
+# 3680915859
+# 3680951334
+# 3681072283
+# 3681398048
+# 3681692921
+# 3681930154
+# 3682058934
+# 3682353105
+# 3682746094
+# 3683452945
+# 3683922130
+# 3684284693
+# 3685071093
+# 3685152329
+# 3685532733
+# 3685983823
+# 3686403247
+# 3687122018
+# 3688442220
+# 3688486991
+# 3688898023
+# 3689549640
+# 3689793990
+# 3690318803
+# 3690833049
+# 3691333328
+# 3691539039
+# 3693171715
+# 3693364644
+# 3693785805
+# 3694470469
+# 3694560893
+# 3694984198
+# 3695181400
+# 3695607367
+# 3696227190
+# 3696701566
+# 3697684568
+# 3698218569
+# 3698805811
+# 3699326842
+# 3700524331
+# 3701558597
+# 3701814183
+# 3703262891
+# 3703507321
+# 3704100101
+# 3704220246
+# 3705120131
+# 3705353001
+# 3705845471
+# 3706241760
+# 3706724637
+# 3706980807
+# 3707171213
+# 3707361231
+# 3707998613
+# 3708252452
+# 3712342025
+# 3712851933
+# 3713028883
+# 3713204675
+# 3714588139
+# 3714759525
+# 3715511193
+# 3716227832
+# 3716467594
+# 3716558808
+# 3720572397
+# 3720591813
+# 3720752830
+# 3722826799
+# 3723601928
+# 3724528324
+# 3724607458
+# 3724777996
+# 3725343862
+# 3725707060
+# 3726588702
+# 3726839785
+# 3727034838
+# 3727120757
+# 3727140682
+# 3728044622
+# 3729130079
+# 3729744597
+# 3729843421
+# 3730575174
+# 3731159765
+# 3731298566
+# 3731686164
+# 3732395001
+# 3733816321
+# 3734655621
+# 3736091235
+# 3736476740
+# 3737530077
+# 3737557400
+# 3737755194
+# 3738858419
+# 3739074531
+# 3740088951
+# 3742782557
+# 3742879295
+# 3743857166
+# 3744561284
+# 3746080687
+# 3746670784
+# 3746736748
+# 3746806115
+# 3747366321
+# 3748112232
+# 3748217193
+# 3749261571
+# 3750590630
+# 3751982144
+# 3752411087
+# 3752579029
+# 3754444373
+# 3754642967
+# 3755816435
+# 3757046967
+# 3759655316
+# 3760369400
+# 3761093415
+# 3761682167
+# 3761753988
+# 3762433338
+# 3762657727
+# 3763814323
+# 3763924776
+# 3764589283
+# 3764656003
+# 3766562926
+# 3766820481
+# 3767460856
+# 3767695619
+# 3768824999
+# 3768855082
+# 3769170051
+# 3769986041
+# 3771084762
+# 3772848235
+# 3775394806
+# 3775881056
+# 3776974949
+# 3777133196
+# 3779035439
+# 3779206107
+# 3779331900
+# 3779569962
+# 3779933393
+# 3780001806
+# 3780262081
+# 3780618180
+# 3782011551
+# 3782527038
+# 3783735129
+# 3784822162
+# 3786888123
+# 3787098931
+# 3787169108
+# 3788329463
+# 3791768340
+# 3792657828
+# 3792863736
+# 3792871746
+# 3793267049
+# 3793621991
+# 3794618652
+# 3794873408
+# 3795140453
+# 3795195297
+# 3796123261
+# 3796774317
+# 3797353130
+# 3798608427
+# 3799052228
+# 3799316532
+# 3799466340
+# 3799471652
+# 3799954804
+# 3800019940
+# 3800069416
+# 3802020699
+# 3803487151
+# 3803513561
+# 3803587227
+# 3804176262
+# 3805083232
+# 3805754013
+# 3806240152
+# 3806973696
+# 3807017404
+# 3807361395
+# 3807418760
+# 3807912539
+# 3808518751
+# 3808591927
+# 3808831271
+# 3810435295
+# 3814185295
+# 3814332190
+# 3814352665
+# 3814627034
+# 3817168538
+# 3817201748
+# 3817866588
+# 3818188568
+# 3818519532
+# 3818675909
+# 3819533854
+# 3819539166
+# 3820296106
+# 3821067050
+# 3821081091
+# 3821474174
+# 3821783235
+# 3821912303
+# 3822867513
+# 3823382872
+# 3824789365
+# 3825532445
+# 3825624910
+# 3827949919
+# 3827971551
+# 3828759409
+# 3829124555
+# 3830313025
+# 3830657274
+# 3831286357
+# 3831913638
+# 3832752313
+# 3833624717
+# 3833660250
+# 3833727740
+# 3834122883
+# 3836051163
+# 3836183786
+# 3836383669
+# 3837342352
+# 3840172398
+# 3840810670
+# 3841382654
+# 3842033334
+# 3842210697
+# 3843855525
+# 3844352597
+# 3845692520
+# 3847724058
+# 3848157329
+# 3848234015
+# 3848258719
+# 3848578313
+# 3848661952
+# 3849021010
+# 3849159672
+# 3850079695
+# 3850133189
+# 3850209224
+# 3850435706
+# 3851659347
+# 3852142968
+# 3853139844
+# 3853211195
+# 3853641348
+# 3854048192
+# 3854383357
+# 3854461458
+# 3855996084
+# 3857332388
+# 3857349577
+# 3858476053
+# 3858579562
+# 3859370418
+# 3859710294
+# 3860234131
+# 3860238015
+# 3860269904
+# 3861673999
+# 3861936222
+# 3862330008
+# 3863018316
+# 3863278006
+# 3864967462
+# 3865479492
+# 3866472223
+# 3866487603
+# 3866778927
+# 3867512810
+# 3867718135
+# 3868805881
+# 3869504786
+# 3869615275
+# 3869757309
+# 3869980517
+# 3870059892
+# 3870343909
+# 3870597197
+# 3871980591
+# 3872016492
+# 3875168444
+# 3877782131
+# 3878756480
+# 3879012663
+# 3879368461
+# 3879437932
+# 3880764056
+# 3881028232
+# 3881666504
+# 3882238488
+# 3883659093
+# 3883663634
+# 3884388467
+# 3884671544
+# 3884744510
+# 3888028487
+# 3888065439
+# 3889011868
+# 3889089977
+# 3890221577
+# 3890401290
+# 3890935657
+# 3891112437
+# 3891428127
+# 3893107015
+# 3893840289
+# 3894996820
+# 3895317324
+# 3896789215
+# 3896851950
+# 3897924681
+# 3898205539
+# 3898787331
+# 3899141478
+# 3899590510
+# 3899880824
+# 3899981250
+# 3900009820
+# 3900086149
+# 3900151602
+# 3901093849
+# 3901371640
+# 3902144054
+# 3902529961
+# 3903447393
+# 3903451662
+# 3906202867
+# 3906335486
+# 3907328185
+# 3907433399
+# 3907752043
+# 3910360652
+# 3910915758
+# 3911184390
+# 3911888498
+# 3912723338
+# 3912728277
+# 3913062864
+# 3913901385
+# 3914712735
+# 3915516322
+# 3915547479
+# 3916040671
+# 3916116419
+# 3916329801
+# 3917268820
+# 3919561802
+# 3920224423
+# 3920238277
+# 3920593206
+# 3921838443
+# 3922559809
+# 3922716186
+# 3922771927
+# 3923112733
+# 3923519272
+# 3924096778
+# 3924431904
+# 3924519500
+# 3925600344
+# 3926721587
+# 3926953622
+# 3927952119
+# 3929164704
+# 3930143940
+# 3930732838
+# 3930969386
+# 3931791491
+# 3933943330
+# 3933969542
+# 3935920269
+# 3936321058
+# 3936872782
+# 3937645177
+# 3937707784
+# 3938348685
+# 3938780643
+# 3938973588
+# 3939445066
+# 3939674880
+# 3940446344
+# 3940655682
+# 3940837905
+# 3942627451
+# 3943226789
+# 3944303259
+# 3944354794
+# 3945233091
+# 3945237972
+# 3945478103
+# 3946056113
+# 3946747489
+# 3947473028
+# 3948015994
+# 3948486353
+# 3948737567
+# 3950790450
+# 3951216614
+# 3951327369
+# 3951771592
+# 3953239699
+# 3953302930
+# 3953470334
+# 3953982821
+# 3954640916
+# 3954758067
+# 3955466212
+# 3955568697
+# 3955988599
+# 3956023264
+# 3956326594
+# 3956896633
+# 3957258729
+# 3957421034
+# 3957606422
+# 3958430891
+# 3960799527
+# 3961207502
+# 3963148100
+# 3963201626
+# 3964398904
+# 3964803425
+# 3964946403
+# 3965844737
+# 3966281717
+# 3967933861
+# 3968106098
+# 3968452384
+# 3969175854
+# 3973346253
+# 3975162923
+# 3975533726
+# 3975986809
+# 3976507040
+# 3976589700
+# 3976708717
+# 3977350996
+# 3978498373
+# 3979456710
+# 3979847332
+# 3980528693
+# 3981023667
+# 3981152066
+# 3981275112
+# 3981511676
+# 3982805114
+# 3983923199
+# 3984034674
+# 3984065083
+# 3984549806
+# 3986965287
+# 3987603355
+# 3988344725
+# 3989593529
+# 3989758918
+# 3990665888
+# 3991044559
+# 3992183331
+# 3992584075
+# 3993099699
+# 3993872325
+# 3994177870
+# 3994330231
+# 3994696949
+# 3994712341
+# 3994936046
+# 3995284035
+# 3996639943
+# 3998253705
+# 3998348318
+# 3999914846
+# 3999935321
+# 4002288865
+# 4003449244
+# 4003483605
+# 4004004094
+# 4004102188
+# 4004240158
+# 4004350641
+# 4004394221
+# 4004395669
+# 4004611539
+# 4005659291
+# 4005819023
+# 4006094160
+# 4009694156
+# 4010031688
+# 4011152931
+# 4011273976
+# 4012311268
+# 4012564002
+# 4013481035
+# 4014202215
+# 4014245480
+# 4015641855
+# 4016460046
+# 4017564551
+# 4019227958
+# 4020272589
+# 4022233354
+# 4024779033
+# 4025087028
+# 4026485971
+# 4026640644
+# 4027980463
+# 4028790975
+# 4029751179
+# 4030935494
+# 4031900521
+# 4032342548
+# 4033171815
+# 4033262726
+# 4033306714
+# 4033453750
+# 4034603666
+# 4035014758
+# 4035238347
+# 4035791880
+# 4036527656
+# 4036676441
+# 4039067095
+# 4039109667
+# 4042194467
+# 4044058709
+# 4044703344
+# 4044859928
+# 4044911495
+# 4045206507
+# 4046674985
+# 4046797917
+# 4046857466
+# 4049103951
+# 4050795055
+# 4051849080
+# 4053562495
+# 4054294410
+# 4054335391
+# 4054567522
+# 4054746122
+# 4054864736
+# 4056497689
+# 4056686895
+# 4057599148
+# 4058932007
+# 4060843241
+# 4061128551
+# 4062463829
+# 4063910807
+# 4064213351
+# 4064357521
+# 4064910597
+# 4065273989
+# 4066438717
+# 4067496638
+# 4068492451
+# 4068649315
+# 4069646809
+# 4070327166
+# 4070607141
+# 4071523059
+# 4071701178
+# 4072545261
+# 4072753591
+# 4073864565
+# 4075323403
+# 4076133425
+# 4077310196
+# 4078436604
+# 4078516573
+# 4079409848
+# 4080601200
+# 4082764671
+# 4084700259
+# 4085734258
+# 4087530819
+# 4087726710
+# 4088662358
+# 4089201233
+# 4089959913
+# 4091566810
+# 4091665693
+# 4094418329
+# 4095191353
+# 4095914745
+# 4096518295
+# 4097035815
+# 4097291595
+# 4097461397
+# 4097600336
+# 4097853296
+# 4097937286
+# 4101098978
+# 4102109456
+# 4103419834
+# 4103778881
+# 4103930235
+# 4104079662
+# 4104999445
+# 4106336431
+# 4106719143
+# 4107780778
+# 4108637471
+# 4110049038
+# 4111183000
+# 4112304243
+# 4112660555
+# 4112697363
+# 4113534775
+# 4114641341
+# 4115819607
+# 4115981460
+# 4116387026
+# 4116437213
+# 4116475842
+# 4116552042
+# 4116568954
+# 4116989291
+# 4117956031
+# 4118166062
+# 4118887428
+# 4119552198
+# 4120489986
+# 4120713503
+# 4120947292
+# 4121903714
+# 4123620505
+# 4124556244
+# 4125027722
+# 4126238338
+# 4127695879
+# 4128335442
+# 4129630385
+# 4130116648
+# 4130815747
+# 4132593744
+# 4133550103
+# 4134440006
+# 4136373106
+# 4136588633
+# 4136910025
+# 4137051825
+# 4139522802
+# 4140340723
+# 4140503093
+# 4140630878
+# 4141110033
+# 4141340474
+# 4141571255
+# 4141628272
+# 4141909250
+# 4142383732
+# 4143706062
+# 4144371337
+# 4144909042
+# 4144935496
+# 4145639389
+# 4147980332
+# 4148593431
+# 4149493433
+# 4152178104
+# 4152403967
+# 4154758510
+# 4154960360
+# 4155262904
+# 4155879625
+# 4156004629
+# 4157242892
+# 4157252572
+# 4157873846
+# 4158811865
+# 4158840529
+# 4158928909
+# 4159021896
+# 4159067734
+# 4159743422
+# 4160325060
+# 4161569465
+# 4161747765
+# 4162136194
+# 4162172356
+# 4163773672
+# 4164976556
+# 4165268560
+# 4165793423
+# 4166111349
+# 4167094332
+# 4167500238
+# 4167939327
+# 4169191308
+# 4170486251
+# 4170542650
+# 4172233038
+# 4172476882
+# 4173103850
+# 4173883857
+# 4174301004
+# 4175532266
+# 4176540837
+# 4176833655
+# 4176887488
+# 4177833009
+# 4177898509
+# 4178342426
+# 4178807177
+# 4179388290
+# 4179872470
+# 4180830749
+# 4181179778
+# 4181919396
+# 4182536844
+# 4183836361
+# 4183930974
+# 4185842998
+# 4185905331
+# 4186099083
+# 4186410549
+# 4186921161
+# 4187038095
+# 4187135863
+# 4187567848
+# 4188085368
+# 4189569905
+# 4190553733
+# 4191401679
+# 4192300648
+# 4193197729
+# 4193259801
+# 4193414098
+# 4195614344
+# 4195865093
+# 4196415203
+# 4196495397
+# 4196735587
+# 4197768696
+# 4198098854
+# 4198524413
+# 4200172096
+# 4200599256
+# 4200613813
+# 4200678260
+# 4200826061
+# 4201181054
+# 4202113343
+# 4202992188
+# 4203147207
+# 4203846268
+# 4205855245
+# 4206846143
+# 4207322919
+# 4208795161
+# 4208940045
+# 4209022242
+# 4210047270
+# 4211624737
+# 4211700879
+# 4212068627
+# 4212346376
+# 4213356790
+# 4214002465
+# 4214918178
+# 4215278685
+# 4215333835
+# 4216687213
+# 4216729602
+# 4217956022
+# 4218067882
+# 4218434087
+# 4218688875
+# 4218754471
+# 4218845382
+# 4219036406
+# 4219062965
+# 4219404836
+# 4220244284
+# 4220452230
+# 4220523504
+# 4221181436
+# 4222035772
+# 4223389280
+# 4223392806
+# 4225653894
+# 4225659206
+# 4225904143
+# 4226207494
+# 4227894057
+# 4228471857
+# 4230814045
+# 4232257641
+# 4232334024
+# 4233704703
+# 4234680522
+# 4234944607
+# 4235162453
+# 4235337696
+# 4236309219
+# 4238401178
+# 4238756357
+# 4239976843
+# 4240181946
+# 4241534126
+# 4242036888
+# 4242969177
+# 4243074530
+# 4243389430
+# 4243554034
+# 4243630556
+# 4244353295
+# 4245956912
+# 4247701977
+# 4248683232
+# 4249493463
+# 4250713839
+# 4250856645
+# 4252480603
+# 4252556841
+# 4252824560
+# 4253619021
+# 4254188479
+# 4254858331
+# 4254961002
+# 4255259626
+# 4255717306
+# 4256030539
+# 4257409090
+# 4257456170
+# 4257543047
+# 4257585596
+# 4258328103
+# 4259443378
+# 4259728833
+# 4260107973
+# 4261716081
+# 4262295923
+# 4262366026
+# 4263037377
+# 4263526455
+# 4264019260
+# 4264988061
+# 4266990998
+# 4268275009
+# 4268347327
+# 4268749891
+# 4269073066
+# 4269720861
+# 4270782384
+# 4270987500
+# 4271597730
+# 4272517983
+# 4272622758
+# 4273954625
+# 4274336290
+# 4274560537
+# 4274783889
+# 4275125926
+# 4275773084
+# 4277014080
+# 4279510892
+# 4279796475
+# 4280190212
+# 4282165682
+# 4282389960
+# 4283105019
+# 4283397250
+# 4283435952
+# 4283519942
+# 4288662268
+# 4289361537
+# 4289891322
+# 4290245409
+# 4290808084
+# 4291132935
+# 4291998184
+# 4292544901
+# 4294022267
+# 4294624122
+
+### EVENT NAMES (r1a0.bnk)
+anouncer_vo_faceoff
+anouncer_vo_knockout
+anouncer_vo_round01
+anouncer_vo_round02
+anouncer_vo_round03
+anouncer_vo_timeup
+anouncer_vo_vs_bq
+anouncer_vo_vs_bw
+anouncer_vo_vs_db
+anouncer_vo_vs_pb
+anouncer_vo_vs_rr
+anouncer_vo_vs_wb
+cp01_0000
+cp01_0010
+cp01_0020
+cp01_0030
+cp01_0040
+cp01_0050
+cp01_0060
+cp01_0070
+cp01_0080
+cp01_0090
+cp01_0100
+cp01_0110
+cp01_0120
+cp01_0130
+cp01_0140
+cp01_0150
+cp01_0160
+cp01_0170
+cp01_0180
+cp01_0190
+cp01_0200
+cp01_0210
+cp01_0220
+cp01_0230
+cp07_0290
+PBL_7st_camera_wsh
+PBL_audi_lp
+PBL_audi_round_end
+PBL_audi_round_result_lose
+PBL_audi_round_result_win
+PBL_audi_start
+PBL_audi_up_large
+PBL_audi_up_mid
+PBL_audi_up_small
+PBL_beep_green
+PBL_beep_red
+PBL_em_land_floor
+PBL_faceoff_liftup
+PBL_finish_audi
+PBL_finish_camera
+PBL_finish_fall
+PBL_gong_game_end
+PBL_gong_round_end
+PBL_gong_start
+PBL_gong_time_up
+PBL_next_stage
+PBL_rsult_lamp
+PBL_se_pause_off
+PBL_se_pause_on
+PBL_vs_end_wsh
+PBL_vs_wsh
+pl0000_PBL_cheer
+pl0000_PBL_earth_disc
+pl0000_PBL_earth_disc_break
+pl0000_PBL_earth_disc_fly
+pl0000_PBL_earth_disc_fly_stop
+pl0000_PBL_earth_disc_set
+pl0000_PBL_earth_disc_step
+pl0000_PBL_earth_imp
+pl0000_PBL_Fall
+pl0000_PBL_game_lose
+pl0000_PBL_game_win
+pl0000_PBL_get_zone
+pl0000_PBL_knockout
+pl0000_PBL_lost_zone
+pl5000_PBL_call_bolin
+pl5000_PBL_call_korra
+pl5000_PBL_cheer
+pl5000_PBL_Fall
+pl5000_PBL_game_lose
+pl5000_PBL_game_win
+pl5000_PBL_get_zone
+pl5000_PBL_knockdown
+pl5000_PBL_knockout
+pl5000_PBL_lost_zone
+pl5010_PBL_call_korra
+pl5010_PBL_call_mako
+pl5010_PBL_cheer
+pl5010_PBL_Fall
+pl5010_PBL_game_lose
+pl5010_PBL_game_win
+pl5010_PBL_get_zone
+pl5010_PBL_knockdown
+pl5010_PBL_knockout
+pl5010_PBL_lost_zone
+shiro_vo_1st_round_draw
+shiro_vo_1st_round_lose
+shiro_vo_1st_round_win
+shiro_vo_1st_start
+shiro_vo_2nd_round_draw
+shiro_vo_2nd_round_lose
+shiro_vo_2nd_round_win
+shiro_vo_2nd_start
+shiro_vo_3rd_round_draw
+shiro_vo_3rd_round_win
+shiro_vo_3rd_start
+shiro_vo_before_start
+shiro_vo_count_1min
+shiro_vo_count_30msec
+shiro_vo_count_not
+shiro_vo_em_down
+shiro_vo_em_knockout
+shiro_vo_faceoff_round_lose
+shiro_vo_faceoff_round_win
+shiro_vo_faceoff_start
+shiro_vo_get_zone01
+shiro_vo_get_zone02
+shiro_vo_lost_zone01
+shiro_vo_lost_zone02
+shiro_vo_pl_down
+shiro_vo_pl_game_lose
+shiro_vo_pl_game_win
+shiro_vo_pl_knockout
+shiro_vo_reclaim_zone1
+shiro_vo_reclaim_zone2
+shiro_vo_steal_back_zone1
+shiro_vo_steal_back_zone2
+shiro_vo_team_idol
+tahno_vo_word_01
+tahno_vo_word_02
+tahno_vo_word_03
+tahno_vo_word_04
+tahno_vo_word_05
+# 702663285
+# 1187495297
+# 3232689621
+
+### RTPC/GAME-VARIABLE NAMES (r1a0.bnk)
+pl_duck_se
+Voice_duck_se
+
+### VARIABLE NAMES (r1a0.bnk)
+PBL_mode_type
+PBL_type
+
+### VALUE NAMES (r1a0.bnk)
+Default
+None
+PBL
+st7
+
+### EVENT NAMES (r2c0.bnk)
+cp02_0000
+cp02_0010
+cp02_0020
+cp02_0030
+cp02_0040
+cp02_0050
+cp02_0060
+cp02_0070
+cp02_0080
+cp02_0090
+cp02_0100
+cp02_0110
+cp02_0120
+cp02_0130
+cp02_0140
+cp02_0150
+cp02_0160
+cp02_0170
+cp02_0180
+cp02_0190
+cp02_0200
+cp02_0210
+cp02_0220
+cp02_0230
+cp02_0240
+cp02_0250
+cp02_0260
+cp02_0270
+cp02_0290
+cp02_0300
+cp02_0310
+cp02_0320
+cp02_0330
+cp02_0340
+cp02_0350
+cp02_0370
+cp02_0390
+cp02_0400
+cp02_0410
+cp02_0420
+cp02_0430
+cp02_0440
+cp02_0450
+cp02_0460
+cp02_0520
+cp02_0530
+cp02_0540
+cp02_0550
+cp02_0560
+cp02_0570
+cp02_0580
+cp02_0590
+cp02_0600
+cp02_0610
+cp02_0620
+cp02_0630
+cp02_0640
+cp02_0650
+cp02_0660
+cp02_0670
+cp02_0680
+cp02_0690a
+cp02_0690b
+cp02_0690c
+cp02_0690d
+spirit_hall_open
+spirit_hall_open_end
+st2_camera_ev_bt_field_off
+st2_camera_ev_bt_field_on_se
+st2_camera_ev_bt_field_on_vo
+st2_camera_ev_car
+st2_citynight
+
+### EVENT NAMES (r3a0.bnk)
+co03_0100
+co03_0110
+co03_0120
+co03_0130
+cp03_0000
+cp03_0010
+cp03_0020
+cp03_0030
+cp03_0040
+cp03_0050
+cp03_0060
+cp03_0140
+cp03_0150
+cp03_0160
+cp03_0170
+cp03_0180
+cp03_0190
+cp03_0200
+cp03_0210
+cp03_0220
+cp03_0230
+cp03_0240
+cp03_0250
+cp03_0260
+cp03_0270
+cp03_0280
+cp03_0290
+cp03_0300
+cp03_0310
+cp03_0320
+cp03_0330
+cp03_0340
+cp03_0350
+cp03_0360
+cp03_0370
+cp03_0380
+cp03_0390
+cp03_0400
+cp03_0410
+cp03_0420
+cp03_0430
+cp03_0440
+cp03_0450
+cp03_0460
+cp03_0470
+cp03_0480
+cp03_0490
+cp03_0500
+cp03_0510
+cp03_0520
+cp03_0530
+cp03_0540
+cp03_0560
+cp03_0570
+cp03_0580
+cp03_0590
+cp03_0600
+cp03_0610
+cp03_0620
+cp03_0630
+cp03_0640
+earth_bender_cut01
+earth_bender_cut02
+earth_bender_cut03
+fire_bender_appear_cut01
+fire_bender_appear_cut02
+korra_vo_unlock_water_01
+korra_vo_unlock_water_02
+st3_sea
+st3_Temple
+three_triad_appear_earth_fire
+three_triad_appear_water
+
+### EVENT NAMES (r4a0.bnk)
+cp02_0280
+cp02_0360
+cp02_0380
+cp02_0510
+cp04_0000
+cp04_0010
+cp04_0020
+cp04_0030
+cp04_0040
+cp04_0050
+cp04_0055
+cp04_0060
+cp04_0070
+cp04_0080
+cp04_0090
+cp04_0100
+cp04_0110
+cp04_0120
+cp04_0130
+cp04_0140
+cp04_0150
+cp04_0160
+cp04_0170
+cp04_0180
+cp04_0190
+cp04_0200
+cp04_0210
+cp04_0220
+cp04_0230
+cp04_0240
+cp04_0250
+cp04_0260
+cp04_0270
+cp04_0280
+cp04_0290
+cp04_0300
+cp04_0310
+cp04_0320
+cp04_0330
+cp04_0340
+cp04_0350
+cp04_0360
+cp04_0370
+cp04_0380
+cp04_0390
+cp04_0400
+cp04_0410
+cp04_0420
+cp04_0430
+cp04_0440
+cp04_0450
+cp04_0460
+cp04_0470
+cp04_0480
+cp04_0490
+cp04_0500
+cp04_0510
+cp04_0520
+cp04_0530
+cp04_0540
+cp04_0550
+cp04_0560
+cp04_0570
+cp04_0580
+cp04_0590
+cp06_0160
+korra_vo_unlock_earth_01
+korra_vo_unlock_earth_02
+spirit_hall_open
+spirit_hall_open_end
+st4_2nd_tank_appear
+st4_main_street
+st4_road_camera_wsh
+st4_traffic
+three_triad_appear_earth_fire
+three_triad_appear_water
+# 698053028
+# 1332269050
+# 2063303097
+# 2260106041
+# 3131777916
+
+### EVENT NAMES (r500.bnk)
+cp05_0000
+cp05_0010
+cp05_0020
+cp05_0030
+cp05_0040
+cp05_0050
+cp05_0060
+cp05_0060_B
+cp05_0070
+cp05_0080
+cp05_0090
+cp05_0100
+cp05_0110
+cp05_0120
+cp05_0130
+cp05_0140
+cp05_0150
+cp05_0160
+cp05_0170
+cp05_0180
+cp05_0190
+cp05_0200
+cp05_0210
+cp05_0220
+cp05_0230
+cp05_0240
+cp05_0250
+cp05_0260
+cp05_0270
+cp05_0280
+cp05_0290
+cp05_0300
+cp05_0310
+cp05_0320
+cp05_0330
+cp05_0340
+cp05_0350
+cp05_0360
+cp05_0370
+cp05_0380
+cp05_0390
+cp05_0400
+cp05_0410
+cp05_0420
+cp05_0430
+cp05_naga
+korra_vo_unlock_air_01
+korra_vo_unlock_air_02
+korra_vo_unlock_fire_01
+korra_vo_unlock_fire_02
+spirit_hall_open
+spirit_hall_open_end
+st5_blizzard
+st5_chi_blocker_appear02
+st5_chi_blocker_appear_se
+st5_chi_blocker_appear_vo
+st5_hundun_appear_se
+st5_hundun_appear_vo
+st5_light_tower_wsh
+st5_red_mecha_tunk_appear
+st5_stage_start
+st5_stage_start_vo
+
+### EVENT NAMES (r5a0.bnk)
+cp05_0000
+cp05_0010
+cp05_0020
+cp05_0030
+cp05_0040
+cp05_0050
+cp05_0060
+cp05_0060_B
+cp05_0070
+cp05_0080
+cp05_0090
+cp05_0100
+cp05_0110
+cp05_0120
+cp05_0130
+cp05_0140
+cp05_0150
+cp05_0160
+cp05_0170
+cp05_0180
+cp05_0190
+cp05_0200
+cp05_0210
+cp05_0220
+cp05_0230
+cp05_0240
+cp05_0250
+cp05_0260
+cp05_0270
+cp05_0280
+cp05_0290
+cp05_0300
+cp05_0310
+cp05_0320
+cp05_0330
+cp05_0340
+cp05_0350
+cp05_0360
+cp05_0370
+cp05_0380
+cp05_0390
+cp05_0400
+cp05_0410
+cp05_0420
+cp05_0430
+cp05_naga
+korra_vo_unlock_air_01
+korra_vo_unlock_air_02
+korra_vo_unlock_fire_01
+korra_vo_unlock_fire_02
+spirit_hall_open
+spirit_hall_open_end
+# 2260817016
+# 2455235638
+# 3913586944
+
+### EVENT NAMES (r5c0.bnk)
+cp05_0000
+cp05_0010
+cp05_0020
+cp05_0030
+cp05_0040
+cp05_0050
+cp05_0060
+cp05_0060_B
+cp05_0070
+cp05_0080
+cp05_0090
+cp05_0100
+cp05_0110
+cp05_0120
+cp05_0130
+cp05_0140
+cp05_0150
+cp05_0160
+cp05_0170
+cp05_0180
+cp05_0190
+cp05_0200
+cp05_0210
+cp05_0220
+cp05_0230
+cp05_0240
+cp05_0250
+cp05_0260
+cp05_0270
+cp05_0280
+cp05_0290
+cp05_0300
+cp05_0310
+cp05_0320
+cp05_0330
+cp05_0340
+cp05_0350
+cp05_0360
+cp05_0370
+cp05_0380
+cp05_0390
+cp05_0400
+cp05_0410
+cp05_0420
+cp05_0430
+cp05_naga
+korra_vo_unlock_air_01
+korra_vo_unlock_air_02
+korra_vo_unlock_fire_01
+korra_vo_unlock_fire_02
+st5_portal_battle
+st6_portal
+
+### EVENT NAMES (r6a0.bnk)
+cp06_0000
+cp06_0010
+cp06_0020
+cp06_0030
+cp06_0040
+cp06_0050
+cp06_0060
+cp06_0070
+cp06_0080
+cp06_0090
+cp06_0100
+cp06_0110
+cp06_0120
+cp06_0130
+cp06_0140
+cp06_0150
+cp06_0170
+cp06_0180
+cp06_0190
+cp06_0200
+cp06_0210
+cp06_0220
+cp06_0230
+cp06_0240
+cp06_0250
+cp06_0260
+cp06_0270
+cp06_0280
+cp06_0290
+cp06_0300
+cp06_0310
+cp06_0320
+spirit_hall_open
+spirit_hall_open_end
+st6_hundun_appear
+st6_last_big_gorilla
+st6_last_hundun_se
+st6_last_hundun_vo
+st6_portal
+st6_spirithole
+st6_spirithole_lp
+st6_spiritscry
+st6_spiritscry_small
+st6_spiritworld
+st6_tree_wsh
+# 576324110
+# 4061866674
+
+### EVENT NAMES (r7a0.bnk)
+anouncer_vo_faceoff
+anouncer_vo_knockout
+anouncer_vo_round01
+anouncer_vo_round02
+anouncer_vo_round03
+anouncer_vo_timeup
+anouncer_vo_vs_bq
+anouncer_vo_vs_bw
+anouncer_vo_vs_db
+anouncer_vo_vs_pb
+anouncer_vo_vs_rr
+anouncer_vo_vs_wb
+cp07_0000
+cp07_0010
+cp07_0020
+cp07_0030
+cp07_0040
+cp07_0050
+cp07_0060
+cp07_0070
+cp07_0080
+cp07_0090
+cp07_0100
+cp07_0110
+cp07_0120
+cp07_0130
+cp07_0140
+cp07_0150
+cp07_0160
+cp07_0170
+cp07_0180
+cp07_0190
+cp07_0200
+cp07_0210
+cp07_0220
+cp07_0230
+cp07_0240
+cp07_0250
+cp07_0270
+cp07_0280
+cp07_0290
+cp07_0300
+cp07_0310
+cp07_0340
+cp07_0350
+cp07_0370
+cp07_0380
+cp07_0390
+cp07_0400
+cp07_0410
+cp07_0420
+cp07_0430
+cp07_0440
+cp07_0450
+cp07_0460
+cp07_0470
+cp07_0480
+cp07_0490
+cp07_0500
+cp07_0510
+cp07_0520
+cp07_0530
+cp07_0540
+cp07_0550
+cp07_0560
+cp07_0570
+cp07_0580
+cp07_0590
+cp07_0600
+cp07_0610
+cp07_0620
+cp07_0630
+cp08_0130
+cp08_0140
+PBL_7st_camera_wsh
+PBL_audi_lp
+PBL_audi_round_end
+PBL_audi_round_result_lose
+PBL_audi_round_result_win
+PBL_audi_start
+PBL_audi_up_large
+PBL_audi_up_mid
+PBL_audi_up_small
+PBL_beep_green
+PBL_beep_red
+PBL_em_land_floor
+PBL_faceoff_liftup
+PBL_finish_audi
+PBL_finish_camera
+PBL_finish_fall
+PBL_gong_game_end
+PBL_gong_round_end
+PBL_gong_start
+PBL_gong_time_up
+PBL_next_stage
+PBL_rsult_lamp
+PBL_se_pause_off
+PBL_se_pause_on
+PBL_vs_end_wsh
+PBL_vs_wsh
+pl0000_PBL_cheer
+pl0000_PBL_earth_disc
+pl0000_PBL_earth_disc_break
+pl0000_PBL_earth_disc_fly
+pl0000_PBL_earth_disc_fly_stop
+pl0000_PBL_earth_disc_set
+pl0000_PBL_earth_disc_step
+pl0000_PBL_earth_imp
+pl0000_PBL_Fall
+pl0000_PBL_game_lose
+pl0000_PBL_game_win
+pl0000_PBL_get_zone
+pl0000_PBL_knockout
+pl0000_PBL_lost_zone
+pl5000_PBL_call_bolin
+pl5000_PBL_call_korra
+pl5000_PBL_cheer
+pl5000_PBL_Fall
+pl5000_PBL_game_lose
+pl5000_PBL_game_win
+pl5000_PBL_get_zone
+pl5000_PBL_knockdown
+pl5000_PBL_knockout
+pl5000_PBL_lost_zone
+pl5010_PBL_call_korra
+pl5010_PBL_call_mako
+pl5010_PBL_cheer
+pl5010_PBL_Fall
+pl5010_PBL_game_lose
+pl5010_PBL_game_win
+pl5010_PBL_get_zone
+pl5010_PBL_knockdown
+pl5010_PBL_knockout
+pl5010_PBL_lost_zone
+shiro_vo_1st_round_draw
+shiro_vo_1st_round_lose
+shiro_vo_1st_round_win
+shiro_vo_1st_start
+shiro_vo_2nd_round_draw
+shiro_vo_2nd_round_lose
+shiro_vo_2nd_round_win
+shiro_vo_2nd_start
+shiro_vo_3rd_round_draw
+shiro_vo_3rd_round_win
+shiro_vo_3rd_start
+shiro_vo_before_start
+shiro_vo_count_1min
+shiro_vo_count_30msec
+shiro_vo_count_not
+shiro_vo_em_down
+shiro_vo_em_knockout
+shiro_vo_faceoff_round_lose
+shiro_vo_faceoff_round_win
+shiro_vo_faceoff_start
+shiro_vo_get_zone01
+shiro_vo_get_zone02
+shiro_vo_lost_zone01
+shiro_vo_lost_zone02
+shiro_vo_pl_down
+shiro_vo_pl_game_lose
+shiro_vo_pl_game_win
+shiro_vo_pl_knockout
+shiro_vo_reclaim_zone1
+shiro_vo_reclaim_zone2
+shiro_vo_steal_back_zone1
+shiro_vo_steal_back_zone2
+shiro_vo_team_idol
+st7_pre_avatar
+st7_spiritscry
+st7_spiritworld
+st7_stage_start
+st7_stage_start_end
+st7_stage_start_hundun_se
+st7_stage_start_hundun_vo01
+st7_stage_start_hundun_vo02
+st7_stage_start_hundun_vo03
+st7_stage_start_PBL
+st7_stage_start_vo
+tahno_vo_word_01
+tahno_vo_word_02
+tahno_vo_word_03
+tahno_vo_word_04
+tahno_vo_word_05
+# 702663285
+# 1187495297
+# 3232689621
+
+### RTPC/GAME-VARIABLE NAMES (r7a0.bnk)
+pl_duck_se
+Voice_duck_se
+
+### VARIABLE NAMES (r7a0.bnk)
+PBL_mode_type
+PBL_type
+
+### VALUE NAMES (r7a0.bnk)
+Default
+None
+PBL
+st7
+
+### EVENT NAMES (r8a0.bnk)
+cp07_0260
+cp07_0360
+cp08_0000
+cp08_0010
+cp08_0020
+cp08_0030
+cp08_0040
+cp08_0050
+cp08_0060
+cp08_0070
+cp08_0080
+cp08_0090
+cp08_0100
+cp08_0110
+cp08_0120
+hundun_vo_1st_bt_start_01
+hundun_vo_1st_bt_start_02
+hundun_vo_2nd_bt_start_01
+hundun_vo_2nd_bt_start_02
+spirit_hall_open
+spirit_hall_open_end
+st8_rain
+st8_rain_mute
+st8_rain_unmute
+# 66663455
+# 110184948
+# 493694146
+# 508428966
+# 636510509
+# 636510510
+# 1057848361
+# 1090259852
+# 1090259855
+# 1300086138
+# 1591123675
+# 1606833483
+# 2351351268
+# 2549929389
+# 3137332534
+# 3167722157
+# 3363556146
+# 3573122780
+# 3767147698
+# 4095232464
+# 4095232467
+# 4146070840
+# 4195362764
+# 4283988220
+
+### RTPC/GAME-VARIABLE NAMES (r8a0.bnk)
+em1000_duck_Se
+
+
+### MISSING SFX NAMES (Init.bnk)
+# 171839026
+# 243760287
+# 287227576
+# 299619845
+# 301721536
+# 335391552
+# 433102302
+# 569696350
+# 593794254
+# 746107149
+# 795295732
+# 833189910
+# 1034248438
+# 1072511167
+# 1274800022
+# 1497321967
+# 2106316357
+# 3230131736
+
+### MISSING SFX NAMES (core.bnk)
+# 502936264
+# 759311799
+# 367500992
+# 890995208
+# 180454169
+# 732183982
+# 166032237
+# 990409122
+# 440354020
+# 931796852
+# 137382998
+# 37776843
+# 711313573
+# 585985627
+# 455842122
+# 902136888
+# 484100716
+# 744458683
+# 530417678
+# 917736180
+# 687131064
+# 514248588
+# 159466765
+# 524761427
+# 363106269
+# 1048109114
+
+### MISSING SFX NAMES (em0000.bnk)
+# 295876088
+
+### MISSING SFX NAMES (pl1000.bnk)
+# 1048109114
+
+### MISSING SFX NAMES (plffff.bnk)
+# 512346584
+# 936026408
+# 230888896
+# 239675930
+# 362992658
+# 484663604
+
+### MISSING SFX NAMES (r1a0.bnk)
+# 1048109114
+
+### MISSING SFX NAMES (r2c0.bnk)
+# 1048109114
+
+### MISSING SFX NAMES (r3a0.bnk)
+# 1048109114
+
+### MISSING SFX NAMES (r4a0.bnk)
+# 1048109114
+
+### MISSING SFX NAMES (r500.bnk)
+# 1048109114
+
+### MISSING SFX NAMES (r5a0.bnk)
+# 1048109114
+
+### MISSING SFX NAMES (r5c0.bnk)
+# 1048109114
+
+### MISSING SFX NAMES (r6a0.bnk)
+# 1048109114
+
+### MISSING SFX NAMES (r7a0.bnk)
+# 1048109114
+
+### MISSING SFX NAMES (r8a0.bnk)
+# 1048109114
+
+#4232334024  : UTL_dummy_Voice

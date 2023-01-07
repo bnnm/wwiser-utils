@@ -18,6 +18,16 @@ def is_hashable(hashname):
     return FNV_FORMAT.match(hashname)
 
 
+def get_fnv(name):
+    namebytes = bytes(name.lower(), 'UTF-8')
+    hash = 2166136261 #FNV offset basis
+
+    for namebyte in namebytes:  #for i in range(len(namebytes)):
+        hash = hash * 16777619 #FNV prime
+        hash = hash ^ namebyte #FNV xor
+        hash = hash & 0xFFFFFFFF #python clamp
+    return hash
+
 def get_solved(line):
     if ':' not in line:
         return None
@@ -117,6 +127,12 @@ def fix_wwnames(inname):
 
     clines = []
     for bline in blines:
+        if bline.startswith('#ko') and ':' in bline and FULL_CLEAN:
+            _, hashname = bline.split(':')
+            hashname = hashname.strip()
+            sid = get_fnv(hashname)
+            bline = "# %s" % (sid)
+
         if bline.startswith('# ') and ':' not in bline:
             sid = bline[2:].strip()
             if sid in solved:

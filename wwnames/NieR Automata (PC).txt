@@ -9521,3 +9521,12 @@ SE_r550_Amb_Buzz
 Se_System_no_fx
 System_Background
 System_Foreground
+
+
+4084791188  : BGM_Debug_Jump
+2251640949  : EMA000_FloorCollisionType
+3617381348  : ev1235_Se
+1755141868  : ev1402_Se
+2522289536  : SE_Debug_Jump
+1911317327  : SE_Common_RoomMoveOcclusion
+3344820281  : Se_Pollution_level

@@ -1,0 +1,64 @@
+#@classify-bank-path
+
+### BANK NAMES
+game_vo
+global_sfx
+Init
+
+### VALUE NAMES (sound/Init.bnk)
+Neutral
+ZoE1
+ZoE2
+
+### EVENT NAMES (sound/English(US)/game_vo.bnk)
+Play_AttractVideo
+Play_AttractVideo_Exit
+
+### EVENT NAMES (sound/global_sfx.bnk)
+Mute_MX_UserMXIsPlaying
+Play_Credits_Dismiss
+Play_Credits_Select
+Play_FadeOutAndStopLauncherMX
+Play_GameManual_Dismiss
+Play_GameManual_Select
+Play_Launch_ZoE1
+Play_Launch_ZoE2
+Play_LauncherMX
+Play_LauncherMX_ZoE1
+Play_LauncherMX_ZoE2
+Play_Mute_MX_UserMXIsPlaying
+Play_Navigation_Toggle
+Play_OpeningStartButtonPress
+Play_ResumeLauncherMX
+Play_ToggleGameSelect_ZoE1
+Play_ToggleGameSelect_ZoE2
+Play_TurnPage
+Play_UnMute_MX_UserMXHasStopped
+Stop_MX
+UnMute_MX_UserMXHasStopped
+# 837874919
+
+### VALUE NAMES (sound/global_sfx.bnk)
+Credits
+IntroBink
+Neutral
+None
+ZoE1
+ZoE2
+
+
+### MISSING BUS NAMES
+# 652183330
+# 810799100
+# 710267439
+# 571949444
+# 1025798658
+
+### MISSING SFX NAMES (sound/Init.bnk)
+# 698587535
+
+### MISSING VARIABLE NAMES (sound/global_sfx.bnk)
+# 1257490848
+
+### MISSING VARIABLE NAMES (sound/Init.bnk)
+# 1257490848

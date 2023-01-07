@@ -28,6 +28,7 @@ BNK_DL_Amb_3D_Obj_Watermill
 BNK_DL_Amb_3D_Obj_Windmill
 BNK_DL_Amb_3D_Obj_Wood
 BNK_DL_F_Anml_Global_All
+BNK_DL_F_Anml_Horse_Navigation_Winter
 BNK_DL_F_CWL_3PP_FamilyEatingDinner_INSTALL_3
 BNK_DL_F_CWL_4PP_FamilyEatingDinner_01_INSTALL_3
 BNK_DL_F_CWL_4PP_FamilyEatingDinner_02
@@ -60,15 +61,53 @@ BNK_DL_F_CWL_CuttingMeat_INSTALL_3
 BNK_DL_F_CWL_Decrotteur_Man_INSTALL_3
 BNK_DL_F_CWL_Decrotteur_Wom
 BNK_DL_F_CWL_DrinkingTeaAroundStove_INSTALL_3
+BNK_DL_F_CWL_Eating_Soup
+BNK_DL_F_CWL_Farmer_Seeding
 BNK_DL_F_CWL_Farmers
 BNK_DL_F_CWL_Farmers_ProcessingFlax
 BNK_DL_F_CWL_Flag_INSTALL_2
 BNK_DL_F_CWL_Fountain_INSTALL_3
 BNK_DL_F_CWL_Gardener_INSTALL_3
 BNK_DL_F_CWL_Gardener_OLD_DO_NOT_USE
+BNK_DL_F_CWL_General_ArmWrestling
 BNK_DL_F_CWL_General_BakingBread_INSTALL_3
+BNK_DL_F_CWL_General_BrushingHorse
+BNK_DL_F_CWL_General_ChasingEachOther
+BNK_DL_F_CWL_General_CheckingCrops
+BNK_DL_F_CWL_General_CleaningWindow
+BNK_DL_F_CWL_General_CoupleAtBar
+BNK_DL_F_CWL_General_DrinkingAlone
+BNK_DL_F_CWL_General_DrinkingTea
+BNK_DL_F_CWL_General_DrinkingWithFriends
+BNK_DL_F_CWL_General_EatingAppleLeaningWall
+BNK_DL_F_CWL_General_EatingAppleSit
+BNK_DL_F_CWL_General_EatingAppleStandUp
+BNK_DL_F_CWL_General_FeedingChickens
+BNK_DL_F_CWL_General_Fishing
+BNK_DL_F_CWL_General_FishingSeated
+BNK_DL_F_CWL_General_Kissing
+BNK_DL_F_CWL_General_Loitering
 BNK_DL_F_CWL_General_MakingButter_INSTALL_3
+BNK_DL_F_CWL_General_MakingSnowAngle
+BNK_DL_F_CWL_General_MakingSnowman
+BNK_DL_F_CWL_General_ManWithBarman
+BNK_DL_F_CWL_General_MenAtTable
+BNK_DL_F_CWL_General_PickingMushrooms
+BNK_DL_F_CWL_General_PlayingBocce
+BNK_DL_F_CWL_General_Praying
+BNK_DL_F_CWL_General_ReadingLettersBad
+BNK_DL_F_CWL_General_ReadingLettersGood
+BNK_DL_F_CWL_General_ReadingNewspaper
+BNK_DL_F_CWL_General_Resting
+BNK_DL_F_CWL_General_SeatingAlone
+BNK_DL_F_CWL_General_ShovellingHay
 BNK_DL_F_CWL_General_Smoking_Male
+BNK_DL_F_CWL_General_SpeakingWithFriend
+BNK_DL_F_CWL_General_Sweeping
+BNK_DL_F_CWL_General_ThrowingBall
+BNK_DL_F_CWL_General_TwoMenAWomanOnTable
+BNK_DL_F_CWL_General_WashingClothes
+BNK_DL_F_CWL_General_WateringFlowers
 BNK_DL_F_CWL_GenericBartender_INSTALL_3
 BNK_DL_F_CWL_Grain_Requisition
 BNK_DL_F_CWL_GRD_SecuringPrisonCell
@@ -76,12 +115,19 @@ BNK_DL_F_CWL_GRD_TryingLockedDoor
 BNK_DL_F_CWL_Guillotine
 BNK_DL_F_CWL_GuillotineCart_Exit
 BNK_DL_F_CWL_HammeringBarrel_INSTALL_3
+BNK_DL_F_CWL_Harpoon_Fishing
+BNK_DL_F_CWL_HouseCallsToNPCs
+BNK_DL_F_CWL_Huntress
 BNK_DL_F_CWL_InnKeeper
 BNK_DL_F_CWL_InnKeeper_MakingWines
 BNK_DL_F_CWL_InstallingWheel_INSTALL_3
+BNK_DL_F_CWL_LumberJacks
 BNK_DL_F_CWL_Man_ShavingBeard_INSTALL_3
+BNK_DL_F_CWL_Man_Washing_Hand
+BNK_DL_F_CWL_Miner
 BNK_DL_F_CWL_OilingBarrelInside_INSTALL_3
 BNK_DL_F_CWL_OilingBarrelOutside_INSTALL_3
+BNK_DL_F_CWL_PickingHerbs
 BNK_DL_F_CWL_PlayingCards
 BNK_DL_F_CWL_PreparingFood_Wom_INSTALL_3
 BNK_DL_F_CWL_RemovingBarricade
@@ -92,6 +138,7 @@ BNK_DL_F_CWL_SculptingGunStock_INSTALL_3
 BNK_DL_F_CWL_ServeurMakingDrinks_INSTALL_3
 BNK_DL_F_CWL_StreetPerformer_FireBreather_INSTALL_3
 BNK_DL_F_CWL_StreetPerformer_Juggler
+BNK_DL_F_CWL_Tailor
 BNK_DL_F_CWL_Tannerie_Man_a
 BNK_DL_F_CWL_Tannerie_Man_b
 BNK_DL_F_CWL_Tannerie_Man_c
@@ -103,6 +150,7 @@ BNK_DL_F_CWL_Washing_Floor_INSTALL_3
 BNK_DL_F_CWL_WashingWindow_Casual_INSTALL_3
 BNK_DL_F_CWL_WashingWindow_Vigorously_INSTALL_3
 BNK_DL_F_CWL_WeavingBasket_INSTALL_3
+BNK_DL_F_CWL_Woodworker
 BNK_DL_F_CWL_WritingAtDesk_Man_01_INSTALL_3
 BNK_DL_F_CWL_WritingAtDesk_Man_02
 BNK_DL_FT_Surface_Bush_INSTALL_2
@@ -136,6 +184,7 @@ BNK_DL_FT_Surface_Wood_Solid_INSTALL_2
 BNK_DL_FT_Surface_Wood_Tree_INSTALL_2
 BNK_DL_Object_Boat
 BNK_DL_Object_Carrier
+BNK_DL_Object_Cart_Moving
 BNK_DL_Object_Powder_Keg_Physic
 BNK_DL_SFX_Anml_Global_All
 BNK_DLC_MTP_Bootstrap
@@ -157,6 +206,7 @@ BNK_DLC_MTP_GLOBAL_SwordOfSuger
 BNK_DLC_MTP_GLOBAL_VO_AI_Dialog_Non_Localised
 BNK_DLC_MTP_GLOBAL_VO_AI_ONO_Non_Localised
 BNK_DLC_MTP_MLAYER_SFX_SCR_COOP
+BNK_DLC_MTP_MLAYER_SFX_SCR_COOP_HEIST
 BNK_DLC_MTP_MLAYER_SFX_SCR_SP_M010
 BNK_DLC_MTP_MLAYER_SFX_SCR_SP_M020
 BNK_DLC_MTP_MLAYER_SFX_SCR_SP_M025
@@ -180,6 +230,13 @@ BNK_F_CWL_Villa
 BNK_Music_Combat_LVL1
 BNK_Music_Coop_E3
 BNK_Music_Credits
+BNK_MUsic_Exploration_Bievre
+BNK_MUsic_Exploration_IleCite
+BNK_MUsic_Exploration_Invalides
+BNK_MUsic_Exploration_Louvre
+BNK_MUsic_Exploration_Marais
+BNK_MUsic_Exploration_QuartierLatin
+BNK_MUsic_Exploration_VentreParis
 BNK_Music_Global_Media
 BNK_Music_Global_SideMission
 BNK_Music_Global_Structure_INSTALL_1
@@ -215,6 +272,9 @@ BNK_SFX_SCR_SP_BR03_Medieval_Paris
 BNK_SFX_SCR_SP_HE01_Helix_Intro_INSTALL_1
 BNK_SFX_SCR_SP_HE02_Assassin_Contract_INSTALL_2
 BNK_SFX_SCR_SP_HE03_Welcome_To_The_Assassin
+BNK_SFX_SCR_SP_HE04_Notre_Dame_Puzzle
+BNK_SFX_SCR_SP_HE06_Sainte_Chapelle_Puzzle
+BNK_SFX_SCR_SP_HE08_Versailles_Puzzle
 BNK_SFX_SCR_SP_SQ00_INSTALL_2
 BNK_SFX_SCR_SP_SQ01_M010_M020_M030_INSTALL_3
 BNK_SFX_SCR_SP_SQ02_M010
@@ -319,6 +379,8 @@ BNK_WRLD_Media_Amb_Bievre_Asylum_Dawn
 BNK_WRLD_Media_Amb_Bievre_Asylum_Generic
 BNK_WRLD_Media_Amb_Bievre_Asylum_Night
 BNK_WRLD_Media_Amb_Bievre_Asylum_Noon
+BNK_WRLD_Media_Amb_Bievre_Beach_Dawn
+BNK_WRLD_Media_Amb_Bievre_Beach_Noon
 BNK_WRLD_Media_Amb_Bievre_Default_Dawn
 BNK_WRLD_Media_Amb_Bievre_Default_Generic
 BNK_WRLD_Media_Amb_Bievre_Default_Night
@@ -335,6 +397,7 @@ BNK_WRLD_Media_Amb_Bievre_Slums_Dawn
 BNK_WRLD_Media_Amb_Bievre_Slums_Generic
 BNK_WRLD_Media_Amb_Bievre_Slums_Night
 BNK_WRLD_Media_Amb_Bievre_Tanneries_Dawn
+BNK_WRLD_Media_Amb_Bievre_Tanneries_Evening
 BNK_WRLD_Media_Amb_Bievre_Tanneries_Generic
 BNK_WRLD_Media_Amb_Bievre_Tanneries_Night
 BNK_WRLD_Media_Amb_Bievre_Tanneries_Noon
@@ -427,57 +490,34 @@ z_BNK_TEST_AI_Scripted
 # 1008472225
 # 1009585007
 # 1023896978
-# 1024213087
 # 1029583101
 # 1030160101
 # 1033129465
-# 1037874454
 # 1051821645
 # 1089399028
-# 1089950349
-# 1112694616
 # 1124937723
 # 114620784
-# 1155474308
-# 1158278684
 # 1158357858
 # 1158801428
 # 1169101754
 # 1173400680
-# 1187426233
 # 121824570
 # 1223219241
-# 1232143274
 # 1294682588
 # 1300690642
-# 131424220
-# 1316595895
-# 1348692227
-# 1353716293
 # 1372437359
-# 1425017184
 # 1448926715
-# 14599671
 # 1479108334
-# 1480814899
-# 1498272379
-# 1502231425
 # 1509655549
 # 1511316805
 # 15175650
 # 1517910342
-# 1518449823
 # 1582971756
-# 1607516057
 # 1638506882
 # 1663822563
-# 167043751
-# 1682331334
 # 1694159470
-# 1737412799
 # 1767381972
 # 1776086196
-# 1818456908
 # 1840110918
 # 1860873809
 # 1863308667
@@ -491,23 +531,18 @@ z_BNK_TEST_AI_Scripted
 # 198763404
 # 199939222
 # 2000293662
-# 2000793811
 # 203418942
 # 204680838
-# 2058393761
 # 2066320710
 # 2089976655
-# 2099998791
 # 2101092046
 # 2112169891
 # 212929415
 # 213490216
 # 2143021178
-# 2153799902
 # 2160831911
 # 2165247631
 # 2216026260
-# 2220483824
 # 227500412
 # 2287060288
 # 2293569367
@@ -515,8 +550,6 @@ z_BNK_TEST_AI_Scripted
 # 2303836641
 # 2319452966
 # 2357988151
-# 2361575106
-# 2362301745
 # 2366403857
 # 2369319860
 # 2370159462
@@ -525,10 +558,7 @@ z_BNK_TEST_AI_Scripted
 # 2431543062
 # 2454084335
 # 2472577617
-# 2475772222
-# 2514624622
 # 2529166669
-# 2533714464
 # 2544752327
 # 2580314344
 # 2589918484
@@ -538,12 +568,9 @@ z_BNK_TEST_AI_Scripted
 # 2643762405
 # 2660327349
 # 2680115865
-# 2712993715
 # 271457702
-# 274363966
 # 2751241352
 # 2755606466
-# 2759013352
 # 2826185181
 # 2851496559
 # 2886684522
@@ -551,24 +578,17 @@ z_BNK_TEST_AI_Scripted
 # 2900116508
 # 2967252461
 # 2976819222
-# 2981543035
 # 2986281794
 # 3034412493
-# 3037309625
 # 3074310408
 # 3085867715
 # 3101788287
 # 3109234010
 # 3121312447
-# 3124030248
-# 3129003124
-# 3173011883
-# 3188154060
 # 3194256903
 # 3201238363
 # 3231352364
 # 3234960978
-# 3237185223
 # 3241188661
 # 324354029
 # 3257542794
@@ -577,10 +597,7 @@ z_BNK_TEST_AI_Scripted
 # 3290057635
 # 3363512313
 # 3366209254
-# 3390398344
-# 3399855547
 # 3403450881
-# 3422060748
 # 3443065491
 # 3448904993
 # 3473159466
@@ -597,12 +614,8 @@ z_BNK_TEST_AI_Scripted
 # 3579819954
 # 3590098276
 # 3611484441
-# 3642483103
-# 3652912015
 # 3657887323
-# 3659729087
 # 3660446092
-# 3674927444
 # 3678771085
 # 3684803631
 # 3715614148
@@ -616,24 +629,19 @@ z_BNK_TEST_AI_Scripted
 # 3865584583
 # 3874108533
 # 3881050372
-# 3895327584
 # 3928315133
-# 3931864582
 # 3943767703
 # 3976630939
 # 3978073573
 # 3987571498
-# 401114278
 # 404797835
 # 4068449266
 # 4080945879
 # 4087039742
 # 4095794316
 # 4111877066
-# 4114501515
 # 4123433868
 # 4154219742
-# 4159589672
 # 416351330
 # 4178345342
 # 4179594601
@@ -642,28 +650,20 @@ z_BNK_TEST_AI_Scripted
 # 4230255532
 # 4232226816
 # 4245013438
-# 4247098400
 # 4251430909
 # 430694610
-# 439208996
 # 440909977
 # 444674744
 # 451874106
 # 453313593
-# 491649961
 # 501464175
 # 507129521
-# 554126002
 # 607866760
 # 619178431
-# 646950418
 # 652966058
 # 669102932
-# 677624197
 # 67945468
 # 687868279
-# 691312649
-# 7011823
 # 733495431
 # 768671483
 # 83324917
@@ -680,8 +680,187 @@ z_BNK_TEST_AI_Scripted
 
 ### BUS NAMES
 Feedback
+FX_RVB_INT_CAVERN
+FX_RVB_INT_CHURCH
+FX_RVB_INT_ROOM_LARGE
+FX_RVB_INT_ROOM_MEDIUM
+FX_RVB_INT_ROOM_SMALL
+FX_RVB_INT_UNDERGROUND_CORRIDOR
 HDR
+HDR_Nonworld
+HDR_Nonworld_Ingame
+HDR_Nonworld_Ingame_All
+HDR_Nonworld_InGame_Music
+HDR_Nonworld_InGame_Music_Cinematic
+HDR_Nonworld_InGame_Music_FX
+HDR_Nonworld_InGame_Music_Missions
+HDR_Nonworld_InGame_Music_Sidemissions
+HDR_Nonworld_InGame_Music_Sidemissions_AC105
+HDR_Nonworld_InGame_Music_Sidemissions_Accept
+HDR_Nonworld_InGame_Music_Source
+HDR_Nonworld_InGame_Music_Systemic
+HDR_Nonworld_InGame_Music_Systemic_Combat
+HDR_Nonworld_InGame_Music_Systemic_Exploration
+HDR_Nonworld_InGame_Music_Systemic_MurderMystery
+HDR_Nonworld_InGame_Music_Systemic_Node
+HDR_Nonworld_InGame_Music_Systemic_RHP
+HDR_Nonworld_InGame_Music_Systemic_RHP_Climb
+HDR_Nonworld_InGame_Music_Systemic_RHP_Sync
+HDR_Nonworld_InGame_Music_Systemic_Stress
+HDR_Nonworld_InGame_Music_Systemic_Villa
+HDR_Nonworld_InGame_Music_Villa
 HDR_World
+HDR_World_InGame
+HDR_World_InGame_All
+HDR_World_InGame_Amb_3D
+HDR_World_InGame_Amb_3D_Bells
+HDR_World_InGame_Amb_3D_lp
+HDR_World_InGame_Amb_3D_lp_Tree
+HDR_World_InGame_Amb_3D_Rift
+HDR_World_InGame_Amb_Pad
+HDR_World_InGame_Amb_Pad_Alley
+HDR_World_InGame_Amb_Pad_Courtyard
+HDR_World_InGame_Amb_Pad_Exterior
+HDR_World_InGame_Amb_Pad_Interior
+HDR_World_InGame_Amb_Pad_Interior_Generic
+HDR_World_InGame_Amb_Pad_Interior_Villa
+HDR_World_InGame_Amb_Pad_Present
+HDR_World_InGame_Amb_Pad_Rift
+HDR_World_InGame_Amb_Pad_Street
+HDR_World_InGame_Amb_Pad_Street_Large
+HDR_World_InGame_Amb_Pad_Street_Small
+HDR_World_InGame_Amb_Pad_Underground
+HDR_World_InGame_Amb_Pad_Underground_Pad
+HDR_World_InGame_Amb_Pad_Winter
+HDR_World_InGame_Amb_RFX
+HDR_World_InGame_Amb_RFX_Animals
+HDR_World_InGame_Amb_RFX_Birds
+HDR_World_InGame_Amb_RFX_Courtyard
+HDR_World_InGame_Amb_Rfx_Exterior
+HDR_World_InGame_Amb_RFX_Forest
+HDR_World_InGame_Amb_RFX_Generic
+HDR_World_InGame_Amb_RFX_Humans
+HDR_World_InGame_Amb_RFX_Insects
+HDR_World_InGame_Amb_Rfx_Interior
+HDR_World_InGame_Amb_RFX_Interior_Church
+HDR_World_InGame_Amb_Rfx_Interior_house
+HDR_World_InGame_Amb_RFX_Interior_Tavern
+HDR_World_InGame_Amb_RFX_Objects
+HDR_World_InGame_Amb_RFX_Street_Large
+HDR_World_InGame_Amb_RFX_Street_Small
+HDR_World_InGame_Amb_RFX_Underground
+HDR_World_InGame_Amb_RFX_Weapon
+HDR_World_InGame_Amb_Walla
+HDR_World_InGame_Amb_Weather
+HDR_World_InGame_Amb_Weather_Lightning
+HDR_World_InGame_Amb_Weather_Rain
+HDR_World_InGame_Amb_Weather_Rain_Inside
+HDR_World_InGame_Amb_Weather_Thunder
+HDR_World_InGame_Amb_Wind_Altitude
+HDR_World_InGame_Ambiance
+HDR_World_InGame_F_CHR_Body
+HDR_World_InGame_Foley
+HDR_World_InGame_Foley_Animals
+HDR_World_InGame_Foley_Anml_deer
+HDR_World_InGame_Foley_Anml_Dog
+HDR_World_InGame_Foley_Anml_Wolf
+HDR_World_InGame_Foley_Bird_Eagle
+HDR_World_InGame_Foley_Character
+HDR_World_InGame_Foley_CrowdLife
+HDR_World_InGame_Foley_Falla
+HDR_World_InGame_Foley_Falla_Guards
+HDR_World_InGame_Foley_Falla_Npc
+HDR_World_InGame_Foley_Horse_Navigation
+HDR_World_InGame_Foley_Object_Physic
+HDR_World_InGame_Music
+HDR_World_InGame_Music_Source
+HDR_World_InGame_Music_Source_Background
+HDR_World_InGame_Music_Source_Scripted
+HDR_World_InGame_Music_Source_Tavern
+HDR_World_InGame_Music_Source_Villa
+HDR_World_InGame_Music_Source_World
+HDR_World_InGame_SFX
+HDR_World_InGame_SFX_Animals
+HDR_World_InGame_SFX_Anml_Chicken
+HDR_World_InGame_SFX_Anml_Chicken_Exclamation
+HDR_World_InGame_SFX_Anml_Chicken_talk
+HDR_World_InGame_SFX_anml_Cow
+HDR_World_InGame_SFX_anml_Cow_Exclamation
+HDR_World_InGame_SFX_anml_Cow_Talk
+HDR_World_InGame_SFX_anml_Deer
+HDR_World_InGame_SFX_Anml_Dog
+HDR_World_InGame_SFX_Anml_Dog_Barking
+HDR_World_InGame_SFX_Anml_Dog_Panting_Reaction
+HDR_World_InGame_SFX_Anml_Goat
+HDR_World_InGame_SFX_anml_Goat_Exclamation
+HDR_World_InGame_SFX_Anml_Goat_Talk
+HDR_World_InGame_SFX_Anml_Horse
+HDR_World_InGame_SFX_Anml_Horse_Breathe
+HDR_World_InGame_SFX_Anml_Horse_Whinny
+HDR_World_InGame_SFX_anml_Pig
+HDR_World_InGame_SFX_anml_Pig_Exclamation
+HDR_World_InGame_SFX_anml_Pig_Talk
+HDR_World_InGame_SFX_Anml_Sheep
+HDR_World_InGame_SFX_anml_Sheep_Exclamation
+HDR_World_InGame_SFX_Anml_Sheep_Talk
+HDR_World_InGame_SFX_appleEden
+HDR_World_InGame_SFX_Brasero
+HDR_World_InGame_SFX_Explosion
+HDR_World_InGame_SFX_Fireworks
+HDR_World_InGame_SFX_Rift
+HDR_World_InGame_SFX_Vehicles
+HDR_World_InGame_SFX_W_Assassination
+HDR_World_InGame_SFX_W_Assassination_hblade
+HDR_World_InGame_SFX_W_Assassination_nonlethal
+HDR_World_InGame_SFX_W_cannon_shot
+HDR_World_InGame_SFX_W_Heavy_Axe
+HDR_World_InGame_SFX_W_Heavy_Axe_Parry
+HDR_World_InGame_SFX_W_Heavy_Axe_Parry_LVL1
+HDR_World_InGame_SFX_W_Heavy_Axe_Parry_LVL2
+HDR_World_InGame_SFX_W_Heavy_Axe_Parry_LVL3
+HDR_World_InGame_SFX_W_Heavy_nonlethal_Generic
+HDR_World_InGame_SFX_W_Heavy_Sword
+HDR_World_InGame_SFX_W_Medium_Generic
+HDR_World_InGame_SFX_W_Medium_nonlethal_Generic
+HDR_World_InGame_SFX_W_Medium_nonlethal_Wood
+HDR_World_InGame_SFX_W_Medium_Sword
+HDR_World_InGame_SFX_W_Medium_Sword_Parry
+HDR_World_InGame_SFX_W_Medium_Sword_Parry_LVL1
+HDR_World_InGame_SFX_W_Medium_Sword_Parry_LVL2
+HDR_World_InGame_SFX_W_Medium_Sword_Parry_LVL3
+HDR_World_InGame_SFX_W_Medium_Sword_Whooshes_LVL1
+HDR_World_InGame_SFX_W_Medium_Sword_Whooshes_LVL2
+HDR_World_InGame_SFX_W_Medium_Sword_Whooshes_LVL3
+HDR_World_InGame_SFX_W_Unarmed
+HDR_World_InGame_SFX_W_Unarmed_Whooshes
+HDR_World_InGame_SFX_W_Unarmed_Whooshes_LVL1
+HDR_World_InGame_SFX_W_Unarmed_Whooshes_LVL2
+HDR_World_InGame_SFX_W_Unarmed_Whooshes_LVL3
+HDR_World_InGame_SFX_Weapon
+HDR_World_InGame_SFX_Weapon_Cannon
+HDR_World_InGame_SFX_Weapon_Gun
+HDR_World_InGame_SFX_Weapon_Tool
+HDR_World_InGame_SFX_Weppa
+HDR_World_InGame_VO_AI_All
+HDR_World_InGame_VO_AI_DIALOGUE
+HDR_World_InGame_VO_AI_NPC
+HDR_World_InGame_W_Musket
+HDR_World_InGame_W_Pistol
+HDR_World_InGame_Walla_Bulk
+HDR_World_InGame_Walla_Bulk_Systemic
+HDR_World_InGame_Walla_Bulk_Systemic_Large
+HDR_World_InGame_Walla_Bulk_Systemic_Medium
+HDR_World_InGame_Walla_Bulk_Systemic_Small
+HDR_World_InGame_Walla_Scripted
+HDR_World_InGame_walla_specific
+HDR_World_InGame_Walla_systemic
+HDR_World_InGame_Walla_Systemic_Combat_All
+HDR_World_InGame_Walla_Systemic_Combat_Intro
+HDR_World_InGame_Walla_Systemic_Combat_Pad
+HDR_World_InGame_Walla_Systemic_Combat_RFX
+HDR_World_InGame_Walla_systemic_Pad
+HDR_World_InGame_Walla_Systemic_Pad_Location
+HDR_World_InGame_Walla_Systemic_Punct
 HUD
 Main_Character
 Master Audio Bus = 0
@@ -689,26 +868,70 @@ Master Motion Bus = 0
 Master Secondary Bus = 0
 Menu
 NonHDR
+NonHDR_Nonworld
+NonHDR_Nonworld_Ingame
+NonHDR_Nonworld_Ingame_SFX
+NonHDR_Nonworld_InGame_SFX_FB_Animus_Critical_State
+NonHDR_Nonworld_Ingame_SFX_FB_Blend
+NonHDR_Nonworld_Ingame_SFX_FB_Desync
+NonHDR_Nonworld_Ingame_SFX_FB_DISGUISE
+NonHDR_Nonworld_Ingame_SFX_Feedback
+NonHDR_Nonworld_Ingame_SFX_HUD
+NonHDR_Nonworld_Ingame_sfx_HUD_Afs
+NonHDR_Nonworld_InGame_SFX_HUD_AFS_Reward
+NonHDR_Nonworld_Ingame_SFX_HUD_Amb
+NonHDR_Nonworld_Ingame_SFX_Reach_High_Point
+NonHDR_Nonworld_Ingame_SFX_Skill
+NonHDR_Nonworld_Ingame_SFX_VR_Room
+NonHDR_Nonworld_Ingame_SFX_Whiteroom
+NonHDR_Nonworld_Ingame_VO
+NonHDR_Nonworld_Ingame_VO_Juno
+NonHDR_Nonworld_Menu
+NonHDR_Nonworld_Menu_Ambiance
+NonHDR_Nonworld_Menu_Music
+NonHDR_Nonworld_Menu_Sfx
+NonHDR_Nonworld_Menu_SFX_Menu_Map
+NonHDR_Nonworld_Menu_Sfx_Menu_Pause
+NonHDR_Nonworld_Menu_SFX_Menu_Title_Screen
+NonHDR_Nonworld_Menu_Sfx_Menu_Vr_Mission
+NonHDR_Nonworld_Menu_Vo
+NonHDR_Nonworld_Menu_Vo_Villa
+NonHDR_Nonworld_Mix
+NonHDR_Nonworld_Mix_Music
+NonHDR_Nonworld_Mix_Music_BlackBox
+NonHDR_Nonworld_Mix_Music_Credits
+NonHDR_Nonworld_Mix_Music_title_screen
+NonHDR_Nonworld_Mix_Sfx
+NonHDR_Nonworld_Mix_Sfx_FB
+NonHDR_Nonworld_Mix_Sfx_FB_Respawn
+NonHDR_Nonworld_Mix_Sfx_Hud
+NonHDR_Nonworld_Mix_Vo
+NonHDR_Nonworld_Mix_Vo_Villa
+NonHDR_Nonworld_Transition
+NonHDR_Nonworld_Transition_Hud
+NonHDR_Nonworld_Transition_IntrO
+NonHDR_Nonworld_Transition_Loop
+NonHDR_Nonworld_Transition_Mute
+NonHDR_Nonworld_Transition_Outro
+NonHDR_Nonworld_Whiteroom_Music
 NonHDR_World
+NonHDR_World_InGame
+NonHDR_World_InGame_Amb_Wind
+NonHDR_World_InGame_Ambiance
+NonHDR_World_InGame_VO
+NonHDR_World_InGame_VO_AI_Ono
+NonHDR_World_InGame_VO_AI_Ono_Assassin
+NonHDR_World_InGame_VO_AI_Ono_Guard
+NonHDR_World_InGame_VO_AI_Ono_NPC
+NonHDR_World_InGame_VO_AI_Ono_Scripted
+NonHDR_World_InGame_VO_SCR
+NonHDR_World_InGame_VO_SCR_Arno
+NonHDR_World_InGame_VO_SCR_Mission
+NonHDR_World_InGame_VO_SCR_NPC
 Player_Feedback
 ST_MISSION_TYPE_ANIMUS_GLITCH
-# 1846758960
 # 3808635471
-# 892667177
-# 1751885652
-# 1483096485
-# 682727898
-# 4213563638
-# 3234109150
-# 3458917163
-# 2661359066
-# 3228088422
-# 1192457578
 # 2771785781
-# 696203235
-# 2743653737
-# 1887079459
-# 4135790239
 # 3794847569
 # 708923909
 # 4222223795
@@ -718,17 +941,10 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 2979253895
 # 1708089347
 # 1095985091
-# 653073850
-# 2811345444
 # 1160956102
-# 872764927
 # 3105004365
 # 3391944537
-# 1056549120
-# 3499134401
-# 2532669035
 # 3797311993
-# 1366055550
 # 1795289728
 # 295941809
 # 3056132346
@@ -749,7 +965,6 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 926371578
 # 111115420
 # 1368349753
-# 1321272397
 # 3510575209
 # 3730438535
 # 50471861
@@ -760,12 +975,9 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 2074754377
 # 2086056108
 # 4062522477
-# 1621802712
 # 3473277928
 # 2984263137
-# 1466110062
 # 1293033522
-# 1690060503
 # 1396841736
 # 3383299871
 # 2994299768
@@ -773,128 +985,56 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 2284962359
 # 1090174843
 # 420336036
-# 1414119966
 # 3231877613
-# 4014838130
 # 2757651037
 # 2675173650
 # 2801947607
 # 3801733232
-# 35661380
-# 4176339376
 # 1487356122
-# 653819352
 # 2415924439
 # 2769130004
 # 3109074128
 # 709970538
 # 3278319915
-# 1752531548
-# 1752531549
-# 1752531550
-# 2596176226
 # 3494261246
 # 1289951871
-# 2647346245
-# 607158371
 # 693975231
-# 3657887510
-# 1826201669
 # 2262219613
 # 1195254673
-# 1705462403
-# 3239049748
-# 3629336815
-# 2633501783
-# 111347331
-# 400498397
 # 3221827072
 # 2652458854
-# 358563499
-# 490475968
-# 2963177050
-# 2465175943
-# 3404029266
 # 721469389
 # 30113362
 # 718573728
-# 2572472686
-# 3713519072
-# 3736551572
 # 3570862854
-# 466337417
-# 2601249703
-# 158604903
-# 4137413711
-# 2129462565
-# 2576925268
-# 1543404713
-# 2357855081
-# 1471825226
 # 2716043438
 # 475567239
 # 1546252897
-# 515447140
-# 1704002202
 # 1689920276
 # 856561953
 # 4211172221
-# 1988264997
-# 1812337726
-# 3099021485
-# 1099621030
-# 4089505513
-# 3685915086
-# 265332325
-# 3714066732
-# 2451727845
 # 3558825413
 # 151763607
 # 2471232006
-# 4029832427
 # 413484811
 # 3222473306
-# 3938312145
-# 2088679232
-# 2404941584
-# 1712609416
 # 951448196
-# 1866902929
-# 3820514881
 # 893525116
-# 1735106784
-# 529285022
-# 2086585454
-# 2269312893
 # 3172959612
-# 3275920615
 # 2269427721
 # 2874590430
 # 1692523092
 # 3764516812
 # 2734034340
 # 3919131047
-# 2605064761
 # 732194393
-# 932149103
 # 1606628811
-# 3374210202
 # 3364213696
 # 483060264
-# 2324196253
-# 2524532288
-# 326231633
 # 1754972387
-# 432515209
-# 3368064463
 # 2260638782
-# 1972774026
-# 1972774025
-# 1942147086
 # 747987804
 # 2277020062
-# 4250570660
-# 1345095590
 # 1578747816
 # 2070477504
 # 198254608
@@ -905,21 +1045,16 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 3137544605
 # 3969069348
 # 2499172216
-# 3223460195
-# 1524139138
 # 2395646435
 # 3853536346
 # 4014556471
-# 3182611412
 # 1116866167
 # 4171937537
 # 25703438
 # 1874253440
 # 1234372321
-# 1200989362
 # 1478996281
 # 3102520117
-# 1972774027
 # 3945829754
 # 1164857836
 # 327001445
@@ -946,8 +1081,6 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 1050578231
 # 1796569378
 # 1050578228
-# 4118151759
-# 523731280
 # 2898173829
 # 2643599710
 # 2064194671
@@ -957,8 +1090,6 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 2881484044
 # 2782779538
 # 2602542472
-# 4089944171
-# 1455164824
 # 2725045594
 # 3552187725
 # 1745552991
@@ -966,56 +1097,27 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 650943660
 # 3504570554
 # 3969184637
-# 3150461928
 # 1957019526
 # 3967991504
 # 951726515
 # 1232187613
 # 3488113253
 # 3443660474
-# 11483035
-# 2864287308
-# 3316883940
-# 3179763611
-# 2732140382
-# 3361673951
-# 4148230765
-# 1941655839
-# 3930253425
 # 4121776728
 # 4265000094
-# 4286757449
-# 2452663837
 # 4060097368
 # 47428942
 # 1772991058
 # 3782859584
-# 1502520076
 # 183792100
 # 2228664111
-# 2543571441
-# 2182414905
-# 4090651417
 # 1087974745
-# 2188016522
-# 3854641433
-# 102210353
-# 861446987
 # 1913668484
-# 1436215151
 # 2551331948
-# 3707434747
-# 935484515
 # 4217462599
-# 421825490
 # 1921324178
-# 687862267
-# 2803424415
-# 185856023
 # 3240231500
 # 2754338201
-# 1147822611
-# 1454868551
 # 148175795
 # 94703005
 # 220422327
@@ -1043,15 +1145,9 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 409046739
 # 850069549
 # 1203783002
-# 1547037920
-# 2180309826
-# 2235098726
-# 2296713684
 # 2652772758
 # 2904077645
 # 3024138565
-# 3151546213
-# 3590680264
 # 4038102723
 # 991290400
 # 862401602
@@ -1075,9 +1171,6 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 2664710450
 # 2716053868
 # 2831592370
-# 3802864564
-# 1144467712
-# 1199029727
 # 785491594
 # 440269253
 # 728356954
@@ -1087,7 +1180,6 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 2463791712
 # 3070979622
 # 3316906939
-# 1230069091
 # 1382355599
 # 2358596094
 # 3468401067
@@ -1111,27 +1203,6 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 3228145685
 # 4053159667
 # 1643752565
-# 1775413062
-# 2109264264
-# 3733175808
-# 2950958395
-# 3665334959
-# 252226553
-# 1910256407
-# 2959288997
-# 3485623157
-# 826000235
-# 2365934330
-# 3045114220
-# 1465432430
-# 3983900665
-# 3148884165
-# 1972909338
-# 3650676491
-# 3392626472
-# 3102944359
-# 3437132894
-# 302194378
 # 1407438135
 # 2948157286
 # 165550541
@@ -1176,9 +1247,6 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 349609327
 # 1050578225
 # 1050578230
-# 3565752905
-# 4089944168
-# 4089944169
 # 4035108113
 # 3586019920
 # 3586019921
@@ -1187,7 +1255,6 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 4042734239
 # 1369981496
 # 1369981503
-# 2044118176
 # 466126100
 # 3348887731
 # 4193232229
@@ -1199,7 +1266,6 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 225821835
 # 1712813322
 # 4047693534
-# 640284466
 # 2677757459
 # 833295211
 # 1636411323
@@ -1212,9 +1278,6 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 283767572
 # 283767573
 # 283767574
-# 3047382048
-# 1455164826
-# 1455164827
 # 3164702702
 # 972414160
 # 972414167
@@ -1229,14 +1292,10 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 4283630941
 # 1116866164
 # 1116866165
-# 1450259641
-# 4280603866
-# 1547053018
 # 777966653
 # 2406782210
 # 3550234520
 # 3668126037
-# 3370944112
 # 161230753
 # 1269588859
 # 1396490958
@@ -1244,18 +1303,12 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 2785005601
 # 2480429702
 # 2480429712
-# 2597309899
 # 3319646174
-# 1554037676
-# 3304280221
 # 1360278021
 # 1704491953
 # 279963152
-# 1943562283
 # 1113841790
 # 3252194976
-# 2008807808
-# 3274369814
 # 1628438548
 # 1861608471
 # 1940855697
@@ -1273,8 +1326,6 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 339209050
 # 1610923371
 # 2703983776
-# 3534785002
-# 882394759
 # 3027279381
 # 1242522050
 # 1242522051
@@ -1296,106 +1347,56 @@ ST_MISSION_TYPE_ANIMUS_GLITCH
 # 864029709
 # 1176110638
 # 3425409253
-# 2742437466
-# 686423961
-# 4240182841
-# 487269939
 # 625469100
-# 874102742
 # 3309387280
 # 4167394431
-# 3293378463
-# 3492981668
-# 2503457585
-# 1756235784
 # 3222333684
-# 2813676422
-# 2819568000
-# 3770764817
 # 2036843527
 # 189323938
-# 1116664561
-# 2194363671
-# 3051360567
-# 294748873
-# 2397470331
 # 421552654
 # 3890970854
 # 1584861161
 # 2981489944
-# 26366723
 # 1298798283
-# 1346143161
 # 3333333602
-# 4114238017
 # 1975049859
-# 2119898959
-# 1752467529
 # 1848099038
-# 3953892357
 # 2381909518
 # 627895063
 # 853305003
 # 1242016172
 # 1291554264
 # 3991070337
-# 2606853568
-# 122511315
-# 1983269991
 # 671813191
-# 3059256451
-# 2488107970
-# 1673750614
 # 744530750
 # 3341306680
-# 1663658383
 # 240521649
-# 1006935028
 # 1366096606
-# 1515704079
 # 1358187610
-# 2768971014
-# 3489421107
 # 106405406
 # 190182234
-# 2045645902
 # 4243324726
-# 3347821284
 # 2014335344
-# 4286858770
 # 3916588498
 # 2505530960
-# 1083233750
 # 2005939079
-# 2318907465
-# 625370221
-# 1495050380
 # 1945215898
 # 3499336699
-# 1392183530
-# 1582990164
 # 3873916873
-# 2582926643
-# 2767480563
 # 1001447290
 # 440032296
 # 3579805215
-# 486035240
 # 881886955
 # 1035928320
-# 1472073182
-# 2451430746
-# 2646577130
-# 2950952110
 # 3631988843
 # 1749326833
 # 471243009
 # 825983585
 # 1273609559
 # 2122678449
-# 3276625835
 
 ### VARIABLE NAMES (2153799902.bnk)
+ST_AMBIANCE_WEATHER_TYPE
 ST_GLOBAL_DISTRICT
 ST_GLOBAL_INT_EXT
 ST_GLOBAL_TOD
@@ -1404,7 +1405,6 @@ ST_MUSIC_EXPLORATION
 ST_MUSIC_GAME_PROGRESSION
 SW_MUSIC_ALTITUDE
 # 858804902
-# 30926549
 
 ### VALUE NAMES (2153799902.bnk)
 ST_GLOBAL_DISTRICT_BIEVRE
@@ -1429,6 +1429,7 @@ SW_MUSIC_ALTITUDE_YES
 # 1537184050
 
 ### VARIABLE NAMES (2220483824.bnk)
+ST_AMBIANCE_WEATHER_TYPE
 ST_GLOBAL_DISTRICT
 ST_GLOBAL_INT_EXT
 ST_GLOBAL_TOD
@@ -1437,7 +1438,6 @@ ST_MUSIC_EXPLORATION
 ST_MUSIC_GAME_PROGRESSION
 SW_MUSIC_ALTITUDE
 # 858804902
-# 30926549
 
 ### VALUE NAMES (2220483824.bnk)
 ST_GLOBAL_DISTRICT_BIEVRE
@@ -1457,6 +1457,7 @@ ST_MUSIC_EXPLORATION_OFF
 ST_MUSIC_EXPLORATION_ON
 
 ### VARIABLE NAMES (2533714464.bnk)
+ST_AMBIANCE_WEATHER_TYPE
 ST_GLOBAL_DISTRICT
 ST_GLOBAL_INT_EXT
 ST_GLOBAL_TOD
@@ -1465,7 +1466,6 @@ ST_MUSIC_EXPLORATION
 ST_MUSIC_GAME_PROGRESSION
 SW_MUSIC_ALTITUDE
 # 858804902
-# 30926549
 
 ### VALUE NAMES (2533714464.bnk)
 ST_GLOBAL_DISTRICT_BIEVRE
@@ -1484,6 +1484,7 @@ ST_MUSIC_EXPLORATION_OFF
 ST_MUSIC_EXPLORATION_ON
 
 ### VARIABLE NAMES (274363966.bnk)
+ST_AMBIANCE_WEATHER_TYPE
 ST_GLOBAL_DISTRICT
 ST_GLOBAL_INT_EXT
 ST_GLOBAL_TOD
@@ -1492,7 +1493,6 @@ ST_MUSIC_EXPLORATION
 ST_MUSIC_GAME_PROGRESSION
 SW_MUSIC_ALTITUDE
 # 858804902
-# 30926549
 
 ### VALUE NAMES (274363966.bnk)
 ST_GLOBAL_DISTRICT_BIEVRE
@@ -1511,6 +1511,7 @@ ST_MUSIC_EXPLORATION_OFF
 ST_MUSIC_EXPLORATION_ON
 
 ### VARIABLE NAMES (3124030248.bnk)
+ST_AMBIANCE_WEATHER_TYPE
 ST_GLOBAL_DISTRICT
 ST_GLOBAL_INT_EXT
 ST_GLOBAL_TOD
@@ -1519,7 +1520,6 @@ ST_MUSIC_EXPLORATION
 ST_MUSIC_GAME_PROGRESSION
 SW_MUSIC_ALTITUDE
 # 858804902
-# 30926549
 
 ### VALUE NAMES (3124030248.bnk)
 ST_GLOBAL_DISTRICT_BIEVRE
@@ -1538,6 +1538,7 @@ ST_MUSIC_EXPLORATION_OFF
 ST_MUSIC_EXPLORATION_ON
 
 ### VARIABLE NAMES (3895327584.bnk)
+ST_AMBIANCE_WEATHER_TYPE
 ST_GLOBAL_DISTRICT
 ST_GLOBAL_INT_EXT
 ST_GLOBAL_TOD
@@ -1546,7 +1547,6 @@ ST_MUSIC_EXPLORATION
 ST_MUSIC_GAME_PROGRESSION
 SW_MUSIC_ALTITUDE
 # 858804902
-# 30926549
 
 ### VALUE NAMES (3895327584.bnk)
 ST_GLOBAL_DISTRICT_BIEVRE
@@ -1566,6 +1566,7 @@ ST_MUSIC_EXPLORATION_OFF
 ST_MUSIC_EXPLORATION_ON
 
 ### VARIABLE NAMES (4159589672.bnk)
+ST_AMBIANCE_WEATHER_TYPE
 ST_GLOBAL_DISTRICT
 ST_GLOBAL_INT_EXT
 ST_GLOBAL_TOD
@@ -1574,7 +1575,6 @@ ST_MUSIC_EXPLORATION
 ST_MUSIC_GAME_PROGRESSION
 SW_MUSIC_ALTITUDE
 # 858804902
-# 30926549
 
 ### VALUE NAMES (4159589672.bnk)
 ST_GLOBAL_DISTRICT_BIEVRE
@@ -1649,6 +1649,7 @@ play_sfx_fb_target_lock_off
 play_sfx_fb_target_lock_on
 Play_SFX_FB_TripMine_Install
 Play_SFX_FB_Weapon_Reload_Completed
+Set_State_AWARENESS_ZONE_EXIT
 stop_sfx_fb_ally_critical
 stop_sfx_fb_low_health
 Stop_SFX_FB_Respawn_Apparition_Out_LP
@@ -1695,7 +1696,6 @@ Stop_SFX_FB_Respawn_Apparition_Out_LP
 # 1022974229
 # 1026152711
 # 1054436396
-# 1059259067
 # 1059855491
 # 1110130232
 # 1119213004
@@ -1802,13 +1802,13 @@ GP_GLOBAL_CHARACTER_TYPE
 
 ### VARIABLE NAMES (BNK_Bootstrap_Anvil_FB_INSTALL_1.bnk)
 ST_GLOBAL_EAGLESENSE
+ST_MISSION_SCRIPTED_CONFLICT_LOOP
+ST_MISSION_SCRIPTED_EAGLESENSE
 ST_MISSION_SP
 ST_MU_AWARENESS_ZONE
 ST_MU_STEALTH
 ST_MUSIC_EMOTION
-# 399749438
-# 3018653082
-# 785312521
+ST_MUSIC_MISSIONCOMPLETE
 # 4162954661
 # 1716036514
 
@@ -1816,6 +1816,8 @@ ST_MUSIC_EMOTION
 None
 ST_GLOBAL_EAGLESENSE_OFF
 ST_GLOBAL_EAGLESENSE_ON
+ST_MISSION_SCRIPTED_EAGLESENSE_DEFAULT
+ST_MU_AWARENESS_ZONE_EXIT
 ST_MU_STEALTH_RESTRICTED_AREA
 ST_MUSIC_EMOTION_ANGER
 ST_MUSIC_EMOTION_EVIL
@@ -1824,24 +1826,22 @@ ST_MUSIC_EMOTION_SAD
 ST_MUSIC_EMOTION_STEALTH
 ST_MUSIC_EMOTION_STRESS
 ST_MUSIC_EMOTION_SUSPENSE
+ST_MUSIC_MISSIONCOMPLETE_DEFAULT
+ST_MUSIC_MISSIONCOMPLETE_SILENCE
 ST_SP_SQ02_M025
 ST_SP_SQ03_M005
-# 2298777434
-# 40040600
 # 148700472
 # 148700475
 # 148700474
 # 148700477
 # 148700476
 # 3379339927
-# 549729163
 # 1689323478
 # 3767812248
 # 1980598775
 # 373159859
 # 3196910343
 # 1687748584
-# 165869039
 # 2903274226
 # 355096346
 
@@ -1850,6 +1850,7 @@ Play_SFX_HUD_AMB_Accept
 Play_SFX_HUD_Doctor_Heal
 Play_SFX_HUD_MiniMap_Appear
 Play_SFX_HUD_MiniMap_Disappear
+Play_SFX_HUD_Timer_End
 # 2721212
 # 165275887
 # 171386865
@@ -1900,7 +1901,6 @@ Play_SFX_HUD_MiniMap_Disappear
 # 1847285231
 # 1852034989
 # 1858709813
-# 1878440333
 # 1885387961
 # 1915107540
 # 1960310784
@@ -1952,7 +1952,7 @@ Play_SFX_HUD_MiniMap_Disappear
 
 ### VARIABLE NAMES (BNK_Bootstrap_Anvil_HUD_INSTALL_1.bnk)
 ST_MUSIC_EMOTION
-# 399749438
+ST_MUSIC_MISSIONCOMPLETE
 # 569253832
 
 ### VALUE NAMES (BNK_Bootstrap_Anvil_HUD_INSTALL_1.bnk)
@@ -1964,8 +1964,8 @@ ST_MUSIC_EMOTION_SAD
 ST_MUSIC_EMOTION_STEALTH
 ST_MUSIC_EMOTION_STRESS
 ST_MUSIC_EMOTION_SUSPENSE
-# 2298777434
-# 40040600
+ST_MUSIC_MISSIONCOMPLETE_DEFAULT
+ST_MUSIC_MISSIONCOMPLETE_SILENCE
 # 148700472
 # 148700475
 # 148700474
@@ -1974,7 +1974,9 @@ ST_MUSIC_EMOTION_SUSPENSE
 # 1759998064
 
 ### EVENT NAMES (BNK_Bootstrap_Anvil_Menu_INSTALL_1.bnk)
+Play_SFX_Menu_Action_Denied
 Play_SFX_Menu_Confirm
+SW_FALLA_CHR_SMALL_WOOD
 # 12450288
 # 105213273
 # 180364028
@@ -2012,7 +2014,6 @@ Play_SFX_Menu_Confirm
 # 1993662919
 # 2088332946
 # 2128008835
-# 2309509822
 # 2354562619
 # 2378937537
 # 2404158012
@@ -2025,7 +2026,6 @@ Play_SFX_Menu_Confirm
 # 2935228666
 # 2937755993
 # 3031272365
-# 3083714582
 # 3200844394
 # 3216877145
 # 3249188082
@@ -2076,6 +2076,7 @@ EngineEvent_Mute_Volume_Dialog
 EngineEvent_Mute_Volume_Foley
 EngineEvent_Mute_Volume_Music
 EngineEvent_Pause_All
+EngineEvent_Pause_Master_Audio_Bus
 EngineEvent_Pause_Music
 EngineEvent_PlayBinkVideo_InGame_Muted
 EngineEvent_PlayBinkVideo_InGame_Muted_but_Music
@@ -2089,15 +2090,98 @@ EngineEvent_Reset_Volume_Foley
 EngineEvent_Reset_Volume_Music
 EngineEvent_Restart_Anvil
 EngineEvent_Resume_All
+EngineEvent_Resume_Master_Audio_Bus
 EngineEvent_Resume_Music
 EngineEvent_Stop_All
 EngineEvent_StopBinkVideo_InGame_Muted
 EngineEvent_StopBinkVideo_InGame_Muted_but_Music
 EngineEvent_StopBinkVideo_inGame_Not_Muted
+EngineEvent_Unmute_All
 EngineEvent_Unmute_Volume_Ambiance
 EngineEvents_MissionEnd_Desconstruct_Off
 EngineEvents_MissionEnd_Desconstruct_On
+Mute_F_CHR_Body_Haystack
 Play_Amb_Walla_Combat_Pad_From_Silence
+Play_F_CHR_Body_Fall_Heavy_Floor
+Play_F_CHR_Body_Fall_Heavy_Wall
+Play_F_CHR_Body_Fall_Light_Floor
+Play_F_CHR_Body_Fall_Light_Wall
+Play_F_CHR_Body_Fall_Medium_Floor
+Play_F_CHR_Body_Fall_Medium_Wall
+Play_F_CHR_Body_Hand_Brushoff_Body
+Play_F_CHR_Body_Hand_Contact_Human_Light
+Play_F_CHR_Body_Hand_Contact_Looting_Light
+Play_F_CHR_Body_Hand_Grasp_Heavy_Ladder
+Play_F_CHR_Body_Hand_Grasp_Light_Ladder
+Play_F_CHR_Body_Hand_Grasp_Medium_Ladder
+Play_F_CHR_Body_Hand_Land
+Play_F_CHR_Body_Hand_Pickpocket_Generic
+Play_F_CHR_Body_Hand_Release
+Play_F_CHR_Body_Hand_Release_Human_Light
+Play_F_CHR_Body_Hand_Scuff
+Play_F_CHR_Body_Hand_Shove_Across
+Play_F_CHR_Body_Hand_Shove_Aside
+Play_F_CHR_Body_Hand_Slide
+Play_F_CHR_Body_Hand_Slip
+Play_F_CHR_Body_Haystack_Exit
+Play_F_CHR_Body_Haystack_Hurt
+Play_F_CHR_Body_Haystack_Jump
+Play_F_CHR_Body_Haystack_Land_Heavy
+Play_F_CHR_Body_Haystack_Leap_Of_Faith
+Play_F_CHR_Body_Impact_Heavy
+Play_F_CHR_Body_Impact_Light
+Play_F_CHR_Body_Impact_Medium
+Play_F_CHR_Body_Limb_Contact_Heavy_Floor_Sw
+Play_F_CHR_Body_Limb_Contact_Heavy_Wall_Sw
+Play_F_CHR_Body_Limb_Contact_Light_Floor_Sw
+Play_F_CHR_Body_Limb_Contact_Light_Wall_Sw
+Play_F_CHR_Body_Limb_Contact_Medium_Floor
+Play_F_CHR_Body_Limb_Contact_Medium_Wall_Sw
+Play_F_CHR_Body_Pindown_Grab
+Play_F_CHR_Body_Pindown_Release
+Play_F_CHR_Body_Pindown_Struggle_A
+Play_F_CHR_Body_Pindown_Struggle_B
+Play_F_CHR_Body_Roll_Cloth
+Play_F_CHR_Body_Roll_Gear
+Play_F_CHR_Body_Torso_Contact_Heavy_Floor_Sw
+Play_F_CHR_Body_Torso_Contact_Heavy_Wall_Sw
+Play_F_CHR_Body_Torso_Contact_Light_Floor_Sw
+Play_F_CHR_Body_Torso_Contact_Light_Wall_Sw
+Play_F_CHR_Body_Torso_Contact_Medium_Floor_Sw
+Play_F_CHR_Body_Torso_Contact_Medium_Wall_Sw
+Play_F_CHR_Body_Whoosh_Flip_Medium
+Play_F_CHR_Body_Whoosh_Leap_Of_Faith
+Play_F_CHR_Hand_Grasp_Heavy
+Play_F_CHR_Hand_Grasp_Light
+Play_F_CHR_Hand_Grasp_Medium
+Play_F_CHR_Jump_Start_Cloth
+Play_F_CHR_Jump_Start_Gear
+Play_F_CHR_Land_Heavy_Cloth
+Play_F_CHR_Land_Heavy_Gear
+Play_F_CHR_Land_Light_Cloth
+Play_F_CHR_Land_Light_Gear
+Play_F_CHR_Land_Medium_Cloth
+Play_F_CHR_Land_Medium_Gear
+Play_F_CHR_Run_Cycle_Cloth
+Play_F_CHR_Run_Cycle_Gear
+Play_F_CHR_Slide_Body_Cloth
+Play_F_CHR_Slide_Body_Gear
+Play_F_CHR_Slide_Foot_cloth
+Play_F_CHR_Slide_Foot_Gear
+Play_F_CHR_Sneak_Cycle_Cloth
+Play_F_CHR_Sneak_Gear
+Play_F_CHR_Step_Foot_cloth
+Play_F_CHR_Step_Foot_Gear
+Play_F_CHR_Step_Foot_Heavy_cloth
+Play_F_CHR_Step_Foot_Heavy_Gear
+Play_F_CHR_Walk_Cycle_Cloth
+Play_F_CHR_Walk_Cycle_Gear
+Play_F_CHR_Walk_End_cloth
+Play_F_CHR_Walk_End_Gear
+Play_F_CHR_Walk_Start_Cloth
+Play_F_CHR_Walk_Start_Gear
+Play_F_CHR_Water_Dive_High
+Play_F_CHR_Water_Dive_Normal
 Play_F_Horse_Hoof_Brake_Long_SW
 Play_F_Horse_Hoof_Brake_Short_SW
 Play_F_Horse_Hoof_Ggallop_Front_SW
@@ -2122,26 +2206,51 @@ Play_F_Horse_Hoof_Walk_Front_R_SW
 Play_F_Horse_Hoof_Walk_Rear_L_SW
 Play_F_Horse_Hoof_Walk_Rear_R_SW
 Play_F_Horse_Hoof_Walk_Start_SW
+Play_F_Obj_Ceramic_Break_Heavy
+Play_F_Obj_Ceramic_Break_Light
+Play_F_Obj_Ceramic_Break_Medium
+Play_F_Obj_Ceramic_Impact_Light_Generic
 Play_F_Obj_Chest_Loot_Closed
 Play_F_Obj_Chest_Loot_Open
 Play_F_Obj_Chest_Put_Down
+Play_F_Obj_Leaves_Break_Medium
 Play_F_Obj_Metal_Break_Medium
+Play_F_Obj_Metal_Impact_Heavy_Generic
 Play_F_Obj_Metal_Impact_Light_Generic
 Play_F_Obj_Metal_Impact_Medium_Generic
 Play_F_Obj_Rope_Stretch
+Play_F_Obj_Vege_Impact_Heavy_Generic
+Play_F_Obj_Vege_Impact_Medium_Generic
 Play_F_Obj_Wood_Break_Light
 Play_F_Obj_Wood_Crate_Impact_Heavy
 Play_F_Obj_Wood_Crate_Impact_Light
 Play_F_Obj_Wood_Crate_Impact_Medium
 Play_F_Obj_Wood_Impact_Light_Generic
 Play_F_Obj_Wood_Impact_Medium_Generic
+Play_FT_CHR_Body_Slide
+Play_FT_CHR_Jump_Start
+Play_FT_CHR_Land_Heavy
+Play_FT_CHR_Land_Light
+Play_FT_CHR_Land_Medium
+Play_FT_CHR_Run_Cycle
+Play_FT_CHR_slide_Foot
+Play_FT_CHR_sneak_cycle
+Play_FT_CHR_Sprint_cycle
+Play_FT_CHR_step_foot
+Play_FT_CHR_Step_Foot_Heavy
+Play_FT_CHR_walk_cycle
+Play_FT_CHR_walk_end
+Play_FT_CHR_Walk_Start
 Play_Sfx_Camera_Reach_High_Point
 Play_Sfx_Dive_Into_Water_Wind
 play_sfx_leap_of_faith_wind_high_lp
 play_sfx_leap_of_faith_wind_normal_lp
+Play_SFX_obj_chest_close
+Play_SFX_obj_chest_open
 Play_SFX_Obj_Corner_Beam_Swing
 play_wwise_pink_noise_minus_20fsd_c
 play_wwise_pink_noise_minus_20fsd_l
+Play_Wwise_Pink_Noise_Minus_20fsd_LFE
 play_wwise_pink_noise_minus_20fsd_ls
 play_wwise_pink_noise_minus_20fsd_r
 play_wwise_pink_noise_minus_20fsd_rs
@@ -2151,6 +2260,12 @@ play_wwise_tones_1khz_minus_20fsd_lfe
 play_wwise_tones_1khz_minus_20fsd_ls
 play_wwise_tones_1khz_minus_20fsd_r
 play_wwise_tones_1khz_minus_20fsd_rs
+Play_Wwise_White_Noise_Minus_20fsd_C
+Play_Wwise_White_Noise_Minus_20fsd_L
+Play_Wwise_White_Noise_Minus_20fsd_LFE
+Play_Wwise_White_Noise_Minus_20fsd_LS
+Play_Wwise_White_Noise_Minus_20fsd_R
+Play_Wwise_White_Noise_Minus_20fsd_RS
 Set_State_ST_COOP_LB010
 Set_State_ST_COOP_LB020
 Set_State_ST_COOP_LB030
@@ -2163,17 +2278,28 @@ Set_State_ST_COOP_RB030
 Set_State_ST_COOP_RB040
 Set_State_ST_COOP_RB050
 Set_State_ST_COOP_RB060
+Set_State_ST_GLOBAL_PLAYER_STEALTH_ENTER
+Set_State_ST_GLOBAL_PLAYER_STEALTH_EXIT
 Set_State_ST_GLOBAL_SEASON_SUMMER
 Set_State_ST_GLOBAL_SEASON_WINTER
+Set_State_ST_GLOBAL_TA_BE
+Set_State_ST_GLOBAL_TA_FF
+Set_State_ST_GLOBAL_TA_MA
+Set_State_ST_GLOBAL_TA_WW2
 Set_State_ST_MISSION_EMOTION_ANGER
+Set_State_ST_MISSION_EMOTION_DEFAULT
 Set_State_ST_MISSION_EMOTION_EVIL
 Set_State_ST_MISSION_EMOTION_HAPPY
 Set_State_ST_MISSION_EMOTION_SAD
 Set_State_ST_MISSION_EMOTION_STEALTH
 Set_State_ST_MISSION_EMOTION_STRESS
 Set_State_ST_MISSION_SCENE
+Set_State_ST_MISSION_SCRIPTED_CONFLICT_LOOP_DEFAULT
+Set_State_ST_MISSION_SCRIPTED_EAGLESENSE_DEFAULT
+Set_State_ST_MISSION_TYPE_BR
 Set_State_ST_MISSION_TYPE_CL
 Set_State_ST_MISSION_TYPE_COOP
+Set_State_ST_MISSION_TYPE_PR
 Set_State_ST_MISSION_TYPE_SP
 Set_State_ST_MISSION_TYPE_TS
 Set_State_ST_SP_BR01
@@ -2249,25 +2375,55 @@ Set_State_WRLD_PROLOGUE
 Set_State_WRLD_VERSAILLES
 Set_State_WRLD_VILLA
 Set_State_WRLD_VR_ROOM
+Set_Switch_CHR_BODY_HEAD_NONE
+Set_Switch_CHR_BODY_SHOE_BAREFOOT
+Set_Switch_CHR_BODY_SHOE_SNEAKER
+Set_Switch_CHR_GEAR_OBJECT_LANTERN_IN_HAND
+Set_Switch_CHR_GEAR_OBJECT_LANTERN_ON_GROUND
+Set_Switch_CHR_GEAR_WEAPON_CROSSBOW_IN_HAND
+Set_Switch_CHR_GEAR_WEAPON_CROSSBOW_IN_SHEATH
+Set_Switch_CHR_GEAR_WEAPON_CROSSBOW_NONE
+Set_Switch_CHR_GEAR_WEAPON_MUSKET_IN_HAND
+Set_Switch_CHR_GEAR_WEAPON_MUSKET_IN_SHEATH
+Set_Switch_CHR_GEAR_WEAPON_MUSKET_NONE
+Set_Switch_CHR_GEAR_WEAPON_PISTOL_IN_HAND
+Set_Switch_CHR_GEAR_WEAPON_PISTOL_IN_SHEATH
+Set_Switch_CHR_GEAR_WEAPON_PISTOL_NONE
+Set_Switch_CHR_GEAR_WEAPON_SWORD_IN_HAND
+Set_Switch_CHR_GEAR_WEAPON_SWORD_IN_SHEATH
+Set_Switch_CHR_GEAR_WEAPON_SWORD_NONE
+Set_Switch_CHR_OUTFIT_ARMOR
+Set_Switch_CHR_OUTFIT_CHAINMAIL
+Set_Switch_CHR_OUTFIT_GEARED
+Set_Switch_CHR_OUTFIT_HEAVY
+Set_Switch_CHR_OUTFIT_LEATHERBELT
+Set_Switch_CHR_OUTFIT_LONG
+Set_Switch_CHR_OUTFIT_SHORT
+Set_Switch_CHR_PROFILE_TYPE_HIGH
+Set_Switch_CHR_PROFILE_TYPE_LOW
+Set_Switch_CHR_TYPE_NPC_CIVILIAN
+Set_Switch_CHR_TYPE_NPC_ELISE
+Set_Switch_OBJ_HAYSTACK_HAY
+Set_Switch_OBJ_HAYSTACK_PINE
 Set_Switch_Obj_None
 Stop_Amb_Walla_Combat_Pad_Finished
+Stop_FT_CHR_Slide_Body
 Stop_Rift_Global
 stop_sfx_dive_into_water_wind
 Stop_sfx_leap_of_faith_wind_high_lp
 Stop_sfx_leap_of_faith_wind_normal_lp
+Unmute_F_CHR_Body_Haystack
 # 13761578
 # 19235736
 # 20335559
 # 23113324
 # 23714456
 # 24221068
-# 35499482
 # 40980920
 # 46971673
 # 49063598
 # 53815225
 # 54315785
-# 58055339
 # 58099874
 # 66499323
 # 69774126
@@ -2282,13 +2438,11 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 104547962
 # 110603992
 # 120494838
-# 121480539
 # 124905696
 # 125042857
 # 127595251
 # 130106113
 # 130793270
-# 131818813
 # 132715090
 # 142433861
 # 143494276
@@ -2299,13 +2453,11 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 149075042
 # 153321432
 # 154504110
-# 155046971
 # 157100455
 # 163755037
 # 168288842
 # 180914828
 # 186164061
-# 190347433
 # 194153289
 # 194415709
 # 207437717
@@ -2327,7 +2479,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 248163439
 # 254532541
 # 254902858
-# 256215277
 # 256829176
 # 260247847
 # 263298532
@@ -2336,7 +2487,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 265274340
 # 265831280
 # 267863444
-# 269203152
 # 272616532
 # 274533930
 # 280611669
@@ -2349,14 +2499,10 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 292875215
 # 293757075
 # 303902065
-# 305889703
 # 309031960
-# 321583108
-# 329234341
 # 337926855
 # 338882324
 # 342503195
-# 342724216
 # 344583260
 # 346732314
 # 353091240
@@ -2366,7 +2512,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 357358703
 # 359711769
 # 361326401
-# 368077462
 # 368438891
 # 368623932
 # 369632471
@@ -2379,7 +2524,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 388728440
 # 392145577
 # 397715083
-# 399903996
 # 401369749
 # 401383559
 # 402327903
@@ -2394,7 +2538,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 436028670
 # 436398929
 # 438706226
-# 439713463
 # 444224314
 # 445449740
 # 446702652
@@ -2410,8 +2553,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 469530136
 # 469560175
 # 474153508
-# 475039979
-# 477949601
 # 480767038
 # 488859562
 # 489278598
@@ -2421,8 +2562,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 503522119
 # 504416745
 # 505940936
-# 509051371
-# 510742838
 # 513613956
 # 514158783
 # 516700644
@@ -2451,19 +2590,13 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 613918402
 # 613964739
 # 621390111
-# 622692676
 # 630766605
-# 633823295
 # 634953245
-# 635040571
-# 635198654
 # 635508273
 # 639662379
-# 647549253
 # 652882260
 # 656872596
 # 657498738
-# 658962653
 # 659125363
 # 661744693
 # 666106903
@@ -2480,20 +2613,15 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 706397794
 # 708700994
 # 714309386
-# 716420017
 # 716440968
 # 719141009
-# 724196828
 # 724217860
 # 726343324
-# 728725582
 # 732021388
 # 732592996
 # 734460770
 # 735425173
-# 743287372
 # 751836324
-# 755757826
 # 766415553
 # 770086962
 # 774601456
@@ -2510,9 +2638,7 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 789262830
 # 792154037
 # 792955200
-# 796364707
 # 797089460
-# 801047079
 # 801657636
 # 804473950
 # 804660528
@@ -2530,9 +2656,7 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 825904944
 # 825980706
 # 826875881
-# 827843147
 # 827914548
-# 844742432
 # 856740305
 # 857428609
 # 860308086
@@ -2551,7 +2675,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 895576084
 # 896093600
 # 900299642
-# 900843380
 # 901717726
 # 905449725
 # 910334279
@@ -2561,17 +2684,13 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 921668215
 # 922706096
 # 924527042
-# 930296734
 # 932782570
 # 934631520
 # 941486771
-# 945306916
 # 946999539
-# 947822857
 # 949585059
 # 950709072
 # 952752699
-# 952758365
 # 955158548
 # 955203953
 # 956148955
@@ -2581,8 +2700,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 966810791
 # 970573461
 # 970885985
-# 978097250
-# 981703154
 # 982532504
 # 993086487
 # 1006648125
@@ -2602,7 +2719,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1055477575
 # 1060794850
 # 1061053244
-# 1063169777
 # 1064211930
 # 1075704164
 # 1078302993
@@ -2610,18 +2726,14 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1094682336
 # 1096745683
 # 1096829159
-# 1102933565
-# 1105700185
 # 1106289462
 # 1111595534
 # 1114368995
 # 1123685188
-# 1127162924
 # 1127302158
 # 1127590194
 # 1128896044
 # 1130757335
-# 1137514489
 # 1142362571
 # 1142619500
 # 1145498257
@@ -2657,13 +2769,10 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1274250384
 # 1279638694
 # 1283730226
-# 1289465808
 # 1289691823
 # 1292786518
 # 1305342313
 # 1307203728
-# 1318243500
-# 1319296156
 # 1321093612
 # 1324996626
 # 1325227706
@@ -2682,7 +2791,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1391976176
 # 1392963010
 # 1399662464
-# 1407724260
 # 1408536803
 # 1423130109
 # 1427578261
@@ -2691,7 +2799,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1437095455
 # 1440483591
 # 1440716743
-# 1440970283
 # 1440980064
 # 1444617533
 # 1446108550
@@ -2702,11 +2809,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1454405000
 # 1457351981
 # 1459726919
-# 1462289584
-# 1472239746
-# 1472239763
-# 1472239772
-# 1477429896
 # 1477518019
 # 1479874012
 # 1480774930
@@ -2727,7 +2829,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1529374725
 # 1536479797
 # 1536533970
-# 1538926664
 # 1539156424
 # 1541860533
 # 1541883388
@@ -2737,13 +2838,9 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1565303923
 # 1565564011
 # 1565928468
-# 1566139035
 # 1566468317
-# 1567452948
 # 1569656479
-# 1571771352
 # 1572259927
-# 1572445028
 # 1573542972
 # 1580493497
 # 1584928486
@@ -2754,45 +2851,35 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1594511630
 # 1598920680
 # 1599555508
-# 1601132020
 # 1602022067
 # 1603362073
-# 1606456268
 # 1611459559
 # 1613523008
 # 1615667255
 # 1615730850
 # 1615819700
-# 1622097841
 # 1631447016
 # 1631485533
 # 1632188889
 # 1635627558
 # 1640762978
-# 1646561688
 # 1648196931
 # 1659367008
 # 1665608446
-# 1668153210
 # 1674075946
 # 1684421974
 # 1685640879
-# 1692458027
 # 1696048237
-# 1699126843
 # 1701137535
 # 1701151980
 # 1705236212
-# 1707393269
 # 1708216127
 # 1709053668
 # 1712833750
 # 1714152321
 # 1716200597
-# 1718098703
 # 1724783454
 # 1733275682
-# 1737098826
 # 1740814778
 # 1740870033
 # 1744685682
@@ -2800,7 +2887,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1747095993
 # 1755152035
 # 1758973566
-# 1759830829
 # 1763285205
 # 1779411133
 # 1780529541
@@ -2808,9 +2894,7 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1790395230
 # 1799078784
 # 1803378189
-# 1811105616
 # 1813767101
-# 1816409559
 # 1817322778
 # 1818841877
 # 1822613416
@@ -2823,13 +2907,10 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1835287391
 # 1839130545
 # 1846186432
-# 1846719434
 # 1848245508
 # 1855460176
 # 1859347811
 # 1860039779
-# 1866524797
-# 1870533008
 # 1873223384
 # 1873274560
 # 1876433505
@@ -2841,7 +2922,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1894784155
 # 1895466556
 # 1898125590
-# 1900027526
 # 1913426588
 # 1913464738
 # 1914410239
@@ -2851,7 +2931,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1935288142
 # 1941037403
 # 1947269909
-# 1951258752
 # 1953754735
 # 1959229060
 # 1960676912
@@ -2868,9 +2947,7 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 1987132647
 # 1988793726
 # 1988938943
-# 1995584473
 # 1995935929
-# 1996893295
 # 1999048181
 # 1999628155
 # 2000231084
@@ -2878,10 +2955,7 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2005088802
 # 2006136477
 # 2008850720
-# 2012841702
 # 2013348243
-# 2018642045
-# 2020454273
 # 2021586065
 # 2026347620
 # 2026849802
@@ -2898,24 +2972,19 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2065800571
 # 2068523633
 # 2069688045
-# 2071144642
 # 2071187527
 # 2072481484
-# 2073558910
 # 2075669021
 # 2084975151
 # 2085690507
-# 2087775399
 # 2096288548
 # 2098937385
 # 2102220447
 # 2105537688
 # 2107438367
-# 2110149244
 # 2110322124
 # 2112846069
 # 2112927062
-# 2112979859
 # 2119782943
 # 2122597714
 # 2126460922
@@ -2943,7 +3012,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2205596632
 # 2210466656
 # 2212492072
-# 2217589411
 # 2219983519
 # 2220822031
 # 2224268403
@@ -2963,7 +3031,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2272087136
 # 2279790223
 # 2280599714
-# 2283533689
 # 2285005966
 # 2285716175
 # 2288015602
@@ -2972,7 +3039,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2299310221
 # 2301509898
 # 2319286787
-# 2320069597
 # 2329070428
 # 2333626899
 # 2341091530
@@ -2996,16 +3062,13 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2409929011
 # 2412685928
 # 2415786439
-# 2417929844
 # 2425968429
 # 2427306863
-# 2427699749
 # 2428884606
 # 2442062396
 # 2455410304
 # 2461638814
 # 2463829890
-# 2463834672
 # 2468291811
 # 2470316559
 # 2470416702
@@ -3013,7 +3076,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2498308368
 # 2498889962
 # 2505507218
-# 2507218943
 # 2508208891
 # 2508819177
 # 2512024377
@@ -3038,13 +3100,11 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2566389292
 # 2571096263
 # 2575098248
-# 2577623889
 # 2584383021
 # 2593019459
 # 2594827579
 # 2594989557
 # 2599962866
-# 2604514090
 # 2609189648
 # 2613013060
 # 2613604307
@@ -3057,7 +3117,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2632807922
 # 2633421276
 # 2635296341
-# 2637723182
 # 2640927765
 # 2641963042
 # 2648681227
@@ -3066,7 +3125,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2653708510
 # 2653854134
 # 2654277647
-# 2659196776
 # 2660248449
 # 2662015544
 # 2662658618
@@ -3076,11 +3134,9 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2669726598
 # 2675452107
 # 2675840337
-# 2688600491
 # 2689813593
 # 2691314525
 # 2692422406
-# 2701816523
 # 2707805698
 # 2716310020
 # 2722830774
@@ -3099,11 +3155,7 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2778539620
 # 2780471848
 # 2782035559
-# 2783867588
-# 2788168917
-# 2788839050
 # 2809731378
-# 2814138937
 # 2814759641
 # 2815930135
 # 2818245745
@@ -3117,11 +3169,8 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2855152343
 # 2856863618
 # 2860202569
-# 2868516690
-# 2870507887
 # 2878867061
 # 2883533899
-# 2888508699
 # 2892656065
 # 2895769852
 # 2906017595
@@ -3135,7 +3184,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2924285297
 # 2926957234
 # 2927762549
-# 2930158504
 # 2930707407
 # 2933189746
 # 2933626152
@@ -3144,7 +3192,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 2941982769
 # 2946868789
 # 2956013661
-# 2957971330
 # 2968298828
 # 2969403857
 # 2976207931
@@ -3156,13 +3203,11 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3007450432
 # 3007619433
 # 3008509182
-# 3011047732
 # 3013405090
 # 3014285218
 # 3014411511
 # 3016777010
 # 3018006266
-# 3019515192
 # 3019841130
 # 3021848292
 # 3022133190
@@ -3172,7 +3217,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3037020607
 # 3039181852
 # 3044594473
-# 3044755387
 # 3044967068
 # 3045529373
 # 3049483391
@@ -3187,36 +3231,28 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3077026444
 # 3077961685
 # 3079316558
-# 3086625743
 # 3090727478
 # 3100827935
 # 3107820811
 # 3116531221
 # 3119051897
-# 3119602163
 # 3119671073
 # 3120317704
-# 3128030671
 # 3131181632
 # 3136241053
 # 3136342925
 # 3138405842
-# 3140421335
 # 3142301845
 # 3143368113
-# 3156479765
 # 3159613596
 # 3167126721
-# 3167586881
 # 3168731775
 # 3172271449
 # 3173049556
 # 3178244841
-# 3182331489
 # 3188024898
 # 3193128787
 # 3193531850
-# 3198868809
 # 3200558687
 # 3201796999
 # 3203341794
@@ -3230,38 +3266,29 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3221661478
 # 3222520530
 # 3224281358
-# 3224387047
 # 3236263039
 # 3239630987
 # 3242945658
-# 3243305046
 # 3245481294
-# 3245934370
 # 3248837515
-# 3261501485
 # 3262197251
 # 3263346413
 # 3263814913
 # 3265623411
 # 3266289234
-# 3278743257
 # 3288171910
-# 3290587762
 # 3292537194
 # 3293366006
 # 3301470663
 # 3301722481
 # 3305603877
 # 3307988402
-# 3308329272
-# 3308329275
 # 3323662724
 # 3343658372
 # 3349642150
 # 3356479699
 # 3358222085
 # 3360320599
-# 3361540624
 # 3362277052
 # 3368006093
 # 3378572106
@@ -3270,9 +3297,7 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3383682536
 # 3388194284
 # 3390279015
-# 3393500846
 # 3394458724
-# 3401646714
 # 3404959293
 # 3405217098
 # 3405322102
@@ -3283,11 +3308,8 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3431420018
 # 3434136039
 # 3434523482
-# 3437085546
 # 3447914671
 # 3449662661
-# 3451127633
-# 3454207006
 # 3458402237
 # 3466460661
 # 3466569635
@@ -3303,7 +3325,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3504921144
 # 3506984779
 # 3510880141
-# 3510985836
 # 3511493588
 # 3513733636
 # 3516472585
@@ -3317,14 +3338,12 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3531944539
 # 3533065375
 # 3535713640
-# 3536185662
 # 3538509458
 # 3540612922
 # 3542303316
 # 3553209666
 # 3559969595
 # 3560258917
-# 3561689098
 # 3562765075
 # 3577679618
 # 3577925300
@@ -3332,7 +3351,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3592091628
 # 3592898962
 # 3593100432
-# 3599609859
 # 3611471166
 # 3623270359
 # 3625221793
@@ -3349,7 +3367,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3646257629
 # 3648289040
 # 3652298428
-# 3653164716
 # 3655823815
 # 3661359382
 # 3665631592
@@ -3357,7 +3374,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3672225370
 # 3673860613
 # 3675511238
-# 3679072650
 # 3681752835
 # 3684787251
 # 3686864426
@@ -3378,11 +3394,9 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3739873404
 # 3739873405
 # 3739873406
-# 3739971507
 # 3741190072
 # 3746517075
 # 3748427160
-# 3749346298
 # 3753023911
 # 3753745495
 # 3754815609
@@ -3418,23 +3432,19 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3826301355
 # 3828500337
 # 3838274042
-# 3841684252
 # 3842784188
 # 3845784609
 # 3846132327
 # 3848128719
 # 3849092906
-# 3852137099
 # 3854210476
 # 3857234714
 # 3857697792
-# 3860437386
 # 3863688965
 # 3863764804
 # 3864192439
 # 3865870493
 # 3867401359
-# 3873271846
 # 3875565450
 # 3877903642
 # 3878191672
@@ -3470,7 +3480,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3924042069
 # 3928323627
 # 3929286249
-# 3932941504
 # 3935821927
 # 3937194375
 # 3939349666
@@ -3480,15 +3489,12 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 3950155986
 # 3951467560
 # 3956225755
-# 3957804430
-# 3960467738
 # 3963681171
 # 3984560879
 # 3985729882
 # 3989840387
 # 3991381456
 # 3992057350
-# 4006760162
 # 4009475670
 # 4011320164
 # 4014282074
@@ -3519,7 +3525,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 4097631700
 # 4099156100
 # 4099400229
-# 4101877290
 # 4102712277
 # 4107774849
 # 4114515915
@@ -3527,17 +3532,13 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 4114515917
 # 4119024948
 # 4122813936
-# 4126463771
 # 4137701438
-# 4147056080
 # 4158718736
 # 4159509054
 # 4166198372
 # 4170870090
-# 4171026351
 # 4176567140
 # 4177256401
-# 4178174633
 # 4178283371
 # 4178521273
 # 4182047923
@@ -3553,7 +3554,6 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 4211696452
 # 4215635297
 # 4222231848
-# 4222943187
 # 4224955077
 # 4225193428
 # 4233012794
@@ -3574,8 +3574,10 @@ Stop_sfx_leap_of_faith_wind_normal_lp
 # 4293728948
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_Bootstrap_Wwise_INSTALL_1.bnk)
+GP_DISTANCE_FROM_OUT_OF_BOUND
 GP_DISTANCE_FROM_PLAYER_INCOMBAT
 GP_DISTANCE_FROM_REGION_CELL
+GP_FIGHT_PROGRESSION_PLAYER
 GP_GLOBAL_CHARACTER_TYPE
 GP_GLOBAL_PLAYER_SPEED
 SS_AIR_FURY
@@ -3592,23 +3594,26 @@ SS_AIR_SIZE
 # 2914238161
 # 937094989
 # 111843504
-# 1587267665
 # 4230933486
 # 2104177335
 # 3612785993
-# 2505129981
 # 3627595317
 
 ### VARIABLE NAMES (BNK_Bootstrap_Wwise_INSTALL_1.bnk)
+ST_AMBIANCE_SYSTEMIC_VS_SCRIPTED
 ST_GLOBAL_EAGLESENSE
 ST_GLOBAL_ENV_EXTERIOR_INTERIOR
 ST_GLOBAL_GAMESTATE
 ST_GLOBAL_INT_EXT
+ST_GLOBAL_PLAYER_STEALTH_MODE
 ST_GLOBAL_SEASON
+ST_GLOBAL_TA
 ST_MISSION_CL
 ST_MISSION_COOP
 ST_MISSION_EMOTION
 ST_MISSION_SCENE
+ST_MISSION_SCRIPTED_CONFLICT_LOOP
+ST_MISSION_SCRIPTED_EAGLESENSE
 ST_MISSION_SP
 ST_MISSION_TS
 ST_MISSION_TYPE
@@ -3619,19 +3624,28 @@ ST_MU_MUSIC_NUMBER
 ST_MU_RHP
 ST_MU_TITLESCREEN
 ST_MUSIC_EMOTION
+ST_MUSIC_MISSIONCOMPLETE
 ST_WRLD
 SW_ASSASSINATION_TYPE
+SW_CHR_BODY_HEAD_TYPE
+SW_CHR_BODY_SHOE_TYPE
+SW_CHR_GEAR_OBJECT_LANTERN
+SW_CHR_GEAR_WEAPON_CROSSBOW
+SW_CHR_GEAR_WEAPON_MUSKET
+SW_CHR_GEAR_WEAPON_PISTOL
+SW_CHR_GEAR_WEAPON_SWORD
+SW_CHR_OBJ_TYPE
+SW_CHR_OUTFIT_TYPE
+SW_CHR_PROFILE_TYPE
 SW_CHR_TYPE
 SW_FIGHT_PROGRESSION
+SW_OBJ_CHEST_TYPE
+SW_OBJ_DOOR_TYPE
+SW_WALLA_REACTION_TYPE
 # 266008546
 # 4166863921
 # 1859598637
-# 3073203807
 # 1068485403
-# 1677457534
-# 2274163128
-# 3501141682
-# 2619490084
 # 371738441
 # 1208990982
 # 1278329203
@@ -3639,30 +3653,17 @@ SW_FIGHT_PROGRESSION
 # 2765745375
 # 1925775358
 # 817367054
-# 2442767354
-# 3388306711
 # 2238974782
-# 3018653082
-# 399749438
 # 3196874966
 # 569253832
-# 1163335122
-# 4031969788
-# 785312521
 # 1964495802
-# 1579404349
 # 4233386143
-# 3748796344
-# 1949153338
-# 1678988030
-# 3740308216
-# 4069679884
-# 1953535818
 # 2153779088
 
 ### VALUE NAMES (BNK_Bootstrap_Wwise_INSTALL_1.bnk)
 GP_GLOBAL_CHARACTER_MONEY_FALL
 None
+ST_AMBIANCE_SYSTEMIC
 ST_COOP_LB010
 ST_COOP_LB020
 ST_COOP_LB030
@@ -3677,20 +3678,32 @@ ST_COOP_RB060
 ST_GLOBAL_EAGLESENSE_OFF
 ST_GLOBAL_ENV_EXTERIOR
 ST_GLOBAL_GAMESTATE_INGAME
+ST_GLOBAL_GAMESTATE_LOADINGROOM
 ST_GLOBAL_GAMESTATE_MENU
 ST_GLOBAL_GAMESTATE_TITLESCREEN
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
+ST_GLOBAL_INTERIOR_UNDERROOF
+ST_GLOBAL_PLAYER_STEALTH_ENTER
+ST_GLOBAL_PLAYER_STEALTH_EXIT
 ST_GLOBAL_SEASON_SUMMER
 ST_GLOBAL_SEASON_WINTER
+ST_GLOBAL_TA_BE
+ST_GLOBAL_TA_FF
+ST_GLOBAL_TA_MA
+ST_GLOBAL_TA_WW2
 ST_MISSION_EMOTION_ANGER
 ST_MISSION_EMOTION_EVIL
 ST_MISSION_EMOTION_HAPPY
 ST_MISSION_EMOTION_SAD
 ST_MISSION_EMOTION_STEALTH
 ST_MISSION_EMOTION_STRESS
+ST_MISSION_SCRIPTED_CONFLICT_LOOP_DEFAULT
+ST_MISSION_SCRIPTED_EAGLESENSE_DEFAULT
+ST_MISSION_TYPE_BR
 ST_MISSION_TYPE_CL
 ST_MISSION_TYPE_COOP
+ST_MISSION_TYPE_PR
 ST_MISSION_TYPE_SP
 ST_MISSION_TYPE_TS
 ST_MU_COMBAT_INFIGHT
@@ -3698,6 +3711,7 @@ ST_MU_COMBAT_OBSERVATION
 ST_MU_INTRO
 ST_MU_MAINMENU
 ST_MU_MUSIC02
+ST_MU_RHP_SYNCFIRST
 ST_MU_TITLESCREEN
 ST_MUSIC_EMOTION_ANGER
 ST_MUSIC_EMOTION_EVIL
@@ -3706,6 +3720,8 @@ ST_MUSIC_EMOTION_SAD
 ST_MUSIC_EMOTION_STEALTH
 ST_MUSIC_EMOTION_STRESS
 ST_MUSIC_EMOTION_SUSPENSE
+ST_MUSIC_MISSIONCOMPLETE_DEFAULT
+ST_MUSIC_MISSIONCOMPLETE_SILENCE
 ST_SP_BR01
 ST_SP_BR01_RIFT
 ST_SP_BR02
@@ -3781,8 +3797,43 @@ ST_WRLD_VERSAILLES
 ST_WRLD_VILLA
 ST_WRLD_VR_ROOM
 SW_ASSASSINATION_TYPE_SIGNATURE
+SW_CHR_BODY_HEAD_NONE
+SW_CHR_BODY_SHOE_BAREFOOT
+SW_CHR_BODY_SHOE_LEATHERSHOE
+SW_CHR_BODY_SHOE_SNEAKER
+SW_CHR_GEAR_OBJECT_LANTERN_IN_HAND
+SW_CHR_GEAR_OBJECT_LANTERN_ON_GROUND
+SW_CHR_GEAR_WEAPON_CROSSBOW_IN_HAND
+SW_CHR_GEAR_WEAPON_CROSSBOW_IN_SHEATH
+SW_CHR_GEAR_WEAPON_CROSSBOW_NONE
+SW_CHR_GEAR_WEAPON_MUSKET_IN_HAND
+SW_CHR_GEAR_WEAPON_MUSKET_IN_SHEATH
+SW_CHR_GEAR_WEAPON_MUSKET_NONE
+SW_CHR_GEAR_WEAPON_PISTOL_IN_HAND
+SW_CHR_GEAR_WEAPON_PISTOL_IN_SHEATH
+SW_CHR_GEAR_WEAPON_PISTOL_NONE
+SW_CHR_GEAR_WEAPON_SWORD_IN_HAND
+SW_CHR_GEAR_WEAPON_SWORD_IN_SHEATH
+SW_CHR_GEAR_WEAPON_SWORD_NONE
+SW_CHR_OUTFIT_ARMOR
+SW_CHR_OUTFIT_CHAINMAIL
+SW_CHR_OUTFIT_GEARED
+SW_CHR_OUTFIT_HEAVY
+SW_CHR_OUTFIT_LEATHERBELT
+SW_CHR_OUTFIT_LONG
+SW_CHR_OUTFIT_SHORT
+SW_CHR_PROFILE_TYPE_HIGH
+SW_CHR_PROFILE_TYPE_LOW
+SW_CHR_TYPE_NPC_CIVILIAN
+SW_CHR_TYPE_NPC_GUARD
+SW_CHR_TYPE_NPC_GUARD_MEDIEVAL
 SW_FIGHT_PROGRESSION_NORMAL
+SW_FLOOR_TYPE_HEAVY_STONE
+SW_OBJ_CHEST_LEVEL1
+SW_OBJ_CHEST_LEVEL2
+SW_OBJ_CHEST_LEVEL3
 SW_OBJ_NONE
+SW_WALLA_REACTION_TYPE_MONEY
 # 841973678
 # 1850738699
 # 2486903498
@@ -3821,33 +3872,15 @@ SW_OBJ_NONE
 # 3780835401
 # 390107939
 # 1726779310
-# 797234203
-# 2633188635
 # 3488405272
 # 3255672043
 # 2506630033
-# 4285140532
 # 1006361824
 # 1101614235
 # 4227213122
 # 454937991
-# 3914065947
-# 267038580
-# 1448082424
-# 4061682953
-# 2921268734
-# 2211357482
-# 2256277808
-# 2151694758
-# 726125112
-# 3807312031
-# 1272719703
-# 3265744212
-# 1342772240
 # 2557741815
-# 3069320877
 # 109723468
-# 3314461216
 # 3767812255
 # 3767812253
 # 3767812243
@@ -3863,16 +3896,12 @@ SW_OBJ_NONE
 # 2303549524
 # 1293290962
 # 2203030828
-# 354751190
-# 949547320
 # 2206982513
 # 1803482085
 # 3677917640
 # 1631737811
 # 1179569750
 # 3077432563
-# 1085107282
-# 1582178181
 # 4266807824
 # 3726179756
 # 3807694849
@@ -3888,9 +3917,6 @@ SW_OBJ_NONE
 # 868739481
 # 3462226845
 # 948028470
-# 3193731069
-# 3193731070
-# 3193731071
 # 3884646638
 # 448694681
 # 2905551083
@@ -3901,16 +3927,13 @@ SW_OBJ_NONE
 # 1158465540
 # 958795605
 # 3882002247
-# 985884570
 # 868289774
 # 1294365796
 # 2798422863
 # 757950059
 # 1146596094
-# 1756120476
 # 385409638
 # 2408169465
-# 2298777434
 # 445596089
 # 3997006593
 # 3952887461
@@ -3923,7 +3946,6 @@ SW_OBJ_NONE
 # 3671313153
 # 1759998064
 # 1589260741
-# 40040600
 # 2139501992
 # 536980844
 # 475529659
@@ -3940,7 +3962,6 @@ SW_OBJ_NONE
 # 879587352
 # 2533964411
 # 1706537875
-# 3762088726
 # 1801500354
 # 3613462745
 # 3540893628
@@ -3957,26 +3978,21 @@ SW_OBJ_NONE
 # 1919585420
 # 1697577174
 # 168361279
-# 392261630
 # 692119033
-# 549729163
 # 2490504117
 # 4237332416
 # 3230012774
-# 4037175418
 # 3158165202
 # 3283599063
 # 100024502
 # 1566347649
 # 2883914140
 # 3413377077
-# 353386179
 # 919425800
 # 1488247080
 # 1663042680
 # 523771982
 # 4078337421
-# 2903796083
 # 4121500792
 # 34780804
 # 1960062721
@@ -3987,7 +4003,6 @@ SW_OBJ_NONE
 # 2070434867
 # 1762909414
 # 3816151527
-# 4239880215
 # 398954957
 # 3782934786
 # 3166435149
@@ -3999,7 +4014,6 @@ SW_OBJ_NONE
 # 3242297819
 # 3364473303
 # 2569680077
-# 3884595167
 # 3923837199
 # 1729430089
 # 3702294414
@@ -4016,7 +4030,6 @@ SW_OBJ_NONE
 # 2824767509
 # 2429887662
 # 1635644475
-# 3138124212
 # 3510053875
 # 2871560436
 # 1300073795
@@ -4040,7 +4053,6 @@ SW_OBJ_NONE
 # 559465675
 # 1658006386
 # 386968174
-# 555710557
 # 2098483047
 # 2220885009
 # 2843559834
@@ -4078,7 +4090,6 @@ SW_OBJ_NONE
 # 2089949922
 # 2339439785
 # 764089162
-# 3850126461
 # 3490904623
 # 359155111
 # 27728318
@@ -4099,7 +4110,6 @@ SW_OBJ_NONE
 # 985692969
 # 1762563472
 # 1697549905
-# 242423880
 # 881698273
 # 2889644016
 # 1388305373
@@ -4165,7 +4175,6 @@ SW_OBJ_NONE
 # 871266307
 # 343873820
 # 102299659
-# 3623220043
 # 2478681981
 # 713112530
 # 3157258903
@@ -4181,20 +4190,16 @@ SW_OBJ_NONE
 # 2413570236
 # 2601630044
 # 2022996184
-# 3850782597
 # 1470213425
 # 1527616109
 # 2305819052
 # 3447679686
 # 3936662201
-# 1773017461
 # 3087391295
 # 996467627
 # 1207732735
 # 2857609702
-# 1549778501
 # 2424849947
-# 3766894691
 # 251323454
 # 965412098
 # 1877738527
@@ -4206,10 +4211,8 @@ SW_OBJ_NONE
 # 2958375338
 # 2559223932
 # 3313694657
-# 3699784156
 # 3972283083
 # 3887085837
-# 3362996846
 # 2583091833
 # 2458361177
 # 1343782312
@@ -4221,9 +4224,7 @@ SW_OBJ_NONE
 # 2163350824
 # 572868626
 # 3040903422
-# 813892033
 # 197114602
-# 1851775743
 # 1681186305
 # 252063358
 # 962068439
@@ -4318,7 +4319,6 @@ SW_OBJ_NONE
 # 1015465512
 # 2388845916
 # 4140846518
-# 3756903872
 # 1365304837
 # 2835019743
 # 418128509
@@ -4343,10 +4343,10 @@ GP_GLOBAL_PLAYER_SPEED
 # 2914238161
 
 ### VARIABLE NAMES (BNK_DLC_MTP_Bootstrap.bnk)
-# 1949153338
+SW_CHR_GEAR_OBJECT_LANTERN
 
 ### VALUE NAMES (BNK_DLC_MTP_Bootstrap.bnk)
-# 242423880
+SW_CHR_GEAR_OBJECT_LANTERN_IN_HAND
 
 ### EVENT NAMES (BNK_DLC_MTP_EngineEvents.bnk)
 # 110026298
@@ -4536,10 +4536,10 @@ ST_MUSIC_FIGHT_STATE
 
 ### VALUE NAMES (BNK_DLC_MTP_GLOBAL_Ambiance_ALL_INSTALL.bnk)
 None
+ST_DLC_TOD_EVENING
 ST_DLC_TOD_NIGHT
 ST_GLOBAL_SEASON_WINTER
 ST_SP_SQ04_M010
-# 4199069287
 
 ### EVENT NAMES (BNK_DLC_MTP_GLOBAL_Cinematics_All_Install.bnk)
 # 103241632
@@ -4647,10 +4647,10 @@ GP_GLOBAL_CHARACTER_TYPE
 ST_GLOBAL_ENV_EXTERIOR_INTERIOR
 
 ### VALUE NAMES (BNK_DLC_MTP_GLOBAL_F_CWL_All_INSTALL.bnk)
+ST_GLOBAL_ENV_INTERIOR_CASTLE
+ST_GLOBAL_ENV_INTERIOR_CAVE
 ST_GLOBAL_ENV_INTERIOR_CHURCH
 ST_GLOBAL_ENV_INTERIOR_INN
-# 559915560
-# 3713629971
 
 ### EVENT NAMES (BNK_DLC_MTP_GLOBAL_Lantern_Foley.bnk)
 # 570778861
@@ -4672,15 +4672,17 @@ GP_GLOBAL_PLAYER_SPEED
 # 2914238161
 
 ### VARIABLE NAMES (BNK_DLC_MTP_GLOBAL_Lantern_Foley.bnk)
-# 1949153338
+SW_CHR_GEAR_OBJECT_LANTERN
 
 ### VALUE NAMES (BNK_DLC_MTP_GLOBAL_Lantern_Foley.bnk)
-# 242423880
+SW_CHR_GEAR_OBJECT_LANTERN_IN_HAND
 
 ### EVENT NAMES (BNK_DLC_MTP_GLOBAL_Music_ALL_INSTALL.bnk)
 Play_DLC_Music_Mandoline
 Play_Music_DLC_Exploration
 Play_Music_DLC_Fight
+ST_DLC_MISSION_EMOTION_Neutral
+ST_DLC_MISSION_EMOTION_NONE
 ST_DLC_MISSION_EMOTION_SAD
 Stop_DLC_Music_Mandoline
 Stop_MU_DLC_Coop
@@ -4695,11 +4697,9 @@ Stop_Music_DLC_Fight
 # 742143323
 # 747436611
 # 1103208139
-# 1465449115
 # 1797963850
 # 2354971281
 # 2413712357
-# 2563665300
 # 3275882500
 # 3503353562
 # 3908746486
@@ -4728,6 +4728,7 @@ ST_MUSIC_FIGHT_STATE
 None
 ST_DLC_LAYER_SURFACE
 ST_DLC_LAYER_UNDERGROUND
+ST_DLC_MISSION_EMOTION_Neutral
 ST_DLC_MISSION_EMOTION_SAD
 ST_DLC_MUSIC_FIGHT_IMPORTANCE_LVL1
 ST_DLC_MUSIC_FIGHT_IMPORTANCE_LVL2
@@ -4796,7 +4797,6 @@ ST_MUSIC_EXPLORATION_ON
 # 1393396196
 # 3540571620
 # 4109977608
-# 1465449115
 
 ### EVENT NAMES (BNK_DLC_MTP_GLOBAL_VO_AI_Dialog_Non_Localised.bnk)
 # 2516413140
@@ -4986,9 +4986,9 @@ ST_GLOBAL_SEASON
 
 ### VALUE NAMES (BNK_DLC_MTP_WLAYER_Media_Amb_Surface_RFX_All.bnk)
 None
+ST_DLC_TOD_EVENING
 ST_DLC_TOD_NIGHT
 ST_GLOBAL_SEASON_WINTER
-# 4199069287
 
 ### EVENT NAMES (BNK_DLC_MTP_WLAYER_Media_Amb_Underground_RFX_Amb3D_All.bnk)
 # 184944436
@@ -5034,16 +5034,16 @@ ST_SP_SQ04_M010
 # 1322300214
 
 ### VARIABLE NAMES (BNK_DL_Amb_3D_Bells_Medium.bnk)
+ST_AMBIANCE_SYSTEMIC_VS_SCRIPTED
 ST_GLOBAL_TOD
-# 1953535818
 
 ### VALUE NAMES (BNK_DL_Amb_3D_Bells_Medium.bnk)
 None
+ST_AMBIANCE_SYSTEMIC
 ST_GLOBAL_TOD_DAWN
 ST_GLOBAL_TOD_NIGHT
 ST_GLOBAL_TOD_NOON
 ST_GLOBAL_TOD_SUNSET
-# 1773017461
 # 1103720178
 # 1375863723
 # 388099323
@@ -5060,16 +5060,16 @@ ST_GLOBAL_TOD_SUNSET
 # 1322300214
 
 ### VARIABLE NAMES (BNK_DL_Amb_3D_Bells_Small.bnk)
+ST_AMBIANCE_SYSTEMIC_VS_SCRIPTED
 ST_GLOBAL_TOD
-# 1953535818
 
 ### VALUE NAMES (BNK_DL_Amb_3D_Bells_Small.bnk)
 None
+ST_AMBIANCE_SYSTEMIC
 ST_GLOBAL_TOD_DAWN
 ST_GLOBAL_TOD_NIGHT
 ST_GLOBAL_TOD_NOON
 ST_GLOBAL_TOD_SUNSET
-# 1773017461
 # 1103720178
 # 1375863723
 # 388099323
@@ -5103,6 +5103,9 @@ ST_GLOBAL_ENV_EXTERIOR_INTERIOR
 
 ### VALUE NAMES (BNK_DL_Amb_3D_Birds_All_INSTALL_3.bnk)
 ST_GLOBAL_ENV_INTERIOR
+ST_GLOBAL_ENV_INTERIOR_CASTLE
+ST_GLOBAL_ENV_INTERIOR_CAVE
+ST_GLOBAL_ENV_INTERIOR_CAVERN
 ST_GLOBAL_ENV_INTERIOR_CHURCH
 ST_GLOBAL_ENV_INTERIOR_INN
 ST_GLOBAL_ENV_INTERIOR_OPEN
@@ -5110,9 +5113,6 @@ ST_GLOBAL_ENV_INTERIOR_TAVERN_GROUND
 ST_GLOBAL_ENV_INTERIOR_TAVERN_SECONDFLOOR
 ST_GLOBAL_ENV_UNDERGROUND
 ST_GLOBAL_ENV_WALLA_EXTERIOR
-# 559915560
-# 3713629971
-# 4067013231
 
 ### EVENT NAMES (BNK_DL_Amb_3D_Fire_Global_INSTALL_3.bnk)
 Play_Amb_3D_Fire_Burning_Spot_Generic_LP
@@ -5186,8 +5186,8 @@ ST_SP_SQ02_M025
 ST_SP_SQ04_M010
 
 ### EVENT NAMES (BNK_DL_Amb_3D_Insect_Flies.bnk)
-# 3184179282
-# 3551970477
+Play_Amb_3D_Insect_Flies_Med
+Play_Amb_3D_Insect_Flies_Small
 # 4273167262
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_DL_Amb_3D_Insect_Flies.bnk)
@@ -5212,22 +5212,22 @@ ST_GLOBAL_TOD_SUNSET
 # 1322300214
 
 ### VARIABLE NAMES (BNK_DL_Amb_3D_NotreDame.bnk)
+ST_AMBIANCE_SYSTEMIC_VS_SCRIPTED
 ST_GLOBAL_INT_EXT
 ST_GLOBAL_TOD
-# 1953535818
 
 ### VALUE NAMES (BNK_DL_Amb_3D_NotreDame.bnk)
 None
+ST_AMBIANCE_SYSTEMIC
 ST_GLOBAL_EXTERIOR
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
+ST_GLOBAL_INTERIOR_UNDERROOF
 ST_GLOBAL_TOD_DAWN
 ST_GLOBAL_TOD_NIGHT
 ST_GLOBAL_TOD_NOON
 ST_GLOBAL_TOD_SUNSET
 # 109723468
-# 3314461216
-# 1773017461
 # 1103720178
 # 1375863723
 # 388099323
@@ -5238,9 +5238,9 @@ ST_GLOBAL_TOD_SUNSET
 # 3060716863
 
 ### EVENT NAMES (BNK_DL_Amb_3D_Obj_Flags_And_Rope_Line_INSTALL_2.bnk)
+Play_Amb_3D_Clothing_Line_LP
+Play_Amb_3D_Flag_Large_LP
 # 1391179319
-# 3373000168
-# 3637353043
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_DL_Amb_3D_Obj_Flags_And_Rope_Line_INSTALL_2.bnk)
 # 223047388
@@ -5320,14 +5320,14 @@ ST_GLOBAL_SEASON_SUMMER
 ST_GLOBAL_SEASON_WINTER
 
 ### EVENT NAMES (BNK_DL_F_Anml_Global_All.bnk)
+Play_FT_Animal_Hoof_Big_Walk
 Play_FT_Animal_Hoof_Small_Run
 Play_FT_Animal_Hoof_Small_Walk
-# 476005422
+Play_FT_Animal_Paw_Med_Run
+Play_FT_Animal_Paw_Med_Walk
+Play_FT_Animal_Paw_Small_Run
+Play_FT_Animal_Paw_Small_Walk
 # 904997592
-# 1726579288
-# 2791601831
-# 3657053911
-# 4139299723
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_DL_F_Anml_Global_All.bnk)
 GP_GLOBAL_CHARACTER_TYPE
@@ -5340,6 +5340,8 @@ ST_MISSION_SP
 
 ### VALUE NAMES (BNK_DL_F_Anml_Global_All.bnk)
 ST_GLOBAL_ENV_INTERIOR
+ST_GLOBAL_ENV_INTERIOR_CASTLE
+ST_GLOBAL_ENV_INTERIOR_CAVE
 ST_GLOBAL_ENV_INTERIOR_CHURCH
 ST_GLOBAL_ENV_INTERIOR_INN
 ST_GLOBAL_ENV_INTERIOR_OPEN
@@ -5377,8 +5379,6 @@ ST_GLOBAL_ENV_INTERIOR_OPEN
 # 1034737650
 # 3271635937
 # 1036592734
-# 559915560
-# 3713629971
 # 3767812255
 # 3767812253
 # 3767812243
@@ -5648,12 +5648,12 @@ ST_MISSION_SP
 # 3767812243
 
 ### EVENT NAMES (BNK_DL_F_CWL_Butcher_ChoppingMeat.bnk)
-# 2380776529
-# 2380776530
-# 2380776531
-# 2380776532
-# 2380776533
-# 2380776534
+Play_F_CWL_Butcher_ChoppingMeat_Man_A
+Play_F_CWL_Butcher_ChoppingMeat_Man_B
+Play_F_CWL_Butcher_ChoppingMeat_Man_C
+Play_F_CWL_Butcher_ChoppingMeat_Man_D
+Play_F_CWL_Butcher_ChoppingMeat_Man_E
+Play_F_CWL_Butcher_ChoppingMeat_Man_F
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_DL_F_CWL_Butcher_ChoppingMeat.bnk)
 GP_GLOBAL_CHARACTER_TYPE
@@ -5967,8 +5967,8 @@ ST_MISSION_SP
 # 3767812243
 
 ### EVENT NAMES (BNK_DL_F_CWL_Decrotteur_Man_INSTALL_3.bnk)
+Play_F_CWL_Decrotteur_Man_Outro
 # 684212537
-# 1627971052
 # 1802467792
 # 2530342922
 
@@ -5986,8 +5986,8 @@ ST_MISSION_SP
 # 3767812243
 
 ### EVENT NAMES (BNK_DL_F_CWL_Decrotteur_Wom.bnk)
+Play_F_CWL_Decrotteur_Wom_Outro
 # 523911627
-# 2428937435
 # 2602761115
 # 4070553529
 
@@ -6058,7 +6058,7 @@ ST_MISSION_SP
 # 3767812243
 
 ### EVENT NAMES (BNK_DL_F_CWL_Flag_INSTALL_2.bnk)
-# 2422417607
+Play_F_CWL_Flag_LP
 # 2914860467
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_DL_F_CWL_Flag_INSTALL_2.bnk)
@@ -6120,9 +6120,9 @@ ST_MISSION_SP
 # 3767812243
 
 ### EVENT NAMES (BNK_DL_F_CWL_GRD_TryingLockedDoor.bnk)
-# 2188325733
-# 2188325734
-# 2188325735
+Play_F_CWL_GRD_TryingLockedDoor_A
+Play_F_CWL_GRD_TryingLockedDoor_B
+Play_F_CWL_GRD_TryingLockedDoor_C
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_DL_F_CWL_GRD_TryingLockedDoor.bnk)
 GP_GLOBAL_CHARACTER_TYPE
@@ -6216,16 +6216,16 @@ ST_MISSION_SP
 # 3767812243
 
 ### EVENT NAMES (BNK_DL_F_CWL_GenericBartender_INSTALL_3.bnk)
-# 2836901408
-# 2836901409
-# 2836901410
-# 2836901411
-# 2836901412
-# 2836901413
-# 2836901415
-# 2836901420
-# 2836901422
-# 2836901423
+Play_F_CWL_GenericBartender_Man_A
+Play_F_CWL_GenericBartender_Man_B
+Play_F_CWL_GenericBartender_Man_C
+Play_F_CWL_GenericBartender_Man_D
+Play_F_CWL_GenericBartender_Man_E
+Play_F_CWL_GenericBartender_Man_F
+Play_F_CWL_GenericBartender_Man_G
+Play_F_CWL_GenericBartender_Man_H
+Play_F_CWL_GenericBartender_Man_I
+Play_F_CWL_GenericBartender_Man_J
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_DL_F_CWL_GenericBartender_INSTALL_3.bnk)
 GP_GLOBAL_CHARACTER_TYPE
@@ -6265,21 +6265,21 @@ ST_MISSION_SP
 # 3767812243
 
 ### EVENT NAMES (BNK_DL_F_CWL_Guillotine.bnk)
+Play_F_CWL_Guillotine_Blade_Down
+Play_F_CWL_Guillotine_blade_hit
+Play_F_CWL_Guillotine_Wood_grab
+Play_F_CWL_Guillotine_Wood_Impact
 # 144002334
 # 377591646
 # 444819306
 # 808394785
 # 1049596006
-# 1166384449
 # 1521856679
 # 1618717405
 # 1767874424
 # 2172001807
-# 2409176929
 # 2546313489
 # 2675396776
-# 2921372093
-# 3220935594
 # 3418812148
 # 3435682194
 # 3704364931
@@ -6408,9 +6408,9 @@ ST_MISSION_SP
 # 3767812243
 
 ### EVENT NAMES (BNK_DL_F_CWL_OilingBarrelInside_INSTALL_3.bnk)
-# 1469799448
-# 1469799449
-# 1469799451
+Play_F_CWL_OilingBarrelInside_Man_A
+Play_F_CWL_OilingBarrelInside_Man_B
+Play_F_CWL_OilingBarrelInside_Man_C
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_DL_F_CWL_OilingBarrelInside_INSTALL_3.bnk)
 GP_GLOBAL_CHARACTER_TYPE
@@ -6426,8 +6426,8 @@ ST_MISSION_SP
 # 3767812243
 
 ### EVENT NAMES (BNK_DL_F_CWL_OilingBarrelOutside_INSTALL_3.bnk)
-# 3402388521
-# 3402388522
+Play_F_CWL_OilingBarrelOutside_Man_A
+Play_F_CWL_OilingBarrelOutside_Man_B
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_DL_F_CWL_OilingBarrelOutside_INSTALL_3.bnk)
 GP_GLOBAL_CHARACTER_TYPE
@@ -6792,13 +6792,13 @@ ST_MISSION_SP
 # 3767812243
 
 ### EVENT NAMES (BNK_DL_F_CWL_WashingWindow_Casual_INSTALL_3.bnk)
-# 1503544936
-# 1503544937
-# 1503544938
-# 1503544939
-# 1503544940
-# 1503544941
-# 1503544943
+Play_F_CWL_WashingWindow_Casual_01
+Play_F_CWL_WashingWindow_Casual_02
+Play_F_CWL_WashingWindow_Casual_03
+Play_F_CWL_WashingWindow_Casual_04
+Play_F_CWL_WashingWindow_Casual_05
+Play_F_CWL_WashingWindow_Casual_06
+Play_F_CWL_WashingWindow_Casual_07
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_DL_F_CWL_WashingWindow_Casual_INSTALL_3.bnk)
 GP_GLOBAL_CHARACTER_TYPE
@@ -6814,10 +6814,10 @@ ST_MISSION_SP
 # 3767812243
 
 ### EVENT NAMES (BNK_DL_F_CWL_WashingWindow_Vigorously_INSTALL_3.bnk)
-# 3508086040
-# 3508086045
-# 3508086046
-# 3508086047
+Play_F_CWL_WashingWindow_Vigorously_01
+Play_F_CWL_WashingWindow_Vigorously_02
+Play_F_CWL_WashingWindow_Vigorously_03
+Play_F_CWL_WashingWindow_Vigorously_04
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_DL_F_CWL_WashingWindow_Vigorously_INSTALL_3.bnk)
 GP_GLOBAL_CHARACTER_TYPE
@@ -6927,6 +6927,7 @@ ST_MISSION_SP
 # 3767812243
 
 ### EVENT NAMES (BNK_DL_Object_Carrier.bnk)
+Play_F_Obj_Metal_Impact_Heavy_Generic
 Play_F_Obj_Metal_Impact_Light_Generic
 Play_F_Obj_Metal_Impact_Medium_Generic
 Play_F_Obj_Straw_Impact_Break
@@ -6940,7 +6941,6 @@ Play_F_Obj_Wood_Crate_Impact_Heavy
 Play_F_Obj_Wood_Crate_Impact_Light
 Play_F_Obj_Wood_Crate_Impact_Medium
 # 402327903
-# 952758365
 # 1884328537
 # 2550610580
 # 3434523482
@@ -7071,49 +7071,49 @@ SW_ANIMAL
 
 ### VALUE NAMES (BNK_DL_SFX_Anml_Global_All.bnk)
 ST_GLOBAL_ENV_INTERIOR
+ST_GLOBAL_ENV_INTERIOR_CASTLE
+ST_GLOBAL_ENV_INTERIOR_CAVE
 ST_GLOBAL_ENV_INTERIOR_CHURCH
 ST_GLOBAL_ENV_INTERIOR_INN
 SW_ANIMAL_GOAT
 SW_ANIMAL_SHEEP
-# 559915560
-# 3713629971
 
 ### EVENT NAMES (BNK_F_CHR_Navigation_Water.bnk)
 Play_F_Anml_Fish_Dive
 Play_F_Anml_Fish_Jump
-# 38742774
-# 86606218
-# 484026919
-# 511877356
-# 543020278
-# 592616683
-# 668013277
-# 677584305
-# 1049441112
-# 1088914641
-# 1209855655
-# 1250202110
-# 1343857912
-# 1535946421
-# 1638065317
-# 1770552630
-# 1894411643
-# 1943786629
-# 2319630383
-# 2566617851
-# 2812580995
-# 3128694939
-# 3156479765
-# 3304176075
-# 3315129213
-# 3454044042
-# 3459804890
-# 3487431873
-# 3706632192
-# 3852533459
-# 3861584212
-# 3932941504
-# 4158377506
+Play_F_CHR_Water_Above_Fast
+Play_F_CHR_Water_Above_Slow
+Play_F_CHR_Water_Above_Sprint
+Play_F_CHR_Water_Above_Wait
+Play_F_CHR_Water_Arm_Crawl_Fast_Enter
+Play_F_CHR_Water_Arm_Crawl_Fast_Over
+Play_F_CHR_Water_Arm_Crawl_Sprint_Enter
+Play_F_CHR_Water_Arm_Crawl_Sprint_Over
+Play_F_CHR_Water_Arm_Doggy
+Play_F_CHR_Water_Arms_Stroke_Fast
+Play_F_CHR_Water_Arms_Stroke_Slow
+Play_F_CHR_Water_Arms_Stroke_Under
+Play_F_CHR_Water_Arms_Tread_Slow
+Play_F_CHR_Water_Body_Catch_Breath
+Play_F_CHR_Water_Body_Dive_Deep
+Play_F_CHR_Water_Body_Dive_Shallow
+Play_F_CHR_Water_Body_Emerge_Quick
+Play_F_CHR_Water_Body_Emerge_Slow
+Play_F_CHR_Water_Body_Turn_180
+Play_F_CHR_Water_Body_Turn_60
+Play_F_CHR_Water_Dive_Emerge
+Play_F_CHR_Water_Dive_High
+Play_F_CHR_Water_Dive_Normal
+Play_F_CHR_Water_Dive_Submerge
+Play_F_CHR_Water_Drip_From_Clothes
+Play_F_CHR_Water_Head_Emerge_Normal
+Play_F_CHR_Water_Head_Emerge_Quick
+Play_F_CHR_Water_Head_Submerge_Slow
+Play_F_CHR_Water_Kick_Frog_Fast
+Play_F_CHR_Water_Kick_Frog_Slow
+Play_F_CHR_Water_Kick_Scissor
+Play_F_CHR_Water_Kick_Strong
+Play_F_CHR_Water_Under_Fast
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_F_CHR_Navigation_Water.bnk)
 GP_GLOBAL_CHARACTER_TYPE
@@ -7127,18 +7127,26 @@ ST_MISSION_SP
 
 ### VALUE NAMES (BNK_F_CHR_Navigation_Water.bnk)
 ST_GLOBAL_ENV_INTERIOR
+ST_GLOBAL_ENV_INTERIOR_CASTLE
+ST_GLOBAL_ENV_INTERIOR_CAVE
 ST_GLOBAL_ENV_INTERIOR_CHURCH
 ST_GLOBAL_ENV_INTERIOR_INN
 ST_GLOBAL_WATER_ABOVE
 ST_GLOBAL_WATER_UNDER
-# 559915560
-# 3713629971
 # 3767812255
 # 3767812253
 # 3767812243
 
 ### EVENT NAMES (BNK_F_CWL_Global_All_INSTALL_2.bnk)
+Play_F_CWL_Eating_Soup
+Play_F_CWL_Farmer_Seeding
 Play_F_CWL_Gardener
+Play_F_CWL_General_WashingClothes_In
+Play_F_CWL_General_WashingClothes_Out
+Play_F_CWL_Guillotine_Wood_grab
+Play_F_CWL_Guillotine_Wood_Impact
+Play_F_CWL_Harpoon_Fishing
+Play_F_CWL_Man_Washing_Hand
 Play_F_Guard_Musket_Body_Roll_Gear_Weapon_Musket
 Play_F_Guard_Musket_Heavy_Gear_Weapon_Musket
 Play_F_Guard_Musket_Jump_Start_Gear_Weapon_Musket
@@ -7157,7 +7165,6 @@ Play_F_Obj_Metal_Impact_Light_Generic
 # 108612657
 # 121796541
 # 153658814
-# 159806036
 # 198929422
 # 206620628
 # 221119233
@@ -7208,7 +7215,6 @@ Play_F_Obj_Metal_Impact_Light_Generic
 # 1091222448
 # 1121584633
 # 1128450900
-# 1166384449
 # 1179593411
 # 1187858194
 # 1216048264
@@ -7291,8 +7297,6 @@ Play_F_Obj_Metal_Impact_Light_Generic
 # 2381050602
 # 2382782869
 # 2387132086
-# 2409176929
-# 2465059671
 # 2466163521
 # 2474260498
 # 2532551874
@@ -7311,7 +7315,6 @@ Play_F_Obj_Metal_Impact_Light_Generic
 # 2672883492
 # 2676452616
 # 2696649936
-# 2698310330
 # 2706490735
 # 2722719657
 # 2732322525
@@ -7325,7 +7328,6 @@ Play_F_Obj_Metal_Impact_Light_Generic
 # 2901504917
 # 2902640025
 # 2913512417
-# 2920797180
 # 2930755393
 # 2938387174
 # 2953217414
@@ -7361,7 +7363,6 @@ Play_F_Obj_Metal_Impact_Light_Generic
 # 3353650968
 # 3370024803
 # 3371099035
-# 3452359382
 # 3482359774
 # 3528886082
 # 3541043610
@@ -7377,7 +7378,6 @@ Play_F_Obj_Metal_Impact_Light_Generic
 # 3682202097
 # 3809064659
 # 3827399584
-# 3828716981
 # 3830040195
 # 3850166822
 # 3861448194
@@ -7425,24 +7425,26 @@ GP_GLOBAL_PLAYER_SPEED
 ### VARIABLE NAMES (BNK_F_CWL_Global_All_INSTALL_2.bnk)
 ST_GLOBAL_ENV_EXTERIOR_INTERIOR
 ST_GLOBAL_INT_EXT
+ST_GLOBAL_PLAYER_STEALTH_MODE
 ST_GLOBAL_SEASON
 ST_MISSION_SP
-# 2619490084
 # 266008546
 
 ### VALUE NAMES (BNK_F_CWL_Global_All_INSTALL_2.bnk)
 None
+ST_GLOBAL_ENV_INTERIOR_CASTLE
+ST_GLOBAL_ENV_INTERIOR_CAVE
 ST_GLOBAL_ENV_INTERIOR_CHURCH
 ST_GLOBAL_ENV_INTERIOR_INN
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
+ST_GLOBAL_INTERIOR_UNDERROOF
+ST_GLOBAL_PLAYER_STEALTH_ENTER
 ST_GLOBAL_SEASON_SUMMER
 ST_GLOBAL_SEASON_WINTER
 ST_SP_SQ00
 ST_SP_SQ02_M025
 # 109723468
-# 3314461216
-# 3069320877
 # 841973678
 # 1850738699
 # 2486903498
@@ -7477,8 +7479,6 @@ ST_SP_SQ02_M025
 # 1034737650
 # 3271635937
 # 1036592734
-# 559915560
-# 3713629971
 # 3767812255
 # 3767812253
 # 3767812243
@@ -7557,6 +7557,8 @@ ST_MISSION_SP
 # 3767812243
 
 ### EVENT NAMES (BNK_F_CWL_Villa.bnk)
+play_F_CWL_Villa_chest_close
+play_F_CWL_Villa_chest_open
 # 23856372
 # 55641414
 # 82194009
@@ -7612,7 +7614,6 @@ ST_MISSION_SP
 # 2225767065
 # 2387132086
 # 2437899190
-# 2507749615
 # 2605735586
 # 2648402084
 # 2683439083
@@ -7629,7 +7630,6 @@ ST_MISSION_SP
 # 3305314296
 # 3419715470
 # 3420815065
-# 3466545893
 # 3481736332
 # 3621879014
 # 3697859194
@@ -7869,6 +7869,7 @@ ST_MU_MUSIC03
 # 3403721026
 
 ### EVENT NAMES (BNK_Music_Global_Structure_INSTALL_1.bnk)
+Mute_HDR_World_InGame
 Play_MU_AC103
 Play_MU_AC117
 Play_MU_ACU
@@ -7881,15 +7882,24 @@ Play_MU_Combat_Hiding_End
 Play_MU_Combat_Present
 Play_MU_Coop_E3
 Play_MU_Coop_E3_Barricade
+Play_MU_Coop_E3_Disguise
+Play_MU_Coop_E3_Disguise_Stinger
 Play_MU_Coop_E3_Intro
+Play_MU_E3_Assassinate_01
+Play_MU_E3_Assassinate_02
+Play_MU_E3_Assassinate_03
+Play_MU_E3_Assassinate_Outro
 Play_MU_E3_Intro
 Play_MU_E3_Intro_PT2
+Play_MU_E3_Intro_Stinger
 Play_MU_E3_Node
 Play_MU_E3_Node_PT2
 Play_MU_E3_Node_PT2_2
 Play_MU_E3_Node_PT3
 Play_MU_E3_Node_PT4
 Play_MU_E3_Node_PT5
+Play_MU_FightClub_Loose
+Play_MU_FightClub_Win
 Play_MU_HE
 Play_MU_Heist_Adventure
 Play_MU_Heist_Dark
@@ -7902,8 +7912,11 @@ Play_MU_LB060
 Play_MU_RB01
 Play_MU_RB02
 Play_MU_RB03
+Play_MU_RB030_Stinger
 Play_MU_RB04
+Play_MU_RB040_Stinger
 Play_MU_RB05
+Play_MU_RB050_Stinger
 Play_MU_RB06
 Play_MU_RHP
 Play_MU_Rift
@@ -8083,6 +8096,8 @@ Stop_MU_Coop_E3
 Stop_MU_E3_Assassinate
 Stop_MU_E3_Intro
 Stop_MU_E3_Node
+Stop_MU_FightClub_Loose
+Stop_MU_FightClub_Win
 stop_MU_HE
 Stop_MU_Heist_Adventure
 Stop_MU_Heist_Dark
@@ -8149,10 +8164,10 @@ Stop_Music_Fight_Coop
 Stop_Music_Fight_Coop_Random
 Stop_Music_Fight_Fadeout
 Stop_Music_Fight_Random
+Unmute_HDR_World_InGame
 # 16579720
 # 16579738
 # 19046102
-# 29319543
 # 43492929
 # 58484559
 # 69412132
@@ -8254,7 +8269,6 @@ Stop_Music_Fight_Random
 # 785984371
 # 796308282
 # 801033501
-# 802801288
 # 810817329
 # 814498988
 # 827414706
@@ -8288,7 +8302,6 @@ Stop_Music_Fight_Random
 # 1046694284
 # 1048481660
 # 1051040840
-# 1070296291
 # 1075489184
 # 1090560436
 # 1130080506
@@ -8299,14 +8312,12 @@ Stop_Music_Fight_Random
 # 1209715526
 # 1210939849
 # 1230430093
-# 1241606323
 # 1255346237
 # 1268416524
 # 1276690971
 # 1280005976
 # 1287699440
 # 1315100333
-# 1326952450
 # 1351066517
 # 1355036391
 # 1364268756
@@ -8446,7 +8457,6 @@ Stop_Music_Fight_Random
 # 2545457705
 # 2547957678
 # 2554354679
-# 2561151520
 # 2576095777
 # 2579147491
 # 2579348274
@@ -8506,7 +8516,6 @@ Stop_Music_Fight_Random
 # 3043190660
 # 3047904051
 # 3050038275
-# 3053345806
 # 3060032976
 # 3060032977
 # 3060032978
@@ -8519,7 +8528,6 @@ Stop_Music_Fight_Random
 # 3103376588
 # 3118076504
 # 3133926434
-# 3134401145
 # 3136331687
 # 3141720404
 # 3150704016
@@ -8531,16 +8539,11 @@ Stop_Music_Fight_Random
 # 3225005711
 # 3231399847
 # 3234592180
-# 3246881364
-# 3246881365
-# 3246881367
 # 3252824777
 # 3252824778
 # 3252824779
 # 3260615003
 # 3269826727
-# 3274599987
-# 3319586351
 # 3324221380
 # 3326261836
 # 3332791944
@@ -8587,7 +8590,6 @@ Stop_Music_Fight_Random
 # 3767315765
 # 3770720117
 # 3779549820
-# 3811863572
 # 3814541334
 # 3815706282
 # 3835857977
@@ -8619,7 +8621,6 @@ Stop_Music_Fight_Random
 # 3991346875
 # 4004690232
 # 4005479479
-# 4007136952
 # 4008920691
 # 4055582023
 # 4059182797
@@ -8635,7 +8636,6 @@ Stop_Music_Fight_Random
 # 4133962385
 # 4151412505
 # 4151958063
-# 4154665542
 # 4160709751
 # 4165172752
 # 4188116926
@@ -8659,6 +8659,7 @@ GP_VOLUME_MUSIC
 # 4021979782
 
 ### VARIABLE NAMES (BNK_Music_Global_Structure_INSTALL_1.bnk)
+ST_AMBIANCE_WEATHER_TYPE
 ST_FIGHT_INTENSITY
 ST_GLOBAL_DISTRICT
 ST_GLOBAL_INT_EXT
@@ -8699,7 +8700,6 @@ SW_MUSIC_FIGHT_SP_RANDOM
 # 2293855879
 # 3835752577
 # 858804902
-# 30926549
 # 3398251858
 # 1309348706
 # 4175109654
@@ -8840,6 +8840,7 @@ ST_MU_RHP_LEAPOFFAITH
 ST_MU_RHP_PT1
 ST_MU_RHP_PT2
 ST_MU_RHP_PT3
+ST_MU_RHP_SYNCFIRST
 ST_MU_SCN_MUSIC01
 ST_MU_SCN_MUSIC02
 ST_MU_SCN_MUSIC03
@@ -8929,7 +8930,6 @@ SW_MUSIC_FIGHT_SP_RANDOM_NONE
 # 2052237838
 # 2052237839
 # 394600634
-# 392261630
 # 1011178124
 # 1011178125
 # 1011178126
@@ -9013,7 +9013,7 @@ ST_MU_RHP_LEAPOFFAITH
 ST_MU_RHP_PT1
 ST_MU_RHP_PT2
 ST_MU_RHP_PT3
-# 392261630
+ST_MU_RHP_SYNCFIRST
 
 ### EVENT NAMES (BNK_Music_Rift.bnk)
 Play_MU_Rift
@@ -9323,6 +9323,7 @@ ST_MISSION_SP
 None
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
+ST_GLOBAL_INTERIOR_UNDERROOF
 ST_GLOBAL_TOD_DAWN
 ST_GLOBAL_TOD_NIGHT
 ST_GLOBAL_TOD_NOON
@@ -9404,7 +9405,6 @@ ST_SP_SQ12_M040
 # 3767812243
 # 3767812242
 # 109723468
-# 3314461216
 
 ### EVENT NAMES (BNK_SFX_Fireworks.bnk)
 Set_State_ST_RIFT_FIREWORKS_OFF
@@ -9484,18 +9484,18 @@ ST_SP_BR03_RIFT
 # 3215317959
 
 ### EVENT NAMES (BNK_SFX_Rift_Portal.bnk)
-# 85227243
+Play_SFX_Rift_Portal_close
+Play_SFX_Rift_Portal_LP
+Play_SFX_Rift_Portal_open
+Play_SFX_Rift_Portal_open_Lightning
+Stop_SFX_Rift_Portal_LP
 # 127229484
 # 770052707
 # 881038245
 # 1029831399
 # 1526042831
-# 1624792193
 # 1931654599
 # 1959546060
-# 3110769085
-# 3380452131
-# 3422294912
 # 3495603166
 # 3944135921
 # 3957196654
@@ -9607,6 +9607,7 @@ ST_MISSION_SP
 
 ### VALUE NAMES (BNK_SFX_Rift_Threat_MDA.bnk)
 None
+Set_State_ST_RIFT_MU_MISSION_080
 ST_SP_BR01
 ST_SP_BR01_RIFT
 ST_SP_BR02
@@ -9712,7 +9713,6 @@ ST_SP_SQ12_M040
 # 3767812242
 # 1680772120
 # 4268986224
-# 4194721288
 
 ### EVENT NAMES (BNK_SFX_Rift_Threat_WW2.bnk)
 # 307441
@@ -9824,14 +9824,14 @@ ST_SP_BR02_RIFT
 # 3746396201
 
 ### EVENT NAMES (BNK_SFX_Rift_Threat_WindObjects.bnk)
+Play_SFX_Threat_WindObjects_lp
+Stop_SFX_Threat_WindObjects_LP
 # 546313212
 # 1264622114
 # 1610806620
 # 1654779571
-# 2718702920
 # 2946424626
 # 3431802840
-# 3499961158
 # 3512963809
 # 4172987964
 # 4184144797
@@ -9954,11 +9954,11 @@ ST_SP_SQ12_M040
 # 403349819
 
 ### EVENT NAMES (BNK_SFX_Rift_Threat_ZoneClosing.bnk)
+Play_SFX_Rift_Portal_close
 Play_SFX_Rift_ZoneClosing
+Play_SFX_Rift_ZoneClosing_Stinger
 Stop_SFX_Rift_ZoneClosing
-# 781424586
 # 1029831399
-# 1624792193
 # 3971758769
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_SFX_Rift_Threat_ZoneClosing.bnk)
@@ -11008,6 +11008,7 @@ War_Intense
 # 3767812242
 
 ### EVENT NAMES (BNK_SFX_SCR_SP_SQ01_M010_M020_M030_INSTALL_3.bnk)
+Play_F_Guard_E3_Assassinate_Outro
 Play_MU_SQ01_M010
 Play_MU_SQ01_M020
 Play_MU_SQ01_M030
@@ -11036,7 +11037,6 @@ Stop_MU_SQ01_M030
 # 1066285772
 # 1129582058
 # 1436279919
-# 1529684237
 # 1633280981
 # 1697863995
 # 1830281681
@@ -11081,18 +11081,19 @@ GP_VOLUME_MUSIC
 # 410928586
 
 ### VARIABLE NAMES (BNK_SFX_SCR_SP_SQ01_M010_M020_M030_INSTALL_3.bnk)
+ST_AMBIANCE_SYSTEMIC_VS_SCRIPTED
 ST_MISSION_SP
 ST_MU_ACU_SEQUENCE
 ST_MU_MISSIONS
 ST_MU_MUSIC_NUMBER
 SW_WALLA_DISTANCE_FROM_COMMOTION
-# 1953535818
-# 902707043
+SW_WALLA_REACTION_RFX_DENSITY
 # 462396327
 # 2460568433
 
 ### VALUE NAMES (BNK_SFX_SCR_SP_SQ01_M010_M020_M030_INSTALL_3.bnk)
 None
+ST_AMBIANCE_SYSTEMIC
 ST_MU_BR01
 ST_MU_BR02
 ST_MU_BR03
@@ -11126,7 +11127,8 @@ ST_MU_SQ12
 ST_SP_SQ02_M010
 SW_WALLA_DISTANCE_FROM_COMMOTION_FAR
 SW_WALLA_DISTANCE_FROM_COMMOTION_NEAR
-# 1773017461
+SW_WALLA_REACTION_RFX_DENSITY_BIG
+SW_WALLA_REACTION_RFX_DENSITY_SMALL
 # 1103720178
 # 1375863723
 # 388099323
@@ -11135,8 +11137,6 @@ SW_WALLA_DISTANCE_FROM_COMMOTION_NEAR
 # 3071990990
 # 1582624734
 # 3060716863
-# 893313691
-# 4271394300
 # 2288816169
 # 2646301416
 # 4060909629
@@ -11191,14 +11191,15 @@ Stop_MU_SQ02_M010
 # 1322300214
 
 ### VARIABLE NAMES (BNK_SFX_SCR_SP_SQ02_M010.bnk)
+ST_AMBIANCE_SYSTEMIC_VS_SCRIPTED
 ST_MISSION_SP
 ST_MU_ACU_SEQUENCE
 ST_MU_MISSIONS
 ST_MU_MUSIC_NUMBER
-# 1953535818
 
 ### VALUE NAMES (BNK_SFX_SCR_SP_SQ02_M010.bnk)
 None
+ST_AMBIANCE_SYSTEMIC
 ST_MU_BR01
 ST_MU_BR02
 ST_MU_BR03
@@ -11236,7 +11237,6 @@ ST_MU_SQ10
 ST_MU_SQ11
 ST_MU_SQ12
 ST_SP_SQ02_M010
-# 1773017461
 # 1103720178
 # 1375863723
 # 388099323
@@ -11361,18 +11361,20 @@ Stop_MU_SQ02_M025
 ### VARIABLE NAMES (BNK_SFX_SCR_SP_SQ02_M025.bnk)
 ST_GLOBAL_EAGLESENSE
 ST_GLOBAL_GAMESTATE
+ST_GLOBAL_SLOW_MO
 ST_MISSION_SCENE
 ST_MISSION_SP
 ST_MU_ACU_SEQUENCE
 ST_MU_AWARENESS_ZONE
 ST_MU_MISSIONS
 ST_MU_MUSIC_NUMBER
-# 3401289609
 
 ### VALUE NAMES (BNK_SFX_SCR_SP_SQ02_M025.bnk)
 None
 ST_GLOBAL_EAGLESENSE_OFF
 ST_GLOBAL_GAMESTATE_INGAME
+ST_GLOBAL_SLOW_MO_OFF
+ST_GLOBAL_SLOW_MO_ON
 ST_MU_BR01
 ST_MU_BR02
 ST_MU_BR03
@@ -11491,8 +11493,6 @@ ST_SP_SQ12_M040
 # 3767812252
 # 3767812243
 # 3767812242
-# 1525979611
-# 3675998567
 
 ### EVENT NAMES (BNK_SFX_SCR_SP_SQ03_M005.bnk)
 Play_MU_SQ03_M005
@@ -12458,6 +12458,7 @@ None
 ST_GLOBAL_EXTERIOR
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
+ST_GLOBAL_INTERIOR_UNDERROOF
 ST_GLOBAL_TOD_DAWN
 ST_GLOBAL_TOD_NIGHT
 ST_GLOBAL_TOD_NOON
@@ -12481,7 +12482,6 @@ ST_MU_MUSIC10
 ST_MU_SQ09
 ST_SP_SQ02_M010
 # 109723468
-# 3314461216
 
 ### EVENT NAMES (BNK_SFX_SCR_SP_SQ09_M030.bnk)
 Play_MU_SQ09_M030
@@ -12715,11 +12715,11 @@ Stop_MU_SQ11_M010
 ### VARIABLE NAMES (BNK_SFX_SCR_SP_SQ11_M010.bnk)
 ST_GLOBAL_EAGLESENSE
 ST_GLOBAL_INT_EXT
+ST_MISSION_SCRIPTED_EAGLESENSE
 ST_MISSION_SP
 ST_MU_ACU_SEQUENCE
 ST_MU_MISSIONS
 ST_MU_MUSIC_NUMBER
-# 785312521
 
 ### VALUE NAMES (BNK_SFX_SCR_SP_SQ11_M010.bnk)
 None
@@ -12727,6 +12727,8 @@ ST_GLOBAL_EAGLESENSE_OFF
 ST_GLOBAL_EXTERIOR
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
+ST_GLOBAL_INTERIOR_UNDERROOF
+ST_MISSION_SCRIPTED_EAGLESENSE_DEFAULT
 ST_MU_BR01
 ST_MU_BR02
 ST_MU_BR03
@@ -12760,8 +12762,6 @@ ST_MU_SQ11
 ST_MU_SQ12
 ST_SP_SQ02_M010
 # 109723468
-# 3314461216
-# 549729163
 # 1689323478
 
 ### EVENT NAMES (BNK_SFX_SCR_SP_SQ11_M020.bnk)
@@ -13121,6 +13121,18 @@ GP_GLOBAL_CHARACTER_TYPE
 # 1322300214
 
 ### EVENT NAMES (BNK_SFX_Weapon_All_But_Sword_INSTALL_2.bnk)
+Set_Switch_SW_FIGHT_PROGRESSION_NORMAL
+Set_Switch_SW_WEAPON_TYPE_HEAVY_GENERIC
+Set_Switch_SW_WEAPON_TYPE_HEAVY_METAL
+Set_Switch_SW_WEAPON_TYPE_HEAVY_NONLETHAL_METAL
+Set_Switch_SW_WEAPON_TYPE_HEAVY_NONLETHAL_WOOD
+Set_Switch_SW_WEAPON_TYPE_LONG_GENERIC
+Set_Switch_SW_WEAPON_TYPE_LONG_METAL
+Set_Switch_SW_WEAPON_TYPE_LONG_NONLETHAL_METAL
+Set_Switch_SW_WEAPON_TYPE_LONG_NONLETHAL_WOOD
+Set_Switch_SW_WEAPON_TYPE_MEDIUM_GENERIC
+Set_Switch_SW_WEAPON_TYPE_MEDIUM_NONLETHAL_METAL
+Set_Switch_SW_WEAPON_TYPE_MEDIUM_SWORD
 # 7396651
 # 41701545
 # 41701548
@@ -13133,7 +13145,6 @@ GP_GLOBAL_CHARACTER_TYPE
 # 134097044
 # 209500223
 # 262799343
-# 287581904
 # 339557178
 # 358906494
 # 378108303
@@ -13153,7 +13164,6 @@ GP_GLOBAL_CHARACTER_TYPE
 # 783331678
 # 796998533
 # 807870128
-# 864401660
 # 866928530
 # 980824351
 # 1008967071
@@ -13165,19 +13175,15 @@ GP_GLOBAL_CHARACTER_TYPE
 # 1432313105
 # 1549041428
 # 1562050780
-# 1615796293
 # 1678921553
-# 1818175611
 # 1902774592
 # 1942277591
-# 1949595295
 # 1991828803
 # 2015395608
 # 2040423273
 # 2088052784
 # 2138411386
 # 2158859647
-# 2178830238
 # 2200686452
 # 2212776995
 # 2266530231
@@ -13188,12 +13194,10 @@ GP_GLOBAL_CHARACTER_TYPE
 # 2341838272
 # 2358028493
 # 2438882892
-# 2451037222
 # 2524801907
 # 2553771655
 # 2747346779
 # 2778224337
-# 2783395691
 # 2808467987
 # 2860294877
 # 2886513300
@@ -13202,12 +13206,8 @@ GP_GLOBAL_CHARACTER_TYPE
 # 3021234461
 # 3233888939
 # 3287723112
-# 3307349256
-# 3376521295
 # 3449186198
-# 3451322199
 # 3463585224
-# 3594501533
 # 3595667428
 # 3595851264
 # 3599287582
@@ -13228,46 +13228,50 @@ GP_GLOBAL_CHARACTER_TYPE
 # 4182588261
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_SFX_Weapon_All_But_Sword_INSTALL_2.bnk)
+GP_FIGHT_PROGRESSION_PLAYER
 GP_GLOBAL_CHARACTER_TYPE
 # 1322300214
 # 699961841
 # 2914238161
-# 2505129981
 
 ### VARIABLE NAMES (BNK_SFX_Weapon_All_But_Sword_INSTALL_2.bnk)
+ST_GLOBAL_PLAYER_STEALTH_MODE
 ST_MISSION_SP
 ST_MU_INCOMBAT
 SW_CHR_TYPE
 SW_FIGHT_PROGRESSION
 SW_WEAPON_TYPE
-# 2619490084
 # 960838628
 # 1068485403
 # 1925775358
 
 ### VALUE NAMES (BNK_SFX_Weapon_All_But_Sword_INSTALL_2.bnk)
+ST_GLOBAL_PLAYER_STEALTH_ENTER
 ST_MU_COMBAT_INFIGHT
 ST_MU_COMBAT_OBSERVATION
 ST_MU_INTRO
 ST_SP_SQ00
 ST_SP_SQ02_M025
+SW_CHR_TYPE_NPC_CIVILIAN
+SW_CHR_TYPE_NPC_GUARD
+SW_CHR_TYPE_NPC_GUARD_MEDIEVAL
 SW_FIGHT_PROGRESSION_NORMAL
+SW_FLOOR_TYPE_HEAVY_STONE
+SW_WEAPON_TYPE_HEAVY_GENERIC
+SW_WEAPON_TYPE_HEAVY_METAL
+SW_WEAPON_TYPE_HEAVY_NONLETHAL_METAL
+SW_WEAPON_TYPE_HEAVY_NONLETHAL_WOOD
+SW_WEAPON_TYPE_LONG_GENERIC
+SW_WEAPON_TYPE_LONG_METAL
+SW_WEAPON_TYPE_LONG_NONLETHAL_METAL
+SW_WEAPON_TYPE_LONG_NONLETHAL_WOOD
 SW_WEAPON_TYPE_MEDIUM_GENERIC
-# 3069320877
+SW_WEAPON_TYPE_MEDIUM_NONLETHAL_METAL
+SW_WEAPON_TYPE_MEDIUM_SWORD
 # 3767812255
 # 3767812253
 # 3767812243
-# 3585190979
-# 2458756820
-# 2632667119
-# 3230085305
-# 3675282756
-# 983820915
-# 2744859331
-# 3509700936
 # 483116233
-# 3173510457
-# 881083266
 # 1940338444
 # 2459407591
 # 1768084946
@@ -13280,7 +13284,6 @@ SW_WEAPON_TYPE_MEDIUM_GENERIC
 # 1642643368
 # 3777460049
 # 3976491832
-# 1582178181
 # 1006361824
 # 1101614235
 # 4227213122
@@ -13297,14 +13300,11 @@ SW_WEAPON_TYPE_MEDIUM_GENERIC
 # 898932819
 # 297484443
 # 2206982513
-# 354751190
-# 949547320
 # 1803482085
 # 3677917640
 # 1631737811
 # 1179569750
 # 3077432563
-# 1085107282
 
 ### EVENT NAMES (BNK_SFX_Weapon_Cannon.bnk)
 # 3176908447
@@ -13318,6 +13318,8 @@ GP_GLOBAL_CHARACTER_TYPE
 # 2914238161
 
 ### EVENT NAMES (BNK_SFX_Weapon_Gun_INSTALL_2.bnk)
+Set_Switch_SW_WEAPON_GUN_BLUNDERBUSS
+Set_Switch_SW_WEAPON_GUN_MUSKET
 # 91703441
 # 103492715
 # 113538815
@@ -13333,7 +13335,6 @@ GP_GLOBAL_CHARACTER_TYPE
 # 694941403
 # 793861264
 # 809611274
-# 830800829
 # 849038382
 # 854234476
 # 907013380
@@ -13359,7 +13360,6 @@ GP_GLOBAL_CHARACTER_TYPE
 # 1996214491
 # 2157471690
 # 2163676012
-# 2191756151
 # 2195987903
 # 2214727732
 # 2218511112
@@ -13399,10 +13399,10 @@ GP_GLOBAL_CHARACTER_TYPE
 
 ### VARIABLE NAMES (BNK_SFX_Weapon_Gun_INSTALL_2.bnk)
 ST_GLOBAL_INT_EXT
+SW_CHR_OUTFIT_TYPE
 SW_CHR_TYPE
+SW_WEAPON_GUN_TYPE
 SW_WEAPON_TYPE
-# 3501141682
-# 59901732
 # 266008546
 
 ### VALUE NAMES (BNK_SFX_Weapon_Gun_INSTALL_2.bnk)
@@ -13410,30 +13410,33 @@ None
 ST_GLOBAL_EXTERIOR
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
-# 2151694758
-# 726125112
-# 3807312031
-# 2256277808
-# 1272719703
-# 3265744212
-# 1342772240
+ST_GLOBAL_INTERIOR_UNDERROOF
+SW_CHR_OUTFIT_ARMOR
+SW_CHR_OUTFIT_CHAINMAIL
+SW_CHR_OUTFIT_GEARED
+SW_CHR_OUTFIT_HEAVY
+SW_CHR_OUTFIT_LEATHERBELT
+SW_CHR_OUTFIT_LONG
+SW_CHR_OUTFIT_SHORT
+SW_CHR_TYPE_NPC_CIVILIAN
+SW_CHR_TYPE_NPC_GUARD
+SW_CHR_TYPE_NPC_GUARD_MEDIEVAL
+SW_WEAPON_GUN_BLUNDERBUSS
+SW_WEAPON_GUN_MUSKET
+SW_WEAPON_TYPE_HEAVY_METAL
+SW_WEAPON_TYPE_HEAVY_NONLETHAL_WOOD
+SW_WEAPON_TYPE_LONG_GENERIC
 # 2557741815
 # 109723468
-# 3314461216
-# 354751190
-# 949547320
 # 2206982513
 # 1803482085
 # 3677917640
 # 1631737811
 # 1179569750
 # 3077432563
-# 1085107282
 # 156718202
 # 2217105367
 # 3028989212
-# 3022244201
-# 1593949451
 # 207920467
 # 1422228768
 # 841973678
@@ -13469,11 +13472,20 @@ ST_GLOBAL_INTERIOR_UNDERGROUND
 # 1034737650
 # 3271635937
 # 1036592734
-# 3230085305
-# 3173510457
-# 2458756820
 
 ### EVENT NAMES (BNK_SFX_Weapon_Sword_INSTALL_2.bnk)
+Set_Switch_SW_FIGHT_PROGRESSION_NORMAL
+Set_Switch_SW_WEAPON_TYPE_HEAVY_GENERIC
+Set_Switch_SW_WEAPON_TYPE_HEAVY_METAL
+Set_Switch_SW_WEAPON_TYPE_HEAVY_NONLETHAL_METAL
+Set_Switch_SW_WEAPON_TYPE_HEAVY_NONLETHAL_WOOD
+Set_Switch_SW_WEAPON_TYPE_LONG_GENERIC
+Set_Switch_SW_WEAPON_TYPE_LONG_METAL
+Set_Switch_SW_WEAPON_TYPE_LONG_NONLETHAL_METAL
+Set_Switch_SW_WEAPON_TYPE_LONG_NONLETHAL_WOOD
+Set_Switch_SW_WEAPON_TYPE_MEDIUM_GENERIC
+Set_Switch_SW_WEAPON_TYPE_MEDIUM_NONLETHAL_METAL
+Set_Switch_SW_WEAPON_TYPE_MEDIUM_SWORD
 # 7396651
 # 41701545
 # 41701548
@@ -13486,7 +13498,6 @@ ST_GLOBAL_INTERIOR_UNDERGROUND
 # 134097044
 # 209500223
 # 262799343
-# 287581904
 # 339557178
 # 358906494
 # 378108303
@@ -13506,7 +13517,6 @@ ST_GLOBAL_INTERIOR_UNDERGROUND
 # 783331678
 # 796998533
 # 807870128
-# 864401660
 # 866928530
 # 980824351
 # 1008967071
@@ -13518,19 +13528,15 @@ ST_GLOBAL_INTERIOR_UNDERGROUND
 # 1432313105
 # 1549041428
 # 1562050780
-# 1615796293
 # 1678921553
-# 1818175611
 # 1902774592
 # 1942277591
-# 1949595295
 # 1991828803
 # 2015395608
 # 2040423273
 # 2088052784
 # 2138411386
 # 2158859647
-# 2178830238
 # 2200686452
 # 2212776995
 # 2266530231
@@ -13541,12 +13547,10 @@ ST_GLOBAL_INTERIOR_UNDERGROUND
 # 2341838272
 # 2358028493
 # 2438882892
-# 2451037222
 # 2524801907
 # 2553771655
 # 2747346779
 # 2778224337
-# 2783395691
 # 2808467987
 # 2860294877
 # 2886513300
@@ -13555,12 +13559,8 @@ ST_GLOBAL_INTERIOR_UNDERGROUND
 # 3021234461
 # 3233888939
 # 3287723112
-# 3307349256
-# 3376521295
 # 3449186198
-# 3451322199
 # 3463585224
-# 3594501533
 # 3595667428
 # 3595851264
 # 3599287582
@@ -13581,46 +13581,50 @@ ST_GLOBAL_INTERIOR_UNDERGROUND
 # 4182588261
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_SFX_Weapon_Sword_INSTALL_2.bnk)
+GP_FIGHT_PROGRESSION_PLAYER
 GP_GLOBAL_CHARACTER_TYPE
 # 1322300214
 # 699961841
 # 2914238161
-# 2505129981
 
 ### VARIABLE NAMES (BNK_SFX_Weapon_Sword_INSTALL_2.bnk)
+ST_GLOBAL_PLAYER_STEALTH_MODE
 ST_MISSION_SP
 ST_MU_INCOMBAT
 SW_CHR_TYPE
 SW_FIGHT_PROGRESSION
 SW_WEAPON_TYPE
-# 2619490084
 # 960838628
 # 1068485403
 # 1925775358
 
 ### VALUE NAMES (BNK_SFX_Weapon_Sword_INSTALL_2.bnk)
+ST_GLOBAL_PLAYER_STEALTH_ENTER
 ST_MU_COMBAT_INFIGHT
 ST_MU_COMBAT_OBSERVATION
 ST_MU_INTRO
 ST_SP_SQ00
 ST_SP_SQ02_M025
+SW_CHR_TYPE_NPC_CIVILIAN
+SW_CHR_TYPE_NPC_GUARD
+SW_CHR_TYPE_NPC_GUARD_MEDIEVAL
 SW_FIGHT_PROGRESSION_NORMAL
+SW_FLOOR_TYPE_HEAVY_STONE
+SW_WEAPON_TYPE_HEAVY_GENERIC
+SW_WEAPON_TYPE_HEAVY_METAL
+SW_WEAPON_TYPE_HEAVY_NONLETHAL_METAL
+SW_WEAPON_TYPE_HEAVY_NONLETHAL_WOOD
+SW_WEAPON_TYPE_LONG_GENERIC
+SW_WEAPON_TYPE_LONG_METAL
+SW_WEAPON_TYPE_LONG_NONLETHAL_METAL
+SW_WEAPON_TYPE_LONG_NONLETHAL_WOOD
 SW_WEAPON_TYPE_MEDIUM_GENERIC
-# 3069320877
+SW_WEAPON_TYPE_MEDIUM_NONLETHAL_METAL
+SW_WEAPON_TYPE_MEDIUM_SWORD
 # 3767812255
 # 3767812253
 # 3767812243
-# 3585190979
-# 2458756820
-# 2632667119
-# 3230085305
-# 3675282756
-# 983820915
-# 2744859331
-# 3509700936
 # 483116233
-# 3173510457
-# 881083266
 # 1940338444
 # 2459407591
 # 1768084946
@@ -13633,7 +13637,6 @@ SW_WEAPON_TYPE_MEDIUM_GENERIC
 # 1642643368
 # 3777460049
 # 3976491832
-# 1582178181
 # 1006361824
 # 1101614235
 # 4227213122
@@ -13650,14 +13653,11 @@ SW_WEAPON_TYPE_MEDIUM_GENERIC
 # 898932819
 # 297484443
 # 2206982513
-# 354751190
-# 949547320
 # 1803482085
 # 3677917640
 # 1631737811
 # 1179569750
 # 3077432563
-# 1085107282
 
 ### EVENT NAMES (BNK_SFX_Weppa_INSTALL_2.bnk)
 Play_SFX_Weppa
@@ -13673,9 +13673,11 @@ GP_GLOBAL_CHARACTER_TYPE
 # 2914238161
 
 ### EVENT NAMES (BNK_VO_AI_Dialog_Non_Localised_INSTALL_2.bnk)
+Play_Amb_3D_Eagle_Med_Flying
 Play_F_Obj_Chest_Put_Market
 Play_F_Obj_Metal_Impact_Fb_Manipulation_Decline
 Play_F_Obj_Rope_Stretch_Sfx_Vehicles
+ST_MISSION_EMOTION_PANICKED
 # 679691
 # 799974
 # 1017166
@@ -15210,7 +15212,6 @@ Play_F_Obj_Rope_Stretch_Sfx_Vehicles
 # 596866801
 # 597066273
 # 597663682
-# 598186747
 # 598245068
 # 598817741
 # 600170043
@@ -21345,7 +21346,6 @@ Play_F_Obj_Rope_Stretch_Sfx_Vehicles
 # 2988551212
 # 2988571040
 # 2988771872
-# 2989948116
 # 2990112861
 # 2990667548
 # 2991522725
@@ -27095,21 +27095,22 @@ ST_SP_SQ12_M040
 # 3403898849
 
 ### VARIABLE NAMES (BNK_WRLD_Amb_Pad_Paris_Interior_All_INSTALL_3.bnk)
+ST_AMBIANCE_SYSTEMIC_VS_SCRIPTED
 ST_GLOBAL_INT_EXT
 ST_GLOBAL_SEASON
 ST_GLOBAL_TOD
-# 1953535818
 
 ### VALUE NAMES (BNK_WRLD_Amb_Pad_Paris_Interior_All_INSTALL_3.bnk)
 None
+ST_AMBIANCE_SYSTEMIC
 ST_GLOBAL_EXTERIOR
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
+ST_GLOBAL_INTERIOR_UNDERROOF
 ST_GLOBAL_TOD_DAWN
 ST_GLOBAL_TOD_NIGHT
 ST_GLOBAL_TOD_NOON
 ST_GLOBAL_TOD_SUNSET
-# 1773017461
 # 1103720178
 # 1375863723
 # 388099323
@@ -27119,7 +27120,6 @@ ST_GLOBAL_TOD_SUNSET
 # 1582624734
 # 3060716863
 # 109723468
-# 3314461216
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_WRLD_Amb_Pad_Paris_Interior_Versailles_INSTALL_3.bnk)
 # 1322300214
@@ -27127,16 +27127,17 @@ ST_GLOBAL_TOD_SUNSET
 # 3403898849
 
 ### VARIABLE NAMES (BNK_WRLD_Amb_Pad_Paris_Interior_Versailles_INSTALL_3.bnk)
+ST_AMBIANCE_SYSTEMIC_VS_SCRIPTED
 ST_GLOBAL_INT_EXT
 ST_GLOBAL_SEASON
-# 1953535818
 
 ### VALUE NAMES (BNK_WRLD_Amb_Pad_Paris_Interior_Versailles_INSTALL_3.bnk)
 None
+ST_AMBIANCE_SYSTEMIC
 ST_GLOBAL_EXTERIOR
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
-# 1773017461
+ST_GLOBAL_INTERIOR_UNDERROOF
 # 1103720178
 # 1375863723
 # 388099323
@@ -27146,7 +27147,6 @@ ST_GLOBAL_INTERIOR_UNDERGROUND
 # 1582624734
 # 3060716863
 # 109723468
-# 3314461216
 
 ### EVENT NAMES (BNK_WRLD_Amb_RFX_Street_Small_Barratte_Beurre.bnk)
 # 4075293615
@@ -27373,6 +27373,11 @@ ST_GLOBAL_TOD_NOON
 ST_GLOBAL_TOD_SUNSET
 
 ### EVENT NAMES (BNK_WRLD_Amb_Rift_3D.bnk)
+Play_Amb_3D_Rats_LP
+Play_Amb_3D_Rats_RND
+Play_Amb_3D_Rope_Enter
+Play_Amb_3D_Rope_Exit
+Play_Amb_3D_Water_River_LP
 # 56061533
 # 85998110
 # 228541542
@@ -27389,7 +27394,6 @@ ST_GLOBAL_TOD_SUNSET
 # 1215015241
 # 1235800489
 # 1290393178
-# 1395779058
 # 1433721848
 # 1433721850
 # 1433721851
@@ -27404,9 +27408,6 @@ ST_GLOBAL_TOD_SUNSET
 # 2097758272
 # 2188686093
 # 2202693394
-# 2314701830
-# 2342111630
-# 2433016724
 # 2462517228
 # 2508260868
 # 2508260869
@@ -27414,7 +27415,6 @@ ST_GLOBAL_TOD_SUNSET
 # 2534667806
 # 2537007908
 # 2628200963
-# 2810485238
 # 2847919889
 # 3121874786
 # 3151944440
@@ -27621,10 +27621,12 @@ ST_SP_SQ12_M040
 # 3767812242
 
 ### EVENT NAMES (BNK_WRLD_Amb_Rift_Eiffel_Tower.bnk)
+Play_Amb_3D_Rope_LP
 Set_State_ST_GLOBAL_ENV_EXTERIOR
 Set_State_ST_GLOBAL_ENV_INTERIOR
 Set_State_ST_RIFT_ABOVE
 Set_State_ST_RIFT_UNDER
+Stop_Amb_3D_Rope_LP
 # 2732587
 # 75564308
 # 95370325
@@ -27632,7 +27634,6 @@ Set_State_ST_RIFT_UNDER
 # 106134114
 # 190487874
 # 215247218
-# 359781244
 # 394217445
 # 546573929
 # 601499397
@@ -27684,7 +27685,6 @@ Set_State_ST_RIFT_UNDER
 # 3846516922
 # 3858197752
 # 3867645325
-# 3867801634
 # 3915266338
 # 4014868515
 # 4132736521
@@ -27708,6 +27708,9 @@ ST_RIFT_MISSION
 None
 ST_GLOBAL_ENV_EXTERIOR
 ST_GLOBAL_ENV_INTERIOR
+ST_GLOBAL_ENV_INTERIOR_CASTLE
+ST_GLOBAL_ENV_INTERIOR_CAVE
+ST_GLOBAL_ENV_INTERIOR_CAVERN
 ST_GLOBAL_ENV_INTERIOR_CHURCH
 ST_GLOBAL_ENV_INTERIOR_INN
 ST_GLOBAL_ENV_INTERIOR_OPEN
@@ -27772,9 +27775,6 @@ ST_SP_SQ12_M010
 ST_SP_SQ12_M020
 ST_SP_SQ12_M030
 ST_SP_SQ12_M040
-# 559915560
-# 3713629971
-# 4067013231
 # 3767812250
 # 3767812249
 # 3767812248
@@ -27837,6 +27837,8 @@ ST_RIFT_PORTAL_INSIDE
 ST_SP_BR03_RIFT
 
 ### EVENT NAMES (BNK_WRLD_Amb_Walla_AI.bnk)
+walla_ponct_trnt_generic_finished
+walla_ponct_trnt_generic_restart
 # 99573124
 # 135783325
 # 142628581
@@ -27872,14 +27874,12 @@ ST_SP_BR03_RIFT
 # 2989785280
 # 3161077849
 # 3319300635
-# 3405346175
 # 3460436972
 # 3619557353
 # 3662243342
 # 3753745495
 # 3836299605
 # 3963126594
-# 4118597054
 # 4224246734
 # 4225193428
 
@@ -27893,20 +27893,24 @@ ST_SP_BR03_RIFT
 ### VARIABLE NAMES (BNK_WRLD_Amb_Walla_AI.bnk)
 ST_MISSION_COOP
 ST_MISSION_SP
+SW_WALLA_BULK_PAD_DENSITY
+SW_WALLA_BULK_RFX_DENSITY
 SW_WALLA_DISTANCE_FROM_COMMOTION
-# 1163335122
-# 1361528533
-# 3760142190
-# 902707043
-# 2483713464
+SW_WALLA_REACTION_PAD_DENSITY
+SW_WALLA_REACTION_RFX_DENSITY
+SW_WALLA_REACTION_TYPE
 
 ### VALUE NAMES (BNK_WRLD_Amb_Walla_AI.bnk)
 ST_COOP_RB050
 ST_SP_SQ02_M010
+SW_WALLA_BULK_RFX_DENSITY_BIG
+SW_WALLA_BULK_RFX_DENSITY_SMALL
 SW_WALLA_DISTANCE_FROM_COMMOTION_FAR
 SW_WALLA_DISTANCE_FROM_COMMOTION_NEAR
+SW_WALLA_REACTION_RFX_DENSITY_BIG
+SW_WALLA_REACTION_RFX_DENSITY_SMALL
+SW_WALLA_REACTION_TYPE_MONEY
 # 1625198314
-# 2903796083
 # 2022996184
 # 1288955667
 # 2623169317
@@ -27938,21 +27942,17 @@ SW_WALLA_DISTANCE_FROM_COMMOTION_NEAR
 # 536980844
 # 579402849
 # 1422383149
-# 2736730378
-# 2155863197
-# 893313691
-# 4271394300
 # 3072260168
 # 4113170682
 
 ### EVENT NAMES (BNK_WRLD_Amb_Walla_Combat_INSTALL_2.bnk)
+Mute_HDR_World_InGame_Walla_Systemic_Combat_All
 Play_Amb_Walla_Combat_Pad_From_Combat
 Play_Amb_Walla_Combat_Pad_From_Silence
 Play_Amb_Walla_Punct_Combat_Spectator
 Stop_Amb_Walla_Combat_Pad_Ending
 Stop_Amb_Walla_Combat_Pad_Finished
-# 297077803
-# 1469990032
+Unmute_HDR_World_InGame_Walla_Systemic_Combat_All
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_WRLD_Amb_Walla_Combat_INSTALL_2.bnk)
 # 2183214964
@@ -27962,25 +27962,25 @@ Stop_Amb_Walla_Combat_Pad_Finished
 ### VARIABLE NAMES (BNK_WRLD_Amb_Walla_Combat_INSTALL_2.bnk)
 ST_MISSION_EMOTION
 ST_MISSION_SP
+SW_WALLA_COMBAT_DENSITY_RFX
 SW_WALLA_DISTANCE_FROM_COMMOTION
-# 3372456878
 
 ### VALUE NAMES (BNK_WRLD_Amb_Walla_Combat_INSTALL_2.bnk)
 None
 ST_MISSION_EMOTION_ANGER
 ST_MISSION_EMOTION_EVIL
+ST_MISSION_EMOTION_GENERIC
 ST_MISSION_EMOTION_HAPPY
 ST_MISSION_EMOTION_SAD
 ST_MISSION_EMOTION_STEALTH
 ST_MISSION_EMOTION_STRESS
 ST_SP_SQ02_M010
+SW_WALLA_COMBAT_DENSITY_RFX_MED
+SW_WALLA_COMBAT_DENSITY_SMALL
 SW_WALLA_DISTANCE_FROM_COMMOTION_FAR
 SW_WALLA_DISTANCE_FROM_COMMOTION_NEAR
-# 2470752111
 # 706045084
 # 1453454334
-# 1473407807
-# 1185159325
 
 ### EVENT NAMES (BNK_WRLD_Amb_Walla_Location_Gen_Festive_Party.bnk)
 # 561479
@@ -27999,11 +27999,11 @@ ST_MISSION_SP
 ### VALUE NAMES (BNK_WRLD_Amb_Walla_Location_Gen_Festive_Party.bnk)
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
+ST_GLOBAL_INTERIOR_UNDERROOF
 ST_SP_SQ02_M010
 ST_SP_SQ10_M020
 ST_SP_SQ11_M020
 # 109723468
-# 3314461216
 # 3767812255
 # 3767812253
 # 3767812243
@@ -28052,17 +28052,19 @@ ST_SP_SQ11_M020
 ST_GLOBAL_INT_EXT
 ST_MISSION_EMOTION
 ST_MISSION_SP
+SW_WALLA_REACTION_TYPE
 # 1278329203
 # 346471376
-# 1163335122
 
 ### VALUE NAMES (BNK_WRLD_Amb_Walla_Location_Gen_INSTALL_3.bnk)
 None
 ST_GLOBAL_EXTERIOR
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
+ST_GLOBAL_INTERIOR_UNDERROOF
 ST_MISSION_EMOTION_ANGER
 ST_MISSION_EMOTION_EVIL
+ST_MISSION_EMOTION_GENERIC
 ST_MISSION_EMOTION_HAPPY
 ST_MISSION_EMOTION_SAD
 ST_MISSION_EMOTION_STEALTH
@@ -28070,10 +28072,9 @@ ST_MISSION_EMOTION_STRESS
 ST_SP_SQ02_M010
 ST_SP_SQ10_M020
 ST_SP_SQ11_M020
-# 2470752111
+SW_WALLA_REACTION_TYPE_MONEY
 # 706045084
 # 109723468
-# 3314461216
 # 3767812255
 # 3767812253
 # 3767812243
@@ -28085,7 +28086,6 @@ ST_SP_SQ11_M020
 # 2528709830
 # 1288955667
 # 1964936790
-# 2903796083
 # 297605430
 
 ### EVENT NAMES (BNK_WRLD_Amb_Walla_Location_Gen_Riot_INSTALL_3.bnk)
@@ -28189,13 +28189,13 @@ ST_MISSION_SP
 None
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
+ST_GLOBAL_INTERIOR_UNDERROOF
 ST_SP_SQ02_M010
 ST_SP_SQ10_M020
 ST_SP_SQ11_M020
 # 2668194457
 # 2265472838
 # 109723468
-# 3314461216
 # 3767812255
 # 3767812253
 # 3767812243
@@ -28229,18 +28229,18 @@ ST_MISSION_SP
 ### VALUE NAMES (BNK_WRLD_Amb_Walla_Location_Market.bnk)
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
+ST_GLOBAL_INTERIOR_UNDERROOF
 ST_SP_SQ02_M010
 ST_SP_SQ10_M020
 ST_SP_SQ11_M020
 # 109723468
-# 3314461216
 # 3767812255
 # 3767812253
 # 3767812243
 
 ### EVENT NAMES (BNK_WRLD_F_Falla.bnk)
-# 1485324208
-# 4109637838
+Play_F_Falla_LP
+Stop_F_Falla_LP
 
 ### RTPC/GAME-VARIABLE NAMES (BNK_WRLD_F_Falla.bnk)
 GP_FALLA_SIZE
@@ -28254,23 +28254,23 @@ ST_MISSION_SP
 SW_FALLA_CHR_TYPE
 SW_FALLA_IDLE_INTENSITY
 SW_FALLA_SPEED
-# 2664094601
+SW_FALLA_SURFACE_FLOOR
 
 ### VALUE NAMES (BNK_WRLD_F_Falla.bnk)
 SW_FALLA_CHR_TYPE_GUARD
+SW_FALLA_CHR_TYPE_NPC
 SW_FALLA_IDLE_INTENSITY_CALM
+SW_FALLA_IDLE_INTENSITY_EXCITED
+SW_FALLA_IDLE_INTENSITY_PANIC
 SW_FALLA_SPEED_IDLE
 SW_FALLA_SPEED_RUN
 SW_FALLA_SPEED_WALK
-# 1582226887
-# 2407171555
-# 4056482475
-# 3842002087
-# 2254964805
-# 1354815289
-# 2648445642
-# 643224841
-# 1605637445
+SW_FALLA_SURFACE_FLOOR_DIRT
+SW_FALLA_SURFACE_FLOOR_ORGANIC
+SW_FALLA_SURFACE_FLOOR_SNOW
+SW_FALLA_SURFACE_FLOOR_STONE
+SW_FALLA_SURFACE_FLOOR_WATER
+SW_FALLA_SURFACE_FLOOR_WOOD
 # 3767812255
 # 3767812253
 # 3767812243
@@ -28284,21 +28284,21 @@ play_sfx_vr_room_gate
 # 732191203
 
 ### EVENT NAMES (BNK_WRLD_Global_Wind_Weather_System_INSTALL_2.bnk)
+Play_Amb_3D_Weather_Lightning
+Play_Amb_3D_Weather_Lightning_LGS
 Play_Amb_3D_Weather_Thunder
 Play_Amb_RFX_Homestead_First_Floor_Manor_Window
 Play_Amb_RFX_Homestead_Second_Floor_Manor_Window
 Play_Amb_Weather_Thunder_Medium_RND_SQ_LP
 Play_Switch_Amb_RFX_Hom_Interiors_Church_Window
 Play_Switch_Amb_RFX_Hom_Interiors_Inn_Window
+Stop_Amb_3D_Weather_Lightning
 Stop_Amb_3D_Weather_Thunder
 Stop_Amb_Weather_Thunder_Medium_RND_SQ_LP
 # 601499397
 # 759584429
-# 1214583729
 # 1637526120
-# 1990768246
 # 2120208328
-# 2974391216
 # 3283193527
 # 3394152651
 # 3404835617
@@ -28320,17 +28320,21 @@ GP_GLOBAL_TIME_OF_DAY
 # 1322300214
 
 ### VARIABLE NAMES (BNK_WRLD_Global_Wind_Weather_System_INSTALL_2.bnk)
+ST_AMBIANCE_SYSTEMIC_VS_SCRIPTED
 ST_GLOBAL_ENV_EXTERIOR_INTERIOR
 ST_GLOBAL_INT_EXT
 ST_GLOBAL_SEASON
 ST_MISSION_SP
 ST_RIFT_MISSION
-# 1953535818
 
 ### VALUE NAMES (BNK_WRLD_Global_Wind_Weather_System_INSTALL_2.bnk)
 None
+ST_AMBIANCE_SYSTEMIC
 ST_GLOBAL_ENV_EXTERIOR
 ST_GLOBAL_ENV_INTERIOR
+ST_GLOBAL_ENV_INTERIOR_CASTLE
+ST_GLOBAL_ENV_INTERIOR_CAVE
+ST_GLOBAL_ENV_INTERIOR_CAVERN
 ST_GLOBAL_ENV_INTERIOR_CHURCH
 ST_GLOBAL_ENV_INTERIOR_INN
 ST_GLOBAL_ENV_INTERIOR_OPEN
@@ -28339,14 +28343,13 @@ ST_GLOBAL_ENV_INTERIOR_TAVERN_SECONDFLOOR
 ST_GLOBAL_EXTERIOR
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
+ST_GLOBAL_INTERIOR_UNDERROOF
 ST_GLOBAL_SEASON_SUMMER
 ST_GLOBAL_SEASON_WINTER
 ST_RIFT_WW2_PARKOUR
 ST_SP_BR01
 ST_SP_SQ07_M030
-# 3314461216
 # 109723468
-# 1773017461
 # 1103720178
 # 1375863723
 # 388099323
@@ -28355,9 +28358,6 @@ ST_SP_SQ07_M030
 # 3071990990
 # 1582624734
 # 3060716863
-# 559915560
-# 3713629971
-# 4067013231
 
 ### EVENT NAMES (BNK_WRLD_Media_Amb_QuartierLatin_Default.bnk)
 # 876135304
@@ -28618,9 +28618,9 @@ ST_GLOBAL_TOD_SUNSET
 ### EVENT NAMES (BNK_WRLD_Media_Water_INSTALL_2.bnk)
 Play_Amb_Water_Lapping_On_Boat_Small_LP
 Play_Amb_Water_Lapping_On_Rock_LP
+Play_Amb_Water_Lapping_On_Wood_Wharf_LP
 Play_Amb_Water_River_Flow_Calm_01_LP
 # 1196873635
-# 3304358470
 # 4106266895
 # 4133089974
 
@@ -28669,8 +28669,12 @@ War
 War_Intense
 
 ### EVENT NAMES (BNK_WRLD_Structure_Amb_Pad_Paris_Exterior.bnk)
+Set_State_AMBIANCE_SYSTEMIC
+Set_State_ST_AMBIANCE_SYSTEMIC
 Set_State_ST_GLOBAL_ENV_EXTERIOR
 Set_State_ST_GLOBAL_ENV_INTERIOR
+Set_State_ST_GLOBAL_ENV_INTERIOR_Castle
+Set_State_ST_GLOBAL_ENV_INTERIOR_CAVE
 Set_State_ST_GLOBAL_ENV_INTERIOR_CHURCH
 Set_State_ST_GLOBAL_ENV_INTERIOR_INN
 Set_State_ST_GLOBAL_ENV_INTERIOR_OPEN
@@ -28719,7 +28723,6 @@ Set_State_ST_GLOBAL_INTERIOR
 # 853768722
 # 876135304
 # 928686983
-# 935377020
 # 954994785
 # 972418160
 # 1019722128
@@ -28812,7 +28815,6 @@ Set_State_ST_GLOBAL_INTERIOR
 # 2492288463
 # 2500849312
 # 2508024468
-# 2530296919
 # 2531197290
 # 2536826521
 # 2541348260
@@ -28868,12 +28870,10 @@ Set_State_ST_GLOBAL_INTERIOR
 # 3412581239
 # 3415945815
 # 3426364813
-# 3438715396
 # 3464286935
 # 3528186686
 # 3532937920
 # 3547641781
-# 3604797372
 # 3623654283
 # 3626138513
 # 3633111466
@@ -28923,15 +28923,15 @@ GP_GLOBAL_TIME_OF_DAY
 # 991960943
 
 ### VARIABLE NAMES (BNK_WRLD_Structure_Amb_Pad_Paris_Exterior.bnk)
+ST_AMBIANCE_SYSTEMIC_VS_SCRIPTED
+ST_AMBIANCE_WEATHER_TYPE
 ST_GLOBAL_ENV_EXTERIOR_INTERIOR
 ST_GLOBAL_INT_EXT
 ST_GLOBAL_SEASON
 ST_GLOBAL_TOD
 ST_MISSION_COOP
 ST_MISSION_SP
-# 1953535818
 # 2404557333
-# 30926549
 # 3728404316
 # 2941861085
 # 2629431021
@@ -28941,6 +28941,7 @@ ST_MISSION_SP
 
 ### VALUE NAMES (BNK_WRLD_Structure_Amb_Pad_Paris_Exterior.bnk)
 None
+ST_AMBIANCE_SYSTEMIC
 ST_COOP_E3
 ST_COOP_LB010
 ST_COOP_LB020
@@ -28955,6 +28956,8 @@ ST_COOP_RB050
 ST_COOP_RB060
 ST_GLOBAL_ENV_EXTERIOR
 ST_GLOBAL_ENV_INTERIOR
+ST_GLOBAL_ENV_INTERIOR_CASTLE
+ST_GLOBAL_ENV_INTERIOR_CAVE
 ST_GLOBAL_ENV_INTERIOR_CHURCH
 ST_GLOBAL_ENV_INTERIOR_INN
 ST_GLOBAL_ENV_INTERIOR_OPEN
@@ -28962,6 +28965,7 @@ ST_GLOBAL_ENV_INTERIOR_TAVERN_GROUND
 ST_GLOBAL_ENV_INTERIOR_TAVERN_SECONDFLOOR
 ST_GLOBAL_EXTERIOR
 ST_GLOBAL_INTERIOR
+ST_GLOBAL_INTERIOR_UNDERROOF
 ST_GLOBAL_SEASON_WINTER
 ST_GLOBAL_TOD_DAWN
 ST_GLOBAL_TOD_NIGHT
@@ -28971,7 +28975,6 @@ ST_SP_SQ12_M010
 ST_SP_SQ12_M020
 ST_SP_SQ12_M030
 ST_SP_SQ12_M040
-# 1773017461
 # 1103720178
 # 1375863723
 # 388099323
@@ -28989,7 +28992,6 @@ ST_SP_SQ12_M040
 # 581588343
 # 598365930
 # 615143517
-# 3314461216
 # 1160575763
 # 7759223
 # 1394701346
@@ -29005,10 +29007,8 @@ ST_SP_SQ12_M040
 # 2276596551
 # 2962298699
 # 3403315277
-# 559915560
 # 2443330088
 # 1206267781
-# 3713629971
 # 3885303491
 # 2823093325
 # 3358486499
@@ -29037,6 +29037,7 @@ ST_MU_TITLESCREEN
 ST_SP_SQ12_M040
 
 ### EVENT NAMES (BNK_WRLD_Versailles_INSTALL_3.bnk)
+Set_State_ST_AMBIANCE_SYSTEMIC
 # 277323866
 # 596281403
 # 754784855
@@ -29053,7 +29054,6 @@ ST_SP_SQ12_M040
 # 3060438285
 # 3218288950
 # 3412581239
-# 3604797372
 # 3853449335
 # 3929065721
 # 3952330370
@@ -29065,14 +29065,15 @@ ST_SP_SQ12_M040
 # 1818956783
 
 ### VARIABLE NAMES (BNK_WRLD_Versailles_INSTALL_3.bnk)
+ST_AMBIANCE_SYSTEMIC_VS_SCRIPTED
 ST_GLOBAL_INT_EXT
 ST_GLOBAL_SEASON
 ST_GLOBAL_TOD
 # 3785626075
-# 1953535818
 
 ### VALUE NAMES (BNK_WRLD_Versailles_INSTALL_3.bnk)
 None
+ST_AMBIANCE_SYSTEMIC
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_TOD_DAWN
 ST_GLOBAL_TOD_NIGHT
@@ -29080,7 +29081,6 @@ ST_GLOBAL_TOD_NOON
 ST_GLOBAL_TOD_SUNSET
 # 2988744438
 # 2799535489
-# 1773017461
 # 1103720178
 # 1375863723
 # 388099323
@@ -29096,6 +29096,7 @@ GP_DILLIGENCE_CARRIAGE_DISTANCE_FROMMOUNTAINSIDE
 GP_DILLIGENCE_CARRIAGE_ROLL_ANGLE
 GP_DILLIGENCE_CARRIAGE_WHEEL_IMPACTVELOCITY
 GP_DISTANCE_AND_ELEVATION_FROM_REGION_CELL
+GP_DISTANCE_FROM_OUT_OF_BOUND
 GP_DISTANCE_FROM_PLAYER
 GP_DISTANCE_FROM_PLAYER_INCOMBAT
 GP_DISTANCE_FROM_REGION_CELL
@@ -29107,16 +29108,23 @@ GP_EXO_QC_TANK_SCRAPE_INTENSITY
 GP_EXO_QC_TANK_SPEED
 GP_FALLA_SIZE
 GP_FALLA_SPEED
+GP_FIGHT_BLOCK
 GP_FIGHT_COUNTER
+GP_FIGHT_DODGE
+GP_FIGHT_PROGRESSION_PLAYER
+GP_FIGHT_WHOOSH
 GP_GLOBAL_CHARACTER_TYPE
 GP_GLOBAL_IN_COMBAT
 GP_GLOBAL_PLAYER_HEALTH
 GP_GLOBAL_PLAYER_SPEED
+GP_GLOBAL_SLOWMOTION
 GP_GLOBAL_TIME_OF_DAY
 GP_MU_RTPC_ONO
 GP_MU_RTPC_PLAYERHEALTH
 GP_MUSIC_FIGHT_COOP_RANDOM
 GP_MUSIC_FIGHT_SP_RANDOM
+GP_OBJ_CART_SPEED
+GP_VEHICLE_SPEED
 GP_VO_CRITICAL_DIALOGUE_RMS_OUTPUT
 GP_VOLUME_AMBIENCE
 GP_VOLUME_DIALOG
@@ -29137,8 +29145,6 @@ SS_AIR_STORM
 SS_AIR_TIMEOFDAY
 SS_AIR_TURBULENCE
 # 3403898849
-# 503965869
-# 581911567
 # 4230933486
 # 2929668212
 # 3612785993
@@ -29178,9 +29184,7 @@ SS_AIR_TURBULENCE
 # 1400335502
 # 1490036778
 # 1558118520
-# 1587267665
 # 1685631888
-# 1767902471
 # 1818956783
 # 1927910725
 # 2095949333
@@ -29193,7 +29197,6 @@ SS_AIR_TURBULENCE
 # 2375764839
 # 2443960845
 # 2468410885
-# 2505129981
 # 2589135115
 # 2691442652
 # 2696683054
@@ -29207,7 +29210,6 @@ SS_AIR_TURBULENCE
 # 2931229351
 # 3087088258
 # 3189324920
-# 3207518313
 # 3301673480
 # 3466235498
 # 3512871267
@@ -29222,15 +29224,15 @@ SS_AIR_TURBULENCE
 # 3731598620
 # 3744545506
 # 3789244904
-# 3853470472
 # 3945163791
 # 4021979782
-# 4059770120
 # 4134387924
 # 4241064898
 # 4275436346
 
 ### VARIABLE NAMES (Init.bnk)
+ST_AMBIANCE_SYSTEMIC_VS_SCRIPTED
+ST_AMBIANCE_WEATHER_TYPE
 ST_DLC_LAYER
 ST_DLC_MISSION_EMOTION
 ST_DLC_MUSIC_FIGHT_IMPORTANCE
@@ -29243,6 +29245,7 @@ ST_DLC_MUSIC_M050
 ST_DLC_TOD
 ST_FIGHT_COUNTER_POSE
 ST_FIGHT_INTENSITY
+ST_GLOBAL_CINEMATIC
 ST_GLOBAL_CLIMBING_TYPE
 ST_GLOBAL_DISTRICT
 ST_GLOBAL_EAGLESENSE
@@ -29250,7 +29253,10 @@ ST_GLOBAL_EAVESDROP
 ST_GLOBAL_ENV_EXTERIOR_INTERIOR
 ST_GLOBAL_GAMESTATE
 ST_GLOBAL_INT_EXT
+ST_GLOBAL_PLAYER_STEALTH_MODE
 ST_GLOBAL_SEASON
+ST_GLOBAL_SLOW_MO
+ST_GLOBAL_TA
 ST_GLOBAL_TOD
 ST_GLOBAL_WATER_ABOVE_UNDER
 ST_MISSION_CL
@@ -29258,6 +29264,8 @@ ST_MISSION_COOP
 ST_MISSION_COORD
 ST_MISSION_EMOTION
 ST_MISSION_SCENE
+ST_MISSION_SCRIPTED_CONFLICT_LOOP
+ST_MISSION_SCRIPTED_EAGLESENSE
 ST_MISSION_SP
 ST_MISSION_TS
 ST_MISSION_TYPE
@@ -29277,18 +29285,22 @@ ST_MU_MUSIC_NUMBER
 ST_MU_MUSIC_NUMBER_02
 ST_MU_RHP
 ST_MU_RIFT_FPP
+ST_MU_RIFT_FPP_EXPLORATION_TYPE
+ST_MU_RIFT_FPP_INCOMBAT
 ST_MU_SIDEMISSIONS
 ST_MU_SOURCE
 ST_MU_STEALTH
 ST_MU_TITLESCREEN
 ST_MUSIC_COOP_DANGER
 ST_MUSIC_COOP_PROGRESSION
+ST_MUSIC_COOP_TEAMMATES
 ST_MUSIC_EMOTION
 ST_MUSIC_EXPLORATION
 ST_MUSIC_FIGHT_IMPORTANCE
 ST_MUSIC_FIGHT_STATE
 ST_MUSIC_GAME_PROGRESSION
 ST_MUSIC_HEIST
+ST_MUSIC_MISSIONCOMPLETE
 ST_MUSIC_STEALTH
 ST_RIFT_FIREWORKS
 ST_RIFT_FROZENASSASSIN
@@ -29298,25 +29310,25 @@ ST_RIFT_ZONECLOSING
 ST_WALLA_REACTION_BURST
 ST_WRLD
 SW_ANIMAL
+SW_CHR_OUTFIT_TYPE
 SW_FALLA_SPEED
 SW_MUSIC_ALTITUDE
 SW_MUSIC_FIGHT_COOP_RANDOM
 SW_MUSIC_FIGHT_SP_RANDOM
+SW_WALLA_BULK_PAD_DENSITY
+SW_WALLA_BULK_RFX_DENSITY
+SW_WALLA_COMBAT_DENSITY_RFX
 SW_WALLA_DISTANCE_FROM_COMMOTION
+SW_WALLA_EXCITED_COMBAT_DENSITY_INTRO_NOT_USED
+SW_WALLA_GUILLOTINE_DISTANCE
+SW_WALLA_REACTION_PAD_DENSITY
+SW_WALLA_REACTION_RFX_DENSITY
 # 3050478194
-# 1953535818
 # 3785626075
-# 30926549
 # 2487853025
 # 1716036514
-# 2474410540
 # 4162954661
 # 1964495802
-# 2619490084
-# 3401289609
-# 4069679884
-# 3018653082
-# 785312521
 # 4083661315
 # 569253832
 # 2357577372
@@ -29326,15 +29338,11 @@ SW_WALLA_DISTANCE_FROM_COMMOTION
 # 4175109654
 # 3945571685
 # 2070423295
-# 544931175
-# 331076604
 # 3835752577
 # 4233569402
 # 260201734
 # 3062716348
-# 1962916126
 # 858804902
-# 399749438
 # 3994588082
 # 3981859391
 # 3421454612
@@ -29351,7 +29359,6 @@ SW_WALLA_DISTANCE_FROM_COMMOTION
 # 1436714538
 # 1466323625
 # 2765745375
-# 3501141682
 # 3883447669
 # 3303365770
 # 1757100207
@@ -29361,16 +29368,9 @@ SW_WALLA_DISTANCE_FROM_COMMOTION
 # 1806343033
 # 371738441
 # 1208990982
-# 1361528533
-# 3760142190
-# 3372456878
-# 1190358753
 # 1902376892
-# 176616154
 # 1278329203
 # 346471376
-# 2483713464
-# 902707043
 # 2460568433
 # 462396327
 
@@ -29388,6 +29388,7 @@ ST_FIGHT_WON
 ST_GLOBAL_EAGLESENSE_ON
 ST_GLOBAL_ENV_EXTERIOR
 ST_GLOBAL_ENV_INTERIOR
+ST_GLOBAL_ENV_INTERIOR_CAVE
 ST_GLOBAL_ENV_INTERIOR_CHURCH
 ST_GLOBAL_ENV_INTERIOR_INN
 ST_GLOBAL_ENV_INTERIOR_OPEN
@@ -29400,6 +29401,7 @@ ST_GLOBAL_EXTERIOR
 ST_GLOBAL_GAMESTATE_MENU
 ST_GLOBAL_INTERIOR
 ST_GLOBAL_INTERIOR_UNDERGROUND
+ST_GLOBAL_INTERIOR_UNDERROOF
 ST_GLOBAL_TOD_DAWN
 ST_GLOBAL_TOD_NIGHT
 ST_GLOBAL_TOD_SUNSET
@@ -29407,17 +29409,15 @@ ST_GLOBAL_WATER_ABOVE
 ST_GLOBAL_WATER_UNDER
 ST_SP_SQ02_M025
 ST_SP_SQ12_M040
+ST_WALLA_CROWD_ACTIVE
+ST_WALLA_CROWD_DISAPPEAR
+ST_WALLA_CROWD_STEADY
 ST_WALLA_REACTION_BURST_AFTER
 ST_WALLA_REACTION_BURST_CONNOR_HURTED
 ST_WALLA_REACTION_BURST_CONNOR_HURTING
-# 3713629971
 # 109723468
-# 3314461216
 # 1759998064
 # 2958375338
-# 916861787
-# 584550195
-# 473438808
 # 373159859
 # 288204478
 
@@ -29686,15 +29686,17 @@ GP_GLOBAL_CHARACTER_TYPE
 # 3924322780
 
 ### MISSING EVENT NAMES (BNK_SFX_Rift_Threat_MovingTrain.bnk)
+Play_SFX_Threat_MovingTrain_Brake
+Play_SFX_Threat_MovingTrain_LP
+Play_SFX_Threat_MovingTrain_LP_Idle
+Play_SFX_Threat_MovingTrain_Stop
+Stop_SFX_Threat_MovingTrain_Brake
+Stop_SFX_Threat_MovingTrain_LP
 # 396188339
-# 532744942
-# 689155731
 # 1011930394
 # 1205865840
 # 1806682161
-# 2739609514
 # 2774734702
-# 2822027951
 # 3059042289
 # 3280613017
 # 3280613018
@@ -29702,9 +29704,7 @@ GP_GLOBAL_CHARACTER_TYPE
 # 3280613020
 # 3280613021
 # 3353668925
-# 3576393652
 # 3720089266
-# 3863909665
 # 4087574649
 
 ### MISSING EVENT NAMES (BNK_SFX_SCR_SP_HE02_Assassin_Contract_INSTALL_2.bnk)
@@ -30219,10 +30219,10 @@ GP_GLOBAL_CHARACTER_TYPE
 # 843497489
 
 ### MISSING SFX NAMES (BNK_DL_Object_Carrier.bnk)
+GP_RTPC_WALK_INTENSITY
 # 31718521
 # 699583282
 # 90751726
-# 552206160
 # 987412092
 # 226637241
 # 843497489
@@ -30508,12 +30508,12 @@ GP_GLOBAL_CHARACTER_TYPE
 # 3776898156
 
 ### MISSING SFX NAMES (BNK_WRLD_PlugInMedia_Rebirth.bnk)
+FX_RVB_EAGLESENSE
 # 623136866
 # 1905960344
 # 2062550855
 # 2663058894
 # 2763170730
-# 3304693729
 # 3653140378
 # 4102856991
 
@@ -30539,6 +30539,7 @@ GP_GLOBAL_CHARACTER_TYPE
 # 1072242679
 
 ### MISSING SFX NAMES (Init.bnk)
+FX_RVB_EAGLESENSE
 # 38655628
 # 104775310
 # 198499838
@@ -30597,7 +30598,6 @@ GP_GLOBAL_CHARACTER_TYPE
 # 2937930345
 # 3280979417
 # 3298706824
-# 3304693729
 # 3410299025
 # 3413207118
 # 3447146259
@@ -30797,7 +30797,7 @@ GP_GLOBAL_CHARACTER_TYPE
 # 1322300214
 
 ### MISSING RTPC/GAME-VARIABLE NAMES (BNK_SFX_Vehicles_INSTALL_3.bnk)
-# 3207518313
+GP_VEHICLE_SPEED
 # 1322300214
 
 ### MISSING RTPC/GAME-VARIABLE NAMES (BNK_WRLD_Media_Amb_VentreParis_Middle_Default.bnk)
@@ -30807,13 +30807,13 @@ GP_GLOBAL_CHARACTER_TYPE
 # 3403898849
 
 ### MISSING VARIABLE NAMES (BNK_DLC_MTP_GLOBAL_Se_Doors.bnk)
-# 3182211907
+SW_DLC_DOOR_TYPE
 
 ### MISSING VARIABLE NAMES (BNK_SFX_Rift_Threat_ArrowRain.bnk)
 # 266008546
 
 ### MISSING VALUE NAMES (BNK_DLC_MTP_GLOBAL_Se_Doors.bnk)
-# 23644047
+SW_DLC_DOOR_TYPE_PRISON
 # 1557890693
 
 ### MISSING VALUE NAMES (BNK_SFX_Rift_Threat_ArrowRain.bnk)
@@ -30851,751 +30851,3 @@ GP_GLOBAL_CHARACTER_TYPE
 # 1034737650
 # 3271635937
 # 1036592734
-
-2475772222  : BNK_DL_F_CWL_Eating_Soup
-7011823     : BNK_DL_F_CWL_Farmer_Seeding
-3931864582  : BNK_DL_F_CWL_General_ArmWrestling
-439208996   : BNK_DL_F_CWL_General_BrushingHorse
-2099998791  : BNK_DL_F_CWL_General_ChasingEachOther
-1682331334  : BNK_DL_F_CWL_General_CheckingCrops
-2759013352  : BNK_DL_F_CWL_General_CleaningWindow
-2058393761  : BNK_DL_F_CWL_General_CoupleAtBar
-1158278684  : BNK_DL_F_CWL_General_DrinkingAlone
-1348692227  : BNK_DL_F_CWL_General_DrinkingTea
-554126002   : BNK_DL_F_CWL_General_DrinkingWithFriends
-1024213087  : BNK_DL_F_CWL_General_EatingAppleLeaningWall
-4114501515  : BNK_DL_F_CWL_General_EatingAppleSit
-3422060748  : BNK_DL_F_CWL_General_EatingAppleStandUp
-14599671    : BNK_DL_F_CWL_General_FeedingChickens
-3037309625  : BNK_DL_F_CWL_General_Fishing
-2362301745  : BNK_DL_F_CWL_General_FishingSeated
-691312649   : BNK_DL_F_CWL_General_Kissing
-1818456908  : BNK_DL_F_CWL_General_Loitering
-3188154060  : BNK_DL_F_CWL_General_MakingSnowAngle
-1187426233  : BNK_DL_F_CWL_General_MakingSnowman
-646950418   : BNK_DL_F_CWL_General_ManWithBarman
-3674927444  : BNK_DL_F_CWL_General_MenAtTable
-2712993715  : BNK_DL_F_CWL_General_PickingMushrooms
-167043751   : BNK_DL_F_CWL_General_PlayingBocce
-3173011883  : BNK_DL_F_CWL_General_Praying
-3642483103  : BNK_DL_F_CWL_General_ReadingLettersBad
-1502231425  : BNK_DL_F_CWL_General_ReadingLettersGood
-1112694616  : BNK_DL_F_CWL_General_ReadingNewspaper
-677624197   : BNK_DL_F_CWL_General_Resting
-1316595895  : BNK_DL_F_CWL_General_SeatingAlone
-2361575106  : BNK_DL_F_CWL_General_ShovellingHay
-3237185223  : BNK_DL_F_CWL_General_SpeakingWithFriend
-1089950349  : BNK_DL_F_CWL_General_Sweeping
-401114278   : BNK_DL_F_CWL_General_ThrowingBall
-2000793811  : BNK_DL_F_CWL_General_TwoMenAWomanOnTable
-4247098400  : BNK_DL_F_CWL_General_WashingClothes
-1232143274  : BNK_DL_F_CWL_General_WateringFlowers
-3129003124  : BNK_DL_F_CWL_Harpoon_Fishing
-1037874454  : BNK_DL_F_CWL_HouseCallsToNPCs
-3390398344  : BNK_DL_F_CWL_Huntress
-1353716293  : BNK_DL_F_CWL_LumberJacks
-131424220   : BNK_DL_F_CWL_Man_Washing_Hand
-3399855547  : BNK_DL_F_CWL_Miner
-1607516057  : BNK_DL_F_CWL_PickingHerbs
-1480814899  : BNK_DL_F_CWL_Tailor
-1498272379  : BNK_DL_F_CWL_Woodworker
-491649961   : BNK_DL_Object_Cart_Moving
-2514624622  : BNK_DLC_MTP_MLAYER_SFX_SCR_COOP_HEIST
-3124030248  : BNK_MUsic_Exploration_Bievre
-2153799902  : BNK_MUsic_Exploration_IleCite
-274363966   : BNK_MUsic_Exploration_Invalides
-3895327584  : BNK_MUsic_Exploration_Louvre
-4159589672  : BNK_MUsic_Exploration_Marais
-2533714464  : BNK_MUsic_Exploration_QuartierLatin
-2220483824  : BNK_MUsic_Exploration_VentreParis
-2507218943  : EngineEvent_Pause_Master_Audio_Bus
-2957971330  : EngineEvent_Resume_Master_Audio_Bus
-1737098826  : EngineEvent_Unmute_All
-1587267665  : GP_DISTANCE_FROM_OUT_OF_BOUND
-503965869   : GP_FIGHT_BLOCK
-581911567   : GP_FIGHT_DODGE
-2505129981  : GP_FIGHT_PROGRESSION_PLAYER
-3853470472  : GP_FIGHT_WHOOSH
-4059770120  : GP_GLOBAL_SLOWMOTION
-3207518313  : GP_VEHICLE_SPEED
-3051360567  : HDR_Nonworld
-294748873   : HDR_Nonworld_Ingame
-2324196253  : HDR_Nonworld_Ingame_All
-2269312893  : HDR_Nonworld_InGame_Music
-4137413711  : HDR_Nonworld_InGame_Music_Cinematic
-4286858770  : HDR_Nonworld_InGame_Music_FX
-2129462565  : HDR_Nonworld_InGame_Music_Missions
-2088679232  : HDR_Nonworld_InGame_Music_Sidemissions
-3938312145  : HDR_Nonworld_InGame_Music_Sidemissions_AC105
-4029832427  : HDR_Nonworld_InGame_Music_Sidemissions_Accept
-1663658383  : HDR_Nonworld_InGame_Music_Source
-26366723    : HDR_Nonworld_InGame_Music_Systemic
-1471825226  : HDR_Nonworld_InGame_Music_Systemic_Combat
-892667177   : HDR_Nonworld_InGame_Music_Systemic_Exploration
-2950952110  : HDR_Nonworld_InGame_Music_Systemic_MurderMystery
-2451430746  : HDR_Nonworld_InGame_Music_Systemic_Node
-486035240   : HDR_Nonworld_InGame_Music_Systemic_RHP
-2086585454  : HDR_Nonworld_InGame_Music_Systemic_RHP_Climb
-529285022   : HDR_Nonworld_InGame_Music_Systemic_RHP_Sync
-2646577130  : HDR_Nonworld_InGame_Music_Systemic_Stress
-1472073182  : HDR_Nonworld_InGame_Music_Systemic_Villa
-1712609416  : HDR_Nonworld_InGame_Music_Villa
-3802864564  : HDR_World_InGame
-1144467712  : HDR_World_InGame_All
-1483096485  : HDR_World_InGame_Amb_3D
-1192457578  : HDR_World_InGame_Amb_3D_Bells
-1751885652  : HDR_World_InGame_Amb_3D_lp
-2597309899  : HDR_World_InGame_Amb_3D_lp_Tree
-1988264997  : HDR_World_InGame_Amb_3D_Rift
-3629336815  : HDR_World_InGame_Amb_Pad
-686423961   : HDR_World_InGame_Amb_Pad_Alley
-185856023   : HDR_World_InGame_Amb_Pad_Courtyard
-3736551572  : HDR_World_InGame_Amb_Pad_Exterior
-3404029266  : HDR_World_InGame_Amb_Pad_Interior
-2864287308  : HDR_World_InGame_Amb_Pad_Interior_Generic
-687862267   : HDR_World_InGame_Amb_Pad_Interior_Villa
-111347331   : HDR_World_InGame_Amb_Pad_Present
-3361673951  : HDR_World_InGame_Amb_Pad_Rift
-1454868551  : HDR_World_InGame_Amb_Pad_Street
-1147822611  : HDR_World_InGame_Amb_Pad_Street_Large
-2803424415  : HDR_World_InGame_Amb_Pad_Street_Small
-466337417   : HDR_World_InGame_Amb_Pad_Underground
-3179763611  : HDR_World_InGame_Amb_Pad_Underground_Pad
-4240182841  : HDR_World_InGame_Amb_Pad_Winter
-3713519072  : HDR_World_InGame_Amb_RFX
-874102742   : HDR_World_InGame_Amb_RFX_Animals
-1450259641  : HDR_World_InGame_Amb_RFX_Birds
-2819568000  : HDR_World_InGame_Amb_RFX_Courtyard
-2605064761  : HDR_World_InGame_Amb_Rfx_Exterior
-1756235784  : HDR_World_InGame_Amb_RFX_Forest
-2813676422  : HDR_World_InGame_Amb_RFX_Generic
-3770764817  : HDR_World_InGame_Amb_RFX_Humans
-4280603866  : HDR_World_InGame_Amb_RFX_Insects
-2465175943  : HDR_World_InGame_Amb_Rfx_Interior
-3293378463  : HDR_World_InGame_Amb_RFX_Interior_Church
-2963177050  : HDR_World_InGame_Amb_Rfx_Interior_house
-3492981668  : HDR_World_InGame_Amb_RFX_Interior_Tavern
-421825490   : HDR_World_InGame_Amb_RFX_Street_Large
-2732140382  : HDR_World_InGame_Amb_RFX_Street_Small
-2742437466  : HDR_World_InGame_Amb_RFX_Underground
-487269939   : HDR_World_InGame_Amb_RFX_Weapon
-3304280221  : HDR_World_InGame_Amb_Walla
-1554037676  : HDR_World_InGame_Amb_Weather
-935484515   : HDR_World_InGame_Amb_Weather_Lightning
-4148230765  : HDR_World_InGame_Amb_Weather_Rain
-3316883940  : HDR_World_InGame_Amb_Weather_Rain_Inside
-1941655839  : HDR_World_InGame_Amb_Weather_Thunder
-3368064463  : HDR_World_InGame_Ambiance
-3228088422  : HDR_World_InGame_F_CHR_Body
-1621802712  : HDR_World_InGame_Foley
-1812337726  : HDR_World_InGame_Foley_Animals
-3733175808  : HDR_World_InGame_Foley_Anml_deer
-1775413062  : HDR_World_InGame_Foley_Anml_Dog
-2109264264  : HDR_World_InGame_Foley_Anml_Wolf
-2950958395  : HDR_World_InGame_Foley_Bird_Eagle
-490475968   : HDR_World_InGame_Foley_Character
-2576925268  : HDR_World_InGame_Foley_CrowdLife
-102210353   : HDR_World_InGame_Foley_Falla
-2188016522  : HDR_World_InGame_Foley_Falla_Guards
-3854641433  : HDR_World_InGame_Foley_Falla_Npc
-3665334959  : HDR_World_InGame_Foley_Horse_Navigation
-2404941584  : HDR_World_InGame_Music
-1735106784  : HDR_World_InGame_Music_Source
-2194363671  : HDR_World_InGame_Music_Source_Background
-3820514881  : HDR_World_InGame_Music_Source_Scripted
-1116664561  : HDR_World_InGame_Music_Source_Tavern
-1866902929  : HDR_World_InGame_Music_Source_Villa
-2357855081  : HDR_World_InGame_Music_Source_World
-1846758960  : HDR_World_InGame_SFX
-1099621030  : HDR_World_InGame_SFX_Animals
-3099021485  : HDR_World_InGame_SFX_Anml_Chicken
-3223460195  : HDR_World_InGame_SFX_Anml_Chicken_Exclamation
-1524139138  : HDR_World_InGame_SFX_Anml_Chicken_talk
-3148884165  : HDR_World_InGame_SFX_anml_Cow
-3650676491  : HDR_World_InGame_SFX_anml_Cow_Exclamation
-1972909338  : HDR_World_InGame_SFX_anml_Cow_Talk
-3392626472  : HDR_World_InGame_SFX_anml_Deer
-3685915086  : HDR_World_InGame_SFX_Anml_Dog
-265332325   : HDR_World_InGame_SFX_Anml_Dog_Barking
-3714066732  : HDR_World_InGame_SFX_Anml_Dog_Panting_Reaction
-4089505513  : HDR_World_InGame_SFX_Anml_Goat
-3102944359  : HDR_World_InGame_SFX_anml_Goat_Exclamation
-3437132894  : HDR_World_InGame_SFX_Anml_Goat_Talk
-1910256407  : HDR_World_InGame_SFX_Anml_Horse
-3485623157  : HDR_World_InGame_SFX_Anml_Horse_Breathe
-2959288997  : HDR_World_InGame_SFX_Anml_Horse_Whinny
-3045114220  : HDR_World_InGame_SFX_anml_Pig
-1465432430  : HDR_World_InGame_SFX_anml_Pig_Exclamation
-3983900665  : HDR_World_InGame_SFX_anml_Pig_Talk
-2451727845  : HDR_World_InGame_SFX_Anml_Sheep
-826000235   : HDR_World_InGame_SFX_anml_Sheep_Exclamation
-2365934330  : HDR_World_InGame_SFX_Anml_Sheep_Talk
-158604903   : HDR_World_InGame_SFX_appleEden
-1543404713  : HDR_World_InGame_SFX_Brasero
-653819352   : HDR_World_InGame_SFX_Explosion
-932149103   : HDR_World_InGame_SFX_Fireworks
-3374210202  : HDR_World_InGame_SFX_Rift
-3182611412  : HDR_World_InGame_SFX_Vehicles
-1826201669  : HDR_World_InGame_SFX_W_Assassination
-3657887510  : HDR_World_InGame_SFX_W_Assassination_hblade
-607158371   : HDR_World_InGame_SFX_W_Assassination_nonlethal
-432515209   : HDR_World_InGame_SFX_W_cannon_shot
-4118151759  : HDR_World_InGame_SFX_W_Heavy_Axe
-3047382048  : HDR_World_InGame_SFX_W_Heavy_Axe_Parry
-1455164824  : HDR_World_InGame_SFX_W_Heavy_Axe_Parry_LVL1
-1455164827  : HDR_World_InGame_SFX_W_Heavy_Axe_Parry_LVL2
-1455164826  : HDR_World_InGame_SFX_W_Heavy_Axe_Parry_LVL3
-640284466   : HDR_World_InGame_SFX_W_Heavy_nonlethal_Generic
-523731280   : HDR_World_InGame_SFX_W_Heavy_Sword
-1200989362  : HDR_World_InGame_SFX_W_Medium_Generic
-2044118176  : HDR_World_InGame_SFX_W_Medium_nonlethal_Generic
-302194378   : HDR_World_InGame_SFX_W_Medium_nonlethal_Wood
-1942147086  : HDR_World_InGame_SFX_W_Medium_Sword
-3565752905  : HDR_World_InGame_SFX_W_Medium_Sword_Parry
-4089944171  : HDR_World_InGame_SFX_W_Medium_Sword_Parry_LVL1
-4089944168  : HDR_World_InGame_SFX_W_Medium_Sword_Parry_LVL2
-4089944169  : HDR_World_InGame_SFX_W_Medium_Sword_Parry_LVL3
-1972774025  : HDR_World_InGame_SFX_W_Medium_Sword_Whooshes_LVL1
-1972774026  : HDR_World_InGame_SFX_W_Medium_Sword_Whooshes_LVL2
-1972774027  : HDR_World_InGame_SFX_W_Medium_Sword_Whooshes_LVL3
-2647346245  : HDR_World_InGame_SFX_W_Unarmed
-2596176226  : HDR_World_InGame_SFX_W_Unarmed_Whooshes
-1752531550  : HDR_World_InGame_SFX_W_Unarmed_Whooshes_LVL1
-1752531549  : HDR_World_InGame_SFX_W_Unarmed_Whooshes_LVL2
-1752531548  : HDR_World_InGame_SFX_W_Unarmed_Whooshes_LVL3
-1705462403  : HDR_World_InGame_SFX_Weapon
-252226553   : HDR_World_InGame_SFX_Weapon_Cannon
-2524532288  : HDR_World_InGame_SFX_Weapon_Gun
-3239049748  : HDR_World_InGame_SFX_Weapon_Tool
-3150461928  : HDR_World_InGame_SFX_Weppa
-1199029727  : HDR_World_InGame_VO_AI_All
-515447140   : HDR_World_InGame_VO_AI_DIALOGUE
-1230069091  : HDR_World_InGame_VO_AI_NPC
-1547053018  : HDR_World_InGame_W_Musket
-3370944112  : HDR_World_InGame_W_Pistol
-882394759   : HDR_World_InGame_Walla_Bulk
-3930253425  : HDR_World_InGame_Walla_Bulk_Systemic
-2543571441  : HDR_World_InGame_Walla_Bulk_Systemic_Large
-4090651417  : HDR_World_InGame_Walla_Bulk_Systemic_Medium
-2182414905  : HDR_World_InGame_Walla_Bulk_Systemic_Small
-326231633   : HDR_World_InGame_Walla_Scripted
-1943562283  : HDR_World_InGame_walla_specific
-35661380    : HDR_World_InGame_Walla_systemic
-2601249703  : HDR_World_InGame_Walla_Systemic_Combat_All
-2008807808  : HDR_World_InGame_Walla_Systemic_Combat_Intro
-2452663837  : HDR_World_InGame_Walla_Systemic_Combat_Pad
-3274369814  : HDR_World_InGame_Walla_Systemic_Combat_RFX
-3534785002  : HDR_World_InGame_Walla_systemic_Pad
-1502520076  : HDR_World_InGame_Walla_Systemic_Pad_Location
-4286757449  : HDR_World_InGame_Walla_Systemic_Punct
-190347433   : Mute_F_CHR_Body_Haystack
-2561151520  : Mute_HDR_World_InGame
-297077803   : Mute_HDR_World_InGame_Walla_Systemic_Combat_All
-2606853568  : NonHDR_Nonworld
-3347821284  : NonHDR_Nonworld_Ingame
-1056549120  : NonHDR_Nonworld_Ingame_SFX
-696203235   : NonHDR_Nonworld_Ingame_SFX_FB_Blend
-1466110062  : NonHDR_Nonworld_Ingame_SFX_FB_Desync
-1887079459  : NonHDR_Nonworld_Ingame_SFX_FB_DISGUISE
-3234109150  : NonHDR_Nonworld_Ingame_SFX_Feedback
-2661359066  : NonHDR_Nonworld_Ingame_SFX_HUD
-2582926643  : NonHDR_Nonworld_Ingame_sfx_HUD_Afs
-2767480563  : NonHDR_Nonworld_Ingame_SFX_HUD_Amb
-4176339376  : NonHDR_Nonworld_Ingame_SFX_Reach_High_Point
-653073850   : NonHDR_Nonworld_Ingame_SFX_Skill
-861446987   : NonHDR_Nonworld_Ingame_SFX_VR_Room
-2633501783  : NonHDR_Nonworld_Ingame_SFX_Whiteroom
-2488107970  : NonHDR_Nonworld_Ingame_VO
-1673750614  : NonHDR_Nonworld_Menu
-400498397   : NonHDR_Nonworld_Menu_Ambiance
-1366055550  : NonHDR_Nonworld_Menu_Music
-4213563638  : NonHDR_Nonworld_Menu_Sfx
-2532669035  : NonHDR_Nonworld_Menu_SFX_Menu_Map
-4135790239  : NonHDR_Nonworld_Menu_Sfx_Menu_Pause
-1392183530  : NonHDR_Nonworld_Menu_SFX_Menu_Title_Screen
-1582990164  : NonHDR_Nonworld_Menu_Sfx_Menu_Vr_Mission
-1495050380  : NonHDR_Nonworld_Menu_Vo
-625370221   : NonHDR_Nonworld_Menu_Vo_Villa
-122511315   : NonHDR_Nonworld_Mix
-3458917163  : NonHDR_Nonworld_Mix_Music
-2768971014  : NonHDR_Nonworld_Mix_Music_BlackBox
-1006935028  : NonHDR_Nonworld_Mix_Music_Credits
-1515704079  : NonHDR_Nonworld_Mix_Music_title_screen
-1983269991  : NonHDR_Nonworld_Mix_Sfx
-682727898   : NonHDR_Nonworld_Mix_Sfx_FB
-3059256451  : NonHDR_Nonworld_Mix_Sfx_FB_Respawn
-3499134401  : NonHDR_Nonworld_Mix_Sfx_Hud
-3489421107  : NonHDR_Nonworld_Mix_Vo
-2045645902  : NonHDR_Nonworld_Mix_Vo_Villa
-1414119966  : NonHDR_Nonworld_Transition
-2811345444  : NonHDR_Nonworld_Transition_Hud
-2318907465  : NonHDR_Nonworld_Transition_IntrO
-1690060503  : NonHDR_Nonworld_Transition_Loop
-4014838130  : NonHDR_Nonworld_Transition_Mute
-1083233750  : NonHDR_Nonworld_Transition_Outro
-3275920615  : NonHDR_Nonworld_Whiteroom_Music
-2397470331  : NonHDR_World_InGame
-3707434747  : NonHDR_World_InGame_Amb_Wind
-2572472686  : NonHDR_World_InGame_Ambiance
-358563499   : NonHDR_World_InGame_VO
-2119898959  : NonHDR_World_InGame_VO_AI_Ono
-1752467529  : NonHDR_World_InGame_VO_AI_Ono_Assassin
-3953892357  : NonHDR_World_InGame_VO_AI_Ono_Guard
-11483035    : NonHDR_World_InGame_VO_AI_Ono_NPC
-4250570660  : NonHDR_World_InGame_VO_AI_Ono_Scripted
-1704002202  : NonHDR_World_InGame_VO_SCR
-1346143161  : NonHDR_World_InGame_VO_SCR_Arno
-4114238017  : NonHDR_World_InGame_VO_SCR_Mission
-1345095590  : NonHDR_World_InGame_VO_SCR_NPC
-3637353043  : Play_Amb_3D_Clothing_Line_LP
-2989948116  : Play_Amb_3D_Eagle_Med_Flying
-3373000168  : Play_Amb_3D_Flag_Large_LP
-3184179282  : Play_Amb_3D_Insect_Flies_Med
-3551970477  : Play_Amb_3D_Insect_Flies_Small
-2342111630  : Play_Amb_3D_Rats_LP
-1395779058  : Play_Amb_3D_Rats_RND
-2433016724  : Play_Amb_3D_Rope_Enter
-2810485238  : Play_Amb_3D_Rope_Exit
-3867801634  : Play_Amb_3D_Rope_LP
-2314701830  : Play_Amb_3D_Water_River_LP
-1990768246  : Play_Amb_3D_Weather_Lightning
-1214583729  : Play_Amb_3D_Weather_Lightning_LGS
-3679072650  : Play_F_CHR_Body_Fall_Heavy_Floor
-1567452948  : Play_F_CHR_Body_Fall_Heavy_Wall
-3739971507  : Play_F_CHR_Body_Fall_Light_Floor
-1440970283  : Play_F_CHR_Body_Fall_Light_Wall
-1668153210  : Play_F_CHR_Body_Fall_Medium_Floor
-945306916   : Play_F_CHR_Body_Fall_Medium_Wall
-3536185662  : Play_F_CHR_Body_Hand_Brushoff_Body
-439713463   : Play_F_CHR_Body_Hand_Contact_Human_Light
-510742838   : Play_F_CHR_Body_Hand_Contact_Looting_Light
-3653164716  : Play_F_CHR_Body_Hand_Grasp_Heavy_Ladder
-801047079   : Play_F_CHR_Body_Hand_Grasp_Light_Ladder
-2110149244  : Play_F_CHR_Body_Hand_Grasp_Medium_Ladder
-4126463771  : Play_F_CHR_Body_Hand_Pickpocket_Generic
-3140421335  : Play_F_CHR_Body_Hand_Release
-3841684252  : Play_F_CHR_Body_Hand_Release_Human_Light
-475039979   : Play_F_CHR_Body_Hand_Scuff
-1866524797  : Play_F_CHR_Body_Hand_Shove_Across
-2637723182  : Play_F_CHR_Body_Hand_Shove_Aside
-2870507887  : Play_F_CHR_Body_Hand_Slide
-3960467738  : Play_F_CHR_Body_Hand_Slip
-3852137099  : Play_F_CHR_Body_Haystack_Exit
-399903996   : Play_F_CHR_Body_Haystack_Hurt
-4222943187  : Play_F_CHR_Body_Haystack_Jump
-1646561688  : Play_F_CHR_Body_Haystack_Land_Heavy
-3860437386  : Play_F_CHR_Body_Haystack_Leap_Of_Faith
-1870533008  : Play_F_CHR_Body_Impact_Heavy
-2427699749  : Play_F_CHR_Body_Impact_Light
-755757826   : Play_F_CHR_Body_Impact_Medium
-1622097841  : Play_F_CHR_Body_Limb_Contact_Heavy_Floor_Sw
-2701816523  : Play_F_CHR_Body_Limb_Contact_Heavy_Wall_Sw
-1900027526  : Play_F_CHR_Body_Limb_Contact_Light_Floor_Sw
-3957804430  : Play_F_CHR_Body_Limb_Contact_Light_Wall_Sw
-743287372   : Play_F_CHR_Body_Limb_Contact_Medium_Floor
-2888508699  : Play_F_CHR_Body_Limb_Contact_Medium_Wall_Sw
-1289465808  : Play_F_CHR_Body_Pindown_Grab
-3167586881  : Play_F_CHR_Body_Pindown_Release
-3308329275  : Play_F_CHR_Body_Pindown_Struggle_A
-3308329272  : Play_F_CHR_Body_Pindown_Struggle_B
-3749346298  : Play_F_CHR_Body_Roll_Cloth
-2688600491  : Play_F_CHR_Body_Roll_Gear
-3290587762  : Play_F_CHR_Body_Torso_Contact_Heavy_Floor_Sw
-2604514090  : Play_F_CHR_Body_Torso_Contact_Heavy_Wall_Sw
-2577623889  : Play_F_CHR_Body_Torso_Contact_Light_Floor_Sw
-509051371   : Play_F_CHR_Body_Torso_Contact_Light_Wall_Sw
-342724216   : Play_F_CHR_Body_Torso_Contact_Medium_Floor_Sw
-1951258752  : Play_F_CHR_Body_Torso_Contact_Medium_Wall_Sw
-1127162924  : Play_F_CHR_Body_Whoosh_Flip_Medium
-2073558910  : Play_F_CHR_Body_Whoosh_Leap_Of_Faith
-1571771352  : Play_F_CHR_Hand_Grasp_Heavy
-131818813   : Play_F_CHR_Hand_Grasp_Light
-1846719434  : Play_F_CHR_Hand_Grasp_Medium
-3599609859  : Play_F_CHR_Jump_Start_Cloth
-2930158504  : Play_F_CHR_Jump_Start_Gear
-716420017   : Play_F_CHR_Land_Heavy_Cloth
-2071144642  : Play_F_CHR_Land_Heavy_Gear
-1601132020  : Play_F_CHR_Land_Light_Cloth
-2020454273  : Play_F_CHR_Land_Light_Gear
-633823295   : Play_F_CHR_Land_Medium_Cloth
-900843380   : Play_F_CHR_Land_Medium_Gear
-269203152   : Play_F_CHR_Run_Cycle_Cloth
-1759830829  : Play_F_CHR_Run_Cycle_Gear
-1319296156  : Play_F_CHR_Slide_Body_Cloth
-3198868809  : Play_F_CHR_Slide_Body_Gear
-3278743257  : Play_F_CHR_Slide_Foot_Gear
-1566139035  : Play_F_CHR_Sneak_Cycle_Cloth
-256215277   : Play_F_CHR_Sneak_Gear
-1995584473  : Play_F_CHR_Step_Foot_cloth
-3437085546  : Play_F_CHR_Step_Foot_Gear
-3451127633  : Play_F_CHR_Step_Foot_Heavy_cloth
-4006760162  : Play_F_CHR_Step_Foot_Heavy_Gear
-981703154   : Play_F_CHR_Walk_Cycle_Cloth
-796364707   : Play_F_CHR_Walk_Cycle_Gear
-1996893295  : Play_F_CHR_Walk_End_cloth
-2783867588  : Play_F_CHR_Walk_End_Gear
-4147056080  : Play_F_CHR_Walk_Start_Cloth
-3261501485  : Play_F_CHR_Walk_Start_Gear
-484026919   : Play_F_CHR_Water_Above_Fast
-1250202110  : Play_F_CHR_Water_Above_Slow
-1535946421  : Play_F_CHR_Water_Above_Sprint
-38742774    : Play_F_CHR_Water_Above_Wait
-1894411643  : Play_F_CHR_Water_Arm_Crawl_Fast_Enter
-1088914641  : Play_F_CHR_Water_Arm_Crawl_Fast_Over
-668013277   : Play_F_CHR_Water_Arm_Crawl_Sprint_Enter
-3304176075  : Play_F_CHR_Water_Arm_Crawl_Sprint_Over
-3861584212  : Play_F_CHR_Water_Arm_Doggy
-543020278   : Play_F_CHR_Water_Arms_Stroke_Fast
-592616683   : Play_F_CHR_Water_Arms_Stroke_Slow
-1770552630  : Play_F_CHR_Water_Arms_Stroke_Under
-1943786629  : Play_F_CHR_Water_Arms_Tread_Slow
-1049441112  : Play_F_CHR_Water_Body_Catch_Breath
-1638065317  : Play_F_CHR_Water_Body_Dive_Deep
-3487431873  : Play_F_CHR_Water_Body_Dive_Shallow
-3315129213  : Play_F_CHR_Water_Body_Emerge_Quick
-1209855655  : Play_F_CHR_Water_Body_Emerge_Slow
-3852533459  : Play_F_CHR_Water_Body_Turn_180
-511877356   : Play_F_CHR_Water_Body_Turn_60
-2812580995  : Play_F_CHR_Water_Dive_Emerge
-3932941504  : Play_F_CHR_Water_Dive_High
-3156479765  : Play_F_CHR_Water_Dive_Normal
-3459804890  : Play_F_CHR_Water_Dive_Submerge
-1343857912  : Play_F_CHR_Water_Drip_From_Clothes
-2319630383  : Play_F_CHR_Water_Head_Emerge_Normal
-3128694939  : Play_F_CHR_Water_Head_Emerge_Quick
-4158377506  : Play_F_CHR_Water_Head_Submerge_Slow
-2566617851  : Play_F_CHR_Water_Kick_Frog_Fast
-86606218    : Play_F_CHR_Water_Kick_Frog_Slow
-3454044042  : Play_F_CHR_Water_Kick_Scissor
-677584305   : Play_F_CHR_Water_Kick_Strong
-3706632192  : Play_F_CHR_Water_Under_Fast
-2380776534  : Play_F_CWL_Butcher_ChoppingMeat_Man_A
-2380776533  : Play_F_CWL_Butcher_ChoppingMeat_Man_B
-2380776532  : Play_F_CWL_Butcher_ChoppingMeat_Man_C
-2380776531  : Play_F_CWL_Butcher_ChoppingMeat_Man_D
-2380776530  : Play_F_CWL_Butcher_ChoppingMeat_Man_E
-2380776529  : Play_F_CWL_Butcher_ChoppingMeat_Man_F
-1627971052  : Play_F_CWL_Decrotteur_Man_Outro
-2428937435  : Play_F_CWL_Decrotteur_Wom_Outro
-3452359382  : Play_F_CWL_Eating_Soup
-2465059671  : Play_F_CWL_Farmer_Seeding
-2422417607  : Play_F_CWL_Flag_LP
-2698310330  : Play_F_CWL_General_WashingClothes_In
-3828716981  : Play_F_CWL_General_WashingClothes_Out
-2836901415  : Play_F_CWL_GenericBartender_Man_A
-2836901412  : Play_F_CWL_GenericBartender_Man_B
-2836901413  : Play_F_CWL_GenericBartender_Man_C
-2836901410  : Play_F_CWL_GenericBartender_Man_D
-2836901411  : Play_F_CWL_GenericBartender_Man_E
-2836901408  : Play_F_CWL_GenericBartender_Man_F
-2836901409  : Play_F_CWL_GenericBartender_Man_G
-2836901422  : Play_F_CWL_GenericBartender_Man_H
-2836901423  : Play_F_CWL_GenericBartender_Man_I
-2836901420  : Play_F_CWL_GenericBartender_Man_J
-2188325733  : Play_F_CWL_GRD_TryingLockedDoor_A
-2188325734  : Play_F_CWL_GRD_TryingLockedDoor_B
-2188325735  : Play_F_CWL_GRD_TryingLockedDoor_C
-3220935594  : Play_F_CWL_Guillotine_Blade_Down
-2921372093  : Play_F_CWL_Guillotine_blade_hit
-1166384449  : Play_F_CWL_Guillotine_Wood_grab
-2409176929  : Play_F_CWL_Guillotine_Wood_Impact
-2920797180  : Play_F_CWL_Harpoon_Fishing
-159806036   : Play_F_CWL_Man_Washing_Hand
-1469799451  : Play_F_CWL_OilingBarrelInside_Man_A
-1469799448  : Play_F_CWL_OilingBarrelInside_Man_B
-1469799449  : Play_F_CWL_OilingBarrelInside_Man_C
-3402388522  : Play_F_CWL_OilingBarrelOutside_Man_A
-3402388521  : Play_F_CWL_OilingBarrelOutside_Man_B
-3466545893  : play_F_CWL_Villa_chest_close
-2507749615  : play_F_CWL_Villa_chest_open
-1503544943  : Play_F_CWL_WashingWindow_Casual_01
-1503544940  : Play_F_CWL_WashingWindow_Casual_02
-1503544941  : Play_F_CWL_WashingWindow_Casual_03
-1503544938  : Play_F_CWL_WashingWindow_Casual_04
-1503544939  : Play_F_CWL_WashingWindow_Casual_05
-1503544936  : Play_F_CWL_WashingWindow_Casual_06
-1503544937  : Play_F_CWL_WashingWindow_Casual_07
-3508086045  : Play_F_CWL_WashingWindow_Vigorously_01
-3508086046  : Play_F_CWL_WashingWindow_Vigorously_02
-3508086047  : Play_F_CWL_WashingWindow_Vigorously_03
-3508086040  : Play_F_CWL_WashingWindow_Vigorously_04
-1485324208  : Play_F_Falla_LP
-1529684237  : Play_F_Guard_E3_Assassinate_Outro
-3044755387  : Play_F_Obj_Ceramic_Break_Heavy
-978097250   : Play_F_Obj_Ceramic_Break_Light
-58055339    : Play_F_Obj_Ceramic_Break_Medium
-1718098703  : Play_F_Obj_Ceramic_Impact_Light_Generic
-2814138937  : Play_F_Obj_Leaves_Break_Medium
-952758365   : Play_F_Obj_Metal_Impact_Heavy_Generic
-1063169777  : Play_F_Obj_Vege_Impact_Heavy_Generic
-3182331489  : Play_F_Obj_Vege_Impact_Medium_Generic
-3657053911  : Play_FT_Animal_Hoof_Big_Walk
-4139299723  : Play_FT_Animal_Paw_Med_Run
-2791601831  : Play_FT_Animal_Paw_Med_Walk
-1726579288  : Play_FT_Animal_Paw_Small_Run
-476005422   : Play_FT_Animal_Paw_Small_Walk
-2788839050  : Play_FT_CHR_Jump_Start
-1318243500  : Play_FT_CHR_Land_Heavy
-1137514489  : Play_FT_CHR_Land_Light
-3393500846  : Play_FT_CHR_Land_Medium
-2320069597  : Play_FT_CHR_Run_Cycle
-2283533689  : Play_FT_CHR_slide_Foot
-3401646714  : Play_FT_CHR_sneak_cycle
-321583108   : Play_FT_CHR_step_foot
-622692676   : Play_FT_CHR_Step_Foot_Heavy
-635040571   : Play_FT_CHR_walk_cycle
-3454207006  : Play_FT_CHR_walk_end
-1707393269  : Play_FT_CHR_Walk_Start
-29319543    : Play_MU_Coop_E3_Disguise
-3811863572  : Play_MU_Coop_E3_Disguise_Stinger
-3246881367  : Play_MU_E3_Assassinate_01
-3246881364  : Play_MU_E3_Assassinate_02
-3246881365  : Play_MU_E3_Assassinate_03
-1241606323  : Play_MU_E3_Assassinate_Outro
-1070296291  : Play_MU_E3_Intro_Stinger
-4007136952  : Play_MU_FightClub_Loose
-802801288   : Play_MU_FightClub_Win
-3274599987  : Play_MU_RB030_Stinger
-4154665542  : Play_MU_RB040_Stinger
-3134401145  : Play_MU_RB050_Stinger
-2309509822  : Play_SFX_Menu_Action_Denied
-728725582   : play_SFX_obj_chest_close
-3561689098  : play_SFX_obj_chest_open
-1624792193  : play_SFX_Rift_Portal_close
-85227243    : Play_SFX_Rift_Portal_LP
-3380452131  : play_SFX_Rift_Portal_open
-3422294912  : play_SFX_Rift_Portal_open_Lightning
-781424586   : Play_SFX_Rift_ZoneClosing_Stinger
-2822027951  : play_SFX_Threat_MovingTrain_Brake
-2739609514  : play_SFX_Threat_MovingTrain_LP
-689155731   : play_SFX_Threat_MovingTrain_LP_Idle
-532744942   : play_SFX_Threat_MovingTrain_Stop
-2718702920  : play_SFX_Threat_WindObjects_lp
-935377020   : Set_State_AMBIANCE_SYSTEMIC
-1059259067  : Set_State_AWARENESS_ZONE_EXIT
-3604797372  : Set_State_ST_AMBIANCE_SYSTEMIC
-2530296919  : Set_State_ST_GLOBAL_ENV_INTERIOR_Castle
-3438715396  : Set_State_ST_GLOBAL_ENV_INTERIOR_CAVE
-3086625743  : Set_State_ST_GLOBAL_TA_BE
-3019515192  : Set_State_ST_GLOBAL_TA_FF
-2868516690  : Set_State_ST_GLOBAL_TA_MA
-1811105616  : Set_State_ST_GLOBAL_TA_WW2
-3873271846  : Set_State_ST_MISSION_EMOTION_DEFAULT
-3011047732  : Set_State_ST_MISSION_TYPE_BR
-3245934370  : Set_State_ST_MISSION_TYPE_PR
-4194721288  : Set_State_ST_RIFT_MU_MISSION_080
-2018642045  : Set_Switch_CHR_GEAR_OBJECT_LANTERN_IN_HAND
-1105700185  : Set_Switch_CHR_GEAR_OBJECT_LANTERN_ON_GROUND
-724196828   : Set_Switch_CHR_GEAR_WEAPON_CROSSBOW_IN_HAND
-844742432   : Set_Switch_CHR_GEAR_WEAPON_CROSSBOW_IN_SHEATH
-3119602163  : Set_Switch_CHR_GEAR_WEAPON_CROSSBOW_NONE
-305889703   : Set_Switch_CHR_GEAR_WEAPON_MUSKET_IN_HAND
-1692458027  : Set_Switch_CHR_GEAR_WEAPON_MUSKET_IN_SHEATH
-4101877290  : Set_Switch_CHR_GEAR_WEAPON_MUSKET_NONE
-658962653   : Set_Switch_CHR_GEAR_WEAPON_PISTOL_IN_HAND
-477949601   : Set_Switch_CHR_GEAR_WEAPON_PISTOL_IN_SHEATH
-1407724260  : Set_Switch_CHR_GEAR_WEAPON_PISTOL_NONE
-1816409559  : Set_Switch_CHR_GEAR_WEAPON_SWORD_IN_HAND
-121480539   : Set_Switch_CHR_GEAR_WEAPON_SWORD_IN_SHEATH
-35499482    : Set_Switch_CHR_GEAR_WEAPON_SWORD_NONE
-1538926664  : Set_Switch_CHR_OUTFIT_ARMOR
-3510985836  : Set_Switch_CHR_OUTFIT_HEAVY
-647549253   : Set_Switch_CHR_OUTFIT_LONG
-2217589411  : Set_Switch_CHR_OUTFIT_SHORT
-930296734   : Set_Switch_CHR_PROFILE_TYPE_HIGH
-2659196776  : Set_Switch_CHR_PROFILE_TYPE_LOW
-2012841702  : Set_Switch_OBJ_HAYSTACK_HAY
-368077462   : Set_Switch_OBJ_HAYSTACK_PINE
-2178830238  : Set_Switch_SW_FIGHT_PROGRESSION_NORMAL
-830800829   : Set_Switch_SW_WEAPON_GUN_BLUNDERBUSS
-2191756151  : Set_Switch_SW_WEAPON_GUN_MUSKET
-2783395691  : Set_Switch_SW_WEAPON_TYPE_HEAVY_GENERIC
-1615796293  : Set_Switch_SW_WEAPON_TYPE_HEAVY_METAL
-3376521295  : Set_Switch_SW_WEAPON_TYPE_HEAVY_NONLETHAL_METAL
-3594501533  : Set_Switch_SW_WEAPON_TYPE_HEAVY_NONLETHAL_WOOD
-3307349256  : Set_Switch_SW_WEAPON_TYPE_LONG_GENERIC
-2451037222  : Set_Switch_SW_WEAPON_TYPE_LONG_METAL
-864401660   : Set_Switch_SW_WEAPON_TYPE_LONG_NONLETHAL_METAL
-287581904   : Set_Switch_SW_WEAPON_TYPE_LONG_NONLETHAL_WOOD
-1818175611  : Set_Switch_SW_WEAPON_TYPE_MEDIUM_GENERIC
-1949595295  : Set_Switch_SW_WEAPON_TYPE_MEDIUM_NONLETHAL_METAL
-3451322199  : Set_Switch_SW_WEAPON_TYPE_MEDIUM_SWORD
-1773017461  : ST_AMBIANCE_SYSTEMIC
-30926549    : ST_AMBIANCE_WEATHER_TYPE
-1465449115  : ST_DLC_MISSION_EMOTION_Neutral
-2563665300  : ST_DLC_MISSION_EMOTION_NONE
-2474410540  : ST_GLOBAL_CINEMATIC
-559915560   : ST_GLOBAL_ENV_INTERIOR_CASTLE
-3713629971  : ST_GLOBAL_ENV_INTERIOR_CAVE
-4067013231  : ST_GLOBAL_ENV_INTERIOR_CAVERN
-985884570   : ST_GLOBAL_GAMESTATE_LOADINGROOM
-3314461216  : ST_GLOBAL_INTERIOR_UNDERROOF
-3401289609  : ST_GLOBAL_SLOW_MO
-1525979611  : ST_GLOBAL_SLOW_MO_OFF
-3675998567  : ST_GLOBAL_SLOW_MO_ON
-4069679884  : ST_GLOBAL_TA
-3699784156  : ST_GLOBAL_TA_BE
-3766894691  : ST_GLOBAL_TA_FF
-3850782597  : ST_GLOBAL_TA_MA
-3850126461  : ST_GLOBAL_TA_WW2
-2470752111  : ST_MISSION_EMOTION_GENERIC
-598186747   : ST_MISSION_EMOTION_PANICKED
-785312521   : ST_MISSION_SCRIPTED_EAGLESENSE
-549729163   : ST_MISSION_SCRIPTED_EAGLESENSE_DEFAULT
-1549778501  : ST_MISSION_TYPE_BR
-1851775743  : ST_MISSION_TYPE_PR
-165869039   : ST_MU_AWARENESS_ZONE_EXIT
-544931175   : ST_MU_RIFT_FPP_EXPLORATION_TYPE
-331076604   : ST_MU_RIFT_FPP_INCOMBAT
-1962916126  : ST_MUSIC_COOP_TEAMMATES
-399749438   : ST_MUSIC_MISSIONCOMPLETE
-40040600    : ST_MUSIC_MISSIONCOMPLETE_DEFAULT
-2298777434  : ST_MUSIC_MISSIONCOMPLETE_SILENCE
-916861787   : ST_WALLA_CROWD_ACTIVE
-473438808   : ST_WALLA_CROWD_DISAPPEAR
-584550195   : ST_WALLA_CROWD_STEADY
-359781244   : Stop_Amb_3D_Rope_LP
-2974391216  : Stop_Amb_3D_Weather_Lightning
-4109637838  : Stop_F_Falla_LP
-1326952450  : Stop_MU_FightClub_Loose
-3053345806  : Stop_MU_FightClub_Win
-3110769085  : Stop_SFX_Rift_Portal_LP
-3863909665  : Stop_SFX_Threat_MovingTrain_Brake
-3576393652  : Stop_SFX_Threat_MovingTrain_LP
-3499961158  : Stop_SFX_Threat_WindObjects_LP
-1949153338  : SW_CHR_GEAR_OBJECT_LANTERN
-242423880   : SW_CHR_GEAR_OBJECT_LANTERN_IN_HAND
-3138124212  : SW_CHR_GEAR_OBJECT_LANTERN_ON_GROUND
-1579404349  : SW_CHR_GEAR_WEAPON_CROSSBOW
-353386179   : SW_CHR_GEAR_WEAPON_CROSSBOW_IN_HAND
-4239880215  : SW_CHR_GEAR_WEAPON_CROSSBOW_IN_SHEATH
-3362996846  : SW_CHR_GEAR_WEAPON_CROSSBOW_NONE
-1677457534  : SW_CHR_GEAR_WEAPON_MUSKET
-267038580   : SW_CHR_GEAR_WEAPON_MUSKET_IN_HAND
-1448082424  : SW_CHR_GEAR_WEAPON_MUSKET_IN_SHEATH
-3914065947  : SW_CHR_GEAR_WEAPON_MUSKET_NONE
-4031969788  : SW_CHR_GEAR_WEAPON_PISTOL
-4037175418  : SW_CHR_GEAR_WEAPON_PISTOL_IN_HAND
-3762088726  : SW_CHR_GEAR_WEAPON_PISTOL_IN_SHEATH
-555710557   : SW_CHR_GEAR_WEAPON_PISTOL_NONE
-2274163128  : SW_CHR_GEAR_WEAPON_SWORD
-2921268734  : SW_CHR_GEAR_WEAPON_SWORD_IN_HAND
-2211357482  : SW_CHR_GEAR_WEAPON_SWORD_IN_SHEATH
-4061682953  : SW_CHR_GEAR_WEAPON_SWORD_NONE
-3740308216  : SW_CHR_OBJ_TYPE
-1272719703  : SW_CHR_OUTFIT_ARMOR
-3807312031  : SW_CHR_OUTFIT_HEAVY
-1342772240  : SW_CHR_OUTFIT_LONG
-2256277808  : SW_CHR_OUTFIT_SHORT
-3501141682  : SW_CHR_OUTFIT_TYPE
-3748796344  : SW_CHR_PROFILE_TYPE
-3884595167  : SW_CHR_PROFILE_TYPE_HIGH
-3623220043  : SW_CHR_PROFILE_TYPE_LOW
-949547320   : SW_CHR_TYPE_NPC_GUARD
-3182211907  : SW_DLC_DOOR_TYPE
-23644047    : SW_DLC_DOOR_TYPE_PRISON
-3083714582  : SW_FALLA_CHR_SMALL_WOOD
-1605637445  : SW_FALLA_CHR_TYPE_NPC
-2648445642  : SW_FALLA_IDLE_INTENSITY_EXCITED
-643224841   : SW_FALLA_IDLE_INTENSITY_PANIC
-2664094601  : SW_FALLA_SURFACE_FLOOR
-1582226887  : SW_FALLA_SURFACE_FLOOR_DIRT
-2254964805  : SW_FALLA_SURFACE_FLOOR_SNOW
-2407171555  : SW_FALLA_SURFACE_FLOOR_STONE
-1354815289  : SW_FALLA_SURFACE_FLOOR_WATER
-4056482475  : SW_FALLA_SURFACE_FLOOR_WOOD
-1582178181  : SW_FLOOR_TYPE_HEAVY_STONE
-3193731069  : SW_OBJ_CHEST_LEVEL1
-3193731070  : SW_OBJ_CHEST_LEVEL2
-3193731071  : SW_OBJ_CHEST_LEVEL3
-2442767354  : SW_OBJ_CHEST_TYPE
-3388306711  : SW_OBJ_DOOR_TYPE
-1361528533  : SW_WALLA_BULK_PAD_DENSITY
-3760142190  : SW_WALLA_BULK_RFX_DENSITY
-2155863197  : SW_WALLA_BULK_RFX_DENSITY_BIG
-2736730378  : SW_WALLA_BULK_RFX_DENSITY_SMALL
-3372456878  : SW_WALLA_COMBAT_DENSITY_RFX
-1185159325  : SW_WALLA_COMBAT_DENSITY_RFX_MED
-1473407807  : SW_WALLA_COMBAT_DENSITY_SMALL
-1190358753  : SW_WALLA_EXCITED_COMBAT_DENSITY_INTRO_NOT_USED
-176616154   : SW_WALLA_GUILLOTINE_DISTANCE
-2483713464  : SW_WALLA_REACTION_PAD_DENSITY
-902707043   : SW_WALLA_REACTION_RFX_DENSITY
-4271394300  : SW_WALLA_REACTION_RFX_DENSITY_BIG
-893313691   : SW_WALLA_REACTION_RFX_DENSITY_SMALL
-1163335122  : SW_WALLA_REACTION_TYPE
-2903796083  : SW_WALLA_REACTION_TYPE_MONEY
-3022244201  : SW_WEAPON_GUN_BLUNDERBUSS
-1593949451  : SW_WEAPON_GUN_MUSKET
-59901732    : SW_WEAPON_GUN_TYPE
-2632667119  : SW_WEAPON_TYPE_HEAVY_GENERIC
-3173510457  : SW_WEAPON_TYPE_HEAVY_METAL
-2744859331  : SW_WEAPON_TYPE_HEAVY_NONLETHAL_METAL
-3230085305  : SW_WEAPON_TYPE_HEAVY_NONLETHAL_WOOD
-2458756820  : SW_WEAPON_TYPE_LONG_GENERIC
-881083266   : SW_WEAPON_TYPE_LONG_METAL
-3509700936  : SW_WEAPON_TYPE_LONG_NONLETHAL_METAL
-3675282756  : SW_WEAPON_TYPE_LONG_NONLETHAL_WOOD
-983820915   : SW_WEAPON_TYPE_MEDIUM_NONLETHAL_METAL
-3585190979  : SW_WEAPON_TYPE_MEDIUM_SWORD
-3361540624  : Unmute_F_CHR_Body_Haystack
-3319586351  : Unmute_HDR_World_InGame
-1469990032  : Unmute_HDR_World_InGame_Walla_Systemic_Combat_All
-3405346175  : walla_ponct_trnt_generic_finished
-4118597054  : walla_ponct_trnt_generic_restart
-
-3304693729  : FX_RVB_EAGLESENSE
-3590680264  : FX_RVB_INT_ROOM_LARGE
-2235098726  : FX_RVB_INT_ROOM_MEDIUM
-1547037920  : FX_RVB_INT_ROOM_SMALL
-1767902471  : GP_OBJ_CART_SPEED
-552206160   : GP_RTPC_WALK_INTENSITY
-1321272397  : HDR_World_InGame_Foley_Object_Physic
-2743653737  : NonHDR_Nonworld_InGame_SFX_FB_Animus_Critical_State
-872764927   : NonHDR_Nonworld_InGame_SFX_HUD_AFS_Reward
-4178174633  : Play_FT_CHR_Body_Slide
-1477429896  : Play_FT_CHR_Sprint_cycle
-2463834672  : Play_Wwise_Pink_Noise_Minus_20fsd_LFE
-1472239763  : Play_Wwise_White_Noise_Minus_20fsd_C
-1472239772  : Play_Wwise_White_Noise_Minus_20fsd_L
-2112979859  : Play_Wwise_White_Noise_Minus_20fsd_LFE
-3224387047  : Play_Wwise_White_Noise_Minus_20fsd_LS
-1472239746  : Play_Wwise_White_Noise_Minus_20fsd_R
-2788168917  : Play_Wwise_White_Noise_Minus_20fsd_RS
-2417929844  : Set_State_ST_GLOBAL_PLAYER_STEALTH_ENTER
-3243305046  : Set_State_ST_GLOBAL_PLAYER_STEALTH_EXIT
-635198654   : Set_State_ST_MISSION_SCRIPTED_EAGLESENSE_DEFAULT
-4171026351  : Set_Switch_CHR_BODY_HEAD_NONE
-1572445028  : Set_Switch_CHR_BODY_SHOE_BAREFOOT
-1102933565  : Set_Switch_CHR_BODY_SHOE_SNEAKER
-827843147   : Set_Switch_CHR_OUTFIT_CHAINMAIL
-947822857   : Set_Switch_CHR_OUTFIT_GEARED
-329234341   : Set_Switch_CHR_OUTFIT_LEATHERBELT
-1953535818  : ST_AMBIANCE_SYSTEMIC_VS_SCRIPTED
-3069320877  : ST_GLOBAL_PLAYER_STEALTH_ENTER
-813892033   : ST_GLOBAL_PLAYER_STEALTH_EXIT
-2619490084  : ST_GLOBAL_PLAYER_STEALTH_MODE
-392261630   : ST_MU_RHP_SYNCFIRST
-2087775399  : Stop_FT_CHR_Slide_Body
-3756903872  : SW_CHR_BODY_HEAD_NONE
-1678988030  : SW_CHR_BODY_HEAD_TYPE
-2633188635  : SW_CHR_BODY_SHOE_BAREFOOT
-797234203   : SW_CHR_BODY_SHOE_LEATHERSHOE
-4285140532  : SW_CHR_BODY_SHOE_SNEAKER
-3073203807  : SW_CHR_BODY_SHOE_TYPE
-3265744212  : SW_CHR_OUTFIT_CHAINMAIL
-726125112   : SW_CHR_OUTFIT_GEARED
-2151694758  : SW_CHR_OUTFIT_LEATHERBELT
-354751190   : SW_CHR_TYPE_NPC_CIVILIAN
-3842002087  : SW_FALLA_SURFACE_FLOOR_ORGANIC
-2180309826  : FX_RVB_INT_CAVERN
-2296713684  : FX_RVB_INT_CHURCH
-
-3128030671  : Play_F_CHR_Body_Hand_Land
-1606456268  : Play_F_CHR_Slide_Foot_cloth
-
-3151546213: FX_RVB_INT_UNDERGROUND_CORRIDOR
-3018653082: ST_MISSION_SCRIPTED_CONFLICT_LOOP
-155046971: Set_State_ST_MISSION_SCRIPTED_CONFLICT_LOOP_DEFAULT
-1756120476: ST_MISSION_SCRIPTED_CONFLICT_LOOP_DEFAULT
-3304358470: Play_Amb_Water_Lapping_On_Wood_Wharf_LP
