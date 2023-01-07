@@ -266,6 +266,18 @@ Because splitting removes `_` (`_Vocal` won't be added), sometimes it's useful t
 
 A base list with typical formats can be found here: https://github.com/bnnm/wwiser-utils/blob/master/scripts/words/formats.txt
 
+More complex formats are possible:
+- `%s`: combines with word from loaded list
+- `%[0123acb]`: adds range (`blah_%[123]` = `blah_1`, `blah_2`, `blah_3`)
+- `%i`/`%d`: adds a number from 0..9
+- `%x`/`%X`: adds a hex number from 0..f. `X` is the same but uppercase.
+- `%` + (`0`) + (`max`) + `i`/`d`/`x` (`:step:`): adds a number/hex number optionally padded, up to max digits.
+   - `%2i`: adds from 0..99
+   - `%02i`: adds from 00..99
+   - `%02x`: adds from 00..FF
+   - `%02x:10:`: adds from 00, 10, 20 ..FF (steps of 10)
+
+Those commands can be combined: `blah_%s_%[ab]` makes `blah_%s_a`, `blah_%s_b` (then combined with word list). But only a word at a time is allowed (`blah_%s_%s` doesn't work, use combinations/permutations instead).
 
 #### Fuzzy feeling
 By default last letters are auto-calculated, so a format like `%s_0` may find `BGM_Vocal_A` `BGM_Vocal_B`, but also from `BGM_Vocal` you may get `BGM_Voca2`. It's disabled when using *combinations/permutations* as it tends to get lots of useless matches.

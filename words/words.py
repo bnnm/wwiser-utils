@@ -158,15 +158,111 @@ class Words(object):
             return
         if format.startswith(b'#'):
             return
-        if format.count(b'%s') != 1:
+
+        if format.count(b'_') > 10: #bad line like _______...____
+            return
+
+        if b'%' not in format or format.count(b'%s') > 1:
             print("ignored wrong format:", format)
             return
 
-        if format.count(b'_') > 20: #bad line like _______...____
+        if b'%' not in format: #for combos
+            print("ignored wrong format:", format)
+            self._add_word(format)
             return
-        self._add_format_pf(format)
 
+        self._add_format_subformats(format)
+        return
 
+    # accept custom  
+    # - %Nd/%Ni/%Nx: adds 0, 1, 2..., where N is max number of chars (up to 8)
+    # - %[123abc]: adds 1,2,3,a,b,c
+    # - %s: combined later
+    # can be combined up to a point like play_%02x_%s, play_%i_%i_%d (but not play_%s_%s)
+    def _add_format_subformats(self, format):
+        count = format.count(b'%')
+
+        if count == 0: #'leaf' word (for blah_%d)
+            self._add_word(format)
+            return
+
+        if count == 1 and b'%s' in format: #'leaf' format (for blah_%i_%s > blah_0_%s, blah_1_%s, ...)
+            self._add_format_pf(format)
+            return
+
+        try:
+            basepos = 0
+            while True:
+                st = format.index(b'%', basepos)
+                nxt = format[st+1]
+
+                # string: try again with pos after %s (only reaches here if there are more %)
+                if nxt == ord(b's'):
+                    basepos = st + 1
+                    continue
+
+                # range: add per item
+                if nxt == ord(b'['): 
+                    ed = format.index(b']', st)
+                    items = format[st+2:ed]
+                    prefix = format[0:st]
+                    suffix = format[ed+1:]
+                    
+                    for item in items:
+                        subformat = b'%s%c%s' % (prefix, item, suffix)
+                        self._add_format_subformats(subformat)
+                    return
+
+                # numbers
+                if nxt in b'0idxX': 
+                    ed = st + 1
+
+                    if format[ed] == ord(b'0'):
+                        ed += 1
+
+                    digits = 1
+                    if format[ed] in b'123456789':
+                        digits = int(format[ed:ed+1])
+                        if digits >= 9: #just in case
+                            print("ignored slow format: %s" % (format))
+                            return
+                        ed += 1
+
+                    if format[ed] in b'id':
+                        base = 10
+                        ed += 1
+                    elif format[ed] in b'xX':
+                        base = 16
+                        ed += 1
+                    else:
+                        print("unknown format: %s" % (format))
+                        return
+
+                    step = 1
+                    ed_fmt = ed
+                    if ed < len(format) and format[ed] == ord(b':'): #step (extension)
+                        ed_stp = format.index(b':', ed + 1)
+                        step = int(format[ed+1:ed_stp])
+                        ed = ed_stp + 1
+
+                    prefix = format[0:st]
+                    conversion = format[st:ed_fmt]
+                    suffix = format[ed:]
+
+                    rng = range(0, pow(base, digits), step)
+                    for i in rng:
+                        # might as well reuse original conversion
+                        subformat = (b'%s' + conversion + b'%s') % (prefix, i, suffix)
+                        self._add_format_subformats(subformat)
+                    return
+
+                print("unknown format")    
+                return
+
+        except (ValueError, IndexError) as e:
+            print("ignoring bad format", e)
+            return
+        
     def _add_format_pf(self, format):
         if self._args.format_prefix:
             for pf in self._args.format_prefix:
