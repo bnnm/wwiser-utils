@@ -1,0 +1,898 @@
+#@nofuzzy
+#@classify-bank
+
+### BANK NAMES
+bgm_temp
+ctg_bg_ingame
+ctg_bg_outgame
+ctg_common
+ctg_demo_ingame
+ctg_ingame
+ctg_music_ingame
+ctg_music_outgame
+ctg_sfx_ingame
+ctg_sfx_outgame
+Init
+sfx
+
+### LANGUAGE NAMES
+sfx
+
+### BUS NAMES
+bg_Bus
+demo_music_Bus
+demo_sfx_Bus
+dialogue_Bus
+gasleakage
+int_Room_large
+int_Room_Medium
+Master Audio Bus = 0
+music_Bus
+Reverb
+sfx_Bus
+# 3004698059
+# 3940806919
+# 2625178604
+# 1725273067
+# 588873648
+# 1178639433
+# 2309826190
+# 3351527952
+
+### SFX NAMES (Init.bnk)
+Bass
+No_Output
+Room_Medium
+System
+# 705582029
+# 1008402193
+# 1144018367
+# 2098638826
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+bgVolume
+DistancefromOuterWall
+HeightAboveGround
+MasterVolume
+MusicVolume
+RPM
+SFXVolume
+SS_AIR_FEAR
+SS_AIR_FREEFALL
+SS_AIR_FURY
+SS_AIR_MONTH
+SS_AIR_PRESENCE
+SS_AIR_RPM
+SS_AIR_SIZE
+SS_AIR_STORM
+SS_AIR_TIMEOFDAY
+SS_AIR_TURBULENCE
+# 414646191
+# 1524500807
+# 4218633498
+
+### VARIABLE NAMES (Init.bnk)
+action_phase
+animal_PRESENCE
+game_speed
+gas_leakage
+Generic_state
+ingame_phase
+time_course
+# 3289227444
+
+### VALUE NAMES (Init.bnk)
+animal_exist
+animal_nil
+app_inactive_lower
+app_inactive_mute
+cutscene
+gas_pipe_repair
+gas_pipe_rupture
+InGame
+
+### EVENT NAMES (bgm_temp.bnk)
+Play_bgm_phase_action
+Play_bgm_phase_command
+Play_bgm_phase_event_01
+Play_bgm_phase_event_02
+Play_bgm_phase_final_turn
+Play_bgm_phase_reasoning
+Play_bgm_phase_threat
+Stop_bgm_phase_action
+Stop_bgm_phase_command
+Stop_bgm_phase_event_01
+Stop_bgm_phase_event_02
+Stop_bgm_phase_final_turn
+Stop_bgm_phase_reasoning
+Stop_bgm_phase_threat
+
+### EVENT NAMES (ctg_bg_ingame.bnk)
+Play_sfx_bg_blizzard
+Play_sfx_bg_cyberspace_hotel
+Stop_sfx_bg_blizzard
+Stop_sfx_bg_cyberspace_hotel
+
+### EVENT NAMES (ctg_bg_outgame.bnk)
+Play_sfx_bg_cyberspace_221b
+Stop_sfx_bg_cyberspace_221b
+
+### EVENT NAMES (ctg_common.bnk)
+Play_bgm_credit_roll
+Play_bgm_credit_roll_lp
+Play_bgm_home
+Play_bgm_home_m
+Play_bgm_jingle_killcheck
+Play_bgm_jingle_rescue
+Play_bgm_jingle_rescue_m
+Play_bgm_opening_roll
+Play_bgm_phase_action_day_1st
+Play_bgm_phase_action_day_1st_bo
+Play_bgm_phase_action_day_2nd
+Play_bgm_phase_action_day_2nd_bo
+Play_bgm_phase_action_day_final
+Play_bgm_phase_action_day_final_bo
+Play_bgm_phase_bridge
+Play_bgm_phase_command
+Play_bgm_phase_command_irene
+Play_bgm_phase_command_moriarty
+Play_bgm_phase_command_sherlock
+Play_bgm_phase_command_watson
+Play_bgm_phase_final_turn
+Play_bgm_phase_Prologue
+Play_bgm_phase_reasoning
+Play_bgm_phase_reasoning_moriarty
+Play_bgm_phase_reasoning_moriarty2
+Play_bgm_phase_reasoning_sherlock
+Play_bgm_result_draw_lose
+Play_bgm_theme_irene
+Play_bgm_theme_moriarty
+Play_bgm_theme_sherlock
+Play_bgm_theme_watson
+Play_bgm_title
+Play_External
+Play_sfx_bg_blizzard
+Play_sfx_bg_cyberspace_221b
+Play_sfx_bg_cyberspace_hotel
+Play_sfx_bg_cyberspace_london
+Play_sfx_bg_opening_roll
+Play_sfx_demo_cutin_m
+Play_sfx_demo_cutin_s
+Play_sfx_demo_p0100
+Play_sfx_demo_p0155
+Play_sfx_demo_p0200
+Play_sfx_demo_p0220
+Play_sfx_e_wolf_atk_bite
+Play_sfx_e_wolf_bark_atk
+Play_sfx_e_wolf_bark_entry
+Play_sfx_e_wolf_bark_move
+Play_sfx_e_wolf_die
+Play_sfx_e_wolf_fs_l
+Play_sfx_e_wolf_fs_lp
+Play_sfx_e_wolf_fs_r
+Play_sfx_e_wolf_snarl
+Play_sfx_gim_breaker_find
+Play_sfx_gim_breaker_lock
+Play_sfx_gim_breaker_switch_off
+Play_sfx_gim_breaker_switch_on
+Play_sfx_gim_door_open
+Play_sfx_gim_gas_leak
+Play_sfx_gim_gas_vanish
+Play_sfx_gim_memo_location
+Play_sfx_gim_path_open
+Play_sfx_gim_path_switch
+Play_sfx_gim_window_break
+Play_sfx_p_agat_nml_i_idl_v010
+Play_sfx_p_agat_nml_i_idl_v011
+Play_sfx_p_agat_nml_i_idl_v012
+Play_sfx_p_atk_hit
+Play_sfx_p_berk_nml_i_idl_v010
+Play_sfx_p_berk_nml_i_idl_v011
+Play_sfx_p_berk_nml_i_idl_v012
+Play_sfx_p_cath_nml_i_idl_v010
+Play_sfx_p_cath_nml_i_idl_v011
+Play_sfx_p_cath_nml_i_idl_v012
+Play_sfx_p_dmg
+Play_sfx_p_dmg_hunger
+Play_sfx_p_dmg_hunger_tutorial
+Play_sfx_p_dmg_injury
+Play_sfx_p_doro_nml_i_idl_v010
+Play_sfx_p_doro_nml_i_idl_v011
+Play_sfx_p_doro_nml_i_idl_v012
+Play_sfx_p_drop_item
+Play_sfx_p_elle_nml_i_idl_v010
+Play_sfx_p_elle_nml_i_idl_v011
+Play_sfx_p_elle_nml_i_idl_v012
+Play_sfx_p_fa_nml_a_act_sec
+Play_sfx_p_fa_nml_a_act_spr
+Play_sfx_p_fa_nml_a_atk_bar
+Play_sfx_p_fa_nml_a_atk_kck
+Play_sfx_p_fa_nml_a_atk_knf
+Play_sfx_p_fa_nml_a_atk_sci
+Play_sfx_p_fa_nml_a_dam_gas
+Play_sfx_p_fa_nml_a_dam_pow
+Play_sfx_p_fa_nml_a_eat_own
+Play_sfx_p_fa_nml_a_fin_anm
+Play_sfx_p_fa_nml_a_fin_dog
+Play_sfx_p_fa_nml_a_hnd_itm
+Play_sfx_p_fa_nml_a_med
+Play_sfx_p_fa_nml_a_pic_wpn
+Play_sfx_p_fa_nml_a_rcv_fod
+Play_sfx_p_fa_nml_a_rcv_med
+Play_sfx_p_faint
+Play_sfx_p_fatigue_sweat
+Play_sfx_p_fb_nml_a_act_sec
+Play_sfx_p_fb_nml_a_act_spr
+Play_sfx_p_fb_nml_a_atk_bar
+Play_sfx_p_fb_nml_a_atk_kck
+Play_sfx_p_fb_nml_a_atk_knf
+Play_sfx_p_fb_nml_a_atk_sci
+Play_sfx_p_fb_nml_a_dam_gas
+Play_sfx_p_fb_nml_a_dam_pow
+Play_sfx_p_fb_nml_a_eat_own
+Play_sfx_p_fb_nml_a_fin_anm
+Play_sfx_p_fb_nml_a_fin_dog
+Play_sfx_p_fb_nml_a_hnd_itm
+Play_sfx_p_fb_nml_a_med
+Play_sfx_p_fb_nml_a_pic_wpn
+Play_sfx_p_fb_nml_a_rcv_fod
+Play_sfx_p_fb_nml_a_rcv_med
+Play_sfx_p_free_nml_i_idl_v010
+Play_sfx_p_free_nml_i_idl_v011
+Play_sfx_p_free_nml_i_idl_v012
+Play_sfx_p_fs_slide
+Play_sfx_p_fs_wlk_l
+Play_sfx_p_fs_wlk_r
+Play_sfx_p_generic_find_item
+Play_sfx_p_generic_get_item_bag
+Play_sfx_p_generic_search_end
+Play_sfx_p_generic_search_injured
+Play_sfx_p_generic_search_injured_retry
+Play_sfx_p_generic_search_item
+Play_sfx_p_generic_search_item_crouch
+Play_sfx_p_generic_search_item_high
+Play_sfx_p_generic_throw_item
+Play_sfx_p_heal_hunger
+Play_sfx_p_heal_injury
+Play_sfx_p_ma_nml_a_act_sec
+Play_sfx_p_ma_nml_a_act_spr
+Play_sfx_p_ma_nml_a_atk_bar
+Play_sfx_p_ma_nml_a_atk_kck
+Play_sfx_p_ma_nml_a_atk_knf
+Play_sfx_p_ma_nml_a_atk_sci
+Play_sfx_p_ma_nml_a_dam_gas
+Play_sfx_p_ma_nml_a_dam_pow
+Play_sfx_p_ma_nml_a_eat_own
+Play_sfx_p_ma_nml_a_fin_anm
+Play_sfx_p_ma_nml_a_fin_dog
+Play_sfx_p_ma_nml_a_hnd_itm
+Play_sfx_p_ma_nml_a_med
+Play_sfx_p_ma_nml_a_pic_wpn
+Play_sfx_p_ma_nml_a_rcv_fod
+Play_sfx_p_ma_nml_a_rcv_med
+Play_sfx_p_mb_nml_a_act_sec
+Play_sfx_p_mb_nml_a_act_spr
+Play_sfx_p_mb_nml_a_atk_bar
+Play_sfx_p_mb_nml_a_atk_kck
+Play_sfx_p_mb_nml_a_atk_knf
+Play_sfx_p_mb_nml_a_atk_sci
+Play_sfx_p_mb_nml_a_dam_gas
+Play_sfx_p_mb_nml_a_dam_pow
+Play_sfx_p_mb_nml_a_eat_own
+Play_sfx_p_mb_nml_a_fin_anm
+Play_sfx_p_mb_nml_a_fin_dog
+Play_sfx_p_mb_nml_a_hnd_itm
+Play_sfx_p_mb_nml_a_med
+Play_sfx_p_mb_nml_a_pic_wpn
+Play_sfx_p_mb_nml_a_rcv_fod
+Play_sfx_p_mb_nml_a_rcv_med
+Play_sfx_p_pjw_a_cau_atk_fin_pre
+Play_sfx_p_pjw_a_cau_atk_fin_pre_1
+Play_sfx_p_pjw_a_cau_atk_fin_pre_2
+Play_sfx_p_pjw_a_cau_die_kck
+Play_sfx_p_pjw_nml_a_atk_axe
+Play_sfx_p_pjw_nml_a_cau_apr
+Play_sfx_p_repair_gas
+Play_sfx_p_sherlock_appear
+Play_sfx_p_sherlock_vanish
+Play_sfx_p_shr_chs_lp_body
+Play_sfx_p_shr_chs_lp_hand_l
+Play_sfx_p_shr_chs_lp_hand_r
+Play_sfx_p_shr_dsk_lp_body
+Play_sfx_p_shr_dsk_lp_hand_l
+Play_sfx_p_shr_dsk_lp_hand_r
+Play_sfx_p_shr_glb_lp_body
+Play_sfx_p_shr_red_lp_body
+Play_sfx_p_shr_red_lp_hand_l
+Play_sfx_p_shr_sit_lp_body
+Play_sfx_p_shr_sit_lp_hand_l
+Play_sfx_p_shr_sit_lp_hand_r
+Play_sfx_p_shr_std_lp_body
+Play_sfx_p_shr_std_lp_foot_l
+Play_sfx_p_shr_std_lp_foot_r
+Play_sfx_p_shr_std_lp_hand_l
+Play_sfx_p_shr_std_lp_hand_r
+Play_sfx_p_spray_shake
+Play_sfx_p_spray_use
+Play_sfx_sys_action_focus
+Play_sfx_sys_action_select
+Play_sfx_sys_action_sequence_change
+Play_sfx_sys_action_sequence_change_fix
+Play_sfx_sys_action_sequence_focus_off
+Play_sfx_sys_action_sequence_focus_on
+Play_sfx_sys_box_cancel
+Play_sfx_sys_box_check
+Play_sfx_sys_breaker_down
+Play_sfx_sys_breaker_up
+Play_sfx_sys_cancel
+Play_sfx_sys_chara_select
+Play_sfx_sys_command_end_fx_in
+Play_sfx_sys_command_end_fx_lp
+Play_sfx_sys_command_end_fx_single
+Play_sfx_sys_count_down
+Play_sfx_sys_eat_food
+Play_sfx_sys_find_food
+Play_sfx_sys_game_start
+Play_sfx_sys_get_item
+Play_sfx_sys_get_medicine
+Play_sfx_sys_get_Weapon
+Play_sfx_sys_glass_cursor_appear
+Play_sfx_sys_hint_arrow
+Play_sfx_sys_hint_cross
+Play_sfx_sys_hint_exclude
+Play_sfx_sys_hint_slide_in
+Play_sfx_sys_hint_slide_out
+Play_sfx_sys_home_cancel
+Play_sfx_sys_home_cancel_return
+Play_sfx_sys_home_count_down
+Play_sfx_sys_home_cursor
+Play_sfx_sys_home_flash
+Play_sfx_sys_home_ok
+Play_sfx_sys_home_ok_return
+Play_sfx_sys_home_select
+Play_sfx_sys_home_slide
+Play_sfx_sys_home_slide_in
+Play_sfx_sys_home_slide_out
+Play_sfx_sys_home_sort
+Play_sfx_sys_home_switch
+Play_sfx_sys_home_tab
+Play_sfx_sys_info_window
+Play_sfx_sys_input_delete
+Play_sfx_sys_input_type
+Play_sfx_sys_item_get
+Play_sfx_sys_killcheck_start
+Play_sfx_sys_log_close
+Play_sfx_sys_log_filter
+Play_sfx_sys_log_open
+Play_sfx_sys_log_slide_in
+Play_sfx_sys_log_slide_out
+Play_sfx_sys_logo_jhw
+Play_sfx_sys_mark_appear
+Play_sfx_sys_menu_cursor
+Play_sfx_sys_mouse_over
+Play_sfx_sys_mute_off
+Play_sfx_sys_mute_on_01
+Play_sfx_sys_ng
+Play_sfx_sys_notice_conflict
+Play_sfx_sys_notice_find_path
+Play_sfx_sys_notice_fix
+Play_sfx_sys_notice_order
+Play_sfx_sys_notice_room
+Play_sfx_sys_notice_room_out
+Play_sfx_sys_notice_side_i
+Play_sfx_sys_notice_side_m
+Play_sfx_sys_notice_side_s
+Play_sfx_sys_notice_side_w
+Play_sfx_sys_notice_side_whoosh
+Play_sfx_sys_notice_slide_in
+Play_sfx_sys_notice_slide_out
+Play_sfx_sys_notice_time
+Play_sfx_sys_notice_turn
+Play_sfx_sys_page_slide
+Play_sfx_sys_phase_change_final_turn
+Play_sfx_sys_phase_end
+Play_sfx_sys_phase_start
+Play_sfx_sys_ping_alert
+Play_sfx_sys_ping_command
+Play_sfx_sys_ping_doubt
+Play_sfx_sys_ping_gather
+Play_sfx_sys_ping_move
+Play_sfx_sys_ping_off
+Play_sfx_sys_ping_on
+Play_sfx_sys_profile_close
+Play_sfx_sys_profile_open
+Play_sfx_sys_radio_button
+Play_sfx_sys_random_match
+Play_sfx_sys_reasoning_chara_select
+Play_sfx_sys_reasoning_chara_select_other
+Play_sfx_sys_reasoning_chara_slide
+Play_sfx_sys_reasoning_mouse_over
+Play_sfx_sys_reasoning_panel_slide
+Play_sfx_sys_rescue_door_open
+Play_sfx_sys_result_exp_lp
+Play_sfx_sys_result_lvl_up
+Play_sfx_sys_result_page_slide
+Play_sfx_sys_result_slide
+Play_sfx_sys_ring_menu_appear
+Play_sfx_sys_ring_menu_cursor
+Play_sfx_sys_room_entry
+Play_sfx_sys_room_entry_last
+Play_sfx_sys_room_exit
+Play_sfx_sys_room_kick
+Play_sfx_sys_room_minus
+Play_sfx_sys_room_plus
+Play_sfx_sys_skip_confirm_lp
+Play_sfx_sys_square_appear
+Play_sfx_sys_square_cancel
+Play_sfx_sys_square_change
+Play_sfx_sys_square_select
+Play_sfx_sys_stage_boot
+Play_sfx_sys_stage_boot_m
+Play_sfx_sys_stamp
+Play_sfx_sys_telop_fix
+Play_sfx_sys_telop_notice_final_turn
+Play_sfx_sys_telop_notice_fix
+Play_sfx_sys_telop_notice_time
+Play_sfx_sys_telop_whoosh
+Play_sfx_sys_telop_whoosh_out
+Play_sfx_sys_text_enter
+Play_sfx_sys_text_type
+Play_sfx_sys_time_start
+Play_sfx_sys_time_stop
+Play_sfx_sys_title_load
+Play_sfx_sys_title_m_hack
+Play_sfx_sys_tutorial_cursor
+Play_sfx_sys_tutorial_cursor_2d
+Play_sfx_sys_window_close
+Play_sfx_sys_window_open
+Set_State_action_event
+Set_State_action_normal
+Set_State_animal_exist
+Set_State_animal_nil
+Set_State_app_active_default
+Set_State_app_inactive_lower
+Set_State_app_inactive_mute
+Set_State_app_inactive_no_change
+Set_State_cutscene
+Set_State_cutscene_blizzard
+Set_State_gas_pipe_repair
+Set_State_gas_pipe_rupture
+Set_State_high_speed
+Set_State_ingame
+Set_State_normal_speed
+Set_State_rescue_blizzard
+Stop_bgm_credit_roll
+Stop_bgm_credit_roll_cancel
+Stop_bgm_home
+Stop_bgm_home_m
+Stop_bgm_jingle_killcheck
+Stop_bgm_jingle_rescue
+Stop_bgm_jingle_rescue_m
+Stop_bgm_opening_roll
+Stop_bgm_phase_action
+Stop_bgm_phase_action_day_1st
+Stop_bgm_phase_action_day_1st_bo
+Stop_bgm_phase_action_day_2nd
+Stop_bgm_phase_action_day_2nd_bo
+Stop_bgm_phase_action_day_final
+Stop_bgm_phase_action_day_final_bo
+Stop_bgm_phase_bridge
+Stop_bgm_phase_command
+Stop_bgm_phase_command_irene
+Stop_bgm_phase_command_moriarty
+Stop_bgm_phase_command_sherlock
+Stop_bgm_phase_command_watson
+Stop_bgm_phase_final_turn
+Stop_bgm_phase_Prologue
+Stop_bgm_phase_reasoning
+Stop_bgm_phase_reasoning_moriarty
+Stop_bgm_phase_reasoning_moriarty2
+Stop_bgm_phase_reasoning_sherlock
+Stop_bgm_result_draw_lose
+Stop_bgm_theme_irene
+Stop_bgm_theme_moriarty
+Stop_bgm_theme_sherlock
+Stop_bgm_theme_watson
+Stop_bgm_title
+Stop_sfx_bg_blizzard
+Stop_sfx_bg_cyberspace_221b
+Stop_sfx_bg_cyberspace_hotel
+Stop_sfx_bg_cyberspace_london
+Stop_sfx_bg_opening_roll
+Stop_sfx_demo_cutin_m
+Stop_sfx_demo_cutin_s
+Stop_sfx_demo_p0100
+Stop_sfx_demo_p0155
+Stop_sfx_demo_p0200
+Stop_sfx_demo_p0220
+Stop_sfx_e_wolf_fs_lp
+Stop_sfx_p_agat_nml_i_idl_v010
+Stop_sfx_p_agat_nml_i_idl_v011
+Stop_sfx_p_agat_nml_i_idl_v012
+Stop_sfx_p_berk_nml_i_idl_v010
+Stop_sfx_p_berk_nml_i_idl_v011
+Stop_sfx_p_berk_nml_i_idl_v012
+Stop_sfx_p_cath_nml_i_idl_v010
+Stop_sfx_p_cath_nml_i_idl_v011
+Stop_sfx_p_cath_nml_i_idl_v012
+Stop_sfx_p_doro_nml_i_idl_v010
+Stop_sfx_p_doro_nml_i_idl_v011
+Stop_sfx_p_doro_nml_i_idl_v012
+Stop_sfx_p_elle_nml_i_idl_v010
+Stop_sfx_p_elle_nml_i_idl_v011
+Stop_sfx_p_elle_nml_i_idl_v012
+Stop_sfx_p_free_nml_i_idl_v010
+Stop_sfx_p_free_nml_i_idl_v011
+Stop_sfx_p_free_nml_i_idl_v012
+Stop_sfx_sys_action_sequence_change
+Stop_sfx_sys_command_end_fx_lp
+Stop_sfx_sys_hint_arrow
+Stop_sfx_sys_result_exp_lp
+Stop_sfx_sys_skip_confirm_lp
+Stop_sfx_sys_text_type
+# 277332129
+# 291233159
+# 348521161
+# 410873530
+# 411028356
+# 485656843
+# 521524085
+# 670572352
+# 727136902
+# 775844416
+# 866637366
+# 916814869
+# 1179004360
+# 1213937752
+# 1326265196
+# 1326265203
+# 1420882614
+# 1461877015
+# 1889637982
+# 2021269986
+# 2044455728
+# 2212728560
+# 2308571155
+# 2333262328
+# 2438199996
+# 2458209035
+# 2471873371
+# 2915481774
+# 3018261569
+# 3045318481
+# 3297458130
+# 3508133783
+# 3587520105
+# 3712171883
+# 3766751722
+# 4131171059
+
+### RTPC/GAME-VARIABLE NAMES (ctg_common.bnk)
+DistancefromOuterWall
+HeightAboveGround
+
+### VARIABLE NAMES (ctg_common.bnk)
+action_phase
+animal_PRESENCE
+game_speed
+gas_leakage
+Generic_state
+item_type
+pawn_type
+time_course
+# 3289227444
+
+### VALUE NAMES (ctg_common.bnk)
+action_event
+action_normal
+animal_exist
+animal_nil
+app_active_default
+app_inactive_lower
+app_inactive_mute
+app_inactive_no_change
+cutscene
+evening
+Food
+gas_pipe_repair
+gas_pipe_rupture
+high_speed
+InGame
+map
+medicine
+memo
+morning
+night
+normal_speed
+null
+pawn01
+pawn02
+pawn03
+pawn04
+pawn05
+pawn06
+pawn07
+pawn08
+pawn09
+pawn10
+pawn11
+Spray
+Weapon
+
+### EVENT NAMES (ctg_demo_ingame.bnk)
+Play_sfx_demo_p0200
+Stop_sfx_demo_p0200
+# 1706521819
+
+### EVENT NAMES (ctg_ingame.bnk)
+Play_sfx_bg_blizzard
+Play_sfx_bg_cyberspace_hotel
+Play_sfx_demo_p0200
+Play_sfx_e_wolf_atk_bite
+Play_sfx_e_wolf_bark_atk
+Play_sfx_e_wolf_bark_entry
+Play_sfx_e_wolf_bark_move
+Play_sfx_e_wolf_die
+Play_sfx_e_wolf_fs_l
+Play_sfx_e_wolf_fs_lp
+Play_sfx_e_wolf_fs_r
+Play_sfx_gim_breaker_switch_off
+Play_sfx_gim_breaker_switch_on
+Play_sfx_gim_door_open
+Play_sfx_gim_gas_leak
+Play_sfx_gim_path_open
+Play_sfx_gim_path_switch
+Play_sfx_gim_window_break
+Play_sfx_p_atk_hit_01
+Play_sfx_p_dmg_01
+Play_sfx_p_drop_item_01
+Play_sfx_p_faint_01
+Play_sfx_p_fatigue_sweat_01
+Play_sfx_p_fs_slide_01
+Play_sfx_p_fs_wlk_l_01
+Play_sfx_p_fs_wlk_r_01
+Play_sfx_p_generic_find_item_01
+Play_sfx_p_generic_get_item_bag_01
+Play_sfx_p_generic_search_end_01
+Play_sfx_p_generic_search_injured_01
+Play_sfx_p_generic_search_injured_retry_01
+Play_sfx_p_generic_search_item_01
+Play_sfx_p_generic_search_item_crouch_01
+Play_sfx_p_generic_search_item_high_01
+Play_sfx_p_generic_throw_item_01
+Play_sfx_p_heal_hunger_01
+Play_sfx_p_heal_injury_01
+Play_sfx_p_m_fs_l_01
+Play_sfx_p_m_fs_r_01
+Play_sfx_p_repair_gas_01
+Play_sfx_p_spray_shake_01
+Play_sfx_p_spray_use_01
+Play_sfx_sys_breaker_down
+Play_sfx_sys_breaker_up
+Play_sfx_sys_chara_select
+Play_sfx_sys_count_down
+Play_sfx_sys_eat_food
+Play_sfx_sys_get_item
+Play_sfx_sys_get_medicine
+Play_sfx_sys_get_Weapon
+Play_sfx_sys_item_get
+Play_sfx_sys_notice_conflict
+Play_sfx_sys_notice_order
+Play_sfx_sys_notice_time
+Play_sfx_sys_notice_turn
+Play_sfx_sys_phase_change_final_turn
+Play_sfx_sys_phase_end
+Play_sfx_sys_phase_start
+Stop_sfx_bg_blizzard
+Stop_sfx_bg_cyberspace_hotel
+Stop_sfx_demo_p0200
+Stop_sfx_e_wolf_fs_lp
+Stop_sfx_sys_result_exp_lp_news
+# 304002466
+# 304554390
+# 485656843
+# 613252776
+# 670572352
+# 1583265447
+# 1668927966
+# 1706521819
+# 1912306288
+# 3112649375
+# 3588764711
+# 3656166860
+
+### VARIABLE NAMES (ctg_ingame.bnk)
+item_type
+pawn_type
+time_course
+
+### VALUE NAMES (ctg_ingame.bnk)
+evening
+Food
+map
+medicine
+morning
+night
+null
+pawn01
+pawn02
+pawn03
+pawn04
+pawn05
+pawn06
+pawn07
+pawn08
+pawn09
+pawn10
+Spray
+Weapon
+
+### EVENT NAMES (ctg_music_ingame.bnk)
+Play_bgm_phase_action
+Play_bgm_phase_command
+Play_bgm_phase_event_01
+Play_bgm_phase_event_02
+Play_bgm_phase_final_turn
+Play_bgm_phase_reasoning
+Play_bgm_phase_threat
+Play_bgm_theme_moriarty
+Play_bgm_theme_sherlock
+Stop_bgm_phase_action
+Stop_bgm_phase_command
+Stop_bgm_phase_event_01
+Stop_bgm_phase_event_02
+Stop_bgm_phase_final_turn
+Stop_bgm_phase_reasoning
+Stop_bgm_phase_threat
+Stop_bgm_theme_moriarty
+Stop_bgm_theme_sherlock
+
+### EVENT NAMES (ctg_music_outgame.bnk)
+Play_bgm_home
+Play_bgm_title
+Stop_bgm_home
+Stop_bgm_title
+
+### VARIABLE NAMES (ctg_music_outgame.bnk)
+global_state
+
+### EVENT NAMES (ctg_sfx_ingame.bnk)
+Play_sfx_e_wolf_atk_bite
+Play_sfx_e_wolf_bark_atk
+Play_sfx_e_wolf_bark_entry
+Play_sfx_e_wolf_bark_move
+Play_sfx_e_wolf_die
+Play_sfx_e_wolf_fs_l
+Play_sfx_e_wolf_fs_lp
+Play_sfx_e_wolf_fs_r
+Play_sfx_gim_breaker_switch_off
+Play_sfx_gim_breaker_switch_on
+Play_sfx_gim_door_open
+Play_sfx_gim_gas_leak
+Play_sfx_gim_path_open
+Play_sfx_gim_path_switch
+Play_sfx_gim_window_break
+Play_sfx_p_atk_hit_01
+Play_sfx_p_dmg_01
+Play_sfx_p_drop_item_01
+Play_sfx_p_faint_01
+Play_sfx_p_fatigue_sweat_01
+Play_sfx_p_fs_slide_01
+Play_sfx_p_fs_wlk_l_01
+Play_sfx_p_fs_wlk_r_01
+Play_sfx_p_generic_find_item_01
+Play_sfx_p_generic_get_item_bag_01
+Play_sfx_p_generic_search_end_01
+Play_sfx_p_generic_search_injured_01
+Play_sfx_p_generic_search_injured_retry_01
+Play_sfx_p_generic_search_item_01
+Play_sfx_p_generic_search_item_crouch_01
+Play_sfx_p_generic_search_item_high_01
+Play_sfx_p_generic_throw_item_01
+Play_sfx_p_heal_hunger_01
+Play_sfx_p_heal_injury_01
+Play_sfx_p_m_fs_l_01
+Play_sfx_p_m_fs_r_01
+Play_sfx_p_repair_gas_01
+Play_sfx_p_spray_shake_01
+Play_sfx_p_spray_use_01
+Play_sfx_sys_breaker_down
+Play_sfx_sys_breaker_up
+Play_sfx_sys_chara_select
+Play_sfx_sys_count_down
+Play_sfx_sys_eat_food
+Play_sfx_sys_get_item
+Play_sfx_sys_get_medicine
+Play_sfx_sys_get_Weapon
+Play_sfx_sys_item_get
+Play_sfx_sys_notice_conflict
+Play_sfx_sys_notice_order
+Play_sfx_sys_notice_time
+Play_sfx_sys_notice_turn
+Play_sfx_sys_phase_change_final_turn
+Play_sfx_sys_phase_end
+Play_sfx_sys_phase_start
+Stop_sfx_e_wolf_fs_lp
+Stop_sfx_sys_result_exp_lp_news
+# 304002466
+# 304554390
+# 485656843
+# 613252776
+# 670572352
+# 1583265447
+# 1668927966
+# 1912306288
+# 3112649375
+# 3588764711
+# 3656166860
+
+### VARIABLE NAMES (ctg_sfx_ingame.bnk)
+item_type
+pawn_type
+time_course
+
+### VALUE NAMES (ctg_sfx_ingame.bnk)
+evening
+Food
+map
+medicine
+morning
+night
+null
+pawn01
+pawn02
+pawn03
+pawn04
+pawn05
+pawn06
+pawn07
+pawn08
+pawn09
+pawn10
+Spray
+Weapon
+
+### EVENT NAMES (ctg_sfx_outgame.bnk)
+Play_sfx_p_sherlock_appear
+Play_sfx_p_sherlock_vanish
+Play_sfx_sys_action_focus
+Play_sfx_sys_action_select
+Play_sfx_sys_cancel
+Play_sfx_sys_game_start
+Play_sfx_sys_home_cancel
+Play_sfx_sys_home_cursor
+Play_sfx_sys_home_ok
+Play_sfx_sys_home_select
+Play_sfx_sys_home_tab
+Play_sfx_sys_info_window
+Play_sfx_sys_log_close
+Play_sfx_sys_log_filter
+Play_sfx_sys_log_open
+Play_sfx_sys_log_slide_in
+Play_sfx_sys_log_slide_out
+Play_sfx_sys_logo_jhw
+Play_sfx_sys_menu_cursor
+Play_sfx_sys_ng
+Play_sfx_sys_ping_alert
+Play_sfx_sys_ping_command
+Play_sfx_sys_ping_doubt
+Play_sfx_sys_ping_move
+Play_sfx_sys_ring_menu_appear
+Play_sfx_sys_ring_menu_cursor
+Play_sfx_sys_slide_in
+Play_sfx_sys_slide_out
+Play_sfx_sys_square_cancel
+Play_sfx_sys_square_change
+Play_sfx_sys_square_select
+Play_sfx_sys_stage_boot
+Play_sfx_sys_stamp
+Play_sfx_sys_text_enter
+Play_sfx_sys_text_type
+Play_sfx_sys_title_load
+Play_sfx_sys_window_close
+Play_sfx_sys_window_open
+Stop_sfx_sys_text_type
+
+
+### MISSING EVENT NAMES (sfx.bnk)
+# 223965760

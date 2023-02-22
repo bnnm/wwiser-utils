@@ -1,7 +1,7 @@
-BGM
-Menu
-core
-Init
+#@nofuzzy
+#@classify-bank
+
+### BANK NAMES
 ba0009
 ba0010
 ba0020
@@ -43,6 +43,7 @@ bac001
 bac002
 bad000
 bad001
+BGM
 bh1000
 bh1001
 bh1002
@@ -68,6 +69,7 @@ bh1090
 bh1800
 bh1801
 bh1802
+core
 em0000
 em0001
 em0002
@@ -100,6 +102,8 @@ em004d
 em0100
 em0110
 em0200
+Init
+Menu
 pl0000
 pl0001
 pl0002
@@ -181,241 +185,44 @@ vo_rf01
 vo_rf02
 vo_rf03
 
-A
-B
-C
-D
-E
-F
-G
-H
-I
-J
-K
-
-All
-L
-R
-SL
-SR
-
-FX
-Ice
-System
-SE
-in
-out
-on
-off
-
-LFE
-LR
-
-Master Audio Bus = 0
-Master Secondary Bus = 0
-
-jingle
-Stage
-original
-composer
-Norm
-dialog
+### BUS NAMES
+AccelTime_Rev
 Battle
-Blitzwing
-CameraAngle_H
-CameraAngle_S
-CameraAngle_V
-Camera_H
+BGM
+BGM_Duck
+BGMEffect
+Composer
+Cutscene_SE
+CutScene_Voice
+Dialog
 Direct
-Elec
-Empty
-environment
-Escape
-evca10_se
+EnvEffect
+Enviroment
+Environment
 Event
 Filter
-Finish
-Fire
-gallery_pl0021_01
-gallery_pl0021_02
-gallery_pl0021_03
-gallery_pl0021_04
-Ignore
-Kickback
-Megatron
-Menasor
-Motormaster
-Mute_ba2000_LiftMove_Loop
-Mute_ev2102_Buzz_Loop
-none
-Normal
-Normal_2
-Normal_Ev
-Nothing
-Output_Headphone
-Output_Stereo
-Output_Surround
-Player
-Enemy_NPC
-Soundwave
-Starscream
-
-evca10_se_In
-evca10_se_out
-Cybertron
-Devaster
-enviroment
 FinishSlow
-FX_Rain
-FX_Roof
-FX_Wind
-general
-Lazerwave
-Megatron_2
-MidBoss
-MidBoss_Ev
-none_10sec
-none_1sec
-none_2sec
-none_3sec
-none_5sec
-none_7sec
-ot_chase
-ot_defense
-ot_gallery
-ot_lift1
-ot_lift2
-ot_menu
-ot_plasmacore
-Output_Mode
-PhaseEvent_In
-PhaseEvent_Out
+FX
+General
+HDR_SE
+InBattle_Env
+InGame_Voice
+Jingle
+Master Audio Bus = 0
+Master Secondary Bus = 0
 Player_Vehicle
-st_city
-st_spaceship
-st_spaceship2
-st_sunsetcity
+SE
+Stage
+System
+Voice_Duck
+# 2113795634
+# 1218557270
+# 2570599054
+# 2281238081
 
-
-ba0009_Goal
-ba0010_CrystalSwitch_Change
-ba0010_CrystalSwitch_Count
-ba0020_Kremzeek
-ba0060_BarrierBreak
-ba0060_LaserGimmick_Exp
-ba0060_LaserGimmick_Loop
-ba0061_BombTbox_Charge
-ba0062_IceBomb_Charge
-ba0062_IceBomb_Exp
-ba0063_ElecBomb_Charge
-ba0063_ElecBomb_Exp
-ba0064_FireBomb_Charge
-ba0064_FireBomb_Exp
-ba0080_SpeedUp
-ba0080_SwitchOff
-ba0080_SwitchOn
-ba1000_Break
-ba1000_RockPillar
-ba1001_Break
-ba1001_RockPillar
-ba1002_Break
-ba1002_RockPillar
-ba1003_EnergonExp_Loop
-ba1003_Engine_Drive_Loop
-ba1003_Engine_Idol_Loop
-ba1003_Vehicle_Slip
-ba1400_Exp
-ba1401_Exp
-ba1402_Exp
-ba1403_Exp
-ba1403_Saw_AttackLoop_l
-ba1403_Saw_AttackLoop_r
-ba1403_Saw_End_l
-ba1403_Saw_End_r
-ba1403_Saw_Impact_l
-ba1403_Saw_Impact_r
-ba1403_Saw_Loop_l
-ba1403_Saw_Loop_r
-ba1403_Saw_Start_l
-ba1403_Saw_Start_r
-ba1403_Saw_Whoosh_l
-ba1403_Saw_Whoosh_r
-ba1404_Exp
-ba1503_SysDown
-ba2000_ApproachWhoosh
-ba2000_CrashImpact
-ba2000_Fire
-ba2000_LiftMove_Loop
-ba2000_LiftMove_Start
-ba2000_LiftMove_Start_Ch6
-ba2000_SpeedDown_Reset
-ba2000_SpeedDown_Start
-ba2000_StartShake
-ba2000_WallCrash_Exp
-ba2001_Alarm_Loop
-ba2001_Elec_Horizon_Loop
-ba2001_Elec_Vertical_Loop
-ba2001_EnergyLight
-ba2001_Exp
-ba2001_Float_Loop
-ba2001_Shot
-ba2100_TransBlock_BolckEnd
-ba2100_TransBlock_BolckMove
-ba2100_TransBlock_Operate
-ba2103_Turret_End
-ba2103_Turret_Shot
-ba2103_Turret_Start
-ba2400_BarrierBreak
-ba2400_Elec_Charge
-ba2400_Elec_Shot
-ba2503_FloorBreak
-ba2506_EnergyCharge
-ba2506_GlassBreak
-ba2507_ArmFloor_Fall
-ba2507_ArmFloor_Impact
-ba2507_ArmFloor_Shake
-ba250b_Ch6_Gimmick_Impact
-ba250b_Ch6_Gimmick_Start
-ba5500_DoorClose_End
-ba5500_DoorClose_Start_F
-ba5500_DoorClose_Start_R
-ba5500_DoorOpen_End
-ba5500_DoorOpen_Start_F
-ba5500_DoorOpen_Start_R
-ba6100_PodBound
-ba6300_ArmOpen
-ba6300_Arm_Clasp
-ba6300_AttackMove
-ba6300_CatchImpact
-ba6300_CatchImpact_b
-ba6300_HoldMove
-ba6300_Release
-ba6300_Start
-baa210_ECube_Bound
-baa210_ECube_Exp
-baa210_ECube_Lift
-baa211_ECube_Exp
-baa600_Container_Bound
-baa600_Container_Exp
-baa600_Container_Lift
-bac000_TreasureBox_Beep
-bac000_TreasureBox_Open_01
-bac000_TreasureBox_Open_02
-bac000_TreasureBox_Open_03
-bac001_Barrier_Tbox_Exp
-bac001_Small_TBox_Exp
-bac002_BarrierBreak
-bac061_BombTbox_Exp
-bad000_Gate_MoveEnd
-bad000_Gate_MoveStart
-bad001_DoorClose
-Battle_In
-battle_out
-battle_out_Fast
-BGM_Battle_Demotion
+### EVENT NAMES (BGM.bnk)
 BGM_Battle_Demotion_Off
 BGM_Battle_Demotion_On
-BGM_Battle_Duck
 BGM_Battle_End
 BGM_Battle_End_EvInit
 BGM_Battle_End_FinishSlow
@@ -426,7 +233,6 @@ BGM_Battle_End_Timer_Fade
 BGM_Battle_End_Timer_Fade_Fast
 BGM_Battle_End_Timer_SetType_Normal
 BGM_Battle_Escape
-BGM_Battle_Ignore
 BGM_Battle_Ignore_Off
 BGM_Battle_Ignore_On
 BGM_Battle_Return
@@ -457,20 +263,16 @@ BGM_Battle_Start
 BGM_Battle_Start_Ev
 BGM_Battle_Start_Ev_NonStop
 BGM_Battle_Start_Movie
-BGM_Battle_States
-BGM_Battle_Type
-BGM_Battle_Variation
+BGM_Battle_State_In
+BGM_Battle_State_Out
 BGM_Battle_Variation_A
-BGM_Battle_Variation_b
-BGM_Battle_VolUp
-BGM_Battle_VolUp_Bar
+BGM_Battle_Variation_B
 BGM_Battle_VolUp_Bar_Off
 BGM_Battle_VolUp_Bar_On
 BGM_Battle_VolUp_Off
 BGM_Battle_VolUp_On
 BGM_ChapterStart
 BGM_CheckPoint
-BGM_Continue
 BGM_Continue_Off
 BGM_Continue_On
 BGM_CS1010_In
@@ -565,26 +367,16 @@ BGM_CS9000_In
 BGM_CS9000_Out
 BGM_CSxxxx_In
 BGM_CSxxxx_Out
-BGM_Duck
-BGM_Environment
+BGM_Debug_Jump
 BGM_Env_Set_none
 BGM_FadeOut
 BGM_FinishSlow_Off
 BGM_FinishSlow_On
-BGM_Finish_Slow
-BGM_Gallery
 BGM_Initialize
 BGM_LR_Off
 BGM_LR_On
-BGM_Menu_Variation
-BGM_Movie
-BGM_Pause_Environment
-BGM_Pause_Menu
 BGM_Pause_Menu_Off
 BGM_Pause_Menu_On
-BGM_Pause_Stage
-BGM_Player_Die
-BGM_Player_Respawn
 BGM_Play_1khz_All
 BGM_Play_1khz_C
 BGM_Play_1khz_L
@@ -596,7 +388,9 @@ BGM_Play_1khz_SR
 BGM_Play_CrystalSwitch
 BGM_Play_FreeMissionEnd
 BGM_Play_HiddenItem
-BGM_Play_menu
+BGM_Play_Menu
+BGM_Player_Die
+BGM_Player_Respawn
 BGM_Set_Art
 BGM_Set_ArtCharacter
 BGM_Set_ArtGame
@@ -604,6 +398,7 @@ BGM_Set_ArtGenerations
 BGM_Set_ArtScene
 BGM_Set_ArtStage
 BGM_Set_Chapter2Ark
+BGM_Set_CharaSelect
 BGM_Set_Custom
 BGM_Set_Custom2
 BGM_Set_Difficulty
@@ -616,15 +411,94 @@ BGM_Set_Item2
 BGM_Set_Lobby
 BGM_Set_Models
 BGM_Set_P120
+BGM_Set_P120_P120_CHASE
+BGM_Set_P120_P120_DEVAS_2_END
+BGM_Set_P120_P120_MEGAT_2
+BGM_Set_P120_P120_PRE_CHASE
+BGM_Set_P120_P120_PRE_MEGAT_2
+BGM_Set_P120_P120_START
 BGM_Set_P210
+BGM_Set_P210_P210_BIG_INSECTICONS
+BGM_Set_P210_P210_BOMBSHELL
+BGM_Set_P210_P210_BOMBSHELL_END
+BGM_Set_P210_P210_CITY
+BGM_Set_P210_P210_CITY_3
+BGM_Set_P210_P210_CITY_PARK_END
+BGM_Set_P210_P210_CITY_PARK_END_2
+BGM_Set_P210_P210_CITY_PARK_END_B
+BGM_Set_P210_P210_CITY_PRE_PARK
+BGM_Set_P210_P210_CITY_PRE_UNDERGROUND
+BGM_Set_P210_P210_CITY_PRE_UNDERGROUND_2
+BGM_Set_P210_P210_CITY_TOWER
+BGM_Set_P210_P210_CITY_TOWER_END
+BGM_Set_P210_P210_Floor_Gimmick
+BGM_Set_P210_P210_GATE
+BGM_Set_P210_P210_INSECTICONS
+BGM_Set_P210_P210_KICKBACK
+BGM_Set_P210_P210_LIFT_START
+BGM_Set_P210_P210_LIFT_WAVE01_BTL
+BGM_Set_P210_P210_PRE_PLASMACORE
+BGM_Set_P210_P210_PRE_SHRAPNEL
+BGM_Set_P210_P210_SHRAPNEL
+BGM_Set_P210_P210_SHRAPNEL_END
+BGM_Set_P210_P210_START
 BGM_Set_P310
+BGM_Set_P310_P310_GO_TO_ISLAND
+BGM_Set_P310_P310_ISLAND
+BGM_Set_P310_P310_ISLAND_2
+BGM_Set_P310_P310_M1_START
 BGM_Set_P410
+BGM_Set_P410_P410_BTL_01_END
+BGM_Set_P410_P410_BTL_02
+BGM_Set_P410_P410_FREE_1_TEST
+BGM_Set_P410_P410_FREE_2_TEST
+BGM_Set_P410_P410_FREE_3_TEST
+BGM_Set_P410_P410_FREE_4_TEST
+BGM_Set_P410_P410_GO_TO_CITY
+BGM_Set_P410_P410_M2_START
+BGM_Set_P410_P410_M3_START
 BGM_Set_P410_P410_M4_2
 BGM_Set_P410_P410_M4_3
 BGM_Set_P410_P410_M4_START
+BGM_Set_P410_P410_M5_START
+BGM_Set_P410_P410_M6_2
+BGM_Set_P410_P410_M6_START
 BGM_Set_P510
+BGM_Set_P510_P510_M2_End
+BGM_Set_P510_P510_M2_Start
+BGM_Set_P510_P510_M3_2
+BGM_Set_P510_P510_M3_START
+BGM_Set_P510_P510_START
 BGM_Set_P610
+BGM_Set_P610_P610_DEFENSE01_ARM_BTL
+BGM_Set_P610_P610_DEFENSE02_ARM_BTL
+BGM_Set_P610_P610_DEFENSE02_UNION_BTL
+BGM_Set_P610_P610_DEFENSE_JET_BTL
+BGM_Set_P610_P610_ESCAPE_FROM_CORE
+BGM_Set_P610_P610_JET_BTL
+BGM_Set_P610_P610_LIFT_BTL
+BGM_Set_P610_P610_LIFT_END
+BGM_Set_P610_P610_LIFT_START
+BGM_Set_P610_P610_PRE_DEFENSE_BTL
+BGM_Set_P610_P610_PRE_JET
+BGM_Set_P610_P610_PRE_LIFT_START
+BGM_Set_P610_P610_PRE_SIDE_GIMMICK
+BGM_Set_P610_P610_PRE_SOUNDWAVE
+BGM_Set_P610_P610_SIDE_GIMMICK_1
+BGM_Set_P610_P610_SIDE_GIMMICK_2
+BGM_Set_P610_P610_SOUNDWAVE_BTL
+BGM_Set_P610_P610_SOUNDWAVE_BTL2
+BGM_Set_P610_P610_START
+BGM_Set_P610_P610_WATCHER_BTL
+BGM_Set_P610_P610_WATCHER_END
+BGM_Set_P610_P610_WAY
 BGM_Set_P710
+BGM_Set_P710_P710_FINAL
+BGM_Set_P710_P710_M2_2
+BGM_Set_P710_P710_M2_3
+BGM_Set_P710_P710_M2_START
+BGM_Set_P710_P710_M3_START
+BGM_Set_P710_P710_M4_START
 BGM_Set_PA11
 BGM_Set_PA13
 BGM_Set_PA14
@@ -635,6 +509,26 @@ BGM_Set_PA24
 BGM_Set_PA26
 BGM_Set_PA27
 BGM_Set_PA28
+BGM_Set_PA28_PA28_ROOM10
+BGM_Set_PA28_PA28_ROOM11
+BGM_Set_PA28_PA28_ROOM12
+BGM_Set_PA28_PA28_ROOM13
+BGM_Set_PA28_PA28_ROOM14
+BGM_Set_PA28_PA28_ROOM15
+BGM_Set_PA28_PA28_ROOM16
+BGM_Set_PA28_PA28_ROOM17
+BGM_Set_PA28_PA28_ROOM18
+BGM_Set_PA28_PA28_ROOM19
+BGM_Set_PA28_PA28_ROOM2
+BGM_Set_PA28_PA28_ROOM20
+BGM_Set_PA28_PA28_ROOM3
+BGM_Set_PA28_PA28_ROOM4
+BGM_Set_PA28_PA28_ROOM5
+BGM_Set_PA28_PA28_ROOM6
+BGM_Set_PA28_PA28_ROOM7
+BGM_Set_PA28_PA28_ROOM8
+BGM_Set_PA28_PA28_ROOM9
+BGM_Set_PA28_PA28_START
 BGM_Set_PA33
 BGM_Set_PA34
 BGM_Set_PA35
@@ -659,6 +553,13 @@ BGM_Set_PA58
 BGM_Set_PA59
 BGM_Set_PF00
 BGM_Set_PF01
+BGM_Set_PF01_PF01_CHAPTER_START
+BGM_Set_PF01_PF01_CHARACTER
+BGM_Set_PF01_PF01_CONTINUE
+BGM_Set_PF01_PF01_EX_MISSION
+BGM_Set_PF01_PF01_RESULT
+BGM_Set_PF01_PF01_RESULT_EX
+BGM_Set_PF01_PF01_SHOP
 BGM_Set_PF02
 BGM_Set_Pxxx
 BGM_Set_Skill
@@ -670,17 +571,13 @@ BGM_Set_Weapon2
 BGM_Shop_In
 BGM_ShowEnd_In
 BGM_ShowEnd_Out
-BGM_Sine_1khz
-BGM_Slow
-BGM_Slow_Long
 BGM_Slow_Long_Off
 BGM_Slow_Long_On
 BGM_Slow_Off
 BGM_Slow_On
-BGM_Stage
-BGM_Stage_Set_none
-BGM_Stage_Set_none_2000ms
-BGM_Stage_Set_none_3000ms
+BGM_Stage_Set_None
+BGM_Stage_Set_None_2000ms
+BGM_Stage_Set_None_3000ms
 BGM_Stage_Set_ot_chase
 BGM_Stage_Set_ot_defense
 BGM_Stage_Set_ot_lift1
@@ -691,26 +588,729 @@ BGM_Stage_Set_st_sunsetcity
 BGM_Stage_Set_Title_1st
 BGM_Stage_Set_Title_2nd
 BGM_Stop_1khz
-BGM_Stop_menu
-BGM_title
+BGM_Stop_Menu
 BGM_TitleMenu
 BGM_Tutorial_Off
 BGM_Tutorial_On
-BGM_Zoom
 BGM_Zoom_Normal
 BGM_Zoom_Off
 BGM_Zoom_Sniper
+evca10_se_In
+evca10_se_out
+# 112333438
+# 293560400
+# 398557579
+# 844897439
+# 2439244572
+# 2533723265
+# 2533723266
+# 2533723267
+# 2533723268
+# 2533723269
+# 2533723270
+# 2533723271
+# 2533723272
+# 2533723273
+# 2533723274
+# 2533723275
+# 2533723276
+# 2730415803
+# 2855096943
+# 3596409302
+# 4083287457
+
+### RTPC/GAME-VARIABLE NAMES (BGM.bnk)
+Camera_H
+
+### VARIABLE NAMES (BGM.bnk)
+BGM_Battle_Demotion
+BGM_Battle_Duck
+BGM_Battle_Ignore
+BGM_Battle_States
+BGM_Battle_Type
+BGM_Battle_Variation
+BGM_Battle_VolUp
+BGM_Battle_VolUp_Bar
+BGM_Environment
+BGM_Gallery
+BGM_Menu_Variation
+BGM_Movie
+BGM_Pause_Environment
+BGM_Pause_Menu
+BGM_Pause_Stage
+BGM_Sine_1khz
+BGM_Slow
+BGM_Stage
+BGM_title
+evca10_se
+
+### VALUE NAMES (BGM.bnk)
+A
+All
+B
+Battle_In
+Battle_Out
+Battle_Out_Fast
+Blitzwing
+C
+Cybertron
+D
+Devaster
+E
+Escape
+F
+Finish
+FinishSlow
+FX_Rain
+FX_Roof
+FX_Wind
+G
+gr_art
+gr_art_character
+gr_art_game
+gr_art_generations
+gr_art_scene
+gr_art_stage
+H
+I
+Ignore
+in
+J
+K
+Kickback
+L
+Lazerwave
+LFE
+LR
+Megatron
+Megatron_2
+Menasor
+MidBoss
+MidBoss_Ev
+Motormaster
+none_10sec
+none_1sec
+none_2sec
+none_3sec
+none_5sec
+none_7sec
+Normal
+Normal_2
+Normal_Ev
+Nothing
+off
+on
+original
+ot_chase
+ot_defense
+ot_gallery
+ot_lift1
+ot_lift2
+ot_menu
+ot_motorchase
+ot_plasmacore
+out
+R
+Respawn_In
+Respawn_out
+SL
+Soundwave
+SR
+st_city
+st_nightcity
+st_spaceship
+st_spaceship2
+st_sunsetcity
+Starscream
+# 973237667
+# 2624894114
+# 989308856
+
+### SFX NAMES (Init.bnk)
+# 33266616
+# 33883477
+# 34687045
+# 112549961
+# 114071711
+# 324904717
+# 374331950
+# 457561305
+# 473374178
+# 476444104
+# 540384142
+# 562511789
+# 591171119
+# 650019447
+# 768855505
+# 796676121
+# 808620207
+# 829429112
+# 836947803
+# 901900187
+# 973829909
+# 988626289
+# 1693769208
+# 2556525146
+# 3650207474
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+BGM_Angle_Scale
+BGM_Continue
+BGM_Finish_Slow
+BGM_Jingle_Vol
+BGM_Slow_Long
+BGM_Transform
+BGM_Vol_Env
+BGM_Vol_Stage
+BGM_Zoom
+Camera_H
+CameraAngle_H
+CameraAngle_S
+CameraAngle_V
+FilterControl
+Output_Mode
+SE_AccelTime_Select
+SE_BattleFinish_FX
+SE_BGMDuck
+SE_CharaType
+SE_ElementType
+SE_FloorCollisionType
+se_SpeedDown
+SE_VehicleEngine
+Volume_BGM
+Volume_Environment
+Volume_Master
+Volume_SE
+Volume_Voice
+# 958023796
+# 1137314744
+# 2476995316
+# 2967965965
+# 3297818656
+# 3303329923
+# 4129326038
+# 4255920623
+
+### VARIABLE NAMES (Init.bnk)
+BGM_Battle_Demotion
+BGM_Battle_Duck
+BGM_Battle_Ignore
+BGM_Battle_States
+BGM_Battle_Type
+BGM_Battle_Variation
+BGM_Battle_VolUp
+BGM_Battle_VolUp_Bar
+BGM_Environment
+BGM_Gallery
+BGM_Menu_Variation
+BGM_Movie
+BGM_Pause_Environment
+BGM_Pause_Menu
+BGM_Pause_Stage
+BGM_Sine_1khz
+BGM_Slow
+BGM_Stage
+BGM_title
+evca10_se
+SE_AccelTime
+SE_Battle
+SE_BattleFinish
+SE_CharaTypeSwitch
+SE_City_Fire
+SE_Doppler
+SE_ElementType
+SE_FloorCollisionType
+se_SpeedDown
+# 777361168
+# 777361171
+# 1082105948
+# 1082105951
+# 1082105950
+# 1031836726
+# 1031836725
+# 868874797
+# 868874798
+# 4270561795
+# 750949068
+# 750949071
+# 786266084
+# 786266087
+# 786266086
+# 1777186296
+
+### VALUE NAMES (Init.bnk)
+A
+B
+Battle_In
+Battle_Out
+Battle_Out_Fast
+C
+D
+E
+F
+FinishSlow
+G
+H
+I
+in
+J
+K
+L
+off
+on
+Respawn_In
+
+### EVENT NAMES (ba0009.bnk)
+ba0009_Goal
+
+### EVENT NAMES (ba0010.bnk)
+ba0010_CrystalSwitch_Change
+ba0010_CrystalSwitch_Count
+
+### EVENT NAMES (ba0020.bnk)
+ba0020_Kremzeek
+
+### EVENT NAMES (ba0060.bnk)
+ba0060_BarrierBreak
+ba0060_LaserGimmick_Exp
+ba0060_LaserGimmick_Loop
+
+### VARIABLE NAMES (ba0060.bnk)
+SE_AccelTime
+
+### VALUE NAMES (ba0060.bnk)
+on
+
+### EVENT NAMES (ba0061.bnk)
+ba0061_BombTbox_Charge
+bac061_BombTbox_Exp
+Stop_ba0061_BombTbox_Charge
+
+### EVENT NAMES (ba0062.bnk)
+ba0062_IceBomb_Charge
+ba0062_IceBomb_Exp
+Stop_ba0062_IceBomb_Charge
+
+### EVENT NAMES (ba0063.bnk)
+ba0063_ElecBomb_Charge
+ba0063_ElecBomb_Exp
+Stop_ba0063_ElecBomb_Charge
+
+### EVENT NAMES (ba0064.bnk)
+ba0064_FireBomb_Charge
+ba0064_FireBomb_Exp
+Stop_ba0064_FireBomb_Charge
+
+### EVENT NAMES (ba0080.bnk)
+ba0080_SpeedUp
+ba0080_SwitchOff
+ba0080_SwitchOn
+
+### EVENT NAMES (ba1000.bnk)
+ba1000_Break
+ba1000_RockPillar
+
+### VARIABLE NAMES (ba1000.bnk)
+SE_CharaTypeSwitch
+
+### VALUE NAMES (ba1000.bnk)
+Enemy_NPC
+NPC_Dam
+Player
+
+### EVENT NAMES (ba1001.bnk)
+ba1001_Break
+ba1001_RockPillar
+
+### VARIABLE NAMES (ba1001.bnk)
+SE_CharaTypeSwitch
+
+### VALUE NAMES (ba1001.bnk)
+Enemy_NPC
+NPC_Dam
+Player
+
+### EVENT NAMES (ba1002.bnk)
+ba1002_Break
+ba1002_RockPillar
+
+### VARIABLE NAMES (ba1002.bnk)
+SE_CharaTypeSwitch
+
+### VALUE NAMES (ba1002.bnk)
+Enemy_NPC
+NPC_Dam
+Player
+
+### EVENT NAMES (ba1003.bnk)
+ba1003_EnergonExp_Loop
+ba1003_Engine_Drive_Loop
+ba1003_Engine_Idol_Loop
+ba1003_Vehicle_Slip
+Stop_ba1003_EnergonExp_Loop
+Stop_ba1003_Engine_Drive_Loop
+Stop_ba1003_Engine_Idol_Loop
+# 1885557027
+
+### EVENT NAMES (ba1400.bnk)
+ba1400_Exp
+Stop_rf03_em4000_arm_swing_wsh
+# 2913555056
+# 2913555057
+# 2913555058
+# 2913555060
+# 2913555061
+# 2913555062
+# 2913555063
+
+### VARIABLE NAMES (ba1400.bnk)
+SE_AccelTime
+
+### VALUE NAMES (ba1400.bnk)
+on
+
+### EVENT NAMES (ba1401.bnk)
+ba1401_Exp
+
+### VARIABLE NAMES (ba1401.bnk)
+SE_AccelTime
+
+### VALUE NAMES (ba1401.bnk)
+on
+
+### EVENT NAMES (ba1402.bnk)
+ba1402_Exp
+
+### VARIABLE NAMES (ba1402.bnk)
+SE_AccelTime
+
+### VALUE NAMES (ba1402.bnk)
+on
+
+### EVENT NAMES (ba1403.bnk)
+ba1403_Exp
+ba1403_Saw_AttackLoop_l
+ba1403_Saw_AttackLoop_r
+ba1403_Saw_End_l
+ba1403_Saw_End_r
+ba1403_Saw_Impact_l
+ba1403_Saw_Impact_r
+ba1403_Saw_Loop_l
+ba1403_Saw_Loop_r
+ba1403_Saw_Start_l
+ba1403_Saw_Start_r
+ba1403_Saw_Whoosh_l
+ba1403_Saw_Whoosh_r
+Stop_ba1403_Saw_AttackLoop
+Stop_ba1403_Saw_AttackLoop_l
+Stop_ba1403_Saw_AttackLoop_r
+Stop_ba1403_Saw_Loop_l
+Stop_ba1403_Saw_Loop_r
+
+### VARIABLE NAMES (ba1403.bnk)
+SE_AccelTime
+
+### VALUE NAMES (ba1403.bnk)
+on
+
+### EVENT NAMES (ba1404.bnk)
+ba1404_Exp
+
+### VARIABLE NAMES (ba1404.bnk)
+SE_AccelTime
+
+### VALUE NAMES (ba1404.bnk)
+on
+
+### EVENT NAMES (ba1503.bnk)
+ba1503_SysDown
+
+### EVENT NAMES (ba2000.bnk)
+ba2000_ApproachWhoosh
+ba2000_CrashImpact
+ba2000_Fire
+ba2000_LiftMove_Loop
+ba2000_LiftMove_Start
+ba2000_LiftMove_Start_Ch6
+ba2000_SpeedDown_Reset
+ba2000_SpeedDown_Start
+ba2000_StartShake
+ba2000_WallCrash_Exp
+Stop_ba2000_LiftMove
+Stop_ba2000_LiftMove_Loop
+
+### VARIABLE NAMES (ba2000.bnk)
+SE_AccelTime
+se_SpeedDown
+
+### VALUE NAMES (ba2000.bnk)
+off
+on
+
+### EVENT NAMES (ba2001.bnk)
+ba2001_Alarm_Loop
+ba2001_Elec_Horizon_Loop
+ba2001_Elec_Vertical_Loop
+ba2001_EnergyLight
+ba2001_Exp
+ba2001_Float_Loop
+ba2001_Shot
+Pause_ba2001_Elec_Vertical_Loop
+Resume_ba2001_Elec_Vertical_Loop
+Stop_ba2001_Alarm_Loop
+Stop_ba2001_Elec_Horizon_Loop
+Stop_ba2001_Elec_Vertical_Loop
+Stop_ba2001_Float_Loop
+
+### VARIABLE NAMES (ba2001.bnk)
+SE_AccelTime
+
+### VALUE NAMES (ba2001.bnk)
+on
+
+### EVENT NAMES (ba2103.bnk)
+ba2103_Turret_End
+ba2103_Turret_Shot
+ba2103_Turret_Start
+
+### EVENT NAMES (ba2104.bnk)
+ba2100_TransBlock_BolckEnd
+ba2100_TransBlock_BolckMove
+ba2100_TransBlock_Operate
+
+### VARIABLE NAMES (ba2104.bnk)
+SE_AccelTime
+
+### VALUE NAMES (ba2104.bnk)
+on
+
+### EVENT NAMES (ba2400.bnk)
+ba2400_BarrierBreak
+ba2400_Elec_Charge
+ba2400_Elec_Shot
+# 402590004
+
+### EVENT NAMES (ba2500.bnk)
+r200_FloorGimmick_End
+r200_FloorGimmick_End__For_ba2506
+r200_FloorGimmick_Move
+r200_FloorGimmick_Move_For_ba2506
+r200_FloorGimmick_Shake
+r200_FloorGimmick_Start
+r200_FloorGimmick_Start_For_ba2506
+r200_FloorGimmick_Switch
+r200_PodEject
+Stop_r200_FloorGimmick_Move
+
+### VARIABLE NAMES (ba2500.bnk)
+SE_AccelTime
+
+### VALUE NAMES (ba2500.bnk)
+on
+
+### EVENT NAMES (ba2503.bnk)
+ba2503_FloorBreak
+
+### EVENT NAMES (ba2506.bnk)
+ba2506_EnergyCharge
+ba2506_GlassBreak
+
+### EVENT NAMES (ba2507.bnk)
+ba2507_ArmFloor_Fall
+ba2507_ArmFloor_Impact
+ba2507_ArmFloor_Shake
+
+### EVENT NAMES (ba250b.bnk)
+ba250b_Ch6_Gimmick_Impact
+ba250b_Ch6_Gimmick_Start
+
+### EVENT NAMES (ba5500.bnk)
+ba5500_DoorClose_End
+ba5500_DoorClose_Start_F
+ba5500_DoorClose_Start_R
+ba5500_DoorOpen_End
+ba5500_DoorOpen_Start_F
+ba5500_DoorOpen_Start_R
+
+### EVENT NAMES (ba6100.bnk)
+ba6100_PodBound
+
+### VARIABLE NAMES (ba6100.bnk)
+SE_AccelTime
+
+### VALUE NAMES (ba6100.bnk)
+on
+
+### EVENT NAMES (ba6300.bnk)
+ba6300_Arm_Clasp
+ba6300_ArmOpen
+ba6300_AttackMove
+ba6300_CatchImpact
+ba6300_CatchImpact_b
+ba6300_HoldMove
+ba6300_Release
+ba6300_Start
+
+### VARIABLE NAMES (ba6300.bnk)
+SE_AccelTime
+
+### VALUE NAMES (ba6300.bnk)
+on
+
+### EVENT NAMES (baa210.bnk)
+baa210_ECube_Bound
+baa210_ECube_Exp
+baa210_ECube_Lift
+
+### EVENT NAMES (baa211.bnk)
+baa211_ECube_Exp
+
+### EVENT NAMES (baa600.bnk)
+baa600_Container_Bound
+baa600_Container_Exp
+baa600_Container_Lift
+
+### EVENT NAMES (bab000.bnk)
+Play_bab000_se_Break00
+
+### EVENT NAMES (bac000.bnk)
+bac000_TreasureBox_Beep
+bac000_TreasureBox_Open_01
+bac000_TreasureBox_Open_02
+bac000_TreasureBox_Open_03
+
+### VARIABLE NAMES (bac000.bnk)
+SE_AccelTime
+
+### VALUE NAMES (bac000.bnk)
+on
+
+### EVENT NAMES (bac001.bnk)
+bac001_Barrier_Tbox_Exp
+bac001_Small_TBox_Exp
+
+### VARIABLE NAMES (bac001.bnk)
+SE_AccelTime
+
+### VALUE NAMES (bac001.bnk)
+on
+
+### EVENT NAMES (bac002.bnk)
+bac002_BarrierBreak
+
+### VARIABLE NAMES (bac002.bnk)
+SE_AccelTime
+
+### VALUE NAMES (bac002.bnk)
+on
+
+### EVENT NAMES (bad000.bnk)
+bad000_Gate_MoveEnd
+bad000_Gate_MoveStart
+
+### VARIABLE NAMES (bad000.bnk)
+SE_AccelTime
+
+### VALUE NAMES (bad000.bnk)
+on
+
+### EVENT NAMES (bad001.bnk)
+bad001_DoorClose
+
+### VARIABLE NAMES (bad001.bnk)
+SE_AccelTime
+
+### VALUE NAMES (bad001.bnk)
+on
+
+### EVENT NAMES (bh1000.bnk)
+Play_bh1000_se_Break00
+
+### EVENT NAMES (bh1001.bnk)
+Play_bh1001_se_Break00
+
+### EVENT NAMES (bh1002.bnk)
+Play_bh1002_se_Break00
+
+### EVENT NAMES (bh1003.bnk)
+Play_bh1003_se_Break00
+
+### EVENT NAMES (bh1004.bnk)
+Play_bh1004_se_Break00
+
+### EVENT NAMES (bh1005.bnk)
+Play_bh1005_se_Break00
+
+### EVENT NAMES (bh1006.bnk)
+Play_bh1006_se_Break00
+
+### EVENT NAMES (bh1007.bnk)
+Play_bh1007_se_Break00
+
+### EVENT NAMES (bh1020.bnk)
+Play_bh1020_se_Break00
+
+### EVENT NAMES (bh1021.bnk)
+Play_bh1021_se_Break00
+
+### EVENT NAMES (bh1040.bnk)
+Play_bh1040_se_Break00
+
+### EVENT NAMES (bh1041.bnk)
+Play_bh1041_se_Break00
+
+### EVENT NAMES (bh1042.bnk)
+Play_bh1042_se_Break00
+
+### EVENT NAMES (bh1060.bnk)
+Play_bh1060_se_Break00
+Play_bh1060_se_Set
+
+### EVENT NAMES (bh1070.bnk)
+Play_bh1070_se_Break00
+
+### EVENT NAMES (bh1071.bnk)
+Play_bh1071_se_Break00
+
+### EVENT NAMES (bh1072.bnk)
+Play_bh1072_se_Break00
+
+### EVENT NAMES (bh1073.bnk)
+Play_bh1073_se_Break00
+
+### EVENT NAMES (bh1074.bnk)
+Play_bh1074_se_Break00
+
+### EVENT NAMES (bh1075.bnk)
+Play_bh1075_se_Break00
+
+### EVENT NAMES (bh1080.bnk)
+Play_bh1080_se_Break00
+
+### EVENT NAMES (bh1090.bnk)
+Play_bh1090_se_Break00
+
+### EVENT NAMES (bh1800.bnk)
+Play_bh1800_se_Break00
+
+### EVENT NAMES (bh1801.bnk)
+Play_bh1801_se_Break00
+
+### EVENT NAMES (bh1802.bnk)
+Play_bh1802_se_Break00
+
+### EVENT NAMES (core.bnk)
 core_AccelTime_In
 core_AccelTime_Out
 core_Alert
 core_AutoRepair
 core_Battle_In_Glitch
-core_BlowbackImpact
 core_Blow_Dmg
 core_Blow_Dmg_LL
 core_Blow_HDmg
 core_Blow_HDmg_LL
 core_Blow_Shockwave
+core_BlowbackImpact
 core_Bomb_Exp
 core_Catch
 core_Catch_OBJ
@@ -727,16 +1327,16 @@ core_ContinueSelect
 core_Death_EXP
 core_DoubleLariat
 core_ElecDam
-core_EnemyAppear
-core_EnemyAppear_mov
-core_EnemyDeath_Elec
-core_EnemyDeath_Exp
 core_Enemy_TransDown_a
 core_Enemy_TransDown_b
 core_Enemy_TransDown_c
 core_Enemy_TransUp_a
 core_Enemy_TransUp_b
 core_Enemy_TransUp_c
+core_EnemyAppear
+core_EnemyAppear_mov
+core_EnemyDeath_Elec
+core_EnemyDeath_Exp
 core_EnergyBall_Exp
 core_EnergyThrower_Dam
 core_Excellent
@@ -746,13 +1346,13 @@ core_FlameThrower_Dam
 core_GoTitle
 core_GrandSlide_Long
 core_GrandSlide_Mid
-core_Grenade_Pass
 core_Gre_Elec_Dmg
 core_Gre_Elec_Hit
 core_Gre_Fire_Dmg
 core_Gre_Fire_Hit
 core_Gre_Ice_Dmg
 core_Gre_Ice_Hit
+core_Grenade_Pass
 core_GroundImpact
 core_GunsTelegraph_Mid
 core_GunsTelegraph_Short
@@ -786,6 +1386,8 @@ core_MachineG_Pass
 core_MetalDam
 core_MissionEnd
 core_MissionStart
+core_Mov_Pause_in
+core_Mov_Pause_out
 core_PalmImpact
 core_PanelSwitch
 core_PauseMenu_In
@@ -795,6 +1397,7 @@ core_pl_TransDown_b
 core_pl_TransUp_a
 core_pl_TransUp_b
 core_PowerCharge
+core_Recovery
 core_Rifle_Dmg
 core_Rifle_Hit
 core_Rifle_Pass
@@ -804,8 +1407,8 @@ core_Rocket_Pass
 core_RollWhoosh
 core_Rush_BlowbackImpact
 core_Rush_Hit
-core_Rush_HitBack
 core_Rush_Hit_LL
+core_Rush_HitBack
 core_Select_Accept
 core_Select_Back
 core_Select_CrossCursor
@@ -853,10 +1456,177 @@ core_WP_Select_GunLight
 core_WP_Select_Hammer
 core_WP_Select_Knuckle
 core_WP_Select_Sword
-Cutscene_SE
-CutScene_Voice
 Debug_Loudness_Meter_Off
 Debug_Loudness_Meter_On
+Output_Headphone
+Output_Stereo
+Output_Surround
+PhaseEvent_In
+PhaseEvent_Out
+SE_Battle_OFF
+SE_Battle_ON
+SE_BattleFinish_OFF
+SE_BattleFinish_ON
+SE_CSxxxx_In
+SE_CSxxxx_Out
+SE_Init_Default
+SE_Init_P010
+SE_Init_P210_Bombshell_End
+SE_Init_P210_Floor_Gimmick
+SE_Init_P210_Pre_Bombshell
+SE_Init_P210_Pre_Soundwave
+SE_Init_P210_Side_Gimmick_1
+SE_Init_P210_Side_Gimmick_2
+SE_Init_P210_Soundwave_End
+SE_Init_P210_TERMINAL01
+SE_Init_P210_TERMINAL02
+SE_Init_P210_TERMINAL03
+SE_Init_P410_Go_To_City
+SE_Init_P410_M2_Start
+SE_Init_P510_M2_Start
+SE_Init_P510_Start
+SE_Load_In
+SE_Load_Out
+Stop_core_Charge_OneShotLoop
+Stop_core_Charge_Start
+Stop_core_ElecDam
+Stop_core_FireDam
+Stop_core_sonar
+Stop_CutScene_Voice
+Stop_CutsceneStream
+Stop_Infolog
+Stop_wp0093_Cyclone_Loop
+Stop_wp00c5_EnergyThrower_Loop
+Stop_wp00c5_FlameThrower_Loop
+Stop_wp00c5_IceThrower_Loop
+Stop_wp00c8_LaserGun_Loop
+Stop_wp0114_Cutter_Loop
+Stop_wp011c_Drill_Roll_Loop
+Stop_wp011f_Bulk_Roll_Loop
+System_Mute_All
+System_Pause_All
+System_Resume_All
+System_Unmute_All
+TransErr_Down
+TransErr_Up
+wp0002_ShotGun_Shot
+wp0002_ShotGun_Slide
+wp0003_GelGrenade_Shot
+wp0003_Grenade_Shot
+wp0004_Rifle_Shot
+wp0009_WireGun_Shot
+wp0010_LargeShot
+wp0010_MegatronGun_Shot
+wp0013_StarscreamShot
+wp0014_TransErr_Shot
+wp0068_GelGun
+wp006d_LoudSpeaker
+wp0087_BombSet
+wp0093_Cyclone_Loop
+wp0093_Cyclone_Shot
+wp00aa_DrillImpact
+wp00c5_EnergyThrower_Loop
+wp00c5_FlameThrower_Loop
+wp00c5_IceThrower_Loop
+wp00c8_LaserGun_Loop
+wp0100_Axe_GroundImpact
+wp0100_Axe_HiWhoosh
+wp0100_Axe_LoWhoosh
+wp0100_Axe_Scrape
+wp0100_Axe_Swish
+wp0100_MaxSwish
+wp0114_Cutter_Loop
+wp0114_Cutter_Swish
+wp011c_Drill_Roll_Loop
+wp011c_Drill_Shot
+wp011c_Drill_Swish
+wp011f_Bulk_Roll_Loop
+wp011f_Bulk_Swish
+wp0120_Hammer_Impact
+wp0120_Hammer_Swish
+wp0130_Sword_Swish
+wp0130_SwordRoll_01
+wp0130_SwordRoll_02
+wp0150_Bullet_Guard
+wp0150_ShieldBreak
+wp0160_WSwordStab
+wp0160_WSwordSwish
+wp0200_S_Grenade_Shot
+wp0201_Rocket_Shot
+wp_0000_Shot
+wp_0001_Shot
+wp_000e_Shot
+# 200359959
+# 449167073
+# 483523601
+# 486150584
+# 729963520
+# 1014197064
+# 1245262140
+# 1952292325
+# 2476995316
+# 2660600684
+# 2660600685
+# 2660600691
+# 2865173518
+# 2865173522
+# 4105728736
+# 4105728766
+# 4105728767
+# 4248940376
+
+### SFX NAMES (core.bnk)
+# 518945917
+# 979654220
+# 45751791
+# 718085309
+# 118648106
+# 97544301
+# 476944074
+# 991796855
+# 457485705
+# 46109235
+# 977379859
+# 728669173
+# 620385520
+# 12538643
+# 695029545
+# 169301191
+
+### RTPC/GAME-VARIABLE NAMES (core.bnk)
+SE_CharaType
+SE_ElementType
+
+### VARIABLE NAMES (core.bnk)
+SE_AccelTime
+SE_Battle
+SE_BattleFinish
+SE_CharaTypeSwitch
+SE_ElementType
+# 1082105948
+# 4270561795
+# 777361168
+# 777361171
+# 1031836726
+# 1031836725
+# 750949068
+# 750949071
+# 1082105951
+# 1082105950
+
+### VALUE NAMES (core.bnk)
+Elec
+Empty
+Enemy_NPC
+Fire
+Ice
+Norm
+NPC_Dam
+off
+on
+Player
+
+### EVENT NAMES (em0000.bnk)
 em0000_Neutral
 em0000_SPunch_Charge
 em0000_SPunch_Impact
@@ -882,6 +1652,18 @@ em0000_Vehicle_RPM_Up_3
 em0000_Vehicle_Slip_Loop
 em0000_Vehicle_Somersault
 em0000_Vehicle_Start
+Stop_em0000_Vehicle_AttackSlip
+Stop_em0000_Vehicle_DriftSlip
+Stop_em0000_Vehicle_Engine_Idol_Loop
+Stop_em0000_Vehicle_Engine_Loop
+Stop_em0000_Vehicle_Slip
+# 827733713
+
+### RTPC/GAME-VARIABLE NAMES (em0000.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (em0001.bnk)
 em0001_Neutral
 em0001_Sliding
 em0001_TornadeKick
@@ -907,6 +1689,19 @@ em0001_Vehicle_RPM_Up_3
 em0001_Vehicle_Slip_Loop
 em0001_Vehicle_Somersault
 em0001_Vehicle_Start
+Stop_em0001_Vehicle_AttackSlip
+Stop_em0001_Vehicle_DriftSlip
+Stop_em0001_Vehicle_Engine_Idol_Loop
+Stop_em0001_Vehicle_Engine_Loop
+Stop_em0001_Vehicle_Slip
+# 358755372
+# 1685441218
+
+### RTPC/GAME-VARIABLE NAMES (em0001.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (em0002.bnk)
 em0002_MissileSet
 em0002_MissileShot
 em0002_Neutral
@@ -933,6 +1728,18 @@ em0002_Vehicle_Slip_Loop
 em0002_Vehicle_Somersault
 em0002_Vehicle_Start
 em0002_warp
+Stop_em0002_Vehicle_AttackSlip
+Stop_em0002_Vehicle_DriftSlip
+Stop_em0002_Vehicle_Engine_Idol_Loop
+Stop_em0002_Vehicle_Engine_Loop
+Stop_em0002_Vehicle_Slip
+# 2967711459
+
+### RTPC/GAME-VARIABLE NAMES (em0002.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (em0003.bnk)
 em0003_Immo_Burst
 em0003_Immo_Charge
 em0003_Immo_Invention
@@ -964,9 +1771,21 @@ em0003_Vehicle_RPM_Up_3
 em0003_Vehicle_Slip_Loop
 em0003_Vehicle_Somersault
 em0003_Vehicle_Start
+Stop_em0003_Vehicle_AttackSlip
+Stop_em0003_Vehicle_DriftSlip
+Stop_em0003_Vehicle_Engine_Idol_Loop
+Stop_em0003_Vehicle_Engine_Loop
+Stop_em0003_Vehicle_Slip
+# 3698403686
+
+### RTPC/GAME-VARIABLE NAMES (em0003.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (em0004.bnk)
+em0004_GL_Bite_RollWhoosh
 em0004_GL_BiteImpact
 em0004_GL_BiteWhoosh
-em0004_GL_Bite_RollWhoosh
 em0004_GL_CatchBite
 em0004_GL_FireBall_Charge
 em0004_GL_FireBall_Shot
@@ -984,230 +1803,17 @@ em0004_GL_StompImpact
 em0004_GL_TailWhoosh_A
 em0004_GL_TailWhoosh_B
 em0004_GL_Tetuzanko
-gallery_pl0000_01
-gallery_pl0000_02
-gallery_pl0000_03
-gallery_pl0001_01
-gallery_pl0001_02
-gallery_pl0001_03
-gallery_pl0002_01
-gallery_pl0002_02
-gallery_pl0002_03
-gallery_pl0003_01
-gallery_pl0003_02
-gallery_pl0003_03
-gallery_pl0004_01
-gallery_pl0004_02
-gallery_pl0004_03
-gallery_pl0020_01
-gallery_pl0020_02
-gallery_pl0020_03
-gallery_pl0022_01
-gallery_pl0022_02
-gallery_pl0022_03
-gallery_pl0023_01
-gallery_pl0023_02
-gallery_pl0023_03
-gallery_pl0024_01
-gallery_pl0024_02
-gallery_pl0024_03
-gallery_pl0028_01
-gallery_pl0028_02
-gallery_pl0028_03
-gallery_pl002e_01
-gallery_pl002e_02
-gallery_pl002e_03
-gallery_pl0030_01
-gallery_pl0030_02
-gallery_pl0030_03
-gallery_pl0034_01
-gallery_pl0034_02
-gallery_pl0034_03
-gallery_pl0040_01
-gallery_pl0040_02
-gallery_pl0040_03
-gallery_pl0100_01
-gallery_pl0100_02
-gallery_pl0100_03
-gallery_pl0110_01
-gallery_pl0110_02
-gallery_pl0110_03
-p120_ev1200_F0002
-p120_ev1201_F0002
-p120_ev1203_F0002
-p120_ev1204_F0002
-p120_ev1205_F0002
-p120_ev1206_F0002
-p120_ev1207_F0002
-p120_ev1208_F0002
-p120_ev1209_F0002
-p210_ev2100_F0002
-p210_ev2101_F0002
-p210_ev2102_F0002
-p210_ev2103_F0002
-p210_ev2104_F0002
-p210_ev2105_F0002
-p210_ev2106_F0002
-p210_eva18f_F0050
-p210_eva252_F0176
-p210_eva262_F0002
-p210_eva263_F0030
-p210_eva275_F0148
-p310_ev3100_F0002
-p310_ev3100_F0002_GL
-p310_ev3101_F0002
-p310_ev3101_F0002_GL
-p310_ev3102_F0002
-p310_ev3104_F0002
-p310_eva3ff_F0002
-p410_ev4100_F0002
-p410_ev4102_F0002
-p510_ev5100_F0002
-p510_ev5102_F0002
-p610_ev0000_F0002
-p610_ev6101_F0002
-p610_eva600_F0002
-p610_eva621_F0102
-p610_eva624_F0002
-p610_eva630_F0002
-p610_eva63f_F0040
-p610_eva640_F0062
-p610_eva650_F0190
-p610_eva660_F0002
-p710_eva740_F0002
-p710_eva741_F0002
-p710_eva742_F0002
-Pause_ba2001_Elec_Vertical_Loop
-pl0000_CybertronSign
-pl0000_Neutral
-pl0000_SPunch_Charge
-pl0000_SPunch_Impact
-pl0000_Vehicle_AccelRelease
-pl0000_Vehicle_AttackSlip
-pl0000_Vehicle_BackFire
-pl0000_Vehicle_ChaseRush
-pl0000_Vehicle_DriftSlip_Loop
-pl0000_Vehicle_Engine_Idol_Loop
-pl0000_Vehicle_Engine_Loop
-pl0000_Vehicle_FallImpact
-pl0000_Vehicle_FallWhoosh
-pl0000_Vehicle_Jump
-pl0000_Vehicle_Land
-pl0000_Vehicle_MetalCreak
-pl0000_Vehicle_PsychoRush
-pl0000_Vehicle_RPM_Down_1
-pl0000_Vehicle_RPM_Down_2
-pl0000_Vehicle_RPM_Down_3
-pl0000_Vehicle_RPM_Up_1
-pl0000_Vehicle_RPM_Up_2
-pl0000_Vehicle_RPM_Up_3
-pl0000_Vehicle_Slip_Loop
-pl0000_Vehicle_Somersault
-pl0000_Vehicle_Start
-pl0001_Neutral
-pl0001_Sliding
-pl0001_TornadeKick
-pl0001_Vehicle_AccelRelease
-pl0001_Vehicle_AttackSlip
-pl0001_Vehicle_BackFire
-pl0001_Vehicle_ChaseRush
-pl0001_Vehicle_DriftSlip_Loop
-pl0001_Vehicle_Engine_Idol_Loop
-pl0001_Vehicle_Engine_Loop
-pl0001_Vehicle_FallImpact
-pl0001_Vehicle_FallWhoosh
-pl0001_Vehicle_Jump
-pl0001_Vehicle_Land
-pl0001_Vehicle_MetalCreak
-pl0001_Vehicle_PsychoRush
-pl0001_Vehicle_RPM_Down_1
-pl0001_Vehicle_RPM_Down_2
-pl0001_Vehicle_RPM_Down_3
-pl0001_Vehicle_RPM_Up_1
-pl0001_Vehicle_RPM_Up_2
-pl0001_Vehicle_RPM_Up_3
-pl0001_Vehicle_Slip_Loop
-pl0001_Vehicle_Somersault
-pl0001_Vehicle_Start
-pl0002_MissileSet
-pl0002_MissileShot
-pl0002_Neutral
-pl0002_Vehicle_AccelRelease
-pl0002_Vehicle_AttackSlip
-pl0002_Vehicle_BackFire
-pl0002_Vehicle_ChaseRush
-pl0002_Vehicle_DriftSlip_Loop
-pl0002_Vehicle_Engine_Idol_Loop
-pl0002_Vehicle_Engine_Loop
-pl0002_Vehicle_FallImpact
-pl0002_Vehicle_FallWhoosh
-pl0002_Vehicle_Jump
-pl0002_Vehicle_Land
-pl0002_Vehicle_MetalCreak
-pl0002_Vehicle_PsychoRush
-pl0002_Vehicle_RPM_Down_1
-pl0002_Vehicle_RPM_Down_2
-pl0002_Vehicle_RPM_Down_3
-pl0002_Vehicle_RPM_Up_1
-pl0002_Vehicle_RPM_Up_2
-pl0002_Vehicle_RPM_Up_3
-pl0002_Vehicle_Slip_Loop
-pl0002_Vehicle_Somersault
-pl0002_Vehicle_Start
-pl0002_Warp
-pl0003_Immo_Burst
-pl0003_Immo_Charge
-pl0003_Immo_Invention
-pl0003_Neutral
-pl0003_Vehicle_AccelRelease
-pl0003_Vehicle_AttackSlip
-pl0003_Vehicle_BackFire
-pl0003_Vehicle_BombSpin
-pl0003_Vehicle_Cannon_End
-pl0003_Vehicle_Cannon_Set
-pl0003_Vehicle_Cannon_Shot
-pl0003_Vehicle_ChaseRush
-pl0003_Vehicle_DriftSlip_Loop
-pl0003_Vehicle_Engine_Idol_Loop
-pl0003_Vehicle_Engine_Loop
-pl0003_Vehicle_FallImpact
-pl0003_Vehicle_FallWhoosh
-pl0003_Vehicle_Jump
-pl0003_Vehicle_Land
-pl0003_Vehicle_MetalCreak
-pl0003_Vehicle_Missile_Shot
-pl0003_Vehicle_PsychoRush
-pl0003_Vehicle_RPM_Down_1
-pl0003_Vehicle_RPM_Down_2
-pl0003_Vehicle_RPM_Down_3
-pl0003_Vehicle_RPM_Up_1
-pl0003_Vehicle_RPM_Up_2
-pl0003_Vehicle_RPM_Up_3
-pl0003_Vehicle_Slip_Loop
-pl0003_Vehicle_Somersault
-pl0003_Vehicle_Start
-pl0004_GL_BiteImpact
-pl0004_GL_BiteWhoosh
-pl0004_GL_Bite_RollWhoosh
-pl0004_GL_CatchBite
-pl0004_GL_FireBall_Charge
-pl0004_GL_FireBall_Growl_01
-pl0004_GL_FireBall_Growl_02
-pl0004_GL_FireBall_Shot
-pl0004_GL_FireBreath_Loop
-pl0004_GL_Kick
-pl0004_GL_Powerslam_Catch
-pl0004_GL_Powerslam_Whoosh
-pl0004_GL_ProwrestlingImpact
-pl0004_GL_RollWhoosh
-pl0004_GL_Scrape_Catch
-pl0004_GL_Scrape_End
-pl0004_GL_Scrape_Loop
-pl0004_GL_Somersault
-pl0004_GL_StompImpact
-pl0004_GL_TailWhoosh_A
-pl0004_GL_TailWhoosh_B
-pl0004_GL_Tetuzanko
+Stop_em0004_GL_FireBreath_Loop
+Stop_em0004_GL_Scrape_Loop
+# 763130362
+# 2695297578
+# 2695297581
+# 3882850671
+
+### RTPC/GAME-VARIABLE NAMES (em0004.bnk)
+SE_CharaType
+
+### EVENT NAMES (em0020.bnk)
 pl0020_BlackHole_Appear
 pl0020_BlackHole_End
 pl0020_BlackHole_Loop
@@ -1245,12 +1851,26 @@ pl0020_Tank_Move_Loop
 pl0020_Tank_RollWhoosh
 pl0020_Tank_Rush
 pl0020_Tank_Stomp
+Stop_pl0020_BlackHole_Loop
+Stop_pl0020_BlastShot_Loop
+Stop_pl0020_Laser_Loop
+Stop_pl0020_Scrape_Loop
+Stop_pl0020_Stun_Loop
+Stop_pl0020_Tank_Move_Loop
+# 935280461
+# 1178738836
+# 3054852789
+# 4146450001
+
+### EVENT NAMES (em0021.bnk)
 pl0021_Cassette_Eject
 pl0021_Cassette_Insert
 pl0021_Howling
 pl0021_MissileShot
 pl0021_RippleLaser
 pl0021_RocketShot
+
+### EVENT NAMES (em0022.bnk)
 pl0022_BombShot
 pl0022_ChestMissile_Shot
 pl0022_ClasterBomb_Shot
@@ -1263,6 +1883,9 @@ pl0022_Shot
 pl0022_Tornado_Pass_Far
 pl0022_Tornado_Pass_Near
 pl0022_Turn
+Stop_pl0022_Jet_Loop
+
+### EVENT NAMES (em0023.bnk)
 pl0023_BombShot
 pl0023_ChestMissile_Shot
 pl0023_ClasterBomb_Shot
@@ -1275,6 +1898,9 @@ pl0023_Shot
 pl0023_Tornado_Pass_Far
 pl0023_Tornado_Pass_Near
 pl0023_Turn
+Stop_pl0023_Jet_Loop
+
+### EVENT NAMES (em0024.bnk)
 pl0024_BombShot
 pl0024_ChestMissile_Shot
 pl0024_ClasterBomb_Shot
@@ -1287,13 +1913,15 @@ pl0024_Shot
 pl0024_Tornado_Pass_Far
 pl0024_Tornado_Pass_Near
 pl0024_Turn
-pl0025_Vehicle_Engine_Loop
-pl0025_Vehicle_JumpAttack
-pl0025_Vehicle_Land
-pl0025_Vehicle_Start
+Stop_pl0024_Jet_Loop
+
+### EVENT NAMES (em0027.bnk)
 pl0027_Tank_Jump
 pl0027_Tank_Land
 pl0027_Tank_Move_Loop
+Stop_pl0027_Tank_Move_Loop
+
+### EVENT NAMES (em0028.bnk)
 pl0028_Bomb_FallWhoosh
 pl0028_Jet_Dash
 pl0028_Jet_IceBomb_Fall
@@ -1311,6 +1939,7 @@ pl0028_NormSpinWhoosh
 pl0028_Scrape_Catch
 pl0028_Scrape_End
 pl0028_Scrape_Loop
+pl0028_SpinWhoosh
 pl0028_Tank_FireEnd
 pl0028_Tank_FireFall
 pl0028_Tank_FireJump
@@ -1325,16 +1954,23 @@ pl0028_Tank_Gun_Charge
 pl0028_Tank_Gun_Shot
 pl0028_Tank_Land
 pl0028_Tank_Move_Loop
+Stop_pl0028_Jet_Loop
+Stop_pl0028_Scrape_Loop
+Stop_pl0028_Tank_FireMove_Loop
+Stop_pl0028_Tank_FireSpin_MoveLoop
+Stop_pl0028_Tank_Move_Loop
+
+### EVENT NAMES (em0029.bnk)
 pl0029_Frenzy_Hammer_Impact
 pl0029_Frenzy_Hammer_PutBack
 pl0029_Frenzy_Hammer_Set
+
+### EVENT NAMES (em002a.bnk)
 pl002a_Frenzy_Hammer_Impact
 pl002a_Frenzy_Hammer_PutBack
 pl002a_Frenzy_Hammer_Set
-pl002b_Dash
-pl002b_Jet_Loop
-pl002b_Shot
-pl002b_Turn
+
+### EVENT NAMES (em002e.bnk)
 pl002e_Dodge
 pl002e_Doppelganger
 pl002e_EnergyBall_Charge
@@ -1351,12 +1987,21 @@ pl002e_RefLaser_Hold_End
 pl002e_RefLaser_Loop
 pl002e_RefLaser_Spread
 pl002e_Split
+Stop_pl002e_EnergyBall_Loop
+Stop_pl002e_Laser_Loop
+Stop_pl002e_RefLaser_Loop
+# 2957429415
+
+### EVENT NAMES (em0030.bnk)
 pl0030_Blade_In
 pl0030_Blade_Out
 pl0030_Blade_Ready
 pl0030_Rush_Engine_Loop
 pl0030_Rush_Start
 pl0030_Rush_Upper
+Stop_pl0030_Rush_Engine_Loop
+
+### EVENT NAMES (em0031.bnk)
 pl0031_Caterpillar_Loop
 pl0031_HoleIn
 pl0031_Shovel_Digging
@@ -1365,24 +2010,37 @@ pl0031_Shovel_Down_Whoosh
 pl0031_Shovel_Roll
 pl0031_Shovel_UP
 pl0031_Shovel_Up_Whoosh
+Stop_pl0031_Caterpillar_Loop
+
+### EVENT NAMES (em0032.bnk)
 pl0032_Engine_Loop
-pl0032_LiquidAttack_Start
-pl0032_LiquidDrop_Loop
 pl0032_Liquid_Shot
 pl0032_Liquid_SlowIn
 pl0032_Liquid_SlowOut
+pl0032_LiquidAttack_Start
+pl0032_LiquidDrop_Loop
+Stop_pl0032_Engine_Loop
+Stop_pl0032_LiquidDrop_Loop
+
+### EVENT NAMES (em0033.bnk)
 pl0033_Dash_Start
 pl0033_Engine_Loop
 pl0033_TruckShake
+Stop_pl0033_Engine_Loop
+
+### EVENT NAMES (em0034.bnk)
 pl0034_Dive_In
 pl0034_Dive_Move_Loop
 pl0034_Dive_Out
 pl0034_Dive_Out_Drill
-pl0034_DrillSet
 pl0034_Drill_RollStart_a
 pl0034_Drill_RollStart_b
 pl0034_Drill_Shot_a
 pl0034_Drill_Shot_b
+pl0034_DrillSet
+Stop_pl0034_Dive_Move_Loop
+
+### EVENT NAMES (em0035.bnk)
 pl0035_Crane_Down_a
 pl0035_Crane_Down_b
 pl0035_Crane_Up_a
@@ -1391,10 +2049,16 @@ pl0035_Crane_Up_Whoosh
 pl0035_Crane_Whip
 pl0035_Engine_Loop
 pl0035_MoveStart
+Stop_pl0035_Engine_Loop
+
+### EVENT NAMES (em0036.bnk)
 pl0036_Buzz_Loop
 pl0036_Jump
 pl0036_KickWhoosh
 pl0036_Land
+Stop_pl0036_Buzz_Loop
+
+### EVENT NAMES (em0037.bnk)
 pl0037_AllRange
 pl0037_AllRange_Charge
 pl0037_Buzz_Jump
@@ -1419,21 +2083,28 @@ pl0037_UpperSwing
 pl0037_UpperSwing_Buzz
 pl0037_WingClose
 pl0037_WingOpen
+Stop_pl0037_Buzz_Loop
+
+### EVENT NAMES (em0038.bnk)
 pl0038_BombShot
 pl0038_Buzz_Loop
 pl0038_Buzz_Move
-pl0038_ElecBall_Loop
-pl0038_ElecBall_Shot
-pl0038_ElecBall_Telegraph
 pl0038_Elec_Discharge_Shot
 pl0038_Elec_Discharge_Telegraph
 pl0038_Elec_Strike_Impact
 pl0038_Elec_Strike_Shot
 pl0038_Elec_Strike_Telegraph
+pl0038_ElecBall_Loop
+pl0038_ElecBall_Shot
+pl0038_ElecBall_Telegraph
 pl0038_Scissors
 pl0038_Scissors_Dash
 pl0038_Scissors_Move
 pl0038_Scissors_Whoosh
+Stop_pl0038_Buzz_Loop
+Stop_pl0038_ElecBall_Loop
+
+### EVENT NAMES (em0040.bnk)
 pl0040_ElecLaser_Charge
 pl0040_ElecLaser_Start
 pl0040_EnergyBall_Appear
@@ -1451,10 +2122,18 @@ pl0040_SwordSwish
 pl0040_ThundeFX
 pl0040_Thunder_Charge
 pl0040_Thunder_Hit
+Stop_pl0040_EnergyBall_Loop
+Stop_pl0040_Engine_Loop
+Stop_pl0040_GroundElec_Loop
+
+### EVENT NAMES (em004a.bnk)
 pl004a_Laserbeak_BeamShot
 pl004a_Laserbeak_JetLoop
 pl004a_LaserBeak_Turn
 pl004a_LaserBeak_vo_Scream
+Stop_pl004a_Laserbeak_JetLoop
+
+### EVENT NAMES (em004b.bnk)
 pl004b_Ravage_BiteImpact
 pl004b_Ravage_Fs_FL
 pl004b_Ravage_Fs_FR
@@ -1463,25 +2142,33 @@ pl004b_Ravage_Fs_RR
 pl004b_Ravage_JumpWhoosh
 pl004b_Ravage_Land
 pl004b_Ravage_vo_Attack
+pl004b_Ravage_vo_Growl
 pl004b_Ravage_vo_Howl
+
+### EVENT NAMES (em004c.bnk)
 pl004c_Laserbeak_BeamShot
 pl004c_Laserbeak_JetLoop
 pl004c_LaserBeak_Turn
 pl004c_LaserBeak_vo_Scream
+Stop_pl004c_Laserbeak_JetLoop
+
+### EVENT NAMES (em004d.bnk)
 pl004d_RatBat_Bite
 pl004d_RatBat_Flap
 pl004d_RatBat_vo_Attack
+
+### EVENT NAMES (em0100.bnk)
 pl0100_ArmDam
 pl0100_Catch
 pl0100_Down_Hand
 pl0100_Down_Knee
 pl0100_Down_Start
-pl0100_DrillShot_Pass
-pl0100_DrillShot_RollStart
-pl0100_DrillShot_Shot
 pl0100_Drill_Extract
 pl0100_Drill_Impact
 pl0100_Drill_Swing
+pl0100_DrillShot_Pass
+pl0100_DrillShot_RollStart
+pl0100_DrillShot_Shot
 pl0100_Gun_End
 pl0100_Gun_Set
 pl0100_Gun_Shot
@@ -1502,6 +2189,24 @@ pl0100_RightSweep
 pl0100_StompImpact
 pl0100_SwingWhoosh
 pl0100_ThrowImpact
+pl_LL_FootStep_L
+pl_LL_FootStep_R
+# 3188083897
+
+### VARIABLE NAMES (em0100.bnk)
+SE_CharaTypeSwitch
+
+### VALUE NAMES (em0100.bnk)
+Enemy_NPC
+NPC_Dam
+Player
+
+### EVENT NAMES (em0110.bnk)
+pl0100_ArmDam
+pl0100_Down_Hand
+pl0100_Down_Knee
+pl0100_Down_Start
+pl0100_Move
 pl0110_BigSword_Grow
 pl0110_BigSword_Hit
 pl0110_BigSword_Roll
@@ -1539,21 +2244,563 @@ pl0110_Thunder_Start
 pl0110_Tornado_End
 pl0110_Tornado_Loop
 pl0110_Tornado_Start
+pl_LL_FootStep_L
+pl_LL_FootStep_R
+Stop_pl0110_EnergyBall_Loop
+Stop_pl0110_GroundElec_Loop
+Stop_pl0110_Tornado_Loop
+# 663509283
+
+### VARIABLE NAMES (em0110.bnk)
+SE_CharaTypeSwitch
+
+### VALUE NAMES (em0110.bnk)
+Enemy_NPC
+NPC_Dam
+Player
+
+### EVENT NAMES (em0200.bnk)
 pl0200_Arm_Clasp
 pl0200_Arm_Impact
 pl0200_Arm_Open
 pl0200_Move_End
 pl0200_Move_Release
 pl0200_Move_Start
-Play_ba1e30_se_Set
-Play_bh1060_se_Set
+
+### EVENT NAMES (pl0000.bnk)
+pl0000_CybertronSign
+pl0000_Neutral
+pl0000_SPunch_Charge
+pl0000_SPunch_Impact
+pl0000_Vehicle_AccelRelease
+pl0000_Vehicle_AttackSlip
+pl0000_Vehicle_BackFire
+pl0000_Vehicle_ChaseRush
+pl0000_Vehicle_DriftSlip_Loop
+pl0000_Vehicle_Engine_Idol_Loop
+pl0000_Vehicle_Engine_Loop
+pl0000_Vehicle_FallImpact
+pl0000_Vehicle_FallWhoosh
+pl0000_Vehicle_Jump
+pl0000_Vehicle_Land
+pl0000_Vehicle_MetalCreak
+pl0000_Vehicle_PsychoRush
+pl0000_Vehicle_RPM_Down_1
+pl0000_Vehicle_RPM_Down_2
+pl0000_Vehicle_RPM_Down_3
+pl0000_Vehicle_RPM_Up_1
+pl0000_Vehicle_RPM_Up_2
+pl0000_Vehicle_RPM_Up_3
+pl0000_Vehicle_Slip_Loop
+pl0000_Vehicle_Somersault
+pl0000_Vehicle_Start
+Stop_pl0000_Vehicle_AttackSlip
+Stop_pl0000_Vehicle_DriftSlip
+Stop_pl0000_Vehicle_Engine_Idol_Loop
+Stop_pl0000_Vehicle_Engine_Loop
+Stop_pl0000_Vehicle_Slip
+# 1949481651
+
+### RTPC/GAME-VARIABLE NAMES (pl0000.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (pl0000_00000001.bnk)
+pl0000_CybertronSign
+pl0000_Neutral
+pl0000_SPunch_Charge
+pl0000_SPunch_Impact
+pl0000_Vehicle_AccelRelease
+pl0000_Vehicle_AttackSlip
+pl0000_Vehicle_BackFire
+pl0000_Vehicle_ChaseRush
+pl0000_Vehicle_DriftSlip_Loop
+pl0000_Vehicle_Engine_Idol_Loop
+pl0000_Vehicle_Engine_Loop
+pl0000_Vehicle_FallImpact
+pl0000_Vehicle_FallWhoosh
+pl0000_Vehicle_Jump
+pl0000_Vehicle_Land
+pl0000_Vehicle_MetalCreak
+pl0000_Vehicle_PsychoRush
+pl0000_Vehicle_RPM_Down_1
+pl0000_Vehicle_RPM_Down_2
+pl0000_Vehicle_RPM_Down_3
+pl0000_Vehicle_RPM_Up_1
+pl0000_Vehicle_RPM_Up_2
+pl0000_Vehicle_RPM_Up_3
+pl0000_Vehicle_Slip_Loop
+pl0000_Vehicle_Somersault
+pl0000_Vehicle_Start
+Stop_pl0000_Vehicle_AttackSlip
+Stop_pl0000_Vehicle_DriftSlip
+Stop_pl0000_Vehicle_Engine_Idol_Loop
+Stop_pl0000_Vehicle_Engine_Loop
+Stop_pl0000_Vehicle_Slip
+# 1949481651
+
+### RTPC/GAME-VARIABLE NAMES (pl0000_00000001.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (pl0000_00000002.bnk)
+pl0000_CybertronSign
+pl0000_Neutral
+pl0000_SPunch_Charge
+pl0000_SPunch_Impact
+pl0000_Vehicle_AccelRelease
+pl0000_Vehicle_AttackSlip
+pl0000_Vehicle_BackFire
+pl0000_Vehicle_ChaseRush
+pl0000_Vehicle_DriftSlip_Loop
+pl0000_Vehicle_Engine_Idol_Loop
+pl0000_Vehicle_Engine_Loop
+pl0000_Vehicle_FallImpact
+pl0000_Vehicle_FallWhoosh
+pl0000_Vehicle_Jump
+pl0000_Vehicle_Land
+pl0000_Vehicle_MetalCreak
+pl0000_Vehicle_PsychoRush
+pl0000_Vehicle_RPM_Down_1
+pl0000_Vehicle_RPM_Down_2
+pl0000_Vehicle_RPM_Down_3
+pl0000_Vehicle_RPM_Up_1
+pl0000_Vehicle_RPM_Up_2
+pl0000_Vehicle_RPM_Up_3
+pl0000_Vehicle_Slip_Loop
+pl0000_Vehicle_Somersault
+pl0000_Vehicle_Start
+Stop_pl0000_Vehicle_AttackSlip
+Stop_pl0000_Vehicle_DriftSlip
+Stop_pl0000_Vehicle_Engine_Idol_Loop
+Stop_pl0000_Vehicle_Engine_Loop
+Stop_pl0000_Vehicle_Slip
+# 1949481651
+
+### RTPC/GAME-VARIABLE NAMES (pl0000_00000002.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (pl0000_00000003.bnk)
+pl0000_CybertronSign
+pl0000_Neutral
+pl0000_SPunch_Charge
+pl0000_SPunch_Impact
+pl0000_Vehicle_AccelRelease
+pl0000_Vehicle_AttackSlip
+pl0000_Vehicle_BackFire
+pl0000_Vehicle_ChaseRush
+pl0000_Vehicle_DriftSlip_Loop
+pl0000_Vehicle_Engine_Idol_Loop
+pl0000_Vehicle_Engine_Loop
+pl0000_Vehicle_FallImpact
+pl0000_Vehicle_FallWhoosh
+pl0000_Vehicle_Jump
+pl0000_Vehicle_Land
+pl0000_Vehicle_MetalCreak
+pl0000_Vehicle_PsychoRush
+pl0000_Vehicle_RPM_Down_1
+pl0000_Vehicle_RPM_Down_2
+pl0000_Vehicle_RPM_Down_3
+pl0000_Vehicle_RPM_Up_1
+pl0000_Vehicle_RPM_Up_2
+pl0000_Vehicle_RPM_Up_3
+pl0000_Vehicle_Slip_Loop
+pl0000_Vehicle_Somersault
+pl0000_Vehicle_Start
+Stop_pl0000_Vehicle_AttackSlip
+Stop_pl0000_Vehicle_DriftSlip
+Stop_pl0000_Vehicle_Engine_Idol_Loop
+Stop_pl0000_Vehicle_Engine_Loop
+Stop_pl0000_Vehicle_Slip
+# 1949481651
+
+### RTPC/GAME-VARIABLE NAMES (pl0000_00000003.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (pl0001.bnk)
+pl0001_Neutral
+pl0001_Sliding
+pl0001_TornadeKick
+pl0001_Vehicle_AccelRelease
+pl0001_Vehicle_AttackSlip
+pl0001_Vehicle_BackFire
+pl0001_Vehicle_ChaseRush
+pl0001_Vehicle_DriftSlip_Loop
+pl0001_Vehicle_Engine_Idol_Loop
+pl0001_Vehicle_Engine_Loop
+pl0001_Vehicle_FallImpact
+pl0001_Vehicle_FallWhoosh
+pl0001_Vehicle_Jump
+pl0001_Vehicle_Land
+pl0001_Vehicle_MetalCreak
+pl0001_Vehicle_PsychoRush
+pl0001_Vehicle_RPM_Down_1
+pl0001_Vehicle_RPM_Down_2
+pl0001_Vehicle_RPM_Down_3
+pl0001_Vehicle_RPM_Up_1
+pl0001_Vehicle_RPM_Up_2
+pl0001_Vehicle_RPM_Up_3
+pl0001_Vehicle_Slip_Loop
+pl0001_Vehicle_Somersault
+pl0001_Vehicle_Start
+Stop_pl0001_Vehicle_AttackSlip
+Stop_pl0001_Vehicle_DriftSlip
+Stop_pl0001_Vehicle_Engine_Idol_Loop
+Stop_pl0001_Vehicle_Engine_Loop
+Stop_pl0001_Vehicle_Slip
+# 2924616694
+# 3454643776
+
+### RTPC/GAME-VARIABLE NAMES (pl0001.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (pl0001_00000001.bnk)
+pl0001_Neutral
+pl0001_Sliding
+pl0001_TornadeKick
+pl0001_Vehicle_AccelRelease
+pl0001_Vehicle_AttackSlip
+pl0001_Vehicle_BackFire
+pl0001_Vehicle_ChaseRush
+pl0001_Vehicle_DriftSlip_Loop
+pl0001_Vehicle_Engine_Idol_Loop
+pl0001_Vehicle_Engine_Loop
+pl0001_Vehicle_FallImpact
+pl0001_Vehicle_FallWhoosh
+pl0001_Vehicle_Jump
+pl0001_Vehicle_Land
+pl0001_Vehicle_MetalCreak
+pl0001_Vehicle_PsychoRush
+pl0001_Vehicle_RPM_Down_1
+pl0001_Vehicle_RPM_Down_2
+pl0001_Vehicle_RPM_Down_3
+pl0001_Vehicle_RPM_Up_1
+pl0001_Vehicle_RPM_Up_2
+pl0001_Vehicle_RPM_Up_3
+pl0001_Vehicle_Slip_Loop
+pl0001_Vehicle_Somersault
+pl0001_Vehicle_Start
+Stop_pl0001_Vehicle_AttackSlip
+Stop_pl0001_Vehicle_DriftSlip
+Stop_pl0001_Vehicle_Engine_Idol_Loop
+Stop_pl0001_Vehicle_Engine_Loop
+Stop_pl0001_Vehicle_Slip
+# 2924616694
+# 3454643776
+
+### RTPC/GAME-VARIABLE NAMES (pl0001_00000001.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (pl0001_00000002.bnk)
+pl0001_Neutral
+pl0001_Sliding
+pl0001_TornadeKick
+pl0001_Vehicle_AccelRelease
+pl0001_Vehicle_AttackSlip
+pl0001_Vehicle_BackFire
+pl0001_Vehicle_ChaseRush
+pl0001_Vehicle_DriftSlip_Loop
+pl0001_Vehicle_Engine_Idol_Loop
+pl0001_Vehicle_Engine_Loop
+pl0001_Vehicle_FallImpact
+pl0001_Vehicle_FallWhoosh
+pl0001_Vehicle_Jump
+pl0001_Vehicle_Land
+pl0001_Vehicle_MetalCreak
+pl0001_Vehicle_PsychoRush
+pl0001_Vehicle_RPM_Down_1
+pl0001_Vehicle_RPM_Down_2
+pl0001_Vehicle_RPM_Down_3
+pl0001_Vehicle_RPM_Up_1
+pl0001_Vehicle_RPM_Up_2
+pl0001_Vehicle_RPM_Up_3
+pl0001_Vehicle_Slip_Loop
+pl0001_Vehicle_Somersault
+pl0001_Vehicle_Start
+Stop_pl0001_Vehicle_AttackSlip
+Stop_pl0001_Vehicle_DriftSlip
+Stop_pl0001_Vehicle_Engine_Idol_Loop
+Stop_pl0001_Vehicle_Engine_Loop
+Stop_pl0001_Vehicle_Slip
+# 2924616694
+# 3454643776
+
+### RTPC/GAME-VARIABLE NAMES (pl0001_00000002.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (pl0002.bnk)
+pl0002_MissileSet
+pl0002_MissileShot
+pl0002_Neutral
+pl0002_Vehicle_AccelRelease
+pl0002_Vehicle_AttackSlip
+pl0002_Vehicle_BackFire
+pl0002_Vehicle_ChaseRush
+pl0002_Vehicle_DriftSlip_Loop
+pl0002_Vehicle_Engine_Idol_Loop
+pl0002_Vehicle_Engine_Loop
+pl0002_Vehicle_FallImpact
+pl0002_Vehicle_FallWhoosh
+pl0002_Vehicle_Jump
+pl0002_Vehicle_Land
+pl0002_Vehicle_MetalCreak
+pl0002_Vehicle_PsychoRush
+pl0002_Vehicle_RPM_Down_1
+pl0002_Vehicle_RPM_Down_2
+pl0002_Vehicle_RPM_Down_3
+pl0002_Vehicle_RPM_Up_1
+pl0002_Vehicle_RPM_Up_2
+pl0002_Vehicle_RPM_Up_3
+pl0002_Vehicle_Slip_Loop
+pl0002_Vehicle_Somersault
+pl0002_Vehicle_Start
+pl0002_Warp
+Stop_pl0002_Vehicle_AttackSlip
+Stop_pl0002_Vehicle_DriftSlip
+Stop_pl0002_Vehicle_Engine_Idol_Loop
+Stop_pl0002_Vehicle_Engine_Loop
+Stop_pl0002_Vehicle_Slip
+# 2768349281
+
+### RTPC/GAME-VARIABLE NAMES (pl0002.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (pl0002_00000001.bnk)
+pl0002_MissileSet
+pl0002_MissileShot
+pl0002_Neutral
+pl0002_Vehicle_AccelRelease
+pl0002_Vehicle_AttackSlip
+pl0002_Vehicle_BackFire
+pl0002_Vehicle_ChaseRush
+pl0002_Vehicle_DriftSlip_Loop
+pl0002_Vehicle_Engine_Idol_Loop
+pl0002_Vehicle_Engine_Loop
+pl0002_Vehicle_FallImpact
+pl0002_Vehicle_FallWhoosh
+pl0002_Vehicle_Jump
+pl0002_Vehicle_Land
+pl0002_Vehicle_MetalCreak
+pl0002_Vehicle_PsychoRush
+pl0002_Vehicle_RPM_Down_1
+pl0002_Vehicle_RPM_Down_2
+pl0002_Vehicle_RPM_Down_3
+pl0002_Vehicle_RPM_Up_1
+pl0002_Vehicle_RPM_Up_2
+pl0002_Vehicle_RPM_Up_3
+pl0002_Vehicle_Slip_Loop
+pl0002_Vehicle_Somersault
+pl0002_Vehicle_Start
+pl0002_Warp
+Stop_pl0002_Vehicle_AttackSlip
+Stop_pl0002_Vehicle_DriftSlip
+Stop_pl0002_Vehicle_Engine_Idol_Loop
+Stop_pl0002_Vehicle_Engine_Loop
+Stop_pl0002_Vehicle_Slip
+# 2768349281
+
+### RTPC/GAME-VARIABLE NAMES (pl0002_00000001.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (pl0002_00000002.bnk)
+pl0002_MissileSet
+pl0002_MissileShot
+pl0002_Neutral
+pl0002_Vehicle_AccelRelease
+pl0002_Vehicle_AttackSlip
+pl0002_Vehicle_BackFire
+pl0002_Vehicle_ChaseRush
+pl0002_Vehicle_DriftSlip_Loop
+pl0002_Vehicle_Engine_Idol_Loop
+pl0002_Vehicle_Engine_Loop
+pl0002_Vehicle_FallImpact
+pl0002_Vehicle_FallWhoosh
+pl0002_Vehicle_Jump
+pl0002_Vehicle_Land
+pl0002_Vehicle_MetalCreak
+pl0002_Vehicle_PsychoRush
+pl0002_Vehicle_RPM_Down_1
+pl0002_Vehicle_RPM_Down_2
+pl0002_Vehicle_RPM_Down_3
+pl0002_Vehicle_RPM_Up_1
+pl0002_Vehicle_RPM_Up_2
+pl0002_Vehicle_RPM_Up_3
+pl0002_Vehicle_Slip_Loop
+pl0002_Vehicle_Somersault
+pl0002_Vehicle_Start
+pl0002_Warp
+Stop_pl0002_Vehicle_AttackSlip
+Stop_pl0002_Vehicle_DriftSlip
+Stop_pl0002_Vehicle_Engine_Idol_Loop
+Stop_pl0002_Vehicle_Engine_Loop
+Stop_pl0002_Vehicle_Slip
+# 2768349281
+
+### RTPC/GAME-VARIABLE NAMES (pl0002_00000002.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (pl0003.bnk)
+pl0003_Immo_Burst
+pl0003_Immo_Charge
+pl0003_Immo_Invention
+pl0003_Neutral
+pl0003_Vehicle_AccelRelease
+pl0003_Vehicle_AttackSlip
+pl0003_Vehicle_BackFire
+pl0003_Vehicle_BombSpin
+pl0003_Vehicle_Cannon_End
+pl0003_Vehicle_Cannon_Set
+pl0003_Vehicle_Cannon_Shot
+pl0003_Vehicle_ChaseRush
+pl0003_Vehicle_DriftSlip_Loop
+pl0003_Vehicle_Engine_Idol_Loop
+pl0003_Vehicle_Engine_Loop
+pl0003_Vehicle_FallImpact
+pl0003_Vehicle_FallWhoosh
+pl0003_Vehicle_Jump
+pl0003_Vehicle_Land
+pl0003_Vehicle_MetalCreak
+pl0003_Vehicle_Missile_Shot
+pl0003_Vehicle_PsychoRush
+pl0003_Vehicle_RPM_Down_1
+pl0003_Vehicle_RPM_Down_2
+pl0003_Vehicle_RPM_Down_3
+pl0003_Vehicle_RPM_Up_1
+pl0003_Vehicle_RPM_Up_2
+pl0003_Vehicle_RPM_Up_3
+pl0003_Vehicle_Slip_Loop
+pl0003_Vehicle_Somersault
+pl0003_Vehicle_Start
+Stop_pl0003_Vehicle_AttackSlip
+Stop_pl0003_Vehicle_DriftSlip
+Stop_pl0003_Vehicle_Engine_Idol_Loop
+Stop_pl0003_Vehicle_Engine_Loop
+Stop_pl0003_Vehicle_Slip
+# 1757740476
+
+### RTPC/GAME-VARIABLE NAMES (pl0003.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (pl0003_00000001.bnk)
+pl0003_Immo_Burst
+pl0003_Immo_Charge
+pl0003_Immo_Invention
+pl0003_Neutral
+pl0003_Vehicle_AccelRelease
+pl0003_Vehicle_AttackSlip
+pl0003_Vehicle_BackFire
+pl0003_Vehicle_BombSpin
+pl0003_Vehicle_Cannon_End
+pl0003_Vehicle_Cannon_Set
+pl0003_Vehicle_Cannon_Shot
+pl0003_Vehicle_ChaseRush
+pl0003_Vehicle_DriftSlip_Loop
+pl0003_Vehicle_Engine_Idol_Loop
+pl0003_Vehicle_Engine_Loop
+pl0003_Vehicle_FallImpact
+pl0003_Vehicle_FallWhoosh
+pl0003_Vehicle_Jump
+pl0003_Vehicle_Land
+pl0003_Vehicle_MetalCreak
+pl0003_Vehicle_Missile_Shot
+pl0003_Vehicle_PsychoRush
+pl0003_Vehicle_RPM_Down_1
+pl0003_Vehicle_RPM_Down_2
+pl0003_Vehicle_RPM_Down_3
+pl0003_Vehicle_RPM_Up_1
+pl0003_Vehicle_RPM_Up_2
+pl0003_Vehicle_RPM_Up_3
+pl0003_Vehicle_Slip_Loop
+pl0003_Vehicle_Somersault
+pl0003_Vehicle_Start
+Stop_pl0003_Vehicle_AttackSlip
+Stop_pl0003_Vehicle_DriftSlip
+Stop_pl0003_Vehicle_Engine_Idol_Loop
+Stop_pl0003_Vehicle_Engine_Loop
+Stop_pl0003_Vehicle_Slip
+# 1757740476
+
+### RTPC/GAME-VARIABLE NAMES (pl0003_00000001.bnk)
+SE_CharaType
+SE_VehicleEngine
+
+### EVENT NAMES (pl0004.bnk)
+pl0004_GL_Bite_RollWhoosh
+pl0004_GL_BiteImpact
+pl0004_GL_BiteWhoosh
+pl0004_GL_CatchBite
+pl0004_GL_FireBall_Charge
+pl0004_GL_FireBall_Growl_01
+pl0004_GL_FireBall_Growl_02
+pl0004_GL_FireBall_Shot
+pl0004_GL_FireBreath_Loop
+pl0004_GL_Kick
+pl0004_GL_Powerslam_Catch
+pl0004_GL_Powerslam_Whoosh
+pl0004_GL_ProwrestlingImpact
+pl0004_GL_RollWhoosh
+pl0004_GL_Scrape_Catch
+pl0004_GL_Scrape_End
+pl0004_GL_Scrape_Loop
+pl0004_GL_Somersault
+pl0004_GL_StompImpact
+pl0004_GL_TailWhoosh_A
+pl0004_GL_TailWhoosh_B
+pl0004_GL_Tetuzanko
+Stop_pl0004_GL_FireBreath_Loop
+Stop_pl0004_GL_Scrape_Loop
+# 425650245
+# 2146703568
+
+### RTPC/GAME-VARIABLE NAMES (pl0004.bnk)
+SE_CharaType
+
+### EVENT NAMES (pl0004_00000001.bnk)
+pl0004_GL_Bite_RollWhoosh
+pl0004_GL_BiteImpact
+pl0004_GL_BiteWhoosh
+pl0004_GL_CatchBite
+pl0004_GL_FireBall_Charge
+pl0004_GL_FireBall_Growl_01
+pl0004_GL_FireBall_Growl_02
+pl0004_GL_FireBall_Shot
+pl0004_GL_FireBreath_Loop
+pl0004_GL_Kick
+pl0004_GL_Powerslam_Catch
+pl0004_GL_Powerslam_Whoosh
+pl0004_GL_ProwrestlingImpact
+pl0004_GL_RollWhoosh
+pl0004_GL_Scrape_Catch
+pl0004_GL_Scrape_End
+pl0004_GL_Scrape_Loop
+pl0004_GL_Somersault
+pl0004_GL_StompImpact
+pl0004_GL_TailWhoosh_A
+pl0004_GL_TailWhoosh_B
+pl0004_GL_Tetuzanko
+Stop_pl0004_GL_FireBreath_Loop
+Stop_pl0004_GL_Scrape_Loop
+# 425650245
+# 2146703568
+
+### RTPC/GAME-VARIABLE NAMES (pl0004_00000001.bnk)
+SE_CharaType
+
+### EVENT NAMES (pl1000.bnk)
 pl_GL_FootStep_L
 pl_GL_FootStep_R
 pl_GL_Jump
 pl_GL_Land
 pl_GL_Roll
-pl_LL_FootStep_L
-pl_LL_FootStep_R
 pl_L_BodyPress
 pl_L_Charge_Silence
 pl_L_Charge_Silence_Stop
@@ -1571,6 +2818,69 @@ pl_L_Move
 pl_L_Punch_Swing
 pl_L_RushWhoosh
 pl_L_Shield_Appear
+
+### SFX NAMES (pl1000.bnk)
+# 137217251
+# 81156607
+# 964226272
+# 911505267
+# 633285960
+# 135115649
+# 417404876
+# 893818517
+# 755855331
+# 307111354
+# 76898570
+# 662523567
+# 880537574
+# 888000902
+# 239659809
+# 476944074
+# 991796855
+
+### RTPC/GAME-VARIABLE NAMES (pl1000.bnk)
+SE_CharaType
+
+### VARIABLE NAMES (pl1000.bnk)
+SE_CharaTypeSwitch
+SE_ElementType
+SE_FloorCollisionType
+
+### VALUE NAMES (pl1000.bnk)
+Elec
+Empty
+Enemy_NPC
+Fire
+Ice
+Norm
+NPC_Dam
+Player
+# 3051386380
+# 62852059
+# 1993567916
+# 3793485249
+# 260193111
+# 1088203476
+# 500924486
+# 2172187522
+# 1956176575
+# 2089396727
+# 2968867272
+# 3556805938
+# 315107501
+# 2106385310
+# 861820539
+# 2978423309
+# 4156710814
+# 4198918748
+# 4124018684
+# 2262223445
+# 2876342673
+# 3777876902
+# 170840293
+# 2502218879
+
+### EVENT NAMES (pl1001.bnk)
 pl_M_BodyPress
 pl_M_Charge_Silence
 pl_M_Charge_Silence_Stop
@@ -1600,6 +2910,242 @@ pl_S_Land
 pl_S_Move
 pl_S_Punch_Swing
 pl_S_RushWhoosh
+
+### SFX NAMES (pl1001.bnk)
+# 893925002
+# 847400784
+# 668354440
+# 168631417
+# 771097459
+# 572592736
+# 531535121
+# 322120530
+# 185238945
+# 336097855
+# 615070769
+# 328157086
+# 88597197
+# 419886663
+# 27702338
+# 646700468
+# 764341662
+# 470032597
+# 178509005
+# 878333800
+# 43360478
+# 476944074
+# 991796855
+
+### RTPC/GAME-VARIABLE NAMES (pl1001.bnk)
+SE_CharaType
+
+### VARIABLE NAMES (pl1001.bnk)
+SE_CharaTypeSwitch
+SE_ElementType
+SE_FloorCollisionType
+
+### VALUE NAMES (pl1001.bnk)
+Elec
+Empty
+Enemy_NPC
+Fire
+Ice
+Norm
+NPC_Dam
+Player
+# 3051386380
+# 62852059
+# 1993567916
+# 3793485249
+# 260193111
+# 1088203476
+# 500924486
+# 2172187522
+# 1956176575
+# 2089396727
+# 2968867272
+# 3556805938
+# 315107501
+# 2106385310
+# 861820539
+# 2978423309
+# 4156710814
+# 4198918748
+# 4124018684
+# 2262223445
+# 2876342673
+# 3777876902
+# 170840293
+# 2502218879
+
+### EVENT NAMES (pl1025.bnk)
+pl0025_Vehicle_Engine_Loop
+pl0025_Vehicle_JumpAttack
+pl0025_Vehicle_Land
+pl0025_Vehicle_Start
+pl_M_BodyPress
+pl_M_Charge_Silence
+pl_M_Charge_Silence_Stop
+pl_M_ComWhoosh
+pl_M_Dodge
+pl_M_DodgeWhoosh
+pl_M_Down_Impact
+pl_M_Down_Knee
+pl_M_FootStep_L
+pl_M_FootStep_R
+pl_M_JetJump
+pl_M_Jump
+pl_M_Land
+pl_M_Move
+pl_M_Punch_Swing
+pl_M_RushWhoosh
+pl_M_Shield_Appear
+Stop_pl0025_Vehicle_Engine_Loop
+
+### SFX NAMES (pl1025.bnk)
+# 893925002
+# 847400784
+# 668354440
+# 168631417
+# 771097459
+# 572592736
+# 531535121
+# 322120530
+# 185238945
+# 336097855
+# 615070769
+# 476944074
+# 991796855
+
+### RTPC/GAME-VARIABLE NAMES (pl1025.bnk)
+SE_CharaType
+
+### VARIABLE NAMES (pl1025.bnk)
+SE_CharaTypeSwitch
+SE_ElementType
+SE_FloorCollisionType
+
+### VALUE NAMES (pl1025.bnk)
+Elec
+Empty
+Enemy_NPC
+Fire
+Ice
+Norm
+NPC_Dam
+Player
+# 3051386380
+# 62852059
+# 1993567916
+# 3793485249
+# 260193111
+# 1088203476
+# 500924486
+# 2172187522
+# 1956176575
+# 2089396727
+# 2968867272
+# 3556805938
+# 315107501
+# 2106385310
+# 861820539
+# 2978423309
+# 4156710814
+# 4198918748
+# 4124018684
+# 2262223445
+# 2876342673
+# 3777876902
+# 170840293
+# 2502218879
+
+### EVENT NAMES (pl102b.bnk)
+pl002b_Dash
+pl002b_Jet_Loop
+pl002b_Shot
+pl002b_Turn
+pl_M_BodyPress
+pl_M_Charge_Silence
+pl_M_Charge_Silence_Stop
+pl_M_ComWhoosh
+pl_M_Dodge
+pl_M_DodgeWhoosh
+pl_M_Down_Impact
+pl_M_Down_Knee
+pl_M_FootStep_L
+pl_M_FootStep_R
+pl_M_JetJump
+pl_M_Jump
+pl_M_Land
+pl_M_Move
+pl_M_Punch_Swing
+pl_M_RushWhoosh
+pl_M_Shield_Appear
+Stop_pl002b_Jet_Loop
+
+### SFX NAMES (pl102b.bnk)
+# 893925002
+# 847400784
+# 668354440
+# 168631417
+# 771097459
+# 572592736
+# 531535121
+# 322120530
+# 185238945
+# 336097855
+# 615070769
+# 476944074
+# 991796855
+
+### RTPC/GAME-VARIABLE NAMES (pl102b.bnk)
+SE_CharaType
+
+### VARIABLE NAMES (pl102b.bnk)
+SE_CharaTypeSwitch
+SE_ElementType
+SE_FloorCollisionType
+
+### VALUE NAMES (pl102b.bnk)
+Elec
+Empty
+Enemy_NPC
+Fire
+Ice
+Norm
+NPC_Dam
+Player
+# 3051386380
+# 62852059
+# 1993567916
+# 3793485249
+# 260193111
+# 1088203476
+# 500924486
+# 2172187522
+# 1956176575
+# 2089396727
+# 2968867272
+# 3556805938
+# 315107501
+# 2106385310
+# 861820539
+# 2978423309
+# 4156710814
+# 4198918748
+# 4124018684
+# 2262223445
+# 2876342673
+# 3777876902
+# 170840293
+# 2502218879
+
+### EVENT NAMES (r100.bnk)
+p120_ev1200_F0002
+p120_ev1201_F0002
+p120_ev1203_F0002
+p120_ev1204_F0002
+p120_ev1209_F0002
 r100_Car_Bound
 r100_Car_Exp
 r100_Car_Lift
@@ -1611,11 +3157,58 @@ r100_DestronJet_Red_2
 r100_DestronJet_Red_3
 r100_DestronJet_Red_4
 r100_DestronJet_Red_5
+r100_Fire_Loop
 r100_Firewall_Loop
 r100_Firewall_Start
 r100_Firewall_Stop
 r100_Thunder
+r200_BugsExp
+r200_BugsMove
+Stop_r100_DestronJet_Jet_Loop_add_a
+Stop_r100_DestronJet_Jet_Loop_add_b
+# 443194089
+# 1993461845
+# 2033307174
+# 4055357331
+# 4275797755
+
+### RTPC/GAME-VARIABLE NAMES (r100.bnk)
+FilterControl
+
+### VARIABLE NAMES (r100.bnk)
+SE_City_Fire
+# 777361168
+# 777361171
+# 1031836726
+# 1031836725
+
+### VALUE NAMES (r100.bnk)
+off
+on
+
+### EVENT NAMES (r104.bnk)
+p120_ev1205_F0002
+p120_ev1208_F0002
+p410_ev4102_F0002
+
+### EVENT NAMES (r109.bnk)
+p120_ev1207_F0002
+p310_ev3104_F0002
+
+### EVENT NAMES (r113.bnk)
+p120_ev1206_F0002
+
+### EVENT NAMES (r115.bnk)
+Mute_ev2102_Buzz_Loop
+p210_ev2102_F0002
+p210_eva18f_F0050
 r115_WallBreak
+UnMute_ev2102_Buzz_Loop
+
+### EVENT NAMES (r119.bnk)
+p210_ev2100_F0002
+
+### EVENT NAMES (r200.bnk)
 r200_BugsExp
 r200_BugsMove
 r200_BugsRush
@@ -1633,22 +3226,1072 @@ r200_Gimmick_StopSwitch_02
 r200_Gimmick_StopSwitch_03
 r200_LiquidBomb_Exp
 r200_LiquidBomb_Fall
-r200_PodEject
 r200_Pod_Charge
 r200_Pod_Impact
 r200_Pod_Wave
+r200_PodEject
+r200_spark
+Stop_r200_FloorGimmick_Move
+Stop_r200_Gimmick_Loop
+# 1453973059
+# 2872122730
+# 3787703884
+
+### VARIABLE NAMES (r200.bnk)
+SE_AccelTime
+# 777361168
+# 1082105950
+# 1082105951
+# 1082105948
+
+### VALUE NAMES (r200.bnk)
+off
+on
+
+### EVENT NAMES (r201.bnk)
+p210_ev2101_F0002
+p210_eva252_F0176
 r201_WatchMachine_Floor
+
+### EVENT NAMES (r202.bnk)
+p210_ev2103_F0002
+p210_eva262_F0002
+p210_eva263_F0030
+p610_eva63f_F0040
+p610_eva640_F0062
+p610_eva650_F0190
+p610_eva660_F0002
+
+### EVENT NAMES (r204.bnk)
+Mute_ba2000_LiftMove_Loop
+p210_ev2104_F0002
+p610_ev0000_F0002
+p610_eva624_F0002
+p610_eva630_F0002
+UnMute_ba2000_LiftMove_Loop
+# 2391576544
+# 2615274576
+
+### EVENT NAMES (r205.bnk)
 r204_Gimmick_PowerOn
+
+### EVENT NAMES (r206.bnk)
+p210_ev2105_F0002
+p210_ev2106_F0002
+p210_eva275_F0148
+p610_eva600_F0002
+p610_eva621_F0102
 r205_AreaSwitch
 r205_GravityArea_Loop
 r205_GravityArea_Off
 r205_GravityArea_ON
 r205_GravityStart
+r205_Plasmacore_Loop
 r205_Thunder
 r205_Thunder_ForEV
+r206_alart
+Stop_r205_GravityArea_Loop
+Stop_r205_Plasmacore_Loop
+
+### VARIABLE NAMES (r206.bnk)
+# 777361168
+
+### VALUE NAMES (r206.bnk)
+off
+on
+
+### EVENT NAMES (r207.bnk)
+p610_ev6101_F0002
 r207_FloorMove_Loop
 r207_FloorQuake_Loop
+Stop_r207_FloorMove_Loop
+Stop_r207_FloorQuake_Loop
+
+### EVENT NAMES (r340.bnk)
+p310_ev3102_F0002
+p310_eva3ff_F0002
+r100_Car_Bound
+r100_Car_Exp
+r100_Car_Lift
+r100_Thunder
 r340_MissileExp_Loop
+Stop_r340_MissileExp_Loop
+# 4089875013
+# 4089875034
+# 4089875035
+
+### RTPC/GAME-VARIABLE NAMES (r340.bnk)
+FilterControl
+
+### EVENT NAMES (r341.bnk)
+p310_ev3100_F0002
+p310_ev3100_F0002_GL
+p310_ev3101_F0002
+p310_ev3101_F0002_GL
+
+### EVENT NAMES (r342.bnk)
+p410_ev4100_F0002
+# 1982002668
+
+### EVENT NAMES (r500.bnk)
+# 204913194
+# 820968460
+# 1416584432
+# 2561306268
+# 2561306271
+
+### RTPC/GAME-VARIABLE NAMES (r500.bnk)
+# 4129326038
+
+### VARIABLE NAMES (r500.bnk)
+# 750949071
+# 750949068
+
+### VALUE NAMES (r500.bnk)
+off
+on
+
+### EVENT NAMES (r502.bnk)
+p510_ev5100_F0002
+
+### EVENT NAMES (r503.bnk)
+p510_ev5102_F0002
+
+### EVENT NAMES (r702.bnk)
+p710_eva740_F0002
+p710_eva741_F0002
+p710_eva742_F0002
+
+### EVENT NAMES (rf01.bnk)
+rf01_Purchase
+rf01_Result_ClearMark
+rf01_Result_Start
+rf01_Result_WeaponAnalysis
+rf01_Weld
+# 3271871381
+
+### EVENT NAMES (rf02.bnk)
+rf02_PressStart
+rf02_Title
+
+### EVENT NAMES (rf03.bnk)
+gallery_pl004a_01
+gallery_pl004b_01
+gallery_pl004c_01
+rf03_Cassette_Eject
+rf03_Cassette_Insert
+
+### SFX NAMES (rf03.bnk)
+# 3509832175
+
+### EVENT NAMES (vo_core.bnk)
+vo_core_Secret_EX
+vo_core_Secret_Gallery
+vo_core_Secret_Level
+vo_core_SoundOption
+vo_pl0022_InfoLog_13_1
+vo_pl0022_InfoLog_13_2
+vo_pl0022_InfoLog_13_3
+vo_pl0022_InfoLog_13_4
+vo_TL1_InfoLog_01_1
+vo_TL1_InfoLog_01_2
+vo_TL1_InfoLog_01_3
+vo_TL1_InfoLog_01_4
+vo_TL1_InfoLog_01_5
+vo_TL1_InfoLog_01_6
+vo_TL1_InfoLog_01_7
+vo_TL1_InfoLog_02_1
+vo_TL1_InfoLog_02_2
+vo_TL1_InfoLog_02_3
+vo_TL1_InfoLog_03_1
+vo_TL1_InfoLog_03_2
+vo_TL1_InfoLog_03_3
+vo_TL1_InfoLog_04_1
+vo_TL1_InfoLog_04_2
+vo_TL1_InfoLog_04_3
+vo_TL1_InfoLog_04_4
+vo_TL1_InfoLog_04_5
+vo_TL1_InfoLog_04_6
+vo_TL1_InfoLog_05_1
+vo_TL1_InfoLog_05_2
+vo_TL1_InfoLog_05_3
+vo_TL1_InfoLog_06_1
+vo_TL1_InfoLog_06_2
+vo_TL1_InfoLog_06_3
+vo_TL1_InfoLog_07_1
+vo_TL1_InfoLog_07_2
+vo_TL1_InfoLog_07_3
+vo_TL1_InfoLog_07_4
+vo_TL1_InfoLog_07_5
+vo_TL1_InfoLog_07_6
+vo_TL1_InfoLog_07_7
+vo_TL1_InfoLog_07_8
+vo_TL1_InfoLog_08_1
+vo_TL1_InfoLog_08_2
+vo_TL1_InfoLog_08_3
+vo_TL1_InfoLog_08_4
+vo_TL1_InfoLog_08_5
+vo_TL1_InfoLog_09_1
+vo_TL1_InfoLog_09_2
+vo_TL1_InfoLog_09_3
+vo_TL1_InfoLog_09_4
+vo_TL1_InfoLog_09_5
+vo_TL1_InfoLog_09_6
+vo_TL1_InfoLog_10_1
+vo_TL1_InfoLog_10_2
+vo_TL1_InfoLog_10_3
+vo_TL1_InfoLog_11_1
+vo_TL1_InfoLog_11_2
+vo_TL1_InfoLog_11_3
+vo_TL1_InfoLog_12_1
+vo_TL1_InfoLog_12_2
+vo_TL1_InfoLog_12_3
+vo_TL1_InfoLog_12_4
+vo_TL1_InfoLog_14_1
+vo_TL1_InfoLog_14_2
+vo_TL1_InfoLog_14_3
+vo_TL1_InfoLog_14_4
+vo_TL1_InfoLog_14_5
+vo_TL1_InfoLog_15_1
+vo_TL1_InfoLog_15_2
+vo_TL1_InfoLog_15_3
+vo_TL1_InfoLog_15_4
+vo_TL1_InfoLog_16_1
+vo_TL1_InfoLog_16_2
+vo_TL1_InfoLog_16_3
+vo_TL1_InfoLog_16_4
+vo_TL1_InfoLog_16_5
+vo_TL1_InfoLog_17_1
+vo_TL1_InfoLog_17_2
+vo_TL1_InfoLog_17_3
+vo_TL1_InfoLog_17_4
+vo_TL1_InfoLog_18_1
+vo_TL1_InfoLog_18_2
+vo_TL1_InfoLog_18_3
+vo_TL1_InfoLog_19_1
+vo_TL1_InfoLog_19_2
+vo_TL1_InfoLog_20_1
+vo_TL1_InfoLog_20_2
+vo_TL1_InfoLog_20_3
+vo_TL1_InfoLog_20_4
+vo_TL1_InfoLog_20_5
+vo_TL1_InfoLog_21_1
+vo_TL1_InfoLog_21_2
+vo_TL1_InfoLog_21_3
+vo_TL1_InfoLog_21_4
+vo_TL1_InfoLog_21_5
+vo_TL1_InfoLog_22_1
+vo_TL1_InfoLog_22_2
+vo_TL1_InfoLog_22_3
+vo_TL1_InfoLog_23_1
+vo_TL1_InfoLog_23_2
+vo_TL1_InfoLog_24_1
+vo_TL1_InfoLog_24_2
+vo_TL1_InfoLog_24_3
+vo_TL1_InfoLog_25_1
+vo_TL1_InfoLog_25_2
+vo_TL1_InfoLog_25_3
+vo_TL1_InfoLog_25_4
+# 752782397
+# 752782398
+# 1668504190
+
+### SFX NAMES (vo_core.bnk)
+# 537293734
+# 247629264
+# 306890546
+
+### RTPC/GAME-VARIABLE NAMES (vo_core.bnk)
+SE_CharaType
+
+### EVENT NAMES (vo_pl0000.bnk)
+vo_pl0000_ActionFinish
+vo_pl0000_Charge
+vo_pl0000_Charge_Release
+vo_pl0000_Death_b
+vo_pl0000_Dodge
+vo_pl0000_ev4100_Dam
+vo_pl0000_HeavyAtk
+vo_pl0000_HeavyDam
+vo_pl0000_LightAtk
+vo_pl0000_LightDam
+vo_pl0000_MidAtk
+vo_pl0000_MidDam
+vo_pl0000_Rush
+vo_pl0000_Stumble
+vo_pl0000_Word_ComboFinish
+vo_pl0000_Word_Cure
+vo_pl0000_Word_Evade
+vo_pl0000_Word_HeadShot
+vo_pl0000_Word_RareItemGet_a
+# 79235102
+# 1118796976
+# 3045787443
+
+### RTPC/GAME-VARIABLE NAMES (vo_pl0000.bnk)
+SE_CharaType
+
+### VARIABLE NAMES (vo_pl0000.bnk)
+SE_Battle
+
+### VALUE NAMES (vo_pl0000.bnk)
+none
+off
+on
+
+### EVENT NAMES (vo_pl0001.bnk)
+vo_pl0001_ActionFinish
+vo_pl0001_Charge
+vo_pl0001_Charge_Release
+vo_pl0001_Death_b
+vo_pl0001_Dodge
+vo_pl0001_ev4100_Dam
+vo_pl0001_HeavyAtk
+vo_pl0001_HeavyDam
+vo_pl0001_LightAtk
+vo_pl0001_LightDam
+vo_pl0001_MidAtk
+vo_pl0001_MidDam
+vo_pl0001_Rush
+vo_pl0001_Stumble
+vo_pl0001_Word_ComboFinish
+vo_pl0001_Word_Cure
+vo_pl0001_Word_Evade
+vo_pl0001_Word_HeadShot
+vo_pl0001_Word_RareItemGet_a
+# 551921251
+# 1732544678
+# 2509978097
+
+### RTPC/GAME-VARIABLE NAMES (vo_pl0001.bnk)
+SE_CharaType
+
+### VARIABLE NAMES (vo_pl0001.bnk)
+SE_Battle
+
+### VALUE NAMES (vo_pl0001.bnk)
+none
+off
+on
+
+### EVENT NAMES (vo_pl0002.bnk)
+vo_pl0002_ActionFinish
+vo_pl0002_Charge
+vo_pl0002_Charge_Release
+vo_pl0002_Death_b
+vo_pl0002_Dodge
+vo_pl0002_ev4100_Dam
+vo_pl0002_HeavyAtk
+vo_pl0002_HeavyDam
+vo_pl0002_LightAtk
+vo_pl0002_LightDam
+vo_pl0002_MidAtk
+vo_pl0002_MidDam
+vo_pl0002_Rush
+vo_pl0002_Stumble
+vo_pl0002_Word_ComboFinish
+vo_pl0002_Word_Cure
+vo_pl0002_Word_Evade
+vo_pl0002_Word_HeadShot
+vo_pl0002_Word_RareItemGet_a
+# 84607542
+# 101687152
+# 3902135157
+
+### RTPC/GAME-VARIABLE NAMES (vo_pl0002.bnk)
+SE_CharaType
+
+### VARIABLE NAMES (vo_pl0002.bnk)
+SE_Battle
+
+### VALUE NAMES (vo_pl0002.bnk)
+none
+off
+on
+
+### EVENT NAMES (vo_pl0003.bnk)
+vo_pl0003_ActionFinish
+vo_pl0003_Charge
+vo_pl0003_Charge_Release
+vo_pl0003_Death_b
+vo_pl0003_Dodge
+vo_pl0003_ev4100_Dam
+vo_pl0003_HeavyAtk
+vo_pl0003_HeavyDam
+vo_pl0003_LightAtk
+vo_pl0003_LightDam
+vo_pl0003_MidAtk
+vo_pl0003_MidDam
+vo_pl0003_Rush
+vo_pl0003_Stumble
+vo_pl0003_Word_ComboFinish
+vo_pl0003_Word_Cure
+vo_pl0003_Word_Evade
+vo_pl0003_Word_HeadShot
+vo_pl0003_Word_RareItemGet_a
+# 3256695309
+# 3527165648
+# 4221246751
+
+### RTPC/GAME-VARIABLE NAMES (vo_pl0003.bnk)
+SE_CharaType
+
+### VARIABLE NAMES (vo_pl0003.bnk)
+SE_Battle
+
+### VALUE NAMES (vo_pl0003.bnk)
+none
+off
+on
+
+### EVENT NAMES (vo_pl0004.bnk)
+vo_pl0004_ActionFinish
+vo_pl0004_Charge
+vo_pl0004_Charge_Release
+vo_pl0004_Death_b
+vo_pl0004_Dodge
+vo_pl0004_ev4100_Dam
+vo_pl0004_HeavyAtk
+vo_pl0004_HeavyDam
+vo_pl0004_LightAtk
+vo_pl0004_LightDam
+vo_pl0004_MidAtk
+vo_pl0004_MidDam
+vo_pl0004_Rush
+vo_pl0004_Stumble
+vo_pl0004_Word_ComboFinish_Word
+vo_pl0004_Word_Cure
+vo_pl0004_Word_Evade
+vo_pl0004_Word_HeadShot
+vo_pl0004_Word_RareItemGet_a
+# 1108675970
+# 2804223815
+# 2985656284
+
+### RTPC/GAME-VARIABLE NAMES (vo_pl0004.bnk)
+SE_CharaType
+
+### VARIABLE NAMES (vo_pl0004.bnk)
+SE_Battle
+
+### VALUE NAMES (vo_pl0004.bnk)
+none
+off
+on
+
+### EVENT NAMES (vo_pl0005.bnk)
+vo_pl0005_ActionFinish
+vo_pl0005_Charge
+vo_pl0005_Charge_Release
+vo_pl0005_Death_b
+vo_pl0005_Dodge
+vo_pl0005_ev4100_Dam
+vo_pl0005_HeavyAtk
+vo_pl0005_HeavyDam
+vo_pl0005_LightAtk
+vo_pl0005_LightDam
+vo_pl0005_MidAtk
+vo_pl0005_MidDam
+vo_pl0005_Rush
+vo_pl0005_Stumble
+vo_pl0005_Word_ComboFinish
+vo_pl0005_Word_Cure
+vo_pl0005_Word_Evade
+vo_pl0005_Word_HeadShot
+vo_pl0005_Word_RareItemGet_a
+# 3024243719
+# 3102718381
+# 3213047018
+
+### RTPC/GAME-VARIABLE NAMES (vo_pl0005.bnk)
+SE_CharaType
+
+### VARIABLE NAMES (vo_pl0005.bnk)
+SE_Battle
+
+### VALUE NAMES (vo_pl0005.bnk)
+none
+off
+on
+
+### EVENT NAMES (vo_pl0006.bnk)
+vo_pl0006_ActionFinish
+vo_pl0006_Charge
+vo_pl0006_Charge_Release
+vo_pl0006_Death_b
+vo_pl0006_Dodge
+vo_pl0006_ev4100_Dam
+vo_pl0006_HeavyAtk
+vo_pl0006_HeavyDam
+vo_pl0006_LightAtk
+vo_pl0006_LightDam
+vo_pl0006_MidAtk
+vo_pl0006_MidDam
+vo_pl0006_Rush
+vo_pl0006_Stumble
+vo_pl0006_Word_ComboFinish
+vo_pl0006_Word_Cure
+vo_pl0006_Word_Evade
+vo_pl0006_Word_HeadShot
+vo_pl0006_Word_RareItemGet_a
+# 57133188
+# 95150601
+# 868563250
+
+### RTPC/GAME-VARIABLE NAMES (vo_pl0006.bnk)
+SE_CharaType
+
+### VARIABLE NAMES (vo_pl0006.bnk)
+SE_Battle
+
+### VALUE NAMES (vo_pl0006.bnk)
+none
+off
+on
+
+### EVENT NAMES (vo_pl0007.bnk)
+vo_pl0007_ActionFinish
+vo_pl0007_Charge
+vo_pl0007_Charge_Release
+vo_pl0007_Death_b
+vo_pl0007_Dodge
+vo_pl0007_ev4100_Dam
+vo_pl0007_HeavyAtk
+vo_pl0007_HeavyDam
+vo_pl0007_LightAtk
+vo_pl0007_LightDam
+vo_pl0007_MidAtk
+vo_pl0007_MidDam
+vo_pl0007_Rush
+vo_pl0007_Stumble
+vo_pl0007_Word_ComboFinish
+vo_pl0007_Word_Cure
+vo_pl0007_Word_Evade
+vo_pl0007_Word_HeadShot
+vo_pl0007_Word_RareItemGet_a
+# 1916452580
+# 2176442689
+# 3319487947
+
+### RTPC/GAME-VARIABLE NAMES (vo_pl0007.bnk)
+SE_CharaType
+
+### VARIABLE NAMES (vo_pl0007.bnk)
+SE_Battle
+
+### VALUE NAMES (vo_pl0007.bnk)
+none
+off
+on
+
+### EVENT NAMES (vo_pl0008.bnk)
+vo_pl0008_ActionFinish
+vo_pl0008_Charge
+vo_pl0008_Charge_Release
+vo_pl0008_Death_b
+vo_pl0008_Dodge
+vo_pl0008_HeavyAtk
+vo_pl0008_HeavyDam
+vo_pl0008_LightAtk
+vo_pl0008_LightDam
+vo_pl0008_MidAtk
+vo_pl0008_MidDam
+vo_pl0008_Rush
+vo_pl0008_Stumble
+vo_pl0008_Word_ComboFinish
+vo_pl0008_Word_Cure
+vo_pl0008_Word_Evade
+vo_pl0008_Word_HeadShot
+vo_pl0008_Word_RareItemGet_a
+# 935266075
+# 1079559896
+# 4163162182
+
+### RTPC/GAME-VARIABLE NAMES (vo_pl0008.bnk)
+SE_CharaType
+
+### VARIABLE NAMES (vo_pl0008.bnk)
+SE_Battle
+
+### VALUE NAMES (vo_pl0008.bnk)
+none
+off
+on
+
+### EVENT NAMES (vo_pl0020.bnk)
+vo_pl0020_Charge
+vo_pl0020_Charge_Release
+vo_pl0020_Death_b
+vo_pl0020_Dodge
+vo_pl0020_HeavyAtk
+vo_pl0020_HeavyDam
+vo_pl0020_LightAtk
+vo_pl0020_LightDam
+vo_pl0020_MidAtk
+vo_pl0020_MidDam
+vo_pl0020_Rush
+vo_pl0020_Stumble
+vo_pl0020_Word_ComboFinish
+vo_pl0020_Word_Evade
+vo_pl0020_Word_Return
+vo_pl0020_Word_Taunt
+vo_pl0020_Word_Taunt_Laugh
+
+### EVENT NAMES (vo_pl0021.bnk)
+vo_pl0021_Charge
+vo_pl0021_Charge_Release
+vo_pl0021_Death_b
+vo_pl0021_Dodge
+vo_pl0021_HeavyAtk
+vo_pl0021_HeavyDam
+vo_pl0021_LightAtk
+vo_pl0021_LightDam
+vo_pl0021_MidAtk
+vo_pl0021_MidDam
+vo_pl0021_Rush
+vo_pl0021_Stumble
+vo_pl0021_Word_ComboFinish
+vo_pl0021_Word_Eject_01
+vo_pl0021_Word_Eject_02
+vo_pl0021_Word_Eject_02_EV
+vo_pl0021_Word_Eject_03
+vo_pl0021_Word_Eject_04
+vo_pl0021_Word_Eject_05
+vo_pl0021_Word_Eject_06
+vo_pl0021_Word_Eject_06_EV
+vo_pl0021_Word_Evade
+vo_pl0021_Word_Return
+vo_pl0021_Word_Taunt
+
+### SFX NAMES (vo_pl0021.bnk)
+# 886464568
+
+### EVENT NAMES (vo_pl0022.bnk)
+vo_pl0022_Charge
+vo_pl0022_Charge_Release
+vo_pl0022_Death_b
+vo_pl0022_Dodge
+vo_pl0022_HeavyAtk
+vo_pl0022_HeavyDam
+vo_pl0022_LightAtk
+vo_pl0022_LightDam
+vo_pl0022_MidAtk
+vo_pl0022_MidDam
+vo_pl0022_Rush
+vo_pl0022_Stumble
+vo_pl0022_Word_ComboFinish
+vo_pl0022_Word_Evade
+vo_pl0022_Word_Return
+vo_pl0022_Word_Taunt
+
+### EVENT NAMES (vo_pl0023.bnk)
+vo_pl0023_Charge
+vo_pl0023_Charge_Release
+vo_pl0023_Death_b
+vo_pl0023_Dodge
+vo_pl0023_HeavyAtk
+vo_pl0023_HeavyDam
+vo_pl0023_LightAtk
+vo_pl0023_LightDam
+vo_pl0023_MidAtk
+vo_pl0023_MidDam
+vo_pl0023_Rush
+vo_pl0023_Stumble
+vo_pl0023_Word_Appear
+vo_pl0023_Word_ComboFinish
+vo_pl0023_Word_Evade
+vo_pl0023_Word_Return
+vo_pl0023_Word_Taunt
+
+### EVENT NAMES (vo_pl0024.bnk)
+vo_pl0024_Charge
+vo_pl0024_Charge_Release
+vo_pl0024_Death_b
+vo_pl0024_Dodge
+vo_pl0024_HeavyAtk
+vo_pl0024_HeavyDam
+vo_pl0024_LightAtk
+vo_pl0024_LightDam
+vo_pl0024_MidAtk
+vo_pl0024_MidDam
+vo_pl0024_Rush
+vo_pl0024_Stumble
+vo_pl0024_Word_ComboFinish
+vo_pl0024_Word_Evade
+vo_pl0024_Word_Return
+vo_pl0024_Word_Taunt
+
+### EVENT NAMES (vo_pl0025.bnk)
+vo_pl0025_Charge
+vo_pl0025_Charge_Release
+vo_pl0025_Death
+vo_pl0025_Dodge
+vo_pl0025_HeavyAtk
+vo_pl0025_HeavyDam
+vo_pl0025_LightAtk
+vo_pl0025_LightDam
+vo_pl0025_MidAtk
+vo_pl0025_MidDam
+vo_pl0025_Rush
+vo_pl0025_Stumble
+vo_pl0025_Word_ComboFinish
+vo_pl0025_Word_Evade
+vo_pl0025_Word_Return
+
+### EVENT NAMES (vo_pl0026.bnk)
+vo_pl0026_Charge
+vo_pl0026_Charge_Release
+vo_pl0026_Death_b
+vo_pl0026_Dodge
+vo_pl0026_HeavyAtk
+vo_pl0026_HeavyDam
+vo_pl0026_LightAtk
+vo_pl0026_LightDam
+vo_pl0026_MidAtk
+vo_pl0026_MidDam
+vo_pl0026_Rush
+vo_pl0026_Stumble
+vo_pl0026_Word_ComboFinish
+vo_pl0026_Word_Evade
+vo_pl0026_Word_Return
+
+### EVENT NAMES (vo_pl0027.bnk)
+vo_pl0027_Charge
+vo_pl0027_Charge_Release
+vo_pl0027_Death_b
+vo_pl0027_Dodge
+vo_pl0027_HeavyAtk
+vo_pl0027_HeavyAtk_EV
+vo_pl0027_HeavyDam
+vo_pl0027_LightAtk
+vo_pl0027_LightDam
+vo_pl0027_MidAtk
+vo_pl0027_MidDam
+vo_pl0027_Rush
+vo_pl0027_Stumble
+vo_pl0027_Word_ComboFinish
+vo_pl0027_Word_Evade
+vo_pl0027_Word_Return
+
+### EVENT NAMES (vo_pl0028.bnk)
+vo_pl0028_Charge
+vo_pl0028_Charge_Release
+vo_pl0028_Death_b
+vo_pl0028_Dodge
+vo_pl0028_HeavyAtk
+vo_pl0028_HeavyDam
+vo_pl0028_LightAtk
+vo_pl0028_LightDam
+vo_pl0028_MidAtk
+vo_pl0028_MidDam
+vo_pl0028_Rush
+vo_pl0028_Stumble
+vo_pl0028_Word_ComboFinish
+vo_pl0028_Word_DriftAtk_01
+vo_pl0028_Word_Evade
+vo_pl0028_Word_Return
+vo_pl0028_Word_Taunt
+
+### EVENT NAMES (vo_pl0029.bnk)
+vo_pl0029_Charge
+vo_pl0029_Charge_Release
+vo_pl0029_Death_b
+vo_pl0029_Dodge
+vo_pl0029_HeavyAtk
+vo_pl0029_HeavyDam
+vo_pl0029_LightAtk
+vo_pl0029_LightDam
+vo_pl0029_MidAtk
+vo_pl0029_MidDam
+vo_pl0029_Rush
+vo_pl0029_Stumble
+vo_pl0029_Word_ComboFinish
+vo_pl0029_Word_Evade
+vo_pl0029_Word_Return
+
+### EVENT NAMES (vo_pl002a.bnk)
+vo_pl002a_Charge
+vo_pl002a_Charge_Release
+vo_pl002a_Death_b
+vo_pl002a_Dodge
+vo_pl002a_HeavyAtk
+vo_pl002a_HeavyDam
+vo_pl002a_LightAtk
+vo_pl002a_LightDam
+vo_pl002a_MidAtk
+vo_pl002a_MidDam
+vo_pl002a_Rush
+vo_pl002a_Stumble
+vo_pl002a_Word_ComboFinish
+vo_pl002a_Word_Evade
+vo_pl002a_Word_Return
+
+### RTPC/GAME-VARIABLE NAMES (vo_pl002a.bnk)
+SE_CharaType
+
+### EVENT NAMES (vo_pl002b.bnk)
+vo_pl002b_Charge
+vo_pl002b_Charge_Release
+vo_pl002b_Death_b
+vo_pl002b_Dodge
+vo_pl002b_HeavyAtk
+vo_pl002b_HeavyDam
+vo_pl002b_LightAtk
+vo_pl002b_LightDam
+vo_pl002b_MidAtk
+vo_pl002b_MidDam
+vo_pl002b_Rush
+vo_pl002b_Stumble
+vo_pl002b_Word_ComboFinish
+vo_pl002b_Word_Evade
+vo_pl002b_Word_Return
+vo_pl002b_Word_Shot
+
+### EVENT NAMES (vo_pl002c.bnk)
+vo_pl002c_Charge
+vo_pl002c_Charge_Release
+vo_pl002c_Death_b
+vo_pl002c_Dodge
+vo_pl002c_HeavyAtk
+vo_pl002c_HeavyDam
+vo_pl002c_LightAtk
+vo_pl002c_LightDam
+vo_pl002c_MidAtk
+vo_pl002c_MidDam
+vo_pl002c_Rush
+vo_pl002c_Stumble
+vo_pl002c_Word_ComboFinish
+vo_pl002c_Word_Evade
+vo_pl002c_Word_Return
+vo_pl002c_Word_Shot
+
+### EVENT NAMES (vo_pl002d.bnk)
+vo_pl002d_Charge
+vo_pl002d_Charge_Release
+vo_pl002d_Death_b
+vo_pl002d_Dodge
+vo_pl002d_HeavyAtk
+vo_pl002d_HeavyAtk_EV
+vo_pl002d_HeavyDam
+vo_pl002d_LightAtk
+vo_pl002d_LightDam
+vo_pl002d_MidAtk
+vo_pl002d_MidDam
+vo_pl002d_Rush
+vo_pl002d_Stumble
+vo_pl002d_Word_ComboFinish
+vo_pl002d_Word_Evade
+vo_pl002d_Word_Return
+vo_pl002d_Word_Shot
+
+### EVENT NAMES (vo_pl002e.bnk)
+vo_pl002e_Charge
+vo_pl002e_Charge_Release
+vo_pl002e_Death
+vo_pl002e_Dodge
+vo_pl002e_HeavyAtk
+vo_pl002e_HeavyDam
+vo_pl002e_LightAtk
+vo_pl002e_LightDam
+vo_pl002e_MidAtk
+vo_pl002e_MidDam
+vo_pl002e_Rush
+vo_pl002e_Stumble
+vo_pl002e_Word_ComboFinish
+vo_pl002e_Word_Evade
+vo_pl002e_Word_LaserAtk
+vo_pl002e_Word_Return
+vo_pl002e_Word_Sprit
+vo_pl002e_Word_Taunt
+
+### EVENT NAMES (vo_pl0030.bnk)
+vo_pl0030_Charge
+vo_pl0030_Charge_Release
+vo_pl0030_Death_b
+vo_pl0030_Dodge
+vo_pl0030_HeavyAtk
+vo_pl0030_HeavyDam
+vo_pl0030_LightAtk
+vo_pl0030_LightDam
+vo_pl0030_MidAtk
+vo_pl0030_MidDam
+vo_pl0030_Rush
+vo_pl0030_Stumble
+vo_pl0030_Word_ComboFinish
+
+### EVENT NAMES (vo_pl0031.bnk)
+vo_pl0031_Charge
+vo_pl0031_Charge_Release
+vo_pl0031_Death_b
+vo_pl0031_Dodge
+vo_pl0031_HeavyAtk
+vo_pl0031_HeavyDam
+vo_pl0031_LightAtk
+vo_pl0031_LightDam
+vo_pl0031_MidAtk
+vo_pl0031_MidDam
+vo_pl0031_Rush
+vo_pl0031_Stumble
+vo_pl0031_Word_ComboFinish
+
+### EVENT NAMES (vo_pl0032.bnk)
+vo_pl0032_Charge
+vo_pl0032_Charge_Release
+vo_pl0032_Death_b
+vo_pl0032_Dodge
+vo_pl0032_HeavyAtk
+vo_pl0032_HeavyDam
+vo_pl0032_LightAtk
+vo_pl0032_LightDam
+vo_pl0032_MidAtk
+vo_pl0032_MidDam
+vo_pl0032_Rush
+vo_pl0032_Stumble
+vo_pl0032_Word_ComboFinish
+
+### EVENT NAMES (vo_pl0033.bnk)
+vo_pl0033_Charge
+vo_pl0033_Charge_Release
+vo_pl0033_Death_b
+vo_pl0033_Dodge
+vo_pl0033_HeavyAtk
+vo_pl0033_HeavyDam
+vo_pl0033_LightAtk
+vo_pl0033_LightDam
+vo_pl0033_MidAtk
+vo_pl0033_MidDam
+vo_pl0033_Rush
+vo_pl0033_Stumble
+vo_pl0033_Word_ComboFinish
+
+### EVENT NAMES (vo_pl0034.bnk)
+vo_pl0034_Charge
+vo_pl0034_Charge_Release
+vo_pl0034_Death_b
+vo_pl0034_Dodge
+vo_pl0034_HeavyAtk
+vo_pl0034_HeavyDam
+vo_pl0034_LightAtk
+vo_pl0034_LightDam
+vo_pl0034_MidAtk
+vo_pl0034_MidDam
+vo_pl0034_Rush
+vo_pl0034_Stumble
+vo_pl0034_Word_ComboFinish
+
+### EVENT NAMES (vo_pl0035.bnk)
+vo_pl0035_Charge
+vo_pl0035_Charge_Release
+vo_pl0035_Death_b
+vo_pl0035_Dodge
+vo_pl0035_HeavyAtk
+vo_pl0035_HeavyDam
+vo_pl0035_LightAtk
+vo_pl0035_LightDam
+vo_pl0035_MidAtk
+vo_pl0035_MidDam
+vo_pl0035_Rush
+vo_pl0035_Stumble
+vo_pl0035_Word_ComboFinish
+
+### EVENT NAMES (vo_pl0036.bnk)
+vo_pl0036_Charge
+vo_pl0036_Charge_Release
+vo_pl0036_Death_b
+vo_pl0036_Dodge
+vo_pl0036_HeavyAtk
+vo_pl0036_HeavyAtk_EV
+vo_pl0036_HeavyDam
+vo_pl0036_LightAtk
+vo_pl0036_LightDam
+vo_pl0036_MidAtk
+vo_pl0036_MidDam
+vo_pl0036_Rush
+vo_pl0036_Stumble
+
+### EVENT NAMES (vo_pl0037.bnk)
+vo_pl0037_Charge
+vo_pl0037_Charge_Release
+vo_pl0037_Death_b
+vo_pl0037_Dodge
+vo_pl0037_HeavyAtk
+vo_pl0037_HeavyAtk_EV
+vo_pl0037_HeavyDam
+vo_pl0037_LightAtk
+vo_pl0037_LightDam
+vo_pl0037_MidAtk
+vo_pl0037_MidDam
+vo_pl0037_Rush
+vo_pl0037_Stumble
+
+### EVENT NAMES (vo_pl0038.bnk)
+vo_pl0038_Charge
+vo_pl0038_Charge_Release
+vo_pl0038_Death_b
+vo_pl0038_Dodge
+vo_pl0038_HeavyAtk
+vo_pl0038_HeavyAtk_EV
+vo_pl0038_HeavyDam
+vo_pl0038_LightAtk
+vo_pl0038_LightDam
+vo_pl0038_MidAtk
+vo_pl0038_MidDam
+vo_pl0038_Rush
+vo_pl0038_Stumble
+
+### EVENT NAMES (vo_pl0040.bnk)
+vo_pl0040_Charge
+vo_pl0040_Charge_Release
+vo_pl0040_Death_b
+vo_pl0040_Dodge
+vo_pl0040_HeavyAtk
+vo_pl0040_HeavyDam
+vo_pl0040_LightAtk
+vo_pl0040_LightDam
+vo_pl0040_MidAtk
+vo_pl0040_MidDam
+vo_pl0040_Rush
+vo_pl0040_Stumble
+vo_pl0040_Word_ComboFinish
+vo_pl0040_Word_Evade
+vo_pl0040_Word_Return
+vo_pl0040_Word_Taunt
+
+### EVENT NAMES (vo_pl0100.bnk)
+vo_pl0100_Charge
+vo_pl0100_Charge_Release
+vo_pl0100_Death
+vo_pl0100_Dodge
+vo_pl0100_HeavyAtk
+vo_pl0100_HeavyDam
+vo_pl0100_HeavyDam_EV
+vo_pl0100_LightAtk
+vo_pl0100_LightDam
+vo_pl0100_MidAtk
+vo_pl0100_MidDam
+vo_pl0100_Rush
+vo_pl0100_Stumble
+vo_pl0100_Word_ComboFinish
+vo_pl0100_Word_Taunt
+
+### EVENT NAMES (vo_pl0110.bnk)
+vo_pl0110_Charge
+vo_pl0110_Charge_Release
+vo_pl0110_Death
+vo_pl0110_Dodge
+vo_pl0110_HeavyAtk
+vo_pl0110_HeavyDam
+vo_pl0110_HeavyDam_EV
+vo_pl0110_LightAtk
+vo_pl0110_LightDam
+vo_pl0110_MidAtk
+vo_pl0110_MidDam
+vo_pl0110_Rush
+vo_pl0110_Stumble
+vo_pl0110_Word_ComboFinish
+vo_pl0110_Word_Taunt
+
+### EVENT NAMES (vo_r100.bnk)
 re120_0000_Sheet1_0000
 re120_0000_Sheet1_0001
 re120_0000_Sheet1_0002
@@ -1735,6 +4378,157 @@ re120_0018_Sheet1_0000_F
 re120_0018_Sheet1_0000_S
 re120_0019_Sheet1_0000
 re120_0019_Sheet2_0000
+sideswipe_rangeweapons
+vo_p120_ev1201_Jump
+vo_p120_ev1201_Threat
+vo_pl0000_IG016_01_Alt_F
+vo_pl0000_IG016_01_Alt_S
+vo_pl0000_IG016_02
+vo_pl0000_IG019
+vo_pl0000_IG021A_Alt
+vo_pl0000_IG023_01_Alt
+vo_pl0000_IG029_01
+vo_pl0000_IG029_02
+vo_pl0000_IG029_03
+vo_pl0000_IG029_04
+vo_pl0000_IG029_05
+vo_pl0000_IG034
+vo_pl0000_IG036
+vo_pl0000_re120_0002_Sheet2_0000
+vo_pl0000_re120_0003_Sheet2_0000
+vo_pl0000_re120_0004_Sheet2_0000
+vo_pl0000_re120_0005_Sheet1_0001
+vo_pl0000_re120_0005_Sheet5_0000
+vo_pl0000_re120_0007_Sheet4_0000
+vo_pl0000_re120_0009_Sheet2_0000
+vo_pl0000_re120_0009_Sheet2_0000_Alt
+vo_pl0000_re120_0009_Sheet2_0001
+vo_pl0000_re120_000c_Sheet1_0000
+vo_pl0000_re120_0016_Sheet1_0001_F
+vo_pl0000_re120_0016_Sheet1_0001_S
+vo_pl0000_re120_0025_Sheet3_0000
+vo_pl0000_re120_0026_Sheet1_0000
+vo_pl0000_re120_0027_Sheet1_0000
+vo_pl0000_re120_0030_Sheet1_0000
+vo_pl0000_re120_0032_Sheet1_0000
+vo_pl0000_re120_0035_Sheet1_0000
+vo_pl0000_re120_0036_Sheet1_0000
+vo_pl0000_re120_1001_Sheet1_0000
+vo_pl0000_waitNPC
+vo_pl0000_Word_RareItemGet_b_01
+vo_pl0001_CP1_CHANGE
+vo_pl0001_IG016
+vo_pl0001_IG019
+vo_pl0001_IG021A
+vo_pl0001_IG023_01_Alt
+vo_pl0001_IG029
+vo_pl0001_IG034
+vo_pl0001_IG036_01
+vo_pl0001_re120_0002_Sheet1_0000_Alt
+vo_pl0001_re120_0002_Sheet3_0000
+vo_pl0001_re120_0002_Sheet4_0000_Alt
+vo_pl0001_re120_0002_Sheet5_0000_Alt
+vo_pl0001_re120_0003_Sheet1_0000_v2
+vo_pl0001_re120_0003_Sheet3_0000
+vo_pl0001_re120_0003_Sheet4_0000
+vo_pl0001_re120_0003_Sheet5_0000
+vo_pl0001_re120_0004_Sheet5_0000
+vo_pl0001_re120_0005_Sheet2_0001
+vo_pl0001_re120_0009_Sheet1_0000
+vo_pl0001_re120_0009_Sheet1_0001
+vo_pl0001_re120_000c_Sheet2_0000
+vo_pl0001_re120_0016_Sheet1_0001
+vo_pl0001_re120_001d_Sheet1_0000_ALT
+vo_pl0001_re120_0025_Sheet2_0000
+vo_pl0001_re120_0026_Sheet2_0000
+vo_pl0001_re120_0027_Sheet2_0000
+vo_pl0001_re120_0030_Sheet2_0000
+vo_pl0001_re120_0032_Sheet2_0000
+vo_pl0001_re120_0036_Sheet1_0000
+vo_pl0001_re120_1001_Sheet2_0000
+vo_pl0001_waitNPC
+vo_pl0002_CP1_CHANGE
+vo_pl0002_IG019
+vo_pl0002_IG021A
+vo_pl0002_IG023_01_Alt
+vo_pl0002_IG029
+vo_pl0002_IG034
+vo_pl0002_IG036_01_Alt_F
+vo_pl0002_IG036_01_Alt_S
+vo_pl0002_re120_0000_Sheet1_0000
+vo_pl0002_re120_0000_Sheet1_0001
+vo_pl0002_re120_0005_Sheet3_0001
+vo_pl0002_re120_000c_Sheet3_0000
+vo_pl0002_re120_0016_Sheet1_0001_F
+vo_pl0002_re120_0016_Sheet1_0001_S
+vo_pl0002_re120_0019_Sheet2_0000
+vo_pl0002_re120_0026_Sheet3_0000
+vo_pl0002_re120_0027_Sheet3_0000
+vo_pl0002_re120_0032_Sheet3_0000
+vo_pl0002_re120_0036_Sheet1_0000
+vo_pl0002_re120_1001_Sheet3_0000
+vo_pl0002_waitNPC
+vo_pl0003_IG016_01
+vo_pl0003_IG016_02_Alt_F
+vo_pl0003_IG016_02_Alt_S
+vo_pl0003_IG019
+vo_pl0003_IG021A
+vo_pl0003_IG023_01_Alt
+vo_pl0003_IG029
+vo_pl0003_IG034
+vo_pl0003_IG036_01
+vo_pl0003_re120_0005_Sheet4_0001
+vo_pl0003_re120_0007_Sheet1_0000
+vo_pl0003_re120_0007_Sheet1_0001
+vo_pl0003_re120_0007_Sheet2_0000
+vo_pl0003_re120_0007_Sheet3_0000
+vo_pl0003_re120_0007_Sheet5_0000
+vo_pl0003_re120_000c_Sheet4_0000
+vo_pl0003_re120_0016_Sheet1_0001
+vo_pl0003_re120_0026_Sheet4_0000
+vo_pl0003_re120_0027_Sheet4_0000
+vo_pl0003_re120_0032_Sheet4_0000
+vo_pl0003_re120_0036_Sheet1_0000
+vo_pl0003_re120_1001_Sheet4_0000
+vo_pl0003_waitNPC
+vo_pl0004_IG019
+vo_pl0004_IG021A
+vo_pl0004_IG023_01_Alt
+vo_pl0004_IG029
+vo_pl0004_IG034
+vo_pl0004_IG036_01_Alt
+vo_pl0004_re120_0005_Sheet1_0000
+vo_pl0004_re120_0005_Sheet5_0001
+vo_pl0004_re120_000c_Sheet5_0000
+vo_pl0004_re120_0016_Sheet1_0001
+vo_pl0004_re120_0026_Sheet5_0000
+vo_pl0004_re120_0027_Sheet5_0000
+vo_pl0004_re120_0032_Sheet5_0000
+vo_pl0004_re120_0035_Sheet1_0000
+vo_pl0004_re120_0036_Sheet1_0000
+vo_pl0004_re120_1001_Sheet5_0000
+vo_pl0004_waitNPC
+vo_pl0020_IG029
+vo_pl0020_re120_0036_Sheet1_0001
+vo_pl0030_IG034_01
+vo_pl0031_IG034_01
+vo_pl0032_IG034_02
+vo_pl0033_IG034_01
+vo_pl0034_IG034_02
+vo_pl0035_IG034_01
+vo_TL1_re120_0013_Sheet1_0000_Alt
+vo_TL1_re120_0013_Sheet5_0000
+vo_TL1_re120_0016_Sheet1_0001_F
+vo_TL1_re120_0016_Sheet1_0001_S
+vo_TL1_re120_0028_Sheet1_0000
+# 3403386155
+
+### RTPC/GAME-VARIABLE NAMES (vo_r100.bnk)
+SE_CharaType
+
+### EVENT NAMES (vo_r200.bnk)
+re210_0005_Sheet1_0005
+re210_0005_Sheet1_0007
 re210_0019_Sheet1_0000
 re210_001a_Sheet1_0000
 re210_0490_Sheet1_0000
@@ -1746,6 +4540,254 @@ re210_0502_Sheet2_0000
 re210_0502_Sheet3_0000
 re210_0502_Sheet4_0000
 re210_0502_Sheet5_0000
+vo_pl0000_IG045_01
+vo_pl0000_IG045_02_Alt
+vo_pl0000_IG045A_a_Alt_F
+vo_pl0000_IG045A_a_Alt_S
+vo_pl0000_IG045A_b
+vo_pl0000_IG046_01_Alt2
+vo_pl0000_IG046_02_a
+vo_pl0000_IG046_02_b_F
+vo_pl0000_IG046_02_b_S
+vo_pl0000_IG046_02_c
+vo_pl0000_IG047A_Alt
+vo_pl0000_IG048A
+vo_pl0000_IG053
+vo_pl0000_IG054D_01
+vo_pl0000_IG054D_02
+vo_pl0000_IG054D_03
+vo_pl0000_IG058_01
+vo_pl0000_IG058_02
+vo_pl0000_IG060_Alt
+vo_pl0000_IG065
+vo_pl0000_IG066_01_Alt
+vo_pl0000_IG066_02
+vo_pl0000_IG066_03_Alt
+vo_pl0000_IG066_04_Alt
+vo_pl0000_re210_001a_Sheet1_0000
+vo_pl0000_re210_0020_Sheet1_0000
+vo_pl0000_re210_0020_Sheet1_0001
+vo_pl0000_re210_0022_Sheet1_0001
+vo_pl0000_re210_0404_Sheet1_0000
+vo_pl0000_re210_0405_Sheet1_0000
+vo_pl0000_re210_0502_Sheet1_0000
+vo_pl0000_re210_1101_Sheet1_0000
+vo_pl0000_re210_1201_Sheet1_0000
+vo_pl0000_re210_1301_Sheet1_0000
+vo_pl0000_re210_1500_Sheet1_0002
+vo_pl0000_re210_1500_Sheet1_0003
+vo_pl0000_re210_1501_Sheet1_0000
+vo_pl0000_re210_1502_Sheet1_0000
+vo_pl0000_re210_1503_Sheet1_0000
+vo_pl0000_re210_1503_Sheet1_0001
+vo_pl0000_re210_1504_Sheet1_0000
+vo_pl0001_IG045
+vo_pl0001_IG045_01
+vo_pl0001_IG045A
+vo_pl0001_IG046_01
+vo_pl0001_IG046_02
+vo_pl0001_IG047A_Alt
+vo_pl0001_IG053
+vo_pl0001_IG058_01
+vo_pl0001_IG058_02
+vo_pl0001_IG060
+vo_pl0001_IG065
+vo_pl0001_IG066_01
+vo_pl0001_IG066_02
+vo_pl0001_IG066_03
+vo_pl0001_IG066_04
+vo_pl0001_IG066_05_Alt
+vo_pl0001_IG066_06_Alt
+vo_pl0001_re210_001a_Sheet2_0000
+vo_pl0001_re210_0020_Sheet2_0000
+vo_pl0001_re210_0020_Sheet2_0001
+vo_pl0001_re210_0022_Sheet2_0001
+vo_pl0001_re210_0404_Sheet2_0000
+vo_pl0001_re210_0405_Sheet2_0000
+vo_pl0001_re210_0502_Sheet2_0000
+vo_pl0001_re210_1101_Sheet2_0000
+vo_pl0001_re210_1201_Sheet2_0000
+vo_pl0001_re210_1301_Sheet2_0000
+vo_pl0001_re210_1500_Sheet2_0002_F
+vo_pl0001_re210_1500_Sheet2_0002_S
+vo_pl0001_re210_1500_Sheet2_0003
+vo_pl0001_re210_1501_Sheet2_0000
+vo_pl0001_re210_1502_Sheet2_0000
+vo_pl0001_re210_1503_Sheet2_0000
+vo_pl0001_re210_1503_Sheet2_0001
+vo_pl0001_re210_1504_Sheet2_0000
+vo_pl0002_IG045
+vo_pl0002_IG045_01
+vo_pl0002_IG047A_Alt
+vo_pl0002_IG053
+vo_pl0002_IG054D
+vo_pl0002_IG058_01
+vo_pl0002_IG058_02
+vo_pl0002_IG065
+vo_pl0002_IG066_01
+vo_pl0002_IG066_02
+vo_pl0002_IG066_03_Alt
+vo_pl0002_IG066_04_Alt
+vo_pl0002_re210_001a_Sheet3_0000
+vo_pl0002_re210_0020_Sheet3_0000
+vo_pl0002_re210_0020_Sheet3_0001
+vo_pl0002_re210_0022_Sheet3_0001
+vo_pl0002_re210_0404_Sheet3_0000
+vo_pl0002_re210_0405_Sheet3_0000
+vo_pl0002_re210_0502_Sheet3_0000
+vo_pl0002_re210_1101_Sheet3_0000
+vo_pl0002_re210_1201_Sheet3_0000
+vo_pl0002_re210_1301_Sheet3_0000
+vo_pl0002_re210_1500_Sheet3_0002_F
+vo_pl0002_re210_1500_Sheet3_0002_S
+vo_pl0002_re210_1500_Sheet3_0003
+vo_pl0002_re210_1501_Sheet3_0000
+vo_pl0002_re210_1502_Sheet3_0000
+vo_pl0002_re210_1503_Sheet3_0000
+vo_pl0002_re210_1503_Sheet3_0001
+vo_pl0002_re210_1504_Sheet3_0000
+vo_pl0003_IG045
+vo_pl0003_IG045_01
+vo_pl0003_IG045A_01_Alt_F
+vo_pl0003_IG045A_01_Alt_S
+vo_pl0003_IG045A_02_a
+vo_pl0003_IG045A_02_b
+vo_pl0003_IG045A_03
+vo_pl0003_IG045A_04
+vo_pl0003_IG047A_Alt
+vo_pl0003_IG048A
+vo_pl0003_IG053
+vo_pl0003_IG058_01
+vo_pl0003_IG058_02
+vo_pl0003_IG065_01_a
+vo_pl0003_IG065_01_b
+vo_pl0003_IG065_02_F
+vo_pl0003_IG065_02_S
+vo_pl0003_IG066_01
+vo_pl0003_IG066_02
+vo_pl0003_IG066_03_F
+vo_pl0003_IG066_03_S
+vo_pl0003_IG066_04_Alt
+vo_pl0003_IG066_05
+vo_pl0003_IG066_06_Alt
+vo_pl0003_IG066_07_Alt
+vo_pl0003_re210_001a_Sheet4_0000_Alt
+vo_pl0003_re210_0020_Sheet4_0000
+vo_pl0003_re210_0020_Sheet4_0001
+vo_pl0003_re210_0022_Sheet4_0001
+vo_pl0003_re210_0404_Sheet4_0000
+vo_pl0003_re210_0405_Sheet4_0000
+vo_pl0003_re210_0502_Sheet4_0000
+vo_pl0003_re210_1101_Sheet4_0000
+vo_pl0003_re210_1201_Sheet4_0000
+vo_pl0003_re210_1301_Sheet4_0000
+vo_pl0003_re210_1500_Sheet4_0002_F
+vo_pl0003_re210_1500_Sheet4_0002_S
+vo_pl0003_re210_1500_Sheet4_0003
+vo_pl0003_re210_1501_Sheet4_0000
+vo_pl0003_re210_1502_Sheet4_0000
+vo_pl0003_re210_1503_Sheet4_0000
+vo_pl0003_re210_1503_Sheet4_0001
+vo_pl0003_re210_1504_Sheet4_0000
+vo_pl0004_IG045
+vo_pl0004_IG045_01
+vo_pl0004_IG045_Alt
+vo_pl0004_IG047A_Alt
+vo_pl0004_IG053_Alt
+vo_pl0004_IG058_01
+vo_pl0004_IG058_02
+vo_pl0004_IG065_a
+vo_pl0004_IG065_b
+vo_pl0004_IG066_01_Alt
+vo_pl0004_IG066_02
+vo_pl0004_IG066_03_Alt
+vo_pl0004_IG066_04_Alt
+vo_pl0004_re210_001a_Sheet5_0000
+vo_pl0004_re210_0020_Sheet5_0000
+vo_pl0004_re210_0020_Sheet5_0001
+vo_pl0004_re210_0022_Sheet5_0001
+vo_pl0004_re210_0404_Sheet5_0000
+vo_pl0004_re210_0405_Sheet5_0000
+vo_pl0004_re210_0502_Sheet5_0000
+vo_pl0004_re210_1101_Sheet5_0000
+vo_pl0004_re210_1201_Sheet5_0000
+vo_pl0004_re210_1301_Sheet5_0000
+vo_pl0004_re210_1500_Sheet5_0002
+vo_pl0004_re210_1500_Sheet5_0003
+vo_pl0004_re210_1501_Sheet5_0000
+vo_pl0004_re210_1502_Sheet5_0000
+vo_pl0004_re210_1503_Sheet5_0000
+vo_pl0004_re210_1503_Sheet5_0001
+vo_pl0004_re210_1504_Sheet5_0000
+vo_pl0020_IG053
+vo_pl0020_re210_1505_Sheet1_0000
+vo_pl0020_re210_1505_Sheet1_0000_F
+vo_pl0020_re210_1505_Sheet1_0000_S
+vo_pl0020_re210_1506_Sheet1_0000
+vo_pl0020_re210_1507_Sheet1_0000
+vo_pl0021_IG053
+vo_pl0021_re210_1502_Sheet1_0001
+vo_TL1_IG045_01
+vo_TL1_IG045_02_a_F
+vo_TL1_IG045_02_a_S
+vo_TL1_IG045_02_b
+vo_TL1_IG047A
+vo_TL1_IG047A_Alt
+vo_TL1_IG054C_F
+vo_TL1_IG054C_S
+vo_TL1_IG058
+vo_TL1_re210_0402_Sheet1_0000
+vo_TL1_re210_0403_Sheet1_0000_F
+vo_TL1_re210_0403_Sheet1_0000_S
+vo_TL1_re210_0490_Sheet1_0003_Alt
+vo_TL1_re210_1500_Sheet1_0000
+vo_TL1_re210_1500_Sheet1_0001
+vo_TLA_IG065_00_Alt
+vo_TLA_IG065_01_Alt
+vo_TLA_IG065_02_a_Alt
+vo_TLA_IG065_02_b_Alt
+vo_TLA_IG065_04_Alt
+vo_TLA_IG065_05_a_Alt
+vo_TLA_IG065_05_b_Alt
+vo_TLA_IG065_06_Alt
+vo_TLA_IG065_07_Alt
+vo_TLA_IG065_08_a_Alt
+vo_TLA_IG065_08_b_Alt
+vo_TLA_IG065_09_a_Alt
+vo_TLA_IG065_09_b_Alt
+vo_TLA_IG065_10_Alt
+vo_TLA_IG065_11_Alt_F
+vo_TLA_IG065_11_Alt_S
+vo_TLA_IG065_12_Alt
+vo_TLA_IG065_13_Alt
+vo_TLA_IG065_14_Alt
+vo_TLA_IG065_15_Alt
+vo_TLA_IG065_16_Alt
+vo_TLA_IG065_18_Alt
+# 44182128
+# 44182129
+# 44182131
+# 649520784
+# 969219473
+# 969219474
+# 987451276
+# 987451278
+# 987451279
+# 1318596369
+# 1318596370
+# 1318596371
+# 1597646545
+# 1614277068
+# 2165763911
+# 2335416717
+# 2335416718
+# 2602033338
+# 3456836440
+# 4242400196
+# 4242400197
+# 4242400199
+
+### EVENT NAMES (vo_r300.bnk)
 re310_000b_Sheet1_0000
 re310_0010_Sheet1_0000
 re310_001d_Sheet1_0000
@@ -1753,14 +4795,155 @@ re310_001d_Sheet1_0001
 re310_001d_Sheet1_0002_a
 re310_001d_Sheet1_0002_b
 re310_5100_Sheet1_0000
+vo_pl0000_IG047B_01_Alt
+vo_pl0000_IG073
+vo_pl0000_IG077_Alt
+vo_pl0000_IG082_a_Alt
+vo_pl0000_IG082_b
+vo_pl0000_re310_0025_Sheet1_0000
+vo_pl0000_re310_0025_Sheet1_0002
+vo_pl0000_re310_0026_Sheet1_0000
+vo_pl0000_re310_0027_Sheet1_0000
+vo_pl0000_re310_0029_Sheet1_0000
+vo_pl0000_re310_5300_Sheet1_0000
+vo_pl0001_IG047B_01_Alt
+vo_pl0001_IG073
+vo_pl0001_IG077
+vo_pl0001_IG082_a_Alt
+vo_pl0001_IG082_b
+vo_pl0001_IG096_02
+vo_pl0001_re310_0024_Sheet1_0000
+vo_pl0001_re310_0024_Sheet1_0001
+vo_pl0001_re310_0025_Sheet2_0000_Alt
+vo_pl0001_re310_0026_Sheet2_0000
+vo_pl0001_re310_0027_Sheet2_0000
+vo_pl0001_re310_0029_Sheet2_0000
+vo_pl0001_re310_5300_Sheet2_0000
+vo_pl0002_IG047B_01_Alt
+vo_pl0002_IG073_Alt
+vo_pl0002_IG077
+vo_pl0002_IG082_a_Alt
+vo_pl0002_IG082_b
+vo_pl0002_IG082_C
+vo_pl0002_re310_0025_Sheet3_0000
+vo_pl0002_re310_0026_Sheet3_0000
+vo_pl0002_re310_0027_Sheet3_0000
+vo_pl0002_re310_0029_Sheet3_0000
+vo_pl0002_re310_5300_Sheet3_0000
+vo_pl0003_IG047B_01_Alt
+vo_pl0003_IG047B_03_F
+vo_pl0003_IG047B_03_S
+vo_pl0003_IG073
+vo_pl0003_IG077
+vo_pl0003_IG082_a_Alt
+vo_pl0003_IG082_b
+vo_pl0003_re310_0025_Sheet4_0000
+vo_pl0003_re310_0026_Sheet4_0000
+vo_pl0003_re310_0027_Sheet4_0000
+vo_pl0003_re310_0029_Sheet4_0000
+vo_pl0003_re310_5300_Sheet4_0000
+vo_pl0004_IG047B_01_Alt
+vo_pl0004_IG073_Alt
+vo_pl0004_IG077_Alt
+vo_pl0004_IG082_a_Alt
+vo_pl0004_IG082_b
+vo_pl0004_re310_0025_Sheet5_0000
+vo_pl0004_re310_0026_Sheet5_0000
+vo_pl0004_re310_0027_Sheet5_0000
+vo_pl0004_re310_0029_Sheet5_0000
+vo_pl0004_re310_5300_Sheet5_0000
+vo_pl0022_IG081_01_Alt
+vo_pl0022_IG081_02
+vo_pl0022_re310_0028_Sheet1_0000
+vo_pl0022_re310_002a_Sheet1_0000
+vo_pl0028_IG082
+vo_pl0028_Word_Serious_01
+vo_TL1_re310_0024_Sheet1_0002
+vo_TL1_re310_0024_Sheet1_0003
+vo_TL1_re310_0025_Sheet1_0001
+vo_TL1_re310_0025_Sheet1_0003
+# 775300929
+# 936405097
+# 1346115363
+# 2234557660
+# 2443775304
+# 2443775305
+
+### EVENT NAMES (vo_r400.bnk)
+re310_0100_Sheet1_0001
 re410_0050_Sheet1_0000
 re410_0120_Sheet1_0000
 re410_0120_Sheet1_0001
 re410_0120_Sheet2_0000
 re410_0120_Sheet2_0001
 re410_0200_Sheet1_0000
+vo_pl0000_IG089_01_a
+vo_pl0000_IG089_01_b
+vo_pl0000_IG096_01
+vo_pl0000_IG100B_Alt
+vo_pl0000_re410_0100_Sheet1_0000
+vo_pl0001_CP4HELP_01
+vo_pl0001_CP4HELP_02
+vo_pl0001_CP4HELP_03
+vo_pl0001_CP4HELP_04
+vo_pl0001_IG096_01
+vo_pl0001_IG100B
+vo_pl0001_IG100B_Alt
+vo_pl0001_re410_0100_Sheet2_0000
+vo_pl0001_re410_4021_Sheet4_0000
+vo_pl0002_IG096_01
+vo_pl0002_IG096_02
+vo_pl0002_IG100B_Alt
+vo_pl0002_re410_0100_Sheet3_0000
+vo_pl0003_CP4HELP_01
+vo_pl0003_CP4HELP_02
+vo_pl0003_CP4HELP_03
+vo_pl0003_CP4HELP_04
+vo_pl0003_IG095_01_F
+vo_pl0003_IG095_01_S
+vo_pl0003_IG095_02_Alt
+vo_pl0003_IG095_03_Alt
+vo_pl0003_IG095_04
+vo_pl0003_IG096_01
+vo_pl0003_IG096_02
+vo_pl0003_IG100B_Alt
+vo_pl0003_re410_0100_Sheet4_0000
+vo_pl0003_re410_4021_Sheet1_0000
+vo_pl0003_re410_4021_Sheet2_0000
+vo_pl0003_re410_4021_Sheet3_0000
+vo_pl0003_re410_4021_Sheet5_0000
+vo_pl0004_IG096_01
+vo_pl0004_IG096_02
+vo_pl0004_IG100B_Alt
+vo_pl0004_re410_0100_Sheet5_0000
+vo_pl0027_Word_Counter_01
+vo_TL1_re410_0200_Sheet1_0000
+vo_TL1_re410_4020_Sheet1_0000
+# 318334242
+# 854858997
+# 2458497231
+# 3570304922
+# 3939059765
+
+### EVENT NAMES (vo_r500.bnk)
 re510_0004_Sheet1_0000
 re510_0004_Sheet1_0001
+vo_pl0000_CS114_02_a
+vo_pl0000_CS114_02_b
+vo_pl0001_re510_0003_Sheet2_0000
+vo_pl0002_re510_0003_Sheet3_0000
+vo_pl0003_re510_0003_Sheet4_0000_F
+vo_pl0003_re510_0003_Sheet4_0000_S
+vo_pl0004_re510_0003_Sheet5_0000
+vo_pl0022_IG105_01
+vo_pl002e_CS114_02_a
+vo_pl002e_CS114_02_b
+vo_pl002e_CS114_02_c
+
+### EVENT NAMES (vo_r600.bnk)
+re610_0100_Sheet1_0002
+re610_0100_Sheet1_0004
+re610_0100_Sheet1_0005
 re610_0110_Sheet1_0000
 re610_0110_Sheet1_0001
 re610_0110_Sheet2_0000
@@ -1771,6 +4954,225 @@ re610_0120_Sheet2_0000
 re610_0120_Sheet2_0001
 re610_0156_Sheet1_0000
 re610_0156_Sheet2_0000
+vo_pl0000_IG121_02
+vo_pl0000_IG121_02_Alt
+vo_pl0000_IG121_03
+vo_pl0000_IG127A
+vo_pl0000_IG127c
+vo_pl0000_IG127D_01
+vo_pl0000_IG127D_02
+vo_pl0000_IG127e
+vo_pl0000_IG127E_Alt
+vo_pl0000_re610_0010_Sheet1_0000_Alt
+vo_pl0000_re610_0036_Sheet1_0000
+vo_pl0000_re610_0060_Sheet1_0001
+vo_pl0000_re610_0101_Sheet1_0000
+vo_pl0000_re610_0101_Sheet4_0001
+vo_pl0000_re610_0111_Sheet1_0002
+vo_pl0000_re610_0111_Sheet4_0002
+vo_pl0000_re610_0113_Sheet1_0000
+vo_pl0000_re610_0115_Sheet1_0000
+vo_pl0000_re610_0118_Sheet1_0000
+vo_pl0000_re610_0118_Sheet2_0000
+vo_pl0000_re610_0118_Sheet2_0000_Alt
+vo_pl0000_re610_0118_Sheet3_0000
+vo_pl0000_re610_0118_Sheet4_0000
+vo_pl0000_re610_0118_Sheet5_0000
+vo_pl0000_re610_0118_Sheet5_0001
+vo_pl0000_re610_0119_Sheet2_0001
+vo_pl0000_re610_0119_Sheet3_0001
+vo_pl0000_re610_0119_Sheet4_0001
+vo_pl0000_re610_0119_Sheet5_0001
+vo_pl0000_re610_0167_Sheet1_0000_ALT
+vo_pl0001_CP6HELP_01
+vo_pl0001_CP6HELP_02
+vo_pl0001_CP6HELP_03
+vo_pl0001_CP6HELP_04
+vo_pl0001_IG121_02_Alt
+vo_pl0001_IG121_03
+vo_pl0001_IG127c
+vo_pl0001_IG127D
+vo_pl0001_IG127E_Alt
+vo_pl0001_re610_0010_Sheet2_0000
+vo_pl0001_re610_0010_Sheet2_0000_Alt
+vo_pl0001_re610_0036_Sheet2_0000
+vo_pl0001_re610_0060_Sheet2_0001
+vo_pl0001_re610_0101_Sheet2_0000
+vo_pl0001_re610_0113_Sheet2_0000
+vo_pl0001_re610_0113_Sheet4_0001
+vo_pl0001_re610_0116_Sheet4_0000
+vo_pl0001_re610_0119_Sheet4_0000
+vo_pl0001_re610_0167_Sheet2_0000
+vo_pl0002_IG121_02
+vo_pl0002_IG121_02_Alt
+vo_pl0002_IG121_02_Alt2
+vo_pl0002_IG121_03
+vo_pl0002_IG127A
+vo_pl0002_IG127B
+vo_pl0002_IG127c
+vo_pl0002_IG127D
+vo_pl0002_IG127E_a
+vo_pl0002_IG127E_b
+vo_pl0002_IG127E_b_Alt
+vo_pl0002_re610_0010_Sheet3_0000
+vo_pl0002_re610_0010_Sheet3_0000_Alt
+vo_pl0002_re610_0036_Sheet3_0000
+vo_pl0002_re610_0060_Sheet3_0001
+vo_pl0002_re610_0101_Sheet3_0000
+vo_pl0002_re610_0113_Sheet3_0000
+vo_pl0002_re610_0167_Sheet3_0000
+vo_pl0003_CP6HELP_01
+vo_pl0003_CP6HELP_02
+vo_pl0003_CP6HELP_03
+vo_pl0003_CP6HELP_04
+vo_pl0003_IG121_01
+vo_pl0003_IG121_01_Alt
+vo_pl0003_IG121_03
+vo_pl0003_IG127A
+vo_pl0003_IG127c
+vo_pl0003_IG127d
+vo_pl0003_IG127D_Alt
+vo_pl0003_IG127e
+vo_pl0003_IG127E_Alt
+vo_pl0003_re610_0010_Sheet4_0000
+vo_pl0003_re610_0010_Sheet4_0000_Alt
+vo_pl0003_re610_0036_Sheet4_0000
+vo_pl0003_re610_0037_Sheet1_0000_Alt
+vo_pl0003_re610_0037_Sheet4_0000
+vo_pl0003_re610_0060_Sheet4_0001
+vo_pl0003_re610_0101_Sheet1_0001
+vo_pl0003_re610_0101_Sheet4_0000
+vo_pl0003_re610_0113_Sheet1_0001
+vo_pl0003_re610_0113_Sheet4_0000
+vo_pl0003_re610_0116_Sheet1_0000
+vo_pl0003_re610_0119_Sheet1_0000
+vo_pl0003_re610_0119_Sheet1_0001
+vo_pl0003_re610_0167_Sheet4_0000
+vo_pl0004_IG121_01
+vo_pl0004_IG121_02
+vo_pl0004_IG121_02_Alt
+vo_pl0004_IG121_03
+vo_pl0004_IG121_03_Alt
+vo_pl0004_IG127B
+vo_pl0004_IG127c
+vo_pl0004_IG127d
+vo_pl0004_IG127D_Alt
+vo_pl0004_IG127e
+vo_pl0004_IG127E_Alt
+vo_pl0004_re610_0010_Sheet5_0000
+vo_pl0004_re610_0036_Sheet5_0000
+vo_pl0004_re610_0060_Sheet5_0001
+vo_pl0004_re610_0101_Sheet5_0000
+vo_pl0004_re610_0113_Sheet5_0000
+vo_pl0004_re610_0167_Sheet5_0000
+vo_pl0020_re610_0168_Sheet1_0000
+vo_pl0020_re610_0171_Sheet1_0000
+vo_pl0020_re610_0180_Sheet1_0000
+vo_pl0020_re610_0180_Sheet1_0002
+vo_pl0020_re610_0180_Sheet1_0002_Alt
+vo_pl0020_re610_0183_Sheet1_0000
+vo_pl0021_re610_0030_Sheet1_0000
+vo_pl0021_re610_0060_Sheet1_0000
+vo_pl0021_re610_0111_Sheet1_0000
+vo_pl0021_re610_0112_Sheet1_0000
+vo_pl0021_re610_0114_Sheet1_0000
+vo_pl0021_re610_0117_Sheet1_0000
+vo_pl0021_re610_0168_Sheet1_0001
+vo_pl0021_re610_0171_Sheet1_0001
+vo_pl0021_re610_0180_Sheet1_0001
+vo_pl0021_re610_0181_Sheet1_0000
+vo_pl0021_re610_0182_Sheet1_0000_Alt
+vo_TL1_IG121_a
+vo_TL1_IG121_b
+# 359618301
+# 632593173
+# 800159440
+# 1355572600
+# 1355572601
+# 1745775200
+# 2613442668
+# 2613442669
+# 2916859068
+# 3197319381
+# 3544566257
+# 4209000356
+
+### EVENT NAMES (vo_r700.bnk)
+vo_pl0000_CP7_QTE_01
+vo_pl0000_CP7_QTE_02
+vo_pl0000_CP7M1_01
+vo_pl0000_CP7M1_02
+vo_pl0000_CP7M1_03
+vo_pl0000_CP7M1_04
+vo_pl0000_CP7M1_05
+vo_pl0000_CP7M1_06
+vo_pl0000_CP7M1_07
+vo_pl0000_CP7M1_08
+vo_pl0000_CS145_02
+vo_pl0000_IG146
+vo_pl0000_re710_0004_Sheet1_0001
+vo_pl0000_re710_0008_Sheet1_0000
+vo_pl0000_re710_0015_Sheet1_0000
+vo_pl0000_re710_0017_Sheet1_0000
+vo_pl0000_re710_5020_Sheet1_0001
+vo_pl0000_re710_5021_Sheet1_0001_F
+vo_pl0000_re710_5021_Sheet1_0001_S
+vo_pl0000_re710_5022_Sheet1_0002
+vo_pl0000_re710_5023_Sheet1_0001
+vo_pl0000_re710_5023_Sheet1_0003
+vo_pl0000_re710_5023_Sheet1_0005
+vo_pl0001_IG146
+vo_pl0001_re710_0008_Sheet2_0000
+vo_pl0001_re710_0017_Sheet2_0000
+vo_pl0002_IG146
+vo_pl0002_re710_0008_Sheet3_0000
+vo_pl0002_re710_0014_Sheet1_0001
+vo_pl0002_re710_0014_Sheet1_0002
+vo_pl0002_re710_0017_Sheet3_0000
+vo_pl0003_IG146
+vo_pl0003_re710_0008_Sheet4_0000
+vo_pl0003_re710_0013_Sheet1_0001
+vo_pl0003_re710_0013_Sheet1_0002
+vo_pl0003_re710_0013_Sheet1_0003
+vo_pl0003_re710_0014_Sheet1_0000
+vo_pl0003_re710_0017_Sheet4_0000
+vo_pl0004_CS145
+vo_pl0004_IG146
+vo_pl0004_re710_0008_Sheet5_0000
+vo_pl0004_re710_0017_Sheet5_0000
+vo_pl0008_CP7_QTE_01
+vo_pl0008_CP7_QTE_02
+vo_pl0020_CP7_QTE_01
+vo_pl0020_CP7M1_01
+vo_pl0020_IG146
+vo_pl0020_IG146_Alt
+vo_pl0020_re710_0003_Sheet1_0000_Alt
+vo_pl0020_re710_0003_Sheet1_0000_Alt2
+vo_pl0020_re710_0003_Sheet1_0000_Alt3
+vo_pl0020_re710_0003_Sheet1_0001
+vo_pl0020_re710_0009_Sheet1_0000
+vo_pl0020_re710_0015_Sheet1_0001
+vo_pl0020_re710_5020_Sheet1_0000
+vo_pl0020_re710_5021_Sheet1_0000_F
+vo_pl0020_re710_5021_Sheet1_0000_S
+vo_pl0020_re710_5021_Sheet1_0002
+vo_pl0020_re710_5022_Sheet1_0000
+vo_pl0020_re710_5022_Sheet1_0001
+vo_pl0020_re710_5023_Sheet1_0000
+vo_pl0020_re710_5023_Sheet1_0002
+vo_pl0020_re710_5023_Sheet1_0004
+vo_pl0020_re710_5023_Sheet1_0006
+vo_pl0024_re710_0011_Sheet1_0000_F
+vo_pl0024_re710_0011_Sheet1_0000_S
+vo_pl0030_CS145
+vo_pl0034_CS145
+vo_pl0040_Word_Extra_01
+vo_pl0110_CS145
+# 268129222
+# 558051254
+# 3493739823
+
+### EVENT NAMES (vo_ra00.bnk)
 rea00_pl0000_01
 rea00_pl0000_02
 rea00_pl0000_03
@@ -1830,337 +5232,6 @@ rea00_pl0100_03
 rea00_pl0100_04
 rea00_pl0110_01
 rea00_pl0110_02
-Respawn_In
-Respawn_out
-Resume_ba2001_Elec_Vertical_Loop
-rf01_Purchase
-rf01_Result_ClearMark
-rf01_Result_Start
-rf01_Result_WeaponAnalysis
-rf01_Weld
-rf02_PressStart
-rf02_Title
-rf03_Cassette_Eject
-rf03_Cassette_Insert
-SE_AccelTime
-SE_Battle
-SE_BattleFinish
-SE_BattleFinish_FX
-SE_BattleFinish_OFF
-SE_BattleFinish_ON
-SE_Battle_OFF
-SE_Battle_ON
-SE_CharaType
-SE_CSxxxx_In
-SE_CSxxxx_Out
-SE_Doppler
-SE_ElementType
-SE_FloorCollisionType
-SE_Init_Default
-SE_Init_p010
-SE_Load_In
-SE_Load_Out
-se_SpeedDown
-SE_VehicleEngine
-sideswipe_rangeweapons
-Stop_ba0061_BombTbox_Charge
-Stop_ba0062_IceBomb_Charge
-Stop_ba0063_ElecBomb_Charge
-Stop_ba0064_FireBomb_Charge
-Stop_ba1003_EnergonExp_Loop
-Stop_ba1003_Engine_Drive_Loop
-Stop_ba1003_Engine_Idol_Loop
-Stop_ba1403_Saw_AttackLoop
-Stop_ba1403_Saw_AttackLoop_l
-Stop_ba1403_Saw_AttackLoop_r
-Stop_ba1403_Saw_Loop_l
-Stop_ba1403_Saw_Loop_r
-Stop_ba2000_LiftMove
-Stop_ba2000_LiftMove_Loop
-Stop_ba2001_Alarm_Loop
-Stop_ba2001_Elec_Horizon_Loop
-Stop_ba2001_Elec_Vertical_Loop
-Stop_ba2001_Float_Loop
-Stop_core_Charge_OneShotLoop
-Stop_core_Charge_Start
-Stop_core_ElecDam
-Stop_core_FireDam
-Stop_core_sonar
-Stop_CutsceneStream
-Stop_CutScene_Voice
-Stop_Infolog
-Stop_pl0000_Vehicle_AttackSlip
-Stop_pl0000_Vehicle_DriftSlip
-Stop_pl0000_Vehicle_Engine_Idol_Loop
-Stop_pl0000_Vehicle_Engine_Loop
-Stop_pl0000_Vehicle_Slip
-Stop_pl0001_Vehicle_DriftSlip
-Stop_pl0001_Vehicle_Engine_Idol_Loop
-Stop_pl0001_Vehicle_Engine_Loop
-Stop_pl0001_Vehicle_Slip
-Stop_pl0002_Vehicle_DriftSlip
-Stop_pl0002_Vehicle_Engine_Idol_Loop
-Stop_pl0002_Vehicle_Engine_Loop
-Stop_pl0002_Vehicle_Slip
-Stop_pl0003_Vehicle_DriftSlip
-Stop_pl0003_Vehicle_Engine_Idol_Loop
-Stop_pl0003_Vehicle_Engine_Loop
-Stop_pl0003_Vehicle_Slip
-Stop_pl0004_GL_FireBreath_Loop
-Stop_pl0004_GL_Scrape_Loop
-Stop_pl0020_BlackHole_Loop
-Stop_pl0020_BlastShot_Loop
-Stop_pl0020_Laser_Loop
-Stop_pl0020_Scrape_Loop
-Stop_pl0020_Stun_Loop
-Stop_pl0020_Tank_Move_Loop
-Stop_pl0022_Jet_Loop
-Stop_pl0023_Jet_Loop
-Stop_pl0024_Jet_Loop
-Stop_pl0025_Vehicle_Engine_Loop
-Stop_pl0027_Tank_Move_Loop
-Stop_pl0028_Jet_Loop
-Stop_pl0028_Scrape_Loop
-Stop_pl0028_Tank_FireMove_Loop
-Stop_pl0028_Tank_FireSpin_MoveLoop
-Stop_pl0028_Tank_Move_Loop
-Stop_pl002b_Jet_Loop
-Stop_pl002e_EnergyBall_Loop
-Stop_pl002e_Laser_Loop
-Stop_pl002e_RefLaser_Loop
-Stop_pl0030_Rush_Engine_Loop
-Stop_pl0031_Caterpillar_Loop
-Stop_pl0032_Engine_Loop
-Stop_pl0032_LiquidDrop_Loop
-Stop_pl0033_Engine_Loop
-Stop_pl0034_Dive_Move_Loop
-Stop_pl0035_Engine_Loop
-Stop_pl0036_Buzz_Loop
-Stop_pl0037_Buzz_Loop
-Stop_pl0038_Buzz_Loop
-Stop_pl0038_ElecBall_Loop
-Stop_pl0040_EnergyBall_Loop
-Stop_pl0040_Engine_Loop
-Stop_pl0040_GroundElec_Loop
-Stop_pl004a_Laserbeak_JetLoop
-Stop_pl004c_Laserbeak_JetLoop
-Stop_pl0110_EnergyBall_Loop
-Stop_pl0110_GroundElec_Loop
-Stop_pl0110_Tornado_Loop
-Stop_r100_DestronJet_Jet_Loop_add_a
-Stop_r100_DestronJet_Jet_Loop_add_b
-Stop_r200_FloorGimmick_Move
-Stop_r200_Gimmick_Loop
-Stop_r207_FloorMove_Loop
-Stop_r207_FloorQuake_Loop
-Stop_r340_MissileExp_Loop
-Stop_wp0093_Cyclone_Loop
-Stop_wp00c5_EnergyThrower_Loop
-Stop_wp00c5_FlameThrower_Loop
-Stop_wp00c5_IceThrower_Loop
-Stop_wp00c8_LaserGun_Loop
-Stop_wp0114_Cutter_Loop
-Stop_wp011c_Drill_Roll_Loop
-Stop_wp011f_Bulk_Roll_Loop
-System_Mute_All
-System_Pause_All
-System_Resume_All
-System_Unmute_All
-TransErr_Down
-TransErr_Up
-UnMute_ba2000_LiftMove_Loop
-UnMute_ev2102_Buzz_Loop
-Voice_Duck
-Volume_BGM
-Volume_Environment
-Volume_Master
-Volume_SE
-Volume_Voice
-vo_core_Secret_EX
-vo_core_Secret_Gallery
-vo_core_Secret_Level
-vo_core_SoundOption
-vo_p120_ev1201_Jump
-vo_p120_ev1201_Threat
-vo_pl0000_ActionFinish
-vo_pl0000_Charge
-vo_pl0000_Charge_Release
-vo_pl0000_CP7M1_01
-vo_pl0000_CP7M1_02
-vo_pl0000_CP7M1_03
-vo_pl0000_CP7M1_04
-vo_pl0000_CP7M1_05
-vo_pl0000_CP7M1_06
-vo_pl0000_CP7M1_07
-vo_pl0000_CP7M1_08
-vo_pl0000_CP7_QTE_01
-vo_pl0000_CP7_QTE_02
-vo_pl0000_CS114_02_a
-vo_pl0000_CS114_02_b
-vo_pl0000_CS145_02
-vo_pl0000_Death_b
-vo_pl0000_Dodge
-vo_pl0000_ev4100_Dam
-vo_pl0000_HeavyAtk
-vo_pl0000_HeavyDam
-vo_pl0000_IG016_01_Alt_F
-vo_pl0000_IG016_01_Alt_S
-vo_pl0000_IG016_02
-vo_pl0000_IG019
-vo_pl0000_IG021A_Alt
-vo_pl0000_IG023_01_Alt
-vo_pl0000_IG029_01
-vo_pl0000_IG029_02
-vo_pl0000_IG029_03
-vo_pl0000_IG029_04
-vo_pl0000_IG029_05
-vo_pl0000_IG034
-vo_pl0000_IG036
-vo_pl0000_IG045A_a_Alt_F
-vo_pl0000_IG045A_a_Alt_S
-vo_pl0000_IG045_01
-vo_pl0000_IG045_02_Alt
-vo_pl0000_IG046_01_Alt2
-vo_pl0000_IG046_02_a
-vo_pl0000_IG046_02_b_F
-vo_pl0000_IG046_02_b_S
-vo_pl0000_IG046_02_c
-vo_pl0000_IG047A_Alt
-vo_pl0000_IG047B_01_Alt
-vo_pl0000_IG048A
-vo_pl0000_IG053
-vo_pl0000_IG054D_01
-vo_pl0000_IG054D_02
-vo_pl0000_IG054D_03
-vo_pl0000_IG058_01
-vo_pl0000_IG058_02
-vo_pl0000_IG060_Alt
-vo_pl0000_IG065
-vo_pl0000_IG066_01_Alt
-vo_pl0000_IG066_02
-vo_pl0000_IG066_03_Alt
-vo_pl0000_IG066_04_Alt
-vo_pl0000_IG073
-vo_pl0000_IG077_Alt
-vo_pl0000_IG082_a_Alt
-vo_pl0000_IG089_01_a
-vo_pl0000_IG089_01_b
-vo_pl0000_IG096_01
-vo_pl0000_IG100B_Alt
-vo_pl0000_IG121_02
-vo_pl0000_IG121_02_Alt
-vo_pl0000_IG121_03
-vo_pl0000_IG127A
-vo_pl0000_IG127c
-vo_pl0000_IG127D_01
-vo_pl0000_IG127D_02
-vo_pl0000_IG127e
-vo_pl0000_IG127E_Alt
-vo_pl0000_IG146
-vo_pl0000_LightAtk
-vo_pl0000_LightDam
-vo_pl0000_MidAtk
-vo_pl0000_MidDam
-vo_pl0000_re120_0002_Sheet2_0000
-vo_pl0000_re120_0003_Sheet2_0000
-vo_pl0000_re120_0004_Sheet2_0000
-vo_pl0000_re120_0005_Sheet1_0001
-vo_pl0000_re120_0005_Sheet5_0000
-vo_pl0000_re120_0007_Sheet4_0000
-vo_pl0000_re120_0009_Sheet2_0000
-vo_pl0000_re120_0009_Sheet2_0000_Alt
-vo_pl0000_re120_0009_Sheet2_0001
-vo_pl0000_re120_000c_Sheet1_0000
-vo_pl0000_re120_0016_Sheet1_0001_F
-vo_pl0000_re120_0016_Sheet1_0001_S
-vo_pl0000_re120_0025_Sheet3_0000
-vo_pl0000_re120_0026_Sheet1_0000
-vo_pl0000_re120_0027_Sheet1_0000
-vo_pl0000_re120_0030_Sheet1_0000
-vo_pl0000_re120_0032_Sheet1_0000
-vo_pl0000_re120_0035_Sheet1_0000
-vo_pl0000_re120_0036_Sheet1_0000
-vo_pl0000_re120_1001_Sheet1_0000
-vo_pl0000_re210_001a_Sheet1_0000
-vo_pl0000_re210_0020_Sheet1_0000
-vo_pl0000_re210_0020_Sheet1_0001
-vo_pl0000_re210_0022_Sheet1_0001
-vo_pl0000_re210_0404_Sheet1_0000
-vo_pl0000_re210_0502_Sheet1_0000
-vo_pl0000_re210_1101_Sheet1_0000
-vo_pl0000_re210_1201_Sheet1_0000
-vo_pl0000_re210_1301_Sheet1_0000
-vo_pl0000_re210_1500_Sheet1_0002
-vo_pl0000_re210_1500_Sheet1_0003
-vo_pl0000_re210_1501_Sheet1_0000
-vo_pl0000_re210_1502_Sheet1_0000
-vo_pl0000_re210_1503_Sheet1_0000
-vo_pl0000_re210_1503_Sheet1_0001
-vo_pl0000_re210_1504_Sheet1_0000
-vo_pl0000_re310_0025_Sheet1_0000
-vo_pl0000_re310_0025_Sheet1_0002
-vo_pl0000_re310_0026_Sheet1_0000
-vo_pl0000_re310_0027_Sheet1_0000
-vo_pl0000_re310_0029_Sheet1_0000
-vo_pl0000_re310_5300_Sheet1_0000
-vo_pl0000_re610_0010_Sheet1_0000_Alt
-vo_pl0000_re610_0036_Sheet1_0000
-vo_pl0000_re610_0060_Sheet1_0001
-vo_pl0000_re610_0101_Sheet1_0000
-vo_pl0000_re610_0101_Sheet4_0001
-vo_pl0000_re610_0111_Sheet1_0002
-vo_pl0000_re610_0111_Sheet4_0002
-vo_pl0000_re610_0113_Sheet1_0000
-vo_pl0000_re610_0115_Sheet1_0000
-vo_pl0000_re610_0118_Sheet1_0000
-vo_pl0000_re610_0118_Sheet2_0000
-vo_pl0000_re610_0118_Sheet2_0000_Alt
-vo_pl0000_re610_0118_Sheet3_0000
-vo_pl0000_re610_0118_Sheet4_0000
-vo_pl0000_re610_0118_Sheet5_0000
-vo_pl0000_re610_0118_Sheet5_0001
-vo_pl0000_re610_0119_Sheet2_0001
-vo_pl0000_re610_0119_Sheet3_0001
-vo_pl0000_re610_0119_Sheet4_0001
-vo_pl0000_re610_0119_Sheet5_0001
-vo_pl0000_re610_0167_Sheet1_0000_ALT
-vo_pl0000_re710_0004_Sheet1_0001
-vo_pl0000_re710_0008_Sheet1_0000
-vo_pl0000_re710_0015_Sheet1_0000
-vo_pl0000_re710_0017_Sheet1_0000
-vo_pl0000_re710_5020_Sheet1_0001
-vo_pl0000_re710_5021_Sheet1_0001_F
-vo_pl0000_re710_5021_Sheet1_0001_S
-vo_pl0000_re710_5022_Sheet1_0002
-vo_pl0000_re710_5023_Sheet1_0001
-vo_pl0000_re710_5023_Sheet1_0003
-vo_pl0000_re710_5023_Sheet1_0005
-vo_pl0000_Rush
-vo_pl0000_SELECT
-vo_pl0000_Stumble
-vo_pl0000_waitNPC
-vo_pl0000_Word_ComboFinish
-vo_pl0000_Word_Cure
-vo_pl0000_Word_Evade
-vo_pl0000_Word_RareItemGet_a
-vo_pl0000_Word_RareItemGet_b_01
-vo_pl0001_ActionFinish
-vo_pl0001_Charge
-vo_pl0001_Charge_Release
-vo_pl0001_CP1_CHANGE
-vo_pl0001_CP4HELP_01
-vo_pl0001_CP4HELP_02
-vo_pl0001_CP4HELP_03
-vo_pl0001_CP4HELP_04
-vo_pl0001_CP6HELP_01
-vo_pl0001_CP6HELP_02
-vo_pl0001_CP6HELP_03
-vo_pl0001_CP6HELP_04
-vo_pl0001_Death_b
-vo_pl0001_Dodge
-vo_pl0001_ev4100_Dam
-vo_pl0001_HeavyAtk
-vo_pl0001_HeavyDam
 vo_pl0001_HELPME_01
 vo_pl0001_HELPME_02
 vo_pl0001_HELPME_03
@@ -2168,127 +5239,6 @@ vo_pl0001_HELPME_04
 vo_pl0001_HELPME_05
 vo_pl0001_HELPME_06
 vo_pl0001_HELPME_07
-vo_pl0001_IG016
-vo_pl0001_IG019
-vo_pl0001_IG021A
-vo_pl0001_IG023_01_Alt
-vo_pl0001_IG029
-vo_pl0001_IG034
-vo_pl0001_IG036_01
-vo_pl0001_IG045
-vo_pl0001_IG045A
-vo_pl0001_IG045_01
-vo_pl0001_IG046_01
-vo_pl0001_IG046_02
-vo_pl0001_IG047A_Alt
-vo_pl0001_IG047B_01_Alt
-vo_pl0001_IG053
-vo_pl0001_IG058_01
-vo_pl0001_IG058_02
-vo_pl0001_IG060
-vo_pl0001_IG065
-vo_pl0001_IG066_01
-vo_pl0001_IG066_02
-vo_pl0001_IG066_03
-vo_pl0001_IG066_04
-vo_pl0001_IG066_05_Alt
-vo_pl0001_IG066_06_Alt
-vo_pl0001_IG073
-vo_pl0001_IG077
-vo_pl0001_IG082_a_Alt
-vo_pl0001_IG096_01
-vo_pl0001_IG096_02
-vo_pl0001_IG100B
-vo_pl0001_IG100B_Alt
-vo_pl0001_IG121_02_Alt
-vo_pl0001_IG121_03
-vo_pl0001_IG127c
-vo_pl0001_IG127D
-vo_pl0001_IG127E_Alt
-vo_pl0001_IG146
-vo_pl0001_LightAtk
-vo_pl0001_LightDam
-vo_pl0001_MidAtk
-vo_pl0001_MidDam
-vo_pl0001_re120_0002_Sheet1_0000_Alt
-vo_pl0001_re120_0002_Sheet3_0000
-vo_pl0001_re120_0002_Sheet4_0000_Alt
-vo_pl0001_re120_0002_Sheet5_0000_Alt
-vo_pl0001_re120_0003_Sheet1_0000_v2
-vo_pl0001_re120_0003_Sheet3_0000
-vo_pl0001_re120_0003_Sheet4_0000
-vo_pl0001_re120_0003_Sheet5_0000
-vo_pl0001_re120_0004_Sheet5_0000
-vo_pl0001_re120_0005_Sheet2_0001
-vo_pl0001_re120_0009_Sheet1_0000
-vo_pl0001_re120_0009_Sheet1_0001
-vo_pl0001_re120_000c_Sheet2_0000
-vo_pl0001_re120_0016_Sheet1_0001
-vo_pl0001_re120_001d_Sheet1_0000_ALT
-vo_pl0001_re120_0025_Sheet2_0000
-vo_pl0001_re120_0026_Sheet2_0000
-vo_pl0001_re120_0027_Sheet2_0000
-vo_pl0001_re120_0030_Sheet2_0000
-vo_pl0001_re120_0032_Sheet2_0000
-vo_pl0001_re120_0036_Sheet1_0000
-vo_pl0001_re120_1001_Sheet2_0000
-vo_pl0001_re210_001a_Sheet2_0000
-vo_pl0001_re210_0020_Sheet2_0000
-vo_pl0001_re210_0020_Sheet2_0001
-vo_pl0001_re210_0022_Sheet2_0001
-vo_pl0001_re210_0404_Sheet2_0000
-vo_pl0001_re210_0405_Sheet2_0000
-vo_pl0001_re210_0502_Sheet2_0000
-vo_pl0001_re210_1101_Sheet2_0000
-vo_pl0001_re210_1201_Sheet2_0000
-vo_pl0001_re210_1301_Sheet2_0000
-vo_pl0001_re210_1500_Sheet2_0002_F
-vo_pl0001_re210_1500_Sheet2_0002_S
-vo_pl0001_re210_1500_Sheet2_0003
-vo_pl0001_re210_1501_Sheet2_0000
-vo_pl0001_re210_1502_Sheet2_0000
-vo_pl0001_re210_1503_Sheet2_0000
-vo_pl0001_re210_1503_Sheet2_0001
-vo_pl0001_re210_1504_Sheet2_0000
-vo_pl0001_re310_0024_Sheet1_0000
-vo_pl0001_re310_0024_Sheet1_0001
-vo_pl0001_re310_0025_Sheet2_0000_Alt
-vo_pl0001_re310_0026_Sheet2_0000
-vo_pl0001_re310_0027_Sheet2_0000
-vo_pl0001_re310_0029_Sheet2_0000
-vo_pl0001_re310_5300_Sheet2_0000
-vo_pl0001_re410_0100_Sheet2_0000
-vo_pl0001_re410_4021_Sheet4_0000
-vo_pl0001_re510_0003_Sheet2_0000
-vo_pl0001_re610_0010_Sheet2_0000
-vo_pl0001_re610_0010_Sheet2_0000_Alt
-vo_pl0001_re610_0036_Sheet2_0000
-vo_pl0001_re610_0060_Sheet2_0001
-vo_pl0001_re610_0101_Sheet2_0000
-vo_pl0001_re610_0113_Sheet2_0000
-vo_pl0001_re610_0113_Sheet4_0001
-vo_pl0001_re610_0116_Sheet4_0000
-vo_pl0001_re610_0119_Sheet4_0000
-vo_pl0001_re610_0167_Sheet2_0000
-vo_pl0001_re710_0008_Sheet2_0000
-vo_pl0001_re710_0017_Sheet2_0000
-vo_pl0001_Rush
-vo_pl0001_SELECT
-vo_pl0001_Stumble
-vo_pl0001_waitNPC
-vo_pl0001_Word_ComboFinish
-vo_pl0001_Word_Cure
-vo_pl0001_Word_Evade
-vo_pl0001_Word_RareItemGet_a
-vo_pl0002_ActionFinish
-vo_pl0002_Charge
-vo_pl0002_Charge_Release
-vo_pl0002_CP1_CHANGE
-vo_pl0002_Death_b
-vo_pl0002_Dodge
-vo_pl0002_ev4100_Dam
-vo_pl0002_HeavyAtk
-vo_pl0002_HeavyDam
 vo_pl0002_HELPME_01
 vo_pl0002_HELPME_02
 vo_pl0002_HELPME_03
@@ -2296,122 +5246,6 @@ vo_pl0002_HELPME_04
 vo_pl0002_HELPME_05
 vo_pl0002_HELPME_06
 vo_pl0002_HELPME_07
-vo_pl0002_IG019
-vo_pl0002_IG021A
-vo_pl0002_IG023_01_Alt
-vo_pl0002_IG029
-vo_pl0002_IG034
-vo_pl0002_IG036_01_Alt_F
-vo_pl0002_IG036_01_Alt_S
-vo_pl0002_IG045
-vo_pl0002_IG045_01
-vo_pl0002_IG047A_Alt
-vo_pl0002_IG047B_01_Alt
-vo_pl0002_IG053
-vo_pl0002_IG054D
-vo_pl0002_IG058_01
-vo_pl0002_IG058_02
-vo_pl0002_IG065
-vo_pl0002_IG066_01
-vo_pl0002_IG066_02
-vo_pl0002_IG066_03_Alt
-vo_pl0002_IG066_04_Alt
-vo_pl0002_IG073_Alt
-vo_pl0002_IG077
-vo_pl0002_IG082_a_Alt
-vo_pl0002_IG082_b
-vo_pl0002_IG082_C
-vo_pl0002_IG096_01
-vo_pl0002_IG096_02
-vo_pl0002_IG100B_Alt
-vo_pl0002_IG121_02
-vo_pl0002_IG121_02_Alt
-vo_pl0002_IG121_02_Alt2
-vo_pl0002_IG121_03
-vo_pl0002_IG127A
-vo_pl0002_IG127B
-vo_pl0002_IG127c
-vo_pl0002_IG127D
-vo_pl0002_IG127E_a
-vo_pl0002_IG127E_b
-vo_pl0002_IG127E_b_Alt
-vo_pl0002_IG146
-vo_pl0002_LightAtk
-vo_pl0002_LightDam
-vo_pl0002_MidAtk
-vo_pl0002_MidDam
-vo_pl0002_re120_0000_Sheet1_0000
-vo_pl0002_re120_0000_Sheet1_0001
-vo_pl0002_re120_0005_Sheet3_0001
-vo_pl0002_re120_000c_Sheet3_0000
-vo_pl0002_re120_0016_Sheet1_0001_F
-vo_pl0002_re120_0016_Sheet1_0001_S
-vo_pl0002_re120_0019_Sheet2_0000
-vo_pl0002_re120_0026_Sheet3_0000
-vo_pl0002_re120_0027_Sheet3_0000
-vo_pl0002_re120_0032_Sheet3_0000
-vo_pl0002_re120_0036_Sheet1_0000
-vo_pl0002_re120_1001_Sheet3_0000
-vo_pl0002_re210_001a_Sheet3_0000
-vo_pl0002_re210_0020_Sheet3_0000
-vo_pl0002_re210_0020_Sheet3_0001
-vo_pl0002_re210_0022_Sheet3_0001
-vo_pl0002_re210_0404_Sheet3_0000
-vo_pl0002_re210_0405_Sheet3_0000
-vo_pl0002_re210_0502_Sheet3_0000
-vo_pl0002_re210_1101_Sheet3_0000
-vo_pl0002_re210_1201_Sheet3_0000
-vo_pl0002_re210_1301_Sheet3_0000
-vo_pl0002_re210_1500_Sheet3_0002_F
-vo_pl0002_re210_1500_Sheet3_0002_S
-vo_pl0002_re210_1500_Sheet3_0003
-vo_pl0002_re210_1501_Sheet3_0000
-vo_pl0002_re210_1502_Sheet3_0000
-vo_pl0002_re210_1503_Sheet3_0000
-vo_pl0002_re210_1503_Sheet3_0001
-vo_pl0002_re210_1504_Sheet3_0000
-vo_pl0002_re310_0025_Sheet3_0000
-vo_pl0002_re310_0026_Sheet3_0000
-vo_pl0002_re310_0027_Sheet3_0000
-vo_pl0002_re310_0029_Sheet3_0000
-vo_pl0002_re310_5300_Sheet3_0000
-vo_pl0002_re410_0100_Sheet3_0000
-vo_pl0002_re510_0003_Sheet3_0000
-vo_pl0002_re610_0010_Sheet3_0000
-vo_pl0002_re610_0010_Sheet3_0000_Alt
-vo_pl0002_re610_0036_Sheet3_0000
-vo_pl0002_re610_0060_Sheet3_0001
-vo_pl0002_re610_0101_Sheet3_0000
-vo_pl0002_re610_0113_Sheet3_0000
-vo_pl0002_re610_0167_Sheet3_0000
-vo_pl0002_re710_0008_Sheet3_0000
-vo_pl0002_re710_0014_Sheet1_0001
-vo_pl0002_re710_0014_Sheet1_0002
-vo_pl0002_re710_0017_Sheet3_0000
-vo_pl0002_Rush
-vo_pl0002_SELECT
-vo_pl0002_Stumble
-vo_pl0002_waitNPC
-vo_pl0002_Word_ComboFinish
-vo_pl0002_Word_Cure
-vo_pl0002_Word_Evade
-vo_pl0002_Word_RareItemGet_a
-vo_pl0003_ActionFinish
-vo_pl0003_Charge
-vo_pl0003_Charge_Release
-vo_pl0003_CP4HELP_01
-vo_pl0003_CP4HELP_02
-vo_pl0003_CP4HELP_03
-vo_pl0003_CP4HELP_04
-vo_pl0003_CP6HELP_01
-vo_pl0003_CP6HELP_02
-vo_pl0003_CP6HELP_03
-vo_pl0003_CP6HELP_04
-vo_pl0003_Death_b
-vo_pl0003_Dodge
-vo_pl0003_ev4100_Dam
-vo_pl0003_HeavyAtk
-vo_pl0003_HeavyDam
 vo_pl0003_HELPME_01
 vo_pl0003_HELPME_02
 vo_pl0003_HELPME_03
@@ -2419,896 +5253,133 @@ vo_pl0003_HELPME_04
 vo_pl0003_HELPME_05
 vo_pl0003_HELPME_06
 vo_pl0003_HELPME_07
-vo_pl0003_IG016_01
-vo_pl0003_IG016_02_Alt_F
-vo_pl0003_IG016_02_Alt_S
-vo_pl0003_IG019
-vo_pl0003_IG021A
-vo_pl0003_IG023_01_Alt
-vo_pl0003_IG029
-vo_pl0003_IG034
-vo_pl0003_IG036_01
-vo_pl0003_IG045
-vo_pl0003_IG045A_01_Alt_F
-vo_pl0003_IG045A_01_Alt_S
-vo_pl0003_IG045A_02_a
-vo_pl0003_IG045A_02_b
-vo_pl0003_IG045A_03
-vo_pl0003_IG045A_04
-vo_pl0003_IG045_01
-vo_pl0003_IG047A_Alt
-vo_pl0003_IG047B_01_Alt
-vo_pl0003_IG047B_03_F
-vo_pl0003_IG047B_03_S
-vo_pl0003_IG048A
-vo_pl0003_IG053
-vo_pl0003_IG058_01
-vo_pl0003_IG058_02
-vo_pl0003_IG065_01_a
-vo_pl0003_IG065_01_b
-vo_pl0003_IG065_02_F
-vo_pl0003_IG065_02_S
-vo_pl0003_IG066_01
-vo_pl0003_IG066_02
-vo_pl0003_IG066_03_F
-vo_pl0003_IG066_03_S
-vo_pl0003_IG066_04_Alt
-vo_pl0003_IG066_05
-vo_pl0003_IG066_06_Alt
-vo_pl0003_IG066_07_Alt
-vo_pl0003_IG073
-vo_pl0003_IG077
-vo_pl0003_IG082_a_Alt
-vo_pl0003_IG082_b
-vo_pl0003_IG095_01_F
-vo_pl0003_IG095_01_S
-vo_pl0003_IG095_02_Alt
-vo_pl0003_IG095_03_Alt
-vo_pl0003_IG095_04
-vo_pl0003_IG096_01
-vo_pl0003_IG096_02
-vo_pl0003_IG100B_Alt
-vo_pl0003_IG121_01
-vo_pl0003_IG121_01_Alt
-vo_pl0003_IG121_03
-vo_pl0003_IG127A
-vo_pl0003_IG127c
-vo_pl0003_IG127d
-vo_pl0003_IG127D_Alt
-vo_pl0003_IG127e
-vo_pl0003_IG127E_Alt
-vo_pl0003_IG146
-vo_pl0003_LightAtk
-vo_pl0003_LightDam
-vo_pl0003_MidAtk
-vo_pl0003_MidDam
-vo_pl0003_re120_0005_Sheet4_0001
-vo_pl0003_re120_0007_Sheet1_0000
-vo_pl0003_re120_0007_Sheet1_0001
-vo_pl0003_re120_0007_Sheet2_0000
-vo_pl0003_re120_0007_Sheet3_0000
-vo_pl0003_re120_0007_Sheet5_0000
-vo_pl0003_re120_000c_Sheet4_0000
-vo_pl0003_re120_0016_Sheet1_0001
-vo_pl0003_re120_0026_Sheet4_0000
-vo_pl0003_re120_0027_Sheet4_0000
-vo_pl0003_re120_0032_Sheet4_0000
-vo_pl0003_re120_0036_Sheet1_0000
-vo_pl0003_re120_1001_Sheet4_0000
-vo_pl0003_re210_001a_Sheet4_0000_Alt
-vo_pl0003_re210_0020_Sheet4_0000
-vo_pl0003_re210_0020_Sheet4_0001
-vo_pl0003_re210_0022_Sheet4_0001
-vo_pl0003_re210_0404_Sheet4_0000
-vo_pl0003_re210_0405_Sheet4_0000
-vo_pl0003_re210_0502_Sheet4_0000
-vo_pl0003_re210_1101_Sheet4_0000
-vo_pl0003_re210_1201_Sheet4_0000
-vo_pl0003_re210_1301_Sheet4_0000
-vo_pl0003_re210_1500_Sheet4_0002_F
-vo_pl0003_re210_1500_Sheet4_0002_S
-vo_pl0003_re210_1500_Sheet4_0003
-vo_pl0003_re210_1501_Sheet4_0000
-vo_pl0003_re210_1502_Sheet4_0000
-vo_pl0003_re210_1503_Sheet4_0000
-vo_pl0003_re210_1503_Sheet4_0001
-vo_pl0003_re210_1504_Sheet4_0000
-vo_pl0003_re310_0025_Sheet4_0000
-vo_pl0003_re310_0026_Sheet4_0000
-vo_pl0003_re310_0027_Sheet4_0000
-vo_pl0003_re310_0029_Sheet4_0000
-vo_pl0003_re310_5300_Sheet4_0000
-vo_pl0003_re410_0100_Sheet4_0000
-vo_pl0003_re410_4021_Sheet1_0000
-vo_pl0003_re410_4021_Sheet2_0000
-vo_pl0003_re410_4021_Sheet3_0000
-vo_pl0003_re410_4021_Sheet5_0000
-vo_pl0003_re510_0003_Sheet4_0000_F
-vo_pl0003_re510_0003_Sheet4_0000_S
-vo_pl0003_re610_0010_Sheet4_0000
-vo_pl0003_re610_0010_Sheet4_0000_Alt
-vo_pl0003_re610_0036_Sheet4_0000
-vo_pl0003_re610_0037_Sheet1_0000_Alt
-vo_pl0003_re610_0037_Sheet4_0000
-vo_pl0003_re610_0060_Sheet4_0001
-vo_pl0003_re610_0101_Sheet1_0001
-vo_pl0003_re610_0101_Sheet4_0000
-vo_pl0003_re610_0113_Sheet1_0001
-vo_pl0003_re610_0113_Sheet4_0000
-vo_pl0003_re610_0116_Sheet1_0000
-vo_pl0003_re610_0119_Sheet1_0000
-vo_pl0003_re610_0119_Sheet1_0001
-vo_pl0003_re610_0167_Sheet4_0000
-vo_pl0003_re710_0008_Sheet4_0000
-vo_pl0003_re710_0013_Sheet1_0001
-vo_pl0003_re710_0013_Sheet1_0002
-vo_pl0003_re710_0013_Sheet1_0003
-vo_pl0003_re710_0014_Sheet1_0000
-vo_pl0003_re710_0017_Sheet4_0000
-vo_pl0003_Rush
+
+### EVENT NAMES (vo_rf01.bnk)
+vo_pl0000_SELECT
+vo_pl0001_SELECT
+vo_pl0002_SELECT
 vo_pl0003_SELECT
-vo_pl0003_Stumble
 vo_pl0003_TECH
 vo_pl0003_TECH_Failure
 vo_pl0003_TECH_Great
 vo_pl0003_TECH_Success
-vo_pl0003_waitNPC
-vo_pl0003_Word_ComboFinish
-vo_pl0003_Word_Cure
-vo_pl0003_Word_Evade
-vo_pl0003_Word_RareItemGet_a
-vo_pl0004_ActionFinish
-vo_pl0004_Charge
-vo_pl0004_Charge_Release
-vo_pl0004_CS145
-vo_pl0004_Death_b
-vo_pl0004_Dodge
-vo_pl0004_ev4100_Dam
-vo_pl0004_HeavyAtk
-vo_pl0004_HeavyDam
-vo_pl0004_IG019
-vo_pl0004_IG021A
-vo_pl0004_IG023_01_Alt
-vo_pl0004_IG029
-vo_pl0004_IG034
-vo_pl0004_IG036_01_Alt
-vo_pl0004_IG045
-vo_pl0004_IG045_01
-vo_pl0004_IG045_Alt
-vo_pl0004_IG047A_Alt
-vo_pl0004_IG047B_01_Alt
-vo_pl0004_IG053_Alt
-vo_pl0004_IG058_01
-vo_pl0004_IG058_02
-vo_pl0004_IG065_a
-vo_pl0004_IG065_b
-vo_pl0004_IG066_01_Alt
-vo_pl0004_IG066_02
-vo_pl0004_IG066_03_Alt
-vo_pl0004_IG066_04_Alt
-vo_pl0004_IG073_Alt
-vo_pl0004_IG077_Alt
-vo_pl0004_IG082_a_Alt
-vo_pl0004_IG096_01
-vo_pl0004_IG096_02
-vo_pl0004_IG100B_Alt
-vo_pl0004_IG121_01
-vo_pl0004_IG121_02
-vo_pl0004_IG121_02_Alt
-vo_pl0004_IG121_03
-vo_pl0004_IG127B
-vo_pl0004_IG127c
-vo_pl0004_IG127d
-vo_pl0004_IG127D_Alt
-vo_pl0004_IG127e
-vo_pl0004_IG127E_Alt
-vo_pl0004_IG146
-vo_pl0004_LightAtk
-vo_pl0004_LightDam
-vo_pl0004_MidAtk
-vo_pl0004_MidDam
-vo_pl0004_re120_0005_Sheet1_0000
-vo_pl0004_re120_0005_Sheet5_0001
-vo_pl0004_re120_000c_Sheet5_0000
-vo_pl0004_re120_0016_Sheet1_0001
-vo_pl0004_re120_0026_Sheet5_0000
-vo_pl0004_re120_0027_Sheet5_0000
-vo_pl0004_re120_0032_Sheet5_0000
-vo_pl0004_re120_0035_Sheet1_0000
-vo_pl0004_re120_0036_Sheet1_0000
-vo_pl0004_re120_1001_Sheet5_0000
-vo_pl0004_re210_001a_Sheet5_0000
-vo_pl0004_re210_0020_Sheet5_0000
-vo_pl0004_re210_0020_Sheet5_0001
-vo_pl0004_re210_0022_Sheet5_0001
-vo_pl0004_re210_0404_Sheet5_0000
-vo_pl0004_re210_0405_Sheet5_0000
-vo_pl0004_re210_0502_Sheet5_0000
-vo_pl0004_re210_1101_Sheet5_0000
-vo_pl0004_re210_1201_Sheet5_0000
-vo_pl0004_re210_1301_Sheet5_0000
-vo_pl0004_re210_1500_Sheet5_0002
-vo_pl0004_re210_1500_Sheet5_0003
-vo_pl0004_re210_1501_Sheet5_0000
-vo_pl0004_re210_1502_Sheet5_0000
-vo_pl0004_re210_1503_Sheet5_0000
-vo_pl0004_re210_1503_Sheet5_0001
-vo_pl0004_re210_1504_Sheet5_0000
-vo_pl0004_re310_0025_Sheet5_0000
-vo_pl0004_re310_0026_Sheet5_0000
-vo_pl0004_re310_0027_Sheet5_0000
-vo_pl0004_re310_0029_Sheet5_0000
-vo_pl0004_re310_5300_Sheet5_0000
-vo_pl0004_re410_0100_Sheet5_0000
-vo_pl0004_re510_0003_Sheet5_0000
-vo_pl0004_re610_0010_Sheet5_0000
-vo_pl0004_re610_0036_Sheet5_0000
-vo_pl0004_re610_0060_Sheet5_0001
-vo_pl0004_re610_0101_Sheet5_0000
-vo_pl0004_re610_0113_Sheet5_0000
-vo_pl0004_re610_0167_Sheet5_0000
-vo_pl0004_re710_0008_Sheet5_0000
-vo_pl0004_re710_0017_Sheet5_0000
-vo_pl0004_Rush
 vo_pl0004_SELECT
-vo_pl0004_Stumble
-vo_pl0004_waitNPC
-vo_pl0004_Word_ComboFinish_Word
-vo_pl0004_Word_Cure
-vo_pl0004_Word_Evade
-vo_pl0004_Word_RareItemGet_a
-vo_pl0005_ActionFinish
-vo_pl0005_Charge
-vo_pl0005_Charge_Release
-vo_pl0005_Death_b
-vo_pl0005_Dodge
-vo_pl0005_ev4100_Dam
-vo_pl0005_HeavyAtk
-vo_pl0005_HeavyDam
-vo_pl0005_LightAtk
-vo_pl0005_LightDam
-vo_pl0005_MidAtk
-vo_pl0005_MidDam
-vo_pl0005_Rush
 vo_pl0005_SELECT
-vo_pl0005_Stumble
-vo_pl0005_Word_ComboFinish
-vo_pl0005_Word_Cure
-vo_pl0005_Word_Evade
-vo_pl0005_Word_RareItemGet_a
-vo_pl0006_ActionFinish
-vo_pl0006_Charge
-vo_pl0006_Charge_Release
-vo_pl0006_Death_b
-vo_pl0006_Dodge
-vo_pl0006_ev4100_Dam
-vo_pl0006_HeavyAtk
-vo_pl0006_HeavyDam
-vo_pl0006_LightAtk
-vo_pl0006_LightDam
-vo_pl0006_MidAtk
-vo_pl0006_MidDam
-vo_pl0006_Rush
 vo_pl0006_SELECT
-vo_pl0006_Stumble
-vo_pl0006_Word_ComboFinish
-vo_pl0006_Word_Cure
-vo_pl0006_Word_Evade
-vo_pl0006_Word_RareItemGet_a
-vo_pl0007_ActionFinish
-vo_pl0007_Charge
-vo_pl0007_Charge_Release
-vo_pl0007_Death_b
-vo_pl0007_Dodge
-vo_pl0007_ev4100_Dam
-vo_pl0007_HeavyAtk
-vo_pl0007_HeavyDam
-vo_pl0007_LightAtk
-vo_pl0007_LightDam
-vo_pl0007_MidAtk
-vo_pl0007_MidDam
-vo_pl0007_Rush
 vo_pl0007_SELECT
-vo_pl0007_Stumble
-vo_pl0007_Word_ComboFinish
-vo_pl0007_Word_Cure
-vo_pl0007_Word_Evade
-vo_pl0007_Word_RareItemGet_a
-vo_pl0008_ActionFinish
-vo_pl0008_Charge
-vo_pl0008_Charge_Release
-vo_pl0008_CP7_QTE_01
-vo_pl0008_CP7_QTE_02
-vo_pl0008_Death_b
-vo_pl0008_Dodge
-vo_pl0008_HeavyAtk
-vo_pl0008_HeavyDam
-vo_pl0008_LightAtk
-vo_pl0008_LightDam
-vo_pl0008_MidAtk
-vo_pl0008_MidDam
-vo_pl0008_Rush
-vo_pl0008_Stumble
-vo_pl0008_Word_ComboFinish
-vo_pl0008_Word_Cure
-vo_pl0008_Word_Evade
-vo_pl0008_Word_RareItemGet_a
-vo_pl0020_Charge
-vo_pl0020_Charge_Release
-vo_pl0020_CP7M1_01
-vo_pl0020_CP7_QTE_01
-vo_pl0020_Death_b
-vo_pl0020_Dodge
-vo_pl0020_HeavyAtk
-vo_pl0020_HeavyDam
-vo_pl0020_IG029
-vo_pl0020_IG053
-vo_pl0020_IG146
-vo_pl0020_IG146_Alt
-vo_pl0020_LightAtk
-vo_pl0020_LightDam
-vo_pl0020_MidAtk
-vo_pl0020_MidDam
-vo_pl0020_re120_0036_Sheet1_0001
-vo_pl0020_re210_1505_Sheet1_0000
-vo_pl0020_re210_1505_Sheet1_0000_F
-vo_pl0020_re210_1505_Sheet1_0000_S
-vo_pl0020_re210_1506_Sheet1_0000
-vo_pl0020_re210_1507_Sheet1_0000
-vo_pl0020_re610_0168_Sheet1_0000
-vo_pl0020_re610_0171_Sheet1_0000
-vo_pl0020_re610_0180_Sheet1_0000
-vo_pl0020_re610_0180_Sheet1_0002
-vo_pl0020_re610_0180_Sheet1_0002_Alt
-vo_pl0020_re610_0183_Sheet1_0000
-vo_pl0020_re710_0003_Sheet1_0000_Alt
-vo_pl0020_re710_0003_Sheet1_0000_Alt2
-vo_pl0020_re710_0003_Sheet1_0000_Alt3
-vo_pl0020_re710_0003_Sheet1_0001
-vo_pl0020_re710_0009_Sheet1_0000
-vo_pl0020_re710_0015_Sheet1_0001
-vo_pl0020_re710_5020_Sheet1_0000
-vo_pl0020_re710_5021_Sheet1_0000_F
-vo_pl0020_re710_5021_Sheet1_0000_S
-vo_pl0020_re710_5021_Sheet1_0002
-vo_pl0020_re710_5022_Sheet1_0000
-vo_pl0020_re710_5022_Sheet1_0001
-vo_pl0020_re710_5023_Sheet1_0000
-vo_pl0020_re710_5023_Sheet1_0002
-vo_pl0020_re710_5023_Sheet1_0004
-vo_pl0020_re710_5023_Sheet1_0006
-vo_pl0020_Rush
-vo_pl0020_Stumble
-vo_pl0020_Word_ComboFinish
-vo_pl0020_Word_Evade
-vo_pl0020_Word_Return
-vo_pl0020_Word_Taunt
-vo_pl0020_Word_Taunt_Laugh
-vo_pl0021_Charge
-vo_pl0021_Charge_Release
-vo_pl0021_Death_b
-vo_pl0021_Dodge
-vo_pl0021_HeavyAtk
-vo_pl0021_HeavyDam
-vo_pl0021_IG053
-vo_pl0021_LightAtk
-vo_pl0021_LightDam
-vo_pl0021_MidAtk
-vo_pl0021_MidDam
-vo_pl0021_re210_1502_Sheet1_0001
-vo_pl0021_re610_0030_Sheet1_0000
-vo_pl0021_re610_0060_Sheet1_0000
-vo_pl0021_re610_0111_Sheet1_0000
-vo_pl0021_re610_0112_Sheet1_0000
-vo_pl0021_re610_0114_Sheet1_0000
-vo_pl0021_re610_0117_Sheet1_0000
-vo_pl0021_re610_0168_Sheet1_0001
-vo_pl0021_re610_0171_Sheet1_0001
-vo_pl0021_re610_0180_Sheet1_0001
-vo_pl0021_re610_0181_Sheet1_0000
-vo_pl0021_re610_0182_Sheet1_0000_Alt
-vo_pl0021_Rush
-vo_pl0021_Stumble
-vo_pl0021_Word_ComboFinish
-vo_pl0021_Word_Eject_01
-vo_pl0021_Word_Eject_02
-vo_pl0021_Word_Eject_02_EV
-vo_pl0021_Word_Eject_03
-vo_pl0021_Word_Eject_04
-vo_pl0021_Word_Eject_05
-vo_pl0021_Word_Eject_06
-vo_pl0021_Word_Eject_06_EV
-vo_pl0021_Word_Evade
-vo_pl0021_Word_Return
-vo_pl0021_Word_Taunt
-vo_pl0022_Charge
-vo_pl0022_Charge_Release
-vo_pl0022_Death_b
-vo_pl0022_Dodge
-vo_pl0022_HeavyAtk
-vo_pl0022_HeavyDam
-vo_pl0022_IG081_01_Alt
-vo_pl0022_IG081_02
-vo_pl0022_IG105_01
-vo_pl0022_InfoLog_13_1
-vo_pl0022_InfoLog_13_2
-vo_pl0022_InfoLog_13_3
-vo_pl0022_InfoLog_13_4
-vo_pl0022_LightAtk
-vo_pl0022_LightDam
-vo_pl0022_MidAtk
-vo_pl0022_MidDam
-vo_pl0022_re310_0028_Sheet1_0000
-vo_pl0022_re310_002a_Sheet1_0000
-vo_pl0022_Rush
-vo_pl0022_Stumble
-vo_pl0022_Word_ComboFinish
-vo_pl0022_Word_Evade
-vo_pl0022_Word_Taunt
-vo_pl0023_Charge
-vo_pl0023_Charge_Release
-vo_pl0023_Death_b
-vo_pl0023_Dodge
-vo_pl0023_HeavyAtk
-vo_pl0023_HeavyDam
-vo_pl0023_LightAtk
-vo_pl0023_LightDam
-vo_pl0023_MidAtk
-vo_pl0023_MidDam
-vo_pl0023_Rush
-vo_pl0023_Stumble
-vo_pl0023_Word_ComboFinish
-vo_pl0023_Word_Evade
-vo_pl0023_Word_Taunt
-vo_pl0024_Charge
-vo_pl0024_Charge_Release
-vo_pl0024_Death_b
-vo_pl0024_Dodge
-vo_pl0024_HeavyAtk
-vo_pl0024_HeavyDam
-vo_pl0024_LightAtk
-vo_pl0024_LightDam
-vo_pl0024_MidAtk
-vo_pl0024_MidDam
-vo_pl0024_re710_0011_Sheet1_0000_F
-vo_pl0024_re710_0011_Sheet1_0000_S
-vo_pl0024_Rush
-vo_pl0024_Stumble
-vo_pl0024_Word_ComboFinish
-vo_pl0024_Word_Evade
-vo_pl0024_Word_Taunt
-vo_pl0025_Charge
-vo_pl0025_Charge_Release
-vo_pl0025_Death
-vo_pl0025_Dodge
-vo_pl0025_HeavyAtk
-vo_pl0025_HeavyDam
-vo_pl0025_LightAtk
-vo_pl0025_LightDam
-vo_pl0025_MidAtk
-vo_pl0025_MidDam
-vo_pl0025_Rush
-vo_pl0025_Stumble
-vo_pl0025_Word_ComboFinish
-vo_pl0025_Word_Evade
-vo_pl0026_Charge
-vo_pl0026_Charge_Release
-vo_pl0026_Death_b
-vo_pl0026_Dodge
-vo_pl0026_HeavyAtk
-vo_pl0026_HeavyDam
-vo_pl0026_LightAtk
-vo_pl0026_LightDam
-vo_pl0026_MidAtk
-vo_pl0026_MidDam
-vo_pl0026_Rush
-vo_pl0026_Stumble
-vo_pl0026_Word_ComboFinish
-vo_pl0026_Word_Evade
-vo_pl0027_Charge
-vo_pl0027_Charge_Release
-vo_pl0027_Death_b
-vo_pl0027_Dodge
-vo_pl0027_HeavyAtk
-vo_pl0027_HeavyAtk_EV
-vo_pl0027_HeavyDam
-vo_pl0027_LightAtk
-vo_pl0027_LightDam
-vo_pl0027_MidAtk
-vo_pl0027_MidDam
-vo_pl0027_Rush
-vo_pl0027_Stumble
-vo_pl0027_Word_ComboFinish
-vo_pl0027_Word_Counter_01
-vo_pl0027_Word_Evade
-vo_pl0027_Word_Return
-vo_pl0028_Charge
-vo_pl0028_Charge_Release
-vo_pl0028_Death_b
-vo_pl0028_Dodge
-vo_pl0028_HeavyAtk
-vo_pl0028_HeavyDam
-vo_pl0028_IG082
-vo_pl0028_LightAtk
-vo_pl0028_LightDam
-vo_pl0028_MidAtk
-vo_pl0028_MidDam
-vo_pl0028_Rush
-vo_pl0028_Stumble
-vo_pl0028_Word_ComboFinish
-vo_pl0028_Word_DriftAtk_01
-vo_pl0028_Word_Evade
-vo_pl0028_Word_Return
-vo_pl0028_Word_Serious_01
-vo_pl0028_Word_Taunt
-vo_pl0029_Charge
-vo_pl0029_Charge_Release
-vo_pl0029_Death_b
-vo_pl0029_Dodge
-vo_pl0029_HeavyAtk
-vo_pl0029_HeavyDam
-vo_pl0029_LightAtk
-vo_pl0029_LightDam
-vo_pl0029_MidAtk
-vo_pl0029_MidDam
-vo_pl0029_Rush
-vo_pl0029_Stumble
-vo_pl0029_Word_ComboFinish
-vo_pl0029_Word_Evade
-vo_pl002a_Charge
-vo_pl002a_Charge_Release
-vo_pl002a_Death_b
-vo_pl002a_Dodge
-vo_pl002a_HeavyAtk
-vo_pl002a_HeavyDam
-vo_pl002a_LightAtk
-vo_pl002a_LightDam
-vo_pl002a_MidAtk
-vo_pl002a_MidDam
-vo_pl002a_Rush
-vo_pl002a_Stumble
-vo_pl002a_Word_ComboFinish
-vo_pl002a_Word_Evade
-vo_pl002b_Charge
-vo_pl002b_Charge_Release
-vo_pl002b_Death_b
-vo_pl002b_Dodge
-vo_pl002b_HeavyAtk
-vo_pl002b_HeavyDam
-vo_pl002b_LightAtk
-vo_pl002b_LightDam
-vo_pl002b_MidAtk
-vo_pl002b_MidDam
-vo_pl002b_Rush
-vo_pl002b_Stumble
-vo_pl002b_Word_ComboFinish
-vo_pl002b_Word_Evade
-vo_pl002c_Charge
-vo_pl002c_Charge_Release
-vo_pl002c_Death_b
-vo_pl002c_Dodge
-vo_pl002c_HeavyAtk
-vo_pl002c_HeavyDam
-vo_pl002c_LightAtk
-vo_pl002c_LightDam
-vo_pl002c_MidAtk
-vo_pl002c_MidDam
-vo_pl002c_Rush
-vo_pl002c_Stumble
-vo_pl002c_Word_ComboFinish
-vo_pl002c_Word_Evade
-vo_pl002d_Charge
-vo_pl002d_Charge_Release
-vo_pl002d_Death_b
-vo_pl002d_Dodge
-vo_pl002d_HeavyAtk
-vo_pl002d_HeavyAtk_EV
-vo_pl002d_HeavyDam
-vo_pl002d_LightAtk
-vo_pl002d_LightDam
-vo_pl002d_MidAtk
-vo_pl002d_MidDam
-vo_pl002d_Rush
-vo_pl002d_Stumble
-vo_pl002d_Word_ComboFinish
-vo_pl002d_Word_Evade
-vo_pl002e_Charge
-vo_pl002e_Charge_Release
-vo_pl002e_CS114_02_a
-vo_pl002e_CS114_02_b
-vo_pl002e_CS114_02_c
-vo_pl002e_Death
-vo_pl002e_Dodge
-vo_pl002e_HeavyAtk
-vo_pl002e_HeavyDam
-vo_pl002e_LightAtk
-vo_pl002e_LightDam
-vo_pl002e_MidAtk
-vo_pl002e_MidDam
-vo_pl002e_Rush
-vo_pl002e_Stumble
-vo_pl002e_Word_ComboFinish
-vo_pl002e_Word_Evade
-vo_pl002e_Word_LaserAtk
-vo_pl002e_Word_Return
-vo_pl002e_Word_Sprit
-vo_pl002e_Word_Taunt
-vo_pl0030_Charge
-vo_pl0030_Charge_Release
-vo_pl0030_CS145
-vo_pl0030_Death_b
-vo_pl0030_Dodge
-vo_pl0030_HeavyAtk
-vo_pl0030_HeavyDam
-vo_pl0030_IG034_01
-vo_pl0030_LightAtk
-vo_pl0030_LightDam
-vo_pl0030_MidAtk
-vo_pl0030_MidDam
-vo_pl0030_Rush
-vo_pl0030_Stumble
-vo_pl0030_Word_ComboFinish
-vo_pl0031_Charge
-vo_pl0031_Charge_Release
-vo_pl0031_Death_b
-vo_pl0031_Dodge
-vo_pl0031_HeavyAtk
-vo_pl0031_HeavyDam
-vo_pl0031_IG034_01
-vo_pl0031_LightAtk
-vo_pl0031_LightDam
-vo_pl0031_MidAtk
-vo_pl0031_MidDam
-vo_pl0031_Rush
-vo_pl0031_Stumble
-vo_pl0031_Word_ComboFinish
-vo_pl0032_Charge
-vo_pl0032_Charge_Release
-vo_pl0032_Death_b
-vo_pl0032_Dodge
-vo_pl0032_HeavyAtk
-vo_pl0032_HeavyDam
-vo_pl0032_IG034_02
-vo_pl0032_LightAtk
-vo_pl0032_LightDam
-vo_pl0032_MidAtk
-vo_pl0032_MidDam
-vo_pl0032_Rush
-vo_pl0032_Stumble
-vo_pl0032_Word_ComboFinish
-vo_pl0033_Charge
-vo_pl0033_Charge_Release
-vo_pl0033_Death_b
-vo_pl0033_Dodge
-vo_pl0033_HeavyAtk
-vo_pl0033_HeavyDam
-vo_pl0033_IG034_01
-vo_pl0033_LightAtk
-vo_pl0033_LightDam
-vo_pl0033_MidAtk
-vo_pl0033_MidDam
-vo_pl0033_Rush
-vo_pl0033_Stumble
-vo_pl0033_Word_ComboFinish
-vo_pl0034_Charge
-vo_pl0034_Charge_Release
-vo_pl0034_CS145
-vo_pl0034_Death_b
-vo_pl0034_Dodge
-vo_pl0034_HeavyAtk
-vo_pl0034_HeavyDam
-vo_pl0034_IG034_02
-vo_pl0034_LightAtk
-vo_pl0034_LightDam
-vo_pl0034_MidAtk
-vo_pl0034_MidDam
-vo_pl0034_Rush
-vo_pl0034_Stumble
-vo_pl0034_Word_ComboFinish
-vo_pl0035_Charge
-vo_pl0035_Charge_Release
-vo_pl0035_Death_b
-vo_pl0035_Dodge
-vo_pl0035_HeavyAtk
-vo_pl0035_HeavyDam
-vo_pl0035_IG034_01
-vo_pl0035_LightAtk
-vo_pl0035_LightDam
-vo_pl0035_MidAtk
-vo_pl0035_MidDam
-vo_pl0035_Rush
-vo_pl0035_Stumble
-vo_pl0035_Word_ComboFinish
-vo_pl0036_Charge
-vo_pl0036_Charge_Release
-vo_pl0036_Death_b
-vo_pl0036_Dodge
-vo_pl0036_HeavyAtk
-vo_pl0036_HeavyAtk_EV
-vo_pl0036_HeavyDam
-vo_pl0036_LightAtk
-vo_pl0036_LightDam
-vo_pl0036_MidAtk
-vo_pl0036_MidDam
-vo_pl0036_Rush
-vo_pl0036_Stumble
-vo_pl0037_Charge
-vo_pl0037_Charge_Release
-vo_pl0037_Death_b
-vo_pl0037_Dodge
-vo_pl0037_HeavyAtk
-vo_pl0037_HeavyAtk_EV
-vo_pl0037_HeavyDam
-vo_pl0037_LightAtk
-vo_pl0037_LightDam
-vo_pl0037_MidAtk
-vo_pl0037_MidDam
-vo_pl0037_Rush
-vo_pl0037_Stumble
-vo_pl0038_Charge
-vo_pl0038_Charge_Release
-vo_pl0038_Death_b
-vo_pl0038_Dodge
-vo_pl0038_HeavyAtk
-vo_pl0038_HeavyAtk_EV
-vo_pl0038_HeavyDam
-vo_pl0038_LightAtk
-vo_pl0038_LightDam
-vo_pl0038_MidAtk
-vo_pl0038_MidDam
-vo_pl0038_Rush
-vo_pl0038_Stumble
-vo_pl0040_Charge
-vo_pl0040_Charge_Release
-vo_pl0040_Death_b
-vo_pl0040_Dodge
-vo_pl0040_HeavyAtk
-vo_pl0040_HeavyDam
-vo_pl0040_LightAtk
-vo_pl0040_LightDam
-vo_pl0040_MidAtk
-vo_pl0040_MidDam
-vo_pl0040_Rush
-vo_pl0040_Stumble
-vo_pl0040_Word_ComboFinish
-vo_pl0040_Word_Evade
-vo_pl0040_Word_Extra_01
-vo_pl0040_Word_Return
-vo_pl0040_Word_Taunt
-vo_pl0100_Charge
-vo_pl0100_Charge_Release
-vo_pl0100_Death
-vo_pl0100_Dodge
-vo_pl0100_HeavyAtk
-vo_pl0100_HeavyDam
-vo_pl0100_HeavyDam_EV
-vo_pl0100_LightAtk
-vo_pl0100_LightDam
-vo_pl0100_MidAtk
-vo_pl0100_MidDam
-vo_pl0100_Rush
-vo_pl0100_Stumble
-vo_pl0100_Word_ComboFinish
-vo_pl0100_Word_Taunt
-vo_pl0110_Charge
-vo_pl0110_Charge_Release
-vo_pl0110_CS145
-vo_pl0110_Death
-vo_pl0110_Dodge
-vo_pl0110_HeavyAtk
-vo_pl0110_HeavyDam
-vo_pl0110_HeavyDam_EV
-vo_pl0110_LightAtk
-vo_pl0110_LightDam
-vo_pl0110_MidAtk
-vo_pl0110_MidDam
-vo_pl0110_Rush
-vo_pl0110_Stumble
-vo_pl0110_Word_ComboFinish
-vo_pl0110_Word_Taunt
+
+### EVENT NAMES (vo_rf02.bnk)
 vo_rf02_Title_Random
 vo_rf02_Title_Single
-vo_TL1_IG045_01
-vo_TL1_IG045_02_a_F
-vo_TL1_IG045_02_a_S
-vo_TL1_IG045_02_b
-vo_TL1_IG047A
-vo_TL1_IG047A_Alt
-vo_TL1_IG054C_F
-vo_TL1_IG054C_S
-vo_TL1_IG058
-vo_TL1_IG121_a
-vo_TL1_IG121_b
-vo_TL1_re120_0013_Sheet1_0000_Alt
-vo_TL1_re120_0013_Sheet5_0000
-vo_TL1_re120_0016_Sheet1_0001_F
-vo_TL1_re120_0016_Sheet1_0001_S
-vo_TL1_re120_0028_Sheet1_0000
-vo_TL1_re210_0402_Sheet1_0000
-vo_TL1_re210_0403_Sheet1_0000_F
-vo_TL1_re210_0403_Sheet1_0000_S
-vo_TL1_re210_0490_Sheet1_0003_Alt
-vo_TL1_re210_1500_Sheet1_0000
-vo_TL1_re210_1500_Sheet1_0001
-vo_TL1_re310_0024_Sheet1_0002
-vo_TL1_re310_0024_Sheet1_0003
-vo_TL1_re310_0025_Sheet1_0001
-vo_TL1_re310_0025_Sheet1_0003
-vo_TL1_re410_0200_Sheet1_0000
-vo_TL1_re410_4020_Sheet1_0000
-vo_TLA_IG065_00_Alt
-vo_TLA_IG065_01_Alt
-vo_TLA_IG065_02_a_Alt
-vo_TLA_IG065_02_b_Alt
-vo_TLA_IG065_04_Alt
-vo_TLA_IG065_05_a_Alt
-vo_TLA_IG065_05_b_Alt
-vo_TLA_IG065_06_Alt
-vo_TLA_IG065_07_Alt
-vo_TLA_IG065_08_a_Alt
-vo_TLA_IG065_08_b_Alt
-vo_TLA_IG065_09_a_Alt
-vo_TLA_IG065_09_b_Alt
-vo_TLA_IG065_10_Alt
-vo_TLA_IG065_11_Alt_F
-vo_TLA_IG065_11_Alt_S
-vo_TLA_IG065_12_Alt
-vo_TLA_IG065_13_Alt
-vo_TLA_IG065_14_Alt
-vo_TLA_IG065_15_Alt
-vo_TLA_IG065_16_Alt
-vo_TLA_IG065_18_Alt
-wp0002_ShotGun_Shot
-wp0002_ShotGun_Slide
-wp0003_GelGrenade_Shot
-wp0003_Grenade_Shot
-wp0004_Rifle_Shot
-wp0009_WireGun_Shot
-wp0010_LargeShot
-wp0010_MegatronGun_Shot
-wp0013_StarscreamShot
-wp0014_TransErr_Shot
-wp0068_GelGun
-wp006d_LoudSpeaker
-wp0087_BombSet
-wp0093_Cyclone_Loop
-wp0093_Cyclone_Shot
-wp00aa_DrillImpact
-wp00c5_EnergyThrower_Loop
-wp00c5_FlameThrower_Loop
-wp00c5_IceThrower_Loop
-wp00c8_LaserGun_Loop
-wp0100_Axe_GroundImpact
-wp0100_Axe_HiWhoosh
-wp0100_Axe_LoWhoosh
-wp0100_Axe_Scrape
-wp0100_Axe_Swish
-wp0100_MaxSwish
-wp0114_Cutter_Loop
-wp0114_Cutter_Swish
-wp011c_Drill_Roll_Loop
-wp011c_Drill_Shot
-wp011c_Drill_Swish
-wp011f_Bulk_Roll_Loop
-wp011f_Bulk_Swish
-wp0120_Hammer_Impact
-wp0120_Hammer_Swish
-wp0130_SwordRoll_01
-wp0130_SwordRoll_02
-wp0130_Sword_Swish
-wp0150_Bullet_Guard
-wp0160_WSwordStab
-wp0160_WSwordSwish
-wp0200_S_Grenade_Shot
-wp0201_Rocket_Shot
-wp_0000_Shot
-wp_0001_Shot
-wp_000e_Shot
 
+### SFX NAMES (vo_rf02.bnk)
+Echoes_Linear
+# 829429112
 
-gr_art
-gr_art_character
-gr_art_generations
-gr_art_game
-gr_art_scene
-gr_art_stage
+### RTPC/GAME-VARIABLE NAMES (vo_rf02.bnk)
+SE_CharaType
+
+### EVENT NAMES (vo_rf03.bnk)
+gallery_pl0000_01
+gallery_pl0000_02
+gallery_pl0000_03
+gallery_pl0001_01
+gallery_pl0001_02
+gallery_pl0001_03
+gallery_pl0002_01
+gallery_pl0002_02
+gallery_pl0002_03
+gallery_pl0003_01
+gallery_pl0003_02
+gallery_pl0003_03
+gallery_pl0004_01
+gallery_pl0004_02
+gallery_pl0004_03
+gallery_pl0005_01
+gallery_pl0005_02
+gallery_pl0005_03
+gallery_pl0006_01
+gallery_pl0006_02
+gallery_pl0006_03
+gallery_pl0007_01
+gallery_pl0007_02
+gallery_pl0007_03
+gallery_pl0020_01
+gallery_pl0020_02
+gallery_pl0020_03
+gallery_pl0021_01
+gallery_pl0021_02
+gallery_pl0021_03
+gallery_pl0021_04
+gallery_pl0022_01
+gallery_pl0022_02
+gallery_pl0022_03
+gallery_pl0023_01
+gallery_pl0023_02
+gallery_pl0023_03
+gallery_pl0024_01
+gallery_pl0024_02
+gallery_pl0024_03
+gallery_pl0025_01
+gallery_pl0025_02
+gallery_pl0025_03
+gallery_pl0026_01
+gallery_pl0026_02
+gallery_pl0026_03
+gallery_pl0027_01
+gallery_pl0027_02
+gallery_pl0027_03
+gallery_pl0028_01
+gallery_pl0028_02
+gallery_pl0028_03
+gallery_pl0029_01
+gallery_pl0029_02
+gallery_pl0029_03
+gallery_pl002a_01
+gallery_pl002a_02
+gallery_pl002a_03
+gallery_pl002b_01
+gallery_pl002b_02
+gallery_pl002b_03
+gallery_pl002c_01
+gallery_pl002c_02
+gallery_pl002c_03
+gallery_pl002d_01
+gallery_pl002d_02
+gallery_pl002d_03
+gallery_pl002e_01
+gallery_pl002e_02
+gallery_pl002e_03
+gallery_pl0030_01
+gallery_pl0030_02
+gallery_pl0030_03
+gallery_pl0031_01
+gallery_pl0031_02
+gallery_pl0031_03
+gallery_pl0032_01
+gallery_pl0032_02
+gallery_pl0032_03
+gallery_pl0033_01
+gallery_pl0033_02
+gallery_pl0033_03
+gallery_pl0034_01
+gallery_pl0034_02
+gallery_pl0034_03
+gallery_pl0035_01
+gallery_pl0035_02
+gallery_pl0035_03
+gallery_pl0036_01
+gallery_pl0037_01
+gallery_pl0038_01
+gallery_pl0040_01
+gallery_pl0040_02
+gallery_pl0040_03
+gallery_pl0100_01
+gallery_pl0100_02
+gallery_pl0100_03
+gallery_pl0110_01
+gallery_pl0110_02
+gallery_pl0110_03
+
+### SFX NAMES (vo_rf03.bnk)
+# 3509832175

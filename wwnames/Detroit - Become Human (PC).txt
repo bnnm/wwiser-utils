@@ -25259,3 +25259,7 @@ Pause_K01_Amb_Emit_Outside_RainOnWindows_ToddRoom
 Pause_K03_Amb_Int_Coffee
 #759151908   : Set_Switch_K04
 #2626507350  : Set_Switch_K04_FlashBack
+
+
+3570285584  : Global_BusVolume_Ambient
+3072094724  : Global_Dialog_Level
