@@ -1,0 +1,3245 @@
+#@nofuzzy
+#@classify-bank
+
+### BANK NAMES
+BGM
+core
+Init
+
+### LANGUAGE NAMES
+SFX
+
+### BUS NAMES
+BGM
+bgm_3d
+bgm_3d_circus_tram
+bgm_3d_circus_tram_happening
+bgm_Event
+bgm_ingame
+bgm_ingame_Battle_Inst
+bgm_ingame_Battle_Melo
+bgm_ingame_inst
+bgm_ingame_Melo
+bgm_ingame_Normal
+bgm_jingle
+BGM_jingle_Battle
+BGM_music
+BGM_SubMenu
+layered
+Master Audio Bus = 0
+SE_event
+SE_event_Mid_Duck
+SE_inGame
+SE_Ingame_Mid_Duck
+SE_Ingame_system_Page
+se_premaster
+se_premaster_Event
+se_premaster_ingame
+Se_System_Bus
+vo_event
+vo_Event_Mid_Duck
+vo_Event_Mid_Duck_Narration
+vo_ingame
+VO_Ingame_Action
+VO_Ingame_dialogue
+# 211527625
+# 3652905547
+# 2497476059
+# 1294010053
+# 3332201792
+# 4163673027
+# 2209971421
+# 150933312
+# 2654217949
+# 1184661765
+# 773835687
+# 2962048297
+# 938829190
+# 1109456187
+# 735379473
+# 847733551
+# 2496055096
+# 1587559678
+# 324360600
+# 2364098504
+# 769299547
+# 2817137294
+# 837947616
+# 2984391557
+# 1208948603
+# 171807370
+# 237723258
+# 3358335579
+# 655083348
+# 2019156365
+# 1331408978
+# 2345130387
+# 801893112
+# 3371453126
+# 2404967146
+# 524776429
+# 3705504838
+# 55073224
+# 3859129320
+# 3859129331
+# 3859129334
+# 535069875
+# 1683843919
+# 1683843921
+# 1683843924
+# 959550473
+# 3707008234
+# 3707008239
+# 3707008241
+# 1294406555
+# 3398793865
+# 3398793868
+# 3398793879
+# 1519132716
+# 2317740524
+# 2317740530
+# 2317740535
+# 1826809850
+# 4203918190
+# 4203918192
+# 4203918197
+# 2314753178
+# 929019726
+# 929019728
+# 929019733
+# 2348132668
+# 1809878722
+# 1809878727
+# 2766264546
+# 1388405160
+# 1388405165
+# 1388405174
+# 2812531963
+# 514362153
+# 514362156
+# 514362167
+# 3225851856
+# 1340931467
+# 1340931470
+# 1340931472
+# 3327013834
+# 2706697984
+# 2706697989
+# 2706698014
+# 3544068740
+# 211633668
+# 211633690
+# 211633695
+# 3622322844
+# 574226658
+# 574226663
+# 574226684
+
+### EVENT NAMES (BGM.bnk)
+BGM_area_illusion_stairs_long
+BGM_area_illusion_stairs_off
+BGM_area_illusion_stairs_short
+BGM_battle_in_CheshireRide
+BGM_battle_in_jabberwock_1
+BGM_battle_in_jabberwock_1_noIntro
+BGM_battle_in_jabberwock_1_noMelo
+BGM_battle_in_jabberwock_2
+BGM_battle_in_jabberwock_2_noMelo
+BGM_battle_in_jabberwock_2_noMeloBrs
+BGM_battle_in_lucaon_1
+BGM_battle_in_lucaon_1_noMelo
+BGM_battle_in_lucaon_1_Phase2
+BGM_battle_in_lucaon_1_phase3
+BGM_battle_in_lucaon_2
+BGM_battle_in_lucaon_2_noMelo
+BGM_battle_in_lucaon_2_phase3_finish_a
+BGM_battle_in_lucaon_2_phase3_finish_b
+BGM_battle_in_lucaon_2_phase3_finish_c
+BGM_battle_in_middle_boss
+BGM_battle_in_middle_boss_2
+BGM_battle_in_morgana_1
+BGM_battle_in_morgana_1_loopOnly
+BGM_battle_in_morgana_1_reset
+BGM_battle_in_morgana_2_PHASE2_EVENT
+BGM_battle_in_morgana_2_phase2_inGame
+BGM_battle_in_morgana_2_phase3
+BGM_battle_in_morgana_2_phase3_finish
+BGM_battle_in_morgana_2_phase3_full
+BGM_battle_in_morgana_2_phase3_QTE_init
+BGM_battle_in_morgana_2_reset
+BGM_battle_in_normal
+BGM_battle_in_normal_BarrierNormal
+BGM_battle_in_normal_BarrierNormal_Fortress
+BGM_battle_in_normal_NoBarrierMini
+BGM_battle_in_normal_NoBarrierNormal
+BGM_battle_in_normal_NoBarrierNormal_Fortress
+BGM_battle_in_normal_NoBarrierNormal_noHappy
+BGM_battle_in_p400_finish
+BGM_battle_in_p400_finish_init
+BGM_battle_in_pooka
+BGM_battle_in_pooka_2
+BGM_battle_in_pooka_loopOnly
+BGM_battle_in_pooka_noMeloBrs
+BGM_battle_in_singularity_1
+BGM_battle_in_singularity_2
+BGM_battle_in_small_boss
+BGM_battle_intro1
+BGM_battle_intro2
+BGM_battle_intro_timeattack
+BGM_battle_out
+BGM_battle_out_BarrierNormal
+BGM_battle_out_Fortress
+BGM_battle_out_sneak_p365
+BGM_battle_unite
+BGM_battle_win1
+BGM_battle_win1_duck_in
+BGM_battle_win1_duck_in_timeattack
+BGM_battle_win1_duck_out
+BGM_battle_win1_duck_out_timeattack
+BGM_battle_win1_stop
+BGM_battle_win1_timeattack
+BGM_battle_win1_timeattack_mission
+BGM_battle_win2
+BGM_battle_win2_beforeEvent
+BGM_battle_win2_beforeEvent_duck_in
+BGM_battle_win2_beforeEvent_duck_out
+BGM_battle_win2_duck_in
+BGM_battle_win2_duck_out
+BGM_battle_win3
+BGM_bossarea_In
+BGM_bossarea_OUT
+BGM_cave_in
+BGM_cave_in_jabberwock
+BGM_cave_out
+BGM_cave_out_jabberwock
+BGM_chase_wolf_in
+BGM_chase_wolf_last_in_A
+BGM_chase_wolf_last_in_B
+BGM_chase_wolf_last_in_C
+BGM_chase_wolf_last_out
+BGM_chase_wolf_out
+BGM_chest_duck_in
+BGM_chest_duck_out
+BGM_chest_Lv2
+BGM_chest_Lv3
+BGM_chest_mimic
+BGM_chest_mimic_duck_out
+BGM_circus_tram_Appear
+BGM_circus_tram_boss_duck_in
+BGM_circus_tram_boss_duck_out
+BGM_circus_tram_fail
+BGM_circus_tram_succeed
+BGM_core_UI_Costume_duck_in_1_resume
+BGM_core_UI_Costume_duck_in_3_resume
+BGM_core_UI_Costume_duck_in_4_resume
+BGM_core_UI_Costume_duck_in_5_resume
+BGM_costume_room_in
+BGM_costume_room_skip
+BGM_DM_mute_1000ms
+BGM_DM_mute_2000ms
+BGM_DM_mute_3000ms
+BGM_DM_mute_4000ms
+BGM_DM_mute_5000ms
+BGM_DM_mute_6000ms
+BGM_DM_mute_7000ms
+BGM_DM_mute_8000ms
+BGM_DM_mute_9000ms
+BGM_DM_pause
+BGM_DM_resume
+BGM_DM_unmute_1000ms
+BGM_DM_unmute_2000ms
+BGM_DM_unmute_3000ms
+BGM_DM_unmute_4000ms
+BGM_DM_unmute_5000ms
+BGM_DM_unmute_6000ms
+BGM_DM_unmute_7000ms
+BGM_DM_unmute_8000ms
+BGM_DM_unmute_9000ms
+BGM_ElementCore_Hit
+BGM_end_credits
+BGM_end_credits_skip
+BGM_enemy_appear_big
+BGM_enemy_appear_duck_in
+BGM_enemy_appear_duck_out
+BGM_enemy_appear_Small
+BGM_et9020_event_in
+bgm_ev000055_inGame_resume
+BGM_ev000070_ev_m05_play_pause
+BGM_ev000070_ev_m05_resume
+BGM_ev0010_set_None
+BGM_ev0020_event_in_1
+BGM_ev0020_event_in_2
+BGM_ev0020_event_in_3
+BGM_ev0020_event_stop
+BGM_ev002130_DM_mute
+BGM_ev003020_inGame_volume_down
+BGM_ev003020_inGame_volume_reset
+BGM_ev003030_inGame_in
+BGM_ev003030_inGame_volume_reset
+BGM_ev003035_ev_m21_noPf_play
+BGM_ev004090_ev_m21_noPf_play_01
+BGM_ev004100_inGame_volume_down
+BGM_ev004100_inGame_volume_reset
+BGM_ev006010_ev_m28_play_pause
+BGM_ev006010_ev_m28_resume
+BGM_ev006020_ev_m13_noStr
+BGM_ev006020_ev_m13_noStr_play_pause
+BGM_ev006020_event_stop
+BGM_ev006020_m09_event
+BGM_ev1000_event_stop_1
+BGM_ev1000_event_stop_2
+BGM_ev1020_ev_m09_play
+BGM_ev1020_ev_m09_stop
+BGM_ev1020_ev_m13_play_pause
+BGM_ev1020_ev_m13_resume
+BGM_ev1020_event_stop
+BGM_ev1020_inGame_stop
+BGM_ev1050_event_in
+BGM_ev1050_event_loop
+BGM_ev3010_Battle_In
+BGM_ev3010_inGame_set_none
+BGM_ev3020_inGame_set_none
+BGM_ev3020_inGame_volume_down
+BGM_ev3020_inGame_volume_reset
+BGM_ev3030_Battle_In
+BGM_ev3030_event_stop
+BGM_ev3030_RTPC_reset
+BGM_ev4000_event_stop
+BGM_ev4020_enemy_appear
+BGM_ev4020_event_pause
+BGM_ev4020_event_resume
+BGM_ev4020_event_stop
+BGM_ev4020_event_stop_2
+BGM_ev4020_event_stop_3
+BGM_ev4020_ingame_reset
+BGM_ev4020_ingame_set_none
+BGM_ev4060_event_stop
+BGM_ev4060_ingame_reset
+BGM_ev4060_ingame_set_none
+BGM_ev4080_event_stop
+BGM_ev4080_ingame_set_none
+BGM_ev4090_inGame_set_none
+bgm_ev4090_reset_rosa
+BGM_ev4090_set_rosa
+BGM_ev6000_event_stop
+BGM_ev6000_event_stop_2
+BGM_ev6010_event_in
+BGM_ev6010_event_stop
+BGM_ev6020_ev_m34_play_pause
+BGM_ev6020_ev_m34_resume
+BGM_ev6020_event_in_1
+BGM_ev6020_event_in_2
+BGM_ev6020_event_stop_1
+BGM_ev6020_event_stop_2
+BGM_ev6030_event_in_1
+BGM_ev6030_event_in_2
+BGM_ev6030_event_stop_1
+BGM_ev6030_event_stop_2
+BGM_ev6030_event_stop_3
+BGM_ev6100_in
+BGM_ev6100_inGame_set_none
+BGM_ev6100_skip
+BGM_ev7000_event_in
+BGM_ev7010_event_in
+BGM_ev7020_event_in
+BGM_ev9000_event_in
+BGM_ev9010_event_in_1
+BGM_ev9010_event_in_2
+BGM_EV9060_event_in_1
+BGM_ev_inGame_volume_down_2000ms
+BGM_ev_inGame_volume_down_4000ms
+BGM_ev_inGame_volume_reset_2000ms
+BGM_ev_inGame_volume_reset_4000ms
+BGM_ev_m01
+BGM_ev_m01_theme
+BGM_ev_m02
+bgm_ev_m03
+BGM_ev_m03_noPf
+BGM_ev_m03_noStr
+bgm_ev_m04
+BGM_ev_m05
+bgm_ev_m05_noPf
+bgm_ev_m05_noStr
+BGM_ev_m06
+BGM_ev_m07
+BGM_ev_m07_pt1
+BGM_ev_m07_pt2_LP
+BGM_ev_m07_pt2_LP_State
+BGM_ev_m08_jg
+BGM_ev_m09
+BGM_ev_m10_jg
+BGM_ev_m10_jg_Short
+BGM_ev_m10_jg_Short_2
+BGM_ev_m11
+BGM_ev_m12_short
+BGM_ev_m13
+bgm_ev_m13_noStr
+BGM_ev_m15_Intro_loop
+BGM_ev_m15_Outro
+BGM_ev_m16
+BGM_ev_m16_Intro
+BGM_ev_m16_noIntro
+BGM_ev_m17
+BGM_ev_m18_A
+BGM_ev_m18_B
+bgm_ev_m21
+bgm_ev_m21_noPf
+bgm_ev_m23
+bgm_ev_m23_noPf
+bgm_ev_m23_noPf_02
+bgm_ev_m23_noPf_03
+bgm_ev_m25
+bgm_ev_m26
+bgm_ev_m26_02
+bgm_ev_m26_03_Intro
+bgm_ev_m26_03_Switch
+bgm_ev_m27
+bgm_ev_m27_03_jg
+bgm_ev_m27_04_jg
+bgm_ev_m27_Intro
+bgm_ev_m27_jg
+bgm_ev_m27_noIntro
+bgm_ev_m27_noIntro_em_hit_H
+bgm_ev_m27_noIntro_em_hit_I
+bgm_ev_m27_noIntro_em_hit_J
+bgm_ev_m27_noIntro_em_hit_k
+bgm_ev_m27_noIntro_em_Hit_L
+bgm_ev_m27_noIntro_em_hit_M
+bgm_ev_m27_noIntro_noStr
+bgm_ev_m27_noStr
+bgm_ev_m28
+bgm_ev_m29
+bgm_ev_m31
+bgm_ev_m31_Intro
+bgm_ev_m31_jg
+bgm_ev_m34
+bgm_ev_m36
+bgm_ev_m37
+bgm_ev_m38
+bgm_ev_m39
+bgm_ev_m39_Intro
+BGM_ev_m40
+BGM_ev_m40_LP
+BGM_ev_m41_a
+BGM_ev_m41_B
+BGM_ev_m42_jg
+BGM_ev_m43_a
+BGM_ev_m43_B
+BGM_ev_m44_a
+BGM_ev_m44_B
+BGM_ev_m45
+BGM_ev_m46
+BGM_ev_m47_jg
+BGM_ev_m49
+BGM_ev_m49_b
+BGM_ev_m50_jg
+BGM_ev_m51_jg
+BGM_ev_m52_jg
+BGM_ev_m53_jg
+bgm_ev_m54_jg
+BGM_ev_m55_jg
+bgm_ev_m56
+bgm_ev_m57
+BGM_ev_m58_jg
+BGM_ev_m59_jg
+bgm_event_pause
+bgm_event_resume
+BGM_event_stop_1000ms
+BGM_event_stop_1500ms
+BGM_event_stop_2000ms
+BGM_event_stop_3000ms
+BGM_event_stop_4000ms
+BGM_event_stop_5000ms
+BGM_event_stop_500ms
+BGM_event_stop_6000ms
+BGM_event_stop_7000ms
+BGM_event_stop_8000ms
+BGM_event_stop_9000ms
+BGM_exorcise_clear_map
+BGM_exorcise_clear_map_2
+BGM_exorcise_clear_map_p237
+BGM_fasttravel_demo_in
+BGM_FastTravel_Demo_Out
+BGM_FastTravel_Map_In
+BGM_FastTravel_Map_Out_Back
+BGM_FastTravel_Talk
+BGM_fasttravel_talk2_in
+BGM_fasttravel_talk2_out
+BGM_fasttravel_talk3_in
+BGM_fasttravel_talk3_out
+bgm_fear_set_max
+bgm_fear_set_min
+BGM_GameOver
+BGM_gameover_bus_mute
+BGM_gameover_menu
+BGM_Gimmick_Clear_promo
+BGM_Gimmick_Clear_promo_duck_in
+BGM_Gimmick_Clear_promo_duck_out
+BGM_happening_fortress_in
+BGM_happening_fortress_out
+BGM_illusion_Back_pre
+BGM_illusion_Enter
+BGM_illusion_fadeIn
+BGM_illusion_fadeIn_2
+bgm_illusion_fadeIn_timeattack
+bgm_illusion_fun_goal
+bgm_illusion_fun_init
+bgm_illusion_fun_retry
+bgm_illusion_fun_retry_2
+bgm_illusion_fun_start
+BGM_Illusion_Gimmick_Clear2
+BGM_Illusion_Gimmick_Clear2_duck_in
+BGM_Illusion_Gimmick_Clear2_duck_out
+BGM_illusion_goal_clear
+BGM_illusion_goal_core
+BGM_illusion_goal_in
+BGM_illusion_goal_out
+BGM_Illusion_Out_Clear_Long
+BGM_illusion_out_clear_map_in
+BGM_illusion_out_clear_map_out
+BGM_illusion_out_inGame_pause
+BGM_illusion_out_inGame_resume
+BGM_illusion_retry_clear
+BGM_illusion_retry_clear_duck_in
+BGM_illusion_retry_clear_duck_out
+BGM_illusion_return
+BGM_illusion_return_2
+BGM_illusion_return_3
+BGM_illusion_rule_in
+BGM_illusion_rule_out
+BGM_illusion_small_danger_in_pt1
+BGM_illusion_small_danger_in_pt2
+BGM_illusion_small_danger_init
+BGM_illusion_small_danger_out_pt2
+BGM_illusion_small_fun_goal
+BGM_illusion_small_fun_in_pt1
+BGM_illusion_small_fun_in_pt2
+BGM_illusion_small_fun_init
+BGM_illusion_small_fun_out_pt2
+BGM_illusion_small_fun_start
+BGM_illusion_small_goal_in
+BGM_illusion_small_goal_out
+BGM_illusion_small_inGame_mute
+BGM_illusion_small_inGame_unmute
+BGM_illusion_small_Normal_goal
+BGM_illusion_small_Normal_in_pt1
+BGM_illusion_small_Normal_in_pt2
+BGM_illusion_small_Normal_init
+BGM_illusion_small_Normal_out_pt2
+BGM_illusion_small_out_clear_pt1
+BGM_illusion_small_out_clear_pt2
+BGM_illusion_small_out_pt1
+BGM_illusion_small_Tension_goal
+BGM_illusion_small_Tension_in_pt1
+BGM_illusion_small_Tension_in_pt2
+BGM_illusion_small_Tension_init
+BGM_illusion_small_Tension_out_pt2
+BGM_Illusion_Task_Clear1
+BGM_Illusion_Task_Clear1_duck_in
+BGM_Illusion_Task_Clear1_duck_out
+bgm_illusion_Tension_goal
+bgm_illusion_Tension_init
+BGM_illusion_Tension_Outro
+BGM_illusion_timeattack_clear
+BGM_illusion_timeattack_clear_duck_in
+BGM_illusion_timeattack_clear_duck_out
+BGM_illusion_timeattack_goal
+BGM_illusion_timeattack_start
+BGM_inGame_Mute_0ms
+bgm_ingame_mute_1000ms
+bgm_ingame_mute_2000ms
+bgm_ingame_mute_3000ms
+bgm_ingame_mute_4000ms
+bgm_ingame_mute_5000ms
+BGM_inGame_Mute_500ms
+bgm_ingame_mute_6000ms
+bgm_ingame_mute_7000ms
+bgm_ingame_mute_8000ms
+bgm_ingame_mute_9000ms
+BGM_inGame_pause_0ms
+BGM_inGame_pause_1000ms
+BGM_inGame_pause_1500ms
+BGM_inGame_pause_2000ms
+BGM_inGame_pause_3000ms
+BGM_inGame_pause_4000ms
+BGM_inGame_pause_5000ms
+bgm_ingame_pause_500ms
+BGM_inGame_pause_6000ms
+BGM_inGame_pause_7000ms
+BGM_inGame_pause_8000ms
+bgm_ingame_pause_9000ms
+BGM_inGame_resume_0ms
+BGM_inGame_resume_1000ms
+BGM_inGame_resume_1500ms
+BGM_inGame_resume_2000ms
+BGM_inGame_resume_3000ms
+BGM_inGame_resume_4000ms
+BGM_inGame_resume_5000ms
+BGM_inGame_resume_500ms
+BGM_inGame_resume_6000ms
+BGM_inGame_resume_7000ms
+BGM_inGame_resume_8000ms
+BGM_inGame_resume_9000ms
+BGM_inGame_unmute_0ms
+bgm_ingame_unmute_1000ms
+bgm_ingame_unmute_2000ms
+bgm_ingame_unmute_3000ms
+bgm_ingame_unmute_4000ms
+bgm_ingame_unmute_5000ms
+BGM_inGame_unmute_500ms
+bgm_ingame_unmute_6000ms
+bgm_ingame_unmute_7000ms
+bgm_ingame_unmute_8000ms
+bgm_ingame_unmute_9000ms
+BGM_inGame_volume_reset_0ms
+BGM_jingle_battle_boss_duck_in
+BGM_jingle_battle_boss_duck_out
+BGM_jingle_cancel
+BGM_last_dungeon_continue
+BGM_level_promo_em_Burn
+BGM_Load_in
+BGM_Load_out
+BGM_load_out_play
+BGM_lucaon_altar_noKBD
+BGM_Mainworld_Gimmick_Clear
+BGM_Mainworld_Gimmick_Clear2
+BGM_Mainworld_Gimmick_Clear3
+BGM_Mainworld_Gimmick_Clear3_duck_out
+BGM_Mainworld_Gimmick_Clear3_start
+BGM_Mainworld_Gimmick_Clear_duck_in
+BGM_Mainworld_Gimmick_Clear_duck_out
+BGM_Mainworld_Gimmick_Clear_start
+BGM_Mainworld_Task_Clear1
+BGM_Mainworld_Task_Clear1_duck_in
+BGM_Mainworld_Task_Clear1_duck_out
+BGM_Mainworld_Task_Clear2
+BGM_Mainworld_Task_Clear2_duck_in
+BGM_Mainworld_Task_Clear2_duck_out
+BGM_Mainworld_timewisp_1
+BGM_Mainworld_timewisp_2
+BGM_Mainworld_timewisp_3
+BGM_Mainworld_timewisp_4
+BGM_Mainworld_timewisp_5
+BGM_Mainworld_timewisp_6
+BGM_Mainworld_timewisp_duck_in
+BGM_Mainworld_timewisp_duck_out
+BGM_menu_DM_mute
+BGM_menu_DM_unmute
+BGM_moonpearl_in
+BGM_moonpearl_out
+BGM_moonpearl_pull_LV1
+BGM_moonpearl_pull_LV2
+BGM_moonpearl_pull_LV3
+BGM_ot_circus_enemy
+BGM_ot_circus_enemy_noIntro
+BGM_ot_morgana_transmission
+BGM_p100_inGame_volume_down
+BGM_p100_inGame_volume_reset
+BGM_p120_clear
+BGM_p120_inGame_volume_down
+BGM_p120_inGame_volume_reset
+BGM_p120_mandragora_in
+BGM_p120_mandragora_out
+BGM_p120_night_promo
+BGM_p140_ev1050_event_in
+BGM_p140_ev1050_play_pause
+BGM_p140_ev1050_resume
+BGM_p140_inGame_volume_down
+BGM_p140_inGame_volume_reset
+BGM_p140_rollingLog_in
+BGM_p140_rollingLog_out
+BGM_p201_inGame_volume_down
+BGM_p201_inGame_volume_reset
+BGM_p202_inGame_resume
+BGM_p204_inGame_volume_down
+BGM_p204_inGame_volume_reset
+bgm_p209_inGame_unmute
+BGM_p212_inGame_mute
+BGM_p212_inGame_unmute
+BGM_p213_ba5042_clear
+BGM_p213_task_clear
+BGM_p215_ev2070_jg_stop
+BGM_p215_inGame_volume_down
+BGM_p215_inGame_volume_reset
+BGM_p227_ba5600_clear
+BGM_p231_ba5041_clear
+BGM_p235_ba5040_clear
+BGM_p237_wisp_guide_in
+BGM_p239_DMwisp_solo_mute
+BGM_p239_DMwisp_solo_unmute
+BGM_p239_DMwisp_solo_volume_down
+BGM_p239_DMwisp_solo_volume_reset
+BGM_p239_inGame_pause_2000ms
+BGM_p239_inGame_resume_4000ms
+BGM_p242_ev3190_ingame_set_none
+BGM_p251_ev3070_inGame_mute
+BGM_p251_ev3070_inGame_unmute
+BGM_p253_ev3080_battle_in
+BGM_p253_ev3080_battle_out
+BGM_p253_jabberwock_shadow
+BGM_p257_inGame_volume_down
+BGM_p257_inGame_volume_reset
+BGM_p267_ev3120_clear
+BGM_p267_jabberwock_in
+BGM_p267_jabberwock_out
+BGM_p269_ev3140_clear
+BGM_p274_gimmick_clear
+BGM_p274_task_clear
+BGM_p275_gimmick_clear
+BGM_p287_happening_fortress_in_A
+BGM_p287_inGame_volume_down
+BGM_p287_inGame_volume_reset
+BGM_p291_happening_fortress_in_B
+BGM_p291_inGame_mute
+BGM_p291_inGame_unmute
+BGM_p291_inGame_volume_down
+BGM_p291_inGame_volume_reset
+BGM_p293_ev4100_jg_in
+BGM_p293_ev4100_jg_stop
+BGM_p293_ev4100_skip
+BGM_p293_ev4110_sneaking_in
+BGM_p293_inGame_volume_down
+BGM_p293_inGame_volume_reset
+BGM_p293_volume_reset_2000ms
+BGM_p294_set_mainworld
+bgm_p2b1_ev5010_inGame_volume_down
+bgm_p2b1_ev5010_inGame_volume_reset
+BGM_p2b1_ev5040_inGame_volume_down
+BGM_p2b1_ev5040_inGame_volume_reset
+BGM_p2C2_inGame_set_none
+BGM_p2C2_ragecheshire_out
+BGM_p30B_illusion_fun_Clear
+BGM_p30B_illusion_fun_start
+BGM_p315_test
+BGM_p355_illusion_in
+BGM_p355_illusion_out_1
+BGM_p355_illusion_out_2
+BGM_p356_illusion_in
+BGM_p356_illusion_out_1
+BGM_p356_illusion_out_2
+BGM_p363_inGame_mute
+BGM_p363_inGame_unmute
+BGM_p363_inGame_volume_down
+BGM_p363_inGame_volume_reset
+BGM_p365_battle_wave1
+BGM_p365_battle_wave2
+BGM_p365_ev3200_set_none
+BGM_p365_ev3210_fear_in
+BGM_p365_ev3210_fear_out
+BGM_p365_ev3210_set_none
+BGM_p400_inGame_mute
+BGM_p400_inGame_set_none
+BGM_p400_inGame_unmute
+BGM_p420_inGame_duck_in_1
+BGM_p420_inGame_duck_in_2
+BGM_p420_inGame_duck_out
+BGM_p420_phase2
+BGM_p420_phase2_finish
+BGM_p420_phase2_init
+BGM_p420_phase3_finish
+BGM_p420_phase3_gimmick1
+BGM_p420_phase3_gimmick2
+BGM_p420_phase3_playable
+BGM_p440_evf000_down
+BGM_p440_phase1_continue
+BGM_p440_phase1_event1
+BGM_p440_phase1_event2
+BGM_p440_phase1_playable
+BGM_p440_phase3_continue
+BGM_p440_phase3_event1
+BGM_p440_phase3_finish
+BGM_p440_phase3_intro
+BGM_p440_phase3_playable
+BGM_p440_pooka_2
+BGM_p460_evf120_in
+BGM_p460_evf120_out
+BGM_p460_evf130_in
+BGM_p460_evf130_out
+BGM_p460_evf140_in
+BGM_p460_evf140_out
+BGM_p460_evf150_in
+BGM_p460_evf150_out
+BGM_p460_phase2_finish
+BGM_p460_phase2_start
+BGM_p460_phase3_awakening_continue
+BGM_p460_phase3_cheshire_awaken
+BGM_p460_phase3_continue
+BGM_p460_phase3_finish_A
+BGM_p460_phase3_finish_B
+BGM_p460_phase3_finish_C
+BGM_p460_phase3_lucaon_change
+BGM_p460_phase3_start
+BGM_p480_inGame_pause
+BGM_p480_inGame_resume
+BGM_p480_phase1_2_continue
+BGM_p480_phase1_finish
+BGM_p480_phase1_jump
+BGM_p480_phase2_finish
+BGM_p480_phase2_witchTime_off
+BGM_p480_phase2_witchTime_on
+BGM_p480_phase3_finish
+BGM_p480_phase3_finish_QTE
+BGM_p480_phase3_finish_QTE_event_skip
+BGM_p480_phase3_finish_QTE_init
+BGM_p480_phase3_finish_QTE_reset
+BGM_p480_playable_witchTime_off
+BGM_p480_playable_witchTime_on
+BGM_p906_phase1_finish
+BGM_p906_phase2_finish
+BGM_Pause_In
+BGM_Pause_IN_promo
+BGM_Pause_IN_promo_event
+BGM_Pause_Out
+BGM_Pause_OUT_promo
+BGM_Pause_OUT_promo_event
+BGM_potion_in
+BGM_potion_out
+BGM_r100_02_in
+BGM_r100_02_off
+BGM_r100_02_on
+BGM_r100_03_in
+BGM_r110_01_in
+BGM_r120_01_in
+BGM_r120_01_off
+BGM_r120_01_on
+BGM_r120_02_in
+BGM_r120_03_in
+BGM_r140_01_in
+BGM_r140_01_off
+BGM_r140_01_on
+BGM_r140_02_in
+BGM_r140_02_off
+BGM_r140_02_on
+BGM_r140_inGame_mute
+bgm_r140_inGame_unmute
+BGM_r147_01_in
+BGM_r147_01_off
+BGM_r147_01_on
+BGM_r147_01_out
+BGM_r147_gimmick_out
+BGM_r148_01_in
+BGM_r148_01_off
+BGM_r148_01_on
+BGM_r148_01_out
+BGM_r148_gimmick_out
+BGM_r209_01_in
+BGM_r209_01_off
+BGM_r209_01_on
+BGM_r209_01_out
+bgm_r209_02_in
+BGM_r225_01_in
+BGM_r225_01_off
+BGM_r225_01_on
+BGM_r225_01_out
+BGM_r225_DM_volume_reset
+BGM_r225_DM_volume_up
+BGM_r234_01_in
+BGM_r234_01_out
+BGM_r235_01_A_in
+BGM_r235_01_A_out
+BGM_r235_01_B_in
+BGM_r235_01_B_out
+BGM_r235_01_off
+BGM_r235_01_on
+BGM_r235_tram_A_Clear
+BGM_r235_tram_A_in
+BGM_r235_tram_A_out
+BGM_r235_tram_A_resume
+BGM_r235_tram_B_Clear
+BGM_r235_tram_B_in
+BGM_r235_tram_B_out
+BGM_r237_01_off
+BGM_r237_01_on
+BGM_r237_01_out
+BGM_r238_01_in
+BGM_r238_01_off
+BGM_r238_01_on
+BGM_r253_01_in
+BGM_r253_01_off
+BGM_r253_01_on
+BGM_r253_01_out
+BGM_r261_01_in
+BGM_r261_01_out
+BGM_r261_02_in
+BGM_r261_02_out
+BGM_r284_01_in
+BGM_r284_01_off
+BGM_r284_01_on
+BGM_r284_02_in
+BGM_r284_02_off
+BGM_r284_02_on
+BGM_r291_01_in
+BGM_r291_01_off
+BGM_r291_01_on
+BGM_r291_01_out
+BGM_r291_02_in
+BGM_r291_02_out
+BGM_r291_03_in
+BGM_r291_03_out
+BGM_r293_01_in
+BGM_r293_01_out
+BGM_r299_01_in
+BGM_r299_01_out
+BGM_r2b1_01_in
+BGM_r2b1_01_off
+BGM_r2b1_01_on
+BGM_r2b1_01_out
+BGM_r2c2_01_in
+BGM_r2c2_01_out
+BGM_r2c6_01_in
+BGM_r2c6_01_out
+BGM_r536_bigTram_clear
+BGM_r536_bigTram_in
+BGM_r536_bigTram_out
+BGM_reset_filter
+BGM_Reset_GameParameter
+BGM_Reset_State
+BGM_Reset_Switch
+BGM_Reset_volume
+BGM_Reset_volume_BGM_music
+BGM_ruinedArea_In
+BGM_ruinedArea_out
+BGM_safeArea_big_in
+BGM_safeArea_big_out
+BGM_safeArea_big_volume_down
+BGM_safeArea_big_volume_reset
+BGM_safeArea_fortress_down
+BGM_safeArea_fortress_reset
+BGM_safeArea_in
+BGM_safeArea_out
+BGM_SafeArea_Unlock
+BGM_SafeArea_Unlock_duck_in
+BGM_SafeArea_Unlock_duck_out
+BGM_save_in_LV1
+BGM_save_in_LV2
+BGM_save_in_LV3
+BGM_save_out
+BGM_set_bossarea
+BGM_set_cheshireride
+BGM_set_costume_room
+BGM_set_dream_1
+BGM_set_dream_2
+BGM_set_dream_3
+BGM_set_dream_4
+BGM_set_dream_epilogue_1
+BGM_set_dream_epilogue_2
+BGM_set_exorcise_dark_in
+BGM_set_exorcise_dark_in_p365
+BGM_set_exorcise_dark_out
+BGM_set_exorcise_dark_out_p365
+BGM_set_exorcise_dark_pre_p365
+BGM_set_fairytower
+BGM_set_fortress
+BGM_set_fortress_2
+BGM_set_happening_fortress_a
+BGM_set_happening_fortress_b
+bgm_set_happening_fortress_none
+bgm_set_happening_none
+BGM_set_happyTime_Lv1
+BGM_set_happyTime_Lv2
+BGM_set_happyTime_Lv3
+bgm_set_illusion
+bgm_set_illusion_fun
+BGM_set_illusion_Tension
+BGM_set_illusion_timeattack
+BGM_set_illusion_timeattack_mission_pre
+BGM_set_illusion_timeattack_pre
+BGM_set_ingame_ev_m06
+BGM_set_ingame_ev_m16
+BGM_set_ingame_ev_m17
+BGM_set_ingame_ev_m26
+BGM_set_ingame_ev_m26_battle
+BGM_set_ingame_ev_m26_noIntro
+BGM_set_ingame_ev_m26_noIntro_battle
+BGM_set_ingame_ev_m27_noIntro
+bgm_set_ingame_ev_m45
+BGM_set_jabberwock_1_only
+BGM_set_last_dungeon
+BGM_set_level_mainworld_happyTime
+BGM_set_level_mainworld_happyTime_Lv1
+BGM_set_level_mainworld_happyTime_Lv2
+BGM_set_level_mainworld_happyTime_Lv3
+BGM_set_level_mainworld_LV1
+BGM_set_level_mainworld_LV2
+BGM_set_level_mainworld_LV3
+BGM_set_level_mainworld_LV3_promo
+BGM_set_level_mainworld_LV4
+BGM_set_level_mainworld_LV5
+BGM_set_lucaon_altar
+BGM_set_mainworld
+BGM_set_mainworld_jeanne
+BGM_set_mainworld_LV1
+BGM_set_mainworld_LV2
+BGM_set_MainWorld_LV3
+BGM_set_mainworld_LV4
+BGM_set_MainWorld_LV5
+BGM_set_morgana
+BGM_set_morgana_night
+BGM_set_none_0ms
+BGM_set_none_1000ms
+BGM_set_None_1500ms
+BGM_set_none_2000ms
+BGM_set_none_3000ms
+BGM_set_none_4000ms
+BGM_set_none_5000ms
+BGM_set_none_500ms
+BGM_set_none_6000ms
+BGM_set_none_7000ms
+BGM_set_none_8000ms
+BGM_set_none_9000ms
+BGM_set_none_Jabberwock
+BGM_set_none_promo
+BGM_set_skill_practice_room
+BGM_set_tension_a
+BGM_set_tension_b
+BGM_set_Tension_Bridge
+BGM_set_tension_in
+BGM_set_tension_None
+BGM_set_tension_out
+bgm_set_Tension_Outro
+BGM_set_tension_tram_A
+BGM_set_tension_tram_B
+BGM_set_title
+BGM_set_title_cleared
+BGM_set_title_musicbox
+BGM_set_tutorial
+BGM_set_tutorial_2
+BGM_set_tutorial_runpart
+BGM_shrine1
+BGM_shrine2
+BGM_shrine_fire_in
+BGM_shrine_fire_off
+BGM_shrine_fire_on
+BGM_shrine_fire_out
+BGM_shrine_stone_in
+BGM_shrine_stone_out
+BGM_shrine_water_in
+BGM_shrine_water_out
+BGM_shrine_wood_in
+BGM_shrine_wood_out
+BGM_simple_safearea_in
+BGM_simple_safearea_out
+BGM_skill_practice_room_in
+BGM_skill_unlock_in_cereza_LV1
+BGM_skill_unlock_in_cereza_LV2
+BGM_skill_unlock_in_cereza_LV3
+BGM_skill_unlock_in_cheshire_LV1
+BGM_skill_unlock_in_cheshire_LV2
+BGM_skill_unlock_in_cheshire_LV3
+BGM_skill_unlock_out
+BGM_skillTree_in_LV1
+BGM_skillTree_in_LV2
+BGM_skillTree_in_LV3
+BGM_skillTree_out
+BGM_sneaking_bossarea_in
+BGM_sneaking_fortress_in
+bgm_sneaking_in
+BGM_sneaking_in_1
+BGM_sneaking_in_2
+BGM_sneaking_out
+BGM_sneakingArea_off
+BGM_sneakingArea_on
+BGM_specialFruit_eat_LV1
+BGM_specialFruit_eat_LV2
+BGM_specialFruit_eat_LV3
+BGM_specialFruit_in
+BGM_specialFruit_out
+BGM_SubMenu_In
+BGM_submenu_in_ch0
+BGM_submenu_in_title
+BGM_submenu_in_title_cleared
+BGM_submenu_off
+BGM_submenu_off_ch0
+BGM_submenu_off_Title
+BGM_submenu_on
+BGM_submenu_on_ch0
+BGM_submenu_on_Title
+BGM_SubMenu_Out
+BGM_submenu_out_ch0
+BGM_submenu_out_title
+BGM_submenu_out_title_cleared
+BGM_tropicalArea_In
+BGM_tropicalArea_out
+BGM_viewpoint
+BGM_viewpoint2
+BGM_viewpoint_duck_in
+BGM_viewpoint_duck_out
+BGM_viewpoint_stop
+BGM_viewpoint_wisp_duck_in
+BGM_viewpoint_wisp_duck_out
+BGM_wisp_bow_1
+BGM_wisp_bow_2
+BGM_wisp_bow_3
+BGM_wisp_bow_singer_1
+BGM_wisp_bow_singer_2
+BGM_wisp_bow_singer_3
+BGM_wisp_guide_in
+BGM_wisp_guide_out
+bgm_Wisp_Rescue
+bgm_Wisp_Rescue_duck_in
+bgm_Wisp_Rescue_duck_out
+DM_circus_tram
+DM_circus_tram_2
+DM_circus_tram_3
+DM_circus_tram_4
+DM_circus_tram_5
+DM_circus_tram_6
+DM_circus_tram_boss
+DM_circus_tram_boss_3
+DM_fasttravel_whistle
+DM_fasttravel_whistle_1
+DM_fasttravel_whistle_event_1
+DM_Pause_IN
+DM_Pause_OUT
+DM_set_wisp_Lv1
+DM_set_wisp_Lv2
+DM_set_wisp_Lv3
+DM_UI_Mute_IN
+DM_UI_Mute_OUT
+DM_wisp
+DM_wisp_2
+DM_wisp_3
+DM_wisp_4
+DM_wisp_5
+DM_wisp_6
+DM_wisp_7
+DM_wisp_mute_in
+DM_wisp_Mute_OUT
+DM_wisp_pf_in
+DM_wisp_pf_out
+Stop_DM_circus_tram_2
+Stop_DM_circus_tram_3
+Stop_DM_circus_tram_4
+Stop_DM_circus_tram_5
+Stop_DM_circus_tram_6
+Stop_DM_circus_tram_boss_3
+stop_DM_fasttravel_whistle
+Stop_DM_fasttravel_whistle_1
+Stop_DM_fasttravel_whistle_event
+Stop_DM_fasttravel_whistle_event_1
+stop_DM_wisp
+Stop_DM_wisp_2
+Stop_DM_wisp_3
+Stop_DM_wisp_4
+Stop_DM_wisp_5
+Stop_DM_wisp_6
+Stop_DM_wisp_7
+# 1565644382
+# 2914258092
+# 16665475
+# 61996409
+# 111100186
+# 115819062
+# 124941047
+# 147199166
+# 178526863
+# 185012154
+# 223646269
+# 234424560
+# 239508261
+# 288452956
+# 316602705
+# 321780927
+# 339687908
+# 387506249
+# 405148741
+# 406049304
+# 450800703
+# 459800766
+# 461480425
+# 463199263
+# 484407062
+# 486825790
+# 498420103
+# 526636269
+# 548752961
+# 581000637
+# 687436201
+# 752601396
+# 772920661
+# 790780252
+# 833431356
+# 852471483
+# 859789024
+# 880582476
+# 911828325
+# 913776993
+# 930481261
+# 975324835
+# 983427684
+# 1034735968
+# 1053369712
+# 1071161185
+# 1098882952
+# 1101705136
+# 1105243958
+# 1148379377
+# 1157852287
+# 1157979518
+# 1177825963
+# 1191555325
+# 1206982011
+# 1262600766
+# 1270426482
+# 1320592186
+# 1344106366
+# 1364077906
+# 1378085278
+# 1402403462
+# 1404294690
+# 1412835467
+# 1477722249
+# 1527289835
+# 1537756535
+# 1559743954
+# 1588249505
+# 1601567575
+# 1606552802
+# 1642641248
+# 1669289738
+# 1701243038
+# 1706365940
+# 1770862922
+# 1787489651
+# 1817892598
+# 1869030953
+# 1889584867
+# 1900079886
+# 1935853159
+# 1951789056
+# 1962797601
+# 1962797602
+# 1992231381
+# 2000838649
+# 2005354925
+# 2044673349
+# 2065425983
+# 2069603109
+# 2085921900
+# 2145238458
+# 2159270076
+# 2161571986
+# 2254231543
+# 2271571105
+# 2287809575
+# 2298662555
+# 2313633558
+# 2324397185
+# 2356756807
+# 2373951767
+# 2388145820
+# 2407830996
+# 2422944627
+# 2447392961
+# 2476995316
+# 2503128070
+# 2600421239
+# 2620741756
+# 2639848238
+# 2671975941
+# 2674311535
+# 2781379756
+# 2838457482
+# 2839269504
+# 2839269509
+# 2839269513
+# 2847265113
+# 2851948449
+# 2854526440
+# 2854855548
+# 2858617458
+# 2907555130
+# 2929999352
+# 2963682211
+# 2999208602
+# 3005953566
+# 3078059022
+# 3080307085
+# 3126280333
+# 3153884379
+# 3168658873
+# 3176511083
+# 3180050321
+# 3190778128
+# 3222321771
+# 3267712158
+# 3270873545
+# 3303140161
+# 3312908811
+# 3328296771
+# 3340582225
+# 3368727000
+# 3376784293
+# 3395956761
+# 3396366916
+# 3396903712
+# 3420016872
+# 3424400529
+# 3443390428
+# 3452586221
+# 3479331628
+# 3481394118
+# 3485432993
+# 3503057588
+# 3515501393
+# 3523034599
+# 3523784474
+# 3542714956
+# 3546651443
+# 3556118173
+# 3580934868
+# 3616000733
+# 3626856954
+# 3683937887
+# 3693382904
+# 3704235208
+# 3714091369
+# 3786985020
+# 3793238262
+# 3807204327
+# 3837171710
+# 3848090222
+# 3849703196
+# 3892147443
+# 3914526124
+# 3931586055
+# 3948023997
+# 3981064600
+# 4002768203
+# 4020885917
+# 4044729309
+# 4054352593
+# 4075521602
+# 4084222502
+# 4131708655
+# 4175520645
+# 4179610151
+# 4202984839
+# 4207279256
+# 4211416009
+# 4216096572
+# 4237088742
+# 4240587683
+# 4241098919
+# 4278292865
+
+### SFX NAMES (BGM.bnk)
+BGM_Battle_Reverb
+BGM_circus_tram_fail_Barrier_Fire_Sizul
+vo_em_Wear
+# 13988202
+# 34654964
+# 53840501
+# 128439702
+# 247464786
+# 251029500
+# 253229216
+# 317225518
+# 342223430
+# 392535464
+# 423287580
+# 447595364
+# 620104740
+# 816298068
+# 892768170
+# 950749094
+# 973389185
+# 1058113244
+# 1469151212
+# 3833944119
+
+### RTPC/GAME-VARIABLE NAMES (BGM.bnk)
+BGM_bt_pooka_Phase
+BGM_Bt_Reverb
+BGM_DM_Angle
+BGM_exorcise_dark_goal
+BGM_exorcise_rosa
+BGM_jingle_battle_duck
+# 258240953
+# 232011004
+# 348116518
+# 1054026572
+
+### VARIABLE NAMES (BGM.bnk)
+ BGM_potion
+BGM_area_illusion_stairs_long
+BGM_area_illusion_stairs_short
+BGM_Battle_mode
+BGM_Battle_Type
+BGM_boss_Battle
+BGM_bossArea_mode
+BGM_bt_Jabberwock_1
+BGM_bt_Jabberwock_2
+BGM_bt_lucaon_1
+BGM_bt_lucaon_2
+BGM_bt_Morgana_1
+BGM_bt_Morgana_2
+BGM_bt_pooka
+BGM_bt_singularity_1
+BGM_bt_singularity_2
+BGM_CaveArea_mode
+bgm_Cheshire_ElementType
+BGM_core_UI_Costume_duck_in_1
+BGM_core_UI_Costume_duck_in_2
+BGM_core_UI_Costume_duck_in_3
+BGM_core_UI_Costume_duck_in_4
+BGM_core_UI_Costume_duck_in_5
+BGM_ev_m07_pt2
+BGM_ev_m12_long
+BGM_ev_m15
+bgm_ev_m26_03
+BGM_ev_m49_b
+BGM_exorcise
+BGM_happening_chase_wolf_last
+BGM_happening_fortress
+BGM_Happening_mode
+BGM_happening_Tension
+BGM_happyTime_mode
+bgm_illusion_fun
+BGM_illusion_goal
+BGM_illusion_mode
+BGM_illusion_small_Normal
+bgm_illusion_Tension
+BGM_illusion_timeattack
+bgm_illusion_timeattack_mission
+BGM_illusion_Type
+BGM_illusion_Type_timeattack
+bgm_ingame_ev_m26
+BGM_MainWorld_LV
+bgm_Melo
+BGM_Menu_mode
+BGM_None_group
+BGM_None_State
+BGM_ot_circus_tram_boss
+BGM_ot_Dream
+BGM_ot_dream_epilogue
+BGM_ot_morgana_transmission
+BGM_Pause_group
+BGM_Pause_State
+BGM_promo_mode
+BGM_r100_02
+BGM_r120_01
+BGM_r140_01
+BGM_r147_01
+BGM_r148_01
+BGM_r209_01
+BGM_r225_01
+BGM_r235_01
+BGM_r237_01
+BGM_r238_01
+BGM_r253_01
+BGM_r284_01
+BGM_r284_02
+BGM_r291_01
+BGM_r2b1_01
+BGM_root
+BGM_ruinedArea_mode
+BGM_SafeArea_mode
+BGM_shrine_Element
+BGM_shrine_fire
+BGM_ShrineArea_mode
+BGM_simple_safearea
+BGM_sneaking_Type
+BGM_sneakingArea_Enable
+BGM_sneakingArea_mode
+BGM_ST_fortress
+BGM_ST_shrine
+BGM_ST_tutorial
+BGM_Stage
+BGM_sub_Screen_Type
+BGM_submenu_filter
+BGM_tropicalArea_mode
+DM_wisp
+DM_wisp_OnOff
+DM_wisp_pf
+# 842157998
+# 3840918159
+# 2531464449
+# 3017730672
+# 2350081198
+# 3135238778
+# 4140788778
+# 2804844432
+# 2982918615
+# 3147076669
+# 2789644250
+# 2206671926
+# 1538041845
+# 1341222822
+# 950394959
+# 242112071
+
+### VALUE NAMES (BGM.bnk)
+awakening
+BarrierNormal
+Boss_Area
+boss_Battle
+bossarea
+Cave_Area
+CheshireRide
+Continue
+Continue_phase1
+Continue_phase1_2
+Continue_phase3
+Continue_phase3_awakening
+costume_room
+dark
+Dream
+dream_epilogue
+fairytower
+FastTravel
+fire
+fortress
+fortress_Full
+fortress_noMelo
+full
+fun_goal
+fun_init
+fun_start
+GameOver
+gameover_menu
+happening_chase_wolf
+happening_chase_wolf_last
+happening_chase_wolf_last_a
+happening_chase_wolf_last_b
+happening_chase_wolf_last_c
+happening_fortress
+happening_fortress_a
+happening_fortress_b
+happening_Tension
+happening_tutorial_runpart
+Happy_Time
+illusion
+illusion_big
+illusion_big_core
+illusion_goal
+illusion_small
+illusionDanger
+illusionFun
+illusionNormal
+illusionTension
+illusionTimeAttack
+illusionTimeAttackMission
+ingame
+ingame_ev_m06
+ingame_ev_m16
+ingame_ev_m17
+ingame_ev_m26
+ingame_ev_m27_noIntro
+ingame_ev_m45
+Intro
+Intro_loop
+Jabberwock_1
+Jabberwock_2
+last_dungeon
+loop
+loop_Full
+loop_noMeloBrs
+Lp
+lucaon_1
+lucaon_2
+lucaon_2_finish
+lv1
+lv2
+lv3
+m26_03_Intro
+m26_03_Switch
+main
+mainworld
+mainworld_jeanne
+MainWorld_LV1
+MainWorld_LV2
+MainWorld_LV3
+MainWorld_LV4
+MainWorld_LV5
+Melo_mute
+Melo_unmute
+middle_boss
+middle_boss_2
+moonpearl_LV1
+moonpearl_Lv2
+moonpearl_LV3
+Morgana
+Morgana_1
+Morgana_2
+morgana_night
+musicbox
+NoBarrierMini
+NoBarrierNormal
+noIntro
+noMelo
+noMeloBrs
+None
+none_0ms
+none_1000ms
+None_1500ms
+none_2000ms
+None_3000ms
+None_4000ms
+none_5000ms
+none_500ms
+None_6000ms
+None_7000ms
+None_8000ms
+None_9000ms
+normal
+Normal_Battle
+Normal_goal
+Normal_init
+off
+on
+ot_dream_1
+ot_dream_2
+ot_dream_3
+ot_dream_4
+ot_dream_epilogue_1
+ot_dream_epilogue_2
+Outro
+pause_0ms
+pause_1000ms
+pause_1500ms
+pause_2000ms
+pause_3000ms
+pause_4000ms
+pause_5000ms
+pause_500ms
+pause_6000ms
+pause_7000ms
+pause_8000ms
+pause_9000ms
+Phase2
+Phase2_Event
+Phase2_Full
+phase2_inGame
+phase2_inGame_init
+phase2_witchTime
+Phase3
+phase3_finish
+phase3_finish_a
+phase3_finish_b
+phase3_finish_c
+phase3_full
+phase3_QTE
+phase3_QTE_init
+pooka
+Promo
+ruined_Area
+Safe_Area
+Safe_Area_Big
+save_LV1
+save_Lv2
+save_LV3
+SE_Battle_BGM_ST_In
+set_none
+set_Pause
+shrine1
+shrine2
+Shrine_Area
+silence
+simple_safearea_in
+Singularity_1
+singularity_1_finish
+Singularity_2
+singularity_2_finish
+skill_practice_room
+small_boss
+sneaking_1
+sneaking_2
+Sneaking_Area
+Sneaking_Area_Special
+specialFruit_LV1
+specialFruit_Lv2
+specialFruit_LV3
+Stone
+sub_Screen
+submenu
+submenu_filter_On
+Tension_a
+Tension_b
+Tension_Bridge
+Tension_goal
+Tension_init
+Tension_Outro
+Tension_tram_A
+Tension_tram_B
+timeattack_Mission_Clear
+timeattack_mission_pre
+TimeAttack_off
+TimeAttack_on
+Title
+title_cleared
+tropical_Area
+Tutorial
+Water
+wisp_pf
+Wood
+# 549564446
+# 946797401
+# 3246321926
+# 2254335479
+# 3707241748
+# 2126460882
+# 2429546253
+# 74914820
+# 276914318
+# 38346120
+# 4153125067
+# 2524302602
+# 2735757885
+# 583470442
+# 2960794357
+# 3532390793
+# 3733213390
+# 1110813725
+# 2031754762
+# 2299499325
+# 4055741877
+# 243098007
+# 3337073908
+# 4021069527
+# 2555722911
+# 3890106828
+# 1655716000
+# 1778768139
+# 3408057065
+# 3794701391
+# 1541099265
+# 2826611351
+# 226940751
+# 3295467892
+# 2106299715
+# 3312906960
+# 3838902725
+# 3838902726
+# 3838902727
+# 727602157
+# 2256439730
+# 3279941186
+# 3814028026
+
+### SFX NAMES (Init.bnk)
+BGM_battle_duck
+BGM_DM_duck
+BGM_ev004100_m38_volume
+BGM_WitchTimeEq
+master_eq
+No_Output
+r100_Rev
+SE_duck
+SE_Ingame_Mid_Duck
+SE_Mid_Duck
+SE_r100_Delay
+SE_r900_Rev
+SE_vo_duck
+simpleGuard
+system
+vo_ingame_Mid_Duck
+vo_Mid_Duck
+# 2584264
+# 59919824
+# 155102132
+# 324360600
+# 811229466
+# 842758104
+# 1073627899
+# 1116437148
+# 1507111363
+# 1552387185
+# 1910225951
+# 2029579289
+# 2176461582
+# 2543339748
+# 2568282406
+# 2620797337
+# 2870011787
+# 2921551240
+# 3520903802
+# 3548935226
+# 4250578682
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+azimuth
+ba0136_Doppler
+ba0136_Speed
+ba1400_Collision
+ba2005_Distance
+ba2900_Time
+ba3525_Speed
+ba5125_Speed
+ba5126_Speed
+ba5127_Distance
+ba5127_Speed
+ba512a_Speed
+ba512d_IllusionForest
+ba512e_Speed
+ba512f_Speed
+ba6000_Charge
+ba6100_Angle
+ba7000_Speed
+bac470_Distance
+bac901_Speed
+bg1000
+bgc306_stare
+BGM_bt_pooka_Phase
+BGM_Bt_Reverb
+BGM_DM_Angle
+BGM_DM_duck
+BGM_ev1010_evf140
+BGM_exorcise_dark_goal
+BGM_exorcise_dark_key
+BGM_exorcise_dark_progress
+BGM_exorcise_rosa
+BGM_fear
+BGM_illusion_timeattack_in_jabberwock_clear
+BGM_jingle_battle_duck
+BGM_Morgana_volume
+BGM_p440_pooka_2_stoz
+BGM_Stop_DM_timewisp
+BGM_WitchTime
+core_ModelSize
+core_pl_Lock
+core_pl_Restoration
+core_Poster_Size
+core_Wind_Intensity
+Distance
+elevation
+Em0120_Charge
+Em0150_WATER
+et0060_WhirlPool
+et1030_Stone_Big
+et1030_Stone_Size
+et1030_Stone_Speed
+Narration_A_Range
+Narration_A_Speed
+Narration_Azimuth
+Narration_E_Range
+Narration_E_Speed
+Narration_Elevation
+pl0000_HoldType
+pl1301_Tongue_Length
+SE_Battle_start
+SE_cave
+SE_cave_Rain
+SE_Cheshire_ElementType
+SE_Distance
+SE_Distance_100
+SE_Distance_Fire
+SE_Distance_Pl_Wall
+SE_Elevation
+SE_Fear
+SE_FloorCollisionType
+SE_FOREST
+SE_IllusionForest_InOut
+SE_IllusionRift_Time_Pich
+SE_Jeers_Level
+SE_ListenerPreset
+SE_Mid_Duck
+SE_r120_candle
+SE_r440_QTE_Button_Input
+SE_r460_FireBall_Explosion
+SE_r460_Laser_Distance
+SE_r460_Laser_volume
+SE_r460_Phase03_Transform_QTE
+SE_r480_Phase02_QTE
+SE_r900_BG
+SE_r900_QTE_Charles
+SE_safearea
+SE_Stealth
+SE_UI_UmbranCharms_Craft
+SE_Vanishable_Waterfall_Dam
+SE_Vanishable_Waterfall_St4_1st
+SE_Vanishable_Waterfall_St4_2nd
+SE_Vanishable_Waterfall_St4_3rd
+SE_WaterShallow
+SE_Weather_Rain
+SE_Wind_AREA
+vo_Mid_Duck
+Vo_small_duck_in_2
+Volume_BGM
+Volume_Environment
+Volume_Master
+Volume_SE
+Volume_Voice
+# 3209384810
+# 2599660496
+# 2390879200
+# 142443109
+# 232011004
+# 281446526
+# 322924189
+# 348116518
+# 412813127
+# 603441732
+# 637900956
+# 762027259
+# 764168715
+# 836412756
+# 836412765
+# 845974883
+# 958534088
+# 965000043
+# 989200412
+# 1020340396
+# 1118059568
+# 1188649168
+# 1232333515
+# 1355080305
+# 1395218060
+# 1449530234
+# 1553593519
+# 1632032934
+# 1642469880
+# 1709243998
+# 1710310216
+# 1766316484
+# 1800424503
+# 2015926006
+# 2074035878
+# 2093756632
+# 2134663546
+# 2163636052
+# 2237812798
+# 2288140616
+# 2314459251
+# 2333363599
+# 2381777965
+# 2421999058
+# 2447744535
+# 2490092325
+# 2514961409
+# 2561020737
+# 2698111333
+# 2711973609
+# 2770742050
+# 2796274002
+# 2822506286
+# 2941384079
+# 2952628149
+# 3005497334
+# 3149301411
+# 3189847857
+# 3203306753
+# 3231844624
+# 3282654400
+# 3288520538
+# 3383320150
+# 3418375724
+# 3434991424
+# 3520903802
+# 3589961600
+# 3620821697
+# 3645592676
+# 3671138082
+# 3679428546
+# 3765346316
+# 3775273075
+# 3833124946
+# 3852598426
+# 3923276672
+# 4085766577
+# 4123269443
+# 4134345332
+# 4151869708
+# 4184306683
+# 4276279869
+
+### VARIABLE NAMES (Init.bnk)
+BGM_area_illusion_stairs_long
+BGM_area_illusion_stairs_short
+BGM_Battle_mode
+BGM_Battle_Type
+BGM_boss_Battle
+BGM_bossArea_mode
+BGM_bt_Jabberwock_1
+BGM_bt_Jabberwock_2
+BGM_bt_lucaon_1
+BGM_bt_lucaon_2
+BGM_bt_Morgana_1
+BGM_bt_Morgana_2
+BGM_bt_pooka
+BGM_bt_pooka_inst
+BGM_bt_singularity_1
+BGM_bt_singularity_2
+BGM_CaveArea_mode
+bgm_Cheshire_ElementType
+BGM_ev_m07_pt2
+BGM_ev_m12_long
+BGM_ev_m15
+bgm_ev_m26_03
+BGM_ev_m49_b
+BGM_exorcise
+BGM_exorcise_dark
+BGM_happening_chase_wolf_last
+BGM_happening_fortress
+BGM_Happening_mode
+BGM_happening_Tension
+BGM_happyTime_mode
+bgm_illusion_fun
+BGM_illusion_goal
+BGM_illusion_mode
+BGM_illusion_small_Normal
+bgm_illusion_Tension
+BGM_illusion_timeattack
+bgm_illusion_timeattack_mission
+BGM_illusion_Type
+BGM_illusion_Type_timeattack
+bgm_ingame_ev_m26
+BGM_MainWorld_LV
+bgm_Melo
+BGM_Menu_mode
+BGM_None_group
+BGM_None_State
+BGM_ot_circus_tram_boss
+BGM_ot_Dream
+BGM_ot_dream_epilogue
+BGM_ot_morgana_transmission
+BGM_p2C2_ragecheshire_out_i0 #alt
+BGM_Pause_group
+BGM_Pause_State
+BGM_potion
+BGM_promo_mode
+BGM_r100_02
+BGM_r120_01
+BGM_r140_01
+BGM_r147_01
+BGM_r148_01
+BGM_r209_01
+BGM_r225_01
+BGM_r235_01
+BGM_r237_01
+BGM_r238_01
+BGM_r253_01
+BGM_r284_01
+BGM_r284_02
+BGM_r291_01
+BGM_r2b1_01
+BGM_root
+BGM_ruinedArea_mode
+BGM_SafeArea_mode
+BGM_shrine_Element
+BGM_shrine_fire
+BGM_ShrineArea_mode
+BGM_simple_safearea
+BGM_sneaking_Type
+BGM_sneakingArea_Enable
+BGM_sneakingArea_mode
+BGM_ST_fortress
+BGM_ST_shrine
+BGM_ST_tutorial
+BGM_Stage
+BGM_sub_Screen_Type
+BGM_submenu_filter
+BGM_tropicalArea_mode
+DM_wisp
+DM_wisp_OnOff
+DM_wisp_pf
+pl0000_HugHeal
+SE_ba1400_Collision
+SE_Cheshire_ElementType
+SE_Cheshire_WaterShallow
+SE_FloorCollisionType
+SE_HoldType
+SE_IllusionRift_Time
+# 2206671926
+# 1538041845
+# 2789644250
+# 842157998
+# 4140788778
+# 2021301841
+# 242112071
+# 2246977105
+# 3509660149
+# 2599660496
+# 1140552580
+
+### VALUE NAMES (Init.bnk)
+Continue_phase3
+full
+Melo_mute
+Melo_unmute
+None
+potion_in
+potion_out
+simple_safearea_in
+submenu_filter_On
+# 3408057065
+
+### EVENT NAMES (core.bnk)
+BGM_ev_music_noStr_play_pause
+BGM_illusion_stairs_long_set_m26_noIntro_battle
+BGM_p420_vs_in
+core_Atk_em_bind_Hit_Finish
+core_Atk_em_bind_Hit_L
+core_Atk_em_bind_Hit_M
+core_Atk_em_bind_Hit_Rise
+core_Atk_em_bind_Hit_S
+core_Atk_em_bind_Hit_SS
+core_Atk_em_bind_Hit_Start
+core_Atk_em_Hit_L
+core_Atk_em_hit_M
+core_Atk_em_Hit_S
+core_Atk_em_hit_SS
+core_Atk_Guard
+core_Atk_Parry
+core_Atk_pl_Hit_Repelled
+core_Atk_pl_Hit_S
+core_Atk_Plushie_Hit
+core_Atk_PunchHit
+core_Battle_End
+core_Battle_Start_Circle_Burst_ST
+core_Battle_Start_Circle_Shrink_ST
+core_Battle_Start_Imp
+core_Blockade_Break
+core_Blockade_Start
+core_DamageArea_Alert
+core_DamageArea_Attack
+core_darkness_in
+core_darkness_Laughter
+core_darkness_out
+core_Dmg_Plushie_Hit
+core_el_stone_Absorption
+core_el_stone_active
+core_el_stone_wall_break
+core_em_appear
+core_em_Atk_kinapping_count_01
+core_em_Atk_kinapping_count_02
+core_em_Atk_kinapping_count_03
+core_em_Atk_kinapping_count_04
+core_em_Atk_kinapping_count_05
+core_em_Atk_kinapping_count_06
+core_em_Atk_kinapping_count_07
+core_em_Atk_kinapping_count_08
+core_em_Atk_kinapping_count_09
+core_em_Atk_kinapping_count_10
+core_em_Atk_kinapping_count_end
+core_em_Atk_kinapping_count_start_loop
+core_em_ATK_Sign
+core_em_Barrier_Fire_Appear
+core_em_Barrier_Fire_Break
+core_em_Barrier_Fire_Explosion
+core_em_Barrier_Fire_LP
+core_em_Barrier_Fire_Sizul
+core_em_Barrier_Fire_start
+core_em_Barrier_Ice_Break
+core_em_Barrier_Ice_Hit
+core_em_Barrier_Ice_Lp
+core_em_Barrier_Stone_Break
+core_em_Barrier_Stone_LP
+core_em_Barrier_Stone_Start
+core_em_Battle_start
+core_em_Battle_Start_ST
+core_em_Burn_LP
+core_em_death_bomb_m
+core_em_death_bomb_s
+core_em_death_bomb_s_short
+core_em_Disappear
+core_em_ElectricStaff_LP
+core_em_FlameGroundOut
+core_em_IllusionForest_LightHit_Appear
+core_em_IllusionForest_LightHit_LP
+core_em_Notice
+core_em_Vanish
+core_Encounter_In
+core_Encounter_Out
+core_et0800_Activate
+core_Event_In_Page_Send
+core_Event_Out_Page_Send
+core_Event_Page_Multiple
+core_Event_Page_Send
+core_Event_Page_Single
+core_fantasy_space_appear_bridge
+core_fantasy_space_big_sphere_on
+core_fantasy_space_break_1st
+core_fantasy_space_break_2nd
+core_fantasy_space_break_pre
+core_fantasy_space_last_sphere_activate_ready
+core_fantasy_space_last_sphere_activate_star_appear
+core_fantasy_space_last_sphere_activate_star_break
+core_fantasy_space_last_sphere_light_loop
+core_fantasy_space_last_sphere_loop
+core_fantasy_space_last_sphere_power_LV1
+core_fantasy_space_last_sphere_power_LV2
+core_fantasy_space_last_sphere_power_LV3
+core_fantasy_space_move_sphere
+core_fantasy_space_out
+core_fantasy_space_out_2nd
+core_fantasy_space_out_item_appear
+core_fantasy_space_small_sphere_on
+core_FastTravel_In_Page_Send
+core_FastTravel_Out_Page_Send
+core_Fear_Gauge
+core_Fear_Gauge_in
+core_FlameBarrier_BurnOut
+core_FlameBarrier_Evaporation_LP
+core_FlameBarrier_LP
+core_Footprints_Wolf
+core_IllusionForest_Area_In
+core_IllusionForest_DmgArea_Appear
+core_IllusionForest_DmgArea_Disappear
+core_IllusionForest_HiddenObject_Appear
+core_IllusionForest_HiddenObject_LP
+core_IllusionForest_Resource_Appear
+core_IllusionForest_VanishTrap
+core_IllusionRift_Crystal_Hit_1st
+core_IllusionRift_Crystal_Hit_2nd
+core_IllusionRift_Crystal_Hit_3rd
+core_IllusionRift_Crystal_Hit_Break
+core_IllusionRift_DmgArea_Appear
+core_IllusionRift_DmgArea_Disappear
+core_IllusionRift_EnemyWall_DisAppear
+core_IllusionRift_EnemyWall_Hit
+core_IllusionRift_EnemyWall_LP
+core_IllusionRift_EnemyWall_Start
+core_IllusionRift_FadeOut
+core_IllusionRift_IN_bell
+core_IllusionRift_IN_Impact
+core_IllusionRift_Mimic_IN
+core_IllusionRift_Mimic_OUT
+core_IllusionRift_PlayerWarp
+core_IllusionRift_TimeAttack_Clear
+core_IllusionRift_TimeAttack_Goal
+core_IllusionRift_TimeAttack_Start
+core_IllusionRift_TryAgain_Clear
+core_Item_Drop
+Core_Menu_In_Page_Send
+Core_Menu_Out_Page_Send
+core_Narration_Position_Back
+core_Narration_Position_Forward
+core_Narration_Position_In
+core_Narration_Position_Left
+core_Narration_Position_Out
+core_Narration_Position_Right
+core_NavigationObject_Interact
+core_p365_Darkness_In
+core_p365_Darkness_Out
+core_pl_abs_element_wood_finish
+core_pl_abs_element_wood_start
+core_pl_abs_element_wood_stop
+core_pl_Atk_Stomp
+core_pl_Dmg_Freeze
+core_pl_Dmg_Freeze_Break
+core_pl_FearGauge_LP
+core_pl_guard_hit
+core_pl_Invincible_Hit_Cereza
+core_pl_Invincible_Hit_Cheshire
+core_pl_Item_Cereza_Buff
+core_pl_Item_Cheshire_Buff
+core_pl_Item_Heal
+core_pl_Item_Heal_L
+core_pl_Item_Heal_Ride
+core_pl_Item_Heal_Ride_L
+core_pl_Item_Invisivility
+core_pl_Item_Stun
+core_pl_Item_Stun_L
+core_pl_Item_Unable
+core_pl_MagicCircle_Bind_Strong_Boss
+core_pl_MagicCircle_Bind_Strong_Faeries
+core_pl_MagicCircle_charge_lv1
+core_pl_MagicCircle_charge_lv2
+core_pl_MagicCircle_Gauge
+core_pl_MagicCircle_Locked
+core_pl_MagicCircle_Off
+core_pl_MagicCircle_On
+core_pl_MagicCircle_Ready
+core_pl_MagicCircle_Unlocked
+core_pl_MagicSearch_Off
+core_pl_MagicSearch_On
+core_pl_MagicSearch_Sonar
+core_pl_morph
+core_pl_Restoration_Cancel
+core_pl_Restoration_Complete
+core_pl_Restoration_Interact
+core_pl_Restoration_LP
+core_pl_Restoration_Start_ST
+core_pl_WitchTime_In
+core_pl_WitchTime_Loop
+core_pl_WitchTime_Out
+core_PlatinumCommand_SE
+core_PosterFall
+core_Prize_Resource_Multiple_1st
+core_Prize_Resource_Multiple_2nd
+core_Prize_Resource_Multiple_3rd
+core_Prize_Resource_Single
+core_Resource_Generate_Cereza
+core_Resource_Generate_Cheshire
+core_Resource_Generate_Multiple
+Core_Respawn_Page_Send
+core_RhythmAction_Click_BIg
+core_RhythmAction_Click_Small
+core_RhythmAction_Double_Hit
+core_RhythmAction_Double_Hit_1st
+core_RhythmAction_Energy_PL
+core_RhythmAction_Long_Hit_End
+core_RhythmAction_long_Hit_Start
+core_RhythmAction_Single_Hit
+core_RhythmAction_Success_Complete
+core_RhythmAction_Success_Lv1
+core_RhythmAction_Success_Lv2
+core_RhythmAction_Success_Lv3
+core_RhythmFly
+Core_Save_In_Page_Send
+Core_Save_Out_Page_Send
+core_stage_bush_bell_L
+core_stage_bush_bell_M
+core_stage_bush_bell_S
+core_stage_bush_L
+core_stage_bush_M
+core_stage_bush_S
+core_stage_ForbiddenBarrier_Break
+core_stage_ForbiddenBarrier_LP
+core_stage_ForbiddenBarrier_Touch
+core_stage_Gear_DirectionSwitch
+core_stage_IceBarrier_LP
+core_stage_IceBarrier_Melt
+core_stage_Jabberwock_PassBy_ST
+core_stage_Vanishable_Waterfall_Dam
+core_stage_Vanishable_Waterfall_St4_1st
+core_stage_Vanishable_Waterfall_St4_2nd
+core_stage_Vanishable_Waterfall_St4_3rd
+core_stage_WaterVolume_Down
+core_stage_Wisp_Unlock_Break_ST
+core_stage_Wisp_Unlock_Whoosh_ST
+core_stage_Wisp_Vanish
+core_Treasure_Generate
+core_UI_Area_Complete
+core_UI_Area_Complete_Short
+core_UI_CatCursor_LP
+core_UI_CatCursor_Select
+core_UI_ChapterWindow_Close
+core_UI_ChapterWindow_Open
+core_UI_Common_Back
+core_UI_Common_Confirm
+core_UI_Common_Confirm_Unable
+core_UI_Common_Lock
+core_UI_Common_Select
+core_UI_Common_Select_Category
+core_UI_Costume_BandageChange
+core_UI_Costume_Character_Select
+core_UI_Costume_Confirm
+core_UI_Costume_Confirm_Unable
+core_UI_Costume_HairChange
+core_UI_Costume_IN
+core_UI_Costume_OUT
+core_UI_Ending_Book_Close
+core_UI_Ending_Page_Send
+core_UI_GameOver_ST
+core_UI_Get_Archive
+core_UI_Get_Clock
+core_UI_Get_Clock_Small
+core_UI_Get_Consumables
+core_UI_Get_FaerieDrop_L
+core_UI_Get_FaerieDrop_M
+core_UI_Get_FaerieDrop_S
+core_UI_Get_GaugeHeal_Elemental_Cheshire
+core_UI_Get_GaugeHeal_Lock_Cereza
+core_UI_Get_HP_L
+core_UI_Get_HP_S
+core_UI_Get_Material
+core_UI_Get_OnyxRose_L
+core_UI_Get_OnyxRose_M
+core_UI_Get_OnyxRose_S
+core_UI_IllusionRift_Challenge_Bronze
+core_UI_IllusionRift_Challenge_Clear
+core_UI_IllusionRift_Challenge_Gold
+core_UI_IllusionRift_Challenge_IN
+core_UI_IllusionRift_Challenge_OUT
+core_UI_IllusionRift_Challenge_Platinum
+core_UI_IllusionRift_Challenge_TimeExtension
+core_UI_IllusionRift_Challenge_Unlocked
+core_UI_IllusionRift_Clear
+core_UI_IllusionRift_Clear_Short
+core_UI_IllusionRift_Mission_Clear_ST
+core_UI_IllusionRift_Mission_Start_ST
+core_UI_IllusionRift_Mission_TimeCount
+core_UI_IllusionRift_Mission_TimeCount_PichUp
+core_UI_IllusionRift_Mission_TimeOver_ST
+core_UI_IllusionRift_Name_ST
+core_UI_IllusionRift_Name_ST_Quick
+core_UI_InfernoFruit_Get_ST
+core_UI_ItemAppear
+core_UI_LimitUp
+core_UI_LimitUp_Element
+core_UI_LimitUp_Element_Gauge
+core_UI_LimitUp_Element_Star
+core_UI_LimitUp_Heart_Full
+core_UI_LimitUp_Heart_PlusOne
+core_UI_LimitUp_Star
+core_UI_Load_Page_Close
+core_UI_Load_Page_Open
+core_UI_Map_Detail_In
+core_UI_Map_Detail_Out
+core_UI_Map_Level_Switch
+core_UI_Map_NewArea_Appear_ST
+core_UI_MoonPearl_Get_ST
+core_UI_Negative
+core_UI_NewArchive_ST
+core_UI_NewElement_Get_ST
+core_UI_NewElement_Set_ST
+core_UI_NewGame_Page_turn
+core_UI_PracticeRoom_Enemy_Select
+core_UI_PracticeRoom_Skill_Select
+core_UI_PracticeRoom_Success_ST
+core_UI_PracticeRoom_Window_Open
+core_UI_Quest_Stamp
+core_UI_Quest_Window_Close
+core_UI_Quest_Window_Open
+core_UI_Save_Complete
+core_UI_Save_IN
+core_UI_Save_OUT
+core_UI_Save_Overwrite
+core_UI_Save_Select_Next
+core_UI_Save_Select_Previous
+core_UI_SkillTree_IN
+core_UI_SkillTree_OUT
+core_UI_SkillTree_Unable
+core_UI_SkillTree_Unlock_Hold
+core_UI_SkillTree_Unlocked
+core_UI_Title_Intro_Book_Close
+core_UI_Title_Intro_Book_Open
+core_UI_Title_Intro_Cover_Appear
+core_UI_Title_Intro_Page_Appear
+core_UI_Title_Intro_ZLZR
+core_UI_Tutorial_Confirm
+core_UI_Tutorial_Window_Close
+core_UI_Tutorial_Window_ItemGet
+core_UI_Tutorial_Window_Open
+core_UI_Tutorial_Window_Select
+core_UI_UmbranCharms_Craft_Lv1_LP
+core_UI_UmbranCharms_Craft_Lv2_LP
+core_UI_UmbranCharms_Craft_Lv3
+core_UI_UmbranCharms_Craft_Stir_LP
+core_UI_UmbranCharms_Craft_Success
+core_UI_UmbranCharms_IN
+core_UI_UmbranCharms_Item_Decrease
+core_UI_UmbranCharms_Item_Increase
+core_UI_UmbranCharms_Item_Zero
+core_UI_UmbranCharms_Limit
+core_UI_UmbranCharms_Materials_InVase
+core_UI_UmbranCharms_OUT
+core_UI_UmbranCharms_Recipe_Close
+core_UI_UmbranCharms_Recipe_Open
+core_UI_Unable_Transform
+core_UI_Unlocked_NewMap_ST
+core_UI_Unlocked_SafeArea_ST
+core_Wind_ST_LP
+core_Wind_Wisp_Rescue_ST_LP
+core_Wisp_Dmg_Hit
+core_WitchPulse_Magic_1st
+core_WitchPulse_Magic_2nd
+core_WitchPulse_Magic_3rd
+et9020_se
+ev0000_c00
+ev0000_c01
+ev0000_c02
+ev0000_c03
+ev0000_c04
+ev0000_c05
+ev0000_c06
+ev0000_c07
+ev0000_c08
+ev0000_c09
+ev0000_End
+ev0000_Start
+ev0010_c00
+ev0010_c01
+ev0010_c02
+ev0010_c03
+ev0010_c04
+ev0010_c05
+ev0010_c06
+ev0010_c07
+ev0010_c08
+ev0010_c09
+ev0010_c10
+ev0010_c11
+ev0010_c12
+ev0010_c13
+ev0010_c14
+ev0010_c15
+ev0010_c16
+ev0010_c17
+ev0020_c00
+ev0020_c01
+ev0020_c02
+ev0020_c03
+ev0020_c04
+ev0020_c05
+ev0020_c06
+ev0020_c07
+ev0020_c08
+ev0020_c09
+ev0020_c10
+ev1000_c00
+ev1000_c01
+ev1000_c02
+ev1000_c03
+ev1000_c04
+ev1000_c05
+ev1000_c06
+ev1000_c07
+ev1000_c08
+ev1000_c09
+ev1000_c10
+ev1000_c11
+ev1000_c13
+ev1000_c14
+ev1000_c15
+ev1000_c16
+ev1010_c00
+ev1010_c01
+ev1010_c02
+ev1010_c03
+ev1010_c04
+ev1010_c05
+ev1010_c06
+ev1010_c07
+ev1020_c00
+ev1020_c01
+ev1020_c02
+ev1020_c03
+ev1020_c04
+ev1020_c05
+ev1020_c06
+ev1020_c07
+ev1020_c08
+ev1020_c09
+ev1020_c10
+ev1020_c11
+ev1030_c00
+ev1030_c01
+ev1030_c02
+ev1030_c03
+ev1030_c04
+ev1040_c00
+ev1040_c01
+ev1040_c02
+ev1040_c03
+ev1040_c04
+ev1040_c05
+ev1040_c06
+ev1040_c07
+ev1050_c00
+ev1050_c01
+ev1050_c02
+ev1060_c00
+ev1060_c02
+ev1060_c03
+ev1060_c04
+ev1060_c05
+ev1060_c06
+ev1060_c07
+ev2000_c00
+ev2000_c01
+ev2000_c02
+ev2000_c03
+ev2000_c04
+ev2000_c05
+ev2000_c06
+ev2000_c07
+ev2000_c08
+ev2000_c09
+ev2010_c00
+ev2010_c01
+ev2010_c02
+ev2010_c03
+ev2010_c04
+ev2010_c05
+ev3000_c00
+ev3000_c01
+ev3000_c02
+ev3000_c03
+ev3000_c04
+ev3000_c05
+ev3000_c06
+ev3010_c00
+ev3010_c01
+ev3010_c02
+ev3010_c03
+ev3010_c04
+ev3020_c00
+ev3020_c01
+ev3020_c02
+ev3020_c03
+ev3020_c04
+ev3020_c05
+ev3020_c06
+ev3020_c07
+ev3020_c08
+ev3020_c09
+ev3020_c10
+ev3020_c11
+ev3030_c00
+ev3030_c01
+ev3030_c02
+ev3030_c03
+ev3030_c04
+ev3030_c05
+ev3030_c06
+ev3030_c07
+ev3030_c08
+ev3030_c09
+ev3030_c10
+ev3030_c11
+ev3030_c12
+ev4000_c01
+ev4000_c02
+ev4000_c03
+ev4000_c04
+ev4000_c05
+ev4020_c00
+ev4020_c01
+ev4020_c02
+ev4020_c03
+ev4020_c04
+ev4020_c05
+ev4020_c06
+ev4020_c07
+ev4020_c08
+ev4020_c09
+ev4020_c10
+ev4020_c11
+ev4020_c12
+ev4020_c13
+ev4020_c14
+ev4020_c15
+ev4020_c16
+ev4040_c00
+ev4040_c01
+ev4040_c02
+ev4040_c03
+ev4040_c04
+ev4060_c00
+ev4060_c01
+ev4060_c03
+ev4060_c04
+ev4060_c05
+ev4060_c06
+ev4060_c07
+ev4070_c00
+ev4070_c01
+ev4080_c00
+ev4080_c01
+ev4080_c02
+ev4080_c03
+ev4080_c04
+ev4080_c05
+ev4080_c06
+ev4080_c07
+ev4080_c08
+ev4080_c09
+ev4080_c10
+ev4080_c11
+ev4080_c12
+ev4080_c13
+ev4080_c14
+ev4080_c15
+ev4090_c00
+ev4090_c01
+ev4090_c02
+ev4090_c03
+ev5000_c00
+ev5000_c01
+ev5000_c02
+ev5000_c03
+ev5000_c04
+ev5000_c05
+ev5000_c06
+ev5000_c07
+ev5000_c08
+ev5000_c09
+ev5000_c10
+ev5000_c11
+ev5000_c12
+ev5000_c13
+ev5000_c14
+ev5000_c15
+ev5000_c16
+ev5000_c17
+ev5010_c00
+ev5010_c01
+ev5010_c02
+ev5010_c03
+ev5010_c04
+ev6000_c00
+ev6000_c01
+ev6000_c02
+ev6000_c03
+ev6000_c04
+ev6000_c05
+ev6000_c06
+ev6000_c07
+ev6000_c08
+ev6000_c09
+ev6000_c10
+ev6000_c11
+ev6000_c12
+ev6000_c13
+ev6000_c14
+ev6000_c15
+ev6000_c16
+ev6010_c00
+ev6010_c01
+ev6010_c02
+ev6010_c03
+ev6010_c04
+ev6010_c05
+ev6010_c06
+ev6010_c07
+ev6020_c00
+ev6020_c01
+ev6020_c02
+ev6020_c03
+ev6020_c04
+ev6020_c05
+ev6020_c06
+ev6020_c07
+ev6020_c08
+ev6020_c09
+ev6020_c10
+ev6020_c11
+ev6020_c12
+ev6020_c13
+ev6020_c14
+ev6020_c15
+ev6020_c16
+ev6020_c17
+ev6020_C18
+ev6020_c19
+ev6020_c20
+ev6030_c00
+ev6030_c01
+ev6030_c02
+ev6030_c03
+ev6030_c04
+ev6030_c05
+ev6030_c06
+ev6030_c07
+ev6030_c08
+ev6030_c09
+ev6030_c10
+ev6030_c11
+ev6030_c12
+ev6030_c13
+ev6030_c14
+ev6040_c00
+ev6040_c01
+ev6040_c02
+ev6040_c03
+ev6100_c00
+ev6100_c01
+ev6100_c02
+ev6100_c03
+ev6110_c00
+ev6110_c01
+ev6110_c02
+ev6110_c03
+ev6110_c04
+ev6110_c05
+ev6110_c06
+ev6110_c07
+ev6110_c08
+ev6110_c09
+ev7000_c00
+ev7000_c01
+ev7000_c02
+ev7000_c03
+ev7000_c04
+ev7000_c05
+ev7000_c06
+ev7000_c07
+ev7000_c08
+ev7000_c09
+ev7000_c10
+ev7000_c11
+ev7000_c12
+ev7000_c14
+ev7000_c15
+ev7000_c16
+ev7000_c17
+ev7000_C18
+ev7000_c19
+ev7000_c20
+ev7010_c00
+ev7010_c01
+ev7010_c02
+ev7010_c03
+ev7010_c04
+ev7010_c05
+ev7010_c06
+ev7010_c07
+ev7010_c08
+ev7010_c09
+ev7010_c10
+ev7010_c11
+ev7010_c12
+ev7020_c00
+ev7020_c01
+ev7020_c02
+ev7020_c03
+ev7020_c04
+ev7020_c05
+ev7020_c06
+ev7020_c07
+ev7020_c08
+ev7020_c09
+ev7020_c10
+ev7020_c11
+ev7020_c12
+ev7020_c13
+ev7020_c14
+ev7020_c15
+ev7020_c16
+ev7020_c17
+ev7020_C18
+ev7020_c19
+ev8000_c00
+ev8000_c01
+ev8000_c02
+ev8010_c00
+ev8020_c00
+ev8020_c01
+ev8100_c00
+ev8100_c01
+ev8100_c02
+ev8110_c00
+ev8110_c01
+ev8110_c02
+ev8110_c03
+ev8120_c00
+ev8120_c01
+ev8120_c02
+ev8120_c03
+ev8200_c00
+ev8200_c01
+ev8200_c02
+ev8200_c03
+ev8200_c04
+ev8200_c05
+ev8200_c06
+ev8200_c07
+ev8200_c08
+ev8200_c09
+ev8200_c10
+ev8200_c11
+ev8200_c12
+ev8200_c13
+ev8200_c15
+ev8200_c16
+ev8200_c17
+ev8200_C18
+ev8200_c19
+ev8200END_SE
+ev8210_c00
+ev8210_c01
+ev8210_c02
+ev8210_c03
+ev8210_c07
+ev8220_c00
+ev8220_c01
+ev8220_c02
+ev8220_c03
+ev8220_c04
+ev8220_c05
+ev8220_c06
+ev8220_c07
+ev8220_c08
+ev8220_c09
+ev8220_c10
+ev8230_c00
+ev8230_c01
+ev8230_c02
+ev8230_c03
+ev8230END_chesire_vo
+ev8230END_SE
+ev9000_se
+ev9010_c05
+ev9010_c06
+ev9010_c08
+ev9010_c11
+ev9010_End
+ev9010_Start
+ev9020_c00
+ev9020_c01
+ev9020_c02
+ev9020_c03
+ev9020_c04
+ev9020_c05
+ev9020_c06
+ev9020_c07
+ev9020_c08
+ev9020_c09
+ev9020_c10
+ev9020_c11
+ev9040_c00
+ev9040_c01
+ev9040_c02
+ev9040_c03
+ev9040_c04
+ev9040_c05
+ev9040_c06
+ev9040_c07
+ev9040_c08
+ev9040_c09
+ev9040_c10
+ev9040_c11
+ev9040_c12
+ev9040_c13
+ev9040_c14
+ev9040_c15
+ev9050_c00
+ev9050_c01
+ev9050_c02
+ev9050_c03
+ev9050_c04
+ev9050_c05
+ev9050_c06
+ev9050_c07
+ev9050_c08
+ev9050_c09
+ev9050_c10
+ev9050_c11
+ev9050_c12
+ev9050_c13
+ev9050_c14
+ev9050_c15
+ev9050_c16
+ev9050_c17
+EV9050_C18
+ev9060_c00
+ev9060_c01
+ev9060_c02
+ev9060_c03
+ev9060_c04
+ev9060_c05
+ev9060_c06
+ev9060_c07
+ev9060_c08
+ev9060_c09
+ev9060_c10
+ev9060_c11
+ev9060_c12
+ev9060_c13
+ev9060_c14
+ev9060_c15
+ev9060_c16
+ev9060_c17
+EV9060_C18
+ev9070_c00
+ev9070_c01
+ev9070_c02
+ev9070_c03
+ev9070_c04
+ev9070_c05
+ev9070_c06
+ev9070_c07
+ev9080_c00
+ev9080_c01
+IllusionRift_Small_Out_1st
+Morgana_QTE_Arm_Down
+Morgana_QTE_Arm_Up
+Morgana_QTE_Cheshire
+Morgana_QTE_Impact
+pl1100_vo_ev_Reaction_Complain
+Promo_040_Costume_Get
+promo_start_Page
+SafeArea_ba5127_in
+SafeArea_ba5127_out
+SafeArea_in
+SafeArea_out
+SE_Battle_In
+SE_Battle_Out
+SE_BG_Dream_In
+SE_BG_Dream_Out
+SE_BG_pF00
+SE_BookEvent_IN
+SE_BookEvent_OUT
+SE_ChapterWindow_IN
+SE_ChapterWindow_OUT
+SE_Encounter_Enemy_In
+SE_Encounter_Enemy_Out
+SE_Encounter_Room_In
+SE_Encounter_Room_Out
+SE_EndCredit_IN
+SE_EndCredit_OUT
+SE_FastTravel_IN
+SE_FastTravel_OUT
+SE_GameOver_IN
+SE_GameOver_OUT
+SE_IllusionRift_Challenge_IN
+SE_IllusionRift_Challenge_OUT
+SE_IllusionRift_Clear_IN
+SE_IllusionRift_Clear_OUT
+SE_IllusionRift_Mission_IN
+SE_IllusionRift_Mission_OUT
+SE_Init_Default
+SE_Init_pF00
+SE_ItemEvent_IN
+SE_ItemEvent_OUT
+SE_load_in
+SE_load_out
+SE_Pause_IN
+SE_Pause_OUT
+SE_promo_End
+SE_promo_start
+SE_PSTART
+SE_SaveObject_IN
+SE_SaveObject_OUT
+SE_SimpleEvent_IN
+SE_SimpleEvent_OUT
+SE_SkillTree_IN
+SE_SkillTree_OUT
+SE_UmbranCharms_IN
+SE_UmbranCharms_OUT
+Set_GP_SE_core_Wind_Intensity_Strong
+Set_GP_SE_core_Wind_Intensity_Weak
+Stage_core_Stomp_PopOut
+Stage_core_TresureChest_Drop
+START_EV9040_iw
+Stop_core_em_Atk_kinapping_count_start_loop
+Stop_core_em_Barrier_Fire_LP
+Stop_core_em_Barrier_Ice_Lp
+Stop_core_em_Barrier_Stone_LP
+Stop_core_em_Burn_LP
+Stop_core_em_ElectricStaff_LP
+Stop_core_em_IllusionForest_LightHit_LP
+stop_core_fantasy_space_last_sphere_light_loop
+stop_core_fantasy_space_last_sphere_loop
+Stop_core_Fear_Gauge
+Stop_core_FlameBarrier_Evaporation_LP
+Stop_core_FlameBarrier_LP
+Stop_core_IllusionForest_BG
+Stop_core_IllusionForest_HiddenObject_LP
+Stop_core_IllusionRift_EnemyWall_LP
+stop_core_pl_FearGauge_LP
+Stop_core_pl_MagicCircle_charge_lv1
+Stop_core_pl_MagicCircle_charge_lv2
+Stop_core_pl_MagicCircle_Gauge
+Stop_core_pl_Restoration_LP
+Stop_core_pl_WitchTime_Loop
+Stop_core_RhythmAction_long_Hit_Start
+Stop_core_stage_ForbiddenBarrier_LP
+Stop_core_stage_IceBarrier_LP
+Stop_core_UI_CatCursor_LP
+Stop_core_UI_IllusionRift_Mission_TimeCount
+Stop_core_UI_Save_Overwrite
+Stop_core_UI_SkillTree_Unlock_Hold
+Stop_core_UI_Title_Intro_Book_Close
+Stop_core_UI_Title_Intro_Book_Open
+Stop_core_UI_Title_Intro_Cover_Appear
+Stop_core_UI_Title_Intro_Page_Appear
+Stop_core_UI_UmbranCharms_Craft_Stir_LP
+Stop_core_Wind_ST_LP
+Stop_core_Wind_Wisp_Rescue_ST_LP
+# 39243186
+# 131645156
+# 162278228
+# 258170148
+# 281446526
+# 297695428
+# 320344651
+# 345206690
+# 399295506
+# 409055211
+# 421907526
+# 425122867
+# 471694247
+# 476966460
+# 522054939
+# 523339363
+# 551376845
+# 563096103
+# 628012383
+# 682689888
+# 704443568
+# 708652758
+# 717822809
+# 782431909
+# 875439491
+# 923908556
+# 923908562
+# 923908563
+# 930382087
+# 983932233
+# 989571525
+# 1008021403
+# 1030646113
+# 1061563440
+# 1168164123
+# 1194831784
+# 1194831787
+# 1373055414
+# 1393504126
+# 1421605731
+# 1457497762
+# 1470519903
+# 1493194916
+# 1518127091
+# 1532163960
+# 1583051679
+# 1610851977
+# 1618640044
+# 1618640050
+# 1641566003
+# 1647678050
+# 1689242642
+# 1693034687
+# 1720396107
+# 1723248130
+# 1731102525
+# 1754453812
+# 1777883738
+# 1815898311
+# 1826390529
+# 1828810511
+# 1843830067
+# 1905556626
+# 1982968657
+# 1996191251
+# 2043176171
+# 2046969003
+# 2047985027
+# 2063360111
+# 2096077303
+# 2175838134
+# 2257865800
+# 2301210810
+# 2311639834
+# 2331289568
+# 2387998638
+# 2551037455
+# 2603413154
+# 2629385016
+# 2776166815
+# 2789187425
+# 2791382402
+# 2867719707
+# 2989856605
+# 2993575804
+# 3004716200
+# 3004716203
+# 3036042589
+# 3049793618
+# 3082383570
+# 3082973850
+# 3086441155
+# 3107286880
+# 3137908553
+# 3169950310
+# 3172830447
+# 3216396371
+# 3313391578
+# 3313704102
+# 3354274822
+# 3354843110
+# 3466161173
+# 3491752319
+# 3500406405
+# 3536861644
+# 3589433540
+# 3600384428
+# 3600384429
+# 3600384435
+# 3609571705
+# 3642570203
+# 3648631098
+# 3664577942
+# 3671862667
+# 3697106809
+# 3707666953
+# 3716117526
+# 3740510434
+# 3811529474
+# 3877564717
+# 3880634273
+# 3906904660
+# 3950653215
+# 3950814044
+# 3972037464
+# 3981588851
+# 4011329057
+# 4014138581
+# 4058718809
+# 4128243530
+# 4171204563
+# 4190146075
+# 4192209291
+# 4204980365
+# 4257922824
+
+### SFX NAMES (core.bnk)
+CERESSA__vs
+# 286806744
+# 3209384810
+# 66026608
+# 412388924
+# 181583340
+# 1057290351
+# 584212646
+# 869517581
+# 105242413
+# 300670532
+# 750494662
+# 358560854
+# 435452091
+# 950183186
+# 989200412
+# 1395218060
+# 2552229449
+# 2610381503
+# 4248315602
+
+### RTPC/GAME-VARIABLE NAMES (core.bnk)
+azimuth
+core_pl_Lock
+core_pl_Restoration
+core_Poster_Size
+core_Wind_Intensity
+Distance
+elevation
+SE_Battle_start
+SE_Distance_Fire
+SE_Distance_Pl_Wall
+SE_Fear
+SE_IllusionForest_InOut
+SE_safearea
+SE_UI_UmbranCharms_Craft
+SE_Vanishable_Waterfall_Dam
+SE_Vanishable_Waterfall_St4_1st
+SE_Vanishable_Waterfall_St4_2nd
+SE_Vanishable_Waterfall_St4_3rd
+vo_Mid_Duck
+# 3209384810
+# 3765346316
+# 989200412
+# 2288140616
+# 1395218060
+# 954804749
+# 3231844624
+# 3620821697
+# 566351495
+# 545664718
+# 2074035878
+# 281446526
+
+### VARIABLE NAMES (core.bnk)
+SE_IllusionRift_Time
+
+### VALUE NAMES (core.bnk)
+Count_01
+Count_02
+Count_03
+Count_04
+Count_05
+
+
+#2134111183  : BGM_Force_Battle_heroheart
+#2447392961  : BGM_skill_Dmg_Death
+#764168715   : em0015_Meter
+#2237812798  : em0150_pitch
+#2146346520  : gameover_bus_cable
+#3877564717  : Invisivility_m45
+#4140788778  : mSet_P510_BGM_r2c2_01
+#3396903712  : mSet_P510_BGM_r2c2_01_in
+#3807204327  : mSet_P510_BGM_r2c2_01_out
+#2960794357  : mSet_p340_none_5000ms
+#3376784293  : BGM_unlock_caveout_out
