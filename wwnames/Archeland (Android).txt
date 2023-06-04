@@ -1,0 +1,7550 @@
+#@classify-bank
+
+### BANK NAMES
+BGM
+Boss1002001
+Boss1002002
+Boss1002003
+Boss1002003_5
+Boss1002004
+Boss1002005
+Boss1002006
+Boss1002007
+Boss1002011_1
+Boss1002011_2
+Boss1002011_3
+Boss1002012
+Boss1002021
+Boss1002025
+Boss1002026
+Boss1002027
+Boss1002028
+Boss1002030_1
+Boss1003000
+Boss1003001
+Boss1003002
+Boss1003003
+Boss1003004
+Character
+Character1001001
+Character10201
+Character1080003
+Character1080004
+Character1080014
+Character1080018
+Character1080024
+Character1080025
+Character1080026
+Character1080030
+Character1080101
+Character1080102
+Charater1080022
+Charater1080031
+EFT
+ENV
+Hero10101
+Hero10102
+Hero10103
+Hero10104
+Hero10105
+Hero10106
+Hero10201
+Hero10202
+Hero10203
+Hero10204
+Hero10205
+Hero10206
+Hero10301
+Hero10302
+Hero10303
+Hero10304
+Hero10305
+Hero10306
+Hero10307
+Hero10308
+Hero10309
+Hero10310
+Hero10311
+Hero10312
+Hero10313
+Hero10314
+Hero10401
+Hero10402
+Hero10403
+Hero10404
+Hero10405
+Hero10406
+Hero10407
+Hero10408
+Hero10409
+Hero10410
+Hero10411
+Hero10501
+Hero10502
+Hero10503
+Hero10504
+Hero10505
+Hero10602
+Hero10603
+Hero10604
+Hero10701
+Hero10703
+Hero10704
+Hero10705
+Hero10706
+Hero10707
+Hero10708
+Hero10801
+Hero10802
+Hero10803
+Hero10903
+Hero10904
+Hero10905
+Hero11001
+Hero11002
+Hero11003
+Hero11004
+Hero11005
+Hero_10205_Pet
+Hero_10301
+Hero_10306
+Hero_10401
+Hero_11001
+Hero_VO_B1001
+Hero_VO_B1002
+Hero_VO_B1003
+Hero_VO_B1004
+Hero_VO_B1005
+Hero_VO_M112100
+Hero_VO_M112107
+Hero_VO_M112108
+Hero_VO_M112109
+Hero_VO_M112111
+Init
+Monster1001001
+Monster1001002
+Monster1001003
+Monster1001004
+Monster1001011
+Monster1001021
+Monster1001051
+Monster1001101
+Monster1001102
+Monster1001110
+Monster1001120
+Monster1001130
+Monster1001140
+Monster1001150
+Monster1001164
+Monster1001201
+Monster1001204
+Monster1001221
+Monster1001271
+Monster1001611
+Monster1001693
+Monster1001711
+Monster1002001
+Monster1002002
+Monster1002003
+Monster1002005
+Monster1002007
+Monster1002010
+Monster1002011
+Monster1002012
+Monster1002017
+Monster1002020
+Monster1002021
+Monster1002030
+Monster1002040
+Monster1002050
+Monster1002064
+Monster1002101
+Monster1002120
+Monster1003001
+Monster1003002
+Monster1003030
+Monster1003101
+Monster1003102
+Monster1003103
+Monster1003130
+Monster1003150
+Monster1003164
+Monster1003401
+Monster1003402
+Monster1003410
+Monster1003440
+Monster1003500
+Monster1003501
+Monster1003502
+Monster1003520
+Monster1003540
+Monster1003573
+Monster1004001
+Monster1004003
+Monster1004005
+Monster1004010
+Monster1004012
+Monster1004013
+Monster1004020
+Monster1004220
+Monster1004220_01
+Monster1004240
+Monster1006001
+Monster10060011
+Monster10060013
+Monster10060014
+Monster1006015
+Monster1006021
+Monster1006022
+Monster1006025
+Monster1006031
+Monster1006032
+Monster1006033
+Monster1006035
+Monster1006041
+Monster1006042
+Monster1006043
+Monster1006045
+Monster1006051
+Monster1006052
+Monster1006053
+Monster1006054
+Monster1006064
+Monster1007010
+Monster1007020
+Monster1007030
+Monster1007040
+Monster1007050
+Monster1007061
+Monster1007135
+Monster1008000
+Monster1008001
+Monster1008002
+Monster1010001
+Monster1010002
+Monster1011002
+Monster1011003
+Monster1011004
+Monster1011010
+Monster1011011
+Monster1011014
+Monster1011016
+Monster1011017
+Monster1011020
+Monster1011021
+Monster1011023
+Monster1011025
+Monster1011027
+Monster1011030
+Monster1011040
+Monster1011050
+Monster1011064
+Monster1011080
+Monster1011101
+Monster1011102
+Monster1011103
+Monster1012040
+Monster1012064
+Monster1013010
+Monster1013020
+Monster1013040
+Monster1050011
+Monster1050023
+Monster1050031
+Monster1050032
+Monster1050033
+Monster1050035
+Monster1050041
+Monster1050051
+Monster1050111
+Monster1050251
+Monster1050341
+Monster1050344
+Monster1060010
+Monster1070010
+Monster1090022
+Monster1090051
+Monster1120010
+Monster1120020
+Monster1120030
+Monster1120040
+Monster1120050
+Monster1120064
+Monster1130050
+Monster1140010
+Monster1140011
+Monster_1010002
+MonsterBadGuy
+MusicGameMusic
+NPC1004001
+NPC1080018
+STO
+StopEvent
+Story_VO_5_1NFJ_01
+System
+TimeLine
+UI_Card
+UI_Character
+UI_Combat
+UI_Common
+UI_ENV
+UI_General
+UI_HeroList
+UI_Home
+UI_MengYanZhiXia
+UI_Menu
+UI_MuShenJie
+UI_Music
+UI_SenZhiQiong
+UI_XingYunTaLuo
+voice
+
+### LANGUAGE NAMES
+SFX
+
+### BUS NAMES
+AUX
+Brass
+CG
+CG_VO
+Character
+Combat
+Dialog
+Dialog_reverb
+Draw_loop
+DrawMusic
+EFT
+ENV
+ENV_reverb
+Fl
+Gacha
+Guitar
+Hero_pose
+Hero_VO
+Master Audio Bus = 0
+Monster
+Mood
+Music
+MusicGameMusic
+Pno
+SFX
+Special_reverb
+Special_VO
+Story
+Story_VO
+UI
+UI_Card
+UI_Combat
+UI_Common
+UI_ENV
+UI_General
+UI_HeroList
+UI_Interactive
+UI_Menu
+UI_mute
+UI_reverb
+Violin
+Voc
+voice
+# 3962056604
+# 2926684815
+# 481659868
+# 3357187729
+# 3263567909
+# 2293633596
+# 2218415660
+# 1084261752
+# 1823173303
+# 1896033193
+# 1208279950
+# 2413178514
+# 2686568099
+# 1100403321
+# 3609374414
+# 2260660420
+# 1478785713
+# 3776745265
+# 2019755152
+# 1960326064
+# 2361985189
+# 3327625916
+# 2828566476
+# 4055652397
+# 1801866368
+# 940291215
+# 1866855703
+# 65630131
+# 1404930320
+# 3812919663
+# 1253849291
+# 2511637606
+# 2126052380
+# 2192762543
+# 44391828
+# 649078268
+# 2531937314
+# 2903718909
+# 3211436717
+# 4241027416
+# 1169749686
+# 20993907
+# 706295854
+# 618077202
+
+### EVENT NAMES (BGM.bnk)
+BGM_Bag_0
+BGM_BlankScreen
+BGM_Camp_0
+BGM_Camp_0_Fl_1
+BGM_Camp_0_Fl_2
+BGM_Camp_0_Fl_3
+BGM_Camp_0_Fl_4
+BGM_Camp_0_Guitar_1
+BGM_Camp_0_Guitar_2
+BGM_Camp_0_Guitar_3
+BGM_Camp_0_Guitar_4
+BGM_Camp_0_Guitar_5
+BGM_Camp_0_Guitar_6
+BGM_Camp_0_Pno_1
+BGM_Camp_0_Pno_2
+BGM_Camp_0_Pno_3
+BGM_Camp_0_Pno_4
+BGM_Camp_0_Pno_5
+BGM_Camp_0_Violin_1
+BGM_Camp_0_Violin_2
+BGM_Camp_0_Violin_3
+BGM_Camp_0_Violin_4
+BGM_Camp_0_Voc_1
+BGM_Camp_0_Voc_2
+BGM_Camp_0_Voc_3
+BGM_Camp_0_Voc_4
+BGM_Camp_0_Voc_5
+BGM_Camp_1
+BGM_Camp_1_Brass_1
+BGM_Camp_1_Brass_2
+BGM_Camp_1_Brass_3
+BGM_Character_0
+BGM_Combat_Lose_0
+BGM_Combat_Normal_0
+BGM_Combat_Normal_1
+BGM_Combat_Normal_10
+BGM_Combat_Normal_11
+BGM_Combat_Normal_12
+BGM_Combat_Normal_13
+BGM_Combat_Normal_14
+BGM_Combat_Normal_2_Enemy
+BGM_Combat_Normal_2_Self
+BGM_Combat_Normal_3_Boss_1
+BGM_Combat_Normal_3_Boss_2
+BGM_Combat_Normal_4_Boss_Enemy
+BGM_Combat_Normal_4_Boss_Self
+BGM_Combat_Normal_5_Enemy
+BGM_Combat_Normal_5_Self
+BGM_Combat_Normal_6_Boss
+BGM_Combat_Normal_7_Enemy
+BGM_Combat_Normal_7_Self
+BGM_Combat_Normal_8
+BGM_Combat_Normal_9
+BGM_Combat_Normal_RandALL
+BGM_Combat_Normal_RandBO
+BGM_Combat_Normal_RandNM
+BGM_Combat_Preparation_0
+BGM_Combat_Preparation_1
+BGM_Combat_Preparation_2
+BGM_Combat_Preparation_3
+BGM_Combat_Preparation_4
+BGM_Combat_Preparation_5
+BGM_Combat_Preparation_Random
+BGM_Combat_Victory_0
+BGM_Draw_Intro
+BGM_Draw_TM1
+BGM_Draw_TM1_SSR
+BGM_Draw_UI
+BGM_Emotion_0
+BGM_Emotion_Belief_0
+BGM_Emotion_Belief_1
+BGM_Emotion_Confidence_0
+BGM_Emotion_Cute_0
+BGM_Emotion_Danger_0
+BGM_Emotion_Danger_1
+BGM_Emotion_Danger_2
+BGM_Emotion_Danger_3
+BGM_Emotion_Danger_4
+BGM_Emotion_Danger_5
+BGM_Emotion_Epic_0
+BGM_Emotion_Epic_1
+BGM_Emotion_Epic_2
+BGM_Emotion_Epic_3
+BGM_Emotion_Exotic_0
+BGM_Emotion_Exotic_1
+BGM_Emotion_Holy_0
+BGM_Emotion_Humor_0
+BGM_Emotion_Justice_0
+BGM_Emotion_Justice_1
+BGM_Emotion_Justice_2
+BGM_Emotion_Justice_3
+BGM_Emotion_Justice_4
+BGM_Emotion_Mysterious_0
+BGM_Emotion_Mysterious_1
+BGM_Emotion_Mysterious_2
+BGM_Emotion_Nervous_0
+BGM_Emotion_Nervous_1
+BGM_Emotion_Nervous_2
+BGM_Emotion_Nervous_3
+BGM_Emotion_Nervous_4
+BGM_Emotion_Neutral_0
+BGM_Emotion_Neutral_1
+BGM_Emotion_Ominous_0
+BGM_Emotion_Ominous_1
+BGM_Emotion_Ominous_2
+BGM_Emotion_Preparation_0
+BGM_Emotion_Preparation_1
+BGM_Emotion_Preparation_2
+BGM_Emotion_Preparation_3
+BGM_Emotion_Preparation_4
+BGM_Emotion_Preparation_5
+BGM_Emotion_Relax_0
+BGM_Emotion_Sad_0
+BGM_Emotion_Sad_1
+BGM_Emotion_Sad_2
+BGM_Emotion_Series_0
+BGM_Emotion_Tranquil_0
+BGM_Emotion_Tranquil_1
+BGM_Emotion_Tranquil_2
+BGM_Emotion_Uncertain_0
+BGM_Forge_0
+BGM_GameEnter
+BGM_Home
+BGM_Home_1
+BGM_Home_10
+BGM_Home_11
+BGM_Home_12
+BGM_Home_2
+BGM_Home_3
+BGM_Home_4
+BGM_Home_5
+BGM_Home_6
+BGM_Home_7
+BGM_Home_8
+BGM_Home_9
+BGM_LiuGuangDao
+BGM_Loading_0
+BGM_Login_0
+BGM_LowerBGM
+BGM_memory_0
+BGM_None
+BGM_Play_Result
+BGM_Play_SSR_Result
+BGM_ResetBGM
+BGM_Set_noSSR
+BGM_Set_SSR
+BGM_SkipStory
+BGM_StopBlankScreen
+BGM_StopLoading
+BGM_UI_Dice
+BGM_UI_FenLiZhiJing
+BGM_UI_GeJuMeiYing
+BGM_UI_HuoDong
+BGM_UI_JingJiChang
+BGM_UI_MiJing
+BGM_UI_MuShenJie_Day
+BGM_UI_MuShenJie_Night
+BGM_UI_QuanQunDao
+BGM_UI_Shop
+BGM_UI_XunLianSai
+BGM_UI_YinYouZhiShi
+BGM_UI_YongBing
+BGM_Weapon_TM
+BGM_WorldMap_0
+BGM_WorldMap_1
+BGM_WorldMap_2
+BGM_WorldMap_Chapter
+BGM_WorldMap_Chapter_Open
+BGM_WorldMap_Random
+ENV_Ambient_Draw
+ENV_ResetENV
+Gacha_Ailika
+Gacha_Attar
+Gacha_Atum
+Gacha_Capet
+Gacha_Catherine
+Gacha_Claphare
+Gacha_Clarice
+Gacha_Gabrie
+Gacha_Gin
+Gacha_Kabir
+Gacha_Kasie
+Gacha_Lina
+Gacha_Marguerite
+Gacha_Michael
+Gacha_Nola
+Gacha_Peacock
+Gacha_Semi
+Gacha_ShiXinWang
+Gacha_Sieghard
+Gacha_Silva
+Gacha_Susiesusan
+Gacha_Valak
+Gacha_XiaLvDi
+Gacha_Ygg
+Gacha_YueGuanWang
+Gacha_Zeilbynat
+Play_Normal
+Play_SSR
+# 24569418
+# 79057680
+# 1026442109
+# 1043875639
+# 1226923892
+# 1334696562
+# 1344785309
+# 1922903475
+# 2028677647
+# 2323880418
+# 2587873757
+# 2764791382
+# 3776141884
+
+### RTPC/GAME-VARIABLE NAMES (BGM.bnk)
+RTPC_SSROpen
+
+### VARIABLE NAMES (BGM.bnk)
+ST_Camp_Layer
+ST_Combat
+ST_Combat_Boss_Phase
+ST_Combat_Normal_No
+ST_Combat_Preparation_No
+ST_Draw_Gacha
+ST_Draw_New
+ST_Emotion
+ST_Home_No
+ST_Music
+ST_UI
+ST_WorldMap_No
+# 2457326641
+# 720341915
+
+### VALUE NAMES (BGM.bnk)
+Bag
+Belief_0
+Belief_1
+BGM_UI_Dice
+BGM_UI_FenLiZhiJing
+BGM_UI_GeJuMeiYing
+BGM_UI_HuoDong
+BGM_UI_JingJiChang
+BGM_UI_MiJing
+BGM_UI_MuShenJie_Day
+BGM_UI_MuShenJie_Night
+BGM_UI_QuanQunDao
+BGM_UI_Shop
+BGM_UI_XunLianSai
+BGM_UI_YinYouZhiShi
+BGM_UI_YongBing
+Camp
+CampFire
+CG
+Chapter
+ChapterOpen
+Character
+Combat
+Confidence_0
+Cute_0
+Danger_0
+Danger_1
+Danger_2
+Danger_3
+Danger_4
+Danger_5
+Draw
+Draw_Gacha
+Draw_Gacha_Ailika
+Draw_Gacha_Attar
+Draw_Gacha_Atum
+Draw_Gacha_Capet
+Draw_Gacha_Catherine
+Draw_Gacha_Claphare
+Draw_Gacha_Clarice
+Draw_Gacha_Gabrie
+Draw_Gacha_Gin
+Draw_Gacha_Kabir
+Draw_Gacha_Kasie
+Draw_Gacha_Lina
+Draw_Gacha_Marguerite
+Draw_Gacha_Michael
+Draw_Gacha_Nola
+Draw_Gacha_Peacock
+Draw_Gacha_Semi
+Draw_Gacha_ShiXinWang
+Draw_Gacha_Sieghard
+Draw_Gacha_Silva
+Draw_Gacha_Susiesusan
+Draw_Gacha_Valak
+Draw_Gacha_XiaLvDi
+Draw_Gacha_Ygg
+Draw_Gacha_YueGuanWang
+Draw_Gacha_Zeilbynat
+Draw_Intro
+Draw_noSSR
+Draw_Result
+Draw_Result_SSR
+Draw_SSR
+Draw_TM1
+Draw_TM1_SSR
+Draw_UI
+Draw_Weapon_TM
+Emotion
+Enemy
+Epic_0
+Epic_1
+Epic_2
+Epic_3
+Exotic_0
+Exotic_1
+Forge
+Holy_0
+Home
+Humor_0
+Justice_0
+Justice_1
+Justice_2
+Justice_3
+Justice_4
+LiuGuangDao
+loading
+login
+Lose_0
+memory
+Mysteries_0
+Mysteries_1
+Mysteries_2
+Nervous_0
+Nervous_1
+Nervous_2
+Nervous_3
+Nervous_4
+Neutral_0
+Neutral_1
+no0
+no1
+no10
+no11
+no12
+no13
+no14
+no2
+no3
+no4
+no5
+no6
+no7
+no8
+no9
+None
+normal
+Ominous_0
+Ominous_1
+Ominous_2
+Phase_1
+Phase_2
+Preparation
+Preparation_0
+Preparation_1
+Preparation_2
+Preparation_3
+Preparation_4
+Preparation_5
+Random
+Random_All
+Random_Boss
+Random_Normal
+Relax_0
+Sad_0
+Sad_1
+Sad_2
+self
+Serious_0
+Tranquil_0
+Tranquil_1
+Tranquil_2
+UI
+Uncertain_0
+Victory_0
+WorldMap
+# 3404569836
+# 921095281
+# 185816123
+
+### EVENT NAMES (Boss1002001.bnk)
+# 248451646
+# 249787209
+# 342073906
+# 687660386
+# 1954061000
+# 3515542428
+
+### SFX NAMES (Boss1002001.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002001.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1002002.bnk)
+# 337987313
+# 337987314
+# 2004834998
+# 2156596043
+# 2788696409
+# 3343672278
+# 4242741800
+# 4242741801
+
+### SFX NAMES (Boss1002002.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002002.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1002003.bnk)
+# 157748838
+# 970663145
+# 1067009324
+# 1409203900
+# 1819719823
+# 3847614820
+# 3847614823
+
+### SFX NAMES (Boss1002003.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002003.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### EVENT NAMES (Boss1002003_5.bnk)
+# 582845852
+# 931271703
+# 2898619050
+# 4057471556
+# 4057471559
+# 4140261002
+
+### SFX NAMES (Boss1002003_5.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002003_5.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1002004.bnk)
+# 327600084
+# 2790920487
+
+### SFX NAMES (Boss1002004.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002004.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1002005.bnk)
+# 66853024
+# 205898781
+# 2159761228
+# 2344582306
+# 3420119496
+# 3420119497
+# 3420119501
+# 3420119502
+
+### SFX NAMES (Boss1002005.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002005.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1002006.bnk)
+# 500064845
+# 3593931919
+# 3937189370
+
+### SFX NAMES (Boss1002006.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002006.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Boss1002006.bnk)
+AttackElement
+
+### VALUE NAMES (Boss1002006.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Boss1002007.bnk)
+# 151073872
+# 151073873
+# 301594688
+# 2636024736
+
+### SFX NAMES (Boss1002007.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002007.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1002011_1.bnk)
+# 693640734
+# 970805175
+# 2013435027
+# 2111321505
+# 2111321506
+# 2821434665
+# 4212254705
+
+### SFX NAMES (Boss1002011_1.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002011_1.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1002011_2.bnk)
+# 777996044
+# 777996045
+# 2631410054
+# 2925989698
+# 2925989699
+
+### SFX NAMES (Boss1002011_2.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002011_2.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1002011_3.bnk)
+# 3197856813
+# 3882346866
+# 3882346867
+# 4059194706
+
+### SFX NAMES (Boss1002011_3.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002011_3.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1002012.bnk)
+# 3194553746
+# 3512537037
+# 4003809983
+# 4004667344
+
+### SFX NAMES (Boss1002012.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002012.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Boss1002012.bnk)
+AttackElement
+
+### VALUE NAMES (Boss1002012.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Boss1002021.bnk)
+# 848955894
+# 2735656566
+# 2870292840
+# 3781864883
+# 3870090920
+# 3870090921
+# 3870090923
+
+### SFX NAMES (Boss1002021.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002021.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Boss1002021.bnk)
+AttackElement
+
+### VALUE NAMES (Boss1002021.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Boss1002025.bnk)
+# 461880290
+# 1221888194
+# 1485882052
+# 2527504511
+# 2819548774
+# 3259691519
+
+### SFX NAMES (Boss1002025.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002025.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1002026.bnk)
+# 899179735
+# 1303105912
+# 1434405453
+# 2139116251
+# 3448853876
+
+### SFX NAMES (Boss1002026.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002026.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1002027.bnk)
+# 251868884
+# 1013536725
+# 2202745653
+# 2262744489
+# 3025058464
+
+### SFX NAMES (Boss1002027.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002027.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1002028.bnk)
+# 316491413
+# 1397063215
+# 1865177574
+# 2861929818
+# 3496575277
+# 4236962771
+
+### SFX NAMES (Boss1002028.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002028.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1002030_1.bnk)
+# 562443715
+# 1053460864
+# 1396334138
+# 1588223944
+# 1752127888
+# 1752127889
+# 1752127891
+# 1752127893
+# 1752127894
+# 1752127895
+# 2496922964
+# 2623447029
+# 3022790919
+# 4270760837
+
+### SFX NAMES (Boss1002030_1.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1002030_1.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1003000.bnk)
+# 317938680
+# 1029795139
+# 3236181382
+# 4179759544
+# 4179759545
+# 4179759550
+
+### SFX NAMES (Boss1003000.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1003000.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1003001.bnk)
+# 3108948657
+# 3559977234
+# 3690741164
+# 3690741165
+# 3690741166
+# 3766601013
+# 3911368871
+# 4036134276
+
+### SFX NAMES (Boss1003001.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1003001.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1003002.bnk)
+# 602954036
+# 2126306266
+# 3274120661
+# 3286317237
+# 3286317238
+# 4144909864
+
+### SFX NAMES (Boss1003002.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1003002.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1003003.bnk)
+# 1539854828
+# 2588992416
+# 2588992418
+# 2588992419
+# 4191446959
+# 4215183121
+
+### SFX NAMES (Boss1003003.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1003003.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Boss1003004.bnk)
+# 438392980
+# 1338241938
+# 1405297420
+# 1405297423
+# 1605169231
+# 2231991698
+
+### SFX NAMES (Boss1003004.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Boss1003004.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Character.bnk)
+CB_Dead
+CB_EnemyRound
+CB_Guard
+CB_OurRound
+CH_Dead_01
+CH_General_Footstep_WorldMap
+# 418187999
+# 428419670
+# 717313273
+# 721063593
+# 1040407961
+# 1127900894
+# 1146167438
+# 1197255652
+# 1561859611
+# 1562753371
+# 1901377273
+# 1947208786
+# 1970648784
+# 1970648786
+# 1970648787
+# 1970648788
+# 1970648789
+# 1970648790
+# 1970648791
+# 1970648793
+# 1976282894
+# 2060537528
+# 2169278833
+# 2298060051
+# 2315426609
+# 2433271928
+# 2433271930
+# 2433271931
+# 2433271932
+# 2433271933
+# 2491979415
+# 2586902300
+# 2670430675
+# 2680904413
+# 2680904414
+# 2680904415
+# 2733831584
+# 2786581531
+# 2793301344
+# 2815589359
+# 2853811880
+# 3067578670
+# 3255767041
+# 3345872701
+# 3345872702
+# 3373373023
+# 3383850044
+# 3448971007
+# 3602515024
+# 3631895786
+# 3654477152
+# 3654477153
+# 3654477155
+# 3654477158
+# 3654477159
+# 3654477163
+# 4126715164
+# 4162959872
+# 4162959873
+# 4162959881
+# 4162959882
+# 4162959883
+# 4162959884
+# 4162959885
+# 4162959886
+# 4162959887
+
+### VARIABLE NAMES (Character.bnk)
+AttackType
+DamageLevel
+# 3072116243
+
+### VALUE NAMES (Character.bnk)
+Armor
+Dirt
+General
+Heavy
+Kick
+middle
+Punch
+Shield
+Slash
+Stab
+
+### EVENT NAMES (Character1001001.bnk)
+# 862518947
+# 1622951440
+# 2923258469
+
+### SFX NAMES (Character1001001.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Character1001001.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Character10201.bnk)
+# 1217379649
+# 1922314916
+# 2865648054
+
+### SFX NAMES (Character10201.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Character10201.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Character10201.bnk)
+AttackElement
+
+### VALUE NAMES (Character10201.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Character1080003.bnk)
+# 3363579945
+# 3503175676
+# 3595963614
+
+### SFX NAMES (Character1080003.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Character1080003.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Character1080003.bnk)
+AttackElement
+
+### VALUE NAMES (Character1080003.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Character1080004.bnk)
+# 1660194477
+# 1843449306
+# 2912921519
+
+### SFX NAMES (Character1080004.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Character1080004.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Character1080014.bnk)
+# 457146285
+# 1411368124
+# 1605171378
+# 1646554928
+
+### SFX NAMES (Character1080014.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Character1080014.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Character1080014.bnk)
+AttackElement
+
+### VALUE NAMES (Character1080014.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Character1080018.bnk)
+# 1259225953
+# 3499886230
+# 3849472836
+
+### SFX NAMES (Character1080018.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Character1080018.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Character1080024.bnk)
+# 422590117
+# 2606103779
+# 3292271696
+
+### SFX NAMES (Character1080024.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Character1080024.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Character1080024.bnk)
+AttackElement
+
+### VALUE NAMES (Character1080024.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Character1080025.bnk)
+# 1679161628
+# 1764309950
+# 3526273993
+
+### SFX NAMES (Character1080025.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Character1080025.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Character1080025.bnk)
+AttackElement
+
+### VALUE NAMES (Character1080025.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Character1080026.bnk)
+# 952315609
+# 1853897386
+# 2325191766
+# 3672454347
+
+### SFX NAMES (Character1080026.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Character1080026.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Character1080026.bnk)
+AttackElement
+
+### VALUE NAMES (Character1080026.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Character1080030.bnk)
+# 517025282
+# 2374899900
+# 2573170239
+# 3895965188
+
+### SFX NAMES (Character1080030.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Character1080030.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Character1080101.bnk)
+# 1263983203
+# 2466095470
+# 3824689729
+# 3829072945
+# 3829072946
+
+### SFX NAMES (Character1080101.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Character1080101.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Character1080101.bnk)
+AttackElement
+
+### VALUE NAMES (Character1080101.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Character1080102.bnk)
+# 137037508
+# 1308650800
+# 1440922265
+# 2636629473
+# 3198881302
+
+### SFX NAMES (Character1080102.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Character1080102.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Character1080102.bnk)
+AttackElement
+
+### VALUE NAMES (Character1080102.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Charater1080022.bnk)
+# 2958651341
+# 3018878851
+
+### SFX NAMES (Charater1080022.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Charater1080022.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Charater1080031.bnk)
+# 56611970
+# 1369231945
+# 1497321342
+# 2012307089
+# 2582515262
+
+### SFX NAMES (Charater1080031.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Charater1080031.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (EFT.bnk)
+EFT_0_Hero10106_buff_loop
+EFT_0_Hero10106_CastSkill01_loop
+EFT_bloodsucking
+EFT_Buff
+EFT_Buff_fenfangFX
+EFT_Buff_Shield_Fire
+EFT_Buff_Shield_Ice
+EFT_Buff_Shield_Thunder
+EFT_BurningFX
+EFT_Camera_Vibration
+EFT_ChangeClothes
+EFT_CleanFX
+EFT_CommonBreakFX
+EFT_CommonReleaseBlood
+EFT_CommonSkill1000
+EFT_CommonSkill1002
+EFT_CommonSkill2003
+EFT_CommonSkill3001
+EFT_CommonSkill3004
+EFT_CommonSkill3004_2
+EFT_CommonSkill5001_Dark
+EFT_CommonSkill5003
+EFT_CommonSkill5005
+EFT_CommonSkill5006
+EFT_CommonSkill5007
+EFT_CommonSkill6007_hit
+EFT_CommonSkill6008
+EFT_CommonSkill6009
+EFT_CommonSkill6010_U2
+EFT_CommonSkill6012
+EFT_CommonSkill7033_2
+EFT_CommonTreatmentDark
+EFT_CutScene_U2_101010_01
+EFT_CutScene_U2_101050_BlackShadow_01
+EFT_CutScene_U2_101050_BlackShadow_03
+EFT_DarkBell
+EFT_DarkGasFX
+EFT_Dead_01
+EFT_Efx_Didperse
+EFT_Efx_Didperse_Dark
+EFT_Efx_shenpanzhiyan_Loop
+EFT_Efx_shenpanzhiyan_Out
+EFT_ElectricityFX
+EFT_ElectricityGasFX
+EFT_Facilitie100000
+EFT_Facilitie100000_2
+EFT_Facilitie100001
+EFT_Facilitie100002
+EFT_Facilitie100003
+EFT_Facilitie100005_1
+EFT_Facilitie100007
+EFT_Facilitie100008
+EFT_Facilitie100009
+EFT_Facilitie100010
+EFT_Facilitie100021
+EFT_Facilitie100121
+EFT_Facilitie100122_Tornado
+EFT_Facilitie100123
+EFT_Facilitie100124
+EFT_Facilitie100129
+EFT_Facilitie100130
+EFT_Facilitie100131
+EFT_Facilitie100132
+EFT_Facilitie100133
+EFT_Facilitie100134
+EFT_Facilitie100134_2
+EFT_Facilitie100136
+EFT_Facilitie100137
+EFT_Facilitie100138
+EFT_Facilitie100139
+EFT_Facilitie100151
+EFT_Facilitie100152
+EFT_Facilitie100152_1
+EFT_Facilitie100154
+EFT_Facilitie100168
+EFT_Facilitie100169
+EFT_Facilitie100218_Fx
+EFT_Facilitie100226
+EFT_Facilitie100227
+EFT_Facilitie100229
+EFT_Facilitie100230
+EFT_Facilitie100231
+EFT_Facilitie100232
+EFT_Facilitie100233
+EFT_Facilitie100235
+EFT_Facilitie100236
+EFT_Facilitie100237
+EFT_Facilitie100238
+EFT_Facilitie100239
+EFT_Facilitie100240
+EFT_Facilitie100244
+EFT_Facilitie100245
+EFT_Facilitie100246
+EFT_Facilitie100247
+EFT_Facilitie100248
+EFT_Facilitie100249
+EFT_Facilitie100250
+EFT_Facilitie100251
+EFT_Facilitie100252
+EFT_Facilitie100254
+EFT_Facilitie100255
+EFT_Facilitie100256
+EFT_Facilitie100257
+EFT_Facilitie100258
+EFT_Facilitie100271
+EFT_Facilitie100272
+EFT_Facilitie100273
+EFT_Facilitie100274
+EFT_Facilitie100275
+EFT_Facilitie100276
+EFT_Facilitie100277
+EFT_Facilitie100278
+EFT_Facilitie100282
+EFT_Facilitie100283
+EFT_Facilitie100285
+EFT_Facilitie100288
+EFT_Facilitie100289
+EFT_Facilitie100290
+EFT_Facilitie100291
+EFT_Facilitie100292
+EFT_Facilitie100293
+EFT_Facilitie100295
+EFT_Facilitie100296
+EFT_Facilitie100297
+EFT_Facilitie100298
+EFT_Facilitie100303
+EFT_Facilitie100303_2
+EFT_Facilitie100310
+EFT_Facilitie100311
+EFT_Facilitie100315
+EFT_Facilitie100322
+EFT_Facilitie100324
+EFT_Facilitie100338
+EFT_Facilitie100339
+EFT_Facilitie100340
+EFT_Facilitie100341
+EFT_Facilitie100342
+EFT_Facilitie100343
+EFT_Facilitie100350
+EFT_Facilitie100359
+EFT_Facilitie100366
+EFT_Facilitie100367
+EFT_Facilitie_CharactersEFX_Dark
+EFT_Facilitie_CharactersEFX_Fire
+EFT_Facilitie_CharactersEFX_Ice
+EFT_Facilitie_CharactersEFX_Light
+EFT_Facilitie_CharactersEFX_Thunder
+EFT_Facilitie_Ronghe
+EFT_Facilitie_Ronghe_1
+EFT_Facilitie_Saomiao
+EFT_Facilitie_Tubiao
+EFT_Facilitie_Xuli
+EFT_Facilitie_Xuli_Dark
+EFT_Facilitie_Xuli_Lightning
+EFT_FacilitieFx_PickUP
+EFT_FireGasFX
+EFT_Fx_amazed_01
+EFT_Fx_amazed_02
+EFT_Hero_Disappear
+EFT_IceGasFX
+EFT_IronBox
+EFT_LDEFx_0_Hero10201_Combat_AttackRootMotion
+EFT_LDEFx_0_Hero10309_CastSkill01
+EFT_LDEFx_1_Hero10202_Combat_AttackRootMotion
+EFT_LightGasFX
+EFT_LostFX01
+EFT_MagicattackupFX
+EFT_Monster1001694_Stab
+EFT_PhysicalattackupFX
+EFT_PhysicaldefenseupFX
+EFT_PlayEfx_0_Boss1002011_Body_death
+EFT_PlayEFx_0_Boss1002021_CastSkill03_Dark
+EFT_playEFx_0_Hero10201_CastSkill08
+EFT_playEFx_0_Hero10201_Combat_AttackRootMotion
+EFT_PlayEFx_0_Hero10202_Light
+EFT_playEFx_0_Hero10707_Story
+EFT_playEFx_1_Hero10201_Combat_AttackRootMotion
+EFT_playEFx_1_Hero10707_Story
+EFT_playEFx_1_Hero10901_Story_Disperse
+EFT_playEFx_1_Monster1001693_CastSkill01
+EFT_playEFx_2_Hero10201_Combat_AttackRootMotion
+EFT_playEFx_2_Hero10707_Combat_AttackRootMotion
+EFT_PlayEFx_2_Monster1001150_Combat_AttackRootMotion_Dark
+EFT_PlayEFx_Hero1144_Transfer
+EFT_QiaddFX
+EFT_RevengeFX
+EFT_Scene101010_Fx_Lattice002
+EFT_Scene101010_Fx_Lattice003
+EFT_SceneBUFF_Imprisoned
+EFT_SceneBUFF_Imprisoned_Loop
+EFT_Shake
+EFT_Slash
+EFT_SplashScreen
+EFT_SummonFX
+EFT_SummonFX_05
+EFT_Treatment
+EFT_Treatment_01_FX_hit
+EFT_Trigger
+EFT_WoodenPole
+EFT_XianTanZi
+PlayEfx_0_Hero10408_Explosion
+PlayEfx_0_Hero10408_Regenerates
+# 195494355
+# 241335247
+# 279472101
+# 342412065
+# 1300805425
+# 1547941458
+# 1716996843
+# 1722940401
+# 2144156106
+# 2282482293
+# 2579112582
+# 2594030019
+# 3059719398
+# 3322172942
+# 3336217604
+# 3441349825
+# 3597747414
+# 3694697394
+# 3867730210
+# 4112959652
+
+### SFX NAMES (EFT.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (EFT.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (ENV.bnk)
+ENV_Ambient_Camp_ForestSeries_1
+ENV_Ambient_Camp_GafferSpar_1
+ENV_Ambient_Camp_MarketCenter_1
+ENV_Ambient_Camp_MiasmaBiogas_1
+ENV_Ambient_Camp_MuShenJie_Day
+ENV_Ambient_Camp_QueenReception_1
+ENV_Ambient_Camp_QueenReception_2
+ENV_Ambient_Camp_SnowSeries
+ENV_Ambient_Camp_Snowtown_0
+ENV_Ambient_Camp_Snowtown_1
+ENV_Ambient_Camp_TempleRuins_1
+ENV_Ambient_Camp_WaterLibrary
+ENV_Ambient_CeremonyHall_10104
+ENV_Ambient_CeremonyHall_10125
+ENV_Ambient_CeremonyHall_10126
+ENV_Ambient_CeremonyHall_10127
+ENV_Ambient_ForestSeries_10103
+ENV_Ambient_ForestSeries_10117
+ENV_Ambient_ForestSeries_10123
+ENV_Ambient_ForestSeries_10124
+ENV_Ambient_GafferSpar_40110
+ENV_Ambient_GafferSpar_40114
+ENV_Ambient_GafferSpar_50201
+ENV_Ambient_GafferSpar_50202
+ENV_Ambient_GafferSpar_50203
+ENV_Ambient_GafferSpar_50207
+ENV_Ambient_GreenDragonRuins_10105
+ENV_Ambient_LeftTheHolyLand_10106
+ENV_Ambient_LeftTheHolyLand_10107
+ENV_Ambient_LeftTheHolyLand_60203
+ENV_Ambient_MarketCenter_20101
+ENV_Ambient_maze
+ENV_Ambient_MiasmaBiogas_60101
+ENV_Ambient_qishiling
+ENV_Ambient_QuanQunDao
+ENV_Ambient_QueenReception_20106
+ENV_Ambient_QueenReception_20107
+ENV_Ambient_QueenReception_20215
+ENV_Ambient_QueenReception_20217
+ENV_Ambient_SeparationMirror_50101
+ENV_Ambient_SeparationMirror_50103
+ENV_Ambient_SeparationMirror_50105
+ENV_Ambient_Sewer_20201
+ENV_Ambient_Sewer_20205
+ENV_Ambient_SnowSeries_20102
+ENV_Ambient_SnowSeries_20103
+ENV_Ambient_SnowSeries_60103
+ENV_Ambient_SnowSeries_60104
+ENV_Ambient_SnowSeries_60105
+ENV_Ambient_SnowSeries_60107
+ENV_Ambient_SnowSeries_60302
+ENV_Ambient_Snowtown_10108
+ENV_Ambient_Snowtown_10109
+ENV_Ambient_Snowtown_20116_Night
+ENV_LowerENV
+ENV_MuteENV
+ENV_ResetENV
+ENV_UnmuteENV
+# 436911282
+# 509811339
+# 517302920
+# 601662784
+# 784131758
+# 859464223
+# 1067082598
+# 1075190610
+# 1131617380
+# 1179562113
+# 1312462774
+# 1441466775
+# 1493199223
+# 1731151519
+# 1770193735
+# 1770193739
+# 1770193742
+# 1790261344
+# 2449873162
+# 2511508430
+# 2522583367
+# 2706443651
+# 2976465118
+# 3036858479
+# 3076047364
+# 3191285393
+# 3325615039
+# 3395920753
+# 3623987057
+# 3623987058
+# 3640680357
+# 3749792402
+# 3783347696
+# 3797791661
+# 3831346935
+# 3915120914
+# 3925945756
+# 4014509890
+# 4050892543
+# 4165316910
+
+### SFX NAMES (ENV.bnk)
+VO_ZX_28_3YWZX_1_15
+# 603710017
+# 485909876
+# 452261541
+# 949834647
+# 239735907
+# 649270731
+# 858829582
+# 452622852
+# 44886207
+# 210532736
+# 904564702
+# 338140777
+# 163927461
+# 571223554
+# 607654038
+# 697974402
+# 59890955
+# 82525920
+# 759285324
+# 914106734
+# 986943014
+# 480776080
+# 873477307
+# 1066278253
+# 478111071
+# 710190329
+# 480510932
+# 104237714
+# 632835697
+# 712467674
+# 51967339
+# 643761722
+# 365729051
+# 569724056
+# 314919000
+# 725589216
+# 196759132
+# 564657083
+# 377263813
+# 836309197
+# 933183995
+# 11726650
+# 414885239
+# 52111841
+# 1066024643
+# 371504744
+# 998332295
+# 984481049
+# 280219226
+# 197168154
+# 782581230
+# 145898615
+# 607844695
+# 876956066
+# 994263926
+# 172501254
+# 689553829
+# 614632553
+# 17692417
+# 155572617
+# 431333479
+# 812627303
+# 638787428
+# 157134311
+# 273908313
+# 161152004
+# 887716069
+# 890541953
+
+### EVENT NAMES (Hero10101.bnk)
+# 177674327
+# 471771580
+# 471771583
+# 669915215
+# 1132829589
+# 1211993307
+# 1273631706
+# 1743805711
+# 1901847443
+# 2235019588
+# 2305187102
+# 2447538476
+# 2447538478
+# 2447538479
+# 2470590089
+# 2752276563
+# 3079888501
+# 3079888503
+# 3350556800
+# 3739058990
+
+### SFX NAMES (Hero10101.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10101.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10102.bnk)
+# 115651384
+# 115651385
+# 115651386
+# 390782993
+# 682790586
+# 797088242
+# 865612455
+# 910628265
+# 910628266
+# 910628271
+# 1107070505
+# 1216320407
+# 1330571492
+# 1560847339
+# 1779810900
+# 1779810903
+# 1819942586
+# 2956934476
+# 3555673373
+# 3555673374
+# 3885324668
+# 4234364076
+
+### SFX NAMES (Hero10102.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10102.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10103.bnk)
+# 476483707
+# 490724495
+# 930363201
+# 930363202
+# 1577982961
+# 1577982962
+# 1862348937
+# 2040362200
+# 2040362202
+# 2040362207
+# 3420698476
+# 3871824646
+
+### SFX NAMES (Hero10103.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10103.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10104.bnk)
+# 1141599632
+# 1414666736
+# 1654448796
+# 1654448799
+# 2512918866
+# 3561028749
+# 3799678077
+# 3799678078
+# 3857906036
+
+### SFX NAMES (Hero10104.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10104.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10105.bnk)
+# 873735401
+# 1441933143
+# 2938442728
+# 3257523216
+# 3257523217
+# 3257523219
+# 3379688324
+# 3734237768
+# 3734237771
+# 3797672679
+# 3925921345
+# 4069501875
+# 4116119379
+
+### SFX NAMES (Hero10105.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10105.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10106.bnk)
+# 198937395
+# 345905352
+# 957938992
+# 966671707
+# 1088566987
+# 1944969360
+# 2051060826
+# 2060994832
+# 2171375501
+# 2171375502
+# 2982137879
+# 3453025344
+# 3453025347
+# 3551787338
+# 4066217646
+# 4122993451
+# 4122993452
+# 4122993453
+# 4122993454
+# 4145447856
+
+### SFX NAMES (Hero10106.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10106.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10201.bnk)
+# 569968740
+# 1197389094
+# 1378546328
+# 1378546330
+# 1378546331
+# 1378546332
+# 1378546333
+# 1378546335
+# 1391779039
+# 1451171276
+# 1612158192
+# 2451186512
+# 2451186513
+# 2451186514
+# 2451186518
+# 2451186519
+# 3517031956
+# 3614452770
+# 3766357551
+
+### SFX NAMES (Hero10201.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10201.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10202.bnk)
+# 16255163
+# 272750296
+# 330287867
+# 361511647
+# 603930255
+# 1071261180
+# 1999704066
+# 1999704068
+# 1999704069
+# 1999704071
+# 3121273488
+# 3121273494
+# 3300389300
+# 3300389301
+# 3300389303
+# 3646222957
+# 3887799773
+# 3892127932
+
+### SFX NAMES (Hero10202.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10202.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10203.bnk)
+# 170182617
+# 991761792
+# 991761794
+# 991761795
+# 1008224766
+# 1043622993
+# 1327702836
+# 1523742980
+# 1663453264
+# 1868538581
+# 1960101632
+# 1960101634
+# 1960101635
+# 1960101637
+# 3239266885
+# 3393544009
+# 3456795404
+# 3798700230
+# 4218026343
+
+### SFX NAMES (Hero10203.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10203.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10204.bnk)
+# 1445225570
+# 1528156990
+# 1547296909
+# 1547296910
+# 1890512901
+# 2330965101
+# 2330965102
+# 2330965103
+# 2753828611
+# 3298961719
+
+### SFX NAMES (Hero10204.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10204.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10205.bnk)
+# 349107030
+# 1352900216
+# 1404690831
+# 1991836532
+# 1991836533
+# 1991836534
+# 2540855113
+# 2540855118
+# 2575654435
+# 2802027988
+# 2802027989
+# 2802027990
+# 2872029154
+# 3525263635
+# 4001117576
+
+### SFX NAMES (Hero10205.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10205.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10206.bnk)
+# 192267007
+# 581422491
+# 1202914928
+# 1202914931
+# 2512628449
+# 3657019324
+
+### SFX NAMES (Hero10206.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10206.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10301.bnk)
+# 389099381
+# 751248095
+# 1309254539
+# 1870837809
+# 1870837810
+# 2735207998
+# 2893158504
+# 2893158505
+# 2893158506
+# 2893158511
+# 2925694617
+# 2978854934
+# 3096320501
+# 3967304993
+# 3967304994
+# 3967304995
+# 3967304996
+
+### SFX NAMES (Hero10301.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10301.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10302.bnk)
+# 172287912
+# 172287914
+# 172287915
+# 207950093
+# 275430580
+# 2123008905
+# 3117250854
+# 3187918974
+# 3195585068
+# 3250942096
+# 3375492369
+# 3665040657
+# 3665040658
+# 3665040659
+# 3755310044
+# 4204428042
+
+### SFX NAMES (Hero10302.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10302.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10303.bnk)
+# 60059205
+# 1061285392
+# 1937136229
+# 3259291199
+# 3372824227
+# 4173799676
+# 4173799679
+
+### SFX NAMES (Hero10303.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10303.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10304.bnk)
+# 1171006944
+# 1333825643
+# 1861169299
+# 3174914494
+# 3633717566
+
+### SFX NAMES (Hero10304.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10304.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10305.bnk)
+# 876478927
+# 1756078581
+# 2302601786
+# 2436456077
+# 2447897771
+# 3715284484
+# 3715284485
+# 3715284486
+
+### SFX NAMES (Hero10305.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10305.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10306.bnk)
+# 966112
+# 11738461
+# 858959368
+# 858959373
+# 858959374
+# 858959375
+# 2264653196
+# 2605364101
+# 3059620066
+# 3535074232
+# 3535074233
+# 3535074236
+# 3535074239
+# 4087415616
+
+### SFX NAMES (Hero10306.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10306.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10307.bnk)
+# 239126616
+# 512871267
+# 1299725955
+# 1626786324
+# 1664149111
+# 1836986727
+# 2174289914
+# 2245585300
+# 2444920013
+# 3144431448
+# 3144431451
+# 3144431453
+# 3253818705
+# 3269702529
+# 3269702531
+# 3269702534
+# 3412047865
+
+### SFX NAMES (Hero10307.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10307.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10308.bnk)
+# 133308516
+# 834927910
+# 1088710092
+# 1516010140
+# 1516010143
+# 1544123840
+# 1544123841
+# 1544123842
+# 2170126718
+# 2341700642
+# 2408217424
+# 2408217425
+# 2408217426
+# 2408217431
+# 3629684271
+# 4025476319
+
+### SFX NAMES (Hero10308.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10308.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10309.bnk)
+# 85840489
+# 85840490
+# 338247673
+# 338247674
+# 338247676
+# 519931441
+# 604524173
+# 1545526622
+# 1724848353
+# 1724848354
+# 2376382931
+# 2401493716
+# 2401493717
+# 3016337414
+# 3036309209
+# 3345775485
+# 3828365933
+# 3872136721
+
+### SFX NAMES (Hero10309.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10309.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10310.bnk)
+# 169045440
+# 169045443
+# 286501708
+# 1111847624
+# 1111847627
+# 2191312217
+# 3671915569
+# 3901862799
+
+### SFX NAMES (Hero10310.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10310.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10311.bnk)
+# 1673784776
+# 1819303572
+# 1819303575
+# 1920718293
+# 1920718294
+# 3040493178
+# 3612433717
+# 3969055652
+# 4114257416
+
+### SFX NAMES (Hero10311.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10311.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10312.bnk)
+# 1794622925
+# 1794622926
+# 2456092103
+# 2991606109
+# 2991606110
+# 4129862739
+
+### SFX NAMES (Hero10312.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10312.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10313.bnk)
+# 66369512
+# 481276179
+# 1058278297
+# 1145132229
+# 1145132230
+# 1773093667
+# 1773093668
+# 1773093669
+# 1773093670
+# 2253919523
+# 2581500274
+# 2631262182
+# 2779119256
+# 2930229791
+# 3432004866
+# 3599059114
+# 3947767333
+# 4126240600
+# 4126240603
+
+### SFX NAMES (Hero10313.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10313.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10314.bnk)
+# 891774695
+# 2053819659
+# 2062112424
+# 3406232164
+
+### SFX NAMES (Hero10314.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10314.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10401.bnk)
+# 531264019
+# 708155933
+# 818362636
+# 818362637
+# 818362639
+# 1307947418
+# 1473011182
+# 1660677736
+# 1998861962
+# 2295561028
+# 2295561030
+# 2295561031
+# 2337814677
+# 2450304374
+# 2685617017
+# 2892068172
+# 2936592952
+# 3816260840
+# 4211897588
+
+### SFX NAMES (Hero10401.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10401.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10402.bnk)
+# 210981110
+# 321843565
+# 321843566
+# 395207890
+# 893127099
+# 1194629875
+# 1705003589
+# 3074458471
+# 3168195829
+
+### SFX NAMES (Hero10402.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10402.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10403.bnk)
+# 66494537
+# 769006138
+# 935498616
+# 982472840
+# 1032825380
+# 1032825381
+# 1032825382
+# 1299722680
+# 1898089030
+# 1944598451
+# 2344194628
+# 2344194629
+# 2344194630
+# 2511883011
+# 4066581778
+# 4191239330
+
+### SFX NAMES (Hero10403.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10403.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10404.bnk)
+# 567668612
+# 567668614
+# 567668615
+# 571948813
+# 781716548
+# 781716551
+# 1963418091
+# 2173611528
+# 3517305495
+# 3887188125
+
+### SFX NAMES (Hero10404.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10404.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10405.bnk)
+# 7446913
+# 79786486
+# 646973924
+# 1084016846
+# 2141355216
+# 2466552697
+# 2466552698
+# 2466552699
+# 2682310117
+# 2898441808
+# 2898441810
+# 2898441812
+# 2898441813
+# 3543440948
+# 4133723516
+
+### SFX NAMES (Hero10405.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10405.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10406.bnk)
+# 1003725154
+# 1074607367
+# 1673168707
+# 2013858894
+# 2041716089
+# 2041716090
+# 3329743969
+# 4070240270
+
+### SFX NAMES (Hero10406.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10406.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10407.bnk)
+# 1246341836
+# 1246341837
+# 1246341839
+# 1334985826
+# 1607312721
+# 1607312722
+# 2801350740
+# 3343004054
+# 3630031698
+# 3634052623
+
+### SFX NAMES (Hero10407.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10407.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10408.bnk)
+# 42166408
+# 42166410
+# 42166411
+# 42166412
+# 42166413
+# 42166415
+# 892010948
+# 902916137
+# 1515210279
+# 1617531944
+# 1829804947
+# 2757847425
+# 2972940624
+# 2972940625
+# 2972940627
+# 2972940630
+# 3323525527
+
+### SFX NAMES (Hero10408.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10408.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10409.bnk)
+# 12429617
+# 525699256
+# 525699257
+# 525699261
+# 525699262
+# 641265101
+# 1059783132
+# 1675272082
+# 2030674569
+# 2030674572
+# 2030674574
+# 2030674575
+# 2308120914
+# 4216744400
+
+### SFX NAMES (Hero10409.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10409.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10410.bnk)
+# 742247284
+# 1462327618
+# 1462327620
+# 1462327621
+# 1462327623
+# 1699836391
+# 1796481929
+# 1796481930
+# 2485678840
+# 2485678841
+# 2485678842
+# 2485678847
+# 2579874638
+# 2610897687
+# 2711859868
+# 3435515818
+# 4274624326
+
+### SFX NAMES (Hero10410.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10410.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10411.bnk)
+# 523668673
+# 523668674
+# 523668675
+# 523668676
+# 757190262
+# 1562488542
+# 2045989777
+# 2045989778
+# 2457736313
+# 2993253208
+# 3170742920
+# 3170742921
+# 3170742922
+# 3172184854
+# 3342878101
+# 3402088875
+# 3406377237
+# 3658528383
+
+### SFX NAMES (Hero10411.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10411.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10501.bnk)
+# 1117595817
+# 1345177111
+# 1713810291
+# 2037943041
+# 2761766355
+# 2936206856
+# 2936206858
+# 2936206859
+# 2936206860
+# 2936206861
+# 3917289284
+
+### SFX NAMES (Hero10501.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10501.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10502.bnk)
+# 110260739
+# 649185051
+# 1205814604
+# 1205814606
+# 1730266706
+# 2237374730
+# 3537261166
+# 4123750598
+# 4197422416
+# 4244640750
+
+### SFX NAMES (Hero10502.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10502.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10503.bnk)
+# 296527869
+# 533562181
+# 533562182
+# 1003862378
+# 1234713970
+# 1234713971
+# 1234713972
+# 1234713973
+# 1234713974
+# 1874770971
+# 3392697791
+
+### SFX NAMES (Hero10503.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10503.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10504.bnk)
+# 319993356
+# 1209411896
+# 1209411899
+# 1272395310
+# 2220020708
+# 3619364737
+# 3619364738
+# 4014657721
+
+### SFX NAMES (Hero10504.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10504.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10505.bnk)
+# 111101760
+# 327493868
+# 327493871
+# 2457814101
+# 2799375635
+# 3590442767
+
+### SFX NAMES (Hero10505.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10505.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10602.bnk)
+# 661841360
+# 661841362
+# 661841363
+# 1564247273
+# 1690647992
+# 1690647995
+# 1842347228
+# 2280462751
+# 2604276801
+# 2942841336
+# 2942841339
+# 3398329408
+
+### SFX NAMES (Hero10602.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10602.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10603.bnk)
+# 750787480
+# 928870469
+# 1490837897
+# 1595529640
+# 1665048037
+# 1665048038
+# 1665048039
+# 1747617946
+# 1985387972
+# 1985387974
+# 1985387975
+# 3379485528
+# 3569384788
+# 3569384790
+# 3569384791
+# 3668378634
+# 4241930198
+
+### SFX NAMES (Hero10603.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10603.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10604.bnk)
+# 180960690
+# 340945827
+# 1130307891
+# 2556389385
+# 4117192702
+# 4241898049
+# 4241898050
+
+### SFX NAMES (Hero10604.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10604.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10701.bnk)
+# 62480101
+# 62480102
+# 267201941
+# 267201942
+# 267201943
+# 759455023
+# 2133342219
+# 2277739098
+# 2336376202
+# 2640542608
+# 2640542613
+# 2640542615
+# 3710863405
+# 3951254505
+
+### SFX NAMES (Hero10701.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10701.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10703.bnk)
+# 412375897
+# 1604684128
+# 1604684129
+# 1604684131
+# 1661770755
+# 2009083960
+# 2828602289
+# 2828602290
+# 2838834328
+# 2842047447
+# 3356117767
+# 3389877556
+# 3410034744
+# 3410034747
+# 3410034748
+# 3410034749
+# 4016523363
+
+### SFX NAMES (Hero10703.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10703.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10704.bnk)
+# 19979449
+# 19979450
+# 102254922
+# 752449642
+# 922176261
+# 2619721687
+# 3183562766
+# 3324449372
+# 4044707844
+# 4044707845
+# 4044707847
+
+### SFX NAMES (Hero10704.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10704.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10705.bnk)
+# 121727317
+# 130441686
+# 617559103
+# 706906184
+# 706906185
+# 706906186
+# 706906191
+# 862259025
+# 862259026
+# 1835407211
+# 2340408734
+# 2553301302
+# 3129791033
+# 3146426837
+# 3388986241
+# 3388986242
+# 3388986243
+
+### SFX NAMES (Hero10705.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10705.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10706.bnk)
+# 1258877308
+# 1442497118
+# 2091594408
+# 2717258225
+# 3797869737
+
+### SFX NAMES (Hero10706.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10706.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10707.bnk)
+# 155228372
+# 281562499
+# 493431984
+# 1627132611
+# 1876385308
+# 1876385309
+# 1876385311
+# 1982535143
+# 2366075402
+# 2366075404
+# 2366075405
+# 2366075407
+# 2427098140
+# 2427098142
+# 2427098143
+# 2980085071
+# 3136382766
+# 4119455691
+# 4133641797
+# 4186644773
+
+### SFX NAMES (Hero10707.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10707.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10708.bnk)
+SnowSeries_Timeline_BGM_Combat_Normal_6_Boss
+# 1702197528
+# 2054831327
+# 2067393451
+# 2232684648
+# 2949944694
+# 3197674163
+
+### SFX NAMES (Hero10708.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10708.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10801.bnk)
+# 396518968
+# 396518970
+# 396518971
+# 705648654
+# 871032900
+# 1952653336
+# 2069819609
+# 2635490220
+# 3056211425
+# 3056211426
+
+### SFX NAMES (Hero10801.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10801.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10802.bnk)
+# 25277467
+# 270898321
+# 798190497
+# 2251905769
+# 3341832623
+# 3732676582
+# 4126865144
+# 4126865145
+# 4126865146
+
+### SFX NAMES (Hero10802.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10802.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10803.bnk)
+# 934912666
+# 3579631436
+# 3764676215
+# 4233969415
+
+### SFX NAMES (Hero10803.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10803.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10903.bnk)
+# 428984499
+# 1097709389
+# 1285793847
+# 1509320145
+# 1824576393
+# 1824576394
+# 1824576395
+# 2182175078
+# 2680449242
+# 2680449243
+# 2680449244
+# 2814133741
+# 3019875521
+# 3019875522
+# 3180868478
+# 3773612670
+
+### SFX NAMES (Hero10903.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10903.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10904.bnk)
+HO_10904_Voice_Mood_Eager
+# 443025509
+# 443025510
+# 443025511
+# 585290437
+# 1253574980
+# 1253574983
+# 2355246808
+# 2789880344
+# 2837571796
+# 2837571799
+# 2967055242
+# 3908551248
+
+### SFX NAMES (Hero10904.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10904.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero10905.bnk)
+# 1256224031
+# 1498767196
+# 1902953409
+# 3603340137
+# 3734786128
+# 3734786130
+# 3734786131
+# 3734786132
+
+### SFX NAMES (Hero10905.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero10905.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero11001.bnk)
+# 48009778
+# 139232586
+# 161501535
+# 944131771
+# 1270126944
+# 1270126949
+# 1270126950
+# 1270126951
+# 1436158101
+# 1436158102
+# 1546070169
+# 2189378909
+# 2359451877
+# 2359451878
+# 2359451879
+# 3501555265
+
+### SFX NAMES (Hero11001.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero11001.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero11002.bnk)
+# 250761394
+# 439833041
+# 812745437
+# 812745438
+# 812745439
+# 1248798450
+# 1280769744
+# 2090556329
+# 2090556332
+# 2090556334
+# 2090556335
+# 2117732144
+# 4000996540
+# 4000996543
+# 4081372192
+# 4134094765
+
+### SFX NAMES (Hero11002.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero11002.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero11003.bnk)
+# 959891664
+# 959891667
+# 1270307703
+# 1521610441
+# 3520593441
+# 4070694436
+
+### SFX NAMES (Hero11003.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero11003.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero11004.bnk)
+# 457404359
+# 1001897946
+# 2411222580
+# 2411222583
+# 3113234010
+# 3185521918
+# 3329717260
+
+### SFX NAMES (Hero11004.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero11004.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero11005.bnk)
+# 39045473
+# 102225263
+# 539567589
+# 805247398
+# 846737518
+# 1110906449
+# 1110906450
+# 1110906451
+# 1549989560
+# 1549989561
+# 1549989562
+# 1549989566
+# 1549989567
+# 2343889115
+# 2488306601
+# 2898246149
+# 3574328822
+
+### SFX NAMES (Hero11005.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero11005.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero_10205_Pet.bnk)
+# 129292536
+# 129292539
+# 1817937772
+# 3054016409
+# 3430791681
+# 3747463585
+
+### SFX NAMES (Hero_10205_Pet.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero_10205_Pet.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero_10306.bnk)
+# 966112
+# 11738461
+# 858959368
+# 858959373
+# 858959374
+# 858959375
+# 2264653196
+# 2605364101
+# 3059620066
+# 3535074232
+# 3535074233
+# 3535074236
+# 3535074239
+# 4087415616
+
+### SFX NAMES (Hero_10306.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero_10306.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Hero_10401.bnk)
+# 531264019
+# 708155933
+# 818362636
+# 818362637
+# 818362639
+# 1307947418
+# 1473011182
+# 1660677736
+# 1998861962
+# 2295561028
+# 2295561030
+# 2295561031
+# 2337814677
+# 2450304374
+# 2685617017
+# 2892068172
+# 2936592952
+# 3816260840
+# 4211897588
+
+### SFX NAMES (Hero_10401.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Hero_10401.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### SFX NAMES (Init.bnk)
+No_Output
+System
+# 2598011
+# 23695704
+# 74079422
+# 74342201
+# 236176724
+# 399505398
+# 399871238
+# 418265525
+# 473860056
+# 484890516
+# 522111413
+# 542410000
+# 613827632
+# 648790662
+# 678645656
+# 749468094
+# 1000770853
+# 2662085913
+# 3531831092
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+RTPC_BattleSceneListenerDistance
+RTPC_CampSceneListenerDistance
+RTPC_CombatTimeStretchBus
+RTPC_CombatTimeStretchGoEffect
+RTPC_HomeCamera
+RTPC_SSROpen
+RTPC_Voice_Sidechain
+RTPC_WorldMapListenerDistance
+# 782342607
+# 976130485
+# 1051614427
+# 2378823330
+# 2644490154
+# 3048547258
+# 3304106241
+
+### VARIABLE NAMES (Init.bnk)
+ST_Camp_Layer
+ST_CG
+ST_Combat
+ST_Combat_Boss_Phase
+ST_Combat_Normal_No
+ST_Combat_Preparation_No
+ST_Draw_Gacha
+ST_Draw_New
+ST_Emotion
+ST_Home_No
+ST_Music
+ST_UI
+ST_WorldMap_No
+# 2457326641
+# 3842956381
+# 720341915
+
+### VALUE NAMES (Init.bnk)
+Camp
+Draw
+Draw_SSR
+loading
+None
+# 3852154773
+# 3210374330
+# 1792153654
+# 3502312598
+# 4195541207
+# 4030583021
+# 477630362
+
+### EVENT NAMES (Monster1001001.bnk)
+MON_1001001_Voice_Combat_Dead
+# 566184045
+# 566184047
+# 659262302
+# 1085065452
+# 1248599658
+# 3359115776
+# 3847080487
+# 3879360085
+# 4271836925
+
+### SFX NAMES (Monster1001001.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001001.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1001001.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001001.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001002.bnk)
+# 316856469
+# 2679119919
+
+### SFX NAMES (Monster1001002.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001002.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1001002.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001002.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001003.bnk)
+# 2667644096
+# 3036609879
+
+### SFX NAMES (Monster1001003.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001003.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1001004.bnk)
+# 1270195487
+
+### SFX NAMES (Monster1001004.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001004.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1001011.bnk)
+# 619293877
+# 694647330
+# 2821358550
+# 3131967247
+
+### SFX NAMES (Monster1001011.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001011.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### EVENT NAMES (Monster1001021.bnk)
+# 1894195080
+# 2218243196
+# 2738913830
+# 3786650919
+# 3855256111
+
+### SFX NAMES (Monster1001021.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001021.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1001021.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001021.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001051.bnk)
+# 2512862342
+
+### SFX NAMES (Monster1001051.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001051.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1001101.bnk)
+# 1412944041
+# 1936113195
+# 2113472012
+# 2551677847
+# 3403137864
+# 3840882417
+# 3951220892
+# 4078794891
+# 4251624783
+
+### SFX NAMES (Monster1001101.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001101.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1001101.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001101.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001102.bnk)
+# 494805158
+# 723157666
+# 915877443
+# 1289412440
+# 1481654043
+# 2183798804
+# 2541440739
+# 4241067910
+
+### SFX NAMES (Monster1001102.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001102.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1001102.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001102.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001110.bnk)
+# 2709595778
+# 3536008101
+# 4090555917
+# 4263204375
+
+### SFX NAMES (Monster1001110.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001110.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1001110.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001110.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001120.bnk)
+# 1348488323
+# 1420859803
+# 2561506798
+# 2839448784
+
+### SFX NAMES (Monster1001120.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001120.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1001120.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001120.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001130.bnk)
+# 539123493
+# 941466064
+# 1132285436
+# 1700458851
+
+### SFX NAMES (Monster1001130.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001130.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1001130.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001130.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001140.bnk)
+# 490552252
+# 1505553641
+# 3066406449
+# 3746333854
+# 4161943016
+
+### SFX NAMES (Monster1001140.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001140.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1001140.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001140.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001150.bnk)
+# 2229213313
+# 2229213314
+# 2241670214
+# 2456953289
+# 3006802456
+# 3006802457
+# 3006802458
+# 3006802461
+# 3006802462
+# 3006802463
+# 3293055163
+
+### SFX NAMES (Monster1001150.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001150.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1001150.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001150.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001164.bnk)
+# 206072637
+# 551587523
+# 1687127558
+# 3092398200
+
+### SFX NAMES (Monster1001164.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001164.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1001164.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001164.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001201.bnk)
+# 250276634
+# 527371822
+# 597111612
+# 1099140059
+# 3400466283
+
+### SFX NAMES (Monster1001201.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001201.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### EVENT NAMES (Monster1001204.bnk)
+# 2618470409
+# 4004292998
+
+### SFX NAMES (Monster1001204.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001204.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1001221.bnk)
+# 190085137
+# 1532548998
+# 2530639860
+# 2536641856
+# 2536641859
+# 2661644553
+# 2661644554
+# 2661644555
+# 2661644556
+
+### SFX NAMES (Monster1001221.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001221.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1001221.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001221.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001271.bnk)
+# 1192509800
+# 1192509801
+# 1192509802
+# 1192509805
+# 1192509806
+# 1192509807
+# 2827456790
+# 2991595929
+# 3142594187
+
+### SFX NAMES (Monster1001271.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001271.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1001271.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001271.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001611.bnk)
+# 280556909
+# 515930584
+# 1177193968
+# 2194184707
+# 3115763845
+# 3789086559
+# 3866997791
+
+### SFX NAMES (Monster1001611.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001611.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1001611.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001611.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1001693.bnk)
+# 126159118
+# 2133959953
+# 2133959954
+
+### SFX NAMES (Monster1001693.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001693.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1001711.bnk)
+# 444372509
+# 786538144
+# 2606033823
+# 2901169101
+
+### SFX NAMES (Monster1001711.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1001711.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1001711.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1001711.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002001.bnk)
+# 2378658797
+# 3263850295
+
+### SFX NAMES (Monster1002001.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002001.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002001.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002001.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002002.bnk)
+STO_Change_Clothes_StopLoading
+# 244588231
+# 1550553922
+# 2896806880
+# 2930495906
+# 2941967711
+# 3597371876
+
+### SFX NAMES (Monster1002002.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002002.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002002.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002002.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002003.bnk)
+# 92270569
+# 462018014
+# 1108726705
+# 1204234774
+# 1514740559
+# 1545478995
+# 3255457781
+# 4072858621
+
+### SFX NAMES (Monster1002003.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002003.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1002003.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002003.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002005.bnk)
+# 544883483
+# 912240700
+# 1245064289
+# 3803277439
+
+### SFX NAMES (Monster1002005.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002005.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1002007.bnk)
+# 915859074
+# 1206556037
+# 2995414242
+# 4060825811
+# 4127687865
+
+### SFX NAMES (Monster1002007.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002007.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1002010.bnk)
+# 360718638
+# 1184560281
+# 1475876609
+# 2783828771
+
+### SFX NAMES (Monster1002010.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002010.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002010.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002010.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002011.bnk)
+# 1085311090
+# 2668009652
+# 4097588143
+
+### SFX NAMES (Monster1002011.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002011.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002011.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002011.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002012.bnk)
+# 898204775
+# 978603816
+# 2639289981
+# 2642614923
+
+### SFX NAMES (Monster1002012.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002012.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002012.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002012.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002017.bnk)
+# 408085384
+# 2147792469
+# 2528925109
+
+### SFX NAMES (Monster1002017.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002017.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002017.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002017.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002020.bnk)
+# 1712365015
+# 3427281514
+# 3820883463
+
+### SFX NAMES (Monster1002020.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002020.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002020.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002020.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002021.bnk)
+# 483081800
+# 483081801
+# 483081802
+# 483081807
+# 775387473
+# 775387474
+# 1509655609
+# 1645944630
+
+### SFX NAMES (Monster1002021.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002021.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002021.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002021.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002030.bnk)
+# 417761937
+# 2939385964
+# 3978571567
+
+### SFX NAMES (Monster1002030.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002030.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002030.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002030.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002040.bnk)
+# 1700060578
+# 2023600204
+# 2955973024
+# 3009318685
+
+### SFX NAMES (Monster1002040.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002040.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002040.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002040.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002050.bnk)
+# 33520869
+# 33520870
+# 284184522
+# 1087789841
+# 1087789842
+# 1087789843
+# 1087789844
+# 1087789845
+# 1087789846
+# 2148735197
+# 3650498783
+
+### SFX NAMES (Monster1002050.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002050.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002050.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002050.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002064.bnk)
+# 180031924
+# 1690196338
+# 2299828393
+# 4222750383
+
+### SFX NAMES (Monster1002064.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002064.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002064.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002064.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002101.bnk)
+# 196664826
+# 381672169
+# 773494146
+# 1142814766
+# 1933027340
+# 3274729145
+# 3374479074
+# 3764699388
+
+### SFX NAMES (Monster1002101.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002101.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002101.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002101.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1002120.bnk)
+# 989937749
+# 1667025421
+# 2734431410
+
+### SFX NAMES (Monster1002120.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1002120.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1002120.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1002120.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003001.bnk)
+# 1483719679
+# 1632611960
+# 3493434823
+# 4130580374
+# 4265562202
+
+### SFX NAMES (Monster1003001.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003001.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1003002.bnk)
+# 1274335475
+# 2542310560
+# 3062345845
+# 3181873247
+# 4054514415
+# 4293736716
+
+### SFX NAMES (Monster1003002.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003002.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003002.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003002.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003030.bnk)
+# 963018354
+# 1322099764
+# 2818861615
+# 2883168242
+
+### SFX NAMES (Monster1003030.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003030.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003030.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003030.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003101.bnk)
+# 3034648305
+# 3328586526
+
+### SFX NAMES (Monster1003101.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003101.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1003102.bnk)
+# 487783185
+# 2973753588
+# 3660863040
+
+### SFX NAMES (Monster1003102.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003102.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003102.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003102.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003103.bnk)
+# 1547208827
+# 2437785240
+
+### SFX NAMES (Monster1003103.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003103.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1003130.bnk)
+# 859778097
+# 1183758219
+# 3125154838
+# 3434709657
+
+### SFX NAMES (Monster1003130.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003130.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003130.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003130.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003150.bnk)
+# 1442727221
+# 2242192480
+# 2246555080
+# 2246555081
+# 2246555083
+# 2246555084
+# 2246555086
+# 2246555087
+# 2582550700
+# 2582550703
+# 3730298291
+
+### SFX NAMES (Monster1003150.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003150.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003150.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003150.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003164.bnk)
+# 911068180
+# 1425510121
+# 1425510122
+# 1494355121
+# 2123382374
+
+### SFX NAMES (Monster1003164.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003164.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003164.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003164.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003401.bnk)
+# 464950499
+# 538807611
+# 977162874
+# 1034795886
+# 1323997596
+# 2450658224
+# 4085775563
+# 4106790064
+# 4193914382
+
+### SFX NAMES (Monster1003401.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003401.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1003401.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003401.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003402.bnk)
+# 1288199443
+# 2053886391
+# 2819366409
+# 3715534568
+# 3715534571
+# 3792886116
+
+### SFX NAMES (Monster1003402.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003402.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003402.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003402.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003410.bnk)
+# 1750293389
+# 2156522080
+# 3637459298
+# 3655095005
+
+### SFX NAMES (Monster1003410.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003410.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003410.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003410.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003440.bnk)
+# 919642290
+# 2194883521
+# 2337088089
+# 3379723009
+# 3436984291
+# 3961034222
+
+### SFX NAMES (Monster1003440.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003440.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003440.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003440.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003500.bnk)
+# 197664264
+# 1108846550
+# 2511090262
+# 2888443083
+# 2981367443
+
+### SFX NAMES (Monster1003500.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003500.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003500.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003500.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003501.bnk)
+# 901329378
+# 2219894373
+# 2650252421
+# 3790475703
+
+### SFX NAMES (Monster1003501.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003501.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003501.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003501.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003502.bnk)
+# 1666860836
+# 2235424293
+# 3142716856
+# 3498828586
+# 3613643868
+
+### SFX NAMES (Monster1003502.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003502.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003502.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003502.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003520.bnk)
+# 2456756157
+# 2502120594
+# 3437631184
+# 4096709837
+
+### SFX NAMES (Monster1003520.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003520.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003520.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003520.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003540.bnk)
+# 2542322359
+# 2678076487
+# 3532661082
+# 3911401434
+
+### SFX NAMES (Monster1003540.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003540.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003540.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003540.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1003573.bnk)
+# 427624704
+# 2483224646
+
+### SFX NAMES (Monster1003573.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1003573.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1003573.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1003573.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1004001.bnk)
+# 43889335
+# 295353570
+# 767750637
+# 2671533445
+# 4243067838
+
+### SFX NAMES (Monster1004001.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1004001.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1004001.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1004001.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1004003.bnk)
+# 973287551
+# 2507147324
+# 3313175323
+# 3552523361
+
+### SFX NAMES (Monster1004003.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1004003.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1004003.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1004003.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1004005.bnk)
+# 2056924638
+# 2573704113
+# 2860562409
+
+### SFX NAMES (Monster1004005.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1004005.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1004005.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1004005.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1004010.bnk)
+# 651781757
+# 1688711904
+# 1688711905
+# 1688711907
+# 1688711908
+# 1688711910
+# 1688711911
+# 2573510440
+# 3666496612
+# 3666496615
+# 4107592331
+
+### SFX NAMES (Monster1004010.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1004010.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1004010.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1004010.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1004012.bnk)
+# 796320547
+# 1955625262
+# 2940854017
+# 3952852121
+
+### SFX NAMES (Monster1004012.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1004012.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1004012.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1004012.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1004013.bnk)
+# 137664242
+# 680501428
+# 1397527471
+# 2550288498
+
+### SFX NAMES (Monster1004013.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1004013.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1004013.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1004013.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1004020.bnk)
+# 529111741
+# 582002652
+# 3050501522
+# 3458912208
+# 3490734029
+
+### SFX NAMES (Monster1004020.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1004020.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1004020.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1004020.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1004220.bnk)
+# 1667258363
+# 2433911152
+# 3431916078
+# 4257524942
+
+### SFX NAMES (Monster1004220.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1004220.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1004220.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1004220.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1004220_01.bnk)
+# 791075055
+# 1409523228
+# 3232868515
+
+### SFX NAMES (Monster1004220_01.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1004220_01.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1004220_01.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1004220_01.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1004240.bnk)
+# 2279567132
+# 3397513809
+# 3661701566
+# 4239085001
+
+### SFX NAMES (Monster1004240.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1004240.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1004240.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1004240.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006001.bnk)
+# 198887700
+# 512304803
+# 672637305
+# 1113490865
+# 1195272419
+# 2287858310
+# 2291478011
+# 2453550445
+# 3887136487
+# 4204872340
+
+### SFX NAMES (Monster1006001.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006001.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1006001.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006001.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster10060011.bnk)
+# 430247064
+# 2805400844
+# 4143406521
+
+### SFX NAMES (Monster10060011.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster10060011.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster10060013.bnk)
+# 552913530
+# 560022522
+# 1573939047
+
+### SFX NAMES (Monster10060013.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster10060013.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster10060014.bnk)
+# 510401139
+# 3830584599
+# 4046038084
+
+### SFX NAMES (Monster10060014.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster10060014.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1006015.bnk)
+# 1698540876
+# 3584527438
+# 3775017223
+# 4114778266
+
+### SFX NAMES (Monster1006015.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006015.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006015.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006015.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006021.bnk)
+# 1651586567
+# 2613102093
+# 2613102094
+# 3053966421
+# 4234107058
+
+### SFX NAMES (Monster1006021.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006021.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006021.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006021.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006022.bnk)
+# 3273928378
+# 3499015240
+# 3537200501
+# 3563230997
+# 3563230998
+
+### SFX NAMES (Monster1006022.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006022.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006022.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006022.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006025.bnk)
+# 1926724067
+# 2694362561
+# 2876872369
+# 2876872370
+# 3020925934
+
+### SFX NAMES (Monster1006025.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006025.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006025.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006025.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006031.bnk)
+# 1634076448
+# 2162660180
+# 2279753201
+# 3155220902
+
+### SFX NAMES (Monster1006031.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006031.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006031.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006031.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006032.bnk)
+# 1171727753
+# 2957309905
+# 3208850099
+# 3953866878
+
+### SFX NAMES (Monster1006032.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006032.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006032.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006032.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006033.bnk)
+# 3132679490
+# 3363476292
+# 3365865570
+# 4173444991
+
+### SFX NAMES (Monster1006033.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006033.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006033.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006033.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006035.bnk)
+ENV_Ambient_Camp_SnowSeries_Phase_1
+# 600726340
+# 765544645
+# 3803236568
+
+### SFX NAMES (Monster1006035.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006035.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006035.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006035.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006041.bnk)
+# 14223277
+# 449441816
+# 1742514423
+# 2483458299
+
+### SFX NAMES (Monster1006041.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006041.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006041.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006041.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006042.bnk)
+# 2100075522
+# 2177132831
+# 3951681956
+# 4065413218
+
+### SFX NAMES (Monster1006042.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006042.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006042.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006042.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006043.bnk)
+# 681602217
+# 1340243102
+# 3124768787
+# 3970897777
+
+### SFX NAMES (Monster1006043.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006043.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006043.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006043.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006045.bnk)
+# 1247455963
+# 1702480417
+# 2822192703
+# 4120392700
+
+### SFX NAMES (Monster1006045.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006045.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006045.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006045.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006051.bnk)
+# 291848370
+# 362698546
+# 904387951
+# 2844865396
+# 3903899247
+
+### SFX NAMES (Monster1006051.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006051.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006051.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006051.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006052.bnk)
+# 101334077
+# 560409163
+# 3826147560
+# 4053281958
+# 4053281959
+
+### SFX NAMES (Monster1006052.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006052.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006052.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006052.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006053.bnk)
+# 985139740
+# 2054632598
+# 2696792388
+# 3066297697
+# 3107413939
+
+### SFX NAMES (Monster1006053.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006053.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006053.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006053.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006054.bnk)
+# 1824941471
+# 2449081173
+# 3109520138
+# 4108944818
+# 4139564295
+
+### SFX NAMES (Monster1006054.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006054.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006054.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006054.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1006064.bnk)
+# 431741470
+# 1168025984
+# 1569818827
+# 2259419315
+
+### SFX NAMES (Monster1006064.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1006064.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1006064.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1006064.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1007010.bnk)
+# 423984021
+# 1551923866
+# 2057302092
+# 2412979688
+
+### SFX NAMES (Monster1007010.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1007010.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1007010.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1007010.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1007020.bnk)
+# 87412101
+# 2120843356
+# 2120843359
+# 3082282224
+# 3305510659
+
+### SFX NAMES (Monster1007020.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1007020.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1007020.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1007020.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1007030.bnk)
+# 1591398030
+# 2082465840
+# 2489777851
+# 3416845294
+
+### SFX NAMES (Monster1007030.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1007030.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1007030.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1007030.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1007040.bnk)
+# 1869835622
+# 2329775977
+# 3581222043
+
+### SFX NAMES (Monster1007040.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1007040.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1007040.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1007040.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1007050.bnk)
+# 1590576254
+# 2382178577
+# 2382178578
+# 2382178579
+# 2382178580
+# 2382178581
+# 2382178582
+# 2703464412
+# 3297206153
+# 3912308488
+# 3912308491
+
+### SFX NAMES (Monster1007050.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1007050.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1007050.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1007050.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1007061.bnk)
+# 724125197
+# 779974160
+# 1522171389
+# 1653241298
+
+### SFX NAMES (Monster1007061.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1007061.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1007061.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1007061.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1007135.bnk)
+# 67257618
+# 2344842447
+
+### SFX NAMES (Monster1007135.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1007135.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1008000.bnk)
+# 141132991
+# 1794122176
+# 1877471039
+# 3051810178
+# 3148112260
+# 3173061518
+# 3478447527
+
+### SFX NAMES (Monster1008000.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1008000.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1008000.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1008000.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1008001.bnk)
+# 146353651
+# 150478014
+# 252124689
+# 3242729929
+# 3242729930
+# 3242729931
+# 3854150400
+# 3854150401
+# 3854150402
+# 3854150404
+# 3854150405
+# 3854150406
+# 3854150407
+# 3854150411
+
+### SFX NAMES (Monster1008001.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1008001.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1008001.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1008001.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1008002.bnk)
+# 761171817
+# 761171818
+# 2600543537
+# 2830501862
+# 3095099796
+
+### SFX NAMES (Monster1008002.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1008002.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1008002.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1008002.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1010001.bnk)
+# 590697642
+# 645239319
+# 3637639239
+# 4018931850
+
+### SFX NAMES (Monster1010001.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1010001.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1010002.bnk)
+# 320688517
+# 1103306847
+# 1863973635
+# 3030454512
+# 3634785372
+# 3634785375
+
+### SFX NAMES (Monster1010002.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1010002.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1011002.bnk)
+# 723125743
+# 786067890
+# 3093410420
+
+### SFX NAMES (Monster1011002.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011002.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1011003.bnk)
+# 509493091
+# 747186994
+# 2512846657
+# 4009957486
+
+### SFX NAMES (Monster1011003.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011003.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011003.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011003.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011004.bnk)
+# 231264757
+# 3317499336
+
+### SFX NAMES (Monster1011004.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011004.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1011010.bnk)
+# 647931134
+# 1791619123
+# 1809266951
+# 2775794001
+
+### SFX NAMES (Monster1011010.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011010.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011010.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011010.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011011.bnk)
+# 1946245316
+
+### SFX NAMES (Monster1011011.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011011.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011011.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011011.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011014.bnk)
+# 3091175959
+
+### SFX NAMES (Monster1011014.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011014.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011014.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011014.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011016.bnk)
+# 2283420368
+# 2522697887
+# 2668052956
+
+### SFX NAMES (Monster1011016.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011016.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1011017.bnk)
+# 34722570
+
+### SFX NAMES (Monster1011017.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011017.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011017.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011017.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011020.bnk)
+# 1451090156
+# 1563052794
+# 2579829399
+# 3193968871
+
+### SFX NAMES (Monster1011020.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011020.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011020.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011020.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011021.bnk)
+# 2127599535
+# 3238172361
+# 3343936326
+# 3928016315
+
+### SFX NAMES (Monster1011021.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011021.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011021.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011021.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011023.bnk)
+# 1488924303
+# 1859880384
+# 1999955091
+# 4222779349
+
+### SFX NAMES (Monster1011023.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011023.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011023.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011023.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011025.bnk)
+# 862695743
+# 1500201969
+# 1500201970
+# 1500201971
+# 1500201972
+# 1500201973
+# 1710497285
+# 1710497286
+# 2752641002
+# 3792074621
+
+### SFX NAMES (Monster1011025.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011025.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011025.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011025.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011027.bnk)
+# 545756567
+# 1371100612
+# 2882561065
+# 3201694856
+
+### SFX NAMES (Monster1011027.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011027.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011027.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011027.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011030.bnk)
+# 2092239009
+
+### SFX NAMES (Monster1011030.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011030.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011030.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011030.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011040.bnk)
+# 1360858738
+# 1380102128
+# 2451598957
+# 4207742877
+
+### SFX NAMES (Monster1011040.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011040.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011040.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011040.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011050.bnk)
+# 144219501
+# 2507236385
+# 2507236386
+# 2507236387
+# 2507236388
+# 2507236389
+# 2507236390
+# 2529364181
+# 2529364182
+# 4007815791
+# 4091265690
+
+### SFX NAMES (Monster1011050.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011050.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011050.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011050.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011064.bnk)
+# 992671487
+# 1712504191
+# 3556048834
+# 3753234884
+
+### SFX NAMES (Monster1011064.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011064.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1011080.bnk)
+# 767599825
+# 1554735772
+# 2277734473
+# 2515804478
+
+### SFX NAMES (Monster1011080.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011080.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011080.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011080.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011101.bnk)
+# 48606206
+# 736174570
+# 2425946633
+# 2767493420
+# 2980500369
+# 3147772601
+# 3186471772
+
+### SFX NAMES (Monster1011101.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011101.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1011101.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011101.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011102.bnk)
+# 2208618217
+# 2208618218
+# 2356856345
+# 2464909067
+# 3281792662
+
+### SFX NAMES (Monster1011102.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011102.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1011102.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1011102.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1011103.bnk)
+# 2396102730
+# 4106969399
+
+### SFX NAMES (Monster1011103.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1011103.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1012040.bnk)
+# 2533891011
+# 2859419423
+# 3753813936
+
+### SFX NAMES (Monster1012040.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1012040.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1012040.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1012040.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1012064.bnk)
+# 334789342
+# 2088964691
+# 2230365797
+# 3635620529
+
+### SFX NAMES (Monster1012064.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1012064.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1012064.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1012064.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1013010.bnk)
+# 2740410703
+# 3272995456
+# 3659178508
+
+### SFX NAMES (Monster1013010.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1013010.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1013010.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1013010.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1013020.bnk)
+# 293596372
+# 695480102
+# 715964329
+# 3837387377
+
+### SFX NAMES (Monster1013020.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1013020.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1013020.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1013020.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1013040.bnk)
+# 780798726
+# 1803684408
+# 1803684411
+# 2222456259
+# 2684849528
+
+### SFX NAMES (Monster1013040.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1013040.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1013040.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1013040.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1050011.bnk)
+# 403792211
+# 431752036
+# 1093770249
+# 1195169693
+# 2189985700
+# 2562379105
+# 3445170103
+
+### SFX NAMES (Monster1050011.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1050011.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1050011.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1050011.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1050023.bnk)
+# 754741396
+# 1007702455
+# 1234080574
+# 1643727762
+# 2429201167
+# 2496755440
+# 3114137679
+
+### SFX NAMES (Monster1050023.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1050023.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1050023.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1050023.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1050031.bnk)
+# 401804546
+# 681291341
+# 958241720
+# 1095580453
+# 1729701790
+# 1805093271
+# 4267732479
+
+### SFX NAMES (Monster1050031.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1050031.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1050031.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1050031.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1050032.bnk)
+# 667022693
+# 1004959192
+# 2764648389
+# 3043607178
+
+### SFX NAMES (Monster1050032.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1050032.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1050032.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1050032.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1050033.bnk)
+# 1979505345
+# 3678125148
+# 3958783312
+# 4200903711
+
+### SFX NAMES (Monster1050033.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1050033.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1050033.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1050033.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1050035.bnk)
+# 159032529
+# 505536435
+# 1658003326
+# 3243872706
+
+### SFX NAMES (Monster1050035.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1050035.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1050035.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1050035.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1050041.bnk)
+# 1752419199
+# 1989189760
+# 3148140356
+# 3326655822
+# 3631938663
+# 4024484162
+# 4170671202
+
+### SFX NAMES (Monster1050041.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1050041.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1050041.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1050041.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1050051.bnk)
+# 215442469
+# 768885031
+# 1334686496
+# 1530284008
+# 1692987709
+# 2057099083
+# 3304016551
+# 3598959524
+
+### SFX NAMES (Monster1050051.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1050051.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1050051.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1050051.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1050111.bnk)
+# 1343140329
+# 2587134580
+# 2779743330
+# 2882518961
+# 3288094566
+# 3378450400
+# 3809604209
+# 3926539540
+
+### SFX NAMES (Monster1050111.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1050111.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1050111.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1050111.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1050251.bnk)
+# 1603011962
+# 2631818867
+# 2631818868
+# 2631818869
+# 2631818870
+# 2983532933
+# 2983532934
+# 2983532935
+# 3785255103
+# 3870427754
+# 4074463997
+
+### SFX NAMES (Monster1050251.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1050251.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1050251.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1050251.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1050341.bnk)
+# 402309039
+# 2764085373
+# 3531223112
+# 3808669836
+
+### SFX NAMES (Monster1050341.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1050341.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### EVENT NAMES (Monster1050344.bnk)
+# 1228585906
+# 1537615258
+# 2709766317
+# 3616963120
+# 3937815517
+
+### SFX NAMES (Monster1050344.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1050344.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1050344.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1050344.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1060010.bnk)
+# 441260122
+# 917916901
+# 917916902
+# 1422204761
+# 1588660353
+# 2378555949
+# 3724937835
+# 4063879018
+# 4144891834
+
+### SFX NAMES (Monster1060010.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1060010.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### EVENT NAMES (Monster1070010.bnk)
+# 148945604
+# 429388770
+# 773181030
+# 1169408194
+# 1345165823
+
+### SFX NAMES (Monster1070010.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1070010.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1070010.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1070010.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1090022.bnk)
+# 4030455
+# 77052869
+# 184023597
+# 1281213730
+# 2532596222
+
+### SFX NAMES (Monster1090022.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1090022.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1090022.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1090022.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1090051.bnk)
+# 414518153
+# 752114536
+# 752114538
+# 752114539
+# 752114540
+# 752114541
+# 849347383
+# 1920925156
+# 3116228240
+# 3116228241
+# 3116228243
+# 3116228246
+
+### SFX NAMES (Monster1090051.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1090051.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1090051.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1090051.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1120010.bnk)
+# 507989016
+# 1846506405
+# 1846506406
+# 2012579786
+# 2622934021
+
+### SFX NAMES (Monster1120010.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1120010.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1120010.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1120010.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1120020.bnk)
+# 2962076719
+# 3213812019
+# 3282574517
+# 3522664160
+
+### SFX NAMES (Monster1120020.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1120020.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1120020.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1120020.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1120030.bnk)
+# 397380192
+# 2816580158
+# 2823752211
+# 2885759467
+# 4231131582
+
+### SFX NAMES (Monster1120030.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1120030.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1120030.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1120030.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1120040.bnk)
+# 57192169
+# 57192170
+# 110659222
+# 1063077981
+# 1239304113
+# 1340276862
+# 2498298951
+# 2918223385
+# 3023605515
+
+### SFX NAMES (Monster1120040.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1120040.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### VARIABLE NAMES (Monster1120040.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1120040.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1120050.bnk)
+# 3172759512
+# 3172759514
+# 3172759515
+# 3172759517
+# 3695998913
+# 3695998914
+# 3695998915
+# 3695998916
+# 3695998918
+# 3695998919
+# 3695998920
+# 3777979641
+# 4231919982
+# 4280901196
+
+### SFX NAMES (Monster1120050.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1120050.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1120050.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1120050.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1120064.bnk)
+# 2096355504
+# 2377015877
+# 3435200540
+# 3435200542
+# 3435200543
+# 3705697987
+
+### SFX NAMES (Monster1120064.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1120064.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (Monster1130050.bnk)
+# 1407508095
+# 2370310753
+# 3797659888
+# 3797659890
+# 3797659891
+# 3797659892
+# 3797659893
+# 4242166332
+# 4291623192
+# 4291623193
+# 4291623195
+# 4291623198
+
+### SFX NAMES (Monster1130050.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1130050.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (Monster1130050.bnk)
+AttackElement
+
+### VALUE NAMES (Monster1130050.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+### EVENT NAMES (Monster1140010.bnk)
+# 185593458
+# 242940360
+# 2892375446
+# 3381238099
+# 4141619571
+# 4287951972
+
+### SFX NAMES (Monster1140010.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1140010.bnk)
+RTPC_CombatTimeStretchGoEffect
+# 3048547258
+
+### EVENT NAMES (Monster1140011.bnk)
+# 2572722757
+# 3282397815
+# 3733579938
+# 3878245758
+
+### SFX NAMES (Monster1140011.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (Monster1140011.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (NPC1004001.bnk)
+# 1873815311
+# 2495434995
+
+### SFX NAMES (NPC1004001.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (NPC1004001.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (NPC1080018.bnk)
+# 326324600
+
+### SFX NAMES (NPC1080018.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (NPC1080018.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### EVENT NAMES (STO.bnk)
+EFT_Shake_UI_Character_Close
+STO_10801_Hart_RD
+STO_alarm
+STO_alertness
+STO_Ambient_CeremonyHall_10104
+STO_Ambient_CeremonyHall_10125
+STO_Ambient_CeremonyHall_10126
+STO_Ambient_CeremonyHall_10127
+STO_Ambient_ForestSeries_10103
+STO_Ambient_ForestSeries_10117
+STO_Ambient_ForestSeries_10123
+STO_Ambient_ForestSeries_10124
+STO_Ambient_GafferSpar_40110
+STO_Ambient_GafferSpar_40114
+STO_Ambient_GafferSpar_50201
+STO_Ambient_GafferSpar_50202
+STO_Ambient_GafferSpar_50203
+STO_Ambient_GafferSpar_50207
+STO_Ambient_GreenDragonRuins_10105
+STO_Ambient_LeftTheHolyLand_10106
+STO_Ambient_LeftTheHolyLand_10107
+STO_Ambient_LeftTheHolyLand_60203
+STO_Ambient_MarketCenter_20101
+STO_Ambient_MiasmaBiogas_60101
+STO_Ambient_QueenReception_20107
+STO_Ambient_QueenReception_20215
+STO_Ambient_QueenReception_20217
+STO_Ambient_SeparationMirror_50101
+STO_Ambient_SeparationMirror_50103
+STO_Ambient_SeparationMirror_50105
+STO_Ambient_Sewer_20201
+STO_Ambient_Sewer_20205
+STO_Ambient_SnowSeries_20102
+STO_Ambient_SnowSeries_20103
+STO_Ambient_SnowSeries_60103
+STO_Ambient_SnowSeries_60104
+STO_Ambient_SnowSeries_60105
+STO_Ambient_SnowSeries_60107
+STO_Ambient_SnowSeries_60302
+STO_Ambient_Snowtown_10108
+STO_Ambient_Snowtown_10109
+STO_Ambient_Snowtown_20116_Night
+STO_attack
+STO_Attention
+STO_avalanche
+STO_Bag
+STO_Bag_01
+STO_Bat
+STO_Bat_Stop
+STO_Battle_01
+STO_Battle_02
+STO_Battle_03
+STO_Battle_04
+STO_Battle_05
+STO_Battle_06
+STO_Battle_07
+STO_Battle_08
+STO_bells
+STO_bells_01
+STO_bird
+STO_bird_01
+STO_brazier
+STO_Bubble
+STO_Burn_01
+STO_Burn_02
+STO_Burn_03
+STO_Burn_04
+STO_Burn_05
+STO_cape
+STO_cape_01
+STO_Carriage
+STO_Carriage_01
+STO_Carriage_02
+STO_Change_Clothes
+STO_cheer
+STO_chess
+STO_Cleft
+STO_Coin
+STO_Coin_01
+STO_crow
+STO_curse
+STO_Dark
+STO_decree
+STO_Devil_01
+STO_Devil_02
+STO_Devil_Growl_01
+STO_Devil_Growl_02
+STO_discuss
+STO_dizziness
+STO_Dragon
+STO_Earthquake
+STO_energy
+STO_equipment
+STO_Explosion
+STO_faint
+STO_Fall
+STO_Fall_01
+STO_Fire_Ambient
+STO_Fuyouling_01
+STO_Fuyouling_02
+STO_Gate
+STO_glass
+STO_Gnawing
+STO_Gratitude
+STO_Hack
+STO_Hammer
+STO_HeartBeat
+STO_hood
+STO_horn
+STO_incantation
+STO_Knock
+STO_Laugh_01
+STO_Laugh_02
+STO_Leave
+STO_Leave_01
+STO_Lge_Appear
+STO_Lge_Appear_01
+STO_Light
+STO_Lizard
+STO_Machinery
+STO_Magic
+STO_Monster
+STO_Monster_01
+STO_Monster_02
+STO_Monster_03
+STO_Monster_04
+STO_Monster_05
+STO_Monster_06
+STO_Pour_Wine_01
+STO_Pour_Wine_02
+STO_Power_Up
+STO_Puppet
+STO_Push_01
+STO_Push_02
+STO_Quarrel
+STO_Quarrel_01
+STO_Quarrel_02
+STO_Quickstep
+STO_Quickstep_01
+STO_Quickstep_02
+STO_Quickstep_03
+STO_Quickstep_04
+STO_Roaring_01
+STO_Roaring_01_Stop
+STO_Roaring_02
+STO_Roaring_02_Stop
+STO_Roaring_Monster
+STO_robbery
+STO_robe
+STO_rummage
+STO_rustling
+STO_scabbling
+STO_scratch
+STO_Siege
+STO_Slash_01
+STO_Slash_02
+STO_Slash_03
+STO_Slash_04
+STO_Smoke
+STO_Smoke_01
+STO_snoring
+STO_Stab_01
+STO_Stab_02
+STO_Stab_03
+STO_stamp
+STO_Standing
+STO_Start
+STO_Stone
+STO_Stone_Door
+STO_Stretch
+STO_Summon
+STO_swallow
+STO_Swords
+STO_Swords_01
+STO_Swords_02
+STO_Swords_03
+STO_Tension_01
+STO_Tension_02
+STO_Tension_03
+STO_Tension_04
+STO_Ticket
+STO_Ticket_01
+STO_tinnitus
+STO_trample
+STO_troops
+STO_Truncheon
+STO_undress
+STO_water
+STO_Weakness_01
+STO_Weakness_02
+STO_Weakness_03
+STO_Whimper
+STO_Wine
+VO_ZX_4_2JMXD_1_14
+# 109487285
+# 302665193
+# 506614760
+# 773215004
+# 773215007
+# 1101921214
+# 1104667509
+# 1138222675
+# 1194146022
+# 1238842662
+# 1483115182
+# 1492014832
+# 1499446030
+# 1529478026
+# 1612381673
+# 1731231398
+# 1776921911
+# 1828519401
+# 2021282291
+# 2305005137
+# 2630424962
+# 2642292696
+# 2685658292
+# 2685658296
+# 2685658301
+# 2815415122
+# 2866091619
+# 2883765225
+# 2958905202
+# 3037895264
+# 3037895265
+# 3037895267
+# 3040916574
+# 3372525598
+# 3457330772
+# 3522487953
+# 3721382745
+# 3725117874
+# 3762285619
+# 4042791409
+# 4152665878
+# 4203037254
+# 4291708482
+
+### EVENT NAMES (StopEvent.bnk)
+Stop_VO
+
+### EVENT NAMES (System.bnk)
+MuteCombatVoice
+NonWwiseVideoBegin
+NonWwiseVideoStop
+UnmuteCombat
+UnmuteCombatVoice
+UnmuteMusic
+# 1027203912
+# 1047563006
+# 1543847759
+# 2129717250
+# 2316563647
+# 2473697571
+# 3420627327
+# 4043078832
+
+### EVENT NAMES (TimeLine.bnk)
+Camp_SnowSeries_Timeline_01
+Camp_SnowSeries_Timeline_02
+Camp_TQEnter
+U2_Boss1002011_Intro_Timeline
+U2_Boss1002011_Stage2_Timeline
+U2_Hero_Ex_Timeline_10105
+U2_Hero_Ex_Timeline_10903
+# 301571185
+# 398192948
+# 2972059281
+# 2972059282
+# 2972059283
+# 3267228477
+# 3327257815
+# 3541655428
+# 4016600072
+# 4040348689
+
+### EVENT NAMES (UI_Card.bnk)
+Card_Result_TM1
+Card_Result_TM10
+Card_Result_TM10_SSR
+Card_Result_TM1_SSR
+Card_SSR_TM
+Card_TM
+Card_Touch
+Card_Touch_Close
+Card_Touch_Open
+CardPrefab
+Weapon_Result_TM1
+Weapon_Result_TM10
+Weapon_Result_TM10_SSR
+Weapon_Result_TM1_SSR
+Weapon_TM_1
+Weapon_TM_10
+# 491171331
+# 591398205
+# 935296101
+# 1536140440
+# 1564744146
+# 4010996221
+
+### EVENT NAMES (UI_Character.bnk)
+UI_Button_sweep
+UI_Button_Team
+UI_Character_Close
+UI_Character_Eject
+UI_Character_Replace
+UI_Character_return
+UI_Character_Show
+UI_Character_upgrade
+UI_Home_Gongfang_Collect
+UI_Home_Huayuan
+UI_Home_Lilifendian
+UI_Home_Molu
+UI_Home_Monenggongfang
+UI_Home_Wanshenbei
+UI_Home_Xueyuan
+UI_Home_Xunlianchang
+UI_Home_Yongbingtuan
+UI_Home_Yuanzhicheng
+UI_Home_Yuefang
+UI_Home_Zahuopu
+UI_Zahuopu_Cat
+UI_Zahuopu_Cat_Greeting
+UI_Zahuopu_Catcollect
+# 14936568
+# 403594185
+# 467319496
+# 494301624
+# 663461409
+# 663461410
+# 664881237
+# 1239299182
+# 1522144221
+# 1941719135
+# 1946040624
+# 1946040627
+# 2247851784
+# 2963208557
+# 3006021618
+# 3452547705
+# 3838951768
+# 3914170837
+# 4044423743
+
+### EVENT NAMES (UI_Combat.bnk)
+UI_Combat_BattlePassLevel
+UI_Combat_Buff
+UI_Combat_Button
+UI_Combat_chain
+UI_Combat_Common
+UI_Combat_DragHero
+UI_Combat_Kill_It
+UI_Combat_Kill_Me
+UI_Combat_SkillShow
+UI_Combat_Spirit_ShangZhen
+UI_Combat_Victory
+UI_Combat_Victory_Open
+UI_General_Damage
+# 192405929
+# 453516673
+# 465012082
+# 517442056
+# 754594451
+# 836114749
+# 886331092
+# 1133550825
+# 2040263581
+# 2505979654
+# 3208215312
+# 3223261216
+# 3223261217
+# 3223261218
+# 3223261219
+# 3223261220
+# 3223261221
+# 3223261222
+# 3223261223
+# 3463852591
+# 3621197558
+# 4185728854
+
+### EVENT NAMES (UI_Common.bnk)
+UI_Button_Electricity
+UI_Button_Evil
+UI_Button_Fire
+UI_Button_Ice
+# 467682388
+# 467682389
+# 992211831
+# 2439834498
+# 3958465411
+# 4094567059
+
+### EVENT NAMES (UI_ENV.bnk)
+UI_ENV_factory
+UI_ENV_factory_Hammer
+UI_ENV_factory_lamp
+UI_ENV_garden
+UI_ENV_grocery
+UI_ENV_qishiling
+UI_ENV_qishiling_Burn
+UI_ENV_qishiling_Festival
+# 119781416
+# 1867596897
+# 2726937353
+
+### SFX NAMES (UI_ENV.bnk)
+# 846081453
+# 321845983
+# 920500264
+
+### RTPC/GAME-VARIABLE NAMES (UI_ENV.bnk)
+RTPC_HomeCamera
+
+### VARIABLE NAMES (UI_ENV.bnk)
+ST_ENV_Home
+
+### VALUE NAMES (UI_ENV.bnk)
+Burn
+Festival
+None
+normal
+
+### EVENT NAMES (UI_General.bnk)
+UI_General_Button_Eject
+UI_General_Button_Eject_1
+UI_General_Button_Eject_2
+UI_General_Button_Eject_3
+UI_General_Button_Eject_4
+UI_General_Button_Eject_5
+UI_General_Info
+UI_General_OpenBox
+UI_General_Sigh
+UI_General_Story
+UI_MengYanZhiXia
+UI_MengYanZhiXia_Card_Debuff
+UI_MengYanZhiXia_Debuff
+UI_MengYanZhiXia_Defeat
+UI_MengYanZhiXia_Entry
+UI_MengYanZhiXia_Select
+UI_MengYanZhiXia_Show
+UI_MengYanZhiXia_Show_Card
+UI_MengYanZhiXia_Show_Card_Open
+UI_MengYanZhiXia_Upgrade
+UI_MengYanZhiXia_Victory
+UI_MuShenJie
+UI_MuShenJie_Dice
+UI_MuShenJie_Dice_Start
+UI_MuShenJie_Dice_Stop
+UI_SignIn
+UI_World_Transfer
+# 42559634
+# 390390640
+# 530780071
+# 586141356
+# 604037530
+# 699106760
+# 699106761
+# 754404263
+# 925150724
+# 925150725
+# 976039219
+# 1008565344
+# 1068150708
+# 1113351092
+# 1142081442
+# 1148832958
+# 1148832959
+# 1212878758
+# 1362252293
+# 1373905625
+# 1373905628
+# 1373905629
+# 1373905630
+# 1373905631
+# 1663410979
+# 1714403821
+# 1717889468
+# 1865787432
+# 1941445464
+# 1963945680
+# 2151204862
+# 2215040092
+# 2216193422
+# 2243179304
+# 2243179305
+# 2243179306
+# 2243179307
+# 2243179308
+# 2243179309
+# 2243179310
+# 2243179311
+# 2474496474
+# 2477051245
+# 2477051246
+# 2495232654
+# 2561429283
+# 2561429297
+# 2561429298
+# 2633390905
+# 2636442949
+# 2695416829
+# 2737055973
+# 2849992198
+# 2849992199
+# 2859606203
+# 3011138544
+# 3262208059
+# 3597478887
+# 3632178524
+# 3722146018
+# 3753379968
+# 3839590028
+# 3894176467
+# 4000652399
+
+### EVENT NAMES (UI_HeroList.bnk)
+UI_Hero_Button_Levelup
+UI_Hero_Button_QuickAdd
+UI_Hero_Button_QuidRemove
+UI_Hero_Button_RankUp
+UI_Hero_Drug
+UI_Hero_LevelProgressing
+UI_Hero_Levelup
+UI_Hero_Levelup_EFT
+UI_Hero_Levelup_SSR
+UI_Hero_LevelUpNum
+UI_Hero_RankUp
+UI_Hero_ToggleGroup_Button
+UI_Hero_ToggleGroup_State
+UI_Hero_ToggleGroup_Weapon
+UI_Hero_Weapon_Dissolve
+UI_Hero_Weapon_Dissolve_2
+UI_Weapon_Levelup
+UI_Weapon_RankUp
+# 70894026
+# 391400805
+# 602512880
+# 695920939
+# 894414196
+# 900605758
+# 1140697880
+# 1193691072
+# 1193691073
+# 1204934024
+# 1652599524
+# 1756399932
+# 1966930479
+# 2302940980
+# 2407089927
+# 2753999536
+# 2793688189
+# 2908324676
+# 2908324677
+# 2908324678
+# 2908324679
+# 2908324680
+# 2908324681
+# 2967178663
+# 3063944394
+# 3242390388
+# 3242390389
+# 3242390390
+# 3242390391
+# 3242390392
+# 3242390393
+# 3292723144
+# 3292723145
+# 3292723146
+# 3292723147
+# 3498929001
+# 3649136037
+# 3747328395
+# 3776536782
+# 3788566899
+# 4070775271
+# 4276119268
+
+### EVENT NAMES (UI_Home.bnk)
+UI_Home_Gongfang_Collect
+UI_Home_Huayuan
+UI_Home_Lilifendian
+UI_Home_Molu
+UI_Home_Monenggongfang
+UI_Home_Wanshenbei
+UI_Home_Xueyuan
+UI_Home_Xunlianchang
+UI_Home_Yongbingtuan
+UI_Home_Yuanzhicheng
+UI_Home_Yuefang
+UI_Home_Zahuopu
+UI_Zahuopu_Cat
+UI_Zahuopu_Cat_Greeting
+UI_Zahuopu_Catcollect
+# 14936568
+# 664881237
+# 1522144221
+# 1941719135
+# 2538365221
+# 2963208557
+# 3006021618
+# 3452547705
+# 3632178524
+# 3838951768
+# 4044423743
+
+### EVENT NAMES (UI_MengYanZhiXia.bnk)
+UI_MengYanZhiXia
+UI_MengYanZhiXia_Card_Debuff
+UI_MengYanZhiXia_Debuff
+UI_MengYanZhiXia_Defeat
+UI_MengYanZhiXia_Entry
+UI_MengYanZhiXia_Select
+UI_MengYanZhiXia_Show
+UI_MengYanZhiXia_Show_Card
+UI_MengYanZhiXia_Show_Card_Open
+UI_MengYanZhiXia_Upgrade
+UI_MengYanZhiXia_Victory
+# 604037530
+# 1963945680
+# 3011138544
+# 3262208059
+
+### EVENT NAMES (UI_Menu.bnk)
+UI_Button_association
+UI_Button_Bag
+UI_Button_Friend
+UI_Button_Knight
+UI_Button_lamp
+UI_Button_Mail
+UI_Button_mall
+UI_Button_PVP
+UI_Button_Ranking
+UI_Button_Set
+UI_Button_speak
+UI_Login_GameEnter
+UI_Menu_BattlePass
+UI_Menu_LiLian
+UI_Menu_LiLian_Show
+UI_Menu_PlayerInfo
+# 26281459
+# 39529868
+# 111971811
+# 230845166
+# 256331069
+# 402708734
+# 608411065
+# 718341426
+# 891848992
+# 1213492512
+# 1644585421
+# 1688636308
+# 1912044716
+# 1915909002
+# 2307738363
+# 2507097464
+# 2565162828
+# 2570703708
+# 2582724304
+# 2634445434
+# 2761016993
+# 3095898020
+# 3298863256
+# 3325086648
+# 3415229451
+# 3547152505
+# 3648434526
+# 3868728270
+# 3879737988
+# 3916530172
+# 4062862181
+# 4182629653
+# 4247924966
+
+### EVENT NAMES (UI_MuShenJie.bnk)
+UI_MuShenJie
+UI_MuShenJie_Dice
+UI_MuShenJie_Dice_Start
+UI_MuShenJie_Dice_Stop
+
+### EVENT NAMES (UI_SenZhiQiong.bnk)
+UI_SenZhiQiong
+UI_SenZhiQiong_Button_Electricity
+UI_SenZhiQiong_Button_Evil
+UI_SenZhiQiong_Button_Fire
+UI_SenZhiQiong_Button_Ice
+UI_SenZhiQiong_Button_Light
+UI_SenZhiQiong_Entry
+# 1270854892
+
+### EVENT NAMES (UI_XingYunTaLuo.bnk)
+UI_XingYunTaLuo_Show_Card
+UI_XingYunTaLuo_Show_Card_buff
+# 1164898306
+# 2868443302
+
+### EVENT NAMES (voice.bnk)
+STO_Change_Clothes_StopLoading
+# 244588231
+# 1550553922
+# 2896806880
+# 2930495906
+# 2941967711
+# 3597371876
+
+### SFX NAMES (voice.bnk)
+# 4204653939
+
+### RTPC/GAME-VARIABLE NAMES (voice.bnk)
+RTPC_CombatTimeStretchGoEffect
+
+### VARIABLE NAMES (voice.bnk)
+AttackElement
+
+### VALUE NAMES (voice.bnk)
+Dark
+Electricity
+Fire
+Ice
+Light
+Shadow
+
+
+### MISSING EVENT NAMES (Hero_VO_B1001.bnk)
+# 475075149
+# 484234263
+# 587221169
+# 2092289400
+# 2936904726
+# 3627385350
+
+### MISSING EVENT NAMES (Hero_VO_B1002.bnk)
+# 46518146
+# 2442201116
+# 3191484883
+# 3258346937
+# 3778597637
+# 3818791150
+
+### MISSING EVENT NAMES (Hero_VO_B1003.bnk)
+# 251716369
+# 564678732
+# 2802595943
+# 3812624051
+# 3958853284
+# 4151462066
+
+### MISSING EVENT NAMES (Hero_VO_B1004.bnk)
+# 138717968
+# 2814014581
+# 4207658871
+
+### MISSING EVENT NAMES (Hero_VO_B1005.bnk)
+# 349210641
+# 978931507
+# 3421708308
+# 3614317058
+
+### MISSING EVENT NAMES (Hero_VO_M112100.bnk)
+# 861786638
+# 1016162852
+# 1650604559
+# 2851825725
+# 3325549762
+# 3511816141
+
+### MISSING EVENT NAMES (Hero_VO_M112107.bnk)
+# 1088705568
+# 1148652093
+# 1425954142
+# 2506914993
+# 2542296359
+# 3674481842
+
+### MISSING EVENT NAMES (Hero_VO_M112108.bnk)
+# 1034152806
+# 1243372248
+# 1288800759
+# 1866080145
+# 2088090998
+# 3921228461
+
+### MISSING EVENT NAMES (Hero_VO_M112109.bnk)
+# 366016671
+# 1004418646
+# 1233241100
+# 1346603692
+# 2504874331
+# 2571736409
+
+### MISSING EVENT NAMES (Hero_VO_M112111.bnk)
+# 165578586
+# 512516732
+# 2184344868
+# 3274191275
+# 3367406639
+# 3996394025
+
+### MISSING EVENT NAMES (MonsterBadGuy.bnk)
+# 361403360
+# 361403361
+# 361403362
+# 361403363
+# 361403365
+# 361403366
+# 361403367
+# 361403372
+# 361403373
+# 3458650438
+# 3458650439
+# 3458650440
+# 3458650441
+# 3458650442
+# 3458650443
+# 3458650444
+# 3458650445
+# 3458650446
+# 3458650447
+
+### MISSING EVENT NAMES (MusicGameMusic.bnk)
+# 24569418
+# 79057680
+# 1043875639
+# 1226923892
+# 1334696562
+# 1344785309
+# 1922903475
+# 2028677647
+# 2323880418
+# 2587873757
+
+### MISSING EVENT NAMES (UI_Music.bnk)
+# 2457597588
+
+### MISSING RTPC/GAME-VARIABLE NAMES (Hero_VO_B1001.bnk)
+# 3048547258
+
+### MISSING RTPC/GAME-VARIABLE NAMES (Hero_VO_B1002.bnk)
+# 3048547258
+
+### MISSING RTPC/GAME-VARIABLE NAMES (Hero_VO_B1003.bnk)
+# 3048547258
+
+### MISSING RTPC/GAME-VARIABLE NAMES (Hero_VO_B1004.bnk)
+# 3048547258
+
+### MISSING RTPC/GAME-VARIABLE NAMES (Hero_VO_B1005.bnk)
+# 3048547258

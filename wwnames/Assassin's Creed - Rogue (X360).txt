@@ -31159,3 +31159,4 @@ GP_VOLUME_SFX
 3769109998  : Stop_SFX_Fire_Fish_Smoker_01_LP
 3611796426  : Stop_sfx_bird_pigeons_idle
 3814783096  : Unmute_sfx_bird_pigeons_idle
+3927670608  : ST_COURTYARD

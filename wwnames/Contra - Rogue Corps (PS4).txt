@@ -6304,3 +6304,11 @@ wood
 # 4179709405
 # 4266603564
 # 4283381151
+
+2225448037  : cutscene_music
+3320192025  : countup
+4283052285  : TestTone
+3096674916  : run_ed
+2161713971  : Player_Respawn
+2844892178  : enemy_type
+2960116764  : stage_type

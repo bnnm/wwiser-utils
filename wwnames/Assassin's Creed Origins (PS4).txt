@@ -114883,3 +114883,7 @@ ST_GLOBAL_INT_EXT
 
 ### MISSING VALUE NAMES (base/sounds_sfx/2483430673.bnk)
 # 155418003
+
+2678552660  : Play_SFX_SwissGurad
+421989546   : play_plasma_sword
+2414138967  : Play_AMB_Flooded_Lands

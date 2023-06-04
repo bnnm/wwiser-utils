@@ -4511,3 +4511,5 @@ wp2303_Dynamite_Land
 ### MISSING SFX NAMES (vo_r900.bnk)
 # 113617669
 # 2135883084
+
+1144018367  : Plate_Large

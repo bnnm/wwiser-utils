@@ -12007,3 +12007,10 @@ Trunk_Velocity
 
 ### MISSING EVENT NAMES (1028173793.bnk: Hotel_ElevatorMain)
 # 1961360820
+
+1183385154  : Music_Player
+3279406346  : Whine
+4033398032  : Whistling
+3221406614  : Trot
+2554381645  : NIS_Boiler_Basin
+1347722982  : Arrow_Flying
