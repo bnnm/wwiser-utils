@@ -37,13 +37,15 @@ WB_CH
 WB_CS
 WB_EV
 WB_Hallucination
-WB_MASTER
-WB_motion
+WB_Master
+WB_Motion
+WB_motion_aux
 WB_MX
 WB_PA
 WB_PBP
 WB_Reverb_Auto
 WB_Reverb_Basket
+WB_Reverb_Castle
 WB_Reverb_Cave
 WB_Reverb_City
 WB_Reverb_Collapse
@@ -53,6 +55,7 @@ WB_Reverb_Dune
 WB_Reverb_Hall
 WB_Reverb_Island
 WB_Reverb_Jungle
+WB_Reverb_Market
 WB_Reverb_Nature
 WB_Reverb_Outside
 WB_Reverb_Palace
@@ -64,6 +67,7 @@ WB_SE
 WB_ST
 WB_SY
 WB_VO
+WB_VO_Etc
 # 2683962506
 # 219045866
 # 3473980802
@@ -71,8 +75,6 @@ WB_VO
 # 3608201734
 # 3724398552
 # 3652890776
-# 3945446119
-# 1704069652
 
 ### SFX NAMES (Init.bnk)
 Basket
@@ -83,8 +85,9 @@ No_Output
 Room_Medium_High_Absorbtion
 System
 Trench
+Wwise_Motion
 YetiNest
-# 1156359885
+# 6249147
 # 61591434
 # 100000951
 # 175079065
@@ -95,6 +98,7 @@ YetiNest
 # 645451946
 # 827880854
 # 855610804
+# 860338621
 # 957914337
 # 1031882085
 # 1057855245
@@ -145,6 +149,7 @@ WGP_REMAININGPLAYER
 WGP_REMAININGPLAYER_RATIO
 WGP_REMAININGTIME_CONTAMINATEDAREA
 WGP_REMAININGTIME_SMACKDOWNZONE_CLOSE
+WGP_REPLAY_SPEED
 WGP_RESULT_RANK
 WGP_REVERB_DISTANCE
 WGP_SELECT_MUTE
@@ -164,6 +169,7 @@ WSWG_Result_Rank
 # 974085620
 # 757770760
 # 2552688652
+# 778168907
 # 3123293655
 # 3631167613
 # 4061413236
@@ -178,6 +184,7 @@ WSWG_Result_Rank
 # 1921025122
 # 3883947566
 # 1251822171
+# 670021299
 # 2470713723
 # 1994996534
 # 529738567
@@ -194,6 +201,7 @@ WSWG_Result_Rank
 # 2507492359
 # 3252904856
 # 1481595862
+# 277675731
 # 1426938121
 # 2288806285
 # 392294285
@@ -230,11 +238,11 @@ NoEncount
 None
 Open
 Opening
+Result_interview
 Title
 Training
 True
 Tutorial
-# 617721474
 # 3119661963
 
 ### EVENT NAMES (WSB_CH_Hunter.bnk)
@@ -279,6 +287,8 @@ WE_CH_H03_JumpAttack_Land_S
 WE_CH_H03_Morph_In
 WE_CH_H03_Morph_Out
 WE_CH_H03_Possession_In
+WE_CH_H04X_Attack_Swing
+WE_CH_H04Z_Attack_Swing
 WE_CH_HC_Appear
 WE_CH_HC_Death
 WE_CH_HC_Disappear
@@ -296,6 +306,8 @@ WGP_OBJECT_DISTANCE
 True
 
 ### EVENT NAMES (WSB_CH_Main.bnk)
+WE_CH_CH_Main_Emote_Applause_In
+WE_CH_CH_Main_Emote_Applause_Out
 WE_CH_Main_Aim_In
 WE_CH_Main_Aim_Out
 WE_CH_Main_Avoid
@@ -338,7 +350,9 @@ WE_CH_Main_Emote_017_MX_Out
 WE_CH_Main_Emote_024_MX_In
 WE_CH_Main_Emote_024_MX_Out
 WE_CH_Main_Emote_Camera_Flash
+WE_CH_Main_Emote_Cup_Appear
 WE_CH_Main_Emote_Death_Flash
+WE_CH_Main_Emote_Light_On
 WE_CH_Main_Fall_In
 WE_CH_Main_Fall_Out
 WE_CH_Main_GetUp
@@ -390,7 +404,7 @@ WE_CH_Main_Wet
 WE_CH_Main_Wilson_Land
 
 ### SFX NAMES (WSB_CH_Main.bnk)
-WE_CH_Main_Jump_Hit_WGP_OBJECT_DISTANCE
+WE_CH_Main_Jump_Hit_WGP_OBJECT_DISTANCE  #ko
 # 542145602
 # 716601227
 # 808888393
@@ -412,6 +426,7 @@ WSWG_Player_State_Wet
 WSWG_Player_Transform
 # 867920627
 # 546629239
+# 762763281
 
 ### VALUE NAMES (WSB_CH_Main.bnk)
 Armor
@@ -427,6 +442,8 @@ default
 Down
 Flesh
 grass
+GrassVolume_High
+GrassVolume_Low
 Gravel
 Home_Main
 Hunter03
@@ -441,6 +458,7 @@ Mud
 None
 Opening
 Prologue
+Result_interview
 Sand
 Sky
 Slide
@@ -453,13 +471,10 @@ True
 Tutorial
 Walk
 Water
+WaterVolume_High
+WaterVolume_Low
 Wood
-# 973182163
-# 3853347175
-# 2267512122
-# 2350902364
 # 3119661963
-# 617721474
 
 ### EVENT NAMES (WSB_CH_UMA.bnk)
 WE_CH_UMA_Common_Die_FX
@@ -531,6 +546,8 @@ WSWG_Material
 ### VALUE NAMES (WSB_CH_UMA.bnk)
 Flesh
 grass
+GrassVolume_High
+GrassVolume_Low
 Gravel
 Metal
 Mud
@@ -540,11 +557,9 @@ Soil
 Stone
 True
 Water
+WaterVolume_High
+WaterVolume_Low
 Wood
-# 973182163
-# 3853347175
-# 2267512122
-# 2350902364
 
 ### EVENT NAMES (WSB_CS.bnk)
 WE_CS_Craft_Doll_Open
@@ -557,6 +572,12 @@ WE_CS_Craft_VO_DOLL_014
 WE_CS_Craft_VO_DOLL_Complete
 WE_CS_Craft_VO_DOLL_Menu_In
 WE_CS_Craft_VO_DOLL_Menu_Out
+WE_CS_CupChampion_Audience_In
+WE_CS_CupChampion_Audience_Out
+WE_CS_CupChampion_Fireworks_Fountain
+WE_CS_CupChampion_Fireworks_Launch
+WE_CS_CupChampion_MX_In
+WE_CS_CupChampion_MX_Out
 WE_CS_Ending_MX_Fanfare
 WE_CS_Ending_MX_In
 WE_CS_Ending_MX_Out
@@ -755,13 +776,13 @@ WGP_OPTION_SE
 WGP_OPTION_VOICE
 
 ### VARIABLE NAMES (WSB_CS.bnk)
+WSWG_SeasonEnd_Rank
 # 867920627
 # 2303679466
 # 757770760
 # 2633573742
 # 546629239
 # 669411094
-# 256063015
 # 2288806285
 # 2440650591
 # 2219369968
@@ -776,6 +797,8 @@ Battle_Ingame_Final
 Battle_Ready
 Begin
 Bronze
+Champion_Final
+Champion_Semifinal
 Cup
 Eagle
 End
@@ -804,12 +827,12 @@ None
 Open
 Platinum
 Rank
+Result_interview
 Room
 Silver
 Title
 Training
 True
-# 617721474
 
 ### EVENT NAMES (WSB_EV.bnk)
 WE_EV_Animal_Crane
@@ -819,11 +842,13 @@ WE_EV_Animal_Frog
 WE_EV_Animal_Mix
 WE_EV_Base
 WE_EV_Base_Basket
+WE_EV_Base_Castle
 WE_EV_Base_Cave
 WE_EV_Base_City
 WE_EV_Base_Dune
 WE_EV_Base_Island
 WE_EV_Base_Jungle
+WE_EV_Base_Market
 WE_EV_Base_Nature
 WE_EV_Base_Out
 WE_EV_Base_Palace
@@ -833,19 +858,16 @@ WE_EV_Base_Trench
 WE_EV_Base_YetiNest
 WE_EV_Break_Metal
 WE_EV_Break_Wood
-WE_EV_Breakable_Box_Break
-WE_EV_Breakable_Box_Hit
-WE_EV_Breakable_Bridge_Break
-WE_EV_Breakable_Bridge_Hit
-WE_EV_Breakable_Fence_Break
-WE_EV_Breakable_Fence_Hit
-WE_EV_Breakable_Wall_Break
-WE_EV_Breakable_Wall_Hit
+WE_EV_Castle_Gear
 WE_EV_Display_Noise
 WE_EV_Hit_Metal
 WE_EV_Hit_Window
 WE_EV_Hit_Wood
+WE_EV_HunterConnection_A_Water
 WE_EV_Leaf_Rustle
+WE_EV_Market_Banner
+WE_EV_Market_Fountain
+WE_EV_Market_Generator
 WE_EV_Meteor_Impact
 WE_EV_Palace_Antenna
 WE_EV_Water_Drip
@@ -936,6 +958,8 @@ WSWG_Material
 Battle_Finish
 Flesh
 grass
+GrassVolume_High
+GrassVolume_Low
 Gravel
 Metal
 Mud
@@ -944,17 +968,17 @@ Sky
 Soil
 Stone
 Water
+WaterVolume_High
+WaterVolume_Low
 Wood
-# 973182163
-# 3853347175
-# 2267512122
-# 2350902364
 
 ### EVENT NAMES (WSB_MX.bnk)
 WE_MX_Battle_Encount_In
 WE_MX_Battle_Encount_Out
 WE_MX_Battle_Final_In
 WE_MX_Battle_Final_Out
+WE_MX_Battle_Hunter04_In
+WE_MX_Battle_Hunter04_Out
 WE_MX_Battle_Remaining_In
 WE_MX_Battle_Remaining_Out
 WE_MX_Battle_Remaining_Spectate_In
@@ -984,9 +1008,10 @@ WSWG_RemainingPlayer
 # 757770760
 # 3865062713
 # 2336423495
-# 546629239
+# 2219369968
 # 867920627
 # 2062504493
+# 546629239
 # 2633573742
 # 762763281
 # 392294285
@@ -1002,6 +1027,7 @@ WSWG_RemainingPlayer
 # 2507492359
 # 3368449987
 # 1251822171
+# 778168907
 # 3971579792
 
 ### VALUE NAMES (WSB_MX.bnk)
@@ -1010,18 +1036,27 @@ Battle_Finish
 Battle_Ingame
 Battle_Ingame_Final
 Battle_Ready
+Champion_Final
+Champion_Semifinal
+Cup
+Exhibition
 False
 Gimmick
 H01
 H02
 H03
 H04
+H04X
+H04Y
+H04Z
 H05
 Intro
 Matching
 Move
 NoEncount
+None
 Open
+Rank
 RemainingPlayer_01
 RemainingPlayer_02
 RemainingPlayer_03
@@ -1038,12 +1073,13 @@ RemainingPlayer_13
 RemainingPlayer_14
 RemainingPlayer_15
 RemainingPlayer_16
+Result_interview
+Room
 Title
 Training
 True
 Tutorial
 # 3119661963
-# 617721474
 
 ### EVENT NAMES (WSB_PA.bnk)
 WE_PA_0020
@@ -1063,10 +1099,10 @@ WE_PA_0260
 WE_PA_0270
 
 ### VARIABLE NAMES (WSB_PA.bnk)
+WSWG_MC
+WSWG_Pace
 WSWG_RemainingArea_Ratio
 WSWG_RemainingPlayer_Ratio
-# 4272014180
-# 961227189
 
 ### VALUE NAMES (WSB_PA.bnk)
 High
@@ -1132,22 +1168,26 @@ WE_PBP_0310
 
 ### SFX NAMES (WSB_PBP.bnk)
 Have_U_Ever_Been_Outside
+# 134304722
 
 ### VARIABLE NAMES (WSB_PBP.bnk)
+WSWG_HunterType
+WSWG_MC
+WSWG_Pace
+WSWG_PBP_Variation
 WSWG_RemainingArea
 WSWG_RemainingPlayer
 WSWG_Time
-# 4272014180
-# 961227189
-# 2669539759
-# 2312883210
-# 3226714332
+WSWG_UMAType
 
 ### VALUE NAMES (WSB_PBP.bnk)
 H01
 H02
 H03
 H04
+H04X
+H04Y
+H04Z
 H05
 H06
 High
@@ -1260,6 +1300,7 @@ WE_PM_Hit_Yeti_Tackle
 ### SFX NAMES (WSB_PM.bnk)
 # 494787703
 # 101693208
+# 455614015
 # 478361636
 # 879995917
 # 1050451505
@@ -1275,12 +1316,12 @@ WGP_OBJECT_DISTANCE
 WGP_PLAYER_HIT_OWNER
 
 ### VARIABLE NAMES (WSB_PM.bnk)
+WSWG_AttackType
+WSWG_HunterType
 WSWG_Material
-# 2614828876
-# 2312883210
-# 2669539759
-# 1818296245
-# 3123105572
+WSWG_ProjectileType
+WSWG_UMAType
+WSWG_WeaponType
 # 546629239
 # 4002759656
 
@@ -1290,6 +1331,7 @@ AntiShieldBomb_Bound
 Arms
 Arrow
 AssaultRifleBullet
+BatIron
 Battle_Finish
 Beam_In
 Beam_Out
@@ -1305,12 +1347,17 @@ DelayBomb_Bound
 FlashBomb_Bound
 Flesh
 grass
+GrassVolume_High
+GrassVolume_Low
 Gravel
 Grenade
 H01
 H02
 H03
 H04
+H04X
+H04Y
+H04Z
 H05
 H06
 Hammer
@@ -1318,6 +1365,7 @@ Hammer_SP02
 Hand
 Hunter03Bullet
 in
+IronMiddleBullet
 Jackalope
 Katana
 Knife
@@ -1332,6 +1380,7 @@ Sky
 Skyfish
 SniperRifleBullet
 Soil
+SP1FireBullet
 Spear
 Stab
 Stone
@@ -1341,24 +1390,34 @@ True
 Tsuchinoko
 TsuchinokoNa
 Water
+WaterVolume_High
+WaterVolume_Low
 WilsonBullet
 Wolf
 WolfNa
 Wood
 Yeti
-# 973182163
-# 3853347175
-# 2267512122
-# 2350902364
 
 ### EVENT NAMES (WSB_ST.bnk)
+WE_ST_Breakable_Break
+WE_ST_Breakable_Hit
+WE_ST_CastleDoll_Reverse
+WE_ST_CoasterWarp_In
+WE_ST_CoasterWarp_Out
 WE_ST_Door_Common
+WE_ST_ElectricFloor_In
+WE_ST_ElectricFloor_Out
+WE_ST_FloorTrap_Activate
 WE_ST_HunterTrap_Laser_In
 WE_ST_HunterTrap_Laser_Out
 WE_ST_HunterTrap_Launch
 WE_ST_HunterTrap_Spawn
 WE_ST_Mashroom_Common_Spawn
 WE_ST_Material_Get
+WE_ST_MoveWall_Down
+WE_ST_MoveWall_Electric_In
+WE_ST_MoveWall_Electric_Out
+WE_ST_MoveWall_Up
 WE_ST_Place_Inside
 WE_ST_Place_Outside
 WE_ST_PowerPod_BreakPod
@@ -1374,19 +1433,30 @@ WE_ST_PowerPod_Warp_Spawn
 WGP_OBJECT_DISTANCE
 
 ### VARIABLE NAMES (WSB_ST.bnk)
+WSWG_BreakableType
 WSWG_DoorState
+WSWG_DoorType
 # 4061413236
-# 1240000792
+# 4002759656
+# 546629239
 # 2953716644
 
 ### VALUE NAMES (WSB_ST.bnk)
+Bamboo
+Battle_Finish
+box
+bridge
 Close
 EXStage
+Fence
 Inside
 Open
+Result_interview
 True
 UpSlide
 UpSlide_L
+Wall
+# 3119661963
 # 1821034777
 
 ### EVENT NAMES (WSB_SY.bnk)
@@ -1523,6 +1593,9 @@ WE_SY_PrizeBox_Out
 WE_SY_Radar_In
 WE_SY_Radar_Out
 WE_SY_Recover
+WE_SY_Replay_Cue
+WE_SY_Replay_Pause
+WE_SY_Replay_Resume
 WE_SY_Result_Challenge_Success
 WE_SY_Result_Count_Coin
 WE_SY_Result_Count_Level
@@ -1617,22 +1690,25 @@ WGP_SELECT_MUTE
 
 ### VARIABLE NAMES (WSB_SY.bnk)
 WSWG_Costume
+WSWG_NiceVote_Rate
+WSWG_Player_State_Shield
 WSWG_Result_GP_Rank
 WSWG_Result_Rank
 # 2336423495
 # 1916429340
-# 3723512359
 # 546629239
-# 4254240296
+# 2219369968
 # 2062504493
 # 2804224834
 # 529738567
 # 3971579792
+# 4125219089
 # 4002759656
 # 2507492359
 # 3543714938
 # 762763281
 # 867920627
+# 2639253316
 
 ### VALUE NAMES (WSB_SY.bnk)
 Amazing
@@ -1640,13 +1716,19 @@ Armor
 Bad
 Battle_Finish
 Brilliant
+Champion_Final
+Champion_Semifinal
 Cloth
+Cup
+Exhibition
 False
 Good
 L
 Leather
 M
 Metal
+None
+Rank
 Rank01
 Rank02
 Rank03
@@ -1663,6 +1745,8 @@ Rank13
 Rank14
 Rank15
 Rank16
+Result_interview
+Room
 S
 Time_00
 Time_01
@@ -1684,22 +1768,21 @@ Time_16
 Time_17
 Time_18
 Time_19
+Time_20
+Time_21
+Time_22
+Time_23
+Time_24
+Time_25
+Time_26
+Time_27
+Time_28
+Time_29
+Time_30
+Time_etc
 Title
 True
 Wood
-# 617721474
-# 1922791313
-# 745954867
-# 745954866
-# 745954865
-# 745954864
-# 745954871
-# 745954870
-# 745954869
-# 745954868
-# 745954875
-# 745954874
-# 729177152
 
 ### EVENT NAMES (WSB_Test.bnk)
 WE_Bus_CH_Mute
@@ -1730,6 +1813,9 @@ WE_Test_LR_SoundCheck
 WE_Test_Radio
 
 ### EVENT NAMES (WSB_VO_Hunter.bnk)
+WE_Ingame_Jackals_x
+WE_Ingame_Jackals_y
+WE_Ingame_Jackals_z
 WE_VO_H01_Breath_A
 WE_VO_H01_Breath_B
 WE_VO_H01_Finish
@@ -1806,8 +1892,63 @@ WE_VO_H03_M_Fly_Out
 WE_VO_H03_M_Possession
 WE_VO_H03_M_Sign
 WE_VO_H03_M_Transform
+WE_VO_H04X_ATK
+WE_VO_H04X_ATK_A
+WE_VO_H04X_ATK_B
+WE_VO_H04X_ATK_C
+WE_VO_H04X_Dash
+WE_VO_H04X_Die
+WE_VO_H04X_DMG_A
+WE_VO_H04X_DMG_B
+WE_VO_H04X_DMG_C
+WE_VO_H04X_DMG_D
+WE_VO_H04X_Finish
+WE_VO_H04X_Guard
+WE_VO_H04X_Jump_A
+WE_VO_H04X_Land_A
+WE_VO_H04X_Run
+WE_VO_H04X_TimeUp
+WE_VO_H04X_Walk
+WE_VO_H04X_Walk_A
+WE_VO_H04Y_ATK
+WE_VO_H04Y_ATK_A
+WE_VO_H04Y_ATK_B
+WE_VO_H04Y_Dash
+WE_VO_H04Y_Die
+WE_VO_H04Y_DMG_A
+WE_VO_H04Y_DMG_B
+WE_VO_H04Y_DMG_C
+WE_VO_H04Y_DMG_D
+WE_VO_H04Y_Finish
+WE_VO_H04Y_Guard
+WE_VO_H04Y_Jump_A
+WE_VO_H04Y_Land_A
+WE_VO_H04Y_Return
+WE_VO_H04Y_Run
+WE_VO_H04Y_TimeUp
+WE_VO_H04Y_Walk
+WE_VO_H04Y_Walk_A
+WE_VO_H04Z_ATK
+WE_VO_H04Z_ATK_A
+WE_VO_H04Z_ATK_B
+WE_VO_H04Z_ATK_C
+WE_VO_H04Z_Dash
+WE_VO_H04Z_Die
+WE_VO_H04Z_DMG_A
+WE_VO_H04Z_DMG_B
+WE_VO_H04Z_DMG_C
+WE_VO_H04Z_DMG_D
+WE_VO_H04Z_Finish
+WE_VO_H04Z_Guard
+WE_VO_H04Z_Jump_A
+WE_VO_H04Z_Land_A
+WE_VO_H04Z_Run
+WE_VO_H04Z_TimeUp
+WE_VO_H04Z_Walk
+WE_VO_H04Z_Walk_A
 WE_VO_HC_All_Out
 WE_VO_HC_REQUIEM
+# 641130436
 
 ### RTPC/GAME-VARIABLE NAMES (WSB_VO_Hunter.bnk)
 WGP_OBJECT_DISTANCE
@@ -1901,10 +2042,10 @@ WGP_PLAYER_STAMINA
 WGP_PLAYER_STATE_LAUGH
 
 ### VARIABLE NAMES (WSB_VO_Main.bnk)
+WSWG_Player_State_Laugh_Attack
 WSWG_Player_Transform
-# 3825896238
+WSWG_VoiceType
 # 546629239
-# 2510134678
 # 2776928964
 
 ### VALUE NAMES (WSB_VO_Main.bnk)
@@ -1919,8 +2060,11 @@ F02
 F03
 F04
 False
+fJ_Hunter
+fJ_Weapon
 Home_Main
 Hunter03
+Hunter3Death
 Kill
 Logo
 M01
@@ -1931,6 +2075,7 @@ Matching
 None
 Opening
 Prologue
+Result_interview
 S01
 Stealth
 TimeOver
@@ -1940,10 +2085,6 @@ True
 Tutorial
 WaterDeath
 # 3119661963
-# 617721474
-# 1260183542
-# 398723528
-# 1087733272
 
 ### EVENT NAMES (WSB_VO_Preview.bnk)
 WE_VO_Preview_A
@@ -1953,7 +2094,7 @@ WE_VO_Preview_D
 WE_VO_Preview_E
 
 ### VARIABLE NAMES (WSB_VO_Preview.bnk)
-# 3825896238
+WSWG_VoiceType
 
 ### VALUE NAMES (WSB_VO_Preview.bnk)
 F01
@@ -2011,7 +2152,7 @@ WE_VO_UMA_Yeti_Relax
 WE_VO_UMA_Yeti_Sit
 
 ### VARIABLE NAMES (WSB_VO_UMA.bnk)
-# 2669539759
+WSWG_UMAType
 
 ### VALUE NAMES (WSB_VO_UMA.bnk)
 Jackalope
@@ -2062,6 +2203,8 @@ WE_WP_AirBurst_Reload_B
 WE_WP_AirBurst_Shot_A
 WE_WP_AirBurst_Shot_B
 WE_WP_Arms_Finish_Electric
+WE_WP_Arms_Finish_Electric_In
+WE_WP_Arms_Finish_Electric_Out
 WE_WP_Arms_Impact_A
 WE_WP_Arms_Impact_B
 WE_WP_Arms_Impact_Electric
@@ -2096,6 +2239,26 @@ WE_WP_Bare_Kick
 WE_WP_Bare_Punch_A
 WE_WP_Bare_Punch_B
 WE_WP_Bare_Tackle
+WE_WP_BatIron_Bat_Swing_L
+WE_WP_BatIron_Bat_Swing_M
+WE_WP_BatIron_Bat_Swing_S
+WE_WP_BatIron_Iron_Stab
+WE_WP_BatIron_Iron_Steam
+WE_WP_BatIron_Skill01_Fire_In
+WE_WP_BatIron_Skill01_Fire_Out
+WE_WP_BatIron_Skill01_Swing
+WE_WP_BatIron_Skill02_FX
+WE_WP_BatIron_Skill02_Steam
+WE_WP_BatIron_Sp01_FX
+WE_WP_BatIron_Sp01_Hit
+WE_WP_BatIron_Sp02_FX
+WE_WP_BatIron_Sp02_Impact
+WE_WP_BatIron_Sp02_Swing
+WE_WP_BatIron_Sp05_Catch
+WE_WP_BatIron_Sp05_Dash
+WE_WP_BatIron_Sp05_Fire
+WE_WP_BatIron_Sp05_Steam
+WE_WP_BatIron_Sp05_Swing
 WE_WP_Bow_Failure
 WE_WP_Bow_Shot_A
 WE_WP_Bow_Shot_B
@@ -2104,6 +2267,7 @@ WE_WP_Carbine_Reload_A
 WE_WP_Carbine_Reload_B
 WE_WP_Carbine_Shot_A
 WE_WP_Carbine_Shot_B
+WE_WP_CircleSaw_Catch
 WE_WP_CircleSaw_Finish_DMG_In
 WE_WP_CircleSaw_Finish_DMG_Out
 WE_WP_CircleSaw_Finish_Hit
@@ -2124,6 +2288,8 @@ WE_WP_CircleSaw_SP02_Put
 WE_WP_CircleSaw_SP02_Shot
 WE_WP_CircleSaw_SP03
 WE_WP_CircleSaw_SP03_Shot
+WE_WP_CircleSaw_SP04_Ice
+WE_WP_CircleSaw_SP04_Ice_Finish
 WE_WP_CircleSaw_SP05
 WE_WP_CircleSaw_SP05_Get_Off
 WE_WP_CircleSaw_SP05_Get_On
@@ -2141,6 +2307,7 @@ WE_WP_CircleSaw_SP3_Bullet_Out
 WE_WP_CircleSaw_SP3_Explosion
 WE_WP_CircleSaw_SP4
 WE_WP_CircleSaw_SP4_Swing
+WE_WP_CircleSaw_Stomp
 WE_WP_CircleSaw_Swing
 WE_WP_Common_Charge_In
 WE_WP_Common_Charge_Out
@@ -2149,6 +2316,7 @@ WE_WP_Common_Finish_Pull
 WE_WP_Common_Finish_Pull_FX
 WE_WP_Common_Finish_Stab
 WE_WP_Common_Finish_Stab_FX
+WE_WP_Common_GuardBreak
 WE_WP_Common_SP
 WE_WP_Crossbow_Failure
 WE_WP_Crossbow_Fire_In
@@ -2164,6 +2332,7 @@ WE_WP_GasLauncher_Failure
 WE_WP_GasLauncher_Shot_A
 WE_WP_GasLauncher_Shot_B
 WE_WP_Hammer_Finish_Swing
+WE_WP_Hammer_Fire_In
 WE_WP_Hammer_GuardBreak_Charge1
 WE_WP_Hammer_GuardBreak_Charge2
 WE_WP_Hammer_GuardBreak_Charge3
@@ -2186,6 +2355,12 @@ WE_WP_Hammer_Skill2_Stab
 WE_WP_Hammer_SP04
 WE_WP_Hammer_SP04_Finish
 WE_WP_Hammer_SP04_Swing
+WE_WP_Hammer_SP05_Impact_L
+WE_WP_Hammer_SP05_Impact_S
+WE_WP_Hammer_SP05_Jump_L
+WE_WP_Hammer_SP05_Jump_S
+WE_WP_Hammer_SP05_Swing
+WE_WP_Hammer_SP05_Swing_L
 WE_WP_Hammer_SP1
 WE_WP_Hammer_SP1_Explosion
 WE_WP_Hammer_SP1_Jump
@@ -2198,10 +2373,10 @@ WE_WP_Hammer_SP2_Wind
 WE_WP_Hammer_SP3
 WE_WP_Hammer_SP3_Swing
 WE_WP_Hammer_SP5
-WE_WP_Hammer_SP5_Swing
 WE_WP_Hammer_Stab
 WE_WP_Hammer_Sub_Explosion
 WE_WP_Hammer_Swing
+WE_WP_Hammer_Swing_Fire
 WE_WP_Katana_Finish_Hit
 WE_WP_Katana_Finish_MX
 WE_WP_Katana_GuardBreak_Reflection
@@ -2277,7 +2452,8 @@ WE_WP_Machete_SP3
 WE_WP_Machete_SP3_Air
 WE_WP_Machete_SP3_Explosion
 WE_WP_Machete_SP4
-WE_WP_Machete_SP4_Electric
+WE_WP_Machete_SP4_Electric_In
+WE_WP_Machete_SP4_Electric_Out
 WE_WP_Machete_SP5
 WE_WP_Machete_SP5_Jet
 WE_WP_Machete_SP6_Jet
@@ -2296,6 +2472,8 @@ WE_WP_Mushroom_Vomit_Shot_In
 WE_WP_Mushroom_Vomit_Shot_Out
 WE_WP_Perk_Drop_Kick
 WE_WP_Perk_InFighter
+WE_WP_Perk_Sliding_FX
+WE_WP_Perk_Sliding_Slide
 WE_WP_Perk_Wilson_Punch
 WE_WP_Perk_Wilson_Punch_Charge
 WE_WP_RocketLauncher_Aim_In_A
@@ -2316,6 +2494,8 @@ WE_WP_Spear_GuardBreak_Loop_Out
 WE_WP_Spear_GuardBreak_Spark
 WE_WP_Spear_SetUp
 WE_WP_Spear_Skill01_FX
+WE_WP_Spear_Skill02_FX
+WE_WP_Spear_Sp01_FX
 WE_WP_Spear_Sp01_Spark
 WE_WP_Spear_Sp01_Swing
 WE_WP_Spear_Sp01_Swing_Finish
@@ -2326,10 +2506,10 @@ WE_WP_Spear_Sp02_Kick_S
 WE_WP_Spear_Sp02_Out
 WE_WP_Spear_Sp02_Whoosh
 WE_WP_Spear_Sp05_Finish
-WE_WP_Spear_Sp05_Swing
+WE_WP_Spear_Sp05_Swing_01
+WE_WP_Spear_Sp05_Swing_02
 WE_WP_Spear_Sp05_Whoosh
 WE_WP_Spear_Stab_A
-WE_WP_Spear_Stab_B
 WE_WP_Spear_Swing_A
 WE_WP_Spear_Swing_B
 WE_WP_SubMachinegun_Aim_In
@@ -2386,6 +2566,7 @@ WGP_PLAYER_STATE_BUSH
 WGP_WEAPON_GAUGE
 WGP_WEAPON_VISIBLE
 # 698021785
+# 282078979
 
 ### VARIABLE NAMES (WSB_WP.bnk)
 WSWG_MyCharacter
@@ -2398,9 +2579,9 @@ WSWG_MyCharacter
 Battle_Finish
 False
 Home_Main
+Result_interview
 True
 # 3119661963
-# 617721474
 
 ### EVENT NAMES (WSB_WV.bnk)
 WE_WV_Avoid
