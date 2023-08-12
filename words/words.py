@@ -1063,7 +1063,10 @@ class Words(object):
             self._read_reversables(file)
         self._parsing_wwnames = False
 
-        self._read_words(self._args.input_file)
+        files = glob.glob(self._args.input_file)
+        for file in files:
+            self._read_words(file)
+
         self._read_reversables(self._args.reverse_file)
         self._read_skips(self._args.skips_file)
 
