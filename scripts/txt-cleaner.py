@@ -3,18 +3,23 @@
 import os, sys, itertools, re
 
 _PATTERN_WRONG = re.compile(r'[\t.<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
+_PATTERN_SPLIT = re.compile(r'[\t.<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*% -]')
 _WORD_ALLOWED = ['xiii', 'xviii','zzz']
-_BAD_GROUPS = ['uu', 'fwfw','ldlD', 'vwu']
+_BAD_GROUPS = ['uu', 'fwfw','ldlD', 'vwu', 'zzz', 'abcde']
 _ENDS_WITH = ['bc']
 DONE = set()
+split = False
 
-def is_match_max(line, regex, max):
+def get_match_max(line, regex):
     count = 0
     for match in regex.finditer(line):
         count += 1
-        if count >= max:
-            return True
-        
+    return count
+
+def is_match_max(line, count, max):
+    if count >= max:
+        return True
+       
     return False
     
 
@@ -32,12 +37,17 @@ def is_line_ok(line):
         return True
 
     # skip wonky mini words
-    if line_len < 4 and _PATTERN_WRONG.search(line):
+    if line_len <= 4 and _PATTERN_WRONG.search(line):
         return False
-        
+    
     # skip mini words with several
-    if (line_len >= 4 and line_len <= 5) and is_match_max(line, _PATTERN_WRONG, 2):
+    max_match = get_match_max(line, _PATTERN_WRONG)
+    if (line_len >= 4 and line_len <= 5) and max_match == 2:
         return False
+    if (line_len < 10) and max_match >= 3:
+        return False
+    #if (line_len > 50) and max_match >= 10:
+    #    return False
 
     if line_len < 12:
         # check for words like 
@@ -70,7 +80,15 @@ def read_line(line, outfile_ok, outfile_ko, outfile_dp):
     if res is None:
         outfile_dp.write(line + '\n')
     elif res:
-        outfile_ok.write(line + '\n')
+        if split:
+            items = _PATTERN_SPLIT.split(line)
+            for item in items:
+                if item in DONE:
+                    continue
+                DONE.add(item)
+                outfile_ok.write(item + '\n')
+        else:
+            outfile_ok.write(line + '\n')
     else:
         outfile_ko.write(line + '\n')
 
