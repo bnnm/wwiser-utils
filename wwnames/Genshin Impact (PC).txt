@@ -1,0 +1,85 @@
+1011622525: night
+1237083676: state_bond
+1369316654: state_chapter
+4122948419: state_combat
+3512208938: state_combatprep
+1210637202: state_danger
+1211576114: state_default
+133776084: state_elite
+2936524099: state_happy
+2640713485: state_honor
+1777631755: state_horror
+3442800176: state_humor
+3519600251: state_incoming
+2701373814: state_pond
+981518407: state_quest
+4151002309: state_reunion
+1091089913: state_village
+582789890: switch_night
+2911017358: switch_dawn
+3815942830: switch_day
+2822656454: SB_Events
+1105401320  : SB_InteractiveMusic
+2795543126: music_on
+3005386280  : state_awkward
+#1056989967  : state_blustery
+1278433376  : state_goddess
+3858145012  : state_noncombat
+3318585882  : state_playful
+2832709609  : state_repression
+3015683236  : state_ruins
+850080513   : state_slime
+78298991    : state_suspense
+1749243662  : state_suspicious
+1871192360  : state_tense
+4131418786  : state_unsettling
+2429817859  : state_winery
+3114320307  : switch_dusk
+4281774895  : state_stage_1
+4281774892  : state_stage_2
+4281774893  : state_stage_3
+2578144710  : state_watership
+3674630035  : state_cutscene
+2710479948  : state_inboat
+245418814   : state_stage_final
+3941623127  : state_playchess
+921506123   : state_snowmountain
+2204628117  : state_sm_boss
+4080758265  : state_sm_cave
+1025738936  : state_sm_chamber
+1284201282  : state_sm_general
+853023759   : state_sm_peak
+2287471690  : state_md_church
+1266858888  : state_md_knight
+4155503645  : state_md_churchbasement
+4056239930  : state_niceday
+2467196160  : state_longstory
+2766333216  : state_badsituation
+3440945223  : state_blackforest
+3512208938  : state_combatprep
+4057540728  : state_dragonnest
+2829953028  : state_goddessupgrade
+#3057292055  : state_lightrain
+2623155916  : state_victoryknight
+
+361444899   : Play_Music_Explore
+3592912180  : Play_Music_Gacha
+4008728353  : Play_Music_Login
+484422930   : Play_Music_Scene
+2904665020  : Play_Music_Dungeon
+#52862435    : state_sm_nationality_test
+#317310082   : state_dungeon_qin
+#1588124687  : state_dungeon_xm
+
+3462357065  : state_dungeon_barbara
+1682430899  : state_dungeon_electric
+2215570662  : state_dungeon_fire
+212701495   : state_dungeon_ice
+936022787   : state_dungeon_water
+1833323395  : state_dungeon_weekly
+3693187495  : state_dahaka
+2549683609: state_dungeon_tower
+785284431: state_dungeon_dragontear
+1603470293: state_dungeon_tartaglia
+#1466705908  : state_dungeon_crossplaystation
+#4133314658  : state_dungeon_pfdungeon
