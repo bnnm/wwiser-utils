@@ -1,14 +1,28 @@
 # WORDS.PY
-#
+# 
 # Reads word from input files, splitting by _ and applying formats, and makes word combos. Files:
 # - wwnames*.txt: lists of words, in the form of (word1), (word2)_(word3), etc, that are split in
 #   various ways (configurable). Lower/uppercase/symbols/incorrect words are fine (will be ignored
 #   or adjusted as needed). Should include a list of FNV IDs, to reverse instead of creating words.
-# - formats.txt: list of formats, in the form of %s, (text)_%s_(text), etc. By default uses %s
-#   if not found/empty. This is meant to include "probable" prefixes/suffixes.
+#
+# - formats.txt: list of formats, in the form of %(command). By default uses %s if not found/empty.
+#   This is meant to be used to include "probable" prefixes/suffixes ("Play_%s", "%s_bgm").
+#   Available commands:
+#   - "%s": basic ("Play_%s": combines with existing words)
+#   - "%Nd/%Ni/%Nx": adds 0, 1, 2..., where N is max number of chars (up to 8)
+#   - "%0Nd/%0Ni/%0Nx": same but 0-padded
+#   - "%0Nd:M:": same but adds numbers in steps of M ("Play_BGM_%03i:5:" makes Play_BGM_000, Play_BGM_005, ...)
+#   - "%0Nd^M^": same but limits numbers to M ("Play_BGM_%03i^20^" makes Play_BGM_000 up to Play_BGM_020)
+#   - "%0Nd:M:^M^": same combined
+#   - "%[123abc]": adds 1,2,3,a,b,c ("Play_BGM_1%[ab]" makes Play_BGM_1a, Play_BGM_1b)
+#   Any can be combined but may only use one %s (play_%02x_%s, play_%i_%i_%d but not play_%s_%s)
+#
 # - ww.txt: extra list of wwise words only (may use this instead of wwnames.txt)
+#
 # - fnv.txt: extra list of fnv IDs only (may use this instead of wwnames.txt)
+#
 # - words_out.txt: output of reversed FNV IDs.
+#
 # Some of the above can be passed with parameters.
 #
 # This is meant to be used with some base list of wwnames.txt, when some working
@@ -86,6 +100,12 @@ class Words(object):
         self._sections = []
         self._sections.append(self._words)
         self._section = 0
+        
+        # info about current "### (type) NAMES" where the ID was found (context > ids)
+        self._contexts = {}
+        self._curr_context = None
+        self._contexts[self._curr_context] = []
+        self._ctx_filter = ''
 
         self._fnv = Fnv()
 
@@ -116,7 +136,8 @@ class Words(object):
         p.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs", default=self.FILENAME_REVERSABLES)
         p.add_argument('-to', '--text-output',  help="Write words rather than reversing", action='store_true')
         p.add_argument('-de', '--delete-empty', help="Delete empty output files", action='store_true')
-        p.add_argument('-sr', '--sort-results', help="Sort results after processing", action='store_true', default=True)
+        p.add_argument('-rs', '--results-sort', help="Sort results after processing", action='store_true', default=True)
+        p.add_argument('-rc', '--results-contexts',help="Order by #@classify-bank section (if found)", action='store_true', default=True)
         # modes
         p.add_argument('-c',  '--combinations',         help="Combine words in input list by N (repeats words)\nWARNING! don't set high with lots of formats/words")
         p.add_argument('-p',  '--permutations',         help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words list and start next with #@section\nWARNING! don't combine many sections+words", action='store_true')
@@ -174,11 +195,6 @@ class Words(object):
         self._add_format_subformats(format)
         return
 
-    # accept custom  
-    # - %Nd/%Ni/%Nx: adds 0, 1, 2..., where N is max number of chars (up to 8)
-    # - %[123abc]: adds 1,2,3,a,b,c
-    # - %s: combined later
-    # can be combined up to a point like play_%02x_%s, play_%i_%i_%d (but not play_%s_%s)
     def _add_format_subformats(self, format):
         count = format.count(b'%')
 
@@ -239,17 +255,27 @@ class Words(object):
                         return
 
                     step = 1
+                    limit = None
+
                     ed_fmt = ed
-                    if ed < len(format) and format[ed] == ord(b':'): #step (extension)
-                        ed_stp = format.index(b':', ed + 1)
-                        step = int(format[ed+1:ed_stp])
-                        ed = ed_stp + 1
+                    for extra in [b':', b'^']:
+                        if ed < len(format) and format[ed] == ord(extra):
+                            ed_stp = format.index(extra, ed + 1)
+                            elem = int(format[ed+1:ed_stp])
+                            ed = ed_stp + 1
+                            if extra == b':':
+                                step = elem
+                            if extra == b'^':
+                                limit = elem
 
                     prefix = format[0:st]
                     conversion = format[st:ed_fmt]
                     suffix = format[ed:]
 
-                    rng = range(0, pow(base, digits), step)
+                    if not limit:
+                        limit = pow(base, digits)
+
+                    rng = range(0, limit, step)
                     for i in rng:
                         # might as well reuse original conversion
                         subformat = (b'%s' + conversion + b'%s') % (prefix, i, suffix)
@@ -422,6 +448,12 @@ class Words(object):
     #--------------------------------------------------------------------------
 
     def _add_reversable(self, line):
+        if line.startswith(b'### ') and b' NAMES' in line:
+            self._curr_context = line.strip()
+            if self._curr_context not in self._contexts: # in case of repeats
+                self._contexts[self._curr_context] = []
+            return
+
         if line.startswith(b'# '): #allow fnv in wwnames.txt with -sm
             line = line[2:]
         if line.startswith(b'#'):
@@ -447,6 +479,7 @@ class Words(object):
                 return
 
         self._reversables.add(key)
+        self._contexts[self._curr_context].append(key)
 
     def _read_reversables(self, file):
         try:
@@ -995,13 +1028,13 @@ class Words(object):
     #--------------------------------------------------------------------------
 
     def _sort_results(self):
-        if not self._args.sort_results:
+        if not self._args.results_sort:
             return
 
         inname = self._args.output_file
 
         # separate fnv + hash
-        items = []
+        items = {}
         try:
             with open(inname, 'r') as f:
                 for line in f:
@@ -1012,24 +1045,68 @@ class Words(object):
                         continue
 
                     fnv, name = line.split(':')
-                    fnv = fnv.strip()
+                    fnv = int(fnv.strip())
                     name = name.strip()
-                    items.append( (fnv, name) )
+                    items[fnv] = name
         except FileNotFoundError:
             return
-       
-        lines = []
-        items.sort(key=lambda x : x[1].lower())
-        for fnv, name in items:
-            #fnv += ':'
-            fnv = fnv.ljust(12)
 
-            name = name.strip()
-            lines.append("%s: %s" % (fnv, name))
+        if self._args.results_contexts:
+            remove_repeats = True
+        
+            done = set()
+            lines = []
+            for ctx in self._contexts.keys():
+                # note that the same key may be in multiple contexts (ignored by default)
+                subitems = {}
+
+                for key in self._contexts[ctx]:
+                    if key in done and remove_repeats:
+                        continue
+                    if key in items:
+                        done.add(key)
+                        subitems[key] = items[key]
+                if not subitems:
+                    continue
+
+                if ctx:
+                    ctx_str = ctx.decode("utf-8")
+                    if self._ctx_filter and self._ctx_filter in ctx_str:
+                        continue
+                    lines.append(ctx_str)
+                lines += self._sort_results_lines(subitems)
+                lines.append('')
+
+            # rare but just in case of bugs
+            subitems = {}
+            for key in items:
+                if key in done:
+                    continue
+                done.add(key)
+                subitems[key] = items[key]                
+                
+            if subitems:
+                lines += self._sort_results_lines(subitems)
+            
+        else:
+            lines = self._sort_results_lines(items)
 
         outname = inname #.replace('.txt', '-order.txt')
         with open(outname, 'w') as f:
            f.write('\n'.join(lines))
+
+    def _sort_results_lines(self, items):
+        lines = []
+        items = [(key,val) for key,val in items.items()]
+        #items = list(items.values())
+        items.sort(key=lambda x : x[1].lower())
+        for fnv, name in items:
+            #fnv += ':'
+            fnv = str(fnv).ljust(12)
+
+            name = name.strip()
+            lines.append("%s: %s" % (fnv, name))
+        return lines
 
     #--------------------------------------------------------------------------
 
@@ -1145,7 +1222,6 @@ class Fnv(object):
 
     def get_hash_nb(self, namebytes):
         return self._get_hash(namebytes)
-
 
 # #####################################
 
