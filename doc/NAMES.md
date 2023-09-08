@@ -211,7 +211,7 @@ You need to start with a base word list and some imagination to guess how names 
 
 #### Quick guide
 Typical use of *words.py*:
-- use `wwiser.pyz *.bnk -sl -sm` + a base `wwnames.txt` (if you have one) to generate a clean `wwnames-banks-(date).txt` with valid words + missing FNV numbers
+- use `wwiser.pyz *.bnk -sl` + a base `wwnames.txt` (if you have one) to generate a clean `wwnames-banks-(date).txt` with valid words + missing FNV numbers
   - In the GUI you can create this list by loading banks, pressing the "*Redump clean wwnames.txt*" button and checking "*Also include missing IDs*"
 - put that file (now base word list + reversable FNV numbers) with *words.py*
   - by default it reads any and all `wwnames*.txt` in dir
@@ -252,7 +252,7 @@ Basically make a `wwnames.txt` list of things like `BGM_Vocal_Camp_Off`, include
 
 You can have an extra `ww.txt` list (only reads words and ignores IDs), and `fnv.txt` (only reads ID numbers) too, or use those two instead of `wwnames.txt`. Include `formats.txt` to fine tune prefixes/suffixes.
 
-FNV ID numbers must be plain `(number)` or `# (number)` (as the later is how it appears in `wwnames.txt`), and will ignore non-numbers and multiple numbers in the same line, or `(number): name` (*words.py* results). Remember missing names can be created with *wwiser* using `-sl -sm`.
+FNV ID numbers must be plain `(number)` or `# (number)` (as the later is how it appears in `wwnames.txt`), and will ignore non-numbers and multiple numbers in the same line, or `(number): name` (*words.py* results). Remember missing names can be created with *wwiser* using `-sl`.
 
 Internally *words.py* splits parts (`BGM`, `BGM_Vocal_Camp` `Vocal_Camp_Off`, `Vocal_Camp`, `Vocal`, etc) from lists and combines with formats (see below). It's best to start with all names we have (like `wwnames.txt` or even output straight from `strings2`). You can force generate internally combined words with a flag, but it'll make huge lists.
 

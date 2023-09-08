@@ -43,7 +43,7 @@ Examples of (slightly) advanced usage:
 wwiser.pyz *.bnk
 
 # create a list of missing name IDs
-wwiser.py *.bnk -sl -sm
+wwiser.py *.bnk -sl
 
 # generate txtp, moving wem, using alt extensions if neede, unused and using sound dir
 wwiser.py -d none *.bnk -g -gm -gae -gu -gw sound
