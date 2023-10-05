@@ -1,0 +1,5840 @@
+
+### BANK NAMES
+BGM_Events
+BossApproach_BGM_DGL
+BossApproach_BGM_DGX
+BossApproach_BGM_DIV
+BossApproach_BGM_KPR
+BossApproach_BGM_MNC
+BossApproach_SFX
+BossAudition_BGM
+BossAudition_SFX
+BossAudition_VO
+BossCEO_BGM
+BossCEO_SFX
+BossCEO_VO
+BossDigitalIdol_BGM
+BossDigitalIdol_Lyrics
+BossDigitalIdol_SFX
+BossDigitalIdol_VO
+BossDiva_BGM
+BossDiva_SFX
+BossDiva_VO
+BossDJGalaxy_BGM
+BossDJGalaxy_BGM_remix
+BossDJGalaxy_SFX
+BossDJGalaxy_VO
+BossDKW_BGM
+BossDKW_Lyrics
+BossDKW_SFX
+BossDKW_VO
+BossEND_BGM
+BossEND_SFX
+BossEND_VO
+BossFIN_BGM
+BossFIN_SFX
+BossFIN_VO
+BossKPop_BGM
+BossKPop_SFX
+BossKPop_VO
+BossMotherChild_BGM
+BossMotherChild_SFX
+BossMotherChild_VO
+CEO_NPC_MSE
+CEO_NPC_NOF
+CEOz_NPC_MSE
+Character_SFX
+Character_VO
+City_BGM
+City_SFX
+City_VO
+Credits
+DGI_NPC_MSE
+DGL_NPC_NOF
+DGL_PV
+DGLz_NPC_CPT
+DGLz_NPC_FSO
+DGLz_NPC_IBA
+DGLz_NPC_JNL
+DGLz_NPC_MSE
+DGLz_NPC_POL
+DGLz_NPC_QWT
+DGLz_NPC_RBT
+DGLz_NPC_RDJ
+DGLz_NPC_UNC
+DGLz_NPC_WCL
+DGX_Collectible_01
+DGX_Collectible_02
+DGX_Collectible_03
+DGX_NPC_JNL
+DGX_NPC_MSE
+DGX_PV
+DGXz_NPC_CPT
+DGXz_NPC_FSO
+DGXz_NPC_GGI
+DGXz_NPC_IBA
+DGXz_NPC_JNL
+DGXz_NPC_MSE
+DGXz_NPC_NOF
+DGXz_NPC_POL
+DGXz_NPC_QWT
+DGXz_NPC_RBT
+DGXz_NPC_WCL
+DIV_Collectible_01
+DIV_Collectible_02
+DIV_Collectible_03
+DIV_NPC_MSE
+DIV_NPC_NOF
+DIV_PV
+DIVz_NPC_FCP
+DIVz_NPC_FSN
+DIVz_NPC_FSO
+DIVz_NPC_GGI
+DIVz_NPC_GNG
+DIVz_NPC_JNL
+DIVz_NPC_MSE
+DIVz_NPC_POL
+DIVz_NPC_QWT
+DIVz_NPC_RBT
+DIVz_NPC_RDJ
+DIVz_NPC_UNC
+DIVz_NPC_WCL
+DKW_NPC_NOF
+DKW_NPC_RDJ
+DKWz_NPC_GGI
+Drones
+GEN_NPC_NOF
+GEN_NPC_TRS
+GEN_NPC_ZED1
+GEN_NPC_ZED2
+GEN_NPC_ZED3
+GEN_NPC_ZED4
+Init
+KPR_NPC_MSE
+KPR_NPC_NOF
+KPR_PV
+KPRz_NPC_DXT
+KPRz_NPC_FCP
+KPRz_NPC_FSN
+KPRz_NPC_FSO
+KPRz_NPC_GNG
+KPRz_NPC_JNL
+KPRz_NPC_MSE
+KPRz_NPC_POL
+KPRz_NPC_QWT
+KPRz_NPC_RBT
+KPRz_NPC_RDJ
+KPRz_NPC_UNC
+KPRz_NPC_WCL
+MainMenu
+MNC_NPC_MSE
+MNC_NPC_NOF
+MNC_PV
+MNCz_NPC_CPT
+MNCz_NPC_FCP
+MNCz_NPC_FSO
+MNCz_NPC_GNG
+MNCz_NPC_IBA
+MNCz_NPC_JNL
+MNCz_NPC_MSE
+MNCz_NPC_POL
+MNCz_NPC_QWT
+MNCz_NPC_RBT
+MNCz_NPC_RDJ
+MNCz_NPC_UNC
+MNCz_NPC_WCL
+Poster_VO
+PP1_VO
+PP2_VO
+PP3_VO
+Props
+Sewers_BGM
+Sewers_SFX
+Sewers_VO
+Tatiana_PV
+Tutorial
+UI
+
+### LANGUAGE NAMES
+English(US) = 0
+French
+Japanese
+SFX
+Spanish
+
+### BUS NAMES
+Action VO = 0
+Actions
+Ambience
+approach
+Audio Cues = 0
+audition
+audition action vo = 0
+audition cinematic vo = 0
+Audition_A1_Effect
+Audition_A2_Effect
+Audition_A3_Effect
+audition_music_reverb
+Audition_P1_P2_Effect
+Audition_Z1_Z4_Effect
+boss action VO = 0
+ceo
+ceo action vo = 0
+ceo cinematic vo = 0
+CEO_Timer_Speed
+character action vo = 0
+Cinematic VO = 0
+city
+Collectibles
+Collectibles_VO
+commands and telegraphs = 0
+dialogue music = 0
+Digital Idol = 0
+Digital Idol Lyrics = 0
+digitalidol action vo = 0
+digitalidol cinematic vo = 0
+Disc Insert = 0
+diva
+diva action vo = 0
+diva cinematic vo = 0
+djgalaxy
+djgalaxy action vo = 0
+djgalaxy cinematic vo = 0
+dkw action vo = 0
+dkw cinematic vo = 0
+dkwest
+DKWest_Lyrics
+DKWest_Player
+Ducked
+Ducked More = 0
+FinalShowdown
+finish cinematic vo = 0
+fx_00_GEN_COI
+fx_00_GEN_parryDelay
+fx_00_GEN_propdropDelay
+fx_00_GEN_PV
+fx_04_DGX_1noteDelay
+fx_04_DGX_1noteDelay_short
+fx_04_DGX_pingpongDelay
+fx_04_DGX_pitchdown
+fx_04_DGX_Slapback
+fx_04_DGX_tine_delay
+fx_04_DJG_VO_flange
+fx_04_DJG_VO_harmonizer
+fx_04_DJG_VO_p3
+fx_04_DJG_VO_p4
+fx_05_DGL_glitch
+fx_06_MNC_VO_flange
+fx_06_MNC_VO_low
+fx_06_MNC_VO_pitch
+fx_07_KPO_glitch
+fx_09_CEO_VO_monster
+gameover
+gameplay music = 0
+in-game = 0
+kpop
+kpop action vo = 0
+kpop cinematic vo = 0
+Long_Reverb
+Master Audio Bus = 0
+Master Secondary Bus = 0
+mother action vo = 0
+mother cinematic vo = 0
+MothernChild
+Music
+Not Ducked = 0
+NPC VO = 0
+NPC VO Sewers = 0
+PV
+QWASA_Distortion
+Sewer
+SFX
+SFX_FX
+SFX_Reverb
+Spatialiser_Reverb
+stingers
+UI
+UI_Reverb
+verb_00_CITY_alley
+verb_00_CITY_open
+verb_00_CITY_VO_alley
+verb_00_CITY_VO_open
+verb_00_GEN_attack_epic
+verb_00_SEW
+verb_00_SEW_VO
+verb_01_STG
+verb_01_STG_arena
+verb_01_STG_corridor
+verb_01_STG_crowd_dream
+verb_01_STG_crowd_loop
+verb_01_STG_crowd_oneshot
+verb_01_STG_VO_arena
+verb_04_DGX
+verb_04_DGX_attack
+verb_04_DGX_VO
+verb_04_DGX_VO_mainchar
+verb_05_DGL
+verb_05_DGL_approach
+verb_05_DGL_OtakuRoom
+verb_05_DGL_VO
+verb_05_DGL_VO_OtakuRoom
+verb_06_KPR
+verb_06_KPR_VO
+verb_06_MNC
+verb_06_MNC_noteappear
+verb_06_MNC_P3
+verb_07_MNC_VO
+verb_08_DIV_room
+verb_08_DIV_VO
+verb_09_CEO_corridor
+verb_09_CEO_lift
+verb_09_CEO_room
+verb_09_CEO_VO
+VO
+VO_FX
+VO_Reverb
+yinu action vo = 0
+yinu cinematic vo = 0
+
+### EVENT NAMES (BGM_Events.bnk)
+bgm_approach_DGL
+bgm_approach_DGX
+bgm_approach_DIV
+bgm_approach_KPR
+bgm_approach_MNC
+bgm_audition
+bgm_audition_crowd_chant
+bgm_audition_showstopper
+bgm_bossdigitalidol_intro
+bgm_bossdigitalidol_phase1
+bgm_bossdiva
+bgm_bossdiva_end
+bgm_bossdiva_stop
+bgm_bossdjgalaxy
+bgm_bossdjgalaxy_end
+bgm_bossdjgalaxy_phase1
+bgm_bossdjgalaxy_phase1_skip
+bgm_bossdjgalaxy_phase3_test
+bgm_bossdkw
+bgm_bossdkw_end
+bgm_bosskpop
+bgm_bosskpop_end
+bgm_bossmotherchild
+bgm_bossmotherchild_stop
+bgm_bossmotherchild_transition_test
+bgm_CEO
+bgm_CEO_end
+bgm_CEO_test
+bgm_CEO_timer_speed
+bgm_CEO_walkin
+bgm_CEO_walkin_stop
+bgm_city
+bgm_city_alt2
+bgm_city_overlook_01
+bgm_city_overlook_02
+bgm_city_overlook_02_stop
+bgm_credits
+bgm_di_end
+bgm_di_theme
+bgm_di_theme_stop
+bgm_dial_melancholy_AuditionExit
+bgm_dial_melancholy_AuditionExit_stop
+bgm_dial_normal_BackStage
+bgm_dial_normal_BackStage_stop
+bgm_dial_sinister
+bgm_ending
+bgm_final_lift
+bgm_final_lift_end
+bgm_final_showdown
+bgm_final_SS_01
+bgm_final_SS_02
+bgm_final_SS_03
+bgm_final_SS_04
+bgm_idol_p1_melody
+bgm_idol_p1_melody_stop
+bgm_idol_p3_melody
+bgm_idol_p4_melody
+bgm_idol_p5_melody
+bgm_idol_p6_melody
+bgm_mainmenu
+bgm_masterwolfe
+bgm_postpunch_01
+bgm_postpunch_02
+bgm_postpunch_03
+bgm_sewer
+bgm_transition_phase2
+bgm_yinu_end
+bgm_yinu_end2
+bgm_yinu_theme
+bgm_yinu_theme_stop
+city_fountain
+sfx_CEO_clock_amb
+sfx_CEO_clock_amb_stop
+sfx_ceo_fountain
+ui_countdown
+
+### SFX NAMES (BGM_Events.bnk)
+bgm_djgalaxy_club_outside_filter
+Dual_Filters_Radio_Comm
+Few_Odd_Harm_Notches
+Gentle_Program_Compressor_Minus_20dB_RMS
+
+### TRIGGER NAMES (BGM_Events.bnk)
+DJG_Transition
+
+### RTPC/GAME-VARIABLE NAMES (BGM_Events.bnk)
+ceo
+CEO_timer_distance
+DGL
+DGX
+DIV
+diva_change
+diva_warning
+dj_galaxy_club_filter
+DKW
+FIN
+fin_music
+KPR
+mayday_coi_active
+MNC
+playback_speed
+QWASA_distance
+song_filter
+STG
+sweep_filter
+zuke_coi_active
+
+### VARIABLE NAMES (BGM_Events.bnk)
+AudioCue
+BossPhase
+ClockAmb
+DigitalIdolChanting
+DigitalIdolLyrics
+DigitalIdolState
+KpopP4
+level
+MasterWolfe
+Mix
+mood
+MotherState
+PostAuditionState
+SewerLocation
+SpatializerState
+TimerCountdown
+TimerSpeed
+# 4009442344
+# 2879877845
+# 1424066621
+# 2157723786
+
+### VALUE NAMES (BGM_Events.bnk)
+active
+Battle
+BroadcastingRoom
+comedy
+Cutscene
+D1a
+D1b
+D2a
+D2b
+D3a
+D3b
+D4a
+D4b
+digitalidol
+diva
+djgalaxy
+Exit
+Exploration
+fail
+fast
+Helipad
+inactive
+ingame
+Intro
+kpop
+LivingQuarters
+MainMenu
+melancholy
+motherchild
+Neutral
+none
+normal
+off
+on
+Otaku_Room
+Phase0
+Phase0T1
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase3T4
+Phase4
+Phase4T5
+Phase5
+Phase5T6
+Phase6
+protecc
+Select
+StorageRoom
+StrategyRoom
+success
+UndergroundLiveStage
+ZukeWorkshop
+# 1012601896
+# 4197922652
+# 4057730130
+# 2342484810
+# 805891511
+# 1472681651
+# 2281419013
+# 2595741279
+# 1904455303
+# 3412247199
+# 2464701083
+# 2697538029
+# 615533375
+# 1039102806
+# 4057753081
+# 4263343726
+# 931025763
+# 3183109723
+# 1329595011
+# 931025760
+# 3509991423
+# 1015646364
+# 2081672681
+# 1138852851
+# 3257243835
+# 3690651195
+
+### EVENT NAMES (BossApproach_BGM_DGL.bnk)
+bgm_approach_DGL
+bgm_approach_DGX
+bgm_approach_DIV
+bgm_approach_KPR
+bgm_approach_MNC
+
+### SFX NAMES (BossApproach_BGM_DGL.bnk)
+Hall_Small_Bright
+NSR_Limiter
+
+### RTPC/GAME-VARIABLE NAMES (BossApproach_BGM_DGL.bnk)
+Master
+mayday_coi_active
+playback_speed
+SFX
+zuke_coi_active
+
+### VARIABLE NAMES (BossApproach_BGM_DGL.bnk)
+BossPhase
+level
+Mix
+
+### VALUE NAMES (BossApproach_BGM_DGL.bnk)
+digitalidol
+diva
+djgalaxy
+Intro
+kpop
+motherchild
+Phase1
+Phase2
+Phase3
+Phase4
+
+### EVENT NAMES (BossApproach_BGM_DGX.bnk)
+bgm_approach_DGL
+bgm_approach_DGX
+bgm_approach_DIV
+bgm_approach_KPR
+bgm_approach_MNC
+
+### RTPC/GAME-VARIABLE NAMES (BossApproach_BGM_DGX.bnk)
+mayday_coi_active
+zuke_coi_active
+
+### VARIABLE NAMES (BossApproach_BGM_DGX.bnk)
+BossPhase
+level
+
+### VALUE NAMES (BossApproach_BGM_DGX.bnk)
+digitalidol
+diva
+djgalaxy
+Intro
+kpop
+motherchild
+Phase1
+Phase2
+Phase3
+Phase4
+
+### EVENT NAMES (BossApproach_BGM_DIV.bnk)
+bgm_approach_DGL
+bgm_approach_DGX
+bgm_approach_DIV
+bgm_approach_KPR
+bgm_approach_MNC
+
+### RTPC/GAME-VARIABLE NAMES (BossApproach_BGM_DIV.bnk)
+mayday_coi_active
+zuke_coi_active
+
+### VARIABLE NAMES (BossApproach_BGM_DIV.bnk)
+BossPhase
+level
+
+### VALUE NAMES (BossApproach_BGM_DIV.bnk)
+digitalidol
+diva
+djgalaxy
+Intro
+kpop
+motherchild
+Phase1
+Phase2
+Phase3
+Phase4
+
+### EVENT NAMES (BossApproach_BGM_KPR.bnk)
+bgm_approach_DGL
+bgm_approach_DGX
+bgm_approach_DIV
+bgm_approach_KPR
+bgm_approach_MNC
+
+### RTPC/GAME-VARIABLE NAMES (BossApproach_BGM_KPR.bnk)
+mayday_coi_active
+zuke_coi_active
+
+### VARIABLE NAMES (BossApproach_BGM_KPR.bnk)
+BossPhase
+level
+
+### VALUE NAMES (BossApproach_BGM_KPR.bnk)
+digitalidol
+diva
+djgalaxy
+Intro
+kpop
+motherchild
+Phase1
+Phase2
+Phase3
+Phase4
+
+### EVENT NAMES (BossApproach_BGM_MNC.bnk)
+bgm_approach_DGL
+bgm_approach_DGX
+bgm_approach_DIV
+bgm_approach_KPR
+bgm_approach_MNC
+pv_06MNC
+
+### RTPC/GAME-VARIABLE NAMES (BossApproach_BGM_MNC.bnk)
+mayday_coi_active
+zuke_coi_active
+
+### VARIABLE NAMES (BossApproach_BGM_MNC.bnk)
+BossPhase
+level
+
+### VALUE NAMES (BossApproach_BGM_MNC.bnk)
+digitalidol
+diva
+djgalaxy
+Intro
+kpop
+motherchild
+Phase1
+Phase2
+Phase3
+Phase4
+
+### EVENT NAMES (BossApproach_SFX.bnk)
+sfx_approach_gate_crash
+sfx_approach_gate_unlock
+sfx_approach_lock_crack
+sfx_approach_platform_drop
+sfx_approach_platform_rise
+sfx_approach_platform_start
+sfx_approach_platform_stop
+sfx_di_pathway_cut
+sfx_di_pathway_start
+sfx_di_pathway_stop
+sfx_di_pen_shoot
+sfx_di_prop_transform_complete
+sfx_di_prop_transform_start
+sfx_di_prop_transform_stop
+sfx_drone_destroyed
+sfx_drone_explode
+sfx_drone_handhover_slap
+sfx_drone_hover_attack
+sfx_drone_hover_destroyed
+sfx_drone_hover_idle
+sfx_drone_hover_spawn_01
+sfx_drone_hover_spawn_02
+sfx_drone_hurt
+sfx_drone_spike_appear
+sfx_drone_spike_attack
+sfx_drone_spike_destroyed
+sfx_drone_spike_disappear
+sfx_drone_spike_foley
+sfx_drone_spike_spawn
+sfx_drone_stomp_attack
+sfx_drone_stomp_attack_double
+sfx_drone_stomp_attack_triple_1
+sfx_drone_stomp_attack_triple_2
+sfx_drone_stomp_attack_triple_3
+sfx_drone_stomp_double_foley
+sfx_drone_stomp_foley
+sfx_drone_stomp_triple_foley
+
+### RTPC/GAME-VARIABLE NAMES (BossApproach_SFX.bnk)
+railing_pitch
+
+### EVENT NAMES (BossAudition_BGM.bnk)
+bgm_audition
+bgm_audition_crowd_chant
+bgm_audition_showstopper
+bgm_CEO_walkin
+bgm_CEO_walkin_stop
+bgm_city_overlook_01
+bgm_city_overlook_02
+bgm_city_overlook_02_stop
+bgm_dial_melancholy_AuditionExit
+bgm_dial_melancholy_AuditionExit_stop
+bgm_dial_normal_BackStage
+bgm_dial_normal_BackStage_stop
+bgm_dial_sinister
+bgm_dialogue
+sfx_ceo_prop_charge
+sfx_ceo_prop_loudspeaker_in
+sfx_ceo_prop_loudspeaker_Lv1Death
+sfx_ceo_prop_loudspeaker_Lv3Death
+sfx_ceo_prop_musicPlayer_in
+sfx_ceo_prop_musicPlayer_Lv1Death
+sfx_ceo_prop_musicPlayer_Lv2Death
+sfx_ceo_prop_musicPlayer_Lv3Death
+
+### SFX NAMES (BossAudition_BGM.bnk)
+NSR_Limiter
+
+### RTPC/GAME-VARIABLE NAMES (BossAudition_BGM.bnk)
+BGM
+Master
+mayday_coi_active
+playback_speed
+QWASA_distance
+song_filter
+zuke_coi_active
+
+### VARIABLE NAMES (BossAudition_BGM.bnk)
+AudioCue
+BossPhase
+level
+Mix
+mood
+PostAuditionState
+SpatializerState
+# 4009442344
+# 1424066621
+# 2879877845
+# 2157723786
+
+### VALUE NAMES (BossAudition_BGM.bnk)
+active
+comedy
+Cutscene
+inactive
+Intro
+melancholy
+none
+normal
+off
+on
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase4
+# 1012601896
+# 4197922652
+# 4057730130
+# 2342484810
+# 3412247199
+# 2464701083
+# 1904455303
+# 2697538029
+# 805891511
+# 1472681651
+# 2595741279
+# 2281419013
+# 931025763
+# 3183109723
+# 1329595011
+# 931025760
+# 3509991423
+# 1015646364
+# 2081672681
+# 1138852851
+# 3257243835
+# 3690651195
+
+### EVENT NAMES (BossAudition_SFX.bnk)
+amb_audition_city
+amb_audition_city_stop
+amb_audition_club
+amb_audition_extstudio
+amb_audition_extstudio_stop
+amb_audition_hallway
+bgm_audition_crowd_chant
+crowd_boo_intensity
+crowd_boo_play
+crowd_boo_stop
+crowd_cheer_intensity
+crowd_cheer_stop
+crowd_shocked
+crowd_stomp
+crowd_stomp_stop
+env_audition_blimp_far
+env_audition_blimp_near
+env_audition_blimp_near_stop
+env_audition_lighthum
+env_audition_neonlight
+env_audition_tvstatic
+env_qwasa_rotate
+sfx_audition_boss_showcase
+sfx_audition_buzzer_djg
+sfx_audition_buzzer_eve
+sfx_audition_buzzer_kpop
+sfx_audition_buzzer_sayu
+sfx_audition_buzzer_tatiana
+sfx_audition_buzzer_yinu
+sfx_audition_cameraclickoff
+sfx_audition_cameraclickon
+sfx_audition_cameraclickon_stop
+sfx_audition_cameratransition
+sfx_audition_city_turnoff
+sfx_audition_city_turnon
+sfx_audition_door_slam
+sfx_audition_entryjingle
+sfx_audition_failjingle
+sfx_audition_fireworks_burst
+sfx_audition_fireworks_stage
+sfx_audition_mayday_points
+sfx_audition_mayday_popup
+sfx_audition_mayday_punch
+sfx_audition_mayday_thatsright
+sfx_audition_mayday_woo
+sfx_audition_OK
+sfx_audition_speaker_loop
+sfx_audition_speaker_shoot_mayday
+sfx_audition_speaker_shoot_zuke
+sfx_audition_speaker_transform_mayday
+sfx_audition_speaker_transform_zuke
+sfx_audition_speaker_transforming
+sfx_audition_static
+sfx_audition_tatiana_boom
+sfx_audition_tatiana_clothes_stems
+sfx_audition_tatiana_fingerwalking
+sfx_audition_tatiana_handgrab
+sfx_audition_tatiana_handrest
+sfx_audition_tatiana_tableslam
+sfx_audition_tatiana_wooshes_stems
+sfx_audition_tatiana_zoom
+sfx_audition_TV
+sfx_audition_zuke_change
+sfx_audition_zuke_drumsticks
+sfx_audition_zuke_run
+stop_audition_club
+VO_01STG_A1_cine_020_Mayday
+
+### SFX NAMES (BossAudition_SFX.bnk)
+Dialog_Leveler_Soft
+Dual_Filters_Reset
+NSR_Limiter
+
+### RTPC/GAME-VARIABLE NAMES (BossAudition_SFX.bnk)
+audition_hallway_progress
+audition_outdoor_progress
+crowd_intensity
+Master
+playback_speed
+SFX
+
+### VARIABLE NAMES (BossAudition_SFX.bnk)
+BossPhase
+buzzer
+level
+Mix
+
+### VALUE NAMES (BossAudition_SFX.bnk)
+djg
+eve
+kpop
+Phase2
+Phase3
+Phase4
+sayu
+tatiana
+yinu
+
+### EVENT NAMES (BossAudition_VO.bnk)
+VO_01STG_A1_cine_010_Tatiana
+VO_01STG_A1_cine_020_Mayday
+VO_01STG_A1_cine_030_Zuke
+VO_01STG_A1_cine_040_Mayday
+VO_01STG_A1_cine_050_Zuke
+VO_01STG_A1_cine_060_Camerawoman
+VO_01STG_A1_cine_070_Mayday
+VO_01STG_A1_cine_080_Zuke
+VO_01STG_A1_cine_090_Mayday
+VO_01STG_A1_cine_100_Camerawoman
+VO_01STG_A1_cine_110_Mayday
+VO_01STG_A2_cine_010_Camerawoman
+VO_01STG_A2_cine_020_Mayday
+VO_01STG_A2_cine_030_Zuke
+VO_01STG_A2_cine_040_Mayday
+VO_01STG_A2_cine_050_Zuke
+VO_01STG_A2_cine_060_Mayday
+VO_01STG_A2_cine_070_Zuke
+VO_01STG_A2_cine_080_Mayday
+VO_01STG_A2_cine_090_Zuke
+VO_01STG_A2_cine_100_Mayday
+VO_01STG_A2_cine_110_Zuke
+VO_01STG_A2_cine_120_Mayday
+VO_01STG_A2_cine_130_Camerawoman
+VO_01STG_A2_cine_140_Mayday
+VO_01STG_A3_cine_020_Mayday
+VO_01STG_A3_cine_040_Mayday
+VO_01STG_A3_cine_050_Zuke
+VO_01STG_A3_cine_060_Mayday
+VO_01STG_A3_cine_070_Zuke
+VO_01STG_A3_cine_090_Mayday
+VO_01STG_A3_cine_091_Mayday
+VO_01STG_A3_cine_100_Mayday
+VO_01STG_A3_cine_110_Zuke
+VO_01STG_A3_cine_120_Mayday
+VO_01STG_A3_game_010_Camerawoman
+VO_01STG_A3_game_030_Camerawoman
+VO_01STG_A3_game_080_backstageCrew
+VO_01STG_P1_cine_010_Mayday
+VO_01STG_P1_cine_020_Tatiana
+VO_01STG_P1_cine_030_Mayday
+VO_01STG_P1_cine_040_Tatiana
+VO_01STG_P1_cine_050_Mayday
+VO_01STG_P1_cine_060_Tatiana
+VO_01STG_P1_cine_070_Mayday
+VO_01STG_P1_cine_080_Tatiana
+VO_01STG_P1_cine_090_Mayday
+VO_01STG_P1_cine_100_Tatiana
+VO_01STG_P1_cine_110_Mayday
+VO_01STG_P1_cine_120_Tatiana
+VO_01STG_P1_cine_130_Crowd_v2
+VO_01STG_P1_game_010_Mayday
+VO_01STG_P2_cine_010_Tatiana
+VO_01STG_P2_cine_020_Zuke
+VO_01STG_P2_cine_030_Tatiana
+VO_01STG_P2_cine_040_Zuke
+VO_01STG_P2_cine_050_Tatiana
+VO_01STG_P2_game_010_Mayday
+VO_01STG_P2_game_020_Zuke
+VO_01STG_P3_cine_010_Tatiana
+VO_01STG_P3_game_010_Mayday
+VO_01STG_Z0_cine_010_Mayday
+VO_01STG_Z0_cine_020_Tatiana
+VO_01STG_Z0_cine_030_Mayday
+VO_01STG_Z0_cine_040_Tatiana
+VO_01STG_Z0_cine_050_Mayday
+VO_01STG_Z0_cine_060_Mayday
+VO_01STG_Z0_cine_070_Mayday
+VO_01STG_Z0_cine_080_Mayday
+VO_01STG_Z0_cine_090_Zuke
+VO_01STG_Z0_cine_100_Zuke
+VO_01STG_Z0_cine_110_Mayday
+VO_01STG_Z0_cine_120_Tatiana
+VO_01STG_Z0_cine_130_Tatiana
+VO_01STG_Z0_cine_140_Mayday
+VO_01STG_Z0_cine_150_Zuke
+VO_01STG_Z0_cine_160_Tatiana
+VO_01STG_Z0_cine_170_Mayday
+VO_01STG_Z0_cine_180_Tatiana
+VO_01STG_Z0_cine_190_Mayday
+VO_01STG_Z0_cine_200_Zuke
+VO_01STG_Z0_cine_210_Tatiana
+VO_01STG_Z0_cine_220_Mayday
+VO_01STG_Z0_cine_230_Tatiana
+VO_01STG_Z0_cine_240_Mayday
+VO_01STG_Z0_cine_250_Tatiana
+VO_01STG_Z0_cine_260_Mayday
+VO_01STG_Z0_cine_270_Tatiana
+VO_01STG_Z0_cine_280_Tatiana
+VO_01STG_Z0_cine_290_Tatiana
+VO_01STG_Z0_cine_300_Mayday
+VO_01STG_Z0_crowdboo
+VO_01STG_Z1_cine_010_Mayday
+VO_01STG_Z1_cine_020_Zuke
+VO_01STG_Z1_cine_030_Mayday
+VO_01STG_Z1_cine_040_Zuke
+VO_01STG_Z1_cine_050_Mayday
+VO_01STG_Z1_cine_060_Zuke
+VO_01STG_Z1_cine_070_Mayday
+VO_01STG_Z2_cine_010_NSRannouncer
+VO_01STG_Z2_cine_020_Mayday
+VO_01STG_Z3_cine_010_NSRannouncer
+VO_01STG_Z3_cine_020_Mayday
+VO_01STG_Z3_cine_030_TVhost
+VO_01STG_Z3_cine_040_Zuke
+VO_01STG_Z3_cine_050_Mayday
+VO_01STG_Z3_cine_060_Zuke
+VO_01STG_Z3_cine_070_Mayday
+VO_01STG_Z3_cine_080_Zuke
+VO_01STG_Z3_cine_090_Mayday
+VO_01STG_Z3_cine_100_Zuke
+VO_01STG_Z3_cine_110_Mayday
+VO_01STG_Z3_cine_120_Zuke
+VO_01STG_Z4_cine_010_Zuke
+VO_01STG_Z4_cine_020_Mayday
+VO_01STG_Z4_cine_030_Zuke
+VO_01STG_Z4_cine_040_Tatiana
+VO_01STG_Z4_cine_050_Mayday
+VO_01STG_Z4_cine_060_Zuke
+VO_01STG_Z4_cine_070_090_110_130_150_Mayday
+VO_01STG_Z4_cine_080_Zuke
+VO_01STG_Z4_cine_100_Zuke
+VO_01STG_Z4_cine_120_Zuke
+VO_01STG_Z4_cine_140_Zuke
+VO_01STG_Z4_cine_160_Zuke
+VO_01STG_Z4_cine_170_NSRannouncer
+VO_01STG_Z4_cine_180_Mayday
+VO_01STG_Z4_cine_190_Zuke
+VO_01STG_Z4_cine_200_Mayday
+VO_01STG_Z4_cine_210_Mayday
+VO_01STG_Z4_cine_220_Zuke
+VO_01STG_Z4_cine_230_Mayday
+VO_01STG_Z4_cine_240_Zuke
+VO_01STG_Z4_cine_250_Mayday
+VO_01STG_Z4_cine_260_Zuke
+VO_01STG_Z4_cine_270_Mayday
+VO_01STG_Z4_cine_280_Mayday
+VO_01STG_Z4_cine_290_Zuke
+VO_01STG_Z4_cine_300_Mayday
+VO_01STG_Z4_cine_310_Zuke
+VO_01STG_Z4_cine_320_Mayday
+VO_01STG_Z4_cine_330_Zuke
+VO_01STG_Z4_cine_340_Mayday
+VO_01STG_Z4_cine_350_Mayday
+
+### SFX NAMES (BossAudition_VO.bnk)
+Audition_A1_Reverb
+Audition_A2_Reverb
+Audition_A3_Reverb
+Audition_P1_P2_Reverb
+Audition_Z1_Z4_Reverb
+Dialog_Leveler_Hard
+
+### EVENT NAMES (BossCEO_BGM.bnk)
+bgm_CEO
+bgm_CEO_end
+bgm_CEO_timer_speed
+bgm_CEO_walkin
+bgm_CEO_walkin_stop
+sfx_CEO_barrier_end
+sfx_CEO_barrier_end_lpfonly
+sfx_CEO_barrier_start
+
+### RTPC/GAME-VARIABLE NAMES (BossCEO_BGM.bnk)
+CEO_timer_distance
+mayday_coi_active
+playback_speed
+song_filter
+zuke_coi_active
+
+### VARIABLE NAMES (BossCEO_BGM.bnk)
+BossPhase
+TimerCountdown
+TimerSpeed
+# 1424066621
+# 2879877845
+# 4009442344
+
+### VALUE NAMES (BossCEO_BGM.bnk)
+active
+fast
+inactive
+Intro
+normal
+Phase0
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase3T4
+Phase4
+# 3412247199
+# 2464701083
+# 2697538029
+# 1904455303
+# 805891511
+# 1472681651
+# 2281419013
+# 1012601896
+# 4197922652
+# 4057730130
+# 2342484810
+# 4057753081
+# 615533375
+# 2595741279
+# 1039102806
+
+### EVENT NAMES (BossCEO_SFX.bnk)
+sfx_CEO_barrier_end
+sfx_CEO_barrier_end_lpfonly
+sfx_CEO_barrier_start
+sfx_CEO_BattleEnd_dooropen
+sfx_CEO_BattleEnd_zukezoom
+sfx_CEO_clock_amb
+sfx_CEO_clock_amb_stop
+sfx_CEO_crown_damage
+sfx_CEO_end__tatiana_fly_crown
+sfx_CEO_end_crown_explode
+sfx_CEO_end_guitar_loop
+sfx_CEO_end_guitar_rise
+sfx_CEO_end_guitar_stop
+sfx_CEO_end_tatiana_fly_floor
+sfx_CEO_fire_loop
+sfx_CEO_footsteps
+sfx_ceo_fountain
+sfx_CEO_key_drop
+sfx_CEO_key_form
+sfx_ceo_key_pickup
+sfx_CEO_key_shoot
+sfx_CEO_kliff_footsteps
+sfx_CEO_lift_close
+sfx_CEO_lift_ding
+sfx_CEO_lift_open
+sfx_CEO_lift_stop
+sfx_CEO_lift_travel
+sfx_CEO_p1a_tableslam
+sfx_CEO_p1B_grab
+sfx_CEO_p1B_summon
+sfx_CEO_p2A_glass_shatter
+sfx_CEO_p2A_jumpback
+sfx_CEO_p2A_key_hit
+sfx_CEO_p2a_memories_01
+sfx_CEO_p2a_memories_02
+sfx_CEO_p2a_memories_03
+sfx_CEO_p2B_grab
+sfx_CEO_p2B_summon
+sfx_CEO_p3_molten
+sfx_CEO_p3A_stage_transform
+sfx_CEO_p4A_boom
+sfx_CEO_paperWork_attack
+sfx_CEO_paperWork_impact
+sfx_CEO_projectileHit
+sfx_CEO_projectileShoot
+sfx_CEO_projectileSpawn
+sfx_ceo_prop_charge
+sfx_ceo_prop_loudspeaker_in
+sfx_ceo_prop_loudspeaker_Lv1Death
+sfx_ceo_prop_loudspeaker_Lv2Death
+sfx_ceo_prop_loudspeaker_Lv3Death
+sfx_ceo_prop_musicPlayer_in
+sfx_ceo_prop_musicPlayer_Lv1Death
+sfx_ceo_prop_musicPlayer_Lv2Death
+sfx_ceo_prop_musicPlayer_Lv3Death
+sfx_ceo_special_b
+sfx_ceo_strafe
+sfx_CEO_warpAttack_strike
+sfx_CEO_warpAttack_strike_finish
+sfx_CEO_warpAttack_strike_hit
+sfx_CEO_whiteflash
+
+### SFX NAMES (BossCEO_SFX.bnk)
+Medium
+NSR_Limiter
+Room_Small
+
+### RTPC/GAME-VARIABLE NAMES (BossCEO_SFX.bnk)
+Master
+playback_speed
+SFX
+
+### VARIABLE NAMES (BossCEO_SFX.bnk)
+BossPhase
+ClockAmb
+level
+Mix
+
+### VALUE NAMES (BossCEO_SFX.bnk)
+inactive
+Intro
+Phase0
+Phase0T1
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase3T4
+Phase4
+Phase4T5
+Phase5
+Phase5T6
+Phase6
+
+### EVENT NAMES (BossCEO_VO.bnk)
+VO_09CEO_P1A_cineplay_010_Tatiana
+VO_09CEO_P1A_cineplay_020_Mayday
+VO_09CEO_P1A_cineplay_030_Tatiana
+VO_09CEO_P1A_cineplay_040_Mayday
+VO_09CEO_P1A_cineplay_050_Tatiana
+VO_09CEO_P1A_cineplay_060_Mayday
+VO_09CEO_P1A_cineplay_070_Tatiana
+VO_09CEO_P1A_cineplay_080_Mayday
+VO_09CEO_P1A_cineplay_090_Tatiana
+VO_09CEO_P1A_cineplay_100_Mayday
+VO_09CEO_P1A_cineplay_110_Tatiana
+VO_09CEO_P1A_cineplay_120_Mayday
+VO_09CEO_P1A_cineplay_130_Tatiana
+VO_09CEO_P1A_cineplay_140_Mayday
+VO_09CEO_P1A_cineplay_150_Tatiana
+VO_09CEO_P1A_cineplay_160_Mayday
+VO_09CEO_P1A_cineplay_170_Tatiana
+VO_09CEO_P1A_cineplay_180_Mayday
+VO_09CEO_P1A_game_010_Tatiana
+VO_09CEO_P1B_cineplay_010_Tatiana
+VO_09CEO_P1B_game_010_Mayday
+VO_09CEO_P1B_game_020_Tatiana
+VO_09CEO_P1B_game_030_Mayday
+VO_09CEO_P1B_game_040_Tatiana
+VO_09CEO_P1B_game_050_Zuke
+VO_09CEO_P2A_cineplay_010_Tatiana
+VO_09CEO_P2A_cineplay_020_Tatiana
+VO_09CEO_P2A_game_010_Tatiana
+VO_09CEO_P2B_cineplay_010_Tatiana
+VO_09CEO_P2B_game_010_Mayday
+VO_09CEO_P2B_game_020_Tatiana
+VO_09CEO_P2B_game_030_Mayday
+VO_09CEO_P2B_game_040_Tatiana
+VO_09CEO_P2B_game_050_Zuke
+VO_09CEO_P3A_cineplay_010_Tatiana
+VO_09CEO_P3A_cineplay_020_Tatiana
+VO_09CEO_P3A_game_010_Tatiana
+VO_09CEO_P3B_cineplay_010_Tatiana
+VO_09CEO_P3B_game_010_Tatiana
+VO_09CEO_P3B_game_020_Mayday
+VO_09CEO_P3B_game_030_Tatiana
+VO_09CEO_P3B_game_040_Mayday
+VO_09CEO_P3B_game_050_Mayday
+VO_09CEO_P4A_cineplay_010_Tatiana
+VO_09CEO_P4A_game_010_Tatiana
+VO_09CEO_P4B_cineplay_010_Tatiana
+VO_09CEO_P4B_game_010_Tatiana
+VO_09CEO_P4B_game_020_Mayday
+VO_09CEO_P4B_game_030_Tatiana
+VO_09CEO_P4B_game_040_Mayday
+VO_09CEO_SS_cine_010_Zuke
+VO_09CEO_SS_cine_020_Mayday
+VO_09CEO_SS_game_010_Mayday
+VO_09CEO_SS_game_020_Zuke
+VO_09CEO_SS_game_030_MaydayZuke
+VO_09CEO_Tatiana_Hit
+VO_09CEO_Tatiana_Strike
+VO_09CEO_Z_cine_010_Tatiana
+VO_09CEO_Z_cine_020_Tatiana
+VO_09CEO_Z_cine_030_Mayday
+VO_09CEO_Z_cine_040_Zuke
+VO_09CEO_Z_cine_050_Mayday
+VO_09CEO_Z_cine_060_Zuke
+VO_09CEO_Z_cine_070_Mayday
+VO_09CEO_Z_cine_080_Tatiana
+VO_09CEO_Z_cine_090_Mayday
+VO_09CEO_Z_cine_100_Tatiana
+VO_09CEO_Z_cine_110_Mayday
+VO_09CEO_Z_cine_120_Tatiana
+VO_09CEO_Z_cine_130_Mayday
+VO_09CEO_Z_cine_140_Zuke
+VO_09CEO_Z_cine_150_Tatiana
+VO_09CEO_Z_cine_160_Mayday
+VO_09CEO_Z_cine_170_Tatiana
+VO_09CEO_Z_cine_180_Mayday
+VO_09CEO_Z_cine_190_Tatiana
+VO_09CEO_Z_cine_200_Mayday
+VO_09CEO_Z_cine_210_Tatiana
+VO_09CEO_Z_cine_220_Mayday
+VO_09CEO_Z_cine_230_Tatiana
+VO_09CEO_Z_cine_240_Mayday
+VO_09CEO_Z_cine_250_Tatiana
+VO_09CEO_Z_cine_260_Mayday
+VO_09CEO_Z_cine_270_Zuke
+VO_09CEO_Z_cine_280_Mayday
+VO_09CEO_Z_cine_290_Tatiana
+VO_09CEO_Z_cine_300_Mayday
+VO_09CEO_Z_cine_310_Tatiana
+VO_09CEO_Z_cine_320_Mayday
+VO_09CEO_Z_cine_330_Tatiana
+VO_09CEO_Z_cine_340_Mayday
+VO_09CEO_Z_cine_350_Tatiana
+VO_09CEO_Z_cine_360_Mayday
+VO_09CEO_Z_cine_370_Tatiana
+VO_09CEO_Z_cine_380_Mayday
+VO_09CEO_Z_cine_390_Zuke
+VO_09CEO_Z_cine_400_Mayday
+VO_09CEO_Z_cine_410_Tatiana
+VO_09CEO_Z_cine_420_Mayday
+VO_09CEO_Z_cine_430_Zuke
+VO_09CEO_Z_cine_440_Kliff
+VO_09CEO_Z_cine_450_Kliff
+
+### RTPC/GAME-VARIABLE NAMES (BossCEO_VO.bnk)
+ceo_vox
+
+### EVENT NAMES (BossDJGalaxy_BGM.bnk)
+bgm_bossdjgalaxy
+bgm_bossdjgalaxy_end
+bgm_bossdjgalaxy_phase1
+bgm_bossdjgalaxy_phase1_skip
+bgm_bossdjgalaxy_phase3_test
+
+### SFX NAMES (BossDJGalaxy_BGM.bnk)
+bgm_djgalaxy_club_outside_filter
+bgm_djgalaxy_club_outside_reverb
+bgm_djgalaxy_tine_delay
+djgalaxy_axis_explosion_eq
+DJGalaxy_Character_Reverb
+djgalaxy_showstopper_vo_tremolo
+sfx_djgalaxy_laser_flanger
+Shockwave_Harmonizer
+
+### TRIGGER NAMES (BossDJGalaxy_BGM.bnk)
+DJG_Transition
+
+### RTPC/GAME-VARIABLE NAMES (BossDJGalaxy_BGM.bnk)
+dj_galaxy_club_filter
+djg_glass_break
+mayday_coi_active
+playback_speed
+song_filter
+zuke_coi_active
+
+### VARIABLE NAMES (BossDJGalaxy_BGM.bnk)
+AudioCue
+BossPhase
+Mix
+# 4009442344
+# 2879877845
+# 1424066621
+
+### VALUE NAMES (BossDJGalaxy_BGM.bnk)
+Battle
+Intro
+off
+Phase0
+Phase0T1
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase3T4
+Phase4
+# 1012601896
+# 4197922652
+# 4057730130
+# 2342484810
+# 805891511
+# 1472681651
+# 2281419013
+# 2595741279
+# 1904455303
+# 3412247199
+# 2464701083
+# 2697538029
+# 615533375
+# 1039102806
+# 4057753081
+
+### EVENT NAMES (BossDJGalaxy_BGM_remix.bnk)
+bgm_bossdjgalaxy
+bgm_bossdjgalaxy_end
+bgm_bossdjgalaxy_phase1
+bgm_bossdjgalaxy_phase1_skip
+bgm_bossdjgalaxy_phase3_test
+
+### SFX NAMES (BossDJGalaxy_BGM_remix.bnk)
+bgm_djgalaxy_club_outside_filter
+bgm_djgalaxy_club_outside_reverb
+bgm_djgalaxy_tine_delay
+djgalaxy_axis_explosion_eq
+DJGalaxy_Character_Reverb
+djgalaxy_showstopper_vo_tremolo
+sfx_djgalaxy_laser_flanger
+Shockwave_Harmonizer
+
+### TRIGGER NAMES (BossDJGalaxy_BGM_remix.bnk)
+DJG_Transition
+
+### RTPC/GAME-VARIABLE NAMES (BossDJGalaxy_BGM_remix.bnk)
+dj_galaxy_club_filter
+djg_glass_break
+mayday_coi_active
+playback_speed
+song_filter
+zuke_coi_active
+
+### VARIABLE NAMES (BossDJGalaxy_BGM_remix.bnk)
+AudioCue
+BossPhase
+Mix
+# 4009442344
+# 2879877845
+# 1424066621
+
+### VALUE NAMES (BossDJGalaxy_BGM_remix.bnk)
+Battle
+Intro
+off
+Phase0
+Phase0T1
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase3T4
+Phase4
+# 1012601896
+# 4197922652
+# 4057730130
+# 2342484810
+# 805891511
+# 1472681651
+# 2281419013
+# 2595741279
+# 1904455303
+# 3412247199
+# 2464701083
+# 2697538029
+# 615533375
+# 1039102806
+# 4057753081
+
+### EVENT NAMES (BossDJGalaxy_SFX.bnk)
+sfx_djgalaxy_asteroid_projectile
+sfx_djgalaxy_attack_asteroid_prep
+sfx_djgalaxy_attack_asteroid_slam
+sfx_djgalaxy_attack_axis_explosion
+sfx_djgalaxy_attack_axis_spin_down
+sfx_djgalaxy_attack_axis_spin_up
+sfx_djgalaxy_attack_blackhole_fly
+sfx_djgalaxy_attack_blackhole_loop
+sfx_djgalaxy_attack_blackhole_loop_stop
+sfx_djgalaxy_attack_cue
+sfx_djgalaxy_attack_grind
+sfx_djgalaxy_attack_jupiter
+sfx_djgalaxy_attack_jupiter_hostileloop
+sfx_djgalaxy_attack_laser_loop
+sfx_djgalaxy_attack_laser_loop_stop
+sfx_djgalaxy_attack_laser_shoot
+sfx_djgalaxy_attack_neptune
+sfx_djgalaxy_attack_neptune_hostileloop
+sfx_djgalaxy_attack_rotate
+sfx_djgalaxy_attack_saturn
+sfx_djgalaxy_attack_saturn_hostileloop
+sfx_djgalaxy_attack_scratch
+sfx_djgalaxy_attack_soundwave
+sfx_djgalaxy_attack_spin
+sfx_djgalaxy_attack_uranus
+sfx_djgalaxy_attack_uranus_hostileloop
+sfx_djgalaxy_BattleEnd_flicker
+sfx_djgalaxy_BattleEnd_raise
+sfx_djgalaxy_BattleEnd_star
+sfx_djgalaxy_BattleEnd_whoosh
+sfx_djgalaxy_blackhole_suck
+sfx_djgalaxy_console_button_press
+sfx_djgalaxy_crowd
+sfx_djgalaxy_damage
+sfx_djgalaxy_discoball_destroyed
+sfx_djgalaxy_discoball_hit
+sfx_djgalaxy_discoball_respawn
+sfx_djgalaxy_earth
+sfx_djgalaxy_floor_loop
+sfx_djgalaxy_floor_spin
+sfx_djgalaxy_floor_stop
+sfx_djgalaxy_glassbreak
+sfx_djgalaxy_jupiter
+sfx_djgalaxy_mars
+sfx_djgalaxy_mercury
+sfx_djgalaxy_neptune
+sfx_djgalaxy_p0_console_spin
+sfx_djgalaxy_p1s_bang_couch
+sfx_djgalaxy_p1s_club_entrance
+sfx_djgalaxy_p1s_console_spin
+sfx_djgalaxy_p1s_fold_arms
+sfx_djgalaxy_p1s_hand_up
+sfx_djgalaxy_p1s_hp_press
+sfx_djgalaxy_p1s_shocked
+sfx_djgalaxy_p1s_sit_back
+sfx_djgalaxy_p1s_slam_console
+sfx_djgalaxy_p1s_throw_hp
+sfx_djgalaxy_p1s_throw_icepop
+sfx_djgalaxy_p2s_console_crash
+sfx_djgalaxy_p2s_djss_lands
+sfx_djgalaxy_p2s_planetarium_open_djss_grows
+sfx_djgalaxy_p3s_earth_grab
+sfx_djgalaxy_p3s_finger_descend
+sfx_djgalaxy_p3s_helmet_cracks
+sfx_djgalaxy_p4_shatter
+sfx_djgalaxy_p4s_thrownback_sequence
+sfx_djgalaxy_planet_grind
+sfx_djgalaxy_planet_grind_02
+sfx_djgalaxy_planet_grind_spin
+sfx_djgalaxy_planet_lightup_sweep
+sfx_djgalaxy_planet_lightup_tine
+sfx_djgalaxy_planet_lightup_tine_shockwave
+sfx_djgalaxy_planet_stoploop
+sfx_djgalaxy_probe_charging
+sfx_djgalaxy_probe_spawn
+sfx_djgalaxy_probe_transform
+sfx_djgalaxy_rocket_hit
+sfx_djgalaxy_rocket_launch
+sfx_djgalaxy_rocket_spawn
+sfx_djgalaxy_saturn
+sfx_djgalaxy_threadmill_player
+sfx_djgalaxy_threadmill_spawn
+sfx_djgalaxy_treadmill_hit
+sfx_djgalaxy_treadmill_planet
+sfx_djgalaxy_uranus
+sfx_djgalaxy_venus
+
+### SFX NAMES (BossDJGalaxy_SFX.bnk)
+Hall_Conversation
+Hall_Medium_Dark
+Many_Odd_Harm_Notches
+NSR_Limiter
+Octave_Up
+sfx_djgalaxy_laser_flanger
+Shockwave_Harmonizer
+Very_Slow_Modulation
+
+### RTPC/GAME-VARIABLE NAMES (BossDJGalaxy_SFX.bnk)
+djg_orbital_rotate
+djg_shockwave
+djg_spin_speed
+Master
+playback_speed
+SFX
+song_tremolo
+
+### VARIABLE NAMES (BossDJGalaxy_SFX.bnk)
+BossPhase
+DJGalaxyState
+level
+Mix
+
+### VALUE NAMES (BossDJGalaxy_SFX.bnk)
+Comet
+Intro
+normal
+Phase0
+Phase0T1
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase3T4
+Phase4
+Phase4T5
+Phase5
+Phase5T6
+Phase6
+
+### EVENT NAMES (BossDJGalaxy_VO.bnk)
+General00_Show_010_Mayday
+General00_Show_020_Zuke
+General00_Show_030_MaydayZuke
+VO_04DGX_BattleEnd_020_Mayday
+VO_04DGX_BattleEnd_021_Mayday
+VO_04DGX_Cine_020_Mayday
+VO_04DGX_Cine_030_Tatiana
+VO_04DGX_Cine_040_Mayday
+VO_04DGX_Cine_050_Tatiana
+VO_04DGX_Cine_060_Mayday
+VO_04DGX_Cine_070_Tatiana
+VO_04DGX_Cine_080_Mayday
+VO_04DGX_Cine_090_Zuke
+VO_04DGX_Cine_100_Mayday
+VO_04DGX_Cine_110_Tatiana
+VO_04DGX_Cine_120_Mayday
+VO_04DGX_Cine_130_Tatiana
+VO_04DGX_Cine_140_Mayday
+VO_04DGX_Cine_150_Tatiana
+VO_04DGX_Cine_160_Mayday
+VO_04DGX_Cine_170_Mayday
+VO_04DGX_Cine_180_Zuke
+VO_04DGX_Cine_190_Mayday
+VO_04DGX_Cine_200_Zuke
+VO_04DGX_Cine_210_Mayday
+VO_04DGX_Cine_220_Zuke
+VO_04DGX_Cine_230_Mayday
+VO_04DGX_Cine_240_Zuke
+VO_04DGX_Cine_250_Mayday
+VO_04DGX_Cine_260_Zuke
+VO_04DGX_Cine_270_Mayday
+VO_04DGX_P1_010_DJGalaxy
+VO_04DGX_P1_020_Zuke
+VO_04DGX_P1Start_010_DJGalaxy
+VO_04DGX_P1Start_011_DJGalaxy
+VO_04DGX_P1Start_012_DJGalaxy
+VO_04DGX_P1Start_013_DJGalaxy
+VO_04DGX_P1Start_014_DJGalaxy
+VO_04DGX_P1Start_015_DJGalaxy
+VO_04DGX_P1Start_016_DJGalaxy
+VO_04DGX_P1Start_020_Mayday
+VO_04DGX_P1Start_030_DJGalaxy
+VO_04DGX_P1Start_040_Mayday
+VO_04DGX_P1Start_041_Mayday
+VO_04DGX_P1Start_050_DJGalaxy
+VO_04DGX_P1Start_060_Mayday
+VO_04DGX_P1Start_061_Mayday
+VO_04DGX_P1Start_062_Mayday
+VO_04DGX_P1Start_063_Mayday
+VO_04DGX_P1Start_070_DJGalaxy
+VO_04DGX_P1Start_080_Mayday
+VO_04DGX_P1Start_081_Mayday
+VO_04DGX_P1Start_090_Zuke
+VO_04DGX_P1Start_100_DJGalaxy
+VO_04DGX_P1Start_110_Mayday
+VO_04DGX_P1Start_110alt_Mayday
+VO_04DGX_P1Start_120_DJGalaxy
+VO_04DGX_P2_010_DJGalaxy
+VO_04DGX_P2_020_Mayday
+VO_04DGX_P2_cine_001_DJGalaxy
+VO_04DGX_P2Start_010_Mayday
+VO_04DGX_P2Start_020_DJGalaxy
+VO_04DGX_P2Start_030_DJGalaxy
+VO_04DGX_P3_010_DJGalaxy
+VO_04DGX_P3Start_010_DJGalaxy
+VO_04DGX_P3Start_030_DJGalaxy
+VO_04DGX_P3Start_040_Mayday
+VO_04DGX_P3Start_050_DJGalaxy
+VO_04DGX_P3Start_060_Zuke
+VO_04DGX_P3Start_070_Zuke
+VO_04DGX_P4_cine_001_DJGalaxy
+VO_04DGX_P4_game_010_Zuke
+VO_04DGX_P4_game_020_Mayday
+VO_04DGX_P4_game_030_Zuke
+VO_04DGX_P4_game_040_Mayday
+VO_04DGX_P4_game_050_Zuke
+VO_04DGX_P4Start_010_DJGalaxy
+VO_04DGX_P4Start_020_DJGalaxy
+VO_04DGX_P4Start_021_DJGalaxy
+VO_04DGX_ShowStart_010_Zuke
+VO_04DGX_ShowStart_020_Mayday
+VO_04DGX_SS_010_Mayday
+VO_04DGX_SS_020_Zuke
+VO_04DGX_SS_030_MaydayZuke
+VO_04DGX_SS_cine_010_Zuke
+VO_04DGX_SS_cine_020_Mayday
+VO_04DGX_SS_game_030_Mayday
+VO_04DGX_SS_game_030_Zuke
+VO_04DGX_Z_cine_010_DJGalaxy
+vo_boss2_djg_asteroid
+vo_boss2_djg_axis
+vo_boss2_djg_rocket_hit
+vo_djgalaxy_hit
+vo_djgalaxy_strike
+
+### VARIABLE NAMES (BossDJGalaxy_VO.bnk)
+BossPhase
+Mix
+
+### VALUE NAMES (BossDJGalaxy_VO.bnk)
+Battle
+Cutscene
+Intro
+Phase0
+Phase0T1
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase3T4
+Phase4
+Phase4T5
+Phase5
+Phase5T6
+Phase6
+
+### EVENT NAMES (BossDKW_BGM.bnk)
+bgm_bossdkw
+bgm_bossdkw_end
+
+### VARIABLE NAMES (BossDKW_BGM.bnk)
+BossPhase
+
+### VALUE NAMES (BossDKW_BGM.bnk)
+Intro
+Phase0
+Phase1
+Phase2
+Phase3
+
+### EVENT NAMES (BossDKW_Lyrics.bnk)
+VO_11DKW_CHORUS_combinedlyrics_010_Fans
+VO_11DKW_CHORUS_combinedlyrics_020_Fans
+VO_11DKW_RAP1_P1_combinedlyrics_010_DKWest
+VO_11DKW_RAP1_P2_combinedlyrics_010_Zuke
+VO_11DKW_RAP1_P3_combinedlyrics_010_DKWest
+VO_11DKW_RAP1_P4_combinedlyrics_010_Zuke
+VO_11DKW_RAP1_P5_combinedlyrics_010_DKWest
+VO_11DKW_RAP1_P6_combinedlyrics_010_Zuke
+VO_11DKW_RAP1_P7_combinedlyrics_010_DKWest
+VO_11DKW_RAP1_P8_combinedlyrics_010_Zuke
+VO_11DKW_RAP2_P10_combinedlyrics_010_Zuke
+VO_11DKW_RAP2_P11_combinedlyrics_010_DKWest
+VO_11DKW_RAP2_P12_combinedlyrics_010_Zuke
+VO_11DKW_RAP2_P1_combinedlyrics_010_DKWest
+VO_11DKW_RAP2_P2_combinedlyrics_010_Zuke
+VO_11DKW_RAP2_P3_combinedlyrics_010_DKWest
+VO_11DKW_RAP2_P4_combinedlyrics_010_Zuke
+VO_11DKW_RAP2_P5_combinedlyrics_010_DKWest
+VO_11DKW_RAP2_P6_combinedlyrics_010_Zuke
+VO_11DKW_RAP2_P7_combinedlyrics_010_DKWest
+VO_11DKW_RAP2_P8_combinedlyrics_010_Zuke
+VO_11DKW_RAP2_P9_combinedlyrics_010_DKWest
+VO_11DKW_RAP3_P10_combinedlyrics_010_Zuke
+VO_11DKW_RAP3_P11_combinedlyrics_010_DKWest
+VO_11DKW_RAP3_P12_combinedlyrics_010_Zuke
+VO_11DKW_RAP3_P1_combinedlyrics_010_DKWest
+VO_11DKW_RAP3_P2_combinedlyrics_010_Mayday
+VO_11DKW_RAP3_P3_combinedlyrics_010_DKWest
+VO_11DKW_RAP3_P4_combinedlyrics_010_Mayday
+VO_11DKW_RAP3_P5_combinedlyrics_010_DKWest
+VO_11DKW_RAP3_P6_combinedlyrics_010_Mayday
+VO_11DKW_RAP3_P7_combinedlyrics_010_DKWest
+VO_11DKW_RAP3_P8_combinedlyrics_010_Zuke
+VO_11DKW_RAP3_P9_combinedlyrics_010_DKWest
+
+### VARIABLE NAMES (BossDKW_Lyrics.bnk)
+DKWVoice
+
+### VALUE NAMES (BossDKW_Lyrics.bnk)
+inactive
+
+### EVENT NAMES (BossDKW_SFX.bnk)
+amb_dkw_market_loop
+amb_dkw_market_stop
+sfx_dkw_action_big
+sfx_dkw_action_small
+sfx_dkw_footstep_concrete
+sfx_dkw_footstep_wood
+sfx_dkw_hug
+sfx_dkw_p1_hit
+sfx_dkw_p1_travel
+sfx_dkw_p2_appear
+sfx_dkw_p2_hit
+sfx_dkw_p2_light
+sfx_dkw_p2_travel
+sfx_dkw_sedan_pickup
+sfx_dkw_sedan_travel
+sfx_dkw_shadow_death
+sfx_dkw_shadow_intro
+sfx_dkw_shadow_outro
+sfx_dkw_stomp
+sfx_dkw_tape_loop
+sfx_dkw_tape_press
+sfx_dkw_tape_stop
+sfx_dkw_tape_takeout
+sfx_dkw_whip
+sfx_dkw_whoosh_01
+sfx_dkw_whoosh_02
+sfx_dkw_whoosh_03
+sfx_dkw_whoosh_04
+
+### EVENT NAMES (BossDKW_VO.bnk)
+VO_11DKW1_A_game_010_Zuke
+VO_11DKW1_A_game_020_Mayday
+VO_11DKW1_A_game_030_Zuke
+VO_11DKW1_A_game_040_Mayday
+VO_11DKW1_A_game_050_DKWest
+VO_11DKW1_A_game_060_Zuke
+VO_11DKW1_P1A_cineplay_010_DKWest
+VO_11DKW1_P1A_cineplay_020_Zuke
+VO_11DKW1_P1A_cineplay_030_DKWest
+VO_11DKW1_P1A_cineplay_031_DKWest
+VO_11DKW1_P1A_cineplay_040_Zuke
+VO_11DKW1_P1A_cineplay_050_DKWest
+VO_11DKW1_P1A_cineplay_051_DKWest
+VO_11DKW1_P1A_cineplay_060_Mayday
+VO_11DKW1_P1A_cineplay_061_Mayday
+VO_11DKW1_P1A_cineplay_070_Zuke
+VO_11DKW1_P1A_cineplay_080_Mayday
+VO_11DKW1_P1A_cineplay_081_Mayday
+VO_11DKW1_P1A_cineplay_090_Zuke
+VO_11DKW1_P1A_cineplay_100_DKWest
+VO_11DKW1_P1A_cineplay_110_Zuke
+VO_11DKW1_P1A_cineplay_111_Zuke
+VO_11DKW1_P1A_cineplay_120_DKWest
+VO_11DKW1_P1A_cineplay_130_Zuke
+VO_11DKW1_P1A_cineplay_140_DKWest
+VO_11DKW1_P1A_cineplay_141_DKWest
+VO_11DKW1_P1A_cineplay_150_Zuke
+VO_11DKW1_P1A_cineplay_160_DKWest
+VO_11DKW1_P1A_cineplay_170_Zuke
+VO_11DKW1_P1A_cineplay_180_DKWest
+VO_11DKW1_Z_cine_010_DKWest
+VO_11DKW1_Z_cine_020_Zuke
+VO_11DKW1_Z_cine_030_DKWest
+VO_11DKW1_Z_cine_031_DKWest
+VO_11DKW1_Z_cine_040_Zuke
+VO_11DKW1_Z_cine_041_Zuke
+VO_11DKW1_Z_cine_050_Mayday
+VO_11DKW1_Z_cine_060_Zuke
+VO_11DKW1_Z_cine_070_Bull
+VO_11DKW2_A_game_010_Zuke
+VO_11DKW2_A_game_020_Mayday
+VO_11DKW2_A_game_030_Zuke
+VO_11DKW2_P1A_cineplay_010_DKWest
+VO_11DKW2_P1A_cineplay_020_Zuke
+VO_11DKW2_P1A_cineplay_030_DKWest
+VO_11DKW2_P1A_cineplay_040_Zuke
+VO_11DKW2_P1A_cineplay_050_Mayday
+VO_11DKW2_P1A_cineplay_060_Zuke
+VO_11DKW2_P1A_cineplay_070_DKWest
+VO_11DKW2_P1A_cineplay_071_DKWest
+VO_11DKW2_P1A_cineplay_080_Zuke
+VO_11DKW2_P1A_cineplay_090_DKWest
+VO_11DKW2_P1A_cineplay_100_Zuke
+VO_11DKW2_Z_cine_010_DKWest
+VO_11DKW2_Z_cine_011_DKWest
+VO_11DKW2_Z_cine_020_DKWest
+VO_11DKW2_Z_cine_030_Zuke
+VO_11DKW2_Z_cine_040_Mayday
+VO_11DKW2_Z_cine_050_Zuke
+VO_11DKW2_Z_cine_060_Mayday
+VO_11DKW2_Z_cine_070_Zuke
+VO_11DKW2_Z_cine_080_Mayday
+VO_11DKW3_A_game_010_Zuke
+VO_11DKW3_A_game_020_Mayday
+VO_11DKW3_A_game_030_Zuke
+VO_11DKW3_P1A_cineplay_010_DKWest
+VO_11DKW3_P1A_cineplay_020_Zuke
+VO_11DKW3_P1A_cineplay_030_DKWest
+VO_11DKW3_P1A_cineplay_040_Zuke
+VO_11DKW3_P1A_cineplay_041_Zuke
+VO_11DKW3_P1A_cineplay_050_DKWest
+VO_11DKW3_P1A_cineplay_060_Zuke
+VO_11DKW3_P1A_cineplay_061_Zuke
+VO_11DKW3_P1A_cineplay_070_Mayday
+VO_11DKW3_P1A_cineplay_080_DKWest
+VO_11DKW3_P1A_cineplay_100_DKWest
+VO_11DKW3_P1A_cineplay_110_Zuke
+VO_11DKW3_P1A_cineplay_120_DKWest
+VO_11DKW3_P1A_cineplay_140_DKWest
+VO_11DKW3_P1A_cineplay_150_Zuke
+VO_11DKW3_P1A_cineplay_151_Zuke
+VO_11DKW3_P1A_cineplay_160_Mayday
+VO_11DKW3_P1A_cineplay_170_Zuke
+VO_11DKW3_P1A_cineplay_180_DKWest
+VO_11DKW3_P1A_cineplay_181_DKWest
+VO_11DKW3_P1A_cineplay_190_Mayday
+VO_11DKW3_P1A_cineplay_200_DKWest
+VO_11DKW3_Z_cine_010_DKWest
+VO_11DKW3_Z_cine_020_Zuke
+VO_11DKW3_Z_cine_030_DKWest
+VO_11DKW3_Z_cine_040_Zuke
+VO_11DKW3_Z_cine_050_DKWest
+VO_11DKW3_Z_cine_060_Zuke
+VO_11DKW3_Z_cine_070_DKWest
+VO_11DKW3_Z_cine_080_Zuke
+VO_11DKW3_Z_cine_090_DKWest
+VO_11DKW3_Z_cine_100_Zuke
+VO_11DKW3_Z_cine_110_DKWest
+VO_11DKW3_Z_cine_111_DKWest
+VO_11DKW3_Z_cine_120_Zuke
+VO_11DKW3_Z_cine_130_DKWest
+VO_11DKW3_Z_cine_150_DKWest
+VO_11DKW3_Z_cine_160_DKWest
+VO_11DKW3_Z_cine_161_DKWest
+VO_11DKW3_Z_cine_170_Mayday
+VO_11DKW3_Z_cine_180_DKWest
+VO_11DKW3_Z_cine_190_Zuke
+VO_11DKW3_Z_cine_200_Mayday
+VO_11DKW3_Z_cine_201_Mayday
+VO_11DKW_DKWest_defeat
+VO_11DKW_DKWest_hit
+VO_11DKW_DKWest_strike
+VO_11DKW_DKWest_win
+
+### EVENT NAMES (BossDigitalIdol_BGM.bnk)
+bgm_bossdigitalidol_phase1
+bgm_di_end
+bgm_di_theme
+bgm_di_theme_stop
+bgm_idol_p1_melody
+bgm_idol_p1_melody_stop
+bgm_idol_p3_melody
+bgm_idol_p4_melody
+bgm_idol_p5_melody
+bgm_idol_p6_melody
+
+### RTPC/GAME-VARIABLE NAMES (BossDigitalIdol_BGM.bnk)
+mayday_coi_active
+playback_speed
+song_filter
+sweep_filter
+zuke_coi_active
+
+### VARIABLE NAMES (BossDigitalIdol_BGM.bnk)
+AudioCue
+BossPhase
+DigitalIdolChanting
+DigitalIdolLyrics
+DigitalIdolState
+Mix
+# 4009442344
+# 1424066621
+# 2879877845
+
+### VALUE NAMES (BossDigitalIdol_BGM.bnk)
+Battle
+Cutscene
+off
+Otaku_Room
+Phase0
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase3T4
+Phase4
+Phase4T5
+Phase5
+Phase5T6
+Phase6
+# 1012601896
+# 4197922652
+# 4057730130
+# 2342484810
+# 4057753081
+# 3412247199
+# 2464701083
+# 1904455303
+# 2697538029
+# 615533375
+# 805891511
+# 1472681651
+# 2595741279
+# 2281419013
+# 1039102806
+
+### EVENT NAMES (BossDigitalIdol_Lyrics.bnk)
+bgm_idol_p1_melody
+bgm_idol_p1_melody_stop
+bgm_idol_p3_melody
+bgm_idol_p4_melody
+bgm_idol_p5_melody
+bgm_idol_p6_melody
+
+### RTPC/GAME-VARIABLE NAMES (BossDigitalIdol_Lyrics.bnk)
+mayday_coi_active
+
+### VARIABLE NAMES (BossDigitalIdol_Lyrics.bnk)
+DigitalIdolLyrics
+Mix
+
+### VALUE NAMES (BossDigitalIdol_Lyrics.bnk)
+Cutscene
+off
+
+### EVENT NAMES (BossDigitalIdol_SFX.bnk)
+amb_di_bubbles
+amb_di_bubbles_stop
+DI_cine_P01_01
+DI_cine_P01_02
+DI_cine_P01_03
+DI_cine_P01_04
+DI_cine_P01_05
+DI_cine_P01_06
+DI_cine_P01_07
+DI_cine_P01_08
+DI_cine_P01_09
+DI_cine_P01_10
+DI_cine_P01_11
+DI_cine_P01_12
+DI_cine_P01_13
+DI_cine_P01_14
+DI_cine_P01_15
+DI_cine_P01_16
+DI_cine_P01_17
+DI_cine_P01_18
+DI_cine_P01_19
+DI_cine_P01_19b
+DI_cine_P01_20
+DI_cine_P01_21
+DI_cine_P01_22
+DI_cine_P01_23
+DI_cine_P01_24
+DI_cine_P01_25
+DI_cine_P01_26
+DI_cine_P01_27
+DI_cine_P01_28
+DI_cine_P01_29
+DI_cine_P01_30
+DI_cine_P01_31
+DI_P02_OtakuRoom_Active
+DI_P02_OtakuRoom_Inactive
+DI_P03_OtakuRoom_Active
+DI_P03_OtakuRoom_Inactive
+sfx_di_battleEnd_clothFoley_01
+sfx_di_battleEnd_clothFoley_02
+sfx_di_battleEnd_crash
+sfx_di_battleEnd_door
+sfx_di_battleEnd_fall
+sfx_di_battleEnd_finisher
+sfx_di_battleEnd_handGrab
+sfx_di_battleEnd_jump
+sfx_di_battleEnd_otakuRoomEnter
+sfx_di_battleEnd_otakuScramble
+sfx_di_battleEnd_pull
+sfx_di_battleEnd_riser
+sfx_di_battleEnd_spin
+sfx_di_battleEnd_throw
+sfx_di_chair_movement
+sfx_di_chopKick
+sfx_di_cine_periscope_end
+sfx_di_cine_periscope_move_01
+sfx_di_cine_periscope_move_02
+sfx_di_cine_stylus
+sfx_di_cine_tableSlam
+sfx_di_eel_attack
+sfx_di_eel_loopEnd
+sfx_di_eel_loopStart
+sfx_di_fallen
+sfx_di_glitch_01
+sfx_di_glitch_02
+sfx_di_glitch_03
+sfx_di_glitch_04
+sfx_di_glitch_05
+sfx_di_glitch_06
+sfx_di_glitch_07
+sfx_di_glitch_08
+sfx_di_glitch_09
+sfx_di_glitch_10
+sfx_di_jellyfish_move
+sfx_di_keyboard_mouse
+sfx_di_kick_end
+sfx_di_kick_explode
+sfx_di_kick_spit
+sfx_di_kick_start
+sfx_di_kick_warning
+sfx_di_lazer_charging
+sfx_di_lazer_explosion
+sfx_di_lazerFire
+sfx_di_lazerStart
+sfx_di_module_destroy
+sfx_di_module_hit
+sfx_di_module_shield_down
+sfx_di_mouseClick
+sfx_di_mouseDrag
+sfx_di_OtakuCrowd_ARE_YOU_READY
+sfx_di_otakuRoom_amb
+sfx_di_p2_swimAway
+sfx_di_p2_transform
+sfx_di_p4_lazer_buildup
+sfx_di_p4_lazerAttack
+sfx_di_p4_lazerCharge
+sfx_di_p4_sayuGlitch
+sfx_di_p4_sayuSwimAway
+sfx_di_p4_transform
+sfx_di_p5_otaku_chaos
+sfx_di_p5_sayuGlitch_01
+sfx_di_p5_sayuGlitch_02
+sfx_di_p5_sayuGlitch_03
+sfx_di_p5_sayuGlitch_04
+sfx_di_p5_sequence
+sfx_di_p6_groupPose
+sfx_di_p6_otakuRoom
+sfx_di_p6_woosh_01
+sfx_di_p6_woosh_02
+sfx_di_p6_woosh_03
+sfx_di_pathway_cut
+sfx_di_pathway_start
+sfx_di_pathway_stop
+sfx_di_pen_shoot
+sfx_di_prop_pufferfish
+sfx_di_prop_pufferfish_shoot
+sfx_di_prop_shell_loop_end
+sfx_di_prop_shell_start
+sfx_di_prop_transform_complete
+sfx_di_prop_transform_coral
+sfx_di_prop_transform_file
+sfx_di_prop_transform_start
+sfx_di_prop_transform_stop
+sfx_di_retrojump_in
+sfx_di_sofa_head_up
+sfx_di_sofa_table_slam
+sfx_di_swordfish_attack
+sfx_di_swordfish_dash_attack
+sfx_di_swordfish_falling
+sfx_di_swordfish_final
+sfx_di_swordfish_ground
+sfx_di_swordfish_spin_attack
+sfx_di_swordfish_spin_endBeep
+sfx_di_swordfish_spin_loop
+sfx_di_swordfish_spin_warning
+sfx_di_table_hits
+sfx_di_trident_entry
+sfx_di_trident_pierce
+sfx_di_trident_spin
+sfx_di_trident_sweep
+sfx_di_wink
+sfx_di_zoomout
+sfx_FIN_shield_disruptor
+sfx_otaku_athlete_button
+sfx_otaku_paintbrush_button
+sfx_otaku_videoReel_button
+sfx_otaku_vocals_button
+
+### SFX NAMES (BossDigitalIdol_SFX.bnk)
+Dialog_Leveler_Hard
+
+### RTPC/GAME-VARIABLE NAMES (BossDigitalIdol_SFX.bnk)
+railing_pitch
+
+### VARIABLE NAMES (BossDigitalIdol_SFX.bnk)
+DigitalIdolState
+Mix
+
+### VALUE NAMES (BossDigitalIdol_SFX.bnk)
+Battle
+normal
+Otaku_Room
+
+### EVENT NAMES (BossDigitalIdol_VO.bnk)
+bgm_di_theme
+bgm_idol_p1_melody
+bgm_idol_p1_melody_stop
+bgm_idol_p3_melody
+bgm_idol_p4_melody
+bgm_idol_p5_melody
+bgm_idol_p6_melody
+VO_05DGL_action_chatter
+VO_05DGL_action_hit
+VO_05DGL_action_strikes
+VO_05DGL_P1_cine_010_Mayday
+VO_05DGL_P1_cine_020_Sayu
+VO_05DGL_P1_cine_030_Mayday
+VO_05DGL_P1_cine_040_Zuke
+VO_05DGL_P1_cine_050_Mayday
+VO_05DGL_P1_cine_060_Sayu
+VO_05DGL_P1_cine_070_Mayday
+VO_05DGL_P1_cine_080_Zuke
+VO_05DGL_P1_cine_090_Sayu
+VO_05DGL_P1_cine_100_Zuke
+VO_05DGL_P1_cine_110_Sayu
+VO_05DGL_P1_cine_120_Zuke
+VO_05DGL_P1_cine_130_Mayday
+VO_05DGL_P1_cine_140_Sayu
+VO_05DGL_P2_cine_010_Mayday
+VO_05DGL_P2_cine_020_Sayu
+VO_05DGL_P2_cine_030_Remi
+VO_05DGL_P2_cine_030_Tila
+VO_05DGL_P2_cine_040_Mayday
+VO_05DGL_P2_cine_050_Sayu
+VO_05DGL_P2_cine_060_Mayday
+VO_05DGL_P2_game_010_Mayday
+VO_05DGL_P3_cine_001_Dodo
+VO_05DGL_P3_cine_001_Remi
+VO_05DGL_P3_cine_010_Mayday
+VO_05DGL_P3_cine_020_Sayu
+VO_05DGL_P3_game_010_Mayday
+VO_05DGL_P3_game_020_Zuke
+VO_05DGL_P3_game_030_Mayday
+VO_05DGL_P4A_cine_010_Sayu
+VO_05DGL_P4A_cine_011_Sofa
+VO_05DGL_P4A_game_010_Mayday
+VO_05DGL_P4A_game_020_Zuke
+VO_05DGL_P4B_cine_010_Mayday
+VO_05DGL_P4B_cine_020_Sayu
+VO_05DGL_P5_cine_001_Dodo
+VO_05DGL_P5_cine_001_Remi
+VO_05DGL_P5_cine_001_Sofa
+VO_05DGL_P5_cine_001_Tila
+VO_05DGL_P5_cine_010_Sayu
+VO_05DGL_P5_cine_020_Mayday
+VO_05DGL_P5_cine_030_Sayu
+VO_05DGL_P5_game_010_Zuke
+VO_05DGL_P5_game_020_Mayday
+VO_05DGL_P5_game_030_Zuke
+VO_05DGL_P6_cine_001_Dodo
+VO_05DGL_P6_cine_001_Remi
+VO_05DGL_P6_cine_001_Sofa
+VO_05DGL_P6_cine_001_Tila
+VO_05DGL_P6_cine_010_Sayu
+VO_05DGL_P6_cine_020_Mayday
+VO_05DGL_P6_cine_030_Zuke
+VO_05DGL_P6_game_010_Sayu
+VO_05DGL_P6_game_020_Mayday
+VO_05DGL_SS_cine_010_Zuke
+VO_05DGL_SS_cine_020_Mayday
+VO_05DGL_SS_game_010_Mayday
+VO_05DGL_SS_game_020_Zuke
+VO_05DGL_SS_game_030_Mayday
+VO_05DGL_SS_game_030_MaydayZuke
+VO_05DGL_SS_game_030_Zuke
+VO_05DGL_Z_cine_010_Sayu
+VO_05DGL_Z_cine_020_Mayday
+VO_05DGL_Z_cine_030_Zuke
+VO_05DGL_Z_cine_040_Dodo
+VO_05DGL_Z_cine_040_Remi
+VO_05DGL_Z_cine_040_Sofa
+VO_05DGL_Z_cine_040_Tila
+VO_05DGL_Z_cine_050_Mayday
+VO_05DGL_Z_cine_051_Mayday
+VO_05DGL_Z_cine_055_Dodo
+VO_05DGL_Z_cine_055_Remi
+VO_05DGL_Z_cine_055_Sofa
+VO_05DGL_Z_cine_055_Tila
+VO_05DGL_Z_cine_060_Mayday
+VO_05DGL_Z_cine_070_Mayday
+VO_05DGL_Z_cine_080_Mayday
+VO_05DGL_Z_cine_090_Zuke
+VO_05DGL_Z_cine_100_Mayday
+VO_05DGL_Z_cine_110_Mayday
+VO_05DGL_Z_cine_120_Zuke
+
+### SFX NAMES (BossDigitalIdol_VO.bnk)
+Chorus_Like
+DI_PitchShifter
+
+### RTPC/GAME-VARIABLE NAMES (BossDigitalIdol_VO.bnk)
+mayday_coi_active
+sayu_vox
+
+### VARIABLE NAMES (BossDigitalIdol_VO.bnk)
+DigitalIdolLyrics
+Mix
+
+### VALUE NAMES (BossDigitalIdol_VO.bnk)
+Cutscene
+off
+
+### EVENT NAMES (BossDiva_BGM.bnk)
+bgm_bossdiva
+bgm_bossdiva_end
+bgm_bossdiva_stop
+
+### SFX NAMES (BossDiva_BGM.bnk)
+Dual_Filters_Radio_Comm
+Few_Odd_Harm_Notches
+
+### RTPC/GAME-VARIABLE NAMES (BossDiva_BGM.bnk)
+diva_change
+diva_warning
+mayday_coi_active
+zuke_coi_active
+
+### VARIABLE NAMES (BossDiva_BGM.bnk)
+BossPhase
+# 1424066621
+# 4009442344
+# 2879877845
+
+### VALUE NAMES (BossDiva_BGM.bnk)
+Phase0
+Phase1
+Phase2
+Phase3
+Phase4
+# 3412247199
+# 2464701083
+# 1904455303
+# 2697538029
+# 615533375
+# 4263343726
+# 1012601896
+# 4197922652
+# 4057730130
+# 2342484810
+# 4057753081
+# 805891511
+# 1472681651
+# 2595741279
+# 2281419013
+# 1039102806
+
+### EVENT NAMES (BossDiva_SFX.bnk)
+amb_diva_room
+amb_diva_room_stop
+sfx_diva_attack_lazer_charge
+sfx_diva_attack_lazer_fire
+sfx_diva_attack_lazer_stop
+sfx_diva_char_switch
+sfx_diva_clone_attack
+sfx_diva_clone_death
+sfx_diva_clone_hurt
+sfx_diva_clone_spawn
+sfx_diva_dance_enter
+sfx_diva_dance_exit
+sfx_diva_eye_attack_close
+sfx_diva_eye_attack_lazer
+sfx_diva_eye_attack_open
+sfx_diva_eye_attack_slap
+sfx_diva_eye_light_off
+sfx_diva_eye_light_on
+sfx_diva_eyesOpen
+sfx_diva_fist_attack
+sfx_diva_foley_footstep_walk
+sfx_diva_foot_attack
+sfx_diva_grabhand
+sfx_diva_hair_fail
+sfx_diva_hair_success
+sfx_diva_mirror_break
+sfx_diva_mirror_hit
+sfx_diva_nails_attack
+sfx_diva_p1_chairturn
+sfx_diva_p1_distort
+sfx_diva_p1_rise
+sfx_diva_p1_touchstatue
+sfx_diva_p2_hands
+sfx_diva_p2_redRoom
+sfx_diva_p2_whiteRoom
+sfx_diva_p2_zoomOut
+sfx_diva_p3a_bump
+sfx_diva_p3a_handgrow
+sfx_diva_p3a_push
+sfx_diva_p3a_zoomout
+sfx_diva_p3b_divaFall
+sfx_diva_p3b_divaHit
+sfx_diva_p3b_divaShocked
+sfx_diva_p3b_eveSlide
+sfx_diva_p3b_footStomp
+sfx_diva_p3b_point
+sfx_diva_p3b_slowdown
+sfx_diva_p3b_vortex
+sfx_diva_p3b_vortex_diva
+sfx_diva_p3b_vortex_zuke
+sfx_diva_p4_whiteRoom
+sfx_diva_p4_whiteRoom_stop
+sfx_diva_prop_catapult_throw
+sfx_diva_prop_clone
+sfx_diva_prop_clone_attack
+sfx_diva_prop_clone_death
+sfx_diva_prop_shotgun_shoot1
+sfx_diva_prop_shotgun_shoot2
+sfx_diva_prop_shotgun_shoot3
+sfx_diva_room_extend
+sfx_diva_side_attack
+sfx_diva_slam_attack
+sfx_diva_white_flash
+
+### SFX NAMES (BossDiva_SFX.bnk)
+Medium
+NSR_Limiter
+
+### RTPC/GAME-VARIABLE NAMES (BossDiva_SFX.bnk)
+BossPlayerDist
+Master
+playback_speed
+SFX
+
+### VARIABLE NAMES (BossDiva_SFX.bnk)
+BossPhase
+level
+Mix
+
+### VALUE NAMES (BossDiva_SFX.bnk)
+Cutscene
+Phase4
+
+### EVENT NAMES (BossDiva_VO.bnk)
+sfx_diva_prop_clone
+sfx_diva_prop_clone_attack
+sfx_diva_prop_clone_death
+VO_08DIV_Eve_Hurt
+VO_08DIV_Eve_Strike
+VO_08DIV_P1A_cine_010_Eve
+VO_08DIV_P1A_cine_020_Zuke
+VO_08DIV_P1A_cine_030_Eve
+VO_08DIV_P1A_cine_040_Zuke
+VO_08DIV_P1A_cine_050_Eve
+VO_08DIV_P1A_cine_051_Eve
+VO_08DIV_P1A_cine_060_Zuke
+VO_08DIV_P1A_cine_070_Eve
+VO_08DIV_P1A_cine_080_Zuke
+VO_08DIV_P1A_cine_090_Eve
+VO_08DIV_P1A_cine_100_Mayday
+VO_08DIV_P1A_cine_110_Zuke
+VO_08DIV_P1A_cine_120_Mayday
+VO_08DIV_P1A_cine_130_Eve
+VO_08DIV_P1A_cine_140_Mayday
+VO_08DIV_P1A_cine_150_Eve
+VO_08DIV_P1A_cine_160_Eve
+VO_08DIV_P1A_cine_170_Mayday
+VO_08DIV_P1A_cine_180_Eve
+VO_08DIV_P1B_game_010_Eve
+VO_08DIV_P1B_game_020_Mayday
+VO_08DIV_P2A_cine_010_Eve
+VO_08DIV_P2A_cine_011_Eve
+VO_08DIV_P2A_cine_020_Mayday
+VO_08DIV_P2A_cine_030_Zuke
+VO_08DIV_P2B_game_010_Eve
+VO_08DIV_P2B_game_020_Zuke
+VO_08DIV_P2B_game_030_Eve
+VO_08DIV_P3A_cine_001_Eve
+VO_08DIV_P3A_cine_010_Eve
+VO_08DIV_P3A_cine_020_Eve
+VO_08DIV_P3A_cine_030_Zuke
+VO_08DIV_P3A_cine_040_Eve
+VO_08DIV_P3A_game_010A_Eve
+VO_08DIV_P3A_game_010B_Eve
+VO_08DIV_P3A_game_010C_Eve
+VO_08DIV_P3A_game_010D_Eve
+VO_08DIV_P3A_game_010E_Eve
+VO_08DIV_P3B_game_010_Mayday
+VO_08DIV_P3B_game_020_Zuke
+VO_08DIV_P3B_game_030_Eve
+VO_08DIV_P3B_game_031_Eve
+VO_08DIV_P3B_game_040_Eve
+VO_08DIV_P3B_game_050_Mayday
+VO_08DIV_P4A_cineplay_010_Eve
+VO_08DIV_P4A_cineplay_020_Eve
+VO_08DIV_P4A_cineplay_021_Eve
+VO_08DIV_P4A_cineplay_030_Eve
+VO_08DIV_P4A_cineplay_040_Zuke
+VO_08DIV_P4A_cineplay_050_Mayday
+VO_08DIV_P4B_game_010_Eve
+VO_08DIV_P4B_game_020_Zuke
+VO_08DIV_P4B_game_030_Eve
+VO_08DIV_P4B_game_040_Zuke
+VO_08DIV_P4B_game_050_Eve
+VO_08DIV_P4B_game_060_Zuke
+VO_08DIV_P4B_game_070_Eve
+VO_08DIV_P4B_game_080_Zuke
+VO_08DIV_P4B_game_090_Eve
+VO_08DIV_P4B_game_100_Zuke
+VO_08DIV_P4B_game_110_Eve
+VO_08DIV_SS_cine_010_Zuke
+VO_08DIV_SS_cine_020_Mayday
+VO_08DIV_SS_game_010_Mayday
+VO_08DIV_SS_game_020_Zuke
+VO_08DIV_SS_game_030_MaydayZuke
+VO_08DIV_Z_cine_010_Zuke
+VO_08DIV_Z_cine_020_Zuke
+VO_08DIV_Z_cine_030_Eve
+VO_08DIV_Z_cine_040_Zuke
+VO_08DIV_Z_cine_050_Eve
+VO_08DIV_Z_cine_060_Zuke
+VO_08DIV_Z_cine_070_Zuke
+VO_08DIV_Z_cine_080_Zuke
+VO_08DIV_Z_cine_090_Mayday
+
+### VARIABLE NAMES (BossDiva_VO.bnk)
+BossPhase
+
+### VALUE NAMES (BossDiva_VO.bnk)
+Intro
+Phase0
+Phase0T1
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase3T4
+Phase4
+Phase4T5
+Phase5
+Phase5T6
+Phase6
+
+### EVENT NAMES (BossEND_BGM.bnk)
+bgm_ending
+
+### EVENT NAMES (BossEND_SFX.bnk)
+sfx_diva_foley_footstep_walk_END
+sfx_END_camera_loop
+sfx_END_camera_stop
+sfx_END_crowd_cheer
+sfx_END_crowd_stop
+sfx_END_guitar_drop
+sfx_END_guitar_grab
+sfx_END_guitar_grab_02
+sfx_END_guitar_toss
+sfx_END_spaceship_loop
+sfx_END_spaceship_stop
+sfx_END_zuke_pat
+
+### RTPC/GAME-VARIABLE NAMES (BossEND_SFX.bnk)
+crowd_intensity
+
+### VARIABLE NAMES (BossEND_SFX.bnk)
+BossPhase
+
+### VALUE NAMES (BossEND_SFX.bnk)
+Phase2
+Phase3
+Phase4
+
+### EVENT NAMES (BossEND_VO.bnk)
+VO_13END_P1A_cine_010_Zuke
+VO_13END_P1A_cine_020_Zuke
+VO_13END_P1A_cine_030_Zuke
+VO_13END_P1A_cine_040_Mayday
+VO_13END_P1A_cine_050_Reporter
+VO_13END_P1A_cine_060_Mayday
+VO_13END_P1A_cine_070_Reporter
+VO_13END_P1A_cine_080_Mayday
+VO_13END_P1A_cine_090_Tatiana
+VO_13END_P1A_cine_100_Mayday
+VO_13END_P1A_cine_110_Mayday
+VO_13END_P1A_cine_120_Tatiana
+VO_13END_P1A_cine_130_Mayday
+VO_13END_P1A_cine_140_Tatiana
+VO_13END_P1A_cine_150_Mayday
+VO_13END_P1A_cine_160_Tatiana
+VO_13END_P1A_cine_170_Tatiana
+VO_13END_P1A_cine_171_Tatiana
+VO_13END_P1A_cine_180_Mayday
+VO_13END_P1A_cine_190_Mayday
+VO_13END_P1A_cine_200_Mayday
+VO_13END_P1A_cine_210_Tatiana
+VO_13END_P1A_cine_220_Mayday
+VO_13END_P1A_cine_230_Tatiana
+VO_13END_P1A_cine_240_Mayday
+VO_13END_P1A_cine_250_Tatiana
+VO_13END_P1A_cine_260_Tatiana
+VO_13END_P1A_cine_270_Mayday
+VO_13END_P1A_cine_280_Tatiana
+VO_13END_P1A_cine_290_Mayday
+VO_13END_P1A_cine_300_Tatiana
+VO_13END_P1A_cine_310_Mayday
+VO_13END_P1A_cine_320_Tatiana
+VO_13END_P1A_cine_330_Mayday
+VO_13END_P1A_cine_340_Zuke
+VO_13END_P1A_cine_350_Mayday
+VO_13END_P1A_cine_360_Zuke
+VO_13END_P1A_cine_370_Mayday
+VO_13END_P1A_cine_380_Zuke
+VO_13END_P1A_cine_390_Mayday
+VO_13END_P2A_cine_010_Tatiana
+VO_13END_P3A_cine_010_Tatiana
+VO_13END_P4_cine_010_Crowd
+VO_13END_P4_cine_010_Crowd_stop
+VO_13END_P4_cine_020_Tatiana
+VO_13END_P4_cine_030_Mayday
+
+### EVENT NAMES (BossFIN_BGM.bnk)
+bgm_final_lift
+bgm_final_lift_end
+bgm_final_showdown
+bgm_final_SS_01
+bgm_final_SS_02
+bgm_final_SS_03
+bgm_final_SS_04
+
+### RTPC/GAME-VARIABLE NAMES (BossFIN_BGM.bnk)
+fin_music
+mayday_coi_active
+zuke_coi_active
+
+### VARIABLE NAMES (BossFIN_BGM.bnk)
+BossPhase
+
+### VALUE NAMES (BossFIN_BGM.bnk)
+Intro
+Phase0
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase3T4
+Phase4
+Phase4T5
+Phase5
+Phase5T6
+Phase6
+
+### EVENT NAMES (BossFIN_SFX.bnk)
+amb_FIN_minigame
+amb_FIN_minigame_stop
+amb_fin_wind_loop
+amb_fin_wind_stop
+sfx_FIN_alarm
+sfx_FIN_alarm_stop
+sfx_fin_building_swing
+sfx_FIN_crowd_cheer
+sfx_FIN_crowd_cheer_stop
+sfx_FIN_ellicopter_arrive
+sfx_FIN_elliecopter_loop
+sfx_FIN_elliecopter_loop_3D
+sfx_FIN_elliecopter_pickup
+sfx_FIN_elliecopter_stop
+sfx_FIN_elliecopter_stop_3D
+sfx_FIN_elligator_cheer
+sfx_FIN_explosion
+sfx_FIN_fire_loop
+sfx_FIN_fire_loop_stop
+sfx_FIN_fireball
+sfx_fin_fist_clench
+sfx_FIN_grandQWASA
+sfx_fin_hand_grab
+sfx_fin_hand_shape
+sfx_FIN_jump
+sfx_FIN_kliff_footsteps
+sfx_FIN_kliff_tablet
+sfx_FIN_kulfyra_guitar
+sfx_FIN_lift_down
+sfx_FIN_lift_up
+sfx_FIN_lift_up_02
+sfx_fin_plane_flight
+sfx_FIN_rise_DGL_01
+sfx_FIN_rise_DGL_02
+sfx_FIN_rise_DGX
+sfx_FIN_rise_DIV
+sfx_FIN_rise_KPR_01
+sfx_FIN_rise_KPR_02
+sfx_FIN_rise_MNC
+sfx_FIN_shield_cleanse
+sfx_FIN_shield_disruptor
+sfx_FIN_shield_down
+sfx_FIN_shield_energy_blue
+sfx_FIN_shield_energy_loop
+sfx_fin_small_buildings
+sfx_FIN_spaceship_loop
+sfx_FIN_spaceship_stop
+sfx_FIN_SS_tick_01
+sfx_FIN_SS_tick_02
+sfx_FIN_SS_tick_03
+sfx_FIN_SS_tick_04
+sfx_FIN_tank_destroyed
+sfx_FIN_tatiana_punch
+sfx_FIN_wait
+sfx_FIN_what
+sfx_FIN_zuke_projectile_hit
+sfx_FIN_zuke_projectile_shoot
+
+### SFX NAMES (BossFIN_SFX.bnk)
+Dialog_Leveler_Hard
+
+### RTPC/GAME-VARIABLE NAMES (BossFIN_SFX.bnk)
+crowd_intensity
+fin_fire
+fin_QWASA
+
+### VARIABLE NAMES (BossFIN_SFX.bnk)
+BossPhase
+
+### VALUE NAMES (BossFIN_SFX.bnk)
+Phase2
+Phase3
+Phase4
+
+### EVENT NAMES (BossFIN_VO.bnk)
+VO_10FIN_P1A_cine_010_Kliff
+VO_10FIN_P1A_cine_020_Tatiana
+VO_10FIN_P1A_cine_030_Mayday
+VO_10FIN_P1A_cine_040_Kliff
+VO_10FIN_P1A_cine_050_Tatiana
+VO_10FIN_P1A_cine_060_Kliff
+VO_10FIN_P1A_cine_070_Mayday
+VO_10FIN_P1A_cine_080_Zuke
+VO_10FIN_P1A_cine_090_Kliff
+VO_10FIN_P1A_cine_100_Tatiana
+VO_10FIN_P1A_cine_110_Kliff
+VO_10FIN_P1A_cine_120_Tatiana
+VO_10FIN_P1A_cine_130_Computer
+VO_10FIN_P1A_cine_140_Tatiana
+VO_10FIN_P1A_cine_150_Kliff
+VO_10FIN_P1A_cine_160_Mayday
+VO_10FIN_P1A_cine_170_Kliff
+VO_10FIN_P1A_cine_180_Kliff
+VO_10FIN_P1A_cine_190_Mayday
+VO_10FIN_P1A_cine_200_Zuke
+VO_10FIN_P1A_cine_210_Tatiana
+VO_10FIN_P1A_cine_220_Tatiana
+VO_10FIN_P1A_cine_230_Kliff
+VO_10FIN_P1A_cine_240_Computer
+VO_10FIN_P1A_cine_250_Kliff
+VO_10FIN_P1A_cine_260_Kliff
+VO_10FIN_P1A_cine_270_Mayday
+VO_10FIN_P1A_cine_280_Kliff
+VO_10FIN_P1A_cine_290_Mayday
+VO_10FIN_P1A_cine_300_Kliff
+VO_10FIN_P1A_cine_310_Mayday
+VO_10FIN_P1A_cine_320_Kliff
+VO_10FIN_P1A_cine_330_Mayday
+VO_10FIN_P1A_cine_340_Kliff
+VO_10FIN_P1A_cine_350_Mayday
+VO_10FIN_P1A_cine_360_Zuke
+VO_10FIN_P1A_cine_370_Mayday
+VO_10FIN_P1A_cine_380_Zuke
+VO_10FIN_P1A_cine_390_Mayday
+VO_10FIN_P1A_cine_400_Tatiana
+VO_10FIN_P1A_cine_410_Mayday
+VO_10FIN_P1A_cine_420_Tatiana
+VO_10FIN_P1A_cine_430_Mayday
+VO_10FIN_P1A_cine_440_Kliff
+VO_10FIN_P1A_cine_450_Kliff
+VO_10FIN_P1A_cine_460_Tatiana
+VO_10FIN_P1A_cine_470_Zuke
+VO_10FIN_P1A_cine_471_Tatiana
+VO_10FIN_P1A_cine_480_Tatiana
+VO_10FIN_P1A_cine_490_Mayday
+VO_10FIN_P1B_cine_010_Mayday
+VO_10FIN_P2_cineplay_010_Eve
+VO_10FIN_P3_cineplay_010_NeonJ
+VO_10FIN_P4_cineplay_010_Yinu
+VO_10FIN_P5_cineplay_010_Sayu
+VO_10FIN_P6_cineplay_010_DJGalaxy
+VO_10FIN_P7_game_010_Kliff
+VO_10FIN_P7_game_020_Zuke
+VO_10FIN_P7_game_030_Tatiana
+VO_10FIN_P7_game_031_Kliff
+VO_10FIN_P7_game_040_Tatiana
+VO_10FIN_P8_cine_010_Tatiana
+VO_10FIN_P8_cine_011_Tatiana
+VO_10FIN_P8_game_010_Mayday
+VO_10FIN_SS_game_010_Mayday
+VO_10FIN_SS_game_020_Zuke
+VO_10FIN_SS_game_030_Mayday
+VO_10FIN_SS_game_040
+VO_10FIN_SS_game_040_DJGalaxy
+VO_10FIN_SS_game_040_Eve
+VO_10FIN_SS_game_040_Mayday
+VO_10FIN_SS_game_040_NeonJ
+VO_10FIN_SS_game_040_Sayu
+VO_10FIN_SS_game_040_Tatiana
+VO_10FIN_SS_game_040_Yinu
+VO_10FIN_SS_game_040_Zuke
+VO_10FIN_SS_game_041
+VO_10FIN_SS_game_041_DJGalaxy
+VO_10FIN_SS_game_041_Eve
+VO_10FIN_SS_game_041_Mayday
+VO_10FIN_SS_game_041_NeonJ
+VO_10FIN_SS_game_041_Sayu
+VO_10FIN_SS_game_041_Tatiana
+VO_10FIN_SS_game_041_Yinu
+VO_10FIN_SS_game_041_Zuke
+VO_10FIN_SS_game_042
+VO_10FIN_SS_game_042_DJGalaxy
+VO_10FIN_SS_game_042_Eve
+VO_10FIN_SS_game_042_Mayday
+VO_10FIN_SS_game_042_NeonJ
+VO_10FIN_SS_game_042_Sayu
+VO_10FIN_SS_game_042_Tatiana
+VO_10FIN_SS_game_042_Yinu
+VO_10FIN_SS_game_042_Zuke
+VO_10FIN_SS_game_043
+VO_10FIN_SS_game_043_DJGalaxy
+VO_10FIN_SS_game_043_Eve
+VO_10FIN_SS_game_043_Mayday
+VO_10FIN_SS_game_043_NeonJ
+VO_10FIN_SS_game_043_Sayu
+VO_10FIN_SS_game_043_Tatiana
+VO_10FIN_SS_game_043_Yinu
+VO_10FIN_SS_game_043_Zuke
+
+### EVENT NAMES (BossKPop_BGM.bnk)
+bgm_bosskpop
+bgm_bosskpop_end
+sfx_kpop_1010_fanposing
+sfx_kpop_1010_shieldup
+
+### RTPC/GAME-VARIABLE NAMES (BossKPop_BGM.bnk)
+mayday_coi_active
+playback_speed
+song_filter
+sweep_filter
+zuke_coi_active
+
+### VARIABLE NAMES (BossKPop_BGM.bnk)
+BossPhase
+KpopP4
+# 1424066621
+# 2879877845
+# 4009442344
+
+### VALUE NAMES (BossKPop_BGM.bnk)
+D1a
+D1b
+D2a
+D2b
+D3a
+D3b
+D4a
+D4b
+Intro
+Neutral
+none
+Phase0
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase3T4
+Phase4
+# 3412247199
+# 2464701083
+# 2697538029
+# 1904455303
+# 615533375
+# 805891511
+# 1472681651
+# 2281419013
+# 2595741279
+# 1039102806
+# 1012601896
+# 4197922652
+# 4057730130
+# 2342484810
+# 4057753081
+
+### EVENT NAMES (BossKPop_SFX.bnk)
+amb_kpop_traffic
+amb_kpop_traffic_stop
+sfx_kpop_1010_cheapcompliments
+sfx_kpop_1010_damage
+sfx_kpop_1010_dash_end
+sfx_kpop_1010_dash_loop
+sfx_kpop_1010_dash_start
+sfx_kpop_1010_explode
+sfx_kpop_1010_fanposing
+sfx_kpop_1010_footsteps
+sfx_kpop_1010_hatersgonnahate
+sfx_kpop_1010_ideal_boyfriend
+sfx_kpop_1010_idle
+sfx_kpop_1010_jumpland_end
+sfx_kpop_1010_jumpland_impact
+sfx_kpop_1010_jumpland_ring
+sfx_kpop_1010_jumpland_start
+sfx_kpop_1010_jumpshot
+sfx_kpop_1010_march
+sfx_kpop_1010_onetruelove
+sfx_kpop_1010_pose_end
+sfx_kpop_1010_pose_loop
+sfx_kpop_1010_pose_start
+sfx_kpop_1010_poses_1
+sfx_kpop_1010_poses_2
+sfx_kpop_1010_poses_3
+sfx_kpop_1010_salute
+sfx_kpop_1010_shielddown
+sfx_kpop_1010_shieldimpact
+sfx_kpop_1010_shieldup
+sfx_kpop_1010_shoot_generic
+sfx_kpop_1010_shoot_parryable
+sfx_kpop_1010_shot
+sfx_kpop_1010_slowturn
+sfx_kpop_1010_slowturn2
+sfx_kpop_1010_spinaround
+sfx_kpop_1010_stifled
+sfx_kpop_1010_twirl
+sfx_kpop_1010_utmostattention
+sfx_kpop_1010_wesaluteyou
+sfx_kpop_camera_loop
+sfx_kpop_camera_stop
+sfx_kpop_crowd_cheer
+sfx_kpop_crowd_stop
+sfx_kpop_explode
+sfx_kpop_factory_crash
+sfx_kpop_factory_damage
+sfx_kpop_factory_destroyed
+sfx_kpop_factory_destroyed_stop
+sfx_kpop_factory_exit
+sfx_kpop_factory_flyaway
+sfx_kpop_factory_flyby
+sfx_kpop_factory_flyincrash
+sfx_kpop_factory_jumpup
+sfx_kpop_fans_scream
+sfx_kpop_limo_move
+sfx_kpop_limo_stop
+sfx_kpop_neonj_fine
+sfx_kpop_neonj_slapchest
+sfx_kpop_revive
+sfx_kpop_slotmachine_attack2
+sfx_kpop_slotmachine_bodyspin
+sfx_kpop_slotmachine_bombattack
+sfx_kpop_slotmachine_bombattack_explode
+sfx_kpop_slotmachine_bombattack_throw
+sfx_kpop_slotmachine_click
+sfx_kpop_slotmachine_damage
+sfx_kpop_slotmachine_ding
+sfx_kpop_slotmachine_forwardattack
+sfx_kpop_slotmachine_forwardattack_launch
+sfx_kpop_slotmachine_idle
+sfx_kpop_slotmachine_missile_explode
+sfx_kpop_slotmachine_missile_launch
+sfx_kpop_slotmachine_missileattack_end
+sfx_kpop_slotmachine_missileattack_loop
+sfx_kpop_slotmachine_missileattack_start
+sfx_kpop_slotmachine_missileattackQnsMark
+sfx_kpop_slotmachine_revive
+sfx_kpop_slotmachine_spin_end
+sfx_kpop_slotmachine_spin_start
+sfx_kpop_slotmachine_spin_stop
+sfx_kpop_zoomout
+
+### SFX NAMES (BossKPop_SFX.bnk)
+High_Impact
+Medium_Room1
+NSR_Limiter
+
+### RTPC/GAME-VARIABLE NAMES (BossKPop_SFX.bnk)
+crowd_intensity
+Master
+playback_speed
+SFX
+
+### VARIABLE NAMES (BossKPop_SFX.bnk)
+BossPhase
+level
+Mix
+
+### VALUE NAMES (BossKPop_SFX.bnk)
+Intro
+Phase0
+Phase0T1
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase3T4
+Phase4
+Phase4T5
+Phase5
+Phase5T6
+Phase6
+
+### EVENT NAMES (BossKPop_VO.bnk)
+VO_07KPR_NeonJ_Command
+VO_07KPR_NeonJ_Commands_1
+VO_07KPR_NeonJ_Commands_2
+VO_07KPR_NeonJ_Commands_3
+VO_07KPR_NeonJ_Commands_4
+VO_07KPR_NeonJ_Commands_5
+VO_07KPR_NeonJ_Deployment
+VO_07KPR_NeonJ_Deployment_1
+VO_07KPR_NeonJ_Deployment_2
+VO_07KPR_NeonJ_Deployment_3
+VO_07KPR_NeonJ_Deployment_4
+VO_07KPR_NeonJ_Deployment_5
+VO_07KPR_NeonJ_Hit
+VO_07KPR_NeonJ_Strike
+VO_07KPR_NeonJ_Strikes_1
+VO_07KPR_NeonJ_Strikes_2
+VO_07KPR_NeonJ_Strikes_3
+VO_07KPR_NeonJ_Strikes_4
+VO_07KPR_NeonJ_Strikes_5
+VO_07KPR_P1A_cineplay_010_Mayday
+VO_07KPR_P1A_cineplay_020_Mayday
+VO_07KPR_P1A_cineplay_030_TenTenMember
+VO_07KPR_P1A_cineplay_040_Mayday
+VO_07KPR_P1A_cineplay_050_TenTenMember
+VO_07KPR_P1A_cineplay_060_Mayday
+VO_07KPR_P1A_cineplay_070_TenTenMember
+VO_07KPR_P1A_cineplay_080_TenTenMember
+VO_07KPR_P1A_cineplay_090_Zuke
+VO_07KPR_P1A_cineplay_091_Zuke
+VO_07KPR_P1A_cineplay_100_Mayday
+VO_07KPR_P1A_cineplay_110_Zuke
+VO_07KPR_P1A_cineplay_120_Mayday
+VO_07KPR_P1A_cineplay_130_Zuke
+VO_07KPR_P1A_cineplay_140_TenTenMember
+VO_07KPR_P1A_cineplay_150_TenTenMember
+VO_07KPR_P1B_game_010_Mayday
+VO_07KPR_P1B_game_020_Zuke
+VO_07KPR_P1B_game_030_Mayday
+VO_07KPR_P2A_cineplay_010_Zuke
+VO_07KPR_P2A_cineplay_020_NeonJ
+VO_07KPR_P2A_cineplay_030_Mayday
+VO_07KPR_P2A_cineplay_040_NeonJ
+VO_07KPR_P2A_cineplay_041_NeonJ
+VO_07KPR_P2A_cineplay_050_TenTenMember
+VO_07KPR_P2A_cineplay_060_TenTenMember
+VO_07KPR_P2B_game_010_Mayday
+VO_07KPR_P2B_game_020_Zuke
+VO_07KPR_P3A_cineplay_010_NeonJ
+VO_07KPR_P3A_cineplay_020_Mayday
+VO_07KPR_P3A_cineplay_030_TenTenMember
+VO_07KPR_P3A_cineplay_040_TenTenMember
+VO_07KPR_P3B_game_010_Mayday
+VO_07KPR_P3B_game_020_Zuke
+VO_07KPR_P4A_cineplay_010_Zuke
+VO_07KPR_P4A_cineplay_020_Zuke
+VO_07KPR_P4A_cineplay_030_NeonJ
+VO_07KPR_SS_cine_010_Zuke
+VO_07KPR_SS_cine_020_Mayday
+VO_07KPR_SS_game_010_Mayday
+VO_07KPR_SS_game_020_Zuke
+VO_07KPR_SS_game_030_Mayday
+VO_07KPR_SS_game_030_Zuke
+VO_07KPR_SS_game_040_Mayday
+VO_07KPR_SS_game_050_Mayday
+VO_07KPR_SS_game_30_MaydayZuke
+VO_07KPR_TenTenMembers_Acknowledge
+VO_07KPR_TenTenMembers_Acknowledge_1
+VO_07KPR_TenTenMembers_Acknowledge_10
+VO_07KPR_TenTenMembers_Acknowledge_2
+VO_07KPR_TenTenMembers_Acknowledge_3
+VO_07KPR_TenTenMembers_Acknowledge_4
+VO_07KPR_TenTenMembers_Acknowledge_5
+VO_07KPR_TenTenMembers_Acknowledge_6
+VO_07KPR_TenTenMembers_Acknowledge_7
+VO_07KPR_TenTenMembers_Acknowledge_8
+VO_07KPR_TenTenMembers_Acknowledge_9
+VO_07KPR_TenTenMembers_Hit
+VO_07KPR_TenTenMembers_Hit_1
+VO_07KPR_TenTenMembers_Hit_2
+VO_07KPR_TenTenMembers_Hit_3
+VO_07KPR_TenTenMembers_Hit_4
+VO_07KPR_TenTenMembers_Strike
+VO_07KPR_TenTenMembers_Strike_1
+VO_07KPR_TenTenMembers_Strike_2
+VO_07KPR_TenTenMembers_Strike_3
+VO_07KPR_Z_cine_010_NeonJ
+VO_07KPR_Z_cine_020_NeonJ
+VO_07KPR_Z_cine_030_Zuke
+VO_07KPR_Z_cine_040_NeonJ
+VO_07KPR_Z_cine_050_Mayday
+VO_07KPR_Z_cine_060_NeonJ
+VO_07KPR_Z_cine_070_Zuke
+VO_07KPR_Z_cine_080_NeonJ
+VO_07KPR_Z_cine_090_Zuke
+VO_07KPR_Z_cine_100_NeonJ
+VO_07KPR_Z_cine_110_Mayday
+VO_07KPR_Z_cine_120_NeonJ
+VO_07KPR_Z_cine_130_NeonJ
+VO_07KPR_Z_cine_140_Mayday
+VO_07KPR_Z_cine_150_Zuke
+VO_07KPR_Z_cine_160_Mayday
+VO_07KPR_Z_cine_170_NeonJ
+
+### EVENT NAMES (BossMotherChild_BGM.bnk)
+bgm_bossmotherchild
+bgm_bossmotherchild_stop
+bgm_transition_phase2
+bgm_yinu_end
+bgm_yinu_end2
+bgm_yinu_theme
+bgm_yinu_theme_stop
+sfx_mnc_p6_piano_hit
+
+### SFX NAMES (BossMotherChild_BGM.bnk)
+Gentle_Program_Compressor_Minus_20dB_RMS
+
+### RTPC/GAME-VARIABLE NAMES (BossMotherChild_BGM.bnk)
+mayday_coi_active
+playback_speed
+song_filter
+sweep_filter
+zuke_coi_active
+
+### VARIABLE NAMES (BossMotherChild_BGM.bnk)
+AudioCue
+BossPhase
+Mix
+MotherState
+# 4009442344
+# 1424066621
+# 2879877845
+
+### VALUE NAMES (BossMotherChild_BGM.bnk)
+Battle
+Intro
+off
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase3T4
+Phase4
+Phase4T5
+Phase5
+protecc
+# 1012601896
+# 4197922652
+# 4057730130
+# 2342484810
+# 4057753081
+# 3412247199
+# 2464701083
+# 2697538029
+# 1904455303
+# 615533375
+# 805891511
+# 1472681651
+# 2281419013
+# 2595741279
+# 1039102806
+
+### EVENT NAMES (BossMotherChild_SFX.bnk)
+any_notes_hit_invulnerable
+bgm_yinu_theme_stop
+prop_box_hit
+prop_mechanical_transform_A
+prop_mechanical_transform_B
+prop_mechanical_transform_C
+sfx_djgalaxy_glassbreak
+sfx_djgalaxy_rocket_spawn
+sfx_djgalaxy_threadmill_spawn
+sfx_mnc_attack_fingersnap
+sfx_mnc_attack_hammer
+sfx_mnc_attack_handslam
+sfx_mnc_attack_handslam_prep
+sfx_mnc_attack_headslam_foley
+sfx_mnc_attack_headslam_L1
+sfx_mnc_attack_headslam_L2
+sfx_mnc_attack_headslam_L3
+sfx_mnc_attack_notes_bounce_heavy
+sfx_mnc_attack_notes_bounce_light
+sfx_mnc_attack_notes_bounce_medium
+sfx_mnc_attack_notes_die
+sfx_mnc_attack_notes_die_small
+sfx_mnc_attack_notes_explosion
+sfx_mnc_attack_notes_fall
+sfx_mnc_attack_notes_parry_rush
+sfx_mnc_attack_notes_parry_spawn
+sfx_mnc_attack_notes_shoot
+sfx_mnc_attack_notes_spawn
+sfx_mnc_attack_protect
+sfx_mnc_attack_protect_sweep
+sfx_mnc_attack_shockwave
+sfx_mnc_attack_target_appear
+sfx_mnc_attack_targetlock
+sfx_mnc_attack_vine
+sfx_mnc_attack_vine_defeat
+sfx_mnc_attack_vine_spawn
+sfx_mnc_attack_wreckingball_scratch
+sfx_mnc_attack_wreckingball_swing_back
+sfx_mnc_attack_wreckingball_swing_front
+sfx_mnc_attack_yinu_strike_vo
+sfx_mnc_env_concert_broken
+sfx_mnc_env_entrance_drop
+sfx_mnc_env_glassbreak
+sfx_mnc_env_lightning
+sfx_mnc_env_lock_crack
+sfx_mnc_env_mother_bang
+sfx_mnc_env_mother_rush
+sfx_mnc_env_piano_slam
+sfx_mnc_env_piano_smash
+sfx_mnc_env_redvine_grow
+sfx_mnc_env_redvine_platform_loop
+sfx_mnc_env_redvine_platform_loop_stabilised
+sfx_mnc_env_redvine_platform_loop_stop
+sfx_mnc_env_redvine_platform_stop
+sfx_mnc_env_roomtone
+sfx_mnc_env_string_break
+sfx_mnc_env_string_hit
+sfx_mnc_env_string_spawn_01
+sfx_mnc_env_string_stretch
+sfx_mnc_env_vine_destroyed
+sfx_mnc_env_vine_grow
+sfx_mnc_env_walla
+sfx_mnc_env_walla_shush
+sfx_mnc_env_walla_stop
+sfx_mnc_env_whoosh_entrance
+sfx_mnc_env_yinu_rise
+sfx_mnc_notes_mother_hit
+sfx_mnc_notes_mother_hit__notes_only_
+sfx_mnc_notes_yinu_hit
+sfx_mnc_notes_yinu_hit__notes_only_
+sfx_mnc_p1_yinu
+sfx_mnc_p2_sweep
+sfx_mnc_p3_debris
+sfx_mnc_p3_fall
+sfx_mnc_p4_piano_drop
+sfx_mnc_p5_bump
+sfx_mnc_p5_fly
+sfx_mnc_p6_flower_explode
+sfx_mnc_p6_mother_drop
+sfx_mnc_p6_mother_run
+sfx_mnc_p6_mother_shrink
+sfx_mnc_p6_piano_drop
+sfx_mnc_p6_piano_hit
+sfx_mnc_p6_piano_land
+sfx_mnc_p6_piano_slip
+sfx_mnc_p6_slowmo
+sfx_mnc_p6_yinu_move
+sfx_mnc_platform_crash
+sfx_mnc_platform_target
+sfx_mnc_prop_fan_attack
+sfx_mnc_prop_mechanical_projectile_A
+sfx_mnc_woodcreak_long
+sfx_mnc_woodcreak_short
+sfx_mnc_yinu_footsteps
+VO_06MNC_P2_cine_030_Mother
+VO_06MNC_P2_cineplay_010_Mother
+VO_06MNC_P3_cineplay_020_Mother
+
+### SFX NAMES (BossMotherChild_SFX.bnk)
+Dialog_Leveler_Hard
+Dual_Filters_Reset
+Hall_Medium_Dark
+NSR_Limiter
+Single_Band_1Khz_Wide
+
+### RTPC/GAME-VARIABLE NAMES (BossMotherChild_SFX.bnk)
+boss1_vox
+Master
+playback_speed
+SFX
+
+### VARIABLE NAMES (BossMotherChild_SFX.bnk)
+BossPhase
+CharacterSwitch
+level
+Mix
+MotherState
+NoteBounceMix
+
+### VALUE NAMES (BossMotherChild_SFX.bnk)
+attacc
+audition
+ceo
+Cutscene
+digitalidol
+diva
+djgalaxy
+dkwest
+Far
+final
+Intro
+kpop
+motherchild
+Near
+Phase1
+Phase1T2
+Phase2
+Phase2T3
+Phase3
+Phase4
+Phase4T5
+Phase5
+Phase5T6
+Phase6
+protecc
+street
+Tutorial
+zuke
+zuke_diva
+
+### EVENT NAMES (BossMotherChild_VO.bnk)
+sfx_mnc_attack_handslam
+sfx_mnc_attack_notes_fall
+sfx_mnc_attack_notes_shoot
+sfx_mnc_attack_wreckingball_swing_front
+sfx_mnc_attack_yinu_strike_vo
+sfx_mnc_env_string_break
+sfx_mnc_env_string_hit
+sfx_mnc_notes_mother_hit
+sfx_mnc_notes_mother_hit__notes_only_
+sfx_mnc_notes_yinu_hit
+VO_06MNC_A0_cineplay_010_Mayday
+VO_06MNC_P1A_cine_010_Yinu
+VO_06MNC_P1A_cine_020_Mayday
+VO_06MNC_P1A_cine_030_Zuke
+VO_06MNC_P1A_cine_040_Yinu
+VO_06MNC_P1A_cine_050_Mayday
+VO_06MNC_P1A_cine_060_Yinu
+VO_06MNC_P1A_cine_070_Mayday
+VO_06MNC_P1A_game_010_Zuke
+VO_06MNC_P1A_game_020_Mayday
+VO_06MNC_P1B_cineplay_010_Yinu
+VO_06MNC_P2_cine_010_Yinu
+VO_06MNC_P2_cine_020_Yinu
+VO_06MNC_P2_cine_030_Mother
+VO_06MNC_P2_cineplay_010_Mother
+VO_06MNC_P2_cineplay_020_Mother
+VO_06MNC_P2_cineplay_030_Yinu
+VO_06MNC_P2_game_010_Yinu
+VO_06MNC_P3_010_030
+VO_06MNC_P3_cineplay_001_Mother
+VO_06MNC_P3_cineplay_010_Mayday
+VO_06MNC_P3_cineplay_020_Mother
+VO_06MNC_P3_cineplay_030_Yinu
+VO_06MNC_P3_cineplay_040_Mother
+VO_06MNC_P3_game_010_Mother
+VO_06MNC_P3_game_020_alt_Zuke
+VO_06MNC_P3_game_020_Zuke
+VO_06MNC_P3_game_030_Mother
+VO_06MNC_P4_cine_010_Yinu
+VO_06MNC_P4_cine_020_Yinu
+VO_06MNC_P4_cineplay_010_Mother
+VO_06MNC_P4_game_010_Mother
+VO_06MNC_P4_game_020_Mother
+VO_06MNC_P4_game_030_Mother
+VO_06MNC_P4_game_040_Mother
+VO_06MNC_P4_game_050_Mother
+VO_06MNC_P6_cine_010_Mayday
+VO_06MNC_P6_cine_010_Zuke
+VO_06MNC_P6_cine_020_Mother
+VO_06MNC_P6_cine_030_Yinu
+VO_06MNC_P6_cine_040_Mother
+VO_06MNC_P6_game_010_Yinu
+VO_06MNC_P6_game_020_Mother
+VO_06MNC_P6_game_030_Zuke
+VO_06MNC_P6_game_040_Mayday
+VO_06MNC_SS_cine_010_Mother
+VO_06MNC_SS_cine_010_Zuke
+VO_06MNC_SS_cine_020_Mayday
+VO_06MNC_SS_game_010_Mayday
+VO_06MNC_SS_game_020_Zuke
+VO_06MNC_SS_game_030_Mayday
+VO_06MNC_SS_game_030_MaydayZuke
+VO_06MNC_SS_game_030_Zuke
+VO_06MNC_Z0_cine_010_Yinu
+VO_06MNC_Z0_cine_020_Yinu
+VO_06MNC_Z0_cine_030_Mayday
+VO_06MNC_Z0_cine_040_Mother
+VO_06MNC_Z0_cine_050_Mayday
+VO_06MNC_Z1_cineplay_010_Mother
+VO_06MNC_Z1_cineplay_020_Mayday
+VO_06MNC_Z1_cineplay_030_Mother
+VO_06MNC_Z2_cine_010_Mother
+
+### SFX NAMES (BossMotherChild_VO.bnk)
+Dialog_Too_Quiet
+Dual_Filters_Reset
+
+### RTPC/GAME-VARIABLE NAMES (BossMotherChild_VO.bnk)
+boss1_verb
+boss1_vox
+
+### VARIABLE NAMES (BossMotherChild_VO.bnk)
+BossPhase
+Mix
+MotherState
+
+### VALUE NAMES (BossMotherChild_VO.bnk)
+attacc
+Battle
+Cutscene
+Phase1
+Phase3
+Phase4
+Phase4T5
+Phase5
+Phase5T6
+Phase6
+
+### EVENT NAMES (CEO_NPC_MSE.bnk)
+VO_09CEO_NPC_MSE_010_Elitist
+VO_09CEO_NPC_MSE_020_Elitist
+VO_09CEO_NPC_MSE_030_Elitist
+
+### SFX NAMES (CEO_NPC_MSE.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (CEO_NPC_MSE.bnk)
+NPC_Position
+
+### EVENT NAMES (CEO_NPC_NOF.bnk)
+VO_09CEO_NPC_NOF_010A_Kliff
+VO_09CEO_NPC_NOF_020A_Kliff
+VO_09CEO_NPC_NOF_030_Mayday
+VO_09CEO_NPC_NOF_040A_Kliff
+VO_09CEO_NPC_NOF_050_Mayday
+VO_09CEO_NPC_NOF_060A_Kliff
+VO_09CEO_NPC_NOF_070_Mayday
+VO_09CEO_NPC_NOF_080A_Kliff
+VO_09CEO_NPC_NOF_090A_Kliff
+VO_09CEO_NPC_NOF_100_Mayday
+VO_09CEO_NPC_NOF_110A_Kliff
+VO_09CEO_NPC_NOF_120_Mayday
+
+### SFX NAMES (CEO_NPC_NOF.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (CEO_NPC_NOF.bnk)
+NPC_Position
+
+### EVENT NAMES (CEOz_NPC_MSE.bnk)
+VO_09CEOz_NPC_MSE_010A_Elitist
+VO_09CEOz_NPC_MSE_010B_Elitist
+VO_09CEOz_NPC_MSE_010C_Elitist
+VO_09CEOz_NPC_MSE_020A_Elitist
+VO_09CEOz_NPC_MSE_020B_Elitist
+VO_09CEOz_NPC_MSE_020C_Elitist
+VO_09CEOz_NPC_MSE_030A_Elitist
+VO_09CEOz_NPC_MSE_030B_Elitist
+VO_09CEOz_NPC_MSE_040A_Elitist
+VO_09CEOz_NPC_MSE_050A_Elitist
+VO_09CEOz_NPC_MSE_060A_Elitist
+
+### SFX NAMES (CEOz_NPC_MSE.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (CEOz_NPC_MSE.bnk)
+NPC_Position
+
+### EVENT NAMES (Character_SFX.bnk)
+any_notes_hit_invulnerable
+any_notes_idle
+any_notes_land
+any_notes_pickup_loop
+any_notes_pickup_single
+any_notes_pickup_start
+any_notes_spawn_bounce
+character_COI_end
+character_COI_start
+character_footstep_generic
+character_hit_glass
+character_hit_heavy
+character_hit_light
+character_hit_metal
+character_hit_wood
+character_notes_shoot
+character_prop_finisher
+character_roll
+mayday_character_roll
+mayday_character_switch
+mayday_charge1_hit
+mayday_charge1_woosh
+mayday_charge2_hit_01
+mayday_charge2_hit_02
+mayday_charge2_woosh_1
+mayday_charge2_woosh_2
+mayday_charge3_hit_01
+mayday_charge3_hit_02
+mayday_charge3_woosh_1
+mayday_charge3_woosh_2
+mayday_charge_complete
+mayday_charge_start
+mayday_damage_heavy
+mayday_damage_light
+mayday_guitar_melee_finish
+mayday_guitar_melee_hit
+mayday_guitar_strum_cont_end
+mayday_guitar_strum_cont_start
+mayday_guitar_strum_single
+mayday_jump
+mayday_jump_land
+mayday_notes_shot_off
+mayday_parry_hitback
+mayday_run
+mayday_special_DI
+mayday_special_Diva
+mayday_special_Diva_stop
+mayday_special_DJG_grab
+mayday_special_DJG_throw
+mayday_special_Kpop_explode
+mayday_special_Kpop_fire
+mayday_special_Kpop_launch
+mayday_special_MnC
+mayday_ultimate_01
+mayday_ultimate_02
+mayday_ultimate_03
+mayday_ultimate_04
+mayday_walk
+mayday_weapon_swing
+mayday_weapon_swing_finisher
+sfx_bbj_heal
+sfx_bbj_heal_stop
+sfx_boss_parry
+sfx_djgalaxy_BattleEnd_raise
+sfx_djgalaxy_probe_transform
+sfx_mayday_charge3_impact
+sfx_mayday_charge3_woosh_3
+sfx_mayday_charge_complete
+sfx_mayday_dash
+sfx_mayday_slam
+sfx_mayday_slam_prep
+sfx_mnc_env_entrance_drop
+sfx_mnc_p6_piano_hit
+sfx_SS_01_clench
+sfx_SS_02_fistbump
+sfx_SS_03_zoomout
+sfx_SS_04_zoomguitar
+sfx_SS_05_fixguitar
+sfx_SS_06_pickup
+sfx_SS_07_zoomin
+sfx_SS_08_zoomguitar
+sfx_SS_09_fix
+sfx_SS_10_growl
+sfx_SS_11_zoomout
+sfx_SS_12_bigtwirl
+sfx_SS_13_drumstick
+sfx_SS_14_drumstick
+sfx_SS_15_beam
+sfx_ultimate_healing
+sfx_ultimate_rock
+sfx_ultimate_rodeo
+sfx_ultimate_shadow
+sfx_zuke_dash
+sfx_zuke_slam
+sfx_zuke_slam_prep
+zuke_character_roll
+zuke_character_switch
+zuke_damage_heavy
+zuke_damage_light
+zuke_drum_beat
+zuke_drum_beat_cont_end
+zuke_drum_beat_cont_start
+zuke_drum_melee_finish
+zuke_drum_melee_hit
+zuke_drum_melee_hit_01
+zuke_drum_melee_hit_02
+zuke_drum_melee_pre_finisher
+zuke_jump
+zuke_jump_land
+zuke_notes_shot_off
+zuke_parry_hitback
+zuke_run
+zuke_special_DGL
+zuke_special_DGX
+zuke_special_DIV
+zuke_special_DIV_loop
+zuke_special_DIV_stop
+zuke_special_KPR
+zuke_special_MNC
+zuke_special_MNC_shoot
+zuke_ultimate_01
+zuke_ultimate_02
+zuke_ultimate_03
+zuke_ultimate_04
+zuke_walk
+zuke_weapon_swing_combo_multi
+zuke_weapon_swing_combo_start
+zuke_weapon_swing_normal
+
+### SFX NAMES (Character_SFX.bnk)
+Dialog_Leveler_Hard
+Dual_Filters_Reset
+High_Impact
+Pumping_and_Breathing_1
+
+### RTPC/GAME-VARIABLE NAMES (Character_SFX.bnk)
+COI_speed
+mayday_special_explosion
+
+### VARIABLE NAMES (Character_SFX.bnk)
+footstep_surface
+level
+Mix
+
+### VALUE NAMES (Character_SFX.bnk)
+approach
+audition
+carpet
+ceo
+city
+concrete
+Cutscene
+digitalidol
+diva
+djgalaxy
+dkwest
+final
+kpop
+motherchild
+postpunch
+sewers
+street
+Tutorial
+wood
+
+### EVENT NAMES (Character_VO.bnk)
+vo_mayday_continue
+vo_mayday_gameover
+vo_mayday_hit_big
+vo_mayday_hit_small
+vo_mayday_jump
+vo_mayday_level_complete
+vo_mayday_level_start
+vo_mayday_lowlife
+vo_mayday_parry
+vo_mayday_play
+vo_mayday_release
+vo_mayday_special
+vo_mayday_special_DGL
+vo_mayday_special_DGX
+vo_mayday_special_DIV
+vo_mayday_special_KPR
+vo_mayday_special_MNC
+vo_mayday_strike
+vo_mayday_strike_heavy
+vo_mayday_strike_slam
+vo_mayday_super
+vo_mayday_switch
+vo_zuke_continue
+vo_zuke_gameover
+vo_zuke_hit_big
+vo_zuke_hit_small
+vo_zuke_jump
+vo_zuke_level_complete
+vo_zuke_level_start
+vo_zuke_lowlife
+vo_zuke_parry
+vo_zuke_play
+vo_zuke_release
+vo_zuke_special
+vo_zuke_special_DGL
+vo_zuke_special_DGX
+vo_zuke_special_DIV
+vo_zuke_special_KPR
+vo_zuke_special_MNC
+vo_zuke_strike
+vo_zuke_strike_heavy
+vo_zuke_super
+vo_zuke_switch
+
+### SFX NAMES (Character_VO.bnk)
+Dialog_Leveler_Hard
+
+### VARIABLE NAMES (Character_VO.bnk)
+CharacterSwitch
+
+### VALUE NAMES (Character_VO.bnk)
+mayday
+mayday_diva
+zuke
+zuke_diva
+
+### EVENT NAMES (City_BGM.bnk)
+bgm_city
+bgm_city_alt1
+bgm_city_alt2
+bgm_city_overlook_01
+bgm_city_overlook_02
+bgm_city_overlook_02_stop
+
+### RTPC/GAME-VARIABLE NAMES (City_BGM.bnk)
+mayday_coi_active
+zuke_coi_active
+
+### VARIABLE NAMES (City_BGM.bnk)
+BossPhase
+Mix
+
+### VALUE NAMES (City_BGM.bnk)
+Cutscene
+Exploration
+
+### EVENT NAMES (City_SFX.bnk)
+amb_dkw_commotion_loop
+city_ambience
+city_ambience_NSR
+city_carousel
+city_carousel_start
+city_crowd_01
+city_crowd_02
+city_falklift
+city_fountain
+city_glassdoor
+city_grandQWASAfountain
+city_hologram
+city_lrt_doorclose
+city_lrt_dooropen
+city_lrt_move
+city_lrt_stop
+city_mamak
+city_morse
+city_neonlights
+city_pv_djg
+city_pv_mnc
+city_qwasa_rotate
+city_rollercoaster
+city_shopdoor_close
+city_shopdoor_open
+city_spin_start
+city_spin_stop
+city_streetlamp_loop
+city_streetlamp_ping
+city_tele_enter
+city_tele_exit
+city_tele_loop
+city_trainingdoor
+city_vinyl_spin
+
+### SFX NAMES (City_SFX.bnk)
+Medium_Room1
+NSR_Limiter
+
+### RTPC/GAME-VARIABLE NAMES (City_SFX.bnk)
+audition_outdoor_progress
+city_light_flicker
+Master
+playback_speed
+SFX
+
+### VARIABLE NAMES (City_SFX.bnk)
+BossPhase
+buzzer
+level
+Mix
+
+### VALUE NAMES (City_SFX.bnk)
+djg
+eve
+kpop
+sayu
+tatiana
+yinu
+
+### SFX NAMES (City_VO.bnk)
+Dialog_Leveler_Soft
+Medium_Room1
+NSR_Limiter
+
+### RTPC/GAME-VARIABLE NAMES (City_VO.bnk)
+Master
+playback_speed
+VO
+
+### VARIABLE NAMES (City_VO.bnk)
+level
+
+### EVENT NAMES (Credits.bnk)
+bgm_credits
+
+### EVENT NAMES (DGI_NPC_MSE.bnk)
+VO_05DGI_NPC_MSE_010_Elitist
+VO_05DGI_NPC_MSE_020_Elitist
+
+### SFX NAMES (DGI_NPC_MSE.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGI_NPC_MSE.bnk)
+NPC_Position
+
+### EVENT NAMES (DGL_NPC_NOF.bnk)
+VO_05DGL_NPC_NOF_010A_Kliff
+VO_05DGL_NPC_NOF_020A_Kliff
+VO_05DGL_NPC_NOF_030_Mayday
+VO_05DGL_NPC_NOF_040_Zuke
+VO_05DGL_NPC_NOF_050A_Kliff
+VO_05DGL_NPC_NOF_060A_Kliff
+VO_05DGL_NPC_NOF_070_Mayday
+VO_05DGL_NPC_NOF_080_Zuke
+VO_05DGL_NPC_NOF_090_Mayday
+VO_05DGL_NPC_NOF_100A_Kliff
+VO_05DGL_NPC_NOF_110_Mayday
+VO_05DGL_NPC_NOF_120A_Kliff
+VO_05DGL_NPC_NOF_130A_Kliff
+VO_05DGL_NPC_NOF_140A_Kliff
+VO_05DGL_NPC_NOF_150_Mayday
+VO_05DGL_NPC_NOF_160A_Kliff
+
+### SFX NAMES (DGL_NPC_NOF.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGL_NPC_NOF.bnk)
+NPC_Position
+
+### EVENT NAMES (DGL_PV.bnk)
+pv_05DGL
+pv_05DGL_stop
+VO_05DGL_pv_010_Sayu
+VO_05DGL_pv_020_Sayu
+VO_05DGL_pv_030_Sayu
+VO_05DGL_pv_040_Sayu
+VO_05DGL_pv_050_Sayu
+VO_05DGL_pv_060_Sayu
+VO_05DGL_pv_070_Sayu
+VO_05DGL_pv_080_Sayu
+VO_05DGL_pv_090_Sayu
+
+### SFX NAMES (DGL_PV.bnk)
+Dual_Filters_Narrow_Bandwidth
+
+### EVENT NAMES (DGLz_NPC_CPT.bnk)
+VO_05DGLz_NPC_CPT_010Anor_Mayday
+VO_05DGLz_NPC_CPT_010B_CaptainTorpedo
+VO_05DGLz_NPC_CPT_020Anor_Zuke
+VO_05DGLz_NPC_CPT_020B_CaptainTorpedo
+VO_05DGLz_NPC_CPT_030Anor_CaptainTorpedo
+VO_05DGLz_NPC_CPT_040Anor_CaptainTorpedo
+VO_05DGLz_NPC_CPT_050Anor_CaptainTorpedo
+
+### SFX NAMES (DGLz_NPC_CPT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGLz_NPC_CPT.bnk)
+NPC_Position
+
+### EVENT NAMES (DGLz_NPC_FSO.bnk)
+VO_05DGLz_NPC_FSO_010Anor_StallOwner
+VO_05DGLz_NPC_FSO_010Bre_StallOwner
+VO_05DGLz_NPC_FSO_020Anor_Zuke
+VO_05DGLz_NPC_FSO_020Bre_StallOwner
+VO_05DGLz_NPC_FSO_030Anor_StallOwner
+VO_05DGLz_NPC_FSO_040Anor_Mayday
+VO_05DGLz_NPC_FSO_050Anor_Mayday
+
+### SFX NAMES (DGLz_NPC_FSO.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGLz_NPC_FSO.bnk)
+NPC_Position
+
+### EVENT NAMES (DGLz_NPC_IBA.bnk)
+VO_05DGLz_NPC_IBA_010A_Mayday
+VO_05DGLz_NPC_IBA_020A_Mia
+VO_05DGLz_NPC_IBA_030A_Mayday
+VO_05DGLz_NPC_IBA_040A_Mia
+VO_05DGLz_NPC_IBA_050A_Mia
+VO_05DGLz_NPC_IBA_060A_Mayday
+
+### SFX NAMES (DGLz_NPC_IBA.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGLz_NPC_IBA.bnk)
+NPC_Position
+
+### EVENT NAMES (DGLz_NPC_JNL.bnk)
+VO_05DGLz_NPC_JNL_010A_Barbara
+VO_05DGLz_NPC_JNL_020A_Barbara
+VO_05DGLz_NPC_JNL_030A_Mayday
+VO_05DGLz_NPC_JNL_040A_Barbara
+VO_05DGLz_NPC_JNL_050A_Barbara
+
+### SFX NAMES (DGLz_NPC_JNL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGLz_NPC_JNL.bnk)
+NPC_Position
+
+### EVENT NAMES (DGLz_NPC_MSE.bnk)
+VO_05DGLz_NPC_MSE_010A_Elitist
+VO_05DGLz_NPC_MSE_010B_Elitist
+VO_05DGLz_NPC_MSE_010C_Elitist
+VO_05DGLz_NPC_MSE_020A_Elitist
+VO_05DGLz_NPC_MSE_020C_Elitist
+VO_05DGLz_NPC_MSE_030A_Elitist
+VO_05DGLz_NPC_MSE_040A_Elitist
+
+### SFX NAMES (DGLz_NPC_MSE.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGLz_NPC_MSE.bnk)
+NPC_Position
+
+### EVENT NAMES (DGLz_NPC_POL.bnk)
+VO_05DGLz_NPC_POL_010B_Policeman
+VO_05DGLz_NPC_POL_020B_Mayday
+VO_05DGLz_NPC_POL_030B_Zuke
+
+### SFX NAMES (DGLz_NPC_POL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGLz_NPC_POL.bnk)
+NPC_Position
+
+### EVENT NAMES (DGLz_NPC_QWT.bnk)
+VO_05DGLz_NPC_QWT_010A_Timmy
+VO_05DGLz_NPC_QWT_020A_Timmy
+VO_05DGLz_NPC_QWT_030A_Timmy
+
+### SFX NAMES (DGLz_NPC_QWT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGLz_NPC_QWT.bnk)
+NPC_Position
+
+### EVENT NAMES (DGLz_NPC_RBT.bnk)
+VO_05DGLz_NPC_RBT_010A_Robot
+VO_05DGLz_NPC_RBT_010B_Robot
+VO_05DGLz_NPC_RBT_020A_Zuke
+VO_05DGLz_NPC_RBT_020B_Zuke
+VO_05DGLz_NPC_RBT_030A_Robot
+VO_05DGLz_NPC_RBT_030B_Mayday
+
+### SFX NAMES (DGLz_NPC_RBT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGLz_NPC_RBT.bnk)
+NPC_Position
+
+### EVENT NAMES (DGLz_NPC_RDJ.bnk)
+VO_05DGLz_NPC_RDJ_010_Zam
+VO_05DGLz_NPC_RDJ_020_Mayday
+VO_05DGLz_NPC_RDJ_030_Zam
+VO_05DGLz_NPC_RDJ_040_Zam
+VO_05DGLz_NPC_RDJ_050_Mayday
+VO_05DGLz_NPC_RDJ_060_Mayday
+VO_05DGLz_NPC_RDJ_070_Zam
+VO_05DGLz_NPC_RDJ_080_Zuke
+VO_05DGLz_NPC_RDJ_090_Zam
+VO_05DGLz_NPC_RDJ_100_Mayday
+VO_05DGLz_NPC_RDJ_110_Zam
+VO_05DGLz_NPC_RDJ_120_Mayday
+VO_05DGLz_NPC_RDJ_130_Zuke
+VO_05DGLz_NPC_RDJ_140_Zam
+
+### SFX NAMES (DGLz_NPC_RDJ.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGLz_NPC_RDJ.bnk)
+NPC_Position
+
+### EVENT NAMES (DGLz_NPC_UNC.bnk)
+VO_05DGLz_NPC_UNC_010Anor_Mayday
+VO_05DGLz_NPC_UNC_010B_Mayday
+VO_05DGLz_NPC_UNC_020Anor_Mayday
+VO_05DGLz_NPC_UNC_020B_Mayday
+VO_05DGLz_NPC_UNC_030Anor_Mayday
+VO_05DGLz_NPC_UNC_030B_Amal
+VO_05DGLz_NPC_UNC_040Anor_Zuke
+VO_05DGLz_NPC_UNC_040B_Zuke
+VO_05DGLz_NPC_UNC_050Anor_Mayday
+
+### SFX NAMES (DGLz_NPC_UNC.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGLz_NPC_UNC.bnk)
+NPC_Position
+
+### EVENT NAMES (DGLz_NPC_WCL.bnk)
+VO_05DGLz_NPC_WCL_010A_re_Cleaner
+VO_05DGLz_NPC_WCL_010Bre_Cleaner
+
+### SFX NAMES (DGLz_NPC_WCL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGLz_NPC_WCL.bnk)
+NPC_Position
+
+### EVENT NAMES (DGX_Collectible_01.bnk)
+VO_04DGX_collect1_010_DJGalaxy
+VO_04DGX_collect1_020_Audience1
+VO_04DGX_collect1_030_Audience1
+VO_04DGX_collect1_040_DJGalaxy
+VO_04DGX_collect1_041_DJGalaxy
+VO_04DGX_collect1_050_DJGalaxy
+VO_04DGX_collect1_060_Janitor
+VO_04DGX_collect1_070_DJGalaxy
+VO_04DGX_collect1_080_Janitor
+
+### EVENT NAMES (DGX_Collectible_02.bnk)
+VO_04DGX_collect2_010_DJGalaxy
+VO_04DGX_collect2_011_DJGalaxy
+VO_04DGX_collect2_012_DJGalaxy
+VO_04DGX_collect2_013_DJGalaxy
+
+### EVENT NAMES (DGX_Collectible_03.bnk)
+VO_04DGX_collect3_010_DJGalaxy
+VO_04DGX_collect3_011_DJGalaxy
+VO_04DGX_collect3_012_DJGalaxy
+VO_04DGX_collect3_013_DJGalaxy
+VO_04DGX_collect3_014_DJGalaxy
+
+### EVENT NAMES (DGX_NPC_JNL.bnk)
+VO_04DGX_NPC_JNL_010A_Barbara
+VO_04DGX_NPC_JNL_010B_Barbara
+
+### SFX NAMES (DGX_NPC_JNL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGX_NPC_JNL.bnk)
+NPC_Position
+
+### EVENT NAMES (DGX_NPC_MSE.bnk)
+VO_04DGX_NPC_MSE_010_Elitist
+VO_04DGX_NPC_MSE_020_Elitist
+VO_04DGX_NPC_MSE_030_Elitist
+
+### SFX NAMES (DGX_NPC_MSE.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGX_NPC_MSE.bnk)
+NPC_Position
+
+### EVENT NAMES (DGX_PV.bnk)
+pv_04DGX
+VO_04DGX_pv_010_DJGalaxy
+VO_04DGX_pv_020_DJGalaxy
+VO_04DGX_pv_030_DJGalaxy
+VO_04DGX_pv_040_DJGalaxy
+VO_04DGX_pv_050_DJGalaxy
+VO_04DGX_pv_051_DJGalaxy
+VO_04DGX_pv_060_NSRannouncer
+
+### EVENT NAMES (DGXz_NPC_CPT.bnk)
+VO_04DGXz_NPC_CPT_010A_CaptainTorpedo
+VO_04DGXz_NPC_CPT_020A_Mayday
+VO_04DGXz_NPC_CPT_030A_Zuke
+VO_04DGXz_NPC_CPT_040A_CaptainTorpedo
+VO_04DGXz_NPC_CPT_050A_CaptainTorpedo
+VO_04DGXz_NPC_CPT_060A_CaptainTorpedo
+VO_04DGXz_NPC_CPT_070A_CaptainTorpedo
+
+### SFX NAMES (DGXz_NPC_CPT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGXz_NPC_CPT.bnk)
+NPC_Position
+
+### EVENT NAMES (DGXz_NPC_FSO.bnk)
+VO_04DGXz_NPC_FSO_010A_StallOwner
+VO_04DGXz_NPC_FSO_010Bnor_StallOwner
+VO_04DGXz_NPC_FSO_010Cre_StallOwner
+VO_04DGXz_NPC_FSO_020A_StallOwner
+VO_04DGXz_NPC_FSO_020Bnor_StallOwner
+VO_04DGXz_NPC_FSO_030A_Mayday
+VO_04DGXz_NPC_FSO_030Bnor_StallOwner
+VO_04DGXz_NPC_FSO_040A_Zuke
+
+### SFX NAMES (DGXz_NPC_FSO.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGXz_NPC_FSO.bnk)
+NPC_Position
+
+### EVENT NAMES (DGXz_NPC_GGI.bnk)
+VO_04DGXz_NPC_GGI_010_Gigi
+VO_04DGXz_NPC_GGI_020_Gigi
+VO_04DGXz_NPC_GGI_030_Mayday
+VO_04DGXz_NPC_GGI_040_Gigi
+VO_04DGXz_NPC_GGI_050_Mayday
+VO_04DGXz_NPC_GGI_060_Gigi
+
+### SFX NAMES (DGXz_NPC_GGI.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGXz_NPC_GGI.bnk)
+NPC_Position
+
+### EVENT NAMES (DGXz_NPC_IBA.bnk)
+VO_04DGXz_NPC_IBA_010A_Mayday
+VO_04DGXz_NPC_IBA_010B_Mayday
+VO_04DGXz_NPC_IBA_020A_Mia
+VO_04DGXz_NPC_IBA_020B_Mia
+VO_04DGXz_NPC_IBA_030A_Mia
+VO_04DGXz_NPC_IBA_030B_Mia
+VO_04DGXz_NPC_IBA_040A_Mia
+VO_04DGXz_NPC_IBA_040B_Mia
+VO_04DGXz_NPC_IBA_050A_Mayday
+VO_04DGXz_NPC_IBA_050B_Mayday
+VO_04DGXz_NPC_IBA_060A_Zuke
+VO_04DGXz_NPC_IBA_060B_Mia
+VO_04DGXz_NPC_IBA_070B_Mayday
+VO_04DGXz_NPC_IBA_080B_Mia
+
+### SFX NAMES (DGXz_NPC_IBA.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGXz_NPC_IBA.bnk)
+NPC_Position
+
+### EVENT NAMES (DGXz_NPC_JNL.bnk)
+VO_04DGXz_NPC_JNL_010Anor_Barbara
+VO_04DGXz_NPC_JNL_010B_Barbara
+VO_04DGXz_NPC_JNL_020Anor_Mayday
+VO_04DGXz_NPC_JNL_020B_Mayday
+VO_04DGXz_NPC_JNL_030Anor_Zuke
+VO_04DGXz_NPC_JNL_030B_Zuke
+VO_04DGXz_NPC_JNL_040Anor_Barbara
+VO_04DGXz_NPC_JNL_040B_Mayday
+VO_04DGXz_NPC_JNL_050Anor_Mayday
+VO_04DGXz_NPC_JNL_050B_Barbara
+VO_04DGXz_NPC_JNL_060A_Barbara
+VO_04DGXz_NPC_JNL_060B_Mayday
+
+### SFX NAMES (DGXz_NPC_JNL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGXz_NPC_JNL.bnk)
+NPC_Position
+
+### EVENT NAMES (DGXz_NPC_MSE.bnk)
+VO_04DGXz_NPC_MSE_010A_Elitist
+VO_04DGXz_NPC_MSE_010B_Elitist
+VO_04DGXz_NPC_MSE_010C_Elitist
+VO_04DGXz_NPC_MSE_020A_Elitist
+VO_04DGXz_NPC_MSE_020C_Elitist
+VO_04DGXz_NPC_MSE_030A_Elitist
+VO_04DGXz_NPC_MSE_040A_Elitist
+VO_04DGXz_NPC_MSE_050A_Elitist
+VO_04DGXz_NPC_MSE_060A_Elitist
+
+### SFX NAMES (DGXz_NPC_MSE.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGXz_NPC_MSE.bnk)
+NPC_Position
+
+### EVENT NAMES (DGXz_NPC_NOF.bnk)
+VO_04DGXz_NPC_NOF_010_Kliff
+VO_04DGXz_NPC_NOF_020_Mayday
+VO_04DGXz_NPC_NOF_030_Kliff
+VO_04DGXz_NPC_NOF_040_Mayday
+VO_04DGXz_NPC_NOF_050_Kliff
+VO_04DGXz_NPC_NOF_060_Zuke
+VO_04DGXz_NPC_NOF_070_Kliff
+VO_04DGXz_NPC_NOF_080_Kliff
+VO_04DGXz_NPC_NOF_090_Mayday
+VO_04DGXz_NPC_NOF_100_Kliff
+VO_04DGXz_NPC_NOF_110_Kliff
+VO_04DGXz_NPC_NOF_120_Kliff
+VO_04DGXz_NPC_NOF_130_Mayday
+VO_04DGXz_NPC_NOF_140_Kliff
+VO_04DGXz_NPC_NOF_150_Kliff
+VO_04DGXz_NPC_NOF_160_Kliff
+VO_04DGXz_NPC_NOF_170_Mayday
+VO_04DGXz_NPC_NOF_180_Zuke
+VO_04DGXz_NPC_NOF_190_Kliff
+VO_04DGXz_NPC_NOF_200_Kliff
+VO_04DGXz_NPC_NOF_210_Mayday
+VO_04DGXz_NPC_NOF_220_Kliff
+VO_04DGXz_NPC_NOF_230_Kliff
+VO_04DGXz_NPC_NOF_240_Mayday
+VO_04DGXz_NPC_NOF_250_Kliff
+VO_04DGXz_NPC_NOF_260_Mayday
+VO_04DGXz_NPC_NOF_270_Kliff
+VO_04DGXz_NPC_NOF_280_Mayday
+VO_04DGXz_NPC_NOF_290_Zuke
+VO_04DGXz_NPC_NOF_300_Kliff
+VO_04DGXz_NPC_NOF_310_Zuke
+VO_04DGXz_NPC_NOF_320_Kliff
+VO_04DGXz_NPC_NOF_330_Zuke
+VO_04DGXz_NPC_NOF_340_Mayday
+VO_04DGXz_NPC_NOF_350_Mayday
+
+### SFX NAMES (DGXz_NPC_NOF.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGXz_NPC_NOF.bnk)
+NPC_Position
+
+### EVENT NAMES (DGXz_NPC_POL.bnk)
+VO_04DGXz_NPC_POL_010A_Policeman
+VO_04DGXz_NPC_POL_010B_Policeman
+VO_04DGXz_NPC_POL_020A_Policeman
+VO_04DGXz_NPC_POL_020B_Policeman
+VO_04DGXz_NPC_POL_030A_Policeman
+
+### SFX NAMES (DGXz_NPC_POL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGXz_NPC_POL.bnk)
+NPC_Position
+
+### EVENT NAMES (DGXz_NPC_QWT.bnk)
+VO_04DGXz_NPC_QWT_010Anor_Timmy
+VO_04DGXz_NPC_QWT_010Bre_Timmy
+VO_04DGXz_NPC_QWT_020Anor_Mayday
+VO_04DGXz_NPC_QWT_030Anor_Timmy
+VO_04DGXz_NPC_QWT_040Anor_Mayday
+
+### SFX NAMES (DGXz_NPC_QWT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGXz_NPC_QWT.bnk)
+NPC_Position
+
+### EVENT NAMES (DGXz_NPC_RBT.bnk)
+VO_04DGXz_NPC_RBT_010A_Robot
+VO_04DGXz_NPC_RBT_010B_Robot
+VO_04DGXz_NPC_RBT_020A_Mayday
+VO_04DGXz_NPC_RBT_020B_Zuke
+VO_04DGXz_NPC_RBT_030B_Mayday
+
+### SFX NAMES (DGXz_NPC_RBT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGXz_NPC_RBT.bnk)
+NPC_Position
+
+### EVENT NAMES (DGXz_NPC_WCL.bnk)
+VO_04DGXz_NPC_WCL_010A_Cleaner
+VO_04DGXz_NPC_WCL_010B_Cleaner
+VO_04DGXz_NPC_WCL_010C_Cleaner
+
+### SFX NAMES (DGXz_NPC_WCL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DGXz_NPC_WCL.bnk)
+NPC_Position
+
+### EVENT NAMES (DIV_Collectible_01.bnk)
+eve_pv01_stem
+VO_08DIV_pv_010_Eve
+VO_08DIV_pv_020_Eve
+VO_08DIV_pv_030_Eve
+VO_08DIV_pv_040_Eve
+VO_08DIV_pv_050_Eve
+VO_08DIV_pv_060_Eve
+VO_08DIV_pv_070_Eve
+VO_08DIV_pv_080_Eve
+VO_08DIV_pv_090_Eve_part_1
+VO_08DIV_pv_090_Eve_part_2
+
+### EVENT NAMES (DIV_Collectible_02.bnk)
+eve_pv02_stem
+VO_08DIV_pv_100_Eve
+VO_08DIV_pv_110_Zuke
+VO_08DIV_pv_120_Eve
+VO_08DIV_pv_130_Eve
+VO_08DIV_pv_140_Zuke
+VO_08DIV_pv_150_Eve
+VO_08DIV_pv_160_Eve
+VO_08DIV_pv_170_Zuke
+VO_08DIV_pv_180_Eve
+VO_08DIV_pv_190_Eve
+VO_08DIV_pv_200_Eve
+VO_08DIV_pv_210_Zuke
+VO_08DIV_pv_220_Eve
+
+### EVENT NAMES (DIV_Collectible_03.bnk)
+eve_pv03_stem
+VO_08DIV_pv_230_Eve_part_1
+VO_08DIV_pv_230_Eve_part_2
+VO_08DIV_pv_230_Eve_part_3
+VO_08DIV_pv_230_Eve_part_4
+VO_08DIV_pv_230_Eve_part_5
+
+### EVENT NAMES (DIV_NPC_MSE.bnk)
+VO_08DIV_NPC_MSE_010_Elitist
+VO_08DIV_NPC_MSE_020_Elitist
+VO_08DIV_NPC_MSE_030_Elitist
+
+### SFX NAMES (DIV_NPC_MSE.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIV_NPC_MSE.bnk)
+NPC_Position
+
+### EVENT NAMES (DIV_NPC_NOF.bnk)
+VO_08DIV_NPC_NOF_010_Zuke
+VO_08DIV_NPC_NOF_020_Mayday
+VO_08DIV_NPC_NOF_030A_Kliff
+VO_08DIV_NPC_NOF_040_Mayday
+VO_08DIV_NPC_NOF_050A_Kliff
+VO_08DIV_NPC_NOF_060_Mayday
+VO_08DIV_NPC_NOF_070A_Kliff
+VO_08DIV_NPC_NOF_080_Mayday
+VO_08DIV_NPC_NOF_090_Zuke
+VO_08DIV_NPC_NOF_100_Mayday
+VO_08DIV_NPC_NOF_110A_Kliff
+VO_08DIV_NPC_NOF_120_Mayday
+VO_08DIV_NPC_NOF_130A_Kliff
+VO_08DIV_NPC_NOF_140_Mayday
+VO_08DIV_NPC_NOF_150_Zuke
+VO_08DIV_NPC_NOF_160A_Kliff
+VO_08DIV_NPC_NOF_170A_Kliff
+VO_08DIV_NPC_NOF_180A_Kliff
+VO_08DIV_NPC_NOF_190_Mayday
+VO_08DIV_NPC_NOF_200_Mayday
+VO_08DIV_NPC_NOF_220_Mayday
+VO_08DIV_NPC_NOF_230_Zuke
+
+### SFX NAMES (DIV_NPC_NOF.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIV_NPC_NOF.bnk)
+NPC_Position
+
+### EVENT NAMES (DIV_PV.bnk)
+pv_08DIV
+
+### EVENT NAMES (DIVz_NPC_FCP.bnk)
+VO_08DIVz_NPC_FCP_010Are_President
+VO_08DIVz_NPC_FCP_010Bre_President
+VO_08DIVz_NPC_FCP_010Cre_President
+VO_08DIVz_NPC_FCP_020Are_President
+VO_08DIVz_NPC_FCP_020Bre_President
+VO_08DIVz_NPC_FCP_020Cre_President
+VO_08DIVz_NPC_FCP_030Are_President
+VO_08DIVz_NPC_FCP_030Bre_President
+
+### SFX NAMES (DIVz_NPC_FCP.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIVz_NPC_FCP.bnk)
+NPC_Position
+
+### EVENT NAMES (DIVz_NPC_FSN.bnk)
+VO_08DIVz_NPC_FSN_010A_Fashionista
+VO_08DIVz_NPC_FSN_010B_Fashionista
+VO_08DIVz_NPC_FSN_020A_Fashionista
+VO_08DIVz_NPC_FSN_020B_Fashionista
+VO_08DIVz_NPC_FSN_030A_Fashionista
+
+### SFX NAMES (DIVz_NPC_FSN.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIVz_NPC_FSN.bnk)
+NPC_Position
+
+### EVENT NAMES (DIVz_NPC_FSO.bnk)
+VO_08DIVz_NPC_FSO_010Are_Mayday
+VO_08DIVz_NPC_FSO_010Bre_StallOwner
+VO_08DIVz_NPC_FSO_010Cre_StallOwner
+VO_08DIVz_NPC_FSO_020Are_StallOwner
+VO_08DIVz_NPC_FSO_020Bre_StallOwner
+VO_08DIVz_NPC_FSO_020Cre_StallOwner
+VO_08DIVz_NPC_FSO_030Are_Zuke
+
+### SFX NAMES (DIVz_NPC_FSO.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIVz_NPC_FSO.bnk)
+NPC_Position
+
+### EVENT NAMES (DIVz_NPC_GGI.bnk)
+VO_08DIVz_NPC_GGI_010_Zuke
+VO_08DIVz_NPC_GGI_020_Mayday
+VO_08DIVz_NPC_GGI_030_Zuke
+
+### SFX NAMES (DIVz_NPC_GGI.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIVz_NPC_GGI.bnk)
+NPC_Position
+
+### EVENT NAMES (DIVz_NPC_GNG.bnk)
+VO_08DIVz_NPC_GNG_010Anor_Gangster
+VO_08DIVz_NPC_GNG_010B_Zuke
+VO_08DIVz_NPC_GNG_010C_Gangster
+VO_08DIVz_NPC_GNG_020Anor_Mayday
+VO_08DIVz_NPC_GNG_020B_Gangster
+VO_08DIVz_NPC_GNG_020C_Gangster
+VO_08DIVz_NPC_GNG_030Anor_Gangster
+VO_08DIVz_NPC_GNG_030B_Gangster
+VO_08DIVz_NPC_GNG_030C_Mayday
+VO_08DIVz_NPC_GNG_040Anor_Gangster
+VO_08DIVz_NPC_GNG_040C_Gangster
+VO_08DIVz_NPC_GNG_050Anor_Mayday
+VO_08DIVz_NPC_GNG_060Anor_Gangster
+VO_08DIVz_NPC_GNG_070Anor_Zuke
+
+### SFX NAMES (DIVz_NPC_GNG.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIVz_NPC_GNG.bnk)
+NPC_Position
+
+### EVENT NAMES (DIVz_NPC_JNL.bnk)
+VO_08DIVz_NPC_JNL_010A_Barbara
+VO_08DIVz_NPC_JNL_020A_Mayday
+VO_08DIVz_NPC_JNL_030A_Barbara
+VO_08DIVz_NPC_JNL_040A_Mayday
+VO_08DIVz_NPC_JNL_050A_Barbara
+VO_08DIVz_NPC_JNL_060A_Mayday
+
+### SFX NAMES (DIVz_NPC_JNL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIVz_NPC_JNL.bnk)
+NPC_Position
+
+### EVENT NAMES (DIVz_NPC_MSE.bnk)
+VO_08DIVz_NPC_MSE_010A_Elitist
+VO_08DIVz_NPC_MSE_010B_Elitist
+VO_08DIVz_NPC_MSE_010C_Elitist
+VO_08DIVz_NPC_MSE_020A_Elitist
+VO_08DIVz_NPC_MSE_020B_Elitist
+VO_08DIVz_NPC_MSE_020C_Elitist
+VO_08DIVz_NPC_MSE_030A_Elitist
+VO_08DIVz_NPC_MSE_040A_Elitist
+VO_08DIVz_NPC_MSE_050A_Elitist
+VO_08DIVz_NPC_MSE_060A_Elitist
+
+### SFX NAMES (DIVz_NPC_MSE.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIVz_NPC_MSE.bnk)
+NPC_Position
+
+### EVENT NAMES (DIVz_NPC_POL.bnk)
+VO_08DIVz_NPC_POL_010A_Policeman
+VO_08DIVz_NPC_POL_010B_Policeman
+VO_08DIVz_NPC_POL_020A_Policeman
+VO_08DIVz_NPC_POL_030A_Policeman
+
+### SFX NAMES (DIVz_NPC_POL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIVz_NPC_POL.bnk)
+NPC_Position
+
+### EVENT NAMES (DIVz_NPC_QWT.bnk)
+VO_08DIVz_NPC_QWT_010Anor_Timmy
+VO_08DIVz_NPC_QWT_010B_Timmy
+VO_08DIVz_NPC_QWT_020Anor_Timmy
+VO_08DIVz_NPC_QWT_020B_Timmy
+VO_08DIVz_NPC_QWT_030Anor_Mayday
+VO_08DIVz_NPC_QWT_030B_Timmy
+VO_08DIVz_NPC_QWT_040Anor_Timmy
+VO_08DIVz_NPC_QWT_040B_Timmy
+VO_08DIVz_NPC_QWT_050B_Timmy
+
+### SFX NAMES (DIVz_NPC_QWT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIVz_NPC_QWT.bnk)
+NPC_Position
+
+### EVENT NAMES (DIVz_NPC_RBT.bnk)
+VO_08DIVz_NPC_RBT_010Are_Robot
+VO_08DIVz_NPC_RBT_010Bre_Robot
+VO_08DIVz_NPC_RBT_020Are_Zuke
+VO_08DIVz_NPC_RBT_020Bre_Mayday
+VO_08DIVz_NPC_RBT_030Are_Mayday
+VO_08DIVz_NPC_RBT_030Bre_Zuke
+VO_08DIVz_NPC_RBT_040Bre_Mayday
+VO_08DIVz_NPC_RBT_050Bre_Robot
+
+### SFX NAMES (DIVz_NPC_RBT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIVz_NPC_RBT.bnk)
+NPC_Position
+
+### EVENT NAMES (DIVz_NPC_RDJ.bnk)
+sfx_npc_zam_clap
+VO_06MNCz_NPC_RDJ_350_Mayday
+VO_08DIVz_NPC_RDJ_010_Zam
+VO_08DIVz_NPC_RDJ_011_Zam
+VO_08DIVz_NPC_RDJ_020_Mayday
+VO_08DIVz_NPC_RDJ_020_Zuke
+VO_08DIVz_NPC_RDJ_030_Zam
+VO_08DIVz_NPC_RDJ_050_Zam
+VO_08DIVz_NPC_RDJ_060_Mayday
+VO_08DIVz_NPC_RDJ_070_Tatiana
+VO_08DIVz_NPC_RDJ_080_Mayday
+VO_08DIVz_NPC_RDJ_090_Zuke
+VO_08DIVz_NPC_RDJ_100_Mayday
+VO_08DIVz_NPC_RDJ_110_Tatiana
+VO_08DIVz_NPC_RDJ_120_Zuke
+VO_08DIVz_NPC_RDJ_130_Tatiana
+VO_08DIVz_NPC_RDJ_140_Mayday
+VO_08DIVz_NPC_RDJ_150_Tatiana
+VO_08DIVz_NPC_RDJ_160_Mayday
+VO_08DIVz_NPC_RDJ_170_Mayday
+VO_08DIVz_NPC_RDJ_180_Tatiana
+VO_08DIVz_NPC_RDJ_190_Tatiana
+VO_08DIVz_NPC_RDJ_200_Tatiana
+VO_08DIVz_NPC_RDJ_210_Zam
+VO_08DIVz_NPC_RDJ_220_Zam
+VO_08DIVz_NPC_RDJ_230_Mayday
+VO_08DIVz_NPC_RDJ_240_Mayday
+VO_08DIVz_NPC_RDJ_250_Zuke
+VO_08DIVz_NPC_RDJ_260_Mayday
+VO_08DIVz_NPC_RDJ_270_Zuke
+VO_08DIVz_NPC_RDJ_280_Zuke
+VO_08DIVz_NPC_RDJ_290_Mayday
+VO_08DIVz_NPC_RDJ_300_Zam
+VO_08DIVz_NPC_RDJ_310_Zam
+VO_08DIVz_NPC_RDJ_320_Mayday
+VO_08DIVz_NPC_RDJ_330_Mayday
+VO_08DIVz_NPC_RDJ_340_Zuke
+VO_08DIVz_NPC_RDJ_360_Zam
+VO_08DIVz_NPC_RDJ_370_Zam
+VO_08DIVz_NPC_RDJ_380_Zam
+VO_08DIVz_NPC_RDJ_390_Mayday
+VO_08DIVz_NPC_RDJ_400_Zuke
+
+### SFX NAMES (DIVz_NPC_RDJ.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIVz_NPC_RDJ.bnk)
+NPC_Position
+
+### EVENT NAMES (DIVz_NPC_UNC.bnk)
+VO_08DIVz_NPC_UNC_010A_Mayday
+VO_08DIVz_NPC_UNC_020A_Amal
+VO_08DIVz_NPC_UNC_030A_Amal
+VO_08DIVz_NPC_UNC_030B_Amal
+VO_08DIVz_NPC_UNC_040A_Mayday
+VO_08DIVz_NPC_UNC_040B_Mayday
+VO_08DIVz_NPC_UNC_050A_Amal
+VO_08DIVz_NPC_UNC_050B_Amal
+
+### SFX NAMES (DIVz_NPC_UNC.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIVz_NPC_UNC.bnk)
+NPC_Position
+
+### EVENT NAMES (DIVz_NPC_WCL.bnk)
+VO_08DIVz_NPC_WCL_010A_Cleaner
+VO_08DIVz_NPC_WCL_020A_Cleaner
+
+### SFX NAMES (DIVz_NPC_WCL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DIVz_NPC_WCL.bnk)
+NPC_Position
+
+### EVENT NAMES (DKW_NPC_NOF.bnk)
+VO_11DKW_NPC_NOF_010_Zuke
+VO_11DKW_NPC_NOF_020A_Kliff
+VO_11DKW_NPC_NOF_030_Zuke
+VO_11DKW_NPC_NOF_040_Mayday
+VO_11DKW_NPC_NOF_050A_Kliff
+VO_11DKW_NPC_NOF_060A_Kliff
+VO_11DKW_NPC_NOF_070_Zuke
+VO_11DKW_NPC_NOF_080_Mayday
+
+### SFX NAMES (DKW_NPC_NOF.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DKW_NPC_NOF.bnk)
+NPC_Position
+
+### EVENT NAMES (DKW_NPC_RDJ.bnk)
+VO_11DKW_NPC_RDJ_010_Zam
+VO_11DKW_NPC_RDJ_020_Zam
+VO_11DKW_NPC_RDJ_030_Zam
+VO_11DKW_NPC_RDJ_040_Mayday
+VO_11DKW_NPC_RDJ_050_Zuke
+VO_11DKW_NPC_RDJ_060_Zam
+VO_11DKW_NPC_RDJ_070_Zuke
+VO_11DKW_NPC_RDJ_080_Zam
+VO_11DKW_NPC_RDJ_090_Zam
+VO_11DKW_NPC_RDJ_100_Zam
+VO_11DKW_NPC_RDJ_110_Mayday
+VO_11DKW_NPC_RDJ_120_Zam
+VO_11DKW_NPC_RDJ_130_Mayday
+VO_11DKW_NPC_RDJ_140_Zam
+VO_11DKW_NPC_RDJ_150_Zuke
+VO_11DKW_NPC_RDJ_160_Mayday
+VO_11DKW_NPC_RDJ_170_Zam
+VO_11DKW_NPC_RDJ_180_Mayday
+VO_11DKW_NPC_RDJ_190_Mayday
+VO_11DKW_NPC_RDJ_200_Zam
+VO_11DKW_NPC_RDJ_210_Mayday
+VO_11DKW_NPC_RDJ_220_Zam
+VO_11DKW_NPC_RDJ_230_Zam
+VO_11DKW_NPC_RDJ_240_Zam
+VO_11DKW_NPC_RDJ_250_Mayday
+
+### SFX NAMES (DKW_NPC_RDJ.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DKW_NPC_RDJ.bnk)
+NPC_Position
+
+### EVENT NAMES (DKWz_NPC_GGI.bnk)
+VO_11DKWz_NPC_GGI_010_Gigi
+VO_11DKWz_NPC_GGI_020_Mayday
+VO_11DKWz_NPC_GGI_030_Zuke
+VO_11DKWz_NPC_GGI_040_Gigi
+VO_11DKWz_NPC_GGI_050_Mayday
+VO_11DKWz_NPC_GGI_060_Gigi
+VO_11DKWz_NPC_GGI_070_Mayday
+VO_11DKWz_NPC_GGI_080_Gigi
+VO_11DKWz_NPC_GGI_090_Gigi
+VO_11DKWz_NPC_GGI_100_Gigi
+VO_11DKWz_NPC_GGI_100_Mayday
+VO_11DKWz_NPC_GGI_110_Zuke
+
+### SFX NAMES (DKWz_NPC_GGI.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (DKWz_NPC_GGI.bnk)
+NPC_Position
+
+### EVENT NAMES (Drones.bnk)
+sfx_drone_destroyed
+sfx_drone_explode
+sfx_drone_handhover_slap
+sfx_drone_hover_attack
+sfx_drone_hover_destroyed
+sfx_drone_hover_idle
+sfx_drone_hover_spawn_01
+sfx_drone_hover_spawn_02
+sfx_drone_hurt
+sfx_drone_spike_appear
+sfx_drone_spike_attack
+sfx_drone_spike_destroyed
+sfx_drone_spike_disappear
+sfx_drone_spike_foley
+sfx_drone_spike_spawn
+sfx_drone_stomp_attack
+sfx_drone_stomp_attack_double
+sfx_drone_stomp_attack_triple_1
+sfx_drone_stomp_attack_triple_2
+sfx_drone_stomp_attack_triple_3
+sfx_drone_stomp_double_foley
+sfx_drone_stomp_foley
+sfx_drone_stomp_triple_foley
+
+### EVENT NAMES (GEN_NPC_NOF.bnk)
+VO_00GEN_NPC_NOF_010A_Kliff
+VO_00GEN_NPC_NOF_010B_Kliff
+
+### SFX NAMES (GEN_NPC_NOF.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (GEN_NPC_NOF.bnk)
+NPC_Position
+
+### EVENT NAMES (GEN_NPC_TRS.bnk)
+VO_00GEN_NPC_TRS_010Are_Tourist1
+VO_00GEN_NPC_TRS_010Bre_Tourist1
+VO_00GEN_NPC_TRS_010Cre_Tourist1
+VO_00GEN_NPC_TRS_020Are_Tourist2
+VO_00GEN_NPC_TRS_020Bre_Tourist2
+VO_00GEN_NPC_TRS_020Cre_Tourist2
+VO_00GEN_NPC_TRS_030Are_Tourist1
+VO_00GEN_NPC_TRS_030Cre_Tourist1
+VO_00GEN_NPC_TRS_040Cre_Tourist2
+
+### SFX NAMES (GEN_NPC_TRS.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (GEN_NPC_TRS.bnk)
+NPC_Position
+
+### EVENT NAMES (GEN_NPC_ZED1.bnk)
+VO_00GEN_NPC_ZED1_010_Mayday
+VO_00GEN_NPC_ZED1_020_Zed
+VO_00GEN_NPC_ZED1_030_Zed
+VO_00GEN_NPC_ZED1_040_Zuke
+VO_00GEN_NPC_ZED1_050_Zed
+
+### SFX NAMES (GEN_NPC_ZED1.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (GEN_NPC_ZED1.bnk)
+NPC_Position
+
+### EVENT NAMES (GEN_NPC_ZED2.bnk)
+VO_00GEN_NPC_ZED2_010re_Zed
+
+### SFX NAMES (GEN_NPC_ZED2.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (GEN_NPC_ZED2.bnk)
+NPC_Position
+
+### EVENT NAMES (GEN_NPC_ZED3.bnk)
+VO_00GEN_NPC_ZED3_010_Zed
+VO_00GEN_NPC_ZED3_020_Zuke
+VO_00GEN_NPC_ZED3_030_Zed
+VO_00GEN_NPC_ZED3_040_Zed
+VO_00GEN_NPC_ZED3_050_Zed
+VO_00GEN_NPC_ZED3_060_Mayday
+VO_00GEN_NPC_ZED3_070_Zed
+VO_00GEN_NPC_ZED3_080_Zuke
+
+### SFX NAMES (GEN_NPC_ZED3.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (GEN_NPC_ZED3.bnk)
+NPC_Position
+
+### EVENT NAMES (GEN_NPC_ZED4.bnk)
+VO_00GEN_NPC_ZED4_010A_Mayday
+VO_00GEN_NPC_ZED4_010B_Mayday
+VO_00GEN_NPC_ZED4_020A_Zed
+VO_00GEN_NPC_ZED4_020B_Zuke
+VO_00GEN_NPC_ZED4_030B_Mayday
+
+### SFX NAMES (GEN_NPC_ZED4.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (GEN_NPC_ZED4.bnk)
+NPC_Position
+
+### SFX NAMES (Init.bnk)
+_1_Second_Delay
+Audition_A1_Reverb
+Audition_A2_Reverb
+Audition_A3_Reverb
+Audition_P1_P2_Reverb
+Audition_Z1_Z4_Reverb
+bgm_djgalaxy_tine_delay
+Church_Small_Wood
+Deep
+Dialog_Leveler_Hard
+Dialog_Leveler_Soft
+djgalaxy_bandpass
+DJGalaxy_Character_Reverb
+Fear_no_Evil
+Hall_Large_Dark
+Hall_Large_TooBright
+Hall_Medium
+Hall_Medium_Dark
+Hall_Small_Bright
+Holy
+In_My_Car
+Low_Pass_20KHz
+Many_Odd_Harm_Peaks
+Medium
+Medium_Room1
+Monsterize
+No_Output
+NSR_Limiter
+Octave_Down
+One_Tap_Quarter_Second
+Phone_Booth
+Room_Large
+Room_Medium
+Room_Medium_High_Absorbtion
+Room_Small
+Say_what
+Standard
+System
+vo_djgalaxy_compressor
+vo_djgalaxy_flanger
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+audition_hallway_progress
+audition_outdoor_progress
+BGM
+boss1_verb
+boss1_vox
+BossPlayerDist
+ceo
+CEO_timer_distance
+ceo_vox
+city_light_flicker
+COI_speed
+crowd_intensity
+DGL
+DGX
+di_flange
+DIV
+diva_change
+diva_warning
+dj_galaxy_club_filter
+djg_glass_break
+djg_orbital_rotate
+djg_shockwave
+djg_spin_speed
+DKW
+FIN
+fin_fire
+fin_music
+fin_QWASA
+KPR
+Master
+mayday_coi_active
+mayday_special_explosion
+MNC
+NPC_Position
+occlusion
+playback_speed
+player_actions
+QWASA_distance
+railing_pitch
+sayu_vox
+SFX
+song_filter
+song_tremolo
+SS_AIR_FEAR
+SS_AIR_FREEFALL
+SS_AIR_FURY
+SS_AIR_MONTH
+SS_AIR_PRESENCE
+SS_AIR_RPM
+SS_AIR_SIZE
+SS_AIR_STORM
+SS_AIR_TIMEOFDAY
+SS_AIR_TURBULENCE
+STG
+sweep_filter
+VO
+zuke_coi_active
+# 15862211
+# 1137625945
+# 1775869059
+# 2550720454
+# 3587827325
+
+### VARIABLE NAMES (Init.bnk)
+AudioCue
+BossPhase
+CharacterSwitch
+Click_On_Off
+ClockAmb
+DigitalIdolChanting
+DigitalIdolLyrics
+DigitalIdolState
+DJGalaxyState
+DKWVoice
+KpopP4
+level
+Mix
+MotherState
+NoteBounceMix
+PostAuditionState
+SewerDecorItems
+SewerDecorVolume
+SewerLocation
+SpatializerState
+TimerCountdown
+TimerSpeed
+
+### VALUE NAMES (Init.bnk)
+Battle
+Cutscene
+djgalaxy
+off
+on
+Select
+
+### EVENT NAMES (KPR_NPC_MSE.bnk)
+VO_07KPR_NPC_MSE_010_Elitist
+VO_07KPR_NPC_MSE_020_Elitist
+VO_07KPR_NPC_MSE_030_Elitist
+
+### SFX NAMES (KPR_NPC_MSE.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPR_NPC_MSE.bnk)
+NPC_Position
+
+### EVENT NAMES (KPR_NPC_NOF.bnk)
+VO_07KPR_NPC_NOF_010_Mayday
+VO_07KPR_NPC_NOF_020_Mayday
+VO_07KPR_NPC_NOF_030A_Kliff
+VO_07KPR_NPC_NOF_040A_Kliff
+VO_07KPR_NPC_NOF_050_Zuke
+VO_07KPR_NPC_NOF_060_Mayday
+VO_07KPR_NPC_NOF_070A_Kliff
+VO_07KPR_NPC_NOF_080A_Kliff
+VO_07KPR_NPC_NOF_090_Zuke
+VO_07KPR_NPC_NOF_100A_Kliff
+VO_07KPR_NPC_NOF_110A_Kliff
+VO_07KPR_NPC_NOF_120_Mayday
+VO_07KPR_NPC_NOF_130_Zuke
+VO_07KPR_NPC_NOF_140_Mayday
+VO_07KPR_NPC_NOF_150A_Kliff
+
+### SFX NAMES (KPR_NPC_NOF.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPR_NPC_NOF.bnk)
+NPC_Position
+
+### EVENT NAMES (KPR_PV.bnk)
+pv_07KPR
+pv_07KPR_stop
+VO_07KPR_pv_010_1010member
+VO_07KPR_pv_020_1010member1
+VO_07KPR_pv_020_1010member2
+VO_07KPR_pv_020_1010member3
+VO_07KPR_pv_020_1010member4
+VO_07KPR_pv_070_091_151_1010member
+VO_07KPR_pv_080_100_160_1010member1
+VO_07KPR_pv_080_100_160_1010member2
+VO_07KPR_pv_080_100_160_1010member3
+VO_07KPR_pv_080_100_160_1010member4
+VO_07KPR_pv_090_1010member
+VO_07KPR_pv_110_1010member_part_1
+VO_07KPR_pv_110_1010member_part_2
+VO_07KPR_pv_120_1010member2
+VO_07KPR_pv_120_1010member3
+VO_07KPR_pv_130_1010member
+VO_07KPR_pv_140_1010member4
+VO_07KPR_pv_140_1010member5
+VO_07KPR_pv_150_1010member
+VO_07KPR_pv_170_1010member
+VO_07KPR_pv_180_1010member
+VO_07KPR_pv_180_1010member2
+VO_07KPR_pv_180_1010member3
+VO_07KPR_pv_180_1010member4
+VO_07KPR_pv_190_1010member_part_1
+VO_07KPR_pv_190_1010member_part_2
+VO_07KPR_pv_200_1010member
+VO_07KPR_pv_200_1010member2
+VO_07KPR_pv_200_1010member3
+VO_07KPR_pv_200_1010member4
+VO_07KPR_pv_200_1010member5
+VO_07KPR_pv_210_1010member
+VO_07KPR_pv_220_NSRannouncer
+VO_07KPR_pv_230_1010member
+VO_07KPR_pv_230_1010member2
+VO_07KPR_pv_230_1010member3
+VO_07KPR_pv_230_1010member4
+VO_07KPR_pv_230_1010member5
+
+### EVENT NAMES (KPRz_NPC_DXT.bnk)
+VO_07KPRz_NPC_DXT_010Anor_Mayday
+VO_07KPRz_NPC_DXT_010Bre_Retdex
+VO_07KPRz_NPC_DXT_010Cre_Retdex
+VO_07KPRz_NPC_DXT_010Dre_Retdex
+VO_07KPRz_NPC_DXT_010Ere_Retdex
+VO_07KPRz_NPC_DXT_010Fre_Retdex
+VO_07KPRz_NPC_DXT_020Anor_Retdex
+VO_07KPRz_NPC_DXT_020Bre_Retdex
+VO_07KPRz_NPC_DXT_020Cre_Retdex
+VO_07KPRz_NPC_DXT_020Dre_Retdex
+VO_07KPRz_NPC_DXT_020Ere_Retdex
+VO_07KPRz_NPC_DXT_020Fre_Retdex
+VO_07KPRz_NPC_DXT_030Anor_Mayday
+VO_07KPRz_NPC_DXT_030Bre_Mayday
+VO_07KPRz_NPC_DXT_030Cre_Retdex
+VO_07KPRz_NPC_DXT_030Dre_Retdex
+VO_07KPRz_NPC_DXT_030Ere_Retdex
+VO_07KPRz_NPC_DXT_030Fre_Retdex
+VO_07KPRz_NPC_DXT_040Anor_Retdex
+VO_07KPRz_NPC_DXT_040Bre_Retdex
+VO_07KPRz_NPC_DXT_050Anor_Zuke
+VO_07KPRz_NPC_DXT_050Bre_Retdex
+VO_07KPRz_NPC_DXT_060Anor_Retdex
+VO_07KPRz_NPC_DXT_060Bre_Mayday
+VO_07KPRz_NPC_DXT_070Anor_Mayday
+VO_07KPRz_NPC_DXT_070Bre_Retdex
+VO_07KPRz_NPC_DXT_080Anor_Retdex
+VO_07KPRz_NPC_DXT_080Bre_Retdex
+
+### SFX NAMES (KPRz_NPC_DXT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPRz_NPC_DXT.bnk)
+NPC_Position
+
+### EVENT NAMES (KPRz_NPC_FCP.bnk)
+VO_07KPRz_NPC_FCP_010A_President
+VO_07KPRz_NPC_FCP_010B_President
+
+### SFX NAMES (KPRz_NPC_FCP.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPRz_NPC_FCP.bnk)
+NPC_Position
+
+### EVENT NAMES (KPRz_NPC_FSN.bnk)
+VO_07KPRz_NPC_FSN_010A_Fashionista
+VO_07KPRz_NPC_FSN_010B_Fashionista
+VO_07KPRz_NPC_FSN_020A_Fashionista
+VO_07KPRz_NPC_FSN_020B_Fashionista
+VO_07KPRz_NPC_FSN_030A_Fashionista
+
+### SFX NAMES (KPRz_NPC_FSN.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPRz_NPC_FSN.bnk)
+NPC_Position
+
+### EVENT NAMES (KPRz_NPC_FSO.bnk)
+VO_07KPRz_NPC_FSO_010Anor_Mayday
+VO_07KPRz_NPC_FSO_010Bre_StallOwner
+VO_07KPRz_NPC_FSO_020Anor_StallOwner
+VO_07KPRz_NPC_FSO_030Anor_Zuke
+VO_07KPRz_NPC_FSO_040Anor_Mayday
+
+### SFX NAMES (KPRz_NPC_FSO.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPRz_NPC_FSO.bnk)
+NPC_Position
+
+### EVENT NAMES (KPRz_NPC_GNG.bnk)
+VO_07KPRz_NPC_GNG_010A_Mayday
+VO_07KPRz_NPC_GNG_010B_Gangster
+VO_07KPRz_NPC_GNG_010C_Gangster
+VO_07KPRz_NPC_GNG_020A_Gangster
+VO_07KPRz_NPC_GNG_020B_Gangster
+VO_07KPRz_NPC_GNG_020C_Gangster
+VO_07KPRz_NPC_GNG_030A_Gangster
+VO_07KPRz_NPC_GNG_030B_Gangster
+VO_07KPRz_NPC_GNG_030C_Gangster
+VO_07KPRz_NPC_GNG_040A_Mayday
+VO_07KPRz_NPC_GNG_040B_Gangster
+VO_07KPRz_NPC_GNG_040C_Mayday
+VO_07KPRz_NPC_GNG_050A_Gangster
+VO_07KPRz_NPC_GNG_050B_Zuke
+VO_07KPRz_NPC_GNG_050C_Gangster
+VO_07KPRz_NPC_GNG_060A_Mayday
+VO_07KPRz_NPC_GNG_060C_Mayday
+VO_07KPRz_NPC_GNG_070A_Zuke
+VO_07KPRz_NPC_GNG_080A_Gangster
+VO_07KPRz_NPC_GNG_090A_Gangster
+VO_07KPRz_NPC_GNG_100A_Zuke
+VO_07KPRz_NPC_GNG_110A_Gangster
+
+### SFX NAMES (KPRz_NPC_GNG.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPRz_NPC_GNG.bnk)
+NPC_Position
+
+### EVENT NAMES (KPRz_NPC_JNL.bnk)
+VO_07KPRz_NPC_JNL_010A_Barbara
+VO_07KPRz_NPC_JNL_020A_Barbara
+VO_07KPRz_NPC_JNL_040A_Mayday
+VO_07KPRz_NPC_JNL_050A_Barbara
+VO_07KPRz_NPC_JNL_060A_Mayday
+VO_07KPRz_NPC_JNL_070A_Mayday
+VO_07KPRz_NPC_JNL_090A_Mayday
+VO_07KPRz_NPC_JNL_100A_Zuke
+
+### SFX NAMES (KPRz_NPC_JNL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPRz_NPC_JNL.bnk)
+NPC_Position
+
+### EVENT NAMES (KPRz_NPC_MSE.bnk)
+VO_07KPRz_NPC_MSE_010A_Elitist
+VO_07KPRz_NPC_MSE_010B_Elitist
+VO_07KPRz_NPC_MSE_010C_Elitist
+VO_07KPRz_NPC_MSE_020A_Elitist
+VO_07KPRz_NPC_MSE_020C_Elitist
+VO_07KPRz_NPC_MSE_030A_Elitist
+VO_07KPRz_NPC_MSE_040A_Elitist
+VO_07KPRz_NPC_MSE_050A_Elitist
+
+### SFX NAMES (KPRz_NPC_MSE.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPRz_NPC_MSE.bnk)
+NPC_Position
+
+### EVENT NAMES (KPRz_NPC_POL.bnk)
+VO_07KPRz_NPC_POL_010A_Policeman
+VO_07KPRz_NPC_POL_010B_Policeman
+VO_07KPRz_NPC_POL_020A_Policeman
+VO_07KPRz_NPC_POL_020B_Policeman
+
+### SFX NAMES (KPRz_NPC_POL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPRz_NPC_POL.bnk)
+NPC_Position
+
+### EVENT NAMES (KPRz_NPC_QWT.bnk)
+VO_07KPRz_NPC_QWT_010Anor_Mayday
+VO_07KPRz_NPC_QWT_020Anor_Timmy
+VO_07KPRz_NPC_QWT_030Anor_Zuke
+VO_07KPRz_NPC_QWT_040Anor_Timmy
+VO_07KPRz_NPC_QWT_050Anor_Zuke
+VO_07KPRz_NPC_QWT_060Anor_Timmy
+VO_07KPRz_NPC_QWT_070Anor_Mayday
+
+### SFX NAMES (KPRz_NPC_QWT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPRz_NPC_QWT.bnk)
+NPC_Position
+
+### EVENT NAMES (KPRz_NPC_RBT.bnk)
+VO_07KPRz_NPC_RBT_010A_Robot
+VO_07KPRz_NPC_RBT_010Bnor_Robot
+VO_07KPRz_NPC_RBT_020A_Zuke
+VO_07KPRz_NPC_RBT_020Bnor_Mayday
+VO_07KPRz_NPC_RBT_030A_Robot
+VO_07KPRz_NPC_RBT_030Bnor_Zuke
+VO_07KPRz_NPC_RBT_040A_Zuke
+VO_07KPRz_NPC_RBT_040Bnor_Mayday
+VO_07KPRz_NPC_RBT_050A_Robot
+VO_07KPRz_NPC_RBT_060A_Zuke
+
+### SFX NAMES (KPRz_NPC_RBT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPRz_NPC_RBT.bnk)
+NPC_Position
+
+### EVENT NAMES (KPRz_NPC_RDJ.bnk)
+VO_07KPRz_NPC_RDJ_010_Zam
+VO_07KPRz_NPC_RDJ_020_Zam
+VO_07KPRz_NPC_RDJ_030_Zam
+VO_07KPRz_NPC_RDJ_040_Arnold
+VO_07KPRz_NPC_RDJ_060_Mayday
+VO_07KPRz_NPC_RDJ_060_Zuke
+VO_07KPRz_NPC_RDJ_070_Arnold
+VO_07KPRz_NPC_RDJ_080_Arnold
+VO_07KPRz_NPC_RDJ_090_Arnold
+VO_07KPRz_NPC_RDJ_100_Zuke
+VO_07KPRz_NPC_RDJ_110_Mayday
+VO_07KPRz_NPC_RDJ_120_Zuke
+VO_07KPRz_NPC_RDJ_130_Mayday
+VO_07KPRz_NPC_RDJ_140_Zuke
+VO_07KPRz_NPC_RDJ_150_Mayday
+VO_07KPRz_NPC_RDJ_160_Zam
+VO_07KPRz_NPC_RDJ_170_Arnold
+VO_07KPRz_NPC_RDJ_180_Zuke
+VO_07KPRz_NPC_RDJ_190_Arnold
+VO_07KPRz_NPC_RDJ_200_Zuke
+VO_07KPRz_NPC_RDJ_210_Zam
+VO_07KPRz_NPC_RDJ_220_Mayday
+VO_07KPRz_NPC_RDJ_230_Zuke
+VO_07KPRz_NPC_RDJ_240_Mayday
+VO_07KPRz_NPC_RDJ_250_Zuke
+VO_07KPRz_NPC_RDJ_260_Mayday
+VO_07KPRz_NPC_RDJ_270_Zuke
+VO_07KPRz_NPC_RDJ_280_Mayday
+VO_07KPRz_NPC_RDJ_290_Zuke
+VO_07KPRz_NPC_RDJ_300_Mayday
+VO_07KPRz_NPC_RDJ_310_Zuke
+VO_07KPRz_NPC_RDJ_320_Zuke
+VO_07KPRz_NPC_RDJ_330_Mayday
+VO_07KPRz_NPC_RDJ_340_Zam
+VO_07KPRz_NPC_RDJ_350_Zam
+VO_07KPRz_NPC_RDJ_360_Zam
+VO_07KPRz_NPC_RDJ_370_Zam
+
+### SFX NAMES (KPRz_NPC_RDJ.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPRz_NPC_RDJ.bnk)
+NPC_Position
+
+### EVENT NAMES (KPRz_NPC_UNC.bnk)
+VO_07KPRz_NPC_UNC_010A_Amal
+VO_07KPRz_NPC_UNC_010B_Mayday
+VO_07KPRz_NPC_UNC_020A_Mayday
+VO_07KPRz_NPC_UNC_020B_Amal
+VO_07KPRz_NPC_UNC_030A_Amal
+VO_07KPRz_NPC_UNC_030B_Mayday
+VO_07KPRz_NPC_UNC_040A_Mayday
+VO_07KPRz_NPC_UNC_050A_Amal
+VO_07KPRz_NPC_UNC_060A_Amal
+
+### SFX NAMES (KPRz_NPC_UNC.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPRz_NPC_UNC.bnk)
+NPC_Position
+
+### EVENT NAMES (KPRz_NPC_WCL.bnk)
+VO_07KPRz_NPC_WCL_010A_Cleaner
+VO_07KPRz_NPC_WCL_020A_Cleaner
+VO_07KPRz_NPC_WCL_030A_Cleaner
+
+### SFX NAMES (KPRz_NPC_WCL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (KPRz_NPC_WCL.bnk)
+NPC_Position
+
+### EVENT NAMES (MNC_NPC_MSE.bnk)
+VO_06MNC_NPC_MSE_010_Elitist
+VO_06MNC_NPC_MSE_020_Elitist
+
+### SFX NAMES (MNC_NPC_MSE.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNC_NPC_MSE.bnk)
+NPC_Position
+
+### EVENT NAMES (MNC_NPC_NOF.bnk)
+VO_06MNC_NPC_NOF_010A_Kliff
+VO_06MNC_NPC_NOF_020_Mayday
+VO_06MNC_NPC_NOF_030A_Kliff
+VO_06MNC_NPC_NOF_040_Zuke
+VO_06MNC_NPC_NOF_050A_Kliff
+VO_06MNC_NPC_NOF_060_Zuke
+VO_06MNC_NPC_NOF_070A_Kliff
+VO_06MNC_NPC_NOF_080_Zuke
+VO_06MNC_NPC_NOF_090A_Kliff
+VO_06MNC_NPC_NOF_100A_Kliff
+VO_06MNC_NPC_NOF_110_Mayday
+VO_06MNC_NPC_NOF_120A_Kliff
+VO_06MNC_NPC_NOF_130_Mayday
+VO_06MNC_NPC_NOF_140_Zuke
+VO_06MNC_NPC_NOF_150A_Kliff
+VO_06MNC_NPC_NOF_160_Mayday
+VO_06MNC_NPC_NOF_170A_Kliff
+
+### SFX NAMES (MNC_NPC_NOF.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNC_NPC_NOF.bnk)
+NPC_Position
+
+### EVENT NAMES (MNC_PV.bnk)
+pv_06MNC
+pv_06MNC_stop
+VO_06MNC_pv_010_NSRannouncer
+VO_06MNC_pv_020_Yinu
+VO_06MNC_pv_030_NSRannouncer
+VO_06MNC_pv_031_NSRannouncer
+VO_06MNC_pv_040_Yinu
+VO_06MNC_pv_050_NSRannouncer
+VO_06MNC_pv_060_Yinu
+VO_06MNC_pv_070_NSRannouncer
+VO_06MNC_pv_080_Yinu
+VO_06MNC_pv_090_NSRannouncer
+
+### EVENT NAMES (MNCz_NPC_CPT.bnk)
+VO_06MNCz_NPC_CPT_010Anor_CaptainTorpedo
+VO_06MNCz_NPC_CPT_010Bre_CaptainTorpedo
+VO_06MNCz_NPC_CPT_010Cre_CaptainTorpedo
+VO_06MNCz_NPC_CPT_020Anor_Mayday
+VO_06MNCz_NPC_CPT_020Cre_CaptainTorpedo
+VO_06MNCz_NPC_CPT_030Anor_CaptainTorpedo
+VO_06MNCz_NPC_CPT_030Cre_CaptainTorpedo
+VO_06MNCz_NPC_CPT_040Anor_CaptainTorpedo
+VO_06MNCz_NPC_CPT_050Anor_CaptainTorpedo
+VO_06MNCz_NPC_CPT_060Anor_CaptainTorpedo
+
+### SFX NAMES (MNCz_NPC_CPT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNCz_NPC_CPT.bnk)
+NPC_Position
+
+### EVENT NAMES (MNCz_NPC_FCP.bnk)
+VO_06MNCz_NPC_FCP_010A_President
+VO_06MNCz_NPC_FCP_010B_President
+VO_06MNCz_NPC_FCP_020B_President
+VO_06MNCz_NPC_FCP_030B_President
+
+### SFX NAMES (MNCz_NPC_FCP.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNCz_NPC_FCP.bnk)
+NPC_Position
+
+### EVENT NAMES (MNCz_NPC_FSO.bnk)
+VO_06MNCz_NPC_FSO_010A_StallOwner
+VO_06MNCz_NPC_FSO_010B_StallOwner
+VO_06MNCz_NPC_FSO_020A_StallOwner
+VO_06MNCz_NPC_FSO_020B_StallOwner
+VO_06MNCz_NPC_FSO_030A_StallOwner
+VO_06MNCz_NPC_FSO_030B_StallOwner
+VO_06MNCz_NPC_FSO_040B_Mayday
+
+### SFX NAMES (MNCz_NPC_FSO.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNCz_NPC_FSO.bnk)
+NPC_Position
+
+### EVENT NAMES (MNCz_NPC_GNG.bnk)
+VO_06MNCz_NPC_GNG_010Anor_Gangster
+VO_06MNCz_NPC_GNG_010B_Gangster
+VO_06MNCz_NPC_GNG_020Anor_Mayday
+VO_06MNCz_NPC_GNG_020B_Zuke
+VO_06MNCz_NPC_GNG_030Anor_Gangster
+VO_06MNCz_NPC_GNG_030B_Gangster
+VO_06MNCz_NPC_GNG_040Anor_Zuke
+VO_06MNCz_NPC_GNG_040B_Mayday
+VO_06MNCz_NPC_GNG_050Anor_Zuke
+VO_06MNCz_NPC_GNG_060Anor_Gangster
+VO_06MNCz_NPC_GNG_070Anor_Mayday
+VO_06MNCz_NPC_GNG_080Anor_Gangster
+
+### SFX NAMES (MNCz_NPC_GNG.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNCz_NPC_GNG.bnk)
+NPC_Position
+
+### EVENT NAMES (MNCz_NPC_IBA.bnk)
+VO_06MNCz_NPC_IBA_010Are_Mayday
+VO_06MNCz_NPC_IBA_020Are_Mia
+VO_06MNCz_NPC_IBA_020Bre_Mia
+VO_06MNCz_NPC_IBA_030Are_Mia
+VO_06MNCz_NPC_IBA_030Bre_Mayday
+VO_06MNCz_NPC_IBA_040Are_Mayday
+VO_06MNCz_NPC_IBA_040Are_Mia
+VO_06MNCz_NPC_IBA_050Are_Mia
+VO_06MNCz_NPC_IBA_050Bre_Mayday
+VO_06MNCz_NPC_IBA_060Are_Mia
+
+### SFX NAMES (MNCz_NPC_IBA.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNCz_NPC_IBA.bnk)
+NPC_Position
+
+### EVENT NAMES (MNCz_NPC_JNL.bnk)
+VO_06MNCz_NPC_JNL_010A_Mayday
+VO_06MNCz_NPC_JNL_020A_Zuke
+VO_06MNCz_NPC_JNL_030A_Barbara
+VO_06MNCz_NPC_JNL_040A_Zuke
+VO_06MNCz_NPC_JNL_050A_Barbara
+
+### SFX NAMES (MNCz_NPC_JNL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNCz_NPC_JNL.bnk)
+NPC_Position
+
+### EVENT NAMES (MNCz_NPC_MSE.bnk)
+VO_06MNCz_NPC_MSE_010A_Elitist
+VO_06MNCz_NPC_MSE_010B_Elitist
+VO_06MNCz_NPC_MSE_010C_Elitist
+VO_06MNCz_NPC_MSE_020A_Elitist
+VO_06MNCz_NPC_MSE_020C_Elitist
+VO_06MNCz_NPC_MSE_030A_Elitist
+VO_06MNCz_NPC_MSE_030C_Elitist
+VO_06MNCz_NPC_MSE_040A_Elitist
+VO_06MNCz_NPC_MSE_050A_Elitist
+
+### SFX NAMES (MNCz_NPC_MSE.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNCz_NPC_MSE.bnk)
+NPC_Position
+
+### EVENT NAMES (MNCz_NPC_POL.bnk)
+VO_06MNCz_NPC_POL_010A_Policeman
+VO_06MNCz_NPC_POL_010B_Policeman
+VO_06MNCz_NPC_POL_020A_Policeman
+VO_06MNCz_NPC_POL_020B_Policeman
+VO_06MNCz_NPC_POL_030B_Policeman
+
+### SFX NAMES (MNCz_NPC_POL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNCz_NPC_POL.bnk)
+NPC_Position
+
+### EVENT NAMES (MNCz_NPC_QWT.bnk)
+VO_06MNCz_NPC_QWT_010A_Timmy
+VO_06MNCz_NPC_QWT_010Bre_Timmy
+VO_06MNCz_NPC_QWT_020A_Mayday
+VO_06MNCz_NPC_QWT_020Bre_Timmy
+VO_06MNCz_NPC_QWT_030A_Timmy
+VO_06MNCz_NPC_QWT_030Bre_Timmy
+VO_06MNCz_NPC_QWT_040A_Zuke
+VO_06MNCz_NPC_QWT_040Bre_Timmy
+VO_06MNCz_NPC_QWT_050A_Mayday
+VO_06MNCz_NPC_QWT_050Bre_Timmy
+VO_06MNCz_NPC_QWT_060A_Zuke
+VO_06MNCz_NPC_QWT_060Bre_Timmy
+
+### SFX NAMES (MNCz_NPC_QWT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNCz_NPC_QWT.bnk)
+NPC_Position
+
+### EVENT NAMES (MNCz_NPC_RBT.bnk)
+VO_06MNCz_NPC_RBT_010Anor_Robot
+VO_06MNCz_NPC_RBT_010Bre_Robot
+VO_06MNCz_NPC_RBT_020Anor_Mayday
+VO_06MNCz_NPC_RBT_020Bre_Zuke
+VO_06MNCz_NPC_RBT_030Anor_Zuke
+VO_06MNCz_NPC_RBT_030Bre_Mayday
+VO_06MNCz_NPC_RBT_040Anor_Robot
+VO_06MNCz_NPC_RBT_040Bre_Robot
+VO_06MNCz_NPC_RBT_050Anor_Zuke
+VO_06MNCz_NPC_RBT_060Anor_Mayday
+
+### SFX NAMES (MNCz_NPC_RBT.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNCz_NPC_RBT.bnk)
+NPC_Position
+
+### EVENT NAMES (MNCz_NPC_RDJ.bnk)
+VO_06MNCz_NPC_RDJ_010_Zam
+VO_06MNCz_NPC_RDJ_020_Zam
+VO_06MNCz_NPC_RDJ_030_Mayday
+VO_06MNCz_NPC_RDJ_040_Zuke
+VO_06MNCz_NPC_RDJ_050_Zam
+VO_06MNCz_NPC_RDJ_060_Zuke
+VO_06MNCz_NPC_RDJ_070_Mayday
+VO_06MNCz_NPC_RDJ_080_Zam
+VO_06MNCz_NPC_RDJ_090_Jenny
+VO_06MNCz_NPC_RDJ_100_Mayday
+VO_06MNCz_NPC_RDJ_110_Zuke
+VO_06MNCz_NPC_RDJ_120_Jenny
+VO_06MNCz_NPC_RDJ_130_Zam
+VO_06MNCz_NPC_RDJ_140_Jenny
+VO_06MNCz_NPC_RDJ_150_Jenny
+VO_06MNCz_NPC_RDJ_160_Mayday
+VO_06MNCz_NPC_RDJ_170_Zuke
+VO_06MNCz_NPC_RDJ_180_Jenny
+VO_06MNCz_NPC_RDJ_190_Zuke
+VO_06MNCz_NPC_RDJ_200_Mayday
+VO_06MNCz_NPC_RDJ_210_Mayday
+VO_06MNCz_NPC_RDJ_220_Zuke
+VO_06MNCz_NPC_RDJ_230_Mayday
+VO_06MNCz_NPC_RDJ_240_Zuke
+VO_06MNCz_NPC_RDJ_250_Mayday
+VO_06MNCz_NPC_RDJ_260_Jenny
+VO_06MNCz_NPC_RDJ_270_Mayday
+VO_06MNCz_NPC_RDJ_280_Mayday
+VO_06MNCz_NPC_RDJ_290_Zuke
+VO_06MNCz_NPC_RDJ_300_Mayday
+VO_06MNCz_NPC_RDJ_310_Zuke
+VO_06MNCz_NPC_RDJ_320_Mayday
+VO_06MNCz_NPC_RDJ_330_Mayday
+VO_06MNCz_NPC_RDJ_340_Zuke
+VO_06MNCz_NPC_RDJ_350_Mayday
+VO_06MNCz_NPC_RDJ_360_Zuke
+VO_06MNCz_NPC_RDJ_370_Zam
+VO_06MNCz_NPC_RDJ_380_Jenny
+VO_06MNCz_NPC_RDJ_390_Mayday
+VO_06MNCz_NPC_RDJ_400_Zuke
+VO_06MNCz_NPC_RDJ_410_Zam
+
+### SFX NAMES (MNCz_NPC_RDJ.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNCz_NPC_RDJ.bnk)
+NPC_Position
+
+### EVENT NAMES (MNCz_NPC_UNC.bnk)
+VO_06MNCz_NPC_UNC_010A_Mayday
+VO_06MNCz_NPC_UNC_020A_Mayday
+VO_06MNCz_NPC_UNC_030A_Amal
+VO_06MNCz_NPC_UNC_040A_Zuke
+VO_06MNCz_NPC_UNC_050A_Mayday
+
+### SFX NAMES (MNCz_NPC_UNC.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNCz_NPC_UNC.bnk)
+NPC_Position
+
+### EVENT NAMES (MNCz_NPC_WCL.bnk)
+VO_06MNCz_NPC_WCL_010Anor_Cleaner
+VO_06MNCz_NPC_WCL_010B_Cleaner
+VO_06MNCz_NPC_WCL_020Anor_Cleaner
+
+### SFX NAMES (MNCz_NPC_WCL.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (MNCz_NPC_WCL.bnk)
+NPC_Position
+
+### EVENT NAMES (MainMenu.bnk)
+bgm_mainmenu
+bgm_mainmenu_stop
+bgm_TGSTrailer
+
+### EVENT NAMES (PP1_VO.bnk)
+bgm_postpunch_01
+sfx_PP1_phone_ring
+sfx_PP1_phone_send
+sfx_PP1_phone_tap
+sfx_PP1_TV_punch
+VO_00GEN_PP1_P1A_cine_010_Newscaster
+VO_00GEN_PP1_P1A_cine_020_Newscaster
+VO_00GEN_PP1_P1A_cine_030_Newscaster
+VO_00GEN_PP1_P1A_cine_040_Tatiana
+VO_00GEN_PP1_P1A_cine_041_Mayday
+VO_00GEN_PP1_P1A_cine_050_Zuke
+VO_00GEN_PP1_P1A_cine_060_Mayday
+VO_00GEN_PP1_P1A_cine_070_Zuke
+VO_00GEN_PP1_P1A_cine_080_Mayday
+VO_00GEN_PP1_P1A_cine_090_Mayday
+VO_00GEN_PP1_P1A_cine_100_Zuke
+VO_00GEN_PP1_P1A_cine_110_Mayday
+VO_00GEN_PP1_P1A_cine_120_Zuke
+VO_00GEN_PP1_P1A_cine_130_Mayday
+VO_00GEN_PP1_P1A_cine_140_Zuke
+VO_00GEN_PP1_P1A_cine_150_Mayday
+VO_00GEN_PP1_P1A_cine_160_Zuke
+VO_00GEN_PP1_P1A_cine_170_Mayday
+VO_00GEN_PP1_P1A_cine_180_Zuke
+VO_00GEN_PP1_P1A_cine_190_Mayday
+VO_00GEN_PP1_P1A_cine_200_Zuke
+VO_00GEN_PP1_P1A_cine_210_Mayday
+VO_00GEN_PP1_P1A_cine_220_Zuke
+VO_00GEN_PP1_P1A_cine_230_Mayday
+VO_00GEN_PP1_P1A_cine_240_Mayday
+VO_00GEN_PP1_P1A_cine_250_Zuke
+
+### EVENT NAMES (PP2_VO.bnk)
+bgm_postpunch_02
+sfx_diva_foley_footstep_walk_PP
+sfx_PostPunch_Horn
+sfx_PP2_crickets
+sfx_PP2_crickets_stop
+sfx_PP2_fist_pound
+sfx_PP2_opendoor
+sfx_PP2_pluckgrass
+sfx_PP2_TV_punch
+VO_00GEN_PP2_P1A_cine_010_Newscaster
+VO_00GEN_PP2_P1A_cine_020_Reporter
+VO_00GEN_PP2_P1A_cine_030_Mayday
+VO_00GEN_PP2_P1A_cine_040_Reporter
+VO_00GEN_PP2_P1A_cine_050_Mayday
+VO_00GEN_PP2_P1A_cine_060_Eve
+VO_00GEN_PP2_P1A_cine_070_Tatiana
+VO_00GEN_PP2_P1A_cine_080_Eve
+VO_00GEN_PP2_P1A_cine_090_Tatiana
+VO_00GEN_PP2_P3A_cine_010_DKWest
+VO_00GEN_PP2_P3A_cine_020_DKWest
+VO_00GEN_PP2_P4A_cine_010_DKWest
+VO_00GEN_PP2_P4A_cine_020_Tatiana
+VO_00GEN_PP2_P4A_cine_030_DKWest
+VO_00GEN_PP2_P4A_cine_040_Eve
+VO_00GEN_PP2_P4A_cine_050_DKWest
+VO_00GEN_PP2_P4A_cine_060_Eve
+VO_00GEN_PP2_P4A_cine_070_DKWest
+VO_00GEN_PP2_P4A_cine_080_Tatiana
+VO_00GEN_PP2_P4A_cine_090_DKWest
+VO_00GEN_PP2_P4A_cine_100_Tatiana
+VO_00GEN_PP2_P4A_cine_110_DKWest
+VO_00GEN_PP2_P4A_cine_120_Tatiana
+VO_00GEN_PP2_P4A_cine_130_DKWest
+
+### SFX NAMES (PP2_VO.bnk)
+Dual_Filters_Narrow_Bandwidth
+
+### EVENT NAMES (PP3_VO.bnk)
+bgm_postpunch_03
+sfx_PP3_TV_punch
+VO_00GEN_PP3_P1A_cine_010_ChefSunshine
+VO_00GEN_PP3_P1A_cine_011_Mayday
+VO_00GEN_PP3_P1A_cine_020_Zuke
+VO_00GEN_PP3_P1A_cine_030_Mayday
+VO_00GEN_PP3_P1A_cine_040_Zuke
+VO_00GEN_PP3_P1A_cine_050_Mayday
+VO_00GEN_PP3_P1A_cine_060_Zuke
+
+### SFX NAMES (PP3_VO.bnk)
+Dual_Filters_Narrow_Bandwidth
+
+### EVENT NAMES (Poster_VO.bnk)
+VO_00GEN_POS1_game_010_Mayday
+VO_00GEN_POS1_game_020_Mayday
+VO_00GEN_POS1_game_030_Mayday
+VO_00GEN_POS1_game_040_Mayday
+VO_00GEN_POS1_game_050_Mayday
+VO_00GEN_POS1_game_060_Mayday
+VO_00GEN_POS2_game_010_Kliff
+VO_00GEN_POS2_game_020_Mayday
+VO_00GEN_POS2_game_030_Zuke
+VO_00GEN_POS2_game_040_Mayday
+VO_00GEN_POS2_game_050_Kliff
+VO_00GEN_POS2_game_060_Mayday
+VO_00GEN_POS2_game_070_Kliff
+VO_00GEN_POS2_game_080_Mayday
+VO_00GEN_POS2_game_090_Kliff
+VO_00GEN_POS2_game_100_Mayday
+VO_00GEN_POS2_game_110_Kliff
+VO_00GEN_POS2_game_120_Mayday
+VO_00GEN_POS2_game_130_Kliff
+VO_00GEN_POS2_game_140_Mayday
+VO_00GEN_POS3_game_010_Mayday
+VO_00GEN_POS3_game_020_Kliff
+VO_00GEN_POS3_game_030_Mayday
+
+### EVENT NAMES (Props.bnk)
+prop_box_hit
+prop_destroy
+prop_drop
+prop_health_consume
+prop_land
+prop_mechanical_transform_A
+prop_mechanical_transform_B
+prop_mechanical_transform_C
+prop_metronome
+
+### EVENT NAMES (Sewers_BGM.bnk)
+bgm_masterwolfe
+bgm_sewer
+
+### RTPC/GAME-VARIABLE NAMES (Sewers_BGM.bnk)
+ceo
+DGL
+DGX
+DIV
+DKW
+FIN
+KPR
+MNC
+STG
+
+### VARIABLE NAMES (Sewers_BGM.bnk)
+MasterWolfe
+SewerLocation
+
+### VALUE NAMES (Sewers_BGM.bnk)
+BroadcastingRoom
+Exit
+fail
+Helipad
+ingame
+Intro
+LivingQuarters
+MainMenu
+none
+Select
+StorageRoom
+StrategyRoom
+success
+UndergroundLiveStage
+ZukeWorkshop
+
+### EVENT NAMES (Sewers_SFX.bnk)
+sewer_ambience
+sewer_box_bounce
+sewer_box_enter
+sewer_box_exit
+sewer_box_grab
+sewer_box_kick
+sewer_box_toss
+sewer_drums_enter
+sewer_drums_exit
+sewer_drums_flip
+sewer_ellicopter_exit
+sewer_elligator_cheer
+sewer_elligator_eat
+sewer_elligator_feed
+sewer_elligator_idle
+sewer_guitar_enter
+sewer_guitar_exit
+sewer_hammer_hit
+sewer_instru_enter
+sewer_instru_exit
+sewer_welding
+sfx_mw_cat_shoot
+sfx_mw_dracula_appear
+sfx_mw_dracula_death
+sfx_mw_enemy_death
+sfx_mw_enemy_hit
+sfx_mw_enemy_move
+sfx_mw_frank_shoot
+sfx_mw_hamster_shoot
+sfx_mw_main_death
+sfx_mw_main_hit
+sfx_mw_main_shoot
+sfx_mw_missile_shoot
+sfx_mw_start
+sfx_npc_gigi_high5
+ui_elligator_cheer
+
+### SFX NAMES (Sewers_SFX.bnk)
+Dialog_Leveler_Soft
+
+### RTPC/GAME-VARIABLE NAMES (Sewers_SFX.bnk)
+NPC_Position
+
+### VARIABLE NAMES (Sewers_SFX.bnk)
+level
+SewerDecorVolume
+SewerLocation
+
+### VALUE NAMES (Sewers_SFX.bnk)
+BroadcastingRoom
+Exit
+Helipad
+in
+Intro
+LivingQuarters
+postpunch
+Select
+StorageRoom
+StrategyRoom
+UndergroundLiveStage
+ZukeWorkshop
+
+### EVENT NAMES (Tatiana_PV.bnk)
+pv_09CEO_01
+pv_09CEO_02
+pv_09CEO_03
+pv_09CEO_04
+pv_09CEO_05
+VO_00GEN_speech_010_Tatiana
+VO_00GEN_speech_020_Tatiana
+VO_00GEN_speech_030_Tatiana
+VO_00GEN_speech_040_Tatiana
+VO_00GEN_speech_050_Tatiana
+
+### EVENT NAMES (Tutorial.bnk)
+bgm_tutorial
+tutorial_notes_shoot
+
+### SFX NAMES (Tutorial.bnk)
+Brick_Wall_Minus_6dB_Peak_Slow_Release
+
+### RTPC/GAME-VARIABLE NAMES (Tutorial.bnk)
+playback_speed
+
+### VARIABLE NAMES (Tutorial.bnk)
+BossPhase
+Mix
+# 2879877845
+# 4009442344
+# 1424066621
+
+### VALUE NAMES (Tutorial.bnk)
+Battle
+Phase1
+# 805891511
+# 1472681651
+# 2281419013
+# 1012601896
+# 4197922652
+# 4057730130
+# 3412247199
+# 2464701083
+# 2697538029
+
+### EVENT NAMES (UI.bnk)
+bgm_dialogue
+bgm_miniclear
+bgm_pause
+bgm_resume
+bgm_stageclear
+bgm_stop
+city_tele_enter
+city_tele_exit
+city_tele_loop
+sfx_approach_miniQwasaPickup
+sfx_BBJChart_rank1
+sfx_BBJChart_rank2
+sfx_BBJChart_rank3
+sfx_BBJChart_rank4
+sfx_BBJChart_rank5
+sfx_gameover
+sfx_gameover_reset
+sfx_pause
+sfx_resume
+sfx_SS_slate_mayday
+sfx_SS_slate_zuke
+sfx_topchart_ambience
+sfx_topchart_ambience_stop
+sfx_topchart_glitch_01
+sfx_topchart_glitch_02
+sfx_topchart_text
+sfx_topchart_text_stop
+sfx_topchart_whoosh
+sfx_ui_audienceClick
+ui_action_popup
+ui_back
+ui_confirm
+ui_countdown
+ui_equip_bbj
+ui_equip_mayday
+ui_equip_zuke
+ui_intro_open
+ui_miniqwasa_charge
+ui_miniqwasa_popup
+ui_miniqwasa_stop
+ui_next_area
+ui_npc_popup
+ui_objective_success
+ui_pause
+ui_phone_ring
+ui_phone_send
+ui_phone_text
+ui_phone_text_stop
+ui_resume
+ui_select
+ui_select_side
+ui_select_updown
+ui_shiny
+ui_shiny_stop
+ui_showhide
+ui_skilltree_locked
+ui_skilltree_unlock_bbj
+ui_skilltree_unlock_bbj_charge
+ui_skilltree_unlock_charge_stop
+ui_skilltree_unlock_mayday
+ui_skilltree_unlock_mayday_charge
+ui_skilltree_unlock_zuke
+ui_skilltree_unlock_zuke_charge
+ui_skip
+ui_slate_bbj
+ui_slate_bossname
+ui_slate_vs
+ui_social_fans
+ui_stageclear_achievement
+ui_stageclear_bar
+ui_stageclear_bar_stop
+ui_stageclear_grade
+ui_stageclear_grade_A
+ui_stageclear_highscore
+ui_stageclear_mini
+ui_stageclear_screen
+ui_start_game
+ui_stop_all
+ui_whoosh_in
+ui_whoosh_out
+ui_window_popup
+ui_zipper_in
+ui_zipper_out
+
+### SFX NAMES (UI.bnk)
+Dual_Filters_Reset
+
+### RTPC/GAME-VARIABLE NAMES (UI.bnk)
+QWASA_distance
+
+### VARIABLE NAMES (UI.bnk)
+level
+mood
+PostAuditionState
+ScoreGrade
+SpatializerState
+TimerCountdown
+
+### VALUE NAMES (UI.bnk)
+A
+active
+audition
+B
+C
+ceo
+city
+comedy
+D
+digitalidol
+diva
+djgalaxy
+dkwest
+E
+final
+inactive
+kpop
+melancholy
+motherchild
+none
+normal
+on
+S
+sewers
+street
+Tutorial
+
+#---
+
+### VARIABLE NAMES (BGM_Events.bnk)
+2157723786  : AuditionLevel
+4009442344  : music_backing
+1424066621  : music_melody
+2879877845  : music_rhythm
+
+### VALUE NAMES (BGM_Events.bnk)
+
+931025763   : both_combo_01
+931025760   : both_combo_02
+1329595011  : both_hover
+3183109723  : both_spike
+
+2081672681  : md_hover
+1015646364  : md_stomp_double
+3509991423  : md_stomp_single
+
+1012601896  : music_backing_base
+2342484810  : music_backing_default
+4057753081  : music_backing_none
+4197922652  : music_backing_rock
+4057730130  : music_backing_wubs
+
+3412247199  : music_melody_base
+1904455303  : music_melody_default
+4263343726  : music_melody_none
+2464701083  : music_melody_rock
+2697538029  : music_melody_wubs
+615533375   : music_melody_remix
+
+805891511   : music_rhythm_base
+2595741279  : music_rhythm_default
+1039102806  : music_rhythm_none
+1472681651  : music_rhythm_rock
+2281419013  : music_rhythm_wubs
+
+3257243835  : zk_hover
+3690651195  : zk_parry
+1138852851  : zk_spike
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+1137625945  : djg_attack_speed
+2550720454  : djg_laser
+1775869059  : kpop_vox
+3587827325  : transition_start
