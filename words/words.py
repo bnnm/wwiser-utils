@@ -673,23 +673,24 @@ class Words(object):
 
             elems = self.PATTERN_LINE.split(line)
             for elem in elems:
+                #if not self._args.split_caps:
                 self._add_word(elem)
 
                 if elem and len(elem) > 1 and self._args.split_caps and not elem.islower() and not elem.isupper():
-                    new_elem = b''
-                    pre_letter = b''
+                    new_elem_b = b''
+                    pre_letter_b = b''
                     for letter in elem:
-                        letter_b = bytearray(letter)
+                        letter_b = bytes([letter])
                         if letter_b.isupper() or letter_b.isdigit():
-                            if pre_letter.islower():
-                                new_elem += b'_'
-                            new_elem += letter_b.lower()
+                            if pre_letter_b.islower():
+                                new_elem_b += b'_'
+                            new_elem_b += letter_b.lower()
                         else:
-                            new_elem += letter_b
-                        pre_letter = letter
-
-                    if b'_' in new_elem:
-                        self._add_word(new_elem)
+                            new_elem_b += letter_b
+                        pre_letter_b = letter_b
+    
+                    if b'_' in new_elem_b:
+                        self._add_word(new_elem_b)
 
                 if self._args.cut_first and elem:
                     elem_len = len(elem)
