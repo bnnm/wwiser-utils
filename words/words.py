@@ -1034,7 +1034,7 @@ class Words(object):
 
         inname = self._args.output_file
 
-        # separate fnv + hash
+        # separate fnv + hash(es)
         items = {}
         try:
             with open(inname, 'r') as f:
@@ -1048,24 +1048,26 @@ class Words(object):
                     fnv, name = line.split(':')
                     fnv = int(fnv.strip())
                     name = name.strip()
-                    items[fnv] = name
+                    if fnv not in items:
+                        items[fnv] = []
+                    items[fnv].append(name)
         except FileNotFoundError:
             return
 
         if self._args.results_contexts:
             remove_repeats = True
         
-            done = set()
+            done = {}
             lines = []
             for ctx in self._contexts.keys():
                 # note that the same key may be in multiple contexts (ignored by default)
                 subitems = {}
 
                 for key in self._contexts[ctx]:
-                    if key in done and remove_repeats:
+                    if key in done and done[key] != ctx and remove_repeats:
                         continue
                     if key in items:
-                        done.add(key)
+                        done[key] = ctx
                         subitems[key] = items[key]
                 if not subitems:
                     continue
@@ -1081,9 +1083,9 @@ class Words(object):
             # rare but just in case of bugs
             subitems = {}
             for key in items:
-                if key in done:
+                if key in done and done[key] != ctx and remove_repeats:
                     continue
-                done.add(key)
+                done[key] = ctx
                 subitems[key] = items[key]                
                 
             if subitems:
@@ -1096,9 +1098,13 @@ class Words(object):
         with open(outname, 'w') as f:
            f.write('\n'.join(lines))
 
-    def _sort_results_lines(self, items):
+    def _sort_results_lines(self, subitems):
         lines = []
-        items = [(key,val) for key,val in items.items()]
+        items = []
+        #items = [(key,val) for key,val in items.items()]
+        for key,vals in subitems.items():
+            for val in vals:
+                items.append( (key, val) )
         #items = list(items.values())
         items.sort(key=lambda x : x[1].lower())
         for fnv, name in items:
