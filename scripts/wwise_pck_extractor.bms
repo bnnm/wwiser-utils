@@ -3,6 +3,8 @@
 # v1 by Nicknine
 # v2 by bnnm (old extensions, lang names, etc)
 
+# set to generate (packname)/files
+set WRITE_PATH long 1
 
 # set if cannot be autodetected: 62< uses old extensions, 62>= uses new extensions
 set BANK_VERSION long 0
@@ -225,7 +227,12 @@ startfunction PARSE_TABLE_INTERNAL
             continue
         endif
 
+        if WRITE_PATH != 0
+            get BASE_NAME basename
+            string NAME p "%s/%s" BASE_NAME NAME
+        endif
         #print "%NAME%: %OFFSET|h% %SIZE|h%"
         log NAME OFFSET SIZE
+        
     next I
 endfunction
