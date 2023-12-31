@@ -1,0 +1,3001 @@
+
+### BANK NAMES
+Boss_Common
+Boss_DarkSpyro
+Boss_Dingodile
+Boss_FakeCoco
+Boss_FakeCrash
+Boss_GnastyGnorc
+Boss_KoalaKong
+Boss_Madame_Amberly
+Boss_MrCrumb
+Boss_MutagenNitrusBrio
+Boss_NeoCortex
+Boss_Ngin
+Boss_NinaCortex
+Boss_NitrousOxide
+Boss_Ntrance
+Boss_Ntropy
+Boss_Pinstripe
+Boss_RoboNeoCortex
+Boss_Scorporilla
+Boss_TinyTiger
+Boss_UkaUka
+Coco
+Crash
+Crumbling_Platform
+Electrified_Water
+Enemies_VenusFlytrap
+Enemy_Blob
+Enemy_FlyingFish
+Enemy_Mummy
+Enemy_Penguin
+Enemy_Scrubber
+Enemy_Seal
+Enemy_Spider
+Enemy_Turtle
+EnergyBlast
+Falling_Bones
+Falling_Icicles
+Falling_Pillars
+Fire_Breathing_Tiki
+FireBlast
+FlamingBowl
+Floating_Lilypads
+Floating_Logs
+Floorswitch
+Frozen_Walls
+Gates
+Geyser
+Illusionblock
+Init
+Jumping_Crate
+LargeSteelDoor
+Lava_Pit
+Main
+Meta
+MiniBoss_Ant
+MiniBoss_Araknid
+MiniBoss_Crab
+MiniBoss_Geary
+MiniBoss_Grumbler
+MiniBoss_IronCrate
+MiniBoss_Lab_Assistant
+MiniBoss_Lolo
+MiniBoss_MiniMissileRobot
+MiniBoss_Noid
+MiniBoss_PinkElephant
+MiniBoss_PirateShark
+MiniBoss_Pyro
+MiniBoss_Rokko
+MiniBoss_ThornThing
+MiniBoss_Wawa
+MiniBoss_Zombot
+Moving_Walls_and_Platforms
+Mushroom
+Pressing_Machines
+Rolling_Barrel
+Rolling_Boulders
+Rolling_Disc
+Rolling_Flaming_Boulders
+Rolling_Snowball
+Runner
+Runner_2D_Ambiences
+Sewer_Water
+SpeedPads
+Spiketrap
+Spikey_Rolling_Traps
+Stone_Snake
+Tutorial_Intro
+Wooden_Shutters
+
+### LANGUAGE NAMES
+SFX
+
+### BUS NAMES
+AkuAku
+Ambience
+Ambiences_Meta
+Ambiences_Runner
+AUX
+Bosses
+Bosses_VOX
+Cortex_CannonBlast
+Cortex_DuckingTrigger
+Crates
+Enemies
+EnvironementObjects_Ducking
+EnvironmentObjects
+Explosions
+FallingBones_Impact
+Footsteps
+Master Audio Bus = 0
+MUSIC
+MUSIC_Bosses
+MUSIC_General
+MUSIC_Meta
+MUSIC_SpecialDucking_AkuAku_Invincible
+MUSIC_SpecialDucking_CostumeUnlockReward
+Player
+Player_Dizzy
+Player_Ducking
+Player_Pickup_Wumpa
+Player_VOX
+Reverb_Cave
+SpecialCase_Ducking
+state_env_bus
+UI
+UI_Ducking
+UI_Levelup
+UI_TeamRuns_PostGame_Awards
+UI_TimeTrial_Relic_Rewards
+Weapon_Finishers
+World
+# 4200062547
+# 2669489880
+# 838047381
+# 4166207159
+
+### EVENT NAMES (Boss_Common.bnk)
+Play_Boss_Camera_Intro
+Play_Boss_Generic_Death_Explosion
+Play_Boss_Generic_Platform_Hit
+Play_Boss_Portal_Close
+Play_Boss_Portal_Open
+Play_Boss_SerumFinisher_Idle_Loop
+Play_Boss_SerumFinisher_Score_Ok
+Play_Boss_SerumFinisher_Score_Perfect
+Play_Player_Weapon_Bazooka_Ready
+Play_Player_Weapon_Bazooka_Shoot
+Play_Player_Weapon_Bomb_Ready
+Play_Player_Weapon_Bomb_Throw
+Play_Player_Weapon_Raygun_Ready
+Play_Player_Weapon_Raygun_Shoot
+Play_Player_Weapon_Serum_Ready
+Play_Player_Weapon_Serum_Throw
+Play_Vo_Boss_Ukauka_Wooden_Hurt
+
+### VARIABLE NAMES (Boss_Common.bnk)
+Runner_Boss_State
+WeaponType_Bazooka
+WeaponType_Bomb
+WeaponType_Raygun
+WeaponType_Serum
+
+### VALUE NAMES (Boss_Common.bnk)
+Frosty
+Inferno
+Nitro
+Oxide
+# 2330003600
+
+### EVENT NAMES (Boss_DarkSpyro.bnk)
+Play_Boss_Darkspyro_Attack_Thunderstorm_Spawn
+Play_Boss_Darkspyro_Attack_Thunderstorm_Warning
+Play_Boss_Darkspyro_Death_01
+Play_Boss_Darkspyro_Death_02
+Play_Boss_Darkspyro_Death_03
+Play_Boss_Darkspyro_Death_04
+Play_Boss_Darkspyro_Firetrail
+Play_Boss_Darkspyro_Intro_01
+Play_Boss_Darkspyro_Intro_02
+Play_Boss_Darkspyro_Intro_03
+Play_Boss_Darkspyro_Wingbeat_Wave_Nitro
+Play_Boss_Darkspyro_WingFlap
+Play_Music_Boss_Darkspyro
+Play_Vo_Boss_Darkspyro_Attack_Fire
+Play_Vo_Boss_Darkspyro_Attack_Laugh
+Play_Vo_Boss_Darkspyro_Death_01
+Play_Vo_Boss_Darkspyro_Death_02
+Play_Vo_Boss_Darkspyro_Death_03
+Play_Vo_Boss_Darkspyro_Death_Gasp
+Play_Vo_Boss_Darkspyro_Hurt
+Play_Vo_Boss_Darkspyro_Intro_01
+Stop_Music_All_Bosses
+Stop_Music_Boss_Darkspyro
+# 491789429
+# 1328502541
+# 1444098422
+# 1802065998
+# 3976170353
+
+### VARIABLE NAMES (Boss_DarkSpyro.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_DarkSpyro.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_Dingodile.bnk)
+Play_Boss_Dingodile_Attack_Fireball
+Play_Boss_Dingodile_Attack_Flamethrower
+Play_Boss_Dingodile_Death_1
+Play_Boss_Dingodile_Death_2
+Play_Boss_Dingodile_FireBall_Bounce
+Play_Boss_Dingodile_Flamethrower_Lane_Loop
+Play_Boss_Dingodile_Frost_Ball_Bounce
+Play_Boss_Dingodile_Frost_Wall_Spawn
+Play_Boss_Dingodile_Hit
+Play_Boss_Dingodile_Intro
+Play_Boss_Dingodile_VO_Attack_Fireball
+Play_Boss_Dingodile_VO_Attack_Flamethrower
+Play_Boss_Dingodile_VO_Death
+Play_Boss_Dingodile_VO_Intro
+Stop_Boss_Dingodile_Flamethrower_Lane_Loop
+Stop_Music_All_Bosses
+
+### VARIABLE NAMES (Boss_Dingodile.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_Dingodile.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_FakeCoco.bnk)
+Play_Boss_Fakecoco_Attack_RayGun_EnergyBlast
+Play_Boss_Fakecoco_Death
+Play_Boss_Fakecoco_Death_Vo_1
+Play_Boss_Fakecoco_Death_Vo_2
+Play_Boss_Fakecoco_Death_Vo_3
+Play_Boss_Fakecoco_HIT
+Play_Boss_Fakecoco_Intro_1
+Play_Boss_Fakecoco_Intro_2
+Play_Boss_Fakecoco_Intro_Movement
+Play_Boss_Fakecoco_Intro_Vo_1
+Play_Boss_Fakecoco_Intro_Vo_2
+Play_Boss_Fakecoco_Intro_Vo_3
+Play_Boss_Fakecoco_Intro_Vo_4
+Play_Boss_Fakecoco_Intro_Vo_5
+Play_Boss_Fakecoco_Intro_Vo_6
+Play_Boss_Fakecoco_raygun_Attack
+Play_Boss_Fakecoco_raygun_Fire
+Play_Boss_Fakecoco_raygun_Vo_1
+Play_Boss_Fakecoco_raygun_Vo_2
+Play_Boss_Fakecoco_raygun_Vo_3
+Play_Boss_Fakecoco_serum_Attack
+Play_Boss_Fakecoco_serum_Vo_1
+Play_Boss_Fakecoco_serum_Vo_2
+Play_Boss_Fakecoco_serum_Vo_3
+Play_Boss_Fakecoco_Spin
+Play_Boss_Fakecoco_Spin_Deflect
+Play_Boss_Fakecoco_Spin_Deflect_Vo
+Play_Boss_Fakecoco_Spin_Vo
+Play_Boss_RayGun_EnergyBlast
+Play_Frosty_Serum_GroundImpact
+Play_Inferno_Serum_GroundImpact
+Play_Nitro_Serum_GroundImpact
+Play_Oxide_Serum_GroundImpact
+Stop_Boss_Fakecoco_Spin
+Stop_Boss_RayGun_EnergyBlast
+Stop_Music_All_Bosses
+# 628603344
+# 3400548934
+
+### RTPC/GAME-VARIABLE NAMES (Boss_FakeCoco.bnk)
+Azimuth
+Object_Height
+
+### VARIABLE NAMES (Boss_FakeCoco.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_FakeCoco.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_FakeCrash.bnk)
+Play_Boss_FakeCrash_Attack_Bazooka
+Play_Boss_FakeCrash_Attack_Bazooka_VO
+Play_Boss_FakeCrash_Attack_Boomberry
+Play_Boss_FakeCrash_Attack_Boomberry_VO
+Play_Boss_FakeCrash_Attack_Frosty_Bazooka_Projectile
+Play_Boss_FakeCrash_Attack_Inferno_Bazooka_Projectile
+Play_Boss_FakeCrash_Attack_Nitro_Bazooka_Projectile
+Play_Boss_FakeCrash_Attack_Oxide_Bazooka_Projectile
+Play_Boss_FakeCrash_Attack_Serum
+Play_Boss_FakeCrash_Attack_Serum_VO
+Play_Boss_FakeCrash_Death
+Play_Boss_FakeCrash_Death_VO
+Play_Boss_FakeCrash_Hit
+Play_Boss_FakeCrash_Intro
+Play_Boss_FakeCrash_Intro_Gesture
+Play_Boss_FakeCrash_Intro_VO_1
+Play_Boss_FakeCrash_Intro_VO_2
+Play_Boss_FakeCrash_Intro_VO_3
+Play_Boss_FakeCrash_Intro_VO_4
+Play_Boss_FakeCrash_Intro_VO_5
+Play_Boss_FakeCrash_Intro_VO_6
+Play_Boss_FakeCrash_Spin
+Play_Boss_FakeCrash_Spin_Deflect
+Play_Boss_FakeCrash_Spin_VO
+Play_Frosty_Serum_GroundImpact
+Play_Inferno_Serum_GroundImpact
+Play_Nitro_Serum_GroundImpact
+Play_Oxide_Serum_GroundImpact
+Stop_Boss_FakeCrash_Spin
+Stop_Music_All_Bosses
+
+### RTPC/GAME-VARIABLE NAMES (Boss_FakeCrash.bnk)
+Azimuth
+Object_Height
+
+### VARIABLE NAMES (Boss_FakeCrash.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_FakeCrash.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_GnastyGnorc.bnk)
+Play_Boss_Gnastygnorc_Attack01_Impact
+Play_Boss_Gnastygnorc_Attack_Energyball
+Play_Boss_Gnastygnorc_Attack_Hammerwave
+Play_Boss_Gnastygnorc_Attack_RESET
+Play_Boss_Gnastygnorc_Boomberry_Energized
+Play_Boss_Gnastygnorc_Death_1
+Play_Boss_Gnastygnorc_Death_2
+Play_Boss_Gnastygnorc_Death_Footstep
+Play_Boss_Gnastygnorc_Intro_1
+Play_Boss_Gnastygnorc_Intro_2
+Play_Boss_Gnastygnorc_Intro_3
+Play_Boss_Gnastygnorc_Intro_4
+Play_Boss_Gnastygnorc_Shieldbreak
+Play_Music_Boss_Gnastygnorc
+Play_Vo_Boss_Gnastygnorc_Attack01
+Play_Vo_Boss_Gnastygnorc_Attack02
+Play_Vo_Boss_Gnastygnorc_Death_1
+Play_Vo_Boss_Gnastygnorc_Death_2
+Play_Vo_Boss_Gnastygnorc_Death_3
+Play_Vo_Boss_Gnastygnorc_Hurt
+Play_Vo_Boss_Gnastygnorc_Intro_1
+Play_Vo_Boss_Gnastygnorc_Intro_2
+Play_Vo_Boss_Gnastygnorc_Intro_3
+Stop_Music_All_Bosses
+Stop_Music_Boss_Gnastygnorc
+# 298949757
+# 1016028963
+# 1117714065
+# 2002493865
+# 3162332596
+# 3249401888
+# 3249401891
+
+### VARIABLE NAMES (Boss_GnastyGnorc.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_GnastyGnorc.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_KoalaKong.bnk)
+Play_Boss_Koalakong_Attack_Jump
+Play_Boss_Koalakong_Attack_Land
+Play_Boss_Koalakong_Back_To_Platform
+Play_Boss_Koalakong_Death
+Play_Boss_Koalakong_Intro_1
+Play_Boss_Koalakong_Intro_2
+Play_Vo_Boss_Koalakong_Attack_Jump
+Play_Vo_Boss_Koalakong_Attack_Land
+Play_Vo_Boss_Koalakong_Death
+Play_Vo_Boss_Koalakong_Hurt
+Play_Vo_Boss_Koalakong_Intro_1
+Play_Vo_Boss_Koalakong_Intro_2
+Stop_Music_All_Bosses
+# 193827086
+# 1440301423
+# 2022398746
+# 2817532586
+# 2838548383
+# 3388023780
+# 3986487774
+# 4158746274
+
+### VARIABLE NAMES (Boss_KoalaKong.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_KoalaKong.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_Madame_Amberly.bnk)
+Play_Boss_Amberly_Death
+Play_Boss_Amberly_Intro_01
+Play_Boss_Amberly_Intro_02
+Play_Boss_Amberly_Intro_03
+Play_Boss_Amberly_Tesla
+Play_Mus_Boss_Madame_Amberly
+Play_Vo_Boss_Amberly_Death_01
+Play_Vo_Boss_Amberly_Death_02
+Play_Vo_Boss_Amberly_Death_03
+Play_Vo_Boss_Amberly_Death_04
+Play_Vo_Boss_Amberly_Hurt
+Play_Vo_Boss_Amberly_Intro
+Play_Vo_Boss_Amberly_Tesla
+Stop_Mus_Boss_Madame_Amberly
+# 39740292
+# 187216376
+# 286483092
+# 313520540
+# 795731196
+# 795731199
+# 1457127712
+# 1655134171
+# 1714649774
+# 1872422170
+# 2385648613
+# 3075160098
+# 3227188178
+
+### VARIABLE NAMES (Boss_Madame_Amberly.bnk)
+# 1094781733
+
+### VALUE NAMES (Boss_Madame_Amberly.bnk)
+# 1150025902
+# 1276330354
+# 2960636094
+# 4252557950
+# 3863056180
+# 2786443728
+
+### EVENT NAMES (Boss_MrCrumb.bnk)
+Play_Boss_MrCrumb_clap
+Play_Boss_Mrcrumb_Death
+Play_Boss_Mrcrumb_Death_01
+Play_Boss_Mrcrumb_Death_Vo_1
+Play_Boss_Mrcrumb_Death_Vo_2
+Play_Boss_Mrcrumb_Death_Vo_3
+Play_Boss_Mrcrumb_Death_Vo_4
+Play_Boss_Mrcrumb_Death_Vo_5
+Play_Boss_Mrcrumb_Death_Vo_6
+Play_Boss_Mrcrumb_Gravestone_Dissapear
+Play_Boss_Mrcrumb_HIT
+Play_Boss_Mrcrumb_Intro
+Play_Boss_Mrcrumb_Intro_clap
+Play_Boss_Mrcrumb_Intro_Laugh_Vo
+Play_Boss_Mrcrumb_Intro_Vo
+Play_Boss_Mrcrumb_Laugh_Vo
+Play_Boss_Mrcrumb_Spitball
+Play_Boss_Mrcrumb_Spitball_Vo
+Play_Boss_Mrcrumb_Summon_Blobs
+Play_Boss_Mrcrumb_Summon_Blobs_Vo
+Stop_Music_All_Bosses
+# 626123623
+# 655017911
+# 891737702
+# 1251121015
+# 1686184130
+# 2564700206
+# 3646622401
+
+### VARIABLE NAMES (Boss_MrCrumb.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_MrCrumb.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_MutagenNitrusBrio.bnk)
+Play_Boss_MutantNitrusBrio_Stone_Fall_Impact
+Play_Boss_MutantNitrusBrio_Stone_Fall_Start
+Play_Boss_NitrusBrio_AttackChest
+Play_Boss_NitrusBrio_AttackChest_VO
+Play_Boss_NitrusBrio_AttackThrow
+Play_Boss_NitrusBrio_AttackThrow_VO_Catch
+Play_Boss_NitrusBrio_AttackThrow_VO_Throw
+Play_Boss_NitrusBrio_Death
+Play_Boss_NitrusBrio_Death_VO_1
+Play_Boss_NitrusBrio_Death_VO_2
+Play_Boss_NitrusBrio_Death_VO_3
+Play_Boss_NitrusBrio_Hit
+Play_Boss_NitrusBrio_Hit_VO_1
+Play_Boss_NitrusBrio_Hit_VO_2
+Play_Boss_NitrusBrio_Intro
+Play_Boss_NitrusBrio_Intro_VO_1
+Play_Boss_NitrusBrio_Intro_VO_2
+Play_Boss_NitrusBrio_Intro_VO_3
+Play_Boss_NitrusBrio_Intro_VO_4
+Stop_Music_All_Bosses
+
+### VARIABLE NAMES (Boss_MutagenNitrusBrio.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_MutagenNitrusBrio.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_NeoCortex.bnk)
+Play_Boss_NeoCortex_Attack_Cannon_Deploy
+Play_Boss_NeoCortex_Attack_Cannon_Draw
+Play_Boss_NeoCortex_Attack_Cannon_Fire
+Play_Boss_NeoCortex_Attack_Cannon_VO
+Play_Boss_NeoCortex_Attack_Raygun_DrawGun
+Play_Boss_NeoCortex_Attack_Raygun_Energyblast_Loop
+Play_Boss_NeoCortex_Attack_Raygun_Shoot
+Play_Boss_NeoCortex_Attack_Raygun_VO
+Play_Boss_NeoCortex_Death_1
+Play_Boss_NeoCortex_Death_LooseGrip
+Play_Boss_NeoCortex_Death_PortalClose
+Play_Boss_NeoCortex_Death_VO_1
+Play_Boss_NeoCortex_Death_VO_2
+Play_Boss_NeoCortex_Death_VO_3
+Play_Boss_NeoCortex_Death_VO_4
+Play_Boss_NeoCortex_Hit
+Play_Boss_NeoCortex_Hit_VO
+Play_Boss_NeoCortex_Intro_1
+Play_Boss_NeoCortex_Intro_2
+Play_Boss_NeoCortex_Intro_3
+Play_Boss_NeoCortex_Intro_VO_1
+Play_Boss_NeoCortex_Intro_VO_2
+Play_Boss_NeoCortex_Intro_VO_3
+Play_Boss_RayGun_EnergyBlast
+Stop_Boss_NeoCortex_Attack_Raygun_Energyblast_Loop
+Stop_Boss_RayGun_EnergyBlast
+Stop_Music_All_Bosses
+
+### SFX NAMES (Boss_NeoCortex.bnk)
+# 98839200
+
+### VARIABLE NAMES (Boss_NeoCortex.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_NeoCortex.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_Ngin.bnk)
+Play_Boss_Ngin_Death
+Play_Boss_Ngin_Death_Vo
+Play_Boss_Ngin_Ground_Smash_Trail_End
+Play_Boss_Ngin_Ground_Smash_Trail_Loop
+Play_Boss_Ngin_HIT_Vo
+Play_Boss_Ngin_Intro
+Play_Boss_Ngin_Intro_Vo_1
+Play_Boss_Ngin_Intro_Vo_2
+Play_Boss_Ngin_Laser
+Play_Boss_Ngin_Laser_Trail_Loop
+Play_Boss_Ngin_Laser_Vo
+Play_Boss_Ngin_Shield
+Play_Boss_Ngin_Shield_Berry_Bounce
+Play_Boss_Ngin_Shield_Vo
+Play_Boss_Ngin_Smash
+Play_Boss_Ngin_Smash_Vo
+Play_Boss_Ngin_Vo_Intro
+Stop_Music_All_Bosses
+# 1368317684
+
+### VARIABLE NAMES (Boss_Ngin.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_Ngin.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_NinaCortex.bnk)
+Play_Boss_NinaCortex_Attack_Generic_ElectrifiedImpact
+Play_Boss_Ninacortex_Attack_Generic_Vo
+Play_Boss_NinaCortex_Death
+Play_Boss_NinaCortex_Death_VO
+Play_Boss_NinaCortex_Death_VO_Chicken
+Play_Boss_NinaCortex_DoubleFist_Attack_Charging
+Play_Boss_NinaCortex_DoubleFist_Attack_Fire
+Play_Boss_NinaCortex_DoubleFist_Attack_Impact
+Play_Boss_NinaCortex_Hit
+Play_Boss_NinaCortex_Intro_1
+Play_Boss_NinaCortex_Intro_2
+Play_Boss_NinaCortex_Intro_VO_1
+Play_Boss_NinaCortex_Intro_VO_2
+Play_Boss_NinaCortex_Intro_VO_Chicken
+Play_Boss_NinaCortex_Summon_Attack
+Play_Boss_NinaCortex_Summon_Attack_Crates_Fall
+Play_Boss_NinaCortex_Summon_Attack_Crates_Impact
+Play_Boss_NinaCortex_Summon_Attack_VO
+Play_Boss_NinaCortex_TriplePunch_Fire
+Play_Boss_NinaCortex_TriplePunch_JumpUp
+Play_Boss_NinaCortex_TriplePunch_JumpUp_VO
+Stop_Music_All_Bosses
+
+### VARIABLE NAMES (Boss_NinaCortex.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_NinaCortex.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_NitrousOxide.bnk)
+Play_Boss_Nitrousoxide_Attack_Backfire_Charge
+Play_Boss_Nitrousoxide_Attack_Backfire_Fire
+Play_Boss_Nitrousoxide_Attack_Backfire_Reset
+Play_Boss_Nitrousoxide_Death_1
+Play_Boss_Nitrousoxide_Death_2
+Play_Boss_Nitrousoxide_Death_3
+Play_Boss_Nitrousoxide_Intro_Car_1
+Play_Boss_Nitrousoxide_Intro_Car_2
+Play_Boss_Nitrousoxide_Intro_Car_3
+Play_Boss_Nitrousoxide_Sparksattack_Car
+Play_Boss_Nitrousoxide_Sparksattack_Sparks
+Play_Music_Boss_NitrousOxide
+Play_Ui_Pause_Button_LAST
+Play_Vo_Boss_NitrousOxide_Death_1
+Play_Vo_Boss_NitrousOxide_Death_2
+Play_Vo_Boss_NitrousOxide_Death_3
+Play_Vo_Boss_NitrousOxide_Hit
+Play_Vo_Boss_NitrousOxide_Intro_1
+Play_Vo_Boss_NitrousOxide_Intro_2
+Play_Vo_Boss_NitrousOxide_Intro_3
+Stop_Music_All_Bosses
+Stop_Music_Boss_NitrousOxide
+# 1111935719
+# 1430382205
+# 1844486222
+# 2035481385
+# 3092651612
+# 3122623293
+# 3185738197
+# 3244780788
+# 3842377838
+
+### VARIABLE NAMES (Boss_NitrousOxide.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_NitrousOxide.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_Ntrance.bnk)
+Music_Boss_Ntrance_Controls_Restore
+Music_Boss_Ntrance_Controls_Reverse
+Play_Boss_Ntrance_Attack_EyeBeam_Shoot
+Play_Boss_Ntrance_Attack_IllusionWall_Despawn
+Play_Boss_Ntrance_Attack_IllusionWall_Idle
+Play_Boss_Ntrance_Attack_IllusionWall_PowerUp
+Play_Boss_Ntrance_Attack_IllusionWall_Spawn
+Play_Boss_Ntrance_Attack_ReverseControl_BeamWall_Idle
+Play_Boss_Ntrance_Attack_ReverseControl_BeamWall_PlayerHit
+Play_Boss_Ntrance_Attack_ReverseControl_EyeBeam_GroundImpact
+Play_Boss_Ntrance_Attack_ReverseControl_Obstacle_Spawn
+Play_Boss_Ntrance_Attack_ReverseControl_PowerUp
+Play_Boss_Ntrance_Attack_SpeedUp_Beam
+Play_Boss_Ntrance_Attack_SpeedUp_Beam_PlayerHit
+Play_Boss_Ntrance_Attack_SpeedUp_Beam_PowerUp
+Play_Boss_Ntrance_Attack_VO
+Play_Boss_Ntrance_Death
+Play_Boss_Ntrance_Death_VO
+Play_Boss_Ntrance_Hit_VO
+Play_Boss_Ntrance_Intro_1
+Play_Boss_Ntrance_Intro_2
+Play_Boss_Ntrance_Intro_3
+Play_Boss_Ntrance_Intro_4
+Play_Boss_Ntrance_Intro_VO_1
+Play_Boss_Ntrance_Intro_VO_2
+Play_Boss_Ntrance_Intro_VO_3
+Play_Boss_Ntrance_Intro_VO_4
+Stop_Music_All_Bosses
+
+### SFX NAMES (Boss_Ntrance.bnk)
+# 715021755
+
+### VARIABLE NAMES (Boss_Ntrance.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_Ntrance.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_Ntropy.bnk)
+Play_Boss_Ntropy_Attack
+Play_Boss_Ntropy_Attack_01_Vo
+Play_Boss_Ntropy_Death_01
+Play_Boss_Ntropy_Death_02
+Play_Boss_Ntropy_Death_Scream_Vo
+Play_Boss_Ntropy_Death_Vo_01
+Play_Boss_Ntropy_Death_Vo_02
+Play_Boss_Ntropy_Electricwhirling_Vo
+Play_Boss_Ntropy_Hurt
+Play_Boss_Ntropy_Intro_01
+Play_Boss_Ntropy_Intro_02
+Play_Boss_Ntropy_Intro_Vo
+Play_Boss_Ntropy_Intro_Vo_001
+Play_Boss_Ntropy_Projectile_Intro
+Play_Boss_Ntropy_Reversetime
+Play_Boss_Ntropy_Wave
+Play_Boss_Ntropy_Whirwind
+Play_Music_Boss_Ntropy
+Stop_Music_All_Bosses
+Stop_Music_Boss_Ntropy
+# 1168315352
+# 1485778807
+# 1773248461
+# 2590593438
+# 3602799525
+
+### VARIABLE NAMES (Boss_Ntropy.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_Ntropy.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_Pinstripe.bnk)
+Play_Music_Boss_Pinstripe
+Play_Pinstrip_attack_02_Intro
+Play_Vo_Boss_Pinstrip_Attack_01_Laugh
+Play_Vo_Boss_Pinstrip_Intro_Laugh
+Stop_Music_Boss_Pinstripe
+# 204795869
+# 241161697
+# 414268540
+# 451565754
+# 722085479
+# 941413082
+# 1016668622
+# 1202182641
+# 1309622756
+# 1332209813
+# 1619166168
+# 1717960761
+# 1820254031
+# 1949851961
+# 2004502164
+# 2350668027
+# 2407582299
+# 2536831188
+# 2955045036
+# 3090033429
+# 3115308541
+# 3260278931
+# 3469495820
+# 3554588588
+# 3675920197
+# 3872363221
+# 3920022069
+# 4017387832
+# 4219955840
+
+### EVENT NAMES (Boss_RoboNeoCortex.bnk)
+Play_Boss_RayGun_EnergyBlast
+Play_Boss_RoboNeoCortex_Attack_EyeBeam
+Play_Boss_RoboNeoCortex_Attack_EyeBeam_Impact
+Play_Boss_RoboNeoCortex_Attack_EyeBeam_PowerUp
+Play_Boss_RoboNeoCortex_Attack_Rockets_Explosion
+Play_Boss_RoboNeoCortex_Attack_Rockets_Fire
+Play_Boss_RoboNeoCortex_Attack_Rockets_Jump
+Play_Boss_RoboNeoCortex_Attack_Rockets_Jump_VO
+Play_Boss_RoboNeoCortex_Attack_Rockets_VO_Laugh
+Play_Boss_RoboNeoCortex_Death_1
+Play_Boss_RoboNeoCortex_Death_LooseGrip
+Play_Boss_RoboNeoCortex_Death_PortalClose
+Play_Boss_RoboNeoCortex_Death_VO_1
+Play_Boss_RoboNeoCortex_Death_VO_2
+Play_Boss_RoboNeoCortex_Death_VO_3
+Play_Boss_RoboNeoCortex_Death_VO_4
+Play_Boss_RoboNeoCortex_Hit
+Play_Boss_RoboNeoCortex_Hit_VO
+Play_Boss_RoboNeoCortex_Intro_1
+Play_Boss_RoboNeoCortex_Intro_1_VO
+Play_Boss_RoboNeoCortex_Intro_2
+Play_Boss_RoboNeoCortex_Intro_2_VO
+Play_Boss_RoboNeoCortex_Intro_3
+Play_Boss_RoboNeoCortex_Intro_3_VO
+Stop_Boss_RayGun_EnergyBlast
+Stop_Music_All_Bosses
+
+### VARIABLE NAMES (Boss_RoboNeoCortex.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_RoboNeoCortex.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_Scorporilla.bnk)
+Play_Boss_Scorporilla_Death
+Play_Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop
+Play_Boss_Scorporilla_GroundPunch
+Play_Boss_Scorporilla_Hit
+Play_Boss_Scorporilla_Intro
+Play_Boss_Scorporilla_PlatformPunch
+Play_Boss_Scorporilla_VO_Death
+Play_Boss_Scorporilla_VO_GroundPunch
+Play_Boss_Scorporilla_VO_Intro
+Play_Boss_Scorporilla_VO_PlatformPunch
+Stop_Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop
+Stop_Music_All_Bosses
+
+### VARIABLE NAMES (Boss_Scorporilla.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_Scorporilla.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_TinyTiger.bnk)
+Play_Boss_Tinytiger_Death_PortalClose
+Play_Boss_Tinytiger_Portal_Exit
+Play_Boss_Tinytiger_Trident_Electric_Sparks
+Play_Boss_Tinytiger_Trident_Impact
+Play_Boss_Tinytiger_Trident_Impact_Floor
+Play_Boss_Tinytiger_Trident_Short_Electric_Burst
+Play_Boss_Tinytiger_Vo_Death_01_Hit
+Play_Boss_Tinytiger_Vo_Death_04_Scream
+Play_Boss_Tinytiger_Vo_Hit_Pain
+Play_Boss_Tinytiger_Vo_Intro_02_Scream
+Stop_Music_All_Bosses
+# 238913068
+# 263077636
+# 991676546
+# 1117879728
+# 1458992423
+# 1462345385
+# 1750003996
+# 1825723478
+# 1881625987
+# 1902047226
+# 2122149987
+# 2334251322
+# 2469916125
+# 2736133604
+# 2780627075
+# 2964475450
+# 3201177236
+# 3323251557
+# 3730904280
+# 3821726631
+# 3915728416
+# 4095255052
+
+### VARIABLE NAMES (Boss_TinyTiger.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_TinyTiger.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Boss_UkaUka.bnk)
+Play_Boss_UkaUka_Death
+Play_Boss_UkaUka_EyeBeam_Attack
+Play_Boss_UkaUka_EyeBeam_Loop
+Play_Boss_UkaUka_Hit
+Play_Boss_UkaUka_IceBlast_Attack
+Play_Boss_UkaUka_IceBlast_IceBlock_Destroy
+Play_Boss_UkaUka_IceBlast_IceBlock_Spawn
+Play_Boss_UkaUka_Intro
+Play_Boss_UkaUka_TripleFireBolt_Attack
+Play_Boss_UkaUka_TripleFireBolt_Projectile_Loop
+Play_VO_Boss_UkaUka_Death
+Play_VO_Boss_UkaUka_EyeBeam_Attack
+Play_VO_Boss_UkaUka_Hurt
+Play_VO_Boss_UkaUka_IceBlast_Attack
+Play_VO_Boss_UkaUka_Intro
+Play_VO_Boss_UkaUka_TripleFireBolt_Attack
+Stop_Boss_UkaUka_EyeBeam_Loop
+Stop_Boss_UkaUka_TripleFireBolt_Projectile_Loop
+Stop_Music_All_Bosses
+
+### VARIABLE NAMES (Boss_UkaUka.bnk)
+Runner_Boss_State
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (Boss_UkaUka.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+# 1425324164
+
+### EVENT NAMES (Coco.bnk)
+Play_Booster_Tornado_Loop
+Play_Booster_Wumpomatic_Loop
+Play_Coco_VO_Effort
+Play_Coco_VO_Laugh
+Play_Coco_VO_Laugh_PortalEndRun
+Play_Env_SpeedPad
+Play_Player_Boomberry_Throw
+Play_Player_Coco_Celebrate_1
+Play_Player_Coco_Celebrate_2
+Play_Player_Coco_Celebrate_3
+Play_Player_Coco_Celebrate_4
+Play_Player_Coco_Death_Angel
+Play_Player_Coco_Death_Ashes
+Play_Player_Coco_Death_Dazed
+Play_Player_Coco_Death_Faceplant
+Play_Player_Coco_Death_Freeze
+Play_Player_Coco_Death_Headbump
+Play_Player_Coco_Death_Impact
+Play_Player_Coco_Death_Squashed_Footstep
+Play_Player_Coco_Idle_Scratch
+Play_Player_Coco_Idle_Waiting_End
+Play_Player_Coco_Jump_Excited
+Play_Player_Coco_Portal_Exit
+Play_Player_Coco_RunEnd
+Play_Player_Coco_Start_Run
+Play_Player_Death
+Play_Player_Jump
+Play_Player_Jump_High
+Play_Player_Slam
+Play_VO_Coco_Whoopee
+# 3659355854
+
+### SFX NAMES (Coco.bnk)
+# 407827309
+# 695965521
+# 336418921
+
+### RTPC/GAME-VARIABLE NAMES (Coco.bnk)
+# 1098419815
+
+### VARIABLE NAMES (Coco.bnk)
+Material
+runner_player_alive_state
+Runner_Player_Character
+# 4290969636
+
+### VALUE NAMES (Coco.bnk)
+Coco
+Crash
+Dirt
+Grass
+Ice
+Metal
+player_alive
+player_dead
+running_started
+Sand
+Snow
+Stone
+Wet
+Wood
+
+### EVENT NAMES (Crash.bnk)
+Play_Booster_Tornado_Loop
+Play_Booster_Wumpomatic_Loop
+Play_Crash_VO_Effort
+Play_Crash_VO_Laugh
+Play_Crash_VO_Laugh_AlwaysTriggered
+Play_Crash_VO_Pain
+Play_Crash_VO_Pain_Short
+Play_Crash_VO_Phew
+Play_Crash_VO_Wee
+Play_Crash_VO_Whoopee
+Play_Env_SpeedPad
+Play_Player_Boomberry_Throw
+Play_Player_CharacterSelect_Buttonpress
+Play_Player_CharacterSelect_Spawn
+Play_Player_Crash_Celebrate_1
+Play_Player_Crash_Celebrate_2
+Play_Player_Crash_Celebrate_3
+Play_Player_Crash_Celebrate_4
+Play_Player_Crash_Celebrate_VO
+Play_Player_Crash_Death_Angel
+Play_Player_Crash_Death_Ashes
+Play_Player_Crash_Death_Dazed
+Play_Player_Crash_Death_Faceplant
+Play_Player_Crash_Death_Hithead
+Play_Player_Death
+Play_Player_Death_Pit
+Play_Player_Jump
+Play_Player_Jump_High
+Play_Player_Slam
+Play_Player_Spawn
+Player_Crash_Death_Squashed_Footstep
+Player_Start_Run
+Stop_Miniboss_icon_miniMissileRobot_frosty
+# 3363459794
+# 3659355854
+
+### SFX NAMES (Crash.bnk)
+# 377139373
+# 457357449
+# 241398952
+# 975878561
+# 430435892
+
+### RTPC/GAME-VARIABLE NAMES (Crash.bnk)
+# 1098419815
+
+### VARIABLE NAMES (Crash.bnk)
+Material
+runner_player_alive_state
+Runner_Player_Character
+# 4290969636
+
+### VALUE NAMES (Crash.bnk)
+Coco
+Crash
+Dirt
+Grass
+Ice
+Metal
+player_alive
+player_dead
+running_started
+Sand
+Snow
+Stone
+Wet
+Wood
+# 2492492298
+
+### EVENT NAMES (Crumbling_Platform.bnk)
+Play_Env_CrumblingPlatform_Fall
+Play_Env_CrumblingPlatform_Warning
+
+### RTPC/GAME-VARIABLE NAMES (Crumbling_Platform.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Electrified_Water.bnk)
+Play_Env_Electrified_Water_Freeze
+Play_Env_Electrified_Water_Loop
+Stop_Env_Electrified_Water_Loop
+
+### RTPC/GAME-VARIABLE NAMES (Electrified_Water.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Enemies_VenusFlytrap.bnk)
+Play_Enemy_VenusFlytrap_Bite
+Play_Enemy_VenusFlytrap_Chewing
+Play_Enemy_VenusFlytrap_Death
+Play_Enemy_VenusFlytrap_Explode
+Play_Enemy_VenusFlytrap_Projectile__Bounce
+Play_Enemy_VenusFlytrap_Spit
+Play_Enemy_VenusFlytrap_Swallow
+
+### RTPC/GAME-VARIABLE NAMES (Enemies_VenusFlytrap.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Enemy_Blob.bnk)
+Play_Enemy_Blob_Bounce
+Play_Enemy_Blob_Bounce_Start
+Play_Enemy_Blob_Death
+Play_Enemy_Blob_Idle_Stand
+# 2481809535
+
+### RTPC/GAME-VARIABLE NAMES (Enemy_Blob.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Enemy_FlyingFish.bnk)
+Play_Enemy_FlyingFish_Death_VO
+Play_Enemy_FlyingFish_Fall_Into_Water
+Play_Enemy_FlyingFish_Jump_From_Water
+Play_Enemy_FlyingFish_Jump_Ping
+Play_Enemy_Flyingfish_Jump_VO_Fall_Underwater
+Play_Enemy_FlyingFish_Teeth_Bite
+
+### RTPC/GAME-VARIABLE NAMES (Enemy_FlyingFish.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Enemy_Mummy.bnk)
+Play_Enemy_Mummy_Death
+Play_Enemy_Mummy_FootDrag
+Play_Enemy_Mummy_FootSteps
+Play_Enemy_Mummy_HIT
+Play_Enemy_Mummy_VO_DeathShake_End
+Play_Enemy_Mummy_VO_DeathShake_Intro
+Play_Enemy_Mummy_VO_Die
+Play_Enemy_Mummy_VO_Iddle
+Play_Enemy_Mummy_VO_Upset_Walk
+Play_Enemy_Mummy_VO_Upset_WokenUp
+Stop_Enemy_Mummy_Death
+Stop_Enemy_Mummy_VO_DeathShake_End
+Stop_Enemy_Mummy_VO_DeathShake_Intro
+Stop_Enemy_Mummy_VO_Die
+Stop_Enemy_Mummy_VO_Iddle
+Stop_Enemy_Mummy_VO_Upset_Walk
+Stop_Enemy_Mummy_VO_Upset_WokenUp
+
+### RTPC/GAME-VARIABLE NAMES (Enemy_Mummy.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Enemy_Penguin.bnk)
+Play_Enemy_Penguin_Death
+Play_Enemy_Penguin_Dizzy
+Play_Enemy_Penguin_Hop
+Play_Enemy_Penguin_Land
+Play_Enemy_Penguin_Spin
+Play_Enemy_Penguin_Spin_Antic
+Play_Enemy_Penguin_Spin_Loop
+Play_Enemy_Penguin_WingFlap
+Stop_Enemy_Penguin_Spin_Loop
+StopAll_Enemy_Penguin
+
+### SFX NAMES (Enemy_Penguin.bnk)
+# 736214011
+
+### RTPC/GAME-VARIABLE NAMES (Enemy_Penguin.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Enemy_Scrubber.bnk)
+Play_Enemy_Scrubber_Death
+Play_Enemy_Scrubber_Fall
+Play_Enemy_Scrubber_Idle
+Play_Enemy_Scrubber_Land
+Play_Enemy_Scrubber_Turn
+Play_Enemy_Scrubber_Walk
+Stop_All_Enemy_Scrubber_Walk
+Stop_Enemy_Scrubber_Idle
+Stop_Enemy_Scrubber_Walk
+
+### RTPC/GAME-VARIABLE NAMES (Enemy_Scrubber.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Enemy_Seal.bnk)
+Play_Enemy_Seal_Death
+Play_Enemy_Seal_Flatten
+Play_Enemy_Seal_Shuffle
+Play_Enemy_Seal_Shuffle_VO
+Play_Enemy_Seal_Slide_Loop
+Play_Enemy_Seal_Spin_Anticipation
+Play_Enemy_Seal_Spin_Loop
+Play_Enemy_Seal_Turn
+StopAll_Enemy_Seal
+
+### RTPC/GAME-VARIABLE NAMES (Enemy_Seal.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Enemy_Spider.bnk)
+Play_Boss_Araknid_Minion_Footstep
+Play_Enemy_Spider_Death
+Play_Enemy_Spider_Descend
+Play_Enemy_Spider_Grab
+
+### RTPC/GAME-VARIABLE NAMES (Enemy_Spider.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Enemy_Turtle.bnk)
+Play_Turtle_Death
+Play_Turtle_Idle
+Stop_Turtle_Idle
+
+### RTPC/GAME-VARIABLE NAMES (Enemy_Turtle.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (EnergyBlast.bnk)
+Play_Env_EnergyBlast
+
+### RTPC/GAME-VARIABLE NAMES (EnergyBlast.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Falling_Bones.bnk)
+Play_Env_FallingBone_Fall
+Play_Env_FallingBone_Impact
+Play_Env_FallingBone_Shake
+
+### RTPC/GAME-VARIABLE NAMES (Falling_Bones.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Falling_Icicles.bnk)
+Play_Env_FallingIcicles_Snow_Fall
+Play_Env_FallingIcicles_Snow_Impact_Big
+Play_Env_FallingIcicles_Snow_Impact_Mid
+Play_Env_FallingIcicles_Snow_Impact_Soft
+Play_Env_FallingIcicles_Snow_Shake
+Play_Env_Icicle_Destroy
+
+### RTPC/GAME-VARIABLE NAMES (Falling_Icicles.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Falling_Pillars.bnk)
+Play_Env_Pillar_Stone_Fall
+
+### RTPC/GAME-VARIABLE NAMES (Falling_Pillars.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (FireBlast.bnk)
+Play_Env_FireBlast_Loop
+Play_Env_FireBlast_Rig_ChangeDirection
+Play_Env_FireBlast_Rig_Loop
+Stop_Env_FireBlast_Loop
+Stop_Env_FireBlast_Rig_Loop
+StopAll_Env_FireBlast
+
+### RTPC/GAME-VARIABLE NAMES (FireBlast.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Fire_Breathing_Tiki.bnk)
+Play_Env_Fire_Breathing_Tiki_Fire_Loop
+Play_Env_Fire_Breathing_Tiki_Fire_Short_Spit
+Play_Env_Fire_Breathing_Tiki_Stone_Rotate_Loop
+Stop_Env_Fire_Breathing_Tiki_Fire_Loop
+Stop_Env_Fire_Breathing_Tiki_Stone_Rotate_Loop
+
+### RTPC/GAME-VARIABLE NAMES (Fire_Breathing_Tiki.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (FlamingBowl.bnk)
+Play_Env_FlamingBowl_Loop
+Stop_Env_FlamingBowl_Loop
+
+### RTPC/GAME-VARIABLE NAMES (FlamingBowl.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Floating_Lilypads.bnk)
+Play_Env_Lilypad_Land
+
+### RTPC/GAME-VARIABLE NAMES (Floating_Lilypads.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Floating_Logs.bnk)
+Play_Env_Floating_Log_Sink
+Play_Env_Floating_Log_Tilt
+Play_Env_Floating_Logs_Rise
+
+### RTPC/GAME-VARIABLE NAMES (Floating_Logs.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Floorswitch.bnk)
+Play_Env_Floorswitch
+
+### RTPC/GAME-VARIABLE NAMES (Floorswitch.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Frozen_Walls.bnk)
+Play_Env_Frozen_Wall_Melt
+
+### RTPC/GAME-VARIABLE NAMES (Frozen_Walls.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Gates.bnk)
+Play_Env_Gate_Locked_Alarm_Loop
+Play_Env_Gate_Open
+Play_Env_GreatGate_Open
+Stop_Env_Gate_Locked_Alarm_Loop
+
+### RTPC/GAME-VARIABLE NAMES (Gates.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Geyser.bnk)
+Play_Env_Geyser_Spray_Loop
+Play_Env_Geyser_Warning
+Stop_Env_Geyser_Spray_Loop
+
+### RTPC/GAME-VARIABLE NAMES (Geyser.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Illusionblock.bnk)
+Play_Env_Illusionblock_Appear
+Play_Env_Illusionblock_Disappear
+
+### RTPC/GAME-VARIABLE NAMES (Illusionblock.bnk)
+Azimuth
+Object_Height
+
+### SFX NAMES (Init.bnk)
+Brick_Wall_Minus_1dB_Peak_Fast_Release
+Brick_Wall_Minus_6dB_Peak_Fast_Release
+No_Output
+Space_Garage
+System
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+Azimuth
+Object_Height
+RTPC_Boss_Ntrance_MusicSpeed
+RTPC_Boss_Ntrance_ReversedControls
+# 1098419815
+
+### VARIABLE NAMES (Init.bnk)
+loadingscreen_state
+Meta_Focus
+Playing_Paused
+Runner_Ambience_State
+Runner_Boss_State
+Runner_Level_Type
+Runner_Music_State
+runner_player_alive_state
+Speaker_vs_Headphones_Mix
+# 4290969636
+# 1094781733
+
+### VALUE NAMES (Init.bnk)
+Alpine_Canyon
+Beach_Jungle
+Beach_Jungle_OceanRight
+Cave_Generic
+Cave_Ice_Large
+Cave_Ice_Small
+Cave_Large
+Cave_Lava
+Cave_Ruins
+Cave_Sewer
+ChickenCoop_Focused
+Default_Silence
+Forest
+Halloween_Scaffolding
+Halloween_Turtlewoods
+Halloween_WallLeft_JungleRight
+Halloween_WallRight_JungleLeft
+Island_Focused
+Jetboard_Focus
+Jungle
+Jungle_Ruins
+Jungle_Ruins_Windy
+Labs_Corridors
+Labs_Large
+Lava
+loadingscreen_enter
+Map_2D_Focused
+Minecart_Focused
+Mission_Computer_Focused
+None
+Paused
+player_alive
+player_dead
+ProdMachine_Frosty_Focused
+ProdMachine_Inferno_Focused
+ProdMachine_Nitro_Focused
+ProdMachine_Oxide_Focused
+RoadToRuin_Closed
+RoadToRuin_Open
+Sewer
+Shop_Focused
+Silo_Focused
+Social_Focused
+Special_GreatGate_WallLeft_JungleRight
+Special_GreatGate_WallRight_JungleLeft
+Special_GreatGate_Wooden_Scaffolding
+Tiki_Head
+Upstream
+Upstream_Caves
+# 1425324164
+
+### EVENT NAMES (Jumping_Crate.bnk)
+Play_Env_Jumping_Crate
+
+### RTPC/GAME-VARIABLE NAMES (Jumping_Crate.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (LargeSteelDoor.bnk)
+Play_Env_LargeSteelDoor
+
+### RTPC/GAME-VARIABLE NAMES (LargeSteelDoor.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Lava_Pit.bnk)
+Play_Env_Lava_Pit_Loop
+Stop_Env_Lava_Pit_Loop
+
+### RTPC/GAME-VARIABLE NAMES (Lava_Pit.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Main.bnk)
+A_Default_Silent
+Meta_Exit
+Mute_Bus_Enemies
+Mute_Master
+Mute_Music
+Mute_SFX
+Play_Aku_Invincible_Mode_Off
+Play_Intro_Sound
+Play_Tutorial_Runner_Boss_Banner
+Play_Tutorial_Runner_Boss_Camera_Pullback
+Play_Tutorial_Runner_Coco_Dialogue
+Play_Tutorial_Runner_Obstacle_Slowdown
+Play_Tutorial_Temp
+Play_UI_Button_Press
+Play_UI_Claim_Item_Button
+Play_UI_Claim_Item_Reaches_HUD
+Play_UI_CloseButton_Press
+Play_UI_CostumeScroller_Presented
+Play_UI_CostumeScroller_Swipe_Release
+Play_UI_CostumeScroller_Swipe_Start
+Play_UI_Dialog_In
+Play_UI_Dialog_Item_Tooltip_Close
+Play_UI_Dialog_Item_Tooltip_Open
+Play_UI_Dialog_Out
+Play_UI_Error
+Play_UI_IngredientsCollect_End
+Play_UI_IngredientsCollect_Start
+Play_UI_Notification_Icon_Show
+Play_UI_Overlay_In
+Play_UI_Overlay_Out
+Play_Ui_Pause_Button_Runner_Pause
+Play_Ui_Pause_Button_Runner_Resume
+Runner_End_Run
+Stop_Intro_Sound
+UnMute_Bus_Enemies
+UnMute_Master
+UnMute_Music
+UnMute_SFX
+
+### SFX NAMES (Main.bnk)
+# 430435892
+
+### VARIABLE NAMES (Main.bnk)
+Claimed_Item_Type
+Playing_Paused
+Runner_Boss_State
+# 4290969636
+
+### VALUE NAMES (Main.bnk)
+Other
+Paused
+Playing
+PurpleCrystal
+WumpaCoin
+# 2492492298
+# 2590181258
+# 2330003600
+
+### EVENT NAMES (Meta.bnk)
+Meta_Exit
+Play_Amb_CocosIsland
+Play_Amb_Meta_2D
+Play_Amb_Meta_Jungle
+Play_Amb_Meta_Sea
+Play_Amb_Meta_Volcano
+Play_Amb_Meta_Waterfall
+Play_Meta_Boss_Callout_Dingodile
+Play_Meta_Boss_Callout_Fakecoco
+Play_Meta_Boss_Callout_Fakecrash
+Play_Meta_Boss_Callout_Gnastygnorc
+Play_Meta_Boss_Callout_Koalakong
+Play_Meta_Boss_Callout_Mrcrumb
+Play_Meta_Boss_Callout_Neocortex
+Play_Meta_Boss_Callout_Ngin
+Play_Meta_Boss_Callout_Ninacortex
+Play_Meta_Boss_Callout_Nitrusbrio
+Play_Meta_Boss_Callout_Oxide
+Play_Meta_Boss_Callout_Roboneocortex
+Play_Meta_Boss_Callout_Scorporilla
+Play_Meta_Boss_Callout_Spyro
+Play_Meta_Boss_Callout_Tinytiger
+Play_Meta_Boss_Callout_Ukauka
+Play_Music_Cocos_Island
+Play_NPC_Chickens_Jump
+Play_NPC_Chickens_LayEgg
+Play_NPC_Chickens_Peck
+Play_Player_Coco_Idle_Scratch
+Play_Player_scratch
+Play_Tutorial_Meta_Coco_Dialogue
+Play_UI_2DMap_Base_to_Map_Button
+Play_UI_2DMap_Map_to_Base_Button
+Play_UI_2DMap_Select_Island
+Play_Ui_Aku_Quest_Achieved
+Play_Ui_Aku_Quest_Claim_Reward
+Play_Ui_Aku_Quest_Claim_Reward_Hud
+Play_Ui_Aku_Quests_Open_Panel
+Play_UI_Bank_Close
+Play_UI_Bank_Open
+Play_UI_Bank_Purchase_Success
+Play_UI_Bank_SelectAmountButton
+Play_UI_BossTallyScreen_Gem_Reward
+Play_UI_BossTallyScreen_Result
+Play_UI_BossTallyScreen_Stage_1
+Play_UI_BossTallyScreen_Start
+Play_UI_BossTallyScreen_Unlock
+Play_UI_Button_Press
+Play_UI_ChickenCoop_Close
+Play_UI_ChickenCoop_Collect
+Play_UI_ChickenCoop_Fill_Start
+Play_UI_ChickenCoop_Locked
+Play_UI_ChickenCoop_Open
+Play_UI_ChickenCoop_Upgrade
+Play_Ui_Coco_Unlocked_Panel
+Play_UI_DoubleReward_Result
+Play_UI_ForageRun_List_Close
+Play_UI_ForageRun_List_Open
+Play_UI_ForageRun_RunButton_Press
+Play_UI_ForageTallyScreen_Close
+Play_UI_ForageTallyScreen_Collect
+Play_UI_ForageTallyScreen_Item_Appear
+Play_UI_ForageTallyScreen_Show
+Play_UI_ForageTallyScreen_Watch_Ad
+Play_UI_ForageTallyScreen_Watch_to_Double
+Play_UI_Ingredient_Notification_Icon
+Play_Ui_Lab_Ingredient_To_Egg
+Play_Ui_Lab_Unlockslot
+Play_UI_LevelUp_ContinueButton_Press
+Play_UI_LevelUp_Start
+Play_Ui_Looptracker_Icon_Appear
+Play_Ui_Looptracker_Icon_Battlerun_Btn_Highlight
+Play_Ui_Looptracker_Icon_Disappear
+Play_UI_MissionScreen_BattleButton_Error
+Play_UI_MissionScreen_BossUnlock
+Play_UI_MissionScreen_Button_Press
+Play_UI_MissionScreen_Close
+Play_UI_MissionScreen_Error
+Play_UI_MissionScreen_MiniBoss_Defeated
+Play_Ui_Missionscreen_Notification
+Play_UI_MissionScreen_Open
+Play_UI_MissionScreen_Pan
+Play_UI_Notification_Icon_Show
+Play_UI_ProductionMachine_Building_Press
+Play_UI_ProductionMachine_Frosty_Close
+Play_UI_ProductionMachine_Frosty_Collect
+Play_UI_ProductionMachine_Frosty_Fill_Start
+Play_UI_ProductionMachine_Frosty_Locked
+Play_UI_ProductionMachine_Frosty_Open
+Play_UI_ProductionMachine_Inferno_Close
+Play_UI_ProductionMachine_Inferno_Collect
+Play_UI_ProductionMachine_Inferno_Fill_Start
+Play_UI_ProductionMachine_Inferno_Locked
+Play_UI_ProductionMachine_Inferno_Open
+Play_UI_ProductionMachine_Item_Drag_Release
+Play_UI_ProductionMachine_Item_Drag_Start
+Play_UI_ProductionMachine_Item_Locked_Error
+Play_UI_ProductionMachine_Item_Swipe_Release
+Play_UI_ProductionMachine_Item_Swipe_SnapTo
+Play_UI_ProductionMachine_Item_Swipe_Start
+Play_UI_ProductionMachine_Item_Tap
+Play_UI_ProductionMachine_Next_Building_Button_Press
+Play_UI_ProductionMachine_Nitro_Close
+Play_UI_ProductionMachine_Nitro_Collect
+Play_UI_ProductionMachine_Nitro_Fill_Start
+Play_UI_ProductionMachine_Nitro_Locked
+Play_UI_ProductionMachine_Nitro_Open
+Play_UI_ProductionMachine_Oxide_Close
+Play_UI_ProductionMachine_Oxide_Collect
+Play_UI_ProductionMachine_Oxide_Fill_Start
+Play_UI_ProductionMachine_Oxide_Locked
+Play_UI_ProductionMachine_Oxide_Open
+Play_UI_ProductionMachine_Resources_Fly_Start
+Play_UI_ProductionMachine_SpendGem
+Play_UI_ProductionMachine_UnlockSlot
+Play_UI_ProductionMachine_Upgrade
+Play_Ui_Reward_Shown
+Play_Ui_Reward_Track_Bar_Decrease
+Play_Ui_Reward_Track_Bar_Increase
+Play_Ui_Reward_Track_Show_Popup
+Play_Ui_Run_Button_Press
+Play_Ui_Season_Pass_Get
+Play_Ui_Seasonpass_Green_Tick_Item
+Play_Ui_Seasonpass_Increase_Bar
+Play_UI_Shop_Close
+Play_UI_Shop_Open
+Play_UI_Shop_Watch_Ad
+Play_UI_Silo_Close
+Play_UI_Silo_Ingredient_Select
+Play_UI_Silo_Open
+Play_UI_Silo_Sell
+Play_UI_Social_Panel_Close
+Play_UI_Social_Panel_Open
+Play_UI_Social_Team_Created_Tick
+Play_Ui_Survivalruns_Background_Spawn
+Play_Ui_Survivalruns_Character_Spawn
+Play_Ui_Survivalruns_Floatingplatform_Enter
+Play_Ui_Survivalruns_Hide
+Play_Ui_Survivalruns_Show
+Play_Ui_Switch_Land
+Play_UI_Tally_Screen_Item_Counter
+Play_UI_Tally_Screen_Item_Stomp
+Play_Ui_Tallyscreen_Close
+Play_Ui_Tallyscreen_Item_Appear
+Play_Ui_Tallyscreen_Show_Up_01
+Play_Ui_Tallyscreen_Show_Up_02
+Play_Ui_Teamrunpopup_Run_Button
+Play_UI_Tiki_Head_Close
+Play_UI_Tiki_Head_Open
+Play_UI_Tiki_Head_Points
+Play_UI_Tiki_Head_Repair
+Play_UI_Tiki_Head_Transform
+Play_UI_Tiki_Head_Transform_Bigger
+Play_UI_TimeTrials_MapButton_Press
+Play_UI_TimeTrials_RunButton_Press
+Play_UI_TimeTrials_SummaryScreen_SwitchPosition
+Play_VO_NPC_Chickens_Inspect
+Play_VO_NPC_Chickens_Jump
+Play_VO_NPC_Chickens_LayEgg
+Play_VO_NPC_Chickens_LayEgg_Chirp
+Play_VO_NPC_Chickens_Peck
+Play_VO_NPC_Chickens_PeckSingle
+Skip_Ui_Rewards
+Stop_Amb_CocosIsland
+Stop_Amb_Meta_2D
+Stop_Amb_Meta_Jungle
+Stop_Amb_Meta_Sea
+Stop_Amb_Meta_Volcano
+Stop_Amb_Meta_Waterfall
+Stop_Music_Cocos_Island
+# 1343722895
+# 1978901414
+# 2033540995
+# 3926936877
+
+### SFX NAMES (Meta.bnk)
+# 430435892
+
+### TRIGGER NAMES (Meta.bnk)
+New_Trigger
+
+### VARIABLE NAMES (Meta.bnk)
+Claimed_Item_Type
+Meta_Focus
+runner_player_alive_state
+# 4290969636
+
+### VALUE NAMES (Meta.bnk)
+ChickenCoop_Focused
+Island_Focused
+Jetboard_Focus
+Map_2D_Focused
+Minecart_Focused
+Mission_Computer_Focused
+None
+Other
+player_alive
+ProdMachine_Frosty_Focused
+ProdMachine_Inferno_Focused
+ProdMachine_Nitro_Focused
+ProdMachine_Oxide_Focused
+PurpleCrystal
+Shop_Focused
+Silo_Focused
+Social_Focused
+Tiki_Head
+WumpaCoin
+# 2492492298
+
+### EVENT NAMES (MiniBoss_Ant.bnk)
+Play_Boss_Ant_Attack
+Play_Boss_Ant_Death
+Play_Boss_Ant_Shot_Bounce_Small
+Play_Boss_Ant_Shot_Wall_Spawn_Frost
+Play_Boss_Ant_Shot_Wall_Spawn_Inferno
+Play_Boss_Ant_Shot_Wall_Spawn_Nitro
+Play_Boss_Ant_Shot_Wall_Spawn_Oxide
+Play_Boss_Ant_VO_Attack
+Play_Boss_Ant_VO_Death
+Play_Boss_Fakecrash_Spin_RoadToRuin
+Stop_Music_All_Bosses
+# 1094331111
+
+### VARIABLE NAMES (MiniBoss_Ant.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_Ant.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_Araknid.bnk)
+Play_Boss_Araknid_Attack_Venom
+Play_Boss_Araknid_Attack_Venom_Bounce
+Play_Boss_Araknid_Attack_Venom_Burst
+Play_Boss_Araknid_Attack_VO_Venom_1
+Play_Boss_Araknid_Attack_VO_Venom_2
+Play_Boss_Araknid_Death
+Play_Boss_Araknid_Minion_Footstep
+Play_Boss_Araknid_Summon
+Play_Boss_Araknid_VO_Death
+Play_Boss_Araknid_VO_Summon_1
+Play_Boss_Araknid_VO_Summon_2
+Stop_Music_All_Bosses
+
+### RTPC/GAME-VARIABLE NAMES (MiniBoss_Araknid.bnk)
+Azimuth
+
+### VARIABLE NAMES (MiniBoss_Araknid.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_Araknid.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_Crab.bnk)
+Play_Boss_Crab_Attack
+Play_Boss_Crab_Death
+Play_Boss_Crab_Strafe
+Play_Boss_Crab_VO_Attack
+Play_Boss_Crab_VO_Death
+Stop_Music_All_Bosses
+
+### VARIABLE NAMES (MiniBoss_Crab.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_Crab.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_Geary.bnk)
+Play_MiniBoss_Geary_Attack
+Play_MiniBoss_Geary_Attack_Vo
+Play_MiniBoss_Geary_Death
+Play_MiniBoss_Geary_Death_Scream_Vo
+Play_MiniBoss_Geary_Death_Vo
+Stop_Music_All_Bosses
+# 69219474
+# 991583226
+# 1960853201
+# 3325773484
+# 3448204032
+# 3783152732
+# 4164231075
+# 4197271358
+
+### VARIABLE NAMES (MiniBoss_Geary.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_Geary.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_Grumbler.bnk)
+Play_Miniboss_Grumbler_Death_001
+Play_Miniboss_Grumbler_Death_002
+Play_Miniboss_Grumbler_Death_Hit
+Play_Miniboss_Grumbler_Footsteps
+Play_Miniboss_Grumbler_Mini_Frosty_Trail
+Play_Miniboss_Grumbler_Mini_Inferno_Trail
+Play_Miniboss_Grumbler_Summon_Start
+Play_Vo_Miniboss_Grumbler_Death_Vo_001
+Play_Vo_Miniboss_Grumbler_Death_Vo_002
+Play_Vo_Miniboss_Grumbler_Death_Vo_003
+Play_Vo_Miniboss_Grumbler_Summon
+# 252254809
+# 1795484585
+# 2790649301
+# 3739956491
+
+### EVENT NAMES (MiniBoss_IronCrate.bnk)
+Play_Miniboss_Iron_Crate_Attack
+Play_Miniboss_Iron_Crate_Death
+Play_Miniboss_Iron_Crate_Fall
+Play_Miniboss_Iron_Crate_IDLE
+Play_Miniboss_Iron_Crate_Land
+Stop_Music_All_Bosses
+
+### VARIABLE NAMES (MiniBoss_IronCrate.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_IronCrate.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_Lab_Assistant.bnk)
+Play_MiniBoss_Lab_Assistant_Death
+Play_MiniBoss_Lab_Assistant_Electro_ThunderBall_Loop
+Play_MiniBoss_Lab_Assistant_Electro_Thunderbolt
+Play_MiniBoss_Lab_Assistant_Electro_ThunderClap
+Play_MiniBoss_Lab_Assistant_Electro_ThunderClap_Loop
+Play_MiniBoss_Lab_Assistant_Frosty_Impact
+Play_MiniBoss_Lab_Assistant_Grab_Movement
+Play_MiniBoss_Lab_Assistant_Inferno_Impact
+Play_MiniBoss_Lab_Assistant_Nitro_Impact
+Play_MiniBoss_Lab_Assistant_Oxide_Impact
+Play_MiniBoss_Lab_Assistant_Throw_Swish
+Play_MiniBoss_Lab_Assistant_VO_Death
+Play_MiniBoss_Lab_Assistant_VO_Effort_Charging
+Play_MiniBoss_Lab_Assistant_VO_Effort_Release
+Play_MiniBoss_Lab_Assistant_VO_Effort_Short
+Play_MiniBoss_Lab_Assistant_VO_Laughter
+Play_MiniBoss_Lab_Assistant_VO_Yes
+Stop_MiniBoss_Lab_Assistant_Electro_ThunderBall_Loop
+Stop_MiniBoss_Lab_Assistant_Electro_ThunderClap_Loop
+Stop_Music_All_Bosses
+# 575681807
+# 2771115871
+# 4178469938
+
+### VARIABLE NAMES (MiniBoss_Lab_Assistant.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_Lab_Assistant.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_Lolo.bnk)
+Play_Boss_Lolo_Attack_Death
+Play_Boss_Lolo_Attack_ElectricBolt
+Play_Boss_Lolo_Attack_Magic
+Play_Boss_Lolo_Death_PortalClose
+Play_Boss_Lolo_ElectricBolt_Loop
+Play_Boss_Lolo_MagicalAttack_Activate
+Play_Boss_Lolo_MagicalAttack_Loop
+Play_VO_Boss_Lolo_Attack_Magic
+Play_VO_Boss_Lolo_Death
+Stop_Boss_Lolo_ElectricBolt_Loop
+Stop_Boss_Lolo_MagicalAttack_Loop
+Stop_Music_All_Bosses
+
+### VARIABLE NAMES (MiniBoss_Lolo.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_Lolo.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_MiniMissileRobot.bnk)
+Play_Boss_MissileRobot_Attack_Fire
+Play_Boss_Missilerobot_Attack_Shoot_Dualwield
+Play_Boss_Missilerobot_Attack_Shoot_Dualwield_Reset
+Play_Boss_missilerobot_Death_1
+Play_Boss_missilerobot_Death_2
+Play_Boss_missilerobot_Death_3
+Play_Boss_Missilerobot_Movelane
+Play_Vo_Boss_Missilerobot_Attack_Shoot
+Play_Vo_Boss_missilerobot_Death
+Play_Vo_Boss_missilerobot_Laugh
+Stop_Music_All_Bosses
+# 186822454
+# 617931143
+# 1002714580
+# 1076845638
+# 1318720144
+# 2025760832
+# 2051219244
+# 2258694784
+# 2519368956
+# 3442010711
+# 3481859155
+# 3576741086
+# 3924766898
+# 4044138250
+# 4122792965
+
+### VARIABLE NAMES (MiniBoss_MiniMissileRobot.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_MiniMissileRobot.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_Noid.bnk)
+Play_Miniboss_Noid_Death_start
+Play_Miniboss_Noid_Frost_Ball_Bounce
+Play_Miniboss_Noid_Frost_Ball_To_Iceblock
+Play_Miniboss_Noid_Intro_Drawgun
+Play_Miniboss_Noid_Intro_Fall
+Play_Miniboss_Noid_Weapon_Charge
+Play_Miniboss_Noid_Weapon_Shoot
+Play_Vo_Miniboss_Noid_Intro_02_Effort
+Play_Vo_Miniboss_Noid_Shooting_01_Effort
+Stop_Music_All_Bosses
+# 185738668
+# 187784859
+# 1060650593
+# 1146122742
+# 1218372722
+# 1275913540
+# 1364204902
+# 1416626224
+# 1783605392
+# 2190141981
+# 2314450057
+# 2342698965
+# 2793274275
+# 2998425579
+# 3465019216
+
+### VARIABLE NAMES (MiniBoss_Noid.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_Noid.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_PinkElephant.bnk)
+Play_MiniBoss_Pink_Elephant_Break_1
+Play_MiniBoss_Pink_Elephant_Break_2_Fall
+Play_MiniBoss_Pink_Elephant_Break_2_Vo
+Play_MiniBoss_pink_elephant_Break_Vo
+Play_MiniBoss_Pink_Elephant_Death
+Play_MiniBoss_Pink_Elephant_Death_Vo
+Play_MiniBoss_Pink_Elephant_Death_Vo_Scream
+Stop_Music_All_Bosses
+# 2362558534
+# 2955991817
+# 3813677533
+
+### VARIABLE NAMES (MiniBoss_PinkElephant.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_PinkElephant.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_PirateShark.bnk)
+Play_Boss_Pirateshark_Attack_01_Charge
+Play_Boss_Pirateshark_Attack_01_Reset
+Play_Boss_Pirateshark_Attack_01_Throw
+Play_Boss_Pirateshark_Attack_02_Charge
+Play_Boss_Pirateshark_Attack_02_Reset
+Play_Boss_Pirateshark_Attack_02_Throw
+Play_Boss_Pirateshark_Death_1
+Play_Boss_Pirateshark_Death_2
+Play_Boss_Pirateshark_Death_3
+Play_Boss_Pirateshark_Projectile_Spin_Loop
+Play_Music_Boss_Pirateshark
+Play_Vo_Boss_Pirateshark_Attack_01_Charge
+Play_Vo_Boss_Pirateshark_Attack_02_Reset
+Play_Vo_Boss_Pirateshark_Attack_Throw
+Play_Vo_Boss_Pirateshark_Death_1
+Play_Vo_Boss_Pirateshark_Death_2
+Stop_Music_All_Bosses
+Stop_Music_Boss_Pirateshark
+# 267225614
+# 2260137350
+
+### VARIABLE NAMES (MiniBoss_PirateShark.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_PirateShark.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_Pyro.bnk)
+Play_Boss_Pyro_Death
+Play_Boss_Pyro_Death_VO
+Play_Boss_Pyro_Fireball_Attack_Cast
+Play_Boss_Pyro_Fireball_Attack_Start
+Play_Boss_Pyro_Fireball_Projectile
+Play_Boss_Pyro_Magical_Attack
+Play_Boss_Pyro_Magical_Firewall
+Play_Boss_Pyro_VO_Fireball_Attack_Cast
+Play_Boss_Pyro_VO_Fireball_Attack_Start
+Play_Boss_Pyro_VO_Magical_Attack
+Stop_Boss_Pyro_Fireball_Projectile
+Stop_Music_All_Bosses
+
+### VARIABLE NAMES (MiniBoss_Pyro.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_Pyro.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_Rokko.bnk)
+Play_Boss_Rokku_Death
+Play_Boss_Rokku_Death_VO
+Play_Boss_Rokku_FlamingBoulder_Attack
+Play_Boss_Rokku_FlamingBoulder_Attack_VO
+Play_Boss_Rokku_FlamingBoulder_Loop
+Play_Boss_Rokku_Magical_Attack
+Play_Boss_Rokku_Magical_Attack_Activate
+Play_Boss_Rokku_Magical_Attack_Loop
+Play_Boss_Rokku_Magical_Attack_VO
+Stop_Boss_Rokku_FlamingBoulder_Loop
+Stop_Boss_Rokku_Magical_Attack_Loop
+Stop_Music_All_Bosses
+
+### VARIABLE NAMES (MiniBoss_Rokko.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_Rokko.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_ThornThing.bnk)
+Play_Boss_Thornthing_Death_1
+Play_Boss_Thornthing_Death_2
+Play_Boss_Thornthing_Death_3
+Play_Boss_Thornthing_Vo_Death_1
+Play_Boss_Thornthing_Vo_Death_2
+Stop_Music_All_Bosses
+# 41659868
+# 1066447061
+# 1382498205
+# 1641166458
+# 1779739394
+# 1885155402
+# 2007681656
+# 2466920428
+# 3122614750
+# 3460941430
+# 4160359791
+
+### VARIABLE NAMES (MiniBoss_ThornThing.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_ThornThing.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_Wawa.bnk)
+Play_Boss_Wawa_Attack_IceBall_Shoot
+Play_Boss_Wawa_Attack_Magical
+Play_Boss_Wawa_Attack_Magical_VO
+Play_Boss_Wawa_Death
+Play_Boss_Wawa_Death_VO
+Play_Boss_Wawa_EnergyWave_Loop
+Play_Boss_Wawa_IceBall_Loop
+Stop_Boss_Wawa_EnergyWave_Loop
+Stop_Boss_Wawa_IceBall_Loop
+Stop_Music_All_Bosses
+
+### VARIABLE NAMES (MiniBoss_Wawa.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_Wawa.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (MiniBoss_Zombot.bnk)
+Play_Boss_RayGun_EnergyBlast
+Play_Miniboss_Zombot_Die
+Play_Miniboss_Zombot_Die_Vo
+Play_MiniBoss_Zombot_Footsteps
+Play_Miniboss_Zombot_Jump
+Play_Miniboss_Zombot_Jump_Vo
+Play_Miniboss_Zombot_Run_Vo
+Play_Miniboss_Zombot_Scream_Vo
+Stop_Boss_RayGun_EnergyBlast
+Stop_Music_All_Bosses
+# 1671123492
+# 2554302964
+# 3915034338
+# 4154283134
+
+### SFX NAMES (MiniBoss_Zombot.bnk)
+# 82691418
+
+### VARIABLE NAMES (MiniBoss_Zombot.bnk)
+Runner_Level_Type
+Runner_Music_State
+
+### VALUE NAMES (MiniBoss_Zombot.bnk)
+ChallengeRun
+ForageRun
+TeamRun
+TimeTrial
+WinSequence_End
+WinSequence_Victory
+
+### EVENT NAMES (Moving_Walls_and_Platforms.bnk)
+Play_Env_MovingWall_Loop
+Play_Env_Platform_Loop
+Stop_Env_MovingWall_Loop
+Stop_Env_Platform_Loop
+
+### RTPC/GAME-VARIABLE NAMES (Moving_Walls_and_Platforms.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Mushroom.bnk)
+Play_Env_Mushroom_Bounce
+
+### RTPC/GAME-VARIABLE NAMES (Mushroom.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Pressing_Machines.bnk)
+Play_Env_Pressing_Machines_Impact
+Play_Env_Pressing_Machines_Pre_Warning
+Play_Env_Pressing_Machines_Reset_Machinery
+
+### RTPC/GAME-VARIABLE NAMES (Pressing_Machines.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Rolling_Barrel.bnk)
+Play_Env_Rolling_Barrel_Impact
+Play_Env_Rolling_Barrel_Loop
+Play_Env_Rolling_Barrel_Sideways_Loop
+Stop_Env_Rolling_Barrel_Loop
+Stop_Env_Rolling_Barrel_Sideways_Loop
+
+### RTPC/GAME-VARIABLE NAMES (Rolling_Barrel.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Rolling_Boulders.bnk)
+Play_Env_Boulder_Freeze
+Play_Env_Boulder_Large_Impact_Enemy
+Play_Env_Boulder_Large_Impact_Far
+Play_Env_Boulder_Large_Impact_Ground
+Play_Env_Boulder_Large_Roll
+Play_Env_Boulder_Small_Impact_Enemy
+Play_Env_Boulder_Small_Impact_Ground
+Play_Env_Boulder_Small_Roll
+Stop_Env_Boulder_Large_Roll
+Stop_Env_Boulder_Small_Roll
+
+### RTPC/GAME-VARIABLE NAMES (Rolling_Boulders.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Rolling_Disc.bnk)
+Play_Env_RollingDisc_Roll
+
+### RTPC/GAME-VARIABLE NAMES (Rolling_Disc.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Rolling_Flaming_Boulders.bnk)
+Play_Env_Rolling_Flaming_Boulder_Large_Impact_Ground
+Play_Env_Rolling_Flaming_Boulder_Large_Roll
+Stop_Env_Rolling_Flaming_Boulder_Large_Roll
+
+### RTPC/GAME-VARIABLE NAMES (Rolling_Flaming_Boulders.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Rolling_Snowball.bnk)
+Play_Env_Rolling_Snowball_Impact_Ground
+Play_Env_Rolling_Snowball_Roll
+Stop_Env_Rolling_Snowball_Roll
+
+### RTPC/GAME-VARIABLE NAMES (Rolling_Snowball.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Runner.bnk)
+Amb_Spot_Bat_Calls_Caves_01
+Amb_Spot_Bat_Calls_Caves_02
+Amb_Spot_Bat_Passby_Caves
+Amb_Spot_Bea_Animals_01
+Amb_Spot_Bea_Animals_02
+Amb_Spot_Birds_Generic_01
+Amb_Spot_Birds_Generic_02
+Amb_Spot_Campfire
+Amb_Spot_Computer
+Amb_Spot_crystals_01
+Amb_Spot_crystals_02
+Amb_Spot_crystals_Caves_01
+Amb_Spot_Dinosaurs_01
+Amb_Spot_Dinosaurs_02
+Amb_Spot_Fans
+Amb_Spot_Fans_Caves
+Amb_Spot_Gre_Animals_01
+Amb_Spot_Gre_Animals_02
+Amb_Spot_Icicle_Fall_Big_Caves
+Amb_Spot_Icicle_Fall_Small_Caves
+Amb_Spot_Leaves
+Amb_Spot_Los_Animals_01
+Amb_Spot_Los_Animals_02
+Amb_Spot_Los_Cicadas
+Amb_Spot_Machine_01
+Amb_Spot_Machine_02
+Amb_Spot_Mangrove
+Amb_Spot_Metal_Mvmnt
+Amb_Spot_Metal_Mvmnt_Caves
+Amb_Spot_Neo_Cortex_Speaker_01
+Amb_Spot_Neo_Cortex_Speaker_02
+Amb_Spot_Powwow_01
+Amb_Spot_Powwow_02
+Amb_Spot_Ruins_Caves
+Amb_Spot_Steam_Fan
+Amb_Spot_Stone_Debris
+Amb_Spot_Stone_Debris_Caves
+Amb_Spot_Tesla_Coil_01
+Amb_Spot_Tesla_Coil_02
+Amb_Spot_Tur_Animals_01
+Amb_Spot_Tur_Animals_02
+Amb_Spot_Tur_Crickets_Caves
+Amb_Spot_Tur_Debris_Caves
+Amb_Spot_Tur_Frogs
+Amb_Spot_Volcanic_Lava_01
+Amb_Spot_Volcanic_Lava_02
+Amb_Spot_Volcanic_Lava_03
+Amb_Spot_Water_Drops
+Amb_Spot_Water_Drops_Caves
+Amb_Spot_Water_Pipes
+Amb_Spot_Water_Pipes_Caves
+Amb_Spot_Waterfall_Caves
+Amb_Spot_Wind_Howling
+Amb_Spot_Wind_Howling_Caves
+Music_Boss_Ntrance_Controls_QuickReset
+Music_Boss_Ntrance_Controls_Restore
+Music_Boss_Ntrance_Controls_Reverse
+Music_Boss_Ntrance_Speed_Increase
+Music_Boss_Ntrance_Speed_QuickReset
+Music_Boss_Ntrance_Speed_Restore
+Play_Aku_Despawn
+Play_Aku_Destroy_Obstacle
+Play_Aku_Invincible_Mode_Off
+Play_Aku_Invincible_Mode_On
+Play_Aku_Spawn
+Play_Amb_Lightningstrike
+Play_Amb_Spot_Wallbraziers
+Play_Amb_Spot_Wallbraziers_Caves
+Play_Amb_Spot_Waterfall_01
+Play_Amb_Spot_Waterfall_02
+Play_Boomberry_Bounce
+Play_Boomberry_Deflect
+Play_Boomberry_Destroyed
+Play_Boomberry_Experimental_Explosion
+Play_Boomberry_Pickup
+Play_Booster_Tornado_Loop
+Play_Booster_Tornado_Obstacle_Break
+Play_Booster_Wumpomatic_Loop
+Play_Booster_Wumpomatic_Suction_End
+Play_Booster_Wumpomatic_Suction_Start
+Play_Booster_Wumpomatic_Wumpa_Pickup
+Play_Crates_Fall
+Play_Crates_Impact
+Play_Enemy_Swish_Short
+Play_Env_Crate_Checkpoint_Destroy
+Play_Env_Crate_CrashPoints_Destroy
+Play_Env_Crate_Destroy
+Play_Env_Crate_Electrified_Destroy
+Play_Env_Crate_Freeze
+Play_Env_Crate_Frozen_Melt
+Play_Env_Crate_Ingredient_Destroy
+Play_Env_Crate_Land
+Play_Env_Crate_Nitro_Explosion
+Play_Env_Crate_Parts_Destroy
+Play_Env_Crate_Secret_Destroy
+Play_Env_Crate_Time_Destroy
+Play_Env_Crate_Tnt_Countdown_Loop
+Play_Env_Crate_Tnt_Explosion
+Play_Env_Crate_Wumpa_Destroy
+Play_Env_Generic_Explosion
+Play_Hotberry_Pickup
+Play_Magneticberry_Attract
+Play_Magneticberry_Explode
+Play_Mus_Boss_Madame_Amberly
+Play_Mus_ChallengeGemRuns_IceWarpIsland
+Play_Mus_ChallengeGemRuns_NsanityIsland
+Play_Mus_ChallengeGemRuns_WumpaIsland
+Play_Mus_Miniboss_general
+Play_Music_AkuAku_Invincible
+Play_Music_BeachJungle_BattleRun
+Play_Music_BeachJungle_ChallengeRun
+Play_Music_BeachJungle_ForageRun
+Play_Music_BeachJungle_GemRun
+Play_Music_BeachJungle_TeamRun
+Play_Music_BeachJungle_TimeTrial
+Play_Music_BearIt_BattleRun
+Play_Music_BearIt_ChallengeRun
+Play_Music_BearIt_ForageRun
+Play_Music_BearIt_GemRun
+Play_Music_BearIt_TeamRun
+Play_Music_BearIt_TimeTrial
+Play_Music_Boss_Ant
+Play_Music_Boss_Crab
+Play_Music_Boss_Darkspyro
+Play_Music_Boss_DingoDile
+Play_Music_Boss_DrNGinMech
+Play_Music_Boss_DrRoboNeoCortex
+Play_Music_Boss_Elemental
+Play_Music_Boss_FakeCoco
+Play_Music_Boss_FakeCrash
+Play_Music_Boss_Geary
+Play_Music_Boss_Gnastygnorc
+Play_Music_Boss_Ironcrate
+Play_Music_Boss_KoalaKong
+Play_Music_Boss_LabAssistant
+Play_Music_Boss_MrCrumb
+Play_Music_Boss_MutagenNitrusBrio
+Play_Music_Boss_NeoCortex
+Play_Music_Boss_NinaCortex
+Play_Music_Boss_NitrousOxide
+Play_Music_Boss_Noid
+Play_Music_Boss_NTrance
+Play_Music_Boss_Ntropy
+Play_Music_Boss_Pinkelephant
+Play_Music_Boss_Pinstripe
+Play_Music_Boss_Pirateshark
+Play_Music_Boss_Scorporilla
+Play_Music_Boss_Spider
+Play_Music_Boss_Thornthing
+Play_Music_Boss_Tinytiger
+Play_Music_Boss_UkaUka
+Play_Music_Boss_Zombot
+Play_Music_DinoMite_BattleRun
+Play_Music_DinoMite_ChallengeRun
+Play_Music_DinoMite_ForageRun
+Play_Music_DinoMite_GemRun
+Play_Music_DinoMite_TeamRun
+Play_Music_DinoMite_TimeTrial
+Play_Music_GreatGate_BattleRun
+Play_Music_GreatGate_ChallengeRun
+Play_Music_GreatGate_ForageRun
+Play_Music_GreatGate_GemRun
+Play_Music_GreatGate_TeamRun
+Play_Music_GreatGate_TimeTrial
+Play_Music_Labs_BattleRun
+Play_Music_Labs_ChallengeRun
+Play_Music_Labs_ForageRun
+Play_Music_Labs_GemRun
+Play_Music_Labs_TeamRun
+Play_Music_Labs_TimeTrial
+Play_Music_LostCity_BattleRun
+Play_Music_LostCity_ChallengeRun
+Play_Music_LostCity_ForageRun
+Play_Music_LostCity_GemRun
+Play_Music_LostCity_TeamRun
+Play_Music_LostCity_TimeTrial
+Play_Music_RoadToRuin_BattleRun
+Play_Music_RoadToRuin_ChallengeRun
+Play_Music_RoadToRuin_ForageRun
+Play_Music_RoadToRuin_GemRun
+Play_Music_RoadToRuin_TeamRun
+Play_Music_RoadToRuin_TimeTrial
+Play_Music_SewerOrLater_BattleRun
+Play_Music_SewerOrLater_ChallengeRun
+Play_Music_SewerOrLater_ForageRun
+Play_Music_SewerOrLater_GemRun
+Play_Music_SewerOrLater_TeamRun
+Play_Music_SewerOrLater_TimeTrial
+Play_Music_SnowGo_BattleRun
+Play_Music_SnowGo_ChallengeRun
+Play_Music_SnowGo_ForageRun
+Play_Music_SnowGo_GemRun
+Play_Music_SnowGo_TeamRun
+Play_Music_SnowGo_TimeTrial
+Play_Music_TempleRuins_BattleRun
+Play_Music_TempleRuins_ChallengeRun
+Play_Music_TempleRuins_ForageRun
+Play_Music_TempleRuins_GemRun
+Play_Music_TempleRuins_TeamRun
+Play_Music_TempleRuins_TimeTrial
+Play_Music_TurtleWoods_BattleRun
+Play_Music_TurtleWoods_ChallengeRun
+Play_Music_TurtleWoods_ForageRun
+Play_Music_TurtleWoods_GemRun
+Play_Music_TurtleWoods_TeamRun
+Play_Music_TurtleWoods_TimeTrial
+Play_Music_Upstream_Battlerun
+Play_Music_Upstream_ChallengeRun
+Play_Music_Upstream_Foragerun
+Play_Music_Upstream_GemRun
+Play_Music_Upstream_TeamRun
+Play_Music_Upstream_TimeTrial
+Play_Pickup_Fruit
+Play_Player_Boomberry_Throw
+Play_Player_Death
+Play_Player_Death_Electrocuted
+Play_Player_Dizzy
+Play_Player_Footstep
+Play_Player_Jump
+Play_Player_Jump_High
+Play_Player_Jump_Land
+Play_Player_Jump_Spin
+Play_Player_Portal_Enter
+Play_Player_Push_Enemy
+Play_Player_RunEnd
+Play_Player_scratch
+Play_Player_Slam
+Play_Player_Slide
+Play_Player_Sneakers_Hit
+Play_Player_Switch_Lane
+Play_RewardScreen_Gem
+Play_RewardScreen_HardCurrency
+Play_RewardScreen_Powergem
+Play_TeamRun_PostGame_Enter
+Play_TeamRun_PostGame_Exit
+Play_TeamRun_PreGame_Enter
+Play_TeamRun_PreGame_Exit
+Play_UI_EGP_Buy
+Play_UI_EGP_Countdown
+Play_UI_EGP_Watch_Ad
+Play_Ui_Goalachieved
+Play_Ui_Goalreward
+Play_UI_Revive
+Play_UI_Runner_Countdown
+Play_UI_TeamRun_PostGame_BadgeReward
+Play_UI_TeamRun_PostGame_PlayerPosition_Bronze
+Play_UI_TeamRun_PostGame_PlayerPosition_Gold
+Play_UI_TeamRun_PostGame_PlayerPosition_Silver
+Play_UI_TeamRun_PreGame_Avatar_Show
+Play_UI_TeamRun_PreGame_Button_StartRun
+Play_UI_TimeTrials_Reward_Relic_Gold
+Play_UI_TimeTrials_Reward_Relic_Platinum
+Play_UI_TimeTrials_Reward_Relic_Sapphire
+runner_exit
+Stop_Booster_Tornado_Loop
+Stop_Booster_Wumpomatic_Loop
+Stop_Env_Crate_Tnt_Countdown_Loop
+Stop_Mus_Boss_Madame_Amberly
+Stop_Mus_ChallengeGemRuns_IceWarpIsland
+Stop_Mus_ChallengeGemRuns_NsanityIsland
+Stop_Mus_ChallengeGemRuns_WumpaIsland
+Stop_Music_AkuAku_Invincible
+Stop_Music_All_Bosses
+Stop_Music_BeachJungle_BattleRun
+Stop_Music_BeachJungle_ChallengeRun
+Stop_Music_BeachJungle_ForageRun
+Stop_Music_BeachJungle_GemRun
+Stop_Music_BeachJungle_TeamRun
+Stop_Music_BeachJungle_TimeTrial
+Stop_Music_BearIt_BattleRun
+Stop_Music_BearIt_ChallengeRun
+Stop_Music_BearIt_ForageRun
+Stop_Music_BearIt_GemRun
+Stop_Music_BearIt_TeamRun
+Stop_Music_BearIt_TimeTrial
+Stop_Music_Boss_Ant
+Stop_Music_Boss_Crab
+Stop_Music_Boss_Darkspyro
+Stop_Music_Boss_DingoDile
+Stop_Music_Boss_DrNGinMech
+Stop_Music_Boss_DrRoboNeoCortex
+Stop_Music_Boss_Elemental
+Stop_Music_Boss_FakeCoco
+Stop_Music_Boss_FakeCrash
+Stop_Music_Boss_Geary
+Stop_Music_Boss_Gnastygnorc
+Stop_Music_Boss_Ironcrate
+Stop_Music_Boss_KoalaKong
+Stop_Music_Boss_LabAssistant
+Stop_Music_Boss_Minimissilerobot
+Stop_Music_Boss_MrCrumb
+Stop_Music_Boss_MutagenNitrusBrio
+Stop_Music_Boss_NeoCortex
+Stop_Music_Boss_NinaCortex
+Stop_Music_Boss_NitrousOxide
+Stop_Music_Boss_NTrance
+Stop_Music_Boss_Ntropy
+Stop_Music_Boss_Pinkelephant
+Stop_Music_Boss_Pinstripe
+Stop_Music_Boss_Pirateshark
+Stop_Music_Boss_Scorporilla
+Stop_Music_Boss_Spider
+Stop_Music_Boss_Thornthing
+Stop_Music_Boss_Tinytiger
+Stop_Music_Boss_UkaUka
+Stop_Music_Boss_Zombot
+Stop_Music_DinoMite_BattleRun
+Stop_Music_DinoMite_ChallengeRun
+Stop_Music_DinoMite_ForageRun
+Stop_Music_DinoMite_GemRun
+Stop_Music_DinoMite_TeamRun
+Stop_Music_DinoMite_TimeTrial
+Stop_Music_GreatGate_BattleRun
+Stop_Music_GreatGate_ChallengeRun
+Stop_Music_GreatGate_ForageRun
+Stop_Music_GreatGate_GemRun
+Stop_Music_GreatGate_TeamRun
+Stop_Music_GreatGate_TimeTrial
+Stop_Music_Labs_BattleRun
+Stop_Music_Labs_ChallengeRun
+Stop_Music_Labs_ForageRun
+Stop_Music_Labs_GemRun
+Stop_Music_Labs_TeamRun
+Stop_Music_Labs_TimeTrial
+Stop_Music_LostCity_BattleRun
+Stop_Music_LostCity_ChallengeRun
+Stop_Music_LostCity_ForageRun
+Stop_Music_LostCity_GemRun
+Stop_Music_LostCity_TeamRun
+Stop_Music_LostCity_TimeTrial
+Stop_Music_RoadToRuin_BattleRun
+Stop_Music_RoadToRuin_ChallengeRun
+Stop_Music_RoadToRuin_ForageRun
+Stop_Music_RoadToRuin_GemRun
+Stop_Music_RoadToRuin_TeamRun
+Stop_Music_RoadToRuin_TimeTrial
+Stop_Music_SewerOrLater_BattleRun
+Stop_Music_SewerOrLater_ChallengeRun
+Stop_Music_SewerOrLater_ForageRun
+Stop_Music_SewerOrLater_GemRun
+Stop_Music_SewerOrLater_TeamRun
+Stop_Music_SewerOrLater_TimeTrial
+Stop_Music_SnowGo_BattleRun
+Stop_Music_SnowGo_ChallengeRun
+Stop_Music_SnowGo_ForageRun
+Stop_Music_SnowGo_GemRun
+Stop_Music_SnowGo_TeamRun
+Stop_Music_SnowGo_TimeTrial
+Stop_Music_TempleRuins_BattleRun
+Stop_Music_TempleRuins_ChallengeRun
+Stop_Music_TempleRuins_ForageRun
+Stop_Music_TempleRuins_GemRun
+Stop_Music_TempleRuins_TeamRun
+Stop_Music_TempleRuins_TimeTrial
+Stop_Music_TurtleWoods_BattleRun
+Stop_Music_TurtleWoods_ChallengeRun
+Stop_Music_TurtleWoods_ForageRun
+Stop_Music_TurtleWoods_GemRun
+Stop_Music_TurtleWoods_TeamRun
+Stop_Music_TurtleWoods_TimeTrial
+Stop_Music_Upstream_Battlerun
+Stop_Music_Upstream_ChallengeRun
+Stop_Music_Upstream_Foragerun
+Stop_Music_Upstream_GemRun
+Stop_Music_Upstream_TeamRun
+Stop_Music_Upstream_TimeTrial
+Stop_Player_Death_Electrocuted
+Stop_Player_Dizzy
+# 33868545
+# 39740292
+# 187216376
+# 286483092
+# 313520540
+# 713359959
+# 835313146
+# 1128720204
+# 1714649774
+# 2841348884
+# 3075160098
+# 3659355854
+# 4277907726
+
+### SFX NAMES (Runner.bnk)
+# 974796520
+# 269935396
+# 831185057
+# 733205797
+# 375148483
+# 525034949
+# 884594113
+# 977719631
+# 985149280
+# 457357449
+# 241398952
+# 407827309
+# 695965521
+# 975878561
+# 336418921
+# 728048754
+# 352698702
+# 166960998
+# 1036569913
+# 21450613
+# 847892136
+# 556953615
+# 718924556
+# 161048274
+# 56005282
+# 693545817
+# 150049699
+# 194449720
+# 150858558
+# 121183016
+# 944932704
+# 623743657
+# 291771321
+# 217829147
+# 957558190
+# 545596366
+# 622994689
+# 41927915
+# 1032196663
+# 122762444
+# 656140624
+# 715021755
+
+### RTPC/GAME-VARIABLE NAMES (Runner.bnk)
+Azimuth
+Object_Height
+RTPC_Boss_Ntrance_MusicSpeed
+RTPC_Boss_Ntrance_ReversedControls
+# 1098419815
+
+### VARIABLE NAMES (Runner.bnk)
+Material
+Meta_Focus
+Playing_Paused
+Runner_Ambience_State
+Runner_Boss_State
+Runner_Level_Type
+Runner_Music_State
+runner_player_alive_state
+Runner_Player_Character
+# 4290969636
+# 1094781733
+
+### VALUE NAMES (Runner.bnk)
+Cave_Generic
+Cave_Ice_Large
+Cave_Ice_Small
+Cave_Large
+Cave_Lava
+Cave_Ruins
+Cave_Sewer
+ChallengeRun
+ChickenCoop_Focused
+Coco
+Crash
+Default_Silence
+Dirt
+end_bossrun
+ForageRun
+Forest
+Grass
+Halloween_Scaffolding
+Halloween_Turtlewoods
+Halloween_WallLeft_JungleRight
+Halloween_WallRight_JungleLeft
+Ice
+Island_Focused
+Jetboard_Focus
+Jungle
+Jungle_Ruins
+Jungle_Ruins_Windy
+Labs_Corridors
+Labs_Large
+Lava
+Map_2D_Focused
+Metal
+Minecart_Focused
+Mission_Computer_Focused
+Paused
+player_alive
+player_dead
+ProdMachine_Frosty_Focused
+ProdMachine_Inferno_Focused
+ProdMachine_Nitro_Focused
+ProdMachine_Oxide_Focused
+runner_music
+Sand
+Sewer
+Shop_Focused
+Silo_Focused
+Snow
+Social_Focused
+Special_GreatGate_WallLeft_JungleRight
+Special_GreatGate_WallRight_JungleLeft
+Special_GreatGate_Wooden_Scaffolding
+Stone
+TeamRun
+Tiki_Head
+TimeTrial
+Upstream
+Upstream_Caves
+Wet
+WinSequence_End
+WinSequence_Victory
+Wood
+# 4019426313
+# 2590181258
+# 2330003600
+# 1425324164
+# 2492492298
+# 1150025902
+# 1276330354
+# 2960636094
+# 4252557950
+# 3863056180
+# 2786443728
+
+### EVENT NAMES (Runner_2D_Ambiences.bnk)
+Play_Runner_Ambience
+Stop_Runner_Ambience
+
+### SFX NAMES (Runner_2D_Ambiences.bnk)
+# 23001187
+
+### VARIABLE NAMES (Runner_2D_Ambiences.bnk)
+Runner_Ambience_State
+Runner_Boss_State
+
+### VALUE NAMES (Runner_2D_Ambiences.bnk)
+Alpine_Canyon
+Beach_Jungle
+Beach_Jungle_OceanRight
+Cave_Generic
+Cave_Ice_Large
+Cave_Ice_Small
+Cave_Large
+Cave_Lava
+Cave_Ruins
+Cave_Sewer
+Default_Silence
+end_bossrun
+Forest
+Halloween_Scaffolding
+Halloween_Turtlewoods
+Halloween_WallLeft_JungleRight
+Halloween_WallRight_JungleLeft
+Jungle
+Jungle_Ruins
+Jungle_Ruins_Windy
+Labs_Corridors
+Labs_Large
+Lava
+None
+RoadToRuin_Closed
+RoadToRuin_Open
+Sewer
+Special_GreatGate_WallLeft_JungleRight
+Special_GreatGate_WallRight_JungleLeft
+Special_GreatGate_Wooden_Scaffolding
+Upstream
+Upstream_Caves
+# 4019426313
+# 2590181258
+# 2330003600
+# 1425324164
+
+### EVENT NAMES (Sewer_Water.bnk)
+Play_Env_Sewer_Water_Freeze
+
+### RTPC/GAME-VARIABLE NAMES (Sewer_Water.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (SpeedPads.bnk)
+Play_Env_SpeedPad
+Stop_Env_SpeedPad
+
+### RTPC/GAME-VARIABLE NAMES (SpeedPads.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Spiketrap.bnk)
+Play_Env_Spiketrap
+
+### RTPC/GAME-VARIABLE NAMES (Spiketrap.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Spikey_Rolling_Traps.bnk)
+Play_Env_Spikey_Rolling_Trap_Central_rolling_loop
+Play_Env_Spikey_Rolling_Trap_Rolling_Loop
+Play_Env_Spikey_Rolling_Trap_Shaking
+Play_Env_Spikey_Rolling_Trap_Shifting
+
+### RTPC/GAME-VARIABLE NAMES (Spikey_Rolling_Traps.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Stone_Snake.bnk)
+Play_Env_Stone_Snake_Fire_Loop
+Play_Env_Stone_Snake_Flip
+Play_Env_Stone_Snake_Loop
+Stop_Env_Stone_Snake_Fire_Loop
+Stop_Env_Stone_Snake_Loop
+
+### RTPC/GAME-VARIABLE NAMES (Stone_Snake.bnk)
+Azimuth
+Object_Height
+
+### EVENT NAMES (Tutorial_Intro.bnk)
+Play_Player_Footstep
+Play_Player_Jump_Land
+Play_Player_RunEnd
+Play_Player_Slide
+Play_Player_Switch_Lane
+Play_Tutorial_Outro_Bosses_Crowd_Vo
+Play_Tutorial_Runner_Intro_Crash_Gem_Bite
+Play_Tutorial_Runner_Intro_Crash_Vo_1
+Play_Tutorial_Runner_Intro_Crash_Vo_10
+Play_Tutorial_Runner_Intro_Crash_Vo_2
+Play_Tutorial_Runner_Intro_Crash_Vo_3
+Play_Tutorial_Runner_Intro_Crash_Vo_4
+Play_Tutorial_Runner_Intro_Crash_Vo_5
+Play_Tutorial_Runner_Intro_Crash_Vo_6
+Play_Tutorial_Runner_Intro_Crash_Vo_7
+Play_Tutorial_Runner_Intro_Crash_Vo_8
+Play_Tutorial_Runner_Intro_Crash_Vo_9
+Play_Tutorial_Runner_Intro_Crash_Wumpa_Eat
+Play_Tutorial_Runner_Intro_Crash_Wumpa_Slurp
+Play_Tutorial_Runner_Intro_Gem_Sparkle
+Play_Tutorial_Runner_Intro_Gem_Thow_Sequence
+Play_Tutorial_Runner_Intro_Neo_Catch_Gem
+Play_Tutorial_Runner_Intro_Neo_Jump
+Play_Tutorial_Runner_Intro_Neo_Platform_Enter
+Play_Tutorial_Runner_Intro_Neo_Platform_Exit
+Play_Tutorial_Runner_Intro_Neo_Platform_LAND
+Play_Tutorial_Runner_Intro_Neocortex_Vo_1
+Play_Tutorial_Runner_Intro_Neocortex_Vo_2
+Play_Tutorial_Runner_Intro_Neocortex_Vo_3
+Play_Tutorial_Runner_Neo_Attack
+Play_Tutorial_Runner_Outro_Brio_Vo_1
+Play_Tutorial_Runner_Outro_Crash_Turn
+Play_Tutorial_Runner_Outro_Crash_Vo_Exit
+Play_Tutorial_Runner_Outro_Crash_Vo_Laugh
+Play_Tutorial_Runner_Outro_Dingodile_Vo_1
+Play_Tutorial_Runner_Outro_Neo_Vo_1
+Play_Tutorial_Runner_Outro_Neo_Vo_2
+Play_Tutorial_Runner_Outro_Neo_Vo_3
+Play_Tutorial_Runner_Outro_Neo_Vo_4
+Play_Tutorial_Runner_Outro_Neo_Vo_5
+Play_Tutorial_Runner_Outro_Neo_Vo_6
+Play_Tutorial_Runner_Outro_Neo_Vo_7
+Play_Tutorial_Runner_Outro_Neo_Vo_8
+Play_Tutorial_Runner_Outro_Neo_Vo_Laugh
+Play_Tutorial_Runner_Outro_Portal_1
+Play_Tutorial_Runner_Outro_Portal_2
+Play_Tutorial_Runner_Outro_Tiger_Vo_1
+# 315881318
+# 643815949
+# 847196241
+# 854705291
+# 1257984930
+# 1774468334
+# 1929460246
+# 2528655975
+# 2658469760
+# 3239443840
+# 4109970205
+# 4118056039
+
+### VARIABLE NAMES (Tutorial_Intro.bnk)
+Material
+Runner_Level_Type
+Runner_Music_State
+Runner_Player_Character
+
+### VALUE NAMES (Tutorial_Intro.bnk)
+ChallengeRun
+Coco
+Crash
+Dirt
+ForageRun
+Grass
+Ice
+Metal
+Sand
+Snow
+Stone
+TeamRun
+TimeTrial
+Wet
+WinSequence_End
+WinSequence_Victory
+Wood
+
+### EVENT NAMES (Wooden_Shutters.bnk)
+Play_Env_WoodenShutter_Destroy
+
+### RTPC/GAME-VARIABLE NAMES (Wooden_Shutters.bnk)
+Azimuth
+Object_Height
