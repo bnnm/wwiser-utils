@@ -4,7 +4,7 @@
 # v2 by bnnm (old extensions, lang names, etc)
 
 # set to generate (packname)/files
-set WRITE_PATH long 1
+set WRITE_PATH long 0
 
 # set if cannot be autodetected: 62< uses old extensions, 62>= uses new extensions
 set BANK_VERSION long 0
