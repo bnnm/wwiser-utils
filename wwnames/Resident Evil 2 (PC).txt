@@ -1,0 +1,1252 @@
+
+### BANK NAMES
+cf001_music_en
+cf007_music_en
+cf092_music_en
+cf093_music_en
+cf094_music_en
+cf190_music_en
+cf220_music_en
+cf290_music_en
+cf320_music_en
+cf340_music_en
+cf350_music_en
+cf360_music_en
+cf420_music_en
+cf480_music_en
+cf520_music_en
+cf650_music_en
+cf770_music
+cf780_music
+cf790_music
+cf800_music
+cf810_music
+cf850_music_en
+cf860_music_en
+cf868_music_en
+cf916_music_en
+ev000_music
+ev011_music_en
+ev030_music_en
+ev050_music_en
+ev051_music
+ev100_music_en
+ev140_music
+ev220_music
+ev250_music_en
+ev251_music
+ev260_music
+ev330_music
+ev400_music
+ev410_music
+ev530_music
+ev580_music
+ev620_music
+ev680_music
+ev690_music_en
+ev700_00_music_media
+ev700_01_music_media
+ev700_music
+ev730_00_se_music
+ev730_01_se_music
+ev730_music
+ev740_music
+ev750_music
+ev760_music
+ev890_music
+ev900_00_music_media
+ev900_01_music_media
+ev900_music
+ev905_00_music_media
+ev905_01_music_media
+ev905_music
+music_layer_clair
+music_layer_leon
+music_location_orphan_asylum
+music_location_rpd
+music_resident
+
+### LANGUAGE NAMES
+SFX
+
+### BUS NAMES
+ev_music
+in_music
+Master Audio Bus = 0
+# 3250016002
+# 3761260958
+# 2532501727
+# 3529385338
+# 299100102
+# 3646047100
+# 2824913179
+# 9496307
+# 691205603
+# 703020336
+# 1201515626
+
+### EVENT NAMES (cf001_music_en.bnk)
+play_cf001_00_music_00
+play_cf001_00_music_01
+
+### EVENT NAMES (cf007_music_en.bnk)
+play_cf007_00_music
+
+### EVENT NAMES (cf092_music_en.bnk)
+play_cf092_00_music
+
+### EVENT NAMES (cf093_music_en.bnk)
+play_cf093_00_music
+
+### EVENT NAMES (cf094_music_en.bnk)
+play_cf094_00_music_00
+play_cf094_00_music_01
+
+### EVENT NAMES (cf190_music_en.bnk)
+play_cf190_00_music_00
+play_cf190_00_music_01
+
+### EVENT NAMES (cf220_music_en.bnk)
+play_cf220_00_music_00
+
+### EVENT NAMES (cf290_music_en.bnk)
+play_cf290_00_music_00
+
+### EVENT NAMES (cf320_music_en.bnk)
+play_cf320_00_music_00
+
+### EVENT NAMES (cf340_music_en.bnk)
+play_cf340_01_music
+
+### EVENT NAMES (cf350_music_en.bnk)
+play_cf350_01_music
+
+### EVENT NAMES (cf360_music_en.bnk)
+play_cf360_00_music_00
+play_cf360_00_music_01
+
+### EVENT NAMES (cf420_music_en.bnk)
+play_cf420_00_music_00
+
+### EVENT NAMES (cf480_music_en.bnk)
+play_cf480_01_music
+
+### EVENT NAMES (cf520_music_en.bnk)
+play_cf520_01_music
+
+### EVENT NAMES (cf650_music_en.bnk)
+play_cf650_00_music_00
+play_cf650_00_music_01
+
+### EVENT NAMES (cf770_music.bnk)
+play_cf770_00_music
+
+### EVENT NAMES (cf780_music.bnk)
+play_cf780_00_music
+
+### VARIABLE NAMES (cf780_music.bnk)
+classic_type
+
+### VALUE NAMES (cf780_music.bnk)
+true
+
+### EVENT NAMES (cf790_music.bnk)
+play_cf790_00_music
+
+### VARIABLE NAMES (cf790_music.bnk)
+classic_type
+
+### VALUE NAMES (cf790_music.bnk)
+true
+
+### EVENT NAMES (cf800_music.bnk)
+play_cf800_00_music
+
+### EVENT NAMES (cf810_music.bnk)
+play_cf810_00_music
+
+### EVENT NAMES (cf850_music_en.bnk)
+play_cf850_00_music_01
+
+### EVENT NAMES (cf860_music_en.bnk)
+play_cf860_00_music_01
+
+### EVENT NAMES (cf868_music_en.bnk)
+play_cf868_music_01
+
+### VARIABLE NAMES (cf868_music_en.bnk)
+classic_type
+
+### VALUE NAMES (cf868_music_en.bnk)
+true
+
+### EVENT NAMES (cf916_music_en.bnk)
+play_cf916_00_music_00
+play_cf916_00_music_01
+
+### EVENT NAMES (ev000_music.bnk)
+play_ev000_00_music
+
+### EVENT NAMES (ev011_music_en.bnk)
+play_ev011_00_music
+
+### EVENT NAMES (ev030_music_en.bnk)
+play_ev030_00_music
+play_ev030_01_music
+
+### EVENT NAMES (ev050_music_en.bnk)
+play_ev050_00_music
+play_ev050_01_music
+
+### EVENT NAMES (ev051_music.bnk)
+play_ev051_00_music
+play_ev051_01_music
+
+### EVENT NAMES (ev100_music_en.bnk)
+play_ev100_00_music
+play_ev100_01_music
+
+### EVENT NAMES (ev140_music.bnk)
+play_ev140_00_music
+play_ev140_01_music
+
+### EVENT NAMES (ev220_music.bnk)
+play_ev220_01_music
+
+### EVENT NAMES (ev250_music_en.bnk)
+play_ev250_00_music
+
+### VARIABLE NAMES (ev250_music_en.bnk)
+classic_type
+
+### VALUE NAMES (ev250_music_en.bnk)
+true
+
+### EVENT NAMES (ev251_music.bnk)
+play_ev251_01_music
+
+### EVENT NAMES (ev260_music.bnk)
+play_ev260_00_music
+
+### EVENT NAMES (ev330_music.bnk)
+play_ev330_00_music
+
+### EVENT NAMES (ev400_music.bnk)
+play_ev400_01_music
+
+### EVENT NAMES (ev410_music.bnk)
+play_ev410_00_music
+
+### EVENT NAMES (ev530_music.bnk)
+play_ev530_00_music
+
+### EVENT NAMES (ev580_music.bnk)
+play_ev580_00_music
+
+### EVENT NAMES (ev620_music.bnk)
+play_ev620_01_music
+
+### EVENT NAMES (ev680_music.bnk)
+play_ev680_00_music
+
+### EVENT NAMES (ev690_music_en.bnk)
+play_ev690_01_music
+
+### EVENT NAMES (ev700_music.bnk)
+play_ev700_00_music
+play_ev700_01_music
+
+### EVENT NAMES (ev730_music.bnk)
+play_ev730_00_music
+play_ev730_01_music
+
+### EVENT NAMES (ev740_music.bnk)
+play_ev740_00_music
+
+### EVENT NAMES (ev750_music.bnk)
+play_ev750_01_music
+
+### EVENT NAMES (ev760_music.bnk)
+play_ev760_00_music
+
+### EVENT NAMES (ev890_music.bnk)
+play_ev890_00_music
+play_ev890_01_music
+
+### VARIABLE NAMES (ev890_music.bnk)
+scenario_state_type
+
+### VALUE NAMES (ev890_music.bnk)
+claire_a
+claire_b
+leon_a
+leon_b
+
+### EVENT NAMES (ev900_music.bnk)
+play_ev900_00_music
+play_ev900_01_music
+
+### EVENT NAMES (ev905_music.bnk)
+play_ev905_00_music
+play_ev905_01_music
+
+### EVENT NAMES (music_layer_clair.bnk)
+play_LAYER_CLAIR
+
+### RTPC/GAME-VARIABLE NAMES (music_layer_clair.bnk)
+# 62933286
+# 4011004363
+# 3922897921
+# 2061617225
+
+### VARIABLE NAMES (music_layer_clair.bnk)
+bgm_level_state
+bgm_timeline_event
+scenario_state_type
+# 1099918680
+# 33591396
+
+### VALUE NAMES (music_layer_clair.bnk)
+ev011_start
+ev020_start
+ev050_start
+ev051_start
+ev100_start
+ev110_start
+ev140_start
+ev150_start
+ev220_start
+ev250_start
+ev251_start
+ev260_start
+ev330_start
+ev400_start
+ev410_start
+ev530_start
+ev580_start
+ev620_start
+ev680_start
+ev690_start
+ev700_start
+ev710_start
+ev730_start
+ev740_start
+ev750_start
+ev760_start
+ev890_start
+ev891_start
+ev900_start
+hunk
+lv_orphan_asylum_cf360_start
+lv_orphan_asylum_sceflag_5_1_280
+lv_rpd_sndflag_2_1_004
+lv_rpd_sndflag_2_1_037
+screen_bonus_figure
+screen_difficulty_select
+screen_gameover
+screen_inventory
+screen_loading
+screen_map
+screen_pause
+screen_result
+screen_result_extra
+screen_save
+screen_staffroll
+screen_title
+st4_209_0
+st4_309_0
+st5_121_0
+st5_124_0
+st5_129_0
+st8_410_0
+tofu
+# 598045209
+# 456623899
+# 1835676786
+# 1818899103
+# 2380045591
+# 1041247346
+# 2878752838
+# 2654859933
+# 2381856126
+# 4100293051
+# 3452612700
+# 2772139889
+# 2912448205
+# 1515629246
+# 2261702806
+# 313586117
+# 3649151690
+# 4290447961
+# 248849200
+# 3182980575
+# 3484314459
+# 2578999804
+# 3629049498
+# 746989527
+# 2200024166
+# 1209169395
+# 4183508116
+# 275796990
+# 1672718861
+# 3239045408
+# 1093662194
+# 3278468065
+# 2622542772
+# 390534419
+# 1638920326
+# 4179493589
+
+### EVENT NAMES (music_layer_leon.bnk)
+play_LAYER_LEON
+
+### RTPC/GAME-VARIABLE NAMES (music_layer_leon.bnk)
+# 3922897921
+# 4011004363
+
+### VARIABLE NAMES (music_layer_leon.bnk)
+bgm_em0000
+bgm_level_state
+bgm_timeline_event
+scenario_state_type
+# 3158312408
+# 33591396
+# 1099918680
+
+### VALUE NAMES (music_layer_leon.bnk)
+bgm_em0000_atk_bite_start
+bgm_em0000_atk_bitedual_start
+bgm_em0000_window_break_in
+ev011_start
+ev020_start
+ev050_start
+ev051_start
+ev100_start
+ev110_start
+ev140_start
+ev150_start
+ev220_start
+ev250_start
+ev251_start
+ev260_start
+ev330_start
+ev400_start
+ev410_start
+ev530_start
+ev580_start
+ev620_start
+ev680_start
+ev690_start
+ev700_start
+ev710_start
+ev730_start
+ev740_start
+ev750_start
+ev760_start
+ev890_start
+ev891_start
+ev900_start
+hunk
+lv_rpd_cf094_end
+screen_bonus_figure
+screen_difficulty_select
+screen_gameover
+screen_inventory
+screen_loading
+screen_map
+screen_pause
+screen_result
+screen_result_extra
+screen_save
+screen_staffroll
+screen_title
+st4_209_0
+st4_309_0
+st4_404_0
+st4_751_0
+st5_121_0
+st5_124_0
+st5_129_0
+st5_203_0
+st5_204_0
+st8_410_0
+tofu
+# 3161294031
+# 3178071714
+# 1115512752
+# 1165845513
+# 1149067926
+# 1083299794
+# 2676101460
+# 598045209
+# 456623899
+# 1835676786
+# 1818899103
+# 2380045591
+# 1041247346
+# 2878752838
+# 2654859933
+# 2381856126
+# 4100293051
+# 3452612700
+# 2772139889
+# 2912448205
+# 1515629246
+# 2261702806
+# 313586117
+# 3649151690
+# 4290447961
+# 248849200
+# 3182980575
+# 3484314459
+# 2578999804
+# 3629049498
+# 746989527
+# 2200024166
+# 1209169395
+# 4183508116
+# 275796990
+# 1672718861
+# 3239045408
+# 1093662194
+# 3278468065
+# 2622542772
+# 390534419
+# 1638920326
+# 4179493589
+
+### EVENT NAMES (music_location_orphan_asylum.bnk)
+# 1643717380
+
+### RTPC/GAME-VARIABLE NAMES (music_location_orphan_asylum.bnk)
+distance_curve
+
+### VARIABLE NAMES (music_location_orphan_asylum.bnk)
+bgm_level_state
+scenario_state_type
+# 1099918680
+# 33591396
+
+### VALUE NAMES (music_location_orphan_asylum.bnk)
+claire_a
+claire_b
+lv_orphan_asylum_cf360_start
+lv_orphan_asylum_sceflag_5_1_080
+lv_orphan_asylum_sceflag_5_1_280
+lv_orphan_asylum_sceflag_5_1_281
+lv_orphan_asylum_sceflag_5_1_400
+manor_testing
+none_place
+screen_difficulty_select
+screen_gameover
+screen_loading
+screen_title
+st1_401_0
+st1_411_0
+st1_501_0
+st1_502_0
+st1_503_0
+st1_601_0
+st1_604_0
+st1_605_0
+st1_606_0
+st1_607_0
+st1_608_0
+st1_609_0
+st3_401_0
+st3_403_0
+st3_404_0
+st3_405_0
+st3_406_0
+st3_407_0
+st3_408_0
+st3_409_0
+st3_410_0
+st3_600_0
+st3_601_0
+st3_602_0
+st3_603_0
+st3_611_0
+st3_612_0
+st3_613_0
+st3_615_0
+st3_621_0
+st3_623_0
+st3_624_0
+st3_627_0
+st3_630_0
+st3_632_0
+st3_634_0
+st3_635_0
+st3_636_0
+st3_637_0
+st3_638_0
+st3_640_0
+st3_641_0
+st3_643_0
+st3_644_0
+st3_652_0
+st4_101_0
+st4_102_0
+st4_103_0
+st4_201_0
+st4_202_0
+st4_204_0
+st4_206_0
+st4_207_0
+st4_208_0
+st4_209_0
+st4_210_0
+st4_211_0
+st4_212_0
+st4_213_0
+st4_214_0
+st4_215_0
+st4_216_0
+st4_301_0
+st4_303_0
+st4_304_0
+st4_305_0
+st4_306_0
+st4_307_0
+st4_308_0
+st4_309_0
+st4_310_0
+st4_311_0
+st4_312_0
+st4_313_0
+st4_314_0
+st4_402_0
+st4_403_0
+st4_404_0
+st4_405_0
+st4_406_0
+st4_407_0
+st4_408_0
+st4_409_0
+st4_410_0
+st4_411_0
+st4_412_0
+st4_501_0
+st4_502_0
+st4_503_0
+st4_504_0
+st4_505_0
+st4_506_0
+st4_507_0
+st4_508_0
+st4_601_0
+st4_602_0
+st4_603_0
+st4_604_0
+st4_605_0
+st4_607_0
+st4_608_0
+st4_609_0
+st4_610_0
+st4_701_0
+st4_702_0
+st4_703_0
+st4_704_0
+st4_705_0
+st4_708_0
+st4_710_0
+st4_711_0
+st4_712_0
+st4_714_0
+st4_715_0
+st4_716_0
+st4_717_0
+st4_750_0
+st4_751_0
+st4_754_0
+st7_204_0
+st8_410_0
+st_base
+# 3773650271
+# 3790427954
+# 3807205541
+# 3689762208
+# 791286558
+# 774508971
+# 757731384
+# 875174717
+# 2859680884
+# 456623899
+
+### EVENT NAMES (music_location_rpd.bnk)
+# 4155941323
+
+### RTPC/GAME-VARIABLE NAMES (music_location_rpd.bnk)
+distance_curve
+
+### VARIABLE NAMES (music_location_rpd.bnk)
+bgm_level_state
+# 1099918680
+# 1816628000
+# 33591396
+
+### VALUE NAMES (music_location_rpd.bnk)
+lv_rpd_sndflag_2_1_004
+screen_difficulty_select
+screen_gameover
+screen_title
+st4_304_0
+st4_305_0
+st4_306_0
+st4_310_0
+st4_311_0
+st4_312_0
+st4_313_0
+true
+# 456623899
+
+### EVENT NAMES (music_resident.bnk)
+play_bgm_enemy
+play_environment_laboratory
+play_environment_rpd
+play_environment_rpdb1
+play_environment_wastewater
+play_extra
+play_level_gas_station
+play_level_laboratory
+play_level_op3
+play_level_orphan_approach
+play_level_orphan_asylum
+play_level_rpd
+play_level_rpdb1
+play_level_wastewater
+play_system
+play_system_gameover
+# 1247273690
+# 1247273694
+# 1313831290
+# 1313831293
+# 1767669468
+# 2243133155
+# 2770215568
+# 3215700650
+# 3215700651
+# 4199187510
+
+### SFX NAMES (music_resident.bnk)
+drums_loud
+# 1959072272
+
+### RTPC/GAME-VARIABLE NAMES (music_resident.bnk)
+# 1053938397
+# 3922897921
+# 120205743
+# 376904790
+# 1632896402
+# 851013403
+# 1030279216
+# 62933286
+# 4250355666
+# 2061617225
+
+### VARIABLE NAMES (music_resident.bnk)
+bgm_em0000
+bgm_em3000
+bgm_em3000_set_fall_topboard
+bgm_em6000
+bgm_em6200
+bgm_em7000
+bgm_em7000_atk_w_grapple
+bgm_em7100
+bgm_em7200
+bgm_em7400_sceflag
+bgm_em9000
+bgm_extra_state
+bgm_level_state
+bgm_level_state_for_escape_pl0000
+bgm_level_state_for_escape_pl1000_1
+bgm_level_state_for_escape_pl1000_2
+bgm_level_state_for_stingers
+bgm_loadstart
+bgm_rogue_state
+bgm_rpd_209_lightswitch_state
+bgm_rpd_309_lightswitch_state
+bgm_rpd_voltagetransformer
+bgm_scenario_progress
+bgm_staffroll
+bgm_timeline_event
+classic_type
+scenario_state_type
+# 1099918680
+# 33591396
+# 992432924
+# 616423366
+# 1802158411
+# 1478271551
+# 2258602971
+# 1567178792
+# 776270743
+# 440876512
+# 2605624840
+# 4133750958
+# 2990376597
+# 1145747288
+# 4147387025
+
+### VALUE NAMES (music_resident.bnk)
+act
+ada
+atk
+bgm_em0000_act_door_interact
+bgm_em0000_atk_bite_end
+bgm_em0000_atk_bite_start
+bgm_em0000_atk_bitedual_start
+bgm_em0000_default
+bgm_em0000_rolepushdoor_open
+bgm_em0000_window_break_in
+bgm_em3000_act_atk
+bgm_em3000_act_serching
+bgm_em3000_first_appearance_end
+bgm_em3000_first_appearance_start
+bgm_em6000_act_default
+bgm_em6000_appearance
+bgm_em7000_act_to_g
+bgm_em7000_act_to_w
+bgm_em7000_default
+bgm_em7000_die
+bgm_em7000_hide
+bgm_em7000_wait
+bgm_em7100_break_door
+bgm_em7100_default
+bgm_em9000_act_found
+bgm_em9000_atk_grapple_dead
+bgm_em9000_default
+bgm_rogue_title
+cf090_end
+cf090_start
+cf190_end
+cf470_start
+cf632_start
+cf850_a
+cf860_a
+cf892_end
+cf930_end
+cf930_start
+cf938_end
+cf938_start
+claire_a
+claire_b
+cue_cf770_a
+cue_cf780_a
+cue_cf780_b
+cue_cf790_a
+cue_cf790_b
+cue_cf810_a
+cue_ev890_a
+dead
+default
+dmg
+em6200_apper
+end
+escape_again
+escape_em7300_die_pl1000
+escape_em7300_die_pl1000_end
+escape_em7300_pl1000
+escape_Ivy_pl1000
+escape_loop
+escape_sherry_dooropen_pl1000
+escape_st5_202_lift_pl1000
+escape_start_pl1000
+ev100_start
+ev400_end
+ev750_end
+ev750_start
+ev760_end
+ev760_start
+ev890_end
+ev890_start
+extra_0
+extra_1
+extra_2
+extra_after
+fall
+false
+finished
+first
+hunk
+invalid
+labo_demo_break_a_window_after
+labo_demo_breake_a_window_before
+leon_a
+leon_b
+loading_00
+loading_01
+loading_02
+loading_03
+loading_04
+loading_05
+loading_06
+loading_07
+loading_08
+loading_09
+loading_10
+loading_11
+loading_12
+loading_99
+loadstart
+lost_0
+lost_1
+lost_2
+lost_3
+lv_gs2_cf001_end
+lv_gs2_cf001_start
+lv_gs2_ev030_end
+lv_gs2_ev040_start
+lv_gs2_ev050_end
+lv_gs2_ev050_start
+lv_gs2_sceflag_1_1_156
+lv_gs2_sceflag_1_1_159
+lv_gs2_sndflag_1_1_019
+lv_gs2_sndflag_1_1_024
+lv_gs2_sndflag_1_1_025
+lv_labo_cf732_end
+lv_labo_cf732_start
+lv_labo_cf770_start
+lv_labo_ev730_end
+lv_labo_ev760_end
+lv_labo_ev890_end
+lv_labo_ev891_end
+lv_labo_ev891_start
+lv_labo_ev900_end
+lv_labo_sceflag_8_1_202
+lv_labo_sceflag_8_1_203
+lv_labo_sceflag_8_1_204
+lv_labo_sceflag_8_1_205
+lv_labo_sceflag_8_1_401
+lv_labo_sceflag_8_1_402
+lv_labo_sndflag_8_1_001
+lv_labo_sndflag_8_1_002
+lv_labo_sndflag_8_1_003
+lv_labo_sndflag_8_1_004
+lv_op3_default
+lv_op3_ev051_end
+lv_op3_ev051_start
+lv_op3_sndflag_1_2_034
+lv_op3_sndflag_1_2_035
+lv_orphan_approach_cf420_start
+lv_orphan_approach_sceflag_5_3_000
+lv_orphan_approach_sceflag_5_3_061
+lv_orphan_approach_sceflag_5_3_101
+lv_orphan_approach_sceflag_5_3_105
+lv_orphan_approach_sceflag_5_3_150
+lv_orphan_asylum_cf360_start
+lv_orphan_asylum_sceflag_5_1_080
+lv_orphan_asylum_sceflag_5_1_180
+lv_orphan_asylum_sceflag_5_1_280
+lv_orphan_asylum_sceflag_5_1_281
+lv_orphan_asylum_sceflag_5_1_400
+lv_rpd_cf094_end
+lv_rpd_cf095_end
+lv_rpd_cf095_start
+lv_rpd_cf100_end
+lv_rpd_cf100_start
+lv_rpd_cf120_end
+lv_rpd_cf120_start
+lv_rpd_cf210_end
+lv_rpd_cf210_start
+lv_rpd_cf220_end
+lv_rpd_cf220_start
+lv_rpd_cf910_end
+lv_rpd_cf910_start
+lv_rpd_ev220_end
+lv_rpd_ev220_start
+lv_rpd_ev905_end
+lv_rpd_ev905_start
+lv_rpd_marker_play_1feast_zombi_dooropen
+lv_rpd_marker_play_1feast_zombiwindowbreak
+lv_rpd_marker_stop_after_cf095_end
+lv_rpd_marker_stop_firstlicker_west_1f
+lv_rpd_marker_stop_firstzombi_east_1f
+lv_rpd_marker_stop_hall_firststinger
+lv_rpd_sndflag_2_1_004
+lv_rpd_sndflag_2_1_037
+lv_rpd_sndflag_2_1_061
+lv_rpd_sndflag_2_1_075
+lv_rpd_sndflag_2_1_076
+lv_rpd_sndflag_2_1_077
+lv_rpd_sndflag_2_1_078
+lv_rpd_st4_214_0_explored
+lv_rpd_stop_after_cf100_end
+lv_rpdb1_cf230_end
+lv_rpdb1_cf240_end
+lv_rpdb1_ev250_start
+lv_rpdb1_ev251_start
+lv_rpdb1_sceflag_3_1_024
+lv_rpdb1_sceflag_3_1_105
+lv_rpdb1_sceflag_3_1_107
+lv_rpdb1_sceflag_3_1_112
+lv_rpdb1_sceflag_3_1_113
+lv_rpdb1_sceflag_3_1_122
+lv_rpdb1_sceflag_3_1_125
+lv_rpdb1_sndflag_3_1_002
+lv_st4_rpdb_sceflag_3_1_037
+lv_wastewater_sceflag_6_1_030
+lv_wastewater_sceflag_6_1_031
+lv_wastewater_sceflag_6_1_032
+lv_wastewater_SceFlag_6_1_121
+lv_wastewater_SceFlag_6_1_121_end
+lv_wastewater_SceFlag_6_1_125
+lv_wastewater_SceFlag_6_1_179
+lv_wastewater_sceflag_6_1_isAdaCaged
+lv_wastewater_sceflag_6_2_001
+lv_wastewater_sceflag_6_2_008
+lv_wastewater_sceflag_6_2_012
+lv_wastewater_sceflag_6_2_014
+lv_wastewater_sceflag_6_2_015
+lv_wastewater_sceflag_6_2_016
+manor_testing
+none
+none_place
+off
+ON
+rogue
+sceflag_3_1_509
+sceflag_3_1_510
+sceflag_9_1_000
+sceflag_9_1_001
+sceflag_9_1_002
+scenarioflag_s02_0400
+scenarioflag_s02_0500
+screen_bonus_figure
+screen_difficulty_select
+screen_gameover
+screen_ingame
+screen_inventory
+screen_loading
+screen_map
+screen_pause
+screen_result
+screen_result_extra
+screen_save
+screen_staffroll
+screen_title
+st1_401_0
+st1_411_0
+st1_501_0
+st1_502_0
+st1_503_0
+st1_601_0
+st1_602_0
+st1_603_0
+st1_604_0
+st1_605_0
+st1_606_0
+st1_607_0
+st1_608_0
+st1_609_0
+st1_610_0
+st1_611_0
+st1_612_0
+st1_613_0
+st1_614_0
+st1_615_0
+st1_620_0
+st1_621_0
+st1_622_0
+st1_623_0
+st1_630_0
+st1_631_0
+st1_632_0
+st3_401_0
+st3_403_0
+st3_404_0
+st3_405_0
+st3_406_0
+st3_407_0
+st3_408_0
+st3_409_0
+st3_410_0
+st3_600_0
+st3_601_0
+st3_602_0
+st3_603_0
+st3_604_0
+st3_605_0
+st3_611_0
+st3_612_0
+st3_613_0
+st3_614_0
+st3_615_0
+st3_616_0
+st3_617_0
+st3_621_0
+st3_623_0
+st3_624_0
+st3_625_0
+st3_627_0
+st3_630_0
+st3_632_0
+st3_634_0
+st3_635_0
+st3_636_0
+st3_637_0
+st3_638_0
+st3_640_0
+st3_641_0
+st3_642_0
+st3_643_0
+st3_644_0
+st3_651_0
+st3_652_0
+st4_101_0
+st4_102_0
+st4_103_0
+st4_201_0
+st4_202_0
+st4_204_0
+st4_206_0
+st4_207_0
+st4_208_0
+st4_209_0
+st4_210_0
+st4_211_0
+st4_212_0
+st4_213_0
+st4_214_0
+st4_215_0
+st4_216_0
+st4_301_0
+st4_303_0
+st4_304_0
+st4_305_0
+st4_306_0
+st4_307_0
+st4_308_0
+st4_309_0
+st4_310_0
+st4_311_0
+st4_312_0
+st4_313_0
+st4_314_0
+st4_402_0
+st4_403_0
+st4_404_0
+st4_405_0
+st4_406_0
+st4_407_0
+st4_408_0
+st4_409_0
+st4_410_0
+st4_411_0
+st4_412_0
+st4_501_0
+st4_502_0
+st4_503_0
+st4_504_0
+st4_505_0
+st4_506_0
+st4_507_0
+st4_508_0
+st4_601_0
+st4_602_0
+st4_603_0
+st4_604_0
+st4_605_0
+st4_607_0
+st4_608_0
+st4_609_0
+st4_610_0
+st4_701_0
+st4_702_0
+st4_703_0
+st4_704_0
+st4_705_0
+st4_708_0
+st4_710_0
+st4_711_0
+st4_712_0
+st4_714_0
+st4_715_0
+st4_716_0
+st4_717_0
+st4_750_0
+st4_751_0
+st4_754_0
+st4_755_0
+st5_101_0
+st5_102_0
+st5_103_0
+st5_104_0
+st5_105_0
+st5_106_0
+st5_111_0
+st5_112_0
+st5_121_0
+st5_122_0
+st5_123_0
+st5_124_0
+st5_125_0
+st5_126_0
+st5_127_0
+st5_128_0
+st5_129_0
+st5_131_0
+st5_132_0
+st5_133_0
+st5_134_0
+st5_201_0
+st5_202_0
+st5_203_0
+st5_204_0
+st5_211_0
+st5_212_0
+st5_221_0
+st5_222_0
+st5_223_0
+st7_204_0
+st8_408_0
+st8_410_0
+st_base
+staffroll_fade_start
+staffroll_invalid
+tofu
+true
+# 3773650271
+# 3790427954
+# 3807205541
+# 3689762208
+# 791286558
+# 774508971
+# 757731384
+# 875174717
+# 2859680884
+# 1418154923
+# 1506977566
+# 456623899
+# 3202933874
+# 4236136269
+# 1367812143
+# 767103628
+# 2729240623
+# 89867544
+# 601278787
+# 218916416
+# 115194395
+# 842773168
+# 759572939
+# 1822002020
+# 2891998082
+# 1440385775
+# 3063136305
+# 2428832196
+# 1524030985
+# 3275098321
+# 1153373137
+# 1835676786
+# 1818899103
+# 1093941272
+# 975216568
+# 2531230625
+# 3859581612
+# 3514904769
+# 1795211089
+# 3682042074
+# 4203921350
+# 3896087058
+# 2542641918

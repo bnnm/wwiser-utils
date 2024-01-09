@@ -1,0 +1,7679 @@
+
+### BANK NAMES
+baa100
+baa200
+BGM
+core
+core_Menu
+core_System
+em0000
+em0000_Skill
+em0001
+em0002
+em0003
+em0004
+em0005
+em0006
+em0006_Skill
+em0010
+em0010_Skill
+em0011
+em0011_Skill
+em0012
+em0020
+em0030
+em0030_Skill
+em0040
+em0040_Skill
+em0050
+em0050_Skill
+em00a0
+em00a0_Skill
+em00b0
+em00b0_Skill
+em0100
+em0100_Skill
+em0101
+em0101_Skill
+em010f
+em0110
+em0110_Skill
+em0120
+em0130
+em0131
+em0131_Skill
+em01a0
+em01a1
+em01a2
+em01a3
+em01a4
+em01a5
+em01a5_Skill
+em01af
+em0200
+em0200_Skill
+em0201
+em0210
+em0210_Skill
+em0211
+em0212
+em0213
+em0214
+em0215
+em02a0
+em02a0_Skill
+em02a1
+em02a1_Skill
+em02af
+em02b0
+em02b0_Skill
+em02b1
+em02b1_Skill
+em0300
+em0300_Skill
+em0302
+em0303
+em0304
+em0305
+em0310
+em0310_Skill
+em0320
+em0320_Skill
+em0321
+em0400
+em0400_Skill
+em0401
+em0401_Skill
+em0410
+em0410_Skill
+em0411
+em0420
+em0420_Skill
+em0430
+em0430_Skill
+em0440
+em0440_Skill
+em0450
+em0450_Skill
+em0451
+em0460
+em0460_Skill
+em0470
+em0470_Skill
+em0480
+em0480_Skill
+em0490
+em0490_Skill
+em0491
+em0491_Skill
+em0500
+em0500_Skill
+em0510
+em0510_Skill
+em0511
+em0600
+em0600_Skill
+em0601
+em0601_Skill
+em0610
+em0610_Skill
+em0620
+em0620_Skill
+em0621
+em0700
+em0700_Skill
+em0701
+em0702
+em0703
+em0704
+em0705
+em0710
+em0711
+em0711_Skill
+em0720
+em0740
+em0740_Skill
+em0750
+em0750_Skill
+em0800
+em0800_Skill
+em0801
+em0802
+em0803
+em0804
+em0805
+em0900
+em0900_Skill
+em0901
+em0901_Skill
+em0910
+em0910_Skill
+em0920
+em0920_Skill
+em1000
+em1000_Skill
+em1001
+em2000
+em2100
+em2101
+em2200
+em2300
+ev_em0006_Demo
+ev_em0720_Demo
+ev_em0750_Demo
+ev_em2000_Demo
+ev_em2100_Demo
+ev_Prologue
+Init
+pl0000
+pl0100
+pl0200
+pl0400
+st0600
+st0800
+st0900
+st0c00
+st_nc_common
+st_se_daisyounetsujigoku
+st_se_furaimon
+st_se_hachikensyuraku
+st_se_jizoutouge
+st_se_kaijinmaru
+st_se_kikokudo
+st_se_mugenjyo
+st_se_mugenjyou
+st_se_oborogaura
+st_se_oueyama
+st_se_oueyama_001
+st_se_oueyama_002
+st_se_ougonkutsu
+st_se_ryusenkyo
+st_se_shiranuiinari
+st_se_syounetsujigoku
+st_se_tenjinohashi
+st_se_tenjinouhashi
+st_se_tsukimigahara
+st_se_tsukumonotou
+um0100
+um0101
+um0200
+
+### LANGUAGE NAMES
+SFX
+
+### BUS NAMES
+BGM
+bgm_battle
+BGM_Battle_Special
+BGM_Deathblow
+BGM_Home
+BGM_Jingle
+BGM_Quest
+BGM_SFX
+BGM_SFX_DuckLimit
+BGM_Storydemo
+BGM_Tsubazeriai
+DuckBGM_SFX_Strong
+DuckSFX
+DuckSource
+DuckSource_for_BGM_Battle_by_Battle_Special
+DuckSource_for_BGM_Home_by_Jingle
+DuckSource_for_BGM_SFX_by_Battle_High
+DuckSource_for_BGM_SFX_by_Battle_Mid
+DuckSource_for_BGM_SFX_by_BossDefeat
+DuckSource_for_BGM_SFX_by_Jingle
+DuckSource_for_BGM_SFX_by_Storydemo
+DuckSource_for_BGM_SFX_by_TitleBGM
+env_DuckLimit
+env_onSlow
+env_RenderingMute
+Firework
+FX_Aux
+FX_non
+FX_non_SE
+FX_non_SE01_core
+FX_non_SE02_core_onPause
+FX_Proc
+FX_Proc_SE
+FX_Proc_SE01_1_DropItem
+FX_Proc_SE01_2_Gimmick
+FX_Proc_SE01_3_SealGimmick
+FX_Proc_SE01_Common
+FX_Proc_SE02_Title
+FX_Proc_SE03_pl
+FX_Proc_SE04_em
+FX_Proc_SE04_em_onSlow
+FX_Proc_SE05_env
+FX_Proc_SE06_event
+FX_Proc_VO
+FX_Proc_VO01_pl
+FX_Proc_VO02_em
+FX_Proc_VO03_event
+Master Audio Bus = 0
+Master Secondary Bus = 0
+OndDuck
+se_Voice
+SlowRev
+SlowRev_SE
+SlowRev_VO
+# 880182580
+# 2002025885
+
+### EVENT NAMES (BGM.bnk)
+BGM_All_Stop
+BGM_Battle_Drama
+BGM_Battle_Drama_out
+BGM_Battle_DramaOut
+BGM_Battle_Duck_in
+BGM_Battle_Duck_out
+BGM_Battle_in
+BGM_Battle_oborogaura_in
+BGM_Battle_oborogaura_out
+BGM_Battle_oborogaura_reactive
+BGM_Battle_oborogaura_stop
+BGM_Battle_out
+BGM_Battle_out_Drama
+BGM_Battle_reactive
+BGM_Battle_stop
+BGM_Battle_Tsukimigahara_in
+BGM_Battle_Tsukimigahara_out
+BGM_Battle_Tsukimigahara_reactive
+BGM_Battle_Tsukimigahara_stop
+BGM_BossAppear_change_to_long
+BGM_BossAppear_change_to_short
+BGM_BossDefeat
+BGM_BossFade
+BGM_BuguGenkaitoppa_Success
+BGM_BuguKyouka_in
+BGM_BuguKyouka_Success
+BGM_BuguRensei_in
+BGM_BuguRensei_in_Skip
+BGM_BuguRensei_Success
+BGM_ChapterEnd
+BGM_ChapterStart
+BGM_Deathblow_Failure
+BGM_Deathblow_in
+BGM_Deathblow_Success
+BGM_Debug_Stop
+BGM_DemonBook_in
+BGM_DemonBook_Open
+BGM_DemonBook_out
+BGM_DuckSource_for_Platinum
+BGM_ElementsOpen
+BGM_EnterMission
+BGM_Field_in
+BGM_Field_oborogaura_in
+BGM_Field_oborogaura_out
+BGM_Field_out
+BGM_Field_Tsukimigahara_in
+BGM_Field_Tsukimigahara_out
+BGM_Gacha_in
+BGM_Gacha_out
+BGM_GyoushoninDoor_close
+BGM_GyoushoninDoor_open
+BGM_Kajiya_in
+BGM_Kajiya_out
+BGM_KajiyaDoor_close
+BGM_KajiyaDoor_open
+BGM_Login
+BGM_Manekineko_in
+BGM_Manekineko_LevellUp_ModelChange
+BGM_Manekineko_LevelUp
+BGM_Manekineko_ModelChange
+BGM_Meiyohoushuu1
+BGM_Meiyohoushuu2
+BGM_Meiyohoushuu3
+BGM_Miko_in
+BGM_Miko_out
+BGM_MikoDoor_close
+BGM_MikoDoor_open
+BGM_Mikomai_in
+BGM_Mikomai_out
+BGM_Mikomai_play
+BGM_Mikomai_prism_play
+BGM_MissionClear_common
+BGM_MissionClear_PlaySFX
+BGM_MissionFailure
+BGM_MissionFailure_AutoRevival
+BGM_MissionStart
+BGM_Mute_off
+BGM_Mute_on
+BGM_Omikuji_in
+BGM_Option_in
+BGM_Option_out
+BGM_Otakara_Get
+BGM_OtomoKurabe_Defeat
+BGM_OtomoKurabe_End
+BGM_OtomoKurabe_LoseCount5
+BGM_OtomoKurabe_LoseMotion
+BGM_OtomoKyouka1
+BGM_OtomoKyouka2
+BGM_OtomoKyouka3
+BGM_OtomoKyouka_Genkaitoppa
+BGM_Otomokyouka_in
+BGM_Pause_Config_in
+BGM_Pause_Config_out
+BGM_Pause_in
+BGM_Pause_in_Tutorial
+BGM_Pause_out
+BGM_Pause_out_Tutorial
+BGM_Pause_to_StageSelect
+BGM_Ranking_in
+BGM_Respawn
+BGM_Return_from_DemonBook
+BGM_Return_from_SamuraiBook
+BGM_s115000_Battle_Kensei
+BGM_s115000_BossDefeat_kurooni
+BGM_Samurai_Genkaitoppa
+BGM_SamuraiBook_in
+BGM_SamuraiBook_Open
+BGM_SamuraiBook_out
+BGM_Scroll_in
+BGM_Scroll_in_Kumadouji
+BGM_Scroll_out
+BGM_Scroll_Skip
+BGM_Senryoubako_in
+BGM_Senryoubako_out
+BGM_Senryoubakox10_in
+BGM_Senryoubakox10_out
+BGM_Shinansho_in
+BGM_Shinansho_Success
+BGM_Shop_in
+BGM_Shop_out
+BGM_Slow_in
+BGM_Slow_out
+BGM_SpecialEvent_in
+BGM_SpecialEvent_out
+BGM_StageSelect_Duck_in
+BGM_StageSelect_Duck_out
+BGM_StageSelect_in
+BGM_StageSelect_in_cloud
+BGM_StageSelect_Set_bushido
+BGM_StageSelect_Set_shurado
+BGM_StageSelect_switch
+BGM_StageSelect_to_Title
+BGM_Storydemo_DuckCounter_in
+BGM_Storydemo_DuckCounter_out
+BGM_Storydemo_in
+BGM_Storydemo_out
+BGM_Storydemo_out_OnlyInugami
+BGM_Storydemo_to_battle
+BGM_Summon_in
+BGM_Summon_out
+BGM_Tamashii_Get
+BGM_Tegata_Success
+BGM_Title_in
+BGM_Title_to_StageSelect
+BGM_Toride_BeatOff
+BGM_Toride_Failure
+BGM_Toride_FinalBattle
+BGM_Toride_in
+BGM_Toride_out
+BGM_Toride_PerfectSuccess
+BGM_Toride_Preparation_Destruction
+BGM_Toride_Preparation_Destruction_Fade
+BGM_Toride_Preparation_FinalBattle
+BGM_Toride_Preparation_NoMusic
+BGM_Toride_Preparation_Normal
+BGM_Toride_Preparation_Normal_a
+BGM_Toride_Preparation_Normal_b
+BGM_Toride_Preparation_Normal_Fade
+BGM_Toride_Success
+BGM_Toride_Title
+BGM_Toufu_Fade
+BGM_Toufu_in
+BGM_Toufu_out
+BGM_Toufu_start
+BGM_transition_btl_06
+BGM_Tsubazeri_Failure
+BGM_Tsubazeri_Failure_OnlyDucking
+BGM_Tsubazeri_in
+BGM_Tsubazeri_in_OnlyDucking
+BGM_Tsubazeri_Success
+BGM_Tsubazeri_Success_OnlyDucking
+BGM_Tutorial_Log_in
+BGM_Tutorial_Log_out
+BGM_TutorialUI_Duck_in
+BGM_TutorialUI_Duck_out
+BGM_Unputenpu_GetAll
+BGM_Unputenpu_in_1st
+BGM_Unputenpu_in_2nd
+BGM_Unputenpu_open_1st
+BGM_Unputenpu_open_2nd
+BGM_Unputenpu_out
+BGMPostEV_All_BGMStateReset
+BGMPostEV_All_BGMVolumeReset
+BGMPostEV_Otomokurabe_ResetVoiceVol
+BGMPostEV_Prologue_stop
+BGMPostEV_Stop_Others_BossDefeat
+BGMPostEV_Stop_Others_MissionClear
+core_StoryDemo_Out
+Load_in_BGM
+Load_out_BGM
+mue_gacha_rare1
+mue_gacha_rare1_result
+mue_gacha_rare1_result_Skip
+mue_gacha_rare2
+mue_gacha_rare2_result
+mue_gacha_rare2_result_Skip
+mue_gacha_rare3
+mue_gacha_rare3_result
+mue_gacha_rare3_result_Skip
+mue_gacha_vibraslap
+mue_gacha_windchime_in
+mue_gacha_windchime_out
+mue_houshuu
+mue_houshuux10
+mue_mikosuzu
+mue_omikuji_rare1
+mue_omikuji_rare2
+mue_omikuji_rare3
+mue_omikuji_rare4
+mue_omikuji_rare5
+mue_omikuji_rare6
+mue_result_RankUp
+mue_senryoubako_open
+mue_tsubazeri_loop_end
+mue_tsubazeri_loop_play
+Set_Battle_01
+Set_Battle_02
+Set_Battle_03
+Set_Battle_04
+Set_Battle_05
+Set_Battle_06
+Set_Battle_06_respawn
+Set_Battle_07
+Set_Battle_08
+Set_Battle_09
+Set_Battle_10
+Set_Battle_11
+Set_Battle_12
+Set_Battle_13
+Set_Battle_13_respawn
+Set_Battle_14
+Set_Battle_15
+Set_Battle_16
+Set_Battle_High
+Set_Battle_Mid
+Set_Battle_None
+Set_BossAppear_01
+Set_BossAppear_02
+Set_BossAppear_OnlyInugami
+Set_BossAppear_Short
+Set_BossDefeat_01
+Set_BossDefeat_02
+Set_BossDefeat_03
+Set_BossDefeat_04
+Set_BossDefeat_b
+Set_BossDefeat_d
+Set_BossDefeat_NoJingle
+Set_BossDefeat_Oueyama_001
+Set_BossDefeat_Oueyama_002
+Set_MissionClear_01
+Set_MissionClear_02
+Set_MissionStart_01
+Set_MissionStart_02
+Set_MissionStart_03
+Set_MissionStart_04
+Set_MissionStart_05
+Set_prologue_01
+Set_SFX_bambooforest
+Set_SFX_battlefield
+Set_SFX_bighell
+Set_SFX_furaimon
+Set_SFX_hell
+Set_SFX_kikokudou
+Set_SFX_mugencastle
+Set_SFX_ooeyama
+Set_SFX_ryusenkyo
+Set_SFX_seaside
+Set_SFX_ship
+Set_SFX_snow
+Set_SFX_susuki
+Set_SFX_tenjinbashi
+Set_SFX_tsukumonotou
+Set_SFX_yashazakura
+Set_storydemo_3tarou
+Set_storydemo_change_SFX_furaimon
+Set_storydemo_encounter_a
+Set_storydemo_encounter_b
+Set_storydemo_fadeout_05
+Set_storydemo_fadeout_10
+Set_storydemo_fadeout_15
+Set_storydemo_fadeout_20
+Set_storydemo_fadeout_25
+Set_storydemo_fadeout_30
+Set_storydemo_fadeout_35
+Set_storydemo_fadeout_40
+Set_storydemo_fadeout_45
+Set_storydemo_fadeout_50
+Set_storydemo_fadeout_55
+Set_storydemo_fadeout_60
+Set_storydemo_fadeout_battle_05
+Set_storydemo_fadeout_battle_10
+Set_storydemo_fadeout_battle_15
+Set_storydemo_fadeout_battle_20
+Set_storydemo_fadeout_battle_25
+Set_storydemo_fadeout_battle_30
+Set_storydemo_fadeout_battle_35
+Set_storydemo_fadeout_field_10
+Set_storydemo_fadeout_field_40
+Set_storydemo_fadeout_kyubi_20
+Set_storydemo_fadeout_SFX_05
+Set_storydemo_fadeout_SFX_10
+Set_storydemo_fadeout_SFX_15
+Set_storydemo_fadeout_SFX_20
+Set_storydemo_fadeout_SFX_25
+Set_storydemo_fadeout_SFX_30
+Set_storydemo_fadeout_SFX_35
+Set_storydemo_kinpaku
+Set_storydemo_manuke
+Set_storydemo_midtempo_hell
+Set_storydemo_resume_field_10
+Set_storydemo_resume_field_30
+Set_storydemo_sad
+Set_storydemo_serious_a
+Set_storydemo_serious_b
+Set_storydemo_serious_c
+Set_storydemo_shakuhachi
+Set_storydemo_slowtempo_bambooforest
+Set_storydemo_slowtempo_sainokawara
+Set_storydemo_slowtempo_tsukumo
+Set_storydemo_syutendouji
+Set_storydemo_vibraslap
+Set_storydemo_vibraslap_OnlyFuraimon
+SFX_Ambience_in
+SFX_Ambience_oborogaura
+SFX_Ambience_Tsukimigahara
+Stop_core_EV_StoryDemoFlames
+SwitchDuckStateInBattle
+SwitchDuckStateInField
+
+### RTPC/GAME-VARIABLE NAMES (BGM.bnk)
+se_core_Tubazeriai
+
+### VARIABLE NAMES (BGM.bnk)
+BGM_Duck_Battle_in_Storydemo
+BGM_Duck_BossFade
+BGM_Duck_Pause
+BGM_Duck_Slow
+BGM_Duck_StageSelect
+BGM_Duck_StageSelect_DoorOpen
+BGM_DuckCounter_Battle_in_Storydemo
+BGM_DuckSource_for_SFX
+BGM_SetType_BossAppear
+BGM_SetType_BossDefeat
+BGM_transition_btl_boss_large_2
+BGM_transition_mue_tsubazeri
+BGM_transition_sys_homemenu
+BGM_transition_sys_mikomai
+BGM_transition_sys_specialevent2
+BGM_Tsubazeri_loop_bpm
+BGMSFX_Duck
+se_core_StoryDemo
+se_core_StoryDemo_Short
+se_core_StoryDemo_VeryShort
+Set_Battle_BGM
+Set_Field_BGM
+Set_Field_SFX
+
+### VALUE NAMES (BGM.bnk)
+A
+B
+bpm150
+bpm160
+btl_boss_large_2
+by_Battle_High
+by_Battle_Mid
+by_Storydemo
+C
+D
+in
+long
+loop
+none
+off
+on
+out
+Outro
+SE02_Out
+set_boss_3tarou
+set_boss_7demons
+set_boss_ladydemons
+set_boss_large
+set_boss_middle
+set_boss_small
+set_boss_syutendouji
+set_daisyounetsujigoku
+set_furaimon
+set_furaimon_after
+set_general
+set_hachikensyuraku
+set_high_general
+set_high_samurai
+set_jizoutouge
+set_kaijinmaru
+set_kikokudo
+set_mugenjyou
+set_oborogaura
+set_oueyama
+set_ougonkutsu
+set_ryusenkyo
+set_samurai
+set_shiranuiinari
+set_special_toufukozou
+set_syounetsujigoku
+set_tenjinouhashi
+set_tsukimigahara
+set_tsukumonotou
+set_yashazakura
+short
+sys_homemenu_madou
+sys_homemenu_syuradou
+
+### SFX NAMES (Init.bnk)
+Brick_Wall_Minus_6dB_Peak_Slow_Release
+Hall_Large
+No_Output
+se_em0010_OndoDuck_Wwise_Meter
+se_Preset_RoomVerb
+se_Preset_StereoDelay
+se_Slow_Wwise_RoomVerb
+system
+# 253626234
+# 267746311
+# 335725734
+# 601509673
+# 770767182
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+core_Azimuth
+core_Distance
+core_Distance_Barrier
+core_UI_SummonsBellVol
+se_Common_onMask
+se_core_BrushMove
+se_core_EnemyCount
+se_core_KobanFallCnt
+se_core_Performance
+se_core_Tubazeriai
+se_core_UI_PaperFortuneSpeed
+se_EFX_RV00_OnOff
+se_EFX_RV01_DecayTime
+se_EFX_RV02_HFdamping
+se_EFX_RV03_Diffusion
+se_EFX_RV04_StereoWidth
+se_EFX_RV05_ToneEQ_Gain
+se_EFX_RV06_ToneEQ_Freq
+se_EFX_RV07_OL_Dry
+se_EFX_RV08_OL_Wet
+se_EFX_SD00_OnOff
+se_EFX_SD01_FeedbackL
+se_EFX_SD02_FeedbackR
+se_EFX_SD03_LPF_Freq
+se_EFX_SD04_OL_Dry
+se_EFX_SD05_OL_Wet
+se_em0010_OndoDuck
+se_em0400_DownRoll
+se_em0460_MoveSpeed
+se_em0600_Type
+se_em0900_MoveSpeed
+se_pl_GiantMode
+se_pl_JustEscape
+se_pl_MoveSpeed
+se_SlowReverb
+se_um0101_ReactionLv
+Volume_BGM
+Volume_Env
+Volume_Master
+Volume_SE
+Volume_Voice
+
+### VARIABLE NAMES (Init.bnk)
+BGM_Duck_Battle_in_Storydemo
+BGM_Duck_BossFade
+BGM_Duck_Pause
+BGM_Duck_Slow
+BGM_Duck_StageSelect
+BGM_Duck_StageSelect_DoorOpen
+BGM_DuckCounter_Battle_in_Storydemo
+BGM_DuckSource_for_SFX
+BGM_SetType_BossAppear
+BGM_SetType_BossDefeat
+BGM_transition_btl_boss_large
+BGM_transition_btl_boss_large_1
+BGM_transition_btl_boss_large_2
+BGM_transition_mue_tsubazeri
+BGM_transition_sys_homemenu
+BGM_transition_sys_mikomai
+BGM_transition_sys_mikomai_loop_inst
+BGM_transition_sys_specialevent2
+BGM_Tsubazeri_loop_bpm
+BGMSFX_Duck
+se_Common_onMask
+se_core_BattleSlow
+se_core_GalleryMode
+se_core_KobanFallSW
+se_core_Rendering
+se_core_StageType
+se_core_StoryDemo
+se_core_StoryDemo_Short
+se_core_StoryDemo_VeryShort
+se_core_SubWindowMenu
+se_core_Tubazeri
+se_em0600_Type
+se_em0750_Slow
+se_pl_JustEscape
+se_um0101_ReactionLv
+Set_Battle_BGM
+Set_Field_BGM
+Set_Field_SFX
+
+### VALUE NAMES (Init.bnk)
+by_Battle_High
+by_Battle_Mid
+by_Storydemo
+in
+MikoMai
+out
+SE01_In
+SE01_off
+SE02_Engaged
+SE02_Out
+SE02_Slow
+SE02_SwallowSlash
+SE03_PowerSlash
+SE03_SlowSkill
+
+### EVENT NAMES (baa100.bnk)
+core_EV_MirrorGleamLv1
+core_EV_MirrorGleamLv2
+core_EV_MirrorGleamLv3
+core_EV_MirrorGleamWaitLp
+core_EV_MirrorIn
+core_EV_MirrorOut
+core_EV_MirrorStoneLight_M
+core_EV_MirrorStoneLight_S
+core_EV_MirrorTurn
+Stop_core_EV_MirrorGleamWait
+
+### EVENT NAMES (baa200.bnk)
+baa200_Mov_Caws
+baa200_Mov_Fly
+
+### RTPC/GAME-VARIABLE NAMES (baa200.bnk)
+core_Azimuth
+
+### EVENT NAMES (core.bnk)
+core_Add_HitAttr
+core_AddFootStep_M_em0460
+core_AddFootStep_Run_L
+core_AddFootStep_Run_L_NA
+core_AddFootStep_Run_M
+core_AddFootStep_Run_M_NA
+core_AddFootStep_Run_S
+core_AddFootStep_Run_S_em0050
+core_AddFootStep_Run_S_NA
+core_AddFootStep_Walk_L
+core_AddFootStep_Walk_L_NA
+core_AddFootStep_Walk_M
+core_AddFootStep_Walk_M_NA
+core_AddFootStep_Walk_S
+core_AddFootStep_Walk_S_em0400
+core_AddFootStep_Walk_S_NA
+core_Atk_DarkPillar_Multi
+core_Atk_DarkPillar_Solo
+core_Atk_DarkPillarVanish_Multi
+core_Atk_DarkPillarVanish_Solo
+core_Atk_DarkRise_Multi
+core_Atk_DarkRise_Solo
+core_Atk_DarkRise_Solo_Short
+core_Atk_ElecBallHitVanish_Solo
+core_Atk_ElecPillar_Multi
+core_Atk_ElecRise_Solo
+core_Atk_ElecRise_Solo_Short
+core_Atk_FireBallHitVanish_Multi
+core_Atk_FireBallHitVanish_Solo
+core_Atk_FirePillar_Multi
+core_Atk_FirePillar_Solo
+core_Atk_FirePillarVanish_Multi
+core_Atk_FirePillarVanish_Solo
+core_Atk_FireRise_Multi
+core_Atk_FireRise_Solo
+core_Atk_FireRise_Solo_Long
+core_Atk_FireRise_Solo_Short
+core_Atk_IceBallHitVanish_Solo
+core_Atk_IcePillar_Multi
+core_Atk_IcePillar_Solo
+core_Atk_IceRise_Multi
+core_Atk_IceRise_Solo
+core_Atk_WaterPillar_Multi
+core_Atk_WaterPillar_Solo
+core_Atk_WindBallHitVanish_Solo
+core_Atk_WindRise_Multi
+core_Atk_WindRise_Short
+core_Atk_WindRise_Solo
+core_BlowHit_L
+core_BlowHit_L_NPC
+core_BlowHit_S
+core_BlowHit_S_NPC
+core_BrushLineEnd
+core_BrushLineLp
+core_Charge
+core_Charge3
+core_Charge_max
+core_CrossingStamp
+core_Debuff_Poison
+core_Dmg_AddWind
+core_Dmg_IceBallHit_NPC
+core_Dmg_IceBreak
+core_Dmg_Stan_in
+core_Dmg_Stan_out
+core_Dmg_Wind_KizetuSokusin
+core_Dmg_WindKnockback
+core_em_Death
+core_em_Firing_Ground
+core_em_GuardFlip
+core_em_GuardFlip_NPC
+core_em_Mov_KnockBackM_A
+core_em_Mov_KnockBackM_A_NPC
+core_em_Mov_KnockBackM_B
+core_em_Mov_KnockBackM_B_NPC
+core_em_Mov_KnockBackS_A
+core_em_Mov_KnockBackS_A_NPC
+core_em_Mov_KnockBackS_B
+core_em_Mov_KnockBackS_B_NPC
+core_em_Mov_KnockBackS_C
+core_em_Mov_KnockBackS_C_NPC
+core_em_PreDeath
+core_em_PreDeath_Rapid
+core_em_PreDeath_Rapid_Big
+core_em_SlashHit_L
+core_em_SlashHit_s
+core_em_Sliding
+core_EV_MirrorGleamTeleport
+core_EV_Mov_EnemyAppear
+core_EV_Mov_EnemyAppear_NPC
+core_EV_Mov_RollAppear
+core_EV_Mov_RollDisappear
+core_EV_Mov_RollEmAppear
+core_EV_Mov_RollEmName
+core_EV_Mov_RollSkip
+core_EV_StoryDemoFire
+core_EV_StoryDemoFireLong
+core_EV_StoryDemoFlames
+core_EV_StoryDemoInterrupt
+core_gimmick_Barrier_Mike_End
+core_gimmick_Barrier_Mike_Loop
+core_gimmick_Barrier_Mike_Start
+core_gimmick_Barrier_Normal_End
+core_gimmick_Barrier_Normal_Loop
+core_gimmick_Barrier_Normal_Start
+core_Mov_1000BoxDrop
+core_Mov_AssetsDL_RollAppear
+core_Mov_AssetsDL_RollDisappear
+core_Mov_CommonEmAppear
+core_Mov_CommonEmAppear_NPC
+core_Mov_DarkBallAppear_Solo
+core_Mov_DarkBallBound_Solo
+core_Mov_DarkBallFiring_Solo
+core_Mov_DarkBallHitVanish_Solo
+core_Mov_DarkBallVanish_Multi
+core_Mov_DarkBallVanish_Solo
+core_Mov_DarkIdleLp_Solo
+core_Mov_EatRiceball
+core_Mov_EatRiceball_NPC
+core_Mov_ElecBallAppear_Solo
+core_Mov_ElecBallBound_Multi
+core_Mov_ElecBallBound_Solo
+core_Mov_ElecBallFiring_Solo
+core_Mov_ElecBallVanish_Multi
+core_Mov_ElecBallVanish_Solo
+core_Mov_ElecIdleLp_Multi
+core_Mov_ElecIdleLp_Solo
+core_Mov_EmPowUpItemDropLv1
+core_Mov_EmPowUpItemDropLv2
+core_Mov_EmPowUpItemDropLv3
+core_Mov_FireBallAppear_Multi
+core_Mov_FireBallAppear_Solo
+core_Mov_FireBallBound_Multi
+core_Mov_FireBallBound_Solo
+core_Mov_FireBallFiring_Multi
+core_Mov_FireBallFiring_Solo
+core_Mov_FireBallVanish_Multi
+core_Mov_FireBallVanish_Solo
+core_Mov_FireIdleLp_Multi
+core_Mov_FireIdleLp_Solo
+core_Mov_GetGhost
+core_Mov_HelpInvocation
+core_Mov_IceBallAppear_Solo
+core_Mov_IceBallBound_Multi
+core_Mov_IceBallBound_Solo
+core_Mov_IceBallFiring_Solo
+core_Mov_IceBallVanish_Multi
+core_Mov_IceBallVanish_Solo
+core_Mov_IceIdleLp_Multi
+core_Mov_IceIdleLp_Solo
+core_Mov_ItemAbsorption
+core_Mov_ItemComeClose
+core_Mov_JintulInvocation
+core_Mov_KobanFall
+core_Mov_KodutiDrop
+core_Mov_KotodamaDrop
+core_Mov_LifeItemComeClose
+core_Mov_LifeItemComeClose_NPC
+core_Mov_MagatamaDrop
+core_Mov_NoAttributeAura
+core_Mov_PreDarkPillar_Multi
+core_Mov_PreDarkPillar_Solo
+core_Mov_PreDarkRise_Multi
+core_Mov_PreDarkRise_Solo
+core_Mov_PreElecPillar_Multi
+core_Mov_PreElecRise_Solo
+core_Mov_PreFirePillar_Multi
+core_Mov_PreFirePillar_Solo
+core_Mov_PreFireRise_Multi
+core_Mov_PreFireRise_Solo
+core_Mov_PreIcePillar_Multi
+core_Mov_PreIcePillar_Solo
+core_Mov_PreIceRise_Multi
+core_Mov_PreIceRise_Solo
+core_Mov_PreWindRise_Multi
+core_Mov_PreWindRise_Solo
+core_Mov_RareItemDropLv1
+core_Mov_RareItemDropLv2
+core_Mov_RareItemDropLv3
+core_Mov_RareMetalDrop
+core_Mov_RareMetalDropLv2
+core_Mov_RareMetalDropLv3
+core_Mov_SkilInvocation
+core_Mov_SwallowSlashIn
+core_Mov_SwallowSlashOut
+core_Mov_WindBallAppear_Solo
+core_Mov_WindBallBound_Multi
+core_Mov_WindBallBound_Solo
+core_Mov_WindBallFiring_Solo
+core_Mov_WindBallVanish_Multi
+core_Mov_WindBallVanish_Solo
+core_Mov_WindIdleLp_Multi
+core_Mov_WindIdleLp_Solo
+core_pl_AddFootStep_L
+core_pl_AddFootStep_L_NPC
+core_pl_AddFootStep_M
+core_pl_AddFootStep_M_NPC
+core_pl_AddFootStep_S
+core_pl_AddFootStep_S_NPC
+core_pl_Buff
+core_pl_GiantFoot
+core_pl_HelpIn
+core_pl_HelpIn_NPC
+core_pl_HelpOut
+core_pl_LifeRecover
+core_pl_LifeRecover_NPC
+core_pl_Sliding
+core_pl_Sliding_NPC
+core_pl_switch_in
+core_pl_switch_out
+core_PlayerDeath
+core_PlayerRespawn
+core_SkillRanHit_L
+core_SkillRanHit_S
+core_SlashHit_L
+core_SlashHit_L_NPC
+core_SlashHit_S
+core_SlashHit_S_NPC
+core_StoryDemo_Interrupt
+core_SuperArmor
+core_TubazeriaiEnd_Pushing
+core_TubazeriaiStart_CutIn
+core_TubazeriaiStart_Impact
+core_TubazeriaiStart_ImpactWsh
+core_TubazeriaiStart_Loop
+core_UI_BreakIn
+core_UI_CompleatMark
+core_UI_ContinueSuccess
+core_UI_CountDown
+core_UI_DetailProfile_in
+core_UI_DetailProfile_out
+core_UI_DoorOpen_Short
+core_UI_FriendSuccess
+core_UI_GutfighterAppear
+core_UI_ItemSale_Buy
+core_UI_JinThuRiki_End
+core_UI_LockonCursor
+core_UI_MenuNo
+core_UI_MenuSelect
+core_UI_MenuSuccessB
+core_UI_MissionFailed
+core_UI_Mov_GalleryRollAppear
+core_UI_OptionSamuraiVO
+core_UI_OptionVO
+core_UI_OtomoLock
+core_UI_OtomoResultAppear
+core_UI_OtomoResultDisappear
+core_UI_OtomoResultImp
+core_UI_OtomoResultMojiLight
+core_UI_OtomoUnLock
+core_UI_OugiOpen
+core_UI_RankUpBeltAppear
+core_UI_RankUpBeltDisappear
+core_UI_RankUpMojiEnd
+core_UI_RankUpMojiImp
+core_UI_Result_KurabeGaugeLp
+core_UI_Result_TowerDefGaugeLp
+core_UI_ResultGetItem
+core_UI_ResultGetItem_Rare
+core_UI_ResultGoalClear
+core_UI_ResultLv_GaugeLp
+core_UI_ResultLvUp
+core_UI_ResultMissionComp
+core_UI_ResultMojiImp
+core_UI_ResultRankUpNumImp
+core_UI_ResultRankUpWsh
+core_UI_ResultRate_A
+core_UI_ResultRate_B
+core_UI_ResultRateUp
+core_UI_ResultSoul2Enemy
+core_UI_ResultTowerDefense_Star
+core_UI_ShihoujinCharge
+core_UI_ShihoujinFull
+core_UI_ShihoujinMoji
+core_UI_Shop_Down
+core_UI_Shop_Up
+core_UI_Tenkei_Button01
+core_UI_Tenkei_Button02
+core_UI_Tenkei_Button03
+core_UI_TitleLogo
+core_UI_TitleLogo_US
+core_UI_TitleStart
+core_UI_TitleStart_Download
+core_UI_TitleStart_to_Menu
+core_UI_ToubatuCount
+core_UI_TowerDefenseCrossMark
+core_UI_Tutorial_AcquisitionLv1
+core_UI_Tutorial_AcquisitionLv2
+core_UI_Tutorial_AcquisitionLv3
+core_UI_Tutorial_AcquisitionLv4
+core_UI_Tutorial_AcquisitionLv5
+core_UI_Tutorial_AcquisitionLv6
+core_UI_Tutorial_AcquisitionLv7
+core_UI_Tutorial_Cool
+core_UI_WeaponSet
+em0000_Mov_Run
+em0000_Mov_Walk
+em0002_Atk_IcePillar
+em0003_Atk_SkillWind_Wave
+em0006_Atk_SwordWave
+em0010_Atk_FinishBlowHit
+em0040_Atk_AzukiBallHitVanish
+em0040_Atk_AzukiBallHitVanish2
+em0040_Atk_AzukiBallVanish
+em0040_Atk_AzukiBallVanish2
+em0040_Mov_AzukiBallFiring
+em0040_Mov_ThrowAzukiBall
+em0050_Atk_FireRing
+em0100_Atk_ThunderboltSolo
+em0100_Mov_ShortKick_StepIn
+em0100_Mov_ShortKick_Wsh
+em0101_Skill_Tornado_Loop
+em0110_Atk_WindRise
+em0120_Atk_StormFiring
+em0130_Mov_IcePillars_S
+em0200_Atk_AnathemaFiring
+em0200_Atk_AnathemaHit
+em0200_Atk_AnathemaVanish
+em02a0_Atk_FreezeCircleEf
+em02a0_Atk_FreezeWsh
+em02a0_Atk_IceBullet
+em02a0_Atk_IceBulletHit
+em02a0_Atk_IcePillar
+em02a1_Mov_BigIceFallImpact
+em02a1_Mov_BigIceIdleLp
+em0300_Atk_StormFiring
+em0300_Mov_DashWsh
+em0300_Mov_SpinRollingEnd
+em0300_Mov_Walk
+em0300_Skill_WindStormFiring
+em0301_Atk_FireBallHit
+em0301_Atk_FireBallStart
+em0310_Atk_MeteorImpact
+em0310_Mov_BugBlinderAppear
+em0310_Mov_BugBlinderVanish
+em0310_Mov_MeteorIdle
+em0310_Mov_MeteorVanish
+em0321_Atk_RatsMoveLp
+em0321_Dmg_AddRats
+em0321_Mov_RatsVanish
+em0400_Atk_FireBallHit
+em0400_Atk_FireBallVanish
+em0401_Atk_AnathemaFiring
+em0401_Atk_AnathemaHit
+em0401_Atk_AnathemaVanish
+em0401_Atk_FireBallHit
+em0401_Atk_FireBallVanish
+em0401_Atk_Firewall
+em0401_Atk_PreFirewall
+em0411_Atk_SkillWind_Wave
+em0420_Atk_MirrorHitVanish
+em0420_Mov_MirrorFiring
+em0420_Mov_MirrorVanish
+em0450_Atk_StormFiling
+em0470_Atk_AnathemaFiring
+em0470_Atk_AnathemaHit
+em0470_Atk_AnathemaVanish
+em0470_Mov_AnathemaIdleLp
+em0480_Mov_FireSkullBallHitVanish
+em0480_Mov_FireSkullBallMove_Multi
+em0480_Mov_FireSkullBallVanish2
+em0480_Mov_FireSkullFiringAt
+em0480_Mov_FireSkullHitVanish
+em0480_Mov_FireSkullMove
+em0480_Mov_FireSkullVanish
+em0491_Atk_Explosion
+em0510_Skill_ChangeBomb
+em0510_Skill_Explosion
+em0510_Skill_FuseLp
+em0510_Skill_PreDetonate
+em0510_Skill_StickBomb
+em0600_Atk_IceBallFiling
+em0600_Atk_IceBallHit
+em0620_Mov_ElecBallFiring
+em0621_Atk_IcePillars
+em0621_Mov_IceBallHitVanish_Mult
+em0621_Mov_IceBallVanish_Mult
+em0621_Mov_IceIdleLp_Multi
+em0701_Atk_FirePillar
+em0701_Atk_PreFirePillar
+em0703_Atk_SideSwingWave
+em0704_Atk_ElecRise
+em0704_Mov_PreElecRise
+em0711_Mov_SkeletonFiring
+em0711_Mov_SkeletonVanish
+em0711_voe_ReDive
+em0720_Atk_FlyFertherAttack
+em0720_Mov_DukeyFall
+em0720_Mov_DukeyLand
+em0720_Mov_StingFerther
+em0720_Mov_StingFerther_Hit
+em0750_Atk_DarkBallBreak
+em0750_Atk_DarkBallHitBreak
+em0750_Atk_IceBallBreak
+em0750_Atk_IceBallHitBreak
+em0750_Atk_Skill
+em0750_Mov_DarkBall_FlyLoop
+em0750_Mov_IceBall_FlyLoop
+em0802_Atk_IceBallFiling
+em0802_Atk_IceBallHit
+em0803_Atk_SideSwingWave
+em0900_Skill_DirtFiring
+em0900_Skill_DirtImpact
+em1000_Atk_Firewall
+em1000_Atk_PreFirewall
+em1000_Mov_FireSkullHitVanish_Solo
+em1000_Mov_FireSkullMove_Solo
+em1000_Mov_FireSkullVanish_Solo
+em1001_Mov_FireSkullHitVanish_Solo
+em1001_Mov_FireSkullMove_Multi
+em1001_Mov_FireSkullVanish_Multi
+em2000_Atk_FirePillar
+em2000_Atk_PreFirePillar
+em2000_Atk_SwordWave
+em2000_voe_StoryDemoA
+em2000_voe_StoryDemoB
+em2000_voe_StoryDemoC
+em2000_voe_StoryDemoD
+em2000_voe_StoryDemoE
+em2000_voe_StoryDemoF
+em2000_voe_StoryDemoG
+em2000_voe_StoryDemoH01
+em2000_voe_StoryDemoH02
+em2000_voe_StoryDemoI
+em2000_voe_StoryDemoJ
+em2100_voe_StoryDemoA
+em2100_voe_StoryDemoB
+em2100_voe_StoryDemoC
+em2100_voe_StoryDemoD
+em2100_voe_StoryDemoE
+em2100_voe_StoryDemoF
+em2100_voe_StoryDemoG
+em2100_voe_StoryDemoH
+em2100_voe_StoryDemoI
+em2100_voe_StoryDemoJ
+em2101_voe_StoryDemoA
+em2101_voe_StoryDemoB
+em2101_voe_StoryDemoC
+em2101_voe_StoryDemoD
+em2200_voe_StoryDemoA
+em2200_voe_StoryDemoB
+em2200_voe_StoryDemoC
+em2200_voe_StoryDemoD
+em2200_voe_StoryDemoE
+em2200_voe_StoryDemoF
+em2200_voe_StoryDemoG
+em2200_voe_StoryDemoH
+em2200_voe_StoryDemoI
+em2200_voe_StoryDemoJ
+em2300_voe_StoryDemoA
+em2300_voe_StoryDemoB
+em2300_voe_StoryDemoC
+em2300_voe_StoryDemoD
+em2300_voe_StoryDemoE
+em2300_voe_StoryDemoF
+em2300_voe_StoryDemoG
+em2300_voe_StoryDemoH
+em2300_voe_StoryDemoI
+emf000_Mov_SwordPlace_NPC
+emf000_Mov_SwordReady_NPC
+pl0000_Atk_SpFinish_Exp
+pl0000_Atk_SpFinish_Exp_NPC
+pl0000_Atk_SpFinish_Slash
+pl0000_Atk_SpFinish_Slash_NPC
+pl0000_Mov_Escape
+pl0000_Mov_Escape_NPC
+pl0000_Mov_Footstep
+pl0000_Mov_Footstep_NPC
+pl0000_Mov_Land
+pl0000_Mov_Land_NPC
+pl0000_Mov_SpFinishMoji
+pl0000_Mov_SpSlowIn
+pl0000_Mov_SwordPlace
+pl0000_Mov_SwordPlace_NPC
+pl0000_Mov_SwordPlaceMove
+pl0000_Mov_SwordPlaceMove_NPC
+pl0000_Mov_SwordReady
+pl0000_Mov_SwordReady_NPC
+pl0000_vo_StoryDemoA
+pl0000_vo_StoryDemoB01
+pl0000_vo_StoryDemoB02
+pl0000_vo_StoryDemoC01
+pl0000_vo_StoryDemoC02
+pl0000_vo_StoryDemoD01
+pl0000_vo_StoryDemoD02
+pl0000_vo_StoryDemoE01
+pl0000_vo_StoryDemoE02
+pl0000_vo_StoryDemoE03
+pl0000_vo_StoryDemoE04
+pl0000_vo_StoryDemoF01
+pl0000_vo_StoryDemoF02
+pl0000_vo_StoryDemoF03
+pl0000_vo_StoryDemoG01
+pl0000_vo_StoryDemoG02
+pl0000_vo_StoryDemoH01
+pl0000_vo_StoryDemoH02
+pl0000_vo_StoryDemoH03
+pl0000_vo_StoryDemoI
+pl0000_vo_StoryDemoJ
+pl0000_vo_StoryDemoK
+pl0000_vo_StoryDemoL
+pl0100_Atk_SkillWind_StormFiring
+pl0100_Mov_Escape
+pl0100_Mov_Escape_NPC
+pl0100_Mov_Footstep
+pl0100_Mov_Footstep_NPC
+pl0100_Mov_Land
+pl0100_Mov_Land_NPC
+pl0100_Mov_SwordReady_NPC
+pl0100_vo_StoryDemoA
+pl0100_vo_StoryDemoB01
+pl0100_vo_StoryDemoB02
+pl0100_vo_StoryDemoB03
+pl0100_vo_StoryDemoC01
+pl0100_vo_StoryDemoC02
+pl0100_vo_StoryDemoC03
+pl0100_vo_StoryDemoD01
+pl0100_vo_StoryDemoD02A
+pl0100_vo_StoryDemoD02B
+pl0100_vo_StoryDemoD03A
+pl0100_vo_StoryDemoD03B
+pl0100_vo_StoryDemoE01
+pl0100_vo_StoryDemoE02
+pl0100_vo_StoryDemoE03
+pl0100_vo_StoryDemoE04
+pl0100_vo_StoryDemoF01
+pl0100_vo_StoryDemoF02
+pl0100_vo_StoryDemoF03
+pl0100_vo_StoryDemoG01
+pl0100_vo_StoryDemoG02A
+pl0100_vo_StoryDemoG02B
+pl0100_vo_StoryDemoH01A
+pl0100_vo_StoryDemoH01B
+pl0100_vo_StoryDemoH02
+pl0100_vo_StoryDemoI
+pl0100_vo_StoryDemoJ
+pl0200_Mov_Escape
+pl0200_Mov_Escape_NPC
+pl0200_Mov_Footstep
+pl0200_Mov_Footstep_NPC
+pl0200_Mov_Land
+pl0200_Mov_Land_NPC
+pl0200_Mov_SpearPlace
+pl0200_Mov_SpearPlace_NPC
+pl0200_Mov_SpearReady
+pl0200_Mov_SpearReady_NPC
+pl0200_vo_StoryDemoA
+pl0200_vo_StoryDemoB01A
+pl0200_vo_StoryDemoB01B
+pl0200_vo_StoryDemoB02
+pl0200_vo_StoryDemoC01
+pl0200_vo_StoryDemoC02
+pl0200_vo_StoryDemoC03
+pl0200_vo_StoryDemoC04
+pl0200_vo_StoryDemoD01
+pl0200_vo_StoryDemoD02
+pl0200_vo_StoryDemoD03
+pl0200_vo_StoryDemoE01A
+pl0200_vo_StoryDemoE01B
+pl0200_vo_StoryDemoE02
+pl0200_vo_StoryDemoE03
+pl0200_vo_StoryDemoF01
+pl0200_vo_StoryDemoF02
+pl0200_vo_StoryDemoF03
+pl0200_vo_StoryDemoG01
+pl0200_vo_StoryDemoG02
+pl0200_vo_StoryDemoH01
+pl0200_vo_StoryDemoH02
+pl0200_vo_StoryDemoI
+pl0200_vo_StoryDemoJ
+pl0200_vo_StoryDemoK
+pl0200_vo_StoryDemoL
+pl0200_Wsh_MiniSlashH
+pl0200_Wsh_MiniSlashH_NPC
+pl0400_Combo01
+pl0400_Combo02
+pl0400_Mov_Footstep
+pl0400_Mov_Footstep_NPC
+pl0400_Mov_GripHammer
+pl0400_Mov_GripHammer_NPC
+pl0400_Mov_HammerPlace
+pl0400_Mov_HammerPlace_NPC
+pl0400_Mov_HammerReady
+pl0400_Mov_HammerReady_NPC
+pl0400_vo_StoryDemoA
+pl0400_vo_StoryDemoB01
+pl0400_vo_StoryDemoB02
+pl0400_vo_StoryDemoB03
+pl0400_vo_StoryDemoC01
+pl0400_vo_StoryDemoC02
+pl0400_vo_StoryDemoC03
+pl0400_vo_StoryDemoD01
+pl0400_vo_StoryDemoD02
+pl0400_vo_StoryDemoE01
+pl0400_vo_StoryDemoE02
+pl0400_vo_StoryDemoE03
+pl0400_vo_StoryDemoF01
+pl0400_vo_StoryDemoF02
+pl0400_vo_StoryDemoF03
+pl0400_vo_StoryDemoG01
+pl0400_vo_StoryDemoG02
+pl0400_vo_StoryDemoH
+pl0400_vo_StoryDemoI
+pl0400_vo_StoryDemoJ
+SE_Deathblow_Failure
+SE_Deathblow_in
+SE_Deathblow_Success
+SE_em0411_SlowIn
+SE_em0411_SlowOut
+se_gimmick_areagauge
+se_gimmick_aura
+se_gimmick_barrel
+se_gimmick_blackhaze
+se_gimmick_chest
+se_gimmick_chestdrop
+se_gimmick_fire
+se_gimmick_fire_exit
+se_gimmick_grave
+se_gimmick_grave_appear
+se_gimmick_ice_hit
+se_gimmick_keyget
+se_gimmick_lock
+se_gimmick_lockrelease
+se_gimmick_pileskeleton
+se_gimmick_poisonfog
+se_gimmick_poisonfog_hit
+se_gimmick_pot
+se_gimmick_rock_break
+se_gimmick_seal
+se_gimmick_sealrelease
+se_gimmick_secretarea
+se_gimmick_skeleton
+se_gimmick_skull
+se_gimmick_thunder_big
+se_gimmick_thunder_small
+se_gimmick_toufu_appear
+se_gimmick_toufu_crack_exit
+se_gimmick_toufu_fire
+se_gimmick_toufu_fire_fake
+se_gimmick_toufu_ice
+se_gimmick_toufu_shadow
+se_gimmick_toufu_soul
+se_gimmick_toufu_soul_exit
+se_gimmick_toufu_thunder
+se_gimmick_toufu_wind
+se_gimmick_tsuzura_open
+se_gimmick_warp
+se_gimmick_warp_out
+se_gimmick_warpgate
+se_gimmick_woodbox
+se_gimmick_youkaisoul
+Set_State_SE_core_StoryDemo_In
+Set_State_SE_core_StoryDemo_Out
+st_prefab_lantern
+st_Prefab_lantern_small
+State_core_GalleryMode_Off
+State_core_GalleryMode_PinchIn
+State_core_GalleryMode_PinchOut
+State_core_GalleryMode_State
+State_core_SubWindowMenu_Close
+State_core_SubWindowMenu_Open
+Stop_core_AddFootStep_M_em0460
+Stop_core_AddFootStep_Run_S_em0050
+Stop_core_Debuff_Poison
+Stop_core_em_Firing_Ground
+Stop_core_em_Sliding
+Stop_core_EV_StoryDemoFireLong
+Stop_core_EV_StoryDemoFlames
+Stop_core_Mov_NoAttributeAura
+Stop_core_pl_Sliding
+Stop_core_pl_Sliding_NPC
+Stop_core_UI_Result_KurabeGaugeLp
+Stop_core_UI_Result_TowerDefGaugeLp
+Stop_core_UI_ResultLv_GaugeLp
+Stop_core_UI_TitleLogoLp
+Stop_em0000_All
+Stop_em0000_Mov_MedRecover
+Stop_em0000_Skill_End
+Stop_em0001_All
+Stop_em0001_Mov_FireAura
+Stop_em0001_Skill_End
+Stop_em0002_All
+Stop_em0002_Mov_IceAura
+Stop_em0002_Skill_End
+Stop_em0003_All
+Stop_em0003_Mov_WindAura
+Stop_em0003_Skill_End
+Stop_em0004_All
+Stop_em0004_Mov_ElecAura
+Stop_em0004_Skill_End
+Stop_em0005_All
+Stop_em0005_Mov_MadAura
+Stop_em0005_Skill_End
+Stop_em0006_All
+Stop_em0006_Mov_DrapeElecLp
+Stop_em0006_Mov_MedRecover
+Stop_em0006_Skill_End
+Stop_em0010_All
+Stop_em0010_Mov_NekomataOndo
+Stop_em0010_Skill_End
+Stop_em0011_All
+Stop_em0011_Skill_End
+Stop_em0012_All
+Stop_em0012_Skill_End
+Stop_em0020_All
+Stop_em0020_Dmg
+Stop_em0020_ElectricLoop
+Stop_em0020_Loop
+Stop_em0020_Skill_End
+Stop_em0030_All
+Stop_em0030_Skill_End
+Stop_em0031_All
+Stop_em0031_Skill_End
+Stop_em0040_All
+Stop_em0040_Mov_IdleLoop
+Stop_em0040_Skill_End
+Stop_em0050_All
+Stop_em0050_Run
+Stop_em0050_Skill_End
+Stop_em00a0_All
+Stop_em00a0_Skill_End
+Stop_em00b0_All
+Stop_em00b0_Skill_End
+Stop_em0100_All
+Stop_em0100_Atk_Thunderbolt
+Stop_em0100_Skill_End
+Stop_em0101_All
+Stop_em0101_Atk_BigTwister
+Stop_em0101_Skill_End
+Stop_em0110_All
+Stop_em0110_Skill_End
+Stop_em0111_All
+Stop_em0111_Skill_End
+Stop_em0112_All
+Stop_em0112_Skill_End
+Stop_em0113_All
+Stop_em0113_Skill_End
+Stop_em0114_All
+Stop_em0114_Skill_End
+Stop_em0115_All
+Stop_em0115_Skill_End
+Stop_em0120_All
+Stop_em0120_Skill_End
+Stop_em0130_All
+Stop_em0130_Skill_End
+Stop_em0131_All
+Stop_em0131_Skill_End
+Stop_em01a0_All
+Stop_em01a0_Skill_End
+Stop_em01a1_All
+Stop_em01a1_Skill_End
+Stop_em01a2_All
+Stop_em01a2_Loop
+Stop_em01a2_Skill_End
+Stop_em01a3_All
+Stop_em01a3_Loop
+Stop_em01a3_Skill_End
+Stop_em01a4_All
+Stop_em01a4_Skill_End
+Stop_em01a5
+Stop_em01a5_All
+Stop_em01a5_Loop
+Stop_em01a5_Skill_End
+Stop_em01a5_voe
+Stop_em0200_All
+Stop_em0200_Mov_Movement
+Stop_em0200_Skill_End
+Stop_em0201_All
+Stop_em0201_Skill_End
+Stop_em0210_All
+Stop_em0210_Atk_RushMoveLp
+Stop_em0210_Skill_End
+Stop_em0210_Warp
+Stop_em0211_All
+Stop_em0211_Atk_RushMove_Add
+Stop_em0211_Skill_End
+Stop_em0212_All
+Stop_em0212_Skill_End
+Stop_em0213_All
+Stop_em0213_Skill_End
+Stop_em0214_All
+Stop_em0214_Atk_RushMove_Add
+Stop_em0214_Skill_End
+Stop_em0215_All
+Stop_em0215_Skill_End
+Stop_em02a0_All
+Stop_em02a0_Atk
+Stop_em02a0_IceRush
+Stop_em02a0_Skill_End
+Stop_em02a1_All
+Stop_em02a1_Mov_BigIceIdleLp
+Stop_em02a1_Skill_End
+Stop_em02b0_All
+Stop_em02b0_Skill_End
+Stop_em02b1_All
+Stop_em02b1_Skill_End
+Stop_em0300_All
+Stop_em0300_Mov_HookSlowScrub
+Stop_em0300_Skill_End
+Stop_em0301_All
+Stop_em0301_Skill_End
+Stop_em0302_All
+Stop_em0302_Skill_End
+Stop_em0303_All
+Stop_em0303_Skill_End
+Stop_em0304_All
+Stop_em0304_Skill_End
+Stop_em0305_All
+Stop_em0305_Skill_End
+Stop_em0310_All
+Stop_em0310_Mov_BugCloudIdle
+Stop_em0310_Mov_BugCloudRollIdle
+Stop_em0310_Skill_End
+Stop_em0320
+Stop_em0320_All
+Stop_em0320_Skill_End
+Stop_em0321
+Stop_em0321_All
+Stop_em0321_Loop
+Stop_em0321_Skill_End
+Stop_em0400_All
+Stop_em0400_Atk_FireBallFiring
+Stop_em0400_Atk_RushStart
+Stop_em0400_Skill_End
+Stop_em0401_All
+Stop_em0401_Atk_FireBallFiring
+Stop_em0401_Atk_RushStart
+Stop_em0401_Mov_Movement
+Stop_em0401_Skill_End
+Stop_em0410_All
+Stop_em0410_DashSpear
+Stop_em0410_Skill_End
+Stop_em0411_All
+Stop_em0411_Mov_EngethuSappo
+Stop_em0411_Skill_End
+Stop_em0412
+Stop_em0420_All
+Stop_em0420_Loop
+Stop_em0420_Skill_End
+Stop_em0430_All
+Stop_em0430_Atk_FireBallFiring
+Stop_em0430_Skill_End
+Stop_em0430_vo
+Stop_em0440_All
+Stop_em0440_BerserkElecIdleLp
+Stop_em0440_Skill_End
+Stop_em0441_All
+Stop_em0441_BerserkFireIdleLp
+Stop_em0441_Skill_End
+Stop_em0450_All
+Stop_em0450_Loop
+Stop_em0450_PreDetonate
+Stop_em0450_Skill_End
+Stop_em0450_vo_All
+Stop_em0450_Voe_PreDetonate
+Stop_em0451_All
+Stop_em0451_Skill_End
+Stop_em0460_All
+Stop_em0460_Atk_RushFireLp
+Stop_em0460_Loop
+Stop_em0460_Mov_Move
+Stop_em0460_Skill_End
+Stop_em0460_WalkLoop
+Stop_em0470_All
+Stop_em0470_Loop
+Stop_em0470_Skill_End
+Stop_em0480_All
+Stop_em0480_FireLoop
+Stop_em0480_Loop
+Stop_em0480_Mov
+Stop_em0480_Skill_End
+Stop_em0490_All
+Stop_em0490_Atk_FireRing_L
+Stop_em0490_Atk_FireRing_R
+Stop_em0490_Damage
+Stop_em0490_Skill_End
+Stop_em0491_All
+Stop_em0491_Atk_FireRing_L
+Stop_em0491_Atk_FireRing_R
+Stop_em0491_Damage
+Stop_em0491_Skill_End
+Stop_em0500_All
+Stop_em0500_Mov_DashLp
+Stop_em0500_Mov_IaiDash
+Stop_em0500_Skill_End
+Stop_em0510
+Stop_em0510_All
+Stop_em0510_Loop
+Stop_em0510_Mov_FuseLp
+Stop_em0510_Skill_End
+Stop_em0510_Skill_FuseLp
+Stop_em0511
+Stop_em0511_All
+Stop_em0511_Skill_End
+Stop_em0600_All
+Stop_em0600_Skill_End
+Stop_em0601_All
+Stop_em0601_Skill_End
+Stop_em0610_All
+Stop_em0610_Skill_End
+Stop_em0620_All
+Stop_em0620_Mov_Dash
+Stop_em0620_Skill_End
+Stop_em0621_All
+Stop_em0621_Mov_Dash
+Stop_em0621_Skill_End
+Stop_em0700_All
+Stop_em0700_Skill_End
+Stop_em0700_voe_All
+Stop_em0701_All
+Stop_em0701_Mov_FrameAppear
+Stop_em0701_Skill_End
+Stop_em0702_All
+Stop_em0702_Skill_End
+Stop_em0703_All
+Stop_em0703_Skill_End
+Stop_em0704_All
+Stop_em0704_Mov_ElecLeak
+Stop_em0704_Skill_End
+Stop_em0705_All
+Stop_em0705_Skill_End
+Stop_em0710_All
+Stop_em0710_Skill_All
+Stop_em0710_Skill_End
+Stop_em0710_voe_StabAtk
+Stop_em0711_All
+Stop_em0711_Skill_End
+Stop_em0720_All
+Stop_em0720_Mov_Glide
+Stop_em0720_Skill_End
+Stop_em0740_All
+Stop_em0740_Skill_End
+Stop_em0750_All
+Stop_em0750_Mov_DarkBall_FlyLoop
+Stop_em0750_Mov_IceBall_FlyLoop
+Stop_em0750_Skill_End
+Stop_em0800_All
+Stop_em0800_Mov_ShieldAppear
+Stop_em0800_Mov_TurnWsh
+Stop_em0800_Skill_End
+Stop_em0801_All
+Stop_em0801_Skill_End
+Stop_em0802_All
+Stop_em0802_Skill_End
+Stop_em0803_All
+Stop_em0803_Skill_End
+Stop_em0804_All
+Stop_em0804_Skill_End
+Stop_em0805_All
+Stop_em0805_Skill_End
+Stop_em0900_All
+Stop_em0900_Mov_MudMoveLp
+Stop_em0900_Skill_End
+Stop_em0901_All
+Stop_em0901_Mov_ElecAura
+Stop_em0901_Skill_End
+Stop_em0901_voe_Search
+Stop_em0910_All
+Stop_em0910_Enter
+Stop_em0910_Meditation
+Stop_em0910_MedRecover
+Stop_em0910_Skill_End
+Stop_em0920
+Stop_em0920_All
+Stop_em0920_Skill_End
+Stop_em1000_All
+Stop_em1000_Mov
+Stop_em1000_Mov_ArmStompL_FireCharge
+Stop_em1000_Skill_End
+Stop_em1001_All
+Stop_em1001_Mov
+Stop_em1001_Skill_End
+Stop_em2000_All
+Stop_em2000_Mov_AuraLp
+Stop_em2000_Mov_DashLoop
+Stop_em2000_Mov_Recover
+Stop_em2000_Skill_End
+Stop_em2000_vo_All
+Stop_em2000_voe_Laugh
+Stop_em2100_All
+Stop_em2100_Mov_AuraLp
+Stop_em2100_Mov_DarkAura_Loop
+Stop_em2100_Mov_DashLoop
+Stop_em2100_Skill_End
+Stop_em2101_All
+Stop_em2101_All_NPC
+Stop_em2101_Mov_AuraLp
+Stop_em2101_Mov_AuraLp_NPC
+Stop_em2101_Mov_DarkAura_Loop
+Stop_em2101_Mov_DarkAura_Loop_NPC
+Stop_em2101_Mov_MaskAura_Loop
+Stop_em2101_Mov_MaskAura_Loop_NPC
+Stop_em2101_Skill_End
+Stop_em2200_All
+Stop_em2200_Mov_AuraLp
+Stop_em2200_Mov_HookWsh
+Stop_em2200_Skill_End
+Stop_em2200_vo_All
+Stop_em2300_All
+Stop_em2300_Mov_AuraLp
+Stop_em2300_Skill_End
+wp0400_Wsh_WieldRet
+wp0400_Wsh_WieldRet_NPC
+
+### SFX NAMES (core.bnk)
+# 299226060
+# 373700375
+# 760446674
+# 702363382
+# 873083091
+# 720933447
+# 901160294
+# 281066985
+# 63072028
+# 941535820
+
+### RTPC/GAME-VARIABLE NAMES (core.bnk)
+core_Azimuth
+core_Distance
+core_Distance_Barrier
+se_core_BrushMove
+se_core_Tubazeriai
+se_em0460_MoveSpeed
+se_pl_GiantMode
+se_pl_MoveSpeed
+
+### VARIABLE NAMES (core.bnk)
+Damage_Attribute
+se_core_BattleSlow
+se_core_GalleryMode
+se_core_KobanFallSW
+se_core_StageType
+se_core_StoryDemo
+se_core_StoryDemo_Short
+se_core_SubWindowMenu
+se_core_Tubazeri
+se_em0006_Type
+SE_Footstep_GroundType
+
+### VALUE NAMES (core.bnk)
+Bone
+Cloth
+Fire
+grass
+Ice
+NONATTR
+Sand
+SE01_Close
+SE01_Fall_S
+SE01_In
+SE01_NotEngaged
+SE01_off
+SE02_Engaged
+SE02_Fall_M
+SE02_Open
+SE02_Out
+SE02_PinchIn
+SE02_SwallowSlash
+SE03_Fall_L
+SE03_PowerSlash
+SE04_State
+Shadow
+Snow
+Soil
+Stone
+Tatami
+Thunder
+Type01_Normal
+Type02_Water
+Type03_Snow
+Type04_Wood
+Type0_Normal
+Water
+Wind
+Wood
+
+### EVENT NAMES (core_Menu.bnk)
+core_Mov_Buildup_Alchemy
+core_Mov_Buildup_Catch
+core_Mov_Buildup_EndWsh
+core_Mov_Buildup_MagatamaRoll
+core_Mov_NotBuildup
+core_Mov_ShrineWait
+core_Mov_Upgrade_Forge
+core_Mov_Upgrade_Grip
+core_Mov_Upgrade_PostArmAppear
+core_Mov_Upgrade_PostArmDisappear
+core_Mov_Upgrade_PostShake
+core_Mov_Upgrade_PreArmAppear
+core_Mov_Upgrade_PreVoice
+core_Mov_Upgrade_PutWeapon
+core_UI_1000Box1
+core_UI_1000Box2
+core_UI_1000Box3
+core_UI_1000Box4
+core_UI_1000BoxShake
+core_UI_1000BoxShake_Light
+core_UI_Announce_CharIn
+core_UI_Announce_CharOut
+core_UI_AttributionSet_Dark
+core_UI_AttributionSet_Fire
+core_UI_AttributionSet_Ice
+core_UI_AttributionSet_Thunder
+core_UI_AttributionSet_Wind
+core_UI_DoorClose
+core_UI_DoorOpen
+core_UI_EnhanceFly
+core_UI_EnhanceInto
+core_UI_EnhanceIntoEnd
+core_UI_EnhanceLvDown_S
+core_UI_EnhanceLvUp
+core_UI_EnhanceLvUp_S
+core_UI_EnhanceSet_Ball
+core_UI_EnhanceSet_Dark
+core_UI_EnhanceSet_Fire
+core_UI_EnhanceSet_GaugeLp
+core_UI_EnhanceSet_GaugeLpDN_S
+core_UI_EnhanceSet_GaugeLpUP_S
+core_UI_EnhanceSet_Ice
+core_UI_EnhanceSet_RareLv1
+core_UI_EnhanceSet_RareLv2
+core_UI_EnhanceSet_RareLv3
+core_UI_EnhanceSet_Release
+core_UI_EnhanceSet_Thunder
+core_UI_EnhanceSet_Wind
+core_UI_EnhanceStart
+core_UI_JinThuRiki_Set
+core_UI_JinThuRiki_SetWait
+core_UI_Mov_em0610FootDangle
+core_UI_Mov_em0610HandShake
+core_UI_Mov_em0610Invisibility
+core_UI_PaperFortuneShake
+core_UI_PaperFortuneStick
+core_UI_PaperFortuneTurn
+core_UI_PlatinumCommand
+core_UI_PowerUp_Body
+core_UI_PowerUp_Heart
+core_UI_PowerUp_Skill
+core_UI_ResultTowerDefenseFailed
+core_UI_ResultTowerDefenseMarch
+core_UI_ResultTowerDefensePowUp
+core_UI_Shihoujin_FullSet
+core_UI_Shihoujin_JewelRemove
+core_UI_Shihoujin_JewelSet
+core_UI_SkillTree_Line
+core_UI_SkillTree_Open
+core_UI_SoulGold
+core_UI_SoulRed
+core_UI_SoulWhite
+core_UI_Summons_L
+core_UI_Summons_L_Short
+core_UI_Summons_M
+core_UI_Summons_M_Short
+core_UI_Summons_S
+core_UI_Summons_S_Short
+core_UI_Summons_UpperWsh
+core_UI_SummonsBell
+core_UI_SummonsMahoujin_L
+core_UI_SummonsMahoujin_M
+core_UI_SummonsMahoujin_S
+core_UI_SummonsSmoke_L
+core_UI_SummonsSmoke_M
+core_UI_SummonsSoulGold
+core_UI_SummonsSoulRed
+core_UI_SummonsSoulWhite
+core_UI_voe_em0610Action
+core_voe_Upgrade_Appear
+core_voe_Upgrade_WorkEnd
+em0000_voe_TowerDefenseAtk
+em0000_voe_TowerDefenseDmg
+em0006_voe_TowerDefenseAtk
+em0006_voe_TowerDefenseDmg
+em0010_voe_TowerDefenseAtk
+em0010_voe_TowerDefenseDmg
+em0020_voe_TowerDefenseAtk
+em0020_voe_TowerDefenseDmg
+em0030_voe_TowerDefenseAtk
+em0030_voe_TowerDefenseDmg
+em0040_voe_TowerDefenseAtk
+em0040_voe_TowerDefenseDmg
+em0050_voe_TowerDefenseAtk
+em0050_voe_TowerDefenseDmg
+em00a0_voe_TowerDefenseAtk
+em00a0_voe_TowerDefenseDmg
+em00b0_voe_TowerDefenseAtk
+em00b0_voe_TowerDefenseDmg
+em0100_voe_TowerDefenseAtk
+em0100_voe_TowerDefenseDmg
+em0101_voe_TowerDefenseAtk
+em0101_voe_TowerDefenseDmg
+em0110_voe_TowerDefenseAtk
+em0110_voe_TowerDefenseDmg
+em0120_voe_TowerDefenseAtk
+em0120_voe_TowerDefenseDmg
+em0130_voe_TowerDefenseAtk
+em0130_voe_TowerDefenseDmg
+em0131_voe_TowerDefenseAtk
+em0131_voe_TowerDefenseDmg
+em01a0_voe_TowerDefenseAtk
+em01a0_voe_TowerDefenseDmg
+em01a5_voe_TowerDefenseAtk
+em01a5_voe_TowerDefenseDmg
+em0200_voe_TowerDefenseAtk
+em0200_voe_TowerDefenseDmg
+em0201_voe_TowerDefenseAtk
+em0201_voe_TowerDefenseDmg
+em0210_voe_TowerDefenseAtk
+em0210_voe_TowerDefenseDmg
+em02a0_voe_TowerDefenseAtk
+em02a0_voe_TowerDefenseDmg
+em02a1_voe_TowerDefenseAtk
+em02a1_voe_TowerDefenseDmg
+em02b0_voe_TowerDefenseAtk
+em02b0_voe_TowerDefenseDmg
+em02b1_voe_TowerDefenseAtk
+em02b1_voe_TowerDefenseDmg
+em0300_voe_TowerDefenseAtk
+em0300_voe_TowerDefenseDmg
+em0310_voe_TowerDefenseAtk
+em0310_voe_TowerDefenseDmg
+em0320_voe_TowerDefenseAtk
+em0320_voe_TowerDefenseDmg
+em0321_voe_TowerDefenseAtk
+em0321_voe_TowerDefenseDmg
+em0400_voe_TowerDefenseAtk
+em0400_voe_TowerDefenseDmg
+em0401_voe_TowerDefenseAtk
+em0401_voe_TowerDefenseDmg
+em0410_voe_TowerDefenseAtk
+em0410_voe_TowerDefenseDmg
+em0411_voe_TowerDefenseAtk
+em0411_voe_TowerDefenseDmg
+em0420_voe_TowerDefenseAtk
+em0420_voe_TowerDefenseDmg
+em0430_voe_TowerDefenseAtk
+em0430_voe_TowerDefenseDmg
+em0440_voe_TowerDefenseAtk
+em0440_voe_TowerDefenseDmg
+em0450_voe_TowerDefenseAtk
+em0450_voe_TowerDefenseDmg
+em0460_voe_TowerDefenseAtk
+em0460_voe_TowerDefenseDmg
+em0470_voe_TowerDefenseAtk
+em0470_voe_TowerDefenseDmg
+em0480_voe_TowerDefenseAtk
+em0480_voe_TowerDefenseDmg
+em0490_voe_TowerDefenseAtk
+em0490_voe_TowerDefenseDmg
+em0491_voe_TowerDefenseAtk
+em0491_voe_TowerDefenseDmg
+em0500_voe_TowerDefenseAtk
+em0500_voe_TowerDefenseDmg
+em0510_voe_TowerDefenseAtk
+em0510_voe_TowerDefenseDmg
+em0600_voe_TowerDefenseAtk
+em0600_voe_TowerDefenseDmg
+em0601_voe_TowerDefenseAtk
+em0601_voe_TowerDefenseDmg
+em0610_voe_TowerDefenseAtk
+em0610_voe_TowerDefenseDmg
+em0620_voe_TowerDefenseAtk
+em0620_voe_TowerDefenseDmg
+em0621_voe_TowerDefenseAtk
+em0621_voe_TowerDefenseDmg
+em0700_voe_TowerDefenseAtk
+em0700_voe_TowerDefenseDmg
+em0710_voe_TowerDefenseAtk
+em0710_voe_TowerDefenseDmg
+em0711_voe_TowerDefenseAtk
+em0711_voe_TowerDefenseDmg
+em0720_voe_TowerDefenseAtk
+em0720_voe_TowerDefenseDmg
+em0740_voe_TowerDefenseAtk
+em0740_voe_TowerDefenseDmg
+em0750_voe_TowerDefenseAtk
+em0750_voe_TowerDefenseDmg
+em0800_voe_TowerDefenseAtk
+em0800_voe_TowerDefenseDmg
+em0900_voe_TowerDefenseAtk
+em0900_voe_TowerDefenseDmg
+em0901_voe_TowerDefenseAtk
+em0901_voe_TowerDefenseDmg
+em0910_voe_TowerDefenseAtk
+em0910_voe_TowerDefenseDmg
+em0920_voe_TowerDefenseAtk
+em0920_voe_TowerDefenseDmg
+em1000_voe_TowerDefenseAtk
+em1000_voe_TowerDefenseDmg
+em2000_voe_TowerDefenseAtk
+em2000_voe_TowerDefenseDmg
+em2100_voe_TowerDefenseAtk
+em2100_voe_TowerDefenseDmg
+em2200_voe_TowerDefenseAtk
+em2200_voe_TowerDefenseDmg
+pl0000_vo_Select
+pl0100_vo_Select
+pl0200_vo_Select
+pl0400_vo_Select
+Set_GP_core_UI_SummonsBellVol
+Stop_core_UI_1000BoxShake
+Stop_core_UI_1000BoxShake_Light
+Stop_core_UI_Announce
+Stop_core_UI_EnhanceSet_GaugeLp
+Stop_core_UI_EnhanceSet_GaugeLpAll_S
+Stop_core_UI_EnhanceSet_GaugeLpUP_S
+Stop_core_UI_Shihoujin_Auto
+Stop_core_UI_SkillTree_Line
+Stop_core_UI_SummonsNext
+
+### SFX NAMES (core_Menu.bnk)
+se_em0720_Wwise_Delay
+
+### RTPC/GAME-VARIABLE NAMES (core_Menu.bnk)
+core_Azimuth
+se_core_UI_PaperFortuneSpeed
+
+### EVENT NAMES (core_System.bnk)
+core_AppPause
+core_AppResume
+core_Init_Default
+core_PerformanceLevel_High
+core_PerformanceLevel_Low
+core_PerformanceLevel_Mid
+core_Rendering_In
+core_Rendering_Out
+core_Stage_to_Menu
+core_StoryDemo_In
+core_StoryDemo_Out
+core_TestTones
+core_Title_to_Prologue
+core_UI_Cancel
+core_UI_CheckBox_Off
+core_UI_CheckBox_On
+core_UI_ContinueGiveUp
+core_UI_ContinueNo
+core_UI_FriendAcceptChk
+core_UI_FriendAcceptUnChk
+core_UI_LoadNext
+core_UI_MenuCursor
+core_UI_MenuSubIn
+core_UI_MenuSubOut
+core_UI_MenuSuccessA
+core_UI_MissionNext
+core_UI_Mov_3DView_Pause_in
+core_UI_Mov_3DView_Pause_out
+core_UI_OptionSE
+core_UI_ProfileGraph_Mute
+core_UI_ProfileGraph_UnMute
+core_UI_ResultNext
+core_UI_SamuraiChange
+core_UI_StoryNext
+core_UI_StorySkip
+core_UI_YoukaiChange
+Load_in_SE
+Load_out_SE
+Load_out_SE_to_StageSelect
+SE_Pause_in
+SE_Pause_out
+SE_Pause_to_StageSelect
+SE_VoiceVol_Reset
+st0500_efx
+st0x00_efx
+st1000_efx
+st1100_efx
+st1200_efx
+st1300_efx_
+st9100_efx
+st9f00_efx
+st_daisyounetsujigoku_001_efx
+st_furaimon_001_efx
+st_hachikensyuraku_001_efx
+st_jizoutouge_001_efx
+st_kaijinmaru_001_efx
+st_kikokudo_001_efx
+st_mugenjyou_001_efx
+st_oborogaura_001_efx
+st_oueyama_001_efx
+st_oueyama_002_efx
+st_ougonkutsu_001_efx
+st_ryusenkyo_001_efx
+st_shiranuiinari_001_efx
+st_syounetsujigoku_001_efx
+st_tenjinouhashi_001_efx
+st_tsukimigahara_001_efx
+st_tsukumonotou_001_efx
+sta000_efx_
+stxxxx_efx_Delay
+stxxxx_efx_Reset
+stxxxx_efx_Reset2
+stxxxx_efx_Rev
+
+### SFX NAMES (core_System.bnk)
+# 931171318
+# 848835702
+# 541640887
+# 704928969
+
+### VARIABLE NAMES (core_System.bnk)
+se_core_BattleSlow
+se_core_GalleryMode
+se_core_Rendering
+se_core_StageType
+se_core_StoryDemo
+se_core_StoryDemo_Short
+se_core_StoryDemo_VeryShort
+se_core_SubWindowMenu
+se_core_Tubazeri
+
+### VALUE NAMES (core_System.bnk)
+SE01_Close
+SE01_In
+SE01_NotEngaged
+SE01_off
+SE02_Out
+Type01_Normal
+Type02_Water
+Type03_Snow
+Type04_Wood
+
+### EVENT NAMES (em0000.bnk)
+core_AddFootStep_Walk_S
+em0000_atk_union
+em0000_atk_union_02
+em0000_Atk_WClawWsh
+em0000_Mov_AtkJump
+em0000_Mov_AtkWsh_S
+em0000_Mov_BackStepJump
+em0000_Mov_BackStepLand
+em0000_Mov_Clap
+em0000_Mov_ClawAppear
+em0000_Mov_KickWsh
+em0000_Mov_MedRecover
+em0000_Mov_Rolling
+em0000_Mov_RushWsh
+em0000_Voe_Appear
+em0000_Voe_Atk_L
+em0000_Voe_Atk_S
+em0000_Voe_Dmg_Death
+em0000_Voe_Dmg_L
+em0000_Voe_Dmg_S
+em0000_Voe_Mov_Jump
+em0000_voe_ResultSoul
+
+### SFX NAMES (em0000.bnk)
+# 950244952
+# 887586983
+
+### RTPC/GAME-VARIABLE NAMES (em0000.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0000.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0000.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0000_Skill.bnk)
+em0000_Skill_Recover
+
+### VARIABLE NAMES (em0000_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0000_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0001.bnk)
+em0001_Atk_FireDriving
+em0001_Mov_FireAura
+
+### RTPC/GAME-VARIABLE NAMES (em0001.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0002.bnk)
+em0002_Atk_IceBrethFiring
+em0002_Atk_PreIceBreth
+em0002_Mov_DoubleSwing
+em0002_Mov_IceAura
+em0002_Mov_IceClap
+em0002_Mov_PunchWsh
+em0002_Mov_Rolling
+
+### RTPC/GAME-VARIABLE NAMES (em0002.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0003.bnk)
+em0003_Atk_SkillWind_Wave
+em0003_Mov_WindAura
+
+### RTPC/GAME-VARIABLE NAMES (em0003.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0004.bnk)
+em0004_Atk_BlowOff
+em0004_Atk_PreBlowOff
+em0004_Mov_ElecAura
+
+### RTPC/GAME-VARIABLE NAMES (em0004.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0005.bnk)
+em0005_Atk_BlowOff
+em0005_Atk_PreBlowOff
+em0005_Mov_MadAura
+
+### RTPC/GAME-VARIABLE NAMES (em0005.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0006.bnk)
+core_AddFootStep_Run_S
+em0006_Atk_BlowOff
+em0006_Atk_PreBlowOff
+em0006_Atk_Stinger
+em0006_Atk_StompImpact
+em0006_Atk_SwordWave
+em0006_Atk_Tenkei_Zan_Wsh
+em0006_atk_union_01
+em0006_Mov_AtkJump
+em0006_Mov_AvoidRolling
+em0006_Mov_BackStepJump
+em0006_Mov_Clap
+em0006_Mov_DrapeElecLp
+em0006_Mov_DrawSword
+em0006_Mov_ElecAdd
+em0006_Mov_Footstep
+em0006_Mov_Grip
+em0006_Mov_Jump
+em0006_Mov_KickWsh
+em0006_Mov_Land
+em0006_Mov_MedRecover
+em0006_Mov_PreSting
+em0006_Mov_StingGround
+em0006_Mov_SwordAtkWsh
+em0006_Mov_SwordWsh
+em0006_voe_AppearA
+em0006_voe_AppearB
+em0006_Voe_Atk_L
+em0006_Voe_Atk_S
+em0006_voe_BackStep
+em0006_voe_Berserk
+em0006_voe_DeathA
+em0006_voe_DeathB
+em0006_Voe_Dmg_L
+em0006_Voe_Dmg_S
+em0006_Voe_DmgHitBack
+em0006_voe_PreBerserk
+em0006_voe_PreIai
+em0006_voe_PreRush
+em0006_voe_ResultSoul
+Set_em0006_TypeSwitch_Normal
+
+### SFX NAMES (em0006.bnk)
+# 1035621920
+# 1040637375
+# 729483331
+
+### RTPC/GAME-VARIABLE NAMES (em0006.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0006.bnk)
+se_core_StageType
+se_em0006_Type
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0006.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Type0_Normal
+Type1_Elec
+Water
+Wood
+
+### EVENT NAMES (em0006_Skill.bnk)
+em0006_Skill_ElecExplosion
+em0006_Skill_WarpOut
+
+### VARIABLE NAMES (em0006_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0006_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0010.bnk)
+core_AddFootStep_Walk_S
+em0010_Atk_ClawWsh
+em0010_Atk_RushAttackWsh
+em0010_Atk_UpperCutWsh
+em0010_Mov_JumpWsh
+em0010_Mov_NekomataOndo
+em0010_Mov_Walk
+em0010_voe_Dmg_L
+em0010_voe_Dmg_S
+em0010_voe_Healing
+em0010_voe_PreRush
+em0010_voe_ResultSoul
+em0010_voe_RushAttack
+em0010_voe_UpperCut
+em0011_Atk_FireMulthRise
+em0011_Mov_DrawSword
+em0011_Mov_FirePillarCharge
+em0011_Mov_FireRush
+em0011_Mov_PreFireMulthRise
+em0011_Mov_PreFirePillar
+em0011_Mov_PreFireRush
+em0011_Mov_Roar
+em0011_Mov_SwordSting
+em0011_Mov_SwordSwing
+em0011_voe_Heatup
+em0012_Mov_PreThunderPillar
+em0012_Mov_PreThunderRush
+em0012_Mov_ThunderRush
+
+### SFX NAMES (em0010.bnk)
+# 927726206
+
+### RTPC/GAME-VARIABLE NAMES (em0010.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0010.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0010.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0010_Skill.bnk)
+em0010_Skill_Recover
+pl_Mov_NekomataOndo_Skill
+Stop_pl_Mov_NekomataOndo_Skill
+Stop_pl_Mov_NekomataOndo_Skill_EV
+
+### RTPC/GAME-VARIABLE NAMES (em0010_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0010_Skill.bnk)
+se_core_BattleSlow
+se_core_Rendering
+se_core_Tubazeri
+
+### VALUE NAMES (em0010_Skill.bnk)
+SE01_In
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0011.bnk)
+em0011_voe_ResultSoul
+
+### RTPC/GAME-VARIABLE NAMES (em0011.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0011_Skill.bnk)
+em0011_Skill_Recover
+
+### VARIABLE NAMES (em0011_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0011_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0012.bnk)
+em0012_voe_ResultSoul
+
+### RTPC/GAME-VARIABLE NAMES (em0012.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0020.bnk)
+core_AddFootStep_Walk_S
+em0020_Atk_HeadDownImpact
+em0020_Atk_HeadDownJump
+em0020_Atk_HeadDownWsh
+em0020_Atk_HeadScrewBrake
+em0020_Atk_HeadScrewElc
+em0020_Atk_HeadScrewElcBrake
+em0020_Atk_HeadScrewLoop
+em0020_Atk_HeadScrewPre
+em0020_Atk_HeadScrewStart
+em0020_Atk_HeadUpper
+em0020_Atk_HeadUpperLand
+em0020_Mov_ElectricStart
+em0020_Mov_EnterJump
+em0020_Mov_GetUp
+em0020_Mov_Walk
+em0020_Voe_Atk
+em0020_Voe_Blow
+em0020_Voe_Dmg
+em0020_Voe_Enter_A
+em0020_Voe_Enter_B
+em0020_Voe_LaughDance
+em0020_voe_ResultSoul
+
+### RTPC/GAME-VARIABLE NAMES (em0020.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0020.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0020.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0030.bnk)
+core_AddFootStep_Walk_M
+core_AddFootStep_Walk_S
+em0030_Atk_FrontKickWsh
+em0030_Atk_PunchWsh
+em0030_Atk_SakeSwing
+em0030_atk_union_vo_01
+em0030_atk_union_vo_02
+em0030_Mov_AvoidRolling
+em0030_Mov_JumpWsh
+em0030_Mov_PostSakeDrink
+em0030_Mov_RushKickStingWsh
+em0030_Mov_SakeDrink
+em0030_Mov_SakeShaky
+em0030_Mov_SakeSpilling
+em0030_Mov_SpreadOneself
+em0030_Mov_Wakeup
+em0030_Mov_Walk
+em0030_voe_Appear
+em0030_voe_Atk_L
+em0030_voe_Atk_S
+em0030_voe_Dmg_L
+em0030_voe_Dmg_S
+em0030_voe_DrunkWait
+em0030_voe_PostDrunkAtk_A
+em0030_voe_PostDrunkAtk_B
+em0030_voe_PreDrunkAtk
+em0030_voe_ResultSoul
+em0030_voe_RushKick
+em0030_voe_SpreadOneself
+em0030_voe_Wakeup
+em0031_Mov_PreIceRushKick
+
+### SFX NAMES (em0030.bnk)
+# 929065642
+# 305601428
+# 613492601
+
+### RTPC/GAME-VARIABLE NAMES (em0030.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0030.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0030.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0030_Skill.bnk)
+em0030_Skill_WindCircle
+em0030_Skill_WindCircleEnd
+
+### VARIABLE NAMES (em0030_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0030_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0040.bnk)
+core_AddFootStep_Run_S
+core_AddFootStep_Walk_M
+em0040_Atk_AzukiBallHitVanish
+em0040_Atk_AzukiBallHitVanish2
+em0040_Atk_AzukiBallVanish
+em0040_Atk_AzukiBallVanish2
+em0040_Atk_KickWsh
+em0040_Atk_RollingKick
+em0040_atk_union_A
+em0040_atk_union_B
+em0040_Mov_Appear
+em0040_Mov_AzukiBallFiring
+em0040_Mov_DownScatter
+em0040_Mov_EatAzuki
+em0040_Mov_FootStep
+em0040_Mov_IdleLoop
+em0040_Mov_PickupAzuki
+em0040_Mov_PreAzukiBallFiring
+em0040_Mov_PutOke
+em0040_Mov_SpillAzuki
+em0040_Mov_StepinJump
+em0040_Mov_ThrowAzukiBall
+em0040_Skill_Swish
+em0040_voe_Appear
+em0040_voe_Dmg_L
+em0040_voe_Dmg_M
+em0040_voe_Dmg_S
+em0040_voe_Eat
+em0040_voe_Kick
+em0040_voe_Pickup
+em0040_voe_ResultSoul
+em0040_voe_RolfBall
+em0040_voe_RollingKick
+em0040_voe_ThrowBall
+Pause_em0040_Mov_IdleLoop
+Resume_em0040_Mov_IdleLoop
+
+### SFX NAMES (em0040.bnk)
+# 1072750831
+
+### RTPC/GAME-VARIABLE NAMES (em0040.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0040.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0040.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0040_Skill.bnk)
+em0040_Skill_IceBallFiling
+em0040_Skill_IceBallVanish
+
+### RTPC/GAME-VARIABLE NAMES (em0040_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0040_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0040_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0050.bnk)
+core_AddFootStep_Run_S
+core_AddFootStep_Run_S_em0050
+core_AddFootStep_Walk_S
+em0050_Atk_FireRing
+em0050_Atk_FireRingCharge
+em0050_Atk_FireRingPre
+em0050_Atk_Punch
+em0050_Atk_Straight
+em0050_Atk_StraightBone
+em0050_Atk_StraightPre
+em0050_Atk_Swing_A
+em0050_Atk_Swing_B
+em0050_Atk_SwingBone_A
+em0050_Atk_SwingBone_B
+em0050_Atk_SwingPre_A
+em0050_Atk_SwingPre_B
+em0050_Atk_SwingPreBone_A
+em0050_Atk_SwingPreBone_B
+em0050_atk_union_01
+em0050_Mov_EnterCatch
+em0050_Mov_EnterThrowBone
+em0050_Mov_GetUp
+em0050_Mov_GetUpBone_A
+em0050_Mov_GetUpBone_B
+em0050_Mov_GetUpBone_C
+em0050_Mov_GetUpJump
+em0050_Mov_GetUpPre
+em0050_Mov_GetUpPreBone
+em0050_Mov_GetUpStep_A
+em0050_Mov_GetUpStep_B
+em0050_Mov_Guard
+em0050_Mov_GuardBone
+em0050_Mov_GuardPreBone
+em0050_Mov_Run
+em0050_Mov_StepBackBone
+em0050_Mov_StepBackJump
+em0050_Mov_StepBackRanding
+em0050_Mov_StunBone
+em0050_Mov_Walk
+em0050_Mov_WalkBone
+em0050_Voe_Dmg
+em0050_Voe_DmgBlow
+em0050_Voe_Enter
+em0050_Voe_FireRing
+em0050_Voe_FireRingPre
+em0050_voe_ResultSoul
+em0050_Voe_Straight
+em0050_Voe_Swing_A
+em0050_Voe_Swing_B
+
+### SFX NAMES (em0050.bnk)
+# 405090617
+
+### RTPC/GAME-VARIABLE NAMES (em0050.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0050.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0050.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0050_Skill.bnk)
+em0050_Skill_FireRise
+em0050_Skill_PreFireRise
+
+### RTPC/GAME-VARIABLE NAMES (em0050_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0050_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0050_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em00a0.bnk)
+core_AddFootStep_Run_S
+core_AddFootStep_Walk_S
+em00a0_Atk_FlyingAtkGround
+em00a0_Atk_TongueSting
+em00a0_Atk_TongueStingRet
+em00a0_Atk_TongueSwing
+em00a0_Atk_TongueToss
+em00a0_Mov_BackStepJump
+em00a0_Mov_BackStepLand
+em00a0_Mov_FlyingAtkJump
+em00a0_Mov_PreFlyingAtk
+em00a0_Mov_PreTongue
+em00a0_Mov_Run
+em00a0_Mov_TongueReturn
+em00a0_Mov_Walk
+em00a0_voe_Appear_A
+em00a0_voe_Appear_B
+em00a0_voe_Dmg_L
+em00a0_voe_Dmg_S
+em00a0_voe_FlyingAtkJump
+em00a0_voe_KnockBack
+em00a0_voe_PreFlyingAtkJump
+em00a0_voe_ResultSoul
+
+### SFX NAMES (em00a0.bnk)
+# 12470638
+
+### RTPC/GAME-VARIABLE NAMES (em00a0.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em00a0.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em00a0.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em00a0_Skill.bnk)
+em00a0_Skill_FireCircle
+em00a0_Skill_FireCircleEnd
+
+### VARIABLE NAMES (em00a0_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em00a0_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em00b0.bnk)
+core_AddFootStep_Walk_M
+em00b0_Atk_IceBrethFiring
+em00b0_Atk_TongueSideSwing
+em00b0_Atk_TongueSting
+em00b0_Atk_TongueStingFin
+em00b0_Atk_TongueUpper
+em00b0_Mov_BackStepJump
+em00b0_Mov_FootStep
+em00b0_Mov_PostTongueUpper
+em00b0_Mov_PreIceBreath
+em00b0_Mov_PreTongueSideSwing
+em00b0_Mov_PreTongueSting
+em00b0_Mov_PreTongueUpper
+em00b0_voe_DamageL
+em00b0_voe_DamageS
+em00b0_voe_IceBreath
+em00b0_voe_PreIceBreath
+em00b0_voe_PreTongueSting
+em00b0_voe_PreTongueUpper
+em00b0_voe_ResultSoul
+em00b0_voe_TongueSideSwing
+em00b0_voe_TongueStingA
+em00b0_voe_TongueStingB
+em00b0_voe_TongueStingFin
+em00b0_voe_TongueUpper
+
+### SFX NAMES (em00b0.bnk)
+# 858034003
+# 623285792
+# 967669274
+
+### RTPC/GAME-VARIABLE NAMES (em00b0.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em00b0.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em00b0.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em00b0_Skill.bnk)
+em00b0_Skill_Recover
+
+### VARIABLE NAMES (em00b0_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em00b0_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0100.bnk)
+em0100_Atk_Discharge
+em0100_Atk_Skill
+em0100_Atk_Thunderbolt
+em0100_Atk_ThunderboltSolo
+em0100_Atk_ThunderboltSoloPillar
+em0100_Mov_CloudAppear
+em0100_Mov_CloudDisappear
+em0100_voe_ResultSoul
+
+### RTPC/GAME-VARIABLE NAMES (em0100.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0100_Skill.bnk)
+em0100_Skill_ElecPillars
+
+### RTPC/GAME-VARIABLE NAMES (em0100_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0100_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0100_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0101.bnk)
+em0101_Atk_BigStorm
+em0101_Atk_BigTwister
+em0101_Atk_StormFiring
+em0101_Atk_StormFiring_Multi
+em0101_atk_union_01
+em0101_Mov_CloudAppear
+em0101_Mov_CloudDisappear
+em0101_Skill_Tornado_Loop
+em0101_voe_ResultSoul
+
+### RTPC/GAME-VARIABLE NAMES (em0101.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0101_Skill.bnk)
+em0101_Skill_WindPillars
+
+### RTPC/GAME-VARIABLE NAMES (em0101_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0101_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0101_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em010f.bnk)
+core_AddFootStep_Walk_L
+em0100_Atk_ChopPunchImpact
+em0100_Atk_PreBigStorm
+em0100_Atk_PreDischarge
+em0100_Mov_ChopPunch
+em0100_Mov_FootStep_Walk
+em0100_Mov_KneeLand
+em0100_Mov_Land
+em0100_Mov_MuscleMove
+em0100_Mov_PullChopPunch
+em0100_voe_Atk_L
+em0100_voe_Atk_S
+em0100_voe_Attack
+em0100_voe_Dmg_L
+em0100_voe_Dmg_S
+em0100_voe_Down
+em0100_voe_LaughL
+em0100_voe_LaughS
+em010x_EV_Mov_DualAppearBraceWsh
+em010x_EV_Mov_DualAppearFoot
+em010x_EV_Mov_DualAppearJump
+em010x_EV_Mov_DualAppearLand
+em010x_EV_Mov_DualAppearStop
+
+### SFX NAMES (em010f.bnk)
+# 520678464
+
+### RTPC/GAME-VARIABLE NAMES (em010f.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em010f.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em010f.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0110.bnk)
+em0110_Atk_GroundImpact
+em0110_Atk_KickWsh
+em0110_Atk_RollStickSting
+em0110_Atk_StickSting
+em0110_atk_union_01
+em0110_Atk_WindRise
+em0110_Mov_PreRollStickSting
+em0110_Mov_PreWindRise
+em0110_Mov_Stickhit
+em0110_Mov_StickStingRiseWsh
+em0110_Mov_StickStingRoll
+em0110_Mov_StickWshA
+em0110_Mov_StickWshB
+em0110_Mov_Wing
+em0110_voe_AtkL
+em0110_voe_AtkS
+em0110_voe_DmgL
+em0110_voe_DmgS
+em0110_voe_PreStickSting
+em0110_voe_ResultSoul
+em0110_voe_StickSting
+em0113_Atk_SkillWind_Wave
+em0113_Atk_StormFiring
+
+### SFX NAMES (em0110.bnk)
+# 173263823
+
+### RTPC/GAME-VARIABLE NAMES (em0110.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0110_Skill.bnk)
+em0110_Skill_PreWindRise
+em0110_Skill_WindRise
+
+### RTPC/GAME-VARIABLE NAMES (em0110_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0110_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0110_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0120.bnk)
+em0120_Atk_GroundStompImpact
+em0120_Atk_KickWsh
+em0120_Atk_RiseKickWsh
+em0120_Atk_RollStickSting
+em0120_Atk_RushKickFinImp
+em0120_Atk_RushKickImp
+em0120_Atk_Skill_Tornado
+em0120_Atk_StickSting
+em0120_Atk_StormAtkWsh
+em0120_Atk_StormFiring
+em0120_atk_union_01
+em0120_Mov_AlterEgo
+em0120_Mov_AlterEgoSting
+em0120_Mov_PreAlterEgo
+em0120_Mov_PreRollStickSting
+em0120_Mov_RiseWsh
+em0120_Mov_RushKickStingWsh
+em0120_Mov_RushKickWsh
+em0120_Mov_Stickhit
+em0120_Mov_StickStingRiseWsh
+em0120_Mov_StickStingRoll
+em0120_Mov_StickWsh
+em0120_Mov_Wing
+em0120_voe_AtkL
+em0120_voe_AtkS
+em0120_voe_DmgL
+em0120_voe_DmgS
+em0120_voe_Kick
+em0120_voe_PostAlterEgo
+em0120_voe_PreAlterEgo
+em0120_voe_PreStickSting
+em0120_voe_PreWind
+em0120_voe_RushKick
+em0120_voe_RushKickFin
+em0120_voe_StickSting
+
+### SFX NAMES (em0120.bnk)
+# 348444891
+
+### RTPC/GAME-VARIABLE NAMES (em0120.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0130.bnk)
+core_AddFootStep_Walk_L
+core_AddFootStep_Walk_M
+em0130_Atk_100Sting
+em0130_Atk_ComboFinImpact
+em0130_Atk_HammerImpact_Ground
+em0130_Dmg_Death
+em0130_Dmg_Down
+em0130_Dmg_SlashImpactL
+em0130_Dmg_SlashImpactS
+em0130_Mov_AppearReady
+em0130_Mov_AppearRolling
+em0130_Mov_CommonMoveL
+em0130_Mov_CommonMoveS
+em0130_Mov_EnemyBackupAuraA
+em0130_Mov_EnemyBackupAuraB
+em0130_Mov_EnemyBackupAuraC
+em0130_Mov_Footstep_Walk
+em0130_Mov_HammerImpact
+em0130_Mov_HammerSwing
+em0130_Mov_Heatup
+em0130_Mov_HeatupSteam
+em0130_Mov_IceBreak
+em0130_Mov_IcePillars_S
+em0130_voe_100Rush
+em0130_voe_Appear
+em0130_voe_Atk_L
+em0130_voe_Atk_S
+em0130_voe_Dmg_L
+em0130_voe_Dmg_S
+em0130_voe_EnemyBackupA
+em0130_voe_EnemyBackupB
+em0130_voe_EnemyBackupC
+em0130_voe_ResultSoul
+
+### SFX NAMES (em0130.bnk)
+# 914263657
+# 373700375
+
+### RTPC/GAME-VARIABLE NAMES (em0130.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0130.bnk)
+Damage_Attribute
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0130.bnk)
+Bone
+Cloth
+Fire
+grass
+Ice
+NONATTR
+Sand
+Shadow
+Snow
+Soil
+Stone
+Tatami
+Thunder
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wind
+Wood
+
+### EVENT NAMES (em0131.bnk)
+core_AddFootStep_Walk_L
+em0131_Atk_100Sting
+em0131_Atk_ComboFinImpact
+em0131_Atk_GolfSwingImpact
+em0131_Atk_GolfSwingWsh
+em0131_Atk_HammerImpact_Ground
+em0131_Atk_IcePillarAppear
+em0131_Dmg_Death
+em0131_Dmg_Down
+em0131_Dmg_SlashImpactL
+em0131_Dmg_SlashImpactS
+em0131_Mov_AppearReady
+em0131_Mov_AppearRolling
+em0131_Mov_CommonMoveL
+em0131_Mov_CommonMoveS
+em0131_Mov_Footstep_Walk
+em0131_Mov_GolfSwingDown
+em0131_Mov_GolfSwingReadyWsh
+em0131_Mov_HammerImpact
+em0131_Mov_HammerSwing
+em0131_Mov_Heatup
+em0131_Mov_HeatupSteam
+em0131_Mov_IceBallAppear
+em0131_Mov_IceBreak
+em0131_Mov_PreIcePillarAppear
+em0131_Mov_PreWarpIn
+em0131_Mov_WarpIn
+em0131_Mov_WarpOut
+em0131_Skill_AppearPot
+em0131_Skill_BreakPot
+em0131_voe_100Rush
+em0131_voe_Appear
+em0131_voe_Atk_L
+em0131_voe_Atk_S
+em0131_voe_Dmg_L
+em0131_voe_Dmg_S
+em0131_voe_GolfSwing
+em0131_voe_PostGolfSwing
+em0131_voe_ResultSoul
+
+### SFX NAMES (em0131.bnk)
+# 962289798
+# 373700375
+
+### RTPC/GAME-VARIABLE NAMES (em0131.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0131.bnk)
+Damage_Attribute
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0131.bnk)
+Bone
+Cloth
+Fire
+grass
+Ice
+NONATTR
+Sand
+Shadow
+Snow
+Soil
+Stone
+Tatami
+Thunder
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wind
+Wood
+
+### EVENT NAMES (em0131_Skill.bnk)
+em0131_Skill_IcePillars
+
+### RTPC/GAME-VARIABLE NAMES (em0131_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0131_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0131_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em01a0.bnk)
+core_AddFootStep_Walk_L
+em01a0_Atk_HomerunFoot
+em01a0_Atk_HomerunSwing
+em01a0_Atk_HomerunSwingAt
+em01a0_Atk_MetalHit
+
+### RTPC/GAME-VARIABLE NAMES (em01a0.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em01a0.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em01a0.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em01a1.bnk)
+em01a1_Atk_AddSonicBoom
+em01a1_Atk_IceStingImpact
+em01a1_Mov_IceTailBreak
+em01a1_Mov_Jump
+em01a1_Mov_JumpFallWsh
+em01a1_Mov_JumpWind
+
+### RTPC/GAME-VARIABLE NAMES (em01a1.bnk)
+core_Azimuth
+
+### EVENT NAMES (em01a2.bnk)
+em01a2_Atk_DashStabLp
+em01a2_Mov_DashStabEnd
+em01a2_Mov_DashStabSetUp_A
+em01a2_Mov_DashStabSetUp_B
+em01a2_Mov_DashStabStart
+em01a2_Mov_PreDashStab
+
+### RTPC/GAME-VARIABLE NAMES (em01a2.bnk)
+core_Azimuth
+
+### EVENT NAMES (em01a3.bnk)
+em01a3_Atk_RollSwingMetal
+em01a3_Atk_RollSwingMetalLast
+em01a3_Atk_RollSwingWsh
+em01a3_Mov_ElecBurst
+em01a3_Mov_ElecILp
+em01a3_Mov_ElecPowCharge
+em01a3_Mov_ElecStart
+em01a3_Mov_RollSwingAddElec
+em01a3_Mov_RollSwingFinish
+
+### RTPC/GAME-VARIABLE NAMES (em01a3.bnk)
+core_Azimuth
+
+### EVENT NAMES (em01a4.bnk)
+core_AddFootStep_Run_L
+em01a4_Atk_BerserkWsh
+em01a4_Mov_BerserkBrake
+em01a4_Mov_BerserkDash
+em01a4_Mov_LiftAxWsh
+em01a4_Mov_PreBerserk
+
+### RTPC/GAME-VARIABLE NAMES (em01a4.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em01a4.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em01a4.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Water
+Wood
+
+### EVENT NAMES (em01a5.bnk)
+core_AddFootStep_Run_L
+core_AddFootStep_Walk_L
+em01a5_Atk_DarkPillar
+em01a5_Atk_DashSwingWsh
+em01a5_Atk_DownSwingImpact
+em01a5_Atk_FlamePillar
+em01a5_Atk_KickWsh
+em01a5_Atk_PillarImpact
+em01a5_Atk_RollSwingWsh
+em01a5_Atk_RollSwingWshEnd
+em01a5_atk_union_01
+em01a5_Mov_AddDark
+em01a5_Mov_AuraLp
+em01a5_Mov_AuraStart
+em01a5_Mov_BerserkBrake
+em01a5_Mov_Death_A
+em01a5_Mov_Death_B
+em01a5_Mov_Down
+em01a5_Mov_DownSwingWsh
+em01a5_Mov_Enter
+em01a5_Mov_GetUp
+em01a5_Mov_Guard
+em01a5_Mov_GuardPush
+em01a5_Mov_Jump
+em01a5_Mov_JumpFallWsh
+em01a5_Mov_LiftUp
+em01a5_Mov_PillarSet
+em01a5_Mov_PreDarkPillar
+em01a5_Mov_PreDash
+em01a5_Mov_PreDownSwing
+em01a5_Mov_PreFlamePillar
+em01a5_Mov_PreKick
+em01a5_Mov_PreRoar
+em01a5_Mov_PreRolling
+em01a5_Mov_RollSwingWshStart
+em01a5_Mov_Run
+em01a5_Mov_Walk
+em01a5_Voe_BerserkDash
+em01a5_Voe_Charge
+em01a5_Voe_Death_A
+em01a5_Voe_Death_B
+em01a5_Voe_Dmg
+em01a5_Voe_DownSwing
+em01a5_Voe_EnterLaugh
+em01a5_Voe_FlamePillar
+em01a5_Voe_Jump
+em01a5_Voe_JumpAt
+em01a5_Voe_Kick
+em01a5_Voe_LaughLong
+em01a5_Voe_PreKick
+em01a5_Voe_PreRoar
+em01a5_voe_ResultSoul
+em01a5_Voe_Roar
+em01a5_wp_roll
+
+### RTPC/GAME-VARIABLE NAMES (em01a5.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em01a5.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em01a5.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em01a5_Skill.bnk)
+em01a5_Skill_DarkPillars
+
+### RTPC/GAME-VARIABLE NAMES (em01a5_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em01a5_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em01a5_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em01af.bnk)
+core_AddFootStep_Walk_L
+em01a0_Atk_DownSwingImpact
+em01a0_Atk_DownSwingPre
+em01a0_Atk_DownSwingWsh
+em01a0_Atk_Kick
+em01a0_Atk_KickPre
+em01a0_Atk_SwingWsh
+em01a0_Atk_SwingWshAt
+em01a0_Mov_Death
+em01a0_Mov_Getup
+em01a0_Mov_GetupPre
+em01a0_Mov_Stun
+em01a0_Mov_Walk
+em01a0_Voe_Death_A
+em01a0_Voe_Death_B
+em01a0_Voe_Dmg
+em01a0_Voe_DownSwing
+em01a0_Voe_Enter
+em01a0_Voe_Homerun
+em01a0_Voe_Kick
+em01a1_Voe_Attack
+em01a1_Voe_Jump
+em01a2_Atk_DownSwingWsh
+em01a2_Atk_SwingWsh
+em01a2_Voe_Charge
+em01a2_Voe_Laugh
+em01a2_Voe_LongAttack
+em01a3_Voe_Charge
+em01a3_Voe_Laugh
+em01a4_Atk_DownSwingWsh
+em01a4_Atk_SwingWsh
+em01a4_Voe_Attack
+em01a4_Voe_Laugh
+
+### SFX NAMES (em01af.bnk)
+# 448666627
+
+### RTPC/GAME-VARIABLE NAMES (em01af.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em01af.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em01af.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0200.bnk)
+em0200_Atk_ClawWsh
+em0200_atk_union_01
+em0200_Mov_DiveAppear
+em0200_Mov_DiveDisappear
+em0200_Mov_DiveDrop
+em0200_Mov_DiveReturn
+em0200_Mov_Movement
+em0200_Mov_PillarWsh
+em0200_Mov_PostDualClaw
+em0200_Mov_PreClaw
+em0200_Mov_PreDualClaw
+em0200_Mov_PrePillar
+em0200_voe_Anathema
+em0200_voe_Appear
+em0200_voe_Atk_S
+em0200_voe_Dmg_L
+em0200_voe_Dmg_S
+em0200_voe_ResultSoul
+em0200_voe_Wait
+em0201_Atk_DarkPiller
+em0201_Mov_PreDarkPiller
+
+### SFX NAMES (em0200.bnk)
+# 82053510
+
+### RTPC/GAME-VARIABLE NAMES (em0200.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0200_Skill.bnk)
+em0200_Skill_DarkCircle
+em0200_Skill_DarkCircleEnd
+
+### VARIABLE NAMES (em0200_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0200_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0201.bnk)
+em0201_voe_ResultSoul
+
+### RTPC/GAME-VARIABLE NAMES (em0201.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0210.bnk)
+core_AddFootStep_Walk_L
+em0210_Atk_BiteImpact
+em0210_Atk_IceBrethFiring
+em0210_Atk_RushMoveLp
+em0210_Atk_TailBowWsh
+em0210_Atk_TailSwingWsh
+em0210_Atk_TailUpperWsh
+em0210_atk_union_01
+em0210_Mov_DownImpact
+em0210_Mov_DownMove
+em0210_Mov_PostBiteMove
+em0210_Mov_PostTailBowMove
+em0210_Mov_PostTailUpperMove
+em0210_Mov_PreBiteWsh
+em0210_Mov_PreIceBreath
+em0210_Mov_PreTailBowMove
+em0210_Mov_PreTailSwing_B
+em0210_Mov_PreTailUpperMove
+em0210_Mov_WaitTailMove_A
+em0210_Mov_WaitTailMove_B
+em0210_Mov_Wakeup
+em0210_Mov_Walk
+em0210_voe_Bite
+em0210_voe_DmgL
+em0210_voe_DmgS
+em0210_voe_Down
+em0210_voe_PreBite
+em0210_voe_PreTailSwing
+em0210_voe_PreTailUpper
+em0210_voe_ResultSoul
+em0210_voe_Rush
+em0210_voe_TailBow
+em0210_voe_TailSwing
+em0210_voe_TailUpper
+em021x_Mov_SlamWsh
+em021x_Mov_StompJump
+
+### RTPC/GAME-VARIABLE NAMES (em0210.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0210.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0210.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0210_Skill.bnk)
+em0210_Skill_IceCircle
+em0210_Skill_IceCircleEnd
+
+### VARIABLE NAMES (em0210_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0210_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0211.bnk)
+em0211_Atk_FireBreath
+em0211_Atk_FireJumpStomp
+em0211_Atk_RushMove_Add
+em0211_Atk_TailSwingWsh
+em0211_Mov_PreFireBreath
+em0211_Mov_RushMove_Register
+
+### RTPC/GAME-VARIABLE NAMES (em0211.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0212.bnk)
+em0212_Atk_IceBrethFiring
+em0212_Atk_IceJumpStomp
+em0212_Atk_SlamImpact
+em0212_Mov_IceBreak
+em0212_Mov_PreIceBreath
+
+### RTPC/GAME-VARIABLE NAMES (em0212.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0213.bnk)
+em0213_Atk_SkillWind_Wave
+em0213_Atk_TailBowWsh
+em0213_Atk_TailSwingWsh
+em0213_Atk_TailUpperWsh
+em0213_Atk_WindBreathFiring
+em0213_Mov_PostTailBlade
+em0213_Mov_PreTailUpperMove
+em0213_Mov_PreWarpIn
+em0213_Mov_PreWindRise
+em0213_Mov_WarpIn
+em0213_Mov_WarpOut
+
+### RTPC/GAME-VARIABLE NAMES (em0213.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0214.bnk)
+em0214_Atk_ElecJumpStomp
+em0214_Atk_ElecRise
+em0214_Atk_RushMove_Add
+em0214_Atk_SlamImpact
+em0214_Mov_PreElecRise
+em0214_Mov_PreSlamImpact
+em0214_Mov_RushMove_Register
+
+### RTPC/GAME-VARIABLE NAMES (em0214.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0215.bnk)
+em0215_Atk_DarkRise
+em0215_Atk_SlamImpact
+em0215_Mov_PreDarkRise
+em0215_Mov_PreWarpIn
+em0215_Mov_WarpIn
+em0215_Mov_WarpOut
+
+### RTPC/GAME-VARIABLE NAMES (em0215.bnk)
+core_Azimuth
+
+### EVENT NAMES (em02a0.bnk)
+em02a0_Atk_IceBullet
+em02a0_Atk_IceBulletBreak
+em02a0_Atk_IceBulletHit
+em02a0_Atk_IceBulletPre
+em02a0_Atk_IceBulletWsh
+em02a0_Atk_IceTailImpact
+em02a0_Voe_Attack
+em02a0_Voe_Blow
+em02a0_Voe_Death
+em02a0_Voe_Dmg
+em02a0_Voe_IceBulleSmile
+em02a0_Voe_LaughLong
+em02a0_Voe_LaughShort
+em02a0_voe_ResultSoul
+em02a0_Voe_SmileLong
+em02a0_Voe_VanishSmile
+em02a0_Voe_Walk
+
+### SFX NAMES (em02a0.bnk)
+# 570441366
+# 832588771
+# 172670347
+# 1073061771
+# 175607489
+# 543761614
+
+### RTPC/GAME-VARIABLE NAMES (em02a0.bnk)
+core_Azimuth
+
+### EVENT NAMES (em02a0_Skill.bnk)
+em02a0_Skill_IceRise
+em02a0_Skill_PreIceRise
+
+### RTPC/GAME-VARIABLE NAMES (em02a0_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em02a0_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em02a0_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em02a1.bnk)
+em02a1_Atk_FreezeExplosion
+em02a1_Atk_JumpCrushImpact
+em02a1_Atk_SideFunnelWsh
+em02a1_atk_union_01
+em02a1_Mov_BigIceFallImpact
+em02a1_Mov_BigIceFallWsh
+em02a1_Mov_BigIceFunnel
+em02a1_Mov_BigIceIdleLp
+em02a1_Mov_BigIceMake
+em02a1_Mov_Enter
+em02a1_Mov_EnterFunnel
+em02a1_Mov_EnterWind
+em02a1_Mov_FallWsh
+em02a1_Mov_FreezeFunnelReturn
+em02a1_Mov_FreezeFunnelReturnAdd
+em02a1_Mov_IceRushFunnel
+em02a1_Mov_IceSpearFunnel
+em02a1_Mov_IceSpearFunnelVanish
+em02a1_Mov_Jump
+em02a1_Mov_JumpAdd
+em02a1_Mov_JumpFunnel_A
+em02a1_Mov_JumpFunnel_B
+em02a1_Mov_PreFreezeDetonate
+em02a1_Mov_PreFreezeFunnel
+em02a1_Mov_PreFreezeFunnelAdd
+em02a1_Mov_SideFunnel_A
+em02a1_Mov_SideFunnel_B
+em02a1_Mov_SideFunnel_C
+em02a1_Mov_SideFunnelAdd_A
+em02a1_Mov_SideFunnelAdd_B
+em02a1_Voe_Appear
+em02a1_Voe_AttackHigh_L
+em02a1_Voe_AttackHigh_S
+em02a1_Voe_AttackLow_L
+em02a1_Voe_AttackLow_S
+em02a1_Voe_AttackMid_L
+em02a1_Voe_Charge
+em02a1_Voe_Dmg_L
+em02a1_Voe_Dmg_S
+em02a1_Voe_Jump
+em02a1_voe_ResultSoul
+
+### SFX NAMES (em02a1.bnk)
+# 611555373
+# 360471281
+
+### RTPC/GAME-VARIABLE NAMES (em02a1.bnk)
+core_Azimuth
+
+### EVENT NAMES (em02a1_Skill.bnk)
+em02a1_Skill_IceExplosion
+em02a1_Skill_WarpOut
+
+### VARIABLE NAMES (em02a1_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em02a1_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em02af.bnk)
+em02a0_Atk_FreezeCircleEf
+em02a0_Atk_FreezePre
+em02a0_Atk_FreezeWsh
+em02a0_Atk_IcePillar
+em02a0_Atk_IceRushBreak
+em02a0_Atk_IceRushCharge
+em02a0_Atk_IceRushShining
+em02a0_Atk_IceRushWsh
+em02a0_Atk_IceSpearAttack
+em02a0_Atk_IceSpearBreak
+em02a0_Atk_IceSpearPre_A
+em02a0_Atk_IceSpearPre_B
+em02a0_Atk_IceSpearWsh
+em02a0_Mov_Appear
+em02a0_Mov_Vanish
+em02a0_Mov_VanishAppear
+em02a0_Mov_VanishPre
+
+### RTPC/GAME-VARIABLE NAMES (em02af.bnk)
+core_Azimuth
+
+### EVENT NAMES (em02b0.bnk)
+core_AddFootStep_Run_M
+em02b0_Atk_ComboA
+em02b0_Atk_ComboB
+em02b0_Atk_HeadDownWsh
+em02b0_Atk_Punch
+em02b0_Atk_RollingImpact
+em02b0_Mov_FootStep
+em02b0_Mov_Jump
+em02b0_Mov_RagingScrubA
+em02b0_Mov_RagingScrubB
+em02b0_Mov_RagingScrubC
+em02b0_Mov_RollingJump
+em02b0_Mov_SwordWsh
+em02b0_Mov_SwordWshRaging
+em02b0_voe_Atk_L
+em02b0_voe_Atk_S
+em02b0_voe_AtkJump
+em02b0_voe_CrazyAtk
+em02b0_voe_Dmg_L
+em02b0_voe_Dmg_M
+em02b0_voe_Dmg_S
+em02b0_voe_PreCrazyAtk
+em02b0_voe_ResultSoul
+em02b0_voe_Skill
+
+### SFX NAMES (em02b0.bnk)
+# 326216844
+
+### RTPC/GAME-VARIABLE NAMES (em02b0.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em02b0.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em02b0.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em02b0_Skill.bnk)
+em02b0_Skill_PowUp
+em02b0_Skill_PowUpEnd
+
+### VARIABLE NAMES (em02b0_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em02b0_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em02b1.bnk)
+core_AddFootStep_Run_M
+em02b1_Atk_FireMulthRise
+em02b1_Atk_HeadDownWsh
+em02b1_Atk_RollingImpact
+em02b1_Mov_ChargeRise
+em02b1_Mov_FootStep
+em02b1_Mov_Jump
+em02b1_Mov_PreChargeRise
+em02b1_Mov_PreFireMulthRise
+em02b1_Mov_RagingScrubA
+em02b1_Mov_RagingScrubB
+em02b1_Mov_RagingScrubC
+em02b1_Mov_RollingJump
+em02b1_Mov_SwordWsh
+em02b1_Mov_SwordWshRaging
+em02b1_voe_Appear
+em02b1_voe_Atk_L
+em02b1_voe_Atk_S
+em02b1_voe_ChargeRise
+em02b1_voe_CrazyAtk
+em02b1_voe_Dmg_L
+em02b1_voe_Dmg_S
+em02b1_voe_PreChargeRise
+em02b1_voe_PreCrazyAtk
+em02b1_voe_ResultSoul
+
+### SFX NAMES (em02b1.bnk)
+# 843398069
+
+### RTPC/GAME-VARIABLE NAMES (em02b1.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em02b1.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em02b1.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em02b1_Skill.bnk)
+em02b1_Skill_FirePillars
+
+### RTPC/GAME-VARIABLE NAMES (em02b1_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em02b1_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em02b1_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0300.bnk)
+em0300_atk_union_01
+em0300_Mov_HookSlowScrub
+em0300_Mov_HookWsh
+em0300_Mov_PreStorm
+em0300_Mov_SpinRolling
+em0300_Mov_SpinRolling_Skill
+em0300_Mov_Wakeup
+em0300_voe_Atk_L
+em0300_voe_Atk_S
+em0300_voe_Dmg_L
+em0300_voe_Dmg_S
+em0300_voe_Laugh
+em0300_voe_ResultSoul
+em0300_voe_RollingAtk
+em0300_voe_RollingCharge
+em0300_voe_StormAtk
+em0300_voe_StormCharge
+em0301_Mov_FireAura
+em0304_Mov_SwordSting
+em0305_Mov_HookScrub
+
+### SFX NAMES (em0300.bnk)
+# 701160367
+# 4048103
+# 801673866
+
+### RTPC/GAME-VARIABLE NAMES (em0300.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0300_Skill.bnk)
+em0300_Skil_WindWave
+em0300_Skill_WindStormFiring
+em0300_Skill_WindWave
+
+### RTPC/GAME-VARIABLE NAMES (em0300_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0300_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0300_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0302.bnk)
+em0302_Atk_IceTailImpact
+em0302_Mov_IceAura
+em0302_Mov_IceBreak
+em0302_Mov_IceTailWsh
+
+### RTPC/GAME-VARIABLE NAMES (em0302.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0303.bnk)
+em0303_Atk_SickleTailWsh
+em0303_Atk_SkillWind_Wave
+em0303_Mov_PreWarpIn
+em0303_Mov_WarpIn
+em0303_Mov_WarpOut
+em0303_Mov_WindAura
+
+### RTPC/GAME-VARIABLE NAMES (em0303.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0304.bnk)
+em0304_Atk_ThunderShock
+em0304_Mov_DrawSword
+em0304_Mov_ElecAura
+em0304_Mov_ElecSpinRolling
+em0304_Mov_PreThunderShock
+
+### RTPC/GAME-VARIABLE NAMES (em0304.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0305.bnk)
+em0305_Atk_DarkTailWsh
+em0305_Mov_MadAura
+
+### RTPC/GAME-VARIABLE NAMES (em0305.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0310.bnk)
+em0310_Atk_BugCloudRush
+em0310_Atk_BugCloudRushEnd
+em0310_Atk_MeteorImpact
+em0310_Atk_SideSwingWsh
+em0310_atk_union_01
+em0310_Mov_BugBlinderAppear
+em0310_Mov_BugBlinderVanish
+em0310_Mov_BugCloudAppear
+em0310_Mov_BugCloudIdle
+em0310_Mov_BugCloudRollIdle
+em0310_Mov_BugLifeIdle
+em0310_Mov_BugLifeIdleVanish
+em0310_Mov_DmgCloud
+em0310_Mov_MeteorFallWsh
+em0310_Mov_MeteorIdle
+em0310_Mov_MeteorRiseWsh
+em0310_Mov_MeteorVanish
+em0310_voe_DmgKnockBack
+em0310_voe_DmgS
+em0310_voe_Meteor
+em0310_voe_PreMeteor
+em0310_voe_ResultSoul
+em0310_voe_Rush
+em0310_voe_SideSwing
+
+### SFX NAMES (em0310.bnk)
+# 603702533
+
+### RTPC/GAME-VARIABLE NAMES (em0310.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0310_Skill.bnk)
+em0310_Skill_BugLifeIdle
+em0310_Skill_BugLifeIdleVanish
+
+### RTPC/GAME-VARIABLE NAMES (em0310_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0310_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0310_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0320.bnk)
+core_AddFootStep_Run_M
+core_AddFootStep_Walk_M
+em0320_Atk_AirKick
+em0320_Atk_BackKickWsh
+em0320_atk_union_01
+em0320_Mov_AirKickJump
+em0320_Mov_AirKickRolling
+em0320_Mov_DashBack
+em0320_Mov_DashFront
+em0320_Mov_GetUp
+em0320_Mov_GetUpJump
+em0320_Mov_Idle
+em0320_Mov_PreSpiritCircle
+em0320_Mov_Walk
+em0320_Skill_Start
+em0320_Voe_AirKick
+em0320_Voe_BackKickWsh
+em0320_Voe_Charge
+em0320_Voe_Chu
+em0320_Voe_Dash
+em0320_Voe_Dmg_L
+em0320_Voe_Dmg_S
+em0320_Voe_Enter
+em0320_Voe_EnterSmell
+em0320_Voe_Idle
+em0320_voe_ResultSoul
+em0320_Voe_Skill
+em0320_Voe_Spell
+Stop_em0320_Skill
+
+### SFX NAMES (em0320.bnk)
+# 690855126
+
+### RTPC/GAME-VARIABLE NAMES (em0320.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0320.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0320.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0320_Skill.bnk)
+em0320_Skill_DarkRise
+em0320_Skill_PreDarkRise
+
+### RTPC/GAME-VARIABLE NAMES (em0320_Skill.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0321.bnk)
+core_AddFootStep_Run_L
+core_AddFootStep_Walk_L
+em0321_Atk_AirKick
+em0321_Atk_BackKickWsh
+em0321_Atk_RatsMoveLp
+em0321_Atk_Thunderbolt
+em0321_Dmg_AddRats
+em0321_Mov_AirKickElc
+em0321_Mov_AirKickJump
+em0321_Mov_AirKickRolling
+em0321_Mov_DashBack
+em0321_Mov_DashFront
+em0321_Mov_GetUp
+em0321_Mov_GetUpJump
+em0321_Mov_Idle
+em0321_Mov_PreAirKickElc
+em0321_Mov_PreRats
+em0321_Mov_PreRatsBook
+em0321_Mov_PreThunderbolt
+em0321_Mov_PreThunderboltAdd
+em0321_Mov_RatsAppear
+em0321_Mov_RatsAppearAt
+em0321_Mov_RatsStart
+em0321_Mov_RatsVanish
+em0321_Mov_Walk
+em0321_Voe_AirKick
+em0321_Voe_BackKickWsh
+em0321_Voe_Charge
+em0321_Voe_Dash
+em0321_Voe_Dmg_L
+em0321_Voe_Dmg_S
+em0321_Voe_Enter
+em0321_Voe_EnterSmell
+em0321_Voe_Go
+em0321_Voe_Idle
+em0321_Voe_Jump
+em0321_voe_ResultSoul
+em0321_Voe_Spell
+em0321_Voe_Thunderbolt
+
+### SFX NAMES (em0321.bnk)
+# 122852017
+# 525522205
+# 281774784
+# 522184659
+
+### RTPC/GAME-VARIABLE NAMES (em0321.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0321.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0321.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0400.bnk)
+core_AddFootStep_Walk_S
+core_AddFootStep_Walk_S_em0400
+em0400_Atk_RushStart
+em0400_Dmg_WakeUp
+em0400_Mov_BodyPressCharge
+em0400_Mov_BodyPressJump
+em0400_Mov_BodyPressLand
+em0400_Mov_DownRoll
+em0400_Mov_DownRollSt
+em0400_Mov_FireBallCharge
+em0400_Mov_Land
+em0400_Mov_Move
+em0400_Mov_Rolling
+em0400_Mov_RushCharge
+em0400_Mov_SideStepJump
+em0400_Mov_Stun
+em0400_Mov_StunEndA
+em0400_Mov_StunEndB
+em0400_voe_Appear
+em0400_voe_Atk_S
+em0400_voe_AtkLaughing
+em0400_voe_Dmg_KnockBack
+em0400_voe_Dmg_S
+em0400_voe_ResultSoul
+
+### SFX NAMES (em0400.bnk)
+# 1034265280
+
+### RTPC/GAME-VARIABLE NAMES (em0400.bnk)
+core_Azimuth
+se_em0400_DownRoll
+
+### VARIABLE NAMES (em0400.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0400.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0400_Skill.bnk)
+em0400_Skill_RollAtk
+
+### RTPC/GAME-VARIABLE NAMES (em0400_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0400_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0400_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0401.bnk)
+em0401_Atk_AnathemaFiring
+em0401_Atk_AnathemaHit
+em0401_Atk_AnathemaVanish
+em0401_Atk_DarkPiller
+em0401_Atk_Firewall
+em0401_Atk_PreFirewall
+em0401_Atk_RushStart
+em0401_Dmg_WakeUp
+em0401_Mov_BodyPressCharge
+em0401_Mov_BodyPressJump
+em0401_Mov_BodyPressLand
+em0401_Mov_DiveDisappear
+em0401_Mov_DiveReturn
+em0401_Mov_DownRoll
+em0401_Mov_DownRollSt
+em0401_Mov_FireBallCharge
+em0401_Mov_Land
+em0401_Mov_Move
+em0401_Mov_Movement
+em0401_Mov_PreDarkPiller
+em0401_Mov_PrePillar
+em0401_Mov_Rolling
+em0401_Mov_RushCharge
+em0401_Mov_SideStepJump
+em0401_voe_Appear
+em0401_voe_Atk_S
+em0401_voe_AtkLaughing
+em0401_voe_Dmg_KnockBack
+em0401_voe_Dmg_S
+em0401_voe_Pillar
+em0401_voe_ResultSoul
+
+### SFX NAMES (em0401.bnk)
+# 836934050
+
+### RTPC/GAME-VARIABLE NAMES (em0401.bnk)
+core_Azimuth
+se_em0400_DownRoll
+
+### VARIABLE NAMES (em0401.bnk)
+se_core_StageType
+
+### VALUE NAMES (em0401.bnk)
+Type02_Water
+Type03_Snow
+Type04_Wood
+
+### EVENT NAMES (em0401_Skill.bnk)
+em0401_Skill_DarkExplosion
+em0401_Skill_WarpOut
+
+### VARIABLE NAMES (em0401_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0401_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0410.bnk)
+core_AddFootStep_Run_S
+core_AddFootStep_Walk_M
+core_AddFootStep_Walk_S
+em0410_Atk_DashSpearAttack
+em0410_Atk_DashSpearBoneVoice
+em0410_Atk_SlashHit_L
+em0410_Atk_SlashHit_S
+em0410_Atk_Sting
+em0410_Atk_StingFinish01
+em0410_Dmg_BlowDown_A
+em0410_Dmg_BlowDown_B
+em0410_Mov_DashSpearCharge
+em0410_Mov_Foot
+em0410_Mov_FootTurn
+em0410_Mov_GetUpBoneVoice
+em0410_Mov_PreSting
+em0410_Mov_Run
+em0410_Mov_SpiritBallBoneVoice
+em0410_Mov_SpiritBallCharge
+em0410_Voe_Blow
+em0410_Voe_Dmg
+em0410_Voe_EnterBoneVoice
+em0410_voe_ResultSoul
+em0412_Atk_100Sting
+em0412_Atk_Sting
+em0412_Atk_StingFinish
+
+### SFX NAMES (em0410.bnk)
+# 373700375
+
+### RTPC/GAME-VARIABLE NAMES (em0410.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0410.bnk)
+Damage_Attribute
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0410.bnk)
+Bone
+Cloth
+Fire
+grass
+Ice
+NONATTR
+Sand
+Shadow
+Snow
+Soil
+Stone
+Tatami
+Thunder
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wind
+Wood
+
+### EVENT NAMES (em0410_Skill.bnk)
+em0410_Skill_DarkBallFiring
+em0410_Skill_DarkBallVanish
+
+### RTPC/GAME-VARIABLE NAMES (em0410_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0410_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0410_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0411.bnk)
+core_AddFootStep_Run_M
+core_AddFootStep_Walk_M
+core_AddFootStep_Walk_S
+em0411_Atk_LargeSlashWsh
+em0411_Atk_SkillWind_StormFiring
+em0411_Atk_SkillWind_Wave
+em0411_Mov_DeathA
+em0411_Mov_DeathB
+em0411_Mov_DeathC
+em0411_Mov_Down
+em0411_Mov_DownAdd_Earth
+em0411_Mov_EngethuSappo
+em0411_Mov_EngethuSappoFin
+em0411_Mov_Escape
+em0411_Mov_Footstep
+em0411_Mov_IaiDash
+em0411_Mov_Jump
+em0411_Mov_Land
+em0411_Mov_LigthSwing
+em0411_Mov_StingGround
+em0411_Mov_SwordPlace
+em0411_Mov_SwordPlaceMove
+em0411_Mov_SwordPlaceMove_Short
+em0411_Mov_SwordReady
+em0411_Mov_WarpIn
+em0411_Mov_WarpOut
+em0411_voe_Appear
+em0411_voe_Atk_L
+em0411_voe_Atk_S
+em0411_voe_Death_A
+em0411_voe_Death_B
+em0411_voe_Death_C
+em0411_voe_Dmg_KnockBack
+em0411_voe_Dmg_L
+em0411_voe_Dmg_S
+em0411_voe_ResultSoul
+em0411_voe_SpAtk
+em0411_voe_SpAtk_Chearge
+em0411_Wsh_Slash
+
+### SFX NAMES (em0411.bnk)
+# 560513725
+
+### RTPC/GAME-VARIABLE NAMES (em0411.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0411.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0411.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0420.bnk)
+Break_em0420_Mov_IdleLoop
+em0420_Atk_BodyPressImpact
+em0420_Atk_CounterHit
+em0420_Atk_MirrorHitVanish
+em0420_Atk_SmokeBallFiring
+em0420_Atk_SmokeBallVanish
+em0420_Atk_TongueSting
+em0420_atk_union_01
+em0420_Mov_BodyPressDownWsh
+em0420_Mov_BodyPressJump
+em0420_Mov_BodyPressRolling
+em0420_Mov_CounterCharge
+em0420_Mov_Enter_A
+em0420_Mov_Enter_B
+em0420_Mov_GetUp
+em0420_Mov_GuardFlip
+em0420_Mov_Idle
+em0420_Mov_IdleLoop
+em0420_Mov_MirrorCharge
+em0420_Mov_MirrorFiring
+em0420_Mov_MirrorVanish
+em0420_Mov_PreTongue
+em0420_Mov_SmokeAppear
+em0420_Mov_SmokeBallCharge
+em0420_Mov_SpinRollingEnd
+em0420_Mov_SpinRollingStart
+em0420_Mov_TongueReturn
+em0420_Voe_Blow
+em0420_Voe_Dmg
+em0420_Voe_Guard
+em0420_Voe_Impact
+em0420_Voe_Jump
+em0420_Voe_Laugh
+em0420_voe_ResultSoul
+em0420_Voe_Rolling
+
+### SFX NAMES (em0420.bnk)
+Reset2_Wall
+# 284927307
+# 227059732
+# 352502397
+# 935078111
+# 625557637
+
+### RTPC/GAME-VARIABLE NAMES (em0420.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0420_Skill.bnk)
+em0420_Skill_GuardFlip
+
+### VARIABLE NAMES (em0420_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0420_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0430.bnk)
+core_AddFootStep_Run_M
+core_AddFootStep_Run_S
+em0430_Atk_RollingFlame
+em0430_Atk_RushGroundImpact
+em0430_Atk_TongueSting
+em0430_Mov_Close
+em0430_Mov_FootStep
+em0430_Mov_FootStep_S
+em0430_Mov_JumpWsh
+em0430_Mov_PreJump
+em0430_Mov_RushWsh
+em0430_Mov_SomersaultKickWsh
+em0430_Mov_TongueReturn
+em0430_Mov_TongueSwing
+em0430_Mov_UmbrellaOpen
+em0430_voe_DmgS
+em0430_voe_FireBall
+em0430_voe_Jump
+em0430_voe_KnockBack
+em0430_voe_PreFireBall
+em0430_voe_ResultSoul
+em0430_voe_RollingFlame
+em0430_voe_Rush
+em0430_voe_TongueSwing
+
+### SFX NAMES (em0430.bnk)
+# 186845249
+
+### RTPC/GAME-VARIABLE NAMES (em0430.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0430.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0430.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0430_Skill.bnk)
+em0430_Skill_FireBallFiring
+em0430_Skill_FireBallVanish
+
+### RTPC/GAME-VARIABLE NAMES (em0430_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0430_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0430_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0440.bnk)
+core_AddFootStep_Run_S
+em0440_Atk_Swing
+em0440_Mov_Berserk
+em0440_Mov_Bite
+em0440_Mov_BitePre
+em0440_Mov_ElecBallAppear
+em0440_Mov_Jump
+em0440_Mov_Landing
+em0440_Mov_PreRoar
+em0440_Mov_Roar
+em0440_Mov_RodCharge
+em0440_Mov_Walk
+em0440_Mov_WalkJump
+em0440_Voe_Attack
+em0440_Voe_Berserk_A
+em0440_Voe_Berserk_B
+em0440_Voe_Bite
+em0440_Voe_Blow
+em0440_Voe_Charge
+em0440_Voe_dmg
+em0440_Voe_Enter
+em0440_Voe_Laugh
+em0440_voe_ResultSoul
+em0441_Atk_Swing
+em0441_Mov_Berserk
+em0441_Mov_Bite
+em0441_Mov_FireIdleLp
+em0441_Voe_Berserk_A
+em0441_Voe_Berserk_B
+
+### RTPC/GAME-VARIABLE NAMES (em0440.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0440.bnk)
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0440.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Water
+Wood
+
+### EVENT NAMES (em0440_Skill.bnk)
+em0440_Skill_ElecCircle
+em0440_Skill_ElecCircleEnd
+
+### VARIABLE NAMES (em0440_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0440_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0450.bnk)
+em0450_Atk_Explosion
+em0450_Atk_HeadRoll
+em0450_Atk_HeadRollStart
+em0450_Atk_StormFiling
+em0450_Atk_TongueSting
+em0450_Mov_Breath
+em0450_Mov_DetonateFalse
+em0450_Mov_DetonatePreTongue
+em0450_Mov_Drool
+em0450_Mov_Enter
+em0450_Mov_HeadRollBrake
+em0450_Mov_HeadRollDownWsh
+em0450_Mov_HeadRollEarthquakeLp
+em0450_Mov_HeadRollPreShake
+em0450_Mov_HeadRollTongue
+em0450_Mov_Idle
+em0450_Mov_PreDetonate
+em0450_Mov_PreTongue_A
+em0450_Mov_PreTongue_B
+em0450_Mov_StormCharge
+em0450_Mov_StormFilingTongue
+em0450_Mov_StormHeadShake
+em0450_Mov_StormPreTongue
+em0450_Mov_TongueReturn
+em0450_Voe_Blow
+em0450_Voe_Breath
+em0450_Voe_DetonateFalse
+em0450_Voe_DetonateLaugh
+em0450_Voe_Dmg
+em0450_Voe_Enter
+em0450_Voe_HeadRollLaugh
+em0450_Voe_PreDetonate
+em0450_Voe_PreHeadRoll
+em0450_voe_ResultSoul
+em0450_Voe_StormAppear
+em0450_Voe_StormCharge
+em0450_Voe_TongueAttack
+
+### SFX NAMES (em0450.bnk)
+# 350142694
+# 431364182
+
+### RTPC/GAME-VARIABLE NAMES (em0450.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0450_Skill.bnk)
+em0450_Skill_WarpOut
+em0450_Skill_WindExplosion
+
+### VARIABLE NAMES (em0450_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0450_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0451.bnk)
+em0451_Atk_Explosion
+em0451_Atk_Thunderbolt
+em0451_Mov_AppearElec
+em0451_Mov_ElecBallAppear
+em0451_Mov_ElecBallFiring
+em0451_Mov_HairFall
+em0451_Mov_PreDetonate
+em0451_Mov_ThunderboltCharge
+em0451_Voe_Charge
+em0451_Voe_Release
+
+### RTPC/GAME-VARIABLE NAMES (em0451.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0460.bnk)
+core_AddFootStep_M_em0460
+core_AddFootStep_Walk_L
+em0460_Atk_JumpPressImpact
+em0460_Atk_RushFireLp
+em0460_Atk_SpTyreShoot
+em0460_Atk_TyreShoot
+em0460_atk_union_01
+em0460_Mov_EnterFaceUp
+em0460_Mov_EnterJump
+em0460_Mov_EnterLanding
+em0460_Mov_JumpPressPreRolling
+em0460_Mov_JumpPressRollingBrake
+em0460_Mov_JumpPressRollingStartWsh
+em0460_Mov_JumpPressRollingWsh
+em0460_Mov_JumpPressWsh
+em0460_Mov_LargeDmg_A
+em0460_Mov_LargeDmg_B
+em0460_Mov_LargeDmg_C
+em0460_Mov_Move
+em0460_Mov_PreRush
+em0460_Mov_PreRush_Skill
+em0460_Mov_PreRushCreak
+em0460_Mov_PreSpTyreShoot
+em0460_Mov_PreSpTyreShootCreak
+em0460_Mov_PreTyreShoot
+em0460_Mov_PreTyreShootCreak
+em0460_Mov_RushCurveFire
+em0460_Mov_RushStartAt
+em0460_Mov_RushStop
+em0460_Mov_RushStopLanding
+em0460_Mov_SpTyreShootReturn
+em0460_Mov_SpTyreShootWsh
+em0460_Mov_Stun
+em0460_Mov_Turn180
+em0460_Mov_Turn90
+em0460_Mov_TyreShootReturn
+em0460_Mov_TyreShootReturnWsh
+em0460_Mov_TyreShootWsh
+em0460_Voe_Blow
+em0460_Voe_Dmg
+em0460_Voe_Enter
+em0460_Voe_JumpPressCharge
+em0460_Voe_JumpPressLaugh
+em0460_Voe_JumpPressRollingStartShout
+em0460_Voe_MoveBackLaugh
+em0460_Voe_PreTyreShoot
+em0460_voe_ResultSoul
+em0460_Voe_RushCharge
+em0460_Voe_RushStartLaugh
+em0460_Voe_SpTyreShoot
+em0460_Voe_SpTyreShootLaugh
+em0460_Voe_Stun
+em0460_Voe_TyreShoot
+Set_em0460_RTPC_Back
+Set_em0460_RTPC_DashEd
+Set_em0460_RTPC_DashSt
+Set_em0460_RTPC_Dmg_L
+Set_em0460_RTPC_Reset
+Set_em0460_RTPC_Walk
+Stop_core_AddFootStep_M_em0460
+Stop_em0460_Mov_Move
+
+### SFX NAMES (em0460.bnk)
+# 1044261964
+
+### RTPC/GAME-VARIABLE NAMES (em0460.bnk)
+core_Azimuth
+se_em0460_MoveSpeed
+
+### VARIABLE NAMES (em0460.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0460.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0460_Skill.bnk)
+em0460_Skill_RollAtk
+
+### RTPC/GAME-VARIABLE NAMES (em0460_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0460_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0460_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0470.bnk)
+core_AddFootStep_Walk_M
+core_AddFootStep_Walk_S
+em0470_Atk_AnathemaFiring
+em0470_Atk_AnathemaHit
+em0470_Atk_AnathemaVanish
+em0470_Atk_BiteWsh
+em0470_Atk_HeadBatImpact
+em0470_Mov_AnathemaChargeBall
+em0470_Mov_AnathemaChargeNeck
+em0470_Mov_AnathemaIdleLp
+em0470_Mov_AnathemaPreChargeNeck
+em0470_Mov_BiteReturnNeck
+em0470_Mov_Enter
+em0470_Mov_Getup_A
+em0470_Mov_Getup_B
+em0470_Mov_Getup_C
+em0470_Mov_HeadBatReturnNeck
+em0470_Mov_HeadBatWsh
+em0470_Mov_Jump
+em0470_Mov_Land
+em0470_Mov_PreBite
+em0470_Mov_PreHeadBat
+em0470_Mov_PreJump
+em0470_Mov_Walk
+em0470_Voe_Bite
+em0470_Voe_Charge
+em0470_Voe_Death
+em0470_Voe_Dmg
+em0470_Voe_Firing
+em0470_Voe_HeadBat_A
+em0470_Voe_HeadBat_B
+em0470_Voe_Laugh
+em0470_Voe_Laugh_B
+em0470_voe_ResultSoul
+
+### SFX NAMES (em0470.bnk)
+# 507902041
+
+### RTPC/GAME-VARIABLE NAMES (em0470.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0470.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0470.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0470_Skill.bnk)
+em0470_Skill_AnathemaFiring
+em0470_Skill_AnathemaHit
+em0470_Skill_AnathemaIdleLp
+em0470_Skill_AnathemaVanish
+Stop_em0470_Skill_AnathemaIdleLp
+
+### RTPC/GAME-VARIABLE NAMES (em0470_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0470_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0470_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0480.bnk)
+core_AddFootStep_Run_M
+core_AddFootStep_Run_S_em0050
+core_AddFootStep_Walk_S
+core_Atk_FireBallHitVanish_Solo
+core_Mov_FireBallVanish_Multi
+core_Mov_FireBallVanish_Solo
+core_Mov_FireIdleLp_Multi
+core_Mov_FireIdleLp_Solo
+em0480_Atk_Bite
+em0480_Atk_SkullStraight
+em0480_Atk_SkullStraightWsh
+em0480_Atk_SlashHit_L
+em0480_Atk_SlashHit_S
+em0480_Mov_BitePre
+em0480_Mov_BiteReturn
+em0480_Mov_BlowDown
+em0480_Mov_Dash
+em0480_Mov_EnterSetup_A
+em0480_Mov_EnterSetup_B
+em0480_Mov_FireSkullBallFiring
+em0480_Mov_FireSkullBallHitVanish
+em0480_Mov_FireSkullBallMove_Multi
+em0480_Mov_FireSkullBallVanish
+em0480_Mov_FireSkullBallVanish2
+em0480_Mov_FireSkullFiring
+em0480_Mov_FireSkullFiringAt
+em0480_Mov_FireSkullHitVanish
+em0480_Mov_FireSkullMove
+em0480_Mov_FireSkullVanish
+em0480_Mov_FireSkulPre
+em0480_Mov_HeadJump
+em0480_Mov_HeadLand
+em0480_Mov_KnockBack_A
+em0480_Mov_KnockBack_B
+em0480_Mov_SkullStraightPre_A
+em0480_Mov_SkullStraightPre_B
+em0480_Mov_Walk
+em0480_Voe_Appear
+em0480_Voe_Blow
+em0480_Voe_Dmg
+em0480_Voe_FireSkulAttack
+em0480_Voe_FireSkulLaugh
+em0480_voe_ResultSoul
+em0480_Voe_Scare
+Stop_core_AddFootStep_Run_S_em0050
+
+### SFX NAMES (em0480.bnk)
+# 373700375
+
+### RTPC/GAME-VARIABLE NAMES (em0480.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0480.bnk)
+Damage_Attribute
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0480.bnk)
+Bone
+Cloth
+Fire
+grass
+Ice
+NONATTR
+Sand
+Shadow
+Snow
+Soil
+Stone
+Tatami
+Thunder
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wind
+Wood
+
+### EVENT NAMES (em0480_Skill.bnk)
+em0480_Skill_PetrifyOff
+em0480_Skill_PetrifyOn
+
+### VARIABLE NAMES (em0480_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0480_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0490.bnk)
+Break_em0490_Mov_Idle
+em0490_Atk_BodyPress
+em0490_Atk_Explosion
+em0490_Atk_FirePillar
+em0490_Atk_FireRing_L
+em0490_Atk_FireRing_R
+em0490_Atk_RollingFire
+em0490_Mov_BodyPressJump
+em0490_Mov_DetonateFalse
+em0490_Mov_FallDown
+em0490_Mov_Idle
+em0490_Mov_Land
+em0490_Mov_MakeEnergyBall
+em0490_Mov_PreBodyPress
+em0490_Mov_PreDetonate
+em0490_Mov_PreFirePillar
+em0490_Mov_PreLastDetonate
+em0490_Mov_PreRollingFire
+em0490_Mov_Roll
+em0490_Mov_RollingJump
+em0490_Mov_SizeUp
+em0490_Mov_VanishOut
+em0490_voe_BodyPress
+em0490_voe_DetonateFalse
+em0490_voe_Dmg
+em0490_voe_FirePillar
+em0490_voe_KnockBack
+em0490_voe_ResultSoul
+em0490_voe_RollingFire
+
+### SFX NAMES (em0490.bnk)
+# 950160040
+
+### RTPC/GAME-VARIABLE NAMES (em0490.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0490_Skill.bnk)
+em0490_Skill_FireExplosion
+em0490_Skill_WarpOut
+
+### VARIABLE NAMES (em0490_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0490_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0491.bnk)
+Break_em0491_Mov_Idle
+em0491_Atk_BodyPress
+em0491_Atk_ChainStompImpact
+em0491_Atk_Explosion
+em0491_Atk_FirePillar
+em0491_Atk_FireRing_L
+em0491_Atk_FireRing_R
+em0491_Atk_RollingFire
+em0491_Mov_BodyPressJump
+em0491_Mov_ChainStompJump
+em0491_Mov_DetonateFalse
+em0491_Mov_FallDown
+em0491_Mov_Idle
+em0491_Mov_Land
+em0491_Mov_MakeEnergyBall
+em0491_Mov_PostChainStomp
+em0491_Mov_PreBodyPress
+em0491_Mov_PreChainStomp
+em0491_Mov_PreDetonate
+em0491_Mov_PreFirePillar
+em0491_Mov_PreLastDetonate
+em0491_Mov_PreRollingFire
+em0491_Mov_RollingJump
+em0491_Mov_SizeUp
+em0491_Mov_VanishOut
+em0491_voe_BodyPress
+em0491_voe_ChainStomp
+em0491_voe_DetonateFalse
+em0491_voe_Dmg
+em0491_voe_FirePillar
+em0491_voe_KnockBack
+em0491_voe_PostChainStomp
+em0491_voe_ResultSoul
+em0491_voe_RollingFire
+
+### SFX NAMES (em0491.bnk)
+# 133973482
+
+### RTPC/GAME-VARIABLE NAMES (em0491.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0491_Skill.bnk)
+em0491_Skill_Explosion
+
+### VARIABLE NAMES (em0491_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0491_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0500.bnk)
+core_AddFootStep_Walk_S
+em0500_Atk_IaiSlash
+em0500_Atk_Rise
+em0500_Atk_RoarImpact
+em0500_Atk_StompImpact
+em0500_Mov_BookBreak
+em0500_Mov_CatchSword
+em0500_Mov_DashLp
+em0500_Mov_DrawSword
+em0500_Mov_FootStep
+em0500_Mov_Grip
+em0500_Mov_IaiDash
+em0500_Mov_Jump
+em0500_Mov_Lick
+em0500_Mov_MoveBook
+em0500_Mov_PlaceSword
+em0500_Mov_PlaceSwordEnd
+em0500_Mov_PreRise
+em0500_Mov_PreStompWsh
+em0500_Mov_ResurgentEnd
+em0500_Mov_ResurgentStart
+em0500_Mov_Summons
+em0500_Mov_SummonsAuraDark
+em0500_Mov_SummonsAuraElec
+em0500_Mov_SummonsAuraFire
+em0500_Mov_SummonsAuraIce
+em0500_Mov_SummonsAuraWind
+em0500_Mov_SwordThrow
+em0500_Mov_TagVanishDark
+em0500_Mov_TagVanishElec
+em0500_Mov_TagVanishFire
+em0500_Mov_TagVanishIce
+em0500_Mov_TagVanishWind
+em0500_Mov_WarpIn
+em0500_Mov_WarpOut
+em0500_voe_Appear
+em0500_voe_Death
+em0500_voe_Dmg_L
+em0500_voe_Dmg_S
+em0500_voe_IaiL
+em0500_voe_IaiS
+em0500_voe_PostResurgent
+em0500_voe_PreDeath
+em0500_voe_PreResurgent
+em0500_voe_PreRise
+em0500_voe_ResultSoul
+em0500_voe_Resurgent
+em0500_voe_Rise
+em0500_voe_Roar
+em0500_voe_Stomp
+em0500_voe_Summons
+
+### SFX NAMES (em0500.bnk)
+# 686067113
+
+### RTPC/GAME-VARIABLE NAMES (em0500.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0500.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0500.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0500_Skill.bnk)
+em0500_Skill_Resurgent
+
+### VARIABLE NAMES (em0500_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0500_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0510.bnk)
+core_AddFootStep_Run_S
+core_AddFootStep_Walk_S
+em0510_Atk_BombSwing
+em0510_Atk_DropKickWsh
+em0510_Atk_Explosion
+em0510_Atk_LampSwing
+em0510_Atk_StickBomb
+em0510_Mov_ChangeBomb
+em0510_Mov_ChangeLamp
+em0510_Mov_DropKickJump
+em0510_Mov_DropKickLand
+em0510_Mov_DropKickRolling
+em0510_Mov_EnterJump
+em0510_Mov_EnterLampCreak_A
+em0510_Mov_EnterLampCreak_B
+em0510_Mov_EnterLampCreak_C
+em0510_Mov_FuseLp
+em0510_Mov_FuseLpAdd
+em0510_Mov_Jump_S
+em0510_Mov_LampCreak
+em0510_Mov_PreDetonate
+em0510_Mov_StunLampCreak_L
+em0510_Mov_StunLampCreak_S
+em0510_Mov_Walk
+em0510_Skill_ChangeBomb
+em0510_Skill_Explosion
+em0510_Skill_FuseLp
+em0510_Skill_PreDetonate
+em0510_Skill_StickBomb
+em0510_Voe_Attack_L
+em0510_Voe_Attack_S
+em0510_Voe_Change
+em0510_Voe_Dmg_L
+em0510_Voe_Dmg_S
+em0510_Voe_Jump
+em0510_Voe_Laugh
+em0510_voe_ResultSoul
+Stop_em0510_Skill_FuseLp
+
+### SFX NAMES (em0510.bnk)
+# 549452914
+
+### RTPC/GAME-VARIABLE NAMES (em0510.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0510.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0510.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0510_Skill.bnk)
+em0510_Skill_ChangeBomb
+em0510_Skill_Explosion
+em0510_Skill_FuseLp
+em0510_Skill_PreDetonate
+em0510_Skill_StickBomb
+Stop_em0510_Skill_FuseLp
+
+### RTPC/GAME-VARIABLE NAMES (em0510_Skill.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0511.bnk)
+core_AddFootStep_Run_S
+em0511_Mov_BackDash
+em0511_Mov_Enter_A
+em0511_Mov_Enter_B
+em0511_Mov_Enter_C
+em0511_Mov_GoAway
+em0511_Mov_GoAwayEf_A
+em0511_Mov_GoAwayEf_B
+em0511_Mov_KutiyosePass
+em0511_Mov_TofuShining
+em0511_Mov_TofuVanish
+em0511_Mov_Walk
+em0511_Voe_BackDashLaugh
+em0511_Voe_ComeOn
+em0511_Voe_Dmg_L
+em0511_Voe_Dmg_S
+em0511_Voe_Enter
+em0511_Voe_GoodByeLaugh
+em0511_Voe_KutiyoseLaugh
+em0511_Voe_Offer
+
+### SFX NAMES (em0511.bnk)
+# 1072790654
+# 692017069
+# 841038956
+# 908601279
+# 598122916
+
+### RTPC/GAME-VARIABLE NAMES (em0511.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0511.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0511.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0600.bnk)
+core_AddFootStep_Run_M
+core_AddFootStep_Walk_L
+em0600_Atk_BodyPress
+em0600_Atk_Explosion
+em0600_Atk_Fall_Skill
+em0600_Atk_FireBallFiring
+em0600_Atk_Kick
+em0600_Atk_PreExplosion
+em0600_Atk_PreIceBall
+em0600_Atk_PrePunch
+em0600_Atk_PunchWsh
+em0600_Atk_Spit
+em0600_Mov_AppearA
+em0600_Mov_AppearB
+em0600_Mov_Divide_L_M
+em0600_Mov_Divide_M_S
+em0600_Mov_Down
+em0600_Mov_DownFoot
+em0600_Mov_FootStep
+em0600_Mov_JumpWsh
+em0600_Mov_PostWakeUp
+em0600_Mov_SideStepSW
+em0600_Mov_Wait
+em0600_voe_Appear
+em0600_voe_Atk_L_SW
+em0600_voe_Atk_S_SW
+em0600_voe_Charge_SW
+em0600_voe_Dmg_L_SW
+em0600_voe_Dmg_S_SW
+em0600_voe_ResultSoul
+em0601_Mov_MiniDontukuFiring
+em0601_Mov_PostRushDance
+em0601_Mov_PreMiniDontukuFiring
+em0601_Mov_PreRush
+
+### SFX NAMES (em0600.bnk)
+# 995190984
+# 932325407
+# 1026236283
+
+### RTPC/GAME-VARIABLE NAMES (em0600.bnk)
+core_Azimuth
+se_em0600_Type
+
+### VARIABLE NAMES (em0600.bnk)
+se_core_StageType
+se_em0600_Type
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0600.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Type0_Large
+Type1_Middle
+Type2_Small
+Water
+Wood
+
+### EVENT NAMES (em0600_Skill.bnk)
+em0600_Skill_TenderEnd
+em0600_Skill_TenderHit
+em0600_Skill_TenderStart
+
+### VARIABLE NAMES (em0600_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0600_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0601.bnk)
+em0601_voe_ResultSoul
+
+### RTPC/GAME-VARIABLE NAMES (em0601.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0601_Skill.bnk)
+em0601_Skill_Appear
+em0601_Skill_Disappear
+
+### VARIABLE NAMES (em0601_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0601_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0610.bnk)
+core_AddFootStep_Run_S
+em0610_Atk_HipAttack
+em0610_Atk_HipAttackGroundImpact
+em0610_Atk_ScreamPunch
+em0610_Atk_StretchPunch
+em0610_Dmg_Down
+em0610_Mov_AppearJump
+em0610_Mov_AppearLand
+em0610_Mov_BackRolling
+em0610_Mov_Footstep
+em0610_Mov_HighJump
+em0610_Mov_PostStretchPunch
+em0610_Mov_PreBallFiring
+em0610_Mov_PreStretchPunch
+em0610_Mov_Trip
+em0610_Mov_TripReturn
+em0610_voe_AppearA
+em0610_voe_AppearB
+em0610_voe_Avoidance
+em0610_voe_BallFiring
+em0610_voe_Dmg_L
+em0610_voe_Dmg_S
+em0610_voe_HipAttackJump
+em0610_voe_HipAttackStomp
+em0610_voe_PreBallFiring
+em0610_voe_ResultSoul
+em0610_voe_ScreamPunch
+em0610_voe_StretchPunch
+em0610_voe_Trip
+em0610_voe_TripReturn
+
+### SFX NAMES (em0610.bnk)
+# 1069250522
+
+### RTPC/GAME-VARIABLE NAMES (em0610.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0610.bnk)
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0610.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Water
+Wood
+
+### EVENT NAMES (em0610_Skill.bnk)
+em0610_Skill_WindBallFiring
+em0610_Skill_WindBallVanish
+
+### VARIABLE NAMES (em0610_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0610_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0620.bnk)
+core_AddFootStep_Run_M
+core_AddFootStep_Walk_L
+core_Mov_ElecBallFiring_Solo
+em0620_Atk_KickWsh
+em0620_Atk_Thunderbolt
+em0620_Atk_UpperKick
+em0620_Mov_Dash
+em0620_Mov_ElecBallAppear
+em0620_Mov_ElecBallFiring
+em0620_Mov_Enter_A
+em0620_Mov_Enter_B
+em0620_Mov_PreThunderboltWsh
+em0620_Mov_Step
+em0620_Mov_ThunderboltEnd
+em0620_Mov_ThunderboltPre_A
+em0620_Mov_ThunderboltPre_B
+em0620_Mov_WalkBackLegs
+em0620_Mov_WalkFrontLegs
+em0620_Voe_Blow
+em0620_Voe_Dmg
+em0620_Voe_Enter
+em0620_voe_ResultSoul
+
+### SFX NAMES (em0620.bnk)
+# 642447327
+
+### RTPC/GAME-VARIABLE NAMES (em0620.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0620.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0620.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0620_Skill.bnk)
+em0620_Skill_ElecRise
+em0620_Skill_PreElecRise
+
+### RTPC/GAME-VARIABLE NAMES (em0620_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0620_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0620_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0621.bnk)
+core_AddFootStep_Run_L
+core_AddFootStep_Walk_L
+core_Mov_IceBallBound_Multi
+core_Mov_IceBallVanish_Multi
+core_Mov_IceIdleLp_Multi
+em0621_Atk_HeadBat
+em0621_Atk_IceBallRapidFire
+em0621_Atk_IcePillars
+em0621_Atk_KickWsh
+em0621_Atk_UpperKick_A
+em0621_Atk_UpperKick_B
+em0621_Mov_Dash
+em0621_Mov_HeadBatPostWsh
+em0621_Mov_HeadBatPreSmoke
+em0621_Mov_HeadBatPreWsh
+em0621_Mov_IceBallBound
+em0621_Mov_IceBallHitVanish_Mult
+em0621_Mov_IceBallVanish_Mult
+em0621_Mov_IceIdleLp_Multi
+em0621_Mov_IcePillarsBreak
+em0621_Mov_IceTailBreak
+em0621_Mov_PreIceBall
+em0621_Mov_PreIcePillars
+em0621_Mov_PreIcePillarsWsh
+em0621_Mov_Step
+em0621_Mov_StompImpact
+em0621_Mov_StompPreWsh
+em0621_Mov_StompWsh
+em0621_Mov_WalkBackLegs
+em0621_Mov_WalkFrontLegs
+em0621_Voe_AppearA
+em0621_Voe_AppearB
+em0621_Voe_AttackStomp
+em0621_Voe_Blow
+em0621_Voe_Dmg
+em0621_Voe_HeadBad
+em0621_Voe_IceBallCharge
+em0621_Voe_IceBallFiring
+em0621_Voe_IcePillars
+em0621_Voe_Kick
+em0621_Voe_KickFinish
+em0621_Voe_PreIcePillars
+em0621_Voe_PreStomp
+em0621_voe_ResultSoul
+
+### RTPC/GAME-VARIABLE NAMES (em0621.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0621.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0621.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0700.bnk)
+em0700_Atk_HairGroundAppear
+em0700_Atk_HairGroundDisappear
+em0700_Atk_HairGroundPreAppear
+em0700_Atk_HairSting
+em0700_Atk_HandStompImpact
+em0700_Atk_HandStompWsh
+em0700_Atk_Land
+em0700_Atk_PostHairSting
+em0700_Atk_PreHairSting
+em0700_Atk_Slash
+em0700_Dmg_Down
+em0700_Mov_HairGroundPull
+em0700_Mov_HairGroundSting
+em0700_Mov_HairUpper
+em0700_Mov_HandOpen
+em0700_Mov_Jump
+em0700_Mov_VanishIn
+em0700_Mov_VanishOut
+em0700_voe_Appear
+em0700_voe_Dmg_L
+em0700_voe_Dmg_PostDown
+em0700_voe_Dmg_S
+em0700_voe_HairGroundSting
+em0700_voe_HairSting_A
+em0700_voe_HairSting_B
+em0700_voe_HairSting_C
+em0700_voe_Jump
+em0700_voe_PostHairGroundSting
+em0700_voe_PreHairGroundSting
+em0700_voe_PreHairSting
+em0700_voe_ResultSoul
+em0704_voe_ChargeL
+em0704_voe_ChargeS
+em0704_voe_ElecBallFiring
+em0705_Mov_DarkWhipImpactFin
+em0705_voe_Laugh
+
+### SFX NAMES (em0700.bnk)
+# 940836736
+
+### EVENT NAMES (em0700_Skill.bnk)
+em0700_Skill_HairGroundAppear
+em0700_Skill_HairGroundDisappear
+
+### RTPC/GAME-VARIABLE NAMES (em0700_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0700_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0700_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0701.bnk)
+em0701_Atk_BodyPressAdd
+em0701_Atk_FirePillar
+em0701_Atk_FireWhipWsh
+em0701_Atk_PreFirePillar
+em0701_Mov_AddFireAppear
+em0701_Mov_FrameAppear
+
+### RTPC/GAME-VARIABLE NAMES (em0701.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0702.bnk)
+em0702_Atk_HairSting
+em0702_Atk_IceBrethFiring
+em0702_Atk_PreIceBreth
+em0702_Mov_IceBreak
+em0702_Mov_IceWhipImpact
+em0702_Mov_IceWhipImpactFin
+em0702_Mov_IceWhipWsh
+
+### EVENT NAMES (em0703.bnk)
+em0703_Atk_HairSting
+em0703_Atk_PostHairSting
+em0703_Atk_PreHairSting
+em0703_Atk_SideSwingWave
+em0703_Atk_WindWhipWsh
+em0703_Mov_HairUpper
+em0703_Mov_PreWarpIn
+em0703_Mov_WarpIn
+em0703_Mov_WarpOut
+em0703_Mov_WindWhipImpact
+em0703_Mov_WindWhipImpactFin
+em0703_Mov_WindWhipWsh
+
+### RTPC/GAME-VARIABLE NAMES (em0703.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0704.bnk)
+em0704_Atk_ElecRise
+em0704_Mov_ElecCharge
+em0704_Mov_ElecLeak
+em0704_Mov_PreElecRise
+em0704_Move_ElecPowCharge
+em0704_Move_ElecPowOpen
+
+### RTPC/GAME-VARIABLE NAMES (em0704.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0705.bnk)
+em0705_Mov_DarkCharge
+em0705_Mov_DarkWhipImpact
+em0705_Mov_DarkWhipWsh
+
+### EVENT NAMES (em0710.bnk)
+core_AddFootStep_Run_L
+core_AddFootStep_Run_M
+em0401_Atk_Firewall
+em0401_Atk_PreFirewall
+em0710_Atk_AllFootStep
+em0710_Atk_BodyPressImpact
+em0710_Atk_BodyPressJump
+em0710_Atk_FireBreath_Front
+em0710_Atk_FireBreath_Front_Loop
+em0710_Atk_FireBreath_Rear
+em0710_Atk_FireBreath_Rear_Loop
+em0710_Atk_RagerFootStep
+em0710_Atk_RushWsh
+em0710_Atk_SideSwingWsh
+em0710_atk_union_01
+em0710_Mov_FootStep
+em0710_Mov_PreFireBreath_Front
+em0710_Mov_PreRushSlide_A
+em0710_Mov_PreRushSlide_B
+em0710_Mov_PreRushSlide_C
+em0710_voe_AtkL
+em0710_voe_BodyPress
+em0710_voe_ChargeFire
+em0710_voe_Death
+em0710_voe_DmgS
+em0710_voe_PreRush
+em0710_voe_PreSideSwing
+em0710_voe_ResultSoul
+em0710_voe_Rush
+em0710_voe_SideSwing
+em0710_voe_StabAtk
+em0710_voe_Standup
+em0710_voe_Wait
+
+### SFX NAMES (em0710.bnk)
+# 234652216
+
+### RTPC/GAME-VARIABLE NAMES (em0710.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0710.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0710.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0711.bnk)
+core_AddFootStep_Run_L
+core_AddFootStep_Run_M
+em0710_voe_AtkL
+em0710_voe_BodyPress
+em0710_voe_ChargeFire
+em0710_voe_Death
+em0710_voe_DmgS
+em0710_voe_PreRush
+em0710_voe_PreSideSwing
+em0710_voe_ResultSoul
+em0710_voe_Rush
+em0710_voe_SideSwing
+em0710_voe_StabAtk
+em0710_voe_Standup
+em0710_voe_Wait
+em0711_Atk_BodyPressImpact
+em0711_Atk_BodyPressJump
+em0711_Atk_FireBreath_Front
+em0711_Atk_FireBreath_Rear
+em0711_Atk_RagerFootStep
+em0711_Atk_RushWsh
+em0711_Atk_SideSwingWsh
+em0711_Mov_BodyPressAddElec
+em0711_Mov_ChargeElec
+em0711_Mov_FootStep
+em0711_Mov_GroundShake
+em0711_Mov_LongDive
+em0711_Mov_LongDive_Skill
+em0711_Mov_LongRise
+em0711_Mov_PreFireBreath_Front
+em0711_Mov_PreRushSlide_A
+em0711_Mov_PreRushSlide_B
+em0711_Mov_PreRushSlide_C
+em0711_Mov_ShortDive
+em0711_Mov_ShortRise
+em0711_Mov_SkeletonBound
+em0711_Mov_SkeletonFiring
+em0711_Mov_SkeletonVanish
+em0711_voe_BodyPressCharge
+em0711_voe_BodyPressJump
+em0711_voe_Charge
+em0711_voe_Death
+em0711_voe_Dive
+em0711_voe_DmgS
+em0711_voe_PostBodyPress
+em0711_voe_PreBodyPress
+em0711_voe_ReDive
+em0711_voe_ResultSoul
+em0711_voe_RiseAttack
+em0711_voe_Wait
+
+### SFX NAMES (em0711.bnk)
+# 234652216
+# 190526347
+
+### RTPC/GAME-VARIABLE NAMES (em0711.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0711.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0711.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0711_Skill.bnk)
+em0711_Skill_AllRangeElecAppear
+em0711_Skill_AllRangeElecDisappear
+em0711_Skill_AllRangeElecHit
+
+### RTPC/GAME-VARIABLE NAMES (em0711_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0711_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0711_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0720.bnk)
+em0720_Atk_DigAttack
+em0720_Atk_FertherAttack
+em0720_Atk_FlyFertherAttack
+em0720_Atk_PreSkill
+em0720_Atk_RoarAttack
+em0720_Atk_Skill_Tornado
+em0720_Atk_StompAttack
+em0720_Atk_StormFiring
+em0720_Dmg_DeathDown
+em0720_Mov_Appear
+em0720_Mov_DigSting
+em0720_Mov_DukeyFall
+em0720_Mov_DukeyFiring
+em0720_Mov_DukeyLand
+em0720_Mov_Glide
+em0720_Mov_PreDigAttack
+em0720_Mov_PreFertherAttack
+em0720_Mov_PreStompAttack
+em0720_Mov_PreStompAttackWsh
+em0720_Mov_SideStep
+em0720_Mov_StingFerther
+em0720_Mov_StingFerther_Hit
+em0720_Mov_StormAttack
+em0720_Mov_Wing
+em0720_Mov_WingS
+em0720_voe_AppearRoar
+em0720_voe_DamageL
+em0720_voe_DamageS
+em0720_voe_Death
+em0720_voe_DigAttack
+em0720_voe_FertherAttack
+em0720_voe_PreDigAttack
+em0720_voe_PreFertherAttack
+em0720_voe_PreStormAttack
+em0720_voe_ResultSoul
+em0720_voe_RoarAttack
+em0720_voe_StompAttack
+
+### SFX NAMES (em0720.bnk)
+se_em0720_Wwise_Delay
+# 795454964
+
+### RTPC/GAME-VARIABLE NAMES (em0720.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0740.bnk)
+core_AddFootStep_Run_L
+core_AddFootStep_Run_M
+core_AddFootStep_Walk_L
+core_AddFootStep_Walk_M
+em0740_Atk_ClawSwing
+em0740_Atk_DualClawSwing
+em0740_Atk_PreElecRise
+em0740_Atk_TailBite
+em0740_Atk_UpperSwing
+em0740_Dmg_DamageDown
+em0740_Dmg_DeathElec
+em0740_Dmg_Down
+em0740_Dmg_PreDeathElec
+em0740_Mov_AppearA
+em0740_Mov_AppearB
+em0740_Mov_BigRoar
+em0740_Mov_BodyShake
+em0740_Mov_ChangeElec
+em0740_Mov_ChangeFire
+em0740_Mov_ChangeWind
+em0740_Mov_ClawImpact
+em0740_Mov_DualThumpImpact
+em0740_Mov_Jump
+em0740_Mov_Land
+em0740_Mov_PostTailBite
+em0740_Mov_PreBigRoar
+em0740_Mov_PreTailBite
+em0740_Mov_Run_F
+em0740_Mov_Run_R
+em0740_Mov_TailBiteWsh
+em0740_Mov_ThumpStandup
+em0740_Mov_UpperCrack
+em0740_Mov_Walk_F
+em0740_Mov_Walk_R
+em0740_voe_AppearRoar
+em0740_voe_BigRoar
+em0740_voe_BodyShake
+em0740_voe_ChangeRoar
+em0740_voe_DamageL
+em0740_voe_DamageS
+em0740_voe_DualThump
+em0740_voe_ElecBall
+em0740_voe_Growl
+em0740_voe_PreBigRoar
+em0740_voe_PreElecBall
+em0740_voe_PreUpper
+em0740_voe_Ramp
+em0740_voe_ResultSoul
+em0740_voe_TailGrowl
+em0740_voe_Thump
+em0740_voe_Upper
+
+### SFX NAMES (em0740.bnk)
+# 804628573
+
+### RTPC/GAME-VARIABLE NAMES (em0740.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0740.bnk)
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0740.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Water
+Wood
+
+### EVENT NAMES (em0740_Skill.bnk)
+em0740_Skill_BigRoar
+
+### VARIABLE NAMES (em0740_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0740_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0750.bnk)
+core_AddFootStep_Walk_L
+core_Atk_IceBallHitVanish_Solo
+core_EV_em0750_MujyouSlowIn_Lp
+core_EV_em0750_MujyouSlowOut
+core_Mov_DarkBallHitVanish_Solo
+core_Mov_DarkBallVanish_Multi
+core_Mov_IceBallVanish_Multi
+em0750_Atk_DarkBallBreak
+em0750_Atk_DarkBallHitBreak
+em0750_Atk_IceBallBreak
+em0750_Atk_IceBallHitBreak
+em0750_Atk_TailSwingWsh
+em0750_Mov_Bite
+em0750_Mov_BiteFinish
+em0750_Mov_Clothes
+em0750_Mov_DarkBall_FlyLoop
+em0750_Mov_DeathDown
+em0750_Mov_Down
+em0750_Mov_Footstep
+em0750_Mov_IceBall_FlyLoop
+em0750_Mov_MujyouSlowIn_Lp
+em0750_Mov_MujyouSlowOut
+em0750_Mov_MultiDarkBallApper
+em0750_Mov_MultiIceBallApper
+em0750_Mov_PostTailSwing
+em0750_Mov_PreTailSwing
+em0750_Mov_StompImpact_Dark
+em0750_Mov_StompImpact_Ice
+em0750_Mov_StompWsh
+em0750_Mov_WakeupWsh
+em0750_Mov_WarpIn
+em0750_Mov_WarpOut
+em0750_voe_Bite
+em0750_voe_BiteFinish
+em0750_voe_Dmg_L
+em0750_voe_Dmg_S
+em0750_voe_PostSlow
+em0750_voe_PostWarp
+em0750_voe_ResultSoul
+em0750_voe_Roar
+em0750_voe_Skill
+em0750_voe_Slow
+em0750_voe_Stomp
+em0750_voe_TailSwingMix
+SE_em0750_SlowIn
+SE_em0750_SlowOut
+Stop_em0750_Mov_DarkBall_FlyLoop
+Stop_em0750_Mov_IceBall_FlyLoop
+
+### SFX NAMES (em0750.bnk)
+# 784565328
+
+### RTPC/GAME-VARIABLE NAMES (em0750.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0750.bnk)
+se_core_StageType
+se_em0750_Slow
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0750.bnk)
+Bone
+Cloth
+grass
+Sand
+SE01_off
+SE02_Slow
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0750_Skill.bnk)
+em0750_Skill_SlowIn
+em0750_Skill_SlowOut
+
+### VARIABLE NAMES (em0750_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+se_em0750_Slow
+
+### VALUE NAMES (em0750_Skill.bnk)
+SE01_off
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+SE03_SlowSkill
+
+### EVENT NAMES (em0800.bnk)
+em0800_Atk_PreStingRush
+em0800_Atk_StingRush
+em0800_Atk_StingRushImpact
+em0800_Atk_UpperCut
+em0800_Dmg_ShieldBreak
+em0800_Dmg_ShieldCrack
+em0800_Mov_ClawWsh
+em0800_Mov_PullSting
+em0800_Mov_ShieldAppear
+em0800_Mov_TurnWsh
+em0800_voe_Atk_L
+em0800_voe_Atk_S
+em0800_voe_Dmg_L
+em0800_voe_Dmg_S
+em0800_voe_PullHead
+em0800_voe_ResultSoul
+em0800_voe_Shield
+
+### SFX NAMES (em0800.bnk)
+# 19755122
+# 373700375
+
+### RTPC/GAME-VARIABLE NAMES (em0800.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0800.bnk)
+Damage_Attribute
+
+### VALUE NAMES (em0800.bnk)
+Fire
+Ice
+NONATTR
+Shadow
+Thunder
+Wind
+
+### EVENT NAMES (em0800_Skill.bnk)
+em0800_Skill_Recover
+em0800_Skill_ShieldAppear
+em0800_Skill_ShieldBreak
+em0800_Skill_ShieldCrack
+
+### VARIABLE NAMES (em0800_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0800_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0801.bnk)
+em0801_Atk_FireBreath
+em0801_Atk_FireDriving
+em0801_Atk_FirePillar
+em0801_Mov_FireUpper
+
+### RTPC/GAME-VARIABLE NAMES (em0801.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0802.bnk)
+em0802_Atk_IceBallFiling
+em0802_Atk_IceBallHit
+em0802_Atk_IcePillar
+em0802_Mov_IceBreak
+em0802_Mov_IceClap
+em0802_Mov_IceWsh
+em0802_Mov_PreIcePillars
+
+### RTPC/GAME-VARIABLE NAMES (em0802.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0803.bnk)
+em0803_Atk_ClawMince
+em0803_Atk_SideSwingWave
+em0803_Mov_PreClawMince
+em0803_Mov_PreWindRise
+
+### RTPC/GAME-VARIABLE NAMES (em0803.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0804.bnk)
+em0804_Atk_BlowOff
+em0804_Atk_PreBlowOff
+em0804_Atk_PsychoCrasher
+em0804_Atk_UpperCut_Add
+
+### RTPC/GAME-VARIABLE NAMES (em0804.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0805.bnk)
+em0805_Atk_BlowOff
+em0805_Atk_GroundSting
+em0805_Atk_PreBlowOff
+em0805_Mov_PreDarkPillar
+em0805_Mov_PreGroundStingWsh
+em0805_Mov_WarpIn
+em0805_Mov_WarpOut
+
+### RTPC/GAME-VARIABLE NAMES (em0805.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0900.bnk)
+em0900_Atk_DoublePunchWsh
+em0900_Atk_PunchWsh
+em0900_atk_union_01
+em0900_Mov_Dive
+em0900_Mov_FootStep
+em0900_Mov_JumpAtk_Dive
+em0900_Mov_JumpAtk_Rise
+em0900_Mov_MudMoveLp
+em0900_Mov_PreDive
+em0900_Mov_Rise
+em0900_Mov_RushMove
+em0900_Skill_Start
+em0900_voe_Appear
+em0900_voe_Atk_L
+em0900_voe_Atk_S
+em0900_voe_Dmg_L
+em0900_voe_Dmg_S
+em0900_voe_ResultSoul
+em0900_voe_SP_Atk
+Set_em0900_RTPC_Dmg_L
+Set_em0900_RTPC_Reset
+Set_em0900_RTPC_Upper
+Set_em0900_RTPC_Walk_F
+Set_em0900_RTPC_Walk_LR
+Set_em0900_RTPC_Walk_R
+Set_em0900_RTPC_WPunch
+Stop_em0900_Skill
+
+### SFX NAMES (em0900.bnk)
+# 660313224
+
+### RTPC/GAME-VARIABLE NAMES (em0900.bnk)
+core_Azimuth
+se_em0900_MoveSpeed
+
+### EVENT NAMES (em0900_Skill.bnk)
+em0900_Skill_DirtAppear
+em0900_Skill_DirtFiring
+em0900_Skill_DirtImpact
+
+### RTPC/GAME-VARIABLE NAMES (em0900_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0900_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0900_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0901.bnk)
+em0901_Atk_GroundThumpImpact
+em0901_Mov_ElecAura
+em0901_Mov_FindLight
+em0901_Mov_PreGroundThump
+em0901_Mov_RushWsh
+em0901_Mov_TurnSwingWsh
+em0901_voe_Appear
+em0901_voe_DmgL
+em0901_voe_DmgS
+em0901_voe_Found
+em0901_voe_GroundThump
+em0901_voe_PreElecBall
+em0901_voe_ResultSoul
+em0901_voe_Rush
+em0901_voe_Search
+em0901_voe_TurnSwing
+
+### SFX NAMES (em0901.bnk)
+# 510905353
+# 385996737
+# 313901335
+
+### RTPC/GAME-VARIABLE NAMES (em0901.bnk)
+core_Azimuth
+
+### EVENT NAMES (em0901_Skill.bnk)
+em0901_Skill_ElecBallFiring
+em0901_Skill_ElecBallVanish
+
+### RTPC/GAME-VARIABLE NAMES (em0901_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0901_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0901_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0910.bnk)
+core_AddFootStep_Run_M
+core_AddFootStep_Walk_M
+em0910_Atk_DLariat
+em0910_Atk_DLariatLand
+em0910_Atk_DLariatSet
+em0910_Atk_HookCombiPre
+em0910_Atk_HookCombiSet
+em0910_Atk_HookCombiWsh
+em0910_Atk_SpStrikeIceTail
+em0910_Atk_SpStrikeImpact
+em0910_Atk_SpStrikeJump
+em0910_Atk_SpStrikePre
+em0910_Atk_SpStrikeSet
+em0910_Atk_SpStrikeWsh
+em0910_Mov_EnterMedBeads
+em0910_Mov_GetUpHand
+em0910_Mov_IceTailBreak
+em0910_Mov_MedBeadsLoop
+em0910_Mov_MedPre_A
+em0910_Mov_MedPre_B
+em0910_Mov_MedPressHands
+em0910_Mov_MedRecover
+em0910_Mov_StunBeads
+em0910_Mov_StunFootStep
+em0910_Voe_Blow
+em0910_Voe_Dlariat_A
+em0910_Voe_Dlariat_B
+em0910_Voe_Dmg
+em0910_Voe_DmgDead
+em0910_Voe_Enter
+em0910_Voe_EnterNamu
+em0910_Voe_GetUp
+em0910_Voe_HookCombi
+em0910_Voe_HookCombiFin
+em0910_Voe_NamuLong
+em0910_Voe_NamuShort
+em0910_Voe_Nenbutsu
+em0910_Voe_NenbutsuEnter
+em0910_voe_ResultSoul
+em0910_Voe_Skill
+em0910_Voe_Stun_A
+em0910_Voe_Stun_B
+
+### SFX NAMES (em0910.bnk)
+# 17475203
+# 951745923
+# 837350264
+
+### RTPC/GAME-VARIABLE NAMES (em0910.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0910.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0910.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0910_Skill.bnk)
+em0910_Skill_Recover
+
+### VARIABLE NAMES (em0910_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0910_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em0920.bnk)
+core_AddFootStep_Run_L
+core_AddFootStep_Walk_L
+em0920_Atk_JumpStompImpact
+em0920_Atk_JumpStompThunderbolt
+em0920_Atk_PunchStraightImpact
+em0920_Atk_StompImpact
+em0920_atk_union_01
+em0920_Mov_BackJump
+em0920_Mov_BackJumpSmoke
+em0920_Mov_Dash
+em0920_Mov_Down_A
+em0920_Mov_Down_B
+em0920_Mov_EnterHand
+em0920_Mov_EnterRumbling_A
+em0920_Mov_EnterRumbling_B
+em0920_Mov_EnterRumblingBase
+em0920_Mov_GetUpHand
+em0920_Mov_JumpStompElectricStart
+em0920_Mov_JumpStompImpactSmoke
+em0920_Mov_PreJumpStomp
+em0920_Mov_PunchStraightWsh
+em0920_Mov_StompWsh
+em0920_Mov_walk
+em0920_Voe_Blow
+em0920_Voe_Dash_E
+em0920_Voe_Dash_H
+em0920_Voe_Death
+em0920_Voe_Dmg
+em0920_Voe_Enter
+em0920_Voe_GetUp_A
+em0920_Voe_GetUp_B
+em0920_Voe_Jump
+em0920_Voe_JumpStomp
+em0920_Voe_Punch
+em0920_Voe_PunchCharge
+em0920_voe_ResultSoul
+em0920_Voe_Stomp
+em0920_Voe_StompCharge
+
+### SFX NAMES (em0920.bnk)
+# 568550245
+
+### RTPC/GAME-VARIABLE NAMES (em0920.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0920.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (em0920.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (em0920_Skill.bnk)
+em0920_Skill_EnterHand
+em0920_Skill_StompWsh
+
+### RTPC/GAME-VARIABLE NAMES (em0920_Skill.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em0920_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em0920_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em1000.bnk)
+core_Mov_FireBallVanish_Multi
+core_Mov_FireBallVanish_Solo
+em1000_Atk_ArmStompImpact
+em1000_Atk_ArmStompL_Impact
+em1000_Atk_EatImpact
+em1000_Atk_Firewall
+em1000_Atk_HeadbuttImpact
+em1000_Atk_PreFirewall
+em1000_Atk_PunchWsh
+em1000_Dmg_DamageMove
+em1000_Dmg_Death
+em1000_Dmg_FoundHeadHandMov
+em1000_Dmg_HandFalldown
+em1000_Dmg_HeadFallDmgMove
+em1000_Dmg_HeadFalldown
+em1000_Dmg_PreDeathMove
+em1000_Mov_Appear_A
+em1000_Mov_Appear_B
+em1000_Mov_AppearHandImpact
+em1000_Mov_ArmAppear
+em1000_Mov_ArmStompDownWsh
+em1000_Mov_ArmStompL_FireCharge
+em1000_Mov_ArmStompL_PostWsh
+em1000_Mov_ArmStompL_RaiseWsh
+em1000_Mov_ArmStompL_SearchWsh
+em1000_Mov_ArmStompPreWsh
+em1000_Mov_EatPostWsh
+em1000_Mov_FireCharge
+em1000_Mov_FirePostWsh
+em1000_Mov_FireSkullFiring
+em1000_Mov_FireSkullHitVanish_Solo
+em1000_Mov_FireSkullMove_Multi
+em1000_Mov_FireSkullMove_Solo
+em1000_Mov_FireSkullVanish_Multi
+em1000_Mov_FireSkullVanish_Solo
+em1000_Mov_HeadbuttPostMove
+em1000_Mov_HeadbuttPreWsh
+em1000_Mov_HeadPickupMove
+em1000_Mov_HeadPickupWsh
+em1000_Mov_HeadReset
+em1000_Mov_PunchPostWsh
+em1000_Mov_PunchPreFire
+em1000_Mov_PunchPreWsh
+em1000_Mov_ScratchPostWsh
+em1000_Mov_ScratchWsh
+em1000_Mov_ThrowEatWsh
+em1000_Mov_ThrowGroundSlide
+em1000_Mov_ThrowPostWsh
+em1000_Mov_ThrowPreWsh
+em1000_voe_Appear
+em1000_voe_ArmStomp
+em1000_voe_ArmStompL
+em1000_voe_Death
+em1000_voe_Dmg_S
+em1000_voe_Down
+em1000_voe_FoundHead_A
+em1000_voe_FoundHead_B
+em1000_voe_HeadButt
+em1000_voe_PreHeadButt
+em1000_voe_PreSkullFiring
+em1000_voe_Punch
+em1000_voe_ResultSoul
+em1000_voe_SkullFiring
+
+### RTPC/GAME-VARIABLE NAMES (em1000.bnk)
+core_Azimuth
+
+### EVENT NAMES (em1000_Skill.bnk)
+core_GiantEnd
+core_GiantStart
+core_pl_GiantFoot
+
+### RTPC/GAME-VARIABLE NAMES (em1000_Skill.bnk)
+se_pl_GiantMode
+
+### VARIABLE NAMES (em1000_Skill.bnk)
+se_core_BattleSlow
+se_core_Tubazeri
+
+### VALUE NAMES (em1000_Skill.bnk)
+SE02_Engaged
+SE02_SwallowSlash
+SE03_PowerSlash
+
+### EVENT NAMES (em1001.bnk)
+core_Mov_FireBallVanish_Multi
+core_Mov_FireBallVanish_Solo
+em1001_Atk_ArmStompL_Impact
+em1001_Atk_HeadbuttImpact
+em1001_Atk_PunchWsh
+em1001_Dmg_DamageMove
+em1001_Dmg_HandFalldown
+em1001_Dmg_HeadFalldown
+em1001_Dmg_PreDeathMove
+em1001_Mov_Appear_A
+em1001_Mov_Appear_B
+em1001_Mov_ArmAppear
+em1001_Mov_ArmStompL_PostWsh
+em1001_Mov_ArmStompL_RaiseWsh
+em1001_Mov_ArmStompL_SearchWsh
+em1001_Mov_FireCharge
+em1001_Mov_FirePostWsh
+em1001_Mov_FireSkullFiring
+em1001_Mov_FireSkullHitVanish_Solo
+em1001_Mov_FireSkullMove_Multi
+em1001_Mov_FireSkullMove_Solo
+em1001_Mov_FireSkullVanish_Multi
+em1001_Mov_FireSkullVanish_Solo
+em1001_Mov_HeadbuttPostMove
+em1001_Mov_HeadbuttPreWsh
+em1001_Mov_PunchPostWsh
+em1001_Mov_PunchPreWsh
+em1001_Mov_ScratchPostWsh
+em1001_Mov_ScratchWsh
+em1001_Mov_WalkMove
+em1001_voe_Appear
+em1001_voe_ArmStomp
+em1001_voe_ArmStompL
+em1001_voe_Death
+em1001_voe_Dmg_S
+em1001_voe_Down
+em1001_voe_HeadButt
+em1001_voe_PreHeadButt
+em1001_voe_PreSkullFiring
+em1001_voe_Punch
+em1001_voe_SkullFiring
+
+### RTPC/GAME-VARIABLE NAMES (em1001.bnk)
+core_Azimuth
+
+### EVENT NAMES (em2000.bnk)
+core_AddFootStep_Walk_M_NA
+em2000_Atk_FireBreath
+em2000_Atk_FirePillar
+em2000_Atk_GroundStingImpact
+em2000_Atk_PreFirePillar
+em2000_Atk_SwordStingThrow
+em2000_Atk_SwordWave
+em2000_Mov_AuraLp
+em2000_Mov_DashLoop
+em2000_Mov_DownWsh
+em2000_Mov_footslide
+em2000_Mov_FootStep
+em2000_Mov_PreFireBreath
+em2000_Mov_Recover_Farst
+em2000_Mov_Recover_Loop
+em2000_Mov_SideRolling
+em2000_Mov_SwordCatch
+em2000_Mov_SwordGroundImpact
+em2000_Mov_SwordPull
+em2000_Mov_SwordSlowUp
+em2000_Mov_SwordStick
+em2000_Mov_SwordSwing
+em2000_Mov_SwordThrow
+em2000_Mov_SwordTurn
+em2000_Mov_WarpIn
+em2000_Mov_WarpOut
+em2000_voe_Appear
+em2000_voe_AtkL
+em2000_voe_AtkS
+em2000_voe_Aura
+em2000_voe_DmgL
+em2000_voe_DmgS
+em2000_voe_Drink
+em2000_Voe_KnockBack
+em2000_voe_Laugh
+em2000_voe_LongLaughing
+em2000_voe_PreChopping
+em2000_voe_PreGrandSting
+em2000_voe_PreWarp
+em2000_voe_SmallLaugh
+em2000_voe_SwordThrow
+Pause_em2000_Mov_WarpInAura
+Resume_em2000_Mov_WarpOutAura
+Stop_em2000_vo_All
+
+### SFX NAMES (em2000.bnk)
+# 925724029
+# 519809168
+# 958594320
+# 705068345
+# 842863386
+# 93746521
+# 485202352
+# 438089692
+# 988803554
+
+### RTPC/GAME-VARIABLE NAMES (em2000.bnk)
+core_Azimuth
+
+### VARIABLE NAMES (em2000.bnk)
+se_core_StageType
+
+### VALUE NAMES (em2000.bnk)
+Type01_Normal
+Type02_Water
+Type03_Snow
+Type04_Wood
+
+### EVENT NAMES (em2100.bnk)
+core_AddFootStep_Walk_S_NA
+em2100_Atk_SwordGroundImpact
+em2100_Atk_SwordRollingLoopA
+em2100_Atk_SwordRollingLoopB
+em2100_Atk_SwordUpper
+em2100_Mov_AvoidWsh
+em2100_Mov_CatchSword
+em2100_Mov_DarkAura_Loop
+em2100_Mov_DarkAura_Vanish
+em2100_Mov_DashLoop
+em2100_Mov_FallSword
+em2100_Mov_FootStep
+em2100_Mov_GuardEnd_A
+em2100_Mov_GuardEnd_B
+em2100_Mov_GuardStart
+em2100_Mov_MaskFall
+em2100_Mov_PostSwordMoveA
+em2100_Mov_PostSwordMoveB
+em2100_Mov_PostSwordRolling_Land
+em2100_Mov_PostSwordRollingA
+em2100_Mov_PostSwordRollingB
+em2100_Mov_PreSwordRollingA
+em2100_Mov_PreSwordRollingB
+em2100_Mov_SwordAppear
+em2100_Mov_SwordAtkWsh
+em2100_Mov_SwordAtkWsh_Aura
+em2100_Mov_SwordPull
+em2100_Mov_SwordSting_Dmg
+em2100_Mov_SwordWsh
+em2100_voe_Atk_L
+em2100_voe_Atk_S
+em2100_voe_Dmg_L
+em2100_voe_Dmg_S
+em2100_voe_Earnest
+em2100_voe_Escape
+em2100_voe_KnockBack
+em2100_voe_VerticalAtk
+
+### SFX NAMES (em2100.bnk)
+# 329682870
+# 824988740
+# 917080513
+# 67026198
+# 855640891
+# 67378686
+
+### VARIABLE NAMES (em2100.bnk)
+se_Common_onMask
+se_core_StageType
+
+### VALUE NAMES (em2100.bnk)
+MaskOff
+Maskon
+Type01_Normal
+Type02_Water
+Type03_Snow
+Type04_Wood
+
+### EVENT NAMES (em2101.bnk)
+em2101_Atk_SkillWind_Wave
+em2101_Atk_SkillWind_Wave_NPC
+em2101_Atk_SwordRollingLoopB
+em2101_Atk_SwordRollingLoopB_NPC
+em2101_Atk_SwordUpper
+em2101_Atk_SwordUpper_NPC
+em2101_Mov_DarkAura_Loop
+em2101_Mov_DarkAura_Loop_NPC
+em2101_Mov_DarkAura_Vanish
+em2101_Mov_DarkAura_Vanish_NPC
+em2101_Mov_MaskAura_Loop
+em2101_Mov_MaskAura_Loop_NPC
+em2101_Mov_PostSwordRollingB
+em2101_Mov_PostSwordRollingB_NPC
+em2101_Mov_PreSwordRollingB
+em2101_Mov_PreSwordRollingB_NPC
+em2101_Mov_SwordAtkWsh
+em2101_Mov_SwordAtkWsh_Aura
+em2101_Mov_SwordAtkWsh_Aura_NPC
+em2101_Mov_SwordAtkWsh_NPC
+
+### RTPC/GAME-VARIABLE NAMES (em2101.bnk)
+core_Azimuth
+
+### EVENT NAMES (em2200.bnk)
+core_AddFootStep_Run_L_NA
+core_AddFootStep_Walk_L_NA
+em2200_Atk_GroundStingImpact
+em2200_Mov_AuraLp
+em2200_Mov_Backflip
+em2200_Mov_FootStep
+em2200_Mov_GroundStingDownWsh
+em2200_Mov_HookOnShoulder
+em2200_Mov_HookStingImpact
+em2200_Mov_HookWsh
+em2200_Mov_HookWshReturn
+em2200_Mov_IcePillarAppear
+em2200_Mov_IcePillarBreak
+em2200_Mov_Jump
+em2200_Mov_Land
+em2200_Mov_SideStepJump
+em2200_Mov_WarpIn
+em2200_Mov_WarpOut
+em2200_voe_Appear
+em2200_voe_Atk_L
+em2200_voe_Atk_S
+em2200_voe_AtkDis
+em2200_voe_AtkLaugh
+em2200_voe_AtkLaugh_L
+em2200_voe_AtkLaugh_S
+em2200_voe_Dmg_L
+em2200_voe_Dmg_S
+em2200_voe_DmgDis
+em2200_voe_Down
+em2200_voe_Escape
+em2200_voe_GroundSting
+em2200_voe_KnockBack
+em2200_voe_Provocation
+Pause_em2200_Mov_WarpInAura
+Resume_em2200_Mov_WarpOutAura
+
+### SFX NAMES (em2200.bnk)
+# 1072750404
+# 664827417
+# 526422713
+# 281594295
+# 1016665335
+# 506625220
+# 448446250
+# 138716283
+# 492835313
+# 785366245
+# 748012441
+# 754674027
+# 16855535
+
+### VARIABLE NAMES (em2200.bnk)
+se_core_StageType
+
+### VALUE NAMES (em2200.bnk)
+Type01_Normal
+Type02_Water
+Type03_Snow
+Type04_Wood
+
+### EVENT NAMES (em2300.bnk)
+core_AddFootStep_Run_L_NA
+core_AddFootStep_Walk_L_NA
+core_AddFootStep_Walk_M_NA
+em2300_Atk_AxeGroundImpact
+em2300_Atk_RightPunchWsh
+em2300_Atk_StormAxeSwing
+em2300_Atk_StormFiring
+em2300_Atk_ThumpAxeImpact
+em2300_Atk_TrampleImpact
+em2300_Atk_TrampleWsh
+em2300_Dmg_AxeSting
+em2300_Dmg_DeathDown
+em2300_Dmg_DeathDownAxe
+em2300_Dmg_Down
+em2300_Dmg_HelveDown
+em2300_Dmg_KnockbackDown
+em2300_Dmg_PreDeathDown
+em2300_Dmg_PullAxe
+em2300_Mov_AuraLp
+em2300_Mov_AxeOnShoulder
+em2300_Mov_AxeSwing
+em2300_Mov_AxeSwingRet
+em2300_Mov_BoomerangAxeWsh
+em2300_Mov_Footstep_Run
+em2300_Mov_Footstep_Walk
+em2300_Mov_GripAxe
+em2300_Mov_Jump
+em2300_Mov_Land
+em2300_Mov_MuscleMove
+em2300_Mov_PostBoomerangAxe
+em2300_Mov_PostStormAxeSwing
+em2300_Mov_PostSwingDownAxe
+em2300_Mov_PostThumpAxe
+em2300_Mov_PreRightPunchWsh
+em2300_Mov_PreThumpAxeWind
+em2300_Mov_PreThumpAxeWsh
+em2300_Mov_PreTrampleWsh
+em2300_Mov_PutHand
+em2300_voe_Appear
+em2300_voe_Atk_L
+em2300_voe_Atk_S
+em2300_voe_AxeSwing
+em2300_voe_BoomerangAxe
+em2300_voe_Death
+em2300_voe_Dmg_L
+em2300_voe_Dmg_S
+em2300_voe_Jump
+em2300_voe_KnockBack
+em2300_voe_PreBoomerangAxe
+em2300_voe_PreStomp
+em2300_voe_PreThumpAxe
+em2300_voe_Punch
+em2300_voe_Standup
+em2300_voe_Stomp
+em2300_voe_ThumpAxe
+em2300_voe_Wakeup
+
+### VARIABLE NAMES (em2300.bnk)
+se_Common_onMask
+se_core_StageType
+
+### VALUE NAMES (em2300.bnk)
+MaskOff
+Maskon
+Type01_Normal
+Type02_Water
+Type03_Snow
+Type04_Wood
+
+### EVENT NAMES (ev_Prologue.bnk)
+ev_Prologue_Battle
+ev_Prologue_ChaosA
+ev_Prologue_ChaosB
+ev_Prologue_Coexistence
+ev_Prologue_Genocide
+ev_Prologue_LastSlash
+ev_Prologue_PreLastSlash
+ev_Prologue_TitleLogo
+ev_Prologue_Wind
+Stop_PrologueAll
+
+### EVENT NAMES (ev_em0006_Demo.bnk)
+core_EV_em0006_PreDeath_Lp
+core_EV_em0006_Vanish
+Stop_core_EV_em0006_PreDeath_Lp
+
+### EVENT NAMES (ev_em0720_Demo.bnk)
+core_EV_em0720_Vanish
+
+### EVENT NAMES (ev_em0750_Demo.bnk)
+core_EV_em0750_Slash
+core_EV_em0750_WarpEnd
+core_EV_em0750_WarpHarf_Lp
+core_EV_em0750_WarpStart_Lp
+
+### EVENT NAMES (ev_em2000_Demo.bnk)
+core_EV_em2000_WarpEnd
+core_EV_em2000_WarpHarf_Lp
+core_EV_em2000_WarpStart_Lp
+
+### EVENT NAMES (ev_em2100_Demo.bnk)
+core_EV_em2100_MaskAura_Lp
+core_EV_em2100_MaskBreak
+Stop_core_EV_em2100_MaskAura_Lp
+
+### EVENT NAMES (pl0000.bnk)
+core_pl_AddFootStep_M
+core_pl_AddFootStep_M_NPC
+core_pl_AddFootStep_S
+core_pl_AddFootStep_S_NPC
+pl0000_Atk_GroundCrackImpact
+pl0000_Atk_GroundCrackImpact_NPC
+pl0000_Atk_Kick
+pl0000_Atk_KunaiFiring
+pl0000_Atk_KunaiFiring_NPC
+pl0000_Atk_KunaiLand
+pl0000_Atk_KunaiLand_NPC
+pl0000_Atk_SkillDark_Circle_NPC
+pl0000_Atk_SkillWind_StormFiring
+pl0000_Atk_SkillWind_StormFiring_NPC
+pl0000_Atk_SkillWind_Wave
+pl0000_Atk_SkillWind_Wave_NPC
+pl0000_EV_FreamIn
+pl0000_EV_FreamIn_NPC
+pl0000_Mov_AvoidRolling
+pl0000_Mov_AvoidRolling_NPC
+pl0000_Mov_DeathA
+pl0000_Mov_DeathA_NPC
+pl0000_Mov_DeathB
+pl0000_Mov_DeathB_NPC
+pl0000_Mov_DeathC
+pl0000_Mov_DeathC_NPC
+pl0000_Mov_Down
+pl0000_Mov_Down_NPC
+pl0000_Mov_EnemyLockon
+pl0000_Mov_EnemyLockon_NPC
+pl0000_Mov_Jump
+pl0000_Mov_Jump_NPC
+pl0000_Mov_LigthSwing
+pl0000_Mov_LigthSwing_NPC
+pl0000_Mov_RecoverDown
+pl0000_Mov_RecoverDown_NPC
+pl0000_Mov_Roll
+pl0000_Mov_SheathPlace
+pl0000_Mov_SheathPlace_NPC
+pl0000_Mov_WarpIn
+pl0000_Mov_WarpIn_NPC
+pl0000_Mov_WarpOut
+pl0000_Mov_WarpOut_NPC
+pl0000_vo_Atk_L
+pl0000_vo_Atk_L_NPC
+pl0000_vo_Atk_S
+pl0000_vo_Atk_S_NPC
+pl0000_vo_Death
+pl0000_vo_Death_NPC
+pl0000_vo_Dmg_KnockBack
+pl0000_vo_Dmg_KnockBack_NPC
+pl0000_vo_Dmg_L
+pl0000_vo_Dmg_L_NPC
+pl0000_vo_Dmg_S
+pl0000_vo_Dmg_S_NPC
+pl0000_vo_Escape
+pl0000_vo_Escape_NPC
+pl0000_vo_Failed
+pl0000_vo_Failed_NPC
+pl0000_vo_Jump
+pl0000_vo_Jump_NPC
+pl0000_vo_Result_A
+pl0000_vo_Result_B
+pl0000_vo_Result_S
+pl0000_vo_Result_SS
+pl0000_vo_SpAtk_Ha
+pl0000_vo_SpAtk_Ha_NPC
+pl0000_vo_SpAtk_Ren
+pl0000_vo_SpAtk_Ren_NPC
+pl0000_vo_SpAtk_Zan
+pl0000_vo_SpAtk_Zan_NPC
+pl0000_vo_Step
+pl0000_vo_Step_NPC
+pl0000_vo_Summons
+pl0000_vo_Summons_NPC
+Stop_pl0000_All
+Stop_pl0000_All_NPC
+wp0000_Mov_StingGround
+wp0000_Mov_StingGround_NPC
+wp0000_Wsh_PullSword
+wp0000_Wsh_PullSword_NPC
+wp0000_Wsh_Slash
+wp0000_Wsh_Slash_NPC
+
+### RTPC/GAME-VARIABLE NAMES (pl0000.bnk)
+core_Azimuth
+se_pl_GiantMode
+se_pl_MoveSpeed
+
+### VARIABLE NAMES (pl0000.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (pl0000.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (pl0100.bnk)
+core_pl_AddFootStep_M
+core_pl_AddFootStep_M_NPC
+emf100_Mov_SwordPlace_NPC
+emf100_Mov_SwordReady_NPC
+pl0100_Atk_LargeSlashWsh
+pl0100_Atk_LargeSlashWsh_NPC
+pl0100_Atk_OborodukiWsh
+pl0100_Atk_OborodukiWsh_NPC
+pl0100_Atk_SkillDark_Circle
+pl0100_Atk_SkillDark_Circle_NPC
+pl0100_Atk_SkillWind_StormFiring_NPC
+pl0100_Atk_SkillWind_Wave
+pl0100_Atk_SkillWind_Wave_NPC
+pl0100_Mov_DeathA
+pl0100_Mov_DeathA_NPC
+pl0100_Mov_DeathB
+pl0100_Mov_DeathB_NPC
+pl0100_Mov_DeathC
+pl0100_Mov_DeathC_NPC
+pl0100_Mov_Down
+pl0100_Mov_Down_NPC
+pl0100_Mov_EngethuSappo
+pl0100_Mov_EngethuSappo_NPC
+pl0100_Mov_EngethuSappoFin
+pl0100_Mov_EngethuSappoFin_NPC
+pl0100_Mov_IaiDash
+pl0100_Mov_IaiDash_NPC
+pl0100_Mov_Jump
+pl0100_Mov_Jump_NPC
+pl0100_Mov_LigthSwing
+pl0100_Mov_LigthSwing_NPC
+pl0100_Mov_RecoverDown
+pl0100_Mov_RecoverDown_NPC
+pl0100_Mov_Roll
+pl0100_Mov_Roll_NPC
+pl0100_Mov_SwordPlace
+pl0100_Mov_SwordPlace_NPC
+pl0100_Mov_SwordPlaceMove
+pl0100_Mov_SwordPlaceMove_NPC
+pl0100_Mov_SwordPlaceMove_Short
+pl0100_Mov_SwordPlaceMove_Short_NPC
+pl0100_Mov_SwordReady
+pl0100_vo_Atk_L
+pl0100_vo_Atk_L_NPC
+pl0100_vo_Atk_S
+pl0100_vo_Atk_S_NPC
+pl0100_vo_Death
+pl0100_vo_Death_A
+pl0100_vo_Death_A_NPC
+pl0100_vo_Death_B
+pl0100_vo_Death_B_NPC
+pl0100_vo_Death_C
+pl0100_vo_Death_C_NPC
+pl0100_vo_Death_NPC
+pl0100_vo_Dmg_KnockBack
+pl0100_vo_Dmg_KnockBack_NPC
+pl0100_vo_Dmg_L
+pl0100_vo_Dmg_L_NPC
+pl0100_vo_Dmg_S
+pl0100_vo_Dmg_S_NPC
+pl0100_vo_Escape
+pl0100_vo_Failed
+pl0100_vo_Failed_NPC
+pl0100_vo_Result_A
+pl0100_vo_Result_B
+pl0100_vo_Result_S
+pl0100_vo_Result_SS
+pl0100_vo_SpAtk_Dan
+pl0100_vo_SpAtk_Metu
+pl0100_vo_SpAtk_Zetu
+pl0100_vo_Summons
+pl0100_voe_Death_NPC
+pl0100_voe_Escape_NPC
+pl0100_voe_SpAtk
+pl0100_voe_SpAtk_Chearge
+pl0100_voe_SpAtk_Chearge_NPC
+pl0100_voe_SpAtk_Dan_NPC
+pl0100_voe_SpAtk_Metu_NPC
+pl0100_voe_SpAtk_NPC
+pl0100_voe_SpAtk_Zetu_NPC
+pl0100_voe_Step
+pl0100_voe_Step_NPC
+pl0100_voe_Summons_NPC
+Stop_pl0100_All
+Stop_pl0100_All_NPC
+Stop_pl0100_Mov_EngethuSappo
+Stop_pl0100_Mov_EngethuSappo_NPC
+wp0100_Mov_StingGround
+wp0100_Mov_StingGround_NPC
+wp0100_Wsh_PullSword
+wp0100_Wsh_PullSword_NPC
+wp0100_Wsh_Slash
+wp0100_Wsh_Slash_NPC
+
+### RTPC/GAME-VARIABLE NAMES (pl0100.bnk)
+core_Azimuth
+se_pl_GiantMode
+se_pl_MoveSpeed
+
+### VARIABLE NAMES (pl0100.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (pl0100.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (pl0200.bnk)
+pl0200_Atk_SkillWind_StormFiring
+pl0200_Atk_SkillWind_StormFiring_NPC
+pl0200_Atk_StompImpact
+pl0200_Atk_StompImpact_NPC
+pl0200_Mov_DeathA
+pl0200_Mov_DeathA_NPC
+pl0200_Mov_DeathB
+pl0200_Mov_DeathB_NPC
+pl0200_Mov_Jump
+pl0200_Mov_Jump_NPC
+pl0200_Mov_OnmyoHohou_Wsh
+pl0200_Mov_OnmyoHohou_Wsh_NPC
+pl0200_Mov_Roll
+pl0200_Mov_Roll_NPC
+pl0200_Mov_SpearFailedSting
+pl0200_Mov_SpearFailedSting_NPC
+pl0200_Mov_SpearPut
+pl0200_Mov_SpearPut_NPC
+pl0200_Mov_StingGround
+pl0200_Mov_StingGround_NPC
+pl0200_Mov_TenyuAppear
+pl0200_Mov_TenyuAppear_NPC
+pl0200_Mov_TenyuVanish
+pl0200_Mov_TenyuVanish_NPC
+pl0200_SwingShot
+pl0200_SwingShot_Big
+pl0200_SwingShot_Big_NPC
+pl0200_SwingShot_NPC
+pl0200_vo_Atk_L
+pl0200_vo_Atk_L_NPC
+pl0200_vo_Atk_S
+pl0200_vo_Atk_S_NPC
+pl0200_vo_Death
+pl0200_vo_Death_A
+pl0200_vo_Death_A_NPC
+pl0200_vo_Death_B
+pl0200_vo_Death_B_NPC
+pl0200_vo_Death_C
+pl0200_vo_Death_C_NPC
+pl0200_vo_Death_NPC
+pl0200_vo_Dmg_KnockBack
+pl0200_vo_Dmg_KnockBack_NPC
+pl0200_vo_Dmg_L
+pl0200_vo_Dmg_L_NPC
+pl0200_vo_Dmg_S
+pl0200_vo_Dmg_S_NPC
+pl0200_vo_Escape
+pl0200_vo_Escape_NPC
+pl0200_vo_Failed
+pl0200_vo_Failed_NPC
+pl0200_vo_Result_A
+pl0200_vo_Result_B
+pl0200_vo_Result_S
+pl0200_vo_Result_SS
+pl0200_vo_SpAtk_A
+pl0200_vo_SpAtk_A_NPC
+pl0200_vo_SpAtk_B
+pl0200_vo_SpAtk_B_NPC
+pl0200_vo_SpAtk_Gen
+pl0200_vo_SpAtk_Gen_NPC
+pl0200_vo_SpAtk_Sen
+pl0200_vo_SpAtk_Sen_NPC
+pl0200_vo_SpAtk_Zin
+pl0200_vo_SpAtk_Zin_NPC
+pl0200_vo_Step
+pl0200_vo_Step_NPC
+pl0200_vo_Summons
+pl0200_Wsh_MiniSlashL
+pl0200_Wsh_MiniSlashL_NPC
+pl0200_Wsh_Slash01
+pl0200_Wsh_Slash01_NPC
+pl0200_Wsh_Slash02
+pl0200_Wsh_Slash02_NPC
+pl0200_Wsh_Slash03
+pl0200_Wsh_Slash03_NPC
+Stop_pl0200_All
+Stop_pl0200_All_NPC
+
+### SFX NAMES (pl0200.bnk)
+# 505655530
+# 1049726332
+# 409700298
+
+### RTPC/GAME-VARIABLE NAMES (pl0200.bnk)
+core_Azimuth
+se_Common_onMask
+
+### VARIABLE NAMES (pl0200.bnk)
+se_Common_onMask
+se_pl_JustEscape
+
+### VALUE NAMES (pl0200.bnk)
+escape
+MaskOff
+Maskon
+Step
+
+### EVENT NAMES (pl0400.bnk)
+core_pl_AddFootStep_L
+core_pl_AddFootStep_L_NPC
+pl0400_Atk_GroundCrackImpact
+pl0400_Atk_GroundCrackImpact_NPC
+pl0400_Atk_SpFinish_Impact
+pl0400_Charge01
+pl0400_Charge02
+pl0400_Charge03
+pl0400_Dmg_DeathLandA
+pl0400_Dmg_DeathLandA_NPC
+pl0400_Dmg_DeathLandB
+pl0400_Dmg_DeathLandB_NPC
+pl0400_Dmg_KnockbackDown
+pl0400_Dmg_KnockbackDown_NPC
+pl0400_Dmg_RecoverDown
+pl0400_Dmg_RecoverDown_NPC
+pl0400_Mov_HammerPut
+pl0400_Mov_HammerPut_NPC
+pl0400_Mov_HandSlide
+pl0400_Mov_HandSlide_NPC
+pl0400_Mov_Jump
+pl0400_Mov_Jump_NPC
+pl0400_Mov_kneeLand
+pl0400_Mov_kneeLand_NPC
+pl0400_Mov_Roll
+pl0400_Mov_Roll_NPC
+pl0400_Mov_WinnerHammerPut
+pl0400_Mov_WinnerHammerPut_NPC
+pl0400_vo_Atk_L
+pl0400_vo_Atk_L_NPC
+pl0400_vo_Atk_S
+pl0400_vo_Atk_S_NPC
+pl0400_vo_Atk_SP
+pl0400_vo_Atk_SP_NPC
+pl0400_vo_ChgAtk
+pl0400_vo_ChgAtk_NPC
+pl0400_vo_Death
+pl0400_vo_Death_NPC
+pl0400_vo_Dmg_KnockBack
+pl0400_vo_Dmg_KnockBack_NPC
+pl0400_vo_Dmg_L
+pl0400_vo_Dmg_L_NPC
+pl0400_vo_Dmg_S
+pl0400_vo_Dmg_S_NPC
+pl0400_vo_Exultance
+pl0400_vo_Exultance_NPC
+pl0400_vo_Failed
+pl0400_vo_Failed_NPC
+pl0400_vo_GouTanRyoku
+pl0400_vo_GouTanRyoku_NPC
+pl0400_vo_Guard
+pl0400_vo_Guard_NPC
+pl0400_vo_Result_A
+pl0400_vo_Result_B
+pl0400_vo_Result_S
+pl0400_vo_Result_SS
+pl0400_vo_SpAtk_Baku
+pl0400_vo_SpAtk_Baku_NPC
+pl0400_vo_SpAtk_Sai
+pl0400_vo_SpAtk_Sai_NPC
+pl0400_vo_SpAtk_Sin
+pl0400_vo_SpAtk_Sin_NPC
+pl0400_vo_Step
+pl0400_vo_Step_NPC
+pl0400_vo_Summons
+pl0400_vo_Summons_NPC
+Stop_pl0400_All
+Stop_pl0400_All_NPC
+wp0400_Atk_BlowImpact
+wp0400_Atk_BlowImpact_NPC
+wp0400_Mov_Pull
+wp0400_Mov_Pull_NPC
+wp0400_Wsh_Wield
+wp0400_Wsh_Wield_NPC
+
+### RTPC/GAME-VARIABLE NAMES (pl0400.bnk)
+core_Azimuth
+se_pl_GiantMode
+se_pl_MoveSpeed
+
+### VARIABLE NAMES (pl0400.bnk)
+se_core_StageType
+SE_Footstep_GroundType
+
+### VALUE NAMES (pl0400.bnk)
+Bone
+Cloth
+grass
+Sand
+Snow
+Soil
+Stone
+Tatami
+Type02_Water
+Type03_Snow
+Type04_Wood
+Water
+Wood
+
+### EVENT NAMES (st0600.bnk)
+bga190_Mov_Daidara_Appear
+bga190_Mov_Daidara_In
+bga190_Mov_Daidara_Out
+bga190_Mov_Daidara_Question
+Stop_bga190
+
+### RTPC/GAME-VARIABLE NAMES (st0600.bnk)
+core_Azimuth
+
+### EVENT NAMES (st0800.bnk)
+bga060_Mov_BigWave
+bga180_Mov_1stTentacle_Idle
+bga180_Mov_1stTentacle_In
+bga180_Mov_1stTentacle_Out
+bga180_Mov_2ndTentacle_Idle
+bga180_Mov_2ndTentacle_In
+bga180_Mov_2ndTentacle_Out
+bga180_Mov_3rdTentacle_Idle
+bga180_Mov_3rdTentacle_In
+bga180_Mov_3rdTentacle_Out
+st0800_Mov_Thunder
+
+### RTPC/GAME-VARIABLE NAMES (st0800.bnk)
+core_Azimuth
+
+### EVENT NAMES (st0900.bnk)
+bga0a0_Mov_BigWave
+bga170_Mov_Roar
+bga170_Mov_SharkIn
+bga170_Mov_SharkOut
+
+### RTPC/GAME-VARIABLE NAMES (st0900.bnk)
+core_Azimuth
+
+### EVENT NAMES (st0c00.bnk)
+st0c00_Mov_Firework_Far
+st0c00_Mov_Firework_Near
+st0c00_Mov_PreFirework_Near
+
+### RTPC/GAME-VARIABLE NAMES (st0c00.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_nc_common.bnk)
+se_amb_fire
+se_amb_tree
+
+### RTPC/GAME-VARIABLE NAMES (st_nc_common.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_daisyounetsujigoku.bnk)
+daishounetsu_background_fire
+daishounetsu_lava_A
+daishounetsu_lava_B
+daishounetsu_torch
+
+### RTPC/GAME-VARIABLE NAMES (st_se_daisyounetsujigoku.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_furaimon.bnk)
+baa200_Mov_Caws
+baa200_Mov_Fly
+
+### RTPC/GAME-VARIABLE NAMES (st_se_furaimon.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_hachikensyuraku.bnk)
+st05hachikensyuraku_river
+st05hachikensyuraku_river_small
+
+### RTPC/GAME-VARIABLE NAMES (st_se_hachikensyuraku.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_jizoutouge.bnk)
+baa200_Mov_Caws
+baa200_Mov_Fly
+st07jizoutouge_pond
+
+### RTPC/GAME-VARIABLE NAMES (st_se_jizoutouge.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_kaijinmaru.bnk)
+bga060_Mov_BigWave
+bga180_Mov_1stTentacle_Idle
+bga180_Mov_1stTentacle_In
+bga180_Mov_1stTentacle_Out
+bga180_Mov_2ndTentacle_Idle
+bga180_Mov_2ndTentacle_In
+bga180_Mov_2ndTentacle_Out
+bga180_Mov_3rdTentacle_Idle
+bga180_Mov_3rdTentacle_In
+bga180_Mov_3rdTentacle_Out
+st0800_Mov_Thunder
+st09kaijinmaru_bigwave
+st09kaijinmaru_flag_big
+st09kaijinmaru_flag_small
+
+### RTPC/GAME-VARIABLE NAMES (st_se_kaijinmaru.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_kikokudo.bnk)
+st08kikokudou_fire
+st8kikokudou_waterfall
+
+### RTPC/GAME-VARIABLE NAMES (st_se_kikokudo.bnk)
+core_Azimuth
+# 96239696
+
+### EVENT NAMES (st_se_mugenjyo.bnk)
+bga190_Mov_Daidara_Appear
+bga190_Mov_Daidara_In
+bga190_Mov_Daidara_Out
+bga190_Mov_Daidara_Question
+Stop_bga190
+
+### RTPC/GAME-VARIABLE NAMES (st_se_mugenjyo.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_mugenjyou.bnk)
+bga190_Mov_Daidara_Appear
+bga190_Mov_Daidara_In
+bga190_Mov_Daidara_Out
+bga190_Mov_Daidara_Question
+st06mugenjyo_bridge
+st06mugenjyo_hole
+Stop_bga190
+
+### RTPC/GAME-VARIABLE NAMES (st_se_mugenjyou.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_oborogaura.bnk)
+bga0a0_Mov_BigWave
+bga170_Mov_Roar
+bga170_Mov_SharkIn
+bga170_Mov_SharkOut
+oborogaura_waterfall
+se_amb_waterfall
+se_amb_waterfall_near
+
+### RTPC/GAME-VARIABLE NAMES (st_se_oborogaura.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_oueyama.bnk)
+oueyama_river_normal_L
+oueyama_river_normal_R
+oueyama_river_rapid_L
+oueyama_river_rapid_R
+oueyama_waterfall_large
+oueyama_waterfall_small
+
+### RTPC/GAME-VARIABLE NAMES (st_se_oueyama.bnk)
+core_Azimuth
+
+### RTPC/GAME-VARIABLE NAMES (st_se_oueyama_001.bnk)
+core_Azimuth
+
+### RTPC/GAME-VARIABLE NAMES (st_se_oueyama_002.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_ougonkutsu.bnk)
+ougonkutsu_water
+
+### RTPC/GAME-VARIABLE NAMES (st_se_ougonkutsu.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_ryusenkyo.bnk)
+ryusenkyo_waterfall_far
+ryusenkyo_waterfall_st
+ryusenkyo_waterfall_st_large
+
+### RTPC/GAME-VARIABLE NAMES (st_se_ryusenkyo.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_shiranuiinari.bnk)
+st_shiranuiinari_river
+
+### RTPC/GAME-VARIABLE NAMES (st_se_shiranuiinari.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_syounetsujigoku.bnk)
+se_amb_fire_strong
+se_amb_lava_A
+se_amb_lava_B
+se_amb_lava_C
+
+### EVENT NAMES (st_se_tenjinohashi.bnk)
+st0c00_Mov_Firework_Far
+st0c00_Mov_Firework_Near
+st0c00_Mov_PreFirework_Near
+
+### RTPC/GAME-VARIABLE NAMES (st_se_tenjinohashi.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_tenjinouhashi.bnk)
+st0c00_Mov_Firework_Far
+st0c00_Mov_Firework_Near
+st0c00_Mov_PreFirework_Near
+tenjinohashi_Firework_Near
+tenjinohashi_Mov_Firework_Far
+tenjinohashi_water_A
+tenjinohashi_water_B
+
+### SFX NAMES (st_se_tenjinouhashi.bnk)
+# 480982085
+
+### RTPC/GAME-VARIABLE NAMES (st_se_tenjinouhashi.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_tsukimigahara.bnk)
+se_amb_fire
+se_amb_tree
+tsukimigahara_susuki
+
+### RTPC/GAME-VARIABLE NAMES (st_se_tsukimigahara.bnk)
+core_Azimuth
+
+### EVENT NAMES (st_se_tsukumonotou.bnk)
+tsukumo_candle
+tsukumo_candle_multi
+tsukumo_candle_solo
+
+### RTPC/GAME-VARIABLE NAMES (st_se_tsukumonotou.bnk)
+core_Azimuth
+
+### EVENT NAMES (um0100.bnk)
+um0100_Mov_ClothWsh
+um0100_Mov_ConcealFaceWsh
+um0100_Mov_IrateWsh
+um0100_Mov_LongShake
+um0100_Mov_ShortShake
+um0100_Mov_Walk
+um0100_voe_Call
+um0100_voe_Despise
+um0100_voe_Irate
+um0100_voe_Laugh
+
+### EVENT NAMES (um0101.bnk)
+Stop_um0101_Mov_ArmMoveS
+Stop_um0101_Mov_Fly
+um0101_Mov_ArmMoveL
+um0101_Mov_ArmMoveS
+um0101_Mov_Fly
+um0101_Mov_LevelUp_Comm
+um0101_Mov_LevelUp_Normal
+um0101_Mov_LevelUp_Special
+um0101_Mov_Reactions
+um0101_Mov_Shake
+um0101_Mov_WarpIn
+um0101_Mov_WarpOut
+um0101_voe_Call
+
+### SFX NAMES (um0101.bnk)
+# 615295277
+
+### VARIABLE NAMES (um0101.bnk)
+se_um0101_ReactionLv
+
+### VALUE NAMES (um0101.bnk)
+Lv0
+Lv1
+Lv2
+Lv3
+Lv4
+Lv5_Roll
+
+### EVENT NAMES (um0200.bnk)
+um0200_Mov_2nd_Hungry
+um0200_Mov_2nd_Stroke
+um0200_Mov_Call_RinAction
+um0200_Mov_Comm_ClothL
+um0200_Mov_Comm_ClothS
+um0200_Mov_Comm_RinActionL
+um0200_Mov_Comm_RinActionS
+um0200_vo_2nd_Call
+um0200_vo_2nd_Hungry
+um0200_vo_2nd_Stroke
+um0200_vo_2nd_Surprised
