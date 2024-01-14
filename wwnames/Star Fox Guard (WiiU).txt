@@ -1,0 +1,2414 @@
+
+### BANK NAMES
+BGM
+core
+em1100
+em1200
+em1300
+Init
+p219_se
+p419_se
+pe40_se
+pf09_se
+pf11_se
+pf14_se
+pl0000
+pl0100
+pl1000
+r100
+r200
+r300
+r400
+r500
+rf09
+vo_core
+
+### BUS NAMES
+ALL
+Amiibo
+BGM
+BGM_A
+BGM_S
+BGM_Stereo
+BGM_Stereo_A
+BGM_Stereo_S
+Canyon
+Canyon_S
+EFX
+Event
+FX
+FX_S
+HDR
+HDR_A
+HDR_S
+Master Audio Bus = 0
+Master Secondary Bus = 0
+Pause
+SE
+SE_A
+SE_S
+SFX
+SFX_A
+SFX_S
+Start
+SubCamera
+System
+System_A
+System_S
+Tutorial_Win
+Voice
+Voice_A
+Voice_S
+Voice_TV
+# 871868715
+# 1208884572
+# 2346842113
+# 3209050701
+# 3369759868
+# 1376742345
+# 3910811182
+# 4237107877
+# 1715984770
+# 293772762
+# 2332558946
+# 1159269160
+# 1159269178
+# 85275906
+# 85275920
+# 2017634479
+# 2017634493
+# 952178972
+# 952178958
+# 1216954585
+# 1216954571
+# 1591839831
+# 1591839813
+# 3165653971
+# 3165653953
+# 3783225250
+# 3783225264
+# 2200218760
+# 2200218778
+# 1216416656
+
+### EVENT NAMES (BGM.bnk)
+BGM_All_Round_win
+BGM_amiibo_in
+BGM_amiibo_out
+BGM_Boss_Win
+BGM_Clear_Fadeout
+BGM_duck_in
+BGM_duck_out
+BGM_EffectReset
+BGM_EnemyApproach_in
+BGM_EnemyApproach_out
+BGM_Failure_FadeOut
+BGM_IDCardFade
+BGM_Jamming_in
+BGM_Jamming_out
+BGM_Magnetta_in
+BGM_Magnetta_out
+BGM_Menu_LV2
+BGM_Menu_LV3
+BGM_Menu_LV4
+BGM_MessageWindow_in
+BGM_MessageWindow_out
+BGM_Movie_in
+BGM_Movie_out
+BGM_Next_Round
+BGM_Pause_in
+BGM_Pause_out
+BGM_Replay_Pause_in
+BGM_Replay_Pause_out
+BGM_Replay_Pause_out_LongFade
+BGM_Restart_in
+BGM_ReturnFromOnlineError
+BGM_ReturnFromOnlineError_Lose
+BGM_ReturnFromOnlineError_Win
+BGM_ScreenFade
+BGM_Slow_in
+BGM_Slow_out
+BGM_SnowNoise_in
+BGM_SnowNoise_out
+BGM_Stage_Emergency1
+BGM_Stage_Emergency1_from_Emergency2
+BGM_Stage_Emergency2
+BGM_Stage_Lose
+BGM_Stage_Normal
+BGM_Stage_Reach
+BGM_Stage_Reach_out
+BGM_Stage_Reach_ProgressbarRestart
+BGM_Stage_SetCamera
+BGM_Stage_SetCamera_Cancel
+BGM_Stage_Start
+BGM_Stage_Win
+Load_in_BGM
+Load_out_BGM
+mot_em1100_0031_s1
+mot_em1100_0033_s1
+mot_em1201_0003_s1
+mot_em1201_0005_s1
+mot_em1300_0018_s1
+mot_em1300_001c_s1
+mSet_Boss1st_Explosion
+mSet_LastBoss2nd_skip
+mSet_LastBoss_3rd
+mSet_LastBoss_Rush
+mSet_pf04_FadeOut
+mSet_pf04_Start
+mSet_pF09_bombing
+mSet_pF09_Win
+Set_p119_Boss_Appear
+Set_p119_Boss_CountDown
+Set_p1XX_mission_start
+Set_p2XX_CountDown
+Set_p2XX_mission_start
+Set_p319_Boss_Appear
+Set_p319_Boss_CountDown
+Set_p3XX_mission_start
+Set_p4XX_mission_start
+Set_p519_Boss_Appear
+Set_p519_Boss_CountDown
+Set_p5XX_mission_start
+Set_pE21_Start
+Set_pE22_Start
+Set_pE23_Start
+Set_pE24_Start
+Set_pF00_Title_Menu
+Set_pF03
+Set_pF09_event1
+Set_pF09_Playable1
+Set_pF09_Tutorial
+Set_pF0d
+Set_pF20
+# 187392472
+# 187392474
+# 187392475
+# 187392477
+# 274250519
+# 501580294
+# 646086836
+# 783772984
+# 904612905
+# 912956057
+# 912956060
+# 912956062
+# 912956063
+# 929198379
+# 1017186707
+# 1216689010
+# 1467698688
+# 1588619369
+# 1675840469
+# 1864703999
+# 1972906292
+# 2330693391
+# 2760334108
+# 2802838129
+# 2985444234
+# 3231177724
+# 3231177725
+# 3231177726
+# 3415197987
+# 3443116267
+# 3832322130
+# 3917536397
+# 3928098777
+# 4247759297
+
+### TRIGGER NAMES (BGM.bnk)
+Stg_1_stinger
+
+### RTPC/GAME-VARIABLE NAMES (BGM.bnk)
+BGM_speeddown
+
+### VARIABLE NAMES (BGM.bnk)
+BGM_E3
+BGM_evt_opening
+BGM_LastBoss_Rush
+BGM_player_a
+BGM_player_Pause
+BGM_rhythm_off
+BGM_Stage
+BGM_STG_All
+BGM_STG_Boss
+BGM_Sys_Menu
+# 936255614
+# 3744301783
+
+### VALUE NAMES (BGM.bnk)
+a
+b
+c
+emergency1
+emergency2
+end
+Event
+evt_boss_p519
+evt_e3
+evt_emergency
+evt_epilogue1
+evt_epilouge2
+evt_normal
+evt_normal2
+evt_opening
+evt_pigma
+in
+loop
+lv1
+lv2
+lv3
+lv4
+none
+normal
+out
+playable
+stg_1
+stg_2
+stg_3
+stg_4
+stg_5
+stg_all
+stg_boss
+stg_lastboss
+stg_lastboss_3rd
+stg_lastboss_rush
+stop
+sys_lose
+sys_menu
+sys_reach
+sys_setcamera
+sys_start
+sys_title
+sys_win
+sys_win2
+# 1506850793
+# 2782613576
+# 3424039053
+# 3978469204
+# 1290530235
+# 1378379343
+# 1606767256
+# 1852376739
+# 1864468178
+# 2172576789
+# 2176936331
+# 2383803255
+# 2497208875
+# 3263409536
+# 3300360532
+# 3417873551
+# 3468922610
+# 3681578435
+# 3739694021
+# 3958224268
+# 4236678286
+
+### SFX NAMES (Init.bnk)
+se_duck
+se_SlowReverb
+Voice_LipSyncControl
+# 111803729
+# 196690445
+# 214414948
+# 261037801
+# 435670564
+# 471452748
+# 492476212
+# 511961970
+# 702606720
+# 887378967
+# 916623818
+# 938709984
+# 2770916569
+# 2952825346
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+BGM_Jamming
+BGM_LowPassFilter
+BGM_Magnetta
+BGM_Magnetta_off
+bgm_pause
+BGM_SnowNoise
+BGM_speeddown
+CameraAngle_H
+CameraAngle_V
+core_BreakCameraNum
+core_se_duck
+core_UI_AtkPointCnt
+core_UI_RankMove
+em1100_BallCount
+em_CommonSpeed
+em_MoveSpeed
+pl_HeriElevation
+pl_Mov_HeadSpeed
+pl_Mov_HeadSpeed_X
+pl_Mov_HeadSpeed_Y
+pl_RareMetalCnt
+SE_HeadphoneMode
+SE_LipSyncControl
+Volume_BGM
+Volume_ENV
+Volume_Master
+Volume_SE
+Volume_Voice
+# 85643140
+# 422773444
+# 510175621
+# 1035030475
+# 1167531055
+# 1239242946
+# 1429906094
+# 1818849697
+# 1901595527
+# 2476995316
+# 3297818656
+# 3583409031
+
+### VARIABLE NAMES (Init.bnk)
+BGM_E3
+BGM_evt_opening
+BGM_LastBoss_Rush
+BGM_player_a
+BGM_player_Pause
+BGM_rhythm_off
+BGM_Stage
+BGM_STG_1_test
+BGM_STG_All
+BGM_STG_Boss
+BGM_Sys_Menu
+pl_RareMetalCnt
+pl_scale
+SE_common_EndFade
+SE_HeadphoneMode
+# 936255614
+# 3744301783
+# 3508601203
+# 544145916
+# 2305625810
+# 199637522
+# 3623116103
+# 1690509510
+# 508636293
+# 508636294
+# 558969340
+# 558969343
+# 542191723
+# 542191720
+# 458303562
+# 458303561
+# 1762090645
+# 264480686
+# 2426396433
+# 1041794905
+
+### VALUE NAMES (Init.bnk)
+emergency1
+emergency2
+FAILED
+in
+LOSe
+lv1
+lv2
+lv3
+lv4
+normal
+off
+ON
+out
+Success
+WIn
+# 2909030862
+# 2063853864
+
+### EVENT NAMES (core.bnk)
+All_Sound_Pause
+All_Sound_Resume
+ba0000_Mov_PlanetShift
+ba0010_Mov_ElecBomb_Sw_On
+ba0012_Mov_break
+ba0012_Mov_Rebirth
+ba0013_Mov_Standup
+bm0004_SandDrape
+bm0005_SandDrape
+bm0006_Mov_LightSw_On
+core_amiibo_se_error
+core_amiibo_se_success
+core_CameraBreakOff
+core_CameraBreakOn
+core_Dmg_Action
+core_Dmg_BossAction
+core_em_OilSlip
+core_em_PreDeath
+core_EndFade_Failed
+core_EndFade_off
+core_EndFade_Success
+core_Mov_RareMetal_LV1
+core_Mov_RareMetal_LV2
+core_Mov_RareMetalBoundA
+core_Mov_RareMetalBoundB
+core_Mov_RareMetalBoundC
+core_Mov_RareMetalCount
+core_Mov_ReplayAmiboIn
+core_Mov_ReplayAmiboOut
+core_Mov_ShieldAppear
+core_PlatinumCommand
+core_ReachInvocation
+core_Replay_Off
+core_Replay_Pause_Bt
+core_Replay_Play_Bt
+core_Replay_PlayResumeOnly
+core_Replay_ProgressPause
+core_Replay_ProgressPlay
+core_Replay_RewFf_Bt
+core_Replay_RewFf_Bt_DRC
+core_ReplayAllStop
+core_UI_AmiboStandby
+core_UI_AtkPointCntUp
+core_UI_AttackPointUp
+core_UI_BossGaugeOpen
+core_UI_BossUnLock
+core_UI_CallStarFox
+core_UI_CameraReset
+core_UI_CamSetOK
+core_UI_CanceltoSelect
+core_UI_CanceltoTitle
+core_UI_CommonPage
+core_UI_CoundDonw
+core_UI_CoundDownStart
+core_UI_countup
+core_UI_CountUpFin
+core_UI_Editor_DragMove
+core_UI_Editor_EraseBroom
+core_UI_Editor_Pause_Bt
+core_UI_Editor_Play_Bt
+core_UI_Editor_RewFf_Bt
+core_UI_Editor_Trash
+core_UI_EditorAutoBuild
+core_UI_EditorNo
+core_UI_EditorResetYes
+core_UI_EditorRoboDel
+core_UI_EditorRoboDrag
+core_UI_EditorRoboDragCancel
+core_UI_EditorRoboDrop
+core_UI_EditorRoboSel
+core_UI_EditorRoboSet
+core_UI_EditorRootPopdown
+core_UI_EditorRootPopup
+core_UI_EditorRootSel_A
+core_UI_EditorRootSel_B
+core_UI_EditorRootSel_C
+core_UI_EditorSelect
+core_UI_EditorUnableSet
+core_UI_EditorUnitSizeNo
+core_UI_EditorUnitSizeSel
+core_UI_EditorUnitSizeYes
+core_UI_EditorUploading
+core_UI_EditorWindowIn
+core_UI_EditorWindowOut
+core_UI_EditorYes
+core_UI_ElecPulse_100
+core_UI_EnemyFound
+core_UI_EnemyPoint
+core_UI_EnemySearch_C
+core_UI_EnemySearch_L
+core_UI_EnemySearch_R
+core_UI_EnemySearchOp_C
+core_UI_EnemySearchOp_L
+core_UI_EnemySearchOp_R
+core_UI_EveryUnit
+core_UI_evpf09_LoseDemo_DRC
+core_UI_evpf09_LoseDemo_TV
+core_UI_evpf09_ProfileWindowIn
+core_UI_evpf09_ProfileWindowOut
+core_UI_evpf09_ResultLose
+core_UI_FirstTimeStart
+core_UI_GetAllMetal
+core_UI_GoalColorEdit
+core_UI_GoalColorSelect
+core_UI_GoalEditWindowIn
+core_UI_GoalExit
+core_UI_GoalNo
+core_UI_GoalNotSelect
+core_UI_GoalSelect
+core_UI_GoalYes
+core_UI_Help
+core_UI_KeepOff
+core_UI_MainConfirmWindow
+core_UI_MainExit
+core_UI_MainNo
+core_UI_MainNotSelect
+core_UI_MainSelect
+core_UI_MainYes
+core_UI_MedalDown
+core_UI_MedalUp
+core_UI_MetalCount
+core_UI_MetalCountUp
+core_UI_MissionComplete
+core_UI_MissionStart
+core_UI_MissionStart_DRC
+core_UI_MissionUnlock
+core_UI_MyUnit
+core_UI_Next
+core_UI_OnlineCardAppear
+core_UI_OnlineVS
+core_UI_OnlineWinCardAppear
+core_UI_OnlineWinnerL
+core_UI_OnlineWinnerMetalCountL
+core_UI_OnlineWinnerMetalCountR
+core_UI_OnlineWinnerMetalCountUpL
+core_UI_OnlineWinnerMetalCountUpR
+core_UI_OnlineWinnerr
+core_UI_Option_DispSizeMove
+core_UI_PressStart
+core_UI_Radio_Close
+core_UI_Radio_Open
+core_UI_RankScale
+core_UI_RankUp
+core_UI_RecordUploading
+core_UI_ResizeNo
+core_UI_ResizeYes
+core_UI_Result_EnemyRoute
+core_UI_Result_Lose
+core_UI_Result_Lose_DRC
+core_UI_Result_Lose_TV
+core_UI_Result_Win
+core_UI_Result_Win_Efx
+core_UI_ResultNext
+core_UI_RoboLibExit
+core_UI_RoboLibSel
+core_UI_RoboLibUnableSel
+core_UI_ScanLib
+core_UI_ScanLibEnd
+core_UI_ScrollClick
+core_UI_SPPoint
+core_UI_StaffRollCoundAppear
+core_UI_StageUnlock
+core_UI_StickNormal
+core_UI_StickNormal_CamSet
+core_UI_StickReverse
+core_UI_StickReverse_CamSet
+core_UI_TitleAppear
+core_UI_toReplay
+core_UI_TowerInvincibility
+core_UI_UnlockListAwake
+core_UI_UnlockListNo
+core_UI_UnlockListSelect
+core_UI_UnlockListYes
+core_UI_vo_CamName00_No
+core_UI_vo_CamName01_Ch
+core_UI_vo_CamName02_Fz
+core_UI_vo_CamName03_Sl
+core_UI_vo_CamName04_Be
+core_UI_vo_CamName05_Xr
+core_UI_vo_CamName06_Ro
+core_UI_vo_CamName07_Hl
+core_UI_vo_emRemainder00
+core_UI_vo_emRemainder01
+core_UI_vo_emRemainder02
+core_UI_vo_emRemainder03
+core_UI_vo_emRemainder04
+core_UI_vo_emRemainder05
+core_UI_vo_emRemainder06
+core_UI_vo_emRemainder07
+core_UI_vo_emRemainder08
+core_UI_vo_emRemainder09
+core_UI_vo_emRemainder10
+core_UI_vo_EnemyCome
+core_UI_vo_FinalRound
+core_UI_vo_plEnc01_Safe
+core_UI_vo_plEnc02_RoboE
+core_UI_vo_plEnc02_RoboT
+core_UI_vo_plEnc03_Combo
+core_UI_vo_plEnc04_AirStrike
+core_UI_vo_plEnc04_AtkAvoided
+core_UI_vo_plEnc04_Beam
+core_UI_vo_plEnc04_IceCold
+core_UI_vo_plEnc04_KaPow
+core_UI_vo_plEnc04_MultiShot
+core_UI_vo_plEnc04_S_and_S
+core_UI_vo_plEnc04_SneakAtk
+core_UI_vo_plEnc04_Sniper
+core_UI_vo_Round
+core_UI_vo_Warning
+core_UI_vo_Warning_DRC
+Debug_Loudness_Meter_DRC
+Debug_Loudness_Meter_Off
+Debug_Loudness_Meter_TV
+em0000_Atk_Explosion
+em0000_Atk_HeadButt
+em0000_Mov_Blimey
+em0000_Mov_FeelDown
+em0000_Mov_Feelup
+em0000_Mov_FootStep
+em0000_Mov_Jump
+em0000_Mov_Land
+em0000_vo_Attack
+em0000_vo_BlowOff
+em0000_vo_Damage
+em0000_vo_Escape
+em0000_vo_Feel
+em0000_vo_Found
+em0000_vo_Happy
+em0010_Mov_DownIdleLoop
+em0010_Mov_DownPreAtkIdle
+em0010_Mov_Found
+em0010_Mov_IdleLoop
+em0010_Mov_Land
+em0010_Mov_Neck_M
+em0010_Mov_Neck_S
+em0010_Mov_UpperLand
+em0010_Mov_WinArmDown
+em0010_Mov_WinArmUp
+em0010_vo_Feel
+em0010_vo_Found
+em0010_vo_PreAtk
+em0020_Atk_GetCamera
+em0020_Atk_PreGetCamera
+em0020_CameraCarried
+em0020_Mov_CatchCamera
+em0020_Mov_FootStep
+em0020_Mov_Hamper_A
+em0020_Mov_Hamper_B
+em0020_Mov_Hamper_C
+em0020_Mov_Hamper_D
+em0020_Mov_Land
+em0020_Mov_ReleaseCamera
+em0020_vo_CameraCatch
+em0020_vo_CameraThrow
+em0020_vo_Damage
+em0020_vo_Death
+em0030_Atk_Charge
+em0030_Dmg_ElecLoop
+em0030_Dmg_Green
+em0030_Dmg_PostAction
+em0030_Dmg_PreAction
+em0030_Mov_IdleLoop
+em0030_Mov_Land
+em0030_Mov_ShieldAppear
+em0040_Atk_AttackWsh
+em0040_Mov_Dash
+em0040_Mov_NeckMove
+em0040_vo_Attack
+em0040_vo_Found
+em0040_vo_PreAttack
+em0040_vo_WinLaugh
+em0050_Mov_BaseMoving
+em0050_Mov_FootStep
+em0050_Mov_Land
+em0050_Mov_PreBombA
+em0050_Mov_PreBombB
+em0050_Mov_RemoveBomb
+em0060_dmg_death
+em0060_Mov_Appear
+em0060_Mov_Cattle
+em0060_Mov_Disappear
+em0060_Mov_IdleLoop
+em0060_Mov_Transfer
+em0070_Atk_PreShieldAtk
+em0070_Atk_ShieldAtk
+em0070_Mov_Found
+em0070_Mov_IdleLoop
+em0070_Mov_Land
+em0070_Mov_Neck_M
+em0070_Mov_Neck_S
+em0070_Mov_Reset
+em0070_Mov_Search
+em0070_Mov_Win
+em0070_Mov_WinArmDown
+em0070_Mov_WinArmUp
+em0070_vo_Feel
+em0070_vo_Found
+em0070_vo_PreAtk
+em0080_Atk_CameraKick
+em0080_Atk_Rush
+em0080_Mov_Fall_lp
+em0080_Mov_Jump
+em0080_Mov_JumpLand
+em0080_Mov_JumpMove
+em0080_Mov_Land
+em0080_Mov_PreJump
+em00a0_Fir_JammingSignal
+em00a0_Mov_Appear
+em00a0_Mov_Disappear
+em00a0_Mov_FootStep
+em00a0_Mov_Land
+em00b0_Atk_Movemet
+em00b0_Atk_PreMovement
+em00b0_Dmg_Movement
+em00b0_Mov_Appear
+em00b0_Mov_Appear_Mecha
+em00b0_Mov_Disappear
+em00b0_Mov_Disappear_Mecha
+em00b0_Mov_Found
+em00b0_Mov_WinDance
+em00b0_vo_Appear
+em00b0_vo_Attack
+em00b0_vo_Dmg
+em00b0_vo_Found
+em00b0_vo_PreAttack
+em00b0_vo_WinDance
+em00c0_Dmg_Movement
+em00c0_Mov_FootStep
+em00c0_Mov_Found
+em00c0_Mov_GetMetal
+em00c0_Mov_Jump
+em00c0_Mov_Land
+em00c0_Mov_Neck_M
+em00c0_Mov_PreGetMetal
+em00c0_Mov_Provocation
+em00c0_Mov_RunArm
+em00c0_Mov_RunFootStep
+em00c0_Mov_RunJetLoop
+em00c0_vo_Escape
+em00c0_vo_Feel
+em00c0_vo_GetMetal
+em00c0_vo_Provocation
+em00d0_Dmg_Action
+em00d0_Mov_IdleLoop
+em00d0_Mov_Land
+em00d0_Mov_Magnetic
+em00d0_Mov_PreMagnetic
+em00e0_Atk_Explosion
+em00e0_Atk_PreExplosion
+em00e0_Atk_PreRush
+em00e0_Atk_RushImpact
+em00e0_Mov_EyeCl
+em00e0_Mov_EyeOp
+em00e0_Mov_Jump
+em00e0_Mov_Land
+em00e0_Mov_RollStepA
+em00e0_Mov_RollStepB
+em00e0_Mov_RushLand
+em00e0_Mov_WinJump
+em00e0_Mov_WinLand
+em0100_Atk_CatchCan
+em0100_Mov_Appear
+em0100_Mov_Disappear
+em0100_Mov_Found
+em0100_Mov_HandMove
+em0100_Mov_IdleLoop
+em0100_vo_Dmg
+em0100_vo_Found
+em0110_Atk_GroundImpact
+em0110_Mov_Appear
+em0110_Mov_Browbeat
+em0110_Mov_BrowbeatImpact
+em0110_Mov_DnJawCl
+em0110_Mov_DnJawOp
+em0110_Mov_FlyBomb_Down
+em0110_Mov_FlyBomb_Up
+em0110_Mov_FootStep
+em0110_Mov_GroundImpact
+em0110_Mov_HandStep
+em0110_Mov_Land
+em0110_Mov_ThrowWsh
+em0110_Mov_UpJaw
+em0110_Mov_WalkMechaA
+em0110_Mov_WalkMechaB
+em0110_Mov_WalkMotorA
+em0110_Mov_WalkMotorB
+em0110_Mov_WinA
+em0110_Mov_WinB
+em0110_Mov_WinC
+em0110_vo_Attack
+em0110_vo_Browbeat
+em0110_vo_Win
+em0120_Atk_Arm
+em0120_Dmg_Action
+em0120_Dmg_Action_Arm
+em0120_Mov_ArmAppear
+em0120_Mov_Found
+em0120_Mov_Land
+em0120_Mov_RootMov
+em0120_Mov_RootMovDn
+em0120_Mov_RootMovUp
+em0120_Mov_Win
+em0130_Atk_Explosion
+em0130_Dmg_Spin
+em0130_Mov_Backfire
+em0130_Mov_Dash
+em0130_Mov_IdleLoop
+em0130_Mov_Ponping
+em0130_Mov_PreDash
+em0130_Mov_Win_A
+em0130_Mov_Win_B
+em0130_Mov_Win_C
+em0130_vo_Death
+em0130_vo_ReverseRun
+em0140_Mov_Fly
+em0140_Mov_Shadow
+em0141_Mov_Fly
+em0150_Atk_FunWind_Lp
+em0150_Dmg_Movement
+em0150_Mov_IdleLoop
+em0150_Mov_Land
+em0150_Mov_StartFan
+em0150_Mov_StopFan
+em0150_Mov_Win
+em0160_Atk_DrillFiring
+em0160_Mov_PostDrillAttack
+em0160_Mov_PreDrillAttack
+em0180_Atk_thunder
+em0180_Dmg_TvThunder
+em0180_Mov_DownIdleLoop
+em0180_Mov_DownPreAtkIdle
+em0180_Mov_Found
+em0180_Mov_IdleLoop
+em0180_Mov_KnockBack
+em0180_Mov_Neck_M
+em0180_Mov_Neck_S
+em0180_Mov_WinArmDown
+em0180_Mov_WinArmUp
+em0180_vo_Feel
+em0180_vo_Found
+em0180_vo_PreAtk
+Em2000_Atk_GetCamera
+em2000_Atk_PreGetCamera
+Em2000_Mov_CatchCamera
+em2000_Mov_FootStep
+em2000_Mov_Hamper_A
+em2000_Mov_Hamper_B
+em2000_Mov_Hamper_C
+em2000_Mov_Hamper_D
+Em2000_Mov_ReleaseCamera
+em2000_vo_CameraCatch
+em2000_vo_CameraThrow
+em2000_vo_Damage
+em2000_vo_Death
+em3000_Mov_Blimey
+em3000_Mov_FeelUp
+em3000_Mov_FootStep
+em3000_Mov_Jump
+em3000_vo_Feel
+em4000_Atk_Explosion
+em4000_Atk_HeadButt
+em4000_Mov_Blimey
+em4000_Mov_FeelDown
+em4000_Mov_Feelup
+em4000_Mov_FootStep
+em4000_Mov_Jump
+em4000_vo_Attack
+em4000_vo_BlowOff
+em4000_vo_Damage
+em4000_vo_Escape
+em4000_vo_Feel
+em4000_vo_Found
+em4000_vo_Happy
+em4001_Mov_DownIdleLoop
+em4001_Mov_DownPreAtkIdle
+em4001_Mov_Found
+em4001_Mov_IdleLoop
+em4001_Mov_Land
+em4001_Mov_Neck_M
+em4001_Mov_Neck_S
+em4001_Mov_UpperLand
+em4001_Mov_WinArmDown
+em4001_Mov_WinArmUp
+em4001_vo_Feel
+em4001_vo_Found
+em4001_vo_PreAtk
+em4002_Atk_CameraKick
+em4002_Atk_Rush
+em4002_Mov_Fall_lp
+em4002_Mov_Jump
+em4002_Mov_JumpLand
+em4002_Mov_JumpMove
+em4002_Mov_Land
+em4002_Mov_PreJump
+em4003_Mov_BaseMoving
+em4003_Mov_FootStep
+em4003_Mov_Land
+em4003_Mov_PreBombA
+em4003_Mov_PreBombB
+em4003_Mov_RemoveBomb
+em4004_dmg_death
+em4004_Mov_Appear
+em4004_Mov_Cattle
+em4004_Mov_Disappear
+em4004_Mov_IdleLoop
+em4004_Mov_Transfer
+em4005_Atk_Explosion
+em4005_Atk_HeadButt
+em4005_Mov_Blimey
+em4005_Mov_FeelDown
+em4005_Mov_Feelup
+em4005_Mov_FootStep
+em4005_Mov_Jump
+em4005_Mov_Jump_Close
+em4005_Mov_Land
+em4005_vo_Attack
+em4005_vo_BlowOff
+em4005_vo_Damage
+em4005_vo_Escape
+em4005_vo_Feel
+em4005_vo_Found
+em4005_vo_Happy
+em4006_Atk_AttackWsh
+em4006_Mov_Dash
+em4006_Mov_NeckMove
+em4006_vo_Attack
+em4006_vo_Found
+em4006_vo_PreAttack
+em4006_vo_WinLaugh
+em4007_Atk_Explosion
+em4007_Dmg_Spin
+em4007_Mov_Backfire
+em4007_Mov_Dash
+em4007_Mov_IdleLoop
+em4007_Mov_Ponping
+em4007_Mov_PreDash
+em4007_Mov_Win_A
+em4007_Mov_Win_B
+em4007_Mov_Win_C
+em4007_vo_Death
+em4007_vo_ReverseRun
+em4008_Atk_GroundImpact
+em4008_Mov_Appear
+em4008_Mov_Browbeat
+em4008_Mov_BrowbeatImpact
+em4008_Mov_DnJawCl
+em4008_Mov_DnJawOp
+em4008_Mov_FlyBomb_Down
+em4008_Mov_FlyBomb_Up
+em4008_Mov_FootStep
+em4008_Mov_GroundImpact
+em4008_Mov_HandStep
+em4008_Mov_Land
+em4008_Mov_ThrowWsh
+em4008_Mov_UpJaw
+em4008_Mov_WalkMechaA
+em4008_Mov_WalkMechaB
+em4008_Mov_WalkMotorA
+em4008_Mov_WalkMotorB
+em4008_Mov_WinA
+em4008_Mov_WinB
+em4008_Mov_WinC
+em4008_vo_Attack
+em4008_vo_Browbeat
+em4008_vo_Win
+em4009_Atk_Arm
+em4009_Dmg_Action
+em4009_Dmg_Action_Arm
+em4009_Mov_ArmAppear
+em4009_Mov_Found
+em4009_Mov_Land
+em4009_Mov_RootMov
+em4009_Mov_RootMovDn
+em4009_Mov_RootMovUp
+em4009_Mov_Win
+em_common_DummyLP
+em_MoveSpeedDown
+em_MoveSpeedReset
+em_MoveSpeedStop
+em_MoveSpeedUp
+Load_in_SE
+Load_out_SE
+Mute_pl_CameraRotate
+Pause_core_em_PreDeath
+Pause_em0000_freeze
+Pause_em0010_freeze
+Pause_em0010_Mov_DownIdleLoop
+Pause_em0010_Mov_IdleLoop
+Pause_em0020_freeze
+Pause_em0030_freeze
+Pause_em0030_Mov_IdleLoop
+Pause_em0040_freeze
+Pause_em0040_Mov_Dash
+Pause_em0050_freeze
+Pause_em0060_freeze
+Pause_em0070_freeze
+Pause_em0070_Mov_IdleLoop
+Pause_em0080_freeze
+Pause_em00a0_freeze
+Pause_em00b0_freeze
+Pause_em00c0_freeze
+Pause_em00d0_freeze
+Pause_em00e0_freeze
+Pause_em0100_freeze
+Pause_em0100_Mov_IdleLoop
+Pause_em0110_freeze
+Pause_em0130_freeze
+Pause_em0150_freeze
+Pause_em0150_Mov_IdleLoop
+Pause_em0180_Mov_DownIdleLoop
+Pause_em0180_Mov_IdleLoop
+Pause_em4001_Mov_DownIdleLoop
+Pause_em4001_Mov_IdleLoop
+Pause_em4006_Mov_Dash
+pf11_Em_Mute
+pf11_Em_UnMute
+pl0000_Fir_Shoot_Normal
+pl0020_Fir_FreezeShot
+pl0020_Mov_freezing
+pl0020_Mov_PreFreezing
+pl0030_Chg_Shoot_Charge
+pl0030_Chg_Shoot_Charge_DRC
+pl0040_Fir_SlowIn
+pl0040_Fir_SlowOut
+pl0050_Atk_BeamFiring
+pl0050_Chg_Shoot_Charge_DRC
+pl0050_Mov_BeamCharge
+pl0070_Mov_Lockon
+pl0080_Mov_IdleLoop
+pl0090_Mov_ShotReload
+pl_CameraCatch
+pl_CameraChange
+pl_CameraExp
+pl_CameraExp_DRC
+pl_CameraExp_TV
+pl_CameraPowerOn
+pl_CameraPut
+pl_CameraReleasePut
+pl_CameraRotate
+Px10_ev_InComingAlert
+Px10_ev_InComingAlert_DRC
+Resume_core_em_PreDeath
+Resume_em0010_Mov_DownIdleLoop
+Resume_em0010_Mov_IdleLoop
+Resume_em0030_Mov_IdleLoop
+Resume_em0040_Mov_Dash
+Resume_em0070_Mov_IdleLoop
+Resume_em0100_Mov_IdleLoop
+Resume_em0150_Mov_IdleLoop
+Resume_em0180_Mov_DownIdleLoop
+Resume_em0180_Mov_IdleLoop
+Resume_em4001_Mov_DownIdleLoop
+Resume_em4001_Mov_IdleLoop
+Resume_em4006_Mov_Dash
+SE_HeadphoneMode_Off
+SE_HeadphoneMode_On
+SE_Init_Default
+se_init_p
+SE_Init_p001
+SE_Init_p110
+SE_Init_p119
+SE_Init_p319
+SE_Init_p519
+SE_Init_pA10
+SE_Init_pE40
+SE_Init_pF03
+SE_Init_pF09
+SE_Pause_in
+SE_Pause_out
+SE_Restart_in
+Set_R
+Stop_bm0004_SandDrape
+Stop_bm0005_SandDrape
+Stop_core_AmiboIn
+Stop_core_em_OilSlip
+Stop_core_em_PreDeath
+Stop_core_Mov_ShieldAppear
+Stop_core_UI_EditorUploading
+Stop_core_UI_RankScale
+Stop_core_UI_RecordUploading
+Stop_core_UI_Result_Win_Efx
+Stop_core_UI_ScanLib
+Stop_core_UI_vo_Warning
+Stop_core_UI_vo_Warning_DRC
+Stop_em0000_All
+Stop_em0010_All
+Stop_em0010_Mov_DownIdleLoop
+Stop_em0010_Mov_IdleLoop
+Stop_em0020_All
+Stop_em0020_CameraCarried
+Stop_em0030_All
+Stop_em0030_Atk_Charge
+Stop_em0030_Dmg_ElecLoop
+Stop_em0030_Mov_IdleLoop
+Stop_em0030_Mov_ShieldAppear
+Stop_em0040_All
+Stop_em0040_Mov_Dash
+Stop_em0050_All
+Stop_em0050_Mov_PreBombB
+Stop_em0060_All
+Stop_em0060_Mov_Cattle
+Stop_em0060_Mov_IdleLoop
+Stop_em0070_All
+Stop_em0070_Mov_IdleLoop
+Stop_em0080_All
+Stop_em0080_Mov_Fall_lp
+Stop_em00a0_All
+Stop_em00a0_Fir_JammingSignal
+Stop_em00b0_All
+Stop_em00c0_All
+Stop_em00c0_Mov_RunJetLoop
+Stop_em00d0_All
+Stop_em00d0_Dmg_Action
+Stop_em00d0_Mov_AllMagnetic
+Stop_em00d0_Mov_IdleLoop
+Stop_em00d0_Mov_Magnetic
+Stop_em00d0_Mov_PreMagnetic
+stop_em00e0_All
+Stop_em0100_All
+Stop_em0100_Mov_IdleLoop
+Stop_em0110_All
+Stop_em0110_Mov_All
+Stop_em0110_Mov_FlyBomb_Down
+Stop_em0130_All
+Stop_em0130_Dmg_IdleLoop
+Stop_em0130_Mov_IdleLoop
+Stop_em0130_Mov_PreDash
+Stop_em0150_All
+Stop_em0150_Atk_FunWind_Lp
+Stop_em0150_Mov_IdleLoop
+Stop_em0160_DrillAttack
+Stop_em0180_All
+Stop_em0180_Atk_All
+Stop_em0180_Mov_DownIdleLoop
+Stop_em0180_Mov_IdleLoop
+Stop_em4000_All
+Stop_em4001_All
+Stop_em4001_Mov_DownIdleLoop
+Stop_em4001_Mov_IdleLoop
+Stop_em4002_All
+Stop_em4002_Mov_Fall_lp
+Stop_em4003_All
+Stop_em4004_All
+Stop_em4004_Mov_Cattle
+Stop_em4004_Mov_IdleLoop
+Stop_em4005_All
+Stop_em4006_All
+Stop_em4006_Mov_Dash
+Stop_em4007_All
+Stop_em4007_Dmg_IdleLoop
+Stop_em4007_Mov_IdleLoop
+Stop_em4007_Mov_PreDash
+Stop_em4008_All
+Stop_em4008_Mov_All
+Stop_em4008_Mov_FlyBomb_Down
+Stop_em_common_DummyLP
+Stop_pl0020_Fir_FreezeShot
+Stop_pl0020_Mov_PreFreezing
+Stop_pl0030_Chg_Shoot_Charge
+Stop_pl0030_Chg_Shoot_Charge_DRC
+Stop_pl0050_Atk_BeamFiring
+Stop_pl0050_Chg_Shoot_Charge_DRC
+Stop_pl0050_Mov_BeamCharge
+Stop_pl0080_Mov_IdleLoop
+Stop_pl_CameraRotate
+Stop_Px10_ev_InComingAlert
+UnMute_pl_CameraRotate
+# 6914000
+# 27521234
+# 68448946
+# 95865884
+# 113772784
+# 117296903
+# 144164326
+# 166287188
+# 166287191
+# 179342694
+# 182249246
+# 183064776
+# 183064779
+# 187212870
+# 199842493
+# 199842494
+# 205562247
+# 216620077
+# 216620078
+# 217482356
+# 252031761
+# 284068942
+# 284563888
+# 293741214
+# 307989918
+# 312928421
+# 391113297
+# 453432338
+# 484293312
+# 531585838
+# 616927646
+# 618159944
+# 631493633
+# 725385619
+# 729362011
+# 758202829
+# 767482921
+# 779951433
+# 801682829
+# 831653634
+# 863579301
+# 909652190
+# 926401916
+# 928016159
+# 933068221
+# 940847495
+# 945206074
+# 947142941
+# 999704072
+# 1008696161
+# 1028998879
+# 1094018415
+# 1098829902
+# 1114258041
+# 1150731419
+# 1155178859
+# 1155179246
+# 1179008475
+# 1260840183
+# 1267201982
+# 1289655577
+# 1349319865
+# 1356279739
+# 1403973379
+# 1427769321
+# 1464001922
+# 1490987041
+# 1494879649
+# 1495533379
+# 1505590193
+# 1506500124
+# 1531618975
+# 1559696034
+# 1562643723
+# 1567310670
+# 1584469213
+# 1593910936
+# 1594803650
+# 1599672647
+# 1601753291
+# 1616864325
+# 1687521038
+# 1703409615
+# 1708786562
+# 1727217463
+# 1797974435
+# 1808477704
+# 1867562931
+# 1867940011
+# 1887235590
+# 1925141926
+# 1947727242
+# 2019877540
+# 2021417868
+# 2089532485
+# 2092344080
+# 2120077505
+# 2130428890
+# 2180265710
+# 2187987376
+# 2201299460
+# 2214536212
+# 2290863997
+# 2367282796
+# 2391763131
+# 2476995316
+# 2484886113
+# 2534763097
+# 2587969377
+# 2671700532
+# 2730597831
+# 2746729823
+# 2822861364
+# 2895177648
+# 2914785286
+# 2938299371
+# 2938299380
+# 2939432132
+# 2939432155
+# 2994351527
+# 3002369681
+# 3091429500
+# 3091429501
+# 3091429503
+# 3098331728
+# 3159572108
+# 3174467386
+# 3240299515
+# 3301430129
+# 3342130564
+# 3342897026
+# 3343023690
+# 3360232698
+# 3371662621
+# 3375798858
+# 3400845575
+# 3457476685
+# 3491988503
+# 3547166922
+# 3651549870
+# 3659270489
+# 3675001781
+# 3684437764
+# 3693832264
+# 3699186804
+# 3713912715
+# 3726975477
+# 3746401920
+# 3802599221
+# 3803125892
+# 3851066283
+# 3910840749
+# 3914144085
+# 3920004587
+# 3989040032
+# 3989040033
+# 3989040034
+# 3989040035
+# 3989040036
+# 3989040037
+# 3989040038
+# 3989040039
+# 3989040040
+# 3989040041
+# 4005817617
+# 4005817618
+# 4005817619
+# 4008922045
+# 4039519952
+# 4039519953
+# 4039519954
+# 4039519955
+# 4039519956
+# 4039519957
+# 4039519958
+# 4039519959
+# 4039519960
+# 4039519961
+# 4055514083
+# 4056150500
+# 4056150501
+# 4056150504
+# 4056150505
+# 4056150506
+# 4056150507
+# 4056150508
+# 4056150509
+# 4056150510
+# 4056150511
+# 4056297536
+# 4056297537
+# 4056297538
+# 4056297539
+# 4056297540
+# 4056297541
+# 4056297542
+# 4056297543
+# 4056297546
+# 4056297547
+# 4072928086
+# 4072928087
+# 4072928088
+# 4072928089
+# 4072928090
+# 4072928091
+# 4072928092
+# 4072928093
+# 4072928094
+# 4072928095
+# 4073075248
+# 4073075249
+# 4073075250
+# 4073075251
+# 4073075252
+# 4073075253
+# 4073075254
+# 4073075255
+# 4073075262
+# 4073075263
+# 4077720847
+# 4083240598
+# 4084754500
+# 4085647667
+# 4089705776
+# 4089705777
+# 4089705778
+# 4089705779
+# 4089705780
+# 4089705781
+# 4089705782
+# 4089705783
+# 4089705786
+# 4089705787
+# 4089852832
+# 4089852833
+# 4089852840
+# 4089852841
+# 4089852842
+# 4089852843
+# 4089852844
+# 4089852845
+# 4089852846
+# 4089852847
+# 4094191998
+# 4106483360
+# 4106483361
+# 4106483362
+# 4106483363
+# 4106483364
+# 4106483365
+# 4106483366
+# 4106483367
+# 4106483372
+# 4106483373
+# 4106630420
+# 4106630421
+# 4106630424
+# 4106630425
+# 4106630426
+# 4106630427
+# 4106630428
+# 4106630429
+# 4106630430
+# 4106630431
+# 4123408006
+# 4123408007
+# 4123408008
+# 4123408009
+# 4123408010
+# 4123408011
+# 4123408012
+# 4123408013
+# 4123408014
+# 4123408015
+# 4140185696
+# 4140185697
+# 4140185698
+# 4140185699
+# 4140185700
+# 4140185701
+# 4140185702
+# 4140185703
+# 4140185706
+# 4140185707
+# 4144753116
+# 4151216300
+# 4151216303
+# 4156963280
+# 4156963281
+# 4156963282
+# 4156963283
+# 4156963284
+# 4156963286
+# 4156963287
+# 4156963292
+# 4156963293
+# 4159070318
+# 4189692024
+# 4211426008
+# 4235398726
+# 4254958044
+# 4274406610
+# 4274406611
+# 4274406616
+# 4274406617
+# 4274406618
+# 4274406619
+# 4274406620
+# 4274406621
+# 4274406622
+# 4274406623
+# 4291184196
+# 4291184197
+# 4291184200
+# 4291184201
+# 4291184202
+# 4291184203
+# 4291184204
+# 4291184205
+# 4291184206
+# 4291184207
+
+### SFX NAMES (core.bnk)
+# 536826045
+# 787003116
+# 386970823
+# 807319932
+# 814461633
+# 544839262
+# 10721255
+# 1002689466
+# 932853383
+# 598789295
+# 148453701
+# 1015797238
+# 900237937
+# 953607294
+# 453773269
+# 810306363
+# 758684725
+# 138509196
+# 11795630
+# 1048106135
+# 330431672
+# 813922101
+# 128084815
+# 129574130
+
+### RTPC/GAME-VARIABLE NAMES (core.bnk)
+core_BreakCameraNum
+core_UI_AtkPointCnt
+core_UI_RankMove
+em_CommonSpeed
+em_MoveSpeed
+pl_HeriElevation
+pl_Mov_HeadSpeed
+pl_RareMetalCnt
+SE_HeadphoneMode
+# 1429906094
+# 510175621
+# 1901595527
+# 85643140
+# 3583409031
+
+### VARIABLE NAMES (core.bnk)
+pl_RareMetalCnt
+pl_scale
+SE_common_EndFade
+SE_HeadphoneMode
+# 1041794905
+# 2426396433
+# 544145916
+# 1762090645
+# 3623116103
+# 3508601203
+# 199637522
+# 264480686
+# 1690509510
+# 2305625810
+
+### VALUE NAMES (core.bnk)
+boss
+FAILED
+High
+LOSe
+none
+normal
+off
+ON
+Success
+WIn
+# 1538491726
+# 4274863331
+# 1229367548
+# 2909030862
+# 3233156510
+# 2620994421
+# 2063853864
+# 3699414990
+# 2411178235
+# 124228292
+
+### EVENT NAMES (em1100.bnk)
+em1100_Atk_ArmDownStomp
+em1100_Atk_BodyPress
+em1100_Atk_BodyPressLand
+em1100_Atk_DrillAttack
+em1100_Atk_DrillPass
+em1100_Dmg_ElecLoop
+em1100_exp_Damage
+em1100_exp_Death
+em1100_Mov_Anger
+em1100_Mov_ArmClose
+em1100_Mov_ArmDownWsh
+em1100_Mov_ArmLand
+em1100_Mov_ArmLiftup
+em1100_Mov_ArmOpen
+em1100_Mov_BackStepWsh
+em1100_Mov_Blackout
+em1100_Mov_DrillClose
+em1100_Mov_DrillOpen
+em1100_Mov_DrillRoll
+em1100_Mov_DrillWalkFootStep
+em1100_Mov_DrillWalkFootStep_S
+em1100_Mov_DrillWalkLegMove
+em1100_Mov_FlyCharge
+em1100_Mov_FootStep
+em1100_Mov_FootStep_S
+em1100_Mov_KnockBack
+em1100_Mov_Land
+em1100_Mov_LegMove
+em1100_Mov_PoorBalance
+em1100_Mov_PostDrillAttack
+em1100_Mov_PreDrillAttack
+em1100_Mov_PreDrillWalk
+Stop_em1100_All
+Stop_em1100_Atk_BodyPress
+Stop_em1100_Damage
+Stop_em1100_Dmg_ElecLoop
+Stop_em1100_Mov_Blackout
+Stop_em1100_Mov_DrillRoll
+Stop_em1100_Mov_FlyCharge
+# 605058645
+# 987213220
+# 2465526824
+# 2664813933
+# 2719900832
+# 2719900833
+# 2719900834
+# 2719900835
+# 2719900837
+# 2719900838
+# 2719900839
+# 2719900844
+# 2719900845
+# 2736678416
+# 2736678417
+# 2736678418
+# 2736678419
+# 2736678420
+# 2736678421
+# 2736678422
+# 2736678423
+# 2736678430
+# 2736678431
+# 2753456002
+# 2753456003
+# 2753456008
+# 2753456009
+# 2753456010
+# 2753456011
+# 2753456012
+# 2753456013
+# 2753456014
+# 2753456015
+# 2759290938
+# 2770233724
+# 2770233725
+# 2770233727
+# 3211792536
+# 3302635973
+# 3758725677
+# 4147059455
+
+### SFX NAMES (em1100.bnk)
+# 655387542
+
+### RTPC/GAME-VARIABLE NAMES (em1100.bnk)
+em1100_BallCount
+em_CommonSpeed
+
+### VARIABLE NAMES (em1100.bnk)
+# 2305625810
+
+### VALUE NAMES (em1100.bnk)
+High
+
+### EVENT NAMES (em1200.bnk)
+em1200_exp_Damage
+em1200_exp_Death
+em1200_Mov_EggAppear
+em1200_Mov_FlyDash
+em1200_Mov_FlyEggFall
+em1200_Mov_FlyTurn
+em1200_Mov_HatchCl
+em1200_Mov_HatchOp
+em1200_Mov_Head_EngineLp
+em1200_Mov_HeadFallDown
+em1200_Mov_HeadMoveSt
+em1200_Mov_HeadNeckDrop
+em1200_Mov_HeadRush_Charge
+em1200_Mov_HeadRush_Rush
+em1200_Mov_KnockBack
+em1200_Mov_PreRush
+em1200_Mov_SonicBoomCharge
+em1200_Mov_SonicBoomFiring
+em1200_Mov_SonicBoomPreAct
+em1200_Mov_TowerPull_Catch
+em1200_Mov_TowerPull_PullAct_A
+em1200_Mov_TowerPull_PullAct_B
+em1200_Mov_TowerPull_PullEnd
+em1200_Mov_TurnWsh
+em1200_Mov_WingFast
+em1200_Mov_WingSlow
+em1200_vo_Death
+em1200_vo_Disappear
+em1200_vo_DmgL
+em1200_vo_DmgS
+em1200_vo_EggFall
+em1200_vo_evPreAppear
+em1200_vo_NeakRush
+em1200_vo_NeckAppear
+em1200_vo_NeckMove
+em1200_vo_PostTowerPull
+em1200_vo_PreNeakRush
+em1200_vo_PreRushA
+em1200_vo_PreRushB
+em1200_vo_PreSonicBoom
+em1200_vo_PreTowerPull_A
+em1200_vo_PreTowerPull_B
+em1200_vo_PreTowerPull_C
+em1200_vo_PreTowerPull_D
+em1200_vo_Rush
+em1200_vo_SonicBoom
+em1200_vo_TowerPull
+Stop_em1200_All
+Stop_em1200_Mov_FlyDash
+Stop_em1200_Mov_FlyEggFall
+Stop_em1200_Mov_FlyTurn
+Stop_em1200_Mov_Head_EngineLp
+# 1897688770
+# 3210474932
+# 3210474933
+# 3210474936
+# 3210474937
+# 3210474938
+# 3210474939
+# 3210474940
+# 3210474941
+# 3210474942
+# 3210474943
+# 3227252518
+# 3227252519
+# 3227252520
+# 3227252521
+# 3227252522
+# 3227252523
+# 3227252524
+# 3227252525
+# 3227252526
+# 3244030080
+# 3244030082
+# 3244030083
+# 3260807792
+# 3260807793
+# 3260807794
+# 3260807795
+# 3260807796
+# 3260807797
+# 3260807798
+# 3260807799
+# 3260807804
+# 3260807805
+
+### RTPC/GAME-VARIABLE NAMES (em1200.bnk)
+em_CommonSpeed
+
+### EVENT NAMES (em1300.bnk)
+em0180_Mov_Summons
+em1300_Atk_RushWsh
+em1300_Atk_WingWind
+em1300_Chg_Cannon
+em1300_Chg_MegaParticle
+em1300_Dmg_DeathFall
+em1300_Dmg_FinishBound
+em1300_exp_Damage
+em1300_exp_Death
+em1300_Fir_Cannon
+em1300_Fir_MegaParticle
+em1300_Fir_MegaParticleEnd
+em1300_Mov_DevilAppear
+em1300_Mov_JawOpen
+em1300_Mov_KnockBack
+em1300_Mov_MegaCannonClose
+em1300_Mov_MegaCannonOpen
+em1300_Mov_PlanetFly
+em1300_Mov_PowerDonw
+em1300_Mov_PreRush
+em1300_Mov_PreWingWind
+em1300_Mov_Restert
+em1300_Mov_Transform_Falldown
+em1300_Mov_Transform_JawHorn
+em1300_Mov_Transform_OpenEye
+em1300_Mov_Transform_OpenWing
+em1300_Mov_WingWsh
+em1300_Mov_WingWshRet
+em1300_Wsh_WingWind
+em1300_Wsh_WingWind_Fin
+Stop_em1300_All
+Stop_em1300_Atk_RushWsh
+Stop_em1300_Atk_WingWind
+Stop_em1300_Chg_Cannon
+Stop_em1300_Chg_MegaParticle
+Stop_em1300_EVENT
+Stop_em1300_Fir_MegaParticle
+Stop_em1300_Mov_PlanetFly
+# 16794916
+# 209205976
+# 209205977
+# 209205980
+# 209205981
+# 209205982
+# 209205983
+# 242761248
+# 242761249
+# 242761251
+# 242761252
+# 242761253
+# 242761254
+# 242761255
+# 242761258
+# 242761259
+# 259538832
+# 259538833
+# 259538834
+# 259538835
+# 259538836
+# 259538837
+# 259538838
+# 259538839
+# 259538844
+# 259538845
+# 276114987
+# 1227955117
+# 1490531461
+# 1543429027
+# 1695430652
+# 1718504625
+# 2794507205
+# 2853402488
+# 2946694318
+# 3268537245
+# 3407312391
+# 3744827090
+# 3789296504
+# 3837842064
+# 3854057636
+# 4019673728
+
+### RTPC/GAME-VARIABLE NAMES (em1300.bnk)
+em_CommonSpeed
+# 3583409031
+# 1901595527
+
+### VARIABLE NAMES (em1300.bnk)
+# 3508601203
+# 544145916
+# 1762090645
+
+### VALUE NAMES (em1300.bnk)
+boss
+off
+ON
+
+### EVENT NAMES (pe40_se.bnk)
+Stop_pE40_All
+# 1222203807
+# 2499316432
+# 2499316434
+# 2499316435
+# 2516094016
+# 2516094017
+# 2516094018
+# 2516094019
+# 2516094020
+# 2516094022
+# 2516094023
+# 2516094028
+# 2516094029
+# 3074151380
+
+### EVENT NAMES (pf09_se.bnk)
+pF09_Mov_ArticleSheet
+pF09_Mov_CardAppear
+pF09_Mov_Type
+Stop_pF09_All
+# 308306221
+# 625099639
+# 1013346780
+# 1782867232
+# 1946161002
+# 3268812884
+# 3268812885
+# 3268812888
+# 3268812889
+# 3268812890
+# 3268812891
+# 3268812892
+# 3268812893
+# 3268812894
+# 3268812895
+# 3285590470
+# 3285590471
+# 3285590472
+# 3285590473
+# 3285590474
+# 3285590475
+# 3285590476
+# 3285590477
+# 3285590478
+# 3302368160
+# 3302368162
+# 3302368163
+# 3319145744
+# 3319145745
+# 3319145746
+# 3319145747
+# 3319145748
+# 3319145749
+# 3319145750
+# 3319145751
+# 3319145756
+# 3319145757
+# 3734131375
+
+### EVENT NAMES (pf11_se.bnk)
+pF11_ev_AttentionSignal
+pF11_ev_em3000_Voice1
+pF11_ev_em3000_Voice2
+pF11_ev_em3000_Voice3
+pF11_ev_em3000_Voice4
+pF11_ev_Spotlight
+# 40612576
+# 40612577
+# 40612578
+# 40612579
+# 40612581
+# 40612582
+# 40612583
+# 40612588
+# 40612589
+# 57390160
+# 57390161
+# 57390162
+# 57390163
+# 57390164
+# 57390165
+# 57390166
+# 57390167
+# 57390174
+# 57390175
+# 74167746
+# 74167747
+# 74167752
+# 74167753
+# 74167754
+# 74167755
+# 74167756
+# 74167757
+# 74167758
+# 74167759
+# 90945460
+# 90945461
+# 90945464
+# 90945465
+# 90945466
+# 90945467
+# 90945468
+# 90945469
+# 90945470
+# 90945471
+
+### EVENT NAMES (pf14_se.bnk)
+Stop_pf14_All
+# 238983978
+# 570998371
+# 694977992
+# 1095108727
+# 1162042837
+# 2401357168
+# 3458154609
+# 3721713200
+# 3721713201
+# 3721713202
+# 3721713203
+# 3721713206
+# 3721713207
+# 3738490784
+# 3738490785
+# 3738490786
+# 3738490787
+# 3738490788
+# 3738490790
+# 3738490791
+# 3738490796
+# 3738490797
+
+### EVENT NAMES (pl0000.bnk)
+Stop_pl0000_All
+
+### EVENT NAMES (pl0100.bnk)
+pl0100_Mov_ArwingEngine_Falco
+pl0100_Mov_ArwingEngine_Fox
+pl0100_Mov_ArwingEngine_Peppy
+pl0100_Mov_ArwingEngine_Slippy
+pl0100_Mov_ArwingPass_Falco
+pl0100_Mov_ArwingPass_Fox
+pl0100_Mov_ArwingPass_Peppy
+pl0100_Mov_ArwingPass_Slippy
+pl0100_Mov_Boost
+pl0100_Mov_CirclingStart
+pl0100_Mov_engine
+Set_pl0100_Mov_ArwingEngine_Falco
+Set_pl0100_Mov_ArwingEngine_Fox
+Set_pl0100_Mov_ArwingEngine_Peppy
+Set_pl0100_Mov_ArwingEngine_Slippy
+Stop_pl0100
+Stop_pl0100_All
+Stop_pl0100_Mov_ArwingEngine_Falco
+Stop_pl0100_Mov_ArwingEngine_Fox
+Stop_pl0100_Mov_ArwingEngine_Peppy
+Stop_pl0100_Mov_ArwingEngine_Slippy
+Stop_pl0100_Mov_engine
+# 1249305600
+# 1249305601
+# 1249305602
+# 1249305603
+# 1249305604
+# 1249305605
+# 1249305606
+# 1249305607
+# 1249305608
+# 1249305609
+# 1266083312
+# 1266083313
+# 1266083314
+# 1266083315
+# 1266083316
+# 1266083317
+# 1266083318
+# 1266083319
+# 1266083322
+# 1266083323
+# 1282860896
+# 1282860897
+# 1282860898
+# 1282860899
+# 1282860900
+# 1282860901
+# 1282860902
+# 1282860903
+# 1282860910
+# 1282860911
+# 1299638480
+# 1299638481
+# 1299638488
+# 1299638490
+# 1299638491
+# 1299638492
+# 1299638493
+# 1299638494
+# 1299638495
+# 1366748928
+# 1366748929
+# 1366748930
+# 1366748931
+# 1366748932
+# 1366748933
+# 1366748934
+# 1366748935
+# 1391877134
+# 2291496701
+# 3304225468
+# 3387193648
+
+### VARIABLE NAMES (pl0100.bnk)
+pl_scale
+
+### VALUE NAMES (pl0100.bnk)
+none
+# 3699414990
+# 2411178235
+# 124228292
+
+### EVENT NAMES (pl1000.bnk)
+pl1000_Mov_1BullionAppear
+pl1000_Mov_1BullionLand
+pl1000_Mov_3BullionAppear
+pl1000_Mov_3BullionLand
+pl1000_Mov_4BullionAppear
+pl1000_Mov_4BullionLand
+pl1000_Mov_CoverCl
+pl1000_Mov_CoverCl_Chibi
+pl1000_Mov_CoverOp
+pl1000_Mov_FrontStep
+pl1000_Mov_FrontStep_Chibi
+pl1000_Mov_HiJump
+pl1000_Mov_HiJump_Chibi
+pl1000_Mov_ImageryAppear
+pl1000_Mov_ImageryLand
+pl1000_Mov_JumpMove
+pl1000_Mov_QuickAngle
+pl1000_Mov_QuickAngle_Chibi
+pl1000_Mov_RearStep
+pl1000_Mov_RearStep_Chibi
+pl1000_Mov_Roll
+pl1000_Mov_Roll_Chibi
+pl1000_Mov_Sitdown
+pl1000_Mov_Slide
+pl1000_Mov_Standup
+pl1000_Mov_VacuumAct
+pl1000_vo_BodySlide
+pl1000_vo_ChibiDeath
+pl1000_vo_Death
+pl1000_vo_Jump
+pl1000_vo_Jump_Chibi
+pl1000_vo_PostVacuum
+pl1000_vo_PreVacuum
+pl1000_vo_Run
+pl1000_vo_Scare
+pl1000_vo_Search
+pl1000_vo_Song
+pl1000_vo_VacuumEat
+Stop_pl1000_All
+Stop_pl1000_Mov_Slide
+Stop_pl1000_Mov_VacuumAct
+Stop_pl1000_vo_BodySlide
+# 81000200
+# 368895658
+# 1005722347
+# 1167943818
+# 3988936024
+# 3988936025
+# 3988936026
+# 3988936027
+# 3988936028
+# 3988936029
+# 4005713602
+# 4005713603
+# 4005713608
+# 4005713609
+# 4005713610
+# 4005713612
+# 4005713613
+# 4005713614
+# 4005713615
+
+### EVENT NAMES (vo_core.bnk)
+CORE_MSG_SLIPPY_001
+MSG_CAP_FIRSTTIME_002
+MSG_CAP_FIRSTTIME_003
+MSG_CAP_FIRSTTIME_004
+MSG_CAP_FIRSTTIME_005
+MSG_CAP_FIRSTTIME_006
+MSG_CAP_FIRSTTIME_008
+MSG_FOX_5STAGE_001
+MSG_FOX_5STAGE_002
+MSG_FOX_5STAGE_004
+MSG_FOX_FIRSTTIME_001
+MSG_FOX_FIRSTTIME_002
+MSG_FOX_FIRSTTIME_003
+MSG_OJI_5STAGE_001
+MSG_OJI_5STAGE_002
+MSG_OJI_5STAGE_003
+MSG_OJI_5STAGE_004
+MSG_OJI_CORE_VOICESE_01
+MSG_OJI_CORE_VOICESE_02
+MSG_OJI_CORE_VOICESE_03
+MSG_OJI_CORE_VOICESE_04
+MSG_OJI_CORE_VOICESE_05
+MSG_OJI_FIRSTTIME_001
+MSG_OJI_FIRSTTIME_002
+MSG_OJI_FIRSTTIME_003
+MSG_OJI_FIRSTTIME_004
+MSG_OJI_FIRSTTIME_006
+MSG_OJI_FIRSTTIME_008
+MSG_OJI_FIRSTTIME_009
+MSG_OJI_FIRSTTIME_010
+MSG_OJI_FIRSTTIME_011
+MSG_OJI_FIRSTTIME_012
+MSG_OJI_FIRSTTIME_013
+MSG_OJI_FIRSTTIME_014
+MSG_OJI_FIRSTTIME_015
+MSG_OJI_FIRSTTIME_016
+MSG_OJI_FIRSTTIME_017
+MSG_OJI_PREMISSION_2ST_001
+MSG_OJI_PREMISSION_2ST_002
+MSG_OJI_PREMISSION_2ST_003
+MSG_OJI_PREMISSION_2ST_004
+MSG_OJI_PREMISSION_3ST_001
+MSG_OJI_PREMISSION_3ST_002
+MSG_OJI_PREMISSION_3ST_003
+MSG_OJI_PREMISSION_3ST_004
+MSG_OJI_PREMISSION_4ST_001
+MSG_OJI_PREMISSION_4ST_002
+MSG_OJI_PREMISSION_4ST_003
+MSG_OJI_PREMISSION_4ST_004
+MSG_OJI_PREMISSION_4ST_005
+MSG_OJI_PREMISSION_5ST_001
+MSG_OJI_PREMISSION_5ST_002
+MSG_OJI_PREMISSION_5ST_003
+MSG_OJI_PREMISSION_5ST_007
+MSG_OJI_PREMISSION_5ST_011
+MSG_PIGMA_4STAGE_001
+MSG_PIGMA_4STAGE_002
+MSG_PIGMA_4STAGE_003
+MSG_PIGMA_4STAGE_004
+MSG_PIGMA_4STAGE_005
+MSG_PIGMA_4STAGE_006
+MSG_PIGMA_4STAGE_007
+MSG_PIGMA_5STAGE_001
+MSG_PIGMA_5STAGE_002
+MSG_PIGMA_5STAGE_003
+MSG_PIGMA_5STAGE_004
+MSG_PIGMA_5STAGE_005
+MSG_PIGMA_5STAGE_006
+MSG_PIGMA_5STAGE_007
+MSG_PIGMA_5STAGE_009
+MSG_PIGMA_5STAGE_010
+MSG_PIGMA_5STAGE_013
+MSG_PIGMA_5STAGE_014
+MSG_PIGMA_5STAGE_015
+MSG_PIGMA_PREMISSION_5ST_004
+MSG_PIGMA_PREMISSION_5ST_006
+MSG_PIGMA_PREMISSION_5ST_008
+MSG_PIGMA_PREMISSION_5ST_009
+MSG_PIGMA_PREMISSION_5ST_011
+MSG_SLIPPY_1STAGE_001
+MSG_SLIPPY_1STAGE_002
+MSG_SLIPPY_1STAGE_003
+MSG_SLIPPY_1STAGE_004
+MSG_SLIPPY_1STAGE_007
+MSG_SLIPPY_1STAGE_008
+MSG_SLIPPY_1STAGE_009
+MSG_SLIPPY_1STAGE_010
+MSG_SLIPPY_1STAGE_011
+MSG_SLIPPY_1STAGE_014
+MSG_SLIPPY_2STAGE_001
+MSG_SLIPPY_2STAGE_002
+MSG_SLIPPY_2STAGE_004
+MSG_SLIPPY_2STAGE_009
+MSG_SLIPPY_2STAGE_010
+MSG_SLIPPY_2STAGE_011
+MSG_SLIPPY_2STAGE_012
+MSG_SLIPPY_2STAGE_013
+MSG_SLIPPY_2STAGE_014
+MSG_SLIPPY_3STAGE_001
+MSG_SLIPPY_3STAGE_002
+MSG_SLIPPY_3STAGE_003
+MSG_SLIPPY_3STAGE_009
+MSG_SLIPPY_3STAGE_010
+MSG_SLIPPY_3STAGE_012
+MSG_SLIPPY_3STAGE_013
+MSG_SLIPPY_3STAGE_017
+MSG_SLIPPY_4STAGE_001
+MSG_SLIPPY_4STAGE_002
+MSG_SLIPPY_4STAGE_005
+MSG_SLIPPY_4STAGE_009
+MSG_SLIPPY_4STAGE_010
+MSG_SLIPPY_4STAGE_012
+MSG_SLIPPY_4STAGE_013
+MSG_SLIPPY_4STAGE_014
+MSG_SLIPPY_4STAGE_017
+MSG_SLIPPY_4STAGE_018
+MSG_SLIPPY_5STAGE_001
+MSG_SLIPPY_5STAGE_002
+MSG_SLIPPY_5STAGE_003
+MSG_SLIPPY_5STAGE_004
+MSG_SLIPPY_5STAGE_005
+MSG_SLIPPY_5STAGE_006
+MSG_SLIPPY_5STAGE_007
+MSG_SLIPPY_5STAGE_008
+MSG_SLIPPY_5STAGE_009
+MSG_SLIPPY_5STAGE_010
+MSG_SLIPPY_5STAGE_014
+MSG_SLIPPY_5STAGE_016
+MSG_SLIPPY_CORE_VOICESE_01
+MSG_SLIPPY_CORE_VOICESE_02
+MSG_SLIPPY_CORE_VOICESE_03
+MSG_SLIPPY_CORE_VOICESE_04
+MSG_SLIPPY_CORE_VOICESE_05
+MSG_SLIPPY_CORE_VOICESE_06
+MSG_SLIPPY_CORE_VOICESE_07
+MSG_SLIPPY_CORE_VOICESE_08
+MSG_SLIPPY_CORE_VOICESE_09
+MSG_SLIPPY_CORE_VOICESE_10
+MSG_SLIPPY_FIRSTTIME_001
+MSG_SLIPPY_FIRSTTIME_004
+MSG_SLIPPY_FIRSTTIME_005
+MSG_SLIPPY_FIRSTTIME_006
+MSG_SLIPPY_FIRSTTIME_007
+MSG_SLIPPY_FIRSTTIME_008
+MSG_SLIPPY_FIRSTTIME_009
+MSG_SLIPPY_FIRSTTIME_010
+MSG_SLIPPY_FIRSTTIME_011
+MSG_SLIPPY_FIRSTTIME_013
+MSG_SLIPPY_FIRSTTIME_014
+MSG_SLIPPY_FIRSTTIME_015
+MSG_SLIPPY_FIRSTTIME_018
+MSG_SLIPPY_FIRSTTIME_019
+MSG_SLIPPY_FIRSTTIME_100
+MSG_SLIPPY_FIRSTTIME_101
+MSG_SLIPPY_FIRSTTIME_102
+MSG_SLIPPY_FIRSTTIME_103
+MSG_SLIPPY_FIRSTTIME_104
+MSG_SLIPPY_FIRSTTIME_105
+MSG_SLIPPY_FIRSTTIME_106
+MSG_SLIPPY_FIRSTTIME_107
+MSG_SLIPPY_FIRSTTIME_108
+MSG_SLIPPY_FIRSTTIME_109
+MSG_SLIPPY_FIRSTTIME_110
+MSG_SLIPPY_FIRSTTIME_111
+MSG_SLIPPY_FIRSTTIME_112
+MSG_SLIPPY_PREMISSION_5ST_005
+MSG_SLIPPY_PREMISSION_5ST_012
+Stop_vo_core_MSG
+# 1021740434
+# 1021740435
+# 1021740436
+# 1909996464
+# 1909996465
+# 1909996466
+# 1909996468
+# 1909996469
+# 1909996471
+# 1909996478
+# 1909996479
+# 1926774056
+# 1926774057
+# 1926774058
+# 1926774059
+# 1926774060
+# 1926774061
+# 1926774063
+# 2106163664
+# 2106163667
+# 2106163668
+# 2106163669
+# 2504636901
+# 2932029342
+# 2948807024
+# 2948807026
+# 2948807027
+# 2948807028
+# 2948807029
+# 2948807032
+# 2948807033
+
+### RTPC/GAME-VARIABLE NAMES (vo_core.bnk)
+SE_HeadphoneMode
+
+
+### MISSING EVENT NAMES (p219_se.bnk)
+# 661353040
+# 661353041
+# 661353049
+# 661353050
+# 661353051
+# 661353052
+# 661353053
+# 661353054
+# 661353055
+# 678130626
+# 678130627
+# 678130632
+# 678130633
+# 678130634
+# 678130635
+# 678130636
+# 678130637
+# 678130638
+# 678130639
+# 694908346
+# 694908348
+# 694908349
+# 694908350
+# 694908351
+
+### MISSING EVENT NAMES (p419_se.bnk)
+# 641381528
+# 641381529
+# 641381530
+# 641381531
+# 641381532
+# 674936822
+# 674936823
+# 674936824
+# 674936825
+# 674936826
+# 674936827
+# 674936828
+# 674936829
+# 674936831
+# 691714384
+# 691714385
+# 691714386
+# 691714387
+# 691714388
+# 691714389
+# 691714390
+# 691714391
+# 691714392
+# 691714393
