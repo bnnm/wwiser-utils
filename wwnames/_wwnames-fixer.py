@@ -4,13 +4,14 @@
 # - add words.py reversed names, format "3933301714: banana"
 # - run this tool (drag and drop)
 #   - this will replace "# 3933301714" by "banana"
-#   - if list has "### (name)" sections (like made with "#@classify-bank"), sections are sorted too
+#   - if list has "### (name)" sections, sections are sorted too
 # - output is "(name)-clean.txt"
 
 import sys, re
 
 FULL_CLEAN = True
 CLEAN_ORDER = True
+UPDATE_ORIGINAL = True
 FNV_FORMAT = re.compile(r"^[A-Za-z_][A-Za-z0-9\_]*$")
 
 
@@ -42,17 +43,17 @@ def get_solved(line):
         return None
     return (sid, hashname)
 
-
+# remove double \n
 def clean_lines(clines):
-    last = -1
-    
-    while not clines[last]:
-        last += -1
+    prev = '****'
+    lines = []
+    for line in clines:
+        if not line and not prev:
+            continue
+        prev = line
+        lines.append(line)
 
-    last += 1
-    if last < -1:
-        clines = clines[:last+1]
-    return clines
+    return lines
 
 def sorter(elem):
     pos = 0
@@ -80,9 +81,11 @@ def order_list(clines):
         s_start = line.startswith('### ')
 
         if (s_end or s_start) and section:
-            slines.sort(key=sorter)
-            lines.append(section)
-            lines.extend(slines)
+            # section end
+            if slines: #only if section has something
+                slines.sort(key=sorter)
+                lines.append(section)
+                lines.extend(slines)
             section = None
             slines = []
 
@@ -99,12 +102,13 @@ def order_list(clines):
             lines.append(line)
 
     # trailing section
-    if section:
+    if section and slines:
         slines.sort(key=sorter)
         lines.append(section)
         lines.extend(slines)
 
     return lines
+
 
 def fix_wwnames(inname):
     blines = []
@@ -144,9 +148,13 @@ def fix_wwnames(inname):
 
         clines.append(bline)
 
-    clines = clean_lines(clines)
     clines = order_list(clines)
-    outname = inname.replace('.txt', '-clean.txt')
+    clines = clean_lines(clines)
+    outname = inname
+    
+    update = UPDATE_ORIGINAL and 'wwnames' in outname
+    if not update:
+        outname = outname.replace('.txt', '-clean.txt')
     with open(outname, 'w', encoding='utf-8') as f:
        f.write('\n'.join(clines))
 
