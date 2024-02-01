@@ -200,6 +200,7 @@ class Words(object):
 
         if count == 0: #'leaf' word (for blah_%d)
             self._add_word(format)
+            self._add_format_pf(b"%s") #may be combined with anything
             return
 
         if count == 1 and b'%s' in format: #'leaf' format (for blah_%i_%s > blah_0_%s, blah_1_%s, ...)
@@ -292,6 +293,7 @@ class Words(object):
     def _add_format_pf(self, format):
         if self._args.format_prefix:
             for pf in self._args.format_prefix:
+                pf = pf.encode('utf-8')
                 self._add_format_sf(pf + format)
         self._add_format_sf(format)
 
@@ -299,6 +301,7 @@ class Words(object):
     def _add_format_sf(self, format):
         if self._args.format_suffix:
             for sf in self._args.format_suffix:
+                sf = sf.encode('utf-8')
                 self._add_format_main(format + sf)
         self._add_format_main(format)
 
@@ -1177,7 +1180,6 @@ class Fnv(object):
     def unfuzzy_hashname_lw(self, id, lowname, hashname):
         if not id or not hashname:
             return None
-        print(lowname, hashname)
 
         #namebytes = bytearray(lowname, 'UTF-8')
         namebytes = lowname

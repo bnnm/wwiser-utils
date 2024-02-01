@@ -13,6 +13,9 @@ FULL_CLEAN = True
 CLEAN_ORDER = True
 UPDATE_ORIGINAL = True
 FNV_FORMAT = re.compile(r"^[A-Za-z_][A-Za-z0-9\_]*$")
+#HDR_FORMAT = re.compile(r"^###+*\([^\t]+\).+[\t ]*([^\t]*)[\t ]*([^\t]*)")
+HDR_FORMAT1 = re.compile(r"^###.+\(langs/(.+)\.bnk\)")
+HDR_FORMAT2 = re.compile(r"^###.+\((.+)\.bnk\)")
 
 
 def is_hashable(hashname):
@@ -112,7 +115,7 @@ def order_list(clines):
 
 def fix_wwnames(inname):
     blines = []
-    solved = {}
+    hashed = {}
 
     # first pass
     with open(inname, 'r', encoding='utf-8') as f:
@@ -124,10 +127,33 @@ def fix_wwnames(inname):
             if items:
                 # register solved ids and ignore line
                 sid, hashname = items
-                solved[sid] = hashname
+                hashed[sid] = hashname
             else:
-                # register base lines as-is
+                # register base lines as-is, except when fixing headers
+                if line.startswith('### '):
+                    bankname = ''
+
+                    match = HDR_FORMAT1.match(line)
+                    if not match:
+                        match = HDR_FORMAT2.match(line)
+                    if match:
+                        bankname, = match.groups()
+
+                    if bankname.isdigit():
+                        sid = int(bankname)
+                        hashname = hashed.get(sid)
+                        if hashname:
+                            line = line.replace('.bnk', '.bnk: %s' % hashname)
+                            print(line)
+                    
                 blines.append(line)
+
+                if not line.startswith('#'):
+                    hashname = line.split('#')[0]
+                    sid = get_fnv(hashname)
+                    hashed[sid] = hashname
+
+
 
     clines = []
     for bline in blines:
@@ -139,8 +165,8 @@ def fix_wwnames(inname):
 
         if bline.startswith('# ') and ':' not in bline:
             sid = bline[2:].strip()
-            if sid in solved:
-                hashname = solved[sid]
+            if sid in hashed:
+                hashname = hashed[sid]
                 if FULL_CLEAN:
                     bline = "%s" % (hashname)
                 else:
