@@ -1,53 +1,40 @@
 # RIPPING WWISE GAMES
 
+
 ## TL;DR:
-Quick guide to get decent Wwise rips
+Quick guide to get decent Wwise audio rips
 - get latest wwiser: https://github.com/bnnm/wwiser/releases
-- put all .bnk and .wem in a dir
-  - .bnk/wem may be in other bigfiles like .pck, use this:
+- find the *base dir* where .bnk and .wem reside (it's fine if they are in subdirs)
+  - .bnk/wem may be in other bigfiles like .pck, extract first with this Quickbms script:
      https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise_pck_extractor.bms
-- put SoundbankInfo.xml/(bankname).txt/Wwise_IDs.h/etc (or `wwnames.txt`) with the `.bnk` too
-  - you want ALL of those, SoundbankInfo.xml doesn't have every name
-  - if you don't have those it's still possible to get names using `wwnames.txt`, see
+- if you see SoundbankInfo.xml/(bankname).txt/(bankname).json/Wwise_IDs.h/etc in files leave them
+  - those files contain names = good
+- if you don't have those xml/txt it's possible to add names making a `wwnames.txt` file
+  - check if they are here and rename to `wwnames.txt`:
+    https://github.com/bnnm/wwiser-utils/tree/master/wwnames 
+  - often you can find *several* names manually in game files, see
     https://github.com/bnnm/wwiser-utils/blob/master/doc/NAMES.md
-- open (double click) wwiser.pyz
-  - make sure you have "wwnames.db3" in wwiser folder
-- press LOAD and choose some .bnk (bgm.bnk or just all of them)
-  - It's recommented to load `init.bnk` (also `1355168291.bnk`) too if you have companion files.
-- check `move referenced .wem to subdir` if you are doing a distributable rip
-  - if you aren't, you can uncheck it and set `wem subdir` to `..` so you don't have to move wem/bnk files later
-- press GENERATE to get .txtp (pay attention to log, you may need to tweak things manually)
-  - this creates /txtp folder with .txtp and /txtp/wem folders with .wem
-- before continuing on make sure about these points:
-  - if you loaded `C:\blah\bgm.bnk` and generated TXTP, you should now have a `C:\blah\txtp\` folder
-  - inside that new folder, there is a bunch of (something).txtp
-  - each .txtp points to one or several .wem files, that (by default) are expected to be inside `C:\blah\txtp\wem\`
-  - with the `move .wem to subdir` option wems are moved automatically, so you should have `C:\blah\txtp\wem\123456789.wem`
-  - in some cases you also need to move .bnk to `C:\blah\txtp\wem\`
-    - *wwiser* tells you which ones in the output log, or just move all .bnk
-- test .txtp with vgmstream (you may need to tweak some manually to improve)
-  - if you change .txtp also change the filename so it doesn't get overwritten if re-generated
-    - ex. from "blah {r}.txtp" you may need to make "blah {r1}.txtp" "blah {r2}.txtp"
-- remove unwanted .txtp (like voices)
-- use these scripts to move .wem not in .txtp to /unwanted:
-  https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise-cleaner.py
-  https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise-cleaner-bnk.py
-  - this only moves .wem from the /wem (or similarly named) folder
-  - check if /unwanted does have wanted music (you may have removed good .txtp)
-  - normally you don't need to keep /unwanted in the rip, if it only contains sfx/voices
-- use this script to remove unused .bnk as well:
-  https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise-cleaner-bnk.py
-  - this moves .bnk in /wem folder, and the folder with .txtp (so move .bnk there first)
-  - note that it will keep .bnk used to generate, .bnk used to play, and init.bnk
-- check if there are .wem in root (before /txtp folder) not moved with have useful/unused audio
-  - put those in "/unused" folder
-  - these can be unused unique .wem, unused copies of other .wem, or unused copies of .wem inside .bnk
-  - use this script to move .wem in /unused that aren't unique to dupe folder:
-    https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise-dupes.py
-- include companion files (.xml/.txt/etc) + .bnk in some /extra folder or !extra.7z
-  - you may need to re-generate when new features/fixes are added (!!!)
-  - some .bnk may need to go to /wem folder instead (see log!), might as well put all files there
-- 7zip files and folders (with .txtp in root) + upload rip somewhere
+  - you may still want `wwnames.txt` together with other files as SoundbankInfo.xml/etc may not have every name
+- open (double click) *wwiser.pyz*, the GUI should load
+  - make sure you have a recent version of python 3
+- press *Load dirs...* and choose the *base dir*, this will load every bnk
+  - if you have *tons* of banks it may be cleaner to select unwanted wem + press *Unload banks* (less `.txtp`)
+    - or just load BGM `.bnk` manually
+  - make sure `init.bnk` (or `1355168291.bnk`) is loaded as well for more accurate output
+- press *Generate TXTP* to get a bunch of `.txtp` in `(base dir)/txtp/*.txtp`
+  - stuff like `.wem` should be found automatically
+  - pay attention to log window just in case
+- test `.txtp` with vgmstream
+- you may want to tweak some options to improve output, notably:
+  - *Filter* box may be used to limit `.txtp` (like  `BGM_*` to only generate txtp for music)
+  - *Groups:* options may be needed for games that use playlists for many tracks in annoying ways
+  - if you have voices may want to set a default language
+  - if you want to distribute your rip perhaps set *TXTP subdir* to `..` (so txtp are created before the *base dir* and wem/bnk data go in a subdir)
+- remove unwanted .txtp and press the *Move .wm/bnk not used in .txtp* to move unneeded files to a dir
+  - check if *(name)[unwanted]* has wanted music (you may have removed good .txtp)
+  - *(name)[unused]* may have interesting variations, or just useless clones
+- 7zip the files and subdirs (.txtp preferably in root folder) + upload the rip somewhere
+  - you may need to re-generate when new features/fixes are added (!!!) so don't throw away .bnk or helper .xml/txt/etc files!
 
 Note! .txtp are Good Enough but not perfect in all cases. This means you may need to generate them again later when I fix bugs. I wanted to make them future-proof and avoid re-generating but it was too time-consuming, sorry.
 
@@ -57,73 +44,39 @@ Wwise never, ever plays *(number).wem* directly. Instead, it uses .bnk to indire
 This tool doesn't and won't modify .bnk.
 
 
-## LONG GUIDE
+## OTHER NOTES
 Recommended steps to follow when ripping Wwise games.
 
+### EXPLORING BANKS
+You may want to check the bank's internal info, press *View banks*. Not for the faint of heart though, ignore if you aren't *really* interested. If you are bored press the "doc" button and try to understand the whole thing.
 
-### FIND FILES
-You *need* `.bnk` and possibly `.wem`, put those together in a dir. Banks store song info (loops) and sometimes audio, `.wem` are audio.
+*"But I just want to mod audio"*: good luck, you'll need to understand how Wwise works *and* how the `.bnk` works to do so (read other docs too).
 
-If your game has `.pck`, extract `.bnk+wem` inside first using: https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise_pck_extractor.bms (you don't need to extract `.wem` inside `.bnk`).
-
-
-### FIND NAMES
-Games may have "companion files" with names, like one of the following: `SoundbankInfo.xml`, `(bnk name).txt`, `Wwise_IDs.h`.
-
-Put together with the `.bnk` so the tool can use them to get names.
-
-If game doesn't have them, some name lists for known games can be found here, download and put wwnames.txt near the .bnk: https://github.com/bnnm/wwiser-utils/blob/master/wwnames/
-
-
-### OPEN WWISER
-Make sure `wwiser.pyz` has a file called `wwnames.db3` nearby (has common names = good). Double click to open the GUI, then "LOAD" and select `bgm.bnk` or similar banks that may contain music.
-
-If your files only have funny numbers, try to locate `412724365.bnk` (bgm.bnk in Wwise), `3991942870.bnk` (music.bnk) or open big-ish banks first, or open all banks even.
-
-For games with companion files it's a good idea to load `init.bnk` (`1355168291.bnk`), as some names that bnk/txtp uses are only in `init.txt`. Similarly some games load multiple `.bnk` at once 
-
-
-### EXPLORE BANK
-You may want to check the bank's internal info, press "Viewer START", not for the faint of heart though. If you are bored press the "doc" button and try to understand the whole thing.
-
-
-### GENERATE TXTP
-In the GUI, you should probably check "move .wem referenced in banks" (change dir name as preferred), then press the GENERATE button.
-
-PAY ATTENTION TO THE LOG! If you get lines like "load more banks?", you may have to, well, load multiple banks at the same time to get all songs (can't guess which banks). But banks can be buggy too and just have missing things (but do try to find other banks first, maybe in bigfiles). If you still can't guess which banks to load just load all at the same time, though you'll get lots of sfx .txtp. If you get warning "unused audio" there is an option to generate it, BUT first try loading other banks first and see if message goes away (you'll get better results).
+### ISSUES WHEN GENERATING TXTPS
+PAY ATTENTION TO THE LOG! If you get lines like "load more banks?", you may have to, well, make sure all appropriate banks are loaded (can't guess which banks). Some games have a few base/external .bnk and others inside bigfiles and needs some spelunking. Banks can be buggy too and just have missing things anyway (but do try to find other banks first).
 
 If you get are more ominous-sounding ERRORs, report (still WIP).
 
+### ISSUES WITH TXTPS
+Particularly note of `.txtp` filenames with: *{!}*=missing .wem/features, *{r}*=random .wem (may need to manually select one), *{s}*=multi-tracks (may need to manually silence wems), *{m}*=multi-loops (looping can't be exactly simulated ATM).
 
-### CHECK TXTP
-If all went well, there should be a *txtp* subfolder, and `.wem` inside. Open the .txtp with vgmstream and listen a bit to check it all worked. Particularly filenames with: *{!}*=missing .wem/features, *{r}*=random .wem (may need to manually select one), *{s}*=multi-tracks (may need to manually silence wems), *{m}*=multi-loops (looping can't be exactly simulated ATM).
+Since .txtp are generated for each "usable audio", there may be an excess of unwanted things like SFX (if `.bnk` mixes music and sfx together). You'll need to so some manual cleanup, unfortunately (use the *Filter* box when *Generating TXTP* to make your life easier).
 
-Since .txtp are generated for each "usable audio", there may be an excess of unwanted things like SFX (if `.bnk` mixes music and sfx together). You'll need to so some manual cleanup, unfortunately.
+.txtp names are constructed from "usable parts" and tend to be a bit goofy and long-winded, but it's hard to make them meaningful otherwise. There is only so much the tool can do automagically. There is a *Renames* box to make names a bit more pleasant.
 
-.txtp names are constructed from "usable parts" and tend to be a bit goofy and long-winded, but it's hard to make them meaningful otherwise. There is only so much the tool can do automagically.
+Also check *WWISER.md* for some more explanations about wierder cases.
 
-There may be some `.wem` that weren't moved. These could be from other banks (like sfx), or unused `.wem` not used at all by any bank (not uncommon!). Move useful unused `.wem` to some "/unused" folder. Note that unused audio can be clones of other files, or `.wem` that are inside some `.bnk`, you can ignore those.
-
-The `/wem` folder may have some unwanted SFX/voices moved automatically, previously used by deleted .txtp. Use this `.py` to find and move .wem not referenced in .txtp:
-https://raw.githubusercontent.com/bnnm/wwiser-utils/master/scripts/wwise-cleaner.py
-
-
-### GET MORE NAMES
+### GETTING MORE NAMES
 If you don't have companion files with names (with names like `BGM-0591-event.txtp`), or the tool uses  funny Wwise numbers like `play_bgm [3991942870=1859734558].txtp`, there is a chance to improve this.
 
 Follow this guide https://github.com/bnnm/wwiser-utils/blob/master/doc/NAMES.md and with some luck those can become `play_bgm [Music=bgm001].txtp`. You'll need to generate .txtp again though. This is not always possible though, so accept and move on.
 
 
-### PREPARE RIP
-Don't throw away the `.bnk` and companion files used to generate `.txtp`, put them in a "/extra" folder or !extra.zip or something (or /wem folder if they are needed, log will mention this).
-
-Seriously, KEEP THE BNKS! When the tool is updated you may have to generate .txtp again to fix bugs.
-
-Then zip the .txtp (in root folder) + /wem + /extra (+ maybe /unused) and upload that.
-
-
-### REPORT ISSUES
+### REPORTING ISSUES
 Wwise is extremely complex, so sometimes TXTP can't play a song 100% like they should, or have bugs that cause some generation error, report those cases to see if something can be done. But read the README first: https://github.com/bnnm/wwiser/blob/master/README.md
+
+A common issue is *overlapped transitions*, where audio at loop points sounds a bit odd/skips this will be fixed when the time is right:
+https://github.com/vgmstream/vgmstream/issues/1262
 
 
 ## POSSIBLY ASKED Qs
