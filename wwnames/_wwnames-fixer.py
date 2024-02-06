@@ -116,6 +116,8 @@ def order_list(clines):
 def fix_wwnames(inname):
     blines = []
     hashed = {}
+    koed   = set()
+
 
     # first pass
     with open(inname, 'r', encoding='utf-8') as f:
@@ -157,11 +159,24 @@ def fix_wwnames(inname):
 
     clines = []
     for bline in blines:
+        if bline in koed:
+            sid = get_fnv(bline)
+            bline = "# %s" % (sid)
+
         if bline.startswith('#ko') and ':' in bline and FULL_CLEAN:
             _, hashname = bline.split(':')
             hashname = hashname.strip()
             sid = get_fnv(hashname)
             bline = "# %s" % (sid)
+            koed.add(hashname)
+
+        if bline.endswith('#ko') and FULL_CLEAN:
+            hashname, _ = bline.split('#ko')
+            hashname = hashname.strip()
+            sid = get_fnv(hashname)
+            bline = "# %s" % (sid)
+            koed.add(hashname)
+
 
         if bline.startswith('# ') and ':' not in bline:
             sid = bline[2:].strip()
