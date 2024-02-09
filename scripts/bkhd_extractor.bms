@@ -36,7 +36,8 @@ for OFFSET = 0 < FILE_SIZE
     #print "found BKHD at %OFFSET|h%"
 
     goto OFFSET
-    
+
+    math IS_FIRST = 0
     math SIZE = 0
     for SUB_OFFSET = OFFSET < FILE_SIZE
         xmath TEST_OFFSET " SUB_OFFSET + 8 " 
@@ -51,7 +52,13 @@ for OFFSET = 0 < FILE_SIZE
         endian set CURRENT_ENDIAN
         get BLOCK_SIZE long
         
-        #print "%BLOCK_ID|h%: %BLOCK_SIZE|h%, o=%SUB_OFFSET|h%"
+        #print "block=%BLOCK_ID|h%: o=%SUB_OFFSET|h%, s=%BLOCK_SIZE|h%"
+        
+        if IS_FIRST == 1 && (BLOCK_ID == 0x424B4844 || BLOCK_ID == 0x53544944)
+            break
+        endif
+
+        math IS_FIRST = 1
 
         # quickbms can't handle too many ORs
         math IS_BLOCK = 0
