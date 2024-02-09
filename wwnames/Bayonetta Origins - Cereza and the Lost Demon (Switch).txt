@@ -11868,9 +11868,9 @@ vo_Mid_Duck
 #1601567575  : BGM_ev8000_ev_m15_Outro
 #3153884379  : BGM_p253_inGame_none
 
-#3239400923  : BGM_core_UI_Costume_duck_in_1
-#3239400920  : BGM_core_UI_Costume_duck_in_2
-#3239400921  : BGM_core_UI_Costume_duck_in_3
-#3239400926  : BGM_core_UI_Costume_duck_in_4
-#3239400927  : BGM_core_UI_Costume_duck_in_5
+3239400923  : BGM_core_UI_Costume_duck_in_1
+3239400920  : BGM_core_UI_Costume_duck_in_2
+3239400921  : BGM_core_UI_Costume_duck_in_3
+3239400926  : BGM_core_UI_Costume_duck_in_4
+3239400927  : BGM_core_UI_Costume_duck_in_5
 

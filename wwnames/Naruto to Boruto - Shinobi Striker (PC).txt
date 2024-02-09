@@ -18378,3 +18378,5 @@ Room_Large
 
 ### MISSING SFX NAMES (SD_Voice_Yamato.bnk)
 # 2638401470
+
+1164285899  : ScenarioVoice
