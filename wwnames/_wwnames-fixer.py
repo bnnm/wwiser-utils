@@ -113,10 +113,12 @@ def order_list(clines):
     return lines
 
 
+
 def fix_wwnames(inname):
     blines = []
     hashed = {}
     koed   = set()
+    cases  = {}
 
 
     # first pass
@@ -146,8 +148,13 @@ def fix_wwnames(inname):
                         hashname = hashed.get(sid)
                         if hashname:
                             line = line.replace('.bnk', '.bnk: %s' % hashname)
-                            print(line)
-                    
+
+                # use case as found in first line 
+                # (so if BLAH is used in several points and changed once to Blah, other points use that too)
+                if line.lower() in cases:
+                    line = cases[line.lower()]
+                else:
+                    cases[line.lower()] = line
                 blines.append(line)
 
                 if not line.startswith('#'):
@@ -171,11 +178,16 @@ def fix_wwnames(inname):
             koed.add(hashname)
 
         if bline.endswith('#ko') and FULL_CLEAN:
-            hashname, _ = bline.split('#ko')
-            hashname = hashname.strip()
-            sid = get_fnv(hashname)
-            bline = "# %s" % (sid)
-            koed.add(hashname)
+            if bline.startswith('# '):
+                fnv, _ = bline.split('#ko')
+                koed.add(fnv.strip())
+                continue
+            else:
+                hashname, _ = bline.split('#ko')
+                hashname = hashname.strip()
+                sid = get_fnv(hashname)
+                bline = "# %s" % (sid)
+                koed.add(hashname)
 
 
         if bline.startswith('# ') and ':' not in bline:
