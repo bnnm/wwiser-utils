@@ -539,6 +539,9 @@ MUSIC_Game
 music_In_Game
 music_in_menu
 PAD_SFX
+reverb_ext_overall
+reverb_ext_stairs
+reverb_int_cave
 SFX
 Test
 UI_Reverb
@@ -588,6 +591,25 @@ VO_Helwalker_Spawn
 VO_witch_banter
 VO_Witch_Spawn
 VO_world_serpent
+# 1982101506
+# 1338856352
+# 477400650
+# 1910159664
+# 2321930766
+# 2241056328
+# 1882777125
+# 717528060
+# 2822295204
+# 218039326
+# 4241185683
+# 276370124
+# 758247261
+# 4106451708
+# 805094962
+# 2869935589
+# 2117682213
+# 658323285
+# 79228333
 # 1953943046
 # 2293473968
 # 2333559764
@@ -672,9 +694,6 @@ VO_world_serpent
 # 1553029844
 # 3750977976
 # 4190405011
-# 718040727
-# 2063347661
-# 3127861054
 # 1067966617
 # 2194558443
 # 2517841523
@@ -783,36 +802,17 @@ VO_world_serpent
 # 4122198210
 # 2791237415
 # 3476111214
-# 805094962
-# 4106451708
-# 2117682213
 # 3149771262
 # 982069450
 # 959702765
 # 2942647898
 # 3836867633
 # 195225198
-# 1982101506
 # 3215491849
-# 477400650
-# 1338856352
 # 2126141013
 # 3804422786
-# 1910159664
-# 2321930766
-# 4241185683
-# 1882777125
-# 218039326
-# 2822295204
 # 3200406600
 # 187684150
-# 2241056328
-# 717528060
-# 276370124
-# 758247261
-# 658323285
-# 79228333
-# 2869935589
 # 4031693132
 # 2027328735
 # 3954124502
@@ -830,8 +830,12 @@ Hall_Small
 Hall_Stop_Screaming
 Have_U_Ever_Been_Outside
 LVL_ALF_InsideTheLight
+LVL_Chisel_Site_Ext_Arena
+LVL_Chisel_Site_Int_Arena
 LVL_Helheim_ext
 LVL_Helheim_int
+LVL_Jot_Ext_stairs
+LVL_Jot_Int_cave_hall
 Meter_CHR_Baldur_Impact
 Meter_CHR_Enemy_Critical
 Meter_CHR_Giant_Impact
@@ -855,22 +859,17 @@ room_Small
 RuneVault_Hall_Small
 # 44782558
 # 87704152
-# 92704482
-# 136613285
-# 189632719
 # 204392033
 # 294420394
 # 350283264
 # 449368893
 # 455077012
 # 464503372
-# 481385058
 # 481455214
 # 543318859
 # 579155862
 # 622058607
 # 637608947
-# 670225765
 # 684810935
 # 755213983
 # 837014072
@@ -894,7 +893,6 @@ RuneVault_Hall_Small
 # 1250612747
 # 1280192117
 # 1284474059
-# 1388407644
 # 1464189284
 # 1466066531
 # 1481380409
@@ -912,7 +910,6 @@ RuneVault_Hall_Small
 # 1752099884
 # 1769635960
 # 1774818684
-# 1867949863
 # 1903934108
 # 1929875195
 # 2003762679
@@ -920,7 +917,6 @@ RuneVault_Hall_Small
 # 2154690790
 # 2156497161
 # 2179883793
-# 2215803136
 # 2279563217
 # 2283863037
 # 2299393592
@@ -978,7 +974,6 @@ RuneVault_Hall_Small
 # 3685969384
 # 3709368961
 # 3720321330
-# 3721266170
 # 3731755321
 # 3787168144
 # 3787168146
@@ -1080,35 +1075,6 @@ WPN_Axe_Charge_Level
 WPN_Axe_Momentum_Level
 WPN_Blades_Momentum_Level
 WPN_Bow_Target_Lock
-# 2355381280
-# 114302536
-# 121356656
-# 163412928
-# 273758280
-# 302569476
-# 337454758
-# 494498977
-# 754330294
-# 1051561327
-# 1283113880
-# 1290418397
-# 1299890384
-# 1494169564
-# 1859145604
-# 2138984858
-# 2186756252
-# 2342829099
-# 2474780313
-# 2695882081
-# 2734381876
-# 2838002857
-# 2929526252
-# 2985421298
-# 3041921258
-# 3871082330
-# 3996744747
-# 4060804120
-# 4250832408
 
 ### VARIABLE NAMES (init.bnk)
 Aggro
@@ -1338,18 +1304,12 @@ start
 AMB_EMIT_Crab_Burrow
 AMB_EMIT_Crab_Walk
 
-### RTPC/GAME-VARIABLE NAMES (amb_emit_crabs.bnk)
-# 4250832408
-
 ### EVENT NAMES (amb_emit_crows.bnk)
 AMB_EMIT_Crow_Call
 AMB_EMIT_Crow_Call_Fly_Off
 AMB_EMIT_Crow_Idle
 AMB_EMIT_Crow_Wing_Flap_Single
 AMB_EMIT_Crow_Wing_Flap_Take_Off
-
-### RTPC/GAME-VARIABLE NAMES (amb_emit_crows.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (amb_emit_crows.bnk)
 cinematic
@@ -1365,22 +1325,13 @@ AMB_EMIT_Fish_Flop
 AMB_EMIT_Fish_Surface_Entry_Splash_Cal000
 AMB_EMIT_Fish_Surface_Jump_Cal000
 
-### RTPC/GAME-VARIABLE NAMES (amb_emit_fish.bnk)
-# 4250832408
-
 ### EVENT NAMES (amb_emit_flags.bnk)
 AMB_EMIT_Flag_Flap_Wood_Boat_Dock_LP
-
-### RTPC/GAME-VARIABLE NAMES (amb_emit_flags.bnk)
-# 4250832408
 
 ### EVENT NAMES (amb_emit_frogs.bnk)
 AMB_EMIT_Frog_Idle_Croak
 AMB_EMIT_Frog_Jump
 AMB_EMIT_Frog_Land
-
-### RTPC/GAME-VARIABLE NAMES (amb_emit_frogs.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (amb_emit_frogs.bnk)
 Scene_182_Caldera_CalShopIntro
@@ -1391,14 +1342,8 @@ in
 ### EVENT NAMES (amb_emit_lizards.bnk)
 AMB_EMIT_Lizard_Walk
 
-### RTPC/GAME-VARIABLE NAMES (amb_emit_lizards.bnk)
-# 4250832408
-
 ### EVENT NAMES (amb_emit_rats.bnk)
 AMB_EMIT_Rat_Walk
-
-### RTPC/GAME-VARIABLE NAMES (amb_emit_rats.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (amb_emit_rats.bnk)
 Scene_430_RuneVault_FathersKnife
@@ -1417,7 +1362,6 @@ AMB_EMIT_Seagull_Wing_Flap_Take_Off
 
 ### RTPC/GAME-VARIABLE NAMES (amb_emit_seagulls.bnk)
 Distance_To_Camera
-# 4250832408
 
 ### VARIABLE NAMES (amb_emit_seagulls.bnk)
 cinematic
@@ -1433,9 +1377,6 @@ in
 ### EVENT NAMES (amb_emit_squirrel.bnk)
 AMB_EMIT_Squirrel_Chrip
 AMB_EMIT_Squirrel_Walk
-
-### RTPC/GAME-VARIABLE NAMES (amb_emit_squirrel.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (amb_emit_squirrel.bnk)
 Scene_430_RuneVault_FathersKnife
@@ -1453,9 +1394,6 @@ BF_Small_Head
 BF_Small_Limb
 BF_Small_Torso
 BF_Torso
-
-### RTPC/GAME-VARIABLE NAMES (bf_bodyfall_events.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (bf_bodyfall_events.bnk)
 Surface_Material
@@ -1499,9 +1437,6 @@ BRK_Bone_Skeleton_Sitting_01
 BRK_Bone_Skeleton_Sitting_02
 BRK_Bone_Skeleton_Standing_01
 
-### RTPC/GAME-VARIABLE NAMES (brk_bone.bnk)
-# 4250832408
-
 ### EVENT NAMES (brk_bramble.bnk)
 BRK_Bramble_Burn_Destroyed_LP
 BRK_Bramble_Burn_Destroyed_lp_stop
@@ -1511,9 +1446,6 @@ BRK_Bramble_Hit_Burn
 BRK_Bramble_Idle_LP
 BRK_Bramble_Idle_lp_stop
 WPN_Blades_Burnables
-
-### RTPC/GAME-VARIABLE NAMES (brk_bramble.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (brk_bramble.bnk)
 cinematic
@@ -1536,22 +1468,15 @@ BRK_Clay_Vase_Small_Bounce
 BRK_Clay_Vase_Small_Roll_LP
 BRK_Clay_Vase_Small_Shatter
 
-### RTPC/GAME-VARIABLE NAMES (brk_clay_vase.bnk)
-# 4250832408
-
 ### EVENT NAMES (brk_dragon_statue.bnk)
 BRK_Dragon_Statue_Broken
 BRK_Dragon_Statue_Hit
-
-### RTPC/GAME-VARIABLE NAMES (brk_dragon_statue.bnk)
-# 4250832408
 
 ### EVENT NAMES (brk_draugr_statue.bnk)
 BRK_Draugr_Statue_Explosion
 
 ### RTPC/GAME-VARIABLE NAMES (brk_draugr_statue.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (brk_fire_pot.bnk)
 BRK_Fire_Pot_Explo
@@ -1560,9 +1485,6 @@ BRK_Fire_Pot_Fall_lp_stop
 BRK_Fire_Pot_Hazard_LP
 BRK_Fire_Pot_Hazard_lp_stop
 BRK_Fire_Pot_Idle_LP
-
-### RTPC/GAME-VARIABLE NAMES (brk_fire_pot.bnk)
-# 4250832408
 
 ### EVENT NAMES (brk_hive.bnk)
 BRK_Hive_Loot_Sack
@@ -1583,9 +1505,6 @@ BRK_Hive_Tendril_Stump_LP
 BRK_Hive_Tendril_Stump_lp_stop
 BRK_Hive_Tendril_Wall_Collapse
 
-### RTPC/GAME-VARIABLE NAMES (brk_hive.bnk)
-# 4250832408
-
 ### VARIABLE NAMES (brk_hive.bnk)
 Scene_240_Alfhiem_EnterTheLight
 
@@ -1598,21 +1517,11 @@ BRK_Ice_Icicle_Four_01
 BRK_Ice_Icicle_Single_Thick_01
 BRK_Ice_Icicle_Single_Thin_01
 
-### RTPC/GAME-VARIABLE NAMES (brk_ice.bnk)
-# 655295124
-# 490103218
-# 181443428
-# 191498616
-# 4250832408
-
 ### EVENT NAMES (brk_iceberg.bnk)
 BRK_Iceberg_Explo
 
 ### EVENT NAMES (brk_loot_bag.bnk)
 BRK_Loot_Bag_Break
-
-### RTPC/GAME-VARIABLE NAMES (brk_loot_bag.bnk)
-# 4250832408
 
 ### EVENT NAMES (brk_metal.bnk)
 BRK_Metal_Ankh_Egyptian_01
@@ -1646,10 +1555,6 @@ BRK_Metal_Teapot_01
 BRK_Metal_Thor_Amulet_01
 BRK_Metal_Vase_Thracian_01
 
-### RTPC/GAME-VARIABLE NAMES (brk_metal.bnk)
-# 92039221
-# 4250832408
-
 ### EVENT NAMES (brk_stone_modular.bnk)
 BRK_Stone_Boulder_Explo_Large
 BRK_Stone_Boulder_Explo_Med
@@ -1671,56 +1576,27 @@ BRK_Stone_Wall_Tomb_Cover
 BRK_Wax_Tablet_01
 BRK_Wax_Tablet_02
 
-### RTPC/GAME-VARIABLE NAMES (brk_stone_modular.bnk)
-# 4250832408
-
 ### EVENT NAMES (brk_stone_statue.bnk)
 BRK_Stone_Greek_Statue_Lrg_01
 BRK_Stone_Greek_Statue_Med_01
-
-### RTPC/GAME-VARIABLE NAMES (brk_stone_statue.bnk)
-# 4250832408
 
 ### EVENT NAMES (brk_tent.bnk)
 BRK_Tent_02
 BRK_Tent_04
 BRK_Tent_05
 
-### RTPC/GAME-VARIABLE NAMES (brk_tent.bnk)
-# 547665985
-# 816748124
-# 996332863
-# 515248535
-# 787422270
-# 753465627
-# 940367153
-# 640295245
-# 802852630
-# 276260499
-# 883719963
-# 4250832408
-
 ### EVENT NAMES (brk_treasure.bnk)
 BRK_Treasure_Gold_Chest_Close
 BRK_Treasure_Gold_Coins_Slide
 BRK_Treasure_Gold_Impact
 
-### RTPC/GAME-VARIABLE NAMES (brk_treasure.bnk)
-# 4250832408
-
 ### EVENT NAMES (brk_wood_barrel_float.bnk)
 BRK_Wood_Barrel_Explo
 BRK_Wood_Barrel_Float_Water_Laps_LP
 
-### RTPC/GAME-VARIABLE NAMES (brk_wood_barrel_float.bnk)
-# 4250832408
-
 ### EVENT NAMES (brk_wood_tree.bnk)
 BRK_Wood_Tree_Break_Explo
 BRK_Wood_Tree_Break_Fall_Land
-
-### RTPC/GAME-VARIABLE NAMES (brk_wood_tree.bnk)
-# 4250832408
 
 ### EVENT NAMES (chr_baldur.bnk)
 CHR_Baldur_Dash_Attack_Fast
@@ -1809,7 +1685,6 @@ CINE_BaldurSkyEnter_Son_Foley_Stem
 
 ### RTPC/GAME-VARIABLE NAMES (chr_baldur.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (chr_boar.bnk)
 CHR_Boar_Carry_Foley
@@ -1829,7 +1704,6 @@ CHR_Boar_WitchHouseA_Idle_Head_Up
 
 ### RTPC/GAME-VARIABLE NAMES (chr_boar.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (chr_brawler.bnk)
 CHR_Brawler_Ice_Blast_Wave_Hit
@@ -1843,7 +1717,6 @@ CS_Kill_CSRageGrabBrawlerNeckToss_ExplosionOnly
 
 ### RTPC/GAME-VARIABLE NAMES (chr_brawler.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (chr_brok.bnk)
 CHR_Brok_Gear_Foley_Movement_Harsh
@@ -1862,9 +1735,6 @@ CHR_Brok_Tools_Oven_Coal_Sizzle_In
 CHR_Brok_Tools_Oven_Coal_Sizzle_Out
 CHR_Brok_Tools_Stone_Wheel_Turn_LP
 CHR_Brok_Tools_Stone_Wheel_Turn_lp_stop
-
-### RTPC/GAME-VARIABLE NAMES (chr_brok.bnk)
-# 4250832408
 
 ### EVENT NAMES (chr_crawler.bnk)
 CHR_Crawler_AttBurrow_In
@@ -1924,7 +1794,6 @@ CS_Kill_CSRageGrabCrawlerSlam
 
 ### RTPC/GAME-VARIABLE NAMES (chr_crawler.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (chr_dark_one_shared.bnk)
 CHR_Dark_One_Flying_Hive_Swarm_LP
@@ -2047,7 +1916,6 @@ WPN_Tunning_Fork_AttThrustCombo
 Distance_To_Player
 Playback_Rate
 velocity
-# 4250832408
 
 ### VARIABLE NAMES (chr_dark_one_shared.bnk)
 # 2330961912
@@ -2090,9 +1958,6 @@ CINE_navFlyingLoopPinnedTailTransition_Baldur_Foley_Stem
 CINE_navFlyingLoopPinnedTailTransition_Kratos_Foley_Stem
 CINE_navFlyingLoopPinnedTailTransition_SFX_Stem
 # 972029832
-
-### RTPC/GAME-VARIABLE NAMES (chr_dragon_baldur.bnk)
-# 4250832408
 
 ### EVENT NAMES (chr_dragon_peakspass.bnk)
 CHR_Dragon_PeaksPass_Arm_Drag_6Ch
@@ -2210,7 +2075,6 @@ MECH_Elevator_PeaksPass_Dragon_Touch
 
 ### RTPC/GAME-VARIABLE NAMES (chr_dragon_peakspass.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (chr_dragon_peakspass.bnk)
 Scene_280_PeaksPass_DragonFight
@@ -2313,7 +2177,6 @@ CHR_Dragon_XPL_Wing_Flaps_Up_Wet
 Distance_Axe
 Distance_To_Camera
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (chr_draugr.bnk)
 CHR_Draugr_Blood_Hit_Ground_Sizzle
@@ -2429,71 +2292,10 @@ WPN_Shield_Block_Draugr_Power_Arm_Proj
 ### SFX NAMES (chr_draugr.bnk)
 # 571479540
 # 571479543
-# 617265349
-# 357128157
-# 56460499
-# 76161103
-# 967757577
-# 235440925
-# 18946025
-# 439555109
-# 598679664
-# 612399935
-# 498640706
-# 740729733
-# 601198979
-# 876987319
-# 708413911
-# 531922077
-# 498981025
-# 553538873
-# 666526221
-# 192243978
-# 497070085
-# 121672471
-# 163637719
-# 374199692
-# 813348863
-# 258564423
-# 445424712
-# 714289570
-# 329564316
-# 860807274
-# 381519043
-# 109010560
-# 259217208
-# 661689640
-# 554788251
-# 917040520
-# 775806444
-# 305437317
-# 945957052
-# 103648713
-# 897194762
-# 726576780
-# 95752425
-# 581184365
-# 41594533
-# 582502639
-# 369356971
-# 97427516
-# 140855565
-# 391393668
-# 607484764
-# 804806408
-# 807866226
-# 211559776
-# 811985678
-# 590603701
-# 789368766
-# 444100598
-# 972187203
-# 98135044
 
 ### RTPC/GAME-VARIABLE NAMES (chr_draugr.bnk)
 Playback_Rate
 velocity
-# 4250832408
 
 ### VARIABLE NAMES (chr_draugr.bnk)
 CHR_Draugr_Type
@@ -2517,7 +2319,6 @@ CHR_Flyer00_Suicide_Bomb_Tell
 
 ### RTPC/GAME-VARIABLE NAMES (chr_flyer00_fighter.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (chr_flyer10_possessor.bnk)
 CHR_Flyer10_Possess_Target_LP
@@ -2525,7 +2326,6 @@ CHR_Flyer10_Possess_Target_lp_stop
 
 ### RTPC/GAME-VARIABLE NAMES (chr_flyer10_possessor.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (chr_flyer_shared.bnk)
 CHR_Flyer00_Evade
@@ -2566,7 +2366,6 @@ CSKill_Flyer10_SFX_Stem
 ### RTPC/GAME-VARIABLE NAMES (chr_flyer_shared.bnk)
 Playback_Rate
 velocity
-# 4250832408
 
 ### VARIABLE NAMES (chr_flyer_shared.bnk)
 Surface_Material
@@ -2605,9 +2404,6 @@ CHR_Freya_Bow_Draw
 CHR_Freya_Bow_Shoot
 MAG_Freya_Spell_A_2D_Long
 MAG_Freya_Spell_B_3D_Short
-
-### RTPC/GAME-VARIABLE NAMES (chr_freya_magic.bnk)
-# 4250832408
 
 ### EVENT NAMES (chr_golem.bnk)
 CHR_CSRageGrabGolem00Light01
@@ -2700,7 +2496,6 @@ WPN_Melee_Hit_Golem
 ### RTPC/GAME-VARIABLE NAMES (chr_golem.bnk)
 CHR_Golem_Core
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (chr_golem.bnk)
 Surface_Material
@@ -2809,14 +2604,10 @@ MAG_Ice_Helwalker_Spear_Flight_lp_stop
 MAG_Ice_Helwalker_Spear_Throw
 MAG_Ice_Helwalker_Spear_Throw_stop
 
-### SFX NAMES (chr_helwalker.bnk)
-# 279039518
-
 ### RTPC/GAME-VARIABLE NAMES (chr_helwalker.bnk)
 Distance_Approaching_Listener
 Distance_Leaving_Listener
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (chr_helwalker.bnk)
 Scene_120_Riverpass_FirstHumanKillB
@@ -2945,7 +2736,6 @@ CSKill_JotunnReject_SFX_Stem
 
 ### RTPC/GAME-VARIABLE NAMES (chr_jotunn.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (chr_jotunn.bnk)
 Surface_Material
@@ -3603,18 +3393,6 @@ WPN_Shield_Whoosh_Magic
 # 1308727665
 # 4213288593
 
-### SFX NAMES (chr_kratos.bnk)
-# 281171074
-# 1012243342
-# 293073154
-# 927577820
-# 729030700
-# 910455809
-# 664313618
-# 173273222
-# 900083782
-# 707268686
-
 ### RTPC/GAME-VARIABLE NAMES (chr_kratos.bnk)
 Distance_Approaching_Listener
 Distance_Leaving_Listener
@@ -3625,7 +3403,6 @@ velocity_Chains
 WPN_Axe_Charge_Level
 WPN_Axe_Momentum_Level
 WPN_Blades_Momentum_Level
-# 4250832408
 
 ### VARIABLE NAMES (chr_kratos.bnk)
 Armor_Loadout
@@ -3774,8 +3551,6 @@ MAG_Magni_Modi_Fight_Fog_Clears
 
 ### RTPC/GAME-VARIABLE NAMES (chr_magni.bnk)
 Playback_Rate
-# 4250832408
-# 587942097
 
 ### VARIABLE NAMES (chr_magni.bnk)
 velocity_Footsteps
@@ -3813,7 +3588,6 @@ FS_Modi_Stone_Walk
 
 ### RTPC/GAME-VARIABLE NAMES (chr_modi.bnk)
 Playback_Rate
-# 587942097
 
 ### VARIABLE NAMES (chr_modi.bnk)
 velocity_Footsteps
@@ -3856,7 +3630,6 @@ CS_Kill_Projection_Vox_Hit
 
 ### RTPC/GAME-VARIABLE NAMES (chr_projection.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (chr_quest_giver.bnk)
 CHR_Quest_Giver_Kratos_PutDownGenericLongEnter
@@ -3882,9 +3655,6 @@ CHR_Sindri_Tools_Oven_Coal_Sizzle_In
 CHR_Sindri_Tools_Oven_Coal_Sizzle_Out
 CHR_Sindri_Tools_Stone_Wheel_Turn_LP
 CHR_Sindri_Tools_Stone_Wheel_Turn_lp_stop
-
-### RTPC/GAME-VARIABLE NAMES (chr_sindri.bnk)
-# 4250832408
 
 ### EVENT NAMES (chr_son.bnk)
 CHR_Son_Bow_Kick_Enter_Jump
@@ -3991,7 +3761,6 @@ WPN_Bow_Melee_Swing
 ### RTPC/GAME-VARIABLE NAMES (chr_son.bnk)
 Distance_Approaching_Player
 Distance_Leaving_Player
-# 4250832408
 
 ### VARIABLE NAMES (chr_son.bnk)
 Surface_Material
@@ -4170,33 +3939,9 @@ CS_Kill_CSRageTravelerKill
 CS_Kill_CSRageTravelerRamEnterArmorRip
 CS_Kill_CSRageTravelerRamPunch
 
-### SFX NAMES (chr_traveler.bnk)
-# 748180872
-# 12678246
-# 820548196
-# 611148939
-# 568837834
-# 797242136
-# 930500400
-# 9323250
-# 170584295
-# 436532748
-# 446007301
-# 777425904
-# 716950475
-# 1070508004
-# 622030747
-# 1052687661
-# 51668060
-# 864075020
-# 511400524
-# 187287034
-# 839867567
-
 ### RTPC/GAME-VARIABLE NAMES (chr_traveler.bnk)
 Playback_Rate
 velocity
-# 4250832408
 
 ### VARIABLE NAMES (chr_traveler.bnk)
 Armor_Arms
@@ -4256,7 +4001,6 @@ CHR_Treasure_Goblin_Vox_Taunt
 
 ### RTPC/GAME-VARIABLE NAMES (chr_treasure_goblin.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (chr_treasure_goblin.bnk)
 Distance_To_Player
@@ -4291,7 +4035,6 @@ CHR_Troll_Fire_Stomp_Ember_Tell
 
 ### RTPC/GAME-VARIABLE NAMES (chr_troll_fire.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (chr_troll_fire.bnk)
 Scene_020_Forest_MothersKnife
@@ -4352,7 +4095,6 @@ CHR_Troll30_Wind_Roar_Gust_lp_stop
 
 ### RTPC/GAME-VARIABLE NAMES (chr_troll_guardian.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (chr_troll_ice.bnk)
 CHR_Troll_Ice_Atk_ChargeHurlStrong_Charge_A
@@ -4391,7 +4133,6 @@ CHR_Troll_Ice_Atk_JuggernautSuper_Marker_Slam
 
 ### RTPC/GAME-VARIABLE NAMES (chr_troll_ice.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (chr_troll_shared.bnk)
 CHR_Troll_Atk_MarkerEarthquakeSlam_Shared
@@ -4472,12 +4213,8 @@ CS_Kill_Troll_Marker_Shoulder_Rest
 CS_Kill_Troll_Marker_Shoulder_Rest_Whsh_Up
 FS_Troll_Twist_StrongFollowUp
 
-### SFX NAMES (chr_troll_shared.bnk)
-# 841695321
-
 ### RTPC/GAME-VARIABLE NAMES (chr_troll_shared.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (chr_troll_shared.bnk)
 CHR_Troll_Marker_Type
@@ -4541,7 +4278,6 @@ FS_Troll_Stone_Base_Layer
 
 ### RTPC/GAME-VARIABLE NAMES (chr_troll_stone.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (chr_troll_stone.bnk)
 Scene_020_Forest_MothersKnife
@@ -4706,7 +4442,6 @@ CS_Kill_Valkyrie_SwoopThrow_Exit_Foley
 
 ### RTPC/GAME-VARIABLE NAMES (chr_valkyrie.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (chr_valkyrie.bnk)
 Surface_Material
@@ -4751,7 +4486,6 @@ CHR_Witch_Spawner_Spit_Powder_Tell
 
 ### RTPC/GAME-VARIABLE NAMES (chr_witch00_spawner.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (chr_witch10_pestilence.bnk)
 CHR_Witch_Pestilence_Acid_Puddle_LP
@@ -4770,7 +4504,6 @@ CHR_Witch_Pestilence_Spit_Acid_Tell
 
 ### RTPC/GAME-VARIABLE NAMES (chr_witch10_pestilence.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (chr_witch20_helwalker.bnk)
 CHR_Witch_Helwalker_RakeFissure_Glow
@@ -4785,7 +4518,6 @@ CHR_Witch_Ice_Breath_Tell
 
 ### RTPC/GAME-VARIABLE NAMES (chr_witch20_helwalker.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (chr_witch_shared.bnk)
 CHR_Witch_Broom_Swing_Back
@@ -4831,7 +4563,6 @@ CSKill_WitchBeatdown_B_SFX_Stem
 ### RTPC/GAME-VARIABLE NAMES (chr_witch_shared.bnk)
 Playback_Rate
 velocity
-# 4250832408
 
 ### EVENT NAMES (chr_wolf.bnk)
 CHR_Wolf_Bite_Damage_Flesh
@@ -4887,7 +4618,6 @@ dummy
 
 ### RTPC/GAME-VARIABLE NAMES (chr_wolf.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (chr_wolf.bnk)
 chr_wolf
@@ -4916,7 +4646,6 @@ slap
 
 ### RTPC/GAME-VARIABLE NAMES (chr_worldsnake.bnk)
 Distance_To_Camera
-# 2695882081
 
 ### VARIABLE NAMES (chr_worldsnake.bnk)
 Scene_540_StoneMason_FinalFightIntro
@@ -4995,7 +4724,6 @@ CS_Kill_Wulver_Vox_Taunt_Roar_Short
 
 ### RTPC/GAME-VARIABLE NAMES (chr_wulver.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (chr_wulver.bnk)
 Scene_020_Forest_MothersKnife
@@ -5044,9 +4772,6 @@ DOOR_Alfheim_Double_Door_Open_R
 DOOR_Alfheim_Double_Door_Seq_L
 DOOR_Alfheim_Double_Door_Seq_R
 
-### RTPC/GAME-VARIABLE NAMES (door_alfheim_double_door.bnk)
-# 4250832408
-
 ### EVENT NAMES (door_chisel_room.bnk)
 DOOR_Chisel_Door_EXPL
 DOOR_Chisel_Room_Chisel_Spike_Equip
@@ -5059,7 +4784,6 @@ DOOR_Chisel_Room_Door_Collapse
 
 ### RTPC/GAME-VARIABLE NAMES (door_chisel_room.bnk)
 DOOR_Chisel_Room_Target_Proximity
-# 4250832408
 
 ### EVENT NAMES (door_forest_double_door.bnk)
 DOOR_Forest_Double_Door_Close_L
@@ -5068,9 +4792,6 @@ DOOR_Forest_Double_Door_Open_L
 DOOR_Forest_Double_Door_Open_R
 DOOR_Forest_Double_Door_Seq_L
 DOOR_Forest_Double_Door_Seq_R
-
-### RTPC/GAME-VARIABLE NAMES (door_forest_double_door.bnk)
-# 4250832408
 
 ### EVENT NAMES (door_freya_double_spread.bnk)
 DOOR_Freya_Double_Spread_Close_L
@@ -5090,9 +4811,6 @@ DOOR_Realm_Room_Double_Freya_Open_Partial_R
 DOOR_Realm_Room_Double_Freya_ShiftToOpen_L
 DOOR_Realm_Room_Double_Freya_ShiftToOpen_R
 
-### RTPC/GAME-VARIABLE NAMES (door_freya_double_spread.bnk)
-# 4250832408
-
 ### EVENT NAMES (door_gate_metal_lift.bnk)
 DOOR_Gate_Metal_Lift_Scrape_LP
 DOOR_Gate_Metal_Lift_Scrape_lp_stop
@@ -5100,7 +4818,6 @@ DOOR_Gate_Metal_Lift_Start
 
 ### RTPC/GAME-VARIABLE NAMES (door_gate_metal_lift.bnk)
 velocity
-# 4250832408
 
 ### EVENT NAMES (door_gate_metal_spread.bnk)
 DOOR_Metal_Gate_Moving_Squeak_LP_L
@@ -5118,15 +4835,9 @@ DOOR_Metal_Gate_Spread_Open_Full_R
 DOOR_Metal_Gate_Spread_Open_L
 DOOR_Metal_Gate_Spread_Open_R
 
-### RTPC/GAME-VARIABLE NAMES (door_gate_metal_spread.bnk)
-# 4250832408
-
 ### EVENT NAMES (door_httk.bnk)
 DOOR_HTTK_StoneKey_Puzzle_Opening_L
 DOOR_HTTK_StoneKey_Puzzle_Opening_R
-
-### RTPC/GAME-VARIABLE NAMES (door_httk.bnk)
-# 4250832408
 
 ### EVENT NAMES (door_metal_lift_gate_forest.bnk)
 DOOR_Metal_Lift_Gate_Forest_Hit_Ceiling
@@ -5136,9 +4847,6 @@ DOOR_Metal_Lift_Gate_Forest_lp_stop
 DOOR_Metal_Lift_Gate_Forest_Start_Down
 DOOR_Metal_Lift_Gate_Forest_Start_Up
 
-### RTPC/GAME-VARIABLE NAMES (door_metal_lift_gate_forest.bnk)
-# 4250832408
-
 ### EVENT NAMES (door_metal_prison_cell.bnk)
 DOOR_Metal_Prison_Cell_Malfunction_L
 DOOR_Metal_Prison_Cell_Malfunction_R
@@ -5146,15 +4854,9 @@ DOOR_Metal_Prison_Cell_Open_L
 DOOR_Metal_Prison_Cell_Open_R
 DOOR_Metal_Prison_Cell_Tendril_01
 
-### RTPC/GAME-VARIABLE NAMES (door_metal_prison_cell.bnk)
-# 4250832408
-
 ### EVENT NAMES (door_realm_portal.bnk)
 DOOR_Realm_Portal_LP
 DOOR_Realm_Portal_lp_stop
-
-### RTPC/GAME-VARIABLE NAMES (door_realm_portal.bnk)
-# 4250832408
 
 ### EVENT NAMES (door_rune_vault_lift.bnk)
 DOOR_Rune_Vault_Lift_Door_LP
@@ -5167,7 +4869,6 @@ DOOR_Rune_Vault_SpreadDoor_PryOpen_R
 
 ### RTPC/GAME-VARIABLE NAMES (door_rune_vault_lift.bnk)
 velocity
-# 4250832408
 
 ### EVENT NAMES (door_spikes_puzzle.bnk)
 DOOR_Metal_Spike_Door_Open_Fail
@@ -5178,17 +4879,11 @@ DOOR_Spikes_Puzzle_Open_Start_lp_stop
 WPN_Axe_Door_Spikes_Puzzle_Deflect
 WPN_Axe_Door_Spikes_Puzzle_Hit_Big
 
-### RTPC/GAME-VARIABLE NAMES (door_spikes_puzzle.bnk)
-# 4250832408
-
 ### EVENT NAMES (door_stone_debris_lift.bnk)
 DOOR_Stone_Debris_Lift_Lower
 DOOR_Stone_Debris_Lift_Slide_Under_Rub
 DOOR_Stone_Debris_Lift_Swing_Out_Grab
 DOOR_Stone_Debris_Lift_Up
-
-### RTPC/GAME-VARIABLE NAMES (door_stone_debris_lift.bnk)
-# 4250832408
 
 ### EVENT NAMES (door_stone_double_door.bnk)
 DOOR_Stone_Double_Door_Push_Close_L
@@ -5202,14 +4897,8 @@ DOOR_Stone_Double_Pry_Apart_Push_Open_L
 DOOR_Stone_Double_Pry_Apart_Push_Open_R
 DOOR_Stone_Double_Pry_Apart_Push_R
 
-### RTPC/GAME-VARIABLE NAMES (door_stone_double_door.bnk)
-# 4250832408
-
 ### EVENT NAMES (door_stone_drainvault.bnk)
 DOOR_Stone_Drainvault_Open
-
-### RTPC/GAME-VARIABLE NAMES (door_stone_drainvault.bnk)
-# 4250832408
 
 ### EVENT NAMES (door_stone_huldramines_double_door.bnk)
 DOOR_Stone_HuldraMine_Double_Door_Close_Seq_L
@@ -5217,9 +4906,6 @@ DOOR_Stone_HuldraMine_Double_Door_Close_Seq_R
 DOOR_Stone_HuldraMine_Double_Door_Open_Seq_L
 DOOR_Stone_HuldraMine_Double_Door_Open_Seq_R
 DOOR_Stone_HuldraMine_Double_Door_Unlock
-
-### RTPC/GAME-VARIABLE NAMES (door_stone_huldramines_double_door.bnk)
-# 4250832408
 
 ### EVENT NAMES (door_templeflip.bnk)
 DOOR_TempleFlip_Double_Door_Close_L
@@ -5237,32 +4923,20 @@ DOOR_TempleFlip_Opening_Lock_Retract_R
 DOOR_TempleFlip_TurnLock_27_L
 DOOR_TempleFlip_TurnLock_27_R
 
-### RTPC/GAME-VARIABLE NAMES (door_templeflip.bnk)
-# 4250832408
-
 ### EVENT NAMES (door_viking_funeral.bnk)
 DOOR_Viking_Funeral_Close
 DOOR_Viking_Funeral_LP
 DOOR_Viking_Funeral_lp_stop
 DOOR_Viking_Funeral_Open
 
-### RTPC/GAME-VARIABLE NAMES (door_viking_funeral.bnk)
-# 4250832408
-
 ### EVENT NAMES (door_wood_double_door.bnk)
 DOOR_Wood_Double_Pry_Apart_Seq_L
 DOOR_Wood_Double_Pry_Apart_Seq_R
-
-### RTPC/GAME-VARIABLE NAMES (door_wood_double_door.bnk)
-# 4250832408
 
 ### EVENT NAMES (door_wood_freya_house.bnk)
 DOOR_Wood_Freya_House_Pull_Close
 DOOR_Wood_Freya_House_Pull_Open
 DOOR_Wood_Freya_House_Push_Open
-
-### RTPC/GAME-VARIABLE NAMES (door_wood_freya_house.bnk)
-# 4250832408
 
 ### EVENT NAMES (foly_snowblind_shield.bnk)
 FOLY_Shield_Snowblind_Raise_Shield
@@ -5320,18 +4994,9 @@ UX_FS_Son
 UX_FS_Son_Scuff
 WPN_Bow_Arrow_Quiver_Shake
 
-### SFX NAMES (fs_footstep_events.bnk)
-# 429899643
-# 807434219
-# 528720387
-# 647600996
-# 449915400
-# 1020418720
-
 ### RTPC/GAME-VARIABLE NAMES (fs_footstep_events.bnk)
 Distance_To_Camera
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (fs_footstep_events.bnk)
 Scene_020_Forest_MothersKnife
@@ -5831,11 +5496,6 @@ UX_Weapon_Menu_Runic_Upgrade_Success
 Health_Kratos
 Hit_Intensity
 velocity_Chains
-# 4250832408
-# 772472315
-# 54816835
-# 2186756252
-# 754330294
 
 ### VARIABLE NAMES (glb_perm.bnk)
 Aggro
@@ -6035,15 +5695,11 @@ MECH_Bell_Puzzle_Complete
 
 ### RTPC/GAME-VARIABLE NAMES (loot_chests.bnk)
 Distance_To_Camera
-# 4250832408
 
 ### EVENT NAMES (loot_idols.bnk)
 LOOT_Collectible_Idol_Rune_Break
 LOOT_Collectible_Idol_Rune_Idle_LP
 LOOT_Collectible_Idol_Rune_Idle_lp_stop
-
-### RTPC/GAME-VARIABLE NAMES (loot_idols.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (loot_idols.bnk)
 Scene_425_RuneVault_WineAquire
@@ -6056,9 +5712,6 @@ LOOT_Odins_Ravens_Caw
 LOOT_Odins_Ravens_Explode
 LOOT_Odins_Ravens_Magic_LP
 LOOT_Odins_Ravens_Wing_Flap
-
-### RTPC/GAME-VARIABLE NAMES (loot_odins_ravens.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (loot_odins_ravens.bnk)
 cinematic
@@ -6076,9 +5729,6 @@ LOOT_Rift_Pocket_Portal_LP
 LOOT_Rift_Pocket_Portal_lp_stop
 LOOT_Rift_Pocket_Reach_In
 LOOT_Rift_Pocket_Reach_In_PAD
-
-### RTPC/GAME-VARIABLE NAMES (loot_rift_pocket.bnk)
-# 4250832408
 
 ### EVENT NAMES (lvl_alf000.bnk)
 AMB_Bed_Alf000_Overall_LP
@@ -6707,7 +6357,6 @@ Meter_Music
 Playback_Rate
 SND_Global_Amb_Bed_Volume_RTPC
 velocity
-# 4250832408
 
 ### VARIABLE NAMES (lvl_alf000.bnk)
 ELEC_Alfheim_Light_Beam
@@ -7143,7 +6792,6 @@ vo_lvl_clkty_s520_010_spt_stem
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_cal000.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_cal000.bnk)
 LVL_Caldera_Lake_Water_Level
@@ -7207,7 +6855,6 @@ POI_FastTravelIntro_Magic_Stone
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_cal120_airlock.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_cal120_airlock.bnk)
 Scene_320_Caldera_BrokCares
@@ -7266,7 +6913,6 @@ MAG_RealmTravel_Table_Small_Rotate_lp_stop
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_cal130_templeint.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_cal130_templeint.bnk)
 Scene_185_Foothills_SindriIntro
@@ -7290,9 +6936,6 @@ DOOR_Realm_Room_Open_Stop_Impact
 DOOR_Realm_Room_Panel_Side_Sml_Slide
 DOOR_Realm_Room_Panel_Side_Sml_Stop
 
-### RTPC/GAME-VARIABLE NAMES (lvl_cal130_templeint_doors.bnk)
-# 4250832408
-
 ### EVENT NAMES (lvl_cal140_templeext.bnk)
 AMB_Bed_Cal140_Temple_Exit_Hall_LP
 AMB_Bed_Cal140_Temple_Hall_LP
@@ -7301,7 +6944,6 @@ AMB_EMIT_Fire_Pot_LP_Cal140
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_cal140_templeext.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### EVENT NAMES (lvl_cal170_library.bnk)
 AMB_Bed_Cal170_Library_Room_LP
@@ -7322,7 +6964,6 @@ POI_FootMagicBowstringScene_Son
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_cal250_foothillslh.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_cal250_foothillslh.bnk)
 Scene_499_RuneVault_TyrTriptych
@@ -7439,9 +7080,6 @@ MECH_Cal500_SunMoon_WTR_Waterfall_Ground_Sml_lp_stop
 Distance_To_Camera
 Meter_Music
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
-# 655242661
-# 389709613
 
 ### EVENT NAMES (lvl_cal590_runevaultelevator.bnk)
 AMB_Bed_Cal590_Elevator_LP
@@ -7466,7 +7104,6 @@ MECH_Cal500_Elevator_lp_stop
 ### RTPC/GAME-VARIABLE NAMES (lvl_cal590_runevaultelevator.bnk)
 Distance_To_Camera
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_cal590_runevaultelevator.bnk)
 RuneVault_Elevator
@@ -7570,7 +7207,6 @@ TNF_TempleFlip_WinStuck_02_TEST
 SND_Global_Amb_Bed_Volume_RTPC
 velocity
 velocity_Smooth
-# 4250832408
 
 ### EVENT NAMES (lvl_cal720_lowercenterroom.bnk)
 AMB_Bed_Cal720_TempleFlip_Nook_LP
@@ -7579,7 +7215,6 @@ AMB_EMIT_Fire_Pit_Terracotta_Army_LP_Cal720
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_cal720_lowercenterroom.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### EVENT NAMES (lvl_cal800_snakebelly.bnk)
 AMB_Bed_SnakesBelly_01_LP
@@ -7610,13 +7245,12 @@ POI_MimirsEye_Mimir
 POI_MimirsEye_Player
 
 ### SFX NAMES (lvl_cal800_snakebelly.bnk)
-# 2394809124
+Very_Slow_Modulation
 # 3414178365
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_cal800_snakebelly.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
 velocity_Rotation
-# 4250832408
 
 ### EVENT NAMES (lvl_cal800_transition.bnk)
 CHR_World_Serpent_Mouth_Shutting_Sequence
@@ -7649,18 +7283,17 @@ MECH_Elevator_Chisel_Room_Lift_LP
 MECH_Elevator_Chisel_Room_Lift_lp_stop
 
 ### SFX NAMES (lvl_chisel_room.bnk)
+LVL_Chisel_Site_Ext_Arena
+LVL_Chisel_Site_Int_Arena
 # 911487665
 # 1650341794
-# 2215803136
 # 2503429100
 # 2965787097
-# 3721266170
 # 3806570523
 # 4195857503
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_chisel_room.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### EVENT NAMES (lvl_foot000.bnk)
 AMB_Bed_Foot100_Forest_LP
@@ -7767,7 +7400,6 @@ MECH_Gondola_Wheel_Rotate_lp_stop
 ### RTPC/GAME-VARIABLE NAMES (lvl_foot000.bnk)
 Distance_To_Camera
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_foot000.bnk)
 LVL_Caldera_Lake_Water_Level
@@ -8077,7 +7709,6 @@ WPN_Axe_Foley_Drag_Snow_lp_stop
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_for000.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_for000.bnk)
 baldur_occlusion
@@ -8123,7 +7754,6 @@ CHR_Kratos_Wounded_Walk_Snow_Slide_Axe
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_for200_house.bnk)
 Meter_Music
-# 4250832408
 
 ### VARIABLE NAMES (lvl_for200_house.bnk)
 Red_Storm
@@ -8147,22 +7777,13 @@ AMB_EMIT_WTR_Waterfall_Canyon_Runoff_For350_LP
 BRK_Wood_Tree_Collapse_01_For350
 BRK_Wood_Tree_Collapse_02_For350
 
-### RTPC/GAME-VARIABLE NAMES (lvl_for350_exittunnel.bnk)
-# 4250832408
-
 ### EVENT NAMES (lvl_for400_intersection.bnk)
 AMB_EMIT_MTL_Hanging_Lamp_For400_LP
 AMB_EMIT_WOOD_Lantern_Sway_For400_LP
 
-### RTPC/GAME-VARIABLE NAMES (lvl_for400_intersection.bnk)
-# 4250832408
-
 ### EVENT NAMES (lvl_for500_forestentry.bnk)
 BRK_Wood_Bridge_Barricade_Explo_For500
 OMEN_DeerSurprise_Bridge_For500
-
-### RTPC/GAME-VARIABLE NAMES (lvl_for500_forestentry.bnk)
-# 4250832408
 
 ### EVENT NAMES (lvl_for550_brokenforest.bnk)
 CINE_DeerMiss_Deer_Foley_Run_Off
@@ -8178,9 +7799,6 @@ CINE_DeerMiss_Son_Foley_Shoot_Arrow_D
 ### EVENT NAMES (lvl_for600_spire.bnk)
 AMB_EMIT_Fire_Pit_Cauldron_LP_For600
 
-### RTPC/GAME-VARIABLE NAMES (lvl_for600_spire.bnk)
-# 4250832408
-
 ### VARIABLE NAMES (lvl_for600_spire.bnk)
 Red_Storm
 
@@ -8191,9 +7809,6 @@ Active
 DOOR_Temple_Bridge_Open_Left_For650
 DOOR_Temple_Bridge_Open_Right_For650
 OMEN_DeerSpotACine_For650
-
-### RTPC/GAME-VARIABLE NAMES (lvl_for650_bridge.bnk)
-# 4250832408
 
 ### EVENT NAMES (lvl_for660_templeinterior.bnk)
 AMB_EMIT_FIRE_Campfire_LP_For660
@@ -8212,9 +7827,6 @@ MECH_Metal_Gate_Raise_LP_For660
 MECH_Metal_Gate_Raise_LP_For660_stop
 MECH_Pulley_Chain_Rotate_LP_For660
 MECH_Pulley_Chain_Rotate_LP_For660_stop
-
-### RTPC/GAME-VARIABLE NAMES (lvl_for660_templeinterior.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (lvl_for660_templeinterior.bnk)
 Red_Storm
@@ -8254,9 +7866,6 @@ Wood_Solid
 BRK_Stone_Troll_Arena_Pillar_Corner_For800
 BRK_Stone_Troll_Arena_Pillar_Explo_For800
 
-### RTPC/GAME-VARIABLE NAMES (lvl_for800_trollarena.bnk)
-# 4250832408
-
 ### EVENT NAMES (lvl_for900_exitclimb.bnk)
 AMB_EMIT_Wood_Stress_LP_For900
 AMB_EMIT_WTR_Cave_Runoff_For900_LP
@@ -8266,9 +7875,6 @@ MECH_Wood_Bridge_LP_For900
 MECH_Wood_Bridge_LP_For900_stop
 MECH_Wood_Bridge_Slam_Down_For900
 MECH_Wood_Bridge_Slam_Up_For900
-
-### RTPC/GAME-VARIABLE NAMES (lvl_for900_exitclimb.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (lvl_for900_exitclimb.bnk)
 Red_Storm
@@ -8292,7 +7898,6 @@ MECH_Fast_Travel_Realm_Portal_Open
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_global.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_global.bnk)
 Scene_182_Caldera_CalShopIntro
@@ -8506,7 +8111,6 @@ WIND_Snow_Debris_Light_lp_stop
 ### SFX NAMES (lvl_hel000.bnk)
 # 336755378
 # 483369851
-# 307521806
 # 885808800
 # 936512592
 # 1200958192
@@ -8525,24 +8129,6 @@ Playback_Rate
 SND_Global_Amb_Bed_Volume_RTPC
 Wind_EagleWind
 Wind_speed
-# 1043398141
-# 4250832408
-# 265310141
-# 11012732
-# 417650747
-# 724994091
-# 530152790
-# 337454758
-# 862615096
-# 648805658
-# 413548704
-# 143080452
-# 985039355
-# 485018465
-# 730046169
-# 178895827
-# 455329011
-# 984419306
 
 ### VARIABLE NAMES (lvl_hel000.bnk)
 cinematic
@@ -8784,9 +8370,6 @@ WTR_HelR_Lap_Splash_Shore_Small_Wave_lp_stop
 ### SFX NAMES (lvl_helr000.bnk)
 # 336755378
 # 483369851
-# 684121064
-# 697894340
-# 307521806
 # 885808800
 # 936512592
 # 1200958192
@@ -8808,25 +8391,6 @@ velocity
 velocity_Smooth
 Wind_EagleWind
 Wind_speed
-# 1043398141
-# 4250832408
-# 724994091
-# 530152790
-# 954685189
-# 738446232
-# 417650747
-# 814618524
-# 940123526
-# 862615096
-# 648805658
-# 413548704
-# 143080452
-# 985039355
-# 485018465
-# 730046169
-# 178895827
-# 455329011
-# 984419306
 
 ### VARIABLE NAMES (lvl_helr000.bnk)
 cinematic
@@ -8904,16 +8468,15 @@ MAG_Jot100_Light_Gate_Portal_Open
 MAG_Jot100_Light_Gate_Teleport
 
 ### SFX NAMES (lvl_jot000.bnk)
+LVL_Jot_Ext_stairs
+LVL_Jot_Int_cave_hall
 # 1014685510
-# 1388407644
 # 1660202220
-# 1867949863
 # 3163715337
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_jot000.bnk)
 Distance_To_Camera
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_jot000.bnk)
 Scene_600_Jotunheim_MothersSecretReveal
@@ -8926,15 +8489,14 @@ AMB_Bed_EXT_Jotunheim_Bridge_Wind_LP
 AMB_Bed_EXT_Jotunheim_Bridge_Wind_lp_stop
 
 ### SFX NAMES (lvl_jot_cal300.bnk)
+LVL_Jot_Ext_stairs
+LVL_Jot_Int_cave_hall
 # 1014685510
-# 1388407644
 # 1660202220
-# 1867949863
 # 3163715337
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_jot_cal300.bnk)
 Distance_To_Camera
-# 4250832408
 
 ### EVENT NAMES (lvl_muspelheim.bnk)
 AMB_Bed_Muspelheim_Bridge_LP
@@ -8990,7 +8552,6 @@ MECH_Metal_Spike_Door_Muspelheim
 Distance_To_Camera
 Meter_Music
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### EVENT NAMES (lvl_nid000.bnk)
 AMB_Bed_Nidavellir_Bridge_LP
@@ -9019,7 +8580,6 @@ MECH_Trap_Stone_Door_Open_Nidavellir_lp_stop
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_nid000.bnk)
 velocity
-# 4250832408
 
 ### VARIABLE NAMES (lvl_nid000.bnk)
 Scene_425_RuneVault_WineAquire
@@ -9345,8 +8905,6 @@ Playback_Rate
 SND_Global_Amb_Bed_Volume_RTPC
 velocity
 velocity_Rotation
-# 4250832408
-# 626265792
 
 ### VARIABLE NAMES (lvl_peak000.bnk)
 Scene_270_PeaksPass_SkyLantern
@@ -9436,9 +8994,6 @@ MECH_Chimney_Lift_Platform_B_Chain_LP
 MECH_Chimney_Lift_Platform_B_Chain_lp_stop
 MECH_Chimney_Lift_Platform_B_Stuck_Impact
 
-### RTPC/GAME-VARIABLE NAMES (lvl_peak200.bnk)
-# 4250832408
-
 ### VARIABLE NAMES (lvl_peak200.bnk)
 Surface_Material
 
@@ -9481,9 +9036,6 @@ TNF_Chisel_Wall_Son_Blood_Hand_Write_Loop
 TNF_Chisel_Wall_Son_Place_Blood_Hand_On_Wall
 TNF_Chisel_Wall_Son_Remove_Blood_Hand_Off_Wall
 TNF_Chisel_Wall_Son_Slice_Hand
-
-### RTPC/GAME-VARIABLE NAMES (lvl_peak740.bnk)
-# 4250832408
 
 ### EVENT NAMES (lvl_red_storm.bnk)
 AMB_EMIT_Red_Storm_Lightning_Close
@@ -9817,8 +9369,6 @@ POI_Brok_Intro_Axe_Scare_Draugr
 ### RTPC/GAME-VARIABLE NAMES (lvl_riv000.bnk)
 Playback_Rate
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
-# 3996744747
 
 ### VARIABLE NAMES (lvl_riv000.bnk)
 Red_Storm
@@ -9848,9 +9398,6 @@ MECH_Wood_Bridge_Raise_Stop_End_Riv200
 MECH_Wood_Bridge_Raise_Stuck_On_End_Riv200
 MECH_Wood_Bridge_S_Hook_Break_Riv200
 POI_Brok_Intro_Axe_Throw_Tree_Scare_Draugr
-
-### RTPC/GAME-VARIABLE NAMES (lvl_riv200.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (lvl_riv200.bnk)
 Scene_135_Riverpass_CanyonOverlook
@@ -9884,12 +9431,8 @@ POI_BrokSonHideIdle_Son
 POI_VendorTutorialExit_Brok
 POI_VendorTutorialExit_Player
 
-### SFX NAMES (lvl_riv325.bnk)
-# 1033418168
-
 ### RTPC/GAME-VARIABLE NAMES (lvl_riv325.bnk)
 Distance_To_Camera
-# 626265792
 
 ### VARIABLE NAMES (lvl_riv325.bnk)
 Scene_135_Riverpass_CanyonOverlook
@@ -9941,7 +9484,6 @@ POI_SonHealedIdle2Solo_Freya
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_riv480.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (lvl_riv480.bnk)
 Scene_160_Riverpass_WitchHouseA
@@ -9988,7 +9530,6 @@ MECH_Push_Cart_Water_Drop_Riv925
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_riv925.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_riv925.bnk)
 Red_Storm
@@ -10286,8 +9827,6 @@ WTR_Waterfall_Splash_Rumble_STN_LP
 Distance_To_Camera
 MOV_Percentage
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
-# 990396955
 
 ### VARIABLE NAMES (lvl_stn000.bnk)
 Scene_350_StoneMason_SindriStoneMason
@@ -10299,9 +9838,6 @@ in
 
 ### EVENT NAMES (lvl_stn200.bnk)
 AMB_EMIT_Tent_Flap_StoneMason_LP
-
-### RTPC/GAME-VARIABLE NAMES (lvl_stn200.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (lvl_stn200.bnk)
 Scene_358_StoneMason_AttackOftheBros
@@ -10411,7 +9947,6 @@ MECH_Jotunn_Cell_Move_lp_stop
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_xpl100_httk.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_xpl100_httk.bnk)
 LVL_Caldera_Lake_Water_Level
@@ -10473,7 +10008,6 @@ MECH_Water_Door_Xpl200_Drain_Water
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_xpl200_funeral.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_xpl200_funeral.bnk)
 Scene_180_Caldera_WorldSnakeIntro
@@ -10523,7 +10057,6 @@ MECH_Wood_Bridge_Drop_Xpl300
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_xpl300_stronghold.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_xpl300_stronghold.bnk)
 Scene_180_Caldera_WorldSnakeIntro
@@ -10566,7 +10099,6 @@ CINE_GolemIntro_Son_Foley
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_xpl400_huldramines.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_xpl400_huldramines.bnk)
 cinematic
@@ -10609,7 +10141,6 @@ MECH_Pulley_Hoist_Rope_Creak_LP_Xpl450_stop
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_xpl450_huldramines.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### EVENT NAMES (lvl_xpl475_huldramineslh.bnk)
 CINE_BrokQuest2_Brok_Foley_Stem
@@ -10627,7 +10158,6 @@ AMB_EMIT_Wind_Bridge_Gap_Jump_Xpl600_LP
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_xpl600_masontrail.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_xpl600_masontrail.bnk)
 LVL_Caldera_Lake_Water_Level
@@ -10676,7 +10206,6 @@ MECH_DungeonForest_Bridge_Stone_Start
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_xpl850_dungeonforest.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_xpl850_dungeonforest.bnk)
 Red_Storm
@@ -10708,7 +10237,6 @@ AMB_EMIT_Shipwreck_Water_Wood_Creak_LP_Xpl910
 
 ### RTPC/GAME-VARIABLE NAMES (lvl_xpl910_islandshipwreck.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### VARIABLE NAMES (lvl_xpl910_islandshipwreck.bnk)
 LVL_Caldera_Lake_Water_Level
@@ -10732,15 +10260,9 @@ DOOR_Metal_Lift_Gate_Xpl940_lp_stop
 DOOR_Metal_Lift_Gate_Xpl940_Start_Down
 DOOR_Metal_Lift_Gate_Xpl940_Start_Up
 
-### RTPC/GAME-VARIABLE NAMES (lvl_xpl940_beachcave.bnk)
-# 4250832408
-
 ### EVENT NAMES (lvl_xpl960_beachship.bnk)
 AMB_EMIT_Shipwreck_Water_Lap_LP_Xpl960
 AMB_EMIT_Shipwreck_Water_Wood_Creak_LP_Xpl960
-
-### RTPC/GAME-VARIABLE NAMES (lvl_xpl960_beachship.bnk)
-# 4250832408
 
 ### EVENT NAMES (lvl_xpl980_beachwaterfall.bnk)
 MECH_Crank_Stone_Platform_Xpl980_LP
@@ -10748,9 +10270,6 @@ MECH_Crank_Stone_Platform_Xpl980_lp_stop
 MECH_Wood_Bridge_Lower_LP_Xpl980
 MECH_Wood_Bridge_Lower_LP_Xpl980_stop
 MECH_Wood_Bridge_S_Hook_Break_Xpl980
-
-### RTPC/GAME-VARIABLE NAMES (lvl_xpl980_beachwaterfall.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (lvl_xpl980_beachwaterfall.bnk)
 Scene_135_Riverpass_CanyonOverlook
@@ -10763,9 +10282,6 @@ MAG_Black_Breath_Dissolve_LP
 MAG_Black_Breath_Dissolve_lp_stop
 MAG_Black_Breath_Smolder_LP
 MAG_Black_Breath_Smolder_lp_stop
-
-### RTPC/GAME-VARIABLE NAMES (mag_black_breath.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (mag_black_breath.bnk)
 Scene_190_Foothills_BlackBreath
@@ -10783,9 +10299,6 @@ MAG_Dispel_Dragon_Pedestal_Stab_03
 ### EVENT NAMES (mag_dispel_orb.bnk)
 MAG_Dispel_Orb_LP
 MAG_Dispel_Orb_lp_stop
-
-### RTPC/GAME-VARIABLE NAMES (mag_dispel_orb.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (mag_dispel_orb.bnk)
 Scene_430_RuneVault_FathersKnife
@@ -10808,9 +10321,6 @@ MAG_HelDrain_Orb_Start
 MAG_HelDrain_Orb_Start_FadeIn
 MAG_HelDrain_Orb_Stop
 MAG_HelDrain_Orb_Stop_OLD
-
-### RTPC/GAME-VARIABLE NAMES (mag_hel_drain.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (mag_hel_drain.bnk)
 cinematic
@@ -10841,9 +10351,6 @@ MAG_Rune_Read_Lore_Marker_lp_stop
 STNG_Rune_Activate
 STNG_Rune_Reveal
 
-### RTPC/GAME-VARIABLE NAMES (mag_rune_reading.bnk)
-# 4250832408
-
 ### VARIABLE NAMES (mag_rune_reading.bnk)
 Scene_358_StoneMason_AttackOftheBros
 
@@ -10872,9 +10379,6 @@ MAG_Temporal_Light_Torches_Active_lp_stop
 MAG_Temporal_Light_Torches_Inactive_LP
 MAG_Temporal_Light_Torches_Inactive_lp_stop
 
-### RTPC/GAME-VARIABLE NAMES (mag_temporal_light.bnk)
-# 4250832408
-
 ### VARIABLE NAMES (mag_temporal_light.bnk)
 Scene_182_Caldera_CalShopIntro
 Scene_383_Caldera_BrokSavesCat
@@ -10889,9 +10393,6 @@ FS_Boot_Climb_Kick_Off
 FS_Boot_Climb_Land
 FS_Boot_Climb_Lunge
 FS_Boot_Climb_Scuff
-
-### RTPC/GAME-VARIABLE NAMES (mat_global.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (mat_global.bnk)
 Surface_Material
@@ -10984,13 +10485,8 @@ MECH_Bell_Puzzle_Rotating_lp_stop
 MECH_Bell_Puzzle_Swing_LP
 MECH_Bell_Puzzle_Swing_lp_stop
 
-### SFX NAMES (mech_bell_puzzle.bnk)
-# 840239676
-
 ### RTPC/GAME-VARIABLE NAMES (mech_bell_puzzle.bnk)
 velocity
-# 2985421298
-# 4250832408
 
 ### VARIABLE NAMES (mech_bell_puzzle.bnk)
 mech_bell_puzzle
@@ -11051,7 +10547,6 @@ MECH_Dragon_XPL_Leash_lp_stop
 
 ### RTPC/GAME-VARIABLE NAMES (mech_dragon_leash.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (mech_elevator_stone_large.bnk)
 MECH_Elevator_Lever_Pull_Out
@@ -11075,9 +10570,6 @@ MECH_Fast_Travel_Gate_Realm_Enter_Door_Open
 MECH_Fast_Travel_Gate_Realm_Enter_Rock_Fall
 MECH_Fast_Travel_Gate_Reveal
 MECH_Fast_Travel_Realm_Exit
-
-### RTPC/GAME-VARIABLE NAMES (mech_fast_travel.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (mech_fast_travel.bnk)
 Scene_182_Caldera_CalShopIntro
@@ -11123,9 +10615,6 @@ MECH_Lever_Dial_Turn_River_Pass_01
 MECH_Lever_Dial_Use
 MECH_Metal_Lift_Gate_Son_Lever_Pull
 
-### RTPC/GAME-VARIABLE NAMES (mech_lever_dial.bnk)
-# 4250832408
-
 ### EVENT NAMES (mech_lever_metal.bnk)
 MECH_Lever_Cog_Dam_Pull_Jammed
 MECH_Lever_Cog_Dam_Pull_Start
@@ -11136,9 +10625,6 @@ MECH_Pulley_Chain_Hit_Ceiling
 MECH_Pulley_Chain_Hit_Ground
 MECH_Pulley_Chain_Moving_LP
 MECH_Pulley_Chain_Retract
-
-### RTPC/GAME-VARIABLE NAMES (mech_pulley_chain.bnk)
-# 4250832408
 
 ### EVENT NAMES (mech_puzzle_timer.bnk)
 MECH_Puzzle_Timer_01_LP
@@ -11167,7 +10653,6 @@ MECH_RBR_Tower_Win_cal410
 
 ### RTPC/GAME-VARIABLE NAMES (mech_rbr_tower.bnk)
 SND_Global_Amb_Bed_Volume_RTPC
-# 4250832408
 
 ### EVENT NAMES (mech_rotary_turnstile_puzzle.bnk)
 MECH_Puzzle_Spinner_Turn
@@ -11195,9 +10680,6 @@ MECH_Waterwheel_Lrg_Rotate_Axle_LP
 MECH_Waterwheel_Lrg_Rotate_Ring_LP
 MECH_Waterwheel_Lrg_Rotate_Water_LP
 MECH_Waterwheel_Lrg_WTR_Runoff_LP
-
-### RTPC/GAME-VARIABLE NAMES (mech_waterwheel.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (mech_waterwheel.bnk)
 Scene_180_Caldera_WorldSnakeIntro
@@ -11280,12 +10762,6 @@ MX_ALF_trench_return_fight1_out
 MX_ALF_valkyrie_fight_in
 MX_ALF_valkyrie_fight_out
 # 456000
-
-### SFX NAMES (mx_alfheim.bnk)
-# 819752108
-
-### RTPC/GAME-VARIABLE NAMES (mx_alfheim.bnk)
-# 207401646
 
 ### VARIABLE NAMES (mx_alfheim.bnk)
 mx_alfheim
@@ -11996,22 +11472,22 @@ MX_HEL_ship_push_in
 MX_HEL_Silence
 MX_HEL_valkyrie_fight_in
 MX_HEL_valkyrie_fight_out
+MX_HelR_past_haunts_baldur
+MX_HelR_raise_boat_puzzle_in
+MX_HelR_raise_boat_puzzle_out
+MX_HelR_son_haunted_moment
+MX_HelR_son_haunted_moment_fight_in
+MX_HelR_son_haunted_moment_fight_out
+MX_HelR_tower1_climb
+MX_HelR_tower1_fight_in
+MX_HelR_tower1_fight_out
+MX_HelR_tower2_climb
+MX_HelR_tower2_fight_in
+MX_HelR_tower2_fight_out
 skirmish
 zero
 # 2068955536
 # 2068955539
-# 502092215
-# 675027549
-# 851190990
-# 909822656
-# 1437028547
-# 1480346192
-# 1814800260
-# 2561433604
-# 2600709683
-# 2991931326
-# 3372215764
-# 3745372207
 # 3944526933
 
 ### EVENT NAMES (mx_jotunheim.bnk)
@@ -13662,7 +13138,6 @@ TRAP_Block_Crusher_Retract_lp_stop
 
 ### RTPC/GAME-VARIABLE NAMES (trap_block_crusher.bnk)
 velocity
-# 4250832408
 
 ### EVENT NAMES (trap_fire_column.bnk)
 TRAP_Fire_Trap_Charge
@@ -13672,9 +13147,6 @@ TRAP_Fire_Trap_Fire_lp_stop
 TRAP_Fire_Trap_Off
 TRAP_Fire_Trap_Rotate_LP
 TRAP_Fire_Trap_Rotate_lp_stop
-
-### RTPC/GAME-VARIABLE NAMES (trap_fire_column.bnk)
-# 4250832408
 
 ### EVENT NAMES (trap_metal_spikes.bnk)
 TRAP_Metal_Spikes_Change_Direction
@@ -13707,9 +13179,6 @@ TRAP_Saw_Blades_Shift_Retract
 
 ### RTPC/GAME-VARIABLE NAMES (trap_saw_blades.bnk)
 velocity
-# 750240067
-# 609032975
-# 4250832408
 
 ### VARIABLE NAMES (trap_saw_blades.bnk)
 Scene_425_RuneVault_WineAquire
@@ -13723,9 +13192,6 @@ TRAP_Scorn_Pole_Cloud_lp_stop
 TRAP_Scorn_Pole_Damage
 TRAP_Scorn_Pole_Fire_LP
 TRAP_Scorn_Pole_Fire_lp_stop
-
-### RTPC/GAME-VARIABLE NAMES (trap_scorn_pole.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (trap_scorn_pole.bnk)
 Scene_450_Foothills_SindriGetsServed
@@ -13741,17 +13207,11 @@ TRAP_Scorn_Stone_Explosion
 TRAP_Scorn_Stone_Fire_LP
 TRAP_Scorn_Stone_Fire_lp_stop
 
-### RTPC/GAME-VARIABLE NAMES (trap_scorn_stone.bnk)
-# 4250832408
-
 ### EVENT NAMES (trap_spear_spikes.bnk)
 TRAP_Spear_Spikes_Extend
 TRAP_Spear_Spikes_Impact
 TRAP_Spear_Spikes_Retract
 TRAP_Spear_Spikes_Trap_Sprung
-
-### RTPC/GAME-VARIABLE NAMES (trap_spear_spikes.bnk)
-# 4250832408
 
 ### EVENT NAMES (veh_boat.bnk)
 VEH_Boat_Dock_Beach_Pull_In
@@ -13778,7 +13238,6 @@ VEH_Boat_Water_lp_stop
 
 ### RTPC/GAME-VARIABLE NAMES (veh_boat.bnk)
 velocity
-# 4250832408
 
 ### VARIABLE NAMES (veh_boat.bnk)
 Scene_010_Forest_OpeningCine
@@ -13808,7 +13267,6 @@ vo_glb_cbt_bntr_taunt_son_bun
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_bandit_undead_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_bandit_undead_banter.bnk)
 CHR_Type
@@ -13862,7 +13320,6 @@ vo_glb_cbt_exrt_taunt_roar_short_bun
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_bandit_undead_efforts.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_bandit_undead_efforts.bnk)
 CHR_Type
@@ -13895,7 +13352,6 @@ vo_glb_cbt_bntr_weapon_buff_bra
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_brawler_undead_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_brawler_undead_banter.bnk)
 CHR_Type
@@ -13947,7 +13403,6 @@ vo_glb_cbt_exrt_taunt_roar_short_bra
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_brawler_undead_efforts.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_brawler_undead_efforts.bnk)
 CHR_Type
@@ -14031,8 +13486,6 @@ vo_glb_cbt_bntr_trenchrevealbattle_b_edrk
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_dark_ones_banter.bnk)
 Playback_Rate
-# 1494169564
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_dark_ones_banter.bnk)
 CHR_Variation
@@ -14116,8 +13569,6 @@ vo_glb_cbt_exrt_nav_land_edrk
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_dark_ones_efforts.bnk)
 Playback_Rate
-# 1494169564
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_dark_ones_efforts.bnk)
 CHR_Variation
@@ -14153,7 +13604,6 @@ vo_glb_cbt_bntr_taunt_son_fan
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_fanatic_undead_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_fanatic_undead_banter.bnk)
 CHR_Type
@@ -14208,7 +13658,6 @@ vo_glb_cbt_exrt_taunt_roar_short_fan_cskill
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_fanatic_undead_efforts.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_fanatic_undead_efforts.bnk)
 CHR_Type
@@ -14244,7 +13693,6 @@ vo_glb_cbt_bntr_taunt_son_trv
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_traveler_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_traveler_banter.bnk)
 CHR_Type
@@ -14289,7 +13737,6 @@ vo_glb_cbt_exrt_dmg_weak_trv_cskill
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_traveler_efforts.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_traveler_efforts.bnk)
 CHR_Type
@@ -14334,7 +13781,6 @@ vo_lvl_pro_s065_010_trl_stem
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_troll_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_troll_banter.bnk)
 CHR_Variation
@@ -14385,7 +13831,6 @@ vo_glb_cbt_exrt_taunt_roar_short_trl
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_troll_efforts.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_troll_efforts.bnk)
 CHR_Variation
@@ -14452,7 +13897,6 @@ vo_glb_cbt_exrt_taunt_snarl_vlk_cskill
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_valkyrie_efforts.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_valkyrie_efforts.bnk)
 chr_valkyrie
@@ -14489,7 +13933,6 @@ vo_glb_cbt_bntr_taunt_son_wit
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_witch_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_witch_banter.bnk)
 CHR_Variation
@@ -14535,7 +13978,6 @@ vo_glb_cbt_exrt_taunt_laughter_wit
 
 ### RTPC/GAME-VARIABLE NAMES (vo_glb_witch_efforts.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (vo_glb_witch_efforts.bnk)
 CHR_Variation
@@ -14719,12 +14161,6 @@ WPN_Bifrost_Bomb_Throw_LP
 WPN_Bifrost_Bomb_Throw_lp_stop
 WPN_Bifrost_Bomb_Wall_Sap_Idle_LP
 WPN_Bifrost_Bomb_Wall_Sap_Idle_lp_stop
-
-### SFX NAMES (wpn_bifrost_bomb.bnk)
-# 1056873149
-
-### RTPC/GAME-VARIABLE NAMES (wpn_bifrost_bomb.bnk)
-# 4250832408
 
 ### VARIABLE NAMES (wpn_bifrost_bomb.bnk)
 Surface_Material
@@ -14943,9 +14379,6 @@ WPN_Blades_Special_Mine_Chain_B_R
 WPN_Blades_Special_Mine_Explo_Lrg
 WPN_Blades_Special_Mine_SloMo_Stinger
 
-### SFX NAMES (wpn_blades_special_mines.bnk)
-# 642003305
-
 ### VARIABLE NAMES (wpn_blades_special_mines.bnk)
 WPN_Blades_Specials_Level
 
@@ -15099,7 +14532,6 @@ WPN_Club_Whoosh_Med_Helwalker_Seidr
 
 ### RTPC/GAME-VARIABLE NAMES (wpn_club.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (wpn_club.bnk)
 Surface_Material
@@ -15166,9 +14598,6 @@ WPN_Sword_Whoosh_High
 WPN_Sword_Whoosh_Low
 WPN_Sword_Whoosh_Med
 
-### SFX NAMES (wpn_sword.bnk)
-# 509194352
-
 ### VARIABLE NAMES (wpn_sword.bnk)
 Surface_Material
 
@@ -15213,7 +14642,6 @@ vo_lvl_smc02_s110_050_bld
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_baldur_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_baldur_efforts.bnk)
 vo_glb_cbt_atk_hvy_l_000_bld
@@ -15266,7 +14694,6 @@ vo_lvl_smc02_stone_mason_kill_02_fre
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_baldur_efforts.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_bandit_human_banter.bnk)
 vo_glb_cbt_bntr_arrow_react_hmn
@@ -15280,7 +14707,6 @@ vo_glb_cbt_bntr_taunt_hmn
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_bandit_human_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (langs/vo_glb_bandit_human_banter.bnk)
 CHR_Variation
@@ -15320,7 +14746,6 @@ vo_glb_cbt_exrt_nav_land_hmn
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_bandit_human_efforts.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (langs/vo_glb_bandit_human_efforts.bnk)
 CHR_Variation
@@ -15452,7 +14877,6 @@ vo_lvl_xplaq_s040_030_brk
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_brok_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_kratos_banter.bnk)
 TEST_vo_kratos
@@ -15905,7 +15329,6 @@ vo_lvl_xplubdm_s065_030_kra
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_kratos_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_kratos_efforts.bnk)
 vo_glb_cbt_exrt_atk_axe_dislodge_000_kra
@@ -16109,7 +15532,6 @@ vo_lvl_smc02_stone_mason_kill_12_kra
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_kratos_efforts.bnk)
 Playback_Rate
 velocity
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_magni_banter.bnk)
 TEMP_Magni_Banter
@@ -16119,7 +15541,6 @@ TEMP_Magni_Banter
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_magni_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_magni_efforts.bnk)
 vo_glb_cbt_exrt_atk_grab_mgi
@@ -16156,7 +15577,6 @@ vo_glb_cbt_exrt_taunt_laughter_mgi
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_magni_efforts.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_mimir_banter.bnk)
 vo_glb_cbt_bntr_BlockReminder_000_mmr
@@ -16820,7 +16240,6 @@ vo_lvl_xplubdm_s065_020_mmr
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_mimir_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_modi_banter.bnk)
 TEMP_Modi_Banter
@@ -16830,7 +16249,6 @@ TEMP_Modi_Banter
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_modi_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_modi_efforts.bnk)
 vo_glb_cbt_exrt_atk_heavy_long_mdi
@@ -16864,7 +16282,6 @@ vo_glb_cbt_exrt_taunt_laughter_mdi
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_modi_efforts.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_ratatoskr_banter.bnk)
 vo_glb_cbt_bntr_health_delivered_000_rat
@@ -16879,7 +16296,6 @@ vo_glb_cbt_bntr_summon_verylowhealth_000_rat
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_ratatoskr_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_sindri_banter.bnk)
 vo_glo_axe_for_mother_020_sin
@@ -17018,7 +16434,6 @@ vo_lvl_xplaq_s035_060_sin
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_sindri_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_son_banter.bnk)
 TEST_vo_son
@@ -18451,7 +17866,6 @@ vo_lvl_xplubdm_s065_010_son
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_son_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_son_efforts.bnk)
 vo_cbt_attack_evade_kid
@@ -18582,7 +17996,6 @@ vo_lvl_smc02_stone_mason_kill_06_son
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_son_efforts.bnk)
 Playback_Rate
 velocity
-# 4250832408
 
 ### EVENT NAMES (langs/vo_glb_valkyrie_banter.bnk)
 vo_glb_cbt_bntr_intro_line_vlk
@@ -18847,7 +18260,6 @@ vo_lvl_glo_valkyrie_s015_010_rot_b
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_glb_valkyrie_banter.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (langs/vo_glb_valkyrie_banter.bnk)
 chr_valkyrie
@@ -19285,7 +18697,6 @@ vo_lvl_alf02_s050_040_son
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_alfheim_01.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_brok_quests.bnk)
 vo_glo_valkyrie_s165_010_brk
@@ -19405,7 +18816,6 @@ vo_lvl_xplhttk_s130_050_son
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_brok_quests.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_cal250_foothillslh.bnk)
 vo_lvl_cl02_s002_010_fre
@@ -19428,7 +18838,6 @@ vo_lvl_cl10_s030_040_mmr
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_cal250_foothillslh.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_caldera_lake.bnk)
 vo_glo_triptych_interact_jormangandr_010_son
@@ -20639,7 +20048,6 @@ vo_lvl_xplubtr_s045_070_kra
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_caldera_lake.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_foothill_peakspass.bnk)
 vo_lvl_fthl02_s090_010_son
@@ -20659,7 +20067,6 @@ vo_lvl_pkp01_s003_010_son
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_foothill_peakspass.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_foothills.bnk)
 vo_lvl_fthl01_s010_010_son
@@ -20846,7 +20253,6 @@ vo_lvl_fthl04_s450_010_son_stem
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_foothills.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_forest.bnk)
 vo_lvl_pro02_s010_010_mmr
@@ -21189,7 +20595,6 @@ vo_lvl_pro_s540_050_son
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_forest.bnk)
 Playback_Rate
-# 4250832408
 
 ### VARIABLE NAMES (langs/vo_lvl_forest.bnk)
 baldur_occlusion
@@ -21469,7 +20874,6 @@ vo_lvl_hel02_s500_010_son_stem
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_helheim.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_jotunheim.bnk)
 vo_lvl_jtn_s010_010_son
@@ -21519,7 +20923,6 @@ vo_lvl_jtn_s610_010_son_stem
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_jotunheim.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_muspelheim.bnk)
 vo_glo_valkyrie_s100_010_son
@@ -21733,7 +21136,6 @@ vo_lvl_mus_s055_210_son_a
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_muspelheim.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_nid100_nifleheim.bnk)
 vo_glo_valkyrie_s115_010_son
@@ -21877,7 +21279,6 @@ vo_lvl_xplnif_s090_130_kra
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_nid100_nifleheim.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_peaks800_dragonfight.bnk)
 vo_lvl_pkp02_s135_010_bld
@@ -21905,7 +21306,6 @@ vo_lvl_smc02_s110_050_bld_01
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_peaks800_dragonfight.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_peaks_pass_01.bnk)
 vo_lvl_pkp01_dragon_finisher_exit_kra
@@ -22315,7 +21715,6 @@ vo_lvl_pkp02_s470_010_son_stem
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_peaks_pass_01.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_realmbtwrealms.bnk)
 vo_lvl_clfin_s200_010_mmr
@@ -22405,7 +21804,6 @@ vo_lvl_clrbr_s270_020_mmr
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_realmbtwrealms.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_river_pass_01.bnk)
 vo_lvl_riv01_s010_010_son
@@ -23054,7 +22452,6 @@ vo_lvl_riv65_s020_020_fre
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_river_pass_01.bnk)
 Distance_To_Camera
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_sindri_quests.bnk)
 vo_glo_valkyrie_s170_010_son
@@ -23187,7 +22584,6 @@ vo_lvl_xplsh_s095_020_sin
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_sindri_quests.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_snakes_belly.bnk)
 vo_lvl_clsb_s015_010_son
@@ -23250,7 +22646,6 @@ vo_lvl_clsb_s090_60_mmr
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_snakes_belly.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_stone_masons_corpse.bnk)
 vo_lvl_clsm1_s010_010_son
@@ -24240,7 +23635,6 @@ vo_lvl_smc02_tomahawk_exit_kra
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_stone_masons_corpse.bnk)
 obstruction
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_ub_deadfreight.bnk)
 vo_lvl_xplubdf_s005_005_trsp
@@ -24267,7 +23661,6 @@ vo_lvl_xplubdf_s070_050_trsp
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_ub_deadfreight.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_ub_desecratedmaiden.bnk)
 vo_lvl_xplubdm_s005_010_spvl
@@ -24328,7 +23721,6 @@ vo_lvl_xplubdm_s085_050_son
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_ub_desecratedmaiden.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_ub_thorsreckoning.bnk)
 vo_lvl_xplubtr_s005_010_sprtr
@@ -24360,7 +23752,6 @@ vo_lvl_xplubtr_s060_040_kra
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_ub_thorsreckoning.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_xpl100_httk.bnk)
 vo_lvl_xplhttk_s050_010_son
@@ -24462,7 +23853,6 @@ vo_lvl_xplhttk_s940_010_son_stem
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_xpl100_httk.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_xpl200_funeral.bnk)
 vo_lvl_xplvf_s005_010_son
@@ -24584,7 +23974,6 @@ vo_lvl_xplvf_s095_090_son
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_xpl200_funeral.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_xpl300_stronghold.bnk)
 vo_lvl_xplsh_070_020_mmr
@@ -24619,7 +24008,6 @@ vo_lvl_xplsh_s085_060_kra
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_xpl300_stronghold.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_xpl400_huldramines.bnk)
 vo_lvl_clbq1_s020_010_son
@@ -24688,7 +24076,6 @@ vo_lvl_clbq1_s900_010_son_stem
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_xpl400_huldramines.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_xpl425_huldramines.bnk)
 vo_lvl_clbq1_s015_010_son
@@ -24698,7 +24085,6 @@ vo_lvl_clbq1_s015_010_son
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_xpl425_huldramines.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_xpl450_huldramines.bnk)
 vo_lvl_xplhm2_s020_010_son
@@ -24737,7 +24123,6 @@ vo_lvl_xplhm2_s065_020_son
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_xpl450_huldramines.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_xpl600_masontrail.bnk)
 vo_glo_valkyrie_s140_010_son
@@ -24807,7 +24192,6 @@ vo_glo_valkyrie_s175_280_mmr
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_xpl600_masontrail.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_xpl650_fafnirscave.bnk)
 vo_lvl_xplfaf_s005_010_mmr
@@ -24840,7 +24224,6 @@ vo_lvl_xplfaf_s025_020_mmr
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_xpl650_fafnirscave.bnk)
 Playback_Rate
-# 4250832408
 
 ### EVENT NAMES (langs/vo_lvl_xpl850_forestdungeon.bnk)
 vo_lvl_sindri1_s030_010_kra
@@ -24885,9 +24268,10 @@ vo_lvl_sindri1_s100_100_kra
 
 ### RTPC/GAME-VARIABLE NAMES (langs/vo_lvl_xpl850_forestdungeon.bnk)
 Playback_Rate
-# 4250832408
 
-#1567221967  : Door_Magic_EMIT_Cave
-#2138984858  : PEAK_climb_Breathing_Frequency
 #3787168144  : Meter_CS_Kills_2H
-#494498977   : Anim_percentage
+#1567221967  : door_magic_emit_cave
+#427686716   : AMB_EMIT_Lead_Insect_Hive
+#3210727373  : AMB_Wind_Large_take_LP
+#1650341794  : MX_Ring_01_interior
+#2561433604  : MX_HEL_CS_Kills_jotunn_push_fail
