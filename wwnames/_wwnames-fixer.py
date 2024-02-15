@@ -179,7 +179,7 @@ def fix_wwnames(inname):
 
         if bline.endswith('#ko') and FULL_CLEAN:
             if bline.startswith('# '):
-                fnv, _ = bline.split('#ko')
+                fnv = bline.split(' ')[1]
                 koed.add(fnv.strip())
                 continue
             else:
