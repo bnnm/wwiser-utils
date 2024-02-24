@@ -218,13 +218,19 @@ Typical use of *words.py*:
 - run and check `words_out.txt` for possible matches (this will also create `skips.txt`)
   - *words.py* cuts base list names in various ways, and tries to find missing FNV numbers
   - `skips.txt` is a list of already reversed names that keeps growing, so when retrying same reversed names don't reappear
-- copy good matches to the *wwnames* near *words.py* (no need to change `number: name` format)
+- copy good matches to the bottom of *wwnames*.txt* (no need to change `number: name` format)
+  - There may be "several" to "tons" of false positives in the resulting .txt, nothing this tool can do about but using common sense to filter bad names should be enough
+- try `words.py` again with different options; this step will get you most names. This is discussed below
+- because names are generated from other names, you may want to filter the list a bit for odd things
+  - example, if all bank names are "Bank_0001" those are probably useless when using more advanced options
 - create `formats.txt` and add prefixes/suffixes like `play_%s`, `stop_%s`, `play_%s_bgm` and so on
   - observe your current *wwnames* list and try to guess possible patterns
   - example: https://github.com/bnnm/wwiser-utils/blob/master/scripts/words/formats.txt
 - run again and save new possible matches
 - keep tweaking `formats.txt` and adding/removing words in `wwnames.txt` trying to guess more names
-- every now and then update original list, then `wwiser.pyz *.bnk -sl -sm` to see how numbers keep decreasing
+- every now and then update original list
+  - `wwiser.pyz *.bnk -sl` to see how numbers keep decreasing
+  - you may use `_wwnames-fixer.py` instead for more or less the same effect (faster)
 - make a `ww.txt` file with extra posible names (together with `wwnames*`), run again
   - you could add it to `wwnames.txt` directly too, but this coexists and it's a bit easier to tweak
   - best used with many `formats.txt` variations (include format `%s` for no-affix default)
@@ -242,9 +248,102 @@ Typical use of *words.py*:
 - repeat again and again as you get more valid words (new words = new combos = new chances)
 - adding a `#@classify-bank` line to `wwnames.txt` and re-generating the list alters output a bit, and usually makes checking false positives easier
 - using *pypy* (python optimization) to run this tools makes it noticeably faster, specially when using combinations
-- give up at some point, copy names to the original *wwnames.txt*, re-create with `wwiser.pyz *.bnk -sl` and move on
+- give up at some point
+  - overwrite original *wwnames.txt* with our new improved copy
+  - re-create with `wwiser.pyz *.bnk -sl` (or `_wwnames-fixer.py`)
+  -  move on
 
-Get *pypy* (https://www.pypy.org/) and use it to run *words.py* for a nice speed up.
+For forget using *pypy* (https://www.pypy.org/) to run *words.py* for a nice speed up.
+
+Examples of commands to try (will remove empty output files), theory is explained later:
+```
+## basic commands
+# more or less suitable for wwnames.txt and ww.txt of any size
+
+# standard results
+words.py -de -o words1_out.txt 
+
+# various ways to split/join names
+words.py -de -o words1_all-js.txt  -js
+words.py -de -o words1_all-jb.txt  -jb
+words.py -de -o words1_all-sp.txt  -sp
+words.py -de -o words1_all-sc.txt  -sc
+words.py -de -o words1_all-sc-jb.txt  -sc -jb
+
+# typical suffixes + removes some letters for cases like "play_things" > "play_thing"
+words.py -de -o words1_all-cl0.txt  -fs 0 1 2 3 5 6 7 8 9 00 01 02 03 05 06 07 08 09 10 A B C D E L R M S LP
+words.py -de -o words1_all-cl1.txt  -cl 1 -fs 0 1 2 3 5 6 7 8 9 00 01 02 03 05 06 07 08 09 10 A B C D E L R M S LP
+words.py -de -o words1_all-cl2.txt  -cl 2 -fs 0 1 2 3 5 6 7 8 9 00 01 02 03 05 06 07 08 09 10 A B C D E L R M S LP
+words.py -de -o words1_all-c1b.txt  -cf 1
+words.py -de -o words1_all-c2b.txt  -cf 2
+
+# will try english words, makes quite a few false positives but a few good too like place names
+words.py -de -o words_wwe.txt -i english.txt
+
+# combinations of 2 words
+words.py -de -c 2 -zd -sf -o words2_sf.txt
+
+# combinations of 2-4 words, may be a bit slow
+words.py -de -c 2 -mc 80  -sn 2 -o words2_out.txt
+
+# variations of the above
+words.py -c 2 -de -mc 70 -sf -ho -sc -o words2_all-sc.txt 
+words.py -c 2 -de -mc 70 -sf -ho -sc -jb -o words2_all-sc-jb.txt 
+words.py -c 2 -de -mc 70 -sf -ho -js -o words2_all-js.txt 
+words.py -c 2 -de -mc 70 -sf -ho -jb -o words2_all-jb.txt 
+
+
+## advanced commands
+# generally too slow and too many false positives if your wwnames/ww.txt names are >1MB,
+# but very useful with the right txt. Remove less useful names and keep it <300kb for best results.
+
+# combos
+words.py -c 2 -mc 80  -de -o words2_out.txt
+
+# more combos
+words.py -c 2 -zd -mc 70 -jb -de -o words2_all-jb.txt 
+words.py -c 2 -zd -mc 70 -js -de -o words2_all-js.txt 
+words.py -c 2 -zd -mc 70 -sc -de -o words2_all-sc.txt 
+words.py -c 2 -zd -mc 70 -sc -jb -de -o words2_all-sc-jb.txt 
+
+# a bit slow but creates words in a way that gets good results
+words.py -de -o words_fa-sf.txt -zd -fa -sf
+
+# similar variations but a low less useful, might as well
+words.py -de -o words_fa-jb.txt -zd -fa -jb
+words.py -de -o words_fa-sc.txt -zd -fa -sc
+words.py -de -o words_fa-jb-sc.txt -zd -fa -jb -sc
+
+
+## extra commands
+# more complex variations of the advanced commands, generally make too many false positives, but still useful sometimes
+
+# very slow but creates words in a way that still gets good results
+words.py -de -o words_faw.txt -zd -fa -de
+
+# not really useful but may get some stuff here and there
+words.py -c 2 -de -sf  -o words2_all-jb-cl0.txt -fs 0 1 2 3 5 6 00 01 02 03 05 06 A B C D E L M S LP
+words.py -c 2 -de -sf  -o words2_all-jb-cl1.txt -cl 1  -fs 0 1 2 3 5 6 00 01 02 03 05 06 A B C D E L M S LP
+words.py -c 2 -de -sf  -o words2_all-jb-cl2.txt -cl 2  -fs 0 1 2 3 5 6 00 01 02 03 05 06 A B C D E L M S LP
+
+# if you use a smaller english words list (WIP) this is useful sometimes
+words.py -de -o words_wwe.txt -zd -c 2 -sf -i english-small.txt
+
+# this will take ages and create too much crap unless your txt is pretty small, but just in case:
+words.py -de -c 3 -mc 40 -ho -sf -o words3_sf.txt
+
+
+## extra stuff
+# not commands but a few extra tips:
+
+# - go to the wwiser-utils/wwnames dir, copy all names in a single file (ex. cmd: copy *.txt ww.txt) and use it as for a few more names
+
+# - go to wwiser-utils/words and try sample formats.txt there
+
+# - take english-small.txt or ww.txt (extra names), add "#@section" on top; then try the "permutations" mode
+words.py -p -mc 40 -de -i ww.txt
+words.py -p -mc 40 -de -i english-small.txt
+```
 
 
 #### Basic reversing
