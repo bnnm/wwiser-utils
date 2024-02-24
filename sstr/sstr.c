@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdint.h>
+#include <stdbool.h>
 #include <string.h>
 #include <stdlib.h>
 #include <time.h>
@@ -12,6 +13,7 @@
 // Some games have strings like (size)(id)(string), or (size)(string).
 // strings2.exe trips on those and may create things like "b(string)A",
 // while this program should handle them fine (may still output some false positives though)
+// Mainly for names found in stuff like the Decima engine.
 
 // todo config bufsize
 // todo BE mode
@@ -31,6 +33,7 @@ typedef struct {
     uint32_t buf_size;
     const char* targets[MAX_TARGETS];
     uint32_t targets_count;
+    bool limited;
 } sstr_config;
 
 //*************************************************************************
@@ -44,12 +47,24 @@ static uint32_t get_u32le(const uint8_t *p) {
     return ret;
 }
 
-static int is_ascii_str(const uint8_t* buf, int str_len) {
-    for (int i = 0; i < str_len - 1; i++) {
-        uint8_t curr = buf[i];
-        if (curr < 0x20 || curr >= 0x7F) // useful only ASCII
-            return 0;
+static int is_ascii_str(const uint8_t* buf, int str_len, bool limited) {
+    if (limited) {
+        // decima hashes only
+        for (int i = 0; i < str_len - 1; i++) {
+            uint8_t curr = buf[i];
+            if (curr < 0x2d && curr != 0x20 || curr > 0x7a || curr >= 0x3b && curr <= 0x40 || curr >= 0x5b && curr <= 0x5e)
+                return 0;
+        }
     }
+    else {
+        // useful only ASCII
+        for (int i = 0; i < str_len - 1; i++) {
+            uint8_t curr = buf[i];
+            if (curr < 0x20 || curr >= 0x7F)
+                return 0;
+        }
+    }
+
     // last char can be a null
     uint8_t last = buf[str_len-1];
     if (last != 0 && last < 0x20 || last >= 0x7F)
@@ -58,15 +73,15 @@ static int is_ascii_str(const uint8_t* buf, int str_len) {
     return 1;
 }
 
-static int test_str(const uint8_t* buf, int str_len) {
-    if (is_ascii_str(buf, str_len)) {
+static int test_str(const uint8_t* buf, int str_len, bool limited) {
+    if (is_ascii_str(buf, str_len, limited)) {
         printf("%.*s\n", str_len, buf);
         return 1;
     }
     return 0;
 }
 
-static void find_string(const uint8_t* buf, uint32_t buf_size) {
+static void find_string(const uint8_t* buf, uint32_t buf_size, bool limited) {
     uint32_t pos = 0;
 
     // test (len)(str) and (len)(id)(str)
@@ -74,9 +89,9 @@ static void find_string(const uint8_t* buf, uint32_t buf_size) {
         uint32_t str_len = get_u32le(buf + pos + 0x00);
         if (str_len > MIN_STR && str_len < MAX_STR) {
             // both are possible at the same time in some cases
-            int test1 = test_str(buf + pos + 0x04, str_len);
-            int test2 = test_str(buf + pos + 0x08, str_len);
-            
+            int test1 = test_str(buf + pos + 0x04, str_len, limited);
+            int test2 = test_str(buf + pos + 0x08, str_len, limited);
+
             if (test2) {
                 pos += 0x08 + str_len;
             }
@@ -130,6 +145,9 @@ static int parse_cfg(sstr_config* cfg, int argc, const char* argv[]) {
             case 'h':
                 print_usage(argv[0]);
                 return 0;
+            case 'l':
+                cfg->limited = true;
+                break;
             default:
                 CHECK_EXIT(1, "ERROR: unknown parameter '%s'\n", argv[i]);
                 break;
@@ -199,7 +217,7 @@ int main(int argc, const char* argv[]) {
             if (!bytes)
                 break;
 
-            find_string(buf, BUF_HEAD + bytes);
+            find_string(buf, BUF_HEAD + bytes, cfg.limited);
 
             // copy last bytes as next head (shouldn't overlap)
             memcpy(buf, buf + BUF_HEAD + bytes - BUF_HEAD, BUF_HEAD);

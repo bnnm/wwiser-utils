@@ -3,9 +3,11 @@
 #   - should have lines like "# 3933301714"
 # - add words.py reversed names, format "3933301714: banana"
 # - run this tool (drag and drop)
-#   - this will replace "# 3933301714" by "banana"
+#   - this will replace "# 3933301714" with "banana"
 #   - if list has "### (name)" sections, sections are sorted too
-# - output is "(name)-clean.txt"
+# - output is "(name)-clean.txt", except if (name) is wwname-*.txt in which case will be replaced
+# - if some name is wrong add "#ko" at the end ("ZZSXSBanana #ko")
+#   - use this script and wrong name will be converted back to "# (hash number)"
 
 import sys, re
 
@@ -13,7 +15,6 @@ FULL_CLEAN = True
 CLEAN_ORDER = True
 UPDATE_ORIGINAL = True
 FNV_FORMAT = re.compile(r"^[A-Za-z_][A-Za-z0-9\_]*$")
-#HDR_FORMAT = re.compile(r"^###+*\([^\t]+\).+[\t ]*([^\t]*)[\t ]*([^\t]*)")
 HDR_FORMAT1 = re.compile(r"^###.+\(langs/(.+)\.bnk\)")
 HDR_FORMAT2 = re.compile(r"^###.+\((.+)\.bnk\)")
 
@@ -131,7 +132,10 @@ def fix_wwnames(inname):
             if items:
                 # register solved ids and ignore line
                 sid, hashname = items
-                hashed[sid] = hashname
+                if sid not in hashed:
+                    hashed[sid] = []
+                if hashname not in hashed[sid]:
+                    hashed[sid].append(hashname)
             else:
                 # register base lines as-is, except when fixing headers
                 if line.startswith('### '):
@@ -145,9 +149,9 @@ def fix_wwnames(inname):
 
                     if bankname.isdigit():
                         sid = int(bankname)
-                        hashname = hashed.get(sid)
-                        if hashname:
-                            line = line.replace('.bnk', '.bnk: %s' % hashname)
+                        hashnames = hashed.get(sid)
+                        if hashnames:
+                            line = line.replace('.bnk', '.bnk: %s' % hashnames[0])
 
                 # use case as found in first line 
                 # (so if BLAH is used in several points and changed once to Blah, other points use that too)
@@ -160,46 +164,66 @@ def fix_wwnames(inname):
                 if not line.startswith('#'):
                     hashname = line.split('#')[0]
                     sid = get_fnv(hashname)
-                    hashed[sid] = hashname
+                    if sid not in hashed:
+                        hashed[sid] = []
+                    if hashname not in hashed[sid]:
+                        hashed[sid].append(hashname)
 
 
-
+    section = False
     clines = []
     for bline in blines:
-        if bline in koed:
+        if bline.startswith('### '):
+            section = True
+    
+        if bline.lower() in koed:
             sid = get_fnv(bline)
             bline = "# %s" % (sid)
 
-        if bline.startswith('#ko') and ':' in bline and FULL_CLEAN:
+        if bline and bline.startswith('#ko') and ':' in bline and FULL_CLEAN:
             _, hashname = bline.split(':')
             hashname = hashname.strip()
             sid = get_fnv(hashname)
-            bline = "# %s" % (sid)
-            koed.add(hashname)
+            koed.add(hashname.lower())
+            if section:  # '#ko' on top get ignored
+                bline = "# %s" % (sid)
+            else:
+                continue
 
         if bline.endswith('#ko') and FULL_CLEAN:
             if bline.startswith('# '):
                 fnv = bline.split(' ')[1]
                 koed.add(fnv.strip())
                 continue
+            elif bline.startswith('#'):
+                pass
             else:
-                hashname, _ = bline.split('#ko')
+                hashname, _ = bline.split('#ko', 1)
                 hashname = hashname.strip()
                 sid = get_fnv(hashname)
-                bline = "# %s" % (sid)
-                koed.add(hashname)
+                koed.add(hashname.lower())
+                if section: # '#ko' on top get ignored
+                    bline = "# %s" % (sid)
+                else:
+                    continue
 
 
         if bline.startswith('# ') and ':' not in bline:
             sid = bline[2:].strip()
             if sid in hashed:
-                hashname = hashed[sid]
-                if FULL_CLEAN:
-                    bline = "%s" % (hashname)
-                else:
-                    bline = "%s: %s" % (sid, hashname)
+                hashnames = hashed[sid]
+                for i, hashname in enumerate(hashnames):
+                    if FULL_CLEAN:
+                        bline = "%s" % (hashname)
+                    else:
+                        bline = "%s: %s" % (sid, hashname)
+                    if i > 0:
+                        bline += ' #alt'
+                    clines.append(bline)
+                continue
 
         clines.append(bline)
+
 
     clines = order_list(clines)
     clines = clean_lines(clines)

@@ -9,6 +9,7 @@ _BAD_GROUPS = ['uu', 'fwfw','ldlD', 'vwu', 'zzz', 'abcde']
 _ENDS_WITH = ['bc']
 DONE = set()
 split = False
+remove_numbers = False
 
 def get_match_max(line, regex):
     count = 0
@@ -85,9 +86,13 @@ def read_line(line, outfile_ok, outfile_ko, outfile_dp):
             for item in items:
                 if item in DONE:
                     continue
+                if remove_numbers and item.isnumeric():
+                    continue
                 DONE.add(item)
                 outfile_ok.write(item + '\n')
         else:
+            if remove_numbers and line.isnumeric():
+                return
             outfile_ok.write(line + '\n')
     else:
         outfile_ko.write(line + '\n')
