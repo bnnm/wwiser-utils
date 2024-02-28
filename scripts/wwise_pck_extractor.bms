@@ -147,7 +147,7 @@ startfunction PARSE_TABLE_INTERNAL
 
     for I = 0 < FILES
         if ALT_MODE == 1 && IS_EXTERNALS == 1
-            #TODO: externals use 64b ID, but quickbms 32b doesn't support 64b vars
+            # externals use 64b IDs, but quickbms 32b doesn't support 64b vars
             #get ID longlong
 
             if CURRENT_ENDIAN == 0 #LE
@@ -213,7 +213,11 @@ startfunction PARSE_TABLE_INTERNAL
         endif
 
         if ALT_MODE == 1 && IS_EXTERNALS == 1
-            #TODO: should print as non-hex but quickbms 32b doesn't support 64b vars
+            # maybe should print as non-hex but quickbms 32b doesn't support 64b vars
+            # 
+            # This ID seems to be a 64-bit FNV-1 over a path, ex. from Honkai Star Trail:
+            #  English/voice/chapter3_5_firefly_104.wem > 7061846086923521376 (0x6200B799CD8F0D60)
+            # Original path can be found referenced in game files (thanks davispuh for the info).
             string NAME p "externals/%s%08x%08x.%s" PATH ID1 ID2 EXT
         else
             string NAME p "%s%u.%s" PATH ID EXT

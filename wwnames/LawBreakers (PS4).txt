@@ -1,0 +1,6975 @@
+
+### BANK NAMES
+DIAL_Abaddon
+DIAL_Aegis
+DIAL_Announcer
+DIAL_Announcer_KillConfirmed
+DIAL_Announcer_LinearTutorial
+DIAL_Announcer_Menu
+DIAL_Announcer_Occupy
+DIAL_Announcer_Rush
+DIAL_Announcer_SandboxTutorial
+DIAL_Announcer_Spectator
+DIAL_Announcer_TDM
+DIAL_Announcer_Uplink
+DIAL_Baron
+DIAL_BlitzBall
+DIAL_Bomchelle
+DIAL_Breacher
+DIAL_CharacterSelect
+DIAL_CharSelectCustomization
+DIAL_Cronos
+DIAL_Faust
+DIAL_Feng
+DIAL_Helix
+DIAL_Hellion
+DIAL_Kintaro
+DIAL_Kitsune
+DIAL_Maverick
+DIAL_MVP
+DIAL_Nash
+DIAL_Sunshine
+DIAL_Tokki
+DIAL_Toska
+DIAL_Zurvan
+Init
+MUS_InGame
+MUS_Menu
+SFX_ABL_Assassin
+SFX_ABL_BattleMedic
+SFX_ABL_Enforcer
+SFX_ABL_Gunslinger
+SFX_ABL_Harrier
+SFX_ABL_Juggernaut
+SFX_ABL_Recon
+SFX_ABL_Titan
+SFX_ABL_Vanguard
+SFX_ABL_Wraith
+SFX_AMB_BlitzMap
+SFX_AMB_Gateway
+SFX_AMB_Grandview
+SFX_AMB_Mammoth
+SFX_AMB_Multimap
+SFX_AMB_Multimap_CityScape
+SFX_AMB_Multimap_Industrial
+SFX_AMB_Multimap_Ocean
+SFX_AMB_Multimap_Shura
+SFX_AMB_Namsan
+SFX_AMB_PilaxisSign
+SFX_AMB_Promenade
+SFX_AMB_Reactor
+SFX_AMB_RedFalls
+SFX_AMB_Station
+SFX_AMB_Trench
+SFX_AMB_Vertigo
+SFX_CHAR_Generic
+SFX_Debug
+SFX_FOL_Abaddon
+SFX_FOL_Baron
+SFX_FOL_BattleMedic
+SFX_FOL_Bomchelle
+SFX_FOL_Breacher
+SFX_FOL_Cronos
+SFX_FOL_Deadlock
+SFX_FOL_Faust
+SFX_FOL_Footsteps
+SFX_FOL_Helix
+SFX_FOL_Hellion
+SFX_FOL_Jugg
+SFX_FOL_Kintaro
+SFX_FOL_Kitsune
+SFX_FOL_Maverick
+SFX_FOL_Sunshine
+SFX_FOL_Toska
+SFX_FOL_Wraith
+SFX_Gravity
+SFX_Gravity_JumpPad
+SFX_Gravity_Spheres
+SFX_LoadAll
+SFX_MVP
+SFX_OBJ_Battery
+SFX_OBJ_HealthStation
+SFX_OBJ_RushBall
+SFX_OBJ_SpawnBarrier
+SFX_OBJ_Uplink
+SFX_Pickups
+SFX_PROJ_Ballistic
+SFX_Prototype
+SFX_UI_CharacterSelect_Breaker
+SFX_UI_CharacterSelect_Law
+SFX_UI_Customization
+SFX_UI_InGame
+SFX_UI_Menu
+SFX_UI_Tutorial
+SFX_Weapon_Aerator
+SFX_Weapon_ALL
+SFX_Weapon_Badger
+SFX_Weapon_BattleMedic
+SFX_Weapon_Chain_Lightning_Gun
+SFX_Weapon_Gatling
+SFX_Weapon_Gunslinger
+SFX_Weapon_Harrier
+SFX_Weapon_Jugg_ShotG
+SFX_Weapon_Recon
+SFX_Weapon_Romerus
+SFX_Weapon_Shrapnel_RL
+SFX_Weapon_TaserMachete
+SFX_Weapon_Wraith
+
+### BUS NAMES
+Ability_2D
+Ability_3D
+Ability_3D_Ally
+Ability_3D_Attacker
+Ability_3D_NME
+Ability_3D_Victim
+Ability_Bus
+AMB_Mammoth_AirConditioner
+AMB_Mammoth_Airplanes
+AMB_Mammoth_Pipes
+AMB_Mammoth_Screens
+AMB_Mammoth_ShipIdle
+AMB_Mammoth_Steam
+AMB_Mammoth_Thunder
+AMB_Mammoth_VO_PA
+AMB_Mammoth_WaterDrips
+AMB_Mammoth_Wind
+AMB_Mammoth_Wind_Fast
+AMB_Sign_TASC
+AMB_SlidingDoor
+AMB_Spawn_Barrier
+AMB_TASC_Barrier
+Ambience_Bus
+Announcer_Bus
+Announcer_ingame
+Announcer_Menu
+BlitzBall_Dialogue
+BlitzBall_Dialogue_2D
+BlitzBall_Dialogue_3D
+BlitzBall_Dialogue_3D_Ally
+BlitzBall_Dialogue_3D_Attacker
+BlitzBall_Dialogue_3D_NME
+BlitzBall_Dialogue_3D_Victim
+BlitzMaps
+BlitzMaps_Organ
+Character_Bus
+Character_Dialogue_Bus
+Damage
+Damage_Kick
+DIAL_2D
+DIAL_2D_Ultimate
+DIAL_3D
+DIAL_3D_Ally
+DIAL_3D_Attacker
+DIAL_3D_NME
+DIAL_3D_Victim
+DIAL_Customization
+DIAL_Endmatch_MVP
+DIAL_FrontEnd_CharSelect
+DIAL_Gateway
+DIAL_Grandview
+DIAL_Mammoth
+DIAL_Namsan
+DIAL_Promenade
+DIAL_Reactor
+DIAL_Redfalls
+DIAL_Station
+DIAL_Trench
+DIAL_Vertigo
+Dialogue_Bus
+Dialogue_ingame
+DM_Grand
+DM_Grand_Looping
+DM_Grand_One_Shot
+DMG_2D
+DMG_3D
+DMG_3D_Ally
+Dmg_3D_Attacker
+DMG_3D_NME
+Dmg_3D_Victim
+Dmg_Impact_Pip
+Dmg_Impact_Pip_2D
+Dmg_Impact_Pip_3D
+Environmental_Dialogue
+Foley_Bus
+Foley_CHAR_2D
+Foley_CHAR_3D
+Foley_CHAR_Cloth_2D
+Foley_CHAR_Cloth_3D
+Foley_CHAR_Cloth_3D_Ally
+Foley_CHAR_Cloth_3D_Attacker
+Foley_CHAR_Cloth_3D_NME
+Foley_CHAR_Cloth_3D_Victim
+Foley_WEP_2D
+Foley_WEP_3D
+Foley_WEP_3D_Ally
+Foley_WEP_3D_Attacker
+Foley_WEP_3D_NME
+Gateway
+Gateway_Engines
+GateWay_Fireworks
+GateWay_Ocean
+Gateway_Wind
+Grandview
+Grandview_Barrier_Bus
+Grandview_Bell_Bus
+GrandView_Birds_Bus
+Grandview_Dropship
+Grandview_Steam_Bus
+Grandview_Telemetry_Bus
+Grandview_TetherMachine
+Grandview_Thunder
+Grandview_Tunnel_Light
+Grandview_Tunnel_Pipe
+Grandview_Tunnel_Rumble
+Grandview_Waterfall_Bus
+Grandview_Wind_Bus
+Gravity_Ability
+Gravity_Bus
+Gravity_Exterior
+Gravity_Increased_Bus
+Gravity_Pawn
+Gravity_Sphere
+Gravity_trans
+HealthStation_Bus
+InWorld
+InWorldGravity
+Kick_2D
+Kick_3D_Ally
+Kick_3D_Attacker
+Kick_3D_NME
+Kick_3D_Victim
+Mammoth
+Master Audio Bus = 0
+Master Secondary Bus = 0
+Multimap
+MUS_Background
+MUS_BatteryGrab
+MUS_Endmatch
+MUS_InGame
+MUS_Law
+MUS_Lifers
+MUS_Menu
+MUS_Shura
+MUS_STNG
+MUS_STNG_All
+MUS_STNG_Death
+MUS_STNG_Death_Loop
+MUS_STNG_Death_OneShot
+MUS_STNG_Intro
+MUS_STNG_Kill
+MUS_STNG_Other
+MUS_STNG_Spawn
+MUS_STNG_Teleport
+MUS_STNG_Tension
+MUS_UI_Menu_STNG
+MUS_Valkyrie
+Music_Bus
+Namsan
+Namsan_Traffic
+Namsan_Wind
+OBJ_Battery_Bus
+OBJ_Battery_Charging
+OBJ_Battery_Cradle
+OBJ_Battery_Explo
+OBJ_Battery_Idle
+OBJ_Battery_Shield
+OBJ_Rush_Ball
+OBJ_SpawnBarrier_Bus
+Object_Bus
+Pickup_Ammo_Bus
+Pickup_Health_Bus
+Pickups_Bus
+Proj_2D
+Proj_3D
+Proj_3D_Ally
+Proj_3D_Attacker
+Proj_3D_NME
+Proj_3D_Victim
+Proj_Bus
+Prom_Boardwalk_Music
+Prom_CityScape
+Prom_CityScape_Traffic
+Prom_Fastwind
+Prom_Thunder
+Promenade
+Reactor
+Reactor_CleaningRobot
+Reactor_Connection_Center_Area
+Reactor_Console
+Reactor_Ocean
+Reactor_Ocean_Splash
+Reactor_Pipes
+Reactor_Reactor
+Reactor_Sparks
+Reactor_Steam
+Reactor_Waves
+Reactor_Wind
+RedFalls
+RedFalls_Birds
+RedFalls_Brazier
+RedFalls_Crickets
+RedFalls_Fountain
+RedFalls_Frog
+RedFalls_Ship
+RedFalls_Wind
+Reverb_Bus
+Reverb_Gateway
+Reverb_Gateway_Center
+Reverb_Gateway_Spawn
+Reverb_Gateway_Tunnel
+Reverb_Grandview
+Reverb_Grandview_BatteryRoom
+Reverb_Grandview_BatteryRoom_Upper
+Reverb_Grandview_BatteryRoomEntrance
+Reverb_Grandview_CenterCourtyard
+Reverb_Grandview_Dojo
+Reverb_Grandview_SideCourtyards
+Reverb_Grandview_Spawn
+Reverb_Grandview_Statues
+Reverb_Grandview_Tunnel
+Reverb_Grandview_Tunnel_Entrance
+Reverb_Grandview_Tunnel_Health
+Reverb_Grandview_Waterfall
+Reverb_Mammoth
+Reverb_Mammoth_BatteryCorridor
+Reverb_Mammoth_BatteryEntryHallway
+Reverb_Mammoth_BatteryOverlook
+Reverb_Mammoth_BatteryRoom
+Reverb_Mammoth_ExteriorWide
+Reverb_Mammoth_Hangar_Entry
+Reverb_Mammoth_Hangar_Overlook
+Reverb_Mammoth_Outside_HangarEntry
+Reverb_Mammoth_Spawn
+Reverb_Mammoth_Spawn_Hallways
+Reverb_Mammoth_Tunnel_Health
+Reverb_Mammoth_Tunnel_Stairs
+Reverb_Namsan
+Reverb_Namsan_Base
+Reverb_Namsan_BaseFrontExit
+Reverb_Namsan_BaseHealthStation
+Reverb_Namsan_BaseSideHallway
+Reverb_Namsan_BaseStairway
+Reverb_Namsan_CenterBatteryPickupArea
+Reverb_Namsan_Exterior
+Reverb_Namsan_SpawnRoom
+Reverb_Promenade
+Reverb_Promenade_Alcove
+Reverb_Promenade_Alcove_Below
+Reverb_Promenade_Alcove_Stairs
+Reverb_Promenade_BatteryRoom
+Reverb_Promenade_Center_Courtyard
+Reverb_Promenade_Center_Entrance_Mid
+Reverb_Promenade_Center_Escalator
+Reverb_Promenade_Center_Upper
+Reverb_Promenade_Exterior
+Reverb_Promenade_Exterior_Stairs
+Reverb_Promenade_Spawn
+Reverb_Promenade_Spawn_Below
+Reverb_Promenade_Spawn_Foyer
+Reverb_Promenade_Sphere
+Reverb_Promenade_Stairwell
+Reverb_Promenade_Tunnel
+Reverb_Promenade_Tunnel_Entrance
+Reverb_Reactor
+Reverb_Reactor_BatteryRoom
+Reverb_Reactor_BattRoom_Outer
+Reverb_Reactor_BattRoom_Stairwell
+Reverb_Reactor_Center_BayDoors
+Reverb_Reactor_Center_Exterior
+Reverb_Reactor_Center_ReactorCore_SmallHallway
+Reverb_Reactor_Decontamination_Area
+Reverb_Reactor_HealthStation_Ramp
+Reverb_Reactor_HealthStationHallway
+Reverb_Reactor_LowerArea
+Reverb_Reactor_SpawnHall_LowCeiling
+Reverb_Reactor_SpawnHall_TallCeiling
+Reverb_Reactor_SpawnRoom
+Reverb_Redfalls
+Reverb_Redfalls_BattRoom
+Reverb_Redfalls_BattRoom_Elevator
+Reverb_Redfalls_BattRoom_Stairs
+Reverb_Redfalls_BattRoomHallway
+Reverb_Redfalls_BattRoomHallway_Entry
+Reverb_RedFalls_Center_HealthStation
+Reverb_RedFalls_Exterior
+Reverb_Redfalls_HealthStationHall
+Reverb_Redfalls_HealthStationHall_Entry
+Reverb_Redfalls_SpawnRoom_Inner
+Reverb_Redfalls_SpawnRoom_Outer
+Reverb_Redfalls_UpperHall_Exit
+Reverb_Redfalls_UpperHall_Left
+Reverb_Redfalls_UpperHall_Mid_HighCeiling
+Reverb_Redfalls_UpperHall_Mid_LowCeiling
+Reverb_Redfalls_UpperHall_Right
+Reverb_Station
+Reverb_Station_Batt_ConvenienceStore
+Reverb_Station_BatteryRoom
+Reverb_Station_BatteryRoom_entry
+Reverb_Station_BatteryRoom_Exit
+Reverb_Station_BatteryRoom_Stairwell
+Reverb_Station_BatteryRoom_UpperLevel
+Reverb_Station_Center_BackArea
+Reverb_Station_Center_BattSpawnRoom
+Reverb_station_Center_HealthStation
+Reverb_Station_Center_LoungeArea
+Reverb_Station_Center_MainArea
+Reverb_Station_Center_SideArea
+Reverb_station_HealthStation_Hallway
+Reverb_station_HealthStation_Room
+Reverb_Station_Spawn_Stairwell
+Reverb_Station_SpawnRoom
+Reverb_Trench
+Reverb_Trench_Base
+Reverb_Trench_BaseExit
+Reverb_Trench_BaseExitHallway
+Reverb_Trench_BaseHealthStation
+Reverb_Trench_BaseSideExit
+Reverb_Trench_CenterHealthStation
+Reverb_Trench_SideStairs
+Reverb_Trench_SpawnAlcove
+Reverb_Trench_SpawnAnnex
+Reverb_Trench_SpawnExit
+Reverb_Trench_SpawnRoom
+Reverb_Trench_SpawnStairs
+Reverb_Turorial1
+Reverb_Turorial1_Hallway
+Reverb_Turorial1_RoomBig
+Reverb_Tutorial
+Reverb_Tutorial_Center_HealthStation
+Reverb_Tutorial_Center_HealthStation_Alcove
+Reverb_Tutorial_Center_HealthStation_entrance
+Reverb_Tutorial_Hallway
+Reverb_Tutorial_SpawnRoom
+Reverb_UnderSpawn
+Reverb_Vertigo
+Reverb_VRClash
+Reverb_VRClash_Lower_Stairway
+Reverb_VRClash_Lower_Tunnel
+Reverb_VRClash_Side_Tunnel
+Reverb_VRClash_Side_Tunnel_Low_Ceiling
+Reverb_VRClash_Upper_Cover_Area
+Reverb_VRClash_Upper_Stairs
+RHandOff_Reset
+SFX_Bus
+SFX_Endmatch
+SFX_Endmatch_MVP
+SFX_FrontEnd
+SFX_ingame
+Shield_Bus
+Shield_Generic_Bus
+Station
+Station_EnergyBarrier
+Station_Flyby_Outside
+Station_Rain_Window
+Station_Traffic
+Trench
+Trench_Interior
+Trench_Wind
+Tutorial1
+UI_Battery
+UI_Endmatch_MVP
+UI_HUD
+UI_HUD_mode
+UI_InGame
+UI_LowAmmo
+UI_Menu
+UI_Menu_CharacterSelect
+UI_Menu_STNG_Loop
+UI_Menu_STNG_OneShot
+Vertigo
+Vertigo_BackCorner
+Vertigo_BatteryRoom
+Vertigo_Center_BottomInterior
+Vertigo_Center_Health
+Vertigo_Exterior
+Vertigo_Front
+Vertigo_Health
+Vertigo_Pipes
+Vertigo_Room
+Vertigo_Spawn
+Vertigo_Stairs
+Vertigo_Wind
+Vertigo_Wind_World
+VFX_2D
+VFX_3D
+VFX_3D_Ally
+VFX_3D_attacker
+VFX_3D_NME
+VFX_3D_victim
+Weapon_2D
+Weapon_3D
+Weapon_3D_Ally
+Weapon_3D_attacker
+Weapon_3D_NME
+Weapon_3D_victim
+Weapons_Bus
+# 407626605
+# 158819088
+# 830249390
+# 3151174298
+# 2894347197
+# 3158685285
+# 3471421326
+# 4099075841
+# 4101555489
+# 351912430
+# 725548514
+# 3141735709
+# 1138351444
+# 1434212586
+# 224278988
+# 2913245018
+# 2018357318
+# 2726619542
+# 2316582682
+# 144054598
+# 3136180560
+# 96976707
+# 417078631
+# 426936482
+# 502246621
+# 563444761
+# 884351042
+# 1420871342
+# 3246225908
+# 3281001405
+# 3473135498
+# 3538606620
+# 3076781990
+# 3093559601
+# 2499099804
+# 2798904788
+# 3462348045
+# 4058838998
+# 2251467967
+# 388032197
+# 3848678860
+# 1214130489
+# 3045709327
+# 1369537050
+# 2960370388
+# 2977147943
+# 3796858471
+# 4235108880
+# 4251886691
+# 995534298
+# 2012566087
+# 2920409447
+# 3031264308
+# 1361446457
+# 1559790859
+# 2605856821
+# 3499056303
+# 2163875883
+# 3929895283
+# 3221622932
+# 3725237918
+# 2458514125
+# 2287568415
+# 1790494090
+# 462166619
+# 619508984
+# 2713618793
+# 3816974527
+# 1807271909
+# 3742856393
+# 1336333743
+# 4009605916
+# 2917082234
+# 27051482
+# 192894398
+# 744952592
+# 1032989287
+# 1057356555
+# 1847069938
+# 2896328320
+# 3612408321
+# 2188071435
+# 2781211233
+# 3605086913
+# 4231964198
+
+### SFX NAMES (Init.bnk)
+_1_Second_Delay
+Blue_Distant_Echoes
+Brick_Wall_Minus_1dB_Peak_Fast_Release
+DIAL_Announcer_Duck
+Gateway_Center_01
+Gateway_Spawn_01
+Gateway_Tunnel_01
+Grandview_BatteryRoom_02
+Grandview_Tunnel_entrance_01
+Grandview_Tunnel_Health_01
+Grandview_Waterfall_01
+Hall_Large
+Mammoth_BatteryCorridor
+Mammoth_BatteryOverlook
+Mammoth_BatteryRoom_01
+Mammoth_BatteryRoom_entrance_01
+Mammoth_Courtyard_1
+Mammoth_Hangar_Entry
+Mammoth_Hangar_Overlook
+Mammoth_Outside_HangarEntry
+Mammoth_Spawn_01
+Mammoth_Spawn_Hallway_01
+Mammoth_Tunnel_Health_01
+Mammoth_Tunnel_Stairs
+Namsan_base_01
+Namsan_base_Stairway_01
+Namsan_HealthStation_Hallway_01
+Namsan_SpawnRoom
+Promenade_Alcove_01
+Promenade_BatteryRoom_01
+Promenade_Center_stairs_01
+Promenade_Center_Upper_01
+Promenade_Foyer_01
+Promenade_Spawn_01
+Promenade_Sphere_01
+Promenade_Tunnel_Health_01
+Reactor_BatteryRoom_01
+Reactor_BatteryRoom_outer_01
+Reactor_BatteryRoom_Stairwell_01
+Reactor_Exterior_01
+Reactor_HealthStation_Hallway_01
+RedFalls_BatteryRoom_01
+RedFalls_BatteryRoom_Elevator_01
+RedFalls_BatteryRoom_stairs_01
+Redfalls_BattRoomHallway_01
+RedFalls_Center_HealthStation_01
+RedFalls_Exterior_01
+RedFalls_HealthStation_hallway_01
+RedFalls_HealthStation_hallway_entry_01
+Redfalls_SpawnRoom_Inner_01
+Redfalls_SpawnRoom_outer_01
+Redfalls_UpperHall_Exit_01
+Redfalls_UpperHall_Mid_01
+Redfalls_UpperHall_Right_01
+Room_Medium_High_Absorbtion
+Station_BatteryRoom
+Station_BatteryRoom_entry_01
+Station_BatteryRoom_Stairwell_01
+Station_BatteryRoom_Upper_01
+Station_Center_BackArea_1
+station_Center_HealthStation_1
+Station_Center_MainArea_1
+Station_Center_SideArea
+Station_HealthStation_Hallway_01
+Station_HealthStation_Room_1
+Station_Spawn_01
+Station_Spawn_Stairwell_01
+Trench_BaseHealthStation_01
+Trench_BatteryRoom_01
+Trench_CenterHealthStation_01
+Trench_Side_stairs_01
+Trench_Spawn_01
+Trench_Spawn_Alcove_01
+Trench_Spawn_Exit_01
+Trench_Spawn_stairs_01
+Tutorial1_Hallway_01
+Tutorial1_RoomBig
+Vertigo_BackCorner_01
+Vertigo_BatteryRoom_01
+Vertigo_Center_BottomInterior_01
+Vertigo_Center_Health_01
+Vertigo_Exterior_01
+Vertigo_Health_01
+Vertigo_Outside_01
+Vertigo_Spawn_01
+Vertigo_Stairs_01
+# 90860083
+# 136054777
+# 154772054
+# 168735291
+# 293312190
+# 590260286
+# 1012529705
+# 1026009921
+# 1192366436
+# 1266733991
+# 1373791570
+# 1744082878
+# 1809701293
+# 1939484137
+# 2412013970
+# 2418748670
+# 2631975527
+# 2634929868
+# 2649185995
+# 2811083866
+# 2817889980
+# 2887829561
+# 2935488370
+# 2990024753
+# 3128867327
+# 3413123467
+# 3723236841
+# 4149220271
+# 4154980599
+# 4160026982
+# 4197326527
+# 4290464236
+
+### VARIABLE NAMES (Init.bnk)
+Menu
+Music
+Profanity
+
+### VALUE NAMES (Init.bnk)
+Menu_Closed
+Menu_Open
+Music_Off
+
+### EVENT NAMES (DIAL_Announcer_Occupy.bnk)
+DIAL_VO_Occupy_MatchStart
+DIAL_VO_Occupy_NME_AboutToWin
+DIAL_VO_Occupy_NME_Dominating
+DIAL_VO_Occupy_Your_AboutToWin
+DIAL_VO_Occupy_Your_Dominating
+DIAL_VO_Occupy_ZoneContested
+DIAL_VO_Occupy_ZoneExpiring
+DIAL_VO_Occupy_ZoneHeavilyContested
+DIAL_VO_Occupy_ZoneSpawned
+# 283464537
+
+### VARIABLE NAMES (DIAL_Announcer_Occupy.bnk)
+Announcer
+
+### VALUE NAMES (DIAL_Announcer_Occupy.bnk)
+# 4280393334
+
+### EVENT NAMES (MUS_InGame.bnk)
+MUS_Ingame_Lifers
+MUS_Ingame_Shura
+MUS_InGame_Sides
+MUS_InGame_Sides_Pause
+MUS_InGame_Sides_Resume
+MUS_Ingame_TASC
+MUS_Ingame_Valkyries
+MUS_InGame_WarmUp
+MUS_STNG_Battery_Charge
+MUS_STNG_Battery_Charge_Stop
+MUS_STNG_Death_Loop_Stop
+MUS_STNG_Turf_Overtime
+MUS_STNG_Turf_Overtime_Stop
+MUS_STNG_Uplink_Charge
+MUS_STNG_Uplink_Charge_Stop
+Music_Mute
+Music_UnMute
+STNG_Annhi
+STNG_Battery_Death
+STNG_Battery_Grab
+STNG_Battery_Grab_Stop
+STNG_Battery_Slot
+STNG_Death
+STNG_Death_Shot
+STNG_Domination
+STNG_KC_MatchEnd
+STNG_KC_Overtime
+STNG_Kill_Dbl
+STNG_Kill_Penta
+STNG_Kill_Quad
+STNG_Kill_Tripl
+STNG_Lost
+STNG_Match_Cooldown_Warp
+STNG_Match_Start
+STNG_MUS_Intro_Hook_Loop_Reset
+STNG_Occupy_Domination
+STNG_Occupy_Lose
+STNG_Occupy_Win
+STNG_Occupy_Zone_Expired
+STNG_Occupy_Zone_Spawned
+STNG_PointScored
+STNG_PointScored_Against
+STNG_PointScored_Short
+STNG_PointScored_Short_Against
+STNG_Rush_Ball_Fire_Off
+STNG_Rush_Ball_Fire_On
+STNG_Rush_Lose
+STNG_Rush_Overtime
+STNG_Rush_PointScored_NEG
+STNG_Rush_PointScored_POS
+STNG_Rush_Win
+STNG_Spawn
+STNG_TDM_MatchEnd
+STNG_TDM_Overtime
+STNG_Uplink_Dropped
+STNG_Uplink_Grabbed_NEG
+STNG_Uplink_Grabbed_POS
+STNG_Uplink_PointScored_Neg
+STNG_Uplink_PointScored_Pos
+STNG_Win
+STNG_ZoneCaptured
+STNG_ZoneCaptured_NEG
+STNG_ZoneCaptured_NEUT
+STNG_ZoneCaptured_POS
+# 604968709
+# 3026062452
+# 3326279516
+
+### VARIABLE NAMES (MUS_InGame.bnk)
+Character_Type
+Menu
+MUS_InGame
+Music
+Perspective_Impact_Team
+
+### VALUE NAMES (MUS_InGame.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+Flesh
+GangLifers
+GangShura
+GangTASC
+GangValkyries
+Menu_Open
+Metal
+Music_Off
+Music_On
+VictimTP
+
+### EVENT NAMES (MUS_Menu.bnk)
+MUS_InGame_EndMatch
+MUS_InGame_EndMatch_Stop
+MUS_Menu
+MUS_Menu_Duck_MenuMUS_Off
+MUS_Menu_Duck_MenuMUS_On
+MUS_Menu_Off
+MUS_Menu_Resume
+
+### VARIABLE NAMES (MUS_Menu.bnk)
+Menu
+MUS_InGame
+
+### VALUE NAMES (MUS_Menu.bnk)
+GangArchangels
+GangLifers
+GangShura
+GangSyndicate
+GangTASC
+GangValkyries
+Menu_Closed
+Menu_Open
+
+### EVENT NAMES (SFX_ABL_Assassin.bnk)
+ABL_Kitsune_DblJump_2D
+ABL_Kitsune_DblJump_3D
+ABL_Kitsune_Dodge
+ABL_Kitsune_Dodge_3D
+ABL_Kitsune_Grapp_Flying_2D
+ABL_Kitsune_Grapp_Idle
+ABL_Kitsune_Grapp_Impact_Enemy
+ABL_Kitsune_Grapp_Impact_Main
+ABL_Kitsune_Grapp_Main_End
+ABL_Kitsune_Grapp_Main_Loop
+ABL_Kitsune_Grapp_Reel_End
+ABL_Kitsune_Grapp_Reel_Loop
+ABL_Kitsune_Grapp_Return_End
+ABL_Kitsune_Grapp_Return_Loop
+ABL_Kitsune_Grapp_Throw
+ABL_Kitsune_Grapp_WhizBy_3D
+ABL_Kitsune_Grenade_Away_3D
+ABL_Kitsune_Grenade_BounceBack
+ABL_Kitsune_Grenade_EnergyLoop_3D
+ABL_Kitsune_Grenade_EnergyOff_3D
+ABL_Kitsune_Grenade_Enter
+ABL_Kitsune_Grenade_Exit
+ABL_Kitsune_Grenade_Expl_3D
+ABL_Kitsune_Grenade_Throw
+ABL_Kitsune_Shdwfrm_Loop
+ABL_Kitsune_Shdwfrm_Loop_Off
+# 54076440
+# 662589900
+# 3443468857
+
+### VARIABLE NAMES (SFX_ABL_Assassin.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_ABL_Assassin.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_ABL_BattleMedic.bnk)
+ABL_Battle_Medic_Heal
+ABL_Battle_Medic_Heal_STOP
+ABL_BattleMedic_Drone_Away_Charge_Left
+ABL_BattleMedic_Drone_Away_Charge_Right
+ABL_BattleMedic_Drone_Away_Warp_Left
+ABL_BattleMedic_Drone_Away_Warp_Right
+ABL_BattleMedic_Drone_Away_Warp_TP
+ABL_BattleMedic_Drone_Destroy
+ABL_BattleMedic_Drone_Expire
+ABL_BattleMedic_Drone_Spawn_Left
+ABL_BattleMedic_Drone_Spawn_Right
+ABL_BattleMedic_Drone_Target_Left_2D
+ABL_BattleMedic_Drone_Target_Right_2D
+ABL_BattleMedic_Heal_Destroy
+ABL_BattleMedic_Heal_Engage
+ABL_BattleMedic_Heal_Expire
+ABL_BattleMedic_Heal_Loop
+ABL_BattleMedic_Heal_Loop_Stop
+ABL_BattleMedic_JetPack_Idle
+ABL_BattleMedic_JetPack_Start
+ABL_BattleMedic_JetPack_Stop
+ABL_BattleMedic_SelfHeal_Destroy
+ABL_BattleMedic_SelfHeal_Engage
+ABL_BattleMedic_SelfHeal_Expire
+ABL_BattleMedic_Shield_Destroy
+ABL_BattleMedic_Shield_Engage
+ABL_BattleMedic_Shield_Expire
+ABL_BattleMedic_Shield_Loop
+ABL_BattleMedic_ThrustPack_Idle
+ABL_BattleMedic_ThrustPack_Start
+ABL_BattleMedic_ThrustPack_Stop
+ABL_BattleMedic_Ult_Activate
+ABL_BattleMedic_Ult_EnterExit
+ABL_BattleMedic_Ult_Shield_3D
+ABL_BattleMedic_Ult_Shield_Despawn_3D
+ABL_BattleMedic_Ult_Shield_Pushback
+# 129736190
+# 551003157
+# 1807030615
+# 4257438416
+
+### VARIABLE NAMES (SFX_ABL_BattleMedic.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_ABL_BattleMedic.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_ABL_Enforcer.bnk)
+ABL_Axel_DblJump
+ABL_Breacher_Gren_Static_Loop
+ABL_Breacher_Gren_Static_Loop_End
+ABL_Breacher_Grenade_Expl_3D
+ABL_Breacher_Grenade_Pulse_3D
+ABL_Breacher_Grenade_Pulse_Tail_3D
+ABL_Breacher_Grenade_Throw
+ABL_Breacher_Missile_Activate
+ABL_Breacher_Missile_Fire
+ABL_Breacher_Missile_Laser
+ABL_Breacher_Missile_Laser_Stop
+ABL_Breacher_Missile_Lock
+ABL_Breacher_Missile_Warn
+ABL_Breacher_Sprint_DblJump_2D
+ABL_Breacher_Sprint_DblJump_3D
+ABL_Breacher_Sprint_Loop
+ABL_Breacher_Sprint_Start
+ABL_Breacher_Sprint_Stop
+ABL_Enforcer_Missile_Away_3D
+ABL_Enforcer_Missile_Explode_3D
+WEP_Enf_Missile_Arm_A_Up_2D
+WEP_Enf_Missile_Arm_A_Up_3D
+WEP_Enf_Missile_Arm_B_Up_2D
+WEP_Enf_Missile_Arm_B_Up_3D
+WEP_Enf_Missile_Arm_C_Out_2D
+WEP_Enf_Missile_Arm_C_Out_3D
+WEP_Enf_Missile_Arm_D_Back_2D
+WEP_Enf_Missile_Arm_D_Back_3D
+WEP_Enf_Missile_Arm_E_Back_2D
+WEP_Enf_Missile_Arm_E_Back_3D
+
+### VARIABLE NAMES (SFX_ABL_Enforcer.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_ABL_Enforcer.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_ABL_Gunslinger.bnk)
+ABL_Ghost_Blink
+ABL_Ghost_Blink_QuanGhost_Appear_3D
+ABL_GS_Knife_Grab_1
+ABL_GS_Knife_Grab_2
+ABL_GS_Knife_Impact
+ABL_Recon_Blink
+ABL_Recon_Knife_Fly_3D
+ABL_Recon_Knife_Marked_3D
+ABL_Recon_Knife_Ping_3D
+ABL_Recon_Knife_Throw
+ABL_Recon_SuperFire_Start
+WEP_GS_Ult_Fire_BNC
+
+### VARIABLE NAMES (SFX_ABL_Gunslinger.bnk)
+Perspective
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_ABL_Gunslinger.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+ThirdPerson
+VictimTP
+
+### EVENT NAMES (SFX_ABL_Harrier.bnk)
+ABL_Harrier_FuelPod_Attach_Ground
+ABL_Harrier_FuelPod_Destroyed
+ABL_Harrier_FuelPod_Loop_End
+ABL_Harrier_FuelPod_Loop_Start
+ABL_Harrier_FuelPod_PickUp
+ABL_Harrier_FuelPod_Throw
+ABL_Harrier_FuelPod_Throw_Away
+ABL_Harrier_Kick_Impact
+ABL_Harrier_PulseKick_Shot
+ABL_Harrier_Shift_End
+ABL_Harrier_Shift_Impact_End
+ABL_Harrier_Shift_Impact_Start
+ABL_Harrier_Shift_Start
+ABL_Harrier_Ultimate_Fire_Charge
+ABL_Harrier_Ultimate_Fire_End
+ABL_Harrier_Ultimate_Fire_Start
+ABL_Harrier_Ultimate_Impact_End
+ABL_Harrier_Ultimate_Impact_Start
+
+### VARIABLE NAMES (SFX_ABL_Harrier.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_ABL_Harrier.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_ABL_Juggernaut.bnk)
+ABL_Jugg_EShield_Destroy
+ABL_Jugg_EShield_Off
+ABL_Jugg_EShield_On
+ABL_Jugg_Sprint_Activate
+ABL_Jugg_Sprint_DeActivate
+ABL_Jugg_Sprint_GroundPound_Activate
+ABL_Jugg_Sprint_Land
+ABL_Jugg_Sprint_Pushback
+ABL_Jugg_Sprint_SuperJump_Activate
+ABL_Jugg_Ult_Off
+ABL_Jugg_Ult_On
+ABL_Jugg_Ult_On_Flap1
+ABL_Jugg_Ult_On_Flap2
+ABL_Jugg_Ult_On_Flap3
+ABL_Jugg_Ult_On_Tiles
+# 1695762005
+
+### VARIABLE NAMES (SFX_ABL_Juggernaut.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_ABL_Juggernaut.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_ABL_Titan.bnk)
+ABL_Brute_LightningHands_End
+ABL_Brute_LightningHands_Loop
+ABL_Brute_LightningHands_Start
+ABL_Cronos_Grenade_Attach_3D
+ABL_Cronos_Grenade_Beep_3D
+ABL_Cronos_Grenade_Beep_Arm_3D
+ABL_Cronos_Grenade_Throw
+ABL_Cronos_Grenade_Throw_Jet_3D
+ABL_Cronos_Grow
+ABL_Cronos_Grow_Stop
+ABL_Cronos_Leap_Charge
+ABL_Cronos_Leap_Charge_Impact_2D
+ABL_Cronos_Leap_Charge_Impact_3D
+ABL_Cronos_Leap_Charge_Jump
+ABL_Cronos_Leap_Charge_Stop
+ABL_Cronos_Leap_Debuff_Enemy_End
+ABL_Cronos_Leap_Debuff_Enemy_Start
+ABL_Cronos_Leap_Debuff_Off
+ABL_Cronos_Leap_Debuff_On
+ABL_Cronos_Leap_Impact
+ABL_Cronos_Overcharge_Charge_Up
+ABL_Cronos_Overcharge_Charge_Up_2D
+ABL_Cronos_Overcharge_Explosion
+ABL_Cronos_Overcharge_Explosion_2D
+ABL_Titan_Gren_Loop
+ABL_Titan_Gren_Loop_Stop
+GRAV_RED_NEW_SEED_LOOP
+GRAV_RED_NEW_SEED_LOOP_Stop
+Grenade_Increased_Gravity_Explo
+# 435530914
+
+### VARIABLE NAMES (SFX_ABL_Titan.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_ABL_Titan.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_ABL_Vanguard.bnk)
+ABL_Maverick_Cluster_Away_3D
+ABL_Maverick_ClusterGren_3D
+ABL_Maverick_ClusterGren_Pop_3D
+ABL_Maverick_ClusterGren_Throw
+ABL_Maverick_JetPulse_Activate
+ABL_Maverick_JetPulse_DeActivate
+ABL_Maverick_JetPulse_Loop
+ABL_Maverick_Starfall_Activate
+ABL_Maverick_Starfall_Thrust
+ABL_Starfall_Bubble_End_3D
+ABL_Starfall_Enter
+ABL_Starfall_Exit
+ABL_Starfall_Impact_3D
+PROJ_Impact_Gren_Cluster_Blood
+# 1132772793
+# 3232439612
+
+### VARIABLE NAMES (SFX_ABL_Vanguard.bnk)
+Perspective_Impact_Team
+PlayerSide
+
+### VALUE NAMES (SFX_ABL_Vanguard.bnk)
+AllyTP
+AttackerTP
+Breakers
+EnemyTP
+FirstPerson
+Law
+VictimTP
+
+### EVENT NAMES (SFX_ABL_Wraith.bnk)
+ABL_Wraith_DoubleJump
+ABL_Wraith_Knife_Appear
+ABL_Wraith_Knife_Beep_3D
+ABL_Wraith_Knife_Explode
+ABL_Wraith_Knife_Impact_Wall
+ABL_Wraith_Knife_Throw
+ABL_Wraith_Slide_Back
+ABL_Wraith_Slide_Start
+ABL_Wraith_Ultimate_Activate
+ABL_Wraith_Ultimate_Blast
+ABL_Wraith_Ultimate_PlayerHit_End
+ABL_Wraith_Ultimate_PlayerHit_Start
+ABL_Wraith_Ultimate_RingAway
+ABL_Wraith_Ultimate_RingImpact
+
+### VARIABLE NAMES (SFX_ABL_Wraith.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_ABL_Wraith.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_AMB_BlitzMap.bnk)
+AMB_Blitz_Crowd_Drop_V_1
+AMB_Blitz_Crowd_Drop_V_2
+AMB_Blitz_Crowd_Drop_V_3
+AMB_Blitz_Crowd_Grab_V_1
+AMB_Blitz_Crowd_Grab_V_2
+AMB_Blitz_Crowd_Grab_V_3
+AMB_Blitz_Crowd_MatchStart_V_1
+AMB_Blitz_Crowd_MatchStart_V_2
+AMB_Blitz_Crowd_MatchStart_V_3
+AMB_Blitz_Crowd_Score_V_1
+AMB_Blitz_Crowd_Score_V_2
+AMB_Blitz_Crowd_Score_V_3
+AMB_Blitz_Horn_01_V_1_ST
+AMB_Blitz_Organ_01
+AMB_Blitz_Organ_02
+AMB_Blitz_Organ_03
+
+### EVENT NAMES (SFX_AMB_Gateway.bnk)
+AMB_GateWay_Fireworks_Pop
+AMB_GateWay_Fireworks_Whistle
+AMB_GateWay_Ocean_Loop_A
+AMB_GateWay_Ocean_Loop_A_Stop
+AMB_GateWay_Thruster_Burn
+AMB_GateWay_Thruster_Burn_SML
+AMB_GateWay_Thruster_Burn_SML_Stop
+AMB_GateWay_Thruster_Burn_Stop
+AMB_GateWay_Thruster_Burns_Stop_Fast
+AMB_GateWay_Thruster_Rumble
+
+### EVENT NAMES (SFX_AMB_Grandview.bnk)
+AMB_Courtyard_Bell_3D
+AMB_Courtyard_Wind_Large_3D
+AMB_Courtyard_Wind_Small_3D
+AMB_Dropship_3D
+AMB_Grandview_Barrier_3D
+AMB_Grandview_Barrier_3D_Stop
+AMB_GrandView_Birds_3D
+AMB_Grandview_Cicada_3D
+AMB_Grandview_DirtFall_3D
+AMB_Grandview_DistantBird_Jay_3D
+AMB_Grandview_Dove_Call_01_3D
+AMB_Grandview_Dove_Call_02_3D
+AMB_Grandview_Dove_Flaps_3D
+AMB_Grandview_Sparks_3D
+AMB_Grandview_SPFrogs_3D
+AMB_Grandview_TASC_Barrier_Announce_3D
+AMB_Grandview_TASCBarrier_Dormant_3D
+AMB_Grandview_Telemetry_3D
+AMB_Grandview_TetherMachine_3D
+AMB_Grandview_Thunder_Strike_3D
+AMB_Grandview_Thunder_Strike_Vol_Full
+AMB_Grandview_Thunder_Strike_Vol_Half
+AMB_Grandview_Thunder_Strike_Vol_Silent
+AMB_Grandview_Trees_3D
+AMB_Grandview_Tunnel_Light_3D
+AMB_Grandview_Tunnel_Rumble_2D
+AMB_Grandview_Tunnel_Rumble_2D_Stop
+AMB_Grandview_VO_Computer_Spawn
+AMB_Grandview_VO_HealthStation_Hallway_Warning_3D
+AMB_Grandview_VO_PA_Distant_01
+AMB_Grandview_VO_PA_Distant_02
+AMB_Grandview_VO_PA_Distant_03
+AMB_Grandview_VO_PA_Distant_04
+AMB_Grandview_VO_PA_Distant_05
+AMB_Grandview_VO_PA_Distant_06
+AMB_Grandview_VO_PA_Distant_07
+AMB_Grandview_VO_PA_Distant_08
+AMB_Grandview_VO_PA_Distant_09
+AMB_Grandview_VO_PA_Distant_10
+AMB_Grandview_VO_PA_Distant_11
+AMB_Grandview_VO_PA_Distant_12
+AMB_Grandview_VO_Radio_Conversation_3D
+AMB_Grandview_Waterfall_FaceTrickle
+AMB_Grandview_Waterfall_FaceTrickle_Stop
+AMB_MUS_Grandview_Dojo
+AMB_Rat_Squeak_3D
+
+### VARIABLE NAMES (SFX_AMB_Grandview.bnk)
+PlayerSide
+
+### VALUE NAMES (SFX_AMB_Grandview.bnk)
+Breakers
+Law
+
+### EVENT NAMES (SFX_AMB_Mammoth.bnk)
+AMB_Mammoth_AirConditioner_3D
+AMB_Mammoth_Airplanes
+AMB_Mammoth_Distant_Wolf_3D
+AMB_Mammoth_DistantBird_DesertHawk_3D
+AMB_Mammoth_DistantBird_RTH_3D
+AMB_Mammoth_Screen_1_3D
+AMB_Mammoth_ShipIdle_3D
+AMB_Mammoth_Steam_1_3D
+AMB_Mammoth_VO_Mechanic_Hangar_Banter_3D
+AMB_Mammoth_VO_Mechanic_RadioChatter_Law_3D
+AMB_Mammoth_VO_PA
+AMB_Mammoth_VO_TASC_RadioChatter_3D
+AMB_Mammoth_WaterDrips_1_3D
+
+### EVENT NAMES (SFX_AMB_Multimap.bnk)
+AMB_Advert_Music_TASC_3D
+AMB_ElectricSign_3D
+AMB_Gateway_Multimap_Fastwind_1
+AMB_Gateway_Multimap_Fastwind_1_Stop
+AMB_Gateway_Multimap_Wind_Big_1_3D
+AMB_Gateway_Multimap_Wind_Big_1_3D_Stop
+AMB_Grandview_Fastwind_Large_1
+AMB_Grandview_Thunder_Rumble_3D
+AMB_Grandview_Wind_World_1
+AMB_Grandview_Wind_World_2_Courtyard
+AMB_Grandview_Wind_World_3_Big
+AMB_Mammoth_Fastwind_1
+AMB_Mammoth_Fastwind_1_Stop
+AMB_Mammoth_Thunder_Rumble_3D
+AMB_Mammoth_Wind_Fast_Large_1
+AMB_Mammoth_Wind_World_1
+AMB_Prom_Thunder_Distant
+AMB_Promenade_Fastwind_1
+AMB_Promenade_Fastwind_1_Stop
+AMB_Reactor_Fastwind_1
+AMB_Reactor_Fastwind_1_Stop
+AMB_Reactor_Wind_World_1
+AMB_Reactor_Wind_World_1_Stop
+AMB_RedFalls_Wind_Big_1_3D
+AMB_Spawn_Barrier_3D
+AMB_Spawn_Barrier_Passthru_3D
+AMB_Trench_Fastwind_1
+AMB_Trench_Wind_Big_1_3D
+AMB_Vertigo_Wind_Fast_1
+AMB_Vertigo_Wind_Fast_SpawnFloor
+AMB_Vertigo_Wind_Vol_Duck
+AMB_Vertigo_Wind_Vol_Reset
+AMB_Vertigo_Wind_World_1
+
+### VARIABLE NAMES (SFX_AMB_Multimap.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_AMB_Multimap.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_AMB_Multimap_Industrial.bnk)
+AMB_Grandview_Int_AllAreas_1
+AMB_Grandview_Int_AllAreas_2D
+AMB_Grandview_Int_AllAreas_2D_Stop
+AMB_Grandview_Int_BatteryRoom_Rattle
+AMB_Grandview_Int_BatteryRoom_Thud
+AMB_Grandview_Int_BatteryRoom_Thud_Stop
+AMB_Grandview_Int_Tunnel_2D
+AMB_Grandview_Int_Tunnel_2D_Stop
+AMB_Grandview_Tunnel_Pipe_A_3D
+AMB_Grandview_Tunnel_Pipe_B_3D
+AMB_Mammoth_Int_AllAreas_1
+AMB_Mammoth_Interior_Thuds
+AMB_Mammoth_Pipe_A_3D
+AMB_Mammoth_Pipe_B_3D
+AMB_Reactor_Console_01_3D
+AMB_Reactor_Console_02_3D
+AMB_Reactor_Int_AllAreas_2D
+AMB_Reactor_Int_AllAreas_2D_Stop
+AMB_Reactor_Int_BatteryRoom_Rattle
+AMB_Reactor_Int_Tunnel_2D
+AMB_Reactor_Int_Tunnel_2D_Stop
+AMB_Reactor_Pipe_A_3D
+AMB_Reactor_Pipe_B_3D
+AMB_Reactor_Sparks_3D
+AMB_RedFalls_Int_AllAreas_2D
+AMB_RedFalls_Int_AllAreas_2D_Stop
+AMB_RedFalls_Int_BatteryRoom_Rattle
+AMB_RedFalls_Int_BatteryRoom_Thud
+AMB_RedFalls_Int_Tunnel_2D
+AMB_Trench_Int_AllAreas_1
+AMB_Trench_Int_AllAreas_1_Stop
+AMB_Trench_Pipe_A_3D
+AMB_Trench_Pipe_B_3D
+AMB_Tutorial1_Int_AllAreas_1
+AMB_Vertigo_Console_01_3D
+AMB_Vertigo_Console_02_3D
+AMB_Vertigo_Int_AllAreas_1
+AMB_Vertigo_Int_AllAreas_1_Stop
+AMB_Vertigo_Pipe_A_3D
+AMB_Vertigo_Pipe_B_3D
+
+### EVENT NAMES (SFX_AMB_Multimap_Ocean.bnk)
+AMB_Prom_Ocean_Loop_Main
+AMB_Prom_Ocean_Loop_Main_B
+AMB_Prom_Ocean_Splash_1
+AMB_Prom_Ocean_Splash_Duck
+AMB_Prom_Ocean_Splash_Far_1
+AMB_Prom_Ocean_Splash_Medium_1
+AMB_Prom_Ocean_Splash_Reset
+AMB_Prom_Ocean_Splash_SuperClose_01
+AMB_Reactor_Ocean_Loop_Main
+AMB_Reactor_Ocean_Loop_Main_B
+AMB_Reactor_Ocean_Splash_1
+AMB_Reactor_Ocean_Splash_Far_1
+AMB_Reactor_Ocean_Splash_Medium_1
+AMB_Reactor_Ocean_Splash_SuperClose_01
+
+### EVENT NAMES (SFX_AMB_Multimap_Shura.bnk)
+AMB_Grandview_Bird_01_3D
+AMB_Grandview_Bird_02_3D
+AMB_Grandview_Bird_03_3D
+AMB_Grandview_Cricket_3D
+AMB_Grandview_Distant_Wolf_3D
+AMB_Grandview_DistantBird_DesertHawk_3D
+AMB_Grandview_DistantBird_RTH_3D
+AMB_Grandview_Dropship
+AMB_Grandview_Dropship_Vol_Full
+AMB_Grandview_Dropship_Vol_Silent
+AMB_Grandview_Frog_3D
+AMB_RedFalls_Bird_01_3D
+AMB_RedFalls_Bird_02_3D
+AMB_RedFalls_Bird_03_3D
+AMB_RedFalls_Cricket_3D
+AMB_RedFalls_Distant_Wolf_3D
+AMB_RedFalls_DistantBird_DesertHawk_3D
+AMB_RedFalls_DistantBird_RTH_3D
+AMB_RedFalls_Frog_3D
+AMB_RedFalls_ShipIdle_3D
+AMB_RedFalls_ShipIdle_Shura_3D
+AMB_RedFalls_Steam_1_3D
+AMB_RedFalls_Steam_2_3D
+AMB_RedFalls_Trees_3D
+AMB_RedFalls_Trickle_3D
+AMB_RedFalls_Trickle_BehindGlass_3D
+AMB_RedFalls_TrickleCauseway_3D
+AMB_RedFalls_TrickleSpout_3D
+AMB_RedFalls_Waterfall_3D
+AMB_Waterfall_Courtyard
+
+### EVENT NAMES (SFX_AMB_Namsan.bnk)
+AMB_Namsan_BatteryRoom
+AMB_Namsan_BatteryRoom_Stop
+AMB_Namsan_Ext_Crickets
+AMB_Namsan_Ext_Crickets_Stop
+AMB_Namsan_Hologram_GreenGlass
+AMB_Namsan_Hologram_SpaceElevator
+AMB_Namsan_Kiosk
+AMB_Namsan_Kiosk_Drive
+AMB_Namsan_MarsExhibitEnter
+AMB_Namsan_Music_JetPackBossa
+AMB_Namsan_Music_MarsExhibitSwell
+AMB_Namsan_Music_SpaceMan
+AMB_Namsan_Music_ToyStore
+AMB_Namsan_PA_Announcer
+AMB_Namsan_SpaceElevator
+AMB_Namsan_SpaceElevator_Stop
+AMB_Namsan_SpaceManScreens
+AMB_Namsan_Spawn
+AMB_Namsan_Spawn_Stop
+AMB_Namsan_StaticRoom
+AMB_Namsan_StaticRoom_Stop
+AMB_Namsan_StaticScreen
+AMB_Namsan_Traffic
+AMB_Namsan_VO_Future_On_Mars_Exhibit_01
+AMB_Namsan_VO_Future_On_Mars_Exhibit_02
+AMB_Namsan_VO_Future_On_Mars_Exhibit_03
+AMB_Namsan_VO_Future_On_Mars_Exhibit_04
+AMB_Namsan_VO_Future_On_Mars_Exhibit_05
+AMB_Namsan_VO_Future_On_Mars_Sign_Center_3D
+AMB_Namsan_VO_Future_On_Mars_Sign_Entrance_3D
+AMB_Namsan_VO_Jetpack_Coffee_3D
+AMB_Namsan_VO_Pilaxis_Ad_3D
+AMB_Namsan_VO_Space_Elevator_Sign_3D
+AMB_Namsan_VO_Spacey_3D
+AMB_Namsan_VO_Ticket_Kiosk_3D
+AMB_Namsan_WallFountain
+AMB_Namsan_WindLedge
+AMB_Namsan_WindLedge_Stop
+
+### EVENT NAMES (SFX_AMB_PilaxisSign.bnk)
+AMB_AD_MovingSign_Pilaxis_3D
+
+### EVENT NAMES (SFX_AMB_Promenade.bnk)
+AMB_AD_MovingSign_Kite_3D
+AMB_Advert_Boardwalk_01_3D
+AMB_Advert_Pilaxis_01_3D
+AMB_Advert_Pilaxis_Loop_01_3D
+AMB_Advert_Sphere_Loop_01_3D
+AMB_PA_FeaturedAttractions_3D
+AMB_PA_PilaxisHealthStationAds_3D
+AMB_PA_PilaxisQuickAds_3D
+AMB_PA_TASCComputerScreen_3D
+AMB_PA_ThisAreaClosed_3D
+AMB_PA_WelcomeToPromenade_3D
+AMB_Prom_Fountains_3D
+AMB_Prom_NightCrickets
+AMB_Prom_Pool_3D
+AMB_Prom_Seagulls
+AMB_Promenade_Boardwalk
+AMB_Promenade_Boardwalk_Music
+AMB_Promenade_Boardwalk_Vol_Duck
+AMB_Promenade_Boardwalk_Vol_Reset
+
+### EVENT NAMES (SFX_AMB_Reactor.bnk)
+AMB_Reactor_CleaningRobot_01_3D
+AMB_Reactor_FloorWater_3D
+AMB_Reactor_NightCrickets
+AMB_Reactor_Ocean_Splash_Bus_Duck
+AMB_Reactor_Ocean_Splash_Bus_Reset
+AMB_Reactor_Reactor_3D
+AMB_Reactor_Steam_3D
+AMB_Reactor_VO_Elevators_3D
+AMB_Reactor_VO_Male_Computer_Voice_01
+AMB_Reactor_VO_Male_Computer_Voice_02
+AMB_Reactor_VO_Male_Computer_Voice_03
+AMB_Reactor_VO_Male_Computer_Voice_04
+AMB_Reactor_VO_Male_Computer_Voice_05
+AMB_Reactor_VO_PA_Center_Area_3D
+AMB_Reactor_VO_PA_SafetyFirst_01_3D
+AMB_Reactor_VO_PA_SafetyFirst_02_3D
+AMB_Reactor_VO_PA_SafetyFirst_03_3D
+AMB_Reactor_VO_PA_SafetyFirst_04_3D
+AMB_Reactor_VO_PA_SafetyFirst_05_3D
+AMB_Reactor_VO_PA_Upper_Hallways_3D
+AMB_Reactor_Waterfall_3D
+
+### EVENT NAMES (SFX_AMB_RedFalls.bnk)
+AMB_BloodyXmas_Owls
+AMB_BloodyXmas_Owls_Stop
+AMB_BloodyXmas_Screams
+AMB_BloodyXmas_Screams_Stop
+AMB_BloodyXmas_Wolves
+AMB_BloodyXmas_Wolves_Stop
+AMB_EXT_BloodMoon_BLEND
+AMB_EXT_BloodMoon_BLEND_Stop
+AMB_RedFalls_Brazier
+AMB_RedFalls_DigitalFountain
+AMB_RedFalls_NightTimeLife_3D
+AMB_RedFalls_NightTimeLife_SML_3D
+AMB_RedFalls_ShipChatter_Shura_3D
+AMB_RedFalls_ShipChatter_TASC_3D
+AMB_RedFalls_VO_Dropship_Center_01
+AMB_RedFalls_VO_Dropship_Center_02
+AMB_RedFalls_VO_Dropship_Center_03
+AMB_RedFalls_VO_Dropship_Spawn_Law_3D
+AMB_RedFalls_VO_Residents_Spawn_Breaker_3D
+AMB_RF_Bloody_Xmas_Int
+AMB_RF_Bloody_Xmas_Int_Stop
+
+### EVENT NAMES (SFX_AMB_Station.bnk)
+AMB_Aero_Car_Dealership
+AMB_Breaker_EA_Exhibit_3D
+AMB_Law_EA_Exhibit_3D
+AMB_Male_PA1_STA_L001
+AMB_Male_PA1_STA_L003
+AMB_Male_PA1_STA_L004
+AMB_Male_PA1_STA_L006
+AMB_Male_PA1_STA_L025
+AMB_Male_PA1_STA_L029
+AMB_Male_PA1_STA_L031
+AMB_Male_PA1_STA_L036
+AMB_Male_PA1_STA_L039
+AMB_Male_PA1_STA_L056
+AMB_PA_Female_System_3D
+AMB_Station_Burp_3D
+AMB_Station_EnergyBarrier_3D
+AMB_Station_Flyby_Outside_Fast_3D
+AMB_Station_Flyby_Outside_Medium_3D
+AMB_Station_Flyby_Traffic_Fast_3D
+AMB_Station_Hawkins_Jingle_3D
+AMB_Station_Music_Aero
+AMB_Station_Music_RichardMarty
+AMB_Station_Rain_Window_Ceiling_3D
+AMB_Station_Rain_Window_Large_3D
+AMB_Station_Rain_Window_Small_3D
+AMB_Station_Time
+AMB_Station_VO_PA1
+AMB_Station_VO_PA2
+AMB_Station_VO_PA3
+AMB_Station_VO_PA4
+AMB_VO_ChabiCola_Machine_3D
+AMB_VO_Richard_and_Marty_3D
+
+### VARIABLE NAMES (SFX_AMB_Station.bnk)
+ClockTime
+
+### VALUE NAMES (SFX_AMB_Station.bnk)
+Eight
+Eleven
+Five
+Four
+Nine
+One
+Seven
+Six
+Ten
+Three
+Twelve
+Two
+
+### EVENT NAMES (SFX_AMB_Trench.bnk)
+AMB_Trench_Airplanes
+AMB_Trench_VO_TASC_Screens_3D
+
+### EVENT NAMES (SFX_AMB_Vertigo.bnk)
+AMB_Vertigo_Drone
+AMB_Vertigo_GravSpheres_Machinery_3D
+AMB_Vertigo_VO_Radio_Chatter_02
+AMB_Vertigo_VO_Radio_Chatter_03
+AMB_Vertigo_VO_Radio_Chatter_04
+AMB_Vertigo_VO_Radio_Chatter_05
+AMB_Vertigo_VO_Radio_Chatter_06
+AMB_Vertigo_VO_Radio_Chatter_07
+AMB_Vertigo_VO_Radio_Chatter_08
+AMB_Vertigo_VO_Radio_Chatter_09
+AMB_Vertigo_VO_Radio_Chatter_10
+AMB_Vertigo_VO_Radio_Chatter_12
+AMB_Vertigo_VO_Radio_Chatter_13
+AMB_Vertigo_VO_Radio_Chatter_14
+AMB_Vertigo_VO_Radio_Chatter_15
+AMB_Vertigo_VO_Radio_Chatter_16
+AMB_Vertigo_VO_Radio_Chatter_17
+AMB_Vertigo_VO_Radio_Chatter_18_One_Offs
+
+### EVENT NAMES (SFX_CHAR_Generic.bnk)
+FOL_CHAR_DeSpawn
+FOL_CHAR_Spawn
+FOL_CHAR_Spawn_Aegis
+FOL_CHAR_Spawn_Nash
+
+### VARIABLE NAMES (SFX_CHAR_Generic.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_CHAR_Generic.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_FOL_Abaddon.bnk)
+FOL_CHAR_Abaddon_Cloth_Arm_Down
+FOL_CHAR_Abaddon_Cloth_Arm_Up
+FOL_CHAR_Abaddon_Cloth_Jump
+FOL_CHAR_Abaddon_Cloth_Kick
+FOL_CHAR_Abaddon_Cloth_Run
+FOL_CHAR_Abaddon_Foot_Land
+FOL_CHAR_Abaddon_Foot_Land_Hard
+FOL_CHAR_Abaddon_Foot_Scuff
+FOL_CHAR_Abaddon_Insp_A_ArmorMvmt
+FOL_CHAR_Abaddon_Insp_A_Jingle
+FOL_CHAR_Abaddon_Insp_B_ArmorMvmt
+FOL_CHAR_Abaddon_Insp_B_Jingle
+FOL_CHAR_Abaddon_Insp_C_ArmorMvmt
+FOL_CHAR_Abaddon_Insp_C_Jingle
+FOL_CHAR_Abaddon_Jingle_Jump
+FOL_CHAR_Abaddon_Jingle_Kick
+FOL_CHAR_Abaddon_Jingle_Land
+FOL_CHAR_Abaddon_Jingle_Run
+FOL_CHAR_Abaddon_Jingle_Scuff
+FOL_CHAR_Abaddon_Kick_Swish
+
+### VARIABLE NAMES (SFX_FOL_Abaddon.bnk)
+Perspective_Impact_Team
+Surface_Type
+
+### VALUE NAMES (SFX_FOL_Abaddon.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+M_Armor
+M_Carbon_Fiber
+M_Carpet
+M_Coal
+M_Concrete
+M_Dirt
+M_Flesh
+M_Glass
+M_Glass_Broken
+M_Glass_Unbreakable
+M_Grass
+M_Grate
+M_Gravel
+M_Metal
+M_Metal_Thin
+M_Padding
+M_Rock
+M_Rubber
+M_Shield
+M_Tile_Rooftop
+M_Unassigned
+M_Water
+M_Water_Flat
+M_Wood
+M_Wood_Deck
+VictimTP
+# 2053814127
+
+### EVENT NAMES (SFX_FOL_Baron.bnk)
+FOL_CHAR_Baron_Armor_Blindfire_A
+FOL_CHAR_Baron_Armor_Blindfire_B
+FOL_CHAR_Baron_Armor_Blindfire_C
+FOL_CHAR_Baron_Armor_E_Throw_A
+FOL_CHAR_Baron_Armor_E_Throw_B
+FOL_CHAR_Baron_Armor_EquipFirst_A
+FOL_CHAR_Baron_Armor_EquipFirst_B
+FOL_CHAR_Baron_Armor_EquipFirst_C
+FOL_CHAR_Baron_Armor_EquipFirst_D
+FOL_CHAR_Baron_Armor_Inspect_A
+FOL_CHAR_Baron_Armor_Inspect_B
+FOL_CHAR_Baron_Armor_Inspect_C
+FOL_CHAR_Baron_Armor_Inspect_D
+FOL_CHAR_Baron_Armor_Inspect_E
+FOL_CHAR_Baron_Armor_Jump_Double_Up
+FOL_CHAR_Baron_Armor_Jump_Up
+FOL_CHAR_Baron_Armor_Kick_Out
+FOL_CHAR_Baron_Armor_Land
+FOL_CHAR_Baron_Armor_Q_A
+FOL_CHAR_Baron_Armor_Q_B
+FOL_CHAR_Baron_Armor_Q_C
+FOL_CHAR_Baron_Armor_Reload_A
+FOL_CHAR_Baron_Armor_Reload_B
+FOL_CHAR_Baron_Armor_Reload_C
+FOL_CHAR_Baron_Armor_Run
+FOL_CHAR_Baron_Armor_Scuff
+FOL_CHAR_Baron_Jump_Double_Swish
+FOL_CHAR_Baron_Jump_Swish
+FOL_CHAR_Baron_Kick_Swish
+
+### VARIABLE NAMES (SFX_FOL_Baron.bnk)
+Perspective_Impact_Team
+Surface_Type
+
+### VALUE NAMES (SFX_FOL_Baron.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+M_Armor
+M_Carbon_Fiber
+M_Carpet
+M_Coal
+M_Concrete
+M_Dirt
+M_Flesh
+M_Glass
+M_Glass_Broken
+M_Glass_Unbreakable
+M_Grass
+M_Grate
+M_Gravel
+M_Metal
+M_Metal_Thin
+M_Padding
+M_Rock
+M_Rubber
+M_Shield
+M_Tile_Rooftop
+M_Unassigned
+M_Water
+M_Water_Flat
+M_Wood
+M_Wood_Deck
+VictimTP
+# 2053814127
+
+### EVENT NAMES (SFX_FOL_BattleMedic.bnk)
+FOL_CHAR_Feng_Body_Land
+FOL_CHAR_Feng_Body_Land_Up
+FOL_CHAR_Feng_Body_Run
+FOL_CHAR_Feng_Body_Ult_A
+FOL_CHAR_Feng_Body_Ult_B
+FOL_CHAR_Feng_Equip_First_Lobber_A
+FOL_CHAR_Feng_Equip_First_Lobber_B
+FOL_CHAR_Feng_Equip_Lobber_A
+FOL_CHAR_Feng_Equip_Pistol_A
+FOL_CHAR_Feng_Insp_Lobber_A
+FOL_CHAR_Feng_Insp_Lobber_B
+FOL_CHAR_Feng_Insp_Lobber_C
+FOL_CHAR_Feng_Jump_Swish
+FOL_CHAR_Feng_Kick_Swish
+FOL_CHAR_Feng_Lobber_Reload_A
+FOL_CHAR_Feng_Lobber_Reload_B
+FOL_CHAR_Feng_Lobber_Reload_BarrelSlap
+FOL_CHAR_Tokki_Body_Land
+FOL_CHAR_Tokki_Body_Land_Up
+FOL_CHAR_Tokki_Body_Run
+FOL_CHAR_Tokki_Body_Ult_A
+FOL_CHAR_Tokki_Body_Ult_B
+FOL_CHAR_Tokki_Equip_First_Lobber_A
+FOL_CHAR_Tokki_Equip_First_Lobber_B
+FOL_CHAR_Tokki_Equip_Lobber_A
+FOL_CHAR_Tokki_Equip_Pistol_A
+FOL_CHAR_Tokki_Insp_Lobber_A
+FOL_CHAR_Tokki_Insp_Lobber_B
+FOL_CHAR_Tokki_Insp_Lobber_C
+FOL_CHAR_Tokki_Jump_Swish
+FOL_CHAR_Tokki_Kick_Swish
+FOL_CHAR_Tokki_Lobber_Reload_A
+FOL_CHAR_Tokki_Lobber_Reload_B
+FOL_CHAR_Tokki_Lobber_Reload_BarrelSlap
+
+### VARIABLE NAMES (SFX_FOL_BattleMedic.bnk)
+Perspective_Impact_Team
+Surface_Type
+
+### VALUE NAMES (SFX_FOL_BattleMedic.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+M_Armor
+M_Carbon_Fiber
+M_Carpet
+M_Coal
+M_Concrete
+M_Dirt
+M_Flesh
+M_Glass
+M_Glass_Broken
+M_Glass_Unbreakable
+M_Grass
+M_Grate
+M_Gravel
+M_Metal
+M_Metal_Thin
+M_Padding
+M_Rock
+M_Rubber
+M_Shield
+M_Tile_Rooftop
+M_Unassigned
+M_Water
+M_Water_Flat
+M_Wood
+M_Wood_Deck
+VictimTP
+# 2053814127
+
+### EVENT NAMES (SFX_FOL_Bomchelle.bnk)
+FOL_CHAR_Bomchelle_Cloth_Land_Hard_2D
+FOL_CHAR_Bomchelle_Cloth_Land_Hard_3D
+FOL_CHAR_Bomchelle_Gren_Throw_2D
+FOL_CHAR_Bomchelle_Gren_Throw_3D
+FOL_CHAR_Bomchelle_Insp_CLG_A_ArmorMvmt
+FOL_CHAR_Bomchelle_Insp_CLG_B_ArmorMvmt
+FOL_CHAR_Bomchelle_Insp_CLG_C_ArmorMvmt
+FOL_CHAR_Bomchelle_Insp_RL_A_ArmorMvmt
+FOL_CHAR_Bomchelle_Insp_RL_B_ArmorMvmt
+FOL_CHAR_Bomchelle_Insp_RL_C_ArmorMvmt
+FOL_CHAR_Bomchelle_Insp_RL_D_ArmorMvmt
+FOL_CHAR_Bomchelle_Insp_RL_E_ArmorMvmt
+FOL_CHAR_Bomchelle_Jump_2D
+FOL_CHAR_Bomchelle_Jump_3D
+FOL_CHAR_Bomchelle_Jump_Land_2D
+FOL_CHAR_Bomchelle_Jump_Land_3D
+FOL_CHAR_Bomchelle_Kick_2D
+FOL_CHAR_Bomchelle_Kick_3D
+FOL_CHAR_Bomchelle_Kick_Swish_2D
+FOL_CHAR_Bomchelle_Kick_Swish_3D
+FOL_CHAR_Bomchelle_Leap_Clench_2D
+FOL_CHAR_Bomchelle_Leap_Clench_3D
+FOL_CHAR_Bomchelle_Overcharge_2D
+FOL_CHAR_Bomchelle_Overcharge_3D
+FOL_CHAR_Bomchelle_Run_A_2D
+FOL_CHAR_Bomchelle_Run_A_3D
+FOL_CHAR_CLG_Equip_Bomchelle_2D
+FOL_CHAR_CLG_Equip_Bomchelle_3D
+FOL_CHAR_CLG_Reload_Bomchelle_2D
+FOL_CHAR_CLG_Reload_Bomchelle_3D
+FOL_CHAR_RL_Equip_Bomchelle_2D
+FOL_CHAR_RL_Equip_Bomchelle_3D
+FOL_CHAR_RL_Reload_Bomchelle_2D
+FOL_CHAR_RL_Reload_Bomchelle_3D
+
+### VARIABLE NAMES (SFX_FOL_Bomchelle.bnk)
+BruteFoot
+Perspective_Impact_Team
+Surface_Type
+
+### VALUE NAMES (SFX_FOL_Bomchelle.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+M_Armor
+M_Carbon_Fiber
+M_Carpet
+M_Coal
+M_Concrete
+M_Dirt
+M_Flesh
+M_Glass
+M_Glass_Broken
+M_Glass_Unbreakable
+M_Grass
+M_Grate
+M_Gravel
+M_Metal
+M_Metal_Thin
+M_Padding
+M_Rock
+M_Rubber
+M_Shield
+M_Tile_Rooftop
+M_Unassigned
+M_Water
+M_Water_Flat
+M_Wood
+M_Wood_Deck
+normal
+Overcharge
+VictimTP
+# 2053814127
+
+### EVENT NAMES (SFX_FOL_Breacher.bnk)
+FOL_CHAR_Axel_Insp_A_Armor_Grab
+FOL_CHAR_Axel_Insp_B_Armor_Grab
+FOL_CHAR_Axel_Insp_Badger_A_Armor_Grab
+FOL_CHAR_Axel_Insp_Badger_B_Armor_Grab
+FOL_CHAR_Axel_Insp_Badger_C_Armor_Grab
+FOL_CHAR_Axel_Insp_C_Armor_Grab
+FOL_CHAR_Breacher_Armor_Equip_Aer_A_2D
+FOL_CHAR_Breacher_Armor_Equip_Aer_A_3D
+FOL_CHAR_Breacher_Armor_Equip_Aer_B_2D
+FOL_CHAR_Breacher_Armor_Equip_Aer_B_3D
+FOL_CHAR_Breacher_Armor_Equip_Badger_A_2D
+FOL_CHAR_Breacher_Armor_Equip_Badger_A_3D
+FOL_CHAR_Breacher_Armor_Equip_Badger_B_2D
+FOL_CHAR_Breacher_Armor_Equip_Badger_B_3D
+FOL_CHAR_Breacher_Armor_Gren_Throw_2D
+FOL_CHAR_Breacher_Armor_Gren_Throw_3D
+FOL_CHAR_Breacher_Armor_Jump_2D
+FOL_CHAR_Breacher_Armor_Jump_3D
+FOL_CHAR_Breacher_Armor_Kick_Down_2D
+FOL_CHAR_Breacher_Armor_Kick_Down_3D
+FOL_CHAR_Breacher_Armor_Kick_Out_2D
+FOL_CHAR_Breacher_Armor_Kick_Out_3D
+FOL_CHAR_Breacher_Armor_Land_2D
+FOL_CHAR_Breacher_Armor_Land_3D
+FOL_CHAR_Breacher_Armor_Land_Hard_2D
+FOL_CHAR_Breacher_Armor_Land_Hard_3D
+FOL_CHAR_Breacher_Armor_Reload_Aer_A_2D
+FOL_CHAR_Breacher_Armor_Reload_Aer_A_3D
+FOL_CHAR_Breacher_Armor_Reload_Aer_B_2D
+FOL_CHAR_Breacher_Armor_Reload_Aer_B_3D
+FOL_CHAR_Breacher_Armor_Reload_Aer_C_2D
+FOL_CHAR_Breacher_Armor_Reload_Aer_C_3D
+FOL_CHAR_Breacher_Armor_Run_2D
+FOL_CHAR_Breacher_Armor_Run_3D
+FOL_CHAR_Breacher_Kick_Swish_2D
+FOL_CHAR_Breacher_Kick_Swish_3D
+
+### VARIABLE NAMES (SFX_FOL_Breacher.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_FOL_Breacher.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_FOL_Cronos.bnk)
+FOL_CHAR_Brute_CLG_Equip_2D
+FOL_CHAR_Brute_CLG_Equip_3D
+FOL_CHAR_Brute_CLG_Reload_2D
+FOL_CHAR_Brute_CLG_Reload_3D
+FOL_CHAR_Brute_RL_Equip_2D
+FOL_CHAR_Brute_RL_Equip_3D
+FOL_CHAR_Brute_RL_Reload_2D
+FOL_CHAR_Brute_RL_Reload_3D
+FOL_CHAR_Brute_Run_A_2D
+FOL_CHAR_Brute_Run_A_3D
+FOL_CHAR_Brute_Run_B_2D
+FOL_CHAR_Cronos_Cloth_Land_Hard_2D
+FOL_CHAR_Cronos_Cloth_Land_Hard_3D
+FOL_CHAR_Cronos_Gren_Throw_2D
+FOL_CHAR_Cronos_Gren_Throw_3D
+FOL_CHAR_Cronos_Insp_CLG_A_ArmorMvmt
+FOL_CHAR_Cronos_Insp_CLG_B_ArmorMvmt
+FOL_CHAR_Cronos_Insp_CLG_C_ArmorMvmt
+FOL_CHAR_Cronos_Insp_RL_A_ArmorMvmt
+FOL_CHAR_Cronos_Insp_RL_B_ArmorMvmt
+FOL_CHAR_Cronos_Insp_RL_C_ArmorMvmt
+FOL_CHAR_Cronos_Insp_RL_D_ArmorMvmt
+FOL_CHAR_Cronos_Insp_RL_E_ArmorMvmt
+FOL_CHAR_Cronos_Jump_2D
+FOL_CHAR_Cronos_Jump_3D
+FOL_CHAR_Cronos_Jump_Foot_2D
+FOL_CHAR_Cronos_Jump_Land_2D
+FOL_CHAR_Cronos_Jump_Land_3D
+FOL_CHAR_Cronos_Kick_2D
+FOL_CHAR_Cronos_Kick_3D
+FOL_CHAR_Cronos_Kick_Swish_2D
+FOL_CHAR_Cronos_Kick_Swish_3D
+FOL_CHAR_Cronos_Leap_Clench_2D
+FOL_CHAR_Cronos_Leap_Clench_3D
+FOL_CHAR_Cronos_Overcharge_2D
+FOL_CHAR_Cronos_Overcharge_3D
+
+### VARIABLE NAMES (SFX_FOL_Cronos.bnk)
+BruteFoot
+Perspective_Impact_Team
+Surface_Type
+
+### VALUE NAMES (SFX_FOL_Cronos.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+M_Armor
+M_Carbon_Fiber
+M_Carpet
+M_Coal
+M_Concrete
+M_Dirt
+M_Flesh
+M_Glass
+M_Glass_Broken
+M_Glass_Unbreakable
+M_Grass
+M_Grate
+M_Gravel
+M_Metal
+M_Metal_Thin
+M_Padding
+M_Rock
+M_Rubber
+M_Shield
+M_Tile_Rooftop
+M_Unassigned
+M_Water
+M_Water_Flat
+M_Wood
+M_Wood_Deck
+normal
+Overcharge
+VictimTP
+# 2053814127
+
+### EVENT NAMES (SFX_FOL_Deadlock.bnk)
+FOL_CHAR_Deadlock_Armor_Run
+FOL_CHAR_Deadlock_Jump_Swish
+FOL_CHAR_Deadlock_Kick_Swish
+
+### VARIABLE NAMES (SFX_FOL_Deadlock.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_FOL_Deadlock.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_FOL_Faust.bnk)
+FOL_CHAR_Faust_Arm_Down
+FOL_CHAR_Faust_Arm_Up
+FOL_CHAR_Faust_Cloth_Jump
+FOL_CHAR_Faust_Cloth_Kick
+FOL_CHAR_Faust_Cloth_Land
+FOL_CHAR_Faust_Cloth_Run
+FOL_CHAR_Faust_Insp_A_ArmorMvmt
+FOL_CHAR_Faust_Insp_B_ArmorMvmt
+FOL_CHAR_Faust_Insp_C_ArmorMvmt
+FOL_CHAR_Faust_Kick_Swish
+
+### VARIABLE NAMES (SFX_FOL_Faust.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_FOL_Faust.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_FOL_Footsteps.bnk)
+FOL_CHAR_Abaddon_Foot_Run
+FOL_CHAR_Abaddon_Jump_Swish
+FOL_CHAR_Abaddon_Kick_Impact
+FOL_CHAR_Baron_Foot_Land
+FOL_CHAR_Baron_Foot_Land_Hard
+FOL_CHAR_Baron_Foot_Run
+FOL_CHAR_Baron_Foot_Scuff
+FOL_CHAR_Baron_Kick_Impact
+FOL_CHAR_Bomchelle_Foot_2D
+FOL_CHAR_Bomchelle_Foot_3D
+FOL_CHAR_Bomchelle_Foot_Land_Left_2D
+FOL_CHAR_Bomchelle_Foot_Land_Left_3D
+FOL_CHAR_Bomchelle_Foot_Land_Right_2D
+FOL_CHAR_Bomchelle_Foot_Land_Right_3D
+FOL_CHAR_Bomchelle_Foot_Scuff_2D
+FOL_CHAR_Bomchelle_Foot_Scuff_3D
+FOL_CHAR_Bomchelle_Jump_Foot_2D
+FOL_CHAR_Bomchelle_Kick_Impact
+FOL_CHAR_Breacher_Foot_Kick_Land_2D
+FOL_CHAR_Breacher_Foot_Kick_Land_3D
+FOL_CHAR_Breacher_Foot_Land_2D_Left
+FOL_CHAR_Breacher_Foot_Land_2D_Right
+FOL_CHAR_Breacher_Foot_Land_3D_Left
+FOL_CHAR_Breacher_Foot_Land_3D_Right
+FOL_CHAR_Breacher_Foot_Run_2D
+FOL_CHAR_Breacher_Foot_Run_3D
+FOL_CHAR_Breacher_Foot_Scuff_2D
+FOL_CHAR_Breacher_Foot_Scuff_3D
+FOL_CHAR_Breacher_Jump_Swish_2D
+FOL_CHAR_Breacher_Jump_Swish_3D
+FOL_CHAR_Breacher_Kick_Impact
+FOL_CHAR_Cronos_Foot_2D
+FOL_CHAR_Cronos_Foot_3D
+FOL_CHAR_Cronos_Foot_Land_Left_2D
+FOL_CHAR_Cronos_Foot_Land_Left_3D
+FOL_CHAR_Cronos_Foot_Land_Right_2D
+FOL_CHAR_Cronos_Foot_Land_Right_3D
+FOL_CHAR_Cronos_Foot_Scuff_2D
+FOL_CHAR_Cronos_Foot_Scuff_3D
+FOL_CHAR_Cronos_Kick_Impact
+FOL_CHAR_Deadlock_Foot_Land
+FOL_CHAR_Deadlock_Foot_Land_Hard
+FOL_CHAR_Deadlock_Foot_Run
+FOL_CHAR_Deadlock_Foot_Scuff
+FOL_CHAR_Deadlock_Jump_Swish
+FOL_CHAR_Deadlock_Kick_Impact
+FOL_CHAR_Faust_Foot_Land
+FOL_CHAR_Faust_Foot_Land_Hard
+FOL_CHAR_Faust_Foot_Run
+FOL_CHAR_Faust_Foot_Scuff
+FOL_CHAR_Faust_Jump_Swish
+FOL_CHAR_Faust_Kick_Impact
+FOL_CHAR_Feng_Foot_Land
+FOL_CHAR_Feng_Foot_Land_Hard
+FOL_CHAR_Feng_Foot_Run
+FOL_CHAR_Feng_Foot_Scuff
+FOL_CHAR_Helix_Foot_Land
+FOL_CHAR_Helix_Foot_Land_Hard
+FOL_CHAR_Helix_Foot_Run
+FOL_CHAR_Helix_Foot_Scuff
+FOL_CHAR_Helix_Jump_Swish
+FOL_CHAR_Helix_Kick_Impact
+FOL_CHAR_Hellion_Foot_Land_2D_Left
+FOL_CHAR_Hellion_Foot_Land_2D_Right
+FOL_CHAR_Hellion_Foot_Land_3D_Left
+FOL_CHAR_Hellion_Foot_Land_3D_Right
+FOL_CHAR_Hellion_Foot_Run_2D
+FOL_CHAR_Hellion_Foot_Run_3D
+FOL_CHAR_Hellion_Foot_Scuff_2D
+FOL_CHAR_Hellion_Foot_Scuff_3D
+FOL_CHAR_Hellion_Jump_Foot_2D
+FOL_CHAR_Hellion_Jump_Foot_3D
+FOL_CHAR_Hellion_Kick_Impact
+FOL_CHAR_Jugg_Breaker_Kick_Impact
+FOL_CHAR_Jugg_Law_Kick_Impact
+FOL_CHAR_Kintaro_Foot_Kick_Land_2D
+FOL_CHAR_Kintaro_Foot_Kick_Land_3D
+FOL_CHAR_Kintaro_Foot_Land_2D_Left
+FOL_CHAR_Kintaro_Foot_Land_2D_Right
+FOL_CHAR_Kintaro_Foot_Land_3D_Left
+FOL_CHAR_Kintaro_Foot_Land_3D_Right
+FOL_CHAR_Kintaro_Foot_Run_2D
+FOL_CHAR_Kintaro_Foot_Run_3D
+FOL_CHAR_Kintaro_Foot_Scuff_2D
+FOL_CHAR_Kintaro_Foot_Scuff_3D
+FOL_CHAR_Kintaro_Jump_Swish_2D
+FOL_CHAR_Kintaro_Jump_Swish_3D
+FOL_CHAR_Kintaro_Kick_Impact
+FOL_CHAR_Kitsune_Foot_Land_2D_Left
+FOL_CHAR_Kitsune_Foot_Land_2D_Right
+FOL_CHAR_Kitsune_Foot_Land_3D_Left
+FOL_CHAR_Kitsune_Foot_Land_3D_Right
+FOL_CHAR_Kitsune_Foot_Run_2D
+FOL_CHAR_Kitsune_Foot_Run_3D
+FOL_CHAR_Kitsune_Foot_Scuff_2D
+FOL_CHAR_Kitsune_Foot_Scuff_3D
+FOL_CHAR_Kitsune_Jump_2D
+FOL_CHAR_Kitsune_Jump_3D
+FOL_CHAR_Kitsune_Jump_Foot_2D
+FOL_CHAR_Kitsune_Jump_Foot_3D
+FOL_CHAR_Kitsune_Kick_Impact
+FOL_CHAR_Maverick_Foot_Land_2D_Left
+FOL_CHAR_Maverick_Foot_Land_2D_Right
+FOL_CHAR_Maverick_Foot_Land_3D_Left
+FOL_CHAR_Maverick_Foot_Land_3D_Right
+FOL_CHAR_Maverick_Foot_Run_2D
+FOL_CHAR_Maverick_Foot_Run_3D
+FOL_CHAR_Maverick_Foot_Scuff_2D
+FOL_CHAR_Maverick_Foot_Scuff_3D
+FOL_CHAR_Maverick_Jump_2D
+FOL_CHAR_Maverick_Jump_3D
+FOL_CHAR_Maverick_Jump_Foot_2D
+FOL_CHAR_Maverick_Kick_Impact
+FOL_CHAR_Sunshine_Foot_Land
+FOL_CHAR_Sunshine_Foot_Land_Hard
+FOL_CHAR_Sunshine_Foot_Run
+FOL_CHAR_Sunshine_Foot_Scuff
+FOL_CHAR_Sunshine_Kick_Impact
+FOL_CHAR_Tokki_Foot_Land
+FOL_CHAR_Tokki_Foot_Land_Hard
+FOL_CHAR_Tokki_Foot_Run
+FOL_CHAR_Tokki_Foot_Scuff
+FOL_CHAR_Toska_Foot_Land_2D_Left
+FOL_CHAR_Toska_Foot_Land_2D_Right
+FOL_CHAR_Toska_Foot_Land_3D_Left
+FOL_CHAR_Toska_Foot_Land_3D_Right
+FOL_CHAR_Toska_Foot_Run_2D
+FOL_CHAR_Toska_Foot_Run_3D
+FOL_CHAR_Toska_Foot_Scuff_2D
+FOL_CHAR_Toska_Foot_Scuff_3D
+FOL_CHAR_Toska_Jump_2D
+FOL_CHAR_Toska_Jump_3D
+FOL_CHAR_Toska_Jump_Foot_2D
+FOL_CHAR_Toska_Kick_Impact
+# 350760042
+# 2950244196
+# 3400195614
+# 3963407426
+# 4022009416
+
+### VARIABLE NAMES (SFX_FOL_Footsteps.bnk)
+BruteFoot
+Perspective_Impact_Team
+Surface_Type
+
+### VALUE NAMES (SFX_FOL_Footsteps.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+M_Armor
+M_Carbon_Fiber
+M_Carpet
+M_Coal
+M_Concrete
+M_Dirt
+M_Flesh
+M_Glass
+M_Glass_Broken
+M_Glass_Unbreakable
+M_Grass
+M_Grate
+M_Gravel
+M_Metal
+M_Metal_Thin
+M_Padding
+M_Rock
+M_Rubber
+M_Shield
+M_Tile_Rooftop
+M_Unassigned
+M_Water
+M_Water_Flat
+M_Wood
+M_Wood_Deck
+normal
+Overcharge
+VictimTP
+# 2053814127
+
+### EVENT NAMES (SFX_FOL_Helix.bnk)
+FOL_CHAR_Helix_Cloth_Jump
+FOL_CHAR_Helix_Cloth_Kick
+FOL_CHAR_Helix_Cloth_Land
+FOL_CHAR_Helix_Cloth_Run
+FOL_CHAR_Helix_Jump_Swish
+FOL_CHAR_Helix_Kick_Swish
+
+### VARIABLE NAMES (SFX_FOL_Helix.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_FOL_Helix.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_FOL_Hellion.bnk)
+FOL_CHAR_Hellion_Cloth_Equip_First_2D
+FOL_CHAR_Hellion_Cloth_Equip_Rom_2D
+FOL_CHAR_Hellion_Cloth_Equip_Rom_3D
+FOL_CHAR_Hellion_Cloth_Grappl_Leap_2D
+FOL_CHAR_Hellion_Cloth_Grappl_Leap_3D
+FOL_CHAR_Hellion_Cloth_Gren_Throw_2D
+FOL_CHAR_Hellion_Cloth_Gren_Throw_3D
+FOL_CHAR_Hellion_Cloth_Jump_2D
+FOL_CHAR_Hellion_Cloth_Jump_3D
+FOL_CHAR_Hellion_Cloth_JumpDbl_2D
+FOL_CHAR_Hellion_Cloth_JumpDbl_3D
+FOL_CHAR_Hellion_Cloth_Kick_2D
+FOL_CHAR_Hellion_Cloth_Kick_3D
+FOL_CHAR_Hellion_Cloth_Land_2D
+FOL_CHAR_Hellion_Cloth_Land_3D
+FOL_CHAR_Hellion_Cloth_Land_Hard_2D
+FOL_CHAR_Hellion_Cloth_Land_Hard_3D
+FOL_CHAR_Hellion_Cloth_Run_2D
+FOL_CHAR_Hellion_Cloth_Run_3D
+FOL_CHAR_Hellion_Cloth_Swing_Left_2D
+FOL_CHAR_Hellion_Cloth_Swing_Left_3D
+FOL_CHAR_Hellion_Cloth_Swing_Right_2D
+FOL_CHAR_Hellion_Cloth_Swing_Right_3D
+FOL_CHAR_Hellion_Cloth_Swing_X_End_2D
+FOL_CHAR_Hellion_Cloth_Swing_X_End_3D
+FOL_CHAR_Hellion_Cloth_Swing_X_Start_2D
+FOL_CHAR_Hellion_Cloth_Swing_X_Start_3D
+FOL_CHAR_Hellion_Kick_Swish_2D
+FOL_CHAR_Hellion_Kick_Swish_3D
+FOL_CHAR_Hellion_Rom_Insp_A_ArmorMvmt
+FOL_CHAR_Hellion_Rom_Insp_B_ArmorMvmt
+FOL_CHAR_Hellion_Rom_Insp_C_ArmorMvmt
+FOL_CHAR_Hellion_Rom_Insp_D_ArmorMvmt
+FOL_CHAR_Hellion_TaserMach_Insp_A_ArmorMvmt
+FOL_CHAR_Hellion_TaserMach_Insp_B_ArmorMvmt
+FOL_CHAR_Hellion_TaserMach_Insp_C_ArmorMvmt
+FOL_CHAR_Hellion_TaserMach_Insp_D_ArmorMvmt
+FOL_CHAR_Hellion_TaserMach_Insp_E_ArmorMvmt
+
+### VARIABLE NAMES (SFX_FOL_Hellion.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_FOL_Hellion.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_FOL_Jugg.bnk)
+FOL_CHAR_Jugg_Breaker_Armor_Jump
+FOL_CHAR_Jugg_Breaker_Armor_Land
+FOL_CHAR_Jugg_Breaker_Armor_ShieldDeploy
+FOL_CHAR_Jugg_Breaker_Armor_Sprint
+FOL_CHAR_Jugg_Breaker_Foot_Jump
+FOL_CHAR_Jugg_Breaker_Foot_Land
+FOL_CHAR_Jugg_Breaker_Foot_Land_Hard
+FOL_CHAR_Jugg_Breaker_Foot_Run
+FOL_CHAR_Jugg_Breaker_Foot_Scuff
+FOL_CHAR_Jugg_Breaker_Foot_Sprint
+FOL_CHAR_Jugg_Breaker_Jump_Swish
+FOL_CHAR_Jugg_Breaker_Kick_Swish
+FOL_CHAR_Jugg_Law_Armor_Jump
+FOL_CHAR_Jugg_Law_Armor_Land
+FOL_CHAR_Jugg_Law_Armor_ShieldDeploy
+FOL_CHAR_Jugg_Law_Armor_Sprint
+FOL_CHAR_Jugg_Law_Foot_Jump
+FOL_CHAR_Jugg_Law_Foot_Land
+FOL_CHAR_Jugg_Law_Foot_Land_Hard
+FOL_CHAR_Jugg_Law_Foot_Run
+FOL_CHAR_Jugg_Law_Foot_Scuff
+FOL_CHAR_Jugg_Law_Foot_Sprint
+FOL_CHAR_Jugg_Law_Jump_Swish
+FOL_CHAR_Jugg_Law_Kick_Swish
+
+### VARIABLE NAMES (SFX_FOL_Jugg.bnk)
+Juggs_Ult
+Perspective_Impact_Team
+Surface_Type
+
+### VALUE NAMES (SFX_FOL_Jugg.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+Juggs_Ult_Off
+Juggs_Ult_On
+M_Armor
+M_Carbon_Fiber
+M_Carpet
+M_Coal
+M_Concrete
+M_Dirt
+M_Flesh
+M_Glass
+M_Glass_Broken
+M_Glass_Unbreakable
+M_Grass
+M_Grate
+M_Gravel
+M_Metal
+M_Metal_Thin
+M_Padding
+M_Rock
+M_Rubber
+M_Shield
+M_Tile_Rooftop
+M_Unassigned
+M_Water
+M_Water_Flat
+M_Wood
+M_Wood_Deck
+VictimTP
+# 2053814127
+
+### EVENT NAMES (SFX_FOL_Kintaro.bnk)
+FOL_CHAR_Kintaro_Armor_Equip_Aer_A_2D
+FOL_CHAR_Kintaro_Armor_Equip_Aer_A_3D
+FOL_CHAR_Kintaro_Armor_Equip_Aer_B_2D
+FOL_CHAR_Kintaro_Armor_Equip_Aer_B_3D
+FOL_CHAR_Kintaro_Armor_Equip_Badger_A_2D
+FOL_CHAR_Kintaro_Armor_Equip_Badger_A_3D
+FOL_CHAR_Kintaro_Armor_Equip_Badger_B_2D
+FOL_CHAR_Kintaro_Armor_Equip_Badger_B_3D
+FOL_CHAR_Kintaro_Armor_Gren_Throw_2D
+FOL_CHAR_Kintaro_Armor_Gren_Throw_3D
+FOL_CHAR_Kintaro_Armor_Jump_2D
+FOL_CHAR_Kintaro_Armor_Jump_3D
+FOL_CHAR_Kintaro_Armor_Kick_Down_2D
+FOL_CHAR_Kintaro_Armor_Kick_Down_3D
+FOL_CHAR_Kintaro_Armor_Kick_Out_2D
+FOL_CHAR_Kintaro_Armor_Kick_Out_3D
+FOL_CHAR_Kintaro_Armor_Land_2D
+FOL_CHAR_Kintaro_Armor_Land_3D
+FOL_CHAR_Kintaro_Armor_Land_Hard_2D
+FOL_CHAR_Kintaro_Armor_Land_Hard_3D
+FOL_CHAR_Kintaro_Armor_Run_2D
+FOL_CHAR_Kintaro_Armor_Run_3D
+FOL_CHAR_Kintaro_Insp_A_Armor_Grab
+FOL_CHAR_Kintaro_Insp_B_Armor_Grab
+FOL_CHAR_Kintaro_Insp_Badger_A_Armor_Grab
+FOL_CHAR_Kintaro_Insp_Badger_B_Armor_Grab
+FOL_CHAR_Kintaro_Insp_Badger_C_Armor_Grab
+FOL_CHAR_Kintaro_Insp_C_Armor_Grab
+FOL_CHAR_Kintaro_Kick_Swish_2D
+FOL_CHAR_Kintaro_Kick_Swish_3D
+
+### VARIABLE NAMES (SFX_FOL_Kintaro.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_FOL_Kintaro.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_FOL_Kitsune.bnk)
+FOL_CHAR_ABL_Kitsune_Jump_2D
+FOL_CHAR_ABL_Kitsune_Jump_3D
+FOL_CHAR_Kitsune_Cloth_Equip_Rom_2D
+FOL_CHAR_Kitsune_Cloth_Equip_Rom_3D
+FOL_CHAR_Kitsune_Cloth_Grappl_Leap_2D
+FOL_CHAR_Kitsune_Cloth_Grappl_Leap_3D
+FOL_CHAR_Kitsune_Cloth_Gren_Throw_2D
+FOL_CHAR_Kitsune_Cloth_Gren_Throw_3D
+FOL_CHAR_Kitsune_Cloth_Jump_2D
+FOL_CHAR_Kitsune_Cloth_Jump_3D
+FOL_CHAR_Kitsune_Cloth_JumpDbl_2D
+FOL_CHAR_Kitsune_Cloth_JumpDbl_3D
+FOL_CHAR_Kitsune_Cloth_Kick_2D
+FOL_CHAR_Kitsune_Cloth_Kick_3D
+FOL_CHAR_Kitsune_Cloth_Land_2D
+FOL_CHAR_Kitsune_Cloth_Land_3D
+FOL_CHAR_Kitsune_Cloth_Land_Hard_2D
+FOL_CHAR_Kitsune_Cloth_Land_Hard_3D
+FOL_CHAR_Kitsune_Cloth_Run_2D
+FOL_CHAR_Kitsune_Cloth_Run_3D
+FOL_CHAR_Kitsune_Cloth_Swing_Left_2D
+FOL_CHAR_Kitsune_Cloth_Swing_Left_3D
+FOL_CHAR_Kitsune_Cloth_Swing_Right_2D
+FOL_CHAR_Kitsune_Cloth_Swing_Right_3D
+FOL_CHAR_Kitsune_Cloth_Swing_X_End_2D
+FOL_CHAR_Kitsune_Cloth_Swing_X_End_3D
+FOL_CHAR_Kitsune_Cloth_Swing_X_Start_2D
+FOL_CHAR_Kitsune_Cloth_Swing_X_Start_3D
+FOL_CHAR_Kitsune_Cloth_XMvmnt_2D
+FOL_CHAR_Kitsune_Cloth_XMvmnt_3D
+FOL_CHAR_Kitsune_Kick_Swish_2D
+FOL_CHAR_Kitsune_Kick_Swish_3D
+FOL_CHAR_Kitsune_Rom_Insp_A_ArmorMvmt
+FOL_CHAR_Kitsune_Rom_Insp_B_ArmorMvmt
+FOL_CHAR_Kitsune_Rom_Insp_C_ArmorMvmt
+FOL_CHAR_Kitsune_Rom_Insp_D_ArmorMvmt
+FOL_CHAR_Kitsune_TaserMach_Insp_A_ArmorMvmt
+FOL_CHAR_Kitsune_TaserMach_Insp_B_ArmorMvmt
+FOL_CHAR_Kitsune_TaserMach_Insp_C_ArmorMvmt
+FOL_CHAR_Kitsune_TaserMach_Insp_D_ArmorMvmt
+FOL_CHAR_Kitsune_TaserMach_Insp_E_ArmorMvmt
+
+### VARIABLE NAMES (SFX_FOL_Kitsune.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_FOL_Kitsune.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_FOL_Maverick.bnk)
+FOL_CHAR_Maverick_Armor_Foot_Run_2D
+FOL_CHAR_Maverick_Armor_Foot_Run_3D
+FOL_CHAR_Maverick_Armor_Gren_Throw_2D
+FOL_CHAR_Maverick_Armor_Gren_Throw_3D
+FOL_CHAR_Maverick_Armor_Jump_2D
+FOL_CHAR_Maverick_Armor_Jump_3D
+FOL_CHAR_Maverick_Armor_Kick_Land_2D
+FOL_CHAR_Maverick_Armor_Kick_Land_3D
+FOL_CHAR_Maverick_Armor_Kick_Out_2D
+FOL_CHAR_Maverick_Armor_Kick_Out_3D
+FOL_CHAR_Maverick_Armor_Land_2D
+FOL_CHAR_Maverick_Armor_Land_3D
+FOL_CHAR_Maverick_Armor_Land_Hard_2D
+FOL_CHAR_Maverick_Armor_Land_Hard_3D
+FOL_CHAR_Maverick_Gatling_Insp_A_ArmorMvmt
+FOL_CHAR_Maverick_Gatling_Insp_B_ArmorMvmt
+FOL_CHAR_Maverick_Gatling_Insp_C_ArmorMvmt
+FOL_CHAR_Maverick_Kick_Swish_2D
+FOL_CHAR_Maverick_Kick_Swish_3D
+
+### VARIABLE NAMES (SFX_FOL_Maverick.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_FOL_Maverick.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_FOL_Sunshine.bnk)
+FOL_CHAR_Sunshine_Armor_Blindfire_A
+FOL_CHAR_Sunshine_Armor_Blindfire_B
+FOL_CHAR_Sunshine_Armor_Blindfire_C
+FOL_CHAR_Sunshine_Armor_E_Throw_A
+FOL_CHAR_Sunshine_Armor_E_Throw_B
+FOL_CHAR_Sunshine_Armor_EquipFirst_A
+FOL_CHAR_Sunshine_Armor_EquipFirst_B
+FOL_CHAR_Sunshine_Armor_EquipFirst_C
+FOL_CHAR_Sunshine_Armor_EquipFirst_D
+FOL_CHAR_Sunshine_Armor_Inspect_A
+FOL_CHAR_Sunshine_Armor_Inspect_B
+FOL_CHAR_Sunshine_Armor_Inspect_C
+FOL_CHAR_Sunshine_Armor_Inspect_D
+FOL_CHAR_Sunshine_Armor_Inspect_E
+FOL_CHAR_Sunshine_Armor_Jump_Double_Up
+FOL_CHAR_Sunshine_Armor_Jump_Up
+FOL_CHAR_Sunshine_Armor_Kick_Out
+FOL_CHAR_Sunshine_Armor_Land
+FOL_CHAR_Sunshine_Armor_Q_A
+FOL_CHAR_Sunshine_Armor_Q_B
+FOL_CHAR_Sunshine_Armor_Q_C
+FOL_CHAR_Sunshine_Armor_Reload_A
+FOL_CHAR_Sunshine_Armor_Reload_B
+FOL_CHAR_Sunshine_Armor_Reload_C
+FOL_CHAR_Sunshine_Armor_Run
+FOL_CHAR_Sunshine_Armor_Scuff
+FOL_CHAR_Sunshine_Jump_Double_Swish
+FOL_CHAR_Sunshine_Jump_Swish
+FOL_CHAR_Sunshine_Kick_Swish
+
+### VARIABLE NAMES (SFX_FOL_Sunshine.bnk)
+Perspective_Impact_Team
+Surface_Type
+
+### VALUE NAMES (SFX_FOL_Sunshine.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+M_Armor
+M_Carbon_Fiber
+M_Carpet
+M_Coal
+M_Concrete
+M_Dirt
+M_Flesh
+M_Glass
+M_Glass_Broken
+M_Glass_Unbreakable
+M_Grass
+M_Grate
+M_Gravel
+M_Metal
+M_Metal_Thin
+M_Padding
+M_Rock
+M_Rubber
+M_Shield
+M_Tile_Rooftop
+M_Unassigned
+M_Water
+M_Water_Flat
+M_Wood
+M_Wood_Deck
+VictimTP
+# 2053814127
+
+### EVENT NAMES (SFX_FOL_Toska.bnk)
+FOL_CHAR_Toska_Armor_Foot_Run_2D
+FOL_CHAR_Toska_Armor_Foot_Run_3D
+FOL_CHAR_Toska_Armor_Gren_Throw_2D
+FOL_CHAR_Toska_Armor_Gren_Throw_3D
+FOL_CHAR_Toska_Armor_Jump_2D
+FOL_CHAR_Toska_Armor_Jump_3D
+FOL_CHAR_Toska_Armor_Kick_Land_2D
+FOL_CHAR_Toska_Armor_Kick_Land_3D
+FOL_CHAR_Toska_Armor_Kick_Out_2D
+FOL_CHAR_Toska_Armor_Kick_Out_3D
+FOL_CHAR_Toska_Armor_Land_2D
+FOL_CHAR_Toska_Armor_Land_3D
+FOL_CHAR_Toska_Armor_Land_Hard_2D
+FOL_CHAR_Toska_Armor_Land_Hard_3D
+FOL_CHAR_Toska_Gatling_Insp_A_ArmorMvmt
+FOL_CHAR_Toska_Gatling_Insp_B_ArmorMvmt
+FOL_CHAR_Toska_Gatling_Insp_C_ArmorMvmt
+FOL_CHAR_Toska_Kick_Swish_2D
+FOL_CHAR_Toska_Kick_Swish_3D
+FOL_WEP_Gat_Toska_Reload_Armor_Grab_2D
+FOL_WEP_Gat_Toska_Reload_Armor_Grab_3D
+FOL_WEP_Gat_Toska_Reload_Armor_Main_2D
+FOL_WEP_Gat_Toska_Reload_Armor_Main_3D
+
+### VARIABLE NAMES (SFX_FOL_Toska.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_FOL_Toska.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_FOL_Wraith.bnk)
+FOL_CHAR_Deadlock_Armor_Blindfire_Down
+FOL_CHAR_Deadlock_Armor_Blindfire_Up
+FOL_CHAR_Deadlock_Armor_Equip_First_A
+FOL_CHAR_Deadlock_Armor_Equip_First_B
+FOL_CHAR_Deadlock_Armor_Equip_First_C
+FOL_CHAR_Deadlock_Armor_Kick_Down_3D
+FOL_CHAR_Deadlock_Armor_Kick_Out_3D
+FOL_CHAR_Deadlock_Armor_Knife_Fire_Down
+FOL_CHAR_Deadlock_Armor_Knife_Fire_Squeeze
+FOL_CHAR_Deadlock_Armor_Knife_Stab_A
+FOL_CHAR_Deadlock_Armor_Knife_Stab_B
+FOL_CHAR_Deadlock_Armor_Land
+FOL_CHAR_Deadlock_Armor_Reload_A
+FOL_CHAR_Deadlock_Armor_Reload_B
+FOL_CHAR_Deadlock_Armor_Reload_C
+FOL_CHAR_Deadlock_Armor_Run
+FOL_CHAR_Deadlock_Armor_Slide
+FOL_CHAR_Deadlock_Armor_Slide_Stop
+FOL_CHAR_Deadlock_Armor_Ult_A
+FOL_CHAR_Deadlock_Armor_Ult_B
+FOL_CHAR_Deadlock_Armor_Ult_C
+FOL_CHAR_Deadlock_Armor_WallKick
+FOL_CHAR_Deadlock_Body_Inspect_A_Up
+FOL_CHAR_Deadlock_Body_Inspect_B_Turn
+FOL_CHAR_Deadlock_Body_Inspect_C_Down
+FOL_CHAR_Deadlock_Foot_WallKick
+FOL_CHAR_Deadlock_Jump_Double_Swish
+FOL_CHAR_Deadlock_Kick_Swish
+FOL_CHAR_Helix_Armor_Blindfire_Down
+FOL_CHAR_Helix_Armor_Blindfire_Up
+FOL_CHAR_Helix_Armor_Equip_First_A
+FOL_CHAR_Helix_Armor_Equip_First_B
+FOL_CHAR_Helix_Armor_Equip_First_C
+FOL_CHAR_Helix_Armor_Kick_Down_3D
+FOL_CHAR_Helix_Armor_Kick_Out_3D
+FOL_CHAR_Helix_Armor_Knife_Fire_Down
+FOL_CHAR_Helix_Armor_Knife_Fire_Squeeze
+FOL_CHAR_Helix_Armor_Knife_Stab_A
+FOL_CHAR_Helix_Armor_Knife_Stab_B
+FOL_CHAR_Helix_Armor_Land
+FOL_CHAR_Helix_Armor_Reload_A
+FOL_CHAR_Helix_Armor_Reload_B
+FOL_CHAR_Helix_Armor_Reload_C
+FOL_CHAR_Helix_Armor_Run
+FOL_CHAR_Helix_Armor_Slide
+FOL_CHAR_Helix_Armor_Slide_Stop
+FOL_CHAR_Helix_Armor_Ult_A
+FOL_CHAR_Helix_Armor_Ult_B
+FOL_CHAR_Helix_Armor_Ult_C
+FOL_CHAR_Helix_Armor_WallKick
+FOL_CHAR_Helix_Body_Inspect_A_Up
+FOL_CHAR_Helix_Body_Inspect_B_Turn
+FOL_CHAR_Helix_Body_Inspect_C_Down
+FOL_CHAR_Helix_Cloth_Jump
+FOL_CHAR_Helix_Cloth_Kick
+FOL_CHAR_Helix_Cloth_Land
+FOL_CHAR_Helix_Cloth_Run
+FOL_CHAR_Helix_Foot_WallKick
+FOL_CHAR_Helix_Jump_Double_Swish
+FOL_CHAR_Helix_Kick_Swish
+
+### VARIABLE NAMES (SFX_FOL_Wraith.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_FOL_Wraith.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_Gravity.bnk)
+ABL_GRAV_Starfall_Bubble_3D
+GRAV_Enter
+GRAV_Exit
+GRAV_Ext_Grandview_Big_3D
+GRAV_Ext_Mammoth_Big_3D
+GRAV_Ext_Mammoth_Doorway_SM_3D
+GRAV_Ext_PilaxisQA_Big_3D
+GRAV_Ext_Promenade_Big_3D
+GRAV_Ext_Promenade_Doorway_SM_3D
+GRAV_Ext_Promenade_Tall_3D
+GRAV_Ext_Reactor_SML_3D_01
+GRAV_Ext_Redfalls_Big_3D
+GRAV_Ext_Redfalls_Column_3D
+GRAV_Ext_Station_Big_3D
+GRAV_Ext_Station_Doorway_SM_3D
+GRAV_Ext_Trench_Big_3D
+GRAV_Ext_Trench_SML_3D
+GRAV_Ext_Tutorial1_Blindfire_01_3D
+GRAV_Ext_Vertigo_Big_3D
+GRAV_Ext_VRClash_3D
+GRAV_Heavy_Enter
+GRAV_Heavy_Exit
+GRAV_Jump_2D
+GRAV_Jump_3D
+GRAV_Move
+GRAV_Move_Stop
+Gravity_Pawn_2D
+Gravity_Pawn_2D_Stop
+Gravity_Pawn_Barrier_2D
+Gravity_Pawn_Barrier_2D_Stop
+
+### VARIABLE NAMES (SFX_Gravity.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Gravity.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_Gravity_JumpPad.bnk)
+GRAV_Ext_Gateway_JumpPad_3D
+GRAV_Ext_Namsan_JumpPad_3D
+GRAV_Ext_Reactor_JumpPad_3D
+GRAV_Ext_Redfalls_JumpPad_3D
+GRAV_Ext_VRClash_JumpPad_3D
+GRAV_JumpPad
+
+### VARIABLE NAMES (SFX_Gravity_JumpPad.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Gravity_JumpPad.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_Gravity_Spheres.bnk)
+GRAV_Sphere_A_LRG_3D
+GRAV_Sphere_A_SML_3D
+GRAV_Sphere_B_LRG_3D
+GRAV_Sphere_B_SML_3D
+GRAV_Sphere_C_LRG_3D
+GRAV_Sphere_C_SML_3D
+GRAV_Sphere_Enter
+GRAV_Sphere_Exit
+
+### VARIABLE NAMES (SFX_Gravity_Spheres.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Gravity_Spheres.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_LoadAll.bnk)
+DIAL_Mute
+DIAL_UnMute
+DIAL_VO_Player_Stop
+GLOB_DuckCharVOTutorial
+GLOB_LevelEnd
+GLOB_LevelStart
+GLOB_Menu_Open
+GLOB_Menu_Spectator
+PROJ_Impact_Pip_Local
+PROJ_Impact_Pip_Local_Headshot
+Reset_GravityAbilityVol
+Stop_All_Looping
+
+### VARIABLE NAMES (SFX_LoadAll.bnk)
+Impact_Damage_Type
+Impact_Pip
+Menu
+
+### VALUE NAMES (SFX_LoadAll.bnk)
+Aerator
+Alpha
+Badger
+Blinding_Gravity
+Bullfrog
+Chain_Lightning
+Cluster_Grenade
+Electricity
+EMP_Grenade
+Environment
+equalizer
+ExplodingKnife
+Explosion
+Gatling
+Gatling_Alt_Fire
+Grapple_Sword
+Impact_Pip_1
+Impact_Pip_2
+Impact_Pip_3
+Impale
+Juggernaut_Stomp
+Kick
+Knife
+LaserKick
+LaserPrimary
+LaserShoes
+LaserUnibeam
+Leap
+Lobber
+Lobber_Bounce
+Medic_Pistol
+Menu_Open
+Menu_Spectator
+Omega
+Overcharge
+Romerus
+Romerus_Charged
+ShadowForm
+Shrapnel_Launcher
+SlideKick
+Starfall
+Stinger
+SwordSlice
+SwordStab
+WraithLunge
+WraithPistol
+# 2105053652
+# 1276689995
+# 3509482965
+# 4281679929
+# 2813661940
+
+### EVENT NAMES (SFX_MVP.bnk)
+MVP_Generic_Impact_1
+MVP_Generic_Impact_2
+MVP_Generic_Impact_3
+MVP_Generic_Impact_4
+MVP_Generic_Impact_5
+MVP_Generic_JetDown
+# 11025690
+# 22508526
+# 30867467
+# 32264433
+# 35165505
+# 35998521
+# 66406284
+# 116635991
+# 119970423
+# 139002342
+# 148538007
+# 230757352
+# 231285959
+# 237883801
+# 245906604
+# 248514155
+# 266147150
+# 269137714
+# 283557438
+# 294710123
+# 297137005
+# 386302167
+# 414482945
+# 425176789
+# 444150925
+# 480701351
+# 495260276
+# 496222544
+# 522303901
+# 524203056
+# 529880629
+# 535112288
+# 539605369
+# 549775449
+# 586281297
+# 622603552
+# 644752467
+# 656533813
+# 658874823
+# 725348664
+# 765611384
+# 767273100
+# 773481637
+# 792379571
+# 809449510
+# 809991495
+# 810301410
+# 839162627
+# 848607445
+# 850729003
+# 931247485
+# 988968312
+# 1040494565
+# 1058562019
+# 1064307358
+# 1064882318
+# 1071566916
+# 1079760654
+# 1092498676
+# 1115869137
+# 1116633635
+# 1133722419
+# 1141582023
+# 1176656539
+# 1183042908
+# 1206172499
+# 1242456056
+# 1245652564
+# 1254628679
+# 1288205359
+# 1392875693
+# 1429083301
+# 1435554008
+# 1435860002
+# 1460964924
+# 1520673776
+# 1647184251
+# 1663969277
+# 1667976743
+# 1772107853
+# 1801328544
+# 1819124613
+# 1863907511
+# 1880286009
+# 1888529229
+# 1891188880
+# 1932782062
+# 1960801488
+# 1974395580
+# 1985221434
+# 2000908311
+# 2024745375
+# 2034025084
+# 2091274107
+# 2172727594
+# 2185162377
+# 2198992143
+# 2210138359
+# 2227228070
+# 2230380052
+# 2234663749
+# 2265440557
+# 2316067834
+# 2325521408
+# 2335766519
+# 2356546215
+# 2365358828
+# 2420349068
+# 2433922217
+# 2433922218
+# 2464552334
+# 2471602076
+# 2471602079
+# 2496834197
+# 2509727022
+# 2516880329
+# 2523887963
+# 2533680630
+# 2561158962
+# 2599255986
+# 2662300669
+# 2670152235
+# 2672360839
+# 2691461446
+# 2746134782
+# 2760087093
+# 2777360609
+# 2785215852
+# 2801895143
+# 2844806887
+# 2847895712
+# 2857345482
+# 2860991547
+# 2869004271
+# 2924044619
+# 2972669286
+# 3026645050
+# 3027425430
+# 3110959738
+# 3172952474
+# 3191646373
+# 3219173708
+# 3230341053
+# 3245998564
+# 3250017860
+# 3261596180
+# 3296733134
+# 3301904040
+# 3387731559
+# 3438957196
+# 3453996932
+# 3494106299
+# 3500989255
+# 3505410065
+# 3524712140
+# 3529648253
+# 3544101349
+# 3548515492
+# 3549180536
+# 3591003506
+# 3615738614
+# 3688154744
+# 3703730397
+# 3723283758
+# 3731650397
+# 3780644672
+# 3794133368
+# 3817762899
+# 3831576609
+# 3893733538
+# 3948356199
+# 3959550519
+# 3979319295
+# 4028170733
+# 4028881740
+# 4031546982
+# 4044479908
+# 4070231953
+# 4109336009
+# 4208131441
+# 4218573250
+# 4276828361
+
+### EVENT NAMES (SFX_OBJ_Battery.bnk)
+MUS_STNG_Battery_Charge_Stop
+OBJ_Battery_Cradle_3D
+OBJ_Battery_Explo_3D
+OBJ_Battery_Explo_Player_3D
+OBJ_Battery_Explo_Pre_3D
+OBJ_Battery_Explo_Pre_3D_Stop
+OBJ_Battery_Wooshby_2D
+PU_Battery_Drop
+PU_Battery_Elect_3D
+PU_Battery_Elect_3D_Stop
+PU_Battery_Loop_3D
+PU_Battery_Loop_FullChrg_3D
+PU_Battery_Loop_FullChrg_3D_Off
+PU_Battery_Pickup
+PU_Battery_PlugIn
+PU_Battery_Shield_Loop_3D
+PU_Battery_Shield_Loop_Off_3D
+PU_Battery_Shield_Melt_3D
+PU_Battery_Shield_Melt_3D_Off
+PU_Battery_Shield_Melt_3D_Pause
+PU_Battery_Shield_Melt_3D_Resume
+# 1468722413
+# 1910306136
+
+### VARIABLE NAMES (SFX_OBJ_Battery.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_OBJ_Battery.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_OBJ_HealthStation.bnk)
+OBJ_Healthstation_Enter
+OBJ_HealthStation_Loop_3D
+# 44115211
+
+### VARIABLE NAMES (SFX_OBJ_HealthStation.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_OBJ_HealthStation.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_OBJ_RushBall.bnk)
+OBJ_Blitzball_Bounce_3D
+OBJ_BlitzBall_Dropped
+OBJ_Blitzball_Gate_Energy_3D
+OBJ_Blitzball_Gate_Energy_Stop
+OBJ_Blitzball_Gate_FireWorks_3D
+OBJ_BlitzBall_ShotClockLow
+OBJ_BlitzBall_UnderFire
+OBJ_RushBall_Away
+OBJ_RushBall_Pickup
+OBJ_RushBall_Throw
+
+### VARIABLE NAMES (SFX_OBJ_RushBall.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_OBJ_RushBall.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_OBJ_SpawnBarrier.bnk)
+AMB_Spawn_Barrier_3D_Stop
+OBJ_SlidingDoor_Close_3D
+OBJ_SlidingDoor_Jam_1_3D
+OBJ_SlidingDoor_Jam_2_3D
+OBJ_SlidingDoor_Large_Close_3D
+OBJ_SlidingDoor_Large_Open_3D
+OBJ_SlidingDoor_Open_3D
+OBJ_SpawnBarrier_Bump_3D
+
+### EVENT NAMES (SFX_OBJ_Uplink.bnk)
+OBJ_Uplink_Charging_3D
+OBJ_Uplink_Charging_3D_Stop
+OBJ_Uplink_Dropped
+OBJ_Uplink_Pickup
+
+### VARIABLE NAMES (SFX_OBJ_Uplink.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_OBJ_Uplink.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_PROJ_Ballistic.bnk)
+Aerator_Projectiles
+PROJ_Aerator_Bys_3D
+PROJ_Badger_Bys_3D
+PROJ_BattleMedic_Pistol_Away
+PROJ_Death_Gibs_Splat
+PROJ_Gatling_Bys_3D
+PROJ_GS_Left_Bys_3D
+PROJ_GS_Right_Bys_3D
+PROJ_Impact_Aerator
+PROJ_Impact_Badger
+Proj_Impact_BMed_Pistol
+PROJ_Impact_CHAR_Blood
+PROJ_Impact_CHAR_Death
+PROJ_Impact_CHAR_Headshot
+PROJ_Impact_CHAR_Shield
+Proj_Impact_CLG
+Proj_Impact_CLG_End
+Proj_Impact_CLG_Start
+PROJ_Impact_Gatling
+Proj_Impact_GS_Left
+Proj_Impact_GS_Right
+Proj_Impact_GS_Ultimate
+PROJ_Impact_Heavy_Armor
+PROJ_Impact_Jugg_ShotG
+PROJ_Impact_Jugg_ShotG_Alt
+PROJ_Impact_Jugg_ShotG_Alt_Away
+PROJ_Impact_TaserMachete
+PROJ_Impact_WraithKnifeStab
+PROJ_Impact_WraithPistol
+PROJ_WraithPistol_Bys_3D
+Wep_Empty_Ammo
+
+### VARIABLE NAMES (SFX_PROJ_Ballistic.bnk)
+Character_Type
+Impact_Damage_Type
+Perspective_Impact_Team
+Surface_Type
+
+### VALUE NAMES (SFX_PROJ_Ballistic.bnk)
+Aerator
+AllyTP
+Alpha
+AttackerTP
+Badger
+Blinding_Gravity
+Bullfrog
+Chain_Lightning
+Cluster_Grenade
+Electricity
+EMP_Grenade
+EnemyTP
+Environment
+equalizer
+ExplodingKnife
+Explosion
+FirstPerson
+Flesh
+Gatling
+Gatling_Alt_Fire
+Grapple_Sword
+Impale
+Juggernaut_Stomp
+Kick
+Knife
+LaserKick
+LaserPrimary
+LaserShoes
+LaserUnibeam
+Leap
+Lobber
+Lobber_Bounce
+M_Armor
+M_Carbon_Fiber
+M_Carpet
+M_Coal
+M_Concrete
+M_Dirt
+M_Flesh
+M_Glass
+M_Glass_Broken
+M_Glass_Unbreakable
+M_Grass
+M_Grate
+M_Gravel
+M_Metal
+M_Metal_Thin
+M_Padding
+M_Rock
+M_Rubber
+M_Shield
+M_Tile_Rooftop
+M_Unassigned
+M_Water
+M_Water_Flat
+M_Wood
+M_Wood_Deck
+Medic_Pistol
+Metal
+Omega
+Overcharge
+Romerus
+Romerus_Charged
+ShadowForm
+Shrapnel_Launcher
+SlideKick
+Starfall
+Stinger
+SwordSlice
+SwordStab
+VictimTP
+WraithLunge
+WraithPistol
+# 2053814127
+# 2105053652
+# 1276689995
+# 3509482965
+# 4281679929
+# 2813661940
+
+### EVENT NAMES (SFX_Pickups.bnk)
+PU_Ammo1
+PU_Heal
+PU_HealthPack_Spawn_3D
+
+### VARIABLE NAMES (SFX_Pickups.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Pickups.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_UI_CharacterSelect_Breaker.bnk)
+UI_CharSelect_Baron_Loop_A_ArmorOne
+UI_CharSelect_Baron_Loop_B2_RightFoot
+UI_CharSelect_Baron_Loop_B_RightScuff
+UI_CharSelect_Baron_Loop_C2_LeftFoot
+UI_CharSelect_Baron_Loop_C_LeftScuff
+UI_CharSelect_Baron_Loop_D2_RightFoot
+UI_CharSelect_Baron_Loop_D_RightScuff
+UI_CharSelect_Baron_Loop_E_HandOffGlove
+UI_CharSelect_Baron_Loop_F_TouchKnob
+UI_CharSelect_Baron_Loop_G_TurnKnob
+UI_CharSelect_Baron_Loop_H_GunGrab
+UI_CharSelect_Baron_Loop_I2_LeftFoot
+UI_CharSelect_Baron_Loop_I_LeftScuff
+UI_CharSelect_Baron_Loop_J_HandSlideOffGun
+UI_CharSelect_Baron_Loop_K_RightFoot
+UI_CharSelect_Baron_Loop_L2_LeftFoot
+UI_CharSelect_Baron_Loop_L_LeftScuff
+UI_CharSelect_Baron_Loop_M2_RightFoot
+UI_CharSelect_Baron_Loop_M_RightScuff
+UI_CharSelect_Baron_Loop_N_ArmorTwo
+UI_CharSelect_Baron_Loop_O2_RightFoot
+UI_CharSelect_Baron_Loop_O_RightScuff
+UI_CharSelect_Baron_Loop_Q2_LeftFoot
+UI_CharSelect_Baron_Loop_Q_LeftScuff
+UI_CharSelect_Baron_Loop_R_RightFoot
+UI_CharSelect_Baron_Loop_R_RightScuff
+UI_CharSelect_Baron_Loop_S_NeckTurn
+UI_CharSelect_Baron_Loop_T_ArmorThree
+UI_CharSelect_Baron_Loop_U2_RightFoot
+UI_CharSelect_Baron_Loop_U3_LeftScuffFoot
+UI_CharSelect_Baron_Loop_U4_LeftFoot
+UI_CharSelect_Baron_Loop_U_RightScuff
+UI_CharSelect_Baron_Loop_W2_RightFoot
+UI_CharSelect_Baron_Loop_W_RightScuff
+UI_CharSelect_Baron_Loop_X2_LeftFoot
+UI_CharSelect_Baron_Loop_X3_RightScuff
+UI_CharSelect_Baron_Loop_X4_RightFoot
+UI_CharSelect_Baron_Loop_X_LeftScuff
+UI_CharSelect_Baron_Loop_Y_GunGrab
+UI_CharSelect_Baron_Loop_Z2_RightScuff
+UI_CharSelect_Baron_Loop_Z3_RightFoot
+UI_CharSelect_Baron_Loop_Z4_LeftScuff
+UI_CharSelect_Baron_Loop_Z5_LeftFoot
+UI_CharSelect_Baron_Loop_Z6_RightScuff
+UI_CharSelect_Baron_Loop_Z7_RightFoot
+UI_CharSelect_Baron_Loop_Z_ArmorFour
+UI_CharSelect_Baron_Start_A_JetFlying
+UI_CharSelect_Baron_Start_B_ArmorFlying
+UI_CharSelect_Baron_Start_C_GunCock1
+UI_CharSelect_Baron_Start_D_GunCock2
+UI_CharSelect_Baron_Start_E_FootLand
+UI_CharSelect_Baron_Start_F_GunGrab
+UI_CharSelect_Baron_Start_ShockCroc_Idle
+UI_CharSelect_Baron_Start_ShockCrocFire_End
+UI_CharSelect_Baron_Start_ShockCrocFire_Start
+UI_CharSelect_Cronos_Loop_A_HeadShake
+UI_CharSelect_Cronos_Loop_B_Scuff
+UI_CharSelect_Cronos_Loop_C_Shake
+UI_CharSelect_Cronos_Loop_D2_Foot
+UI_CharSelect_Cronos_Loop_D_Foot
+UI_CharSelect_Cronos_Loop_E_Scuff
+UI_CharSelect_Cronos_Loop_F_ScuffFoot
+UI_CharSelect_Cronos_Loop_G_RattleStart
+UI_CharSelect_Cronos_Loop_H_ArmorRattle
+UI_CharSelect_Cronos_Loop_I_SwishPunch
+UI_CharSelect_Cronos_Loop_J_ArmorRattle
+UI_CharSelect_Cronos_Loop_K_SwishPunch
+UI_CharSelect_Cronos_Loop_L_ArmorPunch
+UI_CharSelect_Cronos_Loop_M_SwishPunch
+UI_CharSelect_Cronos_Start_A2_Scuff
+UI_CharSelect_Cronos_Start_A_ShakeStart
+UI_CharSelect_Cronos_Start_B2_Foot
+UI_CharSelect_Cronos_Start_B_Foot
+UI_CharSelect_Cronos_Start_C_Foot
+UI_CharSelect_Cronos_Start_D_Foot
+UI_CharSelect_Cronos_Start_E_Foot
+UI_CharSelect_Cronos_Start_F_Foot
+UI_CharSelect_Cronos_Start_G_Swish
+UI_CharSelect_Cronos_Start_H_Punch
+UI_CharSelect_Cronos_Start_I_Swish
+UI_CharSelect_Cronos_Start_J_Punch
+UI_CharSelect_Cronos_Start_K_Foot
+UI_CharSelect_Cronos_Start_L_Swish
+UI_CharSelect_Cronos_Start_M_Punch
+UI_CharSelect_Cronos_Start_N_Swish
+UI_CharSelect_Cronos_Start_O_Punch
+UI_CharSelect_Cronos_Start_P_Foot
+UI_CharSelect_Cronos_Start_Q_Foot
+UI_CharSelect_Cronos_Start_R_Foot
+UI_CharSelect_Cronos_Start_S_Foot
+UI_CharSelect_Cronos_Start_T_Foot
+UI_CharSelect_Faust_Loop_A2_GunGrab1
+UI_CharSelect_Faust_Loop_A_Inspect
+UI_CharSelect_Faust_Loop_B_GunOpen
+UI_CharSelect_Faust_Loop_C_GunGrab
+UI_CharSelect_Faust_Loop_D_GunSlide
+UI_CharSelect_Faust_Loop_E2_GunFX
+UI_CharSelect_Faust_Loop_E3_GunMovement
+UI_CharSelect_Faust_Loop_E_SpinSwish
+UI_CharSelect_Faust_Loop_F_EndCharge
+UI_CharSelect_Faust_Loop_G_LeftGunDown
+UI_CharSelect_Faust_Start_A2_Turn
+UI_CharSelect_Faust_Start_A_Turn
+UI_CharSelect_Faust_Start_B_GunPull
+UI_CharSelect_Faust_Start_C_Rattle
+UI_CharSelect_Faust_Start_D_Swish
+UI_CharSelect_Faust_Start_E_Look
+UI_CharSelect_Faust_Start_F_FootAim1
+UI_CharSelect_Faust_Start_G_GunAim1
+UI_CharSelect_Faust_Start_H_FootAim2
+UI_CharSelect_Faust_Start_I_GunAim2
+UI_CharSelect_Faust_Start_J_Relax
+UI_CharSelect_Faust_Start_K_GunDown
+UI_CharSelect_Feng_Loop_A2_Armor
+UI_CharSelect_Feng_Loop_A_BootLean
+UI_CharSelect_Feng_Loop_B2_BootLean
+UI_CharSelect_Feng_Loop_B_DroneBeep
+UI_CharSelect_Feng_Loop_C_DroneBeep
+UI_CharSelect_Feng_Loop_D_BackFoot
+UI_CharSelect_Feng_Loop_E_Foot
+UI_CharSelect_Feng_Loop_F_Foot
+UI_CharSelect_Feng_Loop_G_BackFoot
+UI_CharSelect_Feng_Loop_H_DroneBeep
+UI_CharSelect_Feng_Loop_I_Foot
+UI_CharSelect_Feng_Loop_J_DroneBeep
+UI_CharSelect_Feng_Loop_K_DroneBeep
+UI_CharSelect_Feng_Loop_L_FootScuff
+UI_CharSelect_Feng_Loop_M_Foot
+UI_CharSelect_Feng_Loop_N_Swish
+UI_CharSelect_Feng_Loop_O_Hit
+UI_CharSelect_Feng_Loop_P_Swish
+UI_CharSelect_Feng_Loop_Q_Hit
+UI_CharSelect_Feng_Loop_R_Scuff
+UI_CharSelect_Feng_Loop_S_Foot
+UI_CharSelect_Feng_Loop_T_DroneBeep
+UI_CharSelect_Feng_Loop_U_DroneBeep
+UI_CharSelect_Feng_Start_A_Hover
+UI_CharSelect_Feng_Start_B_DroneBeep
+UI_CharSelect_Feng_Start_C_DroneBeep
+UI_CharSelect_Feng_Start_D_LandLeft
+UI_CharSelect_Feng_Start_E2_Scuff
+UI_CharSelect_Feng_Start_E_LandRight
+UI_CharSelect_Feng_Start_F_BackStep
+UI_CharSelect_Feng_Start_G_Scuff
+UI_CharSelect_Feng_Start_H_Foot
+UI_CharSelect_Helix_Loop_A_ArmorSpin
+UI_CharSelect_Helix_Loop_B_WeaponsOut
+UI_CharSelect_Helix_Loop_C_SpinWhoosh
+UI_CharSelect_Helix_Loop_D_FootSpin
+UI_CharSelect_Helix_Loop_E_Hand
+UI_CharSelect_Helix_Loop_F_KinfeFlip
+UI_CharSelect_Helix_Loop_G_Scuff
+UI_CharSelect_Helix_Loop_H_ArmorMvmt
+UI_CharSelect_Helix_Loop_I_FootScuff
+UI_CharSelect_Helix_Loop_J_KnifeFlipWhoosh
+UI_CharSelect_Helix_Loop_K_HandRelease
+UI_CharSelect_Helix_Loop_L_Foot
+UI_CharSelect_Helix_Loop_M_KnifeGrab
+UI_CharSelect_Helix_Loop_N_Blade
+UI_CharSelect_Helix_Loop_O_Foot
+UI_CharSelect_Helix_Loop_P2_GunMvmt
+UI_CharSelect_Helix_Loop_P_ArmorKickFlip
+UI_CharSelect_Helix_Loop_Q_KickWhoosh
+UI_CharSelect_Helix_Loop_R_WeaponsDuringFlip
+UI_CharSelect_Helix_Loop_S2_GunCock
+UI_CharSelect_Helix_Loop_S_FlipWhoosh
+UI_CharSelect_Helix_Loop_T2_Blade
+UI_CharSelect_Helix_Loop_T3_FootLand
+UI_CharSelect_Helix_Loop_T_Foot
+UI_CharSelect_Helix_Loop_U_Scuffs
+UI_CharSelect_Helix_Loop_V_ArmorMvmt
+UI_CharSelect_Helix_Loop_W_GunMvmt
+UI_CharSelect_Helix_Loop_X_Scuff
+UI_CharSelect_Helix_Loop_Y_Foot
+UI_CharSelect_Helix_Start_A_Slide
+UI_CharSelect_Helix_Start_B_FlipWhoosh
+UI_CharSelect_Helix_Start_C_BodyFlip
+UI_CharSelect_Helix_Start_D_FlipWithWeapons
+UI_CharSelect_Helix_Start_E_FootLand
+UI_CharSelect_Helix_Start_F_StandUp
+UI_CharSelect_Helix_Start_G_Armor
+UI_CharSelect_Helix_Start_H2_Foot
+UI_CharSelect_Helix_Start_H_Scuff
+UI_CharSelect_Helix_Start_I_KnifeFlicker
+UI_CharSelect_Helix_Start_J_KnifeGrab
+UI_CharSelect_Kintaro_Loop_A_NeckTurn
+UI_CharSelect_Kintaro_Loop_B_FingerOut
+UI_CharSelect_Kintaro_Loop_C_Scuff
+UI_CharSelect_Kintaro_Loop_D_Foot
+UI_CharSelect_Kintaro_Loop_E_Scuff
+UI_CharSelect_Kintaro_Loop_F_Foot
+UI_CharSelect_Kintaro_Loop_G_Scuff
+UI_CharSelect_Kintaro_Loop_H_Stretch
+UI_CharSelect_Kintaro_Loop_I_GunMvmt
+UI_CharSelect_Kintaro_Loop_J_ArmorMvmt
+UI_CharSelect_Kintaro_Loop_K_Whoosh
+UI_CharSelect_Kintaro_Loop_L_GunHit
+UI_CharSelect_Kintaro_Start_A_BallUp
+UI_CharSelect_Kintaro_Start_B_ArmorMvmt
+UI_CharSelect_Kintaro_Start_C_FootSlide
+UI_CharSelect_Kintaro_Start_D_BallSlide
+UI_CharSelect_Kintaro_Start_E_ArmorMvmt
+UI_CharSelect_Kintaro_Start_F_BallCatch
+UI_CharSelect_Kintaro_Start_G_GunActivate
+UI_CharSelect_Kintaro_Start_H_ArmorMvmt
+UI_CharSelect_Kintaro_Start_I_FootSlide
+UI_CharSelect_Kintaro_Start_J_Foot
+UI_CharSelect_Kintaro_Start_K_WipeGun1
+UI_CharSelect_Kintaro_Start_L_WipeGun2
+UI_CharSelect_Kintaro_Start_M_Scuff
+UI_CharSelect_Kintaro_Start_N_Foot
+UI_CharSelect_Kintaro_Start_O_Whoosh
+UI_CharSelect_Kintaro_Start_P_GunOnShoulder
+UI_CharSelect_Kintaro_Start_Q_NeckTurn
+UI_CharSelect_Kitsune_Loop_A_Armor
+UI_CharSelect_Kitsune_Loop_B_HandThrow
+UI_CharSelect_Kitsune_Loop_C2_SwordSwish
+UI_CharSelect_Kitsune_Loop_C_SwordToss
+UI_CharSelect_Kitsune_Loop_D_SwordCatch
+UI_CharSelect_Kitsune_Loop_E_SwordElecticity
+UI_CharSelect_Kitsune_Loop_F2_FootScuffs
+UI_CharSelect_Kitsune_Loop_F3_Foot
+UI_CharSelect_Kitsune_Loop_F_SwordPlay
+UI_CharSelect_Kitsune_Loop_G2_Foot
+UI_CharSelect_Kitsune_Loop_G3_FootSpin
+UI_CharSelect_Kitsune_Loop_G_RightSwishes
+UI_CharSelect_Kitsune_Loop_H2_Foot
+UI_CharSelect_Kitsune_Loop_H_TwirlSwish
+UI_CharSelect_Kitsune_Loop_I_SwordsHitGround
+UI_CharSelect_Kitsune_Loop_J2_Foot
+UI_CharSelect_Kitsune_Loop_J_ElectricSpin
+UI_CharSelect_Kitsune_Loop_K_RightFoot
+UI_CharSelect_Kitsune_Loop_L_HandRotate
+UI_CharSelect_Kitsune_Loop_M_HandGrab
+UI_CharSelect_Kitsune_Loop_N2_RightFoot
+UI_CharSelect_Kitsune_Loop_N_LeftFoot
+UI_CharSelect_Kitsune_Loop_O_ArmorPoint
+UI_CharSelect_Kitsune_Loop_P2_LeftFoot
+UI_CharSelect_Kitsune_Loop_P_RightFootScuff
+UI_CharSelect_Kitsune_Loop_Q_ArmorBladeDown
+UI_CharSelect_Kitsune_Loop_R_Footstep
+UI_CharSelect_Kitsune_Loop_S_BladeMvmt
+UI_CharSelect_Kitsune_Loop_S_LeftFootScuff
+UI_CharSelect_Kitsune_Loop_T2_DoubleScuff
+UI_CharSelect_Kitsune_Loop_T3_Scuff
+UI_CharSelect_Kitsune_Loop_T_HandToass
+UI_CharSelect_Kitsune_Loop_U_HandCatch
+UI_CharSelect_Kitsune_Loop_V_LeftFoot
+UI_CharSelect_Kitsune_Start_A_Grapple
+UI_CharSelect_Kitsune_Start_B_Armor
+UI_CharSelect_Kitsune_Start_C_SwordSwish
+UI_CharSelect_Kitsune_Start_D_Sword
+UI_CharSelect_Kitsune_Start_E2_RightFoot
+UI_CharSelect_Kitsune_Start_E_Foot
+UI_CharSelect_Kitsune_Start_F_Armor
+UI_CharSelect_Kitsune_Start_G_FootScuff
+UI_CharSelect_Kitsune_Start_H_SwordLift
+UI_CharSelect_Kitsune_Start_I_SwordWhooshes
+UI_CharSelect_Kitsune_Start_J_RightFoot
+UI_CharSelect_Kitsune_Start_K_LeftScuff
+UI_CharSelect_Kitsune_Start_L_HandGrab
+UI_CharSelect_Nash_Loop_A2_Scuff
+UI_CharSelect_Nash_Loop_A_ServoWindUp
+UI_CharSelect_Nash_Loop_B_Armor
+UI_CharSelect_Nash_Loop_C_Beeps
+UI_CharSelect_Nash_Loop_D2_Malfunction
+UI_CharSelect_Nash_Loop_D_Sparks
+UI_CharSelect_Nash_Loop_E_ServoFailure
+UI_CharSelect_Nash_Loop_F_ArmsDown
+UI_CharSelect_Nash_Loop_G_ArmorUpCompletes
+UI_CharSelect_Nash_Loop_H_Reboots
+UI_CharSelect_Nash_Loop_I_Scuffs
+UI_CharSelect_Nash_Loop_J_LookAround
+UI_CharSelect_Nash_Loop_K_RightScuff
+UI_CharSelect_Nash_Loop_L_ServoTurn
+UI_CharSelect_Nash_Loop_M_ServoNeck
+UI_CharSelect_Nash_Loop_N_ServoTurn
+UI_CharSelect_Nash_Loop_O_ArmorDown
+UI_CharSelect_Nash_Loop_P2_ServoArmReach
+UI_CharSelect_Nash_Loop_P_NeckTurn
+UI_CharSelect_Nash_Loop_Q2_Foot
+UI_CharSelect_Nash_Loop_Q_GunGrab
+UI_CharSelect_Nash_Loop_R_Servo
+UI_CharSelect_Nash_Loop_S2_GunBringDown
+UI_CharSelect_Nash_Loop_S3_Servo
+UI_CharSelect_Nash_Loop_S4_HandGrab
+UI_CharSelect_Nash_Loop_S_GunLift
+UI_CharSelect_Nash_Loop_T_HeadTurn
+UI_CharSelect_Nash_Loop_U2_HeadBobble
+UI_CharSelect_Nash_Loop_U3_Blade
+UI_CharSelect_Nash_Loop_U_Thrust
+UI_CharSelect_Nash_Loop_V2_Foot
+UI_CharSelect_Nash_Loop_V_ServoStepBack
+UI_CharSelect_Nash_Loop_W2_Servo
+UI_CharSelect_Nash_Loop_W3_GunFX
+UI_CharSelect_Nash_Loop_W4_ExtraServo
+UI_CharSelect_Nash_Loop_W_GunPutUp
+UI_CharSelect_Nash_Loop_X_PlaceGunOnBack
+UI_CharSelect_Nash_Loop_Y_ServoToRestPosition
+UI_CharSelect_Nash_Start_A_FingerUp
+UI_CharSelect_Nash_Start_ArmorMvmt
+UI_CharSelect_Nash_Start_B_Foot
+UI_CharSelect_Nash_Start_D_FingerOut
+UI_CharSelect_Nash_Start_E_Servo_HighPitch
+UI_CharSelect_Nash_Start_F_Sparks
+UI_CharSelect_Nash_Start_G_Malfunction
+UI_CharSelect_Nash_Start_H_ServoTurn
+UI_CharSelect_Nash_Start_I_Foot
+UI_CharSelect_Nash_Start_J_FingerRight
+UI_CharSelect_Nash_Start_K_ServoExhaust
+UI_CharSelect_Nash_Start_L_HeadBang
+UI_CharSelect_Nash_Start_M_HeadClose
+UI_CharSelect_Nash_Start_N_FingerShot
+UI_CharSelect_Nash_Start_O_Armor
+UI_CharSelect_Nash_Start_P_Foot
+UI_CharSelect_Nash_Start_Q_ArmorDown
+UI_CharSelect_Nash_Start_R_ServoDown
+UI_CharSelect_Nash_Start_S_FingerDown
+UI_CharSelect_Toska_Loop_A_ServoBack
+UI_CharSelect_Toska_Loop_B_BodyBack
+UI_CharSelect_Toska_Loop_C_TurbineStart
+UI_CharSelect_Toska_Loop_D_Foot
+UI_CharSelect_Toska_Loop_E_Blast
+UI_CharSelect_Toska_Loop_F_BlastEnd
+UI_CharSelect_Toska_Loop_G_TurbineEnd
+UI_CharSelect_Toska_Loop_H_Body
+UI_CharSelect_Toska_Loop_I_Servo
+UI_CharSelect_Toska_Loop_J_ServoFoot
+UI_CharSelect_Toska_Start_A_JetDown
+UI_CharSelect_Toska_Start_B_Impact
+UI_CharSelect_Toska_Start_C_BodyImpact
+UI_CharSelect_Toska_Start_D_LookUpScrapeBody
+UI_CharSelect_Toska_Start_E_SwishDown
+UI_CharSelect_Toska_Start_F_GunHit
+UI_CharSelect_Toska_Start_G_GunScrape
+UI_CharSelect_Toska_Start_H_SwishUp
+UI_CharSelect_Toska_Start_I_Rev
+UI_CharSelect_Toska_Start_J_Servo
+UI_CharSelect_Toska_Start_K_Foot
+UI_CharSelect_Toska_Start_L_ServoDown
+UI_CharSelect_Toska_Start_M_RevEnd
+UI_CharSelect_Toska_Start_N_Body
+UI_CharSelect_Toska_Start_O_HandNeck
+UI_CharSelect_Toska_Start_P_Relax
+UI_CharSelect_Toska_Start_Q_ServoRelax
+UI_CharSelect_Toska_Start_R_ArmOut
+UI_CharSelect_Toska_Start_S_ArmIn
+UI_CharSelect_Toska_Start_T2_LookFWD
+UI_CharSelect_Toska_Start_T_LookLeft
+UI_CharSelect_Toska_Start_U2_Shift2
+UI_CharSelect_Toska_Start_U_Shift1
+# 425047751
+# 1511870065
+# 3563596997
+# 4278892562
+
+### SFX NAMES (SFX_UI_CharacterSelect_Breaker.bnk)
+Reverb_CharSelect_Baron
+Reverb_CharSelect_Cronos
+Reverb_CharSelect_Faust
+Reverb_CharSelect_Feng
+Reverb_CharSelect_Helix
+Reverb_CharSelect_Kintaro
+Reverb_CharSelect_Kitsune
+Reverb_CharSelect_Nash
+Reverb_CharSelect_Toska
+
+### EVENT NAMES (SFX_UI_CharacterSelect_Law.bnk)
+UI_CharSelect_Abaddon_Loop_A_Armor
+UI_CharSelect_Abaddon_Loop_B_GunSpin
+UI_CharSelect_Abaddon_Loop_C_SpinSwish
+UI_CharSelect_Abaddon_Loop_D_GunGrab
+UI_CharSelect_Abaddon_Loop_E2_BarrelSwishes
+UI_CharSelect_Abaddon_Loop_E_BarrelSpin
+UI_CharSelect_Abaddon_Loop_F_GunMvmt
+UI_CharSelect_Abaddon_Loop_G_Armor
+UI_CharSelect_Abaddon_Loop_H_Foot
+UI_CharSelect_Abaddon_Loop_I_Scuff
+UI_CharSelect_Abaddon_Loop_J_GunGrab
+UI_CharSelect_Abaddon_Loop_K_Foot
+UI_CharSelect_Abaddon_Loop_L_GunPoint
+UI_CharSelect_Abaddon_Loop_M_GunCharge
+UI_CharSelect_Abaddon_Loop_N_Slide
+UI_CharSelect_Abaddon_Loop_O2_SpinSwish
+UI_CharSelect_Abaddon_Loop_O3_GunGrab
+UI_CharSelect_Abaddon_Loop_O_BackSpin
+UI_CharSelect_Abaddon_Loop_P_FingerGrasp
+UI_CharSelect_Abaddon_Loop_Q_Armor
+UI_CharSelect_Abaddon_Loop_R_GunPutAway
+UI_CharSelect_Abaddon_Loop_S_BehindBack
+UI_CharSelect_Abaddon_Loop_T_TakeOutKnife
+UI_CharSelect_Abaddon_Loop_U2_KnifeGrab
+UI_CharSelect_Abaddon_Loop_U_KnifePlay
+UI_CharSelect_Abaddon_Loop_V2_KnifeSwish
+UI_CharSelect_Abaddon_Loop_V_KnifeFlip
+UI_CharSelect_Abaddon_Loop_W2_KnifeSwish
+UI_CharSelect_Abaddon_Loop_W3_KnifeGrab
+UI_CharSelect_Abaddon_Loop_W_KnifeGrab
+UI_CharSelect_Abaddon_Loop_X_SpinGrab
+UI_CharSelect_Abaddon_Loop_Y_KnifePutAway
+UI_CharSelect_Abaddon_Loop_Z2_WeaponPowerUp
+UI_CharSelect_Abaddon_Loop_Z_PullsOutGuns
+UI_CharSelect_Abaddon_Start_A2_SecondBlink
+UI_CharSelect_Abaddon_Start_A_FirstBlink
+UI_CharSelect_Abaddon_Start_B_CenterBlink
+UI_CharSelect_Abaddon_Start_C_Armor
+UI_CharSelect_Abaddon_Start_D_Gun
+UI_CharSelect_Abaddon_Start_E_Swish
+UI_CharSelect_Abaddon_Start_F_Slide
+UI_CharSelect_Abaddon_Start_G_GunRaise
+UI_CharSelect_Abaddon_Start_H_GunSwish
+UI_CharSelect_Abaddon_Start_I_FootScuff
+UI_CharSelect_Abaddon_Start_J_GunSpin
+UI_CharSelect_Abaddon_Start_K_Foot
+UI_CharSelect_Abaddon_Start_L_SpinSwish
+UI_CharSelect_Abaddon_Start_M_PowerUp
+UI_CharSelect_Abaddon_Start_N_GunGrab
+UI_CharSelect_Aegis_Loop_A_HeadTurn1
+UI_CharSelect_Aegis_Loop_B_HeadTurn2
+UI_CharSelect_Aegis_Loop_C_ArmorDown
+UI_CharSelect_Aegis_Loop_D_BeepExhaust
+UI_CharSelect_Aegis_Loop_E_Grab
+UI_CharSelect_Aegis_Loop_F_Cockback
+UI_CharSelect_Aegis_Loop_G_HandleForward
+UI_CharSelect_Aegis_Loop_H_ServoDown
+UI_CharSelect_Aegis_Loop_I_ArmorUp
+UI_CharSelect_Aegis_Loop_J_Beep
+UI_CharSelect_Aegis_Loop_K_ArmorLock
+UI_CharSelect_Aegis_Loop_L_HeadTurn
+UI_CharSelect_Aegis_Loop_M_HeadTurn2
+UI_CharSelect_Aegis_Loop_N_GunUp
+UI_CharSelect_Aegis_Loop_O_ServoMvmt
+UI_CharSelect_Aegis_Loop_P_BladeOut
+UI_CharSelect_Aegis_Loop_Q_BladeIn
+UI_CharSelect_Aegis_Loop_R_ServoDown
+UI_CharSelect_Aegis_Start_A_NeckTurn
+UI_CharSelect_Aegis_Start_B_ArmorUp
+UI_CharSelect_Aegis_Start_C_Beeps
+UI_CharSelect_Aegis_Start_D_Turn
+UI_CharSelect_Aegis_Start_E_ServoTurn
+UI_CharSelect_Aegis_Start_F_LeftFoot
+UI_CharSelect_Aegis_Start_G_ServoArmor
+UI_CharSelect_Aegis_Start_H_RightFoot
+UI_CharSelect_Axel_Loop_A2_Raise
+UI_CharSelect_Axel_Loop_A_Raise
+UI_CharSelect_Axel_Loop_B_Point
+UI_CharSelect_Axel_Loop_C_Lower
+UI_CharSelect_Axel_Loop_D_Pop
+UI_CharSelect_Axel_Loop_E_Launch
+UI_CharSelect_Axel_Loop_F_Ball_Swish
+UI_CharSelect_Axel_Loop_G_Grab
+UI_CharSelect_Axel_Loop_H_Throw
+UI_CharSelect_Axel_Loop_I_Gun
+UI_CharSelect_Axel_Loop_J_Swish
+UI_CharSelect_Axel_Loop_K_Ball_In
+UI_CharSelect_Axel_Loop_L_Foot
+UI_CharSelect_Axel_Loop_M_Shake
+UI_CharSelect_Axel_Loop_N_Relax
+UI_CharSelect_Axel_Loop_O_Scuff
+UI_CharSelect_Axel_Loop_P_Foot
+UI_CharSelect_Axel_Start_A_Holster
+UI_CharSelect_Axel_Start_B_Grab
+UI_CharSelect_Axel_Start_C_Foot
+UI_CharSelect_Axel_Start_D_Foot
+UI_CharSelect_Axel_Start_E_Grab
+UI_CharSelect_Axel_Start_F_ChargeSwish
+UI_CharSelect_Axel_Start_G_Foot
+UI_CharSelect_Axel_Start_H_Grab
+UI_CharSelect_Axel_Start_I_Aim
+UI_CharSelect_Axel_Start_J_Aim
+UI_CharSelect_Axel_Start_K_Relax
+UI_CharSelect_Axel_Start_L_Foot
+UI_CharSelect_Bomchelle_Loop_A_HandMvmt
+UI_CharSelect_Bomchelle_Loop_B_FingerTap
+UI_CharSelect_Bomchelle_Loop_C_GunSway
+UI_CharSelect_Bomchelle_Loop_D_GunKnock1
+UI_CharSelect_Bomchelle_Loop_E_Foot
+UI_CharSelect_Bomchelle_Loop_F_BodySway
+UI_CharSelect_Bomchelle_Loop_G_GunKnock2
+UI_CharSelect_Bomchelle_Loop_H_Foot
+UI_CharSelect_Bomchelle_Loop_I_Gunknock3
+UI_CharSelect_Bomchelle_Loop_J_GunLean
+UI_CharSelect_Bomchelle_Loop_K_HandMvmt
+UI_CharSelect_Bomchelle_Loop_L_Armor
+UI_CharSelect_Bomchelle_Loop_M2_BackofFoot
+UI_CharSelect_Bomchelle_Loop_M3_LeftFoot
+UI_CharSelect_Bomchelle_Loop_M4_RightFoot
+UI_CharSelect_Bomchelle_Loop_M_Foot
+UI_CharSelect_Bomchelle_Loop_N_Armor
+UI_CharSelect_Bomchelle_Loop_O2_LeftFoot
+UI_CharSelect_Bomchelle_Loop_O3_FootTap
+UI_CharSelect_Bomchelle_Loop_O_Foot
+UI_CharSelect_Bomchelle_Loop_P_HandleGrab
+UI_CharSelect_Bomchelle_Loop_Q_HandOnTop
+UI_CharSelect_Bomchelle_Loop_R_HandSlide
+UI_CharSelect_Bomchelle_Loop_S_ArmorBounce
+UI_CharSelect_Bomchelle_Loop_T2_RightFoot
+UI_CharSelect_Bomchelle_Loop_T3_DoubleFoot
+UI_CharSelect_Bomchelle_Loop_T4_Foot
+UI_CharSelect_Bomchelle_Loop_T5_FootLand
+UI_CharSelect_Bomchelle_Loop_T6_FootTap
+UI_CharSelect_Bomchelle_Loop_T_LeftFoot
+UI_CharSelect_Bomchelle_Loop_U_PunchSwishes
+UI_CharSelect_Bomchelle_Loop_V2_Footing
+UI_CharSelect_Bomchelle_Loop_V_Foot
+UI_CharSelect_Bomchelle_Loop_W2_HandGrab2
+UI_CharSelect_Bomchelle_Loop_W_HandGrab1
+UI_CharSelect_Bomchelle_Loop_X2_Foot2
+UI_CharSelect_Bomchelle_Loop_X_Foot1
+UI_CharSelect_Bomchelle_Loop_Y2_HandGrip2
+UI_CharSelect_Bomchelle_Loop_Y_HandGrip1
+UI_CharSelect_Bomchelle_Loop_Z2_Foot
+UI_CharSelect_Bomchelle_Loop_Z_Scuff
+UI_CharSelect_Bomchelle_Start_A_Armor
+UI_CharSelect_Bomchelle_Start_B_RightFoot
+UI_CharSelect_Bomchelle_Start_C_LeftFoot
+UI_CharSelect_Bomchelle_Start_D_GunBounce
+UI_CharSelect_Bomchelle_Start_E_Foot
+UI_CharSelect_Bomchelle_Start_F_FingerPoint1
+UI_CharSelect_Bomchelle_Start_G_FingerPoint2
+UI_CharSelect_Bomchelle_Start_H_FingerPoint3
+UI_CharSelect_Bomchelle_Start_I_ArmorMuscle
+UI_CharSelect_Bomchelle_Start_J_GunMvmt
+UI_CharSelect_Bomchelle_Start_K_Stomp
+UI_CharSelect_Bomchelle_Start_L_Armor
+UI_CharSelect_Bomchelle_Start_M_GunMvmt
+UI_CharSelect_Bomchelle_Start_N_Grab
+UI_CharSelect_Bomchelle_Start_O_Foot
+UI_CharSelect_Bomchelle_Start_P_GunHitsGround
+UI_CharSelect_Bomchelle_Start_Q_FootScuff
+UI_CharSelect_Bomchelle_Start_R_HandTap
+UI_CharSelect_Deadlock_Loop_A_KnifeMvmt
+UI_CharSelect_Deadlock_Loop_B_ArmorTap
+UI_CharSelect_Deadlock_Loop_C_Armor
+UI_CharSelect_Deadlock_Loop_D_WeaponMvmt1
+UI_CharSelect_Deadlock_Loop_E_NeckPop
+UI_CharSelect_Deadlock_Loop_F_WeaponMvmt2
+UI_CharSelect_Deadlock_Loop_G_KnifePlaceOnChest
+UI_CharSelect_Deadlock_Loop_H_ArmorMvmt1
+UI_CharSelect_Deadlock_Loop_I_KnifeMvmt
+UI_CharSelect_Deadlock_Loop_J_Armor
+UI_CharSelect_Deadlock_Loop_K_LiftUpGun
+UI_CharSelect_Deadlock_Loop_L_Scuff
+UI_CharSelect_Deadlock_Loop_M_GunCock
+UI_CharSelect_Deadlock_Loop_N_GunUp
+UI_CharSelect_Deadlock_Loop_O_Scuff
+UI_CharSelect_Deadlock_Loop_P_WeaponsToChest
+UI_CharSelect_Deadlock_Loop_Q_GunDown
+UI_CharSelect_Deadlock_Loop_R_Scuffs
+UI_CharSelect_Deadlock_Start_A_SlideArmor
+UI_CharSelect_Deadlock_Start_B_SlideFX
+UI_CharSelect_Deadlock_Start_C_KnifeScraping
+UI_CharSelect_Deadlock_Start_D_FootSlide
+UI_CharSelect_Deadlock_Start_E_LegSpin
+UI_CharSelect_Deadlock_Start_F_Foot
+UI_CharSelect_Deadlock_Start_H_KnifeSpinWhooshes
+UI_CharSelect_Deadlock_Start_I_SwishKnifeOnChest
+UI_CharSelect_Deadlock_Start_J_HandToChest
+UI_CharSelect_Deadlock_Start_K_ArmorNoise
+UI_CharSelect_FOL_Tokki_DroneBeeps
+UI_CharSelect_FOL_Tokki_Loop_C_DroneMvmt
+UI_CharSelect_FOL_Tokki_Loop_D_DroneNoise
+UI_CharSelect_FOL_Tokki_Loop_E_ArmorFoley1
+UI_CharSelect_FOL_Tokki_Loop_G_ArmorFoley2
+UI_CharSelect_FOL_Tokki_Loop_I_DroneStdy
+UI_CharSelect_FOL_Tokki_Loop_J_DroneWhoosh1
+UI_CharSelect_FOL_Tokki_Loop_L_DroneWhoosh2
+UI_CharSelect_FOL_Tokki_Loop_M_DroneJetAway
+UI_CharSelect_FOL_Tokki_Loop_O_ArmorFoley3
+UI_CharSelect_FOL_Tokki_Loop_P_DroneNoise
+UI_CharSelect_FOL_Tokki_Loop_Q_FootMvmt
+UI_CharSelect_FOL_Tokki_Loop_R_ArmorFoley4
+UI_CharSelect_FOL_Tokki_Loop_S_DroneStdy
+UI_CharSelect_FOL_Tokki_Loop_V_DronesFromTop
+UI_CharSelect_FOL_Tokki_Loop_W_DroneNoise
+UI_CharSelect_FOL_Tokki_Loop_X_DroneStdy
+UI_CharSelect_FOL_Tokki_Start_A_JetBootsIn
+UI_CharSelect_FOL_Tokki_Start_B_DroneIn
+UI_CharSelect_FOL_Tokki_Start_C_ArmorFoley1
+UI_CharSelect_FOL_Tokki_Start_D_DroneStdy
+UI_CharSelect_FOL_Tokki_Start_E_ArmorFoley2
+UI_CharSelect_FOL_Tokki_Start_F_FootDown
+UI_CharSelect_FOL_Tokki_Start_G_ArmorFoley3
+UI_CharSelect_FOL_Tokki_Start_H2_Armor
+UI_CharSelect_FOL_Tokki_Start_H_FootwithScuff
+UI_CharSelect_FOL_Tokki_Start_I_Foot
+UI_CharSelect_FOL_Tokki_Start_J_BackStep
+UI_CharSelect_FOL_Tokki_Start_K_DroneBeep
+UI_CharSelect_FOL_Tokki_Start_L_DroneBeep
+UI_CharSelect_Hellion_Loop_A_Armor
+UI_CharSelect_Hellion_Loop_B_BladeSwing
+UI_CharSelect_Hellion_Loop_C_BladeSwishes
+UI_CharSelect_Hellion_Loop_D_BladesOnShoulder
+UI_CharSelect_Hellion_Loop_E_ArmorBounce
+UI_CharSelect_Hellion_Loop_F_RightFoot
+UI_CharSelect_Hellion_Loop_G_LeftFoot
+UI_CharSelect_Hellion_Loop_H_BladeLift
+UI_CharSelect_Hellion_Loop_I_BladesSwishDown
+UI_CharSelect_Hellion_Loop_J_RightFoot
+UI_CharSelect_Hellion_Loop_K_LeftFoot
+UI_CharSelect_Hellion_Loop_L_RightFoot
+UI_CharSelect_Hellion_Loop_M_LeftFoot
+UI_CharSelect_Hellion_Loop_N_BladesSwishUp
+UI_CharSelect_Hellion_Loop_O2_Foot
+UI_CharSelect_Hellion_Loop_O_FootTap
+UI_CharSelect_Hellion_Loop_P_FootandScuff
+UI_CharSelect_Hellion_Loop_Q_BladeTaps
+UI_CharSelect_Hellion_Start_A_SwordSwishes
+UI_CharSelect_Hellion_Start_B_SwordFlip
+UI_CharSelect_Hellion_Start_C_Armor
+UI_CharSelect_Hellion_Start_D_BladeCatch
+UI_CharSelect_Hellion_Start_E_SpinWhoosh
+UI_CharSelect_Hellion_Start_F_FootScuff
+UI_CharSelect_Hellion_Start_G_BladeScrape1
+UI_CharSelect_Hellion_Start_H_ProstheticNoise
+UI_CharSelect_Hellion_Start_I_BladeScrape
+UI_CharSelect_Hellion_Start_J_ProsheticLeg
+UI_CharSelect_Hellion_Start_K_FootLand
+UI_CharSelect_Hellion_Start_L_WhooshEnd
+UI_CharSelect_Hellion_Start_M_BladeOnShoulder
+UI_CharSelect_Hellion_Start_N_BladeBow
+UI_CharSelect_Maverick_Loop_A_LookAtGun
+UI_CharSelect_Maverick_Loop_B_UnderGun
+UI_CharSelect_Maverick_Loop_C_GunDown
+UI_CharSelect_Maverick_Loop_D_ArmorTurn
+UI_CharSelect_Maverick_Loop_E_Foot
+UI_CharSelect_Maverick_Loop_F2_Blast
+UI_CharSelect_Maverick_Loop_F3_BlastEnd
+UI_CharSelect_Maverick_Loop_F_WingsOut
+UI_CharSelect_Maverick_Loop_G_WingsIn
+UI_CharSelect_Maverick_Loop_H_ArmorTurn
+UI_CharSelect_Maverick_Loop_I_Scuff
+UI_CharSelect_Maverick_Loop_J_Foot
+UI_CharSelect_Maverick_Start_A_Jetpack
+UI_CharSelect_Maverick_Start_B_ArmorLand
+UI_CharSelect_Maverick_Start_C_Foot
+UI_CharSelect_Maverick_Start_D_GaltingTurn1
+UI_CharSelect_Maverick_Start_E_ArmorSulate
+UI_CharSelect_Maverick_Start_F_GaltingTurn2
+UI_CharSelect_Maverick_Start_G_SulateUp
+UI_CharSelect_Maverick_Start_H_GaltingTurn3
+UI_CharSelect_Maverick_Start_I_SulateDown
+UI_CharSelect_Sunshine_Loop_A_LegLift
+UI_CharSelect_Sunshine_Loop_B_LeftFootScuff
+UI_CharSelect_Sunshine_Loop_C_Armor
+UI_CharSelect_Sunshine_Loop_D_FootTap
+UI_CharSelect_Sunshine_Loop_E_LongScuff
+UI_CharSelect_Sunshine_Loop_F_RightFoot
+UI_CharSelect_Sunshine_Loop_G_HandOnHips
+UI_CharSelect_Sunshine_Loop_H_LeftFoot
+UI_CharSelect_Sunshine_Loop_I2_Armor
+UI_CharSelect_Sunshine_Loop_I_Armor
+UI_CharSelect_Sunshine_Loop_J_HandsOnHips
+UI_CharSelect_Sunshine_Start_A_JetBoots
+UI_CharSelect_Sunshine_Start_B_FirstArmor
+UI_CharSelect_Sunshine_Start_C_FootLand
+UI_CharSelect_Sunshine_Start_D_LeftFoot
+UI_CharSelect_Sunshine_Start_E_SecondArmor
+UI_CharSelect_Sunshine_Start_F_Scuff
+UI_CharSelect_Sunshine_Start_G_Scuff
+UI_CharSelect_Sunshine_Start_H_ForwardScuff
+UI_CharSelect_Sunshine_Start_I_FootStep
+UI_CharSelect_Sunshine_Start_J_HandsOnHips
+# 870346702
+# 3596647607
+
+### SFX NAMES (SFX_UI_CharacterSelect_Law.bnk)
+Reverb_CharSelect_Abaddon
+Reverb_CharSelect_Aegis
+Reverb_CharSelect_Axel
+Reverb_CharSelect_Bomchelle
+Reverb_CharSelect_Deadlock
+Reverb_CharSelect_Hellion
+Reverb_CharSelect_Maverick
+Reverb_CharSelect_Sunshine
+Reverb_CharSelect_Tokki
+
+### EVENT NAMES (SFX_UI_Customization.bnk)
+UI_Customization_FOL_Aegis_ArmorDown1
+UI_Customization_FOL_Aegis_ArmorDown2
+UI_Customization_FOL_Aegis_ArmorUp1
+UI_Customization_FOL_Aegis_ArmorUp2
+UI_Customization_FOL_Aegis_NeckTurn1
+UI_Customization_FOL_Aegis_NeckTurn10
+UI_Customization_FOL_Aegis_NeckTurn11
+UI_Customization_FOL_Aegis_NeckTurn2
+UI_Customization_FOL_Aegis_NeckTurn3
+UI_Customization_FOL_Aegis_NeckTurn4
+UI_Customization_FOL_Aegis_NeckTurn5
+UI_Customization_FOL_Aegis_NeckTurn6
+UI_Customization_FOL_Aegis_NeckTurn7
+UI_Customization_FOL_Aegis_NeckTurn8
+UI_Customization_FOL_Aegis_NeckTurn9
+UI_Customization_FOL_Nash_ArmorDown1
+UI_Customization_FOL_Nash_ArmorDown2
+UI_Customization_FOL_Nash_ArmorUp1
+UI_Customization_FOL_Nash_ArmorUp2
+UI_Customization_FOL_Nash_NeckTurn1
+UI_Customization_FOL_Nash_NeckTurn2
+UI_Customization_FOL_Nash_NeckTurn3
+UI_Customization_FOL_Nash_NeckTurn4
+UI_Customization_FOL_Nash_NeckTurn5
+UI_Customization_FOL_Nash_NeckTurn6
+
+### EVENT NAMES (SFX_UI_InGame.bnk)
+UI_Ability_Fail
+UI_Death_Skull_LogoEnter
+UI_Death_Skull_Punch
+UI_Endmatch_FaceHit_FinalHt
+UI_Endmatch_FaceHit_Slam
+UI_Endmatch_MVP_NameHit
+UI_Endmatch_MVP_NamePlate
+UI_Endmatch_Score_End
+UI_Endmatch_Score_Loop
+UI_Endmatch_Score_Loop_Stop
+UI_Endmatch_Skull_LogoEnter
+UI_Endmatch_Skull_Punch
+UI_Endmatch_Whoosh_5432
+UI_Endmatch_Whoosh_FinalHit
+UI_Endmatch_Wipe_Black
+UI_Endmatch_Wipe_White_Focus
+UI_Endmatch_Wipe_White_Whoosh
+UI_EoM_Award_Slam
+UI_EoM_Award_Swish
+UI_EoM_Crate_PaneAppear
+UI_EoM_Crate_Slam
+UI_EoM_Crate_Whoosh
+UI_EoM_GM_Circle_Slam
+UI_EoM_GM_Level_Hit_A
+UI_EoM_GM_Level_Hit_B
+UI_EoM_GM_Level_Hit_C
+UI_EoM_GM_Level_Hit_D
+UI_EoM_GM_Level_Hit_S
+UI_EoM_GM_Level_Hit_Splus
+UI_EoM_GM_Level_Whoosh
+UI_EoM_GM_ScoreTally
+UI_EoM_Level_Bonus_Tally
+UI_EoM_Level_Bonus_TallyEnd
+UI_EoM_Level_EXP_Tally
+UI_EoM_Level_LevelUp_Hit
+UI_EoM_Level_LevelUp_TextSlam
+UI_EoM_Overall_BoxAppear
+UI_EoM_Overall_SideIconSlam
+UI_EoM_PersonalResults_Appear
+UI_EoM_Podium_Tally_1
+UI_EoM_Podium_Tally_2
+UI_EoM_Podium_Tally_3
+UI_EoM_Podium_Tally_4
+UI_EoM_Podium_Tally_5
+UI_EoM_VictoryDefeat_FaceSlam
+UI_EoM_VictoryDefeat_VRise
+UI_EoM_VictoryDefeat_VSlam
+UI_EoM_WinLoss_Static
+UI_EoM_Wipe_Generic
+UI_HUD_Battery_ExploWarn
+UI_HUD_Battery_ExploWarn_Urgent
+UI_HUD_Battery_Flash_25Perc
+UI_HUD_Battery_Get
+UI_HUD_Charge_Gain
+UI_HUD_Cooldown_Off_E
+UI_HUD_Cooldown_Off_Shift
+UI_HUD_Cooldown_Off_Ult
+UI_HUD_HealStart_Self
+UI_HUD_Health_Full
+UI_HUD_KC_Point_Neg
+UI_HUD_KC_Point_Pos
+UI_HUD_LowHealth
+UI_HUD_LowHealth_Pulse
+UI_HUD_MSG_Kill
+UI_HUD_NearEnemy
+UI_HUD_Occupy_Point_Contested
+UI_HUD_Occupy_Point_Neg
+UI_HUD_Occupy_Point_Pos
+UI_HUD_Occupy_Unlock321
+UI_HUD_Rush_Clock_10Sec
+UI_HUD_Rush_Pickup_Drop
+UI_HUD_Rush_Pickup_Neg
+UI_HUD_Rush_Pickup_Pos
+UI_HUD_Rush_Score_Tick
+UI_HUD_Rush_ShotClock_10sec
+UI_HUD_ScoringEvent_Generic
+UI_HUD_TDM_Point_Neg
+UI_HUD_TDM_Point_Pos
+UI_HUD_Timer_Respawn
+UI_HUD_Turf_Cap_Neg
+UI_HUD_Turf_Cap_Pos
+UI_HUD_Turf_Capture_Loop
+UI_HUD_Turf_Capture_Loop_Stop
+UI_HUD_Turf_Flash
+UI_HUD_Turf_Point_Contested
+UI_HUD_Turf_StageBeep_Neg
+UI_HUD_Turf_StageBeep_Neg_Stop
+UI_HUD_Uplink_Drop
+UI_HUD_Uplink_Get
+UI_HUD_Uplink_Point_Neg
+UI_HUD_Uplink_Point_Pos
+UI_HUD_Uplink_TimingOut
+UI_HUD_Warning_Fuel
+UI_HUD_Warning_Ozone
+UI_HUD_Warning_Ozone_OneShot
+UI_HUD_Warning_Ozone_Stop
+UI_InGame_WARN_30SecRemain
+UI_LowAmmo_Beep
+UI_LowAmmo_Beep_Alpha
+UI_LowAmmo_Beep_long
+UI_LowAmmo_Beep_ShortClean
+UI_LowAmmo_Threshold
+UI_Prematch_Countdown
+# 277328123
+# 1191184553
+# 1206517837
+# 1433482163
+# 1763640327
+# 1837053699
+# 3048367994
+# 3202849206
+# 3417826662
+# 4101542883
+# 4137062979
+# 4142374641
+
+### VARIABLE NAMES (SFX_UI_InGame.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_UI_InGame.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_UI_Menu.bnk)
+UI_Endmatch_Crate_Slam_Generic
+UI_Endmatch_Crate_Slam_Player
+UI_Endmatch_Crate_Whoosh
+UI_Endmatch_CrateName_Generic
+UI_Endmatch_CrateName_Player
+UI_Endmatch_Metal_Appear
+UI_Endmatch_Metal_Slam
+UI_Endmatch_PR_Award_Hit
+UI_Endmatch_PR_GameModeEXPScroll
+UI_Endmatch_PR_GameModeEXPSlam
+UI_Endmatch_PR_GameModeIconSlam
+UI_Endmatch_PR_GameModeIconSwoosh
+UI_Endmatch_PR_GradeLevelBeep
+UI_Endmatch_PR_GradeUPChime
+UI_Endmatch_PR_LevelEXPScroll
+UI_Endmatch_PR_LevelEXPScroll_Stop
+UI_Endmatch_PR_LevelEXPSlam
+UI_Endmatch_PR_LevelIconSlam
+UI_Endmatch_PR_LevelIconSwoosh
+UI_Endmatch_PR_LevelUPChime
+UI_Endmatch_PR_WipeGrey
+UI_Endmatch_Results_Appear
+UI_Endmatch_Results_IconSlam
+UI_Endmatch_Wipe_Black_2
+UI_Endmatch_Wipe_White_Whoosh_2
+UI_FrontEnd_CharSelect_RolePortrait_Slam
+UI_FrontEnd_CharSelect_Wipe_RolePortrait
+UI_FrontEnd_Logo_Break
+UI_FrontEnd_MatchTimer_Count
+UI_FrontEnd_MatchTimer_Count0
+UI_FrontEnd_MatchTimer_Count321
+UI_FrontEnd_MatchTimer_StartTimer
+UI_FrontEnd_MM_FriendsSlideDown
+UI_FrontEnd_MM_GameModeIcon
+UI_FrontEnd_MM_MapIcon
+UI_FrontEnd_MM_MatchFound
+UI_FrontEnd_MM_MatchMaking_SlideDown
+UI_FrontEnd_MM_PlayerBoxShow
+UI_FrontEnd_MM_Wipe_CharSelect
+UI_FrontEnd_PlayMenu_Confirm
+UI_FrontEnd_PlayMenu_Hit
+UI_FrontEnd_PlayMenu_Whoosh
+UI_FrontEnd_SideLogo_Appear
+UI_FrontEnd_SideLogo_Hit_Breaker
+UI_FrontEnd_SideLogo_Hit_Law
+UI_Menu_Accept
+UI_Menu_Achievement
+UI_Menu_Back
+UI_Menu_Cancel
+UI_Menu_Character_Select
+UI_Menu_Chat_Message
+UI_Menu_Click
+UI_Menu_Custom_Equip
+UI_Menu_Custom_Spawn
+UI_Menu_CustomSelect_LogoSlam
+UI_Menu_CustomSelect_Slide_Main
+UI_Menu_CustomSelect_Slide_Side
+UI_Menu_Error
+UI_Menu_Friend_Invite
+UI_Menu_Friend_Message
+UI_Menu_GameMode_Confirm
+UI_Menu_Hover
+UI_Menu_Match_Ready
+UI_Menu_Player_Spawn
+UI_Menu_Popup
+UI_Menu_Scroll
+UI_Menu_Twitter_Appear
+UI_Menu_Window_Slide_In
+UI_Menu_Window_Slide_Out
+UI_Menu_YouWillBeKicked
+UI_Rank_Performance_Accent_Hit
+UI_Rank_Performance_Defeat
+UI_Rank_Performance_Rank_Down
+UI_Rank_Performance_Rank_Up
+UI_Rank_Performance_Tally
+UI_Rank_Performance_Victory
+UI_Rank_Performance_WhooshIn_PreSlam
+UI_Rank_Rank_Medal_Hit
+UI_StashBox_Crate_Close_End_01
+UI_StashBox_Crate_Close_End_02
+UI_StashBox_Crate_Close_End_03
+UI_StashBox_Crate_Close_End_04
+UI_StashBox_Crate_Close_Start_01
+UI_StashBox_Crate_Close_Start_02
+UI_StashBox_Crate_Close_Start_03
+UI_StashBox_Crate_Close_Start_04
+UI_StashBox_Crate_Crack_01
+UI_StashBox_Crate_Crack_02
+UI_StashBox_Crate_Crack_03
+UI_StashBox_Crate_Crack_04
+UI_StashBox_Crate_Open_End_01
+UI_StashBox_Crate_Open_End_02
+UI_StashBox_Crate_Open_End_03
+UI_StashBox_Crate_Open_End_04
+UI_StashBox_Crate_Open_Start_01
+UI_StashBox_Crate_Open_Start_02
+UI_StashBox_Crate_Open_Start_03
+UI_StashBox_Crate_Open_Start_04
+UI_StashBox_Crate_Slide
+UI_StashBox_Crate_Slide_Forward
+UI_StashBox_Drop_Slam
+UI_StashBox_Drop_Start
+UI_StashBox_Move_Down
+UI_StashBox_Move_Stop
+UI_StashBox_MUS_STNG_End
+UI_StashBox_MUS_STNG_Intro
+UI_StashBox_Platform_Slide_End_01
+UI_StashBox_Platform_Slide_End_02
+UI_StashBox_Platform_Slide_End_03
+UI_StashBox_Platform_Slide_End_04
+UI_StashBox_Platform_Slide_Start_01
+UI_StashBox_Platform_Slide_Start_02
+UI_StashBox_Platform_Slide_Start_03
+UI_StashBox_Platform_Slide_Start_04
+UI_StashBox_Print_Loop_01
+UI_StashBox_Print_Loop_01_Stop
+UI_StashBox_Zoom_In
+UI_StashBox_Zoom_Out
+UI_Video_Close
+UI_Video_Open
+# 1129046353
+# 1456866154
+# 1456866156
+# 1456866157
+# 1456866159
+# 2218309021
+
+### EVENT NAMES (SFX_UI_Tutorial.bnk)
+UI_HUD_Tutorial_Countdown
+UI_HUD_Tutorial_EarnPoint
+UI_HUD_Tutorial_IconSpawn
+UI_HUD_Tutorial_IconSpawn_LastObjective
+UI_HUD_Tutorial_LightOn
+UI_HUD_Tutorial_ObjectiveFailed
+UI_HUD_Tutorial_ObjectiveSuccess
+UI_HUD_Tutorial_Popup
+
+### EVENT NAMES (SFX_Weapon_Aerator.bnk)
+Aerator_Fire_Single_Shot
+Aerator_Fired_Shot
+Aerator_Fired_Start
+Aerator_Tail_Shot
+FOL_Aerat_Reload_Mvmt_A_2D
+FOL_Aerat_Reload_Mvmt_A_3D
+FOL_Aerat_Reload_Mvmt_B_2D
+FOL_Aerat_Reload_Mvmt_B_3D
+FOL_Aerat_Reload_Mvmt_C_2D
+FOL_Aerat_Reload_Mvmt_C_3D
+FOL_Aerat_Rld_A_EnergyMidMetal_2D
+FOL_Aerat_Rld_A_EnergyMidMetal_3D
+FOL_Aerat_Rld_B_BallSpin_2D
+FOL_Aerat_Rld_B_BallSpin_3D
+FOL_Aerat_Rld_C_Grab_Ball_2D
+FOL_Aerat_Rld_C_Grab_Ball_3D
+FOL_Aerat_Rld_D_PneuHiss_2D
+FOL_Aerat_Rld_D_PneuHiss_3D
+FOL_Aerat_Rld_E_GrabBallHip_2D
+FOL_Aerat_Rld_E_GrabBallHip_3D
+FOL_Aerat_Rld_F_EnergyNewBall_2D
+FOL_Aerat_Rld_F_EnergyNewBall_3D
+FOL_Aerat_Rld_G_SwishThrow_2D
+FOL_Aerat_Rld_G_SwishThrow_3D
+FOL_Aerat_Rld_H_Ball_In_2D
+FOL_Aerat_Rld_H_Ball_In_3D
+FOL_Aerat_Rld_I_CloseLatches_2D
+FOL_Aerat_Rld_I_CloseLatches_3D
+FOL_Aerat_Rld_J_CloseServo_2D
+FOL_Aerat_Rld_J_CloseServo_3D
+FOL_Aerat_Rld_K_CloseServoLowClose_2D
+FOL_Aerat_Rld_K_CloseServoLowClose_3D
+FOL_Aerat_Rld_L_HandGrabGun_2D
+FOL_Aerat_Rld_L_HandGrabGun_3D
+FOL_Aerat_Rld_M_PinHitGunDwnElecChrg_2D
+FOL_Aerat_Rld_M_PinHitGunDwnElecChrg_3D
+FOL_Aerat_Rld_Shell_Eject_2D
+FOL_Aerat_Rld_Shell_Eject_3D
+FOL_Aerator_Equip_A_Grab_Cock_2D
+FOL_Aerator_Equip_A_Grab_Cock_3D
+FOL_Aerator_Equip_B_Grab_Cock_2D
+FOL_Aerator_Equip_B_Grab_Cock_3D
+FOL_Aerator_Equip_C_Power_Main_2D
+FOL_Aerator_Equip_C_Power_Main_3D
+FOL_Aerator_Equip_D_PinHit_2D
+FOL_Aerator_Equip_D_PinHit_3D
+FOL_Aerator_Equip_E_PinPower_2D
+FOL_Aerator_Equip_E_PinPower_3D
+FOL_Aerator_Equip_Holster_2D
+FOL_Aerator_Equip_Holster_3D
+FOL_Aerator_Equip_Slide_2D
+FOL_Aerator_Equip_Slide_3D
+FOL_Aerator_Grab_A_2D
+FOL_Aerator_Grab_A_3D
+FOL_Aerator_Grab_B_2D
+FOL_Aerator_Grab_B_3D
+FOL_Aerator_Sight_Down_2D
+FOL_Aerator_Sight_Up_2D
+FOL_Aerator_Swish_2D
+FOL_Aerator_Swish_3D
+FOL_WEP_Aerat_Insp_A_HandGrabGun
+FOL_WEP_Aerat_Insp_B_HandGrabGun
+FOL_WEP_Aerat_Insp_C_HandGrabGun
+FOL_WEP_Aerator_Idle
+
+### VARIABLE NAMES (SFX_Weapon_Aerator.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Weapon_Aerator.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_Weapon_Badger.bnk)
+FOL_Badger_Equip_A_Grab_2D
+FOL_Badger_Equip_A_Grab_3D
+FOL_Badger_Equip_B_Holster_2D
+FOL_Badger_Equip_B_Holster_3D
+FOL_Badger_Equip_C_Swish_2D
+FOL_Badger_Equip_C_Swish_3D
+FOL_Badger_Equip_D_GunCock_B_2D
+FOL_Badger_Equip_D_GunCock_B_3D
+FOL_Badger_Equip_E_Servo_2D
+FOL_Badger_Equip_E_Servo_3D
+FOL_Badger_Equip_F_Swish_2D
+FOL_Badger_Equip_F_Swish_3D
+FOL_Badger_Equip_G_CockLoad_2D
+FOL_Badger_Equip_G_CockLoad_3D
+FOL_Badger_Equip_H_Cloth_2D
+FOL_Badger_Equip_H_Cloth_3D
+FOL_Badger_Equip_I_Sci_Charge_2D
+FOL_Badger_Equip_I_Sci_Charge_3D
+FOL_Badger_Equip_Slide_2D
+FOL_Badger_Equip_Slide_3D
+FOL_Badger_Grab_A_2D
+FOL_Badger_Grab_A_3D
+FOL_Badger_Grab_B_2D
+FOL_Badger_Grab_B_3D
+FOL_Badger_Holster_2D
+FOL_Badger_Holster_3D
+FOL_Badger_Reload_A_Eject_2D
+FOL_Badger_Reload_A_Eject_3D
+FOL_Badger_Reload_B_Eject_2D
+FOL_Badger_Reload_B_Eject_3D
+FOL_Badger_Reload_C_Clip_2D
+FOL_Badger_Reload_C_Clip_3D
+FOL_Badger_Reload_D_2D
+FOL_Badger_Reload_D_3D
+FOL_Badger_Reload_E_Reload_2D
+FOL_Badger_Reload_E_Reload_3D
+FOL_Badger_Reload_F_Reload_Mid_2D
+FOL_Badger_Reload_F_Reload_Mid_3D
+FOL_Badger_Reload_I_Sci_Charge_2D
+FOL_Badger_Reload_I_Sci_Charge_3D
+FOL_Badger_Swish_2D
+FOL_Badger_Swish_3D
+FOL_WEP_Badger_Insp_A_Grab
+FOL_WEP_Badger_Insp_B_HandGrabGun
+WEP_Badger_Fire
+
+### VARIABLE NAMES (SFX_Weapon_Badger.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Weapon_Badger.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_Weapon_BattleMedic.bnk)
+FOL_WEP_BMPistol_Equip_A_Up
+FOL_WEP_BMPistol_Equip_B_Down
+FOL_WEP_BMPistol_Inspect_A_Down
+FOL_WEP_BMPistol_Inspect_B_Throw
+FOL_WEP_BMPistol_Inspect_C_Spin
+FOL_WEP_BMPistol_Inspect_D_Spin
+FOL_WEP_BMPistol_Inspect_E_Catch
+FOL_WEP_BMPistol_Inspect_F_Turn
+FOL_WEP_BMPistol_Inspect_G_WingsOut
+FOL_WEP_BMPistol_Inspect_H_WingsIn
+FOL_WEP_BMPistol_Inspect_I_ThrowUp
+FOL_WEP_BMPistol_Inspect_J_Catch
+FOL_WEP_BMPistol_Reload_A_Up
+FOL_WEP_BMPistol_Reload_Ammo_1
+FOL_WEP_BMPistol_Reload_Ammo_2
+FOL_WEP_BMPistol_Reload_Ammo_3
+FOL_WEP_BMPistol_Reload_B_WingsOut
+FOL_WEP_BMPistol_Reload_C_PowerDown
+FOL_WEP_BMPistol_Reload_D_Flaps
+FOL_WEP_BMPistol_Reload_E_NozzleOut
+FOL_WEP_BMPistol_Reload_F_WingsIn
+FOL_WEP_BMPistol_Reload_G_Down
+FOL_WEP_Lobber_Equip_A_Down
+FOL_WEP_Lobber_Equip_B_Rustle
+FOL_WEP_Lobber_Equip_C_Raise
+FOL_WEP_Lobber_Equip_D_Land
+FOL_WEP_Lobber_Equip_First_A_Raise
+FOL_WEP_Lobber_Equip_First_B_Swish
+FOL_WEP_Lobber_Equip_First_C_Link
+FOL_WEP_Lobber_Equip_First_D_CloseStart
+FOL_WEP_Lobber_Equip_First_E_CloseEnd
+FOL_WEP_Lobber_Equip_First_F_RHandOff
+FOL_WEP_Lobber_Equip_First_G1_GrabLeft_LeadIn
+FOL_WEP_Lobber_Equip_First_G2_GrabLeft
+FOL_WEP_Lobber_Equip_First_G3_GrabRight
+FOL_WEP_Lobber_Equip_First_H_HandGrab
+FOL_WEP_Lobber_Inspect_A_Start
+FOL_WEP_Lobber_Inspect_B_Turn
+FOL_WEP_Lobber_Inspect_C_Release
+FOL_WEP_Lobber_Inspect_D_Land
+FOL_WEP_Lobber_Reload_A_SideLatch
+FOL_WEP_Lobber_Reload_B_TopLatch
+FOL_WEP_Lobber_Reload_C_SlamOut_Swish
+FOL_WEP_Lobber_Reload_D_SlamOut
+FOL_WEP_Lobber_Reload_E_SlamDown_Swish
+FOL_WEP_Lobber_Reload_F_SlamDown
+FOL_WEP_Lobber_Reload_Fire_A
+FOL_WEP_Lobber_Reload_Fire_B
+FOL_WEP_Lobber_Reload_Fire_C
+FOL_WEP_Lobber_Reload_G_Spin
+FOL_WEP_Lobber_Reload_G_SpinSwish
+FOL_WEP_Lobber_Reload_H_Latch
+FOL_WEP_Lobber_Reload_I_SnapDown
+FOL_WEP_Lobber_Reload_J_BING
+Lobber_Fire_Primary
+PROJ_Lobber_Alt_Away_3D
+PROJ_Lobber_Alt_Bounce_3D
+PROJ_Lobber_Alt_Explo_3D
+PROJ_Lobber_Alt_Growl_3D
+WEP_BMedPistol_Fire_1
+WEP_BMedPistol_Fire_2
+WEP_BMedPistol_Fire_3
+WEP_BMedPistol_Fire_4
+Wep_Lobber_By_3D
+Wep_Lobber_Explo_3D
+Wep_Lobber_Loop_3D
+
+### VARIABLE NAMES (SFX_Weapon_BattleMedic.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Weapon_BattleMedic.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_Weapon_Chain_Lightning_Gun.bnk)
+FOL_CLG_Beep_Green
+FOL_CLG_Beep_Red
+FOL_CLG_Beep_Red_Stop
+FOL_CLG_Equip_A_2D
+FOL_CLG_Equip_A_3D
+FOL_CLG_Equip_B_ChrgUpMain_2D
+FOL_CLG_Equip_B_ChrgUpMain_3D
+FOL_CLG_Equip_C_ChrgUpSwt_2D
+FOL_CLG_Equip_C_ChrgUpSwt_3D
+FOL_CLG_Reload_A_2D
+FOL_CLG_Reload_A_3D
+FOL_CLG_Reload_B_2D
+FOL_CLG_Reload_B_3D
+FOL_CLG_Reload_C_2D
+FOL_CLG_Reload_C_3D
+FOL_CLG_Reload_D_AirPress_2D
+FOL_CLG_Reload_D_AirPress_3D
+FOL_CLG_Reload_E_SwchOff_2D
+FOL_CLG_Reload_E_SwchOff_3D
+FOL_CLG_Reload_F_WarningBeep_2D
+FOL_CLG_Reload_F_WarningBeep_3D
+FOL_CLG_Reload_FinsOut_2D
+FOL_CLG_Reload_FinsOut_3D
+FOL_CLG_Reload_G_ChrgUpMain_2D
+FOL_CLG_Reload_G_ChrgUpMain_3D
+FOL_CLG_Reload_H_ChrgUpSwt_2D
+FOL_CLG_Reload_H_ChrgUpSwt_3D
+FOL_CLG_Reload_Lever_PullBack_2D
+FOL_CLG_Reload_Lever_PullBack_3D
+FOL_CLG_Reload_Lever_PushForward_2D
+FOL_CLG_Reload_Lever_PushForward_3D
+FOL_CLG_Reload_Lever_TiltRight_2D
+FOL_CLG_Reload_Lever_TiltRight_3D
+FOL_CLG_Reload_PowerUp_2D
+FOL_CLG_Reload_PowerUp_3D
+FOL_CLG_Reload_RaiseUp_2D
+FOL_CLG_Reload_RaiseUp_3D
+FOL_CLG_Reload_VentBlast_2D
+FOL_CLG_Reload_VentBlast_3D
+FOL_CLG_Reload_WindDown_2D
+FOL_CLG_Reload_WindDown_3D
+FOL_WEP_CLG_Insp_A_OpenArms
+FOL_WEP_CLG_Insp_B_SpinUp
+FOL_WEP_CLG_Insp_C_SpinUp
+FOL_WEP_CLG_Insp_D_WindDown
+FOL_WEP_CLG_Insp_E_CloseArms
+WEP_CLG_FIRED
+WEP_CLG_FIRED_LOOP
+WEP_CLG_FIRED_LOOP_OFF
+WEP_CLG_IDLE
+WEP_GLG_Equip_2D
+WEP_GLG_EQUIP_3D
+
+### VARIABLE NAMES (SFX_Weapon_Chain_Lightning_Gun.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Weapon_Chain_Lightning_Gun.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_Weapon_Gatling.bnk)
+FOL_WEP_Gat_Equip_A_Armup_2D
+FOL_WEP_Gat_Equip_A_Armup_3D
+FOL_WEP_Gat_Equip_B_GrabBarrell_2D
+FOL_WEP_Gat_Equip_B_GrabBarrell_3D
+FOL_WEP_Gat_Equip_C_Spin_2D
+FOL_WEP_Gat_Equip_C_Spin_3D
+FOL_WEP_Gat_Equip_D_Down_Barrel_2D
+FOL_WEP_Gat_Equip_D_Down_Barrel_3D
+FOL_WEP_Gat_Equip_E_Down_Cock_2D
+FOL_WEP_Gat_Equip_E_Down_Cock_3D
+FOL_WEP_Gat_Equip_Rattl_Grab_2D
+FOL_WEP_Gat_Equip_Rattl_Grab_3D
+FOL_WEP_Gat_Equip_Rattl_Raise_2D
+FOL_WEP_Gat_Equip_Rattl_Raise_3D
+FOL_WEP_Gat_Equip_Rattl_Spin_2D
+FOL_WEP_Gat_Equip_Rattl_Spin_3D
+FOL_WEP_Gat_Reload_A_HandHit_2D
+FOL_WEP_Gat_Reload_A_HandHit_3D
+FOL_WEP_Gat_Reload_B_ArmUp_2D
+FOL_WEP_Gat_Reload_B_ArmUp_3D
+FOL_WEP_Gat_Reload_C_ArmDwn_2D
+FOL_WEP_Gat_Reload_C_ArmDwn_3D
+FOL_WEP_Gat_Reload_D_ShellDrop_2D
+FOL_WEP_Gat_Reload_D_ShellDrop_3D
+FOL_WEP_Gat_Reload_E_ArmUpTwo_2D
+FOL_WEP_Gat_Reload_E_ArmUpTwo_3D
+FOL_WEP_Gat_Reload_F_ArmUpRev_2D
+FOL_WEP_Gat_Reload_F_ArmUpRev_3D
+FOL_WEP_Gat_Reload_G_EndDown_2D
+FOL_WEP_Gat_Reload_G_EndDown_3D
+FOL_WEP_Gat_Reload_H_Cock_2D
+FOL_WEP_Gat_Reload_H_Cock_3D
+FOL_WEP_Gat_Reload_I_SightUp_2D
+FOL_WEP_Gat_Reload_I_SightUp_3D
+FOL_WEP_Gat_Reload_Rattl_Grab_2D
+FOL_WEP_Gat_Reload_Rattl_Grab_3D
+FOL_WEP_Gat_Reload_Rattl_Main_2D
+FOL_WEP_Gat_Reload_Rattl_Main_3D
+FOL_WEP_Gatling_Insp_A_Armup
+FOL_WEP_Gatling_Insp_B_1stGunRattle
+FOL_WEP_Gatling_Insp_C_1stGunRattle
+FOL_WEP_Gatling_Insp_D_1stGunRattle
+FOL_WEP_Gatling_Insp_E_2ndGunRattle
+FOL_WEP_Gatling_Insp_G_HeavyRattle
+FOL_WEP_Gatling_Insp_H_HandMvmt
+FOL_WEP_Gatling_Insp_I_HandMvmtGrabJoystick
+FOL_WEP_Gatling_Insp_J_GrabJoystick
+FOL_WEP_Gatling_Insp_L_3rdGunRattle
+FOL_WEP_Gatling_Insp_M_3rdGunRattle
+FOL_WEP_Gatling_Insp_N_3rdGunRattle
+FOL_WEP_Gatling_Insp_O_EndDown
+PROJ_Impact_Gatling_Alt
+WEP_Gatling_Alt_Fire_Charge
+WEP_Gatling_Fire
+WEP_Gatling_Fire_Alt
+WEP_Gatling_Fire_End
+WEP_Gatling_Spin_Loop
+WEP_Gatling_SpinDown
+WEP_Gatling_SpinUp
+# 807804903
+# 2467923068
+# 4124193200
+
+### VARIABLE NAMES (SFX_Weapon_Gatling.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Weapon_Gatling.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_Weapon_Gunslinger.bnk)
+FOL_WEP_GS_BlinkCombo_A
+FOL_WEP_GS_BlinkCombo_B_Swish
+FOL_WEP_GS_BlinkCombo_C_Mvmnt
+FOL_WEP_GS_BlinkCombo_D_Catch
+FOL_WEP_GS_Insp_A_Mvmnt
+FOL_WEP_GS_Insp_B_Mvmnt
+FOL_WEP_GS_Insp_C_Twirl
+FOL_WEP_GS_Insp_D_TwirlSwt
+FOL_WEP_GS_Insp_E_HandGrabGun
+FOL_WEP_GS_Left_A_MetalClipOpen
+FOL_WEP_GS_Left_B_MechOpen
+FOL_WEP_GS_Left_C_BeepOpen
+FOL_WEP_GS_Left_D_PrintBack
+FOL_WEP_GS_Left_E_Sparks
+FOL_WEP_GS_Left_Equip_A_Holster
+FOL_WEP_GS_Left_Equip_B_SwishOut
+FOL_WEP_GS_Left_Equip_C_Mvmnt
+FOL_WEP_GS_Left_Equip_D_Swish
+FOL_WEP_GS_Left_Equip_E_Mvmnt
+FOL_WEP_GS_Left_Equip_F_Hit
+FOL_WEP_GS_Left_Equip_G_Mvmnt
+FOL_WEP_GS_Left_Equip_H_BeepMech
+FOL_WEP_GS_Left_Equip_I_GunHitSwish
+FOL_WEP_GS_Left_Equip_J_Mech
+FOL_WEP_GS_Left_F_PrintFWD
+FOL_WEP_GS_Left_G_BeepActivate
+FOL_WEP_GS_Left_H_SwitchClose
+FOL_WEP_GS_Left_I_MechClose
+FOL_WEP_GS_Left_J_GunClose
+FOL_WEP_GS_Right_Equip_A_Grab
+FOL_WEP_GS_Right_Equip_B_Holster
+FOL_WEP_GS_Right_Equip_C_Twirl1
+FOL_WEP_GS_Right_Equip_D_Twirl2
+FOL_WEP_GS_Right_Equip_E_Swish
+FOL_WEP_GS_Right_Equip_F_GrabPower
+FOL_WEP_GS_Right_Equip_G_Mvmnt
+FOL_WEP_GS_Right_Fire_Up
+FOL_WEP_GS_Right_RL_A_Up
+FOL_WEP_GS_Right_RL_B
+FOL_WEP_GS_Right_RL_C_Whine
+FOL_WEP_GS_Right_RL_D
+FOL_WEP_GS_Right_RL_E_Up
+FOL_WEP_GS_Right_RL_F_Servo
+FOL_WEP_GS_Right_RL_G
+FOL_WEP_GS_Right_RL_H
+FOL_WEP_GS_Right_RL_I_Ratchet
+FOL_WEP_GS_Right_RL_J_Snap
+FOL_WEP_GS_Right_RL_K
+FOL_WEP_GS_Right_RL_L_Beep
+FOL_WEP_GS_Right_RL_M_Snap
+FOL_WEP_GS_Right_RL_N
+FOL_WEP_GS_Right_RL_O_Power
+FOL_WEP_GS_Right_RL_P
+FOL_WEP_GS_Ult_Activate_A_Open
+FOL_WEP_GS_Ult_Activate_B_Slide
+FOL_WEP_GS_Ult_Activate_C_Open
+FOL_WEP_GS_Ult_Activate_D_Slide
+FOL_WEP_GS_Ult_Activate_E_Snap
+FOL_WEP_GS_Ult_Activate_F_Beep
+FOL_WEP_GS_Ult_Activate_G_Snap
+FOL_WEP_GS_Ult_Activate_H_Mech
+FOL_WEP_GS_Ult_Activate_I_Beep
+FOL_WEP_GS_Ult_End_Alpha_A_Swish
+FOL_WEP_GS_Ult_End_Alpha_B_Mvmnt
+FOL_WEP_GS_Ult_End_Alpha_D1
+FOL_WEP_GS_Ult_End_Alpha_E_Mvmnt
+FOL_WEP_GS_Ult_End_Alpha_F_Swish
+FOL_WEP_GS_Ult_End_Alpha_G_Snap
+FOL_WEP_GS_Ult_End_Alpha_I_Switch
+FOL_WEP_GS_Ult_End_Alpha_K_Mech
+FOL_WEP_GS_Ult_End_Alpha_M_PowerHit
+FOL_WEP_GS_Ult_End_Omega_A_Swish
+FOL_WEP_GS_Ult_End_Omega_C_Hit
+FOL_WEP_GS_Ult_End_Omega_D2_Swish
+FOL_WEP_GS_Ult_End_Omega_E_Rattle
+FOL_WEP_GS_Ult_End_Omega_F_Swish
+FOL_WEP_GS_Ult_End_Omega_J_GrabPowSwish
+PROJ_GS_Left_Away_3D
+PROJ_GS_Ultimate_Bys_3D
+WEP_GS_Left_Fire
+WEP_GS_Left_Fire_Beep
+WEP_GS_Left_Fire_Blink
+WEP_GS_Right_Charge_Up_1
+WEP_GS_Right_Fire
+WEP_GS_Right_Fire_Blink
+WEP_GS_Right_Fire_PowerMax
+WEP_GS_Ult_Left_Fire
+WEP_GS_Ult_Right_Fire
+# 998005243
+
+### VARIABLE NAMES (SFX_Weapon_Gunslinger.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Weapon_Gunslinger.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_Weapon_Harrier.bnk)
+FOL_WEP_ShockCroc_Equip_A_GunOut
+FOL_WEP_ShockCroc_Equip_B_GunMvmt
+FOL_WEP_ShockCroc_Equip_C_HandGrab
+FOL_WEP_ShockCroc_Equip_D_GunLock
+FOL_WEP_ShockCroc_Equip_E_GunLift
+FOL_WEP_ShockCroc_Equip_F_GunDown
+FOL_WEP_ShockCroc_Equip_G_PowerUp
+FOL_WEP_ShockCroc_Equip_H_Growl
+FOL_WEP_ShockCroc_Reload_A_GunMvmt
+FOL_WEP_ShockCroc_Reload_B_ClipOut
+FOL_WEP_ShockCroc_Reload_C_ClipIn
+FOL_WEP_ShockCroc_Reload_D_GunLock
+FOL_WEP_ShockCroc_Reload_E_PowerUp
+WEP_Impact_ShockCroc_Primary_Fire_End_Impact
+WEP_Impact_ShockCroc_Primary_Fire_Impact
+WEP_Impact_ShockCroc_Primary_Fire_Start_Impact
+WEP_Impact_ShockCroc_Secondary_Fire_Impact
+WEP_ShockCroc_Idle
+WEP_ShockCroc_Primary_Fire_End
+WEP_ShockCroc_Primary_Fire_Start
+WEP_ShockCroc_Secondary_Fire
+WEP_ShockCroc_Secondary_Fire_Away
+WEP_ShockCroc_Secondary_Fire_Debuff
+WEP_ShockCroc_Sight_Regen
+
+### VARIABLE NAMES (SFX_Weapon_Harrier.bnk)
+Perspective_Impact_Team
+Surface_Type
+
+### VALUE NAMES (SFX_Weapon_Harrier.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+M_Armor
+M_Carbon_Fiber
+M_Carpet
+M_Coal
+M_Concrete
+M_Dirt
+M_Flesh
+M_Glass
+M_Glass_Broken
+M_Glass_Unbreakable
+M_Grass
+M_Grate
+M_Gravel
+M_Metal
+M_Metal_Thin
+M_Padding
+M_Rock
+M_Rubber
+M_Shield
+M_Tile_Rooftop
+M_Unassigned
+M_Water
+M_Water_Flat
+M_Wood
+M_Wood_Deck
+VictimTP
+# 2053814127
+
+### EVENT NAMES (SFX_Weapon_Jugg_ShotG.bnk)
+FOL_WEP_Jugg_Body_Reload_A_Start
+FOL_WEP_Jugg_Body_Reload_B_Down
+FOL_WEP_Jugg_Body_Reload_C_Fwd
+FOL_WEP_Jugg_Body_Reload_D_End
+FOL_WEP_Jugg_Body_Reload_E_FwdCock
+FOL_WEP_Jugg_Body_Reload_F_Cock
+FOL_WEP_Jugg_ShotG_Equip_A
+FOL_WEP_Jugg_ShotG_Equip_B_Swish
+FOL_WEP_Jugg_ShotG_Equip_C_Grab
+FOL_WEP_Jugg_ShotG_Equip_D_Servo
+FOL_WEP_Jugg_ShotG_Equip_E_Swish
+FOL_WEP_Jugg_ShotG_Equip_F
+FOL_WEP_Jugg_ShotG_Equip_G_ServoGun
+FOL_WEP_Jugg_ShotG_Equip_H_Blade
+FOL_WEP_Jugg_ShotG_Equip_I_RattlServo_01
+FOL_WEP_Jugg_ShotG_Insp_A
+FOL_WEP_Jugg_ShotG_Insp_A_Throw
+FOL_WEP_Jugg_ShotG_Insp_B_CatchHand
+FOL_WEP_Jugg_ShotG_Insp_B_Swish
+FOL_WEP_Jugg_ShotG_Insp_C_CatchHand
+FOL_WEP_Jugg_ShotG_Insp_C_Rattle
+FOL_WEP_Jugg_ShotG_Insp_D
+FOL_WEP_Jugg_ShotG_Insp_D_Servo
+FOL_WEP_Jugg_ShotG_Insp_E_Catch
+FOL_WEP_Jugg_ShotG_Insp_E_PreThrow
+FOL_WEP_Jugg_ShotG_Insp_F_Gun_ThrowSpin
+FOL_WEP_Jugg_ShotG_Insp_F_Servo
+FOL_WEP_Jugg_ShotG_Insp_G_GunSpin
+FOL_WEP_Jugg_ShotG_Insp_G_Rattle
+FOL_WEP_Jugg_ShotG_Insp_H_GunDropSpin
+FOL_WEP_Jugg_ShotG_Insp_H_Rattle
+FOL_WEP_Jugg_ShotG_Insp_I_HandCatch
+FOL_WEP_Jugg_ShotG_Insp_J_HandCatch
+FOL_WEP_Jugg_ShotG_Insp_J_Servo
+FOL_WEP_Jugg_ShotG_Insp_K
+FOL_WEP_Jugg_ShotG_Insp_L_Spin
+FOL_WEP_Jugg_ShotG_Insp_M
+FOL_WEP_Jugg_ShotG_Insp_N_Swish
+FOL_WEP_Jugg_ShotG_Insp_O
+FOL_WEP_Jugg_ShotG_Insp_P
+FOL_WEP_Jugg_ShotG_Insp_R_Swish
+FOL_WEP_Jugg_ShotG_Insp_S
+FOL_WEP_Jugg_ShotG_Insp_T_Catch
+FOL_WEP_Jugg_ShotG_Insp_U_Catch
+FOL_WEP_Jugg_ShotG_MeleeAltFire_A_Armor
+FOL_WEP_Jugg_ShotG_MeleeAltFire_B_Armor
+FOL_WEP_Jugg_ShotG_Reload_A_Main
+FOL_WEP_Jugg_ShotG_Reload_B_Mech
+FOL_WEP_Jugg_ShotG_Reload_C_PowerUp
+FOL_WEP_Jugg_ShotG_Reload_D_Grab
+FOL_WEP_Jugg_ShotG_Reload_E_Fwd
+FOL_WEP_Jugg_ShotG_Reload_F_Back
+FOL_WEP_Jugg_ShotG_Reload_G_FwdSynth
+FOL_WEP_Jugg_ShotG_Reload_H_BackSynth
+FOL_WEP_Jugg_ShotG_ReloadFire_A_Fwd
+FOL_WEP_Jugg_ShotG_ReloadFire_B_Back
+PROJ_Impact_Jugg_MeleeAltFire
+WEP_Jugg_ShotG_Alt_Fire
+WEP_Jugg_ShotG_Fire
+WEP_Jugg_ShotG_Melee_A_Blade_Main
+WEP_Jugg_ShotG_Melee_B_Blade_Swish
+WEP_Jugg_ShotG_Melee_D_BladeBack_Servo_Midway
+WEP_Jugg_ShotG_Melee_E_Blade_Away
+WEP_Jugg_ShotG_Melee_F_BladeBack_Servo_End
+WEP_Jugg_ShotG_Sprint_Bodycheck
+# 953140
+# 3523682301
+
+### VARIABLE NAMES (SFX_Weapon_Jugg_ShotG.bnk)
+Perspective_Impact_Team
+Surface_Type
+
+### VALUE NAMES (SFX_Weapon_Jugg_ShotG.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+M_Armor
+M_Carbon_Fiber
+M_Carpet
+M_Coal
+M_Concrete
+M_Dirt
+M_Flesh
+M_Glass
+M_Glass_Broken
+M_Glass_Unbreakable
+M_Grass
+M_Grate
+M_Gravel
+M_Metal
+M_Metal_Thin
+M_Padding
+M_Rock
+M_Rubber
+M_Shield
+M_Tile_Rooftop
+M_Unassigned
+M_Water
+M_Water_Flat
+M_Wood
+M_Wood_Deck
+VictimTP
+# 2053814127
+
+### EVENT NAMES (SFX_Weapon_Recon.bnk)
+Wep_Recon_Charge_Up
+Wep_Recon_Left_Fire
+Wep_Recon_Right_Fire
+Wep_Recon_SuperFire
+# 1097815437
+# 3192591419
+
+### VARIABLE NAMES (SFX_Weapon_Recon.bnk)
+Perspective_Impact_Team
+Perspective_Team
+
+### VALUE NAMES (SFX_Weapon_Recon.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_Weapon_Romerus.bnk)
+FOL_Romerus_Equip_A_Main_2D
+FOL_Romerus_Equip_A_Main_3D
+FOL_Romerus_Equip_B_Roar_2D
+FOL_Romerus_Equip_B_Roar_3D
+FOL_Romerus_Equip_C_Charge_Equip_2D
+FOL_Romerus_Equip_C_Charge_Equip_3D
+FOL_Romerus_Equip_D_Grab_2D
+FOL_Romerus_Equip_D_Grab_3D
+FOL_Romerus_Reload_A_Main_2D
+FOL_Romerus_Reload_A_Main_3D
+FOL_Romerus_Reload_B_Swishes_2D
+FOL_Romerus_Reload_B_Swishes_3D
+FOL_Romerus_Reload_C_Roar_2D
+FOL_Romerus_Reload_C_Roar_3D
+FOL_Romerus_Reload_D_Charge_2D
+FOL_Romerus_Reload_D_Charge_3D
+FOL_WEP_Romerus_Insp_A_Swish
+FOL_WEP_Romerus_Insp_A_Swish_2
+FOL_WEP_Romerus_Insp_A_SwishSwt_1
+FOL_WEP_Romerus_Insp_A_SwishSwt_2
+FOL_WEP_Romerus_Insp_B_HandGrabGun
+FOL_WEP_Romerus_Insp_C_GrabGun
+FOL_WEP_Romerus_Insp_D_Grab
+FOL_WEP_Romerus_Insp_E_SwishThrow
+FOL_WEP_Romerus_Insp_F_Swish
+FOL_WEP_Romerus_Insp_G_HandGrabGun
+FOL_WEP_Romerus_Insp_H_GrabGun
+Romerus_Charge_Up
+Romerus_Fire_Level1
+Romerus_Fire_Level2
+Romerus_Fire_Level3
+Romerus_Proj_By
+Romerus_Projectile_Explode_3P
+WEP_Romerus_Charge_Down
+WEP_Romerus_Idle
+
+### VARIABLE NAMES (SFX_Weapon_Romerus.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Weapon_Romerus.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_Weapon_Shrapnel_RL.bnk)
+Fol_RL_Equip_First_Grab_2D
+Fol_RL_Equip_First_Grab_3D
+Fol_RL_Equip_On_Shoulder_2D
+Fol_RL_Equip_On_Shoulder_3D
+Fol_RL_Equip_Power_On_2D
+Fol_RL_Equip_Power_On_3D
+Fol_RL_Equip_Servo_Sight_Back_V_1_2D
+Fol_RL_Equip_Servo_Sight_Back_V_1_3D
+Fol_RL_Equip_Sight_Back_Impact_2D
+Fol_RL_Equip_Sight_Back_Impact_3D
+Fol_RL_Equip_Sight_Servo_Swt_2D
+Fol_RL_Equip_Sight_Servo_Swt_3D
+Fol_RL_EquipFirst_Hand_Down_Open_2D
+Fol_RL_Reload_Barell_Close_2D
+Fol_RL_Reload_Barell_Close_3D
+Fol_RL_Reload_Breech_Sight_Impact_2D
+Fol_RL_Reload_Breech_Sight_Impact_3D
+Fol_RL_Reload_Crack_Barell_End_2D
+Fol_RL_Reload_Crack_Barell_End_3D
+Fol_RL_Reload_Crack_Barell_Open_Start_2D
+Fol_RL_Reload_Crack_Barell_Open_Start_3D
+Fol_RL_Reload_Grab_Handle_2D
+Fol_RL_Reload_Grab_Handle_3D
+Fol_RL_Reload_Hand_Down_Open_2D
+Fol_RL_Reload_Hand_Down_Open_3D
+Fol_RL_Reload_Mech_Sight_Back_2D
+Fol_RL_Reload_Mech_Sight_Back_3D
+Fol_RL_Reload_Servo_Sight_Away_2D
+Fol_RL_Reload_Servo_Sight_Away_3D
+Fol_RL_Reload_Servo_Sight_Back_2D
+Fol_RL_Reload_Servo_Sight_Back_mhm
+Fol_RL_Reload_Shell_Eject_2D
+Fol_RL_Reload_Shell_Eject_3D
+Fol_RL_Reload_Shell_In_Barell_2D
+Fol_RL_Reload_Shell_In_Barell_3D
+Fol_RL_Reload_Sight_Back_Impact_2D
+Fol_RL_Reload_Sight_Back_Impact_3D
+Fol_RL_Reload_Slide_Barell_Back_2D
+Fol_RL_Reload_Slide_Barell_Back_3D
+Fol_RL_Reload_Slide_Barell_Impact_2D
+Fol_RL_Reload_Slide_Barell_Impact_3D
+FOL_WEP_RL_Shrapnel_Insp_A_HandGrabGun
+FOL_WEP_RL_Shrapnel_Insp_B_HeavyRattle
+FOL_WEP_RL_Shrapnel_Insp_C_Grab_Handle
+FOL_WEP_RL_Shrapnel_Insp_D_HandGrabGun
+FOL_WEP_RL_Shrapnel_Insp_E_Grab_Handle
+FOL_WEP_RL_Shrapnel_Insp_F_RattleSwt
+FOL_WEP_RL_Shrapnel_Insp_G_On_Shoulder
+Proj_RL_GrenLaunch_Bounce_3D
+Shrapnel_RL_Explo_3D
+Shrapnel_RL_Fired
+Shrapnel_RL_Grenade_By_3D_LOOP
+Shrapnel_RL_Grenade_By_3D_LOOP_STOP
+Shrapnel_RL_Grenade_Explo_3D
+Shrapnel_RL_Rckt_Away
+WEP_Shrap_Burst_Click_2D
+# 1547616045
+# 1789943229
+# 3401958151
+
+### VARIABLE NAMES (SFX_Weapon_Shrapnel_RL.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Weapon_Shrapnel_RL.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_Weapon_TaserMachete.bnk)
+FOL_TaserMach_Equip_A_2D
+FOL_TaserMach_Equip_A_3D
+FOL_TaserMach_Equip_B_Sheath_2D
+FOL_TaserMach_Equip_B_Sheath_3D
+FOL_TaserMach_Equip_C_Shimmr_2D
+FOL_TaserMach_Equip_C_Shimmr_3D
+FOL_TaserMach_Equip_Catch_2D
+FOL_TaserMach_Equip_Catch_3D
+FOL_TaserMach_Equip_D_SheatSwt_2D
+FOL_TaserMach_Equip_D_SheatSwt_3D
+FOL_TaserMach_Equip_E_PowerUp_2D
+FOL_TaserMach_Equip_E_PowerUp_3D
+FOL_TaserMach_Equip_F_SwishTwrl_2D
+FOL_TaserMach_Equip_F_SwishTwrl_3D
+FOL_TaserMach_Equip_Grab_2D
+FOL_TaserMach_Equip_Grab_3D
+FOL_TaserMach_Equip_SwordPull_2D
+FOL_TaserMach_Equip_SwordPull_3D
+FOL_WEP_TaserMach_Insp_A_SwishTwirl
+FOL_WEP_TaserMach_Insp_B_Grab
+FOL_WEP_TaserMach_Insp_C_Swish
+FOL_WEP_TaserMach_Insp_D_Sching
+FOL_WEP_TaserMach_Insp_E_HandMvmt
+FOL_WEP_TaserMach_Insp_F_HandMvmt
+FOL_WEP_TaserMach_Insp_G_SwishTwirl
+FOL_WEP_TaserMach_Insp_H_Grab
+WEP_TaserMach_Attack_Q
+WEP_TaserMach_Combo_A
+WEP_TaserMach_Combo_B
+WEP_TaserMach_Combo_C
+WEP_TaserMach_Idle
+WEP_TaserMach_Stab_3D
+WEP_TaserMach_Swing_A_2D
+WEP_TaserMach_Swing_A_3D
+WEP_TaserMach_Swing_B_2D
+WEP_TaserMach_Swing_B_3D
+WEP_TaserMach_Swing_C_2D
+WEP_TaserMach_Swing_C_3D
+WEP_TaserMach_Swing_Q_2D
+WEP_TaserMach_Swing_Q_3D
+WEP_TaserMach_Swing_Q_End_2D
+WEP_TaserMach_Swing_Q_End_3D
+
+### VARIABLE NAMES (SFX_Weapon_TaserMachete.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Weapon_TaserMachete.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (SFX_Weapon_Wraith.bnk)
+FOL_WEP_WraithPistol_EquipFirst_A_Cock
+FOL_WEP_WraithPistol_EquipFirst_B_Down
+FOL_WEP_WraithPistol_EquipFirst_C_Chamber
+FOL_WEP_WraithPistol_FireSlow_A
+FOL_WEP_WraithPistol_Inspect_A_Life
+FOL_WEP_WraithPistol_Inspect_B_Flip
+FOL_WEP_WraithPistol_Inspect_C_Return
+FOL_WEP_WraithPistol_Reload_A_ClipOut
+FOL_WEP_WraithPistol_Reload_B_ClipIn
+FOL_WEP_WraithPistol_Reload_C_Chamber
+FOL_WEP_WraithPistol_Reload_D_StabRest
+FOL_WEP_WraithPistol_StabRest_A
+FOL_WEP_WraithPistol_WallKick_A
+WEP_WraithKnife_Fire
+WEP_WraithKnife_Fire_Away
+WEP_WraithKnife_Idle_Shock
+WEP_WraithKnife_Stab
+WEP_WraithKnife_StabRetract
+WEP_WraithPistol_Fire
+
+### VARIABLE NAMES (SFX_Weapon_Wraith.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (SFX_Weapon_Wraith.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Abaddon.bnk)
+DIAL_VO_Abaddon_AllyObjectiveAffirm
+DIAL_VO_Abaddon_AllyObjectiveEncourage
+DIAL_VO_Abaddon_CheerAllyKill
+DIAL_VO_Abaddon_DamageGive
+DIAL_VO_Abaddon_DamageTake_Impact
+DIAL_VO_Abaddon_DamageTake_Impact_SML
+DIAL_VO_Abaddon_Death
+DIAL_VO_Abaddon_DeathFall
+DIAL_VO_Abaddon_Dmg_Electric
+DIAL_VO_Abaddon_Dmg_Enviro
+DIAL_VO_Abaddon_Dmg_Explo
+DIAL_VO_Abaddon_Gren_Throw
+DIAL_VO_Abaddon_HealthLow
+DIAL_VO_Abaddon_HealthRestored
+DIAL_VO_Abaddon_Help
+DIAL_VO_Abaddon_Kick_Kill
+DIAL_VO_Abaddon_Kicked
+DIAL_VO_Abaddon_Kicking
+DIAL_VO_Abaddon_Kill
+DIAL_VO_Abaddon_Sliced
+DIAL_VO_Abaddon_SlicedDeath
+DIAL_VO_Abaddon_Spawn
+DIAL_VO_Abaddon_Stabbed
+DIAL_VO_Abaddon_Ultimate
+DIAL_VO_Abaddon_Warn_Above
+DIAL_VO_Abaddon_Warn_Behind
+DIAL_VO_Abaddon_Warn_Below
+
+### VARIABLE NAMES (langs/DIAL_Abaddon.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Abaddon.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Aegis.bnk)
+DIAL_VO_Aegis_AllyObjectiveAffirm
+DIAL_VO_Aegis_AllyObjectiveEncourage
+DIAL_VO_Aegis_Beep_Spawn
+DIAL_VO_Aegis_CheerAllyKill
+DIAL_VO_Aegis_DamageGive
+DIAL_VO_Aegis_DamageTake_Impact
+DIAL_VO_Aegis_DamageTake_Impact_SML
+DIAL_VO_Aegis_Death
+DIAL_VO_Aegis_Death_Sliced
+DIAL_VO_Aegis_DeathFall
+DIAL_VO_Aegis_Dmg_Electric
+DIAL_VO_Aegis_Dmg_Enviro
+DIAL_VO_Aegis_Dmg_Explo
+DIAL_VO_Aegis_Dmg_Sliced
+DIAL_VO_Aegis_Gren_Throw
+DIAL_VO_Aegis_HealthLow
+DIAL_VO_Aegis_HealthRestored
+DIAL_VO_Aegis_Help
+DIAL_VO_Aegis_Kick_Kill
+DIAL_VO_Aegis_Kicked
+DIAL_VO_Aegis_Kicking
+DIAL_VO_Aegis_Kill
+DIAL_VO_Aegis_Spawn
+DIAL_VO_Aegis_Ultimate
+DIAL_VO_Aegis_Warn_Above
+DIAL_VO_Aegis_Warn_Behind
+DIAL_VO_Aegis_Warn_Below
+
+### VARIABLE NAMES (langs/DIAL_Aegis.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Aegis.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Announcer.bnk)
+DIAL_VO_Batt_AllyAquired
+DIAL_VO_Batt_Aquired
+DIAL_VO_Batt_Aquired_You
+DIAL_VO_Batt_Batt100
+DIAL_VO_Batt_Batt25
+DIAL_VO_Batt_Batt50
+DIAL_VO_Batt_Batt75
+DIAL_VO_Batt_Batt_ReturnToBase
+DIAL_VO_Batt_Batt_Unstable
+DIAL_VO_Batt_BattReset
+DIAL_VO_Batt_Charging
+DIAL_VO_Batt_Charging_Enemy
+DIAL_VO_Batt_Charging_YourTeam
+DIAL_VO_Batt_Count_Five
+DIAL_VO_Batt_Count_Four
+DIAL_VO_Batt_Count_One
+DIAL_VO_Batt_Count_Three
+DIAL_VO_Batt_Count_Two
+DIAL_VO_Batt_Dropped
+DIAL_VO_Batt_EnemyOnePoint
+DIAL_VO_Batt_EnemyPicked
+DIAL_VO_Batt_EnemyScoredFast
+DIAL_VO_Batt_EnemyStolen
+DIAL_VO_Batt_ExploSoon
+DIAL_VO_Batt_PUSpawned
+DIAL_VO_Batt_Stolen
+DIAL_VO_Batt_TakeBattery
+DIAL_VO_Batt_YouLose
+DIAL_VO_Batt_YouOnePoint
+DIAL_VO_Batt_YouScoredFast
+DIAL_VO_Batt_YouStolen
+DIAL_VO_Batt_YouStolenPrsnl
+DIAL_VO_Batt_YouWin
+DIAL_VO_Hannah_Count_54321
+DIAL_VO_Larc_IntruderAlert
+DIAL_VO_Stng_Annih
+DIAL_VO_Stng_GraveKill
+DIAL_VO_Stng_Kill_Blindfire
+DIAL_VO_Stng_KillDbl
+DIAL_VO_Stng_KillPenta
+DIAL_VO_Stng_KillQuad
+DIAL_VO_Stng_KillStreak
+DIAL_VO_Stng_KillTriple
+DIAL_VO_STNG_PrepareForCombat
+DIAL_VO_Stng_Reveng
+DIAL_VO_Turf_CapTwoZonesToWin
+DIAL_VO_Turf_CapZonesToWin
+DIAL_VO_Turf_EnemyAboutToWin
+DIAL_VO_Turf_EnemyGainedLead
+DIAL_VO_Turf_EnemyStillLead
+DIAL_VO_Turf_EnemyZoneAway_1
+DIAL_VO_Turf_EnemyZoneAway_2
+DIAL_VO_Turf_EnemyZoneAway_3
+DIAL_VO_Turf_MatchTied
+DIAL_VO_Turf_Overtime
+DIAL_VO_Turf_PointA_Warzone
+DIAL_VO_Turf_PointB_Warzone
+DIAL_VO_Turf_PointC_Warzone
+DIAL_VO_Turf_Shutout
+DIAL_VO_Turf_Tiebreaker
+DIAL_VO_Turf_YouAboutToWin
+DIAL_VO_Turf_YouGainLead
+DIAL_VO_Turf_YouLostLead
+DIAL_VO_Turf_YouStillLeading
+DIAL_VO_Turf_YouZoneAway_1
+DIAL_VO_Turf_YouZoneAway_2
+DIAL_VO_Turf_YouZoneAway_3
+DIAL_VO_Turf_ZoneContested
+DIAL_VO_Turf_ZoneReset
+DIAL_VO_Turf_ZonesOnCooldown
+# 113938787
+# 339190052
+# 380766528
+# 597336113
+# 734357504
+# 905761206
+# 934559903
+# 966234494
+# 1012198068
+# 1051608245
+# 1068089307
+# 1121174980
+# 1230046021
+# 1270961796
+# 1347117511
+# 1400581009
+# 1425091091
+# 1556021596
+# 1633068759
+# 1648560595
+# 1693680565
+# 1727560725
+# 1868126803
+# 1872014707
+# 1915735156
+# 2004364370
+# 2004364371
+# 2043483101
+# 2086378088
+# 2122376897
+# 2191761942
+# 2789088092
+# 2819880624
+# 3119883156
+# 3221095961
+# 3362580306
+# 3507406946
+# 3553052241
+# 3833429747
+# 3837086232
+# 3903023164
+# 4215537339
+
+### VARIABLE NAMES (langs/DIAL_Announcer.bnk)
+Announcer
+Profanity
+
+### VALUE NAMES (langs/DIAL_Announcer.bnk)
+Clean
+Mature
+# 4280393334
+
+### EVENT NAMES (langs/DIAL_Announcer_KillConfirmed.bnk)
+DIAL_VO_KC_1ConfirmRemain
+DIAL_VO_KC_KillConfirmed
+# 50569934
+# 492352608
+# 1295057080
+# 1498836962
+# 2109329967
+# 2695731124
+# 2941457281
+# 3072628304
+# 3077077668
+# 3106181897
+# 3570907411
+
+### VARIABLE NAMES (langs/DIAL_Announcer_KillConfirmed.bnk)
+Announcer
+
+### VALUE NAMES (langs/DIAL_Announcer_KillConfirmed.bnk)
+# 4280393334
+
+### EVENT NAMES (langs/DIAL_Announcer_LinearTutorial.bnk)
+DIAL_VO_LT_Blindfire_L001
+DIAL_VO_LT_Blindfire_L002
+DIAL_VO_LT_Blindfire_L003
+DIAL_VO_LT_BloodHounds_L001
+DIAL_VO_LT_BloodHounds_L002
+DIAL_VO_LT_BloodHounds_L003
+DIAL_VO_LT_BloodHounds_L004
+DIAL_VO_LT_BloodHounds_L005
+DIAL_VO_LT_BloodHounds_L006
+DIAL_VO_LT_CameraControls_L001
+DIAL_VO_LT_CameraControls_L002
+DIAL_VO_LT_CameraControls_L003
+DIAL_VO_LT_CameraControls_L004
+DIAL_VO_LT_Confirmations_L001
+DIAL_VO_LT_Confirmations_L002
+DIAL_VO_LT_Confirmations_L003
+DIAL_VO_LT_Confirmations_L004
+DIAL_VO_LT_Confirmations_L005
+DIAL_VO_LT_Confirmations_L006
+DIAL_VO_LT_Confirmations_L007
+DIAL_VO_LT_Confirmations_L008
+DIAL_VO_LT_ElectroMag_L001
+DIAL_VO_LT_ElectroMag_L002
+DIAL_VO_LT_ElectroMag_L003
+DIAL_VO_LT_ElectroMag_L003_Alt
+DIAL_VO_LT_EndTutorial_L001
+DIAL_VO_LT_EndTutorial_L002
+DIAL_VO_LT_EndTutorial_L002_Alt
+DIAL_VO_LT_EndTutorial_L003
+DIAL_VO_LT_GravPads_L001
+DIAL_VO_LT_GravPads_L002
+DIAL_VO_LT_HealthRegain_L001
+DIAL_VO_LT_HealthRegain_L002
+DIAL_VO_LT_HealthRegain_L003
+DIAL_VO_LT_HealthRegain_L004
+DIAL_VO_LT_HealthRegain_L004_Alt
+DIAL_VO_LT_HealthRegain_L005
+DIAL_VO_LT_HealthRegain_L006
+DIAL_VO_LT_Kick_L001
+DIAL_VO_LT_Kick_L002
+DIAL_VO_LT_MvmtSkills_L001
+DIAL_VO_LT_MvmtSkills_L002
+DIAL_VO_LT_MvmtSkills_L003
+DIAL_VO_LT_MvmtSkills_L004
+DIAL_VO_LT_PleaseProceed
+DIAL_VO_LT_PrimaryWeapon_L001
+DIAL_VO_LT_PrimaryWeapon_L002
+DIAL_VO_LT_PrimaryWeapon_L003
+DIAL_VO_LT_SecondaryWeapon_L001
+DIAL_VO_LT_SecondaryWeapon_L002
+DIAL_VO_LT_SecondaryWeapon_L003
+DIAL_VO_LT_SecondaryWeapon_L004
+DIAL_VO_LT_ShiftAbility_L001
+DIAL_VO_LT_ShiftAbility_L002
+DIAL_VO_LT_ShiftAbility_L003
+DIAL_VO_LT_ShiftAbility_L004
+DIAL_VO_LT_ShiftAbility_L005
+DIAL_VO_LT_Welcome
+DIAL_VO_LT_ZeroGArea_L001
+DIAL_VO_LT_ZeroGArea_L002
+DIAL_VO_LT_ZeroGArea_L003
+DIAL_VO_LT_ZeroGArea_L004
+DIAL_VO_LT_ZeroGArea_L005
+DIAL_VO_LT_ZeroGArea_L006
+DIAL_VO_LT_ZeroGArea_L007
+DIAL_VO_LT_ZeroGArea_L008
+DIAL_VO_LT_ZeroGArea_L009
+DIAL_VO_LT_ZeroGArea_L010
+
+### VARIABLE NAMES (langs/DIAL_Announcer_LinearTutorial.bnk)
+Announcer
+
+### VALUE NAMES (langs/DIAL_Announcer_LinearTutorial.bnk)
+# 4280393334
+
+### EVENT NAMES (langs/DIAL_Announcer_Menu.bnk)
+DIAL_CharacterSelectedCustom
+# 3120828549
+
+### VARIABLE NAMES (langs/DIAL_Announcer_Menu.bnk)
+CharacterName
+
+### VALUE NAMES (langs/DIAL_Announcer_Menu.bnk)
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Cronos
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+
+### EVENT NAMES (langs/DIAL_Announcer_Occupy.bnk)
+DIAL_VO_Occupy_MatchStart
+DIAL_VO_Occupy_NME_AboutToWin
+DIAL_VO_Occupy_NME_Dominating
+DIAL_VO_Occupy_Your_AboutToWin
+DIAL_VO_Occupy_Your_Dominating
+DIAL_VO_Occupy_ZoneContested
+DIAL_VO_Occupy_ZoneExpiring
+DIAL_VO_Occupy_ZoneHeavilyContested
+DIAL_VO_Occupy_ZoneSpawned
+# 283464537
+
+### VARIABLE NAMES (langs/DIAL_Announcer_Occupy.bnk)
+Announcer
+
+### VALUE NAMES (langs/DIAL_Announcer_Occupy.bnk)
+# 4280393334
+
+### EVENT NAMES (langs/DIAL_Announcer_Rush.bnk)
+DIAL_VO_Blitz_MatchTied
+DIAL_VO_Blitz_YouGainLead
+DIAL_VO_Blitz_YouLostLead
+DIAL_VO_Rush_10SecLeft
+DIAL_VO_Rush_2MinWarn
+DIAL_VO_Rush_30SecLeft
+DIAL_VO_Rush_Ball_Aquired
+DIAL_VO_Rush_Ball_Dropped
+DIAL_VO_Rush_Ball_Extinguished
+DIAL_VO_Rush_Ball_Incoming
+DIAL_VO_Rush_Ball_InPlay
+DIAL_VO_Rush_Ball_OnFire
+DIAL_VO_Rush_Ball_Passed
+DIAL_VO_Rush_Ball_Reset
+DIAL_VO_Rush_Ball_Taken
+DIAL_VO_Rush_Ball_TakenYou
+DIAL_VO_Rush_Rush_MatchBegin
+DIAL_VO_Rush_Scored_OnFire_Enemy
+DIAL_VO_Rush_Scored_OnFire_You
+DIAL_VO_Rush_ShotClock_10SecLeft
+DIAL_VO_Rush_ShotClock_Expired
+# 2079976504
+# 2456829924
+# 3106455854
+# 3963825235
+
+### VARIABLE NAMES (langs/DIAL_Announcer_Rush.bnk)
+Announcer
+
+### VALUE NAMES (langs/DIAL_Announcer_Rush.bnk)
+# 4280393334
+
+### EVENT NAMES (langs/DIAL_Announcer_SandboxTutorial.bnk)
+DIAL_VO_ST_TutorialComplete
+DIAL_VO_ST_TutorialStart
+
+### VARIABLE NAMES (langs/DIAL_Announcer_SandboxTutorial.bnk)
+Announcer
+
+### VALUE NAMES (langs/DIAL_Announcer_SandboxTutorial.bnk)
+# 4280393334
+
+### EVENT NAMES (langs/DIAL_Announcer_Spectator.bnk)
+DIA_FComp_BattCharging_Breaker
+DIA_FComp_BattCharging_Law
+DIA_FComp_BattPickd_Breaker
+DIA_FComp_BattPickd_Law
+DIA_FComp_BattStolen_Breaker
+DIA_FComp_BattStolen_Law
+DIA_FComp_Blitz_BallTaken_Breaker
+DIA_FComp_Blitz_BallTaken_Law
+DIA_FComp_Blitz_ScoredOnFire_Breaker
+DIA_FComp_Blitz_ScoredOnFire_Law
+DIA_FComp_Break_Lose
+DIA_FComp_Break_Scored
+DIA_FComp_Break_Win
+DIA_FComp_Law_Lose
+DIA_FComp_Law_Scored
+DIA_FComp_Law_Win
+DIA_FComp_Turf_GainLead_Breaker
+DIA_FComp_Turf_GainLead_Law
+DIA_FComp_Turf_LostLead_Breaker
+DIA_FComp_Turf_LostLead_Law
+DIA_FComp_Turf_StillLeading_Breaker
+DIA_FComp_Turf_StillLeading_Law
+DIA_FComp_Turf_ZoneAway_1_Breaker
+DIA_FComp_Turf_ZoneAway_1_Law
+DIA_FComp_Turf_ZoneAway_2_Breaker
+DIA_FComp_Turf_ZoneAway_2_Law
+DIA_FComp_Turf_ZoneAway_3_Breaker
+DIA_FComp_Turf_ZoneAway_3_Law
+DIAL_VO_Occupy_Breaker_AboutToWin
+DIAL_VO_Occupy_Breaker_Dominating
+DIAL_VO_Occupy_Law_AboutToWin
+DIAL_VO_Occupy_Law_Dominating
+DIAL_VO_TDM_Breakers_NearScoreLimit
+DIAL_VO_TDM_Law_NearScoreLimit
+DIAL_VO_Uplink_Breaker_100
+DIAL_VO_Uplink_Breaker_25
+DIAL_VO_Uplink_Breaker_50
+DIAL_VO_Uplink_Breaker_75
+DIAL_VO_Uplink_Breaker_Connected
+DIAL_VO_Uplink_Breaker_Severed
+DIAL_VO_Uplink_Breaker_Validating
+DIAL_VO_Uplink_Law_100
+DIAL_VO_Uplink_Law_25
+DIAL_VO_Uplink_Law_50
+DIAL_VO_Uplink_Law_75
+DIAL_VO_Uplink_Law_Connected
+DIAL_VO_Uplink_Law_Severed
+DIAL_VO_Uplink_Law_Validating
+DIAL_VO_Uplink_SpecMode_Taken
+# 160912641
+# 892823897
+# 1216994773
+# 1370399008
+# 1397372397
+# 1406199629
+# 1828961268
+# 2377697213
+# 2959624587
+# 2992426245
+# 3071846865
+# 3137029751
+# 3145487859
+# 3996403501
+# 4132995250
+# 4231247581
+
+### VARIABLE NAMES (langs/DIAL_Announcer_Spectator.bnk)
+Announcer
+
+### VALUE NAMES (langs/DIAL_Announcer_Spectator.bnk)
+# 4280393334
+
+### EVENT NAMES (langs/DIAL_Announcer_TDM.bnk)
+DIAL_VO_TDM_1KillsRemain
+DIAL_VO_TDM_5KillsRemain
+DIAL_VO_TDM_KillNMEToWin
+DIAL_VO_TDM_NMENearScoreLimit
+DIAL_VO_TDM_YouNearScoreLimit
+# 671020533
+# 688484442
+# 1055570828
+# 1896431365
+# 2645727188
+# 2837204675
+# 3749909348
+
+### VARIABLE NAMES (langs/DIAL_Announcer_TDM.bnk)
+Announcer
+
+### VALUE NAMES (langs/DIAL_Announcer_TDM.bnk)
+# 4280393334
+
+### EVENT NAMES (langs/DIAL_Announcer_Uplink.bnk)
+DIAL_VO_Uplink_100
+DIAL_VO_Uplink_25
+DIAL_VO_Uplink_50
+DIAL_VO_Uplink_75
+DIAL_VO_Uplink_Acquired
+DIAL_VO_Uplink_Ally_Connected
+DIAL_VO_Uplink_Aquired_You
+DIAL_VO_Uplink_AquireUplinkToWin
+DIAL_VO_Uplink_Broadcast_Ally
+DIAL_VO_Uplink_Broadcast_NME
+DIAL_VO_Uplink_Connected
+DIAL_VO_Uplink_downloading
+DIAL_VO_Uplink_Dropped
+DIAL_VO_Uplink_ExploSoon
+DIAL_VO_Uplink_Incoming
+DIAL_VO_Uplink_Initializing
+DIAL_VO_Uplink_MatchStart
+DIAL_VO_Uplink_NME_100
+DIAL_VO_Uplink_NME_25
+DIAL_VO_Uplink_NME_50
+DIAL_VO_Uplink_NME_75
+DIAL_VO_Uplink_NME_Connected
+DIAL_VO_Uplink_NME_Severed
+DIAL_VO_Uplink_NME_Validating
+DIAL_VO_Uplink_Progress_Ally_25
+DIAL_VO_Uplink_Progress_Ally_50
+DIAL_VO_Uplink_Progress_Ally_75
+DIAL_VO_Uplink_Progress_NME_25
+DIAL_VO_Uplink_Progress_NME_50
+DIAL_VO_Uplink_Progress_NME_75
+DIAL_VO_Uplink_Reset
+DIAL_VO_Uplink_ReturnToBase
+DIAL_VO_Uplink_Severed
+DIAL_VO_Uplink_Stolen
+DIAL_VO_Uplink_TimingOut
+DIAL_VO_Uplink_Unstable
+DIAL_VO_Uplink_Validating
+DIAL_VO_Uplink_Viral_Ally
+DIAL_VO_Uplink_Viral_NME
+DIAL_VO_Uplink_Your_100
+DIAL_VO_Uplink_Your_25
+DIAL_VO_Uplink_Your_50
+DIAL_VO_Uplink_Your_75
+DIAL_VO_Uplink_Your_Connected
+DIAL_VO_Uplink_Your_Severed
+DIAL_VO_Uplink_Your_Validating
+
+### VARIABLE NAMES (langs/DIAL_Announcer_Uplink.bnk)
+Announcer
+
+### VALUE NAMES (langs/DIAL_Announcer_Uplink.bnk)
+# 4280393334
+
+### EVENT NAMES (langs/DIAL_Baron.bnk)
+DIAL_VO_Baron_AllyObjectiveAffirm
+DIAL_VO_Baron_AllyObjectiveEncourage
+DIAL_VO_Baron_CheerAllyKill
+DIAL_VO_Baron_DamageGive
+DIAL_VO_Baron_DamageTake_Impact
+DIAL_VO_Baron_DamageTake_Impact_SML
+DIAL_VO_Baron_Death
+DIAL_VO_Baron_Death_Sliced
+DIAL_VO_Baron_DeathFall
+DIAL_VO_Baron_Dmg_Electric
+DIAL_VO_Baron_Dmg_Enviro
+DIAL_VO_Baron_Dmg_Explo
+DIAL_VO_Baron_DropHealthPack
+DIAL_VO_Baron_Gren_Throw
+DIAL_VO_Baron_HealthLow
+DIAL_VO_Baron_HealthRestored
+DIAL_VO_Baron_Help
+DIAL_VO_Baron_Kick_Kill
+DIAL_VO_Baron_Kicked
+DIAL_VO_Baron_Kicking
+DIAL_VO_Baron_Kill
+DIAL_VO_Baron_Sliced
+DIAL_VO_Baron_Spawn
+DIAL_VO_Baron_Stabbed
+DIAL_VO_Baron_Ultimate
+DIAL_VO_Baron_Warn_Above
+DIAL_VO_Baron_Warn_Behind
+DIAL_VO_Baron_Warn_Below
+
+### VARIABLE NAMES (langs/DIAL_Baron.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+
+### VALUE NAMES (langs/DIAL_Baron.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_BlitzBall.bnk)
+DIAL_VO_BlitzBall_AcknowledgeKill
+DIAL_VO_BlitzBall_BallDropped
+DIAL_VO_BlitzBall_BallSpawn
+DIAL_VO_BlitzBall_Dropped
+DIAL_VO_BlitzBall_OnFire
+DIAL_VO_BlitzBall_Pickup
+DIAL_VO_BlitzBall_ShotClockWarnHigh
+DIAL_VO_BlitzBall_UnderFire
+# 129962191
+# 1777875820
+# 2949231902
+
+### VARIABLE NAMES (langs/DIAL_BlitzBall.bnk)
+Perspective_Impact_Team
+
+### VALUE NAMES (langs/DIAL_BlitzBall.bnk)
+AllyTP
+AttackerTP
+EnemyTP
+FirstPerson
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Bomchelle.bnk)
+DIAL_VO_Bomchelle_AllyObjectiveAffirm
+DIAL_VO_Bomchelle_AllyObjectiveEncourage
+DIAL_VO_Bomchelle_CheerAllyKill
+DIAL_VO_Bomchelle_DamageGive
+DIAL_VO_Bomchelle_DamageTake_Elect
+DIAL_VO_Bomchelle_DamageTake_Impact_SML
+DIAL_VO_Bomchelle_DamageTake_Response
+DIAL_VO_Bomchelle_Death
+DIAL_VO_Bomchelle_Death_Sliced
+DIAL_VO_Bomchelle_DeathFall
+DIAL_VO_Bomchelle_Dmg_Enviro
+DIAL_VO_Bomchelle_Dmg_Explo
+DIAL_VO_Bomchelle_Dmg_Sliced
+DIAL_VO_Bomchelle_Dmg_Stabbed
+DIAL_VO_Bomchelle_DmgTake_ImpResp
+DIAL_VO_Bomchelle_Gren_Throw_2D
+DIAL_VO_Bomchelle_Gren_Throw_3D
+DIAL_VO_Bomchelle_HealthLow
+DIAL_VO_Bomchelle_HealthRestored
+DIAL_VO_Bomchelle_Help
+DIAL_VO_Bomchelle_Kick_Kill
+DIAL_VO_Bomchelle_Kicked
+DIAL_VO_Bomchelle_Kicking_2D
+DIAL_VO_Bomchelle_Kicking_3D
+DIAL_VO_Bomchelle_Kill
+DIAL_VO_Bomchelle_Leap_Flex_2D
+DIAL_VO_Bomchelle_Leap_Flex_3D
+DIAL_VO_Bomchelle_Leap_Hit
+DIAL_VO_Bomchelle_Leap_Jump_2D
+DIAL_VO_Bomchelle_Leap_Jump_3D
+DIAL_VO_Bomchelle_Leap_Land_2D
+DIAL_VO_Bomchelle_Leap_Land_3D
+DIAL_VO_Bomchelle_Overcharge
+DIAL_VO_Bomchelle_Overcharge_2D
+DIAL_VO_Bomchelle_Overcharge_3D
+DIAL_VO_Bomchelle_Spawn
+DIAL_VO_Bomchelle_Warn_Above
+DIAL_VO_Bomchelle_Warn_Behind
+DIAL_VO_Bomchelle_Warn_Below
+# 3913031985
+
+### VARIABLE NAMES (langs/DIAL_Bomchelle.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Bomchelle.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Breacher.bnk)
+DIAL_VO_Axel_AllyObjectiveAffirm
+DIAL_VO_Axel_AllyObjectiveEncourage
+DIAL_VO_Axel_CheerAllyKill
+DIAL_VO_Axel_Death_Sliced
+DIAL_VO_Axel_Dmg_Explo
+DIAL_VO_Axel_Help
+DIAL_VO_Axel_Sliced
+DIAL_VO_Breacher_DamageGive
+DIAL_VO_Breacher_DamageTake_Impact_SML
+DIAL_VO_Breacher_Death
+DIAL_VO_Breacher_DeathFall
+DIAL_VO_Breacher_Dmg_Enviro
+DIAL_VO_Breacher_DmgTake_Imp
+DIAL_VO_Breacher_DmgTake_ImpResp
+DIAL_VO_Breacher_DmgTake_Res
+DIAL_VO_Breacher_Gren_Throw_2D
+DIAL_VO_Breacher_Gren_Throw_3D
+DIAL_VO_Breacher_Grenade
+DIAL_VO_Breacher_HealthLow
+DIAL_VO_Breacher_HealthRestored
+DIAL_VO_Breacher_Kick_Kill
+DIAL_VO_Breacher_Kicked
+DIAL_VO_Breacher_Kicking_2D
+DIAL_VO_Breacher_Kicking_3D
+DIAL_VO_Breacher_Kill
+DIAL_VO_Breacher_Missile
+DIAL_VO_Breacher_Spawn
+DIAL_VO_Breacher_Warn_Above_3D
+DIAL_VO_Breacher_Warn_Behind_3D
+DIAL_VO_Breacher_Warn_Below_3D
+
+### VARIABLE NAMES (langs/DIAL_Breacher.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Breacher.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_CharacterSelect.bnk)
+DIAL_CharSelect_Feng_L001
+DIAL_CharSelect_Feng_L002
+DIAL_CharSelect_Feng_L003
+DIAL_VO_CharSelect_Bomchelle_L001
+DIAL_VO_CharSelect_Bomchelle_L002
+DIAL_VO_CharSelect_Bomchelle_L003
+DIAL_VO_CharSelect_Cronos_L001
+DIAL_VO_CharSelect_Cronos_L002
+DIAL_VO_CharSelect_Cronos_L004
+DIAL_VO_CharSelect_Cronos_L005
+DIAL_VO_CharSelect_Cronos_L006
+
+### EVENT NAMES (langs/DIAL_Cronos.bnk)
+DIAL_VO_Cronos_AllyObjectiveAffirm
+DIAL_VO_Cronos_AllyObjectiveEncourage
+DIAL_VO_Cronos_CheerAllyKill
+DIAL_VO_Cronos_DamageGive
+DIAL_VO_Cronos_DamageTake_Elect
+DIAL_VO_Cronos_DamageTake_Impact_SML
+DIAL_VO_Cronos_DamageTake_Response
+DIAL_VO_Cronos_Death
+DIAL_VO_Cronos_DeathFall
+DIAL_VO_Cronos_Dmg_Enviro
+DIAL_VO_Cronos_Dmg_Explo
+DIAL_VO_Cronos_Dmg_Sliced
+DIAL_VO_Cronos_Dmg_Stabbed
+DIAL_VO_Cronos_DmgTake_Imp
+DIAL_VO_Cronos_DmgTake_ImpResp
+DIAL_VO_Cronos_DmgTakeResp
+DIAL_VO_Cronos_Gren_Throw_2D
+DIAL_VO_Cronos_Gren_Throw_3D
+DIAL_VO_Cronos_HealthLow
+DIAL_VO_Cronos_HealthRestored
+DIAL_VO_Cronos_Help
+DIAL_VO_Cronos_Kick_Kill
+DIAL_VO_Cronos_Kicked
+DIAL_VO_Cronos_Kicking_2D
+DIAL_VO_Cronos_Kicking_3D
+DIAL_VO_Cronos_Kill
+DIAL_VO_Cronos_Leap_Flex_2D
+DIAL_VO_Cronos_Leap_Flex_3D
+DIAL_VO_Cronos_Leap_Hit
+DIAL_VO_Cronos_Leap_Jump_2D
+DIAL_VO_Cronos_Leap_Jump_3D
+DIAL_VO_Cronos_Leap_Land_2D
+DIAL_VO_Cronos_Leap_Land_3D
+DIAL_VO_Cronos_Overcharge
+DIAL_VO_Cronos_Overcharge_2D
+DIAL_VO_Cronos_Overcharge_3D
+DIAL_VO_Cronos_SlicedDeath
+DIAL_VO_Cronos_Spawn
+DIAL_VO_Cronos_Warn_Above
+DIAL_VO_Cronos_Warn_Behind
+DIAL_VO_Cronos_Warn_Below
+# 341189700
+# 2079504906
+
+### VARIABLE NAMES (langs/DIAL_Cronos.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Cronos.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Faust.bnk)
+DIAL_VO_Faust_AllyObjectiveAffirm
+DIAL_VO_Faust_AllyObjectiveEncourage
+DIAL_VO_Faust_CheerAllyKill
+DIAL_VO_Faust_DamageGive
+DIAL_VO_Faust_DamageTake_Impact
+DIAL_VO_Faust_DamageTake_Impact_SML
+DIAL_VO_Faust_Death
+DIAL_VO_Faust_DeathFall
+DIAL_VO_Faust_Dmg_Electric
+DIAL_VO_Faust_Dmg_Enviro
+DIAL_VO_Faust_Dmg_Explo
+DIAL_VO_Faust_Gren_Throw
+DIAL_VO_Faust_HealthLow
+DIAL_VO_Faust_HealthRestored
+DIAL_VO_Faust_Help
+DIAL_VO_Faust_Kick_Kill
+DIAL_VO_Faust_Kicked
+DIAL_VO_Faust_Kicking
+DIAL_VO_Faust_Kill
+DIAL_VO_Faust_Sliced
+DIAL_VO_Faust_SlicedDeath
+DIAL_VO_Faust_Spawn
+DIAL_VO_Faust_Stabbed
+DIAL_VO_Faust_Ultimate
+DIAL_VO_Faust_Warn_Above
+DIAL_VO_Faust_Warn_Behind
+DIAL_VO_Faust_Warn_Below
+
+### VARIABLE NAMES (langs/DIAL_Faust.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Faust.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Feng.bnk)
+DIAL_VO_Feng_AllyObjectiveAffirm
+DIAL_VO_Feng_AllyObjectiveEncourage
+DIAL_VO_Feng_CheerAllyKill
+DIAL_VO_Feng_DamageGive
+DIAL_VO_Feng_DamageTake_Impact
+DIAL_VO_Feng_DamageTake_Impact_SML
+DIAL_VO_Feng_DamageTake_Response
+DIAL_VO_Feng_Death
+DIAL_VO_Feng_DeathFall
+DIAL_VO_Feng_DeployDrone
+DIAL_VO_Feng_Dmg_Electric
+DIAL_VO_Feng_Dmg_Enviro
+DIAL_VO_Feng_Dmg_Explo
+DIAL_VO_Feng_Gren_Throw
+DIAL_VO_Feng_HealthLow
+DIAL_VO_Feng_HealthRestored
+DIAL_VO_Feng_Help
+DIAL_VO_Feng_Kick_Kill
+DIAL_VO_Feng_Kicked
+DIAL_VO_Feng_Kicking
+DIAL_VO_Feng_Kill
+DIAL_VO_Feng_Sliced
+DIAL_VO_Feng_SlicedDeath
+DIAL_VO_Feng_Spawn
+DIAL_VO_Feng_Stabbed
+DIAL_VO_Feng_Ultimate
+DIAL_VO_Feng_Warn_Above
+DIAL_VO_Feng_Warn_Behind
+DIAL_VO_Feng_Warn_Below
+
+### VARIABLE NAMES (langs/DIAL_Feng.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+
+### VALUE NAMES (langs/DIAL_Feng.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Helix.bnk)
+DIAL_VO_Helix_AllyObjectiveAffirm
+DIAL_VO_Helix_AllyObjectiveEncourage
+DIAL_VO_Helix_CheerAllyKill
+DIAL_VO_Helix_DamageGive
+DIAL_VO_Helix_DamageTake_Impact
+DIAL_VO_Helix_DamageTake_Impact_SML
+DIAL_VO_Helix_Death
+DIAL_VO_Helix_Death_Sliced
+DIAL_VO_Helix_DeathFall
+DIAL_VO_Helix_Dmg_Electric
+DIAL_VO_Helix_Dmg_Enviro
+DIAL_VO_Helix_Dmg_Explo
+DIAL_VO_Helix_Gren_Throw
+DIAL_VO_Helix_HealthLow
+DIAL_VO_Helix_HealthRestored
+DIAL_VO_Helix_Help
+DIAL_VO_Helix_Kick_Kill
+DIAL_VO_Helix_Kicked
+DIAL_VO_Helix_Kicking
+DIAL_VO_Helix_Kill
+DIAL_VO_Helix_Sliced
+DIAL_VO_Helix_Spawn
+DIAL_VO_Helix_Stabbed
+DIAL_VO_Helix_Ultimate
+DIAL_VO_Helix_Warn_Above
+DIAL_VO_Helix_Warn_Behind
+DIAL_VO_Helix_Warn_Below
+
+### VARIABLE NAMES (langs/DIAL_Helix.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Helix.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Hellion.bnk)
+DIAL_VO_Hellion_AllyObjectiveAffirm
+DIAL_VO_Hellion_AllyObjectiveEncourage
+DIAL_VO_Hellion_BladeDance
+DIAL_VO_Hellion_CheerAllyKill
+DIAL_VO_Hellion_DamageGive
+DIAL_VO_Hellion_DamageGive_Blade
+DIAL_VO_Hellion_DamageTake_Elect
+DIAL_VO_Hellion_DamageTake_Impact_SML
+DIAL_VO_Hellion_DamageTake_Response
+DIAL_VO_Hellion_DamageTake_Sliced
+DIAL_VO_Hellion_dash
+DIAL_VO_Hellion_Death
+DIAL_VO_Hellion_DeathFall
+DIAL_VO_Hellion_Dmg_Enviro
+DIAL_VO_Hellion_Dmg_Explo
+DIAL_VO_Hellion_Dmg_Sliced
+DIAL_VO_Hellion_Dmg_Stabbed
+DIAL_VO_Hellion_DmgTake_ImpResp
+DIAL_VO_Hellion_Gren_Throw_2D
+DIAL_VO_Hellion_Gren_Throw_3D
+DIAL_VO_Hellion_Grenade
+DIAL_VO_Hellion_HealthLow
+DIAL_VO_Hellion_HealthRestored
+DIAL_VO_Hellion_Help
+DIAL_VO_Hellion_Jump_Dbl_2D
+DIAL_VO_Hellion_Jump_Dbl_3D
+DIAL_VO_Hellion_Kick_Kill
+DIAL_VO_Hellion_Kicked
+DIAL_VO_Hellion_Kicking_2D
+DIAL_VO_Hellion_Kicking_3D
+DIAL_VO_Hellion_Kill
+DIAL_VO_Hellion_SlicedDeath
+DIAL_VO_Hellion_Spawn
+DIAL_VO_Hellion_SwordA
+DIAL_VO_Hellion_SwordA_2D
+DIAL_VO_Hellion_SwordA_3D
+DIAL_VO_Hellion_SwordB_2D
+DIAL_VO_Hellion_SwordB_3D
+DIAL_VO_Hellion_SwordC
+DIAL_VO_Hellion_SwordC_2D
+DIAL_VO_Hellion_SwordC_3D
+DIAL_VO_Hellion_Warn_Above
+DIAL_VO_Hellion_Warn_Behind
+DIAL_VO_Hellion_Warn_Below
+# 3922080951
+
+### VARIABLE NAMES (langs/DIAL_Hellion.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Hellion.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Kintaro.bnk)
+DIAL_VO_Kintaro_AllyObjectiveAffirm
+DIAL_VO_Kintaro_AllyObjectiveEncourage
+DIAL_VO_Kintaro_CheerAllyKill
+DIAL_VO_Kintaro_DamageGive
+DIAL_VO_Kintaro_DamageTake_Impact_SML
+DIAL_VO_Kintaro_DamageTake_Response
+DIAL_VO_Kintaro_Death
+DIAL_VO_Kintaro_DeathFall
+DIAL_VO_Kintaro_Dmg_Electric
+DIAL_VO_Kintaro_Dmg_Enviro
+DIAL_VO_Kintaro_Dmg_Explo
+DIAL_VO_Kintaro_DmgTake_ImpResp
+DIAL_VO_Kintaro_Gren_Throw_2D
+DIAL_VO_Kintaro_Gren_Throw_3D
+DIAL_VO_Kintaro_Grenade
+DIAL_VO_Kintaro_HealthLow
+DIAL_VO_Kintaro_HealthRestored
+DIAL_VO_Kintaro_Help
+DIAL_VO_Kintaro_Kick_Kill
+DIAL_VO_Kintaro_Kicked
+DIAL_VO_Kintaro_Kicking_2D
+DIAL_VO_Kintaro_Kicking_3D
+DIAL_VO_Kintaro_Kill
+DIAL_VO_Kintaro_Missile
+DIAL_VO_Kintaro_Sliced
+DIAL_VO_Kintaro_SlicedDeath
+DIAL_VO_Kintaro_Spawn
+DIAL_VO_Kintaro_Stabbed
+DIAL_VO_Kintaro_Warn_Above
+DIAL_VO_Kintaro_Warn_Behind
+DIAL_VO_Kintaro_Warn_Below
+# 3777268053
+# 4227226314
+
+### VARIABLE NAMES (langs/DIAL_Kintaro.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Kintaro.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Kitsune.bnk)
+DIAL_VO_Kitsune_AllyObjectiveAffirm
+DIAL_VO_Kitsune_AllyObjectiveEncourage
+DIAL_VO_Kitsune_BladeDance
+DIAL_VO_Kitsune_BladeDance_2D
+DIAL_VO_Kitsune_BladeDance_3D
+DIAL_VO_Kitsune_CheerAllyKill
+DIAL_VO_Kitsune_DamageGive
+DIAL_VO_Kitsune_DamageGive_Blade
+DIAL_VO_Kitsune_DamageTake_Elect
+DIAL_VO_Kitsune_DamageTake_Impact_SML
+DIAL_VO_Kitsune_dash
+DIAL_VO_Kitsune_Death
+DIAL_VO_Kitsune_DeathFall
+DIAL_VO_Kitsune_Dmg_Enviro
+DIAL_VO_Kitsune_Dmg_Explo
+DIAL_VO_Kitsune_Dmg_Stabbed
+DIAL_VO_Kitsune_DmgTake_Imp
+DIAL_VO_Kitsune_DmgTake_ImpResp
+DIAL_VO_Kitsune_DmgTake_Resp
+DIAL_VO_Kitsune_DmgTake_SlicedResp
+DIAL_VO_Kitsune_Gren_Throw_2D
+DIAL_VO_Kitsune_Gren_Throw_3D
+DIAL_VO_Kitsune_Grenade
+DIAL_VO_Kitsune_HealthLow
+DIAL_VO_Kitsune_HealthRestored
+DIAL_VO_Kitsune_Help
+DIAL_VO_Kitsune_Jump_2D
+DIAL_VO_Kitsune_Jump_3D
+DIAL_VO_Kitsune_Jump_Dbl_2D
+DIAL_VO_Kitsune_Jump_Dbl_3D
+DIAL_VO_Kitsune_Kick_Kill
+DIAL_VO_Kitsune_Kicked
+DIAL_VO_Kitsune_Kicking_2D
+DIAL_VO_Kitsune_Kicking_3D
+DIAL_VO_Kitsune_Kill
+DIAL_VO_Kitsune_SlicedDeath
+DIAL_VO_Kitsune_Spawn
+DIAL_VO_Kitsune_SwordA
+DIAL_VO_Kitsune_SwordA_2D
+DIAL_VO_Kitsune_SwordA_3D
+DIAL_VO_Kitsune_SwordB_2D
+DIAL_VO_Kitsune_SwordB_3D
+DIAL_VO_Kitsune_SwordC
+DIAL_VO_Kitsune_SwordC_2D
+DIAL_VO_Kitsune_SwordC_3D
+DIAL_VO_Kitsune_Warn_Above
+DIAL_VO_Kitsune_Warn_Behind
+DIAL_VO_Kitsune_Warn_Below
+# 1427046597
+
+### VARIABLE NAMES (langs/DIAL_Kitsune.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Kitsune.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_MVP.bnk)
+# 247191168
+# 247191170
+# 247191171
+# 457497524
+# 457497526
+# 457497527
+# 583863672
+# 583863673
+# 583863675
+# 584435360
+# 584435363
+# 918653188
+# 918653189
+# 918653190
+# 1461156468
+# 1461156469
+# 1461156470
+# 1691027252
+# 1691027254
+# 1691027255
+# 1818448681
+# 1818448682
+# 1818448683
+# 2079504904
+# 2079504905
+# 2079504906
+# 2147622028
+# 2147622029
+# 2147622031
+# 2188051396
+# 2188051397
+# 2188051398
+# 2305374180
+# 2305374181
+# 2305374182
+# 2492724941
+# 2492724942
+# 2492724943
+# 3157383069
+# 3157383070
+# 3157383071
+# 3362858120
+# 3362858121
+# 3362858123
+# 3520811981
+# 3520811982
+# 3520811983
+# 3768337188
+# 3768337190
+# 3768337191
+# 4004715069
+# 4004715070
+# 4004715071
+# 4041605308
+# 4041605309
+# 4041605310
+
+### EVENT NAMES (langs/DIAL_Maverick.bnk)
+DIAL_VO_Maverick_AllyObjectiveAffirm
+DIAL_VO_Maverick_AllyObjectiveEncourage
+DIAL_VO_Maverick_CheerAllyKill
+DIAL_VO_Maverick_DamageGive
+DIAL_VO_Maverick_DamageTake_Elect
+DIAL_VO_Maverick_DamageTake_Impact_SML
+DIAL_VO_Maverick_DamageTake_Stabbed
+DIAL_VO_Maverick_Death
+DIAL_VO_Maverick_Death_Sliced
+DIAL_VO_Maverick_DeathFall
+DIAL_VO_Maverick_Dmg_Enviro
+DIAL_VO_Maverick_Dmg_Explo
+DIAL_VO_Maverick_DmgTake_Imp
+DIAL_VO_Maverick_DmgTake_ImpResp
+DIAL_VO_Maverick_DmgTake_Resp
+DIAL_VO_Maverick_DmgTake_SlicedResp
+DIAL_VO_Maverick_Gren_Throw_2D
+DIAL_VO_Maverick_Gren_Throw_3D
+DIAL_VO_Maverick_Grenade
+DIAL_VO_Maverick_HealthLow
+DIAL_VO_Maverick_HealthRestored
+DIAL_VO_Maverick_Help
+DIAL_VO_Maverick_Kick_Kill
+DIAL_VO_Maverick_Kicked
+DIAL_VO_Maverick_Kicking_2D
+DIAL_VO_Maverick_Kicking_3D
+DIAL_VO_Maverick_Kill
+DIAL_VO_Maverick_Spawn
+DIAL_VO_Maverick_Starfall
+DIAL_VO_Maverick_Warn_Above
+DIAL_VO_Maverick_Warn_Behind
+DIAL_VO_Maverick_Warn_Below
+
+### VARIABLE NAMES (langs/DIAL_Maverick.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Maverick.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Nash.bnk)
+DIAL_VO_Nash_AllyObjectiveAffirm
+DIAL_VO_Nash_AllyObjectiveEncourage
+DIAL_VO_Nash_CheerAllyKill
+DIAL_VO_Nash_DamageGive
+DIAL_VO_Nash_DamageTake_Elect
+DIAL_VO_Nash_DamageTake_Impact
+DIAL_VO_Nash_DamageTake_Impact_SML
+DIAL_VO_Nash_Death
+DIAL_VO_Nash_DeathFall
+DIAL_VO_Nash_Dmg_Enviro
+DIAL_VO_Nash_Dmg_Explo
+DIAL_VO_Nash_Dmg_Sliced
+DIAL_VO_Nash_Dmg_Stabbed
+DIAL_VO_Nash_Gren_Throw
+DIAL_VO_Nash_HealthLow
+DIAL_VO_Nash_HealthRestored
+DIAL_VO_Nash_Help
+DIAL_VO_Nash_Kick_Kill
+DIAL_VO_Nash_Kicked
+DIAL_VO_Nash_Kicking
+DIAL_VO_Nash_Kill
+DIAL_VO_Nash_SlicedDeath
+DIAL_VO_Nash_Spawn
+DIAL_VO_Nash_Ultimate
+DIAL_VO_Nash_Warn_Above
+DIAL_VO_Nash_Warn_Behind
+DIAL_VO_Nash_Warn_Below
+
+### VARIABLE NAMES (langs/DIAL_Nash.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Nash.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Sunshine.bnk)
+DIAL_VO_Sunshine_AllyObjectiveAffirm
+DIAL_VO_Sunshine_AllyObjectiveEncourage
+DIAL_VO_Sunshine_CheerAllyKill
+DIAL_VO_Sunshine_DamageGive
+DIAL_VO_Sunshine_DamageTake_Elect
+DIAL_VO_Sunshine_DamageTake_Impact
+DIAL_VO_Sunshine_DamageTake_Impact_SML
+DIAL_VO_Sunshine_DamageTake_Sliced
+DIAL_VO_Sunshine_DamageTake_Stabbed
+DIAL_VO_Sunshine_Death
+DIAL_VO_Sunshine_Death_Sliced
+DIAL_VO_Sunshine_DeathFall
+DIAL_VO_Sunshine_Dmg_Enviro
+DIAL_VO_Sunshine_Dmg_Explo
+DIAL_VO_Sunshine_DropHealthPack
+DIAL_VO_Sunshine_Gren_Throw
+DIAL_VO_Sunshine_HealthLow
+DIAL_VO_Sunshine_HealthRestored
+DIAL_VO_Sunshine_Help
+DIAL_VO_Sunshine_Kick_Kill
+DIAL_VO_Sunshine_Kicked
+DIAL_VO_Sunshine_Kicking
+DIAL_VO_Sunshine_Kill
+DIAL_VO_Sunshine_Spawn
+DIAL_VO_Sunshine_Ultimate
+DIAL_VO_Sunshine_Warn_Above
+DIAL_VO_Sunshine_Warn_Behind
+DIAL_VO_Sunshine_Warn_Below
+
+### VARIABLE NAMES (langs/DIAL_Sunshine.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Sunshine.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Tokki.bnk)
+DIAL_VO_Tokki_AllyObjectiveAffirm
+DIAL_VO_Tokki_AllyObjectiveEncourage
+DIAL_VO_Tokki_CheerAllyKill
+DIAL_VO_Tokki_DamageGive
+DIAL_VO_Tokki_DamageTake_Elect
+DIAL_VO_Tokki_DamageTake_Impact
+DIAL_VO_Tokki_DamageTake_Impact_SML
+DIAL_VO_Tokki_DamageTake_Sliced
+DIAL_VO_Tokki_Death
+DIAL_VO_Tokki_DeathFall
+DIAL_VO_Tokki_DeployDrone
+DIAL_VO_Tokki_Dmg_Enviro
+DIAL_VO_Tokki_Dmg_Explo
+DIAL_VO_Tokki_Dmg_Stabbed
+DIAL_VO_Tokki_Gren_Throw
+DIAL_VO_Tokki_HealthLow
+DIAL_VO_Tokki_HealthRestored
+DIAL_VO_Tokki_Help
+DIAL_VO_Tokki_Kick_Kill
+DIAL_VO_Tokki_Kicked
+DIAL_VO_Tokki_Kicking
+DIAL_VO_Tokki_Kill
+DIAL_VO_Tokki_SlicedDeath
+DIAL_VO_Tokki_Spawn
+DIAL_VO_Tokki_Ultimate
+DIAL_VO_Tokki_Warn_Above
+DIAL_VO_Tokki_Warn_Behind
+DIAL_VO_Tokki_Warn_Below
+
+### VARIABLE NAMES (langs/DIAL_Tokki.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Tokki.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Toska.bnk)
+DIAL_VO_Toska_AllyObjectiveAffirm
+DIAL_VO_Toska_AllyObjectiveEncourage
+DIAL_VO_Toska_CheerAllyKill
+DIAL_VO_Toska_DamageGive
+DIAL_VO_Toska_DamageTake_Elect
+DIAL_VO_Toska_DamageTake_Impact_SML
+DIAL_VO_Toska_DamageTake_Response
+DIAL_VO_Toska_Death
+DIAL_VO_Toska_Death_Sliced
+DIAL_VO_Toska_DeathFall
+DIAL_VO_Toska_Dmg_Enviro
+DIAL_VO_Toska_Dmg_Explo
+DIAL_VO_Toska_Dmg_Sliced
+DIAL_VO_Toska_Dmg_Stabbed
+DIAL_VO_Toska_DmgTake_ImpResp
+DIAL_VO_Toska_Gren_Throw_2D
+DIAL_VO_Toska_Gren_Throw_3D
+DIAL_VO_Toska_Grenade
+DIAL_VO_Toska_HealthLow
+DIAL_VO_Toska_HealthRestored
+DIAL_VO_Toska_Help
+DIAL_VO_Toska_Kick_Kill
+DIAL_VO_Toska_Kicked
+DIAL_VO_Toska_Kicking_2D
+DIAL_VO_Toska_Kicking_3D
+DIAL_VO_Toska_Kill
+DIAL_VO_Toska_Spawn
+DIAL_VO_Toska_Starfall
+DIAL_VO_Toska_Warn_Above_3D
+DIAL_VO_Toska_Warn_Behind_3D
+DIAL_VO_Toska_Warn_Below_3D
+# 220988995
+# 2142107942
+
+### VARIABLE NAMES (langs/DIAL_Toska.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Toska.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/DIAL_Zurvan.bnk)
+DIAL_VO_Zurvan_AllyObjectiveAffirm
+DIAL_VO_Zurvan_AllyObjectiveEncourage
+DIAL_VO_Zurvan_CheerAllyKill
+DIAL_VO_Zurvan_DamageGive
+DIAL_VO_Zurvan_DamageTake_Impact
+DIAL_VO_Zurvan_DamageTake_Impact_SML
+DIAL_VO_Zurvan_Death
+DIAL_VO_Zurvan_DeathFall
+DIAL_VO_Zurvan_Dmg_Electric
+DIAL_VO_Zurvan_Dmg_Enviro
+DIAL_VO_Zurvan_Dmg_Explo
+DIAL_VO_Zurvan_Gren_Throw
+DIAL_VO_Zurvan_HealthLow
+DIAL_VO_Zurvan_HealthRestored
+DIAL_VO_Zurvan_Help
+DIAL_VO_Zurvan_Kick_Kill
+DIAL_VO_Zurvan_Kicked
+DIAL_VO_Zurvan_Kicking
+DIAL_VO_Zurvan_Kill
+DIAL_VO_Zurvan_Sliced
+DIAL_VO_Zurvan_SlicedDeath
+DIAL_VO_Zurvan_Spawn
+DIAL_VO_Zurvan_Stabbed
+DIAL_VO_Zurvan_Ultimate
+DIAL_VO_Zurvan_Warn_Above
+DIAL_VO_Zurvan_Warn_Behind
+DIAL_VO_Zurvan_Warn_Below
+
+### VARIABLE NAMES (langs/DIAL_Zurvan.bnk)
+CharacterNameHurt
+Perspective_Impact_Team
+Profanity
+
+### VALUE NAMES (langs/DIAL_Zurvan.bnk)
+AllyTP
+AttackerTP
+BattleMedicBreakers
+BattleMedicLaw
+Breacher
+Clean
+Cronos
+EnemyTP
+FirstPerson
+generic
+JuggernautBreaker
+JuggernautLaw
+Kitsune
+LaserShoesBreaker
+LaserShoesLaw
+LiferSkirmisher
+Mature
+Maverick
+ReconBreaker
+ReconLaw
+ShuraGunner
+TascTitan
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+
+### EVENT NAMES (langs/SFX_AMB_Multimap_CityScape.bnk)
+AMB_Advert_Boardwalk_Loop_01_3D
+AMB_Advert_Boardwalk_Loop_01_Station_3D
+AMB_Advert_Music_WFL
+AMB_Advert_Music_WFL_Station
+AMB_PA_EscalatorClosed_3D
+AMB_PA_TASC_CombatOpsInProgress_3D
+AMB_PA_TASC_CombatOpsInProgress_Station_3D
+AMB_Prom_CityScape
+AMB_Prom_Fart_3D
+AMB_Prom_Music_InteriorArea
+AMB_Station_CityScape
+AMB_Station_CityScape_Lopass
+AMB_Station_Fart_3D
+AMB_Station_Music_InteriorArea
+AMB_Station_PA_EscalatorClosed_3D
+AMB_Tutorial_Music_InteriorArea
+# 618778320
+# 1784007318
+
+### EVENT NAMES (langs/SFX_Debug.bnk)
+DIAL_Debug_Profanity_Clean
+DIAL_Debug_Profanity_Mature
+SFX_Debug_CharacterType
+SFX_Debug_DamageType
+SFX_Debug_FrontEnd
+SFX_Debug_Perspective_Impact
+SFX_Debug_Perspective_Impact_Team
+SFX_Debug_Perspective_Team
+SFX_Debug_PlayerSide
+# 623388438
+# 684643118
+# 2376403008
+# 3266185982
+
+### VARIABLE NAMES (langs/SFX_Debug.bnk)
+Character_Type
+CharacterNameHurt
+Impact_Damage_Type
+Perspective
+Perspective_Impact
+Perspective_Impact_Team
+Perspective_Team
+PlayerSide
+Profanity
+Surface_Type
+
+### VALUE NAMES (langs/SFX_Debug.bnk)
+Aerator
+AllyTP
+Alpha
+AttackerTP
+Badger
+BattleMedicBreakers
+BattleMedicLaw
+Blinding_Gravity
+Breacher
+Breakers
+Bullfrog
+Chain_Lightning
+Clean
+Cluster_Grenade
+Cronos
+Electricity
+EMP_Grenade
+EnemyTP
+Environment
+equalizer
+ExplodingKnife
+Explosion
+FirstPerson
+Flesh
+Gatling
+Gatling_Alt_Fire
+generic
+Grapple_Sword
+Impale
+Juggernaut_Stomp
+JuggernautBreaker
+JuggernautLaw
+Kick
+Kitsune
+Knife
+LaserKick
+LaserPrimary
+LaserShoes
+LaserShoesBreaker
+LaserShoesLaw
+LaserUnibeam
+Law
+Leap
+LiferSkirmisher
+Lobber
+Lobber_Bounce
+M_Armor
+M_Carbon_Fiber
+M_Carpet
+M_Coal
+M_Concrete
+M_Dirt
+M_Flesh
+M_Glass
+M_Glass_Broken
+M_Glass_Unbreakable
+M_Grass
+M_Grate
+M_Gravel
+M_Metal
+M_Metal_Thin
+M_Padding
+M_Rock
+M_Rubber
+M_Shield
+M_Tile_Rooftop
+M_Unassigned
+M_Water
+M_Water_Flat
+M_Wood
+M_Wood_Deck
+Mature
+Maverick
+Medic_Pistol
+Metal
+Omega
+Overcharge
+ReconBreaker
+ReconLaw
+Romerus
+Romerus_Charged
+ShadowForm
+Shooter
+Shrapnel_Launcher
+ShuraGunner
+SlideKick
+Starfall
+Stinger
+SwordSlice
+SwordStab
+TascTitan
+ThirdPerson
+TimeCopBreaker
+TimeCopLaw
+ValkAssassin
+VictimTP
+WraithLunge
+WraithPistol
+# 2105053652
+# 1276689995
+# 3509482965
+# 4281679929
+# 2813661940
+# 2053814127
+
+#2941457281  : Kitsune_Kill0
+#1276689995  : Drunk_Missiles
+#4281679929  : Tank_Shotty
+#2053814127  : M_Rock_Orange
+#3333419882  : WhooshIn_ABL_Wraith
+#181736745   : Skull_Reactor_Console
+#343114792   : FOL_CHAR_Brute_Grenade_Exit
+#2977147943  : Badger_Reload_E_Reload_Expired_2D
+#2960370388  : Badger_Reload_E_Reload_Expired_3D
+#3031264308  : FOL_GS_Lose_N
+#1709178116  : FOL_WEP_ShotG_U_DIA
+#2960242148  : GS_Servo_PleaseProceed
+#3254882246  : MUS_BatteryGrab
+#4290464236  : UI_ArmorSlide_DroneIn
+#725548514   : Station_Ads_Dormant
+#3413123467  : Reactor_ReactorCore_Small
+
+#3443468857  : S_Gravity_Blue_SeedInverted_3D
