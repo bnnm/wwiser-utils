@@ -4367,6 +4367,7 @@ mus_menu
 musical
 musical_mono
 No_Output
+npc_foley
 other_rumble
 player_wpn_shot
 rev_ext_sys_dp_ny_alley_01
@@ -4705,7 +4706,6 @@ ws_int_reverb
 # 1885422322
 # 1981150904
 # 1567197556
-# 2585093610
 # 3722158692
 # 489733716
 # 1397578869
@@ -4741,6 +4741,7 @@ ws_int_reverb
 ### SFX NAMES (Init.bnk)
 All_Buttons_IN
 CONTROLLER_SPEAKER
+ducking_dialog
 Large_Church1
 meter_bullet_impacts
 No_Output
@@ -4757,7 +4758,6 @@ rev_sys_dp_int_room_cold_mid_01
 rev_sys_dp_int_room_cold_small_01
 system
 Wwise_Motion
-# 7649077
 # 14133728
 # 48988309
 # 134401392
@@ -4837,9 +4837,9 @@ character_space_rain_amount
 character_space_wind_amount
 cine_active
 coffee_world_music_volume
-COLLISION_SPEED
+collision_speed
 combat_intensity
-COMBAT_STATE
+combat_state
 CONTROLLER_SPEAKER
 darkness_bounds
 detection_amount
@@ -5320,7 +5320,7 @@ character_speed
 cinematic
 cinematic_state
 combat_qte
-COMBAT_STATE
+combat_state
 CONTROLLER_TYPE
 dark_presence_spawned
 dark_presence_state
@@ -6630,6 +6630,7 @@ stop_template
 
 ### SFX NAMES (Global.bnk)
 All_Buttons_IN
+ducking_dialog
 Fear_no_Evil
 Few_Even_Notches
 rev_int_sys_dp_studio_corridor_01
@@ -6643,7 +6644,6 @@ rev_sys_dp_int_room_cold_large_01
 rev_sys_dp_int_room_cold_mid_01
 rev_sys_dp_int_room_cold_small_01
 Secret_message_Distant
-# 7649077
 # 14133728
 # 48988309
 # 134401392
@@ -6872,7 +6872,7 @@ active_mission
 binder_state
 cinematic_state
 combat_qte
-COMBAT_STATE
+combat_state
 CONTROLLER_TYPE
 echo_scene
 flashlight
@@ -6911,7 +6911,7 @@ wlz
 _01
 _02
 _03
-Alerted
+alerted
 ambient
 asphalt
 binder
@@ -8261,11 +8261,11 @@ meter_darkness_barrier_wave_01
 object_current_distance_to_listener
 
 ### VARIABLE NAMES (play_darkness_barrier_idle_loop.bnk)
-COMBAT_STATE
+combat_state
 player_mode_state
 
 ### VALUE NAMES (play_darkness_barrier_idle_loop.bnk)
-Alerted
+alerted
 engaged
 pursuit
 
@@ -37018,12 +37018,12 @@ metal_ticket_gate_01
 nothing
 wood_chainlink_01
 wood_fence_gate_01
+wood_fire_door_01
 wood_generic_01
 wood_plank_01
 wood_sauna_01
 wood_shack_01
 wood_solid_01
-# 1621729350
 
 ### EVENT NAMES (play_sys_door_body_sliding_closed_stop.bnk)
 play_sys_door_body_sliding_closed_stop
@@ -37051,12 +37051,12 @@ metal_ticket_gate_01
 nothing
 wood_chainlink_01
 wood_fence_gate_01
+wood_fire_door_01
 wood_generic_01
 wood_plank_01
 wood_sauna_01
 wood_shack_01
 wood_solid_01
-# 1621729350
 
 ### EVENT NAMES (play_sys_door_body_sliding_open_start.bnk)
 play_sys_door_body_sliding_open_start
@@ -37084,12 +37084,12 @@ metal_ticket_gate_01
 nothing
 wood_chainlink_01
 wood_fence_gate_01
+wood_fire_door_01
 wood_generic_01
 wood_plank_01
 wood_sauna_01
 wood_shack_01
 wood_solid_01
-# 1621729350
 
 ### EVENT NAMES (play_sys_door_body_sliding_open_stop.bnk)
 play_sys_door_body_sliding_open_stop
@@ -37117,12 +37117,12 @@ metal_ticket_gate_01
 nothing
 wood_chainlink_01
 wood_fence_gate_01
+wood_fire_door_01
 wood_generic_01
 wood_plank_01
 wood_sauna_01
 wood_shack_01
 wood_solid_01
-# 1621729350
 
 ### EVENT NAMES (play_sys_door_body_swing_close.bnk)
 play_sys_door_body_swing_close
@@ -37150,12 +37150,12 @@ metal_ticket_gate_01
 nothing
 wood_chainlink_01
 wood_fence_gate_01
+wood_fire_door_01
 wood_generic_01
 wood_plank_01
 wood_sauna_01
 wood_shack_01
 wood_solid_01
-# 1621729350
 
 ### EVENT NAMES (play_sys_door_body_swing_open.bnk)
 play_sys_door_body_swing_open
@@ -37189,12 +37189,12 @@ null
 shallow
 wood_chainlink_01
 wood_fence_gate_01
+wood_fire_door_01
 wood_generic_01
 wood_plank_01
 wood_sauna_01
 wood_shack_01
 wood_solid_01
-# 1621729350
 
 ### EVENT NAMES (play_sys_door_body_swing_open_complete.bnk)
 play_sys_door_body_swing_open_complete
@@ -37223,12 +37223,12 @@ metal_ticket_gate_01
 nothing
 wood_chainlink_01
 wood_fence_gate_01
+wood_fire_door_01
 wood_generic_01
 wood_plank_01
 wood_sauna_01
 wood_shack_01
 wood_solid_01
-# 1621729350
 
 ### EVENT NAMES (play_sys_door_body_swing_open_slam.bnk)
 play_sys_door_body_swing_open_slam
@@ -37262,12 +37262,12 @@ null
 shallow
 wood_chainlink_01
 wood_fence_gate_01
+wood_fire_door_01
 wood_generic_01
 wood_plank_01
 wood_sauna_01
 wood_shack_01
 wood_solid_01
-# 1621729350
 
 ### EVENT NAMES (play_sys_door_body_swing_start_close.bnk)
 play_sys_door_body_swing_start_close
@@ -37301,12 +37301,12 @@ null
 shallow
 wood_chainlink_01
 wood_fence_gate_01
+wood_fire_door_01
 wood_generic_01
 wood_plank_01
 wood_sauna_01
 wood_shack_01
 wood_solid_01
-# 1621729350
 
 ### EVENT NAMES (play_sys_door_electronic_lock_locking_01.bnk)
 play_sys_door_electronic_lock_locking_01
@@ -37363,6 +37363,7 @@ nothing
 nothing_with_electronic_lock_01
 wood_chainlink_01
 wood_fence_gate_01
+wood_fire_door_01
 wood_generic_01
 wood_generic_knob_01
 wood_generic_knob_02
@@ -37375,7 +37376,6 @@ wood_plank_01
 wood_sauna_01
 wood_shack_01
 wood_solid_01
-# 1621729350
 
 ### EVENT NAMES (play_sys_door_handle_keyfob_beep_01.bnk)
 play_sys_door_handle_keyfob_beep_01
