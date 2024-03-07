@@ -45,8 +45,8 @@ Quick guide to (possibly) get extra names:
   - this creates a "clean" `wwnames-banks-(date).txt` with actually used names
   - open said file, look for clearly wrong names (like *x8273s* or *aXNuy*) and remove them, or change lower/uppercase in some cases (like `wIN` to `win` and such)
   - now rename `wwnames-bank-(date).txt` to `wwnames.txt` and use wwiser with that instead of the original file, since you just cleaned it up
+- you may be missing many names: now you want to use `words.py` to extract all juice (see later)
 - you may also add missing names manually (sometimes are easy to guess) or use `fnv.exe`/`words.py` helpers
-  - see guide below about tips to squeeze out more names, particularly `words.py` info if you are an advanced user
 - be cool and post this list somewhere or include `wwnames.txt` with your rip for everybody to enjoy
 - also check if your game is here: https://github.com/bnnm/wwiser-utils/wwnames/
 
@@ -253,7 +253,8 @@ Typical use of *words.py*:
   - re-create with `wwiser.pyz *.bnk -sl` (or `_wwnames-fixer.py`)
   -  move on
 
-For forget using *pypy* (https://www.pypy.org/) to run *words.py* for a nice speed up.
+#### Quick guide commands
+Don't forget using *pypy* (https://www.pypy.org/) to run *words.py* for a nice speed up.
 
 Examples of commands to try (will remove empty output files), theory is explained later:
 ```
@@ -294,7 +295,7 @@ words.py -c 2 -de -mc 70 -sf -ho -jb -o words2_all-jb.txt
 
 
 ## advanced commands
-# generally too slow and too many false positives if your wwnames/ww.txt names are >1MB,
+# generally slow and too many false positives if your wwnames/ww.txt names are >1MB,
 # but very useful with the right txt. Remove less useful names and keep it <300kb for best results.
 
 # combos
@@ -317,6 +318,10 @@ words.py -de -o words_fa-jb-sc.txt -zd -fa -jb -sc
 
 ## extra commands
 # more complex variations of the advanced commands, generally make too many false positives, but still useful sometimes
+
+# use all existing wwnames as base (set to the proper path)
+# slow but good chance you'll get useful stuff since devs are previsible and reuse names
+words.py -de -o words_all.txt -i ../wwiser-utils/wwnames/*.txt
 
 # very slow but creates words in a way that still gets good results
 words.py -de -o words_faw.txt -zd -fa -de
