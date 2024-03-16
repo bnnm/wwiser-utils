@@ -170,15 +170,24 @@ def fix_wwnames(inname):
                         hashed[sid].append(hashname)
 
 
+    ko_all = False
     section = False
     clines = []
     for bline in blines:
         if bline.startswith('### '):
             section = True
+
+        if bline.startswith('#@ko-all'):
+            ko_all = True
+            continue
     
-        if bline.lower() in koed:
-            sid = get_fnv(bline)
-            bline = "# %s" % (sid)
+        if ko_all and bline and not bline.startswith('#'):
+            hashnames = bline.split(' ')
+            sid = get_fnv(hashnames[0])
+            if section:
+                bline = "# %s" % (sid)
+            else:
+                continue
 
         if bline and bline.startswith('#ko') and ':' in bline and FULL_CLEAN:
             _, hashname = bline.split(':')
