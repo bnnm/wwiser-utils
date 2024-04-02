@@ -23,11 +23,12 @@ def main():
     glob_folders = set() #set(['wem', 'sound', 'audio'])
     # fixed list since folders may have more extensions than those used in .txtp
     glob_exts = ['wem', 'xma', 'ogg', 'wav', 'logg', 'lwav'] #, 'bnk', 'txt', 'xml'
+    valid_exts = ['.wem', '.bnk', '.xma', '.ogg', '.wav', '.logg', '.lwav']
     # base txtps
     glob_txtps = '*.txtp'
 
     # catch folder-like parts followed by name + extension
-    pattern = re.compile(r"^[ ]*[?]*[ ]*([0-9a-zA-Z_\- \\/\.]*[0-9a-zA-Z_]+\.[0-9a-zA-Z_]+).*$")
+    pattern = re.compile(r"^[ ]*[?]*[ ]*([0-9a-zA-Z_()\[\]#\- \\/\.]*[0-9a-zA-Z_]+\.[a-zA-Z]{3,4}).*$")
 
 
     # wems in txtp
@@ -36,26 +37,30 @@ def main():
     for txtp in txtps:
         with open(txtp, 'r', encoding='utf-8-sig') as infile:
             for line in infile:
-                if line.startswith('#'):
-                    continue
                 match = pattern.match(line)
-                if match:
-                    name, = match.groups()
-                    file = os.path.normpath(name)
-                    file = os.path.normcase(file)
-                    path = os.path.dirname(file)
-                    files_used.add(file)
-                    glob_folders.add(path)
+                if not match:
+                    continue
 
-                    if targets:
-                        basename = os.path.basename(name.lower())
-                        basename = os.path.splitext(basename)[0]
-                        if (txtp,basename) in targets_done:
-                            continue
-                        targets_done[(txtp,basename)] = True
-                        for target in targets:
-                            if basename.endswith(target):
-                                print("file %s in %s" % (target, txtp))
+                name, = match.groups()
+                vals = os.path.splitext(name)
+                if len(vals) != 2 or vals[1].lower() not in valid_exts:
+                    continue
+
+                file = os.path.normpath(name)
+                file = os.path.normcase(file)
+                path = os.path.dirname(file)
+                files_used.add(file)
+                glob_folders.add(path)
+                
+                if targets:
+                    basename = os.path.basename(name.lower())
+                    basename = os.path.splitext(basename)[0]
+                    if (txtp,basename) in targets_done:
+                        continue
+                    targets_done[(txtp,basename)] = True
+                    for target in targets:
+                        if basename.endswith(target):
+                            print("file %s in %s" % (target, txtp))
 
     if targets:
         print("done")
