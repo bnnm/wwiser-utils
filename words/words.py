@@ -1038,7 +1038,7 @@ class Words(object):
         inname = self._args.output_file
 
         # separate fnv + hash(es)
-        items = {}
+        names = {}
         try:
             with open(inname, 'r') as f:
                 for line in f:
@@ -1051,32 +1051,33 @@ class Words(object):
                     fnv, name = line.split(':')
                     fnv = int(fnv.strip())
                     name = name.strip()
-                    if fnv not in items:
-                        items[fnv] = []
-                    items[fnv].append(name)
+                    if fnv not in names:
+                        names[fnv] = []
+                    names[fnv].append(name)
         except FileNotFoundError:
             return
 
         if self._args.results_contexts:
             remove_repeats = True
         
-            done = {}
+            done = {} #fnv set
             lines = []
-            for ctx in self._contexts.keys():
+            for section in self._contexts.keys():
                 # note that the same key may be in multiple contexts (ignored by default)
-                subitems = {}
 
-                for key in self._contexts[ctx]:
-                    if key in done and done[key] != ctx and remove_repeats:
+                # mark names per section and repeats
+                subitems = {}
+                for fnv in self._contexts[section]:
+                    if fnv in done and done[fnv] != section and remove_repeats:
                         continue
-                    if key in items:
-                        done[key] = ctx
-                        subitems[key] = items[key]
+                    if fnv in names:
+                        done[fnv] = section
+                        subitems[fnv] = names[fnv]
                 if not subitems:
                     continue
 
-                if ctx:
-                    ctx_str = ctx.decode("utf-8")
+                if section:
+                    ctx_str = section.decode("utf-8")
                     if self._ctx_filter and self._ctx_filter in ctx_str:
                         continue
                     lines.append(ctx_str)
@@ -1085,17 +1086,17 @@ class Words(object):
 
             # rare but just in case of bugs
             subitems = {}
-            for key in items:
-                if key in done and done[key] != ctx and remove_repeats:
+            for fnv in names:
+                if fnv in done and remove_repeats:
                     continue
-                done[key] = ctx
-                subitems[key] = items[key]                
+                #done[fnv] = section
+                subitems[fnv] = names[fnv]
                 
             if subitems:
                 lines += self._sort_results_lines(subitems)
             
         else:
-            lines = self._sort_results_lines(items)
+            lines = self._sort_results_lines(names)
 
         outname = inname #.replace('.txt', '-order.txt')
         with open(outname, 'w') as f:
