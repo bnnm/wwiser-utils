@@ -246,7 +246,6 @@ Typical use of *words.py*:
 - trim word list a bit and try *permutations* with another list (see below)
   - for example wwnames + `strings2` results or `english.txt`
 - repeat again and again as you get more valid words (new words = new combos = new chances)
-- adding a `#@classify-bank` line to `wwnames.txt` and re-generating the list alters output a bit, and usually makes checking false positives easier
 - using *pypy* (python optimization) to run this tools makes it noticeably faster, specially when using combinations
 - give up at some point
   - overwrite original *wwnames.txt* with our new improved copy
@@ -256,7 +255,16 @@ Typical use of *words.py*:
 #### Quick guide commands
 Don't forget using *pypy* (https://www.pypy.org/) to run *words.py* for a nice speed up.
 
-Examples of commands to try (will remove empty output files), theory is explained later:
+Examples of commands to try (will remove empty output files), theory is explained later.
+
+Remember the basic get-names loop is:
+- make `wwnames-banks-(date).txt` and run one of the commands below
+- check output (blah_out.txt) and copy good results (`number: name`) to `wwnames-(...).txt` at the bottom
+- try more commands and keep adding names
+- every now and then you can use `wwnames-fixer.py` over `wwnames-(...).txt` to clean it up a bit (or just re-generate with *wwiser*)
+- it's a good idea to *repeat* previous commands after you add more names, as new names help build more complex names
+- also good idea to combine those commands with `formats.txt` if you are targeting certain prefixes/suffixes
+
 ```
 ## basic commands
 # more or less suitable for wwnames.txt and ww.txt of any size
