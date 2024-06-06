@@ -420,7 +420,7 @@ class Words(object):
             # (ex. if combining format "play_bgm_%s" and number in list is reasonable)
             #if self._args.hashable_only and not self._fnv.is_hashable(combo_hashable):
             #    continue
-            if self._args.alpha_only and any(char.isdigit() for char in combo_hashable):
+            if self._args.alpha_only and any(char_n < 0x30 and char_n > 0x39 for char_n in combo_hashable): #char.isdigit()
                 continue
             self._add_format(combo)
 
@@ -588,7 +588,8 @@ class Words(object):
             # (ex. if combining format "play_bgm_%s" and number in list is reasonable)
             if self._args.hashable_only and not self._fnv.is_hashable(combo_hashable):
                 continue
-            if self._args.alpha_only and any(char.isdigit() for char in combo_hashable):
+            if self._args.alpha_only and any(char_n < 0x30 and char_n > 0x39 for char_n in combo_hashable): #char.isdigit()
+            #if self._args.alpha_only and any(char.isdigit() for char in combo_hashable):
                 continue
 
             #combo_hashable = bytes(combo_hashable, "UTF-8")

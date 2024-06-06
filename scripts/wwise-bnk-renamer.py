@@ -3,7 +3,7 @@
 
 import glob, os, hashlib, struct
 
-force_internal_id = False
+force_internal_id = False #use internal data to get bank ID rathen than filename
 undo_rename = False
 unused_dir = 'unused'
 dupe_dir = 'dupe'
@@ -75,7 +75,10 @@ def main():
         file_new = file.replace(basefile, name)
 
         #print(file, file_new)
-        os.rename(file, file_new)
+        try:
+            os.rename(file, file_new)
+        except:
+            print("can't rename", file, file_new)
 
 if __name__ == "__main__":
     main()
