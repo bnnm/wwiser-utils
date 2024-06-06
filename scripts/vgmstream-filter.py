@@ -35,6 +35,7 @@ class Cli(object):
         p.add_argument('-r',   dest='recursive', help="Find files recursively", action='store_true')
         p.add_argument('-m',   dest='move_dir', help="Set subdir where filtered files go", default=self.MOVE_DIR)
         p.add_argument('-fd',  dest='dupes', help="Filter by duplicate wavs (slower)", action='store_true')
+        p.add_argument('-fs',  dest='silences', help="Filter 'silence' codec", action='store_true')
         p.add_argument('-fcm', dest='min_channels', help="Filter by less than channels", type=int)
         p.add_argument('-fcM', dest='max_channels', help="Filter by more than channels", type=int)
         p.add_argument('-frm', dest='min_sample_rate', help="Filter by less than sample rate", type=int)
@@ -122,6 +123,7 @@ class CliFilter(object):
         self.args = args
         self.basename = basename
         self.output = str(output_b).replace("\\r","").replace("\\n","\n")
+        self.codec = self._get_value("encoding: ")
         self.channels = self._get_value("channels: ")
         self.sample_rate = self._get_value("sample rate: ")
         self.num_samples = self._get_value("stream total samples: ")
@@ -170,6 +172,8 @@ class CliFilter(object):
             return True
         if cfg.min_seconds or cfg.max_seconds or cfg.min_subsongs:
             return True
+        if cfg.silences:
+            return True
         return False
 
     def _is_ignorable(self):
@@ -188,6 +192,8 @@ class CliFilter(object):
             return True
         if cfg.min_subsongs and self.stream_count < cfg.min_subsongs:
             return True
+        if cfg.silences and self.codec == "Silence":
+            return True
         return False
 
 #******************************************************************************
@@ -203,6 +209,7 @@ class App(object):
         if self.args.cli:
             clis.append(self.args.cli)
         else:
+            clis.append('vgmstream-cli')
             clis.append('vgmstream_cli')
             clis.append('test.exe')
 
