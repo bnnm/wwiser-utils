@@ -15,6 +15,7 @@
 #   - "%0Nd^M^": same but limits numbers to M ("Play_BGM_%03i^20^" makes Play_BGM_000 up to Play_BGM_020)
 #   - "%0Nd:M:^M^": same combined
 #   - "%[123abc]": adds 1,2,3,a,b,c ("Play_BGM_1%[ab]" makes Play_BGM_1a, Play_BGM_1b)
+#   - "%c": same as [abcd(..)z]
 #   Any can be combined but may only use one %s (play_%02x_%s, play_%i_%i_%d but not play_%s_%s)
 #
 # - ww.txt: extra list of wwise words only (may use this instead of wwnames.txt)
@@ -184,7 +185,8 @@ class Words(object):
             return
 
         if b'%' not in format or format.count(b'%s') > 1:
-            print("ignored wrong format:", format)
+            print("ignored wrong format (added as word):", format)
+            self._add_word(format)
             return
 
         if b'%' not in format: #for combos
@@ -196,6 +198,7 @@ class Words(object):
         return
 
     def _add_format_subformats(self, format):
+
         count = format.count(b'%')
 
         if count == 0: #'leaf' word (for blah_%d)
@@ -218,8 +221,20 @@ class Words(object):
                     basepos = st + 1
                     continue
 
+                # letters
+                if nxt == ord(b'c'):
+                    ed = st + 1
+                    items = b'abcdefghijklmnopkrstuvwxyz'
+                    prefix = format[0:st]
+                    suffix = format[ed+1:]
+                    
+                    for item in items:
+                        subformat = b'%s%c%s' % (prefix, item, suffix)
+                        self._add_format_subformats(subformat)
+                    return
+
                 # range: add per item
-                if nxt == ord(b'['): 
+                if nxt == ord(b'['):
                     ed = format.index(b']', st)
                     items = format[st+2:ed]
                     prefix = format[0:st]
@@ -306,7 +321,6 @@ class Words(object):
         self._add_format_main(format)
 
     def _add_format_main(self, format):
-
         format_lw = format.lower()
         if format == b'%s':
             type = self.FORMAT_TYPE_NONE
