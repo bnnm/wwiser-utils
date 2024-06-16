@@ -23561,3 +23561,32 @@ Play_r2d010_01_Ri
 Play_r2d992_01_Ri
 Play_r2d992_02_Ri
 Play_r2d992_03_Ri
+
+
+198423949   : ri_wr02_Switch_off
+3887436097  : ri_wr02_Switch_on
+
+2117191459  : Play_SS_Common_cake
+3717761803  : Play_SS_Common_drink
+3235593223  : Play_SS_Common_neon
+3289138353  : Play_SS_Common_photo
+461973654   : Play_SS_Common_purchase
+3119608958  : Play_SS_Common_surprise
+427000781   : Play_SS_Common_telephone
+
+2861493511  : Stop_envbase_a_wr0201_forest
+333139362   : Stop_envbase_a_wr0301_lake
+1828948126  : Stop_envbase_a_wr0301_mountain
+1009694143  : Stop_envbase_a_wr0301_town
+
+2938306452  : Play_envbase_a_wr0301_lake
+2259250592  : Play_envbase_a_wr0301_mountain
+2270711169  : Play_envbase_a_wr0301_town
+
+1733395961:bgm_ri_fi_t09
+2044733823:Play_Env_Pos_roll_metal2_lp
+3568949401:Stop_Env_Pos_roll_metal2_lp
+1324067799:Play_000_Step
+2128673152:Play_bgm_ri_fi_t09
+1308562049:Play_000_Other2
+1308562048:Play_000_Other3
