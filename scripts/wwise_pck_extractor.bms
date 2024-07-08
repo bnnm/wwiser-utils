@@ -37,6 +37,14 @@ if SUM < HEADER_SIZE
     get SEC4_SIZE long
 endif
 
+get TEST_SIZE asize
+math TEST_SIZE -= 0x08
+
+# RE Engine empty APKs
+if HEADER_SIZE == TEST_SIZE
+    exit
+endif
+
 ###
 
 # Get languages

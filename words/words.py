@@ -198,6 +198,8 @@ class Words(object):
         return
 
     def _add_format_subformats(self, format):
+        #if b':' in format:
+        #    format = format[0: format.find(b':')]
 
         count = format.count(b'%')
 
@@ -487,7 +489,7 @@ class Words(object):
         except (TypeError, ValueError):
             return
 
-        if key < 0xFFFFF or key > 0xFFFFFFFF:
+        if key < 0xFFF or key > 0xFFFFFFFF:
             return
 
         # skip already useful names in wwnames.txt
