@@ -16434,3 +16434,7 @@ zc201_Mov_CS_PhotoAppear
 
 780277982   : FilterIn
 4292611713  : FilterOut
+3376415477  : light_off
+3674512137  : light_on
+
+3378393367  : PL0000_VO_DMG_DOWN
