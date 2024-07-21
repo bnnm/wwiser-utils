@@ -123,7 +123,7 @@ class CliFilter(object):
         self.args = args
         self.basename = basename
         self.output = str(output_b).replace("\\r","").replace("\\n","\n")
-        self.codec = self._get_value("encoding: ")
+        self.codec = self._get_text("encoding: ")
         self.channels = self._get_value("channels: ")
         self.sample_rate = self._get_value("sample rate: ")
         self.num_samples = self._get_value("stream total samples: ")
