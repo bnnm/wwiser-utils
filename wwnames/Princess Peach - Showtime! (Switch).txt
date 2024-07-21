@@ -1,0 +1,5867 @@
+
+### BANK NAMES
+Init
+PJ037Sound
+
+### LANGUAGE NAMES
+SFX
+
+### BUS NAMES
+Master Audio Bus = 0
+music
+room
+se
+# 1276053785
+# 1535657012
+# 1888238341
+# 1875944458
+# 1982646981
+# 2535802743
+# 3602830056
+# 2209751555
+# 2244418890
+# 3971798794
+# 75152972
+# 1989323488
+# 3083501632
+# 2765543869
+# 3083501635
+# 3184314440
+# 3184314443
+# 2334456390
+# 2748973500
+# 2545263337
+# 2545263351
+# 2729816996
+# 2729817018
+# 3242702006
+# 353090808
+# 966967988
+# 4043088133
+# 4043088148
+# 2821684209
+# 4043088155
+# 1774490552
+# 3000973105
+# 4187885180
+
+### SFX NAMES (Init.bnk)
+No_Output
+System
+# 400317747
+# 1799658630
+
+### BASE RTPC/GAME-VARIABLE NAMES (Init.bnk)
+# 298483623
+# 517706575
+# 649033078
+# 785880936
+# 788402216
+# 796049864
+# 1023058691
+# 1258855130
+# 1421855565
+# 1524500807
+# 1645158183
+# 1965674511
+# 2180595641
+# 2187361037
+# 2356346824
+# 2356346827
+# 2704505852
+# 2804513211
+# 2913102336
+# 3178586962
+# 3645507487
+# 3671138082
+# 4158370301
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+# 2804513211
+
+### VARIABLE NAMES (Init.bnk)
+BansoType
+BansoVolume
+lobby
+# 30216464
+# 88189413
+# 165940472
+# 389827329
+# 442888575
+# 525092512
+# 525092515
+# 525092516
+# 525092518
+# 525092519
+# 527546559
+# 653823853
+# 798623448
+# 832457699
+# 895949044
+# 940234748
+# 1506946305
+# 1548745506
+# 1548745507
+# 1548745508
+# 1548745509
+# 1548745511
+# 1587799342
+# 1784920987
+# 2076690335
+# 2194656643
+# 2386195765
+# 2389062494
+# 2427841139
+# 2613815126
+# 2757263490
+# 2764157917
+# 2830199758
+# 3030146359
+# 3368311987
+# 3369077553
+# 3465958422
+# 3597395818
+# 3723517909
+# 3777554211
+# 3974637798
+# 4049095388
+# 4082650106
+# 4090973394
+# 4112963913
+# 2236734354
+# 2429622642
+
+### VALUE NAMES (Init.bnk)
+Default
+Init
+Kill
+mute
+none
+off
+on
+out
+Reset
+silent
+# 2102518286
+# 1578895416
+# 1578895419
+# 4033655264
+# 2980383561
+# 1169953708
+# 1169953711
+# 3167554871
+# 2396853070
+# 2403082098
+# 3382872472
+# 3701232923
+# 2737850167
+# 336782204
+# 4140613305
+# 419459790
+# 1518744790
+# 3619302936
+# 4113914765
+# 1731095561
+# 1823436111
+# 1086408610
+# 2560383140
+# 3428196523
+# 3266763893
+# 838485156
+# 1935752458
+# 2183557174
+# 1092895832
+# 1238586139
+# 3021979351
+# 1734244259
+# 121153772
+# 2882403631
+# 2380817608
+# 1925914845
+# 4227121682
+# 1763647087
+# 3898529036
+# 2358642439
+# 1051581257
+# 155222778
+# 2442973726
+# 3299073546
+# 2442973725
+# 2493306580
+# 76369654
+# 2493306581
+# 2631433261
+# 3783952971
+# 3112800700
+# 3348127290
+# 1369541548
+# 3852365994
+# 2674488356
+# 1136862511
+# 3289238534
+# 2546379309
+# 2546379310
+# 1967269152
+# 876637934
+# 1128205392
+# 203958990
+# 3676281382
+# 3621177884
+# 2519737205
+# 3803431589
+# 965890563
+# 2676040499
+# 416497812
+# 712161704
+# 3653676061
+# 895469787
+# 3904955753
+# 3794404459
+# 260516004
+# 260516021
+# 365230686
+# 365230656
+# 650450051
+# 650450077
+# 2690848480
+# 3653941806
+# 1375052905
+# 2640434215
+# 2982591261
+
+### EVENT NAMES (PJ037Sound.bnk)
+Area_Boss_Enter_Demo_EN_ADD1
+Area_Boss_Enter_Demo_EN_ADD2
+BGM_Agent_EV00
+BGM_Agent_EV00_Restart
+BGM_Amb_BasementEnter
+BGM_AMB_Wind01
+BGM_AMB_Wind02
+BGM_BOSS_01
+BGM_BOSS_Yami_Gravity
+BGM_BOSS_Yami_Impact
+BGM_BOSS_Yami_Reflection
+BGM_BOSS_Yami_Time
+BGM_BOSS_Yami_Time_Rew
+BGM_BossPrism01
+BGM_BossPrism02
+BGM_BUTAI_001
+BGM_CL_Agent_01
+BGM_CL_Cowgirl_01
+BGM_CL_Fencer_01
+BGM_CL_FigureSkater_01
+BGM_CL_Hero_01
+BGM_CL_Kungfu_01
+BGM_CL_Mermaid_01
+BGM_CL_Mermaid_01c
+BGM_CL_Ninja_01
+BGM_CL_Patissier_01
+BGM_CL_Searcher_01
+BGM_Collection_01
+BGM_Collection_02
+BGM_Collection_03
+BGM_Collection_04
+BGM_Collection_05
+BGM_Collection_06
+BGM_Collection_07
+BGM_Collection_08
+BGM_Collection_09
+BGM_Collection_10
+BGM_Collection_11
+BGM_Collection_12
+BGM_Collection_13
+BGM_Collection_14
+BGM_Collection_15
+BGM_Collection_16
+BGM_Collection_17
+BGM_Collection_18
+BGM_Collection_19
+BGM_Collection_20
+BGM_Collection_21
+BGM_Collection_22
+BGM_Collection_23
+BGM_Collection_24
+BGM_Collection_25
+BGM_Collection_26
+BGM_Collection_27
+BGM_Collection_28
+BGM_Collection_29
+BGM_Collection_30
+BGM_Collection_31
+BGM_Collection_32
+BGM_Collection_33
+BGM_Collection_34
+BGM_Collection_35
+BGM_Collection_36
+BGM_Collection_37
+BGM_Collection_38
+BGM_Collection_39
+BGM_Collection_40
+BGM_Collection_41
+BGM_Collection_42
+BGM_Collection_43
+BGM_Collection_44
+BGM_Collection_45
+BGM_Collection_46
+BGM_Collection_47
+BGM_Collection_48
+BGM_Collection_49
+BGM_Collection_50
+BGM_Collection_51
+BGM_Collection_52
+BGM_Collection_53
+BGM_Cos_Agent_01
+BGM_Cos_Agent_02
+BGM_Cos_Cowgirl_01
+BGM_Cos_Fencer_01
+BGM_Cos_Fencer_01B
+BGM_Cos_Fencer_03
+BGM_Cos_FigureSkater_01
+BGM_Cos_FigureSkater_01A_EV
+BGM_Cos_FigureSkater_01B
+BGM_Cos_Hero_01
+BGM_Cos_Hero_01_Start
+BGM_Cos_Hero_02
+BGM_Cos_Kungfu_01
+BGM_Cos_Kungfu_01C
+BGM_Cos_Mermaid_01
+BGM_Cos_Ninja_01
+BGM_Cos_Ninja_01_Run
+BGM_Cos_Ninja_02
+BGM_Cos_Ninja_02A
+BGM_Cos_Ninja_02B
+BGM_Cos_Patissier_01
+BGM_Cos_Seacher01
+BGM_Cos_Seacher01_Full
+BGM_Cos_Seacher03
+BGM_Course_C01
+BGM_Cowgirl_Battle_01
+BGM_Cowgirl_Battle_01A
+BGM_Cowgirl_Battle_03
+BGM_CowgirlB_Amb_01
+BGM_CowgirlC_Battle
+BGM_Credits01
+BGM_DEMO_AllKiralistaT_01
+BGM_DEMO_AllKiralistaT_01_IT
+BGM_DEMO_AreaClear
+BGM_DEMO_AreaEClear
+BGM_DEMO_KiralistaT_01
+BGM_DEMO_LastGateIN_01
+BGM_DEMO_Stella_appear_01
+BGM_DEMO_Stella_Talk_01
+BGM_DEMO_YamiBoss_Appear_01
+BGM_DEMO_YamiBoss_Battlestart_01
+BGM_DEMO_YamiBoss_Focus_01
+BGM_DEMO_YamiBoss_Talk_01
+BGM_DEMO_YamiBoss_Yamispace_01
+BGM_DEMO_YamiBossB_ap_tone_01
+BGM_DEMO_YamiBossB_GrapeAppear_01
+BGM_DEMO_YamiBossB_GrapeTalk_01
+BGM_DEMO_YamiBossB_susCymb_01
+BGM_DEMO_YamiBossB_Yamispace_01
+BGM_DEMO_YamiBossC_ap_tone_01
+BGM_DEMO_YamiBossC_ap_tone_02
+BGM_DEMO_YamiBossC_ap_tone_03
+BGM_DEMO_YamiBossC_ap_tone_04
+BGM_DEMO_YamiBossC_Appear_01
+BGM_DEMO_YamiBossC_Battlestart_01
+BGM_DEMO_YamiBossC_Battlestart_02
+BGM_DEMO_YamiBossC_Focus_01
+BGM_DEMO_YamiBossC_Talk_01
+BGM_DEMO_YamiBossC_Yamispace_01
+BGM_DEMO_YamiBossD_ap_tone_01
+BGM_DEMO_YamiBossD_Battlestart_01
+BGM_DEMO_YamiBossD_Battlestart_02
+BGM_DEMO_YamiBossD_GrapeTalk_01
+BGM_DEMO_YamiBossD_susCymb_01
+BGM_DEMO_YamiBossD_Yamispace_01
+BGM_DEMO_YamiGravi_ap_tone_01
+BGM_EV_Disturb01
+BGM_Ev_EvilGroup
+BGM_Ev_EvilKirarista
+BGM_EV_Solved01
+BGM_EV_StolenShock01
+BGM_F_Agent_EV00_Stop
+BGM_F_BOSS_Yami_Time
+BGM_F_BOSS_Yami_Time_init
+BGM_F_BossPrism01_Phase1
+BGM_F_BossPrism01_Phase2
+BGM_F_BossPrism01_Phase3
+BGM_F_BossPrism01_Phase4
+BGM_F_BossPrism01_PhaseEnd
+BGM_F_BossPrism02_End
+BGM_F_BossPrism02_QTE_IT
+BGM_F_BossPrism02_QTE_LP
+BGM_F_BossPrism02_Stop01
+BGM_F_BossPrism02_Stop02
+BGM_F_BossPrism02_WaitInput_01
+BGM_F_BossPrism02_WaitInput_02
+BGM_F_BossPrism02_WaitInput_03
+BGM_F_BossPrism02_WaitInput_04
+BGM_F_Cos_FigureSkater_01AEV_Stop
+BGM_F_CosAgentB_IT01_phase1
+BGM_F_CosAgentB_IT01_phase2
+BGM_F_CosAgentB_IT03
+BGM_F_CosAgentB_IT04
+BGM_F_CosAgentB_MainLoop
+BGM_F_CosAgentB_MainLoop_Duck
+BGM_F_Cowgirl_Battle01A_IT
+BGM_F_CowgirlB_EV_FallObj01
+BGM_F_CowgirlB_EV_RideTrain
+BGM_F_CowgirlB_EV_Talk01
+BGM_F_CowgirlC_EV_Rescue
+BGM_F_CowgirlC_QTE_Finish_01
+BGM_F_CowgirlC_QTE_WaitInput_01
+BGM_F_CowgirlC_Start
+BGM_F_Credits01_GrpCut_ED
+BGM_F_Credits01_GrpCut_ST
+BGM_F_Credits01_InputWait
+BGM_F_Credits01_PostDemo
+BGM_F_Credits01_Stop
+BGM_F_DEMO_KiralistaT_Dark
+BGM_F_Duck01_RESET
+BGM_F_Duck01_SET
+BGM_F_EV_HeroC_Jingle_01
+BGM_F_EV_StolenShock01
+BGM_F_EvBattle_Finish_01
+BGM_F_FencerA_EV_Map2
+BGM_F_FencerA_Map01_dark
+BGM_F_FencerC_EV_Finish01_ED
+BGM_F_Figure_Boss_01A
+BGM_F_Figure_Boss_01B
+BGM_F_Figure_Boss_01C
+BGM_F_Figure_Boss_01MainLoop
+BGM_F_FigureA_Ev_1stEv_ED
+BGM_F_FigureA_Ev_1stEv_ST
+BGM_F_FigureA_Ev_DisturbedHall
+BGM_F_FigureA_EV_GRGR1_ED
+BGM_F_FigureA_EV_GRGR1_LP
+BGM_F_FigureA_showGM1_END
+BGM_F_FigureA_showGM3_END
+BGM_F_FigureA_StartFlow_01
+BGM_F_FigureA_StartFlow_02
+BGM_F_FigureA_StartFlow_04
+BGM_F_FigureB_MainLoop
+BGM_F_FigureB_PhaseA
+BGM_F_FigureB_PhaseB
+BGM_F_FigureB_PhaseC
+BGM_F_Hero02_p00
+BGM_F_Hero02_p01
+BGM_F_Hero02_p02
+BGM_F_Hero02_p03
+BGM_F_Hero02_p04
+BGM_F_HeroA_Battle01_ED
+BGM_F_HeroA_Battle01_Pre
+BGM_F_HeroA_Battle01_WaitInput
+BGM_F_HeroA_EV_HakaseClear
+BGM_F_HeroA_EV_Kidnap_LightFOut
+BGM_F_HeroA_EV_TakoDemo01_Ed
+BGM_F_HeroA_EV_TakoDemo01_St
+BGM_F_HeroA_EV_TakoDemo02_Ed
+BGM_F_HeroA_EV_TakoDemo02_St
+BGM_F_HeroB_Space_p01
+BGM_F_HeroB_Space_p02
+BGM_F_HeroB_Space_p03
+BGM_F_HeroC_AsteroidsCome
+BGM_F_HeroC_Ev_Battle01_End
+BGM_F_HeroC_FlyStart
+BGM_F_HeroC_JailBreak
+BGM_F_HeroC_QTE_Finish_01
+BGM_F_HeroC_QTE_WaitInput_01
+BGM_F_HeroC_QTE_WaitInput_02
+BGM_F_HeroC_Union01_Finish
+BGM_F_HeroC_Union01_Start
+BGM_F_HeroC_Unlock_End
+BGM_F_IGE_Agent_A_EV01_01
+BGM_F_IGE_Agent_A_EV01_02
+BGM_F_IGE_Agent_A_EV01_02A
+BGM_F_IGE_Agent_A_EV01_02B
+BGM_F_IGE_Agent_A_EV01_03
+BGM_F_IGE_Agent_A_EV01_03B1
+BGM_F_IGE_Agent_A_EV01_04
+BGM_F_IGE_EV03_Phase00
+BGM_F_IGE_EV03_Phase01
+BGM_F_IGE_EV03_Phase02
+BGM_F_IGE_EV03_Phase03
+BGM_F_IGE_FencerA_EV01e
+BGM_F_IGE_FencerA_EV01s
+BGM_F_IGE_Ninja_B_Break
+BGM_F_IGE_Ninja_B_Demo
+BGM_F_IGE_Ninja_B_Loop
+BGM_F_IGE_Ninja_B_StartDemo
+BGM_F_IGE_w1s1_1st_P10
+BGM_F_IGE_w1s1_1st_P20
+BGM_F_IGE_w1s1_1st_P30
+BGM_F_IGE_w1s1_1st_P40
+BGM_F_IGE_w1s1_1st_P50
+BGM_F_IGE_w1s1_1st_P60
+BGM_F_IGE_w1s1_1stPlay
+BGM_F_IGE_w1s1_2ndPlay
+BGM_F_IGE_w1s1_Bridge01
+BGM_F_IGE_w1s1_Bridge02
+BGM_F_IGE_w1s1_p01
+BGM_F_IGE_w1s1_p02
+BGM_F_IGE_w1s1_Restart
+BGM_F_Kungfu_A_EV01_1
+BGM_F_Kungfu_A_EV01_2
+BGM_F_Kungfu_A_EV01_3
+BGM_F_Kungfu_A_EV01_4
+BGM_F_Kungfu_B_StDemo
+BGM_F_KungFu_C_Kickback01
+BGM_F_KungfuA_EVs6a1_DbgJump
+BGM_F_KungfuA_EVs6a1_Restart
+BGM_F_KungfuA_EVs6a1_Start
+BGM_F_KungFuB_EV02_Brk
+BGM_F_KungFuB_EV02_St
+BGM_F_KungFuB_PreBattle01
+BGM_F_KungFuBattle02_Battle1
+BGM_F_KungFuBattle02_Battle2
+BGM_F_KungFuBattle02_Finishing
+BGM_F_KungFuBattle02_PreA
+BGM_F_KungFuBattle02_PreB
+BGM_F_KungFuBattle02_Prec
+BGM_F_LightNote_01
+BGM_F_LightNote_02
+BGM_F_LightNote_03
+BGM_F_LightNote_04
+BGM_F_LightNote_05
+BGM_F_LightNote_06
+BGM_F_LightNote_07
+BGM_F_LightNote_08
+BGM_F_LightNote_09
+BGM_F_LightNote_10
+BGM_F_LightNote_11
+BGM_F_LightNote_12
+BGM_F_MC_Mmd_Stop_Long
+BGM_F_MC_Mmd_Stop_Short
+BGM_F_Mermaid_St01_Move_Fast
+BGM_F_Mermaid_St01_Move_Slow
+BGM_F_Mermaid_St01_Stay
+BGM_F_Mermaid_St02_Mute
+BGM_F_Mermaid_St02_Sing
+BGM_F_Mermaid_St04_Sea_Over
+BGM_F_Mermaid_St04_Sea_Under
+BGM_F_Mermaid_St05_Vo_C
+BGM_F_Mermaid_St05_Vo_D
+BGM_F_Mermaid_St05_Vo_DL
+BGM_F_Mermaid_St05_Vo_DR
+BGM_F_Mermaid_St05_Vo_L
+BGM_F_Mermaid_St05_Vo_R
+BGM_F_Mermaid_St05_Vo_U
+BGM_F_Mermaid_St05_Vo_UL
+BGM_F_Mermaid_St05_Vo_UR
+BGM_F_MermaidB_LastHall_EV02
+BGM_F_MermaidB_Map2Ev1
+BGM_F_MermaidC_EV_Map3
+BGM_F_MermaidC_EV_Rescue_Kirarista
+BGM_F_Mmd_BansoType_Default
+BGM_F_Mmd_BansoType_ini_Default
+BGM_F_Mmd_BansoType_ini_Slow
+BGM_F_Mmd_BansoType_ini_Yami
+BGM_F_Mmd_BansoType_Slow
+BGM_F_Mmd_BansoVol_Default
+BGM_F_Mmd_BansoVol_Mute
+BGM_F_MMD_SSE_NPC0_Mute
+BGM_F_MMD_SSE_NPC0_Sing
+BGM_F_MMD_SSE_Vo_KeyOff
+BGM_F_MMD_SSE_Vo_KeyOn
+BGM_F_MusicFlow01
+BGM_F_MusicFlow02
+BGM_F_MusicFlow03
+BGM_F_MusicFlow04
+BGM_F_MusicFlow05
+BGM_F_MusicFlow06
+BGM_F_MusicFlow07
+BGM_F_MusicFlow08
+BGM_F_MusicFlow09
+BGM_F_MusicFlow20
+BGM_F_MusicFlow21
+BGM_F_MusicFlow22
+BGM_F_MusicFlow23
+BGM_F_MusicFlow24
+BGM_F_MusicFlow25
+BGM_F_MusicFlow26
+BGM_F_MusicFlow90
+BGM_F_MusicFlow99
+BGM_F_Ninja_Act_KILL
+BGM_F_Ninja_Act_Nomal
+BGM_F_Ninja_Act_Run
+BGM_F_Ninja_Act_Silent
+BGM_F_Ninja_EV_FadeStop01
+BGM_F_NinjaB_RunEndDemo
+BGM_F_NinjaC_BossHit01
+BGM_F_PatA_Cake_AfterResult
+BGM_F_PatA_CakeClear
+BGM_F_PatA_Cookie_AfterResult
+BGM_F_PatA_CookieClear
+BGM_F_PatA_LastEv_End
+BGM_F_PatB_Cake_AfterResult
+BGM_F_PatB_Cake_AfterResult_End
+BGM_F_PatB_CakeClear
+BGM_F_PatB_Cookie_AfterResult
+BGM_F_PatB_CookieClear
+BGM_F_PatB_LastEv_01
+BGM_F_PatB_LastEv_02
+BGM_F_PatB_Scn00
+BGM_F_PatB_Scn05
+BGM_F_PatB_Scn07
+BGM_F_PatB_Scn10
+BGM_F_PatC_Ev_AfterCake_01
+BGM_F_PatC_Ev_AfterCake_02
+BGM_F_PatiB_Cookie_StartB
+BGM_F_Patissier_AfterHenshin
+BGM_F_Patissier_Cake_AfterResult
+BGM_F_Patissier_Cake_StartB
+BGM_F_Patissier_CakeGame
+BGM_F_Patissier_Cookie_AfterResult
+BGM_F_Patissier_CookieGame
+BGM_F_Patissier_GameFinish
+BGM_F_Patissier_GameMiss
+BGM_F_Patissier_PreGame1
+BGM_F_Patissier_PreGame2
+BGM_F_Patissier_PreGameYami1
+BGM_F_Patissier_ResultTokudai
+BGM_F_PatissierC_DuckOff
+BGM_F_PatissierC_DuckOn
+BGM_F_Pause_Town_01
+BGM_F_QTE_Finish_01
+BGM_F_QTE_WaitInput_01
+BGM_F_Resume_Town_01
+BGM_F_SeacherB_EV_Hideout01
+BGM_F_SeacherB_EV_Machi01
+BGM_F_SeacherB_EV_Machi_End
+BGM_F_SeacherB_EV_Machi_Start
+BGM_F_SearcherB_EV_Last_P2
+BGM_F_SearcherB_EV_Last_P3
+BGM_F_SearherB_TowerOutside_DuckOn
+BGM_F_SearherB_TowerOutside_DuckReset
+BGM_F_SecretRoom_In
+BGM_F_SecretRoom_Out
+BGM_F_SercherA_EV_duck01
+BGM_F_SercherA_EV_Stop01
+BGM_F_SercherB_Tower1F_EV01
+BGM_F_StartFlow01
+BGM_F_StartFlow02
+BGM_F_StartFlow03
+BGM_F_StartFlow04
+BGM_F_StartFlow05
+BGM_F_Stop_01
+BGM_F_Stop_CourseEnd_Ninja_A
+BGM_F_Stop_CourseEnd_Ninja_B
+BGM_F_Stop_Demo_Henshin_01
+BGM_F_Stop_Demo_Henshin_02
+BGM_F_Stop_Shop_01
+BGM_F_Stop_Town_01
+BGM_F_SUG01_A01Stop
+BGM_F_SUG01_AreaOut01
+BGM_F_SUG01_AreaST01
+BGM_F_SUG01_FStopBGM_A2
+BGM_F_Tate_SP01a
+BGM_F_Tate_SP01b
+BGM_F_Tate_SP01c
+BGM_F_Tate_SP01d
+BGM_F_Theater_Peace_Stop
+BGM_Fencer_B_EV01
+BGM_FencerC_EV_Finish01_ST
+BGM_Figure_Boss_01
+BGM_FigureA_Boss_Atk_ED
+BGM_FigureA_Boss_Atk_ST
+BGM_FigureA_Boss_Fnsh_ED
+BGM_FigureA_Boss_Fnsh_ST
+BGM_FigureA_EV_GRGR1_ST
+BGM_FigureA_EV_Kidnap01
+BGM_FigureA_showGM1_01
+BGM_FigureA_showGM2_01
+BGM_FigureA_showGM3_01
+BGM_FigureB_EV_Rannyu01
+BGM_Henshin_Agent01
+BGM_Henshin_Agent01_IT01
+BGM_Henshin_Cowgirl01
+BGM_Henshin_Cowgirl01_IT01
+BGM_HENSHIN_Fencer01
+BGM_HENSHIN_Fencer02
+BGM_Henshin_Figureskater_01
+BGM_Henshin_Figureskater_IT01
+BGM_Henshin_Hero01
+BGM_Henshin_Hero01_IT
+BGM_Henshin_KungFu01
+BGM_Henshin_KungFu01_IT01
+BGM_Henshin_KungFu01_IT02
+BGM_Henshin_Mermaid01
+BGM_Henshin_Mermaid_IT01
+BGM_Henshin_Mermaid_IT02
+BGM_Henshin_Ninja01
+BGM_Henshin_Ninja01_IT01
+BGM_Henshin_Patissier01
+BGM_Henshin_Patissier_ITpf
+BGM_HENSHIN_Peach01
+BGM_Henshin_Searcher01
+BGM_Henshin_Searcher01_IT01
+BGM_Hero_HakaseTeam_01
+BGM_HeroA_Battle01
+BGM_HeroA_EV_HakasePinch
+BGM_HeroA_EV_Kidnap_UFO
+BGM_HeroB_EV_BigHero_Rise
+BGM_HeroB_EV_BigROBO_Appear
+BGM_HeroB_EV_BigROBO_Revenge
+BGM_HeroB_EV_BigROBO_Rise
+BGM_HeroB_EV_Chase01
+BGM_HeroB_EV_JailBattle
+BGM_HeroB_Space
+BGM_HeroC_Ev_Battle01
+BGM_HeroC_EV_Labo_01
+BGM_IGE_Agent_EV00
+BGM_IGE_Agent_EV01
+BGM_IGE_Agent_EV03
+BGM_IGE_Ninja_B_01
+BGM_Kungfu_A_s6_AfterBTL
+BGM_Kungfu_A_s6_ev2
+BGM_Kungfu_A_s6a1
+BGM_KungFu_Battle_01
+BGM_KungFu_Battle_02
+BGM_KungFu_Battle_Dora
+BGM_KungFu_Battle_Dora_C01
+BGM_KungFu_Battle_Dora_C02
+BGM_KungFu_C_EV_Otori01
+BGM_KungFu_C_EV_Otori02
+BGM_Loading01
+BGM_MiniGame_01
+BGM_MMD_SSE_A01
+BGM_MMD_SSE_B01
+BGM_MMD_SSE_C01
+BGM_NoSound01
+BGM_Pat_Result_Cymbal_01
+BGM_PatA_Cookie_SdRoll_01
+BGM_PatB_Cake_SdRoll_01
+BGM_PatB_Cookie_SdRoll_01
+BGM_PatB_LastEv
+BGM_PatB_LastEv_End
+BGM_PatC_Ev_AfterCake
+BGM_PatC_Ev_AfterCookie
+BGM_PatC_Ev_Boss_Ascension
+BGM_PatissierB_01
+BGM_Peach
+BGM_Peach_PM
+BGM_PeachMarch
+BGM_PeachTransRoom03
+BGM_SearcherB_EV_Last_P1
+BGM_Shop_01
+BGM_ShowupGame_01
+BGM_SOLVE_FencerA_01
+BGM_Stage_Agent_01
+BGM_Stage_Agent_02
+BGM_Stage_Cowgirl_01
+BGM_Stage_FigureSkater_01
+BGM_Stage_Hero_01
+BGM_Stage_Kungfu_01
+BGM_Stage_Mermaid01
+BGM_Stage_Ninja01
+BGM_Stage_Patissier_01
+BGM_Stage_Patissier_02
+BGM_Stage_Patissier_03
+BGM_Stage_Seacher01
+BGM_Tate_SP01a_PreMelo
+BGM_Theater_A
+BGM_Theater_F
+BGM_Theater_Peace
+BGM_Title_AfterClear
+BGM_Title_BeforeClear
+BGM_w1s1p
+BlockBreack01
+Bomb_Explosion01
+Bomb_Shoot
+DemoPeachSword
+Enemy_Dmg01
+Enemy_Hit01
+Enemy_Hit02
+Enemy_Out01
+Enemy_Rebound01
+FencerA_Kengeki_ACT01
+FencerA_Kengeki_ACT02
+FencerA_Kengeki_ACT03
+FencerA_Kengeki_ACT04
+FencerA_Kengeki_EnmPurify01
+Flower_App
+HeartGet
+Last_Boss_Enter_Demo_EN_ADD1
+Last_Boss_Enter_Demo_EN_ADD2
+Peach_Jump01
+Peach_Jump02
+Peach_Jump06
+Peach_SkaterFoot00
+Peach_SkaterFootA01
+Peach_SkaterFootA02
+Peach_SkaterFootA03
+Peach_SkaterFootB01
+Peach_SkaterFootB02
+Peach_SkaterFootB03
+Peach_Trans02
+PeachBossDMG01
+PeachCoin_App01
+PeachCoin_App_Splash01
+PeachCoin_App_Splash03
+PeachCoinGet
+PeachCoinLargeGet
+PeachDemoSwordATK01
+PeachDemoSwordATK03
+PeachDMG01
+PeachDMG02
+PeachGrassHit01
+PeachGrassHit02
+PeachGrassHit03
+PeachItemGet01
+PeachRibonATK02
+PeachRibonATK03
+PeachRibonATK04
+PeachRibonATK05
+PeachRibonATK07
+PeachSword_Deffence01
+PeachSword_Deffence02
+PeachSword_Suburi01
+PeachSword_Suburi02
+PeachSwordATK01
+PeachSwordATK02
+PeachSwordATK03
+PeachSwordATK04
+PeachSwordATK06
+PeachSwordATK08
+PeachSwordATK09
+PeachSwordATK11
+PeachSwordATK13
+RABIT_OK01
+RABIT_OK02_copy
+RockBreack01
+SD_AG_B_S02
+SD_AG_B_S03
+SD_AG_B_S04
+SD_AG_B_S05
+SD_Agent_BlueHook01
+SD_Agent_Button01
+SD_Agent_Button02
+SD_Agent_DU_Jump01
+SD_Agent_DU_Spark01
+SD_Agent_Enemy_Laser01
+SD_Agent_Enemy_Laser_Sign01
+SD_Agent_Enemy_Spark01
+SD_Agent_ENM_Fly01
+SD_Agent_Glider_Attach01
+SD_Agent_Glider_Rotate01
+SD_Agent_Hook01
+SD_Agent_Hook01_Demo
+SD_Agent_Hook_Release01
+SD_Agent_Hook_Release01_Demo
+SD_Agent_Laser_On01
+SD_Agent_Laser_Shine01
+SD_Agent_Peach_Spark01
+SD_Agent_ReturnJump01
+SD_Agent_Slide01
+SD_Agent_Wind01
+SD_Agent_WireShot01
+SD_Agent_WireShot02
+SD_AgentA_AirValve01
+SD_AgentA_Butai01
+SD_AgentA_Butai02
+SD_AgentA_Butai03
+SD_AgentA_Door_Key01
+SD_AgentA_Door_Open01
+SD_AgentA_Laser_In01
+SD_AgentA_Laser_Out01
+SD_AgentA_Last_Fly01
+SD_AgentA_Silhouette01
+SD_AgentA_Silhouette02
+SD_AgentB_1stAMB
+SD_AgentB_Cockpit_Shake01
+SD_AgentB_Cockpit_Spark01
+SD_AgentB_Door_Break01
+SD_AgentB_Fire01
+SD_AgentB_Floor_Close01
+SD_AgentB_Floor_Shake01
+SD_AgentB_Light_Spark01
+SD_AgentB_Ship_Explosion01_1
+SD_AgentB_Ship_Explosion01_2
+SD_AgentB_Sliding_Slow01
+SD_AgentB_SpaceShip01
+SD_AgentB_SpaceShip_Door_Open01
+SD_AgentB_Stage_Break01
+SD_AgentB_Stage_Break02
+SD_AgentB_Stage_Close01
+SD_AgentB_Stage_Down01
+SD_AgentB_Stage_Open01
+SD_AgentB_Stage_Up01
+SD_AgentB_WallStomp_Slow01
+SD_AgentB_Wind01
+SD_AgentC_Demo_Wind01
+SD_AgentC_Door_Close01
+SD_AgentC_Door_Open01
+SD_AgentC_Door_Shine01
+SD_AgentC_FallFloor01
+SD_AgentC_FallFloor02
+SD_AgentC_FloatDoor_Move01
+SD_AgentC_FloatDoor_Stop02
+SD_AgentC_Floor_Move01
+SD_AgentC_Floor_Shake01
+SD_AgentC_Floor_Shake02
+SD_AgentC_Floor_Stop01
+SD_AgentC_FloorDuct_Close01
+SD_AgentC_FloorDuct_Open01
+SD_AgentC_Glider_Attach01
+SD_AgentC_Kira_Glider_Attach01
+SD_AgentC_Last_Fly01
+SD_AgentC_MoveDoor_Slide01
+SD_AgentC_MoveDoor_Stop01
+SD_AgentC_Wind01
+SD_AgentC_Yami_Laser01
+SD_AgentC_Yami_Laser_Stop01
+SD_AgentDemo_Shot01
+SD_AgentDemo_Shot02
+SD_AgentDemo_Unlock01
+SD_AgentDemo_Unlock02
+SD_Alart_Horagaii01
+SD_Alien_Act00
+SD_Alien_Act01
+SD_Appeal_Pedestal_APP01
+SD_Appeal_Point01
+SD_Appeal_Point02
+SD_APPLAUSE_L01
+SD_Area_C_Clear_Guide01
+SD_Area_Demo_BasementEnter01
+SD_Area_Demo_BasementEnter02
+SD_Area_Demo_LastBossDoor_Appear01
+SD_Area_Demo_LastBossDoor_Appear02
+SD_Area_Demo_LastBossDoor_Appear03
+SD_Area_Demo_LastBossDoor_Appear04
+SD_Area_Demo_LastBossDoor_Appear05
+SD_Area_Demo_LastBossDoor_Appear06
+SD_Area_Demo_LastBossDoor_Enter01
+SD_Area_Demo_LastBossDoor_Enter02
+SD_Area_Demo_LastBossDoor_Enter03
+SD_Area_Demo_LastBossDoor_Enter04
+SD_Area_Demo_LastBossDoor_Enter05
+SD_Area_Demo_LastBossDoor_Enter06
+SD_Area_Demo_LastBossDoor_Enter07
+SD_Area_Demo_LastBossDoor_Enter08
+SD_Area_Demo_LastBossDoor_Enter09
+SD_Area_Demo_LastBossDoor_Enter_Prism01
+SD_Area_Demo_LastBossDoor_Enter_Prism02
+SD_Area_Demo_LastBossDoor_Open01
+SD_Area_Demo_LastBossDoor_Open02
+SD_Area_Demo_LastBossDoor_Open03
+SD_Area_Purification01_1
+SD_Area_Purification01_2
+SD_Area_Purification01_3
+SD_Area_Purification01_4
+SD_Area_Purification01_5
+SD_Area_Purification_Kirameki01
+SD_Automatic_Door_Close01
+SD_Automatic_Door_Open01
+SD_B_Ninja_Foot01
+SD_B_Pati_Foot01
+SD_B_Pati_Whisk01
+SD_BalloonLottery01
+SD_BalloonLottery02
+SD_Before_Yami_Gravity_Crack01
+SD_Before_Yami_Gravity_End03
+SD_Before_Yami_Gravity_Spotlight01_C
+SD_Before_Yami_Gravity_Spotlight01_L
+SD_Before_Yami_Gravity_Spotlight01_R
+SD_Before_Yami_Gravity_Start01
+SD_Belt_Conveyor_Switch01
+SD_BigShell_Resist01
+SD_BigShell_Sign01
+SD_BigTurtle_Swim01
+SD_BigTurtle_Swim02
+SD_BigTurtle_Swim03
+SD_BigTurtle_Turn01
+SD_BigTurtle_Turn_Land01
+SD_BirdDuke_Flap_Down01
+SD_BirdDuke_Flap_Up01
+SD_Book_Smug_Agent01
+SD_Book_Smug_Cowgirl01
+SD_Book_Smug_Fencer01
+SD_Book_Smug_FigureSkater01
+SD_Book_Smug_Hero01
+SD_Book_Smug_KungFu01
+SD_Book_Smug_Mermaid01
+SD_Book_Smug_Ninja01
+SD_Book_Smug_Patissier01
+SD_Book_Smug_Princess01
+SD_Book_Smug_PrismA01
+SD_Book_Smug_PrismB01
+SD_Book_Smug_Searcher01
+SD_Boss_Avoid01
+SD_Boss_Charge03
+SD_Boss_Foot01
+SD_Boss_Hold_Aloft01
+SD_Boss_Hold_Aloft02
+SD_Boss_Hold_Aloft03
+SD_Boss_Jump01
+SD_Boss_Jump02
+SD_Boss_Kirameki_Explosion01
+SD_Boss_Kirameki_Explosion02
+SD_BOSS_NODMG01
+SD_Boss_Swing01
+SD_Boss_Sword_Flip01
+SD_Boss_Sword_Shine01
+SD_Boss_Warp01
+SD_Boss_Warp02
+SD_BossDoor_Appear01_1
+SD_BossDoor_Appear01_10
+SD_BossDoor_Appear01_2
+SD_BossDoor_Appear01_3
+SD_BossDoor_Appear01_4
+SD_BossDoor_Appear01_5
+SD_BossDoor_Appear01_6
+SD_BossDoor_Appear01_7
+SD_BossDoor_Appear01_8
+SD_BossDoor_Appear01_9
+SD_BossDoor_Haze01
+SD_BossGrapeB_Start01
+SD_BossOutHit01
+SD_BridgeCreak01
+SD_ButtonA01
+SD_Buzzer02
+SD_Cancel01
+SD_Caston_Change01
+SD_Caston_Change02
+SD_Caston_Change03
+SD_Caston_Eat_Cake01
+SD_Caston_Eat_Cookie01
+SD_Caston_Swim01
+SD_Caston_Talk01
+SD_Caston_Talk02
+SD_Caston_Talk_Lobby01
+SD_Caston_Water_In01
+SD_Caston_Water_Out01
+SD_CastonFloat01
+SD_CastonFloat02
+SD_CastonFloat03
+SD_CastonNinja_Jamp01
+SD_CastonNinja_Land01
+SD_CastonPurification01
+SD_CastonRoll01
+SD_Cg_A_CarriageOut01
+SD_Cg_A_HourseStimulation01
+SD_Cg_B_CP01
+SD_Cg_B_CP015
+SD_Cg_B_CP02
+SD_Cg_B_CP025
+SD_Cg_B_CP027
+SD_Cg_B_CP028
+SD_Cg_B_CP029
+SD_Cg_B_CP03
+SD_Cg_B_CP04
+SD_Cg_B_CP05
+SD_Cg_B_CP055
+SD_Cg_B_Demo01_01
+SD_Cg_B_Demo01_02
+SD_Cg_B_Demo01_03
+SD_Cg_B_DoukeTrainShake01
+SD_Cg_B_Kanban01
+SD_Cg_B_LastATK01
+SD_Cg_B_LastATK02
+SD_Cg_B_LeadingVehicle01
+SD_Cg_B_RoofG01
+SD_Cg_B_TaruBound01
+SD_Cg_B_Train_RockHit01
+SD_Cg_B_Train_RockHit02
+SD_Cg_B_TrainInside_Start01
+SD_Cg_B_TrainLaneCHG01
+SD_Cg_B_TrainOut01
+SD_Cg_B_TrainOut02
+SD_Cg_B_TrainOut03
+SD_Cg_B_TrainOut04
+SD_Cg_Barrel01
+SD_Cg_Barrel02
+SD_Cg_Befor3Gunman01
+SD_Cg_Before1STBattleFire01
+SD_Cg_C_BossOut01
+SD_Cg_C_CabinFall01
+SD_Cg_C_CabinLand01
+SD_CG_C_Carriage01
+SD_Cg_C_CarriageImpact01
+SD_Cg_C_CP01
+SD_Cg_C_CP015
+SD_Cg_C_CP017
+SD_Cg_C_CP018
+SD_Cg_C_CP019
+SD_Cg_C_CP02
+SD_Cg_C_CP03
+SD_Cg_C_CP035
+SD_Cg_C_CP04
+SD_Cg_C_CP045
+SD_Cg_C_CP047
+SD_Cg_C_CP049
+SD_Cg_C_CP05
+SD_Cg_C_Demo01_01
+SD_Cg_C_Demo01_02
+SD_Cg_C_Demo02_01
+SD_Cg_C_Demo03_01
+SD_Cg_C_DemoJump01
+SD_Cg_C_EarthShake01
+SD_Cg_C_KiraHorse_Land01
+SD_Cg_C_KiraJump01
+SD_Cg_C_KiraLand01
+SD_Cg_C_KiraRescue01
+SD_Cg_C_KiraRescue02
+SD_Cg_C_Peach_DemoJump01
+SD_Cg_C_Peach_DemoLand01
+SD_Cg_C_Peach_DemoLand02
+SD_Cg_C_Start01
+SD_Cg_C_TrainATK01
+SD_Cg_C_TrainATK02
+SD_Cg_C_TrainOut01
+SD_Cg_C_TrainZoom01
+SD_Cg_CarrageAlart01
+SD_Cg_LastDemo01
+SD_Cg_LastJump01
+SD_Cg_Pillar01
+SD_Cg_Pillar02
+SD_Cg_Pillar03
+SD_CG_Train_AMB01
+SD_CG_Train_AMB02
+SD_Cg_Wall_FallDown01
+SD_CgMini_Bomb01
+SD_ChinaBreak01
+SD_ChoirFish_Crowd01
+SD_Clear_Demo20200525_01
+SD_Clear_Demo20200525_02
+SD_Coconut_Break01
+SD_Coconut_Land01
+SD_Coconut_Water_In01
+SD_Coconut_Water_Out01
+SD_Coin_Appear01
+SD_Cookie_Fall01
+SD_CountDown01
+SD_Course_Buzzer01
+SD_Course_Buzzer02
+SD_Course_Spotlight01
+SD_Cow_A_BossJump01
+SD_Cow_A_BossLand01
+SD_Cow_A_BossLand02
+SD_Cow_A_BossOut01
+SD_Cow_A_BossPose01
+SD_Cow_A_CastonBurst01
+SD_Cow_A_CastonWildPower01
+SD_Cow_A_DoorCL01
+SD_Cow_A_DoorOP02
+SD_Cow_A_Downstairs01
+SD_Cow_A_Elev01
+SD_Cow_A_Elev02
+SD_Cow_A_EndFire01
+SD_Cow_A_Meet01
+SD_Cow_CastonFoot01
+SD_Cow_CastonFoot02
+SD_Cow_CastonFoot03
+SD_Cow_CastonLand01
+SD_CowABoss_Avoid01
+SD_CowBossBeforeShotACT01
+SD_CowBossReload01
+SD_Cowgirl_ATKTire01
+SD_Cowgirl_BottleFO01
+SD_Cowgirl_BottleFO02
+SD_Cowgirl_BottleFO03
+SD_CowGirl_Light01
+SD_CowGirl_Rolling01
+SD_CowGirl_Rolling02
+SD_CowGirlATK01
+SD_CowGirlATK02
+SD_CowGirlATK03
+SD_CowGirlATK04_LP
+SD_CowGirlATK05
+SD_CowGirlATK06
+SD_CowGirlATK07
+SD_CowGirlATK08
+SD_CowGirlATK09
+SD_CowGirlATK10
+SD_CowGirlATK11
+SD_CowGirlATK12
+SD_CowGirlATK13
+SD_CowGirlBridgeBreack01
+SD_CowgirlC_Train_Break01
+SD_CowGirlHorse_Whinny01
+SD_CowGirlHorseFoot_Prancing01
+SD_CowGirlHorseFoot_Slow01
+SD_CowGirlHorseFootPL01
+SD_CowGirlHorseFootPL02
+SD_CowGirlHorseFootPL_APP01
+SD_CowGirlHorseJump01
+SD_CowGirlHorseJump02
+SD_CowGirlHorseRide01
+SD_CowGirlTransDemo01
+SD_CowGirlTransDemo_ACT01
+SD_CowGirlTransDemo_ACT02
+SD_CowGirlTransDemo_ACT03
+SD_CowGirlTransDemo_ACT05
+SD_CowTaruBreack01
+SD_Crane_Move01
+SD_Crane_Stop01
+SD_Cream_Land01
+SD_Cream_Shot01
+SD_Current_Strong01
+SD_Current_Strong02
+SD_Cursor01
+SD_DancerDouke_DMG01
+SD_DancerDouke_NoDMG01
+SD_DancerDouke_Purification01
+SD_DancerDouke_Ready01
+SD_Decide01
+SD_Decide02
+SD_Demo_AreaABossArrival_Footsteps_01
+SD_Demo_AreaCClearGuide_Footsteps_01
+SD_Demo_AreaCClearGuide_Footsteps_02
+SD_Demo_AreaCommonClear_Footsteps_01
+SD_Demo_AreaCommonClear_Footsteps_02
+SD_Demo_BasementEnter_Footsteps_01
+SD_Demo_BasementEnter_Footsteps_02
+SD_Demo_BasementEnter_Footsteps_03
+SD_Demo_BasementEnter_Footsteps_04
+SD_Demo_BossDoor_Not_Appear01
+SD_Demo_BossDoor_Not_Appear02
+SD_Demo_BossDoor_Open01_1
+SD_Demo_BossDoor_Open01_2
+SD_Demo_BossDoor_Open01_3
+SD_Demo_BossDoor_Open01_4
+SD_Demo_BossDoor_Open01_5
+SD_Demo_BossDoor_Open01_6
+SD_Demo_BossDoor_Open01_7
+SD_Demo_BossGrapeA_End01
+SD_Demo_BossGrapeA_Start01
+SD_Demo_Corse_Clear01_1
+SD_Demo_Corse_Clear01_2
+SD_Demo_Corse_Clear01_3
+SD_Demo_Corse_Clear01_4
+SD_Demo_Corse_Clear01_5
+SD_Demo_Corse_Clear_Shining01
+SD_Demo_Corse_Clear_Shining02
+SD_Demo_DressyEncounter_Footsteps_01
+SD_Demo_DressyEncounter_Footsteps_02
+SD_Demo_Ending01
+SD_DEMO_FenceFoot01
+SD_DEMO_FencerCClear_BGM
+SD_Demo_GrapeAppear01
+SD_Demo_Gravity_Reverse01
+SD_Demo_LastBossGateEnter_Footsteps_01
+SD_Demo_LastBossGateEnter_Footsteps_02
+SD_Demo_LastBossGateEnter_Footsteps_FencerKira
+SD_Demo_LastBossGateEnter_Footsteps_Kira01
+SD_Demo_Opening01
+SD_Demo_Patissier_Transformation01_1
+SD_Demo_Patissier_Transformation01_2
+SD_Demo_Patissier_Transformation01_3
+SD_Demo_Patissier_Transformation01_4
+SD_Demo_Patissier_Transformation01_5
+SD_Demo_StaffCredit01
+SD_DEMO_StageBClear_BGM
+SD_DEMO_StageCClear_BGM
+SD_Demo_Stella_Encounter_Cloth01
+SD_Demo_Stella_Encounter_Cloth02
+SD_Demo_Stella_Encounter_Door01
+SD_Demo_Stella_Encounter_Foot01
+SD_Demo_Stella_Encounter_Foot02
+SD_Demo_Stella_Encounter_Foot03
+SD_Demo_Stella_Encounter_Grape01
+SD_Demo_Trance_Fencer01
+SD_Demo_Trance_Fencer02
+SD_Demo_Trance_Fencer03
+SD_Demo_Trance_Fencer04
+SD_Demo_Trance_Fencer05
+SD_Demo_Trance_Mermaid01
+SD_Demo_Trance_Mermaid02
+SD_Demo_Trance_Searcher01
+SD_Demo_Trance_Searcher02
+SD_Demo_Trance_Searcher03
+SD_Demo_Trance_Searcher04
+SD_Demo_Trance_Searcher05
+SD_Demo_WallOut01
+SD_Demo_YamiGravity_Flap_Down01
+SD_Demo_YamiGravity_Flap_Up01
+SD_DetectiveOfficeDoor_Close01
+SD_DetectiveOfficeDoor_Open01
+SD_Door_Close01
+SD_Door_Open01
+SD_Douke_Out01
+SD_Douke_Out02_Ghost
+SD_Douke_Spotlight01
+SD_Dragon_Start01
+SD_DressUp_Prism01
+SD_DrShip_DMG01
+SD_Du_NinjaPeach_Land01
+SD_Enemy_Hummer_Impact01
+SD_Enemy_Hummer_Impact02
+SD_Enemy_NinjaHenge00
+SD_Enemy_NinjaHenge01
+SD_EnemyCg_DMG01
+SD_EnemyCow_Footstep00
+SD_EnemyCow_Footstep01
+SD_EnemyHit03_Kunai01
+SD_EnemyHit04_Ninja_C_Hit01
+SD_EnemyHit04_NinjaFinalHit01
+SD_EnemyHit04_NinjaFinalHit02
+SD_EnemyKungFu_ATK01
+SD_EnemyKungFu_ATK02
+SD_EnemyKungFu_ATK03
+SD_EnemyKungFu_ATK04
+SD_EnemyKungFu_ATK05
+SD_EnemyKungFu_Def01
+SD_EnemyKungFu_DMG01
+SD_EnemyKungFu_Footstep01
+SD_EnemyKungFu_Jump01
+SD_EnemyKungFu_Jump02
+SD_EnemyKungFu_Jump04
+SD_EnemyKungFu_Jump05
+SD_EnemyKungFu_Jump06
+SD_EnemyKungFu_Stick_Deffence01
+SD_EnemyKungFu_Stick_Drop01
+SD_EnemyPedestal_Raise01
+SD_ENM_Gun01
+SD_ENM_Gun02
+SD_ENM_KnockBack01
+SD_Enm_Purify01
+SD_Explosion_Far01
+SD_Explosion_Metal_Large01
+SD_Explosion_Metal_Large02
+SD_Explosion_Metal_Large03
+SD_F_LastBossDoor_Enter_Prism02_Stop
+SD_F_LastDemo_Shining_Slow_In01
+SD_F_LastDemo_Shining_Slow_Out01
+SD_F_PrismA_Shining01_LastBossEnter01_Stop
+SD_F_PrismB_Grape_NoDMG_Out01
+SD_Fencer_A_Boss_Piyo01
+SD_Fencer_A_CircleAPP01
+SD_Fencer_A_CircleAPP02
+SD_Fencer_A_CircleDisAPP01
+SD_Fencer_A_CircleDisAPP02
+SD_Fencer_B_Peach_Jump01
+SD_Fencer_B_Peach_Jump02
+SD_Fencer_B_PhantomAct01
+SD_Fencer_B_PhantomAct02
+SD_Fencer_B_PhantomAct03
+SD_Fencer_B_PhantomAct04
+SD_Fencer_B_PhantomMark01
+SD_Fencer_B_PhantomMark02
+SD_Fencer_C_AMB01
+SD_Fencer_C_BeforeBattleDemo01
+SD_Fencer_C_Boss2nd_ACT01
+SD_Fencer_C_Boss2nd_ACT02
+SD_Fencer_C_Boss3rd_ACT02
+SD_Fencer_C_Boss_Piyo01
+SD_Fencer_C_BossAPP01
+SD_Fencer_C_BossCenterJump01
+SD_Fencer_C_BossCenterLand01
+SD_Fencer_C_BossCenterPose01
+SD_Fencer_C_Demo_ACT01
+SD_Fencer_C_Rescue_FallKira01
+SD_Fencer_C_RescueKira01
+SD_Fencer_C_RescueKira02
+SD_Fencer_C_SwordOut01
+SD_Fencer_Kira_Hajiku01
+SD_Fencer_ReturnJump01
+SD_FencerA_Princess_IbaraGrow01
+SD_FencerA_Princess_IbaraGrow02
+SD_FencerA_Princess_IbaraGrow03
+SD_FencerA_Tut_St_Gives_Power01
+SD_FencerC_BossDown01
+SD_FencerC_BossRerise01
+SD_FencerC_BossWallHit01
+SD_FencerC_BossWallHit02
+SD_FencerC_Demo_Boss_Appear01
+SD_FencerC_Demo_Boss_Sword01
+SD_FencerC_Demo_Boss_Sword02
+SD_FencerC_Demo_Sword01
+SD_FencerC_Demo_Sword02
+SD_FencerC_Demo_Sword_Hold01
+SD_FencerC_KLastime01
+SD_FencerC_SwordX01
+SD_FencerIbara_Down01
+SD_FGSK_DancerGaya01
+SD_FigureA_EV_ResultCynbal
+SD_FigureA_EV_SnareRoll
+SD_FigureSkater_Miss01
+SD_FireDmg01
+SD_Fish_Tame01
+SD_Fish_Tame02
+SD_Flashing01
+SD_Flashing02
+SD_Floor_Close01
+SD_Floor_Open01
+SD_FloorDuct_Open01
+SD_FlyingHook01
+SD_FlyingHook_Blue01
+SD_Footsteps_NinjaWall01
+SD_Footsteps_NinjaWater01
+SD_Footsteps_NinjaWater02
+SD_FootstepsA_Basic
+SD_FootstepsA_Basic2
+SD_FootstepsB_Active
+SD_FootstepsC_Light
+SD_FootstepsD_Hero
+SD_Fountain01
+SD_FreezingShot03
+SD_FS_A_AfterShow01
+SD_FS_A_AfterShow02
+SD_FS_A_Boss_Act01
+SD_FS_A_Boss_Act02
+SD_FS_A_Boss_Act03
+SD_FS_A_Boss_Encount00
+SD_FS_A_Boss_Encount01
+SD_FS_A_Boss_Foot01
+SD_FS_A_Boss_Jump01
+SD_FS_A_Boss_Piyo01
+SD_FS_A_Boss_Spin01
+SD_FS_A_Boss_Throw01
+SD_FS_A_CastonRoll01
+SD_FS_A_Demo00
+SD_FS_A_Demo01_01
+SD_FS_A_Demo02
+SD_FS_A_Demo03
+SD_FS_A_Demo04
+SD_FS_A_Demo05
+SD_FS_A_Demo06
+SD_FS_A_Demo07
+SD_FS_A_Demo08
+SD_FS_A_Demo09
+SD_FS_A_Demo10
+SD_FS_A_Demo10_01
+SD_FS_A_Demo11
+SD_FS_A_DemoEnemySnowATK01
+SD_FS_A_PeachDMG_React01
+SD_FS_A_SnowOut_Wind01
+SD_FS_B_Boss_Spot01
+SD_FS_B_BossDemo01
+SD_FS_B_BossDemo02
+SD_FS_B_BossDemo03
+SD_FS_B_BossDemo04
+SD_FS_B_BossDemo05
+SD_FS_B_Bossillumination01
+SD_FS_B_Bossillumination02
+SD_FS_B_CastonCrowd01
+SD_FS_B_DancerKiraGet01
+SD_FS_B_Demo01
+SD_FS_B_Demo02
+SD_FS_B_Demo03
+SD_FS_B_Demo04
+SD_FS_B_DoukeAPP01
+SD_FS_B_KiraGetAPPLAUSE01
+SD_FS_Boss_Land01
+SD_FS_C_AshibaFall
+SD_FS_C_AshibaShake01LP
+SD_FS_C_Boss_Act04
+SD_FS_C_BossDemo01
+SD_FS_C_BossDemo02
+SD_FS_C_BossDemo03
+SD_FS_C_Kira_PrisonBreak01
+SD_FS_C_KiraClear01
+SD_FS_C_KiraClear02
+SD_FS_C_KiraClear03
+SD_FS_C_KiraPower01
+SD_FS_C_KiraSpot01
+SD_FS_C_Vortex_IN01
+SD_FS_C_Yami01_LP
+SD_FS_Douke_DemoSpin01
+SD_FS_Douke_DemoSpin02
+SD_FS_DoukeFoot
+SD_FS_DoukeSpin01
+SD_FS_DU_S01
+SD_FS_DU_S02
+SD_FS_DU_S03
+SD_FS_DU_S04
+SD_FS_EarthShake01
+SD_FS_Ice_Land01
+SD_FS_Npc_InSnowVC01
+SD_FS_NpcFoot01
+SD_FS_NpcFoot02
+SD_FS_NpcJump02
+SD_FS_NpcSpin02
+SD_FS_Peach_Slide01
+SD_FS_ReturnJump01
+SD_FS_SpinATK01
+SD_FS_Theme01
+SD_FS_Theme02
+SD_FS_WoodGate_OPEN01
+SD_Garage_Shutter_Close02
+SD_Garage_Shutter_Open02
+SD_GhostAshibaFall01
+SD_GhostAshibaShake01LP
+SD_GhostBatsATK01
+SD_GhostBatsATK02
+SD_GhostBatsFlap01
+SD_GhostCastonCurseLP01
+SD_GhostCurseEnd01
+SD_GhostObjAPP01
+SD_GhostObjBreack01
+SD_GhostOBJFall01
+SD_Glass_Debris01
+SD_Glass_Smash01
+SD_Glass_Smash02
+SD_GM_Thrown01
+SD_Goal_Agent
+SD_Goal_Cowgirl
+SD_Goal_FigureSkater
+SD_Goal_Hero
+SD_Goal_KungFu
+SD_Goal_Mermaid
+SD_Goal_Ninja
+SD_Goal_Patissier
+SD_Goal_Searcher
+SD_Gong_L01
+SD_Gong_S01
+SD_Grape_Core_Loop01
+SD_Gravity_Reverse01
+SD_Gravity_Reverse02
+SD_GravityRev01
+SD_GravityRev02
+SD_Hero_A_AirRaid01
+SD_Hero_A_DoukeAPP01
+SD_Hero_A_MoltenMetal01
+SD_Hero_A_MoltenMetal02
+SD_Hero_Alien_Catch01
+SD_Hero_AMB02
+SD_Hero_ATK01
+SD_Hero_ATK02
+SD_Hero_ATK03
+SD_Hero_ATK04
+SD_Hero_ATK05
+SD_Hero_ATK06
+SD_Hero_ATK07
+SD_Hero_AtmosphericEntry01
+SD_Hero_B_ArmDemo_AMB01
+SD_Hero_B_ArmDemo_AMB01_STOP
+SD_Hero_B_ArmDemo_Extend01
+SD_Hero_B_ArmDemo_Extend02
+SD_Hero_B_ArmDemo_Spin01
+SD_Hero_B_ArmDemo_Spin02
+SD_Hero_B_ArmDemo_Wind01
+SD_Hero_B_BiggerNew01
+SD_Hero_B_Car_Reverse01
+SD_Hero_B_Caston_Reverse01
+SD_Hero_B_EnemyBossShines01
+SD_Hero_B_HatchOP01
+SD_Hero_B_Jet_Ally_LP01
+SD_Hero_B_Jet_Base01
+SD_Hero_B_Jet_Sml01
+SD_Hero_B_Jet_Sml02
+SD_Hero_B_Jet_Sml03
+SD_Hero_B_Jet_Sml04
+SD_Hero_B_Jet_Sml05
+SD_Hero_B_Kengeki_ACT01
+SD_Hero_B_VacUFO_Bomb01
+SD_Hero_B_Vakuum_ACT01
+SD_Hero_B_Vakuum_ACT02
+SD_Hero_B_Vakuum_ACT03
+SD_Hero_B_Vakuum_ACT04
+SD_Hero_BattleShine01
+SD_Hero_Bigger_AfterSpark01
+SD_Hero_Bigger_Battle2_01
+SD_Hero_Bigger_Battle2_02
+SD_Hero_Bigger_Battle2_03
+SD_Hero_Bigger_Battle2_04
+SD_Hero_Bigger_Battle2_05
+SD_Hero_Bigger_BattleShine01
+SD_Hero_Bigger_BossSpin01
+SD_Hero_Bigger_BossSpinSemiFinal01
+SD_Hero_Bigger_BossSpinSemiFinal02
+SD_Hero_Bigger_PunchIMP01
+SD_Hero_Bigger_Shine01
+SD_Hero_BiggerA01
+SD_Hero_BiggerATK01
+SD_Hero_BiggerB01
+SD_Hero_BiggerBackGroundA01
+SD_Hero_BiggerDMG01
+SD_Hero_BiggerFoot01
+SD_Hero_BiggerYure03
+SD_Hero_BiggerYure04
+SD_Hero_C_Alien_Act01
+SD_Hero_C_Alien_Act02
+SD_Hero_C_CP01
+SD_Hero_C_CP02
+SD_Hero_C_CP03
+SD_Hero_C_Demo_Grasp01
+SD_Hero_C_Demo_Meteor01
+SD_Hero_C_DoukeAPP01
+SD_Hero_C_DoukeJump01
+SD_Hero_C_DoukeLand01
+SD_Hero_C_Dr_DMG01
+SD_Hero_C_DrFoot01
+SD_Hero_C_EarthShake01
+SD_Hero_C_EarthShake02
+SD_Hero_C_EnegyInjection01
+SD_Hero_C_EnegyInjection02
+SD_Hero_C_Final_Bomb01
+SD_Hero_C_Final_Impact01
+SD_Hero_C_Final_Impact02
+SD_Hero_C_Final_Impact03
+SD_Hero_C_Final_Impact04
+SD_Hero_C_Final_Impact05
+SD_Hero_C_Grasp01
+SD_Hero_C_Jamming01
+SD_Hero_C_Jet_Sml01
+SD_Hero_C_Jet_Sml02
+SD_Hero_C_Jet_Sml03
+SD_Hero_C_JetoPacGO01
+SD_Hero_C_Kira_DuctOff01
+SD_Hero_C_Kira_DuctOff02
+SD_Hero_C_Kira_FootLand01
+SD_Hero_C_Kira_MachineBreak01
+SD_Hero_C_Kira_Yami01
+SD_Hero_C_Kira_Yami01_End
+SD_Hero_C_KiraLife01
+SD_Hero_C_Lift_Eng01_LP
+SD_Hero_C_Lift_Off01
+SD_Hero_C_Lift_On01
+SD_Hero_C_Lift_OUT01
+SD_Hero_C_LiftATK01
+SD_Hero_C_Meteor01
+SD_Hero_C_MeteorGrasp01
+SD_Hero_C_MeteorLand01
+SD_Hero_C_MeteorOUT01
+SD_Hero_C_MeteorOUT02
+SD_Hero_C_PanelOperation01
+SD_Hero_C_PanelOperation02
+SD_Hero_C_PanelOperation03
+SD_Hero_C_PeachThrow01
+SD_Hero_C_Qte01
+SD_Hero_C_Qte02
+SD_Hero_C_Shooting_BossAPP01
+SD_Hero_C_Shooting_Meddle01
+SD_Hero_C_Shooting_Start01
+SD_Hero_C_SubHit01
+SD_Hero_C_TransElevator_APP01
+SD_Hero_C_TransElevator_JetoPacRun01
+SD_Hero_CarBombS01
+SD_Hero_CastonSword01
+SD_Hero_CastonSword02
+SD_Hero_DoukeAbduction01
+SD_Hero_DU_Pose01
+SD_Hero_DU_Pose02
+SD_Hero_DU_Pose04
+SD_Hero_DU_Pose05
+SD_Hero_DU_Pose06
+SD_Hero_DU_Start01
+SD_Hero_Elevator01
+SD_Hero_Elevator02
+SD_Hero_Elevator03
+SD_Hero_Elevator04
+SD_Hero_Elevator05
+SD_Hero_Enemy_Laser00
+SD_Hero_Enemy_Laser01
+SD_Hero_Enemy_Spin01
+SD_Hero_ENM_AttackBomb01
+SD_Hero_Fire00
+SD_Hero_Fire01
+SD_Hero_Fire02
+SD_Hero_Fire03
+SD_Hero_FissureGround01
+SD_Hero_Fountain02
+SD_Hero_Fountain03
+SD_Hero_Fountain04
+SD_Hero_GO01
+SD_Hero_heavyFoot01
+SD_Hero_JetoPacGO01
+SD_Hero_JetpacGo02
+SD_Hero_Kime01
+SD_Hero_Labo01
+SD_Hero_LiftingJump01
+SD_Hero_LiftingJump02
+SD_Hero_LiftingLamd01
+SD_Hero_OBJ_Grasp01
+SD_Hero_OBJ_Grasp02
+SD_Hero_OBJ_Grasp03
+SD_Hero_OBJ_Grasp04
+SD_Hero_OBJ_Land01
+SD_Hero_OBJ_Land02
+SD_Hero_OBJ_Land03
+SD_Hero_OBJ_OUT01
+SD_Hero_PanelOperation01
+SD_Hero_PanelOperation02
+SD_Hero_UFO_Out01
+SD_Hero_UFO_Out02
+SD_Hero_UFO_OutX
+SD_Hero_UFOabduction00
+SD_Hero_UFOabduction01
+SD_Hero_UFOabduction03
+SD_HeroA_AlienJump01
+SD_HeroA_AlienOut01
+SD_HeroA_APP00
+SD_HeroA_Boss_Charge01
+SD_HeroA_Boss_Charge02
+SD_HeroA_Boss_Punch01
+SD_HeroA_Boss_Punch02
+SD_HeroA_BossBomb01
+SD_HeroA_BossSpin01
+SD_HeroA_BossSpin02
+SD_HeroA_BossSpin03
+SD_HeroA_BossSpin04
+SD_HeroA_SedanFly01
+SD_HeroA_UFO_DEMO01
+SD_HeroA_UFO_DEMO02
+SD_HeroB_APP00
+SD_HeroB_UFO_DEMO01
+SD_HeroB_UFO_DEMO02
+SD_HeroB_UFO_DEMO_AMB01
+SD_HeroB_UFO_DEMO_AMB02
+SD_HeroB_UFO_DEMO_Enemy_Jet01
+SD_HeroTransDemo_SCAN01
+SD_Horizontal_Laser01
+SD_Horizontal_Laser_Signs01
+SD_Horizontal_Laser_Stop01
+SD_HorsePL_LaneCNG01
+SD_HouseFootENM01
+SD_HouseMoving01
+SD_Ibara_Break01
+SD_Ibara_Cut01
+SD_Ibara_Cut02
+SD_Ibara_FaceApp01
+SD_Ibara_FaceApp_OPEN01
+SD_Ibara_Grow02
+SD_Ibara_Grow03
+SD_Ibara_Out01
+SD_IbaraBossFootWhoosh01
+SD_IbaraCutInVain01
+SD_IbaraDig01
+SD_IbaraDig02
+SD_IbaraDig_END01
+SD_IbaraDig_END02
+SD_IbaraDig_START01
+SD_Iron_Plate_Open01
+SD_Iron_Plate_Open02
+SD_JailBox_Close01
+SD_Jewelry_Get01
+SD_Jewelry_Get02
+SD_JewelryBag_Land01
+SD_JewelryShop_Door_Close01
+SD_JewelryShop_Door_Open01
+SD_JumpLand_Kaiten01
+SD_Key_InOut01
+SD_Kime01
+SD_Kime02
+SD_Kira_Ag_Hook_Release01
+SD_Kira_Ag_Jamp01
+SD_Kira_Ag_Land01
+SD_Kira_Ag_Magic01
+SD_Kira_Ag_Slide01
+SD_Kira_Ag_Spin01
+SD_Kira_Mm_Appear01
+SD_Kira_Ninja_Foot01
+SD_Kira_Nj_159_2
+SD_Kira_Pati_Soul01
+SD_Kira_Pati_Soul02
+SD_Kirameki_Burst_Caston01
+SD_Kirameki_Burst_ENM01
+SD_Kirameki_Burst_GM01
+SD_Kirameki_Get01
+SD_Kirameki_Inject_Caston01
+SD_Kirameki_Inject_ENM01
+SD_Kirameki_Inject_GM01
+SD_Kirameki_Injection01
+SD_Kirameki_Injection02
+SD_Kirameki_Piece01
+SD_Kirarista_Eat_Cake01
+SD_Kirarista_Soul_Get01_1
+SD_Kirarista_Soul_Get01_2
+SD_Kirarista_Soul_Get01_3
+SD_KKTI01
+SD_KnFu_C_Demo_BossRevival_AMB01
+SD_KnFu_C_Demo_BossRevival_SET01_2
+SD_KnFu_Kira_YamiLP01
+SD_KunFuC_BossKime01
+SD_KunFuC_BossKime02
+SD_KunFuC_BossKime03
+SD_KungBoss_Land01
+SD_KungBoss_Land02_C_Demo
+SD_KungFu_C_BossKnees01
+SD_KungFu_C_Hadou_Reb_Wind01
+SD_KungFu_C_QTE_LP01
+SD_KungFu_Caston_InVain01
+SD_KungFu_CastonKick01
+SD_KungFu_CastonKick02
+SD_KungFu_ChinaOut01
+SD_KungFu_ChinaOut02
+SD_KungFu_DoorOP02
+SD_KungFu_Du_Finish01
+SD_KungFu_Du_Kick01
+SD_KungFu_Du_Kick02
+SD_KungFu_Du_Start01
+SD_KungFu_EnmyHadouShot01
+SD_KungFu_EnmyHadouShot02
+SD_KungFu_EnmyHadouTame01
+SD_KungFu_FrameworkOut01
+SD_KungFu_FrameworkOut02
+SD_KungFu_Jinari01
+SD_KungFu_Kaiten01
+SD_KungFu_Kaiten02
+SD_KungFu_KaitenJP01
+SD_KungFu_KaitenJP02
+SD_KungFu_Kick01
+SD_KungFu_Kick02
+SD_KungFu_Kick03
+SD_KungFu_Kick04
+SD_KungFu_Kime01
+SD_KungFu_Kira_BowHands01
+SD_KungFu_Kira_FootLand01
+SD_KungFu_Kira_FootLand02
+SD_KungFu_Kira_FootLand03
+SD_KungFu_MokujinDMG01
+SD_KungFu_MokujinOut01
+SD_KungFu_MokujinOut02
+SD_KungFu_Peach_BowHands01
+SD_KungFu_PeachATK01
+SD_KungFu_PeachATK02
+SD_KungFu_PeachATK03
+SD_KungFu_PeachATK04
+SD_KungFu_PeachATK05
+SD_KungFu_PeachATK06
+SD_KungFu_PeachATK07
+SD_KungFu_PeachBosshit01
+SD_KungFu_PeachBosshit02
+SD_KungFu_PeachBosshit03
+SD_KungFu_PeachBosshit04
+SD_KungFu_PeachBosshit05
+SD_KungFu_PeachBossKick01
+SD_KungFu_PeachBossKick02
+SD_KungFu_PeachDemoJump01
+SD_KungFu_PeachWoodJump01
+SD_KungFu_PillarOut01
+SD_KungFu_ReturnJump01
+SD_KungFu_RockDMG01
+SD_KungFu_RockOut01
+SD_KungFu_RockOut02
+SD_KungFu_WoodOut01
+SD_KungfuA_CastonPower01
+SD_KungfuA_CastonSpp01
+SD_KungFuB_BossDemo_Tame01
+SD_KungFuB_cBossAPP01
+SD_KungFuB_cBossAPP02
+SD_KungFuB_cBossAPP04
+SD_KungFuB_cBossWallHit01
+SD_KungFuB_DemoCastonFootstep01
+SD_KungFuB_DemoEnemyFootstep01
+SD_KungFuB_DemoEnemyFootstep02
+SD_KungFuB_DemoEnemyFootstep03
+SD_KungFuB_DemoEnemyFootstep04
+SD_KungFuB_LastDemo_Kikouhou01
+SD_KungFuBoss_Out_After01
+SD_KungFuC_BossAMB_Wind01
+SD_KungFuC_BossRerise01
+SD_KungFuC_BossTereport01
+SD_KungFuC_KLastime01
+SD_KungFuCaston_Fly01
+SD_KungFuCaston_Fly03
+SD_KungFuCaston_Jamp01
+SD_KungFuCaston_Land01
+SD_KungFuCBoss_Kick01
+SD_KungfuCBoss_Multi01
+SD_KungFuCBoss_Punch01
+SD_KungFuDuke_Land01
+SD_KungFuDuke_Land02
+SD_KungFuDuke_Land03
+SD_KungFuDuke_Land04
+SD_KungFuKira_DeffenceJump01
+SD_LandA_Basic
+SD_LandB_Active
+SD_LandC_Light
+SD_LandD_Hero
+SD_Laser_Shot01
+SD_Laser_Slide01
+SD_Lobby_Elevator01
+SD_Lobby_Elevator02
+SD_Lobby_Elevator02LP_Demo
+SD_Lobby_Elevator03
+SD_Luminous_Equipment01
+SD_MakimonoAPP01
+SD_Marmaid_Concrt_React01
+SD_Mermaid_Ambience_Beach01
+SD_Mermaid_Ambience_Beach02
+SD_Mermaid_Ambience_UnderWater01
+SD_Mermaid_Ambience_UnderWater02
+SD_Mermaid_Bubble_Curtain01
+SD_Mermaid_Bubble_Loop01
+SD_Mermaid_Caston_Bubble01
+SD_Mermaid_Caston_Sing01
+SD_Mermaid_Douke_Purification01
+SD_Mermaid_Douke_Purification02
+SD_Mermaid_Douke_Water_In01
+SD_Mermaid_Douke_Water_Out01
+SD_Mermaid_Hall_BeingSeated01
+SD_Mermaid_Hall_Buzzer01
+SD_Mermaid_Last_Purification01
+SD_Mermaid_Miss01
+SD_MermaidA_Hall_Shake01
+SD_MermaidA_Light01
+SD_MermaidA_Light02
+SD_MermaidB_ChoirFish_Crowd01
+SD_MermaidB_ChoirFish_Crowd02
+SD_MermaidB_ChoirFish_Crowd03
+SD_MermaidB_Demo_Moray_Move01
+SD_MermaidB_Douke_Appear01
+SD_MermaidB_Douke_Soul_Fly01
+SD_MermaidB_Douke_Soul_Hit01
+SD_MermaidB_Fish_Inject01
+SD_MermaidB_Fish_Inject02
+SD_MermaidB_Fish_Inject_Tame01
+SD_MermaidB_Fish_Purification01
+SD_MermaidB_Jail_Break01
+SD_MermaidB_Last_Purification01
+SD_MermaidB_Ship_Appear01
+SD_MermaidB_Ship_Entrance01
+SD_MermaidB_Ship_Spotlight_Out01
+SD_MermaidB_Ship_Whistle01
+SD_MermaidB_Ship_Whistle02
+SD_MermaidB_Ship_Whistle03
+SD_MermaidB_StartDemo01
+SD_MermaidC_Flotsam_Hit01
+SD_MermaidC_Flotsam_Out01
+SD_MermaidC_Start_Current01
+SD_MermaidC_Turtle_Swim01
+SD_MermaidC_Turtle_Swim02
+SD_MermaidC_Urchin_Hit01
+SD_Mes_UI01
+SD_MetalFoot01
+SD_MiniGame_Countdown01
+SD_MiniGame_Countdown02
+SD_MiniGame_Finish01
+SD_MiniGame_Midpoint01
+SD_MiniGame_Start01
+SD_MiniGame_TimeUp01
+SD_MirrorBall_Bounce01
+SD_MirrorBall_Break01
+SD_MirrorBall_Crack01
+SD_MirrorBall_Jump01
+SD_MirrorBall_Land01
+SD_MirrorBall_S_Break01
+SD_MirrorBall_S_Crack01
+SD_MirrorBall_S_Land01
+SD_MirrorBall_S_Out01
+SD_MirrorBall_S_Shoot01
+SD_MirrorBall_Spin01
+SD_MirrorBall_Spin02
+SD_MirrorBall_Stomp01
+SD_MirrorBox_Break01
+SD_MirrorBox_Shake01
+SD_MirrorBox_Stomp01
+SD_Mmd_KIrarista_Sing
+SD_Monitor_Unlock01
+SD_Moray_Move01
+SD_Museum_Door_Close01
+SD_Museum_Door_Close02
+SD_Museum_Door_Close03
+SD_Museum_Door_Open01
+SD_Museum_Door_Open02
+SD_Museum_Door_Open03
+SD_Museum_Light01
+SD_Museum_Light02
+SD_Museum_Lithograph_Rattling01
+SD_Museum_Lithograph_Slide01
+SD_Museum_Window_Open01
+SD_Net_Laser01
+SD_Net_Laser_Blast01
+SD_Net_Laser_Stop01
+SD_NG01
+SD_Ninja_A_BossEscape01
+SD_Ninja_A_FlowersBloom01
+SD_Ninja_A_WazaStoneMove01
+SD_Ninja_B_FrameworkOut01
+SD_Ninja_BomFall01
+SD_Ninja_BomFall02
+SD_Ninja_BomImpact01
+SD_Ninja_BomImpact02
+SD_Ninja_C_Alart01
+SD_Ninja_C_AMB01
+SD_Ninja_C_BattleShine01
+SD_Ninja_C_BattleXFoot01
+SD_Ninja_C_BattleXHit01
+SD_Ninja_C_Boss_APP01
+SD_Ninja_C_Boss_APP02
+SD_Ninja_C_Boss_Disapp01
+SD_Ninja_C_BossKamae01
+SD_Ninja_C_BossOut01
+SD_Ninja_C_BossOut02
+SD_Ninja_C_BossWaza01
+SD_Ninja_C_BossZoom01
+SD_Ninja_C_Curtain_OP01
+SD_Ninja_C_DemoJP01
+SD_Ninja_C_EnemyFall01
+SD_Ninja_C_Kira_Foot01
+SD_Ninja_C_Kira_Impact01
+SD_Ninja_C_KiraKamae01
+SD_Ninja_C_KiraZoom01
+SD_Ninja_C_StickUnderFloor01
+SD_NINJA_DASH01
+SD_Ninja_DU_Start01_A
+SD_Ninja_DU_Start02_A
+SD_Ninja_DU_Start03_A
+SD_Ninja_DU_Start04_A
+SD_Ninja_DU_Start05_A
+SD_Ninja_DU_Start06_A
+SD_Ninja_Enemy_Disapp01
+SD_Ninja_HiddenGrassFoot01
+SD_Ninja_KaitenButai01
+SD_Ninja_KaitenButai02
+SD_Ninja_MakimonoGet01
+SD_Ninja_MakimonoGet02
+SD_Ninja_PrincessFound01
+SD_Ninja_PrincessFound02
+SD_Ninja_ReturnJump01
+SD_Ninja_Waza01
+SD_Ninja_Waza03
+SD_NinjaA_Garden01
+SD_NinjaA_GateOP01
+SD_NinjaB_DragonSaw_Cut00A
+SD_NinjaB_DragonSaw_Cut01
+SD_NinjaB_DragonSaw_Out01
+SD_NinjaB_DragonSaw_Out02
+SD_NinjaB_DragonSaw_Run01
+SD_NinjaB_GateOP01
+SD_NinjaB_Naruko01
+SD_NinjaB_SyoujiKaiten01
+SD_NinjaB_SyoujiKaiten02
+SD_NinjaDragonRoar01
+SD_NinjaHenge01
+SD_NinjaHenge02
+SD_NinjaHenge03
+SD_NinjaUndeground_IN01
+SD_NinjaWall01
+SD_NinjaWoodenHouse_Break01
+SD_NJ_B_BossDMG01
+SD_NJ_B_BossOut00
+SD_NoSound02_AreaMap
+SD_ParadeEnd01
+SD_ParadeEnd01_OFF
+SD_PatC_Cookie_SdRoll_01
+SD_PatC_Cookie_SdRoll_02
+SD_PatC_Result_Cymbal_01
+SD_PatC_Result_Cymbal_02
+SD_Patissier_Bell01
+SD_Patissier_Bell02
+SD_Patissier_Bloom_L01
+SD_Patissier_Bloom_LL01
+SD_Patissier_Bloom_M01
+SD_Patissier_Bloom_S01
+SD_Patissier_Bowl01
+SD_Patissier_Cake_Decision01
+SD_Patissier_Cake_Explosion01
+SD_Patissier_Cake_Hide01
+SD_Patissier_Caston_Fall01
+SD_Patissier_Cookies_Explosion01
+SD_Patissier_Cookies_Explosion02
+SD_Patissier_Cookies_Hold01
+SD_Patissier_Cookies_Put01
+SD_Patissier_Cookies_Put02
+SD_Patissier_Cookies_Put03
+SD_Patissier_Fence_Break01
+SD_Patissier_Fence_Shake01_L
+SD_Patissier_Fence_Shake01_R
+SD_Patissier_Fence_Shake02_L
+SD_Patissier_Fence_Shake02_R
+SD_Patissier_Finish01
+SD_Patissier_Miss01
+SD_Patissier_Mix01
+SD_Patissier_Set01
+SD_Patissier_Set02
+SD_Patissier_Smoke01
+SD_Patissier_Success_L01
+SD_Patissier_Success_M01
+SD_Patissier_TimeUp01
+SD_PatissierA_CakeRoom_Door_Open01
+SD_PatissierA_Entrance_Door_Open01
+SD_PatissierA_Entrance_Door_Open02
+SD_PatissierA_Farm_Door_Close01
+SD_PatissierA_Farm_Door_Open01
+SD_PatissierA_Signboard_Remove01
+SD_PatissierA_XR_Door_Open01
+SD_PatissierB_Butai01
+SD_PatissierB_Butai02
+SD_PatissierB_Cake_Down01
+SD_PatissierB_Cake_UP01
+SD_PatissierB_Cake_UP02
+SD_PatissierC_Boss_Bloom_S01
+SD_PatissierC_Boss_Cookies_Put01
+SD_PatissierC_Boss_Hip01
+SD_PatissierC_Boss_Jump01
+SD_PatissierC_Boss_Out01
+SD_PatissierC_Boss_Throw01
+SD_PatissierC_Float01
+SD_PatissierC_Float02
+SD_PatissierC_Purification01
+SD_Peach_ChangeClothe01
+SD_Peach_Deffence01
+SD_Peach_Dodge01
+SD_Peach_Kaihi01
+SD_Peach_Kaihi_Reb01
+SD_Peach_Kaihi_Special01
+SD_Peach_Purchase01
+SD_Peach_Ribbon_Wrap_Boss01
+SD_Peach_Rotate01
+SD_Peach_SWD_TameComplete01
+SD_Peach_water_In01
+SD_Peach_water_In02
+SD_Peach_water_Out01
+SD_Peach_water_Out02
+SD_Peach_water_Ride01
+SD_Peach_water_Row01
+SD_Peachfoot_water01
+SD_PhantomCurseLP01
+SD_PhantomLP01
+SD_PhantomMove01
+SD_PhantomMove02
+SD_PhantomMove03
+SD_PhantomMove04
+SD_PhantomMove05
+SD_Pipe_Break01
+SD_Pipe_Break02
+SD_PitOpen01
+SD_PIYOPIYO01
+SD_Pl_NoDmgHit01
+SD_Plywood_Break02
+SD_PoliceENM_Shutdown01
+SD_Princess_ReturnJump01
+SD_PrismA_Charge_Last01
+SD_PrismA_Fire_Spark01
+SD_PrismA_Fire_Spark02
+SD_PrismA_Fire_Spark03
+SD_PrismA_Grape_Hat01
+SD_PrismA_Grape_Hit01
+SD_PrismA_Grape_Hit02
+SD_PrismA_Grape_Hit03
+SD_PrismA_Grape_Hit_Last01
+SD_PrismA_Grape_Hit_Last02
+SD_PrismA_Grape_NoDMG01
+SD_PrismA_Grape_Revival01
+SD_PrismA_Grape_Wing_Purification01
+SD_PrismA_Grape_Wings_Appear01
+SD_PrismA_Plane_Fly01
+SD_PrismA_Plane_Fly02
+SD_PrismA_Plane_Light01
+SD_PrismA_Present_Appear_L01
+SD_PrismA_Present_Appear_S01
+SD_PrismA_Present_Loop01
+SD_PrismA_Present_Loop02
+SD_PrismA_Present_Loop03
+SD_PrismA_Present_Out_L01
+SD_PrismA_Present_Out_S01
+SD_PrismA_Red_Smoke01
+SD_PrismA_Red_Smoke02
+SD_PrismA_Red_Smoke03
+SD_PrismA_Shining01
+SD_PrismA_Shining01_LastBossEnter01
+SD_PrismA_Shot01
+SD_PrismA_Shot_Last01
+SD_PrismA_Shot_Last02
+SD_PrismA_Tern01
+SD_PrismA_Train_Light01
+SD_PrismA_Train_Run01
+SD_PrismA_Train_Run02
+SD_PrismA_Turn_LastBossEnter01
+SD_PrismA_White_Smoke01
+SD_PrismA_White_Smoke02
+SD_PrismA_White_Smoke03
+SD_PrismB_Ambience01
+SD_PrismB_Demo_Charge_Attack01
+SD_PrismB_Demo_Fly01
+SD_PrismB_Demo_Fly02
+SD_PrismB_Demo_Fly_Fast01
+SD_PrismB_Demo_Fly_FirstHit01
+SD_PrismB_Demo_Fly_LastAttack01_1
+SD_PrismB_Demo_Fly_LastAttack_Shoot01
+SD_PrismB_Demo_Fly_LastAttack_Sign01
+SD_PrismB_Demo_Fly_LastAttack_Sign02
+SD_PrismB_Demo_Fly_LastAttack_Sign03
+SD_PrismB_Demo_Fly_LastAttack_Smash01
+SD_PrismB_Demo_Fly_LastHit01_1
+SD_PrismB_Demo_Fly_LastHit01_2
+SD_PrismB_Demo_Grape_Purification01
+SD_PrismB_Demo_Hand_Kirameki01
+SD_PrismB_Demo_Jump01
+SD_PrismB_Demo_Kirameki01
+SD_PrismB_Demo_Start01
+SD_PrismB_Energy01
+SD_PrismB_Energy02
+SD_PrismB_Grape_Attack_Out01
+SD_PrismB_Grape_Ball_Pass_Through01
+SD_PrismB_Grape_Ball_Pass_Through02
+SD_PrismB_Grape_Ball_Shot01
+SD_PrismB_Grape_Ball_Splash01
+SD_PrismB_Grape_Hit01
+SD_PrismB_Grape_Hit02
+SD_PrismB_Grape_Hit03
+SD_PrismB_Grape_Hit04
+SD_PrismB_Grape_Hit_Last01
+SD_PrismB_Grape_Hit_Last02
+SD_PrismB_Grape_Laser_End01
+SD_PrismB_Grape_Laser_End02
+SD_PrismB_Grape_Laser_End03
+SD_PrismB_Grape_Laser_Shot01
+SD_PrismB_Grape_Laser_Shot02
+SD_PrismB_Grape_Laser_Shot03
+SD_PrismB_Grape_Mask_Break01
+SD_PrismB_Grape_Mask_Crack01
+SD_PrismB_Grape_NoDMG01
+SD_PrismB_Grape_Start01
+SD_PrismB_Grape_Zone_Appear01
+SD_PrismB_Grape_Zone_Appear_Cross01
+SD_PrismB_Grape_Zone_Appear_Cross02
+SD_PrismB_Grape_Zone_Appear_Homing01
+SD_PrismB_Grape_Zone_Appear_Line01
+SD_PrismB_Grape_Zone_Appear_Line02
+SD_PrismB_Grape_Zone_Appear_Rotating01
+SD_PrismB_Grape_Zone_Appear_Rotating02
+SD_PrismB_Laser_Charge01
+SD_PrismB_Laser_End01
+SD_PrismB_Laser_Shot01
+SD_PrismB_LastDemo_Start_Shining01
+SD_PrismB_Shining01
+SD_PrismB_Smug01
+SD_Pt_B_CastonCloud01
+SD_Pt_B_CastonCloud02
+SD_PufferFish_Deflate01
+SD_PufferFish_Inflate01
+SD_Qte_Decide01
+SD_RebbonJEMGET01
+SD_RibbonAtk_Boss01
+SD_RibbonCreateAkt01
+SD_RibbonCreateAkt02
+SD_RibbonCreateAkt03
+SD_RibbonCreateAkt05
+SD_RibbonCreateAkt_OFF01
+SD_RibbonCreateAkt_ON01
+SD_RoadUp03
+SD_RoadUp04
+SD_RoadUp05
+SD_RoadUp06
+SD_RoadUp07
+SD_RoadUp08
+SD_Rock_Break02
+SD_Rock_Impact_L01
+SD_Rock_Impact_M01
+SD_Rock_Impact_M02
+SD_RockBreack01
+SD_RockBreack02
+SD_RockBreack03
+SD_RockBreack04
+SD_Rolling_Laser01
+SD_Rolling_Laser02
+SD_Rolling_Laser03
+SD_Rotating_Gears01
+SD_Rouya_Cut01
+SD_Safe_Open01
+SD_Sc_B_BombAPP01
+SD_Sc_B_Clock00
+SD_Sc_B_Clock01
+SD_Sc_B_ClockTower_Door_Close01
+SD_Sc_B_ClockTower_Door_Open01
+SD_Sc_B_Demo01_01
+SD_Sc_B_Demo01_02
+SD_Sc_B_Demo02_02
+SD_Sc_B_Demo02_Douke_ACT01
+SD_Sc_B_Demo03_Douke_ACT01
+SD_Sc_B_Demo04_01
+SD_Sc_B_Demo04_02
+SD_Sc_B_Demo04_03
+SD_Sc_B_Demo04_04
+SD_Sc_B_Demo04_05
+SD_Sc_B_Demo05_01
+SD_Sc_B_Demo06_01
+SD_Sc_B_Demo06_02
+SD_Sc_B_Demo06_03
+SD_Sc_B_Demo06_05
+SD_Sc_B_Demo07_01
+SD_Sc_B_Demo08_01
+SD_Sc_B_Demo09_01
+SD_Sc_B_Demo09_02
+SD_Sc_B_Demo10_01
+SD_Sc_B_Demo10_02
+SD_Sc_B_Demo11_01
+SD_Sc_B_Demo11_02
+SD_Sc_B_Demo_Watch01
+SD_Sc_B_Douke_ACT01
+SD_Sc_B_Douke_ACT02
+SD_Sc_B_Douke_ACT03
+SD_Sc_B_GearFix01
+SD_Sc_B_GlobeDoorOP01
+SD_Sc_B_LastBomb01
+SD_Sc_B_Parts_Fit01
+SD_Sc_B_Parts_Fit02
+SD_Sc_B_Parts_Fit03
+SD_Sc_B_Tower_AMB01
+SD_Sc_B_Tower_Inside01
+SD_Sc_B_Tower_Outside01
+SD_Sc_C_AD_GoAway01
+SD_Sc_C_AD_Zoom01
+SD_Sc_C_AdSpot01
+SD_Sc_C_CameraPan01
+SD_Sc_C_CorrectAnswer01
+SD_Sc_C_DoorCL01
+SD_Sc_C_DoorOP01
+SD_Sc_C_DoorSpot01
+SD_Sc_C_Elevator01
+SD_Sc_C_Elevator02
+SD_Sc_C_FaceMove01
+SD_Sc_C_FaceNoseShine01
+SD_Sc_C_FaceRoomSet01
+SD_Sc_C_ItemPurification01
+SD_Sc_C_Kira_Atari01
+SD_Sc_C_Kira_Camera01
+SD_Sc_C_Kira_Camera02
+SD_Sc_C_Kira_Hazure01
+SD_Sc_C_KiraFoot01
+SD_Sc_C_KiraSpot01
+SD_Sc_C_LoupeFlow01
+SD_Sc_C_MarkShine01
+SD_Sc_C_NG_Place01
+SD_Sc_C_NG_Place02
+SD_Sc_C_Start01
+SD_Sc_C_StrangeSound01
+SD_Sc_DoukeAlart01
+SD_Sc_DoukeFoot01
+SD_Sc_DoukeFoot02
+SD_Sc_ItemAPP01
+SD_Sc_Kanban_Move01
+SD_Sc_Kanban_Move03
+SD_Sc_PeachCrawl01
+SD_Sc_Switch01
+SD_Sc_Switch02
+SD_Sc_TownDoor_Open01
+SD_Searcher_B_Demo_Camera01
+SD_Searcher_BAD01
+SD_Searcher_BAD02
+SD_Searcher_BAD03
+SD_Searcher_C_PhotoBulletin01
+SD_Searcher_Coffin_Key01
+SD_Searcher_Coffin_Open01
+SD_Searcher_Decision01
+SD_Searcher_DOON01
+SD_Searcher_GoodBell01
+SD_Searcher_Hint_Get01
+SD_Searcher_Hint_Get02
+SD_Searcher_Kime01
+SD_Searcher_Miss01
+SD_Searcher_Pillow_Out01
+SD_Searcher_Switch01
+SD_Searcher_Unmask_Smoke01
+SD_Searcher_You01
+SD_Searcher_You02
+SD_SearcherA_BookShelf_Move01
+SD_SearcherA_BookShelf_Move02
+SD_SearcherA_Butai01
+SD_SearcherA_Butai02
+SD_SearcherA_Butai03
+SD_SeaWaves01
+SD_Seaweed_Shake01
+SD_Seaweed_Turn01
+SD_Seaweed_Turn02
+SD_Security_Alarm01
+SD_Sercher_Du_S00_C00_S_FootStep01
+SD_SercherA_EV_Curtain01
+SD_SercherA_EV_Curtain02
+SD_Shell_Open01
+SD_Shell_Open02
+SD_Shell_Shake01
+SD_Shell_Shake02
+SD_ShellHit_Note_01
+SD_ShellHit_Note_02
+SD_ShellHit_Note_03
+SD_ShellHit_Note_04
+SD_ShellHit_Note_05
+SD_ShellHit_Note_06
+SD_ShellHit_Note_07
+SD_ShellHit_Note_08
+SD_ShellHit_Note_09
+SD_ShellHit_Note_10
+SD_ShellHit_Note_11
+SD_ShellHit_Note_12
+SD_ShellHit_Test_01
+SD_ShellHit_Test_02
+SD_ShellHit_Test_03
+SD_ShellHit_Test_04
+SD_ShellHit_Test_05
+SD_ShellHit_Test_06
+SD_ShellHit_Test_07
+SD_ShellHit_Test_08
+SD_ShellHit_Test_09
+SD_ShellHit_Test_10
+SD_ShellHit_Test_11
+SD_ShellHit_Test_12
+SD_ShelterDoor_OP01
+SD_Shifu_Dead01
+SD_ShowDown01
+SD_ShowMax01
+SD_ShowUP01
+SD_ShowUP02
+SD_ShowUP03
+SD_ShowUP_Clear01
+SD_ShowUP_Clear02
+SD_ShowUP_Clear03
+SD_ShowUP_Clear04
+SD_ShowUp_Miss01
+SD_Skate_ElegantJump01
+SD_Skate_FinishMarker01
+SD_Skate_JumpMarker01
+SD_Skate_MarkerACT01
+SD_Skate_MarkerACT02
+SD_Skate_MarkerACT03
+SD_Skate_MarkerACT04
+SD_Skate_MarkerACT05
+SD_Skate_MarkerACT06
+SD_Skate_MarkerACT07
+SD_Skate_MarkerACT08
+SD_Skate_MarkerACT09
+SD_Skate_MarkerACT10
+SD_Skate_MarkerACT11
+SD_Skate_MarkerACT12
+SD_Skate_Meet01
+SD_Skate_SpinMarker01
+SD_SkateJump01
+SD_SkateJump02
+SD_Slider_Down01
+SD_Slow_Breack01
+SD_Slow_Breack03
+SD_Slow_Breack05
+SD_Slow_Breack06
+SD_Slow_Breack07
+SD_SmallFish_Water_In01
+SD_SmallFish_Water_In02
+SD_SmallFish_Water_Out01
+SD_SmallFish_Water_Out02
+SD_SmallShell_Hit01
+SD_SmallShell_Open01
+SD_Snow_Impact01
+SD_Snow_Impact02
+SD_SoapBubble01
+SD_SoapBubble02
+SD_SparkingLaser01
+SD_SparkingLaser02
+SD_SparkingLaser03
+SD_SparkingLaser_Blast01
+SD_SparkingLaser_Signs01
+SD_SparkingLaser_Stop01
+SD_SpotFlower_FindOut01
+SD_SpotFlower_FindOut02
+SD_SpotFlower_On01
+SD_Spotlight01
+SD_Stage_Waterfall01
+SD_Stage_Waterfall03
+SD_Stage_Waterfall05
+SD_Stage_Waterfall06
+SD_Stage_Waterfall07
+SD_StageCoin01
+SD_Steel_Frame_Break01
+SD_Steel_Frame_Hit01
+SD_Stella_ChangeClothe01
+SD_Stella_PreviewACT01
+SD_Stella_Purchase01
+SD_Stone_Break01
+SD_Stool_Appear01
+SD_Strawberries_Into01
+SD_SwordCut01
+SD_Through_Laser01
+SD_Timpani_FigureA_Boss_01
+SD_TrafficSign_Hit01
+SD_TranBeforeAmb01
+SD_TransAfterEffect01
+SD_TransDemo_RibbonAct01
+SD_TransDemo_SkateJump01
+SD_TransDemo_Top01
+SD_TransElevator_APP01
+SD_TransElevator_JetoPacRun01
+SD_Treasure_Get01
+SD_Treasure_Shining01
+SD_TreasureBox_Close01
+SD_TreasureBox_Open01
+SD_Turtle_Feet_Water_In01
+SD_Turtle_Feet_Water_Out01
+SD_Turtle_Swim01
+SD_UFO_Hit01
+SD_UFOBigger_AMB01
+SD_UFOBigger_AMB02
+SD_UI_Boss_Enter01
+SD_UI_Brochure_In01
+SD_UI_Brochure_L01
+SD_UI_Brochure_Out01
+SD_UI_Brochure_R01
+SD_UI_Cancel01
+SD_UI_Change_L01
+SD_UI_Change_L02
+SD_UI_Change_R01
+SD_UI_Change_R02
+SD_UI_Course_Enter01
+SD_UI_Cursor01
+SD_UI_Decide01
+SD_UI_Dress_Change01
+SD_UI_GardWindow01
+SD_UI_Goal_Count01
+SD_UI_Goal_Count02
+SD_UI_Goal_Hidden01
+SD_UI_Goal_Kira01
+SD_UI_Goal_Ribbon01
+SD_UI_Goal_Tota01l
+SD_UI_Guide_Close01
+SD_UI_Guide_Open01
+SD_UI_KeyConfig01
+SD_UI_MainMenu_Cancel01
+SD_UI_MainMenu_Cancel02
+SD_UI_MainMenu_Cancel03
+SD_UI_MainMenu_Cannot01
+SD_UI_MainMenu_Close01
+SD_UI_MainMenu_Close02
+SD_UI_MainMenu_Cursor01
+SD_UI_MainMenu_Cursor02
+SD_UI_MainMenu_Decide01
+SD_UI_MainMenu_Decide02
+SD_UI_MainMenu_Decide03
+SD_UI_MainMenu_Open01
+SD_UI_Menu_Close01
+SD_UI_Menu_Open01
+SD_UI_Order01
+SD_UI_Preview_Action01
+SD_UI_Preview_Close01
+SD_UI_Preview_Hide01
+SD_UI_Preview_Open01
+SD_UI_Preview_Show01
+SD_UI_Rank01
+SD_UI_Rank02
+SD_UI_Rank03
+SD_UI_Result_Ribbon_Up01
+SD_UI_ScoreCount01
+SD_UI_ScoreCount02
+SD_UI_Shop_Purchase01
+SD_UI_StaffCamera01
+SD_UI_Title01
+SD_UI_Title02
+SD_UI_Vib_Minus01
+SD_UI_Vib_Plus01
+SD_UI_Window_Hide01
+SD_UI_Window_Hide02
+SD_UI_Window_Hide03
+SD_UI_Window_Show01
+SD_UI_Window_Show02
+SD_UI_Window_Show03
+SD_Unlock01
+SD_Vertical_Laser01
+SD_Vertical_Laser_Signs01
+SD_Wagon01
+SD_Wagon02
+SD_Wall_Stomp01
+SD_Wall_Stomp02
+SD_Wall_Stomp03
+SD_Wheat_Bundle01
+SD_Wheat_Fall01
+SD_Wheat_Into01
+SD_Whirlpool01
+SD_Whirlpool02
+SD_Whirlpool03
+SD_Whirlpool_Ambience01
+SD_Whirlpool_Ambience02
+SD_Whirlpool_Purification01
+SD_Whirlpool_Purification02
+SD_WoodDoorOpen01
+SD_WoodDoorOpen02
+SD_WoodenFence_Slide01
+SD_WoodenHouse_Break01
+SD_WoodenHouse_Break02
+SD_YAMI_Core_Purification01
+SD_YAMI_End01
+SD_Yami_Grape_APP01
+SD_Yami_P_TimeFootsteps_Tile
+SD_Yami_P_VC01
+SD_YAMI_Purification01
+SD_Yami_Rock_Break01
+SD_Yami_Rock_Break02
+SD_Yami_Rock_Circle01
+SD_Yami_Rock_Fall01
+SD_Yami_Rock_In01
+SD_Yami_Rock_Line01
+SD_Yami_Rock_Out01
+SD_Yami_Rock_Rotate01
+SD_Yami_Rock_Shake01
+SD_Yami_Rock_Shot01
+SD_YAMI_Stage01
+SD_YAMI_Stage03
+SD_Yami_Stella_VC01
+SD_YamiGravity_Core01
+SD_YamiGravity_Core02
+SD_YamiGravity_Core03
+SD_YamiGravity_Core04
+SD_YamiGravity_Core_Loop01
+SD_YamiGravity_Flap_Down01
+SD_YamiGravity_Flap_Down02
+SD_YamiGravity_Flap_Up01
+SD_YamiGravity_Flap_Up02
+SD_YamiGravity_Glide01
+SD_YamiGravity_Lay01
+SD_YamiGravity_Lay02
+SD_YamiGravity_Revival01
+SD_YamiGravity_Spin01
+SD_YamiGravity_Spin02
+SD_YamiGravity_Transform01
+SD_YamiGravity_Transform02
+SD_YamiImpact_CatACT00
+SD_YamiImpact_CatACT01
+SD_YamiImpact_CatACT02
+SD_YamiImpact_CatACT03
+SD_YamiImpact_CatACT04
+SD_YamiImpact_CatACT05
+SD_YamiImpact_CatACT06
+SD_YamiImpact_CatACT07
+SD_YamiImpact_CatACT08
+SD_YamiImpact_CatACT09
+SD_YamiImpact_CatACT10
+SD_YamiImpact_CatCoreACT01
+SD_YamiImpact_CatCoreOut01
+SD_Yamiimpact_CatRevival01
+SD_YamiImpact_MouseBom01
+SD_YamiImpact_MouseBom02
+SD_YamiImpact_MouseBom03
+SD_YamiImpact_MouseBom04
+SD_Yamiimpact_Ribbon_Hit01
+SD_YamiImpact_SepDemo01
+SD_YamiImpact_SepDemo02
+SD_YamiImpact_SepDemo04
+SD_YamiImpact_SepDemo05
+SD_YamiImpact_SepDemo06
+SD_YamiImpact_SepDemo07
+SD_YamiRef_Asiba01
+SD_YamiRef_Asiba02
+SD_YamiRef_Asiba03
+SD_YamiRef_CoreRise01
+SD_YamiRef_LionACT01
+SD_YamiRef_LionACT02
+SD_YamiRef_LionACT03
+SD_YamiRef_LionACT04
+SD_YamiRef_LionACT05
+SD_YamiRef_LionACT06
+SD_YamiRef_LionACT07
+SD_YamiRef_LionACT08
+SD_YamiRef_LionACT09
+SD_YamiRef_LionACT10
+SD_YamiRef_LionACT11
+SD_YamiRef_LionACT12
+SD_YamiRef_LionACT13
+SD_YamiRef_LionACT14
+SD_YamiRef_LionACT15
+SD_YamiRef_LionACT16
+SD_YamiRef_LionATK01
+SD_YamiRef_LionATK02
+SD_YamiRef_LionATK03
+SD_YamiRef_LionATK04
+SD_YamiRef_LionATK05
+SD_YamiRef_LionATK06
+SD_YamiRef_LionATK07
+SD_YamiRef_LionATK08
+SD_YamiRef_LionCoreOut01
+SD_YamiRef_LionDMG01
+SD_YamiRef_LionOut01
+SD_YamiRef_LionRev01
+SD_YamiRef_LionSpot01
+SD_YamiRef_PeachATK01
+SD_YamiRef_PeachATK02
+SD_YamiRef_PeachATK03
+SD_YAMISTART01
+SD_YamiTime_Bomb01
+SD_YamiTime_Bomb02
+SD_YamiTime_ElevatorAPP01
+SD_YamiTime_SnakeAct01
+SD_YamiTime_SnakeAct02
+SD_YamiTime_SnakeAct03
+SD_YamiTime_SnakeAct04
+SD_YamiTime_SnakeAct05
+SD_YamiTime_SnakeAct06
+SD_YamiTime_SnakeACT07
+SD_YamiTime_SnakeACT08
+SD_YamiTime_SnakeACT09
+SD_YamiTime_SnakeCoreACT01
+SD_YamiTime_SnakeCoreACT02
+SD_YamiTime_SnakeCoreOut01
+SD_YamiTime_SnakeDmg01
+SD_YamiTime_SnakeOut01
+SD_YamiTime_SnakeOut02
+SD_YamiTime_SnakeRev01
+SD_YamiTime_Start01
+SD_Yi_CatHandL00
+SD_Yi_CatHandL01
+SD_Yi_CatHandR00
+SD_Yi_CatHandR01
+SD_YI_CatRoar00
+SD_YI_CatRoar01
+SD_YR_Demo_Grapehand01
+SD_YR_Demo_GrapeWoosh01
+SD_YR_Demo_GrapeWoosh02
+SD_YR_Demo_LionRoar00
+SD_YR_Demo_LionRoar01
+SD_YR_LionHandC01
+SDF_AgentB_SpaceShip_down
+SDF_AgentB_SpaceShip_reset
+SDF_AgentB_SpaceShip_up
+SE_F_KungFuA_Demo01
+SYS_BGM_AgebtB_StopTestSE
+SYS_BGM_AgentB_Duck01A_SET
+SYS_BGM_AgentB_Duck01B_RESET
+SYS_BGM_AgentB_Duck01B_SET
+SYS_BGM_AgentB_Duck02_RESET
+SYS_BGM_AgentB_Duck02_SET
+SYS_BGM_DebugBus_OFF
+SYS_BGM_DebugBus_ON
+SYS_BGM_Init_LifeZero
+SYS_BGM_MC_RealtimeEff_Mute
+SYS_BGM_MC_RealtimeEff_UnMute
+SYS_BGM_OFF
+SYS_BGM_ON
+SYS_BGM_Pause_Bus01_RESET
+SYS_BGM_Pause_Bus01_SET
+SYS_BGM_Pause_Searcher
+SYS_BGM_RealtimeEff_Mute
+SYS_BGM_RealtimeEff_UnMute
+SYS_BGM_Reset
+SYS_BGM_Resume1_Searcher
+SYS_BGM_Resume2_Searcher
+SYS_BGM_Stop_forMovieDemo
+SYS_SE_OFF
+SYS_SE_OFF01
+SYS_SE_ON
+VC_AD_398
+VC_AD_399
+VC_AD_400
+VC_AD_401
+VC_AD_402
+VC_AD_403
+VC_AD_406
+VC_AD_407
+VC_AD_416
+VC_AD_426
+VC_AD_428
+VC_AD_429
+VC_AD_433
+VC_AD_436
+VC_AD_441
+VC_AD_441_Dly
+VC_AD_442
+VC_AD_443
+VC_AD_444
+VC_AD_446
+VC_AD_448
+VC_AD_448_1
+VC_AD_449
+VC_AD_450
+VC_AD_451
+VC_AD_453
+VC_AD_455
+VC_AD_457
+VC_AD_458
+VC_AD_459
+VC_AD_460
+VC_AD_461
+VC_AD_467
+VC_AD_467_Dly
+VC_AD_469
+VC_AD_478
+VC_AD_479
+VC_AD_483
+VC_AD_B_Bell01
+VC_AD_B_Bell02
+VC_AD_B_Bell03
+VC_AD_B_Bell04
+VC_AD_Douke_486a
+VC_AD_Douke_486b
+VC_AD_Douke_486b_2
+VC_AD_Douke_486b_3
+VC_AD_Douke_486c
+VC_AmorG_103
+VC_ANGRY_demo_D
+VC_Armer_066_1
+VC_ArmorG_100
+VC_ArmorG_101
+VC_ArmorG_104
+VC_B__CwG_012
+VC_B__CwG_012_1
+VC_B__CwG_012_2
+VC_B__CwG_012_3
+VC_B__CwG_012_4
+VC_B__CwG_012_5
+VC_B__CwG_012_6
+VC_B__CwG_013
+VC_B__CwG_016
+VC_B__CwG_018
+VC_B__CwG_019
+VC_B_Fgsk2_001
+VC_B_Fgsk2_002
+VC_B_Fgsk2_004
+VC_B_Fgsk2_004_1
+VC_B_Fgsk2_006
+VC_B_Fgsk2_007
+VC_B_Fgsk2_008
+VC_B_Fgsk2_009A
+VC_B_Fgsk2_009B
+VC_B_Fgsk2_009B_01
+VC_B_Fgsk2_010
+VC_B_Fgsk2_011
+VC_B_Fgsk2_012
+VC_B_Fgsk2_013
+VC_B_Fgsk2_014
+VC_B_FgSk2_400
+VC_B_Fgsk2_401
+VC_B_KnFu_072
+VC_B_KnFu_088
+VC_B_KnFu_089
+VC_B_KnFu_089_1
+VC_B_KnFu_090
+VC_B_KnFu_091
+VC_B_KnFu_096
+VC_B_KnFu_097
+VC_B_KnFu_098
+VC_B_KnFu_106
+VC_B_KnFu_107
+VC_B_KnFu_107_1
+VC_B_KnFu_108
+VC_B_KnFu_117_12
+VC_B_KnFu_88_1
+VC_B_Nj_1
+VC_B_Nj_C_001
+VC_B_Nj_C_002
+VC_B_Nj_C_003
+VC_B_Nj_C_004
+VC_B_Pati_001
+VC_B_Pati_002
+VC_B_Pati_003
+VC_B_Pati_004a
+VC_B_Pati_005a
+VC_B_Pati_005b
+VC_B_Pati_006
+VC_B_Pati_007
+VC_B_Pati_008
+VC_B_Pati_009
+VC_B_Pati_010
+VC_B_Pati_011
+VC_B_Pati_012
+VC_B_Pati_013
+VC_B_Pati_014
+VC_B_Pati_015
+VC_B_Pati_016
+VC_B_Pati_017
+VC_B_Pati_018
+VC_B_Pati_019
+VC_B_Pati_020
+VC_B_Pati_021
+VC_B_Pati_022
+VC_B_Pati_023
+VC_Camera_001
+VC_Camera_002
+VC_Camera_003
+VC_Camera_004
+VC_Camera_005
+VC_Camera_006
+VC_Camera_007
+VC_Camera_008
+VC_Camera_009
+VC_Camera_011
+VC_Camera_013
+VC_Camera_014
+VC_Camera_016
+VC_Camera_017
+VC_Camera_019a
+VC_Camera_019b
+VC_Camera_022a
+VC_Camera_022b
+VC_Caston_002_F
+VC_Caston_002_m
+VC_Caston_002_M_1
+VC_Caston_003_f
+VC_Caston_003_M
+VC_Caston_004_F
+VC_Caston_004_M
+VC_Caston_005_f
+VC_Caston_005_M
+VC_Caston_006_F
+VC_Caston_006_m
+VC_Caston_007_F
+VC_Caston_007_m
+VC_Caston_010_F
+VC_Caston_010_m
+VC_Caston_011_F
+VC_Caston_011_F_01
+VC_Caston_011_M
+VC_Caston_015_F
+VC_Caston_015_M
+VC_Caston_032_M
+VC_Caston_032_M_01
+VC_Caston_033_M
+VC_Caston_041_M
+VC_Caston_042_M
+VC_Caston_043_F
+VC_Caston_043_m
+VC_Caston_044_F
+VC_Caston_044_F_01
+VC_Caston_044_M
+VC_Caston_045_F
+VC_Caston_045_F_01
+VC_Caston_045_M
+VC_Caston_048_f
+VC_Caston_048_F_01
+VC_Caston_048_M
+VC_Caston_053_F
+VC_Caston_053_F_01
+VC_Caston_053_M
+VC_Caston_053_M_01
+VC_Caston_053_M_02
+VC_Caston_053_M_1
+VC_Caston_054_f
+VC_Caston_054_F_01
+VC_Caston_054_M
+VC_Caston_070_F
+VC_Caston_070_F_FS_Scream
+VC_Caston_070_M
+VC_Caston_071_F
+VC_Caston_071_M
+VC_Caston_074_M
+VC_Caston_075_F
+VC_Caston_075_m
+VC_Caston_075_M_01
+VC_Caston_076_F
+VC_Caston_076_M
+VC_Caston_077_F
+VC_Caston_077_M
+VC_Caston_078_F
+VC_Caston_078_M
+VC_Caston_078_M_01
+VC_Caston_078_M_02
+VC_Caston_078_M_03
+VC_Caston_078_M_04
+VC_Caston_078_M_05
+VC_Caston_079_F
+VC_Caston_079_M
+VC_Caston_080_F
+VC_Caston_080_M
+VC_Caston_081_F
+VC_Caston_081_M
+VC_Caston_082_F
+VC_Caston_082_F_01
+VC_Caston_082_F_1
+VC_Caston_082_M
+VC_Caston_083_M
+VC_Caston_084_F
+VC_Caston_084_M
+VC_Caston_085_F
+VC_Caston_085_M
+VC_Caston_086_f
+VC_Caston_086_M
+VC_Caston_087_F
+VC_Caston_087_m
+VC_Caston_092_M
+VC_Caston_101B
+VC_Caston_102
+VC_Caston_103
+VC_Caston_129_M_01
+VC_Caston_130_M
+VC_Caston_132_F
+VC_Caston_132_M
+VC_Caston_133_M
+VC_Caston_133_M_01
+VC_Caston_134_F
+VC_Caston_134_M
+VC_Caston_141_F
+VC_Caston_141_m
+VC_Caston_143_F
+VC_Caston_143_M
+VC_Caston_143_M_01
+VC_Caston_144_f
+VC_Caston_144_M
+VC_Caston_144_M_01
+VC_Caston_146_F
+VC_Caston_146_m
+VC_Caston_164_F
+VC_Caston_164_M
+VC_Caston_165_F
+VC_Caston_165_M
+VC_Caston_166_M
+VC_Caston_166_M_01
+VC_Caston_167_F
+VC_Caston_167_M
+VC_Caston_168_F
+VC_Caston_168_M
+VC_Caston_169_F
+VC_Caston_169_F_1
+VC_Caston_169_M
+VC_Caston_169_M_Hero_TransYes
+VC_Caston_170_F
+VC_Caston_170_M
+VC_Caston_171_F
+VC_Caston_171_M
+VC_Caston_172_F
+VC_Caston_172_M
+VC_Caston_173_F
+VC_Caston_173_M
+VC_Caston_174_F
+VC_Caston_174_M
+VC_Caston_174_M_01
+VC_Caston_174_M_02
+VC_Caston_175_F
+VC_Caston_175_F_01
+VC_Caston_175_M
+VC_Caston_175_M_01
+VC_Caston_176_F
+VC_Caston_176_M
+VC_Caston_176_M_01
+VC_Caston_177_F
+VC_Caston_177_F_01
+VC_Caston_177_M
+VC_Caston_177_M_01
+VC_Caston_177_M_02
+VC_Caston_178_F
+VC_Caston_178_m
+VC_Caston_179_F
+VC_Caston_179_M
+VC_Caston_180_F
+VC_Caston_180_M
+VC_Caston_181_F
+VC_Caston_181_F_01
+VC_Caston_181_F_02
+VC_Caston_181_M
+VC_Caston_181_M_01
+VC_Caston_183_F
+VC_Caston_183_M
+VC_Caston_184_F
+VC_Caston_184_M
+VC_Caston_185_M
+VC_Caston_186_F
+VC_Caston_186_F_01
+VC_Caston_186_M
+VC_Caston_187_F
+VC_Caston_187_M
+VC_Caston_188_f
+VC_Caston_188_M
+VC_Caston_190_M
+VC_Caston_191_F
+VC_Caston_191_M
+VC_Caston_194_F
+VC_Caston_194_m
+VC_Caston_194_M_01
+VC_Caston_194_M_02
+VC_Caston_195_F
+VC_Caston_195_M
+VC_Caston_196_F
+VC_Caston_196_F_01
+VC_Caston_196_M
+VC_Caston_225_M
+VC_Caston_225_M_wWhinny
+VC_Caston_226_F
+VC_Caston_226_M
+VC_Caston_227_F
+VC_Caston_227_M
+VC_Caston_228_M
+VC_Caston_229_F
+VC_Caston_229_M
+VC_Caston_229_M_01
+VC_Caston_238_F
+VC_Caston_238_M
+VC_Caston_238_M_01
+VC_Caston_239_M
+VC_Caston_249_F
+VC_Caston_249_M
+VC_Caston_249_M_01
+VC_Caston_249_M_02
+VC_Caston_250_F
+VC_Caston_250_M
+VC_Caston_253_F
+VC_Caston_253_M
+VC_Caston_253_M_1
+VC_Caston_253_M_1_1
+VC_Caston_253_M_F01
+VC_Caston_254_F
+VC_Caston_254_M
+VC_Caston_255_F
+VC_Caston_255_M
+VC_Caston_256_F
+VC_Caston_256_F_01
+VC_Caston_256_M
+VC_Caston_259_F
+VC_Caston_259_m
+VC_Caston_259_M_01
+VC_Caston_260_f
+VC_Caston_260_M
+VC_Caston_260_M_01
+VC_Caston_292_F
+VC_Caston_292_M
+VC_Caston_292_MwWhinny
+VC_Caston_293_F
+VC_Caston_293_M
+VC_Caston_294_F
+VC_Caston_294_M
+VC_Caston_295_M
+VC_Caston_300_M
+VC_Caston_300_M_01
+VC_Caston_302_F
+VC_Caston_302_m
+VC_Caston_302_M_01
+VC_Caston_303_M
+VC_Caston_303_M_01
+VC_Caston_327_F
+VC_Caston_327_M
+VC_Caston_328_f
+VC_Caston_328_M
+VC_Caston_329_F
+VC_Caston_329_M
+VC_Caston_330_f
+VC_Caston_330_M
+VC_Caston_330_M_01
+VC_Caston_331_F
+VC_Caston_331_F_01
+VC_Caston_331_M
+VC_Caston_331_M_01
+VC_Caston_332_F
+VC_Caston_332_M
+VC_Caston_333_F
+VC_Caston_333_F_01
+VC_Caston_333_M
+VC_Caston_333_M_01
+VC_Caston_334_F
+VC_Caston_334_M
+VC_Caston_335_M
+VC_Caston_336_F
+VC_Caston_336_m
+VC_Caston_337_F
+VC_Caston_337_M
+VC_Caston_338_F
+VC_Caston_338_M
+VC_Caston_357_F
+VC_Caston_357_m
+VC_Caston_357_M_01
+VC_Caston_358_F
+VC_Caston_358_m
+VC_Caston_359_F
+VC_Caston_366_F_FS_Demo
+VC_Caston_372_F
+VC_Caston_372_M
+VC_Caston_373_F
+VC_Caston_373_M
+VC_Caston_374_F
+VC_Caston_374_M
+VC_Caston_374_M_01
+VC_Caston_375_F
+VC_Caston_375_M
+VC_Caston_381_F
+VC_Caston_381_M
+VC_Caston_381_M_01
+VC_Caston_382_F
+VC_Caston_382_F_Wild
+VC_Caston_382_M
+VC_Caston_383_F
+VC_Caston_383_M
+VC_Caston_383_M_01
+VC_Caston_410_F
+VC_Caston_412_F
+VC_Caston_412_M
+VC_Caston_415_f
+VC_Caston_415_M
+VC_Caston_417_F
+VC_Caston_417_M
+VC_Caston_418_F
+VC_Caston_418_F_01
+VC_Caston_418_m
+VC_Caston_419_F
+VC_Caston_419_M
+VC_Caston_419_M_01
+VC_Caston_420_F
+VC_Caston_420_m
+VC_Caston_421_F
+VC_Caston_421_m
+VC_Caston_422_F
+VC_Caston_422_M_1
+VC_Caston_423_F
+VC_Caston_423_F_01
+VC_Caston_423_M
+VC_Caston_427_F
+VC_Caston_427_M
+VC_Caston_430_F
+VC_Caston_430_M
+VC_Caston_435_F
+VC_Caston_435_M
+VC_Caston_439_F
+VC_Caston_439_M
+VC_Caston_439_M_01
+VC_Caston_440_f
+VC_Caston_440_M
+VC_Caston_452_F
+VC_Caston_452_M
+VC_Caston_D064_M_1
+VC_Caston_D064_M_2
+VC_Caston_D064_M_3
+VC_Caston_Hide01
+VC_Caston_MC_Mermaid01
+VC_Caston_MC_Mermaid02
+VC_Caston_MC_Mermaid03
+VC_Caston_MC_Mermaid04
+VC_Caston_MC_Mermaid05
+VC_Caston_MC_Mermaid06
+VC_Caston_MC_Mermaid07
+VC_Caston_MC_Mermaid08
+VC_Caston_Praise01
+VC_Caston_Praise02_FS_A
+VC_Caston_Praise02_Pati_A
+VC_Caston_Sing_Bad01
+VC_Caston_Sing_Bad02
+VC_Crow_162
+VC_Daughter_099
+VC_Daughter_100
+VC_Daughter_104
+VC_Daughter_105
+VC_Daughter_105_2
+VC_Daughter_105_3
+VC_Daughter_105_4
+VC_Daughter_109
+VC_Daughter_109_Gaya01
+VC_Douke_001
+VC_Douke_002
+VC_Douke_003
+VC_Douke_004
+VC_Douke_006
+VC_Douke_007
+VC_Douke_008
+VC_Douke_009
+VC_Douke_009_1
+VC_Douke_010
+VC_Douke_011
+VC_Douke_012
+VC_Douke_013
+VC_Douke_014
+VC_Douke_014_0915
+VC_Douke_015
+VC_Douke_017
+VC_Douke_018
+VC_Douke_020
+VC_Douke_020_1
+VC_Douke_020_wWhinny
+VC_Douke_025
+VC_Douke_025a
+VC_Douke_039
+VC_Douke_040
+VC_Douke_040_01
+VC_Douke_046
+VC_Douke_047
+VC_Douke_051
+VC_Douke_192
+VC_Douke_192_1
+VC_Douke_192_2
+VC_Douke_192_3
+VC_Douke_251
+VC_Douke_252
+VC_Douke_274
+VC_Douke_275
+VC_Douke_275_1
+VC_Douke_275_2
+VC_Douke_276_Cg_B
+VC_Douke_283
+VC_Douke_445
+VC_Douke_447
+VC_Douke_462
+VC_Douke_463
+VC_Douke_463_1
+VC_Douke_464
+VC_Douke_465
+VC_Douke_466
+VC_Douke_46_1
+VC_Douke_46_2
+VC_Douke_46_Cg_B01
+VC_Douke_46_Fencer_B
+VC_Douke_MermaidA01
+VC_Douke_MermaidA02
+VC_Douke_Sc_B_Act01
+VC_Douke_Yabai01
+VC_Dr_230
+VC_Dr_232
+VC_Dr_232_01
+VC_Dr_233
+VC_Dr_234
+VC_Dr_236
+VC_Dr_240
+VC_Dr_242
+VC_Dr_243
+VC_Dr_244
+VC_Dr_246
+VC_Dr_248
+VC_Dr_248_Hero_B_Bigger
+VC_Dr_257
+VC_Dr_258
+VC_Dr_261
+VC_Dr_261_1
+VC_Dr_261_2
+VC_Dr_263
+VC_Dr_265
+VC_Dr_266
+VC_Dr_268
+VC_Dr_268_Ht_C
+VC_Dr_269
+VC_Dr_271
+VC_Dr_271_01
+VC_Dr_272
+VC_Dr_273
+VC_Dr_277
+VC_Dr_278
+VC_Grape_D_YamiRef00
+VC_Grape_D_YamiRef01
+VC_Grape_D_YamiRef02
+VC_Grape_D_YamiRef03
+VC_Grape_D_YamiRef04
+VC_Grape_D_YamiRef05
+VC_Grape_D_YamiRef055
+VC_Grape_D_YamiTime01
+VC_Grape_D_YamiTime02
+VC_Grape_D_YamiTime03
+VC_Grape_D_YamiTime04
+VC_Grape_D_YamiTime05
+VC_Grape_D_YamiTime06
+VC_Grape_DMG01
+VC_Grape_PrismA_Attack_Out01
+VC_Grape_PrismA_Fire_In01
+VC_Grape_PrismA_Parade_In01
+VC_Grape_PrismA_Parade_In02
+VC_Grape_PrismA_Present_In01
+VC_Grape_PrismB_DMG01
+VC_Grape_PrismB_DMG02
+VC_Guard_000
+VC_Guard_131
+VC_Guard_135
+VC_Guard_136_2_1
+VC_Guard_142
+VC_Guard_142_B
+VC_Guard_157
+VC_Guard_158
+VC_Hero_A_CastonScream01
+VC_Kira_Ag310
+VC_Kira_Ag311
+VC_Kira_Ag311_2
+VC_Kira_Ag311_3
+VC_Kira_Ag311_4
+VC_Kira_Ag312
+VC_Kira_Ag313
+VC_Kira_Ag314
+VC_Kira_Ag315
+VC_Kira_Ag316
+VC_Kira_Ag317
+VC_Kira_Ag318
+VC_Kira_Ag319
+VC_Kira_Ag320
+VC_Kira_Ag320_2
+VC_Kira_Ag320_3
+VC_Kira_Ag320_4
+VC_Kira_Ag320_5
+VC_Kira_Ag321
+VC_Kira_Ag321_2
+VC_Kira_Ag322
+VC_Kira_Ag323
+VC_Kira_Ag324
+VC_Kira_Ag325
+VC_Kira_Ag325_1
+VC_Kira_Ag325_2
+VC_Kira_Ag325_3
+VC_Kira_Ag326
+VC_Kira_Ag326_2
+VC_Kira_Ag_LastDemo01
+VC_Kira_Cwg2_001
+VC_Kira_Cwg2_004
+VC_Kira_Cwg2_005
+VC_Kira_Cwg2_006
+VC_Kira_Cwg2_007
+VC_Kira_Cwg2_008
+VC_Kira_Cwg2_009
+VC_Kira_Cwg2_010
+VC_Kira_Cwg2_011
+VC_Kira_Cwg2_012
+VC_Kira_Cwg2_012_B1F
+VC_Kira_Cwg2_013
+VC_Kira_Cwg2_014
+VC_Kira_Cwg2_015
+VC_Kira_Cwg2_016
+VC_Kira_Cwg2_017
+VC_Kira_Cwg2_018
+VC_Kira_Cwg2_019
+VC_Kira_Cwg2_020
+VC_Kira_Cwg2_021
+VC_Kira_Cwg2_022
+VC_Kira_Cwg2_023
+VC_Kira_Cwg2_024
+VC_Kira_Cwg2_025
+VC_Kira_Cwg2_026
+VC_Kira_Cwg2_027
+VC_Kira_Cwg2_028
+VC_Kira_Cwg2_029
+VC_Kira_Cwg2_030
+VC_Kira_Cwg2_031
+VC_Kira_Cwg2_10A
+VC_Kira_CwG_021
+VC_Kira_CwG_022
+VC_Kira_CwG_023
+VC_Kira_CwG_024
+VC_Kira_CwG_025
+VC_Kira_CwG_026
+VC_Kira_CwG_027
+VC_Kira_CwG_028
+VC_Kira_CwG_029
+VC_Kira_Fc_063_F_LastBossEnter01
+VC_Kira_Fc_D040
+VC_Kira_Fc_D040_2a
+VC_Kira_Fc_D040_2b
+VC_Kira_Fc_D052
+VC_Kira_Fgsk2_001
+VC_Kira_Fgsk2_002
+VC_Kira_Fgsk2_003
+VC_Kira_Fgsk2_004
+VC_Kira_Fgsk2_005
+VC_Kira_Fgsk2_006
+VC_Kira_Fgsk2_007
+VC_Kira_Fgsk2_008
+VC_Kira_Fgsk2_009
+VC_Kira_Fgsk2_010
+VC_Kira_Fgsk2_011
+VC_Kira_Fgsk2_012
+VC_Kira_Fgsk2_013
+VC_Kira_Fgsk2_014
+VC_Kira_Fgsk2_015
+VC_Kira_Fgsk2_016
+VC_Kira_Fgsk2_017
+VC_Kira_Fgsk2_018
+VC_Kira_Fgsk2_019
+VC_Kira_Fgsk2_020
+VC_Kira_Fgsk2_021
+VC_Kira_FgSk_389
+VC_Kira_FgSk_390
+VC_Kira_FgSk_391
+VC_Kira_FgSk_394
+VC_Kira_FgSk_395
+VC_Kira_FgSk_396
+VC_Kira_Hr2_002
+VC_Kira_Hr2_003
+VC_Kira_Hr2_004
+VC_Kira_Hr2_005
+VC_Kira_Hr2_006
+VC_Kira_Hr2_007
+VC_Kira_Hr2_008
+VC_Kira_Hr2_009
+VC_Kira_Hr2_010
+VC_Kira_Hr2_011
+VC_Kira_Hr2_012
+VC_Kira_Hr2_013
+VC_Kira_KnFu_120
+VC_Kira_KnFu_122
+VC_Kira_KnFu_123
+VC_Kira_KnFu_124
+VC_Kira_KnFu_125
+VC_Kira_KnFuSch_123
+VC_Kira_KnFuSch_124
+VC_Kira_Mm_001
+VC_Kira_Mm_002a
+VC_Kira_Mm_002b
+VC_Kira_Mm_003
+VC_Kira_Mm_004a
+VC_Kira_Mm_004b
+VC_Kira_Mm_005
+VC_Kira_Mm_006
+VC_Kira_Mm_007a
+VC_Kira_Mm_007b
+VC_Kira_Mm_008
+VC_Kira_Mm_009
+VC_Kira_Mm_355
+VC_Kira_Mm_356
+VC_Kira_Nj_148_1
+VC_Kira_Nj_149
+VC_Kira_Nj_150
+VC_Kira_Nj_150_1
+VC_Kira_Nj_150_2
+VC_Kira_Nj_151
+VC_Kira_Nj_152
+VC_Kira_Nj_153
+VC_Kira_Nj_154
+VC_Kira_Nj_155
+VC_Kira_Nj_156
+VC_Kira_Nj_159
+VC_Kira_Nj_159_5
+VC_Kira_Nj_159_5b
+VC_Kira_NjSch_02
+VC_Kira_NjSch_03
+VC_Kira_Pati_001
+VC_Kira_Pati_002
+VC_Kira_Pati_003
+VC_Kira_Pati_005
+VC_Kira_Pati_006
+VC_Kira_Pati_007
+VC_Kira_Pati_008
+VC_Kira_Pati_009
+VC_Kira_Pati_010
+VC_Kira_Pati_011
+VC_Kira_Pati_012
+VC_Kira_Pati_013
+VC_Kira_Pati_015
+VC_Kira_Pati_016
+VC_Kira_Pati_017
+VC_Kira_Pati_018
+VC_Kira_Pati_019
+VC_Kira_Pati_020
+VC_Kira_Pati_021
+VC_Kira_Pati_022
+VC_Kira_Pati_023
+VC_Kira_Pati_024
+VC_Kira_Pati_025
+VC_Kira_Pati_026
+VC_Kira_Pati_027
+VC_Kira_Pati_028
+VC_Kira_Pati_029
+VC_Kira_Pati_030
+VC_Kira_Pati_031
+VC_Kira_Pati_032
+VC_Kira_Pati_033
+VC_Kira_Pati_033_1
+VC_Kira_Pati_034
+VC_Kira_Pati_035
+VC_Kira_Pati_036
+VC_Kira_Sch_472
+VC_Kira_Sch_473
+VC_Kira_Sch_474
+VC_Kira_Sch_475
+VC_Kira_Sch_476
+VC_Kira_Sch_477
+VC_Kira_Sch_480
+VC_Kira_Sch_481
+VC_Kira_Sch_482
+VC_Kira_Sch_484
+VC_Kira_Sch_485
+VC_Kirac_058
+VC_Kirac_060
+VC_Kirac_061
+VC_Kirac_062
+VC_Kirac_063
+VC_Kirac_064
+VC_Kirac_61_Demo01
+VC_Kirac_61_Demo02
+VC_Kirac_61_Demo03
+VC_Kirac_Cg01
+VC_ko_Action_Dash_08_ny_44
+VC_ko_Action_JumpAction_07_ny_44
+VC_MC_FgSk_06_01
+VC_MC_FgSk_366
+VC_MC_FgSk_367
+VC_MC_FgSk_367_01
+VC_MC_Pati_366_F
+VC_MC_Pati_366_m
+VC_MermaidA_Caston_Crowd_Bravo01
+VC_MermaidA_Caston_Crowd_Scream01
+VC_MermaidA_Caston_Crowd_Surprised01
+VC_MermaidA_Hall_Bravo01
+VC_Mob_M_01
+VC_Mob_M_02
+VC_Mob_M_03
+VC_Mob_M_04
+VC_Mob_M_05
+VC_Mob_M_06
+VC_Mob_M_07
+VC_Mob_M_08
+VC_Mob_M_09
+VC_Mob_M_10
+VC_Mob_M_11
+VC_Mob_M_12
+VC_Mob_M_13
+VC_Mob_M_14
+VC_Mr_487
+VC_Mr_487_1
+VC_Mr_488
+VC_Mr_489
+VC_Mr_489_1
+VC_Mr_490
+VC_Mr_490_1
+VC_Mr_491
+VC_Mr_492_1
+VC_Mr_492_2
+VC_Mr_492_3
+VC_Mr_493
+VC_Mr_494
+VC_Mr_494_1
+VC_Mr_495
+VC_Mr_496
+VC_Mr_497
+VC_Mr_498
+VC_MuseumDirector_230
+VC_MuseumDirector_231
+VC_MuseumDirector_232
+VC_MuseumDirector_233
+VC_MuseumDirector_234
+VC_MuseumDirector_236
+VC_MuseumDirector_240
+VC_MuseumDirector_242
+VC_MuseumDirector_243
+VC_MuseumDirector_244
+VC_MuseumDirector_244_1
+VC_MuseumDirector_245
+VC_MuseumDirector_246
+VC_MuseumDirector_247
+VC_MuseumDirector_248
+VC_MuseumDirector_257
+VC_MuseumDirector_258
+VC_MuseumDirector_261
+VC_MuseumDirector_262
+VC_MuseumDirector_263
+VC_MuseumDirector_265
+VC_MuseumDirector_266
+VC_MuseumDirector_267
+VC_MuseumDirector_268
+VC_MuseumDirector_269
+VC_MuseumDirector_272
+VC_MuseumDirector_281
+VC_Musician_001_F
+VC_Musician_001_m
+VC_Musician_002_F
+VC_Musician_002_M
+VC_Musician_003_F
+VC_Musician_005_F
+VC_Musician_005_m
+VC_Musician_006_f
+VC_Musician_006_M
+VC_Musician_008_F
+VC_Musician_008_m
+VC_Musician_009_F
+VC_Musician_009_m
+VC_Musician_010_F
+VC_Musician_010_m
+VC_Musician_012_F
+VC_Musician_012_m
+VC_Musician_013_F
+VC_Musician_013_M
+VC_Musician_014_f
+VC_Musician_014_M
+VC_Musician_015_F
+VC_Musician_015_m
+VC_Musician_016_f
+VC_Musician_016_M
+VC_Musician_017_M
+VC_Musician_018_f
+VC_Musician_018_M
+VC_Musician_019_f
+VC_Musician_019_M
+VC_Musician_021_F
+VC_Musician_022_f
+VC_Musician_022_M
+VC_Musician_023_F
+VC_Musician_023_m
+VC_Musician_024_f
+VC_Musician_024_M
+VC_Musician_025_F
+VC_Musician_026_F
+VC_Musician_027_f
+VC_Musician_027_M
+VC_Musician_028_F
+VC_Musician_028_m
+VC_Musician_029_F
+VC_Musician_029_m
+VC_Musician_030_F
+VC_Musician_030_m
+VC_Musician_031_F
+VC_Musician_031_m
+VC_Musician_032_F
+VC_Musician_033_f
+VC_Musician_033_M
+VC_Musician_035a_F
+VC_Musician_035a_M
+VC_Musician_036_F
+VC_Musician_036_m
+VC_Musician_037_F
+VC_Musician_037_M
+VC_Musician_038_F
+VC_Musician_038_M
+VC_Nj_Old_137
+VC_Nj_Old_138
+VC_Nj_Old_139
+VC_Nj_Old_999
+VC_P2_Cowgirl_Clear01
+VC_P2_Cowgirl_Clear01_ALT
+VC_P2_Cowgirl_Clear02
+VC_P2_Cowgirl_Clear03
+VC_P2_Demo_PrismB_FinalATK01
+VC_P2_Demo_PrismB_FinalATK02
+VC_P2_Demo_PrismB_FinalATK02_LastBossEnter01
+VC_P2_Demo_PrismB_FinalATK03
+VC_P2_Prism_DMG01
+VC_P2_Prism_OUT01
+VC_P2_PrismA_Charge01_02_LastBossenter01
+VC_P2_PrismA_Shot01
+VC_P2_PrismA_Shot01_05_LastBossEnter01
+VC_P2_PrismA_Shot01_1
+VC_P2_PrismB_Destroy01
+VC_P2_PrismB_Destroy02
+VC_P_Agent_DMG01
+VC_P_Agent_F_DMG01
+VC_P_Agent_Grab01
+VC_P_Agent_Jump01
+VC_P_Agent_LastDemo01
+VC_P_Agent_Slide01
+VC_P_Agent_Smug01
+VC_P_Agent_Trance01
+VC_P_Agent_Trance015
+VC_P_Agent_Trance02
+VC_P_Agent_Trance025
+VC_P_Agent_Trance028
+VC_P_Agent_Trance03
+VC_P_Agent_Unlock01
+VC_P_Agent_Wire01
+VC_P_Agent_Wire02
+VC_P_Agent_Wire03
+VC_P_AgentA_Last01
+VC_P_AgentA_Slow01
+VC_P_AgentC_Last01
+VC_P_AGREE_P
+VC_P_BEWARE_P
+VC_P_Cow_Trance01
+VC_P_Cow_Trance02
+VC_P_Cow_Trance03
+VC_P_Cow_Trance04
+VC_P_Cow_Trance05
+VC_P_Cowgirl_DMG01
+VC_P_Cowgirl_F_DMG01
+VC_P_Cowgirl_Hoop_Pull01
+VC_P_Cowgirl_Hoop_Pull02
+VC_P_Cowgirl_Hoop_Pull_Boss01
+VC_P_Cowgirl_Hoop_Throw01
+VC_P_Cowgirl_Hoop_Throw02
+VC_P_Cowgirl_Horse_Jump01
+VC_P_Cowgirl_Horse_Ride01
+VC_P_Cowgirl_Jump01
+VC_P_Cowgirl_Jump02
+VC_P_Cowgirl_Smug01
+VC_P_DECIDE_P
+VC_P_Demo_Area_C01
+VC_P_Demo_Area_C02
+VC_P_Demo_Area_C03
+VC_P_Demo_Area_C04
+VC_P_Demo_Area_Clear01
+VC_P_Demo_Area_D01
+VC_P_Demo_Area_E01
+VC_P_Demo_Area_E01_2
+VC_P_Demo_Area_E02
+VC_P_Demo_AreaBoss_Arrival01
+VC_P_Demo_AreaBoss_Enter01
+VC_P_Demo_Fencer_B01
+VC_P_Demo_Fencer_B02
+VC_P_Demo_Fencer_B03
+VC_P_Demo_Fencer_B03_1
+VC_P_Demo_Fencer_B03_2
+VC_P_Demo_Fencer_B03_3
+VC_P_Demo_Fencer_B04
+VC_P_Demo_Fencer_C01
+VC_P_Demo_Fencer_C02
+VC_P_Demo_GrapeAppear02
+VC_P_Demo_GrapeAppear03
+VC_P_Demo_GrapeAppear03_2_ALT
+VC_P_Demo_GrapeAppear04
+VC_P_Demo_GrapeAppear05
+VC_P_Demo_LastBoss_Enter01
+VC_P_Demo_LastBoss_Enter02
+VC_P_Demo_LastBoss_Enter03
+VC_P_Demo_LastBoss_Enter04
+VC_P_Demo_LastBoss_Enter05
+VC_P_Demo_Stella01
+VC_P_Demo_Stella02
+VC_P_Demo_Stella02_2
+VC_P_Demo_Stella03
+VC_P_Demo_Stella03_1_ALT
+VC_P_Demo_Stella04
+VC_P_Demo_Stella05
+VC_P_Demo_Stella06
+VC_P_Fencer_DMG01
+VC_P_Fencer_Dodge01
+VC_P_Fencer_Dodge02
+VC_P_Fencer_F_DMG01
+VC_P_Fencer_Fall01
+VC_P_Fencer_Jump01
+VC_P_Fencer_Smug01
+VC_P_Fencer_Swing01
+VC_P_Fencer_Swing02
+VC_P_Fencer_Swing03
+VC_P_Fencer_Swing04
+VC_P_Fencer_Swing05_TransDemo
+VC_P_Fencer_Swing_Hard01
+VC_P_Fencer_Swing_Hard02
+VC_P_Fencer_Swing_Up01
+VC_P_Fencer_Trance00
+VC_P_Fencer_Trance005
+VC_P_Fencer_Trance01
+VC_P_Fencer_Trance02
+VC_P_Fencer_Trance03
+VC_P_Fencer_Trance04
+VC_P_FigureSkater_Circle01
+VC_P_FigureSkater_F_DMG01
+VC_P_FigureSkater_Finish01
+VC_P_FigureSkater_Finish02
+VC_P_FigureSkater_Finish03
+VC_P_FigureSkater_Jump01
+VC_P_FigureSkater_Spin01
+VC_P_FigureSkater_Spin_Boss01
+VC_P_FigureSkater_Start01
+VC_P_FigureSkater_Trance01
+VC_P_FigureSkater_Trance015
+VC_P_FigureSkater_Trance02
+VC_P_FigureSkater_Trance025
+VC_P_FigureSkater_Trance03
+VC_P_GLAD_P
+VC_P_HAPPY_P
+VC_P_Hero_Bigger_Demo01
+VC_P_Hero_C_Finish01
+VC_P_Hero_Catch01
+VC_P_Hero_Catch02
+VC_P_Hero_DMG01
+VC_P_Hero_Jump01
+VC_P_Hero_KnockBack01
+VC_P_Hero_Punch01
+VC_P_Hero_Punch02
+VC_P_Hero_Punch03
+VC_P_Hero_Smug01
+VC_P_Hero_Start01
+VC_P_Hero_Throw01
+VC_P_Hero_Throw02
+VC_P_Hero_Throw03
+VC_P_Hero_Trance00
+VC_P_Hero_Trance01
+VC_P_Hero_Trance02
+VC_P_Hero_Trance025
+VC_P_Hero_Trance03
+VC_P_Hero_Trance04
+VC_P_KungFu_DMG01
+VC_P_KungFu_F_DMG01
+VC_P_KungFu_Jump01
+VC_P_KungFu_Kick01
+VC_P_KungFu_Kick02
+VC_P_KungFu_Kick03
+VC_P_KungFu_Kick04
+VC_P_KungFu_Kick_Boss01
+VC_P_KungFu_Kick_Boss02
+VC_P_KungFu_Kick_Boss03
+VC_P_KungFu_KnockBack01
+VC_P_KungFu_Pole01
+VC_P_KungFu_Pole02
+VC_P_KungFu_Pole_Jump01
+VC_P_KungFu_Pole_Jump02
+VC_P_KungFu_Punch_Boss01
+VC_P_KungFu_Punch_Boss02
+VC_P_KungFu_Smug01
+VC_P_KungFu_Trance01
+VC_P_KungFu_Trance02
+VC_P_KungFu_Trance03
+VC_P_KungFu_Trance035
+VC_P_KungFu_Trance04
+VC_P_KungFu_Trance05
+VC_P_L_ANGRY_P
+VC_P_LISTENING02
+VC_P_LISTENING_P
+VC_P_Mermaid_Smug01
+VC_P_Mermaid_Trance01
+VC_P_Mermaid_Trance02
+VC_P_Ninja_Attack01
+VC_P_Ninja_DMG01
+VC_P_Ninja_F_DMG01
+VC_P_Ninja_Jump01
+VC_P_Ninja_Jump02
+VC_P_Ninja_Land01
+VC_P_Ninja_Ninjutsu01
+VC_P_Ninja_Smug01
+VC_P_Ninja_Substitute01
+VC_P_Ninja_Substitute02
+VC_P_Ninja_Substitute03
+VC_P_Ninja_Trance01
+VC_P_Ninja_Trance02
+VC_P_Ninja_Trance03
+VC_P_Ninja_Trance04
+VC_P_Ninja_Trance045
+VC_P_Ninja_Trance048
+VC_P_Ninja_Trance05
+VC_P_Patissier_Cake_Success01
+VC_P_Patissier_Cake_Success02
+VC_P_Patissier_Cookie_Hold01
+VC_P_Patissier_Cookie_Miss01
+VC_P_Patissier_Cookie_Mix01
+VC_P_Patissier_Cookie_Put01
+VC_P_Patissier_Cookie_Success01
+VC_P_Patissier_Cookie_Success02
+VC_P_Patissier_Cream_Shot01
+VC_P_Patissier_Jump01
+VC_P_Patissier_Last_Success01
+VC_P_Patissier_MiniGame_Miss01
+VC_P_Patissier_MiniGame_Success01
+VC_P_Patissier_MiniGame_Success02
+VC_P_Patissier_MiniGame_Success03
+VC_P_Patissier_Smug01
+VC_P_Patissier_Trance01
+VC_P_Patissier_Trance02
+VC_P_Patissier_Trance03
+VC_P_Patissier_Trance04
+VC_P_Patissier_Trance05
+VC_P_Princess_Dance_Smile01
+VC_P_Princess_DMG01
+VC_P_Princess_DMG02
+VC_P_Princess_DMG03
+VC_P_Princess_F_DMG01
+VC_P_Princess_ItemGet01
+VC_P_Princess_Jump01
+VC_P_Princess_Jump02
+VC_P_Princess_Kirameki_Get01
+VC_P_Princess_KnockBack01
+VC_P_Princess_Out01
+VC_P_Princess_Out03
+VC_P_Princess_Ribbon_Boss01
+VC_P_Princess_Ribbon_Boss02
+VC_P_Princess_Ribbon_Get01
+VC_P_Princess_Ribbon_Rotate01
+VC_P_Princess_Ribbon_Rotate02
+VC_P_Princess_Slide01
+VC_P_Princess_Start01
+VC_P_Princess_Surprise01
+VC_P_Princess_Surprise02
+VC_P_Princess_Trance01
+VC_P_Princess_Trance02
+VC_P_Princess_Trance03
+VC_P_Princess_Transformation01
+VC_P_Princess_Tutrial01
+VC_P_Princess_Tutrial02
+VC_P_Princess_Tutrial03
+VC_P_Princess_Tutrial04
+VC_P_SAD_P
+VC_P_Searcher_Attack01
+VC_P_Searcher_Attack02
+VC_P_Searcher_Attack03
+VC_P_Searcher_Attack_Correct01
+VC_P_Searcher_Attack_Incorrect01
+VC_P_Searcher_Begin01
+VC_P_Searcher_DMG01
+VC_P_Searcher_Jump01
+VC_P_Searcher_Memo01
+VC_P_Searcher_Salute01
+VC_P_Searcher_Search01
+VC_P_Searcher_Solve01
+VC_P_Searcher_Solve02
+VC_P_Searcher_Start01
+VC_P_Searcher_Talk01
+VC_P_Searcher_Trance00
+VC_P_Searcher_Trance01
+VC_P_Searcher_Trance02
+VC_P_Searcher_Trance03
+VC_P_Searcher_Trance035
+VC_P_Searcher_Trance04
+VC_P_Searcher_Trance05
+VC_P_SERIOUS_UPPER_P
+VC_P_SHOCK_P
+VC_P_SMILE_P
+VC_P_TALK_YES02
+VC_P_TALK_YES_P
+VC_P_THINK_P
+VC_P_WISH_P
+VC_Pati_Kids_Cheering01
+VC_Pati_Kids_Cheering02
+VC_PatissierB_Caston_Afraid01
+VC_Police_397
+VC_Police_408
+VC_Police_409
+VC_Police_413
+VC_Police_414
+VC_Police_424
+VC_Police_425
+VC_Police_431
+VC_Police_432
+VC_Police_434
+VC_Police_454
+VC_Police_456
+VC_Police_Command01
+VC_PoliceENM01_1
+VC_PoliceENM01_2
+VC_PoliceENM01_2a
+VC_PoliceENM01_3
+VC_PoliceENM01_4
+VC_PoliceENM02
+VC_PoliceENM_Radio01_1
+VC_PoliceENM_Radio01_2
+VC_PoliceENM_Radio01_3
+VC_PoliceENM_Radio01_4
+VC_PoliceENM_Radio01_5
+VC_SearcherA_Stolen01
+VC_Shifu_073
+VC_Shifu_073_1
+VC_Shifu_094
+VC_Shifu_095
+VC_Shifu_100
+VC_SkaterA_364_BeforeTransC
+VC_SkaterA_364_BeforeTransL
+VC_SkaterA_364_BeforeTransR
+VC_SkaterA_365_AfterTrans01
+VC_SkaterA_Caston_043_F_01
+VC_SkaterA_Caston_167_226
+VC_Spy_001
+VC_Spy_004
+VC_Spy_006
+VC_Spy_007
+VC_Spy_008
+VC_Spy_009
+VC_Spy_010
+VC_Spy_011
+VC_Spy_012
+VC_Spy_013
+VC_Spy_014
+VC_Spy_015
+VC_Spy_016
+VC_Spy_017
+VC_Spy_018
+VC_Spy_019
+VC_Spy_020
+VC_Spy_020R
+VC_Spy_021R
+VC_Spy_022
+VC_Spy_022R
+VC_Spy_023
+VC_Spy_023R
+VC_Stella_001
+VC_Stella_009
+VC_Stella_030
+VC_Stella_034
+VC_Stella_035
+VC_Stella_036
+VC_Stella_037
+VC_Stella_038
+VC_Stella_050
+VC_Stella_050_2
+VC_Stella_056
+VC_Stella_057
+VC_Stella_059
+VC_Stella_069
+VC_Stella_093
+VC_Stella_093_1
+VC_Stella_112
+VC_Stella_113
+VC_Stella_114
+VC_Stella_115
+VC_Stella_127
+VC_Stella_128
+VC_Stella_160
+VC_Stella_161
+VC_Stella_189
+VC_Stella_189_1
+VC_Stella_199
+VC_Stella_201
+VC_Stella_264
+VC_Stella_307
+VC_Stella_308
+VC_Stella_309
+VC_Stella_353
+VC_Stella_378
+VC_Stella_404
+VC_Stella_404_1
+VC_Stella_405
+VC_Stella_437
+VC_Stella_438
+VC_Stella_438_2
+VC_Stella_468
+VC_Stella_468_01
+VC_Stella_AMAZING_demo_D
+VC_Stella_ANGRY_LP_D
+VC_Stella_Area_D_Clear_Guide00
+VC_Stella_Area_D_Clear_Guide01
+VC_Stella_Area_D_Clear_Guide02
+VC_Stella_Area_D_Clear_Guide03
+VC_Stella_BEWARE_D
+VC_Stella_D006
+VC_Stella_D006_1
+VC_Stella_D007
+VC_Stella_D007_1
+VC_Stella_D008
+VC_Stella_D009
+VC_Stella_D010
+VC_Stella_D011
+VC_Stella_D011_Reaction
+VC_Stella_D012
+VC_Stella_D013
+VC_Stella_D013_1
+VC_Stella_D014
+VC_Stella_D016
+VC_Stella_D016_1
+VC_Stella_D017
+VC_Stella_D017_1
+VC_Stella_D018
+VC_Stella_D020
+VC_Stella_D021
+VC_Stella_D022
+VC_Stella_D023
+VC_Stella_D023_1
+VC_Stella_D024
+VC_Stella_D024_1
+VC_Stella_D025
+VC_Stella_D025_1
+VC_Stella_D026
+VC_Stella_D027
+VC_Stella_D027_1
+VC_Stella_D028
+VC_Stella_D028_1
+VC_Stella_D029
+VC_Stella_D030
+VC_Stella_D031
+VC_Stella_D032
+VC_Stella_D033
+VC_Stella_D034
+VC_Stella_D035
+VC_Stella_D036
+VC_Stella_D037
+VC_Stella_D038
+VC_Stella_D039
+VC_Stella_D039_1
+VC_Stella_D039_2
+VC_Stella_D041
+VC_Stella_D042
+VC_Stella_D043
+VC_Stella_D045
+VC_Stella_D046
+VC_Stella_D047
+VC_Stella_D047_Reaction
+VC_Stella_D048
+VC_Stella_D049
+VC_Stella_D050
+VC_Stella_D058
+VC_Stella_D060
+VC_Stella_D066
+VC_Stella_D066_1
+VC_Stella_D067
+VC_Stella_D068
+VC_Stella_D069
+VC_Stella_D070
+VC_Stella_D071
+VC_Stella_D072
+VC_Stella_D072a_10
+VC_Stella_D072a_11
+VC_Stella_D072a_12
+VC_Stella_D072a_13
+VC_Stella_D072a_13_LastBossEnter01
+VC_Stella_D072a_14
+VC_Stella_D072a_15
+VC_Stella_D072a_5_Reaction
+VC_Stella_DETERMINATION_TALK_D
+VC_Stella_DOUBT_D
+VC_Stella_EXCITE_D
+VC_Stella_FLY_TALK_D
+VC_Stella_Fly_Weaken01
+VC_Stella_GLAD_D
+VC_Stella_HAPPY_D
+VC_Stella_L_ANGRY_D
+VC_Stella_LastBossEnter01
+VC_Stella_MOTIVATION_D
+VC_Stella_NERVOUS_D
+VC_Stella_POINTING_TALK_D
+VC_Stella_REALIZE_TALK_D
+VC_Stella_SUGGEST_D
+VC_Stella_THANKS_D
+VC_Stella_THINKING_D
+VC_Stella_Trance02
+VC_Stella_Trance03
+VC_Stella_WISH_D
+VC_Toad_WHVo_00009HAPPY_ny_44_c4
+VC_Toad_WHVo_00157NO1_ny_44_c4
+VC_Toad_WHVo_00186NO1_ny_44_c4
+VC_UfoRobo_Anger
+VC_UfoRobo_Normal
+VC_Y_Bird_002a
+VC_Y_Bird_Demo01
+VC_Y_Bird_Demo02
+VC_Y_Bird_Demo03
+VC_Y_Bird_Demo04
+VC_Y_Bird_Demo05
+VC_Y_Bird_Scream01
+VC_Y_Bird_Sign01
+VC_Y_Bird_Sign02
+VC_Y_Cat_001
+VC_Y_Cat_002a
+VC_Y_Cat_002b
+VC_Y_Cat_004a
+VC_Y_Cat_004b
+VC_Y_Cat_005
+VC_Y_Cat_006
+VC_Y_Cat_007
+VC_Y_Cat_008
+VC_Y_Cat_009
+VC_Y_Lion_D086_1
+VC_Y_Lion_D086a_1
+VC_Y_Lion_D086a_2
+VC_Y_Lion_D086a_3
+VC_Y_Snake_D079_Demo01
+VC_Y_Snake_D079_Demo02
+VC_Y_Snake_D079_Demo03
+VC_Zombie_193_F_1
+VC_Zombie_193_F_2
+VC_Zombie_193_F_3
+VC_Zombie_193_M_1
+VC_Zombie_193_M_1a
+VC_Zombie_193_M_2
+VC_Zombie_193_M_3
+VC_Zombie_193_M_3a
+VC_Zombie_Last_Appear01
+# 10999383
+# 21989317
+# 25914458
+# 33593043
+# 36119813
+# 38767026
+# 38767034
+# 38767037
+# 44331557
+# 44331558
+# 46084560
+# 55544612
+# 55544613
+# 55544618
+# 55544622
+# 96412982
+# 99506705
+# 120806637
+# 151820012
+# 176050344
+# 176050347
+# 184008836
+# 184228535
+# 186769602
+# 215785013
+# 216978714
+# 217126005
+# 219906044
+# 219906045
+# 227720943
+# 227982231
+# 231087728
+# 236683618
+# 236683624
+# 236683625
+# 238513847
+# 244936001
+# 244936002
+# 253461214
+# 270892694
+# 273147354
+# 273147357
+# 273801676
+# 273801679
+# 296858847
+# 302636706
+# 305024282
+# 342128136
+# 357123304
+# 378536962
+# 385872574
+# 412254624
+# 422769069
+# 426728532
+# 434091103
+# 436315604
+# 460074305
+# 486673838
+# 489613585
+# 489932592
+# 489932593
+# 489932601
+# 489932602
+# 489932603
+# 489932604
+# 489932605
+# 489932606
+# 489932607
+# 499939310
+# 505483641
+# 506710178
+# 506710179
+# 506710184
+# 506710185
+# 506710186
+# 506710187
+# 506710188
+# 506710189
+# 506710190
+# 506710191
+# 508385204
+# 508385207
+# 510207699
+# 514490727
+# 516603772
+# 521805248
+# 521805249
+# 521805256
+# 521805257
+# 521805258
+# 521805259
+# 521805260
+# 521805261
+# 521805262
+# 521805263
+# 523487766
+# 523487767
+# 523487768
+# 523487769
+# 523487770
+# 523487771
+# 523487772
+# 523487773
+# 523487774
+# 523487775
+# 534580310
+# 538582962
+# 538582963
+# 538582968
+# 538582969
+# 538582970
+# 538582971
+# 538582972
+# 538582973
+# 538582974
+# 538582975
+# 540265456
+# 540265457
+# 540265458
+# 540265459
+# 540265460
+# 540265461
+# 540265462
+# 540265463
+# 540265464
+# 540265465
+# 543271444
+# 555360554
+# 555360556
+# 555360557
+# 555360558
+# 555360559
+# 557043040
+# 557043041
+# 557043042
+# 557043043
+# 557043044
+# 557043045
+# 557043046
+# 557043047
+# 557043052
+# 557043053
+# 573820624
+# 573820625
+# 573820626
+# 573820627
+# 573820628
+# 573820629
+# 573820630
+# 573820631
+# 573820638
+# 573820639
+# 588915824
+# 588915825
+# 588915826
+# 588915827
+# 588915829
+# 588915830
+# 588915831
+# 588915836
+# 588915837
+# 590598210
+# 590598216
+# 590598217
+# 590598218
+# 590598219
+# 590598220
+# 590598221
+# 590598222
+# 590598223
+# 595403359
+# 605693408
+# 605693409
+# 605693410
+# 605693411
+# 605693412
+# 605693413
+# 605693414
+# 605693415
+# 605693422
+# 605693423
+# 622470994
+# 622470995
+# 622471000
+# 622471001
+# 622471002
+# 622471003
+# 622471004
+# 622471005
+# 622471006
+# 622471007
+# 634035216
+# 639248580
+# 639248581
+# 639248584
+# 639248585
+# 639248586
+# 639248587
+# 639248588
+# 639248589
+# 639248590
+# 639248591
+# 639634459
+# 640178980
+# 675386464
+# 676952339
+# 708981105
+# 726594701
+# 731195304
+# 731636711
+# 735136805
+# 738201665
+# 738201674
+# 747558065
+# 764069407
+# 775446994
+# 780846987
+# 780846988
+# 785704805
+# 790517834
+# 790517835
+# 790517836
+# 790517837
+# 790517838
+# 790517839
+# 806156755
+# 806156760
+# 809481656
+# 822721772
+# 822721775
+# 828176516
+# 830024060
+# 845459493
+# 870642503
+# 871838668
+# 895632428
+# 895853564
+# 902050686
+# 922671305
+# 928067044
+# 937315901
+# 948680623
+# 963963789
+# 980133071
+# 980455981
+# 996178262
+# 1002057937
+# 1007635234
+# 1011508983
+# 1011678530
+# 1011678537
+# 1016257113
+# 1028734435
+# 1029678525
+# 1029678526
+# 1030788834
+# 1030788835
+# 1030788836
+# 1030788844
+# 1039795011
+# 1082248128
+# 1083414178
+# 1086496211
+# 1101655783
+# 1106045393
+# 1106442815
+# 1107409282
+# 1109995775
+# 1120609380
+# 1127814603
+# 1138567976
+# 1150265966
+# 1163794512
+# 1163794514
+# 1163794515
+# 1171362074
+# 1171795286
+# 1199055328
+# 1199055335
+# 1215832924
+# 1218179167
+# 1235397913
+# 1244011460
+# 1255724503
+# 1265598303
+# 1268896919
+# 1269734727
+# 1270023476
+# 1275036334
+# 1281173226
+# 1284920510
+# 1290599368
+# 1306916863
+# 1319335307
+# 1341993654
+# 1354576718
+# 1360823839
+# 1369681032
+# 1372909365
+# 1372909374
+# 1373350773
+# 1373350782
+# 1383042577
+# 1383042586
+# 1406690036
+# 1416625571
+# 1416774723
+# 1416774728
+# 1429300275
+# 1447784809
+# 1449719933
+# 1461337911
+# 1473701492
+# 1477806738
+# 1488425803
+# 1489146812
+# 1489146813
+# 1489146814
+# 1515949039
+# 1521787613
+# 1521787614
+# 1540021935
+# 1546719743
+# 1548090581
+# 1548090582
+# 1548090583
+# 1569944464
+# 1569944465
+# 1569944466
+# 1569944467
+# 1569944468
+# 1569944469
+# 1569944470
+# 1569944471
+# 1569944478
+# 1573009069
+# 1589238704
+# 1605492460
+# 1606080776
+# 1606625231
+# 1609681251
+# 1610068508
+# 1619853006
+# 1662157574
+# 1664509618
+# 1673674847
+# 1731357192
+# 1742442048
+# 1747101267
+# 1748473764
+# 1766126486
+# 1766914728
+# 1766914729
+# 1766914730
+# 1776221522
+# 1792745953
+# 1795719397
+# 1801326299
+# 1802089320
+# 1802089321
+# 1802089323
+# 1806382548
+# 1806382559
+# 1811822141
+# 1827482667
+# 1829059616
+# 1829059617
+# 1829059630
+# 1829059631
+# 1837690755
+# 1852511492
+# 1857526292
+# 1857526293
+# 1857526295
+# 1859069221
+# 1859481312
+# 1861737373
+# 1861737374
+# 1861737375
+# 1881542738
+# 1900246166
+# 1903394675
+# 1903394676
+# 1912373124
+# 1925000904
+# 1925000905
+# 1925000906
+# 1925000909
+# 1925000910
+# 1925000911
+# 1937389961
+# 1941936461
+# 1950106389
+# 1962433909
+# 1976274454
+# 1981253876
+# 1996585878
+# 1996733183
+# 2018097616
+# 2018097618
+# 2018097619
+# 2026848403
+# 2035188395
+# 2066192869
+# 2066203527
+# 2071712666
+# 2084511817
+# 2112929213
+# 2139949777
+# 2165413298
+# 2173863885
+# 2178426771
+# 2205050520
+# 2209963610
+# 2224191117
+# 2224191118
+# 2228449843
+# 2228449848
+# 2229973040
+# 2229973051
+# 2251322403
+# 2259738502
+# 2284996591
+# 2289083351
+# 2306149354
+# 2306703879
+# 2322808739
+# 2342533629
+# 2384006413
+# 2392558476
+# 2435102719
+# 2436522289
+# 2436522290
+# 2439434565
+# 2442462483
+# 2452102688
+# 2455824587
+# 2456663238
+# 2456663245
+# 2456957352
+# 2457391840
+# 2457391841
+# 2457391850
+# 2457391851
+# 2457391852
+# 2457391853
+# 2457391854
+# 2457391855
+# 2482286329
+# 2486368629
+# 2494083627
+# 2499304379
+# 2503900264
+# 2506515720
+# 2506515722
+# 2520677851
+# 2533354472
+# 2558419580
+# 2571548099
+# 2576128636
+# 2581171503
+# 2604566010
+# 2621343597
+# 2623285184
+# 2623285185
+# 2623285186
+# 2648695658
+# 2659503462
+# 2670053955
+# 2681928444
+# 2692584160
+# 2736970454
+# 2749203961
+# 2749350982
+# 2796207578
+# 2797835046
+# 2806565501
+# 2810865890
+# 2836401046
+# 2855303601
+# 2855634353
+# 2864833054
+# 2867877184
+# 2869425401
+# 2876838687
+# 2894731503
+# 2899316162
+# 2917513957
+# 2928400403
+# 2937623713
+# 2937623714
+# 2937623715
+# 2937623716
+# 2937623717
+# 2937623718
+# 2937623719
+# 2949723713
+# 2950702308
+# 2960938415
+# 2963194672
+# 2967196197
+# 2968488039
+# 2977227945
+# 2983173190
+# 2983173191
+# 2983349717
+# 2986805000
+# 2992558694
+# 2995786362
+# 3005034601
+# 3012142319
+# 3035579953
+# 3035772615
+# 3042362568
+# 3055574188
+# 3055574191
+# 3058694694
+# 3058694695
+# 3060331764
+# 3060331765
+# 3075472272
+# 3077109344
+# 3077109349
+# 3077109350
+# 3077130511
+# 3080239081
+# 3106103743
+# 3117823383
+# 3118264784
+# 3124629128
+# 3127107925
+# 3144885515
+# 3171176301
+# 3177690399
+# 3195171377
+# 3206141749
+# 3208441589
+# 3209678346
+# 3233272270
+# 3238146393
+# 3240664294
+# 3240664295
+# 3243248467
+# 3259970221
+# 3259970222
+# 3262734102
+# 3271234396
+# 3271919341
+# 3304034854
+# 3304034861
+# 3310364877
+# 3312706369
+# 3312987176
+# 3312987177
+# 3312987178
+# 3312987179
+# 3312987181
+# 3321391289
+# 3324460755
+# 3324460758
+# 3349607429
+# 3349607430
+# 3352164115
+# 3352332475
+# 3363229689
+# 3408462813
+# 3415981104
+# 3416050850
+# 3416131518
+# 3431738627
+# 3442054662
+# 3454802698
+# 3458832272
+# 3458832274
+# 3458832277
+# 3458832279
+# 3465325828
+# 3470320991
+# 3475610092
+# 3475610093
+# 3492387704
+# 3492387709
+# 3492387710
+# 3492387711
+# 3500106075
+# 3511893127
+# 3511893132
+# 3512040213
+# 3512040222
+# 3535098801
+# 3538690849
+# 3538690854
+# 3538690859
+# 3541782755
+# 3546020219
+# 3548011147
+# 3565149567
+# 3596629640
+# 3596629642
+# 3596629643
+# 3596629645
+# 3615359140
+# 3626426717
+# 3627648340
+# 3627648351
+# 3632481170
+# 3642768123
+# 3646140061
+# 3677995988
+# 3705396987
+# 3706682096
+# 3752303842
+# 3771132064
+# 3782376990
+# 3790352584
+# 3793783063
+# 3810161241
+# 3813058617
+# 3852355634
+# 3854593438
+# 3860594447
+# 3865414044
+# 3865414045
+# 3888773023
+# 3893754276
+# 3893754277
+# 3893754279
+# 3913927101
+# 3926356912
+# 3937699351
+# 3947108443
+# 3964554048
+# 3969931415
+# 3971857436
+# 3974037406
+# 3984768933
+# 3991512993
+# 3993868416
+# 3993868417
+# 3993868419
+# 3997929589
+# 3999152137
+# 4007912488
+# 4012598472
+# 4012598473
+# 4027321673
+# 4027321675
+# 4030463854
+# 4050745237
+# 4050745246
+# 4056538092
+# 4059984800
+# 4059984813
+# 4059984814
+# 4068303886
+# 4085683665
+# 4086883253
+# 4091695038
+# 4101469814
+# 4101469821
+# 4106399636
+# 4114331168
+# 4117809447
+# 4132641491
+# 4134602643
+# 4134884839
+# 4139713574
+# 4149875632
+# 4149875634
+# 4149875636
+# 4149875637
+# 4149875638
+# 4149875642
+# 4149875643
+# 4166653221
+# 4169068656
+# 4169068657
+# 4169068659
+# 4175092684
+# 4176445572
+# 4178882855
+# 4185217727
+# 4185419601
+# 4186951340
+# 4186951343
+# 4200208386
+# 4213793380
+# 4215146206
+# 4220224560
+# 4222402818
+# 4223562866
+# 4227425558
+# 4235550583
+# 4243247163
+# 4251016704
+# 4258961615
+# 4260974569
+# 4261216193
+# 4261703224
+# 4267436790
+# 4269105758
+# 4283195901
+
+### SFX NAMES (PJ037Sound.bnk)
+# 17905180
+# 26251400
+# 48620415
+# 76133388
+# 84698719
+# 147353131
+# 196835669
+# 205491169
+# 214041293
+# 266147092
+# 412720784
+# 415841907
+# 506891147
+# 556794708
+# 624320761
+# 756611688
+# 842517645
+# 960762675
+# 1008402193
+# 1012347453
+# 1018986169
+# 1240349402
+# 1244564658
+# 1290058429
+# 1369836244
+# 1399341489
+# 1430977730
+# 1431209347
+# 1443902288
+# 1443926675
+# 1471270114
+# 1471270115
+# 1471270116
+# 1471270117
+# 1471270119
+# 1549535646
+# 1605540405
+# 1621721767
+# 1658667833
+# 1675716408
+# 1706684651
+# 1862872189
+# 1913733476
+# 1943081264
+# 1962580388
+# 1976939195
+# 1990128658
+# 2034997954
+# 2039901775
+# 2052906239
+# 2059318428
+# 2098638826
+# 2174528257
+# 2202047219
+# 2300842187
+# 2499109969
+# 2513915904
+# 2526653175
+# 2548101994
+# 2571680060
+# 2785156016
+# 2913957468
+# 2950394486
+# 2979471621
+# 2995775460
+# 3009601071
+# 3016011281
+# 3027337756
+# 3073775182
+# 3080137524
+# 3197449455
+# 3214837292
+# 3242339007
+# 3360600544
+# 3451596814
+# 3458306044
+# 3487820010
+# 3499617387
+# 3546444380
+# 3598411979
+# 3635648023
+# 3657550167
+# 3671842453
+# 3688455876
+# 3734991832
+# 3742969504
+# 3985491566
+# 4025179974
+# 4113267698
+# 4152503295
+# 4212217734
+# 4291309635
+
+### TRIGGER NAMES (PJ037Sound.bnk)
+Bridge
+# 1111427803
+# 133647128
+# 2570127619
+# 2570127616
+# 2570127617
+# 2570127622
+# 2570127623
+# 2570127620
+# 2570127621
+# 2570127626
+# 2570127627
+# 2586905333
+# 2586905332
+# 2586905335
+# 1096605288
+# 1096605291
+# 1096605290
+# 1096605293
+# 1096605292
+# 1096605295
+# 1096605294
+# 1096605281
+# 1096605280
+# 1079827702
+# 1079827703
+# 1079827700
+# 1522668276
+# 1909252581
+# 3508743460
+# 3106445602
+# 2263389650
+# 3740121064
+
+### RTPC/GAME-VARIABLE NAMES (PJ037Sound.bnk)
+BigBossWal6
+# 788402216
+# 2187361037
+# 3645507487
+# 649033078
+# 2804513211
+# 4158370301
+# 2356346827
+# 2356346824
+# 1023058691
+# 2913102336
+
+### VARIABLE NAMES (PJ037Sound.bnk)
+BansoType
+BansoVolume
+CourseStartFlow
+Herob
+lobby
+Material
+PatissierB
+# 3777554211
+# 525092512
+# 3369077553
+# 4272041552
+# 940234748
+# 830980289
+# 2888651264
+# 2283503161
+# 4049095388
+# 30216464
+# 2945264854
+# 1482703076
+# 1159130986
+# 1419441033
+# 1340032443
+# 1784920987
+# 2389062494
+# 1407810953
+# 3465958422
+# 2031046764
+# 3368311987
+# 755589269
+# 442888575
+# 389827329
+# 3475207400
+# 1371004520
+# 1587799342
+# 3149096244
+# 2679794023
+# 653823853
+# 527546559
+# 2076690335
+# 3787231599
+# 525092518
+# 525092519
+# 2429622642
+# 4090973394
+# 798623448
+# 2757263490
+# 2830199758
+# 832457699
+# 525092515
+# 4112963913
+# 2613815126
+# 895949044
+# 1548745509
+# 3974637798
+# 3723517909
+# 3395711845
+# 2386195765
+# 1548745511
+# 525092516
+# 1029397729
+# 4082650106
+# 1548745508
+# 1548745506
+# 1548745507
+# 1977913884
+# 3431178676
+# 2194656643
+# 3022338180
+# 582350386
+# 1506946305
+# 1278870543
+
+### VALUE NAMES (PJ037Sound.bnk)
+A
+AB
+B
+C
+D
+Default
+Demo
+Dirt
+E
+exit
+F
+Ice
+in
+Init
+Kill
+loop
+Metal
+mute
+off
+on
+out
+Reset
+Rock
+Sand
+silent
+Snow
+Soil
+start
+Water
+Wood
+# 965890563
+# 3382872472
+# 841620460
+# 582824249
+# 712161697
+# 2637588553
+# 3288073634
+# 2403978727
+# 3149360273
+# 876637934
+# 1967269152
+# 1128205392
+# 203958990
+# 1257464028
+# 1518744790
+# 3619302936
+# 4113914765
+# 1203400786
+# 2024891778
+# 1527164809
+# 2521073749
+# 3271275799
+# 4160263984
+# 4290275217
+# 3030096963
+# 4227121682
+# 712161704
+# 4259886513
+# 4259886523
+# 4259886514
+# 4259886512
+# 4259886519
+# 4259886518
+# 4259886517
+# 4259886516
+# 4056586082
+# 4015312792
+# 4015312793
+# 4015312795
+# 2394993152
+# 2394993154
+# 2394993155
+# 2394993157
+# 4015312794
+# 3897869468
+# 3981757616
+# 3981757621
+# 4015312798
+# 3023490324
+# 396288131
+# 26669624
+# 26669627
+# 26669626
+# 3299073546
+# 76369654
+# 2442973725
+# 2442973726
+# 2493306580
+# 4259886515
+# 1204238948
+# 1204238950
+# 1891294735
+# 2791731165
+# 2913715910
+# 1050097417
+# 1625664736
+# 1625664737
+# 1625664738
+# 1625664739
+# 1625664743
+# 1642442320
+# 1642442321
+# 1642442322
+# 1642442323
+# 1642442324
+# 1642442325
+# 1642442326
+# 1642442327
+# 1642442334
+# 1642442335
+# 1659219904
+# 1659219905
+# 1659219912
+# 1659219913
+# 1659219914
+# 1659219915
+# 1659219916
+# 1659219917
+# 1659219918
+# 1659219919
+# 1675997620
+# 1675997621
+# 1675997624
+# 1675997625
+# 1675997626
+# 1675997627
+# 1675997628
+# 1675997629
+# 1675997630
+# 1675997631
+# 1692775206
+# 1692775207
+# 1692775208
+# 1692775209
+# 1692775210
+# 1692775211
+# 1692775212
+# 1692775213
+# 1692775214
+# 1692775215
+# 1709552768
+# 1709552769
+# 1709552770
+# 1709552771
+# 1709552772
+# 1709552773
+# 1709552774
+# 1709552775
+# 1709552778
+# 1709552779
+# 1726330480
+# 1726330481
+# 1726330482
+# 1726330483
+# 1726330484
+# 1726330486
+# 1726330487
+# 1726330492
+# 1726330493
+# 3676281382
+# 3273562128
+# 1680996744
+# 2061131210
+# 2813898844
+# 2813898847
+# 3981757620
+# 4015312799
+# 4032090380
+# 4032090381
+# 2546379309
+# 2546379310
+# 3897869461
+# 3897869469
+# 4015312786
+# 4015312787
+# 4015312796
+# 4015312797
+# 1603975413
+# 2085518860
+# 2711473625
+# 2889145019
+# 2394993156
+# 1169953708
+# 1578895416
+# 4033655264
+# 1578895419
+# 2980383561
+# 3106571600
+# 3106571601
+# 3106571602
+# 3106571603
+# 3106571605
+# 2279608656
+# 2279608657
+# 2279608664
+# 2279608665
+# 2279608666
+# 2279608667
+# 2279608668
+# 2279608669
+# 2279608670
+# 2279608671
+# 2296386242
+# 2296386243
+# 2296386248
+# 2296386249
+# 2296386250
+# 2296386251
+# 2296386252
+# 2296386253
+# 2296386254
+# 2296386255
+# 2313163958
+# 2313163959
+# 2313163960
+# 2313163961
+# 2313163962
+# 2313163963
+# 2313163964
+# 2313163965
+# 2313163966
+# 2313163967
+# 2329941520
+# 2329941522
+# 2329941523
+# 2329941524
+# 2329941525
+# 2329941526
+# 2329941527
+# 2329941528
+# 2329941529
+# 2363496819
+# 2363496820
+# 2363496821
+# 2363496822
+# 2363496823
+# 2380274402
+# 2380274403
+# 2380274408
+# 2380274409
+# 2380274410
+# 2380274411
+# 2380274412
+# 2380274413
+# 2380274414
+# 2380274415
+# 2397051988
+# 2397051989
+# 2397051992
+# 2397051993
+# 2397051994
+# 2397051995
+# 2397051996
+# 2397051997
+# 2397051998
+# 2397051999
+# 163673283
+# 813741054
+# 1843568662
+# 2099657947
+# 2221429322
+# 2372023135
+# 3316041646
+# 2631433261
+# 2493306581
+# 1169953710
+# 1169953711
+# 938591304
+# 938591307
+# 938591310
+# 938591311
+# 955369021
+# 1561662346
+# 3630028974
+# 1494573730
+# 1694183300
+# 1697202616
+# 1730757790
+# 1747535473
+# 1764313060
+# 1781090647
+# 1793367415
+# 2305306391
+# 2534891304
+# 2534891307
+# 2771508715
+# 2100720170
+# 3794404459
+# 260516029
+# 260516003
+# 260516004
+# 260516021
+# 260516018
+# 365230686
+# 365230656
+# 650450051
+# 650450077
+# 3167554871
+# 2396853070
+# 1238586139
+# 121153772
+# 3021979351
+# 2380817608
+# 666503930
+# 2429622642
+# 1734244259
+# 2882403631
+# 3653676061
+# 3904955753
+# 895469787
+# 1369541548
+# 2674488356
+# 1184060328
+# 2982591261
+# 1728430066
+# 3957483084
+# 3304982182
+# 2737850167
+# 838485156
+# 4140613305
+# 336782204
+# 419459790
+# 3981757617
+# 3981757618
+# 3981757622
+# 3981757623
+# 2102518286
+# 2676040499
+# 3621177884
+# 161337497
+# 1394285343
+# 875500431
+# 3139854493
+# 2363496831
+# 2363496817
+# 2363496816
+# 2363496818
+# 2690848480
+# 3653941806
+# 1092895832
+# 416497812
+# 2519737205
+# 2640434215
+# 1375052905
+# 3803431589
+# 2403082098
+# 3852365994
+# 3112800700
+# 26669603
+# 1935752458
+# 1390094563
+# 3304982183
+# 3304982180
+# 3701232923
+# 2183557174
+# 1051581257
+# 155222778
+# 3898529036
+# 1763647087
+# 2358642439
+# 2944463175
+# 3428196523
+# 1731095561
+# 1086408610
+# 101778527
+# 2765896195
+# 514577764
+# 3348127290
+# 2889138648
+# 2319156182
+# 3266763893
+# 897156792
+# 1925914845
+# 2343343267
+# 3915449238
+# 2343343266
+# 3915449239
+# 1079714022
+# 1823436111
+# 2560383140
+# 1204238951
+# 1204238949
+# 230882806
+# 3395025516
+# 81019496
+
+
+### BUS NAMES
+2748973500  : Speaker
+3602830056  : VC_Grape_PrismB
+2545263337  : SpeakersL
+2545263351  : SpeakersR
+1276053785  : Voice_Character
+3083501632  : BGM_A01
+3184314443  : BGM_B01
+3184314440  : BGM_B02
+75152972    : BGM_Loading
+1982646981  : SE_Room
+3971798794  : SE_UI
+2209751555  : Movie_Demo
+3083501635  : BGM_A02
+#2535802743  : VC_P_Prism
+3000973105  : Bus_Mermaid_Vo
+
+### BASE RTPC/GAME-VARIABLE NAMES (Init.bnk)
+1524500807  : Playback_Rate
+796049864   : RPM
+
+### VALUE NAMES (Init.bnk)
+1734244259  : Change_Slow
+1925914845  : Dark
+3167554871  : Duck01
+2546379309  : In01
+2546379310  : In02
+3021979351  : Ini_Default
+2882403631  : Ini_Slow
+2380817608  : Ini_Yami
+4227121682  : Nomal
+1169953711  : Phase01
+1169953708  : Phase02
+712161704   : Run
+1238586139  : Change_Default
+121153772   : Change_Yami
+2631433261  : EV03_03
+3794404459  : Mermaid_Sea_Over
+2982591261  : Mermaid_Sea_Under
+260516021   : Mermaid_Vo_D
+650450051   : Mermaid_Vo_DL
+650450077   : Mermaid_Vo_DR
+260516004   : Mermaid_Vo_U
+365230656   : Mermaid_Vo_UL
+365230686   : Mermaid_Vo_UR
+
+### VARIABLE NAMES (Init.bnk)
+798623448   : Goal_Mermaid
+
+### SFX NAMES (Init.bnk)
+400317747   : Hall_Large_TooBright
+
+### VALUE NAMES (PJ037Sound.bnk)
+4259886515  : Beat0
+4259886513  : Beat2
+4259886512  : Beat3
+4259886519  : Beat4
+4259886518  : Beat5
+4259886517  : Beat6
+4259886516  : Beat7
+4259886523  : Beat8
+1204238948  : EV01_00
+3106571601  : Intro00
+4015312794  : MusicFlow00
+3897869469  : MusicFlow98
+4032090381  : MusicFlow10
+4032090380  : MusicFlow11
+2394993152  : Flow01
+2394993155  : Flow02
+2394993154  : Flow03
+2394993157  : Flow04
+2394993156  : Flow05
+1728430066  : Mermaid_Stay
+4290275217  : P00_Wait
+1891294735  : P01_Start
+2791731165  : P03_Loop
+1527164809  : P03_Start
+4160263984  : P04_Loop
+1494573730  : Phase01_Start
+1793367415  : Phase02_BGM
+2085518860  : SP01c_Nomal
+2765896195  : OE_Mute
+1079714022  : OE_Play
+2889138648  : OE_Stop
+2711473625  : SP01a_Intro
+2100720170  : Wet01
+4259886514  : Beat1
+3106571600  : Intro01
+3106571603  : Intro02
+3106571602  : Intro03
+3106571605  : Intro04
+3288073634  : Kawara
+712161697   : Rug
+2813898844  : Battle1
+2813898847  : Battle2
+2534891307  : Bridge01
+2534891304  : Bridge02
+841620460   : Concrete
+3149360273  : Cream
+1204238949  : EV01_01
+1204238950  : EV01_02
+1204238951  : EV01_03
+161337497   : Even
+3273562128  : Finishing
+582824249   : Leaves
+1257464028  : MainLoop
+4015312795  : MusicFlow01
+4015312792  : MusicFlow02
+4015312793  : MusicFlow03
+4015312798  : MusicFlow04
+4015312799  : MusicFlow05
+4015312796  : MusicFlow06
+4015312797  : MusicFlow07
+4015312786  : MusicFlow08
+4015312787  : MusicFlow09
+3981757620  : MusicFlow20
+3981757621  : MusicFlow21
+3981757622  : MusicFlow22
+3981757623  : MusicFlow23
+3981757616  : MusicFlow24
+3981757617  : MusicFlow25
+3981757618  : MusicFlow26
+3897869461  : MusicFlow90
+3897869468  : MusicFlow99
+897156792   : Odd
+1169953710  : Phase00
+3630028974  : Phase4
+2061131210  : PreB
+1203400786  : Restart
+4056586082  : StartDemo
+2637588553  : Tile
+2024891778  : Wait
+1394285343  : Mermaid_Move_Fast
+230882806   : Mermaid_Move_Slow
+260516018   : Mermaid_Vo_C
+260516029   : Mermaid_Vo_L
+260516003   : Mermaid_Vo_R
+875500431   : Mermaid_Move_Fast_Vo
+3395025516  : Mermaid_Move_Slow_Vo
+
+
+### SFX NAMES (PJ037Sound.bnk)
+1443902288  : _1_Second_Delay
+3546444380  : Big_Garage1
+1976939195  : deep
+2202047219  : Few_Even_Notches
+4113267698  : Hall_Guns
+2513915904  : Hall_Large
+3451596814  : Hall_Medium
+48620415    : Have_U_Ever_Been_Outside
+1008402193  : Low_Pass_20KHz
+3487820010  : One_Tap_Half_Second
+1431209347  : One_Tap_One_Second
+4212217734  : Personnel_Advisor
+1706684651  : Plate_Medium
+506891147   : Plate_Small
+1990128658  : Room_Medium
+2995775460  : Room_Small
+415841907   : Space_Garage
+2098638826  : Underground_Parking1
+
+### VARIABLE NAMES (PJ037Sound.bnk)
+1159130986  : MusicFlow
+1482703076  : IGE_Ninja_B_Start01
+2888651264  : HeroA_Fly
+755589269   : Tate_01
+1278870543  : IGE_Ninja_B_EV01
+3783952971  : Track01
+3395711845  : OE_Count
+1340032443  : IGE_Agent_A_EV01
+
+### TRIGGER NAMES (PJ037Sound.bnk)
+3508743460  : KungFu_Hit01
+3740121064  : Add2
+1096605288  : Shell_Hit_Note_01
+1096605291  : Shell_Hit_Note_02
+1096605290  : Shell_Hit_Note_03
+1096605293  : Shell_Hit_Note_04
+1096605292  : Shell_Hit_Note_05
+1096605295  : Shell_Hit_Note_06
+1096605294  : Shell_Hit_Note_07
+1096605281  : Shell_Hit_Note_08
+1096605280  : Shell_Hit_Note_09
+1079827702  : Shell_Hit_Note_10
+1079827703  : Shell_Hit_Note_11
+1079827700  : Shell_Hit_Note_12
+2570127619  : Shell_Light_Note_01
+2570127616  : Shell_Light_Note_02
+2570127617  : Shell_Light_Note_03
+2570127622  : Shell_Light_Note_04
+2570127623  : Shell_Light_Note_05
+2570127620  : Shell_Light_Note_06
+2570127621  : Shell_Light_Note_07
+2570127626  : Shell_Light_Note_08
+2570127627  : Shell_Light_Note_09
+2586905333  : Shell_Light_Note_10
+2586905332  : Shell_Light_Note_11
+2586905335  : Shell_Light_Note_12
+
+### EVENT NAMES (PJ037Sound.bnk)
+422769069   : BGM_F_MusicFlow10
+3626426717  : BGM_F_IGE_Ninja_B_Start
+2855303601  : BGM_Cos_Mermaid_01B
+1265598303  : BGM_IGE_Agent_EV00B
+2576128636  : BGM_FigureA_EV_ResultCynbal
+2071712666  : BGM_FigureA_EV_SnareRoll
+1138567976  : BGM_F_MC_Mmd_Sing
+#605693409   : BGM_PeachMarch_Variety
+1429300275  : BGM_Cos_Cowgirl_01_Restart
+2435102719  : BGM_Cos_Hero_01_Start_01
+3408462813  : BGM_DEMO_FencerCClear
+1747101267  : BGM_DEMO_StageBClear
+1369681032  : BGM_DEMO_StageCClear
+3991512993  : BGM_DEMO_YamiBossB_Appear_01
+244936002   : BGM_DEMO_YamiBossB_Battlestart_01
+244936001   : BGM_DEMO_YamiBossB_Battlestart_02
+2306703879  : BGM_DEMO_YamiBossD_Appear_01
+3969931415  : BGM_F_FencerA_Add2
+963963789   : BGM_F_FencerA_Map01_Nomal
+2967196197  : BGM_F_HeroC_Union01_WaitInput
+4169068659  : BGM_F_IGE_Ninja_B_EV01_01
+4169068656  : BGM_F_IGE_Ninja_B_EV01_02
+4169068657  : BGM_F_IGE_Ninja_B_EV01_03
+3646140061  : BGM_F_KungFuBattle02_Mute
+1881542738  : BGM_F_Loading01
+4213793380  : BGM_F_Mmd_BansoType_Yami
+2917513957  : BGM_F_Mmd_BansoVol_Duck01
+227982231   : BGM_F_MMD_SSE_Vo_KeyOff_Init
+1792745953  : BGM_F_Patissier_AfterResult
+1837690755  : BGM_F_Patissier_CakeClear
+2322808739  : BGM_F_Patissier_Mute
+489613585   : BGM_F_PatissierC_DuckReset
+176050344   : BGM_F_Stop_CourseEnd_Agent_A
+3535098801  : BGM_FigureA_Boss_Jingle_01
+3615359140  : BGM_PatA_Cake_SdRoll_01
+543271444   : BGM_Peach_PM_02
+508385204   : BGM_Searcher_You01
+508385207   : BGM_Searcher_You02
+3077130511  : BGM_ShowupGame_01_SP01a_PreMelo
+1962433909  : BGM_ShowupGame_EV01
+1731357192  : BGM_w1s1p_Restart
+176050347   : BGM_F_Stop_CourseEnd_Agent_b
+25914458    : BGM_F_Reset_Mermaid
+1284920510  : BGM_Yami_01
+3974037406  : OE_St_Play
+675386464   : OE_St_Stop
+
+3999152137  : SD_Explosion01
+2736970454  : SD_Plywood01
+4134884839  : VC_Grape_D004
+1827482667  : SD_Patissier_Fence_Shake01
+1030788834  : VC_B_KnFu_117
+2259738502  : VC_Caston_129_M
+1372909374  : VC_Caston_D064_M
+2937623718  : VC_MC_FgSk_06
+4012598472  : VC_SkaterA_364
+4012598473  : VC_SkaterA_365
+3171176301  : VC_Stella_D072a
+2457391853  : VC_Stella_D072a_5
+231087728   : VC_Y_Snake_D079
+4101469821  : VC_Zombie_193
+3546020219  : VC_B__CwG_008
+412254624   : VC_Daughter_110
+2983173191  : VC_Y_Cat_010
+2983173190  : VC_Y_Cat_011
+1030788836  : VC_B_KnFu_111
+1030788835  : VC_B_KnFu_116
+1030788844  : VC_B_KnFu_119
+1372909365  : VC_Caston_D064_f
+2937623713  : VC_MC_FgSk_01
+2937623714  : VC_MC_FgSk_02
+2937623715  : VC_MC_FgSk_03
+2937623716  : VC_MC_FgSk_04
+2937623717  : VC_MC_FgSk_05
+2937623719  : VC_MC_FgSk_07
+184228535   : VC_P_Demo_GrapeAppear03_3
+2457391850  : VC_Stella_D072a_2
+2457391851  : VC_Stella_D072a_3
+2457391852  : VC_Stella_D072a_4
+2457391854  : VC_Stella_D072a_6
+2457391855  : VC_Stella_D072a_7
+2457391840  : VC_Stella_D072a_8
+2457391841  : VC_Stella_D072a_9
+4101469814  : VC_Zombie_198
+595403359   : PeachDemoSwordATK01_01
+1569944470  : SET_Beat0
+1569944471  : SET_Beat1
+1569944468  : SET_Beat2
+1569944469  : SET_Beat3
+1569944466  : SET_Beat4
+1569944467  : SET_Beat5
+1569944464  : SET_Beat6
+1569944465  : SET_Beat7
+1569944478  : SET_Beat8
+3596629645  : SET_C
+3596629642  : SET_D
+3596629643  : SET_E
+499939310   : SET_Even
+3596629640  : SET_F
+2224191118  : SET_Phase01
+2224191117  : SET_Phase02
+4050745246  : VC_Musician_004_F
+4050745237  : VC_Musician_004_M
+2977227945  : VC_Musician_007_F
+2228449848  : VC_Musician_011_F
+2228449843  : VC_Musician_011_M
+3206141749  : VC_Stella_264_1
+4215146206  : VC_Stella_D012_1
+1106045393  : VC_Stella_D020_1
+1106442815  : VC_Stella_D022_1
+4220224560  : VC_Stella_D016_reaction
+980133071   : VC_Stella_D017_1_reaction
+2876838687  : VC_Stella_D017_reaction
+1270023476  : VC_Stella_D067_reaction
+3458832279  : VC_Zombie_002a
+3492387709  : VC_Zombie_004a
+3492387710  : VC_Zombie_004b
+1548090581  : VC_Zombie_198_F_1
+1548090582  : VC_Zombie_198_F_2
+1548090583  : VC_Zombie_198_F_3
+2623285186  : VC_Zombie_198_M_1
+2623285185  : VC_Zombie_198_M_2
+2623285184  : VC_Zombie_198_M_3
+434091103   : VC_Zombie_Gaya01
+2533354472  : VC_P_Agent_ItemGet01
+4176445572  : VC_P_Cowgirl_ItemGet01
+822721772   : VC_P_Demo_OP01
+2205050520  : VC_P_Fencer_ItemGet01
+227720943   : VC_P_FigureSkater_ItemGet01
+3106103743  : VC_P_Hero_ItemGet01
+3035579953  : VC_P_KungFu_ItemGet01
+4227425558  : VC_P_Mermaid_ItemGet01
+2178426771  : VC_P_Ninja_ItemGet01
+120806637   : VC_P_Patissier_ItemGet01
+2173863885  : VC_P_Princess_Smug01
+1976274454  : VC_P_Searcher_ItemGet01
+3705396987  : VC_PoliceENM_Shutdown01
+1766126486  : SD_Goal_Fencer
+822721775   : VC_P_Demo_OP02
+3458832277  : VC_Zombie_002c
+3458832274  : VC_Zombie_002d
+3458832272  : VC_Zombie_002f
+3492387711  : VC_Zombie_004c
+3492387704  : VC_Zombie_004d
+3442054662  : VC_Zombie_001e
+3627648340  : VC_Musician_020_F
+3627648351  : VC_Musician_020_M
+1806382559  : VC_Musician_034_F
+1806382548  : VC_Musician_034_M
+2018097616  : VC_P2_Agent_Clear01
+2018097619  : VC_P2_Agent_Clear02
+2018097618  : VC_P2_Agent_Clear03
+1163794512  : VC_P2_Fencer_Clear01
+1163794515  : VC_P2_Fencer_Clear02
+1163794514  : VC_P2_Fencer_Clear03
+3893754279  : VC_P2_FigureSkater_Clear01
+3893754276  : VC_P2_FigureSkater_Clear02
+3893754277  : VC_P2_FigureSkater_Clear03
+1857526295  : VC_P2_Hero_Clear01
+1857526292  : VC_P2_Hero_Clear02
+1857526293  : VC_P2_Hero_Clear03
+1861737373  : VC_P2_KungFu_Clear01
+1861737374  : VC_P2_KungFu_Clear02
+1861737375  : VC_P2_KungFu_Clear03
+305024282   : VC_P2_Mermaid_Clear01
+1802089323  : VC_P2_Ninja_Clear01
+1802089320  : VC_P2_Ninja_Clear02
+1802089321  : VC_P2_Ninja_Clear03
+1766914730  : VC_P2_Searcher_Clear01
+1766914729  : VC_P2_Searcher_Clear02
+1766914728  : VC_P2_Searcher_Clear03

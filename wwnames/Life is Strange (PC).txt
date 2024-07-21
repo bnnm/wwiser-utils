@@ -15409,8 +15409,8 @@ Game_Playrate
 
 1150596961  : Max_Speed
 71678733    : ZStress
+616788397   : E2_4B_ArtClass
 
-#616788397   : E2_4B_ArtClass
 #1923077304  : E4_2A_ParentsRoom_Window
 #173838378   : E4_3B_LivingRoom_Window
 #2610134778  : E2_1B_ShedProximity
