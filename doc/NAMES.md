@@ -1,14 +1,34 @@
 # REVERSING WWISE NUMBERS
 
-*wwiser* can use companion files like `SoundbankInfo.xml`/`(bank).txt`/etc to show names in the bank output and make `.txtp` filenames, but often games don't include them. For games without those files that contain names it's possible to "reverse" (getting original name string) some Wwise numbers with *wwiser* and effort.
+*wwiser* can use companion files like `SoundbankInfo.xml`/`(bank).txt`/etc to show names in the viewer, and make `.txtp` based on the original *event names* ("events" is how wwise plays audio).
 
-Even with those companion files some names may be missing (usually variables), so we may still want to reverse a few.
+Games often don't include those files though, but it's possible to "reverse" (getting the original name) some Wwise numbers with *wwiser* and effort. Even with companion files present some *event names* may be not be included, so we may still need to reverse a few names.
 
-In short, make a file named `wwnames.txt`, inside write *reversed names* (strings that become Wwise numbers) and put together with the banks. *wwiser* will use this file for names. With some luck, game's data and executable will have a bunch of names somewhere that you can extract with some tools.
+Sometimes you can only recover a few names yet the rest is just too hard to figure out, if devs were too creative with names. But "some names" is better than "no names" I'd say.
+
+
+## Reversable types
+Wwise numbers come in 4 varieties:
+- `(generic-name).txtp`: reversable to get the original *event name*
+  - more exacly each `.txtp` represents an *event*, and *events* have one reversable number
+  - for example: `play_bgm_01.txtp` (an "event" that plays bgm 01) instead of a generic `450016560-0001-event.txtp`
+- `(number).bnk`: reversable, except if the .bnk is from a newer Unreal Engine 4/5 game
+  - for example: `bgm.bnk` intead of `412724365.bnk`
+- `(number).wem`: not reversable, original name only exists in `SoundbankInfo.xml`
+  - Wwise often uses 1 *event name* that calls multiple `.wem`, so it's often better to reverse the `.txtp` *event name* anyway
+- `(very long hex number).wem`: used for "externals". Probably reversable but uncommon, so outside the scope of this doc
+  - try https://github.com/davispuh/WwiseNameCracker
+
+
+## How to reverse names
+*wwiser* can read a file named `wwnames.txt` with *reversed names* (strings that become Wwise numbers) inside. Put it together with the banks and *wwiser* will automatically use this file to read names.
+
+However you need to actually make the file yourself. With some luck, the game's data and executable will have a bunch of Wwise names somewhere that you can extract with some tools. It's also posible to *derive* (guess) more names even if the game's data only had a few names.
 
 This process requires some knowledge of command line though, no GUI at the moment.
 
-Also note that sometimes you can recover (some) names, but others it's just too hard, if devs were too creative with names and files don't have any name references (Wwise can function using only numbers).
+Before anything you can check if your game is listed here: https://github.com/bnnm/wwiser-utils/wwnames/. Get `(game's name).txt` and rename it to `wwnames.txt` and you are set.
+
 
 ## TL;DR
 Quick guide to (possibly) get extra names:
@@ -19,6 +39,7 @@ Quick guide to (possibly) get extra names:
     - for example, remove all texture/shader/model files
   - also add the executable (.exe/so/main/xex/eboot/etc) too
   - some executables like main/xex/eboot/exe should be decompressed first (ask in hcs64/discord, or just won't worry)
+  - if the game is HUGE you may want to only try some files at a time (for example ~10GB) as it'll take a long time otherwise.
 - zip all files into a single file with the "no compression option"
   - this makes a single, huge file like `files.zip`
   - this file MUST NOT BE COMPRESSED (not an actual zip, but a package; you could use `.tar` or others)
@@ -26,7 +47,7 @@ Quick guide to (possibly) get extra names:
 - use `strings2.exe` to get a text file with names from `files.zip`
   - get `strings2.exe`: http://split-code.com/files/strings2_x64_v1-2.zip
     - on Linux you may use `strings` too
-  - unzip on same dir as `files.zip`
+  - unzip strings2 on same dir as `files.zip`
   - call on Windows CLI: `strings2.exe "files.zip" > wwnames.txt`
   - you don't need to change `strings2` default parameters (gets you more names = good)
   - or create a file like `files.bat`, copy the line above + save, double click
@@ -38,17 +59,20 @@ Quick guide to (possibly) get extra names:
   - some "names" will be long lines or contain crap like `  "bgm"="name"  `, that is ok too and will be cleaned up automatically (reads `bgm` and `name`)
 - now put that file with all `.bnk`, wwiser can use it to get all possible names (may take a while to load if wwnames is big)
   - load all to ensure getting most names (could limit to only music or sfx, but might as well do everything at once while we are at it)
-- **HOWEVER** some names may be garbage, preferably do this:
-  - put `wwiser.pyz`, `wwnames.db3` and `wwnames.txt` together with *all* banks (even voice/sfx)
-    - technically `wwnames.txt` must go near `.bnk`, while `wwnames.db3` goes with `.pyz`
-  - open windows CLI and call wwiser like this: `wwiser.pyz *.bnk -sl`
-  - this creates a "clean" `wwnames-banks-(date).txt` with actually used names
-  - open said file, look for clearly wrong names (like *x8273s* or *aXNuy*) and remove them, or change lower/uppercase in some cases (like `wIN` to `win` and such)
-  - now rename `wwnames-bank-(date).txt` to `wwnames.txt` and use wwiser with that instead of the original file, since you just cleaned it up
-- you may be missing many names: now you want to use `words.py` to extract all juice (see later)
-- you may also add missing names manually (sometimes are easy to guess) or use `fnv.exe`/`words.py` helpers
+
+**HOWEVER** that `wwnames.txt` will contain tons of garbage names we don't want. Clean it up like this:
+- put `wwiser.pyz`, `wwnames.db3` and `wwnames.txt` in the base folder of all banks
+  - `wwnames.txt` must go near `.bnk`, while `wwnames.db3` goes with `.pyz`
+- open windows CLI and call wwiser like this: `wwiser.pyz *.bnk -r -sl`
+  - this can be done via GUI as well: (blah blah)
+- this will create a "clean" `wwnames-banks-(date).txt` with actually used names
+- open said file, look for clearly wrong names (like *x8273s* or *aXNuy*) and remove them, or change lower/uppercase in some cases (like `wIN` to `win` and such)
+- now remove old `wwnames.txt` and rename `wwnames-banks-(date).txt` to `wwnames.txt`
+
+You may be still be missing many names:
+- use `words.py` to extract all possible juice (best option usually, see "Words.py quick guide" below)
+- you may also add missing names manually (sometimes they  are easy to guess) or use `fnv.exe`/`words.py` helpers
 - be cool and post this list somewhere or include `wwnames.txt` with your rip for everybody to enjoy
-- also check if your game is here: https://github.com/bnnm/wwiser-utils/wwnames/
 
 
 ## CONCEPTS
