@@ -1,0 +1,4027 @@
+
+### BANK NAMES
+AI_BANK
+Airplane
+Airplane_AI
+Amigo_Transforms
+AS_AiAi
+AS_AlexKidd
+AS_Amigo
+AS_Amy
+AS_Avatar
+AS_BdJoe
+AS_Beat
+AS_Danica
+AS_Eggman
+AS_FootballManager
+AS_Gilius
+AS_Global
+AS_Gum
+AS_JoeM
+AS_Knuckles
+AS_MeeMee
+AS_MetalSonic
+AS_Mii
+AS_Nights
+AS_Pudding
+AS_Reala
+AS_Segabot
+AS_Shadow
+AS_Sonic_Mine
+AS_Tails
+AS_TeamFortress
+AS_TotalWar
+AS_Ulala
+AS_Vyse
+AS_Wreckit
+ASN_AIAI_VEH
+ASN_AMIGO_VEH
+ASN_AMY_VEH
+ASN_Audience
+ASN_Avatar_Veh
+ASN_BDJOE_VEH
+ASN_BEAT_VEH
+ASN_BILLYHATCHER_VEH
+ASN_Danica_Veh
+ASN_EGGMAN_VEH
+ASN_Frontend_TrackBank
+ASN_Gilius_Veh
+ASN_Global_Vehicles
+ASN_Knuckles_VEH
+ASN_Liquid_Cheese
+ASN_Liquid_Lava
+ASN_Liquid_Slime
+ASN_Liquid_Water
+ASN_MetalSonic_VEH
+ASN_Music
+ASN_SEGABOT_veh
+ASN_Shadow_Veh
+ASN_Shinobi_Veh
+ASN_Sonic_Veh
+ASN_Surface_Cobbles
+ASN_Surface_DeepGrass
+ASN_Surface_EnergyRoad
+ASN_Surface_Glass
+ASN_Surface_Grass
+ASN_Surface_Grating
+ASN_Surface_Gravel
+ASN_Surface_Ice
+ASN_Surface_Metal
+ASN_Surface_Mud
+ASN_Surface_Slate
+ASN_Surface_Snow
+ASN_Surface_Stairs
+ASN_Surface_Tarmac
+ASN_Surface_Wood
+ASN_TAILS_VEH
+ASN_Track_Afterburner
+ASN_Track_AllStarFinale
+ASN_Track_BillyHatcher
+ASN_Track_BurningRangers
+ASN_Track_Classic_CPE
+ASN_Track_Classic_DeathEgg
+ASN_Track_Classic_JSR
+ASN_Track_Classic_Samba
+ASN_Track_Common
+ASN_Track_GoldenAxe
+ASN_Track_HouseOfTheDead
+ASN_Track_JetSetRadio
+ASN_Track_MonkeyBall
+ASN_Track_Nights
+ASN_Track_Outrun
+ASN_Track_Panzer
+ASN_Track_Samba
+ASN_Track_Shinobi
+ASN_Track_SkiesOfArcadia
+ASN_Track_SkySanctury
+ASN_Track_SSH
+ASN_Track_StarlightCarnival
+ASN_UI_FE
+ASN_UI_Ingame
+ASN_ULALA_VEH
+ASN_Vyse_Veh
+ASN_Weapons
+BattleArena
+BoostChallenge
+CaptureTheChao
+CrazyConga
+Cvo_AiAi
+Cvo_AlexKidd
+Cvo_Amigo
+Cvo_Amy
+Cvo_AV_Mii
+Cvo_BDJoe
+Cvo_Beat
+Cvo_DanicaPatrick
+Cvo_Eggman
+Cvo_FootballManager
+Cvo_Gilius
+Cvo_Gum
+Cvo_JoeMushashi
+Cvo_Knuckles
+Cvo_MeeMee
+Cvo_MetalSonic
+Cvo_Nights
+Cvo_Pudding
+Cvo_Reala
+Cvo_SegaBot
+Cvo_Shadow
+Cvo_ShogunTotalWar
+Cvo_Sonic
+Cvo_Tails
+Cvo_TF2
+Cvo_Ulala
+Cvo_Vyse
+Cvo_WreckitRalph
+DLMusic_3DS
+Drift_Challenge
+Footman_Transforms
+Gilius_Plane
+Gilius_Transforms
+HotLap
+Init
+Knockout
+MonkeyBall
+Nights_Transforms
+Overtake
+Prop_Plane
+Ralph_Transforms
+Reala_Transforms
+RingRace
+Segabot_Jet
+Segabot_Transforms
+Shinobi
+Shinobi_Transforms
+Shogun_Transforms
+Swag
+TankPursuit
+TF2_Transforms
+Ulala_Transforms
+Vehicle_Transforms
+Versus
+Wreckit_Chopper
+
+### BUS NAMES
+AI_boat
+AI_car
+AI_Plane
+AI_Vehicles
+Allstar_Music
+Announcer
+Boat
+Boost_Sounds
+Canyon_Echo
+Car
+Cave_Reverb
+Cave_ReverbCheap
+Collisions
+env_off
+env_on
+FE_Music
+Master Audio Bus = 0
+Master Motion Bus = 0
+Migrated
+Monkey_Ball_Air_Compression
+Monkey_Ball_UnderRoad
+Music
+Plane
+Player_Vehicles
+SFX
+SFX_ENV
+Space_Garage
+StartLine_Blips
+Surfaces_Landings
+Track_ambience_2d
+Track_ambience_3D
+TrackSounds
+TrackSounds_ENV
+Transforms
+Vehicles
+Voices
+Weapon_Explode
+Weapon_Looping
+Weapon_Oneshots
+Weapons
+Wind_Rumble
+# 422656187
+# 3112165487
+# 2836124178
+# 369197778
+# 1350679888
+# 198265141
+# 978679387
+# 542152378
+# 4233533721
+# 1230353121
+# 260293361
+# 2415806431
+# 243757586
+# 1744054040
+# 730652521
+# 2439739085
+# 3129950195
+# 2543131320
+# 3450273307
+# 4053917148
+# 1367997878
+# 229463203
+# 248896030
+# 778031867
+# 4142699179
+# 2669304355
+# 3752723407
+# 1276816879
+# 2588606644
+
+### BASE RTPC/GAME-VARIABLE NAMES (1355168291.bnk: Init)
+Air_Fear_TAG
+Air_FREEFALL_Tag
+Air_RPM_Tag
+AirTime
+Axis_X_Rotation_Speed
+Axis_Y_Rotation_Speed
+Axis_Z_Rotation_Speed
+BoatEngineLoad
+Canyon_Echo_Volume
+CarEngineLoad
+CarEngineRpm
+Cave_Reverb_Volume
+Cave_ReverbCheap_Volume
+Character_Voice_Volume
+Charge_Attack_Charge_Level
+Doppler
+DriftTime_BoostLevel
+Global_Ambience_Volume
+Local_Ambience_Volume
+Monkey_Ball_Air_Compression_Volume
+Monkey_Ball_UnderRoad_Volume
+MonkeyBallRollSpeed
+Music_Volume
+PlaneTailsEngineLoad
+PlaneTailsEngineRPM
+RingRace_Score
+RoadSkidLockAmount
+RoadSkidTractionLoss
+ScreenSplatterClean
+Slider_Announcer
+Slider_Audience
+Slider_Music
+Slider_SFX
+Space_Garage_Volume
+SS_Air_Freefall
+SS_Air_RPM
+Surfaces_Volume
+Swoosh_Pan
+Swoosh_Speed
+TrackFurniture_Volume
+Trigger_Position_Gamepad
+Vehicle_Volume
+VehicleSpeed
+WaterDriftAmount
+WaveHeight
+WaveVolume
+Weapons_Volume
+zMix_Explosions
+zMix_SetPieces
+zMix_VoiceVolume
+zMix_wepFireExpire
+zMix_wepflight_duck_surfaces_Engines
+# 435010057
+
+### RTPC/GAME-VARIABLE NAMES (1355168291.bnk: Init)
+Character_Voice_Volume
+Global_Ambience_Volume
+Local_Ambience_Volume
+Music_Volume
+Slider_Announcer
+Slider_Audience
+Slider_Music
+Slider_SFX
+Surfaces_Volume
+TrackFurniture_Volume
+Vehicle_Volume
+Weapons_Volume
+zMix_Explosions
+zMix_SetPieces
+zMix_VoiceVolume
+zMix_wepFireExpire
+zMix_wepflight_duck_surfaces_Engines
+
+### VARIABLE NAMES (1355168291.bnk: Init)
+AllStarMusic_Character
+Ambience2D
+FE_Music
+Interactive_Music
+MixStates
+music_type
+
+### VALUE NAMES (1355168291.bnk: Init)
+All_Star
+Boost
+frontend
+loading
+Normal_Default
+Paused
+PostRace
+PreRace_Intro
+SplitScreen
+
+### EVENT NAMES (1292241521.bnk: Cvo_Nights)
+CHVO_Nights
+
+### VARIABLE NAMES (1292241521.bnk: Cvo_Nights)
+Bark_Type
+
+### VALUE NAMES (1292241521.bnk: Cvo_Nights)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (1311935047.bnk: Cvo_Vyse)
+CHVO_Vyse
+
+### VARIABLE NAMES (1311935047.bnk: Cvo_Vyse)
+Bark_Type
+
+### VALUE NAMES (1311935047.bnk: Cvo_Vyse)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (1503652336.bnk: Cvo_Sonic)
+CHVO_Sonic
+
+### VARIABLE NAMES (1503652336.bnk: Cvo_Sonic)
+Bark_Type
+
+### VALUE NAMES (1503652336.bnk: Cvo_Sonic)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (1570510776.bnk: Cvo_AiAi)
+CHVO_AiAi
+
+### VARIABLE NAMES (1570510776.bnk: Cvo_AiAi)
+Bark_Type
+
+### VALUE NAMES (1570510776.bnk: Cvo_AiAi)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (1625716057.bnk: Cvo_Amigo)
+CHVO_Amigo
+
+### VARIABLE NAMES (1625716057.bnk: Cvo_Amigo)
+Bark_Type
+
+### VALUE NAMES (1625716057.bnk: Cvo_Amigo)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (1733263752.bnk: Cvo_Shadow)
+CHVO_Shadow
+
+### VARIABLE NAMES (1733263752.bnk: Cvo_Shadow)
+Bark_Type
+
+### VALUE NAMES (1733263752.bnk: Cvo_Shadow)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (217991240.bnk: Cvo_TF2)
+CHVO_TF2
+
+### VARIABLE NAMES (217991240.bnk: Cvo_TF2)
+Bark_Type
+TransformMode
+
+### VALUE NAMES (217991240.bnk: Cvo_TF2)
+Boat
+Car
+Overtake
+Plane
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (2183773854.bnk: Cvo_Knuckles)
+CHVO_Knuckles
+
+### VARIABLE NAMES (2183773854.bnk: Cvo_Knuckles)
+Bark_Type
+
+### VALUE NAMES (2183773854.bnk: Cvo_Knuckles)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (2216650269.bnk: Cvo_Tails)
+CHVO_Tails
+
+### VARIABLE NAMES (2216650269.bnk: Cvo_Tails)
+Bark_Type
+
+### VALUE NAMES (2216650269.bnk: Cvo_Tails)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (2409254057.bnk: Cvo_Reala)
+CHVO_Reala
+
+### VARIABLE NAMES (2409254057.bnk: Cvo_Reala)
+Bark_Type
+
+### VALUE NAMES (2409254057.bnk: Cvo_Reala)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (2415006920.bnk: Cvo_BDJoe)
+CHVO_BDJoe
+
+### VARIABLE NAMES (2415006920.bnk: Cvo_BDJoe)
+Bark_Type
+
+### VALUE NAMES (2415006920.bnk: Cvo_BDJoe)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (2492682088.bnk: Cvo_DanicaPatrick)
+CHVO_DanicaPatrick
+
+### VARIABLE NAMES (2492682088.bnk: Cvo_DanicaPatrick)
+Bark_Type
+
+### VALUE NAMES (2492682088.bnk: Cvo_DanicaPatrick)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (3101365028.bnk: Cvo_AlexKidd)
+CHVO_AlexKidd
+
+### VARIABLE NAMES (3101365028.bnk: Cvo_AlexKidd)
+Bark_Type
+
+### VALUE NAMES (3101365028.bnk: Cvo_AlexKidd)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (3108892387.bnk: Cvo_SegaBot)
+CHVO_SegaBot
+
+### VARIABLE NAMES (3108892387.bnk: Cvo_SegaBot)
+Bark_Type
+TransformMode
+
+### VALUE NAMES (3108892387.bnk: Cvo_SegaBot)
+Boat
+Car
+Overtake
+Plane
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (3193283073.bnk: Cvo_Ulala)
+CHVO_Ulala
+
+### VARIABLE NAMES (3193283073.bnk: Cvo_Ulala)
+Bark_Type
+
+### VALUE NAMES (3193283073.bnk: Cvo_Ulala)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (3395616793.bnk: Cvo_Eggman)
+CHVO_Eggman
+
+### VARIABLE NAMES (3395616793.bnk: Cvo_Eggman)
+Bark_Type
+
+### VALUE NAMES (3395616793.bnk: Cvo_Eggman)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (3464404176.bnk: Cvo_Beat)
+CHVO_Beat
+
+### VARIABLE NAMES (3464404176.bnk: Cvo_Beat)
+Bark_Type
+
+### VALUE NAMES (3464404176.bnk: Cvo_Beat)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (3683432861.bnk: Cvo_Gilius)
+CHVO_Gilius
+
+### VARIABLE NAMES (3683432861.bnk: Cvo_Gilius)
+Bark_Type
+
+### VALUE NAMES (3683432861.bnk: Cvo_Gilius)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (3845775470.bnk: Cvo_WreckitRalph)
+CHVO_WreckitRalph
+
+### VARIABLE NAMES (3845775470.bnk: Cvo_WreckitRalph)
+Bark_Type
+
+### VALUE NAMES (3845775470.bnk: Cvo_WreckitRalph)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (3895585255.bnk: Cvo_Amy)
+CHVO_Amy
+
+### VARIABLE NAMES (3895585255.bnk: Cvo_Amy)
+Bark_Type
+
+### VALUE NAMES (3895585255.bnk: Cvo_Amy)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (393359247.bnk: Cvo_MetalSonic)
+CHVO_MetalSonic
+
+### VARIABLE NAMES (393359247.bnk: Cvo_MetalSonic)
+Bark_Type
+
+### VALUE NAMES (393359247.bnk: Cvo_MetalSonic)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (3945069280.bnk: Cvo_JoeMushashi)
+CHVO_Joe_Mushashi
+
+### VARIABLE NAMES (3945069280.bnk: Cvo_JoeMushashi)
+Bark_Type
+
+### VALUE NAMES (3945069280.bnk: Cvo_JoeMushashi)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (3962401489.bnk: Cvo_Gum)
+CHVO_Gum
+
+### VARIABLE NAMES (3962401489.bnk: Cvo_Gum)
+Bark_Type
+
+### VALUE NAMES (3962401489.bnk: Cvo_Gum)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (4041265178.bnk: Cvo_ShogunTotalWar)
+CHVO_ShogunTotalWar
+
+### VARIABLE NAMES (4041265178.bnk: Cvo_ShogunTotalWar)
+Bark_Type
+
+### VALUE NAMES (4041265178.bnk: Cvo_ShogunTotalWar)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (4116408818.bnk: Cvo_MeeMee)
+CHVO_MeeMee
+
+### VARIABLE NAMES (4116408818.bnk: Cvo_MeeMee)
+Bark_Type
+
+### VALUE NAMES (4116408818.bnk: Cvo_MeeMee)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (4189270943.bnk: Cvo_AV_Mii)
+CHVO_Av_Mii
+
+### VARIABLE NAMES (4189270943.bnk: Cvo_AV_Mii)
+Av_Mii_gender
+Bark_Type
+
+### VALUE NAMES (4189270943.bnk: Cvo_AV_Mii)
+Female
+Male
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (4961060.bnk: Cvo_FootballManager)
+CHVO_FootballManager
+
+### VARIABLE NAMES (4961060.bnk: Cvo_FootballManager)
+Bark_Type
+
+### VALUE NAMES (4961060.bnk: Cvo_FootballManager)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (919610407.bnk: Cvo_Pudding)
+CHVO_Pudding
+
+### VARIABLE NAMES (919610407.bnk: Cvo_Pudding)
+Bark_Type
+
+### VALUE NAMES (919610407.bnk: Cvo_Pudding)
+Overtake
+Race_Lose
+Race_Win
+React_Negative
+React_Postitive
+Taunt
+
+### EVENT NAMES (2625678156.bnk: AI_BANK)
+Play_b125_AI
+Play_b125_Boat_AI
+Play_bmini_AI
+Play_bmini_Boat_AI
+Play_Cat7_AI
+Play_Cat7_Boat_AI
+Play_F430_AI
+Play_F430_Boat_AI
+Play_Imp_AI
+Play_Imp_Boat_AI
+Play_RS200_AI
+Play_RS200_Boat_AI
+Play_SEGABOT_AI
+Play_SEGABOT_Boat_AI
+Play_Stang_AI
+Play_Stang_Boat_AI
+Play_SteamBoat_AI
+Play_SteamTrain_AI
+Play_Stratos_AI
+Play_Stratos_Boat_AI
+Play_tails_boat_AI
+Play_tails_test_Car_AI
+Play_Vette_AI
+Play_Vette_Boat_AI
+Play_Viper_AI
+Play_Viper_Boat_AI
+Stop_b125_AI
+Stop_b125_Boat_AI
+Stop_bmini_AI
+Stop_bmini_Boat_AI
+Stop_Cat7_AI
+Stop_Cat7_Boat_AI
+Stop_F430_AI
+Stop_F430_Boat_AI
+Stop_Imp_AI
+Stop_Imp_Boat_AI
+Stop_RS200_AI
+Stop_RS200_Boat_AI
+Stop_SEGABOT_AI
+Stop_SEGABOT_Boat_AI
+Stop_Stang_AI
+Stop_Stang_Boat_AI
+Stop_SteamBoat_AI
+Stop_SteamTrain_AI
+Stop_Stratos_AI
+Stop_Stratos_Boat_AI
+Stop_tails_boat_AI
+Stop_tails_test_Car_AI
+Stop_Vette_AI
+Stop_Vette_Boat_AI
+Stop_Viper_AI
+Stop_Viper_Boat_AI
+
+### RTPC/GAME-VARIABLE NAMES (2625678156.bnk: AI_BANK)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+
+### EVENT NAMES (2690505888.bnk: ASN_AIAI_VEH)
+Play_RS200
+Play_RS200_Boat
+Stop_RS200
+Stop_RS200_Boat
+
+### RTPC/GAME-VARIABLE NAMES (2690505888.bnk: ASN_AIAI_VEH)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (3186176909.bnk: ASN_AMIGO_VEH)
+Play_SteamBoat
+Play_SteamTrain
+Stop_SteamBoat
+Stop_SteamTrain
+
+### RTPC/GAME-VARIABLE NAMES (3186176909.bnk: ASN_AMIGO_VEH)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (1246866595.bnk: ASN_AMY_VEH)
+Play_AMY_Boat
+Play_Cat7
+Stop_AMY_Boat
+Stop_Cat7
+
+### RTPC/GAME-VARIABLE NAMES (1246866595.bnk: ASN_AMY_VEH)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (2662203722.bnk: ASN_Audience)
+Play_AiAi_Chant
+Play_AlexKidd_Chant
+Play_Amigo_Chant
+Play_Amy_Chant
+Play_Aud_Gen_RaceStart
+Play_Aud_PlCollisionGlance
+Play_Aud_PlCollisionOtherCar
+Play_Aud_PlCollisionSuddenStop
+Play_Aud_PlNewLapLast
+Play_Aud_PlNewLapLead
+Play_Aud_PlNewLapOther
+Play_Aud_PlRaceFin1st
+Play_Aud_PlRaceFin2ndor3rd
+Play_Aud_PlRaceFinLast
+Play_Aud_PlRaceFinLowPos
+Play_Aud_PlWeaponHitSelf
+Play_Aud_ScoringSystemL1
+Play_Aud_ScoringSystemL2
+Play_Aud_ScoringSystemL3
+Play_Avatar_Chant
+Play_BDJoe_Chant
+Play_Beat_Chant
+Play_Danica_Chant
+Play_Eggman_Chant
+Play_Footman_Chant
+Play_Gilius_Chant
+Play_Gum_Chant
+Play_JoeMusashi_Chant
+Play_Knuckles_Chant
+Play_MeeMee_Chant
+Play_MetalSonic_Chant
+Play_Mii_Chant
+Play_Nights_Chant
+Play_pausemenu_neg
+Play_pausemenu_pos
+Play_Pudding_Chant
+Play_Reala_Chant
+Play_Sega_Chant
+Play_Segabot_Chant
+Play_Shadow_Chant
+Play_Shogun_Chant
+Play_Sonic_Chant
+Play_Tails_Chant
+Play_TF2_Chant
+Play_Ulala_Chant
+Play_Vyse_Chant
+Play_WreckitRalph_Chant
+Stop_AiAi_Chant
+Stop_AlexKidd_Chant
+Stop_Amigo_Chant
+Stop_Amy_Chant
+Stop_Avatar_Chant
+Stop_BDJoe_Chant
+Stop_Beat_Chant
+Stop_Danica_Chant
+Stop_Eggman_Chant
+Stop_Footman_Chant
+Stop_Gilius_Chant
+Stop_Gum_Chant
+Stop_JoeMusashi_Chant
+Stop_Knuckles_Chant
+Stop_MeeMee_Chant
+Stop_MetalSonic_Chant
+Stop_Mii_Chant
+Stop_Nights_Chant
+Stop_pausemenu_neg
+Stop_pausemenu_pos
+Stop_Pudding_Chant
+Stop_Reala_Chant
+Stop_Sega_Chant
+Stop_Segabot_Chant
+Stop_Shadow_Chant
+Stop_Shogun_Chant
+Stop_Sonic_Chant
+Stop_Tails_Chant
+Stop_TF2_Chant
+Stop_Ulala_Chant
+Stop_Vyse_Chant
+Stop_WreckitRalph_Chant
+# 8258390
+# 693272136
+# 729648559
+# 2253683493
+# 2296547025
+# 2532471218
+# 2559914280
+# 2714856377
+# 3010248911
+# 3546552613
+# 3601486687
+# 4177969360
+
+### EVENT NAMES (3523191939.bnk: ASN_Avatar_Veh)
+Play_Stratos
+Play_Stratos_Boat
+Stop_Stratos
+Stop_Stratos_Boat
+
+### RTPC/GAME-VARIABLE NAMES (3523191939.bnk: ASN_Avatar_Veh)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (1312494400.bnk: ASN_BDJOE_VEH)
+Play_BdJoe_Boat
+Play_Vette
+Stop_BdJoe_Boat
+Stop_Vette
+
+### RTPC/GAME-VARIABLE NAMES (1312494400.bnk: ASN_BDJOE_VEH)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (2662930568.bnk: ASN_BEAT_VEH)
+Play_b125
+Play_b125_Boat
+Stop_b125
+Stop_b125_Boat
+
+### RTPC/GAME-VARIABLE NAMES (2662930568.bnk: ASN_BEAT_VEH)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (3269127711.bnk: ASN_BILLYHATCHER_VEH)
+Play_b125
+Play_b125_Boat
+Stop_b125
+Stop_b125_Boat
+
+### RTPC/GAME-VARIABLE NAMES (3269127711.bnk: ASN_BILLYHATCHER_VEH)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (4098727634.bnk: ASN_Danica_Veh)
+Play_Danica
+Play_Danica_Boat
+Stop_Danica
+Stop_Danica_Boat
+
+### RTPC/GAME-VARIABLE NAMES (4098727634.bnk: ASN_Danica_Veh)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (206762453.bnk: ASN_EGGMAN_VEH)
+Play_Viper
+Play_Viper_Boat
+Stop_Viper
+Stop_Viper_Boat
+
+### RTPC/GAME-VARIABLE NAMES (206762453.bnk: ASN_EGGMAN_VEH)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (4142885458.bnk: ASN_Frontend_TrackBank)
+Play_FE_AB_Loop
+Play_FE_AB_Point_Loop
+Play_FE_ASF_Loop
+Play_FE_ASF_Point_Loop
+Play_FE_BH_Loop
+Play_FE_BH_Point_Loop
+Play_FE_BR_Loop
+Play_FE_BR_Point_Loop
+Play_FE_Clas_CPE_Loop
+Play_FE_Clas_CPE_Point_Loop
+Play_FE_Clas_DE_Loop
+Play_FE_Clas_DE_Point_Loop
+Play_FE_Clas_JSR_Loop
+Play_FE_Clas_JSR_Point_Loop
+Play_FE_Clas_Samba_Loop
+Play_FE_Clas_Samba_Point_Loop
+Play_FE_GoldenAxe_Loop
+Play_FE_GoldenAxe_Point_Loop
+Play_FE_HOTD_Loop
+Play_FE_HOTD_Point_Loop
+Play_FE_JSR_Loop
+Play_FE_JSR_Point
+Play_FE_MonkeyBall_Loop
+Play_FE_MonkeyBall_Point_Loop
+Play_FE_Nights_Loop
+Play_FE_Nights_Point_Loop
+Play_FE_Outrun_Loop
+Play_FE_Outrun_Point_Loop
+Play_FE_Panzer_Loop
+Play_FE_Panzer_Point_Loop
+Play_FE_Samba_Loop
+Play_FE_Samba_Point_Loop
+Play_FE_SeaSideHill_Loop
+Play_FE_SeaSideHill_Point_Loop
+Play_FE_Shinobi_Loop
+Play_FE_Shinobi_Point_Loop
+Play_FE_SkiesArcadia_Loop
+Play_FE_SkiesArcadia_Point_Loop
+Play_FE_SkySanctury_Loop
+Play_FE_SkySanctury_Point_Loop
+Play_FE_Starlight_Loop
+Play_FE_Starlight_Point_Loop
+Stop_FE_AB_Loop
+Stop_FE_AB_Point_Loop
+Stop_FE_ASF_Loop
+Stop_FE_ASF_Point_Loop
+Stop_FE_BH_Loop
+Stop_FE_BH_Point_Loop
+Stop_FE_BR_Loop
+Stop_FE_BR_Point_Loop
+
+### EVENT NAMES (1996359889.bnk: ASN_Gilius_Veh)
+Play_Stang
+Play_Stang_Boat
+Play_TF2_Boat
+Stop_Stang
+Stop_Stang_Boat
+Stop_TF2_Boat
+
+### RTPC/GAME-VARIABLE NAMES (1996359889.bnk: ASN_Gilius_Veh)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (3590539371.bnk: ASN_Global_Vehicles)
+Play_AirDrifting
+Play_Barrel_Roll
+Play_FlipOut
+Play_player_electric_shock
+Play_SpinOut
+Play_StartlineBlips
+Stop_AirDrifting
+Stop_BARREL_ROLL
+Stop_FlipOut
+Stop_player_electric_shock
+Stop_SpinOut
+Stop_StartlineBlips
+
+### RTPC/GAME-VARIABLE NAMES (3590539371.bnk: ASN_Global_Vehicles)
+VehicleSpeed
+
+### VARIABLE NAMES (3590539371.bnk: ASN_Global_Vehicles)
+Vehicle_Mode
+
+### VALUE NAMES (3590539371.bnk: ASN_Global_Vehicles)
+Boat
+Car
+Plane
+
+### EVENT NAMES (4270711526.bnk: ASN_Knuckles_VEH)
+Play_Imp
+Play_Knuckles_Boat
+Stop_Imp
+Stop_Knuckles_Boat
+
+### RTPC/GAME-VARIABLE NAMES (4270711526.bnk: ASN_Knuckles_VEH)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (2986417568.bnk: ASN_Liquid_Cheese)
+Play_Splashes
+Play_WaterSurfaces
+Stop_Splashes
+Stop_WaterSurfaces
+# 3792229173
+# 4253852964
+
+### RTPC/GAME-VARIABLE NAMES (2986417568.bnk: ASN_Liquid_Cheese)
+Doppler
+WaterDriftAmount
+
+### VARIABLE NAMES (2986417568.bnk: ASN_Liquid_Cheese)
+Liquid_Type
+
+### VALUE NAMES (2986417568.bnk: ASN_Liquid_Cheese)
+Chili_and_Chilli
+LAVA
+Slime
+WATER
+
+### EVENT NAMES (3820038369.bnk: ASN_Liquid_Lava)
+Play_Splashes
+Play_WaterSurfaces
+Stop_Splashes
+Stop_WaterSurfaces
+# 3792229173
+# 4253852964
+
+### RTPC/GAME-VARIABLE NAMES (3820038369.bnk: ASN_Liquid_Lava)
+Doppler
+VehicleSpeed
+WaterDriftAmount
+
+### VARIABLE NAMES (3820038369.bnk: ASN_Liquid_Lava)
+Liquid_Type
+WaterImpacts
+WaterSurfaceTypes
+
+### VALUE NAMES (3820038369.bnk: ASN_Liquid_Lava)
+BigSplash
+CalmWater
+Chili_and_Chilli
+LAVA
+MediumSplash
+Rapids
+Slime
+SmallSplash
+Underwater
+WATER
+
+### EVENT NAMES (332507921.bnk: ASN_Liquid_Slime)
+Play_Splashes
+Play_WaterSurfaces
+Stop_Splashes
+Stop_WaterSurfaces
+# 3792229173
+# 4253852964
+
+### RTPC/GAME-VARIABLE NAMES (332507921.bnk: ASN_Liquid_Slime)
+Doppler
+VehicleSpeed
+WaterDriftAmount
+
+### VARIABLE NAMES (332507921.bnk: ASN_Liquid_Slime)
+Liquid_Type
+WaterImpacts
+WaterSurfaceTypes
+
+### VALUE NAMES (332507921.bnk: ASN_Liquid_Slime)
+BigSplash
+CalmWater
+Chili_and_Chilli
+LAVA
+MediumSplash
+Rapids
+Slime
+SmallSplash
+Underwater
+WATER
+
+### EVENT NAMES (3319557656.bnk: ASN_Liquid_Water)
+Play_Splashes
+Play_WaterSurfaces
+Stop_Splashes
+Stop_WaterSurfaces
+# 3792229173
+# 4253852964
+
+### RTPC/GAME-VARIABLE NAMES (3319557656.bnk: ASN_Liquid_Water)
+Doppler
+VehicleSpeed
+WaterDriftAmount
+
+### VARIABLE NAMES (3319557656.bnk: ASN_Liquid_Water)
+Liquid_Type
+WaterImpacts
+WaterSurfaceTypes
+
+### VALUE NAMES (3319557656.bnk: ASN_Liquid_Water)
+BigSplash
+CalmWater
+Chili_and_Chilli
+LAVA
+MediumSplash
+Rapids
+Slime
+SmallSplash
+Underwater
+WATER
+
+### EVENT NAMES (2056529579.bnk: ASN_MetalSonic_VEH)
+Play_bmini
+Play_bmini_Boat
+Stop_bmini
+Stop_bmini_Boat
+
+### RTPC/GAME-VARIABLE NAMES (2056529579.bnk: ASN_MetalSonic_VEH)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (4253180977.bnk: ASN_Music)
+Play_00_FE
+Play_AfterBurner_Music
+Play_AllStarFinale
+Play_BillyHatcher_Music
+Play_BurningRangers_Music
+Play_Classic_Casino_Music
+Play_Classic_DeathEgg_Music
+Play_Classic_JSR_Music
+Play_Classic_Samba_Music
+Play_GA_Music
+Play_HouseOfTheDead_Music
+Play_JetSetRadio_Music
+Play_jing_Game_Complete
+Play_jing_GP_Complete
+Play_jing_Jingle_Fail
+Play_jing_Jingle_Success
+Play_jing_Race_Complete
+play_Loading
+Play_MB_Music
+Play_MenuMusic
+Play_Nights_Music
+Play_OutrunMusic
+Play_PDMusic
+Play_results
+Play_SambaDeAmigo_Music
+Play_SCMusic
+Play_SHIN_Music
+Play_SkiesOfArcadia_Music
+Play_SkySanctuary_Music
+Play_SSH_Music
+Stop_00_FE
+Stop_AfterBurner_Music
+Stop_AllStarFinale
+Stop_BillyHatcher_Music
+Stop_BurningRangers_Music
+Stop_Classic_Casino_Music
+Stop_Classic_DeathEgg_Music
+Stop_Classic_JSR_Music
+Stop_Classic_Samba_Music
+Stop_GA_Music
+Stop_HouseOfTheDead_Music
+Stop_JetSetRadio_Music
+Stop_jing_Game_Complete
+Stop_jing_GP_Complete
+Stop_jing_Jingle_Fail
+Stop_jing_Jingle_Success
+Stop_jing_Race_Complete
+stop_Loading
+Stop_MB_Music
+Stop_MenuMusic
+Stop_Nights_Music
+Stop_OutrunMusic
+Stop_PDMusic
+Stop_results
+Stop_SambaDeAmigo_Music
+Stop_SCMusic
+Stop_SHIN_Music
+Stop_SkiesOfArcadia_Music
+Stop_SkySanctuary_Music
+Stop_SSH_Music
+# 761485598
+# 1277459824
+# 1369844486
+# 2730047211
+# 3007774540
+# 3260718989
+# 3944667826
+# 4094238644
+
+### VARIABLE NAMES (4253180977.bnk: ASN_Music)
+AllStarMusic_Character
+FE_Music
+Interactive_Music
+
+### VALUE NAMES (4253180977.bnk: ASN_Music)
+allstar
+AS_AiAi
+AS_AlexKidd
+AS_Amigo
+AS_Amy
+AS_Avatar
+AS_BdJoe
+AS_Beat
+AS_Danica
+AS_Eggman
+AS_FootballManager
+AS_Gilius
+AS_Gum
+AS_JoeMushashi
+AS_Knuckles
+AS_MeeMee
+AS_MetalSonic
+AS_Mii
+AS_Nights
+AS_Pudding
+AS_Reala
+AS_Segabot
+AS_Shadow
+AS_Shogun
+AS_Sonic
+AS_Tails
+AS_TeamFortress
+AS_Ulala
+AS_Vyse
+AS_Wreckit
+Basic_Looping
+Boat
+Car
+credits
+Fruitmachine
+GP_Battle_Online
+Intro
+loading
+MainMenu
+None
+options
+Pause
+Plane
+results
+TitleScreen
+worldtour
+
+### EVENT NAMES (4155840655.bnk: ASN_SEGABOT_veh)
+Play_Segabot
+Play_SEGABOT_Boat
+Stop_SEGABOT
+Stop_SEGABOT_Boat
+
+### RTPC/GAME-VARIABLE NAMES (4155840655.bnk: ASN_SEGABOT_veh)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (2707684440.bnk: ASN_Shadow_Veh)
+Play_Stratos
+Play_Stratos_Boat
+Stop_Stratos
+Stop_Stratos_Boat
+
+### RTPC/GAME-VARIABLE NAMES (2707684440.bnk: ASN_Shadow_Veh)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (3518190800.bnk: ASN_Shinobi_Veh)
+Play_F430
+Play_F430_Boat
+Stop_F430
+Stop_F430_Boat
+
+### RTPC/GAME-VARIABLE NAMES (3518190800.bnk: ASN_Shinobi_Veh)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (2005507312.bnk: ASN_Sonic_Veh)
+Play_F430
+Play_F430_Boat
+Stop_F430
+Stop_F430_Boat
+
+### RTPC/GAME-VARIABLE NAMES (2005507312.bnk: ASN_Sonic_Veh)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (2867183174.bnk: ASN_Surface_Cobbles)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (2867183174.bnk: ASN_Surface_Cobbles)
+Doppler
+DriftTime_BoostLevel
+RoadSkidLockAmount
+RoadSkidTractionLoss
+VehicleSpeed
+
+### VARIABLE NAMES (2867183174.bnk: ASN_Surface_Cobbles)
+Material
+
+### VALUE NAMES (2867183174.bnk: ASN_Surface_Cobbles)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (1555778528.bnk: ASN_Surface_DeepGrass)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (1555778528.bnk: ASN_Surface_DeepGrass)
+AirTime
+Doppler
+DriftTime_BoostLevel
+RoadSkidLockAmount
+RoadSkidTractionLoss
+VehicleSpeed
+
+### VARIABLE NAMES (1555778528.bnk: ASN_Surface_DeepGrass)
+Material
+
+### VALUE NAMES (1555778528.bnk: ASN_Surface_DeepGrass)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (2222169930.bnk: ASN_Surface_EnergyRoad)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (2222169930.bnk: ASN_Surface_EnergyRoad)
+Doppler
+VehicleSpeed
+
+### VARIABLE NAMES (2222169930.bnk: ASN_Surface_EnergyRoad)
+Material
+
+### VALUE NAMES (2222169930.bnk: ASN_Surface_EnergyRoad)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (2093647216.bnk: ASN_Surface_Glass)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (2093647216.bnk: ASN_Surface_Glass)
+Doppler
+VehicleSpeed
+
+### VARIABLE NAMES (2093647216.bnk: ASN_Surface_Glass)
+Material
+
+### VALUE NAMES (2093647216.bnk: ASN_Surface_Glass)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (439546114.bnk: ASN_Surface_Grass)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (439546114.bnk: ASN_Surface_Grass)
+AirTime
+Doppler
+DriftTime_BoostLevel
+RoadSkidLockAmount
+RoadSkidTractionLoss
+VehicleSpeed
+
+### VARIABLE NAMES (439546114.bnk: ASN_Surface_Grass)
+Material
+
+### VALUE NAMES (439546114.bnk: ASN_Surface_Grass)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (3871499164.bnk: ASN_Surface_Grating)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (3871499164.bnk: ASN_Surface_Grating)
+AirTime
+Doppler
+DriftTime_BoostLevel
+RoadSkidLockAmount
+RoadSkidTractionLoss
+VehicleSpeed
+
+### VARIABLE NAMES (3871499164.bnk: ASN_Surface_Grating)
+Material
+
+### VALUE NAMES (3871499164.bnk: ASN_Surface_Grating)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (1178189361.bnk: ASN_Surface_Gravel)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (1178189361.bnk: ASN_Surface_Gravel)
+AirTime
+Doppler
+DriftTime_BoostLevel
+RoadSkidLockAmount
+RoadSkidTractionLoss
+VehicleSpeed
+
+### VARIABLE NAMES (1178189361.bnk: ASN_Surface_Gravel)
+Material
+
+### VALUE NAMES (1178189361.bnk: ASN_Surface_Gravel)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (919883777.bnk: ASN_Surface_Ice)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (919883777.bnk: ASN_Surface_Ice)
+AirTime
+Doppler
+DriftTime_BoostLevel
+RoadSkidLockAmount
+RoadSkidTractionLoss
+VehicleSpeed
+
+### VARIABLE NAMES (919883777.bnk: ASN_Surface_Ice)
+Material
+
+### VALUE NAMES (919883777.bnk: ASN_Surface_Ice)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (3916382789.bnk: ASN_Surface_Metal)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (3916382789.bnk: ASN_Surface_Metal)
+AirTime
+Doppler
+VehicleSpeed
+
+### VARIABLE NAMES (3916382789.bnk: ASN_Surface_Metal)
+Material
+
+### VALUE NAMES (3916382789.bnk: ASN_Surface_Metal)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (885740166.bnk: ASN_Surface_Mud)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (885740166.bnk: ASN_Surface_Mud)
+AirTime
+Doppler
+DriftTime_BoostLevel
+RoadSkidLockAmount
+RoadSkidTractionLoss
+VehicleSpeed
+
+### VARIABLE NAMES (885740166.bnk: ASN_Surface_Mud)
+Material
+
+### VALUE NAMES (885740166.bnk: ASN_Surface_Mud)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (2461383443.bnk: ASN_Surface_Slate)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (2461383443.bnk: ASN_Surface_Slate)
+AirTime
+Doppler
+DriftTime_BoostLevel
+RoadSkidLockAmount
+RoadSkidTractionLoss
+VehicleSpeed
+
+### VARIABLE NAMES (2461383443.bnk: ASN_Surface_Slate)
+Material
+
+### VALUE NAMES (2461383443.bnk: ASN_Surface_Slate)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (3451937925.bnk: ASN_Surface_Snow)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (3451937925.bnk: ASN_Surface_Snow)
+AirTime
+Doppler
+DriftTime_BoostLevel
+RoadSkidLockAmount
+RoadSkidTractionLoss
+VehicleSpeed
+
+### VARIABLE NAMES (3451937925.bnk: ASN_Surface_Snow)
+Material
+
+### VALUE NAMES (3451937925.bnk: ASN_Surface_Snow)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (1616260278.bnk: ASN_Surface_Stairs)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (1616260278.bnk: ASN_Surface_Stairs)
+Doppler
+VehicleSpeed
+
+### VARIABLE NAMES (1616260278.bnk: ASN_Surface_Stairs)
+Material
+
+### VALUE NAMES (1616260278.bnk: ASN_Surface_Stairs)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (994502762.bnk: ASN_Surface_Tarmac)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (994502762.bnk: ASN_Surface_Tarmac)
+AirTime
+Doppler
+DriftTime_BoostLevel
+RoadSkidLockAmount
+RoadSkidTractionLoss
+VehicleSpeed
+
+### VARIABLE NAMES (994502762.bnk: ASN_Surface_Tarmac)
+Material
+
+### VALUE NAMES (994502762.bnk: ASN_Surface_Tarmac)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (1000065259.bnk: ASN_Surface_Wood)
+Play_BrakingSkid
+Play_DriftingLoop
+Play_DriftingSkid
+Play_Landing
+Play_LandSurfaces
+Stop_BrakingSkid
+Stop_DriftingLoop
+Stop_DriftingSkid
+Stop_Landing
+Stop_LandSurfaces
+
+### RTPC/GAME-VARIABLE NAMES (1000065259.bnk: ASN_Surface_Wood)
+AirTime
+Doppler
+DriftTime_BoostLevel
+RoadSkidLockAmount
+RoadSkidTractionLoss
+VehicleSpeed
+
+### VARIABLE NAMES (1000065259.bnk: ASN_Surface_Wood)
+Material
+
+### VALUE NAMES (1000065259.bnk: ASN_Surface_Wood)
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Ice
+Metal
+Metal_Grating
+mud
+Rock
+Seabed
+Slate
+Snow
+SpaceRoad
+Stairs
+Tarmac
+Wood
+
+### EVENT NAMES (4234468417.bnk: ASN_TAILS_VEH)
+Play_tails_boat
+Play_tails_test_Car
+Stop_tails_boat
+Stop_tails_test_Car
+
+### RTPC/GAME-VARIABLE NAMES (4234468417.bnk: ASN_TAILS_VEH)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (568645768.bnk: ASN_Track_Afterburner)
+Play_2D_AMB_AB
+Play_3D_BigJet
+Play_3D_Carrier
+Play_3D_Carrier_Radar
+Play_3D_CarrierBowWave
+Play_3D_Chinook
+Play_3D_Choppers
+Play_3D_CRATE_AB_SMASH
+Play_3D_Destroyers
+Play_3D_F14_Loops
+Play_3D_Fire_Heli
+Play_3D_Fire_Ship_L
+Play_3D_Fire_Ship_R
+Play_3D_Flack_Explosions
+Play_3D_HoverCraft
+Play_3D_Sea_Explosions
+Play_3D_SetPiece_SubSurface
+Play_3D_Sub_rocket_Launch
+Stop_2D_AMB_AB
+Stop_3D_BigJet
+Stop_3D_Carrier
+Stop_3D_Carrier_Radar
+Stop_3D_CarrierBowWave
+Stop_3D_Chinook
+Stop_3D_Choppers
+Stop_3D_CRATE_AB_SMASH
+Stop_3D_Destroyers
+Stop_3D_F14_Loops
+Stop_3D_Fire_Heli
+Stop_3D_Fire_Ship_L
+Stop_3D_Fire_Ship_R
+Stop_3D_Flack_Explosions
+Stop_3D_HoverCraft
+Stop_3D_Sea_Explosions
+Stop_3D_SetPiece_SubSurface
+Stop_3D_Sub_rocket_Launch
+# 2548111315
+# 2804699723
+# 2858009021
+# 3934124853
+
+### RTPC/GAME-VARIABLE NAMES (568645768.bnk: ASN_Track_Afterburner)
+Doppler
+
+### VARIABLE NAMES (568645768.bnk: ASN_Track_Afterburner)
+MixStates
+
+### VALUE NAMES (568645768.bnk: ASN_Track_Afterburner)
+PreRace_Intro
+
+### EVENT NAMES (3145119272.bnk: ASN_Track_AllStarFinale)
+Play_2D_Amb_AllStarFinale
+Play_2D_warp_player_purple
+Play_3D_F14_grams
+Play_3D_glowing_hologram
+Play_3D_hologram_pods
+Play_3D_Jetski_grams
+Play_3D_purple_portal
+Play_3D_red_ForceField_Large
+Play_3D_red_ForceField_Small
+Play_3D_red_switch_off
+Play_3D_red_switch_on
+Play_3D_Rez_Snake
+Play_3D_Rotating_Tunnel_Machine
+Play_3D_Zepplin
+Stop_2D_Amb_AllStarFinale
+Stop_2D_warp_player_purple
+Stop_3D_F14_grams
+Stop_3D_glowing_hologram
+Stop_3D_hologram_pods
+Stop_3D_Jetski_grams
+Stop_3D_purple_portal
+Stop_3D_red_ForceField_Large
+Stop_3D_red_ForceField_Small
+Stop_3D_red_switch_off
+Stop_3D_red_switch_on
+Stop_3D_Rez_Snake
+Stop_3D_Rotating_Tunnel_Machine
+Stop_3D_Zepplin
+# 1782625911
+# 3716481851
+
+### RTPC/GAME-VARIABLE NAMES (3145119272.bnk: ASN_Track_AllStarFinale)
+Doppler
+
+### EVENT NAMES (4023523871.bnk: ASN_Track_BillyHatcher)
+Play_2D_Amb_BH
+Play_3D_Chick_Folk_Cheer
+Play_3D_Chick_Folk_Clap
+Play_3D_ClockWork_BigCogs
+Play_3D_ClockWork_LittleCogs
+Play_3D_ClockWork_Main
+Play_3D_Crow_Bounce
+Play_3D_Crow_Hit
+Play_3D_Flaming_Torches_bh
+Play_3D_IceCave_RoofCollapse
+Play_3D_IceCave_SmashIceColumn
+Play_3D_Icicle_Drop
+Play_3D_Icicle_Splash
+Play_3D_LargeSnowflakesOnly
+Play_3D_SnowMan_Drop
+Play_3D_SnowMan_Smash
+Play_3D_Twizzler_Anvil
+Play_3D_Twizzler_Lightning
+Play_3D_Twizzler_Moon
+Play_3D_Twizzler_Snowflake
+Play_3D_Twizzler_Stars
+Stop_2D_Amb_BH
+Stop_3D_Chick_Folk_Cheer
+Stop_3D_Chick_Folk_Clap
+Stop_3D_ClockWork_BigCogs
+Stop_3D_ClockWork_LittleCogs
+Stop_3D_ClockWork_Main
+Stop_3D_Crow_Bounce
+Stop_3D_Crow_Hit
+Stop_3D_Flaming_Torches_bh
+Stop_3D_IceCave_RoofCollapse
+Stop_3D_IceCave_SmashIceColumn
+Stop_3D_Icicle_Drop
+Stop_3D_Icicle_Splash
+Stop_3D_LargeSnowflakesOnly
+Stop_3D_SnowMan_Drop
+Stop_3D_SnowMan_Smash
+Stop_3D_Twizzler_Anvil
+Stop_3D_Twizzler_Lightning
+Stop_3D_Twizzler_Moon
+Stop_3D_Twizzler_Snowflake
+Stop_3D_Twizzler_Stars
+
+### RTPC/GAME-VARIABLE NAMES (4023523871.bnk: ASN_Track_BillyHatcher)
+Doppler
+
+### EVENT NAMES (3990167621.bnk: ASN_Track_BurningRangers)
+Play_2D_Amb_BurningRangers
+Play_2D_BR_Siren
+Play_3D_AirlockDoor
+Play_3D_BR_Monitor_Broken
+Play_3D_BR_SubEngine
+Play_3D_BR_SubWater
+Play_3D_BR_UnderwaterLoops
+Play_3D_BR_WhaleSong_Timer
+Play_3D_Crane_End
+Play_3D_Crane_RunLoop
+Play_3D_Crane_Start
+Play_3D_explosion_big
+Play_3D_explosion_small
+Play_3D_fire_big
+Play_3D_fire_small
+Play_3D_SteamEscape
+Play_3D_water_escape_big
+Play_3D_water_escape_big_small
+Play_BeforeWaterTransform
+Play_Corridor
+Play_DolphinTank
+Play_Lap2
+Play_Lap3
+Play_RaceStart
+Stop_2D_Amb_BurningRangers
+Stop_2D_BR_Siren
+Stop_3D_AirlockDoor
+Stop_3D_BR_Monitor_Broken
+Stop_3D_BR_SubEngine
+Stop_3D_BR_SubWater
+Stop_3D_BR_UnderwaterLoops
+Stop_3D_BR_WhaleSong_Timer
+Stop_3D_Crane_End
+Stop_3D_Crane_RunLoop
+Stop_3D_Crane_Start
+Stop_3D_explosion_big
+Stop_3D_explosion_small
+Stop_3D_fire_big
+Stop_3D_fire_small
+Stop_3D_SteamEscape
+Stop_3D_water_escape_big
+Stop_3D_water_escape_big_small
+Stop_BeforeWaterTransform
+Stop_Corridor
+Stop_DolphinTank
+Stop_Lap2
+Stop_Lap3
+Stop_RaceStart
+
+### VARIABLE NAMES (3990167621.bnk: ASN_Track_BurningRangers)
+MixStates
+
+### VALUE NAMES (3990167621.bnk: ASN_Track_BurningRangers)
+PreRace_Intro
+
+### EVENT NAMES (2623021475.bnk: ASN_Track_Classic_CPE)
+Play_2D_Amb_ClassicCPE
+Play_3D_Fountain
+Play_3D_PoolBall
+Play_3D_Roulette
+Play_3D_SlotSpin
+Play_3D_SlotStop
+Play_3D_Smash_CasinoChips
+Stop_2D_Amb_ClassicCPE
+Stop_3D_Fountain
+Stop_3D_PoolBall
+Stop_3D_Roulette
+Stop_3D_SlotSpin
+Stop_3D_SlotStop
+Stop_3D_Smash_CasinoChips
+
+### RTPC/GAME-VARIABLE NAMES (2623021475.bnk: ASN_Track_Classic_CPE)
+Doppler
+
+### EVENT NAMES (3710995690.bnk: ASN_Track_Classic_DeathEgg)
+Play_2D_Amb_DeathEgg
+Play_3D_DE_Robot_Footsteps
+Play_3D_DE_Robot_Smash
+Play_3D_DEZ_SPOT0_LARGESHIP
+Play_3D_DEZ_SPOT1_SMALLSHIP
+Play_3D_LaserCanonFinal2
+Play_3D_Part1_Frame0
+Play_3D_Part3_Frame124
+Play_3D_SPOT2_BALLTURNTHING
+Play_3D_SPOT4_OHTURNTHING
+Play_3D_TeslaCoils
+Stop_2D_Amb_DeathEgg
+Stop_3D_DE_Robot_Footsteps
+Stop_3D_DE_Robot_Smash
+Stop_3D_DEZ_SPOT0_LARGESHIP
+Stop_3D_DEZ_SPOT1_SMALLSHIP
+Stop_3D_LaserCanonFinal2
+Stop_3D_Part1_Frame0
+Stop_3D_Part3_Frame124
+Stop_3D_SPOT2_BALLTURNTHING
+Stop_3D_SPOT4_OHTURNTHING
+Stop_3D_TeslaCoils
+# 3755197266
+# 4066021436
+
+### RTPC/GAME-VARIABLE NAMES (3710995690.bnk: ASN_Track_Classic_DeathEgg)
+Doppler
+
+### VARIABLE NAMES (3710995690.bnk: ASN_Track_Classic_DeathEgg)
+MixStates
+
+### VALUE NAMES (3710995690.bnk: ASN_Track_Classic_DeathEgg)
+PreRace_Intro
+
+### EVENT NAMES (3010333752.bnk: ASN_Track_Classic_JSR)
+Play_2D_Amb_ClassicJSR
+Play_3D_Airliner_ClassicJSR
+Play_3D_CraneMove
+Play_3D_JSR_traffic_bus
+Play_3D_JSR_traffic_car
+Play_3D_JSR_traffic_suv
+Play_3D_JSR_traffic_taxi
+Play_3D_Smash_BigAdvertSign
+Play_3D_Smash_MetalSigns
+Play_3D_Smash_SmallWoodenSigns
+Play_3D_TrainHorn
+Play_3D_TrainMove
+Stop_2D_Amb_ClassicJSR
+Stop_3D_Airliner_ClassicJSR
+Stop_3D_CraneMove
+Stop_3D_JSR_traffic_bus
+Stop_3D_JSR_traffic_car
+Stop_3D_JSR_traffic_suv
+Stop_3D_JSR_traffic_taxi
+Stop_3D_Smash_BigAdvertSign
+Stop_3D_Smash_MetalSigns
+Stop_3D_Smash_SmallWoodenSigns
+Stop_3D_TrainHorn
+Stop_3D_TrainMove
+
+### RTPC/GAME-VARIABLE NAMES (3010333752.bnk: ASN_Track_Classic_JSR)
+Doppler
+
+### VARIABLE NAMES (3010333752.bnk: ASN_Track_Classic_JSR)
+MixStates
+
+### VALUE NAMES (3010333752.bnk: ASN_Track_Classic_JSR)
+PreRace_Intro
+
+### EVENT NAMES (1768458043.bnk: ASN_Track_Classic_Samba)
+Play_2D_Amb_ClassicSamba
+Play_3D_ClassicSambaPotSmash
+Play_3D_LuchadorePose_01
+Play_3D_LuchadoreSlap
+Play_3D_LuchadoreStrain_01
+Play_3D_SAE_SPOT0_CHATTER
+Play_3D_SAE_SPOT1_FOUNTAIN
+Play_3D_SAE_SPOT2_MUSICIANS
+Play_3D_SAE_SPOT3_SUN
+Stop_2D_Amb_ClassicSamba
+Stop_3D_ClassicSambaPotSmash
+Stop_3D_LuchadorePose_01
+Stop_3D_LuchadoreSlap
+Stop_3D_LuchadoreStrain_01
+Stop_3D_SAE_SPOT0_CHATTER
+Stop_3D_SAE_SPOT1_FOUNTAIN
+Stop_3D_SAE_SPOT2_MUSICIANS
+Stop_3D_SAE_SPOT3_SUN
+
+### RTPC/GAME-VARIABLE NAMES (1768458043.bnk: ASN_Track_Classic_Samba)
+Doppler
+
+### VARIABLE NAMES (1768458043.bnk: ASN_Track_Classic_Samba)
+MixStates
+
+### VALUE NAMES (1768458043.bnk: ASN_Track_Classic_Samba)
+PreRace_Intro
+
+### EVENT NAMES (701077131.bnk: ASN_Track_Common)
+Play_Collision
+Play_MonkeySplash
+Play_Swoosh_Overhang
+Play_Swoosh_Side
+Play_Swoosh_Tunnel
+Play_TidalWave
+Play_TransformGate
+Stop_Collision
+Stop_MonkeySplash
+Stop_Swoosh_Overhang
+Stop_Swoosh_Side
+Stop_Swoosh_Tunnel
+Stop_TidalWave
+Stop_TransformGate
+
+### RTPC/GAME-VARIABLE NAMES (701077131.bnk: ASN_Track_Common)
+Doppler
+WaveHeight
+WaveVolume
+
+### VARIABLE NAMES (701077131.bnk: ASN_Track_Common)
+Force
+Liquid_Type
+Material
+MixStates
+
+### VALUE NAMES (701077131.bnk: ASN_Track_Common)
+Chili_and_Chilli
+Cobbles
+Concrete
+Deep_Grass
+Dirt
+DirtGravel
+Glass
+Grass
+Hard
+Ice
+LAVA
+Medium
+Metal
+Metal_Grating
+mud
+PostRace
+PreRace_Intro
+Rock
+Seabed
+Slate
+Slime
+Snow
+Soft
+SpaceRoad
+Stairs
+Tarmac
+WATER
+Wood
+
+### EVENT NAMES (1777000257.bnk: ASN_Track_GoldenAxe)
+Play_2D_Amb_GA
+Play_2D_SnakeHead_DriveThru
+Play_3D_AXECHAIN
+Play_3D_AXESWIPE
+Play_3D_BlueFlames_Big
+Play_3D_BoulderImpacts
+Play_3D_BoulderSplats
+Play_3D_DinoRoar
+Play_3D_DrawBridge
+Play_3D_FallingBoulders
+Play_3D_LavaBlast
+Play_3D_LavaFalls
+Play_3D_MineWorkings
+Play_3D_potsmash
+Play_3D_SnakeSmash
+Play_3D_SteamingVents
+Stop_2D_Amb_GA
+Stop_2D_SnakeHead_DriveThru
+Stop_3D_AXECHAIN
+Stop_3D_AXESWIPE
+Stop_3D_BlueFlames_Big
+Stop_3D_BoulderImpacts
+Stop_3D_BoulderSplats
+Stop_3D_DinoRoar
+Stop_3D_DrawBridge
+Stop_3D_FallingBoulders
+Stop_3D_LavaBlast
+Stop_3D_LavaFalls
+Stop_3D_MineWorkings
+Stop_3D_potsmash
+Stop_3D_SnakeSmash
+Stop_3D_SteamingVents
+
+### RTPC/GAME-VARIABLE NAMES (1777000257.bnk: ASN_Track_GoldenAxe)
+Doppler
+
+### EVENT NAMES (3526430062.bnk: ASN_Track_HouseOfTheDead)
+Play_2D_Amb_HOTD
+Play_2D_CASTLE_LIGHTNING
+Play_3D_BIG_BARREL_DROP
+Play_3D_BIG_BARREL_ROLL
+Play_3D_Chand_Chain
+Play_3D_Chand_drophit
+Play_3D_Demon_SlateSmash
+Play_3D_Demon_SlateThrow
+Play_3D_DemonGrunt
+Play_3D_DemonWings
+Play_3D_DistantZombies
+Play_3D_FloatingBarrel_Smash
+Play_3D_GateSmash
+Play_3D_Grave_Smash
+Play_3D_HydraGlass
+Play_3D_HydraMoving
+Play_3D_HydraVox
+Play_3D_LabArcs
+Play_3D_MiniSpider_Squish
+Play_3D_SillyZombies
+Play_3D_Smash_Big_Barrel
+Play_3D_SpiderBreath
+Play_3D_SpiderHead
+Play_3D_SpiderLeg
+Play_3D_Zombie_Hit
+Play_3D_ZombieBouncing
+Play_3D_Zombies
+Stop_2D_Amb_HOTD
+Stop_2D_CASTLE_LIGHTNING
+Stop_3D_BIG_BARREL_DROP
+Stop_3D_BIG_BARREL_ROLL
+Stop_3D_Chand_Chain
+Stop_3D_Chand_drophit
+Stop_3D_Demon_SlateSmash
+Stop_3D_Demon_SlateThrow
+Stop_3D_DemonGrunt
+Stop_3D_DemonWings
+Stop_3D_DistantZombies
+Stop_3D_FloatingBarrel_Smash
+Stop_3D_GateSmash
+Stop_3D_Grave_Smash
+Stop_3D_HydraGlass
+Stop_3D_HydraMoving
+Stop_3D_HydraVox
+Stop_3D_LabArcs
+Stop_3D_MiniSpider_Squish
+Stop_3D_SillyZombies
+Stop_3D_Smash_Big_Barrel
+Stop_3D_SpiderBreath
+Stop_3D_SpiderHead
+Stop_3D_SpiderLeg
+Stop_3D_Zombie_Hit
+Stop_3D_ZombieBouncing
+Stop_3D_Zombies
+
+### EVENT NAMES (1986509988.bnk: ASN_Track_JetSetRadio)
+Play_2D_Amb_JSR
+Play_2D_TrackExplode
+Play_3D_AdvertDrone_Big
+Play_3D_AdvertDrone_Small
+Play_3D_AirconUnits
+Play_3D_Airliner
+Play_3D_Chopper
+Play_3D_ChopperRockets
+Play_3D_ConstructionAmb
+Play_3D_CraneLift
+Play_3D_CranePipes
+Play_3D_HugeUnderTrackFans
+Play_3D_JSR_TrainHorn
+Play_3D_JSR_TrainMove
+Play_3D_MallAmb
+Play_3D_Overpass
+Play_3D_pane_BINGBONG
+Play_3D_RadioTowers
+Play_3D_RoadRoller
+Play_3D_SignSmash
+Play_3D_SubStations
+Play_3D_Traffic_Cone_Hit
+Play_vo_bridge_destroy
+Play_vo_choppers_police
+Play_vo_lap2
+Play_vo_lap3
+Play_vo_race_intro
+Stop_2D_Amb_JSR
+Stop_2D_TrackExplode
+Stop_3D_AdvertDrone_Big
+Stop_3D_AdvertDrone_Small
+Stop_3D_AirconUnits
+Stop_3D_Airliner
+Stop_3D_Chopper
+Stop_3D_ChopperRockets
+Stop_3D_ConstructionAmb
+Stop_3D_CraneLift
+Stop_3D_CranePipes
+Stop_3D_HugeUnderTrackFans
+Stop_3D_JSR_TrainHorn
+Stop_3D_JSR_TrainMove
+Stop_3D_MallAmb
+Stop_3D_Overpass
+Stop_3D_pane_BINGBONG
+Stop_3D_RadioTowers
+Stop_3D_RoadRoller
+Stop_3D_SignSmash
+Stop_3D_SubStations
+Stop_3D_Traffic_Cone_Hit
+Stop_vo_bridge_destroy
+Stop_vo_choppers_police
+Stop_vo_lap2
+Stop_vo_lap3
+Stop_vo_race_intro
+
+### RTPC/GAME-VARIABLE NAMES (1986509988.bnk: ASN_Track_JetSetRadio)
+Doppler
+MonkeyBallRollSpeed
+
+### VARIABLE NAMES (1986509988.bnk: ASN_Track_JetSetRadio)
+MixStates
+
+### VALUE NAMES (1986509988.bnk: ASN_Track_JetSetRadio)
+PreRace_Intro
+
+### EVENT NAMES (1039789360.bnk: ASN_Track_MonkeyBall)
+Play_2D_Amb_MB
+Play_3D_BigBird_Calls
+Play_3D_TreeAmbs
+Play_3D_TribalMonkey_Jump
+Play_3D_TribalMonkey_RandomTimed
+Play_3D_Vortex
+Play_BigBirdWings
+Play_FlamingTorch
+Play_MB_LogFlume
+Play_MB_WaterFalls
+Play_MonkeyBall_Hit
+Play_MonkeyBall_Rolling
+Play_Totem_Smash
+Stop_2D_Amb_MB
+Stop_3D_BigBird_Calls
+Stop_3D_TreeAmbs
+Stop_3D_TribalMonkey_Jump
+Stop_3D_TribalMonkey_RandomTimed
+Stop_3D_Vortex
+Stop_FlamingTorch
+Stop_MB_LogFlume
+Stop_MB_WaterFalls
+Stop_MonkeyBall_Hit
+Stop_MonkeyBall_Rolling
+Stop_MonkeySplash
+Stop_Play_BigBirdWings
+Stop_Totem_Smash
+
+### RTPC/GAME-VARIABLE NAMES (1039789360.bnk: ASN_Track_MonkeyBall)
+Doppler
+MonkeyBallRollSpeed
+
+### VARIABLE NAMES (1039789360.bnk: ASN_Track_MonkeyBall)
+MixStates
+
+### VALUE NAMES (1039789360.bnk: ASN_Track_MonkeyBall)
+PreRace_Intro
+
+### EVENT NAMES (2894277853.bnk: ASN_Track_Nights)
+Play_2D_Amb_Nights
+Play_3D_AlarmEgg
+Play_3D_Asteroid
+Play_3D_Asteroids_Hit
+Play_3D_Fairies
+Play_3D_Floating_Rocks_Apart
+Play_3D_Floating_Rocks_Together_End
+Play_3D_Floating_Rocks_Together_Start
+Play_3D_FloatyRobotThing
+Play_3D_GilWingFlaps
+Play_3D_GlassSmash
+Play_3D_Kerkal_Lobster01
+Play_3D_Kerkal_Lobster02
+Play_3D_NightmarePortal
+Play_3D_NightmareRandomBas
+Play_3D_NightmareSheepInflate
+Play_3D_SineRocks
+Play_3D_WallSmash_Nights
+Play_3D_Waterfalls_Nights
+Play_3D_WeebleWoman
+Play_3D_WindMill_Nights
+Play_3D_WizeMan
+Play_Swamp_Plant_Nights
+Stop_2D_Amb_Nights
+Stop_3D_AlarmEgg
+Stop_3D_Asteroid
+Stop_3D_Asteroids_Hit
+Stop_3D_Fairies
+Stop_3D_Floating_Rocks_Apart
+Stop_3D_FloatyRobotThing
+Stop_3D_GilWingFlaps
+Stop_3D_GlassSmash
+Stop_3D_Kerkal_Lobster01
+Stop_3D_Kerkal_Lobster02
+Stop_3D_NightmarePortal
+Stop_3D_NightmareRandomBas
+Stop_3D_NightmareSheepInflate
+Stop_3D_SineRocks
+Stop_3D_WallSmash_Nights
+Stop_3D_Waterfalls_Nights
+Stop_3D_WeebleWoman
+Stop_3D_WindMill_Nights
+Stop_3D_WizeMan
+Stop_Swamp_Plant_Nights
+# 1806758763
+# 2587190224
+
+### RTPC/GAME-VARIABLE NAMES (2894277853.bnk: ASN_Track_Nights)
+Doppler
+
+### VARIABLE NAMES (2894277853.bnk: ASN_Track_Nights)
+Interactive_Music
+MixStates
+
+### VALUE NAMES (2894277853.bnk: ASN_Track_Nights)
+allstar
+Basic_Looping
+Car
+Intro
+Plane
+PreRace_Intro
+
+### EVENT NAMES (205655891.bnk: ASN_Track_Outrun)
+Play_2D_Amb_Outrun
+Play_3D_GrandStand
+Play_3D_Pontoons
+Play_3D_Seagulls
+Play_3D_traffic_bus
+Play_3D_traffic_car
+Play_3D_traffic_suv
+Play_3D_traffic_taxi
+Play_3D_Waves_Beach_OneshotTimer
+Play_3D_Yacht_Big
+Play_3D_Yacht_Power
+Play_3D_Yacht_Smallerones
+Stop_2D_Amb_Outrun
+Stop_3D_GrandStand
+Stop_3D_Pontoons
+Stop_3D_Seagulls
+Stop_3D_traffic_bus
+Stop_3D_traffic_car
+Stop_3D_traffic_suv
+Stop_3D_traffic_taxi
+Stop_3D_Waves_Beach_OneshotTimer
+Stop_3D_Yacht_Big
+Stop_3D_Yacht_Power
+Stop_3D_Yacht_Smallerones
+
+### RTPC/GAME-VARIABLE NAMES (205655891.bnk: ASN_Track_Outrun)
+Doppler
+
+### VARIABLE NAMES (205655891.bnk: ASN_Track_Outrun)
+MixStates
+
+### VALUE NAMES (205655891.bnk: ASN_Track_Outrun)
+PreRace_Intro
+
+### EVENT NAMES (823440028.bnk: ASN_Track_Panzer)
+Play_2DAmbience
+Play_Airship
+Play_Airship_Fire
+Play_BigWF_Left
+Play_BigWF_Right
+Play_BlueLasers
+Play_BridgeSmash
+Play_CaveDrips
+Play_Dragon_Scream
+Play_DragonScreams
+Play_Explosions
+Play_PD_BaseFlaps
+Play_PD_Footsteps
+Play_PD_Wingflaps
+Play_Plant_Idle
+Play_Plant_Shot
+Play_Setpiece_BigBlast
+Play_SwampSounds
+Play_Waterfalls
+Play_WormIn
+Play_WormOut
+Play_WormScream
+Play_WormSwimming
+Stop_2DAmbience
+Stop_Airship
+Stop_Airship_Fire
+Stop_BigWF_Left
+Stop_BigWF_Right
+Stop_BlueLasers
+Stop_BridgeSmash
+Stop_CaveDrips
+Stop_Dragon_Scream
+Stop_DragonScreams
+Stop_Explosions
+Stop_PD_BaseFlaps
+Stop_PD_Footsteps
+Stop_PD_Wingflaps
+Stop_Plant_Idle
+Stop_Plant_Shot
+Stop_Setpiece_BigBlast
+Stop_SwampSounds
+Stop_Waterfalls
+Stop_WormIn
+Stop_WormOut
+Stop_WormScream
+Stop_WormSwimming
+
+### EVENT NAMES (2126193790.bnk: ASN_Track_SSH)
+Play_2D_SeaSideHill
+Play_3D_BigTheCat_Random
+Play_3D_Road_Collapse
+Play_3D_Road_Shake
+Play_3D_RoboCrabs
+Play_3D_RoboFish_Arc
+Play_3D_RoboFishSwim
+Play_3D_RoboSquid
+Play_3D_SeagullTimer
+Play_3D_SSH_Waterfalls
+Play_3D_Stone_Wheel_Drop
+Play_3D_Stone_Wheel_Out
+Play_3D_Stone_Wheel_Roll
+Play_3D_Waves_Timer
+Play_3D_Whale_Over
+Play_3D_WhaleRoboFish_In
+Play_3D_WhaleRoboFish_Out
+Stop_2D_SeaSideHill
+Stop_3D_BigTheCat_Random
+Stop_3D_Road_Collapse
+Stop_3D_Road_Shake
+Stop_3D_RoboCrabs
+Stop_3D_RoboFish_Arc
+Stop_3D_RoboFishSwim
+Stop_3D_RoboSquid
+Stop_3D_SeagullTimer
+Stop_3D_SSH_Waterfalls
+Stop_3D_Stone_Wheel_Drop
+Stop_3D_Stone_Wheel_Out
+Stop_3D_Stone_Wheel_Roll
+Stop_3D_Waves_Timer
+Stop_3D_Whale_Over
+Stop_3D_WhaleRoboFish_In
+Stop_3D_WhaleRoboFish_Out
+
+### EVENT NAMES (1438147086.bnk: ASN_Track_Samba)
+Play_2D_Amb_SA
+Play_2D_Kong1
+Play_2D_Kong2
+Play_2D_Kong3
+Play_3D_Airlock_End
+Play_3D_Airlock_Run
+Play_3D_Airlock_Start
+Play_3D_BearRedLaser
+Play_3D_BMovie_UFO
+Play_3D_cactus_jump
+Play_3D_cactus_jump_shakeright
+Play_3D_cactus_shakebothsides
+Play_3D_cactus_tap_ground
+Play_3D_cactus_wave
+Play_3D_Cannon
+Play_3D_HouseHat
+Play_3D_LuchadorePose
+Play_3D_LuchadoreStrain
+Play_3D_LuchadorSlap
+Play_3D_Pirate_Seagulls
+Play_3D_Pirate_Ships
+Play_3D_ProjectorNoise
+Play_3D_Smash_Track_Crate_01
+Play_3D_startfinish_birds
+Play_3D_startfinish_cicada
+Play_3D_TumbleWeed
+Play_3D_UFO_LaserAttack
+Play_3D_UFO_VerticalRingBeam
+Stop_2D_Amb_SA
+Stop_2D_Kong1
+Stop_2D_Kong2
+Stop_2D_Kong3
+Stop_3D_Airlock_End
+Stop_3D_Airlock_Run
+Stop_3D_Airlock_Start
+Stop_3D_BearRedLaser
+Stop_3D_BMovie_UFO
+Stop_3D_cactus_jump
+Stop_3D_cactus_jump_shakeright
+Stop_3D_cactus_shakebothsides
+Stop_3D_cactus_tap_ground
+Stop_3D_cactus_wave
+Stop_3D_Cannon
+Stop_3D_HouseHat
+Stop_3D_LuchadorePose
+Stop_3D_LuchadoreStrain
+Stop_3D_LuchadorSlap
+Stop_3D_Pirate_Seagulls
+Stop_3D_Pirate_Ships
+Stop_3D_ProjectorNoise
+Stop_3D_Smash_Track_Crate_01
+Stop_3D_startfinish_birds
+Stop_3D_startfinish_cicada
+Stop_3D_TumbleWeed
+Stop_3D_UFO_LaserAttack
+Stop_3D_UFO_VerticalRingBeam
+
+### EVENT NAMES (73535036.bnk: ASN_Track_Shinobi)
+Play_2D_Amb_Shinobi
+Play_3D_Chimes
+Play_3D_DojoBig
+Play_3D_DoorsOpen
+Play_3D_Flags
+Play_3D_Flaming_Torches
+Play_3D_Kite
+Play_3D_Ninja_Footslide
+Play_3D_Ninja_Jump
+Play_3D_Ninja_sword_swhoosh
+Play_3D_Ninja_sword_swhoosh_big_overehead
+Play_3D_Ninja_sword_swhoosh_combi
+Play_3D_RampartWind
+Play_3D_Smash_PracticeDummy
+Play_CaveDrips_Shin
+Play_ShinBigWF_L
+Play_ShinBigWF_R
+Play_Waterfalls_Shin
+Stop_2D_Amb_Shinobi
+Stop_3D_Chimes
+Stop_3D_DojoBig
+Stop_3D_DoorsOpen
+Stop_3D_Flags
+Stop_3D_Flaming_Torches
+Stop_3D_Kite
+Stop_3D_Ninja_Footslide
+Stop_3D_Ninja_Jump
+Stop_3D_Ninja_sword_swhoosh
+Stop_3D_Ninja_sword_swhoosh_big_overehead
+Stop_3D_Ninja_sword_swhoosh_combi
+Stop_3D_RampartWind
+Stop_3D_Smash_PracticeDummy
+Stop_CaveDrips_Shin
+Stop_ShinBigWF_L
+Stop_ShinBigWF_R
+Stop_Waterfalls_Shin
+
+### VARIABLE NAMES (73535036.bnk: ASN_Track_Shinobi)
+MixStates
+
+### VALUE NAMES (73535036.bnk: ASN_Track_Shinobi)
+PreRace_Intro
+
+### EVENT NAMES (2861699657.bnk: ASN_Track_SkiesOfArcadia)
+Play_2D_Amb_Arcadia
+Play_2D_SetPiece_BridgeExplodes
+Play_2D_SetPiece_DestroyerCrashes
+Play_2D_SetPiece_IslandExplodes
+Play_3D_base
+Play_3D_Birds_Looping
+Play_3D_Birds_Oneshot
+Play_3D_Cannons
+Play_3D_Destroyer_Engines_Rear
+Play_3D_Destroyer_Flying
+Play_3D_Explosions_Boulder
+Play_3D_Explosions_Wood
+Play_3D_Fires
+Play_3D_Galleon_Explodes
+Play_3D_Galleon_Flying
+Play_3D_Mine_RiseOnChain
+Play_3D_Mine_Surfacing
+Play_3D_SawMill
+Play_3D_Smash_Track_Crate
+Play_3D_Water_Explosions
+Play_3D_WindMill
+Stop_2D_Amb_Arcadia
+Stop_2D_SetPiece_BridgeExplodes
+Stop_2D_SetPiece_DestroyerCrashes
+Stop_2D_SetPiece_IslandExplodes
+Stop_3D_base
+Stop_3D_Birds_Looping
+Stop_3D_Birds_Oneshot
+Stop_3D_Cannons
+Stop_3D_Destroyer_Engines_Rear
+Stop_3D_Destroyer_Flying
+Stop_3D_Explosions_Boulder
+Stop_3D_Explosions_Wood
+Stop_3D_Fires
+Stop_3D_Galleon_Explodes
+Stop_3D_Galleon_Flying
+Stop_3D_Mine_RiseOnChain
+Stop_3D_Mine_Surfacing
+Stop_3D_SawMill
+Stop_3D_Smash_Track_Crate
+Stop_3D_Water_Explosions
+Stop_3D_WindMill
+
+### RTPC/GAME-VARIABLE NAMES (2861699657.bnk: ASN_Track_SkiesOfArcadia)
+Doppler
+
+### VARIABLE NAMES (2861699657.bnk: ASN_Track_SkiesOfArcadia)
+MixStates
+
+### VALUE NAMES (2861699657.bnk: ASN_Track_SkiesOfArcadia)
+PreRace_Intro
+
+### EVENT NAMES (4162111452.bnk: ASN_Track_SkySanctury)
+Play_2D_Amb_SS
+Play_3D_BigBird_Calls_Sky
+Play_3D_Robot_JetPackLoop
+Play_3D_Robot_Smash
+Play_BigWheels
+Play_BigWheelsClose
+Play_BuildingCollapse
+Stop_2D_Amb_SS
+Stop_3D_BigBird_Calls_Sky
+Stop_3D_Robot_JetPackLoop
+Stop_3D_Robot_Smash
+Stop_BigWheels
+Stop_BigWheelsClose
+Stop_BuildingCollapse
+
+### RTPC/GAME-VARIABLE NAMES (4162111452.bnk: ASN_Track_SkySanctury)
+Doppler
+
+### VARIABLE NAMES (4162111452.bnk: ASN_Track_SkySanctury)
+MixStates
+
+### VALUE NAMES (4162111452.bnk: ASN_Track_SkySanctury)
+PreRace_Intro
+
+### EVENT NAMES (3721795290.bnk: ASN_Track_StarlightCarnival)
+Play_2D_Amb_SC
+Play_2D_Setpiece_ShipArrive
+Play_2D_Setpiece_ShipHit_Track
+Play_3D_AeroChaser_Engine_Loop
+Play_3D_AeroChaser_Flip
+Play_3D_AeroChaser_LaserFire
+Play_3D_AeroChaser_LaserLoop
+Play_3D_AeroChaser_ThrustAway
+Play_3D_Asteroid_Red
+Play_3D_Asteroid_Smash
+Play_3D_cog_machinary
+Play_3D_DiscoBalls
+Play_3D_FlashyGobos
+Play_3D_Sat_Small
+Play_3D_Satellites
+Play_3D_ShipEngine
+Play_3D_Spiny_Emerge_Impact
+Play_3D_Spiny_Fire
+Play_3D_Spiny_Hit
+Play_3D_track_mover_end
+Play_3D_track_mover_run
+Play_3D_track_mover_start
+Play_3D_TrackRings
+play_asteroid
+Stop_2D_Amb_SC
+Stop_2D_Setpiece_ShipArrive
+Stop_2D_Setpiece_ShipHit_Track
+Stop_3D_AeroChaser_Engine_Loop
+Stop_3D_AeroChaser_Flip
+Stop_3D_AeroChaser_LaserFire
+Stop_3D_AeroChaser_LaserLoop
+Stop_3D_AeroChaser_ThrustAway
+Stop_3D_Asteroid_Red
+Stop_3D_Asteroid_Smash
+Stop_3D_cog_machinary
+Stop_3D_DiscoBalls
+Stop_3D_FlashyGobos
+Stop_3D_Sat_Small
+Stop_3D_Satellites
+Stop_3D_ShipEngine
+Stop_3D_Spiny_Emerge_Impact
+Stop_3D_Spiny_Fire
+Stop_3D_Spiny_Hit
+Stop_3D_track_mover_end
+Stop_3D_track_mover_run
+Stop_3D_track_mover_start
+Stop_3D_TrackRings
+Stop_asteroid
+
+### RTPC/GAME-VARIABLE NAMES (3721795290.bnk: ASN_Track_StarlightCarnival)
+Doppler
+
+### EVENT NAMES (2849596262.bnk: ASN_UI_FE)
+Play_FE_Back
+Play_FE_Error
+Play_FE_Extra
+Play_FE_Logo_Main
+Play_FE_Logo_Spindown
+Play_FE_NAV_Alt
+Play_FE_NAV_ticker
+Play_FE_Navigate
+Play_FE_Pause
+Play_FE_Select
+Play_FE_Unpause
+Play_HUD_Fruitmachine_Appear
+Play_HUD_Fruitmachine_Lose
+Play_HUD_Fruitmachine_Spin
+Play_HUD_Fruitmachine_stop01
+Play_HUD_Fruitmachine_stop02
+Play_HUD_Fruitmachine_stop03
+Play_HUD_Fruitmachine_Win
+Play_WiiU_DRC_Attention
+Stop_FE_Back
+Stop_FE_Error
+Stop_FE_Extra
+Stop_FE_Logo_Main
+Stop_FE_Logo_Spindown
+Stop_FE_NAV_Alt
+Stop_FE_NAV_ticker
+Stop_FE_Navigate
+Stop_FE_Pause
+Stop_FE_Select
+Stop_FE_Unpause
+Stop_HUD_Fruitmachine_Appear
+Stop_HUD_Fruitmachine_Lose
+Stop_HUD_Fruitmachine_Spin
+Stop_HUD_Fruitmachine_stop01
+Stop_HUD_Fruitmachine_stop02
+Stop_HUD_Fruitmachine_stop03
+Stop_HUD_Fruitmachine_Win
+Stop_WiiU_DRC_Attention
+
+### EVENT NAMES (3534788818.bnk: ASN_UI_Ingame)
+Play_ASN_Shutter
+Play_Blue_Box_Close
+Play_Blue_Box_Open
+Play_FX_Squash
+Play_FX_UnSquash
+Play_Global_Message_Alert
+Play_HUD_Coin
+Play_HUD_MSG_Popup
+Play_HUD_MSG_Tut_Success
+Play_HUD_Track_Character_Title_On
+Play_Lap
+Play_Lap_Final
+Play_Large_Pane_Off
+Play_Large_Pane_On
+Play_New_Sticker
+Play_RaceFinish_Splash
+Play_Small_Pane_Off
+Play_Small_Pane_On
+Play_Super_Pickup
+Play_Text_Inside_Boxes_Move
+Play_Timer_Chime
+Play_Timer_Count
+Play_Timer_Count_final
+Play_Timer_Start
+Play_Timer_TimeUp
+Play_XP_Level_Award
+Play_XP_Progress_Bar
+Stop_ASN_Shutter
+Stop_Blue_Box_Close
+Stop_Blue_Box_Open
+Stop_FX_Squash
+Stop_FX_UnSquash
+Stop_Global_Message_Alert
+Stop_HUD_Coin
+Stop_HUD_MSG_Popup
+Stop_HUD_MSG_Tut_Success
+Stop_HUD_Track_Character_Title_On
+Stop_Lap
+Stop_Lap_Final
+Stop_Large_Pane_Off
+Stop_Large_Pane_On
+Stop_New_Sticker
+Stop_RaceFinish_Splash
+Stop_Small_Pane_Off
+Stop_Small_Pane_On
+Stop_Super_Pickup
+Stop_Text_Inside_Boxes_Move
+Stop_Timer_Chime
+Stop_Timer_Count
+Stop_Timer_Count_final
+Stop_Timer_Start
+Stop_Timer_TimeUp
+Stop_XP_Level_Award
+Stop_XP_Progress_Bar
+# 634162192
+# 840547560
+# 1827824094
+# 4212721626
+
+### VARIABLE NAMES (3534788818.bnk: ASN_UI_Ingame)
+MixStates
+
+### VALUE NAMES (3534788818.bnk: ASN_UI_Ingame)
+PostRace
+
+### EVENT NAMES (3493740021.bnk: ASN_ULALA_VEH)
+Play_Ulala
+Play_Ulala_Boat
+Stop_Ulala
+Stop_Ulala_Boat
+
+### RTPC/GAME-VARIABLE NAMES (3493740021.bnk: ASN_ULALA_VEH)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (1279945811.bnk: ASN_Vyse_Veh)
+Play_tails_boat
+Play_tails_test_Car
+Stop_tails_boat
+Stop_tails_test_Car
+
+### RTPC/GAME-VARIABLE NAMES (1279945811.bnk: ASN_Vyse_Veh)
+BoatEngineLoad
+CarEngineLoad
+CarEngineRpm
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (268955271.bnk: ASN_Weapons)
+Pause_MusicBus
+Play_1stPlace_Active
+Play_1stPlace_attack_loop
+Play_1stPlace_attack_start
+Play_1stPlace_attack_stop
+Play_1stPlace_Fire
+Play_2D1stPlace_Active
+Play_2D_RC_CAR_Active
+Play_2DFirework_Active
+Play_2DFlippy_Active
+Play_2DGenericExplode
+Play_2DMine_Active
+Play_AOE_Active
+Play_AOE_Alarm
+Play_AOE_Boost
+Play_AOE_Expire
+Play_AOE_Fail
+Play_AOE_Fire
+Play_boost_active
+Play_boost_alt
+Play_boost_expire
+Play_boost_fire
+Play_BoostReady
+Play_CollectPickUp
+Play_ExplodeWater
+Play_FireWork_Active
+Play_FireWork_Bounce
+Play_FireWork_Expire
+Play_FireWork_Fire
+Play_Flippy_Active
+Play_Flippy_Fire
+Play_Flippy_FlipLoop
+Play_Flippy_Impact
+Play_GenericBoost
+Play_GenericExplode
+Play_Ice_Cannon_Active
+Play_Ice_Cannon_Expire_HitWall
+Play_Ice_Cannon_Fire
+Play_Ice_Cannon_StickIn
+Play_Incoming
+Play_Laser_Fire
+Play_Laser_Impact
+Play_mine_active
+Play_mine_bounce
+Play_mine_Expire
+Play_mine_fire
+Play_Mine_Inflate
+Play_mine_moving
+Play_Pulse_Heavy_Loop
+Play_Pulse_Light_Loop
+Play_Pulse_Medium_Loop
+Play_RC_CAR_Active
+Play_RC_CAR_Expire
+Play_RC_CAR_Fire
+Play_Rumble_Level_1
+Play_Rumble_Level_1_FallOff
+Play_Rumble_Level_2
+Play_Rumble_Level_2_FallOff
+Play_Rumble_Level_3
+Play_Rumble_Level_3_FallOff
+Play_shield_absorb
+Play_shield_absorb_Fail
+Play_shield_active
+Play_shield_expire
+Play_shield_fire
+Play_shield_HUD_new_wep
+Play_Short_Lrg
+Play_Short_Med
+Play_Short_Sml
+Play_UFO_Active
+Play_UFO_Attack_end
+Play_UFO_Attack_loop
+Play_UFO_Attack_start
+Play_UFO_Fire
+Resume_MusicBus
+Stop_1stPlace_Active
+Stop_1stPlace_attack_loop
+Stop_1stPlace_attack_start
+Stop_1stPlace_attack_stop
+Stop_2D1stPlace_Active
+Stop_2D_RC_CAR_Active
+Stop_2DFirework_Active
+Stop_2DFlippy_Active
+Stop_2DMine_Active
+Stop_AOE_Active
+Stop_AOE_Alarm
+Stop_AOE_Boost
+Stop_AOE_Expire
+Stop_AOE_Fail
+Stop_AOE_Fire
+Stop_boost_active
+Stop_boost_expire
+Stop_boost_fire
+Stop_BoostReady
+Stop_CollectPickUp
+Stop_ExplodeWater
+Stop_FireWork_Active
+Stop_FireWork_Bounce
+Stop_FireWork_Expire
+Stop_FireWork_Fire
+Stop_Flippy_Active
+Stop_Flippy_Fire
+Stop_Flippy_FlipLoop
+Stop_Flippy_Impact
+Stop_GenericBoost
+Stop_GenericExplode
+Stop_Ice_Cannon_Active
+Stop_Ice_Cannon_Expire_HitWall
+Stop_Ice_Cannon_Fire
+Stop_Ice_Cannon_StickIn
+Stop_Incoming
+Stop_Laser_Fire
+Stop_mine_active
+Stop_mine_bounce
+Stop_mine_Expire
+Stop_mine_fire
+Stop_mine_inflate
+Stop_mine_moving
+Stop_Pulse_Heavy_Loop
+Stop_Pulse_Light_Loop
+Stop_Pulse_Medium_Loop
+Stop_RC_CAR_Active
+Stop_RC_CAR_Expire
+Stop_RC_CAR_Fire
+Stop_Rumble_Level_1
+Stop_Rumble_Level_1_FallOff
+Stop_Rumble_Level_2
+Stop_Rumble_Level_2_FallOff
+Stop_Rumble_Level_3
+Stop_Rumble_Level_3_FallOff
+Stop_shield_absorb
+Stop_shield_absorb_Fail
+Stop_shield_active
+Stop_shield_expire
+Stop_shield_fire
+Stop_shield_HUD_new_wep
+Stop_UFO_Active
+Stop_UFO_Attack_end
+Stop_UFO_Attack_loop
+Stop_UFO_Attack_start
+Stop_UFO_Fire
+# 52023493
+# 169278294
+# 341419715
+# 2862481549
+# 2999669260
+# 3292471890
+# 3509076322
+# 3676860093
+# 3863872727
+# 4271082341
+
+### RTPC/GAME-VARIABLE NAMES (268955271.bnk: ASN_Weapons)
+CarEngineRpm
+Doppler
+RingRace_Score
+
+### VARIABLE NAMES (268955271.bnk: ASN_Weapons)
+Boost_Level
+MixStates
+Vehicle_Mode
+
+### VALUE NAMES (268955271.bnk: ASN_Weapons)
+All_Star
+Boat
+Car
+level_1
+level_2
+level_3
+Plane
+PostRace
+
+### EVENT NAMES (2257315736.bnk: AS_AiAi)
+Play_AS_AiAi_Active
+Play_AS_AiAi_Fire
+Play_AS_AiAi_HitExpire
+Play_AS_AiAi_MB_Rolling
+Stop_AS_AiAi_Active
+Stop_AS_AiAi_Fire
+Stop_AS_AiAi_HitExpire
+Stop_AS_AiAi_MB_Rolling
+
+### RTPC/GAME-VARIABLE NAMES (2257315736.bnk: AS_AiAi)
+Doppler
+MonkeyBallRollSpeed
+VehicleSpeed
+
+### EVENT NAMES (232549380.bnk: AS_AlexKidd)
+Play_AS_AlexKidd_Punch
+Stop_AS_AlexKidd_Punch
+
+### EVENT NAMES (2951760313.bnk: AS_Amigo)
+Play_AS_Amigo_Active
+Play_AS_Amigo_Expire
+Play_AS_Amigo_Fire
+Stop_AS_Amigo_Active
+Stop_AS_Amigo_Expire
+Stop_AS_Amigo_Fire
+
+### RTPC/GAME-VARIABLE NAMES (2951760313.bnk: AS_Amigo)
+Doppler
+
+### EVENT NAMES (3626855495.bnk: AS_Amy)
+Play_AS_Amy_Active
+Play_AS_Amy_Fire
+Play_AS_Amy_HitExpire
+Stop_AS_Amy_Active
+Stop_AS_Amy_Fire
+Stop_AS_Amy_HitExpire
+
+### RTPC/GAME-VARIABLE NAMES (3626855495.bnk: AS_Amy)
+Doppler
+
+### EVENT NAMES (456506311.bnk: AS_Avatar)
+Play_AS_Avatar_Fire
+Play_AS_Avatar_Track_Bounce
+Stop_AS_Avatar_Fire
+Stop_AS_Avatar_Track_Bounce
+
+### EVENT NAMES (3741051176.bnk: AS_BdJoe)
+Play_AS_BdJoe_Fire
+Stop_AS_BdJoe_Fire
+
+### EVENT NAMES (4151105968.bnk: AS_Beat)
+Play_AS_Beat_Scratch
+Stop_AS_Beat_Scratch
+
+### EVENT NAMES (775832050.bnk: AS_Danica)
+Play_AS_Danica_Active
+Play_AS_Danica_Fire
+Play_AS_Danica_HitExpire
+Stop_AS_Danica_Active
+Stop_AS_Danica_Fire
+Stop_AS_Danica_HitExpire
+
+### EVENT NAMES (3273586681.bnk: AS_Eggman)
+Play_AS_Eggman_Active
+Play_AS_Eggman_Release_Rocket
+Play_AS_Eggman_Rocket_Flies_Away
+Stop_AS_Eggman_Active
+Stop_AS_Eggman_Release_Rocket
+Stop_AS_Eggman_Rocket_Flies_Away
+
+### RTPC/GAME-VARIABLE NAMES (3273586681.bnk: AS_Eggman)
+Doppler
+
+### EVENT NAMES (477976196.bnk: AS_FootballManager)
+Play_AS_FootballManager_Fire
+Play_AS_FootballManager_Impact
+Play_AS_FootballManager_Track_Bounce
+Play_AS_FootballManager_Whistle
+Stop_AS_FootballManager_Fire
+Stop_AS_FootballManager_Impact
+Stop_AS_FootballManager_Track_Bounce
+Stop_AS_FootballManager_Whistle
+
+### EVENT NAMES (2819072125.bnk: AS_Gilius)
+Play_AS_Gilius_Active
+Play_AS_Gilius_Fire
+Play_AS_Gilius_HitExpire
+Stop_AS_Gilius_Active
+Stop_AS_Gilius_Fire
+Stop_AS_Gilius_HitExpire
+
+### RTPC/GAME-VARIABLE NAMES (2819072125.bnk: AS_Gilius)
+Doppler
+
+### EVENT NAMES (3127210657.bnk: AS_Global)
+Play_AS_Activate
+Play_AS_End
+Play_AS_Ready
+Play_AS_Reload
+Play_AS_speed
+Stop_AS_Activate
+Stop_AS_End
+Stop_AS_Ready
+Stop_AS_Reload
+Stop_AS_speed
+# 1029597038
+# 3648490376
+
+### EVENT NAMES (3693671729.bnk: AS_Gum)
+Play_AS_Gum_Fire
+Play_AS_Gum_HitExpire
+Stop_AS_Gum_Fire
+Stop_AS_Gum_HitExpire
+
+### EVENT NAMES (2688922299.bnk: AS_JoeM)
+Play_AS_JoeM_Active
+Play_AS_JoeM_Fire
+Play_AS_JoeM_HitExpire
+Stop_AS_JoeM_Active
+Stop_AS_JoeM_Fire
+Stop_AS_JoeM_HitExpire
+
+### RTPC/GAME-VARIABLE NAMES (2688922299.bnk: AS_JoeM)
+Doppler
+
+### EVENT NAMES (2863787134.bnk: AS_Knuckles)
+Play_AS_Knuckles_Active
+Play_AS_Knuckles_Fire
+Play_AS_Knuckles_HitExpire
+Stop_AS_Knuckles_Active
+Stop_AS_Knuckles_Fire
+Stop_AS_Knuckles_HitExpire
+
+### EVENT NAMES (3569817810.bnk: AS_MeeMee)
+Play_AS_MeeMee_Fire
+Stop_AS_MeeMee_Fire
+vo_qv3_0005_A_06 #alt
+
+### EVENT NAMES (4279621487.bnk: AS_MetalSonic)
+Play_AS_MetalSonic
+Stop_AS_MetalSonic
+
+### EVENT NAMES (3557876663.bnk: AS_Mii)
+Play_AS_Mii_Active
+Play_AS_Mii_Fire
+Play_AS_Mii_HitExpire
+Stop_AS_Mii_Active
+Stop_AS_Mii_Fire
+Stop_AS_Mii_HitExpire
+
+### RTPC/GAME-VARIABLE NAMES (3557876663.bnk: AS_Mii)
+Doppler
+
+### EVENT NAMES (1170107985.bnk: AS_Nights)
+Play_AS_Nights_Fire
+Stop_AS_Nights_Fire
+
+### EVENT NAMES (638364551.bnk: AS_Pudding)
+Play_AS_Pudding_Guitar
+Stop_AS_Pudding_Guitar
+
+### EVENT NAMES (3735401481.bnk: AS_Reala)
+Play_AS_Reala_Active
+Play_AS_Reala_Charge
+Play_AS_Reala_Fire
+Stop_AS_Reala_Active
+Stop_AS_Reala_Charge
+Stop_AS_Reala_Fire
+
+### RTPC/GAME-VARIABLE NAMES (3735401481.bnk: AS_Reala)
+Doppler
+
+### EVENT NAMES (2085315907.bnk: AS_Segabot)
+Play_AS_Segabot_Active
+Play_AS_Segabot_Release_Rocket
+Play_AS_Segabot_Rocket_Flies_Away
+Stop_AS_Segabot_Active
+Stop_AS_Segabot_Release_Rocket
+Stop_AS_Segabot_Rocket_Flies_Away
+
+### RTPC/GAME-VARIABLE NAMES (2085315907.bnk: AS_Segabot)
+Doppler
+
+### EVENT NAMES (910376552.bnk: AS_Shadow)
+Play_AS_Shadow_Fire
+Stop_AS_Shadow_Fire
+
+### EVENT NAMES (908848714.bnk: AS_Sonic_Mine)
+Play_AS_Sonic_Active
+Play_AS_Sonic_Charge
+Play_AS_Sonic_Fire
+Play_AS_Sonic_Respawn
+Stop_AS_Sonic_Active
+Stop_AS_Sonic_Charge
+Stop_AS_Sonic_Fire
+Stop_AS_Sonic_Respawn
+
+### EVENT NAMES (3542797949.bnk: AS_Tails)
+Play_AS_tails_Active
+Play_AS_tails_Fire
+Stop_AS_tails_Active
+Stop_AS_tails_Fire
+
+### EVENT NAMES (4114130097.bnk: AS_TeamFortress)
+Play_AS_TeamFortress_Active
+Play_AS_TeamFortress_Release_Rocket
+Play_AS_TeamFortress_Rocket_Flies_Away
+Stop_AS_TeamFortress_Active
+Stop_AS_TeamFortress_Release_Rocket
+Stop_AS_TeamFortress_Rocket_Flies_Away
+
+### RTPC/GAME-VARIABLE NAMES (4114130097.bnk: AS_TeamFortress)
+Doppler
+
+### EVENT NAMES (1885449756.bnk: AS_TotalWar)
+Play_AS_TotalWar_Active
+Play_AS_TotalWar_Release_Rocket
+Play_AS_TotalWar_Rocket_Flies_Away
+Stop_AS_TotalWar_Active
+Stop_AS_TotalWar_Release_Rocket
+Stop_AS_TotalWar_Rocket_Flies_Away
+
+### RTPC/GAME-VARIABLE NAMES (1885449756.bnk: AS_TotalWar)
+Doppler
+
+### EVENT NAMES (265936993.bnk: AS_Ulala)
+Play_AS_Ulala_Fire
+Play_AS_Ulala_Hit_Player
+Play_AS_Ulala_Track_Bounce
+Stop_AS_Ulala_Fire
+Stop_AS_Ulala_Hit_Player
+Stop_AS_Ulala_Track_Bounce
+
+### EVENT NAMES (1998740007.bnk: AS_Vyse)
+Play_AS_Vyse_Fire
+Stop_AS_Vyse_Fire
+
+### EVENT NAMES (3526410781.bnk: AS_Wreckit)
+Play_AS_WreckitRalph_Fire
+Stop_AS_WreckitRalph_Fire
+
+### EVENT NAMES (3230058219.bnk: Airplane)
+Play_Airplane
+Stop_Airplane
+
+### RTPC/GAME-VARIABLE NAMES (3230058219.bnk: Airplane)
+Axis_X_Rotation_Speed
+Axis_Y_Rotation_Speed
+Axis_Z_Rotation_Speed
+Doppler
+SS_Air_Freefall
+SS_Air_RPM
+Trigger_Position_Gamepad
+
+### EVENT NAMES (4094556344.bnk: Airplane_AI)
+Play_Airplane_AI
+Stop_Airplane_AI
+
+### EVENT NAMES (2152286314.bnk: Amigo_Transforms)
+Play_Amigo_Transforms
+Stop_Amigo_Transforms
+
+### VARIABLE NAMES (2152286314.bnk: Amigo_Transforms)
+Transforms
+
+### VALUE NAMES (2152286314.bnk: Amigo_Transforms)
+Air2Land
+Air2Water
+Land2Air
+Land2Water
+Water2Air
+Water2Land
+
+### EVENT NAMES (3535244368.bnk: BattleArena)
+Play_GM_Battle_Ghost
+Play_GM_Battle_LifeGhost
+Play_GM_Battle_LifeNormal
+Play_GM_Battle_ReSpawn
+Stop_GM_Battle_Ghost
+Stop_GM_Battle_LifeGhost
+Stop_GM_Battle_LifeNormal
+Stop_GM_Battle_ReSpawn
+
+### EVENT NAMES (3152776529.bnk: BoostChallenge)
+play_checkpoint
+Play_LapComplete
+STOP_CHECKPOINT
+Stop_LapComplete
+
+### RTPC/GAME-VARIABLE NAMES (3152776529.bnk: BoostChallenge)
+RingRace_Score
+
+### EVENT NAMES (70853599.bnk: CaptureTheChao)
+Play_Collect
+Play_drop
+play_score
+play_spawn
+Stop_Collect
+stop_drop
+stop_Score
+Stop_Spawn
+
+### EVENT NAMES (4161486440.bnk: CrazyConga)
+Play_alien_collected
+Play_alien_dropped
+Play_limit_achieved
+Stop_alien_collected
+Stop_alien_dropped
+Stop_limit_achieved
+# 438735916
+# 1125832990
+# 1387347054
+# 2274121105
+# 2699821352
+# 2884424723
+
+### RTPC/GAME-VARIABLE NAMES (4161486440.bnk: CrazyConga)
+Doppler
+# 435010057
+
+### EVENT NAMES (77312547.bnk: DLMusic_3DS)
+# 89085052
+# 982906587
+# 3206974957
+# 4273674074
+
+### EVENT NAMES (1343492456.bnk: Drift_Challenge)
+Play_GateHit
+Stop_GateHit
+# 102682772
+# 332704777
+# 716461143
+# 2165778958
+
+### RTPC/GAME-VARIABLE NAMES (1343492456.bnk: Drift_Challenge)
+RingRace_Score
+
+### EVENT NAMES (3507174985.bnk: Footman_Transforms)
+Play_FootMan_Transform
+Stop_FootMan_Transform
+
+### VARIABLE NAMES (3507174985.bnk: Footman_Transforms)
+Transforms
+
+### VALUE NAMES (3507174985.bnk: Footman_Transforms)
+Air2Land
+Air2Water
+Land2Air
+Land2Water
+Water2Air
+Water2Land
+
+### EVENT NAMES (1013915191.bnk: Gilius_Plane)
+Play_Gilius_Wingflap
+Play_Gillius_Plane
+Stop_Gilius_Wingflap
+Stop_Gillius_Pane
+
+### RTPC/GAME-VARIABLE NAMES (1013915191.bnk: Gilius_Plane)
+Axis_X_Rotation_Speed
+Axis_Y_Rotation_Speed
+Axis_Z_Rotation_Speed
+Doppler
+SS_Air_Freefall
+SS_Air_RPM
+
+### EVENT NAMES (198207272.bnk: Gilius_Transforms)
+Play_Gilius_Transforms
+Stop_Gilius_Transforms
+
+### VARIABLE NAMES (198207272.bnk: Gilius_Transforms)
+Transforms
+
+### VALUE NAMES (198207272.bnk: Gilius_Transforms)
+Air2Land
+Air2Water
+Land2Air
+Land2Water
+Water2Air
+Water2Land
+
+### EVENT NAMES (1121654997.bnk: HotLap)
+Play_LapBad
+Play_SplitNeg
+Play_SplitPos
+Stop_LapBad
+Stop_SplitNeg
+Stop_SplitPos
+
+### EVENT NAMES (1151914625.bnk: Knockout)
+Play_Elim_Player
+Play_Elim_Rival
+Play_IncomingAlert
+Stop_Elim_Player
+Stop_Elim_Rival
+Stop_IncomingAlert
+# 625492560
+# 860729610
+
+### EVENT NAMES (1872423805.bnk: MonkeyBall)
+Play_Ball_Grows
+Play_Banana
+Play_MB_ReSpawn
+Play_MB_Roll
+Play_proxy_alarm
+Stop_Ball_Grows
+Stop_Banana
+Stop_MB_ReSpawn
+Stop_MB_Roll
+Stop_proxy_alarm
+
+### EVENT NAMES (1609841548.bnk: Nights_Transforms)
+Play_Nights_Transform
+Stop_Nights_Transform
+
+### VARIABLE NAMES (1609841548.bnk: Nights_Transforms)
+Transforms
+
+### VALUE NAMES (1609841548.bnk: Nights_Transforms)
+Air2Land
+Air2Water
+Land2Air
+Land2Water
+Water2Air
+Water2Land
+
+### EVENT NAMES (3504530994.bnk: Overtake)
+Play_BreakLink
+Play_Engines
+Play_Overtake
+Play_Overtaken
+Play_Tagging
+Play_TargetReached
+Play_WeaverSiren
+Stop_BreakLink
+Stop_Engines
+Stop_Overtake
+Stop_Overtaken
+Stop_Tagging
+Stop_TargetReached
+Stop_WeaverSiren
+# 1202080902
+# 2586594096
+
+### RTPC/GAME-VARIABLE NAMES (3504530994.bnk: Overtake)
+Doppler
+VehicleSpeed
+
+### EVENT NAMES (214675989.bnk: Prop_Plane)
+Play_PropPlane
+Stop_PropPlane
+
+### RTPC/GAME-VARIABLE NAMES (214675989.bnk: Prop_Plane)
+Doppler
+SS_Air_Freefall
+SS_Air_RPM
+Trigger_Position_Gamepad
+
+### EVENT NAMES (2676409002.bnk: Ralph_Transforms)
+Play_Ralph_Transform
+Stop_Ralph_Transform
+
+### VARIABLE NAMES (2676409002.bnk: Ralph_Transforms)
+Transforms
+
+### VALUE NAMES (2676409002.bnk: Ralph_Transforms)
+Air2Land
+Air2Water
+Land2Air
+Land2Water
+Water2Air
+Water2Land
+
+### EVENT NAMES (2829936550.bnk: Reala_Transforms)
+Play_Reala_Transform
+Stop_Reala_Transform
+
+### VARIABLE NAMES (2829936550.bnk: Reala_Transforms)
+Transforms
+
+### VALUE NAMES (2829936550.bnk: Reala_Transforms)
+Air2Land
+Air2Water
+Land2Air
+Land2Water
+Water2Air
+Water2Land
+
+### EVENT NAMES (330783812.bnk: RingRace)
+Play_RR_LifeLost
+Play_RR_RaceLose
+Play_RR_RaceWin
+Play_RR_Ring_Active
+Play_RR_Ring_Pass
+Stop_RR_LifeLost
+Stop_RR_RaceLose
+Stop_RR_RaceWin
+Stop_RR_Ring_active
+Stop_RR_Ring_Pass
+
+### RTPC/GAME-VARIABLE NAMES (330783812.bnk: RingRace)
+RingRace_Score
+
+### EVENT NAMES (2668534464.bnk: Segabot_Jet)
+Play_SegaBotPlane
+Stop_SegaBotPlane
+
+### RTPC/GAME-VARIABLE NAMES (2668534464.bnk: Segabot_Jet)
+Axis_X_Rotation_Speed
+Axis_Y_Rotation_Speed
+Axis_Z_Rotation_Speed
+Doppler
+SS_Air_Freefall
+SS_Air_RPM
+
+### EVENT NAMES (1992117788.bnk: Segabot_Transforms)
+Play_Segabot_Transform
+Stop_Segabot_Transform
+
+### VARIABLE NAMES (1992117788.bnk: Segabot_Transforms)
+Transforms
+
+### VALUE NAMES (1992117788.bnk: Segabot_Transforms)
+Air2Land
+Air2Water
+Land2Air
+Land2Water
+Water2Air
+Water2Land
+
+### EVENT NAMES (762439123.bnk: Shinobi)
+Play_Player_Converted
+Play_Player_Targeted
+Stop_Player_Converted
+Stop_Player_Targeted
+# 267289079
+# 2962403425
+
+### EVENT NAMES (2687084505.bnk: Shinobi_Transforms)
+Play_Shinobi_Transform
+Stop_Shinobi_Transform
+
+### VARIABLE NAMES (2687084505.bnk: Shinobi_Transforms)
+Transforms
+
+### VALUE NAMES (2687084505.bnk: Shinobi_Transforms)
+Air2Land
+Air2Water
+Land2Air
+Land2Water
+Water2Air
+Water2Land
+
+### EVENT NAMES (214182481.bnk: Shogun_Transforms)
+Play_Shogun_Transform
+Stop_Shogun_Transform
+
+### VARIABLE NAMES (214182481.bnk: Shogun_Transforms)
+Transforms
+
+### VALUE NAMES (214182481.bnk: Shogun_Transforms)
+Air2Land
+Air2Water
+Land2Air
+Land2Water
+Water2Air
+Water2Land
+
+### EVENT NAMES (286100447.bnk: Swag)
+Play_CrateCollect
+Play_NewWave
+Stop_CrateCollect
+Stop_NewWave
+# 375450682
+# 1459690236
+# 2139749800
+# 3788846278
+
+### EVENT NAMES (3150944565.bnk: TF2_Transforms)
+Play_TF2_Transform
+Stop_TF2_Transform
+
+### VARIABLE NAMES (3150944565.bnk: TF2_Transforms)
+Transforms
+
+### VALUE NAMES (3150944565.bnk: TF2_Transforms)
+Air2Land
+Air2Water
+Land2Air
+Land2Water
+Water2Air
+Water2Land
+
+### EVENT NAMES (3378722005.bnk: TankPursuit)
+Play_Block_Land
+Play_BlocksDestroyed
+Play_DestroyTank
+Play_HUD_Tank_Exposed
+Play_HUD_Tank_Shielded
+Play_Tank_Hit_Damage
+Play_Tank_Hit_NoDamage
+Play_TankEngine
+Play_TankWepAlert
+Play_wBarriers
+Play_wMine_active
+Play_wMines
+Play_wRocket
+Play_wRocket_Active
+Stop_BlocksDestroyed
+Stop_DestroyTank
+Stop_HUD_Tank_Exposed
+Stop_HUD_Tank_Shielded
+Stop_Tank_Hit_Damage
+Stop_Tank_Hit_NoDamage
+Stop_TankEngine
+Stop_TankWepAlert
+Stop_wBarriers
+Stop_wMine_active
+Stop_wMines
+Stop_wRocket
+Stop_wRocket_Active
+# 4062725596
+
+### RTPC/GAME-VARIABLE NAMES (3378722005.bnk: TankPursuit)
+Doppler
+
+### EVENT NAMES (344587110.bnk: Ulala_Transforms)
+Play_Ulala_Transform
+Stop_Ulala_Transform
+
+### VARIABLE NAMES (344587110.bnk: Ulala_Transforms)
+Transforms
+
+### VALUE NAMES (344587110.bnk: Ulala_Transforms)
+Air2Land
+Air2Water
+Land2Air
+Land2Water
+Water2Air
+Water2Land
+
+### EVENT NAMES (3932368149.bnk: Vehicle_Transforms)
+Play_Vehicle_Transforms
+Stop_Vehicle_Transforms
+
+### VARIABLE NAMES (3932368149.bnk: Vehicle_Transforms)
+Transforms
+
+### VALUE NAMES (3932368149.bnk: Vehicle_Transforms)
+Air2Land
+Air2Water
+Land2Air
+Land2Water
+Water2Air
+Water2Land
+
+### EVENT NAMES (1976107535.bnk: Versus)
+Play_Character_Spawn
+Play_Fail
+Play_Success
+Stop_Character_Spawn
+Stop_Fail
+Stop_Success
+
+### EVENT NAMES (3437138150.bnk: Wreckit_Chopper)
+Play_Helicopter
+Stop_Helicopter
+
+### RTPC/GAME-VARIABLE NAMES (3437138150.bnk: Wreckit_Chopper)
+Axis_X_Rotation_Speed
+Axis_Y_Rotation_Speed
+Axis_Z_Rotation_Speed
+Doppler
+SS_Air_Freefall
+SS_Air_RPM
+Trigger_Position_Gamepad
+
+### VARIABLE NAMES (3437138150.bnk: Wreckit_Chopper)
+MixStates
+
+### VALUE NAMES (3437138150.bnk: Wreckit_Chopper)
+All_Star

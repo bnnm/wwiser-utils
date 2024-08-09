@@ -1,0 +1,1780 @@
+
+### BANK NAMES
+emulator_xbox
+ghouliesgame
+global
+init
+music_aticatac
+music_banjokazooie
+music_banjokazooienutsandbolts
+music_banjotooie
+music_battletoads
+music_battletoads_arcade
+music_blastcorps
+music_cobratriangle
+music_conkersbadfurday
+music_diggertrock
+music_grabbedbytheghoulies
+music_gunfright
+music_jetforcegemini
+music_jetpac
+music_jetpacrefuelled
+music_kameoelementsofpower
+music_killerinstinctgold
+music_knightlore
+music_lunarjetman
+music_perfectdark
+music_perfectdarkzero
+music_rcproam
+music_rcproamii
+music_sabrewulf
+music_slalom
+music_snakerattlenroll
+music_solarjetman
+music_underwulrde
+music_vivapinata
+music_vivapinatatroubleinparadise
+music_wrapper_frontend
+sfx
+sfx_extras
+
+### BUS NAMES
+Alley
+Arena
+Auditorium
+Bathroom
+Bink
+Carpetedhallway
+Cave
+City
+Concerthall
+Default
+Forest
+gamestages
+generic
+Ghoulies_Dry
+Ghoulies_Wet
+Hallway
+Hangar
+LivingRoom
+Master Audio Bus = 0
+Master Secondary Bus = 0
+Mountains
+Music
+NoReverb
+PaddedCell
+ParkingLot
+Plain
+Quarry
+Rewind
+Room
+Sewerpipe
+sfx
+StoneCorridor
+StoneRoom
+Underwater
+WrapperUI
+# 2807593077
+# 2423401793
+# 3817750960
+# 3069839941
+# 353521996
+# 429541256
+# 1712509174
+# 1912265123
+# 3741348698
+
+### SFX NAMES (init.bnk)
+# 2508276967
+# 2751847542
+
+### BASE RTPC/GAME-VARIABLE NAMES (init.bnk)
+G3DIsEnabled
+GcutsceneVolume
+GdialogueVolume
+GfightVolume
+GfrontendsfxVolume
+GgamefxVolume
+GObstructionFilterEnabled
+GpauseVolume
+GReverbVolume
+GsfxVolume
+GsuperscaryVolume
+GtextVolume
+GwalkaboutVolume
+# 1932404161
+# 3105348926
+# 3390185678
+# 3567573803
+# 4162754106
+
+### RTPC/GAME-VARIABLE NAMES (init.bnk)
+GReverbVolume
+
+### EVENT NAMES (emulator_xbox.bnk)
+Play_Xbox_Input
+Xbox_Pause
+Xbox_Resume
+
+### EVENT NAMES (ghouliesgame.bnk)
+Garse0
+Gbaron0
+Gbaron1
+Gbaron10
+Gbaron11
+Gbaron12
+Gbaron13
+Gbaron14
+Gbaron15
+Gbaron16
+Gbaron17
+Gbaron18
+Gbaron19
+Gbaron2
+Gbaron20
+Gbaron21
+Gbaron22
+Gbaron23
+Gbaron24
+Gbaron3
+Gbaron4
+Gbaron5
+Gbaron6
+Gbaron7
+Gbaron8
+Gbaron9
+Gbat0
+Gbat1
+Gbat10
+Gbat11
+Gbat12
+Gbat13
+Gbat14
+Gbat2
+Gbat3
+Gbat4
+Gbat5
+Gbat6
+Gbat7
+Gbat8
+Gbat9
+Gboy0
+Gboy1
+Gboy10
+Gboy11
+Gboy12
+Gboy13
+Gboy14
+Gboy15
+Gboy16
+Gboy17
+Gboy18
+Gboy19
+Gboy2
+Gboy20
+Gboy21
+Gboy22
+Gboy23
+Gboy24
+Gboy25
+Gboy26
+Gboy27
+Gboy28
+Gboy29
+Gboy3
+Gboy30
+Gboy31
+Gboy32
+Gboy33
+Gboy34
+Gboy35
+Gboy36
+Gboy37
+Gboy38
+Gboy39
+Gboy4
+Gboy40
+Gboy41
+Gboy42
+Gboy43
+Gboy44
+Gboy45
+Gboy46
+Gboy47
+Gboy48
+Gboy49
+Gboy5
+Gboy50
+Gboy51
+Gboy52
+Gboy53
+Gboy54
+Gboy55
+Gboy56
+Gboy57
+Gboy58
+Gboy59
+Gboy6
+Gboy60
+Gboy61
+Gboy62
+Gboy63
+Gboy64
+Gboy65
+Gboy66
+Gboy67
+Gboy68
+Gboy7
+Gboy8
+Gboy9
+Gchicken0
+Gchicken1
+Gchicken2
+Gchicken3
+Gchicken4
+Gchicken5
+Gchicken6
+Gchicken7
+Gchicken8
+Gcook0
+Gcook1
+Gcook2
+Gcook3
+Gcook4
+Gcook5
+Gcook6
+Gcook7
+Gcook8
+GCrivens0
+GCrivens1
+GCrivens10
+GCrivens11
+GCrivens12
+GCrivens2
+GCrivens3
+GCrivens4
+GCrivens5
+GCrivens6
+GCrivens7
+GCrivens8
+GCrivens9
+Gdialogue0
+Gdialogue1
+Gdialogue10
+Gdialogue11
+Gdialogue12
+Gdialogue13
+Gdialogue14
+Gdialogue15
+Gdialogue16
+Gdialogue17
+Gdialogue18
+Gdialogue19
+Gdialogue2
+Gdialogue20
+Gdialogue21
+Gdialogue22
+Gdialogue23
+Gdialogue24
+Gdialogue25
+Gdialogue26
+Gdialogue27
+Gdialogue28
+Gdialogue29
+Gdialogue3
+Gdialogue30
+Gdialogue31
+Gdialogue32
+Gdialogue33
+Gdialogue34
+Gdialogue35
+Gdialogue36
+Gdialogue37
+Gdialogue38
+Gdialogue39
+Gdialogue4
+Gdialogue40
+Gdialogue41
+Gdialogue42
+Gdialogue43
+Gdialogue44
+Gdialogue45
+Gdialogue46
+Gdialogue47
+Gdialogue48
+Gdialogue49
+Gdialogue5
+Gdialogue50
+Gdialogue51
+Gdialogue52
+Gdialogue53
+Gdialogue54
+Gdialogue55
+Gdialogue56
+Gdialogue57
+Gdialogue58
+Gdialogue59
+Gdialogue6
+Gdialogue60
+Gdialogue61
+Gdialogue62
+Gdialogue63
+Gdialogue64
+Gdialogue65
+Gdialogue66
+Gdialogue67
+Gdialogue68
+Gdialogue69
+Gdialogue7
+Gdialogue70
+Gdialogue71
+Gdialogue72
+Gdialogue73
+Gdialogue74
+Gdialogue75
+Gdialogue76
+Gdialogue77
+Gdialogue78
+Gdialogue79
+Gdialogue8
+Gdialogue80
+Gdialogue81
+Gdialogue82
+Gdialogue83
+Gdialogue84
+Gdialogue9
+Genvironment0
+Genvironment1
+Genvironment10
+Genvironment11
+Genvironment12
+Genvironment13
+Genvironment2
+Genvironment3
+Genvironment4
+Genvironment5
+Genvironment6
+Genvironment7
+Genvironment8
+Genvironment9
+Gfinalscore0
+Gfinalscore1
+Gfinalscore2
+Gfinalscore3
+Gfinalscore4
+Gfootstepgravel0
+Gfootstepgravel1
+Gfootstepwater0
+Ggeneral0
+Ggeneral1
+Ggeneral2
+Ggirl0
+Ggirl1
+Ggirl10
+Ggirl11
+Ggirl12
+Ggirl13
+Ggirl14
+Ggirl15
+Ggirl16
+Ggirl17
+Ggirl18
+Ggirl19
+Ggirl2
+Ggirl20
+Ggirl21
+Ggirl22
+Ggirl23
+Ggirl24
+Ggirl25
+Ggirl26
+Ggirl27
+Ggirl28
+Ggirl29
+Ggirl3
+Ggirl30
+Ggirl31
+Ggirl32
+Ggirl33
+Ggirl34
+Ggirl35
+Ggirl36
+Ggirl37
+Ggirl4
+Ggirl5
+Ggirl6
+Ggirl7
+Ggirl8
+Ggirl9
+Ggrabbedvoicefx0
+Ggrabbedvoicefx1
+Ggrabbedvoicefx10
+Ggrabbedvoicefx11
+Ggrabbedvoicefx12
+Ggrabbedvoicefx13
+Ggrabbedvoicefx14
+Ggrabbedvoicefx15
+Ggrabbedvoicefx16
+Ggrabbedvoicefx17
+Ggrabbedvoicefx18
+Ggrabbedvoicefx19
+Ggrabbedvoicefx2
+Ggrabbedvoicefx20
+Ggrabbedvoicefx21
+Ggrabbedvoicefx3
+Ggrabbedvoicefx4
+Ggrabbedvoicefx5
+Ggrabbedvoicefx6
+Ggrabbedvoicefx7
+Ggrabbedvoicefx8
+Ggrabbedvoicefx9
+Ggrimreaper0
+Ggrimreaper1
+Ggrimreaper10
+Ggrimreaper2
+Ggrimreaper3
+Ggrimreaper4
+Ggrimreaper5
+Ggrimreaper6
+Ggrimreaper7
+Ggrimreaper8
+Ggrimreaper9
+Ggroundskeeper0
+Ggroundskeeper1
+Ggroundskeeper10
+Ggroundskeeper2
+Ggroundskeeper3
+Ggroundskeeper4
+Ggroundskeeper5
+Ggroundskeeper6
+Ggroundskeeper7
+Ggroundskeeper8
+Ggroundskeeper9
+GHauntedChair0
+GHauntedChair1
+GHauntedChair10
+GHauntedChair11
+GHauntedChair12
+GHauntedChair2
+GHauntedChair3
+GHauntedChair4
+GHauntedChair5
+GHauntedChair6
+GHauntedChair7
+GHauntedChair8
+GHauntedChair9
+GHauntedCoat0
+GHauntedCoat1
+GHauntedCoat2
+GHauntedCoat3
+GHauntedCoat4
+GHauntedCoat5
+GHauntedCoat6
+GHauntedCoat7
+GHauntedCoat8
+GHauntedCoat9
+GHauntedDoor0
+GHauntedDoor1
+GHauntedDoor10
+GHauntedDoor2
+GHauntedDoor3
+GHauntedDoor4
+GHauntedDoor5
+GHauntedDoor6
+GHauntedDoor7
+GHauntedDoor8
+GHauntedDoor9
+Ghauntedpicture0
+Ghauntedpicture1
+Ghauntedpicture10
+Ghauntedpicture11
+Ghauntedpicture2
+Ghauntedpicture3
+Ghauntedpicture4
+Ghauntedpicture5
+Ghauntedpicture6
+Ghauntedpicture7
+Ghauntedpicture8
+Ghauntedpicture9
+Ghauntedtv0
+Ghauntedtv1
+Ghauntedtv10
+Ghauntedtv11
+Ghauntedtv12
+Ghauntedtv2
+Ghauntedtv3
+Ghauntedtv4
+Ghauntedtv5
+Ghauntedtv6
+Ghauntedtv7
+Ghauntedtv8
+Ghauntedtv9
+Ghit0
+Ghit1
+Ghit2
+Ghit3
+Ghit4
+Ghit5
+Ghit6
+Ghousekeeper0
+Ghousekeeper1
+Ghousekeeper2
+Ghousekeeper3
+Ghousekeeper4
+Ghousekeeper5
+Ghunchback0
+Ghunchback1
+Ghunchback10
+Ghunchback11
+Ghunchback12
+Ghunchback13
+Ghunchback14
+Ghunchback15
+Ghunchback16
+Ghunchback17
+Ghunchback2
+Ghunchback3
+Ghunchback4
+Ghunchback5
+Ghunchback6
+Ghunchback7
+Ghunchback8
+Ghunchback9
+Gimp0
+Gimp1
+Gimp10
+Gimp11
+Gimp12
+Gimp13
+Gimp14
+Gimp15
+Gimp16
+Gimp17
+Gimp18
+Gimp19
+Gimp2
+Gimp3
+Gimp4
+Gimp5
+Gimp6
+Gimp7
+Gimp8
+Gimp9
+Gimpfire0
+Gimpfire1
+Gimpfire2
+Gimpfire3
+Gimpfire4
+Gimpfire5
+Gimpfire6
+Gimpfire7
+Gimpflying0
+Gimpflying1
+Gimpflying2
+Gimpflying3
+Gimpflying4
+Gimpflying5
+GJessieClyde0
+GJessieClyde1
+GJessieClyde10
+GJessieClyde11
+GJessieClyde12
+GJessieClyde13
+GJessieClyde14
+GJessieClyde15
+GJessieClyde16
+GJessieClyde17
+GJessieClyde18
+GJessieClyde19
+GJessieClyde2
+GJessieClyde20
+GJessieClyde21
+GJessieClyde22
+GJessieClyde23
+GJessieClyde24
+GJessieClyde25
+GJessieClyde26
+GJessieClyde27
+GJessieClyde3
+GJessieClyde4
+GJessieClyde5
+GJessieClyde6
+GJessieClyde7
+GJessieClyde8
+GJessieClyde9
+Gkrackpot0
+Gkrackpot1
+Gkrackpot10
+Gkrackpot11
+Gkrackpot12
+Gkrackpot13
+Gkrackpot2
+Gkrackpot3
+Gkrackpot4
+Gkrackpot5
+Gkrackpot6
+Gkrackpot7
+Gkrackpot8
+Gkrackpot9
+Gmedusa0
+Gmedusa1
+Gmedusa10
+Gmedusa11
+Gmedusa2
+Gmedusa3
+Gmedusa4
+Gmedusa5
+Gmedusa6
+Gmedusa7
+Gmedusa8
+Gmedusa9
+Gmisc0
+Gmisc1
+Gmisc10
+Gmisc100
+Gmisc101
+Gmisc102
+Gmisc11
+Gmisc12
+Gmisc13
+Gmisc14
+Gmisc15
+Gmisc16
+Gmisc17
+Gmisc18
+Gmisc19
+Gmisc2
+Gmisc20
+Gmisc21
+Gmisc22
+Gmisc23
+Gmisc24
+Gmisc25
+Gmisc26
+Gmisc27
+Gmisc28
+Gmisc29
+Gmisc3
+Gmisc30
+Gmisc31
+Gmisc32
+Gmisc33
+Gmisc34
+Gmisc35
+Gmisc36
+Gmisc37
+Gmisc38
+Gmisc39
+Gmisc4
+Gmisc40
+Gmisc41
+Gmisc42
+Gmisc43
+Gmisc44
+Gmisc45
+Gmisc46
+Gmisc47
+Gmisc48
+Gmisc49
+Gmisc5
+Gmisc50
+Gmisc51
+Gmisc52
+Gmisc53
+Gmisc54
+Gmisc55
+Gmisc56
+Gmisc57
+Gmisc58
+Gmisc59
+Gmisc6
+Gmisc60
+Gmisc61
+Gmisc62
+Gmisc63
+Gmisc64
+Gmisc65
+Gmisc66
+Gmisc67
+Gmisc68
+Gmisc69
+Gmisc7
+Gmisc70
+Gmisc71
+Gmisc72
+Gmisc73
+Gmisc74
+Gmisc75
+Gmisc76
+Gmisc77
+Gmisc78
+Gmisc79
+Gmisc8
+Gmisc80
+Gmisc81
+Gmisc82
+Gmisc83
+Gmisc84
+Gmisc85
+Gmisc86
+Gmisc87
+Gmisc88
+Gmisc89
+Gmisc9
+Gmisc90
+Gmisc91
+Gmisc92
+Gmisc93
+Gmisc94
+Gmisc95
+Gmisc96
+Gmisc97
+Gmisc98
+Gmisc99
+Gmrribs0
+Gmrribs1
+Gmrribs10
+Gmrribs11
+Gmrribs12
+Gmrribs2
+Gmrribs3
+Gmrribs4
+Gmrribs5
+Gmrribs6
+Gmrribs7
+Gmrribs8
+Gmrribs9
+Gmummy0
+Gmummy1
+Gmummy10
+Gmummy11
+Gmummy12
+Gmummy13
+Gmummy14
+Gmummy15
+Gmummy16
+Gmummy17
+Gmummy18
+Gmummy19
+Gmummy2
+Gmummy3
+Gmummy4
+Gmummy5
+Gmummy6
+Gmummy7
+Gmummy8
+Gmummy9
+Gmummycursed0
+Gmummycursed1
+Gmummycursed10
+Gmummycursed11
+Gmummycursed12
+Gmummycursed13
+Gmummycursed14
+Gmummycursed15
+Gmummycursed16
+Gmummycursed2
+Gmummycursed3
+Gmummycursed4
+Gmummycursed5
+Gmummycursed6
+Gmummycursed7
+Gmummycursed8
+Gmummycursed9
+Gninjaimp0
+Gninjaimp1
+Gninjaimp10
+Gninjaimp11
+Gninjaimp2
+Gninjaimp3
+Gninjaimp4
+Gninjaimp5
+Gninjaimp6
+Gninjaimp7
+Gninjaimp8
+Gninjaimp9
+Gpickupditties0
+Gpickupditties1
+Gpickupditties2
+Gpickupditties3
+Gpickupditties4
+Gpickupditties5
+Gpickupditties6
+Gpickupditties7
+Gpirate0
+Gpirate1
+Gpirate10
+Gpirate11
+Gpirate12
+Gpirate13
+Gpirate14
+Gpirate15
+Gpirate16
+Gpirate2
+Gpirate3
+Gpirate4
+Gpirate5
+Gpirate6
+Gpirate7
+Gpirate8
+Gpirate9
+Gprops0
+Gprops1
+Gprops10
+Gprops100
+Gprops101
+Gprops102
+Gprops103
+Gprops104
+Gprops105
+Gprops106
+Gprops107
+Gprops108
+Gprops109
+Gprops11
+Gprops110
+Gprops111
+Gprops112
+Gprops113
+Gprops114
+Gprops115
+Gprops116
+Gprops117
+Gprops118
+Gprops119
+Gprops12
+Gprops120
+Gprops121
+Gprops122
+Gprops123
+Gprops124
+Gprops125
+Gprops126
+Gprops127
+Gprops128
+Gprops129
+Gprops13
+Gprops130
+Gprops131
+Gprops132
+Gprops133
+Gprops134
+Gprops135
+Gprops136
+Gprops137
+Gprops138
+Gprops14
+Gprops15
+Gprops16
+Gprops17
+Gprops18
+Gprops19
+Gprops2
+Gprops20
+Gprops21
+Gprops22
+Gprops23
+Gprops24
+Gprops25
+Gprops26
+Gprops27
+Gprops28
+Gprops29
+Gprops3
+Gprops30
+Gprops31
+Gprops32
+Gprops33
+Gprops34
+Gprops35
+Gprops36
+Gprops37
+Gprops38
+Gprops39
+Gprops4
+Gprops40
+Gprops41
+Gprops42
+Gprops43
+Gprops44
+Gprops45
+Gprops46
+Gprops47
+Gprops48
+Gprops49
+Gprops5
+Gprops50
+Gprops51
+Gprops52
+Gprops53
+Gprops54
+Gprops55
+Gprops56
+Gprops57
+Gprops58
+Gprops59
+Gprops6
+Gprops60
+Gprops61
+Gprops62
+Gprops63
+Gprops64
+Gprops65
+Gprops66
+Gprops67
+Gprops68
+Gprops69
+Gprops7
+Gprops70
+Gprops71
+Gprops72
+Gprops73
+Gprops74
+Gprops75
+Gprops76
+Gprops77
+Gprops78
+Gprops79
+Gprops8
+Gprops80
+Gprops81
+Gprops82
+Gprops83
+Gprops84
+Gprops85
+Gprops86
+Gprops87
+Gprops88
+Gprops89
+Gprops9
+Gprops90
+Gprops91
+Gprops92
+Gprops93
+Gprops94
+Gprops95
+Gprops96
+Gprops97
+Gprops98
+Gprops99
+Grandomambience0
+Grandomambience1
+Grandomambience2
+Grandomambience3
+Grandomambience4
+Grandomambience5
+Grandomambience6
+Grandomambience7
+Grandomambience8
+Gscares0
+Gscares1
+Gscares10
+Gscares11
+Gscares12
+Gscares13
+Gscares14
+Gscares15
+Gscares16
+Gscares17
+Gscares18
+Gscares19
+Gscares2
+Gscares20
+Gscares21
+Gscares22
+Gscares23
+Gscares24
+Gscares3
+Gscares4
+Gscares5
+Gscares6
+Gscares7
+Gscares8
+Gscares9
+Gskeleton0
+Gskeleton1
+Gskeleton10
+Gskeleton11
+Gskeleton12
+Gskeleton13
+Gskeleton14
+Gskeleton15
+Gskeleton16
+Gskeleton17
+Gskeleton18
+Gskeleton19
+Gskeleton2
+Gskeleton20
+Gskeleton21
+Gskeleton22
+Gskeleton23
+Gskeleton24
+Gskeleton3
+Gskeleton4
+Gskeleton5
+Gskeleton6
+Gskeleton7
+Gskeleton8
+Gskeleton9
+Gspider0
+Gspider1
+Gspider10
+Gspider2
+Gspider3
+Gspider4
+Gspider5
+Gspider6
+Gspider7
+Gspider8
+Gspider9
+Gstreamscutscen0
+Gstreamscutscen1
+Gstreamscutscen10
+Gstreamscutscen11
+Gstreamscutscen12
+Gstreamscutscen13
+Gstreamscutscen14
+Gstreamscutscen15
+Gstreamscutscen16
+Gstreamscutscen17
+Gstreamscutscen18
+Gstreamscutscen19
+Gstreamscutscen2
+Gstreamscutscen20
+Gstreamscutscen21
+Gstreamscutscen22
+Gstreamscutscen23
+Gstreamscutscen24
+Gstreamscutscen25
+Gstreamscutscen26
+Gstreamscutscen27
+Gstreamscutscen28
+Gstreamscutscen29
+Gstreamscutscen3
+Gstreamscutscen30
+Gstreamscutscen31
+Gstreamscutscen32
+Gstreamscutscen33
+Gstreamscutscen34
+Gstreamscutscen35
+Gstreamscutscen36
+Gstreamscutscen37
+Gstreamscutscen38
+Gstreamscutscen39
+Gstreamscutscen4
+Gstreamscutscen40
+Gstreamscutscen41
+Gstreamscutscen42
+Gstreamscutscen43
+Gstreamscutscen44
+Gstreamscutscen45
+Gstreamscutscen46
+Gstreamscutscen47
+Gstreamscutscen48
+Gstreamscutscen49
+Gstreamscutscen5
+Gstreamscutscen50
+Gstreamscutscen51
+Gstreamscutscen52
+Gstreamscutscen53
+Gstreamscutscen54
+Gstreamscutscen55
+Gstreamscutscen56
+Gstreamscutscen57
+Gstreamscutscen58
+Gstreamscutscen59
+Gstreamscutscen6
+Gstreamscutscen60
+Gstreamscutscen61
+Gstreamscutscen62
+Gstreamscutscen63
+Gstreamscutscen64
+Gstreamscutscen65
+Gstreamscutscen66
+Gstreamscutscen67
+Gstreamscutscen68
+Gstreamscutscen69
+Gstreamscutscen7
+Gstreamscutscen70
+Gstreamscutscen71
+Gstreamscutscen72
+Gstreamscutscen73
+Gstreamscutscen74
+Gstreamscutscen75
+Gstreamscutscen76
+Gstreamscutscen77
+Gstreamscutscen78
+Gstreamscutscen79
+Gstreamscutscen8
+Gstreamscutscen80
+Gstreamscutscen81
+Gstreamscutscen82
+Gstreamscutscen83
+Gstreamscutscen84
+Gstreamscutscen85
+Gstreamscutscen86
+Gstreamscutscen87
+Gstreamscutscen88
+Gstreamscutscen89
+Gstreamscutscen9
+Gstreamscutscen90
+Gstreamscutscen91
+Gstreamscutscen92
+Gstreamscutscen93
+Gstreamscutscen94
+Gstreamscutscen95
+Gstreamscutscen96
+Gstreamscutscen97
+Gstreamscutscen98
+Gstreamsditties0
+Gstreamsditties1
+Gstreamsditties10
+Gstreamsditties11
+Gstreamsditties12
+Gstreamsditties13
+Gstreamsditties14
+Gstreamsditties15
+Gstreamsditties16
+Gstreamsditties17
+Gstreamsditties18
+Gstreamsditties19
+Gstreamsditties2
+Gstreamsditties20
+Gstreamsditties21
+Gstreamsditties22
+Gstreamsditties23
+Gstreamsditties3
+Gstreamsditties4
+Gstreamsditties5
+Gstreamsditties6
+Gstreamsditties7
+Gstreamsditties8
+Gstreamsditties9
+Gstreamsfight0
+Gstreamsfight1
+Gstreamsfight10
+Gstreamsfight11
+Gstreamsfight12
+Gstreamsfight13
+Gstreamsfight14
+Gstreamsfight15
+Gstreamsfight16
+Gstreamsfight17
+Gstreamsfight18
+Gstreamsfight19
+Gstreamsfight2
+Gstreamsfight20
+Gstreamsfight21
+Gstreamsfight22
+Gstreamsfight23
+Gstreamsfight3
+Gstreamsfight4
+Gstreamsfight5
+Gstreamsfight6
+Gstreamsfight7
+Gstreamsfight8
+Gstreamsfight9
+Gstreamsrooms0
+Gstreamsrooms1
+Gstreamsrooms2
+Gstreamstextune0
+Gstreamswalk0
+Gstreamswalk1
+Gstreamswalk10
+Gstreamswalk11
+Gstreamswalk12
+Gstreamswalk13
+Gstreamswalk14
+Gstreamswalk15
+Gstreamswalk16
+Gstreamswalk17
+Gstreamswalk18
+Gstreamswalk19
+Gstreamswalk2
+Gstreamswalk20
+Gstreamswalk21
+Gstreamswalk22
+Gstreamswalk23
+Gstreamswalk24
+Gstreamswalk25
+Gstreamswalk26
+Gstreamswalk27
+Gstreamswalk28
+Gstreamswalk29
+Gstreamswalk3
+Gstreamswalk30
+Gstreamswalk31
+Gstreamswalk32
+Gstreamswalk33
+Gstreamswalk34
+Gstreamswalk35
+Gstreamswalk36
+Gstreamswalk37
+Gstreamswalk38
+Gstreamswalk39
+Gstreamswalk4
+Gstreamswalk40
+Gstreamswalk41
+Gstreamswalk42
+Gstreamswalk5
+Gstreamswalk6
+Gstreamswalk7
+Gstreamswalk8
+Gstreamswalk9
+Gsuperscarystuf0
+Gsuperscarystuf1
+Gsuperscarystuf10
+Gsuperscarystuf11
+Gsuperscarystuf12
+Gsuperscarystuf2
+Gsuperscarystuf3
+Gsuperscarystuf4
+Gsuperscarystuf5
+Gsuperscarystuf6
+Gsuperscarystuf7
+Gsuperscarystuf8
+Gsuperscarystuf9
+Gtrophyheads0
+Gtrophyheads1
+Gtrophyheads10
+Gtrophyheads11
+Gtrophyheads12
+Gtrophyheads13
+Gtrophyheads14
+Gtrophyheads15
+Gtrophyheads16
+Gtrophyheads17
+Gtrophyheads18
+Gtrophyheads19
+Gtrophyheads2
+Gtrophyheads3
+Gtrophyheads4
+Gtrophyheads5
+Gtrophyheads6
+Gtrophyheads7
+Gtrophyheads8
+Gtrophyheads9
+Guglygirl0
+Guglygirl1
+Guglygirl2
+Guglygirl3
+Guglygirl4
+Guglygirl5
+Guglygirl6
+Guglygirl7
+Gvampire0
+Gvampire1
+Gvampire10
+Gvampire2
+Gvampire3
+Gvampire4
+Gvampire5
+Gvampire6
+Gvampire7
+Gvampire8
+Gvampire9
+Gvampirechicken0
+Gvampirechicken1
+Gvampirechicken10
+Gvampirechicken11
+Gvampirechicken12
+Gvampirechicken13
+Gvampirechicken14
+Gvampirechicken2
+Gvampirechicken3
+Gvampirechicken4
+Gvampirechicken5
+Gvampirechicken6
+Gvampirechicken7
+Gvampirechicken8
+Gvampirechicken9
+Gwarlock0
+Gwarlock1
+Gwarlock10
+Gwarlock2
+Gwarlock3
+Gwarlock4
+Gwarlock5
+Gwarlock6
+Gwarlock7
+Gwarlock8
+Gwarlock9
+Gworm0
+Gworm1
+Gworm2
+Gworm3
+Gworm4
+Gworm5
+Gzombie0
+Gzombie1
+Gzombie10
+Gzombie11
+Gzombie12
+Gzombie13
+Gzombie14
+Gzombie15
+Gzombie16
+Gzombie17
+Gzombie2
+Gzombie3
+Gzombie4
+Gzombie5
+Gzombie6
+Gzombie7
+Gzombie8
+Gzombie9
+# 61742576
+# 61742577
+# 292820514
+# 308585592
+# 308585593
+# 308585594
+# 308585595
+# 308585596
+# 308585598
+# 308585599
+# 452374368
+# 452374369
+# 452374370
+# 452374371
+# 464000232
+# 464000233
+# 464000234
+# 464000235
+# 464000236
+# 464000238
+# 464000239
+# 469151952
+# 469151953
+# 469151954
+# 469151955
+# 469151956
+# 469151957
+# 469151958
+# 469151959
+# 469151966
+# 469151967
+# 842951536
+# 842951537
+# 842951538
+# 842951539
+# 842951540
+# 842951541
+# 842951542
+# 842951543
+# 842951548
+# 842951549
+# 893284300
+# 893284301
+# 893284303
+# 1007818481
+# 1007818482
+# 1007818483
+# 1007818484
+# 1007818485
+# 1007818486
+# 1007818487
+# 1079503376
+# 1079503377
+# 1079503378
+# 1079503379
+# 1079503380
+# 1079503381
+# 1079503382
+# 1079503383
+# 1079503384
+# 1079503385
+# 1195836184
+# 1195836185
+# 1195836186
+# 1195836188
+# 1195836189
+# 1195836190
+# 1195836191
+# 1258890448
+# 1258890449
+# 1258890450
+# 1258890451
+# 1258890452
+# 1258890453
+# 1258890454
+# 1258890455
+# 1258890462
+# 1258890463
+# 1516599040
+# 1516599041
+# 1516599042
+# 1516599043
+# 1516599044
+# 1516599045
+# 1516599046
+# 1516599047
+# 1516599048
+# 1516599049
+# 1522973824
+# 1522973825
+# 1522973826
+# 1522973827
+# 1522973828
+# 1522973829
+# 1522973831
+# 1566931928
+# 1566931929
+# 1566931931
+# 1907950116
+# 1907950117
+# 1907950120
+# 1907950121
+# 1907950122
+# 1907950123
+# 1907950124
+# 1907950125
+# 1907950126
+# 1907950127
+# 2166421120
+# 2227926952
+# 2227926956
+# 2227926957
+# 2227926958
+# 2227926959
+# 2431600594
+# 2431600595
+# 2431600600
+# 2431600601
+# 2431600602
+# 2431600603
+# 2431600604
+# 2431600605
+# 2431600606
+# 2431600607
+# 3150212712
+# 3150212713
+# 3150212714
+# 3150212715
+# 3150212716
+# 3150212717
+# 3150212718
+# 3325426349
+# 3325426350
+# 3325426351
+# 3342203904
+# 3342203905
+# 3342203906
+# 3342203907
+# 3342203908
+# 3342203909
+# 3342203910
+# 3342203911
+# 3342203914
+# 3342203915
+# 3749851968
+# 3749851969
+# 3749851970
+# 3749851971
+# 3749851972
+# 3749851973
+# 3749851974
+# 3749851975
+# 3749851978
+# 3749851979
+# 3997457696
+# 3997457697
+# 3997457698
+# 3997457700
+# 3997457701
+# 3997457702
+# 3997457703
+# 4100258685
+# 4100258686
+# 4100258687
+# 4117036240
+# 4117036241
+# 4117036242
+# 4117036243
+# 4117036244
+# 4117036245
+# 4117036246
+# 4117036247
+# 4117036250
+# 4117036251
+# 4247059008
+# 4247059009
+# 4247059010
+# 4247059011
+# 4247059012
+# 4247059013
+# 4247059014
+# 4247059015
+# 4247059022
+# 4247059023
+
+### SFX NAMES (ghouliesgame.bnk)
+# 968240299
+# 1342302447
+# 1881900980
+
+### RTPC/GAME-VARIABLE NAMES (ghouliesgame.bnk)
+G3DIsEnabled
+GcutsceneVolume
+GdialogueVolume
+GfightVolume
+GfrontendsfxVolume
+GgamefxVolume
+GObstructionFilterEnabled
+GpauseVolume
+GsfxVolume
+GsuperscaryVolume
+GtextVolume
+GwalkaboutVolume
+# 3567573803
+
+### EVENT NAMES (global.bnk)
+Constrain
+Unconstrain
+# 1089563120
+
+### EVENT NAMES (music_aticatac.bnk)
+Play_pearl_music_atic_atac
+Stop_pearl_music_atic_atac
+
+### EVENT NAMES (music_banjokazooie.bnk)
+Play_pearl_music_banjo_kazooie
+Stop_pearl_music_banjo_kazooie
+
+### EVENT NAMES (music_banjokazooienutsandbolts.bnk)
+Play_pearl_music_banjo_kazooie_nuts_and_bolts
+Stop_pearl_music_banjo_kazooie_nuts_and_bolts
+
+### EVENT NAMES (music_banjotooie.bnk)
+Play_pearl_music_banjo_tooie
+Stop_pearl_music_banjo_tooie
+
+### EVENT NAMES (music_battletoads.bnk)
+Play_pearl_music_battletoads
+Stop_pearl_music_battletoads
+
+### EVENT NAMES (music_battletoads_arcade.bnk)
+Play_pearl_music_battletoads_arcade
+Stop_pearl_music_battletoads_arcade
+
+### EVENT NAMES (music_blastcorps.bnk)
+Play_pearl_music_blast_corps
+Stop_pearl_music_blast_corps
+
+### EVENT NAMES (music_cobratriangle.bnk)
+Play_pearl_music_cobra_triangle
+Stop_pearl_music_cobra_triangle
+
+### EVENT NAMES (music_conkersbadfurday.bnk)
+Play_pearl_music_conkers_bad_fur_day
+Stop_pearl_music_conkers_bad_fur_day
+
+### EVENT NAMES (music_diggertrock.bnk)
+Play_pearl_music_digger_t_rock
+Stop_pearl_music_digger_t_rock
+
+### EVENT NAMES (music_grabbedbytheghoulies.bnk)
+Play_pearl_music_grabbed_by_the_ghoulies
+Stop_pearl_music_grabbed_by_the_ghoulies
+
+### EVENT NAMES (music_gunfright.bnk)
+Play_pearl_music_gunfright
+Stop_pearl_music_gunfright
+
+### EVENT NAMES (music_jetforcegemini.bnk)
+Play_pearl_music_jet_force_gemini
+Stop_pearl_music_jet_force_gemini
+
+### EVENT NAMES (music_jetpac.bnk)
+Play_pearl_music_jetpac
+Stop_pearl_music_jetpac
+
+### EVENT NAMES (music_jetpacrefuelled.bnk)
+Play_pearl_music_jetpac_refuelled
+Stop_pearl_music_jetpac_refuelled
+
+### EVENT NAMES (music_kameoelementsofpower.bnk)
+Play_pearl_music_kameo_elements_of_power
+Stop_pearl_music_kameo_elements_of_power
+
+### EVENT NAMES (music_killerinstinctgold.bnk)
+Play_pearl_music_killer_instinct_gold
+Stop_pearl_music_killer_instinct_gold
+
+### EVENT NAMES (music_knightlore.bnk)
+Play_pearl_music_knight_lore
+Stop_pearl_music_knight_lore
+
+### EVENT NAMES (music_lunarjetman.bnk)
+Play_pearl_music_lunar_jetman
+Stop_pearl_music_lunar_jetman
+
+### EVENT NAMES (music_perfectdark.bnk)
+Play_pearl_music_perfect_dark
+Stop_pearl_music_perfect_dark
+
+### EVENT NAMES (music_perfectdarkzero.bnk)
+Play_pearl_music_perfect_dark_zero
+Stop_pearl_music_perfect_dark_zero
+
+### EVENT NAMES (music_rcproam.bnk)
+Play_pearl_music_r_c_pro_am
+Stop_pearl_music_r_c_pro_am
+
+### EVENT NAMES (music_rcproamii.bnk)
+Play_pearl_music_r_c_pro_am_ii
+Stop_pearl_music_r_c_pro_am_ii
+
+### EVENT NAMES (music_sabrewulf.bnk)
+Play_pearl_music_sabre_wulf
+Stop_pearl_music_sabre_wulf
+
+### EVENT NAMES (music_slalom.bnk)
+Play_pearl_music_slalom
+Stop_pearl_music_slalom
+
+### EVENT NAMES (music_snakerattlenroll.bnk)
+Play_pearl_music_snake_rattle_n_roll
+Stop_pearl_music_snake_rattle_n_roll
+
+### EVENT NAMES (music_solarjetman.bnk)
+Play_pearl_music_solar_jetman
+Stop_pearl_music_solar_jetman
+
+### EVENT NAMES (music_underwulrde.bnk)
+Play_pearl_music_underworld
+Stop_pearl_music_underworld
+
+### EVENT NAMES (music_vivapinata.bnk)
+Play_pearl_music_viva_pinata
+Stop_pearl_music_viva_pinata
+
+### EVENT NAMES (music_vivapinatatroubleinparadise.bnk)
+Play_pearl_music_viva_pinata_trouble_in_paradise
+Stop_pearl_music_viva_pinata_trouble_in_paradise
+
+### EVENT NAMES (music_wrapper_frontend.bnk)
+# 997420416
+# 1791145001
+# 2798636758
+# 3569668880
+# 3821458138
+# 4139272760
+
+### RTPC/GAME-VARIABLE NAMES (music_wrapper_frontend.bnk)
+# 3105348926
+# 1932404161
+# 4162754106
+
+### EVENT NAMES (sfx.bnk)
+Play_bink_audio_in
+Play_pearl_sfx_lifelost
+Play_pearl_sfx_snapshot_bestscore
+Play_pearl_sfx_snapshot_score
+Play_pearl_sfx_snapshot_timebestscore
+Play_pearl_sfx_snapshot_timerunningout
+Play_pearl_sfx_snapshot_ui_panel_description_in
+Play_pearl_sfx_snapshot_ui_panel_failure_in
+Play_pearl_sfx_snapshot_ui_panel_failure_out
+Play_pearl_sfx_snapshot_ui_panel_get_ready
+Play_pearl_sfx_snapshot_ui_panel_go_in
+Play_pearl_sfx_snapshot_ui_panel_go_out
+Play_pearl_sfx_snapshot_ui_panel_success_in
+Play_pearl_sfx_snapshot_ui_panel_success_out
+Play_pearl_sfx_wrapper_game_list_mixer_end
+Play_rewind_sfx
+Play_wrapper_game_list_mixer_aticatac
+Play_wrapper_game_list_mixer_banjokazooie
+Play_wrapper_game_list_mixer_banjotooie
+Play_wrapper_game_list_mixer_battletoads
+Play_wrapper_game_list_mixer_blastcorps
+Play_wrapper_game_list_mixer_cobratriangle
+Play_wrapper_game_list_mixer_conkersbadfurday
+Play_wrapper_game_list_mixer_diggertrock
+Play_wrapper_game_list_mixer_grabbedbytheghoulies
+Play_wrapper_game_list_mixer_gunfright
+Play_wrapper_game_list_mixer_jetforcegemini
+Play_wrapper_game_list_mixer_jetpac
+Play_wrapper_game_list_mixer_jetpacrefuelled
+Play_wrapper_game_list_mixer_kameo
+Play_wrapper_game_list_mixer_killerinstinctgold
+Play_wrapper_game_list_mixer_knightlore
+Play_wrapper_game_list_mixer_lunarjetman
+Play_wrapper_game_list_mixer_perfectdark
+Play_wrapper_game_list_mixer_perfectdarkzero
+Play_wrapper_game_list_mixer_rcproam
+Play_wrapper_game_list_mixer_rcproamii
+Play_wrapper_game_list_mixer_sabrewulf
+Play_wrapper_game_list_mixer_slalom
+Play_wrapper_game_list_mixer_snakerattlenroll
+Play_wrapper_game_list_mixer_solarjetman
+Play_wrapper_game_list_mixer_vivapinata
+Play_wrapper_game_list_mixer_vivapinatatroubleinparadise
+Play_wrapper_stamps_gui_stamp_in
+Play_wrapper_stamps_gui_stamp_out
+Stop_bink_audio_in
+Stop_rewind_sfx
+# 40249461
+# 49300049
+# 77606120
+# 191200600
+# 198236700
+# 257253225
+# 287336246
+# 470487729
+# 572156760
+# 697438136
+# 801924793
+# 884906863
+# 944829064
+# 961878968
+# 980993097
+# 1356290131
+# 1383937880
+# 1420431821
+# 1442412748
+# 1458571973
+# 1534799419
+# 1682612261
+# 1865807889
+# 2056315972
+# 2142936580
+# 2189767367
+# 2326752082
+# 2617609615
+# 2756206950
+# 2823477645
+# 3174948950
+# 3187025087
+# 3208059474
+# 3229905788
+# 3314428071
+# 3335523857
+# 3462036123
+# 3560150425
+# 3580457019
+# 3598855960
+# 3599317841
+# 3610160542
+# 3626310317
+# 3662317764
+# 3728434027
+# 3773828928
+# 4075148653
+# 4110610473
+# 4160398607
+# 4261497927
+
+### EVENT NAMES (sfx_extras.bnk)
+Play_extra_pearl_sfx_snapshot_score
+Play_extra_pearl_sfx_snapshot_scorecriteria
+Play_extra_pearl_sfx_snapshot_timerunningout
+Stop_extra_pearl_sfx_snapshot_timerunningout
+
+
+
+2508276967  : spectrum_reverb
+4162754106  : credits_level
+1932404161  : Playlists_level
+3105348926  : revealed_level
+3390185678  : FoyerLevel
