@@ -442,13 +442,18 @@ class Words(object):
 
     #--------------------------------------------------------------------------
 
-    def _add_skip(self, line):
+    def _add_skip(self, line, full=False):
         line = line.strip()
         if not line:
             return
         if line.startswith(b'#'):
             return
-        elems = line.split()
+
+        if full:
+            elems = [line]
+        else:
+            elems = line.split()
+
         for elem in elems:
             elem_hashable = elem.lower()
             if not self._fnv.is_hashable(elem_hashable):
@@ -667,8 +672,8 @@ class Words(object):
             if len(line) > 500:
                 continue
 
-            line = line.strip(b'\r')
             line = line.strip(b'\n')
+            line = line.strip(b'\r')
             if not line:
                 continue
 
@@ -690,6 +695,10 @@ class Words(object):
             # games like Death Stranding somehow have spaces in their names
             if self._args.join_spaces:
                 line = line.replace(b' ', b'_')
+
+            # when parsing wwnames we may skip the full line
+            if self._parsing_wwnames:
+                self._add_skip(line, full=True)
 
             elems = self.PATTERN_LINE.split(line)
             for elem in elems:
