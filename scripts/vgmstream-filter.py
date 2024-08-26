@@ -364,7 +364,7 @@ class App(object):
             except subprocess.CalledProcessError as e:
                 log.debug("ignoring CLI error in %s: %s", filename_in, str(e.output))
                 total_errors += 1
-                break
+                continue
 
             filter = CliFilter(self.args, output_b, basename_in)
 

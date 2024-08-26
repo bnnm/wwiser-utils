@@ -467,7 +467,7 @@ static void print_usage(const char* name) {
             "       List greatly improves speed and results but may skip valid names\n"
             "       (try disabling if no proper names are found for smaller variables)\n"
             "    -t: print letter text info (when using high max characters)\n"
-            "    -n: treat input as names and prints FNV IDs\n"
+            "    -n: treat input as names and prints FNV IDs (32-bit)\n"
             "    -h: show this help\n"
             ,
             (sizeof(void*) >= 8 ? "64-bit" : "32-bit"),
@@ -637,6 +637,13 @@ static void reverse_names(fnv_config* cfg) {
             char c = tolower(name[i]);
             hash = (hash * 16777619) ^ (uint8_t)c;
         }
+
+#if 0
+        if (cfg->reverse_names_30b) {
+            uint32_t mask = (1U << 30) - 1;
+            hash = (hash >> 30) ^ (mask & hash);
+        }
+#endif
 
         printf("%s: %u / 0x%x\n", name, hash, hash);
         //printf("%u: \"%s\",\n", hash, name);
