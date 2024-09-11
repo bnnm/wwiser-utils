@@ -1,0 +1,2457 @@
+
+### BANK NAMES
+Default
+Default_Language
+Init
+SB_Adaro
+SB_Altar
+SB_Ape_Gargoyle
+SB_Banshee
+SB_Barghest
+SB_Big_Spider
+SB_Black_Queen
+SB_Boss_Griffon
+SB_Capilli
+SB_Crepusculum
+SB_Deamon_Gargoyle
+SB_Eagle_Gargoyle
+SB_Flooded_Lands
+SB_Forest
+SB_Forgotten_Tower
+SB_Gester
+SB_Gollem
+SB_Leviathan
+SB_Medusa
+SB_Minotaure
+SB_Moon_Palace
+SB_Munuane
+SB_Oengus
+SB_Orgre
+SB_Pesta
+SB_Piscean_Girl
+SB_Plains
+SB_Prison_Guard_Large
+SB_Prison_Guard_Medium
+SB_robert
+SB_Rock_Monster
+SB_Spider_Large
+SB_Statues
+SB_Sun_Palace
+SB_The_Well
+SB_Tree_Archer
+SB_TreeGolem
+SB_Troll
+SB_Trunk
+# 1020780623
+# 3444163715
+# 4033034585
+# 840401003
+
+### BUS NAMES
+Ambiance_Master
+Aux_Bus
+Col_Cave_Reverb
+Col_Fight_Reverb
+Cutscene
+Fight
+Fight_Master
+Fight_Win
+Flute
+Foley
+Footstep
+HUD
+Jingle
+Master Audio Bus = 0
+Master Secondary Bus = 0
+Master_Music
+Master_SFX
+Music
+Music_Vision
+SFX
+# 2131508494
+# 487146207
+# 1041209784
+# 1641030392
+# 2296607431
+# 2737119616
+
+### SFX NAMES (1355168291.bnk: Init)
+Col_Cave
+
+### BASE RTPC/GAME-VARIABLE NAMES (1355168291.bnk: Init)
+Accel
+AccelX
+AccelY
+Ambience_Fade_In
+Music_Volume
+Sound_Volume
+Speed
+SpeedX
+SpeedY
+Timer_Speed
+# 3755581830
+
+### RTPC/GAME-VARIABLE NAMES (1355168291.bnk: Init)
+AccelY
+Ambience_Fade_In
+Music_Volume
+Sound_Volume
+
+### VARIABLE NAMES (1355168291.bnk: Init)
+MU_Fight_State
+Music_State
+Music_Village
+# 1169574841
+
+### VALUE NAMES (1355168291.bnk: Init)
+Fight
+Fight_Intro
+
+### EVENT NAMES (1020780623.bnk)
+# 2099567094
+# 2345813068
+# 2528958810
+# 3257635776
+# 3391883040
+# 3391883043
+
+### EVENT NAMES (3444163715.bnk)
+# 198856161
+# 449086076
+# 838386706
+# 1245020351
+# 2359792916
+# 2361703133
+# 2748340929
+# 2849229584
+# 2899405313
+# 3626191396
+# 4035176617
+# 4223419173
+
+### EVENT NAMES (4033034585.bnk)
+# 332295208
+# 334418525
+# 1644675567
+# 1760971586
+# 2363887011
+# 3123574769
+# 3736041326
+# 3753545448
+# 4229634231
+
+### EVENT NAMES (840401003.bnk)
+Play_SFX_Spider_Fight_Attack_Basic
+Play_SFX_Spider_Fight_Attack_Poison
+Play_SFX_Spider_Fight_Blinded
+Play_SFX_Spider_Fight_Death
+Play_SFX_Spider_Fight_Dodge
+Play_SFX_Spider_Fight_Hit
+Play_SFX_Spider_nav_Blinded
+# 724356635
+# 883304128
+# 3128318085
+# 3866405591
+
+### EVENT NAMES (782826392.bnk: Default)
+Default_SFX_Boss_Crepusculum_Dodge #ko
+Enter_Loading_Screen
+Enter_Pause_Menu
+Enter_Start_Screen
+Enter_Vision
+Exit_Navigation
+Exit_Pause_Menu
+Exit_Vision
+Play_AMB_Bolmus_village
+Play_AMB_Bolmus_village_Market
+Play_AMB_Cam_Shake_Cave
+Play_AMB_Eastern_Tower_LP
+Play_AMB_Eastern_Tower_Top_LP
+Play_AMB_Elevator_LP
+Play_AMB_Flooded_Lands_Inside_House_LP
+Play_AMB_Flooded_Lands_LP
+Play_AMB_Forgotten_Tower_dome_LP
+Play_AMB_Forgotten_Tower_Main_LP
+Play_AMB_Moon_Palace_Garden_LP
+Play_AMB_Moon_Palace_LP
+Play_AMB_Moon_Palace_Top_LP
+Play_AMB_Plains_Inside_House_LP
+Play_AMB_Plains_LP
+Play_AMB_Rain_Flooded_LP
+Play_AMB_Rain_LP
+Play_AMB_Rope_Creaks
+Play_AMB_Singing_Crow
+Play_AMB_Stone_Giant_Main_Small_Rooms
+Play_AMB_Sun_Palace_Main_LP
+Play_AMB_Treasure_Room
+Play_AMB_Village_Signs_Squeaks
+Play_Cin010_Cs_Stepmother_Part1
+Play_Cin010_Cs_Stepmother_Part2
+Play_CIN020_IG_MoonPalace
+Play_CIN200_CS_ChapterEnd
+Play_CS_Fight_Forest_Intro
+Play_CS_Fight_well_Intro
+Play_CS_R03_P03_q02_Cin020_Seq_Largefireflysummoning
+Play_Music
+Play_R01d02_Cin062_Cs_SaveLemuria3_Part1
+Play_R01d02_Cin062_Cs_SaveLemuria3_Part2
+Play_R03d01_Cin040_Cs_UmbraAppears_Part1
+Play_R03d01_Cin040_Cs_UmbraAppears_Part2
+Play_R03d01_Cin040_Cs_UmbraAppears_Part3
+Play_R03d01_Cin040_Cs_UmbraAppears_Part4
+Play_Rune_Back
+Play_Rune_Equip
+Play_Rune_Select
+Play_SFX_Adaro_Fight_Attack_Basic
+Play_SFX_Adaro_Fight_Attack_Blinded
+Play_SFX_Adaro_Fight_Attack_Charge
+Play_SFX_Adaro_Fight_Attack_Paralyse
+Play_SFX_Adaro_Fight_Death
+Play_SFX_Adaro_Fight_Dodge
+Play_SFX_Adaro_Fight_Flying
+Play_SFX_Adaro_Fight_Hit
+Play_SFX_Adaro_Fight_Preparation_To_Fight
+Play_SFX_Adaro_Fight_Spell_Heal
+Play_SFX_Add_Item
+Play_SFX_Ape_Gargoyle_Fight_Attack_01
+Play_SFX_Ape_Gargoyle_Fight_Attack_02
+Play_SFX_Ape_Gargoyle_Fight_Blinded
+Play_SFX_Ape_Gargoyle_Fight_Death
+Play_SFX_Ape_Gargoyle_Fight_Dodge
+Play_SFX_Ape_Gargoyle_Fight_Hit
+Play_SFX_Ape_Gargoyle_nav_Charge
+Play_SFX_Aurora_15_Drinking_Potion
+Play_SFX_Aurora_15_Fight_Death
+Play_SFX_Aurora_15_Fight_Defense_Hit
+Play_SFX_Aurora_15_Fight_Defense_Start
+Play_SFX_Aurora_15_Fight_Dodge
+Play_SFX_Aurora_15_Fight_Preparation_To_Fight
+Play_SFX_Aurora_15_Fight_Slash
+Play_SFX_Aurora_15_Fight_Slash_All
+Play_SFX_Aurora_15_Fight_Spell_Fly
+Play_SFX_Aurora_15_Fight_win
+Play_SFX_Aurora_15_Hit
+Play_SFX_Aurora_Cast_Spell
+Play_SFX_Aurora_Fight_Death
+Play_SFX_Aurora_Fight_Dodge
+Play_SFX_Aurora_Fight_earth
+Play_SFX_Aurora_Fight_earth_All
+Play_SFX_Aurora_Fight_earth_impact
+Play_SFX_Aurora_Fight_Flee
+Play_SFX_Aurora_Fight_Hit
+Play_SFX_Aurora_Fight_Hit_Defend
+Play_SFX_Aurora_Fight_Hit_Electric
+Play_SFX_Aurora_Fight_Hit_Fast
+Play_SFX_Aurora_Fight_Hit_Fire
+Play_SFX_Aurora_Fight_Preparation_To_Fight
+Play_SFX_Aurora_Fight_Slash_All
+Play_SFX_Aurora_Fight_Slash_Attack
+Play_SFX_Aurora_Fight_Slash_Attack_Fast
+Play_SFX_Aurora_Fight_Win
+Play_SFX_Aurora_nav_Hit
+Play_SFX_Banshee_Fight_Absorbs
+Play_SFX_Banshee_Fight_Blinded
+Play_SFX_Banshee_Fight_Death
+Play_SFX_Banshee_Fight_Dodge
+Play_SFX_Banshee_Fight_Flying
+Play_SFX_Banshee_Fight_Hit
+Play_SFX_Banshee_Fight_Screaming
+Play_SFX_Banshee_nav_alert
+Play_SFX_banshee_nav_Charge
+Play_SFX_Barghest_Fight_Attack_Basic
+Play_SFX_Barghest_Fight_Attack_Reduce_Speed
+Play_SFX_Barghest_Fight_Attack_Strong
+Play_SFX_Barghest_Fight_Blinded
+Play_SFX_Barghest_Fight_Charge
+Play_SFX_Barghest_Fight_Death
+Play_SFX_Barghest_Fight_Dodge
+Play_SFX_Barghest_Fight_Hit
+Play_SFX_Barghest_nav_alert
+Play_SFX_Barghest_nav_Charge
+Play_SFX_Boss_Big_Spider_Fight_Attack_Slowdown
+Play_SFX_Boss_Big_Spider_Fight_Attack_Strong
+Play_SFX_Boss_Big_Spider_Fight_Basic_Attack
+Play_SFX_Boss_Big_Spider_Fight_Blinded
+Play_SFX_Boss_Big_Spider_Fight_Charge
+Play_SFX_Boss_Big_Spider_Fight_Death
+Play_SFX_Boss_Big_Spider_Fight_Dodge
+Play_SFX_Boss_Big_Spider_Fight_Hit
+Play_SFX_Boss_Big_Spider_Fight_Resurect
+Play_SFX_Boss_Crepusculum_Attack_Basic
+Play_SFX_Boss_Crepusculum_Attack_Charge
+Play_SFX_Boss_Crepusculum_Blinded
+Play_SFX_Boss_Crepusculum_Dark_Spell
+Play_SFX_Boss_Crepusculum_Death
+Play_SFX_Boss_Crepusculum_Dodge
+Play_SFX_Boss_Crepusculum_Hit
+Play_SFX_Boss_Crepusculum_Spell_Buff
+Play_SFX_Boss_Crepusculum_Spell_Paralyse
+Play_SFX_Boss_Griffon_Fight_Antidote
+Play_SFX_Boss_Griffon_Fight_Blinded
+Play_SFX_Boss_Griffon_Fight_Charge
+Play_SFX_Boss_Griffon_Fight_Claw
+Play_SFX_Boss_Griffon_Fight_Death
+Play_SFX_Boss_Griffon_Fight_Dodge
+Play_SFX_Boss_Griffon_Fight_Flames_Basic
+Play_SFX_Boss_Griffon_Fight_Flames_Strong
+Play_SFX_Boss_Griffon_Fight_Hit
+Play_SFX_boss_statue_intro
+Play_SFX_Bubbles_Large
+Play_SFX_Bubbles_Medium
+Play_SFX_Bubbles_Small
+Play_SFX_Capilli_Fight_Basic_Attack
+Play_SFX_Capilli_Fight_Basic_dmA
+Play_SFX_Capilli_Fight_Basic_dmB
+Play_SFX_Capilli_Fight_Basic_dmC
+Play_SFX_Capilli_Fight_Death
+Play_SFX_Capilli_Fight_Defense
+Play_SFX_Capilli_Fight_Dodge
+Play_SFX_Capilli_Fight_Going_Back_To_Life
+Play_SFX_Capilli_Fight_Hit
+Play_SFX_Capilli_Fight_Hit_Defense
+Play_SFX_Capilli_Fight_Spell_Attack
+Play_SFX_Capilli_Fight_Spell_Heal
+Play_SFX_Capilli_Fight_Win_Fight
+Play_SFX_Capilli_Shovel
+Play_SFX_Chest_Open
+Play_SFX_crab_jump
+Play_SFX_crab_walk
+Play_SFX_Craft_Rune
+Play_SFX_Crow_Flap
+Play_SFX_Crow_Snore
+Play_SFX_demon_Gargoyle_Fight_Attack_Basic
+Play_SFX_demon_Gargoyle_Fight_Attack_Strong
+Play_SFX_demon_Gargoyle_Fight_Blinded
+Play_SFX_demon_Gargoyle_Fight_Charge_Up
+Play_SFX_demon_Gargoyle_Fight_Death
+Play_SFX_demon_Gargoyle_Fight_Dodge
+Play_SFX_demon_Gargoyle_Fight_Hit
+Play_SFX_demon_Gargoyle_nav_Charge
+Play_SFX_Dust_Debris
+Play_SFX_eagle_Gargoyle_Fight_Attack_01
+Play_SFX_eagle_Gargoyle_Fight_Blinded
+Play_SFX_eagle_Gargoyle_Fight_Death
+Play_SFX_eagle_Gargoyle_Fight_Dodge
+Play_SFX_eagle_Gargoyle_Fight_Hit
+Play_SFX_eagle_Gargoyle_nav_Charge
+Play_SFX_Electric_Sparks
+Play_SFX_Electric_Sparks_Rnd
+Play_SFX_Fight_Boss_fire_medusa_Death
+Play_SFX_Fight_boss_medusa_Attack_Basic
+Play_SFX_Fight_boss_medusa_Attack_Paralyse
+Play_SFX_Fight_boss_medusa_Blinded
+Play_SFX_Fight_boss_medusa_Death
+Play_SFX_Fight_boss_medusa_Dodge
+Play_SFX_Fight_boss_medusa_Hit
+Play_SFX_Fight_boss_statue_Attack_Charge
+Play_SFX_Fight_boss_statue_Attack_Pushback
+Play_SFX_Fight_boss_statue_Attack_Strong
+Play_SFX_Fight_boss_statue_Blinded
+Play_SFX_Fight_boss_statue_Death
+Play_SFX_Fight_boss_statue_Dodge
+Play_SFX_Fight_boss_statue_Hit
+Play_SFX_Fight_boss_statue_Spell_Attack
+Play_SFX_Fight_boss_statue_Spell_Heal
+Play_SFX_Fight_Boss_water_medusa_Attack_Basic
+Play_SFX_Fight_Boss_water_medusa_Death
+Play_SFX_Fight_Charge_Up
+Play_SFX_Fight_Charge_Up_01
+Play_SFX_Fight_Leviathan_Death
+Play_SFX_Fight_Leviathan_Dodge
+Play_SFX_Fight_Leviathan_fight_intro
+Play_SFX_Fight_Leviathan_Hit
+Play_SFX_Fight_robert_attack_arrow
+Play_SFX_Fight_robert_attack_arrow_all
+Play_SFX_Fight_robert_Death
+Play_SFX_Fight_robert_Defense
+Play_SFX_Fight_robert_Defense_Hit
+Play_SFX_Fight_robert_Dodge
+Play_SFX_Fight_robert_Drinking_Potion
+Play_SFX_Fight_robert_Going_Back_To_Life
+Play_SFX_Fight_robert_Hit
+Play_SFX_Fight_robert_Preparation_To_Fight
+Play_SFX_Fight_robert_spell_antidote
+Play_SFX_Fight_robert_spell_antidote_all
+Play_SFX_Fight_robert_spell_arrow_drain
+Play_SFX_Fight_robert_spell_slow_arrow
+Play_SFX_Fight_robert_spell_slow_arrow_all
+Play_SFX_Fight_robert_win_Battle
+Play_SFX_Fight_Start_Negative
+Play_SFX_Fish_jump
+Play_SFX_Game_Over
+Play_SFX_gester_Fight_Attack_Basic
+Play_SFX_gester_Fight_Attack_Basic_All
+Play_SFX_gester_Fight_Back_To_Life
+Play_SFX_gester_fight_Cast_Spell
+Play_SFX_gester_Fight_Death
+Play_SFX_gester_Fight_Defense
+Play_SFX_gester_Fight_Dodge
+Play_SFX_gester_Fight_Drinking_Potion
+Play_SFX_gester_Fight_Hit
+Play_SFX_gester_Fight_Hit_Defense
+Play_SFX_gester_Fight_win_Battle
+Play_SFX_golem_Fight_Attack_Basic
+Play_SFX_golem_Fight_Attack_Basic_All
+Play_SFX_golem_Fight_Attack_Strong
+Play_SFX_golem_Fight_Attack_Strong_All
+Play_SFX_golem_Fight_Back_To_Life
+Play_SFX_golem_fight_Cast_Spell
+Play_SFX_golem_Fight_Death
+Play_SFX_golem_Fight_Defense
+Play_SFX_golem_Fight_Dodge
+Play_SFX_golem_Fight_Drinking_Potion
+Play_SFX_golem_Fight_Hit
+Play_SFX_golem_Fight_Hit_Defense
+Play_SFX_golem_Fight_win_Battle
+Play_SFX_Griffon_fire_breath
+Play_SFX_Igniculus_Dash
+Play_SFX_Lever_Left_To_Right
+Play_SFX_Lever_Right_To_Left
+Play_SFX_Loading_LP
+Play_SFX_Low_Health
+Play_SFX_medusa_earth_breath
+Play_SFX_medusa_fire_breath
+Play_SFX_medusa_Paralyse_breath
+Play_SFX_medusa_Water_breath
+Play_SFX_Minotaure_nav_alert
+Play_SFX_Moving_Bucket
+Play_SFX_Munuane_Fight_Attack_Basic
+Play_SFX_Munuane_Fight_Attack_Charge
+Play_SFX_Munuane_Fight_Attack_Strong
+Play_SFX_Munuane_Fight_Blinded
+Play_SFX_Munuane_Fight_Death
+Play_SFX_Munuane_Fight_Dodge
+Play_SFX_Munuane_Fight_Flying
+Play_SFX_Munuane_Fight_Haste
+Play_SFX_Munuane_Fight_Hit
+Play_SFX_Munuane_nav_alert
+Play_SFX_Munuane_nav_Charge
+Play_SFX_Nox_Fight_Slash_All
+Play_SFX_Nox_Win_Fight
+Play_SFX_Oengus_Fight_Attack_Basic
+Play_SFX_Oengus_Fight_Attack_Basic_All
+Play_SFX_Oengus_Fight_Attack_Charge
+Play_SFX_Oengus_Fight_Attack_Strong
+Play_SFX_Oengus_Fight_Attack_Strong_All
+Play_SFX_Oengus_Fight_Back_To_Life
+Play_SFX_Oengus_Fight_Death
+Play_SFX_Oengus_Fight_Defense
+Play_SFX_Oengus_Fight_Dodge
+Play_SFX_Oengus_Fight_Drinking_Potion
+Play_SFX_Oengus_Fight_Hit
+Play_SFX_Oengus_Fight_Hit_Defense
+Play_SFX_Oengus_Fight_Spell_Agro
+Play_SFX_Oengus_Fight_Spell_Titan_Armor
+Play_SFX_Oengus_Fight_win_Battle
+Play_SFX_Ogre_Fight_Attack_Basic
+Play_SFX_Ogre_Fight_Attack_Charge
+Play_SFX_Ogre_Fight_Attack_Powerful
+Play_SFX_Ogre_Fight_Attack_Pushback
+Play_SFX_Ogre_Fight_Blinded
+Play_SFX_Ogre_Fight_Death
+Play_SFX_Ogre_Fight_Dodge
+Play_SFX_Ogre_Fight_Hit
+Play_SFX_Pesta_Fight_Attack_Basic
+Play_SFX_Pesta_Fight_Attack_Strong
+Play_SFX_Pesta_Fight_Blinded
+Play_SFX_Pesta_Fight_Death
+Play_SFX_Pesta_Fight_Dodge
+Play_SFX_Pesta_Fight_Flying
+Play_SFX_Pesta_Fight_Hit
+Play_SFX_Pop_Up
+Play_SFX_Prison_Guard_Large_Fight_Attack_Basic
+Play_SFX_Prison_Guard_Large_Fight_Attack_Charge
+Play_SFX_Prison_Guard_Large_Fight_Attack_Spell
+Play_SFX_Prison_Guard_Large_Fight_Attack_Strong
+Play_SFX_Prison_Guard_Large_Fight_Blinded
+Play_SFX_Prison_Guard_Large_Fight_Death
+Play_SFX_Prison_Guard_Large_Fight_Dodge
+Play_SFX_Prison_Guard_Large_Fight_Hit
+Play_SFX_Prison_Guard_Large_Fight_walk
+Play_SFX_prison_guard_large_nav_alert
+Play_SFX_prison_guard_Large_nav_Charge
+Play_SFX_Prison_Guard_Medium_Fight_Attack_Basic
+Play_SFX_Prison_Guard_Medium_Fight_Blinded
+Play_SFX_Prison_Guard_Medium_Fight_Death
+Play_SFX_Prison_Guard_Medium_Fight_Dodge
+Play_SFX_Prison_Guard_Medium_Fight_Hit
+Play_SFX_Prison_Guard_Medium_Fight_Spell_Armor
+Play_SFX_Prison_Guard_Medium_Fight_walk
+Play_SFX_prison_guard_medium_nav_alert
+Play_SFX_prison_guard_medium_nav_Charge
+Play_SFX_Rock_Monster_Fight_Attack_Basic
+Play_SFX_Rock_Monster_Fight_Attack_Charge
+Play_SFX_Rock_Monster_Fight_Attack_Strong
+Play_SFX_Rock_Monster_Fight_Blinded
+Play_SFX_Rock_Monster_Fight_Death
+Play_SFX_Rock_Monster_Fight_Dodge
+Play_SFX_Rock_Monster_Fight_Hit
+Play_SFX_Rope_Creaks
+Play_SFX_Rope_Creaks_Pendulum
+Play_SFX_SFX_Banshee_Fight_Flying_P4_Traps_UpDown_09
+Play_SFX_Spider_Fight_Attack_Basic
+Play_SFX_Spider_Fight_Attack_Poison
+Play_SFX_Spider_Fight_Blinded
+Play_SFX_Spider_Fight_Death
+Play_SFX_Spider_Fight_Dodge
+Play_SFX_Spider_Fight_Hit
+Play_SFX_Spider_Large_Fight_Attack_Basic
+Play_SFX_Spider_Large_Fight_Attack_Melee_Basic
+Play_SFX_Spider_Large_Fight_Attack_Melee_Strong
+Play_SFX_Spider_Large_Fight_Attack_Paralyse
+Play_SFX_Spider_Large_Fight_Blinded
+Play_SFX_Spider_Large_Fight_Charge
+Play_SFX_Spider_Large_Fight_Death
+Play_SFX_Spider_Large_Fight_Dodge
+Play_SFX_Spider_Large_Fight_Hit
+Play_SFX_Spider_Large_Fight_Spell_Haste
+Play_SFX_Spider_nav_Blinded
+Play_SFX_Squeak_Cage
+Play_SFX_Text_Bubble
+Play_SFX_Text_Negative
+Play_SFX_Text_PressStart
+Play_SFX_TreeArcher_Blinded
+Play_SFX_TreeArcher_Fight_Alert
+Play_SFX_TreeArcher_Fight_Attack_Basic
+Play_SFX_TreeArcher_Fight_Attack_Charge
+Play_SFX_TreeArcher_Fight_Attack_Strong
+Play_SFX_TreeArcher_Fight_Death
+Play_SFX_TreeArcher_Fight_Dodge
+Play_SFX_TreeArcher_Fight_Hit
+Play_SFX_TreeArcher_nav_Attack
+Play_SFX_TreeGolem_Fight_Attack_Basic
+Play_SFX_TreeGolem_Fight_Attack_Basic_2
+Play_SFX_TreeGolem_Fight_Blinded
+Play_SFX_TreeGolem_Fight_Charge_Up
+Play_SFX_TreeGolem_Fight_Death
+Play_SFX_TreeGolem_Fight_Hit
+Play_SFX_Troll_Fight_Attack_Basic
+Play_SFX_Troll_Fight_Attack_Strong
+Play_SFX_Troll_Fight_Blinded
+Play_SFX_Troll_Fight_Death
+Play_SFX_Troll_Fight_Dodge
+Play_SFX_Troll_Fight_Hit
+Play_SFX_Troll_nav_alert
+Play_SFX_Trunk_Fight_Attack_Basic
+Play_SFX_Trunk_Fight_Blinded
+Play_SFX_Trunk_Fight_Charge
+Play_SFX_Trunk_Fight_Death
+Play_SFX_Trunk_Fight_Dodge
+Play_SFX_Trunk_Fight_Hit
+Play_SFX_Trunk_Fight_Preparation_To_Fight
+Play_SFX_Trunk_Fight_Spell_Robber_Bees
+Play_SFX_Trunk_nav_alert
+Play_SFX_Trunk_nav_Charge
+Play_SFX_Village_Door_Enter
+Play_SFX_Village_Door_Locked
+Play_SFX_Village_Door_Stone_Enter
+Play_SFX_Village_Door_Stone_Locked
+Play_SFX_Waterfall_Medium_LP
+Play_SFX_Waterfall_Small_LP
+Play_Silence
+Set_State_Action_Music_Percs
+Set_State_Aurora_Flute_Long
+Set_State_Aurora_Flute_Medium
+Set_State_Aurora_Flute_Short
+Set_State_Aurora_Glorius_Cello_Navigation
+Set_State_Aurora_Glorius_Cello_Theme
+Set_State_Aurora_Glorius_Flute
+Set_State_Aurora_Glorius_Navigation
+Set_State_Aurora_Glorius_Plains_Intro
+Set_State_Aurora_Glorius_Theme
+Set_State_Aurora_Navigation
+Set_State_Aurora_Short_Altar_Intro
+Set_State_Aurora_Slow_Cello
+Set_State_Aurora_Slow_Short
+Set_State_Aurora_Slow_Theme
+Set_State_Aurora_Theme_Full_LP
+Set_State_Aurora_Theme_Full_Navigation
+Set_State_Aurora_Theme_Full_Oneshot
+Set_State_Aurora_Theme_Main_Menu
+Set_State_Aurora_Theme_Notes
+Set_State_Aurora_Theme_Notes_No_Silence
+Set_State_Aurora_Theme_Piano
+Set_State_Aurora_Theme_Piano_CrystallHalls
+Set_State_Aurora_Theme_Piano_CrystallHalls_Navigation
+Set_State_Aurora_Theme_Piano_Navigation
+Set_State_Black_Queen_Cello
+Set_State_Black_Queen_Notes
+Set_State_Black_Queen_Piano
+Set_State_Black_Queen_Theme
+Set_State_Black_Queen_Theme_Full_Navigation
+Set_State_Bolmus_Village
+Set_State_Boss_Fight_1
+Set_State_Boss_Fight_1_MiniBoss
+Set_State_Boss_Fight_2
+Set_State_Boss_Fight_2_Piano_Navigation
+Set_State_Boss_Fight_3
+Set_State_Boss_Fight_Win
+Set_State_Capilli_Village
+Set_State_Capilli_Village_Cello
+Set_State_Cave
+Set_State_End_Credit
+Set_State_Fade_Out_12sec
+Set_State_Fade_Out_15sec
+Set_State_Fade_Out_3sec
+Set_State_Fade_Out_6sec
+Set_State_Fade_Out_8sec
+Set_State_Fight_Flooded_Land
+Set_State_Fight_Forest
+Set_State_Fight_Plains
+Set_State_Fight_Win
+Set_State_Flooded_Land_Dungeon_Navigation
+Set_State_Flooded_Land_Dungeon_Oneshot
+Set_State_Flooded_Land_Navigation
+Set_State_Flooded_Land_Notes
+Set_State_Flooded_Land_Notes_No_Silence
+Set_State_Flooded_Land_Theme
+Set_State_Flooded_Land_Theme_Oneshot
+Set_State_Forest_Dungeon_Navigation
+Set_State_Forest_Dungeon_Oneshot
+Set_State_Forest_Navigation
+Set_State_Forest_Notes
+Set_State_Forest_Notes_No_Silence
+Set_State_Forgotten_Tower_Theme
+Set_State_Forgotten_Tower_Theme_Short
+Set_State_Giant_Cin
+Set_State_Plains_Dungeon_Cello_Navigation
+Set_State_Plains_Dungeon_Cello_Oneshot
+Set_State_Plains_Dungeon_Navigation
+Set_State_Plains_Dungeon_Notes
+Set_State_Plains_Dungeon_Theme
+Set_State_Plains_Navigation
+Set_State_Plains_Notes
+Set_State_Plains_Notes_No_Silence
+Set_State_Plains_Theme
+Stop_AMB_Bolmus_village
+Stop_AMB_Bolmus_Village_Market
+Stop_AMB_Eastern_Tower_LP
+Stop_AMB_Eastern_Tower_Top_LP
+Stop_AMB_Elevator_LP
+Stop_AMB_Flooded_Lands_Inside_House_LP
+Stop_AMB_Flooded_Lands_LP
+Stop_AMB_Forgotten_Tower_dome_LP
+Stop_AMB_Forgotten_Tower_Main_LP
+Stop_AMB_Moon_Palace_Garden_LP
+Stop_AMB_Moon_Palace_LP
+Stop_AMB_Moon_Palace_Top_LP
+Stop_AMB_Plains_Inside_House_LP
+Stop_AMB_Plains_LP
+Stop_AMB_Plains_LP_streams
+Stop_AMB_Rain_Flooded_LP
+Stop_AMB_Rain_LP
+Stop_AMB_Rope_Creaks
+Stop_AMB_Singing_Crow
+Stop_AMB_Stone_Giant_Main_Small_Rooms
+Stop_AMB_Sun_Palace_Main_LP
+Stop_AMB_Treasure_Room
+Stop_AMB_Village_Signs_Squeaks
+Stop_MU_global
+Stop_SFX_Bubbles_Large
+Stop_SFX_Bubbles_Medium
+Stop_SFX_Bubbles_Small
+Stop_SFX_Crow_Snore
+Stop_SFX_Electric_Sparks
+Stop_SFX_Loading_LP
+Stop_SFX_Moving_Bucket
+Stop_SFX_Rope_Creaks
+Stop_SFX_Rope_Creaks_Pendulum
+Stop_SFX_Squeak_Cage
+Stop_SFX_Waterfall_Medium
+Stop_SFX_Waterfall_Medium_LP
+Stop_SFX_Waterfall_Small_LP
+TreasureChest_Aurora_000
+# 43595553
+# 55977049
+# 60235544
+# 60861612
+# 63823426
+# 64696278
+# 75121603
+# 79339026
+# 89626721
+# 93606948
+# 97146304
+# 103515759
+# 109778410
+# 114717717
+# 115166597
+# 118429028
+# 125497669
+# 125497670
+# 162281362
+# 174541076
+# 174541092
+# 174541093
+# 174541096
+# 174541097
+# 174541098
+# 174541099
+# 174541101
+# 174541102
+# 174541103
+# 191318687
+# 191764739
+# 192706867
+# 198786952
+# 198856161
+# 200946071
+# 212843500
+# 217222560
+# 218138373
+# 220635299
+# 226040939
+# 226840805
+# 232855063
+# 237031190
+# 237722960
+# 242092595
+# 260974427
+# 266162795
+# 267980871
+# 268126451
+# 272144128
+# 273188388
+# 274367840
+# 276525574
+# 284133911
+# 285208094
+# 303704463
+# 304717413
+# 307726662
+# 310061917
+# 313492625
+# 314989847
+# 316199357
+# 316342882
+# 328308944
+# 330229044
+# 332295208
+# 334309064
+# 334418525
+# 338641477
+# 339272388
+# 342157720
+# 349031395
+# 369439087
+# 371340014
+# 378081826
+# 393157925
+# 395107328
+# 400107827
+# 408405918
+# 419607068
+# 419607071
+# 427014370
+# 427451740
+# 429990603
+# 431023185
+# 431791318
+# 440679120
+# 443254344
+# 445218627
+# 448907191
+# 449086076
+# 451922724
+# 456265841
+# 460833130
+# 461246539
+# 464301735
+# 472351921
+# 476835559
+# 482484214
+# 484264471
+# 493921829
+# 494642730
+# 499013354
+# 503893815
+# 518602579
+# 525543377
+# 536866263
+# 549098482
+# 549233228
+# 552814343
+# 558416308
+# 561420092
+# 569555292
+# 575437145
+# 581587383
+# 585503826
+# 589334030
+# 589604885
+# 592413828
+# 595465088
+# 600176166
+# 600845465
+# 602842014
+# 614251726
+# 614564946
+# 615199205
+# 622341024
+# 622341026
+# 622341027
+# 626392957
+# 638895412
+# 639717098
+# 640458137
+# 641605109
+# 643909032
+# 648829593
+# 660235789
+# 660593939
+# 668865629
+# 675942228
+# 676389552
+# 676389554
+# 676389555
+# 676609994
+# 683174450
+# 689677034
+# 700226287
+# 723711831
+# 724356635
+# 728700568
+# 731926164
+# 759961892
+# 761311915
+# 761323959
+# 762052277
+# 769786486
+# 772565528
+# 773345698
+# 774725094
+# 775660853
+# 787652408
+# 789999048
+# 790255510
+# 790716608
+# 799707397
+# 809761244
+# 824494347
+# 836134584
+# 836648302
+# 838386706
+# 840093475
+# 842959539
+# 860428325
+# 871451220
+# 871918863
+# 873733675
+# 882859888
+# 883304128
+# 886714268
+# 888594567
+# 888625689
+# 925178401
+# 947502910
+# 951259354
+# 958770911
+# 969006449
+# 969403322
+# 977125938
+# 981806437
+# 983612524
+# 999895316
+# 1015791231
+# 1020330748
+# 1023869184
+# 1024758735
+# 1028704110
+# 1032087954
+# 1039665074
+# 1041226593
+# 1048986117
+# 1050049550
+# 1050723473
+# 1053035941
+# 1061257905
+# 1062716009
+# 1065925001
+# 1077530075
+# 1082838733
+# 1090758795
+# 1096371072
+# 1098700236
+# 1107507017
+# 1108316725
+# 1108316726
+# 1108316727
+# 1109074305
+# 1110525841
+# 1112268896
+# 1130857750
+# 1137167388
+# 1143017277
+# 1154877229
+# 1177164704
+# 1185843074
+# 1189051836
+# 1190594604
+# 1192401146
+# 1196276271
+# 1208252719
+# 1216118206
+# 1222364760
+# 1223534340
+# 1226336013
+# 1227587095
+# 1228317509
+# 1228903780
+# 1245020351
+# 1251821799
+# 1253356703
+# 1255093049
+# 1270225818
+# 1272531848
+# 1272531849
+# 1272531850
+# 1278184924
+# 1284767997
+# 1287805141
+# 1288383697
+# 1288994501
+# 1294476906
+# 1317299872
+# 1319148374
+# 1321191771
+# 1331879633
+# 1334114816
+# 1338190336
+# 1341776037
+# 1343262613
+# 1345906606
+# 1350150801
+# 1353267564
+# 1355083232
+# 1357654062
+# 1359561388
+# 1362638696
+# 1368931884
+# 1370259448
+# 1392353621
+# 1393118388
+# 1398239845
+# 1412543984
+# 1420019318
+# 1421727354
+# 1422299644
+# 1427033715
+# 1431544818
+# 1435636200
+# 1439052747
+# 1453479936
+# 1454421901
+# 1454509917
+# 1471888716
+# 1474279365
+# 1479316813
+# 1479316814
+# 1481944956
+# 1492033848
+# 1507941122
+# 1508356332
+# 1509898010
+# 1526417017
+# 1526417018
+# 1526417019
+# 1531030337
+# 1532908760
+# 1535140157
+# 1548163260
+# 1549707683
+# 1554679375
+# 1555791059
+# 1569120963
+# 1569315251
+# 1578874863
+# 1582947059
+# 1596018136
+# 1596136168
+# 1596739114
+# 1617017610
+# 1627664638
+# 1637165296
+# 1637165297
+# 1637165298
+# 1644675567
+# 1645462194
+# 1648777528
+# 1662657614
+# 1668690317
+# 1674215025
+# 1676518015
+# 1681568432
+# 1686594740
+# 1688840231
+# 1689139909
+# 1693084108
+# 1696070005
+# 1697524819
+# 1698042299
+# 1702663110
+# 1703954243
+# 1716052358
+# 1717107170
+# 1718238487
+# 1719831709
+# 1725202328
+# 1728968643
+# 1739516323
+# 1741118337
+# 1748341628
+# 1748649777
+# 1760971586
+# 1762159065
+# 1773266465
+# 1781234905
+# 1799421797
+# 1800779845
+# 1816633470
+# 1816768063
+# 1832859314
+# 1833164498
+# 1839229923
+# 1840053842
+# 1843168142
+# 1848364024
+# 1851798080
+# 1853519682
+# 1865667666
+# 1868738249
+# 1881377437
+# 1888476175
+# 1890251409
+# 1891987618
+# 1894451921
+# 1899043105
+# 1911247074
+# 1911818351
+# 1912812630
+# 1915969549
+# 1919316413
+# 1920719995
+# 1923962789
+# 1923962790
+# 1931228640
+# 1935824875
+# 1940082998
+# 1946355337
+# 1947582735
+# 1950496376
+# 1950586244
+# 1950586245
+# 1950586247
+# 1957890021
+# 1958217089
+# 1959633064
+# 1968337562
+# 1973945341
+# 1973945342
+# 1973945343
+# 1975214355
+# 1977608574
+# 1978934932
+# 1980942812
+# 1980942813
+# 1980942814
+# 1981559121
+# 2007724460
+# 2010152236
+# 2033603673
+# 2048644893
+# 2050959396
+# 2053879792
+# 2068490357
+# 2069678338
+# 2073866412
+# 2080910440
+# 2080910442
+# 2080910443
+# 2082967417
+# 2085504476
+# 2099567094
+# 2110077420
+# 2114340176
+# 2121436694
+# 2131270702
+# 2141942467
+# 2155717600
+# 2156720540
+# 2157251245
+# 2163886898
+# 2168786941
+# 2172165700
+# 2174271068
+# 2176884440
+# 2182371870
+# 2182669472
+# 2183731900
+# 2192403807
+# 2197759163
+# 2201341157
+# 2209598928
+# 2217263551
+# 2223930011
+# 2224048483
+# 2227564982
+# 2234929006
+# 2235685873
+# 2238532985
+# 2246906709
+# 2259953573
+# 2261423289
+# 2263167751
+# 2268917370
+# 2269566567
+# 2278731367
+# 2281013468
+# 2294976592
+# 2294976593
+# 2294976595
+# 2299072233
+# 2299683641
+# 2299749323
+# 2305867972
+# 2306504575
+# 2309926186
+# 2328096519
+# 2335567137
+# 2338770969
+# 2344866248
+# 2345466083
+# 2345813068
+# 2352487273
+# 2359792916
+# 2361703133
+# 2363349753
+# 2363887011
+# 2376116207
+# 2379664541
+# 2379664542
+# 2384490485
+# 2402220303
+# 2403527872
+# 2405234025
+# 2407935794
+# 2412008088
+# 2418942919
+# 2423244573
+# 2432174175
+# 2444934722
+# 2461811424
+# 2462462397
+# 2464695200
+# 2464695201
+# 2464695202
+# 2465704542
+# 2478838421
+# 2479161924
+# 2488566914
+# 2491515794
+# 2501516444
+# 2501516446
+# 2501516447
+# 2506170622
+# 2508840893
+# 2510054911
+# 2517072052
+# 2517072054
+# 2517072055
+# 2524116838
+# 2525685195
+# 2527796517
+# 2528958810
+# 2532579433
+# 2537894400
+# 2537894403
+# 2557155747
+# 2557798123
+# 2562582800
+# 2571121184
+# 2578372399
+# 2602024224
+# 2603246963
+# 2605902730
+# 2610472262
+# 2615061109
+# 2621257836
+# 2623431277
+# 2624448044
+# 2624987028
+# 2627971925
+# 2627971926
+# 2631427550
+# 2637047768
+# 2642816756
+# 2655375267
+# 2659644048
+# 2680273132
+# 2680273135
+# 2680800193
+# 2682701100
+# 2684221685
+# 2687917223
+# 2692432400
+# 2695110352
+# 2703494658
+# 2707991907
+# 2713469227
+# 2715820036
+# 2715820039
+# 2723296240
+# 2726422038
+# 2728859687
+# 2730226406
+# 2731317211
+# 2745379761
+# 2747578296
+# 2748340929
+# 2750874086
+# 2752584907
+# 2755099496
+# 2755099499
+# 2756795686
+# 2759922760
+# 2759922763
+# 2764934103
+# 2767283850
+# 2767394093
+# 2767394094
+# 2769296178
+# 2770555185
+# 2780944143
+# 2789736833
+# 2789736834
+# 2789736835
+# 2795994543
+# 2797402416
+# 2806907600
+# 2811587100
+# 2822850044
+# 2823026806
+# 2825340447
+# 2837681621
+# 2841624188
+# 2844186151
+# 2846233294
+# 2849229584
+# 2853855477
+# 2856805515
+# 2870454981
+# 2878208213
+# 2882440575
+# 2899405313
+# 2900652621
+# 2900876894
+# 2907088039
+# 2908060250
+# 2910020414
+# 2912701491
+# 2912927118
+# 2920206267
+# 2925671421
+# 2936930626
+# 2948048639
+# 2949561219
+# 2951947764
+# 2953512697
+# 2956795737
+# 2994430088
+# 2994430089
+# 2994430091
+# 2995297617
+# 2995297618
+# 2996041475
+# 3001364837
+# 3008977061
+# 3010831825
+# 3011376872
+# 3011376873
+# 3011376874
+# 3014063893
+# 3016351528
+# 3027308753
+# 3028430578
+# 3033549769
+# 3037196571
+# 3041982204
+# 3043041608
+# 3056725054
+# 3059737697
+# 3066127013
+# 3074265081
+# 3077703612
+# 3088018663
+# 3088180925
+# 3089098253
+# 3110254436
+# 3112208810
+# 3112697477
+# 3112697478
+# 3116747331
+# 3117123600
+# 3117123602
+# 3117123603
+# 3117123604
+# 3117123605
+# 3123574769
+# 3125470415
+# 3127020749
+# 3128318085
+# 3128531067
+# 3142005308
+# 3158148812
+# 3162861127
+# 3165231882
+# 3165815510
+# 3169718584
+# 3183546718
+# 3186737019
+# 3192820095
+# 3201484734
+# 3214607568
+# 3220797778
+# 3221547804
+# 3249355346
+# 3253417650
+# 3254377326
+# 3254529238
+# 3257635776
+# 3263309296
+# 3270511127
+# 3271872589
+# 3275975942
+# 3277999855
+# 3290739105
+# 3290869447
+# 3297992885
+# 3301033110
+# 3302828138
+# 3304633581
+# 3304703362
+# 3307466554
+# 3309784865
+# 3318338961
+# 3320696329
+# 3328320141
+# 3329233325
+# 3334932558
+# 3337074605
+# 3338458419
+# 3347650322
+# 3350473736
+# 3352470685
+# 3356828018
+# 3357618057
+# 3369973974
+# 3377072343
+# 3378130074
+# 3381196039
+# 3384101475
+# 3390864607
+# 3391883040
+# 3391883043
+# 3395423242
+# 3396623755
+# 3410936588
+# 3418536656
+# 3423996541
+# 3428809967
+# 3433947799
+# 3434613962
+# 3439115645
+# 3452840424
+# 3456679469
+# 3456679470
+# 3456679471
+# 3464314490
+# 3465344317
+# 3477670554
+# 3492602391
+# 3494422220
+# 3497196229
+# 3501744293
+# 3502230708
+# 3502842603
+# 3505370097
+# 3509551525
+# 3513021530
+# 3518699156
+# 3540221766
+# 3542194359
+# 3544187355
+# 3545061951
+# 3549401354
+# 3564209057
+# 3565620049
+# 3575794138
+# 3581775426
+# 3590457103
+# 3590653175
+# 3590932407
+# 3591476737
+# 3591681052
+# 3601236148
+# 3604440804
+# 3605648287
+# 3606103935
+# 3608683938
+# 3617445488
+# 3618199401
+# 3624351690
+# 3626191396
+# 3630760673
+# 3631234627
+# 3634542289
+# 3635146069
+# 3637981736
+# 3638168190
+# 3641173529
+# 3641385987
+# 3641850980
+# 3645295445
+# 3646816024
+# 3654910035
+# 3659026481
+# 3670195785
+# 3671000262
+# 3708016150
+# 3712148803
+# 3718485024
+# 3727225238
+# 3732188960
+# 3734065909
+# 3736041326
+# 3752897939
+# 3753545448
+# 3756204966
+# 3756407104
+# 3762733135
+# 3768385262
+# 3769456864
+# 3770455467
+# 3781834701
+# 3782472168
+# 3784094967
+# 3785566425
+# 3797516525
+# 3812774438
+# 3828729140
+# 3833154636
+# 3833154637
+# 3833154638
+# 3833863809
+# 3852165289
+# 3859338528
+# 3865340644
+# 3866405591
+# 3868860645
+# 3882684831
+# 3887676466
+# 3894058306
+# 3894661406
+# 3894707071
+# 3895864330
+# 3899702404
+# 3901077361
+# 3909850514
+# 3913424909
+# 3920697449
+# 3924453760
+# 3931667856
+# 3949433997
+# 3951193567
+# 3951613748
+# 3958526732
+# 3984494092
+# 3989171562
+# 3989802871
+# 4001819710
+# 4011496515
+# 4027151262
+# 4032639594
+# 4035176617
+# 4035818912
+# 4036985400
+# 4041194278
+# 4050832159
+# 4056863730
+# 4056863731
+# 4056863732
+# 4056863733
+# 4056863735
+# 4062558000
+# 4063324930
+# 4069264320
+# 4075289924
+# 4088555758
+# 4090228839
+# 4090745317
+# 4092050997
+# 4099749513
+# 4101839800
+# 4104233607
+# 4105860223
+# 4106181437
+# 4106616657
+# 4108063245
+# 4108442684
+# 4111759104
+# 4121252359
+# 4122536163
+# 4125700832
+# 4126867162
+# 4131356298
+# 4138311269
+# 4141607679
+# 4142494817
+# 4155084571
+# 4158750079
+# 4166066243
+# 4168234616
+# 4173364393
+# 4174449080
+# 4177350408
+# 4177350410
+# 4177350411
+# 4187079870
+# 4194181675
+# 4201578115
+# 4204064999
+# 4222206730
+# 4223419173
+# 4229634231
+# 4230992342
+# 4254318934
+# 4265371844
+# 4271479601
+# 4291848427
+# 4292772465
+# 4292772466
+# 4292772467
+
+### TRIGGER NAMES (782826392.bnk: Default)
+# 1329883489
+# 2185473428
+
+### RTPC/GAME-VARIABLE NAMES (782826392.bnk: Default)
+Accel
+Ambience_Fade_In
+Timer_Speed
+# 3755581830
+
+### VARIABLE NAMES (782826392.bnk: Default)
+Music_State
+Rock_Monster
+SW_Griffon
+# 2073050623
+# 825271203
+# 1169574841
+
+### VALUE NAMES (782826392.bnk: Default)
+Action_Music_Percs
+Aurora
+Aurora_Flute_Long
+Aurora_Flute_Medium
+Aurora_Flute_Short
+Aurora_Glorius_Cello_Navigation
+Aurora_Glorius_Cello_Theme
+Aurora_Glorius_Flute
+Aurora_Glorius_Navigation
+Aurora_Glorius_Plains_Intro
+Aurora_Glorius_Theme
+Aurora_Navigation
+Aurora_Short_Altar_Intro
+Aurora_Slow_Cello
+Aurora_Slow_Short
+Aurora_Slow_Theme
+Aurora_Theme_Full_LP
+Aurora_Theme_Full_Navigation
+Aurora_Theme_Full_Oneshot
+Aurora_Theme_Main_Menu
+Aurora_Theme_Notes
+Aurora_Theme_Notes_No_Silence
+Aurora_Theme_Piano
+Aurora_Theme_Piano_CrystallHalls
+Aurora_Theme_Piano_CrystallHalls_Navigation
+Aurora_Theme_Piano_Navigation
+Black_Queen_Cello
+Black_Queen_Notes
+Black_Queen_Piano
+Black_Queen_Theme
+Black_Queen_Theme_Full_Navigation
+Bolmus_Village
+Boss_Fight_1
+Boss_Fight_1_MiniBoss
+Boss_Fight_2
+Boss_Fight_2_HL
+Boss_Fight_2_Piano_Navigation
+Boss_Fight_3
+Boss_Fight_Win
+Boss_Griffon
+Capilli_Village
+Capilli_Village_Cello
+Dirt
+End_Credit
+exploration_cave
+Fade_Out_12sec
+Fade_Out_15sec
+Fade_Out_3sec
+Fade_Out_6sec
+Fade_Out_8sec
+Fight_Flooded_Land
+Fight_Forest
+Fight_Level_Up
+Fight_Loose
+Fight_Plains
+Fight_Win
+Flooded_Land_Dungeon_Navigation
+Flooded_Land_Dungeon_Oneshot
+Flooded_Land_Navigation
+Flooded_Land_Notes
+Flooded_Land_Notes_No_Silence
+Flooded_Land_Theme
+Flooded_Land_Theme_Oneshot
+Forest_Dungeon_Navigation
+Forest_Dungeon_Oneshot
+Forest_Navigation
+Forest_Notes
+Forest_Notes_No_Silence
+Forest_Theme
+Forgotten_Tower_Theme
+Forgotten_Tower_Theme_Short
+Generic_Character
+Giant_Cin
+Grass
+Griffon
+Minotaure
+Normal
+Plains_Dungeon_Cello_Navigation
+Plains_Dungeon_Cello_Oneshot
+Plains_Dungeon_Navigation
+Plains_Dungeon_Notes
+Plains_Dungeon_Theme
+Plains_Navigation
+Plains_Notes
+Plains_Notes_No_Silence
+Plains_Theme
+Stone
+Water
+Wood
+Wood_Character
+# 1719666172
+# 182725649
+# 342019523
+# 811158276
+# 1465891644
+# 1465891647
+# 1521242044
+# 1843993940
+# 2841613040
+# 3849670722
+# 3482724218
+# 2481571375
+# 3892443440
+
+### EVENT NAMES (3968609518.bnk: SB_Adaro)
+Play_SFX_Adaro_Fight_Attack_Basic
+Play_SFX_Adaro_Fight_Attack_Blinded
+Play_SFX_Adaro_Fight_Attack_Charge
+Play_SFX_Adaro_Fight_Attack_Paralyse
+Play_SFX_Adaro_Fight_Death
+Play_SFX_Adaro_Fight_Dodge
+Play_SFX_Adaro_Fight_Flying
+Play_SFX_Adaro_Fight_Hit
+Play_SFX_Adaro_Fight_Preparation_To_Fight
+Play_SFX_Adaro_Fight_Spell_Heal
+
+### EVENT NAMES (1724708115.bnk: SB_Altar)
+Play_R01d02_Cin062_Cs_SaveLemuria3_Part1
+Play_R01d02_Cin062_Cs_SaveLemuria3_Part2
+# 3591476737
+
+### EVENT NAMES (786566518.bnk: SB_Ape_Gargoyle)
+Play_SFX_Ape_Gargoyle_Fight_Attack_01
+Play_SFX_Ape_Gargoyle_Fight_Attack_02
+Play_SFX_Ape_Gargoyle_Fight_Blinded
+Play_SFX_Ape_Gargoyle_Fight_Death
+Play_SFX_Ape_Gargoyle_Fight_Dodge
+Play_SFX_Ape_Gargoyle_Fight_Hit
+Play_SFX_Ape_Gargoyle_nav_Charge
+# 3066127013
+
+### EVENT NAMES (1351033579.bnk: SB_Banshee)
+Play_SFX_Banshee_Fight_Absorbs
+Play_SFX_Banshee_Fight_Blinded
+Play_SFX_Banshee_Fight_Death
+Play_SFX_Banshee_Fight_Dodge
+Play_SFX_Banshee_Fight_Hit
+Play_SFX_Banshee_Fight_Screaming
+Play_SFX_Banshee_nav_alert
+Play_SFX_banshee_nav_Charge
+# 2068490357
+
+### EVENT NAMES (1902123299.bnk: SB_Barghest)
+Play_SFX_Barghest_Fight_Attack_Basic
+Play_SFX_Barghest_Fight_Attack_Reduce_Speed
+Play_SFX_Barghest_Fight_Attack_Strong
+Play_SFX_Barghest_Fight_Blinded
+Play_SFX_Barghest_Fight_Charge
+Play_SFX_Barghest_Fight_Death
+Play_SFX_Barghest_Fight_Dodge
+Play_SFX_Barghest_Fight_Hit
+Play_SFX_Barghest_nav_alert
+Play_SFX_Barghest_nav_Charge
+# 2912927118
+
+### EVENT NAMES (1651252011.bnk: SB_Big_Spider)
+Play_SFX_Boss_Big_Spider_Fight_Attack_Slowdown
+Play_SFX_Boss_Big_Spider_Fight_Attack_Strong
+Play_SFX_Boss_Big_Spider_Fight_Basic_Attack
+Play_SFX_Boss_Big_Spider_Fight_Blinded
+Play_SFX_Boss_Big_Spider_Fight_Charge
+Play_SFX_Boss_Big_Spider_Fight_Death
+Play_SFX_Boss_Big_Spider_Fight_Dodge
+Play_SFX_Boss_Big_Spider_Fight_Hit
+Play_SFX_Boss_Big_Spider_Fight_Resurect
+# 1851798080
+
+### EVENT NAMES (600374029.bnk: SB_Black_Queen)
+# 212843500
+# 1341776037
+# 2033603673
+# 2048644893
+# 2259953573
+# 2508840893
+# 2684221685
+# 2692432400
+# 3263309296
+# 3381196039
+# 3418536656
+# 3708016150
+# 3769456864
+# 3782472168
+# 4075289924
+# 4099749513
+# 4174449080
+
+### EVENT NAMES (3058204484.bnk: SB_Boss_Griffon)
+Play_SFX_Boss_Griffon_Fight_Antidote
+Play_SFX_Boss_Griffon_Fight_Blinded
+Play_SFX_Boss_Griffon_Fight_Charge
+Play_SFX_Boss_Griffon_Fight_Claw
+Play_SFX_Boss_Griffon_Fight_Death
+Play_SFX_Boss_Griffon_Fight_Dodge
+Play_SFX_Boss_Griffon_Fight_Flames_Basic
+Play_SFX_Boss_Griffon_Fight_Flames_Strong
+Play_SFX_Boss_Griffon_Fight_Hit
+Play_SFX_Griffon_fire_breath
+# 242092595
+
+### VARIABLE NAMES (3058204484.bnk: SB_Boss_Griffon)
+SW_Griffon
+
+### VALUE NAMES (3058204484.bnk: SB_Boss_Griffon)
+Boss_Griffon
+Griffon
+
+### EVENT NAMES (1048199525.bnk: SB_Capilli)
+Play_SFX_Capilli_Fight_Basic_Attack
+Play_SFX_Capilli_Fight_Basic_dmA
+Play_SFX_Capilli_Fight_Basic_dmB
+Play_SFX_Capilli_Fight_Basic_dmC
+Play_SFX_Capilli_Fight_Death
+Play_SFX_Capilli_Fight_Defense
+Play_SFX_Capilli_Fight_Dodge
+Play_SFX_Capilli_Fight_Going_Back_To_Life
+Play_SFX_Capilli_Fight_Hit
+Play_SFX_Capilli_Fight_Hit_Defense
+Play_SFX_Capilli_Fight_Spell_Attack
+Play_SFX_Capilli_Fight_Spell_Heal
+Play_SFX_Capilli_Fight_Win_Fight
+# 63823426
+# 1526417017
+# 1526417018
+# 1526417019
+# 1637165296
+# 1637165297
+# 1637165298
+# 1980942812
+# 1980942813
+# 1980942814
+# 2517072052
+# 2517072054
+# 2517072055
+# 2605902730
+# 4177350408
+# 4177350410
+# 4177350411
+
+### EVENT NAMES (3833837461.bnk: SB_Crepusculum)
+Play_SFX_Boss_Crepusculum_Attack_Basic
+Play_SFX_Boss_Crepusculum_Attack_Charge
+Play_SFX_Boss_Crepusculum_Blinded
+Play_SFX_Boss_Crepusculum_Dark_Spell
+Play_SFX_Boss_Crepusculum_Death
+Play_SFX_Boss_Crepusculum_Dodge
+Play_SFX_Boss_Crepusculum_Hit
+Play_SFX_Boss_Crepusculum_Spell_Buff
+Play_SFX_Boss_Crepusculum_Spell_Paralyse
+# 2141942467
+
+### EVENT NAMES (531339704.bnk: SB_Deamon_Gargoyle)
+Play_SFX_demon_Gargoyle_Fight_Attack_Basic
+Play_SFX_demon_Gargoyle_Fight_Attack_Strong
+Play_SFX_demon_Gargoyle_Fight_Blinded
+Play_SFX_demon_Gargoyle_Fight_Charge_Up
+Play_SFX_demon_Gargoyle_Fight_Death
+Play_SFX_demon_Gargoyle_Fight_Dodge
+Play_SFX_demon_Gargoyle_Fight_Hit
+Play_SFX_demon_Gargoyle_nav_Charge
+# 3931667856
+
+### EVENT NAMES (71783646.bnk: SB_Eagle_Gargoyle)
+Play_SFX_eagle_Gargoyle_Fight_Attack_01
+Play_SFX_eagle_Gargoyle_Fight_Blinded
+Play_SFX_eagle_Gargoyle_Fight_Death
+Play_SFX_eagle_Gargoyle_Fight_Dodge
+Play_SFX_eagle_Gargoyle_Fight_Hit
+Play_SFX_eagle_Gargoyle_nav_Charge
+# 3641173529
+
+### EVENT NAMES (3828481987.bnk: SB_Flooded_Lands)
+Play_AMB_Elevator_LP
+Play_AMB_Flooded_Lands_Inside_House_LP
+Play_AMB_Flooded_Lands_LP
+Play_CS_R03_P03_q02_Cin020_Seq_Largefireflysummoning
+Play_SFX_Electric_Sparks
+Play_SFX_Electric_Sparks_Rnd
+Stop_AMB_Elevator_LP
+Stop_AMB_Flooded_Lands_Inside_House_LP
+Stop_AMB_Flooded_Lands_LP
+Stop_SFX_Electric_Sparks
+# 260974427
+# 316342882
+# 518602579
+# 731926164
+# 769786486
+# 1032087954
+# 1108316725
+# 1108316726
+# 1108316727
+# 1222364760
+# 1227587095
+# 1492033848
+# 2069678338
+# 2462462397
+# 2707991907
+# 2745379761
+# 3077703612
+# 3192820095
+# 3384101475
+# 3732188960
+
+### RTPC/GAME-VARIABLE NAMES (3828481987.bnk: SB_Flooded_Lands)
+Ambience_Fade_In
+
+### EVENT NAMES (3494410070.bnk: SB_Forest)
+Play_AMB_Rope_Creaks
+Play_AMB_Singing_Crow
+Play_AMB_Village_Signs_Squeaks
+Play_CS_Fight_Forest_Intro
+Play_SFX_Capilli_Shovel
+Play_SFX_Crow_Flap
+Play_SFX_Crow_Snore
+Play_SFX_Fish_jump
+Stop_AMB_Rope_Creaks
+Stop_AMB_Singing_Crow
+Stop_AMB_Village_Signs_Squeaks
+Stop_SFX_Crow_Snore
+# 60861612
+# 114717717
+# 217222560
+# 226840805
+# 237031190
+# 237722960
+# 266162795
+# 272144128
+# 310061917
+# 339272388
+# 342157720
+# 349031395
+# 427451740
+# 451922724
+# 456265841
+# 472351921
+# 482484214
+# 561420092
+# 614564946
+# 615199205
+# 639717098
+# 648829593
+# 660593939
+# 668865629
+# 799707397
+# 836648302
+# 886714268
+# 888594567
+# 1020330748
+# 1041226593
+# 1177164704
+# 1190594604
+# 1226336013
+# 1270225818
+# 1278184924
+# 1331879633
+# 1334114816
+# 1427033715
+# 1454421901
+# 1596018136
+# 1596739114
+# 1627664638
+# 1674215025
+# 1688840231
+# 1693084108
+# 1717107170
+# 1865667666
+# 1881377437
+# 1891987618
+# 1977608574
+# 2110077420
+# 2131270702
+# 2227564982
+# 2269566567
+# 2294976592
+# 2294976593
+# 2294976595
+# 2299749323
+# 2525685195
+# 2642816756
+# 2680273132
+# 2680273135
+# 2715820036
+# 2715820039
+# 2750874086
+# 2767283850
+# 2797402416
+# 2844186151
+# 2846233294
+# 2882440575
+# 2907088039
+# 2948048639
+# 2951947764
+# 2994430088
+# 2994430089
+# 2994430091
+# 2995297617
+# 2995297618
+# 3016351528
+# 3162861127
+# 3214607568
+# 3271872589
+# 3302828138
+# 3318338961
+# 3352470685
+# 3390864607
+# 3428809967
+# 3433947799
+# 3456679469
+# 3456679470
+# 3456679471
+# 3492602391
+# 3497196229
+# 3509551525
+# 3604440804
+# 3635146069
+# 3812774438
+# 3951613748
+# 3989171562
+# 4011496515
+# 4027151262
+# 4056863730
+# 4056863731
+# 4056863732
+# 4056863733
+# 4056863735
+# 4222206730
+
+### RTPC/GAME-VARIABLE NAMES (3494410070.bnk: SB_Forest)
+Ambience_Fade_In
+
+### EVENT NAMES (784686107.bnk: SB_Forgotten_Tower)
+Default_SFX_Boss_Crepusculum_Dodge
+Play_AMB_Forgotten_Tower_dome_LP
+Play_AMB_Forgotten_Tower_Main_LP
+Play_Cin010_Cs_Stepmother_Part1
+Play_Cin010_Cs_Stepmother_Part2
+Play_CIN200_CS_ChapterEnd
+Play_SFX_Squeak_Cage
+Stop_AMB_Forgotten_Tower_dome_LP
+Stop_AMB_Forgotten_Tower_Main_LP
+Stop_SFX_Squeak_Cage
+# 284133911
+# 461246539
+# 493921829
+# 790255510
+# 1255093049
+# 1359561388
+# 1392353621
+# 1508356332
+# 1532908760
+# 1923962789
+# 1923962790
+# 1950496376
+# 2352487273
+# 2557798123
+# 3320696329
+# 3356828018
+# 3575794138
+# 3581775426
+
+### RTPC/GAME-VARIABLE NAMES (784686107.bnk: SB_Forgotten_Tower)
+Ambience_Fade_In
+
+### EVENT NAMES (3953155533.bnk: SB_Gester)
+Play_SFX_gester_Fight_Attack_Basic
+Play_SFX_gester_Fight_Attack_Basic_All
+Play_SFX_gester_Fight_Back_To_Life
+Play_SFX_gester_fight_Cast_Spell
+Play_SFX_gester_Fight_Death
+Play_SFX_gester_Fight_Defense
+Play_SFX_gester_Fight_Dodge
+Play_SFX_gester_Fight_Drinking_Potion
+Play_SFX_gester_Fight_Hit
+Play_SFX_gester_Fight_Hit_Defense
+Play_SFX_gester_Fight_win_Battle
+# 198786952
+# 1509898010
+
+### EVENT NAMES (713798933.bnk: SB_Gollem)
+Play_SFX_golem_Fight_Attack_Basic
+Play_SFX_golem_Fight_Attack_Basic_All
+Play_SFX_golem_Fight_Attack_Strong
+Play_SFX_golem_Fight_Attack_Strong_All
+Play_SFX_golem_Fight_Back_To_Life
+Play_SFX_golem_fight_Cast_Spell
+Play_SFX_golem_Fight_Death
+Play_SFX_golem_Fight_Defense
+Play_SFX_golem_Fight_Dodge
+Play_SFX_golem_Fight_Drinking_Potion
+Play_SFX_golem_Fight_Hit
+Play_SFX_golem_Fight_Hit_Defense
+Play_SFX_golem_Fight_win_Battle
+# 3718485024
+
+### EVENT NAMES (4073446461.bnk: SB_Leviathan)
+Play_SFX_Fight_Leviathan_Death
+Play_SFX_Fight_Leviathan_Dodge
+Play_SFX_Fight_Leviathan_fight_intro
+Play_SFX_Fight_Leviathan_Hit
+# 419607068
+# 419607071
+# 1107507017
+# 1288383697
+# 1725202328
+# 2299683641
+# 2537894400
+# 2537894403
+# 3112697477
+# 3112697478
+# 3887676466
+# 4101839800
+
+### EVENT NAMES (4044862598.bnk: SB_Medusa)
+Play_SFX_Fight_Boss_fire_medusa_Death
+Play_SFX_Fight_boss_medusa_Attack_Basic
+Play_SFX_Fight_boss_medusa_Attack_Paralyse
+Play_SFX_Fight_boss_medusa_Blinded
+Play_SFX_Fight_boss_medusa_Death
+Play_SFX_Fight_boss_medusa_Dodge
+Play_SFX_Fight_boss_medusa_Hit
+Play_SFX_Fight_Boss_water_medusa_Attack_Basic
+Play_SFX_Fight_Boss_water_medusa_Death
+Play_SFX_medusa_earth_breath
+Play_SFX_medusa_fire_breath
+Play_SFX_medusa_Paralyse_breath
+Play_SFX_medusa_Water_breath
+# 4106181437
+
+### EVENT NAMES (1177821055.bnk: SB_Minotaure)
+Play_SFX_Minotaure_nav_alert
+# 307726662
+# 789999048
+# 1420019318
+# 1421727354
+# 1439052747
+# 2853855477
+# 3041982204
+# 3277999855
+# 3913424909
+
+### EVENT NAMES (1957254025.bnk: SB_Moon_Palace)
+Play_AMB_Moon_Palace_Garden_LP
+Play_AMB_Moon_Palace_LP
+Play_AMB_Moon_Palace_Top_LP
+Play_CIN020_IG_MoonPalace
+Stop_AMB_Moon_Palace_Garden_LP
+Stop_AMB_Moon_Palace_LP
+Stop_AMB_Moon_Palace_Top_LP
+
+### RTPC/GAME-VARIABLE NAMES (1957254025.bnk: SB_Moon_Palace)
+Ambience_Fade_In
+
+### EVENT NAMES (2611768170.bnk: SB_Munuane)
+Play_SFX_Munuane_Fight_Attack_Basic
+Play_SFX_Munuane_Fight_Attack_Charge
+Play_SFX_Munuane_Fight_Attack_Strong
+Play_SFX_Munuane_Fight_Blinded
+Play_SFX_Munuane_Fight_Death
+Play_SFX_Munuane_Fight_Dodge
+Play_SFX_Munuane_Fight_Flying
+Play_SFX_Munuane_Fight_Haste
+Play_SFX_Munuane_Fight_Hit
+Play_SFX_Munuane_nav_alert
+Play_SFX_Munuane_nav_Charge
+# 552814343
+
+### EVENT NAMES (320319040.bnk: SB_Oengus)
+Play_SFX_Oengus_Fight_Attack_Basic
+Play_SFX_Oengus_Fight_Attack_Basic_All
+Play_SFX_Oengus_Fight_Attack_Charge
+Play_SFX_Oengus_Fight_Attack_Strong
+Play_SFX_Oengus_Fight_Attack_Strong_All
+Play_SFX_Oengus_Fight_Back_To_Life
+Play_SFX_Oengus_Fight_Death
+Play_SFX_Oengus_Fight_Defense
+Play_SFX_Oengus_Fight_Dodge
+Play_SFX_Oengus_Fight_Drinking_Potion
+Play_SFX_Oengus_Fight_Hit
+Play_SFX_Oengus_Fight_Hit_Defense
+Play_SFX_Oengus_Fight_Spell_Agro
+Play_SFX_Oengus_Fight_Spell_Titan_Armor
+Play_SFX_Oengus_Fight_win_Battle
+# 1253356703
+
+### EVENT NAMES (72761310.bnk: SB_Orgre)
+Play_SFX_Ogre_Fight_Attack_Basic
+Play_SFX_Ogre_Fight_Attack_Charge
+Play_SFX_Ogre_Fight_Attack_Powerful
+Play_SFX_Ogre_Fight_Attack_Pushback
+Play_SFX_Ogre_Fight_Blinded
+Play_SFX_Ogre_Fight_Death
+Play_SFX_Ogre_Fight_Dodge
+Play_SFX_Ogre_Fight_Hit
+# 2764934103
+
+### EVENT NAMES (1806802502.bnk: SB_Pesta)
+Play_SFX_Pesta_Fight_Attack_Basic
+Play_SFX_Pesta_Fight_Attack_Strong
+Play_SFX_Pesta_Fight_Blinded
+Play_SFX_Pesta_Fight_Death
+Play_SFX_Pesta_Fight_Dodge
+Play_SFX_Pesta_Fight_Flying
+Play_SFX_Pesta_Fight_Hit
+# 873733675
+
+### EVENT NAMES (1298889443.bnk: SB_Piscean_Girl)
+# 43595553
+# 393157925
+# 443254344
+# 614251726
+# 1555791059
+# 1569120963
+# 1890251409
+# 1911247074
+# 2209598928
+# 2756795686
+# 3290869447
+# 3357618057
+# 3378130074
+# 3465344317
+# 4050832159
+# 4105860223
+# 4131356298
+
+### EVENT NAMES (2827417426.bnk: SB_Plains)
+Play_AMB_Bolmus_village
+Play_AMB_Bolmus_village_Market
+Play_AMB_Plains_Inside_House_LP
+Play_AMB_Plains_LP
+Play_AMB_Rain_Flooded_LP
+Play_AMB_Rope_Creaks
+Play_AMB_Stone_Giant_Main_Small_Rooms
+Play_AMB_Treasure_Room
+Play_SFX_crab_jump
+Play_SFX_crab_walk
+Play_SFX_Rope_Creaks
+Stop_AMB_Bolmus_village
+Stop_AMB_Bolmus_Village_Market
+Stop_AMB_Plains_Inside_House_LP
+Stop_AMB_Plains_LP
+Stop_AMB_Rain_Flooded_LP
+Stop_AMB_Rope_Creaks
+Stop_AMB_Stone_Giant_Main_Small_Rooms
+Stop_AMB_Treasure_Room
+Stop_SFX_Rope_Creaks
+# 79339026
+# 103515759
+# 115166597
+# 125497669
+# 125497670
+# 174541092
+# 174541093
+# 174541096
+# 174541097
+# 174541098
+# 174541099
+# 174541101
+# 174541102
+# 174541103
+# 191318687
+# 274367840
+# 476835559
+# 549098482
+# 558416308
+# 981806437
+# 1053035941
+# 1065925001
+# 1077530075
+# 1096371072
+# 1110525841
+# 1208252719
+# 1319148374
+# 1435636200
+# 1479316813
+# 1479316814
+# 1668690317
+# 1702663110
+# 1816768063
+# 1981559121
+# 2201341157
+# 2571121184
+# 2578372399
+# 2610472262
+# 2624448044
+# 2642816756
+# 2687917223
+# 2726422038
+# 2730226406
+# 2755099496
+# 2755099499
+# 2759922760
+# 2759922763
+# 2900876894
+# 3001364837
+# 3275975942
+# 3329233325
+# 3337074605
+# 3590653175
+# 3712148803
+# 3770455467
+# 3828729140
+# 3949433997
+# 3951193567
+# 3989802871
+# 4011496515
+# 4090745317
+# 4111759104
+# 4265371844
+
+### RTPC/GAME-VARIABLE NAMES (2827417426.bnk: SB_Plains)
+Accel
+Ambience_Fade_In
+
+### EVENT NAMES (3127879810.bnk: SB_Prison_Guard_Large)
+Play_SFX_Prison_Guard_Large_Fight_Attack_Basic
+Play_SFX_Prison_Guard_Large_Fight_Attack_Charge
+Play_SFX_Prison_Guard_Large_Fight_Attack_Spell
+Play_SFX_Prison_Guard_Large_Fight_Attack_Strong
+Play_SFX_Prison_Guard_Large_Fight_Blinded
+Play_SFX_Prison_Guard_Large_Fight_Death
+Play_SFX_Prison_Guard_Large_Fight_Dodge
+Play_SFX_Prison_Guard_Large_Fight_Hit
+Play_SFX_prison_guard_large_nav_alert
+Play_SFX_prison_guard_Large_nav_Charge
+# 2956795737
+
+### EVENT NAMES (3475520092.bnk: SB_Prison_Guard_Medium)
+Play_SFX_Prison_Guard_Medium_Fight_Attack_Basic
+Play_SFX_Prison_Guard_Medium_Fight_Blinded
+Play_SFX_Prison_Guard_Medium_Fight_Death
+Play_SFX_Prison_Guard_Medium_Fight_Dodge
+Play_SFX_Prison_Guard_Medium_Fight_Hit
+Play_SFX_Prison_Guard_Medium_Fight_Spell_Armor
+Play_SFX_Prison_Guard_Medium_Fight_walk
+Play_SFX_prison_guard_medium_nav_alert
+Play_SFX_prison_guard_medium_nav_Charge
+# 1062716009
+
+### EVENT NAMES (2557726337.bnk: SB_Rock_Monster)
+Play_SFX_Rock_Monster_Fight_Attack_Basic
+Play_SFX_Rock_Monster_Fight_Attack_Charge
+Play_SFX_Rock_Monster_Fight_Attack_Strong
+Play_SFX_Rock_Monster_Fight_Blinded
+Play_SFX_Rock_Monster_Fight_Death
+Play_SFX_Rock_Monster_Fight_Dodge
+Play_SFX_Rock_Monster_Fight_Hit
+# 2114340176
+# 2412008088
+
+### VARIABLE NAMES (2557726337.bnk: SB_Rock_Monster)
+Rock_Monster
+
+### VALUE NAMES (2557726337.bnk: SB_Rock_Monster)
+Normal
+# 1719666172
+
+### EVENT NAMES (1486573574.bnk: SB_Spider_Large)
+Play_SFX_Spider_Large_Fight_Attack_Basic
+Play_SFX_Spider_Large_Fight_Attack_Melee_Basic
+Play_SFX_Spider_Large_Fight_Attack_Melee_Strong
+Play_SFX_Spider_Large_Fight_Attack_Paralyse
+Play_SFX_Spider_Large_Fight_Blinded
+Play_SFX_Spider_Large_Fight_Charge
+Play_SFX_Spider_Large_Fight_Death
+Play_SFX_Spider_Large_Fight_Dodge
+Play_SFX_Spider_Large_Fight_Hit
+Play_SFX_Spider_Large_Fight_Spell_Haste
+# 1228317509
+
+### EVENT NAMES (1066009092.bnk: SB_Statues)
+Play_SFX_boss_statue_intro
+Play_SFX_Fight_boss_statue_Attack_Charge
+Play_SFX_Fight_boss_statue_Attack_Pushback
+Play_SFX_Fight_boss_statue_Attack_Strong
+Play_SFX_Fight_boss_statue_Blinded
+Play_SFX_Fight_boss_statue_Death
+Play_SFX_Fight_boss_statue_Dodge
+Play_SFX_Fight_boss_statue_Hit
+Play_SFX_Fight_boss_statue_Spell_Attack
+Play_SFX_Fight_boss_statue_Spell_Heal
+# 1362638696
+
+### EVENT NAMES (2725388352.bnk: SB_Sun_Palace)
+Play_AMB_Sun_Palace_Main_LP
+Play_R03d01_Cin040_Cs_UmbraAppears_Part1
+Play_R03d01_Cin040_Cs_UmbraAppears_Part2
+Play_R03d01_Cin040_Cs_UmbraAppears_Part3
+Play_R03d01_Cin040_Cs_UmbraAppears_Part4
+Stop_AMB_Sun_Palace_Main_LP
+# 109778410
+# 273188388
+# 400107827
+# 581587383
+# 700226287
+# 809761244
+# 1272531848
+# 1272531849
+# 1272531850
+# 1431544818
+# 2217263551
+# 2345466083
+# 2557155747
+# 2631427550
+# 2789736833
+# 2789736834
+# 2789736835
+# 3033549769
+# 3059737697
+# 3350473736
+# 3833154636
+# 3833154637
+# 3833154638
+# 4104233607
+
+### RTPC/GAME-VARIABLE NAMES (2725388352.bnk: SB_Sun_Palace)
+Ambience_Fade_In
+
+### EVENT NAMES (841136005.bnk: SB_The_Well)
+Play_AMB_Cam_Shake_Cave
+Play_CS_Fight_well_Intro
+# 162281362
+# 836134584
+# 1321191771
+# 1454509917
+# 1617017610
+# 2379664541
+# 2379664542
+# 3641850980
+
+### RTPC/GAME-VARIABLE NAMES (841136005.bnk: SB_The_Well)
+Ambience_Fade_In
+
+### EVENT NAMES (3453152187.bnk: SB_TreeGolem)
+Play_SFX_TreeGolem_Fight_Attack_Basic
+Play_SFX_TreeGolem_Fight_Attack_Basic_2
+Play_SFX_TreeGolem_Fight_Blinded
+Play_SFX_TreeGolem_Fight_Charge_Up
+Play_SFX_TreeGolem_Fight_Death
+Play_SFX_TreeGolem_Fight_Hit
+# 1137167388
+
+### EVENT NAMES (989211281.bnk: SB_Tree_Archer)
+Play_SFX_TreeArcher_Blinded
+Play_SFX_TreeArcher_Fight_Alert
+Play_SFX_TreeArcher_Fight_Attack_Basic
+Play_SFX_TreeArcher_Fight_Attack_Charge
+Play_SFX_TreeArcher_Fight_Attack_Strong
+Play_SFX_TreeArcher_Fight_Death
+Play_SFX_TreeArcher_Fight_Dodge
+Play_SFX_TreeArcher_Fight_Hit
+Play_SFX_TreeArcher_nav_Attack
+# 3395423242
+
+### EVENT NAMES (2143831470.bnk: SB_Troll)
+Play_SFX_Troll_Fight_Attack_Basic
+Play_SFX_Troll_Fight_Attack_Strong
+Play_SFX_Troll_Fight_Blinded
+Play_SFX_Troll_Fight_Death
+Play_SFX_Troll_Fight_Dodge
+Play_SFX_Troll_Fight_Hit
+Play_SFX_Troll_nav_alert
+# 1920719995
+
+### EVENT NAMES (1569155213.bnk: SB_Trunk)
+Play_SFX_Trunk_Fight_Attack_Basic
+Play_SFX_Trunk_Fight_Blinded
+Play_SFX_Trunk_Fight_Charge
+Play_SFX_Trunk_Fight_Death
+Play_SFX_Trunk_Fight_Dodge
+Play_SFX_Trunk_Fight_Hit
+Play_SFX_Trunk_Fight_Preparation_To_Fight
+Play_SFX_Trunk_Fight_Spell_Robber_Bees
+Play_SFX_Trunk_nav_alert
+
+### EVENT NAMES (1813112885.bnk: SB_robert)
+Play_SFX_Fight_robert_attack_arrow
+Play_SFX_Fight_robert_attack_arrow_all
+Play_SFX_Fight_robert_Death
+Play_SFX_Fight_robert_Defense
+Play_SFX_Fight_robert_Defense_Hit
+Play_SFX_Fight_robert_Dodge
+Play_SFX_Fight_robert_Drinking_Potion
+Play_SFX_Fight_robert_Going_Back_To_Life
+Play_SFX_Fight_robert_Hit
+Play_SFX_Fight_robert_Preparation_To_Fight
+Play_SFX_Fight_robert_spell_antidote
+Play_SFX_Fight_robert_spell_antidote_all
+Play_SFX_Fight_robert_spell_arrow_drain
+Play_SFX_Fight_robert_spell_slow_arrow
+Play_SFX_Fight_robert_spell_slow_arrow_all
+Play_SFX_Fight_robert_win_Battle
+# 334309064
+
+#260974427   : Play_Cs_Ogre_Fight_Attack_Powerful
+#2294976595  : Play_SFX_Prison_Guard_Attack_Basic_Add
+#1833164498  : Play_SFX_Text_NewGame
+#2878208213  : Play_SFX_Fight_Start_positive
+#1975214355  : Play_SFX_Text_positive
+#1596739114  : Set_State_Aurora_Theme_Piano_kitschy
+#4106616657  : Set_State_Aurora_Theme_Oneshot_deliver
+#592413828   : Set_State_Aurora_Theme_Improper_LP
+#3377690008  : Play_SFX_Aurora_Fight_earth_All
+#260974427   : Play_Cs_Ogre_Fight_Attack_Powerful
+
+#3444163715: horse-ish enemy
+#4033034585: bird-ish enemy
+#1020780623: area

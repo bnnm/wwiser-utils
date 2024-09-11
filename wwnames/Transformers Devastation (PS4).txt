@@ -447,6 +447,7 @@ BGM_Set_P310_P310_GO_TO_ISLAND
 BGM_Set_P310_P310_ISLAND
 BGM_Set_P310_P310_ISLAND_2
 BGM_Set_P310_P310_M1_START
+BGM_Set_P310_P310_M3_START
 BGM_Set_P410
 BGM_Set_P410_P410_BTL_01_END
 BGM_Set_P410_P410_BTL_02
@@ -569,6 +570,7 @@ BGM_Set_TitleMenu
 BGM_Set_Weapon
 BGM_Set_Weapon2
 BGM_Shop_In
+BGM_Shop_In_Backup
 BGM_ShowEnd_In
 BGM_ShowEnd_Out
 BGM_Slow_Long_Off
@@ -601,7 +603,6 @@ evca10_se_out
 # 293560400
 # 398557579
 # 844897439
-# 2439244572
 # 2533723265
 # 2533723266
 # 2533723267
@@ -615,7 +616,6 @@ evca10_se_out
 # 2533723275
 # 2533723276
 # 2730415803
-# 2855096943
 # 3596409302
 # 4083287457
 
@@ -759,6 +759,7 @@ BGM_Continue
 BGM_Finish_Slow
 BGM_Jingle_Vol
 BGM_Slow_Long
+BGM_Slow_Long_Pitch
 BGM_Transform
 BGM_Vol_Env
 BGM_Vol_Stage
@@ -787,7 +788,6 @@ Volume_Voice
 # 2476995316
 # 2967965965
 # 3297818656
-# 3303329923
 # 4129326038
 # 4255920623
 
@@ -954,7 +954,7 @@ Stop_ba1003_Engine_Idol_Loop
 
 ### EVENT NAMES (ba1400.bnk)
 ba1400_Exp
-Stop_rf03_em4000_arm_swing_wsh
+# 2913555067
 # 2913555056
 # 2913555057
 # 2913555058
@@ -1548,6 +1548,7 @@ wp0130_Sword_Swish
 wp0130_SwordRoll_01
 wp0130_SwordRoll_02
 wp0150_Bullet_Guard
+wp0150_Shield_Disappear
 wp0150_ShieldBreak
 wp0160_WSwordStab
 wp0160_WSwordSwish
@@ -1559,7 +1560,6 @@ wp_000e_Shot
 # 200359959
 # 449167073
 # 483523601
-# 486150584
 # 729963520
 # 1014197064
 # 1245262140
@@ -3152,6 +3152,7 @@ r100_Car_Lift
 r100_DestronJet_Jet_Loop
 r100_DestronJet_Jet_Loop_add_a
 r100_DestronJet_Jet_Loop_add_b
+r100_DestronJet_Jet_Loop_jump
 r100_DestronJet_Red_1
 r100_DestronJet_Red_2
 r100_DestronJet_Red_3
@@ -3169,7 +3170,6 @@ Stop_r100_DestronJet_Jet_Loop_add_b
 # 443194089
 # 1993461845
 # 2033307174
-# 4055357331
 # 4275797755
 
 ### RTPC/GAME-VARIABLE NAMES (r100.bnk)
@@ -3224,6 +3224,7 @@ r200_Gimmick_Loop
 r200_Gimmick_StopSwitch_01
 r200_Gimmick_StopSwitch_02
 r200_Gimmick_StopSwitch_03
+r200_Jamming
 r200_LiquidBomb_Exp
 r200_LiquidBomb_Fall
 r200_Pod_Charge
@@ -3233,7 +3234,6 @@ r200_PodEject
 r200_spark
 Stop_r200_FloorGimmick_Move
 Stop_r200_Gimmick_Loop
-# 1453973059
 # 2872122730
 # 3787703884
 
@@ -3331,7 +3331,7 @@ p310_ev3101_F0002_GL
 
 ### EVENT NAMES (r342.bnk)
 p410_ev4100_F0002
-# 1982002668
+r342_spray
 
 ### EVENT NAMES (r500.bnk)
 # 204913194
@@ -4872,6 +4872,7 @@ vo_TL1_re310_0025_Sheet1_0003
 ### EVENT NAMES (vo_r400.bnk)
 re310_0100_Sheet1_0001
 re410_0050_Sheet1_0000
+re410_0100_Sheet1_0000
 re410_0120_Sheet1_0000
 re410_0120_Sheet1_0001
 re410_0120_Sheet2_0000
@@ -4920,7 +4921,6 @@ vo_pl0027_Word_Counter_01
 vo_TL1_re410_0200_Sheet1_0000
 vo_TL1_re410_4020_Sheet1_0000
 # 318334242
-# 854858997
 # 2458497231
 # 3570304922
 # 3939059765
@@ -5383,3 +5383,5 @@ gallery_pl0110_03
 
 ### SFX NAMES (vo_rf03.bnk)
 # 3509832175
+
+#112549961   : M2_End_analog

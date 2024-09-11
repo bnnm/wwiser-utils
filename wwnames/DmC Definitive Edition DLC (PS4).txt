@@ -1,0 +1,4126 @@
+
+### BANK NAMES
+_generic_ambience
+_pan_test
+_seek_test
+_test_sounds
+Birthrights_Angel_Boost_Rings
+Birthrights_Angel_Persistent
+Birthrights_Angel_Scythe
+Birthrights_Angel_Whip
+Birthrights_Angel_Yashichi
+Birthrights_Demon_Axe
+Birthrights_Demon_Devil_Trigger
+Birthrights_Demon_Persistent
+Birthrights_Demon_Stomp
+Birthrights_Demon_Whip
+Birthrights_Human_Detonator
+Birthrights_Human_Persistent
+Birthrights_Human_Pistols
+Birthrights_Human_Rebellion
+Birthrights_Human_Shotgun
+Brithrights_Angel_Spear
+bullet_impacts
+challenge_acid
+challenge_combat_climb
+challenge_drone_football
+challenge_keep_shut
+challenge_ui
+char_aerial_drone_ch9a
+char_aerial_drone_foley
+char_armour_drone
+char_armour_drone_fire_variant
+char_armour_drone_ice_variant
+char_chainsaw_drone
+char_critter_bird
+char_critter_slug
+char_critter_spider
+char_critter_spider_red
+char_critter_whale
+char_dante
+char_dante_acid_damage
+char_dante_acid_damage_grunts
+char_dante_grunts_demony_gauntlet
+char_dante_quips
+char_dreamrunner
+char_hunter
+char_kat
+char_kat_spray
+char_killingface
+char_killingface_amb
+char_killingface_cinematics
+char_mundus_demon
+Char_Phineas_Foley
+char_poison_fake_death
+char_poison_general
+char_poison_puke
+char_poison_room1_seq
+char_poison_room2_seq
+char_poison_shared
+char_poison_tugowar
+char_poison_VO_preroom1
+char_poison_VO_room1
+char_poison_VO_room2
+char_prisoner
+char_rage
+Char_Rage_Baby
+char_stinger
+char_stinger_bow
+char_stinger_grenade
+char_summoner
+char_tank_buzzsaw
+char_tank_drone
+char_vergil_ch20_fx
+char_vergil_doppelgangerappear
+char_vergil_foley
+char_vergil_intro
+char_vergil_phaseTrans
+char_vergil_teleport
+char_warrior_drone_attacks
+char_warrior_drone_dojo
+char_warrior_drone_foley
+char_warrior_drone_grunts
+char_warrior_drone_hard_variant
+char_warrior_drone_misc
+Char_Wisp
+combat_hit_big_wet
+combat_hits_spawn
+combat_hits_throwables
+Demon_Decay_Blood
+Demon_Decay_Roots
+Demon_Decay_Wall_Collapse
+DLC_ch1_BGs
+DLC_ch1_brothers
+DLC_ch1_Chase_Rocks
+DLC_Ch1_Eva_Blue_Balls
+DLC_Ch1_Gates
+DLC_ch1_mansion_collapse
+DLC_Ch1_Portal_of_Light
+DLC_ch1_rocks_fall
+DLC_Ch1_Weak_SFX
+DLC_Ch1_Weak_VO
+DLC_ch1_Wisp_Intro
+DLC_ch2_BGs
+DLC_ch2_gravestones
+DLC_ch2_Meteors
+DLC_ch2_Plaza_Breakup
+DLC_ch2_Portal_Exit
+DLC_ch2_Setpiece_Church_Up_To
+DLC_ch2_Setpiece_Plaza
+DLC_ch2_Setpiece_Surrounded_01
+DLC_ch2_Setpiece_Surrounded_02
+DLC_ch3_angel_lift_bit
+DLC_ch3_BGs
+DLC_ch3_crash_thru_wall
+DLC_Ch3_CS_Vergil_sees_Dante
+DLC_Ch3_CS_Vergil_throws_train
+DLC_Ch3_Dante_Challenges
+DLC_Ch3_gate
+DLC_ch3_shoot_roof
+DLC_Ch3_Statue
+DLC_Ch3_Statue_Collapse
+DLC_Ch3_Subway_Doors_01
+DLC_Ch3_train_sweet
+DLC_ch4_BGs_rain
+DLC_ch4_BGs_tomb
+DLC_ch4_BGs_waterfall
+DLC_ch4_cine_cave_in
+DLC_ch4_cine_stairs
+DLC_ch4_cine_tomb_close
+DLC_ch4_lightning_strike
+DLC_ch4_wood_obstruction
+DLC_ch5_BGs
+DLC_ch5_EndPhase1
+DLC_ch5_EndPhase2
+DLC_ch5_faceoff
+DLC_ch6_arch_island_collapse
+DLC_ch6_archway_collapse
+DLC_ch6_BGs
+DLC_ch6_bridge_collaspe
+DLC_ch6_buildingfall
+DLC_ch6_DT_Intro
+DLC_ch6_end_plat_collapse
+DLC_ch6_entrance_reveal
+DLC_ch6_firepit
+DLC_ch6_fountain_plat_collapse
+DLC_ch6_gates
+DLC_ch6_island_collapse
+DLC_ch6_Island_destruct_B
+DLC_ch6_lightning_strike
+DLC_ch6_mansion_collapse_a
+DLC_ch6_mansion_collapse_intro
+DLC_ch6_platforms_collapse
+DLC_ch6_pointless_collapse
+DLC_ch6_roof_crumble
+DLC_ch6_SetPiece_Island_Destruct
+DLC_ch6_SetPiece_Opening
+DLC_Ch_01_Music_Persistent
+DLC_Ch_02_Music_Persistent
+DLC_Ch_03_Music_Persistent
+DLC_Ch_04_Music_Persistent
+DLC_Ch_05_Music_Persistent
+DLC_Ch_06_Music_Persistent
+DLC_char_vergil_boss_grunts
+DLC_char_vergil_boss_ranged
+DLC_char_vergil_foley
+DLC_char_vergil_grunts
+DLC_char_vergil_grunts_wounded
+DLC_CS_CH4_SFX_Chapel_Arrival
+DLC_CS_CH4_VO_Chapel_Arrival
+DLC_disappear_platforms
+DLC_Gamewide_Platform_Pulls
+DLC_spots_fire_car
+DLC_spots_fire_roar
+DLC_spots_fire_tree
+DLC_spots_lava_outflow
+DLC_spots_magma_walls
+DLC_Tomb_Stairs_Action_Off
+env_D_doors
+env_D_messages
+env_D_messages_Attack
+env_D_messages_BitchIsNear
+env_D_messages_CannotEscape
+env_D_messages_CannotHide
+env_D_messages_CannotSurvive
+env_D_messages_ComeCloser
+env_D_messages_Crush
+env_D_messages_CrushHim
+env_D_messages_Dante
+env_D_messages_Death
+env_D_messages_Defend
+env_D_messages_Destory
+env_D_messages_Die
+env_D_messages_Fall
+env_D_messages_FinishHim
+env_D_messages_FuckYou
+env_D_messages_Hate
+env_D_messages_Infect
+env_D_messages_Invade
+env_D_messages_Kill
+env_D_messages_KillDante
+env_D_messages_KillTheBitch
+env_D_messages_KillThemAll
+env_D_messages_KillYourself
+env_D_messages_LetHerDie
+env_D_messages_No
+env_D_messages_NoEscape
+env_D_messages_Protect
+env_D_messages_Stop
+env_D_messages_StopHim
+env_D_messages_Threat
+env_D_messages_Trap
+env_D_messages_TrapHim
+env_D_messages_Trapped
+env_D_messages_WeCanSeeYou
+env_D_messages_WeFoundYou
+env_D_messages_WeHateYou
+env_D_messages_WhereAreYou
+env_D_messages_WhoresGonnaDie
+env_D_messages_You
+env_D_messages_YouCantSaveHer
+env_D_prop_bin
+env_D_prop_kit
+env_D_prop_lamp
+env_D_prop_scooter
+env_destructables_angel
+env_destructables_axe_shared
+env_destructables_axe_wall
+env_destructables_axe_wood
+env_destructables_demon_shared
+env_destructables_gauntlets
+env_game_wide_dojo
+env_game_wide_lost_souls
+env_game_wide_magic_debris
+env_game_wide_mundus_door
+env_game_wide_platform_metal
+env_game_wide_platform_stone
+env_game_wide_secret_walls
+env_game_wide_wood_planks
+env_secret_area
+env_secret_area_angel_whip
+env_secret_area_demon_pull
+env_secret_area_transition
+env_secret_area_wormhole
+env_secret_area_wormhole_VO
+init
+Secret_Missions_Generic
+Slomo
+sword_impacts
+test_tones
+ui
+ui_credits
+ui_descent
+ui_dlc_pickup_proxy
+ui_enemyIntro
+ui_front_end
+ui_mission_complete
+ui_pickups_devil_star
+ui_pickups_devil_star_large
+ui_pickups_health_star
+ui_pickups_vital_star
+ui_pickups_vital_star_large
+ui_shop
+Utility
+VO_Ch1
+VO_Ch2
+VO_Ch3
+VO_Ch4
+VO_Ch6
+# 2154735980
+
+### BUS NAMES
+Arena_vrb
+bg_beds
+bg_critters
+bg_Props
+bg_specifics
+bgs
+boss
+boss_grunts
+breaths
+bullet_impacts
+chainsaw_drone_foley
+chainsaw_drone_grunts
+chainsaw_drone_SFX
+Characters
+cs10_010_shabririAwake_verb
+cs10_050_TowerCollapse_verb
+cutscene
+dante_foley
+Dante_Grunts
+dante_sfx
+devil_trigger
+dlc_vergil_foley
+DLC_Vergil_Grunts
+DMC_barbus_arena
+DMC_barbus_cam_seq
+DMC_barbus_corridor
+DMC_barbus_outdoors
+DMC_brewery_corridors
+DMC_brewery_warehouse_human
+DMC_ch16_lift
+DMC_ch16_office
+DMC_ch16_outside
+DMC_church
+DMC_club_corridor
+DMC_club_large_hall
+DMC_club_main_room
+DMC_club_outdoors
+DMC_corridor
+DMC_cs02_120_vergilsPlan
+DMC_descent
+DMC_descent_dogleg
+DMC_DMC_brewery_warehouse_demon
+DMC_DMC_brewery_warehouse_dogleg
+DMC_DMC_brewery_warehouse_dome
+DMC_escape_corridors
+DMC_escape_hall
+DMC_escape_yard
+DMC_mansion_corridors
+DMC_mansion_grand_foyer
+DMC_mansion_hall
+DMC_mansion_med_room
+DMC_mansion_outdoors
+DMC_open_space_verb
+DMC_plaza
+DMC_poison_tomb
+DMC_secret_world
+DMC_street
+DMC_The_Core
+DMC_upsidedown_int
+DMC_upsidedown_int_large
+DMC_upsidedown_outdoors
+DMC_upsidedown_shaft
+DMC_upsidedown_streets
+DMC_vault
+DMC_vault_corridor
+dreamrunner_foley
+dreamrunner_grunts
+Dreamrunner_SFX
+drone_foley
+drone_grunts
+drone_SFX
+grunts_excl_pain
+Kat_foley
+Kat_grunts
+Kat_SFX
+LFE
+LOCATOR
+Master Audio Bus = 0
+Master Secondary Bus = 0
+Migrated
+Mundus
+music
+Music_Cutscene
+Music_duck_EQ
+Music_Ingame
+NE_Ambience
+NE_bobtower
+NE_Cutscene
+NE_Cutscene_01
+NE_SFX
+NE_Vo
+NE_Vo_Dante
+NE_VO_DLC_Vergil
+NE_vosecondary
+NE_votertiary
+POISON
+primary
+prisoner
+secondary
+set_piece
+SFX
+stinger
+stinger_foley
+stinger_grunts
+stinger_SFX
+Summoner_grunts
+summoner_idle
+Summoner_SFX
+tank_foley
+tank_grunts
+tank_SFX
+tertiary
+testverb
+The_Carnival_Indoors
+The_Carnival_Outdoors
+trans
+ui
+vo
+VO_Dante
+VO_DLC_Vergil
+vo_ducking
+water_detail
+weapons
+Wisp
+Wisp_backing
+# 2984717941
+# 2040081977
+# 1043976537
+# 698560950
+# 3074890448
+# 2304658706
+# 570200783
+# 700652350
+# 2684076899
+# 1453419348
+# 70907014
+# 369251179
+# 1424579887
+# 3902461730
+# 1918638453
+# 2309921975
+# 2127098519
+# 3024299990
+# 3059453395
+# 3146785757
+# 3214161741
+# 3244209936
+# 3598349687
+# 3874149610
+# 2364886066
+# 3585276510
+# 3986627518
+# 2220133616
+# 2919680239
+# 1542758327
+# 2539645627
+# 3867660285
+# 475600341
+# 924895347
+# 1753202631
+# 3206109742
+# 260585244
+# 2200742803
+# 3102969263
+# 3676653945
+
+### SFX NAMES (1355168291.bnk: init)
+Arena_vrb
+bob_laser_meter
+cs10_010_shabririAwake_verb
+cs10_050_TowerCollapse_verb
+DMC_barbus_arena
+DMC_barbus_cam_seq
+DMC_barbus_corridor
+DMC_barbus_outdoors
+DMC_brewery_corridors
+DMC_brewery_warehouse_human
+DMC_ch16_lift
+DMC_ch16_office
+DMC_ch16_outside
+DMC_church
+DMC_club_corridor
+DMC_club_large_hall
+DMC_club_main_room
+DMC_club_outdoors
+DMC_corridor
+DMC_cs02_120_vergilsPlan
+DMC_descent
+DMC_descent_dogleg
+DMC_DMC_brewery_warehouse_demon
+DMC_DMC_brewery_warehouse_dogleg
+DMC_DMC_brewery_warehouse_dome
+DMC_escape_corridors
+DMC_escape_hall
+DMC_escape_yard
+DMC_mansion_corridors
+DMC_mansion_grand_foyer
+DMC_mansion_hall
+DMC_mansion_med_room
+DMC_mansion_outdoors
+DMC_open_space_verb
+DMC_plaza
+DMC_poison_tomb
+DMC_secret_world
+DMC_street
+DMC_The_Core
+DMC_upsidedown_int
+DMC_upsidedown_int_large
+DMC_upsidedown_outdoors
+DMC_upsidedown_shaft
+DMC_upsidedown_streets
+DMC_vault
+DMC_vault_corridor
+Music_duck_EQ
+poison_finale_meter
+SetpieceMeter
+testverb
+The_Carnival_Indoors
+The_Carnival_Outdoors
+vortexvo
+# 441522663
+# 1270531439
+# 1399739703
+# 1453419348
+# 1615127361
+# 1993344445
+
+### BASE RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
+ANGEL_LIFT
+angspeed
+Breaks_LPF
+ch13_club_music_cf
+ch13_club_proxy
+Ch13_Music_LPF_01
+Ch13_Music_LPF_02
+Ch13_Music_LPF_03
+ch15_limbo
+Ch16_cave
+ch16_generator_activity
+ch16_roomtone
+ch6_light_activity_a
+ch6_light_activity_b
+descent_timer
+DevilTrigger
+DevilTriggerMeter
+dlc_pickup_proxy
+event_pitch
+event_volume
+FORCE
+Gauntlet_RTPC
+hits_duck
+HitStop
+Hunter_Blade_Distance
+Mundus_peak
+music_eq
+Music_RTPC_duck_variable
+Music_style
+pan_fb
+pan_LR
+QLOC_Master_Audio_Volume_Switch
+reverb_wet_level
+Secret_World_flypasts
+setpiece_peak
+SlomoRTPC
+SPEED
+SS_AIR_FEAR
+SS_AIR_FREEFALL
+SS_AIR_FURY
+SS_AIR_MONTH
+SS_AIR_PRESENCE
+SS_AIR_RPM
+SS_AIR_SIZE
+SS_AIR_STORM
+SS_AIR_TIMEOFDAY
+SS_AIR_TURBULENCE
+user_MUSIC_volume
+user_SFX_volume
+user_VO_volume
+vortexvo_RTPC
+# 401499758
+# 998974849
+# 1270531439
+# 1671366616
+# 2656142798
+# 2681407051
+# 2773983438
+# 3025813773
+# 3800431893
+
+### RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
+DevilTriggerMeter
+HitStop
+music_eq
+Music_RTPC_duck_variable
+Music_style
+QLOC_Master_Audio_Volume_Switch
+reverb_wet_level
+setpiece_peak
+user_MUSIC_volume
+user_SFX_volume
+# 401499758
+# 2773983438
+# 1671366616
+
+### VARIABLE NAMES (1355168291.bnk: init)
+_unused
+Ch10_Bob_Barbas
+Ch11_Breakin
+Ch12_Escape
+ch13_club
+Ch13_Killing_Face_Boss
+Ch15_Docks
+Ch16_Mundus_Tower
+Ch17_Core
+Ch18_The_Vault
+Ch19_Mundus
+Ch1_Hunter
+Ch20_Vergil
+Ch2_Mansion
+Ch2_Mansion_0_vision_version
+Ch3_Plaza
+Ch4_City
+Ch6_Brewery
+Ch7_Poison_Boss
+Ch8_Upside_Down
+Ch9_Phineas_A
+Ch9_Phineas_B
+Challenge
+Dante_Grunts
+dante_weapon
+DevilTrigger
+DLC_Ch_01_Music
+DLC_Ch_02_Music
+DLC_Ch_03_Music
+DLC_Ch_04_Music
+DLC_Ch_05_Music
+DLC_Ch_06_Music
+dojo
+DopplegangerDelay
+DT_Music
+Gauntlet_tier
+HitStop
+Kat_foley
+Mixer
+Mixer_Overall_Mission
+Mundus_Tower_Elevator
+Music_Challenge_Rooms_Frontend
+Music_Club
+Music_Fight_02
+Music_secret_area
+Music_style
+ScytheTier
+slomoGroup
+UI_button_hack
+# 675583530
+# 1063345258
+# 3140534481
+# 1252764949
+# 111675247
+# 4010641201
+# 689532227
+# 240619184
+# 1774257082
+# 1944115588
+# 614188519
+# 2285406869
+# 2285406868
+# 2285406871
+# 2285406870
+# 2285406864
+# 2285406867
+# 2285406866
+# 2285406877
+# 2285406876
+# 2235074012
+# 2235074013
+# 2235074014
+# 2235074015
+# 614188515
+# 614188513
+# 614188527
+# 708310680
+# 3791664696
+# 1340257089
+# 3721459150
+# 3576764175
+
+### VALUE NAMES (1355168291.bnk: init)
+ambient
+Bink
+Boss_Fight
+combat
+cutscene
+DT_Music_off
+Enter_Dojo
+Frontend
+in
+Mission_Bob_Barbas_Camera_POV
+mission_Load
+Mission_Start
+on
+pause
+set_piece
+Tutorial_end
+Tutorial_start
+
+### EVENT NAMES (981447131.bnk: Birthrights_Angel_Boost_Rings)
+Play_Angel_Boost_Portal_Boost_Closing
+Play_Angel_Boost_Ring_Boost
+Stop_Angel_Boost_Portal_Boost_Closing
+Stop_Angel_Boost_Ring_Boost
+
+### RTPC/GAME-VARIABLE NAMES (981447131.bnk: Birthrights_Angel_Boost_Rings)
+event_volume
+
+### EVENT NAMES (4269970501.bnk: Birthrights_Angel_Persistent)
+Play_dante_angel_evade_wide
+
+### EVENT NAMES (3702097330.bnk: Birthrights_Angel_Scythe)
+Play_scythe_overdrive_01
+Play_scythe_overdrive_02
+Play_scytheCharge_gained
+Play_scytheCharge_lost
+Play_weap_scythe_combo_part_01
+Play_weap_scythe_combo_part_02
+Play_weap_scythe_combo_part_03
+Play_weap_scythe_combo_part_04
+Play_weap_scythe_spinner_01
+Play_weap_scythe_spinner_02
+Play_weap_scythe_spinner_02a
+Play_weap_scythe_spinner_02b
+Stop_weap_scythe_combo_part_01
+Stop_weap_scythe_combo_part_02
+Stop_weap_scythe_combo_part_03
+Stop_weap_scythe_combo_part_04
+Stop_weap_scythe_spinner_01
+Stop_weap_scythe_spinner_01_3d
+Stop_weap_scythe_spinner_01a
+Stop_weap_scythe_spinner_02
+Stop_weap_scythe_spinner_02_3d
+Stop_weap_scythe_spinner_02a
+Stop_weap_scythe_spinner_02b
+
+### RTPC/GAME-VARIABLE NAMES (3702097330.bnk: Birthrights_Angel_Scythe)
+event_volume
+
+### VARIABLE NAMES (3702097330.bnk: Birthrights_Angel_Scythe)
+ScytheTier
+
+### VALUE NAMES (3702097330.bnk: Birthrights_Angel_Scythe)
+max
+none
+normal
+
+### EVENT NAMES (3860020892.bnk: Birthrights_Angel_Whip)
+Play_angel_whip_latch
+Play_dante_angel_lift_wide_01
+Play_dante_angel_whip_tank
+Play_dante_angel_whip_tank_barge
+Play_dante_skill_punch_tank
+Stop_angel_whip_latch
+# 280135286
+
+### RTPC/GAME-VARIABLE NAMES (3860020892.bnk: Birthrights_Angel_Whip)
+ANGEL_LIFT
+event_volume
+
+### EVENT NAMES (1849143548.bnk: Birthrights_Angel_Yashichi)
+Play_C_yashichi_powerup_loop_01
+Play_yashichi_glint
+Play_Yashichi_hurl_01
+Play_Yashichi_hurl_02
+Play_Yashichi_hurl_03
+Play_Yashichi_hurl_04
+Play_yashichi_loop
+Play_yashichi_powerup_01
+Play_yashichi_powerup_WIDE_02
+Play_yashichi_spin
+Play_yashichi_throw_01
+Play_yashichi_throw_02
+Play_yashichi_throw_03
+Play_yashichi_throw_04
+Play_yashichi_throw_05
+Play_yashichi_tornado
+Play_yashichi_up_and_down
+Play_Yashichi_Zoomin
+Play_yasichi_destroy_01
+Stop_C_yashichi_powerup_loop_01
+Stop_Yashichi_hurl_01
+Stop_Yashichi_hurl_02
+Stop_yashichi_loop
+Stop_yashichi_throw_01
+Stop_yashichi_throw_02
+Stop_yashichi_throw_03
+Stop_yashichi_throw_04
+Stop_yashichi_throw_05
+Stop_yashichi_tornado
+# 964012004
+
+### RTPC/GAME-VARIABLE NAMES (1849143548.bnk: Birthrights_Angel_Yashichi)
+event_pitch
+event_volume
+
+### EVENT NAMES (1521241344.bnk: Birthrights_Demon_Axe)
+Play_axe_drop_tremor_wide_01
+Play_axe_floor_clang_01
+Play_axe_floor_shatter_01
+Play_axe_thick_sweet
+Play_axe_whoosh
+Play_weap_axe_demon_overhead_01
+Play_weap_axe_demon_overhead_centre_01
+Play_weap_axe_demon_overhead_impact_01
+Play_weap_axe_demon_sweep_01
+Play_weap_axe_demon_sweep_centre_01
+Play_weap_axe_superhit_wide
+Play_weapon_axe_projectile_01
+Play_weapon_axe_projectile_02
+Stop_axe_drop_tremor_wide_01
+Stop_axe_floor_shatter_01
+Stop_axe_thick_sweet
+Stop_weap_axe_demon_overhead_01
+Stop_weap_axe_demon_overhead_centre_01
+Stop_weap_axe_demon_overhead_impact_01
+Stop_weap_axe_demon_sweep_01
+Stop_weap_axe_demon_sweep_centre_01
+Stop_weap_axe_superhit_wide
+Stop_weapon_axe_projectile_01
+Stop_weapon_axe_projectile_02
+Stop_weapon_axe_projectile_impact_wide
+# 890335328
+# 890335331
+# 3255098552
+# 3495412242
+# 4132345139
+# 4286417279
+
+### RTPC/GAME-VARIABLE NAMES (1521241344.bnk: Birthrights_Demon_Axe)
+event_volume
+
+### EVENT NAMES (3647296254.bnk: Birthrights_Demon_Whip)
+Play_chain_blocked
+Play_chain_retrieve
+Play_chain_Return
+Play_chain_wobble
+Play_demon_hiss
+Play_demon_pull_fizz
+Play_demon_pull_whoosh_short_c
+Play_demon_whip_chain_extend_chain
+Play_demon_whip_chain_retract_chain
+Play_demon_whip_chain_retract_double
+Play_demon_whip_kick
+Play_demon_whip_pull_chain
+Play_demon_whip_pull_crack
+Play_demon_whip_pull_sweet
+Play_demon_whip_pull_sweet_short
+Play_demon_whip_pull_whizz_01
+Play_demon_whip_pull_whoosh_c
+Play_demon_whip_retract_long
+Play_demon_whip_swish_c
+Play_whip_latch
+Play_whip_launch
+
+### RTPC/GAME-VARIABLE NAMES (3647296254.bnk: Birthrights_Demon_Whip)
+event_pitch
+event_volume
+
+### EVENT NAMES (3405461046.bnk: Birthrights_Human_Detonator)
+Play_detonator_detonate_first
+Play_detonator_detonate_fourth
+Play_detonator_detonate_second
+Play_detonator_detonate_third
+Play_detonator_fire
+Play_detonator_fire_dry
+
+### RTPC/GAME-VARIABLE NAMES (3405461046.bnk: Birthrights_Human_Detonator)
+event_pitch
+event_volume
+
+### EVENT NAMES (745597202.bnk: Birthrights_Human_Pistols)
+Play_fire_01
+Play_pistol_gc_rain_start
+Play_pistol_guncombo_rain_inv
+Play_pistol_guncombo_rico_charge
+Play_pistol_guncombo_rico_draw
+Play_pistol_guncombo_rico_fire
+Play_ricoshot_destroy
+Stop_pistol_gc_rain_loop
+Stop_pistol_guncombo_rain_inv
+Stop_pistol_guncombo_rico_charge
+
+### RTPC/GAME-VARIABLE NAMES (745597202.bnk: Birthrights_Human_Pistols)
+event_pitch
+event_volume
+
+### VARIABLE NAMES (745597202.bnk: Birthrights_Human_Pistols)
+DevilTrigger
+
+### VALUE NAMES (745597202.bnk: Birthrights_Human_Pistols)
+none
+off
+on
+
+### EVENT NAMES (2363936080.bnk: Birthrights_Human_Rebellion)
+Play_dante_overdrive_flash1
+Play_sword_001_whips
+Play_sword_001_whips_only
+Play_sword_angel_centre_sweet_stage_01_01
+Play_sword_angel_centre_sweet_stage_02_01
+Play_sword_angel_centre_sweet_stage_03_01
+Play_sword_angel_centre_sweet_stage_04_01
+Play_sword_angel_wide_sweet_stage_01_01
+Play_sword_angel_wide_sweet_stage_02_01
+Play_sword_angel_wide_sweet_stage_03_01
+Play_sword_demon_sweet_stage_01_01
+Play_sword_demon_sweet_stage_02_01
+Play_sword_demon_sweet_stage_03_01
+Play_sword_demon_sweet_stage_04_01
+Play_sword_demon_wide_sweet_stage_01_01
+Play_sword_demon_wide_sweet_stage_02_01
+Play_sword_demon_wide_sweet_stage_03_01
+Play_sword_demon_wide_sweet_stage_04_01
+Play_sword_drive_c
+Play_sword_drive_impact_c_01
+Play_sword_high_time
+Play_sword_lev2_sweet_01
+Play_sword_lev3_sweet_01
+Play_sword_lev4_sweet_01
+Play_sword_to_floor
+Play_weap_sword_charge_01
+Play_weap_sword_charge_01_03
+Play_weap_sword_drive_charge_01
+Play_weap_sword_drive_charge_in_01
+Play_weap_sword_drive_unleash_01
+Play_weap_sword_drive_unleash_02
+Play_wide_whoosh
+Stop_sword_001_whips
+Stop_sword_001_whips_01
+Stop_sword_angel_centre_sweet_stage_01_01
+Stop_sword_angel_centre_sweet_stage_02_01
+Stop_sword_angel_centre_sweet_stage_03_01
+Stop_sword_angel_centre_sweet_stage_04_01
+Stop_sword_demon_sweet_stage_01_01
+Stop_sword_demon_sweet_stage_02_01
+Stop_sword_demon_sweet_stage_04_01
+Stop_sword_demon_wide_sweet_stage_01_01
+Stop_sword_demon_wide_sweet_stage_02_01
+Stop_sword_demon_wide_sweet_stage_03_01
+Stop_sword_demon_wide_sweet_stage_04_01
+Stop_sword_high_time
+Stop_weap_sword_charge_01_03
+Stop_weap_sword_drive_charge_01
+Stop_weap_sword_drive_charge_in_01
+Stop_weap_sword_drive_unleash_01
+Stop_weap_sword_drive_unleash_02
+Stop_wide_whoosh
+
+### RTPC/GAME-VARIABLE NAMES (2363936080.bnk: Birthrights_Human_Rebellion)
+event_pitch
+event_volume
+
+### EVENT NAMES (2705562944.bnk: Birthrights_Human_Shotgun)
+Play_shotgun_bomb_explode
+Play_shotgun_primary_fire
+Play_shotgun_primary_reload
+Play_shotgun_primary_unholster
+Play_shotgun_secondary_charge
+Play_shotgun_secondary_draw_01
+Play_shotgun_secondary_launch
+Play_shotgun_secondary_whine
+Stop_shotgun_secondary_charge
+
+### RTPC/GAME-VARIABLE NAMES (2705562944.bnk: Birthrights_Human_Shotgun)
+event_pitch
+event_volume
+
+### EVENT NAMES (2818514447.bnk: Brithrights_Angel_Spear)
+Play_weap_Angel_Spear_sweep_01
+Play_weap_Angel_Spear_sweep_centre_01
+# 648792004
+# 648792007
+# 1766996340
+# 1766996343
+# 2745815272
+# 3982878598
+
+### RTPC/GAME-VARIABLE NAMES (2818514447.bnk: Brithrights_Angel_Spear)
+event_volume
+
+### EVENT NAMES (744420038.bnk: Char_Phineas_Foley)
+Play_char_phineas_helmet_fiddle_01
+Play_clothing
+Play_phineas_footsteps
+
+### RTPC/GAME-VARIABLE NAMES (744420038.bnk: Char_Phineas_Foley)
+event_volume
+
+### EVENT NAMES (4000737826.bnk: Char_Rage_Baby)
+Play_char_baby_rage_attack
+Play_char_baby_rage_breathe
+Play_char_baby_rage_hurt
+Play_char_baby_rage_swipe_attack
+Play_char_baby_rage_windup
+Play_rage_baby_bodyfall
+Play_rage_baby_footsteps_01
+Stop_char_baby_rage_attack
+Stop_char_baby_rage_breathe
+Stop_char_baby_rage_hurt
+Stop_char_baby_rage_swipe_attack
+Stop_char_baby_rage_windup
+# 4187744841
+# 4284072743
+
+### RTPC/GAME-VARIABLE NAMES (4000737826.bnk: Char_Rage_Baby)
+event_volume
+
+### EVENT NAMES (1030692477.bnk: Char_Wisp)
+Mute_Wisp
+Play_combat_hit_Wisp_nodamage
+Play_Wisp_backing_movement_ghost
+Play_Wisp_backing_movement_solid
+Play_Wisp_charge_attack
+Play_Wisp_charge_attack_lunge
+Play_Wisp_dart_whoosh
+Play_Wisp_foley_leather
+Play_Wisp_foley_rattle_cloth
+Play_Wisp_Movement_flutter_wide
+Play_Wisp_spin_attack
+Play_Wisp_swipe_attack
+Play_Wisp_vocal_breath_in
+Play_Wisp_vocal_breath_out
+Play_Wisp_vocal_charge_attack_A
+Play_Wisp_vocal_charge_attack_B
+Play_Wisp_vocal_charge_attack_C
+Play_Wisp_vocal_enraged
+Play_Wisp_vocal_get_hit_always
+Play_Wisp_vocal_get_hit_rand
+Play_Wisp_vocal_spin_attack_A
+Play_Wisp_vocal_spin_attack_B
+Play_Wisp_vocal_spin_attack_C
+Play_Wisp_vocal_swipe_attack
+Play_Wisp_vocal_swipe_attack_telegraph
+Stop_Wisp_backing_movement
+Stop_Wisp_backing_movement_ghost
+Stop_Wisp_backing_movement_solid
+Stop_Wisp_charge_attack
+Stop_Wisp_charge_attack_lunge
+Stop_Wisp_spin_attack
+Stop_Wisp_vocal_breath_in
+Stop_Wisp_vocal_breath_out
+Stop_Wisp_vocal_charge_attack_A
+Stop_Wisp_vocal_charge_attack_B
+Stop_Wisp_vocal_charge_attack_C
+Stop_Wisp_vocal_enraged
+Stop_Wisp_vocal_get_hit_always
+Stop_Wisp_vocal_get_hit_rand
+Stop_Wisp_vocal_spin_attack_A
+Stop_Wisp_vocal_spin_attack_B
+Stop_Wisp_vocal_spin_attack_C
+Stop_Wisp_vocal_swipe_attack
+Stop_Wisp_vocal_swipe_attack_telegraph
+UnMute_Wisp
+
+### RTPC/GAME-VARIABLE NAMES (1030692477.bnk: Char_Wisp)
+event_volume
+
+### EVENT NAMES (3255496149.bnk: DLC_CS_CH4_SFX_Chapel_Arrival)
+Play_CS_CH4_Chapel_Arrival
+Stop_CS_CH4_Chapel_Arrival
+
+### EVENT NAMES (467338244.bnk: DLC_Ch1_Eva_Blue_Balls)
+Play_Eva_Blue_Balls_cue
+Play_Eva_Blue_Balls_enter
+Play_Eva_Blue_Balls_loop
+Stop_Eva_Blue_Balls_cue
+Stop_Eva_Blue_Balls_enter
+Stop_Eva_Blue_Balls_loop
+
+### EVENT NAMES (2462666046.bnk: DLC_Ch1_Gates)
+Play_Ch1_Gates_Close
+Play_Ch1_Gates_Open
+Stop_Ch1_Gates_Close
+Stop_Ch1_Gates_Open
+
+### EVENT NAMES (605778325.bnk: DLC_Ch1_Portal_of_Light)
+Play_DLC1_Ch1_Portal_of_Light
+
+### RTPC/GAME-VARIABLE NAMES (605778325.bnk: DLC_Ch1_Portal_of_Light)
+event_pitch
+event_volume
+
+### EVENT NAMES (923666358.bnk: DLC_Ch1_Weak_SFX)
+Play_DLC1_CS_CH1_Weak
+Stop_DLC1_CS_CH1_Weak
+
+### RTPC/GAME-VARIABLE NAMES (923666358.bnk: DLC_Ch1_Weak_SFX)
+event_pitch
+event_volume
+
+### EVENT NAMES (1950474886.bnk: DLC_Ch3_CS_Vergil_sees_Dante)
+Play_Vergil_sees_hollow_Dante
+Play_Vergil_sees_hollow_Dante_land
+Stop_Vergil_sees_hollow_Dante
+
+### EVENT NAMES (668906367.bnk: DLC_Ch3_CS_Vergil_throws_train)
+Play_Ch3_Train_Dante_hit_01
+Play_Ch3_Train_Dante_surprised
+Play_Dante_hit_train
+Play_Vergil_throws_train_Dante
+Play_Vergil_train_bus_by
+Stop_Vergil_throws_train_Dante
+Stop_Vergil_train_bus_by
+
+### EVENT NAMES (2348192513.bnk: DLC_Ch3_Dante_Challenges)
+Play_Dante_Challenges_Vergil_Statue
+Play_Dante_Challenges_Vergil_Statue_scuff
+Stop_Dante_Challenges_Vergil_Statue
+
+### EVENT NAMES (4024082796.bnk: DLC_Ch3_Statue)
+Play_dlc_statue_groans
+
+### RTPC/GAME-VARIABLE NAMES (4024082796.bnk: DLC_Ch3_Statue)
+event_pitch
+event_volume
+
+### EVENT NAMES (2674279838.bnk: DLC_Ch3_Statue_Collapse)
+Play_Ch3_Statue_Collapse_drop_01
+Stop_Ch3_Statue_Collapse_drop_01
+
+### EVENT NAMES (3193278693.bnk: DLC_Ch3_Subway_Doors_01)
+Play_ch3_subway_door_close_lock
+Play_ch3_subway_door_close_move
+Play_ch3_subway_door_open_lock
+Play_ch3_subway_door_open_move
+Stop_ch3_subway_door_close_lock
+Stop_ch3_subway_door_close_move
+Stop_ch3_subway_door_open_lock
+Stop_ch3_subway_door_open_move
+
+### EVENT NAMES (3748177457.bnk: DLC_Ch3_gate)
+Play_dlc_gate_close
+
+### RTPC/GAME-VARIABLE NAMES (3748177457.bnk: DLC_Ch3_gate)
+event_pitch
+event_volume
+
+### EVENT NAMES (211203675.bnk: DLC_Ch3_train_sweet)
+Play_dlc_train_pull
+
+### EVENT NAMES (2090423560.bnk: DLC_Ch_01_Music_Persistent)
+Play_DLC_Chapter_01_Music
+Stop_DLC_Chapter_01_Music
+# 569571266
+# 3993094180
+
+### VARIABLE NAMES (2090423560.bnk: DLC_Ch_01_Music_Persistent)
+DLC_Ch_01_Music
+
+### VALUE NAMES (2090423560.bnk: DLC_Ch_01_Music_Persistent)
+DLC_Ch_01_Ambience_01
+DLC_Ch_01_Ambience_01_alt
+DLC_Ch_01_Ambience_02
+DLC_Ch_01_Chase
+DLC_Ch_01_Chase_End
+DLC_Ch_01_End
+DLC_Ch_01_High_Combat_01
+DLC_Ch_01_Low_Combat_01
+DLC_Ch_01_Low_Combat_01_alt
+DLC_Ch_01_Low_Combat_01_alt_and_swell
+DLC_Ch_01_Low_Combat_01_and_swell
+DLC_Ch_01_Mid_Combat_01
+DLC_Ch_01_Mid_Combat_01_end
+DLC_Ch_01_Mood_Swell_02
+DLC_Ch_01_Music_Fade_2_sec
+DLC_Ch_01_Music_Fade_5_sec
+# 644433557
+
+### EVENT NAMES (3391679449.bnk: DLC_Ch_02_Music_Persistent)
+Play_DLC_Chapter_02_Music
+Stop_DLC_Chapter_02_Music
+# 1956852461
+# 2457751699
+
+### VARIABLE NAMES (3391679449.bnk: DLC_Ch_02_Music_Persistent)
+DLC_Ch_02_Music
+
+### VALUE NAMES (3391679449.bnk: DLC_Ch_02_Music_Persistent)
+DLC_Ch_02_Ambience_01
+DLC_Ch_02_Ambience_01_alt
+DLC_Ch_02_Chase
+DLC_Ch_02_Chase_intro
+DLC_Ch_02_End
+DLC_Ch_02_High_Combat_01
+DLC_Ch_02_High_Combat_01_alt
+DLC_Ch_02_High_Combat_01_alt_and_swell
+DLC_Ch_02_High_Combat_01_and_swell
+DLC_Ch_02_High_Combat_02
+DLC_Ch_02_Mid_Combat_01
+DLC_Ch_02_Mid_Combat_01_alt
+DLC_Ch_02_Music_Fade_2_sec
+DLC_Ch_02_Music_Fade_5_sec
+# 1944541868
+
+### EVENT NAMES (3959341830.bnk: DLC_Ch_03_Music_Persistent)
+Play_DLC_Chapter_03_Music
+Stop_DLC_Chapter_03_Music
+# 671489264
+# 1972050054
+
+### VARIABLE NAMES (3959341830.bnk: DLC_Ch_03_Music_Persistent)
+DLC_Ch_03_Music
+
+### VALUE NAMES (3959341830.bnk: DLC_Ch_03_Music_Persistent)
+DLC_Ch_03_Ambience_01
+DLC_Ch_03_Ambience_01_alt
+DLC_Ch_03_Ambience_01_alt_and_swell
+DLC_Ch_03_Ambience_02
+DLC_Ch_03_Ambience_02_alt
+DLC_Ch_03_Ambience_02_alt_and_swell
+DLC_Ch_03_Chase
+DLC_Ch_03_Chase_and_swell
+DLC_Ch_03_End
+DLC_Ch_03_Low_Combat_01
+DLC_Ch_03_Low_Mid_Combat_02
+DLC_Ch_03_Mid_Combat_01
+DLC_Ch_03_Mid_Combat_01_alt
+DLC_Ch_03_Music_Fade_2_sec
+DLC_Ch_03_Music_Fade_5_sec
+# 369567455
+
+### EVENT NAMES (3160911623.bnk: DLC_Ch_04_Music_Persistent)
+Play_DLC_Chapter_04_Music
+Stop_DLC_Chapter_04_Music
+# 899209877
+# 911196619
+
+### VARIABLE NAMES (3160911623.bnk: DLC_Ch_04_Music_Persistent)
+DLC_Ch_04_Music
+
+### VALUE NAMES (3160911623.bnk: DLC_Ch_04_Music_Persistent)
+DLC_Ch_04_Ambience_01
+DLC_Ch_04_Ambience_01_alt
+DLC_Ch_04_Ambience_02
+DLC_Ch_04_Ambience_02_alt
+DLC_Ch_04_Boss_Fight
+DLC_Ch_04_Boss_Fight_and_Swell
+DLC_Ch_04_End
+DLC_Ch_04_Low_Combat_01
+DLC_Ch_04_Low_Combat_01_alt
+DLC_Ch_04_Low_Mid_Combat_02
+DLC_Ch_04_Mid_Combat_01
+DLC_Ch_04_Mid_Combat_01_alt
+DLC_Ch_04_Mood_Swell_02
+DLC_Ch_04_Music_Fade_2_sec
+DLC_Ch_04_Music_Fade_5_sec
+# 561119694
+
+### EVENT NAMES (2908301652.bnk: DLC_Ch_05_Music_Persistent)
+Play_DLC_Chapter_05_Music
+Stop_DLC_Chapter_05_Music
+# 1000192760
+# 1457991326
+
+### VARIABLE NAMES (2908301652.bnk: DLC_Ch_05_Music_Persistent)
+DLC_Ch_05_Music
+
+### VALUE NAMES (2908301652.bnk: DLC_Ch_05_Music_Persistent)
+DLC_Ch_05_End
+DLC_Ch_05_Invulnerable_A
+DLC_Ch_05_Invulnerable_B
+DLC_Ch_05_Music_Fade_2_sec
+DLC_Ch_05_Music_Fade_5_sec
+DLC_Ch_05_Phase_01
+DLC_Ch_05_Phase_02
+DLC_Ch_05_Phase_03
+# 3916149105
+
+### EVENT NAMES (4063196533.bnk: DLC_Ch_06_Music_Persistent)
+Play_DLC_Chapter_06_Music
+Stop_DLC_Chapter_06_Music
+# 203095017
+# 1720534983
+
+### VARIABLE NAMES (4063196533.bnk: DLC_Ch_06_Music_Persistent)
+DLC_Ch_06_Music
+
+### VALUE NAMES (4063196533.bnk: DLC_Ch_06_Music_Persistent)
+DLC_Ch_06_Ambience_01
+DLC_Ch_06_Ambience_01_alt
+DLC_Ch_06_Ambience_02
+DLC_Ch_06_Ambience_02_alt
+DLC_Ch_06_End
+DLC_Ch_06_High_Combat_01
+DLC_Ch_06_High_Combat_02
+DLC_Ch_06_Mid_Combat_01
+DLC_Ch_06_Mid_Combat_01_alt
+DLC_Ch_06_Mid_Combat_01_and_swell
+DLC_Ch_06_Mid_Combat_02
+DLC_Ch_06_Mid_Combat_02_alt
+DLC_Ch_06_Mid_Combat_02_alt_and_swell
+DLC_Ch_06_Mood_Swell_01
+DLC_Ch_06_Mood_Swell_03
+DLC_Ch_06_Music_Fade_2_sec
+DLC_Ch_06_Music_Fade_5_sec
+# 52344536
+
+### EVENT NAMES (893157903.bnk: DLC_Gamewide_Platform_Pulls)
+Play_DLC_Platform_Pull_In
+Play_DLC_Platform_Pull_Out
+
+### EVENT NAMES (1665496597.bnk: DLC_Tomb_Stairs_Action_Off)
+Play_ch4_tunnel_action_off
+Stop_ch4_tunnel_action_off
+
+### RTPC/GAME-VARIABLE NAMES (1665496597.bnk: DLC_Tomb_Stairs_Action_Off)
+event_pitch
+event_volume
+
+### EVENT NAMES (2852887942.bnk: DLC_ch1_BGs)
+Play_dlc_ch1_ext_wind
+Play_dlc_ch1_int_howl
+Stop_dlc_ch1_ext_wind
+Stop_dlc_ch1_int_howl
+
+### RTPC/GAME-VARIABLE NAMES (2852887942.bnk: DLC_ch1_BGs)
+event_pitch
+event_volume
+
+### EVENT NAMES (3466288955.bnk: DLC_ch1_Chase_Rocks)
+Play_ch1_rock_imcoming
+Play_Chase_Rock_01
+Play_Chase_Rock_02
+
+### RTPC/GAME-VARIABLE NAMES (3466288955.bnk: DLC_ch1_Chase_Rocks)
+event_pitch
+event_volume
+
+### EVENT NAMES (349463300.bnk: DLC_ch1_Wisp_Intro)
+Play_Wisp_Intro
+
+### RTPC/GAME-VARIABLE NAMES (349463300.bnk: DLC_ch1_Wisp_Intro)
+event_pitch
+event_volume
+
+### EVENT NAMES (33063015.bnk: DLC_ch1_brothers)
+Play_cine_brothers
+Stop_cine_brothers
+
+### RTPC/GAME-VARIABLE NAMES (33063015.bnk: DLC_ch1_brothers)
+event_pitch
+event_volume
+
+### EVENT NAMES (4284127753.bnk: DLC_ch1_mansion_collapse)
+Play_mansion_collapse_a_wide
+
+### RTPC/GAME-VARIABLE NAMES (4284127753.bnk: DLC_ch1_mansion_collapse)
+event_pitch
+event_volume
+
+### EVENT NAMES (2986053352.bnk: DLC_ch1_rocks_fall)
+Play_dlc_ch1_rocks_fall
+
+### RTPC/GAME-VARIABLE NAMES (2986053352.bnk: DLC_ch1_rocks_fall)
+event_pitch
+event_volume
+
+### EVENT NAMES (1140443645.bnk: DLC_ch2_BGs)
+Play_dlc_ch2_ext_wind
+Stop_dlc_ch2_ext_wind
+
+### RTPC/GAME-VARIABLE NAMES (1140443645.bnk: DLC_ch2_BGs)
+event_pitch
+event_volume
+
+### EVENT NAMES (3560208018.bnk: DLC_ch2_Meteors)
+Play_Meteor_Impact
+
+### RTPC/GAME-VARIABLE NAMES (3560208018.bnk: DLC_ch2_Meteors)
+event_volume
+
+### EVENT NAMES (470051768.bnk: DLC_ch2_Plaza_Breakup)
+Play_Plaza_floor_breakup
+Play_Plaza_floor_breakup_inci
+
+### RTPC/GAME-VARIABLE NAMES (470051768.bnk: DLC_ch2_Plaza_Breakup)
+event_volume
+
+### EVENT NAMES (1426696892.bnk: DLC_ch2_Portal_Exit)
+Play_Ch2_Portal_exit
+Stop_Ch2_Portal_exit
+
+### EVENT NAMES (1015236721.bnk: DLC_ch2_Setpiece_Church_Up_To)
+Play_Chruch_Up_To
+Stop_Chruch_Up_To
+
+### EVENT NAMES (2329911106.bnk: DLC_ch2_Setpiece_Plaza)
+Play_The_Plaza
+Stop_The_Plaza
+
+### EVENT NAMES (3012431945.bnk: DLC_ch2_Setpiece_Surrounded_01)
+Play_Surrounded_01
+Stop_Surrounded_01
+
+### EVENT NAMES (3012431946.bnk: DLC_ch2_Setpiece_Surrounded_02)
+Play_Surrounded_02
+Stop_Surrounded_02
+
+### EVENT NAMES (1106238532.bnk: DLC_ch2_gravestones)
+Play_gravestone_break
+
+### EVENT NAMES (3317908444.bnk: DLC_ch3_BGs)
+Play_dlc_ch3_ext_wind
+Play_dlc_ch3_int_exposed
+Play_dlc_ch3_int_tone
+Play_dlc_ch3_statue_peak
+Stop_dlc_ch3_ext_wind
+Stop_dlc_ch3_int_exposed
+Stop_dlc_ch3_int_tone
+Stop_dlc_ch3_statue_peak
+
+### RTPC/GAME-VARIABLE NAMES (3317908444.bnk: DLC_ch3_BGs)
+event_pitch
+event_volume
+
+### EVENT NAMES (1694643993.bnk: DLC_ch3_angel_lift_bit)
+Play_angel_lift_bit
+
+### EVENT NAMES (972880914.bnk: DLC_ch3_crash_thru_wall)
+Play_Crash_Thru_Wall
+Stop_Crash_Thru_Wall
+
+### EVENT NAMES (4093111982.bnk: DLC_ch3_shoot_roof)
+Play_shoot_roof_01
+
+### EVENT NAMES (859630856.bnk: DLC_ch4_BGs_rain)
+Play_dlc_ch4_ext_rain
+Play_dlc_ch4_lightning
+Stop_dlc_ch4_ext_rain
+
+### RTPC/GAME-VARIABLE NAMES (859630856.bnk: DLC_ch4_BGs_rain)
+event_pitch
+event_volume
+
+### EVENT NAMES (3308522820.bnk: DLC_ch4_BGs_tomb)
+Play_dlc_ch4_tomb_chamber
+Play_dlc_ch4_tomb_tunnel
+Stop_dlc_ch4_tomb_chamber
+Stop_dlc_ch4_tomb_tunnel
+
+### RTPC/GAME-VARIABLE NAMES (3308522820.bnk: DLC_ch4_BGs_tomb)
+event_pitch
+event_volume
+
+### EVENT NAMES (847094592.bnk: DLC_ch4_BGs_waterfall)
+Play_dlc_ch4_waterfall_close
+Play_dlc_ch4_waterfall_dist
+Stop_dlc_ch4_waterfall_close
+Stop_dlc_ch4_waterfall_dist
+
+### RTPC/GAME-VARIABLE NAMES (847094592.bnk: DLC_ch4_BGs_waterfall)
+event_pitch
+event_volume
+
+### EVENT NAMES (856982756.bnk: DLC_ch4_cine_cave_in)
+Play_cine_cave_in
+Stop_cine_cave_in
+
+### RTPC/GAME-VARIABLE NAMES (856982756.bnk: DLC_ch4_cine_cave_in)
+event_pitch
+event_volume
+
+### EVENT NAMES (2696852479.bnk: DLC_ch4_cine_stairs)
+Play_cine_stairs
+Stop_cine_stairs
+
+### RTPC/GAME-VARIABLE NAMES (2696852479.bnk: DLC_ch4_cine_stairs)
+event_pitch
+event_volume
+
+### EVENT NAMES (1006120534.bnk: DLC_ch4_cine_tomb_close)
+Play_cine_tomb_shut
+
+### RTPC/GAME-VARIABLE NAMES (1006120534.bnk: DLC_ch4_cine_tomb_close)
+event_pitch
+event_volume
+
+### EVENT NAMES (797514522.bnk: DLC_ch4_lightning_strike)
+Play_lightning_strike
+
+### RTPC/GAME-VARIABLE NAMES (797514522.bnk: DLC_ch4_lightning_strike)
+event_pitch
+event_volume
+
+### EVENT NAMES (3266678505.bnk: DLC_ch4_wood_obstruction)
+Play_dlc_wood_obstruction_destroy
+Play_dlc_wood_obstruction_hit
+
+### RTPC/GAME-VARIABLE NAMES (3266678505.bnk: DLC_ch4_wood_obstruction)
+event_pitch
+event_volume
+
+### EVENT NAMES (3959319082.bnk: DLC_ch5_BGs)
+Play_ch5_thunder_cracks
+Play_dlc_ch5_desert_wind
+Play_dlc_ch5_rain
+Play_dlc_ch5_thunder_roll
+Stop_dlc_ch5_desert_wind
+Stop_dlc_ch5_rain
+
+### EVENT NAMES (3589631783.bnk: DLC_ch5_EndPhase1)
+Play_EndPhase1
+
+### RTPC/GAME-VARIABLE NAMES (3589631783.bnk: DLC_ch5_EndPhase1)
+event_pitch
+event_volume
+
+### EVENT NAMES (3589631780.bnk: DLC_ch5_EndPhase2)
+Play_EndPhase2
+
+### RTPC/GAME-VARIABLE NAMES (3589631780.bnk: DLC_ch5_EndPhase2)
+event_pitch
+event_volume
+
+### EVENT NAMES (3769060620.bnk: DLC_ch5_faceoff)
+Play_cine_faceoff
+
+### RTPC/GAME-VARIABLE NAMES (3769060620.bnk: DLC_ch5_faceoff)
+event_pitch
+event_volume
+
+### EVENT NAMES (1951306513.bnk: DLC_ch6_BGs)
+Play_dlc_ch6_ext_wind
+Play_dlc_ch6_int_howl
+Stop_dlc_ch6_ext_wind
+Stop_dlc_ch6_int_howl
+
+### RTPC/GAME-VARIABLE NAMES (1951306513.bnk: DLC_ch6_BGs)
+event_pitch
+event_volume
+
+### EVENT NAMES (3449152244.bnk: DLC_ch6_DT_Intro)
+Play_DT_Intro_A_ST
+Play_DT_Intro_B
+
+### RTPC/GAME-VARIABLE NAMES (3449152244.bnk: DLC_ch6_DT_Intro)
+event_pitch
+event_volume
+
+### EVENT NAMES (1471469818.bnk: DLC_ch6_Island_destruct_B)
+Play_Island_Destruct_B
+
+### RTPC/GAME-VARIABLE NAMES (1471469818.bnk: DLC_ch6_Island_destruct_B)
+event_pitch
+event_volume
+
+### EVENT NAMES (3523359388.bnk: DLC_ch6_SetPiece_Island_Destruct)
+Play_Island_Destruct
+Stop_Island_Destruct
+
+### RTPC/GAME-VARIABLE NAMES (3523359388.bnk: DLC_ch6_SetPiece_Island_Destruct)
+event_pitch
+event_volume
+
+### EVENT NAMES (1773227960.bnk: DLC_ch6_SetPiece_Opening)
+Play_opening
+Stop_opening
+
+### RTPC/GAME-VARIABLE NAMES (1773227960.bnk: DLC_ch6_SetPiece_Opening)
+event_pitch
+event_volume
+
+### EVENT NAMES (332421097.bnk: DLC_ch6_arch_island_collapse)
+Play_arch_island_collapse
+
+### RTPC/GAME-VARIABLE NAMES (332421097.bnk: DLC_ch6_arch_island_collapse)
+event_volume
+
+### EVENT NAMES (4123811478.bnk: DLC_ch6_archway_collapse)
+Play_dlc_env_archway_collapse
+
+### RTPC/GAME-VARIABLE NAMES (4123811478.bnk: DLC_ch6_archway_collapse)
+event_volume
+
+### EVENT NAMES (1335479048.bnk: DLC_ch6_bridge_collaspe)
+Play_dlc_env_bridge_collapse
+
+### RTPC/GAME-VARIABLE NAMES (1335479048.bnk: DLC_ch6_bridge_collaspe)
+event_volume
+
+### EVENT NAMES (3250873100.bnk: DLC_ch6_buildingfall)
+Play_building_fall_1
+
+### RTPC/GAME-VARIABLE NAMES (3250873100.bnk: DLC_ch6_buildingfall)
+event_volume
+
+### EVENT NAMES (1804515084.bnk: DLC_ch6_end_plat_collapse)
+Play_dlc_env_end_plat_collapse
+
+### RTPC/GAME-VARIABLE NAMES (1804515084.bnk: DLC_ch6_end_plat_collapse)
+event_volume
+
+### EVENT NAMES (3481344503.bnk: DLC_ch6_entrance_reveal)
+Play_dlc_env_entrance_reveal
+
+### RTPC/GAME-VARIABLE NAMES (3481344503.bnk: DLC_ch6_entrance_reveal)
+event_volume
+
+### EVENT NAMES (2852945934.bnk: DLC_ch6_firepit)
+Play_firepit_extend
+
+### RTPC/GAME-VARIABLE NAMES (2852945934.bnk: DLC_ch6_firepit)
+event_pitch
+event_volume
+
+### EVENT NAMES (1771395793.bnk: DLC_ch6_fountain_plat_collapse)
+Play_dlc_env_fountain_plat_collapse
+
+### RTPC/GAME-VARIABLE NAMES (1771395793.bnk: DLC_ch6_fountain_plat_collapse)
+event_volume
+
+### EVENT NAMES (3982398045.bnk: DLC_ch6_gates)
+Play_ch6_gatesClose
+Play_ch6_gatesOpen
+
+### RTPC/GAME-VARIABLE NAMES (3982398045.bnk: DLC_ch6_gates)
+event_pitch
+event_volume
+
+### EVENT NAMES (3088191002.bnk: DLC_ch6_island_collapse)
+Play_dlc_env_island_collapse
+
+### RTPC/GAME-VARIABLE NAMES (3088191002.bnk: DLC_ch6_island_collapse)
+event_volume
+
+### EVENT NAMES (2604534928.bnk: DLC_ch6_lightning_strike)
+Play_dlc_ch6_lightning_strike
+
+### RTPC/GAME-VARIABLE NAMES (2604534928.bnk: DLC_ch6_lightning_strike)
+event_pitch
+event_volume
+
+### EVENT NAMES (332601780.bnk: DLC_ch6_mansion_collapse_a)
+Play_dlc_env_mansion_collapse_a
+
+### RTPC/GAME-VARIABLE NAMES (332601780.bnk: DLC_ch6_mansion_collapse_a)
+event_pitch
+event_volume
+
+### EVENT NAMES (2294171131.bnk: DLC_ch6_mansion_collapse_intro)
+Play_ch6_mansion_collapse
+
+### RTPC/GAME-VARIABLE NAMES (2294171131.bnk: DLC_ch6_mansion_collapse_intro)
+event_pitch
+event_volume
+
+### EVENT NAMES (4200487509.bnk: DLC_ch6_platforms_collapse)
+Play_platform_collapse_01
+Play_platform_creak
+
+### RTPC/GAME-VARIABLE NAMES (4200487509.bnk: DLC_ch6_platforms_collapse)
+event_volume
+
+### EVENT NAMES (2948710346.bnk: DLC_ch6_pointless_collapse)
+Play_dlc_env_pointless_collapse
+
+### RTPC/GAME-VARIABLE NAMES (2948710346.bnk: DLC_ch6_pointless_collapse)
+event_volume
+
+### EVENT NAMES (2958144644.bnk: DLC_ch6_roof_crumble)
+Play_dlc_env_roof_crumble
+
+### RTPC/GAME-VARIABLE NAMES (2958144644.bnk: DLC_ch6_roof_crumble)
+event_pitch
+event_volume
+
+### EVENT NAMES (576324413.bnk: DLC_char_vergil_boss_grunts)
+Play_DLC_Vergil_Boss_Grunt_Attack_Into
+Play_DLC_Vergil_Boss_Grunt_Attack_Med
+Play_Vergil_Boss_Judgement_Impact
+Play_Vergil_Boss_Teleport_In
+Play_Vergil_Boss_Teleport_Out
+Play_vergil_hit_vo
+Stop_DLC_Vergil_Boss_Grunt_Attack_Into
+Stop_DLC_Vergil_Boss_Grunt_Attack_Med
+
+### RTPC/GAME-VARIABLE NAMES (576324413.bnk: DLC_char_vergil_boss_grunts)
+event_volume
+
+### EVENT NAMES (308405669.bnk: DLC_char_vergil_boss_ranged)
+Play_HollowVergil_BigSword
+Play_HollowVergil_BigSword_hit
+Play_HollowVergil_SixSwords_fast_build
+Play_HollowVergil_SixSwords_fire
+Play_HollowVergil_SixSwords_slow_build
+Play_Vergil_Boss_Powerup_Glint
+
+### RTPC/GAME-VARIABLE NAMES (308405669.bnk: DLC_char_vergil_boss_ranged)
+event_volume
+
+### EVENT NAMES (901238551.bnk: DLC_char_vergil_foley)
+Play_combo_1_in
+Play_combo_2_in
+Play_combo_3_in
+Play_combo_4_in
+Play_combo_5_in
+Play_core_dante_tumble
+Play_core_dante_tumble_boots_01
+Play_core_dante_tumble_boots_02
+Play_core_dante_tumble_slip_01
+Play_core_dante_tumble_slip_02
+Play_core_dante_tumble_whoosh_01
+Play_core_dante_tumble_whoosh_02
+Play_Demon_pull_enemy_01
+Play_DLC_Blistering_Appear
+Play_DLC_impact_huge_ground_01
+Play_DLC_Jcut_init
+Play_DLC_Jcut_Shimmer_Into
+Play_DLC_Vergil_Aerial_Flush_Projectile_Impact
+Play_DLC_Vergil_Aerial_Flush_Projectile_Launch
+Play_DLC_vergil_clothes_01
+Play_DLC_vergil_clothes_attack_01
+Play_DLC_vergil_clothes_heavy_01
+Play_DLC_vergil_clothes_jump_01
+Play_DLC_vergil_Clothes_Run_01
+Play_DLC_vergil_clothes_walk_01
+Play_DLC_Vergil_Evade_Into_01
+Play_DLC_Vergil_Fire_Detail
+Play_DLC_Vergil_Fire_Detail_01
+Play_DLC_vergil_footsteps_generic_01
+Play_DLC_vergil_footsteps_generic_2D
+Play_DLC_vergil_footsteps_Impact_Scuff_01
+Play_DLC_vergil_footsteps_Impact_Scuff_2D
+Play_DLC_vergil_footsteps_land_thud_01
+Play_DLC_vergil_footsteps_land_thud_2D
+Play_DLC_vergil_footsteps_scuff_01
+Play_DLC_vergil_footsteps_scuff_2D
+Play_DLC_vergil_footsteps_toe_01
+Play_DLC_vergil_footsteps_toe_2D
+Play_DLC_vergil_footsteps_walk_01
+Play_DLC_vergil_footsteps_walk_2d
+Play_DLC_Vergil_Glide_Into_01
+Play_DLC_Vergil_killerbee_Into
+Play_DLC_Vergil_killerbee_land
+Play_DLC_vergil_projectile_overlay_normal
+Play_DLC_vergil_sword_angel_projectile_fire
+Play_DLC_vergil_sword_demon_projectile_fire
+Play_DLC_Vergil_Sword_Drive_Windup_C_01
+Play_DLC_vergil_sword_projectile_damage_shield
+Play_DLC_vergil_sword_projectile_destroy
+Play_DLC_vergil_sword_projectile_fire
+Play_DLC_Vergil_Sword_Volcano_Into_C_01
+Play_DoppelgangerAppear
+Play_DoppelgangerDisAppear
+Play_foot_run
+Play_foot_walk
+Play_gore_fall
+Play_gore_fall_3d
+Play_LastManSlomo
+Play_perfect_charge_release
+Play_Swornado_01
+Play_Vergil_AngelLift_cloth_01
+Play_Vergil_Judgement_Impact
+Play_Vergil_Spinning_Storm_Sword_Into
+Play_Vergil_Spinning_Sword_Into
+Play_Vergil_Spinning_Sword_Sustain
+Play_Vergil_Storm_Swords_Fire
+Play_Vergil_Sword_Combo_01
+Play_Vergil_Sword_Combo_02
+Play_Vergil_Sword_Combo_03
+Play_Vergil_Sword_Combo_03b
+Play_Vergil_Sword_Combo_04
+Play_Vergil_Sword_Combo_05
+Play_Vergil_Sword_Dash
+Play_Vergil_Sword_Demon_Combo_01
+Play_Vergil_Sword_Demon_Combo_02
+Play_Vergil_Sword_Demon_Combo_03
+Play_Vergil_Sword_Drive_Impact
+Play_Vergil_Sword_Flush
+Play_Vergil_Sword_Helmbreaker_Into
+Play_Vergil_Sword_Helmbreaker_Into_Land
+Play_vergil_sword_high_whoosh
+Play_vergil_sword_Judgement_Impact
+Play_Vergil_Sword_Judgement_Into
+Play_Vergil_Sword_Judgement_Sustain
+Play_vergil_sword_mid_whoosh
+Play_Vergil_Sword_PreSheath_Wizzle_01
+Play_vergil_sword_sheath_clack
+Play_vergil_sword_sheath_position
+Play_vergil_sword_sheath_zizz
+Play_Vergil_Sword_Sword_Upper_Slash_01
+Play_Vergil_Sword_Sword_Upper_Slash_02
+Play_Vergil_Sword_Swornado_02
+Play_vergil_sword_tail_whoosh
+Play_Vergil_Sword_Upper_Slash_Sparks
+Play_Vergil_Sword_Volcano_Impact
+Play_Vergil_Sword_Waterwheel
+Play_vergil_weapon_pause_tell
+Play_VergilAngelLift
+Stop_core_dante_tumble
+Stop_core_dante_tumble_boots_01
+Stop_core_dante_tumble_boots_02
+Stop_core_dante_tumble_slip_01
+Stop_core_dante_tumble_slip_02
+Stop_core_dante_tumble_whoosh_01
+Stop_core_dante_tumble_whoosh_02
+Stop_DLC_Vergil_Aerial_Flush_Projectile_Launch
+Stop_DLC_Vergil_killerbee_Into
+Stop_DLC_Vergil_Sword_Volcano_Into_C_01
+Stop_LastManSlomo
+Stop_Swornado_01
+Stop_Vergil_Spinning_Sword_Sustain
+Stop_Vergil_Sword_Combo_01
+Stop_Vergil_Sword_Combo_02
+Stop_Vergil_Sword_Combo_03
+Stop_Vergil_Sword_Combo_03b
+Stop_Vergil_Sword_Combo_04
+Stop_Vergil_Sword_Combo_05
+Stop_Vergil_Sword_Dash
+Stop_Vergil_Sword_Demon_Combo_01
+Stop_Vergil_Sword_Demon_Combo_02
+Stop_Vergil_Sword_Demon_Combo_03
+Stop_Vergil_Sword_Judgement_Sustain
+Stop_Vergil_Sword_PreSheath_Wizzle_01
+Stop_Vergil_Sword_Waterwheel
+
+### RTPC/GAME-VARIABLE NAMES (901238551.bnk: DLC_char_vergil_foley)
+event_pitch
+event_volume
+
+### VARIABLE NAMES (901238551.bnk: DLC_char_vergil_foley)
+DopplegangerDelay
+ground_materials
+# 1063345258
+
+### VALUE NAMES (901238551.bnk: DLC_char_vergil_foley)
+_null
+delayoff
+delayon
+Dirt
+dust
+mud
+none
+off
+on
+Sand
+Stone
+Water
+
+### EVENT NAMES (2937783847.bnk: DLC_char_vergil_grunts)
+Play_char_dante_cs_attack_react_VO
+Play_DLC_Vergil_Grunts_Pain
+
+### EVENT NAMES (3480701736.bnk: DLC_char_vergil_grunts_wounded)
+Play_DLC_Vergil_Grunt_Big_Effort
+Play_DLC_Vergil_Grunt_Breath
+Play_DLC_Vergil_Grunt_Breath_Seldom
+Play_DLC_Vergil_Grunt_Small_Effort
+Play_DLC_Vergil_Grunts_Wounded_Jump_Seldom
+Play_DLC_Vergil_Grunts_Wounded_Land_Seldom
+Play_DLC_Vergil_Grunts_Wounded_Small_Effort_Seldom
+
+### EVENT NAMES (3012150759.bnk: DLC_disappear_platforms)
+Play_disappear_platform_appear
+Play_disappear_platform_disappear
+
+### EVENT NAMES (607163154.bnk: DLC_spots_fire_car)
+Play_dlc_fire_car
+Stop_dlc_fire_car
+
+### RTPC/GAME-VARIABLE NAMES (607163154.bnk: DLC_spots_fire_car)
+event_pitch
+event_volume
+
+### EVENT NAMES (3244920180.bnk: DLC_spots_fire_roar)
+Play_dlc_fire_roar
+Stop_dlc_fire_roar
+
+### RTPC/GAME-VARIABLE NAMES (3244920180.bnk: DLC_spots_fire_roar)
+event_pitch
+event_volume
+
+### EVENT NAMES (2696978400.bnk: DLC_spots_fire_tree)
+Play_dlc_fire_tree
+Stop_dlc_fire_tree
+
+### RTPC/GAME-VARIABLE NAMES (2696978400.bnk: DLC_spots_fire_tree)
+event_pitch
+event_volume
+
+### EVENT NAMES (3230577234.bnk: DLC_spots_lava_outflow)
+Play_dlc_lava_outflow
+Stop_dlc_lava_outflow
+
+### RTPC/GAME-VARIABLE NAMES (3230577234.bnk: DLC_spots_lava_outflow)
+event_pitch
+event_volume
+
+### EVENT NAMES (2647458242.bnk: DLC_spots_magma_walls)
+Play_dlc_magma_walls
+Play_dlc_magma_walls_2d
+Stop_dlc_magma_walls
+Stop_dlc_magma_walls_2d
+
+### RTPC/GAME-VARIABLE NAMES (2647458242.bnk: DLC_spots_magma_walls)
+event_pitch
+event_volume
+
+### EVENT NAMES (1483561012.bnk: Demon_Decay_Blood)
+Play_env_demon_decay_blood_in_big
+Play_env_demon_decay_blood_in_detail
+Play_env_demon_decay_blood_out_big
+Play_env_demon_decay_blood_out_detail
+
+### RTPC/GAME-VARIABLE NAMES (1483561012.bnk: Demon_Decay_Blood)
+event_volume
+
+### EVENT NAMES (3407226711.bnk: Demon_Decay_Roots)
+Play_demon_decay_roots_large_a
+Play_demon_decay_roots_large_a_pitch
+Play_demon_decay_roots_large_b
+Play_demon_decay_roots_large_b_pitch
+Stop_demon_decay_roots_large_a
+Stop_demon_decay_roots_large_a_pitch
+Stop_demon_decay_roots_large_b
+Stop_demon_decay_roots_large_b_pitch
+
+### RTPC/GAME-VARIABLE NAMES (3407226711.bnk: Demon_Decay_Roots)
+event_volume
+
+### EVENT NAMES (4143788402.bnk: Demon_Decay_Wall_Collapse)
+Play_demon_decay_wall_collapse
+
+### RTPC/GAME-VARIABLE NAMES (4143788402.bnk: Demon_Decay_Wall_Collapse)
+event_volume
+
+### EVENT NAMES (3508751343.bnk: Secret_Missions_Generic)
+Play_SM_dud_01
+Play_SM_Fail
+Play_SM_Goal_Hit
+Play_SM_Pickup_Get
+Play_SM_Pickup_Reveal
+Play_SM_Start
+Play_SM_Win
+# 723089117
+# 3454789701
+# 4013831570
+
+### EVENT NAMES (2378126911.bnk: Utility)
+Challenge_Room_Fade_Music_3sec
+Challenge_Room_Fade_Music_5sec
+Challenge_Room_Fade_Music_halfsec
+Challenge_Room_Reset_Music_1sec
+End_Game
+EnemyIntroPause
+EnemyIntroResume
+Master_End_Cutscene_Fade_1sec
+Master_End_Cutscene_Fade_2sec
+Master_End_Cutscene_Fade_3sec
+Master_End_Cutscene_Fade_halfsec
+Master_Fade_halfsec
+Master_Fade_out_1sec
+Master_Fade_out_2_halfsec
+Master_Fade_out_2sec
+Master_Fade_out_3sec
+Master_Fade_out_halfsec
+Master_Game_End_Credits_Fade
+Master_pause_all
+Master_Reset_All
+Master_Reset_All_Fade_1sec
+Master_Reset_All_Fade_2sec
+Master_Reset_All_Fade_3sec
+Master_Reset_All_Fade_half_sec
+Master_resume_all
+Mission_End
+mission_Load
+Mission_Start
+Mute_Dante_Grunts
+Mute_environment
+Mute_generic_spawn_fx
+Mute_Master_Audio_Bus
+Mute_MUSIC
+Mute_SFX
+Mute_VOC
+Pause_Death
+Restart_From_Checkpoint
+Restart_Level
+Resume_Death
+Stop_all
+Stop_environment
+Stop_Matinee_Skipped
+stop_music
+Stop_SFX
+Stop_VOC
+Tutorial_end
+Tutorial_start
+UnMute_Dante_Grunts
+UnMute_environment
+UnMute_generic_spawn_fx
+UnMute_Master_Audio_Bus
+UnMute_MUSIC
+UnMute_SFX
+UnMute_VOC
+
+### RTPC/GAME-VARIABLE NAMES (2378126911.bnk: Utility)
+event_pitch
+event_volume
+
+### VARIABLE NAMES (2378126911.bnk: Utility)
+Mixer
+UI_button_hack
+
+### VALUE NAMES (2378126911.bnk: Utility)
+off
+Tutorial_end
+Tutorial_start
+
+### EVENT NAMES (4235004734.bnk: _generic_ambience)
+Play_randomBGamb
+Stop_randomBGamb
+
+### EVENT NAMES (3230521428.bnk: _pan_test)
+# 1108834248
+# 1108834262
+
+### RTPC/GAME-VARIABLE NAMES (3230521428.bnk: _pan_test)
+pan_fb
+pan_LR
+
+### EVENT NAMES (4243120919.bnk: _seek_test)
+seek_test
+
+### RTPC/GAME-VARIABLE NAMES (4243120919.bnk: _seek_test)
+event_pitch
+event_volume
+
+### EVENT NAMES (4185300363.bnk: _test_sounds)
+Play_a
+Play_footTest
+Play_LOCATOR_env_goo
+Play_metal
+Play_OcclusionTest
+Play_ReverbTest
+Play_rock_hit
+Play_test_cuckoo
+Play_test_cuckoo_loop
+Play_test_horn
+Play_test_horn_low
+Play_test_pam
+Play_voline
+Play_voline_01
+Play_wood
+Play_wood_Dirt_impact
+Play_wood_impact
+Play_wood_slide_loop
+Stop_LOCATOR_env_goo
+stop_metal
+Stop_OcclusionTest
+Stop_ReverbTest
+Stop_test_cuckoo_loop
+Stop_test_cuckoo_loop_global
+Stop_VOLine
+Stop_wood
+Stop_wood_slide_loop
+# 298593649
+# 329830549
+# 491172060
+# 863154807
+# 1151989575
+# 1405995526
+# 1460003900
+# 1795753612
+# 2416525605
+# 2527029295
+# 2604707610
+# 2829102817
+# 2929001547
+# 3117845360
+# 3119576935
+# 3187221782
+# 3276531974
+# 3647681053
+# 3693902153
+# 3872171708
+# 3967384275
+# 4237803626
+
+### RTPC/GAME-VARIABLE NAMES (4185300363.bnk: _test_sounds)
+angspeed
+event_pitch
+event_volume
+FORCE
+SPEED
+# 2656142798
+
+### VARIABLE NAMES (4185300363.bnk: _test_sounds)
+ground_materials
+HitStop
+
+### VALUE NAMES (4185300363.bnk: _test_sounds)
+_0
+_1
+_2
+_3
+_4
+_null
+Dirt
+dust
+mud
+Sand
+Stone
+Water
+
+### EVENT NAMES (3936260057.bnk: bullet_impacts)
+Play_bullet_blocked_kablooey
+Play_bullet_blocked_shotgun
+Play_bullet_hit_tank
+Play_bullet_rico_gen
+Play_bullet_to_flesh_01
+Play_bullet_to_flesh_rico_no_delay
+Play_bullet_to_flesh_shotgun
+Play_bullet_to_flesh_tank_wp
+Play_kablooey_latch
+
+### RTPC/GAME-VARIABLE NAMES (3936260057.bnk: bullet_impacts)
+event_pitch
+event_volume
+
+### EVENT NAMES (871881328.bnk: challenge_acid)
+# 3251894272
+# 4012801254
+
+### RTPC/GAME-VARIABLE NAMES (871881328.bnk: challenge_acid)
+event_volume
+
+### EVENT NAMES (1513469985.bnk: challenge_combat_climb)
+# 2004811641
+# 2165581871
+# 2972877046
+
+### RTPC/GAME-VARIABLE NAMES (1513469985.bnk: challenge_combat_climb)
+event_volume
+
+### EVENT NAMES (1194689937.bnk: challenge_drone_football)
+# 80993475
+# 1009234181
+# 3585458963
+
+### RTPC/GAME-VARIABLE NAMES (1194689937.bnk: challenge_drone_football)
+event_volume
+
+### EVENT NAMES (260267421.bnk: challenge_keep_shut)
+# 686761819
+# 2684928641
+# 2918667578
+
+### RTPC/GAME-VARIABLE NAMES (260267421.bnk: challenge_keep_shut)
+event_volume
+
+### EVENT NAMES (660846929.bnk: challenge_ui)
+# 212853888
+# 364735343
+# 813611676
+# 1156563614
+# 2034036807
+# 2208447636
+# 2226794554
+# 2472699643
+# 2622357474
+# 2660770666
+# 2788887803
+# 3164964742
+# 3202886495
+# 3278022303
+# 3697432309
+# 4177252062
+
+### RTPC/GAME-VARIABLE NAMES (660846929.bnk: challenge_ui)
+event_volume
+
+### VARIABLE NAMES (660846929.bnk: challenge_ui)
+Music_Challenge_Rooms_Frontend
+
+### EVENT NAMES (2254114575.bnk: char_aerial_drone_ch9a)
+Play_aerial_drone_downbeat
+Play_aerial_drone_grunt_general
+Play_aerial_drone_grunt_general_dist
+Play_aerial_drone_laugh
+Play_aerial_drone_mutter_seq
+Play_aerial_drone_mutter_seq_dist
+Play_aerial_drone_wingbeat
+
+### RTPC/GAME-VARIABLE NAMES (2254114575.bnk: char_aerial_drone_ch9a)
+event_volume
+
+### EVENT NAMES (1328028869.bnk: char_aerial_drone_foley)
+Play_ad_shing
+Play_aerial_drone_body_impact
+Play_aerial_drone_downbeat
+Play_aerial_drone_gear_rattle
+Play_aerial_drone_grunt_general
+Play_aerial_drone_grunt_general_dist
+Play_aerial_drone_grunt_pain
+Play_aerial_drone_grunt_pain_shot
+Play_aerial_drone_laugh
+Play_aerial_drone_mutter_seq
+Play_aerial_drone_mutter_seq_dist
+Play_aerial_drone_swoop_whoosh
+Play_aerial_drone_upbeat
+Play_aerial_drone_wingbeat
+Play_AerialDrone_swoopAttack_VO
+Play_char_aerial_drone_pole_end_sweet_01
+Play_char_aerial_drone_spin
+Play_char_aerial_drone_weapon_bulb_1
+Play_char_aerial_drone_weapon_extend_01
+Play_char_aerial_drone_weapon_ready_01
+Play_char_aerial_drone_weapon_retract_01
+Play_char_aeriel_drone_pole_impact_01
+Stop_aerial_drone_grunt_general
+Stop_aerial_drone_grunt_pain
+Stop_aerial_drone_mutter_seq
+Stop_AerialDrone_swoopAttack_VO
+Stop_char_aerial_drone_pole_end_sweet_01
+Stop_char_aerial_drone_weapon_bulb_1
+Stop_char_aerial_drone_weapon_extend_01
+Stop_char_aerial_drone_weapon_ready_01
+Stop_char_aerial_drone_weapon_retract_01
+# 677110730
+# 3522140820
+
+### RTPC/GAME-VARIABLE NAMES (1328028869.bnk: char_aerial_drone_foley)
+event_volume
+# 2681407051
+
+### EVENT NAMES (2626541039.bnk: char_armour_drone)
+Play_arm_drone_attack_long
+Play_arm_drone_attack_short
+Play_arm_drone_blue_attack
+Play_arm_drone_laugh
+Play_arm_drone_lunge
+Play_arm_drone_red_attack
+Play_arm_drone_sword_whoosh
+Play_armour_drone_vuln
+Play_axe_crack_drone_shield
+Play_axe_hit_drone_shield
+Play_char_armour_drone_fiery_whoosh_01
+Play_char_armour_drone_fiery_whoosh_inci_01
+Play_char_armour_drone_fiery_whoosh_loop
+Play_char_armour_drone_shield_clanks
+Play_char_armour_drone_shield_destroy
+Play_scythe_crack_drone_shield
+Play_scythe_hit_drone_shield
+Play_sword_crack_drone_shield
+Play_sword_hit_drone_shield
+Stop_arm_drone_attack_long
+Stop_arm_drone_attack_short
+Stop_arm_drone_blue_attack
+Stop_arm_drone_laugh
+Stop_arm_drone_lunge
+Stop_arm_drone_sword_whoosh
+Stop_armour_drone_grunts
+Stop_armour_drone_vuln
+Stop_char_armour_drone_fiery_whoosh_01
+Stop_char_armour_drone_fiery_whoosh_inci_01
+Stop_char_armour_drone_fiery_whoosh_loop
+
+### EVENT NAMES (2614019440.bnk: char_armour_drone_fire_variant)
+Play_arm_drone_area_effect
+Play_arm_drone_fire_ambient
+Play_arm_drone_fire_floor_impact
+Stop_arm_drone_fire_ambient
+Stop_arm_drone_red_attack
+
+### RTPC/GAME-VARIABLE NAMES (2614019440.bnk: char_armour_drone_fire_variant)
+event_pitch
+event_volume
+
+### EVENT NAMES (1687087613.bnk: char_armour_drone_ice_variant)
+Play_arm_drone_ice_ambient
+Play_arm_drone_ice_floor_effect
+Play_arm_drone_ice_floor_impact
+Play_arm_drone_ice_freeze_break
+Play_arm_drone_ice_freeze_dante
+Stop_arm_drone_ice_ambient
+Stop_arm_drone_ice_floor_effect
+
+### RTPC/GAME-VARIABLE NAMES (1687087613.bnk: char_armour_drone_ice_variant)
+event_volume
+music_eq
+
+### EVENT NAMES (462208109.bnk: char_chainsaw_drone)
+Play_chainsaw_drone_attackVOtripl
+Play_char_cs_drone_attack_gore
+Play_char_cs_drone_attack_hit_saw
+Play_char_cs_drone_attack_saw
+Play_char_cs_drone_attack_toIdle
+Play_char_cs_drone_attack_VO
+Play_char_cs_drone_attack_whoosh
+Play_char_cs_drone_charge_attack_gore
+Play_char_cs_drone_charge_VO
+Play_char_cs_drone_saw_idle
+Play_char_cs_drone_saw_rev
+Stop_chainsaw
+Stop_chainsaw_drone_attackVOtripl
+Stop_char_cs_drone_attack_saw
+Stop_char_cs_drone_attack_VO
+Stop_char_cs_drone_charge_VO
+Stop_char_cs_drone_saw_idle
+
+### VARIABLE NAMES (462208109.bnk: char_chainsaw_drone)
+chainsaw
+
+### VALUE NAMES (462208109.bnk: char_chainsaw_drone)
+Attack
+attackhit
+idle
+rev
+spawn
+
+### EVENT NAMES (1195287577.bnk: char_critter_bird)
+Play_critter_bird_caw_idle
+Play_critter_bird_caw_unrest
+Play_critter_bird_caw_unrest_2D
+
+### EVENT NAMES (2117277177.bnk: char_critter_slug)
+Play_slug_presence
+
+### EVENT NAMES (1980265723.bnk: char_critter_spider)
+Play_runaway
+Play_spider_death
+Play_spider_foley
+Play_spider_foot
+Play_spider_vo
+Play_spider_vo_Rand
+
+### EVENT NAMES (316179167.bnk: char_critter_whale)
+Play_whale
+
+### EVENT NAMES (1477033488.bnk: char_dante)
+Play_angel_Dash_evade
+Play_angel_glide
+Play_axe_grunt_big
+Play_axe_grunt_big_wide
+Play_Axe_Grunt_Effort
+Play_Axe_Grunt_Med
+Play_Axe_Grunt_Med_WIDE
+Play_Axe_Grunt_Small
+Play_char_dante_angel_mode_01
+Play_char_dante_cs_attack_react_VO
+Play_char_dante_demon_mode_01
+Play_char_dante_voc_rain_inv
+Play_char_dante_whoosh_sword_001
+Play_char_dante_whoosh_sword_002
+Play_char_dante_whoosh_sword_003
+Play_char_dante_whoosh_sword_004
+Play_char_dante_whoosh_sword_light_001
+Play_char_dante_whoosh_sword_light_002
+Play_char_dante_whoosh_sword_light_003
+Play_combat_hits_dante
+Play_combat_hits_dante_recoil_roll_01
+Play_dante_angel_grunt_big
+Play_dante_angel_grunt_med
+Play_dante_angel_grunt_small_always
+Play_dante_angel_grunt_small_rnd
+Play_dante_angel_grunt_small_seek
+Play_dante_angellift_punch_01
+Play_dante_angellift_punch_C_01
+Play_dante_big_followthrough
+Play_dante_cine_land_flip_01
+Play_dante_cine_land_glide_01
+Play_dante_cine_land_high_01
+Play_dante_cine_land_roll_01
+Play_dante_cine_land_step_01
+Play_dante_clothes_run_01
+Play_dante_clothes_walk_01
+Play_dante_clothing_heavy_01
+Play_dante_clothing_light_01
+Play_dante_core_death_UI_bus
+Play_dante_death
+Play_dante_demon_stomp_into_wide_01
+Play_dante_demon_stomp_light_01
+Play_dante_demon_stomp_light_charge_01
+Play_dante_demon_stomp_light_descent_01
+Play_dante_demon_stomp_med_01
+Play_dante_demon_stomp_med_charge_01
+Play_dante_demon_stomp_med_descent_01
+Play_dante_demon_stomp_wide_01
+Play_dante_effort_A
+Play_dante_effort_big_build
+Play_dante_foley_gear_bounce_01
+Play_dante_footstep_lift_land_scuff_01
+Play_dante_footsteps_impact_hard_01
+Play_dante_footsteps_land_thud_01
+Play_dante_footsteps_run_hard_01
+Play_dante_footsteps_scuff_hard_01
+Play_dante_footsteps_toe_01
+Play_dante_footsteps_walk_hard_01
+Play_dante_grunt_big_release
+Play_dante_grunt_big_release_always
+Play_dante_grunt_gauntlet_air_build_01
+Play_dante_grunt_jump
+Play_dante_grunt_jump_always
+Play_dante_grunt_med_build
+Play_dante_grunt_med_build_always
+Play_dante_grunt_med_release
+Play_dante_grunt_med_release_always
+Play_dante_grunt_small_build
+Play_dante_grunt_small_build_always
+Play_dante_grunt_small_release
+Play_dante_grunt_small_release_always
+Play_dante_grunt_surpise
+Play_dante_hand_grab_naked_01
+Play_dante_holster_sword_01
+Play_dante_jump_whoosh
+Play_dante_med_followthrough
+Play_dante_med_followthrough_always
+Play_dante_pain_large
+Play_dante_pain_large_loud
+Play_dante_pain_med
+Play_dante_pain_small
+Play_dante_rolling_heavy_01
+Play_dante_rolling_light_01
+Play_dante_rolling_medium_01
+Play_dante_slide_in_stone
+Play_dante_small_followthrough
+Play_dante_small_followthrough_always
+Play_dante_sword_replace
+Play_dante_sword_replace_01
+Play_dante_sword_retrieve_01
+Play_dante_voc_exert_shout
+Play_dante_voc_exertion_01
+Play_dante_voc_exertion_loud
+Play_dante_voc_exertion_low_01
+Play_dante_voc_exertion_low_loud
+Play_dante_vox_pain_med
+Play_dante_vox_pain_med_always
+Play_demon_skill_evade
+Play_demon_stomp_overlay_big
+Play_demon_stomp_overlay_med
+Play_devil_trigger_into
+Play_devil_trigger_whoosh
+Play_Gauntlet_Grunt_Large
+Play_Gauntlet_Grunt_Medium_01
+Play_Gauntlet_grunt_release
+Play_Gauntlet_grunt_release_always
+Play_Gauntlet_Grunt_Small
+Play_Gauntlet_Grunt_Super_Releases
+Play_weapon_pause_tell
+Stop_angel_glide
+Stop_dante_slide_out_stone
+Stop_devil_trigger
+# 1879553158
+# 1941032491
+# 3601765021
+
+### RTPC/GAME-VARIABLE NAMES (1477033488.bnk: char_dante)
+DevilTriggerMeter
+event_pitch
+event_volume
+setpiece_peak
+
+### VARIABLE NAMES (1477033488.bnk: char_dante)
+Dante_Grunts
+DevilTrigger
+DT_Music
+Gauntlet_tier
+
+### VALUE NAMES (1477033488.bnk: char_dante)
+DT_Music_on
+Grunts_off
+Grunts_on
+none
+off
+on
+tier_1
+tier_2
+tier_3
+
+### EVENT NAMES (1917855480.bnk: char_dante_acid_damage)
+Play_dante_acid_damage_foot
+Play_dante_acid_damage_loop
+Stop_dante_acid_damage_loop
+
+### RTPC/GAME-VARIABLE NAMES (1917855480.bnk: char_dante_acid_damage)
+event_pitch
+event_volume
+
+### EVENT NAMES (4205632274.bnk: char_dante_acid_damage_grunts)
+Play_dante_acid_damage
+
+### RTPC/GAME-VARIABLE NAMES (4205632274.bnk: char_dante_acid_damage_grunts)
+event_volume
+
+### EVENT NAMES (3519006688.bnk: char_dante_grunts_demony_gauntlet)
+Play_dante_demony_gauntlet_large
+Play_dante_demony_gauntlet_medium
+Play_dante_demony_gauntlet_small
+Play_Gauntlet_Grunt_Large
+Play_Gauntlet_Grunt_Medium_01
+Play_Gauntlet_Grunt_Small
+Play_Gauntlet_Grunt_Super_Releases
+
+### RTPC/GAME-VARIABLE NAMES (3519006688.bnk: char_dante_grunts_demony_gauntlet)
+event_volume
+
+### VARIABLE NAMES (3519006688.bnk: char_dante_grunts_demony_gauntlet)
+Dante_Grunts
+Gauntlet_tier
+
+### VALUE NAMES (3519006688.bnk: char_dante_grunts_demony_gauntlet)
+Grunts_off
+Grunts_on
+none
+tier_1
+tier_2
+tier_3
+
+### EVENT NAMES (2972483843.bnk: char_dreamrunner)
+Play_dreamrunner_attack_vo_a
+Play_dreamrunner_attack_vo_b
+Play_dreamrunner_attack_vo_c
+Play_dreamrunner_attack_vo_d
+Play_dreamrunner_attack_vo_noise
+Play_dreamrunner_bodyfall
+Play_dreamrunner_exert_breathy
+Play_dreamrunner_fizz
+Play_dreamrunner_foley_cloth
+Play_dreamrunner_foley_jangle
+Play_dreamrunner_foley_swish
+Play_dreamrunner_foley_sword_foley
+Play_dreamrunner_inhale
+Play_dreamrunner_inhale_Rand
+Play_dreamrunner_portal_open_01
+Play_dreamrunner_snarl_low
+Play_dreamrunner_snarl_low_Rand
+Play_dreamrunner_swish_02
+Play_dreamrunner_sword_impact
+Play_dreamrunner_sword_long_swipe
+Play_dreamrunner_sword_rev_shing
+Play_dreamrunner_sword_shing
+Play_dreamrunner_sword_sweet
+Play_dreamrunner_sword_sweet_b
+Play_dreamrunner_sword_swipe_high
+Play_dreamrunner_sword_swop
+Play_dreamrunner_walk_footstep
+Play_dreamrunner_withdraw
+Stop_dreamrunner_exert_breathy
+Stop_dreamrunner_fizz
+Stop_dreamrunner_foley_cloth
+Stop_dreamrunner_foley_jangle
+Stop_dreamrunner_foley_swish
+Stop_dreamrunner_foley_sword_foley
+Stop_dreamrunner_inhale
+Stop_dreamrunner_inhale_Rand
+Stop_dreamrunner_snarl_low
+Stop_dreamrunner_snarl_low_Rand
+Stop_dreamrunner_swish_02
+Stop_dreamrunner_sword_long_swipe
+Stop_dreamrunner_sword_rev_shing
+Stop_dreamrunner_sword_shing
+Stop_dreamrunner_sword_sweet
+Stop_dreamrunner_sword_swipe_high
+Stop_dreamrunner_sword_swop
+Stop_dreamrunner_walk_footstep
+Stop_dreamrunner_withdraw
+
+### RTPC/GAME-VARIABLE NAMES (2972483843.bnk: char_dreamrunner)
+event_pitch
+event_volume
+
+### EVENT NAMES (887225330.bnk: char_hunter)
+Play_Hunter_blade_horizontal
+Play_Hunter_blade_sharp_by
+Play_Hunter_blade_vertical
+Play_Hunter_body_movement
+Play_Hunter_body_movevent_02
+Play_hunter_bodyfall
+Play_Hunter_cage_rattles
+Play_Hunter_charge_slide
+Play_Hunter_foley_feet_drag
+Play_Hunter_front_arms
+Play_Hunter_Grapple_claw_appear_wide_01
+Play_Hunter_Grapple_claw_appear_wood_01
+Play_Hunter_Grapple_claw_crush_01_wide_01
+Play_Hunter_Grapple_claw_crush_02_wide_01
+Play_Hunter_Grapple_claw_crush_03_wide_01
+Play_Hunter_Grapple_claw_crush_alt_01_wide_01
+Play_Hunter_Grapple_claw_crush_alt_02_wide_01
+Play_Hunter_Grapple_claw_destroy_capture_wide_01
+Play_hunter_grapple_fire
+Play_Hunter_jump
+Play_Hunter_jump_land
+Play_hunter_knife_get_blade
+Play_Hunter_knife_hit_walk
+Play_hunter_knife_slice_short
+Play_hunter_knife_slice_short_high
+Play_hunter_knife_stab_hit
+Play_hunter_land_height
+Play_Hunter_Parry_Blade_01
+Play_Hunter_Parry_Grapple_01
+Play_Hunter_rear_feet
+Play_Hunter_spinning_blade_catch
+Play_Hunter_stomp_jump
+Play_Hunter_stomp_jump_land
+Play_Hunter_stomp_jump_preland
+Play_hunter_stumble
+Play_hunter_VO_hurt_breath
+Play_Hunter_VO_KO
+Play_Hunter_VO_pounce_ready
+Play_Hunter_VO_pounce_start
+Play_Hunter_VO_smoke
+Play_hunter_VO_stab
+Play_hunter_VO_swipe_attack
+Play_hunter_VO_walk_breath
+Play_hunter_VO_walk_breath_out
+Stop_Hunter_blade_horizontal
+Stop_Hunter_blade_sharp_by
+Stop_Hunter_blade_vertical
+Stop_Hunter_Blades
+Stop_Hunter_Grapple_claw_appear_wide_01
+Stop_Hunter_Grapple_claw_crush_all
+Stop_hunter_knife_slice_short
+Stop_hunter_knife_slice_short_high
+Stop_hunter_knife_stab_hit
+Stop_Hunter_Parry_Blade_01
+Stop_Hunter_Parry_Grapple_01
+Stop_Hunter_spinning_blade_catch
+# 869005909
+# 3143944838
+# 3476110287
+# 3709921816
+# 3953119568
+# 4272682850
+
+### RTPC/GAME-VARIABLE NAMES (887225330.bnk: char_hunter)
+event_pitch
+event_volume
+Hunter_Blade_Distance
+# 2681407051
+
+### EVENT NAMES (3605640188.bnk: char_kat)
+Play_char_kat_cloth_run_swiff
+Play_char_kat_cloth_walk_swiff
+Play_char_kat_footstep_run_concrete
+Play_char_kat_footstep_scuff_hard_concrete
+Play_char_kat_footstep_scuff_soft_concrete
+Play_char_kat_footstep_walk_concrete
+Play_char_kat_jingle_hard
+Play_char_kat_jingle_light
+Play_char_kat_pouch
+Play_char_kat_pouch_rattle
+
+### RTPC/GAME-VARIABLE NAMES (3605640188.bnk: char_kat)
+event_pitch
+event_volume
+
+### VARIABLE NAMES (3605640188.bnk: char_kat)
+Kat_foley
+
+### VALUE NAMES (3605640188.bnk: char_kat)
+off
+on
+
+### EVENT NAMES (2195448698.bnk: char_kat_spray)
+Play_kat_spray
+Play_kat_spray_shake
+Play_spray_seq
+# 2354650403
+
+### RTPC/GAME-VARIABLE NAMES (2195448698.bnk: char_kat_spray)
+event_pitch
+event_volume
+
+### EVENT NAMES (2353986395.bnk: char_killingface)
+Play_Dante_Parry_Poison_02
+Play_eq_radial_overlay
+Play_killingface_combat_hit_block
+Play_killingface_eyeball_stab
+Play_killingface_eyelid_close
+Play_killingface_FL
+Play_killingface_FL_soft
+Play_killingface_FR
+Play_killingface_FR_soft
+Play_killingface_front_slam_a
+Play_killingface_front_slam_b
+Play_killingface_grunts_angry_fail
+Play_killingface_grunts_attack_angry
+Play_killingface_grunts_attack_happy
+Play_killingface_grunts_attack_rear_spot
+Play_killingface_grunts_attack_sweep_angry
+Play_killingface_grunts_attack_sweep_double_happy
+Play_killingface_grunts_attack_sweep_happy
+Play_killingface_grunts_attack_tantrum
+Play_killingface_grunts_build_angry
+Play_killingface_grunts_build_happy
+Play_killingface_grunts_build_happy_short
+Play_killingface_grunts_cooing
+Play_killingface_grunts_ko_mumur
+Play_killingface_grunts_laugh_evil
+Play_killingface_grunts_laugh_evil_short
+Play_killingface_grunts_laugh_joyed
+Play_killingface_grunts_pain
+Play_killingface_grunts_spot_slam_happy
+Play_killingface_heavy_sweep_elbow
+Play_killingface_heavy_sweep_high_left
+Play_killingface_heavy_sweep_low_left
+Play_killingface_hit_lecky
+Play_killingface_hit_melee_big
+Play_killingface_ko_bodyfal
+Play_killingface_light_sweep
+Play_killingface_move_heavy
+Play_killingface_move_heavy_2D
+Play_killingface_parry_bodyfall
+Play_killingface_rear_slam
+Play_killingface_RF
+Play_killingface_RF_soft
+Play_killingface_right_turn
+Play_killingface_shard_destroy
+Play_killingface_shard_summon
+Play_killingface_spotlight_slam
+Play_killingface_stagger_arm
+Play_killingface_tantrum
+Play_killingface_teleport
+Play_killingface_uberhit
+Play_lilith_grunts_pain
+Stop_killingface_front_slam_a
+Stop_killingface_front_slam_b
+Stop_killingface_grunts_excl_pain
+Stop_killingface_heavy_sweep_elbow
+Stop_killingface_heavy_sweep_high_left
+Stop_killingface_heavy_sweep_low_left
+Stop_killingface_rear_slam
+Stop_killingface_right_turn
+Stop_killingface_shard_summon
+Stop_killingface_spotlight_slam
+Stop_killingface_stagger_arm
+
+### RTPC/GAME-VARIABLE NAMES (2353986395.bnk: char_killingface)
+event_pitch
+event_volume
+
+### EVENT NAMES (2625976614.bnk: char_killingface_amb)
+Play_abstract_amb_ch14
+Stop_abstract_amb_ch14
+
+### RTPC/GAME-VARIABLE NAMES (2625976614.bnk: char_killingface_amb)
+event_volume
+
+### EVENT NAMES (1262571180.bnk: char_killingface_cinematics)
+Play_cine_discoball_parry
+Play_cine_expose_weakpoint_ST_a
+Play_cine_expose_weakpoint_ST_b_01
+Play_cine_expose_weakpoint_ST_b_02
+Play_cine_expose_weakpoint_ST_b_03
+Play_cine_eye_closes_ST
+Play_cine_eye_open_ST
+Play_cine_ko
+Play_cine_recover_payoff_a_ST
+Play_cine_recover_payoff_b_ST
+Play_cine_recover_timeout_a_ST
+Play_cine_recover_timeout_b_ST
+Play_cine_recover_timeout_c_ST
+Stop_cine_expose_weakpoint_ST
+Stop_cine_eye_open_ST
+
+### RTPC/GAME-VARIABLE NAMES (1262571180.bnk: char_killingface_cinematics)
+event_pitch
+event_volume
+
+### EVENT NAMES (1981289960.bnk: char_mundus_demon)
+Play_char_mundus_attack_telegraph_voc_01
+Play_char_mundus_debri_attack_01
+Play_char_mundus_fist_impact_01
+Play_char_mundus_fist_whoosh_01
+Play_char_mundus_projectile_impact_wide
+Play_char_mundus_projectile_launch
+Play_char_mundus_projectile_loop_01
+Play_char_mundus_withdraw_01
+Play_mundus_arm_charge
+Play_mundus_arm_fire_build_WIDE
+Play_mundus_arm_fire_stez_muzzle_C
+Play_mundus_finale_gob
+Play_mundus_fist_debris
+Play_mundus_fist_whizz
+Play_mundus_grunt_builder
+Play_mundus_grunt_effort_01
+Play_mundus_grunt_gruff_attack_01
+Play_mundus_grunt_laugh_small
+Play_mundus_lava_loop
+Play_mundus_slap_hit
+Play_mundus_spit
+Stop_char_mundus_projectile_loop_01
+Stop_mundus_arm_charge
+Stop_mundus_finale_gob
+Stop_mundus_lava_loop
+
+### RTPC/GAME-VARIABLE NAMES (1981289960.bnk: char_mundus_demon)
+event_volume
+
+### EVENT NAMES (2593542714.bnk: char_poison_VO_preroom1)
+Play_poison_puke_distant
+Stop_poison_puke_distant
+
+### RTPC/GAME-VARIABLE NAMES (2593542714.bnk: char_poison_VO_preroom1)
+event_pitch
+event_volume
+
+### EVENT NAMES (1926580729.bnk: char_poison_VO_room1)
+Play_poison_charge_attack
+Play_poison_charge_build
+Play_poison_dante_escapes
+Play_Poison_demonpull_slam
+Play_poison_enraged
+Play_poison_hit
+Play_poison_parry_react
+Play_poison_Platform_move
+Play_poison_post_intro_scene_shout
+Play_poison_punch_counter
+Play_poison_recover
+Play_poison_roar
+Play_poison_slam
+Play_poison_summon_spikes
+Play_poison_swipe
+Play_poison_tubes_pulled
+Play_poison_vulnerable_loop
+# 4918017
+# 1281082118
+
+### RTPC/GAME-VARIABLE NAMES (1926580729.bnk: char_poison_VO_room1)
+event_pitch
+event_volume
+
+### EVENT NAMES (1926580730.bnk: char_poison_VO_room2)
+Play_poison_death
+Play_poison_finale_dantegetstoFinalPlatform
+Play_poison_finale_DP1_react
+Play_poison_finale_throw_rock
+Play_poison_finale_tugowar
+
+### RTPC/GAME-VARIABLE NAMES (1926580730.bnk: char_poison_VO_room2)
+event_pitch
+event_volume
+
+### EVENT NAMES (1525263867.bnk: char_poison_fake_death)
+Play_char_poison_seq_fake_death
+Play_poison_fake_death
+
+### RTPC/GAME-VARIABLE NAMES (1525263867.bnk: char_poison_fake_death)
+event_pitch
+event_volume
+
+### EVENT NAMES (2773598513.bnk: char_poison_general)
+Play_acid_burn
+Play_Dante_Parry_Poison_01
+Play_Poison_attack_slam_front_01
+Play_Poison_attack_slam_front_impact_01
+Play_Poison_attack_slam_left__impact_01
+Play_poison_big_land_01
+Play_poison_breathing
+Play_poison_foley
+Play_poison_foot_B
+Play_poison_foot_scrape
+Play_poison_impact_react_01
+Play_poison_leather
+Play_poison_puke_Sweet
+Play_poison_slime_move
+Play_poison_vulnerable_breath
+Play_poison_windup_01
+Play_poison_windup_hit_01
+Play_spike
+Stop_acid_burn
+# 253543152
+# 1630463820
+# 2510893912
+# 2894059196
+# 3204244938
+
+### RTPC/GAME-VARIABLE NAMES (2773598513.bnk: char_poison_general)
+event_pitch
+event_volume
+
+### EVENT NAMES (1322000834.bnk: char_poison_puke)
+Play_poison_puke
+
+### RTPC/GAME-VARIABLE NAMES (1322000834.bnk: char_poison_puke)
+event_pitch
+event_volume
+
+### EVENT NAMES (492311571.bnk: char_poison_room1_seq)
+Play_big_rocks
+Play_char_poison_room1_dante_tug
+Play_char_poison_room1_platform_destroy_hit
+Play_char_poison_seq_destory_platform
+Play_char_poison_seq_footfall_climb
+Play_char_poison_seq_room1_platB_ang_lift
+Play_char_poison_seq_room1_platC_ang_lift
+Play_char_poison_seq_room1_voc
+Play_poison_banshee_scream_01
+Play_poison_combat_hit_block
+Play_poison_destroy_platform_short
+Play_poison_face_kick_KO
+Play_poison_face_punch_KO
+Play_poison_parry_KO
+Play_spike_01
+Stop_char_poison_room1_platform_destroy_hit
+Stop_char_poison_seq_destory_platform
+Stop_char_poison_seq_fake_death
+Stop_char_poison_seq_room1_platB_ang_lift
+Stop_char_poison_seq_room1_platC_ang_lift
+Stop_poison_banshee_scream_01
+Stop_poison_destroy_platform_short
+Stop_poison_face_punch_KO
+Stop_poison_sequences
+# 493195852
+# 1392641935
+
+### RTPC/GAME-VARIABLE NAMES (492311571.bnk: char_poison_room1_seq)
+event_pitch
+event_volume
+
+### EVENT NAMES (1144405084.bnk: char_poison_room2_seq)
+Play_char_poison_room2_fail_tug
+Play_char_poison_room2_splash_detail
+Play_char_poison_seq_room2_a_climb
+Play_char_poison_seq_room2_b_glide
+Play_char_poison_seq_room2_b_throw
+Play_char_poison_seq_room2_demonpull_a
+Play_char_poison_seq_room2_e_tug_success
+Play_char_poison_seq_room2_f_glide_swipe
+Play_char_poison_seq_room2_fallacid
+Play_poison_death_finale_overlay
+Stop_char_poison_room2_fail_tug
+Stop_char_poison_seq_room2_a_climb
+Stop_char_poison_seq_room2_b_glide
+Stop_char_poison_seq_room2_b_throw
+Stop_char_poison_seq_room2_demonpull_a
+Stop_char_poison_seq_room2_e_tug_success
+Stop_char_poison_seq_room2_f_glide_swipe
+Stop_char_poison_seq_room2_fallacid
+Stop_char_poison_seq_Room_Transform
+Stop_poison_sequences
+
+### RTPC/GAME-VARIABLE NAMES (1144405084.bnk: char_poison_room2_seq)
+event_pitch
+event_volume
+
+### EVENT NAMES (137636356.bnk: char_poison_shared)
+Play_Poison_attack_arm_sweep_01
+Play_Poison_attack_arm_sweep_C_01
+Play_Poison_attack_puke_fire_01
+Play_poison_voice_head_hit
+
+### RTPC/GAME-VARIABLE NAMES (137636356.bnk: char_poison_shared)
+event_pitch
+event_volume
+
+### EVENT NAMES (4202629750.bnk: char_poison_tugowar)
+Play_demon_pull_of_War_rope
+Play_poison_demon_tug_end_VO
+Play_poison_demon_tug_VO
+Stop_demon_pull_of_War_rope
+
+### RTPC/GAME-VARIABLE NAMES (4202629750.bnk: char_poison_tugowar)
+event_pitch
+event_volume
+
+### EVENT NAMES (1096554664.bnk: char_prisoner)
+Play_char_prisoner_bodyfall
+Play_char_prisoner_foot_big
+Play_char_prisoner_foot_small
+Play_char_prisoner_gob_close
+Play_char_prisoner_ground_rock_explo
+Play_char_prisoner_ground_weeds_01
+Play_char_prisoner_ground_weeds_ripup_01
+Play_char_prisoner_grunt_roar_01
+Play_char_prisoner_lift_rock
+Play_char_prisoner_rock_missile_whoosh
+Play_char_prisoner_thrown_rock_impact
+Play_Enraged_Sustain_01
+Play_prisoner_aoe_attack
+Play_prisoner_charge_attack
+Play_prisoner_throw_attack
+Play_prisoner_throw_rock_attack
+Play_prisoner_turtle
+Stop_Enraged_Sustain_01
+
+### RTPC/GAME-VARIABLE NAMES (1096554664.bnk: char_prisoner)
+event_volume
+
+### EVENT NAMES (677907947.bnk: char_rage)
+Play_char_rage_attack_tween
+Play_char_rage_foley_land_01
+Play_char_rage_foley_leap_01
+Play_char_rage_foley_turn
+Play_char_rage_footsteps_fore
+Play_char_rage_footsteps_hind
+Play_char_rage_footsteps_light_fore
+Play_char_rage_footsteps_light_hind
+Play_char_rage_grunt_attack
+Play_char_rage_grunt_gallop
+Play_char_rage_grunt_telegraph_01
+Play_char_rage_grunt_walk
+Play_char_rage_grunt_walk_exhale
+Play_char_rage_windup
+Play_rage_enraged_loop
+Play_rage_gethit
+Play_rage_sonic_attack
+Play_rage_spines_all
+Play_rage_whoosh
+Stop_char_rage_grunt_attack
+Stop_char_rage_grunt_gallop
+Stop_char_rage_windup
+Stop_rage_enraged_loop
+Stop_rage_spines_all
+
+### RTPC/GAME-VARIABLE NAMES (677907947.bnk: char_rage)
+event_pitch
+event_volume
+
+### EVENT NAMES (3291387574.bnk: char_stinger)
+Play_axe_hit_stinger_shield
+Play_char_armour_drone_shield_clanks
+Play_char_stinger_death
+Play_char_stinger_flap_element_a
+Play_char_stinger_flap_element_b
+Play_char_stinger_growl
+Play_char_stinger_KO
+Play_char_stinger_KO_2d
+Play_char_stinger_laugh
+Play_char_stinger_laugh_seq
+Play_char_stinger_laugh_seq_rnd
+Play_char_stinger_mutter
+Play_char_stinger_mutter_seq
+Play_char_stinger_mutter_seq_2d
+Play_char_stinger_mutter_seq_rnd
+Play_scythe_hit_stinger_shield
+Play_sword_hit_stiner_shield
+Stop_char_stinger_attack
+Stop_char_stinger_KO
+Stop_char_stinger_laugh_seq_rnd
+Stop_char_stinger_mutter
+Stop_char_stinger_mutter_seq
+Stop_char_stinger_mutter_seq_rnd
+# 2903245444
+# 2903245446
+# 2903245447
+
+### RTPC/GAME-VARIABLE NAMES (3291387574.bnk: char_stinger)
+event_pitch
+event_volume
+
+### EVENT NAMES (3850723815.bnk: char_stinger_bow)
+Play_char_stinger_aim_01
+Play_char_stinger_arrow_blocked
+Play_char_stinger_arrow_hit
+Play_char_stinger_arrow_hit_flesh
+Play_char_stinger_arrow_pre_p125
+Play_char_stinger_xbow
+Play_stinger_beep
+Play_stinger_warn_loop
+Stop_char_stinger_attack
+Stop_stinger_warn_loop
+# 913287721
+# 3042424967
+
+### RTPC/GAME-VARIABLE NAMES (3850723815.bnk: char_stinger_bow)
+event_pitch
+event_volume
+
+### VARIABLE NAMES (3850723815.bnk: char_stinger_bow)
+DevilTrigger
+
+### VALUE NAMES (3850723815.bnk: char_stinger_bow)
+none
+off
+on
+
+### EVENT NAMES (4171365885.bnk: char_stinger_grenade)
+Play_char_stinger_grenade_throw_vo
+Play_grenade_beep
+Play_grenade_explode
+Play_grenade_fuse_loop
+Play_grenade_land
+Play_grenade_preland_whoosh
+Play_grenade_stinger_throw
+Play_grenade_warn_2
+Stop_grenade_fuse_loop
+
+### RTPC/GAME-VARIABLE NAMES (4171365885.bnk: char_stinger_grenade)
+event_pitch
+event_volume
+
+### EVENT NAMES (1200055712.bnk: char_summoner)
+Play_summoner_fire_sword_B
+Play_summoner_hit
+Play_summoner_idle
+Play_summoner_implode
+Play_summoner_implode_build
+Play_summoner_implode_vo
+Play_summoner_rock_build
+Play_summoner_rock_crack
+Play_summoner_rock_explode
+Play_summoner_rock_vo
+Play_summoner_rock_vo_2D
+Play_summoner_shield
+Play_summoner_shield_break
+Play_summoner_shield_damage
+Play_summoner_sword_vo
+Play_summoner_teleport
+Stop_summoner_fire_sword_B
+Stop_summoner_hit
+Stop_summoner_idle
+Stop_summoner_implode
+Stop_summoner_implode_build
+Stop_summoner_implode_vo
+Stop_Summoner_rock_build
+Stop_summoner_rock_crack
+Stop_Summoner_rock_explode
+Stop_summoner_rock_vo
+Stop_summoner_rock_vo_2D
+Stop_summoner_shield
+Stop_summoner_sword_vo
+Stop_Summoner_Teleport
+# 1543311185
+# 2559708378
+# 4002462646
+# 4149736045
+
+### VARIABLE NAMES (1200055712.bnk: char_summoner)
+DevilTrigger
+
+### VALUE NAMES (1200055712.bnk: char_summoner)
+none
+off
+on
+
+### EVENT NAMES (2643795075.bnk: char_tank_buzzsaw)
+Play_blade_generic_impact
+Play_buzzsaw_enraged_loop
+Play_char_Buzzsaw_tank_melee_01
+Play_char_Buzzsaw_tank_melee_02
+Play_char_Buzzsaw_tank_spinup_attack_01
+Play_char_Buzzsaw_tank_start_throw_01
+Play_char_tank_buzzsaw_attack
+Play_char_tank_buzzsaw_blade_cut_ground
+Play_char_tank_buzzsaw_blade_flight
+Play_char_tank_buzzsaw_body_move_01
+Play_char_tank_buzzsaw_charge_02
+Play_char_tank_buzzsaw_claw_relax_01
+Play_char_tank_buzzsaw_death_01
+Play_char_tank_buzzsaw_footsteps
+Play_char_tank_buzzsaw_gut_hit
+Play_char_tank_buzzsaw_pound_impact_01
+Play_char_tank_buzzsaw_prepare
+Play_char_tank_buzzsaw_recharge_overlay_01
+Play_char_tank_buzzsaw_servo_detail
+Play_char_tank_buzzsaw_servo_down
+Play_char_tank_buzzsaw_servo_up
+Play_char_tank_buzzsaw_stride
+Play_char_tank_buzzsaw_turn_01
+Play_char_tank_buzzsaw_whoosh_01
+Play_output_char_tank_buzzsaw_windup_01
+Stop_buzzsaw_enraged_loop
+Stop_char_Buzzsaw_tank_melee_01
+Stop_char_Buzzsaw_tank_melee_02
+Stop_char_Buzzsaw_tank_spinup_attack_01
+Stop_char_Buzzsaw_tank_start_throw_01
+Stop_char_tank_buzzsaw_blade_cut_ground
+Stop_char_tank_buzzsaw_blade_flight
+Stop_char_tank_buzzsaw_charge_02
+
+### RTPC/GAME-VARIABLE NAMES (2643795075.bnk: char_tank_buzzsaw)
+event_pitch
+event_volume
+
+### EVENT NAMES (634649275.bnk: char_tank_drone)
+Play_char_tank_bodyfall_01
+Play_combat_hits_tank_drone
+Play_tank_sub
+Play_tankdrone_attack_bellyflop
+Play_tankdrone_attack_charge_wall
+Play_tankdrone_attack_ground_smash
+Play_tankdrone_attack_whoosh_big
+Play_tankdrone_attack_whoosh_small
+Play_tankdrone_enrage_glove_smash
+Play_tankdrone_enrage_start
+Play_tankdrone_foot_flat
+Play_tankdrone_foot_run
+Play_tankdrone_foot_walk
+Play_tankdrone_generic_movement
+Play_tankdrone_grunt_attack_big
+Play_tankdrone_grunt_attack_med_rand
+Play_tankdrone_grunt_attack_medium
+Play_tankdrone_grunt_breath_run_exhale
+Play_tankdrone_grunt_enrage_roar
+Play_tankdrone_grunt_general
+Play_tankdrone_grunt_pain_short
+Play_tankdrone_grunt_pain_stagger
+Play_tankdrone_grunt_walk_exertion
+Stop_tankdrone_enrage_loop
+Stop_tankdrone_grunt_attack_big
+Stop_tankdrone_grunt_attack_medium
+Stop_tankdrone_grunt_general
+
+### RTPC/GAME-VARIABLE NAMES (634649275.bnk: char_tank_drone)
+event_pitch
+event_volume
+
+### VARIABLE NAMES (634649275.bnk: char_tank_drone)
+DevilTrigger
+
+### VALUE NAMES (634649275.bnk: char_tank_drone)
+none
+off
+on
+
+### EVENT NAMES (3129053488.bnk: char_vergil_ch20_fx)
+Play_Demon_pull_enemy_01
+Play_vergil_ch20_flush
+Play_vergil_ch20_flyby
+Play_vergil_ch20_helmbreaker_in
+Play_vergil_ch20_helmbreaker_land
+Play_vergil_ch20_judgement
+Play_vergil_ch20_judgement_cut
+Play_vergil_ch20_killerbee
+Play_vergil_ch20_killerbee_land
+Play_vergil_ch20_summon_sword_impale
+Play_vergil_ch20_sword_burn_dante
+Play_vergil_ch20_teleport
+Play_vergil_ch20_teleport_out
+Play_vergil_drive_hit
+Play_vergil_drive_whoosh
+Play_vergil_judgementCut
+Play_Vergil_projectile_appear
+Play_Vergil_projectile_appear_01
+Play_vergil_projectile_fire
+Play_vergil_sword_destroy_01
+Play_vergil_sword_take_damage
+Stop_vergil_ch20_flyby
+Stop_vergil_ch20_helmbreaker_in
+Stop_vergil_ch20_helmbreaker_land
+Stop_vergil_ch20_judgement_cut
+
+### RTPC/GAME-VARIABLE NAMES (3129053488.bnk: char_vergil_ch20_fx)
+event_volume
+
+### EVENT NAMES (324925999.bnk: char_vergil_doppelgangerappear)
+Play_vergil_ch20_DoppelGangerAppear
+
+### EVENT NAMES (1980054033.bnk: char_vergil_foley)
+Play_char_vergil_spiral_defence_shield_start_01
+Play_char_vergil_sword_sheath_01
+Play_char_vergil_sword_sheath_end_01
+Play_vergil_attack_vo
+Play_vergil_attack_vo_random
+Play_vergil_body_impact_smooth
+Play_vergil_body_impacts_main
+Play_vergil_body_impacts_main_secondary
+Play_vergil_ch20_sword_out
+Play_vergil_cloth_gear_impact
+Play_vergil_foot_generic
+Play_vergil_foot_land
+Play_vergil_foot_run
+Play_vergil_foot_scuff
+Play_vergil_general_whoosh
+Play_vergil_hit_vo
+Play_vergil_lunge_whoosh
+Play_vergil_wet_flaps
+Play_vergil_wet_flaps_light
+Stop_char_vergil_spiral_defence_shield_start_01
+# 3596746438
+
+### RTPC/GAME-VARIABLE NAMES (1980054033.bnk: char_vergil_foley)
+event_volume
+
+### VARIABLE NAMES (1980054033.bnk: char_vergil_foley)
+Doppelganger_vergil
+
+### VALUE NAMES (1980054033.bnk: char_vergil_foley)
+Doppelganger
+Vergil
+
+### EVENT NAMES (360923914.bnk: char_vergil_intro)
+Play_vergil_ch20_intro_seq
+
+### EVENT NAMES (3437839829.bnk: char_vergil_phaseTrans)
+Play_VergilPhase_trans
+
+### EVENT NAMES (3132530077.bnk: char_vergil_teleport)
+Play_Teleport_scene
+
+### EVENT NAMES (2062521027.bnk: char_warrior_drone_attacks)
+Play_char_wd_attack_blade_foley_01
+Play_char_wd_attack_blade_foley_02
+Play_char_wd_attack_blade_foley_03
+Play_char_wd_attack_blade_ground_01
+Play_char_wd_attack_blade_swish_01
+Play_char_wd_attack_blade_swish_02
+Play_char_wd_attack_blade_swish_03
+Play_char_wd_attack_whoosh_generic_01
+
+### RTPC/GAME-VARIABLE NAMES (2062521027.bnk: char_warrior_drone_attacks)
+event_volume
+
+### EVENT NAMES (2160654170.bnk: char_warrior_drone_dojo)
+Play_char_wd_attack_blade_foley_01
+Play_char_wd_attack_blade_foley_02
+Play_char_wd_attack_blade_foley_03
+Play_char_wd_attack_blade_ground_01
+Play_char_wd_attack_blade_swish_01
+Play_char_wd_attack_blade_swish_02
+Play_char_wd_attack_blade_swish_03
+Play_char_wd_attack_whoosh_generic_01
+Play_warrior_drone_ambient_01
+Play_warrior_drone_ambient_02_always
+Play_warrior_drone_blade_air_ring_01
+Play_warrior_drone_blade_bounce_light_01
+Play_warrior_drone_blade_edge_001
+Play_warrior_drone_blade_scrape_01
+Play_warrior_drone_bodyfalls_01
+Play_warrior_drone_chain_detail_01
+Play_warrior_drone_footsteps_01
+Play_WD_normal_VO
+Stop_WD_normal_VO
+
+### RTPC/GAME-VARIABLE NAMES (2160654170.bnk: char_warrior_drone_dojo)
+event_volume
+music_eq
+
+### EVENT NAMES (226122521.bnk: char_warrior_drone_foley)
+Play_warrior_drone_ambient_01
+Play_warrior_drone_ambient_02_always
+Play_warrior_drone_blade_air_ring_01
+Play_warrior_drone_blade_bounce_light_01
+Play_warrior_drone_blade_edge_001
+Play_warrior_drone_blade_scrape_01
+Play_warrior_drone_bodyfalls_01
+Play_warrior_drone_chain_detail_01
+Play_warrior_drone_footsteps_01
+
+### RTPC/GAME-VARIABLE NAMES (226122521.bnk: char_warrior_drone_foley)
+event_volume
+music_eq
+
+### EVENT NAMES (169705765.bnk: char_warrior_drone_grunts)
+Play_WD_combo_VO
+Play_WD_normal_VO
+Play_weak_warrior_attack_VO
+Stop_WD_combo_VO
+Stop_WD_normal_VO
+Stop_weak_warrior_attack_VO
+
+### RTPC/GAME-VARIABLE NAMES (169705765.bnk: char_warrior_drone_grunts)
+event_volume
+
+### EVENT NAMES (1724468241.bnk: char_warrior_drone_hard_variant)
+Play_char_drone_hard_tremor_grunt_01
+Play_wd_hard_grunts_attack
+Play_wd_hard_grunts_double_pt1
+Play_wd_hard_grunts_double_pt2
+Stop_char_drone_hard_tremor_grunt_01
+Stop_wd_hard_grunts_attack
+Stop_wd_hard_grunts_double_pt1
+Stop_wd_hard_grunts_double_pt2
+
+### RTPC/GAME-VARIABLE NAMES (1724468241.bnk: char_warrior_drone_hard_variant)
+event_volume
+
+### EVENT NAMES (3536838877.bnk: combat_hit_big_wet)
+Play_big_wet_hit
+
+### EVENT NAMES (4008061182.bnk: combat_hits_spawn)
+Mute_generic_spawn_2d
+Mute_generic_spawn_fx_01
+Play_generic_spawn_2d
+Play_generic_spawn_fx
+UnMute_generic_spawn_2d
+UnMute_generic_spawn_fx_01
+
+### RTPC/GAME-VARIABLE NAMES (4008061182.bnk: combat_hits_spawn)
+event_volume
+
+### EVENT NAMES (469470770.bnk: combat_hits_throwables)
+Play_combat_hits_gen_thud
+
+### EVENT NAMES (3349858557.bnk: env_D_doors)
+Play_demon_door_close_2D
+Play_demon_door_open_2D
+Play_demondoor_CloseGen
+Play_demondoor_CloseGen_delayed
+Play_demondoor_OpenGen
+
+### EVENT NAMES (2634976330.bnk: env_D_messages)
+Play_demon_message_appear
+Play_demon_message_disappear
+
+### EVENT NAMES (2853075209.bnk: env_D_messages_Attack)
+Play_Attack
+
+### EVENT NAMES (994725197.bnk: env_D_messages_BitchIsNear)
+Play_BitchIsNear
+
+### EVENT NAMES (1389814489.bnk: env_D_messages_CannotEscape)
+Play_CannotEscape_a
+Play_CannotEscape_b
+
+### EVENT NAMES (1723834984.bnk: env_D_messages_CannotHide)
+Play_CannotHide
+
+### EVENT NAMES (2324128726.bnk: env_D_messages_CannotSurvive)
+Play_CannotSurvive
+
+### EVENT NAMES (1245992311.bnk: env_D_messages_ComeCloser)
+Play_ComeCloser
+Play_ComeCloserC
+
+### EVENT NAMES (1469895430.bnk: env_D_messages_Crush)
+Play_crush
+
+### EVENT NAMES (3859304168.bnk: env_D_messages_CrushHim)
+Play_CrushHim
+
+### EVENT NAMES (3968782499.bnk: env_D_messages_Dante)
+Play_Dante
+
+### EVENT NAMES (970033021.bnk: env_D_messages_Death)
+Play_Death
+
+### EVENT NAMES (2161273813.bnk: env_D_messages_Defend)
+Play_Defend
+
+### EVENT NAMES (2419579767.bnk: env_D_messages_Destory)
+Play_Destroy
+
+### EVENT NAMES (3816989745.bnk: env_D_messages_Die)
+Play_Die
+
+### EVENT NAMES (1768307934.bnk: env_D_messages_Fall)
+Play_Fall
+
+### EVENT NAMES (336664674.bnk: env_D_messages_FinishHim)
+Play_FinishHim
+
+### EVENT NAMES (4110352893.bnk: env_D_messages_FuckYou)
+Play_FuckYou
+
+### EVENT NAMES (4207842905.bnk: env_D_messages_Hate)
+Play_Hate
+
+### EVENT NAMES (364875254.bnk: env_D_messages_Infect)
+Play_Infect
+
+### EVENT NAMES (3991171618.bnk: env_D_messages_Invade)
+Play_Invade
+
+### EVENT NAMES (3503133473.bnk: env_D_messages_Kill)
+Play_kill
+
+### EVENT NAMES (1865171363.bnk: env_D_messages_KillDante)
+Play_KillDante
+Play_KillDante_b
+
+### EVENT NAMES (2806238222.bnk: env_D_messages_KillTheBitch)
+Play_KillTheBitch
+
+### EVENT NAMES (3535341896.bnk: env_D_messages_KillThemAll)
+Play_KillThemAll
+
+### EVENT NAMES (142932654.bnk: env_D_messages_KillYourself)
+Play_KillYourself
+
+### EVENT NAMES (1660412017.bnk: env_D_messages_LetHerDie)
+Play_LetHerDie
+
+### EVENT NAMES (15718472.bnk: env_D_messages_No)
+Play_No
+
+### EVENT NAMES (1314362521.bnk: env_D_messages_NoEscape)
+Play_NoEscapeA
+
+### EVENT NAMES (1869377966.bnk: env_D_messages_Protect)
+Play_Protect
+
+### EVENT NAMES (2578313081.bnk: env_D_messages_Stop)
+Play_Stop
+
+### EVENT NAMES (1058694125.bnk: env_D_messages_StopHim)
+Play_StopHim_a
+Play_StopHim_b
+
+### EVENT NAMES (3099338729.bnk: env_D_messages_Threat)
+Play_Threat
+
+### EVENT NAMES (2381784108.bnk: env_D_messages_Trap)
+Play_Trap
+
+### EVENT NAMES (3858677434.bnk: env_D_messages_TrapHim)
+Play_TrapHimA
+Play_TrapHimB
+
+### EVENT NAMES (168984415.bnk: env_D_messages_Trapped)
+Play_Trapped
+
+### EVENT NAMES (4182329903.bnk: env_D_messages_WeCanSeeYou)
+Play_WeCanSeeYou
+
+### EVENT NAMES (1281573708.bnk: env_D_messages_WeFoundYou)
+Play_WeFoundYou
+
+### EVENT NAMES (378774950.bnk: env_D_messages_WeHateYou)
+Play_WeHateYou
+
+### EVENT NAMES (422593645.bnk: env_D_messages_WhereAreYou)
+Play_WhereAreYou
+
+### EVENT NAMES (2395516800.bnk: env_D_messages_WhoresGonnaDie)
+Play_WhoresGonnaDie
+
+### EVENT NAMES (3781316086.bnk: env_D_messages_You)
+Play_You
+
+### EVENT NAMES (1430895784.bnk: env_D_messages_YouCantSaveHer)
+Play_YouCantSaveHer
+
+### EVENT NAMES (2787334679.bnk: env_D_prop_bin)
+Play_bin
+
+### EVENT NAMES (2853312464.bnk: env_D_prop_kit)
+Play_metal_hit
+Play_metal_hit_inst
+Play_scrape
+
+### RTPC/GAME-VARIABLE NAMES (2853312464.bnk: env_D_prop_kit)
+event_pitch
+event_volume
+
+### EVENT NAMES (2904379626.bnk: env_D_prop_lamp)
+Play_lamp
+
+### EVENT NAMES (1251568953.bnk: env_D_prop_scooter)
+Play_scooter
+
+### EVENT NAMES (4008072888.bnk: env_destructables_angel)
+Play_angel_vines_destroy
+Play_angel_vines_hit
+Play_angel_vines_idle
+Play_blank
+Play_Desctructables_angel_in
+Play_Desctructables_angel_out
+Stop_angel_vines_idle
+
+### RTPC/GAME-VARIABLE NAMES (4008072888.bnk: env_destructables_angel)
+event_pitch
+event_volume
+
+### VARIABLE NAMES (4008072888.bnk: env_destructables_angel)
+DevilTrigger
+
+### VALUE NAMES (4008072888.bnk: env_destructables_angel)
+none
+off
+on
+
+### EVENT NAMES (3844876677.bnk: env_destructables_axe_shared)
+Play_Desctructables_axe_in
+Play_Desctructables_axe_out
+
+### RTPC/GAME-VARIABLE NAMES (3844876677.bnk: env_destructables_axe_shared)
+event_pitch
+event_volume
+
+### EVENT NAMES (4223545206.bnk: env_destructables_axe_wall)
+Play_axe_wall_destroy
+
+### EVENT NAMES (4207061713.bnk: env_destructables_axe_wood)
+Play_axe_door_destroy
+
+### EVENT NAMES (1051261398.bnk: env_destructables_demon_shared)
+Play_blank
+Play_Desctructables_axe_in
+Play_Desctructables_axe_out
+Play_Desctructables_gauntlet_in
+Play_Desctructables_gauntlet_out
+
+### RTPC/GAME-VARIABLE NAMES (1051261398.bnk: env_destructables_demon_shared)
+event_pitch
+event_volume
+
+### EVENT NAMES (1075504486.bnk: env_destructables_gauntlets)
+Play_Desctructables_gauntlet_in
+Play_Desctructables_gauntlet_out
+Play_gauntlet_rock_destroy
+
+### RTPC/GAME-VARIABLE NAMES (1075504486.bnk: env_destructables_gauntlets)
+event_pitch
+event_volume
+
+### EVENT NAMES (899895152.bnk: env_game_wide_dojo)
+Play_dojo_dead_air_amb
+Stop_dojo_dead_air_amb
+
+### RTPC/GAME-VARIABLE NAMES (899895152.bnk: env_game_wide_dojo)
+event_pitch
+event_volume
+
+### EVENT NAMES (1732519229.bnk: env_game_wide_lost_souls)
+Play_lost_souls_hit
+Play_lost_souls_kill
+Play_lost_souls_loop
+Stop_lost_souls_loop
+
+### RTPC/GAME-VARIABLE NAMES (1732519229.bnk: env_game_wide_lost_souls)
+event_pitch
+event_volume
+
+### EVENT NAMES (1635234575.bnk: env_game_wide_magic_debris)
+# 2644966072
+# 2896679418
+
+### RTPC/GAME-VARIABLE NAMES (1635234575.bnk: env_game_wide_magic_debris)
+event_pitch
+event_volume
+
+### EVENT NAMES (3945441485.bnk: env_game_wide_mundus_door)
+Play_env_mundus_door_open
+
+### EVENT NAMES (1193911611.bnk: env_game_wide_platform_metal)
+Play_brewery_crate_bob_02
+Play_brewery_crate_bob_03
+
+### EVENT NAMES (2988703517.bnk: env_game_wide_platform_stone)
+Play_platform_stone_bob_B
+Play_platform_stone_land
+
+### EVENT NAMES (2403436903.bnk: env_game_wide_wood_planks)
+Play_wood_plank_break
+Play_wood_plank_stomp
+
+### EVENT NAMES (3856633891.bnk: env_secret_area)
+Play_creak
+Play_gulls
+Play_secret_area_bed
+Play_secret_area_platform_shift_01
+Play_secret_world_chain_break
+Play_Secret_World_door_close
+Play_Secret_World_door_open
+Play_secret_world_ghostly_voice
+Play_secret_world_platform_bob
+Play_secret_world_thunder_rand
+Play_secret_world_thunder_sub
+Play_secret_world_tree_rustle
+Play_secret_world_windgust
+Play_secret_worlds_whisper_loop
+Stop_secret_area_bed
+Stop_secret_world_tree_rustle
+Stop_secret_worlds_whisper_loop
+# 2588339131
+# 3895391429
+
+### RTPC/GAME-VARIABLE NAMES (3856633891.bnk: env_secret_area)
+event_pitch
+
+### EVENT NAMES (2846673930.bnk: env_secret_area_angel_whip)
+# 960838501
+
+### EVENT NAMES (2205361451.bnk: env_secret_area_demon_pull)
+# 529981378
+
+### EVENT NAMES (882195003.bnk: env_secret_area_transition)
+Play_secret_World_Transition
+Stop_secret_World_Transition
+
+### EVENT NAMES (1770428021.bnk: env_secret_area_wormhole)
+Play_Secret_World_flypast
+Play_Secret_World_loop_out
+Play_Secret_World_loop_start
+Play_Secret_World_sweep
+Stop_Secret_World_loop_start
+
+### RTPC/GAME-VARIABLE NAMES (1770428021.bnk: env_secret_area_wormhole)
+pan_LR
+vortexvo_RTPC
+
+### EVENT NAMES (1110422488.bnk: sword_impacts)
+Play_axe_blocked
+Play_char_tank_buzzsaw_death_explo_01
+Play_combat_hit_blocked
+Play_combat_hit_rebellion
+Play_combat_hit_rebellion_finisher
+Play_combat_hit_rebellion_heavy
+Play_combat_hit_rebellion_tank_wp
+Play_combat_hit_yashichi
+Play_combat_hit_yashichi_3d
+Play_combat_hit_yashichi_finisher
+Play_combat_hit_yashichi_tank_wp
+Play_Dante_Parry_Big
+Play_DanteParried
+Play_demon_pull_punch
+Play_gen_bodyfall_big
+Play_gen_bodyfall_big_metal
+Play_generic_Parry
+Play_kill_critter
+Play_kill_slug
+Play_KO_dismember_anim
+Play_KO_dismember_large
+Play_KO_dismember_small
+Play_rebellion_blocked
+Play_whip_blocked
+
+### RTPC/GAME-VARIABLE NAMES (1110422488.bnk: sword_impacts)
+event_pitch
+event_volume
+
+### VARIABLE NAMES (1110422488.bnk: sword_impacts)
+DevilTrigger
+
+### VALUE NAMES (1110422488.bnk: sword_impacts)
+none
+off
+on
+
+### EVENT NAMES (1930489279.bnk: test_tones)
+Play_test_cuckoo
+Play_test_cuckoo_loop
+Play_test_horn
+Play_test_pam
+Stop_test_cuckoo_loop
+# 491172060
+# 1151989575
+# 2416525605
+# 2929001547
+# 3187221782
+# 3647681053
+# 3967384275
+
+### RTPC/GAME-VARIABLE NAMES (1930489279.bnk: test_tones)
+event_pitch
+event_volume
+
+### EVENT NAMES (1551306167.bnk: ui)
+Challenge_Room_Door_Fade_out_1sec
+Challenge_Room_Door_Fade_up_1sec
+Challenge_Room_Enter_Fade_up_1sec
+Challenge_Room_Exit_Fade_out_2_5_sec
+Challenge_Room_Stop_Characters
+Enter_Dojo
+Enter_Dojo_fade_up
+exit_dojo
+Exit_Dojo_fade_down
+Play_anarchic
+Play_Brutal
+Play_Cruel
+Play_DevilTriggerAvailable
+Play_Dirty
+Play_env_angel_life_point_deactivate_01
+Play_GameOver
+Play_HUD_angel
+Play_HUD_delay_off
+Play_HUD_delay_on
+Play_HUD_demon
+Play_HUD_human
+Play_item_aquired_01
+Play_item_aquired_02
+Play_item_aquired_03
+Play_item_aquired_04
+Play_item_aquired_Pause
+Play_menu_item_click
+Play_Pause_menu
+Play_pause_menu_item
+Play_Sadistic
+Play_Savage
+Play_Sensational
+Play_UI_backwards
+Play_UI_bumper
+Play_UI_button_generic
+Play_UI_fail
+Play_UI_forwards
+Play_ui_mundus_key_pickup
+Play_ui_orb_harvest
+Play_ui_pickup_red_orb
+Play_ui_pickup_red_orb_incoming
+Play_UI_toggle_off
+Play_UI_toggle_on
+Play_UI_use_devil_star
+Play_UI_use_health_star
+Play_Unpause_Menu
+Play_unpause_menu_item
+Play_upgrade_available
+Play_Vergil_DTMeter
+Play_weapon_axe
+Play_weapon_ebonyandivory
+Play_weapon_gaunltet
+Play_weapon_kablooey
+Play_weapon_scythe
+Play_weapon_shotgun
+Play_weapon_yashichi
+Stop_ui_pickup_red_orb_incoming
+# 3104393039
+# 4122907941
+
+### RTPC/GAME-VARIABLE NAMES (1551306167.bnk: ui)
+event_pitch
+event_volume
+user_SFX_volume
+
+### VARIABLE NAMES (1551306167.bnk: ui)
+Ch10_Bob_Barbas
+Ch11_Breakin
+Ch12_Escape
+ch13_club
+Ch15_Docks
+Ch16_Mundus_Tower
+Ch17_Core
+Ch18_The_Vault
+Ch19_Mundus
+Ch1_Hunter
+Ch20_Vergil
+Ch2_Mansion_0_vision_version
+Ch3_Plaza
+Ch4_City
+Ch6_Brewery
+Ch7_Poison_Boss
+Ch8_Upside_Down
+Ch9_Phineas_A
+Ch9_Phineas_B
+Dante_Grunts
+dojo
+Mixer
+UI_button_hack
+# 675583530
+
+### VALUE NAMES (1551306167.bnk: ui)
+Enter_Dojo
+exit_dojo
+Grunts_off
+Grunts_on
+none
+off
+on
+
+### EVENT NAMES (424608496.bnk: ui_credits)
+Play_CreditsMusic
+Stop_CreditsMusic
+
+### RTPC/GAME-VARIABLE NAMES (424608496.bnk: ui_credits)
+user_SFX_volume
+
+### EVENT NAMES (3937356916.bnk: ui_descent)
+Play_descent_timer
+Stop_descent_timer
+Stop_descent_timer_bell
+
+### RTPC/GAME-VARIABLE NAMES (3937356916.bnk: ui_descent)
+descent_timer
+event_pitch
+event_volume
+
+### EVENT NAMES (4225933205.bnk: ui_dlc_pickup_proxy)
+Play_dlc_pickup_proxy
+Stop_dlc_pickup_proxy
+
+### RTPC/GAME-VARIABLE NAMES (4225933205.bnk: ui_dlc_pickup_proxy)
+dlc_pickup_proxy
+event_pitch
+event_volume
+user_SFX_volume
+
+### VARIABLE NAMES (4225933205.bnk: ui_dlc_pickup_proxy)
+Mixer
+
+### EVENT NAMES (1299051700.bnk: ui_enemyIntro)
+EnemyIntroPause
+EnemyIntroResume
+
+### RTPC/GAME-VARIABLE NAMES (1299051700.bnk: ui_enemyIntro)
+event_pitch
+event_volume
+
+### EVENT NAMES (225098165.bnk: ui_front_end)
+Play_amb_menu
+Play_CreditsMusic
+Play_DevilMayCry
+Play_Pause_menu
+Play_UI_backwards
+Play_UI_bumper
+Play_UI_button_generic
+Play_UI_buyability
+Play_UI_buyitem
+Play_UI_fail
+Play_UI_filter_stats
+Play_UI_forwards
+Play_UI_press_start
+Play_UI_refresh
+Play_UI_sellability
+Play_UI_skins_selector
+Play_UI_start_mission
+Play_UI_toggle_off
+Play_UI_toggle_on
+Play_Unpause_Menu
+Stop_amb_menu
+Stop_CreditsMusic
+Stop_UI_button_generic
+Stop_UI_start_mission
+# 279080903
+# 690147600
+# 1184389017
+# 2177577274
+
+### RTPC/GAME-VARIABLE NAMES (225098165.bnk: ui_front_end)
+user_SFX_volume
+
+### VARIABLE NAMES (225098165.bnk: ui_front_end)
+dojo
+Mixer
+UI_button_hack
+
+### VALUE NAMES (225098165.bnk: ui_front_end)
+exit_dojo
+mission_Load
+none
+off
+on
+
+### EVENT NAMES (210181486.bnk: ui_mission_complete)
+Play_mc_bonus_orbs_count_stopped
+Play_mc_bonus_orbs_counter_tick
+Play_mc_bonus_orbs_upgrade
+Play_mc_counter_tick_general
+Play_mc_counter_tick_general_final
+Play_mc_death_counter_tick
+Play_mc_item_collected
+Play_mc_item_missed
+Play_mc_mission_complete_appear
+Play_mc_mission_complete_stopped
+Play_mc_multiplier_appear
+Play_mc_multiplier_counted
+Play_mc_multiplier_moving
+Play_mc_multiplier_stopped
+Play_mc_music
+Play_mc_penalty_appear
+Play_mc_penalty_counted
+Play_mc_penalty_counter_tick
+Play_mc_penalty_moving
+Play_mc_penalty_stopped
+Play_mc_rank_final_A_appear
+Play_mc_rank_final_A_stopped
+Play_mc_rank_final_B_appear
+Play_mc_rank_final_B_stopped
+Play_mc_rank_final_C_appear
+Play_mc_rank_final_C_stopped
+Play_mc_rank_final_D_appear
+Play_mc_rank_final_D_stopped
+Play_mc_rank_final_S_appear
+Play_mc_rank_final_S_stopped
+Play_mc_rank_final_SS_appear
+Play_mc_rank_final_SS_stopped
+Play_mc_rank_final_SSS_appear
+Play_mc_rank_final_SSS_stopped
+Play_mc_rank_minor_A_appear
+Play_mc_rank_minor_A_stopped
+Play_mc_rank_minor_B_appear
+Play_mc_rank_minor_B_stopped
+Play_mc_rank_minor_C_appear
+Play_mc_rank_minor_C_stopped
+Play_mc_rank_minor_D_appear
+Play_mc_rank_minor_D_stopped
+Play_mc_rank_minor_S_appear
+Play_mc_rank_minor_S_stopped
+Play_mc_rank_minor_SS_appear
+Play_mc_rank_minor_SS_stopped
+Play_mc_rank_minor_SSS_appear
+Play_mc_rank_minor_SSS_stopped
+Play_mc_skipped
+Play_mc_super_dante_penalty_tick
+Play_mc_title_completion_moving
+Play_mc_title_completion_stopped
+Play_mc_title_deaths_moving
+Play_mc_title_deaths_stopped
+Play_mc_title_items_moving
+Play_mc_title_itemsstopped
+Play_mc_title_style_moving
+Play_mc_title_style_stopped
+Play_mc_title_time_moving
+Play_mc_title_time_stopped
+Play_UI_buyability
+Play_UI_buyitem
+Play_UI_filter_stats
+Play_UI_refresh
+Play_UI_sellability
+Play_UI_skins_selector
+Stop_mc_music
+
+### RTPC/GAME-VARIABLE NAMES (210181486.bnk: ui_mission_complete)
+user_SFX_volume
+
+### EVENT NAMES (3713461373.bnk: ui_pickups_devil_star)
+Play_ui_pickup_devil_small
+
+### RTPC/GAME-VARIABLE NAMES (3713461373.bnk: ui_pickups_devil_star)
+user_SFX_volume
+
+### VARIABLE NAMES (3713461373.bnk: ui_pickups_devil_star)
+Mixer
+
+### EVENT NAMES (53145485.bnk: ui_pickups_devil_star_large)
+Play_ui_pickup_devil_large
+Play_ui_pickup_devil_loop
+Stop_ui_pickup_devil_loop
+
+### RTPC/GAME-VARIABLE NAMES (53145485.bnk: ui_pickups_devil_star_large)
+event_pitch
+event_volume
+user_SFX_volume
+
+### VARIABLE NAMES (53145485.bnk: ui_pickups_devil_star_large)
+Mixer
+
+### EVENT NAMES (772377473.bnk: ui_pickups_health_star)
+Play_ui_health_shard
+
+### RTPC/GAME-VARIABLE NAMES (772377473.bnk: ui_pickups_health_star)
+user_SFX_volume
+
+### VARIABLE NAMES (772377473.bnk: ui_pickups_health_star)
+Mixer
+
+### EVENT NAMES (2635371509.bnk: ui_pickups_vital_star)
+Play_ui_pickup_vital_small
+
+### RTPC/GAME-VARIABLE NAMES (2635371509.bnk: ui_pickups_vital_star)
+user_SFX_volume
+
+### VARIABLE NAMES (2635371509.bnk: ui_pickups_vital_star)
+Mixer
+
+### EVENT NAMES (1939237381.bnk: ui_pickups_vital_star_large)
+Play_ui_pickup_vital_large
+Play_ui_pickup_vital_loop
+Stop_ui_pickup_vital_loop
+
+### RTPC/GAME-VARIABLE NAMES (1939237381.bnk: ui_pickups_vital_star_large)
+event_pitch
+event_volume
+user_SFX_volume
+
+### VARIABLE NAMES (1939237381.bnk: ui_pickups_vital_star_large)
+Mixer
+
+### EVENT NAMES (156747382.bnk: ui_shop)
+Play_shop_awaken
+Play_shop_sleep
+Play_UI_buyability
+Play_UI_buyitem
+Play_UI_entershop
+Play_UI_leaveshop
+Play_UI_sellability
+
+### RTPC/GAME-VARIABLE NAMES (156747382.bnk: ui_shop)
+event_pitch
+event_volume
+user_SFX_volume
+
+### EVENT NAMES (langs/3322806617.bnk: DLC_CS_CH4_VO_Chapel_Arrival)
+Play_CS_CH4_Chapel_Arrival
+Stop_CS_CH4_Chapel_Arrival
+
+### EVENT NAMES (langs/1947823436.bnk: DLC_Ch1_Weak_VO)
+Play_DLC1_CS_CH1_Weak
+Stop_DLC1_CS_CH1_Weak
+
+### RTPC/GAME-VARIABLE NAMES (langs/1947823436.bnk: DLC_Ch1_Weak_VO)
+event_pitch
+event_volume
+
+### EVENT NAMES (langs/1711310643.bnk: VO_Ch1)
+Play_HUNTER_TrailerPark_IGV_1642_Eva
+Play_HUNTER_TrailerPark_IGV_1643_Vergil
+Play_HUNTER_TrailerPark_IGV_1644_Vergil
+Play_HUNTER_TrailerPark_IGV_1645_Vergil
+Play_HUNTER_TrailerPark_IGV_1646_Young_Dante
+Play_HUNTER_TrailerPark_IGV_1647_Young_Vergil
+Play_HUNTER_TrailerPark_IGV_1648_Young_Dante
+Play_HUNTER_TrailerPark_IGV_1649_Dante
+Play_HUNTER_TrailerPark_IGV_1650_Vergil
+Play_HUNTER_TrailerPark_IGV_1651_Eva
+Play_HUNTER_TrailerPark_IGV_1652_Vergil
+Play_HUNTER_TrailerPark_IGV_1653_Eva
+Play_HUNTER_TrailerPark_IGV_1654_Eva
+Play_HUNTER_TrailerPark_IGV_1655_Vergil
+
+### RTPC/GAME-VARIABLE NAMES (langs/1711310643.bnk: VO_Ch1)
+event_pitch
+event_volume
+
+### EVENT NAMES (langs/1711310640.bnk: VO_Ch2)
+Play_HUNTER_TrailerPark_IGV_1656_Vergil
+Play_HUNTER_TrailerPark_IGV_1657_Kat
+Play_HUNTER_TrailerPark_IGV_1658_Kat
+Play_HUNTER_TrailerPark_IGV_1659_Vergil
+Play_HUNTER_TrailerPark_IGV_1660_Kat
+
+### RTPC/GAME-VARIABLE NAMES (langs/1711310640.bnk: VO_Ch2)
+event_pitch
+event_volume
+
+### EVENT NAMES (langs/1711310641.bnk: VO_Ch3)
+Play_HUNTER_TrailerPark_IGV_1661_Dante
+Play_HUNTER_TrailerPark_IGV_1662_Dante
+Play_HUNTER_TrailerPark_IGV_1663_Dante
+Play_HUNTER_TrailerPark_IGV_1664_Dante
+Play_HUNTER_TrailerPark_IGV_1666_Vergil
+Play_HUNTER_TrailerPark_IGV_1667_Dante
+Play_HUNTER_TrailerPark_IGV_1668_Vergil
+Play_HUNTER_TrailerPark_IGV_1669_Dante
+Play_HUNTER_TrailerPark_IGV_1670_Dante
+Play_HUNTER_TrailerPark_IGV_1671_Vergil
+Play_HUNTER_TrailerPark_IGV_1672_Vergil
+Play_HUNTER_TrailerPark_IGV_1673_Dante
+Play_HUNTER_TrailerPark_IGV_1674_Dante
+Play_HUNTER_TrailerPark_IGV_1675_Dante
+# 2054099061
+
+### RTPC/GAME-VARIABLE NAMES (langs/1711310641.bnk: VO_Ch3)
+event_pitch
+event_volume
+
+### EVENT NAMES (langs/1711310646.bnk: VO_Ch4)
+Play_HUNTER_TrailerPark_IGV_1676_Eva
+Play_HUNTER_TrailerPark_IGV_1677_Vergil
+Play_HUNTER_TrailerPark_IGV_1678_Eva
+Play_HUNTER_TrailerPark_IGV_1679_Vergil
+
+### RTPC/GAME-VARIABLE NAMES (langs/1711310646.bnk: VO_Ch4)
+event_pitch
+event_volume
+
+### EVENT NAMES (langs/1711310644.bnk: VO_Ch6)
+Play_HUNTER_TrailerPark_IGV_1681_Vergil
+Play_HUNTER_TrailerPark_IGV_1682_Vergil
+Play_HUNTER_TrailerPark_IGV_1683_Vergil
+# 2099361971
+
+### RTPC/GAME-VARIABLE NAMES (langs/1711310644.bnk: VO_Ch6)
+event_pitch
+event_volume
+
+### EVENT NAMES (langs/578429209.bnk: char_dante_quips)
+Play_quip
+
+### RTPC/GAME-VARIABLE NAMES (langs/578429209.bnk: char_dante_quips)
+event_volume
+
+### RTPC/GAME-VARIABLE NAMES (langs/90224061.bnk: env_secret_area_wormhole_VO)
+vortexvo_RTPC
+
+#2127098519  : Angel_Boost_Portalx
+#2235074015  : VolcanoExe
