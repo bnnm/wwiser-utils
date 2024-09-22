@@ -20222,8 +20222,7 @@ Water
 Wood
 
 ### EVENT NAMES (Snusnu_T22.bnk)
-_0x0000A160
-_0x0000A160 #alt
+AudioEvent_Snusnu_T22_Stinger
 AudioEvent_Snusnu_T22_Fall
 AudioEvent_Snusnu_T22_Impact
 AudioEvent_Snusnu_T22_Rattle
