@@ -1,0 +1,423 @@
+# effect-related names
+# many aren't used as ShortIDs but just in case since they use extended FNV chars
+
+My Aux Bus = 0
+
+Wwise Compressor = 0
+Wwise Delay = 0
+Wwise Expander = 0
+Wwise Flanger = 0
+Wwise Gain = 0
+Wwise Guitar Distortion = 0
+Wwise Harmonizer = 0
+Wwise Matrix Reverb = 0
+Wwise Meter = 0
+Wwise Parametric EQ = 0
+Wwise Peak Limiter = 0
+Wwise Pitch Shifter = 0
+Wwise Recorder = 0
+Wwise RoomVerb = 0
+Wwise Stereo Delay = 0
+Wwise Time Stretch = 0
+Wwise Tremolo = 0
+# common props
+Low Shelf = 0
+Peaking = 0
+High Shelf = 0
+Low Pass = 0
+High Pass = 0
+Band Pass = 0
+Notch = 0
+
+# source
+Wwise Sine = 0
+Wwise Silence = 0
+Wwise Audio Input = 0
+Wwise Synth One = 0
+Wwise Tone Generator = 0
+
+# from various Wwise samples
+Factory Conversion Settings = 0
+Vorbis Auto Detect High = 0
+Vorbis Auto Detect Low = 0
+Vorbis Auto Detect Medium = 0
+Vorbis Quality High = 0
+Vorbis Quality Low = 0
+Vorbis Quality Medium = 0
+PCM As Input = 0
+PCM Auto Detect Low = 0
+PCM Auto Detect Medium = 0
+PCM Auto Detect High = 0
+ADPCM As Input = 0
+ADPCM Auto Detect Low = 0
+ADPCM Auto Detect Medium = 0
+ADPCM Auto Detect High = 0
+
+Factory Effects = 0
+Wwise Compressor = 0
+Gentle_Program_Compressor_Minus_20dB_RMS
+Gentle_Program_Compressor_Minus_14dB_RMS
+Hard_Knee_Minus_3dB_RMS
+Dialog_Leveler_Soft
+Dialog_Leveler_Hard
+Dialog_Too_Quiet
+High_Impact
+Attack_Remover
+Pumping_and_Breathing_1
+All_Buttons_IN
+Pumping_and_Breathing_2
+Pumping_and_Breathing_3
+Wwise Expander = 0
+Light_Expander
+Noise_Gate_Fast_Attack
+Noise_Gate_Slow_Attack
+Noise_Gate
+Wwise Delay = 0
+One_Tap_One_Second
+Echoes_Linear
+One_Tap_Half_Second
+One_Tap_Quarter_Second
+Nearly_Forever
+Wwise Peak Limiter = 0
+Brick_Wall_Minus_6dB_Peak_Fast_Release
+Brick_Wall_Minus_6dB_Peak_Slow_Release
+Extreme_Limiting_1
+Extreme_Limiting_2
+Extreme_Limiting_3
+Brick_Wall_Minus_1dB_Peak_Fast_Release
+Brick_Wall_Minus_1dB_Peak_Slow_Release
+Nasty_Radio
+Wwise Parametric EQ = 0
+Shelving EQ = 0
+High Shelf = 0
+Boost_3dB_10KHz
+Cut_3dB_10KHz
+High_Freq_Cut_1
+High_Freq_Cut_2
+High_Freq_Cut_3
+High_Freq_Cut_4
+High_Freq_Cut_5
+High_Freq_Cut_6
+High_Freq_Cut_7
+High_Freq_Cut_8
+High_Freq_Cut_9
+High_Freq_Cut_10
+High_Freq_Cut_11
+Low Shelf = 0
+Bass_Remover_1
+Bass_Remover_2
+Bass_Remover_3
+Bass_Remover_4
+Bass_Remover_5
+Bass_Remover_6
+Bass_Remover_7
+Bass_Remover_8
+Bass_Remover_9
+Bass_Remover_10
+Bass_Remover_11
+Boost_3dB_100Hz
+Cut_3dB_100Hz
+Creative EQ = 0
+Born_In_1950
+Club_Music_Distant_01
+Club_Music_Distant_02
+Club_Music_Distant_03
+Club_Music_Distant_04
+In_My_Car
+Next_Room
+Dialog_Through_AC_Vents
+High Pass Filters = 0
+High_Pass_60Hz
+Misc
+Static_Sibilance_Remover_Female
+Static_Sibilance_Remover_Male
+Low Pass Filters = 0
+Low_Pass_20KHz
+Band Pass Filters = 0
+Single_Band_1Khz_Wide
+Dual_Filters_Reset
+Dual_Filters_Narrow_Bandwidth
+Dual_Filters_Radio_Comm
+Wwise Matrix Reverb = 0
+Bathroom1
+Big_Garage1
+Large_Bright_Chamber1
+Large_Church1
+Medium_Room1
+PA_Announcement1
+Small_Tiled_Room1
+Small_Wooden_Room1
+Tunnel1
+Underground_Parking1
+Wwise RoomVerb = 0
+Halls
+Hall_Large_Bright
+Hall_Medium_Bright
+Hall_Small_Bright
+Hall_Large_Dark
+Hall_Medium_Dark
+Hall_Guns
+Hall_Large
+Hall_Medium
+Hall_Small
+Hall_Large_TooBright
+Hall_Stop_Screaming
+Hall_Conversation
+Claustrophobia
+Not_A_Yellow_Submarine
+My_Closet
+Robotic_Trash
+Dirty_Washing_Machine
+Phone_Booth
+Inside_My_Head
+Inside_Your_Head
+Plates
+Plate_Medium
+Plate_Small
+Plate_Large
+Plate_Sizzle
+Rooms
+Room_Large
+Room_Medium
+Room_Small
+Room_Medium_Tiled
+Room_Medium_High_Absorbtion
+Cathedrals
+Holy
+Medium
+Church_Small_Wood
+Huge Spaces = 0
+Machine_Gun_Hangar
+Aluminium_Tank
+Metal_Hangar
+Space_Dreaming
+Space_Garage
+Exteriors
+Have_U_Ever_Been_Outside
+Wwise Flanger = 0
+Flanging
+Standard
+Deep
+Treble
+Bass
+Heavy_Metal
+Chorus
+Chorus_Like
+Vibrato
+Special_Effect_1
+Static Comb Filtering = 0
+Few_Odd_Harm_Notches
+Many_Odd_Harm_Notches
+Few_Odd_Harm_Peaks
+Many_Odd_Harm_Peaks
+Few_Even_Notches
+Few_Even_Harm_Peaks
+Many_Even_Harm_Notches
+Many_Even_Harm_Peaks
+Harmonizer
+Fear_no_Evil
+Secret_message
+Secret_message_Distant
+Repeat_after_me
+Three_Voices
+Stereo Delay = 0
+_1_Frame_Delay
+_1_Second_Delay
+LR_Slap_with_CrossFeed
+Underwater_Echoes
+Blue_Distant_Echoes
+Personnel_Advisor
+_500ms_Per_Hour
+Let_The_Power_Fall
+Caught_in_a_loop
+Straight_Delay
+Tremolo
+Say_what
+Rhythmic_Talk
+Very_Slow_Modulation
+Boomerang
+Halfway_There
+Very_Bad_Connection
+Aliasing
+Fast_LF_Tremolo
+Fast_LF_Tremolo_No_Smoothing
+Pitch Shifter = 0
+Harmonize
+Octave_Up
+Octave_Down
+Transpose
+Chipmunk
+Monsterize
+Voice_CenterOnly_Lowered
+
+Factory Spatial Audio = 0
+Room Auxiliary Bus = 0
+Wwise_RoomVerb_(Custom) = 0
+
+# probably useless
+Factory Queries = 0
+All Objects = 0
+WAQL Query = 0
+Actor-Mixer = 0
+Actor-Mixer Hierarchy = 0
+Acoustic Texture = 0
+Argument
+Argument Value = 0
+Attenuation
+Audio Bus = 0
+Audio Device = 0
+Auxiliary Bus = 0
+Audio Source = 0
+Blend Container = 0
+Conversion Settings = 0
+Dialogue Event = 0
+Effect
+Event
+External Source = 0
+Virtual Folder = 0
+Interactive Music Hierarchy = 0
+Interactive Music Hierarchy Behavior = 0
+Metadata
+Modulator Envelope = 0
+Modulator LFO = 0
+Modulator Time = 0
+Modulators
+Music Clip = 0
+Music Clip MIDI = 0
+Music Cue = 0
+Music Event Cue = 0
+Music Fade = 0
+Music Playlist Item = 0
+Music Playlist Container = 0
+Music Segment = 0
+Music Stinger = 0
+Music Switch Container = 0
+Music Track = 0
+Music Track Sequence = 0
+Music Transition = 0
+Random-Sequence Container = 0
+Sound
+SoundBank
+Switch Container = 0
+Switch Group = 0
+Trigger
+
+Synth One = 0
+Factory Synth One = 0
+Default Conversion Settings = 0
+Wwise Pitch Shifter (Custom) = 0
+Wwise Parametric EQ (Custom) = 0
+Wwise Stereo Delay (Custom) = 0
+BEEP 01 = 0
+DENIED 01 = 0
+REVERSE 01 = 0
+CONFIRM 01 = 0
+PANEL 01 = 0
+MAGIC 01 = 0
+DRONE 01 = 0
+SPELL 01 = 0
+WOOSH 01 = 0
+COMM 01 = 0
+ALARM 01 = 0
+DOWNLOAD 01 = 0
+OPEN CHEST = 0
+WHA
+RING 01 = 0
+PAD 01 = 0
+SAW FIFTH = 0
+FLUTISH
+PWM
+BASS 01 = 0
+FM 01 = 0
+MINI LEAD = 0
+SAW
+FALLING OCTAVE = 0
+OCTAVE DANCE = 0
+PERC 01 = 0
+HARPSY
+
+Factory Acoustic Textures = 0
+Acoustic Textures = 0
+Tile
+Carpet
+Brick
+Mountain
+Wood_Bright
+Wood_Deep
+Drywall
+Anechoic
+Concrete
+Fabric
+Acoustic_Banner
+Cork_Tiles
+Curtains
+
+Tone Generator = 0
+Master Audio Bus = 0
+Voices
+Environmental Bus = 0
+Voices_Radio
+Music
+3D_Bus_Demo = 0
+Wet_Path_3D
+Dry_Path
+Wet_Path_Omni
+3D-Submix_Bus = 0
+Portals
+Non Recordable Bus = 0
+Muted for User Music = 0
+Game Pad Bus = 0
+3D_Bus = 0
+Auxiliary Bus = 0
+
+Pad_Output
+System
+Communication_Output
+DVR_Bypass
+Controller_Headphones
+Controller_Speaker
+No_Output
+
+Delay
+Nearly_Forever
+High_Shelf_Boost_3dB_10KHz
+High_Shelf_Cut_3dB_10KHz
+High_Freq_Cut_4
+Low_Shelf_Boost_3dB_100Hz
+Low_Shelf_Cut_3dB_100Hz
+Creative_Born_In_1950
+Creative_Club_Music_Distant_01
+Creative_Club_Music_Distant_02
+Creative_Club_Music_Distant_03
+Creative_Club_Music_Distant_04
+Creative_In_My_Car
+Creative_Next_Room
+Creative_Dialog_Through_AC_Vents
+Low-pass Filters = 0
+Band_Pass_Single_Band_1Khz_Wide
+Band_Pass_Dual_Filters_Reset
+Band_Pass_Dual_Filters_Narrow_Bandwidth
+Band_Pass_Dual_Filters_Radio_Comm
+Hall_Medium_Bright
+Bright_Small_Hall
+Hall_Large_Default
+Hall_Medium_Default
+Hall_Small_Default
+Claustrophobia Serie = 0
+Claustro_Not_A_Yellow_Submarine
+Claustro_My_Closet
+Claustro_Robotic_Trash
+Claustro_Dirty_Washing_Machine
+Claustro_Phone_Booth
+Claustro_Inside_My_Head
+Claustro_Inside_Your_Head
+Plate_Sizzle
+Room_Medium_High_Absorption_Coefficient
+Cathedral_Holy
+Cathedral_Medium
+Huge_Space_Machine_Gun_Hangar
+Huge_Space_Aluminium_Tank
+Huge_Space_Metal_Hangar
+Huge_Space_Dreaming
+Huge_Space_Garage
+Exterior_Have_U_Ever_Been_Outside

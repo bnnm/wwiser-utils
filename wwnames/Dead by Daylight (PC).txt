@@ -21445,3 +21445,5 @@ AudioRTPC_Listener_Angle_Object_Relative
 
 ### VARIABLE NAMES (langs/TRYKS_VO.bnk)
 AudioStateLTE
+
+1271969258  : WallChicken

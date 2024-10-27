@@ -1,0 +1,379 @@
+
+### BANK NAMES
+bg_common
+bgm_common
+Init
+sfx_common
+sys_resident
+
+### BUS NAMES
+background
+bathroom
+blood
+demo_bus
+enemy
+environment
+gimmick
+LFE
+lobby
+lobby_dry
+Master Audio Bus = 0
+Master Motion Bus = 0
+Master Secondary Bus = 0
+me
+music
+PaperBag
+passage
+player
+radio
+StartRoom
+system_effect
+system_effect_delay
+telephone
+# 1299990991
+# 1502772432
+# 1869686406
+# 3127962312
+# 3714968413
+# 2734718472
+# 2734718473
+# 2734718475
+# 2734718478
+
+### SFX NAMES (Init.bnk)
+# 880764000
+# 1637186840
+# 4125369573
+
+### BASE RTPC/GAME-VARIABLE NAMES (Init.bnk)
+player_direction
+rainfall
+rear_rtpc
+speed_control
+splinkle_obstruction
+volumeRtpc
+# 1841832582
+# 1861830223
+# 2556335218
+# 2600501659
+# 4177574223
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+splinkle_obstruction
+
+### VARIABLE NAMES (Init.bnk)
+chara
+condition
+cutscene_state
+state_common
+
+### VALUE NAMES (Init.bnk)
+bgm_env_off
+bgm_env_off_3s
+bgm_off
+bgm_off_3s
+env_off
+game_over
+in_game
+splash_screen
+
+### EVENT NAMES (bg_common.bnk)
+Play_bg_bathroom01
+Play_bg_passage01
+Play_bg_startroom01
+
+### RTPC/GAME-VARIABLE NAMES (bg_common.bnk)
+volumeRtpc
+
+### EVENT NAMES (bgm_common.bnk)
+Play_bgm_corridor_f110
+Play_bgm_herald01
+Play_bgm_mystery01
+Play_bgm_unrest01
+Play_bgm_unrest02
+Play_bgm_unrest03
+Play_bgm_yobi01
+Stop_bgm_0sec
+Stop_bgm_1sec
+Stop_bgm_3sec
+Stop_bgm_corridor_f110
+Stop_bgm_herald01
+Stop_bgm_mystery01
+Stop_bgm_unrest01
+Stop_bgm_unrest02
+Stop_bgm_unrest03
+Stop_bgm_yobi01
+
+### RTPC/GAME-VARIABLE NAMES (bgm_common.bnk)
+player_direction
+
+### EVENT NAMES (sfx_common.bnk)
+Play_bug_long
+Play_bug_short
+Play_dd_voice
+Play_ene_fs_chase_01
+Play_ene_fs_f040_01
+Play_ene_fs_f060_01
+Play_ene_fs_f070_01
+Play_ene_movement_01
+Play_man_fs_f100_01
+Play_me_fear_01
+Play_me_fear_02
+Play_PaperBag_voice_01
+Play_Peephole_Theater
+Play_plr_footstep_creak
+Play_plr_footstep_lv_l
+Play_plr_footstep_lv_r
+Play_plr_footstep_wk_l
+Play_plr_footstep_wk_l_2D
+Play_plr_footstep_wk_r
+Play_plr_footstep_wk_r_2D
+Play_radio_f010
+Play_radio_f050
+Play_radio_noise_lp
+Play_radio_religion_01
+Play_radio_Riddle_01
+Play_radio_Riddle_02
+Play_radio_voice_01
+Play_radio_voice_02
+Play_radio_voice_03
+Play_radio_voice_04
+Play_radio_voice_05
+Play_radio_voice_06
+Play_radio_voice_07
+Play_radio_voice_08
+play_rope_creak
+play_rope_creak_l_01
+Play_sfx_Bathroom_light_hum_01
+Play_sfx_clock_bell
+Play_sfx_digiclock_tick
+Play_sfx_digiclock_tick_solo
+Play_sfx_door_close_01
+Play_sfx_door_close_02
+Play_sfx_door_close_03
+Play_sfx_door_close_03_2D
+Play_sfx_door_hit_01
+Play_sfx_door_open_01
+Play_sfx_door_open_02
+Play_sfx_door_open_03
+Play_sfx_door_open_04
+Play_sfx_door_open_04_2D
+Play_sfx_door_open_05
+Play_sfx_door_open_06
+Play_sfx_door_open_07
+Play_sfx_door_open_07_2D
+Play_sfx_door_open_08_2D
+Play_sfx_door_struck_01
+Play_sfx_door_struck_02
+Play_sfx_head_struck_01
+Play_sfx_head_struck_02
+Play_sfx_heartbeat
+Play_sfx_heartbeat_f020
+Play_sfx_house_creak_01
+Play_sfx_light_down
+Play_sfx_light_hum_01
+Play_sfx_light_off_01
+Play_sfx_light_on_01
+Play_sfx_passage_light_hum_04
+Play_sfx_passage_light_hum_05
+Play_sfx_passage_light_hum_08
+Play_sfx_rainfall_01
+Play_sfx_rainfall_window_01
+Play_sfx_rainfall_window_02
+Play_sfx_rainfall_window_03
+Play_sfx_refri_blood_01
+Play_sfx_refri_noise_01
+Play_sfx_splinkle_blood_01
+Play_sfx_wall_light_hum_01
+Play_sfx_wall_light_hum_02
+Play_sfx_water_drop_a
+Play_sfx_water_drop_b
+Play_sfx_windows_break
+Play_sfx_wood_dr_creak_l_01
+Play_sfx_wood_dr_creak_s_01
+Play_tel_voice_01
+Play_test_fs_01
+Play_voice_baby_laugh_2D
+Play_voice_baby_laugh_lp
+Play_voice_baby_mimicry_01
+Play_voice_baby_mimicry_01_lp
+Play_voice_baby_mimicry_02
+Play_voice_ene_breath_01
+Play_voice_ene_cry_f020
+Play_voice_ene_cry_l_01
+Play_voice_ene_cry_s_01
+Play_voice_ene_laugh_01
+Play_voice_f030_baby_cry_s_lp
+Play_voice_f060_baby_cry_l_lp
+Play_voice_f060_baby_cry_m_lp
+Play_voice_f060_baby_cry_s_lp
+Play_voice_f060_baby_cry_sink
+Play_voice_f070_baby_cry_l_lp
+Play_voice_f070_baby_cry_m_lp
+Play_voice_f080_baby_cry_s_lp
+Play_voice_f090_baby_cry_l
+Play_voice_f090_baby_cry_l_lp
+Stop_ene_fs_chase_01
+Stop_PaperBag_voice_01
+Stop_Peephole_Theater
+Stop_radio_f010
+Stop_radio_f050
+Stop_radio_noise
+Stop_radio_religion_01
+Stop_radio_Riddle_01
+Stop_radio_Riddle_02
+Stop_radio_voice_01
+Stop_radio_voice_02
+Stop_radio_voice_03
+Stop_radio_voice_04
+Stop_radio_voice_05
+Stop_radio_voice_06
+Stop_radio_voice_07
+Stop_radio_voice_08
+Stop_sfx_Bathroom_light_hum_01
+Stop_sfx_head_struck_01
+Stop_sfx_heartbeat
+Stop_sfx_house_creak_01
+Stop_sfx_light_hum_01
+Stop_sfx_passage_light_hum_04
+Stop_sfx_passage_light_hum_05
+Stop_sfx_passage_light_hum_08
+Stop_sfx_splinkle_blood_01
+Stop_sfx_wall_light_hum_01
+Stop_sfx_wall_light_hum_02
+Stop_sfx_wood_dr_creak_l_01
+Stop_sfx_wood_dr_creak_s_01
+Stop_tel_voice_01
+Stop_voice_baby_laugh
+Stop_voice_baby_mimicry_01
+Stop_voice_baby_mimicry_01_lp
+Stop_voice_baby_mimicry_02
+Stop_voice_ene_breath_01
+Stop_voice_ene_cry_f020
+Stop_voice_ene_cry_l_01
+Stop_voice_ene_cry_s_01
+Stop_voice_ene_laugh_01
+Stop_voice_f030_baby_cry_s
+Stop_voice_f060_baby_cry_l
+Stop_voice_f060_baby_cry_m
+Stop_voice_f060_baby_cry_s
+Stop_voice_f070_baby_cry_l
+Stop_voice_f070_baby_cry_m
+Stop_voice_f080_baby_cry_s
+Stop_voice_f090_baby_cry_l
+# 78227875
+# 147003027
+# 439495867
+# 454270997
+# 509474545
+# 901538973
+# 1013252617
+# 1268306196
+# 1330722582
+# 1340982762
+# 1381124415
+# 1382551920
+# 1393560184
+# 1393560187
+# 1437430914
+# 1437430916
+# 1437430917
+# 1437430919
+# 1591542738
+# 1702765376
+# 1754116387
+# 1830561620
+# 1895735986
+# 2072078066
+# 2220103461
+# 2374364694
+# 2377676517
+# 2414478816
+# 2642741657
+# 2714891181
+# 2752171834
+# 2784885894
+# 2883676431
+# 2980884795
+# 2985968880
+# 2985968883
+# 3268180493
+# 3268180494
+# 3309195050
+# 3313925484
+# 3700439360
+# 3728713853
+# 3728713854
+# 3734247236
+# 3747621029
+# 3752601519
+# 3810342548
+# 4029204890
+# 4145469755
+# 4149639863
+# 4199839791
+
+### RTPC/GAME-VARIABLE NAMES (sfx_common.bnk)
+rainfall
+speed_control
+splinkle_obstruction
+# 4177574223
+# 2600501659
+# 2556335218
+# 1841832582
+
+### VARIABLE NAMES (sfx_common.bnk)
+chara
+condition
+material
+
+### VALUE NAMES (sfx_common.bnk)
+bab
+blood
+conc
+pab
+tile
+TRIA1000_111010_0_mib
+TRIA1000_121010_0_baby
+wood
+wood_glass
+wood_strs
+
+### EVENT NAMES (sys_resident.bnk)
+Pause_All
+Play_external
+Play_sfx_bug_loop_01
+Play_sfx_door_unlock_01
+Play_sys_cancel_01
+Play_sys_change_01
+Play_sys_cursor_01
+Play_sys_decision_01
+Play_sys_ng_01
+Reset_radio_bus
+Resume_All
+Set_radio_bus_off
+Set_State_bgm_env_off
+Set_State_bgm_env_off_3s
+Set_State_bgm_off
+Set_State_bgm_off_3s
+Set_State_env_off
+Set_State_game_over
+Set_State_in_game
+Set_State_none
+Set_State_splash_screen
+# 3837285810
+# 4195638989
+
+### VARIABLE NAMES (sys_resident.bnk)
+cutscene_state
+state_common
+
+### VALUE NAMES (sys_resident.bnk)
+bgm_env_off
+bgm_env_off_3s
+bgm_off
+bgm_off_3s
+env_off
+game_over
+in_game
+splash_screen
