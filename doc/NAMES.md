@@ -330,22 +330,29 @@ words.py -c 2 -de -mc 70 -sf -ho -jb -o words2_all-jb.txt
 # generally slow and too many false positives if your wwnames/ww.txt names are >1MB,
 # but very useful with the right txt. Remove less useful names and keep it <300kb for best results.
 
+# words based on existing prefixes/sufixes, some value between 2-4 is a good compromise
+words.py -de -o words_fa-pn.txt -fap 3
+words.py -de -o words_fa-sn.txt -fas 3
+words.py -de -o words_fa-pn-fs-sc.txt -fap 3 -fs -sc
+words.py -de -o words_fa-sn-fs-sc.txt -fas 3 -fs -sc
+words.py -de -o words_fa-pn-fs-jb.txt -fap 3 -fs -jb
+words.py -de -o words_fa-sn-fs-jb.txt -fas 3 -fs -jb
+
 # combos
 words.py -c 2 -mc 80  -de -o words2_out.txt
 
 # more combos
-words.py -c 2 -zd -mc 70 -jb -de -o words2_all-jb.txt 
-words.py -c 2 -zd -mc 70 -js -de -o words2_all-js.txt 
-words.py -c 2 -zd -mc 70 -sc -de -o words2_all-sc.txt 
-words.py -c 2 -zd -mc 70 -sc -jb -de -o words2_all-sc-jb.txt 
+words.py -c 2 -mc 70 -jb -de -o words2_c2-jb.txt 
+words.py -c 2 -mc 70 -js -de -o words2_c2-js.txt 
+words.py -c 2 -mc 70 -sc -de -o words2_c2-sc.txt 
+words.py -c 2 -mc 70 -sc -jb -de -o words2_c2-sc-jb.txt 
 
-# a bit slow but creates words in a way that gets good results
-words.py -de -o words_fa-sf.txt -zd -fa -sf
-
-# similar variations but a low less useful, might as well
-words.py -de -o words_fa-jb.txt -zd -fa -jb
-words.py -de -o words_fa-sc.txt -zd -fa -sc
-words.py -de -o words_fa-jb-sc.txt -zd -fa -jb -sc
+# creates words based on all chunks of the words, slow but may get trickier combos
+words.py -de -o words_fa-sf.txt -fa -sf
+words.py -de -o words_fa-jb.txt -fa -jb
+words.py -de -o words_fa-sc.txt -fa -sc
+words.py -de -o words_fa-sc-sf.txt -fa -sc -sf
+words.py -de -o words_fa-sc-jb.txt -fa -sc -jb
 
 
 ## extra commands
@@ -373,13 +380,21 @@ words.py -de -c 3 -mc 40 -ho -sf -o words3_sf.txt
 ## extra stuff
 # not commands but a few extra tips:
 
-# - go to the wwiser-utils/wwnames dir, copy all names in a single file (ex. cmd: copy *.txt ww.txt) and use it as for a few more names
+# - use sample formats from wwiser-utils/words
+words.py -de -zd -o words1_fmt.txt -f ../wwiser-utils/words/formats.txt
 
-# - go to wwiser-utils/words and try sample formats.txt there
+# - use sample formats existing wwnames from wwiser-utils/wwnames
+words.py -de -zd -o words1_all.txt -i ../wwiser-utils/wwnames/*.txt (other flags)
 
-# - take english-small.txt or ww.txt (extra names), add "#@section" on top; then try the "permutations" mode
+# - use english-small.txt or ww.txt (extra names), add "#@section" on top then try the "permutations" mode
 words.py -p -mc 40 -de -i ww.txt
-words.py -p -mc 40 -de -i english-small.txt
+words.py -p -mc 40 -de -i ../wwiser-utils/wwnames/dict/english-small.txt
+
+
+## pypy setup
+set PATH=%PATH%;%ROSS_USER%\git\dist\pypy3.9-v7.3.11-win64
+set WDIR=%USERPROFILE%\git\wwiser-utils\words
+pypy3.exe %WDIR%\words.py ... (flags)
 ```
 
 

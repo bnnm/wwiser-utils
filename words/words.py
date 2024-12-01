@@ -130,11 +130,11 @@ class Words(object):
         p = argparse.ArgumentParser(description=description, epilog=epilog, formatter_class=argparse.RawTextHelpFormatter)
         # files
         p.add_argument('-w',  '--wwnames-file', help="wwnames input list (word list + FNV list)", default=self.FILENAME_WWNAMES)
-        p.add_argument('-i',  '--input-file',   help="Input list", default=self.FILENAME_IN)
+        p.add_argument('-i',  '--input-file',   help="Input list (ignores FNVs)", default=self.FILENAME_IN)
         p.add_argument('-o',  '--output-file',  help="Output list", default=self.FILENAME_OUT)
         p.add_argument('-f',  '--formats-file', help="Format list file\n- use %%s to replace a word from input list", default=self.FILENAME_FORMATS)
         p.add_argument('-s',  '--skips-file',   help="List of words to ignore\n(so they arent tested again when doing test variations)", default=self.FILENAME_SKIPS)
-        p.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs", default=self.FILENAME_REVERSABLES)
+        p.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs in the list", default=self.FILENAME_REVERSABLES)
         p.add_argument('-to', '--text-output',  help="Write words rather than reversing", action='store_true')
         p.add_argument('-de', '--delete-empty', help="Delete empty output files", action='store_true')
         p.add_argument('-rs', '--results-sort', help="Sort results after processing", action='store_true', default=True)
@@ -145,18 +145,19 @@ class Words(object):
         p.add_argument('-cu', '--combinations-unique',  help="Combine words with unique combos only\nMakes a_b, b_a but not a_a, b_b", action='store_true')
         p.add_argument('-zd', '--fuzzy-disable',        help="Disable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
         p.add_argument('-ze', '--fuzzy-enable',         help="Enable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
-        # other flags
 
+        # other flags
         p.add_argument('-mc',  '--max-chars',   help="Ignores results that go beyond N chars", type=int)
         p.add_argument('-js', '--join-spaces',  help="Join words with spaces in lines\n('Word Word' = 'Word_Word')", action='store_true')
         p.add_argument('-jb', '--join-blank',   help="Join words without '_'\n('Word' + 'Word' = WordWord instead of Word_Word)", action='store_true')
         p.add_argument('-j',  '--joiner',       help="Set word joiner")
 
         p.add_argument('-fa', '--format-auto',  help="Auto-makes format combos of (prefix)_%%s_(suffix)", action='store_true')
+        p.add_argument('-fap','--format-auto-prefix',  help="Autoformats include up to N prefix parts", type=int)
+        p.add_argument('-fas','--format-auto-suffix',  help="Autoformats include up to N suffix parts", type=int)
         p.add_argument('-fj', '--format-joiner',help="Set auto-format joiner")
         p.add_argument('-fp', '--format-prefix',help="Add prefixes to all formats", nargs='*')
         p.add_argument('-fs', '--format-suffix',help="Add suffixes to all formats", nargs='*')
-        p.add_argument('-fsf','--format-split-full',help="Auto makes format combos fully split")
         p.add_argument('-fb', '--format-begins',help="Use only auto-formats that begin with text", nargs='*')
         p.add_argument('-iw', '--ignore-wrong', help="Ignores words that don't make much sense\nMay remove unusual valid words, like rank_sss", action='store_true')
         p.add_argument('-ho', '--hashable-only',help="Consider only hashable chunks", action='store_true')
@@ -324,6 +325,10 @@ class Words(object):
 
     def _add_format_main(self, format):
         format_lw = format.lower()
+        key = format.lower()
+        if key in self._formats:
+            return
+
         if format == b'%s':
             type = self.FORMAT_TYPE_NONE
             pre = None
@@ -345,7 +350,6 @@ class Words(object):
             pre = presuf[0]
             suf = presuf[1]
 
-        key = format.lower()
         if self._args.text_output:
             val = format
         else:
@@ -396,20 +400,24 @@ class Words(object):
             for subformat in subformats:
                 self._add_format(subformat)
             return
-       
+
         subwords = self.PATTERN_WORD.split(elem)
         combos = []
 
-        if self._args.format_split_full:
-            for subword in subwords:
-                #if b'_' in subword:
-                #    continue
-                combo = subword + joiner + mark
-                combos.append(combo)
-                combo = mark + joiner + subword
+
+        if self._args.format_auto_prefix:
+            # blah_blah_blah w/ 2: blah_blah_%s, : blah_%s
+            for i in range(0, self._args.format_auto_prefix):
+                combo = joiner.join(subwords[:i+1]) + joiner + mark
                 combos.append(combo)
 
-        else:
+        if self._args.format_auto_suffix:
+            for i in range(0, self._args.format_auto_suffix):
+                combo =  mark + joiner + joiner.join(subwords[-(i+1):])
+                combos.append(combo)
+            
+        if not combos:
+            # blah_blah_blah > %s_blah_blah_blah, blah_%s_blah_blah, blah_blah_%s_blah, blah_blah_blah_%s
             for i in range(len(subwords)):
                 items = itertools.combinations(subwords, i + 1)
                 for item in items:
@@ -505,9 +513,13 @@ class Words(object):
         self._reversables.add(key)
         self._contexts[self._curr_context].append(key)
 
-    def _read_reversables(self, file):
+    def _read_reversables(self, file, reset_if_found=False):
         try:
             with open(file, 'rb') as infile:
+                if reset_if_found:
+                    print("ignoring existing wwnames FNV to use external list")
+                    self._reversables = set()
+
                 for line in infile:
                     self._add_reversable(line)
         except FileNotFoundError:
@@ -634,13 +646,13 @@ class Words(object):
         if line_len < 4 and self._PATTERN_WRONG.search(line):
             return False
 
-        if line_len < 12:
-            for key, group in itertools.groupby(line):
-                group_len = len(list(group))
-                if key.lower() in [b'0', b'1', b'x', b' ']: #allow 000, 111, xxx
-                    continue
-                if group_len > 2:
-                    return False
+        #if line_len < 12:
+        #    for key, group in itertools.groupby(line):
+        #        group_len = len(list(group))
+        #        if key.lower() in [b'0', b'1', b'x', b' ']: #allow 000, 111, xxx
+        #            continue
+        #        if group_len > 2:
+        #            return False
 
         return True
 
@@ -648,7 +660,12 @@ class Words(object):
         ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         print("reading words: %s (%s)" % (infile.name, ts))
 
+        num = 0
         for line in infile:
+            num += 1
+            if num % 1000000 == 0:
+                print(" %i lines..." % (num))
+
             # section end when using permutations
             if self._args.permutations and line.startswith(b'#@section'):
                 self._words = {} #old section is in _sections
@@ -748,7 +765,8 @@ class Words(object):
                         fnv = self._fnv.get_hash(elem_lw)
                         self._words_reversed.add(int(fnv))
 
-            if self._args.format_auto:
+            # most of the time only makes sense to automake formats from wwnames and not ww.txt
+            if self._args.format_auto and self._parsing_wwnames:
                 for elem in elems:
                     self._add_format_auto(elem)
 
@@ -1147,9 +1165,15 @@ class Words(object):
 
     #--------------------------------------------------------------------------
 
-    def _process_config(self):
+    def _preprocess_config(self):
+        if self._args.format_auto_prefix or self._args.format_auto_suffix:
+            self._args.format_auto = True
+
+
+    def _postprocess_config(self):
         cb = self._args.combinations
         pt = self._args.permutations
+        fa = self._args.format_auto
 
         # separate output files to make it clearer
         if self._args.output_file == self.FILENAME_OUT:
@@ -1159,12 +1183,13 @@ class Words(object):
                 self._args.output_file = self.FILENAME_OUT_EX % ('p')
 
         # unless splicitly enabled, don't use fuzzy in these modes
-        if not self._args.fuzzy_enable and (cb or pt):
+        if not self._args.fuzzy_enable and (cb or pt or fa):
             self._args.fuzzy_disable = True
 
 
     def start(self):
         self._args = self._parse()
+        self._preprocess_config()
 
         self._read_formats(self._args.formats_file)
 
@@ -1181,10 +1206,10 @@ class Words(object):
         for file in files:
             self._read_words(file)
 
-        self._read_reversables(self._args.reverse_file)
+        self._read_reversables(self._args.reverse_file, True)
         self._read_skips(self._args.skips_file)
 
-        self._process_config()
+        self._postprocess_config()
         self._write_words()
         self._sort_results()
 
