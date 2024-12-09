@@ -56,10 +56,10 @@
 #     of false positives, use with care 
 
 import argparse, re, itertools, time, glob, os, datetime
+import fnmatch
 
 # TODO:
 # - load words that end with "= 0" as-is for buses (not useful?)
-# - allow %i to make N numbers
 
 class Words(object):
     DEFAULT_FORMAT = b'%s'
@@ -105,8 +105,12 @@ class Words(object):
         # info about current "### (type) NAMES" where the ID was found (context > ids)
         self._contexts = {}
         self._curr_context = None
+        self._curr_context_lw = None
         self._contexts[self._curr_context] = []
         self._ctx_filter = ''
+
+        self._filter_fnvs = []
+        self._filter_names = []
 
         self._fnv = Fnv()
 
@@ -175,10 +179,42 @@ class Words(object):
 
     #--------------------------------------------------------------------------
 
+    def _reset_contexts(self):
+        self._curr_context = None
+
+    def _is_filtered(self, filters):
+        
+        if not self._curr_context:
+            return False
+        if not filters:
+            return False
+
+        found = any(fnmatch.fnmatch(self._curr_context_lw, pattern) for pattern in filters)
+        if found:
+            return False
+        return True
+
+    def _read_format_flags(self, elem):
+        # use only FNV that match these
+        if elem.startswith(b'#@filter-fnv'):
+            items = elem.split(b' ')[1:]
+            self._filter_fnvs = [item.lower() for item in items]
+
+        if elem.startswith(b'#@filter-names'):
+            items = elem.split(b' ')[1:]
+            self._filter_names = [item.lower() for item in items]
+
+        return
+
     def _add_format(self, format):
         format = format.strip()
         if not format:
             return
+
+        if format.startswith(b'#@'):
+            self._read_format_flags(format)
+            return
+
         if format.startswith(b'#'):
             return
 
@@ -482,9 +518,14 @@ class Words(object):
     def _add_reversable(self, line):
         if line.startswith(b'### ') and b' NAMES' in line:
             self._curr_context = line.strip()
+            self._curr_context_lw = self._curr_context.lower()
             if self._curr_context not in self._contexts: # in case of repeats
                 self._contexts[self._curr_context] = []
             return
+
+        if self._curr_context and self._filter_fnvs:
+            if self._is_filtered(self._filter_fnvs):
+                return
 
         if line.startswith(b'# '): #allow fnv in wwnames.txt with -sm
             line = line[2:]
@@ -515,6 +556,7 @@ class Words(object):
 
     def _read_reversables(self, file, reset_if_found=False):
         try:
+            self._reset_contexts()
             with open(file, 'rb') as infile:
                 if reset_if_found:
                     print("ignoring existing wwnames FNV to use external list")
@@ -635,11 +677,11 @@ class Words(object):
                 #elem_hashable = bytes(elem_hashable, "UTF-8")
                 words[elem_hashable] = elem
 
-    def _is_line_ok(self, line):
-        line = line.strip()
+    def _is_line_ok(self, line, line_lw):
+        #line = line.strip()
         line_len = len(line)
 
-        if line.lower() in self.WORD_ALLOWED:
+        if line_lw in self.WORD_ALLOWED:
             return True
 
         # skip wonky mini words
@@ -665,6 +707,13 @@ class Words(object):
             num += 1
             if num % 1000000 == 0:
                 print(" %i lines..." % (num))
+
+            if line.startswith(b'### ') and b' NAMES' in line:
+                self._curr_context = line.strip()
+                self._curr_context_lw = self._curr_context.lower()
+                #if self._curr_context not in self._contexts: # in case of repeats
+                #    self._contexts[self._curr_context] = []
+                continue
 
             # section end when using permutations
             if self._args.permutations and line.startswith(b'#@section'):
@@ -693,10 +742,15 @@ class Words(object):
             line = line.strip(b'\r')
             if not line:
                 continue
+            line_lw = line.lower()
 
             # skip wonky words created by strings2
-            if self._args.ignore_wrong and self._is_line_ok(line):
+            if self._args.ignore_wrong and self._is_line_ok(line, line_lw):
                 continue
+
+            if self._curr_context and self._filter_names:
+                if self._is_filtered(self._filter_names):
+                    continue
 
             # clean vars
             var_types = [b'%d' b'%c' b'%s' b'%f' b'0x%08x' b'%02d' b'%u' b'%4d' b'%10d']
@@ -723,6 +777,7 @@ class Words(object):
                 self._add_word(elem)
 
                 if elem and len(elem) > 1 and self._args.split_caps and not elem.islower() and not elem.isupper():
+                    # TODO fix
                     new_elem_b = b''
                     pre_letter_b = b''
                     for letter in elem:
@@ -777,6 +832,7 @@ class Words(object):
     def _read_words(self, file):
         try:
             # lines are read as binary (works fine) to simplify and slightly speed up loading
+            self._reset_contexts()
             with open(file, 'rb') as infile:
                 self._read_words_lines(infile)
         except FileNotFoundError:
@@ -883,7 +939,7 @@ class Words(object):
         if is_text_output:
             print("generating words")
         else:
-            print("reversing FNVs")
+            print("reversing %i FNVs" % (len(reversables)))
 
         joiner = self._get_joiner()
         #joiner = bytes(joiner, 'UTF-8')
