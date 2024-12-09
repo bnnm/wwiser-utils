@@ -21714,3 +21714,11 @@ Play_sd9150_mysterygift_01
 Play_sd9150_mysterygift_02
 Play_sd9150_mysterygift_03
 Play_sd9150_mysterygift_04
+
+
+2044733823  : Play_Env_Pos_roll_metal2_lp
+2117191459  : Play_SS_Common_cake
+3235593223  : Play_SS_Common_neon
+461973654   : Play_SS_Common_purchase
+3119608958  : Play_SS_Common_surprise
+3568949401  : Stop_Env_Pos_roll_metal2_lp

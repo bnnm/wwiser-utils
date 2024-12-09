@@ -2,10 +2,13 @@
 ### BANK NAMES
 Ambient_Common
 Ambient_Daidara
+Ambient_HZM
 Ambient_Layer
 Ambient_Prop
+Ambient_Spider
 Ambient_UG
 Animal_Common
+Animal_SpiderThread
 AuxBus_Common
 Check
 CutScene_Common
@@ -16,6 +19,7 @@ Enm_Em0100
 Enm_Em0200
 Enm_Em0300
 Enm_Em0400
+Enm_Em0401
 Enm_Em0800
 Enm_Em1000
 Enm_Em1100
@@ -26,6 +30,14 @@ Enm_Em1700
 Enm_Em1800
 Enm_Em1900
 Enm_Em2100
+Enm_Em2300
+Enm_Em2400
+Enm_Em2401
+Enm_Em2500
+Enm_Em2600
+Enm_Em2700
+Enm_Em2800
+Enm_Em2800_Big
 Enm_Em5000
 Enm_Em5900
 Global_Common
@@ -43,6 +55,7 @@ NPC_ch3007
 NPC_ch3008
 NPC_ch3011
 NPC_ch3014
+NPC_ch3016
 NPC_Common
 NPC_GhostCommon
 NPC_ma0000
@@ -51,12 +64,30 @@ Object_Common
 Object_Door
 Object_Gimmick
 Object_Movable
+Object_Spider
 Player_Common
 Player_State
 SpotSFx_Activity
+SpotSFx_Activity_BlackHole
+SpotSFx_Activity_EnemyParade
+SpotSFx_Activity_Kegare
+SpotSFx_Activity_PowerStone
+SpotSFx_Activity_PrisonCube
+SpotSFx_Activity_Racoon
+SpotSFx_Activity_StrawDoll
+SpotSFx_Activity_Telephone
+SpotSFx_Activity_Torii
+SpotSFx_Activity_UFO
 SpotSFx_Battle
 SpotSFx_Common
+SpotSFx_Common_ResidualSoul
 SpotSFx_Paranormal
+SpotSFx_Paranormal_BarrierWall
+SpotSFx_Paranormal_FigureVanish
+SpotSFx_Paranormal_PostNoise
+SpotSFx_Paranormal_Wall
+SpotSFx_Room
+SpotSFx_SpiderThread
 SpotSFx_Story_MM0001
 SpotSFx_Story_MM0011
 SpotSFx_Story_MM0020
@@ -79,6 +110,7 @@ SpotSFx_Story_QE0710
 SpotSFx_Story_QE0720
 SpotSFx_Story_QE0730
 SpotSFx_Story_QE0740
+SpotSFx_Story_QE0750
 SpotSFx_Story_QE0760
 SpotSFx_Story_QE0780
 SpotSFx_Story_QE0790
@@ -90,14 +122,19 @@ SpotSFx_Story_QE2001
 SpotSFx_Story_QE2003
 SpotSFx_Story_QE2007
 SpotSFx_Story_QE2201
+SpotSFx_Story_School
+SpotSFx_Story_SpiritPhoto
 Test_LoadUnload
 UI_Common
+UI_Language
+UI_Spider
 Ultra_Radio_Common
 VoiceEffect_NPC
 VoiceEffect_Player
 VoiceTalk_Common
 VoiceTalk_Hannya_Agitation
 Weapon_Common
+WwiseSpecalAudioTest_Iz
 
 ### LANGUAGE NAMES
 Japanese
@@ -239,8 +276,8 @@ AuxMaster
 Ctrl_GameWorld
 Ctrl_Voice
 cutscene
-CutScene_sfx
-CutScene_Vo
+CUTSCENE_SFX
+Cutscene_Vo
 G
 GameWorld
 HDR
@@ -253,25 +290,38 @@ HDR_Ambient_Beds_Daimon
 HDR_Ambient_Beds_Daimon_7ch
 HDR_Ambient_Beds_Daimon_Amb
 HDR_Ambient_Beds_UG
+HDR_Ambient_Beds_UG_7ch
+HDR_Ambient_Beds_UG_Amb
 HDR_Ambient_fog
 HDR_Ambient_Prop
+HDR_Ambient_Prop_Common_3D
 HDR_Ambient_Weather
+HDR_Ambient_Weather_Common
+HDR_Ambient_Weather_Common_7ch
+HDR_Ambient_Weather_Common_7ch_3D
+HDR_Ambient_Weather_Common_Amb
+HDR_Ambient_Weather_DaidaraStorm
 HDR_Anim_am0000
 HDR_Anim_Am0010
 HDR_Anim_Am0020
+HDR_Anim_Am0020_Ve
 HDR_Anim_Am0030
+HDR_Anim_Am0030_Ve
 HDR_animal
 HDR_Diegetic
+HDR_Diegetic_ATMOSPHERE
+HDR_Diegetic_location
 HDR_Diegetic_paranormal
-HDR_Diegetic_Tenant
+HDR_Diegetic_tenant
 HDR_Diegetic_tenant_nekomata
+HDR_Diegetic_tenant_outside
 HDR_Diegetic_unique
 HDR_enemy
 HDR_Enm_Common
-HDR_Enm_em0000
+HDR_Enm_Em0000
 HDR_Enm_Em0000_se
 HDR_Enm_Em0000_Ve
-HDR_Enm_Em0100
+HDR_Enm_em0100
 HDR_Enm_Em0100_Se
 HDR_Enm_em0100_Ve
 HDR_Enm_Em0200
@@ -280,9 +330,11 @@ HDR_Enm_Em0200_Ve
 HDR_Enm_Em0300
 HDR_Enm_Em0300_se
 HDR_Enm_Em0300_Ve
-HDR_Enm_em0400
+HDR_Enm_Em0400
 HDR_Enm_Em0400_Se
 HDR_Enm_Em0400_Ve
+HDR_Enm_Em0401_Se
+HDR_Enm_Em0401_Ve
 HDR_Enm_em0600
 HDR_Enm_em0600_SE
 HDR_Enm_em0600_ve
@@ -292,7 +344,7 @@ HDR_Enm_em0800_ve
 HDR_Enm_Em1000
 HDR_Enm_Em1000_Se
 HDR_Enm_Em1000_Ve
-HDR_Enm_em1100
+HDR_Enm_Em1100
 HDR_Enm_em1100_Se
 HDR_Enm_Em1100_Ve
 HDR_Enm_Em1300
@@ -315,6 +367,19 @@ HDR_Enm_Em1900_Ve
 HDR_Enm_Em2100
 HDR_Enm_Em2100_Se
 HDR_Enm_Em2100_Ve
+HDR_Enm_em2300_se
+HDR_Enm_em2400_se
+HDR_Enm_em2400_ve
+HDR_Enm_em2401_se
+HDR_Enm_em2401_ve
+HDR_Enm_em2500_se
+HDR_Enm_em2500_Ve
+HDR_Enm_em2600_se
+HDR_Enm_em2600_Ve
+HDR_Enm_Em2700_Se
+HDR_Enm_Em2700_Ve
+HDR_Enm_em2800_se
+HDR_Enm_em2800_ve
 HDR_Enm_Em5000
 HDR_Enm_Em5000_se
 HDR_Enm_Em5000_Ve
@@ -323,15 +388,26 @@ HDR_Enm_Em5900_Se
 HDR_NPC
 HDR_NPC_ch0700
 HDR_npc_ch3000
+HDR_npc_ch3000_Ve
 HDR_NPC_ch3001
+HDR_NPC_ch3001_Se_Appear
+HDR_NPC_ch3001_Ve
 HDR_npc_ch3002
+HDR_npc_ch3002_Ve
 HDR_npc_ch3003
+HDR_npc_ch3003_Ve
 HDR_npc_ch3005
+HDR_npc_ch3005_Ve
 HDR_npc_ch3006
+HDR_npc_ch3006_Ve
 HDR_npc_ch3007
+HDR_npc_ch3007_Ve
 HDR_npc_ch3008
+HDR_npc_ch3008_Ve
 HDR_npc_ch3011
+HDR_npc_ch3011_Ve
 HDR_npc_ch3014
+HDR_npc_ch3014_Ve
 HDR_NPC_Ghost
 HDR_NPC_Ghost_Hammer
 HDR_npc_yokai
@@ -341,19 +417,33 @@ HDR_object_Common
 HDR_player
 HDR_player_Action
 HDR_player_Battle_Common
+HDR_player_Battle_Damage
 HDR_player_Common
 HDR_player_mvmt
 HDR_SoundEffects
-HDR_SpotSfx
+HDR_SpotSFx
 HDR_SpotSFx_Activity
+HDR_SpotSFx_Activity_Common
+HDR_SpotSFx_Activity_Common_3D
+HDR_SpotSFx_Activity_Telephone
+HDR_SpotSFx_Activity_Telephone_common
 HDR_SpotSFx_Battle
 HDR_SpotSfx_Common
+HDR_SpotSfx_Common_3D
 HDR_SpotSFx_Paranormal
+HDR_SpotSFx_Paranormal_common
+HDR_SpotSFx_Paranormal_posteffect
+HDR_SpotSFx_Paranormal_posteffect_3D
 HDR_SpotSFx_Story
+HDR_SpotSFx_Story_Battle
+HDR_SpotSFx_Story_Battle_3D
+HDR_SpotSFx_Story_Common
+HDR_SpotSFx_Story_Common_3D
 HDR_weapon
 HDR_weapon_Common
 HDR_weapon_shot
 HDR_weapon_stance
+HDR_weapon_stance_3D
 holy_species
 K
 K_TestReverbAuxBus
@@ -368,14 +458,16 @@ MPL_StreetSpeaker_Fx
 mu
 Mu_IM_01_system
 Mu_IM_02_Normal
+Mu_IM_09_CREDIT
 MultiPositionListener
 music
 NonHDR_enemy
+NonHDR_Enm_ad
 NonHDR_Enm_Common
-NonHDR_Enm_em0000
+NonHDR_Enm_Em0000
 NonHDR_Enm_Em0000_se
 NonHDR_Enm_Em0000_Ve
-NonHDR_Enm_Em0100
+NonHDR_Enm_em0100
 NonHDR_Enm_Em0100_Se
 NonHDR_Enm_em0100_Ve
 NonHDR_Enm_Em0200
@@ -384,16 +476,17 @@ NonHDR_Enm_Em0200_Ve
 NonHDR_Enm_Em0300
 NonHDR_Enm_Em0300_se
 NonHDR_Enm_Em0300_Ve
-NonHDR_Enm_em0400
+NonHDR_Enm_Em0400
 NonHDR_Enm_Em0400_Se
 NonHDR_Enm_Em0400_Ve
+NonHDR_Enm_Em0401_Ve
 NonHDR_Enm_em0600
 NonHDR_Enm_em0600_SE
 NonHDR_Enm_em0600_ve
 NonHDR_Enm_Em1000
 NonHDR_Enm_Em1000_Se
 NonHDR_Enm_Em1000_Ve
-NonHDR_Enm_em1100
+NonHDR_Enm_Em1100
 NonHDR_Enm_em1100_Se
 NonHDR_Enm_Em1100_Ve
 NonHDR_Enm_Em1300
@@ -414,6 +507,15 @@ NonHDR_Enm_Em1900_Ve
 NonHDR_Enm_Em2100
 NonHDR_Enm_Em2100_Se
 NonHDR_Enm_Em2100_Ve
+NonHDR_Enm_em2300_se
+NonHDR_Enm_em2400_se
+NonHDR_Enm_em2500_se
+NonHDR_Enm_em2500_Ve
+NonHDR_Enm_em2600_se
+NonHDR_Enm_em2600_Ve
+NonHDR_Enm_Em2700_Se
+NonHDR_Enm_em2800_se
+NonHDR_Enm_em2800_ve
 NonHDR_Enm_Em5000
 NonHDR_Enm_Em5000_se
 NonHDR_Enm_Em5000_Ve
@@ -432,6 +534,8 @@ NonHDR_weapon
 NonHDR_weapon_Hit
 NonHDR_weapon_shot
 NonHDR_weapon_stance
+NonHDR_weapon_stance_3D
+NPC_GhostCommon_DYN
 S
 S_TestReverb01_CathedralsM
 S_TestReverb01_HallM
@@ -443,6 +547,7 @@ SK_MPL_1000_01
 SK_MPL_2000_02
 SK_MultiPositions
 SpotReverb
+Start_C_FootLand
 Test_Sk_LFE_Aux
 Test_Sk_QuadDelay_Aux
 TestPortalAuxBus_G
@@ -453,75 +558,83 @@ TestSpotReflectorAuxBus_G
 Tng_LFE
 TngPluginTest
 ui
+UI_3D
 UI_Ducking
-ui_normal
+UI_figure
+UI_Normal
+UI_Voice_Ducking
 ve_Akito
 ve_npc
 ve_npc_Common
 ve_NPC_Evil
+ve_NPC_verbal
 Vo_Akito
+Vo_Akito_Buddy
 Vo_Akito_Story
 Vo_dale
 Vo_dale_Comm
-Vo_ed
+Vo_Ed
 Vo_ed_Comm
 Vo_Erika
 VO_Flashback
-Vo_ghost
+vo_ghost
 Vo_Hannya
 Vo_Hannya_Agitation
+Vo_Hannya_Agitation_dry
 Vo_Hannya_Agitation_Fx
+Vo_KK_Buddy
+Vo_KK_Buddy_isolated
+Vo_KK_Buddy_Synchronized
+Vo_KK_CutScene_Synchronized
 Vo_KK_Story
+Vo_KK_Story_Isolated
+Vo_KK_Story_PopupDistance
+Vo_KK_Story_Synchronized
 Vo_Main
+VO_Mari
+VO_NPC_NPT
+Vo_NPC_Story
+Vo_NPC_Story_zashikiwarashi
 Vo_phone
 Vo_Rinko
 Vo_Rinko_Comm
-Vo_special
+vo_special
+Vo_Tatariya
 Vo_VoiceLog
 Voice
 voice_effects
 voice_sfx
-Voice_Talk
+VOICE_talk
 WM_Ambient_Input
 WM_AuxMaster
+WM_CS_input
 WM_CutScene_Input
 WM_Enemy_Input
-wm_master
+WM_EV_input
+WM_Master
+WM_Mu_IM_ME_input
+WM_NPC_input
 WM_Object_Input
+WM_Object_portal_Input
 WM_Player_Input
 WM_SpotSFx_Input
 WM_UI_Input
+WM_Weapon_Bow_Input
 WM_Weapon_Input
+WM_Weapon_ofuda_Input
 z_Test
-# 2916527349
-# 2992136498
-# 4262722430
-# 3974025036
-# 353864230
 # 3684337414
 # 4260502546
 # 2138023116
 # 3865487713
 # 2408273268
-# 3277557923
 # 3304241122
-# 3931084314
-# 370622111
-# 2362852977
 # 3182841238
-# 4210838008
 # 3693897419
-# 839026485
-# 1887134105
-# 974953185
-# 26427737
 # 3049476649
 # 3280362660
 # 3330695455
 # 2344902020
-# 353207937
-# 1575855384
-# 2808415315
 # 3140781797
 # 2267088512
 # 2834000430
@@ -529,88 +642,541 @@ z_Test
 # 2177257031
 # 3071239962
 # 3524299259
-# 2074396452
 # 1005938406
 # 1855653078
 # 3373307592
-# 3482667923
-# 1300120498
-# 2818991785
-# 657335880
-# 976642664
-# 2176207175
-# 4061864886
-# 1833098381
-# 2143853552
-# 2150972217
-# 3352268550
 # 4150778772
 # 83807245
 # 2996079681
 # 36462183
-# 450588731
 # 831028902
 # 1321645972
 # 3233828815
-# 2655712979
-# 381206768
-# 603387473
 # 1955166070
 # 3900650438
-# 4207272023
-# 1615186227
-# 422920342
-# 920006826
 # 2849179861
-# 3421206209
-# 968537489
-# 4197534537
 # 3000227586
-# 3567244504
-# 578412502
 # 3675508400
-# 1378552571
-# 2517895907
 # 1843196826
-# 338816325
 # 1337114100
-# 714202233
-# 1814729795
 # 144354244
 # 742689927
-# 1550681634
-# 3072228999
 # 1697093313
-# 1900658185
-# 2128827446
 # 3285541761
-# 3297448739
 # 3501561414
 # 453117880
-# 1347120807
-# 1673724816
-# 2453666273
-# 1843201942
 # 1965798209
-# 4234814040
-# 256481065
-# 3553534726
 # 4249496523
 # 4261183711
 # 29693439
 # 3755748000
 # 585435987
-# 1362343726
 # 3413373287
 # 1667589319
 # 1803403060
 # 3398575840
-# 2734942880
-# 4290407643
-# 378527413
-# 2751977916
-# 3446483867
-# 3516376340
+# 3015342185
+
+### SFX NAMES (Init.bnk)
+Battle_LRM_MIN
+Controller_Speaker
+ForestAuterlitz_DenseFar
+Hall_Medium
+Have_U_Ever_Been_Outside
+Holy
+LongAndComplex
+Medium
+No_Output
+Room_Medium
+system
+Wwise_Motion
+# 1432593845
+# 28723687
+# 99054069
+# 107116043
+# 169962558
+# 195474678
+# 224701371
+# 248544926
+# 278121890
+# 298224591
+# 387423869
+# 391547185
+# 400731317
+# 412650824
+# 478407549
+# 480653707
+# 494547224
+# 497757501
+# 532546011
+# 585125499
+# 720837031
+# 754526406
+# 798818457
+# 804830024
+# 813351901
+# 823109101
+# 823912678
+# 932086862
+# 936288333
+# 946372837
+# 960594772
+# 984841173
+# 991951147
+# 1033174405
+# 1040480738
+# 1100345995
+# 1108154797
+# 1125579271
+# 1166936936
+# 1234277274
+# 1244714937
+# 1258964028
+# 1274573191
+# 1290096653
+# 1299111709
+# 1306035844
+# 1318349763
+# 1399516959
+# 1485979282
+# 1506576982
+# 1527532042
+# 1537538087
+# 1569806316
+# 1622422854
+# 1701903313
+# 1703529787
+# 1721806720
+# 1772442993
+# 1823357243
+# 1830108978
+# 1849039385
+# 1931168466
+# 1978790598
+# 2001024141
+# 2007725498
+# 2040935541
+# 2127834056
+# 2148178328
+# 2167959577
+# 2177516046
+# 2177516047
+# 2195953399
+# 2197666084
+# 2252750433
+# 2285782669
+# 2303688370
+# 2311837429
+# 2314111634
+# 2320867936
+# 2326403442
+# 2337483328
+# 2354632330
+# 2466617708
+# 2466848038
+# 2466848039
+# 2469760746
+# 2505685638
+# 2666561263
+# 2667980852
+# 2719859742
+# 2742239645
+# 2785581541
+# 2814115370
+# 2814115371
+# 2849476042
+# 2871588180
+# 2882226195
+# 2931971480
+# 3007367475
+# 3021329929
+# 3028026602
+# 3039245556
+# 3042854775
+# 3044384869
+# 3161053973
+# 3168363213
+# 3216725324
+# 3242742559
+# 3269648780
+# 3297735907
+# 3309202571
+# 3341092911
+# 3344484765
+# 3349307176
+# 3457752905
+# 3507878764
+# 3525108872
+# 3557017067
+# 3558148276
+# 3571630143
+# 3571686417
+# 3574962352
+# 3589690690
+# 3670170880
+# 3799399701
+# 4038119872
+# 4071221279
+# 4099562668
+# 4194305592
+# 4211468998
+# 4217201903
+# 4279577370
+# 4282972269
+# 4290342227
+
+### ACOUSTIC TEXTURE NAMES (Init.bnk)
+ak_brick
+ak_carpet
+ak_concrete
+ak_fabric
+ak_mountain
+ak_tile
+ak_wood
+ak_wood_bright
+ak_wood_deep
+at_bicycle
+at_carbonnet
+at_cardboard
+at_concrete
+at_default
+at_dirt
+at_fabric
+at_Foliage
+at_glass
+at_kawara
+at_liquid
+at_marble
+at_metal
+at_metalroof
+at_plastic
+at_polyvinyl
+at_rubber
+at_tatami
+at_tile
+at_wood
+Test_E_brick
+Test_E_concrete
+# 959278362
+# 861782970
+# 1960972161
+# 3807935085
+# 837517935
+# 336505765
+# 2521953897
+# 548181683
+# 3955115467
+# 1064301871
+# 3018141141
+
+### BASE RTPC/GAME-VARIABLE NAMES (Init.bnk)
+GP_ALL_BGM
+GP_ALL_Dialog
+GP_ALL_Master
+GP_ALL_SE
+GP_Amb_Insect_Density
+GP_Anim_Crow_VAT_Camp01
+GP_Anim_Crow_VAT_Camp02
+GP_Anim_Crow_VAT_Camp04
+GP_Anim_Crow_VAT_Camp06
+GP_Anim_Crow_VAT_QE0750
+GP_Anim_Crow_VAT_QE0780
+GP_BIP_azimuth
+GP_BIP_Diffraction
+GP_BIP_Distance_10000
+GP_BIP_Distance_5000
+GP_BIP_Elevation
+GP_BIP_EmitterCone
+GP_BIP_ListenerCone
+GP_BIP_obstruction
+GP_BIP_occlusion
+GP_Diegetic_All_Volume
+GP_Diegetic_Pitch_LFO_01
+GP_Enm_Common_Distance_3000_01
+GP_Enm_Common_EnemyGrabCoreRate_01
+GP_Enm_Em0000_Distance_3000_01
+GP_Enm_Em0000_Priority_Distance_01
+GP_Enm_Em0200_Compass_Distance_01
+GP_Enm_Em0200_Phone_Distance_01_7500
+GP_Enm_Em0200_Priority_Distance_01
+GP_Enm_Em0300_NoroiBall_Distance_01
+GP_Enm_Em0400_Priority_Distance_01
+GP_Enm_Em1000_Priority_Distance_01
+GP_Enm_Em1100_Priority_Distance_01
+GP_Enm_Em1300_Pitch_Distance_01
+GP_Enm_Em1300_Priority_Distance_01
+GP_Enm_Em1800_Priority_Distance_01
+GP_Enm_Sign_Distance_common
+GP_Enm_Sign_Distance_em0000
+GP_EventFastForward
+GP_Game_Camera_Height
+GP_Game_Fear_Distance
+GP_Game_Fog_Density
+GP_Game_Wind_Direction
+GP_Game_Wind_Speed
+GP_Mu_All_SideChain
+GP_NPC_ch3001_Visibility
+GP_NPC_Evil_Binded
+GP_NPC_GhostFx
+GP_Obj_Gondola_MoveSpeed
+GP_Obj_Items_Brbl_Blackthing
+GP_Obj_Light_Flicker_Curve
+GP_Obj_Physics_Fall_Velocity
+GP_Obj_Physics_Hit_Velocity
+GP_Obj_Physics_Scrape_Velocity
+GP_pl_GrabCoreRate
+GP_pl_GrabSpeedScale
+GP_pl_HP
+GP_sp_act_kegare_core_appear
+GP_sp_act_prisoncube_time_percentage
+GP_sp_para_noroisentence
+GP_Sp_Para_Post_Noise
+GP_sp_story_QE0840_GhostPurge
+GP_UI_Camera_Zoom_Ratio
+GP_UI_Map_Zoom_Ratio
+GP_UR_position
+GP_Voice_Agitation_Volume
+GP_Voice_Akito_Fx
+GP_VoiceSC_Vo_All
+GP_VoiceSC_Vo_Main
+GP_Wpn_Gun_Num_Of_Bullets
+Playback_Rate
+RPM
+# 108481257
+# 933330913
+# 1250254495
+# 1521010051
+# 1731072862
+# 1755710229
+# 1836327243
+# 1958462624
+# 1958462654
+# 2159794114
+# 2159794140
+# 2230068972
+# 2608205184
+# 2714375683
+# 3027603694
+# 3877586844
+# 4040657580
+# 4066368863
+# 4183217915
+# 4243873192
+# 4275056893
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+GP_ALL_BGM
+GP_ALL_Dialog
+GP_ALL_Master
+GP_ALL_SE
+GP_Anim_Crow_VAT_Camp01
+GP_Anim_Crow_VAT_Camp02
+GP_Anim_Crow_VAT_Camp04
+GP_Anim_Crow_VAT_Camp06
+GP_Anim_Crow_VAT_QE0750
+GP_Anim_Crow_VAT_QE0780
+GP_BIP_Distance_5000
+GP_Diegetic_All_Volume
+GP_EventFastForward
+GP_Game_Camera_Height
+GP_Game_Fear_Distance
+GP_Game_Fog_Density
+GP_Mu_All_SideChain
+GP_pl_GrabCoreRate
+GP_pl_HP
+GP_Sp_Para_Post_Noise
+GP_Voice_Agitation_Volume
+GP_Voice_Akito_Fx
+GP_VoiceSC_Vo_All
+GP_VoiceSC_Vo_Main
+GP_Wpn_Gun_Num_Of_Bullets
+
+### VARIABLE NAMES (Init.bnk)
+ST_Act_Telephone
+ST_ALL_ControllerSpeaker
+ST_ALL_Vibration
+ST_Amb_Beds
+ST_Amb_Beds_Astral
+ST_Amb_Beds_Astral_Utena_FakeRinko
+ST_Amb_Beds_Astral_Utena_KappaSewers
+ST_Amb_Beds_Astral_Utena_Shrine
+ST_Amb_Beds_Daidara
+ST_Amb_Beds_Ext
+ST_Amb_Beds_Int
+ST_Amb_Beds_Int_Sentou
+ST_Amb_Beds_Int_Tenant
+ST_Amb_Beds_Int_TokyoTower
+ST_Amb_Beds_UG
+ST_Amb_Enemy
+ST_Amb_Lyr_Astral_Utena_Shrine_Maze
+ST_Amb_Lyr_District
+ST_Amb_Lyr_Zone_Common
+ST_Amb_Lyr_Zone_Elevator
+ST_CS_Common
+ST_Dgt_Tenant
+ST_GS_GameEnv_Time
+ST_GS_GameEnv_Weather
+ST_GS_GameScene_Area_SBY
+ST_GS_GameScene_Scene
+ST_GS_GameScene_Situation
+ST_GS_GameScene_Space
+ST_GS_GameScene_World
+ST_Mu_IM_00_Enemy
+ST_Mu_IM_01_Scene
+ST_Mu_IM_02_Play
+ST_Mu_IM_03_Situation
+ST_Mu_IM_04_MM_GSeq
+ST_Mu_IM_05_SM_GSeq
+ST_Mu_IM_06_Specific_CS
+ST_pl_Action
+ST_pl_Battle
+ST_pl_Foliage
+ST_pl_fs_unique
+ST_pl_HP
+ST_pl_Position
+ST_pl_Scan
+ST_sp_com_tutorial
+ST_sp_hannya_agitation
+ST_Sp_Para_Post_Noise
+ST_sp_Story_MM0011
+ST_sp_story_qe0600
+ST_Sp_Story_QE0710_Hospital
+ST_sp_Story_QE0840
+ST_Sys_Win_DualSense
+ST_UI_Menu
+ST_UI_PhotoMode
+ST_UR_CS
+ST_Voice_Agitation_Volume
+ST_Voice_Akito_Fx
+ST_Wpn_Fire_Lv
+ST_Wpn_Selection
+SW_Anim_am0000_FlyUp_VAT_Camp01
+SW_Anim_am0000_FlyUp_VAT_Camp02
+SW_Anim_am0000_FlyUp_VAT_Camp04
+SW_Anim_am0000_FlyUp_VAT_Camp06
+SW_Anim_am0000_FlyUp_VAT_QE0750
+SW_Anim_am0000_FlyUp_VAT_QE0780
+SW_Game_Camera_Height
+SW_Game_Fear
+SW_Game_Fog_Density
+SW_Wpn_Gun_Ammo_Count
+Test_E_StateGroup
+Test_Sk_StateGroup
+# 3408456998
+# 501054116
+# 2025519698
+
+### VALUE NAMES (Init.bnk)
+None
+ST_Act_Telephone_Awaken
+ST_Act_Telephone_Dizziness
+ST_ALL_ControllerSpeaker_OFF
+ST_ALL_Vibration_OFF
+ST_Amb_Beds_Astral
+ST_Amb_Beds_Daidara
+ST_Amb_Beds_Daidara_01_Hospital
+ST_Amb_Beds_Daidara_02_House
+ST_Amb_Beds_Daidara_05_Train
+ST_Amb_Beds_Daidara_06_Shop109
+ST_Amb_Beds_Daidara_08_HospitalRoom
+ST_Amb_Beds_Daidara_10_CoinLaundry
+ST_Amb_Beds_Daidara_11_Comvini
+ST_Amb_Beds_Daidara_13_Apartment
+ST_Amb_Beds_Daidara_14_AbandonnedBuilding
+ST_Amb_Beds_Ext
+ST_Amb_Beds_Int
+ST_Amb_Beds_Int_Car_Parking
+ST_Amb_Beds_Int_Cave
+ST_Amb_Beds_Int_Collapsed
+ST_Amb_Beds_Int_Com
+ST_Amb_Beds_Int_Hospital
+ST_Amb_Beds_Int_KKRoom
+ST_Amb_Beds_Int_Sentou
+ST_Amb_Beds_Int_Tenant
+ST_Amb_Beds_Int_Tower
+ST_Amb_Beds_UG
+ST_Amb_Enemy_FIND
+ST_Amb_Enemy_LOST
+ST_Amb_Lyr_Zone_Com_Closed_Large
+ST_Amb_Lyr_Zone_Com_Closed_Medium
+ST_Amb_Lyr_Zone_Com_Closed_Small
+ST_Amb_Lyr_Zone_Com_OFF
+ST_Amb_Lyr_Zone_Com_Open_Huge
+ST_Amb_Lyr_Zone_Com_Open_Large
+ST_Amb_Lyr_Zone_Com_Open_Medium
+ST_Amb_Lyr_Zone_Com_Open_Small
+ST_Amb_Lyr_Zone_Elevater_Inside
+ST_Amb_Lyr_Zone_Elevator_Outside
+ST_CS_Com_End
+ST_CS_CS_Start
+ST_CS_EV0223_Start
+ST_CS_EV_Start
+ST_CS_EVQE_Start
+ST_CS_ShrinePurge_Start
+ST_Dgt_Tenant_Convini
+ST_Dgt_Tenant_Ext_Com
+ST_GS_GameScene_World_UG
+ST_GS_GE_Time_Day
+ST_GS_GE_Wx_HyakkiRainy
+ST_GS_GE_Wx_InverseRain
+ST_GS_GE_Wx_Rainy
+ST_GS_GE_Wx_Snowy
+ST_GS_GE_Wx_Stormy
+ST_GS_GS_Area_DIM
+ST_GS_GS_Area_SBY_Fuchihashi
+ST_GS_GS_Area_SBY_Ginpei
+ST_GS_GS_Area_SBY_Kannami
+ST_GS_GS_Area_SBY_Kirigaoka
+ST_GS_GS_Area_SBY_Mitake
+ST_GS_GS_Area_SBY_Miya
+ST_GS_GS_Area_SBY_None
+ST_GS_GS_Area_SBY_Sengoku
+ST_GS_GS_Area_SBY_Tsukinami
+ST_GS_GS_Area_SBY_Utagawa
+ST_GS_GS_Area_SBY_Yashin
+ST_GS_GS_Area_SBY_Yugenzaka
+ST_GS_GS_Battle
+ST_GS_GS_Blackout
+ST_GS_GS_Dead
+ST_GS_GS_FastTravel
+ST_GS_GS_FastWarp
+ST_GS_GS_Loading
+ST_GS_GS_None
+ST_GS_GS_Play
+ST_GS_GS_Title
+ST_Mu_IM_01_a_Title
+ST_Mu_IM_03_Phase02_Approach
+ST_Mu_IM_03_Phase03_Search
+ST_pl_Action_Astral
+ST_pl_Action_CleanseTorii
+ST_pl_Action_Inmusubi
+ST_pl_Action_KKMode
+ST_pl_Action_None
+ST_pl_Action_Separation
+ST_pl_Battle_BackStab
+ST_pl_Battle_CoreAbsorb
+ST_pl_Battle_CoreGrab
+ST_pl_Battle_None
+ST_pl_Foliage_In
+ST_pl_Foliage_Out
+ST_pl_HP_Danger
+ST_pl_Position_Sitting
+ST_pl_Position_Standing
+ST_pl_Scan_OFF
+ST_pl_Scan_ON
+ST_sp_com_tutorial_IN
+ST_sp_hannya_agitation_OFF
+ST_sp_hannya_agitation_ON
+ST_Sp_Para_Post_Noise_GrayScale
+ST_Sp_Para_Post_Noise_None
+ST_Sp_Para_Post_Noise_Screentone
+ST_Sys_Win_DualSense_OFF
+ST_UI_Menu_CLOSE
+ST_UI_Menu_OPEN
+ST_UI_Menu_OPEN_Full_OLD
+ST_UI_Menu_OPEN_Half
+ST_UI_Menu_OPEN_Half_wPitch
+ST_UI_PhotoMode_ON
 
 ### EVENT NAMES (Ambient_Common.bnk)
 amb_beds_com_Play
@@ -697,47 +1263,9 @@ amb_state_loc_ug_shibuchika_Play
 amb_state_loc_ug_station_Play
 amb_state_loc_ug_tunnel_Play
 
-### SFX NAMES (Ambient_Common.bnk)
-# 705804816
-# 1039919657
-# 1012469108
-# 769509379
-# 998305007
-# 825869438
-# 175949217
-# 23290089
-# 702985543
-# 153521276
-# 1070845677
-# 499094811
-# 450603876
-# 716944943
-# 208861541
-# 791952018
-# 12721847
-# 600021197
-# 879655887
-# 508260831
-# 813731973
-# 976869691
-
 ### RTPC/GAME-VARIABLE NAMES (Ambient_Common.bnk)
 GP_Game_Camera_Height
 GP_Game_Fog_Density
-# 820725465
-# 284243823
-# 871013271
-# 826837203
-# 825718952
-# 48641159
-# 818438028
-# 108878350
-# 935759300
-# 566364025
-# 267939215
-# 451602766
-# 190539188
-# 985617632
 
 ### VARIABLE NAMES (Ambient_Common.bnk)
 ST_Amb_Beds
@@ -1111,16 +1639,6 @@ amb_prop_daidara_shop109_dgt_mu_pops_Play
 
 ### SFX NAMES (Ambient_Daidara.bnk)
 # 508778605
-# 947756841
-# 316769703
-# 113803342
-# 948483332
-# 154207848
-# 142659928
-# 35638457
-# 741521372
-# 771783175
-# 366404490
 # 3533929569
 # 4211468998
 
@@ -1129,12 +1647,6 @@ GP_BIP_Distance_5000
 GP_Diegetic_Pitch_LFO_01
 GP_Game_Fog_Density
 GP_VoiceSC_Vo_Main
-# 797861207
-# 350605362
-# 533390026
-# 495863705
-# 1015013530
-# 537392837
 
 ### VARIABLE NAMES (Ambient_Daidara.bnk)
 ST_Amb_Beds
@@ -1181,6 +1693,30 @@ ST_Mu_IM_03_Phase99_NoMusic
 ST_Sys_Win_DualSense_OFF
 ST_Sys_Win_DualSense_ON
 
+### EVENT NAMES (Ambient_HZM.bnk)
+amb_lyr_add_const_bld_sheet_flap_Play
+sp_act_gravestone_idle_Play
+sp_act_gravestone_idle_Stop
+
+### VARIABLE NAMES (Ambient_HZM.bnk)
+ST_Amb_Lyr_Zone_Common
+ST_GS_GameEnv_Weather
+ST_GS_GameScene_Situation
+ST_UI_Menu
+
+### VALUE NAMES (Ambient_HZM.bnk)
+ST_Amb_Lyr_Zone_Const_Bld
+ST_GS_GE_Wx_InverseRain
+ST_GS_GE_Wx_None
+ST_GS_GE_Wx_Rainy
+ST_GS_GS_Approach
+ST_GS_GS_Battle
+ST_GS_GS_Search
+ST_UI_Menu_OPEN
+ST_UI_Menu_OPEN_Full_OLD
+ST_UI_Menu_OPEN_Half
+ST_UI_Menu_OPEN_Half_wPitch
+
 ### EVENT NAMES (Ambient_Layer.bnk)
 amb_lyr_add_const_bld_sheet_flap_Play
 amb_lyr_add_ext_bird_crow_Play
@@ -1217,19 +1753,9 @@ amb_lyr_zone_elevator_inside_Play
 amb_lyr_zone_elevator_out_Play
 amb_lyr_zone_elevator_outside_Play
 
-### SFX NAMES (Ambient_Layer.bnk)
-# 90159130
-# 721183472
-# 204661355
-# 142834414
-# 444686790
-# 606941805
-# 759334876
-
 ### RTPC/GAME-VARIABLE NAMES (Ambient_Layer.bnk)
 GP_Game_Camera_Height
 GP_Game_Fog_Density
-# 108878350
 
 ### VARIABLE NAMES (Ambient_Layer.bnk)
 ST_Amb_Beds
@@ -1332,24 +1858,6 @@ amb_prop_yatai_griddle_cooking_Play
 amb_prop_yatai_griddle_empty_Play
 
 ### SFX NAMES (Ambient_Prop.bnk)
-# 945340222
-# 48636880
-# 856269491
-# 640940947
-# 1057238023
-# 221238154
-# 486500515
-# 308143387
-# 420290722
-# 363669554
-# 331402712
-# 489695144
-# 590515390
-# 103726686
-# 324763774
-# 673341706
-# 1049346914
-# 1043636048
 # 945880706
 # 1040480738
 # 4211468998
@@ -1363,10 +1871,6 @@ GP_BIP_Elevation
 GP_Game_Camera_Height
 GP_Game_Fear_Distance
 GP_Game_Wind_Speed
-# 122668367
-# 1333735
-# 622589352
-# 84742925
 
 ### VARIABLE NAMES (Ambient_Prop.bnk)
 ST_Amb_Beds
@@ -1422,11 +1926,67 @@ ST_UI_Menu_OPEN_Half_wPitch
 SW_Game_Fear_OFF
 SW_Game_Fear_ON
 
+### EVENT NAMES (Ambient_Spider.bnk)
+amb_beds_spider_Play
+amb_prop_spider_eventfloor_water_ripple_far_Play
+amb_prop_spider_eventfloor_water_ripple_near_Play
+amb_prop_spider_eventfloor_water_ripple_spread_Play
+amb_prop_spider_nekomata_manekineko_arm_Play
+amb_state_loc_spider_eventfloor_cave_Play
+amb_state_loc_spider_eventfloor_common_Play
+amb_state_loc_spider_eventfloor_tenant_Play
+amb_state_loc_spider_eventfloor_train_Play
+amb_state_loc_spider_eventfloor_well_Play
+amb_state_loc_spider_moneyroom_Play
+amb_state_loc_spider_nekomata_hallway_Play
+amb_state_loc_spider_nekomata_room_Play
+amb_state_spider_awning_off_Play
+amb_state_spider_awning_on_Play
+
+### VARIABLE NAMES (Ambient_Spider.bnk)
+ST_Amb_Beds
+ST_Amb_Beds_Spider
+ST_Amb_Beds_Spider_EventFloor
+ST_Amb_Lyr_Zone_Common
+ST_Amb_Spider_Awning
+ST_GS_GameEnv_Weather
+ST_GS_GameScene_Space
+
+### VALUE NAMES (Ambient_Spider.bnk)
+None
+ST_Amb_Beds_Int
+ST_Amb_Beds_Spider_EventFloor
+ST_Amb_Beds_Spider_EventFloor_Cave
+ST_Amb_Beds_Spider_EventFloor_Common
+ST_Amb_Beds_Spider_EventFloor_Tenant
+ST_Amb_Beds_Spider_EventFloor_Train
+ST_Amb_Beds_Spider_EventFloor_Well
+ST_Amb_Beds_Spider_Nekomata_Room
+ST_Amb_Beds_Spider_None
+ST_Amb_Lyr_Zone_Com_Closed_Large
+ST_Amb_Lyr_Zone_Com_Closed_Medium
+ST_Amb_Lyr_Zone_Com_Closed_Small
+ST_Amb_Lyr_Zone_Com_OFF
+ST_Amb_Lyr_Zone_Com_Open_Huge
+ST_Amb_Lyr_Zone_Com_Open_Large
+ST_Amb_Lyr_Zone_Com_Open_Medium
+ST_Amb_Lyr_Zone_Com_Open_Small
+ST_Amb_Lyr_Zone_Const_Bld
+ST_Amb_Lyr_Zone_Elevater_Inside
+ST_Amb_Spider_Awning_OFF
+ST_Amb_Spider_Awning_ON
+ST_GS_GE_Wx_DaidaraStormy
+ST_GS_GE_Wx_HyakkiRainy
+ST_GS_GE_Wx_InverseRain
+ST_GS_GE_Wx_None
+ST_GS_GE_Wx_Rainy
+ST_GS_GE_Wx_Snowy
+ST_GS_GE_Wx_Stormy
+ST_GS_GS_Space_Awning
+ST_GS_GS_Space_Indoor
+
 ### EVENT NAMES (Ambient_UG.bnk)
 amb_beds_ug_Play
-
-### SFX NAMES (Ambient_UG.bnk)
-# 793199554
 
 ### VARIABLE NAMES (Ambient_UG.bnk)
 ST_Amb_Beds_UG
@@ -1716,14 +2276,6 @@ VO_QUT_4061_2803_Play
 VO_QUT_4061_2804_Play
 
 ### SFX NAMES (Animal_Common.bnk)
-# 7965728
-# 826001967
-# 687006968
-# 532790440
-# 567169770
-# 422935542
-# 841440941
-# 297712409
 # 990250166
 # 4211468998
 
@@ -1735,7 +2287,6 @@ GP_Anim_Crow_VAT_Camp06
 GP_Anim_Crow_VAT_QE0750
 GP_Anim_Crow_VAT_QE0780
 GP_BIP_Distance_5000
-# 454456927
 
 ### VARIABLE NAMES (Animal_Common.bnk)
 ST_Sys_Win_DualSense
@@ -1763,16 +2314,52 @@ SW_Anim_am0000_FlyUp_VAT_QE0750_ON
 SW_Anim_am0000_FlyUp_VAT_QE0780_OFF
 SW_Anim_am0000_FlyUp_VAT_QE0780_ON
 
+### EVENT NAMES (Animal_SpiderThread.bnk)
+anim_am0030_spider_ve_angry_Play
+anim_am0030_spider_ve_damage_Play
+anim_am0030_spider_ve_meow_normal_Play
+anim_am0030_spider_ve_meow_run_away_Play
+anim_am0030_spider_ve_meow_run_start_Play
+anim_am0030_spider_ve_stage_start_Play
+anim_am0030_spider_ve_start_Play
+VO_TST_DC_1200_1110_Play
+VO_TST_DC_1200_1210_Play
+VO_TST_DC_1200_1310_Play
+VO_TST_DC_1200_1410_Play
+VO_TST_DC_1200_2110_Play
+VO_TST_DC_1200_2210_Play
+VO_TST_DC_1200_2310_Play
+VO_TST_DC_1200_2410_Play
+
+### SFX NAMES (Animal_SpiderThread.bnk)
+# 990250166
+# 1340620461
+# 4211468998
+
+### RTPC/GAME-VARIABLE NAMES (Animal_SpiderThread.bnk)
+GP_sp_Spider_StrayCats_Num
+
+### VARIABLE NAMES (Animal_SpiderThread.bnk)
+ST_sp_Spider_StrayCats_Num
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (Animal_SpiderThread.bnk)
+None
+ST_sp_Spider_StrayCats_Num_01
+ST_sp_Spider_StrayCats_Num_02
+ST_sp_Spider_StrayCats_Num_03
+ST_sp_Spider_StrayCats_Num_None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+
 ### SFX NAMES (AuxBus_Common.bnk)
+Battle_LRM_MIN
 ForestAuterlitz_DenseFar
 LongAndComplex
-# 36679800
 # 107116043
 # 224701371
 # 248544926
-# 261543112
 # 278121890
-# 336966546
 # 387423869
 # 400731317
 # 412650824
@@ -1780,10 +2367,7 @@ LongAndComplex
 # 497757501
 # 532546011
 # 585125499
-# 663160679
-# 691250044
 # 720837031
-# 784899702
 # 804830024
 # 823109101
 # 823912678
@@ -1791,7 +2375,6 @@ LongAndComplex
 # 946372837
 # 960594772
 # 984841173
-# 1000419800
 # 1033174405
 # 1100345995
 # 1108154797
@@ -1847,7 +2430,6 @@ LongAndComplex
 # 3341092911
 # 3344484765
 # 3349307176
-# 3395683808
 # 3457752905
 # 3507878764
 # 3558148276
@@ -1887,339 +2469,6 @@ ST_UI_Menu_OPEN
 ST_UI_Menu_OPEN_Full_OLD
 ST_UI_Menu_OPEN_Half
 ST_UI_Menu_OPEN_Half_wPitch
-
-### EVENT NAMES (Check.bnk)
-Test_AkPlaceholder_Sfx
-Test_AkPlaceholder_Silence
-Test_AkPlaceholder_Vox
-Test_AudioDevice_712ch_Play
-Test_Localize_Loop_Play
-Test_LU_Elevated_1_Play
-Test_LU_Elevated_2_Play
-Test_LU_Spoken_1_Play
-Test_LU_Spoken_2_Play
-Test_LU_Whisper_1_Play
-Test_Platform_LoadedSoundbank_Globalbnk_Play
-Test_Positioning_EmitterWithAutomation_Play
-Test_Positioning_ListenerWithAutomation_Play
-Test_WM_Loop_Spatialized_Play
-
-### SFX NAMES (Check.bnk)
-# 58511153
-# 396335809
-# 57806644
-# 717994053
-
-### RTPC/GAME-VARIABLE NAMES (Check.bnk)
-# 183151971
-
-### EVENT NAMES (CutScene_Common.bnk)
-__pl_param_all_init
-_cs_com_all_end_Play
-_cs_com_all_start_Play
-_cs_com_boss_end_Play
-_cs_com_shrine_purge_end_Play
-_cs_com_shrine_purge_start_Play
-_ev_com_all_end_Play
-_ev_com_all_start_Play
-_ev_qe_all_start_Play
-cs_chapter_com_end_Play
-cs_chapter_com_start_Play
-cs_clear_ui_com_end_Play
-cs_clear_ui_com_start_Play
-cs_com_sequence_skip_Play
-cs_cs0200_00_end_Play
-cs_cs0200_00_start_Play
-cs_cs0201_00_end_Play
-cs_cs0201_00_start_Play
-cs_cs0202_00_end_Play
-cs_cs0202_00_start_Play
-cs_cs0202_01_end_Play
-cs_cs0202_01_start_Play
-cs_cs0206_00_end_Play
-cs_cs0206_00_start_Play
-cs_cs0207_00_end_Play
-cs_cs0207_00_start_Play
-cs_cs0208_00_end_Play
-cs_cs0208_00_start_Play
-cs_cs0209_00_end_Play
-cs_cs0209_00_start_Play
-cs_cs0210_00_end_Play
-cs_cs0210_00_start_Play
-cs_cs0210_01_end_Play
-cs_cs0210_01_start_Play
-cs_cs0210_02_end_Play
-cs_cs0210_02_start_Play
-cs_cs0211_00_end_Play
-cs_cs0211_00_start_Play
-cs_cs0212_00_end_Play
-cs_cs0212_00_start_Play
-cs_cs0213_00_end_Play
-cs_cs0213_00_start_Play
-cs_cs0214_00_end_Play
-cs_cs0214_00_start_Play
-cs_cs0215_00_end_Play
-cs_cs0215_00_start_Play
-cs_cs0216_00_end_Play
-cs_cs0216_00_start_Play
-cs_cs0217_00_end_Play
-cs_cs0217_00_start_Play
-cs_cs0218_00_end_Play
-cs_cs0218_00_start_Play
-cs_cs0219_00_end_Play
-cs_cs0219_00_start_Play
-cs_cs0220_00_end_Play
-cs_cs0220_00_start_Play
-cs_cs0221_00_end_Play
-cs_cs0221_00_start_Play
-cs_cs0222_00_end_Play
-cs_cs0222_00_start_Play
-cs_cs0223_00_end_Play
-cs_cs0223_00_start_Play
-cs_cs0224_00_end_Play
-cs_cs0224_00_start_Play
-cs_cs0225_00_end_Play
-cs_cs0225_00_start_Play
-cs_cs0227_00_end_Play
-cs_cs0227_00_start_Play
-cs_cs0228_00_end_Play
-cs_cs0228_00_start_Play
-cs_cs0229_00_end_Play
-cs_cs0229_00_start_Play
-cs_cs0233_00_end_Play
-cs_cs0233_00_start_Play
-cs_cs0234_00_end_Play
-cs_cs0234_00_start_Play
-cs_cs0235_00_end_Play
-cs_cs0235_00_start_Play
-cs_cs0236_00_end_Play
-cs_cs0236_00_start_Play
-cs_cs0237_00_end_Play
-cs_cs0237_00_start_Play
-cs_cs0238_00_end_Play
-cs_cs0238_00_start_Play
-cs_cs0239_00_end_Play
-cs_cs0239_00_start_Play
-cs_cs1202_00_cut000_start_Play
-cs_cs1208_00_cut000_start_Play
-cs_cs1209_00_end_Play
-cs_cs1209_00_start_Play
-cs_cs1212_00_cut036_start_Play
-cs_cs1213_00_cut000_start_Play
-cs_cs1213_01_cut000_start_Play
-cs_cs1219_00_cut000_start_Play
-cs_cs1239_00_end_Play
-cs_cs1239_00_start_Play
-ev_0150_00_end_Play
-ev_0150_00_start_Play
-ev_0151_00_end_Play
-ev_0151_00_start_Play
-ev_0152_00_end_Play
-ev_0152_00_start_Play
-ev_0153_00_end_Play
-ev_0153_00_start_Play
-ev_0154_00_end_Play
-ev_0154_00_start_Play
-ev_0160_00_end_Play
-ev_0160_00_start_Play
-ev_0161_00_end_Play
-ev_0161_00_start_Play
-ev_0200_00_end_Play
-ev_0200_00_start_Play
-ev_0201_00_end_Play
-ev_0201_00_start_Play
-ev_0202_00_end_Play
-ev_0202_00_start_Play
-ev_0203_00_end_Play
-ev_0203_00_start_Play
-ev_0204_00_end_Play
-ev_0204_00_start_Play
-ev_0205_00_end_Play
-ev_0205_00_start_Play
-ev_0206_00_end_Play
-ev_0206_00_start_Play
-ev_0207_00_end_Play
-ev_0207_00_start_Play
-ev_0208_00_end_Play
-ev_0208_00_start_Play
-ev_0209_00_end_Play
-ev_0209_00_start_Play
-ev_0210_00_end_Play
-ev_0210_00_start_Play
-ev_0211_00_end_Play
-ev_0211_00_start_Play
-ev_0212_00_end_Play
-ev_0212_00_start_Play
-ev_0213_00_end_Play
-ev_0213_00_start_Play
-ev_0214_00_end_Play
-ev_0214_00_start_Play
-ev_0215_00_end_Play
-ev_0215_00_start_Play
-ev_0216_00_end_Play
-ev_0216_00_start_Play
-ev_0217_00_end_Play
-ev_0217_00_start_Play
-ev_0218_00_end_Play
-ev_0218_00_start_Play
-ev_0219_00_end_Play
-ev_0219_00_start_Play
-ev_0220_00_end_Play
-ev_0220_00_start_Play
-ev_0221_00_end_Play
-ev_0221_00_start_Play
-ev_0222_00_end_Play
-ev_0222_00_start_Play
-ev_0223_00_end_Play
-ev_0223_00_start_Play
-ev_0223_pre_blackout_start_Play
-ev_0223_pre_bonnet_open_Play
-ev_0223_pre_turbine_search_Play
-ev_1213_00_cut000_start_Play
-ev_1215_00_cut000_start_Play
-ev_qe0780_00_end_Play
-ev_qe0780_00_start_Play
-ev_qe0790_00_end_Play
-ev_qe0790_00_start_Play
-ev_qe0790_01_end_Play
-ev_qe0790_01_start_Play
-ev_qe0790_02_end_Play
-ev_qe0790_02_start_Play
-ev_qe0840_02_end_Play
-ev_qe0840_02_start_Play
-GS_GameScene_Scene_GameOver_Leave
-sp_story_qe0840_piano_normal_end_Play
-
-### SFX NAMES (CutScene_Common.bnk)
-# 475304742
-# 1047869040
-# 338044229
-# 303206959
-# 149298196
-# 444582616
-# 32892842
-# 475688665
-# 810158390
-# 952851020
-# 94620742
-# 1000447497
-# 679775252
-# 376757521
-# 549215889
-# 686998206
-# 76832985
-# 656434004
-# 137276263
-# 242982425
-# 1067729614
-# 746431241
-# 497237328
-# 509951305
-# 304974008
-# 1006186513
-# 28754651
-# 175842225
-# 865883115
-# 630212114
-# 612741434
-# 521746542
-# 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (CutScene_Common.bnk)
-# 270713458
-# 236483942
-# 861199654
-# 154918350
-# 919142752
-# 554517383
-# 587622914
-
-### VARIABLE NAMES (CutScene_Common.bnk)
-ST_CS_Common
-ST_GS_GameScene_Scene
-ST_Mu_IM_00_Enemy
-ST_Mu_IM_01_Scene
-ST_Mu_IM_02_Play
-ST_Mu_IM_03_Situation
-ST_Mu_IM_04_MM_GSeq
-ST_Mu_IM_05_SM_GSeq
-ST_Mu_IM_06_Specific_CS
-ST_pl_Action
-ST_pl_Battle
-ST_pl_Foliage
-ST_pl_fs_unique
-ST_pl_HP
-ST_pl_Scan
-ST_sp_hannya_agitation
-ST_Sys_Win_DualSense
-ST_UI_Menu
-ST_UR_CS
-ST_Voice_Akito_Fx
-
-### VALUE NAMES (CutScene_Common.bnk)
-None
-ST_CS_Com_End
-ST_CS_CS_Start
-ST_CS_EV0223_Start
-ST_CS_EV_Start
-ST_CS_EVQE_Start
-ST_CS_ShrinePurge_Start
-ST_GS_GS_Dead
-ST_GS_GS_None
-ST_Mu_IM_00_a_Lost
-ST_Mu_IM_01_c_Play
-ST_Mu_IM_01_e_GameOver
-ST_Mu_IM_01_f_Shrine
-ST_Mu_IM_01_g_Daimon
-ST_Mu_IM_02_a_Normal
-ST_Mu_IM_02_b_MM
-ST_Mu_IM_03_Phase02_Approach
-ST_Mu_IM_03_Phase03_Search
-ST_Mu_IM_03_Phase04_Battle
-ST_Mu_IM_04_MM_GSeq_010030
-ST_Mu_IM_04_MM_GSeq_010035
-ST_Mu_IM_04_MM_GSeq_011120
-ST_Mu_IM_04_MM_GSeq_023140
-ST_Mu_IM_04_MM_GSeq_023150
-ST_Mu_IM_04_MM_GSeq_023160
-ST_Mu_IM_04_MM_GSeq_023165
-ST_Mu_IM_04_MM_GSeq_024050
-ST_Mu_IM_04_MM_GSeq_024060
-ST_Mu_IM_04_MM_GSeq_024090
-ST_Mu_IM_04_MM_GSeq_024100
-ST_Mu_IM_04_MM_GSeq_030180
-ST_Mu_IM_04_MM_GSeq_030200
-ST_Mu_IM_04_MM_GSeq_031060
-ST_Mu_IM_04_MM_GSeq_031070
-ST_Mu_IM_04_MM_GSeq_032095
-ST_Mu_IM_04_MM_GSeq_050000
-ST_Mu_IM_04_MM_GSeq_050030
-ST_Mu_IM_04_MM_GSeq_050090
-ST_Mu_IM_04_MM_GSeq_050100
-ST_Mu_IM_04_MM_GSeq_050120
-ST_Mu_IM_04_MM_GSeq_051055
-ST_Mu_IM_04_MM_GSeq_051080
-ST_Mu_IM_04_MM_GSeq_051085
-ST_Mu_IM_04_MM_GSeq_061020
-ST_Mu_IM_04_MM_GSeq_061030
-ST_Mu_IM_04_MM_GSeq_z_NoMusic
-ST_Mu_IM_05_SM_GSeq_z_NoMusic
-ST_Mu_IM_06_Specific_CS_OFF
-ST_Mu_IM_06_Specific_CS_ON
-ST_pl_Action_None
-ST_pl_Battle_None
-ST_pl_Foliage_Out
-ST_pl_fs_unique_normal
-ST_pl_HP_Normal
-ST_pl_Scan_OFF
-ST_sp_hannya_agitation_OFF
-ST_Sys_Win_DualSense_OFF
-ST_Sys_Win_DualSense_ON
-ST_UI_Menu_OPEN
-ST_UI_Menu_OPEN_Half
-ST_UR_CS_In
-ST_UR_CS_Out
-ST_Voice_Akito_Fx_None
 
 ### EVENT NAMES (Diegetic_Common.bnk)
 dgt_atmos_sby_01_Play
@@ -2294,7 +2543,6 @@ dgt_unique_vision_kagerie_Play
 
 ### SFX NAMES (Diegetic_Common.bnk)
 # 11568193
-# 475304742
 # 508778605
 # 3533929569
 
@@ -2305,25 +2553,6 @@ GP_Diegetic_Pitch_LFO_01
 GP_Enm_Sign_Distance_em0000
 GP_Game_Camera_Height
 GP_Game_Fog_Density
-# 797861207
-# 495863705
-# 36212929
-# 899514447
-# 452123235
-# 265906529
-# 347321086
-# 717027109
-# 915756253
-# 965054274
-# 683876250
-# 439092444
-# 863077805
-# 789651576
-# 856456847
-# 704702386
-# 420019445
-# 50138188
-# 751113709
 
 ### VARIABLE NAMES (Diegetic_Common.bnk)
 ST_Amb_Beds
@@ -2508,27 +2737,7 @@ SW_Enm_Common_Search_Flee_Set_Switch
 SW_Enm_Common_Search_Search_Set_Switch
 
 ### SFX NAMES (Enm_Common.bnk)
-# 475304742
-# 61172151
-# 513567613
-# 271889997
-# 64122268
-# 983048513
-# 332117618
-# 508511793
-# 901158633
-# 848507248
-# 1042778494
-# 731617441
-# 349529934
-# 311671251
-# 752476961
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (Enm_Common.bnk)
-# 860987994
-# 475697275
-# 502406241
 
 ### VARIABLE NAMES (Enm_Common.bnk)
 ST_Amb_Enemy
@@ -2641,28 +2850,6 @@ SW_Enm_Em0005_Characters_A_Guard_Set_Switch
 SW_Enm_Em0006_Characters_A_NataFat_Set_Switch
 
 ### SFX NAMES (Enm_Em0000.bnk)
-# 427623093
-# 96786645
-# 620969758
-# 1004884404
-# 40113362
-# 1054518944
-# 928167822
-# 199633853
-# 931370773
-# 919228315
-# 25138247
-# 668359991
-# 40097441
-# 44502734
-# 771862445
-# 216541879
-# 517859652
-# 998060765
-# 1002386757
-# 276131476
-# 222073137
-# 48592110
 # 1007506615
 # 1152906106
 # 2188899949
@@ -2756,40 +2943,6 @@ GP_Enm_Em0100_GrabCoreRate_Set_Game_Parameter
 GP_Enm_Em0100_GrabCoreRate_Set_Game_Parameter_Start
 
 ### SFX NAMES (Enm_Em0100.bnk)
-# 286307117
-# 423492313
-# 740215475
-# 110870047
-# 867808396
-# 687229640
-# 588024507
-# 1042337963
-# 594574713
-# 575264127
-# 704750893
-# 558466498
-# 126052858
-# 463937941
-# 555576027
-# 889865500
-# 710107361
-# 144256457
-# 757048993
-# 392966384
-# 1047930137
-# 215018536
-# 871366884
-# 939261391
-# 349820758
-# 61254455
-# 156461157
-# 890181381
-# 809506251
-# 949645240
-# 874582802
-# 956019933
-# 142705661
-# 938416390
 # 1007506615
 # 1152906106
 # 2188899949
@@ -2802,9 +2955,6 @@ GP_BIP_Distance_5000
 GP_Enm_Common_Distance_3000_01
 GP_Enm_Common_EnemyGrabCoreRate_01
 GP_pl_GrabCoreRate
-# 816375531
-# 799417321
-# 125788525
 
 ### VARIABLE NAMES (Enm_Em0100.bnk)
 ST_Sys_Win_DualSense
@@ -2891,9 +3041,6 @@ SW_Enm_Em0200_Variations_Em0200_JK_Set_Switch
 SW_Enm_Em0200_Variations_Em0202_Gakuran_Set_Switch
 
 ### SFX NAMES (Enm_Em0200.bnk)
-# 749066643
-# 334520412
-# 465238662
 # 1007506615
 # 1152906106
 # 2188899949
@@ -2962,14 +3109,6 @@ GP_Enm_Em0300_GrabCoreRate_Set_Game_Parameter
 GP_Enm_Em0300_GrabCoreRate_Set_Game_Parameter_Start
 
 ### SFX NAMES (Enm_Em0300.bnk)
-# 78834473
-# 865944018
-# 713324978
-# 95974056
-# 494816388
-# 300053843
-# 801865501
-# 273119907
 # 1007506615
 # 1152906106
 # 2188899949
@@ -2983,7 +3122,6 @@ GP_Enm_Common_EnemyGrabCoreRate_01
 GP_Enm_Em0300_NoroiBall_Distance_01
 GP_Enm_Em1100_Priority_Distance_01
 GP_pl_GrabCoreRate
-# 816375531
 
 ### VARIABLE NAMES (Enm_Em0300.bnk)
 ST_Sys_Win_DualSense
@@ -3023,6 +3161,34 @@ Enm_Em0400_Ve_Search_01_Play
 GP_BIP_Distance_5000
 GP_Enm_Common_Distance_3000_01
 GP_Enm_Em0400_Priority_Distance_01
+
+### EVENT NAMES (Enm_Em0401.bnk)
+Enm_Em0401_Se_Fs_Walk_01_Play
+Enm_Em0401_Se_Prop_Whistle_01_Play
+Enm_Em0401_Ve_All_Stop
+Enm_Em0401_Ve_Death_01_Play
+Enm_Em0401_Ve_Death_All_01_Stop
+Enm_Em0401_Ve_Find_01_Play
+Enm_Em0401_Ve_KenkenPa_01_Play
+Enm_Em0401_Ve_Playing_01_Play
+Enm_Em0401_Ve_Roaming_01_Play
+Enm_Em0401_Ve_Search_01_Play
+
+### SFX NAMES (Enm_Em0401.bnk)
+# 1007506615
+# 4211468998
+
+### RTPC/GAME-VARIABLE NAMES (Enm_Em0401.bnk)
+GP_BIP_Distance_10000
+GP_BIP_Distance_7000_NoInterpolation
+
+### VARIABLE NAMES (Enm_Em0401.bnk)
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (Enm_Em0401.bnk)
+None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
 
 ### EVENT NAMES (Enm_Em0800.bnk)
 enm_em0800_fo_end_Play
@@ -3090,16 +3256,6 @@ GP_Enm_Em1000_GrabCoreRate_Set_Game_Parameter
 GP_Enm_Em1000_GrabCoreRate_Set_Game_Parameter_Start
 
 ### SFX NAMES (Enm_Em1000.bnk)
-# 854699149
-# 318363962
-# 272259248
-# 948376971
-# 777012754
-# 908259513
-# 483482540
-# 776482006
-# 16884025
-# 720541484
 # 1007506615
 # 1152906106
 # 2188899949
@@ -3113,7 +3269,6 @@ GP_Enm_Common_EnemyGrabCoreRate_01
 GP_Enm_Em1000_Priority_Distance_01
 GP_Enm_Em1300_Priority_Distance_01
 GP_pl_GrabCoreRate
-# 816375531
 
 ### VARIABLE NAMES (Enm_Em1000.bnk)
 ST_Sys_Win_DualSense
@@ -3243,21 +3398,6 @@ Enm_Em1300_Ve_SuicideAttack_01_Play
 GP_Enm_Em1300_GrabCoreRate_Set_Game_Parameter
 
 ### SFX NAMES (Enm_Em1300.bnk)
-# 95478775
-# 725007842
-# 655833668
-# 34122197
-# 208488654
-# 710762094
-# 705861769
-# 1053072381
-# 313589442
-# 705502404
-# 268742586
-# 525902308
-# 383454609
-# 731023245
-# 416816482
 # 1007506615
 # 1152906106
 # 2188899950
@@ -3271,7 +3411,6 @@ GP_Enm_Common_EnemyGrabCoreRate_01
 GP_Enm_Em1300_Pitch_Distance_01
 GP_Enm_Em1300_Priority_Distance_01
 GP_pl_GrabCoreRate
-# 816375531
 
 ### VARIABLE NAMES (Enm_Em1300.bnk)
 ST_Sys_Win_DualSense
@@ -3336,40 +3475,12 @@ Enm_Em1600_Ve_Idle_02_Play
 Enm_Em1600_Ve_TakeDown_01_Play
 
 ### SFX NAMES (Enm_Em1600.bnk)
-# 685715742
-# 501439146
-# 450568424
-# 621668879
-# 466384294
-# 378340901
-# 687209960
-# 140862975
-# 355036124
-# 16171971
-# 428095267
-# 597684268
-# 839007665
-# 202253900
-# 1062037080
-# 1026264386
-# 173193420
-# 806755977
-# 998729496
-# 539440275
-# 481670741
-# 173726014
-# 55183005
-# 797716283
-# 930507207
 # 1152906106
 # 2188899949
 # 4211468998
 
 ### RTPC/GAME-VARIABLE NAMES (Enm_Em1600.bnk)
 GP_Enm_Common_EnemyGrabCoreRate_01
-# 948339136
-# 816375531
-# 799417321
 
 ### VARIABLE NAMES (Enm_Em1600.bnk)
 ST_Sys_Win_DualSense
@@ -3493,32 +3604,7 @@ Enm_Em1700_Ve_spec_Wind_Shot_2nd_Charge_01_Play
 Enm_Em1700_Ve_Transform_Start_01_Play
 
 ### SFX NAMES (Enm_Em1700.bnk)
-# 140115424
-# 704304564
-# 706243755
-# 892885552
-# 399426463
-# 248606972
-# 1016729199
-# 933782275
-# 272332905
-# 1023667887
-# 778101261
-# 845965065
-# 662144684
-# 775139629
-# 573173152
-# 497614854
-# 611642866
-# 105276375
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (Enm_Em1700.bnk)
-# 1001326491
-# 756764345
-# 788659938
-# 901370336
-# 576319068
 
 ### VARIABLE NAMES (Enm_Em1700.bnk)
 ST_Sys_Win_DualSense
@@ -3575,14 +3661,6 @@ Enm_Em1800_Ve_EV_event_110_03_Play
 Enm_Em1800_Ve_Roaming_01_Play
 
 ### SFX NAMES (Enm_Em1800.bnk)
-# 859204776
-# 6309394
-# 823688806
-# 571277886
-# 540923430
-# 292377536
-# 838859462
-# 377241489
 # 1152906106
 # 2188899949
 # 4211468998
@@ -3590,8 +3668,6 @@ Enm_Em1800_Ve_Roaming_01_Play
 ### RTPC/GAME-VARIABLE NAMES (Enm_Em1800.bnk)
 GP_Enm_Common_EnemyGrabCoreRate_01
 GP_Enm_Em1800_Priority_Distance_01
-# 871455827
-# 813407844
 
 ### VARIABLE NAMES (Enm_Em1800.bnk)
 ST_Sys_Win_DualSense
@@ -3692,56 +3768,6 @@ Enm_Em1900_Ve_Growl_01_Play
 GP_Enm_Common_GrabCoreRate_Set_Game_Parameter_Boss_Start
 
 ### SFX NAMES (Enm_Em1900.bnk)
-# 532852539
-# 1012466424
-# 322312959
-# 352424672
-# 141428668
-# 816723921
-# 954939491
-# 904633340
-# 365394612
-# 590643060
-# 891093400
-# 116841273
-# 663402432
-# 777631636
-# 709687223
-# 622510919
-# 26853828
-# 233581413
-# 23403225
-# 611828189
-# 881328716
-# 108515411
-# 870527530
-# 810508456
-# 956672927
-# 720643238
-# 378478172
-# 35455789
-# 162185833
-# 454049672
-# 805697298
-# 236467863
-# 996096951
-# 944838476
-# 342287717
-# 315662970
-# 820230922
-# 171995911
-# 976106074
-# 811942196
-# 447360638
-# 918573512
-# 895226329
-# 329742257
-# 535405161
-# 968236494
-# 290375511
-# 50386446
-# 366860338
-# 609900927
 # 1152906106
 # 2188899949
 # 4211468998
@@ -3751,9 +3777,6 @@ GP_Enm_Common_EnemyGrabCoreRate_01
 GP_Enm_Em0300_NoroiBall_Distance_01
 GP_Enm_Em1800_Priority_Distance_01
 GP_pl_GrabCoreRate
-# 816375531
-# 125788525
-# 799417321
 
 ### VARIABLE NAMES (Enm_Em1900.bnk)
 ST_Sys_Win_DualSense
@@ -3785,18 +3808,6 @@ Enm_Em2100_Ve_Roaming_01_Play
 Enm_Em2100_Ve_SuicideAttack_01_Play
 
 ### SFX NAMES (Enm_Em2100.bnk)
-# 479655712
-# 858290479
-# 139510154
-# 1040310778
-# 896061116
-# 726713183
-# 321478051
-# 912275280
-# 508981592
-# 323501988
-# 179403726
-# 929020230
 # 1007506615
 # 2942942699
 # 4211468998
@@ -3805,7 +3816,6 @@ Enm_Em2100_Ve_SuicideAttack_01_Play
 GP_BIP_Distance_5000
 GP_Enm_Common_Distance_3000_01
 GP_Enm_Em1300_Priority_Distance_01
-# 816375531
 
 ### VARIABLE NAMES (Enm_Em2100.bnk)
 ST_Sys_Win_DualSense
@@ -3818,6 +3828,361 @@ ST_Sys_Win_DualSense_ON
 SW_Enm_Common_Search_Caution
 SW_Enm_Common_Search_Danger
 SW_Enm_Common_Search_Flee
+
+### EVENT NAMES (Enm_Em2300.bnk)
+enm_em2300_se_atk_shockwave_impact_Play
+enm_em2300_se_atk_shockwave_ready_Play
+enm_em2300_se_mvmt_idle_Play
+enm_em2300_se_mvmt_idle_Stop
+enm_em2300_se_mvmt_step_Play
+
+### SFX NAMES (Enm_Em2300.bnk)
+Enm_Em2300_SideChain
+
+### RTPC/GAME-VARIABLE NAMES (Enm_Em2300.bnk)
+Enm_Em2300_SideChain
+
+### EVENT NAMES (Enm_Em2400.bnk)
+enm_em2400_se_act_bodyfall_strong_Play
+enm_em2400_se_act_bodyfall_weak_Play
+enm_em2400_se_act_bodyhide_01_Play
+enm_em2400_se_act_bodyhide_02_Play
+enm_em2400_se_atk_telekinesis_01_appear_Play
+enm_em2400_se_atk_telekinesis_02_noise_Play
+enm_em2400_se_atk_telekinesis_03_launch_Play
+enm_em2400_se_atk_telekinesis_04_end_Play
+enm_em2400_se_fs_default_Play
+enm_em2400_se_fs_strong_Play
+enm_em2400_se_mvmt_body_long_Play
+enm_em2400_se_mvmt_body_short_Play
+enm_em2400_ve_act_laugh_Play
+enm_em2400_ve_atk_breath_Play
+enm_em2400_ve_atk_scream_Play
+enm_em2400_ve_dmg_bodyfall_Play
+enm_em2400_ve_dmg_breath_recovery_Play
+Enm_em2400_ve_dmg_CoreDamage_start_NoSync_Play
+Enm_em2400_ve_dmg_CoreDamage_start_Play
+enm_em2400_ve_dmg_death_Play
+enm_em2400_ve_dmg_normal_Play
+enm_em2400_ve_dmg_strong_Play
+enm_em2400_ve_dmg_weak_Play
+enm_em2400_ve_idle_breath_Play
+
+### SFX NAMES (Enm_Em2400.bnk)
+# 1152906106
+# 2188899949
+# 2188899950
+# 2563349399
+# 4211468998
+
+### RTPC/GAME-VARIABLE NAMES (Enm_Em2400.bnk)
+GP_Enm_Common_EnemyGrabCoreRate_01
+GP_pl_GrabCoreRate
+
+### VARIABLE NAMES (Enm_Em2400.bnk)
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (Enm_Em2400.bnk)
+None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+
+### EVENT NAMES (Enm_Em2401.bnk)
+enm_em2401_se_act_bodyfall_strong_Play
+enm_em2401_se_act_bodyfall_weak_Play
+enm_em2401_se_act_bodyhide_01_Play
+enm_em2401_se_act_bodyhide_02_Play
+enm_em2401_se_fs_default_Play
+enm_em2401_se_mvmt_body_long_Play
+enm_em2401_se_mvmt_body_short_Play
+enm_em2401_ve_act_laugh_Play
+enm_em2401_ve_atk_breath_Play
+enm_em2401_ve_atk_scream_Play
+enm_em2401_ve_dmg_bodyfall_Play
+enm_em2401_ve_dmg_breath_recovery_Play
+Enm_em2401_ve_dmg_CoreDamage_start_NoSync_Play
+Enm_em2401_ve_dmg_CoreDamage_start_Play
+enm_em2401_ve_dmg_death_Play
+enm_em2401_ve_dmg_normal_Play
+enm_em2401_ve_dmg_strong_Play
+enm_em2401_ve_dmg_weak_Play
+enm_em2401_ve_idle_breath_Play
+
+### SFX NAMES (Enm_Em2401.bnk)
+# 1152906106
+# 2188899949
+# 2188899950
+# 2563349399
+# 4211468998
+
+### RTPC/GAME-VARIABLE NAMES (Enm_Em2401.bnk)
+GP_Enm_Common_EnemyGrabCoreRate_01
+GP_pl_GrabCoreRate
+
+### VARIABLE NAMES (Enm_Em2401.bnk)
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (Enm_Em2401.bnk)
+None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+
+### EVENT NAMES (Enm_Em2500.bnk)
+enm_em2500_se_atk_Damage_Stop
+enm_em2500_se_atk_drillatack_end_Play
+enm_em2500_se_atk_drillatack_prepare_Play
+enm_em2500_se_atk_drillatack_ready_Play
+enm_em2500_se_atk_drillatack_start_Play
+enm_em2500_se_atk_knifeshot_bullet_hit_Play
+enm_em2500_se_atk_knifeshot_end_Play
+enm_em2500_se_atk_knifeshot_launch_Play
+enm_em2500_se_atk_knifeshot_start_Play
+enm_em2500_se_atk_reflection_rolling_01_Play
+enm_em2500_se_atk_spinatack_end_Play
+enm_em2500_se_atk_spinatack_ready_Play
+enm_em2500_se_atk_spinatack_start_Play
+enm_em2500_se_defense_rolling_Play
+enm_em2500_se_mvmt_FoOmen_Wind_01_Play
+enm_em2500_se_mvmt_FoOmen_Wind_01_Stop
+enm_em2500_se_mvmt_idle_cloth_Play
+enm_em2500_se_mvmt_idle_cutlery_Play
+enm_em2500_se_warp_start_Play
+Enm_em2500_Ve_Approach_Play
+Enm_Em2500_Ve_Attack_KnifeShot_Ready_Play
+Enm_Em2500_Ve_Attack_KnifeShot_Start_Play
+Enm_Em2500_Ve_Attack_Tuckle_Ready_Play
+Enm_Em2500_Ve_Attack_Tuckle_Start_Play
+Enm_Em2500_Ve_CoreAppear_Play
+Enm_em2500_Ve_CoreDamage_Play
+Enm_Em2500_Ve_Damage_Burn_Play
+Enm_Em2500_Ve_Damage_Stagger_Play
+Enm_em2500_Ve_Damage_Strong_Play
+Enm_Em2500_Ve_Damage_Weak_Play
+Enm_em2500_Ve_Find_Play
+Enm_em2500_Ve_Roaming_Play
+Enm_em2500_Ve_Stop
+
+### SFX NAMES (Enm_Em2500.bnk)
+Enm_Em2300_SideChain
+# 1007506615
+# 1152906106
+# 2188899949
+# 4211468998
+
+### RTPC/GAME-VARIABLE NAMES (Enm_Em2500.bnk)
+GP_BIP_Distance_10000
+GP_BIP_Distance_7000_NoInterpolation
+GP_Enm_Common_EnemyGrabCoreRate_01
+
+### VARIABLE NAMES (Enm_Em2500.bnk)
+ST_Sys_Win_DualSense
+SW_Enm_Common_Search
+
+### VALUE NAMES (Enm_Em2500.bnk)
+None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+SW_Enm_Common_Search_Caution
+SW_Enm_Common_Search_Danger
+SW_Enm_Common_Search_Flee
+
+### EVENT NAMES (Enm_Em2600.bnk)
+enm_em2600_se_atk_mudshot_bullet_delete_Play
+enm_em2600_se_atk_mudshot_bullet_hit_Play
+enm_em2600_se_atk_mudshot_bullet_startPlay
+enm_em2600_se_atk_mudshot_launch_Play
+enm_em2600_se_atk_somersault_horizontal_start_Play
+enm_em2600_se_atk_somersault_jump_Play
+enm_em2600_se_atk_somersault_splash_Play
+enm_em2600_se_atk_somersault_start_Play
+enm_em2600_se_atk_tackle_start_Play
+enm_em2600_se_atk_tuckle_end_splash_Play
+enm_em2600_se_atk_tuckle_prepare_swish_Play
+enm_em2600_se_mvmt_ripple_delete_Play
+enm_em2600_se_mvmt_ripple_end_Play
+enm_em2600_se_mvmt_ripple_start_Play
+enm_em2600_se_mvmt_water_bodyfall_01_Play
+enm_em2600_se_mvmt_water_dive_start_Play
+enm_em2600_se_mvmt_water_jump_start_Play
+enm_em2600_se_mvmt_water_ripple_loop_stop_Play
+enm_em2600_se_mvmt_water_ripple_loop_stop_Stop
+enm_em2600_se_mvmt_water_slow_out_Play
+Enm_em2600_Ve_Approach_Play
+Enm_Em2600_Ve_Attack_MudShot_Ready_Play
+Enm_Em2600_Ve_Attack_MudShot_Start_Play
+Enm_Em2600_Ve_Attack_Somersault_Play
+Enm_Em2600_Ve_Attack_Tuckle_Ready_Play
+Enm_Em2600_Ve_Attack_Tuckle_Start_Play
+Enm_Em2600_Ve_CoreAppear_Play
+Enm_em2600_Ve_CoreDamage_NoSync_Play
+Enm_em2600_Ve_CoreDamage_Play
+Enm_Em2600_Ve_Damage_Burn_Play
+Enm_Em2600_Ve_Damage_Stagger_Play
+Enm_em2600_Ve_Damage_Strong_Play
+Enm_Em2600_Ve_Damage_Weak_Play
+Enm_em2600_Ve_Find_Play
+Enm_em2600_Ve_Roaming_Play
+Enm_em2600_Ve_Stop
+
+### SFX NAMES (Enm_Em2600.bnk)
+Enm_Em2300_SideChain
+# 1007506615
+# 1152906106
+# 2188899949
+# 2188899950
+# 4211468998
+
+### RTPC/GAME-VARIABLE NAMES (Enm_Em2600.bnk)
+GP_BIP_Distance_10000
+GP_BIP_Distance_7000_NoInterpolation
+GP_Enm_Common_EnemyGrabCoreRate_01
+GP_pl_GrabCoreRate
+
+### VARIABLE NAMES (Enm_Em2600.bnk)
+ST_Sys_Win_DualSense
+SW_Enm_Common_Search
+
+### VALUE NAMES (Enm_Em2600.bnk)
+None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+SW_Enm_Common_Search_Caution
+SW_Enm_Common_Search_Danger
+SW_Enm_Common_Search_Flee
+
+### EVENT NAMES (Enm_Em2700.bnk)
+Enm_Em2700_Se_Atk_Catch_01_Play
+Enm_Em2700_Se_Atk_Catch_02_Play
+Enm_Em2700_Se_Atk_Catch_DollParts_01_Play
+Enm_Em2700_Se_Atk_Catch_Drone_Rise_01_Play
+Enm_Em2700_Se_Atk_Catch_Finish_impact_01_Play
+Enm_Em2700_Se_Atk_Catch_Start_Drone_01_Play
+Enm_Em2700_Se_dmg_break_body_01_Play
+enm_em2700_se_fs_run_Play
+enm_em2700_se_fs_walk_Play
+Enm_Em2700_Se_Mvmt_CatchHeart_01_Play
+Enm_Em2700_Se_Mvmt_clash_debris_01_Play
+Enm_Em2700_Se_Mvmt_clash_impact_01_Play
+Enm_Em2700_Se_Mvmt_ClothMove_01_Play
+Enm_Em2700_Se_Mvmt_DoorKnock_01_Play
+Enm_Em2700_Ve_Atk_Catch_01_Play
+Enm_Em2700_Ve_idle_01_Play
+Enm_Em2700_Ve_idle_Stop_01_Play
+Enm_Em2700_Ve_mvmt_short_strong_01_Play
+Enm_Em2700_Ve_mvmt_short_weak_01_Play
+Enm_Em2700_Ve_mvmt_walk_01_Play
+Enm_Em2700_Ve_mvmt_walk_Short_01_Play
+Enm_Em2700_Ve_mvmt_walk_Stop_01_Play
+Enm_Em2700_Ve_stop_01_Play
+
+### SFX NAMES (Enm_Em2700.bnk)
+# 4211468998
+
+### VARIABLE NAMES (Enm_Em2700.bnk)
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (Enm_Em2700.bnk)
+None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+
+### EVENT NAMES (Enm_Em2800.bnk)
+Enm_Em2800_Aura_loop_Start_01_Play
+Enm_Em2800_Aura_loop_Stop_01_Play
+Enm_Em2800_Purge_Damage_01_Play
+Enm_Em2800_Se_Approach_Sign_Play
+Enm_Em2800_Se_Atk_Catch_01_Play
+Enm_Em2800_Se_Atk_Catch_Finish_ImpactWhoosh_01_Play
+Enm_Em2800_Se_Atk_Catch_Knife_Impact_01_Play
+Enm_Em2800_Se_Atk_Catch_Knife_Move_01_Play
+Enm_Em2800_Se_Atk_Catch_Ora_01_Play
+Enm_Em2800_Se_Atk_Catch_Rise_01_Play
+Enm_Em2800_Se_Atk_Catch_Start_Impact_01_Play
+Enm_em2800_Se_Decl_Effects_JintaiEnd_01_Play
+Enm_em2800_Se_Decl_Effects_JintaiStart_01_Play
+Enm_em2800_Se_Decl_Effects_LightON_01_Play
+Enm_em2800_Se_Decl_Effects_Noise_Start_01_Play
+Enm_em2800_Se_Decl_Effects_OFFFirst_01_Play
+Enm_em2800_Se_Decl_Effects_ONFirst_01_Play
+Enm_em2800_Se_Decl_Effects_PowerOn_01_Play
+Enm_Em2800_Se_Mvmt_Roaming_01_Play
+Enm_Em2800_Se_Window_appear_01_Play
+Enm_Em2800_Se_Window_appear_end_01_Play
+Enm_Em2800_Se_Window_appear_impact_01_Play
+Enm_Em2800_Ve_Atk_Catch_01_Play
+Enm_Em2800_Ve_mvmt_Apper_Short_01_Play
+Enm_Em2800_Ve_mvmt_Idle_Cry_BeforeSeal_01_Play
+Enm_Em2800_Ve_mvmt_Idle_Cry_Long_01_Play
+Enm_Em2800_Ve_mvmt_Idle_Cry_Nomal_01_Play
+Enm_Em2800_Ve_mvmt_Walk_Cry_Short_01_Play
+Enm_Em2800_Ve_Purge_Damage_01_Play
+enm_em2800norm_se_fs_backstep_Play
+enm_em2800norm_se_fs_walk_Play
+GS_GameScene_Scene_GameOver_Hanako_Enter
+
+### SFX NAMES (Enm_Em2800.bnk)
+# 4211468998
+
+### VARIABLE NAMES (Enm_Em2800.bnk)
+ST_GS_GameScene_Scene
+ST_Mu_IM_00_Enemy
+ST_Mu_IM_01_Scene
+ST_Mu_IM_04_MM_GSeq
+ST_Mu_IM_05_SM_GSeq
+ST_Mu_IM_06_Specific_CS
+ST_pl_Foliage
+ST_sp_Story_School_Floor
+ST_sp_Story_School_Hanako_Gym
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (Enm_Em2800.bnk)
+None
+ST_GS_GS_Dead
+ST_Mu_IM_00_a_Lost
+ST_Mu_IM_01_e_GameOver
+ST_Mu_IM_04_MM_GSeq_z_NoMusic
+ST_Mu_IM_05_SM_GSeq_z_NoMusic
+ST_Mu_IM_06_Specific_CS_OFF
+ST_pl_Foliage_Out
+ST_sp_Story_School_Floor_Another_Gym
+ST_sp_Story_School_Floor_Another_Hallway
+ST_sp_Story_School_Floor_East_3F
+ST_sp_Story_School_Floor_East_4F
+ST_sp_Story_School_Floor_Hanako03_1F
+ST_sp_Story_School_Floor_Hanako03_2F
+ST_sp_Story_School_Floor_Hanako04_Classroom
+ST_sp_Story_School_Floor_Hanako04_Duct
+ST_sp_Story_School_Floor_Hanako04_Hallway
+ST_sp_Story_School_Floor_None
+ST_sp_Story_School_Floor_West_2F
+ST_sp_Story_School_Floor_West_3F
+ST_sp_Story_School_Hanako_Gym_Hide
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+
+### EVENT NAMES (Enm_Em2800_Big.bnk)
+enm_em2800_se_appear_whoosh_Play
+enm_em2800_se_dmg_seal_Play
+enm_em2800_ve_dmg_defeated_Play
+enm_em2800_ve_dmg_seal_breath_Play
+enm_em2800_ve_dmg_seal_death_Play
+enm_em2800_ve_idle_cry_Play
+enm_em2800_ve_idle_suffer_Play
+enm_em2800_ve_scream_cover_face_Play
+enm_em2800_ve_scream_start_Play
+enm_em2800_ve_scream_summon_ready_Play
+enm_em2800_ve_scream_summon_start_Play
+
+### SFX NAMES (Enm_Em2800_Big.bnk)
+# 4211468998
+
+### VARIABLE NAMES (Enm_Em2800_Big.bnk)
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (Enm_Em2800_Big.bnk)
+None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
 
 ### EVENT NAMES (Enm_Em5000.bnk)
 Enm_Em5000_Se_Atk_BowDown_01_Play
@@ -3877,9 +4242,6 @@ m3
 ### EVENT NAMES (Enm_Em5900.bnk)
 Enm_Em5900_Se_Mvmt_ClothMove_01_Play
 Enm_Em590_Se_Atk_RinkoAbsorb_Start_01_Play
-
-### RTPC/GAME-VARIABLE NAMES (Enm_Em5900.bnk)
-# 596366567
 
 ### EVENT NAMES (Global_Common.bnk)
 __amb_param_all_init
@@ -4193,20 +4555,7 @@ UI_MENU_CLOSE_FILTER_OFF
 ui_menu_main_pause_close_back_to_title_Play
 
 ### SFX NAMES (Global_Common.bnk)
-# 475304742
-# 120922725
-# 926718800
-# 860559301
-# 2734008
-# 209055474
-# 344609754
-# 612741434
-# 521746542
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (Global_Common.bnk)
-# 262158113
-# 587622914
 
 ### VARIABLE NAMES (Global_Common.bnk)
 ST_Act_Telephone
@@ -4584,449 +4933,6 @@ ST_Voice_Agitation_Volume_Down
 ST_Voice_Agitation_Volume_Normal
 ST_Voice_Akito_Fx_None
 
-### SFX NAMES (Init.bnk)
-controller_speaker
-ForestAuterlitz_DenseFar
-hall_medium
-Have_U_Ever_Been_Outside
-holy
-LongAndComplex
-Medium
-No_Output
-Room_Medium
-system
-Wwise_Motion
-# 1432593845
-# 28723687
-# 36679800
-# 82277919
-# 99054069
-# 107116043
-# 135311628
-# 169962558
-# 195474678
-# 224701371
-# 235113299
-# 248544926
-# 261543112
-# 278121890
-# 298224591
-# 336966546
-# 387423869
-# 391547185
-# 400731317
-# 412650824
-# 478407549
-# 480653707
-# 494547224
-# 497757501
-# 532546011
-# 559784055
-# 585125499
-# 663160679
-# 679790745
-# 691250044
-# 720837031
-# 754526406
-# 784899702
-# 798818457
-# 804830024
-# 813351901
-# 823109101
-# 823912678
-# 932086862
-# 936288333
-# 946372837
-# 960594772
-# 984841173
-# 991951147
-# 1000419800
-# 1033174405
-# 1040480738
-# 1100345995
-# 1108154797
-# 1125579271
-# 1166936936
-# 1234277274
-# 1244714937
-# 1258964028
-# 1274573191
-# 1290096653
-# 1299111709
-# 1306035844
-# 1318349763
-# 1399516959
-# 1485979282
-# 1506576982
-# 1527532042
-# 1537538087
-# 1569806316
-# 1622422854
-# 1701903313
-# 1703529787
-# 1721806720
-# 1772442993
-# 1823357243
-# 1830108978
-# 1849039385
-# 1931168466
-# 1978790598
-# 2001024141
-# 2007725498
-# 2040935541
-# 2127834056
-# 2148178328
-# 2167959577
-# 2177516046
-# 2177516047
-# 2195953399
-# 2197666084
-# 2252750433
-# 2285782669
-# 2303688370
-# 2311837429
-# 2314111634
-# 2320867936
-# 2326403442
-# 2337483328
-# 2354632330
-# 2466617708
-# 2466848038
-# 2466848039
-# 2469760746
-# 2505685638
-# 2666561263
-# 2667980852
-# 2719859742
-# 2742239645
-# 2785581541
-# 2814115370
-# 2814115371
-# 2849476042
-# 2871588180
-# 2882226195
-# 2931971480
-# 3007367475
-# 3021329929
-# 3028026602
-# 3039245556
-# 3042854775
-# 3044384869
-# 3161053973
-# 3168363213
-# 3216725324
-# 3242742559
-# 3269648780
-# 3297735907
-# 3309202571
-# 3341092911
-# 3344484765
-# 3349307176
-# 3395683808
-# 3457752905
-# 3507878764
-# 3525108872
-# 3557017067
-# 3558148276
-# 3571630143
-# 3571686417
-# 3574962352
-# 3589690690
-# 3670170880
-# 3799399701
-# 4038119872
-# 4071221279
-# 4099562668
-# 4194305592
-# 4211468998
-# 4217201903
-# 4279577370
-# 4282972269
-# 4290342227
-
-### RTPC/GAME-VARIABLE NAMES (Init.bnk)
-GP_ALL_BGM
-GP_ALL_Dialog
-GP_ALL_Master
-GP_ALL_SE
-GP_Amb_Insect_Density
-GP_Anim_Crow_VAT_Camp01
-GP_Anim_Crow_VAT_Camp02
-GP_Anim_Crow_VAT_Camp04
-GP_Anim_Crow_VAT_Camp06
-GP_Anim_Crow_VAT_QE0750
-GP_Anim_Crow_VAT_QE0780
-GP_BIP_azimuth
-GP_BIP_Diffraction
-GP_BIP_Distance_10000
-GP_BIP_Distance_5000
-GP_BIP_Elevation
-GP_BIP_ListenerCone
-GP_BIP_obstruction
-GP_BIP_occlusion
-GP_Diegetic_All_Volume
-GP_Diegetic_Pitch_LFO_01
-GP_Enm_Common_Distance_3000_01
-GP_Enm_Common_EnemyGrabCoreRate_01
-GP_Enm_Em0000_Distance_3000_01
-GP_Enm_Em0000_Priority_Distance_01
-GP_Enm_Em0200_Compass_Distance_01
-GP_Enm_Em0200_Phone_Distance_01_7500
-GP_Enm_Em0200_Priority_Distance_01
-GP_Enm_Em0300_NoroiBall_Distance_01
-GP_Enm_Em0400_Priority_Distance_01
-GP_Enm_Em1000_Priority_Distance_01
-GP_Enm_Em1100_Priority_Distance_01
-GP_Enm_Em1300_Pitch_Distance_01
-GP_Enm_Em1300_Priority_Distance_01
-GP_Enm_Em1800_Priority_Distance_01
-GP_Enm_Sign_Distance_em0000
-GP_EventFastForward
-GP_Game_Camera_Height
-GP_Game_Fear_Distance
-GP_Game_Fog_Density
-GP_Game_Wind_Direction
-GP_Game_Wind_Speed
-GP_Mu_All_SideChain
-GP_NPC_ch3001_Visibility
-GP_NPC_Evil_Binded
-GP_NPC_GhostFx
-GP_Obj_Gondola_MoveSpeed
-GP_Obj_Items_Brbl_Blackthing
-GP_Obj_Light_Flicker_Curve
-GP_Obj_Physics_Fall_Velocity
-GP_Obj_Physics_Hit_Velocity
-GP_Obj_Physics_Scrape_Velocity
-GP_pl_GrabCoreRate
-GP_pl_GrabSpeedScale
-GP_pl_HP
-GP_sp_act_kegare_core_appear
-GP_sp_para_noroisentence
-GP_Sp_Para_Post_Noise
-GP_sp_story_QE0840_GhostPurge
-GP_UI_Camera_Zoom_Ratio
-GP_UI_Map_Zoom_Ratio
-GP_UR_position
-GP_Voice_Agitation_Volume
-GP_Voice_Akito_Fx
-GP_VoiceSC_Vo_All
-GP_VoiceSC_Vo_Main
-GP_Wpn_Gun_Num_Of_Bullets
-playback_rate
-RPM
-# 108481257
-# 933330913
-# 1250254495
-# 1369856811
-# 1521010051
-# 1731072862
-# 1755710229
-# 1836327243
-# 1933746314
-# 1958462624
-# 1958462654
-# 2159794114
-# 2159794140
-# 2230068972
-# 2339258603
-# 2608205184
-# 2714375683
-# 3027603694
-# 3877586844
-# 4040657580
-# 4066368863
-# 4183217915
-# 4243873192
-# 4275056893
-# 284546956
-
-### VARIABLE NAMES (Init.bnk)
-ST_Act_Telephone
-ST_ALL_ControllerSpeaker
-ST_ALL_Vibration
-ST_Amb_Beds
-ST_Amb_Beds_Astral
-ST_Amb_Beds_Astral_Utena_FakeRinko
-ST_Amb_Beds_Astral_Utena_KappaSewers
-ST_Amb_Beds_Astral_Utena_Shrine
-ST_Amb_Beds_Daidara
-ST_Amb_Beds_Ext
-ST_Amb_Beds_Int
-ST_Amb_Beds_Int_Sentou
-ST_Amb_Beds_Int_Tenant
-ST_Amb_Beds_Int_TokyoTower
-ST_Amb_Beds_UG
-ST_Amb_Enemy
-ST_Amb_Lyr_Astral_Utena_Shrine_Maze
-ST_Amb_Lyr_District
-ST_Amb_Lyr_Zone_Common
-ST_Amb_Lyr_Zone_Elevator
-ST_CS_Common
-ST_Dgt_Tenant
-ST_GS_GameEnv_Time
-ST_GS_GameEnv_Weather
-ST_GS_GameScene_Area_SBY
-ST_GS_GameScene_Scene
-ST_GS_GameScene_Situation
-ST_GS_GameScene_Space
-ST_GS_GameScene_World
-ST_Mu_IM_00_Enemy
-ST_Mu_IM_01_Scene
-ST_Mu_IM_02_Play
-ST_Mu_IM_03_Situation
-ST_Mu_IM_04_MM_GSeq
-ST_Mu_IM_05_SM_GSeq
-ST_Mu_IM_06_Specific_CS
-ST_pl_Action
-ST_pl_Battle
-ST_pl_Foliage
-ST_pl_fs_unique
-ST_pl_HP
-ST_pl_Position
-ST_pl_Scan
-ST_sp_com_tutorial
-ST_sp_hannya_agitation
-ST_Sp_Para_Post_Noise
-ST_sp_Story_MM0011
-ST_sp_story_qe0600
-ST_Sp_Story_QE0710_Hospital
-ST_sp_Story_QE0840
-ST_Sys_Win_DualSense
-ST_UI_Menu
-ST_UI_PhotoMode
-ST_UR_CS
-ST_Voice_Agitation_Volume
-ST_Voice_Akito_Fx
-ST_Wpn_Fire_Lv
-ST_Wpn_Selection
-SW_Anim_am0000_FlyUp_VAT_Camp01
-SW_Anim_am0000_FlyUp_VAT_Camp02
-SW_Anim_am0000_FlyUp_VAT_Camp04
-SW_Anim_am0000_FlyUp_VAT_Camp06
-SW_Anim_am0000_FlyUp_VAT_QE0750
-SW_Anim_am0000_FlyUp_VAT_QE0780
-SW_Game_Camera_Height
-SW_Game_Fear
-SW_Game_Fog_Density
-SW_Wpn_Gun_Ammo_Count
-# 3408456998
-# 501054116
-# 2474566488
-# 902935401
-# 2025519698
-
-### VALUE NAMES (Init.bnk)
-None
-ST_Act_Telephone_Awaken
-ST_Act_Telephone_Dizziness
-ST_ALL_ControllerSpeaker_OFF
-ST_ALL_Vibration_OFF
-ST_Amb_Beds_Astral
-ST_Amb_Beds_Daidara
-ST_Amb_Beds_Daidara_01_Hospital
-ST_Amb_Beds_Daidara_02_House
-ST_Amb_Beds_Daidara_05_Train
-ST_Amb_Beds_Daidara_06_Shop109
-ST_Amb_Beds_Daidara_08_HospitalRoom
-ST_Amb_Beds_Daidara_10_CoinLaundry
-ST_Amb_Beds_Daidara_11_Comvini
-ST_Amb_Beds_Daidara_13_Apartment
-ST_Amb_Beds_Daidara_14_AbandonnedBuilding
-ST_Amb_Beds_Ext
-ST_Amb_Beds_Int
-ST_Amb_Beds_Int_Car_Parking
-ST_Amb_Beds_Int_Cave
-ST_Amb_Beds_Int_Collapsed
-ST_Amb_Beds_Int_Com
-ST_Amb_Beds_Int_Hospital
-ST_Amb_Beds_Int_KKRoom
-ST_Amb_Beds_Int_Sentou
-ST_Amb_Beds_Int_Tenant
-ST_Amb_Beds_Int_Tower
-ST_Amb_Beds_UG
-ST_Amb_Enemy_FIND
-ST_Amb_Enemy_LOST
-ST_Amb_Lyr_Zone_Com_Closed_Large
-ST_Amb_Lyr_Zone_Com_Closed_Medium
-ST_Amb_Lyr_Zone_Com_Closed_Small
-ST_Amb_Lyr_Zone_Com_OFF
-ST_Amb_Lyr_Zone_Com_Open_Huge
-ST_Amb_Lyr_Zone_Com_Open_Large
-ST_Amb_Lyr_Zone_Com_Open_Medium
-ST_Amb_Lyr_Zone_Com_Open_Small
-ST_Amb_Lyr_Zone_Elevater_Inside
-ST_Amb_Lyr_Zone_Elevator_Outside
-ST_CS_Com_End
-ST_CS_CS_Start
-ST_CS_EV0223_Start
-ST_CS_EV_Start
-ST_CS_EVQE_Start
-ST_CS_ShrinePurge_Start
-ST_Dgt_Tenant_Convini
-ST_Dgt_Tenant_Ext_Com
-ST_GS_GameScene_World_UG
-ST_GS_GE_Time_Day
-ST_GS_GE_Wx_HyakkiRainy
-ST_GS_GE_Wx_InverseRain
-ST_GS_GE_Wx_Rainy
-ST_GS_GE_Wx_Snowy
-ST_GS_GE_Wx_Stormy
-ST_GS_GS_Area_DIM
-ST_GS_GS_Area_SBY_Fuchihashi
-ST_GS_GS_Area_SBY_Ginpei
-ST_GS_GS_Area_SBY_Kannami
-ST_GS_GS_Area_SBY_Kirigaoka
-ST_GS_GS_Area_SBY_Mitake
-ST_GS_GS_Area_SBY_Miya
-ST_GS_GS_Area_SBY_None
-ST_GS_GS_Area_SBY_Sengoku
-ST_GS_GS_Area_SBY_Tsukinami
-ST_GS_GS_Area_SBY_Utagawa
-ST_GS_GS_Area_SBY_Yashin
-ST_GS_GS_Area_SBY_Yugenzaka
-ST_GS_GS_Battle
-ST_GS_GS_Blackout
-ST_GS_GS_Dead
-ST_GS_GS_FastTravel
-ST_GS_GS_FastWarp
-ST_GS_GS_Loading
-ST_GS_GS_None
-ST_GS_GS_Play
-ST_GS_GS_Title
-ST_Mu_IM_01_a_Title
-ST_Mu_IM_03_Phase02_Approach
-ST_Mu_IM_03_Phase03_Search
-ST_pl_Action_Astral
-ST_pl_Action_CleanseTorii
-ST_pl_Action_Inmusubi
-ST_pl_Action_KKMode
-ST_pl_Action_None
-ST_pl_Action_Separation
-ST_pl_Battle_BackStab
-ST_pl_Battle_CoreAbsorb
-ST_pl_Battle_CoreGrab
-ST_pl_Battle_None
-ST_pl_Foliage_In
-ST_pl_Foliage_Out
-ST_pl_HP_Danger
-ST_pl_Position_Sitting
-ST_pl_Position_Standing
-ST_pl_Scan_OFF
-ST_pl_Scan_ON
-ST_sp_com_tutorial_IN
-ST_sp_hannya_agitation_OFF
-ST_sp_hannya_agitation_ON
-ST_Sp_Para_Post_Noise_GrayScale
-ST_Sp_Para_Post_Noise_None
-ST_Sp_Para_Post_Noise_Screentone
-ST_Sys_Win_DualSense_OFF
-ST_UI_Menu_CLOSE
-ST_UI_Menu_OPEN
-ST_UI_Menu_OPEN_Full_OLD
-ST_UI_Menu_OPEN_Half
-ST_UI_Menu_OPEN_Half_wPitch
-ST_UI_PhotoMode_ON
-
 ### EVENT NAMES (Music_Common.bnk)
 _cs_com_all_end_Play
 _cs_com_all_start_Play
@@ -5097,25 +5003,12 @@ ST_Mu_IM_05_SM_GSeq_Common_T_Set_State
 ST_Mu_IM_NoMusic_Set_State
 
 ### SFX NAMES (Music_Common.bnk)
-# 1028303173
-# 858484340
-# 1059308750
-# 356809766
-# 369823635
 # 3135451922
 # 4211468998
 
 ### TRIGGER NAMES (Music_Common.bnk)
 Mu_IM_ME_05_d_Common_B_Tr
 Mu_IM_ME_05_d_Common_I_Tr
-
-### RTPC/GAME-VARIABLE NAMES (Music_Common.bnk)
-# 329228286
-# 294506222
-# 530404316
-# 960385861
-# 896550857
-# 207567036
 
 ### VARIABLE NAMES (Music_Common.bnk)
 ST_Amb_Beds_Int
@@ -5390,162 +5283,6 @@ SW_NPC_VoiceType_Male_C
 SW_NPC_VoiceType_Male_D
 SW_NPC_VoiceType_Male_E
 
-### EVENT NAMES (NPC_GhostCommon.bnk)
-npc_ghost_all_fadeout_Play
-npc_ghost_animal_appear_Play
-npc_ghost_animal_purge_Play
-npc_ghost_common_absorb_cancel_Play
-npc_ghost_common_absorb_complete_Play
-npc_ghost_common_absorb_start_Play
-npc_ghost_common_appear_Play
-npc_ghost_common_fusion_flash_Play
-npc_ghost_common_magatama_spawn_01_Play
-npc_ghost_common_purge_cancel_Play
-npc_ghost_common_purge_complete_Play
-npc_ghost_common_purge_pullout_pile_Play
-npc_ghost_common_purge_start_Play
-npc_ghost_common_talk_noise_Play
-npc_ghost_evil_appear_Play
-npc_ghost_evil_binded_end_Play
-npc_ghost_evil_binded_start_Play
-npc_ghost_evil_purge_pre_start_Play
-npc_ghost_evil_purge_pre_stop_Play
-npc_ghost_evil_purge_start_Play
-npc_ghost_talk_all_Stop
-npc_ghost_talk_boy_10s_01_Play
-npc_ghost_talk_boy_3s_01_Play
-npc_ghost_talk_boy_7s_01_Play
-npc_ghost_talk_female_10s_01_Play
-npc_ghost_talk_female_3s_01_Play
-npc_ghost_talk_female_7s_01_Play
-npc_ghost_talk_girl_10s_01_Play
-npc_ghost_talk_girl_3s_01_Play
-npc_ghost_talk_girl_7s_01_Play
-npc_ghost_talk_male_10s_01_Play
-npc_ghost_talk_male_3s_01_Play
-npc_ghost_talk_male_7s_01_Play
-npc_yokai_common_appear_Play
-ve_npc_ghost_evil_damage_01_Play
-ve_npc_ghost_evil_scream_01_Play
-
-### SFX NAMES (NPC_GhostCommon.bnk)
-# 632688844
-# 120878646
-# 108217173
-# 699904182
-# 237132269
-# 557082408
-# 838078582
-# 84692657
-# 660387049
-# 310657150
-# 2309120930
-# 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (NPC_GhostCommon.bnk)
-GP_NPC_Evil_Binded
-# 923086160
-# 211124044
-# 186976060
-# 806517807
-# 333873714
-# 383571942
-
-### VARIABLE NAMES (NPC_GhostCommon.bnk)
-ST_Sys_Win_DualSense
-SW_NPC_VoiceType
-
-### VALUE NAMES (NPC_GhostCommon.bnk)
-None
-ST_Sys_Win_DualSense_OFF
-ST_Sys_Win_DualSense_ON
-SW_NPC_VoiceType_Female_A
-SW_NPC_VoiceType_Female_B
-SW_NPC_VoiceType_Female_C
-SW_NPC_VoiceType_Female_D
-SW_NPC_VoiceType_Female_E
-SW_NPC_VoiceType_Kids_A
-SW_NPC_VoiceType_Kids_B
-SW_NPC_VoiceType_Male_A
-SW_NPC_VoiceType_Male_B
-SW_NPC_VoiceType_Male_C
-SW_NPC_VoiceType_Male_D
-SW_NPC_VoiceType_Male_E
-
-### EVENT NAMES (NPC_Zashikiwarashi.bnk)
-npc_zashikiwarashi_amb_inside_end_Play
-npc_zashikiwarashi_amb_inside_start_oneshot_Play
-npc_zashikiwarashi_amb_inside_start_Play
-npc_zashikiwarashi_amb_outside_end_Play
-npc_zashikiwarashi_amb_outside_start_loop_Play
-npc_zashikiwarashi_amb_outside_start_oneshot_Play
-VO_NPT_8031_0110_amb_Play
-VO_NPT_8031_0110_amb_Stop
-
-### SFX NAMES (NPC_Zashikiwarashi.bnk)
-# 941003327
-# 762278528
-# 463535447
-# 367956769
-# 161478451
-# 553292805
-# 944794550
-
-### VARIABLE NAMES (NPC_Zashikiwarashi.bnk)
-ST_Mu_IM_05_SM_GSeq
-ST_sp_story_qe0600
-
-### VALUE NAMES (NPC_Zashikiwarashi.bnk)
-None
-ST_Mu_IM_05_SM_GSeq_Common_A
-ST_Mu_IM_05_SM_GSeq_Common_B
-ST_Mu_IM_05_SM_GSeq_Common_C
-ST_Mu_IM_05_SM_GSeq_Common_E
-ST_Mu_IM_05_SM_GSeq_Common_F
-ST_Mu_IM_05_SM_GSeq_Common_G
-ST_Mu_IM_05_SM_GSeq_Common_H
-ST_Mu_IM_05_SM_GSeq_Common_I
-ST_Mu_IM_05_SM_GSeq_Common_J
-ST_Mu_IM_05_SM_GSeq_Common_K_01
-ST_Mu_IM_05_SM_GSeq_Common_K_02
-ST_Mu_IM_05_SM_GSeq_Common_K_03
-ST_Mu_IM_05_SM_GSeq_Common_K_04
-ST_Mu_IM_05_SM_GSeq_Common_L
-ST_Mu_IM_05_SM_GSeq_Common_M
-ST_Mu_IM_05_SM_GSeq_Common_N
-ST_Mu_IM_05_SM_GSeq_Common_O
-ST_Mu_IM_05_SM_GSeq_Common_P_01
-ST_Mu_IM_05_SM_GSeq_Common_P_02
-ST_Mu_IM_05_SM_GSeq_Common_Q
-ST_Mu_IM_05_SM_GSeq_Common_R_01
-ST_Mu_IM_05_SM_GSeq_Common_R_02
-ST_Mu_IM_05_SM_GSeq_Common_S_02
-ST_Mu_IM_05_SM_GSeq_Common_T
-ST_Mu_IM_05_SM_GSeq_Common_T_ALT
-ST_Mu_IM_05_SM_GSeq_Common_U
-ST_Mu_IM_05_SM_GSeq_Common_V
-ST_Mu_IM_05_SM_GSeq_Common_W
-ST_Mu_IM_05_SM_GSeq_Common_X
-ST_Mu_IM_05_SM_GSeq_z_NoMusic
-ST_sp_story_qe0600_00_start
-ST_sp_story_qe0600_01_get_key
-ST_sp_story_qe0600_02_get_map
-ST_sp_story_qe0600_03_scan_tokonoma
-ST_sp_story_qe0600_none
-
-### EVENT NAMES (NPC_ch0500.bnk)
-npc_ch0500_binded_end_Play
-npc_ch0500_binded_start_Play
-npc_ch0500_disappear_Play
-npc_ch0500_flick_end_Play
-npc_ch0500_flick_start_Play
-npc_ch0500_whiteout_Play
-ve_npc_ch0500_MMT_0833_1210_Play
-ve_npc_ch0500_MMT_0833_1510_Play
-
-### SFX NAMES (NPC_ch0500.bnk)
-# 444103303
-
 ### EVENT NAMES (NPC_ch3000.bnk)
 npc_ch3000_amb_end_Play
 npc_ch3000_amb_start_Play
@@ -5594,7 +5331,6 @@ VO_NPT_0086_0610_Play
 
 ### RTPC/GAME-VARIABLE NAMES (NPC_ch3001.bnk)
 GP_NPC_ch3001_Visibility
-# 211124044
 
 ### EVENT NAMES (NPC_ch3002.bnk)
 npc_ch3002_escape_Play
@@ -5612,9 +5348,6 @@ ve_npc_ch3002_ghost_take_Play
 ve_npc_ch3002_idle_Play
 ve_npc_ch3002_mvmt_Play
 ve_npc_ch3002_suprise_Play
-
-### RTPC/GAME-VARIABLE NAMES (NPC_ch3002.bnk)
-# 153757920
 
 ### EVENT NAMES (NPC_ch3003.bnk)
 npc_ch3003_quick_appear_Play
@@ -5638,9 +5371,6 @@ VO_NPT_0087_0310_Play
 VO_NPT_0087_0410_Play
 VO_NPT_0087_0510_Play
 VO_NPT_0087_0610_Play
-
-### SFX NAMES (NPC_ch3003.bnk)
-# 457384337
 
 ### RTPC/GAME-VARIABLE NAMES (NPC_ch3003.bnk)
 GP_BIP_Elevation
@@ -5676,9 +5406,6 @@ VO_QUT_0610_1336_Play
 VO_QUT_0610_1340_Play
 VO_QUT_0611_0710_Play
 
-### SFX NAMES (NPC_ch3005.bnk)
-# 512688089
-
 ### EVENT NAMES (NPC_ch3006.bnk)
 npc_ch3006_footstep_drag_Play
 npc_ch3006_footstep_run_accent_Play
@@ -5694,11 +5421,6 @@ ve_npc_ch3006_idle_Play
 ve_npc_ch3006_paralysis_start_Play
 ve_npc_ch3006_suprise_Play
 
-### SFX NAMES (NPC_ch3006.bnk)
-# 925385826
-# 737341599
-# 815850340
-
 ### EVENT NAMES (NPC_ch3007.bnk)
 npc_ch3007_mvmt_accent_Play
 npc_ch3007_mvmt_escape_Play
@@ -5710,11 +5432,6 @@ ve_npc_ch3007_idle_Play
 ve_npc_ch3007_paralysis_start_Play
 ve_npc_ch3007_suprise_Play
 VO_QUT_0690_0705_Play
-
-### SFX NAMES (NPC_ch3007.bnk)
-# 59884636
-# 527378861
-# 973714949
 
 ### EVENT NAMES (NPC_ch3008.bnk)
 npc_ch3008_fs_run_Play
@@ -5740,11 +5457,6 @@ VO_QUT_0640_0470_Play
 VO_QUT_0640_0471_Play
 VO_QUT_0640_0510_Play
 
-### SFX NAMES (NPC_ch3008.bnk)
-# 1019019554
-# 123919001
-# 343065152
-
 ### EVENT NAMES (NPC_ch3011.bnk)
 npc_ch3011_mvmt_escape_b_Play
 npc_ch3011_mvmt_escape_Play
@@ -5763,11 +5475,6 @@ ve_npc_ch3011_idle_Play
 ve_npc_ch3011_paralysis_start_Play
 ve_npc_ch3011_suprise_Play
 ve_npc_ch3011_walk_Play
-
-### SFX NAMES (NPC_ch3011.bnk)
-# 403786022
-# 308124889
-# 517712303
 
 ### EVENT NAMES (NPC_ch3014.bnk)
 npc_ch3014_mvmt_hand_clap_Play
@@ -5854,16 +5561,17 @@ VO_NPT_8020_2110_Play
 VO_NPT_8020_2210_Play
 VO_NPT_8020_2310_Play
 
-### SFX NAMES (NPC_ch3014.bnk)
-# 147380388
-# 930245212
-
 ### VARIABLE NAMES (NPC_ch3014.bnk)
 ST_Mu_IM_04_MM_GSeq
 
 ### VALUE NAMES (NPC_ch3014.bnk)
 ST_Mu_IM_04_MM_GSeq_031165
 ST_Mu_IM_04_MM_GSeq_031170
+
+### EVENT NAMES (NPC_ch3016.bnk)
+ve_npc_ch3016_face_wash_Play
+ve_npc_ch3016_idle_notice_Play
+ve_npc_ch3016_idle_to_sleep_Play
 
 ### EVENT NAMES (NPC_ma0000.bnk)
 npc_ghost_evil_hammer_loop_Play
@@ -5966,40 +5674,6 @@ obj_vehicle_supercar_bonnet_open_Play
 obj_vendingmachine_idle_01_Play
 
 ### SFX NAMES (Object_Common.bnk)
-# 796480051
-# 709553266
-# 652591075
-# 812767062
-# 233389170
-# 863264319
-# 628690354
-# 622459441
-# 418853540
-# 442752588
-# 151022499
-# 777995133
-# 48130775
-# 929649711
-# 545566319
-# 552674281
-# 520499609
-# 631997623
-# 689947575
-# 389206975
-# 107139569
-# 261992224
-# 1058067700
-# 894225728
-# 359609604
-# 313947712
-# 379191423
-# 895077937
-# 698084902
-# 1033659816
-# 695499197
-# 661813819
-# 276480467
-# 924354836
 # 1040480738
 # 3242742559
 # 4211468998
@@ -6009,21 +5683,6 @@ GP_BIP_Distance_5000
 GP_Obj_Gondola_MoveSpeed
 GP_Obj_Items_Brbl_Blackthing
 GP_Obj_Light_Flicker_Curve
-# 106684859
-# 909150994
-# 301160476
-# 981473150
-# 700888132
-# 54186647
-# 531308969
-# 359514128
-# 977014437
-# 645505239
-# 981255818
-# 428395757
-# 438255621
-# 694022910
-# 947502213
 
 ### VARIABLE NAMES (Object_Common.bnk)
 ST_Amb_Beds_Int
@@ -6237,60 +5896,10 @@ obj_portal_wood_glass_slide_close_Play
 obj_portal_wood_glass_slide_open_Play
 
 ### SFX NAMES (Object_Door.bnk)
-# 1070647927
-# 902106805
-# 621587196
-# 505930437
-# 724879026
-# 787173153
-# 673323565
-# 682469082
-# 964974230
-# 522429833
-# 984398837
-# 218773595
-# 357345632
-# 457981531
-# 173204368
-# 294810413
-# 179813437
-# 1037770056
-# 992498516
-# 954957834
-# 402132404
-# 68528891
-# 427541221
-# 717252701
-# 695653861
-# 778269561
-# 1488984
-# 79378012
-# 48130775
-# 929649711
-# 972798436
-# 590069458
-# 284941587
-# 252397048
-# 1040587120
-# 991909238
-# 545566319
-# 552674281
-# 235339324
-# 307821245
-# 850205397
-# 171091609
-# 988033645
-# 385763385
-# 897187792
-# 436630492
-# 155072905
-# 799496815
 # 4211468998
 
 ### RTPC/GAME-VARIABLE NAMES (Object_Door.bnk)
 GP_BIP_Diffraction
-# 428395757
-# 614017216
 
 ### VARIABLE NAMES (Object_Door.bnk)
 ST_Sys_Win_DualSense
@@ -6423,9 +6032,6 @@ obj_gmk_WoodenWardrobe_close_end_01_Play
 obj_gmk_WoodenWardrobe_close_start_01_Play
 obj_gmk_WoodenWardrobe_open_end_01_Play
 obj_gmk_WoodenWardrobe_open_start_01_Play
-
-### SFX NAMES (Object_Gimmick.bnk)
-# 718771021
 
 ### VARIABLE NAMES (Object_Gimmick.bnk)
 ST_Amb_Enemy
@@ -6608,50 +6214,6 @@ obj_mvbl_wood_common_hit_Play
 obj_mvbl_wood_common_scrape_Play
 
 ### SFX NAMES (Object_Movable.bnk)
-# 216934707
-# 390851453
-# 511780378
-# 768594212
-# 433163261
-# 935562122
-# 558603496
-# 91225949
-# 132353512
-# 601148835
-# 915115156
-# 1071577734
-# 887835766
-# 657428244
-# 119716722
-# 569491229
-# 1005251308
-# 221536361
-# 769188769
-# 694727244
-# 718451515
-# 646015831
-# 716964460
-# 835280564
-# 324264923
-# 808220172
-# 515111784
-# 208349915
-# 201346872
-# 645406725
-# 192344033
-# 320339759
-# 16078241
-# 211362479
-# 827734465
-# 212712750
-# 835972659
-# 430258788
-# 1059340214
-# 56294454
-# 628679021
-# 736179245
-# 117950118
-# 990862403
 # 4211468998
 
 ### RTPC/GAME-VARIABLE NAMES (Object_Movable.bnk)
@@ -6664,6 +6226,32 @@ ST_Sys_Win_DualSense
 
 ### VALUE NAMES (Object_Movable.bnk)
 ST_Sys_Win_DualSense_OFF
+
+### EVENT NAMES (Object_Spider.bnk)
+obj_door_spider_nekomata_close_end_Play
+obj_door_spider_nekomata_close_start_Play
+obj_door_spider_nekomata_open_end_Play
+obj_door_spider_nekomata_open_start_Play
+obj_gmk_spider_moving_platform_end_Play
+obj_gmk_spider_moving_platform_start_Play
+obj_spider_spool_delete_Play
+obj_spider_spool_get_Play
+obj_spider_spool_idle_Play
+pl_act_spider_spool_get_Play
+
+### SFX NAMES (Object_Spider.bnk)
+# 3135451922
+
+### VARIABLE NAMES (Object_Spider.bnk)
+ST_pl_Action
+
+### VALUE NAMES (Object_Spider.bnk)
+ST_pl_Action_Astral
+ST_pl_Action_CleanseTorii
+ST_pl_Action_Inmusubi
+ST_pl_Action_KKMode
+ST_pl_Action_None
+ST_pl_Action_Separation
 
 ### EVENT NAMES (Player_Common.bnk)
 pl_act_catch_stone_01_Play
@@ -6978,206 +6566,6 @@ wm_pl_purge_exorcism_M_stand_ready_01_Play
 wm_pl_purge_exorcism_M_stand_start_01_Play
 
 ### SFX NAMES (Player_Common.bnk)
-tab_icon
-# 185617922
-# 483496279
-# 475304742
-# 695014188
-# 767299381
-# 618998918
-# 940033818
-# 523769439
-# 264477731
-# 578346035
-# 583559789
-# 181140174
-# 1000522392
-# 294770150
-# 212003599
-# 647752440
-# 950959883
-# 453716223
-# 512671614
-# 391691572
-# 223711236
-# 225324309
-# 533673791
-# 729551293
-# 627892591
-# 1073657334
-# 623731881
-# 360243721
-# 268824938
-# 989116938
-# 204561365
-# 236394678
-# 1048551576
-# 634588580
-# 602567874
-# 810907371
-# 1033448314
-# 174515927
-# 754000110
-# 149832949
-# 517251039
-# 542227966
-# 540155794
-# 958633772
-# 542806687
-# 938250605
-# 987507743
-# 484723916
-# 738678155
-# 609190841
-# 139500466
-# 833105227
-# 1002379865
-# 554848049
-# 793008089
-# 691425581
-# 688080198
-# 19095143
-# 116301297
-# 180868776
-# 792426128
-# 378403824
-# 337249274
-# 392191064
-# 465963968
-# 977365493
-# 536189238
-# 589091234
-# 105179706
-# 543188809
-# 633267098
-# 75342454
-# 865397170
-# 270777022
-# 100909276
-# 704748926
-# 370005613
-# 650506562
-# 749471851
-# 852429049
-# 249779994
-# 426860440
-# 764156474
-# 526748943
-# 314322298
-# 853176451
-# 344637674
-# 448770969
-# 850747097
-# 643617202
-# 430745670
-# 961058899
-# 318538929
-# 170151246
-# 1014152109
-# 990181930
-# 242353312
-# 22601018
-# 88571604
-# 839222714
-# 252820462
-# 124908510
-# 842122110
-# 21926086
-# 157119617
-# 503097738
-# 70351085
-# 448763554
-# 307330781
-# 996771928
-# 916937519
-# 131827214
-# 729060663
-# 92344218
-# 46562926
-# 949933635
-# 448866732
-# 871347925
-# 851743995
-# 525364429
-# 973901710
-# 721006590
-# 519424881
-# 43706367
-# 628609600
-# 878374751
-# 964697717
-# 97415471
-# 471826655
-# 783312673
-# 182177107
-# 65298139
-# 761053973
-# 456027550
-# 215307513
-# 355003674
-# 978485737
-# 32887522
-# 235430140
-# 335307224
-# 350098208
-# 349947312
-# 1028299900
-# 875541837
-# 131386976
-# 652179773
-# 358703238
-# 1012796733
-# 998109111
-# 312744366
-# 798618853
-# 104314748
-# 782092669
-# 827711612
-# 277154068
-# 219594256
-# 385175435
-# 639068382
-# 290365962
-# 957485783
-# 381643496
-# 856121095
-# 653706707
-# 1069377321
-# 928232496
-# 446699848
-# 868117623
-# 963656869
-# 154728743
-# 957243318
-# 499922811
-# 269941272
-# 387916034
-# 766612824
-# 269308239
-# 913849507
-# 1016311481
-# 413293749
-# 988451315
-# 362841167
-# 408959488
-# 536811104
-# 764327403
-# 706928273
-# 162165975
-# 238837251
-# 961236595
-# 1008955142
-# 399123558
-# 357728137
-# 844658494
-# 623842335
-# 842939346
-# 1054199088
-# 1064891703
-# 893349995
-# 769241130
-# 1037236085
-# 776604378
 # 990250166
 # 2434953601
 # 3135451922
@@ -7193,104 +6581,6 @@ GP_BIP_Distance_5000
 GP_pl_GrabCoreRate
 GP_pl_GrabSpeedScale
 GP_pl_HP
-# 445046772
-# 504265141
-# 271677879
-# 382812842
-# 909430074
-# 914158213
-# 806561084
-# 202034813
-# 62504151
-# 296209980
-# 549614938
-# 136310626
-# 801463904
-# 284262248
-# 647633229
-# 869672542
-# 341862679
-# 933874264
-# 468705275
-# 742453851
-# 765819909
-# 918297040
-# 447761225
-# 923692396
-# 920798784
-# 332262490
-# 499568416
-# 24133480
-# 676618019
-# 832782083
-# 241901488
-# 842353100
-# 1069042431
-# 35455206
-# 886937824
-# 363585687
-# 103672849
-# 583085033
-# 102656562
-# 250407624
-# 703490947
-# 265801524
-# 823323018
-# 951160585
-# 482653661
-# 222313314
-# 739136385
-# 666257738
-# 928676863
-# 551369018
-# 668351073
-# 534302140
-# 106687140
-# 1043775617
-# 577122139
-# 226475482
-# 721723454
-# 1046373977
-# 727437556
-# 481989770
-# 690278654
-# 408675050
-# 924824040
-# 91985385
-# 212631876
-# 875089332
-# 616362776
-# 43067213
-# 522920386
-# 866055791
-# 824142567
-# 915222683
-# 653196685
-# 414867089
-# 740342342
-# 995988133
-# 803177163
-# 449420032
-# 1007734728
-# 188525564
-# 741918020
-# 651241916
-# 405213213
-# 888867664
-# 852856807
-# 375444404
-# 671193769
-# 459614390
-# 53880676
-# 636201735
-# 610230967
-# 1056773981
-# 820424904
-# 458584579
-# 178326178
-# 816375531
-# 799417321
-# 1033808896
 
 ### VARIABLE NAMES (Player_Common.bnk)
 ST_Amb_Beds
@@ -7431,69 +6721,10 @@ sp_act_torii_kegare_start_Play
 sp_act_torii_purge_posteffect_01_Play
 
 ### SFX NAMES (SpotSFx_Activity.bnk)
-# 325900104
-# 940708358
-# 307883186
-# 681111139
-# 125152206
-# 1020210586
-# 501111184
-# 122217077
-# 223427116
-# 1007692365
-# 368570713
-# 126134536
-# 531523226
-# 229849796
-# 38857815
-# 61457587
-# 569073285
-# 749498850
-# 486683500
-# 959060815
-# 770634211
-# 990227106
-# 705511274
-# 315572931
-# 292935780
-# 828007734
-# 447541360
-# 669684772
-# 935309225
-# 733391406
-# 259335008
-# 109379964
-# 457484059
-# 682038157
-# 948528761
-# 158780284
-# 628824084
-# 992373730
-# 885415821
-# 1053236246
-# 337381170
-# 719811478
-# 948253212
-# 299928401
-# 974389609
-# 109873725
-# 576953771
 # 4211468998
 
 ### RTPC/GAME-VARIABLE NAMES (SpotSFx_Activity.bnk)
 GP_sp_act_kegare_core_appear
-# 681140009
-# 671115316
-# 67872298
-# 47855431
-# 961971865
-# 979756510
-# 457077785
-# 135157180
-# 68591949
-# 577100354
-# 543557388
-# 474354594
 
 ### VARIABLE NAMES (SpotSFx_Activity.bnk)
 ST_Act_Telephone
@@ -7561,6 +6792,226 @@ ST_Sys_Win_DualSense_ON
 ST_UI_Menu_OPEN
 ST_UI_Menu_OPEN_Half_wPitch
 
+### EVENT NAMES (SpotSFx_Activity_BlackHole.bnk)
+sp_act_blackhale_expand_Play
+sp_act_blackhale_parade_expand_Play
+sp_act_blackhale_parade_spawn_Play
+sp_act_blackhale_parade_vanish_Play
+sp_act_blackhale_spawn_Play
+sp_act_blackhale_utsuro_expand_Play
+sp_act_blackhale_utsuro_spawn_Play
+sp_act_blackhale_utsuro_vanish_Play
+sp_act_blackhale_utsuro_vanish_relayed_Play
+sp_act_blackhale_vanish_Play
+sp_act_blacksoul_move_Play
+sp_act_blacksoul_spawn_Play
+
+### SFX NAMES (SpotSFx_Activity_BlackHole.bnk)
+# 4211468998
+
+### VARIABLE NAMES (SpotSFx_Activity_BlackHole.bnk)
+ST_GS_GameScene_Scene
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (SpotSFx_Activity_BlackHole.bnk)
+None
+ST_GS_GS_Blackout
+ST_GS_GS_Dead
+ST_GS_GS_FastTravel
+ST_GS_GS_FastWarp
+ST_GS_GS_Loading
+ST_GS_GS_None
+ST_GS_GS_Title
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+
+### EVENT NAMES (SpotSFx_Activity_EnemyParade.bnk)
+sp_act_enemy_parade_approach_Play
+sp_act_enemy_parade_found_Play
+sp_act_enemy_parade_Play
+sp_act_enemy_parade_Stop
+
+### VARIABLE NAMES (SpotSFx_Activity_EnemyParade.bnk)
+ST_Mu_IM_00_Enemy
+ST_Mu_IM_03_Situation
+
+### VALUE NAMES (SpotSFx_Activity_EnemyParade.bnk)
+ST_Mu_IM_00_b_Found
+ST_Mu_IM_03_Phase04_Battle
+
+### EVENT NAMES (SpotSFx_Activity_Kegare.bnk)
+sp_act_kegare3d_close_01_Play
+sp_act_kegare3d_close_slow_01_Play
+sp_act_kegare3d_open_01_Play
+sp_act_kegare3d_open_slow_01_Play
+sp_act_kegare_core_absorbed_directly_Play
+sp_act_kegare_core_appear_Play
+sp_act_kegare_core_break_Play
+sp_act_kegare_core_disappear_Play
+sp_act_kegare_hanako_end_3F_Play
+sp_act_kegare_hanako_end_Play
+sp_act_kegare_hanako_invisible_Play
+sp_act_kegare_hanako_start_3F_Play
+sp_act_kegare_hanako_start_Play
+sp_act_kegare_idle_end_Play
+sp_act_kegare_idle_start_Play
+sp_act_kegare_school_ground_end_Play
+sp_act_kegare_school_ground_start_Play
+sp_act_kegare_spider_eventfloor_notree_start_Play
+sp_act_kegare_spider_eventfloor_start_Play
+sp_act_kegare_spider_idle_start_Play
+
+### SFX NAMES (SpotSFx_Activity_Kegare.bnk)
+# 4211468998
+
+### RTPC/GAME-VARIABLE NAMES (SpotSFx_Activity_Kegare.bnk)
+GP_sp_act_kegare_core_appear
+
+### VARIABLE NAMES (SpotSFx_Activity_Kegare.bnk)
+SE_Sp_Kegare_Distance
+ST_Amb_Beds
+ST_Amb_Beds_Int_Tenant
+ST_GS_GameScene_Situation
+ST_sp_Story_School_Floor
+ST_Sys_Win_DualSense
+ST_UI_Menu
+# 419687113
+
+### VALUE NAMES (SpotSFx_Activity_Kegare.bnk)
+None
+SE_Sp_Kegare_Discance_OFF
+SE_Sp_Kegare_Discance_ON
+ST_Amb_Beds_Int
+ST_Amb_Beds_Int_Tenant_Convini
+ST_Amb_Beds_Int_Tenant_Laundry
+ST_GS_GS_Approach
+ST_GS_GS_Battle
+ST_GS_GS_Search
+ST_sp_Story_School_Floor_Another_Gym
+ST_sp_Story_School_Floor_Another_Hallway
+ST_sp_Story_School_Floor_East_3F
+ST_sp_Story_School_Floor_East_4F
+ST_sp_Story_School_Floor_Hanako03_1F
+ST_sp_Story_School_Floor_Hanako03_2F
+ST_sp_Story_School_Floor_Hanako04_Classroom
+ST_sp_Story_School_Floor_Hanako04_Duct
+ST_sp_Story_School_Floor_Hanako04_Hallway
+ST_sp_Story_School_Floor_None
+ST_sp_Story_School_Floor_West_2F
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+ST_UI_Menu_OPEN_Half_wPitch
+# 1549649575
+
+### EVENT NAMES (SpotSFx_Activity_PowerStone.bnk)
+sp_act_powerstone_spawn_fire_Play
+sp_act_powerstone_spawn_water_Play
+
+### EVENT NAMES (SpotSFx_Activity_PrisonCube.bnk)
+sp_act_prisoncube_break_Play
+sp_act_prisoncube_damage_Play
+sp_act_prisoncube_spawn_Play
+sp_act_prisoncube_timeout_Play
+
+### EVENT NAMES (SpotSFx_Activity_Racoon.bnk)
+sp_act_raccoon_AdLgHorizStand_scalechange_01_Play
+sp_act_raccoon_appear_large_01_Play
+sp_act_raccoon_appear_small_01_Play
+sp_act_raccoon_music_01_Play
+sp_act_raccoon_music_01_Stop
+
+### EVENT NAMES (SpotSFx_Activity_StrawDoll.bnk)
+sp_act_strawdoll_disappear_Play
+sp_act_strawdoll_particledelete_Play
+sp_act_strawdoll_spawn_Play
+
+### EVENT NAMES (SpotSFx_Activity_Telephone.bnk)
+sp_act_telephone_body_close_end_01_Play
+sp_act_telephone_body_close_start_01_Play
+sp_act_telephone_body_open_end_01_Play
+sp_act_telephone_body_open_start_01_Play
+sp_act_telephone_body_open_unlock_01_Play
+sp_act_telephone_call_ringing_01_common_Stop
+sp_act_telephone_call_ringing_01_long_Play
+sp_act_telephone_call_ringing_01_short_Play
+sp_act_telephone_cs0252_start_awaken_Play
+sp_act_telephone_cs0252_start_dizziness_Play
+sp_act_telephone_transport_end_Play
+sp_act_telephone_transport_start_Play
+sp_act_telephone_tutorial_start_awaken_Play
+sp_act_telephone_tutorial_start_dizziness_Play
+
+### SFX NAMES (SpotSFx_Activity_Telephone.bnk)
+# 4211468998
+
+### VARIABLE NAMES (SpotSFx_Activity_Telephone.bnk)
+ST_Sp_Act_Telephone
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (SpotSFx_Activity_Telephone.bnk)
+None
+ST_Sp_Act_Telephone_Awaken
+ST_Sp_Act_Telephone_Dizziness
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+
+### EVENT NAMES (SpotSFx_Activity_Torii.bnk)
+pl_act_ether_injection_end_01_Play
+pl_act_ether_injection_oneshot_01_Play
+pl_act_ether_injection_start_01_Play
+pl_act_ether_injection_stop_01_Play
+sp_act_torii_jouka_complete_Play
+sp_act_torii_jouka_start_Play
+sp_act_torii_jouka_stop_Play
+sp_act_torii_kegare_start_Play
+sp_act_torii_kegare_stop_Play
+sp_act_torii_purge_posteffect_01_Play
+
+### SFX NAMES (SpotSFx_Activity_Torii.bnk)
+# 3135451922
+# 4211468998
+
+### VARIABLE NAMES (SpotSFx_Activity_Torii.bnk)
+ST_CS_Common
+ST_GS_GameEnv_Weather
+ST_pl_Action
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (SpotSFx_Activity_Torii.bnk)
+None
+ST_CS_ShrinePurge_Start
+ST_GS_GE_Wx_DaidaraStormy
+ST_pl_Action_Astral
+ST_pl_Action_CleanseTorii
+ST_pl_Action_Inmusubi
+ST_pl_Action_KKMode
+ST_pl_Action_None
+ST_pl_Action_Separation
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+
+### EVENT NAMES (SpotSFx_Activity_UFO.bnk)
+sp_act_ufo_curtain_start_Play
+sp_act_ufo_curtain_stop_Play
+sp_act_ufo_light_start_Play
+sp_act_ufo_object_move_Play
+sp_act_ufo_saucer_start_Play
+
+### SFX NAMES (SpotSFx_Activity_UFO.bnk)
+# 3433864301
+# 4211468998
+
+### RTPC/GAME-VARIABLE NAMES (SpotSFx_Activity_UFO.bnk)
+GP_BIP_Distance_10000
+
+### VARIABLE NAMES (SpotSFx_Activity_UFO.bnk)
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (SpotSFx_Activity_UFO.bnk)
+None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+
 ### EVENT NAMES (SpotSFx_Battle.bnk)
 sp_battle_em1600fallenrocks_break_Play
 sp_battle_em1600fallenrocks_landing_Play
@@ -7588,19 +7039,7 @@ sp_com_tutorial_whoosh_OUT_Play
 sp_com_white_fade_01_Play
 
 ### SFX NAMES (SpotSFx_Common.bnk)
-# 457353036
-# 372919171
-# 412345191
-# 415020799
-# 283743936
-# 95091019
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Common.bnk)
-# 1035109130
-# 868308870
-# 233433543
-# 679009818
 
 ### VARIABLE NAMES (SpotSFx_Common.bnk)
 ST_Amb_Beds_Int
@@ -7635,6 +7074,42 @@ ST_sp_com_tutorial_IN
 ST_sp_com_tutorial_OUT
 ST_sp_hannya_agitation_OFF
 ST_sp_hannya_agitation_ON
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+
+### EVENT NAMES (SpotSFx_Common_ResidualSoul.bnk)
+sp_com_kktrace_appear_Play
+sp_com_kktrace_disappear_Play
+sp_com_residentsoul_remain_02_Play
+sp_com_residentsoul_remain_fs_Play
+sp_com_residentsoul_remain_fs_water_Play
+sp_com_residentsoul_remain_Play
+sp_com_residualsoul_appear_all_Play
+sp_com_residualsoul_appear_Play
+sp_com_residualsoul_end_Play
+sp_com_residualsoul_idle_Play
+sp_com_residualsoul_idle_Stop
+
+### SFX NAMES (SpotSFx_Common_ResidualSoul.bnk)
+# 4211468998
+
+### VARIABLE NAMES (SpotSFx_Common_ResidualSoul.bnk)
+ST_GS_GameScene_Scene
+ST_GS_GameScene_Situation
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (SpotSFx_Common_ResidualSoul.bnk)
+None
+ST_GS_GS_Approach
+ST_GS_GS_Battle
+ST_GS_GS_Blackout
+ST_GS_GS_Dead
+ST_GS_GS_FastTravel
+ST_GS_GS_FastWarp
+ST_GS_GS_Loading
+ST_GS_GS_None
+ST_GS_GS_Search
+ST_GS_GS_Title
 ST_Sys_Win_DualSense_OFF
 ST_Sys_Win_DualSense_ON
 
@@ -7699,46 +7174,6 @@ sp_para_wall_woodchair_playback_Play
 sp_para_wall_woodchair_stop_Play
 
 ### SFX NAMES (SpotSFx_Paranormal.bnk)
-# 125645414
-# 204099828
-# 310330010
-# 377534740
-# 181621759
-# 214963656
-# 407913712
-# 344638818
-# 429949159
-# 1040001209
-# 500230604
-# 108223238
-# 471007188
-# 434253920
-# 424281021
-# 752566196
-# 944181508
-# 561976945
-# 524331464
-# 1018512255
-# 214252224
-# 718067947
-# 709251502
-# 131824823
-# 724175671
-# 614919026
-# 486762194
-# 209733413
-# 547158447
-# 709757555
-# 251741336
-# 1009471200
-# 780766946
-# 1049000813
-# 634547517
-# 868542057
-# 848197096
-# 320690781
-# 758955557
-# 31324644
 # 1924122332
 # 1924122333
 # 1991797549
@@ -7747,30 +7182,6 @@ sp_para_wall_woodchair_stop_Play
 
 ### RTPC/GAME-VARIABLE NAMES (SpotSFx_Paranormal.bnk)
 GP_BIP_Distance_5000
-# 12322835
-# 1020489207
-# 879798765
-# 258787997
-# 744384009
-# 75039539
-# 298722043
-# 69381978
-# 592717161
-# 1041988900
-# 739899036
-# 627273589
-# 737451796
-# 565977044
-# 428588769
-# 82071861
-# 1044839849
-# 377275209
-# 930972285
-# 623245311
-# 209779307
-# 156058651
-# 1002734739
-# 75046031
 
 ### VARIABLE NAMES (SpotSFx_Paranormal.bnk)
 ST_Mu_IM_00_Enemy
@@ -7788,26 +7199,182 @@ ST_Sys_Win_DualSense_OFF
 ST_Sys_Win_DualSense_ON
 ST_UI_Menu_OPEN_Half_wPitch
 
+### EVENT NAMES (SpotSFx_Paranormal_BarrierWall.bnk)
+sp_act_cursedstone_break_Play
+sp_act_cursedstone_close_Play
+sp_act_cursedstone_open_Play
+sp_para_barrierwall_circle_close_Play
+sp_para_barrierwall_circle_open_Play
+sp_para_barrierwall_common_close_Play
+sp_para_barrierwall_common_open_Play
+sp_para_barrierwall_common_vanish_Play
+sp_para_barrierwall_huge_end_Play
+sp_para_barrierwall_huge_start_Play
+sp_para_barrierwall_light_close_Play
+sp_para_barrierwall_light_open_Play
+
+### SFX NAMES (SpotSFx_Paranormal_BarrierWall.bnk)
+# 4211468998
+
+### VARIABLE NAMES (SpotSFx_Paranormal_BarrierWall.bnk)
+ST_Sys_Win_DualSense
+ST_UI_Menu
+
+### VALUE NAMES (SpotSFx_Paranormal_BarrierWall.bnk)
+None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+ST_UI_Menu_OPEN_Half_wPitch
+
+### EVENT NAMES (SpotSFx_Paranormal_FigureVanish.bnk)
+sp_para_figurevanish_foldingchair_start_Play
+sp_para_figurevanish_foldingchair_vanish_Play
+
+### EVENT NAMES (SpotSFx_Paranormal_PostNoise.bnk)
+sp_para_post_noise_flashing_mm0001_Play
+sp_para_post_noise_flashing_Play
+sp_para_post_noise_global_end_Play
+sp_para_post_noise_global_start_Play
+sp_para_post_noise_greyscale_end_Play
+sp_para_post_noise_greyscale_start_Play
+sp_para_post_noise_screentone_end_Play
+sp_para_post_noise_screentone_start_Play
+sp_para_post_noise_stencil_start_Play
+
+### SFX NAMES (SpotSFx_Paranormal_PostNoise.bnk)
+# 1991797549
+# 4211468998
+
+### VARIABLE NAMES (SpotSFx_Paranormal_PostNoise.bnk)
+ST_Mu_IM_00_Enemy
+ST_Sp_Para_Post_Noise
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (SpotSFx_Paranormal_PostNoise.bnk)
+None
+ST_Mu_IM_00_b_Found
+ST_Sp_Para_Post_Noise_GrayScale
+ST_Sp_Para_Post_Noise_None
+ST_Sp_Para_Post_Noise_Screentone
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+
+### EVENT NAMES (SpotSFx_Paranormal_Wall.bnk)
+sp_para_wall_bath_chair_playback_Play
+sp_para_wall_bath_chair_stop_Play
+sp_para_wall_foldingchair_02_playback_Play
+sp_para_wall_foldingchair_02_stop_Play
+sp_para_wall_foldingchair_playback_Play
+sp_para_wall_foldingchair_stop_Play
+sp_para_wall_trashbag_playback_Play
+sp_para_wall_trashbag_stop_Play
+sp_para_wall_woodchair_playback_Play
+sp_para_wall_woodchair_stop_Play
+
+### SFX NAMES (SpotSFx_Paranormal_Wall.bnk)
+# 4211468998
+
+### VARIABLE NAMES (SpotSFx_Paranormal_Wall.bnk)
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (SpotSFx_Paranormal_Wall.bnk)
+None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+
+### EVENT NAMES (SpotSFx_Room.bnk)
+sp_room_foxhead_break_Play
+
+### EVENT NAMES (SpotSFx_SpiderThread.bnk)
+dgt_atmos_sby_spider_Play
+sp_spider_cat_recovery_end_Play
+sp_spider_cat_recovery_start_Play
+sp_spider_goal_piller_activate_Play
+sp_spider_goal_piller_spawn_active_Play
+sp_spider_nekomata_warproom_Play
+sp_spider_quiz_blackboard_smoke_Play
+sp_spider_straycats_num_01_Play
+sp_spider_straycats_num_02_Play
+sp_spider_straycats_num_03_Play
+sp_spider_straycats_num_none_Play
+sp_spider_torii_kegare_start_Play
+sp_spider_torii_through_Play
+sp_spider_wall_web_Play
+
+### RTPC/GAME-VARIABLE NAMES (SpotSFx_SpiderThread.bnk)
+GP_Game_Camera_Height
+
+### VARIABLE NAMES (SpotSFx_SpiderThread.bnk)
+ST_Amb_Beds
+ST_GS_GameEnv_Weather
+ST_Mu_IM_03_Situation
+ST_Mu_IM_04_MM_GSeq
+ST_Mu_IM_05_SM_GSeq
+ST_sp_Spider_StrayCats_Num
+ST_UI_Menu
+
+### VALUE NAMES (SpotSFx_SpiderThread.bnk)
+ST_Amb_Beds_Int
+ST_Amb_Beds_UG
+ST_GS_GE_Wx_HyakkiRainy
+ST_Mu_IM_03_Phase01_Normal
+ST_Mu_IM_03_Phase04_Battle
+ST_Mu_IM_03_Phase99_NoMusic
+ST_Mu_IM_04_MM_GSeq_010000
+ST_Mu_IM_04_MM_GSeq_010010
+ST_Mu_IM_04_MM_GSeq_010020
+ST_Mu_IM_04_MM_GSeq_010030
+ST_Mu_IM_04_MM_GSeq_010040
+ST_Mu_IM_04_MM_GSeq_020230
+ST_Mu_IM_04_MM_GSeq_021090
+ST_Mu_IM_04_MM_GSeq_021100
+ST_Mu_IM_04_MM_GSeq_021110
+ST_Mu_IM_04_MM_GSeq_021115
+ST_Mu_IM_04_MM_GSeq_021120
+ST_Mu_IM_04_MM_GSeq_031170
+ST_Mu_IM_04_MM_GSeq_060000
+ST_Mu_IM_04_MM_GSeq_060020
+ST_Mu_IM_04_MM_GSeq_060040
+ST_Mu_IM_04_MM_GSeq_060060
+ST_Mu_IM_04_MM_GSeq_060080
+ST_Mu_IM_04_MM_GSeq_060100
+ST_Mu_IM_04_MM_GSeq_060120
+ST_Mu_IM_04_MM_GSeq_060140
+ST_Mu_IM_04_MM_GSeq_060160
+ST_Mu_IM_04_MM_GSeq_060180
+ST_Mu_IM_04_MM_GSeq_060200
+ST_Mu_IM_04_MM_GSeq_060220
+ST_Mu_IM_04_MM_GSeq_060240
+ST_Mu_IM_04_MM_GSeq_060260
+ST_Mu_IM_04_MM_GSeq_060280
+ST_Mu_IM_04_MM_GSeq_060300
+ST_Mu_IM_04_MM_GSeq_060320
+ST_Mu_IM_04_MM_GSeq_060340
+ST_Mu_IM_04_MM_GSeq_060360
+ST_Mu_IM_04_MM_GSeq_061000
+ST_Mu_IM_04_MM_GSeq_061019
+ST_Mu_IM_04_MM_GSeq_061020
+ST_Mu_IM_04_MM_GSeq_061021
+ST_Mu_IM_04_MM_GSeq_061022
+ST_Mu_IM_04_MM_GSeq_061023
+ST_Mu_IM_04_MM_GSeq_061024
+ST_Mu_IM_04_MM_GSeq_061030
+ST_Mu_IM_04_MM_GSeq_062000
+ST_Mu_IM_04_MM_GSeq_069999
+ST_Mu_IM_05_SM_GSeq_Common_E
+ST_sp_Spider_StrayCats_Num_01
+ST_sp_Spider_StrayCats_Num_02
+ST_sp_Spider_StrayCats_Num_03
+ST_sp_Spider_StrayCats_Num_None
+ST_UI_Menu_OPEN_Half_wPitch
+
 ### EVENT NAMES (SpotSFx_Story_MM0001.bnk)
 sp_story_mm0001_kegare_start_Play
 sp_story_mm0001_quake_start_Play
 sp_story_mm0001_quake_stop_Play
 
 ### SFX NAMES (SpotSFx_Story_MM0001.bnk)
-# 933357683
-# 742667016
-# 770028194
-# 368587584
-# 111844054
-# 202839802
-# 685590208
-# 890715770
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_MM0001.bnk)
-# 368649722
-# 404388372
-# 932154241
 
 ### VARIABLE NAMES (SpotSFx_Story_MM0001.bnk)
 ST_Amb_Beds
@@ -7841,34 +7408,10 @@ sp_story_mm0011_shadow_start_Play
 sp_story_mm0011_wall_foldingchair_playback_Play
 
 ### SFX NAMES (SpotSFx_Story_MM0011.bnk)
-# 83841186
-# 167778659
-# 291165086
-# 438874288
-# 133043393
-# 601388150
-# 732314298
-# 195118712
-# 22016635
-# 157444163
-# 346979616
-# 587053492
-# 596050818
-# 110873422
-# 653714613
-# 780766946
-# 1049000813
 # 4211468998
 
 ### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_MM0011.bnk)
 GP_BIP_Distance_5000
-# 12322835
-# 1020489207
-# 1041988900
-# 739899036
-# 462406285
-# 359135735
-# 623245311
 
 ### VARIABLE NAMES (SpotSFx_Story_MM0011.bnk)
 ST_sp_Story_MM0011
@@ -7903,20 +7446,10 @@ sp_para_umbrella_particle_start_Play
 sp_para_umbrella_particle_vanish_Play
 
 ### SFX NAMES (SpotSFx_Story_MM0020.bnk)
-# 482996531
-# 107401751
-# 989889227
-# 794852537
-# 140602201
 # 4211468998
 
 ### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_MM0020.bnk)
 GP_BIP_Distance_5000
-# 763027413
-# 906470343
-# 350676242
-# 60099603
-# 434177078
 
 ### VARIABLE NAMES (SpotSFx_Story_MM0020.bnk)
 ST_Sys_Win_DualSense
@@ -7935,17 +7468,9 @@ sp_para_shadow_appear_Play
 sp_para_shadow_disappear_Play
 
 ### SFX NAMES (SpotSFx_Story_MM0021.bnk)
-# 508175028
-# 852184641
-# 989431466
-# 302597163
 # 990250166
 # 1427661330
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_MM0021.bnk)
-# 743038872
-# 74208062
 
 ### VARIABLE NAMES (SpotSFx_Story_MM0021.bnk)
 ST_Sys_Win_DualSense
@@ -7998,34 +7523,8 @@ sp_story_mm0022_player_struggle_swish_01_Play
 sp_story_mm0022_player_struggle_swish_02_Play
 
 ### SFX NAMES (SpotSFx_Story_MM0022.bnk)
-# 1021663117
-# 688421104
-# 880398131
-# 126873899
-# 264804625
-# 612484664
-# 778581856
-# 535491738
-# 26537111
-# 776089914
-# 966370627
-# 921051854
-# 620684269
-# 14225623
-# 436861988
-# 1028207679
-# 697624129
-# 292250019
 # 3242742559
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_MM0022.bnk)
-# 62616996
-# 333108782
-# 1072492576
-# 653196685
-# 74947735
-# 873203145
 
 ### VARIABLE NAMES (SpotSFx_Story_MM0022.bnk)
 ST_Mu_IM_04_MM_GSeq
@@ -8263,11 +7762,6 @@ ST_Sys_Win_DualSense_ON
 sp_story_mm0030_floating_soul_amb_Play
 sp_story_mm0030_floating_soul_close_Play
 
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_MM0030.bnk)
-# 287821682
-# 211124044
-# 972859660
-
 ### EVENT NAMES (SpotSFx_Story_MM0031.bnk)
 sp_story_mm0031_manekineko_Play
 
@@ -8309,39 +7803,11 @@ sp_story_mm0035_shutter_open_3f_Play
 sp_story_mm0035_shutter_open_4f_Play
 
 ### SFX NAMES (SpotSFx_Story_MM0035.bnk)
-# 668637528
-# 812138803
-# 445190792
-# 570107028
-# 802265886
-# 943819587
-# 859617526
-# 1050565023
-# 611227496
-# 397129716
-# 301373614
-# 492921301
-# 267467293
-# 55521398
-# 817912590
-# 47224915
-# 861696580
-# 384737809
 # 4211468998
 
 ### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_MM0035.bnk)
 GP_BIP_Distance_5000
 GP_sp_para_noroisentence
-# 411941922
-# 592717161
-# 497292790
-# 919105329
-# 873175223
-# 390599081
-# 496175934
-# 506378773
-# 754587201
-# 74208062
 
 ### VARIABLE NAMES (SpotSFx_Story_MM0035.bnk)
 ST_Amb_Beds
@@ -8478,17 +7944,7 @@ sp_story_mm0038_para_stair4_Play
 sp_story_mm0038_para_umbrella_Play
 
 ### SFX NAMES (SpotSFx_Story_MM0038.bnk)
-# 82276751
-# 559362864
-# 664516282
-# 197334261
-# 231662863
-# 988406580
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_MM0038.bnk)
-# 1006710064
-# 875018509
 
 ### VARIABLE NAMES (SpotSFx_Story_MM0038.bnk)
 ST_Sys_Win_DualSense
@@ -8509,8 +7965,6 @@ GS_GameEnv_Weather_DaidaraStormy_Stop
 
 ### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_MM0040_Daidara.bnk)
 GP_Game_Wind_Direction
-# 531820978
-# 251224500
 
 ### VARIABLE NAMES (SpotSFx_Story_MM0040_Daidara.bnk)
 ST_Amb_Lyr_Zone_Common
@@ -8538,14 +7992,7 @@ sp_story_mm0060_door_grab_Play
 sp_story_mm0060_door_open_Play
 
 ### SFX NAMES (SpotSFx_Story_MM0060.bnk)
-# 851088547
-# 521269636
-# 143645110
-# 350312501
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_MM0060.bnk)
-# 614017216
 
 ### VARIABLE NAMES (SpotSFx_Story_MM0060.bnk)
 ST_Sys_Win_DualSense
@@ -8561,12 +8008,7 @@ sp_story_qe0130_blurtransition_start_Play
 sp_story_qe0130_utena_out_Play
 
 ### SFX NAMES (SpotSFx_Story_QE0110.bnk)
-# 156301247
-# 292394615
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_QE0110.bnk)
-# 428395757
 
 ### EVENT NAMES (SpotSFx_Story_QE0210.bnk)
 sp_story_qe0210_pl_mvmt_hand_watch_close_Play
@@ -8578,23 +8020,7 @@ sp_story_qe0210_ui_hud_moon_device_cancel_Play
 sp_story_qe0210_ui_hud_moon_device_start_Play
 
 ### SFX NAMES (SpotSFx_Story_QE0210.bnk)
-# 398169227
-# 550071460
-# 703882928
-# 667195233
-# 299396072
-# 829710976
-# 452198276
-# 936141190
-# 213826650
-# 298428371
-# 994017542
-# 840414857
-# 148663086
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_QE0210.bnk)
-# 795617282
 
 ### VARIABLE NAMES (SpotSFx_Story_QE0210.bnk)
 ST_Sys_Win_DualSense
@@ -8615,19 +8041,8 @@ sp_story_qe0541_villan_move_3rd_Play
 sp_story_qe0541_villan_move_upstairs_Play
 
 ### SFX NAMES (SpotSFx_Story_QE0541.bnk)
-# 846112237
-# 884464412
 # 1924122332
 # 1924122333
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_QE0541.bnk)
-# 404388372
-# 182293757
-# 298722043
-# 269154319
-# 209779307
-# 156058651
-# 1002734739
 
 ### VARIABLE NAMES (SpotSFx_Story_QE0541.bnk)
 ST_UI_Menu
@@ -8646,19 +8061,8 @@ sp_story_qe0580_doll_laughing_Play
 sp_story_qe0580_doll_laughing_Stop
 
 ### SFX NAMES (SpotSFx_Story_QE0580.bnk)
-# 125645414
-# 486762194
-# 209733413
 # 1991797549
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_QE0580.bnk)
-# 879798765
-# 428588769
-# 592717161
-# 1044839849
-# 82071861
-# 75046031
 
 ### VARIABLE NAMES (SpotSFx_Story_QE0580.bnk)
 ST_Mu_IM_00_Enemy
@@ -8700,14 +8104,8 @@ sp_story_qe0700_shutter_open_end_Play
 sp_story_qe0700_shutter_open_start_Play
 
 ### SFX NAMES (SpotSFx_Story_QE0700.bnk)
-# 230001754
-# 1039799923
 # 990250166
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_QE0700.bnk)
-# 751535470
-# 743038872
 
 ### VARIABLE NAMES (SpotSFx_Story_QE0700.bnk)
 ST_Sys_Win_DualSense
@@ -8729,32 +8127,7 @@ sp_story_qe0710_woman_appear_Play
 sp_story_qe0710_woman_attack_Play
 
 ### SFX NAMES (SpotSFx_Story_QE0710.bnk)
-# 843975518
-# 423963072
-# 641411858
-# 398827952
-# 666951673
-# 782215295
-# 665690913
-# 410200461
-# 56559834
-# 747663344
-# 323995919
-# 149720814
-# 101877166
-# 245706531
-# 718134323
-# 613451571
-# 314520543
-# 48331680
-# 187974626
-# 609270576
-# 158293970
-# 794021957
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_QE0710.bnk)
-# 614017216
 
 ### VARIABLE NAMES (SpotSFx_Story_QE0710.bnk)
 ST_Mu_IM_03_Situation
@@ -8788,14 +8161,16 @@ sp_story_qe0740_wall_lightning_flash_Play
 sp_story_qe0740_wall_lightning_start_Play
 sp_story_qe0740_wall_start_Play
 
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_QE0740.bnk)
-# 435422005
-
 ### VARIABLE NAMES (SpotSFx_Story_QE0740.bnk)
 ST_pl_Action
 
 ### VALUE NAMES (SpotSFx_Story_QE0740.bnk)
 ST_pl_Action_Inmusubi
+
+### EVENT NAMES (SpotSFx_Story_QE0750.bnk)
+sp_para_vanish_wall_Shibuya_Play
+sp_para_vanish_wall_start_Play
+sp_para_vanish_wall_stop_Play
 
 ### EVENT NAMES (SpotSFx_Story_QE0760.bnk)
 sp_story_qe0760_utena_in_end_Play
@@ -8855,14 +8230,7 @@ sp_story_qe0820_utena_in_end_Play
 sp_story_qe0820_utena_in_start_Play
 
 ### SFX NAMES (SpotSFx_Story_QE0820.bnk)
-# 1057012224
-# 613638213
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_QE0820.bnk)
-# 922834578
-# 646433697
-# 60432367
 
 ### VARIABLE NAMES (SpotSFx_Story_QE0820.bnk)
 ST_GS_GameScene_Situation
@@ -8898,20 +8266,12 @@ sp_story_qe0840_picture_out_Play
 sp_story_qe0840_picture_vanish_Play
 
 ### SFX NAMES (SpotSFx_Story_QE0840.bnk)
-# 626438531
-# 697191800
-# 820738608
-# 263632378
-# 619533347
-# 953288992
 # 990250166
 # 4211468998
 
 ### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_QE0840.bnk)
 GP_BIP_Distance_10000
 GP_sp_story_QE0840_GhostPurge
-# 54099518
-# 743038872
 
 ### VARIABLE NAMES (SpotSFx_Story_QE0840.bnk)
 ST_Mu_IM_05_SM_GSeq
@@ -8937,12 +8297,6 @@ sp_story_qe2003_give_paper_only_Play
 sp_story_qe2003_knock_toilet_Play
 
 ### SFX NAMES (SpotSFx_Story_QE2003.bnk)
-# 977952608
-# 122689734
-# 28044051
-# 956058080
-# 853960802
-# 122195713
 # 4211468998
 
 ### VARIABLE NAMES (SpotSFx_Story_QE2003.bnk)
@@ -8960,21 +8314,7 @@ sp_story_qe2007_elevator_led_start_Play
 sp_story_qe2007_elevator_led_stop_Play
 
 ### SFX NAMES (SpotSFx_Story_QE2007.bnk)
-# 827401566
-# 437904646
-# 474582364
-# 735331243
 # 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_QE2007.bnk)
-pan_obj
-# 834509489
-# 878486629
-# 820323457
-# 938096179
-# 976755644
-# 232355304
-# 438255621
 
 ### VARIABLE NAMES (SpotSFx_Story_QE2007.bnk)
 ST_GS_GameEnv_Weather
@@ -8996,17 +8336,223 @@ sp_story_qe2201_utena_in_start_Play
 # 1924122332
 # 1924122333
 
-### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_QE2201.bnk)
-# 828556953
-# 209779307
-# 156058651
-# 1002734739
-
 ### VARIABLE NAMES (SpotSFx_Story_QE2201.bnk)
 ST_UI_Menu
 
 ### VALUE NAMES (SpotSFx_Story_QE2201.bnk)
 ST_UI_Menu_OPEN_Half_wPitch
+
+### EVENT NAMES (SpotSFx_Story_School.bnk)
+sp_story_school_25_move_whoosh_Play
+sp_story_school_announce_start_Play
+sp_story_school_announce_stop_Play
+sp_story_school_blackboard_Play
+sp_story_school_blackboard_Stop
+sp_story_school_blur_end_Play
+sp_story_school_blur_start_Play
+sp_story_school_cat_cry_Play
+sp_story_school_chime_exterior_Play
+sp_story_school_chime_para_Play
+sp_story_school_chime_school_Play
+sp_story_school_clothdrop_impact_Play
+sp_story_school_cursedmirror_break_Play
+sp_story_school_desk_wall_start_classroom_Play
+sp_story_school_desk_wall_start_Play
+sp_story_school_desk_wall_stop_classroom_Play
+sp_story_school_desk_wall_stop_Play
+sp_story_school_desk_wall_stop_stairwall_footstep_Play
+sp_story_school_desk_wall_stop_stairwall_Play
+sp_story_school_dog_cry_bark_Play
+sp_story_school_door_close_end_Play
+sp_story_school_faucet_water_drip_Play
+sp_story_school_faucet_water_drip_Stop
+sp_story_school_floating_object_loop_Play
+sp_story_school_floating_object_start_Play
+sp_story_school_floating_object_stop_Play
+sp_story_school_floor_debris_Play
+sp_story_school_footsteps_following_Play
+sp_story_school_footsteps_gore_Play
+sp_story_school_footsteps_OFF_Play
+sp_story_school_glass_break_Play
+sp_story_school_hanako_downsweep_Play
+sp_story_school_hanako_show_Play
+sp_story_school_hanako_upsweep_1st1F_Play
+sp_story_school_hanako_upsweep_1st2F_Play
+sp_story_school_hanako_upsweep_2nd1F_Artroom_Play
+sp_story_school_hanako_upsweep_2nd1F_Handwash_Play
+sp_story_school_hanako_upsweep_2nd1F_Under_Play
+sp_story_school_hanako_upsweep_2nd2F_Classroom_Play
+sp_story_school_hanako_upsweep_2nd2F_Door_Play
+sp_story_school_hanako_upsweep_2nd2F_Duct_Play
+sp_story_school_hanako_upsweep_common_Play
+sp_story_school_hanako_upsweep_common_Stop
+sp_story_school_licking_behind_end_Play
+sp_story_school_licking_behind_start_Play
+sp_story_school_light_turnoff_impact_Play
+sp_story_school_light_turnoff_switch_Play
+sp_story_school_light_turnon_Play
+sp_story_school_locker_door_open_start_Play
+sp_story_school_locker_rattle_start_Play
+sp_story_school_mirror_divein_start_Play
+sp_story_school_mirror_diveout_start_Play
+sp_story_school_mirror_light_end_Play
+sp_story_school_mirror_light_start_Play
+sp_story_school_mirror_rapping_Play
+sp_story_school_music_piano_battle_Play
+sp_story_school_music_piano_battle_Stop
+sp_story_school_music_piano_Play
+sp_story_school_music_piano_Stop
+sp_story_school_noise_start_Play
+sp_story_school_PCMonitor_EndNoise_01_Play
+sp_story_school_PCMonitor_InstOFF_01_Play
+sp_story_school_PCMonitor_InstON_01_Play
+sp_story_school_PCMonitor_OFF_01_Play
+sp_story_school_PCMonitor_ON_01_Play
+sp_story_school_PCMonitor_Show_01_Play
+sp_story_school_PCMonitor_Stop_01_Play
+sp_story_school_plywood_reverse_Play
+sp_story_school_plywood_start_Play
+sp_story_school_projector_screen_end_Play
+sp_story_school_projector_screen_face_Play
+sp_story_school_projector_screen_start_Play
+sp_story_school_projector_turnon_switch_Play
+sp_story_school_roomreflection_end_Play
+sp_story_school_roomreflection_start_Play
+sp_story_school_shadow_end_Play
+sp_story_school_shadow_start_Play
+sp_story_school_shoeshelves_impact_Play
+sp_story_school_thunder_lightning_Play
+sp_story_school_toiletdoor_hit_seq_end_Play
+sp_story_school_toiletdoor_hit_seq_start_Play
+sp_story_school_wx_rain_outside_light_Play
+sp_story_school_wx_thunder_Play
+ST_sp_story_school_floor_another_gym_Set_State
+ST_sp_story_school_floor_another_hallway_Set_State
+ST_sp_story_school_floor_center_1F_Set_State
+ST_sp_story_school_floor_center_2F_Set_State
+ST_sp_story_school_floor_center_3F_Set_State
+ST_sp_story_school_floor_east_1F_Set_State
+ST_sp_story_school_floor_east_2F_Set_State
+ST_sp_story_school_floor_east_3F_Set_State
+ST_sp_story_school_floor_east_4F_Set_State
+ST_sp_story_school_floor_gym_Set_State
+ST_sp_story_school_floor_hanako03_1F_Set_State
+ST_sp_story_school_floor_hanako03_2F_Set_State
+ST_sp_story_school_floor_hanako04_classroom_Set_State
+ST_sp_story_school_floor_hanako04_duct_Set_State
+ST_sp_story_school_floor_hanako04_hallway_Set_State
+ST_sp_story_school_floor_none_Set_State
+ST_sp_story_school_floor_west_1F_Set_State
+ST_sp_story_school_floor_west_2F_Set_State
+ST_sp_story_school_floor_west_3F_Set_State
+ST_sp_Story_School_Hanako_Gym_Hide_Set_State
+
+### SFX NAMES (SpotSFx_Story_School.bnk)
+# 4211468998
+
+### RTPC/GAME-VARIABLE NAMES (SpotSFx_Story_School.bnk)
+GP_BIP_Distance_10000
+GP_BIP_EmitterCone
+GP_Enm_Em2800_Distance_750
+GP_Enm_Em2800_Distance_750_4Sec
+
+### VARIABLE NAMES (SpotSFx_Story_School.bnk)
+ST_GS_GameScene_Situation
+ST_sp_Story_School_Floor
+ST_sp_Story_School_Footsteps
+ST_sp_Story_School_Hanako_Gym
+ST_sp_Story_School_RoomReflection
+ST_Sys_Win_DualSense
+# 1420068266
+
+### VALUE NAMES (SpotSFx_Story_School.bnk)
+None
+ST_GS_GS_Battle
+ST_sp_Story_School_Floor_Another_Gym
+ST_sp_Story_School_Floor_Another_Hallway
+ST_sp_Story_School_Floor_East_3F
+ST_sp_Story_School_Floor_East_4F
+ST_sp_Story_School_Floor_Hanako03_1F
+ST_sp_Story_School_Floor_Hanako03_2F
+ST_sp_Story_School_Floor_Hanako04_Classroom
+ST_sp_Story_School_Floor_Hanako04_Duct
+ST_sp_Story_School_Floor_Hanako04_Hallway
+ST_sp_Story_School_Floor_None
+ST_sp_Story_School_Floor_West_2F
+ST_sp_Story_School_Floor_West_3F
+ST_sp_Story_School_Footsteps_Following
+ST_sp_Story_School_Footsteps_Gore
+ST_sp_Story_School_Footsteps_OFF
+ST_sp_Story_School_Hanako_Gym_Appear
+ST_sp_Story_School_Hanako_Gym_Hide
+ST_sp_Story_School_RoomReflection_OFF
+ST_sp_Story_School_RoomReflection_ON
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+# 1035728776
+# 1086061633
+# 1069284078
+# 1119616935
+# 1102839348
+# 1153172109
+# 1136394522
+# 918285443
+# 901507856
+# 951693682
+# 968471269
+# 918138412
+# 934915999
+# 884583110
+# 901360825
+# 851027936
+# 867805523
+# 1085914602
+# 1102692189
+# 2998312841
+# 2947980080
+# 3065423413
+# 3048645698
+# 2947980085
+# 2964757667
+
+### EVENT NAMES (SpotSFx_Story_SpiritPhoto.bnk)
+sp_story_spiritphoto_backside_eyes_end_Play
+sp_story_spiritphoto_backside_eyes_start_Play
+sp_story_spiritphoto_backside_kegare_end_Play
+sp_story_spiritphoto_backside_kegare_start_Play
+sp_story_spiritphoto_get_flip_Play
+sp_story_spiritphoto_get_pickup_Play
+sp_story_spiritphoto_get_putaway_Play
+sp_story_spiritphoto_item_allphoto_get_Play
+sp_story_spiritphoto_photo_burn_Play
+sp_story_spiritphoto_photo_enemy_Play
+sp_story_spiritphoto_photo_hand_Play
+sp_story_spiritphoto_shoot_horror_pict_Play
+
+### SFX NAMES (SpotSFx_Story_SpiritPhoto.bnk)
+# 4211468998
+
+### VARIABLE NAMES (SpotSFx_Story_SpiritPhoto.bnk)
+ST_CS_Common
+ST_GS_GameScene_Scene
+ST_Sys_Win_DualSense
+
+### VALUE NAMES (SpotSFx_Story_SpiritPhoto.bnk)
+None
+ST_CS_CS_Start
+ST_CS_EV0223_Start
+ST_CS_EV_Start
+ST_CS_EVQE_Start
+ST_CS_ShrinePurge_Start
+ST_GS_GS_Blackout
+ST_GS_GS_Dead
+ST_GS_GS_FastTravel
+ST_GS_GS_FastWarp
+ST_GS_GS_Loading
+ST_GS_GS_None
+ST_GS_GS_Title
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
 
 ### EVENT NAMES (Test_LoadUnload.bnk)
 Test_Soundbank_LoadUnload_Play
@@ -9293,264 +8839,8 @@ ui_menu_status_food_bar_proceed_01_Stop
 ur_com_Stop
 
 ### SFX NAMES (UI_Common.bnk)
-driver_dist
 # 11259628
-# 348515287
-# 361564690
-# 471954820
-# 475304742
-# 769757838
-# 387284739
-# 855841134
-# 67609783
-# 815148399
-# 751456293
-# 579358276
-# 1065478755
-# 306256648
-# 367728498
-# 263942090
-# 336141923
-# 957667950
-# 1057450780
-# 338525604
-# 157659789
-# 992447345
-# 447876464
-# 856119271
-# 731030487
-# 90499576
-# 401747762
-# 889016951
-# 365222990
-# 172259861
-# 870299352
-# 115708367
-# 979419840
-# 215393926
-# 692506849
-# 1040493331
-# 481458839
-# 319855133
-# 897888863
-# 561136032
-# 697001004
-# 2716404
-# 209832462
-# 39317179
-# 58301288
-# 524527397
-# 229246336
-# 655161993
-# 610394850
-# 118906694
-# 410579849
-# 602777844
-# 910323986
-# 256620160
-# 131834286
-# 918325839
-# 1039726481
-# 142371004
-# 191815615
-# 294104264
-# 453906526
-# 806081475
-# 352666271
-# 598048885
-# 426170445
-# 10570716
-# 708892795
-# 635069395
-# 533320721
-# 171763561
-# 1036042259
-# 888516430
-# 126097529
-# 868955009
-# 43881397
-# 782087922
-# 637104748
-# 829270300
-# 641556709
-# 994993624
-# 828172675
-# 698104492
-# 116966297
-# 544447850
-# 17699317
-# 311811371
-# 145651432
-# 386619912
-# 345385745
-# 646684790
-# 107522656
-# 996051343
-# 734299379
-# 47938938
-# 98108334
-# 107482833
-# 802659540
-# 832725997
-# 632797557
-# 247635288
-# 818783218
-# 237390976
-# 76341661
-# 240419288
-# 939561462
-# 675385991
-# 332454282
-# 96264907
-# 254578532
-# 794300620
-# 757371832
-# 45687553
-# 806134894
-# 224812628
-# 400588181
-# 127806059
-# 114123901
-# 567707202
-# 842583342
-# 48769740
-# 516739722
-# 783762153
-# 950412819
-# 1050477050
-# 455231156
-# 1012812656
-# 989809756
-# 739263512
-# 230772921
-# 176432904
-# 36194906
-# 764589320
-# 277700303
-# 487847398
-# 215294401
-# 89047067
-# 348682623
-# 758777132
-# 451859983
-# 125613101
-# 806059040
-# 1067991031
-# 466235882
-# 811596475
-# 991409558
-# 529845208
-# 246005254
-# 233818884
-# 923138829
-# 107359838
-# 300842744
-# 23540504
-# 594780861
-# 141140284
-# 864631614
-# 380937364
-# 38407576
-# 229210653
-# 46325686
-# 121505243
-# 128566641
-# 119893946
-# 449802628
-# 857471508
-# 158954031
-# 302955492
-# 560631155
-# 136978300
-# 240131718
-# 752922678
-# 775764471
-# 1409094
-# 759588372
-# 664333519
-# 630331279
-# 971921679
-# 514574159
-# 831972898
-# 115331795
-# 87134725
-# 923599381
-# 294405118
-# 912835066
-# 768874923
-# 1065159376
-# 332526
-# 322658382
-# 564268480
-# 24950927
-# 706892702
-# 408204450
-# 896419817
-# 22434060
-# 739890588
-# 714425078
-# 166087457
-# 105423451
-# 562934930
-# 598714132
-# 866012827
-# 642216519
-# 804690794
-# 825834897
-# 616920471
-# 790969779
-# 373645456
-# 511485874
-# 421309928
-# 595519690
-# 711377948
-# 754704969
-# 626893121
-# 725619191
-# 601113940
-# 568783929
-# 152283301
-# 62478484
-# 1064740015
-# 946014079
-# 633688506
-# 65554450
-# 246028152
-# 222377148
-# 205674707
-# 190137241
-# 1072644213
-# 841482423
-# 578304984
-# 1070275434
-# 125019082
-# 3988547
-# 974578503
-# 146435624
-# 865519039
-# 370254116
-# 660890053
-# 242029262
-# 616357950
-# 497137721
-# 921987701
-# 873486843
-# 738847280
-# 546470456
-# 992136951
-# 105276965
-# 943965114
-# 466083477
-# 970848165
-# 386682209
-# 465384012
-# 906030488
-# 397227044
 # 880119814
-# 983191535
-# 1012801141
-# 1030794664
-# 1072889533
 # 1456644275
 # 2092667237
 # 3182935030
@@ -9566,21 +8856,6 @@ GP_BIP_Distance_5000
 GP_Game_Fear_Distance
 GP_UI_Camera_Zoom_Ratio
 GP_UI_Map_Zoom_Ratio
-# 660910285
-# 302731418
-# 537213241
-# 371118256
-# 299971408
-# 535651348
-# 392302619
-# 923947478
-# 865984553
-# 842765150
-# 119237881
-# 785558676
-# 1064129745
-# 352172137
-# 212557008
 
 ### VARIABLE NAMES (UI_Common.bnk)
 ST_Act_Telephone
@@ -9717,6 +8992,47 @@ ST_UI_PhotoMode_ON
 ST_UR_CS_Out
 ST_Voice_Akito_Fx_None
 
+### EVENT NAMES (UI_Spider.bnk)
+ui_spider_objective_start_Play
+ui_spider_result_exp_gain_Play
+ui_spider_result_exp_gain_Stop
+ui_spider_result_FS_clear_rank_A_Play
+ui_spider_result_FS_clear_rank_B_Play
+ui_spider_result_FS_clear_rank_C_Play
+ui_spider_result_FS_clear_rank_D_Play
+ui_spider_result_FS_clear_rank_S_Play
+ui_spider_result_FS_clear_stamp_Play
+ui_spider_result_FS_com_count_Play
+ui_spider_result_FS_normal_rank_A_Play
+ui_spider_result_FS_normal_rank_B_Play
+ui_spider_result_FS_normal_rank_C_Play
+ui_spider_result_FS_normal_rank_D_Play
+ui_spider_result_FS_normal_rank_S_Play
+ui_spider_result_open_half_Play
+ui_spider_result_page_change_Play
+ui_spider_result_rewards_next_Play
+ui_spider_stats_close_Play
+ui_spider_stats_open_Play
+ui_spider_time_countdown_01_Play
+ui_spider_time_countdown_02_Play
+ui_spider_time_timeup_01_Play
+ui_spider_time_timeup_02_Play
+
+### SFX NAMES (UI_Spider.bnk)
+# 3182935030
+# 4211468998
+
+### VARIABLE NAMES (UI_Spider.bnk)
+ST_Sys_Win_DualSense
+ST_UI_SpidersThread
+
+### VALUE NAMES (UI_Spider.bnk)
+None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+ST_UI_SpidersThread_Result_Half
+ST_UI_SpidersThread_Result_None
+
 ### EVENT NAMES (Ultra_Radio_Common.bnk)
 ur_com_Stop
 ur_Mu_UM_01_Play
@@ -9771,7 +9087,962 @@ ST_Mu_IM_01_z_NoMusic
 ST_Mu_IM_03_Phase04_Battle
 ST_UR_CS_In
 
-### EVENT NAMES (VoiceEffect_Player.bnk)
+### EVENT NAMES (Weapon_Common.bnk)
+__wpn_pl_ofuda_stance_Stop
+__wpn_pl_spec_common_player_loop_Stop
+__wpn_pl_spec_fire_stance_Stop
+__wpn_pl_spec_water_stance_Stop
+__wpn_pl_spec_wind_stance_Stop
+ST_Wpn_Selection_Bow_Set_State
+ST_Wpn_Selection_Fox_Set_State
+ST_Wpn_Selection_Kunai_Set_State
+wpn_pl_bow_aim_end_Play
+wpn_pl_bow_aim_start_base_Play
+wpn_pl_bow_aim_start_fx_Play
+wpn_pl_bow_arrow_change_01_Play
+wpn_pl_bow_delete_tip_fx_Play
+wpn_pl_bow_draw_cancel_Play
+wpn_pl_bow_draw_complete_fx_Play
+wpn_pl_bow_draw_shot_launch_Play
+wpn_pl_bow_draw_start_Play
+wpn_pl_bow_hit_concrete_dry_Play
+wpn_pl_bow_hit_concrete_wet_Play
+wpn_pl_bow_hit_default_Play
+wpn_pl_bow_hit_dirt_Play
+wpn_pl_bow_hit_glass_Play
+wpn_pl_bow_hit_headshot_Play
+wpn_pl_bow_hit_liquid_Play
+wpn_pl_bow_hit_metal_Play
+wpn_pl_bow_hit_wood_Play
+wpn_pl_bow_posture_end_Play
+wpn_pl_bow_posture_start_Play
+wpn_pl_bow_radialdamage_open_sphere_01_Play
+wpn_pl_bow_reload_arrow_Play
+wpn_pl_bow_reload_complete_Play
+wpn_pl_bow_reload_start_Play
+wpn_pl_bow_shot_arrow_whoosh_Play
+wpn_pl_bow_shot_launch_Play
+wpn_pl_common_hit_cardboard_Play
+wpn_pl_common_hit_default_Play
+wpn_pl_common_hit_em_invalid_Play
+wpn_pl_common_hit_em_marebito_Play
+wpn_pl_common_hit_fabric_Play
+wpn_pl_common_hit_foilage_Play
+wpn_pl_common_hit_plastic_Play
+wpn_pl_common_hit_prisoncube_Play
+wpn_pl_common_hit_rubber_Play
+wpn_pl_common_hit_taiko_kodaiko_Play
+wpn_pl_common_hit_taiko_normal_Play
+wpn_pl_common_hit_tatami_Play
+wpn_pl_gun_ready_down_01_Play
+wpn_pl_gun_ready_set_01_Play
+wpn_pl_gun_reload_release_01_Play
+wpn_pl_gun_reload_set_01_Play
+wpn_pl_gun_shot_empty_01_Play
+wpn_pl_gun_shot_fire_01_Play
+wpn_pl_kunai_throw_end_Play
+wpn_pl_kunai_throw_start_Play
+wpn_pl_kunai_throw_swish_Play
+wpn_pl_ofuda_bush_hit_end_Play
+wpn_pl_ofuda_bush_hit_start_Play
+wpn_pl_ofuda_bush_shot_fx_Play
+wpn_pl_ofuda_bush_stance_end_Play
+wpn_pl_ofuda_bush_stance_start_Play
+wpn_pl_ofuda_common_firstflash_Play
+wpn_pl_ofuda_common_mvmt_strong_Play
+wpn_pl_ofuda_common_mvmt_weak_Play
+wpn_pl_ofuda_common_ready_paper_Play
+wpn_pl_ofuda_common_shot_base_Play
+wpn_pl_ofuda_common_shot_paper_Play
+wpn_pl_ofuda_common_stance_release_Play
+wpn_pl_ofuda_paralysis_hit_delete_Play
+wpn_pl_ofuda_paralysis_hit_end_Play
+wpn_pl_ofuda_paralysis_hit_ground_delete_Play
+wpn_pl_ofuda_paralysis_hit_ground_end_Play
+wpn_pl_ofuda_paralysis_hit_ground_start_Play
+wpn_pl_ofuda_paralysis_hit_start_Play
+wpn_pl_ofuda_paralysis_shot_fx_Play
+wpn_pl_ofuda_paralysis_stance_end_Play
+wpn_pl_ofuda_paralysis_stance_start_Play
+wpn_pl_ofuda_rokaku_hit_ground_end_Play
+wpn_pl_ofuda_rokaku_hit_ground_start_lv0_Play
+wpn_pl_ofuda_rokaku_hit_ground_start_lv1_Play
+wpn_pl_ofuda_rokaku_hit_ground_start_lv2_Play
+wpn_pl_ofuda_rokaku_hit_ground_start_lv3_Play
+wpn_pl_ofuda_rokaku_shot_fx_Play
+wpn_pl_ofuda_rokaku_stance_end_Play
+wpn_pl_ofuda_rokaku_stance_start_Play
+wpn_pl_ofuda_sound_hit_ground_start_lv1_Play
+wpn_pl_ofuda_sound_hit_ground_start_lv2_Play
+wpn_pl_ofuda_sound_hit_ground_start_lv3_Play
+wpn_pl_ofuda_sound_hit_ground_start_lv4_Play
+wpn_pl_ofuda_sound_stance_end_Play
+wpn_pl_ofuda_sound_stance_start_Play
+wpn_pl_spec_common_hit_default_Play
+wpn_pl_spec_common_hit_enemy_Play
+wpn_pl_spec_common_hit_invaild_Play
+wpn_pl_spec_common_stance_Stop
+wpn_pl_spec_fire_activate_start_Play
+wpn_pl_spec_fire_bullet_empty_Play
+wpn_pl_spec_fire_charge_complete_lv1_Play
+wpn_pl_spec_fire_charge_complete_lv2_Play
+wpn_pl_spec_fire_charge_complete_lv3_Play
+wpn_pl_spec_fire_charge_complete_lv4_Play
+wpn_pl_spec_fire_charge_complete_lv5_Play
+wpn_pl_spec_fire_charge_start_lv1_Play
+wpn_pl_spec_fire_charge_start_lv2_Play
+wpn_pl_spec_fire_charge_start_lv3_Play
+wpn_pl_spec_fire_charge_start_lv4_Play
+wpn_pl_spec_fire_charge_start_lv5_Play
+wpn_pl_spec_fire_hit1st_default_Play
+wpn_pl_spec_fire_hit1st_enemy_Play
+wpn_pl_spec_fire_hit2nd_default_Play
+wpn_pl_spec_fire_hit2nd_enemy_Play
+wpn_pl_spec_fire_power_levelup_Play
+wpn_pl_spec_fire_power_skillup_Play
+wpn_pl_spec_fire_shot1st_launch_Play
+wpn_pl_spec_fire_shot2nd_launch_Play
+wpn_pl_spec_fire_stance_relayed_lv1_Play
+wpn_pl_spec_fire_stance_relayed_lv2_Play
+wpn_pl_spec_fire_stance_relayed_lv3_Play
+wpn_pl_spec_fire_stance_relayed_lv4_Play
+wpn_pl_spec_fire_stance_relayed_lv5_Play
+wpn_pl_spec_fire_stance_release_Play
+wpn_pl_spec_fire_stance_start_Play
+wpn_pl_spec_fire_to_water_Play
+wpn_pl_spec_fire_to_wind_Play
+wpn_pl_spec_water_activate_start_Play
+wpn_pl_spec_water_bullet_empty_Play
+wpn_pl_spec_water_charge_complete_lv1_Play
+wpn_pl_spec_water_charge_complete_lv2_Play
+wpn_pl_spec_water_charge_complete_lv3_Play
+wpn_pl_spec_water_charge_complete_lv4_Play
+wpn_pl_spec_water_charge_complete_lv5_Play
+wpn_pl_spec_water_charge_start_lv1_Play
+wpn_pl_spec_water_charge_start_lv2_Play
+wpn_pl_spec_water_charge_start_lv3_Play
+wpn_pl_spec_water_charge_start_lv4_Play
+wpn_pl_spec_water_charge_start_lv5_Play
+wpn_pl_spec_water_hit1st_default_Play
+wpn_pl_spec_water_hit1st_enemy_Play
+wpn_pl_spec_water_hit2nd_default_Play
+wpn_pl_spec_water_hit2nd_enemy_Play
+wpn_pl_spec_water_power_levelup_Play
+wpn_pl_spec_water_power_skillup_Play
+wpn_pl_spec_water_shot1st_launch_lv1_Play
+wpn_pl_spec_water_shot1st_launch_lv2_Play
+wpn_pl_spec_water_shot1st_launch_lv3_Play
+wpn_pl_spec_water_shot1st_launch_lv4_Play
+wpn_pl_spec_water_shot1st_launch_lv5_Play
+wpn_pl_spec_water_shot2nd_launch_01_Play
+wpn_pl_spec_water_stance_relayed_lv1_Play
+wpn_pl_spec_water_stance_relayed_lv2_Play
+wpn_pl_spec_water_stance_relayed_lv3_Play
+wpn_pl_spec_water_stance_relayed_lv4_Play
+wpn_pl_spec_water_stance_relayed_lv5_Play
+wpn_pl_spec_water_stance_release_Play
+wpn_pl_spec_water_stance_start_Play
+wpn_pl_spec_water_to_fire_Play
+wpn_pl_spec_water_to_wind_Play
+wpn_pl_spec_wind_bullet_empty_Play
+wpn_pl_spec_wind_charge_complete_lv1_Play
+wpn_pl_spec_wind_charge_complete_lv2_Play
+wpn_pl_spec_wind_charge_complete_lv3_Play
+wpn_pl_spec_wind_charge_complete_lv4_Play
+wpn_pl_spec_wind_charge_complete_lv5_Play
+wpn_pl_spec_wind_charge_start_lv1_Play
+wpn_pl_spec_wind_charge_start_lv2_Play
+wpn_pl_spec_wind_charge_start_lv3_Play
+wpn_pl_spec_wind_charge_start_lv4_Play
+wpn_pl_spec_wind_charge_start_lv5_Play
+wpn_pl_spec_wind_hit_default_Play
+wpn_pl_spec_wind_hit_enemy_Play
+wpn_pl_spec_wind_power_levelup_Play
+wpn_pl_spec_wind_power_skillup_Play
+wpn_pl_spec_wind_shot1st_launch_Play
+wpn_pl_spec_wind_shot2nd_launch_1_Play
+wpn_pl_spec_wind_shot2nd_launch_2_Play
+wpn_pl_spec_wind_shot2nd_launch_3_Play
+wpn_pl_spec_wind_shot2nd_launch_4_Play
+wpn_pl_spec_wind_stance_Play
+wpn_pl_spec_wind_stance_prepare_Play
+wpn_pl_spec_wind_stance_relayed_lv1_Play
+wpn_pl_spec_wind_stance_relayed_lv2_Play
+wpn_pl_spec_wind_stance_relayed_lv3_Play
+wpn_pl_spec_wind_stance_relayed_lv4_Play
+wpn_pl_spec_wind_stance_relayed_lv5_Play
+wpn_pl_spec_wind_stance_release_Play
+wpn_pl_spec_wind_to_fire_Play
+wpn_pl_spec_wind_to_water_Play
+
+### SFX NAMES (Weapon_Common.bnk)
+# 1040480738
+# 4211468998
+
+### RTPC/GAME-VARIABLE NAMES (Weapon_Common.bnk)
+GP_Wpn_Gun_Num_Of_Bullets
+
+### VARIABLE NAMES (Weapon_Common.bnk)
+ST_Sys_Win_DualSense
+ST_UI_Menu
+ST_Wpn_Fire_Lv
+ST_Wpn_Selection
+SW_Wpn_Bow_Hit_Surface
+SW_Wpn_Gun_Ammo_Count
+
+### VALUE NAMES (Weapon_Common.bnk)
+None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+ST_UI_Menu_OPEN
+ST_UI_Menu_OPEN_Full_OLD
+ST_UI_Menu_OPEN_Half
+ST_UI_Menu_OPEN_Half_wPitch
+ST_Wpn_Fire_Lv1
+ST_Wpn_Fire_Lv3
+ST_Wpn_Fire_Lv5
+ST_Wpn_Selection_Bow
+ST_Wpn_Selection_Fox
+ST_Wpn_Selection_Kunai
+SW_Wpn_Bow_Hit_Surface_ConcDry
+SW_Wpn_Bow_Hit_Surface_ConcWet
+SW_Wpn_Bow_Hit_Surface_Dirt
+SW_Wpn_Bow_Hit_Surface_Glass
+SW_Wpn_Bow_Hit_Surface_Liquid
+SW_Wpn_Bow_Hit_Surface_Metal
+SW_Wpn_Bow_Hit_Surface_Wood
+SW_Wpn_Gun_Last
+SW_Wpn_Gun_Normal
+
+### EVENT NAMES (WwiseSpecalAudioTest_Iz.bnk)
+test_amb_base_int_01_Play
+test_amb_base_int_02_Play
+test_amb_beds_ext_01_Play
+test_tone_quadwave_Play
+test_tone_sinewave_Play
+test_ve_hallo_Play
+test_ve_talk_Play
+
+### VARIABLE NAMES (WwiseSpecalAudioTest_Iz.bnk)
+ST_Amb_Beds_Int
+ST_GS_GameScene_Area_SBY
+
+### VALUE NAMES (WwiseSpecalAudioTest_Iz.bnk)
+ST_Amb_Beds_Int_Cave
+ST_GS_GS_Area_DIM
+
+### EVENT NAMES (langs/Check.bnk)
+Test_AkPlaceholder_Sfx
+Test_AkPlaceholder_Silence
+Test_AkPlaceholder_Vox
+Test_AudioDevice_712ch_Play
+Test_Localize_Loop_Play
+Test_LU_Elevated_1_Play
+Test_LU_Elevated_2_Play
+Test_LU_Spoken_1_Play
+Test_LU_Spoken_2_Play
+Test_LU_Whisper_1_Play
+Test_Platform_LoadedSoundbank_Globalbnk_Play
+Test_Positioning_EmitterWithAutomation_Play
+Test_Positioning_ListenerWithAutomation_Play
+Test_WM_Loop_Spatialized_Play
+
+### EVENT NAMES (langs/CutScene_Common.bnk)
+__pl_param_all_init
+_cs_com_all_end_Play
+_cs_com_all_start_Play
+_cs_com_boss_end_Play
+_cs_com_shrine_purge_end_Play
+_cs_com_shrine_purge_start_Play
+_ev_com_all_end_Play
+_ev_com_all_start_Play
+_ev_qe_all_start_Play
+cs_chapter_com_end_Play
+cs_chapter_com_start_Play
+cs_clear_ui_com_end_Play
+cs_clear_ui_com_start_Play
+cs_com_sequence_skip_Play
+cs_cs0200_00_end_Play
+cs_cs0200_00_start_Play
+cs_cs0201_00_end_Play
+cs_cs0201_00_start_Play
+cs_cs0202_00_end_Play
+cs_cs0202_00_start_Play
+cs_cs0202_01_end_Play
+cs_cs0202_01_start_Play
+cs_cs0206_00_end_Play
+cs_cs0206_00_start_Play
+cs_cs0207_00_end_Play
+cs_cs0207_00_start_Play
+cs_cs0208_00_end_Play
+cs_cs0208_00_start_Play
+cs_cs0209_00_end_Play
+cs_cs0209_00_start_Play
+cs_cs0210_00_end_Play
+cs_cs0210_00_start_Play
+cs_cs0210_01_end_Play
+cs_cs0210_01_start_Play
+cs_cs0210_02_end_Play
+cs_cs0210_02_start_Play
+cs_cs0211_00_end_Play
+cs_cs0211_00_start_Play
+cs_cs0212_00_end_Play
+cs_cs0212_00_start_Play
+cs_cs0213_00_end_Play
+cs_cs0213_00_start_Play
+cs_cs0214_00_end_Play
+cs_cs0214_00_start_Play
+cs_cs0215_00_end_Play
+cs_cs0215_00_start_Play
+cs_cs0216_00_end_Play
+cs_cs0216_00_start_Play
+cs_cs0217_00_end_Play
+cs_cs0217_00_start_Play
+cs_cs0218_00_end_Play
+cs_cs0218_00_start_Play
+cs_cs0219_00_end_Play
+cs_cs0219_00_start_Play
+cs_cs0220_00_end_Play
+cs_cs0220_00_start_Play
+cs_cs0221_00_end_Play
+cs_cs0221_00_start_Play
+cs_cs0222_00_end_Play
+cs_cs0222_00_start_Play
+cs_cs0223_00_end_Play
+cs_cs0223_00_start_Play
+cs_cs0224_00_end_Play
+cs_cs0224_00_start_Play
+cs_cs0225_00_end_Play
+cs_cs0225_00_start_Play
+cs_cs0227_00_end_Play
+cs_cs0227_00_start_Play
+cs_cs0228_00_end_Play
+cs_cs0228_00_start_Play
+cs_cs0229_00_end_Play
+cs_cs0229_00_start_Play
+cs_cs0233_00_end_Play
+cs_cs0233_00_start_Play
+cs_cs0234_00_end_Play
+cs_cs0234_00_start_Play
+cs_cs0235_00_end_Play
+cs_cs0235_00_start_Play
+cs_cs0236_00_end_Play
+cs_cs0236_00_start_Play
+cs_cs0237_00_end_Play
+cs_cs0237_00_start_Play
+cs_cs0238_00_end_Play
+cs_cs0238_00_start_Play
+cs_cs0239_00_end_Play
+cs_cs0239_00_start_Play
+cs_cs1202_00_cut000_start_Play
+cs_cs1208_00_cut000_start_Play
+cs_cs1209_00_end_Play
+cs_cs1209_00_start_Play
+cs_cs1212_00_cut036_start_Play
+cs_cs1213_00_cut000_start_Play
+cs_cs1213_01_cut000_start_Play
+cs_cs1219_00_cut000_start_Play
+cs_cs1239_00_end_Play
+cs_cs1239_00_start_Play
+ev_0150_00_end_Play
+ev_0150_00_start_Play
+ev_0151_00_end_Play
+ev_0151_00_start_Play
+ev_0152_00_end_Play
+ev_0152_00_start_Play
+ev_0153_00_end_Play
+ev_0153_00_start_Play
+ev_0154_00_end_Play
+ev_0154_00_start_Play
+ev_0160_00_end_Play
+ev_0160_00_start_Play
+ev_0161_00_end_Play
+ev_0161_00_start_Play
+ev_0200_00_end_Play
+ev_0200_00_start_Play
+ev_0201_00_end_Play
+ev_0201_00_start_Play
+ev_0202_00_end_Play
+ev_0202_00_start_Play
+ev_0203_00_end_Play
+ev_0203_00_start_Play
+ev_0204_00_end_Play
+ev_0204_00_start_Play
+ev_0205_00_end_Play
+ev_0205_00_start_Play
+ev_0206_00_end_Play
+ev_0206_00_start_Play
+ev_0207_00_end_Play
+ev_0207_00_start_Play
+ev_0208_00_end_Play
+ev_0208_00_start_Play
+ev_0209_00_end_Play
+ev_0209_00_start_Play
+ev_0210_00_end_Play
+ev_0210_00_start_Play
+ev_0211_00_end_Play
+ev_0211_00_start_Play
+ev_0212_00_end_Play
+ev_0212_00_start_Play
+ev_0213_00_end_Play
+ev_0213_00_start_Play
+ev_0214_00_end_Play
+ev_0214_00_start_Play
+ev_0215_00_end_Play
+ev_0215_00_start_Play
+ev_0216_00_end_Play
+ev_0216_00_start_Play
+ev_0217_00_end_Play
+ev_0217_00_start_Play
+ev_0218_00_end_Play
+ev_0218_00_start_Play
+ev_0219_00_end_Play
+ev_0219_00_start_Play
+ev_0220_00_end_Play
+ev_0220_00_start_Play
+ev_0221_00_end_Play
+ev_0221_00_start_Play
+ev_0222_00_end_Play
+ev_0222_00_start_Play
+ev_0223_00_end_Play
+ev_0223_00_start_Play
+ev_0223_pre_blackout_start_Play
+ev_0223_pre_bonnet_open_Play
+ev_0223_pre_turbine_search_Play
+ev_1213_00_cut000_start_Play
+ev_1215_00_cut000_start_Play
+ev_qe0780_00_end_Play
+ev_qe0780_00_start_Play
+ev_qe0790_00_end_Play
+ev_qe0790_00_start_Play
+ev_qe0790_01_end_Play
+ev_qe0790_01_start_Play
+ev_qe0790_02_end_Play
+ev_qe0790_02_start_Play
+ev_qe0840_02_end_Play
+ev_qe0840_02_start_Play
+GS_GameScene_Scene_GameOver_Leave
+sp_story_qe0840_piano_normal_end_Play
+
+### SFX NAMES (langs/CutScene_Common.bnk)
+# 4211468998
+
+### VARIABLE NAMES (langs/CutScene_Common.bnk)
+ST_CS_Common
+ST_GS_GameScene_Scene
+ST_Mu_IM_00_Enemy
+ST_Mu_IM_01_Scene
+ST_Mu_IM_02_Play
+ST_Mu_IM_03_Situation
+ST_Mu_IM_04_MM_GSeq
+ST_Mu_IM_05_SM_GSeq
+ST_Mu_IM_06_Specific_CS
+ST_pl_Action
+ST_pl_Battle
+ST_pl_Foliage
+ST_pl_fs_unique
+ST_pl_HP
+ST_pl_Scan
+ST_sp_hannya_agitation
+ST_Sys_Win_DualSense
+ST_UI_Menu
+ST_UR_CS
+ST_Voice_Akito_Fx
+
+### VALUE NAMES (langs/CutScene_Common.bnk)
+None
+ST_CS_Com_End
+ST_CS_CS_Start
+ST_CS_EV0223_Start
+ST_CS_EV_Start
+ST_CS_EVQE_Start
+ST_CS_ShrinePurge_Start
+ST_GS_GS_Dead
+ST_GS_GS_None
+ST_Mu_IM_00_a_Lost
+ST_Mu_IM_01_c_Play
+ST_Mu_IM_01_e_GameOver
+ST_Mu_IM_01_f_Shrine
+ST_Mu_IM_01_g_Daimon
+ST_Mu_IM_02_a_Normal
+ST_Mu_IM_02_b_MM
+ST_Mu_IM_03_Phase02_Approach
+ST_Mu_IM_03_Phase03_Search
+ST_Mu_IM_03_Phase04_Battle
+ST_Mu_IM_04_MM_GSeq_010030
+ST_Mu_IM_04_MM_GSeq_010035
+ST_Mu_IM_04_MM_GSeq_011120
+ST_Mu_IM_04_MM_GSeq_023140
+ST_Mu_IM_04_MM_GSeq_023150
+ST_Mu_IM_04_MM_GSeq_023160
+ST_Mu_IM_04_MM_GSeq_023165
+ST_Mu_IM_04_MM_GSeq_024050
+ST_Mu_IM_04_MM_GSeq_024060
+ST_Mu_IM_04_MM_GSeq_024090
+ST_Mu_IM_04_MM_GSeq_024100
+ST_Mu_IM_04_MM_GSeq_030180
+ST_Mu_IM_04_MM_GSeq_030200
+ST_Mu_IM_04_MM_GSeq_031060
+ST_Mu_IM_04_MM_GSeq_031070
+ST_Mu_IM_04_MM_GSeq_032095
+ST_Mu_IM_04_MM_GSeq_050000
+ST_Mu_IM_04_MM_GSeq_050030
+ST_Mu_IM_04_MM_GSeq_050090
+ST_Mu_IM_04_MM_GSeq_050100
+ST_Mu_IM_04_MM_GSeq_050120
+ST_Mu_IM_04_MM_GSeq_051055
+ST_Mu_IM_04_MM_GSeq_051080
+ST_Mu_IM_04_MM_GSeq_051085
+ST_Mu_IM_04_MM_GSeq_061020
+ST_Mu_IM_04_MM_GSeq_061030
+ST_Mu_IM_04_MM_GSeq_z_NoMusic
+ST_Mu_IM_05_SM_GSeq_z_NoMusic
+ST_Mu_IM_06_Specific_CS_OFF
+ST_Mu_IM_06_Specific_CS_ON
+ST_pl_Action_None
+ST_pl_Battle_None
+ST_pl_Foliage_Out
+ST_pl_fs_unique_normal
+ST_pl_HP_Normal
+ST_pl_Scan_OFF
+ST_sp_hannya_agitation_OFF
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+ST_UI_Menu_OPEN
+ST_UI_Menu_OPEN_Half
+ST_UR_CS_In
+ST_UR_CS_Out
+ST_Voice_Akito_Fx_None
+
+### EVENT NAMES (langs/NPC_GhostCommon.bnk)
+npc_ghost_all_fadeout_Play
+npc_ghost_animal_appear_Play
+npc_ghost_animal_purge_Play
+npc_ghost_common_absorb_cancel_Play
+npc_ghost_common_absorb_complete_Play
+npc_ghost_common_absorb_start_Play
+npc_ghost_common_appear_Play
+npc_ghost_common_fusion_flash_Play
+npc_ghost_common_magatama_spawn_01_Play
+npc_ghost_common_purge_cancel_Play
+npc_ghost_common_purge_complete_Play
+npc_ghost_common_purge_pullout_pile_Play
+npc_ghost_common_purge_start_Play
+npc_ghost_common_talk_noise_Play
+npc_ghost_evil_appear_Play
+npc_ghost_evil_binded_end_Play
+npc_ghost_evil_binded_start_Play
+npc_ghost_evil_purge_pre_start_Play
+npc_ghost_evil_purge_pre_stop_Play
+npc_ghost_evil_purge_start_Play
+npc_ghost_talk_all_Stop
+npc_ghost_talk_boy_10s_01_Play
+npc_ghost_talk_boy_3s_01_Play
+npc_ghost_talk_boy_7s_01_Play
+npc_ghost_talk_female_10s_01_Play
+npc_ghost_talk_female_3s_01_Play
+npc_ghost_talk_female_7s_01_Play
+npc_ghost_talk_girl_10s_01_Play
+npc_ghost_talk_girl_3s_01_Play
+npc_ghost_talk_girl_7s_01_Play
+npc_ghost_talk_male_10s_01_Play
+npc_ghost_talk_male_3s_01_Play
+npc_ghost_talk_male_7s_01_Play
+npc_yokai_common_appear_Play
+ve_npc_ghost_evil_damage_01_Play
+ve_npc_ghost_evil_scream_01_Play
+
+### SFX NAMES (langs/NPC_GhostCommon.bnk)
+# 2309120930
+# 4211468998
+
+### RTPC/GAME-VARIABLE NAMES (langs/NPC_GhostCommon.bnk)
+GP_NPC_Evil_Binded
+
+### VARIABLE NAMES (langs/NPC_GhostCommon.bnk)
+ST_Sys_Win_DualSense
+SW_NPC_VoiceType
+
+### VALUE NAMES (langs/NPC_GhostCommon.bnk)
+None
+ST_Sys_Win_DualSense_OFF
+ST_Sys_Win_DualSense_ON
+SW_NPC_VoiceType_Female_A
+SW_NPC_VoiceType_Female_B
+SW_NPC_VoiceType_Female_C
+SW_NPC_VoiceType_Female_D
+SW_NPC_VoiceType_Female_E
+SW_NPC_VoiceType_Kids_A
+SW_NPC_VoiceType_Kids_B
+SW_NPC_VoiceType_Male_A
+SW_NPC_VoiceType_Male_B
+SW_NPC_VoiceType_Male_C
+SW_NPC_VoiceType_Male_D
+SW_NPC_VoiceType_Male_E
+
+### EVENT NAMES (langs/NPC_Zashikiwarashi.bnk)
+npc_zashikiwarashi_amb_inside_end_Play
+npc_zashikiwarashi_amb_inside_start_oneshot_Play
+npc_zashikiwarashi_amb_inside_start_Play
+npc_zashikiwarashi_amb_outside_end_Play
+npc_zashikiwarashi_amb_outside_start_loop_Play
+npc_zashikiwarashi_amb_outside_start_oneshot_Play
+VO_NPT_8031_0110_amb_Play
+VO_NPT_8031_0110_amb_Stop
+
+### VARIABLE NAMES (langs/NPC_Zashikiwarashi.bnk)
+ST_Mu_IM_05_SM_GSeq
+ST_sp_story_qe0600
+
+### VALUE NAMES (langs/NPC_Zashikiwarashi.bnk)
+None
+ST_Mu_IM_05_SM_GSeq_Common_A
+ST_Mu_IM_05_SM_GSeq_Common_B
+ST_Mu_IM_05_SM_GSeq_Common_C
+ST_Mu_IM_05_SM_GSeq_Common_E
+ST_Mu_IM_05_SM_GSeq_Common_F
+ST_Mu_IM_05_SM_GSeq_Common_G
+ST_Mu_IM_05_SM_GSeq_Common_H
+ST_Mu_IM_05_SM_GSeq_Common_I
+ST_Mu_IM_05_SM_GSeq_Common_J
+ST_Mu_IM_05_SM_GSeq_Common_K_01
+ST_Mu_IM_05_SM_GSeq_Common_K_02
+ST_Mu_IM_05_SM_GSeq_Common_K_03
+ST_Mu_IM_05_SM_GSeq_Common_K_04
+ST_Mu_IM_05_SM_GSeq_Common_L
+ST_Mu_IM_05_SM_GSeq_Common_M
+ST_Mu_IM_05_SM_GSeq_Common_N
+ST_Mu_IM_05_SM_GSeq_Common_O
+ST_Mu_IM_05_SM_GSeq_Common_P_01
+ST_Mu_IM_05_SM_GSeq_Common_P_02
+ST_Mu_IM_05_SM_GSeq_Common_Q
+ST_Mu_IM_05_SM_GSeq_Common_R_01
+ST_Mu_IM_05_SM_GSeq_Common_R_02
+ST_Mu_IM_05_SM_GSeq_Common_S_02
+ST_Mu_IM_05_SM_GSeq_Common_T
+ST_Mu_IM_05_SM_GSeq_Common_T_ALT
+ST_Mu_IM_05_SM_GSeq_Common_U
+ST_Mu_IM_05_SM_GSeq_Common_V
+ST_Mu_IM_05_SM_GSeq_Common_W
+ST_Mu_IM_05_SM_GSeq_Common_X
+ST_Mu_IM_05_SM_GSeq_z_NoMusic
+ST_sp_story_qe0600_00_start
+ST_sp_story_qe0600_01_get_key
+ST_sp_story_qe0600_02_get_map
+ST_sp_story_qe0600_03_scan_tokonoma
+ST_sp_story_qe0600_none
+
+### EVENT NAMES (langs/NPC_ch0500.bnk)
+npc_ch0500_binded_end_Play
+npc_ch0500_binded_start_Play
+npc_ch0500_disappear_Play
+npc_ch0500_flick_end_Play
+npc_ch0500_flick_start_Play
+npc_ch0500_whiteout_Play
+ve_npc_ch0500_MMT_0833_1210_Play
+ve_npc_ch0500_MMT_0833_1510_Play
+
+### EVENT NAMES (langs/UI_Language.bnk)
+ui_menu_paratech_camera_figure_Animal_Butterfly01_Play
+ui_menu_paratech_camera_figure_Animal_Carp01_Play
+ui_menu_paratech_camera_figure_Animal_Cat01_Play
+ui_menu_paratech_camera_figure_Animal_Cat02_Play
+ui_menu_paratech_camera_figure_Animal_Cat03_Play
+ui_menu_paratech_camera_figure_Animal_Cat04_Play
+ui_menu_paratech_camera_figure_Animal_Cat05_Play
+ui_menu_paratech_camera_figure_Animal_Cat06_Play
+ui_menu_paratech_camera_figure_Animal_Cat07_Play
+ui_menu_paratech_camera_figure_Animal_Cat_Erika_Play
+ui_menu_paratech_camera_figure_Animal_Cockroach01_Play
+ui_menu_paratech_camera_figure_Animal_Crab01_Play
+ui_menu_paratech_camera_figure_Animal_Crow01_Play
+ui_menu_paratech_camera_figure_Animal_Crow02_Play
+ui_menu_paratech_camera_figure_Animal_Dog01_Play
+ui_menu_paratech_camera_figure_Animal_Dog02_Play
+ui_menu_paratech_camera_figure_Animal_Dog03_Play
+ui_menu_paratech_camera_figure_Animal_Dog04_Play
+ui_menu_paratech_camera_figure_Animal_Frog01_Play
+ui_menu_paratech_camera_figure_Animal_Lizard01_Play
+ui_menu_paratech_camera_figure_Animal_NekomataCat01_Play
+ui_menu_paratech_camera_figure_Animal_NekomataCat02_Play
+ui_menu_paratech_camera_figure_Animal_RakoonDog01_Play
+ui_menu_paratech_camera_figure_Animal_RakoonDog02_Play
+ui_menu_paratech_camera_figure_Animal_RakoonDog03_Play
+ui_menu_paratech_camera_figure_Animal_RakoonDog04_Play
+ui_menu_paratech_camera_figure_Animal_RakoonDog05_Play
+ui_menu_paratech_camera_figure_Animal_RakoonDog06_Play
+ui_menu_paratech_camera_figure_Animal_RakoonDog07_Play
+ui_menu_paratech_camera_figure_Animal_RakoonDog08_Play
+ui_menu_paratech_camera_figure_Animal_RakoonDog09_Play
+ui_menu_paratech_camera_figure_Animal_RakoonDog99_Play
+ui_menu_paratech_camera_figure_Animal_Rat01_Play
+ui_menu_paratech_camera_figure_Animal_Rat02_Play
+ui_menu_paratech_camera_figure_Animal_Snails01_Play
+ui_menu_paratech_camera_figure_Animal_Turtle01_Play
+ui_menu_paratech_camera_figure_Animal_Turtle02_Play
+ui_menu_paratech_camera_figure_appear_Play
+ui_menu_paratech_camera_figure_capsule_appear_pre_Play
+ui_menu_paratech_camera_figure_capsule_open_Play
+ui_menu_paratech_camera_figure_capsule_start_Play
+ui_menu_paratech_camera_figure_common_Play
+ui_menu_paratech_camera_figure_Enemy_Akamanto01_Play
+ui_menu_paratech_camera_figure_Enemy_Akamanto02_Play
+ui_menu_paratech_camera_figure_Enemy_Akamanto03_Play
+ui_menu_paratech_camera_figure_Enemy_Betobeto01_Play
+ui_menu_paratech_camera_figure_Enemy_Betobeto02_Play
+ui_menu_paratech_camera_figure_Enemy_Betobeto03_Play
+ui_menu_paratech_camera_figure_Enemy_Betobeto_Invisible01_Play
+ui_menu_paratech_camera_figure_Enemy_Betobeto_Invisible02_Play
+ui_menu_paratech_camera_figure_Enemy_Betobeto_Invisible03_Play
+ui_menu_paratech_camera_figure_Enemy_Densen01_Play
+ui_menu_paratech_camera_figure_Enemy_Densen02_Play
+ui_menu_paratech_camera_figure_Enemy_Densen03_Play
+ui_menu_paratech_camera_figure_Enemy_Gakuran01_Play
+ui_menu_paratech_camera_figure_Enemy_Gakuran02_Play
+ui_menu_paratech_camera_figure_Enemy_Gakuran03_Play
+ui_menu_paratech_camera_figure_Enemy_Gakuran_Jersey01_Play
+ui_menu_paratech_camera_figure_Enemy_Gakuran_Jersey02_Play
+ui_menu_paratech_camera_figure_Enemy_Gakuran_Jersey03_Play
+ui_menu_paratech_camera_figure_Enemy_Gakuran_Work01_Play
+ui_menu_paratech_camera_figure_Enemy_Gakuran_Work02_Play
+ui_menu_paratech_camera_figure_Enemy_Gakuran_Work03_Play
+ui_menu_paratech_camera_figure_Enemy_Gakuran_WorkRed01_Play
+ui_menu_paratech_camera_figure_Enemy_Gakuran_WorkRed02_Play
+ui_menu_paratech_camera_figure_Enemy_Gakuran_WorkRed03_Play
+ui_menu_paratech_camera_figure_Enemy_HanakoSan01_Play
+ui_menu_paratech_camera_figure_Enemy_HanakoSan02_Play
+ui_menu_paratech_camera_figure_Enemy_HanakoSan03_Play
+ui_menu_paratech_camera_figure_Enemy_Hannya_Mrbt01_Play
+ui_menu_paratech_camera_figure_Enemy_Hannya_Mrbt02_Play
+ui_menu_paratech_camera_figure_Enemy_Hannya_Mrbt03_Play
+ui_menu_paratech_camera_figure_Enemy_Jibakurei01_Play
+ui_menu_paratech_camera_figure_Enemy_Jibakurei02_Play
+ui_menu_paratech_camera_figure_Enemy_Jibakurei03_Play
+ui_menu_paratech_camera_figure_Enemy_Jintaimokei01_Play
+ui_menu_paratech_camera_figure_Enemy_Jintaimokei02_Play
+ui_menu_paratech_camera_figure_Enemy_Jintaimokei03_Play
+ui_menu_paratech_camera_figure_Enemy_JK01_Play
+ui_menu_paratech_camera_figure_Enemy_JK02_Play
+ui_menu_paratech_camera_figure_Enemy_JK03_Play
+ui_menu_paratech_camera_figure_Enemy_JK_Green01_Play
+ui_menu_paratech_camera_figure_Enemy_JK_Green02_Play
+ui_menu_paratech_camera_figure_Enemy_JK_Green03_Play
+ui_menu_paratech_camera_figure_Enemy_JK_Red01_Play
+ui_menu_paratech_camera_figure_Enemy_JK_Red02_Play
+ui_menu_paratech_camera_figure_Enemy_JK_Red03_Play
+ui_menu_paratech_camera_figure_Enemy_JK_Winter01_Play
+ui_menu_paratech_camera_figure_Enemy_JK_Winter02_Play
+ui_menu_paratech_camera_figure_Enemy_JK_Winter03_Play
+ui_menu_paratech_camera_figure_Enemy_Kid01_Play
+ui_menu_paratech_camera_figure_Enemy_Kid02_Play
+ui_menu_paratech_camera_figure_Enemy_Kid03_Play
+ui_menu_paratech_camera_figure_Enemy_Kid_Red01_Play
+ui_menu_paratech_camera_figure_Enemy_Kid_Red02_Play
+ui_menu_paratech_camera_figure_Enemy_Kid_Red03_Play
+ui_menu_paratech_camera_figure_Enemy_Koomote_Mrbt01_Play
+ui_menu_paratech_camera_figure_Enemy_Koomote_Mrbt02_Play
+ui_menu_paratech_camera_figure_Enemy_Koomote_Mrbt03_Play
+ui_menu_paratech_camera_figure_Enemy_Kuchisake01_Play
+ui_menu_paratech_camera_figure_Enemy_Kuchisake02_Play
+ui_menu_paratech_camera_figure_Enemy_Kuchisake03_Play
+ui_menu_paratech_camera_figure_Enemy_Kuchisake_Mud01_Play
+ui_menu_paratech_camera_figure_Enemy_Kuchisake_Mud02_Play
+ui_menu_paratech_camera_figure_Enemy_Kuchisake_Mud03_Play
+ui_menu_paratech_camera_figure_Enemy_Kuchisake_Other01_Play
+ui_menu_paratech_camera_figure_Enemy_Kuchisake_Other02_Play
+ui_menu_paratech_camera_figure_Enemy_Kuchisake_Other03_Play
+ui_menu_paratech_camera_figure_Enemy_Kuchisake_Red01_Play
+ui_menu_paratech_camera_figure_Enemy_Kuchisake_Red02_Play
+ui_menu_paratech_camera_figure_Enemy_Kuchisake_Red03_Play
+ui_menu_paratech_camera_figure_Enemy_Okina_Mrbt01_Play
+ui_menu_paratech_camera_figure_Enemy_Okina_Mrbt02_Play
+ui_menu_paratech_camera_figure_Enemy_Okina_Mrbt03_Play
+ui_menu_paratech_camera_figure_Enemy_Okina_Mrbt2nd01_Play
+ui_menu_paratech_camera_figure_Enemy_Okina_Mrbt2nd02_Play
+ui_menu_paratech_camera_figure_Enemy_Okina_Mrbt2nd03_Play
+ui_menu_paratech_camera_figure_Enemy_OL01_Play
+ui_menu_paratech_camera_figure_Enemy_OL02_Play
+ui_menu_paratech_camera_figure_Enemy_OL03_Play
+ui_menu_paratech_camera_figure_Enemy_OL_Guide01_Play
+ui_menu_paratech_camera_figure_Enemy_OL_Guide02_Play
+ui_menu_paratech_camera_figure_Enemy_OL_Guide03_Play
+ui_menu_paratech_camera_figure_Enemy_OL_Healer01_Play
+ui_menu_paratech_camera_figure_Enemy_OL_Healer02_Play
+ui_menu_paratech_camera_figure_Enemy_OL_Healer03_Play
+ui_menu_paratech_camera_figure_Enemy_SaraYurei01_Play
+ui_menu_paratech_camera_figure_Enemy_SaraYurei02_Play
+ui_menu_paratech_camera_figure_Enemy_SaraYurei03_Play
+ui_menu_paratech_camera_figure_Enemy_SaraYurei_Other01_Play
+ui_menu_paratech_camera_figure_Enemy_SaraYurei_Other02_Play
+ui_menu_paratech_camera_figure_Enemy_SaraYurei_Other03_Play
+ui_menu_paratech_camera_figure_Enemy_Shiromuku01_Play
+ui_menu_paratech_camera_figure_Enemy_Shiromuku02_Play
+ui_menu_paratech_camera_figure_Enemy_Shiromuku03_Play
+ui_menu_paratech_camera_figure_Enemy_Teruteru01_Play
+ui_menu_paratech_camera_figure_Enemy_Teruteru02_Play
+ui_menu_paratech_camera_figure_Enemy_Teruteru03_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan01_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan02_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan03_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_BlueRich01_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_BlueRich02_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_BlueRich03_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_FatShirt01_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_FatShirt02_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_FatShirt03_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_FrontOpen01_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_FrontOpen02_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_FrontOpen03_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_Guard01_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_Guard02_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_Guard03_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_Mud01_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_Mud02_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_Mud03_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_MudFat01_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_MudFat02_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_MudFat03_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_MudNata01_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_MudNata02_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_MudNata03_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_RedFat01_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_RedFat02_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_RedFat03_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_RedRich01_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_RedRich02_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_RedRich03_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_SlimShirt01_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_SlimShirt02_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaMan_SlimShirt03_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaOL_Nata01_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaOL_Nata02_Play
+ui_menu_paratech_camera_figure_Enemy_UmbrellaOL_Nata03_Play
+ui_menu_paratech_camera_figure_Enemy_YaseOtoko_Mrbt01_Play
+ui_menu_paratech_camera_figure_Enemy_YaseOtoko_Mrbt02_Play
+ui_menu_paratech_camera_figure_Enemy_YaseOtoko_Mrbt03_Play
+ui_menu_paratech_camera_figure_Enemy_YaseOtoko_Mrbt2nd01_Play
+ui_menu_paratech_camera_figure_Enemy_YaseOtoko_Mrbt2nd02_Play
+ui_menu_paratech_camera_figure_Enemy_YaseOtoko_Mrbt2nd03_Play
+ui_menu_paratech_camera_figure_NPC_Ed01_Play
+ui_menu_paratech_camera_figure_NPC_Ed02_Play
+ui_menu_paratech_camera_figure_NPC_Ed03_Play
+ui_menu_paratech_camera_figure_NPC_Erika01_Play
+ui_menu_paratech_camera_figure_NPC_Erika02_Play
+ui_menu_paratech_camera_figure_NPC_Erika03_Play
+ui_menu_paratech_camera_figure_NPC_Erika04_Play
+ui_menu_paratech_camera_figure_NPC_EvilGhost01_Play
+ui_menu_paratech_camera_figure_NPC_EvilGhost02_Play
+ui_menu_paratech_camera_figure_NPC_EvilGhost03_Play
+ui_menu_paratech_camera_figure_NPC_Hannya_01_Play
+ui_menu_paratech_camera_figure_NPC_Hannya_02_Play
+ui_menu_paratech_camera_figure_NPC_Hannya_03_Play
+ui_menu_paratech_camera_figure_NPC_Hannya_04_Play
+ui_menu_paratech_camera_figure_NPC_KK01_Play
+ui_menu_paratech_camera_figure_NPC_KK02_Play
+ui_menu_paratech_camera_figure_NPC_KK03_Play
+ui_menu_paratech_camera_figure_NPC_KK04_Play
+ui_menu_paratech_camera_figure_NPC_Mari01_Play
+ui_menu_paratech_camera_figure_NPC_Mari02_Play
+ui_menu_paratech_camera_figure_NPC_Mari03_Play
+ui_menu_paratech_camera_figure_NPC_Mari04_Play
+ui_menu_paratech_camera_figure_NPC_Mari05_Play
+ui_menu_paratech_camera_figure_NPC_Mari06_Play
+ui_menu_paratech_camera_figure_NPC_Okina_01_Play
+ui_menu_paratech_camera_figure_NPC_Rinko01_Play
+ui_menu_paratech_camera_figure_NPC_Rinko02_Play
+ui_menu_paratech_camera_figure_NPC_Rinko03_Play
+ui_menu_paratech_camera_figure_NPC_Tatariya_01_Play
+ui_menu_paratech_camera_figure_NPC_TatariyaA_01_Play
+ui_menu_paratech_camera_figure_NPC_TatariyaA_02_Play
+ui_menu_paratech_camera_figure_NPC_TatariyaA_03_Play
+ui_menu_paratech_camera_figure_NPC_TatariyaA_04_Play
+ui_menu_paratech_camera_figure_NPC_TatariyaB_01_Play
+ui_menu_paratech_camera_figure_NPC_TatariyaB_02_Play
+ui_menu_paratech_camera_figure_NPC_TatariyaB_03_Play
+ui_menu_paratech_camera_figure_NPC_TatariyaB_04_Play
+ui_menu_paratech_camera_figure_NPC_TatariyaC_01_Play
+ui_menu_paratech_camera_figure_NPC_TatariyaC_02_Play
+ui_menu_paratech_camera_figure_NPC_TatariyaC_03_Play
+ui_menu_paratech_camera_figure_NPC_TatariyaC_04_Play
+ui_menu_paratech_camera_figure_NPC_Yaseotoko_02_Play
+ui_menu_paratech_camera_figure_NPC_Yaseotoko_04_Play
+ui_menu_paratech_camera_figure_Object_AkitoMotorCycle_Play
+ui_menu_paratech_camera_figure_Object_BreakMotorCycle_Play
+ui_menu_paratech_camera_figure_Object_RinkoMotorCycle_Play
+ui_menu_paratech_camera_figure_Object_Torii_Kegare_Play
+ui_menu_paratech_camera_figure_Special_LoveHachi_Play
+ui_menu_paratech_camera_figure_Special_TeradaPoster_Play
+ui_menu_paratech_camera_figure_Spot_Hanakosan01_Play
+ui_menu_paratech_camera_figure_Spot_Hanakosan02_Play
+ui_menu_paratech_camera_figure_Spot_Hanakosan03_Play
+ui_menu_paratech_camera_figure_Spot_Jintaimokei01_Play
+ui_menu_paratech_camera_figure_Spot_Jintaimokei02_Play
+ui_menu_paratech_camera_figure_Spot_Jintaimokei03_Play
+ui_menu_paratech_camera_figure_Yokai_Ittanmomen01_Play
+ui_menu_paratech_camera_figure_Yokai_Ittanmomen02_Play
+ui_menu_paratech_camera_figure_Yokai_Ittanmomen03_Play
+ui_menu_paratech_camera_figure_Yokai_Kamaitachi01_Play
+ui_menu_paratech_camera_figure_Yokai_Kamaitachi02_Play
+ui_menu_paratech_camera_figure_Yokai_Kamaitachi03_Play
+ui_menu_paratech_camera_figure_Yokai_Kappa01_Play
+ui_menu_paratech_camera_figure_Yokai_Kappa02_Play
+ui_menu_paratech_camera_figure_Yokai_Kappa03_Play
+ui_menu_paratech_camera_figure_Yokai_Karakasa01_Play
+ui_menu_paratech_camera_figure_Yokai_Karakasa02_Play
+ui_menu_paratech_camera_figure_Yokai_Karakasa03_Play
+ui_menu_paratech_camera_figure_Yokai_Kodama01_Play
+ui_menu_paratech_camera_figure_Yokai_Kodama02_Play
+ui_menu_paratech_camera_figure_Yokai_Kodama03_Play
+ui_menu_paratech_camera_figure_Yokai_Nekomata01_Play
+ui_menu_paratech_camera_figure_Yokai_Nekomata02_Play
+ui_menu_paratech_camera_figure_Yokai_Nekomata03_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataBig01_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataBig02_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataBig03_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataNamed01_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataNamed02_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataNamed03_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataNamed04_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataNamed05_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataNamed06_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataNamed07_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataNamed08_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataNamed09_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataNamed10_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataNamed11_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataNamed12_Play
+ui_menu_paratech_camera_figure_Yokai_NekomataNamed13_Play
+ui_menu_paratech_camera_figure_Yokai_Nurikabe01_Play
+ui_menu_paratech_camera_figure_Yokai_Nurikabe02_Play
+ui_menu_paratech_camera_figure_Yokai_Nurikabe03_Play
+ui_menu_paratech_camera_figure_Yokai_Oni01_Play
+ui_menu_paratech_camera_figure_Yokai_Oni02_Play
+ui_menu_paratech_camera_figure_Yokai_Oni03_Play
+ui_menu_paratech_camera_figure_Yokai_Rokurokubi01_Play
+ui_menu_paratech_camera_figure_Yokai_Rokurokubi02_Play
+ui_menu_paratech_camera_figure_Yokai_Rokurokubi03_Play
+ui_menu_paratech_camera_figure_Yokai_Tengu01_Play
+ui_menu_paratech_camera_figure_Yokai_Tengu02_Play
+ui_menu_paratech_camera_figure_Yokai_Tengu03_Play
+ui_menu_paratech_camera_figure_Yokai_Zashiki01_Play
+ui_menu_paratech_camera_figure_Yokai_Zashiki02_Play
+ui_menu_paratech_camera_figure_Yokai_Zashiki03_Play
+
+### SFX NAMES (langs/UI_Language.bnk)
+# 1007506615
+
+### RTPC/GAME-VARIABLE NAMES (langs/UI_Language.bnk)
+GP_BIP_Distance_10000
+
+### VARIABLE NAMES (langs/UI_Language.bnk)
+ST_pl_Action
+ST_UI_PhotoMode
+
+### VALUE NAMES (langs/UI_Language.bnk)
+ST_pl_Action_CleanseTorii
+ST_UI_PhotoMode_ON
+
+### EVENT NAMES (langs/VoiceEffect_Player.bnk)
 ui_item_meal_com_a_use_Play
 ui_item_meal_com_b_use_Play
 ui_item_meal_com_c_use_Play
@@ -9807,22 +10078,19 @@ ve_pl_mvmt_sprint_after_Play
 ve_pl_mvmt_sprint_start_Play
 ve_pl_separation_start_Play
 
-### SFX NAMES (VoiceEffect_Player.bnk)
-# 174236514
-# 828157840
+### SFX NAMES (langs/VoiceEffect_Player.bnk)
 # 4211468998
 
-### RTPC/GAME-VARIABLE NAMES (VoiceEffect_Player.bnk)
+### RTPC/GAME-VARIABLE NAMES (langs/VoiceEffect_Player.bnk)
 GP_pl_HP
-# 924824040
 
-### VARIABLE NAMES (VoiceEffect_Player.bnk)
+### VARIABLE NAMES (langs/VoiceEffect_Player.bnk)
 ST_CS_Common
 ST_GS_GameScene_Scene
 ST_Sys_Win_DualSense
 ST_UI_Menu
 
-### VALUE NAMES (VoiceEffect_Player.bnk)
+### VALUE NAMES (langs/VoiceEffect_Player.bnk)
 None
 ST_CS_CS_Start
 ST_CS_EV0223_Start
@@ -9840,7 +10108,7 @@ ST_Sys_Win_DualSense_OFF
 ST_Sys_Win_DualSense_ON
 ST_UI_Menu_OPEN_Half_wPitch
 
-### EVENT NAMES (VoiceTalk_Common.bnk)
+### EVENT NAMES (langs/VoiceTalk_Common.bnk)
 VO_BDT_0000_1510_Play
 VO_BDT_0000_1610_Play
 VO_BDT_0000_1710_Play
@@ -15379,27 +15647,17 @@ VO_VLT_1050_0070_Play
 VO_VLT_1050_0080_Play
 VO_VLT_1050_0090_Play
 
-### SFX NAMES (VoiceTalk_Common.bnk)
-# 393439844
-# 735765330
-# 584517453
+### SFX NAMES (langs/VoiceTalk_Common.bnk)
 # 3573581372
 # 3592851791
 # 3877467694
 
-### RTPC/GAME-VARIABLE NAMES (VoiceTalk_Common.bnk)
-# 882992894
-# 145320914
-# 441253172
-# 499525571
-# 522919877
-
-### VARIABLE NAMES (VoiceTalk_Common.bnk)
+### VARIABLE NAMES (langs/VoiceTalk_Common.bnk)
 ST_CS_Common
 ST_GS_GameScene_Scene
 SW_NPC_VoiceType
 
-### VALUE NAMES (VoiceTalk_Common.bnk)
+### VALUE NAMES (langs/VoiceTalk_Common.bnk)
 ST_CS_CS_Start
 ST_CS_EV0223_Start
 ST_CS_EV_Start
@@ -15419,7 +15677,7 @@ SW_NPC_VoiceType_Male_C
 SW_NPC_VoiceType_Male_D
 SW_NPC_VoiceType_Male_E
 
-### EVENT NAMES (VoiceTalk_Hannya_Agitation.bnk)
+### EVENT NAMES (langs/VoiceTalk_Hannya_Agitation.bnk)
 VO_VLT_2010_0010_Play
 VO_VLT_2010_0020_Play
 VO_VLT_2010_0030_Play
@@ -15449,580 +15707,19 @@ VO_VLT_2040_0060_Play
 VO_VLT_2040_0070_Play
 VO_VLT_2040_0080_Play
 
-### RTPC/GAME-VARIABLE NAMES (VoiceTalk_Hannya_Agitation.bnk)
+### RTPC/GAME-VARIABLE NAMES (langs/VoiceTalk_Hannya_Agitation.bnk)
 GP_BIP_Distance_10000
 
-### VARIABLE NAMES (VoiceTalk_Hannya_Agitation.bnk)
+### VARIABLE NAMES (langs/VoiceTalk_Hannya_Agitation.bnk)
 ST_Amb_Beds
 ST_Amb_Beds_Int
 ST_GS_GameScene_Area_SBY
 ST_Voice_Agitation_Volume
 
-### VALUE NAMES (VoiceTalk_Hannya_Agitation.bnk)
+### VALUE NAMES (langs/VoiceTalk_Hannya_Agitation.bnk)
 ST_Amb_Beds_Int
 ST_Amb_Beds_Int_Tower
 ST_GS_GS_Area_SBY_Mitake
 ST_Voice_Agitation_Volume_Down
 
-### EVENT NAMES (Weapon_Common.bnk)
-__wpn_pl_ofuda_stance_Stop
-__wpn_pl_spec_common_player_loop_Stop
-__wpn_pl_spec_fire_stance_Stop
-__wpn_pl_spec_water_stance_Stop
-__wpn_pl_spec_wind_stance_Stop
-ST_Wpn_Selection_Bow_Set_State
-ST_Wpn_Selection_Fox_Set_State
-ST_Wpn_Selection_Kunai_Set_State
-wpn_pl_bow_aim_end_Play
-wpn_pl_bow_aim_start_base_Play
-wpn_pl_bow_aim_start_fx_Play
-wpn_pl_bow_arrow_change_01_Play
-wpn_pl_bow_delete_tip_fx_Play
-wpn_pl_bow_draw_cancel_Play
-wpn_pl_bow_draw_complete_fx_Play
-wpn_pl_bow_draw_shot_launch_Play
-wpn_pl_bow_draw_start_Play
-wpn_pl_bow_hit_concrete_dry_Play
-wpn_pl_bow_hit_concrete_wet_Play
-wpn_pl_bow_hit_default_Play
-wpn_pl_bow_hit_dirt_Play
-wpn_pl_bow_hit_glass_Play
-wpn_pl_bow_hit_headshot_Play
-wpn_pl_bow_hit_liquid_Play
-wpn_pl_bow_hit_metal_Play
-wpn_pl_bow_hit_wood_Play
-wpn_pl_bow_posture_end_Play
-wpn_pl_bow_posture_start_Play
-wpn_pl_bow_radialdamage_open_sphere_01_Play
-wpn_pl_bow_reload_arrow_Play
-wpn_pl_bow_reload_complete_Play
-wpn_pl_bow_reload_start_Play
-wpn_pl_bow_shot_arrow_whoosh_Play
-wpn_pl_bow_shot_launch_Play
-wpn_pl_common_hit_cardboard_Play
-wpn_pl_common_hit_default_Play
-wpn_pl_common_hit_em_invalid_Play
-wpn_pl_common_hit_em_marebito_Play
-wpn_pl_common_hit_fabric_Play
-wpn_pl_common_hit_foilage_Play
-wpn_pl_common_hit_plastic_Play
-wpn_pl_common_hit_prisoncube_Play
-wpn_pl_common_hit_rubber_Play
-wpn_pl_common_hit_taiko_kodaiko_Play
-wpn_pl_common_hit_taiko_normal_Play
-wpn_pl_common_hit_tatami_Play
-wpn_pl_gun_ready_down_01_Play
-wpn_pl_gun_ready_set_01_Play
-wpn_pl_gun_reload_release_01_Play
-wpn_pl_gun_reload_set_01_Play
-wpn_pl_gun_shot_empty_01_Play
-wpn_pl_gun_shot_fire_01_Play
-wpn_pl_kunai_throw_end_Play
-wpn_pl_kunai_throw_start_Play
-wpn_pl_kunai_throw_swish_Play
-wpn_pl_ofuda_bush_hit_end_Play
-wpn_pl_ofuda_bush_hit_start_Play
-wpn_pl_ofuda_bush_shot_fx_Play
-wpn_pl_ofuda_bush_stance_end_Play
-wpn_pl_ofuda_bush_stance_start_Play
-wpn_pl_ofuda_common_firstflash_Play
-wpn_pl_ofuda_common_mvmt_strong_Play
-wpn_pl_ofuda_common_mvmt_weak_Play
-wpn_pl_ofuda_common_ready_paper_Play
-wpn_pl_ofuda_common_shot_base_Play
-wpn_pl_ofuda_common_shot_paper_Play
-wpn_pl_ofuda_common_stance_release_Play
-wpn_pl_ofuda_paralysis_hit_delete_Play
-wpn_pl_ofuda_paralysis_hit_end_Play
-wpn_pl_ofuda_paralysis_hit_ground_delete_Play
-wpn_pl_ofuda_paralysis_hit_ground_end_Play
-wpn_pl_ofuda_paralysis_hit_ground_start_Play
-wpn_pl_ofuda_paralysis_hit_start_Play
-wpn_pl_ofuda_paralysis_shot_fx_Play
-wpn_pl_ofuda_paralysis_stance_end_Play
-wpn_pl_ofuda_paralysis_stance_start_Play
-wpn_pl_ofuda_rokaku_hit_ground_end_Play
-wpn_pl_ofuda_rokaku_hit_ground_start_lv0_Play
-wpn_pl_ofuda_rokaku_hit_ground_start_lv1_Play
-wpn_pl_ofuda_rokaku_hit_ground_start_lv2_Play
-wpn_pl_ofuda_rokaku_hit_ground_start_lv3_Play
-wpn_pl_ofuda_rokaku_shot_fx_Play
-wpn_pl_ofuda_rokaku_stance_end_Play
-wpn_pl_ofuda_rokaku_stance_start_Play
-wpn_pl_ofuda_sound_hit_ground_start_lv1_Play
-wpn_pl_ofuda_sound_hit_ground_start_lv2_Play
-wpn_pl_ofuda_sound_hit_ground_start_lv3_Play
-wpn_pl_ofuda_sound_hit_ground_start_lv4_Play
-wpn_pl_ofuda_sound_stance_end_Play
-wpn_pl_ofuda_sound_stance_start_Play
-wpn_pl_spec_common_hit_default_Play
-wpn_pl_spec_common_hit_enemy_Play
-wpn_pl_spec_common_hit_invaild_Play
-wpn_pl_spec_common_stance_Stop
-wpn_pl_spec_fire_activate_start_Play
-wpn_pl_spec_fire_bullet_empty_Play
-wpn_pl_spec_fire_charge_complete_lv1_Play
-wpn_pl_spec_fire_charge_complete_lv2_Play
-wpn_pl_spec_fire_charge_complete_lv3_Play
-wpn_pl_spec_fire_charge_complete_lv4_Play
-wpn_pl_spec_fire_charge_complete_lv5_Play
-wpn_pl_spec_fire_charge_start_lv1_Play
-wpn_pl_spec_fire_charge_start_lv2_Play
-wpn_pl_spec_fire_charge_start_lv3_Play
-wpn_pl_spec_fire_charge_start_lv4_Play
-wpn_pl_spec_fire_charge_start_lv5_Play
-wpn_pl_spec_fire_hit1st_default_Play
-wpn_pl_spec_fire_hit1st_enemy_Play
-wpn_pl_spec_fire_hit2nd_default_Play
-wpn_pl_spec_fire_hit2nd_enemy_Play
-wpn_pl_spec_fire_power_levelup_Play
-wpn_pl_spec_fire_power_skillup_Play
-wpn_pl_spec_fire_shot1st_launch_Play
-wpn_pl_spec_fire_shot2nd_launch_Play
-wpn_pl_spec_fire_stance_relayed_lv1_Play
-wpn_pl_spec_fire_stance_relayed_lv2_Play
-wpn_pl_spec_fire_stance_relayed_lv3_Play
-wpn_pl_spec_fire_stance_relayed_lv4_Play
-wpn_pl_spec_fire_stance_relayed_lv5_Play
-wpn_pl_spec_fire_stance_release_Play
-wpn_pl_spec_fire_stance_start_Play
-wpn_pl_spec_fire_to_water_Play
-wpn_pl_spec_fire_to_wind_Play
-wpn_pl_spec_water_activate_start_Play
-wpn_pl_spec_water_bullet_empty_Play
-wpn_pl_spec_water_charge_complete_lv1_Play
-wpn_pl_spec_water_charge_complete_lv2_Play
-wpn_pl_spec_water_charge_complete_lv3_Play
-wpn_pl_spec_water_charge_complete_lv4_Play
-wpn_pl_spec_water_charge_complete_lv5_Play
-wpn_pl_spec_water_charge_start_lv1_Play
-wpn_pl_spec_water_charge_start_lv2_Play
-wpn_pl_spec_water_charge_start_lv3_Play
-wpn_pl_spec_water_charge_start_lv4_Play
-wpn_pl_spec_water_charge_start_lv5_Play
-wpn_pl_spec_water_hit1st_default_Play
-wpn_pl_spec_water_hit1st_enemy_Play
-wpn_pl_spec_water_hit2nd_default_Play
-wpn_pl_spec_water_hit2nd_enemy_Play
-wpn_pl_spec_water_power_levelup_Play
-wpn_pl_spec_water_power_skillup_Play
-wpn_pl_spec_water_shot1st_launch_lv1_Play
-wpn_pl_spec_water_shot1st_launch_lv2_Play
-wpn_pl_spec_water_shot1st_launch_lv3_Play
-wpn_pl_spec_water_shot1st_launch_lv4_Play
-wpn_pl_spec_water_shot1st_launch_lv5_Play
-wpn_pl_spec_water_shot2nd_launch_01_Play
-wpn_pl_spec_water_stance_relayed_lv1_Play
-wpn_pl_spec_water_stance_relayed_lv2_Play
-wpn_pl_spec_water_stance_relayed_lv3_Play
-wpn_pl_spec_water_stance_relayed_lv4_Play
-wpn_pl_spec_water_stance_relayed_lv5_Play
-wpn_pl_spec_water_stance_release_Play
-wpn_pl_spec_water_stance_start_Play
-wpn_pl_spec_water_to_fire_Play
-wpn_pl_spec_water_to_wind_Play
-wpn_pl_spec_wind_bullet_empty_Play
-wpn_pl_spec_wind_charge_complete_lv1_Play
-wpn_pl_spec_wind_charge_complete_lv2_Play
-wpn_pl_spec_wind_charge_complete_lv3_Play
-wpn_pl_spec_wind_charge_complete_lv4_Play
-wpn_pl_spec_wind_charge_complete_lv5_Play
-wpn_pl_spec_wind_charge_start_lv1_Play
-wpn_pl_spec_wind_charge_start_lv2_Play
-wpn_pl_spec_wind_charge_start_lv3_Play
-wpn_pl_spec_wind_charge_start_lv4_Play
-wpn_pl_spec_wind_charge_start_lv5_Play
-wpn_pl_spec_wind_hit_default_Play
-wpn_pl_spec_wind_hit_enemy_Play
-wpn_pl_spec_wind_power_levelup_Play
-wpn_pl_spec_wind_power_skillup_Play
-wpn_pl_spec_wind_shot1st_launch_Play
-wpn_pl_spec_wind_shot2nd_launch_1_Play
-wpn_pl_spec_wind_shot2nd_launch_2_Play
-wpn_pl_spec_wind_shot2nd_launch_3_Play
-wpn_pl_spec_wind_shot2nd_launch_4_Play
-wpn_pl_spec_wind_stance_Play
-wpn_pl_spec_wind_stance_prepare_Play
-wpn_pl_spec_wind_stance_relayed_lv1_Play
-wpn_pl_spec_wind_stance_relayed_lv2_Play
-wpn_pl_spec_wind_stance_relayed_lv3_Play
-wpn_pl_spec_wind_stance_relayed_lv4_Play
-wpn_pl_spec_wind_stance_relayed_lv5_Play
-wpn_pl_spec_wind_stance_release_Play
-wpn_pl_spec_wind_to_fire_Play
-wpn_pl_spec_wind_to_water_Play
-
-### SFX NAMES (Weapon_Common.bnk)
-# 15981556
-# 246386417
-# 1039144974
-# 602131964
-# 330702648
-# 152420458
-# 668912831
-# 453372048
-# 948688803
-# 419509854
-# 906224919
-# 181800802
-# 213264831
-# 49910360
-# 1067876595
-# 607317526
-# 64492530
-# 1016727327
-# 203049160
-# 482598243
-# 910137157
-# 1022447712
-# 311295277
-# 783421585
-# 1019076155
-# 157527044
-# 492386992
-# 750757280
-# 524246861
-# 363547016
-# 908672484
-# 849121151
-# 402464078
-# 563171461
-# 94042726
-# 748777144
-# 796294650
-# 1026807960
-# 74347671
-# 965593976
-# 975441621
-# 379982939
-# 911672099
-# 689449259
-# 338483633
-# 909208604
-# 950809312
-# 191955245
-# 777048324
-# 196544264
-# 857477545
-# 1003614528
-# 552255314
-# 283998664
-# 132459886
-# 892733303
-# 384938918
-# 702229216
-# 70291722
-# 240938711
-# 968455167
-# 857735183
-# 329670303
-# 830488976
-# 450700060
-# 943924073
-# 557514783
-# 1047413034
-# 70837922
-# 426535404
-# 266872344
-# 866446981
-# 637644500
-# 492259465
-# 250683924
-# 649085491
-# 473828822
-# 7842388
-# 5268676
-# 143226899
-# 578632545
-# 345406521
-# 812685396
-# 412724293
-# 626888492
-# 500571941
-# 1056237368
-# 81198277
-# 638156787
-# 852619343
-# 728588264
-# 741550821
-# 258094729
-# 953856787
-# 590706762
-# 292728962
-# 980799107
-# 1071723530
-# 777614029
-# 418117212
-# 696755168
-# 970184969
-# 137388217
-# 17335663
-# 876026154
-# 317935225
-# 16024703
-# 777611979
-# 445170950
-# 702141172
-# 1033062700
-# 366574826
-# 815769840
-# 876282573
-# 685316341
-# 81145475
-# 1030268054
-# 76451830
-# 795807509
-# 676504131
-# 73840830
-# 157970631
-# 689055893
-# 457005275
-# 172290128
-# 328410663
-# 522122666
-# 191655352
-# 309626747
-# 954609419
-# 252492535
-# 796427157
-# 178301556
-# 642916974
-# 534894534
-# 382130102
-# 161559044
-# 1014773909
-# 515632915
-# 487781956
-# 537256089
-# 102328596
-# 857810006
-# 717426880
-# 607951589
-# 548341009
-# 741475982
-# 712605172
-# 157422287
-# 408361905
-# 444741039
-# 623388696
-# 605986601
-# 222000238
-# 809245391
-# 584409593
-# 205205729
-# 925469472
-# 226170231
-# 324782769
-# 519645984
-# 22823346
-# 419503916
-# 1050925928
-# 593750273
-# 996270885
-# 1017065362
-# 560435008
-# 901779191
-# 61183326
-# 992984829
-# 283797100
-# 1008243664
-# 698343612
-# 673456606
-# 13821143
-# 168464539
-# 995110158
-# 874293255
-# 1035587175
-# 415151501
-# 792372576
-# 474755091
-# 815744647
-# 1050668812
-# 283678653
-# 438477517
-# 676275988
-# 354933711
-# 489306951
-# 1051438698
-# 120896080
-# 69398956
-# 293967234
-# 182595785
-# 864739233
-# 959726460
-# 578688480
-# 358589983
-# 6400253
-# 51548143
-# 432215541
-# 861284215
-# 168757921
-# 400952687
-# 469150933
-# 890551567
-# 566671261
-# 573163362
-# 615895292
-# 1040480738
-# 4211468998
-
-### RTPC/GAME-VARIABLE NAMES (Weapon_Common.bnk)
-GP_Wpn_Gun_Num_Of_Bullets
-# 777109424
-# 859327640
-# 833255527
-# 769591735
-# 316126699
-# 219881374
-# 1062136308
-# 356207353
-# 817122176
-# 220378658
-# 274700373
-# 139835190
-# 1011198626
-# 507279520
-# 765479493
-# 807886649
-# 417348972
-# 1058769895
-# 743512630
-# 119629810
-# 806044324
-# 518178104
-# 1010040285
-# 275887307
-# 112606939
-# 596633806
-# 805290778
-# 142714938
-# 202555105
-# 1001326491
-# 878777859
-# 549614938
-# 788659938
-# 756764345
-# 78865247
-# 627804737
-# 645256005
-# 238707986
-# 294376883
-# 659520895
-# 136310626
-# 872581448
-# 346104948
-# 863926456
-# 722181016
-# 1064825697
-# 63774742
-# 873203145
-# 655617033
-# 333108782
-# 709823031
-# 401477474
-# 983789008
-# 113026501
-# 221435829
-# 180415104
-# 424232347
-# 207019881
-# 1070566571
-# 790526426
-# 89953865
-# 229755112
-# 319738639
-# 137732859
-# 999184447
-# 985197838
-# 522645315
-# 488583410
-# 782462028
-# 290457422
-# 85912885
-
-### VARIABLE NAMES (Weapon_Common.bnk)
-ST_Sys_Win_DualSense
-ST_UI_Menu
-ST_Wpn_Fire_Lv
-ST_Wpn_Selection
-SW_Wpn_Bow_Hit_Surface
-SW_Wpn_Gun_Ammo_Count
-
-### VALUE NAMES (Weapon_Common.bnk)
-None
-ST_Sys_Win_DualSense_OFF
-ST_Sys_Win_DualSense_ON
-ST_UI_Menu_OPEN
-ST_UI_Menu_OPEN_Full_OLD
-ST_UI_Menu_OPEN_Half
-ST_UI_Menu_OPEN_Half_wPitch
-ST_Wpn_Fire_Lv1
-ST_Wpn_Fire_Lv3
-ST_Wpn_Fire_Lv5
-ST_Wpn_Selection_Bow
-ST_Wpn_Selection_Fox
-ST_Wpn_Selection_Kunai
-SW_Wpn_Bow_Hit_Surface_ConcDry
-SW_Wpn_Bow_Hit_Surface_ConcWet
-SW_Wpn_Bow_Hit_Surface_Dirt
-SW_Wpn_Bow_Hit_Surface_Glass
-SW_Wpn_Bow_Hit_Surface_Liquid
-SW_Wpn_Bow_Hit_Surface_Metal
-SW_Wpn_Bow_Hit_Surface_Wood
-SW_Wpn_Gun_Last
-SW_Wpn_Gun_Normal
-
-
-
-1369856811: GP_sp_act_prisoncube_time_percentage
-2362852977: NPC_GhostCommon_DYN
-3395683808: Battle_LRM_MIN
-2808415315: UI_3D
-2128827446: VO_Mari
-623842335: HDR_Tracking
-3277557923: HDR_Ambient_Beds_UG_Amb
-2916527349: HDR_Ambient_Beds_UG_7ch
-2655712979: HDR_Ambient_Weather_common
-3974025036: HDR_Ambient_Weather_Common_7ch
-4262722430: HDR_Ambient_Weather_Common_Amb
-450588731: HDR_Ambient_Weather_DaidaraStorm
-3931084314: HDR_Anim_Am0020_Ve
-370622111: HDR_Anim_Am0030_Ve
-1887134105: HDR_Diegetic_ATMOSPHERE
-4210838008: HDR_Diegetic_location
-839026485: HDR_Diegetic_tenant_outside
-657335880: HDR_npc_ch3000_Ve
-2176207175: HDR_NPC_ch3001_Ve
-976642664: HDR_NPC_ch3001_Se_Appear
-4061864886: HDR_npc_ch3002_Ve
-1833098381: HDR_npc_ch3003_Ve
-3482667923: HDR_npc_ch3005_Ve
-1300120498: HDR_npc_ch3006_Ve
-2818991785: HDR_npc_ch3007_Ve
-2143853552: HDR_npc_ch3008_Ve
-3352268550: HDR_npc_ch3011_Ve
-2150972217: HDR_npc_ch3014_Ve
-3421206209: HDR_SpotSFx_Activity_common
-422920342: HDR_SpotSFx_Activity_Telephone
-1378552571: HDR_SpotSfx_Common_3D
-603387473: HDR_SpotSFx_Paranormal_common
-4207272023: HDR_SpotSFx_Paranormal_posteffect
-381206768: HDR_player_Battle_Damage
-2517895907: HDR_weapon_stance_3D
-3567244504: HDR_SpotSFx_Story_Battle
-26427737: HDR_SpotSFx_Story_common
-
-1347120807: Vo_KK_Story_Isolated
-1900658185: Vo_KK_Story_PopupDistance
-1673724816: Vo_KK_Story_Synchronized
-1843201942: Vo_Akito_Buddy
-902935401: Test_Sk_StateGroup
-2074396452: NonHDR_weapon_stance_3D
-353864230   : HDR_Ambient_Prop_Common_3D
-2992136498  : HDR_Ambient_Weather_Common_7ch_3D
-968537489   : HDR_SpotSFx_Activity_Common_3D
-920006826   : HDR_SpotSFx_Activity_Telephone_common
-1615186227  : HDR_SpotSFx_Paranormal_posteffect_3D
-578412502   : HDR_SpotSFx_Story_Battle_3D
-4197534537  : HDR_SpotSFx_Story_Common_3D
-4234814040  : Vo_KK_Buddy
+#831028902   : Dmg_DownSmoke_conc_sprint
