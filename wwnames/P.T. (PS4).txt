@@ -377,3 +377,9 @@ env_off
 game_over
 in_game
 splash_screen
+
+#1437430917  : Stop_sfx_light_FailPhoto
+1861830223  : radio_sidechain
+1381124415  : Play_voice_ene_laugh_02_2D
+2556335218  : bathroom_full_obstruction
+2600501659  : bathroom_rain_obstruction
