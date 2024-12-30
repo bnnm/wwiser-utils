@@ -612,7 +612,7 @@ class Words(object):
                     continue
                 combos.append(subword)
 
-            add_self = False
+            add_self = False #when splitting full no need for the full word
 
             #print("ful:", combos)
             #return
@@ -1162,7 +1162,9 @@ class Words(object):
         
             done = {} #fnv set
             lines = []
-            for section in self._contexts.keys():
+
+            sections = self._sort_results_get_sections()
+            for section in sections:
                 # note that the same key may be in multiple contexts (ignored by default)
 
                 # mark names per section and repeats
@@ -1218,6 +1220,18 @@ class Words(object):
             name = name.strip()
             lines.append("%s: %s" % (fnv, name))
         return lines
+
+    def _sort_results_get_sections(self):
+        # put variables + values at the end, since they are simpler to clasify
+        sections = []
+        sections_vars = []
+        for section in self._contexts.keys():
+            if section and b'### VA' in section:
+                sections_vars.append(section)
+            else:
+                sections.append(section)
+        sections.extend(sections_vars)
+        return sections
 
     #--------------------------------------------------------------------------
 
