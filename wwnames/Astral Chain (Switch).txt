@@ -14623,3 +14623,9 @@ wp0104_MOV_Molotov_Cocktail_Throw_M
 2271150218  : pl1060_VOA_DEF_Training_S
 #398503486   : r112_Mov_Cloth_Fast
 1068973262  : SE_SYS_UserRevSend2
+
+1767577464  : core_GUI_BookClose
+2664686268  : core_GUI_BookOpen
+
+811166611: bg6102_Idle_Loop_A
+811166608: bg6102_Idle_Loop_B

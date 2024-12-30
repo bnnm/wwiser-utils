@@ -19,6 +19,7 @@ sfx
 ### BUS NAMES
 accessibility
 ambience
+ambience_7_1
 body_resonance_sfx
 body_resonance_vo
 bootflow
@@ -31,7 +32,9 @@ combat
 dialogue
 diegetic_music_7_1
 ducking_stingers
+early_reflection_left
 early_reflection_prototype
+early_reflection_right
 exploration
 ext_desert_open
 ext_desert_ruins_narrow
@@ -121,97 +124,94 @@ water_surface
 weapons
 # 3075111402
 # 2697148476
-# 3777315467
 # 1273124950
 # 3201471952
-# 2128733861
-# 4127617126
 # 1233854375
 
 ### SFX NAMES (init.bnk)
+closecombat_meter
+combat_music_meter
+diegetic_music_meter
+diegetic_sfx_meter
 early_reflection_prototype
+ext_desert_open_ae
+ext_desert_ruins_narrow_ae
+ext_desert_ruins_open_ae
+ext_jungle_dense_ae
+ext_jungle_open_ae
+ext_nepal_battleship_stone01_close
+ext_nepal_battleship_stone01_distant
 ext_nepal_mountains_chasm
 ext_nepal_mountains_echo
 ext_nepal_mountains_squeeze
+Hall_Large_Dark
+hitmarkers_meter
+int_cave_large_mg
+int_cave_medium_chasm_mg
+int_cave_medium_mg
+int_cave_small_mg
+int_cave_xlarge_mg
+int_cave_xsmall_mg
+int_cave_xxlarge_mg
+int_gizeh_cave_large_mg
+int_gizeh_cave_small_mg
 int_gizeh_resonance_medium_theme
+int_gizeh_unbodied_echo
+int_nepal_battleship_room_corridoor
 int_nepal_battleship_room_large
 int_nepal_battleship_room_medium
 int_nepal_battleship_room_small
 int_nepal_battleship_room_xlarge
 int_nepal_battleship_ventilation
+int_room_wood_medium_bright_ae
 int_sukhothai_long_temple_echo_slaps
+int_sukhothai_long_temple_echo_slaps_nepharchives
 int_sukhothai_metatron_chamber
+int_sukhothai_wavebreaker_chamber
+master_music_meter
 No_Output
+reveals_meter
+sfx_bass_content_meter
 system
-# 1156359885
-# 75146895
+vo_meter
+vo_meter_hf
+weapon_reflect
+weapons_meter
+Wwise_Motion
 # 154388970
-# 371653181
-# 391560741
 # 431231764
 # 433908164
 # 489493444
 # 530210388
-# 570909457
-# 601813962
-# 627020839
-# 784285731
-# 861710311
 # 980334015
-# 988508331
-# 1071654361
 # 1096398405
-# 1245482064
 # 1409237729
 # 1419142485
 # 1419142486
-# 1444804834
 # 1450870284
 # 1519236590
-# 1530422007
-# 1720964781
-# 1796739332
-# 1803940669
 # 1864803418
 # 1913480881
-# 2106670557
 # 2174239627
-# 2183052925
 # 2260768119
 # 2352905244
-# 2377572322
 # 2486420767
-# 2504332215
 # 2519842467
 # 2582755366
-# 2625000531
 # 2714519783
-# 2732382467
-# 2759153058
-# 2823893570
 # 2901633483
 # 2944951287
 # 3086028106
 # 3275802573
-# 3351692769
 # 3431230953
-# 3442768367
 # 3456467036
 # 3466337425
-# 3531970692
-# 3582074222
 # 3659010859
-# 3760462283
 # 3777584935
 # 3808371181
 # 3830777605
 # 3850021509
-# 3938339985
 # 3940630031
-# 3981154066
-# 4132383916
-# 4240878123
-# 4243793315
 
 ### ACOUSTIC TEXTURE NAMES (init.bnk)
 Acoustic_Banner
@@ -290,6 +290,7 @@ rtpc_door_contact_state
 rtpc_door_displacement
 rtpc_door_resistance
 rtpc_door_speed
+rtpc_door_state
 rtpc_doppler_relative_speed
 rtpc_ducker_ambience
 rtpc_dynamic_range
@@ -307,6 +308,7 @@ rtpc_global_ai_distance
 rtpc_global_ai_num
 rtpc_global_ai_num_active_in_combat
 rtpc_global_ai_num_active_in_combat_with_player_los
+rtpc_global_ai_num_firing
 rtpc_global_ai_num_in_sight
 rtpc_global_ambient_wind_speed
 rtpc_global_cutscene_active
@@ -316,6 +318,7 @@ rtpc_global_grip_input_raw_vertical
 rtpc_global_grip_progress
 rtpc_global_grip_progress_delta
 rtpc_global_grip_progress_delta_scaled
+rtpc_global_grip_total_progress
 rtpc_global_grip_total_progress_normalized
 rtpc_global_hdr_window_top
 rtpc_global_hud_usable_progress
@@ -350,6 +353,7 @@ rtpc_global_player_speed_horizontal
 rtpc_global_player_speed_vertical
 rtpc_global_player_stamina
 rtpc_global_rain_intensity
+rtpc_global_reveal_meter
 rtpc_global_screen_fade
 rtpc_global_sfx_bass
 rtpc_global_speakertype
@@ -403,6 +407,7 @@ rtpc_phys_object_speed_delta
 rtpc_phys_object_underwater_depth
 rtpc_phys_object_volume
 rtpc_phys_object_water_speed
+rtpc_pz_global_pushblock_interactive_state
 rtpc_pz_ws_water_wheel_state
 rtpc_reverb_amount
 rtpc_shanghai_bomb_meter
@@ -442,14 +447,9 @@ rtpc_wpn_overheat
 rtpc_wpn_shot_count
 # 363021993
 # 422767037
-# 1359068292
-# 1377978116
-# 1396706984
-# 2058637277
 # 2438534792
 # 2496717121
 # 3025145581
-# 4025750800
 
 ### RTPC/GAME-VARIABLE NAMES (init.bnk)
 rptc_actor_move_stairs_direction
@@ -482,9 +482,11 @@ rtpc_global_actor_health
 rtpc_global_ai_distance
 rtpc_global_ai_num
 rtpc_global_ai_num_active_in_combat
+rtpc_global_ai_num_firing
 rtpc_global_ai_num_in_sight
 rtpc_global_grip_progress
 rtpc_global_grip_progress_delta_scaled
+rtpc_global_grip_total_progress
 rtpc_global_hdr_window_top
 rtpc_global_map
 rtpc_global_meter_closecombat
@@ -500,6 +502,7 @@ rtpc_global_music_volume_menu
 rtpc_global_music_volume_narrative
 rtpc_global_player_acceleration
 rtpc_global_player_speed
+rtpc_global_reveal_meter
 rtpc_global_screen_fade
 rtpc_global_sfx_bass
 rtpc_global_vibration_strength
@@ -523,6 +526,7 @@ rtpc_object_radio_volume
 rtpc_phys_object_speed_delta
 rtpc_phys_object_volume
 rtpc_phys_object_water_speed
+rtpc_pz_global_pushblock_interactive_state
 rtpc_shanghai_bomb_meter
 rtpc_soundarea_distance_fade
 rtpc_soundobject_volume
@@ -534,10 +538,6 @@ rtpc_veh_util_planecrash_picker
 rtpc_vo_level
 rtpc_vo_level_player_and_companion
 rtpc_wpn_ammo_status
-# 1377978116
-# 1396706984
-# 1359068292
-# 4025750800
 
 ### VARIABLE NAMES (init.bnk)
 actor_gameflow
@@ -593,9 +593,12 @@ loud_sound_reaction
 luckyhat_state
 music_ch00_peru
 music_ch01_marshall_college
+music_ch02_vatican
 music_ch02_vatican_intro
+music_ch03_gizeh
 music_ch04_nepal
 music_ch04_shanghai
+music_ch05_sukhothai
 music_ch06_se01_ziggurat
 music_ch06_se02_lake
 music_gizeh_desert_exploration
@@ -684,9 +687,6 @@ veh_backfire_trigger
 walking_cane_impact
 wat_mahathat_escape
 wpn_ammo_status
-# 1895837418
-# 3331939567
-# 3665126475
 
 ### VALUE NAMES (init.bnk)
 above_water
@@ -736,6 +736,7 @@ play_grip_radio_knob_click_freq
 play_grip_radio_off
 play_grip_radio_on
 play_radio_ernestos_office
+play_radio_frequency
 play_radio_opera_italian
 play_radio_program_italian
 play_radio_show
@@ -764,7 +765,6 @@ unmute_grip_radio
 unmute_radio_opera_italian
 unmute_radio_program_italian
 unmute_radio_show
-# 4068597752
 
 ### RTPC/GAME-VARIABLE NAMES (diegetic_music.bnk)
 rtpc_maestro_enable_attenuation
@@ -790,7 +790,7 @@ music_playing
 None
 
 ### TRIGGER NAMES (mus_ch00_peru.bnk)
-# 4050664723
+wrong_pressure_plate
 
 ### RTPC/GAME-VARIABLE NAMES (mus_ch00_peru.bnk)
 rtpc_global_music_proximity_poi
@@ -877,11 +877,11 @@ None
 on
 
 ### TRIGGER NAMES (mus_ch01_college.bnk)
+broken_window
 footsteps
-# 2420817825
-# 3346610837
-# 2055549826
-# 725525153
+heavyhit
+packing
+relic_correct_place
 
 ### RTPC/GAME-VARIABLE NAMES (mus_ch01_college.bnk)
 rtpc_global_meter_vo_travelmontage
@@ -934,35 +934,36 @@ streamer_mode_off
 streamer_mode_on
 
 ### TRIGGER NAMES (mus_ch02_vatican.bnk)
-# 1151914625
-# 3051874028
+ai_captain_investigate
+ai_investigate
+ch02_vatican_la03_clue_fascistcloth
+ch02_vatican_la03_clue_idcard
+ch02_vatican_la03_clue_indyphoto
+ch02_vatican_la03_clue_nunnote
+ch02_vatican_la03_enterstockroom
+ch02_vatican_la03_poolofblood
+ch02_vatican_nephelimtrials_gold_keyforged
+ch02_vatican_nephelimtrials_gold_shieldopen
+ch02_vatican_nephelimtrials_silver_keyforged
+ch02_vatican_nephelimtrials_silver_shieldopen
+ch02_vatican_se02_dragonmural
+combat_knockout
+heavyhit
+knockout
+vatican_intro_nice_view
+vatican_location_reveal
+vatican_mystery_oneshot
+vatican_se02_bustpuzzle_solve
+vatican_se03_zeppelin_hatch
+vatican_shockmoment_random
 # 2435481288
-# 835858984
-# 791335795
-# 166701942
-# 1379774137
-# 3326798826
-# 1540607218
-# 319007558
-# 758394285
-# 2311459090
-# 3700942044
-# 759406438
-# 2627617003
-# 3922036796
-# 3809043590
-# 2946202227
-# 1757705990
-# 3156476493
-# 1710448598
-# 2420817825
 # 1766491340
-# 956108081
 
 ### RTPC/GAME-VARIABLE NAMES (mus_ch02_vatican.bnk)
 rtpc_built_in_distance_10m
 rtpc_debug_global_time_scale
 rtpc_global_ai_distance
+rtpc_global_ai_num_firing
 rtpc_global_ai_num_in_sight
 rtpc_global_hdr_window_top
 rtpc_global_music_proximity_danger
@@ -970,7 +971,6 @@ rtpc_global_player_bleedout
 rtpc_hud_meter_prespot
 rtpc_maestro_volume_music_score
 rtpc_reverb_amount
-# 1396706984
 
 ### VARIABLE NAMES (mus_ch02_vatican.bnk)
 ai_active_in_fight
@@ -980,13 +980,13 @@ ai_tension
 distance_to_ai
 exploration_state
 music_ch01_marshall_college
+music_ch02_vatican
 music_ch02_vatican_intro
 music_level
 music_streamer_mode
 music_testmap
 player_state
 restricted_area
-# 3331939567
 
 ### VALUE NAMES (mus_ch02_vatican.bnk)
 ai_combat
@@ -1044,6 +1044,7 @@ on
 one
 second_chance
 three
+two
 vatican_breakfast
 vatican_cs_skip
 vatican_exit_traversal
@@ -1086,6 +1087,7 @@ vatican_se01_boarding01_finished
 vatican_se01_boarding01_pe
 vatican_se01_meetventura01_cm
 vatican_se02_birdwatching01_cm
+vatican_se02_birdwatching02_pe
 vatican_se02_birdwatching03_cm
 vatican_se02_dragonmural_reveal
 vatican_se02_follownun01_cm
@@ -1094,7 +1096,9 @@ vatican_se02_viewingphotos03_cm
 vatican_se02_warriortomb02_cm
 vatican_se03_confrontventura01_cm
 vatican_se03_elevator_whip
+vatican_se03_fountainpuzzle_baptismsolve_01
 vatican_se03_fountainpuzzle_circlesolve_01
+vatican_se03_fountainpuzzle_firstclaw_01
 vatican_se03_fountainpuzzle_reveal_01
 vatican_se03_fountainpuzzle_secondclaw_01
 vatican_se03_fountainpuzzle_staircasereveal_01
@@ -1109,6 +1113,7 @@ vatican_se03_secret_monastery_reveal
 vatican_se03_secretwall_pe
 vatican_se03_silver_trial_escape_a
 vatican_se03_silver_trial_escape_b
+vatican_se03_silver_trial_escape_start
 vatican_se03_silver_trial_escape_stop
 vatican_se03_treasurechamber02_cm
 vatican_se03_visitors01_cm
@@ -1127,34 +1132,30 @@ vatican_warriortomb_reveal
 vatican_zipline_start
 vatican_zipline_stop
 zero
-# 678209053
-# 985597984
-# 1324172773
-# 1685373047
-# 2095332908
 
 ### TRIGGER NAMES (mus_ch03_gizeh.bnk)
-# 200016413
-# 893311139
-# 3369334555
+ai_captain_investigate
+captain_bottle_bring_me_the_bottle
+captain_bottle_stinger
+ch03_la1_enter_queen_mother_chamber
+ch03_la1_guards_zapped
+ch03_la1_reveal_breakable_wall
+ch03_se02_flagexplosion
+ch03_se02_scorpions_spawn
+combat_knockout
+gizeh_mystery_oneshot
+knockout
+unbodied_hit
 # 3250081135
-# 412443861
-# 1736093453
-# 835858984
 # 1766491340
 # 2435481288
-# 166701942
-# 4231746232
-# 3337458010
-# 1151914625
 # 2629850124
-# 1593757605
-# 2682238263
 
 ### RTPC/GAME-VARIABLE NAMES (mus_ch03_gizeh.bnk)
 rtpc_built_in_distance_10m
 rtpc_debug_global_time_scale
 rtpc_global_ai_distance
+rtpc_global_ai_num_firing
 rtpc_global_ai_num_in_sight
 rtpc_global_hdr_window_top
 rtpc_global_music_proximity_creepycrawlies
@@ -1166,7 +1167,6 @@ rtpc_global_music_proximity_volume_ducker
 rtpc_global_player_bleedout
 rtpc_maestro_volume_music_score
 rtpc_reverb_amount
-# 1396706984
 
 ### VARIABLE NAMES (mus_ch03_gizeh.bnk)
 ai_active_in_fight
@@ -1175,12 +1175,12 @@ ai_in_sight
 ai_tension
 ai_unbodied_tension
 exploration_state
+music_ch03_gizeh
 music_gizeh_desert_exploration
 music_level
 music_streamer_mode
 player_state
 restricted_area
-# 3665126475
 
 ### VALUE NAMES (mus_ch03_gizeh.bnk)
 ai_combat
@@ -1283,16 +1283,16 @@ on
 one
 second_chance
 three
+two
 zero
-# 678209053
 
 ### TRIGGER NAMES (mus_ch04_nepal.bnk)
-# 835858984
-# 960705448
-# 791335795
-# 1151914625
+ai_investigate
+combat_knockout
+enter_captains_lounge
+gina_tackle
+knockout
 # 2435481288
-# 2635216323
 
 ### RTPC/GAME-VARIABLE NAMES (mus_ch04_nepal.bnk)
 rtpc_built_in_distance_10m
@@ -1307,12 +1307,12 @@ rtpc_reverb_amount
 ai_active_in_fight
 ai_firing
 ai_tension
+music_ch03_gizeh
 music_ch04_nepal
 music_level
 music_streamer_mode
 player_state
 restricted_area
-# 3665126475
 
 ### VALUE NAMES (mus_ch04_nepal.bnk)
 ai_combat
@@ -1329,6 +1329,7 @@ ch03_gizeh
 ch04_nepal
 ch04_se01_findinglaura01_cm_nazisarrive
 ch04_se01_findinglaura01_cm_sadreveal
+ch04_se01_handwheel02_cm_01
 ch04_se01_himalayas01_cm_01_mountains
 ch04_se01_himalayas01_cm_01_scarlet
 ch04_se02_powerstone01_cm
@@ -1415,6 +1416,7 @@ main_menu_credits
 music_testmap
 nepal_after_finding_laura_event_start
 nepal_after_finding_laura_event_stop
+nepal_combat_suite
 nepal_cs_skip
 nepal_enter_conningtower
 nepal_grabhand
@@ -1429,15 +1431,13 @@ one
 second_chance
 silence
 three
+two
 zero
-# 678209053
-# 1284023378
-# 2493971113
 
 ### TRIGGER NAMES (mus_ch04_shanghai.bnk)
-# 711823622
-# 2195444011
-# 471888657
+shanghai_flyby_bombing
+shanghai_japanese_bombers
+shanghai_second_floorcollapse
 
 ### RTPC/GAME-VARIABLE NAMES (mus_ch04_shanghai.bnk)
 rtpc_maestro_volume_music_score
@@ -1477,6 +1477,7 @@ ch04_se03_intothefire
 ch04_se03_mapstart
 ch04_se03_planepull01_pe
 ch04_se03_reaching_the_plane
+ch04_se03_roofcollapse
 ch04_se03_samurai01_ev_end
 ch04_se03_samurai01_ev_start
 ch04_se03_tension
@@ -1493,47 +1494,47 @@ None
 on
 shanghai_cs_skip
 silence
-# 3392321560
 
 ### TRIGGER NAMES (mus_ch05_sukhothai.bnk)
-# 791335795
-# 2420817825
-# 166701942
-# 1865225670
-# 1513885000
-# 3934561518
-# 1191241623
-# 639026007
-# 46097405
+ai_captain_investigate
+ai_investigate
+bridge_collapse
+ch05_la01_aranchamber_reveal
+ch05_la01_pipepuzzle_first_solve
+ch05_la01_pipepuzzle_second_solve
+ch05_la01_shrine_enter
+ch05_la01_temple_reveal
+ch05_la02_cogs_reveal
+ch05_la02_severedarm
+ch05_la02_spidertrap
+ch05_se02_airpocket_skeleton
+combat_knockout
+enter_snake_arena
+heavyhit
+knockout
+reach_snake_platform
+snake_appearence_interior
+snake_passby_01
+snake_passby_02
+snake_passby_03
+snake_passby_04
+snake_passby_05
+snake_underwater_attack
+sukhothai_mystery_oneshot
+sukhothai_reveal_grand_random
+sukhothai_reveal_medium_random
+sukhothai_reveal_small_random
+sukhothai_shockmoment_random
+unbodied_hit
 # 2629850124
 # 2435481288
-# 835858984
 # 1766491340
-# 1151914625
-# 1355007660
-# 3573561129
-# 4018293852
-# 4018293855
-# 4018293854
-# 4018293849
-# 4018293848
-# 4121741436
-# 3852540459
-# 780407500
-# 1814316620
-# 1178699172
-# 2210838088
-# 271589866
-# 294578317
-# 1098011856
-# 4153444874
-# 2416070391
-# 1736093453
 
 ### RTPC/GAME-VARIABLE NAMES (mus_ch05_sukhothai.bnk)
 rtpc_built_in_distance_10m
 rtpc_debug_global_time_scale
 rtpc_global_ai_distance
+rtpc_global_ai_num_firing
 rtpc_global_ai_num_in_sight
 rtpc_global_diegeticsfx_meter
 rtpc_global_hdr_window_top
@@ -1544,7 +1545,6 @@ rtpc_global_water_depth_listener
 rtpc_maestro_volume_music_score
 rtpc_reverb_amount
 rtpc_vo_level
-# 1396706984
 
 ### VARIABLE NAMES (mus_ch05_sukhothai.bnk)
 ai_active_in_fight
@@ -1555,14 +1555,14 @@ ai_tension
 ai_unbodied_tension
 exploration_state
 music_ch01_marshall_college
+music_ch03_gizeh
+music_ch05_sukhothai
 music_level
 music_streamer_mode
 music_testmap
 player_state
 restricted_area
 sukhothai_boat_state
-# 3665126475
-# 1895837418
 
 ### VALUE NAMES (mus_ch05_sukhothai.bnk)
 above_water
@@ -1760,39 +1760,40 @@ sukhothai_danger
 sukhothai_mystery
 sukhothai_tension
 three
+two
 under_water
 zero
-# 678209053
 
 ### TRIGGER NAMES (mus_ch06_ziggurat.bnk)
-# 2420817825
-# 835858984
-# 1151914625
-# 791335795
-# 4231746232
-# 3337458010
-# 3368826147
-# 3814359802
-# 2088186425
-# 638635455
-# 558982173
-# 558982174
-# 2879586501
-# 3148401711
+ai_investigate
+ch03_la1_guards_zapped
+ch03_se02_flagexplosion
+ch06_se01_deadnephilim
+ch06_se01_drawbridge
+ch06_se01_nephelimpuzzle_solve_01
+ch06_se01_nephelimpuzzle_solve_02
+ch06_se01_plankspull
+ch06_se01_whipline
+combat_knockout
+heavyhit
+knockout
+transition_to_combat
+transition_to_idle
 
 ### RTPC/GAME-VARIABLE NAMES (mus_ch06_ziggurat.bnk)
 rtpc_global_ai_distance
+rtpc_global_ai_num_firing
 rtpc_global_ai_num_in_sight
 rtpc_global_music_proximity_creepycrawlies
 rtpc_global_music_proximity_danger
 rtpc_maestro_volume_music_score
-# 1396706984
 
 ### VARIABLE NAMES (mus_ch06_ziggurat.bnk)
 ai_active_in_fight
 ai_firing
 ai_in_sight
 ai_tension
+music_ch03_gizeh
 music_ch06_se01_ziggurat
 music_ch06_se02_lake
 music_gizeh_desert_exploration
@@ -1801,7 +1802,6 @@ music_streamer_mode
 player_state
 restricted_area
 sw_actor_health
-# 3665126475
 
 ### VALUE NAMES (mus_ch06_ziggurat.bnk)
 ai_combat
@@ -1822,6 +1822,7 @@ ch06_combat_suite
 ch06_farewell
 ch06_lake
 ch06_se01_baseziggurat01_cm
+ch06_se01_indysdecision02_cm_rescuegina
 ch06_se01_indysdecision02_cm_sneaking
 ch06_se01_revealark02_cm_reveal
 ch06_se01_vosstrap01
@@ -1923,12 +1924,11 @@ one
 second_chance
 silence
 three
+two
 vossfight_stage_01
 vossfight_stage_02
 zero
 ziggurat_cs_skip
-# 678209053
-# 4095266632
 
 ### EVENT NAMES (music.bnk)
 gizeh_desert_exploration_false
@@ -2430,9 +2430,12 @@ hud_spot_meter_music
 level_state
 music_ch00_peru
 music_ch01_marshall_college
+music_ch02_vatican
 music_ch02_vatican_intro
+music_ch03_gizeh
 music_ch04_nepal
 music_ch04_shanghai
+music_ch05_sukhothai
 music_ch06_se01_ziggurat
 music_ch06_se02_lake
 music_gizeh_desert_exploration
@@ -2440,9 +2443,6 @@ music_level
 music_menu_state
 music_streamer_mode
 music_testmap
-# 3331939567
-# 1895837418
-# 3665126475
 
 ### VALUE NAMES (music.bnk)
 above_water
@@ -2533,6 +2533,7 @@ ch03_gizeh
 ch04_nepal
 ch04_se01_findinglaura01_cm_nazisarrive
 ch04_se01_findinglaura01_cm_sadreveal
+ch04_se01_handwheel02_cm_01
 ch04_se01_himalayas01_cm_01_mountains
 ch04_se01_himalayas01_cm_01_scarlet
 ch04_se02_powerstone01_cm
@@ -2557,6 +2558,7 @@ ch04_se03_intothefire
 ch04_se03_mapstart
 ch04_se03_planepull01_pe
 ch04_se03_reaching_the_plane
+ch04_se03_roofcollapse
 ch04_se03_samurai01_ev_end
 ch04_se03_samurai01_ev_start
 ch04_se03_tension
@@ -2631,6 +2633,7 @@ ch06_combat_suite
 ch06_farewell
 ch06_lake
 ch06_se01_baseziggurat01_cm
+ch06_se01_indysdecision02_cm_rescuegina
 ch06_se01_indysdecision02_cm_sneaking
 ch06_se01_revealark02_cm_reveal
 ch06_se01_travelmontage01_cm
@@ -2736,6 +2739,7 @@ midspot
 music_testmap
 nepal_after_finding_laura_event_start
 nepal_after_finding_laura_event_stop
+nepal_combat_suite
 nepal_cs_skip
 nepal_enter_conningtower
 nepal_grabhand
@@ -2808,6 +2812,7 @@ vatican_se01_boarding01_finished
 vatican_se01_boarding01_pe
 vatican_se01_meetventura01_cm
 vatican_se02_birdwatching01_cm
+vatican_se02_birdwatching02_pe
 vatican_se02_birdwatching03_cm
 vatican_se02_follownun01_cm
 vatican_se02_sacredwounds02_cm
@@ -2815,7 +2820,9 @@ vatican_se02_viewingphotos03_cm
 vatican_se02_warriortomb02_cm
 vatican_se03_confrontventura01_cm
 vatican_se03_elevator_whip
+vatican_se03_fountainpuzzle_baptismsolve_01
 vatican_se03_fountainpuzzle_circlesolve_01
+vatican_se03_fountainpuzzle_firstclaw_01
 vatican_se03_fountainpuzzle_reveal_01
 vatican_se03_fountainpuzzle_secondclaw_01
 vatican_se03_fountainpuzzle_staircasereveal_01
@@ -2830,6 +2837,7 @@ vatican_se03_secret_monastery_reveal
 vatican_se03_secretwall_pe
 vatican_se03_silver_trial_escape_a
 vatican_se03_silver_trial_escape_b
+vatican_se03_silver_trial_escape_start
 vatican_se03_silver_trial_escape_stop
 vatican_se03_treasurechamber02_cm
 vatican_se03_visitors01_cm
@@ -2849,11 +2857,3 @@ vatican_zipline_stop
 vossfight_stage_01
 vossfight_stage_02
 ziggurat_cs_skip
-# 1284023378
-# 2095332908
-# 3392321560
-# 985597984
-# 1685373047
-# 2493971113
-# 4095266632
-# 1324172773
