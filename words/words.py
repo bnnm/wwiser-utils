@@ -157,6 +157,7 @@ class Words(object):
         p.add_argument('-j',  '--joiner',       help="Set word joiner")
 
         p.add_argument('-fa', '--format-auto',  help="Auto-makes format combos of (prefix)_%%s_(suffix)", action='store_true')
+        p.add_argument('-fam','--format-auto-mix',     help="Autoformats mixes words like blah_blah_blah = blah_%s_blah", action='store_true')
         p.add_argument('-fap','--format-auto-prefix',  help="Autoformats include up to N prefix parts", type=int)
         p.add_argument('-fas','--format-auto-suffix',  help="Autoformats include up to N suffix parts", type=int)
         p.add_argument('-fj', '--format-joiner',help="Set auto-format joiner")
@@ -451,7 +452,15 @@ class Words(object):
             for i in range(0, self._args.format_auto_suffix):
                 combo =  mark + joiner + joiner.join(subwords[-(i+1):])
                 combos.append(combo)
-            
+
+        if self._args.format_auto_mix:
+            for i in range(len(subwords)):
+                for j in range(len(subwords)):
+                    subitems = list(subwords)
+                    subitems[j] = mark
+                    combo = joiner.join(subitems)
+                    combos.append(combo)
+
         if not combos:
             # blah_blah_blah > %s_blah_blah_blah, blah_%s_blah_blah, blah_blah_%s_blah, blah_blah_blah_%s
             for i in range(len(subwords)):
@@ -1236,7 +1245,7 @@ class Words(object):
     #--------------------------------------------------------------------------
 
     def _preprocess_config(self):
-        if self._args.format_auto_prefix or self._args.format_auto_suffix:
+        if self._args.format_auto_prefix or self._args.format_auto_suffix or self._args.format_auto_mix:
             self._args.format_auto = True
 
 
