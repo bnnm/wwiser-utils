@@ -1,0 +1,1993 @@
+
+### BANK NAMES
+a_EFX_Internal_LG_Long
+a_EFX_Internal_SM_Room
+a_EFX_Reverb_Exterior_Open
+a_EFX_Reverb_Interior_LG_Room_1
+a_EFX_Reverb_Interior_MD_Room
+init
+Iris_DL1_P_SFX
+Iris_DL1_TAS_P_SFX
+Iris_DL2_Interior_P_SFX
+Iris_DL2_P_SFX
+Iris_DL3_P_SFX
+Iris_Hub2_P_SFX
+Iris_Hub_P_SFX
+Iris_Moxxi_P_SFX
+Iris_Startup_SF_SFX
+# 2932162246
+
+### BUS NAMES
+Amb_Fire
+Amb_Fire_Buffalo
+Amb_Internal
+Amb_Objects
+Amb_Tonal
+Amb_Water
+Amb_Wind
+Ambience
+AmmoLocker_LG_Long
+Assassin_Callouts
+BT_Nomad
+BT_TunnelRat
+Bullet_Impacts
+Bunker_Vox
+Bunker_Wep
+Cinematic
+CLAPTRAP
+Eridian
+Exp_Corrosive
+Exp_Elemental
+Exp_Explosive
+Exp_Incendiary
+Exp_Shock
+Exp_Slag
+Exterior_open
+Foley
+Footsteps
+Footsteps_01
+Footsteps_02
+Footsteps_03
+fX
+FX_Shields
+Gibs
+Grenades
+hud
+Interior_Hallway
+Interior_LG_cave
+Interior_LG_Metallic
+Interior_LG_Room_1
+Interior_LG_Room_2
+Interior_MD_Room
+Internal_LG_Long
+Internal_SM_Room
+Master Audio Bus = 0
+Melee
+Menus
+Mercenary_Callouts
+Migrated
+Mon_Boss_Bunker
+Mon_Constructor
+Mon_Crystalisk
+Mon_Engineer
+Mon_Guardians
+Mon_Loader
+Mon_Loader_BFG
+Mon_Loader_EXP
+Mon_Loader_Vox
+Mon_Probe
+Mon_Rakk
+Mon_Skagg
+Mon_Skagg_Alpha
+Mon_Spiderant
+Mon_Stalker
+Mon_Warrior
+Movers
+Music
+Music_Cinematic
+Music_Game
+NpC
+Obj_Door_Open_Big_Gibs_02
+Obj_Drop
+Obj_Drop_Guns
+Obj_Interaction
+Obj_Opening
+Obj_Pickup
+obj_Pickup_Ammo
+Obj_Pickup_Artifact
+Obj_Pickup_Cash
+Obj_Pickup_Health
+Obj_Pickup_Melee
+Obj_Pickup_Pistol
+Obj_Pickup_Rifle
+Obj_Pickup_Shield
+Obj_Pickup_Shield_boost
+Obj_Pickup_Shotgun
+Obj_Place
+Pandora_Radio
+Pandora_Radio_Music
+Pandora_Radio_Vo
+Pistol_Alien
+Pistols_BT
+Pistols_Dahl
+Pistols_Hyperion
+Pistols_Jakobs
+Pistols_Maliwan
+Pistols_Tediore
+Pistols_Torgue
+Pistols_Vladof
+PLAYER
+Rifle_Alien
+Rifles_Bt
+Rifles_Dahl
+Rifles_Jakobs
+Rifles_Sniper
+Rifles_Tediore
+Rifles_Torgue
+Rifles_Vladof
+Rocket_Launcher_Alien
+Rocket_Launcher_BT
+Rocket_Launcher_Tediore
+Rocket_Launcher_Torgue
+Rocket_Launchers
+RunnerMG
+sFx
+sFx_01
+SFX_Ambient
+SFX_Characters
+SFX_Environmental
+SFX_Environmental_Music
+SFX_Explosions
+SFX_fX
+SFX_Impacts
+SFX_Monsters
+SFX_Movement
+SFX_Movement_NPC
+SFX_Movement_Player
+SFX_Music
+SFX_Objects
+SFX_PLAYER
+SFX_Scripted
+SFX_Skills
+SFX_Vehicles
+SFX_Weapons
+Shared_Elemental
+Shields
+Shotgun_Alien
+Shotgun_Bt
+Shotgun_Dahl
+Shotgun_Hyperion
+Shotgun_Jakobs
+Shotgun_Tediore
+Shotgun_Torgue
+Shotguns
+Siren_Callouts
+Skagg_sFx
+Skills_Assassin
+Skills_Brick
+Skills_Mercenary
+Skills_Plastics
+Skills_Siren
+SMG_Alien
+SMG_BT
+SMG_Dahl
+SMG_Hyperion
+SMG_Maliwan
+SMG_Tediore
+Sniper_Alien
+Sniper_Dahl
+Sniper_Hyperion
+Sniper_Jakobs
+Sniper_Maliwan
+Sniper_Vladof
+Soldier_Turret
+Veh_Bandit_Technical_NPC
+veh_Gyrocopter_NPC
+veh_Saw_blade_deflect_Ambience
+Vending
+Vo
+VO_01
+VO_Arena
+Vo_Beacon
+VO_BoundaryTurret
+Vo_CatchARide
+VO_Cinematic
+VO_Echo
+VO_RADIO
+Vo_Recorder
+Vo_VendingMachine
+VOBD_Enemies
+VOBD_Goliath
+VOBD_Hyp_Constructor
+VOBD_Hyp_Engineer1
+VOBD_Hyp_Engineer2
+VOBD_Hyp_Loader
+VOBD_PL_Assassin
+VOBD_PL_Mercenary
+VOBD_PL_Siren
+VObd_Players
+VOBD_Rakkman
+VOBD_Sheriff
+VOBD_Wilhelm
+Weapons_Foley_NPC
+Weapons_NPC
+Weapons_Player
+# 3331045984
+# 1937037374
+# 1370241529
+# 3176027035
+# 304910556
+# 1025657200
+# 2980094106
+# 3606020563
+# 47504338
+# 132227857
+# 1048190731
+# 1531457093
+# 1100412962
+# 4226516793
+# 2283231532
+# 2299571593
+# 2919599468
+# 2939179265
+# 1270123396
+# 36401709
+# 145067211
+# 200073929
+# 211089034
+# 480856341
+# 839447588
+# 1136461064
+# 1136461065
+# 1136461067
+# 1136461070
+# 1351495318
+# 1410615309
+# 1445241644
+# 1486063532
+# 1596477593
+# 1610050533
+# 1628749933
+# 1674223849
+# 1740832066
+# 1758412313
+# 2180782113
+# 2214197164
+# 2414694751
+# 2569947364
+# 2585563146
+# 2785614837
+# 3092171459
+# 3160495075
+# 3338309006
+# 3669093092
+# 3764254308
+# 3764254311
+# 3868366461
+# 4036301040
+# 4173645429
+# 179702212
+# 245921432
+# 4277395550
+# 76068404
+# 89967137
+# 169664847
+# 319262194
+# 368133131
+# 408462496
+# 513483954
+# 783265801
+# 841457337
+# 863699181
+# 872639968
+# 950001883
+# 957400662
+# 1039926420
+# 1087077676
+# 1094526603
+# 1222550795
+# 1260604274
+# 1460636463
+# 1511086982
+# 1535749643
+# 1796293476
+# 1873942507
+# 2056227784
+# 2121619355
+# 2254056830
+# 2349290216
+# 2589544071
+# 2654387484
+# 2666244997
+# 2870466508
+# 3002066532
+# 3023076040
+# 3057595791
+# 3073543344
+# 3080637675
+# 3148636498
+# 3169500656
+# 3214404691
+# 3220905086
+# 3245547286
+# 3257197789
+# 3263330383
+# 3347439554
+# 3420832543
+# 3477582886
+# 3512935412
+# 3576502363
+# 3787235978
+# 3855427622
+# 3876056329
+# 1698728142
+# 90434985
+# 548980790
+# 2254189763
+# 2692625640
+# 3108821725
+# 3618024224
+# 1386922663
+# 3784415543
+# 930169924
+# 777346429
+# 2595364670
+# 2314660603
+# 291930054
+# 2382102773
+# 3544165247
+# 3178474991
+# 4060381213
+# 1330702318
+
+### SFX NAMES (1355168291.bnk: init)
+Exterior_open
+Interior_Hallway
+Interior_LG_cave
+Interior_LG_Metallic
+Interior_LG_Room_1
+Interior_LG_Room_2
+Interior_MD_Room
+Internal_LG_Long
+Internal_SM_Room
+Vo_Beacon
+# 2980094106
+# 3606020563
+
+### BASE RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
+Interior_Exterior
+master_volume
+Mon_Boss_Bunker_Vox
+Mon_Loader_Suicide_Pitch
+Mon_Probe_Jet_Pitch
+MoonShot_ChokeS
+Speed
+SS_AIR_FEAR
+SS_AIR_FREEFALL
+SS_AIR_FURY
+SS_AIR_MONTH
+SS_AIR_PRESENCE
+SS_AIR_RPM
+SS_AIR_SIZE
+SS_AIR_STORM
+SS_AIR_TIMEOFDAY
+SS_AIR_TURBULENCE
+User_Vol_Music
+User_Vol_SFX
+User_Vol_Voice
+Veh_Chasis_Impact_Vol
+Veh_Chasis_Scrape_Vol
+Veh_Engine_Load
+Veh_Engine_RPM
+Veh_Road_Noise_Vol
+Veh_Sliding_Vol
+# 206210855
+# 501243727
+# 782299937
+# 850473541
+# 1243355604
+# 1251451098
+# 1295864200
+# 1445768279
+# 2118086896
+# 2370694533
+# 2394660783
+# 2743198408
+# 2820440426
+# 2824369312
+# 2857818958
+# 2880386681
+# 3421269301
+# 4216286480
+
+### RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
+master_volume
+User_Vol_Music
+User_Vol_SFX
+User_Vol_Voice
+Veh_Engine_Load
+Veh_Engine_RPM
+# 2394660783
+# 1243355604
+# 4216286480
+# 1251451098
+
+### VARIABLE NAMES (1355168291.bnk: init)
+Credits_Mute
+Engine_Load
+Mon_Stalker_Cloaking
+Music_States
+Player_Callouts
+# 1440269067
+# 825823641
+# 700959541
+# 501993379
+# 2411611861
+# 3186717504
+# 3501305965
+# 403175910
+# 3786697294
+# 4221338019
+# 3031113099
+# 859958859
+# 2075178811
+# 1935084620
+# 3159490521
+# 2050189292
+# 2050189295
+# 2050189294
+# 2050189289
+# 2050189288
+# 2050189291
+# 2050189290
+# 2050189285
+# 2050189284
+# 2033411706
+# 2033411707
+# 4096267474
+# 3434944117
+# 743235934
+
+### VALUE NAMES (1355168291.bnk: init)
+Deafened
+Enabled
+Music_Ambience
+Music_Combat
+On
+PhaseWalk
+Player_Callouts_Off
+# 1110205311
+# 3506792893
+# 4016625246
+# 4150427671
+# 2934206824
+# 1299379235
+
+### EVENT NAMES (2932162246.bnk)
+Play_Iris_VO_Outro_Credits_Stop
+
+### EVENT NAMES (1439916305.bnk: Iris_DL1_P_SFX)
+Play_Amb_Fire_Barrel_01
+Play_Amb_Fire_Small_Crackling_01
+Play_Amb_Obj_Blade_Spinner_01
+Play_Amb_Obj_Fan_05
+Play_Amb_Obj_Fan_07
+Play_Amb_Room_HumTone_03
+Play_Arena_StereoFront_Ambience_01
+Play_Arena_StereoRear_Ambience_01
+Play_Barrel_Incendiar_Fire_end
+Play_Barrel_Incendiar_Fire_st
+Play_Barrel_Incendiary
+Play_Chest_Open_01
+Play_Dlc_Iris_Mus_Arena
+Play_Elevator_Sm_Start
+Play_Elevator_Sm_Stop
+Play_Ep3_Power_Supply_Pickup
+Play_Exp_Gibs_Creatures
+Play_Explosive_Blast_Large
+Play_Fire_Medium_04
+Play_Fire_Small_Crackling_01
+Play_Fol_BT_Nomad_Shield_Bash
+Play_Fol_BT_Nomad_Shield_Imp
+Play_Fol_BT_Nomad_Shield_Ready
+Play_Fol_BT_Nomad_Shield_Swing
+Play_FX_Digistruct_Shot
+Play_Hyperion_AmmoLocker_open
+Play_HyperionChest_Open
+Play_Imp_Axe_Flesh
+Play_Imp_Axe_Generic
+Play_Imp_BodyFall
+Play_Imp_Gib_Fall
+Play_Iris_Amb_StatiumCrowd_Cheers
+Play_Iris_BattleHorn2
+Play_Iris_PlayerGassed
+Play_Iris_WaiverExplosion
+Play_Locker_Open
+Play_Map_DamTop_MoonShot_Imp_Ground
+Play_Metal_Crate_Open
+Play_Military_Chest_Door
+Play_Military_Chest_Motor
+Play_Mno_Goliath_Helmet_Pops
+Play_Mon_BMong_Rock_Grab
+Play_Mon_BMong_Rock_Impact
+Play_Mon_Constructor_Laser_Loop
+Play_Mon_Constructor_Laser_Stop
+Play_Mon_Engineer_HammerTime_Impact
+Play_Mon_Engineer_HammerTime_Start
+Play_Mon_Engineer_HammerTime_Stop
+Play_Mon_Engineer_JumpJets_Off
+Play_Mon_Engineer_JumpJets_On
+Play_Mon_Engineer_Land
+Play_Mon_Engineer_Melee1
+Play_Mon_Engineer_Melee2
+Play_Mon_Engineer_RocketFist_Fire
+Play_Mon_Engineer_StapleGun_Fire
+Play_Mon_Engineer_StapleGun_Impact
+Play_Mon_Engineer_StapleGun_Proj
+Play_Mon_Engineer_Throw_Ground_Dig
+Play_Mon_Engineer_Throw_Ground_Proj
+Play_Mon_Engineer_Throw_Ground_Servo
+Play_Mon_Engineer_Throw_Ground_Start
+Play_Mon_Engineer_Throw_Metal
+Play_Mon_EXP_Loader_Breakdown
+Play_Mon_EXP_Loader_Breakdown_Vox
+Play_Mon_EXP_Loader_Suicide_Explode
+Play_Mon_EXP_Loader_Suicide_Loop
+Play_Mon_EXP_Loader_Suicide_PreCharge
+Play_Mon_EXP_Loader_Suicide_Start
+Play_Mon_EXP_Loader_Suicide_Transform
+Play_Mon_Goliath_AOE_Slam
+Play_Mon_Goliath_Skull_Level
+Play_Mon_Goliath_Skull_Level_Max
+Play_Mon_Goliath_Transform_Fast
+Play_Mon_Loader_BUL_Charge_End
+Play_Mon_Loader_BUL_Charge_Melee
+Play_Mon_Loader_BUL_Charge_Start
+Play_Mon_Loader_BUL_Charge_Trans
+Play_Mon_Loader_BUL_Gun_Fire
+Play_Mon_Loader_Damage_Critical
+Play_Mon_Loader_Damage_Spark
+Play_Mon_Loader_Death_Impact
+Play_Mon_Loader_EXP_Charge_Burst
+Play_Mon_Loader_EXP_Charge_Melee
+Play_Mon_Loader_EXP_Charge_Pwr_Up
+Play_Mon_Loader_EXP_Drag_Hand
+Play_Mon_Loader_EXP_Drag_Torso
+Play_Mon_Loader_EXP_Getup_Back_Legs
+Play_Mon_Loader_EXP_Getup_Back_Torso
+Play_Mon_Loader_EXP_Getup_Front_Torso
+Play_Mon_Loader_EXP_Reload_Action
+Play_Mon_Loader_EXP_Reload_Raise
+Play_Mon_Loader_EXP_Reload_Spin
+Play_Mon_Loader_EXP_Transofrm_Box_Down
+Play_Mon_Loader_Explosion
+Play_Mon_Loader_Eye_Attack_Explode
+Play_Mon_Loader_Eye_Attack_Fire
+Play_Mon_Loader_Eye_Projectile
+Play_Mon_Loader_Grenade_Throw
+Play_Mon_Loader_HOT_Fireball_Shoot
+Play_Mon_Loader_HOT_Flamethrow_Start
+Play_Mon_Loader_HOT_Flamethrow_Stop
+Play_Mon_Loader_JET_Barrage_Fire
+Play_Mon_Loader_Jets_Off
+Play_Mon_Loader_Jets_On
+Play_Mon_Loader_Jumpjets_Off
+Play_Mon_Loader_Jumpjets_On
+Play_Mon_Loader_Land
+Play_Mon_Loader_Melee
+Play_Mon_Loader_PwrUp_Eye
+Play_Mon_Loader_Scrape_Long_Loop
+Play_Mon_Loader_Servo_Down
+Play_Mon_Loader_Servo_Up
+Play_Mon_Loader_Signal_01
+Play_Mon_Loader_Signal_02
+Play_Mon_Loader_Slides
+Play_Mon_Loader_Spawn_Box
+Play_Mon_Loader_Stomp
+Play_Mon_Loader_Torso_Movement
+Play_Mon_Loader_Transform_End_01
+Play_Mon_Loader_Transform_End_02
+Play_Mon_Loader_Transform_Jet
+Play_Mon_Loader_Transform_Servo_Med
+Play_Mon_Loader_Vox_Damage_Critical
+Play_Mon_Loader_Vox_Death
+Play_Mon_Loader_Vox_Melee
+Play_Mon_Loader_WAR_Cannon_Fire
+Play_Mon_Loader_WAR_Siege_PowerUp
+Play_Mon_Loader_WAR_Siege_Stomp
+Play_Mon_Skag_Proj_Fire
+Play_Mon_Skag_Proj_Fire_01
+Play_Mon_Ultimate_Bunker_Turret_Proj
+Play_Mon_Ultimate_Bunker_Turret_Shot
+Play_Obj_Axe_Swish
+Play_Obj_Checkpoint_Station_Open
+Play_Obj_Checkpoint_Station_Respawn_Close
+Play_Obj_Checkpoint_Station_Respawn_Open
+Play_obj_Chest_Ammo_Open
+Play_Obj_Door_Open_Metal_Big_02
+Play_Obj_Electric_Fence_Zap
+Play_Obj_Pickup_Torgue_Coin
+Play_Obj_Torgue_Vending_Off
+Play_Obj_Torgue_Vending_On
+Play_Regular_Door_Locked
+Play_Seq_Ep04_anim_GenericDoor_close
+Play_Seq_Ep04_anim_GenericDoor_open
+Play_Seq_Ep13_Eridium_Shield_On
+Play_Seq_Ep13_Light_Bridge_On
+Play_UI_FastTravel_Proximity_Holo
+Play_UI_Vending_Buy
+Play_UI_Vending_Open
+Play_UI_Vending_Sell
+Play_Wep_Grenade_Suicide_Timer
+Play_Wep_Missile_Explode
+Stop_Amb_Fire_Small_Crackling_01
+Stop_Dlc_Iris_Mus_Arena
+Stop_Mon_Engineer_HammerTime_Loop
+Stop_Mon_EXP_Loader_Suicide_Loop
+Stop_Mon_Loader_BUL_Charge_Loop
+Stop_Mon_Loader_Hot_Tank_Leak
+Stop_Mon_Loader_PWR_Whirl_Loop
+Stop_Mon_Loader_Scrape_Long_Loop
+Stop_VOBD_Goliath_HUM_React_Injured
+Stop_VOBD_Loader_HUM_React_Injured_LOOP
+
+### RTPC/GAME-VARIABLE NAMES (1439916305.bnk: Iris_DL1_P_SFX)
+Mon_Loader_Suicide_Pitch
+Mon_Probe_Jet_Pitch
+# 2857818958
+# 782299937
+
+### VARIABLE NAMES (1439916305.bnk: Iris_DL1_P_SFX)
+FirstOrThirdPerson
+Music_States
+# 403175910
+
+### VALUE NAMES (1439916305.bnk: Iris_DL1_P_SFX)
+FirstPerson
+Music_Ambience
+Music_Boss_01
+Music_Boss_02
+Music_Combat
+ThirdPerson
+# 1299379235
+
+### EVENT NAMES (3321821160.bnk: Iris_DL1_TAS_P_SFX)
+Play_Amb_Fire_Small_Crackling_01
+Play_Amb_Obj_Fan_05
+Play_Amb_Obj_Machine_Pulse_02
+Play_Amb_Room_HumTone_03
+Play_Arena_StereoFront_Ambience_01
+Play_Arena_StereoRear_Ambience_01
+Play_Barrel_Corrosive
+Play_Barrel_Incendiar_Fire_end
+Play_Barrel_Incendiar_Fire_st
+Play_Barrel_Incendiary
+Play_Barrel_Shock_Discharge
+Play_Barrel_Shock_Exp
+Play_Barrel_Shock_Lightning_Start
+Play_Barrel_Shock_Lightning_Stop
+Play_Chest_Open_01
+Play_Cin_Titlecard_Subtitle_Badassasaurus
+Play_Compressed_Tank_Explosion
+Play_Dlc_Iris_Mus_Arena
+Play_Elevator_Sm_Start
+Play_Elevator_Sm_Stop
+Play_Ep3_Power_Supply_Pickup
+Play_Exp_Gibs_Creatures
+Play_Fol_BT_Nomad_Shield_Imp
+Play_FX_Digistruct_Shot
+Play_Hyperion_AmmoLocker_open
+Play_HyperionChest_Open
+Play_Imp_Axe_Flesh
+Play_Imp_Axe_Generic
+Play_Imp_BodyFall
+Play_Imp_Gib_Fall
+Play_Intro_Truckasaurus_01
+Play_Iris_Amb_StatiumCrowd_Cheers
+Play_Iris_BattleHorn2
+Play_Iris_Lootsplosion_Explode
+Play_Iris_Lootsplosion_Start
+Play_Iris_PistonEjected
+Play_Iris_Truckasaurus_Backup
+Play_Iris_Truckasaurus_Die
+Play_Iris_Truckasaurus_Donut
+Play_Iris_Truckasaurus_Donut3X
+Play_Iris_Truckasaurus_EngineLoop
+Play_Iris_Truckasaurus_ExhaustBlast
+Play_Iris_Truckasaurus_Fire
+Play_Iris_Truckasaurus_Fireball
+Play_Iris_Truckasaurus_FlameEnd
+Play_Iris_Truckasaurus_FlameLoop
+Play_Iris_Truckasaurus_FlameStart
+Play_Iris_Truckasaurus_Jump
+Play_Iris_Truckasaurus_MissilImpact
+Play_Iris_Truckasaurus_Roar
+Play_Iris_Truckasaurus_Roar_Long
+Play_Iris_Truckasaurus_Run_Drive_F
+Play_Iris_Truckasaurus_Run_Start
+Play_Iris_Truckasaurus_Slam
+Play_Iris_Truckasaurus_Small_Shake
+Play_Iris_Truckasaurus_SpinRt_180
+Play_Iris_Truckasaurus_Spray
+Play_Iris_Truckasaurus_Spray2
+Play_Iris_Truckasaurus_SprintStart
+Play_Iris_Truckasaurus_Stop
+Play_Iris_Truckasaurus_Turn_180
+Play_Iris_Truckasaurus_Turn_180b
+Play_Iris_Truckasaurus_Turn_45
+Play_Iris_Truckasaurus_Turn_90
+Play_Iris_VO_Outro_Credits_Stop
+Play_Iris_WaiverExplosion
+Play_Iris_Wep_Piston_Charge
+Play_Iris_Wep_Piston_Fire
+Play_Locker_Open
+Play_Map_DamTop_MoonShot_Imp_Ground
+Play_Metal_Crate_Open
+Play_Mon_Constructor_Nuke_Explode
+Play_Mon_Constructor_Nuke_Proj
+Play_Mon_EXP_Loader_Breakdown
+Play_Mon_EXP_Loader_Breakdown_Vox
+Play_Mon_EXP_Loader_Suicide_Explode
+Play_Mon_EXP_Loader_Suicide_Loop
+Play_Mon_EXP_Loader_Suicide_PreCharge
+Play_Mon_EXP_Loader_Suicide_Start
+Play_Mon_EXP_Loader_Suicide_Transform
+Play_Mon_Goliath_AOE_Slam
+Play_Mon_Goliath_Transform_Fast
+Play_Mon_Loader_BUL_Charge_End
+Play_Mon_Loader_BUL_Charge_Melee
+Play_Mon_Loader_BUL_Charge_Start
+Play_Mon_Loader_BUL_Charge_Trans
+Play_Mon_Loader_BUL_Gun_Fire
+Play_Mon_Loader_Damage_Critical
+Play_Mon_Loader_Damage_Spark
+Play_Mon_Loader_Death_Impact
+Play_Mon_Loader_EXP_Charge_Burst
+Play_Mon_Loader_EXP_Charge_Melee
+Play_Mon_Loader_EXP_Charge_Pwr_Up
+Play_Mon_Loader_EXP_Drag_Hand
+Play_Mon_Loader_EXP_Drag_Torso
+Play_Mon_Loader_EXP_Getup_Back_Legs
+Play_Mon_Loader_EXP_Getup_Back_Torso
+Play_Mon_Loader_EXP_Getup_Front_Torso
+Play_Mon_Loader_EXP_Reload_Action
+Play_Mon_Loader_EXP_Reload_Raise
+Play_Mon_Loader_EXP_Reload_Spin
+Play_Mon_Loader_EXP_Transofrm_Box_Down
+Play_Mon_Loader_Explosion
+Play_Mon_Loader_Eye_Attack_Explode
+Play_Mon_Loader_Eye_Attack_Fire
+Play_Mon_Loader_Eye_Projectile
+Play_Mon_Loader_Grenade_Throw
+Play_Mon_Loader_HOT_Fireball_Shoot
+Play_Mon_Loader_HOT_Flamethrow_Start
+Play_Mon_Loader_HOT_Flamethrow_Stop
+Play_Mon_Loader_JET_Barrage_Fire
+Play_Mon_Loader_Jets_Off
+Play_Mon_Loader_Jets_On
+Play_Mon_Loader_Jumpjets_Off
+Play_Mon_Loader_Jumpjets_On
+Play_Mon_Loader_Land
+Play_Mon_Loader_Melee
+Play_Mon_Loader_PwrUp_Eye
+Play_Mon_Loader_Scrape_Long_Loop
+Play_Mon_Loader_Servo_Down
+Play_Mon_Loader_Servo_Up
+Play_Mon_Loader_Signal_01
+Play_Mon_Loader_Signal_02
+Play_Mon_Loader_Slides
+Play_Mon_Loader_Spawn_Box
+Play_Mon_Loader_Stomp
+Play_Mon_Loader_Torso_Movement
+Play_Mon_Loader_Transform_End_01
+Play_Mon_Loader_Transform_End_02
+Play_Mon_Loader_Transform_Jet
+Play_Mon_Loader_Transform_Servo_Med
+Play_Mon_Loader_Vox_Damage_Critical
+Play_Mon_Loader_Vox_Death
+Play_Mon_Loader_Vox_Melee
+Play_Mon_Loader_WAR_Cannon_Fire
+Play_Mon_Loader_WAR_Siege_PowerUp
+Play_Mon_Loader_WAR_Siege_Stomp
+Play_Mon_Skag_Proj_Fire
+Play_Mon_Ultimate_Bunker_Turret_Proj
+Play_Mon_Ultimate_Bunker_Turret_Shot
+Play_Obj_Axe_Swish
+Play_Obj_Checkpoint_Station_Open
+Play_Obj_Checkpoint_Station_Respawn_Close
+Play_Obj_Checkpoint_Station_Respawn_Open
+Play_obj_Chest_Ammo_Open
+Play_Obj_Door_Open_Metal_Big_02
+Play_Obj_Electric_Fence_Zap
+Play_Obj_Pickup_Torgue_Coin
+Play_Obj_Torgue_Vending_Off
+Play_Obj_Torgue_Vending_On
+Play_Regular_Door_Locked
+Play_Runner_Explosion
+Play_Runner_Rocket_Launcher
+Play_Seq_Ep13_Eridium_Shield_On
+Play_Seq_Ep13_Light_Bridge_On
+Play_Siren_Start
+Play_Siren_Stop
+Play_UI_FastTravel_Proximity_Holo
+Play_UI_Vending_Buy
+Play_UI_Vending_Open
+Play_UI_Vending_Sell
+Play_Veh_BT_Wep_Rocket_Alt_Proj
+Play_Wep_Missile_Explode
+Seq_Trap_Door_Gate_Start
+Seq_Trap_Door_Gate_Stop
+Stop_Amb_Fire_Small_Crackling_01
+Stop_Dlc_Iris_Mus_Arena
+Stop_Iris_Truckasaurus_FlameLoop
+Stop_Iris_Wep_Piston_Charge
+Stop_Mon_EXP_Loader_Suicide_Loop
+Stop_Mon_Loader_BUL_Charge_Loop
+Stop_Mon_Loader_Hot_Tank_Leak
+Stop_Mon_Loader_PWR_Whirl_Loop
+Stop_Mon_Loader_Scrape_Long_Loop
+Stop_VOBD_Goliath_HUM_React_Injured
+Stop_VOBD_Loader_HUM_React_Injured_LOOP
+
+### RTPC/GAME-VARIABLE NAMES (3321821160.bnk: Iris_DL1_TAS_P_SFX)
+Mon_Loader_Suicide_Pitch
+Mon_Probe_Jet_Pitch
+# 782299937
+
+### VARIABLE NAMES (3321821160.bnk: Iris_DL1_TAS_P_SFX)
+FirstOrThirdPerson
+Music_States
+# 403175910
+
+### VALUE NAMES (3321821160.bnk: Iris_DL1_TAS_P_SFX)
+FirstPerson
+Music_Ambience
+Music_Boss_01
+Music_Boss_02
+Music_Combat
+ThirdPerson
+# 1299379235
+
+### EVENT NAMES (4104448671.bnk: Iris_DL2_Interior_P_SFX)
+Play_Amb_Fire_Barrel_01
+Play_Amb_Fire_Gas_lp_05
+Play_Amb_Fire_Gas_lp_06
+Play_Amb_Fire_Gas_lp_07
+Play_Amb_Fire_Gas_lp_08
+Play_Amb_Obj_Blade_Spinner_01
+Play_Amb_Obj_Fan_06
+Play_Amb_Obj_Fan_07
+Play_Amb_Room_Flooded_Machinery_02
+Play_Amb_Room_HumTone_03
+Play_Amb_Water_Waterfall_01_Start
+Play_Amb_Water_Waterfall_01_Stop
+Play_Amb_Water_Waterfall_02_Start
+Play_Amb_Water_Waterfall_02_Stop
+Play_Bandit_Misc1_Open
+Play_BanditWeapon_Chest_Open
+Play_BanditWeapon_Chest_Rattle
+Play_Chest_Open_01
+Play_Cin_Titlecard_Subtitle_Moxxi
+Play_Cin_Titlecard_Subtitle_PyroPete
+Play_Dlc_Iris_Mus_Petes_Interior
+Play_Door_Open
+Play_Elevator_Med_Start_01
+Play_Elevator_Med_Stop_01
+Play_Elevator_Sm_Start
+Play_Elevator_Sm_Stop
+Play_Ep3_Power_Supply_Pickup
+Play_Exp_Gibs_Creatures
+Play_Fol_BT_Nomad_Shield_Bash
+Play_Fol_BT_Nomad_Shield_Imp
+Play_Fol_BT_Nomad_Shield_Ready
+Play_Fol_BT_Nomad_Shield_Swing
+Play_Fol_Char_TunnelRat_Eat_Start
+Play_Fol_Char_TunnelRat_Eat_Stop
+Play_FX_Digistruct_Shot
+Play_Hatch_Close
+Play_Hatch_Open
+Play_Hyperion_AmmoLocker_open
+Play_Imp_Axe_Flesh
+Play_Imp_Axe_Generic
+Play_Imp_BodyFall
+Play_Imp_Debris_Light
+Play_Imp_Gib_Fall
+Play_Intro_Moxie_01
+Play_Intro_PyroPete_01
+Play_Iris_Amb_StatiumCrowd_Cheers
+Play_Iris_BattleHorn2
+Play_Iris_PyroPete_Cocktails
+Play_Iris_PyroPete_FlamThrower_End
+Play_Iris_PyroPete_FlamThrower_Start
+Play_Iris_WaiverExplosion
+Play_Locker_Open
+Play_Map_DamTop_MoonShot_Imp_Ground
+Play_map_Sanctuary_perch_Knock
+Play_Mon_BMong_Rock_Grab
+Play_Mon_BMong_Rock_Impact
+Play_Mon_Constructor_Laser_Loop
+Play_Mon_Constructor_Laser_Stop
+Play_Mon_Constructor_Nuke_Explode_01
+Play_Mon_Crystalisk_Burrow_End_01
+Play_Mon_Crystalisk_Burrow_Start_01
+Play_Mon_Engineer_HammerTime_Impact
+Play_Mon_Engineer_HammerTime_Start
+Play_Mon_Engineer_HammerTime_Stop
+Play_Mon_Engineer_JumpJets_Off
+Play_Mon_Engineer_JumpJets_On
+Play_Mon_Engineer_Land
+Play_Mon_Engineer_Melee1
+Play_Mon_Engineer_Melee2
+Play_Mon_Engineer_RocketFist_Fire
+Play_Mon_Engineer_StapleGun_Fire
+Play_Mon_Engineer_StapleGun_Impact
+Play_Mon_Engineer_StapleGun_Proj
+Play_Mon_Engineer_Throw_Ground_Dig
+Play_Mon_Engineer_Throw_Ground_Proj
+Play_Mon_Engineer_Throw_Ground_Servo
+Play_Mon_Engineer_Throw_Ground_Start
+Play_Mon_Engineer_Throw_Metal
+Play_Mon_Goliath_AOE_Slam
+Play_Mon_Goliath_Transform_Fast
+Play_Mon_Loader_JET_Barrage_Fire
+Play_Mon_Rat_Steal_Start
+Play_Mon_Rat_Steal_Success
+Play_Mon_Skag_Proj_Fire_01
+Play_Mon_Spider_Ant_Dodge
+Play_Mon_Spider_Ant_Shed_Skin
+Play_Mon_Spider_Ant_Slide
+Play_Mon_Spider_Ant_Vox_Coil_Up
+Play_Mon_Spider_Ant_Vox_Getup
+Play_Mon_Spider_Ant_Vox_Grunt
+Play_Mon_Spider_Ant_Vox_Skin
+Play_Mon_Spiderant_Proj_Fire
+Play_Mon_Spiderant_Spawn_Web
+Play_Mon_Spiderant_Vox_AOE_Charge
+Play_Mon_Stalker_FX_Appear
+Play_Mon_Stalker_FX_Cloaking
+Play_Obj_Axe_Swish
+Play_Obj_Checkpoint_Station_Open
+Play_Obj_Checkpoint_Station_Respawn_Close
+Play_Obj_Checkpoint_Station_Respawn_Open
+Play_Obj_FloorLever_Failure
+Play_Obj_FloorLever_Success
+Play_Obj_Lift_lp
+Play_Obj_Mover_Pulley_Lift_Start_01
+Play_Obj_Mover_Pulley_Lift_Stop_01
+Play_Obj_Pickup_Cam
+Play_Obj_Pickup_Torgue_Coin
+Play_Obj_Switch_Failure
+Play_Obj_Switch_Success
+Play_Obj_Torgue_Vending_Off
+Play_Obj_Torgue_Vending_On
+Play_Obj_Wheel_Failure
+Play_Obj_Wheel_Success
+Play_Regular_Door_Locked
+Play_Seq_DOT_Drain
+Play_Seq_Ep02_Hammerlock_Power_Switch
+Play_Seq_Ep04_anim_GenericDoor_close
+Play_Seq_Ep04_anim_GenericDoor_open
+Play_Seq_Ep13_Eridium_Shield_On
+Play_Seq_Ep13_Light_Bridge_On
+Play_Spider_Ant_Attack
+Play_Spider_Ant_Breath
+Play_Spider_Ant_Burrow
+Play_Spider_Ant_Burrow_Explode
+Play_Spider_Ant_Death
+Play_Spider_Ant_Dig_In
+Play_Spider_Ant_Land
+Play_Spider_Ant_Melee
+Play_Spider_Ant_Melee_Slam
+Play_Spider_Ant_Pain
+Play_Spider_Ant_Roar_Shake
+Play_Spider_Ant_Roar_Warning
+Play_Spider_Ant_Rolling
+Play_Spider_Ant_Spit
+Play_Spider_Ant_Spit_Quick
+Play_Spider_Ant_Step
+Play_Spider_Ant_Underground_Loop_01
+Play_SQ_BFF_Draw_Weapon
+Play_SQ_BFF_Gun_Foley
+Play_Toilet_Open
+Play_UI_Customization_Open
+Play_UI_Customization_Reset_Skills
+Play_UI_FastTravel_Proximity_Holo
+Play_UI_Vending_Buy
+Play_UI_Vending_Open
+Play_UI_Vending_Sell
+Play_Wep_Grenade_Suicide_Timer
+Play_Wep_Missile_Explode
+Stop_Dlc_Iris_Mus_Petes_Interior
+Stop_Mon_Engineer_HammerTime_Loop
+Stop_Spider_Ant_Rolling
+Stop_VOBD_Goliath_HUM_React_Injured
+
+### RTPC/GAME-VARIABLE NAMES (4104448671.bnk: Iris_DL2_Interior_P_SFX)
+# 782299937
+# 2857818958
+
+### VARIABLE NAMES (4104448671.bnk: Iris_DL2_Interior_P_SFX)
+FirstOrThirdPerson
+Music_States
+# 403175910
+
+### VALUE NAMES (4104448671.bnk: Iris_DL2_Interior_P_SFX)
+FirstPerson
+Music_Ambience
+Music_Boss_01
+Music_Boss_02
+Music_Combat
+ThirdPerson
+# 1299379235
+
+### EVENT NAMES (1149547078.bnk: Iris_DL2_P_SFX)
+Play_Amb_Fire_Gas_lp_05
+Play_Amb_Fire_Gas_lp_06
+Play_Amb_Fire_Gas_lp_07
+Play_Amb_Fire_Gas_lp_08
+Play_Amb_Fire_Gas_lp_10
+Play_Amb_Fire_Small_Crackling_01
+Play_Amb_Obj_Cloth_Flapping_04
+Play_Amb_Obj_Cloth_Flapping_05
+Play_Amb_Obj_Fan_05
+Play_Amb_Obj_Fan_06
+Play_Amb_Obj_Fan_07
+Play_Amb_Obj_Machine_02
+Play_Amb_Obj_Neon_Light_05
+Play_Amb_Wind_Soft_02
+Play_Anim_Light_Runner_Creak
+Play_Anim_Light_Runner_Hand_Scrape
+Play_Bandit_Locker_Open
+Play_Barrel_Corrosive
+Play_Barrel_Incendiar_Fire_end
+Play_Barrel_Incendiar_Fire_st
+Play_Barrel_Incendiary
+Play_Barrel_Shock_Discharge
+Play_Barrel_Shock_Exp
+Play_Barrel_Shock_Lightning_Start
+Play_Barrel_Shock_Lightning_Stop
+Play_Chest_Open_01
+Play_Dlc_Iris_Mus_Petes_Exterior
+Play_Elevator_Sm_Start
+Play_Elevator_Sm_Stop
+Play_Ep3_Power_Supply_Pickup
+Play_Exp_Gibs_Creatures
+Play_Fast_Travel_Broken_Lp
+Play_Fast_Travel_Broken_Open_01
+Play_Fast_Travel_Broken_Open_02
+Play_Fast_Travel_Broken_Open_03
+Play_Fast_Travel_Close
+Play_Fast_Travel_Open
+Play_Fire_Large_01
+Play_Fol_BT_Nomad_Shield_Bash
+Play_Fol_BT_Nomad_Shield_Imp
+Play_Fol_BT_Nomad_Shield_Ready
+Play_Fol_BT_Nomad_Shield_Swing
+Play_FX_Assassin_Sword_Hit
+Play_FX_Digistruct_Shot
+Play_Garage_open
+Play_Hatch_Close
+Play_Hatch_Open
+Play_Imp_Axe_Flesh
+Play_Imp_Axe_Generic
+Play_Imp_BodyFall
+Play_Imp_Debris_Light
+Play_Imp_Gib_Fall
+Play_Iris_Amb_Firestack_01
+Play_Iris_Amb_StatiumCrowd_Cheers
+Play_Iris_BattleHorn2
+Play_Iris_Motorcycle_Explode
+Play_Iris_Motorcycle_Land
+Play_Iris_Motorcycle_Revs
+Play_Iris_Motorcycle_Skids
+Play_Iris_Motorcycle_Sprint
+Play_Iris_Motorcycle_Start
+Play_Iris_WaiverExplosion
+Play_Map_DamTop_MoonShot_Imp_Ground
+Play_map_Sanctuary_perch_Knock
+Play_Metal_Crate_Open
+Play_Military_Chest_Door
+Play_Military_Chest_Motor
+Play_Military_Container_Open
+Play_Mon_Engineer_HammerTime_Start
+Play_Mon_Engineer_HammerTime_Stop
+Play_Mon_Engineer_Melee1
+Play_Mon_Engineer_Melee2
+Play_Mon_Engineer_RocketFist_Fire
+Play_Mon_Engineer_Throw_Ground_Dig
+Play_Mon_Engineer_Throw_Ground_Servo
+Play_Mon_Engineer_Throw_Ground_Start
+Play_Mon_Engineer_Throw_Metal
+Play_Mon_EXP_Loader_Suicide_Explode
+Play_Mon_Goliath_AOE_Slam
+Play_Mon_Goliath_Transform_Fast
+Play_Mon_Skag_Barf_Attack
+Play_Mon_Skag_Choke
+Play_Mon_Skag_Critical_Exposed
+Play_Mon_Skag_Proj_Fire_01
+Play_Mon_Skag_Signal_Sent
+Play_Mon_Skag_Spit_Corrosive
+Play_Mon_Skag_Spit_Fire
+Play_Mon_Skag_Spit_Shock
+Play_Mon_Skag_Tongue_Whip
+Play_Mon_Skag_Transform_Ally
+Play_Obj_Axe_Swish
+Play_Obj_Button_Fail
+Play_Obj_Button_Success
+Play_Obj_Checkpoint_Station_Open
+Play_Obj_Checkpoint_Station_Respawn_Close
+Play_Obj_Checkpoint_Station_Respawn_Open
+Play_obj_Chest_Ammo_Open
+Play_Obj_Electric_Fence_Zap
+Play_Obj_Mover_Bandit_Turret_Start
+Play_Obj_Mover_Bandit_Turret_Stop
+Play_Obj_Pickup_Torgue_Coin
+Play_Obj_Propane_Tank_Fire
+Play_Obj_Torgue_Vending_Off
+Play_Obj_Torgue_Vending_On
+Play_Regular_Door_Locked
+Play_Safe_Open
+Play_Seq_Ep02_Hammerlock_Power_Switch
+Play_Seq_Ep04_anim_GenericDoor_close
+Play_Seq_Ep04_anim_GenericDoor_open
+Play_Seq_Ep04_Lock_Break
+Play_Skag_Bones_Open
+Play_skag_breath
+Play_skag_growl
+Play_skag_snaps
+Play_skag_step
+Play_Skagg_Attack
+Play_Skagg_Attack_InPlace
+Play_Skagg_Attack_Short
+Play_Skagg_Bite
+Play_Skagg_Bite_Snarl
+Play_Skagg_Death
+Play_Skagg_Fireburst
+Play_Skagg_Grunt
+Play_Skagg_Impact_Grunt
+Play_Skagg_Pain
+Play_Skagg_Prep_Bite
+Play_Skagg_ReadyCharge
+Play_Skagg_Roar
+Play_Skagg_Roar_Long
+Play_Skagg_Scrape_Rock_01
+Play_Skagg_Spit_Attack
+Play_Skagg_Spit_Prep
+Play_SQ_BFF_Draw_Weapon
+Play_SQ_BFF_Gun_Foley
+Play_UI_Fast_Travel_Invalid_Location
+Play_UI_FastTravel_Open
+Play_UI_FastTravel_Proximity_Holo
+Play_UI_Vending_Buy
+Play_UI_Vending_Open
+Play_UI_Vending_Sell
+Play_Veh_Body_NPC_Impact
+Play_Wep_Grenade_Suicide_Timer
+Seq_Trap_Door_Gate_Start
+Seq_Trap_Door_Gate_Stop
+Stop_Amb_Fire_Small_Crackling_01
+Stop_Dlc_Iris_Mus_Petes_Exterior
+Stop_Iris_Motorcycle_Patrol
+Stop_Iris_Motorcycle_Revs
+Stop_Mon_Engineer_HammerTime_Loop
+Stop_Obj_Propane_Tank_Fire
+Stop_VOBD_Goliath_HUM_React_Injured
+
+### VARIABLE NAMES (1149547078.bnk: Iris_DL2_P_SFX)
+FirstOrThirdPerson
+Music_States
+# 403175910
+
+### VALUE NAMES (1149547078.bnk: Iris_DL2_P_SFX)
+FirstPerson
+Music_Ambience
+Music_Boss_01
+Music_Combat
+ThirdPerson
+# 1299379235
+
+### EVENT NAMES (3175719699.bnk: Iris_DL3_P_SFX)
+Play_Amb_Fire_Barrel_01
+Play_Amb_Fire_Small_Crackling_01
+Play_Amb_Firestack_LG_lp_02
+Play_Amb_Lava_Falls_02
+Play_Amb_Lava_Falls_Sm_07
+Play_Amb_Lava_Falls_Sm_08
+Play_Amb_Lava_Falls_Sm_09
+Play_Amb_Lava_River_04
+Play_Amb_Lava_River_05
+Play_Amb_Lava_River_06
+Play_Amb_Obj_Blade_Spinner_01
+Play_Amb_Obj_Conveyer_Belt_03
+Play_Amb_Obj_Conveyer_Belt_04
+Play_Amb_Obj_Piston_01_lp_01
+Play_Amb_Obj_Rotating_Gear_02
+Play_Amb_Tonal_Volcano_Wind_01
+Play_Anim_Light_Runner_Creak
+Play_Anim_Light_Runner_Hand_Scrape
+Play_Barrel_Corrosive
+Play_Barrel_Incendiar_Fire_end
+Play_Barrel_Incendiar_Fire_st
+Play_Barrel_Incendiary
+Play_Barrel_Shock_Discharge
+Play_Barrel_Shock_Exp
+Play_Barrel_Shock_Lightning_Start
+Play_Barrel_Shock_Lightning_Stop
+Play_Blimp
+Play_Cardboard_Open
+Play_Chest_Open_01
+Play_Cin_Titlecard_Subtitle_Flyboy
+Play_Cin_Titlecard_Subtitle_PistonBlimp
+Play_Corrosive_Blast_Large
+Play_Corrosive_Blast_Small
+Play_Dlc_Iris_Mus_Flyboy
+Play_Elevator_Med_Start_01
+Play_Elevator_Med_Stop_01
+Play_Elevator_Sm_Start
+Play_Elevator_Sm_Stop
+Play_Ep3_Power_Supply_Pickup
+Play_Exp_Gibs_Creatures
+Play_Fast_Travel_Broken_Lp
+Play_Fast_Travel_Broken_Open_01
+Play_Fast_Travel_Broken_Open_02
+Play_Fast_Travel_Broken_Open_03
+Play_Fast_Travel_Close
+Play_Fast_Travel_Open
+Play_Fol_BT_Nomad_Shield_Bash
+Play_Fol_BT_Nomad_Shield_Imp
+Play_Fol_BT_Nomad_Shield_Ready
+Play_Fol_BT_Nomad_Shield_Swing
+Play_FX_Digistruct_Shot
+Play_Hatch_Open
+Play_Hyperion_AmmoLocker_open
+Play_Imp_Axe_Flesh
+Play_Imp_Axe_Generic
+Play_Imp_BodyFall
+Play_Imp_Debris_Light
+Play_Imp_Gib_Fall
+Play_Intro_Flyboy_01
+Play_Iris_Amb_StatiumCrowd_Cheers
+Play_Iris_BattleHorn2
+Play_Iris_WaiverExplosion
+Play_Locker_Open
+Play_Map_DamTop_MoonShot_Imp_Ground
+Play_map_Sanctuary_perch_Knock
+Play_Metal_Crate_Open
+Play_Military_Container_Open
+Play_Mon_BMong_Rock_Grab
+Play_Mon_BMong_Rock_Impact
+Play_Mon_BMorph_Spit_Proj
+Play_Mon_Constructor_Laser_Loop
+Play_Mon_Constructor_Laser_Stop
+Play_Mon_Engineer_HammerTime_Impact
+Play_Mon_Engineer_HammerTime_Start
+Play_Mon_Engineer_HammerTime_Stop
+Play_Mon_Engineer_JumpJets_Off
+Play_Mon_Engineer_JumpJets_On
+Play_Mon_Engineer_Land
+Play_Mon_Engineer_Melee1
+Play_Mon_Engineer_Melee2
+Play_Mon_Engineer_RocketFist_Fire
+Play_Mon_Engineer_StapleGun_Fire
+Play_Mon_Engineer_StapleGun_Impact
+Play_Mon_Engineer_StapleGun_Proj
+Play_Mon_Engineer_Throw_Ground_Dig
+Play_Mon_Engineer_Throw_Ground_Proj
+Play_Mon_Engineer_Throw_Ground_Servo
+Play_Mon_Engineer_Throw_Ground_Start
+Play_Mon_Engineer_Throw_Metal
+Play_Mon_EXP_Loader_Breakdown
+Play_Mon_EXP_Loader_Breakdown_Vox
+Play_Mon_EXP_Loader_Suicide_Explode
+Play_Mon_EXP_Loader_Suicide_Loop
+Play_Mon_EXP_Loader_Suicide_PreCharge
+Play_Mon_EXP_Loader_Suicide_Start
+Play_Mon_EXP_Loader_Suicide_Transform
+Play_Mon_Goliath_AOE_Slam
+Play_Mon_Goliath_Transform_Fast
+Play_Mon_Loader_BUL_Charge_End
+Play_Mon_Loader_BUL_Charge_Melee
+Play_Mon_Loader_BUL_Charge_Start
+Play_Mon_Loader_BUL_Charge_Trans
+Play_Mon_Loader_BUL_Gun_Fire
+Play_Mon_Loader_Damage_Critical
+Play_Mon_Loader_Damage_Spark
+Play_Mon_Loader_Death_Impact
+Play_Mon_Loader_EXP_Charge_Burst
+Play_Mon_Loader_EXP_Charge_Melee
+Play_Mon_Loader_EXP_Charge_Pwr_Up
+Play_Mon_Loader_EXP_Drag_Hand
+Play_Mon_Loader_EXP_Drag_Torso
+Play_Mon_Loader_EXP_Getup_Back_Legs
+Play_Mon_Loader_EXP_Getup_Back_Torso
+Play_Mon_Loader_EXP_Getup_Front_Torso
+Play_Mon_Loader_EXP_Reload_Action
+Play_Mon_Loader_EXP_Reload_Raise
+Play_Mon_Loader_EXP_Reload_Spin
+Play_Mon_Loader_EXP_Transofrm_Box_Down
+Play_Mon_Loader_Explosion
+Play_Mon_Loader_Eye_Attack_Explode
+Play_Mon_Loader_Eye_Attack_Fire
+Play_Mon_Loader_Eye_Projectile
+Play_Mon_Loader_Grenade_Throw
+Play_Mon_Loader_HOT_Fireball_Shoot
+Play_Mon_Loader_HOT_Flamethrow_Start
+Play_Mon_Loader_HOT_Flamethrow_Stop
+Play_Mon_Loader_JET_Barrage_Fire
+Play_Mon_Loader_Jets_Off
+Play_Mon_Loader_Jets_On
+Play_Mon_Loader_Jumpjets_Off
+Play_Mon_Loader_Jumpjets_On
+Play_Mon_Loader_Land
+Play_Mon_Loader_Melee
+Play_Mon_Loader_PWR_Whirl_Start
+Play_Mon_Loader_PWR_Whirl_Stop
+Play_Mon_Loader_PwrUp_Eye
+Play_Mon_Loader_Scrape_Long_Loop
+Play_Mon_Loader_Servo_Down
+Play_Mon_Loader_Servo_Up
+Play_Mon_Loader_Signal_01
+Play_Mon_Loader_Signal_02
+Play_Mon_Loader_Slides
+Play_Mon_Loader_Spawn_Box
+Play_Mon_Loader_Stomp
+Play_Mon_Loader_Torso_Movement
+Play_Mon_Loader_Transform_End_01
+Play_Mon_Loader_Transform_End_02
+Play_Mon_Loader_Transform_Jet
+Play_Mon_Loader_Transform_Servo_Med
+Play_Mon_Loader_Vox_Damage_Critical
+Play_Mon_Loader_Vox_Death
+Play_Mon_Loader_Vox_Melee
+Play_Mon_Loader_WAR_Cannon_Fire
+Play_Mon_Loader_WAR_Siege_PowerUp
+Play_Mon_Loader_WAR_Siege_Stomp
+Play_Mon_Probe_Transform_Combat
+Play_Mon_Probe_Transform_Support
+Play_Mon_Skag_Amb_Corrosive
+Play_Mon_Skag_Amb_Fire
+Play_Mon_Skag_Amb_Shock
+Play_Mon_Skag_AOE_Corrosive
+Play_Mon_Skag_AOE_Fire
+Play_Mon_Skag_AOE_Shock
+Play_Mon_Skag_Barf_Attack
+Play_Mon_Skag_Barf_Liquid
+Play_Mon_Skag_Beam_Shock_End
+Play_Mon_Skag_Beam_Shock_Start
+Play_Mon_Skag_Breathe_Corrosive
+Play_Mon_Skag_Breathe_Fire
+Play_Mon_Skag_Choke
+Play_Mon_Skag_Claw_Corrosive
+Play_Mon_Skag_Claw_Fire
+Play_Mon_Skag_Claw_Shock
+Play_Mon_Skag_Critical_Exposed
+Play_Mon_Skag_Land
+Play_Mon_Skag_Proj_Corrosive
+Play_Mon_Skag_Proj_Fire
+Play_Mon_Skag_Proj_Fire_01
+Play_Mon_Skag_Proj_Shock
+Play_Mon_Skag_Signal_Sent
+Play_Mon_Skag_Spit_Corrosive
+Play_Mon_Skag_Spit_Fire
+Play_Mon_Skag_Spit_Shock
+Play_Mon_Skag_Tongue_Whip
+Play_Mon_Skag_Transform_Ally
+Play_Mon_Spiderant_AOE_Fire_Burst
+Play_Mon_Spiderant_Slag_Proj
+Play_Mon_Ultimate_Bunker_Turret_Proj
+Play_Mon_Ultimate_Bunker_Turret_Shot
+Play_Obj_Axe_Swish
+Play_Obj_Button_Fail
+Play_Obj_Checkpoint_Station_Open
+Play_Obj_Checkpoint_Station_Respawn_Close
+Play_Obj_Checkpoint_Station_Respawn_Open
+Play_obj_Chest_Ammo_Open
+Play_Obj_Door_Hyperion_OpenClose
+Play_Obj_Door_Servo_Door_Stop
+Play_Obj_Door_Servo_Start
+Play_Obj_Electric_Fence_Zap
+Play_Obj_Mover_Bandit_Turret_Start
+Play_Obj_Mover_Bandit_Turret_Stop
+Play_Obj_Pickup_Flesh
+Play_Obj_Pickup_Torgue_Coin
+Play_Obj_Propane_Tank_Fire
+Play_Obj_Switch_Failure
+Play_Obj_Switch_Success
+Play_Obj_Torgue_Vending_Off
+Play_Obj_Torgue_Vending_On
+Play_Regular_Door_Locked
+Play_Runner_Rocket_Launcher
+Play_Seq_Ep02_Hammerlock_Power_Switch
+Play_Seq_Ep04_anim_GenericDoor_close
+Play_Seq_Ep04_anim_GenericDoor_open
+Play_Seq_Ep13_Eridium_Shield_On
+Play_Seq_Ep13_Light_Bridge_On
+Play_Seq_Gate_Impact
+Play_Seq_Gatefall
+Play_Seq_Gatefall_Sparks
+Play_Seq_GateStruggle
+Play_Skag_Bones_Open
+Play_skag_breath
+Play_skag_growl
+Play_skag_snaps
+Play_skag_step
+Play_Skagg_Attack
+Play_Skagg_Attack_InPlace
+Play_Skagg_Attack_Short
+Play_Skagg_Bite
+Play_Skagg_Bite_Snarl
+Play_Skagg_Death
+Play_Skagg_Fireburst
+Play_Skagg_Grunt
+Play_Skagg_Impact_Grunt
+Play_Skagg_Pain
+Play_Skagg_Prep_Bite
+Play_Skagg_ReadyCharge
+Play_Skagg_Roar
+Play_Skagg_Roar_Long
+Play_Skagg_Scrape_Rock_01
+Play_Skagg_Spit_Attack
+Play_Skagg_Spit_Prep
+Play_SQ_BFF_Draw_Weapon
+Play_SQ_BFF_Gun_Foley
+Play_Toilet_Open
+Play_UI_Fast_Travel_Invalid_Location
+Play_UI_FastTravel_Open
+Play_UI_FastTravel_Proximity_Holo
+Play_UI_Vending_Buy
+Play_UI_Vending_Open
+Play_UI_Vending_Sell
+Play_Veh_BT_Wep_Rocket_Alt_Proj
+Play_veh_Gyrocopter_crash_impact
+Play_veh_Gyrocopter_engine
+Play_veh_Gyrocopter_engine_Damaged
+Play_veh_Gyrocopter_engine_dive
+Play_veh_Gyrocopter_explo_blowApart
+Play_veh_Gyrocopter_explo_death
+Play_veh_Gyrocopter_explo_engine_pop
+Play_Wep_Grenade_Suicide_Timer
+Play_Wep_Missile_Explode
+Play_Wep_Soldier_Turret_Fire
+Play_Wep_Soldier_Turret_Release
+Stop_Amb_Fire_Small_Crackling_01
+Stop_Dlc_Iris_Mus_Flyboy
+Stop_Mon_Engineer_HammerTime_Loop
+Stop_Mon_EXP_Loader_Suicide_Loop
+Stop_Mon_Loader_BUL_Charge_Loop
+Stop_Mon_Loader_Hot_Tank_Leak
+Stop_Mon_Loader_PWR_Whirl_Loop
+Stop_Mon_Loader_Scrape_Long_Loop
+Stop_Mon_Skag_Amb_Corrosive
+Stop_Mon_Skag_Amb_Fire
+Stop_Mon_Skag_Amb_Shock
+Stop_Obj_Propane_Tank_Fire
+Stop_VOBD_Goliath_HUM_React_Injured
+Stop_VOBD_Loader_HUM_React_Injured_LOOP
+
+### RTPC/GAME-VARIABLE NAMES (3175719699.bnk: Iris_DL3_P_SFX)
+Mon_Loader_Suicide_Pitch
+Mon_Probe_Jet_Pitch
+Speed
+# 2857818958
+# 782299937
+# 1445768279
+
+### VARIABLE NAMES (3175719699.bnk: Iris_DL3_P_SFX)
+FirstOrThirdPerson
+Music_States
+# 403175910
+
+### VALUE NAMES (3175719699.bnk: Iris_DL3_P_SFX)
+FirstPerson
+Music_Ambience
+Music_Boss_01
+Music_Combat
+ThirdPerson
+# 1299379235
+
+### EVENT NAMES (359940851.bnk: Iris_Hub2_P_SFX)
+Play_Amb_Fire_Barrel_01
+Play_Amb_Fire_Gas_lp_06
+Play_Amb_Fire_Gas_lp_07
+Play_Amb_Fire_Gas_lp_09
+Play_Amb_Fire_Gas_lp_10
+Play_Amb_Fire_Small_Crackling_01
+Play_Amb_Firestack_LG_lp_01
+Play_Amb_Firestack_LG_lp_02
+Play_Amb_Obj_Cloth_Flapping_04
+Play_Amb_Obj_Cloth_Flapping_05
+Play_Amb_Obj_Fan_05
+Play_Amb_Obj_Fan_07
+Play_Amb_Obj_Industrial_Vent_03
+Play_Amb_Obj_Industrial_Vent_04
+Play_Amb_Obj_Machine_02
+Play_Amb_Wind_Soft_04
+Play_Anim_Light_Runner_Creak
+Play_Anim_Light_Runner_Hand_Scrape
+Play_Bandit_Misc1_Open
+Play_Bandit_Misc2_Open
+Play_Barrel_Corrosive
+Play_Barrel_Incendiar_Fire_end
+Play_Barrel_Incendiar_Fire_st
+Play_Barrel_Incendiary
+Play_Barrel_Shock_Discharge
+Play_Barrel_Shock_Exp
+Play_Barrel_Shock_Lightning_Start
+Play_Barrel_Shock_Lightning_Stop
+Play_Chest_Open_01
+Play_Cin_Titlecard_Subtitle_MotorMomma
+Play_Dlc_Iris_Mus_Hubs
+Play_Exp_Gibs_Creatures
+Play_Fast_Travel_Broken_Lp
+Play_Fast_Travel_Broken_Open_01
+Play_Fast_Travel_Broken_Open_02
+Play_Fast_Travel_Broken_Open_03
+Play_Fast_Travel_Close
+Play_Fast_Travel_Open
+Play_Fire_Small_Crackling_01
+Play_Fol_BT_Nomad_Shield_Bash
+Play_Fol_BT_Nomad_Shield_Imp
+Play_Fol_BT_Nomad_Shield_Ready
+Play_Fol_BT_Nomad_Shield_Swing
+Play_FX_Assassin_Sword_Hit
+Play_FX_Digistruct_Shot
+Play_FX_Vehicle_Spawn
+Play_Hatch_Open
+Play_Hyperion_AmmoLocker_open
+Play_Imp_Axe_Flesh
+Play_Imp_Axe_Generic
+Play_Imp_BodyFall
+Play_Imp_Debris_Light
+Play_Imp_Gib_Fall
+Play_Intro_MotorMomma_01
+Play_Iris_Amb_Firestack
+Play_Iris_Amb_StatiumCrowd_Cheers
+Play_Iris_Amb_Wind_Canyon
+Play_Iris_BattleHorn2
+Play_Iris_Motorcycle_Explode
+Play_Iris_Motorcycle_Land
+Play_Iris_Motorcycle_Revs
+Play_Iris_Motorcycle_Skids
+Play_Iris_Motorcycle_Sprint
+Play_Iris_Motorcycle_Start
+Play_Iris_WaiverExplosion
+Play_Map_DamTop_MoonShot_Imp_Ground
+Play_Map_Milestone_10_Vent
+Play_Metal_Crate_Open
+Play_Military_Container_Open
+Play_Mon_Bmong_Car_Impact
+Play_Mon_EXP_Loader_Suicide_Explode
+Play_Mon_Goliath_AOE_Slam
+Play_Mon_Goliath_Transform_Fast
+Play_Mon_Skag_Amb_Slag
+Play_Mon_Skag_Barf_Attack
+Play_Mon_Skag_Choke
+Play_Mon_Skag_Critical_Exposed
+Play_Mon_Skag_Proj_Fire_01
+Play_Mon_Skag_Signal_Sent
+Play_Mon_Skag_Spit_Corrosive
+Play_Mon_Skag_Spit_Fire
+Play_Mon_Skag_Spit_Shock
+Play_Mon_Skag_Tongue_Whip
+Play_Mon_Skag_Transform_Ally
+Play_Mon_Stalker_Tail_Whip
+Play_Obj_Axe_Swish
+Play_Obj_Button_Fail
+Play_Obj_Checkpoint_Station_Open
+Play_Obj_Checkpoint_Station_Respawn_Close
+Play_Obj_Checkpoint_Station_Respawn_Open
+Play_obj_Chest_Ammo_Open
+Play_Obj_Electric_Fence_Zap
+Play_Obj_Pickup_Torgue_Coin
+Play_Obj_Propane_Tank_Fire
+Play_Obj_Switch_Failure
+Play_Obj_Switch_Success
+Play_Obj_Torgue_Vending_Off
+Play_Obj_Torgue_Vending_On
+Play_Rakk_Ambient_Clean
+Play_Rakk_Ambient_Open
+Play_Rakk_Ambient_Open_Fast
+Play_Rakk_Ambient_Stretch_Vox
+Play_Rakk_Attack
+Play_Rakk_Death
+Play_Rakk_Distant_Shriek
+Play_Rakk_Flapping_Fast
+Play_Rakk_Impact
+Play_Rakk_Kamikaze
+Play_Rakk_Land_Flapping
+Play_Rakk_Proj_Attack
+Play_Rakk_Wing_Flap
+Play_Regular_Door_Locked
+Play_Runner_Explosion
+Play_Seq_Ep03_CAR_Hacking
+Play_Seq_Ep04_anim_GenericDoor_close
+Play_Seq_Ep04_anim_GenericDoor_open
+Play_Seq_Ep13_Eridium_Shield_On
+Play_Seq_Ep13_Light_Bridge_On
+Play_Skag_Bones_Open
+Play_skag_breath
+Play_skag_growl
+Play_skag_snaps
+Play_skag_step
+Play_Skagg_Attack
+Play_Skagg_Attack_InPlace
+Play_Skagg_Attack_Short
+Play_Skagg_Bite
+Play_Skagg_Bite_Snarl
+Play_Skagg_Death
+Play_Skagg_Fireburst
+Play_Skagg_Grunt
+Play_Skagg_Impact_Grunt
+Play_Skagg_Pain
+Play_Skagg_Prep_Bite
+Play_Skagg_ReadyCharge
+Play_Skagg_Roar
+Play_Skagg_Roar_Long
+Play_Skagg_Scrape_Rock_01
+Play_Skagg_Spit_Attack
+Play_Skagg_Spit_Prep
+Play_SQ_Family_Feud_Trailer_Screams
+Play_Toilet_Open
+Play_UI_Fast_Travel_Invalid_Location
+Play_UI_FastTravel_Open
+Play_UI_FastTravel_Proximity_Holo
+Play_UI_Vending_Buy
+Play_UI_Vending_Open
+Play_UI_Vending_Sell
+Play_UI_VSS_Open
+Play_UI_VSS_Vehicle_Select
+Play_Veh_Bandit_Technical_Chasis_Impact
+Play_Veh_Bandit_Technical_Chasis_Scrape
+Play_Veh_Bandit_Technical_Slide
+Play_Veh_Bandit_Technical_Suspension_Rattle_Hard
+Play_Veh_Bandit_Technical_Suspension_Rattle_Light
+Play_Veh_Bandit_Technical_Tires
+Play_Veh_BanditTechnical_AI_start
+Play_Veh_BanditTechnical_AI_stop
+Play_Veh_Body_NPC_Impact
+Play_veh_BT_Barrel_boost_end
+Play_veh_BT_Barrel_boost_start
+Play_Veh_BT_Wep_Rocket_Alt_Proj
+Play_veh_BT_wep_Saw_blade_deflect
+Play_veh_BT_wep_Saw_blade_impact
+Play_veh_BT_wep_Saw_Launch
+Play_veh_Runner_MG_horn
+Play_Wep_Grenade_Suicide_Timer
+Play_Wep_Soldier_Turret_Fire
+Play_Wep_Soldier_Turret_Release
+Stop_Amb_Fire_Small_Crackling_01
+Stop_Dlc_Iris_Mus_Hubs
+Stop_Iris_Motorcycle_Patrol
+Stop_Iris_Motorcycle_Revs
+Stop_Mon_BMorph_Flying_Loop
+Stop_Mon_Skag_Amb_Slag
+Stop_Obj_Propane_Tank_Fire
+Stop_VOBD_Goliath_HUM_React_Injured
+Stop_VOCT_BoundaryTurret_Warning
+
+### RTPC/GAME-VARIABLE NAMES (359940851.bnk: Iris_Hub2_P_SFX)
+Veh_Chasis_Impact_Vol
+Veh_Chasis_Scrape_Vol
+Veh_Engine_RPM
+Veh_Road_Noise_Vol
+Veh_Sliding_Vol
+# 782299937
+
+### VARIABLE NAMES (359940851.bnk: Iris_Hub2_P_SFX)
+Engine_Load
+FirstOrThirdPerson
+Ground_Textures
+Music_States
+# 403175910
+
+### VALUE NAMES (359940851.bnk: Iris_Hub2_P_SFX)
+FirstPerson
+Music_Ambience
+Music_Boss_01
+Music_Combat
+Neutral
+Off
+On
+PM_Armor
+PM_Carapace
+PM_Concrete
+PM_Dirt
+PM_Flesh
+PM_Glass
+PM_Grass
+PM_Gravel
+PM_Ice
+PM_Invincible
+PM_Lava
+PM_Metal_Solid
+PM_Moss
+PM_Mud
+PM_Plastic
+PM_Rock
+PM_Sand
+PM_Shield
+PM_Shield_reflect
+PM_Snow
+PM_Water
+PM_Water_Poison
+PM_Wood
+ThirdPerson
+# 1299379235
+
+### EVENT NAMES (3628260553.bnk: Iris_Hub_P_SFX)
+Play_Amb_Fire_Barrel_01
+Play_Amb_Fire_Gas_lp_09
+Play_Amb_Fire_Gas_lp_10
+Play_Amb_Fire_Small_Crackling_01
+Play_Amb_Obj_Fan_05
+Play_Amb_Obj_Fan_07
+Play_Amb_Obj_Industrial_Vent_03
+Play_Amb_Obj_Industrial_Vent_04
+Play_Amb_Obj_Neon_Light_05
+Play_Amb_Wind_Sand_Gust_06
+Play_Amb_Wind_Sand_Gust_07
+Play_Amb_Wind_Sand_Gust_08
+Play_Amb_Wind_Sand_Gust_09
+Play_Amb_Wind_Sand_Gust_10
+Play_Amb_Wind_Soft_04
+Play_Bandit_Misc2_Open
+Play_Barrel_Corrosive
+Play_Barrel_Incendiar_Fire_end
+Play_Barrel_Incendiar_Fire_st
+Play_Barrel_Incendiary
+Play_Barrel_Shock_Discharge
+Play_Barrel_Shock_Exp
+Play_Barrel_Shock_Lightning_Start
+Play_Barrel_Shock_Lightning_Stop
+Play_Cardboard_Open
+Play_Chest_Open_01
+Play_Cin_Titlecard_Subtitle_Piston
+Play_Cin_Titlecard_Subtitle_TinyTina
+Play_Corrosive_Blast_Large
+Play_Corrosive_Blast_Small
+Play_Dlc_Iris_Mus_Hubs
+Play_Ep3_Power_Supply_Pickup
+Play_Exp_Gibs_Creatures
+Play_Explosion_Lg_03
+Play_Explosive_Blast_Large
+Play_Fast_Travel_Broken_Lp
+Play_Fast_Travel_Broken_Open_01
+Play_Fast_Travel_Broken_Open_02
+Play_Fast_Travel_Broken_Open_03
+Play_Fast_Travel_Close
+Play_Fast_Travel_Open
+Play_Fire_Small_Crackling_01
+Play_Fol_BT_Nomad_Shield_Bash
+Play_Fol_BT_Nomad_Shield_Imp
+Play_Fol_BT_Nomad_Shield_Ready
+Play_Fol_BT_Nomad_Shield_Swing
+Play_FX_Assassin_Sword_Hit
+Play_FX_Digistruct_Shot
+Play_FX_Vehicle_Spawn
+Play_Hatch_Open
+Play_Imp_Axe_Flesh
+Play_Imp_Axe_Generic
+Play_Imp_BodyFall
+Play_Imp_Gib_Fall
+Play_Intro_Piston_01
+Play_Iris_Amb_StadiumCrowd_Ext
+Play_Iris_Amb_StatiumCrowd_Cheers
+Play_Iris_Amb_Wind_Canyon
+Play_Iris_BattleHorn2
+Play_Iris_Intro_TinyTina
+Play_Iris_Motorcycle_Explode
+Play_Iris_Motorcycle_Land
+Play_Iris_Motorcycle_Revs
+Play_Iris_Motorcycle_Skids
+Play_Iris_Motorcycle_Sprint
+Play_Iris_Motorcycle_Start
+Play_Iris_WaiverExplosion
+Play_Map_DamTop_MoonShot_Imp_Ground
+Play_Map_Milestone_10_Vent
+Play_map_TundraExpress_emt_TinyTinaBomb_beep_02
+Play_Metal_Crate_Open
+Play_Military_Container_Open
+Play_Mon_BMorph_Spit_Proj
+Play_Mon_Constructor_Laser3_Off
+Play_Mon_Goliath_AOE_Slam
+Play_Mon_Goliath_Transform_Fast
+Play_Mon_Loader_Eye_Attack_Explode
+Play_Mon_Skag_Amb_Corrosive
+Play_Mon_Skag_Amb_Fire
+Play_Mon_Skag_Amb_Shock
+Play_Mon_Skag_Amb_Slag
+Play_Mon_Skag_AOE_Corrosive
+Play_Mon_Skag_AOE_Fire
+Play_Mon_Skag_AOE_Shock
+Play_Mon_Skag_AOE_Slag
+Play_Mon_Skag_Barf_Attack
+Play_Mon_Skag_Barf_Liquid
+Play_Mon_Skag_Beam_Shock_End
+Play_Mon_Skag_Beam_Shock_Start
+Play_Mon_Skag_Breathe_Corrosive
+Play_Mon_Skag_Breathe_Fire
+Play_Mon_Skag_Choke
+Play_Mon_Skag_Claw_Corrosive
+Play_Mon_Skag_Claw_Fire
+Play_Mon_Skag_Claw_Shock
+Play_Mon_Skag_Critical_Exposed
+Play_Mon_Skag_Land
+Play_Mon_Skag_Proj_Corrosive
+Play_Mon_Skag_Proj_Fire
+Play_Mon_Skag_Proj_Fire_01
+Play_Mon_Skag_Proj_Shock
+Play_Mon_Skag_Signal_Sent
+Play_Mon_Skag_Spit_Corrosive
+Play_Mon_Skag_Spit_Fire
+Play_Mon_Skag_Spit_Shock
+Play_Mon_Skag_Tongue_Whip
+Play_Mon_Skag_Transform_Ally
+Play_Mon_Spiderant_AOE_Fire_Burst
+Play_Mon_Spiderant_Slag_Proj
+Play_Obj_Axe_Swish
+Play_Obj_Button_Fail
+Play_Obj_Checkpoint_Station_Open
+Play_Obj_Checkpoint_Station_Respawn_Close
+Play_Obj_Checkpoint_Station_Respawn_Open
+Play_obj_Chest_Ammo_Open
+Play_Obj_Door_BlackMarket_Slider_Close
+Play_Obj_Door_BlackMarket_Slider_Open
+Play_Obj_Electric_Fence_Zap
+Play_Obj_Pickup_Flesh
+Play_Obj_Pickup_Torgue_Coin
+Play_Obj_Propane_Tank_Fire
+Play_Obj_Torgue_Vending_Off
+Play_Obj_Torgue_Vending_On
+Play_Regular_Door_Locked
+Play_Seq_Ep03_CAR_Hacking
+Play_Seq_Ep04_anim_GenericDoor_close
+Play_Seq_Ep04_anim_GenericDoor_open
+Play_Seq_Ep07_Tina_Tinkering
+Play_Skag_Bones_Open
+Play_skag_breath
+Play_skag_growl
+Play_skag_snaps
+Play_skag_step
+Play_Skagg_Attack
+Play_Skagg_Attack_InPlace
+Play_Skagg_Attack_Short
+Play_Skagg_Bite
+Play_Skagg_Bite_Snarl
+Play_Skagg_Death
+Play_Skagg_Fireburst
+Play_Skagg_Grunt
+Play_Skagg_Impact_Grunt
+Play_Skagg_Pain
+Play_Skagg_Prep_Bite
+Play_Skagg_ReadyCharge
+Play_Skagg_Roar
+Play_Skagg_Roar_Long
+Play_Skagg_Scrape_Rock_01
+Play_Skagg_Spit_Attack
+Play_Skagg_Spit_Prep
+Play_SQ_Family_Feud_Trailer_Screams
+Play_Toilet_Open
+Play_UI_Fast_Travel_Invalid_Location
+Play_UI_FastTravel_Open
+Play_UI_FastTravel_Proximity_Holo
+Play_UI_Vending_Buy
+Play_UI_Vending_Open
+Play_UI_Vending_Sell
+Play_UI_VSS_Open
+Play_UI_VSS_Vehicle_Select
+Play_Veh_Body_NPC_Impact
+Play_Wep_Grenade_Suicide_Timer
+Play_Wep_Soldier_Turret_Fire
+Stop_Amb_Fire_Small_Crackling_01
+Stop_Dlc_Iris_Mus_Hubs
+Stop_Iris_Motorcycle_Patrol
+Stop_Iris_Motorcycle_Revs
+Stop_Iris_VOCT_SpeakersCrater_Torgue
+Stop_Iris_VOCT_SpeakersCrater_Torgue_02
+Stop_Mon_Skag_Amb_Corrosive
+Stop_Mon_Skag_Amb_Fire
+Stop_Mon_Skag_Amb_Shock
+Stop_Mon_Skag_Amb_Slag
+Stop_Obj_Propane_Tank_Fire
+Stop_Seq_Ep07_Tina_Tinkering
+Stop_VOBD_Goliath_HUM_React_Injured
+Stop_VOCT_BoundaryTurret_Warning
+
+### RTPC/GAME-VARIABLE NAMES (3628260553.bnk: Iris_Hub_P_SFX)
+# 782299937
+
+### VARIABLE NAMES (3628260553.bnk: Iris_Hub_P_SFX)
+FirstOrThirdPerson
+Music_States
+# 403175910
+
+### VALUE NAMES (3628260553.bnk: Iris_Hub_P_SFX)
+FirstPerson
+Music_Ambience
+Music_Boss_01
+Music_Combat
+ThirdPerson
+# 1299379235
+
+### EVENT NAMES (2224280057.bnk: Iris_Moxxi_P_SFX)
+Play_Amb_Obj_Neon_Light_05
+Play_Drop_Metal_02
+Play_Fast_Travel_Broken_Lp
+Play_Fast_Travel_Broken_Open_01
+Play_Fast_Travel_Broken_Open_02
+Play_Fast_Travel_Broken_Open_03
+Play_Fast_Travel_Close
+Play_Fast_Travel_Open
+Play_Imp_BodyFall
+Play_Iris_Amb_StatiumCrowd_Cheers
+Play_Iris_BattleHorn2
+Play_Iris_WaiverExplosion
+Play_map_Sanctuary_perch_Knock
+Play_Metal_Crate_Open
+Play_Moxxi_Bar_Amb_and_Music
+Play_Obj_Pickup_Cam
+Play_Obj_Pickup_Torgue_Coin
+Play_Obj_SlotMachine_Jackpot_Fanfare
+Play_Obj_SlotMachine_Jackpot_Gunshots
+Play_Obj_SlotMachine_Pull_Lever
+Play_Obj_SlotMachine_Spin_End
+Play_Obj_SlotMachine_Win_Door_Close
+Play_Obj_SlotMachine_Win_Door_Open
+Play_Obj_SlotMachine_Win_Drawer_Close
+Play_Obj_SlotMachine_Win_Drawer_Open
+Play_Obj_Switch_Failure
+Play_Obj_Torgue_Vending_Off
+Play_Obj_Torgue_Vending_On
+Play_Regular_Door_Locked
+Play_Seq_Ep02_Hammerlock_Power_Switch
+Play_SQ_BFF_Draw_Weapon
+Play_SQ_BFF_Gun_Foley
+Play_UI_Customization_Open
+Play_UI_Customization_Reset_Skills
+Play_UI_Fast_Travel_Invalid_Location
+Play_UI_FastTravel_Open
+Play_UI_FastTravel_Proximity_Holo
+Play_UI_Vending_Buy
+Play_UI_Vending_Open
+Play_UI_Vending_Sell
+Play_Wep_Grenade_Suicide_Timer
+
+### RTPC/GAME-VARIABLE NAMES (2224280057.bnk: Iris_Moxxi_P_SFX)
+# 2820440426
+
+### VARIABLE NAMES (2224280057.bnk: Iris_Moxxi_P_SFX)
+FirstOrThirdPerson
+# 403175910
+
+### VALUE NAMES (2224280057.bnk: Iris_Moxxi_P_SFX)
+FirstPerson
+ThirdPerson
+# 1299379235
+
+### EVENT NAMES (2461314226.bnk: Iris_Startup_SF_SFX)
+Play_Iris_Amb_StatiumCrowd_Cheers
+Play_Iris_BattleHorn2
+Play_Iris_WaiverExplosion
+Play_Obj_Pickup_Torgue_Coin
+
+### VARIABLE NAMES (2461314226.bnk: Iris_Startup_SF_SFX)
+FirstOrThirdPerson
+
+### VALUE NAMES (2461314226.bnk: Iris_Startup_SF_SFX)
+FirstPerson
+ThirdPerson
+
+### SFX NAMES (3657611621.bnk: a_EFX_Internal_LG_Long)
+Internal_LG_Long
+
+### SFX NAMES (3082423439.bnk: a_EFX_Internal_SM_Room)
+Internal_SM_Room
+
+### SFX NAMES (1776819095.bnk: a_EFX_Reverb_Exterior_Open)
+Exterior_open
+
+### SFX NAMES (2989622552.bnk: a_EFX_Reverb_Interior_LG_Room_1)
+Interior_LG_Room_1
+
+### SFX NAMES (3705250944.bnk: a_EFX_Reverb_Interior_MD_Room)
+Interior_MD_Room
