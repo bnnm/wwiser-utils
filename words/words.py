@@ -18,6 +18,10 @@
 #   - "%c": same as [abcd(..)z]
 #   Any can be combined but may only use one %s (play_%02x_%s, play_%i_%i_%d but not play_%s_%s)
 #
+#   Filters to only read some names/fnv can be added:
+#    #@filter-names *music_data* *_mu_playgo* *_Music* *MasteryChallenge_Music*
+#    #@filter-fnv *BNK_DLC_14800_Music_Data*
+#
 # - ww.txt: extra list of wwise words only (may use this instead of wwnames.txt)
 #
 # - fnv.txt: extra list of fnv IDs only (may use this instead of wwnames.txt)
