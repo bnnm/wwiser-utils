@@ -3,6 +3,8 @@
 # Try better extractors first, and this as a last resort.
 # Note that it's impossible to extract .wem like this (wrong RIFF sizes and no ID in file).
 
+math USE_BASENAME = 0
+get BASE_NAME basename
 
 get FILE_SIZE asize
 
@@ -83,7 +85,11 @@ for OFFSET = 0 < FILE_SIZE
         endif
     next
 
-    string NAME p= "%u.bnk" ID
+    if USE_BASENAME == 1
+        string NAME p= "%s.bnk" BASE_NAME
+    else
+        string NAME p= "%u.bnk" ID
+    endif
     #print "%NAME%: %OFFSET|h% %SIZE|h%"
     log NAME OFFSET SIZE
 
