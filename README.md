@@ -7,7 +7,7 @@ Examples of `wwnames.txt` files for *wwiser*. Those contain names used in some g
 
 Lists are not always complete (almost impossible with Wwise) but gives a bunch of names for free.
 
-To reverse names yourself, see [doc/NAMES.md]. You'll need words.py (see below).
+To reverse names yourself, see [NAMES.md](doc/NAMES.md). You'll need words.py (see below).
 
 
 ## FNV
