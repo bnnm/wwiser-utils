@@ -7,6 +7,8 @@ Examples of `wwnames.txt` files for *wwiser*. Those contain names used in some g
 
 Lists are not always complete (almost impossible with Wwise) but gives a bunch of names for free.
 
+To reverse names yourself, see [doc/NAMES.md]. You'll need words.py (see below).
+
 
 ## FNV
 A simple Wwise FNV hash-to-name reverser.
@@ -18,7 +20,7 @@ Compile with: `gcc -O3 fnv.c -o fnv.exe` or similar tools (no particular depende
 See *doc/NAMES.md* and *doc/RIPPING.md* about tips on usage.
 
 
-## WORDS
+## WORDS.PY
 A helper to reverse names from existing word lists.
 
 Run `words.py` with a `words.txt` nearby (usually a renamed `wwnames.txt`) to generate `words_out.txt` with variations of the list, that then can be fed to *wwiser*. With some extra commands and tricks it can create variations of names that may used by the game.

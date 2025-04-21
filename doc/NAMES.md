@@ -32,12 +32,9 @@ Before anything you can check if your game is listed here: https://github.com/bn
 
 ## TL;DR
 Quick guide to (possibly) get extra names:
-- put all files that may contain names inside in some dir, the more the merrier
-  - binary files with names are ok too
-  - make sure they are decompressed first (like for Unreal Engine use gildor's package decompressor/extractor/etc)
-  - binary that *don't* have names are ok too, but the more files the more noise/bad names you may get, try to trim down when possible
-    - for example, remove all texture/shader/model files
-  - also add the executable (.exe/so/main/xex/eboot/etc) too
+- put files that may contain names inside in some dir, the more the merrier
+  - binary files with names, executables (.exe/so/main/xex/eboot/etc), decompressed files, etc
+  - avoid including textures/shaders/models/etc
   - some executables like main/xex/eboot/exe should be decompressed first (ask in hcs64/discord, or just won't worry)
   - if the game is HUGE you may want to only try some files at a time (for example ~10GB) as it'll take a long time otherwise.
 - zip all files into a single file with the "no compression option"
@@ -57,22 +54,19 @@ Quick guide to (possibly) get extra names:
 - the above generates a `wwnames.txt` file with "possible" (not necessarily used) names
   - many "names" will be garbage-looking strings, that is ok and will be ignored by *wwiser*
   - some "names" will be long lines or contain crap like `  "bgm"="name"  `, that is ok too and will be cleaned up automatically (reads `bgm` and `name`)
-- now put that file with all `.bnk`, wwiser can use it to get all possible names (may take a while to load if wwnames is big)
-  - load all to ensure getting most names (could limit to only music or sfx, but might as well do everything at once while we are at it)
 
-**HOWEVER** that `wwnames.txt` will contain tons of garbage names we don't want. Clean it up like this:
+Now put that file with all `.bnk`, wwiser can use it to get all possible names (may take a while to load if wwnames is big). Load all `bnk` to ensure getting most names (could limit to only music or sfx, but might as well do everything at once while we are at it)
+
+**HOWEVER** the above `wwnames.txt` will contain tons of garbage names we don't want. Clean it up like this:
 - put `wwiser.pyz`, `wwnames.db3` and `wwnames.txt` in the base folder of all banks
   - `wwnames.txt` must go near `.bnk`, while `wwnames.db3` goes with `.pyz`
 - open windows CLI and call wwiser like this: `wwiser.pyz *.bnk -r -sl`
-  - this can be done via GUI as well: (blah blah)
+  - with GUI: load dirs + *redump clean wwnames.txt* button
 - this will create a "clean" `wwnames-banks-(date).txt` with actually used names
 - open said file, look for clearly wrong names (like *x8273s* or *aXNuy*) and remove them, or change lower/uppercase in some cases (like `wIN` to `win` and such)
 - now remove old `wwnames.txt` and rename `wwnames-banks-(date).txt` to `wwnames.txt`
 
-You may be still be missing many names:
-- use `words.py` to extract all possible juice (best option usually, see "Words.py quick guide" below)
-- you may also add missing names manually (sometimes they  are easy to guess) or use `fnv.exe`/`words.py` helpers
-- be cool and post this list somewhere or include `wwnames.txt` with your rip for everybody to enjoy
+You may be still be missing many names. For better results use the original `wwnames.txt` and `words.py`,  see "Words.py quick guide" below.
 
 
 ## CONCEPTS
