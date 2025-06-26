@@ -1,0 +1,8563 @@
+
+### BANK NAMES
+Dia_Alien_CS_EP01_SpiritualMoment01_EmoteCom
+Dia_Dog_CS_EP01_PetDog_01_Ruff
+Dia_Dog_CS_EP01_PetDog_01_WakeUp
+Dia_Dog_CS_EP01_PetDog_01_Yawn
+Dia_Dog_CS_EP01_SpiritualMoment_01
+Dia_Dog_CS_EP01_Washface_05_Licking
+Dia_Dog_CS_EP06_DogSleep_Snore_Inhale
+Dia_Dog_CS_EP06_DogSleep_SnoreExhale
+Dia_Dog_Jump
+Dia_Dog_Land
+Dia_Dog_Pant_Happy_Shorter
+Dia_Dog_Walk_Pant_LP_Start
+Dia_Dog_Walk_Pant_LP_Stop
+Dia_GangBig_CS_EP01_LostInThought_01
+Dia_GangBig_CS_EP01_LostInThought_02
+Dia_GangBoy_CS_EP01_LostInThought_01
+Dia_GangBoy_CS_EP01_LostInThought_02
+Dia_GangGirl_CS_EP01_LostInThought_01
+Dia_GangGirl_CS_EP01_LostInThought_02
+Dia_Group_Stretch
+Dia_Group_StretchRelease
+Dia_Pig_Emote_Oink_Cereal
+Dia_Snail_Exercise
+Dia_Snail_Exercise_Exhausted
+Dia_Teen_CS_EP01_BrushTeeth_15_TaDa
+Dia_Teen_CS_EP01_SchoolGate01_A_Anxiety
+Dia_Teen_CS_EP01_SchoolGate01_B_ShakeItOff
+Dia_Teen_CS_EP01_SchoolGate01_C_SighOutro
+Dia_Teen_CS_EP01_SpiritualMoment_01_FreakOut
+Dia_Teen_CS_EP01_SpiritualMoment_01_Gasp
+Dia_Teen_CS_EP01_SpiritualMoment_01_GaspOhNo
+Dia_Teen_CS_EP01_SpiritualMoment_01_LookA
+Dia_Teen_CS_EP01_SpiritualMoment_01_LookB
+Dia_Teen_CS_EP01_SpiritualMoment_01_LookC
+Dia_Teen_CS_EP01_SpiritualMoment_01_ZenBreath
+Dia_Teen_CS_EP01_SpiritualMoment_04_BushLand
+Dia_Teen_CS_EP01_SpiritualMoment_04_BushPopUp
+Dia_Teen_CS_EP01_SpiritualMoment_04_PoopLand
+Dia_Teen_CS_EP01_SpiritualMoment_04_TeenFly
+Dia_Teen_CS_EP01_SpiritualMoment_04_TossStart
+Dia_Teen_CS_EP01_SpiritualMoment_04_TurnToDog
+Dia_Teen_CS_EP01_TornadoDream01_TurnToRun
+Dia_Teen_CS_EP01_TornadoDream02_Run
+Dia_Teen_CS_EP01_TornadoDream02_Run_TurnGasp
+Dia_Teen_CS_EP01_TornadoDream03_Spinning
+Dia_Teen_CS_EP01_TornadoDream03_SuckedIn
+Dia_Teen_CS_EP01_TornadoDream04_ComingDown
+Dia_Teen_CS_EP01_TornadoDream05a_FallHit
+Dia_Teen_CS_EP01_TornadoDream05b_FallHit
+Dia_Teen_CS_EP01_TornadoDream05b_SlideIntoPit
+Dia_Teen_CS_EP01_WakeUp01_LookA
+Dia_Teen_CS_EP01_WakeUp01_LookB
+Dia_Teen_CS_EP01_WakeUp01_LookC
+Dia_Teen_CS_EP01_WakeUp01_Snoring_02
+Dia_Teen_CS_EP01_WakeUp01_Snoring_03
+Dia_Teen_CS_EP01_WakeUp01_Snoring_04
+Dia_Teen_CS_EP01_WakeUp01_SuddenAwake
+Dia_Teen_CS_EP01_Washface_07_DogLickGiggle
+Dia_Teen_Eat_Big_Bite_Yum
+Dia_Teen_Eat_Big_Bite_Yum_LessFrequent
+Dia_Teen_Eat_Breakfast_Scoop_Yum_Short
+Dia_Teen_Jump_Land
+Dia_Teen_Jump_Up
+Dia_Teen_Tornado_End
+Dia_Teen_Tornado_Start
+Global_Audio_Stop_All
+Global_PauseAllSequenceAudio
+Global_UnPauseAllSequenceAudio
+Init
+Instrument_ParkPiano_MIDI_Control_Only_DummyInstrument
+Mus_CS_EP01_PetDog_Stinger_01
+Mus_CS_EP01_PetDog_Stinger_02
+Mus_CS_EP01_PetDog_Stinger_03
+Mus_CS_EP01_PetDog_Stinger_04
+Mus_CS_EP01_SchoolBell_Flyover
+Mus_CS_EP01_SchoolBell_Late
+Mus_CS_EP01_SchoolGate_S01_Start_A
+Mus_CS_EP01_SchoolGate_S01_Start_B
+Mus_CS_EP01_SchoolGate_S01_Start_C
+Mus_CS_EP01_SchoolGate_S01_Start_C_End
+Mus_CS_EP01_SpiritualMoment_B
+Mus_CS_EP01_SpiritualMoment_C
+Mus_CS_EP01_SpiritualMoment_D
+Mus_CS_EP01_SpiritualMoment_E
+Mus_CS_EP01_SpiritualMoment_F
+Mus_CS_EP01_SpiritualMoment_G
+Mus_CS_EP01_Theme_Ending
+Mus_CS_EP01_Theme_Ending_Stop
+Mus_CS_EP01_TornadoDream_Intro_to_Custom_LP
+Mus_CS_EP01_TornadoDream_Post_Customization
+Mus_CS_EP02_Theme_Ending_Stop
+Mus_CS_EP04_Theme_Ending_Stop
+Mus_CS_EP06_Theme_Ending_Stop
+Mus_CS_EP07_Theme_Ending_Stop
+Mus_CS_EP09_Theme_Ending_Stop
+Mus_CS_EpisodeToFreePlayBridge
+Mus_CS_EpisodeToFreePlayBridge_Stop
+Mus_Diagetic_PigeonHeadphones_Start
+Mus_Stinger_Bathroom_Success
+Mus_Train_Start
+Mus_Train_Stop
+Mus_Train_Stop_Location_Music
+Music_Game_Start
+Pause_Music_Game
+PauseMenu_Enter
+PauseMenu_Exit
+PauseMenuSimple_Enter
+PauseMenuSimple_Exit
+Resume_Music_Game
+SetSwitch_Emote_End
+SetSwitch_Emote_Loop
+SFX__CrabBarber__CallForOctopus
+SFX__CrabBarber__Pose
+SFX__CrabBarber__TaDa
+SFX_Amb_Boat_Docked_LP_A
+SFX_Amb_Boat_Docked_LP_B
+SFX_Amb_Bridge_Creak_A_LP
+SFX_Amb_Bridge_Rope_Stress_LP
+SFX_Amb_Fridge_LP
+SFX_Amb_Thunder_Nightmare
+SFX_Amb_Tugboat_Horn
+SFX_Amb_Water_Drain_Slosh_LP
+SFX_Amb_Water_Flow_Light_LP_01
+SFX_Amb_Water_Flow_Light_LP_02
+SFX_Amb_Water_Flow_Medium_LP_01
+SFX_Amb_Water_Fountain_LP_01
+SFX_Amb_Water_Heavy_Sloshing_LP_01
+SFX_Amb_Water_Lapping_Light_LP_01
+SFX_Amb_Water_Lapping_Light_LP_02
+SFX_Amb_Water_Lapping_Light_LP_03
+SFX_Amb_Water_Lapping_Light_LP_04
+SFX_Amb_Water_Lapping_Medium_LP
+SFX_Amb_Water_Ocean_Waves_Detail_LP
+SFX_Amb_Water_Ocean_Waves_LP
+SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_01
+SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_02
+SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_03
+SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_04
+SFX_Amb_Water_Rain_Drip_T_House_Patio_LP
+SFX_Amb_Water_Sewer_Drain_Flow_LP
+SFX_Amb_Water_Sewer_Drip_Harsh_LP
+SFX_Amb_Water_Sewer_Drip_Noisey_LP
+SFX_Amb_Water_Sewer_Drip_Stutter_01_LP
+SFX_Amb_Water_Sewer_Drip_Stutter_02_LP
+SFX_Amb_Water_Sewer_Exit_Drain_LP
+SFX_Amb_Water_Sewer_Pipe_Drip_Hum_LP
+SFX_Amb_Water_Sewer_Pipe_LP
+SFX_Amb_Water_Sewer_Slosh_LP
+SFX_Amb_Water_Sewer_Splash_Exit_01_LP
+SFX_Amb_Waterfall_Big_Detail_LP
+SFX_Amb_Waterfall_Big_LP
+SFX_Amb_Wind_Mesh_Wispy_A_LP
+SFX_Amb_Windchime_LP
+SFX_AmbBed_Ext_Beach
+SFX_AmbBed_Ext_DisA_Park
+SFX_AmbBed_Ext_DisA_Plaza
+SFX_AmbBed_Ext_DisA_PlazaNeighborhood
+SFX_AmbBed_Ext_DisA_T_House_Backyard
+SFX_AmbBed_Ext_DisA_T_House_Neighborhood
+SFX_AmbBed_Ext_DisB_NoodleShop
+SFX_AmbBed_Ext_DisB_School
+SFX_AmbBed_Ext_DisB_School_Rooftop
+SFX_AmbBed_Ext_DisC_Neighborhood
+SFX_AmbBed_Ext_DisC_Park_Fountain
+SFX_AmbBed_Ext_DisC_Park_Maze
+SFX_AmbBed_Ext_DisC_Road
+SFX_AmbBed_Ext_DisC_Road_Corner
+SFX_AmbBed_Ext_DisC_Underpass
+SFX_AmbBed_Ext_DisD_Canal_Stream_LP
+SFX_AmbBed_Ext_DisD_Downtown_CanalSide
+SFX_AmbBed_Ext_DisD_Downtown_Ocean_LP
+SFX_AmbBed_Ext_DisD_Downtown_OceanSide
+SFX_AmbBed_Ext_DisD_ParkDock
+SFX_AmbBed_Ext_DisE_Estuary
+SFX_AmbBed_Ext_DisE_LionFountain
+SFX_AmbBed_Ext_DisE_Road
+SFX_AmbBed_Ext_DisF_Beach_Crab
+SFX_AmbBed_Ext_DisF_BeachCrevace
+SFX_AmbBed_Ext_DisG_MushroomMountain
+SFX_AmbBed_Ext_DisG_PathSchoolToBeach
+SFX_AmbBed_Ext_DisH_Bridge
+SFX_AmbBed_Ext_DisH_Cave_Lake
+SFX_AmbBed_Ext_DisH_Lighthouse
+SFX_AmbBed_Ext_DisH_Path
+SFX_AmbBed_Ext_DisTFLOWNOS
+SFX_AmbBed_Ext_FathersPlanet_Stadium
+SFX_AmbBed_Ext_Global_River_Rushing_Detail_LP
+SFX_AmbBed_Ext_Global_Sky
+SFX_AmbBed_Ext_Space
+SFX_AmbBed_Ext_TrainStation_LP_A
+SFX_AmbBed_Ext_TrainStation_LP_B
+SFX_AmbBed_Ext_TrainStation_LP_C
+SFX_AmbBed_Int_DisD_Sewer
+SFX_AmbBed_Int_DisD_Warehouse_MainBig_LP
+SFX_AmbBed_Int_DisD_Warehouse_MainSmall_LP
+SFX_AmbBed_Int_DisD_Warehouse_SideRoom_LP
+SFX_AmbBed_Int_DisD_Warehouse_Vent_LP
+SFX_AmbBed_Int_School_Classroom
+SFX_AmbBed_Int_School_Foyer
+SFX_AmbBed_Int_School_Gym
+SFX_AmbBed_Int_School_Hallway_Gym
+SFX_AmbBed_Int_School_Roof_Room
+SFX_AmbBed_Int_School_Roof_Stairwell
+SFX_AmbBed_Int_Shop_Crab
+SFX_AmbBed_Int_Shop_LightHouse
+SFX_AmbBed_Int_Shop_Magic_Entrance
+SFX_AmbBed_Int_Shop_Magic_Hallway
+SFX_AmbBed_Int_Shop_Magic_Pool
+SFX_AmbBed_Int_Shop_Shoe
+SFX_AmbBed_Int_Shop_TShirt
+SFX_AmbBed_Int_T_House_Bathroom_Down
+SFX_AmbBed_Int_T_House_Bathroom_Up
+SFX_AmbBed_Int_T_House_Bedroom_01
+SFX_AmbBed_Int_T_House_Livingroom
+SFX_AmbBed_Int_Tunnels
+SFX_Bathroom_Alarm_PanicMood_LP_Start
+SFX_Bathroom_Alarm_PanicMood_LP_Stop
+SFX_Bathroom_Animal_A
+SFX_Bathroom_Animal_B
+SFX_Bathroom_Construction
+SFX_Bathroom_Cooking
+SFX_Bathroom_Earthquake_LP_Start
+SFX_Bathroom_Earthquake_LP_Stop
+SFX_Bathroom_EasterEgg_NoodleSlurp
+SFX_Bathroom_EasterEgg_Vocal
+SFX_Bathroom_Grunt
+SFX_Bathroom_Horn
+SFX_Bathroom_Musical
+SFX_Bathroom_SciFi
+SFX_Bathroom_Sports
+SFX_Bathroom_Toilet_Flush
+SFX_Bathroom_Toilet_Lid_Lift
+SFX_Bathroom_Train
+SFX_Bathroom_Weather_LP_Start
+SFX_Bathroom_Weather_LP_Stop
+SFX_Bird_Emote_Caw_01
+SFX_Bird_Emote_Caw_02
+SFX_Bird_Flap_Fast
+SFX_Bird_Flap_Slow
+SFX_Bird_Idle_LP
+SFX_Bird_Land
+SFX_Bird_Peck_Beak
+SFX_Bird_TakeOff
+SFX_Brush_Teeth_Chime_Shorter
+SFX_Brush_Teeth_Chime_Strum_Final
+SFX_Brush_Teeth_Start
+SFX_Brush_Teeth_Stop
+SFX_Cha_Crankin_Idle_Loop
+SFX_Crab_Claw
+SFX_Crab_CS_Octopus
+SFX_Crab_CS_ReadyToCut
+SFX_Crab_CS_TaDa
+SFX_Crab_Serve_Chop_A
+SFX_Crab_Serve_Chop_B
+SFX_Crab_Serve_Chop_C
+SFX_Crab_Serve_Complete
+SFX_Crab_Serve_Complete_Bubbles
+SFX_Crab_Serve_Whoosh
+SFX_CrabBarber_CameraPan
+SFX_CrabBarber_GiveHaircut
+SFX_CrabBarber_Teen_Enter
+SFX_CS_Buzzer
+SFX_CS_EndingTheme_AlarmClock_A
+SFX_CS_EndingTheme_AlarmClock_B
+SFX_CS_EndingTheme_Cooking
+SFX_CS_EndingTheme_GiraffeJump_01
+SFX_CS_EndingTheme_HighFive
+SFX_CS_EndingTheme_Pigeon_A
+SFX_CS_EndingTheme_Pigeon_B
+SFX_CS_EndingTheme_Writing
+SFX_CS_EP01_Breakfast_CamPan_PitchDown
+SFX_CS_EP01_Breakfast_CamPan_PitchUp
+SFX_CS_EP01_Breakfast_SetState
+SFX_CS_EP01_Mom_PickUpHead
+SFX_CS_EP01_Mom_PutDownHead
+SFX_CS_EP01_Restroom_01_PantsOff
+SFX_CS_EP01_Restroom_03_Hop
+SFX_CS_EP01_Restroom_03_PantsOn
+SFX_CS_EP01_Restroom_WakeUp
+SFX_CS_EP01_SchoolBell_Bbm_LostInThought_SecondHalf
+SFX_CS_EP01_SchoolBell_Dm_Flyover
+SFX_CS_EP01_SchoolBell_FlyOverWind
+SFX_CS_EP01_SchoolBell_SlideSandwichBag
+SFX_CS_EP01_SchoolGate_B_MetalRattle
+SFX_CS_EP01_SchoolGate_B_NoseSteam
+SFX_CS_EP01_SchoolGate_B_ThunderClap
+SFX_CS_EP01_SchoolGate_Ravens
+SFX_CS_EP01_SchoolGate_S01_Start
+SFX_CS_EP01_SchoolGate_S01_Stop
+SFX_CS_EP01_SpiritualMoment_01_AlienComs
+SFX_CS_EP01_SpiritualMoment_01_AlienTrippy
+SFX_CS_EP01_SpiritualMoment_01_DogCamZoom
+SFX_CS_EP01_SpiritualMoment_01_DogKickDirt
+SFX_CS_EP01_SpiritualMoment_01_DogPoopSniff
+SFX_CS_EP01_SpiritualMoment_01_DoorOpen
+SFX_CS_EP01_SpiritualMoment_01_DoorOpenA
+SFX_CS_EP01_SpiritualMoment_01_MagicBuildUp
+SFX_CS_EP01_SpiritualMoment_01_MagicBuildUp_LP_Start
+SFX_CS_EP01_SpiritualMoment_01_TeenPanicRun
+SFX_CS_EP01_SpiritualMoment_02_HeadTurnWhoosh
+SFX_CS_EP01_SpiritualMoment_02_LaserEyes
+SFX_CS_EP01_SpiritualMoment_04_BushHit
+SFX_CS_EP01_SpiritualMoment_04_BushPopUp
+SFX_CS_EP01_SpiritualMoment_04_PoopDrop
+SFX_CS_EP01_SpiritualMoment_04_PoopFly
+SFX_CS_EP01_SpiritualMoment_04_ThatsAllFolks
+SFX_CS_EP01_TornadoDream_FS_Concrete
+SFX_CS_EP01_TornadoDream_Mod_Tornado_LP
+SFX_CS_EP01_TornadoDream_S01
+SFX_CS_EP01_TornadoDream_S03_04
+SFX_CS_EP01_TornadoDream_S05a
+SFX_CS_EP01_TornadoDream_S05b
+SFX_CS_EP06_FreePlayBegin_TreeMoveIn
+SFX_CS_EP06_FreePlayBegin_TreeMoveOut
+SFX_CS_EP10_MonsterSchoolRunAway
+SFX_CS_MonsterSchool_Dia
+SFX_CS_TalkMonsterSchool_Monster
+SFX_CS_Theme_Opening
+SFX_CS_Theme_Opening_NoDog
+SFX_Dad_Move_LP_Start
+SFX_Dog_ClothingRack_Impact
+SFX_Dog_ClothingRack_Land
+SFX_Dog_ClothingRack_Land_Last
+SFX_Dog_ClothingRack_Whoosh
+SFX_Dog_Eating
+SFX_Dog_Sniff_End
+SFX_Dog_Sniff_Loop
+SFX_Door_Wood_Bump
+SFX_Emote
+SFX_Footstep
+SFX_GrilledCorn_Intro
+SFX_GrilledCorn_Intro_Rotate_Short
+SFX_GrilledCorn_Munch
+SFX_GrilledCorn_Outro
+SFX_GrilledCorn_Spin_Loop
+SFX_GrilledCorn_Spin_Start
+SFX_GrilledCorn_Spin_Stop
+SFX_LadyBug_Wing_Flap
+SFX_LadyBug_Wing_Hover_Loop
+SFX_LadyBug_Wing_Hover_Loop_Stop
+SFX_Minigame_GrilledCorn_SuperKernal_Bite
+SFX_Minigame_GrilledCorn_SuperKernal_Loop
+SFX_Minigame_GrilledCorn_SuperKernal_PowerDown
+SFX_Minigame_IceCream_Eat
+SFX_MiniGame_Shared_Start
+SFX_MiniGame_Shared_Timer_Countx3
+SFX_MiniGame_Shared_Timer_TimesUp
+SFX_Minigame_ShowScore_HighScore
+SFX_Minigame_ShowScore_Regular
+SFX_Mole_Burrow_LP_Start
+SFX_Mole_Burrow_LP_Stop
+SFX_Mole_Burrow_Pop_Down
+SFX_Mole_Burrow_Pop_Up
+SFX_Octopus_Serve_Pop_Down
+SFX_Octopus_Serve_Pop_Up
+SFX_Octopus_Serve_Spray
+SFX_ParkPiano_Note_01_C
+SFX_ParkPiano_Note_02_Db
+SFX_ParkPiano_Note_03_D
+SFX_ParkPiano_Note_04_Eb
+SFX_ParkPiano_Note_05_E
+SFX_ParkPiano_Note_06_F
+SFX_ParkPiano_Note_07_Gb
+SFX_ParkPiano_Note_08_G
+SFX_ParkPiano_Note_09_Ab
+SFX_ParkPiano_Note_10_A
+SFX_ParkPiano_Note_11_Bb
+SFX_ParkPiano_Note_12_B
+SFX_ParkPiano_Note_13_C
+SFX_ParkPiano_Note_14_Db
+SFX_ParkPiano_Note_15_D
+SFX_ParkPiano_Note_16_Eb
+SFX_ParkPiano_Note_17_E
+SFX_ParkPiano_Note_18_F
+SFX_ParkPiano_Note_19_Gb
+SFX_ParkPiano_Note_20_G
+SFX_ParkPiano_Note_21_Ab
+SFX_ParkPiano_Note_22_A
+SFX_ParkPiano_Note_23_Bb
+SFX_ParkPiano_Note_24_B
+SFX_ParkPiano_Note_25_C
+SFX_ParkPiano_Note_26_C
+SFX_ParkPiano_Note_27_Db
+SFX_ParkPiano_Note_28_D
+SFX_ParkPiano_Note_29_Eb
+SFX_ParkPiano_Note_30_E
+SFX_ParkPiano_Note_31_F
+SFX_ParkPiano_Note_32_Gb
+SFX_ParkPiano_Note_33_G
+SFX_ParkPiano_Note_34_Ab
+SFX_ParkPiano_Note_35_A
+SFX_ParkPiano_Note_36_Bb
+SFX_ParkPiano_Note_37_B
+SFX_ParkPiano_Note_38_C
+SFX_ParkPiano_Note_39_Db
+SFX_ParkPiano_Note_40_D
+SFX_ParkPiano_Note_41_Eb
+SFX_ParkPiano_Note_42_E
+SFX_ParkPiano_Note_43_F
+SFX_ParkPiano_Note_44_Gb
+SFX_ParkPiano_Note_45_G
+SFX_ParkPiano_Note_46_Ab
+SFX_ParkPiano_Note_47_A
+SFX_ParkPiano_Note_48_Bb
+SFX_ParkPiano_Note_49_B
+SFX_ParkPiano_Note_50_C
+SFX_Physics_Kick_Ball
+SFX_Physics_Kick_Fruit
+SFX_Physics_Kick_Paper
+SFX_Physics_Kick_Rock
+SFX_Physics_Kick_Tin
+SFX_PopCorn_Munch
+SFX_Prop_Beaker_Pour_LP_Start
+SFX_Prop_Beaker_Pour_LP_Stop
+SFX_Prop_Bed_JumpInto
+SFX_Prop_Bed_JumpOutOf
+SFX_Prop_Bike_Movement_LP_Start
+SFX_Prop_Bike_Movement_LP_Stop
+SFX_Prop_Broom_PutAway
+SFX_Prop_Broom_Sweep
+SFX_Prop_Broom_SweepEnd
+SFX_Prop_Broom_TakeOutSweep
+SFX_Prop_Cauldron_Bubbling_LP
+SFX_Prop_Cauldron_Poof
+SFX_Prop_Cereal_Pour_LP_Start
+SFX_Prop_Cereal_Pour_LP_Stop
+SFX_Prop_CerealBox_Drop_Impact
+SFX_Prop_Chair_JumpInto
+SFX_Prop_Chair_JumpOutOf
+SFX_Prop_Chair_Wood_Pre_Sit_Slide
+SFX_Prop_Chair_Wood_Sit_Down_Squeak
+SFX_Prop_ClothingRack_Cycle
+SFX_Prop_ClothingRack_End
+SFX_Prop_ClothingRack_Hover
+SFX_Prop_ClothingRack_Start
+SFX_Prop_Coin
+SFX_Prop_CornGame_CobLower
+SFX_Prop_CornGame_CobRaise
+SFX_Prop_CornGame_FirePit_RoastSizzle_LP
+SFX_Prop_Couch_JumpInto
+SFX_Prop_Couch_JumpOutOf
+SFX_Prop_CrossWalkSignal_DoNotWalk
+SFX_Prop_CrossWalkSignal_Walk
+SFX_Prop_Door_Open
+SFX_Prop_Door_Shop_Bell
+SFX_Prop_Door_Shut
+SFX_Prop_Door_Shut_Squeak
+SFX_Prop_Fence_Rattle
+SFX_Prop_FishingRod_Cast
+SFX_Prop_FishingRod_Cast_WaterPlop
+SFX_Prop_FishingRod_Crank_A
+SFX_Prop_FishingRod_Crank_B
+SFX_Prop_FishingRod_Foley_Movement_A
+SFX_Prop_FishingRod_Foley_Movement_B
+SFX_Prop_FishingRod_Foley_Movement_C
+SFX_Prop_FishingRod_Foley_Movement_D
+SFX_Prop_Flashlight_On
+SFX_Prop_Intercom_ButtonPress
+SFX_Prop_Intercom_Chime
+SFX_Prop_Milk_Pour_LP_Start
+SFX_Prop_Milk_Pour_LP_Stop
+SFX_Prop_Newspaper_Movement_PageTurn
+SFX_Prop_Newspaper_Movement_Small
+SFX_Prop_Remote_Beam_Impact_Spark
+SFX_Prop_Remote_Beam_LP_Start
+SFX_Prop_Remote_Beam_LP_Stop
+SFX_Prop_SchoolBell
+SFX_Prop_ShoeCubby_Cycle
+SFX_Prop_ShoeCubby_End
+SFX_Prop_ShoeCubby_Start
+SFX_Prop_Sink_Dishes_Faucet_Off
+SFX_Prop_Sink_Dishes_Faucet_Off_DryHandsSynth
+SFX_Prop_Sink_Dishes_Faucet_Off_Sniff
+SFX_Prop_Sink_Dishes_Faucet_On
+SFX_Prop_Sink_Dishes_Wash_GrabDish_Start
+SFX_Prop_Sink_Dishes_Wash_Scrub
+SFX_Prop_Sink_Dishes_Washing_Clank
+SFX_Prop_Sink_Dishes_Washing_End_SetDownClank
+SFX_Prop_Sink_Dishes_Water_Lp_OneShot
+SFX_Prop_Sink_Faucet_Slide_Down
+SFX_Prop_Sink_Faucet_Slide_Up
+SFX_Prop_Sink_Faucet_Turn
+SFX_Prop_Sink_Water_Start
+SFX_Prop_Sink_Water_Stop
+SFX_Prop_Skull_Gate_Open_End
+SFX_Prop_Skull_Gate_Open_End_ScaryBreath
+SFX_Prop_Skull_Gate_Open_End_ScaryBreath_Short
+SFX_Prop_Skull_Gate_Open_Start
+SFX_Prop_Spoon_Scoop
+SFX_Prop_Spoon_Scoop_Splash
+SFX_Prop_Sprinkler_On
+SFX_Prop_Toothpaste_Squeeze
+SFX_Prop_Toothpaste_Squeeze_OneShot
+SFX_Prop_Train_AmbBed_Int_MoveIdle_Blend_LP
+SFX_Prop_Train_Announce_Arriving
+SFX_Prop_Train_Announce_DoorsClosing
+SFX_Prop_Train_Announce_Location
+SFX_Prop_Train_Arrive
+SFX_Prop_Train_Bell
+SFX_Prop_Train_Depart
+SFX_Prop_Train_Door_Open
+SFX_Prop_Train_Door_Shut
+SFX_Prop_Train_Move_Start
+SFX_Prop_Train_Move_Start_Tunnel
+SFX_Prop_Train_Move_Stop
+SFX_Prop_Train_Move_Stop_Tunnel
+SFX_Prop_Trowel_Shovel_Finished
+SFX_Prop_Trowel_Shovel_Single
+SFX_Prop_Trowel_Shovel_Start
+SFX_Prop_Trowel_ShovelAndPatDirt
+SFX_Prop_Umbrella_Rain_A_LP_Start
+SFX_Prop_Umbrella_Rain_A_LP_Stop
+SFX_Prop_Umbrella_Rain_B_LP_Start
+SFX_Prop_Umbrella_Rain_B_LP_Stop
+SFX_Prop_Unicycle_Dismount
+SFX_Prop_Unicycle_Mount
+SFX_Prop_Unicycle_Movement_LP_Start
+SFX_Prop_Unicycle_Movement_LP_Stop
+SFX_Prop_Vehicle_Engine_LP_Start
+SFX_Prop_Vehicle_Engine_LP_Stop
+SFX_Prop_Vehicle_Horn_Beep
+SFX_Prop_WateringCan_PickUp
+SFX_Prop_WateringCan_SetDown
+SFX_Prop_WateringCan_WaterPlants_Long
+SFX_Prop_WateringCan_WaterPlants_Start
+SFX_Prop_WateringCan_WaterPlants_Stop
+SFX_Prop_Weights_Dumbbell_Movement_Lift
+SFX_Prop_Windmill_LP
+SFX_Prop_Windmill_Whoosh_Low
+SFX_Prop_Window_Slide_Open
+SFX_Prop_Window_Sliding_Start
+SFX_Sandwich_Bite
+SFX_Sandwich_Drink_Belch_Normal
+SFX_Sandwich_Drink_Belch_Sour
+SFX_Sandwich_Drink_Belch_Spicy
+SFX_Sandwich_Drink_Grab
+SFX_Sandwich_Drink_Sip
+SFX_Sandwich_Rotate_Loop
+SFX_Sandwich_Rotate_Loop_Stop
+SFX_Sandwich_Throw
+SFX_Sandwich_Tray_Grab
+SFX_Shop_Dog_Hat_TryOn
+SFX_Shop_Sandwich_Prepare_Sandwich_Done
+SFX_Shop_Sandwich_Prepare_Sandwich_Loop
+SFX_Shop_Sandwich_Prepare_Sandwich_Loop_End
+SFX_Shop_Sandwich_Prepare_Sandwich_Loop_End_NoDrum
+SFX_Shop_Sandwich_Prepare_Sandwich_Start
+SFX_Shop_Sandwich_Prepare_Sandwich_Whoosh
+SFX_Shop_Wardrobe_Cloth_Movement
+SFX_Shop_Wardrobe_Cloth_Movement_Fast
+SFX_Shop_Wardrobe_ClothingChange_Poof
+SFX_Shop_Wardrobe_ClothingChange_Shoes_Poof
+SFX_Shop_Wardrobe_Whoosh_Low_Fast
+SFX_Snail_Exercise_SpeedBag_Hit
+SFX_Teen_Brush_Teeth_Spit
+SFX_Teen_Brush_Teeth_Spit_LP_Start
+SFX_Teen_Brush_Teeth_Spit_LP_Stop
+SFX_Teen_Eat_Big_Bite
+SFX_Teen_Eat_Chew
+SFX_Teen_Eat_Chew_Swallow
+SFX_Teen_Grab_CerealBox
+SFX_Teen_Grab_Cloth
+SFX_Teen_Grab_Object
+SFX_Teen_Grab_Release_SetDown_Generic
+SFX_Teen_Grab_Spoon
+SFX_Teen_Grab_Spoon_SetDown
+SFX_Teen_RinseMouth
+SFX_Teen_Shoes_On
+SFX_Teen_Shoes_On_Pop
+SFX_Teen_Tornado_SpinDown_Stop
+SFX_Teen_Tornado_SpinUp_Start
+SFX_Tornado_Interact_Tree_LP_Start
+SFX_Tornado_Interact_Tree_LP_Stop
+SFX_Tornado_Step_01_Start
+SFX_Tornado_Step_02
+SFX_Tornado_Step_03
+SFX_Tornado_Step_04
+SFX_Tornado_Step_05_End
+SFX_UI_AudioSettings_MusicRef
+SFX_UI_AudioSettings_VolumeRef
+SFX_UI_CornGame_Score_RollDown
+SFX_UI_CornGame_Score_RollUp
+SFX_UI_Global_Back
+SFX_UI_Global_Cancel
+SFX_UI_Global_Change_Focus
+SFX_UI_Global_Confirm
+SFX_UI_Global_Nope
+SFX_UI_Looks_Change_Selection
+SFX_UI_Looks_Use
+SFX_UI_Map_Enter
+SFX_UI_Map_Exit
+SFX_UI_Map_LStickMove_LP_Start
+SFX_UI_Map_LStickMove_LP_Stop
+SFX_UI_Map_ZoomIn_LP_Start
+SFX_UI_Map_ZoomIn_LP_Stop
+SFX_UI_Map_ZoomOut_LP_Start
+SFX_UI_Map_ZoomOut_LP_Stop
+SFX_UI_Menu_Highlight
+SFX_UI_Menu_Select
+SFX_UI_Name_Change_Letter_Type
+SFX_UI_Name_Scroll_LR
+SFX_UI_Name_Scroll_UD
+SFX_UI_NewStyle_HeartHit
+SFX_UI_NewStyle_HeartSpawn
+SFX_UI_PEWarmUp_HiHat
+SFX_UI_PEWarmUp_Hit
+SFX_UI_PEWarmUp_MissedBeat_WrongAnswer
+SFX_UI_PEWarmUp_YourTurn
+SFX_UI_Shop_Change_Slot
+SFX_UI_Shop_Purchase
+SFX_UI_Shop_Reset
+SFX_UI_Shop_Use
+SFX_UI_UnlockHairStyle
+SFX_VistaPoint_Enter
+SFX_VistaPoint_Exit
+SFX_VistaPoint_GoDown_EndHit
+SFX_VistaPoint_GoDown_LP_Start
+SFX_VistaPoint_GoDown_LP_Stop
+SFX_VistaPoint_GoUp_EndHit
+SFX_VistaPoint_GoUp_LP_Start
+SFX_VistaPoint_GoUp_LP_Stop
+SFX_VistaPoint_LStickMove_CamAngle_LP_Start
+SFX_VistaPoint_LStickMove_CamAngle_LP_Stop
+SFX_VistaPoint_ZoomIn_LP_Start
+SFX_VistaPoint_ZoomIn_LP_Stop
+SFX_VistaPoint_ZoomOut_LP_Start
+SFX_VistaPoint_ZoomOut_LP_Stop
+SFX_WashFace_Chime_Shorter
+SFX_WashFace_Chime_Strum_Final
+SFX_WashFace_EyeBoogerCheck_Enter
+SFX_WashFace_EyeBoogerCheck_Exit
+SFX_Water_WashFace_Splash_Enter
+SFX_Water_WashFace_Splash_Exit
+StartScreen_Enter
+StartScreen_Exit
+Switch_FadeMusic_3Second
+Switch_Mus_CS_EP10_ByeBye
+Switch_Mus_CS_Theme_Ending_Giraffe
+Switch_Mus_CS_Theme_Opening
+Switch_Mus_Silent
+TEST_SFX_Amb_Bird_Seagull_A_08
+UI_SimplePause_Close
+
+### LANGUAGE NAMES
+SFX
+
+### BUS NAMES
+Amb_Bed
+Amb_Emit
+ambience
+Ambience_OptionsArrow
+Aux_FX
+Beep
+Bikes
+Birds
+Character
+ConcertHall_A
+ConcertHall_B
+ConcertHall_C
+ConcertHall_D
+ConcertHall_E
+CS_Dialogue
+CS_Music
+CS_NoPause
+CS_NP_Dialogue
+CS_NP_Music
+CS_NP_SFX
+CS_SFX
+cutscenes
+Day
+Delay_bouncy
+Delay_Modulated_Repeats
+Dia_Dog
+Dia_NPC_Adult
+Dia_Teen
+dialogue
+Dog
+Emote
+Engine
+Ext_DisA_Beach
+Ext_DisA_Neighborhood
+Ext_DisB_Schoolyard
+Ext_DisC_Park_Maze
+Ext_DisC_Underpass
+Ext_DisD_Canal
+Ext_DisD_Junkyard
+Ext_DisD_Mountain_Cliff
+Ext_DisE_UnderBridge
+Ext_DisF_BeachCrab
+Ext_DisF_BeachCrevace
+Ext_DisF_BeachRoad_Slap
+Ext_DisG_CanyonPath
+Ext_DisH_Lighthouse_Cliff
+Ext_DisH_Lighthouse_Shop
+Ext_Forest_A
+Ext_Forest_b
+Ext_Forest_C_MushroomMountain
+Ext_Park
+Ext_Sports_Field
+Ext_Town_Street
+Ext_Train_Station
+footstep
+FS_Dog
+FS_Dog_Biped
+FS_Dog_Claws
+FS_NPC
+FS_Teen
+FX_EXT
+FX_INT
+FX_Mus
+FX_Prop
+FX_Unique
+Idle
+Int_DisA_T_House
+Int_DisA_T_House_Bathroom
+Int_DisA_T_House_Bedroom
+Int_DisA_T_House_Hallway
+Int_DisA_T_House_Kitchen
+Int_DisA_T_House_LivingRoom
+Int_DisB_School
+Int_DisB_School_Classroom
+Int_DisB_School_Entrance_Foyer
+Int_DisB_School_Gym
+Int_DisB_School_Gym_Basketball
+Int_DisB_School_Hallway
+Int_DisB_School_Hallway_2nd_Floor
+Int_DisB_School_Hallway_To_Gym
+Int_DisB_School_Stairwell
+Int_DisC_Dumpster
+Int_DisD_Sewer
+Int_DisD_TShirtTunnel
+Int_DisD_WarehouseBig
+Int_DisD_WarehouseSideRoom
+Int_DisD_WarehouseSmall
+Int_DisD_WarehouseVent
+Int_DisG_Shop_Magic
+Int_Dish_Cave
+Int_Train_Car
+Int_Train_Tunnel
+Main_Bus
+MiniGames
+Mom
+Mood
+Morning
+Move
+music
+Music_CS_InGame
+Music_GameEvent
+Music_Gameplay
+Music_Location
+Music_MiniGame
+Music_Shell
+Music_Stingers
+Music_Train
+Night
+Prop_Radio
+Prop_TV
+Props
+Restroom
+SFX
+SFX_UI
+Slinky
+Sunset
+Teen
+Teen_Tornado
+TeenHouse
+Test
+Train
+Vehicle
+# 2378966803
+# 172477913
+# 258570413
+# 3427358871
+# 3474399136
+# 706526940
+# 2783893029
+# 4181312985
+# 737911393
+# 737911394
+# 42385277
+# 1362696989
+
+### SFX NAMES (Init.bnk)
+IR_Cave_Massive
+IR_Ext_Urban_Less_Houses_Open_01
+IR_House_BathroomSmall
+IR_House_Bedroom
+IR_House_Kitchen
+IR_House_LivingRoom
+IR_Industrial_TrainTunnel_Massive
+IR_Industrial_Warehouse_02
+IR_Int_ConcertHall_Eastman
+IR_Int_ConcertHall_Foellinger
+IR_Int_ConcertHall_Masonic
+IR_Int_ConcertHall_Meyerson
+IR_Int_ConcertHall_Mills
+IR_Int_Train_Car
+IR_School_Classroom_Small
+IR_School_Classroom_Small_Slaps
+IR_School_Foyer_Medium
+IR_Slinky
+No_Output
+system
+# 1566318828
+# 2011857211
+# 2295868378
+# 2839238900
+# 2839238903
+
+### BASE RTPC/GAME-VARIABLE NAMES (Init.bnk)
+RTPC_Annoyance
+RTPC_Brush_Velocity_Slow0_Fast1
+RTPC_Car_Throttle
+RTPC_Car_Velocity
+RTPC_Character_Velocity
+RTPC_GrilledCorn_SpinSpeed
+RTPC_IntercomEffect
+RTPC_Interior1_Exterior0
+RTPC_LipSync
+RTPC_MiniGame_Restroom_LT_Lo0Hi1
+RTPC_MiniGame_Restroom_RT_Lo0Hi1
+RTPC_MiniGame_WashFace_WaterSink0_WaterFace1
+RTPC_Mouth_Open0_Shut1
+RTPC_Music_MIDI_Velocity
+RTPC_Options_Dialogue_Volume
+RTPC_Options_Game_Volume
+RTPC_Options_Music_Volume
+RTPC_Options_SFX_Volume
+RTPC_Rain1_NoRain0
+RTPC_Success1_Fail0
+RTPC_Time_Of_Day
+RTPC_Tornado_Height
+RTPC_Tornado_Small0_Big1
+RTPC_Train_Velocity
+RTPC_Vehicle_Slope
+RTPC_Water_Depth
+# 2758799002
+# 75952302
+# 115969203
+# 402169611
+# 471808950
+# 697683239
+# 883513163
+# 1010956302
+# 1078815262
+# 1444410814
+# 1900662988
+# 2325618900
+# 3092245280
+# 3836634524
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+RTPC_Annoyance
+RTPC_Options_Dialogue_Volume
+RTPC_Options_Game_Volume
+RTPC_Options_Music_Volume
+RTPC_Options_SFX_Volume
+RTPC_Rain1_NoRain0
+RTPC_Time_Of_Day
+# 1010956302
+
+### VARIABLE NAMES (Init.bnk)
+State_Character
+State_Conversation
+State_Cutscene
+State_Game
+State_Location
+State_Pause_Menu
+State_Pigeon_Headphones
+State_T_Movement_Mode
+State_Train_Ride
+Switch_Time_Of_Day
+Switch_Wetness
+# 330024693
+
+### VALUE NAMES (Init.bnk)
+AudioSettings
+cutscene
+EP01_SchoolGate
+EP01_SpiritualMomentMoment
+EP09_MomsMemory_TV
+GameEvent
+Global_ThemeEnding
+GroundTornado
+InGame_Location
+none
+pause
+PigeonHeadphonesOn3dPostTalk
+Shell
+silent
+Tornado
+Train_Interior_Riding
+Unicycle
+Unpause
+Walk
+# 3662598051
+# 365585929
+# 1535390820
+# 1829840983
+# 360818304
+
+### EVENT NAMES (Dia_Alien_CS_EP01_SpiritualMoment01_EmoteCom.bnk)
+Dia_Alien_CS_EP01_SpiritualMoment01_EmoteCom
+
+### VARIABLE NAMES (Dia_Alien_CS_EP01_SpiritualMoment01_EmoteCom.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Dog_CS_EP01_PetDog_01_Ruff.bnk)
+Dia_Dog_CS_EP01_PetDog_01_Ruff
+
+### VARIABLE NAMES (Dia_Dog_CS_EP01_PetDog_01_Ruff.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Dog_CS_EP01_PetDog_01_WakeUp.bnk)
+Dia_Dog_CS_EP01_PetDog_01_WakeUp
+
+### VARIABLE NAMES (Dia_Dog_CS_EP01_PetDog_01_WakeUp.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Dog_CS_EP01_PetDog_01_Yawn.bnk)
+Dia_Dog_CS_EP01_PetDog_01_Yawn
+
+### VARIABLE NAMES (Dia_Dog_CS_EP01_PetDog_01_Yawn.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Dog_CS_EP01_SpiritualMoment_01.bnk)
+Dia_Dog_CS_EP01_SpiritualMoment_01
+
+### VARIABLE NAMES (Dia_Dog_CS_EP01_SpiritualMoment_01.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Dog_CS_EP01_Washface_05_Licking.bnk)
+Dia_Dog_CS_EP01_Washface_05_Licking
+
+### VARIABLE NAMES (Dia_Dog_CS_EP01_Washface_05_Licking.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Dog_CS_EP06_DogSleep_SnoreExhale.bnk)
+Dia_Dog_CS_EP06_DogSleep_SnoreExhale
+
+### VARIABLE NAMES (Dia_Dog_CS_EP06_DogSleep_SnoreExhale.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Dog_CS_EP06_DogSleep_Snore_Inhale.bnk)
+Dia_Dog_CS_EP06_DogSleep_Snore_Inhale
+
+### VARIABLE NAMES (Dia_Dog_CS_EP06_DogSleep_Snore_Inhale.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Dog_Jump.bnk)
+Dia_Dog_Jump
+
+### VARIABLE NAMES (Dia_Dog_Jump.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Dog_Land.bnk)
+Dia_Dog_Land
+
+### VARIABLE NAMES (Dia_Dog_Land.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Dog_Pant_Happy_Shorter.bnk)
+Dia_Dog_Pant_Happy_Shorter
+
+### VARIABLE NAMES (Dia_Dog_Pant_Happy_Shorter.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Dog_Walk_Pant_LP_Start.bnk)
+Dia_Dog_Walk_Pant_LP_Start
+
+### EVENT NAMES (Dia_Dog_Walk_Pant_LP_Stop.bnk)
+Dia_Dog_Walk_Pant_LP_Stop
+
+### EVENT NAMES (Dia_GangBig_CS_EP01_LostInThought_01.bnk)
+Dia_GangBig_CS_EP01_LostInThought_01
+
+### VARIABLE NAMES (Dia_GangBig_CS_EP01_LostInThought_01.bnk)
+State_Location
+
+### EVENT NAMES (Dia_GangBig_CS_EP01_LostInThought_02.bnk)
+Dia_GangBig_CS_EP01_LostInThought_02
+
+### VARIABLE NAMES (Dia_GangBig_CS_EP01_LostInThought_02.bnk)
+State_Location
+
+### EVENT NAMES (Dia_GangBoy_CS_EP01_LostInThought_01.bnk)
+Dia_GangBoy_CS_EP01_LostInThought_01
+
+### VARIABLE NAMES (Dia_GangBoy_CS_EP01_LostInThought_01.bnk)
+State_Location
+
+### EVENT NAMES (Dia_GangBoy_CS_EP01_LostInThought_02.bnk)
+Dia_GangBoy_CS_EP01_LostInThought_02
+
+### VARIABLE NAMES (Dia_GangBoy_CS_EP01_LostInThought_02.bnk)
+State_Location
+
+### EVENT NAMES (Dia_GangGirl_CS_EP01_LostInThought_01.bnk)
+Dia_GangGirl_CS_EP01_LostInThought_01
+
+### VARIABLE NAMES (Dia_GangGirl_CS_EP01_LostInThought_01.bnk)
+State_Location
+
+### EVENT NAMES (Dia_GangGirl_CS_EP01_LostInThought_02.bnk)
+Dia_GangGirl_CS_EP01_LostInThought_02
+
+### VARIABLE NAMES (Dia_GangGirl_CS_EP01_LostInThought_02.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Group_Stretch.bnk)
+Dia_Group_Stretch
+
+### VARIABLE NAMES (Dia_Group_Stretch.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Group_StretchRelease.bnk)
+Dia_Group_StretchRelease
+
+### VARIABLE NAMES (Dia_Group_StretchRelease.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Pig_Emote_Oink_Cereal.bnk)
+Dia_Pig_Emote_Oink_Cereal
+
+### EVENT NAMES (Dia_Snail_Exercise.bnk)
+Dia_Snail_Exercise
+
+### VARIABLE NAMES (Dia_Snail_Exercise.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Snail_Exercise_Exhausted.bnk)
+Dia_Snail_Exercise_Exhausted
+
+### VARIABLE NAMES (Dia_Snail_Exercise_Exhausted.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_BrushTeeth_15_TaDa.bnk)
+Dia_Teen_CS_EP01_BrushTeeth_15_TaDa
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_BrushTeeth_15_TaDa.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SchoolGate01_A_Anxiety.bnk)
+Dia_Teen_CS_EP01_SchoolGate01_A_Anxiety
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SchoolGate01_A_Anxiety.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SchoolGate01_B_ShakeItOff.bnk)
+Dia_Teen_CS_EP01_SchoolGate01_B_ShakeItOff
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SchoolGate01_B_ShakeItOff.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SchoolGate01_C_SighOutro.bnk)
+Dia_Teen_CS_EP01_SchoolGate01_C_SighOutro
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SchoolGate01_C_SighOutro.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_FreakOut.bnk)
+Dia_Teen_CS_EP01_SpiritualMoment_01_FreakOut
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_FreakOut.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_Gasp.bnk)
+Dia_Teen_CS_EP01_SpiritualMoment_01_Gasp
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_Gasp.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_GaspOhNo.bnk)
+Dia_Teen_CS_EP01_SpiritualMoment_01_GaspOhNo
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_GaspOhNo.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_LookA.bnk)
+Dia_Teen_CS_EP01_SpiritualMoment_01_LookA
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_LookA.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_LookB.bnk)
+Dia_Teen_CS_EP01_SpiritualMoment_01_LookB
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_LookB.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_LookC.bnk)
+Dia_Teen_CS_EP01_SpiritualMoment_01_LookC
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_LookC.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_ZenBreath.bnk)
+Dia_Teen_CS_EP01_SpiritualMoment_01_ZenBreath
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SpiritualMoment_01_ZenBreath.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SpiritualMoment_04_BushLand.bnk)
+Dia_Teen_CS_EP01_SpiritualMoment_04_BushLand
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SpiritualMoment_04_BushLand.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SpiritualMoment_04_BushPopUp.bnk)
+Dia_Teen_CS_EP01_SpiritualMoment_04_BushPopUp
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SpiritualMoment_04_BushPopUp.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SpiritualMoment_04_PoopLand.bnk)
+Dia_Teen_CS_EP01_SpiritualMoment_04_PoopLand
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SpiritualMoment_04_PoopLand.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SpiritualMoment_04_TeenFly.bnk)
+Dia_Teen_CS_EP01_SpiritualMoment_04_TeenFly
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SpiritualMoment_04_TeenFly.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SpiritualMoment_04_TossStart.bnk)
+Dia_Teen_CS_EP01_SpiritualMoment_04_TossStart
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SpiritualMoment_04_TossStart.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_SpiritualMoment_04_TurnToDog.bnk)
+Dia_Teen_CS_EP01_SpiritualMoment_04_TurnToDog
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_SpiritualMoment_04_TurnToDog.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_TornadoDream01_TurnToRun.bnk)
+Dia_Teen_CS_EP01_TornadoDream01_TurnToRun
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_TornadoDream01_TurnToRun.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_TornadoDream02_Run.bnk)
+Dia_Teen_CS_EP01_TornadoDream02_Run
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_TornadoDream02_Run.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_TornadoDream02_Run_TurnGasp.bnk)
+Dia_Teen_CS_EP01_TornadoDream02_Run_TurnGasp
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_TornadoDream02_Run_TurnGasp.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_TornadoDream03_Spinning.bnk)
+Dia_Teen_CS_EP01_TornadoDream03_Spinning
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_TornadoDream03_Spinning.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_TornadoDream03_SuckedIn.bnk)
+Dia_Teen_CS_EP01_TornadoDream03_SuckedIn
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_TornadoDream03_SuckedIn.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_TornadoDream04_ComingDown.bnk)
+Dia_Teen_CS_EP01_TornadoDream04_ComingDown
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_TornadoDream04_ComingDown.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_TornadoDream05a_FallHit.bnk)
+Dia_Teen_CS_EP01_TornadoDream05a_FallHit
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_TornadoDream05a_FallHit.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_TornadoDream05b_FallHit.bnk)
+Dia_Teen_CS_EP01_TornadoDream05b_FallHit
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_TornadoDream05b_FallHit.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_TornadoDream05b_SlideIntoPit.bnk)
+Dia_Teen_CS_EP01_TornadoDream05b_SlideIntoPit
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_TornadoDream05b_SlideIntoPit.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_WakeUp01_LookA.bnk)
+Dia_Teen_CS_EP01_WakeUp01_LookA
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_WakeUp01_LookA.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_WakeUp01_LookB.bnk)
+Dia_Teen_CS_EP01_WakeUp01_LookB
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_WakeUp01_LookB.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_WakeUp01_LookC.bnk)
+Dia_Teen_CS_EP01_WakeUp01_LookC
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_WakeUp01_LookC.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_WakeUp01_Snoring_02.bnk)
+Dia_Teen_CS_EP01_WakeUp01_Snoring_02
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_WakeUp01_Snoring_02.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_WakeUp01_Snoring_03.bnk)
+Dia_Teen_CS_EP01_WakeUp01_Snoring_03
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_WakeUp01_Snoring_03.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_WakeUp01_Snoring_04.bnk)
+Dia_Teen_CS_EP01_WakeUp01_Snoring_04
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_WakeUp01_Snoring_04.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_WakeUp01_SuddenAwake.bnk)
+Dia_Teen_CS_EP01_WakeUp01_SuddenAwake
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_WakeUp01_SuddenAwake.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_CS_EP01_Washface_07_DogLickGiggle.bnk)
+Dia_Teen_CS_EP01_Washface_07_DogLickGiggle
+
+### VARIABLE NAMES (Dia_Teen_CS_EP01_Washface_07_DogLickGiggle.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_Eat_Big_Bite_Yum.bnk)
+Dia_Teen_Eat_Big_Bite_Yum
+
+### VARIABLE NAMES (Dia_Teen_Eat_Big_Bite_Yum.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_Eat_Big_Bite_Yum_LessFrequent.bnk)
+Dia_Teen_Eat_Big_Bite_Yum_LessFrequent
+
+### VARIABLE NAMES (Dia_Teen_Eat_Big_Bite_Yum_LessFrequent.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_Eat_Breakfast_Scoop_Yum_Short.bnk)
+Dia_Teen_Eat_Breakfast_Scoop_Yum_Short
+
+### VARIABLE NAMES (Dia_Teen_Eat_Breakfast_Scoop_Yum_Short.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_Jump_Land.bnk)
+Dia_Teen_Jump_Land
+
+### VARIABLE NAMES (Dia_Teen_Jump_Land.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_Jump_Up.bnk)
+Dia_Teen_Jump_Up
+
+### VARIABLE NAMES (Dia_Teen_Jump_Up.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_Tornado_End.bnk)
+Dia_Teen_Tornado_End
+
+### VARIABLE NAMES (Dia_Teen_Tornado_End.bnk)
+State_Location
+
+### EVENT NAMES (Dia_Teen_Tornado_Start.bnk)
+Dia_Teen_Tornado_Start
+
+### VARIABLE NAMES (Dia_Teen_Tornado_Start.bnk)
+State_Location
+
+### EVENT NAMES (Global_Audio_Stop_All.bnk)
+Global_Audio_Stop_All
+
+### VARIABLE NAMES (Global_Audio_Stop_All.bnk)
+State_Cutscene
+
+### VALUE NAMES (Global_Audio_Stop_All.bnk)
+none
+
+### EVENT NAMES (Global_PauseAllSequenceAudio.bnk)
+Global_PauseAllSequenceAudio
+
+### EVENT NAMES (Global_UnPauseAllSequenceAudio.bnk)
+Global_UnPauseAllSequenceAudio
+
+### EVENT NAMES (Instrument_ParkPiano_MIDI_Control_Only_DummyInstrument.bnk)
+Instrument_ParkPiano_MIDI_Control_Only_DummyInstrument
+
+### VARIABLE NAMES (Instrument_ParkPiano_MIDI_Control_Only_DummyInstrument.bnk)
+Switch_Episode
+
+### VALUE NAMES (Instrument_ParkPiano_MIDI_Control_Only_DummyInstrument.bnk)
+Ep_01
+Ep_02
+Ep_03
+Ep_04
+Ep_05_Test
+Ep_06
+Ep_07
+Ep_09
+Ep_10
+Ep_10_FreeplayOverride
+
+### EVENT NAMES (Mus_CS_EP01_PetDog_Stinger_01.bnk)
+Mus_CS_EP01_PetDog_Stinger_01
+
+### VARIABLE NAMES (Mus_CS_EP01_PetDog_Stinger_01.bnk)
+State_Cutscene
+
+### VALUE NAMES (Mus_CS_EP01_PetDog_Stinger_01.bnk)
+EP01_GoToRestroom
+
+### EVENT NAMES (Mus_CS_EP01_PetDog_Stinger_02.bnk)
+Mus_CS_EP01_PetDog_Stinger_02
+
+### EVENT NAMES (Mus_CS_EP01_PetDog_Stinger_03.bnk)
+Mus_CS_EP01_PetDog_Stinger_03
+
+### EVENT NAMES (Mus_CS_EP01_PetDog_Stinger_04.bnk)
+Mus_CS_EP01_PetDog_Stinger_04
+
+### VARIABLE NAMES (Mus_CS_EP01_PetDog_Stinger_04.bnk)
+State_Cutscene
+
+### VALUE NAMES (Mus_CS_EP01_PetDog_Stinger_04.bnk)
+none
+
+### EVENT NAMES (Mus_CS_EP01_SchoolBell_Flyover.bnk)
+Mus_CS_EP01_SchoolBell_Flyover
+
+### EVENT NAMES (Mus_CS_EP01_SchoolBell_Late.bnk)
+Mus_CS_EP01_SchoolBell_Late
+
+### VARIABLE NAMES (Mus_CS_EP01_SchoolBell_Late.bnk)
+Switch_Music_Main
+
+### VALUE NAMES (Mus_CS_EP01_SchoolBell_Late.bnk)
+CS_EP01_SchoolBell_Late
+
+### EVENT NAMES (Mus_CS_EP01_SchoolGate_S01_Start_A.bnk)
+Mus_CS_EP01_SchoolGate_S01_Start_A
+
+### EVENT NAMES (Mus_CS_EP01_SchoolGate_S01_Start_B.bnk)
+Mus_CS_EP01_SchoolGate_S01_Start_B
+
+### EVENT NAMES (Mus_CS_EP01_SchoolGate_S01_Start_C.bnk)
+Mus_CS_EP01_SchoolGate_S01_Start_C
+
+### EVENT NAMES (Mus_CS_EP01_SchoolGate_S01_Start_C_End.bnk)
+Mus_CS_EP01_SchoolGate_S01_Start_C_End
+
+### EVENT NAMES (Mus_CS_EP01_SpiritualMoment_B.bnk)
+Mus_CS_EP01_SpiritualMoment_B
+
+### EVENT NAMES (Mus_CS_EP01_SpiritualMoment_C.bnk)
+Mus_CS_EP01_SpiritualMoment_C
+
+### VARIABLE NAMES (Mus_CS_EP01_SpiritualMoment_C.bnk)
+State_Cutscene
+
+### VALUE NAMES (Mus_CS_EP01_SpiritualMoment_C.bnk)
+EP01_SpiritualMomentMoment
+none
+
+### EVENT NAMES (Mus_CS_EP01_SpiritualMoment_D.bnk)
+Mus_CS_EP01_SpiritualMoment_D
+
+### EVENT NAMES (Mus_CS_EP01_SpiritualMoment_E.bnk)
+Mus_CS_EP01_SpiritualMoment_E
+
+### VARIABLE NAMES (Mus_CS_EP01_SpiritualMoment_E.bnk)
+State_Cutscene
+
+### VALUE NAMES (Mus_CS_EP01_SpiritualMoment_E.bnk)
+none
+
+### EVENT NAMES (Mus_CS_EP01_SpiritualMoment_F.bnk)
+Mus_CS_EP01_SpiritualMoment_F
+
+### VARIABLE NAMES (Mus_CS_EP01_SpiritualMoment_F.bnk)
+State_Cutscene
+
+### VALUE NAMES (Mus_CS_EP01_SpiritualMoment_F.bnk)
+none
+
+### EVENT NAMES (Mus_CS_EP01_SpiritualMoment_G.bnk)
+Mus_CS_EP01_SpiritualMoment_G
+
+### EVENT NAMES (Mus_CS_EP01_Theme_Ending.bnk)
+Mus_CS_EP01_Theme_Ending
+
+### EVENT NAMES (Mus_CS_EP01_Theme_Ending_Stop.bnk)
+Mus_CS_EP01_Theme_Ending_Stop
+
+### EVENT NAMES (Mus_CS_EP01_TornadoDream_Intro_to_Custom_LP.bnk)
+Mus_CS_EP01_TornadoDream_Intro_to_Custom_LP
+
+### EVENT NAMES (Mus_CS_EP01_TornadoDream_Post_Customization.bnk)
+Mus_CS_EP01_TornadoDream_Post_Customization
+
+### EVENT NAMES (Mus_CS_EP02_Theme_Ending_Stop.bnk)
+Mus_CS_EP02_Theme_Ending_Stop
+
+### EVENT NAMES (Mus_CS_EP04_Theme_Ending_Stop.bnk)
+Mus_CS_EP04_Theme_Ending_Stop
+
+### EVENT NAMES (Mus_CS_EP06_Theme_Ending_Stop.bnk)
+Mus_CS_EP06_Theme_Ending_Stop
+
+### EVENT NAMES (Mus_CS_EP07_Theme_Ending_Stop.bnk)
+Mus_CS_EP07_Theme_Ending_Stop
+
+### EVENT NAMES (Mus_CS_EP09_Theme_Ending_Stop.bnk)
+Mus_CS_EP09_Theme_Ending_Stop
+
+### EVENT NAMES (Mus_CS_EpisodeToFreePlayBridge.bnk)
+Mus_CS_EpisodeToFreePlayBridge
+
+### EVENT NAMES (Mus_CS_EpisodeToFreePlayBridge_Stop.bnk)
+Mus_CS_EpisodeToFreePlayBridge_Stop
+
+### EVENT NAMES (Mus_Diagetic_PigeonHeadphones_Start.bnk)
+Mus_Diagetic_PigeonHeadphones_Start
+
+### SFX NAMES (Mus_Diagetic_PigeonHeadphones_Start.bnk)
+# 1354124147
+
+### RTPC/GAME-VARIABLE NAMES (Mus_Diagetic_PigeonHeadphones_Start.bnk)
+# 1900662988
+# 1010956302
+
+### VARIABLE NAMES (Mus_Diagetic_PigeonHeadphones_Start.bnk)
+State_Cutscene
+State_Pigeon_Headphones
+
+### VALUE NAMES (Mus_Diagetic_PigeonHeadphones_Start.bnk)
+PigeonHeadphonesOff
+PigeonHeadphonesOn3d
+PigeonHeadphonesOn3dPostTalk
+# 3662598051
+
+### EVENT NAMES (Mus_Stinger_Bathroom_Success.bnk)
+Mus_Stinger_Bathroom_Success
+
+### EVENT NAMES (Mus_Train_Start.bnk)
+Mus_Train_Start
+
+### EVENT NAMES (Mus_Train_Stop.bnk)
+Mus_Train_Stop
+
+### EVENT NAMES (Mus_Train_Stop_Location_Music.bnk)
+Mus_Train_Stop_Location_Music
+
+### EVENT NAMES (Music_Game_Start.bnk)
+Music_Game_Start
+# 1391056527
+# 2352713171
+
+### RTPC/GAME-VARIABLE NAMES (Music_Game_Start.bnk)
+RTPC_Tornado_Height
+RTPC_Tornado_Small0_Big1
+# 2758799002
+# 3836634524
+# 402169611
+# 471808950
+# 1078815262
+
+### VARIABLE NAMES (Music_Game_Start.bnk)
+State_Conversation
+State_Cutscene
+State_Game
+State_Location
+State_Pause_Menu
+State_Pigeon_Headphones
+State_T_Movement_Mode
+Switch_Episode
+Switch_Music_Main
+Switch_Music_Shell
+
+### VALUE NAMES (Music_Game_Start.bnk)
+_Silent
+CS_
+CS_EP01_SchoolBell_Late
+CS_EP01_SpiritualMoment
+CS_EP01_TornadoDream
+CS_EP01_TornadoDream_WakeUp
+CS_EP02_GangAppears
+CS_EP04_BalletLesson
+CS_EP06_to_Free
+CS_EP07_MushroomMomCatch
+CS_EP09_ChatWithChaser1_Space1
+CS_EP09_ChatWithChaser1_Space2
+CS_EP09_ChatWithChaser2_Space1
+CS_EP09_ChatWithChaser2_Space2
+CS_EP09_MomsMemory
+CS_EP09_StadiumFatherChampion
+CS_EP09_StadiumFatherChampion_End
+CS_EP10_Butt1
+CS_EP10_Butt2
+CS_EP10_ByeBye
+CS_EP10_EndCredits
+CS_EP10_HangOutWithFriends
+CS_EP10_TrainSong
+CS_Ep_to_Free
+CS_Global_Chorus
+CS_Theme_Ending
+CS_Theme_Opening
+EP01_GoToRestroom
+EP01_SchoolGate
+Ep_09
+Ep_10
+GE_
+GE_BalletLesson_Outro
+GE_Click_120BPM
+GE_Click_90BPM
+GE_EP01_Breakfast
+GE_EP01_GoToRestroom
+GE_EP01_GoToSchool
+GE_EP01_LostInThought
+GE_EP01_WalkToSandwichShop
+GE_EP01_WashFace
+GE_EP02_MathClass
+GE_EP02_PEWarmUp_120BPM
+GE_EP02_PEWarmUp_90BPM
+GE_EP02_ScienceClass
+GE_EP04_ScienceClass
+GE_EP04_TrainRace_First
+GE_EP04_TrainRace_Second
+GE_EP04_TrainRace_Third
+GE_EP05_Ingredients01
+GE_EP05_Ingredients02
+GE_EP05_Ingredients03
+GE_EP05_MorningRoutineRush
+GE_EP06_DogDetective
+GE_EP06_DogTeamRun
+GE_EP06_DogTeamRun_End
+GE_EP06_GoToRestroom
+GE_EP07_LookForDog
+GE_EP09_WalkWithDog
+GE_Global_GrilledCornGame
+GE_Global_IceCreamGame
+GE_Global_PopcornGame
+GE_Global_SandwichGame
+GroundTornado
+Loc_
+Loc_DisA_Neighborhood
+Loc_DisA_T_House
+Loc_DisA_T_house_simple
+Loc_DisB_School
+Loc_DisB_School_EP10
+Loc_DisB_School_simple
+Loc_DisC_Park
+Loc_DisC_ParkPiano_Silent
+Loc_DisD_Downtown
+Loc_DisD_DowntownAlley_simple
+Loc_DisE_Estuary
+Loc_DisEF_DT_to_Beach
+Loc_DisF_Beach
+Loc_DisG_MushroomMountain
+Loc_DisH_BikePath
+Loc_FatherPlanet
+Loc_Global_Train
+Loc_Shop_Bag
+Loc_Shop_Barber
+Loc_Shop_Dog
+Loc_Shop_Fashion
+Loc_Shop_GrilledCorn
+Loc_Shop_IceCream
+Loc_Shop_Magic
+Loc_Shop_Pants
+Loc_Shop_Popcorn
+Loc_Shop_Sandwich
+Loc_Shop_Shoe
+Loc_Shop_TShirt
+Mus_Fade_10Second
+Mus_Fade_3second
+Mus_Fade_5second
+pause
+Shell_StartUp
+Tornado
+Unicycle
+Walk
+# 1128114058
+# 1722371160
+# 3662598051
+# 399667108
+
+### EVENT NAMES (PauseMenuSimple_Enter.bnk)
+PauseMenuSimple_Enter
+
+### VARIABLE NAMES (PauseMenuSimple_Enter.bnk)
+State_Pause_Menu
+
+### VALUE NAMES (PauseMenuSimple_Enter.bnk)
+pause
+
+### EVENT NAMES (PauseMenuSimple_Exit.bnk)
+PauseMenuSimple_Exit
+
+### VARIABLE NAMES (PauseMenuSimple_Exit.bnk)
+State_Pause_Menu
+
+### VALUE NAMES (PauseMenuSimple_Exit.bnk)
+Unpause
+
+### EVENT NAMES (PauseMenu_Enter.bnk)
+PauseMenu_Enter
+
+### VARIABLE NAMES (PauseMenu_Enter.bnk)
+State_Pause_Menu
+
+### VALUE NAMES (PauseMenu_Enter.bnk)
+pause
+
+### EVENT NAMES (PauseMenu_Exit.bnk)
+PauseMenu_Exit
+
+### VARIABLE NAMES (PauseMenu_Exit.bnk)
+State_Pause_Menu
+
+### VALUE NAMES (PauseMenu_Exit.bnk)
+Unpause
+
+### EVENT NAMES (Pause_Music_Game.bnk)
+Pause_Music_Game
+
+### EVENT NAMES (Resume_Music_Game.bnk)
+Resume_Music_Game
+
+### EVENT NAMES (SFX_AmbBed_Ext_Beach.bnk)
+SFX_AmbBed_Ext_Beach
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_Beach.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_Beach.bnk)
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_Beach.bnk)
+Dry
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisA_Park.bnk)
+SFX_AmbBed_Ext_DisA_Park
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisA_Park.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisA_Park.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisA_Park.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisA_Plaza.bnk)
+SFX_AmbBed_Ext_DisA_Plaza
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisA_Plaza.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisA_Plaza.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisA_Plaza.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisA_PlazaNeighborhood.bnk)
+SFX_AmbBed_Ext_DisA_PlazaNeighborhood
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisA_PlazaNeighborhood.bnk)
+RTPC_Interior1_Exterior0
+RTPC_Rain1_NoRain0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisA_PlazaNeighborhood.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisA_PlazaNeighborhood.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisA_T_House_Backyard.bnk)
+SFX_AmbBed_Ext_DisA_T_House_Backyard
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisA_T_House_Backyard.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisA_T_House_Backyard.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisA_T_House_Backyard.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisA_T_House_Neighborhood.bnk)
+SFX_AmbBed_Ext_DisA_T_House_Neighborhood
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisA_T_House_Neighborhood.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisA_T_House_Neighborhood.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisA_T_House_Neighborhood.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisB_NoodleShop.bnk)
+SFX_AmbBed_Ext_DisB_NoodleShop
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisB_NoodleShop.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisB_NoodleShop.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisB_NoodleShop.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisB_School.bnk)
+SFX_AmbBed_Ext_DisB_School
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisB_School.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisB_School.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisB_School.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisB_School_Rooftop.bnk)
+SFX_AmbBed_Ext_DisB_School_Rooftop
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisB_School_Rooftop.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisB_School_Rooftop.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisB_School_Rooftop.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisC_Neighborhood.bnk)
+SFX_AmbBed_Ext_DisC_Neighborhood
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisC_Neighborhood.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisC_Neighborhood.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisC_Neighborhood.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisC_Park_Fountain.bnk)
+SFX_AmbBed_Ext_DisC_Park_Fountain
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisC_Park_Fountain.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisC_Park_Fountain.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisC_Park_Fountain.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisC_Park_Maze.bnk)
+SFX_AmbBed_Ext_DisC_Park_Maze
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisC_Park_Maze.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisC_Park_Maze.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisC_Park_Maze.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisC_Road.bnk)
+SFX_AmbBed_Ext_DisC_Road
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisC_Road.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisC_Road.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisC_Road.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisC_Road_Corner.bnk)
+SFX_AmbBed_Ext_DisC_Road_Corner
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisC_Road_Corner.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisC_Road_Corner.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisC_Road_Corner.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisC_Underpass.bnk)
+SFX_AmbBed_Ext_DisC_Underpass
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisC_Underpass.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisC_Underpass.bnk)
+Switch_Time_Of_Day
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisC_Underpass.bnk)
+Day
+Morning
+Night
+Sunset
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisD_Canal_Stream_LP.bnk)
+SFX_AmbBed_Ext_DisD_Canal_Stream_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisD_Canal_Stream_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisD_Downtown_CanalSide.bnk)
+SFX_AmbBed_Ext_DisD_Downtown_CanalSide
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisD_Downtown_CanalSide.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisD_Downtown_CanalSide.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisD_Downtown_CanalSide.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisD_Downtown_OceanSide.bnk)
+SFX_AmbBed_Ext_DisD_Downtown_OceanSide
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisD_Downtown_OceanSide.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisD_Downtown_OceanSide.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisD_Downtown_OceanSide.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisD_Downtown_Ocean_LP.bnk)
+SFX_AmbBed_Ext_DisD_Downtown_Ocean_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisD_Downtown_Ocean_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisD_ParkDock.bnk)
+SFX_AmbBed_Ext_DisD_ParkDock
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisD_ParkDock.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisD_ParkDock.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisD_ParkDock.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisE_Estuary.bnk)
+SFX_AmbBed_Ext_DisE_Estuary
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisE_Estuary.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisE_Estuary.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisE_Estuary.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisE_LionFountain.bnk)
+SFX_AmbBed_Ext_DisE_LionFountain
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisE_LionFountain.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisE_LionFountain.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisE_LionFountain.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisE_Road.bnk)
+SFX_AmbBed_Ext_DisE_Road
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisE_Road.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisE_Road.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisE_Road.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisF_BeachCrevace.bnk)
+SFX_AmbBed_Ext_DisF_BeachCrevace
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisF_BeachCrevace.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisF_BeachCrevace.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisF_BeachCrevace.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisF_Beach_Crab.bnk)
+SFX_AmbBed_Ext_DisF_Beach_Crab
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisF_Beach_Crab.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisF_Beach_Crab.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisF_Beach_Crab.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisG_MushroomMountain.bnk)
+SFX_AmbBed_Ext_DisG_MushroomMountain
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisG_MushroomMountain.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisG_MushroomMountain.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisG_MushroomMountain.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisG_PathSchoolToBeach.bnk)
+SFX_AmbBed_Ext_DisG_PathSchoolToBeach
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisG_PathSchoolToBeach.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisG_PathSchoolToBeach.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisG_PathSchoolToBeach.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisH_Bridge.bnk)
+SFX_AmbBed_Ext_DisH_Bridge
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisH_Bridge.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisH_Bridge.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisH_Bridge.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisH_Cave_Lake.bnk)
+SFX_AmbBed_Ext_DisH_Cave_Lake
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisH_Cave_Lake.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisH_Cave_Lake.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisH_Cave_Lake.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisH_Lighthouse.bnk)
+SFX_AmbBed_Ext_DisH_Lighthouse
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisH_Lighthouse.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisH_Lighthouse.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisH_Lighthouse.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisH_Path.bnk)
+SFX_AmbBed_Ext_DisH_Path
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisH_Path.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisH_Path.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisH_Path.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_DisTFLOWNOS.bnk)
+SFX_AmbBed_Ext_DisTFLOWNOS
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_DisTFLOWNOS.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_DisTFLOWNOS.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_DisTFLOWNOS.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_FathersPlanet_Stadium.bnk)
+SFX_AmbBed_Ext_FathersPlanet_Stadium
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_FathersPlanet_Stadium.bnk)
+RTPC_Interior1_Exterior0
+# 75952302
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_FathersPlanet_Stadium.bnk)
+Switch_Time_Of_Day
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_FathersPlanet_Stadium.bnk)
+Day
+Dry
+Morning
+Night
+Sunset
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_Global_River_Rushing_Detail_LP.bnk)
+SFX_AmbBed_Ext_Global_River_Rushing_Detail_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_Global_River_Rushing_Detail_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_AmbBed_Ext_Global_Sky.bnk)
+SFX_AmbBed_Ext_Global_Sky
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_Global_Sky.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_Global_Sky.bnk)
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_Global_Sky.bnk)
+Dry
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_Space.bnk)
+SFX_AmbBed_Ext_Space
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_Space.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_AmbBed_Ext_TrainStation_LP_A.bnk)
+SFX_AmbBed_Ext_TrainStation_LP_A
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_TrainStation_LP_A.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_TrainStation_LP_A.bnk)
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_TrainStation_LP_A.bnk)
+Dry
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_TrainStation_LP_B.bnk)
+SFX_AmbBed_Ext_TrainStation_LP_B
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_TrainStation_LP_B.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_TrainStation_LP_B.bnk)
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_TrainStation_LP_B.bnk)
+Dry
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Ext_TrainStation_LP_C.bnk)
+SFX_AmbBed_Ext_TrainStation_LP_C
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Ext_TrainStation_LP_C.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Ext_TrainStation_LP_C.bnk)
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Ext_TrainStation_LP_C.bnk)
+Dry
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Int_DisD_Sewer.bnk)
+SFX_AmbBed_Int_DisD_Sewer
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_DisD_Sewer.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_AmbBed_Int_DisD_Warehouse_MainBig_LP.bnk)
+SFX_AmbBed_Int_DisD_Warehouse_MainBig_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_DisD_Warehouse_MainBig_LP.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_AmbBed_Int_DisD_Warehouse_MainSmall_LP.bnk)
+SFX_AmbBed_Int_DisD_Warehouse_MainSmall_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_DisD_Warehouse_MainSmall_LP.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_AmbBed_Int_DisD_Warehouse_SideRoom_LP.bnk)
+SFX_AmbBed_Int_DisD_Warehouse_SideRoom_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_DisD_Warehouse_SideRoom_LP.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_AmbBed_Int_DisD_Warehouse_Vent_LP.bnk)
+SFX_AmbBed_Int_DisD_Warehouse_Vent_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_DisD_Warehouse_Vent_LP.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_AmbBed_Int_School_Classroom.bnk)
+SFX_AmbBed_Int_School_Classroom
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_School_Classroom.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_AmbBed_Int_School_Foyer.bnk)
+SFX_AmbBed_Int_School_Foyer
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_School_Foyer.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Int_School_Foyer.bnk)
+Switch_Time_Of_Day
+
+### VALUE NAMES (SFX_AmbBed_Int_School_Foyer.bnk)
+Day
+Morning
+Night
+Sunset
+
+### EVENT NAMES (SFX_AmbBed_Int_School_Gym.bnk)
+SFX_AmbBed_Int_School_Gym
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_School_Gym.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_AmbBed_Int_School_Hallway_Gym.bnk)
+SFX_AmbBed_Int_School_Hallway_Gym
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_School_Hallway_Gym.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Int_School_Hallway_Gym.bnk)
+Switch_Time_Of_Day
+
+### VALUE NAMES (SFX_AmbBed_Int_School_Hallway_Gym.bnk)
+Day
+Morning
+Night
+Sunset
+
+### EVENT NAMES (SFX_AmbBed_Int_School_Roof_Room.bnk)
+SFX_AmbBed_Int_School_Roof_Room
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_School_Roof_Room.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_AmbBed_Int_School_Roof_Stairwell.bnk)
+SFX_AmbBed_Int_School_Roof_Stairwell
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_School_Roof_Stairwell.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_AmbBed_Int_Shop_Crab.bnk)
+SFX_AmbBed_Int_Shop_Crab
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_Shop_Crab.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Int_Shop_Crab.bnk)
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Int_Shop_Crab.bnk)
+Dry
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Int_Shop_LightHouse.bnk)
+SFX_AmbBed_Int_Shop_LightHouse
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_Shop_LightHouse.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Int_Shop_LightHouse.bnk)
+Switch_Time_Of_Day
+
+### VALUE NAMES (SFX_AmbBed_Int_Shop_LightHouse.bnk)
+Day
+Morning
+Night
+Sunset
+
+### EVENT NAMES (SFX_AmbBed_Int_Shop_Magic_Entrance.bnk)
+SFX_AmbBed_Int_Shop_Magic_Entrance
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_Shop_Magic_Entrance.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_AmbBed_Int_Shop_Magic_Hallway.bnk)
+SFX_AmbBed_Int_Shop_Magic_Hallway
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_Shop_Magic_Hallway.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_AmbBed_Int_Shop_Magic_Pool.bnk)
+SFX_AmbBed_Int_Shop_Magic_Pool
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_Shop_Magic_Pool.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_AmbBed_Int_Shop_Shoe.bnk)
+SFX_AmbBed_Int_Shop_Shoe
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_Shop_Shoe.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Int_Shop_Shoe.bnk)
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Int_Shop_Shoe.bnk)
+Dry
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Int_Shop_TShirt.bnk)
+SFX_AmbBed_Int_Shop_TShirt
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_Shop_TShirt.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Int_Shop_TShirt.bnk)
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Int_Shop_TShirt.bnk)
+Dry
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Int_T_House_Bathroom_Down.bnk)
+SFX_AmbBed_Int_T_House_Bathroom_Down
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_T_House_Bathroom_Down.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Int_T_House_Bathroom_Down.bnk)
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Int_T_House_Bathroom_Down.bnk)
+Dry
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Int_T_House_Bathroom_Up.bnk)
+SFX_AmbBed_Int_T_House_Bathroom_Up
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_T_House_Bathroom_Up.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Int_T_House_Bathroom_Up.bnk)
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Int_T_House_Bathroom_Up.bnk)
+Dry
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Int_T_House_Bedroom_01.bnk)
+SFX_AmbBed_Int_T_House_Bedroom_01
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_T_House_Bedroom_01.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Int_T_House_Bedroom_01.bnk)
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Int_T_House_Bedroom_01.bnk)
+Dry
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Int_T_House_Livingroom.bnk)
+SFX_AmbBed_Int_T_House_Livingroom
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_T_House_Livingroom.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Int_T_House_Livingroom.bnk)
+Switch_Wetness
+
+### VALUE NAMES (SFX_AmbBed_Int_T_House_Livingroom.bnk)
+Dry
+Wet_Rain
+
+### EVENT NAMES (SFX_AmbBed_Int_Tunnels.bnk)
+SFX_AmbBed_Int_Tunnels
+
+### RTPC/GAME-VARIABLE NAMES (SFX_AmbBed_Int_Tunnels.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_AmbBed_Int_Tunnels.bnk)
+Switch_Time_Of_Day
+
+### VALUE NAMES (SFX_AmbBed_Int_Tunnels.bnk)
+Day
+Morning
+Night
+Sunset
+
+### EVENT NAMES (SFX_Amb_Boat_Docked_LP_A.bnk)
+SFX_Amb_Boat_Docked_LP_A
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Boat_Docked_LP_A.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Boat_Docked_LP_B.bnk)
+SFX_Amb_Boat_Docked_LP_B
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Boat_Docked_LP_B.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Bridge_Creak_A_LP.bnk)
+SFX_Amb_Bridge_Creak_A_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Bridge_Creak_A_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Bridge_Rope_Stress_LP.bnk)
+SFX_Amb_Bridge_Rope_Stress_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Bridge_Rope_Stress_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Fridge_LP.bnk)
+SFX_Amb_Fridge_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Fridge_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Thunder_Nightmare.bnk)
+SFX_Amb_Thunder_Nightmare
+
+### EVENT NAMES (SFX_Amb_Tugboat_Horn.bnk)
+SFX_Amb_Tugboat_Horn
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Tugboat_Horn.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Drain_Slosh_LP.bnk)
+SFX_Amb_Water_Drain_Slosh_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Drain_Slosh_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Flow_Light_LP_01.bnk)
+SFX_Amb_Water_Flow_Light_LP_01
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Flow_Light_LP_01.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Flow_Light_LP_02.bnk)
+SFX_Amb_Water_Flow_Light_LP_02
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Flow_Light_LP_02.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Flow_Medium_LP_01.bnk)
+SFX_Amb_Water_Flow_Medium_LP_01
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Flow_Medium_LP_01.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Fountain_LP_01.bnk)
+SFX_Amb_Water_Fountain_LP_01
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Fountain_LP_01.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_Amb_Water_Heavy_Sloshing_LP_01.bnk)
+SFX_Amb_Water_Heavy_Sloshing_LP_01
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Heavy_Sloshing_LP_01.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Lapping_Light_LP_01.bnk)
+SFX_Amb_Water_Lapping_Light_LP_01
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Lapping_Light_LP_01.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Lapping_Light_LP_02.bnk)
+SFX_Amb_Water_Lapping_Light_LP_02
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Lapping_Light_LP_02.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Lapping_Light_LP_03.bnk)
+SFX_Amb_Water_Lapping_Light_LP_03
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Lapping_Light_LP_03.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Lapping_Light_LP_04.bnk)
+SFX_Amb_Water_Lapping_Light_LP_04
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Lapping_Light_LP_04.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Lapping_Medium_LP.bnk)
+SFX_Amb_Water_Lapping_Medium_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Lapping_Medium_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Ocean_Waves_Detail_LP.bnk)
+SFX_Amb_Water_Ocean_Waves_Detail_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Ocean_Waves_Detail_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Ocean_Waves_LP.bnk)
+SFX_Amb_Water_Ocean_Waves_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Ocean_Waves_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_01.bnk)
+SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_01
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_01.bnk)
+RTPC_Interior1_Exterior0
+RTPC_Rain1_NoRain0
+
+### EVENT NAMES (SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_02.bnk)
+SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_02
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_02.bnk)
+RTPC_Interior1_Exterior0
+RTPC_Rain1_NoRain0
+
+### EVENT NAMES (SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_03.bnk)
+SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_03
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_03.bnk)
+RTPC_Interior1_Exterior0
+RTPC_Rain1_NoRain0
+
+### EVENT NAMES (SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_04.bnk)
+SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_04
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Rain_Drip_Gutter_Concrete_Splatter_LP_04.bnk)
+RTPC_Interior1_Exterior0
+RTPC_Rain1_NoRain0
+
+### EVENT NAMES (SFX_Amb_Water_Rain_Drip_T_House_Patio_LP.bnk)
+SFX_Amb_Water_Rain_Drip_T_House_Patio_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Rain_Drip_T_House_Patio_LP.bnk)
+RTPC_Interior1_Exterior0
+RTPC_Rain1_NoRain0
+
+### EVENT NAMES (SFX_Amb_Water_Sewer_Drain_Flow_LP.bnk)
+SFX_Amb_Water_Sewer_Drain_Flow_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Sewer_Drain_Flow_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Sewer_Drip_Harsh_LP.bnk)
+SFX_Amb_Water_Sewer_Drip_Harsh_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Sewer_Drip_Harsh_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Sewer_Drip_Noisey_LP.bnk)
+SFX_Amb_Water_Sewer_Drip_Noisey_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Sewer_Drip_Noisey_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Sewer_Drip_Stutter_01_LP.bnk)
+SFX_Amb_Water_Sewer_Drip_Stutter_01_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Sewer_Drip_Stutter_01_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Sewer_Drip_Stutter_02_LP.bnk)
+SFX_Amb_Water_Sewer_Drip_Stutter_02_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Sewer_Drip_Stutter_02_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Sewer_Exit_Drain_LP.bnk)
+SFX_Amb_Water_Sewer_Exit_Drain_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Sewer_Exit_Drain_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Sewer_Pipe_Drip_Hum_LP.bnk)
+SFX_Amb_Water_Sewer_Pipe_Drip_Hum_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Sewer_Pipe_Drip_Hum_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Sewer_Pipe_LP.bnk)
+SFX_Amb_Water_Sewer_Pipe_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Sewer_Pipe_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Sewer_Slosh_LP.bnk)
+SFX_Amb_Water_Sewer_Slosh_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Sewer_Slosh_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Water_Sewer_Splash_Exit_01_LP.bnk)
+SFX_Amb_Water_Sewer_Splash_Exit_01_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Water_Sewer_Splash_Exit_01_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Waterfall_Big_Detail_LP.bnk)
+SFX_Amb_Waterfall_Big_Detail_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Waterfall_Big_Detail_LP.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### VARIABLE NAMES (SFX_Amb_Waterfall_Big_Detail_LP.bnk)
+Switch_Time_Of_Day
+
+### VALUE NAMES (SFX_Amb_Waterfall_Big_Detail_LP.bnk)
+Day
+Morning
+Night
+Sunset
+
+### EVENT NAMES (SFX_Amb_Waterfall_Big_LP.bnk)
+SFX_Amb_Waterfall_Big_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Waterfall_Big_LP.bnk)
+RTPC_Interior1_Exterior0
+# 1010956302
+
+### EVENT NAMES (SFX_Amb_Wind_Mesh_Wispy_A_LP.bnk)
+SFX_Amb_Wind_Mesh_Wispy_A_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Wind_Mesh_Wispy_A_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Amb_Windchime_LP.bnk)
+SFX_Amb_Windchime_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Amb_Windchime_LP.bnk)
+RTPC_Interior1_Exterior0
+
+### EVENT NAMES (SFX_Bathroom_Alarm_PanicMood_LP_Start.bnk)
+SFX_Bathroom_Alarm_PanicMood_LP_Start
+
+### EVENT NAMES (SFX_Bathroom_Alarm_PanicMood_LP_Stop.bnk)
+SFX_Bathroom_Alarm_PanicMood_LP_Stop
+
+### EVENT NAMES (SFX_Bathroom_Animal_A.bnk)
+SFX_Bathroom_Animal_A
+
+### EVENT NAMES (SFX_Bathroom_Animal_B.bnk)
+SFX_Bathroom_Animal_B
+
+### EVENT NAMES (SFX_Bathroom_Construction.bnk)
+SFX_Bathroom_Construction
+
+### EVENT NAMES (SFX_Bathroom_Cooking.bnk)
+SFX_Bathroom_Cooking
+
+### EVENT NAMES (SFX_Bathroom_Earthquake_LP_Start.bnk)
+SFX_Bathroom_Earthquake_LP_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Bathroom_Earthquake_LP_Start.bnk)
+RTPC_MiniGame_Restroom_RT_Lo0Hi1
+
+### EVENT NAMES (SFX_Bathroom_Earthquake_LP_Stop.bnk)
+SFX_Bathroom_Earthquake_LP_Stop
+
+### EVENT NAMES (SFX_Bathroom_EasterEgg_NoodleSlurp.bnk)
+SFX_Bathroom_EasterEgg_NoodleSlurp
+
+### EVENT NAMES (SFX_Bathroom_EasterEgg_Vocal.bnk)
+SFX_Bathroom_EasterEgg_Vocal
+
+### EVENT NAMES (SFX_Bathroom_Grunt.bnk)
+SFX_Bathroom_Grunt
+
+### VARIABLE NAMES (SFX_Bathroom_Grunt.bnk)
+State_Location
+
+### EVENT NAMES (SFX_Bathroom_Horn.bnk)
+SFX_Bathroom_Horn
+
+### EVENT NAMES (SFX_Bathroom_Musical.bnk)
+SFX_Bathroom_Musical
+
+### VARIABLE NAMES (SFX_Bathroom_Musical.bnk)
+Switch_Episode
+
+### VALUE NAMES (SFX_Bathroom_Musical.bnk)
+Ep_01
+Ep_02
+Ep_03
+Ep_04
+Ep_05_Test
+Ep_06
+Ep_07
+Ep_09
+Ep_10
+Ep_10_FreeplayOverride
+Shell
+
+### EVENT NAMES (SFX_Bathroom_SciFi.bnk)
+SFX_Bathroom_SciFi
+
+### EVENT NAMES (SFX_Bathroom_Sports.bnk)
+SFX_Bathroom_Sports
+
+### EVENT NAMES (SFX_Bathroom_Toilet_Flush.bnk)
+SFX_Bathroom_Toilet_Flush
+
+### VARIABLE NAMES (SFX_Bathroom_Toilet_Flush.bnk)
+State_Location
+
+### EVENT NAMES (SFX_Bathroom_Toilet_Lid_Lift.bnk)
+SFX_Bathroom_Alarm_PanicMood_LP_Stop
+SFX_Bathroom_Toilet_Lid_Lift
+
+### EVENT NAMES (SFX_Bathroom_Train.bnk)
+SFX_Bathroom_Train
+
+### EVENT NAMES (SFX_Bathroom_Weather_LP_Start.bnk)
+SFX_Bathroom_Weather_LP_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Bathroom_Weather_LP_Start.bnk)
+RTPC_MiniGame_Restroom_LT_Lo0Hi1
+
+### EVENT NAMES (SFX_Bathroom_Weather_LP_Stop.bnk)
+SFX_Bathroom_Weather_LP_Stop
+
+### EVENT NAMES (SFX_Bird_Emote_Caw_01.bnk)
+SFX_Bird_Emote_Caw_01
+
+### VARIABLE NAMES (SFX_Bird_Emote_Caw_01.bnk)
+Switch_Bird
+
+### VALUE NAMES (SFX_Bird_Emote_Caw_01.bnk)
+Cockatiel
+Hummingbird
+Null
+Owl
+Parrot
+Pigeon
+Raven
+
+### EVENT NAMES (SFX_Bird_Emote_Caw_02.bnk)
+SFX_Bird_Emote_Caw_02
+
+### VARIABLE NAMES (SFX_Bird_Emote_Caw_02.bnk)
+Switch_Bird
+
+### VALUE NAMES (SFX_Bird_Emote_Caw_02.bnk)
+Cockatiel
+Hummingbird
+Null
+Owl
+Parrot
+Pigeon
+Raven
+
+### EVENT NAMES (SFX_Bird_Flap_Fast.bnk)
+SFX_Bird_Flap_Fast
+
+### VARIABLE NAMES (SFX_Bird_Flap_Fast.bnk)
+Switch_Bird
+
+### VALUE NAMES (SFX_Bird_Flap_Fast.bnk)
+Cockatiel
+Hummingbird
+Null
+Owl
+Parrot
+Pigeon
+Raven
+
+### EVENT NAMES (SFX_Bird_Flap_Slow.bnk)
+SFX_Bird_Flap_Slow
+
+### VARIABLE NAMES (SFX_Bird_Flap_Slow.bnk)
+Switch_Bird
+
+### VALUE NAMES (SFX_Bird_Flap_Slow.bnk)
+Cockatiel
+Hummingbird
+Null
+Owl
+Parrot
+Pigeon
+Raven
+
+### EVENT NAMES (SFX_Bird_Idle_LP.bnk)
+SFX_Bird_Idle_LP
+
+### VARIABLE NAMES (SFX_Bird_Idle_LP.bnk)
+Switch_Bird
+
+### VALUE NAMES (SFX_Bird_Idle_LP.bnk)
+Cockatiel
+Hummingbird
+Null
+Owl
+Parrot
+Pigeon
+Raven
+
+### EVENT NAMES (SFX_Bird_Land.bnk)
+SFX_Bird_Land
+
+### VARIABLE NAMES (SFX_Bird_Land.bnk)
+Switch_Bird
+
+### VALUE NAMES (SFX_Bird_Land.bnk)
+Cockatiel
+Hummingbird
+Null
+Owl
+Parrot
+Pigeon
+Raven
+
+### EVENT NAMES (SFX_Bird_Peck_Beak.bnk)
+SFX_Bird_Peck_Beak
+
+### EVENT NAMES (SFX_Bird_TakeOff.bnk)
+SFX_Bird_TakeOff
+
+### VARIABLE NAMES (SFX_Bird_TakeOff.bnk)
+Switch_Bird
+
+### VALUE NAMES (SFX_Bird_TakeOff.bnk)
+Cockatiel
+Hummingbird
+Null
+Owl
+Parrot
+Pigeon
+Raven
+
+### EVENT NAMES (SFX_Brush_Teeth_Chime_Shorter.bnk)
+SFX_Brush_Teeth_Chime_Shorter
+
+### EVENT NAMES (SFX_Brush_Teeth_Chime_Strum_Final.bnk)
+SFX_Brush_Teeth_Chime_Strum_Final
+
+### EVENT NAMES (SFX_Brush_Teeth_Start.bnk)
+SFX_Brush_Teeth_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Brush_Teeth_Start.bnk)
+RTPC_Brush_Velocity_Slow0_Fast1
+RTPC_Mouth_Open0_Shut1
+
+### EVENT NAMES (SFX_Brush_Teeth_Stop.bnk)
+SFX_Brush_Teeth_Stop
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Brush_Teeth_Stop.bnk)
+RTPC_Brush_Velocity_Slow0_Fast1
+
+### EVENT NAMES (SFX_CS_Buzzer.bnk)
+SFX_CS_Buzzer
+
+### EVENT NAMES (SFX_CS_EP01_Breakfast_CamPan_PitchDown.bnk)
+SFX_CS_EP01_Breakfast_CamPan_PitchDown
+
+### VARIABLE NAMES (SFX_CS_EP01_Breakfast_CamPan_PitchDown.bnk)
+State_Cutscene
+
+### VALUE NAMES (SFX_CS_EP01_Breakfast_CamPan_PitchDown.bnk)
+EP01_Breakfast
+
+### EVENT NAMES (SFX_CS_EP01_Breakfast_CamPan_PitchUp.bnk)
+SFX_CS_EP01_Breakfast_CamPan_PitchUp
+
+### VARIABLE NAMES (SFX_CS_EP01_Breakfast_CamPan_PitchUp.bnk)
+State_Cutscene
+
+### VALUE NAMES (SFX_CS_EP01_Breakfast_CamPan_PitchUp.bnk)
+EP01_Breakfast_FocusDogEating
+
+### EVENT NAMES (SFX_CS_EP01_Breakfast_SetState.bnk)
+SFX_CS_EP01_Breakfast_SetState
+
+### VARIABLE NAMES (SFX_CS_EP01_Breakfast_SetState.bnk)
+State_Cutscene
+
+### VALUE NAMES (SFX_CS_EP01_Breakfast_SetState.bnk)
+EP01_Breakfast
+
+### EVENT NAMES (SFX_CS_EP01_Mom_PickUpHead.bnk)
+SFX_CS_EP01_Mom_PickUpHead
+
+### EVENT NAMES (SFX_CS_EP01_Mom_PutDownHead.bnk)
+SFX_CS_EP01_Mom_PutDownHead
+
+### EVENT NAMES (SFX_CS_EP01_Restroom_01_PantsOff.bnk)
+SFX_CS_EP01_Restroom_01_PantsOff
+
+### EVENT NAMES (SFX_CS_EP01_Restroom_03_Hop.bnk)
+SFX_CS_EP01_Restroom_03_Hop
+
+### EVENT NAMES (SFX_CS_EP01_Restroom_03_PantsOn.bnk)
+SFX_CS_EP01_Restroom_03_PantsOn
+
+### VARIABLE NAMES (SFX_CS_EP01_Restroom_03_PantsOn.bnk)
+State_Cutscene
+
+### VALUE NAMES (SFX_CS_EP01_Restroom_03_PantsOn.bnk)
+none
+
+### EVENT NAMES (SFX_CS_EP01_Restroom_WakeUp.bnk)
+SFX_CS_EP01_Restroom_WakeUp
+
+### EVENT NAMES (SFX_CS_EP01_SchoolBell_Bbm_LostInThought_SecondHalf.bnk)
+SFX_CS_EP01_SchoolBell_Bbm_LostInThought_SecondHalf
+
+### EVENT NAMES (SFX_CS_EP01_SchoolBell_Dm_Flyover.bnk)
+SFX_CS_EP01_SchoolBell_Dm_Flyover
+
+### EVENT NAMES (SFX_CS_EP01_SchoolBell_FlyOverWind.bnk)
+SFX_CS_EP01_SchoolBell_FlyOverWind
+
+### EVENT NAMES (SFX_CS_EP01_SchoolBell_SlideSandwichBag.bnk)
+SFX_CS_EP01_SchoolBell_SlideSandwichBag
+
+### EVENT NAMES (SFX_CS_EP01_SchoolGate_B_MetalRattle.bnk)
+SFX_CS_EP01_SchoolGate_B_MetalRattle
+
+### EVENT NAMES (SFX_CS_EP01_SchoolGate_B_NoseSteam.bnk)
+SFX_CS_EP01_SchoolGate_B_NoseSteam
+
+### EVENT NAMES (SFX_CS_EP01_SchoolGate_B_ThunderClap.bnk)
+SFX_CS_EP01_SchoolGate_B_ThunderClap
+
+### EVENT NAMES (SFX_CS_EP01_SchoolGate_Ravens.bnk)
+SFX_CS_EP01_SchoolGate_Ravens
+
+### EVENT NAMES (SFX_CS_EP01_SchoolGate_S01_Start.bnk)
+SFX_CS_EP01_SchoolGate_S01_Start
+Switch_Mus_Silent
+
+### VARIABLE NAMES (SFX_CS_EP01_SchoolGate_S01_Start.bnk)
+State_Cutscene
+State_Game
+Switch_Music_Main
+
+### VALUE NAMES (SFX_CS_EP01_SchoolGate_S01_Start.bnk)
+_Silent
+cutscene
+EP01_SchoolGate
+
+### EVENT NAMES (SFX_CS_EP01_SchoolGate_S01_Stop.bnk)
+SFX_CS_EP01_SchoolGate_S01_Stop
+
+### VARIABLE NAMES (SFX_CS_EP01_SchoolGate_S01_Stop.bnk)
+State_Game
+Switch_Music_Main
+
+### VALUE NAMES (SFX_CS_EP01_SchoolGate_S01_Stop.bnk)
+CS_Global_Chorus
+InGame_Location
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_01_AlienComs.bnk)
+SFX_CS_EP01_SpiritualMoment_01_AlienComs
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_01_AlienTrippy.bnk)
+SFX_CS_EP01_SpiritualMoment_01_AlienTrippy
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_01_DogCamZoom.bnk)
+SFX_CS_EP01_SpiritualMoment_01_DogCamZoom
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_01_DogKickDirt.bnk)
+SFX_CS_EP01_SpiritualMoment_01_DogKickDirt
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_01_DogPoopSniff.bnk)
+SFX_CS_EP01_SpiritualMoment_01_DogPoopSniff
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_01_DoorOpen.bnk)
+SFX_CS_EP01_SpiritualMoment_01_DoorOpen
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_01_DoorOpenA.bnk)
+SFX_CS_EP01_SpiritualMoment_01_DoorOpenA
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_01_MagicBuildUp.bnk)
+SFX_CS_EP01_SpiritualMoment_01_MagicBuildUp
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_01_MagicBuildUp_LP_Start.bnk)
+SFX_CS_EP01_SpiritualMoment_01_MagicBuildUp_LP_Start
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_01_TeenPanicRun.bnk)
+SFX_CS_EP01_SpiritualMoment_01_TeenPanicRun
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_02_HeadTurnWhoosh.bnk)
+SFX_CS_EP01_SpiritualMoment_02_HeadTurnWhoosh
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_02_LaserEyes.bnk)
+SFX_CS_EP01_SpiritualMoment_02_LaserEyes
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_04_BushHit.bnk)
+SFX_CS_EP01_SpiritualMoment_04_BushHit
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_04_BushPopUp.bnk)
+SFX_CS_EP01_SpiritualMoment_04_BushPopUp
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_04_PoopDrop.bnk)
+SFX_CS_EP01_SpiritualMoment_04_PoopDrop
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_04_PoopFly.bnk)
+SFX_CS_EP01_SpiritualMoment_04_PoopFly
+
+### EVENT NAMES (SFX_CS_EP01_SpiritualMoment_04_ThatsAllFolks.bnk)
+SFX_CS_EP01_SpiritualMoment_04_ThatsAllFolks
+
+### EVENT NAMES (SFX_CS_EP01_TornadoDream_FS_Concrete.bnk)
+SFX_CS_EP01_TornadoDream_FS_Concrete
+
+### RTPC/GAME-VARIABLE NAMES (SFX_CS_EP01_TornadoDream_FS_Concrete.bnk)
+RTPC_Character_Velocity
+
+### EVENT NAMES (SFX_CS_EP01_TornadoDream_Mod_Tornado_LP.bnk)
+SFX_CS_EP01_TornadoDream_Mod_Tornado_LP
+
+### EVENT NAMES (SFX_CS_EP01_TornadoDream_S01.bnk)
+SFX_CS_EP01_TornadoDream_S01
+
+### VARIABLE NAMES (SFX_CS_EP01_TornadoDream_S01.bnk)
+State_Cutscene
+
+### VALUE NAMES (SFX_CS_EP01_TornadoDream_S01.bnk)
+EP01_TornadoDream
+
+### EVENT NAMES (SFX_CS_EP01_TornadoDream_S03_04.bnk)
+SFX_CS_EP01_TornadoDream_S03_04
+
+### EVENT NAMES (SFX_CS_EP01_TornadoDream_S05a.bnk)
+SFX_CS_EP01_TornadoDream_S05a
+
+### VARIABLE NAMES (SFX_CS_EP01_TornadoDream_S05a.bnk)
+State_Cutscene
+
+### VALUE NAMES (SFX_CS_EP01_TornadoDream_S05a.bnk)
+none
+
+### EVENT NAMES (SFX_CS_EP01_TornadoDream_S05b.bnk)
+SFX_CS_EP01_TornadoDream_S05b
+
+### VARIABLE NAMES (SFX_CS_EP01_TornadoDream_S05b.bnk)
+State_Cutscene
+
+### VALUE NAMES (SFX_CS_EP01_TornadoDream_S05b.bnk)
+none
+
+### EVENT NAMES (SFX_CS_EP06_FreePlayBegin_TreeMoveIn.bnk)
+SFX_CS_EP06_FreePlayBegin_TreeMoveIn
+
+### EVENT NAMES (SFX_CS_EP06_FreePlayBegin_TreeMoveOut.bnk)
+SFX_CS_EP06_FreePlayBegin_TreeMoveOut
+
+### EVENT NAMES (SFX_CS_EP10_MonsterSchoolRunAway.bnk)
+SFX_CS_EP10_MonsterSchoolRunAway
+
+### EVENT NAMES (SFX_CS_EndingTheme_AlarmClock_A.bnk)
+SFX_CS_EndingTheme_AlarmClock_A
+
+### EVENT NAMES (SFX_CS_EndingTheme_AlarmClock_B.bnk)
+SFX_CS_EndingTheme_AlarmClock_B
+
+### EVENT NAMES (SFX_CS_EndingTheme_Cooking.bnk)
+SFX_CS_EndingTheme_Cooking
+
+### EVENT NAMES (SFX_CS_EndingTheme_GiraffeJump_01.bnk)
+SFX_CS_EndingTheme_GiraffeJump_01
+
+### EVENT NAMES (SFX_CS_EndingTheme_HighFive.bnk)
+SFX_CS_EndingTheme_HighFive
+
+### EVENT NAMES (SFX_CS_EndingTheme_Pigeon_A.bnk)
+SFX_CS_EndingTheme_Pigeon_A
+
+### EVENT NAMES (SFX_CS_EndingTheme_Pigeon_B.bnk)
+SFX_CS_EndingTheme_Pigeon_B
+
+### EVENT NAMES (SFX_CS_EndingTheme_Writing.bnk)
+SFX_CS_EndingTheme_Writing
+
+### EVENT NAMES (SFX_CS_MonsterSchool_Dia.bnk)
+SFX_CS_MonsterSchool_Dia
+
+### EVENT NAMES (SFX_CS_TalkMonsterSchool_Monster.bnk)
+SFX_CS_TalkMonsterSchool_Monster
+
+### EVENT NAMES (SFX_CS_Theme_Opening.bnk)
+SFX_CS_Theme_Opening
+
+### EVENT NAMES (SFX_CS_Theme_Opening_NoDog.bnk)
+SFX_CS_Theme_Opening_NoDog
+
+### EVENT NAMES (SFX_CrabBarber_CameraPan.bnk)
+SFX_CrabBarber_CameraPan
+
+### EVENT NAMES (SFX_CrabBarber_GiveHaircut.bnk)
+SFX_CrabBarber_GiveHaircut
+
+### EVENT NAMES (SFX_CrabBarber_Teen_Enter.bnk)
+SFX_CrabBarber_Teen_Enter
+
+### EVENT NAMES (SFX_Crab_CS_Octopus.bnk)
+SFX_Crab_CS_Octopus
+
+### EVENT NAMES (SFX_Crab_CS_ReadyToCut.bnk)
+SFX_Crab_CS_ReadyToCut
+
+### EVENT NAMES (SFX_Crab_CS_TaDa.bnk)
+SFX_Crab_CS_TaDa
+
+### EVENT NAMES (SFX_Crab_Claw.bnk)
+SFX_Crab_Claw
+
+### EVENT NAMES (SFX_Crab_Serve_Chop_A.bnk)
+SFX_Crab_Serve_Chop_A
+
+### EVENT NAMES (SFX_Crab_Serve_Chop_B.bnk)
+SFX_Crab_Serve_Chop_B
+
+### EVENT NAMES (SFX_Crab_Serve_Chop_C.bnk)
+SFX_Crab_Serve_Chop_C
+
+### EVENT NAMES (SFX_Crab_Serve_Complete.bnk)
+SFX_Crab_Serve_Complete
+
+### EVENT NAMES (SFX_Crab_Serve_Complete_Bubbles.bnk)
+SFX_Crab_Serve_Complete_Bubbles
+
+### EVENT NAMES (SFX_Crab_Serve_Whoosh.bnk)
+SFX_Crab_Serve_Whoosh
+
+### EVENT NAMES (SFX_Dad_Move_LP_Start.bnk)
+SFX_Dad_Move_LP_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Dad_Move_LP_Start.bnk)
+RTPC_Character_Velocity
+
+### EVENT NAMES (SFX_Dog_ClothingRack_Impact.bnk)
+SFX_Dog_ClothingRack_Impact
+
+### EVENT NAMES (SFX_Dog_ClothingRack_Land.bnk)
+SFX_Dog_ClothingRack_Land
+
+### EVENT NAMES (SFX_Dog_ClothingRack_Land_Last.bnk)
+SFX_Dog_ClothingRack_Land_Last
+
+### EVENT NAMES (SFX_Dog_ClothingRack_Whoosh.bnk)
+SFX_Dog_ClothingRack_Whoosh
+
+### EVENT NAMES (SFX_Dog_Eating.bnk)
+SFX_Dog_Eating
+
+### VARIABLE NAMES (SFX_Dog_Eating.bnk)
+State_Cutscene
+State_Location
+
+### VALUE NAMES (SFX_Dog_Eating.bnk)
+EP01_Breakfast
+
+### EVENT NAMES (SFX_Dog_Sniff_End.bnk)
+SFX_Dog_Sniff_End
+
+### SFX NAMES (SFX_Dog_Sniff_End.bnk)
+# 656635649
+
+### VARIABLE NAMES (SFX_Dog_Sniff_End.bnk)
+State_Cutscene
+State_Location
+Switch_Character
+Switch_Emote
+Switch_Emote_Loop
+
+### VALUE NAMES (SFX_Dog_Sniff_End.bnk)
+A_Intro
+Alien
+Alien_Chaser
+Alien_Father
+Alien_Rival
+Aunt
+Aunt_Young
+Awe
+B_Loop
+Bear
+C_End
+Call1
+Call2
+Call3
+Confused
+Crab
+crankin
+Cry
+Determined
+Discomfort
+Disgust
+Dog
+Dog_Biped
+Encourage
+Exasperated
+Excited
+Exhausted
+Frog
+Frustrated
+GangBig
+GangBoy
+GangGirl
+Giraffe
+GiraffeCorn
+GreetHappy1
+GreetHappy2
+GreetHappy3
+GreetNeutral1
+GreetNeutral2
+GreetNeutral3
+GreetSad1
+GreetSad2
+GreetSad3
+LadyBug
+Laugh
+LaughShort
+Math_Teacher
+Mole
+Mom
+Mom_Young
+MonsterSchool
+Neutral
+NewsAnchor
+NPC_Adult_F_A
+NPC_Adult_F_B
+NPC_Adult_F_C
+NPC_Adult_F_D
+NPC_Adult_M_A
+NPC_Adult_M_B
+NPC_Adult_M_C
+NPC_Adult_M_D
+NPC_Teen_F_A
+NPC_Teen_F_B
+NPC_Teen_F_C
+NPC_Teen_M_A
+NPC_Teen_M_B
+NPC_Teen_M_C
+Ooo
+OrderFood
+PE_Teacher
+Penguin
+Pig
+Pigeon
+Pleased
+Puzzled
+QuestionNeutral1
+QuestionNeutral2
+QuestionNeutral3
+QuestionWorried1
+QuestionWorried2
+Rabbit
+ReadyEat
+ReadyEatSchoolEntrance
+Realize
+ReplyNoEmphatic1
+ReplyNoEmphatic2
+ReplyNoNeutral1
+ReplyNoNeutral2
+ReplyYesEmphatic1
+ReplyYesEmphatic2
+ReplyYesNeutral1
+ReplyYesNeutral2
+Scared
+Science_Teacher
+Seagull
+Shocked
+ShoutExcited
+Shrug
+Sick
+Sigh
+Snail
+Sniff
+Startled
+SummonCalm
+TalkAngry1
+TalkAngry2
+TalkAngry3
+TalkAnxious1
+TalkAnxious2
+TalkAnxious3
+TalkAnxious4
+TalkAnxious5
+TalkAnxious6
+TalkExcited1
+TalkExcited2
+TalkExcited3
+TalkExcited4
+TalkExcited5
+TalkExcited6
+TalkExcited7
+TalkExcited8
+TalkExhausted1
+TalkExhausted2
+TalkExhausted3
+TalkHappy1
+TalkHappy10
+TalkHappy2
+TalkHappy3
+TalkHappy4
+TalkHappy5
+TalkHappy6
+TalkHappy7
+TalkHappy8
+TalkHappy9
+TalkNeutral1
+TalkNeutral10
+TalkNeutral2
+TalkNeutral3
+TalkNeutral4
+TalkNeutral5
+TalkNeutral6
+TalkNeutral7
+TalkNeutral8
+TalkNeutral9
+TalkSad1
+TalkSad2
+TalkSad3
+TalkSad4
+TalkSad5
+TalkSad6
+Teen
+Thank
+Tortoise
+TrainTicketMachine
+TreeStump
+Triumph
+Unicycle
+Unimpressed
+VistaPoint
+Yawn
+Yum
+
+### EVENT NAMES (SFX_Dog_Sniff_Loop.bnk)
+SFX_Dog_Sniff_Loop
+
+### SFX NAMES (SFX_Dog_Sniff_Loop.bnk)
+# 656635649
+
+### VARIABLE NAMES (SFX_Dog_Sniff_Loop.bnk)
+State_Cutscene
+State_Location
+Switch_Character
+Switch_Emote
+Switch_Emote_Loop
+
+### VALUE NAMES (SFX_Dog_Sniff_Loop.bnk)
+A_Intro
+Alien
+Alien_Chaser
+Alien_Father
+Alien_Rival
+Aunt
+Aunt_Young
+Awe
+B_Loop
+Bear
+C_End
+Call1
+Call2
+Call3
+Confused
+Crab
+crankin
+Cry
+Determined
+Discomfort
+Disgust
+Dog
+Dog_Biped
+Encourage
+Exasperated
+Excited
+Exhausted
+Frog
+Frustrated
+GangBig
+GangBoy
+GangGirl
+Giraffe
+GiraffeCorn
+GreetHappy1
+GreetHappy2
+GreetHappy3
+GreetNeutral1
+GreetNeutral2
+GreetNeutral3
+GreetSad1
+GreetSad2
+GreetSad3
+LadyBug
+Laugh
+LaughShort
+Math_Teacher
+Mole
+Mom
+Mom_Young
+MonsterSchool
+Neutral
+NewsAnchor
+NPC_Adult_F_A
+NPC_Adult_F_B
+NPC_Adult_F_C
+NPC_Adult_F_D
+NPC_Adult_M_A
+NPC_Adult_M_B
+NPC_Adult_M_C
+NPC_Adult_M_D
+NPC_Teen_F_A
+NPC_Teen_F_B
+NPC_Teen_F_C
+NPC_Teen_M_A
+NPC_Teen_M_B
+NPC_Teen_M_C
+Ooo
+OrderFood
+PE_Teacher
+Penguin
+Pig
+Pigeon
+Pleased
+Puzzled
+QuestionNeutral1
+QuestionNeutral2
+QuestionNeutral3
+QuestionWorried1
+QuestionWorried2
+Rabbit
+ReadyEat
+ReadyEatSchoolEntrance
+Realize
+ReplyNoEmphatic1
+ReplyNoEmphatic2
+ReplyNoNeutral1
+ReplyNoNeutral2
+ReplyYesEmphatic1
+ReplyYesEmphatic2
+ReplyYesNeutral1
+ReplyYesNeutral2
+Scared
+Science_Teacher
+Seagull
+Shocked
+ShoutExcited
+Shrug
+Sick
+Sigh
+Snail
+Sniff
+Startled
+SummonCalm
+TalkAngry1
+TalkAngry2
+TalkAngry3
+TalkAnxious1
+TalkAnxious2
+TalkAnxious3
+TalkAnxious4
+TalkAnxious5
+TalkAnxious6
+TalkExcited1
+TalkExcited2
+TalkExcited3
+TalkExcited4
+TalkExcited5
+TalkExcited6
+TalkExcited7
+TalkExcited8
+TalkExhausted1
+TalkExhausted2
+TalkExhausted3
+TalkHappy1
+TalkHappy10
+TalkHappy2
+TalkHappy3
+TalkHappy4
+TalkHappy5
+TalkHappy6
+TalkHappy7
+TalkHappy8
+TalkHappy9
+TalkNeutral1
+TalkNeutral10
+TalkNeutral2
+TalkNeutral3
+TalkNeutral4
+TalkNeutral5
+TalkNeutral6
+TalkNeutral7
+TalkNeutral8
+TalkNeutral9
+TalkSad1
+TalkSad2
+TalkSad3
+TalkSad4
+TalkSad5
+TalkSad6
+Teen
+Thank
+Tortoise
+TrainTicketMachine
+TreeStump
+Triumph
+Unicycle
+Unimpressed
+VistaPoint
+Yawn
+Yum
+
+### EVENT NAMES (SFX_Door_Wood_Bump.bnk)
+SFX_Door_Wood_Bump
+
+### EVENT NAMES (SFX_Emote.bnk)
+SFX_Emote
+
+### SFX NAMES (SFX_Emote.bnk)
+# 656635649
+# 1867728468
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Emote.bnk)
+RTPC_IntercomEffect
+
+### VARIABLE NAMES (SFX_Emote.bnk)
+State_Cutscene
+State_Location
+Switch_Character
+Switch_Emote
+Switch_Emote_Loop
+Switch_Episode
+
+### VALUE NAMES (SFX_Emote.bnk)
+A_Intro
+Alien
+Alien_Chaser
+Alien_Father
+Alien_Rival
+Aunt
+Aunt_Young
+Awe
+B_Loop
+Bear
+C_End
+Call1
+Call2
+Call3
+Confused
+Crab
+crankin
+Cry
+Determined
+Discomfort
+Disgust
+Dog
+Dog_Biped
+Encourage
+Ep_01
+Ep_02
+Ep_03
+Ep_04
+Ep_05_Test
+Ep_06
+Ep_07
+Ep_09
+Ep_10
+Ep_10_FreeplayOverride
+Exasperated
+Excited
+Exhausted
+Frog
+Frustrated
+GangBig
+GangBoy
+GangGirl
+Giraffe
+GiraffeCorn
+GreetHappy1
+GreetHappy2
+GreetHappy3
+GreetNeutral1
+GreetNeutral2
+GreetNeutral3
+GreetSad1
+GreetSad2
+GreetSad3
+LadyBug
+Laugh
+LaughShort
+Math_Teacher
+Mole
+Mom
+Mom_Young
+MonsterSchool
+Neutral
+NewsAnchor
+NPC_Adult_F_A
+NPC_Adult_F_B
+NPC_Adult_F_C
+NPC_Adult_F_D
+NPC_Adult_M_A
+NPC_Adult_M_B
+NPC_Adult_M_C
+NPC_Adult_M_D
+NPC_Teen_F_A
+NPC_Teen_F_B
+NPC_Teen_F_C
+NPC_Teen_M_A
+NPC_Teen_M_B
+NPC_Teen_M_C
+Ooo
+OrderFood
+PE_Teacher
+Penguin
+Pig
+Pigeon
+Pleased
+Puzzled
+QuestionNeutral1
+QuestionNeutral2
+QuestionNeutral3
+QuestionWorried1
+QuestionWorried2
+Rabbit
+ReadyEat
+ReadyEatSchoolEntrance
+Realize
+ReplyNoEmphatic1
+ReplyNoEmphatic2
+ReplyNoNeutral1
+ReplyNoNeutral2
+ReplyYesEmphatic1
+ReplyYesEmphatic2
+ReplyYesNeutral1
+ReplyYesNeutral2
+Scared
+Science_Teacher
+Seagull
+Shell
+Shocked
+ShoutExcited
+Shrug
+Sick
+Sigh
+Snail
+Sniff
+Startled
+SummonCalm
+TalkAngry1
+TalkAngry2
+TalkAngry3
+TalkAnxious1
+TalkAnxious2
+TalkAnxious3
+TalkAnxious4
+TalkAnxious5
+TalkAnxious6
+TalkExcited1
+TalkExcited2
+TalkExcited3
+TalkExcited4
+TalkExcited5
+TalkExcited6
+TalkExcited7
+TalkExcited8
+TalkExhausted1
+TalkExhausted2
+TalkExhausted3
+TalkHappy1
+TalkHappy10
+TalkHappy2
+TalkHappy3
+TalkHappy4
+TalkHappy5
+TalkHappy6
+TalkHappy7
+TalkHappy8
+TalkHappy9
+TalkNeutral1
+TalkNeutral10
+TalkNeutral2
+TalkNeutral3
+TalkNeutral4
+TalkNeutral5
+TalkNeutral6
+TalkNeutral7
+TalkNeutral8
+TalkNeutral9
+TalkSad1
+TalkSad2
+TalkSad3
+TalkSad4
+TalkSad5
+TalkSad6
+Teen
+Thank
+Tortoise
+TrainTicketMachine
+TreeStump
+Triumph
+Unicycle
+Unimpressed
+VistaPoint
+Yawn
+Yum
+# 1535390820
+# 365585929
+
+### EVENT NAMES (SFX_Footstep.bnk)
+SFX_Footstep
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Footstep.bnk)
+RTPC_Character_Velocity
+RTPC_Water_Depth
+
+### VARIABLE NAMES (SFX_Footstep.bnk)
+State_Cutscene
+State_Location
+State_Pause_Menu
+Switch_Character
+Switch_Player_Velocity
+Switch_Shoes
+Switch_Surface_Type
+Switch_Wetness
+
+### VALUE NAMES (SFX_Footstep.bnk)
+Alien
+Alien_Chaser
+Alien_Father
+Alien_Rival
+Aunt
+Aunt_Young
+Bear
+Cloth
+Cloud
+Concrete
+Crab
+crankin
+Dirt
+Dog
+Dog_Biped
+Dry
+EP01_TornadoDream
+fast
+Frog
+GangBig
+GangBoy
+GangGirl
+Giraffe
+GiraffeCorn
+grass
+GrassHigh
+gym
+LadyBug
+Math_Teacher
+Medium
+MetalGrate
+MetalHollow
+MetalSolid
+Mole
+Mom
+Mom_Young
+MonsterSchool
+NewsAnchor
+NPC_Adult_F_A
+NPC_Adult_F_B
+NPC_Adult_F_C
+NPC_Adult_F_D
+NPC_Adult_M_A
+NPC_Adult_M_B
+NPC_Adult_M_C
+NPC_Adult_M_D
+NPC_Teen_F_A
+NPC_Teen_F_B
+NPC_Teen_F_C
+NPC_Teen_M_A
+NPC_Teen_M_B
+NPC_Teen_M_C
+pause
+PE_Teacher
+Penguin
+PerfectShape
+Pig
+Pigeon
+Rabbit
+Rock
+SandDry
+SandWet
+Science_Teacher
+Seagull
+Shoes_Off
+Shoes_Off_Socks
+Shoes_On
+slow
+Snail
+Teen
+Tile
+Tortoise
+TrainTicketMachine
+TreeStump
+Unicycle
+VistaPoint
+Water
+Wet_Rain
+WoodBridge
+WoodGym
+WoodHollow
+WoodSolid
+WoodStairs
+
+### EVENT NAMES (SFX_GrilledCorn_Intro.bnk)
+SFX_GrilledCorn_Intro
+
+### EVENT NAMES (SFX_GrilledCorn_Intro_Rotate_Short.bnk)
+SFX_GrilledCorn_Intro_Rotate_Short
+
+### EVENT NAMES (SFX_GrilledCorn_Munch.bnk)
+SFX_GrilledCorn_Munch
+
+### EVENT NAMES (SFX_GrilledCorn_Outro.bnk)
+SFX_GrilledCorn_Outro
+
+### EVENT NAMES (SFX_GrilledCorn_Spin_Loop.bnk)
+SFX_GrilledCorn_Spin_Loop
+
+### RTPC/GAME-VARIABLE NAMES (SFX_GrilledCorn_Spin_Loop.bnk)
+RTPC_GrilledCorn_SpinSpeed
+
+### EVENT NAMES (SFX_GrilledCorn_Spin_Start.bnk)
+SFX_GrilledCorn_Spin_Start
+
+### EVENT NAMES (SFX_GrilledCorn_Spin_Stop.bnk)
+SFX_GrilledCorn_Spin_Stop
+
+### EVENT NAMES (SFX_LadyBug_Wing_Flap.bnk)
+SFX_LadyBug_Wing_Flap
+
+### EVENT NAMES (SFX_LadyBug_Wing_Hover_Loop.bnk)
+SFX_LadyBug_Wing_Hover_Loop
+
+### EVENT NAMES (SFX_LadyBug_Wing_Hover_Loop_Stop.bnk)
+SFX_LadyBug_Wing_Hover_Loop_Stop
+
+### EVENT NAMES (SFX_MiniGame_Shared_Start.bnk)
+SFX_MiniGame_Shared_Start
+
+### EVENT NAMES (SFX_MiniGame_Shared_Timer_Countx3.bnk)
+SFX_MiniGame_Shared_Timer_Countx3
+
+### EVENT NAMES (SFX_MiniGame_Shared_Timer_TimesUp.bnk)
+SFX_MiniGame_Shared_Timer_TimesUp
+
+### EVENT NAMES (SFX_Minigame_GrilledCorn_SuperKernal_Bite.bnk)
+SFX_Minigame_GrilledCorn_SuperKernal_Bite
+
+### EVENT NAMES (SFX_Minigame_GrilledCorn_SuperKernal_Loop.bnk)
+SFX_Minigame_GrilledCorn_SuperKernal_Loop
+
+### EVENT NAMES (SFX_Minigame_GrilledCorn_SuperKernal_PowerDown.bnk)
+SFX_Minigame_GrilledCorn_SuperKernal_PowerDown
+
+### EVENT NAMES (SFX_Minigame_IceCream_Eat.bnk)
+SFX_Minigame_IceCream_Eat
+
+### EVENT NAMES (SFX_Minigame_ShowScore_HighScore.bnk)
+SFX_Minigame_ShowScore_HighScore
+
+### EVENT NAMES (SFX_Minigame_ShowScore_Regular.bnk)
+SFX_Minigame_ShowScore_Regular
+
+### EVENT NAMES (SFX_Mole_Burrow_LP_Start.bnk)
+SFX_Mole_Burrow_LP_Start
+
+### EVENT NAMES (SFX_Mole_Burrow_LP_Stop.bnk)
+SFX_Mole_Burrow_LP_Stop
+
+### EVENT NAMES (SFX_Mole_Burrow_Pop_Down.bnk)
+SFX_Mole_Burrow_Pop_Down
+
+### EVENT NAMES (SFX_Mole_Burrow_Pop_Up.bnk)
+SFX_Mole_Burrow_Pop_Up
+
+### EVENT NAMES (SFX_Octopus_Serve_Pop_Down.bnk)
+SFX_Octopus_Serve_Pop_Down
+
+### EVENT NAMES (SFX_Octopus_Serve_Pop_Up.bnk)
+SFX_Octopus_Serve_Pop_Up
+
+### EVENT NAMES (SFX_Octopus_Serve_Spray.bnk)
+SFX_Octopus_Serve_Spray
+
+### EVENT NAMES (SFX_ParkPiano_Note_01_C.bnk)
+SFX_ParkPiano_Note_01_C
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_01_C.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_01_C.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_01_C.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_02_Db.bnk)
+SFX_ParkPiano_Note_02_Db
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_02_Db.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_02_Db.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_02_Db.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_03_D.bnk)
+SFX_ParkPiano_Note_03_D
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_03_D.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_03_D.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_03_D.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_04_Eb.bnk)
+SFX_ParkPiano_Note_04_Eb
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_04_Eb.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_04_Eb.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_04_Eb.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_05_E.bnk)
+SFX_ParkPiano_Note_05_E
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_05_E.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_05_E.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_05_E.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_06_F.bnk)
+SFX_ParkPiano_Note_06_F
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_06_F.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_06_F.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_06_F.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_07_Gb.bnk)
+SFX_ParkPiano_Note_07_Gb
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_07_Gb.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_07_Gb.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_07_Gb.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_08_G.bnk)
+SFX_ParkPiano_Note_08_G
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_08_G.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_08_G.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_08_G.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_09_Ab.bnk)
+SFX_ParkPiano_Note_09_Ab
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_09_Ab.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_09_Ab.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_09_Ab.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_10_A.bnk)
+SFX_ParkPiano_Note_10_A
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_10_A.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_10_A.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_10_A.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_11_Bb.bnk)
+SFX_ParkPiano_Note_11_Bb
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_11_Bb.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_11_Bb.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_11_Bb.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_12_B.bnk)
+SFX_ParkPiano_Note_12_B
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_12_B.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_12_B.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_12_B.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_13_C.bnk)
+SFX_ParkPiano_Note_13_C
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_13_C.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_13_C.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_13_C.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_14_Db.bnk)
+SFX_ParkPiano_Note_14_Db
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_14_Db.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_14_Db.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_14_Db.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_15_D.bnk)
+SFX_ParkPiano_Note_15_D
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_15_D.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_15_D.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_15_D.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_16_Eb.bnk)
+SFX_ParkPiano_Note_16_Eb
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_16_Eb.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_16_Eb.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_16_Eb.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_17_E.bnk)
+SFX_ParkPiano_Note_17_E
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_17_E.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_17_E.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_17_E.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_18_F.bnk)
+SFX_ParkPiano_Note_18_F
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_18_F.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_18_F.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_18_F.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_19_Gb.bnk)
+SFX_ParkPiano_Note_19_Gb
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_19_Gb.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_19_Gb.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_19_Gb.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_20_G.bnk)
+SFX_ParkPiano_Note_20_G
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_20_G.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_20_G.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_20_G.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_21_Ab.bnk)
+SFX_ParkPiano_Note_21_Ab
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_21_Ab.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_21_Ab.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_21_Ab.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_22_A.bnk)
+SFX_ParkPiano_Note_22_A
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_22_A.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_22_A.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_22_A.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_23_Bb.bnk)
+SFX_ParkPiano_Note_23_Bb
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_23_Bb.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_23_Bb.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_23_Bb.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_24_B.bnk)
+SFX_ParkPiano_Note_24_B
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_24_B.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_24_B.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_24_B.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_25_C.bnk)
+SFX_ParkPiano_Note_25_C
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_25_C.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_25_C.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_25_C.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_26_C.bnk)
+SFX_ParkPiano_Note_26_C
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_26_C.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_26_C.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_26_C.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_27_Db.bnk)
+SFX_ParkPiano_Note_27_Db
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_27_Db.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_27_Db.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_27_Db.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_28_D.bnk)
+SFX_ParkPiano_Note_28_D
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_28_D.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_28_D.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_28_D.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_29_Eb.bnk)
+SFX_ParkPiano_Note_29_Eb
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_29_Eb.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_29_Eb.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_29_Eb.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_30_E.bnk)
+SFX_ParkPiano_Note_30_E
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_30_E.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_30_E.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_30_E.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_31_F.bnk)
+SFX_ParkPiano_Note_31_F
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_31_F.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_31_F.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_31_F.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_32_Gb.bnk)
+SFX_ParkPiano_Note_32_Gb
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_32_Gb.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_32_Gb.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_32_Gb.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_33_G.bnk)
+SFX_ParkPiano_Note_33_G
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_33_G.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_33_G.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_33_G.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_34_Ab.bnk)
+SFX_ParkPiano_Note_34_Ab
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_34_Ab.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_34_Ab.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_34_Ab.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_35_A.bnk)
+SFX_ParkPiano_Note_35_A
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_35_A.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_35_A.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_35_A.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_36_Bb.bnk)
+SFX_ParkPiano_Note_36_Bb
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_36_Bb.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_36_Bb.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_36_Bb.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_37_B.bnk)
+SFX_ParkPiano_Note_37_B
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_37_B.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_37_B.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_37_B.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_38_C.bnk)
+SFX_ParkPiano_Note_38_C
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_38_C.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_38_C.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_38_C.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_39_Db.bnk)
+SFX_ParkPiano_Note_39_Db
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_39_Db.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_39_Db.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_39_Db.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_40_D.bnk)
+SFX_ParkPiano_Note_40_D
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_40_D.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_40_D.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_40_D.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_41_Eb.bnk)
+SFX_ParkPiano_Note_41_Eb
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_41_Eb.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_41_Eb.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_41_Eb.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_42_E.bnk)
+SFX_ParkPiano_Note_42_E
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_42_E.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_42_E.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_42_E.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_43_F.bnk)
+SFX_ParkPiano_Note_43_F
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_43_F.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_43_F.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_43_F.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_44_Gb.bnk)
+SFX_ParkPiano_Note_44_Gb
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_44_Gb.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_44_Gb.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_44_Gb.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_45_G.bnk)
+SFX_ParkPiano_Note_45_G
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_45_G.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_45_G.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_45_G.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_46_Ab.bnk)
+SFX_ParkPiano_Note_46_Ab
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_46_Ab.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_46_Ab.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_46_Ab.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_47_A.bnk)
+SFX_ParkPiano_Note_47_A
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_47_A.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_47_A.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_47_A.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_48_Bb.bnk)
+SFX_ParkPiano_Note_48_Bb
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_48_Bb.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_48_Bb.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_48_Bb.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_49_B.bnk)
+SFX_ParkPiano_Note_49_B
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_49_B.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_49_B.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_49_B.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_ParkPiano_Note_50_C.bnk)
+SFX_ParkPiano_Note_50_C
+
+### RTPC/GAME-VARIABLE NAMES (SFX_ParkPiano_Note_50_C.bnk)
+RTPC_Music_MIDI_Velocity
+
+### VARIABLE NAMES (SFX_ParkPiano_Note_50_C.bnk)
+Switch_ParkKeyboard_Instrument
+Switch_ParkKeyboard_Key
+
+### VALUE NAMES (SFX_ParkPiano_Note_50_C.bnk)
+Baglama
+Key_01
+Key_02
+Key_03
+Key_04
+Key_05
+Key_06
+Key_07
+Key_08
+Key_09
+Key_10
+Key_11
+Key_12
+Key_13
+Key_14
+Key_15
+Key_16
+Key_17
+Key_18
+Key_19
+Key_20
+Key_21
+Key_22
+Key_23
+Key_24
+Key_25
+Key_26
+Key_27
+Key_28
+Key_29
+Key_30
+Key_31
+Key_32
+Key_33
+Key_34
+Key_35
+Key_36
+Key_37
+Key_38
+Key_39
+Key_40
+Key_41
+Key_42
+Key_43
+Key_44
+Key_45
+Key_46
+Key_47
+Key_48
+Key_49
+Key_50
+Piano
+Pizz
+Synth
+
+### EVENT NAMES (SFX_Physics_Kick_Ball.bnk)
+SFX_Physics_Kick_Ball
+
+### EVENT NAMES (SFX_Physics_Kick_Fruit.bnk)
+SFX_Physics_Kick_Fruit
+
+### EVENT NAMES (SFX_Physics_Kick_Paper.bnk)
+SFX_Physics_Kick_Paper
+
+### EVENT NAMES (SFX_Physics_Kick_Rock.bnk)
+SFX_Physics_Kick_Rock
+
+### EVENT NAMES (SFX_Physics_Kick_Tin.bnk)
+SFX_Physics_Kick_Tin
+
+### EVENT NAMES (SFX_PopCorn_Munch.bnk)
+SFX_PopCorn_Munch
+
+### EVENT NAMES (SFX_Prop_Beaker_Pour_LP_Start.bnk)
+SFX_Prop_Beaker_Pour_LP_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Beaker_Pour_LP_Start.bnk)
+RTPC_Success1_Fail0
+
+### EVENT NAMES (SFX_Prop_Beaker_Pour_LP_Stop.bnk)
+SFX_Prop_Beaker_Pour_LP_Stop
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Beaker_Pour_LP_Stop.bnk)
+RTPC_Success1_Fail0
+
+### EVENT NAMES (SFX_Prop_Bed_JumpInto.bnk)
+SFX_Prop_Bed_JumpInto
+
+### EVENT NAMES (SFX_Prop_Bed_JumpOutOf.bnk)
+SFX_Prop_Bed_JumpOutOf
+
+### EVENT NAMES (SFX_Prop_Bike_Movement_LP_Start.bnk)
+SFX_Prop_Bike_Movement_LP_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Bike_Movement_LP_Start.bnk)
+RTPC_Character_Velocity
+RTPC_Water_Depth
+
+### VARIABLE NAMES (SFX_Prop_Bike_Movement_LP_Start.bnk)
+Switch_Surface_Type
+
+### VALUE NAMES (SFX_Prop_Bike_Movement_LP_Start.bnk)
+Cloth
+Cloud
+Concrete
+Dirt
+grass
+GrassHigh
+MetalGrate
+MetalHollow
+MetalSolid
+PerfectShape
+Rock
+SandDry
+SandWet
+Tile
+Water
+WoodBridge
+WoodGym
+WoodHollow
+WoodSolid
+WoodStairs
+
+### EVENT NAMES (SFX_Prop_Bike_Movement_LP_Stop.bnk)
+SFX_Prop_Bike_Movement_LP_Stop
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Bike_Movement_LP_Stop.bnk)
+RTPC_Character_Velocity
+RTPC_Water_Depth
+
+### VARIABLE NAMES (SFX_Prop_Bike_Movement_LP_Stop.bnk)
+Switch_Surface_Type
+
+### VALUE NAMES (SFX_Prop_Bike_Movement_LP_Stop.bnk)
+Cloth
+Cloud
+Concrete
+Dirt
+grass
+GrassHigh
+MetalGrate
+MetalHollow
+MetalSolid
+PerfectShape
+Rock
+SandDry
+SandWet
+Tile
+Water
+WoodBridge
+WoodGym
+WoodHollow
+WoodSolid
+WoodStairs
+
+### EVENT NAMES (SFX_Prop_Broom_PutAway.bnk)
+SFX_Prop_Broom_PutAway
+
+### EVENT NAMES (SFX_Prop_Broom_Sweep.bnk)
+SFX_Prop_Broom_Sweep
+
+### EVENT NAMES (SFX_Prop_Broom_SweepEnd.bnk)
+SFX_Prop_Broom_SweepEnd
+
+### EVENT NAMES (SFX_Prop_Broom_TakeOutSweep.bnk)
+SFX_Prop_Broom_TakeOutSweep
+
+### EVENT NAMES (SFX_Prop_Cauldron_Bubbling_LP.bnk)
+SFX_Prop_Cauldron_Bubbling_LP
+
+### EVENT NAMES (SFX_Prop_Cauldron_Poof.bnk)
+SFX_Prop_Cauldron_Poof
+
+### SFX NAMES (SFX_Prop_Cauldron_Poof.bnk)
+Secret_Message_Distant
+
+### EVENT NAMES (SFX_Prop_CerealBox_Drop_Impact.bnk)
+SFX_Prop_CerealBox_Drop_Impact
+
+### EVENT NAMES (SFX_Prop_Cereal_Pour_LP_Start.bnk)
+SFX_Prop_Cereal_Pour_LP_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Cereal_Pour_LP_Start.bnk)
+RTPC_Success1_Fail0
+
+### EVENT NAMES (SFX_Prop_Cereal_Pour_LP_Stop.bnk)
+SFX_Prop_Cereal_Pour_LP_Stop
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Cereal_Pour_LP_Stop.bnk)
+RTPC_Success1_Fail0
+
+### EVENT NAMES (SFX_Prop_Chair_JumpInto.bnk)
+SFX_Prop_Chair_JumpInto
+
+### EVENT NAMES (SFX_Prop_Chair_JumpOutOf.bnk)
+SFX_Prop_Chair_JumpOutOf
+
+### EVENT NAMES (SFX_Prop_Chair_Wood_Pre_Sit_Slide.bnk)
+SFX_Prop_Chair_Wood_Pre_Sit_Slide
+
+### EVENT NAMES (SFX_Prop_Chair_Wood_Sit_Down_Squeak.bnk)
+SFX_Prop_Chair_Wood_Sit_Down_Squeak
+
+### EVENT NAMES (SFX_Prop_ClothingRack_Cycle.bnk)
+SFX_Prop_ClothingRack_Cycle
+
+### EVENT NAMES (SFX_Prop_ClothingRack_End.bnk)
+SFX_Prop_ClothingRack_End
+
+### EVENT NAMES (SFX_Prop_ClothingRack_Hover.bnk)
+SFX_Prop_ClothingRack_Hover
+
+### EVENT NAMES (SFX_Prop_ClothingRack_Start.bnk)
+SFX_Prop_ClothingRack_Start
+
+### EVENT NAMES (SFX_Prop_Coin.bnk)
+SFX_Prop_Coin
+
+### EVENT NAMES (SFX_Prop_CornGame_CobLower.bnk)
+SFX_Prop_CornGame_CobLower
+
+### EVENT NAMES (SFX_Prop_CornGame_CobRaise.bnk)
+SFX_Prop_CornGame_CobRaise
+
+### EVENT NAMES (SFX_Prop_CornGame_FirePit_RoastSizzle_LP.bnk)
+SFX_Prop_CornGame_FirePit_RoastSizzle_LP
+
+### EVENT NAMES (SFX_Prop_Couch_JumpInto.bnk)
+SFX_Prop_Couch_JumpInto
+
+### EVENT NAMES (SFX_Prop_Couch_JumpOutOf.bnk)
+SFX_Prop_Couch_JumpOutOf
+
+### EVENT NAMES (SFX_Prop_CrossWalkSignal_DoNotWalk.bnk)
+SFX_Prop_CrossWalkSignal_DoNotWalk
+
+### EVENT NAMES (SFX_Prop_CrossWalkSignal_Walk.bnk)
+SFX_Prop_CrossWalkSignal_Walk
+
+### EVENT NAMES (SFX_Prop_Door_Open.bnk)
+SFX_Prop_Door_Open
+
+### EVENT NAMES (SFX_Prop_Door_Shop_Bell.bnk)
+SFX_Prop_Door_Shop_Bell
+
+### EVENT NAMES (SFX_Prop_Door_Shut.bnk)
+SFX_Prop_Door_Shut
+
+### EVENT NAMES (SFX_Prop_Door_Shut_Squeak.bnk)
+SFX_Prop_Door_Shut_Squeak
+
+### EVENT NAMES (SFX_Prop_Fence_Rattle.bnk)
+SFX_Prop_Fence_Rattle
+
+### EVENT NAMES (SFX_Prop_FishingRod_Cast.bnk)
+SFX_Prop_FishingRod_Cast
+
+### EVENT NAMES (SFX_Prop_FishingRod_Cast_WaterPlop.bnk)
+SFX_Prop_FishingRod_Cast_WaterPlop
+
+### EVENT NAMES (SFX_Prop_FishingRod_Crank_A.bnk)
+SFX_Prop_FishingRod_Crank_A
+
+### EVENT NAMES (SFX_Prop_FishingRod_Crank_B.bnk)
+SFX_Prop_FishingRod_Crank_B
+
+### EVENT NAMES (SFX_Prop_FishingRod_Foley_Movement_A.bnk)
+SFX_Prop_FishingRod_Foley_Movement_A
+
+### EVENT NAMES (SFX_Prop_FishingRod_Foley_Movement_B.bnk)
+SFX_Prop_FishingRod_Foley_Movement_B
+
+### EVENT NAMES (SFX_Prop_FishingRod_Foley_Movement_C.bnk)
+SFX_Prop_FishingRod_Foley_Movement_C
+
+### EVENT NAMES (SFX_Prop_FishingRod_Foley_Movement_D.bnk)
+SFX_Prop_FishingRod_Foley_Movement_D
+
+### EVENT NAMES (SFX_Prop_Flashlight_On.bnk)
+SFX_Prop_Flashlight_On
+
+### EVENT NAMES (SFX_Prop_Intercom_ButtonPress.bnk)
+SFX_Prop_Intercom_ButtonPress
+
+### EVENT NAMES (SFX_Prop_Intercom_Chime.bnk)
+SFX_Prop_Intercom_Chime
+
+### EVENT NAMES (SFX_Prop_Milk_Pour_LP_Start.bnk)
+SFX_Prop_Milk_Pour_LP_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Milk_Pour_LP_Start.bnk)
+RTPC_Success1_Fail0
+
+### EVENT NAMES (SFX_Prop_Milk_Pour_LP_Stop.bnk)
+SFX_Prop_Milk_Pour_LP_Stop
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Milk_Pour_LP_Stop.bnk)
+RTPC_Success1_Fail0
+
+### EVENT NAMES (SFX_Prop_Newspaper_Movement_PageTurn.bnk)
+SFX_Prop_Newspaper_Movement_PageTurn
+
+### EVENT NAMES (SFX_Prop_Newspaper_Movement_Small.bnk)
+SFX_Prop_Newspaper_Movement_Small
+
+### EVENT NAMES (SFX_Prop_Remote_Beam_Impact_Spark.bnk)
+SFX_Prop_Remote_Beam_Impact_Spark
+
+### EVENT NAMES (SFX_Prop_Remote_Beam_LP_Start.bnk)
+SFX_Prop_Remote_Beam_LP_Start
+
+### SFX NAMES (SFX_Prop_Remote_Beam_LP_Start.bnk)
+Fast_LF_Tremolo
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Remote_Beam_LP_Start.bnk)
+RTPC_Success1_Fail0
+# 883513163
+
+### EVENT NAMES (SFX_Prop_Remote_Beam_LP_Stop.bnk)
+SFX_Prop_Remote_Beam_LP_Stop
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Remote_Beam_LP_Stop.bnk)
+RTPC_Success1_Fail0
+# 883513163
+
+### EVENT NAMES (SFX_Prop_SchoolBell.bnk)
+SFX_Prop_SchoolBell
+
+### EVENT NAMES (SFX_Prop_ShoeCubby_Cycle.bnk)
+SFX_Prop_ShoeCubby_Cycle
+
+### EVENT NAMES (SFX_Prop_ShoeCubby_End.bnk)
+SFX_Prop_ShoeCubby_End
+
+### EVENT NAMES (SFX_Prop_ShoeCubby_Start.bnk)
+SFX_Prop_ShoeCubby_Start
+
+### EVENT NAMES (SFX_Prop_Sink_Dishes_Faucet_Off.bnk)
+SFX_Prop_Sink_Dishes_Faucet_Off
+
+### EVENT NAMES (SFX_Prop_Sink_Dishes_Faucet_Off_DryHandsSynth.bnk)
+SFX_Prop_Sink_Dishes_Faucet_Off_DryHandsSynth
+
+### EVENT NAMES (SFX_Prop_Sink_Dishes_Faucet_Off_Sniff.bnk)
+SFX_Prop_Sink_Dishes_Faucet_Off_Sniff
+
+### EVENT NAMES (SFX_Prop_Sink_Dishes_Faucet_On.bnk)
+SFX_Prop_Sink_Dishes_Faucet_On
+
+### EVENT NAMES (SFX_Prop_Sink_Dishes_Wash_GrabDish_Start.bnk)
+SFX_Prop_Sink_Dishes_Wash_GrabDish_Start
+
+### EVENT NAMES (SFX_Prop_Sink_Dishes_Wash_Scrub.bnk)
+SFX_Prop_Sink_Dishes_Wash_Scrub
+
+### EVENT NAMES (SFX_Prop_Sink_Dishes_Washing_Clank.bnk)
+SFX_Prop_Sink_Dishes_Washing_Clank
+
+### EVENT NAMES (SFX_Prop_Sink_Dishes_Washing_End_SetDownClank.bnk)
+SFX_Prop_Sink_Dishes_Washing_End_SetDownClank
+
+### EVENT NAMES (SFX_Prop_Sink_Dishes_Water_Lp_OneShot.bnk)
+SFX_Prop_Sink_Dishes_Water_Lp_OneShot
+
+### EVENT NAMES (SFX_Prop_Sink_Faucet_Slide_Down.bnk)
+SFX_Prop_Sink_Faucet_Slide_Down
+
+### EVENT NAMES (SFX_Prop_Sink_Faucet_Slide_Up.bnk)
+SFX_Prop_Sink_Faucet_Slide_Up
+
+### EVENT NAMES (SFX_Prop_Sink_Faucet_Turn.bnk)
+SFX_Prop_Sink_Faucet_Turn
+
+### EVENT NAMES (SFX_Prop_Sink_Water_Start.bnk)
+SFX_Prop_Sink_Water_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Sink_Water_Start.bnk)
+RTPC_MiniGame_WashFace_WaterSink0_WaterFace1
+
+### EVENT NAMES (SFX_Prop_Sink_Water_Stop.bnk)
+SFX_Prop_Sink_Water_Stop
+
+### EVENT NAMES (SFX_Prop_Skull_Gate_Open_End.bnk)
+SFX_Prop_Skull_Gate_Open_End
+
+### EVENT NAMES (SFX_Prop_Skull_Gate_Open_End_ScaryBreath.bnk)
+SFX_Prop_Skull_Gate_Open_End_ScaryBreath
+
+### EVENT NAMES (SFX_Prop_Skull_Gate_Open_End_ScaryBreath_Short.bnk)
+SFX_Prop_Skull_Gate_Open_End_ScaryBreath_Short
+
+### EVENT NAMES (SFX_Prop_Skull_Gate_Open_Start.bnk)
+SFX_Prop_Skull_Gate_Open_Start
+
+### EVENT NAMES (SFX_Prop_Spoon_Scoop.bnk)
+SFX_Prop_Spoon_Scoop
+
+### EVENT NAMES (SFX_Prop_Spoon_Scoop_Splash.bnk)
+SFX_Prop_Spoon_Scoop_Splash
+
+### EVENT NAMES (SFX_Prop_Sprinkler_On.bnk)
+SFX_Prop_Sprinkler_On
+
+### EVENT NAMES (SFX_Prop_Toothpaste_Squeeze.bnk)
+SFX_Prop_Toothpaste_Squeeze
+
+### EVENT NAMES (SFX_Prop_Toothpaste_Squeeze_OneShot.bnk)
+SFX_Prop_Toothpaste_Squeeze_OneShot
+
+### EVENT NAMES (SFX_Prop_Train_AmbBed_Int_MoveIdle_Blend_LP.bnk)
+SFX_Prop_Train_AmbBed_Int_MoveIdle_Blend_LP
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Train_AmbBed_Int_MoveIdle_Blend_LP.bnk)
+RTPC_Train_Velocity
+# 1010956302
+
+### VARIABLE NAMES (SFX_Prop_Train_AmbBed_Int_MoveIdle_Blend_LP.bnk)
+State_Train_Ride
+Switch_Wetness
+
+### VALUE NAMES (SFX_Prop_Train_AmbBed_Int_MoveIdle_Blend_LP.bnk)
+Dry
+Train_Exterior_Not_Riding
+Train_Interior_Riding
+Wet_Rain
+
+### EVENT NAMES (SFX_Prop_Train_Announce_Arriving.bnk)
+SFX_Prop_Train_Announce_Arriving
+
+### EVENT NAMES (SFX_Prop_Train_Announce_DoorsClosing.bnk)
+SFX_Prop_Train_Announce_DoorsClosing
+
+### EVENT NAMES (SFX_Prop_Train_Announce_Location.bnk)
+SFX_Prop_Train_Announce_Location
+
+### EVENT NAMES (SFX_Prop_Train_Arrive.bnk)
+SFX_Prop_Train_Arrive
+
+### VARIABLE NAMES (SFX_Prop_Train_Arrive.bnk)
+State_Train_Ride
+
+### VALUE NAMES (SFX_Prop_Train_Arrive.bnk)
+Train_Interior_Riding
+
+### EVENT NAMES (SFX_Prop_Train_Bell.bnk)
+SFX_Prop_Train_Bell
+
+### EVENT NAMES (SFX_Prop_Train_Depart.bnk)
+SFX_Prop_Train_Depart
+
+### VARIABLE NAMES (SFX_Prop_Train_Depart.bnk)
+State_Train_Ride
+
+### VALUE NAMES (SFX_Prop_Train_Depart.bnk)
+Train_Interior_Riding
+
+### EVENT NAMES (SFX_Prop_Train_Door_Open.bnk)
+SFX_Prop_Train_Door_Open
+
+### EVENT NAMES (SFX_Prop_Train_Door_Shut.bnk)
+SFX_Prop_Train_Door_Shut
+
+### EVENT NAMES (SFX_Prop_Train_Move_Start.bnk)
+SFX_Prop_Train_Move_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Train_Move_Start.bnk)
+RTPC_Train_Velocity
+
+### VARIABLE NAMES (SFX_Prop_Train_Move_Start.bnk)
+State_Train_Ride
+
+### VALUE NAMES (SFX_Prop_Train_Move_Start.bnk)
+Train_Interior_Riding
+
+### EVENT NAMES (SFX_Prop_Train_Move_Start_Tunnel.bnk)
+SFX_Prop_Train_Move_Start_Tunnel
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Train_Move_Start_Tunnel.bnk)
+RTPC_Train_Velocity
+
+### VARIABLE NAMES (SFX_Prop_Train_Move_Start_Tunnel.bnk)
+State_Train_Ride
+
+### VALUE NAMES (SFX_Prop_Train_Move_Start_Tunnel.bnk)
+Train_Interior_Riding
+
+### EVENT NAMES (SFX_Prop_Train_Move_Stop.bnk)
+SFX_Prop_Train_Move_Stop
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Train_Move_Stop.bnk)
+RTPC_Train_Velocity
+
+### VARIABLE NAMES (SFX_Prop_Train_Move_Stop.bnk)
+State_Train_Ride
+
+### VALUE NAMES (SFX_Prop_Train_Move_Stop.bnk)
+Train_Interior_Riding
+
+### EVENT NAMES (SFX_Prop_Train_Move_Stop_Tunnel.bnk)
+SFX_Prop_Train_Move_Stop_Tunnel
+
+### EVENT NAMES (SFX_Prop_Trowel_ShovelAndPatDirt.bnk)
+SFX_Prop_Trowel_ShovelAndPatDirt
+
+### EVENT NAMES (SFX_Prop_Trowel_Shovel_Finished.bnk)
+SFX_Prop_Trowel_Shovel_Finished
+
+### EVENT NAMES (SFX_Prop_Trowel_Shovel_Single.bnk)
+SFX_Prop_Trowel_Shovel_Single
+
+### EVENT NAMES (SFX_Prop_Trowel_Shovel_Start.bnk)
+SFX_Prop_Trowel_Shovel_Start
+
+### EVENT NAMES (SFX_Prop_Umbrella_Rain_A_LP_Start.bnk)
+SFX_Prop_Umbrella_Rain_A_LP_Start
+
+### EVENT NAMES (SFX_Prop_Umbrella_Rain_A_LP_Stop.bnk)
+SFX_Prop_Umbrella_Rain_A_LP_Stop
+
+### EVENT NAMES (SFX_Prop_Umbrella_Rain_B_LP_Start.bnk)
+SFX_Prop_Umbrella_Rain_B_LP_Start
+
+### EVENT NAMES (SFX_Prop_Umbrella_Rain_B_LP_Stop.bnk)
+SFX_Prop_Umbrella_Rain_B_LP_Stop
+
+### EVENT NAMES (SFX_Prop_Unicycle_Dismount.bnk)
+SFX_Prop_Unicycle_Dismount
+
+### EVENT NAMES (SFX_Prop_Unicycle_Mount.bnk)
+SFX_Prop_Unicycle_Mount
+
+### EVENT NAMES (SFX_Prop_Unicycle_Movement_LP_Start.bnk)
+SFX_Prop_Unicycle_Movement_LP_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Unicycle_Movement_LP_Start.bnk)
+RTPC_Character_Velocity
+RTPC_Water_Depth
+
+### VARIABLE NAMES (SFX_Prop_Unicycle_Movement_LP_Start.bnk)
+Switch_Surface_Type
+
+### VALUE NAMES (SFX_Prop_Unicycle_Movement_LP_Start.bnk)
+Cloth
+Cloud
+Concrete
+Dirt
+grass
+GrassHigh
+MetalGrate
+MetalHollow
+MetalSolid
+PerfectShape
+Rock
+SandDry
+SandWet
+Tile
+Water
+WoodBridge
+WoodGym
+WoodHollow
+WoodSolid
+WoodStairs
+
+### EVENT NAMES (SFX_Prop_Unicycle_Movement_LP_Stop.bnk)
+SFX_Prop_Unicycle_Movement_LP_Stop
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Unicycle_Movement_LP_Stop.bnk)
+RTPC_Character_Velocity
+RTPC_Water_Depth
+
+### VARIABLE NAMES (SFX_Prop_Unicycle_Movement_LP_Stop.bnk)
+Switch_Surface_Type
+
+### VALUE NAMES (SFX_Prop_Unicycle_Movement_LP_Stop.bnk)
+Cloth
+Cloud
+Concrete
+Dirt
+grass
+GrassHigh
+MetalGrate
+MetalHollow
+MetalSolid
+PerfectShape
+Rock
+SandDry
+SandWet
+Tile
+Water
+WoodBridge
+WoodGym
+WoodHollow
+WoodSolid
+WoodStairs
+
+### EVENT NAMES (SFX_Prop_Vehicle_Engine_LP_Start.bnk)
+SFX_Prop_Vehicle_Engine_LP_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Vehicle_Engine_LP_Start.bnk)
+RTPC_Car_Velocity
+RTPC_Vehicle_Slope
+# 1010956302
+
+### VARIABLE NAMES (SFX_Prop_Vehicle_Engine_LP_Start.bnk)
+Switch_Vehicle_Type
+Switch_Wetness
+
+### VALUE NAMES (SFX_Prop_Vehicle_Engine_LP_Start.bnk)
+BoxTruck
+Convertible
+Dry
+Hatchback
+Sedan
+Suv
+Van
+Wet_Rain
+
+### EVENT NAMES (SFX_Prop_Vehicle_Engine_LP_Stop.bnk)
+SFX_Prop_Vehicle_Engine_LP_Stop
+
+### VARIABLE NAMES (SFX_Prop_Vehicle_Engine_LP_Stop.bnk)
+Switch_Wetness
+
+### VALUE NAMES (SFX_Prop_Vehicle_Engine_LP_Stop.bnk)
+Dry
+Wet_Rain
+
+### EVENT NAMES (SFX_Prop_Vehicle_Horn_Beep.bnk)
+SFX_Prop_Vehicle_Horn_Beep
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Prop_Vehicle_Horn_Beep.bnk)
+RTPC_Annoyance
+
+### VARIABLE NAMES (SFX_Prop_Vehicle_Horn_Beep.bnk)
+Switch_Vehicle_Type
+# 330024693
+
+### VALUE NAMES (SFX_Prop_Vehicle_Horn_Beep.bnk)
+Annoyed
+BoxTruck
+Convertible
+Hatchback
+Sedan
+Suv
+Van
+# 1694914771
+# 595814559
+
+### EVENT NAMES (SFX_Prop_WateringCan_PickUp.bnk)
+SFX_Prop_WateringCan_PickUp
+
+### EVENT NAMES (SFX_Prop_WateringCan_SetDown.bnk)
+SFX_Prop_WateringCan_SetDown
+
+### EVENT NAMES (SFX_Prop_WateringCan_WaterPlants_Long.bnk)
+SFX_Prop_WateringCan_WaterPlants_Long
+
+### EVENT NAMES (SFX_Prop_WateringCan_WaterPlants_Start.bnk)
+SFX_Prop_WateringCan_WaterPlants_Start
+
+### EVENT NAMES (SFX_Prop_WateringCan_WaterPlants_Stop.bnk)
+SFX_Prop_WateringCan_WaterPlants_Stop
+
+### EVENT NAMES (SFX_Prop_Weights_Dumbbell_Movement_Lift.bnk)
+SFX_Prop_Weights_Dumbbell_Movement_Lift
+
+### EVENT NAMES (SFX_Prop_Windmill_LP.bnk)
+SFX_Prop_Windmill_LP
+
+### EVENT NAMES (SFX_Prop_Windmill_Whoosh_Low.bnk)
+SFX_Prop_Windmill_Whoosh_Low
+
+### EVENT NAMES (SFX_Prop_Window_Slide_Open.bnk)
+SFX_Prop_Window_Slide_Open
+
+### EVENT NAMES (SFX_Prop_Window_Sliding_Start.bnk)
+SFX_Prop_Window_Sliding_Start
+
+### EVENT NAMES (SFX_Sandwich_Bite.bnk)
+SFX_Sandwich_Bite
+
+### EVENT NAMES (SFX_Sandwich_Drink_Belch_Normal.bnk)
+SFX_Sandwich_Drink_Belch_Normal
+
+### EVENT NAMES (SFX_Sandwich_Drink_Belch_Sour.bnk)
+SFX_Sandwich_Drink_Belch_Sour
+
+### EVENT NAMES (SFX_Sandwich_Drink_Belch_Spicy.bnk)
+SFX_Sandwich_Drink_Belch_Spicy
+
+### EVENT NAMES (SFX_Sandwich_Drink_Grab.bnk)
+SFX_Sandwich_Drink_Grab
+
+### EVENT NAMES (SFX_Sandwich_Drink_Sip.bnk)
+SFX_Sandwich_Drink_Sip
+
+### EVENT NAMES (SFX_Sandwich_Rotate_Loop.bnk)
+SFX_Sandwich_Rotate_Loop
+
+### EVENT NAMES (SFX_Sandwich_Rotate_Loop_Stop.bnk)
+SFX_Sandwich_Rotate_Loop_Stop
+
+### EVENT NAMES (SFX_Sandwich_Throw.bnk)
+SFX_Sandwich_Throw
+
+### EVENT NAMES (SFX_Sandwich_Tray_Grab.bnk)
+SFX_Sandwich_Tray_Grab
+
+### EVENT NAMES (SFX_Shop_Dog_Hat_TryOn.bnk)
+SFX_Shop_Dog_Hat_TryOn
+
+### EVENT NAMES (SFX_Shop_Sandwich_Prepare_Sandwich_Done.bnk)
+SFX_Shop_Sandwich_Prepare_Sandwich_Done
+
+### EVENT NAMES (SFX_Shop_Sandwich_Prepare_Sandwich_Loop.bnk)
+SFX_Shop_Sandwich_Prepare_Sandwich_Loop
+
+### EVENT NAMES (SFX_Shop_Sandwich_Prepare_Sandwich_Loop_End.bnk)
+SFX_Shop_Sandwich_Prepare_Sandwich_Loop_End
+
+### EVENT NAMES (SFX_Shop_Sandwich_Prepare_Sandwich_Loop_End_NoDrum.bnk)
+SFX_Shop_Sandwich_Prepare_Sandwich_Loop_End_NoDrum
+
+### EVENT NAMES (SFX_Shop_Sandwich_Prepare_Sandwich_Start.bnk)
+SFX_Shop_Sandwich_Prepare_Sandwich_Start
+
+### EVENT NAMES (SFX_Shop_Sandwich_Prepare_Sandwich_Whoosh.bnk)
+SFX_Shop_Sandwich_Prepare_Sandwich_Whoosh
+
+### EVENT NAMES (SFX_Shop_Wardrobe_Cloth_Movement.bnk)
+SFX_Shop_Wardrobe_Cloth_Movement
+
+### EVENT NAMES (SFX_Shop_Wardrobe_Cloth_Movement_Fast.bnk)
+SFX_Shop_Wardrobe_Cloth_Movement_Fast
+
+### EVENT NAMES (SFX_Shop_Wardrobe_ClothingChange_Poof.bnk)
+SFX_Shop_Wardrobe_ClothingChange_Poof
+
+### EVENT NAMES (SFX_Shop_Wardrobe_ClothingChange_Shoes_Poof.bnk)
+SFX_Shop_Wardrobe_ClothingChange_Shoes_Poof
+
+### EVENT NAMES (SFX_Shop_Wardrobe_Whoosh_Low_Fast.bnk)
+SFX_Shop_Wardrobe_Whoosh_Low_Fast
+
+### EVENT NAMES (SFX_Snail_Exercise_SpeedBag_Hit.bnk)
+SFX_Snail_Exercise_SpeedBag_Hit
+
+### EVENT NAMES (SFX_Teen_Brush_Teeth_Spit.bnk)
+SFX_Teen_Brush_Teeth_Spit
+
+### VARIABLE NAMES (SFX_Teen_Brush_Teeth_Spit.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Brush_Teeth_Spit.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Brush_Teeth_Spit_LP_Start.bnk)
+SFX_Teen_Brush_Teeth_Spit_LP_Start
+
+### VARIABLE NAMES (SFX_Teen_Brush_Teeth_Spit_LP_Start.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Brush_Teeth_Spit_LP_Start.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Brush_Teeth_Spit_LP_Stop.bnk)
+SFX_Teen_Brush_Teeth_Spit_LP_Stop
+
+### VARIABLE NAMES (SFX_Teen_Brush_Teeth_Spit_LP_Stop.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Brush_Teeth_Spit_LP_Stop.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Eat_Big_Bite.bnk)
+SFX_Teen_Eat_Big_Bite
+
+### VARIABLE NAMES (SFX_Teen_Eat_Big_Bite.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Eat_Big_Bite.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Eat_Chew.bnk)
+SFX_Teen_Eat_Chew
+
+### VARIABLE NAMES (SFX_Teen_Eat_Chew.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Eat_Chew.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Eat_Chew_Swallow.bnk)
+SFX_Teen_Eat_Chew_Swallow
+
+### VARIABLE NAMES (SFX_Teen_Eat_Chew_Swallow.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Eat_Chew_Swallow.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Grab_CerealBox.bnk)
+SFX_Teen_Grab_CerealBox
+
+### VARIABLE NAMES (SFX_Teen_Grab_CerealBox.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Grab_CerealBox.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Grab_Cloth.bnk)
+SFX_Teen_Grab_Cloth
+
+### VARIABLE NAMES (SFX_Teen_Grab_Cloth.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Grab_Cloth.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Grab_Object.bnk)
+SFX_Teen_Grab_Object
+
+### VARIABLE NAMES (SFX_Teen_Grab_Object.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Grab_Object.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Grab_Release_SetDown_Generic.bnk)
+SFX_Teen_Grab_Release_SetDown_Generic
+
+### VARIABLE NAMES (SFX_Teen_Grab_Release_SetDown_Generic.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Grab_Release_SetDown_Generic.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Grab_Spoon.bnk)
+SFX_Teen_Grab_Spoon
+
+### VARIABLE NAMES (SFX_Teen_Grab_Spoon.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Grab_Spoon.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Grab_Spoon_SetDown.bnk)
+SFX_Teen_Grab_Spoon_SetDown
+
+### VARIABLE NAMES (SFX_Teen_Grab_Spoon_SetDown.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Grab_Spoon_SetDown.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_RinseMouth.bnk)
+SFX_Teen_RinseMouth
+
+### VARIABLE NAMES (SFX_Teen_RinseMouth.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_RinseMouth.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Shoes_On.bnk)
+SFX_Teen_Shoes_On
+
+### VARIABLE NAMES (SFX_Teen_Shoes_On.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Shoes_On.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Shoes_On_Pop.bnk)
+SFX_Teen_Shoes_On_Pop
+
+### VARIABLE NAMES (SFX_Teen_Shoes_On_Pop.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Shoes_On_Pop.bnk)
+gym
+
+### EVENT NAMES (SFX_Teen_Tornado_SpinDown_Stop.bnk)
+SFX_Teen_Tornado_SpinDown_Stop
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Teen_Tornado_SpinDown_Stop.bnk)
+# 1010956302
+
+### VARIABLE NAMES (SFX_Teen_Tornado_SpinDown_Stop.bnk)
+State_Location
+State_T_Movement_Mode
+
+### VALUE NAMES (SFX_Teen_Tornado_SpinDown_Stop.bnk)
+gym
+Walk
+
+### EVENT NAMES (SFX_Teen_Tornado_SpinUp_Start.bnk)
+SFX_Teen_Tornado_SpinUp_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Teen_Tornado_SpinUp_Start.bnk)
+# 1010956302
+
+### VARIABLE NAMES (SFX_Teen_Tornado_SpinUp_Start.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Teen_Tornado_SpinUp_Start.bnk)
+gym
+
+### EVENT NAMES (SFX_Tornado_Interact_Tree_LP_Start.bnk)
+SFX_Tornado_Interact_Tree_LP_Start
+
+### VARIABLE NAMES (SFX_Tornado_Interact_Tree_LP_Start.bnk)
+State_Location
+
+### VALUE NAMES (SFX_Tornado_Interact_Tree_LP_Start.bnk)
+gym
+
+### EVENT NAMES (SFX_Tornado_Interact_Tree_LP_Stop.bnk)
+SFX_Tornado_Interact_Tree_LP_Stop
+
+### EVENT NAMES (SFX_Tornado_Step_01_Start.bnk)
+SFX_Tornado_Step_01_Start
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Tornado_Step_01_Start.bnk)
+RTPC_Character_Velocity
+RTPC_Tornado_Small0_Big1
+RTPC_Water_Depth
+# 1010956302
+
+### VARIABLE NAMES (SFX_Tornado_Step_01_Start.bnk)
+State_Location
+State_T_Movement_Mode
+Switch_Surface_Type
+
+### VALUE NAMES (SFX_Tornado_Step_01_Start.bnk)
+Cloth
+Cloud
+Concrete
+Dirt
+grass
+GrassHigh
+GroundTornado
+gym
+MetalGrate
+MetalHollow
+MetalSolid
+PerfectShape
+Rock
+SandDry
+SandWet
+Tile
+Water
+WoodBridge
+WoodGym
+WoodHollow
+WoodSolid
+WoodStairs
+
+### EVENT NAMES (SFX_Tornado_Step_02.bnk)
+SFX_Tornado_Step_02
+
+### EVENT NAMES (SFX_Tornado_Step_03.bnk)
+SFX_Tornado_Step_03
+
+### VARIABLE NAMES (SFX_Tornado_Step_03.bnk)
+State_T_Movement_Mode
+
+### VALUE NAMES (SFX_Tornado_Step_03.bnk)
+Tornado
+
+### EVENT NAMES (SFX_Tornado_Step_04.bnk)
+SFX_Tornado_Step_04
+
+### EVENT NAMES (SFX_Tornado_Step_05_End.bnk)
+SFX_Tornado_Step_05_End
+
+### RTPC/GAME-VARIABLE NAMES (SFX_Tornado_Step_05_End.bnk)
+# 1010956302
+
+### VARIABLE NAMES (SFX_Tornado_Step_05_End.bnk)
+State_Location
+State_T_Movement_Mode
+
+### VALUE NAMES (SFX_Tornado_Step_05_End.bnk)
+gym
+Walk
+
+### EVENT NAMES (SFX_UI_AudioSettings_MusicRef.bnk)
+SFX_UI_AudioSettings_MusicRef
+
+### VARIABLE NAMES (SFX_UI_AudioSettings_MusicRef.bnk)
+State_Game
+State_Pause_Menu
+
+### VALUE NAMES (SFX_UI_AudioSettings_MusicRef.bnk)
+cutscene
+GameEvent
+InGame_Location
+pause
+
+### EVENT NAMES (SFX_UI_AudioSettings_VolumeRef.bnk)
+SFX_UI_AudioSettings_VolumeRef
+
+### EVENT NAMES (SFX_UI_CornGame_Score_RollDown.bnk)
+SFX_UI_CornGame_Score_RollDown
+
+### EVENT NAMES (SFX_UI_CornGame_Score_RollUp.bnk)
+SFX_UI_CornGame_Score_RollUp
+
+### EVENT NAMES (SFX_UI_Global_Back.bnk)
+SFX_UI_Global_Back
+
+### EVENT NAMES (SFX_UI_Global_Cancel.bnk)
+SFX_UI_Global_Cancel
+
+### EVENT NAMES (SFX_UI_Global_Change_Focus.bnk)
+SFX_UI_Global_Change_Focus
+
+### EVENT NAMES (SFX_UI_Global_Confirm.bnk)
+SFX_UI_Global_Confirm
+
+### EVENT NAMES (SFX_UI_Global_Nope.bnk)
+SFX_UI_Global_Nope
+
+### EVENT NAMES (SFX_UI_Looks_Change_Selection.bnk)
+SFX_UI_Looks_Change_Selection
+
+### EVENT NAMES (SFX_UI_Looks_Use.bnk)
+SFX_UI_Looks_Use
+
+### EVENT NAMES (SFX_UI_Map_Enter.bnk)
+SFX_UI_Map_Enter
+
+### EVENT NAMES (SFX_UI_Map_Exit.bnk)
+SFX_UI_Map_Exit
+
+### EVENT NAMES (SFX_UI_Map_LStickMove_LP_Start.bnk)
+SFX_UI_Map_LStickMove_LP_Start
+
+### EVENT NAMES (SFX_UI_Map_LStickMove_LP_Stop.bnk)
+SFX_UI_Map_LStickMove_LP_Stop
+
+### EVENT NAMES (SFX_UI_Map_ZoomIn_LP_Start.bnk)
+SFX_UI_Map_ZoomIn_LP_Start
+
+### EVENT NAMES (SFX_UI_Map_ZoomIn_LP_Stop.bnk)
+SFX_UI_Map_ZoomIn_LP_Stop
+
+### EVENT NAMES (SFX_UI_Map_ZoomOut_LP_Start.bnk)
+SFX_UI_Map_ZoomOut_LP_Start
+
+### EVENT NAMES (SFX_UI_Map_ZoomOut_LP_Stop.bnk)
+SFX_UI_Map_ZoomOut_LP_Stop
+
+### EVENT NAMES (SFX_UI_Menu_Highlight.bnk)
+SFX_UI_Menu_Highlight
+
+### EVENT NAMES (SFX_UI_Menu_Select.bnk)
+SFX_UI_Menu_Select
+
+### EVENT NAMES (SFX_UI_Name_Change_Letter_Type.bnk)
+SFX_UI_Name_Change_Letter_Type
+
+### EVENT NAMES (SFX_UI_Name_Scroll_LR.bnk)
+SFX_UI_Name_Scroll_LR
+
+### EVENT NAMES (SFX_UI_Name_Scroll_UD.bnk)
+SFX_UI_Name_Scroll_UD
+
+### EVENT NAMES (SFX_UI_NewStyle_HeartHit.bnk)
+SFX_UI_NewStyle_HeartHit
+
+### EVENT NAMES (SFX_UI_NewStyle_HeartSpawn.bnk)
+SFX_UI_NewStyle_HeartSpawn
+
+### EVENT NAMES (SFX_UI_PEWarmUp_HiHat.bnk)
+SFX_UI_PEWarmUp_HiHat
+
+### EVENT NAMES (SFX_UI_PEWarmUp_Hit.bnk)
+SFX_UI_PEWarmUp_Hit
+
+### EVENT NAMES (SFX_UI_PEWarmUp_MissedBeat_WrongAnswer.bnk)
+SFX_UI_PEWarmUp_MissedBeat_WrongAnswer
+
+### EVENT NAMES (SFX_UI_PEWarmUp_YourTurn.bnk)
+SFX_UI_PEWarmUp_YourTurn
+
+### EVENT NAMES (SFX_UI_Shop_Change_Slot.bnk)
+SFX_UI_Shop_Change_Slot
+
+### EVENT NAMES (SFX_UI_Shop_Purchase.bnk)
+SFX_UI_Shop_Purchase
+
+### EVENT NAMES (SFX_UI_Shop_Reset.bnk)
+SFX_UI_Shop_Reset
+
+### EVENT NAMES (SFX_UI_Shop_Use.bnk)
+SFX_UI_Shop_Use
+
+### EVENT NAMES (SFX_UI_UnlockHairStyle.bnk)
+SFX_UI_UnlockHairStyle
+
+### EVENT NAMES (SFX_VistaPoint_Enter.bnk)
+SFX_VistaPoint_Enter
+
+### EVENT NAMES (SFX_VistaPoint_Exit.bnk)
+SFX_VistaPoint_Exit
+
+### EVENT NAMES (SFX_VistaPoint_GoDown_EndHit.bnk)
+SFX_VistaPoint_GoDown_EndHit
+
+### EVENT NAMES (SFX_VistaPoint_GoDown_LP_Start.bnk)
+SFX_VistaPoint_GoDown_LP_Start
+
+### EVENT NAMES (SFX_VistaPoint_GoDown_LP_Stop.bnk)
+SFX_VistaPoint_GoDown_LP_Stop
+
+### EVENT NAMES (SFX_VistaPoint_GoUp_EndHit.bnk)
+SFX_VistaPoint_GoUp_EndHit
+
+### EVENT NAMES (SFX_VistaPoint_GoUp_LP_Start.bnk)
+SFX_VistaPoint_GoUp_LP_Start
+
+### EVENT NAMES (SFX_VistaPoint_GoUp_LP_Stop.bnk)
+SFX_VistaPoint_GoUp_LP_Stop
+
+### EVENT NAMES (SFX_VistaPoint_LStickMove_CamAngle_LP_Start.bnk)
+SFX_VistaPoint_LStickMove_CamAngle_LP_Start
+
+### EVENT NAMES (SFX_VistaPoint_LStickMove_CamAngle_LP_Stop.bnk)
+SFX_VistaPoint_LStickMove_CamAngle_LP_Stop
+
+### EVENT NAMES (SFX_VistaPoint_ZoomIn_LP_Start.bnk)
+SFX_VistaPoint_ZoomIn_LP_Start
+
+### EVENT NAMES (SFX_VistaPoint_ZoomIn_LP_Stop.bnk)
+SFX_VistaPoint_ZoomIn_LP_Stop
+
+### EVENT NAMES (SFX_VistaPoint_ZoomOut_LP_Start.bnk)
+SFX_VistaPoint_ZoomOut_LP_Start
+
+### EVENT NAMES (SFX_VistaPoint_ZoomOut_LP_Stop.bnk)
+SFX_VistaPoint_ZoomOut_LP_Stop
+
+### EVENT NAMES (SFX_WashFace_Chime_Shorter.bnk)
+SFX_WashFace_Chime_Shorter
+
+### EVENT NAMES (SFX_WashFace_Chime_Strum_Final.bnk)
+SFX_WashFace_Chime_Strum_Final
+
+### EVENT NAMES (SFX_WashFace_EyeBoogerCheck_Enter.bnk)
+SFX_WashFace_EyeBoogerCheck_Enter
+
+### EVENT NAMES (SFX_WashFace_EyeBoogerCheck_Exit.bnk)
+SFX_WashFace_EyeBoogerCheck_Exit
+
+### EVENT NAMES (SFX_Water_WashFace_Splash_Enter.bnk)
+SFX_Water_WashFace_Splash_Enter
+
+### VARIABLE NAMES (SFX_Water_WashFace_Splash_Enter.bnk)
+State_Location
+
+### EVENT NAMES (SFX_Water_WashFace_Splash_Exit.bnk)
+SFX_Water_WashFace_Splash_Exit
+
+### EVENT NAMES (SFX__CrabBarber__CallForOctopus.bnk)
+SFX__CrabBarber__CallForOctopus
+
+### EVENT NAMES (SFX__CrabBarber__Pose.bnk)
+SFX__CrabBarber__Pose
+
+### EVENT NAMES (SFX__CrabBarber__TaDa.bnk)
+SFX__CrabBarber__TaDa
+
+### EVENT NAMES (SetSwitch_Emote_End.bnk)
+SetSwitch_Emote_End
+
+### VARIABLE NAMES (SetSwitch_Emote_End.bnk)
+Switch_Emote_Loop
+
+### VALUE NAMES (SetSwitch_Emote_End.bnk)
+C_End
+
+### EVENT NAMES (SetSwitch_Emote_Loop.bnk)
+SetSwitch_Emote_Loop
+
+### VARIABLE NAMES (SetSwitch_Emote_Loop.bnk)
+Switch_Emote_Loop
+
+### VALUE NAMES (SetSwitch_Emote_Loop.bnk)
+B_Loop
+
+### EVENT NAMES (StartScreen_Enter.bnk)
+StartScreen_Enter
+
+### VARIABLE NAMES (StartScreen_Enter.bnk)
+State_Game
+
+### VALUE NAMES (StartScreen_Enter.bnk)
+Shell
+
+### EVENT NAMES (StartScreen_Exit.bnk)
+StartScreen_Exit
+
+### EVENT NAMES (Switch_FadeMusic_3Second.bnk)
+Switch_FadeMusic_3Second
+
+### VARIABLE NAMES (Switch_FadeMusic_3Second.bnk)
+Switch_Music_Main
+
+### VALUE NAMES (Switch_FadeMusic_3Second.bnk)
+Mus_Fade_3second
+
+### EVENT NAMES (Switch_Mus_CS_EP10_ByeBye.bnk)
+Switch_Mus_CS_EP10_ByeBye
+
+### VARIABLE NAMES (Switch_Mus_CS_EP10_ByeBye.bnk)
+Switch_Music_Main
+
+### VALUE NAMES (Switch_Mus_CS_EP10_ByeBye.bnk)
+CS_EP10_ByeBye
+
+### EVENT NAMES (Switch_Mus_CS_Theme_Ending_Giraffe.bnk)
+Switch_Mus_CS_Theme_Ending_Giraffe
+
+### VARIABLE NAMES (Switch_Mus_CS_Theme_Ending_Giraffe.bnk)
+Switch_Music_Main
+
+### VALUE NAMES (Switch_Mus_CS_Theme_Ending_Giraffe.bnk)
+CS_Theme_Ending
+
+### EVENT NAMES (Switch_Mus_CS_Theme_Opening.bnk)
+Switch_Mus_CS_Theme_Opening
+
+### VARIABLE NAMES (Switch_Mus_CS_Theme_Opening.bnk)
+Switch_Music_Main
+
+### VALUE NAMES (Switch_Mus_CS_Theme_Opening.bnk)
+CS_Theme_Opening
+
+### EVENT NAMES (Switch_Mus_Silent.bnk)
+Switch_Mus_Silent
+
+### VARIABLE NAMES (Switch_Mus_Silent.bnk)
+Switch_Music_Main
+
+### VALUE NAMES (Switch_Mus_Silent.bnk)
+_Silent
+
+### EVENT NAMES (TEST_SFX_Amb_Bird_Seagull_A_08.bnk)
+TEST_SFX_Amb_Bird_Seagull_A_08
+
+### EVENT NAMES (UI_SimplePause_Close.bnk)
+UI_SimplePause_Close
+
+### EVENT NAMES (sfx_cha_crankin_idle_loop.bnk)
+SFX_Cha_Crankin_Idle_Loop
+
+#1867728468: IR_Prop_Intercom_01
+#2103044189  : GE_RailRoadStarts
+
+#706526940   : Ext_3d_DisB_Schoolyard
+#2783893029  : Int_3d_DisB_School_Entrance_Foyer
+#3474399136  : Mus_Delay_Tornado
