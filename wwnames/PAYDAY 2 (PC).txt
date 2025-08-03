@@ -60,6 +60,7 @@ char_sydney
 char_tony
 christmas_2013
 concussion_grenade
+core
 debrief_but_crojob
 debrief_den_diamond
 debrief_den_hotline
@@ -518,13 +519,13 @@ pd2_acoustics_tunnel_small
 player_hit
 reflections
 sfx
+# 2182193123
 # 1148611026
 # 1297066785
 # 2981377429
 # 1782503638
 # 2880479875
 # 1625387345
-# 2182193123
 # 3143935399
 # 838887756
 # 3088451749
@@ -623,17 +624,17 @@ option_sfx_volume
 
 ### VARIABLE NAMES (init.bnk)
 acoustic_flag
+alesso_music_state
 ambience_flag
 halloween_2016
 halloween_2017
 light
 robber
 suppression
+surround
 wave_flag
 # 4112828996
-# 531473186
 # 2203138989
-# 2967106803
 # 660944702
 
 ### VALUE NAMES (init.bnk)
@@ -814,8 +815,8 @@ car_falcogini_rpm
 
 ### EVENT NAMES (car_gc.bnk)
 ranc_gc_engine
+ranc_gc_engine_stop
 ranc_gc_ignition
-# 3744170668
 
 ### RTPC/GAME-VARIABLE NAMES (car_gc.bnk)
 car_falcogini_rpm
@@ -892,6 +893,10 @@ acoustic_tunnel_small
 none
 # 169236549
 
+### EVENT NAMES (core.bnk)
+# 2156697475
+# 2974103762
+
 ### EVENT NAMES (des_sfx.bnk)
 bar_laser_weapon_button_push_finished
 bar_press_sarcophagus_symbol_finished
@@ -946,7 +951,7 @@ surround_off
 surround_on
 
 ### VARIABLE NAMES (engine.bnk)
-# 2967106803
+surround
 # 2203138989
 
 ### VALUE NAMES (engine.bnk)
@@ -1905,9 +1910,14 @@ xmas13_ive_been_a_bad_boy_instrumental
 
 ### VARIABLE NAMES (music.bnk)
 music_randomizer
-# 3884321170
+suspense_level
 
 ### VALUE NAMES (music.bnk)
+suspense_level_1
+suspense_level_2
+suspense_level_3
+suspense_level_4
+suspense_level_5
 track_01
 track_02
 track_03
@@ -1998,11 +2008,6 @@ track_pth_07
 track_pth_08
 track_pth_09
 # 2692647972
-# 1219299224
-# 1219299225
-# 1219299226
-# 1219299230
-# 1219299231
 
 ### EVENT NAMES (music_alesso.bnk)
 alesso_muffle_1
@@ -2033,20 +2038,21 @@ crowd_single_ending
 # 2526499546
 
 ### VARIABLE NAMES (music_alesso.bnk)
-# 531473186
+alesso_music_state
 
 ### VALUE NAMES (music_alesso.bnk)
+anticipation
 assault
 Control
 drop
+hacking_progress
+hacking_standby
 stealth
-# 1473442372
-# 1595256270
-# 1973066484
 
 ### EVENT NAMES (pd9a.bnk)
 PD9A_BagDespawn
 PD9A_HS
+PDA9_BagIn
 PDA9_Explode_Lvl_1
 PDA9_Explode_Lvl_2
 PDA9_Explode_Lvl_3
@@ -2055,7 +2061,6 @@ PDA9_Grow_Lvl_1
 PDA9_Grow_Lvl_2
 PDA9_Grow_Lvl_3
 PDA9_Grow_Lvl_4
-# 125431117
 # 1809688589
 # 1816758375
 # 3985631816
@@ -6431,6 +6436,7 @@ uno_cloaker_detect
 uno_cloaker_detect_stop
 uno_cloaker_presence_loop
 uno_cloaker_presence_stop
+uno_cloaker_spawn
 uno_door_puzzle_door_close
 uno_door_puzzle_door_open_01
 uno_door_puzzle_door_open_02
@@ -6449,7 +6455,6 @@ uno_rumble_collapse_loop_stop
 uno_rumble_door
 uno_white_light
 uno_win_anim
-# 943077595
 # 1950895222
 # 2645585830
 
@@ -22148,6 +22153,7 @@ bdz_c01
 bdz_entrance
 bdz_entrance_elite
 bdz_g90
+bdz_heal
 bdz_hr01
 bdz_m01
 bdz_mov
@@ -22293,6 +22299,9 @@ f03a_plu
 f03a_sin
 f03b_any
 f11a_sin
+f11aa_sin
+f11ab_sin
+f11ac_sin
 f11b_sin
 f11c_sin
 f11d_sin
@@ -22313,6 +22322,9 @@ f11x_sin
 f11y_sin
 f11z_sin
 f13a_sin
+f13aa_sin
+f13ab_sin
+f13ac_sin
 f13b_sin
 f13c_sin
 f13d_sin
@@ -22332,6 +22344,9 @@ f13x_sin
 f13y_sin
 f13z_sin
 f21a_sin
+f21aa_sin
+f21ab_sin
+f21ac_sin
 f21b_sin
 f21c_sin
 f21d_sin
@@ -23092,6 +23107,8 @@ mga_vault_a
 mga_vault_b
 mga_vault_c
 miranda_speech
+moneythrower_death
+moneythrower_hurt
 nine_lives_skill
 npc_crowd_scream_01
 Play_ban_b01a
@@ -23539,18 +23556,6 @@ tsr_tasered
 tsr_x01a_any_3p
 tsr_x02a_any_3p
 x01
-# 175997504
-# 470065281
-# 559648935
-# 764996803
-# 1233880222
-# 1373755004
-# 1563834860
-# 1903396089
-# 2468157164
-# 2818304499
-# 2947023092
-# 3031383802
 
 ### SFX NAMES (langs/regular_vox.english.bnk)
 bain_static_distortion
