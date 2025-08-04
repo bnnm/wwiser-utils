@@ -505,6 +505,11 @@ acoustics_outdoor_large
 acoustics_outdoor_medium
 acoustics_outdoor_small
 acoustics_wilderness_forest
+ambiance
+environmental_bus
+hud_sounds
+menu_sfx
+migrated
 music
 pd2_acoustics_flat
 pd2_acoustics_forest
@@ -517,34 +522,30 @@ pd2_acoustics_outdoor_small_echo
 pd2_acoustics_tunnel_medium
 pd2_acoustics_tunnel_small
 player_hit
+player_weapon
+player_weapon_special
 reflections
+reflections_sniper
 sfx
+stingers
+turret_gunfire
 # 2182193123
 # 1148611026
 # 1297066785
-# 2981377429
 # 1782503638
-# 2880479875
-# 1625387345
 # 3143935399
 # 838887756
 # 3088451749
-# 2940432316
 # 2132867720
 # 679220183
 # 3779928933
 # 3803692087
-# 353680637
 # 1877231729
-# 409714701
-# 3489413180
 # 845787994
-# 3942603440
 # 4207163833
 # 750342875
 # 1890049418
 # 1821261031
-# 373162680
 # 736616270
 # 827923852
 # 2921741436
@@ -554,7 +555,6 @@ sfx
 # 4252625243
 # 4252625244
 # 4252625245
-# 2767847388
 # 805203703
 
 ### SFX NAMES (init.bnk)
@@ -582,6 +582,8 @@ pd2_acoustics_tunnel_small
 Pitch_Shifter_TEST
 
 ### BASE RTPC/GAME-VARIABLE NAMES (init.bnk)
+ammo_left
+bet_counter
 camera_suspicion_level
 camera_suspicion_level_pitch
 car_bump_vel
@@ -596,22 +598,20 @@ ingame_sound
 lightning_distance
 option_music_volume
 option_sfx_volume
+room_size
 shield_status
 spin_vel
 stamina
 suspicion
+uno_music_fade
+usm_beep_rate
 vel_to_listener
 zipline_speed
-# 335193465
 # 385350134
 # 1183220101
 # 1397191865
-# 2021037140
 # 2392952846
 # 2526499546
-# 3613061926
-# 3816691936
-# 4155793599
 
 ### RTPC/GAME-VARIABLE NAMES (init.bnk)
 concussion_effect
@@ -620,34 +620,34 @@ game_speed
 ingame_sound
 option_music_volume
 option_sfx_volume
-# 3816691936
+uno_music_fade
 
 ### VARIABLE NAMES (init.bnk)
+acoustic
 acoustic_flag
 alesso_music_state
 ambience_flag
+flashbang_state
 halloween_2016
 halloween_2017
 light
 robber
 suppression
 surround
+uno_puzzle
 wave_flag
-# 4112828996
-# 2203138989
-# 660944702
 
 ### VALUE NAMES (init.bnk)
 deaf
+high_intensity
+lights_off
+lights_on
+low_intensity
 Normal
 rain
 regular
 smoke
 snow
-# 409917040
-# 1063352154
-# 2083763927
-# 562163035
 
 ### EVENT NAMES (ambiences.bnk)
 ambience_ext_big_city_day
@@ -734,6 +734,7 @@ ambience_switch_halloween_2017_state_regular
 ambience_switch_halloween_2017_state_snow
 ambience_switch_int_office_small_to_office_small_murmur
 occasionals_a_silent
+occasionals_bex
 occasionals_big_city
 occasionals_city_dock
 occasionals_city_dock_night
@@ -750,7 +751,6 @@ occasionals_storm
 occasionals_warehouse
 occasionals_wood_creak
 occasionals_yard
-# 2583378090
 # 3415242193
 # 3747407566
 
@@ -759,11 +759,15 @@ ambience_flag
 halloween_2016
 halloween_2017
 light
-# 660944702
+uno_puzzle
 
 ### VALUE NAMES (ambiences.bnk)
 assault
 Control
+high_intensity
+lights_off
+lights_on
+low_intensity
 none
 Normal
 rain
@@ -771,10 +775,6 @@ regular
 smoke
 snow
 whisper
-# 1063352154
-# 409917040
-# 562163035
-# 2083763927
 
 ### EVENT NAMES (bex_mariachi.bnk)
 mariachi_bass_stop
@@ -882,6 +882,7 @@ acoustic_flag
 ### VALUE NAMES (concussion_grenade.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -891,11 +892,10 @@ acoustic_outdoors_small
 acoustic_tunnel_medium
 acoustic_tunnel_small
 none
-# 169236549
 
 ### EVENT NAMES (core.bnk)
-# 2156697475
-# 2974103762
+mute
+unmute
 
 ### EVENT NAMES (des_sfx.bnk)
 bar_laser_weapon_button_push_finished
@@ -951,8 +951,8 @@ surround_off
 surround_on
 
 ### VARIABLE NAMES (engine.bnk)
+flashbang_state
 surround
-# 2203138989
 
 ### VALUE NAMES (engine.bnk)
 deaf
@@ -1703,6 +1703,23 @@ infamous_stinger_level_23
 infamous_stinger_level_24
 infamous_stinger_level_25
 infamous_stinger_level_26
+infamy_stinger_001
+infamy_stinger_002
+infamy_stinger_003
+infamy_stinger_004
+infamy_stinger_005
+infamy_stinger_006
+infamy_stinger_007
+infamy_stinger_008
+infamy_stinger_009
+infamy_stinger_010
+infamy_stinger_011
+infamy_stinger_012
+infamy_stinger_013
+infamy_stinger_014
+infamy_stinger_015
+infamy_stinger_016
+infamy_stinger_017
 infamy_stinger_player_join
 item_buy
 item_sell
@@ -1736,23 +1753,6 @@ stinger_new_weapon
 unmute_global
 zoom_in
 zoom_out
-# 3427947584
-# 3427947585
-# 3427947586
-# 3427947587
-# 3427947588
-# 3427947589
-# 3427947590
-# 3427947591
-# 3444725296
-# 3444725297
-# 3444725298
-# 3444725300
-# 3444725301
-# 3444725302
-# 3444725303
-# 3444725306
-# 3444725307
 
 ### SFX NAMES (menu.bnk)
 acoustics_wilderness_forest
@@ -1964,6 +1964,7 @@ track_43
 track_44
 track_45
 track_46
+track_47_flat
 track_47_gen
 track_48
 track_49
@@ -2007,7 +2008,6 @@ track_pth_06
 track_pth_07
 track_pth_08
 track_pth_09
-# 2692647972
 
 ### EVENT NAMES (music_alesso.bnk)
 alesso_muffle_1
@@ -2052,6 +2052,8 @@ stealth
 ### EVENT NAMES (pd9a.bnk)
 PD9A_BagDespawn
 PD9A_HS
+PD9A_idle
+PD9A_idle_stop
 PDA9_BagIn
 PDA9_Explode_Lvl_1
 PDA9_Explode_Lvl_2
@@ -2062,8 +2064,6 @@ PDA9_Grow_Lvl_2
 PDA9_Grow_Lvl_3
 PDA9_Grow_Lvl_4
 # 1809688589
-# 1816758375
-# 3985631816
 
 ### EVENT NAMES (phs_knk_jwl_a_sfx.bnk)
 Play_sfx_knk_jwl_a_beam_fall
@@ -2121,7 +2121,11 @@ airplane_hatch_open
 airplane_large_distant_flyby
 airplane_loop
 airplane_takeoff
+alarm_bex
+alarm_bex_off
 alarm_bex_on_slow_fade
+alarm_chas
+alarm_chas_off
 alarm_chas_on_slow_fade
 alarm_chca_slow_fade
 alarm_clock_pick_up
@@ -2131,6 +2135,8 @@ alarm_countdown_loop_stop
 alarm_countdown_ticking_down_10sec
 alarm_dah
 alarm_dah_off
+alarm_deep
+alarm_deep_off
 alarm_deep_on_slow_fade
 alarm_fire
 alarm_fire_stop
@@ -2138,6 +2144,8 @@ alarm_kosugi_off
 alarm_kosugi_on_slow_fade
 alarm_kosugi_on_slow_fade_02
 alarm_mad_on_slow_fade
+alarm_mex
+alarm_mex_off
 alarm_mex_slow_fade
 alarm_museum_off
 alarm_museum_on_slow_fade
@@ -2441,6 +2449,12 @@ bar_pick_up_tin_boy_finish
 bar_pickup_bolt_cutter
 bar_pickup_bolt_cutter_cancel
 bar_pickup_bolt_cutter_finished
+bar_pickup_breacher
+bar_pickup_breacher_cancel
+bar_pickup_breacher_finish
+bar_place_breacher
+bar_place_breacher_cancel
+bar_place_breacher_finish
 bar_plant_breaching_charge_cancel
 bar_plant_breaching_charge_finished
 bar_plant_breaching_charges
@@ -2906,6 +2920,8 @@ corp_van_player_exit_02
 corp_van_swat_arrive_01
 corp_van_swat_arrive_02
 corp_van_swat_arrive_03
+corp_water_flow_loop
+corp_water_flow_loop_end
 corp_water_flow_muffled_loop
 corp_water_flow_muffled_loop_end
 corp_water_squirt_left
@@ -2942,9 +2958,12 @@ deep_crane_spin_loop_start
 deep_crane_spin_loop_stop
 deep_hangar_door_open
 deep_oil_pits_fill
+deep_oil_pits_fill_01
 deep_oil_pump_tower
 deep_pipe_rotating
 deep_testing_machine_done
+deep_testing_machine_error_loop
+deep_testing_machine_error_loop_stop
 deep_testing_machine_invalid_cleaning_loop_start
 deep_testing_machine_invalid_cleaning_loop_stop
 deep_testing_machine_progress_loop_start
@@ -3046,6 +3065,8 @@ emitter_broken_walkway
 emitter_bubbles_intense
 emitter_bug_01
 emitter_buoy_loop
+emitter_car_broken_Engine
+emitter_car_broken_loop
 emitter_car_fire_loop
 emitter_car_fire_loop_02
 emitter_car_fire_rain
@@ -3206,6 +3227,7 @@ emitter_water_on_generic_hollow_mono_loop2
 emitter_water_pool_flow
 emitter_water_pool_flow_180
 emitter_water_still
+emitter_water_still_180
 emitter_waves_against_boat
 emitter_waves_fender_against_boat_01
 emitter_waves_fender_against_boat_02
@@ -3413,6 +3435,7 @@ helicopter_ambience_stop
 helicopter_attack
 helicopter_attack_fade
 helicopter_near_loop
+helicopter_near_loop_fade
 helicopter_police
 helicopter_police_fade
 hit_gong
@@ -3449,6 +3472,7 @@ inside_container
 int_wooden_elevator_finish
 intercom_button_hash
 intercom_button_press
+intercom_button_star
 intercom_calling
 intercom_dailtone_loop
 intercom_dailtone_loop_stop
@@ -3465,6 +3489,7 @@ jiro_practice
 jukebox_biker
 jukebox_biker_stop
 jukebox_mariachi
+jukebox_mariachi_stop
 jukebox_ride_of_the_valkyries
 jukebox_ride_of_the_valkyries_stop
 jukebox_rock
@@ -3484,6 +3509,8 @@ kick_metal_door
 kick_open_container
 kill_train_loops
 kitchen_elevator_button_press
+kitchen_elevator_hatch_close
+kitchen_elevator_hatch_open
 knife_charge
 knife_equip
 knife_hit_air
@@ -3523,6 +3550,10 @@ machete_charge
 mad_power_back_on
 magnetic_door_open
 manhole_opens
+mariachi_loop_drunk
+mariachi_loop_drunk_stop
+mariachi_loop_sober
+mariachi_loop_sober_stop
 mask_on_equip_stereo
 mask_on_from_bag_stereo
 mask_on_left_hand_stereo
@@ -3551,6 +3582,7 @@ mex_hangar_lever_pull
 mex_hose_connect_pour
 mex_hose_connect_pour_stop
 mexican_guitar_player_loop
+mexican_guitar_player_loop_stop
 money_bag_chopper_blade_impact
 money_bundle_land
 money_grab
@@ -3884,6 +3916,7 @@ shark_tank_hatch_open
 shield_identification
 ship_horn_large
 ship_horn_long
+ship_horn_short
 shovel_charge
 shredder_shreds_paper
 shutter_door_down
@@ -3899,6 +3932,7 @@ sliding_train_door_open
 slot_machine_coin_drop_end
 slot_machine_coins_drop
 slot_machine_hack_loop
+slot_machine_hack_loop_stop
 slot_machine_hack_loop_stop_global
 slot_machine_loose
 slot_machine_rolling_loop
@@ -4034,6 +4068,7 @@ trap_door_open
 tree_fall
 tree_xmas_producing_bag_finished
 tree_xmas_producing_bag_loop
+tree_xmas_producing_bag_loop_stop
 trombone_break
 truck_01_go
 truck_01_idle
@@ -4071,6 +4106,7 @@ USM_Beep
 USM_Beep_Stop
 USM_BRK
 USM_Bulb_BRK
+USM_Drop
 USM_Flash
 valve_turn
 van_arrive_anim01_stage_02
@@ -4202,57 +4238,21 @@ xray_resume
 xray_start
 zip_line_mount
 # 26436481
-# 83598651
-# 190364895
 # 306470727
-# 552060120
-# 593640538
-# 737289202
-# 868540977
-# 878891650
-# 938762846
 # 1177315007
 # 1328742815
-# 1371279142
-# 1406831676
-# 1471870047
 # 1546817138
-# 1558770589
 # 1694380399
 # 1812278543
-# 1860694870
 # 1872203982
-# 2028507017
-# 2126798925
-# 2131079871
-# 2167484135
 # 2179587491
 # 2217398880
-# 2220362833
-# 2302647640
-# 2313727474
-# 2357448451
-# 2417551654
 # 2582410698
-# 2656694085
-# 2730354179
 # 2833577343
 # 2897620811
-# 3095474777
-# 3118603917
-# 3238911293
-# 3502912834
 # 3535817911
-# 3582100722
-# 3686609972
-# 3933041010
-# 3936249687
-# 3962950378
 # 4027052853
-# 4061175129
 # 4076035696
-# 4108697020
-# 4230904361
 # 4283702019
 
 ### SFX NAMES (regular_sfx.bnk)
@@ -4389,6 +4389,9 @@ awp_npc1a_1shot
 awp_npc1b_1shot
 awp_npc1c_1shot
 awpc_fire
+awpc_npc1a_1shot
+awpc_npc1b_1shot
+awpc_npc1c_1shot
 b682_fire
 b682_npc1a_1shot
 b682_npc1b_1shot
@@ -4644,6 +4647,7 @@ galil_npc1a_3shot
 galil_npc1a_end
 galil_npc1a_loop
 galil_stop
+gl3_explode
 gl_casing_land_hard
 gl_electric_explode
 gl_explode
@@ -4692,6 +4696,11 @@ hcar_npc1a_end
 hcar_npc1a_loop
 hcar_stop
 hcarc_fire
+hcarc_npc1a_1shot
+hcarc_npc1a_2shot
+hcarc_npc1a_3shot
+hcarc_npc1a_end
+hcarc_npc1a_loop
 hcarc_stop
 hk23e_fire
 hk23e_npc1a_1shot
@@ -4719,6 +4728,9 @@ holt_npc1a_1shot
 holt_npc1b_1shot
 holt_npc1c_1shot
 hornet_fire
+hornet_npc1a_1shot
+hornet_npc1b_1shot
+hornet_npc1c_1shot
 huntsman_fire
 huntsman_npc1a_1shot
 huntsman_npc1b_1shot
@@ -4759,6 +4771,7 @@ korth_fire
 korth_npc1a_1shot
 korth_npc1b_1shot
 korth_npc1c_1shot
+korth_x_fire
 kriss_fire
 kriss_npc1a_1shot
 kriss_npc1a_2shot
@@ -5345,6 +5358,10 @@ turret_fire_sup
 turret_fire_sup_end
 turret_ranc_fire
 turret_ranc_npc1a_1shot
+turret_ranc_npc1a_2shot
+turret_ranc_npc1a_3shot
+turret_ranc_npc1a_end
+turret_ranc_npc1a_loop
 turret_ranc_stop
 type54_fire
 type54_npc1a_1shot
@@ -5434,6 +5451,7 @@ wp_ak47_lever_release
 wp_ak47_tilt
 wp_ak47_tilt_back
 wp_akimbo_pistol_slide_lock
+wp_akimbo_rifle_slide_lock
 wp_akmsu_clip_in_contact
 wp_akmsu_clip_slide_in
 wp_akmsu_clip_slide_out
@@ -5908,6 +5926,7 @@ wp_tecci_mag_hit_ground
 wp_tecci_mag_out
 wp_tecci_mag_slide_in
 wp_tecci_take_new
+wp_underflame_switch_off
 wp_underflame_switch_on
 wp_undershotty_switch_off
 wp_undershotty_switch_on
@@ -5948,26 +5967,7 @@ xeno_stop
 zsniper_npc1a_1shot
 zsniper_npc1b_1shot
 zsniper_npc1c_1shot
-# 717863884
-# 912928535
-# 1408400510
-# 1420075089
-# 1538741924
-# 2191270924
-# 2256337421
-# 2479601176
-# 2643710665
-# 2754729302
-# 2832609983
-# 3002081766
-# 3175036641
-# 3251007805
-# 3830708997
-# 3897693715
-# 3958906511
-# 3970217305
 # 4104617007
-# 4149534700
 
 ### VARIABLE NAMES (regular_weapon_sfx.bnk)
 acoustic_flag
@@ -5977,6 +5977,7 @@ suppressed
 ### VALUE NAMES (regular_weapon_sfx.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6025,7 +6026,6 @@ tile
 water_deep
 water_puddle
 wood
-# 169236549
 
 ### EVENT NAMES (safehouse_games.bnk)
 chill_friend_a_01
@@ -6158,18 +6158,18 @@ roulette_win
 spinning_roulette_wheel
 
 ### RTPC/GAME-VARIABLE NAMES (safehouse_games.bnk)
-# 4155793599
+bet_counter
 
 ### EVENT NAMES (safehouse_music.bnk)
 killhouse_music_mono_end
 killhouse_music_mono_start
 
 ### VARIABLE NAMES (safehouse_music.bnk)
-# 950153115
+killhouse_music
 
 ### VALUE NAMES (safehouse_music.bnk)
-# 2014161789
-# 2201084204
+killhouse_music_end
+killhouse_music_play
 
 ### EVENT NAMES (sfx_1wb.bnk)
 c4_explode
@@ -6449,14 +6449,14 @@ uno_gold_place_stop_all
 uno_lever_pull
 uno_lose_anim
 uno_placed_all_gold
+uno_puzzle_part
 uno_puzzle_riddle_change
+uno_puzzle_success
 uno_rumble_collapse_loop
 uno_rumble_collapse_loop_stop
 uno_rumble_door
 uno_white_light
 uno_win_anim
-# 1950895222
-# 2645585830
 
 ### EVENT NAMES (trai_h.bnk)
 TRAI_Cable
@@ -6473,6 +6473,7 @@ TRAI_Engine_Starting_Interaction
 TRAI_Gate_Open
 TRAI_Gate_Open_STOP
 TRAI_Gate_Unlock
+TRAI_LOCO_Detach
 TRAI_Loco_Door
 TRAI_LOCO_Engine_LP_STOP
 TRAI_LOCO_Engine_Win
@@ -6481,14 +6482,15 @@ TRAI_LOCO_Fuel_LP_STOP
 TRAI_LOCO_Roll_Start
 TRAI_LOCO_Roll_Stop
 TRAI_Mic
+TRAI_Move_Arm_down
+TRAI_Move_Arm_down_STOP
 TRAI_TT_START
 TRAI_TT_STOP
 TRAI_Walkie_Talkie
-# 437439091
-# 1756248702
-# 3155683877
 
 ### EVENT NAMES (weapon_3gl.bnk)
+gl3_explode
+gl3_explode_stop
 gl3_fire
 gl3_npc1a_1shot
 gl3_npc1b_1shot
@@ -6496,7 +6498,6 @@ gl3_npc1c_1shot
 wp_3gl_reload_mag_in
 wp_3gl_reload_slide_in
 wp_3gl_reload_slide_out
-# 196677164
 # 413959037
 # 751317894
 # 1214613263
@@ -6504,7 +6505,6 @@ wp_3gl_reload_slide_out
 # 2031835171
 # 2692946736
 # 3276790910
-# 3970217305
 
 ### VARIABLE NAMES (weapon_3gl.bnk)
 suppressed
@@ -6534,6 +6534,7 @@ suppressed
 ### VALUE NAMES (weapon_aa12.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6549,7 +6550,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_ak5.bnk)
 ak5_fire
@@ -6568,6 +6568,7 @@ suppressed
 ### VALUE NAMES (weapon_ak5.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6583,7 +6584,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_ak74.bnk)
 ak74_fire
@@ -6602,6 +6602,7 @@ suppressed
 ### VALUE NAMES (weapon_ak74.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6617,7 +6618,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_akm.bnk)
 akm_fire
@@ -6636,6 +6636,7 @@ suppressed
 ### VALUE NAMES (weapon_akm.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6651,7 +6652,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_akmsu.bnk)
 akmsu_fire
@@ -6670,6 +6670,7 @@ suppressed
 ### VALUE NAMES (weapon_akmsu.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6685,7 +6686,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_akmsu_x.bnk)
 akmsu_x_fire
@@ -6704,6 +6704,7 @@ suppressed
 ### VALUE NAMES (weapon_akmsu_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6719,7 +6720,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_amcar4.bnk)
 amcar_fire
@@ -6738,6 +6738,7 @@ suppressed
 ### VALUE NAMES (weapon_amcar4.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6753,7 +6754,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_arblast.bnk)
 arblast_fire
@@ -6771,6 +6771,7 @@ acoustic_flag
 ### VALUE NAMES (weapon_attack_helicopter.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6780,7 +6781,6 @@ acoustic_outdoors_small
 acoustic_tunnel_medium
 acoustic_tunnel_small
 none
-# 169236549
 
 ### EVENT NAMES (weapon_aug.bnk)
 aug_fire
@@ -6799,6 +6799,7 @@ suppressed
 ### VALUE NAMES (weapon_aug.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6814,7 +6815,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_awp.bnk)
 awp_fire
@@ -6822,15 +6822,15 @@ awp_npc1a_1shot
 awp_npc1b_1shot
 awp_npc1c_1shot
 awpc_fire
+awpc_npc1a_1shot
+awpc_npc1b_1shot
+awpc_npc1c_1shot
 wp_awp_reload_grab
 wp_awp_reload_lever_pull
 wp_awp_reload_lever_push
 wp_awp_reload_mag_contact
 wp_awp_reload_mag_in
 wp_awp_reload_mag_out
-# 1408400510
-# 2479601176
-# 3958906511
 
 ### VARIABLE NAMES (weapon_awp.bnk)
 acoustic_flag
@@ -6839,6 +6839,7 @@ suppressed
 ### VALUE NAMES (weapon_awp.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6854,7 +6855,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_b682.bnk)
 b682_fire
@@ -6869,6 +6869,7 @@ suppressed
 ### VALUE NAMES (weapon_b682.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6884,7 +6885,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_baka.bnk)
 baka_fire
@@ -6903,6 +6903,7 @@ suppressed
 ### VALUE NAMES (weapon_baka.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6918,7 +6919,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_baka_x.bnk)
 baka_x_fire
@@ -6937,6 +6937,7 @@ suppressed
 ### VALUE NAMES (weapon_baka_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6952,7 +6953,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_barrett.bnk)
 barrett_fire
@@ -6967,6 +6967,7 @@ suppressed
 ### VALUE NAMES (weapon_barrett.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -6982,7 +6983,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_basset.bnk)
 basset_fire
@@ -7011,6 +7011,7 @@ suppressed
 ### VALUE NAMES (weapon_basset.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7026,7 +7027,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_basset_x.bnk)
 basset_x_fire
@@ -7051,6 +7051,7 @@ suppressed
 ### VALUE NAMES (weapon_basset_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7066,7 +7067,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_beer.bnk)
 beer_fire
@@ -7090,6 +7090,7 @@ suppressed
 ### VALUE NAMES (weapon_beer.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7105,7 +7106,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_beer_x.bnk)
 beer_x_fire
@@ -7129,6 +7129,7 @@ suppressed
 ### VALUE NAMES (weapon_beer_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7144,7 +7145,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_benelli_m4.bnk)
 benelli_m4_dryfire
@@ -7163,6 +7163,7 @@ suppressed
 ### VALUE NAMES (weapon_benelli_m4.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7178,7 +7179,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_beretta.bnk)
 beretta_fire
@@ -7193,6 +7193,7 @@ suppressed
 ### VALUE NAMES (weapon_beretta.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7208,7 +7209,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_blazer.bnk)
 blazer_fire
@@ -7223,6 +7223,7 @@ suppressed
 ### VALUE NAMES (weapon_blazer.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7238,7 +7239,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_boot.bnk)
 boot_fire
@@ -7253,6 +7253,7 @@ suppressed
 ### VALUE NAMES (weapon_boot.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7268,7 +7269,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_bow.bnk)
 bow_charge
@@ -7306,6 +7306,7 @@ suppressed
 ### VALUE NAMES (weapon_breech.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7321,7 +7322,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_c45.bnk)
 c45_dryfire
@@ -7338,6 +7338,7 @@ suppressed
 ### VALUE NAMES (weapon_c45.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7353,7 +7354,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_c96.bnk)
 c96_fire
@@ -7368,6 +7368,7 @@ suppressed
 ### VALUE NAMES (weapon_c96.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7383,7 +7384,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_chinchilla.bnk)
 chinchilla_fire
@@ -7425,6 +7425,7 @@ suppressed
 ### VALUE NAMES (weapon_ching.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7473,7 +7474,6 @@ tile
 water_deep
 water_puddle
 wood
-# 169236549
 
 ### EVENT NAMES (weapon_coach.bnk)
 coach_fire
@@ -7493,6 +7493,7 @@ suppressed
 ### VALUE NAMES (weapon_coach.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7508,7 +7509,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_coal.bnk)
 coal_fire
@@ -7538,6 +7538,7 @@ suppressed
 ### VALUE NAMES (weapon_coal.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7553,7 +7554,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_coal_x.bnk)
 coal_x_fire
@@ -7564,17 +7564,17 @@ coal_x_npc1a_3shot
 coal_x_npc1a_end
 coal_x_npc1a_loop
 coal_x_stop
-PassThroughGP105140736p
 wp_coal_x_mag_in_back
 wp_coal_x_mag_in_front
 wp_coal_x_mag_out_back
+wp_coal_x_mag_out_front
+wp_coal_x_mag_release
 wp_coal_x_pull_lever
 wp_coal_x_release_lever
-# 1025989866
-# 1382140796
-# 1467806569
-# 3179538530
-# 3884644889
+wp_coal_x_secure_mag
+wp_coal_x_take_new_mag
+wp_coal_x_tilt_down
+wp_coal_x_tilt_up
 
 ### VARIABLE NAMES (weapon_coal_x.bnk)
 acoustic_flag
@@ -7583,6 +7583,7 @@ suppressed
 ### VALUE NAMES (weapon_coal_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7598,7 +7599,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_cobray.bnk)
 cobray_fire
@@ -7617,6 +7617,7 @@ suppressed
 ### VALUE NAMES (weapon_cobray.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7632,7 +7633,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_cobray_x.bnk)
 cobray_x_fire
@@ -7651,6 +7651,7 @@ suppressed
 ### VALUE NAMES (weapon_cobray_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7666,7 +7667,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_com5.bnk)
 mp5_equip
@@ -7688,6 +7688,7 @@ suppressed
 ### VALUE NAMES (weapon_com5.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7703,7 +7704,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_contraband.bnk)
 contraband_back_in_hand
@@ -7734,6 +7734,7 @@ suppressed
 ### VALUE NAMES (weapon_contraband.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7749,7 +7750,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_corgi.bnk)
 corgi_clip_in
@@ -7777,6 +7777,7 @@ suppressed
 ### VALUE NAMES (weapon_corgi.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7792,7 +7793,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_czech.bnk)
 czech_fire
@@ -7842,6 +7842,7 @@ suppressed
 ### VALUE NAMES (weapon_czech_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7857,7 +7858,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_deagle.bnk)
 deagle_fire
@@ -7872,6 +7872,7 @@ suppressed
 ### VALUE NAMES (weapon_deagle.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7887,7 +7888,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_desertfox.bnk)
 desertfox_fire
@@ -7909,6 +7909,7 @@ suppressed
 ### VALUE NAMES (weapon_desertfox.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7924,7 +7925,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_ecp.bnk)
 ecp_fire
@@ -7944,15 +7944,15 @@ wp_ecp_take_new_clip
 elastic_charge
 elastic_charge_cancel
 elastic_equip
+elastic_fail_npc1a_1shot
+elastic_fail_npc1b_1shot
+elastic_fail_npc1c_1shot
 elastic_npc1a_1shot
 elastic_npc1b_1shot
 elastic_npc1c_1shot
 elastic_release
 elastic_release_fail
-# 10841405
-# 1136916059
-# 2304447636
-# 3871206445
+wp_elastic_new_arrow
 
 ### EVENT NAMES (weapon_erma.bnk)
 erma_fire
@@ -7982,6 +7982,7 @@ suppressed
 ### VALUE NAMES (weapon_erma.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -7997,7 +7998,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_erma_x.bnk)
 erma_x_fire
@@ -8008,17 +8008,17 @@ erma_x_npc1a_3shot
 erma_x_npc1a_end
 erma_x_npc1a_loop
 erma_x_stop
-# 120428066
-# 251138035
-# 319901903
-# 1802736365
-# 1907161404
-# 2313553973
-# 2412905749
-# 2704542305
-# 3456478391
-# 3618557616
-# 4199988226
+wp_erma_x_foley_end
+wp_erma_x_foley_grab_slide
+wp_erma_x_foley_hit_slide
+wp_erma_x_grab_mag
+wp_erma_x_mag_connect
+wp_erma_x_mag_grab_new
+wp_erma_x_mag_in
+wp_erma_x_mag_out
+wp_erma_x_slide_lock
+wp_erma_x_slide_pull
+wp_erma_x_slide_release
 
 ### VARIABLE NAMES (weapon_erma_x.bnk)
 acoustic_flag
@@ -8027,6 +8027,7 @@ suppressed
 ### VALUE NAMES (weapon_erma_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8042,7 +8043,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_famas.bnk)
 famas_fire
@@ -8061,6 +8061,7 @@ suppressed
 ### VALUE NAMES (weapon_famas.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8076,7 +8077,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_flamethrower.bnk)
 flamethrower_fire
@@ -8113,6 +8113,7 @@ suppressed
 ### VALUE NAMES (weapon_flint.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8128,7 +8129,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_fmg9.bnk)
 fmg9_fire
@@ -8155,8 +8155,8 @@ wp_fmg9_reload_mag_out
 wp_fmg9_reload_mag_slap
 wp_fmg9_unequip_fold_grip
 wp_fmg9_unequip_fold_grip_click
+wp_fmg9_unequip_fold_stock
 wp_fmg9_unequip_fold_stock_click
-# 369987035
 
 ### VARIABLE NAMES (weapon_fmg9.bnk)
 acoustic_flag
@@ -8165,6 +8165,7 @@ suppressed
 ### VALUE NAMES (weapon_fmg9.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8180,7 +8181,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_fn_fal.bnk)
 fn_fal_fire_1p
@@ -8199,6 +8199,7 @@ suppressed
 ### VALUE NAMES (weapon_fn_fal.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8214,7 +8215,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_frankish.bnk)
 frankish_fire
@@ -8235,6 +8235,7 @@ suppressed
 ### VALUE NAMES (weapon_g17.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8250,7 +8251,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_g18c.bnk)
 g18c_fire
@@ -8269,6 +8269,7 @@ suppressed
 ### VALUE NAMES (weapon_g18c.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8284,7 +8285,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_g18c_x.bnk)
 g18c_x_fire
@@ -8303,6 +8303,7 @@ suppressed
 ### VALUE NAMES (weapon_g18c_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8318,7 +8319,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_g22.bnk)
 g22_dryfire
@@ -8335,6 +8335,7 @@ suppressed
 ### VALUE NAMES (weapon_g22.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8350,7 +8351,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_g3.bnk)
 g3_fire
@@ -8369,6 +8369,7 @@ suppressed
 ### VALUE NAMES (weapon_g3.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8384,7 +8385,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_g36.bnk)
 g36_fire
@@ -8403,6 +8403,7 @@ suppressed
 ### VALUE NAMES (weapon_g36.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8418,7 +8419,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_galil.bnk)
 galil_fire
@@ -8437,6 +8437,7 @@ suppressed
 ### VALUE NAMES (weapon_galil.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8452,7 +8453,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_gl40.bnk)
 arbiter_fire
@@ -8497,6 +8497,7 @@ suppressed
 ### VALUE NAMES (weapon_gl40.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8545,7 +8546,6 @@ tile
 water_deep
 water_puddle
 wood
-# 169236549
 
 ### EVENT NAMES (weapon_grenade.bnk)
 dynamite_fuse_loop
@@ -8558,9 +8558,9 @@ grenade_handle_fly
 grenade_handle_fly_dly
 grenade_hit_ground
 grenade_pull_pin
+grenade_sticky_beep
+grenade_sticky_beep_stop
 grenade_sticky_impact
-# 190682008
-# 1818902039
 
 ### VARIABLE NAMES (weapon_grenade.bnk)
 acoustic_flag
@@ -8569,6 +8569,7 @@ materials
 ### VALUE NAMES (weapon_grenade.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8611,7 +8612,6 @@ tile
 water_deep
 water_puddle
 wood
-# 169236549
 
 ### EVENT NAMES (weapon_grenade_poison.bnk)
 # 3405285699
@@ -8655,6 +8655,7 @@ suppressed
 ### VALUE NAMES (weapon_groza.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8670,10 +8671,10 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_hailstorm.bnk)
 hailstorm_fire
+hailstorm_fire_single
 hailstorm_npc1a_1shot
 hailstorm_npc1a_2shot
 hailstorm_npc1a_3shot
@@ -8689,7 +8690,6 @@ wp_hailstorm_reload_mag_in
 wp_hailstorm_reload_mag_out
 wp_hailstorm_reload_mag_throw
 wp_hailstorm_reload_shoulder
-# 234265096
 # 4104617007
 
 ### VARIABLE NAMES (weapon_hailstorm.bnk)
@@ -8699,6 +8699,7 @@ suppressed
 ### VALUE NAMES (weapon_hailstorm.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8714,7 +8715,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_hajk.bnk)
 hajk_fire
@@ -8733,6 +8733,7 @@ suppressed
 ### VALUE NAMES (weapon_hajk.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8748,7 +8749,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_hajk_x.bnk)
 hajk_x_fire
@@ -8767,6 +8767,7 @@ suppressed
 ### VALUE NAMES (weapon_hajk_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8782,7 +8783,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_hcar.bnk)
 hcar_fire
@@ -8794,6 +8794,12 @@ hcar_npc1a_end
 hcar_npc1a_loop
 hcar_stop
 hcarc_fire
+hcarc_fire_single
+hcarc_npc1a_1shot
+hcarc_npc1a_2shot
+hcarc_npc1a_3shot
+hcarc_npc1a_end
+hcarc_npc1a_loop
 hcarc_stop
 wp_hcar_reload_empty_bolt_pull
 wp_hcar_reload_empty_bolt_release
@@ -8807,12 +8813,6 @@ wp_hcar_reload_mag_contact
 wp_hcar_reload_mag_fiddle
 wp_hcar_reload_mag_in
 wp_hcar_reload_mag_out
-# 717863884
-# 2312350348
-# 2754729302
-# 2832609983
-# 3002081766
-# 3175036641
 
 ### VARIABLE NAMES (weapon_hcar.bnk)
 acoustic_flag
@@ -8821,6 +8821,7 @@ suppressed
 ### VALUE NAMES (weapon_hcar.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8836,7 +8837,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_hk23e.bnk)
 hk23e_fire
@@ -8855,6 +8855,7 @@ suppressed
 ### VALUE NAMES (weapon_hk23e.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8870,7 +8871,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_hk51b.bnk)
 hk51b_fire
@@ -8960,9 +8960,9 @@ suppressed_d
 
 ### EVENT NAMES (weapon_hornet.bnk)
 hornet_fire
-# 2191270924
-# 3830708997
-# 3897693715
+hornet_npc1a_1shot
+hornet_npc1b_1shot
+hornet_npc1c_1shot
 
 ### VARIABLE NAMES (weapon_hornet.bnk)
 acoustic_flag
@@ -8971,6 +8971,7 @@ suppressed
 ### VALUE NAMES (weapon_hornet.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -8986,7 +8987,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_hunter.bnk)
 hunter_fire
@@ -9010,6 +9010,7 @@ suppressed
 ### VALUE NAMES (weapon_huntsman.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9025,7 +9026,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_judge.bnk)
 judge_fire
@@ -9040,6 +9040,7 @@ suppressed
 ### VALUE NAMES (weapon_judge.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9055,7 +9056,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_judge_x.bnk)
 judge_x_fire
@@ -9070,6 +9070,7 @@ suppressed
 ### VALUE NAMES (weapon_judge_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9085,7 +9086,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_kac.bnk)
 kac_fire
@@ -9102,6 +9102,7 @@ wp_kac_reload_bottle_in
 wp_kac_reload_bottle_lock
 wp_kac_reload_bottle_out
 wp_kac_reload_box_in
+wp_kac_reload_box_in_contact
 wp_kac_reload_box_out
 wp_kac_reload_box_take_new
 wp_kac_reload_cover_down
@@ -9110,7 +9111,6 @@ wp_kac_reload_lever_pull
 wp_kac_reload_lever_push
 wp_kac_reload_tilt
 wp_kac_reload_tilt_back
-# 2154111735
 
 ### VARIABLE NAMES (weapon_kac.bnk)
 acoustic_flag
@@ -9119,6 +9119,7 @@ suppressed
 ### VALUE NAMES (weapon_kac.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9134,7 +9135,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_keltec.bnk)
 keltec_dryfire
@@ -9153,6 +9153,7 @@ suppressed
 ### VALUE NAMES (weapon_keltec.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9168,7 +9169,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_komodo.bnk)
 komodo_fire
@@ -9193,6 +9193,7 @@ suppressed
 ### VALUE NAMES (weapon_komodo.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9208,19 +9209,18 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_korth.bnk)
 korth_fire
 korth_npc1a_1shot
 korth_npc1b_1shot
 korth_npc1c_1shot
+korth_x_fire
 wp_korth_equip
 wp_korth_reload_bullet_in
 wp_korth_reload_bullet_out
 wp_korth_reload_mag_in
 wp_korth_reload_mag_out
-# 1420075089
 
 ### VARIABLE NAMES (weapon_korth.bnk)
 acoustic_flag
@@ -9229,6 +9229,7 @@ suppressed
 ### VALUE NAMES (weapon_korth.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9244,7 +9245,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_l85.bnk)
 l85_fire
@@ -9263,6 +9263,7 @@ suppressed
 ### VALUE NAMES (weapon_l85.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9278,7 +9279,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_lakner.bnk)
 lakner_fire
@@ -9293,6 +9293,7 @@ suppressed
 ### VALUE NAMES (weapon_lakner.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9308,7 +9309,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_legacy.bnk)
 legacy_fire
@@ -9330,6 +9330,7 @@ suppressed
 ### VALUE NAMES (weapon_legacy.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9345,7 +9346,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_lemming.bnk)
 lemming_fire
@@ -9367,6 +9367,7 @@ suppressed
 ### VALUE NAMES (weapon_lemming.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9382,7 +9383,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_lung.bnk)
 lung_explode
@@ -9406,6 +9406,7 @@ suppressed
 ### VALUE NAMES (weapon_m14.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9421,7 +9422,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m16.bnk)
 m16_fire
@@ -9440,6 +9440,7 @@ suppressed
 ### VALUE NAMES (weapon_m16.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9455,7 +9456,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m1873.bnk)
 m1873_fire
@@ -9470,6 +9470,7 @@ suppressed
 ### VALUE NAMES (weapon_m1873.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9485,7 +9486,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m1897.bnk)
 m1897_fire
@@ -9493,12 +9493,12 @@ m1897_npc1a_1shot
 m1897_npc1b_1shot
 m1897_npc1c_1shot
 wp_m1897_insert_shell
+wp_m1897_recoil_pull_handle
+wp_m1897_recoil_push_handle
 wp_m1897_reload_enter
 wp_m1897_reload_exit_not_empty
 wp_m1897_reload_exit_pull_handle
 wp_m1897_reload_exit_push_handle
-# 660906575
-# 3851369992
 
 ### VARIABLE NAMES (weapon_m1897.bnk)
 acoustic_flag
@@ -9507,6 +9507,7 @@ suppressed
 ### VALUE NAMES (weapon_m1897.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9522,7 +9523,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m1911.bnk)
 m1911_fire
@@ -9540,6 +9540,7 @@ suppressed
 ### VALUE NAMES (weapon_m1911.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9555,7 +9556,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m1928.bnk)
 m1928_fire
@@ -9574,6 +9574,7 @@ suppressed
 ### VALUE NAMES (weapon_m1928.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9589,7 +9590,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m1928_x.bnk)
 m1928_x_fire
@@ -9608,6 +9608,7 @@ suppressed
 ### VALUE NAMES (weapon_m1928_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9623,7 +9624,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m249.bnk)
 m249_fire
@@ -9642,6 +9642,7 @@ suppressed
 ### VALUE NAMES (weapon_m249.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9657,7 +9658,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m37.bnk)
 m37_fire
@@ -9672,6 +9672,7 @@ suppressed
 ### VALUE NAMES (weapon_m37.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9687,7 +9688,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m4.bnk)
 m4_dryfire
@@ -9721,6 +9721,7 @@ suppressed
 ### VALUE NAMES (weapon_m4.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9736,7 +9737,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m45.bnk)
 m45_fire
@@ -9755,6 +9755,7 @@ suppressed
 ### VALUE NAMES (weapon_m45.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9770,7 +9771,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m45_x.bnk)
 m45_x_fire
@@ -9789,6 +9789,7 @@ suppressed
 ### VALUE NAMES (weapon_m45_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9804,7 +9805,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m4_olympic_x.bnk)
 m4_olympic_x_fire
@@ -9823,6 +9823,7 @@ suppressed
 ### VALUE NAMES (weapon_m4_olympic_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9838,7 +9839,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m590.bnk)
 m590_fire
@@ -9854,6 +9854,7 @@ suppressed
 ### VALUE NAMES (weapon_m590.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9869,7 +9870,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_m60.bnk)
 m60_fire
@@ -9900,6 +9900,7 @@ suppressed
 ### VALUE NAMES (weapon_m60.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9948,7 +9949,6 @@ tile
 water_deep
 water_puddle
 wood
-# 169236549
 
 ### EVENT NAMES (weapon_mac10.bnk)
 mac10_fire
@@ -9967,6 +9967,7 @@ suppressed
 ### VALUE NAMES (weapon_mac10.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -9982,7 +9983,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_mac10_x.bnk)
 mac10_x_fire
@@ -10001,6 +10001,7 @@ suppressed
 ### VALUE NAMES (weapon_mac10_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10016,7 +10017,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_mateba.bnk)
 mateba_fire
@@ -10031,6 +10031,7 @@ suppressed
 ### VALUE NAMES (weapon_mateba.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10046,7 +10047,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_max9.bnk)
 max9_fire
@@ -10068,6 +10068,7 @@ suppressed
 ### VALUE NAMES (weapon_max9.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10083,7 +10084,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_mg42.bnk)
 mg42_fire
@@ -10102,6 +10102,7 @@ suppressed
 ### VALUE NAMES (weapon_mg42.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10117,7 +10118,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_minigun.bnk)
 minigun_fire
@@ -10136,6 +10136,7 @@ suppressed
 ### VALUE NAMES (weapon_minigun.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10151,7 +10152,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_model3.bnk)
 model3_fire
@@ -10175,6 +10175,7 @@ suppressed
 ### VALUE NAMES (weapon_model3.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10190,7 +10191,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_model70.bnk)
 model70_fire
@@ -10205,6 +10205,7 @@ suppressed
 ### VALUE NAMES (weapon_model70.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10220,7 +10221,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_molotov.bnk)
 molotov_burn_loop_gen_stop
@@ -10261,6 +10261,7 @@ suppressed
 ### VALUE NAMES (weapon_mp5_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10276,7 +10277,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_mp7.bnk)
 mp7_fire
@@ -10295,6 +10295,7 @@ suppressed
 ### VALUE NAMES (weapon_mp7.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10310,7 +10311,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_mp7_x.bnk)
 mp7_x_fire
@@ -10329,6 +10329,7 @@ suppressed
 ### VALUE NAMES (weapon_mp7_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10344,7 +10345,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_mp9.bnk)
 mp9_fire
@@ -10363,6 +10363,7 @@ suppressed
 ### VALUE NAMES (weapon_mp9.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10378,7 +10379,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_mp9_x.bnk)
 mp9_x_fire
@@ -10397,6 +10397,7 @@ suppressed
 ### VALUE NAMES (weapon_mp9_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10412,7 +10413,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_msr.bnk)
 msr_fire
@@ -10427,6 +10427,7 @@ suppressed
 ### VALUE NAMES (weapon_msr.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10442,7 +10443,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_mtl.bnk)
 mtl_explosion
@@ -10456,6 +10456,7 @@ acoustic_flag
 ### VALUE NAMES (weapon_mtl.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10465,7 +10466,6 @@ acoustic_outdoors_small
 acoustic_tunnel_medium
 acoustic_tunnel_small
 none
-# 169236549
 
 ### EVENT NAMES (weapon_musket.bnk)
 musket_fire
@@ -10498,6 +10498,7 @@ suppressed
 ### VALUE NAMES (weapon_musket.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10513,7 +10514,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_nagant.bnk)
 nagant_fire
@@ -10528,6 +10528,7 @@ suppressed
 ### VALUE NAMES (weapon_nagant.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10543,7 +10544,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_p226r.bnk)
 p226r_dryfire
@@ -10560,6 +10560,7 @@ suppressed
 ### VALUE NAMES (weapon_p226r.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10575,7 +10576,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_p90.bnk)
 p90_fire
@@ -10594,6 +10594,7 @@ suppressed
 ### VALUE NAMES (weapon_p90.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10609,7 +10610,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_p90_x.bnk)
 p90_x_fire
@@ -10628,6 +10628,7 @@ suppressed
 ### VALUE NAMES (weapon_p90_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10643,7 +10644,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_packrat.bnk)
 packrat_fire
@@ -10665,6 +10665,7 @@ suppressed
 ### VALUE NAMES (weapon_packrat.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10680,7 +10681,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_pl14.bnk)
 pl14_fire
@@ -10695,6 +10695,7 @@ suppressed
 ### VALUE NAMES (weapon_pl14.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10710,7 +10711,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_pm9.bnk)
 pm9_fire
@@ -10735,6 +10735,7 @@ suppressed
 ### VALUE NAMES (weapon_pm9.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10750,7 +10751,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_pm9_x.bnk)
 pm9_x_fire
@@ -10777,6 +10777,7 @@ suppressed
 ### VALUE NAMES (weapon_pm9_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10792,7 +10793,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_pmkr45.bnk)
 pmkr45_equip
@@ -10809,6 +10809,7 @@ suppressed
 ### VALUE NAMES (weapon_pmkr45.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10824,7 +10825,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_polymer.bnk)
 polymer_fire
@@ -10843,6 +10843,7 @@ suppressed
 ### VALUE NAMES (weapon_polymer.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10858,7 +10859,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_polymer_x.bnk)
 polymer_x_fire
@@ -10877,6 +10877,7 @@ suppressed
 ### VALUE NAMES (weapon_polymer_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10892,7 +10893,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_qbu88.bnk)
 qbu88_fire
@@ -10918,6 +10918,7 @@ suppressed
 ### VALUE NAMES (weapon_qbu88.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10933,7 +10934,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_r700.bnk)
 r700_fire
@@ -10959,6 +10959,7 @@ suppressed
 ### VALUE NAMES (weapon_r700.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -10974,7 +10975,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_ray.bnk)
 ray_fire
@@ -11006,6 +11006,7 @@ suppressed
 ### VALUE NAMES (weapon_rbull.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11021,7 +11022,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_reinbeck880.bnk)
 benelli_m4_equip
@@ -11067,6 +11067,7 @@ suppressed
 ### VALUE NAMES (weapon_rota.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11082,7 +11083,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_rota_x.bnk)
 rota_x_fire
@@ -11101,6 +11101,7 @@ suppressed
 ### VALUE NAMES (weapon_rota_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11116,7 +11117,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_rpg.bnk)
 rpg_explode
@@ -11133,6 +11133,7 @@ suppressed
 ### VALUE NAMES (weapon_rpg.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11181,7 +11182,6 @@ tile
 water_deep
 water_puddle
 wood
-# 169236549
 
 ### EVENT NAMES (weapon_rpk.bnk)
 rpk_fire
@@ -11200,6 +11200,7 @@ suppressed
 ### VALUE NAMES (weapon_rpk.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11215,7 +11216,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_rsh12.bnk)
 rsh12_fire
@@ -11236,6 +11236,7 @@ suppressed
 ### VALUE NAMES (weapon_rsh12.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11251,7 +11252,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_saiga.bnk)
 saiga_fire_single
@@ -11270,6 +11270,7 @@ suppressed
 ### VALUE NAMES (weapon_saiga.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11285,7 +11286,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_saint_victor.bnk)
 saint_victor_fire
@@ -11350,6 +11350,7 @@ suppressed
 ### VALUE NAMES (weapon_sbl.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11365,7 +11366,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_scar.bnk)
 scar_fire
@@ -11384,6 +11384,7 @@ suppressed
 ### VALUE NAMES (weapon_scar.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11399,7 +11400,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_schakal.bnk)
 schakal_fire
@@ -11426,6 +11426,7 @@ suppressed
 ### VALUE NAMES (weapon_schakal.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11441,7 +11442,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_schakal_x.bnk)
 schakal_x_fire
@@ -11452,14 +11452,14 @@ schakal_x_npc1a_3shot
 schakal_x_npc1a_end
 schakal_x_npc1a_loop
 schakal_x_stop
-# 17095960
-# 273612721
-# 630071542
-# 882033497
-# 1813846483
-# 2172934242
-# 2801723976
-# 2988435938
+wp_schakal_x_bolt_back
+wp_schakal_x_bolt_slap
+wp_schakal_x_grab_mag
+wp_schakal_x_lift
+wp_schakal_x_mag_contact
+wp_schakal_x_mag_in
+wp_schakal_x_mag_out
+wp_schakal_x_put_down
 
 ### VARIABLE NAMES (weapon_schakal_x.bnk)
 acoustic_flag
@@ -11468,6 +11468,7 @@ suppressed
 ### VALUE NAMES (weapon_schakal_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11483,7 +11484,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_serbu.bnk)
 serbu_dryfire
@@ -11501,6 +11501,7 @@ suppressed
 ### VALUE NAMES (weapon_serbu.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11516,7 +11517,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_shak12.bnk)
 shak12_fire
@@ -11544,6 +11544,7 @@ suppressed
 ### VALUE NAMES (weapon_shak12.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11559,7 +11560,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_shepheard.bnk)
 shepheard_bolt_forward
@@ -11585,6 +11585,7 @@ suppressed
 ### VALUE NAMES (weapon_shepheard.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11600,7 +11601,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_shepheard_x.bnk)
 shepheard_x_fire
@@ -11625,6 +11625,7 @@ suppressed
 ### VALUE NAMES (weapon_shepheard_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11640,7 +11641,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_shrew.bnk)
 shrew_fire
@@ -11655,6 +11655,7 @@ suppressed
 ### VALUE NAMES (weapon_shrew.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11670,7 +11671,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_shuno.bnk)
 shuno_equip
@@ -11703,6 +11703,7 @@ suppressed
 ### VALUE NAMES (weapon_shuno.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11718,7 +11719,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_sig552.bnk)
 sig552_fire
@@ -11737,6 +11737,7 @@ suppressed
 ### VALUE NAMES (weapon_sig552.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11752,7 +11753,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_siltstone.bnk)
 siltstone_fire
@@ -11775,6 +11775,7 @@ suppressed
 ### VALUE NAMES (weapon_siltstone.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11790,7 +11791,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_sko12.bnk)
 sko12_fire
@@ -11821,6 +11821,7 @@ suppressed
 ### VALUE NAMES (weapon_sko12.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11836,7 +11837,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_skorpion.bnk)
 skorpion_fire
@@ -11855,6 +11855,7 @@ suppressed
 ### VALUE NAMES (weapon_skorpion.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11870,7 +11871,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_skorpion_x.bnk)
 skorpion_x_fire
@@ -11889,6 +11889,7 @@ suppressed
 ### VALUE NAMES (weapon_skorpion_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11904,7 +11905,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_slap.bnk)
 slap_chamber_close
@@ -11947,6 +11947,7 @@ suppressed
 ### VALUE NAMES (weapon_sniper.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -11962,7 +11963,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_snowmolo.bnk)
 snowmolo_burn_loop_stop
@@ -11985,6 +11985,7 @@ suppressed
 ### VALUE NAMES (weapon_sparrow.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12000,7 +12001,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_spas.bnk)
 spas_fire
@@ -12015,6 +12015,7 @@ suppressed
 ### VALUE NAMES (weapon_spas.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12030,7 +12031,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_sr2.bnk)
 sr2_fire
@@ -12049,6 +12049,7 @@ suppressed
 ### VALUE NAMES (weapon_sr2.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12064,7 +12065,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_sr2_x.bnk)
 sr2_x_fire
@@ -12083,6 +12083,7 @@ suppressed
 ### VALUE NAMES (weapon_sr2_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12098,7 +12099,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_sterling.bnk)
 sterling_fire
@@ -12117,6 +12117,7 @@ suppressed
 ### VALUE NAMES (weapon_sterling.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12132,7 +12133,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_sterling_x.bnk)
 sterling_x_fire
@@ -12151,6 +12151,7 @@ suppressed
 ### VALUE NAMES (weapon_sterling_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12166,7 +12167,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_stetch.bnk)
 stetch_fire
@@ -12191,6 +12191,7 @@ suppressed
 ### VALUE NAMES (weapon_stetch.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12206,7 +12207,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_stetch_x.bnk)
 stetch_x_fire
@@ -12231,6 +12231,7 @@ suppressed
 ### VALUE NAMES (weapon_stetch_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12246,7 +12247,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_steyr_scout.bnk)
 steyr_scout_fire
@@ -12291,6 +12291,7 @@ suppressed
 ### VALUE NAMES (weapon_striker.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12306,7 +12307,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_sub2k.bnk)
 sub2k_equip
@@ -12323,6 +12323,7 @@ suppressed
 ### VALUE NAMES (weapon_sub2k.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12338,7 +12339,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_supernova.bnk)
 supernova_fire
@@ -12359,6 +12359,7 @@ suppressed
 ### VALUE NAMES (weapon_supernova.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12374,7 +12375,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_svinet.bnk)
 svinet_fire
@@ -12393,6 +12393,7 @@ suppressed
 ### VALUE NAMES (weapon_svinet.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12408,7 +12409,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_swatturret.bnk)
 swatturret_alert
@@ -12440,6 +12440,7 @@ suppressed
 ### VALUE NAMES (weapon_swatturret.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12455,7 +12456,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_system.bnk)
 system_fire
@@ -12494,6 +12494,7 @@ suppressed
 ### VALUE NAMES (weapon_tcg2.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12509,7 +12510,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_tec9.bnk)
 tec9_fire
@@ -12528,6 +12528,7 @@ suppressed
 ### VALUE NAMES (weapon_tec9.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12543,7 +12544,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_tec9_x.bnk)
 tec9_x_fire
@@ -12562,6 +12562,7 @@ suppressed
 ### VALUE NAMES (weapon_tec9_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12577,7 +12578,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_tecci.bnk)
 tecci_fire
@@ -12596,6 +12596,7 @@ suppressed
 ### VALUE NAMES (weapon_tecci.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12611,7 +12612,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_tkb.bnk)
 tkb_fire
@@ -12625,11 +12625,11 @@ tkb_npc1a_loop
 tkb_stop
 wp_tkb_reload_bolt_pull
 wp_tkb_reload_bolt_release
+wp_tkb_reload_handguard_grab
 wp_tkb_reload_mag_contact
 wp_tkb_reload_mag_grab
 wp_tkb_reload_mag_in
 wp_tkb_reload_mag_out
-# 3432452030
 
 ### VARIABLE NAMES (weapon_tkb.bnk)
 acoustic_flag
@@ -12638,6 +12638,7 @@ suppressed
 ### VALUE NAMES (weapon_tkb.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12653,7 +12654,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_trip_mine.bnk)
 trip_mine_alarm
@@ -12671,6 +12671,7 @@ acoustic_flag
 ### VALUE NAMES (weapon_trip_mine.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12680,7 +12681,6 @@ acoustic_outdoors_small
 acoustic_tunnel_medium
 acoustic_tunnel_small
 none
-# 169236549
 
 ### EVENT NAMES (weapon_tti.bnk)
 tti_fire
@@ -12701,6 +12701,7 @@ suppressed
 ### VALUE NAMES (weapon_tti.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12716,7 +12717,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_turret.bnk)
 turret_alert
@@ -12746,6 +12746,7 @@ suppressed
 ### VALUE NAMES (weapon_turret.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12761,7 +12762,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_turret_ap.bnk)
 turret_fire_ap
@@ -12776,6 +12776,7 @@ suppressed
 ### VALUE NAMES (weapon_turret_ap.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12791,20 +12792,19 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_turret_ranc.bnk)
 turret_ranc_fire
 turret_ranc_fire_single
 turret_ranc_npc1a_1shot
+turret_ranc_npc1a_2shot
+turret_ranc_npc1a_3shot
+turret_ranc_npc1a_end
+turret_ranc_npc1a_loop
 turret_ranc_stop
-# 912928535
-# 1538741924
-# 2256337421
-# 4149534700
 
 ### RTPC/GAME-VARIABLE NAMES (weapon_turret_ranc.bnk)
-# 335193465
+ammo_left
 
 ### VARIABLE NAMES (weapon_turret_ranc.bnk)
 suppressed
@@ -12849,6 +12849,7 @@ suppressed
 ### VALUE NAMES (weapon_type54.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12864,7 +12865,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_ultima.bnk)
 ultima_fire
@@ -12873,10 +12873,10 @@ ultima_npc1b_1shot
 ultima_npc1c_1shot
 wp_ultima_reload_empty_lever_slam
 wp_ultima_reload_empty_shell_in
+wp_ultima_reload_empty_spin
 wp_ultima_reload_grab
 wp_ultima_reload_shell_in
 wp_ultima_reload_spin
-# 1243644910
 
 ### VARIABLE NAMES (weapon_ultima.bnk)
 acoustic_flag
@@ -12885,6 +12885,7 @@ suppressed
 ### VALUE NAMES (weapon_ultima.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12900,7 +12901,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_usp45.bnk)
 usp45_dryfire
@@ -12917,6 +12917,7 @@ suppressed
 ### VALUE NAMES (weapon_usp45.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12932,7 +12933,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_uzi.bnk)
 uzi_fire
@@ -12951,6 +12951,7 @@ suppressed
 ### VALUE NAMES (weapon_uzi.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -12966,7 +12967,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_uzi_x.bnk)
 uzi_x_fire
@@ -12985,6 +12985,7 @@ suppressed
 ### VALUE NAMES (weapon_uzi_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -13000,7 +13001,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_val.bnk)
 val_fire
@@ -13019,6 +13019,7 @@ suppressed
 ### VALUE NAMES (weapon_val.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -13034,7 +13035,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_vhs.bnk)
 vhs_fire
@@ -13053,6 +13053,7 @@ suppressed
 ### VALUE NAMES (weapon_vhs.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -13068,7 +13069,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_vityaz.bnk)
 vityaz_fire
@@ -13096,6 +13096,7 @@ suppressed
 ### VALUE NAMES (weapon_vityaz.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -13111,7 +13112,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_vityaz_x.bnk)
 vityaz_x_fire
@@ -13139,6 +13139,7 @@ suppressed
 ### VALUE NAMES (weapon_vityaz_x.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -13154,7 +13155,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_walther_ppk.bnk)
 w_ppk_fire
@@ -13169,6 +13169,7 @@ suppressed
 ### VALUE NAMES (weapon_walther_ppk.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -13184,7 +13185,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (weapon_white.bnk)
 white_explosion
@@ -13197,6 +13197,7 @@ acoustic_flag
 ### VALUE NAMES (weapon_white.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -13206,7 +13207,6 @@ acoustic_outdoors_small
 acoustic_tunnel_medium
 acoustic_tunnel_small
 none
-# 169236549
 
 ### EVENT NAMES (weapon_zsniper.bnk)
 zsniper_npc1a_1shot
@@ -13220,6 +13220,7 @@ suppressed
 ### VALUE NAMES (weapon_zsniper.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -13235,7 +13236,6 @@ suppressed_a
 suppressed_b
 suppressed_c
 suppressed_d
-# 169236549
 
 ### EVENT NAMES (zipline.bnk)
 zipline_hook
@@ -20572,6 +20572,7 @@ acoustic_flag
 ### VALUE NAMES (langs/job_l_tag_stage1.english.bnk)
 acoustic_flat
 acoustic_forest
+acoustic_indoors_huge
 acoustic_indoors_large
 acoustic_indoors_medium
 acoustic_indoors_small
@@ -20581,7 +20582,6 @@ acoustic_outdoors_small
 acoustic_tunnel_medium
 acoustic_tunnel_small
 none
-# 169236549
 
 ### EVENT NAMES (langs/job_l_trai_stage1.english.bnk)
 Play_civ02_trai_01
