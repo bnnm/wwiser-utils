@@ -1,16 +1,12 @@
-#!/usr/bin/env python3
-from __future__ import division
-import argparse, subprocess, zlib, os, re, sys, fnmatch, logging as log
-
-#******************************************************************************
 # VGMSTREAM FILTER
 #
-# Moves files that don't match filters
-#******************************************************************************
+# Moves files playable by vgmstream that don't match filters to a subfolder
+#
+import argparse, subprocess, hashlib, os, re, fnmatch, logging as log
+
+DEFAULT_MOVE_DIR = 'filtered'
 
 class Cli(object):
-    MOVE_DIR = 'filtered'
-
     def _parse(self):
         description = (
             "Filters vgmstream files in folder that don't match filters and moves them to subfolder"
@@ -33,8 +29,10 @@ class Cli(object):
         p.add_argument('files', help="Files to process (wildcards work)", nargs='+')
         p.add_argument('-c',   dest='cli', help="Set path to CLI (default: auto)")
         p.add_argument('-r',   dest='recursive', help="Find files recursively", action='store_true')
-        p.add_argument('-m',   dest='move_dir', help="Set subdir where filtered files go", default=self.MOVE_DIR)
+        p.add_argument('-m',   dest='move_dir', help="Set subdir where filtered files go", default=DEFAULT_MOVE_DIR)
         p.add_argument('-fd',  dest='dupes', help="Filter by duplicate wavs (slower)", action='store_true')
+        p.add_argument('-fe',  dest='empty', help="Filter banks with no audio", action='store_true')
+        p.add_argument('-fa',  dest='all_filters', help="Filter only if file meets all filters below", action='store_true')
         p.add_argument('-fs',  dest='silences', help="Filter 'silence' codec", action='store_true')
         p.add_argument('-fcm', dest='min_channels', help="Filter by less than channels", type=int)
         p.add_argument('-fcM', dest='max_channels', help="Filter by more than channels", type=int)
@@ -43,7 +41,7 @@ class Cli(object):
         p.add_argument('-fsm', dest='min_seconds', help="Filter by less than seconds (N.N)", type=float)
         p.add_argument('-fsM', dest='max_seconds', help="Filter by more than seconds (N.N)", type=float)
         p.add_argument('-fss', dest='min_subsongs', help="Filter min subsongs\n(1 filters formats incapable of subsongs)", type=int)
-        p.add_argument('-p',   dest='print_info', help=("Print text info, formatted using:\n"
+        p.add_argument('-p',   dest='print_info', help=("Print text info for files that match filters, formatted using:\n"
                                                       "- {fn}=filename\n"
                                                       "- {ss}=total subsong)\n"
                                                       "- {in}=internal stream name\n"
@@ -80,45 +78,41 @@ class Logger(object):
 
 #******************************************************************************
 
-class Cr32Helper(object):
+class Hasher(object):
 
     def __init__(self, args):
-        self.args = args
-        self.crc32_map = {}
-        self.last_dupe = False
+        self._args = args
+        self._hashes = set()
 
-    def get_crc32(self, filename):
+    #TODO: .wav files are big so faster hash is preferable
+    def _get_hash(self, filename):
         buf_size = 0x8000
+
+        hash = hashlib.md5()
         with open(filename, 'rb') as file:
-            buf = file.read(buf_size)
-            crc32 = 0
-            while len(buf) > 0:
-                crc32 = zlib.crc32(buf, crc32)
-                buf = file.read(buf_size)
-        return crc32 & 0xFFFFFFFF 
+            for byte_block in iter(lambda: file.read(buf_size), b""):
+                hash.update(byte_block)
 
-    def update(self, filename):
-        self.last_dupe = False
-        if not self.args.dupes:
-            return
+        return hash.hexdigest()
+
+    def check(self, filename):
+        if not self._args.dupes:
+            return False
         if not os.path.exists(filename):
-            return
+            return False
 
-        crc32_str = format(self.get_crc32(filename),'08x')
-        if (crc32_str in self.crc32_map):
-            self.last_dupe = True
-            return
-        self.crc32_map[crc32_str] = True
+        file_hash = self._get_hash(filename)
+        if file_hash in self._hashes:
+            return True
 
-        return
-
-    def is_last_dupe(self):
-        return self.last_dupe
+        self._hashes.add(file_hash)
+        return False
 
 #******************************************************************************
 
 class CliFilter(object):
 
+    # TODO use json output?
     def __init__(self, args, output_b, basename):
         self.args = args
         self.basename = basename
@@ -172,89 +166,50 @@ class CliFilter(object):
             return True
         if cfg.min_seconds or cfg.max_seconds or cfg.min_subsongs:
             return True
-        if cfg.silences:
+        if cfg.silences or cfg.empty:
             return True
         return False
 
     def _is_ignorable(self):
         cfg = self.args
-        if cfg.min_channels and self.channels < cfg.min_channels:
-            return True
-        if cfg.max_channels and self.channels > cfg.max_channels:
-            return True
-        if cfg.min_sample_rate and self.sample_rate < cfg.min_sample_rate:
-            return True
-        if cfg.max_sample_rate and self.sample_rate > cfg.max_sample_rate:
-            return True
-        if cfg.min_seconds and self.stream_seconds < cfg.min_seconds:
-            return True
-        if cfg.max_seconds and self.stream_seconds > cfg.max_seconds:
-            return True
-        if cfg.min_subsongs and self.stream_count < cfg.min_subsongs:
-            return True
-        if cfg.silences and self.codec == "Silence":
-            return True
-        return False
+        
+        filters = []
+        if cfg.min_channels:
+            filters.append(self.channels < cfg.min_channels)
+
+        if cfg.max_channels:
+            filters.append(self.channels > cfg.max_channels)
+
+        if cfg.min_sample_rate:
+            filters.append(self.sample_rate < cfg.min_sample_rate)
+
+        if cfg.max_sample_rate:
+            filters.append(self.sample_rate > cfg.max_sample_rate)
+
+        if cfg.min_seconds:
+            filters.append(self.stream_seconds < cfg.min_seconds)
+
+        if cfg.max_seconds:
+            filters.append(self.stream_seconds > cfg.max_seconds)
+
+        if cfg.min_subsongs:
+            filters.append(self.stream_count < cfg.min_subsongs)
+
+        if cfg.silences:
+            filters.append(self.codec == "Silence")
+
+        if cfg.all_filters:
+            return all(filters)
+        else:
+            return any(filters)
 
 #******************************************************************************
 
-class App(object):
+class Printer(object):
     def __init__(self, args):
         self.args = args
-        self.crc32 = Cr32Helper(args)
 
-    # check CLI in path (can be called, not just file exists)
-    def _test_cli(self):
-        clis = []
-        if self.args.cli:
-            clis.append(self.args.cli)
-        else:
-            clis.append('vgmstream-cli')
-            clis.append('vgmstream_cli')
-            clis.append('test.exe')
-
-        for cli in clis:
-            try:
-                with open(os.devnull, 'wb') as DEVNULL: #subprocess.STDOUT #py3 only
-                    cmd = "%s" % (cli)
-                    subprocess.check_call(cmd, stdout=DEVNULL, stderr=DEVNULL)
-                self.args.cli = cli
-                return True #exists and returns ok
-            except subprocess.CalledProcessError as e:
-                self.args.cli = cli
-                return True #exists but returns strerr (ran with no args)
-            except Exception as e:
-                continue #doesn't exist
-
-        #none found
-        return False
-
-    def _make_cmd(self, filename_in, filename_out, target_subsong=0):
-        if self.args.dupes:
-            cmd = "%s -s %s -i -o \"%s\" \"%s\"" % (self.args.cli, target_subsong, filename_out, filename_in)
-        else:
-            cmd = "%s -s %s -m -i -O \"%s\"" % (self.args.cli, target_subsong, filename_in)
-        return cmd
-
-    def _find_files(self, dir, pattern):
-        if os.path.isfile(pattern):
-            return [pattern]
-        if os.path.isdir(pattern):
-            dir = pattern
-            pattern = None
-
-        files = []
-        for root, dirnames, filenames in os.walk(dir):
-            for filename in fnmatch.filter(filenames, pattern):
-                files.append(os.path.join(root, filename))
-
-            if not self.args.recursive:
-                break
-
-        return files
-
-
-    def _print_info(self, filter):
+    def print(self, filter):
         cfg = self.args
 
         stream_name = filter.stream_name
@@ -267,7 +222,6 @@ class App(object):
         else:
             subsongs = str(filter.stream_count)
             
-        
         ns = filter.num_samples
         ns_le = (((ns << 24) & 0xFF000000) |
                 ((ns <<  8) & 0x00FF0000) |
@@ -323,6 +277,67 @@ class App(object):
 
         print(txt)
 
+#******************************************************************************
+
+class Converter:
+    def __init__(self, args):
+        self.args = args
+
+    # check CLI in path (can be called, not just file exists)
+    def test_cli(self):
+        clis = []
+        if self.args.cli:
+            clis.append(self.args.cli)
+        else:
+            clis.append('vgmstream-cli')
+            clis.append('vgmstream_cli')
+            clis.append('test.exe')
+
+        for cli in clis:
+            try:
+                with open(os.devnull, 'wb') as DEVNULL: #subprocess.STDOUT #py3 only
+                    cmd = "%s" % (cli)
+                    subprocess.check_call(cmd, stdout=DEVNULL, stderr=DEVNULL)
+                self.args.cli = cli
+                return True #exists and returns ok
+            except subprocess.CalledProcessError as e:
+                self.args.cli = cli
+                return True #exists but returns strerr (ran with no args)
+            except Exception as e:
+                continue #doesn't exist
+
+        #none found
+        return False
+
+    def make_cmd(self, filename_in, filename_out, target_subsong=0):
+        if self.args.dupes:
+            cmd = [self.args.cli, '-s', str(target_subsong), '-i', '-o', filename_out, filename_in]
+        else:
+            cmd = [self.args.cli, '-s', str(target_subsong), '-m', '-i', '-O', filename_in]
+        return cmd
+
+
+
+class App(object):
+    def __init__(self, args):
+        self.args = args
+
+    def _find_files(self, dir, pattern):
+        if os.path.isfile(pattern):
+            return [pattern]
+        if os.path.isdir(pattern):
+            dir = pattern
+            pattern = None
+
+        files = []
+        for root, dirnames, filenames in os.walk(dir):
+            for filename in fnmatch.filter(filenames, pattern):
+                files.append(os.path.join(root, filename))
+
+            if not self.args.recursive:
+                break
+
+        return files
 
     def _move(self, filename_in):
         basename_in = os.path.basename(filename_in)
@@ -338,7 +353,11 @@ class App(object):
         os.rename(filename_in, filename_out)
 
     def start(self):
-        if not self._test_cli():
+        printer = Printer(self.args)
+        converter = Converter(self.args)
+        hasher = Hasher(self.args)
+
+        if not converter.test_cli():
             log.error("ERROR: CLI not found")
             return
 
@@ -358,23 +377,33 @@ class App(object):
             filename_out = ".temp." + basename_in + ".wav"
 
             try:
-                cmd = self._make_cmd(filename_in, filename_out)
+                cmd = converter.make_cmd(filename_in, filename_out)
                 log.debug("calling: %s", cmd)
                 output_b = subprocess.check_output(cmd, shell=False) #stderr=subprocess.STDOUT
             except subprocess.CalledProcessError as e:
                 log.debug("ignoring CLI error in %s: %s", filename_in, str(e.output))
+
+                if self.args.empty and not self.args.print_info:
+                    if b' no subsongs' in e.output:
+                        self._move(filename_in)
+                        total_filtered += 1
+                        continue
+
                 total_errors += 1
                 continue
 
             filter = CliFilter(self.args, output_b, basename_in)
 
+            is_dupe = False
             if not filter.is_ignorable():
-                self.crc32.update(filename_out)
-            filtered = filter.is_ignorable() or self.crc32.is_last_dupe()
+                is_dupe = hasher.check(filename_out)
+            filtered = filter.is_ignorable() or is_dupe
 
             if self.args.print_info and (filtered or not filter.has_filters):
-                self._print_info(filter)
-            elif filter.is_ignorable() or self.crc32.is_last_dupe():
+                # print only
+                printer.print(filter)
+            elif filter.is_ignorable() or is_dupe:
+                # move filtered
                 self._move(filename_in)
                 total_filtered += 1
 
@@ -387,8 +416,3 @@ class App(object):
 
 if __name__ == "__main__":
     Cli().start()
-
-    #if len(sys.argv) > 1:
-    #    Cli().start()
-    #else:
-    #    Gui().start()
