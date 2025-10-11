@@ -1,0 +1,1376 @@
+
+### BANK NAMES
+InGameGlobal
+Init
+OutGame
+Stage026
+Stage029
+Stage048
+Stage102
+Stage900
+
+### LANGUAGE NAMES
+SFX
+
+### BUS NAMES
+Master Audio Bus = 0
+# 224290760
+# 4247173347
+# 283043072
+# 461132732
+# 1235999463
+# 2696135754
+# 1363449357
+# 2746923395
+# 238367779
+# 4231337871
+# 3910160422
+# 3484999628
+# 2108060662
+# 753667459
+# 390939461
+# 1364886679
+# 1437355338
+# 771807470
+# 3193877857
+# 779135805
+# 2065266907
+# 3429042535
+# 210870775
+# 2680678151
+# 1910359335
+# 3997034430
+# 3742893260
+# 2077553574
+# 4038354056
+# 795622403
+# 979264197
+# 1557782365
+# 639050301
+# 1558959538
+# 1815638218
+# 225393952
+# 3513954361
+# 2051791204
+# 1918061537
+# 912126289
+# 879694859
+# 6438227
+# 1544564002
+# 405440555
+# 2174088763
+# 2978219328
+# 969700834
+# 3789486564
+# 3753449631
+# 1035384159
+# 538496737
+# 1119619510
+# 1680974982
+# 597988764
+# 765765060
+# 1887123145
+# 1165586641
+# 3096672557
+# 2084177192
+# 4032177837
+# 1036040078
+# 441730452
+# 3366112498
+# 1370955553
+# 1907500393
+# 156252465
+# 2039802660
+# 452483850
+# 2858260588
+# 2887529507
+# 1395895922
+# 2036792262
+# 1941889688
+# 3412303583
+# 2388518093
+# 3203383357
+# 743954997
+# 3815512600
+# 1291539302
+# 3609816312
+# 1673816688
+# 745787372
+# 909089011
+# 2563997475
+# 2775424470
+# 922171512
+# 3233799927
+# 3691540250
+# 1495590553
+# 3286953766
+# 1743421948
+# 2058933240
+# 1939005390
+# 746222621
+# 2732202463
+# 2870463743
+# 2844886923
+# 3940220546
+# 4284057116
+# 2967402882
+# 1782107051
+# 2276391805
+# 554443890
+# 593100646
+# 3218724250
+# 3347433337
+# 1795036317
+# 509198395
+# 2560361799
+# 226643591
+# 474479378
+# 1874631340
+# 3012770162
+# 1987260392
+# 2432349143
+# 185286315
+# 1899808020
+# 2569863882
+# 2683869440
+# 173458570
+# 4112872992
+# 2727330499
+# 3301805590
+# 404633745
+# 4272351799
+# 206424187
+# 2010969161
+# 737549075
+# 1248883548
+# 2696821412
+# 1959206552
+# 44603982
+# 3983344435
+# 3724009087
+# 4224035771
+# 1655121734
+# 2585800839
+# 2169909165
+# 1973437899
+# 2750657623
+# 1531660647
+# 295174235
+# 2071066520
+# 2387703612
+# 2090089666
+# 2875829623
+# 2901204738
+# 2302899649
+# 2677689807
+# 3518255867
+# 334235739
+# 3748680487
+# 2867743668
+# 2964144163
+# 3837111454
+# 3431864944
+# 1031471238
+# 2305191354
+# 2954886320
+# 3020367070
+# 298663285
+# 2471413808
+# 954951
+# 2933102373
+# 2579129181
+# 3227234256
+# 1488904414
+# 2343690820
+# 508666160
+# 1152469690
+# 2264542052
+# 1730912870
+# 2832322965
+# 2232080403
+# 3667651815
+# 2650787863
+# 2988925370
+# 2357700574
+# 805745282
+# 220708345
+# 2845959425
+# 365894492
+# 4181318931
+# 624093300
+# 428431674
+# 2976586897
+# 2992374436
+# 2516161323
+# 1638395389
+# 116287829
+# 2090331833
+# 193895450
+# 3668542194
+# 3802742324
+# 3907312945
+# 1767270720
+# 1785431801
+# 2593170832
+# 2047937606
+# 2377304972
+# 578762387
+# 1328594055
+# 1414209978
+# 3399978981
+# 1986422646
+# 1725851444
+# 2610820247
+# 2630287848
+# 31028398
+# 335760564
+# 763664687
+# 795168638
+# 4206648656
+# 1886922507
+# 1447230987
+# 2234625954
+# 2645850625
+# 2767527004
+# 1065403224
+# 2031190507
+# 2439675182
+# 2961452225
+# 2552759522
+# 731613968
+# 3658864831
+# 1708657867
+# 3692998242
+# 2782585691
+# 3495179181
+# 1365650338
+# 4002950136
+# 1796619077
+# 720074405
+# 2578101866
+# 819530254
+# 4204312449
+# 2567484348
+# 4070193513
+# 2835525059
+# 2576057377
+# 4112774661
+# 310613625
+# 3742345844
+# 827086194
+# 2218682506
+# 3141457360
+# 2429637405
+# 2149027469
+# 2930323561
+# 1346887847
+# 3944871987
+# 872407864
+# 4179138906
+# 1075834748
+# 2485003731
+# 1890547331
+# 2894638043
+# 720080602
+# 3005819392
+# 1737492726
+# 2474478268
+# 1780763111
+# 2302555430
+# 1079822120
+# 3422173315
+# 1746376435
+# 3944413514
+# 215393801
+# 3061516647
+# 2846153721
+# 1245153054
+# 1571148801
+# 1550078741
+# 2148267653
+# 1769081004
+# 2161810062
+# 411463710
+# 4187651973
+# 3207573326
+# 1132849458
+# 912411945
+# 3490765297
+# 1605135024
+# 2698677676
+# 2586129635
+# 3848017892
+# 2860322250
+# 3953677268
+# 3221468516
+# 3628653264
+# 332762374
+# 1701394985
+# 543764487
+# 2050127891
+# 721398746
+# 2703198472
+# 2472315187
+# 3818757850
+# 3249528270
+# 1721174194
+# 498824236
+# 2662040275
+# 1290694825
+# 3690308801
+# 3192199265
+# 3886257764
+# 465591034
+# 2677860948
+# 2143278459
+# 3253161533
+# 871378755
+# 3673135648
+# 2232997853
+# 3980848247
+# 3339518583
+# 3048980425
+# 1706591429
+# 1809346062
+# 119877150
+# 3903498334
+# 71655024
+# 3768934357
+# 3342959490
+# 1249695958
+# 412635112
+# 543947474
+# 1788553032
+# 4078408795
+# 3179282301
+# 3923403213
+# 365454441
+# 600341061
+# 2556671752
+# 3436389495
+# 2089661897
+# 401003153
+# 1468068829
+# 1623790606
+# 2369580638
+# 2470609152
+# 4171938101
+# 2040639812
+# 3710624213
+# 3475950006
+# 1598808874
+# 711486065
+# 2430167381
+# 846749212
+# 1828285126
+# 3665228260
+# 4123810943
+# 4154737321
+# 1804073975
+# 1853908108
+# 3596159669
+# 153489231
+# 263019840
+# 2484090591
+# 2578434147
+# 2514427652
+# 3337275898
+# 3572162554
+# 4038522575
+# 2830416634
+# 476303011
+# 3609005618
+# 3310781190
+# 1525742589
+# 2548525045
+# 4269213240
+# 3754879459
+# 706891429
+# 34126226
+# 1904025277
+# 3662767145
+# 3740328217
+# 3996281392
+# 4091137194
+# 3689682948
+# 3696856769
+# 3875090625
+# 1504910331
+# 1715866403
+# 2704872170
+# 1941840731
+# 886045203
+# 2322980020
+# 2756615024
+# 3549764234
+# 3048257743
+# 3929891550
+# 3087367042
+# 2231698292
+# 252888654
+# 2431823249
+# 3412584028
+# 2453356023
+# 3840425721
+# 1776359661
+# 3362942372
+# 4008146269
+# 1127018875
+# 3091916935
+# 3713173612
+# 4116482866
+# 4099560049
+# 2773369387
+# 3487872608
+# 3270575478
+# 3308038847
+# 4224457097
+# 1269397831
+# 3346001619
+# 773510523
+# 1614118646
+# 1197143000
+# 2005817054
+# 1632618099
+# 627584495
+# 4214033052
+# 2977600948
+# 4273530158
+# 2956773556
+# 3829687186
+# 143433281
+# 303741636
+# 3858572214
+# 2690934409
+# 3707052773
+# 3862058508
+# 2446178095
+# 806358191
+# 985987111
+# 98054015
+# 645813615
+# 1056815678
+# 1514562348
+# 2362653692
+# 2296726975
+# 3041269562
+# 1547079775
+
+### SFX NAMES (Init.bnk)
+Controller_Speaker
+EnhanceRawSink
+EnhanceRawSink2
+Hall_Conversation
+Large_Bright_Chamber1
+No_Output
+One_Tap_Quarter_Second
+system
+Wwise_Motion
+# 406516964
+# 1144044535
+# 1718737267
+# 2033296441
+# 2285254884
+# 2980010422
+# 3481358630
+# 4248824687
+
+### BASE RTPC/GAME-VARIABLE NAMES (Init.bnk)
+BgmVolume
+CollisionPower
+ColorBattle_Player
+ColorBattle_RecoveryCount
+Fall_Square_a
+Fall_Square_b
+FeedbackMotionVolume
+HeadsetMotionVolume
+LobbyCameraReset
+MasterVolume
+MusicMotionVolume
+MusicSpeedAdjustment_Pitch
+MusicSpeedAdjustment_Speed
+MystoryStageList
+PositionX
+PositionY
+SC_ZoneStart
+SeVolume
+Timeline_PositionX_Grid
+Timeline_Square_a
+Timeline_Square_b
+TitleSelectMode
+TransMotionVolume
+ZoneEffect_a
+ZoneEffect_b
+ZoneEffect_common
+ZoneEffectAll_a
+ZoneEffectAll_b
+ZoneEffectAll_common
+ZoneEffectBlockSize_a
+ZoneEffectBlockSize_b
+ZoneEffectBlockSize_common
+ZoneEffectEnd_a
+ZoneEffectEnd_b
+ZoneEffectEnd_common
+ZoneEffectTime_a
+ZoneEffectTime_b
+ZoneEffectTime_common
+ZoneGaugeMax
+ZoneStart
+# 120168787
+# 633937204
+# 1688227403
+# 2716725812
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+BgmVolume
+ColorBattle_RecoveryCount
+FeedbackMotionVolume
+HeadsetMotionVolume
+LobbyCameraReset
+MasterVolume
+MusicMotionVolume
+SC_ZoneStart
+SeVolume
+Timeline_PositionX_Grid
+TransMotionVolume
+ZoneEffectAll_common
+ZoneEffectBlockSize_common
+ZoneEffectEnd_common
+ZoneEffectTime_common
+# 120168787
+# 633937204
+# 1688227403
+# 2716725812
+
+### VARIABLE NAMES (Init.bnk)
+BossLv
+phase
+Phase_025
+Timeline_PositionX_Grid
+Timeline_PositionX_Grid_bar
+Timeline_PositionX_Grid_beat
+ZoneEffectBlockSize_test
+ZoneEffectTime_test
+# 120168787
+# 633937204
+# 1688227403
+# 2716725812
+
+### EVENT NAMES (InGameGlobal.bnk)
+PauseBGM
+Play_timeline_appear
+Play_timeline_appear_wind
+Play_timeline_disappear
+Play_zone_blowoff
+Play_zone_lastturn
+ResumeBGM
+# 3030609166
+# 3332960151
+
+### EVENT NAMES (OutGame.bnk)
+Play_menu_bgm_gacha
+Play_menu_bgm_multiplayer
+Play_menu_bgm_multiplayer_event01
+Play_menu_bgm_multiplayer_event02
+Play_menu_bgm_mystory
+Play_menu_bgm_mystory_stageicon_011
+Play_menu_bgm_mystory_stageicon_013
+Play_menu_bgm_mystory_stageicon_016
+Play_menu_bgm_mystory_stageicon_017
+Play_menu_bgm_mystory_stageicon_018
+Play_menu_bgm_mystory_stageicon_019
+Play_menu_bgm_mystory_stageicon_021
+Play_menu_bgm_mystory_stageicon_023
+Play_menu_bgm_mystory_stageicon_024
+Play_menu_bgm_mystory_stageicon_026
+Play_menu_bgm_mystory_stageicon_027
+Play_menu_bgm_mystory_stageicon_028
+Play_menu_bgm_mystory_stageicon_029
+Play_menu_bgm_mystory_stageicon_041
+Play_menu_bgm_mystory_stageicon_043
+Play_menu_bgm_mystory_stageicon_044
+Play_menu_bgm_mystory_stageicon_045
+Play_menu_bgm_mystory_stageicon_046
+Play_menu_bgm_mystory_stageicon_047
+Play_menu_bgm_mystory_stageicon_048
+Play_menu_bgm_quest
+Play_menu_bgm_story
+Play_menu_bgm_title
+Play_training_avatarfader
+Play_ui_area_in
+Play_ui_community_playlog
+Play_ui_gameover
+Play_ui_in
+Play_ui_in2
+Play_ui_lobby_amb_lp_arcadegame
+Play_ui_lobby_amb_lp_fireworks
+Play_ui_lobby_amb_lp_gacha
+Play_ui_lobby_amb_lp_helicopter_01
+Play_ui_lobby_amb_lp_helicopter_02
+Play_ui_lobby_amb_lp_jungle_01
+Play_ui_lobby_amb_lp_jungle_02
+Play_ui_lobby_amb_lp_jungle_03
+Play_ui_lobby_amb_lp_stadium
+Play_ui_lobby_amb_lp_training
+Play_ui_lobby_amb_lp_zonebattle
+Play_ui_lobby_boss_gaugeeffect #alt
+Play_ui_lobby_enter
+Play_ui_lobby_footsteps
+Play_ui_lobby_gacha
+Play_ui_lobby_gacha_Normal
+Play_ui_lobby_gacha_rare
+Play_ui_lobby_gacha_superrare
+Play_ui_lobby_greeting
+Play_ui_lobby_highfive
+Play_ui_lobby_Jump
+Play_ui_lobby_jump_landing
+Play_ui_lobby_lights
+Play_ui_lobby_quickmatch
+Play_ui_lobby_quickmatch_out
+Play_ui_lobby_touch
+Play_ui_lobby_touch_arcadegame
+Play_ui_mode_in
+Play_ui_multi_result
+Play_ui_multi_result_rank
+Play_ui_mydata_nextpage
+Play_ui_mystory_shuffle
+Play_ui_mystory_slot_add
+Play_ui_mystory_slot_remove
+Play_ui_option_vibration_feedback
+Play_ui_option_vibration_headset
+Play_ui_option_vibration_music
+Play_ui_option_vibration_trans
+Play_ui_out
+Play_ui_popup_close
+Play_ui_popup_open
+Play_ui_result_bgm
+Play_ui_result_info
+Play_ui_result_rank
+Play_ui_select
+Play_ui_switch_detail
+Play_ui_switch_tab
+Play_ui_title_cube_lp_mode01
+Play_ui_title_cube_lp_mode02
+Play_ui_title_cube_lp_mode03
+Play_ui_title_cube_lp_mode04
+Play_ui_title_cube_lp_mode05
+Play_ui_title_cube_select
+Stop_accum_ui_amb_01
+Stop_accum_ui_amb_03
+Stop_accum_ui_amb_04
+Stop_accum_ui_amb_05
+Stop_menu_bgm_multiplayer
+Stop_menu_bgm_mystory
+Stop_menu_bgm_mystory_stageicon_018
+Stop_menu_bgm_mystory_stageicon_019
+Stop_menu_bgm_mystory_stageicon_021
+Stop_menu_bgm_mystory_stageicon_023
+Stop_menu_bgm_mystory_stageicon_024
+Stop_menu_bgm_mystory_stageicon_025
+Stop_menu_bgm_mystory_stageicon_026
+Stop_menu_bgm_mystory_stageicon_027
+Stop_menu_bgm_mystory_stageicon_028
+Stop_menu_bgm_mystory_stageicon_029
+Stop_menu_bgm_mystory_stageicon_041
+Stop_menu_bgm_mystory_stageicon_043
+Stop_menu_bgm_mystory_stageicon_044
+Stop_menu_bgm_mystory_stageicon_045
+Stop_menu_bgm_mystory_stageicon_046
+Stop_menu_bgm_mystory_stageicon_047
+Stop_menu_bgm_mystory_stageicon_048
+Stop_ui_lobby_amb_lp_arcadegame
+Stop_ui_lobby_amb_lp_gacha
+Stop_ui_lobby_amb_lp_helicopter_01
+Stop_ui_lobby_amb_lp_helicopter_02
+Stop_ui_lobby_amb_lp_jungle_01
+Stop_ui_lobby_amb_lp_jungle_02
+Stop_ui_lobby_amb_lp_jungle_03
+Stop_ui_lobby_amb_lp_stadium
+Stop_ui_lobby_amb_lp_training
+Stop_ui_lobby_amb_lp_zonebattle
+Stop_ui_title_cube_lp
+# 66165680
+# 66165681
+# 66165691
+# 66165692
+# 66165694
+# 66165695
+# 166831298
+# 166831299
+# 166831305
+# 166831306
+# 166831307
+# 166831308
+# 166831309
+# 166831310
+# 166831311
+# 1305567286
+# 1305567287
+# 1305567288
+# 1305567289
+# 1305567290
+# 1305567293
+# 1339122432
+# 1339122433
+# 1339122434
+# 1339122435
+# 1339122436
+# 1339122437
+# 1339122439
+# 1339122444
+# 1339122445
+# 1355900146
+
+### RTPC/GAME-VARIABLE NAMES (OutGame.bnk)
+MystoryStageList
+TitleSelectMode
+
+### VARIABLE NAMES (OutGame.bnk)
+BossLv
+result_rank
+
+### VALUE NAMES (OutGame.bnk)
+Lv1
+Lv2
+Lv3
+Lv4
+none
+result_rank_a
+result_rank_b
+result_rank_c
+result_rank_d
+result_rank_s
+
+### EVENT NAMES (Stage026.bnk)
+# 116842387
+# 220984129
+# 220984130
+# 286362236
+# 286362239
+# 332959993
+# 332959994
+# 389378675
+# 439770600
+# 439770603
+# 546070339
+# 577526843
+# 642471156
+# 642471159
+# 701811720
+# 701811723
+# 831410852
+# 831410855
+# 835387410
+# 840146439
+# 975662525
+# 1120645093
+# 1120645115
+# 1144980974
+# 1153462865
+# 1153462866
+# 1227497968
+# 1337347416
+# 1427569994
+# 1454212365
+# 1454212366
+# 1477902751
+# 1502410636
+# 1502410639
+# 1528925963
+# 1530725677
+# 1530725683
+# 1540888478
+# 1555331036
+# 1555331039
+# 1569883361
+# 1569883362
+# 1582410180
+# 1582410183
+# 1697359842
+# 1697359868
+# 1973734416
+# 1973734419
+# 1979482802
+# 2259716385
+# 2344924232
+# 2344924235
+# 2473272029
+# 2544389961
+# 2544389962
+# 2560428390
+# 2584418565
+# 2584418566
+# 2593198094
+# 2610761139
+# 2628763213
+# 2645540796
+# 2693135756
+# 2693135759
+# 2778636989
+# 2778636990
+# 2792583374
+# 2839278073
+# 2839278074
+# 2900399769
+# 2900399770
+# 2901874448
+# 2901874451
+# 3062043681
+# 3062043682
+# 3118802473
+# 3178448849
+# 3178448850
+# 3188053425
+# 3188053426
+# 3206053568
+# 3206053598
+# 3488349464
+# 3488349467
+# 3532823065
+# 3532823066
+# 3682410277
+# 3700554258
+# 3781645019
+# 3785779336
+# 3817967577
+# 3854858717
+# 3871636276
+# 3963349384
+# 3963349387
+# 3986856836
+# 4050851817
+# 4050851818
+# 4056278245
+# 4056278246
+# 4288805866
+
+### SFX NAMES (Stage026.bnk)
+SC_026_ZoneStart
+
+### TRIGGER NAMES (Stage026.bnk)
+ZoneLastturn_a
+ZoneLastturn_b
+
+### RTPC/GAME-VARIABLE NAMES (Stage026.bnk)
+ZoneEffect_common
+ZoneEffectAll_common
+ZoneEffectBlockSize_common
+ZoneEffectTime_common
+
+### VARIABLE NAMES (Stage026.bnk)
+music_sequence
+phase
+square_size
+sub_number
+ZoneEffectTime_test
+
+### VALUE NAMES (Stage026.bnk)
+music_sequence01
+music_sequence02
+music_sequence03
+music_sequence04
+music_sequence05
+music_sequence06
+music_sequence07
+music_sequence08
+music_sequence09
+music_sequence10
+music_sequence11
+music_sequence12
+music_sequence13
+music_sequence14
+music_sequence15
+music_sequence16
+music_sequence17
+music_sequence18
+music_sequence19
+none
+p1
+p2
+p3
+p4
+square_size01
+square_size02
+square_size03
+square_size04
+square_size05
+square_size06
+square_size07
+square_size08
+sub_number01
+sub_number02
+sub_number03
+sub_number04
+sub_number05
+sub_number06
+sub_number07
+sub_number08
+sub_number09
+sub_number10
+sub_number11
+sub_number12
+sub_number13
+sub_number14
+sub_number15
+sub_number16
+sub_number17
+sub_number18
+sub_number19
+transition_01
+transition_02
+# 178547376
+# 178547377
+# 178547378
+# 178547379
+# 178547380
+# 178547381
+# 178547382
+# 178547383
+# 178547388
+# 178547389
+# 195324967
+# 1180710114
+# 1197487696
+# 1197487697
+# 1197487698
+# 1197487699
+# 1197487700
+# 1197487701
+# 1197487702
+# 1197487703
+# 1197487708
+# 1197487709
+# 306869630
+# 2367435147
+# 2367435148
+# 2367435149
+# 2367435150
+
+### EVENT NAMES (Stage029.bnk)
+# 179074716
+# 179074719
+# 278539967
+# 286708789
+# 286708790
+# 326918732
+# 326918735
+# 350963724
+# 504236525
+# 504236526
+# 539737298
+# 762534400
+# 762534403
+# 772453369
+# 772453370
+# 1025532890
+# 1122210881
+# 1138988464
+# 1188121586
+# 1215832049
+# 1217647286
+# 1238454359
+# 1270383887
+# 1270383889
+# 1274560240
+# 1341558673
+# 1341558674
+# 1394813886
+# 1395394408
+# 1395394411
+# 1586416400
+# 1586416403
+# 1614679721
+# 1696881872
+# 1696881875
+# 1812560891
+# 1992275301
+# 1992275302
+# 2603570748
+# 2603570751
+# 2743213533
+# 2743213534
+# 2766950028
+# 2766950031
+# 3038951065
+# 3038951066
+# 3048980138
+# 3099312911
+# 3101146612
+# 3101146615
+# 3106737260
+# 3106737263
+# 3141573916
+# 3317331332
+# 3317331335
+# 3373574984
+# 3373574998
+# 3610329453
+# 3610329454
+# 3615664233
+# 3615664234
+# 3631096936
+# 3631096950
+# 3674630117
+# 3674630118
+# 3700926861
+# 3700926862
+# 3837686600
+# 3837686603
+# 3875630540
+# 3906377935
+# 3925913541
+# 4013069777
+# 4180480689
+# 4180480690
+# 4227222562
+
+### SFX NAMES (Stage029.bnk)
+SC_029_ZoneStart
+
+### TRIGGER NAMES (Stage029.bnk)
+ZoneLastturn_a
+ZoneLastturn_b
+
+### RTPC/GAME-VARIABLE NAMES (Stage029.bnk)
+ZoneEffect_common
+ZoneEffectAll_common
+ZoneEffectBlockSize_common
+ZoneEffectTime_common
+
+### VARIABLE NAMES (Stage029.bnk)
+phase
+square_size
+ZoneEffectTime_test
+
+### VALUE NAMES (Stage029.bnk)
+p1
+p2
+p3
+square_size01
+square_size02
+square_size03
+square_size04
+square_size05
+square_size06
+square_size07
+square_size08
+transition_01
+transition_02
+# 306869630
+# 2367435147
+# 2367435148
+# 2367435149
+# 2367435150
+
+### EVENT NAMES (Stage048.bnk)
+# 38517597
+# 181569478
+# 231014782
+# 372892756
+# 372892759
+# 579931948
+# 579931951
+# 801468359
+# 917313497
+# 917313498
+# 920819513
+# 983308820
+# 983308823
+# 984208433
+# 984208434
+# 1155894633
+# 1155894634
+# 1387944982
+# 1431413176
+# 1431413179
+# 1545418490
+# 1595185972
+# 1605627589
+# 1605627590
+# 1695059263
+# 1826413060
+# 1893776114
+# 1944108839
+# 1960525703
+# 1960525721
+# 1962110881
+# 1978888456
+# 2117817824
+# 2117817827
+# 2308156014
+# 2308156016
+# 2393634727
+# 2393634745
+# 2472743485
+# 2472743486
+# 2482848340
+# 2482848343
+# 2542942237
+# 2542942238
+# 2640267133
+# 2640267134
+# 2931233427
+# 2952315832
+# 2952315835
+# 3093177252
+# 3167099330
+# 3171330565
+# 3171330566
+# 3298146153
+# 3298146154
+# 3302879972
+# 3302879975
+# 3423517663
+# 3502310741
+# 3502310742
+# 3568948104
+# 3568948107
+# 3576131247
+# 3647093495
+# 3714644361
+# 3731421960
+# 3796805637
+# 3796805638
+# 3882689249
+# 3882689250
+# 3974042421
+# 3974042422
+# 4032155609
+# 4058388565
+# 4058388566
+# 4135442538
+# 4144120015
+
+### SFX NAMES (Stage048.bnk)
+SC_048_ZoneStart
+
+### TRIGGER NAMES (Stage048.bnk)
+ZoneLastturn_a
+ZoneLastturn_b
+
+### RTPC/GAME-VARIABLE NAMES (Stage048.bnk)
+ZoneEffect_common
+ZoneEffectAll_common
+ZoneEffectBlockSize_a
+ZoneEffectTime_common
+
+### VARIABLE NAMES (Stage048.bnk)
+phase
+square_size
+
+### VALUE NAMES (Stage048.bnk)
+none
+p1
+p2
+p3
+square_size01
+square_size02
+square_size03
+square_size04
+square_size05
+square_size06
+square_size07
+square_size08
+transition_01
+transition_02
+
+### EVENT NAMES (Stage102.bnk)
+# 314514984
+# 447666277
+# 447666278
+# 484593965
+# 510117262
+# 740429313
+# 740429314
+# 757657962
+# 757657972
+# 839533156
+# 839533159
+# 846322273
+# 1182601320
+# 1182601323
+# 1294669173
+# 1299804292
+# 1299804295
+# 1372869668
+# 1443284785
+# 1443284786
+# 1705224758
+# 1788805752
+# 1788805755
+# 1937992922
+# 2093993649
+# 2093993650
+# 2278346982
+# 2345709020
+# 2345709023
+# 2478837622
+# 2484251848
+# 2529170387
+# 2573216191
+# 2646825992
+# 2646825995
+# 2651593265
+# 2651593266
+# 2921437265
+# 2921437266
+# 2942155981
+# 3270083908
+# 3270083911
+# 3622854373
+# 3622854374
+# 4100300248
+# 4225318231
+# 4292324576
+# 4292324579
+
+### SFX NAMES (Stage102.bnk)
+SC_102_ZoneStart
+
+### TRIGGER NAMES (Stage102.bnk)
+ZoneLastturn_a
+ZoneLastturn_b
+
+### RTPC/GAME-VARIABLE NAMES (Stage102.bnk)
+ZoneEffect_common
+ZoneEffectAll_common
+ZoneEffectBlockSize_common
+ZoneEffectTime_common
+
+### VARIABLE NAMES (Stage102.bnk)
+phase
+square_size
+ZoneEffectTime_test
+
+### VALUE NAMES (Stage102.bnk)
+none
+p1
+p2
+p3
+square_size01
+square_size02
+square_size03
+square_size04
+square_size05
+square_size06
+square_size07
+square_size08
+# 306869630
+# 2367435147
+# 2367435148
+# 2367435149
+# 2367435150
+
+### EVENT NAMES (Stage900.bnk)
+# 113510661
+# 113510662
+# 511196598
+# 706511149
+# 856020180
+# 894096919
+# 953345735
+# 992830157
+# 992830158
+# 1137067407
+# 1176490822
+# 1295870922
+# 1370331244
+# 1452052041
+# 1452052042
+# 1484031270
+# 1495589125
+# 1547516796
+# 1547516799
+# 1643180036
+# 1643180039
+# 1781505205
+# 1781505206
+# 1885650217
+# 1902427816
+# 2026188277
+# 2026188278
+# 2056266668
+# 2356695057
+# 2758695909
+# 2758695910
+# 2776462414
+# 2776462416
+# 2794421558
+# 2931941848
+# 2931941851
+# 3087492378
+# 3231770307
+# 3597120308
+# 3597120311
+# 4006865573
+# 4006865574
+
+### SFX NAMES (Stage900.bnk)
+SC_900_ZoneStart
+
+### TRIGGER NAMES (Stage900.bnk)
+ZoneLastturn_a
+ZoneLastturn_b
+
+### RTPC/GAME-VARIABLE NAMES (Stage900.bnk)
+ZoneEffectAll_common
+ZoneEffectBlockSize_common
+ZoneEffectTime_common
+
+### VARIABLE NAMES (Stage900.bnk)
+phase
+square_size
+sub_number
+ZoneEffectTime_test
+
+### VALUE NAMES (Stage900.bnk)
+p1
+p2
+p3
+square_size01
+square_size02
+square_size03
+square_size04
+square_size05
+square_size06
+square_size07
+square_size08
+sub_number01
+sub_number02
+sub_number03
+sub_number04
+sub_number05
+sub_number06
+sub_number07
+sub_number08
+sub_number09
+sub_number10
+sub_number11
+sub_number12
+sub_number13
+sub_number14
+sub_number15
+sub_number16
+sub_number17
+sub_number18
+sub_number19
+# 1180710114
+# 1197487696
+# 1197487697
+# 1197487698
+# 1197487699
+# 1197487700
+# 1197487701
+# 1197487702
+# 1197487703
+# 1197487708
+# 1197487709
+# 306869630
+# 2367435147
+# 2367435148
+# 2367435149
+# 2367435150
+
+#3974042421  : Play_newOut_multiplayer
+
+#3373574984  : Play_option_VR_music
