@@ -2,7 +2,7 @@
 #
 # Moves files playable by vgmstream that don't match filters to a subfolder
 #
-import argparse, subprocess, hashlib, os, re, fnmatch, logging as log
+import argparse, subprocess, hashlib, os, re, fnmatch, logging as log, glob
 
 DEFAULT_MOVE_DIR = 'filtered'
 
@@ -30,6 +30,7 @@ class Cli(object):
         p.add_argument('-c',   dest='cli', help="Set path to CLI (default: auto)")
         p.add_argument('-r',   dest='recursive', help="Find files recursively", action='store_true')
         p.add_argument('-m',   dest='move_dir', help="Set subdir where filtered files go", default=DEFAULT_MOVE_DIR)
+        p.add_argument('-mc',  dest='move_current', help="Moves filtered files to subdir in current dir, rather than their own", action='store_true')
         p.add_argument('-fd',  dest='dupes', help="Filter by duplicate wavs (slower)", action='store_true')
         p.add_argument('-fe',  dest='empty', help="Filter banks with no audio", action='store_true')
         p.add_argument('-fa',  dest='all_filters', help="Filter only if file meets all filters below", action='store_true')
@@ -316,9 +317,7 @@ class Converter:
             cmd = [self.args.cli, '-s', str(target_subsong), '-m', '-i', '-O', filename_in]
         return cmd
 
-
-
-class App(object):
+class FileHandler(object):
     def __init__(self, args):
         self.args = args
 
@@ -339,79 +338,105 @@ class App(object):
 
         return files
 
-    def _move(self, filename_in):
-        basename_in = os.path.basename(filename_in)
+    def get_files(self):
+        filenames_in = []
+        for filename in self.args.files:
+            filenames_in += self._find_files('.', filename)
+        return filenames_in
 
-        dirname_out = os.path.dirname(basename_in)
+
+    def move(self, filename_in):
+        if self.args.move_current:
+            dirname_out = '.'
+        else:
+            dirname_out = os.path.dirname(filename_in)
         dirname_out = os.path.join(dirname_out, self.args.move_dir)
-        filename_out = os.path.join(dirname_out, basename_in)
-        if os.path.exists(filename_out):
-            log.info("ignoring existing file: %s". filename_in)
+
+        basename_in = os.path.basename(filename_in)
+        filename_move = os.path.join(dirname_out, basename_in)
+        if os.path.exists(filename_move):
+            log.info("ignoring existing file: %s", filename_in)
 
         os.makedirs(dirname_out, exist_ok=True)
+        os.rename(filename_in, filename_move)
 
-        os.rename(filename_in, filename_out)
+    def clean_tmp(self, filename_tmp):
+        if os.path.exists(filename_tmp):
+            os.remove(filename_tmp)
+
+
+class App(object):
+    def __init__(self, args):
+        self.args = args
+        self.total_filtered = 0
+        self.total_errors = 0
+        self.converter = Converter(self.args)
+        self.hasher = Hasher(self.args)
+        self.printer = Printer(self.args)
+        self.files = FileHandler(self.args)
 
     def start(self):
-        printer = Printer(self.args)
-        converter = Converter(self.args)
-        hasher = Hasher(self.args)
+        files = self.files
+        converter = self.converter
 
         if not converter.test_cli():
             log.error("ERROR: CLI not found")
             return
 
-        filenames_in = []
-        for filename in self.args.files:
-            filenames_in += self._find_files('.', filename)
+        filenames_in = files.get_files()
 
-        total_filtered = 0
-        total_errors = 0
         for filename_in in filenames_in:
 
-            #skip starting dot for extensionless files
+            # skip starting dot for extensionless files
             if filename_in.startswith(".\\"):
                 filename_in = filename_in[2:]
+                self._process(filename_in)
 
-            basename_in = os.path.basename(filename_in)
-            filename_out = ".temp." + basename_in + ".wav"
-
-            try:
-                cmd = converter.make_cmd(filename_in, filename_out)
-                log.debug("calling: %s", cmd)
-                output_b = subprocess.check_output(cmd, shell=False) #stderr=subprocess.STDOUT
-            except subprocess.CalledProcessError as e:
-                log.debug("ignoring CLI error in %s: %s", filename_in, str(e.output))
-
-                if self.args.empty and not self.args.print_info:
-                    if b' no subsongs' in e.output:
-                        self._move(filename_in)
-                        total_filtered += 1
-                        continue
-
-                total_errors += 1
-                continue
-
-            filter = CliFilter(self.args, output_b, basename_in)
-
-            is_dupe = False
-            if not filter.is_ignorable():
-                is_dupe = hasher.check(filename_out)
-            filtered = filter.is_ignorable() or is_dupe
-
-            if self.args.print_info and (filtered or not filter.has_filters):
-                # print only
-                printer.print(filter)
-            elif filter.is_ignorable() or is_dupe:
-                # move filtered
-                self._move(filename_in)
-                total_filtered += 1
-
-            if os.path.exists(filename_out):
-                os.remove(filename_out)
 
         if not self.args.print_info:
-            log.info("done! (%s filtered, %s errors)", total_filtered, total_errors)
+            log.info("done! (%s filtered, %s errors)", self.total_filtered, self.total_errors)
+
+    def _process(self, filename_in):
+        hasher = self.hasher
+        files = self.files
+        converter = self.converter
+        printer = self.printer
+
+        basename_in = os.path.basename(filename_in)
+        filename_tmp = ".temp." + basename_in + ".wav"
+
+        try:
+            cmd = converter.make_cmd(filename_in, filename_tmp)
+            log.debug("calling: %s", cmd)
+            output_b = subprocess.check_output(cmd, shell=False) #stderr=subprocess.STDOUT
+        except subprocess.CalledProcessError as e:
+            log.debug("ignoring CLI error in %s: %s", filename_in, str(e.output))
+
+            if self.args.empty and not self.args.print_info:
+                if b' no subsongs' in e.output:
+                    files.move(filename_in)
+                    self.total_filtered += 1
+                    return
+
+            self.total_errors += 1
+            return
+
+        filter = CliFilter(self.args, output_b, basename_in)
+
+        is_dupe = False
+        if not filter.is_ignorable():
+            is_dupe = hasher.check(filename_tmp)
+        filtered = filter.is_ignorable() or is_dupe
+
+        if self.args.print_info and (filtered or not filter.has_filters):
+            # print only
+            printer.print(filter)
+        elif filter.is_ignorable() or is_dupe:
+            # move filtered
+            files.move(filename_in)
+            self.total_filtered += 1
+
+        files.clean_tmp(filename_tmp)
 
 
 if __name__ == "__main__":
