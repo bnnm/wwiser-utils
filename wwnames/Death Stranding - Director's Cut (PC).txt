@@ -10360,3 +10360,28 @@ walk
 
 #2271949435  : ds_ft_track
 #2796988400  : every_cather
+
+#1186588796  : phase_return_rest_phase
+3157452631  : sd_ext_dialogue_echo_3d
+2992609295  : sd_ext_harmonica_sam_3d
+4077414683  : sd_ext_whistle_sam_3d
+3816875328  : sd_sfx_ph_tar_impact_heavy
+360713500   : ds_echo_response
+1963666761  : ping_flying
+475429836   : third_person_camera_zoom
+2347972789  : ds_resident_entity_sam
+#3482307534  : holo_boots_lp
+#2034346168  : sd_common_silence
+2459424659  : sd_sfx_vh_jump_land_con_mud_wet
+2972564631  : sd_sfx_vh_jump_land_concrete_wet
+3578109665  : sd_sfx_vh_jump_land_dirt_black_wet
+4058050905  : sd_sfx_vh_jump_land_dirt_red_wet
+2546971757  : sd_sfx_vh_jump_land_dirt_wet
+1427786391  : sd_sfx_vh_jump_land_dirt_white_wet
+424479163   : sd_sfx_vh_jump_land_gravel_wet
+609371330   : sd_sfx_vh_jump_land_mud_wet
+3338049670  : sd_sfx_vh_jump_land_other_wet
+#2467028579  : sd_music_player_cutscene_pause_instantly
+43950937    : sd_sfx_backpack_maneuver_unit_lv3_booster_end
+1873957695  : Anechoic
+2184015236  : sd_sfx_p_fs_inclination

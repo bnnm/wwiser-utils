@@ -47308,3 +47308,25 @@ ev40000020_0120
 #3262057855  : sev_env_bonfire_S
 #235988221   : com_sys_e050_sound
 #1404841586  : com_lgg_vision
+
+4024228352  : btl_sp_l00
+4024228353  : btl_sp_L01
+2317987031  : btl_sp_s00
+2317987030  : btl_sp_S01
+2149078072  : btl_sp_T00
+235988220   : btl_sp_y01
+235988223   : btl_sp_y02
+3323257586  : btl_sword01_ArmRise
+2214098170  : com_cursor_RandALL
+2444454799  : com_env_MachineRoom
+548135812   : com_gim_WoodDoor
+1967185566  : elem_dether_piller
+1419635231  : elem_dether_shockwave
+883652056   : elem_ether_piller
+1538427305  : elem_ether_shockwave
+1919196998  : elem_lether_piller
+1863814679  : elem_lether_shockwave
+1465068622  : sev_env_MachineRoom
+1575935507  : elem_dether_piller_l
+2603401625  : elem_ether_piller_l
+3166244091  : elem_lether_piller_l

@@ -457,108 +457,108 @@ cfvoice
 environment
 eventcs
 eventse
+EventVoice
 field
 gimmick
 Master Audio Bus = 0
 Music
 SE
 System
+SystemTop
 Voice
 weather
-# 2446979387
-# 2061292915
 
 ### SFX NAMES (1355168291.bnk: init)
 No_Output
 System
 
 ### BASE RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
+param_BusVolume_battle
+param_BusVolume_Bgm
+param_BusVolume_cf_Voice
+param_BusVolume_environment
+param_BusVolume_event_cs
+param_BusVolume_event_SE
+param_BusVolume_event_Voice
+param_BusVolume_field
+param_BusVolume_gimmick
+param_BusVolume_Music
+param_BusVolume_SE
+param_BusVolume_System
+param_BusVolume_System_top
+param_BusVolume_Voice
+param_BusVolume_weather
+param_Master_Audio_Bus
 param_pan
 param_pitch
 # 36595338
 # 66286719
 # 120722507
-# 126509445
 # 145585661
 # 215547278
-# 275024566
 # 443029280
 # 483923595
 # 543216524
 # 803071213
 # 928489281
-# 933395692
-# 1095641167
 # 1204697704
-# 1310117075
-# 1330724837
-# 1364082985
 # 1366676308
 # 1502105108
 # 1525323034
 # 1635158338
-# 1793553639
 # 1865907974
 # 1943650666
-# 2305017081
-# 2342808475
-# 2393197036
 # 2592712385
 # 2657429183
 # 2795610623
-# 2805356964
 # 2807443103
 # 2825303383
-# 2827129542
 # 2839983609
 # 3019554169
 # 3064052441
 # 3113470728
-# 3240597843
-# 3362549254
 # 3492147219
 # 3689830003
-# 3815853072
 # 3835443598
 # 4127454682
 # 4149341222
 # 4171724896
 
 ### RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
-# 126509445
+param_BusVolume_battle
+param_BusVolume_Bgm
+param_BusVolume_cf_Voice
+param_BusVolume_environment
+param_BusVolume_event_cs
+param_BusVolume_event_SE
+param_BusVolume_event_Voice
+param_BusVolume_field
+param_BusVolume_gimmick
+param_BusVolume_Music
+param_BusVolume_SE
+param_BusVolume_System
+param_BusVolume_System_top
+param_BusVolume_Voice
+param_BusVolume_weather
+param_Master_Audio_Bus
 # 483923595
 # 4171724896
-# 2805356964
 # 145585661
 # 4127454682
 # 3492147219
 # 36595338
-# 933395692
-# 2393197036
 # 1865907974
-# 1310117075
 # 928489281
 # 3064052441
-# 1095641167
 # 1366676308
-# 2827129542
 # 2657429183
-# 1330724837
-# 1793553639
 # 2592712385
 # 803071213
-# 3240597843
 # 3113470728
-# 3362549254
 # 3019554169
-# 2342808475
-# 3815853072
 # 1635158338
 # 66286719
-# 2305017081
-# 275024566
 # 543216524
-# 1364082985
 # 2795610623
 # 3689830003
 # 1502105108
@@ -668,6 +668,100 @@ xs33850100_music_Play
 xs33860100_music_Play
 
 ### EVENT NAMES (1271354004.bnk: Common2)
+m_h_w_wet_L1_Play
+m_h_w_wet_R1_Play
+m_n_B_wet_Play
+m_n_J_con_Play
+m_n_j_dirt_Play
+m_n_j_gras_Play
+m_n_J_grav_Play
+m_n_J_mag_Play
+m_n_J_met_Play
+m_n_j_snow_Play
+m_n_J_wet_Play
+m_n_l_con_Play
+m_n_l_dirt_Play
+m_n_l_gras_Play
+m_n_l_grav_Play
+m_n_l_mag_Play
+m_n_l_met_Play
+m_n_l_snow_Play
+m_n_l_wet__Play
+m_n_l_wet_Play
+m_n_lb_con_Play
+m_n_lb_dirt_Play
+m_n_lb_gras_Play
+m_n_lb_grav_Play
+m_n_lb_mag_Play
+m_n_lb_met_Play
+m_n_lb_snow_Play
+m_n_lb_water_Play
+m_n_lb_wet__Play
+m_n_lb_wet_Play
+m_n_ls_water_Play
+m_n_r_con_L1_Play
+m_n_r_con_R1_Play
+m_n_r_con_r2_Play
+m_n_r_dirt_L1__Play
+m_n_r_dirt_L1_Play
+m_n_r_dirt_R1__Play
+m_n_r_dirt_R1_Play
+m_n_r_dirt_r2_Play
+m_n_r_gras_L1__Play
+m_n_r_gras_L1_Play
+m_n_r_gras_R1__Play
+m_n_r_gras_R1_Play
+m_n_r_gras_r2_Play
+m_n_r_grav_l1__Play
+m_n_r_grav_L1_Play
+m_n_r_grav_r1__Play
+m_n_r_grav_R1_Play
+m_n_r_grav_r2_Play
+m_n_r_mag_L1_Play
+m_n_r_mag_R1_Play
+m_n_r_mag_r2_Play
+m_n_r_met_l1__Play
+m_n_r_met_L1_Play
+m_n_r_met_r1__Play
+m_n_r_met_R1_Play
+m_n_r_met_r2_Play
+m_n_r_snow_L1_Play
+m_n_r_snow_R1_Play
+m_n_r_snow_r2_Play
+m_n_r_wet_L1_Play
+m_n_r_wet_R1_Play
+m_n_r_wet_r2_Play
+m_n_s_con_Play
+m_n_s_dirt_Play
+m_n_s_gras_Play
+m_n_s_grav_Play
+m_n_s_mag_Play
+m_n_s_met_Play
+m_n_s_snow_Play
+m_n_s_wet_Play
+m_n_sj_wet_Play
+m_n_w_con_L1_Play
+m_n_w_con_R1_Play
+m_n_w_con_r2_Play
+m_n_w_dirt_L1_Play
+m_n_w_dirt_R1_Play
+m_n_w_dirt_r2_Play
+m_n_w_gras_L1_Play
+m_n_w_gras_R1_Play
+m_n_w_gras_r2_Play
+m_n_w_grav_L1_Play
+m_n_w_grav_R1_Play
+m_n_w_grav_r2_Play
+m_n_w_mag_L1_Play
+m_n_w_mag_R1_Play
+m_n_w_mag_r2_Play
+m_n_w_met_L1_Play
+m_n_w_met_R1_Play
+m_n_w_met_r2_Play
+m_n_w_snow_L1_Play
+m_n_w_snow_R1_Play
+m_n_w_snow_r2_Play
+m_n_w_wet_r2_Play
 n45_Play
 n46_Play
 n47_Play
@@ -711,116 +805,22 @@ n87_Play
 n88_Play
 n89_Play
 n90_Play
-# 20582990
-# 153711478
-# 283405473
-# 290434237
-# 331447182
-# 350365238
-# 391482940
-# 409811073
-# 433650112
-# 467984547
-# 522000996
-# 528394541
-# 542969419
-# 578731843
-# 622822624
-# 628284424
-# 685401724
-# 700799350
-# 706926517
-# 707809204
 # 761923948
-# 790254728
-# 882586016
-# 946254310
-# 990118666
-# 1021719620
 # 1030015050
 # 1055584541
-# 1085416414
-# 1119039732
-# 1156463435
-# 1173090999
-# 1177329489
-# 1282931511
-# 1290119753
-# 1333629435
 # 1344030125
-# 1357023749
-# 1377802656
-# 1392642470
-# 1407697400
-# 1426610421
-# 1477156893
-# 1493508130
-# 1506000429
-# 1558054619
-# 1567663471
-# 1576319267
-# 1583700003
-# 1602834202
-# 1657700677
 # 1773737900
-# 1860852637
-# 1896056932
-# 2003331447
-# 2019353219
-# 2038092879
-# 2038476011
-# 2075293604
-# 2164887122
 # 2200063183
-# 2381930771
-# 2442271579
-# 2489686590
-# 2498439304
-# 2555721427
 # 2556698514
-# 2646043062
-# 2651656894
-# 2809883714
-# 2811605529
-# 2817013618
-# 2846622544
-# 2853608630
-# 2866531256
-# 2919522783
 # 2950031017
 # 3021562556
-# 3066824384
-# 3152538013
-# 3214185005
 # 3269644537
-# 3318759953
-# 3321353778
-# 3328168231
 # 3364021797
-# 3389423767
-# 3448107819
 # 3504650872
-# 3527559840
-# 3530558372
-# 3550619871
-# 3573425450
-# 3579268994
-# 3580991065
-# 3650871352
-# 3654421444
-# 3663978577
-# 3684453198
 # 3698306355
 # 3714133716
 # 3715805514
-# 3822573511
-# 3945151271
-# 3948237769
-# 3959982681
-# 4019419899
 # 4043131251
-# 4107616136
-# 4152803407
 
 ### RTPC/GAME-VARIABLE NAMES (1271354004.bnk: Common2)
 param_pan
@@ -830,58 +830,72 @@ param_pitch
 cmn_001_501_01_Play
 cmn_001_501_02_Play
 cmn_001_501_03_Play
+cmn_001_501__Play
 cmn_001_501_Play
 cmn_001_502_01_Play
 cmn_001_502_02_Play
 cmn_001_502_03_Play
+cmn_001_502__Play
 cmn_001_502_Play
 cmn_001_503_01_Play
 cmn_001_503_02_Play
 cmn_001_503_03_Play
+cmn_001_503__Play
 cmn_001_503_Play
 cmn_001_504_01_Play
 cmn_001_504_02_Play
 cmn_001_504_03_Play
+cmn_001_504__Play
 cmn_001_504_Play
 cmn_001_505_01_Play
 cmn_001_505_02_Play
 cmn_001_505_03_Play
+cmn_001_505__Play
 cmn_001_505_Play
 cmn_001_506_01_Play
 cmn_001_506_02_Play
 cmn_001_506_03_Play
+cmn_001_506__Play
 cmn_001_506_Play
 cmn_001_507_01_Play
 cmn_001_507_02_Play
 cmn_001_507_03_Play
+cmn_001_507__Play
 cmn_001_507_Play
 cmn_001_511_01_Play
 cmn_001_511_02_Play
 cmn_001_511_03_Play
+cmn_001_511__Play
 cmn_001_511_Play
 cmn_001_512_01_Play
 cmn_001_512_02_Play
 cmn_001_512_03_Play
+cmn_001_512__Play
 cmn_001_512_Play
 cmn_001_513_01_Play
 cmn_001_513_02_Play
 cmn_001_513_03_Play
+cmn_001_513__Play
 cmn_001_513_Play
 cmn_001_514_01_Play
 cmn_001_514_02_Play
 cmn_001_514_03_Play
+cmn_001_514__Play
 cmn_001_514_Play
 cmn_001_515_01_Play
 cmn_001_515_02_Play
 cmn_001_515_03_Play
+cmn_001_515__Play
 cmn_001_515_Play
 cmn_001_516_01_Play
 cmn_001_516_02_Play
 cmn_001_516_03_Play
+cmn_001_516__Play
 cmn_001_516_Play
 cmn_001_517_01_Play
 cmn_001_517_02_Play
 cmn_001_517_03_Play
+cmn_001_517__Play
 cmn_001_517_Play
 cmn_001_601_01_Play
 cmn_001_701_Play
@@ -896,6 +910,8 @@ cmn_002_105_01_Play
 cmn_002_105_02_Play
 cmn_002_105_03_Play
 cmn_002_110_01_Play
+cmn_002_110_02_Play
+cmn_002_110_03_Play
 cmn_002_201_01_Play
 cmn_002_201_10_Play
 cmn_002_201_11_Play
@@ -911,8 +927,17 @@ cmn_003_304_01_Play
 cmn_003_304_02_Play
 cmn_003_304_03_Play
 cmn_003_305_01_Play
+cmn_003_306_01_Play
+cmn_003_322_01_Play
+cmn_003_323_01_Play
+cmn_003_324_01_Play
+cmn_003_331_01_Play
+cmn_003_332_01_Play
+cmn_003_333_01_Play
+cmn_003_334_01_Play
 cmn_004_001_01_Play
 cmn_004_001_Play
+cmn_004_002_01__Play
 cmn_004_002_01_Play
 cmn_004_002_02_Play
 cmn_004_002_03_Play
@@ -1008,6 +1033,7 @@ cmn_004_022_23_Play
 cmn_004_022_31_Play
 cmn_004_022_32_Play
 cmn_004_022_33_Play
+cmn_004_031_01_Play
 cmn_004_hover_Play
 cmn_004_hoverdash_Play
 cmn_004_xxx_01_hover_Play
@@ -1086,6 +1112,30 @@ cmn_005_100_15_Play
 cmn_005_100_16_Play
 cmn_005_100_17_Play
 cmn_005_100_18_Play
+cmn_006_101_l_Play
+cmn_006_101_ll_Play
+cmn_006_101_lll_Play
+cmn_006_101_m_Play
+cmn_006_101_s_Play
+cmn_006_102_l_Play
+cmn_006_102_ll_Play
+cmn_006_102_lll_Play
+cmn_006_102_m_Play
+cmn_006_102_s_Play
+cmn_006_201_l_Play
+cmn_006_201_ll_Play
+cmn_006_201_lll_Play
+cmn_006_201_m_Play
+cmn_006_201_s_Play
+cmn_006_202_l_Play
+cmn_006_202_ll_Play
+cmn_006_202_lll_Play
+cmn_006_202_m_Play
+cmn_006_202_s_Play
+cmn_102_lh_dir_Play
+cmn_102_lh_rwet_Play
+cmn_103_01_04_con_Play
+cmn_103_01_04_wet_Play
 sr100_001_05_Play
 sr100_002_05_Play
 sr100_003_05_Play
@@ -1095,32 +1145,20 @@ sr100_005_03_Play
 sr100_005_04_Play
 sr100_005_05_Play
 # 296315902
-# 43788351
 # 49734223
-# 125485872
 # 145931836
-# 152100845
 # 157071645
 # 171875879
 # 218207540
-# 225273059
-# 298755836
 # 380792674
-# 396861057
 # 402191132
 # 421940253
 # 441715920
 # 501327934
-# 508724604
-# 560064871
 # 593735020
-# 630293835
-# 654293011
 # 678243018
 # 725707527
-# 736068042
 # 740299305
-# 741598560
 # 774053112
 # 774189707
 # 832470436
@@ -1128,14 +1166,10 @@ sr100_005_05_Play
 # 931882861
 # 981673017
 # 981857403
-# 1070056510
-# 1077747099
 # 1082269553
 # 1211921121
 # 1214841455
-# 1264373043
 # 1337453040
-# 1430203547
 # 1487428435
 # 1522253900
 # 1538433882
@@ -1144,122 +1178,165 @@ sr100_005_05_Play
 # 1686935887
 # 1710103139
 # 1738211068
-# 1835555742
 # 1842999235
-# 1853775355
 # 1897200304
 # 1951845614
 # 2003632115
 # 2045603528
 # 2061598232
 # 2089312047
-# 2114693463
-# 2125374467
 # 2234282790
-# 2236267096
-# 2249777726
-# 2266213837
-# 2277497747
-# 2321699964
 # 2338167897
 # 2477384672
 # 2569084525
-# 2570186038
 # 2576121695
 # 2605362871
 # 2633532048
 # 2637246152
 # 2715073830
-# 2761822436
 # 2799311117
-# 2849247004
-# 2866376972
-# 2874394659
-# 2944011684
-# 3015293266
-# 3097964761
 # 3111600349
-# 3130397513
-# 3131366645
 # 3150442462
-# 3183305379
 # 3222587495
-# 3271948020
 # 3319673576
-# 3321204966
-# 3322055127
-# 3334076363
 # 3341052110
 # 3360148120
 # 3405081341
-# 3414897371
-# 3420021038
 # 3554148695
 # 3592182778
-# 3606046948
 # 3622677005
 # 3676354354
 # 3759675426
 # 3857358958
 # 3915673098
-# 3930187462
-# 3934484307
 # 3950477654
 # 3967231647
-# 4061505574
 # 4098032403
 # 4099256009
-# 4169102182
 # 4179509017
 # 4256743777
-# 4262021083
-# 4268797534
-# 4285292584
 
 ### RTPC/GAME-VARIABLE NAMES (2745761971.bnk: Common_0xx)
 param_pan
 param_pitch
 
 ### EVENT NAMES (2913287818.bnk: Common_1xx)
+cmn_102_07_001__Play
+cmn_102_07_001_aci_Play
+cmn_102_07_001_mag_Play
 cmn_102_07_001_Play
+cmn_102_07_001_wet_Play
+cmn_102_07_002__Play
+cmn_102_07_002_aci_Play
+cmn_102_07_002_mag_Play
 cmn_102_07_002_Play
+cmn_102_07_002_wet_Play
+cmn_102_07_003__Play
 cmn_102_07_003_Play
+cmn_102_07_004__Play
+cmn_102_07_004_Play
+cmn_102_d_aci_L1_Play
+cmn_102_d_aci_R1_Play
+cmn_102_d_con_L1_Play
+cmn_102_d_con_R1_Play
+cmn_102_d_dir_L1_Play
+cmn_102_d_dir_R1_Play
+cmn_102_d_dir_r2_Play
+cmn_102_d_gra_L1_Play
+cmn_102_d_gra_R1_Play
+cmn_102_d_grav_L1_Play
+cmn_102_d_grav_R1_Play
+cmn_102_d_met_L1_Play
+cmn_102_d_met_R1_Play
+cmn_102_d_met_r2_Play
+cmn_102_d_poi_L1_Play
+cmn_102_d_poi_R1_Play
+cmn_102_d_wet_L1_Play
+cmn_102_d_wet_R1_Play
+cmn_102_d_wet_r2_Play
+cmn_102_j_aci_Play
+cmn_102_j_mag_Play
+cmn_102_J_poi_Play
+cmn_102_J_rmud_Play
+cmn_102_j_rwet_Play
+cmn_102_J_spo_Play
+cmn_102_l_aci_Play
+cmn_102_l_con_Play
+cmn_102_l_dir_Play
+cmn_102_l_gra_Play
+cmn_102_l_grav_Play
+cmn_102_l_met_Play
+cmn_102_l_poi_Play
+cmn_102_l_wet_Play
+cmn_102_lb_aci_Play
+cmn_102_lb_con_Play
+cmn_102_lb_dir_Play
+cmn_102_lb_gra_Play
+cmn_102_lb_grav_Play
+cmn_102_lb_met_Play
+cmn_102_lb_poi_Play
+cmn_102_lb_water_Play
+cmn_102_lb_wet_Play
+cmn_102_stop_aci_Play
+cmn_102_stop_con_Play
+cmn_102_stop_dir_Play
+cmn_102_stop_gra_Play
+cmn_102_stop_grav_Play
+cmn_102_stop_met_Play
+cmn_102_stop_poi_Play
+cmn_102_stop_wet_Play
+cmn_102_w_aci_L1_Play
+cmn_102_w_aci_R1_Play
+cmn_102_w_poi_L1_Play
+cmn_102_w_poi_R1_Play
+cmn_103_01_01_aci_Play
 cmn_103_01_01_con_Play
 cmn_103_01_01_dir_Play
 cmn_103_01_01_gra_Play
 cmn_103_01_01_grav_Play
 cmn_103_01_01_mag_Play
 cmn_103_01_01_met_Play
+cmn_103_01_01_poi_Play
 cmn_103_01_01_rmud_Play
 cmn_103_01_01_rwet_Play
 cmn_103_01_01_spo_Play
 cmn_103_01_01_wet_Play
+cmn_103_01_02_aci_Play
 cmn_103_01_02_con_Play
 cmn_103_01_02_dir_Play
 cmn_103_01_02_gra_Play
 cmn_103_01_02_grav_Play
 cmn_103_01_02_mag_Play
 cmn_103_01_02_met_Play
+cmn_103_01_02_poi_Play
 cmn_103_01_02_rmud_Play
 cmn_103_01_02_rwet_Play
 cmn_103_01_02_spo_Play
 cmn_103_01_02_wet_Play
+cmn_103_01_03_aci_Play
 cmn_103_01_03_con_Play
 cmn_103_01_03_dir_Play
 cmn_103_01_03_gra_Play
 cmn_103_01_03_grav_Play
 cmn_103_01_03_mag_Play
 cmn_103_01_03_met_Play
+cmn_103_01_03_poi_Play
+cmn_103_01_03_rmud_Play
 cmn_103_01_03_rwet_Play
 cmn_103_01_03_spo_Play
 cmn_103_01_03_wet_Play
+cmn_103_01_04_aci_Play
+cmn_103_01_04_con_Play
 cmn_103_01_04_dir_Play
 cmn_103_01_04_gra_Play
 cmn_103_01_04_grav_Play
 cmn_103_01_04_mag_Play
 cmn_103_01_04_met_Play
+cmn_103_01_04_poi_Play
+cmn_103_01_04_rmud_Play
 cmn_103_01_04_rwet_Play
 cmn_103_01_04_spo_Play
+cmn_103_01_04_wet_Play
 cmn_103_01_05_con_Play
 cmn_103_01_05_dir_Play
 cmn_103_01_05_gra_Play
@@ -1269,11 +1346,76 @@ cmn_103_01_05_rmud_Play
 cmn_103_01_05_rwet_Play
 cmn_103_01_05_spo_Play
 cmn_103_01_Play
+cmn_103_01_w_aci_L1_Play
+cmn_103_01_w_con_L1_Play
+cmn_103_01_w_con_R1_Play
+cmn_103_01_w_dir_L1_Play
+cmn_103_01_w_gra_L1_Play
+cmn_103_01_w_grav_L1_Play
+cmn_103_01_w_mag_L1_Play
+cmn_103_01_w_met_L1_Play
+cmn_103_01_w_poi_L1_Play
+cmn_103_01_w_rmud_L1_Play
+cmn_103_01_w_rwet_L1_Play
+cmn_103_01_w_spo_L1_Play
+cmn_103_01_w_wet_L1_Play
+cmn_103_05_w_aci_L1_Play
+cmn_103_05_w_con_L1_Play
+cmn_103_05_w_dir_L1_Play
+cmn_103_05_w_gra_L1_Play
+cmn_103_05_w_grav_L1_Play
+cmn_103_05_w_mag_L1_Play
+cmn_103_05_w_met_L1_Play
+cmn_103_05_w_poi_L1_Play
+cmn_103_05_w_rmud_L1_Play
+cmn_103_05_w_rwet_L1_Play
+cmn_103_05_w_spo_L1_Play
+cmn_103_05_w_wet_L1_Play
 cmn_103_06_Play
+cmn_103_06_w_aci_L1_Play
+cmn_103_06_w_con_L1_Play
+cmn_103_06_w_dir_L1_Play
+cmn_103_06_w_gra_L1_Play
+cmn_103_06_w_grav_L1_Play
+cmn_103_06_w_mag_L1_Play
+cmn_103_06_w_met_L1_Play
+cmn_103_06_w_poi_L1_Play
+cmn_103_06_w_rmud_L1_Play
+cmn_103_06_w_rwet_L1_Play
+cmn_103_06_w_spo_L1_Play
+cmn_103_06_w_wet_L1_Play
 cmn_103_07_Play
+cmn_103_07_w_aci_L1_Play
+cmn_103_07_w_con_L1_Play
+cmn_103_07_w_dir_L1_Play
+cmn_103_07_w_gra_L1_Play
+cmn_103_07_w_grav_L1_Play
+cmn_103_07_w_mag_L1_Play
+cmn_103_07_w_met_L1_Play
+cmn_103_07_w_poi_L1_Play
+cmn_103_07_w_rmud_L1_Play
+cmn_103_07_w_rwet_L1_Play
+cmn_103_07_w_spo_L1_Play
+cmn_103_07_w_wet_L1_Play
 cmn_103_08_Play
+cmn_103_08_w_aci_L1_Play
+cmn_103_08_w_con_L1_Play
+cmn_103_08_w_dir_L1_Play
+cmn_103_08_w_gra_L1_Play
+cmn_103_08_w_grav_L1_Play
+cmn_103_08_w_mag_L1_Play
+cmn_103_08_w_met_L1_Play
+cmn_103_08_w_poi_L1_Play
+cmn_103_08_w_rmud_L1_Play
+cmn_103_08_w_rwet_L1_Play
+cmn_103_08_w_spo_L1_Play
+cmn_103_08_w_wet_L1_Play
 cmn_103_con_Play
 cmn_103_met_Play
+cmn_103_w_rmud_L1_Play
+cmn_103_w_rmud_R1_Play
+cmn_103_w_rwet_L1_Play
+cmn_103_w_rwet_R1_Play
 cmn_105_100_Play
 cmn_108_001_Play
 cmn_109_001_Play
@@ -1282,6 +1424,12 @@ cmn_110_001_Play
 cmn_110_002_Play
 cmn_110_003_Play
 cmn_111_001_Play
+cmn_111_001_zone0000_Play
+cmn_111_001_zone0001_Play
+cmn_111_001_zone0002_Play
+cmn_111_001_zone0003_Play
+cmn_111_001_zone0004_Play
+cmn_111_001_zone0005_Play
 cmn_112_001_Play
 cmn_112_002_Play
 cmn_114_001_Play
@@ -1301,158 +1449,10 @@ cmn_118_001_Play
 cmn_118_002_Play
 cmn_118_010_Play
 cmn_118_011_Play
-# 4243318586
-# 110806011
-# 212160813
-# 283768414
-# 325602812
-# 351755676
-# 366433680
-# 395943347
-# 416790417
-# 450946646
-# 514115674
-# 516048170
-# 536563817
-# 539131822
-# 619394244
-# 650370736
-# 687169623
-# 692695566
-# 702447594
-# 746785256
-# 748055966
-# 786963680
-# 808933544
-# 836692319
-# 839157152
-# 839228048
-# 844579859
-# 860128282
-# 860534884
-# 871809051
-# 874270049
-# 879549758
-# 880500636
 # 901252072
 # 906223567
-# 947529851
-# 948891149
 # 1031834097
-# 1039401406
-# 1040567582
-# 1108230509
-# 1127302918
-# 1150463089
-# 1166855982
-# 1178714061
-# 1204255501
-# 1210011585
-# 1217377477
-# 1220738858
-# 1255009923
-# 1297833774
-# 1316289708
-# 1357817278
-# 1366238571
-# 1464196016
-# 1469327474
-# 1479226009
-# 1494977617
-# 1518971562
-# 1578654936
-# 1596699081
-# 1626160540
-# 1648507952
-# 1718499398
-# 1737587126
-# 1760552640
-# 1788532807
-# 1845190498
-# 1859841389
-# 1881953557
-# 1886108132
 # 1978207120
-# 2014448370
-# 2030630661
-# 2118618026
-# 2120282532
-# 2130270144
-# 2163929796
-# 2192952412
-# 2249379498
-# 2262007098
-# 2292218252
-# 2303127399
-# 2337356888
-# 2338151579
-# 2349686882
-# 2351175237
-# 2380655707
-# 2501781340
-# 2511417179
-# 2529434576
-# 2571404075
-# 2584882234
-# 2636384283
-# 2656963120
-# 2706795466
-# 2725683483
-# 2739328744
-# 2794947485
-# 2797345717
-# 2822697200
-# 2897874779
-# 2906287388
-# 2944333579
-# 3023319215
-# 3132040097
-# 3143196531
-# 3143740369
-# 3186562580
-# 3229480547
-# 3272391862
-# 3278603623
-# 3319921777
-# 3334076363
-# 3337747772
-# 3393206504
-# 3402849757
-# 3404727076
-# 3472052246
-# 3511588492
-# 3525641750
-# 3571534808
-# 3574314891
-# 3624257922
-# 3630110919
-# 3655090356
-# 3665777517
-# 3704191389
-# 3727423103
-# 3735275692
-# 3749329650
-# 3763531166
-# 3782325270
-# 3791382408
-# 3802488002
-# 3806486269
-# 3820188739
-# 3914586449
-# 3920435616
-# 3935262204
-# 3942952714
-# 3957710830
-# 3964262441
-# 3999566208
-# 4009333984
-# 4049835637
-# 4071913084
-# 4093536781
-# 4173990850
-# 4191238866
-# 4200211252
-# 4262021083
 
 ### RTPC/GAME-VARIABLE NAMES (2913287818.bnk: Common_1xx)
 param_pan
@@ -1634,6 +1634,51 @@ param_pan
 param_pitch
 
 ### EVENT NAMES (2973307177.bnk: Common_etc)
+cmn_102_d_mag_L1_Play
+cmn_102_d_mag_R1_Play
+cmn_102_d_rmud_L1_Play
+cmn_102_d_rmud_R1_Play
+cmn_102_d_rwet_L1_Play
+cmn_102_d_rwet_R1_Play
+cmn_102_d_spo_L1_Play
+cmn_102_d_spo_R1_Play
+cmn_102_l_mag_Play
+cmn_102_l_rmud_Play
+cmn_102_l_rwet_Play
+cmn_102_l_spo_Play
+cmn_102_lb_mag_Play
+cmn_102_lb_rmud_Play
+cmn_102_lb_rwet_Play
+cmn_102_lb_spo_Play
+cmn_102_lh_aci_Play
+cmn_102_lh_con_Play
+cmn_102_lh_dir_Play
+cmn_102_lh_gra_Play
+cmn_102_lh_grav_Play
+cmn_102_lh_mag_Play
+cmn_102_lh_met_Play
+cmn_102_lh_poi_Play
+cmn_102_lh_rmud_Play
+cmn_102_lh_rwet_Play
+cmn_102_lh_spo_Play
+cmn_102_lh_wet_Play
+cmn_102_stop_mag_Play
+cmn_102_stop_rmud_Play
+cmn_102_stop_rwet_Play
+cmn_102_stop_spo_Play
+cmn_102_w_mag_L1_Play
+cmn_102_w_mag_R1_Play
+cmn_102_w_rmud_L1_Play
+cmn_102_w_rmud_R1_Play
+cmn_102_w_rwet_L1_Play
+cmn_102_w_rwet_R1_Play
+cmn_102_w_spo_L1_Play
+cmn_102_w_spo_R1_Play
+cmn_102_w_wet_L1_Play
+cmn_102_w_wet_R1_Play
+m_n_w_wet_L1_Play
+m_n_w_wet_R1_Play
+se_zone5999_001_Play
 sm_r_001_101_001_Play
 sm_r_001_201_001_Play
 sm_r_001_201_002_Play
@@ -1658,87 +1703,42 @@ sr100_003_01_Play
 sr100_004_01_Play
 sr100_005_02_Play
 # 23102872
-# 100471180
-# 168419938
 # 249981585
-# 254837185
-# 262863340
-# 263650810
-# 276657185
-# 291804718
-# 317231000
 # 410559761
 # 423750075
-# 458032631
-# 498663164
-# 566874636
-# 621872394
-# 648519368
-# 667863331
-# 727126822
-# 728915532
-# 874750658
 # 996595092
-# 1159364611
-# 1325092740
 # 1329988397
 # 1331797156
 # 1365883787
 # 1404479867
-# 1418029399
-# 1474420336
 # 1634310738
 # 1642845132
-# 1685627248
-# 1751427281
-# 1762612868
-# 1851624034
-# 1904230813
 # 1978207120
 # 2009948193
 # 2046794196
 # 2070191521
 # 2075343015
 # 2130127962
-# 2142377288
-# 2174751207
-# 2255529925
 # 2423355455
-# 2516374892
 # 2593204384
-# 3003663905
-# 3083766787
-# 3167275876
 # 3182050237
 # 3203851456
-# 3254905454
-# 3322055127
 # 3332552352
 # 3338407207
 # 3359313808
 # 3386860062
-# 3537107237
-# 3628099975
-# 3742711783
-# 3814440631
 # 3842760006
 # 3895762119
-# 3964205326
-# 3977753782
-# 4050480135
 # 4114977282
-# 4203123531
-# 4251208516
-# 4285292584
 
 ### RTPC/GAME-VARIABLE NAMES (2973307177.bnk: Common_etc)
 param_pan
 param_pitch
 
 ### EVENT NAMES (341103032.bnk: CookingJingle)
-Cooking_Play
+cooking_jingle_Play
+cooking_Play
 knife_Play
-# 2593658390
 
 ### RTPC/GAME-VARIABLE NAMES (341103032.bnk: CookingJingle)
 param_pan
@@ -1765,20 +1765,34 @@ param_pan
 param_pitch
 
 ### EVENT NAMES (2776023788.bnk: Maps)
+cmn_108_001s_Play
 cmn_108_001sl_Play
 cmn_108_001sr_Play
+cmn_109_001s_Play
 cmn_109_001sl_Play
 cmn_109_001sr_Play
+cmn_109_002s_Play
 cmn_109_002sl_Play
 cmn_109_002sr_Play
+cmn_110_003s_Play
 cmn_110_003sl_Play
 cmn_110_003sr_Play
+cmn_111_001_zone0000_Play
+cmn_111_001_zone0001_Play
+cmn_111_001_zone0002_Play
+cmn_111_001_zone0003_Play
+cmn_111_001_zone0004_Play
+cmn_111_001_zone0005_Play
+cmn_111_001s_Play
 cmn_111_001sl_Play
 cmn_111_001sr_Play
+cmn_116_001s_Play
 cmn_116_001sl_Play
 cmn_116_001sr_Play
 door_05_01_open_Play
 door_05_02_open_Play
+oj400101_10_Play
+oj840037_02_play
 se_zone0000_001_Play
 se_zone0000_002_Play
 se_zone0000_003_Play
@@ -2076,20 +2090,6 @@ se_zone8001_101l_Play
 se_zone8001_101r_Play
 se_zone8001_201_Play
 se_zone8001_202_Play
-# 273767551
-# 395943347
-# 748055966
-# 1178714061
-# 1235949032
-# 1292316130
-# 1329139920
-# 1828613963
-# 3474182167
-# 3754845464
-# 3802488002
-# 3914586449
-# 3935262204
-# 3985619229
 
 ### EVENT NAMES (1729814500.bnk: SeVoices)
 # 274713104
@@ -2107,13 +2107,13 @@ se_zone8001_202_Play
 sev_qev041402_001_01_Play
 sev_qev041402_001_02_Play
 sev_qev041402_001_03_Play
+sev_qev051301_001_01_Play
 sev_qev055401_001_01_Play
 sev_qev055401_001_02_Play
 sev_qev060204_001_01_Play
 sev_qev070101_001_01_Play
 sev_qev070101_001_02_Play
 sev_qev075503_001_01_Play
-# 314972735
 
 ### RTPC/GAME-VARIABLE NAMES (3173192383.bnk: Talk)
 param_pan
@@ -2577,6 +2577,7 @@ en010301_a_btl_101_Play
 en010301_a_btl_105_Play
 en010301_a_btl_106_Play
 en010301_a_btl_108_Play
+en010301_a_btl_109_Play
 en010301_a_btl_110_Play
 en010301_a_btl_114_Play
 en010301_a_btl_115_Play
@@ -2590,15 +2591,14 @@ en010301_b_atk06_080_Play
 en010301_b_atk07_080_Play
 en010301_b_atk08_010_Play
 en010301_b_atk09_080_Play
+en010301_b_btl_605_Play
+en010301_b_btl_606_Play
+en010301_b_btl_608_Play
+en010301_b_btl_610_Play
+en010301_b_btl_611_Play
+en010301_b_btl_615_Play
 en010301_b_fld_508_Play
 en010301_b_fld_512_Play
-# 147234235
-# 700886398
-# 1055281316
-# 1340283607
-# 3061891367
-# 3513381910
-# 4268433041
 
 ### RTPC/GAME-VARIABLE NAMES (1808026331.bnk: en010301)
 param_pan
@@ -2627,6 +2627,7 @@ en010501_a_atk02_010_Play
 en010501_a_atk02_030_Play
 en010501_a_atk02_110_Play
 en010501_a_atk03_010_Play
+en010501_a_atk03_140_Play
 en010501_a_atk04_010_Play
 en010501_a_atk05_010_Play
 en010501_a_atk06_010_Play
@@ -2634,20 +2635,19 @@ en010501_a_atk06_110_Play
 en010501_a_atk07_080_Play
 en010501_a_atk08_010_Play
 en010501_a_atk08_030_Play
+en010501_a_atk10_080_Play
 en010501_a_atk11_110_Play
 en010501_a_btl_101_Play
 en010501_a_btl_105_Play
 en010501_a_btl_106_Play
 en010501_a_btl_108_Play
+en010501_a_btl_109_Play
 en010501_a_btl_110_Play
 en010501_a_btl_114_Play
 en010501_a_btl_115_Play
 en010501_a_fld_005_Play
 en010501_a_fld_008_Play
 en010501_a_fld_009_Play
-# 1721505066
-# 3860379905
-# 3958283240
 
 ### RTPC/GAME-VARIABLE NAMES (3620303405.bnk: en010501)
 param_pan
@@ -2663,7 +2663,13 @@ en010601_a_atk05_080_Play
 en010601_a_atk06_080_Play
 en010601_a_atk07_080_Play
 en010601_a_atk09_010_Play
+en010601_a_atk09_030_Play
+en010601_a_atk10_010_Play
 en010601_a_atk11_080_Play
+en010601_a_atk12_010_Play
+en010601_a_atk13_080_Play
+en010601_a_atk14_080_Play
+en010601_a_atk15_080_Play
 en010601_a_btl_102_Play
 en010601_a_btl_104_Play
 en010601_a_btl_105_Play
@@ -2672,22 +2678,16 @@ en010601_a_btl_108_Play
 en010601_a_fld_009_Play
 en010601_b_atk02_080_Play
 en010601_b_atk03_080_Play
+en010601_B_BTL_004_Play
+en010601_b_btl_608_Play
+en010601_b_btl_611_Play
 en010601_b_fld_509_Play
 # 261051939
 # 311471916
-# 398056374
 # 678926283
-# 819707988
-# 837408507
-# 1072958969
 # 1125297050
-# 1387993959
 # 1403872532
-# 1527590552
-# 2024412773
 # 2252973947
-# 2871811564
-# 2884789765
 # 3087538497
 
 ### RTPC/GAME-VARIABLE NAMES (3922741766.bnk: en010601)
@@ -2720,13 +2720,13 @@ en010701_b_atk01_080_Play
 en010701_b_atk02_080_Play
 en010701_b_atk03_110_Play
 en010701_b_atk05_080_Play
+en010701_b_btl_601_Play
+en010701_b_btl_608_Play
+en010701_b_btl_610_Play
+en010701_b_btl_611_Play
 en010701_b_fld_505_Play
 en010701_b_fld_508_Play
 en010701_b_fld_512_Play
-# 437148055
-# 2144315606
-# 3982376080
-# 4182062029
 
 ### RTPC/GAME-VARIABLE NAMES (3821928991.bnk: en010701)
 param_pan
@@ -2739,25 +2739,25 @@ en010801_a_atk02_110_Play
 en010801_a_atk03_080_Play
 en010801_a_atk04_080_Play
 en010801_a_atk05_080_Play
+en010801_a_atk06_040_Play
 en010801_a_atk07_010_Play
 en010801_a_atk07_030_Play
 en010801_a_atk08_010_Play
 en010801_a_atk09_010_Play
+en010801_a_atk09_030_Play
+en010801_a_atk10_010_Play
+en010801_a_atk10_030_Play
 en010801_a_atk11_080_Play
+en010801_a_atk12_080_Play
 en010801_a_btl_101_Play
 en010801_a_btl_105_Play
 en010801_a_btl_106_Play
 en010801_a_btl_108_Play
+en010801_a_btl_109_Play
 en010801_a_btl_110_Play
 en010801_a_btl_111_Play
 en010801_a_fld_005_Play
 en010801_a_fld_008_Play
-# 66926347
-# 200363487
-# 984959217
-# 1058170688
-# 2015998323
-# 3160354465
 
 ### RTPC/GAME-VARIABLE NAMES (3584923720.bnk: en010801)
 param_pan
@@ -2821,12 +2821,12 @@ en011101_a_btl_101_Play
 en011101_a_btl_105_Play
 en011101_a_btl_106_Play
 en011101_a_btl_108_Play
+en011101_a_btl_109_Play
 en011101_a_btl_110_Play
 en011101_a_btl_111_Play
 en011101_a_fld_005_Play
 en011101_a_fld_006_Play
 en011101_a_fld_008_Play
-# 2067933545
 
 ### RTPC/GAME-VARIABLE NAMES (3979142286.bnk: en011101)
 param_pan
@@ -2846,12 +2846,12 @@ en011102_a_btl_101_Play
 en011102_a_btl_105_Play
 en011102_a_btl_106_Play
 en011102_a_btl_108_Play
+en011102_a_btl_109_Play
 en011102_a_btl_110_Play
 en011102_a_btl_111_Play
 en011102_a_fld_005_Play
 en011102_a_fld_006_Play
 en011102_a_fld_008_Play
-# 1405876808
 
 ### RTPC/GAME-VARIABLE NAMES (3979142285.bnk: en011102)
 param_pan
@@ -2873,12 +2873,12 @@ en011103_a_btl_101_Play
 en011103_a_btl_105_Play
 en011103_a_btl_106_Play
 en011103_a_btl_108_Play
+en011103_a_btl_109_Play
 en011103_a_btl_110_Play
 en011103_a_btl_111_Play
 en011103_a_fld_005_Play
 en011103_a_fld_006_Play
 en011103_a_fld_008_Play
-# 2452490495
 
 ### RTPC/GAME-VARIABLE NAMES (3979142284.bnk: en011103)
 param_pan
@@ -2900,12 +2900,12 @@ en011104_a_btl_101_Play
 en011104_a_btl_105_Play
 en011104_a_btl_106_Play
 en011104_a_btl_108_Play
+en011104_a_btl_109_Play
 en011104_a_btl_110_Play
 en011104_a_btl_111_Play
 en011104_a_fld_005_Play
 en011104_a_fld_006_Play
 en011104_a_fld_008_Play
-# 4141012302
 
 ### RTPC/GAME-VARIABLE NAMES (3979142283.bnk: en011104)
 param_pan
@@ -2938,16 +2938,16 @@ en011302_a_atk02_010_Play
 en011302_a_atk02_030_Play
 en011302_a_atk03_080_Play
 en011302_a_atk04_080_Play
+en011302_A_ATK_361_Play
 en011302_a_btl_101_Play
 en011302_a_btl_105_Play
 en011302_a_btl_106_Play
 en011302_a_btl_108_Play
+en011302_a_btl_109_Play
 en011302_a_btl_110_Play
 en011302_a_btl_111_Play
 en011302_a_btl_115_Play
 en011302_a_fld_006_Play
-# 1176792690
-# 3247540502
 
 ### RTPC/GAME-VARIABLE NAMES (2166865343.bnk: en011302)
 param_pan
@@ -3027,17 +3027,17 @@ en011601_a_atk05_080_Play
 en011601_a_atk06_080_Play
 en011601_a_atk08_010_Play
 en011601_a_atk09_080_Play
+en011601_a_atk10_080_Play
 en011601_a_btl_101_Play
 en011601_a_btl_105_Play
 en011601_a_btl_106_Play
 en011601_a_btl_108_Play
+en011601_a_btl_109_Play
 en011601_a_btl_110_Play
 en011601_a_btl_111_Play
 en011601_a_fld_005_Play
 en011601_a_fld_006_Play
 en011601_a_fld_009_Play
-# 1311373036
-# 3282485245
 
 ### RTPC/GAME-VARIABLE NAMES (3810233297.bnk: en011601)
 param_pan
@@ -3056,25 +3056,25 @@ en011602_a_atk05_080_Play
 en011602_a_atk06_080_Play
 en011602_a_atk08_010_Play
 en011602_a_atk09_080_Play
+en011602_a_atk10_080_Play
 en011602_a_btl_101_Play
 en011602_a_btl_105_Play
 en011602_a_btl_106_Play
 en011602_a_btl_108_Play
+en011602_a_btl_109_Play
 en011602_a_btl_110_Play
 en011602_a_btl_111_Play
 en011602_a_fld_005_Play
 en011602_a_fld_006_Play
 en011602_a_fld_009_Play
-# 255024300
-# 1107856429
 
 ### RTPC/GAME-VARIABLE NAMES (3810233298.bnk: en011602)
 param_pan
 param_pitch
 
 ### EVENT NAMES (4148051375.bnk: en011801)
-en010701_e_arts_008_specify
-en011801_a_atk01_080_Play #alt
+en011801_a_atk01_040_Play
+en011801_a_atk01_080_Play
 en011801_a_atk02_080_Play
 en011801_a_atk03_010_Play
 en011801_a_atk04_080_Play
@@ -3083,30 +3083,28 @@ en011801_a_atk06_080_Play
 en011801_a_atk07_010_Play
 en011801_a_atk07_030_Play
 en011801_a_atk08_080_Play
+en011801_a_atk09_010_Play
+en011801_a_atk09_030_Play
 en011801_a_atk09_080_Play
 en011801_a_btl_002_Play
 en011801_a_btl_101_Play
 en011801_a_btl_105_Play
 en011801_a_btl_106_Play
 en011801_a_btl_108_Play
+en011801_a_btl_109_Play
 en011801_a_btl_110_Play
 en011801_a_btl_111_Play
 en011801_a_btl_112_Play
 en011801_a_fld_008_Play
 soul292101_Play_050_Play
-soul292101_Play_050_Play #alt
 soul292101_Play_053_Play
-soul292101_Play_053_Play #alt
-# 1025419842
-# 1705960184
-# 3010906161
-# 3545206198
 
 ### RTPC/GAME-VARIABLE NAMES (4148051375.bnk: en011801)
 param_pan
 param_pitch
 
 ### EVENT NAMES (4148051372.bnk: en011802)
+en011802_a_atk01_040_Play
 en011802_a_atk01_080_Play
 en011802_a_atk02_080_Play
 en011802_a_atk03_010_Play
@@ -3116,28 +3114,28 @@ en011802_a_atk06_080_Play
 en011802_a_atk07_010_Play
 en011802_a_atk07_030_Play
 en011802_a_atk08_080_Play
+en011802_a_atk09_010_Play
+en011802_a_atk09_030_Play
 en011802_a_atk09_080_Play
 en011802_a_btl_002_Play
 en011802_a_btl_101_Play
 en011802_a_btl_105_Play
 en011802_a_btl_106_Play
 en011802_a_btl_108_Play
+en011802_a_btl_109_Play
 en011802_a_btl_110_Play
 en011802_a_btl_111_Play
 en011802_a_btl_112_Play
 en011802_a_fld_005_Play
 en011802_a_fld_006_Play
 en011802_a_fld_008_Play
-# 111159711
-# 1842449752
-# 2851725471
-# 3071047777
 
 ### RTPC/GAME-VARIABLE NAMES (4148051372.bnk: en011802)
 param_pan
 param_pitch
 
 ### EVENT NAMES (4148051373.bnk: en011803)
+en011803_a_atk01_040_Play
 en011803_a_atk01_080_Play
 en011803_a_atk02_080_Play
 en011803_a_atk03_010_Play
@@ -3147,28 +3145,26 @@ en011803_a_atk06_080_Play
 en011803_a_atk07_010_Play
 en011803_a_atk07_030_Play
 en011803_a_atk08_080_Play
+en011803_a_atk09_040_Play
 en011803_a_atk09_080_Play
 en011803_a_btl_002_Play
 en011803_a_btl_101_Play
 en011803_a_btl_105_Play
 en011803_a_btl_106_Play
 en011803_a_btl_108_Play
+en011803_a_btl_109_Play
 en011803_a_btl_110_Play
 en011803_a_btl_111_Play
 en011803_a_btl_112_Play
 en011803_a_fld_005_Play
 en011803_a_fld_006_Play
 en011803_a_fld_008_Play
-# 3576621223
-# 3594801887
-# 4130239080
 
 ### RTPC/GAME-VARIABLE NAMES (4148051373.bnk: en011803)
 param_pan
 param_pitch
 
 ### EVENT NAMES (4248864150.bnk: en011901)
-en010601_a_btl_105_QNAN0
 en011901_a_atk01_010_Play
 en011901_a_atk01_030_Play
 en011901_a_atk01_110_Play
@@ -3176,20 +3172,19 @@ en011901_a_atk02_080_Play
 en011901_a_atk03_030_Play
 en011901_a_atk04_080_Play
 en011901_a_atk05_010_Play
+en011901_a_atk05_140_Play
 en011901_a_atk06_080_Play
 en011901_a_atk07_010_Play
 en011901_a_atk07_030_Play
+en011901_a_atk10_010_Play
+en011901_a_atk13_080_Play
+en011901_a_atk14_080_Play
 en011901_a_btl_101_Play
-en011901_a_btl_105_Play #alt
 en011901_a_btl_108_Play
 en011901_a_btl_110_Play
 en011901_a_btl_111_Play
 en011901_a_fld_006_Play
 en011901_a_fld_008_Play
-# 1247334869
-# 1984225193
-# 2629701205
-# 3312853892
 
 ### RTPC/GAME-VARIABLE NAMES (4248864150.bnk: en011901)
 param_pan
@@ -3229,16 +3224,16 @@ en012501_a_atk04_010_Play
 en012501_a_atk05_080_Play
 en012501_a_atk06_080_Play
 en012501_a_atk07_080_Play
+en012501_A_ATK_361_Play
 en012501_a_btl_101_Play
 en012501_a_btl_105_Play
 en012501_a_btl_106_Play
 en012501_a_btl_108_Play
+en012501_a_btl_109_Play
 en012501_a_btl_110_Play
 en012501_a_btl_111_Play
 en012501_a_btl_115_Play
 en012501_a_fld_008_Play
-# 2869084622
-# 3549959738
 
 ### RTPC/GAME-VARIABLE NAMES (2036128279.bnk: en012501)
 param_pan
@@ -3314,6 +3309,7 @@ en012701_a_atk04_010_Play
 en012701_a_atk05_080_Play
 en012701_a_atk06_080_Play
 en012701_a_atk07_080_Play
+en012701_A_ATK_361_Play
 en012701_a_btl_101_Play
 en012701_a_btl_105_Play
 en012701_a_btl_106_Play
@@ -3321,7 +3317,6 @@ en012701_a_btl_108_Play
 en012701_a_btl_111_Play
 en012701_a_fld_005_Play
 en012701_a_fld_008_Play
-# 1913383732
 
 ### RTPC/GAME-VARIABLE NAMES (2371386437.bnk: en012701)
 param_pan
@@ -3336,20 +3331,20 @@ en013001_a_atk05_080_Play
 en013001_a_atk06_010_Play
 en013001_a_atk06_030_Play
 en013001_a_atk06_080_Play
+en013001_a_atk07_040_Play
 en013001_a_atk07_080_Play
+en013001_a_atk08_040_Play
 en013001_a_atk08_080_Play
 en013001_a_atk09_080_Play
 en013001_a_btl_101_Play
 en013001_a_btl_105_Play
 en013001_a_btl_106_Play
 en013001_a_btl_108_Play
+en013001_a_btl_109_Play
 en013001_a_btl_110_Play
 en013001_a_btl_111_Play
 en013001_a_fld_005_Play
 en013001_a_fld_008_Play
-# 1461076873
-# 2934408716
-# 3139697764
 
 ### RTPC/GAME-VARIABLE NAMES (2294154481.bnk: en013001)
 param_pan
@@ -3371,23 +3366,23 @@ en013002_a_btl_101_Play
 en013002_a_btl_105_Play
 en013002_a_btl_106_Play
 en013002_a_btl_108_Play
+en013002_a_btl_109_Play
 en013002_a_btl_110_Play
 en013002_a_btl_111_Play
 en013002_a_fld_005_Play
 en013002_a_fld_008_Play
-# 999046861
 
 ### RTPC/GAME-VARIABLE NAMES (2294154482.bnk: en013002)
 param_pan
 param_pitch
 
 ### EVENT NAMES (247535224.bnk: en013101)
-btl07050501_002_105_01_Play
 en013101_a_atk01_010_Play
 en013101_a_atk01_080_Play
+en013101_a_atk02_040_Play
 en013101_a_atk02_080_Play
 en013101_a_atk03_080_Play
-en013101_a_atk04_010_Play #alt
+en013101_a_atk04_010_Play
 en013101_a_atk04_040_Play
 en013101_a_atk04_080_Play
 en013101_a_atk05_080_Play
@@ -3395,6 +3390,7 @@ en013101_a_atk06_080_Play
 en013101_a_atk07_080_Play
 en013101_a_atk08_080_Play
 en013101_a_atk09_080_Play
+en013101_a_atk10_080_Play
 en013101_a_atk11_080_Play
 en013101_a_btl_101_Play
 en013101_a_btl_105_Play
@@ -3402,8 +3398,6 @@ en013101_a_btl_106_Play
 en013101_a_btl_108_Play
 en013101_a_btl_111_Play
 en013101_a_fld_008_Play
-# 217632941
-# 2738612418
 
 ### RTPC/GAME-VARIABLE NAMES (247535224.bnk: en013101)
 param_pan
@@ -3424,6 +3418,23 @@ en013201_a_atk06_010_Play
 en013201_a_atk07_010_Play
 en013201_a_atk08_010_Play
 en013201_a_atk08_080_Play
+en013201_a_atk09_010_Play
+en013201_a_atk10_010_Play
+en013201_a_atk11_010_Play
+en013201_a_atk11_030_Play
+en013201_a_atk12_080_Play
+en013201_A_ATK13_040_Play
+en013201_a_atk13_080_Play
+en013201_a_atk14_010_Play
+en013201_a_atk14_030_Play
+en013201_a_atk15_040_Play
+en013201_a_atk15_080_Play
+en013201_A_ATK16_040_Play
+en013201_a_atk16_080_Play
+en013201_a_atk17_030_Play
+en013201_a_atk17_080_Play
+en013201_A_ATK17_090_Play
+en013201_A_ATK17_100_Play
 en013201_a_btl_101_Play
 en013201_a_btl_105_Play
 en013201_a_btl_106_Play
@@ -3432,23 +3443,6 @@ en013201_a_btl_111_Play
 en013201_a_btl_114_Play
 en013201_a_btl_115_Play
 en013201_a_fld_008_Play
-# 173374454
-# 266331054
-# 523041637
-# 552169765
-# 648780851
-# 939615764
-# 1044085531
-# 1468346774
-# 1958011050
-# 2141976137
-# 3153455801
-# 3274727669
-# 3366792965
-# 3779765472
-# 3892593938
-# 3985285188
-# 4141008080
 
 ### RTPC/GAME-VARIABLE NAMES (348348003.bnk: en013201)
 param_pan
@@ -3465,7 +3459,18 @@ en020301_a_atk07_010_Play
 en020301_a_atk07_030_Play
 en020301_a_atk08_010_Play
 en020301_a_atk09_010_Play
+en020301_a_atk09_030_Play
+en020301_a_atk10_010_Play
 en020301_a_atk11_010_Play
+en020301_a_atk12_010_Play
+en020301_a_atk13_010_Play
+en020301_a_atk13_030_Play
+en020301_A_ATK13_040_Play
+en020301_a_atk15_010_Play
+en020301_a_atk16_010_Play
+en020301_a_atk16_080_Play
+en020301_A_ATK_361_Play
+en020301_A_ATK_365_Play
 en020301_a_btl_101_Play
 en020301_a_btl_105_Play
 en020301_a_btl_106_Play
@@ -3473,17 +3478,6 @@ en020301_a_btl_108_Play
 en020301_a_btl_111_Play
 en020301_a_fld_004_Play
 en020301_a_fld_006_Play
-# 72003695
-# 312788121
-# 695570636
-# 1748978755
-# 1949105375
-# 2211508378
-# 2214440685
-# 2268902563
-# 3046250051
-# 3615450432
-# 3635145964
 
 ### RTPC/GAME-VARIABLE NAMES (4073066808.bnk: en020301)
 param_pan
@@ -3540,6 +3534,7 @@ en020601_a_btl_101_Play
 en020601_a_btl_105_Play
 en020601_a_btl_106_Play
 en020601_a_btl_108_Play
+en020601_a_btl_109_Play
 en020601_a_btl_110_Play
 en020601_a_btl_111_Play
 en020601_a_btl_112_Play
@@ -3550,7 +3545,6 @@ en020601_a_fld_003_Play
 en020601_a_fld_008_Play
 # 121338350
 # 655342324
-# 853262720
 # 1033087245
 # 1337507351
 # 3590887163
@@ -3589,19 +3583,19 @@ en020701_a_atk07_010_Play
 en020701_a_atk07_030_Play
 en020701_a_atk08_010_Play
 en020701_a_atk09_010_Play
+en020701_a_atk09_030_Play
+en020701_a_atk10_010_Play
 en020701_a_atk11_010_Play
+en020701_a_atk12_010_Play
+en020701_a_atk13_010_Play
+en020701_A_ATK13_040_Play
+en020701_a_atk15_010_Play
+en020701_a_atk16_080_Play
+en020701_A_ATK_365_Play
 en020701_a_btl_101_Play
 en020701_a_btl_105_Play
 en020701_a_btl_106_Play
 en020701_a_btl_108_Play
-# 1123120907
-# 1139655168
-# 1562544331
-# 1925061385
-# 2369740855
-# 2793195398
-# 3104349423
-# 4266396996
 
 ### RTPC/GAME-VARIABLE NAMES (2328885916.bnk: en020701)
 param_pan
@@ -3618,21 +3612,21 @@ en020801_a_atk07_010_Play
 en020801_a_atk07_030_Play
 en020801_a_atk08_010_Play
 en020801_a_atk09_010_Play
+en020801_a_atk09_030_Play
+en020801_a_atk10_010_Play
 en020801_a_atk11_010_Play
+en020801_a_atk12_010_Play
+en020801_a_atk13_010_Play
+en020801_A_ATK13_040_Play
+en020801_a_atk15_010_Play
+en020801_a_atk16_080_Play
+en020801_A_ATK_365_Play
 en020801_a_btl_101_Play
 en020801_a_btl_105_Play
 en020801_a_btl_106_Play
 en020801_a_btl_108_Play
 en020801_a_btl_111_Play
 en020801_a_fld_004_Play
-# 161547604
-# 1004602330
-# 1166990511
-# 1692907774
-# 2208521342
-# 3010247517
-# 3041502681
-# 3140738314
 
 ### RTPC/GAME-VARIABLE NAMES (148634059.bnk: en020801)
 param_pan
@@ -3649,25 +3643,25 @@ en020901_a_atk07_010_Play
 en020901_a_atk07_030_Play
 en020901_a_atk08_010_Play
 en020901_a_atk09_010_Play
+en020901_a_atk09_030_Play
+en020901_a_atk10_010_Play
 en020901_a_atk11_010_Play
+en020901_a_atk12_010_Play
+en020901_a_atk13_010_Play
+en020901_a_atk13_030_Play
+en020901_A_ATK13_040_Play
+en020901_a_atk15_010_Play
+en020901_a_atk16_080_Play
+en020901_A_ATK_361_Play
+en020901_A_ATK_362_Play
+en020901_A_ATK_363_Play
+en020901_A_ATK_364_Play
 en020901_a_btl_101_Play
 en020901_a_btl_105_Play
 en020901_a_btl_106_Play
 en020901_a_btl_108_Play
 en020901_a_btl_110_Play
 en020901_a_btl_111_Play
-# 51742142
-# 284612576
-# 324256725
-# 676369328
-# 890632945
-# 1384531895
-# 1515266489
-# 1693685369
-# 2143450938
-# 2433479330
-# 3811567210
-# 4080128443
 
 ### RTPC/GAME-VARIABLE NAMES (1860098322.bnk: en020901)
 param_pan
@@ -3684,22 +3678,22 @@ en021001_a_atk07_010_Play
 en021001_a_atk07_030_Play
 en021001_a_atk08_010_Play
 en021001_a_atk09_010_Play
+en021001_a_atk09_030_Play
+en021001_a_atk10_010_Play
 en021001_a_atk11_010_Play
+en021001_a_atk12_010_Play
+en021001_a_atk13_010_Play
+en021001_a_atk13_030_Play
+en021001_A_ATK13_040_Play
+en021001_a_atk15_010_Play
+en021001_a_atk16_080_Play
 en021001_a_btl_101_Play
 en021001_a_btl_105_Play
 en021001_a_btl_106_Play
 en021001_a_btl_108_Play
 en021001_a_btl_110_Play
 en021001_a_btl_111_Play
-# 493912342
-# 1198428799
-# 1252985625
 # 1514922718
-# 1806091163
-# 1917653080
-# 2661973191
-# 3166573648
-# 4260148628
 
 ### RTPC/GAME-VARIABLE NAMES (2002763532.bnk: en021001)
 param_pan
@@ -3768,10 +3762,10 @@ en025001_a_atk07_080_Play
 en025001_a_atk08_110_Play
 en025001_a_atk09_080_Play
 en025001_a_atk09_110_Play
+en025001_a_atk10_080_Play
 en025001_a_btl_105_Play
 en025001_a_btl_106_Play
 en025001_a_btl_108_Play
-# 3182477818
 
 ### RTPC/GAME-VARIABLE NAMES (1007959808.bnk: en025001)
 param_pan
@@ -3789,10 +3783,10 @@ en025101_a_atk08_080_Play
 en025101_a_btl_105_Play
 en025101_a_btl_106_Play
 en025101_a_btl_108_Play
+en025101_a_btl_109_Play
 en025101_a_btl_110_Play
 en025101_a_fld_005_Play
 en025101_a_fld_009_Play
-# 2732308324
 
 ### RTPC/GAME-VARIABLE NAMES (907147033.bnk: en025101)
 param_pan
@@ -3807,13 +3801,13 @@ en025201_a_atk03_080_Play
 en025201_a_atk04_010_Play
 en025201_a_atk04_110_Play
 en025201_a_atk06_080_Play
+en025201_a_atk07_040_Play
+en025201_a_atk08_040_Play
 en025201_a_atk09_080_Play
+en025201_a_atk10_080_Play
 en025201_a_btl_105_Play
 en025201_a_btl_106_Play
 en025201_a_btl_108_Play
-# 325874712
-# 1186935852
-# 2954291109
 
 ### RTPC/GAME-VARIABLE NAMES (2820236882.bnk: en025201)
 param_pan
@@ -3824,6 +3818,7 @@ en025301_a_atk01_080_Play
 en025301_a_atk02_080_Play
 en025301_a_atk03_080_Play
 en025301_a_atk04_080_Play
+en025301_a_atk05_040_Play
 en025301_a_atk05_080_Play
 en025301_a_atk08_080_Play
 en025301_a_atk09_080_Play
@@ -3831,7 +3826,6 @@ en025301_a_btl_101_Play
 en025301_a_btl_105_Play
 en025301_a_btl_106_Play
 en025301_a_btl_108_Play
-# 2700015521
 
 ### RTPC/GAME-VARIABLE NAMES (1108772619.bnk: en025301)
 param_pan
@@ -3844,12 +3838,12 @@ en025401_a_atk03_080_Play
 en025401_a_atk04_080_Play
 en025401_a_atk05_080_Play
 en025401_a_atk07_010_Play
+en025401_a_atk08_040_Play
 en025401_a_atk09_080_Play
 en025401_a_btl_101_Play
 en025401_a_btl_105_Play
 en025401_a_btl_106_Play
 en025401_a_btl_108_Play
-# 1213967543
 
 ### RTPC/GAME-VARIABLE NAMES (3021862468.bnk: en025401)
 param_pan
@@ -3869,9 +3863,9 @@ en040101_a_btl_111_Play
 en040101_a_btl_114_Play
 en040101_a_btl_115_Play
 en040101_a_fld_002_Play
+en040101_a_fld_002a_Play
+en040101_a_fld_002b_Play
 en040101_a_fld_006_Play
-# 3952996394
-# 4215034075
 
 ### RTPC/GAME-VARIABLE NAMES (3095451404.bnk: en040101)
 param_pan
@@ -3884,9 +3878,9 @@ en040106_a_btl_101_Play
 en040106_a_btl_111_Play
 en040106_a_btl_115_Play
 en040106_a_fld_002_Play
+en040106_a_fld_002a_Play
+en040106_a_fld_002b_Play
 en040106_a_fld_006_Play
-# 602523417
-# 2607886180
 
 ### RTPC/GAME-VARIABLE NAMES (3095451403.bnk: en040106)
 param_pan
@@ -3898,6 +3892,8 @@ en040201_a_atk05_080_Play
 en040201_a_atk06_010_Play
 en040201_a_atk07_010_Play
 en040201_a_atk08_010_Play
+en040201_a_atk08_030_Play
+en040201_A_ATK_361_Play
 en040201_a_btl_101_Play
 en040201_a_btl_105_Play
 en040201_a_btl_106_Play
@@ -3908,8 +3904,6 @@ en040201_a_btl_115_Play
 en040201_a_fld_002_Play
 en040201_a_fld_005_Play
 en040201_a_fld_008_Play
-# 954112526
-# 979775997
 # 2264316270
 
 ### RTPC/GAME-VARIABLE NAMES (2659380439.bnk: en040201)
@@ -3929,13 +3923,13 @@ en040202_a_btl_102_Play
 en040202_a_btl_105_Play
 en040202_a_btl_106_Play
 en040202_a_btl_108_Play
+en040202_a_btl_109_Play
 en040202_a_btl_110_Play
 en040202_a_btl_111_Play
 en040202_a_btl_114_Play
 en040202_a_btl_115_Play
 en040202_a_fld_005_Play
 en040202_a_fld_008_Play
-# 3714526647
 
 ### RTPC/GAME-VARIABLE NAMES (2659380436.bnk: en040202)
 param_pan
@@ -3965,7 +3959,10 @@ param_pitch
 ### EVENT NAMES (544665000.bnk: en040501)
 en040501_a_atk01_080_Play
 en040501_a_atk02_080_Play
+en040501_a_atk03_080_1_Play
+en040501_a_atk03_080_2_Play
 en040501_a_atk03_080_Play
+en040501_a_atk03_080_source_Play
 en040501_a_atk04_010_Play
 en040501_a_atk05_080_Play
 en040501_a_atk06_010_Play
@@ -3984,12 +3981,9 @@ en040501_a_fld_003_Play
 en040501_a_fld_005_Play
 en040501_a_fld_008_Play
 # 588555372
-# 761145598
 # 2030344063
 # 2884666794
 # 3288868437
-# 3776234852
-# 3862291471
 
 ### RTPC/GAME-VARIABLE NAMES (544665000.bnk: en040501)
 param_pan
@@ -3998,7 +3992,10 @@ param_pitch
 ### EVENT NAMES (544665002.bnk: en040503)
 en040503_a_atk01_080_Play
 en040503_a_atk02_080_Play
+en040503_a_atk03_080_1_Play
+en040503_a_atk03_080_2_Play
 en040503_a_atk03_080_Play
+en040503_a_atk03_080_source_Play
 en040503_a_atk04_010_Play
 en040503_a_atk05_080_Play
 en040503_a_atk06_010_Play
@@ -4018,9 +4015,6 @@ en040503_a_fld_005_Play
 en040503_a_fld_008_Play
 # 249343555
 # 884129962
-# 1944897173
-# 3505374832
-# 4061495554
 
 ### RTPC/GAME-VARIABLE NAMES (544665002.bnk: en040503)
 param_pan
@@ -4119,6 +4113,7 @@ en041001_a_atk07_030_Play
 en041001_a_atk07_110_Play
 en041001_a_atk08_080_Play
 en041001_a_atk09_080_Play
+en041001_a_atk10_080_Play
 en041001_a_btl_101_Play
 en041001_a_btl_105_Play
 en041001_a_btl_106_Play
@@ -4132,7 +4127,6 @@ en041001_a_btl_114_Play
 en041001_a_btl_115_Play
 en041001_a_fld_008_Play
 # 112909733
-# 327619120
 
 ### RTPC/GAME-VARIABLE NAMES (307427150.bnk: en041001)
 param_pan
@@ -4154,6 +4148,7 @@ en041002_a_atk07_030_Play
 en041002_a_atk07_110_Play
 en041002_a_atk08_080_Play
 en041002_a_atk09_080_Play
+en041002_a_atk10_080_Play
 en041002_a_btl_101_Play
 en041002_a_btl_105_Play
 en041002_a_btl_106_Play
@@ -4166,7 +4161,6 @@ en041002_a_btl_113_source2_Play
 en041002_a_btl_114_Play
 en041002_a_btl_115_Play
 en041002_a_fld_008_Play
-# 4074505633
 # 4077331968
 
 ### RTPC/GAME-VARIABLE NAMES (307427149.bnk: en041002)
@@ -4200,6 +4194,7 @@ en041102_a_atk02_030_Play
 en041102_a_atk03_080_Play
 en041102_a_atk04_080_Play
 en041102_a_atk05_010_Play
+en041102_a_atk05_040_Play
 en041102_a_atk05_080_Play
 en041102_a_atk06_010_Play
 en041102_a_atk07_080_Play
@@ -4211,7 +4206,6 @@ en041102_a_btl_108_Play
 en041102_a_btl_110_Play
 en041102_a_btl_111_Play
 en041102_a_fld_006_Play
-# 1209074284
 
 ### RTPC/GAME-VARIABLE NAMES (206614340.bnk: en041102)
 param_pan
@@ -4378,6 +4372,7 @@ en060201_a_btl_101_Play
 en060201_a_btl_105_Play
 en060201_a_btl_106_Play
 en060201_a_btl_108_Play
+en060201_a_btl_109_Play
 en060201_a_btl_111_Play
 en060201_a_btl_114_Play
 en060201_a_btl_115_Play
@@ -4385,7 +4380,6 @@ en060201_a_fld_005_Play
 en060201_a_fld_007_Play
 en060201_a_fld_009_Play
 # 1362755618
-# 2097834816
 # 2601048655
 # 3825546621
 
@@ -4405,6 +4399,7 @@ en060202_a_btl_101_Play
 en060202_a_btl_105_Play
 en060202_a_btl_106_Play
 en060202_a_btl_108_Play
+en060202_a_btl_109_Play
 en060202_a_btl_110_Play
 en060202_a_btl_111_Play
 en060202_a_btl_112_Play
@@ -4412,7 +4407,6 @@ en060202_a_btl_114_Play
 en060202_a_btl_115_Play
 en060202_a_fld_005_Play
 en060202_a_fld_006_Play
-# 396624481
 # 1011611673
 # 3016974436
 # 3280694404
@@ -4429,10 +4423,13 @@ en060301_a_atk05_030_Play
 en060301_a_atk05_080_Play
 en060301_a_atk06_080_Play
 en060301_a_btl_002_Play
+en060301_a_btl_002a_Play
+en060301_a_btl_002b_Play
 en060301_a_btl_101_Play
 en060301_a_btl_105_Play
 en060301_a_btl_106_Play
 en060301_a_btl_108_Play
+en060301_a_btl_109_Play
 en060301_a_btl_110_Play
 en060301_a_btl_111_Play
 en060301_a_btl_114_Play
@@ -4441,9 +4438,6 @@ en060301_a_fld_005_Play
 en060301_a_fld_006_Play
 en060301_a_fld_007_Play
 en060301_a_fld_008_Play
-# 1327585903
-# 3206350406
-# 3467804759
 
 ### RTPC/GAME-VARIABLE NAMES (1453368284.bnk: en060301)
 param_pan
@@ -4461,6 +4455,7 @@ en060302_a_btl_101_Play
 en060302_a_btl_105_Play
 en060302_a_btl_106_Play
 en060302_a_btl_108_Play
+en060302_a_btl_109_Play
 en060302_a_btl_110_Play
 en060302_a_btl_111_Play
 en060302_a_btl_114_Play
@@ -4469,7 +4464,6 @@ en060302_a_fld_005_Play
 en060302_a_fld_006_Play
 en060302_a_fld_007_Play
 en060302_a_fld_008_Play
-# 1222273170
 # 2025792133
 # 2046571040
 
@@ -4532,6 +4526,7 @@ en060501_a_btl_101_Play
 en060501_a_btl_105_Play
 en060501_a_btl_106_Play
 en060501_a_btl_108_Play
+en060501_a_btl_109_Play
 en060501_a_btl_110_Play
 en060501_a_btl_114_Play
 en060501_a_btl_115_Play
@@ -4546,7 +4541,6 @@ en060501_a_fld_006a_Play
 # 153035695
 # 517016430
 # 1041757286
-# 1153316213
 # 1554700320
 # 2268950589
 # 3110364728
@@ -4568,6 +4562,7 @@ en060502_a_btl_101_Play
 en060502_a_btl_105_Play
 en060502_a_btl_106_Play
 en060502_a_btl_108_Play
+en060502_a_btl_109_Play
 en060502_a_btl_110_Play
 en060502_a_btl_114_Play
 en060502_a_btl_115_Play
@@ -4579,7 +4574,6 @@ en060502_a_fld_007_Play
 en060502_a_fld_007a_Play
 en060502_a_fld_007b_Play
 # 324514412
-# 1140562772
 
 ### RTPC/GAME-VARIABLE NAMES (3399174761.bnk: en060502)
 param_pan
@@ -4666,15 +4660,15 @@ en060706_a_btl_108_Play
 en060706_a_btl_110_Play
 en060706_a_btl_111_Play
 en060706_a_btl_112_Play
+en060706_a_fld_004_1_Play
+en060706_a_fld_004_2_Play
 en060706_a_fld_004_Play
+en060706_a_fld_004_source_Play
+en060706_a_fld_004a_Play
+en060706_a_fld_004b_Play
+en060706_a_fld_004c_Play
 en060706_a_fld_005_Play
 # 353614072
-# 1417013522
-# 1538149055
-# 1572329524
-# 1852791393
-# 2302976302
-# 3734014147
 
 ### RTPC/GAME-VARIABLE NAMES (3197549183.bnk: en060706)
 param_pan
@@ -4687,10 +4681,12 @@ en060801_a_atk06_030_Play
 en060801_a_atk07_080_Play
 en060801_a_atk08_080_Play
 en060801_a_atk09_080_Play
+en060801_a_atk10_010_Play
 en060801_a_btl_101_Play
 en060801_a_btl_102_Play
 en060801_a_btl_105_Play
 en060801_a_btl_106_Play
+en060801_A_BTL_107_Play
 en060801_a_btl_108_Play
 en060801_a_btl_110_Play
 en060801_a_btl_114_Play
@@ -4698,11 +4694,8 @@ en060801_a_btl_115_Play
 en060801_a_fld_003_Play
 en060801_a_fld_007_Play
 en060801_a_fld_009_Play
-en780101_A_BTL_101_arts240602 #alt
-# 994027136
 # 2606675839
 # 3466987967
-# 3555171974
 
 ### RTPC/GAME-VARIABLE NAMES (1287019087.bnk: en060801)
 param_pan
@@ -4712,25 +4705,25 @@ param_pitch
 en060802_a_atk01_080_Play
 en060802_a_atk05_010_Play
 en060802_a_atk05_030_Play
+en060802_a_atk05_040_Play
 en060802_a_atk06_010_Play
 en060802_a_atk06_030_Play
 en060802_a_atk07_010_Play
 en060802_a_atk07_110_Play
 en060802_a_atk08_010_Play
 en060802_a_atk09_010_Play
+en060802_a_atk09_030_Play
+en060802_a_atk10_080_Play
 en060802_a_btl_101_Play
 en060802_a_btl_102_Play
 en060802_a_btl_105_Play
 en060802_a_btl_106_Play
+en060802_A_BTL_107_Play
 en060802_a_btl_108_Play
 en060802_a_btl_110_Play
 en060802_a_btl_114_Play
 en060802_a_btl_115_Play
 en060802_a_fld_009_Play
-# 58496206
-# 1162187071
-# 1610520564
-# 1766546937
 
 ### RTPC/GAME-VARIABLE NAMES (1287019084.bnk: en060802)
 param_pan
@@ -4741,27 +4734,27 @@ en060803_a_atk02_010_Play
 en060803_a_atk06_030_Play
 en060803_a_atk07_080_Play
 en060803_a_atk09_080_Play
+en060803_a_atk10_010_Play
 en060803_a_atk11_080_Play
+en060803_a_atk12_010_Play
+en060803_a_atk12_030_Play
+en060803_a_atk13_010_Play
+en060803_a_atk13_030_Play
+en060803_a_atk14_080_Play
+en060803_a_atk15_010_Play
+en060803_a_atk15_030_Play
+en060803_a_atk16_010_Play
+en060803_a_atk16_030_Play
+en060803_A_ATK_361_Play
 en060803_a_btl_101_Play
 en060803_a_btl_102_Play
 en060803_a_btl_105_Play
 en060803_a_btl_106_Play
+en060803_A_BTL_107_Play
 en060803_a_btl_110_Play
 en060803_a_btl_114_Play
 en060803_a_btl_115_Play
 en060803_a_fld_009_Play
-# 199568893
-# 271660356
-# 602645084
-# 1423351563
-# 2083062749
-# 2352336988
-# 2646030443
-# 3055323594
-# 3093426054
-# 3501590349
-# 3727350024
-# 3928665082
 
 ### RTPC/GAME-VARIABLE NAMES (1287019085.bnk: en060803)
 param_pan
@@ -4777,11 +4770,11 @@ en060901_a_btl_105_Play
 en060901_a_btl_106_Play
 en060901_a_btl_108_Play
 en060901_a_btl_110_Play
+en060901_a_btl_111_01_Play
 en060901_a_btl_111_Play
 en060901_a_btl_114_Play
 en060901_a_btl_115_Play
 en060901_a_fld_005_Play
-# 3513615380
 
 ### RTPC/GAME-VARIABLE NAMES (3535367222.bnk: en060901)
 param_pan
@@ -4834,6 +4827,8 @@ en061001_a_atk06_080_Play
 en061001_a_atk07_080_Play
 en061001_a_atk08_080_Play
 en061001_a_atk09_080_Play
+en061001_a_atk10_080_Play
+en061001_a_atk12_080_Play
 en061001_a_btl_002_Play
 en061001_a_btl_101_Play
 en061001_a_btl_105_Play
@@ -4847,8 +4842,6 @@ en061001_a_fld_005_Play
 en061001_a_fld_008_Play
 # 371890699
 # 1136134874
-# 3374715978
-# 3567417784
 # 3809314763
 # 4255685530
 
@@ -4867,26 +4860,26 @@ en061101_a_atk07_010_Play
 en061101_a_atk07_030_Play
 en061101_a_atk08_080_Play
 en061101_a_atk09_080_Play
+en061101_a_atk10_080_Play
 en061101_a_atk11_080_Play
+en061101_a_atk12_080_Play
+en061101_a_atk13_080_Play
+en061101_a_atk14_080_Play
+en061101_a_atk15_080_Play
+en061101_a_atk16_080_Play
+en061101_A_ATK_361_Play
+en061101_A_ATK_365_Play
 en061101_a_btl_101_Play
 en061101_a_btl_105_Play
 en061101_a_btl_106_Play
 en061101_a_btl_108_Play
+en061101_a_btl_109_Play
 en061101_a_btl_110_Play
 en061101_a_btl_111_Play
 en061101_a_btl_114_Play
 en061101_a_btl_115_Play
 en061101_a_fld_008_Play
 en061101_a_fld_009_Play
-# 58419929
-# 175394079
-# 453225844
-# 858322868
-# 1353752923
-# 1381724332
-# 2362319690
-# 2617036888
-# 3637463077
 
 ### RTPC/GAME-VARIABLE NAMES (3040335753.bnk: en061101)
 param_pan
@@ -5021,12 +5014,12 @@ en070301_a_btl_115_Play
 en070301_a_fld_005_Play
 en070301_b_atk01_080_Play
 en070301_b_atk02_080_Play
-# 187747886
-# 782162603
-# 1832234861
-# 2801253792
-# 2928843218
-# 3364724001
+en070301_b_atk03_080_Play
+en070301_b_atk04_080_Play
+en070301_b_btl_608_Play
+en070301_b_btl_610_Play
+en070301_b_btl_614_Play
+en070301_b_btl_615_Play
 
 ### RTPC/GAME-VARIABLE NAMES (3511351261.bnk: en070301)
 param_pan
@@ -5048,15 +5041,15 @@ en070302_a_btl_112_Play
 en070302_a_btl_113_Play
 en070302_a_btl_115_Play
 en070302_a_fld_005_Play
+en070302_a_fld_111_Play
 en070302_b_atk01_080_Play
 en070302_b_atk02_080_Play
-# 51643105
-# 389172311
-# 576948860
-# 999692716
-# 1132603902
-# 3491090235
-# 3975977040
+en070302_b_atk03_080_Play
+en070302_b_atk04_080_Play
+en070302_b_btl_608_Play
+en070302_b_btl_610_Play
+en070302_b_btl_614_Play
+en070302_b_btl_615_Play
 
 ### RTPC/GAME-VARIABLE NAMES (3511351262.bnk: en070302)
 param_pan
@@ -5094,24 +5087,24 @@ en070501_a_atk05_010_Play
 en070501_a_atk06_080_Play
 en070501_a_atk07_080_Play
 en070501_a_atk08_080_Play
+en070501_a_atk09_010_Play
+en070501_a_atk10_080_Play
 en070501_a_atk11_080_Play
+en070501_a_atk12_080_Play
+en070501_a_atk13_080_Play
 en070501_a_btl_002_Play
 en070501_a_btl_101_Play
 en070501_a_btl_102_Play
 en070501_a_btl_105_Play
 en070501_a_btl_106_Play
 en070501_a_btl_108_Play
+en070501_a_btl_109_Play
 en070501_a_btl_110_Play
 en070501_a_btl_111_Play
 en070501_a_btl_112_Play
 en070501_a_fld_005_Play
 en070501_a_fld_008_Play
-# 1575140055
-# 2385790850
 # 2487812277
-# 2585442638
-# 2923783132
-# 3924428401
 # 4006712976
 
 ### RTPC/GAME-VARIABLE NAMES (1699074187.bnk: en070501)
@@ -5132,12 +5125,12 @@ en070502_a_btl_101_Play
 en070502_a_btl_105_Play
 en070502_a_btl_106_Play
 en070502_a_btl_108_Play
+en070502_a_btl_109_Play
 en070502_a_btl_110_Play
 en070502_a_btl_111_Play
 en070502_a_btl_112_Play
 en070502_a_fld_005_Play
 en070502_a_fld_008_Play
-# 3942142923
 
 ### RTPC/GAME-VARIABLE NAMES (1699074184.bnk: en070502)
 param_pan
@@ -5185,10 +5178,12 @@ en070701_a_atk02_030_Play
 en070701_a_atk02_080_Play
 en070701_a_atk03_080_Play
 en070701_a_atk04_080_Play
+en070701_a_atk05_040_Play
 en070701_a_atk05_080_Play
 en070701_a_atk06_010_Play
 en070701_a_atk06_030_Play
 en070701_a_atk07_080_Play
+en070701_a_atk08_030_Play
 en070701_a_atk08_080_Play
 en070701_a_btl_002_Play
 en070701_a_btl_101_Play
@@ -5199,8 +5194,6 @@ en070701_a_btl_110_Play
 en070701_a_btl_111_Play
 en070701_a_btl_112_Play
 en070701_a_fld_008_Play
-# 1538038215
-# 1861152083
 
 ### RTPC/GAME-VARIABLE NAMES (1497448601.bnk: en070701)
 param_pan
@@ -5219,7 +5212,9 @@ en070801_a_atk07_010_Play
 en070801_a_atk07_030_Play
 en070801_a_atk08_080_Play
 en070801_a_atk09_080_Play
+en070801_a_atk10_080_Play
 en070801_a_atk11_080_Play
+en070801_a_atk12_080_Play
 en070801_a_btl_101_Play
 en070801_a_btl_105_Play
 en070801_a_btl_106_Play
@@ -5231,14 +5226,12 @@ en070801_a_btl_115_Play
 en070801_a_fld_005_Play
 en070801_a_fld_009_Play
 en070801_b_atk02_080_Play
+en070801_b_atk03_080_Play
+en070801_b_btl_601_Play
+en070801_b_btl_608_Play
+en070801_b_btl_610_Play
+en070801_b_btl_611_Play
 en070801_b_fld_508_Play
-# 243390548
-# 670650562
-# 1925088046
-# 2122292497
-# 2347390864
-# 2519502763
-# 2700650005
 
 ### RTPC/GAME-VARIABLE NAMES (3544067886.bnk: en070801)
 param_pan
@@ -5255,6 +5248,9 @@ en070901_a_atk06_030_Play
 en070901_a_atk06_110_Play
 en070901_a_atk07_080_Play
 en070901_a_atk09_080_Play
+en070901_a_atk10_080_Play
+en070901_a_atk11_010_Play
+en070901_a_atk11_030_Play
 en070901_a_btl_002_Play
 en070901_a_btl_101_Play
 en070901_a_btl_105_Play
@@ -5267,27 +5263,24 @@ en070901_a_fld_008_Play
 en070901_a_fld_012_Play
 en070901_b_atk01_080_Play
 en070901_b_atk02_080_Play
+en070901_b_atk03_080_Play
+en070901_b_atk04_080_Play
 en070901_b_atk05_080_Play
+en070901_b_atk07_080_Play
+en070901_b_atk09_080_Play
+en070901_b_atk10_080_Play
+en070901_b_atk11_080_Play
+en070901_b_atk12_080_Play
+en070901_b_btl_601_Play
+en070901_b_btl_608_Play
+en070901_b_btl_610_Play
+en070901_b_btl_614_Play
+en070901_b_btl_615_Play
+en070901_b_fld_502_Play
 en070901_b_fld_505_Play
+en070901_b_fld_506_Play
 en070901_b_fld_508_Play
 en070901_b_fld_512_Play
-# 137805406
-# 259664286
-# 313588971
-# 1022159753
-# 1730070981
-# 1756554017
-# 2283149992
-# 2450009730
-# 2470568483
-# 2520988460
-# 2707722170
-# 3063361467
-# 3091530335
-# 3108357782
-# 3598022058
-# 3756301016
-# 3759373232
 
 ### RTPC/GAME-VARIABLE NAMES (3443255079.bnk: en070901)
 param_pan
@@ -5324,11 +5317,11 @@ en071002_a_btl_106_Play
 en071002_a_btl_108_Play
 en071002_a_btl_110_Play
 en071002_a_fld_005_Play
+en071002_a_fld_006_1_Play
+en071002_a_fld_006_2_Play
 en071002_a_fld_006_Play
+en071002_a_fld_006_source_Play
 en071002_a_fld_008_Play
-# 736350371
-# 3085379442
-# 4166264259
 
 ### RTPC/GAME-VARIABLE NAMES (3837473646.bnk: en071002)
 param_pan
@@ -5383,6 +5376,7 @@ en090201_a_btl_101_Play
 en090201_a_btl_105_Play
 en090201_a_btl_106_Play
 en090201_a_btl_108_Play
+en090201_a_btl_109_Play
 en090201_a_btl_110_Play
 en090201_a_btl_111_Play
 en090201_a_btl_112_Play
@@ -5393,20 +5387,19 @@ en090201_a_fld_005_Play
 en090201_a_fld_012_Play
 en090201_b_atk01_080_Play
 en090201_b_atk02_080_Play
+en090201_b_atk04_080_Play
+en090201_b_btl_601_Play
+en090201_b_btl_608_Play
+en090201_b_btl_610_Play
 en090201_b_fld_512_Play
 # 204750050
 # 227880011
 # 671560832
-# 938960713
 # 1048770880
 # 1288800131
-# 1647551957
-# 2152654152
 # 3460053030
-# 3628808431
 # 3724148168
 # 3872498005
-# 4093109922
 
 ### RTPC/GAME-VARIABLE NAMES (379704266.bnk: en090201)
 param_pan
@@ -5421,6 +5414,7 @@ en090202_a_btl_101_Play
 en090202_a_btl_105_Play
 en090202_a_btl_106_Play
 en090202_a_btl_108_Play
+en090202_a_btl_109_Play
 en090202_a_btl_110_Play
 en090202_a_btl_111_Play
 en090202_a_btl_112_Play
@@ -5431,13 +5425,12 @@ en090202_a_fld_005_Play
 en090202_a_fld_012_Play
 en090202_b_atk01_080_Play
 en090202_b_atk02_080_Play
+en090202_b_atk04_080_Play
+en090202_b_btl_601_Play
+en090202_b_btl_608_Play
+en090202_b_btl_610_Play
 en090202_b_fld_512_Play
-# 942501871
-# 1605769138
 # 2424586265
-# 2514012448
-# 2596063540
-# 2843251769
 # 3227793343
 # 3615984316
 
@@ -5536,6 +5529,7 @@ en710101_a_btl_101_Play
 en710101_a_btl_105_Play
 en710101_a_btl_106_Play
 en710101_a_btl_108_Play
+en710101_a_btl_109_Play
 en710101_a_btl_110_Play
 en710101_a_btl_114_Play
 en710101_a_btl_115_Play
@@ -5545,13 +5539,12 @@ en710101_a_fld_012_Play
 en710101_b_atk01_080_Play
 en710101_b_atk02_080_Play
 en710101_b_atk03_010_Play
-# 770240916
-# 1253975611
-# 1351582927
-# 2177626985
-# 2406636424
-# 3481023871
-# 4108315089
+en710101_b_atk06_080_Play
+en710101_b_atk07_080_Play
+en710101_b_atk08_010_Play
+en710101_b_atk09_080_Play
+en710101_b_atk11_080_Play
+en710101_b_atk12_080_Play
 
 ### RTPC/GAME-VARIABLE NAMES (372675084.bnk: en710101)
 param_pan
@@ -5567,16 +5560,16 @@ en719100_a_atk05_080_Play
 en719100_a_atk06_080_Play
 en719100_a_atk07_080_Play
 en719100_a_atk08_080_Play
+en719100_a_atk08_140_Play
 en719100_a_atk09_080_Play
+en719100_a_atk10_010_Play
+en719100_a_atk10_080_Play
+en719100_a_atk10_140_Play
 en719100_a_btl_101_Play
 en719100_a_btl_105_Play
 en719100_a_btl_106_Play
 en719100_a_btl_108_Play
 en719100_a_btl_115_Play
-# 958956907
-# 1653162522
-# 2712731917
-# 3149125104
 
 ### RTPC/GAME-VARIABLE NAMES (2452725390.bnk: en719100)
 param_pan
@@ -5634,25 +5627,26 @@ en779100_a_atk03_030_Play
 en779100_a_atk03_080_Play
 en779100_a_atk04_080_Play
 en779100_a_atk05_010_Play
+en779100_a_atk05_040_Play
 en779100_a_atk05_080_Play
 en779100_a_atk06_080_Play
 en779100_a_atk07_080_Play
 en779100_a_atk08_080_Play
 en779100_a_atk09_080_Play
+en779100_a_atk10_010_Play
+en779100_a_atk10_080_Play
 en779100_a_btl_101_Play
 en779100_a_btl_105_Play
 en779100_a_btl_106_Play
 en779100_a_btl_108_Play
 en779100_a_btl_115_Play
-# 1842040964
-# 2265683422
-# 2301552363
 
 ### RTPC/GAME-VARIABLE NAMES (2805341436.bnk: en779100)
 param_pan
 param_pitch
 
 ### EVENT NAMES (1177190517.bnk: en780101)
+en780101_a_atk01_040_Play
 en780101_a_atk01_080_Play
 en780101_a_atk02_080_Play
 en780101_a_atk03_010_Play
@@ -5661,9 +5655,29 @@ en780101_a_atk04_080_Play
 en780101_a_atk05_080_Play
 en780101_a_atk06_080_Play
 en780101_a_atk07_080_Play
+en780101_a_atk13_080_Play
+en780101_a_atk14_080_Play
+en780101_a_atk15_010_Play
+en780101_a_atk15_040_Play
+en780101_a_atk15_080_Play
+en780101_a_atk16_010_Play
+en780101_a_atk16_030_Play
+en780101_a_atk16_080_Play
+en780101_a_atk17_080_Play
+en780101_a_atk18_010_Play
+en780101_a_atk18_030_Play
+en780101_a_atk18_080_Play
+en780101_a_atk19_030_Play
+en780101_a_atk19_080_Play
+en780101_a_atk20_010_Play
+en780101_a_atk20_040_Play
+en780101_a_atk20_080_Play
 en780101_a_atk21_080_Play
 en780101_a_atk22_080_Play
 en780101_a_atk24_080_Play
+en780101_a_atk25_080_Play
+en780101_a_atk27_080_Play
+en780101_a_atk29_080_Play
 en780101_A_BTL_101_Play
 en780101_A_BTL_105_Play
 en780101_A_BTL_106_Play
@@ -5673,27 +5687,6 @@ en780101_A_BTL_112_Play
 en780101_A_BTL_113_Play
 en780101_A_BTL_114_Play
 en780101_A_BTL_115_Play
-# 30849762
-# 99534546
-# 461786648
-# 907363973
-# 1681579088
-# 1697737425
-# 1818260945
-# 2030630387
-# 2101869358
-# 2421772227
-# 2582306985
-# 2775154068
-# 2848073418
-# 2996647028
-# 3121350079
-# 3258888763
-# 3303885078
-# 3381303661
-# 3828652430
-# 3932005295
-# 4205293538
 
 ### RTPC/GAME-VARIABLE NAMES (1177190517.bnk: en780101)
 param_pan
@@ -5704,33 +5697,33 @@ en780201_a_atk01_080_Play
 en780201_a_atk02_080_Play
 en780201_a_atk03_080_Play
 en780201_a_atk04_080_Play
+en780201_a_atk05_040_Play
 en780201_a_atk05_080_Play
+en780201_a_atk06_040_Play
 en780201_a_atk06_080_Play
+en780201_a_atk07_040_Play
 en780201_a_atk07_080_Play
+en780201_a_atk08_040_Play
 en780201_a_atk08_080_Play
+en780201_a_atk09_040_Play
 en780201_a_atk09_080_Play
+en780201_a_atk10_010_Play
+en780201_a_atk10_030_Play
+en780201_a_atk10_080_Play
+en780201_a_atk11_010_Play
+en780201_a_atk11_030_Play
 en780201_a_atk11_080_Play
+en780201_a_atk12_010_Play
+en780201_a_atk12_030_Play
+en780201_a_atk12_080_Play
+en780201_a_atk13_010_Play
+en780201_a_atk13_030_Play
+en780201_a_atk13_080_Play
 en780201_a_btl_101_Play
 en780201_a_btl_105_Play
 en780201_a_btl_106_Play
 en780201_a_btl_108_Play
 en780201_a_btl_115_Play
-# 206454497
-# 218698395
-# 643930316
-# 1474815697
-# 1595339217
-# 1699269242
-# 2315462795
-# 2405654946
-# 2762304460
-# 2773725300
-# 3133574351
-# 3295689037
-# 3731978800
-# 3982371810
-# 4004914342
-# 4102895330
 
 ### RTPC/GAME-VARIABLE NAMES (3090280270.bnk: en780201)
 param_pan
@@ -5753,6 +5746,8 @@ xs00100100_001_Play
 xs00100100_002_Play
 xs00100100_003_Play
 xs00100100_004_Play
+XS0050100_001_Play
+XS0050100_002_Play
 xs01010100_001_Play
 xs01010100_002_Play
 xs01010100_003_Play
@@ -5786,6 +5781,7 @@ xs03030100_001_Play
 xs03050100_001_Play
 xs03060100_001_Play
 xs03060100_002_Play
+xs03060100_003_2_Play
 xs03060100_003_Play
 xs03060100_004_Play
 xs03060100_005_Play
@@ -6042,13 +6038,10 @@ xs99110140_002_Play
 xs99110150_001_Play
 xs99110150_002_Play
 # 70434081
-# 722135976
 # 1354678799
-# 1386983526
 # 2071577053
 # 2223996417
 # 2341070696
-# 2444060663
 # 3256344142
 # 3590477752
 
@@ -6429,141 +6422,141 @@ param_pan
 param_pitch
 
 ### EVENT NAMES (588787604.bnk: se_np005001)
-# 338980067
-# 639302769
-# 861097419
-# 868173001
-# 972883040
-# 1105556517
-# 1125323762
-# 1410973815
-# 1497639757
-# 1830747495
-# 2539653766
-# 2659660193
-# 2704368465
-# 2715616411
-# 2857171997
-# 2910901742
-# 3128673119
-# 3311086644
-# 3311183383
-# 3398708071
-# 4227620769
-# 4268194584
+np005001_aci_L1_Play
+np005001_aci_R1_Play
+np005001_con_L1_Play
+np005001_con_R1_Play
+np005001_dir_L1_Play
+np005001_dir_R1_Play
+np005001_gra_L1_Play
+np005001_gra_R1_Play
+np005001_grav_L1_Play
+np005001_grav_R1_Play
+np005001_mag_L1_Play
+np005001_mag_R1_Play
+np005001_met_L1_Play
+np005001_met_R1_Play
+np005001_rmud_L1_Play
+np005001_rmud_R1_Play
+np005001_rwet_L1_Play
+np005001_rwet_R1_Play
+np005001_spo_L1_Play
+np005001_spo_R1_Play
+np005001_wet_L1_Play
+np005001_wet_R1_Play
 
 ### RTPC/GAME-VARIABLE NAMES (588787604.bnk: se_np005001)
 param_pan
 param_pitch
 
 ### EVENT NAMES (2410216368.bnk: se_np009001)
-# 230938950
-# 589935012
-# 799941813
-# 859476883
-# 1107371547
-# 1162150929
-# 1428373215
-# 1668202275
-# 1807230483
-# 2093910402
-# 2334477316
-# 2423488482
-# 2578083555
-# 2738493423
-# 2817659749
-# 2857316707
-# 2916734841
-# 3344660005
-# 3421289783
-# 3462840393
-# 3623893157
-# 3701569056
-# 4147155509
+np009001_aci_L1_Play
+np009001_aci_R1_Play
+np009001_con_L1_Play
+np009001_con_R1_Play
+np009001_dir_L1_Play
+np009001_dir_R1_Play
+np009001_gra_L1_Play
+np009001_gra_R1_Play
+np009001_grav_L1_Play
+np009001_grav_R1_Play
+np009001_mag_L1_Play
+np009001_mag_R1_Play
+np009001_met_L1_Play
+np009001_met_R1_Play
+np009001_rmud_L1_Play
+np009001_rmud_R1_Play
+np009001_rwet_L1_Play
+np009001_rwet_R1_Play
+np009001_sche_9_lp_Play
+np009001_spo_L1_Play
+np009001_spo_R1_Play
+np009001_wet_L1_Play
+np009001_wet_R1_Play
 
 ### RTPC/GAME-VARIABLE NAMES (2410216368.bnk: se_np009001)
 param_pan
 param_pitch
 
 ### EVENT NAMES (2643669586.bnk: se_np182001)
-# 2973376871
-# 2992717429
+np182001_sche_6_ed_Play
+np182001_sche_6_st_Play
 
 ### RTPC/GAME-VARIABLE NAMES (2643669586.bnk: se_np182001)
 param_pan
 param_pitch
 
 ### EVENT NAMES (1226090217.bnk: se_np201091)
-# 1654122290
-# 2988552260
-# 4184452914
+np201091_action_a_st_Play
+np201091_run_LR_Play
+np201091_walk_LR_Play
 
 ### RTPC/GAME-VARIABLE NAMES (1226090217.bnk: se_np201091)
 param_pan
 param_pitch
 
 ### EVENT NAMES (1494384960.bnk: se_np201151)
+np201151_action_a_st_Play
+np201151_action_b_st_Play
+np201151_action_c_st_Play
+np201151_action_d_st_Play
 np201151_idle_Play
-# 668433061
-# 1804572274
-# 1938605831
-# 3702579100
 
 ### RTPC/GAME-VARIABLE NAMES (1494384960.bnk: se_np201151)
 param_pan
 param_pitch
 
 ### EVENT NAMES (1444052105.bnk: se_np201161)
-# 1492384778
-# 3961497162
+np201161_action_a_st_Play
+np201161_idle_Play
 
 ### RTPC/GAME-VARIABLE NAMES (1444052105.bnk: se_np201161)
 param_pan
 param_pitch
 
 ### EVENT NAMES (3215720538.bnk: se_np202031)
-# 254684908
-# 3808833436
-# 3965856430
+np202031_action_f_st_Play
+np202031_sche_1_ed_Play
+np202031_sche_1_st_Play
 
 ### RTPC/GAME-VARIABLE NAMES (3215720538.bnk: se_np202031)
 param_pan
 param_pitch
 
 ### EVENT NAMES (3282830983.bnk: se_np202070)
-# 1105024321
-# 3407439995
+np202070_sche_1_ed_Play
+np202070_sche_1_st_Play
 
 ### RTPC/GAME-VARIABLE NAMES (3282830983.bnk: se_np202070)
 param_pan
 param_pitch
 
 ### EVENT NAMES (3115054792.bnk: se_np202091)
-# 51496402
-# 635931752
+np202091_sche_1_ed_Play
+np202091_sche_1_st_Play
 
 ### RTPC/GAME-VARIABLE NAMES (3115054792.bnk: se_np202091)
 param_pan
 param_pitch
 
 ### EVENT NAMES (385812479.bnk: se_np211001)
-# 447015999
-# 545410061
-# 3953993206
+np211001_action_g_st_Play
+np211001_sche_7_ed_Play
+np211001_sche_7_st_Play
 
 ### RTPC/GAME-VARIABLE NAMES (385812479.bnk: se_np211001)
 param_pan
 param_pitch
 
 ### EVENT NAMES (2106100147.bnk: se_npen710101)
-# 1971487815
+npen710101_b_fld_508_Play
 
 ### RTPC/GAME-VARIABLE NAMES (2106100147.bnk: se_npen710101)
 param_pan
 param_pitch
 
 ### EVENT NAMES (4152719304.bnk: se_npen710201)
-# 759704640
+npen710201_a_fld_008_Play
 
 ### RTPC/GAME-VARIABLE NAMES (4152719304.bnk: se_npen710201)
 param_pan
@@ -6580,6 +6573,7 @@ qev090602_001_Play
 qev090602_002_Play
 qev090603_001_Play
 qev091202_001_Play
+qev091205_001_Play
 qev091205_002_Play
 qev091402_001_Play
 qev091602_001_Play
@@ -6615,7 +6609,6 @@ qev092907_001_Play
 qev093006_001_Play
 qev093102_001_Play
 qev095403_001_Play
-# 3900986059
 
 ### RTPC/GAME-VARIABLE NAMES (3854415206.bnk: syanai)
 param_pan
@@ -6702,6 +6695,56 @@ param_pitch
 
 ### EVENT NAMES (1855370026.bnk: town1)
 blade_door_Play
+np012001_action_g_st_Play
+np021001_action_g_st_Play
+np061001_action_g_st_Play
+np071001_action_g_st_Play
+np071001_sche_5_lp_Play
+np204011_action_a_st_Play
+np204011_run_LR_Play
+np204011_walk_LR_Play
+np204022_action_a_lp_Play
+np204022_action_a_st_Play
+np204022_action_b_st_Play
+np204022_action_c_st_Play
+np204022_action_d_st_Play
+np204022_idle_Play
+np204022_walk_LR_Play
+np206021_action_a_st_Play
+np206021_action_b_st_Play
+np206021_run_LR_Play
+np206021_walk_LR_Play
+np206022_action_b_st_Play
+np206022_action_f_st_Play
+np206022_action_i_lp_Play
+np206022_run_LR_Play
+np206022_walk_LR_Play
+np206051_action_a_ed_Play
+np206051_action_a_lp_Play
+np206051_action_a_st_Play
+np206051_action_b_lp_Play
+np206051_action_b_st_Play
+np206051_idle_Play
+np206052_action_b_lp_Play
+np206052_action_b_st_Play
+np206052_action_d_st_Play
+np206052_action_e_st_Play
+np206052_walk_LR_Play
+np206071_action_c_lp_Play
+np206091_run_LR_Play
+np206091_walk_LR_Play
+np206092_run_LR_Play
+np206092_sche_1_st_Play
+np206092_walk_LR_Play
+np207031_action_a_st_Play
+np207031_action_b_st_Play
+np207031_idle_Play
+np207091_action_a_lp_Play
+np207091_action_a_st_Play
+np207091_action_b_st_Play
+np207091_action_c_st_Play
+np207091_idle_Play
+qev011702_001_Play
 qev012202_001_Play
 qev013104_001_Play
 qev013104_002_Play
@@ -6755,8 +6798,10 @@ qev042205_005_Play
 qev050302_001_Play
 qev050401_001_Play
 qev050401_002_Play
+qev050402_001_Play
 qev050404_001_Play
 qev050404_002_Play
+qev050602_001_Play
 qev055103_001_Play
 qev055402_001_Play
 qev055402_002_Play
@@ -6779,58 +6824,6 @@ qev087202_002_Play
 qev092102_001_Play
 qev092104_002_Play
 se_zone1601_204_Play
-# 83862017
-# 88212795
-# 202538302
-# 209024327
-# 252494666
-# 281848921
-# 286142308
-# 302943644
-# 329730071
-# 555970444
-# 575530350
-# 647053943
-# 682855803
-# 849316730
-# 861532023
-# 915963375
-# 949791480
-# 1019198169
-# 1171822581
-# 1201962245
-# 1229013113
-# 1274446903
-# 1296764536
-# 1554194206
-# 1652963057
-# 1667380553
-# 1692721638
-# 1705799280
-# 1900739579
-# 1929622691
-# 2016887974
-# 2170039901
-# 2292820037
-# 2327096966
-# 2362542546
-# 2393996376
-# 2484470461
-# 2759246660
-# 3012506417
-# 3179948373
-# 3286696009
-# 3375961756
-# 3404526632
-# 3478738023
-# 3511720022
-# 3719206382
-# 3892033947
-# 3913874138
-# 3918956418
-# 4041317731
-# 4147703052
-# 4185352467
 
 ### RTPC/GAME-VARIABLE NAMES (1855370026.bnk: town1)
 param_pan
@@ -6839,25 +6832,38 @@ param_pitch
 ### EVENT NAMES (1855370025.bnk: town2)
 door_01_01_close_Play
 door_01_01_open_Play
+qev010101_001_Play
 qev010401_001_Play
 qev011101_001_Play
+qev011702_001_Play
+qev012002_001_Play
+qev012002_002_Play
 qev013105_001_Play
 qev013204_003_Play
 qev013204_004_Play
 qev013805_002_Play
 qev014303_004_Play
 qev014403_001_Play
+qev014404_001_Play
+qev014404_002_Play
 qev014405_001_Play
 qev014405_002_Play
 qev014407_001_Play
 qev014407_002_Play
+qev014408_001_Play
+qev014408_002_Play
+qev015005_001_Play
 qev015101_001_Play
 qev015101_004_Play
+qev025101_001_Play
+qev025802_001_Play
 qev025903_001_Play
 qev025904_001_Play
 qev027001_002_Play
 qev027002_001_Play
 qev027002_002_Play
+qev030401_001_Play
+qev030401_002_Play
 qev030602_001_Play
 qev030602_002_Play
 qev030602_003_Play
@@ -6872,6 +6878,7 @@ qev035102_002_Play
 qev035102_003_Play
 qev035103_001_Play
 qev035103_002_Play
+qev035403_001_Play
 qev035602_001_Play
 qev040102_001_Play
 qev040102_002_Play
@@ -6902,6 +6909,8 @@ qev060103_001_Play
 qev060204_001_Play
 qev060204_002_Play
 qev060204_003_Play
+qev060402_001_Play
+qev060402_002_Play
 qev060501_001_Play
 qev060501_002_Play
 qev060606_001_Play
@@ -6911,6 +6920,7 @@ qev060801_001_Play
 qev060802_001_Play
 qev061001_001_Play
 qev061002_001_Play
+qev065102_001_Play
 qev065202_001_Play
 qev065202_002_Play
 qev065203_001_Play
@@ -6918,6 +6928,8 @@ qev065203_002_Play
 qev065203_003_Play
 qev065205_001_Play
 qev065301_001_Play
+qev065405_001_Play
+qev065405_002_Play
 qev065501_001_Play
 qev070101_001_Play
 qev070101_002_Play
@@ -6945,9 +6957,13 @@ qev097805_001_Play
 qev097805_002_Play
 qev097805_003_Play
 qev097805_004_Play
+qev099901_001_Play
 qev099902_001_Play
+qev099903_001_Play
 qev099904_001_Play
+qev099905_001_Play
 qev099906_001_Play
+qev099907_001_Play
 qev099908_001_Play
 se_zone1001_201_Play
 se_zone1601_202_Play
@@ -6958,29 +6974,6 @@ sev_qev055401_001_02_Play
 tev001492_001_Play
 tev001492_002_Play
 tev001492_003_Play
-# 440828085
-# 490886164
-# 492759607
-# 602470566
-# 648883070
-# 797867699
-# 1069229452
-# 1171822581
-# 1595017013
-# 1756575434
-# 1838327346
-# 1945992298
-# 2022948162
-# 2060189819
-# 2245336205
-# 2361839497
-# 2394869040
-# 2636619107
-# 2645730985
-# 2911370803
-# 3113917712
-# 3750028943
-# 4134310190
 
 ### RTPC/GAME-VARIABLE NAMES (1855370025.bnk: town2)
 param_pan
@@ -7111,10 +7104,10 @@ param_pitch
 wd_012301_000_Play
 wd_012301_010_Play
 wd_012301_050_Play
+wd_012301_060_2_Play
 wd_012301_060_Play
 wd_012301_200_Play
 wd_012301_220_Play
-# 18101151
 
 ### RTPC/GAME-VARIABLE NAMES (3631964966.bnk: wd_012301)
 param_pan
@@ -7124,11 +7117,10 @@ param_pitch
 wd_012401_000_Play
 wd_012401_010_Play
 wd_012401_050_Play
-wd_012401_050_Play #alt
+wd_012401_060_2_Play
 wd_012401_060_Play
 wd_012401_200_Play
 wd_012401_220_Play
-# 156400342
 
 ### RTPC/GAME-VARIABLE NAMES (3463055881.bnk: wd_012401)
 param_pan
@@ -7149,10 +7141,10 @@ param_pitch
 ### EVENT NAMES (3479833595.bnk: wd_012410)
 wd_012410_010_Play
 wd_012410_050_Play
+wd_012410_060_2_Play
 wd_012410_060_Play
 wd_012410_200_Play
 wd_012410_220_Play
-# 1306900656
 
 ### RTPC/GAME-VARIABLE NAMES (3479833595.bnk: wd_012410)
 param_pan
@@ -7850,15 +7842,10 @@ param_pitch
 
 ### EVENT NAMES (218275904.bnk: wd_061301)
 wd_061301_000_Play
-wd_061301_000_Play #alt
 wd_061301_010_Play
-wd_061301_010_Play #alt
 wd_061301_050_Play
-wd_061301_050_Play #alt
 wd_061301_200_Play
-wd_061301_200_Play #alt
 wd_061301_220_Play
-wd_061301_220_Play #alt
 
 ### RTPC/GAME-VARIABLE NAMES (218275904.bnk: wd_061301)
 param_pan
@@ -8103,7 +8090,6 @@ param_pitch
 
 ### EVENT NAMES (1964633944.bnk: wd_301801)
 wd_301801_000_Play
-wd_301801_000_Play #alt
 wd_301801_010_Play
 wd_301801_030_Play
 wd_301801_200_Play
@@ -8384,6 +8370,7 @@ ws12_5_040_Play
 ws12_5_080_Play
 ws12_6_080_Play
 ws12_7_080_Play
+ws12_8_040_Play
 ws12_8_080_Play
 ws12_9_080_Play
 ws12_bm_010_Play
@@ -8392,7 +8379,6 @@ ws12_fr_010_Play
 ws12_ph_010_Play
 ws12_ph_050_Play
 ws12_vt_010_Play
-# 1076593879
 
 ### RTPC/GAME-VARIABLE NAMES (479085266.bnk: ws12)
 param_pan
@@ -8885,20 +8871,20 @@ param_pitch
 ws26_10_080_Play
 ws26_11_080_Play
 ws26_12_080_Play
+ws26_13_040_Play
 ws26_13_080_Play
 ws26_14_080_Play
 ws26_1_080_Play
 ws26_2_080_Play
 ws26_3_080_Play
 ws26_4_080_Play
+ws26_5_040_Play
 ws26_5_080_Play
 ws26_6_080_Play
 ws26_7_080_Play
+ws26_8_040_Play
 ws26_8_080_Play
 ws26_9_080_Play
-# 1888996204
-# 2189813412
-# 2281730231
 
 ### RTPC/GAME-VARIABLE NAMES (529418159.bnk: ws26)
 param_pan
@@ -8991,13 +8977,523 @@ xs33850100_dialog_Play
 xs33860100_dialog_Play
 
 ### EVENT NAMES (langs/899938053.bnk: Voice202307)
+btl01070501_Play
+btl01160601_Play
+btl01160602_Play
+btl02070501_Play
+btl02160601_Play
+btl02160602_Play
+btl03070501_Play
+btl03160601_Play
+btl03160602_Play
+btl04070501_Play
+btl04160601_Play
+btl04160602_Play
+btl05070501_Play
+btl05160601_Play
+btl05160602_Play
+btl06070501_Play
+btl06160601_Play
+btl06160602_Play
+btl07070501_Play
+btl07160601_Play
+btl07160602_Play
+btl08070501_Play
+btl08160601_Play
+btl08160602_Play
+btl09070501_Play
+btl09160601_Play
+btl09160602_Play
+btl10070501_Play
+btl10160601_Play
+btl10160602_Play
+btl21070501_Play
+btl21160601_Play
+btl21160602_Play
+btl22070501_Play
+btl22160601_Play
+btl22160602_Play
+btl23070501_Play
+btl23160601_Play
+btl23160602_Play
+btl24070501_Play
+btl24160601_Play
+btl24160602_Play
+btl25070501_Play
+btl25160601_Play
+btl25160602_Play
+btl26070501_Play
+btl26160601_Play
+btl26160602_Play
+btl27070501_Play
+btl27160601_Play
+btl27160602_Play
+btl28070501_Play
+btl28160601_Play
+btl28160602_Play
+btl29070501_Play
+btl29160601_Play
+btl29160602_Play
+btl30070501_Play
+btl30160601_Play
+btl30160602_Play
+btl41080701_Play
+btl41080801_Play
+btl41160601_Play
+btl41160602_Play
+btl42080701_Play
+btl42160601_Play
+btl42160602_Play
+btl44080701_Play
+btl44160601_Play
+btl44160602_Play
+btl45080701_Play
+btl45160601_Play
+btl45160602_Play
+btl46080701_Play
+btl46160601_Play
+btl46160602_Play
+btl47080701_Play
+btl47160601_Play
+btl47160602_Play
+btl48080701_Play
+btl48160601_Play
+btl48160602_Play
+btl49080701_Play
+btl49160601_Play
+btl49160602_Play
+btl50080701_Play
+btl50160601_Play
+btl50160602_Play
+btl51080701_Play
+btl51080801_Play
+btl51160601_Play
+btl51160602_Play
+btl51160603_Play
+btl51310001_Play
+btl51310002_Play
+btl52080801_Play
+btl52080901_Play
+btl52081001_Play
+btl52160601_Play
+btl52160602_Play
+btl53080701_Play
+btl53160601_Play
+btl53160602_Play
+btl54080701_Play
+btl54160601_Play
+btl54160602_Play
+btl55160601_Play
+btl55160602_Play
+btl56080701_Play
+btl56160601_Play
+btl56160602_Play
+btl57080701_Play
+btl57160601_Play
+btl57160602_Play
+btl58080701_Play
+btl58160601_Play
+btl58160602_Play
+btl70010001_Play
+btl70010002_Play
+btl70020001_Play
+btl70020002_Play
+btl70030101_Play
+btl70030201_Play
+btl70030301_Play
+btl70040101_Play
+btl70040201_Play
+btl70040301_Play
+btl70040401_Play
+btl70040601_Play
+btl70040701_Play
+btl70050101_Play
+btl70050102_Play
+btl70050201_Play
+btl70050202_Play
+btl70050301_Play
+btl70050302_Play
+btl70050401_Play
+btl70050402_Play
+btl70050601_Play
+btl70050701_Play
+btl70070101_Play
+btl70070102_Play
+btl70070201_Play
+btl70070202_Play
 btl70070301_Play
 btl70070302_Play
+btl70070401_Play
+btl70070402_Play
+btl70070501_Play
+btl70070601_Play
+btl70070701_Play
+btl70070801_Play
+btl70070901_Play
+btl70071001_Play
+btl70071101_Play
+btl70071201_Play
+btl70071301_Play
+btl70071401_Play
+btl70071501_Play
+btl70071601_Play
+btl70071701_Play
+btl70071801_Play
+btl70071901_Play
+btl70072001_Play
+btl70072101_Play
+btl70072201_Play
+btl70072301_Play
+btl70072401_Play
+btl70080101_Play
+btl70080201_Play
+btl70080301_Play
+btl70080401_Play
+btl70080501_Play
+btl70080601_Play
+btl70090001_Play
+btl70090002_Play
+btl70100001_Play
+btl70100002_Play
+btl70110101_Play
+btl70110201_Play
+btl70110301_Play
+btl70110401_Play
+btl70110501_Play
+btl70110601_Play
+btl70110701_Play
+btl70110801_Play
+btl70110901_Play
+btl70111001_Play
+btl70111002_Play
+btl70120101_Play
+btl70120201_Play
+btl70120301_Play
+btl70130101_Play
+btl70130201_Play
+btl70130202_Play
+btl70130301_Play
+btl70130302_Play
+btl70130401_Play
+btl70130402_Play
+btl70140001_Play
+btl70150101_Play
+btl70150301_Play
+btl70150401_Play
+btl70160101_Play
+btl70160201_Play
+btl70160401_Play
+btl70160501_Play
+btl70160601_Play
+btl70160602_Play
+btl70170101_Play
+btl70190001_Play
+btl70190002_Play
+btl70200001_Play
+btl70200002_Play
+btl70210001_Play
+btl70220001_Play
+btl71010001_Play
+btl71010002_Play
+btl71020001_Play
+btl71020002_Play
+btl71030101_Play
+btl71030201_Play
+btl71030301_Play
+btl71040101_Play
+btl71040201_Play
+btl71040301_Play
+btl71040401_Play
+btl71040601_Play
+btl71040701_Play
+btl71050101_Play
+btl71050102_Play
+btl71050201_Play
+btl71050202_Play
+btl71050301_Play
+btl71050302_Play
+btl71050401_Play
+btl71050402_Play
+btl71050601_Play
+btl71050701_Play
+btl71070101_Play
+btl71070102_Play
+btl71070201_Play
+btl71070202_Play
+btl71070301_Play
 btl71070302_Play
+btl71070401_Play
+btl71070402_Play
+btl71070501_Play
+btl71070601_Play
+btl71070701_Play
+btl71070801_Play
+btl71070901_Play
+btl71071001_Play
+btl71071101_Play
+btl71071201_Play
+btl71071301_Play
+btl71071401_Play
+btl71071501_Play
+btl71071601_Play
+btl71071701_Play
+btl71071801_Play
+btl71071901_Play
+btl71072001_Play
+btl71072101_Play
+btl71072201_Play
+btl71072301_Play
 btl71072401_Play
+btl71080101_Play
+btl71080201_Play
+btl71080301_Play
+btl71080401_Play
+btl71080501_Play
+btl71080601_Play
+btl71090001_Play
+btl71090002_Play
+btl71100001_Play
+btl71100002_Play
+btl71110101_Play
+btl71110201_Play
+btl71110301_Play
+btl71110401_Play
+btl71110501_Play
+btl71110601_Play
+btl71110701_Play
+btl71110801_Play
+btl71110901_Play
+btl71111001_Play
+btl71111002_Play
+btl71120101_Play
+btl71120201_Play
+btl71120301_Play
+btl71130101_Play
+btl71130201_Play
+btl71130202_Play
+btl71130301_Play
+btl71130302_Play
+btl71130401_Play
+btl71130402_Play
+btl71140001_Play
+btl71150101_Play
+btl71150201_Play
+btl71150301_Play
+btl71150401_Play
+btl71160101_Play
+btl71160201_Play
+btl71160401_Play
+btl71160501_Play
+btl71160601_Play
+btl71160602_Play
+btl71170101_Play
+btl71190001_Play
+btl71190002_Play
+btl71200001_Play
+btl71200002_Play
+btl71210001_Play
+btl71220001_Play
+btl72010001_Play
+btl72010002_Play
+btl72020001_Play
+btl72020002_Play
+btl72030101_Play
+btl72030201_Play
+btl72030301_Play
+btl72040101_Play
+btl72040201_Play
+btl72040301_Play
+btl72040401_Play
+btl72040601_Play
+btl72040701_Play
+btl72050101_Play
+btl72050102_Play
+btl72050201_Play
+btl72050202_Play
+btl72050301_Play
+btl72050302_Play
+btl72050401_Play
+btl72050402_Play
+btl72050601_Play
+btl72050701_Play
+btl72070101_Play
+btl72070102_Play
+btl72070201_Play
+btl72070202_Play
 btl72070301_Play
+btl72070302_Play
+btl72070401_Play
+btl72070402_Play
+btl72070501_Play
+btl72070601_Play
+btl72070701_Play
+btl72070801_Play
+btl72070901_Play
+btl72071001_Play
+btl72071101_Play
+btl72071201_Play
+btl72071301_Play
 btl72071401_Play
+btl72071501_Play
+btl72071601_Play
+btl72071701_Play
+btl72071801_Play
+btl72071901_Play
+btl72072001_Play
+btl72072101_Play
+btl72072201_Play
+btl72072301_Play
+btl72072401_Play
+btl72080101_Play
+btl72080201_Play
+btl72080301_Play
+btl72080401_Play
+btl72080501_Play
+btl72080601_Play
+btl72090001_Play
+btl72090002_Play
+btl72100001_Play
+btl72100002_Play
+btl72110101_Play
+btl72110201_Play
+btl72110301_Play
+btl72110401_Play
+btl72110501_Play
+btl72110601_Play
+btl72110701_Play
+btl72110801_Play
+btl72110901_Play
+btl72111001_Play
+btl72111002_Play
+btl72120101_Play
+btl72120201_Play
+btl72120301_Play
+btl72130101_Play
+btl72130201_Play
+btl72130202_Play
+btl72130301_Play
+btl72130302_Play
+btl72130401_Play
+btl72130402_Play
+btl72140001_Play
+btl72150101_Play
+btl72150201_Play
+btl72150301_Play
+btl72150401_Play
+btl72160101_Play
+btl72160201_Play
+btl72160401_Play
+btl72160501_Play
+btl72160601_Play
+btl72160602_Play
+btl72170101_Play
+btl72190001_Play
+btl72190002_Play
+btl72200001_Play
+btl72200002_Play
+btl72210001_Play
+btl72220001_Play
+btl73010001_Play
+btl73010002_Play
+btl73020001_Play
+btl73020002_Play
+btl73030101_Play
+btl73030201_Play
+btl73030301_Play
+btl73040101_Play
+btl73040201_Play
+btl73040301_Play
+btl73040401_Play
+btl73040601_Play
+btl73040701_Play
+btl73050101_Play
+btl73050102_Play
+btl73050201_Play
+btl73050202_Play
+btl73050301_Play
+btl73050302_Play
+btl73050401_Play
+btl73050402_Play
+btl73050601_Play
+btl73050701_Play
+btl73070101_Play
+btl73070102_Play
+btl73070201_Play
+btl73070202_Play
+btl73070301_Play
+btl73070302_Play
+btl73070401_Play
+btl73070402_Play
+btl73070501_Play
 btl73070601_Play
+btl73070701_Play
+btl73070801_Play
+btl73070901_Play
+btl73071001_Play
+btl73071101_Play
+btl73071201_Play
+btl73071301_Play
+btl73071401_Play
+btl73071501_Play
+btl73071601_Play
+btl73071701_Play
+btl73071801_Play
+btl73071901_Play
+btl73072001_Play
+btl73072101_Play
+btl73072201_Play
+btl73072301_Play
+btl73072401_Play
+btl73080101_Play
+btl73080201_Play
+btl73080301_Play
+btl73080401_Play
+btl73080501_Play
+btl73080601_Play
+btl73090001_Play
+btl73090002_Play
+btl73100001_Play
+btl73100002_Play
+btl73110101_Play
+btl73110201_Play
+btl73110301_Play
+btl73110401_Play
+btl73110501_Play
+btl73110601_Play
+btl73110701_Play
+btl73110801_Play
+btl73110901_Play
+btl73111001_Play
+btl73111002_Play
+btl73120101_Play
+btl73120201_Play
+btl73120301_Play
+btl73130101_Play
+btl73130201_Play
+btl73130202_Play
+btl73130301_Play
+btl73130302_Play
+btl73130401_Play
+btl73130402_Play
+btl73140001_Play
+btl73150101_Play
+btl73150201_Play
+btl73150301_Play
+btl73150401_Play
+btl73160101_Play
+btl73160201_Play
+btl73160401_Play
+btl73160501_Play
+btl73160601_Play
+btl73160602_Play
+btl73170101_Play
+btl73190001_Play
+btl73190002_Play
+btl73200001_Play
+btl73200002_Play
+btl73210001_Play
+btl73955202_Play
+btl73955203_Play
 en010301_c_arts_001_Play
 en010301_c_arts_002_Play
 en010301_c_arts_003_Play
@@ -9039,12 +9535,15 @@ en020701_Y_arts_003_Play
 en020701_Y_arts_004_Play
 en020701_Y_arts_005_Play
 en020701_Y_arts_006_Play
+en020701_Y_arts_007_Play
+en020701_Y_arts_008_Play
 en020701_Y_cond_001_Play
 en020701_Y_cond_002_Play
 en020701_Y_cond_003_Play
 en020701_Y_cond_004_Play
 en020701_Y_cond_005_Play
 en020701_Y_cond_006_Play
+en020701_Y_cond_007_Play
 en020901_f_arts_001_Play
 en020901_f_arts_002_Play
 en020901_f_cond_002_Play
@@ -12936,24 +13435,15 @@ xs33910100_wav0140_Play
 # 18230426
 # 21808570
 # 23604284
-# 26398641
 # 34227234
 # 36268615
 # 36768732
 # 45219785
 # 45823511
-# 48313969
-# 48992305
-# 53856572
-# 55380823
 # 56644734
 # 62252425
-# 62798947
 # 62872662
 # 69119620
-# 74500914
-# 76699889
-# 77250069
 # 77417767
 # 77871142
 # 77909665
@@ -12962,15 +13452,10 @@ xs33910100_wav0140_Play
 # 80612411
 # 83651024
 # 84962207
-# 85511651
 # 91129144
 # 92888551
 # 93033521
-# 95810736
-# 99828350
 # 100934369
-# 101677352
-# 102470118
 # 104231762
 # 107613659
 # 111140742
@@ -12979,65 +13464,42 @@ xs33910100_wav0140_Play
 # 120735754
 # 121311774
 # 123749428
-# 123805152
 # 125066058
 # 126648773
 # 132119938
-# 144532084
 # 147198336
-# 149896765
 # 150521229
 # 151808682
-# 153760858
 # 154556190
 # 156148493
 # 156199911
 # 158626199
-# 159838023
 # 161758611
 # 169308470
 # 172257459
 # 174226440
-# 175525255
-# 184434130
 # 185104490
-# 195083449
-# 196235853
 # 199414373
-# 202438712
-# 202971758
-# 203615766
-# 204574895
 # 205397465
-# 206723002
 # 211258032
-# 211652194
-# 211854425
-# 211981751
 # 213027061
 # 218502102
-# 219994828
-# 223586180
 # 228439123
 # 230431083
 # 231460564
 # 236535921
-# 237396617
 # 239564272
 # 240602636
 # 256211578
 # 259695046
-# 261037628
 # 264894140
 # 272415191
 # 276878467
 # 277789914
 # 278743229
 # 278917691
-# 280955950
 # 283076463
 # 283205951
-# 285548353
 # 289040132
 # 296611359
 # 300424228
@@ -13049,25 +13511,17 @@ xs33910100_wav0140_Play
 # 310849403
 # 314064384
 # 314709281
-# 315778612
-# 321692710
 # 322887637
 # 325879680
 # 326211469
 # 328751873
-# 330233262
 # 331522796
 # 331668364
 # 334510859
 # 334519728
-# 336781931
 # 339472449
 # 339489893
-# 342180080
 # 346133058
-# 350365043
-# 350426383
-# 351053969
 # 355340502
 # 357697433
 # 360165376
@@ -13075,23 +13529,17 @@ xs33910100_wav0140_Play
 # 364125487
 # 366469136
 # 370291957
-# 375751372
-# 379425861
-# 380241514
 # 385079564
 # 385275983
 # 386762447
 # 392942087
 # 396755579
 # 397121005
-# 404996871
 # 407338615
-# 409660257
 # 411445983
 # 411691893
 # 413846363
 # 415619828
-# 417178493
 # 417811489
 # 420709889
 # 420908714
@@ -13099,78 +13547,54 @@ xs33910100_wav0140_Play
 # 425049790
 # 427514130
 # 428680443
-# 428892868
 # 430022284
 # 431475138
-# 434907094
 # 442288918
 # 447698285
 # 447939205
 # 449342465
 # 451207244
 # 455645322
-# 458040345
 # 462340678
 # 463068211
 # 464209509
-# 466693021
-# 467344389
 # 468303984
 # 468718112
-# 471635036
-# 471715859
 # 477747271
 # 484884992
 # 486456502
-# 488123296
 # 490779289
 # 500969618
 # 506811300
-# 509870494
 # 511911651
 # 515973063
-# 518393656
 # 519143986
 # 521235847
 # 522603305
 # 528908310
 # 529530946
 # 530359238
-# 534510435
-# 535985370
 # 538269916
 # 540112545
-# 546848317
 # 549141158
 # 549207909
 # 551850617
 # 551969869
 # 556493707
-# 558235025
-# 561131548
 # 565139664
-# 566953447
 # 570098260
 # 575737636
 # 577760407
-# 580753047
 # 585214285
 # 589243279
 # 594127367
-# 595271664
 # 595982195
-# 596914094
 # 598984920
-# 600128145
 # 612991390
 # 614442105
-# 622720089
 # 623406522
 # 627162204
 # 628106700
-# 629601913
-# 630090628
-# 630339235
 # 638919872
 # 641602585
 # 641629393
@@ -13184,78 +13608,48 @@ xs33910100_wav0140_Play
 # 666417428
 # 666821900
 # 667873215
-# 668684545
 # 670374511
-# 670705178
 # 675000240
-# 675627790
 # 680864748
 # 687384403
 # 692883550
 # 700308086
 # 718593767
 # 722404560
-# 725568455
 # 726198327
-# 739024949
 # 760761536
 # 761875355
-# 763982051
-# 765758194
-# 769386700
 # 772706527
 # 778450028
-# 779267512
-# 780259459
 # 783174770
-# 786220310
 # 788235083
 # 791140726
 # 791336955
 # 791813591
 # 791825682
-# 795340615
 # 798686239
 # 803731167
 # 803796940
-# 803973303
 # 805164464
 # 807937466
 # 811828953
-# 813544048
-# 814977234
 # 816687617
-# 818805880
 # 820778710
 # 823271951
-# 827457016
-# 835806916
 # 836869694
-# 837453089
 # 838356158
-# 839743422
 # 840465099
 # 845198080
-# 847433879
-# 849672843
-# 849968035
-# 854135218
-# 854834527
 # 855604717
 # 858922503
 # 862114664
 # 869117438
-# 869415597
-# 872116248
 # 873359698
 # 878555775
 # 885543828
 # 890508814
-# 906046303
-# 909814087
 # 919434486
 # 921802824
-# 922316806
 # 922649875
 # 923766344
 # 924110901
@@ -13263,7 +13657,6 @@ xs33910100_wav0140_Play
 # 928231404
 # 930517977
 # 936747489
-# 940471298
 # 941016649
 # 943710517
 # 945810405
@@ -13276,57 +13669,37 @@ xs33910100_wav0140_Play
 # 973294858
 # 975425819
 # 977284334
-# 978414426
-# 978978751
-# 982597046
 # 982838350
 # 985805443
 # 987215864
 # 988659492
 # 990332396
 # 992326006
-# 995621357
 # 998248543
 # 1000632559
-# 1002127181
 # 1007784758
 # 1008247887
 # 1011542163
 # 1011847878
 # 1012778620
 # 1015853766
-# 1020309916
-# 1020797420
-# 1025066239
 # 1027357443
 # 1032038380
-# 1032222637
 # 1032268626
 # 1041325044
 # 1042097208
-# 1048199825
-# 1050835936
-# 1055845787
 # 1057958949
 # 1064155614
-# 1066341637
-# 1071839633
 # 1072612562
-# 1075664363
 # 1079311876
 # 1080500769
-# 1085180428
-# 1086482944
 # 1089738952
 # 1090041601
 # 1093516330
 # 1096860537
-# 1097398837
 # 1098356011
 # 1098755034
 # 1106803538
-# 1110584866
-# 1112386622
 # 1112668350
 # 1116208407
 # 1117154446
@@ -13334,80 +13707,50 @@ xs33910100_wav0140_Play
 # 1119062379
 # 1123528355
 # 1124542275
-# 1129711752
 # 1132509875
 # 1137481256
-# 1138382074
-# 1145786633
 # 1147295346
 # 1154010378
 # 1157501801
 # 1158174599
 # 1158362057
 # 1159075688
-# 1159547255
-# 1161981410
 # 1165118093
 # 1168800492
 # 1173364761
 # 1173948332
-# 1175740580
 # 1176466551
-# 1176585962
-# 1183667991
 # 1186964772
-# 1190019514
 # 1190286708
 # 1192730425
 # 1193469202
 # 1203473145
 # 1209258851
 # 1213920935
-# 1215937642
 # 1218896484
-# 1219273002
 # 1221409426
 # 1223230484
-# 1223455622
 # 1224873438
-# 1228202907
-# 1232746728
 # 1234555699
 # 1234605850
-# 1241209969
-# 1242809396
-# 1244280442
 # 1245683739
 # 1249184401
 # 1256202110
 # 1257121142
-# 1257584278
-# 1258543407
 # 1260252596
 # 1260632257
-# 1262640738
 # 1263937609
 # 1265311615
-# 1265336200
 # 1267424621
 # 1273708847
 # 1277012411
 # 1281374496
-# 1283995157
-# 1285516195
-# 1285916696
 # 1290570908
-# 1293919931
-# 1294843606
-# 1304369255
 # 1304802660
-# 1308004211
 # 1309240481
-# 1312917961
 # 1315388443
 # 1319897779
 # 1323434000
-# 1325758827
 # 1328130569
 # 1329080840
 # 1333803759
@@ -13415,25 +13758,16 @@ xs33910100_wav0140_Play
 # 1337418813
 # 1338732086
 # 1346175531
-# 1346402873
-# 1346948810
-# 1348943082
 # 1355554011
 # 1360738013
 # 1362554071
 # 1364521102
 # 1364756624
 # 1366423914
-# 1368484345
 # 1371764655
-# 1372562887
-# 1380771236
 # 1384459098
 # 1393000166
 # 1403686808
-# 1404333555
-# 1407329511
-# 1409041229
 # 1409786613
 # 1410866978
 # 1411113771
@@ -13442,42 +13776,26 @@ xs33910100_wav0140_Play
 # 1414763160
 # 1416840475
 # 1418069140
-# 1418382519
-# 1423983693
-# 1427223964
 # 1430715698
-# 1432139427
 # 1432700462
-# 1434920420
 # 1435303882
 # 1435942836
-# 1438146051
 # 1440588109
 # 1442154476
 # 1442591246
-# 1442969052
 # 1443768042
-# 1450161948
 # 1452672199
-# 1453926788
 # 1454388549
 # 1459841598
-# 1460520455
 # 1466208949
 # 1468149409
-# 1469696481
-# 1473879101
 # 1475342912
-# 1484019227
 # 1486069159
 # 1499107028
 # 1499778994
 # 1502965991
 # 1504845334
 # 1514503864
-# 1514566450
-# 1528093478
-# 1531394507
 # 1532400820
 # 1535245182
 # 1536390157
@@ -13485,35 +13803,24 @@ xs33910100_wav0140_Play
 # 1539553544
 # 1541052549
 # 1542684321
-# 1543619877
-# 1545296122
 # 1545302472
-# 1548327478
 # 1550021853
 # 1554177145
 # 1556373238
-# 1557387510
 # 1561831456
 # 1564064445
 # 1567080464
 # 1568661582
-# 1591115913
-# 1593178033
 # 1603187724
 # 1605090190
 # 1607592626
 # 1608898988
-# 1610242852
 # 1620684776
-# 1621051385
 # 1624752833
 # 1628387261
 # 1632690813
 # 1644103337
-# 1646170671
-# 1654549220
 # 1655539224
-# 1656844958
 # 1657994438
 # 1661353100
 # 1661411788
@@ -13524,76 +13831,46 @@ xs33910100_wav0140_Play
 # 1669096491
 # 1672010398
 # 1672744706
-# 1676106433
 # 1676632738
-# 1682868248
 # 1685062894
-# 1690392950
 # 1699384036
-# 1705671587
-# 1712961328
-# 1717630339
-# 1718734266
-# 1719543317
 # 1721100237
 # 1722238127
 # 1723357231
-# 1723575307
-# 1727903792
-# 1732573110
 # 1734719273
 # 1735439025
-# 1735664014
 # 1738722038
 # 1738918267
 # 1739156064
-# 1741850470
 # 1749543481
-# 1750928735
-# 1752907321
 # 1758293674
-# 1760090325
 # 1760953373
 # 1761899216
 # 1763534889
-# 1764631399
 # 1768609675
-# 1769881732
 # 1770066206
 # 1770320611
-# 1771849630
 # 1773582216
 # 1782043157
 # 1785462744
-# 1787434600
-# 1795963144
 # 1797232867
 # 1797425291
 # 1799561640
 # 1805518908
 # 1811431101
-# 1817347148
 # 1822124671
-# 1823392503
 # 1823570477
-# 1824062860
 # 1824828436
 # 1825297041
 # 1836181506
 # 1836832925
-# 1841709881
 # 1841768496
-# 1855699014
 # 1858373164
-# 1858719094
 # 1866314023
 # 1871692213
-# 1877450266
-# 1878413495
 # 1887508458
 # 1889501245
 # 1890396525
-# 1893130596
 # 1894191720
 # 1894796940
 # 1895848255
@@ -13609,102 +13886,62 @@ xs33910100_wav0140_Play
 # 1958558152
 # 1968749275
 # 1968955708
-# 1973168015
-# 1974085637
-# 1976106211
-# 1977765274
 # 1982157123
 # 1986244523
-# 1988644662
 # 1993299673
 # 1994776773
 # 1996118274
-# 2000708411
-# 2000993800
 # 2001557102
 # 2003858287
-# 2004695803
 # 2007479725
 # 2012330434
 # 2012508761
 # 2016975704
 # 2017025660
 # 2017093374
-# 2019756804
 # 2020331355
 # 2027710090
 # 2028093008
-# 2038414428
 # 2044599523
 # 2044826541
 # 2050403493
-# 2051762866
 # 2052000189
-# 2052894992
-# 2057725033
 # 2058989331
-# 2059726654
 # 2060030846
-# 2066933916
 # 2072323180
 # 2081300583
-# 2082871084
 # 2084977895
-# 2087422298
 # 2087686962
 # 2089455435
-# 2090097380
-# 2090438029
 # 2092712336
-# 2097825960
 # 2098943089
 # 2100286343
-# 2101032328
 # 2101806955
 # 2102668493
 # 2102716305
-# 2104804448
 # 2106700515
-# 2107302385
 # 2107386501
 # 2109455924
-# 2109486675
-# 2110770714
 # 2112110360
 # 2114882910
 # 2120539678
 # 2126706162
 # 2128892476
-# 2130240369
-# 2130369718
-# 2130635790
 # 2136606963
 # 2137094008
 # 2137877512
 # 2139738945
-# 2140490728
 # 2140587737
-# 2147103272
-# 2147216386
-# 2153554320
 # 2155632442
 # 2162735185
-# 2164498968
 # 2167253575
 # 2169547221
 # 2171854690
 # 2172701573
 # 2173439121
 # 2175492012
-# 2176042074
-# 2180620725
-# 2184817514
 # 2185059492
-# 2185159514
-# 2189342134
-# 2195321910
 # 2197565761
-# 2199981183
 # 2202128569
 # 2208607430
 # 2209055206
@@ -13717,67 +13954,46 @@ xs33910100_wav0140_Play
 # 2238152220
 # 2242377387
 # 2245439845
-# 2246754577
 # 2246927378
 # 2251030565
 # 2253086414
-# 2257925648
 # 2258367261
 # 2265027626
 # 2275431222
 # 2275627451
-# 2275973866
-# 2276705779
 # 2284114024
 # 2285168611
 # 2290774962
 # 2290950785
 # 2292087069
 # 2294426237
-# 2296777908
 # 2298439984
 # 2300043763
 # 2302225806
-# 2303107007
 # 2303303594
 # 2307034279
 # 2307621322
-# 2310413671
-# 2310827221
-# 2312621054
-# 2315650378
 # 2316819735
 # 2317115645
 # 2321620305
 # 2323782617
 # 2326573822
 # 2328828902
-# 2328903841
 # 2339480570
 # 2345237461
 # 2348390531
 # 2353365940
-# 2353754704
-# 2359377973
-# 2360425157
 # 2365971241
 # 2374398068
 # 2379214486
 # 2381703129
-# 2386148355
 # 2390660302
 # 2391741457
-# 2395175124
-# 2395568465
 # 2399861643
-# 2400932813
-# 2403216995
-# 2404420338
 # 2406555907
 # 2409260888
 # 2409916202
 # 2411741512
-# 2416244220
 # 2419641599
 # 2421780993
 # 2427231662
@@ -13785,41 +14001,23 @@ xs33910100_wav0140_Play
 # 2442237914
 # 2443129522
 # 2445056122
-# 2445594801
-# 2452790093
-# 2463403108
 # 2464004350
 # 2465677455
 # 2470061783
 # 2478162866
-# 2484130150
 # 2484358887
 # 2486393185
-# 2487819482
-# 2489171267
 # 2489327917
-# 2492261283
-# 2492521558
-# 2498238181
 # 2499318800
-# 2500761650
-# 2500797126
 # 2503886906
 # 2507572779
 # 2508023178
-# 2511708845
-# 2513435409
-# 2515859150
 # 2517358284
-# 2518913664
 # 2520208683
 # 2522922007
-# 2523664993
 # 2523925858
-# 2528722248
 # 2529532046
 # 2530561431
-# 2532795391
 # 2532853850
 # 2536818310
 # 2537370761
@@ -13829,8 +14027,6 @@ xs33910100_wav0140_Play
 # 2548113381
 # 2549931063
 # 2551197773
-# 2552672735
-# 2553294926
 # 2554093085
 # 2558450495
 # 2559082981
@@ -13838,109 +14034,68 @@ xs33910100_wav0140_Play
 # 2563788400
 # 2565055379
 # 2565464835
-# 2571493171
 # 2575348788
 # 2576696895
-# 2576743481
-# 2578398884
 # 2582851233
 # 2585433115
 # 2587117453
 # 2590699891
-# 2592576291
 # 2598033381
 # 2599310679
 # 2604163649
-# 2609228976
 # 2609807853
 # 2610480120
-# 2611078643
 # 2611235707
 # 2613972680
 # 2618708864
-# 2619264763
 # 2619377106
-# 2626591416
 # 2628203401
 # 2642620306
 # 2644976828
 # 2646965348
-# 2656761920
 # 2657446467
-# 2659088631
 # 2660417051
-# 2661410580
 # 2661484484
-# 2663690757
 # 2664886607
 # 2666185641
 # 2668116117
 # 2671860822
 # 2671953883
-# 2673854917
-# 2674739505
-# 2676817785
 # 2677743472
 # 2677969480
-# 2682145655
-# 2682651137
 # 2682705249
 # 2684255288
-# 2684405172
 # 2685945240
 # 2688765087
-# 2695867884
 # 2697350064
 # 2700084376
 # 2703598866
 # 2706147402
-# 2710723754
-# 2711139811
-# 2711696419
 # 2712126956
-# 2716739501
-# 2718466065
-# 2718534821
 # 2719730734
-# 2722887196
-# 2725581731
-# 2725590933
 # 2727893013
-# 2729022155
-# 2734192352
-# 2737490715
 # 2740502419
-# 2748927931
 # 2749135805
 # 2749280162
-# 2752502398
 # 2758524822
-# 2762251479
-# 2764158594
 # 2764407192
 # 2769400452
 # 2772674099
-# 2774470975
 # 2774725104
 # 2781157226
 # 2781951338
-# 2791079323
 # 2795007093
 # 2795038017
 # 2797296132
 # 2797669656
 # 2798808365
-# 2798927607
 # 2807090164
 # 2807785960
 # 2808086449
 # 2810188559
 # 2811974192
-# 2812279679
 # 2812868054
 # 2813637996
-# 2822367012
-# 2830095848
 # 2834358330
 # 2836750814
 # 2842451607
@@ -13948,8 +14103,6 @@ xs33910100_wav0140_Play
 # 2846210475
 # 2851721709
 # 2853697840
-# 2858230890
-# 2859993058
 # 2861686337
 # 2873368231
 # 2874428527
@@ -13957,73 +14110,48 @@ xs33910100_wav0140_Play
 # 2879833466
 # 2885279229
 # 2890850873
-# 2892698425
 # 2896724344
 # 2906205944
-# 2909667526
-# 2911292257
-# 2914378070
-# 2915474877
 # 2919699892
-# 2920974671
 # 2922483959
 # 2924225020
-# 2927629628
-# 2931601649
 # 2934963852
 # 2936015167
 # 2938616922
 # 2938683303
-# 2941946104
 # 2942174225
 # 2943823650
 # 2944514933
 # 2946287845
 # 2947451032
-# 2947937681
 # 2949353604
 # 2949606080
-# 2950995687
 # 2953229083
-# 2953959333
 # 2954429357
-# 2955799794
 # 2966963328
-# 2968513390
-# 2970722694
 # 2975151365
-# 2978505309
 # 2980507670
-# 2983166529
 # 2985014964
 # 2987159888
 # 2987401276
-# 2989813061
-# 2989924809
 # 2990461070
 # 2992661437
 # 2992746375
-# 2993590792
 # 2993606246
 # 2995930272
-# 2999863073
 # 3000516084
 # 3001077738
 # 3002629937
-# 3006488302
 # 3006602551
 # 3010879550
 # 3018286991
 # 3018337018
 # 3024745888
 # 3025766052
-# 3038303830
-# 3042261112
 # 3051422324
 # 3054825095
 # 3055257889
 # 3064921585
-# 3077439277
 # 3078398177
 # 3082799186
 # 3090469405
@@ -14035,11 +14163,8 @@ xs33910100_wav0140_Play
 # 3107750480
 # 3111277659
 # 3117211092
-# 3119975900
 # 3120510340
 # 3122983029
-# 3127566111
-# 3128887228
 # 3131075657
 # 3139376737
 # 3142535733
@@ -14047,47 +14172,33 @@ xs33910100_wav0140_Play
 # 3143902916
 # 3147119696
 # 3149952267
-# 3151693159
 # 3153930303
 # 3157911205
-# 3163640843
 # 3164105818
-# 3165938987
-# 3166989438
-# 3171121879
 # 3171188092
-# 3175392922
 # 3175510066
 # 3175743810
 # 3178727524
 # 3179396493
 # 3179928140
 # 3182610533
-# 3182851299
 # 3183674532
 # 3188020120
 # 3188691299
-# 3190153451
 # 3195022802
-# 3195346157
 # 3197802095
 # 3202852309
-# 3203736563
 # 3208341711
 # 3212249046
 # 3214280898
 # 3216378556
 # 3227578844
-# 3228020851
 # 3228411684
 # 3228452892
-# 3232073879
 # 3236209454
-# 3238649425
 # 3246803493
 # 3247743466
 # 3250515524
-# 3260571551
 # 3264014591
 # 3266754112
 # 3267428367
@@ -14098,30 +14209,21 @@ xs33910100_wav0140_Play
 # 3283532410
 # 3287842257
 # 3288422495
-# 3291063074
 # 3292473711
-# 3294460253
-# 3295453608
 # 3295997125
 # 3296627536
-# 3296842468
-# 3297294790
-# 3304705773
 # 3308014443
 # 3308518012
 # 3308985357
 # 3309320223
-# 3317603150
 # 3318595783
 # 3320396575
 # 3323389523
 # 3324858774
 # 3325456515
 # 3325860847
-# 3329761301
 # 3334461090
 # 3338764394
-# 3339302510
 # 3339533350
 # 3339697977
 # 3340200996
@@ -14131,33 +14233,20 @@ xs33910100_wav0140_Play
 # 3342745621
 # 3344066854
 # 3344335453
-# 3351975692
 # 3351994614
-# 3360074458
 # 3361754387
 # 3363759881
 # 3365030612
 # 3366987371
-# 3369281814
-# 3369864247
 # 3370060361
 # 3370771795
-# 3370953145
-# 3372867400
-# 3377273260
-# 3378088266
 # 3385906039
-# 3388370673
 # 3390173846
 # 3390592912
-# 3397157476
 # 3398458497
-# 3402965617
-# 3403753973
 # 3405512631
 # 3407370508
 # 3408421823
-# 3411989924
 # 3415987720
 # 3416866571
 # 3419801535
@@ -14168,51 +14257,36 @@ xs33910100_wav0140_Play
 # 3438578454
 # 3441434477
 # 3442582264
-# 3442841583
-# 3450070880
 # 3457820011
 # 3460370983
 # 3463851064
-# 3463973580
-# 3465371359
 # 3468502838
 # 3468950131
 # 3471037799
 # 3472557426
-# 3474329301
 # 3482887671
-# 3482973433
 # 3484224317
 # 3490435563
 # 3494490612
 # 3500673475
 # 3502474409
-# 3502536872
 # 3503216608
 # 3507248158
 # 3508101673
 # 3509134140
 # 3515223590
 # 3516140441
-# 3516541358
 # 3518679969
-# 3530162916
 # 3533677293
 # 3535941191
 # 3536364811
 # 3536484968
 # 3538324879
 # 3538410051
-# 3539298222
 # 3547466611
-# 3548033685
 # 3554596257
-# 3556040328
-# 3557400612
 # 3561172639
 # 3563951525
-# 3570517135
-# 3572511407
 # 3574559342
 # 3582376020
 # 3586113771
@@ -14221,82 +14295,54 @@ xs33910100_wav0140_Play
 # 3594407193
 # 3595326653
 # 3596384565
-# 3598560461
 # 3606403333
 # 3609601374
 # 3611958803
-# 3615802456
-# 3618786798
-# 3620529192
 # 3627109553
 # 3627182240
-# 3630532567
 # 3630903585
 # 3637702803
 # 3639325248
 # 3641516743
-# 3642044340
-# 3643222449
 # 3645228774
 # 3655507678
 # 3658639660
 # 3659005291
-# 3660742999
 # 3661849304
-# 3663202844
-# 3666621573
-# 3668093764
 # 3676560482
 # 3679745813
 # 3680166659
-# 3681702651
 # 3684268465
 # 3687344443
-# 3687400480
 # 3687951572
 # 3690510828
 # 3690756953
-# 3691431935
-# 3693114942
 # 3693437089
 # 3695322455
 # 3695781769
 # 3697427648
-# 3698823323
-# 3709336493
 # 3711576316
 # 3712055051
-# 3717569642
 # 3719787812
 # 3721604802
 # 3725729500
-# 3729447897
 # 3734627336
 # 3743335750
 # 3743986849
 # 3749892046
 # 3752144532
-# 3757451221
-# 3759417823
 # 3759664251
 # 3759962810
 # 3763484082
 # 3763657986
 # 3763808026
-# 3768635367
 # 3769948711
 # 3774622633
 # 3775219243
-# 3778571045
 # 3780113111
-# 3781168498
 # 3785579239
-# 3785628298
 # 3787464756
 # 3789128530
-# 3795551931
-# 3805643725
-# 3807505602
 # 3815913047
 # 3818163805
 # 3820231578
@@ -14304,93 +14350,60 @@ xs33910100_wav0140_Play
 # 3825730014
 # 3826642956
 # 3828495075
-# 3831785946
 # 3834385831
 # 3839859009
 # 3840293240
-# 3843282531
-# 3845274072
 # 3850795450
 # 3851424796
-# 3853871333
 # 3855442098
 # 3855580266
 # 3858853142
 # 3859003872
-# 3860269212
-# 3862864444
 # 3863698657
 # 3866826955
-# 3868931425
 # 3869612866
 # 3871472473
-# 3873114045
 # 3874186089
-# 3876257390
-# 3877599107
-# 3878260514
 # 3878980998
 # 3879679206
 # 3884074674
-# 3887032458
 # 3887195805
-# 3890117750
 # 3892217145
 # 3893731515
 # 3896432188
 # 3897114396
 # 3898273733
-# 3899206450
 # 3900126530
 # 3901287818
 # 3901870291
 # 3902044225
-# 3903874305
 # 3914196442
 # 3917337847
 # 3921803846
-# 3923636045
 # 3923800427
 # 3926836531
-# 3927885018
-# 3929236803
 # 3930006115
 # 3931648363
-# 3937045553
-# 3941898618
 # 3950014913
 # 3952681076
 # 3954730484
 # 3960123794
 # 3968597256
-# 3970812958
 # 3973253982
-# 3978380450
 # 3978881246
 # 3979089210
 # 3988988569
 # 3994143344
 # 3994625061
 # 3999453769
-# 4001984231
 # 4004790103
 # 4008816341
-# 4011091537
 # 4017977519
-# 4020173000
 # 4025304141
 # 4026505717
-# 4031063613
-# 4031767292
 # 4035745153
-# 4044566986
-# 4044921274
-# 4047092519
 # 4050683383
 # 4051980730
-# 4054700658
-# 4061257562
-# 4063046256
 # 4063453752
 # 4064166451
 # 4070521710
@@ -14398,75 +14411,48 @@ xs33910100_wav0140_Play
 # 4073552862
 # 4075257002
 # 4081835917
-# 4084142412
 # 4085279781
 # 4089816162
 # 4096099468
-# 4096925712
-# 4098345983
 # 4102703539
 # 4108310516
-# 4109563824
 # 4110109459
 # 4113461179
 # 4113609928
-# 4114096631
 # 4118247537
 # 4126800526
-# 4127054143
 # 4130544928
-# 4131272233
 # 4133604002
 # 4139221051
 # 4140332183
 # 4141354806
 # 4148944222
 # 4149514425
-# 4151833867
 # 4152573315
-# 4154908165
 # 4156982258
-# 4157740775
 # 4158651976
-# 4160061841
 # 4160847152
-# 4167904679
 # 4173249070
 # 4173795794
-# 4175081860
-# 4180549545
 # 4182040569
-# 4182735129
 # 4184628782
-# 4188096296
 # 4188302871
-# 4190750011
 # 4192242310
 # 4192410289
 # 4192623638
 # 4193629585
-# 4197127595
-# 4199917138
 # 4202363749
 # 4222362680
 # 4223039232
 # 4224468345
 # 4225009313
 # 4227520243
-# 4230301774
-# 4235617560
 # 4239308664
-# 4240046780
 # 4243327033
-# 4247525664
 # 4251419826
-# 4254933958
-# 4257705075
 # 4258656642
-# 4258759700
 # 4261533374
 # 4262120581
-# 4266128457
 # 4266459855
 # 4270167434
 # 4271301125
@@ -21388,6 +21374,7 @@ xs00110100_wav0003_Play
 xs00110100_wav0004_Play
 xs00110100_wav0005_Play
 xs00110100_wav0006_Play
+xs01010100_004_Play
 xs01010100_wav0001_Play
 xs01010100_wav0002_Play
 xs01010100_wav0003_Play
@@ -24414,7 +24401,6 @@ xs99110150_wav0014_Play
 xs99110150_wav0015_Play
 xs99110150_wav0016_Play
 xs99110150_wav0017_Play
-# 1039088275
 
 ### EVENT NAMES (langs/78030672.bnk: pc_voices)
 arts010101_Play
@@ -29615,6 +29601,10 @@ btl42190001_Play
 btl42190002_Play
 btl42200001_Play
 btl42200002_Play
+btl43010001_play
+btl43010002_play
+btl43020001_play
+btl43020002_play
 btl43030101_Play
 btl43030201_Play
 btl43030301_Play
@@ -36342,10 +36332,6 @@ soul593001_Play
 soul593101_Play
 soul593201_Play
 # 1455099776
-# 2872405290
-# 2996830699
-# 3134442971
-# 3389806138
 
 ### EVENT NAMES (langs/1466937777.bnk: vo_en010301)
 en010301_a_arts_001a_Play
@@ -37587,6 +37573,7 @@ cmn_500_007_Play
 cmn_500_008_Play
 cmn_500_009_Play
 cmn_500_010_Play
+cmn_500_011_play
 cmn_500_012_Play
 cmn_501_000_Play
 cmn_501_001_Play
@@ -37594,6 +37581,7 @@ cmn_501_002_Play
 cmn_501_003_Play
 cmn_501_004_Play
 cmn_501_005_Play
+cmn_501_006_play
 cmn_501_007_Play
 cmn_501_008_Play
 cmn_501_009_Play
@@ -37614,12 +37602,15 @@ cmn_503_005_Play
 cmn_504_000_Play
 cmn_504_001_Play
 cmn_504_002_Play
+cmn_504_003_play
 cmn_504_004_Play
 cmn_504_005_Play
 cmn_505_000_Play
 cmn_505_001_Play
 cmn_505_002_Play
 cmn_505_003_Play
+cmn_505_004_play
+cmn_505_005_play
 cmn_506_000_Play
 cmn_506_001_Play
 cmn_506_002_Play
@@ -37628,14 +37619,23 @@ cmn_507_000_Play
 cmn_507_001_Play
 cmn_508_000_Play
 cmn_508_001_Play
+cmn_508_002_play
+cmn_508_003_play
 cmn_509_000_Play
 cmn_509_001_Play
+cmn_509_002_play
+cmn_509_003_play
 cmn_510_000_Play
 cmn_510_001_Play
+cmn_510_002_play
 cmn_510_003_Play
+cmn_510_004_play
 cmn_510_005_Play
+cmn_511_000_play
 cmn_511_001_Play
 cmn_511_002_Play
+cmn_511_003_play
+cmn_511_004_play
 cmn_511_005_Play
 np0001_01_Play
 np0001_02_Play
@@ -39354,23 +39354,22 @@ np8206_11_Play
 np8206_12_Play
 np8206_13_Play
 np8206_14_Play
-# 521582724
-# 610679412
-# 720456408
-# 757448482
-# 864135282
-# 1341592769
-# 1730682226
-# 2092957219
-# 2496803464
-# 2886791627
-# 3112880155
-# 3264173320
-# 3356823263
-# 3676620451
 
 ### RTPC/GAME-VARIABLE NAMES (langs/2396859198.bnk: voice_np)
 param_pan
 param_pitch
 
-#1039088275  : xs01010100_004_Play
+#1665411478  : se_zone7198_540_Play
+#447939205   : se_zone7198_541_Play
+#468718112   : se_zone7198_542_Play
+#1213920935  : se_zone7198_543_Play
+#5641690     : se_zone7198_544_Play
+#3502474409  : se_zone7198_545_Play
+#1260252596  : se_zone7198_546_Play
+#3536364811  : se_zone7198_547_Play
+#3973253982  : se_zone7198_548_Play
+#150521229   : se_zone7198_549_Play
+#2169547221  : se_zone7198_556_Play
+#3339533350  : se_zone7198_557_Play
+#948852035   : se_zone7198_558_Play
+#628106700   : se_zone7198_559_Play

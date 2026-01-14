@@ -14561,7 +14561,6 @@ wp0104_MOV_Molotov_Cocktail_Throw_M
 #1713884382  : PL_ATK_Mine_Explosion_M_Beam_A
 #898761705   : PL_ATK_DMG_Transform_Rush_S
 
-#1539192843  : BGM_q3830_End
 #1816063084  : BGM_Set_P210_CITY
 #174693304   : XL_CharaInfo_Open
 #584885387   : S_Down_Flap
@@ -14629,3 +14628,31 @@ wp0104_MOV_Molotov_Cocktail_Throw_M
 
 811166611: bg6102_Idle_Loop_A
 811166608: bg6102_Idle_Loop_B
+
+2172919838  : core_GUI_SkillTree_TabSwitch
+3359644391  : em0300_VO_PL_ATK_general_M
+76943256    : em030a_ATK_Circle_Approach_M
+2280660148  : em1000_ATK_Beam_bill_L
+2518030752  : em1000_ATK_tentacle_m
+3903895671  : em1000_MOV_Drool_Loop_M
+2460134754  : em1301_ATK_Bite_M
+2460134780  : em1301_ATK_Bite_s
+205557570   : em1301_ATK_Bite_Sign_M
+205557596   : em1301_ATK_Bite_Sign_S
+3792436712  : em1301_ATK_Punch_M
+1737788300  : em1301_ATK_Punch_Sign_M
+4196891995  : em1301_ATK_Stomp_M
+2647655569  : em1301_FTS_Rear_Walk_Soil_M
+2692307033  : em1301_FTS_Walk_Arm_M
+2077694672  : em1301_MOV_Down_M
+1180299331  : em1301_MOV_Skin_M
+1180299357  : em1301_MOV_Skin_S
+#178504236   : core_SYS_VO_Child_LazerRing_A
+#178504239   : core_SYS_VO_Child_LazerRing_B
+
+4097147131  : bac003_MOV_Lifting_M
+122489640   : Stop_em1000_MOV_Drool_Loop_M
+
+231424943   : Stop_2111_idle_loop
+
+#2839674569  : core_GUI_TargetPoint_Blink

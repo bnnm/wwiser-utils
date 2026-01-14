@@ -1,0 +1,8910 @@
+
+### BANK NAMES
+amb_Flag_M
+amb_Flying_Propeller
+amb_VentilationFan_L
+Ambience_Shared
+BGM
+BGM_DM
+City
+City_1_0
+City_1_1
+City_1_2
+City_1_3
+Club_3_1
+Club_3_2
+Club_3_3
+Club_Shared
+core
+DarkDragon_MISC
+des_Antenna_M
+des_Bamboo_M
+des_BinMetal_S
+des_BottleGlass_S
+des_BottleGlassCrash_S
+des_CardboardBox_S
+des_Ceramics_S
+des_Concrete_S
+des_ContainerWood_S
+des_Crystal_M
+des_DeadCoral_S
+des_Drum_S
+des_Metal_M
+des_Metal_NonDestructive_S
+des_Metal_S
+des_Metal_XL
+des_MetalStand_S
+des_OffertoryBox_M
+des_Ofuda_M
+des_PlasticCrate_S
+des_Rock_L
+des_Rock_M
+des_Rock_S
+des_StandLight_M
+des_StoreSign_S
+des_TrafficCone_S
+des_TrashBag_S
+des_Wagasa_M
+des_Warhead_M
+des_Wood_L
+des_Wood_S
+des_WoodenGate_L
+door_AutomaticGate
+door_City_Gate_L
+door_City_MetalSliding
+door_City_Sliding_Door
+door_City_Wood
+door_CitySlow
+door_CityTest
+door_RailDoor
+door_Sentinel_TicketGate
+door_Shrine_WoodenDoor
+door_ShrineLottery
+door_TrainTest
+EM0000
+em0000_JetPack
+em0000_Vo
+em0001
+EM0010
+em0010_Vo
+EM0030
+em0030_Vo
+Em0035
+em0035_cannon
+em0035_Vo
+Em003f
+em0040
+em0045
+em0050
+em0060
+em0060_boss
+em0070
+em0080
+em0090
+em0100
+em0120
+EM0125
+em0130
+em0135
+em0160
+em0170
+EM0170FUGU
+em0170Tanuki
+em0300
+em0350
+em0410
+em0500
+em0500_Vo
+em0520
+em0520_Vo
+em0600
+em0700
+em0800
+em1000
+em1000_Vo
+em1100
+em1100_Vo
+em1200
+em1300
+em1300_Vo
+em1400
+em1400_Vo
+em1500
+em_Ryu
+em_Spawner
+Epilogue
+Fortress_4_1
+Fortress_4_2
+Fortress_4_3
+Fortress_Shared
+gmc_AbyssPortal
+gmc_AccessSwitch
+gmc_AirlockGate
+gmc_AnkiDoor
+gmc_AnkiGate
+gmc_BigStatue
+gmc_BossArea_Shutter
+gmc_Bridge_Collapse
+gmc_Bridge_Wind
+gmc_ConfettiMachine
+gmc_Door_Nenon
+gmc_DoubleSwing_Door
+gmc_Fall_Trap
+gmc_Falling
+gmc_ForbiddenRope
+gmc_Forest_Wind_Gust
+gmc_Gate_Rumble
+gmc_GateToHell
+gmc_HeadoftheDead
+gmc_HelpAyane_Kunai
+gmc_Highway
+gmc_Hitodama
+gmc_IronGate
+gmc_LaserTrap
+gmc_LaserTrap_Switch
+gmc_Light_Flicker
+gmc_MissileLauncher
+gmc_Monitor_Glitch
+gmc_Muramasa
+gmc_Muramasa_Vo
+gmc_Nenon_Noise
+gmc_OfudaFire
+gmc_PolterGeist
+gmc_Pyramid
+gmc_Rail_ring
+gmc_Rail_Trafficlight
+gmc_Rail_Train
+gmc_Railcurve
+gmc_Rock_Fall
+gmc_Ryu_Gate
+gmc_Samurai_Barrier
+gmc_SearchLight
+gmc_ShojiDoor
+gmc_Shop_Umi
+gmc_Shop_Umi_Vo
+gmc_ShrineLottery
+gmc_Signage_Emergency
+gmc_SlidingDoor
+gmc_Sparklar
+gmc_Standing_Lantern
+gmc_Sudare
+gmc_SurveillanceDrone
+gmc_SurveillanceDrone_Vo
+gmc_Torch_Wood_Fire
+gmc_Train_Explosion
+gmc_Treasure_Box_Metal
+gmc_Treasure_Box_Ryu
+gmc_Treasure_Box_Wood
+gmc_Tree_Updraft
+gmc_UpDraftBlower
+gmc_WarpPortal
+gmc_Wind_Break_Bridge
+gmc_Wood_Scaffold
+gmc_WoodenDoor
+gmc_WoodenGate_L
+init
+LastBattle_6_1
+LastBattle_6_2
+LastBattle_6_3
+LastBattle_Shared
+lift_City
+lift_DDO
+OBJ0010
+obj0050
+obj0100
+obj0100_Vo
+phys_Antenna
+phys_BottleGlass
+phys_BottleGlassCrash
+phys_Can
+phys_DeadCoral
+phys_Drum
+phys_Log_L
+phys_Metal_M
+phys_MetalBox
+phys_MetalFance_M
+phys_MetalStand
+phys_PlasticCrate
+phys_Rock_L
+phys_Rock_S
+phys_StandLight
+phys_StoreSign
+phys_Test
+phys_TrafficCone
+phys_TrashBag_S
+phys_Wagasa
+phys_Warhead
+phys_Wood_L
+pl0000
+pl0000_shadow
+pl0000_vo
+pl0500
+pl0500_Vo
+pl2100
+pl2100_Vo
+PL2200
+Prologue_0_1
+purgatory
+RYU_5_1
+RYU_5_2
+RYU_5_3
+RYU_5_4
+RYU_5_5
+RYU_Shared
+Shrine_2_1
+Shrine_2_2
+Shrine_2_3
+Shrine_2_4
+Shrine_Shared
+TeamNinja_VI_Audio
+test
+Vo_0_1
+Vo_1_0
+Vo_1_1
+Vo_1_2
+Vo_1_2_3_Shared
+Vo_1_3
+Vo_2_1
+Vo_2_2
+Vo_2_3
+Vo_2_4
+Vo_3_1
+Vo_3_2
+Vo_3_3
+Vo_4_1
+Vo_4_2
+Vo_4_3
+Vo_5_1
+Vo_5_2
+Vo_5_3
+Vo_5_4
+Vo_5_5
+Vo_6_1
+Vo_6_2
+Vo_6_3
+Vo_7_0
+Voice_Global
+wp0000
+wp0002
+wp0020
+wp0030
+wp0040
+wp0050
+wpe001
+wpe003
+wpe004
+wpe008
+wpe041
+wpemissile
+
+### LANGUAGE NAMES
+English(US) = 0
+Japanese
+SFX
+
+### BUS NAMES
+Amb_Base_Meter
+BGM_Battle
+BGM_BossBattle
+BGM_BossBattle_vocal
+BGM_Cutscene
+BGM_Premaster
+BGM_Premaster_Sound_Test
+BGM_stage
+BGM_ui
+Cinematics_BG
+Cinematics_SE
+Cinematics_Vo
+Cinematics_Vo_Reverb
+fx_indoor_cave
+fx_indoor_l_cave
+fx_indoor_l_concrete
+fx_indoor_l_hall
+fx_indoor_l_tunnel
+fx_indoor_l_wood
+fx_indoor_m_concrete
+fx_indoor_m_hall
+fx_indoor_m_wood
+fx_indoor_pyramid
+fx_indoor_s_concrete
+fx_indoor_s_train
+fx_indoor_s_tunnel
+fx_indoor_s_wood
+fx_outdoor_abyss
+fx_outdoor_forest
+fx_outdoor_l
+fx_outdoor_l_hell
+fx_outdoor_l_valley
+fx_outdoor_m
+fx_outdoor_m_open
+fx_outdoor_open
+fx_outdoor_s
+fx_outdoor_s_valley
+Master Audio Bus = 0
+occlusion_Test
+se_premaster
+se_premaster_Cinematics
+se_premaster_fx
+se_premaster_Sound_Test
+se_premaster_SubCinematics
+Sound_Test_Ambience
+Sound_Test_SFX
+Sound_Test_Voice
+SubCinematics_SE
+SubCinematics_Vo
+SubCinematics_Vo_Reverb
+test_bus
+# 2323387526
+# 4198914696
+# 1949050690
+# 3709078639
+# 79165812
+# 2527385240
+# 2894598943
+# 3113611148
+# 3194024744
+# 3822736773
+# 3788273136
+# 81523851
+# 2083564910
+# 3410879807
+# 1258027277
+# 2348241697
+# 4131009220
+# 189674157
+# 2507646268
+# 437123448
+# 2370147134
+# 733033182
+# 2364722499
+# 4231412318
+# 647949809
+# 493997003
+# 1559037126
+# 2307029436
+# 862851876
+# 1763457992
+# 2263888242
+# 3288299456
+# 2499259413
+# 203337217
+# 1246430319
+# 1388316765
+# 2043692632
+# 2440062119
+# 3038182089
+# 2079116313
+# 2439663502
+# 3935006095
+# 3950403024
+# 657774283
+# 1205516729
+# 2149689641
+# 2323731929
+# 3936658146
+# 3011740214
+# 320839449
+# 672728283
+# 2538111470
+# 48597235
+# 1140864797
+# 1153764818
+# 3635263817
+# 3840851725
+# 3933177049
+# 4229728910
+# 3105580281
+# 3541945429
+# 4023588698
+# 991707642
+# 110880862
+# 4100065962
+# 589025870
+# 1658964236
+# 2581483053
+# 407591102
+# 3592653387
+# 2845833911
+# 855646874
+# 1775840206
+# 2762151155
+# 3441427949
+# 3682836240
+# 3793757923
+# 3019736509
+# 3849878097
+# 329857987
+# 1617623303
+# 1835732365
+# 2469968437
+# 3964693822
+# 4293016136
+# 4064312860
+# 2640361799
+# 322388906
+# 1018821346
+# 1409918780
+# 1811624357
+# 703749469
+# 3250881915
+# 2268127541
+# 3892879606
+# 4090774157
+# 3022954491
+# 2280492146
+# 3980638772
+
+### SFX NAMES (1355168291.bnk: init)
+BGM_Shop_volume_control
+fx_indoor_cave
+fx_indoor_LARGE_cave
+fx_indoor_large_concrete
+fx_indoor_large_hall
+fx_indoor_large_tunnel
+fx_indoor_large_wood
+fx_indoor_Medium_concrete
+fx_indoor_Medium_hall
+fx_indoor_Medium_wood
+fx_indoor_pyramid
+fx_indoor_small_concrete
+fx_indoor_small_Train
+fx_indoor_small_tunnel
+fx_indoor_small_wood
+fx_outdoor_abyss
+fx_Outdoor_alley
+fx_outdoor_forest
+fx_Outdoor_large_hell
+fx_Outdoor_large_valley
+fx_outdoor_open
+fx_Outdoor_small_valley
+No_Output
+SE_Occlusion_Test
+system
+# 163908245
+# 480393458
+# 520335684
+# 540126615
+# 795547936
+# 882490190
+# 1073296496
+# 1251011143
+# 1257850114
+# 1379949271
+# 1385422177
+# 1755281632
+# 2214044605
+# 2232990084
+# 2275000775
+# 2861361134
+# 2900462967
+# 2994323644
+# 3419139632
+# 3577361235
+# 3675742972
+# 3805379465
+# 3939649003
+# 3982075616
+
+### ACOUSTIC TEXTURE NAMES (1355168291.bnk: init)
+Acoustic_Banner
+Anechoic
+brick
+carpet
+Concrete
+Cork_Tiles
+Curtains
+Drywall
+Fabric
+mountain
+tile
+Wood
+Wood_Bright
+Wood_Deep
+
+### BASE RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
+BGM_3_2
+BGM_azimuth
+BGM_elevation
+BGM_hyoutan_QTE
+BGM_Shop_Status
+BGM_silence_distance
+BGM_ui_ducking
+BGM_vocal_control
+Forest_Spot_Waterfall
+gmc_SurveillanceDrone
+Mvt_start_Flip
+Output_system
+room_absorb
+room_filter
+room_size
+se_azimuth
+se_azimuth_amb
+SE_Character_Type
+se_distance
+SE_Elevation
+SE_em0050_Type
+SE_em0060_helmet
+se_em0130_Hidden
+SE_em0520_Phase
+SE_em1000_Tail
+SE_em1300_Phase
+SE_em_Head_Lost
+SE_em_Type
+SE_em_Vo_Variety
+SE_Global_Doppler
+SE_Global_PlayerToCamera_Distance
+SE_Global_Speed
+se_Inside
+se_lift_DDO_Power
+SE_ListenerPreset
+SE_Mvt_Speed
+SE_Mvt_Speed_Interpolation
+SE_Object_Weight
+SE_Occlusion
+se_Outside
+SE_Phys_Speed
+SE_PhysicalMaterialType
+SE_pl0000_Mode
+SE_pl0000_Sliding_Speed
+se_pl_Obliteration_Charge
+SE_Player_Speed
+SE_Player_Type
+SE_Rail_MaterialType
+se_Rain_Inside
+se_Rain_intensity
+se_Rain_roof
+se_Spot_distance
+se_test
+SE_train_curve
+st_single_amb
+st_yukaku2_layer_low
+volume_ambience
+volume_master
+volume_music
+volume_sfx
+volume_voice
+# 30798289
+# 163908245
+# 480393458
+# 540126615
+# 841481108
+# 865554546
+# 979025828
+# 1073296496
+# 1162675564
+# 1212366223
+# 1251011143
+# 1257850114
+# 1298704989
+# 1744106002
+# 1755281632
+# 1915937853
+# 2214044605
+# 2342239683
+# 2455826463
+# 2458751830
+# 2481891153
+# 2600887567
+# 2699155824
+# 2811407457
+# 2861361134
+# 2894250110
+# 2964500491
+# 2994323644
+# 3122558962
+# 3158315126
+# 3168003590
+# 3258553517
+# 3328711966
+# 3340478880
+# 3340854084
+# 3377160956
+# 3432348851
+# 3675742972
+# 3774234363
+# 3805379465
+# 3839857652
+# 3844820854
+# 3939649003
+# 3982075616
+# 4080535577
+# 4142331598
+# 4161301631
+# 4197843948
+
+### RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
+BGM_Shop_Status
+BGM_ui_ducking
+BGM_vocal_control
+Output_system
+room_size
+SE_Character_Type
+SE_em0060_helmet
+se_em0130_Hidden
+SE_em0520_Phase
+SE_em1300_Phase
+SE_em_Type
+SE_em_Vo_Variety
+SE_Mvt_Speed
+SE_PhysicalMaterialType
+SE_pl0000_Mode
+SE_Player_Type
+SE_Rail_MaterialType
+se_Rain_intensity
+volume_ambience
+volume_master
+volume_music
+volume_sfx
+volume_voice
+# 2481891153
+# 163908245
+# 1755281632
+# 3939649003
+# 3805379465
+# 1251011143
+# 1073296496
+# 2994323644
+# 1257850114
+# 2214044605
+# 4142331598
+# 2861361134
+# 3982075616
+# 540126615
+# 3675742972
+
+### VARIABLE NAMES (1355168291.bnk: init)
+battle_boss
+battle_normal
+battle_normal_control
+BGM_Loop_Select
+bt_achilles
+bt_armored
+bt_darkdragon
+bt_kagachi
+bt_kannon
+bt_kitsune
+bt_kitsune_fake
+bt_ryu1
+bt_ryu2
+bt_ryujin_lv2_region
+bt_ryujin_lv3_region
+bt_samurai
+bt_shadow
+bt_shark
+bt_tengu
+bt_tentacle
+bt_youma_lv1_region
+bt_zombie
+event
+gamemode
+Gate_fx
+ingame
+ot_club
+ot_muramasa
+ot_opening
+ot_rush
+ot_title
+se_AbyssRoad_Clear
+se_AbyssRoad_Return
+se_All_Result
+se_battle
+se_bloodbath
+se_ChallengeMission
+SE_Character_Type
+SE_Cinematic_Fade_Skip
+se_Cinematics
+se_Cinematics_ambience
+se_Club_1_Display
+se_darkness
+SE_em0000_Vo_Variety
+SE_em0010_Vo_Variety
+SE_EM0030_Vo_Variety
+SE_Em0035_Vo_Variety
+SE_em0040_Type
+SE_em0050_Type
+SE_em0060_helmet
+SE_em0060_Vo_Variety
+SE_em0070_Type
+SE_em0070_Vo_Variety
+SE_EM0125_Vo_Variety
+se_em0130_Hidden
+SE_em0500_Vo_Variety
+SE_em0520_Phase
+SE_em0520_Type
+SE_em1300_Phase
+SE_em1400_Type
+se_Ending_Credit
+se_Function_Tutorial
+se_fx
+se_gameover
+se_gmc_Cinematics_Skip
+se_help
+se_Hit
+se_KillConfirm
+se_KillConfirm_boss
+se_LastBattle_Asuka
+SE_Load
+se_menu
+se_mute_ambience
+se_Photomode
+SE_PhysicalMaterialType
+SE_pl0000_Mode
+SE_Player_Type
+SE_Rail_MaterialType
+se_Rain_intensity
+se_Rengoku
+se_Rengoku_Cinematics
+se_Rengoku_Phase
+se_Rengoku_Result
+SE_Result
+se_resurrect
+se_Return
+se_Revival_PopUpMenu
+se_Save_Load
+se_Shop
+se_Shortcut_Window
+se_Slow
+se_Slow_CraterEnter
+se_SubCine
+se_Technique_Tutorial
+se_title
+se_Topics_Clear
+se_training
+SE_Tutorial
+se_Tylan_Shop
+se_Weapon_Technique
+Shop_Status
+Shop_switch
+sound_area_Status
+st_base
+st_cave
+st_chase
+st_chase5_switch
+st_dawn
+st_forest2
+st_forest3
+st_gate
+st_hell
+st_institute
+st_institute_layer_pulse
+st_missile
+st_rockfall
+st_sasuke
+st_sasuke_lp2
+st_sewer
+st_storm
+st_street
+st_tribute
+st_village
+st_yukaku
+st_yukaku1
+st_yukaku2_layer
+stage
+submenu
+# 2614208307
+# 232142224
+# 2059167827
+# 2431408704
+# 2431408705
+# 2431408707
+# 3059434809
+# 3078572108
+# 3599749353
+# 3680808836
+# 3748518103
+# 3945499572
+# 571001177
+# 3205849744
+# 4081542406
+
+### VALUE NAMES (1355168291.bnk: init)
+in
+indoor
+lp
+lp_layer
+none
+on
+out
+outdoor
+ryujin_clan1
+shop_expand
+shop_shrink
+# 208336435
+
+### EVENT NAMES (1806976560.bnk: EM0170FUGU)
+em0170_Atk_Poison_Death_Launch
+em0170_Atk_Poison_launch
+em0170_Atk_PoisonAOE
+em0170_Atk_PoisonAOE_CHARGE
+em0170_Atk_PoisonAOE_Explosion
+em0170_Atk_PoisonBall_Explosion
+em0170_Atk_PoisonBall_launch
+em0170_Atk_PoisonBall_PassBy
+Stop_em0170_Atk_PoisonAOE
+Stop_em0170_Atk_PoisonAOE_CHARGE
+Stop_em0170_Atk_PoisonAOE_Explosion
+Stop_em0170_Atk_PoisonBall_Explosion
+Stop_em0170_Atk_PoisonBall_PassBy
+# 129290154
+# 631078499
+# 2674961091
+# 4248975520
+
+### RTPC/GAME-VARIABLE NAMES (1806976560.bnk: EM0170FUGU)
+se_azimuth
+
+### EVENT NAMES (4168245155.bnk: Ambience_Shared)
+amb_Spot_Cloth_flap
+Amb_Spot_stream_Loop
+Amb_Spot_Waterfall_Hit_Body
+Amb_Spot_Waterfall_Hit_pool
+City_Base_Rain
+City_Base_Rain_Storm
+City_Base_Rain_wind_Storm
+City_Base_wind
+City_Spot_billboard_Loop
+City_Spot_machine
+City_Spot_Sparks
+City_Spot_Waterfall_L
+City_Spot_Waterfall_L_Splash
+core_em_Grenade_Alert_Darkness
+SE_Occlusion_off
+SE_Occlusion_on
+se_Rain_intensity_high
+se_Rain_intensity_Low
+se_Rain_intensity_Med
+se_Rain_roof
+se_Rain_roof_Reset
+stop_amb_Spot_Cloth_flap
+Stop_Amb_Spot_stream_Loop
+Stop_Amb_Spot_Waterfall_Hit_Body
+Stop_Amb_Spot_Waterfall_Hit_pool
+stop_City_Spot_billboard_Loop
+stop_City_Spot_machine
+stop_City_Spot_Waterfall_L
+stop_City_Spot_Waterfall_L_Splash
+training_Base_wind
+# 34449852
+# 67986491
+# 135012157
+# 177180101
+# 205905258
+# 220900285
+# 232238538
+# 288834331
+# 345645308
+# 394776131
+# 395907285
+# 453541826
+# 502335414
+# 579987533
+# 584742166
+# 617206179
+# 623447618
+# 710358090
+# 727520157
+# 879200489
+# 940306878
+# 1000148749
+# 1051653280
+# 1059365904
+# 1087910318
+# 1111842844
+# 1126659412
+# 1164083044
+# 1185793126
+# 1510847837
+# 1554853924
+# 1622666888
+# 1832107102
+# 1904630109
+# 1990999736
+# 1994379140
+# 1999418775
+# 2004641006
+# 2015703584
+# 2066256535
+# 2131505041
+# 2220901318
+# 2290522096
+# 2452778456
+# 2699282984
+# 2717093613
+# 2787732338
+# 2836016910
+# 2840159549
+# 2956987669
+# 2987502496
+# 2997234936
+# 3036973401
+# 3068301209
+# 3087451674
+# 3121010986
+# 3213322412
+# 3235754391
+# 3341963501
+# 3366078369
+# 3408913988
+# 3460041081
+# 3496594869
+# 3597631447
+# 3653049123
+# 3653702987
+# 3740557867
+# 3806507526
+# 3826019543
+# 3880802993
+# 3884067666
+# 3979309307
+# 4057933191
+# 4068735792
+# 4073494878
+# 4190806039
+# 4244558833
+# 4289737919
+
+### RTPC/GAME-VARIABLE NAMES (4168245155.bnk: Ambience_Shared)
+se_azimuth_amb
+se_distance
+SE_Elevation
+SE_Global_PlayerToCamera_Distance
+SE_Occlusion
+SE_Player_Speed
+se_Rain_roof
+# 3774234363
+
+### VARIABLE NAMES (4168245155.bnk: Ambience_Shared)
+se_Rain_intensity
+
+### VALUE NAMES (4168245155.bnk: Ambience_Shared)
+high
+low
+Med
+
+### EVENT NAMES (412724365.bnk: BGM)
+BGM_abyss_allclear_in
+BGM_abyss_allclear_out
+BGM_abyss_clear_in
+BGM_abyss_clear_out
+BGM_abyss_club_none
+BGM_abyss_retire
+BGM_abyss_start_in
+BGM_abyss_start_out
+BGM_achilles1_end
+BGM_achilles1_end_YKM
+BGM_achilles1_start
+BGM_achilles2_end
+BGM_achilles2_end_RYU
+BGM_achilles2_phase2
+BGM_achilles2_start
+BGM_armored_end
+BGM_armored_end_RYU
+BGM_armored_start
+BGM_back_to_checkpoint
+BGM_back_to_ingame
+BGM_back_to_title
+BGM_back_to_training
+BGM_battle_normal_out
+BGM_battle_normal_start
+BGM_battle_normal_win
+BGM_blackout_event_end
+BGM_blackout_event_start
+BGM_boss_down
+BGM_boss_res
+BGM_challenge_reward_in
+BGM_chapter_result_in
+BGM_chapter_result_out
+BGM_credit_skip
+BGM_darkdragon_bridge
+BGM_darkdragon_end
+BGM_darkdragon_phase2
+BGM_darkdragon_restart
+BGM_darkdragon_start
+BGM_ev_pause_in
+BGM_ev_pause_out
+BGM_ev_pause_skip
+BGM_forest_cave
+BGM_gameover
+BGM_gameover_confirmed
+BGM_gamestart
+BGM_hyoutan_QTE_end
+BGM_hyoutan_QTE_start
+BGM_item_notification_in
+BGM_item_notification_out
+BGM_kagachi_end
+BGM_kagachi_end_RYU
+BGM_kagachi_phase2
+BGM_kagachi_start
+BGM_kannon_end
+BGM_kannon_end_RYU
+BGM_kannon_phase1_break
+BGM_kannon_phase2
+BGM_kannon_phase_change
+BGM_kannon_start
+BGM_kitsune_end
+BGM_kitsune_end_RYU
+BGM_kitsune_fake_end1
+BGM_kitsune_fake_end2
+BGM_kitsune_fake_phase1
+BGM_kitsune_fake_start
+BGM_kitsune_phase1
+BGM_kitsune_phase1_break
+BGM_kitsune_phase2
+BGM_kitsune_start
+BGM_load_in
+BGM_load_out
+BGM_load_out_play
+BGM_photomode_in
+BGM_photomode_out
+BGM_pl_kia
+BGM_pl_kia_confirmed
+BGM_pl_kia_res
+BGM_purgatory_menu_in
+BGM_purgatory_menu_out
+BGM_purgatory_start_in
+BGM_purgatory_start_out
+BGM_purgatory_wave_in
+BGM_purgatory_wave_out
+BGM_Reset_battle_region
+BGM_reset_bus
+BGM_ringmenu_in
+BGM_ringmenu_out
+BGM_ryu1_end
+BGM_ryu1_start
+BGM_ryu2_end
+BGM_ryu2_phase2
+BGM_ryu2_start
+BGM_samurai_end
+BGM_samurai_end_RYU
+BGM_samurai_phase1
+BGM_samurai_phase2
+BGM_samurai_start
+BGM_select_training
+BGM_shark_door_open
+BGM_shark_end
+BGM_shark_end_RYU
+BGM_shark_lp
+BGM_shark_ph2a
+BGM_shark_ph2b
+BGM_shark_restart
+BGM_shark_start
+BGM_shop_muramasa_in
+BGM_shop_muramasa_out
+BGM_shop_tyran_in
+BGM_shop_tyran_out
+BGM_shortcut_ui_ducking_in
+BGM_shortcut_ui_ducking_out
+BGM_sound_test_end
+BGM_sound_test_start
+BGM_soundarea_off
+BGM_soundarea_on
+BGM_submenu_in
+BGM_submenu_out
+BGM_sync_shark
+BGM_tengu_end
+BGM_tengu_end_RYU
+BGM_tengu_phase2
+BGM_tengu_start
+BGM_tentacle_end
+BGM_tentacle_start
+BGM_title_cleared_in
+BGM_title_in
+BGM_training_finish
+BGM_training_pouse
+BGM_tutorial_in
+BGM_tutorial_out
+BGM_ui_notification_in
+BGM_ui_notification_out
+BGM_zombie_end
+BGM_zombie_start
+bt_darkaura
+bt_darkaura_end
+bt_darkaura_start
+bt_oniwaka_start
+bt_oniwaka_win
+bt_purgatory_end
+bt_purgatory_start
+bt_ryujin_lv1
+bt_ryujin_lv2
+bt_ryujin_lv2_lp_01
+bt_ryujin_lv2_lp_02
+bt_ryujin_lv2_lp_03
+bt_ryujin_lv2_lp_04
+bt_ryujin_lv2_lp_05
+bt_ryujin_lv3
+bt_ryujin_lv3_lp_01
+bt_ryujin_lv3_lp_02
+bt_ryujin_rush
+bt_shadow_end
+bt_shadow_phase1
+bt_shadow_phase1_post
+bt_shadow_phase2
+bt_shadow_start
+bt_youma_lv1
+bt_youma_lv1_lp_01
+bt_youma_lv1_lp_02
+ev0000_mus_end
+ev0000_mus_pin
+ev0000_mus_skip
+ev0000_mus_start
+ev0010_mus_pin
+ev0010_mus_skip
+ev0010_mus_start
+ev0030_mus_end
+ev0030_mus_pin
+ev0030_mus_skip
+ev0030_mus_start
+ev0040_mus_end
+ev0040_mus_pin
+ev0040_mus_skip
+ev0040_mus_start
+ev1000_mus_end
+ev1000_mus_pin
+ev1000_mus_skip
+ev1000_mus_start
+ev1010_mus_end
+ev1010_mus_pin
+ev1010_mus_skip
+ev1010_mus_start
+ev1020_mus_end
+ev1020_mus_pin
+ev1020_mus_skip
+ev1020_mus_start
+ev2000_mus_pin
+ev2000_mus_skip
+ev2000_mus_start
+ev2010_mus_pin
+ev2010_mus_skip
+ev2010_mus_start
+ev2020_mus_end
+ev2020_mus_pin
+ev2020_mus_skip
+ev2020_mus_start
+ev2030_mus_end
+ev2030_mus_pin
+ev2030_mus_skip
+ev2030_mus_start
+ev3000_mus_end
+ev3000_mus_pin
+ev3000_mus_skip
+ev3000_mus_start
+ev3010_mus_end
+ev3010_mus_pin
+ev3010_mus_skip
+ev3010_mus_start
+ev3020_mus_end
+ev3020_mus_pin
+ev3020_mus_skip
+ev3020_mus_start
+ev3030_mus_pin
+ev3030_mus_skip
+ev3030_mus_start
+ev4000_mus_end
+ev4000_mus_pin
+ev4000_mus_skip
+ev4000_mus_start
+ev4010_mus_end
+ev4010_mus_pin
+ev4010_mus_skip
+ev4010_mus_start
+ev4020_mus_end
+ev4020_mus_pin
+ev4020_mus_skip
+ev4020_mus_start
+ev4030_mus_end
+ev4030_mus_pin
+ev4030_mus_skip
+ev4030_mus_start
+ev4040_mus_end
+ev4040_mus_pin
+ev4040_mus_skip
+ev4040_mus_start
+ev5000_mus_end
+ev5000_mus_pin
+ev5000_mus_skip
+ev5000_mus_start
+ev5010_mus_end
+ev5010_mus_pin
+ev5010_mus_skip
+ev5010_mus_start
+ev5020_mus_end
+ev5020_mus_pin
+ev5020_mus_skip
+ev5020_mus_start
+ev5030_mus_end
+ev5030_mus_pin
+ev5030_mus_skip
+ev5030_mus_start
+ev5040_mus_end
+ev5040_mus_pin
+ev5040_mus_skip
+ev5040_mus_start
+ev5050_mus_end
+ev5050_mus_pin
+ev5050_mus_skip
+ev5050_mus_start
+ev6000_mus_end
+ev6000_mus_pin
+ev6000_mus_skip
+ev6000_mus_start
+ev6010_mus_end
+ev6010_mus_pin
+ev6010_mus_skip
+ev6010_mus_start
+ev6020_mus_end
+ev6020_mus_pin
+ev6020_mus_skip
+ev6020_mus_start
+ev6030_mus_end
+ev6030_mus_pin
+ev6030_mus_skip
+ev6030_mus_start
+ev6040_mus_skip
+ev6040_mus_start
+ev6050_mus_pin
+ev6050_mus_skip
+ev6050_mus_start
+ev7000_mus_end
+ev7000_mus_pin
+ev7000_mus_skip
+ev7000_mus_start
+ev7010_mus_end
+ev7010_mus_pin
+ev7010_mus_skip
+ev7010_mus_start
+forest2_progress
+forest2_start
+institute_prison
+institute_prison_restart
+institute_restart
+institute_start
+ot_muramasa_intro
+ot_muramasa_lp
+ot_muramasa_preintro
+ot_opening_outro
+ot_opening_restart
+ot_opening_start
+ot_purgatory_start
+ot_rush_end
+ot_rush_lp1_restart
+ot_rush_lp2
+ot_rush_lp3
+ot_rush_lp3_restart
+ot_rush_lp4
+ot_rush_start
+pe1000_mus_skip
+pe1000_mus_start
+pe1020_mus_skip
+pe1020_mus_start
+pe3020_mus_start
+pe4010_mus_start
+pe5010_mus_start
+pe5020_mus_start
+pe5030_mus_start
+shrine_door_open
+silence_enter
+silence_exit
+st_back_alley_start
+st_base_start
+st_cave_layer_in
+st_cave_start
+st_chase2
+st_chase2_datasheet
+st_chase3
+st_chase3_datasheet
+st_chase4_drop_oneshot
+st_chase5
+st_chase5_2
+st_chase5_2_datasheet
+st_chase5_datasheet
+st_chase_4_drop
+st_chase_4_drop_datasheet
+st_chase_outro
+st_chase_outro_datasheet
+st_chase_start
+st_chase_start_datasheet
+st_dawn_intro
+st_dawn_lp
+st_dawn_outro_lp
+st_dawn_preintro1
+st_dawn_preintro2
+st_forest3_find
+st_forest3_lose
+st_forest3_start
+st_forest_start
+st_gate_restart
+st_gate_start
+st_hell_layer_in
+st_hell_start
+st_institute2
+st_missile_bridge
+st_missile_bridge_restart
+st_missile_lp1_restart
+st_missile_lp2
+st_missile_lp3
+st_missile_lp4
+st_missile_lp4_restart
+st_missile_outro
+st_missile_start
+st_none_start
+st_rockfall_lp2_start
+st_rockfall_lp3_start
+st_rockfall_outro
+st_rockfall_start
+st_sasuke_layer_in
+st_sasuke_lp2_start
+st_sasuke_outro
+st_sasuke_start
+st_sewer_start
+st_sewer_start_challengemission001
+st_sewer_stop
+st_shrine_start
+st_storm_intro2
+st_storm_lp
+st_storm_oneshot
+st_storm_restart
+st_storm_start
+st_street_restart
+st_street_start
+st_tribute_end
+st_tribute_start
+st_under_yukaku_start
+st_valley_start
+st_village_start
+st_yukaku_low_in
+st_yukaku_low_out
+st_yukaku_progress
+st_yukaku_progress_restart
+st_yukaku_restart
+st_yukaku_start
+train_silence
+train_title
+train_title_restart
+training_start
+# 1808302783
+# 1808302777
+# 1808302776
+# 1808302778
+# 3411811475
+# 182156584
+# 5987722
+# 34249445
+# 86649367
+# 102019885
+# 190458982
+# 207240505
+# 218091719
+# 309805626
+# 350596800
+# 351033582
+# 380977612
+# 411564464
+# 480727854
+# 538196467
+# 642262347
+# 700917140
+# 754896536
+# 799602586
+# 846023839
+# 892940329
+# 906701097
+# 910381181
+# 914122996
+# 978061377
+# 997080227
+# 1220736049
+# 1242617977
+# 1301463688
+# 1464992349
+# 1475276708
+# 1488604872
+# 1498961784
+# 1519022352
+# 1650766089
+# 1662114531
+# 1698960086
+# 1782708837
+# 1822323535
+# 1842237110
+# 1920522870
+# 1996352909
+# 2014896015
+# 2064614648
+# 2273440095
+# 2287212214
+# 2293900803
+# 2307588869
+# 2308455064
+# 2308455066
+# 2308455067
+# 2336037115
+# 2363072067
+# 2463764816
+# 2463764817
+# 2463764818
+# 2610615516
+# 2628638403
+# 2746272727
+# 2783798950
+# 2801527765
+# 2820838132
+# 2820838135
+# 2904820716
+# 2987532426
+# 3089063132
+# 3233868025
+# 3267151691
+# 3284868871
+# 3420115503
+# 3523288763
+# 3537991498
+# 3608633525
+# 3625005792
+# 3625005793
+# 3625005794
+# 3625005795
+# 3625005796
+# 3625005797
+# 3625005799
+# 3625005806
+# 3625005807
+# 3639496504
+# 3641783385
+# 3688389834
+# 3731597674
+# 3749816440
+# 3805704553
+# 3807624553
+# 3904465348
+# 3969644829
+# 3979181492
+# 4002071696
+# 4009024643
+# 4013269560
+# 4026465495
+# 4028393550
+# 4077276493
+# 4086011586
+# 4160041232
+# 4219493759
+# 4246210604
+# 4254344010
+# 4264854374
+# 4276299285
+# 4287825430
+# 4292794737
+
+### SFX NAMES (412724365.bnk: BGM)
+BGM_EQ_HPF
+BGM_st_hell_EQ
+# 30798289
+# 1016140702
+# 1188303865
+# 1251011143
+# 4083115231
+
+### TRIGGER NAMES (412724365.bnk: BGM)
+st_institute_stinger
+# 2293900803
+
+### RTPC/GAME-VARIABLE NAMES (412724365.bnk: BGM)
+BGM_azimuth
+BGM_hyoutan_QTE
+BGM_silence_distance
+st_yukaku2_layer_low
+# 865554546
+# 3844820854
+# 2964500491
+# 3328711966
+# 2342239683
+# 3122558962
+# 1915937853
+# 4197843948
+# 2455826463
+
+### VARIABLE NAMES (412724365.bnk: BGM)
+battle_boss
+battle_normal
+battle_normal_control
+bt_achilles
+bt_armored
+bt_darkdragon
+bt_kagachi
+bt_kannon
+bt_kitsune
+bt_kitsune_fake
+bt_ryu1
+bt_ryu2
+bt_ryujin_lv2_region
+bt_ryujin_lv3_region
+bt_samurai
+bt_shadow
+bt_shark
+bt_tengu
+bt_tentacle
+bt_youma_lv1_region
+bt_zombie
+event
+gamemode
+ingame
+ot_club
+ot_muramasa
+ot_opening
+ot_rush
+ot_title
+se_Slow_CraterEnter
+Shop_Status
+Shop_switch
+sound_area_Status
+st_base
+st_cave
+st_chase
+st_chase5_switch
+st_dawn
+st_forest2
+st_forest3
+st_gate
+st_hell
+st_institute
+st_institute_layer_pulse
+st_missile
+st_rockfall
+st_sasuke
+st_sasuke_lp2
+st_sewer
+st_storm
+st_street
+st_village
+st_yukaku
+st_yukaku1
+st_yukaku2_layer
+stage
+submenu
+# 2614208307
+# 2059167827
+# 3059434809
+# 3680808836
+# 2431408707
+# 2431408705
+# 2431408704
+# 3748518103
+# 3078572108
+# 232142224
+# 3945499572
+
+### VALUE NAMES (412724365.bnk: BGM)
+achilles1
+achilles2
+armored
+battle_boss
+battle_normal
+beforeclub2
+beforeclub3
+bridge
+bridge3
+bt_darkdragon
+bt_ryujin_lv2_region_01
+bt_ryujin_lv2_region_02
+bt_ryujin_lv2_region_03
+bt_ryujin_lv2_region_04
+bt_ryujin_lv2_region_05
+bt_ryujin_lv3_region_01
+bt_ryujin_lv3_region_02
+bt_training
+bt_youma_lv1_region_01
+bt_youma_lv1_region_02
+chapter_result
+club1
+club1finish
+club2
+club2finish
+club3
+club3finish
+club4
+club4oneshot
+credit
+darkaura
+event
+forest_cave
+found
+in
+ingame
+intro
+intro1
+intro2
+intro2_lp
+intro_lp
+intro_lp1
+kagachi
+kannon
+kitsune
+kitsune_fake
+lp
+lp1
+lp1_restart
+lp2
+lp2a
+lp2b
+lp3
+lp4
+lp_layer
+none
+not_found
+off
+on
+oneshot
+ot_muramasa
+ot_opening
+ot_purgatory
+ot_rush
+ot_rush_2st
+ot_title
+other
+out
+outro
+outro1
+outro2
+outro_lp
+ph1
+ph2
+ph2_2
+ph_change
+phase1
+phase2
+preclub
+preintro
+preintro1
+preintro2
+purgatory
+ryu1
+ryu2
+ryujin_clan1
+ryujin_clan2
+ryujin_clan3
+ryujin_rush
+samurai
+shadow
+shark
+st_back_alley
+st_base
+st_cave
+st_chase
+st_chase1
+st_chase2
+st_chase3
+st_chase4_drop
+st_chase4_drop_oneshot
+st_chase5
+st_chase5_lp
+st_chase5_lp2
+st_chase_outro
+st_chase_preintro
+st_dawn
+st_forest
+st_forest2
+st_forest3
+st_gate
+st_gate_intro
+st_gate_lp
+st_hell
+st_institute
+st_institute2
+st_missile
+st_rockfall
+st_sasuke
+st_sasuke_lp2
+st_sewer
+st_shrine
+st_storm
+st_street
+st_street_intro
+st_street_lp
+st_tribute
+st_under_yukaku
+st_valley
+st_village
+st_yukaku
+st_yukaku1
+st_yukaku2
+stage
+tengu
+tentacle
+title
+title_cleared
+youma1
+zombie
+# 2614208307
+# 2308455064
+# 2308455066
+# 2308455067
+# 258084837
+# 2431408707
+# 2963914963
+# 2431408704
+# 2431408705
+# 2431408708
+# 2431408710
+# 2431408711
+# 2363072067
+# 4254344010
+# 2059167827
+# 3078572108
+# 3748518103
+
+### EVENT NAMES (3197488505.bnk: BGM_DM)
+BGM_shop_umi_Enter
+BGM_shop_umi_Expand
+BGM_shop_umi_in
+BGM_Shop_Umi_Out
+BGM_shop_umi_Shrink
+# 87312354
+# 236997849
+# 749548706
+# 762671776
+# 762671777
+# 1055380295
+# 1441899835
+# 1455996520
+# 1669858331
+# 1820185846
+# 2461867745
+# 2667860833
+# 2722022276
+# 2726251057
+# 2885277064
+# 2885277067
+# 2967885264
+# 2967885267
+# 3083373560
+# 3228856263
+# 3280876544
+# 3336348623
+# 3691508156
+# 3937289115
+# 4131753945
+
+### RTPC/GAME-VARIABLE NAMES (3197488505.bnk: BGM_DM)
+BGM_azimuth
+BGM_elevation
+# 865554546
+# 4080535577
+# 3432348851
+# 3839857652
+
+### VARIABLE NAMES (3197488505.bnk: BGM_DM)
+gamemode
+ot_club
+Shop_Status
+Shop_switch
+sound_area_Status
+stage
+# 3945499572
+
+### VALUE NAMES (3197488505.bnk: BGM_DM)
+beforeclub2
+beforeclub3
+club1
+club1finish
+club2
+club2finish
+club3
+club3finish
+club4
+club4oneshot
+ingame
+lp1
+lp2
+none
+off
+outro
+preclub
+preintro
+shop_expand
+shop_in
+shop_out
+shop_shrink
+
+### EVENT NAMES (3888786832.bnk: City)
+amb_Spot_Nenon_START
+City_Base_Corridor
+City_Base_Rain_Thunder
+City_Spot_Hologram_Loop
+City_Spot_Nenon
+City_Spot_Nenon_appear
+City_Spot_Nenon_Fog_Loop
+City_Spot_Nenon_Horizontal_Loop
+City_Spot_OutdoorUnit_Loop
+em0300_FS_run_wrong
+Stop_City_Base_Corridor
+stop_City_Spot_Nenon_Fog_Loop
+stop_City_Spot_Nenon_Horizontal_Loop
+# 23771001
+# 230227825
+# 427647577
+# 746586515
+# 1025439513
+# 1490945832
+# 1838342914
+# 2693085865
+# 2711819176
+# 2767114695
+# 2827841791
+# 2916435383
+# 3381982482
+# 3552022378
+# 3605282929
+# 3798701258
+# 3969568012
+
+### RTPC/GAME-VARIABLE NAMES (3888786832.bnk: City)
+se_azimuth_amb
+SE_Elevation
+SE_Global_PlayerToCamera_Distance
+se_Rain_roof
+# 2214044605
+# 3774234363
+
+### VARIABLE NAMES (3888786832.bnk: City)
+se_Rain_intensity
+# 3599749353
+
+### VALUE NAMES (3888786832.bnk: City)
+high
+low
+Med
+on
+
+### EVENT NAMES (95414097.bnk: City_1_0)
+City_Base_Train
+City_Base_Train_Outside
+City_Spot_Fire_Large
+City_Spot_Fire_Medium
+City_Spot_Fire_small
+City_Spot_Train_electricity
+City_Spot_Train_Explosion
+City_Spot_Train_Explosion_DEATH
+City_Spot_Train_Sparks
+ev0000_sfx_End
+ev0000_sfx_skip
+ev0000_sfx_Start
+Stop_City_Base_Train_Outside
+stop_City_Spot_Fire_Large
+stop_City_Spot_Fire_Medium
+stop_City_Spot_Fire_small
+# 125988945
+# 1675133433
+# 2183421514
+# 2576552284
+# 3238924876
+# 3539685032
+# 3843243536
+
+### RTPC/GAME-VARIABLE NAMES (95414097.bnk: City_1_0)
+se_azimuth_amb
+SE_Elevation
+SE_Global_PlayerToCamera_Distance
+se_Rain_Inside
+SE_train_curve
+
+### EVENT NAMES (95414096.bnk: City_1_1)
+City_Spot_Spark
+City_Spot_vending_machine
+ev1000_sfx_End
+ev1000_sfx_skip
+ev1000_sfx_Start
+Pe1000_sfx_skip
+Pe1000_sfx_Start
+# 419403073
+# 1581256797
+# 1741189844
+# 3269689921
+
+### RTPC/GAME-VARIABLE NAMES (95414096.bnk: City_1_1)
+se_azimuth_amb
+SE_Elevation
+
+### EVENT NAMES (95414099.bnk: City_1_2)
+City_Base_Rail_Corridor
+City_Base_Rail_Rain
+City_Base_Rail_Tunnel
+City_Spot_Giant_Barrier_Break
+City_Spot_Nenon_Fire_Loop
+City_Spot_Nenon_Fire_START
+obj0100_Mov_pl0000_vo_Atk_L
+Stop_City_Base_Rail_Corridor
+stop_City_Base_Rail_Tunnel
+# 106749087
+# 307248845
+# 825168351
+# 1262066319
+# 1865505358
+# 1920055421
+# 2405668257
+# 2626162956
+# 3372569079
+# 3411912580
+# 3474712510
+# 3526579911
+# 3540671998
+# 4030413399
+# 4114755256
+# 4280813938
+
+### RTPC/GAME-VARIABLE NAMES (95414099.bnk: City_1_2)
+se_azimuth_amb
+SE_Elevation
+SE_Global_PlayerToCamera_Distance
+se_Rain_Inside
+se_Rain_roof
+se_Spot_distance
+
+### EVENT NAMES (95414098.bnk: City_1_3)
+City_Base_Challenge
+ev1010_sfx_End
+ev1010_sfx_skip
+ev1010_sfx_Start
+ev1020_sfx_End
+ev1020_sfx_skip
+ev1020_sfx_Start
+Pe1020_sfx_skip
+Pe1020_sfx_Start
+Pe1020_sfx_Stop
+Pe1020_vo_skip
+Pe1020_vo_Start
+Pe1020_vo_Stop
+# 81044268
+# 801575116
+# 2420580252
+# 2842066771
+# 2909706468
+# 3717961696
+# 3717961726
+
+### RTPC/GAME-VARIABLE NAMES (95414098.bnk: City_1_3)
+se_azimuth_amb
+SE_Elevation
+
+### EVENT NAMES (3123386547.bnk: Club_3_1)
+Club_MISC_Display_Power_Off
+Club_MISC_Speaker_Power_Off
+ev3000_sfx_End
+ev3000_sfx_skip
+ev3000_sfx_Start
+# 2250190086
+
+### RTPC/GAME-VARIABLE NAMES (3123386547.bnk: Club_3_1)
+se_azimuth_amb
+
+### VARIABLE NAMES (3123386547.bnk: Club_3_1)
+se_Club_1_Display
+
+### VALUE NAMES (3123386547.bnk: Club_3_1)
+off
+
+### EVENT NAMES (3123386544.bnk: Club_3_2)
+Pe3020_sfx_skip
+Pe3020_sfx_Start
+
+### EVENT NAMES (3123386545.bnk: Club_3_3)
+ev3010_sfx_End
+ev3010_sfx_skip
+ev3010_sfx_Start
+ev3020_sfx_End
+ev3020_sfx_skip
+ev3020_sfx_Start
+ev3030_sfx_End
+ev3030_sfx_skip
+ev3030_sfx_Start
+# 228144724
+# 367241591
+# 1657469253
+
+### EVENT NAMES (2847778351.bnk: Club_Shared)
+Club_Base_hell
+Club_Base_hell_Wind
+Club_Base_Outside_Wind
+Club_Spot_OutdoorUnit_Loop
+Club_Spot_stream_Loop
+stop_Club_Base_hell
+stop_Club_Base_hell_Wind
+Stop_Club_Base_Outside_Wind
+stop_Club_Spot_OutdoorUnit_Loop
+# 188393519
+# 292539820
+# 424914118
+# 504155439
+# 511978905
+# 765814213
+# 855272184
+# 929840320
+# 1160773516
+# 1224823162
+# 1955834829
+# 2364364152
+# 2521949912
+# 3439351164
+# 3480189545
+# 3856694299
+# 4047939286
+# 4294203217
+
+### RTPC/GAME-VARIABLE NAMES (2847778351.bnk: Club_Shared)
+se_azimuth_amb
+SE_Player_Speed
+se_Spot_distance
+
+### EVENT NAMES (103241291.bnk: DarkDragon_MISC)
+DarkDragon_MISC_Tremor
+
+### EVENT NAMES (981535219.bnk: EM0000)
+em0000_Atk_Charge
+em0000_Atk_Charge_Whoosh
+em0000_atk_counter_whoosh
+em0000_Atk_Iai_Dimentional_Distortion
+em0000_Atk_Iai_Dimentional_Slash_Horizontal
+em0000_Atk_Iai_Dimentional_Slash_Vertical
+em0000_Atk_jump_Impact
+em0000_Atk_jump_Whoosh
+em0000_Atk_Sword_Whoosh_Fast
+em0000_atk_throw_grenade
+em0000_atk_throw_Shuriken
+em0000_Dmg_Bodyfall_Large
+em0000_Dmg_Bodyfall_Large_Cine
+em0000_Dmg_Bodyfall_Medium
+em0000_Dmg_Bodyfall_Medium_Cine
+em0000_Dmg_Bodyfall_roll
+em0000_Dmg_Bodyfall_small
+em0000_Dmg_Bodyfall_small_Cine
+em0000_fs_jog
+em0000_fs_land
+em0000_FS_Land_Cine
+em0000_fs_run
+em0000_fs_run_Cine
+em0000_fs_walk
+em0000_fs_walk_Cine
+em0000_Mvt_Dodge
+em0000_Mvt_Foley_Medium
+em0000_Mvt_Foley_Medium_Cine
+em0000_Mvt_Foley_Slow
+em0000_Mvt_Foley_Slow_Cine
+em0000_Mvt_Grind_Loop
+em0000_Mvt_Hand_Ground_Touch
+em0000_Mvt_Jump
+em0000_Mvt_Jump_Attack
+em0000_Mvt_Sword_stab
+em0000_Mvt_Sword_Whoosh
+em0000_Mvt_Sword_Whoosh_Alert
+em0010_Atk_Electric_Shuriken
+em0010_Atk_Electric_Shuriken_Impact
+stop_em0000_Mvt_Grind_Loop
+# 1614545028
+# 1908064712
+# 2054732803
+# 2062813593
+# 2411424145
+# 2651565035
+# 4225019455
+# 4229471394
+
+### RTPC/GAME-VARIABLE NAMES (981535219.bnk: EM0000)
+se_azimuth
+SE_Elevation
+
+### VARIABLE NAMES (981535219.bnk: EM0000)
+# 4081542406
+
+### VALUE NAMES (981535219.bnk: EM0000)
+EM0000
+EM0010
+
+### EVENT NAMES (964757504.bnk: EM0010)
+em0010_Atk_Lightning_Strike
+em0010_Atk_Lightning_Strike_Charge
+em0010_Atk_Lightning_Strike_In
+em0010_Atk_Sword_Slash
+em0010_Atk_Sword_Slash_Ground
+em0010_Atk_Sword_Slash_Ground_Foley
+em0010_Atk_Sword_Slash_PassBy
+Stop_em0010_Atk_Sword_Slash_PassBy
+# 448961660
+# 503497410
+# 604873451
+# 1800077590
+# 2220453243
+# 2533162936
+# 2568664093
+# 3874593048
+
+### RTPC/GAME-VARIABLE NAMES (964757504.bnk: EM0010)
+se_azimuth
+SE_Elevation
+
+### EVENT NAMES (998312806.bnk: EM0030)
+em0030_atk_ground_slam
+EM0030_Atk_Iai_Slash
+em0030_Atk_Sign_L
+EM0030_Atk_Sword_Whoosh_Electric
+EM0030_Atk_Sword_Whoosh_Fast
+EM0030_KillConfirm_Anki_sword_whoosh
+EM0030_KillConfirm_Anki_WeaponChange
+EM0030_KillConfirm_Hit_01
+EM0030_KillConfirm_Hit_02
+EM0030_KillConfirm_Hit_03
+EM0030_KillConfirm_Hit_04
+em0030_KillConfirm_stab
+EM0030_KillConfirm_sword_PullOut
+EM0030_KillConfirm_sword_sheathe
+EM0030_KillConfirm_sword_whoosh_01
+EM0030_KillConfirm_sword_whoosh_02
+EM0030_KillConfirm_sword_whoosh_03
+EM0030_KillConfirm_sword_whoosh_04
+EM0030_KillConfirm_sword_whoosh_05
+EM0030_KillConfirm_sword_whoosh_06
+EM0030_Mvt_Landing_Cine
+EM0030_Mvt_Landing_Cinematic_Cine
+EM0030_Mvt_Sword_Whoosh
+# 179337094
+# 315025109
+# 493144414
+# 497670770
+# 502928951
+# 626090954
+# 734545169
+# 1191003821
+# 1240695523
+# 1244985511
+# 1285971052
+# 1340630340
+# 1493388459
+# 1947470572
+# 2069091014
+# 2103281443
+# 2103281469
+# 2216769141
+# 2216769142
+# 2346892560
+# 2527541172
+# 2633315617
+# 2935108686
+# 3129745500
+# 3213024326
+# 3258609355
+# 3300194370
+# 3369339472
+# 3369339474
+# 3369339475
+# 3369339477
+# 3468167233
+# 3468167234
+# 3482753516
+# 3537130927
+# 3700290765
+
+### EVENT NAMES (1384050881.bnk: EM0125)
+em0125_atk_backfist
+em0125_atk_guard_counter
+em0125_Atk_Impact_m
+em0125_Atk_Impact_S
+em0125_atk_jump
+em0125_atk_kick
+em0125_atk_Launch
+em0125_atk_slam
+em0125_atk_slash
+em0125_atk_Sword_Scrape
+em0125_atk_Whoosh
+em0125_Dmg_Bodyfall_M
+em0125_Dmg_Bodyfall_M_Cine
+em0125_Dmg_Bodyfall_s
+em0125_Dmg_bodyroll
+em0125_FS_run
+em0125_FS_walk
+em0125_FS_walk_Cine
+em0125_Mvt_Foley_m
+em0125_Mvt_Foley_m_Cine
+em0125_Mvt_Foley_S
+em0125_Mvt_Foley_S_Cine
+em0125_Mvt_intimidate
+em0125_Mvt_intimidate_Foley
+em0125_Mvt_Jump
+em0125_Mvt_Machete_Foley
+em0125_Mvt_Machete_Land
+em0125_Mvt_Machete_Whoosh
+em0125_Mvt_Sword_Foley
+em0125_Voc_Atk_chant
+em0125_Voc_Atk_m
+em0125_Voc_Atk_S
+em0125_Voc_Dmg_death
+em0125_Voc_Dmg_death_Cine
+em0125_Voc_Dmg_fall
+em0125_Voc_Dmg_M
+em0125_Voc_Dmg_M_Cine
+em0125_Voc_Dmg_S
+em0125_Voc_Dmg_S_Cine
+EM0125_Voc_Mvt_alert_a
+EM0125_Voc_Mvt_alert_b
+em0125_Voc_Mvt_intimidate
+# 82946823
+# 946155454
+# 1395641164
+# 1692544099
+# 2123115629
+# 3285242655
+# 3843962423
+# 3989635062
+
+### RTPC/GAME-VARIABLE NAMES (1384050881.bnk: EM0125)
+SE_em_Head_Lost
+
+### VARIABLE NAMES (1384050881.bnk: EM0125)
+SE_EM0125_Vo_Variety
+
+### VALUE NAMES (1384050881.bnk: EM0125)
+EM0125_a
+EM0125_b
+EM0125_c
+EM0125_d
+
+### EVENT NAMES (998312803.bnk: Em0035)
+em0035_mvt_Naginata_grab
+em0035_mvt_Naginata_Whoosh
+# 937662540
+# 1419669435
+# 1458089931
+# 2642054997
+
+### RTPC/GAME-VARIABLE NAMES (998312803.bnk: Em0035)
+se_azimuth
+
+### EVENT NAMES (998312752.bnk: Em003f)
+em003f_FS_Land
+em003f_FS_Land_Cine
+em003f_FS_run
+em003f_FS_run_Cine
+em003f_FS_walk
+em003f_FS_walk_Cine
+em003f_FS_walk_Slow
+em003f_FS_walk_Slow_Cine
+em003f_Mvt_Foley_dash
+em003f_Mvt_Foley_Dodge
+em003f_Mvt_Foley_Fast
+em003f_Mvt_Foley_Fast_Cine
+em003f_Mvt_Foley_Jump
+em003f_Mvt_Foley_Medium
+em003f_Mvt_Foley_Medium_Cine
+em003f_Mvt_Foley_Slow
+em003f_Mvt_Foley_Slow_Cine
+# 2812853747
+
+### RTPC/GAME-VARIABLE NAMES (998312752.bnk: Em003f)
+se_azimuth
+
+### EVENT NAMES (2476120357.bnk: Epilogue)
+Epilogue_Base_wind
+Epilogue_Spot_OutdoorUnit_Loop
+ev7000_sfx_End
+ev7000_sfx_skip
+ev7000_sfx_Start
+ev7010_sfx_End
+ev7010_sfx_skip
+ev7010_sfx_Start
+# 219919232
+# 2045282639
+# 3599751163
+# 4003293747
+
+### RTPC/GAME-VARIABLE NAMES (2476120357.bnk: Epilogue)
+se_azimuth_amb
+
+### EVENT NAMES (854661658.bnk: Fortress_4_1)
+ev4000_sfx_End
+ev4000_sfx_skip
+ev4000_sfx_Start
+Fortress_Spot_Lightning_Strike
+Pe4010_sfx_Cut_01
+Pe4010_sfx_Cut_02
+Pe4010_sfx_Cut_03
+Pe4010_sfx_Cut_04
+Pe4010_sfx_Cut_05
+Pe4010_sfx_Gate
+Pe4010_sfx_Skip
+
+### RTPC/GAME-VARIABLE NAMES (854661658.bnk: Fortress_4_1)
+se_azimuth_amb
+
+### EVENT NAMES (854661657.bnk: Fortress_4_2)
+Fortress_Spot_container
+Fortress_Spot_MetalHit
+Fortress_Spot_server
+Fortress_Spot_Siren_Loop
+Stop_Fortress_Spot_Siren_Loop
+# 77678527
+# 719768346
+# 882079931
+# 1068238474
+# 1351731522
+# 1388537137
+# 1713362334
+# 3751616567
+# 3771332837
+
+### RTPC/GAME-VARIABLE NAMES (854661657.bnk: Fortress_4_2)
+se_azimuth_amb
+
+### VARIABLE NAMES (854661657.bnk: Fortress_4_2)
+se_battle
+
+### VALUE NAMES (854661657.bnk: Fortress_4_2)
+in
+
+### EVENT NAMES (854661656.bnk: Fortress_4_3)
+ev4010_sfx_End
+ev4010_sfx_skip
+ev4010_sfx_Start
+ev4020_sfx_End
+ev4020_sfx_skip
+ev4020_sfx_Start
+ev4030_sfx_End
+ev4030_sfx_skip
+ev4030_sfx_Start
+ev4040_sfx_End
+ev4040_sfx_skip
+ev4040_sfx_Start
+ev6000_sfx_name3 #alt
+
+### EVENT NAMES (4264664713.bnk: Fortress_Shared)
+Fortress_Base_boss
+Fortress_Base_Inside
+Fortress_Base_Rain_Storm
+Fortress_Base_Rain_wind_Storm
+# 1864643695
+# 2624227442
+
+### RTPC/GAME-VARIABLE NAMES (4264664713.bnk: Fortress_Shared)
+se_azimuth_amb
+SE_Global_PlayerToCamera_Distance
+se_Rain_roof
+
+### EVENT NAMES (1410180444.bnk: LastBattle_6_1)
+ev6000_sfx_End
+ev6000_sfx_skip
+ev6000_sfx_Start
+ev6010_sfx_End
+ev6010_sfx_skip
+ev6010_sfx_Start
+ev6020_sfx_End
+ev6020_sfx_skip
+ev6020_sfx_Start
+
+### EVENT NAMES (1410180447.bnk: LastBattle_6_2)
+ev6030_sfx_End
+ev6030_sfx_skip
+ev6030_sfx_Start
+ev6040_sfx_End
+ev6040_sfx_skip
+ev6040_sfx_Start
+ev6050_sfx_End
+ev6050_sfx_skip
+ev6050_sfx_Start
+LastBattle_Spot_Flag
+LastBattle_Spot_sheet
+LastBattle_Spot_Spark
+Stop_LastBattle_Spot_Flag
+stop_LastBattle_Spot_sheet
+# 515265708
+# 517438825
+# 1366378172
+# 1697085233
+# 1888743927
+# 2698089142
+# 3200488507
+# 3326080598
+
+### RTPC/GAME-VARIABLE NAMES (1410180447.bnk: LastBattle_6_2)
+se_azimuth_amb
+SE_Elevation
+se_Rain_roof
+# 30798289
+# 1251011143
+
+### EVENT NAMES (3863723225.bnk: LastBattle_Shared)
+# 230841735
+# 284127460
+# 842276740
+# 973184020
+# 1216945625
+# 1375036797
+# 1613539442
+# 2667561287
+# 3612033421
+# 3624093639
+# 3929414426
+
+### RTPC/GAME-VARIABLE NAMES (3863723225.bnk: LastBattle_Shared)
+se_azimuth_amb
+SE_Elevation
+
+### EVENT NAMES (1536724559.bnk: OBJ0010)
+OBJ0011_atk_Missile_explosion
+OBJ0011_Atk_Missile_Launch
+# 286850375
+# 1341956597
+# 1988417658
+# 2281662680
+
+### RTPC/GAME-VARIABLE NAMES (1536724559.bnk: OBJ0010)
+se_azimuth
+SE_Elevation
+
+### EVENT NAMES (2826619321.bnk: PL2200)
+PL2200_FS_walk
+PL2200_Mvt_Foley_Fast
+PL2200_Mvt_Foley_Slow
+
+### EVENT NAMES (3518021735.bnk: Prologue_0_1)
+ev0010_sfx_End
+ev0010_sfx_skip
+ev0010_sfx_Start
+ev0020_sfx_End
+ev0020_sfx_skip
+ev0020_sfx_Start
+ev0030_sfx_End
+ev0030_sfx_skip
+ev0030_sfx_Start
+ev0040_sfx_End
+ev0040_sfx_skip
+ev0040_sfx_Start
+Prologue_Base_Outside_Wind
+stop_Prologue_Base_Outside_Wind
+# 431156970
+# 521523317
+# 1258941511
+# 1706653336
+# 1709435248
+# 1709435251
+# 1823737893
+# 1823737894
+# 2291018799
+# 3345478284
+# 3934469785
+# 4150013008
+
+### RTPC/GAME-VARIABLE NAMES (3518021735.bnk: Prologue_0_1)
+se_azimuth_amb
+# 2861361134
+
+### EVENT NAMES (3551350019.bnk: RYU_5_1)
+ev5000_sfx_End
+ev5000_sfx_skip
+ev5000_sfx_Start
+
+### EVENT NAMES (3551350016.bnk: RYU_5_2)
+ev5010_sfx_End
+ev5010_sfx_skip
+ev5010_sfx_Start
+
+### EVENT NAMES (3551350017.bnk: RYU_5_3)
+core_HUD_4b7d_Acquire_In
+ev5020_sfx_skip
+Pe5010_sfx_skip
+Pe5010_sfx_Start
+Pe5010_sfx_Stop
+Pe5010_vo_skip
+Pe5010_vo_Start
+Pe5010_vo_Stop
+st_active_Inside
+
+### EVENT NAMES (3551350022.bnk: RYU_5_4)
+ev5030_sfx_End
+ev5030_sfx_skip
+ev5030_sfx_Start
+
+### EVENT NAMES (3551350023.bnk: RYU_5_5)
+em0060_6mgI3_Bodyfall
+ev5040_sfx_End
+ev5040_sfx_skip
+ev5040_sfx_Start
+ev5050_sfx_End
+ev5050_sfx_skip #alt
+ev5050_sfx_Start
+Pe5030_sfx_skip
+Pe5030_sfx_Start
+
+### EVENT NAMES (3020443631.bnk: Shrine_2_1)
+ev2000_sfx_End
+ev2000_sfx_skip
+ev2000_sfx_Start
+# 352792247
+# 2336891747
+# 3142548476
+
+### EVENT NAMES (3020443628.bnk: Shrine_2_2)
+Pe2000_sfx_Cut_01
+Pe2000_sfx_Cut_02
+Pe2000_sfx_Cut_03
+Pe2000_sfx_Cut_04
+Pe2000_sfx_Cut_05
+Pe2000_sfx_skip
+# 2775659044
+# 3249387575
+# 3549865718
+
+### EVENT NAMES (3020443626.bnk: Shrine_2_4)
+ev2010_sfx_End
+ev2010_sfx_skip
+ev2010_sfx_Start
+ev2020_sfx_End
+ev2020_sfx_skip
+ev2020_sfx_Start
+ev2030_sfx_End
+ev2030_sfx_skip
+ev2030_sfx_Start
+Forest_Spot_typhoon
+Stop_Forest_Spot_typhoon
+# 431912514
+# 1805594353
+
+### RTPC/GAME-VARIABLE NAMES (3020443626.bnk: Shrine_2_4)
+se_azimuth_amb
+
+### EVENT NAMES (4066282876.bnk: Shrine_Shared)
+Forest_Base_Atrium
+Forest_Base_cave
+Forest_Base_Rain
+Forest_Base_Rain_Med
+Forest_Base_Storm_Med
+Forest_Base_wind
+Forest_Spot_Bridge_Creak_Loop_L
+Forest_Spot_Bridge_Creak_Loop_R
+Forest_Spot_Bridge_Shake_L
+Forest_Spot_Bridge_Shake_R
+Forest_Spot_Cloth_Loop
+Forest_Spot_Explosion_M
+forest_Spot_Fire_Large
+forest_Spot_Fire_small
+Forest_Spot_Flag_Loop
+Forest_Spot_Flag_slow_Loop
+Forest_Spot_Waterfall_L
+Forest_Spot_Waterfall_M
+se_Rain_intensity_Forest_high
+se_Rain_intensity_Forest_Low
+se_Rain_intensity_Forest_Med
+stop_Forest_Base_Atrium
+stop_Forest_Base_cave
+stop_Forest_Base_Rain_Med
+stop_Forest_Base_Storm_Med
+Stop_Forest_Spot_Bridge_Creak_Loop_L
+Stop_Forest_Spot_Bridge_Creak_Loop_R
+Stop_Forest_Spot_Flag_Loop
+Stop_Forest_Spot_Flag_slow_Loop
+stop_Forest_Spot_Waterfall_L
+stop_Forest_Spot_Waterfall_M
+# 335823770
+# 359711166
+# 501840282
+# 631327164
+# 841449541
+# 937572784
+# 955591866
+# 1366515173
+# 1640230981
+# 1787612200
+# 1919849765
+# 2136093178
+# 2392758989
+# 2867754937
+# 2920903236
+# 2924986569
+# 3237351265
+# 3261575277
+# 3406559700
+# 3523750052
+# 3663282512
+# 3886950612
+# 4028820741
+
+### RTPC/GAME-VARIABLE NAMES (4066282876.bnk: Shrine_Shared)
+se_azimuth_amb
+SE_Global_PlayerToCamera_Distance
+se_Rain_roof
+
+### VARIABLE NAMES (4066282876.bnk: Shrine_Shared)
+se_Rain_intensity
+
+### VALUE NAMES (4066282876.bnk: Shrine_Shared)
+high
+low
+Med
+
+### EVENT NAMES (1320723309.bnk: TeamNinja_VI_Audio)
+Stop_TeamNinja_VI_Audio
+TeamNinja_VI_Audio
+
+### EVENT NAMES (2327952720.bnk: amb_Flag_M)
+amb_Flag_M_flap
+stop_amb_Flag_M_flap
+
+### EVENT NAMES (2641025983.bnk: amb_Flying_Propeller)
+amb_Flying_Propeller
+
+### EVENT NAMES (405101043.bnk: amb_VentilationFan_L)
+amb_VentilationFan_L_Idle
+stop_amb_VentilationFan_L_Idle
+
+### EVENT NAMES (3787826988.bnk: core)
+core_Block_ARROW_l
+core_Block_ARROW_S
+core_Block_Counter_Success_pl
+core_Block_CounterGrab_em
+core_Block_em_Counter
+core_Block_FF_Bullet
+core_Block_FF_Melee
+core_Block_FF_Shuriken
+core_Block_Guard_Break_pl
+core_Block_Guard_Counter_Success_pl
+core_Block_Guard_em
+core_Block_Guard_pl
+core_Block_Interrupt
+core_Block_Kunai_S
+core_Block_LaserBullet_l
+core_Block_LaserBullet_s
+core_Block_Normal_em
+core_Block_Normal_PL
+core_Block_Parried
+core_Block_Parried_Large
+core_Block_Projectile_Whoosh
+core_Block_Shuriken_Big_Normal
+core_Block_Shuriken_Big_Success
+core_Block_Shuriken_em
+core_Block_Shuriken_l
+core_Block_Shuriken_s
+core_Block_Success_em
+core_Block_Success_pl
+core_Block_Success_pl_Camera_Zoom
+core_Block_Umbrella
+core_Block_Umbrella_Success_em
+core_Comms_In
+core_Comms_out
+core_em_Atk_Counter_Sign
+core_em_Atk_Red_Sign
+core_em_Atk_Yellow_Sign
+core_em_Dmg_Counter_Guard_Break
+core_em_Dmg_Guard_Break
+core_em_Dmg_Red_Sign_Break
+core_em_Dmg_Water_Splash
+core_em_Gore_Legs_Land
+core_em_Gore_Legs_Land_Cine
+core_em_Gore_Torso_Land
+core_em_Gore_Torso_Land_Cine
+core_em_Grenade_Alert_Loop
+core_em_Grenade_Explode
+core_em_Grenade_Explode_Cine
+core_em_Grenade_Impact
+core_em_Hand_Ground_Touch
+core_em_Hand_tternumber5
+core_em_ReadyToBeKilled
+core_em_Shuriken_L_PassBy
+core_em_Shuriken_S_PassBy
+core_GUI_AbyssRoad_Cancel
+core_GUI_AbyssRoad_Confirm
+core_GUI_AbyssRoad_Cursor
+core_GUI_AbyssRoad_PopUpMenu_In
+core_GUI_AbyssRoad_PopUpMenu_Out
+core_GUI_AbyssRoad_Portal_In
+core_GUI_AbyssRoad_Portal_Out
+core_GUI_Add_Function_Cancel
+core_GUI_Add_Function_Window_In
+core_GUI_Add_Function_Window_Out
+core_GUI_AllResult_Category
+core_GUI_AllResult_Chapter_Clear
+core_GUI_AllResult_Chapter_List
+core_GUI_AllResult_Count_Loop
+core_GUI_AllResult_detail
+core_GUI_AllResult_In
+core_GUI_AllResult_Out
+core_GUI_AllResult_Rank_A
+core_GUI_AllResult_Rank_B
+core_GUI_AllResult_Rank_C
+core_GUI_AllResult_Rank_D
+core_GUI_AllResult_Rank_Hero
+core_GUI_AllResult_Rank_S
+core_GUI_AllResult_Record
+core_GUI_AllResult_Total_Karma
+core_GUI_Audio_Slider_Loop
+core_GUI_Challenge_Mission_Switch
+core_GUI_Challenge_Mission_Window_In
+core_GUI_Challenge_Mission_Window_Out
+core_GUI_Cinematics_Cancel
+core_GUI_Cinematics_Cancel_motivation
+core_GUI_Cinematics_Confirm
+core_GUI_Cinematics_Cursor
+core_GUI_Cinematics_In
+core_GUI_Cinematics_No_Access
+core_GUI_Cinematics_Out
+core_GUI_Cinematics_PopUpMenu_In
+core_GUI_Cinematics_PopUpMenu_Out
+core_GUI_Cinematics_Switch
+core_GUI_Cinematics_Window_Open
+core_GUI_Download_Complete
+core_GUI_Ending_Message_End
+core_GUI_Ending_Message_Start
+core_GUI_GameOver_Confirm
+core_GUI_GameOver_Cursor
+core_GUI_GameOver_Glitch_Loop
+core_GUI_GameOver_in
+core_GUI_GameOver_Out
+core_GUI_General_Cancel
+core_GUI_General_Confirm
+core_GUI_General_Cursor
+core_GUI_General_PopUpMenu_In
+core_GUI_General_PopUpMenu_Out
+core_GUI_General_Slider_Loop
+core_GUI_Help_In
+core_GUI_Help_Out
+core_GUI_Inventory_BloodGauge_Heal
+core_GUI_Inventory_BloodGauge_Regene
+core_GUI_Inventory_Buff_Attack
+core_GUI_Inventory_Buff_Defence
+core_GUI_Inventory_Heal_L
+core_GUI_Inventory_Heal_M
+core_GUI_Inventory_Heal_Regene
+core_GUI_Inventory_Heal_S
+core_GUI_Inventory_Item_Hold
+core_GUI_Inventory_Item_Use
+core_GUI_Item_HP_Up_Gauge_Loop
+core_GUI_Item_HP_Up_In
+core_GUI_Item_HP_Up_Mix_In
+core_GUI_Item_HP_Up_Mix_Out
+core_GUI_Item_HP_Up_Out
+core_GUI_MainMenu_Accessory_Equip
+core_GUI_MainMenu_Accessory_Unequip
+core_GUI_MainMenu_Cancel
+core_GUI_MainMenu_Confirm
+core_GUI_MainMenu_Cursor
+core_GUI_MainMenu_In
+core_GUI_MainMenu_No_Access
+core_GUI_MainMenu_Out
+core_GUI_MainMenu_PopUpMenu_In
+core_GUI_MainMenu_PopUpMenu_Out
+core_GUI_MainMenu_Switch
+core_GUI_MainMenu_Tab
+core_GUI_MainMenu_Weapon_Hold
+core_GUI_MainMenu_Weapon_Learning_In
+core_GUI_MainMenu_Weapon_Learning_Out
+core_GUI_MainMenu_Weapon_On_Off
+core_GUI_MainMenu_Weapon_Use
+core_GUI_MainMenu_Window_Open
+core_GUI_Mission_Complete
+core_GUI_Mission_Complete_Window_In
+core_GUI_Mission_Complete_Window_Out
+core_GUI_PhotoMode_Cancel
+core_GUI_PhotoMode_Confirm
+core_GUI_PhotoMode_Cursor
+core_GUI_PhotoMode_Operation_Switch_In
+core_GUI_PhotoMode_Operation_Switch_Out
+core_GUI_PhotoMode_photo
+core_GUI_PhotoMode_Slider
+core_GUI_PhotoMode_Slider_Loop
+core_GUI_PhotoMode_Stamp
+core_GUI_PhotoMode_Switch
+core_GUI_PhotoMode_Tab
+core_GUI_Ranking_Cancel
+core_GUI_Ranking_Confirm
+core_GUI_Ranking_Cursor
+core_GUI_Ranking_In
+core_GUI_Ranking_In_01
+core_GUI_Ranking_Out
+core_GUI_Ranking_Rank_Jump
+core_GUI_Ranking_Result_In
+core_GUI_Ranking_Result_Out
+core_GUI_Ranking_Tab
+core_GUI_Rengoku_Cancel
+core_GUI_Rengoku_Clear
+core_GUI_Rengoku_Confirm
+core_GUI_Rengoku_Cursor
+core_GUI_Rengoku_In
+core_GUI_Rengoku_Out
+core_GUI_Rengoku_PopUpMenu_In
+core_GUI_Rengoku_PopUpMenu_Out
+core_GUI_Rengoku_Select_Difficulty
+core_GUI_Rengoku_Select_Window_In
+core_GUI_Rengoku_Select_Window_Out
+core_GUI_Result_Category
+core_GUI_Result_Count_Loop
+core_GUI_Result_Detail
+core_GUI_Result_In
+core_GUI_Result_Out
+core_GUI_Result_Rank_A
+core_GUI_Result_Rank_B
+core_GUI_Result_Rank_C
+core_GUI_Result_Rank_D
+core_GUI_Result_Rank_Hero
+core_GUI_Result_Rank_S
+core_GUI_Result_Total_Karma
+core_GUI_Resurrect_Cancel
+core_GUI_Resurrect_Confirm
+core_GUI_Resurrect_Cursor
+core_GUI_Resurrect_In
+core_GUI_Resurrect_Out
+core_GUI_Revival_Cancel
+core_GUI_Revival_Confirm
+core_GUI_Revival_Cursor
+core_GUI_Revival_PopUpMenu_In
+core_GUI_Revival_PopUpMenu_Out
+core_GUI_Save_Load_Cancel
+core_GUI_Save_Load_Confirm
+core_GUI_Save_Load_Cursor
+core_GUI_Save_Load_In
+core_GUI_Save_Load_Out
+core_GUI_Save_Load_PopUpMenu_In
+core_GUI_Save_Load_PopUpMenu_Out
+core_GUI_Shop_Buy
+core_GUI_Shop_Buy_Window_In
+core_GUI_Shop_Cancel
+core_GUI_Shop_Confirm
+core_GUI_Shop_Cursor
+core_GUI_Shop_Mission_Addition_In
+core_GUI_Shop_Mission_Addition_Out
+core_GUI_Shop_Mission_Filter
+core_GUI_Shop_Mission_In
+core_GUI_Shop_Mission_List_Update
+core_GUI_Shop_Mission_Notice
+core_GUI_Shop_Mission_Order
+core_GUI_Shop_Mission_Order_Complete_In
+core_GUI_Shop_Mission_Order_Complete_Out
+core_GUI_Shop_Mission_Out
+core_GUI_Shop_Ninpay_In
+core_GUI_Shop_Ninpay_Out
+core_GUI_Shop_No_Access
+core_GUI_Shop_Number
+core_GUI_Shop_PopUpMenu_In
+core_GUI_Shop_PopUpMenu_Out
+core_GUI_Shop_Skill_In
+core_GUI_Shop_Skill_Out
+core_GUI_Shop_TAB
+core_GUI_Shop_Technique_Buy
+core_GUI_Shop_Technique_Hold
+core_GUI_Shop_Technique_In
+core_GUI_Shop_Technique_Learning_In
+core_GUI_Shop_Technique_Learning_Out
+core_GUI_Shop_Technique_Out
+core_GUI_Shop_Tylan_In
+core_GUI_Shop_Tylan_Out
+core_GUI_Shop_Tylan_Return
+core_GUI_Shop_Umi_Heal
+core_GUI_Shop_Umi_In
+core_GUI_Shop_Umi_Out
+core_GUI_Shop_Umi_Return
+core_GUI_Shop_Unlock_Content_In
+core_GUI_Shop_Unlock_Content_Out
+core_GUI_Shop_Window_Open
+core_GUI_Title_AbyssRoad_Window_In
+core_GUI_Title_AbyssRoad_Window_Out
+core_GUI_Title_Archive_In
+core_GUI_Title_Archive_Out
+core_GUI_Title_Archive_Page
+core_GUI_Title_Archive_Window_In
+core_GUI_Title_Archive_Window_Out
+core_GUI_Title_Cancel
+core_GUI_Title_Chapterselect_AllResult_In
+core_GUI_Title_Chapterselect_AllResult_Out
+core_GUI_Title_Chapterselect_In
+core_GUI_Title_Chapterselect_Out
+core_GUI_Title_Confirm
+core_GUI_Title_Cursor
+core_GUI_Title_License_In
+core_GUI_Title_License_Out
+core_GUI_Title_LogoAppear
+core_GUI_Title_Menu_Open
+core_GUI_Title_NewGame_In
+core_GUI_Title_NewGame_Out
+core_GUI_Title_No_Access
+core_GUI_Title_PopUpMenu_In
+core_GUI_Title_PopUpMenu_Out
+core_GUI_Title_PushAnyButton
+core_GUI_Title_Record_In
+core_GUI_Title_Record_Out
+core_GUI_Title_Sortie_In
+core_GUI_Title_Sortie_Out
+core_GUI_Title_Switch
+core_GUI_Title_Window_Open
+core_GUI_Training_Accessory_Equip
+core_GUI_Training_Accessory_Unequip
+core_GUI_Training_Cancel
+core_GUI_Training_Character_In
+core_GUI_Training_Character_Out
+core_GUI_Training_Confirm
+core_GUI_Training_Cursor
+core_GUI_Training_Enemy_List_Open
+core_GUI_Training_Menu_In
+core_GUI_Training_Menu_Out
+core_GUI_Training_No_Access
+core_GUI_Training_PopUpMenu_In
+core_GUI_Training_PopUpMenu_Out
+core_GUI_Training_Skill_In
+core_GUI_Training_Skill_Out
+core_GUI_Training_Slider_Loop
+core_GUI_Tutorial_Success
+core_GUI_Tutorial_Window_In
+core_GUI_Tutorial_Window_Out
+core_GUI_Tutorial_Window_Page
+core_GUI_WpTutorial_In
+core_GUI_WpTutorial_Out
+core_GUI_WpTutorial_Weapon_Window
+core_Hit_armour_Sword_l
+core_Hit_armour_Sword_s
+core_Hit_Collision_ARROW
+core_Hit_Collision_Bullet
+core_Hit_Collision_FuumaShuriken_L
+core_Hit_Collision_FuumaShuriken_S
+core_Hit_Collision_Kunai
+core_Hit_Collision_LaserBullet
+core_Hit_Collision_Shuriken
+core_Hit_Collision_Shuriken_Flip
+core_Hit_des_Explosion
+core_Hit_des_Shuriken
+core_Hit_des_Sword_l
+core_Hit_des_Sword_s
+core_Hit_FF_Gore_Bullet
+core_Hit_FF_Gore_Shuriken
+core_Hit_FF_Gore_Smash
+core_Hit_FF_Gore_Sword
+core_Hit_Gore_FuumaShuriken
+core_Hit_Gore_Nimpo
+core_Hit_Gore_Shuriken_s
+core_Hit_Gore_Shuriken_SA
+core_Hit_Gore_Spear_L
+core_Hit_Gore_Spear_S
+core_Hit_Gore_Staff_L
+core_Hit_Gore_Staff_S
+core_Hit_Gore_Sword_l
+core_Hit_Gore_Sword_Parts_Cut
+core_Hit_Gore_Sword_s
+core_Hit_Gore_Sword_SA
+core_Hit_KillConfirm_Gore_Smash
+core_Hit_Machine_FuumaShuriken
+core_Hit_Machine_Nimpo
+core_Hit_Machine_Shuriken_S
+core_Hit_Machine_Spear_L
+core_Hit_Machine_Spear_S
+core_Hit_Machine_Staff_L
+core_Hit_Machine_Staff_S
+core_Hit_Machine_Sword_L
+core_Hit_Machine_Sword_S
+core_Hit_pl_Bite
+core_Hit_pl_Bullet
+core_Hit_pl_Claw_S
+core_Hit_pl_Claw_S_Cine
+core_Hit_pl_Explosion_S
+core_Hit_pl_Generic
+core_Hit_pl_Kunai_S
+core_Hit_pl_LaserBullet_S
+core_Hit_pl_Shuriken_L
+core_Hit_pl_Shuriken_S
+core_Hit_pl_Smash_L
+core_Hit_pl_Smash_S
+core_Hit_pl_Sword_L
+core_Hit_pl_Sword_L_Cine
+core_Hit_pl_Sword_S
+core_Hit_pl_Sword_S_Cine
+core_Hit_pl_Umbrella
+core_Hit_plant_l
+core_Hit_plant_S
+core_Hit_Smash_S
+core_HUD_AbyssRoad_Clear_In
+core_HUD_AbyssRoad_Clear_Out
+core_HUD_AbyssRoad_Phase_In
+core_HUD_AbyssRoad_Phase_Out
+core_HUD_AbyssRoad_Reward_In
+core_HUD_AbyssRoad_Reward_Item
+core_HUD_AbyssRoad_Reward_Letter
+core_HUD_AbyssRoad_Reward_Out
+core_HUD_AbyssRoad_Start_In
+core_HUD_AbyssRoad_Start_Out
+core_HUD_AreaName_filter
+core_HUD_AreaName_In
+core_HUD_AreaName_Out
+core_HUD_ChallengeMission_Clear_In
+core_HUD_ChallengeMission_Clear_Out
+core_HUD_ChallengeMission_Failed_In
+core_HUD_ChallengeMission_Failed_Out
+core_HUD_ChallengeMission_Reward_In
+core_HUD_ChallengeMission_Reward_Out
+core_HUD_ChallengeMission_Start_In
+core_HUD_ChallengeMission_Start_Out
+core_HUD_checkpoint_Activate
+core_HUD_checkpoint_Interact
+core_HUD_Credit_Creator_End
+core_HUD_Credit_Creator_Start
+core_HUD_Credit_Director_End
+core_HUD_Credit_Director_Stert
+core_HUD_Credit_End
+core_HUD_Credit_Start
+core_HUD_Em_Lockon
+core_HUD_Get_Item
+core_HUD_Get_Item_First_In
+core_HUD_Get_Item_First_Out
+core_HUD_Get_NinjaTool
+core_HUD_Get_NinjaTool_In
+core_HUD_Get_NinjaTool_Out
+core_HUD_Get_NinjaTool_Window_Open
+core_HUD_HP_Low
+core_HUD_Hyotan_Acquire_In
+core_HUD_Hyotan_Acquire_Out
+core_HUD_Hyotan_Disappear
+core_HUD_Hyotan_End
+core_HUD_Hyotan_Fail
+core_HUD_Hyotan_Get
+core_HUD_Hyotan_Push_Button
+core_HUD_Hyotan_Push_Button_Last
+core_HUD_Hyotan_Push_Button_Miss
+core_HUD_Hyotan_Start
+core_HUD_Hyotan_Success
+core_HUD_Interact
+core_HUD_Interact_Shop
+core_HUD_ItemMenu_BloodGauge_Heal
+core_HUD_ItemMenu_BloodGauge_Regene
+core_HUD_ItemMenu_Buff_Attack
+core_HUD_ItemMenu_Buff_Defence
+core_HUD_ItemMenu_Confirm
+core_HUD_ItemMenu_Cursor
+core_HUD_ItemMenu_Heal_L
+core_HUD_ItemMenu_Heal_M
+core_HUD_ItemMenu_Heal_Regene
+core_HUD_ItemMenu_Heal_S
+core_HUD_ItemMenu_In
+core_HUD_ItemMenu_No_Access
+core_HUD_ItemMenu_Out
+core_HUD_LogoAppear
+core_HUD_Mission_Complete
+core_HUD_Rengoku_Clear
+core_HUD_Rengoku_Phase_Count
+core_HUD_Rengoku_Phase_In
+core_HUD_Rengoku_Phase_Out
+core_HUD_Rengoku_Reward_In
+core_HUD_Rengoku_Reward_Out
+core_HUD_Rengoku_Start_In
+core_HUD_Rengoku_Start_Out
+core_HUD_Resurrect
+core_HUD_Text_Push_Button
+core_HUD_Topics_Clear_In
+core_HUD_Topics_Clear_Out
+core_HUD_Training_Technique_List
+core_HUD_Tutorial_Notice_Gauge
+core_HUD_Wanted_Complete
+core_HUD_Wanted_Start
+core_HUD_Weapon_Technique
+core_HUD_Weapon_Technique_First
+core_Item_Pickup_Essence_L
+core_Item_Pickup_Essence_M
+core_Item_Pickup_Essence_S
+core_Item_Pickup_General
+core_Item_Pickup_item
+core_Item_Pickup_StaminaCoin
+core_pl_Atk_Bloodbath
+core_pl_Atk_kick
+core_pl_Atk_Obliteration_Charge_Loop
+core_pl_Combo_Final_Sign
+core_pl_Focus_Stealth_In
+core_pl_Focus_Stealth_Out
+core_pl_Focus_Time_Slow_In
+core_pl_Focus_Time_Slow_Out
+core_pl_Gauge_Charge
+core_pl_Gauge_Filter_Out
+core_pl_Gauge_Max
+core_pl_Mvt_BloodSpatter
+core_pl_Mvt_Water_Splash
+core_pl_Shop_Umi_Heal
+core_pl_UI_KillConfirm
+core_pl_UI_KillConfirm_boss
+core_pl_UI_Poisoned_End
+core_pl_UI_Poisoned_Start
+core_pl_Weapon_Change_Anki
+core_pl_Weapon_Change_Shadow
+core_pl_Weapon_Change_Spear
+core_pl_Weapon_Change_Staff
+core_pl_Weapon_Change_Sword
+core_SAW_Training_Enemy
+core_Sound_Test_SFX
+Credit_EndLs
+cutscene_master_clock
+em0000_Atk_Charge_Whoosh_assured
+em0000_Dmg_Bodyfall_small_timeline
+em0350_Voc_Dmg_fall_jog
+em1000_Mvt_Foley_Slow_exact
+em1000_Vo_bridge_restart
+em1100_Mvt_Jump_packed
+em1400_Mvt_Foley_Cine_few
+em_Ryu_Obliteration_Charge_Loop
+Global_Sys_Output_Headphones
+Global_Sys_Output_Mono
+Global_Sys_Output_Stereo
+Global_Sys_Output_Surround
+mute_core_Hit_Gore_Sword_l
+mute_core_Hit_Gore_Sword_Parts_Cut
+pl0000_AM_Atk_Charge_L_Activation
+pl0000_AM_Atk_Charge_L_Dash
+pl0000_AM_Atk_Charge_L_End
+pl0000_AM_atk_kick
+pl0000_GL_Atk_Charge_L
+pl0000_GL_Atk_Charge_Loop
+pl0000_GL_Atk_Charge_M
+pl0000_GL_Atk_Charge_s
+pl0000_GL_Atk_Grab
+pl0000_GL_Atk_Grab_throw
+pl0000_GL_EngineEvents
+pl0000_GL_Hook_Attach
+pl0000_GL_Mvt_Foley_58606
+pl0000_GL_Mvt_Foley_Gzombie11
+pl0000_GL_Mvt_Grind_Boost
+pl0000_GL_Mvt_Grind_Boost_End
+pl0000_GL_Mvt_Grind_Boost_Loop
+pl0000_GL_Mvt_Grind_Land
+pl0000_GL_Mvt_Grind_Loop
+pl0000_GL_Mvt_Rail_Slide
+pl0000_GL_Mvt_Slide_Loop
+pl0000_GL_Mvt_Slide_start
+pl0000_GL_Mvt_Slide_Stop
+pl0000_GL_Mvt_swing
+pl0000_GL_NYRISSAAMBUSH
+pl0000_Mvt_teleport
+pl0500_Mvt_Rail_Wind_Loop
+pl0500_Mvt_Surfing_Wind_Loop
+pl0500_Mvt_teleport
+pl0500_Nimpo_Change_EnergyBall
+pl0500_Nimpo_Change_Fireball
+pl0500_Nimpo_Change_Firebird
+pl0500_Nimpo_Change_Wind
+pl0500_Vo_Dmg_officerB
+se_pl_Focus_Time_Slow_In
+se_pl_Focus_Time_Slow_Out
+SE_Sys_AbyssRoad_Clear_In
+SE_Sys_AbyssRoad_Clear_Out
+SE_Sys_AbyssRoad_In
+SE_Sys_AbyssRoad_Out
+SE_Sys_AbyssRoad_Return_In
+SE_Sys_AbyssRoad_Return_Out
+SE_Sys_AbyssRoad_Reward_In
+SE_Sys_AbyssRoad_Reward_Out
+SE_Sys_All_Result_In
+SE_Sys_All_Result_Out
+SE_Sys_Amb_Fade_Out
+SE_Sys_AutoPlay_Menu_In
+SE_Sys_AutoPlay_Menu_Out
+SE_Sys_BackToTitle
+SE_Sys_Battle_in
+SE_Sys_Battle_Out
+SE_Sys_bloodbath_Out
+SE_Sys_ChallengeMission_In
+SE_Sys_ChallengeMission_Out
+SE_Sys_ChallengeMission_Reward_In
+SE_Sys_ChallengeMission_Reward_Out
+SE_Sys_checkpoint_In
+SE_Sys_checkpoint_Out
+SE_Sys_Cinematics_Fade_Skip_In
+SE_Sys_Cinematics_Fade_Skip_Out
+SE_Sys_Cinematics_In
+SE_Sys_Cinematics_Out
+SE_Sys_Cinematics_Pause_In
+SE_Sys_Cinematics_Pause_Out
+SE_Sys_Cinematics_Skip
+SE_Sys_Club_1_Display_Power_Off
+SE_Sys_Club_1_Display_Power_On
+SE_Sys_Darkness_In
+SE_Sys_Darkness_Out
+SE_Sys_Dialogue_Pause
+SE_Sys_Dialogue_Resume
+SE_Sys_Dialogue_Stop
+SE_Sys_Ending_Credit_In
+SE_Sys_Ending_Credit_Out
+SE_Sys_Function_Tutorial_In
+SE_Sys_Function_Tutorial_Out
+SE_Sys_fx_In
+SE_Sys_fx_Out
+SE_Sys_GameOver_In
+SE_Sys_GameOver_Out
+SE_Sys_Get_Item_First_In
+SE_Sys_Get_Item_First_Out
+SE_Sys_gmc_Cinematics_Skip_In
+SE_Sys_Help_In
+SE_Sys_Help_Out
+SE_Sys_HP_Low_In
+SE_Sys_HP_Low_Out
+SE_Sys_HP_Up_In
+SE_Sys_HP_Up_Out
+SE_Sys_Hyotan_End
+SE_Sys_Hyotan_Start
+SE_Sys_init
+SE_Sys_ItemMenu_In
+SE_Sys_ItemMenu_Out
+SE_Sys_KillConfirm_boss_In
+SE_Sys_KillConfirm_boss_Out
+SE_Sys_KillConfirm_In
+SE_Sys_KillConfirm_Out
+SE_Sys_LastBattle_Asuka_In
+SE_Sys_LastBattle_Asuka_Out
+SE_Sys_Load_in
+SE_Sys_Load_Out
+SE_Sys_Menu_In
+SE_Sys_Menu_Out
+SE_Sys_Obliteration_In
+SE_Sys_Obliteration_Out
+SE_Sys_Photomode_in
+SE_Sys_Photomode_Out
+SE_Sys_Rengoku_Cinematics_In
+SE_Sys_Rengoku_Cinematics_Out
+SE_Sys_Rengoku_In
+SE_Sys_Rengoku_Out
+SE_Sys_Rengoku_Phase_In
+SE_Sys_Rengoku_Phase_Out
+SE_Sys_Rengoku_Result_In
+SE_Sys_Rengoku_Result_Out
+SE_Sys_Rengoku_Retry
+SE_Sys_Restart_Fall
+SE_Sys_Restart_Fall_Start
+SE_Sys_Result_In
+SE_Sys_Result_Out
+SE_Sys_Resurrect_In
+SE_Sys_Resurrect_Out
+SE_Sys_Revival_PopUpMenu_In
+SE_Sys_Revival_PopUpMenu_Out
+SE_Sys_Save_Load_In
+SE_Sys_Save_Load_Out
+SE_Sys_Shop_Tyran_Out
+SE_Sys_Shop_Umi_In
+SE_Sys_Shop_Umi_Out
+SE_Sys_Shortcut_Window_In
+SE_Sys_Shortcut_Window_Out
+SE_Sys_Slow_In
+SE_Sys_Slow_Out
+SE_Sys_SubCine_In
+SE_Sys_SubCine_Out
+SE_Sys_SubCine_Skip
+SE_Sys_SubCinematics_Pause_In
+SE_Sys_SubCinematics_Pause_Out
+SE_Sys_Technique_Tutorial_In
+SE_Sys_Technique_Tutorial_Out
+SE_Sys_Title_in
+SE_Sys_Title_out
+SE_Sys_Topics_Clear_In
+SE_Sys_Topics_Clear_Out
+SE_Sys_Training_In
+SE_Sys_Training_Menu_In
+SE_Sys_Training_Menu_Out
+SE_Sys_Training_Out
+SE_Sys_Tutorial_Window_In
+SE_Sys_Tutorial_Window_Out
+SE_Sys_Weapon_Technique_In
+SE_Sys_Weapon_Technique_Out
+SE_Sys_WpTutorial_In
+SE_Sys_WpTutorial_Out
+shrine_a00_01_AAAf
+shrine_a00_01_AAAX
+shrine_a00_01_AAAy
+st_LEAVE_stop
+Stop_core_em_Grenade_Alert_Loop
+Stop_core_em_Shuriken_L_PassBy
+Stop_core_em_Shuriken_S_PassBy
+Stop_core_GUI_AllResult_Chapter_List
+Stop_core_GUI_AllResult_Count_Loop
+Stop_core_GUI_Audio_Slider_Loop
+Stop_core_GUI_GameOver_Glitch_Loop
+Stop_core_GUI_General_Slider_Loop
+Stop_core_GUI_Inventory_Item_Hold
+Stop_core_GUI_Item_HP_Up_Gauge_Loop
+Stop_core_GUI_PhotoMode_Slider_Loop
+Stop_core_GUI_Result_Count_Loop
+Stop_core_GUI_Shop_Technique_Hold
+Stop_core_GUI_Training_Slider_Loop
+stop_core_Hit_Gore_Sword_l
+Stop_core_pl_Atk_Obliteration_Charge_Loop
+Stop_core_Sound_Test_SFX
+Stop_em_Ryu_Obliteration_Charge_Loop
+Stop_pl0000_GL_Atk_Charge_L
+Stop_pl0000_GL_Atk_Charge_Loop
+Stop_pl0000_GL_Atk_Charge_M
+Stop_pl0000_GL_Atk_Charge_s
+Stop_pl0000_GL_Mvt_Grind_Loop
+stop_pl0000_GL_Mvt_Slide_Loop
+Stop_pl0500_Mvt_Rail_Wind_Loop
+Stop_pl0500_Mvt_Surfing_Wind_Loop
+# 17737942
+# 54381349
+# 57866962
+# 105323687
+# 105323704
+# 105323705
+# 115210576
+# 136394920
+# 136394921
+# 136394934
+# 191368615
+# 222148695
+# 229751871
+# 245518380
+# 254168369
+# 294382030
+# 371869329
+# 413214801
+# 436033710
+# 452886571
+# 485329089
+# 510609394
+# 575100704
+# 575100706
+# 575100707
+# 587440967
+# 592791029
+# 646092556
+# 697984667
+# 734042821
+# 734042842
+# 742428337
+# 745953485
+# 745953490
+# 745953491
+# 776665885
+# 776665886
+# 776665887
+# 797582720
+# 804071970
+# 812856545
+# 814473487
+# 814473488
+# 817148183
+# 817803751
+# 859870055
+# 874459612
+# 909082107
+# 930713000
+# 937082032
+# 1016945599
+# 1028379641
+# 1031312094
+# 1034001078
+# 1044950492
+# 1084238933
+# 1098514412
+# 1102543235
+# 1108896174
+# 1132499476
+# 1144283796
+# 1145333940
+# 1156542783
+# 1172820152
+# 1222337053
+# 1228977617
+# 1263852758
+# 1265306021
+# 1327663102
+# 1360435209
+# 1360435222
+# 1360435223
+# 1372925188
+# 1400930390
+# 1416624373
+# 1452030456
+# 1512424357
+# 1566770126
+# 1602362854
+# 1602362872
+# 1602362873
+# 1607211977
+# 1732538316
+# 1744467531
+# 1753813920
+# 1788405055
+# 1796542486
+# 1807188206
+# 1807188208
+# 1807188209
+# 1872486177
+# 1872486206
+# 1872486207
+# 1928638703
+# 1951150100
+# 2003419936
+# 2005571879
+# 2016699779
+# 2027693941
+# 2036171363
+# 2038222799
+# 2057926450
+# 2061400920
+# 2120446769
+# 2120560320
+# 2120560323
+# 2134900523
+# 2139995618
+# 2139995644
+# 2139995645
+# 2143741197
+# 2161379557
+# 2166605063
+# 2178939324
+# 2209322459
+# 2214563846
+# 2218256498
+# 2264161955
+# 2267607731
+# 2312628334
+# 2318169785
+# 2328859843
+# 2334477098
+# 2376780074
+# 2376780084
+# 2376780085
+# 2446965505
+# 2467670752
+# 2483149071
+# 2493434333
+# 2494015808
+# 2494015809
+# 2494015839
+# 2495716795
+# 2497383944
+# 2517045371
+# 2524218441
+# 2554702921
+# 2561402179
+# 2587247487
+# 2599565143
+# 2608616043
+# 2629549835
+# 2706003340
+# 2755033933
+# 2794398928
+# 2805496147
+# 2817151010
+# 2817151011
+# 2817151037
+# 2838592031
+# 2863415806
+# 2876514053
+# 2881718877
+# 2894174769
+# 2939489875
+# 2966266030
+# 2968481665
+# 3020864430
+# 3079956381
+# 3087739404
+# 3087739405
+# 3087739410
+# 3112977088
+# 3136422111
+# 3149238735
+# 3152055608
+# 3159750231
+# 3167210482
+# 3180424281
+# 3199310763
+# 3211439182
+# 3235889809
+# 3243678872
+# 3270383573
+# 3277390590
+# 3302593879
+# 3305516755
+# 3314757768
+# 3347466805
+# 3357676504
+# 3362908388
+# 3372244572
+# 3438738845
+# 3446646205
+# 3455348888
+# 3479565538
+# 3501855962
+# 3510187659
+# 3511538757
+# 3515701073
+# 3516581818
+# 3560327556
+# 3580923653
+# 3641276765
+# 3645486982
+# 3731853550
+# 3731853551
+# 3731853553
+# 3743269940
+# 3743591233
+# 3752774091
+# 3766476770
+# 3796509176
+# 3812681550
+# 3831057776
+# 3854724914
+# 3878712867
+# 3888003440
+# 3928146849
+# 3942266181
+# 3946401401
+# 3980457628
+# 4019192000
+# 4074646932
+# 4078949092
+# 4104219728
+# 4132530380
+# 4195467877
+
+### SFX NAMES (3787826988.bnk: core)
+fx_indoor_cave
+fx_indoor_LARGE_cave
+fx_indoor_large_concrete
+fx_indoor_large_hall
+fx_indoor_large_tunnel
+fx_indoor_large_wood
+fx_indoor_Medium_concrete
+fx_indoor_Medium_hall
+fx_indoor_Medium_wood
+fx_indoor_pyramid
+fx_indoor_small_concrete
+fx_indoor_small_Train
+fx_indoor_small_tunnel
+fx_indoor_small_wood
+fx_outdoor_abyss
+fx_Outdoor_alley
+fx_outdoor_forest
+fx_Outdoor_large_hell
+fx_Outdoor_large_valley
+fx_outdoor_open
+fx_Outdoor_small_valley
+# 795547936
+# 882490190
+# 1212366223
+# 1385422177
+# 2232990084
+# 2275000775
+# 2894250110
+# 3158315126
+# 3577361235
+
+### RTPC/GAME-VARIABLE NAMES (3787826988.bnk: core)
+se_azimuth
+SE_pl0000_Sliding_Speed
+se_pl_Obliteration_Charge
+# 1212366223
+# 3158315126
+
+### VARIABLE NAMES (3787826988.bnk: core)
+se_AbyssRoad_Clear
+se_AbyssRoad_Return
+se_All_Result
+se_battle
+se_bloodbath
+se_ChallengeMission
+SE_Character_Type
+SE_Cinematic_Fade_Skip
+se_Cinematics
+se_Cinematics_ambience
+se_Club_1_Display
+se_darkness
+se_Ending_Credit
+se_Function_Tutorial
+se_fx
+se_gameover
+se_gmc_Cinematics_Skip
+se_help
+se_Hit
+se_KillConfirm
+se_KillConfirm_boss
+se_LastBattle_Asuka
+SE_Load
+se_menu
+se_mute_ambience
+se_Photomode
+SE_PhysicalMaterialType
+SE_pl0000_Mode
+SE_Player_Type
+SE_Rail_MaterialType
+se_Rengoku
+se_Rengoku_Cinematics
+se_Rengoku_Phase
+se_Rengoku_Result
+SE_Result
+se_resurrect
+se_Return
+se_Revival_PopUpMenu
+se_Shop
+se_Shortcut_Window
+se_Slow
+se_SubCine
+se_Technique_Tutorial
+se_title
+se_training
+SE_Tutorial
+se_Tylan_Shop
+se_Weapon_Technique
+# 3599749353
+
+### VALUE NAMES (3787826988.bnk: core)
+armour
+Cloth
+Concrete
+default
+Dry_Metal
+enemy
+ford
+grass
+HellSand
+HellWater
+in
+indoor
+Metal
+MetalPipe
+Momiji
+money
+none
+normal
+off
+on
+out
+outdoor
+player
+Puddle
+Rock
+rope
+Rubble
+Ryu
+RyujinMetal
+Soil
+tile
+timber
+Water
+weapon
+WetCloth
+WetConcrete
+WetGrass
+WetHellSand
+WetMetal
+WetMetalPipe
+WetMomiji
+WetMoney
+WetRock
+WetRubble
+WetRyujinMetal
+WetSoil
+WetTile
+WetTimber
+WetWireMesh
+WetWood
+WireMesh
+Wood
+Yakumo
+# 731394211
+# 2524792854
+
+### EVENT NAMES (244884247.bnk: des_Antenna_M)
+des_Antenna_M_Break
+
+### RTPC/GAME-VARIABLE NAMES (244884247.bnk: des_Antenna_M)
+se_azimuth
+
+### EVENT NAMES (2311814050.bnk: des_Bamboo_M)
+des_Bamboo_M_Break
+
+### RTPC/GAME-VARIABLE NAMES (2311814050.bnk: des_Bamboo_M)
+se_azimuth
+
+### EVENT NAMES (2039609480.bnk: des_BinMetal_S)
+des_BinMetal_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (2039609480.bnk: des_BinMetal_S)
+se_azimuth
+
+### EVENT NAMES (1285850565.bnk: des_BottleGlassCrash_S)
+des_BottleGlassCrash_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (1285850565.bnk: des_BottleGlassCrash_S)
+se_azimuth
+
+### EVENT NAMES (2222855308.bnk: des_BottleGlass_S)
+des_BottleGlass_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (2222855308.bnk: des_BottleGlass_S)
+se_azimuth
+
+### EVENT NAMES (4216863869.bnk: des_CardboardBox_S)
+des_CardboardBox_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (4216863869.bnk: des_CardboardBox_S)
+se_azimuth
+
+### EVENT NAMES (3015319199.bnk: des_Ceramics_S)
+des_Ceramics_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (3015319199.bnk: des_Ceramics_S)
+se_azimuth
+
+### EVENT NAMES (2205600949.bnk: des_Concrete_S)
+des_Concrete_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (2205600949.bnk: des_Concrete_S)
+se_azimuth
+
+### EVENT NAMES (3123988694.bnk: des_ContainerWood_S)
+des_ContainerWood_S_Break
+des_ContainerWood_S_Hit
+
+### RTPC/GAME-VARIABLE NAMES (3123988694.bnk: des_ContainerWood_S)
+se_azimuth
+
+### EVENT NAMES (4016657064.bnk: des_Crystal_M)
+des_Crystal_M_Break
+
+### RTPC/GAME-VARIABLE NAMES (4016657064.bnk: des_Crystal_M)
+se_azimuth
+
+### EVENT NAMES (2062120385.bnk: des_DeadCoral_S)
+des_DeadCoral_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (2062120385.bnk: des_DeadCoral_S)
+se_azimuth
+
+### EVENT NAMES (4108937364.bnk: des_Drum_S)
+des_Drum_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (4108937364.bnk: des_Drum_S)
+se_azimuth
+
+### EVENT NAMES (1195099111.bnk: des_MetalStand_S)
+des_MetalStand_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (1195099111.bnk: des_MetalStand_S)
+se_azimuth
+
+### EVENT NAMES (1980039587.bnk: des_Metal_M)
+des_Metal_M_Break
+
+### RTPC/GAME-VARIABLE NAMES (1980039587.bnk: des_Metal_M)
+se_azimuth
+
+### EVENT NAMES (2043583483.bnk: des_Metal_NonDestructive_S)
+des_Metal_NonDestructive_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (2043583483.bnk: des_Metal_NonDestructive_S)
+se_azimuth
+
+### EVENT NAMES (1980039613.bnk: des_Metal_S)
+des_Metal_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (1980039613.bnk: des_Metal_S)
+se_azimuth
+
+### EVENT NAMES (2145497582.bnk: des_Metal_XL)
+des_Metal_XL_Break
+
+### RTPC/GAME-VARIABLE NAMES (2145497582.bnk: des_Metal_XL)
+se_azimuth
+
+### EVENT NAMES (769149223.bnk: des_OffertoryBox_M)
+des_OffertoryBox_M_Break
+des_OffertoryBox_M_Hit
+
+### RTPC/GAME-VARIABLE NAMES (769149223.bnk: des_OffertoryBox_M)
+se_azimuth
+
+### EVENT NAMES (3660888915.bnk: des_Ofuda_M)
+des_Ofuda_M_Break
+
+### RTPC/GAME-VARIABLE NAMES (3660888915.bnk: des_Ofuda_M)
+se_azimuth
+
+### EVENT NAMES (2115787977.bnk: des_PlasticCrate_S)
+des_PlasticCrate_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (2115787977.bnk: des_PlasticCrate_S)
+se_azimuth
+
+### EVENT NAMES (3726891596.bnk: des_Rock_L)
+des_Rock_L_Break
+
+### RTPC/GAME-VARIABLE NAMES (3726891596.bnk: des_Rock_L)
+se_azimuth
+
+### EVENT NAMES (3726891597.bnk: des_Rock_M)
+des_Rock_M_Break
+# 2834309976
+# 2834309979
+
+### RTPC/GAME-VARIABLE NAMES (3726891597.bnk: des_Rock_M)
+se_azimuth
+
+### EVENT NAMES (3726891603.bnk: des_Rock_S)
+des_Rock_S_Break
+des_Rock_S_Hit
+
+### RTPC/GAME-VARIABLE NAMES (3726891603.bnk: des_Rock_S)
+se_azimuth
+
+### EVENT NAMES (1636974398.bnk: des_StandLight_M)
+des_StandLight_M_Break
+
+### RTPC/GAME-VARIABLE NAMES (1636974398.bnk: des_StandLight_M)
+se_azimuth
+
+### EVENT NAMES (2790149524.bnk: des_StoreSign_S)
+des_StoreSign_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (2790149524.bnk: des_StoreSign_S)
+se_azimuth
+
+### EVENT NAMES (1416078770.bnk: des_TrafficCone_S)
+des_TrafficCone_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (1416078770.bnk: des_TrafficCone_S)
+se_azimuth
+
+### EVENT NAMES (3835500100.bnk: des_TrashBag_S)
+des_TrashBag_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (3835500100.bnk: des_TrashBag_S)
+se_azimuth
+
+### EVENT NAMES (4127471138.bnk: des_Wagasa_M)
+des_Wagasa_M_Break
+
+### RTPC/GAME-VARIABLE NAMES (4127471138.bnk: des_Wagasa_M)
+se_azimuth
+
+### EVENT NAMES (1697404110.bnk: des_Warhead_M)
+des_Warhead_M_Break
+
+### RTPC/GAME-VARIABLE NAMES (1697404110.bnk: des_Warhead_M)
+se_azimuth
+
+### EVENT NAMES (3326274700.bnk: des_Wood_L)
+des_Wood_L_Break
+des_Wood_L_Hit
+
+### RTPC/GAME-VARIABLE NAMES (3326274700.bnk: des_Wood_L)
+se_azimuth
+
+### EVENT NAMES (3326274707.bnk: des_Wood_S)
+des_Wood_S_Break
+
+### RTPC/GAME-VARIABLE NAMES (3326274707.bnk: des_Wood_S)
+se_azimuth
+
+### EVENT NAMES (3274633492.bnk: des_WoodenGate_L)
+des_WoodenGate_L_Break
+
+### RTPC/GAME-VARIABLE NAMES (3274633492.bnk: des_WoodenGate_L)
+se_azimuth
+
+### EVENT NAMES (2418157504.bnk: door_AutomaticGate)
+door_AutomaticGate_Close
+door_AutomaticGate_Open
+
+### EVENT NAMES (2177808442.bnk: door_CitySlow)
+door_CitySlow_Open
+# 3511046606
+
+### EVENT NAMES (17694849.bnk: door_CityTest)
+door_CityTest_Open
+
+### EVENT NAMES (1685206220.bnk: door_City_Gate_L)
+door_MetalGate_Open
+
+### EVENT NAMES (869498077.bnk: door_City_MetalSliding)
+door_City_MetalSliding_Open
+
+### RTPC/GAME-VARIABLE NAMES (869498077.bnk: door_City_MetalSliding)
+se_azimuth
+
+### EVENT NAMES (22275449.bnk: door_City_Sliding_Door)
+door_SlidingDoor_Close
+
+### EVENT NAMES (422880431.bnk: door_City_Wood)
+door_wood_open
+
+### EVENT NAMES (1986143056.bnk: door_RailDoor)
+door_RailDoor_Open
+
+### EVENT NAMES (769108390.bnk: door_Sentinel_TicketGate)
+door_Sentinel_TicketGate_Close
+door_Sentinel_TicketGate_error
+door_Sentinel_TicketGate_Open
+
+### RTPC/GAME-VARIABLE NAMES (769108390.bnk: door_Sentinel_TicketGate)
+se_azimuth
+
+### EVENT NAMES (195929332.bnk: door_ShrineLottery)
+door_ShrineLottery_Open
+
+### EVENT NAMES (3981628090.bnk: door_Shrine_WoodenDoor)
+door_Shrine_WoodenDoor_Open
+
+### EVENT NAMES (320182142.bnk: door_TrainTest)
+door_TrainTest_Open
+
+### EVENT NAMES (3896930524.bnk: em0000_JetPack)
+em0000_Dmg_JetPack_Explode
+em0000_Dmg_JetPack_fall
+em0000_Mvt_JetPack_Loop
+stop_em0000_Mvt_JetPack_Loop
+# 2310711265
+
+### RTPC/GAME-VARIABLE NAMES (3896930524.bnk: em0000_JetPack)
+se_azimuth
+se_azimuth_amb
+SE_Elevation
+SE_Mvt_Speed
+SE_Mvt_Speed_Interpolation
+
+### VARIABLE NAMES (3896930524.bnk: em0000_JetPack)
+# 3205849744
+
+### VALUE NAMES (3896930524.bnk: em0000_JetPack)
+fast
+slow
+
+### EVENT NAMES (3827399449.bnk: em0035_cannon)
+em0035_Atk_Cannon_Bom_Shot
+em0035_Atk_Cannon_Bom_Shot_CHARGE
+em0035_Atk_Cannon_Bom_Shot_Exp
+em0035_ATK_Cannon_Bom_Shot_Fly_One_Shot
+em0035_Atk_Cannon_Bom_Shot_Split
+em0035_Atk_Cannon_Normal_Shot
+em0035_Atk_Cannon_Normal_Shot_Exp
+em0035_Atk_Cannon_Normal_Shot_PassBy
+em0035_Atk_Cannon_Special_Shot
+em0035_Atk_Cannon_Special_Shot_CHARGE
+em0035_Atk_Cannon_Special_Shot_Exp
+em0035_Atk_Cannon_Special_Shot_PassBy
+em0035_Atk_Cannon_tackle
+em0035_mvt_cannon_release
+em0035_mvt_cannon_Set
+Stop_em0035_Atk_Cannon_Normal_Shot_PassBy
+Stop_em0035_Atk_Cannon_Special_Shot_PassBy
+# 1758539193
+# 3650058911
+
+### RTPC/GAME-VARIABLE NAMES (3827399449.bnk: em0035_cannon)
+se_azimuth
+
+### EVENT NAMES (1048645695.bnk: em0040)
+em0040_atk_Boost
+em0040_atk_jump
+em0040_atk_rush
+em0040_Atk_slam_Impact
+em0040_Atk_slam_Whoosh
+em0040_atk_slash
+em0040_atk_thrust
+em0040_Dmg_Bodyfall_s
+em0040_Dmg_Bodyfall_s_Cine
+em0040_Dmg_bodyroll
+em0040_Dmg_FallKnee
+em0040_FS_run
+em0040_FS_run_Cine
+em0040_FS_walk
+em0040_FS_walk_Cine
+em0040_Mvt_Foley_m
+em0040_Mvt_Foley_m_Cine
+em0040_Mvt_Foley_S
+em0040_Mvt_Foley_S_Cine
+em0040_Mvt_Rod_Foley
+em0040_Mvt_Rod_Whoosh
+em0040_Mvt_turn
+em0040_Mvt_Wing
+em0040_Mvt_Wing_Open
+em0040_Voc_Atk_m
+em0040_Voc_Atk_S
+em0040_Voc_Dmg_death
+em0040_Voc_Dmg_M
+em0040_Voc_Dmg_S
+em0040_Voc_Mvt_alert
+em0040_Voc_Stage_Fly
+# 51029232
+# 581864599
+# 1044298982
+# 1392814486
+# 1838290901
+# 3461461616
+# 3811297309
+
+### RTPC/GAME-VARIABLE NAMES (1048645695.bnk: em0040)
+se_azimuth
+SE_Elevation
+SE_em_Head_Lost
+
+### VARIABLE NAMES (1048645695.bnk: em0040)
+SE_em0040_Type
+
+### VALUE NAMES (1048645695.bnk: em0040)
+leader
+normal
+
+### EVENT NAMES (1031867980.bnk: em0050)
+em0050_atk_GRAPPLING
+em0050_atk_HeadButt
+em0050_atk_Whoosh
+em0050_Dmg_Bodyfall
+em0050_Dmg_Bodyfall_Cine
+em0050_Mvt_backflip
+em0050_Mvt_Foley_Medium
+em0050_Mvt_Foley_Slow
+em0050_Mvt_Foley_strong
+em0050_Mvt_Whoosh
+em0050_Voc_atk_GRAPPLING
+em0050_Voc_atk_Growl
+em0050_Voc_Dmg_damage
+em0050_Voc_Dmg_damage_Cine
+em0050_Voc_Dmg_death
+em0050_Voc_Dmg_death_Cine
+em0050_Voc_Mvt_alert
+em0050_Voc_Mvt_Howl
+# 201954638
+# 228362588
+# 430710925
+# 486514362
+# 749089558
+# 1525878230
+# 1731422020
+# 1996551660
+# 2108533052
+# 2288070683
+# 2297165644
+# 2385542422
+# 2658201453
+# 3616214237
+# 3943298654
+# 3953758719
+# 4041266929
+# 4079794698
+
+### RTPC/GAME-VARIABLE NAMES (1031867980.bnk: em0050)
+se_azimuth
+SE_em_Head_Lost
+
+### VARIABLE NAMES (1031867980.bnk: em0050)
+SE_em0050_Type
+
+### VALUE NAMES (1031867980.bnk: em0050)
+leader
+normal
+
+### EVENT NAMES (1082200837.bnk: em0060)
+em0000_Sys_Cinematics_Fade_Skip_In_s
+em0060_Atk_electricity_Charge
+em0060_Atk_electricity_impact
+em0060_Atk_electricity_loop
+em0060_Atk_fist_impact
+em0060_Atk_fist_Whoosh
+em0060_Dmg_Gore_Torso_Land
+em0060_Dmg_impaled_sword_Grab
+em0060_fs_heavy
+em0060_fs_heavy_Cine
+em0060_fs_light
+em0060_fs_light_Cine
+em0060_Mvt_Bodyfall
+em0060_Mvt_Bodyfall_Cine
+em0060_Mvt_Foley_Slow
+em0060_Mvt_Foley_Slow_Cine
+em0060_Mvt_Foley_strong
+em0060_Mvt_Foley_strong_Cine
+em0060_mvt_hand_thud
+em0060_Mvt_Jump
+em0060_mvt_leg_disjoint_bodyfall
+em0060_Voc_Atk_Charge
+em0060_Voc_Atk_Fast
+em0060_Voc_Atk_Slow
+em0060_Voc_Dmg_death
+em0060_Voc_Dmg_death_Cine
+em0060_Voc_Dmg_impaled
+em0060_Voc_Dmg_impaled_Cine
+em0060_Voc_Dmg_impaled_end
+em0060_Voc_Dmg_impaled_end_Cine
+em0060_Voc_Dmg_Stagger
+em0060_Voc_Dmg_Stagger_Cine
+em0300_Spin_Explosion_Voc_atk_p
+em0300_Spin_Explosion_Voc_atk_s
+em0800_Voc_Atk_phase_core_GUI_Select_Window_Out
+em1100_Gate_start_Charge
+stop_em0060_Atk_electricity_loop
+# 36261128
+# 142301385
+# 228046731
+# 228931685
+# 840383581
+# 994890034
+# 1018805990
+# 1200283912
+# 1249439867
+# 1581459727
+# 2626460391
+# 2745050485
+# 2938737770
+# 3172790288
+# 3189963060
+# 3489990478
+# 3532056713
+# 3532056714
+# 3540132360
+# 3567774973
+# 3606655648
+# 3812384345
+# 3917704282
+# 3921897168
+# 4101242084
+# 4189298827
+
+### RTPC/GAME-VARIABLE NAMES (1082200837.bnk: em0060)
+se_azimuth
+SE_em_Head_Lost
+
+### VARIABLE NAMES (1082200837.bnk: em0060)
+SE_em0060_helmet
+SE_em0060_Vo_Variety
+
+### VALUE NAMES (1082200837.bnk: em0060)
+em0060_a
+em0060_b
+em0060_c
+helmet
+# 734304887
+
+### EVENT NAMES (662235291.bnk: em0060_boss)
+em0060_boss_KillConfirm_Charge
+em0060_boss_KillConfirm_Ryu_Foley
+em0060_boss_KillConfirm_Ryu_stab
+em0060_boss_KillConfirm_Ryu_sword_bash
+em0060_boss_KillConfirm_Ryu_whoosh_01
+em0060_boss_KillConfirm_Ryu_whoosh_02
+em0060_boss_KillConfirm_stab
+# 834557018
+# 1260265813
+# 1274088721
+# 2994648900
+
+### RTPC/GAME-VARIABLE NAMES (662235291.bnk: em0060_boss)
+se_azimuth
+
+### EVENT NAMES (1065423250.bnk: em0070)
+em0070_atk_pounce
+em0070_atk_pounce_Cine
+em0070_atk_Scratch
+em0070_atk_swing
+em0070_atk_swing_Cine
+em0070_Atk_Vomit_Explode
+em0070_Atk_Vomit_launch
+em0070_Atk_Vomit_PassBy
+em0070_Dmg_PullOut
+em0070_Dmg_stab
+em0070_FS_Land
+em0070_FS_walk
+em0070_FS_walk_Cine
+em0070_Mvt_Appearance
+em0070_Mvt_Bodyfall_M
+em0070_Mvt_Bodyfall_s
+em0070_Mvt_bodyroll
+em0070_Mvt_bodyroll_Cine
+em0070_Mvt_Ground_Appearance
+em0070_Mvt_Ground_Appearance_Gate
+em0070_Mvt_Jump
+em0070_Mvt_Landing_Cine
+em0070_Mvt_Omen
+em0070_Voc_Atk_Bite_Cine
+em0070_Voc_Atk_L
+em0070_Voc_Atk_m
+em0070_Voc_Atk_S
+em0070_Voc_Atk_S_Cine
+em0070_Voc_death
+em0070_Voc_Dmg_death_Cine
+em0070_Voc_Dmg_fall
+em0070_Voc_Dmg_M
+em0070_Voc_Dmg_M_Cine
+em0070_Voc_Dmg_S
+em0070_Voc_Dmg_S_Cine
+em0070_Voc_Mvt_alert
+em0070_Voc_Mvt_Appearance
+em0070_Voc_Mvt_Idle
+Stop_em0070_Atk_Vomit_PassBy
+# 53494056
+# 161957644
+# 173746052
+# 398262891
+# 793736124
+# 1021626485
+# 1156475810
+# 1162205227
+# 1717893980
+# 1773147958
+# 1919512121
+# 1921470641
+# 1974415840
+# 2041819399
+# 2050754886
+# 2116336561
+# 2306629497
+# 2424993049
+# 2675219303
+# 2985111766
+# 3297808747
+# 3321201623
+# 3873794396
+# 3945693633
+
+### SFX NAMES (1065423250.bnk: em0070)
+# 520335684
+
+### RTPC/GAME-VARIABLE NAMES (1065423250.bnk: em0070)
+se_azimuth
+SE_Elevation
+SE_em_Head_Lost
+
+### VARIABLE NAMES (1065423250.bnk: em0070)
+SE_em0070_Type
+SE_em0070_Vo_Variety
+
+### VALUE NAMES (1065423250.bnk: em0070)
+em0070_a
+em0070_b
+em0070_c
+em0070_d
+female
+male
+
+### EVENT NAMES (1115756139.bnk: em0080)
+em0080_atk_claw_m
+em0080_atk_claw_m_Cine
+em0080_atk_claw_s
+em0080_atk_claw_s_Cine
+em0080_atk_claw_Scrape
+em0080_Atk_Energy_Ball_CHARGE
+em0080_Atk_Energy_Ball_Hit
+em0080_Atk_Energy_Ball_launch
+em0080_Atk_Energy_Ball_PassBy
+em0080_Mvt_Bodyfall
+em0080_Mvt_Bodyfall_Cine
+em0080_Mvt_Bodyfall_roll
+em0080_Mvt_Foley_Fast
+em0080_Mvt_Foley_Fast_Cine
+em0080_Mvt_Foley_Medium
+em0080_Mvt_Foley_Medium_Cine
+em0080_Mvt_Foley_Slow
+em0080_Mvt_Foley_Slow_Cine
+em0080_Mvt_Jump
+em0080_Mvt_Warp_In
+em0080_Mvt_Warp_out
+em0080_Mvt_Whoosh_s
+em0080_Voc_Atk_m
+em0080_Voc_Atk_m_Cine
+em0080_Voc_Atk_S
+em0080_Voc_Atk_S_Cine
+em0080_Voc_Dmg_death
+em0080_Voc_Dmg_death_Cine
+em0080_Voc_Dmg_Stagger
+em0080_Voc_Dmg_Stagger_Cine
+em0080_Voc_Mvt_alert
+em0080_Voc_Mvt_Idle
+em0080_Voc_Mvt_Inhale
+stop_em0080_atk_claw_Scrape
+Stop_em0080_Atk_Energy_Ball_PassBy
+# 18757699
+# 1229899964
+# 1720831597
+# 2634420485
+# 2876806123
+# 2877269789
+
+### RTPC/GAME-VARIABLE NAMES (1115756139.bnk: em0080)
+se_azimuth
+SE_em_Head_Lost
+
+### EVENT NAMES (1098978552.bnk: em0090)
+em0090_Atk_Anticipation_Jump
+em0090_Atk_FireBall_Explosion
+em0090_Atk_FireBall_Launch
+em0090_Atk_FireBall_PassBy
+em0090_Atk_Grab_Anticipation
+em0090_Atk_Grab_Jump
+em0090_Atk_Grab_Land
+em0090_atk_Grab_slam_Bodyfall
+em0090_Atk_Grab_throw
+em0090_Dmg_Bodyfall_l
+em0090_Dmg_Bodyfall_l_Cine
+em0090_Dmg_Bodyfall_s
+em0090_Dmg_Bodyfall_s_Cine
+em0090_FS_Land
+em0090_FS_Land_Cine
+em0090_fs_run_foot
+em0090_fs_run_hand
+em0090_fs_walk_foot
+em0090_fs_walk_hand
+em0090_Mvt_Foley_Dodge
+em0090_Mvt_Foley_Fast
+em0090_Mvt_Foley_Jump
+em0090_Mvt_Foley_Slow
+em0090_Voc_Atk_chant
+em0090_Voc_Atk_Inhale
+em0090_Voc_Atk_L
+em0090_Voc_Atk_L_Cine
+em0090_Voc_Atk_Short
+em0090_Voc_Atk_Short_Cine
+em0090_Voc_Dmg_death
+em0090_Voc_Dmg_death_Cine
+em0090_Voc_Dmg_l
+em0090_Voc_Dmg_l_Cine
+em0090_Voc_Mvt_Alert_Scream
+em0090_Voc_Mvt_Breath
+em0090_Voc_Mvt_intimidate
+Stop_em0090_Atk_FireBall_PassBy
+# 587072599
+# 1502856547
+# 1634352655
+# 1640980313
+# 2533901046
+# 2762486582
+# 2877258758
+# 2985668449
+# 3130837995
+
+### RTPC/GAME-VARIABLE NAMES (1098978552.bnk: em0090)
+se_azimuth
+SE_em_Head_Lost
+
+### EVENT NAMES (1417606186.bnk: em0100)
+em0100_atk_bite
+em0100_FS_run
+em0100_FS_walk
+em0100_Mvt_Alert_bite
+EM0100_Mvt_Appearance
+EM0100_Mvt_Bodyfall
+EM0100_Mvt_Foley
+EM0100_Mvt_Jump
+EM0100_Mvt_SCRATCH
+EM0100_Mvt_smoke
+em0100_Voc_atk_jump
+em0100_Voc_atk_jump_in
+em0100_Voc_atk_land
+em0100_Voc_Dmg_death
+em0100_Voc_Idle
+em0100_Voc_Idle_alert
+em0100_Voc_Idle_Purr
+em0100_Voc_surprised
+stop_em0100_Voc_Idle_Purr
+# 1415839308
+
+### RTPC/GAME-VARIABLE NAMES (1417606186.bnk: em0100)
+se_azimuth
+SE_Elevation
+
+### EVENT NAMES (1384050884.bnk: em0120)
+em0120_atk_tackle
+em0120_Dmg_Bodyfall_M
+em0120_Dmg_Bodyfall_M_Cine
+em0120_Dmg_Bodyfall_s
+em0120_Dmg_Bodyfall_s_Cine
+em0120_FS_run
+em0120_FS_run_Cine
+em0120_FS_walk
+em0120_FS_walk_Cine
+em0120_Mvt_Foley
+em0120_Mvt_Foley_Cine
+em0120_Mvt_guard
+em0120_Mvt_Jump
+em0120_Voc_Atk_m
+em0120_Voc_Atk_S
+em0120_Voc_atk_tackle
+em0120_Voc_Dmg_death
+em0120_Voc_Dmg_death_Cine
+em0120_Voc_Dmg_M
+em0120_Voc_Dmg_M_Cine
+em0120_Voc_Dmg_S
+em0120_Voc_Dmg_S_Cine
+em0120_Voc_Mvt_intimidate
+# 710095204
+# 1091173721
+# 2154792732
+# 2250085771
+# 2393723492
+# 4208872981
+
+### RTPC/GAME-VARIABLE NAMES (1384050884.bnk: em0120)
+se_azimuth
+SE_em_Head_Lost
+
+### EVENT NAMES (1400828599.bnk: em0130)
+em0130_Atk_Chase_Loop
+em0130_Atk_FireBall_CHARGE
+em0130_Atk_FireBall_Impact
+em0130_Atk_FireBall_Passby
+em0130_Atk_FireBall_SHOOT
+em0130_Dmg_Explode
+em0130_Dmg_Explode_CHARGE
+em0130_Mvt_Foley_Fast
+em0130_Mvt_Foley_Slow
+em0130_Mvt_Wind_Loop
+em0130_Voc_Atk_Charge
+em0130_Voc_Atk_FireBall
+em0130_Voc_Dmg_Pain
+em0130_Voc_Idle_Hidden
+Set_em0130_Hidden
+Set_em0130_revealed
+Stop_em0130_Atk_Chase_Loop
+Stop_em0130_Atk_FireBall_Passby
+stop_em0130_Dmg_Explode_CHARGE
+stop_em0130_Mvt_Wind_Loop
+stop_em0130_Voc_Idle_Hidden
+# 248485560
+# 2706306815
+# 3567057320
+# 4186257997
+# 4273633593
+
+### RTPC/GAME-VARIABLE NAMES (1400828599.bnk: em0130)
+se_azimuth
+SE_Elevation
+se_em0130_Hidden
+
+### VARIABLE NAMES (1400828599.bnk: em0130)
+se_em0130_Hidden
+
+### VALUE NAMES (1400828599.bnk: em0130)
+Hidden
+revealed
+
+### EVENT NAMES (1400828594.bnk: em0135)
+em0135_atk_bite
+em0135_Dmg_Bodyfall
+em0135_Dmg_Bodyfall_small
+em0135_Mvt_Foley_Fast
+em0135_Mvt_Foley_Slow
+em0135_Mvt_Warp
+em0135_Voc_atk_bite
+em0135_Voc_atk_bite_in
+em0135_Voc_Atk_Chase_Loop
+em0135_Voc_Dmg_death
+em0135_Voc_Dmg_Pain
+stop_em0135_Voc_Atk_Chase_Loop
+# 494357520
+# 704971575
+# 1856370369
+
+### RTPC/GAME-VARIABLE NAMES (1400828594.bnk: em0135)
+se_azimuth
+SE_Elevation
+
+### EVENT NAMES (1316940440.bnk: em0160)
+em0160_atk_descent
+em0160_Atk_FireBall_Charge
+em0160_Atk_FireBall_Explosion
+em0160_Atk_FireBall_Launch
+em0160_Atk_FireBall_PassBy
+em0160_atk_Foley
+em0160_Atk_jump_up
+em0160_atk_rotate
+em0160_ATK_Rush
+em0160_atk_SCRATCH
+em0160_atk_Somersault
+em0160_Dmg_Bodyfall_M
+em0160_Dmg_Bodyfall_M_Cine
+em0160_Dmg_Bodyfall_s
+em0160_FS_Land
+em0160_FS_run
+em0160_FS_walk
+em0160_Mvt_Foley_m
+em0160_Mvt_Foley_S
+em0160_Mvt_Foley_S_Cine
+em0160_Mvt_Jump
+em0160_Voc_Atk_m
+em0160_Voc_Atk_magic
+em0160_Voc_Atk_S
+em0160_Voc_Atk_spell
+em0160_Voc_Dmg_death
+em0160_Voc_Dmg_death_Cine
+em0160_Voc_Dmg_M
+em0160_Voc_Dmg_M_Cine
+em0160_Voc_Dmg_S
+em0160_Voc_Dmg_S_Cine
+em0160_Voc_Mvt_alert
+em0160_Voc_Mvt_exhale
+em0160_Voc_Mvt_Idle
+em0160_Voc_Mvt_Inhale
+em0160_Voc_Mvt_intimidate
+Stop_em0160_Atk_FireBall_PassBy
+# 3931882425
+
+### RTPC/GAME-VARIABLE NAMES (1316940440.bnk: em0160)
+se_azimuth
+SE_em_Head_Lost
+
+### EVENT NAMES (1333718027.bnk: em0170)
+em0170_Dmg_Bodyfall
+em0170_Dmg_death
+em0170_Dmg_death_Bodyfall
+em0170_Dmg_death_detach
+em0170_fs
+em0170_fs_soft
+em0170_Mvt_Foley
+em0170_Mvt_Foley_Short
+em0170_Voc_Atk
+em0170_Voc_Atk_Charge
+em0170_Voc_Dmg_death
+# 77082163
+# 743571751
+# 1680810325
+# 1760655971
+# 2249512868
+# 2255719801
+# 2393304017
+# 3271014569
+# 3491514875
+# 3585283994
+# 4135945663
+
+### RTPC/GAME-VARIABLE NAMES (1333718027.bnk: em0170)
+se_azimuth
+
+### EVENT NAMES (2121020713.bnk: em0170Tanuki)
+em0170_Atk_Bomb_Explosion
+em0170_Atk_FireBall_Explosion
+em0170_Atk_FireBall_Launch
+em0170_Atk_FireBall_Lunch_Far
+em0170_Atk_FireBall_PassBy
+Stop_em0170_Atk_FireBall_PassBy
+# 147467223
+# 1275952532
+# 3361681300
+# 3705834058
+# 3776383663
+# 3953816405
+
+### RTPC/GAME-VARIABLE NAMES (2121020713.bnk: em0170Tanuki)
+se_azimuth
+
+### EVENT NAMES (3363412664.bnk: em0300)
+em0300_atk_claw_dash
+em0300_atk_claw_l
+em0300_atk_claw_s
+em0300_atk_claw_Shove
+em0300_atk_claw_Slash_Impact
+em0300_atk_claw_Slash_Loop
+em0300_atk_claw_Slash_Skill
+em0300_atk_drill_Whoosh
+em0300_atk_ground_slam_Impact
+em0300_atk_ground_slam_Whoosh
+em0300_Atk_Missile_explode
+em0300_Atk_Missile_Launch
+em0300_Atk_Missile_Loop
+em0300_Atk_Missile_PassBy
+em0300_atk_tail
+em0300_atk_tail_slam_Hit
+em0300_atk_tail_slam_Whoosh
+em0300_Dmg_WM_death
+em0300_FS_generic
+em0300_FS_Landing
+em0300_FS_run
+em0300_Mvt_Foley
+em0300_Mvt_Foley_run
+em0300_Mvt_Jump
+em0300_Voc_Alert_Scream
+em0300_Voc_Atk_Charge
+em0300_Voc_atk_claw_l
+em0300_Voc_atk_claw_s
+em0300_Voc_atk_Delay_slam
+em0300_Voc_atk_Delay_slam_Breath
+em0300_Voc_atk_Delay_slam_In
+em0300_Voc_atk_drill_ground
+em0300_Voc_atk_ground_slam
+em0300_Voc_Atk_long
+em0300_Voc_Atk_Short
+em0300_Voc_atk_tail_slam
+em0300_Voc_Dmg_death
+em0300_Voc_Dmg_death_Cine
+em0300_Voc_Dmg_death_Scream
+em0300_Voc_Dmg_long
+em0300_Voc_Dmg_Short
+em0300_Voc_Dmg_Stagger
+em0300_Voc_Dmg_Stagger_Cine
+em0300_Voc_Mvt_alert
+em0300_Voc_Mvt_Breath
+em0300_Voc_Mvt_Breath_Cine
+em0300_Voc_Mvt_Scream
+em0300_Voc_Sleep_alert
+# 355665483
+# 385266106
+# 445291573
+# 770075734
+# 1305379567
+# 1319648008
+# 1383643575
+# 1645052521
+# 2814755135
+# 2945813370
+# 2952741694
+# 3028549432
+# 3161626687
+# 3404900397
+# 3405792238
+# 3700039064
+# 4029783712
+# 4267237163
+
+### RTPC/GAME-VARIABLE NAMES (3363412664.bnk: em0300)
+se_azimuth
+SE_Elevation
+SE_em_Head_Lost
+
+### EVENT NAMES (3447300695.bnk: em0350)
+em0350_atk_assault
+em0350_atk_assault_PRE
+em0350_ATK_Club_Impact
+em0350_ATK_Club_Whoosh
+em0350_atk_kick
+em0350_atk_kick_Short
+em0350_ATK_Rush_Impact
+em0350_atk_slash
+em0350_Dmg_Bodyfall_l
+em0350_Dmg_Bodyfall_l_Cine
+em0350_Dmg_Bodyfall_s
+em0350_Dmg_bodyroll
+em0350_FS_Land
+em0350_FS_run
+em0350_FS_walk
+em0350_FS_walk_Cine
+em0350_Mvt_Foley_bone
+em0350_Mvt_Foley_long
+em0350_Mvt_Foley_run
+em0350_Mvt_Foley_run_Cine
+em0350_Mvt_Foley_walk
+em0350_Mvt_Jump
+em0350_Voc_atk_assault
+em0350_Voc_atk_kick
+em0350_Voc_Atk_L
+em0350_Voc_ATK_Rush
+em0350_Voc_Atk_S
+em0350_Voc_Atk_Slash_L
+em0350_Voc_Atk_Slash_S
+em0350_Voc_Dmg_death
+em0350_Voc_Dmg_death_Cine
+em0350_Voc_Dmg_fall
+em0350_Voc_Dmg_l
+em0350_Voc_Dmg_l_Cine
+em0350_Voc_Dmg_S
+em0350_Voc_Dmg_S_Cine
+em0350_Voc_Mvt_alert
+em0350_Voc_Mvt_Avoidance
+em0350_Voc_Mvt_intimidate
+em0350_Voc_Mvt_Jump
+em0350_Voc_Mvt_step
+# 316673655
+# 577218782
+# 1017185641
+# 1938037503
+# 1990403527
+# 2079893277
+# 2336911740
+# 2398719624
+# 3402248498
+# 3771272879
+
+### RTPC/GAME-VARIABLE NAMES (3447300695.bnk: em0350)
+se_azimuth
+SE_Elevation
+SE_em_Head_Lost
+
+### VARIABLE NAMES (3447300695.bnk: em0350)
+BGM_Loop_Select
+
+### VALUE NAMES (3447300695.bnk: em0350)
+EM0350_a
+EM0350_b
+EM0350_c
+
+### EVENT NAMES (3515544036.bnk: em0410)
+em0410_atk_Gatling_end
+em0410_Atk_Gatling_Loop
+em0410_atk_Gatling_START
+em0410_Atk_Laser_Beam_Loop
+em0410_Atk_Laser_Beam_SHOT
+em0410_atk_laser_Charge
+em0410_atk_laser_explosion
+em0410_Atk_Laser_Passby
+em0410_atk_laser_shot
+em0410_atk_Missile_explosion
+em0410_Atk_Missile_Passby
+em0410_atk_Missile_Shot
+em0410_Atk_OverheadMissile_Explosion
+em0410_Atk_OverheadMissile_Passby
+em0410_Atk_OverheadMissile_SHOT
+em0410_atk_SAW
+em0410_atk_SAW_end
+em0410_atk_SAW_Whoosh
+em0410_KillConfirm_explode
+em0410_KillConfirm_Foley_01
+em0410_KillConfirm_Foley_02
+em0410_KillConfirm_Foley_03
+em0410_KillConfirm_Foley_04
+em0410_KillConfirm_Hit_Claw
+em0410_KillConfirm_Hit_Sword
+em0410_KillConfirm_Last_Whoosh
+em0410_KillConfirm_LEAD
+em0410_KillConfirm_Ryu_Bodyfall
+em0410_KillConfirm_Ryu_Explosion
+em0410_KillConfirm_Ryu_jump_01
+em0410_KillConfirm_Ryu_jump_02
+em0410_KillConfirm_Ryu_jump_03
+em0410_KillConfirm_Ryu_LEAD
+em0410_KillConfirm_Ryu_Spark
+em0410_KillConfirm_Ryu_stab
+em0410_KillConfirm_Ryu_whoosh_01
+em0410_KillConfirm_Ryu_whoosh_02
+em0410_KillConfirm_Ryu_Whoosh_03
+em0410_KillConfirm_Spark
+em0410_KillConfirm_stab
+em0410_KillConfirm_Whoosh_01
+em0410_KillConfirm_Whoosh_02
+em0410_KillConfirm_Whoosh_03
+em0410_KillConfirm_Whoosh_04
+em0410_KillConfirm_Whoosh_05
+em0410_KillConfirm_Whoosh_06
+em0410_KillConfirm_Whoosh_07
+em0410_Mvt_Booster_end
+em0410_Mvt_Booster_LeadIn
+em0410_Mvt_Booster_Loop
+em0410_Mvt_Booster_Start
+em0410_Mvt_Hover_Loop
+em0410_Mvt_Parts_Open
+em0410_Mvt_SAW
+em0410_Mvt_SAW_end
+em0410_Mvt_SAW_turn
+Stop_em0410_Atk_Gatling_Loop
+Stop_em0410_Atk_Laser_Beam_Loop
+Stop_em0410_Atk_Laser_Passby
+Stop_em0410_Atk_Missile_Passby
+Stop_em0410_Atk_OverheadMissile_Passby
+stop_em0410_atk_SAW
+stop_em0410_Mvt_Booster_Loop
+stop_em0410_Mvt_Hover_Loop
+stop_em0410_Mvt_SAW
+# 97793597
+# 395436042
+# 773014371
+# 1087282311
+# 1235765933
+# 1597465440
+# 1597465443
+# 1792138748
+# 1846954155
+# 1986927382
+# 2068203568
+# 2098372936
+# 2106669146
+# 2138249335
+# 2278466985
+# 2411721579
+# 2590764666
+# 3184808778
+# 3431323405
+# 3431323406
+# 3559840784
+# 3559840787
+# 3598031884
+# 3797931862
+# 3800907401
+# 3842073302
+# 4165616311
+
+### RTPC/GAME-VARIABLE NAMES (3515544036.bnk: em0410)
+se_azimuth
+SE_Elevation
+SE_Mvt_Speed
+
+### EVENT NAMES (3431508846.bnk: em0500)
+em0500_atk_claw
+em0500_atk_claw_Launch
+em0500_atk_claw_Scrape
+em0500_atk_kick
+em0500_Atk_Sword_Whoosh_Fast
+em0500_atk_throw_Shuriken
+em0500_dmg_bodyfall_heavy
+em0500_dmg_bodyfall_heavy_Cine
+em0500_dmg_bodyfall_light
+em0500_fs_jog
+em0500_fs_Land
+em0500_fs_run
+em0500_fs_walk
+em0500_fs_walk_Cine
+em0500_Mvt_Foley_Fast
+em0500_Mvt_Foley_Medium
+em0500_Mvt_Foley_Slow
+em0500_Mvt_Foley_Slow_Cine
+em0500_Mvt_Jump
+# 765104639
+# 788611030
+# 3074473158
+# 3343856973
+
+### EVENT NAMES (3397953544.bnk: em0520)
+em0520_atk_backfist
+em0520_Atk_Counter_Guard
+em0520_Atk_DEMON_Sword_Explosion
+em0520_Atk_DEMON_Sword_Rush
+em0520_Atk_DEMON_Sword_Whoosh_Fast
+em0520_Atk_Iai_Dimentional_Distortion
+em0520_Atk_Iai_Dimentional_Slash
+em0520_Atk_Impact_S
+em0520_Atk_jump_up
+em0520_atk_kick
+em0520_Atk_Lightning_Strike
+em0520_Atk_Lightning_Strike_Charge
+em0520_Atk_Lightning_Strike_In
+em0520_Atk_Ranged_Slash
+em0520_Atk_Ranged_Slash_HIT
+em0520_Atk_Sword_Slash_Ground
+em0520_Atk_Sword_Slash_PassBy
+em0520_Atk_Sword_Whoosh_Fast
+em0520_Dmg_Bodyfall_M
+em0520_Dmg_bodyroll_M
+em0520_fs_land
+em0520_fs_Run
+em0520_fs_Walk
+em0520_KillConfirm_finish_Impact
+em0520_KillConfirm_rise
+em0520_KillConfirm_sword_Impact
+em0520_KillConfirm_sword_spark
+em0520_Mvt_Foley_Fast
+em0520_Mvt_Foley_Slow
+em0520_Mvt_Jump
+em0520_Mvt_PhaseChange
+em0520_Mvt_Shadow_Clone_Disappear
+em0520_Mvt_Sword_Scrape
+em0520_Mvt_Sword_Scrape_end
+em0520_Mvt_Sword_Whoosh
+Stop_em0520_Atk_Sword_Slash_PassBy
+# 273184216
+# 356329713
+# 788550920
+# 824615504
+# 1087802519
+# 1138282551
+# 1219479104
+# 1383437684
+# 3190961123
+# 3190961149
+# 3204243881
+# 3217837550
+# 3309266595
+# 3457395210
+
+### RTPC/GAME-VARIABLE NAMES (3397953544.bnk: em0520)
+se_azimuth
+SE_Elevation
+SE_em_Type
+
+### EVENT NAMES (3330696037.bnk: em0600)
+em0600_atk_bite
+em0600_Atk_Projectile_Explosion
+em0600_Atk_Projectile_Passby
+em0600_Atk_Projectile_SHOT
+em0600_ATK_Rush_run
+em0600_atk_slam
+em0600_atk_slash
+em0600_Dmg_Bodyfall
+em0600_FS_run
+em0600_FS_walk
+em0600_KillConfirm_Bodyfall
+em0600_KillConfirm_Bodyfall_bone
+em0600_KillConfirm_pl0000_Land
+em0600_KillConfirm_Ryu_Jump
+em0600_KillConfirm_Ryu_LEAD
+em0600_KillConfirm_Ryu_PullOut
+em0600_KillConfirm_Ryu_stab
+em0600_Mvt_Foley
+em0600_Mvt_Jump
+em0600_Mvt_vomit
+em0600_Voc_Atk_m
+em0600_Voc_Atk_rampage
+em0600_Voc_ATK_Rush
+em0600_Voc_Atk_S
+em0600_Voc_Dmg_death
+em0600_Voc_Dmg_M
+em0600_Voc_Dmg_S
+em0600_Voc_KillConfirm_01
+em0600_Voc_KillConfirm_Ryu_01
+em0600_Voc_KillConfirm_Ryu_02
+em0600_Voc_KillConfirm_Ryu_03
+em0600_Voc_Mvt_exhale
+em0600_Voc_Mvt_Inhale
+em0600_Voc_Mvt_PhaseChange
+em0600_Voc_Mvt_vomit
+em0600_Voc_Mvt_vomit_END
+em0600_Voc_Mvt_vomit_Sign
+em0600_Voc_Mvt_vomit_START
+Stop_em0600_Atk_Projectile_Passby
+Stop_pl0500_Nimpo_Ryu2_Ball_Launch
+Stop_pl0500_Nimpo_Ryu2_Ball_Launck
+# 61364708
+# 227745257
+# 268386742
+# 593408912
+# 593408915
+# 809658740
+# 1023538130
+# 1393323712
+# 1867093731
+# 2000974024
+# 2000974027
+# 2566070237
+# 2768033951
+# 2967413169
+# 3330165102
+# 3518732712
+# 3518732715
+# 3782538614
+# 4049823391
+# 4126831853
+# 4157952253
+# 4172250497
+
+### RTPC/GAME-VARIABLE NAMES (3330696037.bnk: em0600)
+se_azimuth
+
+### EVENT NAMES (1082348028.bnk: em0700)
+em0100_Voc_VPlayerStartComponent
+em0700_Atk_Axe_impact
+em0700_Atk_Laser_Special_Mid
+em0700_Atk_Laser_Special_SHOT
+em0700_Atk_Laser_Straight_CHARGE
+em0700_Atk_Laser_Straight_Mid
+em0700_Atk_Laser_Straight_SHOT
+em0700_Atk_Laser_SweepTurn_Mid
+em0700_Atk_Laser_SweepTurn_SHOT
+em0700_Atk_Laser_SweepUp_Mid
+em0700_Atk_Laser_SweepUp_SHOT
+em0700_Atk_Shell_Explosion
+em0700_Atk_Shell_Explosion_LeadIn
+em0700_Atk_Shell_Projectile_Impact
+em0700_Atk_Shell_Projectile_SHOT
+em0700_Atk_Shell_Projectile_Whoosh
+em0700_Atk_Shell_slam
+em0700_Atk_Special_Axe_impact
+em0700_Atk_Special_Whoosh_Axe
+em0700_Atk_Special_Whoosh_Sword
+em0700_Atk_Whoosh_arm_Axe
+em0700_Atk_Whoosh_arm_Sword
+em0700_Atk_Whoosh_Axe
+em0700_Atk_Whoosh_spin_loop
+em0700_Atk_Whoosh_Sword
+em0700_KillConfirm_dash_kick
+em0700_KillConfirm_drill_bash
+em0700_KillConfirm_drill_Hit_01
+em0700_KillConfirm_drill_Hit_02
+em0700_KillConfirm_kick_Hit
+em0700_KillConfirm_kick_Hit_Short
+em0700_KillConfirm_kick_whoosh
+em0700_KillConfirm_Ryu_Fly_01
+em0700_KillConfirm_Ryu_Fly_02
+em0700_KillConfirm_Ryu_kick_Hit
+em0700_KillConfirm_Ryu_Land
+em0700_KillConfirm_Ryu_sword_bash
+em0700_KillConfirm_Ryu_sword_Grab
+em0700_KillConfirm_Ryu_sword_Hit
+em0700_KillConfirm_Ryu_sword_whoosh_01
+em0700_KillConfirm_Ryu_sword_whoosh_02
+em0700_KillConfirm_sword_PullOut
+em0700_KillConfirm_sword_stab_01
+em0700_KillConfirm_sword_stab_02
+em0700_KillConfirm_sword_throw_01
+em0700_KillConfirm_sword_twist
+em0700_KillConfirm_sword_whoosh_01
+em0700_KillConfirm_sword_whoosh_02
+em0700_Mvt_Foley_Fast
+em0700_Mvt_Foley_Slow
+em0700_Mvt_Shell_modechange
+em0700_Mvt_Shell_Warp_In
+em0700_Mvt_Shell_Warp_out
+stop_em0700_Atk_Laser_Special_Mid
+stop_em0700_Atk_Laser_SweepTurn_Mid
+Stop_em0700_Atk_Shell_Projectile_Whoosh
+Stop_em0700_Atk_Whoosh_spin_loop
+# 480450653
+# 806668799
+# 1149478812
+# 1394577321
+# 1838498758
+# 1875403512
+# 2244900716
+# 2344851455
+# 2407625141
+# 2521445305
+# 2627988452
+# 3536996401
+# 3558904957
+# 3558904958
+# 3604527666
+# 3723819381
+# 3723819382
+# 3978658031
+# 4033716604
+# 4033716607
+# 4119530366
+
+### RTPC/GAME-VARIABLE NAMES (1082348028.bnk: em0700)
+se_azimuth
+SE_Elevation
+# 841481108
+
+### EVENT NAMES (1248697099.bnk: em0800)
+em0800_ATK_Rush
+em0800_FS_Land
+em0800_FS_Land_Cine
+em0800_FS_run
+em0800_FS_run_Cine
+em0800_FS_walk
+em0800_FS_walk_Cine
+em0800_KillConfirm_Ryu_sword_Hit_01
+em0800_KillConfirm_Ryu_sword_Hit_02
+em0800_KillConfirm_Ryu_sword_Hit_03
+em0800_KillConfirm_Ryu_sword_Hit_04
+em0800_KillConfirm_Ryu_sword_Hit_05
+em0800_KillConfirm_Ryu_sword_slash_Hit
+em0800_KillConfirm_Ryu_whoosh_01
+em0800_KillConfirm_Ryu_whoosh_Fast_01
+em0800_KillConfirm_Ryu_whoosh_Fast_02
+em0800_KillConfirm_Ryu_whoosh_Fast_03
+em0800_KillConfirm_Ryu_whoosh_Fast_04
+em0800_KillConfirm_Ryu_whoosh_Fast_05
+em0800_KillConfirm_sword_charge
+em0800_KillConfirm_sword_charge_ready
+em0800_KillConfirm_sword_continuous_Hit
+em0800_KillConfirm_sword_Hit_01
+em0800_KillConfirm_sword_Hit_02
+em0800_KillConfirm_sword_Hit_03
+em0800_KillConfirm_sword_Hit_04
+em0800_KillConfirm_sword_Hit_05
+em0800_KillConfirm_sword_Sheath
+em0800_KillConfirm_sword_whoosh_01
+em0800_KillConfirm_sword_whoosh_02
+em0800_KillConfirm_sword_whoosh_03
+em0800_KillConfirm_sword_whoosh_04
+em0800_KillConfirm_sword_whoosh_05
+em0800_KillConfirm_sword_whoosh_06
+em0800_Mvt_Foley_m
+em0800_Mvt_Foley_m_Cine
+em0800_Mvt_Foley_S
+em0800_Mvt_Foley_S_Cine
+em0800_Mvt_Jump
+em0800_Mvt_Jump_Cine
+em0800_Mvt_tentacle_Foley
+em0800_Mvt_tentacle_Foley_Cine
+em0800_Voc_Atk_m
+em0800_Voc_Atk_phase_change
+em0800_Voc_Atk_phase_change_Short
+em0800_Voc_Atk_S
+em0800_Voc_Dmg_M
+em0800_Voc_Dmg_S
+em0800_Voc_KillConfirm_Dmg
+# 199217732
+# 234894338
+# 254052448
+# 254052478
+# 268089342
+# 381516872
+# 545557418
+# 1004018666
+# 1104972330
+# 1163739312
+# 1230140679
+# 1574955084
+# 1577720685
+# 1672808061
+# 1753083585
+# 1753083615
+# 1880945390
+# 1893817320
+# 2190185793
+# 2300065886
+# 2337484454
+# 2415107543
+# 2436859014
+# 2436859032
+# 2655848769
+# 2681082811
+# 2871571308
+# 2946479338
+# 2946479348
+# 3051825115
+# 3110882923
+# 3164740290
+# 3263972216
+# 3345670132
+# 3491200322
+# 3583652132
+# 3612332042
+# 3791534559
+# 3976157099
+
+### RTPC/GAME-VARIABLE NAMES (1248697099.bnk: em0800)
+se_azimuth
+
+### EVENT NAMES (3668746568.bnk: em1000)
+em1000_Atk_Charge
+em1000_atk_jump_impact
+em1000_atk_laser_Charge
+em1000_atk_laser_impact
+em1000_atk_laser_mid
+em1000_atk_laser_shot
+em1000_Atk_Phantom_Fox_Explosion
+em1000_Atk_Phantom_Fox_Summon
+em1000_Atk_Poison_Cloud
+em1000_Atk_Poison_Cloud_Summon
+em1000_Atk_Tornado_Loop
+em1000_Atk_Tree_bloom
+em1000_Atk_Tree_Explosion
+em1000_Atk_Tree_Summon
+em1000_Atk_Tree_Summon_LeadIn
+em1000_Atk_Umbrella_Missile_Charge
+em1000_Atk_Umbrella_Missile_Shot
+em1000_Atk_Umbrella_Spin_break
+em1000_Atk_Umbrella_Spin_collision
+em1000_Atk_Umbrella_Spin_Explosion
+em1000_Atk_Umbrella_Spin_Hidden_Whoosh
+em1000_Atk_Umbrella_Spin_loop
+em1000_Atk_Umbrella_Spin_Loop_Hidden
+em1000_Atk_Umbrella_Spin_whoosh
+em1000_Atk_Whoosh
+em1000_Atk_Whoosh_OPEN
+em1000_core_GUI_Ranking_In_Vo_Atk
+em1000_DMG_death_Dissolve
+em1000_Dmg_Guard_Break
+em1000_FS_Land
+em1000_FS_Land_Cine
+em1000_FS_run
+em1000_FS_run_Cine
+em1000_FS_walk
+em1000_FS_walk_Cine
+em1000_KillConfirm_Bodyfall
+em1000_KillConfirm_LEAD
+em1000_KillConfirm_Ryu_Bodyfall_01
+em1000_KillConfirm_Ryu_Bodyfall_02
+em1000_KillConfirm_Ryu_CutDown
+em1000_KillConfirm_Ryu_Hit_01
+em1000_KillConfirm_Ryu_Hit_02
+em1000_KillConfirm_Ryu_Hit_03
+em1000_KillConfirm_Ryu_LEAD
+em1000_KillConfirm_Ryu_stab
+em1000_KillConfirm_Ryu_whoosh_01
+em1000_KillConfirm_Ryu_whoosh_02
+em1000_KillConfirm_Ryu_whoosh_03
+em1000_KillConfirm_sword_Hit_01
+em1000_KillConfirm_sword_Hit_02
+em1000_KillConfirm_sword_Hit_03
+em1000_KillConfirm_sword_Hit_04
+em1000_KillConfirm_sword_whoosh_01
+em1000_KillConfirm_sword_whoosh_02
+em1000_KillConfirm_sword_whoosh_03
+em1000_KillConfirm_sword_whoosh_04
+em1000_KillConfirm_sword_whoosh_05
+em1000_Mvt_Foley_Fast
+em1000_Mvt_Foley_Fast_Cine
+em1000_Mvt_Foley_Jump
+em1000_Mvt_Foley_Slow
+em1000_Mvt_Foley_Slow_Cine
+em1000_Mvt_Foley_tail_Fast
+em1000_Mvt_Foley_tail_Fast_Cine
+em1000_Mvt_Foley_tail_Slow
+em1000_Mvt_Foley_tail_Slow_Cine
+em1000_Mvt_Foley_Umbrella_Close
+em1000_Mvt_Foley_Umbrella_Open
+em1000_Mvt_Phasechange_Cine
+em1000_Mvt_PhaseChange_Foley
+em1000_Mvt_Phasechange_Glitch
+Set_SE_em1000_Tail_Off
+Set_SE_em1000_Tail_On
+Stop_em1000_Atk_Poison_Cloud
+stop_em1000_Atk_Tornado_Loop
+Stop_em1000_Atk_Umbrella_Spin_Loop
+Stop_em1000_Atk_Umbrella_Spin_Loop_Hidden
+# 98011874
+# 172682704
+# 614485167
+# 722256696
+# 865090784
+# 944656611
+# 1374192552
+# 1489014652
+# 1875122866
+# 2130066999
+# 2218447102
+# 2576551153
+# 2764964236
+# 2799121451
+# 3394799539
+# 3478649173
+# 3594313238
+# 4127933177
+# 4143764837
+# 4193021109
+
+### RTPC/GAME-VARIABLE NAMES (3668746568.bnk: em1000)
+se_azimuth
+se_distance
+SE_Elevation
+SE_em1000_Tail
+
+### EVENT NAMES (3769559473.bnk: em1100)
+em1100_atk_bite
+em1100_atk_Explosion
+em1100_Atk_Fannel_START
+em1100_Atk_Fannel_Tornado_Loop
+em1100_Atk_Funnel_Hit
+em1100_Atk_Funnel_Move
+em1100_Atk_Funnel_Shot
+em1100_atk_HeadButt
+em1100_Atk_phase2_Charge
+em1100_atk_Rotate_Boost_Charge
+em1100_atk_Rotate_Boost_End
+em1100_atk_Rotate_Boost_impact
+em1100_atk_Rotate_slash
+em1100_atk_SCRATCH
+em1100_atk_slash
+em1100_atk_slash_Boost
+em1100_Atk_Tornade_END
+em1100_Atk_Tornade_Loop
+em1100_Atk_Tornade_Start
+em1100_Dmg_Bodyfall
+em1100_FS_Land
+em1100_FS_Land_Cine
+em1100_FS_run
+em1100_FS_run_Cine
+em1100_FS_walk
+em1100_FS_walk_Cine
+em1100_KillConfirm_Bodyfall
+em1100_KillConfirm_drill_Hit_01
+em1100_KillConfirm_drill_Hit_02
+em1100_KillConfirm_drill_Hit_03
+em1100_KillConfirm_Foley_Jump
+em1100_KillConfirm_Ryu_Bodyfall
+em1100_KillConfirm_Ryu_Hit_01
+em1100_KillConfirm_Ryu_Hit_02
+em1100_KillConfirm_Ryu_Hit_03
+em1100_KillConfirm_Ryu_jump_01
+em1100_KillConfirm_Ryu_jump_02
+em1100_KillConfirm_Ryu_Land
+em1100_KillConfirm_Ryu_Mvt_Whoosh
+em1100_KillConfirm_Ryu_PullOut
+em1100_KillConfirm_Ryu_Whoosh_stab
+em1100_Mvt_Appearance_Jump
+em1100_Mvt_Appearance_Land
+em1100_Mvt_Appearance_Wing_Open
+em1100_Mvt_Boost_Charge
+em1100_Mvt_Boost_impact
+em1100_Mvt_Boost_impact_Short
+em1100_Mvt_Fly_Loop
+em1100_Mvt_Foley_m
+em1100_Mvt_Foley_m_Cine
+em1100_Mvt_Foley_S
+em1100_Mvt_Foley_S_Cine
+em1100_Mvt_Jump
+em1100_Mvt_Wing
+em1100_Mvt_Wing_Close
+em1100_Mvt_Wing_Open
+Stop_em1100_Atk_Fannel_Tornado_Loop
+Stop_em1100_Atk_Tornade_Loop
+Stop_em1100_Mvt_Fly_Loop
+# 239437429
+# 425572212
+# 767987392
+# 767987393
+# 767987397
+# 767987398
+# 767987399
+# 931978305
+# 1079297541
+# 1145210970
+# 1182532966
+# 1471134483
+# 1786498791
+# 1867621846
+# 1953075966
+# 2081662877
+# 2614233865
+# 2707507536
+# 2804382915
+# 2820400053
+# 2841218615
+# 3374537464
+# 3697793436
+# 3929225398
+
+### RTPC/GAME-VARIABLE NAMES (3769559473.bnk: em1100)
+se_azimuth
+se_azimuth_amb
+SE_Elevation
+# 1744106002
+
+### EVENT NAMES (948428297.bnk: em1100_Vo)
+em1100_Voc_Atk_Anticipation
+em1100_Voc_Atk_Charge_L
+em1100_Voc_Atk_Charge_s
+em1100_Voc_Atk_L_General
+em1100_Voc_Atk_Roar
+em1100_Voc_Atk_s_General
+em1100_Voc_Dmg_death
+em1100_Voc_Dmg_KillConfirm
+em1100_Voc_Dmg_l
+em1100_Voc_Dmg_S
+em1100_Voc_KillConfirm_01
+em1100_Voc_KillConfirm_02
+em1100_Voc_KillConfirm_03
+em1100_Voc_KillConfirm_Ryu_01
+em1100_Voc_KillConfirm_Ryu_02
+em1100_Voc_Mvt_Bark
+em1100_Voc_Mvt_Growl
+em1100_Voc_Mvt_intimidate
+em1100_Voc_Mvt_intimidate_Cine
+em1100_Voc_Mvt_PhaseChange
+# 2339199099
+# 3035795988
+# 3742167636
+
+### EVENT NAMES (3870372282.bnk: em1200)
+des_Wood_L_gameover
+em1200_atk_bite
+em1200_atk_fist_Impact
+em1200_atk_fist_Impact_heavy
+em1200_atk_fist_Impact_heavy_In
+em1200_atk_Grab_Impact
+em1200_atk_Grab_slam
+em1200_atk_Grab_squeeze
+em1200_atk_Grab_throw
+em1200_atk_Grab_Whoosh
+em1200_Atk_Projectile_Explosion
+em1200_Atk_Projectile_in
+em1200_Atk_Projectile_Passby
+em1200_Atk_Projectile_SHOT
+em1200_atk_swipe_Whoosh
+em1200_atk_tail_swipe
+em1200_FS_Land
+em1200_FS_Land_Cine
+em1200_FS_run
+em1200_FS_run_Cine
+em1200_FS_walk
+em1200_FS_walk_Cine
+em1200_KillConfirm_Face_stab
+em1200_KillConfirm_LEAD
+em1200_KillConfirm_Ryu_PullOut
+em1200_KillConfirm_Ryu_stab
+em1200_Mvt_Foley_Slow
+em1200_Mvt_Foley_Slow_Cine
+em1200_Mvt_Foley_strong
+em1200_Mvt_Foley_strong_Cine
+em1200_Mvt_FS_Water
+em1200_Mvt_Jump
+em1200_Mvt_Land_Water
+em1200_Mvt_Light_Power_Off
+em1200_Mvt_Light_Power_On
+em1200_Mvt_Portal_In
+em1200_Mvt_Portal_Out
+em1200_Mvt_Slide_Water
+em1200_Mvt_Swim_Omen
+em1200_Voc_atk_bite_in
+em1200_Voc_atk_swipe
+em1200_Voc_atk_tail
+em1200_Voc_atk_tail_in
+em1200_Voc_Dmg_Pain
+em1200_Voc_Dmg_Pain_large
+em1200_Voc_intimidate
+em1200_Voc_KillConfirm_Launch_Dmg
+em1200_Voc_KillConfirm_Ryu_stab_Dmg
+Stop_em1200_Atk_Projectile_Passby
+# 150562403
+# 198737505
+# 293735620
+# 293735621
+# 403006105
+# 757938692
+# 757938693
+# 757938694
+# 757938695
+# 770888923
+# 774716400
+# 774716401
+# 774716408
+# 774716410
+# 774716411
+# 774716412
+# 774716414
+# 774716415
+# 995949280
+# 1108796533
+# 1118166630
+# 1189539886
+# 1219399766
+# 1285820189
+# 1291177974
+# 1490438735
+# 1554491138
+# 1629577090
+# 1654044184
+# 1654044185
+# 1664216277
+# 1715528088
+# 1831731125
+# 1932429564
+# 1932746453
+# 1988125340
+# 2075502616
+# 2089970165
+# 2120549254
+# 2136312300
+# 2460742417
+# 2494990396
+# 2625892617
+# 2625892618
+# 2769393116
+# 2812640282
+# 3004013579
+# 3040052844
+# 3260520242
+# 3321496456
+# 3338274162
+# 3338274163
+# 3338274168
+# 3338274169
+# 3338274170
+# 3338274172
+# 3338274173
+# 3338274174
+# 3338274175
+# 3352869591
+# 3438745183
+# 3454982209
+# 3533936240
+# 3549984348
+# 3596007072
+# 3596007073
+# 3603027115
+# 3807464124
+# 3840923420
+# 3927762159
+# 4089661324
+
+### RTPC/GAME-VARIABLE NAMES (3870372282.bnk: em1200)
+se_azimuth
+
+### EVENT NAMES (1286869123.bnk: em1300)
+em1300_Atk_Grab_Cinematic_Impact
+em1300_Atk_Grab_Cinematic_out
+em1300_Atk_Grab_Gore_out
+em1300_Atk_Grab_stabbed
+em1300_Atk_Grab_Sword_out
+em1300_Atk_Grab_Sword_Retract
+em1300_atk_kick
+em1300_Atk_phase2_Fire_fx
+em1300_Atk_phase2_Fire_fx_Cine
+em1300_Atk_Phase2_Ranged_Slash
+em1300_Atk_phase2_shock_wave
+em1300_Atk_phase2_Spark_fx
+em1300_Atk_Ranged_Slash
+em1300_Atk_Ranged_Slash_Impact
+em1300_Atk_Spark_fx
+em1300_Atk_Sword_Ranged_Slash
+em1300_atk_Sword_Whoosh
+em1300_atk_Sword_Whoosh_strong
+em1300_atk_tackle
+em1300_FS_Land
+em1300_FS_Land_Cine
+em1300_FS_run
+em1300_FS_run_Cine
+em1300_FS_walk
+em1300_FS_walk_Cine
+em1300_KillConfirm_Hit_kick
+em1300_KillConfirm_Hit_sword
+em1300_KillConfirm_Ryu_Bodyfall
+em1300_KillConfirm_Ryu_PullOut
+em1300_KillConfirm_Ryu_stab
+em1300_KillConfirm_Ryu_sword_Hit
+em1300_KillConfirm_Ryu_whoosh_01
+em1300_KillConfirm_Ryu_whoosh_02
+em1300_KillConfirm_Ryu_whoosh_03
+em1300_KillConfirm_Ryu_whoosh_04
+em1300_KillConfirm_whoosh_kick
+em1300_KillConfirm_Whoosh_Sword
+em1300_Mvt_Charge_Whoosh
+em1300_Mvt_Foley_Dodge
+em1300_Mvt_Foley_Jump
+em1300_Mvt_Foley_Slow
+em1300_Mvt_Foley_Slow_Cine
+em1300_Mvt_Foley_strong
+em1300_Mvt_Foley_strong_Cine
+em1300_Mvt_Phasechange_Frame_Break
+em1300_Mvt_Phasechange_Frame_Break_Cine
+em1300_Mvt_Phasechange_sword_Grab
+em1300_Mvt_Phasechange_sword_Grab_Cine
+em1300_Mvt_Phasechange_sword_stab_01
+em1300_Mvt_Phasechange_sword_stab_01_Cine
+em1300_Mvt_Phasechange_sword_stab_02
+em1300_Mvt_Phasechange_sword_stab_02_Cine
+em1300_Mvt_Whoosh
+Set_SE_em1300_Phase1
+Set_SE_em1300_Phase2
+# 101665802
+# 103244346
+# 119991674
+# 235581299
+# 435958796
+# 482507019
+# 668711103
+# 735416250
+# 934886957
+# 1014848854
+# 1285548579
+# 1348908720
+# 1413180859
+# 1647124480
+# 1714051306
+# 2023460340
+# 2174518256
+# 2404622066
+# 2466875012
+# 2494802604
+# 2689547391
+# 2778084745
+# 2857176358
+# 3035855626
+# 3112757696
+# 3144373626
+# 3187251635
+# 3226046869
+# 3270889579
+# 3645493749
+# 3776465526
+# 3805975012
+# 3991407217
+# 4043861966
+# 4052419545
+# 4069551962
+# 4144674775
+# 4145283754
+# 4235433387
+
+### RTPC/GAME-VARIABLE NAMES (1286869123.bnk: em1300)
+se_azimuth
+
+### VARIABLE NAMES (1286869123.bnk: em1300)
+SE_em1300_Phase
+
+### VALUE NAMES (1286869123.bnk: em1300)
+phase1
+phase2
+
+### EVENT NAMES (1387681932.bnk: em1400)
+em1400_Atk_Grab_Cinematic
+em1400_Atk_GravityBall_Implosion
+em1400_Atk_GravityBall_Loop
+em1400_Atk_GravityBall_Start
+em1400_Atk_GravityField_Implosion
+em1400_Atk_GravityField_In
+em1400_Atk_GravityField_Large_Implosion
+em1400_Atk_GravityField_Large_In
+em1400_Atk_GravityField_Phase_Implosion
+em1400_Atk_GravityField_Phase_In
+em1400_Atk_Mine_BackAttackImp
+em1400_Atk_Mine_Explode
+em1400_Atk_Mine_Loop
+em1400_Atk_Mine_place
+em1400_atk_scythe_gore
+em1400_atk_scythe_whoosh
+em1400_atk_scythe_whoosh_strong
+em1400_atk_scythe_whoosh_strong_Cine
+em1400_Dmg_Clone_death
+em1400_FS_Land
+em1400_FS_Land_Cine
+em1400_FS_run
+em1400_FS_run_Cine
+em1400_FS_walk
+em1400_FS_walk_Cine
+em1400_KillConfirm_Charge
+em1400_KillConfirm_Cinematic_camera
+em1400_KillConfirm_Cinematic_LEAD
+em1400_KillConfirm_Foley_Jump
+em1400_KillConfirm_Hit_BlowAway
+em1400_KillConfirm_Hit_PullOut
+em1400_KillConfirm_Hit_stab
+em1400_KillConfirm_Ryu_Block
+em1400_KillConfirm_Ryu_Fall
+em1400_KillConfirm_Ryu_LEAD
+em1400_KillConfirm_Ryu_scythe_whoosh
+em1400_KillConfirm_Ryu_stab
+em1400_KillConfirm_Ryu_sword_sheathe #alt
+em1400_KillConfirm_Ryu_sword_whoosh_01
+em1400_KillConfirm_Ryu_sword_whoosh_02
+em1400_KillConfirm_sword_Hit_01
+em1400_KillConfirm_sword_Hit_02
+em1400_KillConfirm_sword_Hit_03
+em1400_KillConfirm_sword_Hit_04
+em1400_KillConfirm_sword_Hit_05
+em1400_KillConfirm_sword_Hit_06
+em1400_KillConfirm_sword_Hit_07
+em1400_KillConfirm_sword_Hit_08
+em1400_KillConfirm_sword_Hit_09
+em1400_KillConfirm_sword_Hit_10
+em1400_KillConfirm_sword_Hit_11
+em1400_KillConfirm_Sword_stab
+em1400_KillConfirm_sword_swingup
+em1400_KillConfirm_Sword_whoosh
+em1400_Mvt_dash
+em1400_Mvt_Foley
+em1400_Mvt_Foley_Cine
+em1400_Mvt_Foley_Fast
+em1400_Mvt_Foley_Fast_Cine
+em1400_Mvt_Jump
+em_1400_atk_grab
+Stop_em1400_Atk_GravityBall_Loop
+Stop_em1400_Atk_Mine_Loop
+# 126042341
+# 474884927
+# 637678649
+# 792471367
+# 839436224
+# 997675790
+# 1329035625
+# 1588075479
+# 1680680034
+# 1707396063
+# 1918424015
+# 1957028412
+# 2059789893
+# 2559830404
+# 2765927997
+# 3179055021
+# 3198300326
+# 3288943943
+# 3327805597
+# 3791707303
+# 3853795584
+# 3896699860
+# 4003236368
+
+### RTPC/GAME-VARIABLE NAMES (1387681932.bnk: em1400)
+se_azimuth
+SE_em_Type
+
+### VARIABLE NAMES (1387681932.bnk: em1400)
+SE_em1400_Type
+
+### VALUE NAMES (1387681932.bnk: em1400)
+Phantom
+real
+
+### EVENT NAMES (1488494837.bnk: em1500)
+em1500_atk_bite
+em1500_Atk_Eye_Beam_Charge
+em1500_Atk_Eye_Beam_END
+em1500_Atk_Eye_Beam_Hit_Loop
+em1500_Atk_Eye_Beam_Loop
+em1500_Atk_Eye_Beam_Shot
+em1500_Atk_Fireball_Firing
+em1500_Atk_Fireball_Impact
+em1500_Atk_Fireball_Passby
+em1500_Atk_Red_Sign
+em1500_atk_slam_1st
+em1500_atk_slam_2nd
+em1500_Atk_Thunder_Impact
+em1500_Atk_Thunder_Sign
+em1500_Atk_Thunder_Sign_Quad
+em1500_Dmg_down_Impact
+em1500_KillConfirm_pl0000_Jump
+em1500_KillConfirm_PullOut
+em1500_KillConfirm_stab
+em1500_KillConfirm_stab_sign
+em1500_Mvt_turn_Foley_Cine
+em1500_Voc_Atk_Bite_Growl
+em1500_Voc_Atk_Bite_M
+em1500_Voc_Atk_Bite_S
+em1500_Voc_Atk_Bite_Sign
+em1500_Voc_Atk_Roar_Growl
+em1500_Voc_Atk_Roar_Sign
+em1500_Voc_atk_slam
+em1500_Voc_Dmg_M
+em1500_Voc_Dmg_Return_M
+em1500_Voc_Dmg_Return_S
+em1500_Voc_Dmg_S
+em1500_Voc_Mvt_Idle
+em1500_Voc_Mvt_rotate
+em1500_Voc_Mvt_turn
+Stop_em1500_Atk_Eye_Beam_Charge
+Stop_em1500_Atk_Eye_Beam_Hit_Loop
+Stop_em1500_Atk_Eye_Beam_Loop
+# 89402673
+# 148443287
+# 246892359
+# 293768683
+# 419713407
+# 432548509
+# 602464583
+# 605973608
+# 605973610
+# 605973611
+# 692634635
+# 905460220
+# 968684580
+# 968684581
+# 968684582
+# 1004056129
+# 1004056130
+# 1153327225
+# 1389678581
+# 1457023008
+# 1485354950
+# 1734378844
+# 1734378847
+# 1826217050
+# 1897577246
+# 2049692714
+# 2090494462
+# 2090494463
+# 2155782988
+# 2216548944
+# 2294224869
+# 2331043832
+# 2448927281
+# 2799479771
+# 2852504584
+# 3508691613
+# 3542319091
+# 3615154321
+# 3635932914
+# 3683160343
+# 3909777266
+# 3981837383
+
+### RTPC/GAME-VARIABLE NAMES (1488494837.bnk: em1500)
+se_azimuth
+
+### EVENT NAMES (1656296590.bnk: em_Ryu)
+# 202801017
+# 250258034
+# 399267100
+# 1476322985
+# 1476322986
+# 2141040256
+# 4036855093
+# 4036855094
+# 4051118202
+
+### EVENT NAMES (2798975110.bnk: em_Spawner)
+em_Spawner_Dmg_Disappear
+em_Spawner_Mvt_appear
+em_Spawner_Mvt_Foley_Fast
+em_Spawner_Mvt_WormHole_Loop
+em_Spawner_Voc_Dmg_Disappear
+em_Spawner_Voc_Dmg_Stagger
+em_Spawner_Voc_Mvt_appear
+stop_em_Spawner_Mvt_WormHole_Loop
+
+### RTPC/GAME-VARIABLE NAMES (2798975110.bnk: em_Spawner)
+se_azimuth_amb
+
+### EVENT NAMES (2834918643.bnk: gmc_AbyssPortal)
+Drill_Firing_vox
+gmc_AbyssPortal_active
+gmc_AbyssPortal_in
+gmc_AbyssPortal_Loop
+stop_gmc_AbyssPortal_Loop
+# 1420195013
+# 1492064216
+# 3353419751
+
+### EVENT NAMES (1847923429.bnk: gmc_AccessSwitch)
+gmc_AccessSwitch
+gmc_AccessSwitch_Loop
+stop_gmc_AccessSwitch_Loop
+
+### RTPC/GAME-VARIABLE NAMES (1847923429.bnk: gmc_AccessSwitch)
+se_azimuth_amb
+
+### EVENT NAMES (2996602385.bnk: gmc_AirlockGate)
+gmc_AirlockGate_open_end
+gmc_AirlockGate_open_Loop
+gmc_AirlockGate_open_Start
+# 1324563650
+
+### EVENT NAMES (3947600358.bnk: gmc_AnkiDoor)
+# 1458855862
+# 1471181502
+# 2505382980
+# 2670184772
+# 3568701716
+# 3913270296
+
+### EVENT NAMES (2015497163.bnk: gmc_AnkiGate)
+gmc_AnkiGate_Gate_Close
+gmc_AnkiGate_Gate_Close_stop
+gmc_AnkiGate_Gate_end_Impact
+gmc_AnkiGate_Gate_end_l
+gmc_AnkiGate_Gate_end_r
+gmc_AnkiGate_Gate_Sliding
+gmc_AnkiGate_Gate_start
+# 2747245900
+# 3233848002
+# 3233848028
+# 3462301614
+# 3462301616
+# 4098440096
+
+### EVENT NAMES (877552899.bnk: gmc_BigStatue)
+# 263378401
+# 313269773
+# 704740220
+# 1696528086
+# 1780857378
+# 1793180877
+# 3316606070
+
+### EVENT NAMES (621557729.bnk: gmc_BossArea_Shutter)
+gmc_BossArea_Shutter_Close
+
+### EVENT NAMES (3812306718.bnk: gmc_Bridge_Collapse)
+gmc_Bridge_Collapse_a
+gmc_Bridge_Collapse_b
+gmc_Bridge_Collapse_c
+gmc_Bridge_Collapse_sign
+
+### RTPC/GAME-VARIABLE NAMES (3812306718.bnk: gmc_Bridge_Collapse)
+se_azimuth_amb
+
+### EVENT NAMES (1603709225.bnk: gmc_Bridge_Wind)
+gmc_Bridge_Wind
+
+### EVENT NAMES (794387622.bnk: gmc_ConfettiMachine)
+gmc_ConfettiMachine_Firing
+gmc_ConfettiMachine_Firing_quad
+
+### EVENT NAMES (2875140514.bnk: gmc_Door_Nenon)
+gmc_Door_Nenon_Large
+gmc_Door_Nenon_Open
+# 495349159
+# 2002759138
+
+### EVENT NAMES (2411193893.bnk: gmc_DoubleSwing_Door)
+gmc_DoubleSwing_Door_Open
+
+### EVENT NAMES (3600584338.bnk: gmc_Fall_Trap)
+gmc_Fall_Trap_activation
+gmc_Fall_Trap_activation_end
+gmc_Fall_Trap_Gate_Close
+# 1302896310
+# 3900107980
+# 3900107982
+# 3900107983
+
+### EVENT NAMES (2141151404.bnk: gmc_Falling)
+gmc_Falling_BrokenFrame
+gmc_Falling_BrokenFrame_break
+gmc_Falling_pipe
+gmc_Falling_pipe_break
+gmc_Falling_Rail
+gmc_Falling_Rail_break
+gmc_Falling_signboard
+gmc_Falling_signboard_break
+gmc_Falling_SteelFrame_break
+stop_gmc_Falling_BrokenFrame
+stop_gmc_Falling_pipe
+stop_gmc_Falling_Rail
+stop_gmc_Falling_signboard
+
+### RTPC/GAME-VARIABLE NAMES (2141151404.bnk: gmc_Falling)
+se_azimuth_amb
+SE_Elevation
+
+### EVENT NAMES (1380390286.bnk: gmc_ForbiddenRope)
+gmc_ForbiddenRope_Break
+gmc_ForbiddenRope_connect
+gmc_ForbiddenRope_Separate
+
+### RTPC/GAME-VARIABLE NAMES (1380390286.bnk: gmc_ForbiddenRope)
+se_azimuth_amb
+SE_Elevation
+
+### EVENT NAMES (4060853857.bnk: gmc_Forest_Wind_Gust)
+gmc_Forest_Wind_Gust
+
+### EVENT NAMES (2029451684.bnk: gmc_GateToHell)
+phys_Wood_gmc_LaserTrap_Switch_off
+phys_Wood_gmc_LaserTrap_Switch_on
+# 749696461
+# 1156990482
+
+### RTPC/GAME-VARIABLE NAMES (2029451684.bnk: gmc_GateToHell)
+se_azimuth_amb
+SE_Occlusion
+
+### EVENT NAMES (1871276814.bnk: gmc_Gate_Rumble)
+gmc_Gate_Rumble
+
+### EVENT NAMES (3663779737.bnk: gmc_HeadoftheDead)
+gmc_HeadoftheDead
+
+### EVENT NAMES (4250887227.bnk: gmc_HelpAyane_Kunai)
+gmc_HelpAyane_Kunai_Hit
+gmc_HelpAyane_Kunai_PassBy
+
+### EVENT NAMES (65118800.bnk: gmc_Highway)
+gmc_Highway_Collapse_sign
+# 283424750
+# 580873850
+# 2951297453
+# 3592768330
+# 3903162689
+
+### RTPC/GAME-VARIABLE NAMES (65118800.bnk: gmc_Highway)
+se_azimuth_amb
+
+### EVENT NAMES (828135162.bnk: gmc_Hitodama)
+gmc_Hitodama_kill
+
+### EVENT NAMES (1047644320.bnk: gmc_IronGate)
+# 3817738360
+
+### EVENT NAMES (1293849649.bnk: gmc_LaserTrap)
+gmc_LaserTrap_Anticipation
+gmc_LaserTrap_Middle_Loop
+gmc_LaserTrap_off
+gmc_LaserTrap_on
+Stop_gmc_LaserTrap_Middle_Loop
+
+### RTPC/GAME-VARIABLE NAMES (1293849649.bnk: gmc_LaserTrap)
+se_azimuth_amb
+
+### VARIABLE NAMES (1293849649.bnk: gmc_LaserTrap)
+se_battle
+
+### VALUE NAMES (1293849649.bnk: gmc_LaserTrap)
+in
+
+### EVENT NAMES (2156167712.bnk: gmc_LaserTrap_Switch)
+gmc_LaserTrap_Switch_Loop
+gmc_LaserTrap_Switch_off
+gmc_LaserTrap_Switch_on
+gmc_LaserTrap_Switch_reboot
+stop_gmc_LaserTrap_Switch_Loop
+
+### EVENT NAMES (4127882544.bnk: gmc_Light_Flicker)
+gmc_Light_Flicker_Darkness
+gmc_Light_Flicker_End
+gmc_Light_Flicker_Large
+gmc_Light_Flicker_Round
+gmc_Light_Flicker_Start
+
+### VARIABLE NAMES (4127882544.bnk: gmc_Light_Flicker)
+se_mute_ambience
+
+### VALUE NAMES (4127882544.bnk: gmc_Light_Flicker)
+off
+on
+
+### EVENT NAMES (2655300317.bnk: gmc_MissileLauncher)
+gmc_MissileLauncher_Break
+gmc_MissileLauncher_Deploy_Arms
+gmc_MissileLauncher_Deploy_Missile
+gmc_MissileLauncher_destroyed
+gmc_MissileLauncher_destroyed_Electricity
+gmc_MissileLauncher_destroyed_Explosion
+gmc_MissileLauncher_destroyed_SPARKS
+gmc_MissileLauncher_Explosion
+gmc_MissileLauncher_Launch
+gmc_MissileLauncher_Passby
+gmc_MissileLauncher_Retract_Arms
+Stop_gmc_MissileLauncher_Passby
+# 1639722896
+# 2558350643
+# 4262356519
+
+### RTPC/GAME-VARIABLE NAMES (2655300317.bnk: gmc_MissileLauncher)
+se_azimuth_amb
+
+### EVENT NAMES (3202197921.bnk: gmc_Monitor_Glitch)
+gmc_Monitor_Glitch_A
+gmc_Monitor_Glitch_A_Nenon
+gmc_Monitor_Glitch_B
+gmc_monitor_glitch_b_rail_nenon
+
+### EVENT NAMES (1821958728.bnk: gmc_Muramasa)
+gmc_Muramasa_aura
+
+### EVENT NAMES (1816520138.bnk: gmc_Nenon_Noise)
+gmc_Nenon_Noise
+# 246390945
+
+### EVENT NAMES (1362823600.bnk: gmc_OfudaFire)
+gmc_OfudaFire_m_loop
+gmc_OfudaFire_s_loop
+# 328097114
+# 2653320488
+
+### EVENT NAMES (3336477019.bnk: gmc_PolterGeist)
+gmc0200_Mvt_PolterGeist_Object_Hovering
+gmc0200_Mvt_PolterGeist_Object_Shot
+
+### EVENT NAMES (1290196809.bnk: gmc_Pyramid)
+City_Spot_Crystal_Loop
+gmc_Pyramid_Door_Close
+gmc_Pyramid_Door_Open
+gmc_Pyramid_Door_unlock
+stop_City_Spot_Crystal
+stop_City_Spot_Crystal_Loop
+# 883652807
+# 1115583295
+# 1214677215
+# 1835413544
+# 2396363271
+# 3339013279
+# 3978515979
+# 4075307440
+# 4111218059
+
+### RTPC/GAME-VARIABLE NAMES (1290196809.bnk: gmc_Pyramid)
+se_azimuth_amb
+SE_Elevation
+
+### EVENT NAMES (345389855.bnk: gmc_Rail_Trafficlight)
+gmc_Rail_Trafficlight
+gmc_Rail_Trafficlight_siren
+
+### RTPC/GAME-VARIABLE NAMES (345389855.bnk: gmc_Rail_Trafficlight)
+se_azimuth_amb
+SE_Elevation
+
+### EVENT NAMES (3065415044.bnk: gmc_Rail_Train)
+gmc_Rail_Train_horn
+gmc_Rail_Train_Loop
+stop_gmc_Rail_Train_horn
+stop_gmc_Rail_Train_Loop
+# 191886298
+# 1497112077
+# 1665579540
+# 1694064443
+# 1884860394
+# 3535864501
+# 3878672922
+# 3927356985
+
+### RTPC/GAME-VARIABLE NAMES (3065415044.bnk: gmc_Rail_Train)
+se_azimuth_amb
+SE_Elevation
+
+### EVENT NAMES (4171753092.bnk: gmc_Rail_ring)
+gmc_Rail_ring_connection
+gmc_Rail_ring_release
+
+### EVENT NAMES (2861984676.bnk: gmc_Railcurve)
+gmc_Railcurve_END
+gmc_Railcurve_Loop
+gmc_Railcurve_Sign
+gmc_Railcurve_START
+Stop_gmc_Railcurve_Loop
+
+### RTPC/GAME-VARIABLE NAMES (2861984676.bnk: gmc_Railcurve)
+se_azimuth_amb
+SE_Elevation
+
+### EVENT NAMES (510807696.bnk: gmc_Rock_Fall)
+gmc_Rock_Fall_Impact_L
+gmc_Rock_Fall_Impact_XL
+gmc_Rock_Fall_Loop_L
+gmc_Rock_Fall_Loop_XL
+stop_gmc_Rock_Fall_Loop_L
+stop_gmc_Rock_Fall_Loop_XL
+
+### EVENT NAMES (4244487517.bnk: gmc_Ryu_Gate)
+gmc_Ryu_Gate_alert
+gmc_Ryu_Gate_Open
+gmc_Ryu_Gate_Open_Parts
+
+### EVENT NAMES (678646627.bnk: gmc_Samurai_Barrier)
+gmc_Samurai_Barrier_1st_shutdown_l
+gmc_Samurai_Barrier_1st_shutdown_r
+gmc_Samurai_Barrier_1st_Spark_l
+gmc_Samurai_Barrier_1st_Spark_r
+gmc_Samurai_Barrier_1st_Steam_l
+gmc_Samurai_Barrier_1st_Steam_r
+gmc_Samurai_Barrier_Loop
+gmc_Samurai_Barrier_shutdown
+gmc_Samurai_Barrier_shutdown_l
+gmc_Samurai_Barrier_shutdown_r
+gmc_Samurai_Barrier_Spark_l
+gmc_Samurai_Barrier_Spark_r
+gmc_Samurai_Barrier_Steam
+gmc_Samurai_Barrier_Steam_l
+gmc_Samurai_Barrier_Steam_r
+gmc_Samurai_Barrier_symbol
+
+### EVENT NAMES (291642093.bnk: gmc_SearchLight)
+# 529113488
+# 2473677153
+
+### EVENT NAMES (3531924314.bnk: gmc_ShojiDoor)
+# 1957943111
+# 3601620868
+# 3706732807
+
+### EVENT NAMES (3511528229.bnk: gmc_Shop_Umi)
+amb_battle_L
+gmc_Shop_Umi_Close
+gmc_Shop_Umi_Loop
+gmc_Shop_Umi_Open
+stop_gmc_Shop_Umi_Loop
+
+### RTPC/GAME-VARIABLE NAMES (3511528229.bnk: gmc_Shop_Umi)
+se_azimuth
+
+### VARIABLE NAMES (3511528229.bnk: gmc_Shop_Umi)
+se_battle
+
+### VALUE NAMES (3511528229.bnk: gmc_Shop_Umi)
+in
+
+### EVENT NAMES (3975656937.bnk: gmc_ShrineLottery)
+gmc_ShrineLottery_Bell
+gmc_ShrineLottery_Hit
+
+### EVENT NAMES (3262190971.bnk: gmc_Signage_Emergency)
+gmc_Signage_Emergency_on
+
+### EVENT NAMES (1539594531.bnk: gmc_SlidingDoor)
+gmc_SlidingDoor_Close
+gmc_SlidingDoor_Open
+
+### EVENT NAMES (616529751.bnk: gmc_Sparklar)
+gmc_Sparklar_Firing
+gmc_Sparklar_Firing_bossfinish
+gmc_Sparklar_Firing_Short
+
+### EVENT NAMES (3367800710.bnk: gmc_Standing_Lantern)
+gmc_Standing_Lantern_chime
+gmc_Standing_Lantern_lightup
+
+### RTPC/GAME-VARIABLE NAMES (3367800710.bnk: gmc_Standing_Lantern)
+se_azimuth_amb
+
+### EVENT NAMES (2024426389.bnk: gmc_Sudare)
+gmc_Sudare_M
+gmc_Sudare_S
+
+### EVENT NAMES (1224323930.bnk: gmc_SurveillanceDrone)
+gmc0210_Alarm
+gmc_CarryDrone_explode
+gmc_CarryDrone_Flying_Loop
+gmc_SurveillanceDrone_Break
+gmc_SurveillanceDrone_explode
+gmc_SurveillanceDrone_Flying_Loop
+gmc_SurveillanceDrone_shot
+stop_gmc_CarryDrone_Flying_Loop
+stop_gmc_SurveillanceDrone_Flying_Loop
+
+### RTPC/GAME-VARIABLE NAMES (1224323930.bnk: gmc_SurveillanceDrone)
+se_azimuth_amb
+SE_Elevation
+SE_Mvt_Speed
+
+### EVENT NAMES (3752294420.bnk: gmc_Torch_Wood_Fire)
+gmc_Torch_Wood_Fire_Loop
+stop_gmc_Torch_Wood_Fire_Loop
+
+### EVENT NAMES (123676222.bnk: gmc_Treasure_Box_Metal)
+gmc_Treasure_Box_Metal_Impact
+gmc_Treasure_Box_Metal_M
+gmc_Treasure_Box_Mission_Metal
+
+### EVENT NAMES (1217100479.bnk: gmc_Treasure_Box_Ryu)
+gmc_Treasure_Box_Mission_Ryu
+gmc_Treasure_Box_Ryu_Impact
+gmc_Treasure_Box_Ryu_M
+
+### EVENT NAMES (3615925226.bnk: gmc_Treasure_Box_Wood)
+gmc_Treasure_Box_Mission_Wood
+gmc_Treasure_Box_Wood_Impact
+gmc_Treasure_Box_Wood_L
+gmc_Treasure_Box_Wood_S
+
+### EVENT NAMES (3905203406.bnk: gmc_Tree_Updraft)
+gmc_Tree_Updraft_Loop
+stop_gmc_Tree_Updraft_Loop
+
+### RTPC/GAME-VARIABLE NAMES (3905203406.bnk: gmc_Tree_Updraft)
+se_azimuth_amb
+SE_Elevation
+
+### EVENT NAMES (299399020.bnk: gmc_UpDraftBlower)
+gmc_UpDraftBlower_Loop
+gmc_UpDraftBlower_Wind_Loop
+stop_gmc_UpDraftBlower_Loop
+stop_gmc_UpDraftBlower_Wind_Loop
+
+### RTPC/GAME-VARIABLE NAMES (299399020.bnk: gmc_UpDraftBlower)
+se_azimuth_amb
+SE_Elevation
+
+### EVENT NAMES (3638548459.bnk: gmc_WarpPortal)
+gmc_WarpPortal_Break
+gmc_WarpPortal_Close
+gmc_WarpPortal_Close_boss
+gmc_WarpPortal_idle_loop
+gmc_WarpPortal_Ryu_stab
+gmc_WarpPortal_teleport
+gmc_WarpPortal_teleport_interact
+# 261579376
+# 1386975600
+# 2474454654
+# 2734457181
+# 3182139702
+
+### EVENT NAMES (2190401891.bnk: gmc_Wind_Break_Bridge)
+gmc_Wind_Break_Bridge
+
+### EVENT NAMES (2545851793.bnk: gmc_Wood_Scaffold)
+gmc_Wood_Scaffold_Break
+
+### EVENT NAMES (1534891317.bnk: gmc_WoodenDoor)
+gmc_WoodenDoor_Open
+
+### EVENT NAMES (2900115281.bnk: gmc_WoodenGate_L)
+# 2438478849
+# 3102177937
+
+### EVENT NAMES (3868080952.bnk: lift_City)
+lift_City_end
+lift_City_Loop
+lift_City_Sparks_Loop
+lift_City_start
+stop_lift_City_Loop
+Stop_lift_City_Sparks_Loop
+
+### RTPC/GAME-VARIABLE NAMES (3868080952.bnk: lift_City)
+se_distance
+SE_Mvt_Speed
+
+### EVENT NAMES (3581197176.bnk: lift_DDO)
+lift_DDO_End
+lift_DDO_Lighting_Off
+lift_DDO_Lighting_On
+lift_DDO_Loop
+lift_DDO_Power_Off
+lift_DDO_Power_On
+lift_DDO_Siren_Loop
+lift_DDO_Sparks_Loop
+lift_DDO_Start
+Stop_lift_DDO_Loop
+Stop_lift_DDO_Siren_Loop
+Stop_lift_DDO_Sparks_Loop
+# 3799965112
+
+### SFX NAMES (3581197176.bnk: lift_DDO)
+se_lift_DDO_Power
+
+### RTPC/GAME-VARIABLE NAMES (3581197176.bnk: lift_DDO)
+se_distance
+se_lift_DDO_Power
+SE_Mvt_Speed
+
+### VARIABLE NAMES (3581197176.bnk: lift_DDO)
+se_battle
+
+### VALUE NAMES (3581197176.bnk: lift_DDO)
+in
+
+### EVENT NAMES (1469614083.bnk: obj0050)
+# 1570438632
+# 1698779469
+# 3112259353
+# 3354753817
+# 3545986684
+
+### VARIABLE NAMES (1469614083.bnk: obj0050)
+se_battle
+
+### VALUE NAMES (1469614083.bnk: obj0050)
+in
+
+### EVENT NAMES (1620759749.bnk: obj0100)
+obj0100_Atk_Gatling
+obj0100_Atk_Missile_Launch
+obj0100_Mov_Landing
+obj0100_Mov_MIssile_Hatch_Close
+obj0100_Mov_MIssile_Hatch_Open
+obj0100_Mov_MIssile_Launcher_Deploy
+obj0100_Mov_MIssile_Launcher_Retract
+obj0100_Mov_TakeOff
+# 207614541
+# 311202751
+# 607917193
+# 1009607654
+# 1347446802
+# 1422813964
+# 1821465588
+# 2111709925
+# 2644020917
+# 3052495280
+# 3390135008
+
+### RTPC/GAME-VARIABLE NAMES (1620759749.bnk: obj0100)
+se_azimuth_amb
+SE_Elevation
+SE_Mvt_Speed
+# 2811407457
+
+### EVENT NAMES (3781055629.bnk: phys_Antenna)
+phys_Antenna_collision
+
+### RTPC/GAME-VARIABLE NAMES (3781055629.bnk: phys_Antenna)
+se_azimuth
+SE_Phys_Speed
+
+### EVENT NAMES (505161408.bnk: phys_BottleGlass)
+phys_BottleGlass_collision
+
+### RTPC/GAME-VARIABLE NAMES (505161408.bnk: phys_BottleGlass)
+se_azimuth
+SE_Phys_Speed
+
+### EVENT NAMES (1113770257.bnk: phys_BottleGlassCrash)
+phys_BottleGlassCrash_collision
+
+### RTPC/GAME-VARIABLE NAMES (1113770257.bnk: phys_BottleGlassCrash)
+se_azimuth
+SE_Phys_Speed
+
+### EVENT NAMES (913014226.bnk: phys_Can)
+phys_Can_Hit
+phys_Can_Mvt_Loop
+stop_phys_Can_Mvt_Loop
+
+### RTPC/GAME-VARIABLE NAMES (913014226.bnk: phys_Can)
+se_azimuth
+SE_Mvt_Speed
+SE_Phys_Speed
+
+### EVENT NAMES (1848569069.bnk: phys_DeadCoral)
+phys_DeadCoral_collision
+
+### RTPC/GAME-VARIABLE NAMES (1848569069.bnk: phys_DeadCoral)
+se_azimuth
+SE_Phys_Speed
+
+### EVENT NAMES (1841778052.bnk: phys_Drum)
+phys_Drum_collision
+
+### RTPC/GAME-VARIABLE NAMES (1841778052.bnk: phys_Drum)
+se_azimuth
+SE_Phys_Speed
+
+### EVENT NAMES (2785329687.bnk: phys_Log_L)
+phys_Log_L_collision
+
+### RTPC/GAME-VARIABLE NAMES (2785329687.bnk: phys_Log_L)
+se_azimuth
+
+### EVENT NAMES (142585608.bnk: phys_MetalBox)
+phys_MetalBox_collision
+
+### RTPC/GAME-VARIABLE NAMES (142585608.bnk: phys_MetalBox)
+se_azimuth
+
+### EVENT NAMES (3395425428.bnk: phys_MetalFance_M)
+phys_MetalFance_M_collision
+
+### RTPC/GAME-VARIABLE NAMES (3395425428.bnk: phys_MetalFance_M)
+se_azimuth
+
+### EVENT NAMES (3528985227.bnk: phys_MetalStand)
+phys_MetalStand_S_collision
+
+### RTPC/GAME-VARIABLE NAMES (3528985227.bnk: phys_MetalStand)
+se_azimuth
+SE_Phys_Speed
+
+### EVENT NAMES (455664677.bnk: phys_Metal_M)
+phys_Metal_M_collision
+
+### RTPC/GAME-VARIABLE NAMES (455664677.bnk: phys_Metal_M)
+se_azimuth
+
+### EVENT NAMES (2423588029.bnk: phys_PlasticCrate)
+phys_PlasticCrate_collision
+
+### RTPC/GAME-VARIABLE NAMES (2423588029.bnk: phys_PlasticCrate)
+se_azimuth
+SE_Phys_Speed
+
+### EVENT NAMES (2351713122.bnk: phys_Rock_L)
+phys_Rock_L_collision
+phys_Rock_L_Mvt
+stop_phys_Rock_L_Mvt
+
+### RTPC/GAME-VARIABLE NAMES (2351713122.bnk: phys_Rock_L)
+se_azimuth
+SE_Mvt_Speed
+SE_Phys_Speed
+
+### EVENT NAMES (2351713149.bnk: phys_Rock_S)
+phys_Rock_S_collision
+
+### RTPC/GAME-VARIABLE NAMES (2351713149.bnk: phys_Rock_S)
+se_azimuth
+
+### EVENT NAMES (4203492360.bnk: phys_StandLight)
+phys_StandLight_collision
+
+### RTPC/GAME-VARIABLE NAMES (4203492360.bnk: phys_StandLight)
+se_azimuth
+
+### EVENT NAMES (915788876.bnk: phys_StoreSign)
+phys_StoreSign_collision
+
+### RTPC/GAME-VARIABLE NAMES (915788876.bnk: phys_StoreSign)
+se_azimuth
+SE_Phys_Speed
+
+### EVENT NAMES (2989069968.bnk: phys_Test)
+phys_Test_collision
+phys_Test_Mvt_Loop
+stop_phys_Test_Mvt_Loop
+
+### RTPC/GAME-VARIABLE NAMES (2989069968.bnk: phys_Test)
+se_azimuth
+SE_Phys_Speed
+
+### EVENT NAMES (3881416166.bnk: phys_TrafficCone)
+phys_TrafficCone_collision
+
+### RTPC/GAME-VARIABLE NAMES (3881416166.bnk: phys_TrafficCone)
+se_azimuth
+SE_Phys_Speed
+
+### EVENT NAMES (469518438.bnk: phys_TrashBag_S)
+phys_TrashBag_S_collision
+
+### RTPC/GAME-VARIABLE NAMES (469518438.bnk: phys_TrashBag_S)
+se_azimuth
+
+### EVENT NAMES (3495779716.bnk: phys_Wagasa)
+phys_Wagasa_collision
+
+### RTPC/GAME-VARIABLE NAMES (3495779716.bnk: phys_Wagasa)
+se_azimuth
+SE_Phys_Speed
+
+### EVENT NAMES (3886615736.bnk: phys_Warhead)
+phys_Warhead_collision
+
+### RTPC/GAME-VARIABLE NAMES (3886615736.bnk: phys_Warhead)
+se_azimuth
+SE_Phys_Speed
+
+### EVENT NAMES (2236909550.bnk: phys_Wood_L)
+phys_Wood_L_collision
+
+### RTPC/GAME-VARIABLE NAMES (2236909550.bnk: phys_Wood_L)
+se_azimuth
+SE_Phys_Speed
+
+### EVENT NAMES (2464884769.bnk: pl0000)
+pl0000_AM_atk_Spin
+pl0000_AM_atk_Sword_dash
+pl0000_AM_Mvt_Dodge
+pl0000_AM_Mvt_Foley_Fast
+pl0000_AM_Mvt_Foley_Medium
+pl0000_AM_Mvt_Foley_Slow
+pl0000_AM_Mvt_Jump_1st
+pl0000_AM_Mvt_Jump_2nd
+pl0000_AM_Mvt_Jump_forward
+pl0000_AM_Mvt_transform
+pl0000_AM_Mvt_transform_sword
+pl0000_GL_Atk_Grab_throw_Cine
+pl0000_GL_atk_Sword_Whoosh_Fast_Cine
+pl0000_GL_Dmg_Bodyfall
+pl0000_GL_Dmg_Bodyfall_Cine
+pl0000_GL_Dmg_Bodyfall_small
+pl0000_GL_Dmg_Bodyfall_small_Cine
+pl0000_GL_FS_jog
+pl0000_GL_FS_jog_Cine
+pl0000_GL_FS_ladder
+pl0000_GL_FS_Land
+pl0000_GL_FS_Land_Cine
+pl0000_GL_FS_Land_Sword
+pl0000_GL_FS_run
+pl0000_GL_FS_run_Cine
+pl0000_GL_FS_Scuff
+pl0000_GL_FS_walk
+pl0000_GL_FS_walk_Cine
+pl0000_GL_Mvt_Bodyfall_small
+pl0000_GL_Mvt_Bodyfall_small_Cine
+pl0000_GL_Mvt_Foley_DashAttack
+pl0000_GL_Mvt_Foley_Fast
+pl0000_GL_Mvt_Foley_Fast_Cine
+pl0000_GL_Mvt_Foley_Med_Cine
+pl0000_GL_Mvt_Foley_Medium
+pl0000_GL_Mvt_Foley_Slow
+pl0000_GL_Mvt_Foley_Slow_Cine
+pl0000_GL_Mvt_Jump_1st
+pl0000_GL_Mvt_Jump_1st_Cine
+pl0000_GL_Mvt_Jump_2nd_Cine
+pl0000_GL_Mvt_Surfing_Board_Close
+pl0000_GL_Mvt_Surfing_Board_Close_Short
+pl0000_GL_Mvt_Surfing_Board_Open
+pl0000_GL_Mvt_Surfing_Jump
+pl0000_GL_Mvt_Surfing_loop
+pl0000_GL_Mvt_Surfing_Slide
+pl0000_GL_Mvt_Surfing_WaterEntry
+pl0000_GL_Mvt_Sword_Grab
+pl0000_Mvt_Foley_Sheath
+pl0000_Mvt_Foley_Sword_Whoosh
+pl0000_Mvt_Foley_sword_whoosh_Cine
+pl0000_WM_Atk_Sword_Extend_Cine
+pl0000_WM_Mvt_Foley_Sword_Whoosh
+pl0000_WM_Mvt_Short_dash
+pl0000_WM_Mvt_Sword_dash
+pl0000_WM_Mvt_Sword_Retract_Cine
+pl0000_WM_Mvt_Sword_Sheath_Cine
+pl0000_WM_Mvt_Sword_Sheath_Fast_Cine
+pl0000_WM_Mvt_transform
+pl0000_WM_Mvt_transform_ready
+pl0000_WM_Mvt_transform_sword
+pl0000_WM_Mvt_transform_unable
+Stop_pl0000_GL_Mvt_Surfing_Loop
+# 3236102
+# 60575316
+# 279386486
+# 523610902
+# 626701894
+# 638512435
+# 679529495
+# 684542929
+# 726568898
+# 1370233418
+# 1460898639
+# 1574129683
+# 1648044910
+# 1678265853
+# 1958952423
+# 2384866851
+# 2418103394
+# 2503429409
+# 2726086005
+# 2810152706
+# 3236767537
+# 3484310247
+# 3491859322
+# 3502686474
+# 3516015386
+# 3586860315
+# 3880408451
+# 4125694959
+# 4205359566
+
+### RTPC/GAME-VARIABLE NAMES (2464884769.bnk: pl0000)
+se_distance
+SE_PhysicalMaterialType
+SE_pl0000_Sliding_Speed
+
+### VARIABLE NAMES (2464884769.bnk: pl0000)
+SE_Character_Type
+SE_pl0000_Mode
+
+### VALUE NAMES (2464884769.bnk: pl0000)
+armour
+enemy
+normal
+player
+weapon
+
+### EVENT NAMES (3163721952.bnk: pl0000_shadow)
+pl0000_shadow_AM_Mvt_transform
+pl0000_Shadow_Atk_Eye_Beam_END
+pl0000_Shadow_Atk_Eye_Beam_Hit_Loop
+pl0000_Shadow_Atk_Eye_Beam_Loop
+pl0000_Shadow_Atk_Eye_Beam_Shot
+pl0000_Shadow_Atk_Eye_Beam_START
+pl0000_Shadow_Atk_Obliteration_Charge_Loop
+pl0000_Shadow_Atk_Thunder_CHARGE
+pl0000_Shadow_Atk_Thunder_Impact
+pl0000_Shadow_Atk_Thunder_Sign
+pl0000_shadow_KillConfirm_dash
+pl0000_shadow_KillConfirm_LEAD
+pl0000_shadow_KillConfirm_stab
+pl0000_shadow_KillConfirm_thunder
+pl0000_shadow_WM_Mvt_transform
+pl0000_Voc_Shadow_Atk_breath
+pl0000_Voc_Shadow_Atk_Charge
+pl0000_Voc_Shadow_Atk_l
+pl0000_Voc_Shadow_Atk_m
+pl0000_Voc_Shadow_Atk_s
+pl0000_Voc_Shadow_Dmg_down
+pl0000_Voc_Shadow_Dmg_l
+pl0000_Voc_Shadow_Dmg_s
+Stop_pl0000_Shadow_Atk_Eye_Beam_Hit_Loop
+Stop_pl0000_Shadow_Atk_Eye_Beam_Loop
+Stop_pl0000_Shadow_Atk_Obliteration_Charge_Loop
+# 66959049
+# 92855036
+# 602556464
+# 602556465
+# 602556467
+# 602556468
+# 602556469
+# 602556470
+# 602556471
+# 721048052
+# 1243540863
+# 1284767894
+# 1576064629
+# 1696690732
+# 1903289666
+# 2224366225
+# 2897420575
+# 3103383061
+# 3438204910
+# 3519924387
+# 3599741675
+# 3630178296
+# 3630178297
+# 3630178298
+# 3630178301
+# 3630178302
+# 3630178303
+# 4180705778
+# 4180705779
+# 4180705780
+# 4180705781
+# 4180705783
+
+### RTPC/GAME-VARIABLE NAMES (3163721952.bnk: pl0000_shadow)
+se_azimuth
+se_pl_Obliteration_Charge
+
+### EVENT NAMES (83007356.bnk: pl0500)
+core_stop_Shuriken_s
+pl0500_atk_ground_slam
+pl0500_atk_ground_slam_strong
+pl0500_atk_Whoosh_ShadowClone
+pl0500_atk_Whoosh_ShadowClone_in
+pl0500_atk_Whoosh_ShadowClone_out
+pl0500_atk_Whoosh_ShadowClone_out_strong
+pl0500_atk_Whoosh_ShadowClone_out_Whoosh
+pl0500_Dmg_Bodyfall
+pl0500_Dmg_Bodyfall_Cine
+pl0500_Dmg_Bodyfall_small
+pl0500_Dmg_Bodyfall_small_Cine
+pl0500_FS_jog
+pl0500_FS_jog_Cine
+pl0500_FS_ladder
+pl0500_FS_Land
+pl0500_FS_Land_Cine
+pl0500_FS_Rail
+pl0500_FS_run
+pl0500_FS_run_Cine
+pl0500_FS_walk
+pl0500_FS_walk_Cine
+pl0500_FS_Water_run
+pl0500_Mvt_Bodyfall_small
+pl0500_Mvt_Bodyfall_small_Cine
+pl0500_Mvt_Dodge
+pl0500_Mvt_Dodge_air
+pl0500_Mvt_Foley_DashAttack
+pl0500_Mvt_Foley_Fast
+pl0500_Mvt_Foley_Fast_Cine
+pl0500_Mvt_Foley_Med
+pl0500_Mvt_Foley_Med_Cine
+pl0500_Mvt_Foley_Slow
+pl0500_Mvt_Foley_Slow_Cine
+pl0500_Mvt_Grind_Boost
+pl0500_Mvt_Grind_Boost_End
+pl0500_Mvt_Grind_Boost_Loop
+pl0500_Mvt_Grind_Land
+pl0500_Mvt_Jump
+pl0500_Mvt_Jump_Cine
+pl0500_Mvt_Jump_forward
+pl0500_Mvt_Rail_slide
+pl0500_Mvt_Surfing_Jump
+pl0500_Mvt_Surfing_Jump_Land
+pl0500_Mvt_Surfing_Slide
+pl0500_Mvt_transform_loop
+pl0500_Mvt_transform_ready
+pl0500_Mvt_transform_unable
+pl0500_Mvt_WallJump
+pl0500_Nimpo_Energy_Ball_Hit
+pl0500_Nimpo_Energy_Ball_Launch
+pl0500_Nimpo_FireBall_Explode
+pl0500_Nimpo_FireBall_Launch
+pl0500_Nimpo_FireBall_RiseUp
+pl0500_Nimpo_FireBall_Summon
+pl0500_Nimpo_FireBird_End
+pl0500_Nimpo_FireBird_Loop
+pl0500_Nimpo_FireBird_START
+pl0500_Nimpo_Wind_CHARGE
+pl0500_Nimpo_wind_Launch
+stop_pl0500_Mvt_transform_loop
+Stop_pl0500_Nimpo_Energy_Ball_Launch
+Stop_pl0500_Nimpo_FireBird_Loop
+# 137650254
+# 617188946
+# 701058886
+# 714146952
+# 1209070137
+# 1632425570
+# 1729072203
+# 1770700209
+# 2285605484
+# 2514838660
+# 2728173280
+# 2823673067
+# 2855516032
+# 2870008502
+# 3067019336
+# 3187608084
+# 3737363719
+# 4044753942
+# 4272004898
+# 4293557691
+
+### RTPC/GAME-VARIABLE NAMES (83007356.bnk: pl0500)
+se_azimuth_amb
+SE_PhysicalMaterialType
+
+### VARIABLE NAMES (83007356.bnk: pl0500)
+SE_Character_Type
+SE_Rail_MaterialType
+
+### VALUE NAMES (83007356.bnk: pl0500)
+enemy
+Metal
+player
+rope
+
+### EVENT NAMES (2927432098.bnk: pl2100)
+pl2100_FS_Land
+pl2100_FS_Walk
+pl2100_Mvt_Foley_S
+
+### EVENT NAMES (394121418.bnk: purgatory)
+purgatory_Base_hell
+purgatory_Base_Rain
+stop_purgatory_Base_hell
+stop_purgatory_Base_Rain
+# 32721665
+# 1024611952
+# 1281163524
+# 2611774213
+
+### RTPC/GAME-VARIABLE NAMES (394121418.bnk: purgatory)
+se_azimuth_amb
+se_Rain_Inside
+
+### VARIABLE NAMES (394121418.bnk: purgatory)
+se_battle
+
+### VALUE NAMES (394121418.bnk: purgatory)
+in
+
+### EVENT NAMES (3157003241.bnk: test)
+Stop_Test_Tone
+Stop_Test_Tone_fix
+Stop_Test_Tone_sw
+test_tone
+test_tone_fix
+test_tone_Oneshot
+test_tone_Oneshot_CIN
+test_tone_sw
+# 1930880242
+
+### RTPC/GAME-VARIABLE NAMES (3157003241.bnk: test)
+SE_Mvt_Speed
+SE_Object_Weight
+se_test
+# 3168003590
+
+### EVENT NAMES (2246265160.bnk: wp0000)
+pl0000_AM_atk_Sword_Whoosh_Fast
+pl0000_WM_Atk_Ranged_Slash
+pl0000_WM_Atk_Sword_Extend
+pl0000_WM_Atk_Sword_thrust
+pl0000_WM_Atk_Sword_thrust_extended
+pl0000_WM_atk_Sword_Whoosh_extended
+pl0000_WM_atk_Sword_Whoosh_extended_Short
+pl0000_WM_atk_Sword_Whoosh_Fast
+pl0000_WM_atk_Sword_Whoosh_heavy
+pl0000_WM_Mvt_Sword_Extend
+pl0000_WM_Mvt_Sword_Retract
+pl0000_WM_Mvt_Sword_Sheath
+pl0000_WM_Mvt_Sword_Sheath_Fast
+pl0000_WM_Mvt_Sword_vanish
+stop_pl0000_WM_Atk_Sword_Extend
+wp0000_atk_Sword_Whoosh_Fast_Cine
+wp0000_Atk_Thrown_Ground_Drop
+wp0000_Atk_Thrown_Ground_Stuck
+wp0000_Atk_Thrown_Whoosh
+wp0000_back_to_training_Ground_Drop
+wp0000_Mvt_Ground_Drop
+# 50040324
+# 127284556
+# 135717002
+# 269855384
+# 287799235
+# 299040506
+# 350015405
+# 423664229
+# 431582746
+# 468458391
+# 642214441
+# 651671705
+# 708663703
+# 729352360
+# 769611558
+# 819030752
+# 894260445
+# 918575006
+# 970005333
+# 1028619233
+# 1074911081
+# 1087742768
+# 1115778987
+# 1228188893
+# 1383780111
+# 1697417407
+# 1740842559
+# 1872342199
+# 1933975515
+# 1987394560
+# 2130336793
+# 2151312299
+# 2196833468
+# 2280574548
+# 2292638345
+# 2311350741
+# 2362197944
+# 2436463996
+# 2586903119
+# 2612864985
+# 2679423258
+# 2825465690
+# 2842360557
+# 3017965449
+# 3054192317
+# 3077751927
+# 3108381319
+# 3118175421
+# 3209416848
+# 3215933409
+# 3233330913
+# 3360339930
+# 3374072536
+# 3458693502
+# 3544349278
+# 3585512816
+# 3674995077
+# 3755436421
+# 3871149366
+# 3929405604
+# 3937673275
+# 3988577732
+# 4101056907
+# 4129623803
+
+### RTPC/GAME-VARIABLE NAMES (2246265160.bnk: wp0000)
+se_distance
+
+### VARIABLE NAMES (2246265160.bnk: wp0000)
+SE_Character_Type
+
+### VALUE NAMES (2246265160.bnk: wp0000)
+enemy
+player
+
+### EVENT NAMES (2246265162.bnk: wp0002)
+# 77132569
+# 220096077
+# 460110285
+# 591319338
+# 748606514
+# 881835615
+# 1209881443
+# 1571887014
+# 2112530405
+# 2739229956
+# 2980623160
+# 3052474983
+# 3380840851
+
+### EVENT NAMES (2279820462.bnk: wp0020)
+stop_wp0021_Atk_BloodBall_CHARGE
+stop_wp0021_Atk_Fire_Loop
+Stop_wp0040_Atk_Bomb_Spark_Loop_MISC_Tremor
+wp0020_atk_counter_slash
+wp0020_atk_counter_slash_fixed
+wp0020_atk_Impact
+wp0020_atk_Whoosh_Fast
+wp0020_atk_Whoosh_Fast_Cine
+wp0020_atk_Whoosh_strong
+wp0020_atk_Whoosh_strong_Cine
+wp0020_atk_Whoosh_thrust
+wp0020_KillConfirm_L_atk_Whoosh
+wp0020_KillConfirm_L_Mvt_Whoosh
+wp0020_KillConfirm_Whoosh_strong
+wp0020_Mvt_BloodSpatter
+wp0020_Mvt_Ground_Impact
+wp0020_Mvt_Staff_grab
+wp0020_Mvt_Staff_grab_Cine
+wp0020_Mvt_Staff_Whoosh
+wp0020_Mvt_Staff_Whoosh_Cine
+wp0021_Atk_BloodBall_CHARGE
+wp0021_Atk_BloodBall_Firing
+wp0021_Atk_BloodBall_Hit
+wp0021_Atk_Fire_Loop
+wp0021_Atk_Fire_START
+wp0021_atk_ground_slam
+wp0021_Atk_THROW
+wp0021_Atk_Whoosh_Fast
+wp0021_Atk_Whoosh_Fast_Fire
+wp0021_Atk_Whoosh_long_Fire
+wp0021_Combo_Success
+wp0021_Mvt_transform
+wp0021_pl_Combo_Sign
+wp0030_atk_Whoosh_swing_s_a
+# 76050677
+# 219898019
+# 262024142
+# 446896075
+# 579257786
+# 698109822
+# 714227607
+# 721487169
+# 982963765
+# 987364131
+# 1076138555
+# 1138013189
+# 1297481544
+# 1417571579
+# 1491485694
+# 1514571367
+# 1603771194
+# 1617136674
+# 1620870079
+# 1665542008
+# 1675803447
+# 1791717384
+# 2164375268
+# 2202079293
+# 2242547631
+# 2294283238
+# 2463484369
+# 2610219974
+# 2616821962
+# 2617684308
+# 2636072068
+# 2794647950
+# 2809491881
+# 2872736109
+# 2893821413
+# 2950980114
+# 3002786199
+# 3052791594
+# 3053266231
+# 3136345575
+# 3299600931
+# 3726333620
+# 3736860613
+# 3917524392
+# 4012866707
+# 4027054901
+# 4102480265
+# 4197567659
+# 4203038121
+# 4236446264
+# 4260541446
+# 4267020413
+
+### EVENT NAMES (2296598017.bnk: wp0030)
+Stop_wp0031_Atk_Drill_Firing
+stop_wp0031_atk_rev_up
+stop_wp0031_atk_Spin_up
+stop_wp0031_Mvt_Jump
+wp0030_atk_counter_rush
+wp0030_atk_counter_stab
+wp0030_atk_jump_up
+wp0030_atk_Spin_Fast
+wp0030_atk_Whoosh
+wp0030_atk_Whoosh_Cine
+wp0030_atk_Whoosh_Fast
+wp0030_atk_Whoosh_Fast_Cine
+wp0030_atk_Whoosh_swing
+wp0030_Mvt_BloodSpatter
+wp0030_Mvt_ground_PullOut
+wp0030_Mvt_ground_stab
+wp0030_Mvt_transform
+wp0030_Mvt_Whoosh
+wp0031_atk_burst
+wp0031_Atk_Drill_AIR
+wp0031_Atk_Drill_Collision_Hit
+wp0031_Atk_Drill_counter_stab
+wp0031_Atk_Drill_counter_thrust
+wp0031_Atk_Drill_Firing
+wp0031_Atk_Drill_parry_attack
+wp0031_atk_ground_Impact
+wp0031_atk_ground_stab
+wp0031_atk_rev_cancel
+wp0031_atk_rev_up
+wp0031_atk_Spin
+wp0031_atk_Spin_up
+wp0031_atk_thrust_up
+wp0031_atk_Whoosh_Fast
+wp0031_atk_Whoosh_strong
+wp0031_Mvt_Jump
+wp0031_Mvt_transform
+wp0031_Mvt_Whoosh
+# 16222202
+# 32965613
+# 86709489
+# 208585294
+# 654562732
+# 683421632
+# 696513898
+# 749466831
+# 801521318
+# 873047841
+# 880170866
+# 930433010
+# 1039479934
+# 1119854738
+# 1142903446
+# 1144932917
+# 1169137965
+# 1176198796
+# 1272536441
+# 1501343198
+# 1542089869
+# 1553592294
+# 1665665865
+# 1671791679
+# 1673184575
+# 1776485300
+# 1832669590
+# 1855272378
+# 1972818037
+# 2004583475
+# 2010544566
+# 2059833575
+# 2085134851
+# 2323872470
+# 2402419236
+# 2482043595
+# 2536231331
+# 2856865019
+# 2858308217
+# 3011475856
+# 3038462841
+# 3078958035
+# 3169804314
+# 3178212281
+# 3227978262
+# 3269886995
+# 3273633455
+# 3573436704
+# 3617943123
+# 3730640770
+# 3833257140
+# 3975058369
+# 3997077661
+# 4176340742
+# 4232981528
+
+### RTPC/GAME-VARIABLE NAMES (2296598017.bnk: wp0030)
+se_distance
+
+### EVENT NAMES (2313375732.bnk: wp0040)
+Stop_wp0040_Atk_Bomb_Spark_Loop_S
+Stop_wp0040_Atk_Fuumashuriken_Pass_S
+stop_wp0040_Atk_Nunchaku_Whoosh_Fast
+Stop_wp0041_Atk_Bomb_Spark_Loop_L
+Stop_wp0041_Atk_Fuumashuriken_Pass_L
+Stop_wp0041_Atk_FuumaShuriken_Rotate_Loop
+Stop_wp0041_Atk_Mine_Installation_Loop
+stop_wp0041_atk_MorningStar_spin
+wp0040_Atk_Bomb_Explosion_S
+wp0040_Atk_Bomb_Spark_Loop_S
+wp0040_Atk_Bomb_throw_S
+wp0040_atk_claw_Impact
+wp0040_Atk_claw_Whoosh_Fast
+wp0040_Atk_claw_Whoosh_Fast_Cine
+wp0040_Atk_Fuumashuriken_Pass_S
+wp0040_Atk_Fuumashuriken_throw_S
+wp0040_Atk_Fuumashuriken_turn
+wp0040_Atk_Fuumashuriken_Whoosh_Fast
+wp0040_atk_MorningStar_Impact
+wp0040_atk_MorningStar_spin
+wp0040_Atk_MorningStar_Whoosh_Fast
+wp0040_Atk_MorningStar_Whoosh_Fast_Cine
+wp0040_atk_Nunchaku_Impact
+wp0040_Atk_Nunchaku_Whoosh_Fast
+wp0040_Atk_Nunchaku_Whoosh_Fast_Cine
+wp0041_Atk_Bomb_Explosion_L
+wp0041_Atk_Bomb_Spark_Loop_L
+wp0041_Atk_Bomb_THROW
+wp0041_atk_claw_Impact
+wp0041_Atk_claw_Rush
+wp0041_Atk_claw_thrust
+wp0041_Atk_claw_thrust_Cine
+wp0041_Atk_claw_Whoosh_Fast
+wp0041_Atk_claw_Whoosh_Fast_Cine
+wp0041_Atk_Fuumashuriken_Pass_L
+wp0041_Atk_FuumaShuriken_Rotate_Loop
+wp0041_Atk_FuumaShuriken_Rotate_START
+wp0041_Atk_Fuumashuriken_throw_L
+wp0041_Atk_FuumaShuriken_Whoosh_Fast
+wp0041_Atk_Mine_Air_Explosion
+wp0041_Atk_Mine_Ground_Explosion
+wp0041_Atk_Mine_Ground_Hit
+wp0041_Atk_Mine_Installation
+wp0041_Atk_Mine_Installation_Loop
+wp0041_atk_MorningStar_Impact
+wp0041_atk_MorningStar_spin
+wp0041_Atk_MorningStar_Whoosh_Fast
+wp0041_Combo_Success
+wp0041_pl_Combo_Sign
+# 6962822
+# 22413887
+# 29856205
+# 29983823
+# 63062513
+# 97740121
+# 130235340
+# 211263966
+# 254711226
+# 264440935
+# 345931488
+# 408132175
+# 452672978
+# 485991431
+# 550842905
+# 557077544
+# 578938000
+# 679693168
+# 712649189
+# 773566320
+# 824046128
+# 830908174
+# 892836305
+# 903298015
+# 945350753
+# 957644429
+# 982506814
+# 983842845
+# 1204257348
+# 1252062976
+# 1256784555
+# 1389825341
+# 1590765040
+# 2010159275
+# 2042011450
+# 2069994490
+# 2122897110
+# 2199821807
+# 2424552189
+# 2471677389
+# 2560873333
+# 2628827234
+# 2631646461
+# 2649944800
+# 2706517652
+# 2764647502
+# 2837180923
+# 2914399868
+# 3005014580
+# 3017155650
+# 3088436841
+# 3103242977
+# 3130612606
+# 3141498045
+# 3166994603
+# 3259869827
+# 3263983934
+# 3267146121
+# 3273349919
+# 3290323651
+# 3352687734
+# 3353052990
+# 3354758232
+# 3400926176
+# 3481699786
+# 3504146221
+# 3599783803
+# 3621595668
+# 3724281947
+# 3744074406
+# 3754429051
+# 4009393213
+# 4118500040
+# 4259752459
+# 4278710808
+
+### VARIABLE NAMES (2313375732.bnk: wp0040)
+se_bloodbath
+
+### VALUE NAMES (2313375732.bnk: wp0040)
+in
+none
+out
+
+### EVENT NAMES (2330153319.bnk: wp0050)
+pl0500_Mvt_transform_in
+pl0500_Mvt_transform_Out
+wp0050_atk_ground_slam
+wp0050_atk_ground_slam_strong
+wp0050_atk_Slash_cast
+wp0050_atk_Slash_charge
+wp0050_atk_Slash_Whoosh
+wp0050_atk_Sword_ShadowClone
+wp0050_atk_thrust
+wp0050_atk_Whoosh
+wp0050_atk_Whoosh_Cine
+wp0050_atk_Whoosh_Fast
+wp0050_atk_Whoosh_ShadowClone
+wp0050_atk_Whoosh_ShadowClone_in
+wp0050_atk_Whoosh_ShadowClone_out
+wp0050_atk_Whoosh_ShadowClone_out_strong
+wp0050_atk_Whoosh_ShadowClone_out_Whoosh
+wp0050_Mvt_BloodSpatter
+wp0050_Mvt_Foley_Sheath
+wp0050_Mvt_Transform_In
+wp0050_Mvt_Transform_Out
+# 32603731
+# 68138874
+# 134963407
+# 142827373
+# 210704064
+# 338570859
+# 503480029
+# 592670425
+# 683603999
+# 698962623
+# 736083641
+# 818626773
+# 939568622
+# 1123306849
+# 1157872360
+# 1166872137
+# 1344509847
+# 1386768062
+# 1394989879
+# 1415409004
+# 1559582566
+# 1637844664
+# 1659679613
+# 1862681923
+# 2012577466
+# 2389090677
+# 2631267759
+# 2636360016
+# 2668800577
+# 2759285443
+# 2836770745
+# 2864130573
+# 2984548030
+# 2998701278
+# 3089214995
+# 3212712540
+# 3296350452
+# 3914875457
+# 3971735225
+# 4007230624
+# 4211790040
+# 4237944993
+# 4272225464
+
+### VARIABLE NAMES (2330153319.bnk: wp0050)
+SE_Character_Type
+
+### VALUE NAMES (2330153319.bnk: wp0050)
+enemy
+player
+
+### EVENT NAMES (907088654.bnk: wpe001)
+wpe001_Atk_Gun_Shot_Multiple
+wpe001_Atk_Gun_Shot_Single
+# 372555156
+# 1090459245
+# 1128276502
+# 1544209338
+# 2665256804
+# 3421375225
+# 3573829133
+# 4118896121
+
+### RTPC/GAME-VARIABLE NAMES (907088654.bnk: wpe001)
+se_azimuth
+SE_Elevation
+
+### EVENT NAMES (907088652.bnk: wpe003)
+wpe003_atk_Impact
+wpe003_atk_Whoosh
+wpe003_Mvt_step
+# 477165391
+
+### EVENT NAMES (907088651.bnk: wpe004)
+Stop_wpe004_Atk_Missile_Passby
+wpe004_Atk_Missile_Explosion
+wpe004_Atk_Missile_Launch
+wpe004_Atk_Missile_Passby
+# 3854770505
+
+### SFX NAMES (907088651.bnk: wpe004)
+# 841481108
+
+### RTPC/GAME-VARIABLE NAMES (907088651.bnk: wpe004)
+se_azimuth
+SE_Elevation
+# 841481108
+
+### EVENT NAMES (907088647.bnk: wpe008)
+# 179743628
+# 210859413
+# 213939787
+# 1968685132
+# 2771704577
+
+### EVENT NAMES (839978178.bnk: wpe041)
+em0040_Atk_Fan_Tornado_END
+em0040_Atk_Fan_Tornado_Loop
+em0040_Atk_Fan_Tornado_Start
+em0040_Atk_Fan_Whoosh
+em0040_Mvt_Fan_Foley
+Stop_em0040_Atk_Fan_Tornado_Loop
+
+### RTPC/GAME-VARIABLE NAMES (839978178.bnk: wpe041)
+se_azimuth
+SE_Elevation
+
+### EVENT NAMES (2255802755.bnk: wpemissile)
+em0410_Atk_RailMissile_Explosion
+em0410_Atk_RailMissile_Passby
+obj0100_Atk_Gatling_Hit
+obj0100_Atk_Missile_Explosion
+obj0100_Atk_Missile_Passby
+Stop_em0410_Atk_RailMissile_Passby
+Stop_obj0100_Atk_Missile_Passby
+
+### RTPC/GAME-VARIABLE NAMES (2255802755.bnk: wpemissile)
+se_azimuth
+SE_Elevation
+
+### EVENT NAMES (langs/1887934557.bnk: Vo_0_1)
+ev0010_vo_End
+ev0010_vo_skip
+ev0010_vo_Start
+ev0020_vo_End
+ev0020_vo_skip
+ev0020_vo_Start
+ev0030_vo_End
+ev0030_vo_skip
+ev0030_vo_Start
+ev0040_vo_End
+ev0040_vo_skip
+ev0040_vo_Start
+PT0000_0010_0020_UMI
+PT0000_0010_0040_YKM
+PT0000_0010_0070_YKM
+PT0000_0010_0080_UMI
+PT0000_0010_0130_UMI
+PT0000_0010_0140_YKM
+PT0000_0020_0010_YKM
+PT0000_0020_0020_UMI
+PT0000_0030_0010_YKM
+PT0000_0030_0020_UMI
+PT0000_0030_0030_UMI
+PT0000_0040_0010_YKM
+PT0000_0050_0010_YKM
+PT0000_0050_0020_UMI
+PT0000_0060_0010_YKM
+PT0000_0070_0010_SEO
+PT0000_0070_0020_UMI
+PT0000_0070_0030_YKM
+PT0000_0070_0040_UMI
+PT0000_0070_0050_YKM
+PT0000_0070_0060_YKM
+PT0000_0070_0070_UMI
+PT0000_0070_0080_SEO
+PT0000_0070_0090_YKM
+PT0000_0070_0100_SEO
+PT0000_0070_0110_YKM
+# 356157609
+# 379993118
+# 950332554
+# 1982087923
+# 2635128678
+# 2824020353
+
+### RTPC/GAME-VARIABLE NAMES (langs/1887934557.bnk: Vo_0_1)
+se_azimuth_amb
+
+### EVENT NAMES (langs/1887787493.bnk: Vo_1_0)
+em0090_Voc_Atk_Short_em0040
+ev0000_vo_End
+ev0000_vo_skip
+ev0000_vo_Start
+# 203499229
+# 212969679
+# 876366260
+# 1203072132
+# 1700834675
+# 1942396562
+# 1989711585
+# 2072759544
+# 2268695152
+# 2356266270
+# 2473326063
+# 2761762404
+# 3546637067
+# 3928838347
+
+### EVENT NAMES (langs/1887787492.bnk: Vo_1_1)
+ev1000_vo_End
+ev1000_vo_skip
+ev1000_vo_Start
+Pe1000_vo_skip
+SV_SHOP_TALK_T_0010_0010_TRN
+SV_SHOP_TALK_T_0010_0020_YKM
+SV_SHOP_TALK_T_0010_0030_TRN
+SV_SHOP_TALK_T_0010_0040_TRN
+SV_SHOP_TALK_T_0010_0050_YKM
+SV_SHOP_TALK_T_0010_0060_TRN
+SV_SHOP_TALK_T_0010_0070_YKM
+SV_SHOP_TALK_T_0010_0080_TRN
+SV_SHOP_TALK_T_0010_0090_YKM
+SV_SHOP_TALK_T_0010_0100_TRN
+SV_SHOP_TALK_U_0010_0010_UMI
+SV_SHOP_TALK_U_0010_0020_YKM
+SV_SHOP_TALK_U_0010_0030_UMI
+SV_SHOP_TALK_U_0010_0040_YKM
+SV_SHOP_TALK_U_0010_0050_YKM
+SV_SHOP_TALK_U_0010_0060_UMI
+# 7746224
+# 12260131
+# 17779514
+# 21035652
+# 66350492
+# 122130982
+# 208676273
+# 226867551
+# 248318443
+# 359099542
+# 512601043
+# 613086847
+# 639643415
+# 814731000
+# 884199395
+# 975209112
+# 1028020864
+# 1131395030
+# 1135930330
+# 1157883468
+# 1285339270
+# 1316187499
+# 1391339111
+# 1408526466
+# 1532261214
+# 1547700824
+# 1670470799
+# 1747893985
+# 1783705899
+# 1812279587
+# 1833887782
+# 1892322307
+# 1911750042
+# 1986049586
+# 2100802410
+# 2121539537
+# 2122188900
+# 2204711743
+# 2211667378
+# 2213142968
+# 2271481522
+# 2291903735
+# 2296272536
+# 2367450202
+# 2430658842
+# 2509259352
+# 2534420903
+# 2548027133
+# 2613041972
+# 2701122377
+# 2858290321
+# 3023743531
+# 3107166052
+# 3122903206
+# 3150474005
+# 3285942637
+# 3429529389
+# 3435911449
+# 3442333661
+# 3454919404
+# 3516407067
+# 3554889756
+# 3576679544
+# 3605535047
+# 3638036077
+# 3651401543
+# 3903251348
+# 4017182864
+# 4100623846
+# 4194380283
+# 4210283205
+# 4213993733
+# 4238895295
+# 4241420829
+
+### RTPC/GAME-VARIABLE NAMES (langs/1887787492.bnk: Vo_1_1)
+se_azimuth_amb
+
+### EVENT NAMES (langs/1887787495.bnk: Vo_1_2)
+Cleared_unlock
+PT1020_0010_0010_SEO
+PT1020_0010_0020_UMI
+PT1020_0020_0010_YKM
+PT1020_0030_0010_UMI
+PT1020_0030_0020_YKM
+PT1020_0030_0030_YKM
+PT1020_0030_0040_SEO
+PT1020_0030_0050_YKM
+PT1020_0040_0010_SEO
+PT1020_0050_0010_UMI
+PT1020_0055_0010_UMI
+PT1020_0055_0030_SEO
+PT1020_0055_0040_UMI
+PT1020_0060_0010_YKM
+PT1020_0060_0011_YKM
+PT1020_0070_0010_SEO
+PT1020_0080_0010_YKM
+PT1020_0080_0020_UMI
+PT1020_0080_0030_SEO
+PT1020_0080_0040_YKM
+PT1020_0080_0060_UMI
+PT1020_0090_0020_YKM
+PT1020_0100_0020_YKM
+PT1020_0120_0010_YKM
+PT1020_0120_0020_UMI
+PT1020_0120_0030_SEO
+PT1020_0130_0010_MSK
+PT1020_0130_0020_SEO
+PT1020_0130_0030_SEO
+PT1020_0130_0040_MSK
+PT1020_0130_0050_SEO
+PT1020_0130_0070_MSK
+PT1020_0130_0080_SEO
+PT1020_0135_0010_YKM
+PT1020_0135_0020_UMI
+PT1020_0135_0030_YKM
+PT1020_0150_0010_UMI
+PT1020_0150_0020_YKM
+PT1020_0160_0010_MSK
+PT1020_0160_0010_UMI
+PT1020_0170_0020_YKM
+PT1020_0171_0010_UMI
+PT1020_0171_0020_YKM
+PT1020_0171_0030_YKM
+PT1020_0180_0010_YKM
+PT1020_0180_0020_SEO
+SV_SHOP_TALK_T_0020_0010_TRN
+SV_SHOP_TALK_T_0020_0020_YKM
+SV_SHOP_TALK_T_0020_0030_TRN
+SV_SHOP_TALK_T_0020_0040_YKM
+SV_SHOP_TALK_T_0020_0050_TRN
+SV_SHOP_TALK_T_0020_0060_TRN
+SV_SHOP_TALK_T_0020_0070_YKM
+SV_SHOP_TALK_T_0020_0080_TRN
+SV_SHOP_TALK_T_0020_0090_YKM
+# 205891080
+# 1244165099
+# 1938533268
+# 2634566234
+# 4105355700
+
+### RTPC/GAME-VARIABLE NAMES (langs/1887787495.bnk: Vo_1_2)
+se_azimuth_amb
+
+### EVENT NAMES (langs/4126522167.bnk: Vo_1_2_3_Shared)
+SV_SHOP_TALK_U_0020_0010_YKM
+SV_SHOP_TALK_U_0020_0020_UMI
+SV_SHOP_TALK_U_0020_0030_UMI
+SV_SHOP_TALK_U_0020_0040_YKM
+SV_SHOP_TALK_U_0020_0050_UMI
+SV_SHOP_TALK_U_0020_0060_UMI
+
+### RTPC/GAME-VARIABLE NAMES (langs/4126522167.bnk: Vo_1_2_3_Shared)
+se_azimuth_amb
+
+### EVENT NAMES (langs/1887787494.bnk: Vo_1_3)
+ev1010_vo_End
+ev1010_vo_skip
+ev1010_vo_Start
+ev1020_vo_End
+ev1020_vo_skip
+ev1020_vo_Start
+PT1020_0190_0010_SEO
+PT1020_0190_0020_YKM
+SV_SHOP_TALK_T_0030_0010_TRN
+SV_SHOP_TALK_T_0030_0020_YKM
+SV_SHOP_TALK_T_0030_0030_TRN
+SV_SHOP_TALK_T_0030_0040_YKM
+SV_SHOP_TALK_T_0030_0050_TRN
+SV_SHOP_TALK_T_0030_0060_TRN
+SV_SHOP_TALK_U_0030_0010_YKM
+SV_SHOP_TALK_U_0030_0020_UMI
+SV_SHOP_TALK_U_0030_0030_UMI
+SV_SHOP_TALK_U_0030_0040_YKM
+SV_SHOP_TALK_U_0030_0050_UMI
+SV_SHOP_TALK_U_0030_0060_YKM
+SV_SHOP_TALK_U_0030_0070_YKM
+SV_SHOP_TALK_U_0030_0080_UMI
+# 23942694
+# 236120553
+# 441072892
+# 453420291
+# 494414993
+# 575050370
+# 580491154
+# 688371171
+# 768517753
+# 802173863
+# 844362810
+# 937347174
+# 1223424220
+# 1294612283
+# 1534483856
+# 1577533842
+# 1599955553
+# 1646232257
+# 1689005882
+# 1897234682
+# 2003471702
+# 2390838825
+# 2504863818
+# 2703624176
+# 2717916997
+# 2735786108
+# 2789704467
+# 3102081973
+# 3258009143
+# 3494464852
+# 3637259330
+# 3940994315
+# 3964815519
+# 3999406720
+# 4063572890
+
+### RTPC/GAME-VARIABLE NAMES (langs/1887787494.bnk: Vo_1_3)
+se_azimuth_amb
+
+### EVENT NAMES (langs/1888228779.bnk: Vo_2_1)
+ev2000_vo_End
+ev2000_vo_skip
+ev2000_vo_Start
+SV_SHOP_TALK_T_0040_0010_TRN
+SV_SHOP_TALK_T_0040_0020_YKM
+SV_SHOP_TALK_T_0040_0030_TRN
+SV_SHOP_TALK_T_0040_0040_TRN
+SV_SHOP_TALK_T_0040_0050_YKM
+SV_SHOP_TALK_T_0040_0060_YKM
+SV_SHOP_TALK_T_0040_0070_TRN
+SV_SHOP_TALK_U_0040_0010_UMI
+SV_SHOP_TALK_U_0040_0020_YKM
+SV_SHOP_TALK_U_0040_0030_UMI
+SV_SHOP_TALK_U_0040_0040_UMI
+SV_SHOP_TALK_U_0040_0050_UMI
+SV_SHOP_TALK_U_0040_0060_YKM
+# 35997812
+# 98443622
+# 105742781
+# 295739001
+# 380406520
+# 410812016
+# 411115224
+# 709445985
+# 785589813
+# 888226999
+# 896873905
+# 968398370
+# 1076000670
+# 1125073846
+# 1340770131
+# 1356551386
+# 1443257831
+# 1466282590
+# 1481483550
+# 1682859229
+# 1954594893
+# 2141404331
+# 2227578285
+# 2306775201
+# 2366675200
+# 2401562595
+# 2405054163
+# 2521644819
+# 2744272326
+# 2937737685
+# 3014693438
+# 3131906784
+# 3170726174
+# 3213308304
+# 3399488341
+# 3633097110
+# 3671129642
+# 3800742390
+# 3810530061
+# 3974623854
+# 3995451590
+# 4141641431
+# 4184843379
+# 4200929287
+# 4273556212
+
+### RTPC/GAME-VARIABLE NAMES (langs/1888228779.bnk: Vo_2_1)
+se_azimuth_amb
+
+### EVENT NAMES (langs/1888228776.bnk: Vo_2_2)
+SV_SHOP_TALK_T_0050_0010_TRN
+SV_SHOP_TALK_T_0050_0020_YKM
+SV_SHOP_TALK_T_0050_0030_TRN
+SV_SHOP_TALK_T_0050_0040_YKM
+SV_SHOP_TALK_T_0050_0050_TRN
+SV_SHOP_TALK_T_0050_0060_YKM
+SV_SHOP_TALK_T_0050_0070_TRN
+SV_SHOP_TALK_U_0050_0010_UMI
+SV_SHOP_TALK_U_0050_0020_YKM
+SV_SHOP_TALK_U_0050_0030_UMI
+SV_SHOP_TALK_U_0050_0050_UMI
+SV_SHOP_TALK_U_0050_0070_UMI
+# 21572770
+# 339770345
+# 434341678
+# 513016888
+# 570583547
+# 769472725
+# 846687107
+# 933010841
+# 1084311632
+# 1156125283
+# 1635456228
+# 1694008582
+# 1915327855
+# 1957720356
+# 2093856458
+# 2113361285
+# 2136780631
+# 2364988794
+# 2503388423
+# 2597295357
+# 2639934530
+# 2663033259
+# 2685852997
+# 2690568409
+# 2839839675
+# 3009451562
+# 3054563398
+# 3063550441
+# 3158345301
+# 3239425418
+# 3257078320
+# 3340718640
+# 3372754959
+# 3488505523
+# 3708581828
+# 3737755069
+# 3782503231
+# 4023130846
+# 4078702542
+
+### RTPC/GAME-VARIABLE NAMES (langs/1888228776.bnk: Vo_2_2)
+se_azimuth_amb
+
+### EVENT NAMES (langs/1888228777.bnk: Vo_2_3)
+SV_SHOP_TALK_T_0060_0010_TRN
+SV_SHOP_TALK_T_0060_0020_YKM
+SV_SHOP_TALK_T_0060_0030_TRN
+SV_SHOP_TALK_T_0060_0040_YKM
+SV_SHOP_TALK_T_0060_0050_TRN
+SV_SHOP_TALK_T_0060_0060_TRN
+SV_SHOP_TALK_U_0060_0010_UMI
+SV_SHOP_TALK_U_0060_0020_YKM
+SV_SHOP_TALK_U_0060_0030_UMI
+SV_SHOP_TALK_U_0060_0070_UMI
+SV_SHOP_TALK_U_0060_0090_YKM
+SV_SHOP_TALK_U_0160_0020_YKM
+SV_SHOP_TALK_U_0160_0080_UMI
+SV_SHOP_TALK_U_0160_0110_YKM
+# 147431893
+# 274340868
+# 703430433
+# 868782486
+# 987002811
+# 1061195304
+# 1072619982
+# 1317316328
+# 1386524646
+# 1584340120
+# 1591562343
+# 1763664630
+# 1835354485
+# 2016828864
+# 2191312270
+# 2200144410
+# 2387410730
+# 2451851166
+# 2454588844
+# 2632235691
+# 2757136631
+# 2845319549
+# 2917353689
+# 2934627353
+# 3094563810
+# 3109692006
+# 3407078037
+# 3523562522
+# 3847256388
+# 4166681343
+
+### RTPC/GAME-VARIABLE NAMES (langs/1888228777.bnk: Vo_2_3)
+se_azimuth_amb
+
+### EVENT NAMES (langs/1888228782.bnk: Vo_2_4)
+ev2010_vo_End
+ev2010_vo_skip
+ev2010_vo_Start
+ev2020_vo_End
+ev2020_vo_skip
+ev2020_vo_Start
+ev2030_vo_End
+ev2030_vo_skip
+ev2030_vo_Start
+SV_SHOP_TALK_T_0070_0010_TRN
+SV_SHOP_TALK_T_0070_0020_YKM
+SV_SHOP_TALK_T_0070_0030_TRN
+SV_SHOP_TALK_T_0070_0040_TRN
+SV_SHOP_TALK_T_0070_0050_YKM
+SV_SHOP_TALK_T_0070_0060_TRN
+SV_SHOP_TALK_T_0070_0070_TRN
+SV_SHOP_TALK_T_0070_0080_TRN
+SV_SHOP_TALK_T_0070_0090_TRN
+SV_SHOP_TALK_U_0070_0010_UMI
+SV_SHOP_TALK_U_0070_0020_YKM
+SV_SHOP_TALK_U_0070_0050_YKM
+SV_SHOP_TALK_U_0070_0060_UMI
+SV_SHOP_TALK_U_0070_0080_UMI
+SV_SHOP_TALK_U_0070_0090_YKM
+# 70425980
+# 178578541
+# 414357658
+# 1413249165
+# 1443302103
+# 1551697361
+# 1598186792
+# 2263102932
+# 2488702897
+# 2726777484
+# 3015579918
+# 3368390443
+# 3567976311
+# 4101843779
+
+### RTPC/GAME-VARIABLE NAMES (langs/1888228782.bnk: Vo_2_4)
+se_azimuth_amb
+
+### EVENT NAMES (langs/814314098.bnk: Vo_3_1)
+ev3000_vo_End
+ev3000_vo_skip
+ev3000_vo_Start
+SV_SHOP_TALK_T_0080_0010_TRN
+SV_SHOP_TALK_T_0080_0020_YKM
+SV_SHOP_TALK_T_0080_0030_TRN
+SV_SHOP_TALK_T_0080_0040_TRN
+SV_SHOP_TALK_T_0080_0050_YKM
+SV_SHOP_TALK_T_0080_0060_TRN
+SV_SHOP_TALK_T_0080_0070_TRN
+SV_SHOP_TALK_T_0080_0080_TRN
+SV_SHOP_TALK_T_0080_0090_YKM
+SV_SHOP_TALK_T_0080_0100_TRN
+SV_SHOP_TALK_U_0080_0010_UMI
+SV_SHOP_TALK_U_0080_0020_YKM
+SV_SHOP_TALK_U_0080_0030_YKM
+SV_SHOP_TALK_U_0080_0040_UMI
+# 25719899
+# 302316221
+# 341527238
+# 360507923
+# 568729138
+# 640927287
+# 779652500
+# 786757606
+# 795221824
+# 1003539316
+# 1015966942
+# 1424655054
+# 1463287590
+# 1668222119
+# 1676407899
+# 2069688790
+# 2117893367
+# 2121539397
+# 2220925069
+# 2486919040
+# 2728760559
+# 2802003196
+# 2837395299
+# 2959311563
+# 3027422634
+# 3511418575
+# 3592749129
+# 3668546293
+# 3689852431
+# 3750572142
+# 3755287958
+# 3765486652
+# 3882046345
+# 3885741864
+# 4098719180
+# 4152486584
+# 4272499545
+
+### RTPC/GAME-VARIABLE NAMES (langs/814314098.bnk: Vo_3_1)
+se_azimuth_amb
+
+### EVENT NAMES (langs/814314097.bnk: Vo_3_2)
+SV_SHOP_TALK_T_0090_0010_TRN
+SV_SHOP_TALK_T_0090_0020_TRN
+SV_SHOP_TALK_T_0090_0030_YKM
+SV_SHOP_TALK_T_0090_0040_TRN
+SV_SHOP_TALK_T_0090_0050_TRN
+SV_SHOP_TALK_T_0090_0060_YKM
+SV_SHOP_TALK_U_0090_0010_UMI
+SV_SHOP_TALK_U_0090_0020_YKM
+SV_SHOP_TALK_U_0090_0030_UMI
+SV_SHOP_TALK_U_0090_0040_YKM
+SV_SHOP_TALK_U_0090_0050_UMI
+SV_SHOP_TALK_U_0090_0060_UMI
+# 91278585
+# 284955662
+# 455273574
+# 697404009
+# 763798408
+# 1055241261
+# 1995541486
+# 2100895427
+# 2127326529
+# 2328720626
+# 2425979540
+# 3758894975
+# 4238639533
+# 4267280090
+
+### RTPC/GAME-VARIABLE NAMES (langs/814314097.bnk: Vo_3_2)
+se_azimuth_amb
+
+### EVENT NAMES (langs/814314096.bnk: Vo_3_3)
+ev3010_vo_End
+ev3010_vo_skip
+ev3010_vo_Start
+ev3020_vo_End
+ev3020_vo_skip
+ev3020_vo_Start
+ev3030_vo_End
+ev3030_vo_skip
+ev3030_vo_Start
+SV_SHOP_TALK_T_0100_0010_TRN
+SV_SHOP_TALK_T_0100_0020_TRN
+SV_SHOP_TALK_T_0100_0030_YKM
+SV_SHOP_TALK_U_0100_0010_YKM
+SV_SHOP_TALK_U_0100_0020_UMI
+# 276221169
+# 821284195
+# 1182507233
+# 1303437530
+# 1349104828
+# 1809687163
+# 1836294861
+# 2338434125
+# 2704477070
+# 3550121380
+# 3722553763
+# 4040108957
+
+### RTPC/GAME-VARIABLE NAMES (langs/814314096.bnk: Vo_3_3)
+se_azimuth_amb
+
+### EVENT NAMES (langs/814858553.bnk: Vo_4_1)
+ev4000_vo_End
+ev4000_vo_skip
+ev4000_vo_Start
+SV_SHOP_TALK_T_0110_0010_TRN
+SV_SHOP_TALK_T_0110_0020_TRN
+SV_SHOP_TALK_T_0110_0030_TRN
+SV_SHOP_TALK_T_0110_0040_TRN
+SV_SHOP_TALK_T_0110_0050_YKM
+SV_SHOP_TALK_T_0110_0060_TRN
+SV_SHOP_TALK_T_0110_0070_YKM
+SV_SHOP_TALK_T_0110_0080_TRN
+SV_SHOP_TALK_T_0110_0090_YKM
+SV_SHOP_TALK_T_0110_0100_TRN
+SV_SHOP_TALK_U_0110_0010_UMI
+SV_SHOP_TALK_U_0110_0040_YKM
+SV_SHOP_TALK_U_0110_0060_UMI
+SV_SHOP_TALK_U_0110_0080_UMI
+SV_SHOP_TALK_U_0110_0090_YKM
+# 3013297
+# 66623396
+# 333913425
+# 732421887
+# 1241312940
+# 2331435611
+# 2516902777
+# 2951506705
+# 3219152730
+# 3394438886
+# 3431419731
+# 3583291908
+# 3730370766
+# 4174337901
+
+### RTPC/GAME-VARIABLE NAMES (langs/814858553.bnk: Vo_4_1)
+se_azimuth_amb
+
+### EVENT NAMES (langs/814858554.bnk: Vo_4_2)
+SV_SHOP_TALK_T_0120_0010_TRN
+SV_SHOP_TALK_T_0120_0020_TRN
+SV_SHOP_TALK_T_0120_0030_TRN
+SV_SHOP_TALK_T_0120_0040_TRN
+SV_SHOP_TALK_T_0120_0050_TRN
+SV_SHOP_TALK_T_0120_0060_TRN
+SV_SHOP_TALK_T_0120_0070_YKM
+SV_SHOP_TALK_U_0120_0010_UMI
+SV_SHOP_TALK_U_0120_0020_YKM
+SV_SHOP_TALK_U_0120_0030_UMI
+SV_SHOP_TALK_U_0120_0040_YKM
+SV_SHOP_TALK_U_0120_0050_UMI
+# 98272029
+# 247893088
+# 299860890
+# 317524981
+# 323239819
+# 347155420
+# 351247787
+# 365315390
+# 400302343
+# 491989689
+# 578844770
+# 618546562
+# 702666444
+# 709159232
+# 753321690
+# 905667806
+# 1020131620
+# 1028230398
+# 1056287481
+# 1124483964
+# 1150698355
+# 1193628465
+# 1387120277
+# 1533637078
+# 1571996861
+# 1607090713
+# 1638456467
+# 1892702352
+# 2031830775
+# 2045527134
+# 2075383155
+# 2174913563
+# 2363140247
+# 2467454738
+# 2531484798
+# 2539594485
+# 2643879521
+# 2696845975
+# 2749908758
+# 3041860994
+# 3350962890
+# 3387929140
+# 3425355983
+# 3430004655
+# 3445688949
+# 3471159691
+# 3572374459
+# 3632958894
+# 3721555102
+# 3774334173
+# 3920296103
+# 4000186827
+# 4061253225
+# 4109118448
+# 4152989507
+# 4165142552
+# 4206987925
+# 4216095466
+# 4250487410
+
+### RTPC/GAME-VARIABLE NAMES (langs/814858554.bnk: Vo_4_2)
+se_azimuth_amb
+
+### EVENT NAMES (langs/814858555.bnk: Vo_4_3)
+ev4010_vo_End
+ev4010_vo_skip
+ev4010_vo_Start
+ev4020_vo_End
+ev4020_vo_skip
+ev4020_vo_Start
+ev4030_vo_End
+ev4030_vo_skip
+ev4030_vo_Start
+ev4040_vo_End
+ev4040_vo_skip
+ev4040_vo_Start
+SV_SHOP_TALK_T_0130_0010_YKM
+SV_SHOP_TALK_T_0130_0020_TRN
+SV_SHOP_TALK_T_0130_0030_TRN
+SV_SHOP_TALK_T_0130_0040_TRN
+SV_SHOP_TALK_T_0130_0050_TRN
+SV_SHOP_TALK_T_0130_0060_YKM
+SV_SHOP_TALK_U_0130_0010_UMI
+SV_SHOP_TALK_U_0130_0020_YKM
+SV_SHOP_TALK_U_0130_0030_UMI
+SV_SHOP_TALK_U_0130_0040_UMI
+SV_SHOP_TALK_U_0130_0050_YKM
+# 872667162
+# 1188833539
+# 1357756512
+# 1507937070
+# 1673058972
+# 2002074573
+# 2021877395
+# 2509681477
+# 2516766309
+# 2604840890
+# 2840638529
+# 3072980184
+# 3089100146
+# 3335920072
+# 3865028099
+
+### RTPC/GAME-VARIABLE NAMES (langs/814858555.bnk: Vo_4_3)
+se_azimuth_amb
+
+### EVENT NAMES (langs/1888375808.bnk: Vo_5_1)
+ev5000_vo_End
+ev5000_vo_skip
+ev5000_vo_Start
+# 3175365358
+# 3717148796
+# 4170546437
+# 4214923286
+
+### EVENT NAMES (langs/1888375811.bnk: Vo_5_2)
+ev5010_vo_End
+ev5010_vo_skip
+ev5010_vo_Start
+# 310505336
+# 446332611
+# 575504985
+# 735991710
+# 760989586
+# 1305503339
+# 1960614157
+# 2435346703
+# 2529638649
+# 2856826992
+# 2941036328
+# 3570125238
+# 3707304606
+# 3983175560
+
+### EVENT NAMES (langs/1888375810.bnk: Vo_5_3)
+ev5020_vo_End
+ev5020_vo_skip
+ev5020_vo_Start
+# 887697093
+# 1206358978
+# 2787304986
+# 2799541412
+# 3871197676
+
+### EVENT NAMES (langs/1888375813.bnk: Vo_5_4)
+ev5030_vo_End
+ev5030_vo_skip
+ev5030_vo_Start
+# 747244324
+# 3449029186
+# 4172769438
+
+### EVENT NAMES (langs/1888375812.bnk: Vo_5_5)
+ev5040_vo_End
+ev5040_vo_skip
+ev5040_vo_Start
+ev5050_vo_End
+ev5050_vo_skip
+ev5050_vo_Start
+# 3363586376
+
+### EVENT NAMES (langs/1888920263.bnk: Vo_6_1)
+ev6000_vo_End
+ev6000_vo_skip
+ev6000_vo_Start
+ev6010_vo_End
+ev6010_vo_skip
+ev6010_vo_Start
+ev6020_vo_End
+ev6020_vo_skip
+ev6020_vo_Start
+SV_SHOP_TALK_U_0140_0010_UMI
+SV_SHOP_TALK_U_0140_0020_YKM
+SV_SHOP_TALK_U_0140_0030_UMI
+SV_SHOP_TALK_U_0140_0040_YKM
+# 503466578
+
+### RTPC/GAME-VARIABLE NAMES (langs/1888920263.bnk: Vo_6_1)
+se_azimuth_amb
+
+### EVENT NAMES (langs/1888920260.bnk: Vo_6_2)
+ev6030_vo_End
+ev6030_vo_skip
+ev6030_vo_Start
+ev6040_vo_End
+ev6040_vo_skip
+ev6040_vo_Start
+ev6050_vo_End
+ev6050_vo_skip
+ev6050_vo_Start
+SV_SHOP_TALK_T_0140_0010_TRN
+SV_SHOP_TALK_T_0140_0020_YKM
+SV_SHOP_TALK_T_0140_0030_TRN
+SV_SHOP_TALK_T_0140_0040_YKM
+SV_SHOP_TALK_T_0140_0050_YKM
+SV_SHOP_TALK_T_0140_0060_TRN
+SV_SHOP_TALK_T_0140_0070_TRN
+SV_SHOP_TALK_T_0140_0080_YKM
+SV_SHOP_TALK_U_0150_0010_UMI
+SV_SHOP_TALK_U_0150_0020_YKM
+SV_SHOP_TALK_U_0150_0030_YKM
+# 1437589985
+
+### RTPC/GAME-VARIABLE NAMES (langs/1888920260.bnk: Vo_6_2)
+se_azimuth_amb
+
+### EVENT NAMES (langs/815005615.bnk: Vo_7_0)
+ev7000_vo_End
+ev7000_vo_skip
+ev7000_vo_Start
+ev7010_vo_End
+ev7010_vo_skip
+ev7010_vo_Start
+
+### EVENT NAMES (langs/2690450041.bnk: Voice_Global)
+AV_DEATH_001_MSK
+AV_DEATH_001_SEO
+AV_DEATH_001_UMI
+AV_DEATH_002_MSK
+AV_DEATH_002_SEO
+AV_DEATH_002_UMI
+AV_DEATH_003_MSK
+AV_DEATH_003_SEO
+AV_DEATH_003_UMI
+AV_DEATH_004_MSK
+AV_DEATH_004_SEO
+AV_DEATH_004_UMI
+AV_DEATH_005_MSK
+AV_DEATH_005_SEO
+AV_DEATH_005_UMI
+AV_DEATH_006_MSK
+AV_DEATH_006_SEO
+AV_DEATH_006_UMI
+AV_DEATH_007_MSK
+AV_DEATH_007_SEO
+AV_DEATH_007_UMI
+AV_DEATH_008_MSK
+AV_DEATH_008_SEO
+AV_DEATH_008_UMI
+AV_DEATH_009_MSK
+AV_DEATH_009_SEO
+AV_DEATH_009_UMI
+AV_DEATH_010_MSK
+AV_DEATH_010_SEO
+AV_DEATH_010_UMI
+AV_DEATH_011_SEO
+AV_DEATH_012_SEO
+AV_DEATH_013_SEO
+AV_DEATH_014_SEO
+AV_DEATH_015_SEO
+core_Sound_Test_Voice
+core_Vo_Resurrect
+Stop_core_Sound_Test_Voice
+SV_HELP_GREETING_RYU_001_AYN
+SV_HELP_GREETING_RYU_002_AYN
+SV_HELP_GREETING_RYU_003_AYN
+SV_HELP_GREETING_YKM_001_AYN
+SV_HELP_GREETING_YKM_002_YKM
+SV_HELP_GREETING_YKM_003_AYN
+SV_HELP_GREETING_YKM_004_YKM
+SV_HELP_GREETING_YKM_005_AYN
+SV_HELP_GREETING_YKM_006_YKM
+
+### EVENT NAMES (langs/1221798291.bnk: em0000_Vo)
+em0000_Vo_atk_grenade
+em0000_Vo_Atk_L_Missile
+em0000_Vo_Atk_L_Rifle
+em0000_Vo_Atk_L_sword
+em0000_Vo_Atk_s_General
+em0000_Vo_Atk_s_Missile
+em0000_Vo_Atk_s_Rifle
+em0000_Vo_Atk_s_sword
+em0000_Vo_Dmg_Death
+em0000_Vo_Dmg_Death_Cine
+em0000_Vo_Dmg_fall
+em0000_Vo_Dmg_Limb
+em0000_vo_dmg_m
+em0000_vo_dmg_m_Cine
+em0000_vo_dmg_s
+em0000_Vo_Dmg_S_Cine
+em0000_Vo_Mvt_Alert_Ed
+em0000_Vo_Mvt_Alert_St
+em0000_Vo_Mvt_battle_St
+em0000_Vo_Mvt_Breath_Exhausted
+em0000_Vo_Mvt_Breath_normal
+em0000_Vo_Mvt_Breath_Tired
+em0000_Vo_Mvt_Discover
+em0000_Vo_Mvt_intimidate
+em0000_Vo_Mvt_intimidate_Missile
+em0000_Vo_Mvt_intimidate_Rifle
+em0000_Vo_Mvt_intimidate_Sword
+em0000_Vo_Mvt_patrol
+# 149154868
+# 500646162
+# 1485958942
+# 3422576379
+# 3526370638
+
+### RTPC/GAME-VARIABLE NAMES (langs/1221798291.bnk: em0000_Vo)
+se_azimuth
+SE_Elevation
+SE_em_Head_Lost
+
+### VARIABLE NAMES (langs/1221798291.bnk: em0000_Vo)
+SE_em0000_Vo_Variety
+
+### VALUE NAMES (langs/1221798291.bnk: em0000_Vo)
+EM0000_a
+EM0000_b
+EM0000_c
+
+### EVENT NAMES (langs/3394335310.bnk: em0010_Vo)
+em0010_Vo_Atk_Charge
+em0010_vo_atk_grenade
+em0010_Vo_atk_l_Rifle
+em0010_Vo_atk_l_Shuriken
+em0010_Vo_atk_l_Sword
+em0010_Vo_Atk_s_General
+em0010_Vo_atk_s_Rifle
+em0010_Vo_atk_s_Shuriken
+em0010_Vo_atk_s_Sword
+em0010_vo_dmg_death
+em0010_vo_dmg_death_Cine
+em0010_vo_dmg_fall
+em0010_vo_dmg_Limb
+em0010_Vo_Dmg_M
+em0010_Vo_Dmg_M_Cine
+em0010_Vo_Dmg_S
+em0010_Vo_Dmg_S_Cine
+em0010_Vo_Mvt_Alert_Ed
+em0010_Vo_Mvt_Alert_St
+em0010_Vo_Mvt_battle_St
+em0010_Vo_Mvt_Breath_Exhausted
+em0010_Vo_Mvt_Breath_normal
+em0010_Vo_Mvt_Breath_Tired
+em0010_Vo_Mvt_Discover
+em0010_Vo_Mvt_intimidate_Rifle
+em0010_Vo_Mvt_intimidate_Shuriken
+em0010_Vo_Mvt_intimidate_Sword
+em0010_Vo_Mvt_patrol
+# 1397252270
+# 2728721411
+# 2814357993
+# 3804299723
+# 4021570141
+
+### RTPC/GAME-VARIABLE NAMES (langs/3394335310.bnk: em0010_Vo)
+se_azimuth
+SE_Elevation
+SE_em_Head_Lost
+
+### VARIABLE NAMES (langs/3394335310.bnk: em0010_Vo)
+SE_em0010_Vo_Variety
+
+### VALUE NAMES (langs/3394335310.bnk: em0010_Vo)
+EM0010_a
+EM0010_b
+EM0010_c
+
+### EVENT NAMES (langs/1744629436.bnk: em0030_Vo)
+em0030_Vo_Atk_ChargeUp
+em0030_Vo_Atk_L
+em0030_Vo_Atk_m
+em0030_Vo_Atk_S
+em0030_Vo_Dmg_death
+em0030_Vo_Dmg_l
+em0030_Vo_Dmg_l_Cine
+em0030_Vo_Dmg_S
+em0030_Vo_Dmg_S_Cine
+em0030_Vo_Dmg_standup
+em0030_Vo_Mvt_Breath_Tired
+em0030_Vo_mvt_intimidate_m
+em0030_Vo_mvt_intimidate_S
+stop_em0030_Vo_Atk_ChargeUp
+# 235996887
+# 2444985722
+# 2805894880
+
+### RTPC/GAME-VARIABLE NAMES (langs/1744629436.bnk: em0030_Vo)
+se_azimuth
+
+### VARIABLE NAMES (langs/1744629436.bnk: em0030_Vo)
+SE_EM0030_Vo_Variety
+
+### VALUE NAMES (langs/1744629436.bnk: em0030_Vo)
+EM0030_a
+EM0030_b
+
+### EVENT NAMES (langs/501756323.bnk: em0035_Vo)
+em0035_vo_atk_l_cannon
+em0035_Vo_Atk_L_General
+em0035_vo_atk_l_Naginata
+em0035_vo_atk_s_cannon
+em0035_Vo_Atk_s_General
+em0035_vo_atk_s_Naginata
+em0035_Vo_Dmg_death
+em0035_Vo_Dmg_death_Cine
+em0035_Vo_Dmg_Fall
+em0035_Vo_dmg_Limb
+em0035_Vo_Dmg_M
+em0035_Vo_Dmg_M_Cine
+em0035_Vo_Dmg_S
+em0035_Vo_Dmg_S_Cine
+Em0035_Vo_Mvt_Alert_Ed
+Em0035_Vo_Mvt_Alert_St
+Em0035_Vo_Mvt_battle_St
+em0035_Vo_Mvt_Breath_dash
+em0035_Vo_Mvt_Breath_Exhausted
+em0035_Vo_Mvt_Breath_normal
+em0035_Vo_Mvt_Breath_run
+em0035_Vo_Mvt_Breath_Tired
+em0035_Vo_Mvt_Discover
+em0035_vo_mvt_intimidate_cannon
+em0035_vo_mvt_intimidate_Naginata
+em0035_Vo_Mvt_patrol
+# 689541035
+# 964073438
+# 2657075074
+# 2842467652
+
+### RTPC/GAME-VARIABLE NAMES (langs/501756323.bnk: em0035_Vo)
+se_azimuth
+SE_Elevation
+SE_em_Head_Lost
+
+### VARIABLE NAMES (langs/501756323.bnk: em0035_Vo)
+SE_Em0035_Vo_Variety
+
+### VALUE NAMES (langs/501756323.bnk: em0035_Vo)
+Em0035_a
+Em0035_b
+
+### EVENT NAMES (langs/1903575668.bnk: em0500_Vo)
+em0500_Vo_Atk_L_General
+em0500_Vo_Atk_s_General
+em0500_VO_DMG_Death
+em0500_VO_DMG_Death_Cine
+em0500_VO_DMG_fall
+em0500_vo_dmg_l
+em0500_vo_dmg_l_Cine
+em0500_vo_dmg_s
+em0500_vo_dmg_s_Cine
+em0500_Vo_Mvt_battle_St
+em0500_Vo_Mvt_Breath_Exhausted
+em0500_Vo_Mvt_Breath_normal
+em0500_Vo_Mvt_Breath_Tired
+em0500_Vo_Mvt_Discover
+em0500_Vo_Mvt_GENERAL
+em0500_Vo_Mvt_intimidate
+# 242142427
+# 1128237627
+# 1516241489
+# 2878748516
+
+### RTPC/GAME-VARIABLE NAMES (langs/1903575668.bnk: em0500_Vo)
+SE_em_Head_Lost
+
+### VARIABLE NAMES (langs/1903575668.bnk: em0500_Vo)
+SE_em0500_Vo_Variety
+
+### VALUE NAMES (langs/1903575668.bnk: em0500_Vo)
+em0500_a
+em0500_b
+
+### EVENT NAMES (langs/3005951782.bnk: em0520_Vo)
+em0520_Vo_Atk_L_General
+em0520_Vo_Atk_s_General
+em0520_vo_Dmg_l
+em0520_vo_Dmg_l_Cine
+em0520_vo_Dmg_s
+em0520_vo_Dmg_s #alt
+em0520_Vo_Dmg_S_Cine
+# 89960329
+# 137792576
+# 174393029
+# 205866160
+# 217470595
+# 260782446
+# 347619156
+# 347619159
+# 583361515
+# 1074784228
+# 1187060351
+# 1197095701
+# 1391537126
+# 1603459128
+# 1664371133
+# 1682061559
+# 1771404334
+# 1862040215
+# 1951189719
+# 1996055869
+# 2640448068
+# 3492464293
+# 3775349369
+# 4211065122
+
+### RTPC/GAME-VARIABLE NAMES (langs/3005951782.bnk: em0520_Vo)
+se_azimuth
+SE_Elevation
+SE_em_Type
+
+### VARIABLE NAMES (langs/3005951782.bnk: em0520_Vo)
+SE_em0520_Phase
+
+### VALUE NAMES (langs/3005951782.bnk: em0520_Vo)
+Phase01
+Phase02
+Phase03
+Phase04
+Phase05
+
+### EVENT NAMES (langs/2202045030.bnk: em1000_Vo)
+em1000_Vo_Atk_Grab
+em1000_Vo_Atk_Inhale
+em1000_Vo_Atk_L
+em1000_Vo_Atk_Phantom
+em1000_Vo_Atk_S
+em1000_Vo_Atk_throw
+em1000_VO_DMG_death
+em1000_VO_DMG_death_fake
+em1000_Vo_Dmg_l
+em1000_Vo_Dmg_S
+em1000_Vo_KillConfirm_Bodyfall
+em1000_Vo_KillConfirm_death
+em1000_vo_KillConfirm_Hit_01
+em1000_vo_KillConfirm_Hit_02
+em1000_Vo_Mvt_Murmur
+# 1837260008
+# 2050798154
+# 2494026361
+
+### EVENT NAMES (langs/4033770627.bnk: em1300_Vo)
+em1300_Vo_Atk_Anticipation
+em1300_Vo_Atk_Anticipation_fx
+em1300_Vo_Atk_Grab
+em1300_Vo_Dmg_death
+em1300_Vo_Dmg_KillConfirm
+em1300_Vo_Dmg_l
+em1300_Vo_Dmg_S
+em1300_Vo_Mvt_Breath_normal
+em1300_Vo_Mvt_Breath_run
+em1300_Vo_Mvt_GENERAL_S
+em1300_Vo_Mvt_intimidate
+em1300_Vo_Mvt_PhaseChange
+# 765877936
+# 882412736
+# 1260147943
+# 1320075040
+# 1746551751
+# 1932064348
+# 2116765300
+# 2227457651
+# 2311198507
+# 3276753172
+# 3947087465
+# 4283006793
+
+### RTPC/GAME-VARIABLE NAMES (langs/4033770627.bnk: em1300_Vo)
+se_azimuth
+
+### VARIABLE NAMES (langs/4033770627.bnk: em1300_Vo)
+SE_em1300_Phase
+
+### VALUE NAMES (langs/4033770627.bnk: em1300_Vo)
+phase1
+phase2
+
+### EVENT NAMES (langs/3501704666.bnk: em1400_Vo)
+em1400_Vo_Atk_Anticipation
+em1400_Vo_Atk_Grab
+em1400_Vo_Atk_L
+em1400_Vo_Atk_S
+em1400_Vo_Atk_Shadow
+em1400_Vo_Breath_dash
+em1400_Vo_Breath_Exhausted
+em1400_Vo_Breath_normal
+em1400_Vo_Breath_run
+em1400_Vo_Breath_Tired
+em1400_Vo_Dmg_death
+em1400_Vo_Dmg_KillConfirm
+em1400_Vo_Dmg_KillConfirm_Ryu_01
+em1400_Vo_Dmg_KillConfirm_Ryu_02
+em1400_Vo_Dmg_KillConfirm_Yakumo_01
+em1400_Vo_Dmg_l
+em1400_Vo_Dmg_l_Cine
+em1400_Vo_Dmg_S
+em1400_Vo_Dmg_S_Cine
+em1400_Vo_Mvt_GENERAL_S
+em1400_Vo_Mvt_PhaseChange
+# 699469557
+# 1014722214
+# 1900920915
+# 2476209097
+
+### RTPC/GAME-VARIABLE NAMES (langs/3501704666.bnk: em1400_Vo)
+se_azimuth
+SE_em_Type
+
+### VARIABLE NAMES (langs/3501704666.bnk: em1400_Vo)
+SE_Player_Type
+
+### VALUE NAMES (langs/3501704666.bnk: em1400_Vo)
+Ryu
+Yakumo
+
+### EVENT NAMES (langs/3672806758.bnk: gmc_Muramasa_Vo)
+SV_SHOP_GREETING_001_MRM
+SV_SHOP_LEAVE_001_MRM
+
+### EVENT NAMES (langs/1979457293.bnk: gmc_Shop_Umi_Vo)
+SV_SHOP_arrival_001_umi
+SV_SHOP_arrival_002_UMI
+SV_SHOP_arrival_003_UMI
+SV_SHOP_GREETING_001_umi
+SV_SHOP_GREETING_002_UMI
+SV_SHOP_GREETING_003_UMI
+SV_SHOP_PURCHASE_001_UMI
+SV_SHOP_PURCHASE_002_UMI
+SV_SHOP_PURCHASE_003_UMI
+SV_SHOP_SMALLTALK_001_UMI
+SV_SHOP_SMALLTALK_002_UMI
+SV_SHOP_SMALLTALK_003_UMI
+SV_SHOP_SMALLTALK_004_UMI
+SV_SHOP_SMALLTALK_005_UMI
+SV_SHOP_SMALLTALK_006_UMI
+SV_SHOP_SMALLTALK_007_UMI
+SV_SHOP_SMALLTALK_008_UMI
+SV_SHOP_SMALLTALK_009_UMI
+SV_SHOP_SMALLTALK_010_UMI
+SV_SHOP_SMALLTALK_011_UMI
+SV_SHOP_SMALLTALK_012_UMI
+SV_SHOP_SMALLTALK_013_UMI
+SV_SHOP_SMALLTALK_014_UMI
+SV_SHOP_SMALLTALK_015_UMI
+SV_SHOP_SMALLTALK_016_UMI
+# 17032098
+# 181419523
+# 199353704
+# 204384931
+# 293327307
+# 746412537
+# 865242559
+# 1098080927
+# 1532979710
+# 1622869105
+# 1860296456
+# 2027617430
+# 2342860583
+# 2542090365
+# 3580322444
+# 3581089169
+# 3834788525
+# 4203033117
+
+### RTPC/GAME-VARIABLE NAMES (langs/1979457293.bnk: gmc_Shop_Umi_Vo)
+se_azimuth_amb
+
+### EVENT NAMES (langs/2366703712.bnk: gmc_SurveillanceDrone_Vo)
+gmc_SurveillanceDrone_Vo_Loop
+stop_gmc_SurveillanceDrone_Vo_Loop
+
+### RTPC/GAME-VARIABLE NAMES (langs/2366703712.bnk: gmc_SurveillanceDrone_Vo)
+gmc_SurveillanceDrone
+se_azimuth_amb
+
+### EVENT NAMES (langs/1265749229.bnk: obj0100_Vo)
+obj0100_Vo_Dmg_Fall
+obj0100_Vo_Mvt_Alert
+stop_obj0100_Vo_Dmg_Fall
+
+### EVENT NAMES (langs/3874080089.bnk: pl0000_vo)
+pl0000_GL_Mvt_Surfing_Nand
+PL0000_vo_ATK_BloodKill
+PL0000_vo_ATK_charge
+PL0000_vo_ATK_HIEN
+PL0000_vo_ATK_IZUNA
+pl0000_vo_Atk_KillConfirm_Anki
+pl0000_vo_Atk_L
+pl0000_vo_Atk_L_KillConfirm
+pl0000_vo_Atk_m
+pl0000_vo_Atk_m_KillConfirm
+pl0000_vo_Atk_S
+pl0000_vo_Atk_S_KillConfirm
+pl0000_vo_Dmg_death
+pl0000_Vo_Dmg_Death_Grabbed
+pl0000_vo_Dmg_L
+pl0000_vo_Dmg_L_Grabbed
+pl0000_vo_Dmg_S
+pl0000_vo_Dmg_S_Grabbed
+pl0000_vo_KillConfirm_EM0030
+pl0000_vo_KillConfirm_em0410
+pl0000_vo_KillConfirm_em0700
+pl0000_vo_KillConfirm_em1000
+pl0000_vo_KillConfirm_em1400
+pl0000_Vo_Mission_Found
+pl0000_Vo_Mission_Wanted
+pl0000_Vo_Mvt_JumpEnd
+pl0000_Vo_Mvt_s
+# 1771870001
+# 2020735920
+# 2579310987
+
+### VARIABLE NAMES (langs/3874080089.bnk: pl0000_vo)
+se_battle
+
+### VALUE NAMES (langs/3874080089.bnk: pl0000_vo)
+in
+out
+
+### EVENT NAMES (langs/4109220714.bnk: pl0500_Vo)
+PL0500_vo_ATK_charge
+pl0500_Vo_ATK_HIEN
+pl0500_Vo_Atk_L
+pl0500_Vo_Atk_L_Cine
+pl0500_Vo_Atk_m
+pl0500_Vo_Atk_m_Cine
+pl0500_Vo_Atk_S
+pl0500_Vo_Atk_S_Cine
+pl0500_Vo_Dmg_death
+pl0500_Vo_Dmg_Death_Grabbed
+pl0500_Vo_Dmg_l
+pl0500_Vo_Dmg_l_Cine
+pl0500_Vo_Dmg_S
+pl0500_Vo_Dmg_S_Cine
+pl0500_Vo_Mission_Found
+pl0500_Vo_Mission_Wanted
+pl0500_Vo_Mvt_Breath_dash
+pl0500_Vo_Mvt_Breath_Exhausted
+pl0500_Vo_Mvt_Breath_run
+pl0500_Vo_Mvt_Breath_Tired
+pl0500_Vo_Mvt_exhale
+pl0500_Vo_Mvt_jump
+pl0500_Vo_Mvt_JumpEnd
+# 477682595
+# 744208857
+# 3482626634
+
+### VARIABLE NAMES (langs/4109220714.bnk: pl0500_Vo)
+SE_Character_Type
+
+### VALUE NAMES (langs/4109220714.bnk: pl0500_Vo)
+enemy
+player
+
+### EVENT NAMES (langs/1246929400.bnk: pl2100_Vo)
+SV_HELP_GREETING_001_TRN
+SV_HELP_GREETING_002_TRN
+SV_HELP_GREETING_003_TRN
+SV_HELP_GREETING_004_TRN
+SV_HELP_GREETING_005_TRN
+SV_HELP_GREETING_006_TRN
+SV_SHOP_arrival_001_TRN
+SV_SHOP_arrival_002_TRN
+SV_SHOP_arrival_003_TRN
+SV_SHOP_ATTACKED_TRN
+SV_SHOP_Call_001_TRN
+SV_SHOP_Call_002_TRN
+SV_SHOP_Call_003_TRN
+SV_SHOP_GREETING_001_TRN
+SV_SHOP_GREETING_002_TRN
+SV_SHOP_GREETING_003_TRN
+SV_SHOP_GREETING_004_TRN
+SV_SHOP_PURCHASE_001_TRN
+SV_SHOP_PURCHASE_001_TRN #alt
+SV_SHOP_PURCHASE_002_TRN
+SV_SHOP_PURCHASE_003_TRN
+SV_SHOP_SMALLTALK_001_TRN
+SV_SHOP_SMALLTALK_002_TRN
+SV_SHOP_SMALLTALK_003_TRN
+SV_SHOP_SMALLTALK_004_TRN
+SV_SHOP_SMALLTALK_005_TRN
+SV_SHOP_SMALLTALK_006_TRN
+SV_SHOP_SMALLTALK_007_TRN
+SV_SHOP_SMALLTALK_008_TRN
+SV_SHOP_SMALLTALK_009_TRN
+SV_SHOP_SMALLTALK_010_TRN
+SV_SHOP_SMALLTALK_011_TRN
+SV_SHOP_SMALLTALK_012_TRN
+SV_SHOP_SMALLTALK_013_TRN
+SV_SHOP_SMALLTALK_014_TRN
+SV_SHOP_SMALLTALK_015_TRN
+SV_SHOP_Summon_001_TRN
+SV_SHOP_Summon_002_TRN
+SV_SHOP_Summon_003_TRN
+SV_SHOP_Topics_001_TRN
+SV_SHOP_Topics_002_TRN
+SV_SHOP_Topics_003_TRN
+SV_SHOP_training_001_TRN
+SV_SHOP_training_002_TRN
+SV_SHOP_training_003_TRN
+# 52950515
+# 198050056
+# 747652180
+# 1642334703
+# 1706609934
+# 2021062510
+# 2489334248
+# 4033465235
+# 4152553290
+
+### RTPC/GAME-VARIABLE NAMES (langs/1246929400.bnk: pl2100_Vo)
+se_azimuth_amb
+
+#232142224   : BGM_Camp_0_Guitar_2
+#290020412   : ExamRoom_Shop
+#2116765300  : TrCa_Fast
+#3276753172  : TrCa_Fast_Cine
+#820365602   : intro_lp1_Hesitation
+#1475276708  : BGM_purgatory_menu_uno
+#2610615516  : BGM_bt_kannon_Door_Open
+#4009329507  : BGM_Revival_stinger_Round
+#4255948358  : BGM_youma_Hit_Return
+
+#3974478280  : ot_Missile_lv1_HPF
+#2499361774  : bt_phase_se_music
+#163908245   : battle_rtv_normal_start
+#218091719   : BGM_elevator_start_skip
+#3317650356  : bt_stoneWall_change
+#2308455066  : ot_Layered_BattleCheck
+#3807624553  : st_Ryu_SmallRocks
+
+#3258553517  : Ice_Lv1_Loop
+#245518380   : Demon_Devil_Trigger
+
+#1101735553  : BGM_ui_status_sb
+
+#480727854   : bt_Oniwaka_challenge_end
+#979025828   : BGM_warpgate_FX
+
+#1669858331  : se_pl_Tittle
+
+#3539685032  : SE_Sys_TitleCall
+
+#4081542406  : em00ff_Test
+
+#3581089169  : SV_Quest_arrival_001_umi
+#2027617430  : SV_Quest_arrival_002_UMI
+#204384931   : SV_Quest_arrival_003_UMI
+
+#208336435   : shinju1
+#2783798950  : set_to_stage
+
+#bt_bg_start_shadow_end
+#bt_bg_start_shadow_start
