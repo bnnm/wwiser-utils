@@ -18,9 +18,11 @@
 #   - "%c": same as [abcd(..)z]
 #   Any can be combined but may only use one %s (play_%02x_%s, play_%i_%i_%d but not play_%s_%s)
 #
-#   Filters to only read some names/fnv can be added:
+#   Filters to only accept or skip only some names/fnv:
 #    #@filter-names *music_data* *_mu_playgo* *_Music* *MasteryChallenge_Music*
 #    #@filter-fnv *BNK_DLC_14800_Music_Data*
+#    #@skip-names *(langs*
+#    #@skip-fnv *(langs*
 #
 # - ww.txt: extra list of wwise words only (may use this instead of wwnames.txt)
 #
@@ -115,6 +117,8 @@ class Words(object):
 
         self._filter_fnvs = []
         self._filter_names = []
+        self._skip_fnvs = []
+        self._skip_names = []
 
         self._fnv = Fnv()
 
@@ -187,17 +191,24 @@ class Words(object):
     def _reset_contexts(self):
         self._curr_context = None
 
-    def _is_filtered(self, filters):
-        
+    def _is_filtered_internal(self, filters, flag):
+       
         if not self._curr_context:
             return False
         if not filters:
             return False
-
         found = any(fnmatch.fnmatch(self._curr_context_lw, pattern) for pattern in filters)
         if found:
-            return False
-        return True
+            return flag
+        return not flag
+
+    # current context has any of the filters: allow
+    def _is_filtered(self, filters):
+        return self._is_filtered_internal(filters, False)
+
+    # current context has any of the filters: ignore
+    def _is_skipped(self, filters):
+        return self._is_filtered_internal(filters, True)
 
     def _read_format_flags(self, elem):
         # use only FNV that match these
@@ -205,9 +216,17 @@ class Words(object):
             items = elem.split(b' ')[1:]
             self._filter_fnvs = [item.lower() for item in items]
 
+        if elem.startswith(b'#@skip-fnv'):
+            items = elem.split(b' ')[1:]
+            self._skip_fnvs = [item.lower() for item in items]
+
         if elem.startswith(b'#@filter-names'):
             items = elem.split(b' ')[1:]
             self._filter_names = [item.lower() for item in items]
+
+        if elem.startswith(b'#@skip-names'):
+            items = elem.split(b' ')[1:]
+            self._skip_names = [item.lower() for item in items]
 
         return
 
@@ -536,9 +555,10 @@ class Words(object):
                 self._contexts[self._curr_context] = []
             return
 
-        if self._curr_context and self._filter_fnvs:
-            if self._is_filtered(self._filter_fnvs):
-                return
+        if self._is_filtered(self._filter_fnvs):
+            return
+        if self._is_skipped(self._skip_fnvs):
+            return
 
         if line.startswith(b'# '): #allow fnv in wwnames.txt with -sm
             line = line[2:]
@@ -761,9 +781,10 @@ class Words(object):
             if self._args.ignore_wrong and self._is_line_ok(line, line_lw):
                 continue
 
-            if self._curr_context and self._filter_names:
-                if self._is_filtered(self._filter_names):
-                    continue
+            if self._is_filtered(self._filter_names):
+                continue
+            if self._is_skipped(self._skip_names):
+                continue
 
             # clean vars
             var_types = [b'%d' b'%c' b'%s' b'%f' b'0x%08x' b'%02d' b'%u' b'%4d' b'%10d']
