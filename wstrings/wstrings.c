@@ -15,7 +15,6 @@
  */
 //TODO: test linux support
 //TODO: remove more useless strings such as trailing spaces contrinubting to length
-//TODO: ignore ww_<dirname>.txt entries (auto-ignored since can't be opened?)
 //TODO: use int64s instead of size_t?
 //TODO: skip useless stuff like .png or fourccs with a flag? (can't test renamed files or bigfile with N types though)
 //TODO: allow only %s if entry is .exe?
@@ -67,6 +66,7 @@ typedef struct {
     size_t max_table_mb;
 
     const char* exe_name;
+    const char* out_name;
     const char* base_dir;
     FILE* out;
 } config_t;
@@ -492,6 +492,8 @@ static bool is_skippable_filename(const char* path, const config_t* cfg) {
     const char* base = extract_name(path);
     if (strcmp(base, cfg->exe_name) == 0)
         return true;
+    if (strcmp(base, cfg->out_name) == 0)
+        return true;
 
     return false;
 }
@@ -606,6 +608,7 @@ static void process_file(const char* path, const config_t* cfg, u64set_t* set) {
 
     if (cfg->verbose)
         printf("processing: %s\n", path);
+    fprintf(cfg->out, "\n%s\n", path); //write bytes up to expected length
 
     mmap_t mmap = {0};
     bool ok = mmap_open(&mmap, path) ;
@@ -869,6 +872,7 @@ int main(int argc, char** argv) {
         u64set_free(&set);
         return EXIT_FAILURE;
     }
+    cfg.out_name = outname;
 
     // main process
     printf("processing...\n");
