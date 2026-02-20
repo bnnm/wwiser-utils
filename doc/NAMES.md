@@ -7,6 +7,51 @@ Games often don't include those files though, but it's possible to "reverse" (ge
 Sometimes you can only recover a few names yet the rest is just too hard to figure out, if devs were too creative with names. But "some names" is better than "no names" I'd say.
 
 
+## TL;DR
+Quick guide to (possibly) get extra names:
+
+- make some folder and put files/dirs that may contain names
+  - bigfiles, executables (.exe/so/main/xex/eboot/etc), etc
+  - default instalation folder is fine too
+  - doesn't matter if there are "wrong" or unrelated files, but they tend to add false positives
+- to improve the resulting names:
+  - some bigfiles are compressed and should be extracted with appropriate programs (won't find names otherwise)
+  - some executables like main/xex/eboot/exe should be decompressed first (ask in hcs64/discord, or just won't worry)
+  - for Unreal Engine files, open .pak and such bigfiles with to UModel/Fmodel, then extract folders like `audio`, `sound`, `wwise`
+  - for Unity files, use a Unity Asset Studio clone "decompress folder" (or just extract .unity files normally, but that's slower)
+  - avoid including textures/shaders/models/videos/etc if possible to reduce false positives
+- copy `wstrings.exe` to the folder: https://github.com/bnnm/wwiser-utils/tree/master/wstrings
+- run the program and wait a while
+
+That will create `ww_(folder-name).txt` with candidate (not necessarily used) names.
+- many "names" will be garbage-looking strings like `x7d9ak`, that is ok and will be ignored by *wwiser*
+- some "names" will be long lines or contain crap like `  "bgm"="name"  `, that is ok too and will be cleaned up automatically (reads `bgm` and `name`)
+
+
+Here you can do 2 things:
+
+Simple method (sometimes good enough):
+- rename `ww_(folder-name).txt` to `wwnames.txt`
+- put it together with the `.bnk`
+- use *wwiser* normally to load the base folder with all `.bnk`
+- valid names in `wwnames.txt` will be used by *wwiser*
+  - if the `.txt` file is big it will take a while to load
+  - there may be false positives
+
+Complex method (better results but harder)
+- get words.py (https://github.com/bnnm/wwiser-utils/blob/master/words/words.py)
+- go to the `.bnk` folder, open CLI and use this: `wwiser.pyz *.bnk -r -sl`
+  - or with GUI: load folder with all `.bnk` + *redump clean wwnames.txt* button
+- put the generated `wwnames-banks-(date).txt` with words.py
+- rename `ww_(folder-name).txt` to `ww.txt` and put it with words.py
+- run words.py, this will create a `words_out.txt`
+- open that .txt, take good names while removing false positives (weird-looking strings) and put them at the bottom of `wwnames-banks-(date).txt`
+  - every now and then use this script to clean up the .txt: https://github.com/bnnm/wwiser-utils/blob/master/wwnames/_wwnames-fixer.py
+- repeat this process with various `words.py` flags, see "Words.py quick guide" below
+  - this can be done with/withouht the `ww.txt` we created with `wstrings.exe` since other words they become "ingredients" for words.py
+- once bored, remove old `wwnames.txt` and rename `wwnames-banks-(date).txt` to `wwnames.txt`
+
+
 ## Reversable types
 Wwise numbers come in 4 varieties:
 - `(generic-name).txtp`: reversable to get the original *event name*
@@ -28,45 +73,6 @@ However you need to actually make the file yourself. With some luck, the game's 
 This process requires some knowledge of command line though, no GUI at the moment.
 
 Before anything you can check if your game is listed here: https://github.com/bnnm/wwiser-utils/wwnames/. Get `(game's name).txt` and rename it to `wwnames.txt` and you are set.
-
-
-## TL;DR
-Quick guide to (possibly) get extra names:
-- put files that may contain names inside in some dir, the more the merrier
-  - binary files with names, executables (.exe/so/main/xex/eboot/etc), decompressed files, etc
-  - avoid including textures/shaders/models/etc
-  - some executables like main/xex/eboot/exe should be decompressed first (ask in hcs64/discord, or just won't worry)
-  - if the game is HUGE you may want to only try some files at a time (for example ~10GB) as it'll take a long time otherwise.
-- zip all files into a single file with the "no compression option"
-  - this makes a single, huge file like `files.zip`
-  - this file MUST NOT BE COMPRESSED (not an actual zip, but a package; you could use `.tar` or others)
-  - doesn't matter if you include folders
-- use `strings2.exe` to get a text file with names from `files.zip`
-  - get `strings2.exe`: http://split-code.com/files/strings2_x64_v1-2.zip
-    - on Linux you may use `strings` too
-  - unzip strings2 on same dir as `files.zip`
-  - call on Windows CLI: `strings2.exe "files.zip" > wwnames.txt`
-  - you don't need to change `strings2` default parameters (gets you more names = good)
-  - or create a file like `files.bat`, copy the line above + save, double click
-  - if zipped files are too big try splitting by max size, repeat steps below, and fuse all `wwnames.txt` created to a final one
-  - you may want to also use `sstr.exe` (https://github.com/bnnm/wwiser-utils/raw/master/sstr/sstr.exe) to possible add extra names that `strings2.exe` may get wrong (like `@nbgm_01<`).
-  - `sstr.exe "files.zip" >> wwnames.txt`
-- the above generates a `wwnames.txt` file with "possible" (not necessarily used) names
-  - many "names" will be garbage-looking strings, that is ok and will be ignored by *wwiser*
-  - some "names" will be long lines or contain crap like `  "bgm"="name"  `, that is ok too and will be cleaned up automatically (reads `bgm` and `name`)
-
-Now put that file with all `.bnk`, wwiser can use it to get all possible names (may take a while to load if wwnames is big). Load all `bnk` to ensure getting most names (could limit to only music or sfx, but might as well do everything at once while we are at it)
-
-**HOWEVER** the above `wwnames.txt` will contain tons of garbage names we don't want. Clean it up like this:
-- put `wwiser.pyz`, `wwnames.db3` and `wwnames.txt` in the base folder of all banks
-  - `wwnames.txt` must go near `.bnk`, while `wwnames.db3` goes with `.pyz`
-- open windows CLI and call wwiser like this: `wwiser.pyz *.bnk -r -sl`
-  - with GUI: load dirs + *redump clean wwnames.txt* button
-- this will create a "clean" `wwnames-banks-(date).txt` with actually used names
-- open said file, look for clearly wrong names (like *x8273s* or *aXNuy*) and remove them, or change lower/uppercase in some cases (like `wIN` to `win` and such)
-- now remove old `wwnames.txt` and rename `wwnames-banks-(date).txt` to `wwnames.txt`
-
-You may be still be missing many names. For better results use the original `wwnames.txt` and `words.py`,  see "Words.py quick guide" below.
 
 
 ## CONCEPTS
