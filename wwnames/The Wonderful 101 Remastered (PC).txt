@@ -2,7 +2,6 @@
 
 #@classify-bank
 
-
 ### BANK NAMES
 BGM
 core
@@ -599,10 +598,14 @@ SFX
 ### BUS NAMES
 action_event
 ambience
+antiunite_Ducking
 BGM_ambience
+BombSlow_Ducking
 citizen_voice
 core_Pause
+DragonRoar_Ducking
 DRC
+DRC_Ducking
 em_boss_se
 em_boss_vo
 em_FootStep
@@ -641,10 +644,15 @@ pl_vo_normal
 Player
 player_voice
 players_impact
+r500_RoomVerb_cave
+RoomVerb_cave
+RoomVerb_Tunnel
 SFX
 SFX_pre
 Slow
+Slow_Ducking
 SubWindow
+SubWindow_Ducking
 trueimpact
 water
 # 1378853610
@@ -679,12 +687,9 @@ water
 # 1171907280
 # 3834617138
 # 91669788
-# 460965105
 # 1040743284
 # 1133043170
-# 1806773645
 # 3201805426
-# 3299849488
 # 4184349401
 # 4236487010
 # 4293763151
@@ -699,12 +704,6 @@ water
 # 3962919021
 # 515080317
 # 14674001
-# 172017918
-# 2295486265
-# 2351250166
-# 2455273476
-# 2748232446
-# 3470884620
 # 1660071923
 # 3687973651
 
@@ -825,6 +824,9 @@ BGM_evt_jgl_fanfare1_304
 BGM_evt_sit_emergency3_304
 BGM_evt_sit_emergency4_304
 BGM_evt_sit_nelson_304
+BGM_EyeCatcher_First
+BGM_EyeCatcher_last
+BGM_EyeCatcher_none
 BGM_Fade_in
 BGM_Fade_out
 BGM_Gallery_pause_in
@@ -2065,7 +2067,6 @@ stop_event_BGM
 # 377086515
 # 378449069
 # 386777799
-# 390127982
 # 402105832
 # 405693854
 # 416784210
@@ -2167,7 +2168,6 @@ stop_event_BGM
 # 1204177405
 # 1208790100
 # 1209879824
-# 1212941922
 # 1214269058
 # 1220803691
 # 1227295552
@@ -2239,7 +2239,6 @@ stop_event_BGM
 # 1606995014
 # 1634372272
 # 1646077065
-# 1648357468
 # 1648884658
 # 1662493374
 # 1670108603
@@ -3193,6 +3192,9 @@ wonderfulvictory
 ### SFX NAMES (Init.bnk)
 LaserReject
 No_Output
+r500_RoomVerb_cave
+RoomVerb_cave
+RoomVerb_Tunnel
 system
 # 91669788
 # 147087371
@@ -3201,7 +3203,6 @@ system
 # 309181906
 # 323323892
 # 427343915
-# 460965105
 # 471106625
 # 471161838
 # 675644793
@@ -3213,10 +3214,8 @@ system
 # 994238500
 # 1040743284
 # 1133043170
-# 1806773645
 # 2864318012
 # 3201805426
-# 3299849488
 # 4184349401
 # 4236487010
 # 4293763151
@@ -3376,6 +3375,7 @@ et0b05_9d92
 et0b05_9d93
 evt_jerghing3
 footstep_type
+se_BattleState
 se_em0050_partsbreak
 se_em0090_Combo
 SE_em0110_AE_Count
@@ -3392,6 +3392,7 @@ SE_r200_gas_drc
 SE_r700_footing_slow
 SE_r700_mushroom_slow
 SE_Reboot
+se_robomode
 SE_unite_size
 SE_unitecard_slow
 SE_UniteCard_window
@@ -3401,7 +3402,6 @@ test
 # 2069787837
 # 2338907232
 # 3272227270
-# 2967276385
 # 2879751829
 # 1757390655
 # 3569583914
@@ -3433,7 +3433,6 @@ test
 # 1123662812
 # 2977184739
 # 3399148751
-# 1874707713
 # 1632532728
 # 3376472458
 # 1825142427
@@ -5680,18 +5679,18 @@ em0110_ac01a_whoosh_headbutt_5
 em0110_HeadButtSw_False
 em0110_HeadButtSw_TRUE
 em0110_vo_ac01a_break
+em0110_vo_ac01a_building_grab
 em0110_vo_ac01a_building_rift
 em0110_vo_ac01a_climb_1
+em0110_vo_ac01a_fall_1
+em0110_vo_ac01a_grab_break
+em0110_vo_ac01a_head_butt_4
+em0110_vo_ac01a_head_butt_5
 em0110_vo_ac01a_last_head_butt_impact
 em0110_vo_ac01a_punch_1
 Reset_em0110_AE_Count
-# 1841024102
-# 1926289836
-# 1926289837
-# 2378995259
 # 3109388492
 # 3154967636
-# 3786845086
 
 ### VARIABLE NAMES (PACK_ba1002.bnk)
 SE_em0110_AE_Count
@@ -5867,6 +5866,7 @@ PACK_ba111a_cursor_01
 PACK_ba111a_cursor_02
 PACK_ba111a_cursor_03
 PACK_ba111a_failure
+PACK_ba111a_FireFlower
 PACK_ba111a_loop_01
 PACK_ba111a_loop_02
 PACK_ba111a_loop_03
@@ -5874,7 +5874,6 @@ PACK_ba111a_Stop
 PACK_ba111a_success_01
 PACK_ba111a_success_02
 PACK_ba111a_success_03
-# 3068214888
 
 ### EVENT NAMES (PACK_ba1130.bnk)
 em0110_1_3only
@@ -6525,8 +6524,8 @@ PACK_ba2038_whoosh
 
 ### EVENT NAMES (PACK_ba9001.bnk)
 PACK_ba9001_lazer_shot
+play_PACK_ba9001_explosion
 stop_PACK_ba9001_lazer_shot
-# 795488509
 
 ### EVENT NAMES (PACK_ba9006.bnk)
 PACK_ba9006_minidoor_close
@@ -7012,6 +7011,7 @@ PACK_bad000_wheel_open
 PACK_bad000_wheel_Roll
 PACK_bad000_wheel_shot
 Stop_PACK_bad000_baseloop_loop_r220
+stop_PACK_bad000_engine_loop_eva340
 Stop_PACK_bad000_engine_loop_r420
 # 798079505
 # 930748242
@@ -7021,7 +7021,6 @@ Stop_PACK_bad000_engine_loop_r420
 # 1304448236
 # 1380169499
 # 2492869136
-# 4199945851
 
 ### RTPC/GAME-VARIABLE NAMES (PACK_bad000.bnk)
 playback_speed
@@ -7394,7 +7393,7 @@ PACK_bg5014_Open
 ### EVENT NAMES (PACK_bg5016.bnk)
 PACK_bg5016_rock_break
 PACK_bg5016_rock_ground
-# 142191813
+PACK_bg5016_wall_break
 
 ### EVENT NAMES (PACK_bg5017.bnk)
 PACK_bg5017_magma_splash
@@ -8577,6 +8576,8 @@ Room_Battle_Start
 scorecoin_get_l
 scorecoin_get_m
 scorecoin_get_s
+SE_event_in_DLC
+SE_event_out_DLC
 SE_EventPause_in_DLC
 SE_EventPause_no_DLC
 SE_EventPause_yes_DLC
@@ -8590,6 +8591,7 @@ Stop_ActionButton_citizen_ChargeLv4
 Stop_ActionButton_Life_Charge
 Stop_ActionButton_toilet_Charge
 stop_bonusscore_count
+stop_core_em_DeathSignS_DLC
 Stop_em0010_Mov_Hover_DLC
 Stop_em0050_Act_Damage_DLC
 Stop_em0050_Mov_RollingMoveMix_DLC
@@ -8686,7 +8688,6 @@ use_wonderfuldammy
 # 1447174040
 # 1447522697
 # 1562252741
-# 1683600135
 # 1685539747
 # 1719305639
 # 1836724968
@@ -8697,7 +8698,6 @@ use_wonderfuldammy
 # 2063700941
 # 2068532140
 # 2116023327
-# 2282515079
 # 2282516348
 # 2312456221
 # 2336885287
@@ -8707,7 +8707,6 @@ use_wonderfuldammy
 # 2455781592
 # 2647729238
 # 2664926872
-# 2824739220
 # 2854350147
 # 2872377779
 # 2884290404
@@ -8772,13 +8771,13 @@ slow_weapon
 
 ### VARIABLE NAMES (core_dlc_se.bnk)
 footstep_type
+se_BattleState
 se_em0050_partsbreak
 SE_r100_hidebuilding
 SE_unitecard_slow
 SE_UniteCard_window
 # 2511795169
 # 4070016954
-# 2967276385
 # 960821592
 # 3569583914
 
@@ -9624,10 +9623,12 @@ playback_speed
 
 ### VARIABLE NAMES (core_se.bnk)
 et0b05_9d93
+se_BattleState
 SE_em011x_FaceClackSw
 SE_em0500_KeyboardBt
 SE_r100_hidebuilding
 SE_r200_gas_drc
+se_robomode
 SE_unite_size
 # 2519509743
 # 1269837033
@@ -9635,8 +9636,6 @@ SE_unite_size
 # 1615504478
 # 1825142427
 # 4272141140
-# 1874707713
-# 2967276385
 # 994971393
 # 1123662812
 # 1363032069
@@ -9649,15 +9648,16 @@ SE_unite_size
 ### VALUE NAMES (core_se.bnk)
 boss
 DRC
-even
-NORMAL
+Even
+Normal
 off
 ON
 Open
 out
 playing
+POS2D
 Stopping
-tV
+TV
 unite_size_10
 unite_size_100
 unite_size_20
@@ -9669,7 +9669,6 @@ vo_normal
 # 1229346202
 # 2361522015
 # 3499405504
-# 3516183123
 
 ### EVENT NAMES (em0000.bnk)
 em0000_Atk_GunBleadCharge_L
@@ -9951,6 +9950,7 @@ playback_speed
 
 ### EVENT NAMES (em0031.bnk)
 em0031_Adhesion_bom_shot
+em0031_Adhesion_bom_shot_mvt_down
 em0031_Adhesion_bom_shot_mvt_middle
 em0031_Adhesion_bom_shot_mvt_up
 em0031_beam_charge
@@ -10002,7 +10002,6 @@ Play_em0031_dummy15
 Play_em0031_dummy16
 Play_em0031_dummy17
 Stop_em0031_wait_loop
-# 698126292
 # 2250666595
 # 3162582596
 # 4130753980
@@ -10214,9 +10213,9 @@ se_em0050_partsbreak
 slow_weapon
 
 ### VARIABLE NAMES (em0050.bnk)
+se_BattleState
 se_em0050_partsbreak
 # 4070016954
-# 2967276385
 # 3569583914
 
 ### VALUE NAMES (em0050.bnk)
@@ -10230,6 +10229,7 @@ t2
 
 ### EVENT NAMES (em0052.bnk)
 em0052_Atk_bomb_atk_shot
+em0052_Mov_bomb_atk_charge
 em0052_Mov_bomb_atk_close
 em0052_Mov_bomb_atk_open
 Play_em0052_dummy01
@@ -10242,10 +10242,9 @@ Play_em0052_dummy07
 Play_em0052_dummy08
 Play_em0052_dummy09
 Play_em0052_dummy10
-# 3791576854
 
 ### VARIABLE NAMES (em0052.bnk)
-# 2967276385
+se_BattleState
 
 ### VALUE NAMES (em0052.bnk)
 boss
@@ -11148,6 +11147,8 @@ em0110_5st_tower_crash_creak02
 em0110_5st_tower_crash_impact01
 em0110_5st_tower_crash_impact02
 em0110_5st_tower_crash_mvmt
+em0114_Atk_fireball_impact
+em0114_Mov_fireball_fly_loop
 em0114_Mov_GutsImpact
 em0116_5st_punch_impact
 em0116_Anb_CrowdAwwMix
@@ -11201,7 +11202,6 @@ Stop_em0116_Mov_DrillUpperLopMix
 Stop_em0116_Mov_FinishPowerChargeMix
 Stop_em0116_Mov_LifeCharge
 # 4501116
-# 203451605
 # 653825790
 # 948774177
 # 1060119999
@@ -11210,7 +11210,6 @@ Stop_em0116_Mov_LifeCharge
 # 2478947570
 # 2657350593
 # 2726720707
-# 2951246935
 # 3289908840
 # 3677117223
 # 4221515426
@@ -11877,8 +11876,8 @@ SE_em0130_FallStage
 ### VALUE NAMES (em0130.bnk)
 off
 ON
+POS2D
 # 3499405504
-# 3516183123
 
 ### EVENT NAMES (em0140.bnk)
 em0140_1st_wing_flapDN
@@ -12443,7 +12442,7 @@ SE_em0500_KeyboardBt
 # 1123662812
 
 ### VALUE NAMES (em0500.bnk)
-even
+Even
 off
 ON
 # 2579631045
@@ -13079,6 +13078,7 @@ em1002_CannonMoveDownStop
 em1002_CannonMoveMix
 em1002_CannonMoveRetStop
 em1002_CannonMoveStop
+em1002_FireFlower
 em1002_hatch_close
 em1002_hatch_open
 em1002_maingun_ready
@@ -13088,7 +13088,6 @@ em1002_sp_damage
 em1002_sp_Death
 em1002_sp_jingle
 em1002_sp_shot
-# 449806888
 # 2456779597
 # 3608410032
 # 3608410033
@@ -13211,6 +13210,7 @@ em1017_Mov_UniteHandWsh
 em1017_Mov_UniteSwordWsh
 em1017_Mov_Units
 em1017_Mov_WaitLoop
+eva582_ev_appear
 eva582_Ev_Perfection_L
 eva582_Ev_Perfection_R
 Play_em101f_dummy01
@@ -13226,6 +13226,7 @@ Stop_em1010_Mov_WaitLoop
 Stop_em1010_spin_start
 stop_em1017_Mov_SpinAttackSt
 Stop_em1017_Mov_WaitLoop
+stop_eva582_ev_appear
 Stop_eva582_Ev_Perfection_L
 Stop_eva582_Ev_Perfection_R
 # 620916895
@@ -13236,9 +13237,7 @@ Stop_eva582_Ev_Perfection_R
 # 1737089635
 # 1792537726
 # 2048015617
-# 2062009539
 # 2788931160
-# 3201472018
 
 ### RTPC/GAME-VARIABLE NAMES (em101f.bnk)
 vehicle_speed
@@ -14265,6 +14264,7 @@ stop_core_em_CreDeathSignM
 stop_core_em_DeathSign_L
 stop_core_em_DeathSignS
 Stop_core_em_LaserReject
+stop_core_em_PiyoyoLoop_big
 Stop_core_em_PiyoyoLoop_l
 Stop_core_em_PiyoyoLoop_S
 Stop_core_pl_PiyoyoLoop_L
@@ -14316,7 +14316,6 @@ Stop_em0000_Mov_NumbElecMix
 # 667479035
 # 682611164
 # 685196619
-# 685391977
 # 691097595
 # 696489464
 # 700226954
@@ -14580,7 +14579,7 @@ slow_weapon
 # 2549392239
 
 ### VARIABLE NAMES (em_core.bnk)
-# 1874707713
+se_robomode
 # 1229891110
 # 4070016954
 # 3376472458
@@ -14630,9 +14629,9 @@ eva560_gate_open_02
 ### EVENT NAMES (esa625.bnk)
 Eva625_Shield
 Eva625_water
+Eva625_water_stop
 # 2634363334
 # 2643763095
-# 3717298917
 
 ### EVENT NAMES (esa665.bnk)
 eva665_water
@@ -15416,8 +15415,8 @@ et0690_uniteman_lp
 et0690_uniteman_throw
 et0690_uniteSTG_throw
 Mute_et0690_pl_throw
+mute_et0690_unite10_lp
 stop_et0690_unite10_lp_r900
-# 2530512913
 
 ### EVENT NAMES (et0691.bnk)
 et0691_unite100_end
@@ -15513,12 +15512,12 @@ et0852_vo_PStarCount06
 et0852_vo_PStarCount07
 et0852_vo_PStarCount08
 et0852_vo_PStarCount09
+et0852_vo_PStarCount10
 PACK_ba2001_bomb_rock_impact
 Stop_et0852_vo_PStarCount
 # 99220085
 # 1359240204
 # 1359240206
-# 1536399060
 # 2777942797
 
 ### EVENT NAMES (et0902.bnk)
@@ -15546,23 +15545,23 @@ slow_weapon
 
 ### EVENT NAMES (et0906.bnk)
 et0906_e_072_blade
+et0906_e_072_move
 et0906_e_180_blade
 et0906_E_gun
 et0906_n_072_blade
+et0906_n_072_move
 et0906_n_180_blade
 et0906_n_gun
 et0906_p_072_blade
+et0906_p_072_move
 et0906_p_180_blade
 et0906_p_gun
-# 482076414
 # 1464741009
 # 1808556253
 # 2441793328
 # 2518584998
-# 3507528897
 # 3555031903
 # 4242504514
-# 4248533976
 
 ### RTPC/GAME-VARIABLE NAMES (et0906.bnk)
 slow_weapon
@@ -15778,14 +15777,14 @@ em0130_AmeobaShotOmen
 em0130_fireball_fly_loop
 em0130_fireball_impact
 em0130_fireball_shot
+stop_em0130_fireball_fly_loop
 # 2098863373
 # 2542059227
-# 3833378953
 # 4011889262
 
 ### EVENT NAMES (etd60d.bnk)
 etd60d_thunder_near
-# 2741074485
+etd60d_thunder_pre
 
 ### EVENT NAMES (etd615.bnk)
 etd615_drc_waterfall
@@ -15794,8 +15793,8 @@ stop_etd615_drc_waterfall
 stop_etd618_drc_magmafall
 
 ### EVENT NAMES (etd622.bnk)
+etd622_magma_impact
 etd622_magma_splash
-# 2980476391
 
 ### EVENT NAMES (etd632.bnk)
 r900_laserbar_tube
@@ -16253,6 +16252,7 @@ rush_hit_mark
 rush_sword_hit_mark
 rush_whip_hit_mark
 Stop_pl_core_0112_wom_kick
+stop_pl_core_cartoon_thin01
 Stop_pl_core_ChtchWhip_loop
 Stop_pl_core_dash
 Stop_pl_core_Mov_Talk_Love
@@ -16278,7 +16278,6 @@ unite_wait_loop
 unite_whip_hit
 whip_hit_mark
 # 427141
-# 102929844
 # 140885662
 # 168136377
 # 189779294
@@ -18153,6 +18152,8 @@ r100_connect_out
 r100_fire_l_01
 r100_fire_l_02
 r100_fire_l_03
+r100_fire_m_01
+r100_fire_m_02
 r100_fire_s_01
 r100_fire_s_02
 r100_hidebuilding_setstate_hide
@@ -18202,8 +18203,6 @@ stop_r100_red02
 # 1888407874
 # 2037802812
 # 2057139405
-# 2247816741
-# 2247816742
 # 2260757839
 # 2533063924
 # 2624051324
@@ -18800,6 +18799,7 @@ r200_door_open
 r200_drc_gas_off
 r200_drc_gas_on
 r200_gas
+r200_gas_drc_loop
 r200_gas_drc_start
 r200_gas_start
 r200_silen
@@ -18820,7 +18820,6 @@ r200_wind_blast
 # 1425516638
 # 1425516639
 # 1521083414
-# 1632508012
 # 2089963730
 # 2418404916
 # 2487390083
@@ -19281,6 +19280,9 @@ r400_vo_c31_drown
 ev0401_cut00
 ev0401_cut04
 ev0401_cut05
+Ev0402_cut02
+Ev0402_cut03
+Ev0402_cut09
 ev0403_cut00
 ev0403_cut03
 ev0403_cut04
@@ -19292,6 +19294,7 @@ eva451_cut00
 eva451_cut005
 eva451_cut03
 evc041_cut00
+EVd041_cut00
 r400_blue_forly_intro
 r400_blue_forly_last
 r400_creak
@@ -19321,6 +19324,7 @@ r400_taiman_last_hit
 r400_taiman_wsh
 r400_watercolumn
 r400_waterfall_01
+r400_waterfall_02
 stop_r400_creak
 # 9180844
 # 33496759
@@ -19328,7 +19332,6 @@ stop_r400_creak
 # 169024042
 # 173934068
 # 176944127
-# 216744604
 # 241323285
 # 292455947
 # 322095556
@@ -19354,15 +19357,11 @@ stop_r400_creak
 # 2012890804
 # 2057458738
 # 2077475005
-# 2127651062
-# 2127651068
-# 2127651069
 # 2127651071
 # 2138799749
 # 2227901581
 # 2292785779
 # 2324030750
-# 2360000101
 # 2551671916
 # 2603193227
 # 2635549024
@@ -19459,6 +19458,7 @@ Stop_eve4b2_0030
 ### EVENT NAMES (r420_se.bnk)
 eve4b1_cut00
 eve4b2
+Stop_evb420_All
 # 6179387
 # 32253303
 # 70497578
@@ -19481,7 +19481,6 @@ eve4b2
 # 2831418260
 # 2946333751
 # 3682795552
-# 3976282609
 # 4109298234
 
 ### RTPC/GAME-VARIABLE NAMES (r420_se.bnk)
@@ -19658,6 +19657,8 @@ PACK_bad040_missile_open_02
 PACK_bad040_missile_shot
 r500_drc_cave_in
 r500_drc_cave_out
+r500_drc_Room_in
+r500_drc_Room_out
 r500_drc_waterpass_c
 r500_drc_waterpass_l
 r500_drc_waterpass_r
@@ -19723,7 +19724,6 @@ stop_r500_river_drc_002
 # 1645560827
 # 1680113394
 # 1875470686
-# 1904626698
 # 1913640596
 # 2000476535
 # 2051275662
@@ -19743,7 +19743,6 @@ stop_r500_river_drc_002
 # 2994604296
 # 3028159590
 # 3429480914
-# 3680854373
 # 3714286810
 # 3714286811
 # 3882378134
@@ -19893,6 +19892,7 @@ et0852_vo_PStarCount06
 et0852_vo_PStarCount07
 et0852_vo_PStarCount08
 et0852_vo_PStarCount09
+et0852_vo_PStarCount10
 ev05b1_cut00
 evd5b1
 evd5b3
@@ -19920,7 +19920,6 @@ stop_r520_tunnel_crash
 # 1303316824
 # 1357018091
 # 1379181057
-# 1536399060
 # 1537346092
 # 1606984202
 # 1761612779
@@ -20716,6 +20715,7 @@ et0852_vo_PStarCount06
 et0852_vo_PStarCount07
 et0852_vo_PStarCount08
 et0852_vo_PStarCount09
+et0852_vo_PStarCount10
 ev08b1
 ev08b2_cut00
 ev08b2_cut02
@@ -20748,7 +20748,6 @@ Stop_et0852_vo_PStarCount
 # 1335892483
 # 1335892490
 # 1478914486
-# 1536399060
 # 2066265473
 # 2470753976
 # 2777942797
@@ -21142,6 +21141,7 @@ r900_laserbar_loop_st
 r900_missile
 r900_missile_hit
 r900_stg_barrier_open
+r900_stg_enemy_shot
 r900_stg_et9000_baseloop
 r900_stg_et9000_damage
 r900_stg_et9000_pcharge
@@ -21151,6 +21151,7 @@ r900_stg_shot
 r900_stg_shot_hit
 r900_stg_star_get
 r900_stg_ufocut_01_sr
+r900_tube_impact
 r900_victory_engine_loop
 stop_PACK_bad031_lazer_shot
 Stop_r900_battleship_barrier_st
@@ -21201,7 +21202,6 @@ stop_r900_victory_engine_loop
 # 1844370661
 # 1907275803
 # 1917243212
-# 2051547780
 # 2060837707
 # 2063995285
 # 2143195362
@@ -21216,7 +21216,6 @@ stop_r900_victory_engine_loop
 # 2607480479
 # 2763799681
 # 2872583494
-# 2905224141
 # 2914093276
 # 2969663725
 # 3036435213
@@ -21913,7 +21912,6 @@ shop_call_w_stinger
 # 3087022696
 # 4030304948
 
-
 ### MISSING EVENT NAMES (em00a2.bnk)
 # 2158041104
 # 2441888045
@@ -22051,17 +22049,17 @@ shop_call_w_stinger
 # 4275245843
 
 ### MISSING EVENT NAMES (ete017.bnk)
-# 120091047
+ete017_ev_Run
 # 124985663
 # 2691176731
 # 3010080269
 # 3515074296
 
 ### MISSING EVENT NAMES (ete018.bnk)
+ete018_ev_Run
 # 566331206
 # 772106244
 # 1740277796
-# 2481380318
 # 3098920923
 
 ### MISSING EVENT NAMES (LANG_em0610.bnk)
@@ -22185,8 +22183,6 @@ shop_call_w_stinger
 ### MISSING RTPC/GAME-VARIABLE NAMES (ete018.bnk)
 # 1492945077
 
-
-
 #2919807735  : bmc_up
 
 #3194865689  : BGM_Continue_em0630_dummy21
@@ -22240,3 +22236,5 @@ shop_call_w_stinger
 #2216860650  : stg_r500_C200_start
 #802778190   : stg_r820_C0_6_start
 #2072282435  : stg_r820_C0_7_start
+
+#675644793   : BGM_Continue_POB

@@ -838,6 +838,8 @@ amb_Spot_Cloth_flap
 Amb_Spot_stream_Loop
 Amb_Spot_Waterfall_Hit_Body
 Amb_Spot_Waterfall_Hit_pool
+Amb_Spot_Waterfall_L_Loop
+Amb_Spot_Waterfall_M_Loop
 City_Base_Rain
 City_Base_Rain_Storm
 City_Base_Rain_wind_Storm
@@ -859,6 +861,8 @@ stop_amb_Spot_Cloth_flap
 Stop_Amb_Spot_stream_Loop
 Stop_Amb_Spot_Waterfall_Hit_Body
 Stop_Amb_Spot_Waterfall_Hit_pool
+Stop_Amb_Spot_Waterfall_L_Loop
+Stop_Amb_Spot_Waterfall_M_Loop
 stop_City_Spot_billboard_Loop
 stop_City_Spot_machine
 stop_City_Spot_Waterfall_L
@@ -881,8 +885,6 @@ training_Base_wind
 # 584742166
 # 617206179
 # 623447618
-# 710358090
-# 727520157
 # 879200489
 # 940306878
 # 1000148749
@@ -909,7 +911,6 @@ training_Base_wind
 # 2290522096
 # 2452778456
 # 2699282984
-# 2717093613
 # 2787732338
 # 2836016910
 # 2840159549
@@ -918,7 +919,6 @@ training_Base_wind
 # 2997234936
 # 3036973401
 # 3068301209
-# 3087451674
 # 3121010986
 # 3213322412
 # 3235754391
@@ -2040,6 +2040,7 @@ DarkDragon_MISC_Tremor
 em0000_Atk_Charge
 em0000_Atk_Charge_Whoosh
 em0000_atk_counter_whoosh
+em0000_atk_grab_sword_Cine
 em0000_Atk_Iai_Dimentional_Distortion
 em0000_Atk_Iai_Dimentional_Slash_Horizontal
 em0000_Atk_Iai_Dimentional_Slash_Vertical
@@ -2081,7 +2082,6 @@ stop_em0000_Mvt_Grind_Loop
 # 1908064712
 # 2054732803
 # 2062813593
-# 2411424145
 # 2651565035
 # 4225019455
 # 4229471394
@@ -2098,6 +2098,8 @@ EM0000
 EM0010
 
 ### EVENT NAMES (964757504.bnk: EM0010)
+em0010_Atk_Electric_aoe_charge
+em0010_Atk_Electric_aoe_Impact
 em0010_Atk_Lightning_Strike
 em0010_Atk_Lightning_Strike_Charge
 em0010_Atk_Lightning_Strike_In
@@ -2109,9 +2111,7 @@ Stop_em0010_Atk_Sword_Slash_PassBy
 # 448961660
 # 503497410
 # 604873451
-# 1800077590
 # 2220453243
-# 2533162936
 # 2568664093
 # 3874593048
 
@@ -3081,6 +3081,7 @@ core_Item_Pickup_General
 core_Item_Pickup_item
 core_Item_Pickup_StaminaCoin
 core_pl_Atk_Bloodbath
+core_pl_atk_counter_slash
 core_pl_Atk_kick
 core_pl_Atk_Obliteration_Charge_Loop
 core_pl_Combo_Final_Sign
@@ -3392,7 +3393,6 @@ Stop_pl0500_Mvt_Surfing_Wind_Loop
 # 1732538316
 # 1744467531
 # 1753813920
-# 1788405055
 # 1796542486
 # 1807188206
 # 1807188208
@@ -4264,6 +4264,7 @@ em0080_Mvt_Foley_Medium
 em0080_Mvt_Foley_Medium_Cine
 em0080_Mvt_Foley_Slow
 em0080_Mvt_Foley_Slow_Cine
+em0080_Mvt_Idle_ground_stab
 em0080_Mvt_Jump
 em0080_Mvt_Warp_In
 em0080_Mvt_Warp_out
@@ -4281,7 +4282,6 @@ em0080_Voc_Mvt_Idle
 em0080_Voc_Mvt_Inhale
 stop_em0080_atk_claw_Scrape
 Stop_em0080_Atk_Energy_Ball_PassBy
-# 18757699
 # 1229899964
 # 1720831597
 # 2634420485
@@ -4794,6 +4794,7 @@ SE_Mvt_Speed
 
 ### EVENT NAMES (3431508846.bnk: em0500)
 em0500_atk_claw
+em0500_atk_claw_ground_Impact
 em0500_atk_claw_Launch
 em0500_atk_claw_Scrape
 em0500_atk_kick
@@ -4814,7 +4815,6 @@ em0500_Mvt_Foley_Slow_Cine
 em0500_Mvt_Jump
 # 765104639
 # 788611030
-# 3074473158
 # 3343856973
 
 ### EVENT NAMES (3397953544.bnk: em0520)
@@ -5587,7 +5587,10 @@ em1400_Atk_Mine_BackAttackImp
 em1400_Atk_Mine_Explode
 em1400_Atk_Mine_Loop
 em1400_Atk_Mine_place
+em1400_Atk_Phase_shock_wave
 em1400_atk_scythe_gore
+em1400_atk_scythe_Impact_heavy
+em1400_atk_scythe_throw_whoosh
 em1400_atk_scythe_whoosh
 em1400_atk_scythe_whoosh_strong
 em1400_atk_scythe_whoosh_strong_Cine
@@ -5640,7 +5643,6 @@ Stop_em1400_Atk_Mine_Loop
 # 474884927
 # 637678649
 # 792471367
-# 839436224
 # 997675790
 # 1329035625
 # 1588075479
@@ -5655,10 +5657,8 @@ Stop_em1400_Atk_Mine_Loop
 # 3198300326
 # 3288943943
 # 3327805597
-# 3791707303
 # 3853795584
 # 3896699860
-# 4003236368
 
 ### RTPC/GAME-VARIABLE NAMES (1387681932.bnk: em1400)
 se_azimuth
@@ -5802,7 +5802,7 @@ se_azimuth_amb
 gmc_AirlockGate_open_end
 gmc_AirlockGate_open_Loop
 gmc_AirlockGate_open_Start
-# 1324563650
+stop_gmc_AirlockGate_open_Loop
 
 ### EVENT NAMES (3947600358.bnk: gmc_AnkiDoor)
 # 1458855862
@@ -6014,8 +6014,8 @@ gmc_Nenon_Noise
 ### EVENT NAMES (1362823600.bnk: gmc_OfudaFire)
 gmc_OfudaFire_m_loop
 gmc_OfudaFire_s_loop
-# 328097114
-# 2653320488
+stop_gmc_OfudaFire_m_loop
+stop_gmc_OfudaFire_s_loop
 
 ### EVENT NAMES (3336477019.bnk: gmc_PolterGeist)
 gmc0200_Mvt_PolterGeist_Object_Hovering
@@ -6222,17 +6222,17 @@ SE_Elevation
 
 ### EVENT NAMES (3638548459.bnk: gmc_WarpPortal)
 gmc_WarpPortal_Break
+gmc_WarpPortal_broken_loop
 gmc_WarpPortal_Close
 gmc_WarpPortal_Close_boss
 gmc_WarpPortal_idle_loop
 gmc_WarpPortal_Ryu_stab
 gmc_WarpPortal_teleport
 gmc_WarpPortal_teleport_interact
+stop_gmc_WarpPortal_idle_loop
 # 261579376
-# 1386975600
 # 2474454654
 # 2734457181
-# 3182139702
 
 ### EVENT NAMES (2190401891.bnk: gmc_Wind_Break_Bridge)
 gmc_Wind_Break_Bridge
@@ -6304,6 +6304,7 @@ in
 ### EVENT NAMES (1620759749.bnk: obj0100)
 obj0100_Atk_Gatling
 obj0100_Atk_Missile_Launch
+obj0100_Mov_engine_TakeOff
 obj0100_Mov_Landing
 obj0100_Mov_MIssile_Hatch_Close
 obj0100_Mov_MIssile_Hatch_Open
@@ -6314,7 +6315,6 @@ obj0100_Mov_TakeOff
 # 311202751
 # 607917193
 # 1009607654
-# 1347446802
 # 1422813964
 # 1821465588
 # 2111709925
@@ -6661,6 +6661,8 @@ se_pl_Obliteration_Charge
 core_stop_Shuriken_s
 pl0500_atk_ground_slam
 pl0500_atk_ground_slam_strong
+pl0500_atk_sword_pull_out
+pl0500_atk_sword_stab_ground
 pl0500_atk_Whoosh_ShadowClone
 pl0500_atk_Whoosh_ShadowClone_in
 pl0500_atk_Whoosh_ShadowClone_out
@@ -6703,6 +6705,7 @@ pl0500_Mvt_Rail_slide
 pl0500_Mvt_Surfing_Jump
 pl0500_Mvt_Surfing_Jump_Land
 pl0500_Mvt_Surfing_Slide
+pl0500_Mvt_sword_sheathe_slide
 pl0500_Mvt_transform_loop
 pl0500_Mvt_transform_ready
 pl0500_Mvt_transform_unable
@@ -6724,7 +6727,6 @@ Stop_pl0500_Nimpo_FireBird_Loop
 # 137650254
 # 617188946
 # 701058886
-# 714146952
 # 1209070137
 # 1632425570
 # 1729072203
@@ -6732,13 +6734,11 @@ Stop_pl0500_Nimpo_FireBird_Loop
 # 2285605484
 # 2514838660
 # 2728173280
-# 2823673067
 # 2855516032
 # 2870008502
 # 3067019336
 # 3187608084
 # 3737363719
-# 4044753942
 # 4272004898
 # 4293557691
 
@@ -6800,6 +6800,8 @@ se_test
 
 ### EVENT NAMES (2246265160.bnk: wp0000)
 pl0000_AM_atk_Sword_Whoosh_Fast
+pl0000_WM_atk_ground_slam_extended
+pl0000_WM_atk_kill_confirm_Whoosh
 pl0000_WM_Atk_Ranged_Slash
 pl0000_WM_Atk_Sword_Extend
 pl0000_WM_Atk_Sword_thrust
@@ -6809,6 +6811,8 @@ pl0000_WM_atk_Sword_Whoosh_extended_Short
 pl0000_WM_atk_Sword_Whoosh_Fast
 pl0000_WM_atk_Sword_Whoosh_heavy
 pl0000_WM_Mvt_Sword_Extend
+pl0000_WM_Mvt_sword_pull_out
+pl0000_WM_Mvt_sword_PullOut_Foley
 pl0000_WM_Mvt_Sword_Retract
 pl0000_WM_Mvt_Sword_Sheath
 pl0000_WM_Mvt_Sword_Sheath_Fast
@@ -6829,12 +6833,9 @@ wp0000_Mvt_Ground_Drop
 # 350015405
 # 423664229
 # 431582746
-# 468458391
 # 642214441
 # 651671705
 # 708663703
-# 729352360
-# 769611558
 # 819030752
 # 894260445
 # 918575006
@@ -6846,7 +6847,6 @@ wp0000_Mvt_Ground_Drop
 # 1228188893
 # 1383780111
 # 1697417407
-# 1740842559
 # 1872342199
 # 1933975515
 # 1987394560
@@ -7230,6 +7230,9 @@ none
 out
 
 ### EVENT NAMES (2330153319.bnk: wp0050)
+pl0500_atk_Whoosh_ShadowClone_Cine
+pl0500_atk_Whoosh_ShadowClone_in_Cine
+pl0500_atk_Whoosh_ShadowClone_out_Cine
 pl0500_Mvt_transform_in
 pl0500_Mvt_transform_Out
 wp0050_atk_ground_slam
@@ -7237,7 +7240,10 @@ wp0050_atk_ground_slam_strong
 wp0050_atk_Slash_cast
 wp0050_atk_Slash_charge
 wp0050_atk_Slash_Whoosh
+wp0050_atk_sword_pull_out
 wp0050_atk_Sword_ShadowClone
+wp0050_atk_Sword_ShadowClone_heavy
+wp0050_atk_sword_stab_ground
 wp0050_atk_thrust
 wp0050_atk_Whoosh
 wp0050_atk_Whoosh_Cine
@@ -7255,7 +7261,6 @@ wp0050_Mvt_Transform_Out
 # 68138874
 # 134963407
 # 142827373
-# 210704064
 # 338570859
 # 503480029
 # 592670425
@@ -7263,17 +7268,14 @@ wp0050_Mvt_Transform_Out
 # 698962623
 # 736083641
 # 818626773
-# 939568622
 # 1123306849
 # 1157872360
 # 1166872137
 # 1344509847
 # 1386768062
 # 1394989879
-# 1415409004
 # 1559582566
 # 1637844664
-# 1659679613
 # 1862681923
 # 2012577466
 # 2389090677
@@ -7288,8 +7290,6 @@ wp0050_Mvt_Transform_Out
 # 3089214995
 # 3212712540
 # 3296350452
-# 3914875457
-# 3971735225
 # 4007230624
 # 4211790040
 # 4237944993
@@ -8908,3 +8908,5 @@ se_azimuth_amb
 
 #bt_bg_start_shadow_end
 #bt_bg_start_shadow_start
+
+#1808302783  : se_bloodbath_Premaster

@@ -24,51 +24,51 @@ rf09
 vo_core
 
 ### BUS NAMES
-ALL
-Amiibo
+all
+AMIIBO
 BGM
-BGM_A
-BGM_S
+bgm_a
+bgm_s
 BGM_Stereo
 BGM_Stereo_A
 BGM_Stereo_S
 Canyon
 Canyon_S
-EFX
-Event
+Efx
+event
 FX
-FX_S
-HDR
-HDR_A
-HDR_S
+FX_s
+hdr
+hdr_a
+hdr_s
 Master Audio Bus = 0
 Master Secondary Bus = 0
-Pause
-SE
-SE_A
-SE_S
+pause
+se
+SE_a
+SE_s
 SFX
-SFX_A
-SFX_S
-Start
+SFX_a
+SFX_s
+start
 SubCamera
-System
-System_A
-System_S
+system
+System_a
+System_s
 Tutorial_Win
 Voice
-Voice_A
-Voice_S
+voice_a
+voice_s
 Voice_TV
-# 871868715
-# 1208884572
-# 2346842113
-# 3209050701
-# 3369759868
-# 1376742345
 # 3910811182
+# 3369759868
+# 2346842113
 # 4237107877
 # 1715984770
+# 1208884572
+# 1376742345
+# 3209050701
+# 871868715
 # 293772762
 # 2332558946
 # 1159269160
@@ -90,6 +90,132 @@ Voice_TV
 # 2200218760
 # 2200218778
 # 1216416656
+
+### SFX NAMES (Init.bnk)
+Dual_Filters_Radio_Comm
+SE_duck
+SE_SlowReverb
+SE_Tunnel_Rev
+Voice_LipSyncControl
+# 887378967
+# 938709984
+# 2770916569
+
+### BASE RTPC/GAME-VARIABLE NAMES (Init.bnk)
+BGM_Jamming
+BGM_LowPassFilter
+BGM_Magnetta
+BGM_Magnetta_off
+bgm_pause
+BGM_SnowNoise
+BGM_speeddown
+CameraAngle_H
+CameraAngle_V
+core_BreakCameraNum
+core_se_duck
+core_UI_AtkPointCnt
+core_UI_RankMove
+em1100_BallCount
+em_CommonSpeed
+em_MoveSpeed
+pl_HeriElevation
+pl_Mov_HeadSpeed
+pl_Mov_HeadSpeed_X
+pl_Mov_HeadSpeed_Y
+pl_RareMetalCnt
+SE_HeadphoneMode
+SE_LipSyncControl
+Volume_BGM
+Volume_ENV
+Volume_Master
+Volume_SE
+Volume_Voice
+# 85643140
+# 422773444
+# 510175621
+# 1035030475
+# 1167531055
+# 1239242946
+# 1429906094
+# 1818849697
+# 1901595527
+# 2476995316
+# 3297818656
+# 3583409031
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+BGM_Jamming
+BGM_LowPassFilter
+BGM_Magnetta
+BGM_Magnetta_off
+bgm_pause
+core_se_duck
+pl_RareMetalCnt
+Volume_BGM
+Volume_Master
+Volume_SE
+Volume_Voice
+# 1167531055
+# 1239242946
+# 422773444
+# 3297818656
+# 2476995316
+
+### VARIABLE NAMES (Init.bnk)
+BGM_E3
+BGM_evt_opening
+BGM_LastBoss_Rush
+BGM_player_a
+BGM_player_Pause
+BGM_rhythm_off
+BGM_Stage
+BGM_STG_1_test
+BGM_STG_All
+BGM_STG_Boss
+BGM_Sys_Menu
+pl_RareMetalCnt
+pl_scale
+SE_common_EndFade
+SE_HeadphoneMode
+# 936255614
+# 3744301783
+# 3508601203
+# 544145916
+# 2305625810
+# 199637522
+# 3623116103
+# 1690509510
+# 508636293
+# 508636294
+# 558969340
+# 558969343
+# 542191723
+# 542191720
+# 458303562
+# 458303561
+# 1762090645
+# 264480686
+# 2426396433
+# 1041794905
+
+### VALUE NAMES (Init.bnk)
+Emergency1
+Emergency2
+failed
+in
+Lose
+Lv1
+Lv2
+Lv3
+Lv4
+normal
+off
+on
+out
+Success
+Win
+# 2909030862
+# 2063853864
 
 ### EVENT NAMES (BGM.bnk)
 BGM_All_Round_win
@@ -166,6 +292,7 @@ Set_p2XX_mission_start
 Set_p319_Boss_Appear
 Set_p319_Boss_CountDown
 Set_p3XX_mission_start
+Set_p4XX_CLOUDY
 Set_p4XX_mission_start
 Set_p519_Boss_Appear
 Set_p519_Boss_CountDown
@@ -175,11 +302,9 @@ Set_pE22_Start
 Set_pE23_Start
 Set_pE24_Start
 Set_pF00_Title_Menu
-Set_pF03
 Set_pF09_event1
 Set_pF09_Playable1
 Set_pF09_Tutorial
-Set_pF0d
 Set_pF20
 # 187392472
 # 187392474
@@ -199,9 +324,10 @@ Set_pF20
 # 1216689010
 # 1467698688
 # 1588619369
-# 1675840469
 # 1864703999
 # 1972906292
+# 2259211528
+# 2259211615
 # 2330693391
 # 2760334108
 # 2802838129
@@ -237,13 +363,13 @@ BGM_Sys_Menu
 # 3744301783
 
 ### VALUE NAMES (BGM.bnk)
-a
-b
-c
-emergency1
-emergency2
+A
+B
+C
+Emergency1
+Emergency2
 end
-Event
+event
 evt_boss_p519
 evt_e3
 evt_emergency
@@ -252,13 +378,14 @@ evt_epilouge2
 evt_normal
 evt_normal2
 evt_opening
+evt_opening_eshop
 evt_pigma
 in
 loop
-lv1
-lv2
-lv3
-lv4
+Lv1
+Lv2
+Lv3
+Lv4
 none
 normal
 out
@@ -291,7 +418,6 @@ sys_win2
 # 1606767256
 # 1852376739
 # 1864468178
-# 2172576789
 # 2176936331
 # 2383803255
 # 2497208875
@@ -304,129 +430,13 @@ sys_win2
 # 3958224268
 # 4236678286
 
-### SFX NAMES (Init.bnk)
-se_duck
-se_SlowReverb
-Voice_LipSyncControl
-# 111803729
-# 196690445
-# 214414948
-# 261037801
-# 435670564
-# 471452748
-# 492476212
-# 511961970
-# 702606720
-# 887378967
-# 916623818
-# 938709984
-# 2770916569
-# 2952825346
-
-### RTPC/GAME-VARIABLE NAMES (Init.bnk)
-BGM_Jamming
-BGM_LowPassFilter
-BGM_Magnetta
-BGM_Magnetta_off
-bgm_pause
-BGM_SnowNoise
-BGM_speeddown
-CameraAngle_H
-CameraAngle_V
-core_BreakCameraNum
-core_se_duck
-core_UI_AtkPointCnt
-core_UI_RankMove
-em1100_BallCount
-em_CommonSpeed
-em_MoveSpeed
-pl_HeriElevation
-pl_Mov_HeadSpeed
-pl_Mov_HeadSpeed_X
-pl_Mov_HeadSpeed_Y
-pl_RareMetalCnt
-SE_HeadphoneMode
-SE_LipSyncControl
-Volume_BGM
-Volume_ENV
-Volume_Master
-Volume_SE
-Volume_Voice
-# 85643140
-# 422773444
-# 510175621
-# 1035030475
-# 1167531055
-# 1239242946
-# 1429906094
-# 1818849697
-# 1901595527
-# 2476995316
-# 3297818656
-# 3583409031
-
-### VARIABLE NAMES (Init.bnk)
-BGM_E3
-BGM_evt_opening
-BGM_LastBoss_Rush
-BGM_player_a
-BGM_player_Pause
-BGM_rhythm_off
-BGM_Stage
-BGM_STG_1_test
-BGM_STG_All
-BGM_STG_Boss
-BGM_Sys_Menu
-pl_RareMetalCnt
-pl_scale
-SE_common_EndFade
-SE_HeadphoneMode
-# 936255614
-# 3744301783
-# 3508601203
-# 544145916
-# 2305625810
-# 199637522
-# 3623116103
-# 1690509510
-# 508636293
-# 508636294
-# 558969340
-# 558969343
-# 542191723
-# 542191720
-# 458303562
-# 458303561
-# 1762090645
-# 264480686
-# 2426396433
-# 1041794905
-
-### VALUE NAMES (Init.bnk)
-emergency1
-emergency2
-FAILED
-in
-LOSe
-lv1
-lv2
-lv3
-lv4
-normal
-off
-ON
-out
-Success
-WIn
-# 2909030862
-# 2063853864
-
 ### EVENT NAMES (core.bnk)
 All_Sound_Pause
 All_Sound_Resume
 ba0000_Mov_PlanetShift
 ba0010_Mov_ElecBomb_Sw_On
 ba0012_Mov_break
+ba0012_Mov_Hit
 ba0012_Mov_Rebirth
 ba0013_Mov_Standup
 bm0004_SandDrape
@@ -463,6 +473,7 @@ core_Replay_ProgressPlay
 core_Replay_RewFf_Bt
 core_Replay_RewFf_Bt_DRC
 core_ReplayAllStop
+core_UI_AddTime
 core_UI_AmiboStandby
 core_UI_AtkPointCntUp
 core_UI_AttackPointUp
@@ -498,6 +509,7 @@ core_UI_EditorRootPopup
 core_UI_EditorRootSel_A
 core_UI_EditorRootSel_B
 core_UI_EditorRootSel_C
+core_UI_EditorRootSet
 core_UI_EditorSelect
 core_UI_EditorUnableSet
 core_UI_EditorUnitSizeNo
@@ -508,6 +520,7 @@ core_UI_EditorWindowIn
 core_UI_EditorWindowOut
 core_UI_EditorYes
 core_UI_ElecPulse_100
+core_UI_ElecPulse_120
 core_UI_EnemyFound
 core_UI_EnemyPoint
 core_UI_EnemySearch_C
@@ -540,6 +553,7 @@ core_UI_MainNo
 core_UI_MainNotSelect
 core_UI_MainSelect
 core_UI_MainYes
+core_UI_ManualOpen
 core_UI_MedalDown
 core_UI_MedalUp
 core_UI_MetalCount
@@ -630,6 +644,7 @@ core_UI_vo_plEnc04_S_and_S
 core_UI_vo_plEnc04_SneakAtk
 core_UI_vo_plEnc04_Sniper
 core_UI_vo_Round
+core_UI_vo_TitleStart
 core_UI_vo_Warning
 core_UI_vo_Warning_DRC
 Debug_Loudness_Meter_DRC
@@ -863,6 +878,18 @@ em0180_Mov_WinArmUp
 em0180_vo_Feel
 em0180_vo_Found
 em0180_vo_PreAtk
+Em1304_Atk_Explosion
+Em1304_Dmg_Spin
+Em1304_Mov_Backfire
+Em1304_Mov_Dash
+Em1304_Mov_IdleLoop
+Em1304_Mov_Ponping
+Em1304_Mov_PreDash
+Em1304_Mov_Win_A
+Em1304_Mov_Win_B
+Em1304_Mov_Win_C
+Em1304_vo_Death
+Em1304_vo_ReverseRun
 Em2000_Atk_GetCamera
 em2000_Atk_PreGetCamera
 Em2000_Mov_CatchCamera
@@ -1002,6 +1029,8 @@ em_MoveSpeedDown
 em_MoveSpeedReset
 em_MoveSpeedStop
 em_MoveSpeedUp
+Et0020_Mov_Appear
+Et0020_Mov_Disappear
 Load_in_SE
 Load_out_SE
 Mute_pl_CameraRotate
@@ -1020,6 +1049,7 @@ Pause_em0060_freeze
 Pause_em0070_freeze
 Pause_em0070_Mov_IdleLoop
 Pause_em0080_freeze
+Pause_Em0090_freeze
 Pause_em00a0_freeze
 Pause_em00b0_freeze
 Pause_em00c0_freeze
@@ -1038,7 +1068,12 @@ Pause_em4001_Mov_IdleLoop
 Pause_em4006_Mov_Dash
 pf11_Em_Mute
 pf11_Em_UnMute
+pl0000_Fir_Shoot_charge1
+pl0000_Fir_Shoot_charge1_tv
+pl0000_Fir_Shoot_charge2
+pl0000_Fir_Shoot_charge2_tv
 pl0000_Fir_Shoot_Normal
+pl0000_Fir_Shoot_Normal_tv
 pl0020_Fir_FreezeShot
 pl0020_Mov_freezing
 pl0020_Mov_PreFreezing
@@ -1054,6 +1089,7 @@ pl0080_Mov_IdleLoop
 pl0090_Mov_ShotReload
 pl_CameraCatch
 pl_CameraChange
+pl_CameraChange_NG
 pl_CameraExp
 pl_CameraExp_DRC
 pl_CameraExp_TV
@@ -1061,16 +1097,36 @@ pl_CameraPowerOn
 pl_CameraPut
 pl_CameraReleasePut
 pl_CameraRotate
+pl_GaugeFull
 Px10_ev_InComingAlert
 Px10_ev_InComingAlert_DRC
 Resume_core_em_PreDeath
+Resume_em0000_unfreeze
 Resume_em0010_Mov_DownIdleLoop
 Resume_em0010_Mov_IdleLoop
+Resume_em0010_unfreeze
+Resume_em0020_unfreeze
 Resume_em0030_Mov_IdleLoop
+Resume_em0030_unfreeze
 Resume_em0040_Mov_Dash
+Resume_em0040_unfreeze
+Resume_em0050_unfreeze
+Resume_em0060_unfreeze
 Resume_em0070_Mov_IdleLoop
+Resume_em0070_unfreeze
+Resume_em0080_unfreeze
+Resume_Em0090_unfreeze
+Resume_em00a0_unfreeze
+Resume_em00b0_unfreeze
+Resume_em00c0_unfreeze
+Resume_em00d0_unfreeze
+Resume_em00e0_unfreeze
 Resume_em0100_Mov_IdleLoop
+Resume_em0100_unfreeze
+Resume_em0110_unfreeze
+Resume_em0130_unfreeze
 Resume_em0150_Mov_IdleLoop
+Resume_em0150_unfreeze
 Resume_em0180_Mov_DownIdleLoop
 Resume_em0180_Mov_IdleLoop
 Resume_em4001_Mov_DownIdleLoop
@@ -1079,11 +1135,17 @@ Resume_em4006_Mov_Dash
 SE_HeadphoneMode_Off
 SE_HeadphoneMode_On
 SE_Init_Default
-se_init_p
-SE_Init_p001
+SE_Init_p
 SE_Init_p110
 SE_Init_p119
+SE_Init_p21
+SE_Init_p22
+SE_Init_p31
 SE_Init_p319
+SE_Init_p32
+SE_Init_p41
+SE_Init_p42
+SE_Init_p51
 SE_Init_p519
 SE_Init_pA10
 SE_Init_pE40
@@ -1092,7 +1154,9 @@ SE_Init_pF09
 SE_Pause_in
 SE_Pause_out
 SE_Restart_in
-Set_R
+Set_State_Scale_006per
+Set_State_Scale_050per
+Set_State_Scale_100per
 Stop_bm0004_SandDrape
 Stop_bm0005_SandDrape
 Stop_core_AmiboIn
@@ -1157,6 +1221,10 @@ Stop_em0180_All
 Stop_em0180_Atk_All
 Stop_em0180_Mov_DownIdleLoop
 Stop_em0180_Mov_IdleLoop
+Stop_Em1304_All
+Stop_Em1304_Dmg_IdleLoop
+Stop_Em1304_Mov_IdleLoop
+Stop_Em1304_Mov_PreDash
 Stop_em4000_All
 Stop_em4001_All
 Stop_em4001_Mov_DownIdleLoop
@@ -1188,53 +1256,30 @@ Stop_pl0050_Mov_BeamCharge
 Stop_pl0080_Mov_IdleLoop
 Stop_pl_CameraRotate
 Stop_Px10_ev_InComingAlert
+UnMute_pf09_pl_CameraRotate
 UnMute_pl_CameraRotate
 # 6914000
-# 27521234
-# 68448946
 # 95865884
-# 113772784
 # 117296903
 # 144164326
-# 166287188
-# 166287191
 # 179342694
-# 182249246
-# 183064776
-# 183064779
 # 187212870
-# 199842493
 # 199842494
 # 205562247
-# 216620077
-# 216620078
 # 217482356
-# 252031761
-# 284068942
 # 284563888
-# 293741214
 # 307989918
 # 312928421
-# 391113297
 # 453432338
 # 484293312
-# 531585838
 # 616927646
 # 618159944
-# 631493633
 # 725385619
-# 729362011
 # 758202829
-# 767482921
 # 779951433
-# 801682829
-# 831653634
-# 863579301
-# 909652190
 # 926401916
 # 928016159
 # 933068221
-# 940847495
 # 945206074
 # 947142941
 # 999704072
@@ -1242,8 +1287,6 @@ UnMute_pl_CameraRotate
 # 1028998879
 # 1094018415
 # 1098829902
-# 1114258041
-# 1150731419
 # 1155178859
 # 1155179246
 # 1179008475
@@ -1261,46 +1304,30 @@ UnMute_pl_CameraRotate
 # 1505590193
 # 1506500124
 # 1531618975
-# 1559696034
 # 1562643723
 # 1567310670
 # 1584469213
 # 1593910936
 # 1594803650
-# 1599672647
-# 1601753291
-# 1616864325
 # 1687521038
 # 1703409615
-# 1708786562
 # 1727217463
 # 1797974435
-# 1808477704
 # 1867562931
 # 1867940011
 # 1887235590
 # 1925141926
-# 1947727242
 # 2019877540
 # 2021417868
 # 2089532485
-# 2092344080
 # 2120077505
-# 2130428890
-# 2180265710
 # 2187987376
 # 2201299460
 # 2214536212
 # 2290863997
 # 2367282796
-# 2391763131
 # 2476995316
 # 2484886113
-# 2534763097
-# 2587969377
-# 2671700532
-# 2730597831
-# 2746729823
 # 2822861364
 # 2895177648
 # 2914785286
@@ -1308,41 +1335,28 @@ UnMute_pl_CameraRotate
 # 2938299380
 # 2939432132
 # 2939432155
-# 2994351527
 # 3002369681
-# 3091429500
-# 3091429501
-# 3091429503
 # 3098331728
 # 3159572108
 # 3174467386
 # 3240299515
 # 3301430129
-# 3342130564
 # 3342897026
 # 3343023690
-# 3360232698
 # 3371662621
 # 3375798858
-# 3400845575
-# 3457476685
 # 3491988503
-# 3547166922
+# 3596629660
 # 3651549870
-# 3659270489
 # 3675001781
-# 3684437764
-# 3693832264
-# 3699186804
 # 3713912715
-# 3726975477
-# 3746401920
 # 3802599221
 # 3803125892
 # 3851066283
 # 3910840749
 # 3914144085
 # 3920004587
+# 3931255912
 # 3989040032
 # 3989040033
 # 3989040034
@@ -1474,8 +1488,6 @@ UnMute_pl_CameraRotate
 # 4140185706
 # 4140185707
 # 4144753116
-# 4151216300
-# 4151216303
 # 4156963280
 # 4156963281
 # 4156963282
@@ -1485,11 +1497,8 @@ UnMute_pl_CameraRotate
 # 4156963287
 # 4156963292
 # 4156963293
-# 4159070318
-# 4189692024
 # 4211426008
 # 4235398726
-# 4254958044
 # 4274406610
 # 4274406611
 # 4274406616
@@ -1510,32 +1519,6 @@ UnMute_pl_CameraRotate
 # 4291184205
 # 4291184206
 # 4291184207
-
-### SFX NAMES (core.bnk)
-# 536826045
-# 787003116
-# 386970823
-# 807319932
-# 814461633
-# 544839262
-# 10721255
-# 1002689466
-# 932853383
-# 598789295
-# 148453701
-# 1015797238
-# 900237937
-# 953607294
-# 453773269
-# 810306363
-# 758684725
-# 138509196
-# 11795630
-# 1048106135
-# 330431672
-# 813922101
-# 128084815
-# 129574130
 
 ### RTPC/GAME-VARIABLE NAMES (core.bnk)
 core_BreakCameraNum
@@ -1571,15 +1554,18 @@ SE_HeadphoneMode
 
 ### VALUE NAMES (core.bnk)
 boss
-FAILED
-High
-LOSe
+failed
+high
+Lose
 none
 normal
 off
-ON
+on
+Scale_006per
+Scale_050per
+Scale_100per
 Success
-WIn
+Win
 # 1538491726
 # 4274863331
 # 1229367548
@@ -1587,9 +1573,6 @@ WIn
 # 3233156510
 # 2620994421
 # 2063853864
-# 3699414990
-# 2411178235
-# 124228292
 
 ### EVENT NAMES (em1100.bnk)
 em1100_Atk_ArmDownStomp
@@ -1612,7 +1595,7 @@ em1100_Mov_DrillClose
 em1100_Mov_DrillOpen
 em1100_Mov_DrillRoll
 em1100_Mov_DrillWalkFootStep
-em1100_Mov_DrillWalkFootStep_S
+em1100_Mov_DrillWalkFootStep_s
 em1100_Mov_DrillWalkLegMove
 em1100_Mov_FlyCharge
 em1100_Mov_FootStep
@@ -1673,9 +1656,6 @@ Stop_em1100_Mov_FlyCharge
 # 3758725677
 # 4147059455
 
-### SFX NAMES (em1100.bnk)
-# 655387542
-
 ### RTPC/GAME-VARIABLE NAMES (em1100.bnk)
 em1100_BallCount
 em_CommonSpeed
@@ -1684,7 +1664,7 @@ em_CommonSpeed
 # 2305625810
 
 ### VALUE NAMES (em1100.bnk)
-High
+high
 
 ### EVENT NAMES (em1200.bnk)
 em1200_exp_Damage
@@ -1782,6 +1762,7 @@ em1300_Atk_RushWsh
 em1300_Atk_WingWind
 em1300_Chg_Cannon
 em1300_Chg_MegaParticle
+em1300_Chg_MegaParticle_short
 em1300_Dmg_DeathFall
 em1300_Dmg_FinishBound
 em1300_exp_Damage
@@ -1797,25 +1778,32 @@ em1300_Mov_MegaCannonOpen
 em1300_Mov_PlanetFly
 em1300_Mov_PowerDonw
 em1300_Mov_PreRush
+em1300_Mov_PreWarp
 em1300_Mov_PreWingWind
 em1300_Mov_Restert
 em1300_Mov_Transform_Falldown
 em1300_Mov_Transform_JawHorn
 em1300_Mov_Transform_OpenEye
 em1300_Mov_Transform_OpenWing
+em1300_Mov_WarpIn
+em1300_Mov_WarpOut
 em1300_Mov_WingWsh
 em1300_Mov_WingWshRet
 em1300_Wsh_WingWind
 em1300_Wsh_WingWind_Fin
+p519_Mov_1346_EnemyAppear
+p519_Mov_3891_EnemyAccess
 Stop_em1300_All
 Stop_em1300_Atk_RushWsh
 Stop_em1300_Atk_WingWind
 Stop_em1300_Chg_Cannon
 Stop_em1300_Chg_MegaParticle
-Stop_em1300_EVENT
+Stop_em1300_Event
 Stop_em1300_Fir_MegaParticle
 Stop_em1300_Mov_PlanetFly
-# 16794916
+Stop_Em1310_Fir_JammingSignal
+Stop_Em1311_Mov_PreMagnetic
+Stop_Em1312_Atk_FunWind_Lp
 # 209205976
 # 209205977
 # 209205980
@@ -1841,21 +1829,13 @@ Stop_em1300_Mov_PlanetFly
 # 259538839
 # 259538844
 # 259538845
-# 276114987
-# 1227955117
 # 1490531461
-# 1543429027
-# 1695430652
 # 1718504625
 # 2794507205
 # 2853402488
 # 2946694318
 # 3268537245
-# 3407312391
-# 3744827090
 # 3789296504
-# 3837842064
-# 3854057636
 # 4019673728
 
 ### RTPC/GAME-VARIABLE NAMES (em1300.bnk)
@@ -1871,11 +1851,64 @@ em_CommonSpeed
 ### VALUE NAMES (em1300.bnk)
 boss
 off
-ON
+on
+
+### EVENT NAMES (p219_se.bnk)
+# 661353040
+# 661353041
+# 661353049
+# 661353050
+# 661353051
+# 661353052
+# 661353053
+# 661353054
+# 661353055
+# 678130626
+# 678130627
+# 678130632
+# 678130633
+# 678130634
+# 678130635
+# 678130636
+# 678130637
+# 678130638
+# 678130639
+# 694908346
+# 694908348
+# 694908349
+# 694908350
+# 694908351
+
+### EVENT NAMES (p419_se.bnk)
+# 641381528
+# 641381529
+# 641381530
+# 641381531
+# 641381532
+# 674936822
+# 674936823
+# 674936824
+# 674936825
+# 674936826
+# 674936827
+# 674936828
+# 674936829
+# 674936831
+# 691714384
+# 691714385
+# 691714386
+# 691714387
+# 691714388
+# 691714389
+# 691714390
+# 691714391
+# 691714392
+# 691714393
 
 ### EVENT NAMES (pe40_se.bnk)
-Stop_pE40_All
-# 1222203807
+pe40_Mov_0409_NoseFal
+pe40_Mov_0687_Escape
+Stop_pe40_All
 # 2499316432
 # 2499316434
 # 2499316435
@@ -1888,18 +1921,18 @@ Stop_pE40_All
 # 2516094023
 # 2516094028
 # 2516094029
-# 3074151380
 
 ### EVENT NAMES (pf09_se.bnk)
+pF09_ev0000_0248_Tower
+pF09_ev0000_1527_Camera
+pF09_ev0000_2059_CameraPan
+pF09_ev0001_0018_Exp1
+pF09_ev0001_1246_Exp2
 pF09_Mov_ArticleSheet
 pF09_Mov_CardAppear
 pF09_Mov_Type
 Stop_pF09_All
 # 308306221
-# 625099639
-# 1013346780
-# 1782867232
-# 1946161002
 # 3268812884
 # 3268812885
 # 3268812888
@@ -1932,7 +1965,6 @@ Stop_pF09_All
 # 3319145751
 # 3319145756
 # 3319145757
-# 3734131375
 
 ### EVENT NAMES (pf11_se.bnk)
 pF11_ev_AttentionSignal
@@ -1982,14 +2014,14 @@ pF11_ev_Spotlight
 # 90945471
 
 ### EVENT NAMES (pf14_se.bnk)
-Stop_pf14_All
-# 238983978
-# 570998371
-# 694977992
-# 1095108727
-# 1162042837
-# 2401357168
-# 3458154609
+pF14_Mov_2352_Demo
+pF14_Mov_2897_Camera
+pF14_Mov_3031_Camera
+pF14_Mov_3189_Camera
+pF14_Mov_3415_Camera
+pF14_Mov_3720_Camera
+pF14_Mov_3799_Shot
+Stop_pF14_All
 # 3721713200
 # 3721713201
 # 3721713202
@@ -2010,6 +2042,7 @@ Stop_pf14_All
 Stop_pl0000_All
 
 ### EVENT NAMES (pl0100.bnk)
+PF09_ev_toSkyDisappear
 pl0100_Mov_ArwingEngine_Falco
 pl0100_Mov_ArwingEngine_Fox
 pl0100_Mov_ArwingEngine_Peppy
@@ -2021,6 +2054,8 @@ pl0100_Mov_ArwingPass_Slippy
 pl0100_Mov_Boost
 pl0100_Mov_CirclingStart
 pl0100_Mov_engine
+pl0100_Mov_WingClose
+pl0100_Mov_WingCloseLock
 Set_pl0100_Mov_ArwingEngine_Falco
 Set_pl0100_Mov_ArwingEngine_Fox
 Set_pl0100_Mov_ArwingEngine_Peppy
@@ -2079,19 +2114,16 @@ Stop_pl0100_Mov_engine
 # 1366748933
 # 1366748934
 # 1366748935
-# 1391877134
-# 2291496701
 # 3304225468
-# 3387193648
 
 ### VARIABLE NAMES (pl0100.bnk)
 pl_scale
 
 ### VALUE NAMES (pl0100.bnk)
 none
-# 3699414990
-# 2411178235
-# 124228292
+Scale_006per
+Scale_050per
+Scale_100per
 
 ### EVENT NAMES (pl1000.bnk)
 pl1000_Mov_1BullionAppear
@@ -2120,6 +2152,8 @@ pl1000_Mov_Sitdown
 pl1000_Mov_Slide
 pl1000_Mov_Standup
 pl1000_Mov_VacuumAct
+pl1000_Mov_warp
+pl1000_Mov_warp_Chibi
 pl1000_vo_BodySlide
 pl1000_vo_ChibiDeath
 pl1000_vo_Death
@@ -2137,9 +2171,7 @@ Stop_pl1000_Mov_Slide
 Stop_pl1000_Mov_VacuumAct
 Stop_pl1000_vo_BodySlide
 # 81000200
-# 368895658
 # 1005722347
-# 1167943818
 # 3988936024
 # 3988936025
 # 3988936026
@@ -2156,7 +2188,7 @@ Stop_pl1000_vo_BodySlide
 # 4005713614
 # 4005713615
 
-### EVENT NAMES (vo_core.bnk)
+### EVENT NAMES (langs/vo_core.bnk)
 CORE_MSG_SLIPPY_001
 MSG_CAP_FIRSTTIME_002
 MSG_CAP_FIRSTTIME_003
@@ -2167,6 +2199,7 @@ MSG_CAP_FIRSTTIME_008
 MSG_FOX_5STAGE_001
 MSG_FOX_5STAGE_002
 MSG_FOX_5STAGE_004
+MSG_FOX_EPILOGUE_001
 MSG_FOX_FIRSTTIME_001
 MSG_FOX_FIRSTTIME_002
 MSG_FOX_FIRSTTIME_003
@@ -2179,6 +2212,14 @@ MSG_OJI_CORE_VOICESE_02
 MSG_OJI_CORE_VOICESE_03
 MSG_OJI_CORE_VOICESE_04
 MSG_OJI_CORE_VOICESE_05
+MSG_OJI_EPILOGUE_001
+MSG_OJI_EPILOGUE_002
+MSG_OJI_EPILOGUE_003
+MSG_OJI_EPILOGUE_004
+MSG_OJI_EPILOGUE_005
+MSG_OJI_EPILOGUE_008
+MSG_OJI_EPILOGUE_009
+MSG_OJI_EPILOGUE_010
 MSG_OJI_FIRSTTIME_001
 MSG_OJI_FIRSTTIME_002
 MSG_OJI_FIRSTTIME_003
@@ -2285,6 +2326,10 @@ MSG_SLIPPY_5STAGE_009
 MSG_SLIPPY_5STAGE_010
 MSG_SLIPPY_5STAGE_014
 MSG_SLIPPY_5STAGE_016
+MSG_SLIPPY_5STAGE_021
+MSG_SLIPPY_5STAGE_022
+MSG_SLIPPY_5STAGE_024
+MSG_SLIPPY_5STAGE_025
 MSG_SLIPPY_CORE_VOICESE_01
 MSG_SLIPPY_CORE_VOICESE_02
 MSG_SLIPPY_CORE_VOICESE_03
@@ -2295,6 +2340,21 @@ MSG_SLIPPY_CORE_VOICESE_07
 MSG_SLIPPY_CORE_VOICESE_08
 MSG_SLIPPY_CORE_VOICESE_09
 MSG_SLIPPY_CORE_VOICESE_10
+MSG_SLIPPY_EPILOGUE_001
+MSG_SLIPPY_EPILOGUE_002
+MSG_SLIPPY_EPILOGUE_003
+MSG_SLIPPY_EPILOGUE_004
+MSG_SLIPPY_EPILOGUE_006
+MSG_SLIPPY_EPILOGUE_007
+MSG_SLIPPY_EPILOGUE_008
+MSG_SLIPPY_EPILOGUE_009
+MSG_SLIPPY_EPILOGUE_010
+MSG_SLIPPY_EPILOGUE_011
+MSG_SLIPPY_EPILOGUE_012
+MSG_SLIPPY_EPILOGUE_013
+MSG_SLIPPY_EPILOGUE_014
+MSG_SLIPPY_EPILOGUE_015
+MSG_SLIPPY_EPILOGUE_016
 MSG_SLIPPY_FIRSTTIME_001
 MSG_SLIPPY_FIRSTTIME_004
 MSG_SLIPPY_FIRSTTIME_005
@@ -2309,6 +2369,9 @@ MSG_SLIPPY_FIRSTTIME_014
 MSG_SLIPPY_FIRSTTIME_015
 MSG_SLIPPY_FIRSTTIME_018
 MSG_SLIPPY_FIRSTTIME_019
+MSG_SLIPPY_FIRSTTIME_023
+MSG_SLIPPY_FIRSTTIME_024
+MSG_SLIPPY_FIRSTTIME_025
 MSG_SLIPPY_FIRSTTIME_100
 MSG_SLIPPY_FIRSTTIME_101
 MSG_SLIPPY_FIRSTTIME_102
@@ -2325,90 +2388,12 @@ MSG_SLIPPY_FIRSTTIME_112
 MSG_SLIPPY_PREMISSION_5ST_005
 MSG_SLIPPY_PREMISSION_5ST_012
 Stop_vo_core_MSG
-# 1021740434
-# 1021740435
-# 1021740436
-# 1909996464
-# 1909996465
-# 1909996466
-# 1909996468
-# 1909996469
-# 1909996471
-# 1909996478
-# 1909996479
-# 1926774056
-# 1926774057
-# 1926774058
-# 1926774059
-# 1926774060
-# 1926774061
-# 1926774063
-# 2106163664
-# 2106163667
-# 2106163668
-# 2106163669
-# 2504636901
-# 2932029342
-# 2948807024
-# 2948807026
-# 2948807027
-# 2948807028
-# 2948807029
-# 2948807032
-# 2948807033
 
-### RTPC/GAME-VARIABLE NAMES (vo_core.bnk)
+### RTPC/GAME-VARIABLE NAMES (langs/vo_core.bnk)
 SE_HeadphoneMode
 
-
-### MISSING EVENT NAMES (p219_se.bnk)
-# 661353040
-# 661353041
-# 661353049
-# 661353050
-# 661353051
-# 661353052
-# 661353053
-# 661353054
-# 661353055
-# 678130626
-# 678130627
-# 678130632
-# 678130633
-# 678130634
-# 678130635
-# 678130636
-# 678130637
-# 678130638
-# 678130639
-# 694908346
-# 694908348
-# 694908349
-# 694908350
-# 694908351
-
-### MISSING EVENT NAMES (p419_se.bnk)
-# 641381528
-# 641381529
-# 641381530
-# 641381531
-# 641381532
-# 674936822
-# 674936823
-# 674936824
-# 674936825
-# 674936826
-# 674936827
-# 674936828
-# 674936829
-# 674936831
-# 691714384
-# 691714385
-# 691714386
-# 691714387
-# 691714388
-# 691714389
-# 691714390
-# 691714391
-# 691714392
-# 691714393
+#3931255912  : SE_Init_p001
+#2259211615  : Set_pf03
+#2259211528  : Set_pf0d
+#4056150500  : Resume_em0070_SakaiMechTinyProjectileFire
+#3424039053  : BGM_duck_ProjectorOff

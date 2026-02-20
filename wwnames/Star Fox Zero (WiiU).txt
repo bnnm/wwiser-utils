@@ -1,3 +1,5 @@
+
+### BANK NAMES
 ba0006
 ba000a
 ba000b
@@ -169,149 +171,346 @@ wp001c
 wp001e
 wp0021
 
-All_Sound_Pause
-All_Sound_Resume
-ANDREW_AREA3_001
-ANDREW_COMMON_001
-ANDREW_COMMON_002
-ANDREW_COMMON_003
-ANDREW_COMMON_004
-ANDREW_COMMON_005
-ANDREW_COMMON_006
-ANDREW_COMMON_007
-ANDREW_COMMON_008
-ANDREW_COMMON_009
-ANDREW_COMMON_010
-ANDREW_COMMON_011
-ANDREW_COMMON_012
-ANDREW_COMMON_013
-ANDREW_COMMON_014
-ANDREW_COMMON_015
-ANDREW_COMMON_016
-ANDREW_SECTOR_B_001
-ANDREW_SECTOR_B_002
-ANDREW_SECTOR_B_003
-ANDREW_SECTOR_B_004
-ANDREW_SECTOR_B_005
-ANDREW_SECTOR_B_006
-ANDREW_VENOM_001
-ANDREW_VENOM_002
-ANDREW_VENOM_003
-ANDREW_VENOM_004
-ANDROSS_ACTION_VOICE_BITE
-ANDROSS_ACTION_VOICE_BITE_OMEN
-ANDROSS_ACTION_VOICE_CLAP_OMEN
-ANDROSS_ACTION_VOICE_EYEBEAM
-ANDROSS_ACTION_VOICE_FIRE_BLOCK
-ANDROSS_ACTION_VOICE_HAND_DEATH
-ANDROSS_ACTION_VOICE_HAND_DMG
-ANDROSS_ACTION_VOICE_KNOCK
-ANDROSS_ACTION_VOICE_KNOCKOUT
-ANDROSS_ACTION_VOICE_PUNCH
-ANDROSS_ACTION_VOICE_PUNCH_OMEN
-ANDROSS_ACTION_VOICE_SHOCKWAVE
-ANDROSS_ACTION_VOICE_SLAP_OMEN
-ANDROSS_CORNERIA2_001
-ANDROSS_CORNERIA2_002
-ANDROSS_CORNERIA2_003
-ANDROSS_VENOM_001
-ANDROSS_VENOM_002
-ANDROSS_VENOM_003
-ANDROSS_VENOM_004
-ANDROSS_VENOM_005
-ANDROSS_VENOM_006
-ANDROSS_VENOM_007
-ANDROSS_VENOM_008
-ANDROSS_VENOM_009
-ANDROSS_VENOM_010
-ANDROSS_VENOM_011
-ANDROSS_VENOM_012
-ANDROSS_VENOM_013
-ba000a_Mov_Lift_Down_Lp
-ba000a_Mov_Lift_Impact
-ba000a_Mov_Lift_Up_Lp
-ba000c_Mov_Wall_Impact
-ba000c_Mov_Wall_Start_Lp
-ba0011_Brk_BuildingA1
-ba0011_Brk_BuildingB1
-ba0011_Brk_BuildingC1
-ba0020_Brk_BuildingA
-ba0020_Brk_BuildingB
-ba0020_Brk_BuildingC
-ba0023_Mov_DoorOpen
-ba0024_Mov_GateOpen_Impact_L
-ba0024_Mov_GateOpen_Impact_R
-ba0024_Mov_GateOpen_Start_L
-ba0024_Mov_GateOpen_Start_R
-ba002f_Whs_Container
-ba0050_Searchlight_Off
-ba0050_Searchlight_On
-ba0052_Mov_GateClose_Impact_L
-ba0052_Mov_GateClose_Impact_R
-ba0052_Mov_GateClose_Start_L
-ba0052_Mov_GateClose_Start_R
-ba0052_Mov_GateOpen_Impact_L
-ba0052_Mov_GateOpen_Impact_R
-ba0052_Mov_GateOpen_Start_L
-ba0052_Mov_GateOpen_Start_R
-ba0056_Mov_Wall_Impact
-ba0056_Mov_Wall_Start_Lp
-ba0058_Mov_Falling
-ba0058_Mov_Swing
-ba0080_Dmg_Hit_Lv01
-ba0080_Dmg_Hit_Lv02
-ba0080_Dmg_Hit_Lv03
-ba0080_Dmg_Hit_Lv04
-ba0080_Dmg_Hit_Lv05
-ba0080_Mov_Grow_Down
-ba0080_Mov_Grow_Up
-ba0093_Mov_GateClose_Impact_L
-ba0093_Mov_GateClose_Impact_R
-ba0093_Mov_GateClose_Start_L
-ba0093_Mov_GateClose_Start_R
-ba0093_Mov_GateOpen_Impact_L
-ba0093_Mov_GateOpen_Impact_R
-ba0093_Mov_GateOpen_Start_L
-ba0093_Mov_GateOpen_Start_R
-ba0094_Mov_Idle
-ba1000_Chg_MainLaserLp
-ba1000_Dmg_Alert
-ba1000_Dmg_Alert_Loop
-ba1000_Dmg_Body
-ba1000_Fir_MainLaser
-ba1000_Mov_EngineLoop
-ba1000_Mov_NozzleLoop
-ba1000_Mov_SlowPass
-bad000_Mov_GateClese_Impact
-bad000_Mov_GateClose_Start_L
-bad000_Mov_GateClose_Start_R
-bad001_Mov_CloseDoor
-bad001_Mov_Door_CloseImpact
-bad001_Mov_Door_OpenImpact
-bad001_Mov_OpenDoor
-bad002_Mov_ShutterClose_Impact
-bad002_Mov_ShutterClose_Start
-bad002_Mov_ShutterOpen_Impact
-bad002_Mov_ShutterOpen_Start
-bad008_Mov_GateOpen_Impact
-bad008_Mov_GateOpen_Start
-bad00c_Mov_Lift_Impact
-bad00c_Mov_Lift_Start_Lp
-bad00e_Mov_GateOpen_Impact
-bad00e_Mov_GateOpen_Start
-bad00f_Mov_GateClose_Impact
-bad00f_Mov_GateClose_Start
-bad010_Mov_GateClose_Impact
-bad010_Mov_GateClose_Start
-bad010_Mov_GateOpen_Impact
-bad010_Mov_GateOpen_Start
-bad011_Mov_GateClose_Impact
-bad011_Mov_GateClose_Start
-bad011_Mov_GateOpen_Impact
-bad011_Mov_GateOpen_Start
+### BUS NAMES
+amiibo
+amiibo_a
+amiibo_s
+BGM
+bgm_a
+BGM_Ambi
+BGM_Ambi_A
+BGM_Ambi_S
+bgm_s
+BGM_Stereo
+BGM_Stereo_A
+BGM_Stereo_S
+Canyon
+Cave
+Character
+DirectSE
+EnemyFly
+EnemyFly_a
+EnemyFly_s
+ev_NonPlayer
+ev_NonPlayer_A
+ev_NonPlayer_S
+ev_player
+ev_player_A
+ev_player_S
+event
+FX
+hdr
+hdr_a
+hdr_s
+jingle
+Master Audio Bus = 0
+Master Secondary Bus = 0
+Reverb
+se
+SE_A
+SE_Event
+SE_Event_a
+SE_Event_s
+SE_Event_Skip
+SE_Event_Skip_a
+SE_Event_Skip_s
+SE_S
+SE_SYS
+sfx_core
+sfx_core_A
+sfx_core_S
+sfx_em
+sfx_em6100
+sfx_em6100_A
+sfx_em6100_S
+sfx_em_A
+sfx_em_duck
+sfx_em_duck_a
+sfx_em_duck_s
+sfx_em_S
+sfx_ENV
+sfx_ENV_A
+sfx_ENV_S
+sfx_pl
+sfx_pl_A
+sfx_pl_S
+sfx_UI
+sfx_UI_A
+sfx_UI_S
+SpaceDodora
+stage
+stg_forest
+stg_forest2
+system
+system_a
+system_s
+vo
+VO_A
+VO_S
+Voice
+Voice_3D
+Voice_3D_A
+Voice_3D_S
+VOICE_a
+VOICE_s
+# 26462532
+# 277714047
+# 2094798725
+# 3049955258
+# 543021079
+# 1498411978
+# 58129541
+# 648362639
+# 1917137992
+# 2134757844
+# 3562835252
+# 2408535229
+# 271250293
+# 2768308808
+# 4130935284
+# 293772762
+# 820094160
+# 1505361881
+# 3411919509
+# 4124631930
+# 1116516096
+# 1116516114
+# 3199059760
+# 3199059746
+# 1319561901
+# 1319561919
+# 84960474
+# 1754503090
+# 181670213
+# 181670231
+# 2810475123
+# 2810475105
+# 2930255434
+# 2930255448
+# 2676884259
+# 950424443
+# 950424425
+# 2676884273
+
+### SFX NAMES (Init.bnk)
+Hall_Large
+SE_cave_Rev
+SE_duck
+Voice_LipSyncControl
+# 887378967
+# 1265747034
+# 2187599710
+# 2770916569
+# 2990408776
+# 3215301656
+# 3265527517
+
+### BASE RTPC/GAME-VARIABLE NAMES (Init.bnk)
+ba1000_Mov_Dist
+BGM_Barrier
+BGM_forest
+bgm_pause
+BGM_SetAmiibo
+BGM_Slow
+CameraAngle_H
+CameraAngle_V
+core_Collision_Type
+core_HeadphoneMode
+core_Mov_Speed
+core_se_duck
+em1011_Mov_Idle_duck
+em1100_Whs_Missile
+em2020_Whs_Laser
+em6100_Delay
+ema100_Mov_Angle
+ema100_Mov_Dist
+ema100_Mov_pattern
+ema100_Mov_RollSpeed
+ema100_Mov_Speed
+emb100_Mov_Dist
+pl0041_LimitRange
+pl_BuggyDriftInputRate
+pl_BuggyDriftRate
+pl_BuggyEngineInputSpeed
+pl_BuggyEngineSpeed
+pl_BuggySpeed
+pl_BuggySpinSpeed
+pl_Elevating
+pl_elevation
+pl_HeriLRSlideInputRate
+pl_HeriLRSlideRate
+pl_HeriMoveInputSpeed
+pl_HeriMoveSpeed
+pl_HeriSpeed
+pl_HeriTurnInputRate
+pl_HeriTurnRate
+pl_HeriUDSlideInputRate
+pl_HeriUDSlideRate
+pl_L_Stick_FRInputRate
+pl_L_Stick_LRInputRate
+pl_Mov_HeadSpeed
+pl_Mov_HeadSpeed_X
+pl_Mov_HeadSpeed_Y
+pl_R_Stick_FRInputRate
+pl_R_Stick_LRInputRate
+pl_VehicleAngle
+pl_VehicleSpeed
+result_duck
+SE_LipSyncControl
+Soundtest
+test_Speed
+Voice_3D
+voice_test
+Volume_BGM
+Volume_ENV
+Volume_Master
+Volume_SE
+Volume_Voice
+# 332780323
+# 354543731
+# 372422116
+# 552399222
+# 641447727
+# 667952426
+# 755446471
+# 990817460
+# 1022586083
+# 1051008250
+# 1167531055
+# 1618907762
+# 1748658509
+# 1865591067
+# 2002020477
+# 2103772708
+# 2245237517
+# 2266645365
+# 2463073144
+# 2476995316
+# 2863949213
+# 2874107926
+# 2922187604
+# 2943372332
+# 2948766632
+# 3297818656
+# 3319432055
+# 3664147437
+# 3758655018
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+BGM_forest
+bgm_pause
+BGM_SetAmiibo
+BGM_Slow
+core_Collision_Type
+core_se_duck
+em1100_Whs_Missile
+em2020_Whs_Laser
+ema100_Mov_Angle
+pl_BuggySpinSpeed
+pl_Elevating
+pl_HeriLRSlideRate
+pl_HeriMoveSpeed
+pl_HeriTurnInputRate
+pl_L_Stick_FRInputRate
+pl_L_Stick_LRInputRate
+pl_R_Stick_FRInputRate
+pl_R_Stick_LRInputRate
+pl_VehicleSpeed
+result_duck
+SE_LipSyncControl
+Soundtest
+Volume_BGM
+Volume_ENV
+Volume_Master
+Volume_SE
+Volume_Voice
+# 1865591067
+# 990817460
+# 1748658509
+# 3319432055
+# 1167531055
+# 3297818656
+# 2476995316
+
+### VARIABLE NAMES (Init.bnk)
+BGM_dodora
+BGM_evt_opening
+BGM_Menu
+bgm_player_event
+bgm_player_Main
+bgm_player_sfx
+bgm_player_Sub
+BGM_sit_emergency1
+BGM_stg_colony
+BGM_stg_oilfield
+BGM_stg_training
+BGM_stg_training2
+BGM_sys_title
+core_Collision_Type
+em1100_idle
+em1100_Whs_Missile
+em2020_Whs_Laser
+emb100_body
+emb100_stage
+pl0050_Mov_Jump
+SE_HeadphoneMode
+SE_Slow
+Set_Player_Type
+stg_corneria
+test_Fall
+# 609866852
+# 609866855
+# 609866854
+# 609866849
+# 692898215
+# 2098739143
+# 3519640720
+# 3032284089
+# 508636293
+# 508636294
+# 558969340
+# 558969343
+# 542191723
+# 542191720
+# 458303562
+# 458303561
+# 728417861
+# 4117796502
+# 4117796501
+# 4134574315
+# 4134574312
+# 1915831270
+# 3191543932
+# 3524834954
+# 3032622137
+# 3366496403
+# 237863001
+# 3630204355
+# 1748658509
+# 3022998974
+# 730196509
+# 755969534
+# 729527134
+# 1350952369
+# 1983551265
+# 2620955655
+# 2106733557
+# 670711213
+# 3204438774
+# 670711219
+# 1416190420
+# 330029982
+# 901088268
+# 1867478515
+
+### VALUE NAMES (Init.bnk)
+in
+st1_m3_core_in
+st1_m3_core_out
+
+### EVENT NAMES (BGM.bnk)
 BGM_Arcade_in
 BGM_Arcade_out
-BGM_Barrier
 BGM_Briefing_in
 BGM_CommetClear
 BGM_CommetClear_Training
@@ -319,14 +518,10 @@ BGM_CommetClear_Training_r121
 BGM_CommetFadeout
 BGM_CommetFadeout_Wolfen
 BGM_CommetResultEnd
-BGM_dodora
 BGM_DRCEnd
-BGM_evt_opening
-BGM_forest
 BGM_Guard_in
 BGM_Guard_out
 BGM_Guard_to_eShop
-BGM_Menu
 BGM_Menu_in
 BGM_Menu_out
 BGM_MessageWindow_in
@@ -336,12 +531,12 @@ BGM_OpeningDemo_in
 BGM_OpeningDemo_out
 BGM_ParticularPause_in
 BGM_ParticularPause_out
-bgm_pause
 BGM_Pause_in
 BGM_Pause_out
 BGM_PhaseResult_in
 BGM_PhaseResult_out
 BGM_PlayerDie
+BGM_PlayerRespawn
 BGM_RemoveRobotAll
 BGM_Restart_in
 BGM_Retry
@@ -349,57 +544,917 @@ BGM_ScoreList_in
 BGM_ScoreList_out
 BGM_ScreenFade
 BGM_SetAmiibo
-BGM_sit_emergency1
-BGM_Slow
 BGM_Slow_in
 BGM_Slow_out
 BGM_Slow_out_withoutSFX
 BGM_StaffCredit_B_in
 BGM_StaffCredit_B_out
 BGM_StaffCredit_B_skip
-BGM_stg_colony
-BGM_stg_oilfield
-BGM_stg_training
-BGM_sys_title
-BGM_TitleDemo_in
 BGM_Title_in
+BGM_TitleDemo_in
 BGM_Training_in
 BGM_Training_out
 BGM_WarpIn
+ErrorMessage_in
+ErrorMessage_out
+Load_in_BGM
+Load_out_BGM
+mot_em2100_0210_s1
+mot_em4100_0009_s1
+mot_em4100_000b_s1
+mot_em6100_0003_s1
+mot_et0000_1100_s1
+mot_et0000_1100_s2
+mot_et0000_2100_s1
+mot_et0000_2200_s1
+mot_et0000_2200_s2_sf
+mot_et0000_2200_s2_sfp
+mot_et0000_2220_s1
+mot_et0000_3100_s1
+mot_et0000_3200_s1_sf
+mot_et0000_3200_s1_sfp
+mot_et0000_3220_s1
+mot_et0000_3300_s1_sf
+mot_et0000_3300_s1_sfp
+mot_et0000_3320_s1
+mot_et0000_4100_s1
+mot_et0000_4400_s1
+mot_et0000_4400_s2
+mot_et0000_4420_s1
+mot_et0000_4500_s1
+mot_et0000_4520_s1
+mot_et0000_5100_s1
+mot_et0000_5200_s1
+mot_et0000_5200_s2_sf
+mot_et0000_5200_s2_sfp
+mot_et0000_5220_s1
+mot_et0000_6100_s1
+mot_et0000_6200_s1_sf
+mot_et0000_6200_s1_sfp
+mot_et0000_6220_s1
+mot_et0000_7100_s1
+mot_et0000_7100_s2
+mot_et0000_7100_s3
+mot_et0000_7300_s1
+mot_et0000_7300_s2
+mot_et0000_7320_s1
+mot_et0000_8100_s1
+mot_et0000_8300_s1
+mot_et0000_8300_s2_sf
+mot_et0000_8300_s2_sfp
+mot_et0000_8320_s1
+mot_et0000_9100_s1
+mot_et0000_9300_s1
+mot_et0000_9300_s2_sf
+mot_et0000_9300_s2_sfp
+mot_et0000_9320_s1
+mot_et0000_9400_s1
+mot_et0000_9400_s2_sf
+mot_et0000_9400_s2_sfp
+mot_et0000_9420_s1
+mot_et0000_a100_s1
+mot_et0000_a200_s1_sf
+mot_et0000_a200_s1_sfp
+mot_et0000_a220_s1
+mot_et0000_b100_s1
+mot_et0000_b200_s1
+mot_et0000_b200_s2_sf
+mot_et0000_b200_s2_sfp
+mot_et0000_b220_s1
+mot_et0000_c100_s1
+mot_et0000_c300_s1
+mot_et0000_c300_s2
+mot_et0000_d200_s1
+mot_et0000_d200_s2
+mot_et0000_d300_s1
+mot_et0000_d320_s1
+mot_et0000_d400_s1
+mot_et0000_d400_s2
+mot_et0000_d500_s1
+mot_et0000_d600_s1
+mot_et0000_d610_s1
+mot_et0000_d700_s1
+mot_et0000_d900_s1
+mot_et0000_d900_s2
+mot_et0000_da00_s1
+mot_et0000_da00_s2
+mot_et0000_da10_s1
+mot_et0000_de10_s1
+mot_et0000_de10_s2
+mot_et0000_de10_s3
+mot_et0000_df00_s0
+mot_et0000_df00_s1
+mot_et0000_e002_s1_5
+mot_et0000_e002_s2
+mot_et0000_e003_s1_sf
+mot_et0000_e003_s1_sfp
+mot_et0000_e005_s1
+mSet_AppearWolfen
+mSet_Attention_Camera_in
+mSet_Attention_Camera_in_shortterm
+mSet_Attention_Camera_out
+mSet_DisappearWolfen
+mSet_EnemySearch_in
+mSet_EnemySearch_in_shortterm
+mSet_EnemySearch_out
+mSet_s04_m02_GetAwayWolf
+mSet_st1_m1_evskip_to_rc25
+mSet_st1_m1_opening_to_End
+mSet_st1_m1_THXstarfox
+mSet_st1_m2_end
+mSet_st1_m2_MissionFailure
+mSet_st1_m3_BossDisappear
+mSet_st1_m3_core_Battle
+mSet_st1_m3_core_in
+mSet_st1_m3_core_out
+mSet_st1_m3_stageclear
+mSet_st2_m2_core_Battle
+mSet_st2_m2_core_in
+mSet_st2_m2_core_out
+mSet_st2_st8_m1_WolfResultDucking_in
+mSet_st2_st8_m1_WolfResultDucking_out
+mSet_st3_m1_evskip_to_r611
+mSet_st3_m1_ResultDucking_in
+mSet_st3_m1_ResultDucking_out
+mSet_st3_m2_BossAppear
+mSet_st4_m1_AppearKatt
+mSet_st4_m1_AppearPigma
+mSet_st4_m1_AppearWarship
+mSet_st4_m1_AppearWolf
+mSet_st4_m1_Barrier_in
+mSet_st4_m1_Barrier_out
+mSet_st4_m1_BarrierSlow_in
+mSet_st4_m1_BarrierSlow_out
+mSet_st4_m1_BGMDuckingEnd
+mSet_st4_m1_BGMDuckingStart
+mSet_st4_m1_BlastOff
+mSet_st4_m1_MissionFailure
+mSet_st4_m2_AppearFleet
+mSet_st4_m2_AttackWolf
+mSet_st4_m2_evskip_to_301
+mSet_st4_m2_GetAwayWolf_2
+mSet_st5_m1_DetonatorOn
+mSet_st5_m1_MissionFailure
+mSet_st5_m1_OpenGate_1
+mSet_st5_m1_OpenGate_2
+mSet_st5_m1_Restart_Escape
+mSet_st5_m1_WhiteOut
+mSet_st5_m1_WhiteOut_commet
+mSet_st611_m1_restart
+mSet_st6_m1_MissionClear
+mSet_st6_m1_MissionComplete
+mSet_st6_m1_MissionFailure_A
+mSet_st6_m1_MissionFailure_B
+mSet_st6_m1_StagebgmFadeout
+mSet_st7_m1_AnotherDimensionClear
+mSet_st7_m1_IntotheVenom
+mSet_st7_m1_Restart_Wolf
+mSet_st7_m3_AndorfTransformation
+mSet_st7_m3_FinalShot
+mSet_st7_m3_StreetPassJames_end
+mSet_st7_m3_StreetPassJames_start
+mSet_st918_m1_fadeout
+mSet_st921_m1_AppearAndrew
+mSet_st921_m1_ResultDucking_in
+mSet_st921_m1_ResultDucking_out
+mSet_st9_m2_GateOpen
+mSet_st9_m2_GetHeli
+mSet_st9_m2_HipOpen
+mSet_st9_m2_hurryup
+mSet_st9_m2_MissionFailure
+mSet_st9_m2_PowerSupply
+mSet_st9_m2_Restart_Heli
+mSet_st9_m2_StartUpGorilla
+mSet_sta_m1_AppearBosstrider
+mSet_sta_m1_AppearStarwolf
+mSet_sta_m1_DisappearStarwolf
+mSet_sta_m2_BossDisappear
+mSet_sta_m2_Restart_Bosstrider
+mSet_sta_m2_StartGravmaster
+mSet_stb27_m1_DodoraRageEnd
+mSet_stb27_m1_DodoraRageStart
+mSet_stb27_m1_MissionFailure
+mSet_stb28_m1_restart
+mSet_stb_m1_AnotherDimension_appear
+mSet_stb_m1_AnotherDimension_in
+mSet_stb_m1_AnotherDimension_out
+mSet_stc25_m1_restart
+mSet_stc_m2_TowerDissapear
+mSet_stc_m3_ResultEnd
+mSet_stc_m3_StartUpGorilla
+mSet_TrainingMode2_2
+mSet_TrainingMode_1
+mSet_TrainingMode_2
+mSet_TrainingMode_4
+mSet_TrainingMode_5
+mSet_trunk_in
+mSet_trunk_out
+Set_evskip_2200_sf
+Set_evskip_2200_sfp
+Set_evskip_2220
+Set_evskip_3100
+Set_evskip_3200_sf
+Set_evskip_3200_sfp
+Set_evskip_3220
+Set_evskip_3300_sf
+Set_evskip_3300_sfp
+Set_evskip_3320
+Set_evskip_4400
+Set_evskip_4420
+Set_evskip_4500
+Set_evskip_4520
+Set_evskip_5100
+Set_evskip_5200_sf
+Set_evskip_5200_sfp
+Set_evskip_5220
+Set_evskip_6100
+Set_evskip_6200_sf
+Set_evskip_6200_sfp
+Set_evskip_6220
+Set_evskip_7100
+Set_evskip_7300
+Set_evskip_7320
+Set_evskip_8100
+Set_evskip_8300_sf
+Set_evskip_8300_sfp
+Set_evskip_8320
+Set_evskip_9100
+Set_evskip_9300
+Set_evskip_9320
+Set_evskip_9400
+Set_evskip_9420
+Set_evskip_a100
+Set_evskip_a200_sf
+Set_evskip_a200_sfp
+Set_evskip_a220
+Set_evskip_b100
+Set_evskip_b200_sf
+Set_evskip_b200_sfp
+Set_evskip_b220
+Set_evskip_c100
+Set_evskip_c300
+Set_evskip_d200
+Set_evskip_d300
+Set_evskip_d310
+Set_evskip_d400
+Set_evskip_d500
+Set_evskip_d600
+Set_evskip_d610
+Set_evskip_d700
+Set_evskip_d900
+Set_evskip_da00
+Set_evskip_da10
+Set_evskip_de00
+Set_evskip_de10
+Set_evskip_df00
+Set_evskip_e002
+Set_evskip_e003_sf
+Set_evskip_e003_sfp
+Set_evskip_e005
+Set_r104
+Set_r10a
+Set_r10b
+Set_r121
+Set_r202
+Set_r21f
+Set_r314
+Set_r511
+Set_r711
+Set_r918
+Set_r925
+Set_r926
+Set_rA14
+Set_rA1f
+Set_rB2f
+Set_rF01
+Set_rF10
+Set_rF11
+Set_rF12
+Set_rF91
+Set_rF92
+Set_rF93
+Soundtest_enter
+Soundtest_exit
+Soundtest_play_btl_andorf
+Soundtest_play_btl_bossA
+Soundtest_play_btl_bossAcore
+Soundtest_play_btl_bossB
+Soundtest_play_btl_bossC
+Soundtest_play_btl_career
+Soundtest_play_btl_kong
+Soundtest_play_btl_pigma
+Soundtest_play_btl_wolf
+Soundtest_play_evt_andorf_pre
+Soundtest_play_evt_BILL
+Soundtest_play_evt_bossappear1
+Soundtest_play_evt_cat
+Soundtest_play_evt_cat_Long
+Soundtest_play_evt_Decision
+Soundtest_play_evt_emergency1
+Soundtest_play_evt_emergency2
+Soundtest_play_evt_emergency3
+Soundtest_play_evt_opening
+Soundtest_play_evt_staffcredit1
+Soundtest_play_evt_staffcredit2
+Soundtest_play_evt_staffcredit3
+Soundtest_play_evt_titledemo
+Soundtest_play_jgl_missionfailure
+Soundtest_play_jgl_playerdie
+Soundtest_play_jgl_warp
+Soundtest_play_sit_emergency1
+Soundtest_play_sit_emergency1_2
+Soundtest_play_sit_emergency2
+Soundtest_play_sit_hurryup
+Soundtest_play_sit_stageallclear
+Soundtest_play_sit_stageclear
+Soundtest_play_sit_stageclear_fake
+Soundtest_play_sit_stagecomplete
+Soundtest_play_sit_story
+Soundtest_play_sit_superior
+Soundtest_play_stg_colony
+Soundtest_play_stg_corneria2
+Soundtest_play_stg_defence
+Soundtest_play_stg_desert
+Soundtest_play_stg_forest
+Soundtest_play_stg_forest2
+Soundtest_play_stg_forest3
+Soundtest_play_stg_meteo
+Soundtest_play_stg_oilfield
+Soundtest_play_stg_sfccorneria
+Soundtest_play_stg_space1
+Soundtest_play_stg_space1_inside
+Soundtest_play_stg_space2
+Soundtest_play_stg_space3
+Soundtest_play_stg_space4
+Soundtest_play_stg_space5
+Soundtest_play_stg_training
+Soundtest_play_stg_VENOM
+Soundtest_play_stg_VENOM_inside
+Soundtest_play_sys_mapselect
+Soundtest_play_sys_Menu
+Soundtest_play_sys_title
+Soundtest_play_sys_TRAINING
+Soundtest_stg_corneria2_subesp
+Soundtest_stop
+Soundtest_stop_next
+Test_Music
+# 37392479
+# 39510436
+# 53830606
+# 109260668
+# 122514357
+# 159548800
+# 166985954
+# 176983435
+# 201788586
+# 258705488
+# 306572991
+# 325295491
+# 345695088
+# 372683391
+# 410003186
+# 427067238
+# 456568526
+# 481678683
+# 524408529
+# 535493777
+# 591820146
+# 620057277
+# 686568015
+# 714007972
+# 802286637
+# 804393466
+# 942716203
+# 1112173520
+# 1146741323
+# 1150632812
+# 1157507483
+# 1164722744
+# 1165230444
+# 1173799797
+# 1185927774
+# 1201091601
+# 1264562086
+# 1293267367
+# 1346772019
+# 1393553833
+# 1409642345
+# 1418459147
+# 1427327056
+# 1430870660
+# 1492607537
+# 1519474446
+# 1530929665
+# 1616931264
+# 1623335375
+# 1638997314
+# 1700106657
+# 1731428319
+# 1754033663
+# 1781696335
+# 1835260127
+# 1877238678
+# 1885609485
+# 1901854973
+# 1903209705
+# 1928511898
+# 1989038246
+# 2009060884
+# 2010786752
+# 2025805011
+# 2099983590
+# 2111941436
+# 2159685757
+# 2217861593
+# 2220819251
+# 2313533624
+# 2377857959
+# 2404695082
+# 2554552265
+# 2564425285
+# 2588116438
+# 2622354002
+# 2658622883
+# 2662151219
+# 2689348040
+# 2727363886
+# 2741893820
+# 2780821420
+# 2830803553
+# 2891136984
+# 2893071310
+# 2894505632
+# 2910076954
+# 2926778571
+# 2934187530
+# 2954877812
+# 2976882090
+# 3011291097
+# 3086186297
+# 3104678634
+# 3117745109
+# 3123086400
+# 3151549805
+# 3212941211
+# 3224286315
+# 3237902410
+# 3310517790
+# 3313799293
+# 3335424015
+# 3339868444
+# 3356593846
+# 3363052002
+# 3425049229
+# 3472797758
+# 3561580993
+# 3572465401
+# 3601994618
+# 3713472624
+# 3774306287
+# 3779456711
+# 3799104052
+# 3836931599
+# 3849226941
+# 3893787415
+# 3901908693
+# 3919331369
+# 3948044017
+# 3954233197
+# 3960215825
+# 4037057274
+# 4047365197
+# 4050984416
+# 4060149543
+# 4077007256
+# 4122249480
+# 4129222113
+# 4167754770
+# 4201002852
+# 4228384311
+# 4259626726
+
+### RTPC/GAME-VARIABLE NAMES (BGM.bnk)
+BGM_Barrier
+# 641447727
+# 372422116
+
+### VARIABLE NAMES (BGM.bnk)
+BGM_dodora
+BGM_evt_opening
+BGM_Menu
+bgm_player_event
+bgm_player_Main
+bgm_player_sfx
+bgm_player_Sub
+BGM_sit_emergency1
+BGM_stg_colony
+BGM_stg_oilfield
+BGM_stg_training
+BGM_stg_training2
+BGM_sys_title
+stg_corneria
+# 2098739143
+# 609866852
+# 609866855
+# 609866854
+# 609866849
+# 692898215
+
+### VALUE NAMES (BGM.bnk)
+btl_andorf
+btl_andorf_pre
+btl_andorf_pre_evt
+btl_bossA
+btl_bossAcore
+btl_bossB
+btl_bossC
+btl_career
+btl_kong
+btl_pigma
+btl_wolf
+dodora
+emergency
+end
+evt_andorf
+evt_andorf_pre
+evt_bill
+evt_bossappear1
+evt_cat
+evt_cat_2
+evt_decision
+evt_emergency1
+evt_emergency2
+evt_emergency3
+evt_opening
+evt_story
+evt_titledemo
+fichina
+GateOpen
+InGate
+loop
+menu
+none
+normal
+normal_10sec
+off
+on
+sfx_AnotherDimension
+sfx_AnotherDimension_in
+sfx_AnotherDimension_out
+sfx_bossAcore
+sfx_forest
+sfx_siren
+sit_emergency1
+sit_emergency1_2
+sit_emergency2
+sit_hurryup
+sit_stageallclear
+sit_stageclear
+sit_stageclear_fake
+sit_stagecomplete
+sit_superior
+st1_m3_core_in
+st1_m3_core_out
+stg_cave
+stg_colony
+stg_corneria
+stg_corneria2
+stg_defence
+stg_desert
+stg_forest
+stg_forest2
+stg_forest3
+stg_meteo
+stg_oilfield
+stg_sfccorneria
+stg_space1
+stg_space1_inside
+stg_space2
+stg_space3
+stg_space4
+stg_space5
+stg_training
+stg_training1
+stg_training2
+stg_training2_1
+stg_training2_2
+stg_training3
+stg_training4
+stg_training5
+stg_venom_inside
+sys_arcade
+sys_guard
+sys_mapselect
+sys_title
+sys_training
+title
+# 23082535
+# 173596960
+# 173596963
+# 173596964
+# 173596969
+# 1827301934
+# 3592103261
+# 4211601339
+# 2815793107
+# 173596962
+# 173596965
+# 173596966
+# 173596967
+# 173596968
+# 173597040
+# 173597042
+# 173597043
+# 792719072
+# 906116712
+# 907970568
+# 1041318277
+# 1417245335
+# 2421599282
+# 2421599283
+# 3137539497
+# 3138127813
+# 3150147759
+# 3150692176
+# 4210909727
+# 4211748370
+# 4211748371
+# 4212042620
+# 4212189655
+
+### EVENT NAMES (ba000a.bnk)
+ba000a_Mov_Lift_Down_Lp
+ba000a_Mov_Lift_Impact
+ba000a_Mov_Lift_Up_Lp
+
+### EVENT NAMES (ba000b.bnk)
+# 812062238
+# 2010161573
+# 4045317166
+
+### EVENT NAMES (ba000c.bnk)
+ba000c_Mov_Wall_Impact
+ba000c_Mov_Wall_Start_Lp
+Stop_ba000c_Mov_Wall_Start_Lp
+
+### EVENT NAMES (ba0020.bnk)
+ba0020_Brk_BuildingA
+ba0020_Brk_BuildingB
+ba0020_Brk_BuildingC
+
+### EVENT NAMES (ba0022.bnk)
+ba0022_Thr_Whs_Building
+
+### RTPC/GAME-VARIABLE NAMES (ba0022.bnk)
+# 2266645365
+
+### EVENT NAMES (ba0023.bnk)
+ba0023_Mov_DoorOpen
+
+### EVENT NAMES (ba0024.bnk)
+ba0024_Mov_GateOpen_Impact_L
+ba0024_Mov_GateOpen_Impact_R
+ba0024_Mov_GateOpen_Start_L
+ba0024_Mov_GateOpen_Start_R
+
+### EVENT NAMES (ba002f.bnk)
+ba002f_Brk_Container
+ba002f_Whs_Container
+
+### EVENT NAMES (ba0050.bnk)
+ba0050_Searchlight_LP
+ba0050_Searchlight_Off
+ba0050_Searchlight_On
+
+### EVENT NAMES (ba0052.bnk)
+ba0052_Mov_GateClose_Impact_L
+ba0052_Mov_GateClose_Impact_R
+ba0052_Mov_GateClose_Start_L
+ba0052_Mov_GateClose_Start_R
+ba0052_Mov_GateOpen_Impact_L
+ba0052_Mov_GateOpen_Impact_R
+ba0052_Mov_GateOpen_Start_L
+ba0052_Mov_GateOpen_Start_R
+
+### EVENT NAMES (ba0056.bnk)
+ba0056_Mov_Wall_Impact
+ba0056_Mov_Wall_Start_Lp
+
+### VARIABLE NAMES (ba0056.bnk)
+# 1915831270
+
+### VALUE NAMES (ba0056.bnk)
+outdoor
+
+### EVENT NAMES (ba0058.bnk)
+ba0058_Brk_crash
+ba0058_Mov_Falling
+ba0058_Mov_Squeak_Lp
+ba0058_Mov_Swing
+
+### VARIABLE NAMES (ba0058.bnk)
+# 1915831270
+
+### VALUE NAMES (ba0058.bnk)
+Indoor
+
+### EVENT NAMES (ba0070.bnk)
+r701_CameraEvent_BeamVanish_Lv03
+# 2724823701
+# 3045545035
+
+### VARIABLE NAMES (ba0070.bnk)
+# 542191723
+
+### VALUE NAMES (ba0070.bnk)
+off
+
+### EVENT NAMES (ba0071.bnk)
+# 3556475676
+
+### EVENT NAMES (ba0080.bnk)
+ba0080_Dmg_Hit_Lv01
+ba0080_Dmg_Hit_Lv02
+ba0080_Dmg_Hit_Lv03
+ba0080_Dmg_Hit_Lv04
+ba0080_Dmg_Hit_Lv05
+ba0080_Mov_Grow_Down
+ba0080_Mov_Grow_Up
+# 3117397558
+# 4195171620
+
+### EVENT NAMES (ba0093.bnk)
+ba0093_Mov_GateClose_Impact_L
+ba0093_Mov_GateClose_Impact_R
+ba0093_Mov_GateClose_Start_L
+ba0093_Mov_GateClose_Start_R
+ba0093_Mov_GateOpen_Impact_L
+ba0093_Mov_GateOpen_Impact_R
+ba0093_Mov_GateOpen_Start_L
+ba0093_Mov_GateOpen_Start_R
+
+### EVENT NAMES (ba0094.bnk)
+ba0094_Mov_Idle
+stop_ba0094_Mov_Idle
+# 4126440538
+
+### EVENT NAMES (ba1000.bnk)
+ba1000_Chg_MainLaserLp
+ba1000_Dmg_Alert
+ba1000_Dmg_Alert_Loop
+ba1000_Dmg_Body
+ba1000_Fir_MainLaser
+ba1000_Mov_EngineLoop
+ba1000_Mov_NozzleLoop
+ba1000_Mov_SlowPass
+ev_com_ba1000_Chg_MainLaserLp
+ev_com_ba1000_Fir_MainLaser
+ev_com_ba1000_Mov_EngineLoop
+ev_com_ba1000_Mov_NozzleLoop
+ev_com_ba1000_Mov_SlowPass
+evb281_ba1000_Chg_MainLaserLp
+evb281_ba1000_Fir_MainLaser
+evb281_ba1000_Mov_EngineLoop
+evb281_ba1000_Mov_NozzleLoop
+evb281_ba1000_Mov_SlowPass
+evr918_ba1000_EndEV_c1_Start
+evr918_ba1000_EndEV_c2_Start
+evr918_ba1000_StartEV_End
+evr918_ba1000_StartEV_Start
+Stop_ba1000_All
+Stop_ba1000_Chg_MainLaserLp
+Stop_ba1000_Dmg_Alert_Loop
+Stop_ba1000_Mov_EngineLoop
+stop_ba1000_Mov_NozzleLoop
+stop_ba1000_Mov_SlowPass
+Stop_ev_com_ba1000_Chg_MainLaserLp
+Stop_ev_com_ba1000_Fir_MainLaser
+Stop_ev_com_ba1000_Mov_EngineLoop
+Stop_ev_com_ba1000_Mov_NozzleLoop
+stop_ev_com_ba1000_Mov_SlowPass
+Stop_evb281_ba1000_Chg_MainLaserLp
+Stop_evb281_ba1000_Fir_MainLaser
+stop_evb281_ba1000_Mov_EngineLoop
+stop_evb281_ba1000_Mov_NozzleLoop
+# 128132176
+# 2262154234
+
+### RTPC/GAME-VARIABLE NAMES (ba1000.bnk)
+ba1000_Mov_Dist
+# 1865591067
+
+### EVENT NAMES (bad000.bnk)
+bad000_Mov_GateClese_Impact
+bad000_Mov_GateClose_Start_L
+bad000_Mov_GateClose_Start_R
+
+### EVENT NAMES (bad001.bnk)
+bad001_Mov_CloseDoor
+bad001_Mov_Door_CloseImpact
+bad001_Mov_Door_OpenImpact
+bad001_Mov_OpenDoor
+
+### EVENT NAMES (bad002.bnk)
+bad002_Mov_ShutterClose_Impact
+bad002_Mov_ShutterClose_Start
+bad002_Mov_ShutterOpen_Impact
+bad002_Mov_ShutterOpen_Start
+
+### RTPC/GAME-VARIABLE NAMES (bad002.bnk)
+# 1865591067
+
+### EVENT NAMES (bad008.bnk)
+bad008_Mov_GateOpen_Impact
+bad008_Mov_GateOpen_Start
+
+### EVENT NAMES (bad00b.bnk)
+# 3394764558
+
+### EVENT NAMES (bad00c.bnk)
+ba000c_Mov_Wall_Impact
+ba000c_Mov_Wall_Start_Lp
+bad00c_Mov_Lift_Impact
+bad00c_Mov_Lift_Start_Lp
+Stop_ba000c_Mov_Wall_Start_Lp
+
+### EVENT NAMES (bad00e.bnk)
+bad00e_Mov_GateOpen_Impact
+bad00e_Mov_GateOpen_Start
+
+### EVENT NAMES (bad00f.bnk)
+bad00f_Mov_GateClose_Impact
+bad00f_Mov_GateClose_Start
+
+### EVENT NAMES (bad010.bnk)
+bad010_Mov_GateClose_Impact
+bad010_Mov_GateClose_Start
+bad010_Mov_GateOpen_Impact
+bad010_Mov_GateOpen_Start
+
+### EVENT NAMES (bad011.bnk)
+bad011_Mov_GateClose_Impact
+bad011_Mov_GateClose_Start
+bad011_Mov_GateOpen_Impact
+bad011_Mov_GateOpen_Start
+
+### EVENT NAMES (bad012.bnk)
+ba0024_Mov_GateOpen_Impact_L
+ba0024_Mov_GateOpen_Impact_R
+ba0024_Mov_GateOpen_Start_L
+ba0024_Mov_GateOpen_Start_R
+
+### EVENT NAMES (bh0100.bnk)
+bh0100_Exp_Bomb
 bh0100_Mov_Fall_Impact
+
+### EVENT NAMES (bh1000.bnk)
+# 489200339
+
+### EVENT NAMES (bh1008.bnk)
 bh1008_Stone_Fall
-BILL_SECTOR_B_001
-BILL_SECTOR_B_002
-BILL_SECTOR_B_003
-BILL_SECTOR_B_006
-BILL_SECTOR_B_007
-BILL_SECTOR_B_008
-BILL_SECTOR_B_009
-BILL_SECTOR_B_010
-BILL_SECTOR_B_011
-BILL_SECTOR_B_012
-BILL_SECTOR_B_013
-BILL_SECTOR_B_014
-BILL_SECTOR_B_015
-BILL_SECTOR_B_016
-BILL_SECTOR_B_017
-BILL_SECTOR_B_018
-BILL_SECTOR_B_019
-BILL_SECTOR_B_020
-BILL_SECTOR_B_021
-BILL_SECTOR_B_022
-BILL_SECTOR_B_023
-BILL_SECTOR_B_024
+bh1008_Stone_Fall_Hit
+Stop_bh1008_Stone_Fall
+# 202182527
+
+### EVENT NAMES (bh1020.bnk)
+# 3477445772
+
+### EVENT NAMES (bh1021.bnk)
+# 4070711811
+
+### EVENT NAMES (bh1026.bnk)
+# 4181556478
+
+### EVENT NAMES (bh10c0.bnk)
+bh10c0_brk_building
+
+### EVENT NAMES (bh10c1.bnk)
+bh10c1_brk_building
+
+### EVENT NAMES (bh10c3.bnk)
+bh10c3_brk_building
+
+### EVENT NAMES (bm0011.bnk)
 bm0011_Mov_Switch_Off
 bm0011_Mov_Switch_On
+
+### EVENT NAMES (bm0012.bnk)
 bm0012_Mov_Wall_Impact
 bm0012_Mov_Wall_Start_Lp
+
+### EVENT NAMES (bm0015.bnk)
 bm0015_Mov_Wall_Impact
 bm0015_Mov_Wall_Start_Lp
+
+### EVENT NAMES (bm0016.bnk)
 bm0016_Mov_Switch_Off
 bm0016_Mov_Switch_On
+
+### EVENT NAMES (bm0017.bnk)
 bm0017_Mov_GateOpen_Impact
 bm0017_Mov_GateOpen_Start
+
+### EVENT NAMES (bm0022.bnk)
 bm0021_Appear_Start
 bm0021_Appear_Stop
 bm0021_Mov_Move
@@ -407,66 +1462,394 @@ bm0021_Mov_Whoosh
 bm0022_Appear
 bm0022_Appear_Start
 bm0022_Appear_Stop
-bm0022_Mov_DefenseWall_Appear
-bm0022_Mov_Impact_L_r702
-bm0022_Mov_Impact_M_r702
-bm0022_Mov_Impact_M_rb01
-bm0022_Mov_Impact_RollWall
 bm0022_Mov_Move
-bm0022_Mov_Paul_Whoosh_l
-bm0022_Mov_Paul_Whoosh_R
 bm0022_Mov_Whoosh
-bm0022_Pas
-bm0022_Pas_Wall
 bm0023_Appear_Start
 bm0023_Appear_Stop
 bm0023_Mov_Move
 bm0023_Mov_Whoosh
+
+### VARIABLE NAMES (bm0022.bnk)
+# 3032284089
+
+### VALUE NAMES (bm0022.bnk)
+Ground
+none
+space
+
+### EVENT NAMES (bm0066.bnk)
 bm0066_Mov_GateClose_Impact
 bm0066_Mov_GateClose_Start
 bm0066_Mov_GateOpen_Impact
 bm0066_Mov_GateOpen_Start
+
+### EVENT NAMES (bm0068.bnk)
 bm0068_Mov_GateOpen_Impact
 bm0068_Mov_GateOpen_Start
 bm0069_Mov_GateOpen_Impact
 bm0069_Mov_GateOpen_Start
+
+### EVENT NAMES (bm0073.bnk)
+# 2642239328
+# 2642239329
+# 2642239330
+# 2642239331
+# 2659016912
+# 2659016913
+# 2659016914
+# 2659016915
+# 2659016916
+# 2659016917
+# 2659016918
+# 2659016919
+# 2659016926
+# 2659016927
+# 2675794496
+# 2675794497
+# 2675794504
+# 2675794506
+# 2675794507
+# 2675794508
+# 2675794509
+# 2675794510
+# 2675794511
+
+### EVENT NAMES (bm0074.bnk)
+# 932567784
+# 932567785
+# 932567786
+# 932567787
+# 966122950
+# 966122951
+# 966122952
+# 966122953
+# 966122954
+# 966122955
+# 966122956
+# 966122957
+# 966122959
+# 982900640
+# 982900641
+# 982900642
+# 982900643
+# 982900644
+# 982900645
+# 982900646
+# 982900647
+# 982900648
+# 982900649
+
+### EVENT NAMES (bm00b4.bnk)
+bm00b4_Mov_crash
+
+### EVENT NAMES (bm00c0.bnk)
 bm00c0_Mov_IdleLoop
+Stop_bm00c0_Mov_IdleLoop
+# 1694667104
+# 1694667105
+# 1694667106
+# 1694667107
+# 1694667108
+# 1694667109
+# 1694667110
+# 1694667111
+# 1694667116
+# 1694667117
+# 1711444688
+# 1711444689
+# 1711444690
+# 1711444691
+# 1711444692
+# 1711444693
+# 1711444694
+# 1711444695
+# 1711444702
+# 1711444703
+# 1728222274
+# 1728222280
+# 1728222281
+# 1728222282
+# 1728222283
+# 1728222284
+# 1728222285
+# 1728222286
+# 1728222287
+# 1744999988
+# 1744999989
+# 1744999992
+# 1744999993
+# 1744999994
+# 1744999995
+# 1744999996
+# 1744999997
+# 1744999998
+# 1744999999
+
+### RTPC/GAME-VARIABLE NAMES (bm00c0.bnk)
+# 1051008250
+# 2266645365
+# 2103772708
+# 332780323
+
+### EVENT NAMES (bm0102.bnk)
 bm0102_Chg_Laser_Charge
 bm0102_Chg_Laser_Charge_BG
 bm0102_Fir_Laser_Charge
 bm0102_Fir_Laser_Charge_BG
+bm0102_Flying_Lp
+bm0102_Mov_IdleJet_Center
+bm0102_Mov_IdleJet_side
+bm0102_Whs_Laser
+bm0102_Whs_Laser_BG
+evr402_Whs_Laser_Blue_A
+evr402_Whs_Laser_Blue_B
+evr402_Whs_Laser_Blue_C
+stop_bm0102_Flying_Lp
+stop_bm0102_Mov_IdleJet_Center
+stop_bm0102_Mov_IdleJet_side
+
+### RTPC/GAME-VARIABLE NAMES (bm0102.bnk)
+# 2948766632
+
+### EVENT NAMES (bm0103.bnk)
+bm0103_Chg_Laser_Lp_Ev
 bm0103_Fir_Laser_End_Ev
 bm0103_Fir_Laser_Lp_Ev
 bm0103_Hit_Reflect
+bm0103_Hit_Reflect_laser
+bm0103_Mov_Idle_Lp
+bm0103_Mov_IdleJet
 bm0103_Mov_VanishBarrier
+stop_bm0103_Fir_Laser_Lp_Ev
+stop_bm0103_Mov_Idle_Lp
+stop_bm0103_Mov_Idle_Lp_DEATH
+stop_bm0103_Mov_IdleJet
+# 3482532918
+
+### RTPC/GAME-VARIABLE NAMES (bm0103.bnk)
+# 2948766632
+# 2874107926
+
+### EVENT NAMES (bm0104.bnk)
+ev0202_Mov_EnemyBaseExp
+evr202_bm0104_ExpDeath
+
+### EVENT NAMES (bm0105.bnk)
+bm0105_Mov_Idle_Lp
+bm0105_Mov_IdleJet
+bm0105_Pas
+stop_bm0105_Mov_Idle_Lp
+stop_bm0105_Mov_IdleJet
+
+### RTPC/GAME-VARIABLE NAMES (bm0105.bnk)
+# 2948766632
+
+### VARIABLE NAMES (bm0105.bnk)
+# 3519640720
+
+### VALUE NAMES (bm0105.bnk)
+Ground
+none
+space
+
+### EVENT NAMES (bm0106.bnk)
+bm0106_Mov_Idle_Lp
+bm0106_Mov_IdleJet
+bm0106_Mov_IdleJet_Center
 bm0106_Mov_Start
 bm0106_Mov_Stop
+stop_bm0106_Mov_Idle_Lp
+stop_bm0106_Mov_IdleJet
+stop_bm0106_Mov_IdleJet_Center
+stop_bm0106_Mov_Start
+
+### VARIABLE NAMES (bm0106.bnk)
+# 3519640720
+
+### VALUE NAMES (bm0106.bnk)
+Ground
+none
+space
+
+### EVENT NAMES (bm0107.bnk)
+bm0107_Flying_Lp
+bm0107_Mov_IdleJet_Center
+bm0107_Mov_IdleJet_side
+stop_bm0107_Flying_Lp
+stop_bm0107_Mov_IdleJet_Center
+stop_bm0107_Mov_IdleJet_side
+# 437498023
+
+### RTPC/GAME-VARIABLE NAMES (bm0107.bnk)
+# 2948766632
+
+### EVENT NAMES (bm1009.bnk)
+bm1009_Mov_IdleLoop
+ev0903_ResetVolume_bm0109
+ev0903_SetVolume_bm0109
+Stop_bm1009_Mov_IdleLoop
+# 2138155967
+# 4043274212
+# 4110643456
+# 4110643458
+# 4110643459
+# 4110643460
+# 4110643461
+# 4110643462
+# 4110643463
+# 4110643464
+# 4110643465
+
+### RTPC/GAME-VARIABLE NAMES (bm1009.bnk)
+# 1051008250
+# 2266645365
+# 2103772708
+# 332780323
+
+### EVENT NAMES (bm100b.bnk)
+bm100b_Mov_crash
+
+### EVENT NAMES (bm100f.bnk)
+bm100f_Mov_IdleLoop
+Stop_bm100f_Mov_IdleLoop
+# 1627556656
+# 1627556657
+# 1627556664
+# 1627556665
+# 1627556666
+# 1627556667
+# 1627556668
+# 1627556669
+# 1627556670
+# 1627556671
+# 1644334242
+# 1644334243
+# 1644334248
+# 1644334249
+# 1644334250
+# 1644334252
+# 1644334253
+# 1644334254
+# 1644334255
+# 1661111830
+# 1661111831
+# 1661111832
+# 1661111833
+# 1661111834
+# 1661111835
+# 1661111836
+# 1661111837
+# 1661111838
+# 1661111839
+# 1677889520
+# 1677889521
+# 1677889522
+# 1677889523
+# 1677889524
+# 1677889525
+# 1677889526
+# 1677889527
+# 1677889528
+# 1677889529
+
+### RTPC/GAME-VARIABLE NAMES (bm100f.bnk)
+# 1051008250
+# 2266645365
+# 2103772708
+# 332780323
+
+### EVENT NAMES (bm1012.bnk)
 bm1012_Mov_Whoosh
+
+### EVENT NAMES (bm1035.bnk)
 bm1035_Rise_Impact
 bm1035_Rise_Start
+
+### EVENT NAMES (bm1036.bnk)
 bm1036_Rise_Impact
 bm1036_Rise_Start_Lp
 bm1037_Rise_Impact
 bm1037_Rise_Start_Lp
+
+### EVENT NAMES (bm1040.bnk)
 bm1040_Mov_IdleLoop
+ev_com_bm1040_Mov_IdleLoop
+evr101_bm1040_Branch_CameraPan
+evr101_bm1040_Branch_Start
+stop_bm1040_Mov_IdleLoop
+Stop_ev_com_bm1040_Mov_IdleLoop
+# 1387179973
+# 1493335616
+# 1493335617
+# 1493335618
+# 1493335619
+# 1493335620
+# 1493335621
+# 1493335622
+# 1493335623
+# 1493335624
+# 1493335625
+# 1510113328
+# 1510113329
+# 1510113330
+# 1510113331
+# 1510113332
+# 1510113333
+# 1510113334
+# 1510113335
+# 1510113338
+# 1510113339
+# 1728222275
+# 4009830672
+# 4009830673
+# 4009830680
+# 4009830681
+# 4009830682
+# 4009830683
+# 4009830684
+# 4009830685
+# 4009830686
+# 4009830687
+# 4026608264
+# 4026608265
+# 4026608266
+# 4026608267
+# 4026608269
+# 4026608270
+# 4026608271
+
+### RTPC/GAME-VARIABLE NAMES (bm1040.bnk)
+# 1051008250
+# 2266645365
+# 2103772708
+# 332780323
+
+### EVENT NAMES (core.bnk)
+All_Sound_Pause
+All_Sound_Resume
 core_CamChange1_DRC
 core_CamChange1_TV
 core_CamChange2_DRC
 core_CamChange2_TV
-core_Collision_Type
-core_CoopWhite_In
-core_CoopWhite_Out
 core_CorporateAmbience_Lp
+core_Dash_Ring
 core_Dmg_DownImpact
 core_Dmg_EmHit_S
+core_Dmg_EmHit_Water
 core_Dmg_falling
 core_Dmg_falling_B
 core_Exp_L
-core_Exp_m
+core_Exp_L_Vol_L
+core_Exp_M
+core_Exp_M_obj
 core_Exp_M_Vol_L
-core_Exp_s
+core_Exp_S
 core_Exp_S_Gallery
-core_Fir_emCommonShoota
+core_Exp_S_obj
+core_Exp_S_Vol_L
+core_Exp_S_Water
+core_Fir_emCommonShoot
+core_Fir_emCommonShootA
 core_Fir_emCommonShootB
 core_Fir_emCommonShootC
 core_Fir_LazerRing
@@ -474,15 +1857,15 @@ core_Fir_LazerRing_Lp
 core_Fir_Shoot_Gallery
 core_GyroReset
 core_Item_AllCoinGet
-core_Item_BalloonBrk
-core_Item_BalloonBrk_noBonus
-core_Item_BalloonCrush
 core_Item_Balloon_Blowup_Lv01
 core_Item_Balloon_Blowup_Lv02
 core_Item_Balloon_Blowup_Lv03
 core_Item_Balloon_Blowup_Lv04
 core_Item_Balloon_Blowup_Lv05
 core_Item_Balloon_Blowup_Lv06
+core_Item_BalloonBrk
+core_Item_BalloonBrk_noBonus
+core_Item_BalloonCrush
 core_Item_BombGet_64
 core_Item_BombGet_Sfc
 core_Item_BoxBrake
@@ -490,8 +1873,8 @@ core_Item_CoinGet
 core_Item_CoinGet_Full
 core_Item_CorrectChime
 core_Item_GetEmblem
-core_Item_GetEmblemSingle
 core_Item_GetEmblem_Result
+core_Item_GetEmblemSingle
 core_Item_InvincibleRing
 core_Item_Life_Full
 core_Item_MedalGet
@@ -500,6 +1883,7 @@ core_Item_MiddleSupply
 core_Item_ShieldRing
 core_Item_ShieldRing_Full
 core_Item_TwinLaserGet
+core_LazerRing_Hit
 core_Map_2PReady_OK
 core_Map_amiibo
 core_Map_BriefWindow_Fox_Close
@@ -532,10 +1916,10 @@ core_Menu_Decide_2
 core_Menu_Display_Off
 core_Menu_Display_On
 core_menu_error
+core_Menu_GameStart
 core_Menu_GUARD
 core_Mov_CockpitRoom_DRC
 core_Mov_emRolling
-core_Mov_Speed
 core_Option_3DVoice_Off
 core_Option_3DVoice_On
 core_Option_CameraUpDown
@@ -552,6 +1936,7 @@ core_PauseMenu_Return_to_Map
 core_PhaseResult
 core_pl0020_Target_Off
 core_pl0020_Target_On
+Core_Radio_call
 Core_Radio_Close_L
 Core_Radio_Close_R
 Core_Radio_CommuRequest
@@ -561,14 +1946,15 @@ core_Result_HitScore_LeftMove
 core_Result_Mission_Complete
 core_Result_Mission_Failure
 core_Result_Mission_Finish
+core_Shoot_Hit_Rubble
 core_Shoot_HitGate
+core_Shoot_hitreflect
 core_Shoot_HitRock
 core_Shoot_HitWall
-core_Shoot_Hit_Rubble
+core_Shoot_HitWall_Cannon
 core_TargetView_Off
 core_TargetView_On
 core_TitleLogo
-core_toTitleFadeout
 core_Training_Change_VehicleView
 core_Training_Ring
 core_Training_Ring_AllGet
@@ -585,6 +1971,7 @@ core_UI_Lookon_Laser
 core_UI_Lookon_Laser_Npc
 core_UI_Lookon_Laser_Npc_First
 core_UI_Lookon_Missile
+core_UI_MissionTitle_in
 core_UI_MissionTitle_Out
 core_UI_ResultCoin
 core_UI_ScrollClick
@@ -592,11 +1979,4534 @@ core_UI_ShieldWarning1
 core_UI_ShieldWarning2
 core_UI_TimeCount
 core_UI_TotalResult_Stamp
-core_vo_GoodLuck
 core_Warp_Appear
+core_Warp_Appear_drc
+core_Warp_Appear_tv
 core_Warp_Disappear_01
+core_Warp_Disappear_01_drc
+core_Warp_Disappear_01_tv
 core_Warp_Disappear_02
+core_Warp_Disappear_02_drc
+core_Warp_Disappear_02_tv
 core_WhiteOut
+Debug_Loudness_Meter_DRC
+Debug_Loudness_Meter_Off
+Debug_Loudness_Meter_TV
+em0000_Mov_Idle_Lp
+em0000_PassFly
+em0000_PassFly_Near
+em0001_Mov_Idle_Lp
+em0001_PassFly
+em0001_PassFly_Near
+em0100_Mov_Appear
+em0250_Mov_Idle_Lp
+em0250_PassFly
+em0250_PassFly_Near
+em1030_Exp_First
+em1030_Exp_Second
+em1030_Fir_Shoot
+em1040_Dmg_EmHit
+em1040_Mov_crash
+em1100_exp_M
+em1100_exp_Missile
+em1100_exp_S
+em1100_Fir_Missile
+em1108_Dmg_EmHit
+em1108_Exp_S
+em2100_Mov_VehicleSpeed_02
+em3090_Exp_S_noWater
+em3090_Exp_S_Water
+em3102_Dmg_EmHit
+em5100_Dmg_EmHit
+em5100_Mov_GRS_Walk
+em7200_Dmg_EmHit
+em7200_Exp_S
+em8100_Exp_L
+em8100_Exp_S
+em9100_Mov_0F_Open_Impact
+End_core_Map_Briefing
+ev0a02_pl00x0_Mov_Transform_toSky
+ev_com_Warp_Appear
+ev_core_Exp_L
+ev_core_Exp_M
+ev_core_Exp_S
+evr402_Peppy_Dmg
+evra01_pl00x0_Mov_Transform_toGround
+Load_in_SE
+Load_out_SE
+pl0000_Dmg_Air_l
+pl0000_Dmg_Air_S
+pl0000_Dmg_AvoidanceHit
+pl0000_Dmg_DeathExp
+pl0000_Dmg_DeathFall
+pl0000_Dmg_DeathLand
+pl0000_Dmg_Exp_l
+pl0000_Dmg_Exp_m
+pl0000_Dmg_Exp_S
+pl0000_Dmg_Exp_S_Scroll
+pl0000_Dmg_Spark
+pl0010_Dmg_AvoidanceHit
+pl0020_Dmg_AvoidanceHit
+pl0030_Dmg_AvoidanceHit
+pl0030_Dmg_DeathFall
+pl0040_Dmg_AvoidanceHit
+pl0041_Dmg_AvoidanceHit
+pl0050_Dmg_AvoidanceHit
+pl00x0_Mov_Transform_toGround
+pl00x0_Mov_Transform_toGround_SFC
+pl00x0_Mov_Transform_toSky
+pl00x0_Mov_Transform_toSky_SFC
+pl20x0_Mov_Transform_toGround
+pl20x0_Mov_Transform_toGround_SFC
+pl20x0_Mov_Transform_toSky
+pl20x0_Mov_Transform_toSky_SFC
+pl_core_Dmg_DeathImpact
+SE_3DVoice_Off
+SE_3DVoice_On
+SE_evskip_2100
+SE_evskip_2200
+SE_evskip_2220
+SE_evskip_3100
+SE_evskip_3200
+SE_evskip_3220
+SE_evskip_3300
+SE_evskip_3320
+SE_evskip_4100
+SE_evskip_4400
+SE_evskip_4420
+SE_evskip_4500
+SE_evskip_4520
+SE_evskip_5100
+SE_evskip_5200
+SE_evskip_5220
+SE_evskip_6100
+SE_evskip_6200
+SE_evskip_6220
+SE_evskip_7100
+SE_evskip_7300
+SE_evskip_7320
+SE_evskip_8100
+SE_evskip_8300
+SE_evskip_8320
+SE_evskip_9100
+SE_evskip_9300
+SE_evskip_9320
+SE_evskip_9400
+SE_evskip_9420
+SE_evskip_a100
+SE_evskip_a200
+SE_evskip_a220
+SE_evskip_b100
+SE_evskip_b200
+SE_evskip_b220
+SE_evskip_c100
+SE_evskip_c300
+SE_evskip_d200
+SE_evskip_d300
+SE_evskip_d310
+SE_evskip_d400
+SE_evskip_d500
+SE_evskip_d600
+SE_evskip_d610
+SE_evskip_d700
+SE_evskip_d900
+SE_evskip_da00
+SE_evskip_da10
+SE_evskip_de00
+SE_evskip_de10
+SE_evskip_df00
+SE_evskip_e001
+SE_evskip_e002
+SE_evskip_e003
+SE_evskip_e005
+SE_evskip_e006
+SE_evskip_r401
+SE_evskip_r401_PeppyCrash
+SE_evskip_rc03
+SE_EvSkip_SE
+SE_Fade_MissionFailure
+SE_FadeOut
+SE_HeadphoneMode_Off
+SE_HeadphoneMode_On
+SE_Init_Default
+SE_Init_r101
+SE_Init_r102
+SE_Init_r103
+SE_Init_r104
+SE_Init_r10a
+SE_Init_r10b
+SE_Init_r10c
+SE_Init_r201
+SE_Init_r202
+SE_Init_r401
+SE_Init_r401_Restart_01
+SE_Init_r401_Restart_02
+SE_Init_r501
+SE_Init_r501_Restart_01
+SE_Init_r501_Restart_02
+SE_Init_r501_Restart_03_01
+SE_Init_r501_Restart_03_02
+SE_Init_r501_Restart_04
+SE_Init_r511
+SE_Init_r601
+SE_Init_r611
+SE_Init_r701
+SE_Init_r701_Restart_01
+SE_Init_r701_Restart_02
+SE_Init_r702
+SE_Init_r703
+SE_Init_r704
+SE_Init_r711
+SE_Init_r800
+SE_Init_r902
+SE_Init_r902_Restart_01
+SE_Init_r902_Restart_02
+SE_Init_r926
+SE_Init_ra01_Restart_01
+SE_Init_ra01_Restart_02
+SE_Init_ra01_Restart_03
+SE_Init_rb01
+SE_Init_rb02
+SE_Init_rb28
+SE_Init_rc01
+SE_Init_rf92
+SE_Init_rf93
+SE_MainLaserLp_a
+SE_MessageSkip
+SE_MovieSkip_SE
+se_pause_in
+SE_Pause_out
+SE_PlayerDie
+SE_ra01_Ev_emMute
+SE_ResultDuck_End
+SE_ResultDuck_start
+SE_Slow_in
+SE_Slow_in_James
+SE_Slow_out
+SE_Slow_out_James
+SE_UIStart_MissionFailure
+Set_Player_Type_Arwing
+Set_Player_Type_Arwing_Sfc
+Set_Player_Type_Buggy
+Set_Player_Type_Flight_Landmaster
+Set_Player_Type_Hoverwing
+Set_Player_Type_Landmaster
+Set_Player_Type_Walker
+Set_Player_Type_Walker_Sfc
+Set_State_Event_to_BothScreen_In
+Set_State_Event_to_BothScreen_Out
+Set_State_Event_to_Fast
+Set_State_Event_to_mid
+Set_State_Event_to_Nomal
+Set_State_Event_to_off
+Set_State_Event_to_RealTime
+Set_State_Event_to_Slow
+Skip_core_Map_Briefing
+Start_core_Map_Briefing
+Start_Result_CountUp_Lp
+Start_SubResult_CountUp_Lp
+Stop_core_CorporateAmbience_Lp
+stop_core_Fir_LazerRing_Lp
+Stop_core_Map_FreeCamera
+Stop_core_Map_Line_Draw
+Stop_core_Map_Line_Draw_GF
+Stop_core_Map_Line_Draw_SFC
+Stop_core_Mov_CockpitRoom_DRC
+stop_core_TargetView_Off
+stop_core_TargetView_On
+stop_core_UI_LifeWarning
+stop_em0000_Mov_Idle_Lp
+Stop_em0000_PassFly
+stop_em0001_Mov_Idle_Lp
+Stop_em0001_PassFly
+stop_em0250_Mov_Idle_Lp
+Stop_em0250_PassFly
+stop_em1100_Missile
+Stop_Result_CountUp_Lp
+Stop_SubResult_CountUp_Lp
+Stop_SubResult_CountUp_Lp_NewRecord
+wp001d_Brk_Shoot
+wp001d_Fir_Shoot
+wp001d_Pas_Shoot
+# 3578019
+# 43088140
+# 62009390
+# 110041304
+# 116305369
+# 172218612
+# 186504471
+# 211057066
+# 223877878
+# 227531718
+# 248875615
+# 413591106
+# 460209562
+# 513032583
+# 523120072
+# 616927646
+# 677449970
+# 680836390
+# 723285839
+# 758202829
+# 834962027
+# 928016159
+# 945206074
+# 948324344
+# 949910043
+# 991597702
+# 1029670147
+# 1077770971
+# 1097117466
+# 1147609273
+# 1179008475
+# 1187774658
+# 1204497433
+# 1209623518
+# 1214516812
+# 1227816812
+# 1267201982
+# 1273507385
+# 1326846781
+# 1329661927
+# 1338859256
+# 1338859258
+# 1338859259
+# 1353957592
+# 1409563469
+# 1417006319
+# 1459513613
+# 1482938944
+# 1516465724
+# 1532869416
+# 1626475961
+# 1644756667
+# 1660933427
+# 1778153762
+# 1844564415
+# 1871139790
+# 1900105796
+# 1937966264
+# 1951910281
+# 1972048199
+# 2080616664
+# 2081887192
+# 2228024931
+# 2362359417
+# 2368898587
+# 2395557773
+# 2459917260
+# 2476995316
+# 2484886113
+# 2488912561
+# 2497541610
+# 2554454030
+# 2562485879
+# 2564294607
+# 2566654474
+# 2570701281
+# 2594559347
+# 2678181529
+# 2692474743
+# 2701093890
+# 2702962019
+# 2704995054
+# 2731621324
+# 2733056701
+# 2741138120
+# 2826845732
+# 2843766159
+# 3138382978
+# 3164907391
+# 3240717852
+# 3321136477
+# 3351628464
+# 3400344435
+# 3448867123
+# 3483139104
+# 3494562410
+# 3539049406
+# 3575293194
+# 3627658477
+# 3661065102
+# 3694973572
+# 3698429891
+# 3749688164
+# 3751827817
+# 3906273808
+# 3921999283
+# 3967098511
+# 3972733463
+# 4007606245
+# 4029679818
+# 4034806567
+# 4112473217
+# 4124991640
+# 4158538939
+# 4189243882
+# 4212762450
+# 4217902481
+# 4222398832
+# 4247777145
+
+### RTPC/GAME-VARIABLE NAMES (core.bnk)
+core_HeadphoneMode
+Voice_3D
+# 1865591067
+# 667952426
+# 552399222
+# 2922187604
+# 2943372332
+
+### VARIABLE NAMES (core.bnk)
+em1100_idle
+emb100_body
+emb100_stage
+SE_HeadphoneMode
+SE_Slow
+Set_Player_Type
+# 3032284089
+# 508636293
+# 558969340
+# 542191723
+# 542191720
+# 458303562
+# 4117796502
+# 4117796501
+# 4134574315
+# 4134574312
+# 3519640720
+# 508636294
+# 728417861
+# 1915831270
+# 458303561
+# 558969343
+# 767372323
+
+### VALUE NAMES (core.bnk)
+Arwing
+Arwing_Sfc
+Buggy
+Ground
+Hoverwing
+in
+Landmaster
+machine_body
+none
+normal
+normal_body
+off
+on
+out
+outdoor
+r703
+r704
+space
+Walker
+Walker_Sfc
+
+### EVENT NAMES (coretrial.bnk)
+core_ActBt_Appar
+core_ActBt_countup
+core_ActBt_Decision
+core_ActBt_failure
+core_ActBt_roll
+core_ActLv1
+core_ActLv2
+core_ActLv3
+core_ActLv4
+core_ActLv5
+core_ActLv6
+core_ActLv7
+core_ActLv8
+core_Akumaheim_Appear
+core_Akumaheim_InOut
+core_Alchemy_ActLv1
+core_Alchemy_ActLv2
+core_Alchemy_ActLv3
+core_Alchemy_ActLv4
+core_Alchemy_ActLv5
+core_Alchemy_ActLv6
+core_Alchemy_ActLv7
+core_Alchemy_ActLv8
+core_Alchemy_Comp
+core_Alchemy_ItemAppear
+core_Alchemy_MaterialIn
+core_Alfheim_appear
+core_Alfheim_DisAppear
+core_Alfheim_InOut
+core_AngelTelegraph
+core_AngelWeaponVanish
+core_Atk_BigSwordSting
+core_Atk_LoveisBlueMaxHit
+core_Aura_Off
+core_Aura_On
+core_bar_appear
+core_bar_break
+core_BarrierWall
+core_BattleFinish
+core_Book_Close
+core_Book_Open
+core_Book_Send
+core_BossRageStart
+core_BtIconAppear
+Core_BulletGuard
+core_BulletPass
+core_Card_Unloked
+core_ChainsawHit
+core_ChapterReuslt_Start
+core_ChapterStart
+core_ChargeShot_Stop
+core_ComDmgM
+core_ComDmgS
+core_ComExp
+core_ComExp02
+core_ComExp03
+core_CommonDoor01_Cl
+core_CommonDoor01_KickOp
+core_CompactClose
+core_CompactOpen
+core_ContinueNo
+core_CoopBossExp
+core_CoopCardShuffle
+core_CoopCardShuffleEnd
+core_CoopClock
+core_CoopRecovery_End
+core_CoopRecovery_Loop
+core_CoopRecovery_Start
+core_CoopRequest
+core_CoopSubMenuCl
+core_CoopSubMenuOp
+core_CoopWhite_In
+core_CoopWhite_Out
+core_CostumeSelect
+core_CountDown
+core_CountDown_1
+core_CountDown_2
+core_CountDown_3
+core_CountDown_4
+core_CountDown_5
+core_CounterHit
+core_CrowGet
+core_DarkBarAppear
+core_DarkBarBreak
+core_DemonTelegraph
+core_DevilWeaponVanish
+core_Dmg_ADeathCutGore
+core_Dmg_ADeathCutImpact
+core_Dmg_AngelArmorBreak
+core_Dmg_DarkArmorBreak
+core_Dmg_DDeathCutGoreL
+core_Dmg_DDeathCutGoreS
+core_Dmg_DDeathCutImpact
+core_down_XL
+core_em_appear
+core_em_DarkDeathFinish
+core_em_DarkDeathFinishExp
+core_em_DarkMove
+core_em_DarkPortalIn
+core_em_DarkPortalOut
+core_em_DeathFinish
+core_em_DeathFinishOmen
+core_em_EvDeathFinish
+core_em_EvDeathFinishOmen
+core_EnemyGuard
+core_EnemyRageStart
+core_EnvBulletHit
+core_EnvBulletHit_L
+core_EnvSlow_in
+core_EnvSlow_Out
+core_ev_ClockLoopBackground
+core_ev_ClockLoopBackground_DcckOff
+core_ev_ClockLoopBackground_DcckOn
+core_ev_ClockLoopBackground_Stop
+core_ev_ClockStart
+core_ev_ClockStop
+core_ev_EventWipe
+core_ev_WipeWhoosh
+core_FinishCut_Pause
+core_FinishCut_Resume
+core_Fire
+core_GameOver1
+core_GameOver2
+core_GetCoinL
+core_GetCoinS
+core_HammerDam
+core_HP_Increase
+core_Ice
+core_IceBreak
+core_Impact_Stone
+core_Impact_Stone_
+core_Impact_Water
+core_Item_Break
+core_Item_RareGet
+core_Item_RareGet_01
+core_item_RecordAppear
+core_Item_RedHot_CL
+core_Item_RedHot_OP
+core_Item_RedHot_Use
+core_Item_Unloked
+core_ItemBell_Start
+core_ItemGet_Cure
+core_ItemGet_Cure_Sub
+core_ItemGet_Drug
+core_ItemGetWindowCL
+core_ItemGetWindowOP
+core_ItemMerge
+core_Ldown_Stone
+core_Ldown_Stone_
+core_Ldown_Water
+core_Lifting
+core_Lockon
+core_MadamDmg
+core_MadamDmg_Ev
+core_MagnumDmg
+core_MissionFaild
+core_MissionMissed
+core_MP_Increase
+core_NewItemGet
+core_NoBarrierBreak
+core_NormalGunDmg
+core_NowPoleAction
+core_pl_BarDmg
+core_pl_BlowDmgL
+core_pl_BlowDmgS
+core_pl_DownImpact
+core_pl_Firedmg
+core_pl_GunDmgL
+core_pl_GunDmgs
+core_pl_MetalDmgL
+core_pl_MetalDmgs
+core_pl_RockDmg
+core_PostPoleAction
+core_PrePoleAction
+core_Purchase
+core_Result1_PurePlatinum
+core_Result2_Platinum
+core_Result3_Gold
+core_Result4_Silver
+core_Result5_Bronze
+core_Result6_Stone
+core_ResultCl
+core_ResultMark
+core_ResultMedal
+core_ResultOp
+core_RushDmg
+core_RushImpact
+core_RushImpact_3D
+core_RushImpact_Str
+core_RushImpact_Str_3D
+core_Sdown_Stone
+core_Sdown_Stone_
+core_Sdown_Water
+core_se_ActL_Comp
+core_SE_Vol
+core_SecretCommand_True
+core_Shop_InOut
+core_StepInWater
+core_StepOutWater
+core_SubMenuCancel
+core_SubMenuCl
+core_SubMenuCursor
+core_SubMenuDecision
+core_SubMenuOp
+core_SubNone
+core_SummonsBreak
+core_SwordDmgL
+core_SwordDmgS
+core_TorTure_DisAppear
+core_toTitleFadeout
+core_TutorialWindow
+core_TutorialWindow_Close
+core_UpperDmg
+core_VerseIn
+core_voice_Vol
+core_WeaponChangeA
+core_WeaponChangeB
+core_WeaponMenu_AttachSel
+core_WeaponMenu_NotSet
+core_WeaponMenu_Page
+core_WeaponMenu_Return
+core_WeaponMenu_Sel
+core_WeaponMenu_Set
+core_WeaponMenuChange
+core_WeaponMenuCl
+core_WeaponMenuOp
+core_WhipDmgS
+core_WhiteOut
+CutSceneDuck_Off
+CutSceneDuck_On
+Fall_ReStart
+Headphone_Off
+Headphone_On
+Level_Meter_Off
+Level_Meter_On
+Mute_ActionVoice
+mute_All
+Mute_core_CoopLoading
+Output_Stereo
+Output_Surround
+pause_All
+pause_SE_all
+pl0000_FinishSlowL
+pl0000_FinishSlowS
+pl001c_Cartridge
+resume_All
+Resume_SE_All
+SE_CaptureMode_Reset
+SE_Init_CutScene
+SE_Init_Default
+SE_Init_p115
+SE_Init_P210
+SE_Init_p212
+SE_Init_p220
+SE_Init_p22b
+SE_Init_p230
+SE_Init_p230_GATEOFF
+SE_Init_p230_SUICHU
+SE_Init_p238
+SE_Init_p240
+SE_Init_p260
+SE_Init_p264
+SE_Init_p266
+SE_Init_p270
+SE_Init_p320
+SE_Init_p322
+SE_Init_p362
+SE_Init_p36b
+SE_Init_p370
+SE_Init_p430
+SE_Init_p440
+SE_Init_p450
+SE_Init_p460
+SE_Init_p560
+SE_Init_p620
+SE_Init_p640
+SE_Init_p670
+SE_Init_p670_BOSS
+SE_Init_p680
+SE_Init_p6A0
+SE_Init_p6B0
+SE_PracticeMode_Reset
+SE_VolumeFadeOut
+Skip_SoundStop
+State_Battle_Off
+State_Battle_on
+State_ComSEArea1_SW_off
+State_ComSEArea1_SW_on
+State_ComSEArea2_SW_off
+State_ComSEArea2_SW_on
+State_DoorAreaOut_SW_off
+State_DoorAreaOut_SW_on
+State_Event_in
+State_Event_out
+State_FadeIn0200ms
+State_FadeIn0500ms
+State_FadeIn1500ms
+State_FadeOut0200ms
+State_FadeOut0300ms
+State_FadeOut0500ms
+State_FadeOut1000ms
+State_FadeOut1500ms
+State_FadeOut2000ms
+State_FadeOut3000ms
+State_FadeRestart
+State_FinishSlowOff
+State_PlayOff_inEvent_off
+State_PlayOff_inEvent_on
+State_reset
+State_SE_EvDegree01
+State_SE_EvDegree02
+State_SE_EvDegree03
+State_SE_EvDegreeOff
+State_WaterEFX_off
+State_WaterEFX_on
+State_WaterIn
+State_WaterInBt
+State_WaterOut
+State_WaterOutBt
+stop_All
+Stop_core_BarrierWall
+stop_core_ChainsawHit
+Stop_core_CoopRecovery_Loop
+stop_core_Fire
+Stop_CutSceneStream
+Stop_Event_SE
+Stop_SE_AllFadeOut
+Stop_VirtualVoice_SE
+Stop_WitchTime_Event
+UnMute_ActionVoice
+UnMute_core_CoopLoading
+# 24391758
+# 67759561
+# 255110758
+# 322659089
+# 387322881
+# 404539418
+# 466651299
+# 497560901
+# 838794036
+# 904823012
+# 910671303
+# 955795185
+# 1060540998
+# 1253239195
+# 1403905860
+# 1527969279
+# 1536854255
+# 1575917388
+# 1590779174
+# 1835190087
+# 1885010280
+# 1887457746
+# 1904235344
+# 1937089780
+# 1937790517
+# 2006815866
+# 2943913649
+# 2996426438
+# 2996426449
+# 3011199688
+# 3081166887
+# 3215128160
+# 3316078953
+# 3522402341
+# 3531442608
+# 3650759594
+# 3650759595
+# 3893497880
+# 3939224246
+# 3972291891
+# 4032759945
+# 4033183506
+# 4098095407
+# 4103755306
+
+### VARIABLE NAMES (coretrial.bnk)
+BGM_InWater
+BGM_WitchTime
+SE_BarrierBreak
+SE_Condition
+SE_DoorAreaOut_SW
+SE_EffectArea_SW
+SE_EnemyHitDamage
+SE_EnvSlow
+SE_EvDegree
+SE_InBattle
+SE_InWater
+SE_OnWater
+SE_Pause
+SE_PlayOff_inEvent
+SE_r0c5_HolyLight
+SE_r201_SeAreaSW
+SE_r2b1_SeAreaSW
+# 2347440964
+# 1230168059
+# 27248224
+# 3317572478
+# 1700581696
+# 3317572472
+# 1439452261
+# 486733471
+# 387247152
+# 3884810695
+# 2459480344
+# 4179882001
+# 1117786729
+# 3796992707
+# 3618702447
+# 1210319475
+# 2782887932
+# 934771198
+# 3623003961
+# 2436616127
+# 2603198350
+# 2603198349
+# 2187638372
+# 188545921
+# 1454165131
+
+### VALUE NAMES (coretrial.bnk)
+Alive
+Angel
+AngelMetal
+aura
+break
+Dark
+DarkMetal
+DEAD
+Degree01
+Degree02
+degree03
+DegreeOff
+false
+Flesh
+in
+in_battle
+No
+none
+normal
+NowAct
+off
+on
+out
+PostAct
+preact
+return
+special
+start
+stop
+toReset
+true
+Yes
+# 3051386380
+# 62852059
+# 1993567916
+# 3793485249
+# 260193111
+# 1088203476
+# 500924486
+# 2172187522
+# 613139171
+# 4178068990
+# 3458925907
+# 366542270
+# 789189034
+# 422588970
+# 3554945510
+# 3150771238
+# 1399909431
+# 925197732
+# 3832991753
+# 232076434
+# 864740752
+# 3898290291
+# 1684156851
+# 3403796161
+# 1297204882
+# 936247437
+# 3372370502
+# 1006943767
+# 746634213
+# 3331561473
+# 2501863711
+# 1911358779
+# 3556805938
+# 315107501
+# 2106385310
+# 861820539
+# 2978423309
+# 4156710814
+# 4198918748
+# 4124018684
+# 153551853
+# 3477367732
+# 3624490289
+# 749743068
+# 915676576
+# 2189083636
+# 810463972
+# 2443773848
+# 3534377279
+# 58009816
+# 632918677
+# 2393834305
+# 1029163324
+# 102763727
+# 1453846880
+
+### EVENT NAMES (em00b0.bnk)
+em00b0_Dmg_falling
+em00b0_Dmg_Hit
+em00b0_exp_Death
+em00b0_Mov_Wing
+
+### RTPC/GAME-VARIABLE NAMES (em00b0.bnk)
+# 2266645365
+
+### EVENT NAMES (em00f0.bnk)
+em00f0_Fir_Beam_Lp
+em00f0_Mov_Idle
+stop_em00f0_Fir_Beam_Lp
+stop_em00f0_Mov_Idle
+
+### RTPC/GAME-VARIABLE NAMES (em00f0.bnk)
+# 1865591067
+
+### EVENT NAMES (em0100.bnk)
+core_Mov_emRolling
+em0100_Mov_Appear
+
+### EVENT NAMES (em0130.bnk)
+em0130_Dmg_Hit
+em0130_Dmg_Hit_toDeath
+em0130_Exp_S
+em0130_Mov_FlyPass
+em0130_Mov_idling_Lp
+stop_em0130_Mov_idling_Lp
+# 3769274208
+# 3769274209
+# 3769274211
+# 3769274212
+# 3769274213
+# 3769274214
+# 3769274215
+# 3769274218
+# 3769274219
+# 3786051796
+# 3786051797
+# 3786051799
+
+### RTPC/GAME-VARIABLE NAMES (em0130.bnk)
+# 1865591067
+
+### EVENT NAMES (em0150.bnk)
+em0150_Mov_Appear
+em0150_Mov_Disappear
+em0150_Mov_Roll
+
+### EVENT NAMES (em0170.bnk)
+em0170_Mov_Idle_Lp
+em0170_Mov_Land
+em0170_Mov_Start
+em0170_Mov_Stop_Squeal
+stop_em0170_Mov_Idle_Lp
+
+### EVENT NAMES (em0180.bnk)
+em0180_Atk_Spark_Lp
+em0180_Mov_Idle_Lp
+em0180_Mov_Start
+em0180_Mov_Stop
+stop_em0180_Atk_Spark_Lp
+stop_em0180_Mov_Idle_Lp
+
+### RTPC/GAME-VARIABLE NAMES (em0180.bnk)
+# 667952426
+
+### EVENT NAMES (em0190.bnk)
+em0190_Charge_Fir_Laser_Charge
+em0190_Fir_Laser_Charge
+em0190_Fir_Laser_LP
+stop_em0190_Fir_Laser_LP
+
+### RTPC/GAME-VARIABLE NAMES (em0190.bnk)
+# 2948766632
+
+### EVENT NAMES (em01a0.bnk)
+em01a0_Chg_Laser_Charge
+em01a0_Fir_Laser_Charge
+em01a0_Fir_Laser_LP
+stop_em01a0_Fir_Laser_LP
+
+### EVENT NAMES (em01f0.bnk)
+em01f0_Mov_Idle
+em01f0_Mov_Open
+stop_em01f0_Mov_Idle
+
+### VARIABLE NAMES (em01f0.bnk)
+# 3032284089
+
+### VALUE NAMES (em01f0.bnk)
+Ground
+none
+space
+
+### EVENT NAMES (em1000.bnk)
+em1000_Exp
+em1000_Exp_Shake
+em1000_Mov_Arm_Lp
+em1000_Mov_Idle_Lp
+em1000_Mov_Start
+em1000_Mov_Stop
+em1000_Mov_Turn
+em1000_Thr_Building
+stop_em1000_Mov
+Stop_em1000_Mov_Arm_Lp
+stop_em1000_Mov_Idle_Lp
+
+### RTPC/GAME-VARIABLE NAMES (em1000.bnk)
+# 2266645365
+
+### EVENT NAMES (em1011.bnk)
+em1011_Atk_BombBound_first
+em1011_Atk_BombBound_Second
+em1011_Atk_BombBound_Third
+em1011_BombAlart
+em1011_Dmg_Falling
+em1011_Dmg_Mov_Foot
+em1011_Exp_Bomb
+em1011_Fir_Lazer_Lp
+em1011_Fir_LazerRing
+em1011_Mov_FootStep
+em1011_Mov_FootStep_Wall
+em1011_Mov_Idle_Lp
+em1011_Mov_Stand
+em1011_Mov_TurnDown
+em1011_Mov_TurnOver
+stop_em1011_Fir_Lazer_Lp
+stop_em1011_Fir_LazerRing
+stop_em1011_Mov_Idle_Lp
+# 1340774379
+# 2514183435
+# 2687833920
+# 2905187480
+# 4077581153
+
+### RTPC/GAME-VARIABLE NAMES (em1011.bnk)
+# 667952426
+# 1865591067
+
+### VARIABLE NAMES (em1011.bnk)
+# 728417861
+
+### VALUE NAMES (em1011.bnk)
+none
+off
+on
+
+### EVENT NAMES (em1020.bnk)
+em1020_Mov_FlyIn
+em1020_Mov_FlyOut
+
+### EVENT NAMES (em1030.bnk)
+em1030_Exp_Flame
+em1030_Mov
+em1030_Mov_BigSplash
+em1030_Mov_IdleA_Lp
+em1030_Mov_IdleB_Lp
+em1030_Mov_IdleC_Lp
+em1030_Mov_splash
+em1030_SPLASHDOWN
+Stop_em1030_Mov_IdleA_Lp
+Stop_em1030_Mov_IdleB_Lp
+Stop_em1030_Mov_IdleC_Lp
+
+### RTPC/GAME-VARIABLE NAMES (em1030.bnk)
+pl_elevation
+# 1865591067
+
+### VARIABLE NAMES (em1030.bnk)
+# 3032284089
+
+### VALUE NAMES (em1030.bnk)
+Ground
+none
+space
+
+### EVENT NAMES (em1040.bnk)
+em1040_Dmg_Spark
+em1040_Mov_FallDown
+em1040_Mov_FallDown_Impact
+em1040_Mov_Idle_Lp
+em1040_Mov_Whs
+stop_em1040_Mov_Idle_Lp
+# 2509790954
+# 3783850024
+
+### EVENT NAMES (em1041.bnk)
+em1041_Mov_Idle_Lp
+em1041_Mov_Whs
+stop_em1041_Mov_Idle_Lp
+
+### EVENT NAMES (em1050.bnk)
+em1050_Mov_CannonEnd
+em1050_Mov_CannonStart
+em1050_Mov_End
+em1050_Mov_Idle_Lp
+em1050_Mov_Land
+em1050_Mov_Start
+em1050_Mov_Transform_Ignition
+em1050_Mov_Transform_toGround
+em1050_Mov_Transform_toGround_B
+em1050_Mov_Transform_toSky
+em1050_Mov_Transform_toSky_B
+em1050_Set_Ground
+em1050_Set_Sky
+stop_em1050_Mov_Idle_Lp
+
+### RTPC/GAME-VARIABLE NAMES (em1050.bnk)
+# 2245237517
+# 1618907762
+
+### EVENT NAMES (em1060.bnk)
+em1050_Mov_CannonEnd
+em1050_Mov_CannonStart
+em1050_Mov_End
+em1050_Mov_Land
+em1050_Mov_Start
+em1060_Mov_Idle_Lp
+stop_em1060_Mov_Idle_Lp
+
+### RTPC/GAME-VARIABLE NAMES (em1060.bnk)
+# 1618907762
+
+### EVENT NAMES (em1070.bnk)
+em1050_Mov_CannonEnd
+em1050_Mov_CannonStart
+em1050_Mov_End
+em1050_Mov_Idle_Lp
+em1050_Mov_Land
+em1050_Mov_Start
+em1050_Mov_Transform_Ignition
+em1050_Mov_Transform_toGround
+em1050_Mov_Transform_toGround_B
+em1050_Mov_Transform_toSky
+em1050_Mov_Transform_toSky_B
+em1050_Set_Ground
+em1050_Set_Sky
+em1070_Mov_Idle_Lp
+stop_em1050_Mov_Idle_Lp
+stop_em1070_Mov_Idle_Lp
+
+### RTPC/GAME-VARIABLE NAMES (em1070.bnk)
+# 2245237517
+# 1618907762
+
+### EVENT NAMES (em1100.bnk)
+em1100_Brk_Body
+em1100_Chg_Laser_Charge
+em1100_crack_Body
+em1100_exp_Body
+em1100_exp_Death
+em1100_exp_Death_OMEN
+em1100_exp_Missile
+em1100_Fir_Laser_Charge
+em1100_Fir_Laser_LP
+em1100_Fir_Missile
+em1100_idle_off
+em1100_idle_on
+em1100_Mov_Cannon_Lp
+em1100_Mov_Cannon_Lp_s
+em1100_Mov_CannonEnd
+em1100_Mov_CannonEnd_s
+em1100_Mov_CannonStart
+em1100_Mov_CannonStart_s
+em1100_Mov_DoorClose
+em1100_Mov_DoorClose_Impact
+em1100_Mov_DoorOpen
+em1100_Mov_DoorOpen_Impact
+em1100_Mov_Idle_IN
+em1100_Mov_Idle_Out
+em1100_Mov_StartUp
+ev_r103_em1100_Mov_Idle_Out
+stop_em1100_Chg_Laser_Charge
+stop_em1100_Fir_Laser_LP
+stop_em1100_Missile
+stop_em1100_Mov_Cannon_Lp
+stop_em1100_Mov_Idle_IN
+stop_em1100_Mov_Idle_Out
+Stop_ev_r103_em1100_Mov_Idle_Out
+# 1088920476
+# 1609491290
+# 2860831512
+# 2897448448
+# 3758655018
+# 4178154823
+
+### RTPC/GAME-VARIABLE NAMES (em1100.bnk)
+# 3758655018
+# 552399222
+# 2922187604
+
+### VARIABLE NAMES (em1100.bnk)
+em1100_idle
+
+### VALUE NAMES (em1100.bnk)
+off
+on
+
+### EVENT NAMES (em2000.bnk)
+em2000_Catch_TractorBeam
+em2000_Catch_TractorBeam_Lp
+em2000_Catch_TractorBeam_Lp_NPC
+em2000_Chg_TractorBeam
+em2000_Fir_TractorBeam
+em2000_Fir_TractorBeam_Lp
+em2000_Mov_Idle_Lp
+em2000_Mov_RushOut
+em2000_Whs_Neck
+em2000_Whs_Neck_Impact
+stop_em2000_Catch_TractorBeam_Lp
+stop_em2000_Catch_TractorBeam_Lp_NPC
+stop_em2000_Fir_TractorBeam_Lp
+stop_em2000_Mov_Idle_Lp
+# 2349016005
+
+### EVENT NAMES (em2010.bnk)
+em2010_Mov_Foot_Run
+em2010_Mov_Foot_walk
+em2010_Mov_Land_First
+em2010_Mov_Land_Second
+em2010_Mov_Roll
+em2010_Mov_Transform_toRoll
+em2010_Mov_Transform_toRoll_s
+em2010_Mov_Transform_toRun
+em2010_Mov_Transform_toStand
+stop_em2010_Mov_Roll
+
+### EVENT NAMES (em2020.bnk)
+em2020_Fir_Lazer_Charge
+em2020_Mov_FootStep
+em2020_Mov_StartUp
+em2020_Mov_Stop
+stop_em2020_Fir_Lazer_Charge
+# 732388611
+# 892569386
+# 1765324701
+# 2492989028
+# 3174653996
+# 3424124650
+
+### RTPC/GAME-VARIABLE NAMES (em2020.bnk)
+# 1865591067
+# 2103772708
+
+### EVENT NAMES (em2030.bnk)
+em1011_Atk_BombBound_first
+em1011_Atk_BombBound_Second
+em1011_Atk_BombBound_Third
+em1011_BombAlart
+em1011_Exp_Bomb
+em1011_Fir_LazerRing
+em1011_Mov_FootStep
+em1011_Mov_FootStep_Wall
+em1011_Mov_Stand
+em1011_Mov_TurnDown
+em1011_Mov_TurnOver
+em2030_Atk_Stomp
+em2030_Dmg_Mov_Foot
+em2030_Mov_Fall
+em2030_Mov_FootStep
+em2030_Mov_Idle_Lp
+em2030_Mov_Land
+em2030_Mov_RaiseFoot
+em2030_Mov_RushOut
+em2030_Whs_Jump
+stop_em1011_Fir_LazerRing
+stop_em2030_Mov_Idle_Lp
+
+### RTPC/GAME-VARIABLE NAMES (em2030.bnk)
+# 1865591067
+
+### EVENT NAMES (em2100.bnk)
+em2100_Atk_Bite_FinishImpact
+em2100_Atk_Bite_Impact
+em2100_Atk_Rush_Impact
+em2100_Atk_Slam
+em2100_Catch_TractorBeam
+em2100_Catch_TractorBeam_Lp
+em2100_Chg_Laser_Charge
+em2100_Dmg_Down
+em2100_Exp_Death
+em2100_Fir_Laser_Charge
+em2100_Fir_Laser_Charge_End
+em2100_Fir_TractorBeam
+em2100_Fir_TractorBeam_End
+em2100_Fir_TractorBeam_Lp_NPC
+em2100_Laser_Land
+em2100_Mov_Appear_Ground
+em2100_Mov_Appear_Impact
+em2100_Mov_Bite_Mouth
+em2100_Mov_Bite_MouthB
+em2100_Mov_Body_01
+em2100_Mov_Body_02
+em2100_Mov_Close_Mouth
+em2100_Mov_Close_Mouth_Impact
+em2100_Mov_Disappear_Impact
+em2100_Mov_Dmg
+em2100_Mov_Idle
+em2100_Mov_Quicksand_End
+em2100_Mov_Quicksand_Start
+em2100_Mov_RushBody
+em2100_Mov_SlamBack
+em2100_Mov_Slide
+em2100_Mov_SlideStart
+em2100_Release_TractorBeam
+em2100_Vo_Appear
+em2100_Vo_Atk_01
+em2100_Vo_Atk_02
+em2100_Vo_Atk_03
+em2100_Vo_Atk_04
+em2100_Vo_Dmg
+em2100_Vo_Dmg_S
+em2100_Whs_Bite
+em2100_Whs_Bite_Finish
+em2100_Whs_Pull
+em2100_Wsh_NeckSwingA
+em2100_Wsh_NeckSwingB
+em2100_Wsh_Slam
+stop_em2100
+stop_em2100_Catch_TractorBeam_Lp
+stop_em2100_Chg_Laser_Charge
+stop_em2100_Fir_Laser_Charge
+stop_em2100_Fir_TractorBeam
+stop_em2100_Fir_TractorBeam_Lp_NPC
+stop_em2100_Mov_Idle
+stop_em2100_Mov_Slide
+# 554829803
+
+### EVENT NAMES (em3060.bnk)
+em3060_Exp_Missile
+em3060_Exp_Spark
+em3060_Fir_Missile
+em3060_Missile_Lp
+em3060_Mov_appear
+em3060_Mov_Runaway
+em3060_Mov_Start
+em3060_Mov_Stop
+stop_em3060_Missile_Lp
+stop_em3060_Mov
+# 592063023
+
+### RTPC/GAME-VARIABLE NAMES (em3060.bnk)
+# 2266645365
+
+### EVENT NAMES (em3070.bnk)
+em3070_Mov_Open
+stop_em3070_Mov_Open
+
+### RTPC/GAME-VARIABLE NAMES (em3070.bnk)
+# 1865591067
+
+### EVENT NAMES (em3080.bnk)
+em3080_Mov_Body_Back
+em3080_Mov_Body_BackStop
+em3080_Mov_Body_Start
+em3080_Mov_Body_Stop
+em3080_Mov_GunBarrel_Back
+em3080_Mov_GunBarrel_Start
+em3080_Mov_GunBarrel_Stop
+
+### RTPC/GAME-VARIABLE NAMES (em3080.bnk)
+# 2266645365
+
+### EVENT NAMES (em3090.bnk)
+em3090_Atk_Bite_A
+em3090_Atk_Bite_B
+em3090_Fir_Shoot
+em3090_FlyIn
+em3090_FlyIn_noWater
+em3090_FlyOut
+em3090_FlyOut_noWater
+em3090_Mov_MouthClose
+em3090_Mov_MouthOpen
+em3090_Mov_Swim
+
+### RTPC/GAME-VARIABLE NAMES (em3090.bnk)
+# 2266645365
+
+### EVENT NAMES (em30a0.bnk)
+em00b0_Dmg_falling
+em00b0_Dmg_Hit
+em00b0_exp_Death
+em00b0_Mov_Wing
+
+### RTPC/GAME-VARIABLE NAMES (em30a0.bnk)
+# 2266645365
+
+### EVENT NAMES (em3100.bnk)
+em3100_BarrierDevice_off
+em3100_BarrierDeviceSwitch_off_left
+em3100_BarrierDeviceSwitch_off_right
+em3101_BarrierDevice_off
+
+### EVENT NAMES (em3101.bnk)
+em3101_Mov_Board_Impact
+em3101_Mov_Board_Start_Lp
+
+### EVENT NAMES (em4001.bnk)
+em4001_Exp_End
+em4001_Exp_first
+em4001_Exp_s
+em4001_Mov_Fast
+em4001_MovA
+em4001_MovB
+# 1118302579
+# 3383884328
+
+### EVENT NAMES (em4010.bnk)
+em4010_Mov_Close_End
+em4010_Mov_Close_Start
+em4010_Mov_Open_Start
+
+### EVENT NAMES (em4100.bnk)
+em4100_Atk_Blow
+em4100_Atk_EggBrk
+em4100_Atk_EggBrk_b
+em4100_Atk_EggIncubate
+em4100_Atk_EggLand_p01
+em4100_Atk_EggLand_p02
+em4100_Atk_EggWhs
+em4100_Atk_FireOmen
+em4100_Atk_Rush
+em4100_Atk_Tail
+em4100_Atk_TailOmen
+em4100_Atk_Tornade_Unite
+em4100_Atk_Tornade_UniteOmen
+em4100_Brk_Ivy
+em4100_Brk_Ivy_Far
+em4100_Brk_Ivy_Second
+em4100_Charge_Fir_Laser_Charge
+em4100_Fir_Fire
+em4100_Fir_Fire_InScroll
+em4100_Fir_Fire_Rapid
+em4100_Fir_Laser_Charge
+em4100_Fir_Laser_LP
+em4100_Fir_Tornado
+em4100_Fir_Tornado_Single
+em4100_Mov_Appear
+em4100_Mov_Appear_A
+em4100_Mov_Appear_B
+em4100_Mov_death
+em4100_Mov_FoldWing_L
+em4100_Mov_FoldWing_R
+em4100_Mov_FootStep
+em4100_Mov_IntoCloud
+em4100_Mov_Jump
+em4100_Mov_Land
+em4100_Mov_Metal
+em4100_Mov_OpenWing_L
+em4100_Mov_OpenWing_R
+em4100_Mov_Rage_End
+em4100_Mov_Rage_Start
+em4100_Mov_Wing_M
+em4100_Mov_Wing_M_noAdd
+em4100_Mov_Wing_M_noAdd_S
+em4100_Mov_Wing_s
+em4100_Mov_Wing_Whs
+em4100_Mov_Wing_Whs_S
+em4100_Pas_Fire
+em4100_TornadoPart_End
+em4100_TornadoPart_Start
+em4100_vo_Dmg_L
+em4100_vo_Dmg_R
+em4100_vo_FireOmen
+em4100_vo_General
+em4100_vo_Growl
+em4100_vo_InScroll_Part1
+em4100_vo_InScroll_Part2
+em4100_vo_Rage
+em4100_vo_Roar_A
+em4100_vo_Roar_B
+em4100_vo_Rush
+em4100_vo_SpeedUp
+em4100_vo_Tornade_Start
+em4100_vo_Tornado_Outside
+evrb28_em4100_Mov_Appear_A
+evrb28_em4100_Mov_Appear_B
+evrb28_em4100_Mov_Wing_M
+evrb28_em4100_Mov_Wing_M_Far
+evrb28_em4100_Mov_Wing_M_noAdd
+evrb28_em4100_vo_Roar_A
+evrb28_em4100_vo_Roar_B
+stop_em4100_Fir_Laser_LP
+Stop_em4100_Fir_Tornado_Single
+stop_em4100_vo_Growl
+# 8820564
+# 309124433
+# 2698442176
+# 2698442177
+# 2698442179
+# 4218038598
+
+### VARIABLE NAMES (em4100.bnk)
+# 767372323
+
+### VALUE NAMES (em4100.bnk)
+normal
+space
+
+### EVENT NAMES (em5000.bnk)
+em5000_Dmg_falling
+em5000_Fir_Shoot
+em5000_Mov_Idle_Lp
+em5000_Pas_Shoot
+em5000_PassFly
+evr401_em5000_Pas_Fly_A
+evr401_em5000_Pas_Fly_B
+evr401_em5000_Pas_Fly_C
+evr401_em5000_Pas_Fly_D
+evr401_em5000_Pas_Fly_E
+evr401_em5000_Pas_Fly_F
+evr401_em5000_Pas_Uturn_B
+evr401_em5000_Pas_Uturn_C
+stop_em5000_Mov_Idle_Lp
+Stop_em5000_PassFly
+
+### RTPC/GAME-VARIABLE NAMES (em5000.bnk)
+# 2943372332
+
+### EVENT NAMES (em5010.bnk)
+em5010_Dmg_falling
+em5010_Fir_Shoot
+em5010_Mov_Idle_Lp
+em5010_Pas_Shoot
+em5010_PassFly
+evr401_em5010_Pas_Fly_A
+evr401_em5010_Pas_Fly_B
+evr401_em5010_Pas_Fly_C
+evr401_em5010_Pas_Fly_D
+evr401_em5010_Pas_Fly_E
+evr401_em5010_Pas_Fly_F
+evr401_em5010_Pas_Uturn_B
+evr401_em5010_Pas_Uturn_C
+stop_em5010_Mov_Idle_Lp
+Stop_em5010_PassFly
+
+### EVENT NAMES (em5100.bnk)
+em5100_Atk_SetPigmaBomb
+em5100_Atk_SetPigmaBomb_DRC
+em5100_Atk_SetPigmaBomb_TV
+em5100_Chg_LightningVolt
+em5100_Chg_LightningVolt_DRC
+em5100_Chg_LightningVolt_TV
+em5100_Dmg_AvoidanceHit
+em5100_Dmg_Exp_death
+em5100_Dmg_falling
+em5100_Dmg_Spark_Lp
+em5100_Fir_LightningVolt
+em5100_Fir_PigmaBomb
+em5100_Fir_PigmaBomb_DRC
+em5100_Fir_PigmaBomb_tv
+em5100_Fir_PlasmaShield
+em5100_Fir_PlasmaShield_DRC
+em5100_Fir_PlasmaShield_TV
+em5100_Fir_Shoot
+em5100_Fir_Shoot_Twin
+em5100_Mov_Boost
+em5100_Mov_Boost_Ev
+em5100_Mov_CrossSlow_out
+em5100_Mov_Flip
+em5100_Mov_Footstep_Run
+em5100_Mov_Footstep_Walk
+em5100_Mov_Idle_Lp
+em5100_Mov_Jump
+em5100_Mov_Land
+em5100_Mov_Land_ev
+em5100_Mov_Transform_toGround
+em5100_Mov_Transform_toGround_Ev
+em5100_Mov_Transform_toSky
+em5100_Mov_Uturn
+em5100_Mov_Whs_Avoidance_A
+em5100_Mov_Whs_Avoidance_Fast
+em5100_Pas_Shoot
+em5100_PassFly
+em5100_PassFly_Near
+ev_com_em5100_Mov_Boost
+ev_com_em5100_Mov_flip
+ev_com_em5100_Mov_Idle_Lp
+ev_com_em5100_Mov_Uturn
+evr201_em5100_Branch_Boost
+evr201_em5100_Branch_Start
+evr21f_em5100_Andrew_Appear_DRC
+evr21f_em5100_Andrew_Appear_TV
+evr21f_em5100_Pigma_Appear_DRC
+evr21f_em5100_Pigma_Appear_TV
+evr801_em5100_Branch_Boost
+evr801_em5100_Branch_Start
+evra1f_em5100_Appear_DRC
+evra1f_em5100_Appear_TV
+Stop_em5100_Dmg_Spark_Lp
+stop_em5100_Mov_Idle_Lp
+Stop_em5100_Mov_PigmaBombOmen
+stop_em5100_Mov_Uturn
+Stop_em5100_PassFly
+Stop_ev_com_em5100_Mov_Idle_Lp
+Stop_evr21f_em5100_Appear_DRC
+Stop_evr21f_em5100_Appear_TV
+Stop_evra1f_em5100_Appear_DRC
+Stop_evra1f_em5100_Appear_TV
+Stop_wp0022_Mov_IdlePigmaBomb
+Stop_wp0023_Atk_PlasmaSpark_Lp
+Stop_wp0023_PassFly
+wp0022_Exp_PigmaBomb
+wp0022_Mov_IdlePigmaBomb_Lp
+wp0022_Mov_PigmaBombOmen
+wp0023_Atk_PlasmaSpark_Lp
+wp0023_PassFly
+# 776316086
+# 813291424
+# 1475021967
+# 2825586015
+# 3114020580
+# 3385335818
+# 3618848633
+# 3618848634
+# 3618848635
+# 3618848636
+# 3618848637
+# 3618848638
+# 4087834591
+
+### VARIABLE NAMES (em5100.bnk)
+SE_HeadphoneMode
+
+### VALUE NAMES (em5100.bnk)
+on
+
+### EVENT NAMES (em6100.bnk)
+em6100_Atk_DashImpact
+em6100_Atk_StompImpact
+em6100_Atk_StompRubble
+em6100_Chg_laser
+em6100_Fir_ArmGun_L
+em6100_Fir_ArmGun_r
+em6100_Fir_laser
+em6100_Fir_Laser_LP
+em6100_Mov_DashStance
+em6100_Mov_DashStopFoot
+em6100_Mov_DashStopSlideFoot
+em6100_Mov_Dmg
+em6100_Mov_Druming_End
+em6100_Mov_Druming_Start
+em6100_Mov_Drumming
+em6100_Mov_FootStep
+em6100_Mov_FootStep_S
+em6100_Mov_GrabContainer
+em6100_Mov_GrabContainer_Up
+em6100_Mov_LaserMisslie_Stance
+em6100_Mov_MissileHatch_Close
+em6100_Mov_MissileHatch_Open
+em6100_Mov_PanelOpen
+em6100_Mov_PunchStance
+em6100_Mov_PunchStance_Back_S01
+em6100_Mov_PunchStance_Back_short
+em6100_Mov_PunchStance_S01
+em6100_Mov_PunchStance_Short
+em6100_Mov_Run
+em6100_Mov_ShootBack_Stance
+em6100_Mov_ShootBack_Stance_L
+em6100_Mov_ShootBack_Stance_r
+em6100_Mov_ShootStance_01
+em6100_Mov_ShootStance_02
+em6100_Mov_ShootStance_03
+em6100_Mov_StartUp_01
+em6100_Mov_StartUp_02
+em6100_Mov_StartUp_03
+em6100_Mov_StartUp_04
+em6100_Mov_StartUp_Second
+em6100_Mov_StompStance
+em6100_Mov_StompStance_Back
+em6100_Mov_StompStance_S
+em6100_Mov_Stop_01
+em6100_Mov_Stop_02
+em6100_Mov_Walk
+em6100_Thr_Container
+em6100_Whs_Punch
+em6100_Whs_Stomp
+stop_em6100_Fir_Laser_LP
+
+### EVENT NAMES (em7200.bnk)
+em7200_Exp_body
+em7200_Exp_death
+em7200_Exp_death_OMEN
+em7200_Mov_Idle_IN
+em7200_Mov_StartUp
+# 478758183
+
+### EVENT NAMES (em8100.bnk)
+em8100_Atk_Spark_Lp
+em8100_Exp_Chg
+em8100_Exp_Omen
+em8100_EXP_XL
+em8100_Mov_Gun_StartUp
+em8100_Mov_Gun_StartUpImpact
+em8100_Mov_GunHatch_Open
+em8100_Mov_GunHatch_OpenImpact
+em8100_Mov_Idle
+em8101_Mov_Idle
+em8102_Mov_Idle
+stop_em8100_Atk_Spark_Lp
+stop_em8100_Mov_Idle
+stop_em8101_Mov_Idle
+stop_em8102_Mov_Idle
+
+### EVENT NAMES (em9100.bnk)
+em9100_Block_Laser
+em9100_Dmg_Alert_Lp
+em9100_Dmg_Spark_Lp
+em9100_Mov_Core_Close
+em9100_Mov_Core_Close_Impact
+em9100_Mov_Core_Open
+em9100_Mov_Core_Open_Impact
+em9100_Mov_Down
+em9100_Mov_Down_Impact
+em9100_Mov_FootRecoverA
+em9100_Mov_FootRecoverB
+em9100_Mov_FootStep_Near
+em9100_Mov_GetUp
+em9100_Mov_Idle
+em9100_Mov_Jump
+em9100_Mov_Jump_Land
+em9100_Whs_Jump_Fall
+Stop_em9100_Dmg_Alert_Lp
+Stop_em9100_Dmg_Spark_Lp
+Stop_em9100_Mov_Idle
+
+### RTPC/GAME-VARIABLE NAMES (em9100.bnk)
+# 667952426
+
+### EVENT NAMES (ema000.bnk)
+ema0000_exp_Death
+ema0000_Mov_Idle
+stop_ema0000_Mov_Idle
+
+### EVENT NAMES (ema100.bnk)
+ema100_Atk_LaserWsh
+ema100_Brk_Body
+ema100_Chg_Laser_Charge
+ema100_DeathExp
+ema100_Exp_body
+ema100_Fir_4Laser
+ema100_Fir_4Laser_end
+ema100_Fir_4LaserWsh
+ema100_Fir_LazerRing
+ema100_Mov_BodyCl
+ema100_Mov_BodyOp
+ema100_Mov_IdleLoop
+ema100_Mov_LargeHatchCl
+ema100_Mov_LargeHatchCl_Lock
+ema100_Mov_LargeHatchOp
+ema100_Mov_LargeHatchOp_Lock
+ema100_Mov_NozzleLoop
+ema100_Mov_Pass
+ema100_Mov_SmallHatchCl
+ema100_Mov_SmallHatchCl_Lock
+ema100_Mov_SmallHatchOp
+ema100_Mov_SmallHatchOp_Lock
+Stop_ema100_All
+Stop_ema100_Brk_Body
+Stop_ema100_Chg_Laser_Charge
+Stop_ema100_Fir_4Laser
+Stop_ema100_Fir_4LaserWsh
+stop_ema100_Fir_LazerRing
+Stop_ema100_Mov_IdleLoop
+Stop_ema100_Mov_LargeHatchCl
+stop_ema100_Mov_LargeHatchCl_Lock
+Stop_ema100_Mov_LargeHatchOp
+stop_ema100_Mov_LargeHatchOp_Lock
+Stop_ema100_Mov_NozzleLoop
+Stop_ema100_Mov_SmallHatchCl
+stop_ema100_Mov_SmallHatchCl_Lock
+Stop_ema100_Mov_SmallHatchOp
+stop_ema100_Mov_SmallHatchOp_Lock
+# 540579698
+# 1426525600
+# 1426525608
+# 1426525609
+# 1426525610
+# 1426525611
+# 1426525612
+# 1426525613
+# 1426525614
+# 1426525615
+# 1493636048
+# 1493636049
+# 1493636050
+# 1493636051
+# 1493636053
+# 1493636054
+# 1493636055
+# 1493636060
+# 1493636061
+# 1510413632
+# 1510413633
+# 1510413634
+# 1510413635
+# 1510413636
+# 1510413637
+# 1510413638
+# 1510413639
+# 1510413646
+# 1510413647
+# 1527191346
+# 1527191347
+# 1527191352
+# 1527191353
+# 1527191354
+# 1527191355
+# 1527191356
+# 1527191357
+# 1527191358
+# 1527191359
+# 1543968932
+# 1543968933
+# 1543968936
+# 1543968937
+# 1543968938
+# 1543968939
+# 1543968940
+# 1543968941
+# 1543968942
+# 1543968943
+
+### RTPC/GAME-VARIABLE NAMES (ema100.bnk)
+ema100_Mov_Angle
+ema100_Mov_Dist
+ema100_Mov_pattern
+ema100_Mov_RollSpeed
+ema100_Mov_Speed
+
+### EVENT NAMES (emb100.bnk)
+emb100_Atk_AroundLaserWsh
+emb100_Atk_Bite
+emb100_Atk_Hand_Clap_Hit
+emb100_Atk_Hand_Clap_Pre
+emb100_Atk_Hand_Clap_Swing
+emb100_Atk_Hand_Fly_Lp
+emb100_Atk_Hand_Knock_Hit
+emb100_Atk_Hand_Knock_Pre
+emb100_Atk_Hand_Knok_Swing
+emb100_Atk_Hand_Punch_Omen
+emb100_Atk_Hand_Punch_Pre
+emb100_Atk_Hand_Punch_Swing
+emb100_Atk_Hand_Slap_Hit
+emb100_Atk_Hand_Slap_Pre
+emb100_Atk_Hand_Slap_Swing
+emb100_Atk_Hand_Spin_Lp
+emb100_Atk_HandMov_Post
+emb100_Atk_HandMov_Pre
+emb100_Catch_TractorBeam
+emb100_Catch_TractorBeam_Lp
+emb100_Chg_AroundLaser
+emb100_Chg_AroundLaser_Long
+emb100_Chg_EyeLaser
+emb100_Dmg_Face_Death_A
+emb100_Dmg_Face_Death_b
+emb100_Dmg_FaceCore_Disappear
+emb100_Dmg_FaceCore_Hit_Last
+emb100_Dmg_Hand
+emb100_Dmg_Hand_death
+emb100_Dmg_KnockOut_Lp
+emb100_exp_Block
+emb100_Fir_AroundLaser
+emb100_Fir_AroundLaserEnd
+emb100_Fir_Block_A
+emb100_Fir_Block_B
+emb100_Fir_EyeBeam
+emb100_Fir_EyeLaser
+emb100_Fir_EyeLaserEnd
+emb100_Fir_TractorBeam_end
+emb100_Fir_TractorBeam_Lp
+emb100_Mov_Arm
+emb100_Mov_Bite
+emb100_Mov_Bite_Omen
+emb100_Mov_Block_Construct
+emb100_Mov_Block_Destruct
+emb100_Mov_BlockWhs_Lp
+emb100_Mov_Face_Appear_a
+emb100_Mov_Face_Appear_B
+emb100_Mov_Face_Eye_Close
+emb100_Mov_Face_Eye_Open
+emb100_Mov_Face_Idle_Lp_A
+emb100_Mov_Face_Idle_Lp_B
+emb100_Mov_Face_Mouth_Open
+emb100_Mov_Face_Shake
+emb100_Mov_Face_Turn
+emb100_Mov_FaceCore_Appear
+emb100_Mov_FaceCore_Disappear
+emb100_Mov_Hand_Appear
+emb100_Mov_Hand_Disappear
+emb100_Mov_Hand_Idle_Lp_A
+emb100_Mov_Hand_Idle_Lp_B
+emb100_Mov_KnockOut
+emb100_Mov_Mouth_Close
+emb100_Mov_Mouth_Impact
+emb100_Mov_Mouth_Open
+emb100_Mov_Roar
+emb100_Thr_Hand
+emb100_Whs_EyeBeam
+emb100_Wsh_AroundLaser
+emb100_Wsh_EyeLaser
+State_SE_emb100_Machine_Body
+State_SE_emb100_Normal_Body
+Stop_emb100_Atk_AroundLaser
+Stop_emb100_Atk_Hand_Fly_Lp
+Stop_emb100_Atk_Hand_Spin_Lp
+Stop_emb100_Catch_TractorBeam_Lp
+Stop_emb100_Chg_EyeLaser
+Stop_emb100_Dmg_KnockOut_Lp
+stop_emb100_Fir_EyeLaserEnd
+Stop_emb100_Fir_TractorBeam_Lp
+Stop_emb100_Mov_BlockWhs_Lp
+Stop_emb100_Mov_Face_Idle_Lp_A
+Stop_emb100_Mov_Face_Idle_Lp_B
+Stop_emb100_Mov_Hand_Idle_Lp_A
+Stop_emb100_Mov_Hand_Idle_Lp_B
+# 311141568
+# 311141569
+# 311141570
+# 311141571
+# 311141574
+# 327919280
+# 327919281
+# 327919282
+# 327919283
+# 327919284
+# 327919286
+# 327919287
+# 327919292
+# 327919293
+# 1088650922
+# 3405584904
+# 3815756643
+
+### RTPC/GAME-VARIABLE NAMES (emb100.bnk)
+emb100_Mov_Dist
+# 1865591067
+
+### VARIABLE NAMES (emb100.bnk)
+emb100_body
+emb100_stage
+
+### VALUE NAMES (emb100.bnk)
+machine_body
+none
+normal_body
+r704
+
+### EVENT NAMES (emc100.bnk)
+em1100_Chg_Laser_Charge
+em1100_Fir_Laser_Charge
+em1100_Fir_Laser_LP
+em1100_Mov_Cannon_Lp
+em1100_Mov_CannonEnd
+em1100_Mov_CannonStart
+emc100_Atk_RangeOmen
+emc100_ExpDeath
+emc100_ExpDeathOmen
+emc100_Fir_Range
+emc100_Mov_SeeAppear
+emc105_Fir_LazerRing
+emc105_Fir_LazerRing_Lp
+stop_em1100_Chg_Laser_Charge
+stop_em1100_Fir_Laser_LP
+stop_em1100_Mov_Cannon_Lp
+stop_emc100_Fir_Range
+# 1120887170
+# 1120887171
+# 1120887176
+# 1120887177
+# 1120887179
+# 1120887180
+# 1120887181
+# 1120887182
+# 1120887183
+# 1137664885
+# 1137664888
+# 1137664889
+# 1137664890
+# 1137664891
+# 1137664892
+# 1137664893
+# 1137664894
+# 1137664895
+
+### RTPC/GAME-VARIABLE NAMES (emc100.bnk)
+# 2922187604
+# 552399222
+# 3758655018
+
+### EVENT NAMES (pl0000.bnk)
+ev_com_ArwingEngine_Falco
+ev_com_ArwingEngine_Falco_SFC
+ev_com_ArwingEngine_Fox
+ev_com_ArwingEngine_Fox_SFC
+ev_com_ArwingEngine_Peppy
+ev_com_ArwingEngine_Peppy_SFC
+ev_com_ArwingEngine_Slippy
+ev_com_ArwingEngine_Slippy_SFC
+ev_com_ArwingPass_Falco
+ev_com_ArwingPass_Falco_SFC
+ev_com_ArwingPass_Fox
+ev_com_ArwingPass_Fox_SFC
+ev_com_ArwingPass_Peppy
+ev_com_ArwingPass_Peppy_SFC
+ev_com_ArwingPass_Slippy
+ev_com_ArwingPass_Slippy_SFC
+ev_com_Mov_Avoidance
+ev_com_Mov_Avoidance_Fox
+ev_com_Mov_Avoidance_Fox_SFC
+ev_com_Mov_Avoidance_Sfc
+ev_com_Mov_Boost
+ev_com_Mov_Boost_Fox
+ev_com_Mov_Boost_Fox_SFC
+ev_com_Mov_Boost_SFC
+ev_com_Mov_CirclingLoop
+ev_com_Mov_CirclingLoop_Fox
+ev_com_Mov_CirclingLoop_Fox_SFC
+ev_com_Mov_CirclingLoop_SFC
+ev_com_Mov_CirclingStart
+ev_com_Mov_CirclingStart_Fox
+ev_com_Mov_CirclingStart_Fox_SFC
+ev_com_Mov_CirclingStart_SFC
+ev_com_Mov_Flip_Fox
+ev_com_Mov_Flip_Fox_SFC
+ev_com_WingClose
+ev_com_WingClose_Fox
+ev_com_WingClose_Fox_SFC
+ev_com_WingClose_SFC
+ev_com_WingCloseLock
+ev_com_WingCloseLock_Fox
+ev_com_WingCloseLock_Fox_SFC
+ev_com_WingCloseLock_SFC
+ev_com_WingLock
+ev_com_WingLock_Fox
+ev_com_WingLock_Fox_SFC
+ev_com_WingLock_Sfc
+ev_com_WingOpen
+ev_com_WingOpen_Fox
+ev_com_WingOpen_Fox_SFC
+ev_com_WingOpen_Sfc
+evc100_pl_Mov_WaterSplashLp
+evr101_pl0000_Branch_Boost
+evr101_pl0000_Branch_CameraPan
+evr101_pl0000_Branch_Start
+evr101_pl0060_Branch_Boost_SFC
+evr101_pl0060_Branch_CameraPan_SFC
+evr101_pl0060_Branch_Start_SFC
+evr103_ArwingEngine_Falco
+evr103_ArwingEngine_Falco_SFC
+evr103_ArwingEngine_Fox
+evr103_ArwingEngine_Fox_SFC
+evr103_ArwingEngine_Peppy
+evr103_ArwingEngine_Peppy_SFC
+evr103_ArwingEngine_Slippy
+evr103_ArwingEngine_Slippy_SFC
+evr103_ArwingPass_Falco
+evr103_ArwingPass_Falco_SFC
+evr103_ArwingPass_Fox
+evr103_ArwingPass_Fox_SFC
+evr103_ArwingPass_Peppy
+evr103_ArwingPass_Peppy_SFC
+evr103_ArwingPass_Slippy
+evr103_ArwingPass_Slippy_SFC
+evr201_pl0000_Branch_Boost
+evr201_pl0000_Branch_Start
+evr201_pl0060_Branch_Boost_SFC
+evr201_pl0060_Branch_Start_SFC
+evr202_2200_pl_Mov_Pass
+evr401_Mov_PeppyFall
+evr704_ArwingPass_Fox
+evr801_pl0000_Branch_Boost
+evr801_pl0000_Branch_Start
+evr801_pl0060_Branch_Boost_SFC
+evr801_pl0060_Branch_Start_SFC
+evr918_pl0000_EndEV_c1_Start
+evr918_pl0000_EndEV_c2_Start
+evr918_pl0000_StartEV_End
+evr918_pl0000_StartEV_Start
+evr918_pl0060_EndEV_c1_Start_SFC
+evr918_pl0060_EndEV_c2_Start_SFC
+evr918_pl0060_StartEV_End_SFC
+evr918_pl0060_StartEV_Start_SFC
+pl0000_Chg_Shoot_Charge
+pl0000_Chg_Shoot_Charge_DRC
+pl0000_Dmg_KnockBack
+pl0000_Dmg_KnockBackAlert
+pl0000_ev901_PanChange
+pl0000_ev901_PanReset
+pl0000_Exp_Bomb
+pl0000_Exp_charge
+pl0000_Fir_Bomb
+pl0000_Fir_Shoot_BlueCharge
+pl0000_Fir_Shoot_BlueCharge3
+pl0000_Fir_Shoot_Charge
+pl0000_Fir_Shoot_Hyper
+pl0000_Fir_Shoot_Normal
+pl0000_Fir_Shoot_Twin
+pl0000_Mov_80011935
+pl0000_Mov_Boost
+pl0000_Mov_Boost_Add
+pl0000_Mov_CancelBoost
+pl0000_Mov_CancelDeboost
+pl0000_Mov_CirclingEnd
+pl0000_Mov_CirclingStart
+pl0000_Mov_CrossSlow_out
+pl0000_Mov_Deboost
+pl0000_Mov_DieBoost
+pl0000_Mov_Down
+pl0000_Mov_Engin
+pl0000_Mov_FastFlip
+pl0000_Mov_flip
+pl0000_Mov_G_DefuserBoost
+pl0000_Mov_G_DefuserDeBoost
+pl0000_Mov_MidCirclingEnd
+pl0000_Mov_MidCirclingStart
+pl0000_Mov_MidCirclingStart_LP
+pl0000_Mov_PowerDown
+pl0000_Mov_PowerUp
+pl0000_Mov_ReBoost
+pl0000_Mov_Slow_out
+pl0000_Mov_Turn_AXSetDRCVSDownmixBalance #alt
+pl0000_Mov_Turn_L
+pl0000_Mov_Turn_R
+pl0000_Mov_Up
+pl0000_Mov_Uturn
+pl0000_Mov_Whs_Avoidance
+pl0000_Mov_WingClose
+pl0000_Mov_WingCloseLock
+pl0000_Mov_WingLock
+pl0000_Mov_WingOpen
+pl0010_Dmg_FocusedLightReact #alt
+pl0020_Dmg_KnockBack
+pl0020_Dmg_KnockBackAlert
+pl2000_Dmg_Exp_S
+pl2000_Fir_Shoot_hyper
+pl2000_Fir_Shoot_Normal
+pl2000_Fir_Shoot_Twin
+pl2000_Mov_Boost
+pl2000_Mov_CancelBoost
+pl2000_Mov_FastFlip
+pl2000_Mov_FirstBoost
+pl2000_Mov_Flip
+pl2000_Mov_G_DefuserBoost
+pl2000_Mov_Idle_Lp
+pl2000_Mov_WingClose
+pl2000_Mov_WingCloseLock
+pl2000_Mov_WingLock
+pl2000_Mov_WingOpen
+pl2000_PassFly
+Stop_ev_com_ArwingEngine_Falco
+Stop_ev_com_ArwingEngine_Falco_SFC
+Stop_ev_com_ArwingEngine_Fox
+Stop_ev_com_ArwingEngine_Fox_SFC
+Stop_ev_com_ArwingEngine_Peppy
+Stop_ev_com_ArwingEngine_Peppy_SFC
+Stop_ev_com_ArwingEngine_Slippy
+Stop_ev_com_ArwingEngine_Slippy_SFC
+Stop_ev_com_Mov_CirclingLoop
+Stop_ev_com_Mov_CirclingLoop_Fox
+Stop_ev_com_Mov_CirclingLoop_Fox_SFC
+Stop_ev_com_Mov_CirclingLoop_SFC
+Stop_evc100_pl_Mov_WaterSplashLp
+Stop_pl0000_All
+Stop_pl0000_Chg_Shoot_Charge
+Stop_pl0000_Chg_Shoot_Charge_DRC
+Stop_pl0000_Mov_Engin
+Stop_pl0000_Mov_flip
+Stop_pl0000_Mov_G_Defuser_Lp
+Stop_pl0000_Mov_Uturn
+Stop_pl2000_All
+Stop_pl2000_Mov_Idle_Lp
+Stop_pl2000_PassFly
+# 159486936
+# 176264491
+# 380222064
+# 811390228
+# 3000916557
+# 3133109150
+# 3689865902
+
+### RTPC/GAME-VARIABLE NAMES (pl0000.bnk)
+core_Mov_Speed
+pl_Elevating
+pl_elevation
+voice_test
+# 354543731
+# 2463073144
+# 2943372332
+# 1022586083
+# 3664147437
+# 2948766632
+# 2103772708
+
+### VARIABLE NAMES (pl0000.bnk)
+core_Collision_Type
+Set_Player_Type
+
+### VALUE NAMES (pl0000.bnk)
+Arwing
+Arwing_Sfc
+Buggy
+Hoverwing
+Landmaster
+none
+Walker
+Walker_Sfc
+# 2704704954
+# 2755205668
+# 3884975604
+# 3953886713
+# 1564980743
+# 1662155148
+# 2555618988
+# 4216507447
+# 735769930
+# 3822059507
+# 4007828943
+# 4239328342
+# 319765527
+# 2914981259
+
+### EVENT NAMES (pl0010.bnk)
+ev0302_pl0010_Mov_Engin
+ev0302_pl0010_Mov_Jump_Start
+ev0302_pl0030_Mov_CirclingStart
+ev0302_pl0030_Mov_Engin
+ev0302_pl0030_Mov_Pass
+ev_com_Grav_Boost
+ev_com_Grav_CancelBoost
+ev_com_Grav_CirclingStart
+ev_com_Grav_Engine
+ev_com_Grav_Pass
+evra01_Mov_HoverEnd
+evra01_Mov_HoverStart
+evra01_pl0010_Mov_Engin
+evra01_pl0010_Mov_Land
+evra01_pl0030_Mov_Boost
+evra01_pl0030_Mov_CancelBoost
+evra01_pl0030_Mov_Engin
+pl0000_Chg_Missile_Lp
+pl0000_Chg_Missile_Lp_DRC
+pl0000_Exp_Missile
+pl0000_Fir_Missile
+pl0010_Dmg_KnockBack
+pl0010_Dmg_KnockBackAlert
+pl0010_Dmg_Land
+pl0010_Fir_Shoot_Cannon
+pl0010_Mov_AvoidLand_A
+pl0010_Mov_AvoidLand_B
+pl0010_Mov_AvoidLand_C
+pl0010_Mov_Boost
+pl0010_Mov_CancelBoost
+pl0010_Mov_CannonMoving
+pl0010_Mov_Engin
+pl0010_Mov_Jump_End
+pl0010_Mov_Jump_Start
+pl0010_Mov_Land
+pl0010_Mov_SideBoost
+pl0010_Mov_Whs_Avoidance
+pl0020_Mov_Drumming_Jump_Start
+pl0030_Dmg_KnockBack
+pl0030_Dmg_KnockBackAlert
+pl0030_Mov_Boost
+pl0030_Mov_CancelBoost
+pl0030_Mov_CancelDeboost
+pl0030_Mov_CirclingEnd
+pl0030_Mov_CirclingStart
+pl0030_Mov_Deboost
+pl0030_Mov_DieBoost
+pl0030_Mov_Down
+pl0030_Mov_Engin
+pl0030_Mov_FlyAleat
+pl0030_Mov_MidCirclingEnd
+pl0030_Mov_MidCirclingStart
+pl0030_Mov_MidCirclingStart_LP
+pl0030_Mov_ReBoost
+pl0030_Mov_Up
+pl0030_Mov_Uturn
+Stop_ev0302_pl0010_Mov_Engin
+Stop_ev0302_pl0010_Mov_Jump_Start
+Stop_ev_com_Grav_Engine
+Stop_evra01_pl0010_Mov_Engin
+Stop_evra01_pl0030_Mov_Engin
+Stop_pl0000_Chg_Missile_Lp
+Stop_pl0000_Chg_Missile_Lp_DRC
+Stop_pl0010_All
+Stop_pl0010_Mov_CannonMoving
+Stop_pl0010_Mov_Engine
+Stop_pl0010_Mov_Hover_Lp
+stop_pl0010_Mov_Jump_Start
+Stop_pl0010_Mov_SideBoost
+Stop_pl0030_All
+stop_pl0030_Mov_Engin
+# 3576828176
+# 3576828177
+# 3576828179
+# 3576828180
+# 3576828181
+# 3576828182
+# 3576828183
+# 3576828184
+# 3576828185
+# 3593605760
+# 3593605761
+# 3593605762
+# 3593605764
+# 3593605765
+# 3593605766
+# 3593605767
+# 3593605770
+# 3593605771
+# 3627161064
+# 3627161065
+
+### RTPC/GAME-VARIABLE NAMES (pl0010.bnk)
+core_Mov_Speed
+pl_Elevating
+pl_Mov_HeadSpeed
+pl_VehicleAngle
+pl_VehicleSpeed
+# 2943372332
+# 354543731
+# 2002020477
+
+### VARIABLE NAMES (pl0010.bnk)
+Set_Player_Type
+# 3630204355
+# 3366496403
+# 237863001
+# 1748658509
+# 3032622137
+
+### VALUE NAMES (pl0010.bnk)
+Arwing
+Arwing_Sfc
+Buggy
+far
+Hoverwing
+move_front
+Move_Lr
+Move_none
+Move_Rear
+Near
+normal
+start
+stop
+tutorial
+Walker_Sfc
+
+### EVENT NAMES (pl0020.bnk)
+ev_Com_Mov_FootStepSw
+evr103_ev_WalkerTransform
+evr202_ev_WalkerTransform
+pl0020_Mov_attach
+pl0020_Mov_BackStart
+pl0020_Mov_Boost
+pl0020_Mov_CancelBoost
+pl0020_Mov_DmgLandStep
+pl0020_Mov_FootStep
+pl0020_Mov_FrontStart
+pl0020_Mov_HackingComp
+pl0020_Mov_HackingSignal_A_Lp
+pl0020_Mov_HackingSignal_B
+pl0020_Mov_HeadMoving
+pl0020_Mov_Jump_End
+pl0020_Mov_Jump_Start
+pl0020_Mov_LandStep
+pl0020_Mov_LandStep_EV
+pl0020_Mov_QualityDummy
+pl0020_Mov_Whs_Avoidance
+pl0040_Mov_HatchClose_DRC_ANI
+pl2020_Mov_FootStep
+pl2020_Mov_Jump_End
+pl2020_Mov_Jump_Start
+pl2020_Mov_LandStep
+pl2020_Mov_QualityDummy #alt
+pl2020_Mov_Whs_Avoidance
+Stop_pl0020_All
+Stop_pl0020_Mov_HackingSignal_A_Lp
+Stop_pl0020_Mov_HeadMoving
+Stop_pl0020_Mov_Hover_Lp
+Stop_pl0020_Mov_Jump_Start
+Stop_pl0020_Mov_LandStep
+stop_pl0020_Mov_QualityDummy
+Stop_pl2020_All
+Stop_pl2020_Mov_Hover_Lp
+Stop_pl2020_Mov_Jump_Start
+Stop_pl2020_Mov_LandStep
+Stop_pl2020_Mov_QualityDummy
+# 3093886496
+# 3093886497
+# 3093886498
+# 3127441664
+# 3127441665
+# 3127441666
+# 3127441667
+# 3127441668
+# 3127441669
+# 3127441671
+# 3127441678
+# 3127441679
+# 3144219376
+# 3144219377
+# 3144219384
+# 3144219385
+# 3144219386
+# 3144219387
+# 3144219388
+# 3144219389
+# 3144219390
+# 3144219391
+# 3929070776
+# 3929070777
+# 3929070778
+# 3929070779
+
+### RTPC/GAME-VARIABLE NAMES (pl0020.bnk)
+pl_Mov_HeadSpeed
+# 2943372332
+# 2948766632
+# 2103772708
+
+### VARIABLE NAMES (pl0020.bnk)
+core_Collision_Type
+Set_Player_Type
+
+### VALUE NAMES (pl0020.bnk)
+Arwing
+Arwing_Sfc
+Buggy
+Hoverwing
+Walker_Sfc
+# 2704704954
+# 2755205668
+# 3884975604
+# 3953886713
+# 1564980743
+# 1662155148
+# 2555618988
+# 4216507447
+# 735769930
+# 3822059507
+# 4007828943
+# 4239328342
+# 319765527
+# 2914981259
+
+### EVENT NAMES (pl0040.bnk)
+ev_com_pl0040_Mov_NoseDown
+ev_com_pl0040_Mov_RotorBoostMove
+ev_com_pl0040_Mov_RotorFrontMove
+ev_com_pl0040_Mov_RotorLoop
+FadeIn01_ev_com_pl0040_Mov_RotorLoop
+FadeOut01_ev_com_pl0040_Mov_RotorLoop
+pl0040_Chg_Missile_Lp
+pl0040_Chg_Missile_Lp_DRC
+pl0040_Chg_MissileCon_Lp_DRC
+pl0040_Dmg_DeathFall
+pl0040_Dmg_DeathFall_drc
+pl0040_Exp_Missile
+pl0040_Fir_Missile_A
+pl0040_Fir_Missile_A_DRC
+pl0040_Fir_Missile_B
+pl0040_Fir_Shoot_Normal
+pl0040_Fir_Shoot_Normal_DRC
+pl0040_Fir_Shoot_Twin
+pl0040_Fir_Shoot_Twin_DRC
+pl0040_Mov_HatchClose
+pl0040_Mov_HatchClose_DRC
+pl0040_Mov_HatchOpen
+pl0040_Mov_HatchOpen_DRC
+pl0040_Mov_LandPossible
+pl0040_Mov_LiftLoop
+pl0040_Mov_LiftLoop_DRC
+pl0040_Mov_LiftRetLoop
+pl0040_Mov_LiftRetLoop_DRC
+pl0040_Mov_LiftStop
+pl0040_Mov_LiftStop_DRC
+pl0040_Mov_RoterLean_L
+pl0040_Mov_RoterLean_L_DRC
+pl0040_Mov_RoterLean_R
+pl0040_Mov_RoterLean_R_DRC
+pl0040_Mov_RotorBoostMove
+pl0040_Mov_RotorBoostMove_drc
+pl0040_Mov_RotorDownMove
+pl0040_Mov_RotorDownMove_DRC
+pl0040_Mov_RotorFrontMove
+pl0040_Mov_RotorFrontMove_DRC
+pl0040_Mov_RotorLoop
+pl0040_Mov_RotorLoop_DRC
+pl0040_Mov_RotorRearMove
+pl0040_Mov_RotorRearMove_DRC
+pl0040_Mov_RotorUpMove
+pl0040_Mov_RotorUpMove_DRC
+pl0040_Mov_UnderViewEnd
+pl0040_Mov_UnderViewStart
+pl0040_Mov_UtrunA
+pl0040_Mov_UtrunA_DRC
+pl0040_Mov_UtrunB
+pl0040_Mov_UtrunB_DRC
+pl0040_Mov_WaterSplash
+pl0041_Dmg_Ingest
+pl0041_Dmg_Ingest_DRC
+pl0041_Fir_Shoot_normal
+pl0041_Fir_Shoot_normal_drc
+pl0041_Fir_Shoot_Twin
+pl0041_Fir_Shoot_Twin_DRC
+pl0041_Mov_Attach
+pl0041_Mov_Attach_DRC
+pl0041_Mov_ConstPullUp
+pl0041_Mov_ConstPullUp_DRC
+pl0041_Mov_ConstRelease
+pl0041_Mov_ConstRelease_DRC
+pl0041_Mov_Engine
+pl0041_Mov_Engine_DRC
+pl0041_Mov_HackingComp
+pl0041_Mov_HackingComp_DRC
+pl0041_Mov_HackingSignal
+pl0041_Mov_HackingSignal_A_Lp
+pl0041_Mov_HackingSignal_A_Lp_DRC
+pl0041_Mov_HackingSignal_B
+pl0041_Mov_HackingSignal_B_DRC
+pl0041_Mov_Land
+pl0041_Mov_Land_DRC
+pl0041_Mov_LimitMove
+pl0041_Mov_LimitMove_DRC
+Stop_pl0040_All
+Stop_pl0040_Chg_Missile_Lp
+Stop_pl0040_Chg_Missile_Lp_DRC
+Stop_pl0040_Chg_MissileCon_Lp_DRC
+Stop_pl0040_Mov_LiftLoop
+Stop_pl0040_Mov_LiftLoop_DRC
+Stop_pl0040_Mov_RoterLean_L
+Stop_pl0040_Mov_RoterLean_L_DRC
+Stop_pl0040_Mov_RoterLean_R
+Stop_pl0040_Mov_RoterLean_R_DRC
+stop_pl0040_Mov_RotorBoostMove
+stop_pl0040_Mov_RotorBoostMove_drc
+Stop_pl0040_Mov_RotorDownMove
+Stop_pl0040_Mov_RotorDownMove_DRC
+Stop_pl0040_Mov_RotorFrontMove
+Stop_pl0040_Mov_RotorFrontMove_DRC
+Stop_pl0040_Mov_RotorLoop
+Stop_pl0040_Mov_RotorLoop_DRC
+Stop_pl0040_Mov_RotorRearMove
+Stop_pl0040_Mov_RotorRearMove_DRC
+Stop_pl0040_Mov_RotorUpMove
+Stop_pl0040_Mov_RotorUpMove_DRC
+Stop_pl0040_Mov_UnderViewEnd
+Stop_pl0040_Mov_UnderViewStart
+Stop_pl0041_Mov_EngineLoop
+Stop_pl0041_Mov_EngineLoop_DRC
+Stop_pl0041_Mov_HackingSignal
+Stop_pl0041_Mov_HackingSignal_A_Lp
+Stop_pl0041_Mov_HackingSignal_A_Lp_DRC
+# 1859738400
+# 1859738401
+# 1859738409
+# 1859738410
+# 1859738411
+# 1859738412
+# 1859738413
+# 1859738414
+# 1859738415
+# 1876515992
+# 1876515993
+# 1876515994
+# 1876515995
+# 1876515996
+# 1876515997
+# 1876515998
+# 1876515999
+
+### RTPC/GAME-VARIABLE NAMES (pl0040.bnk)
+pl0041_LimitRange
+pl_Elevating
+pl_HeriLRSlideInputRate
+pl_HeriLRSlideRate
+pl_HeriMoveInputSpeed
+pl_HeriMoveSpeed
+pl_HeriSpeed
+pl_HeriTurnInputRate
+pl_HeriTurnRate
+pl_HeriUDSlideInputRate
+pl_HeriUDSlideRate
+pl_L_Stick_FRInputRate
+pl_L_Stick_LRInputRate
+pl_R_Stick_FRInputRate
+pl_R_Stick_LRInputRate
+pl_VehicleAngle
+pl_VehicleSpeed
+# 2943372332
+# 2002020477
+
+### VARIABLE NAMES (pl0040.bnk)
+SE_HeadphoneMode
+# 3032622137
+# 2106733557
+# 1983551265
+# 2620955655
+# 3022998974
+# 730196509
+# 755969534
+# 1350952369
+# 729527134
+
+### VALUE NAMES (pl0040.bnk)
+far
+Mov_Boost
+Mov_none
+move_down
+move_front
+Move_Lr
+Move_none
+Move_Rear
+move_up
+Near
+normal
+on
+start
+stop
+
+### EVENT NAMES (pl0050.bnk)
+pl0050_Fir_Shoot_Normal
+pl0050_Fir_Shoot_Twin
+pl0050_Mov_Boost
+pl0050_Mov_CancelBoost
+pl0050_Mov_CancelDeboost
+pl0050_Mov_Deboost
+pl0050_Mov_Engine
+pl0050_Mov_InvinciblityIn
+pl0050_Mov_InvinciblityOut
+pl0050_Mov_Land
+pl0050_Mov_WallCollision
+Stop_pl0050_Mov_Engine
+Stop_pl0050_Mov_Invinciblity
+# 849040072
+# 849040073
+# 849040074
+# 849040075
+# 849040076
+# 849040077
+# 849040078
+
+### RTPC/GAME-VARIABLE NAMES (pl0050.bnk)
+pl_BuggyDriftInputRate
+pl_BuggyDriftRate
+pl_BuggyEngineInputSpeed
+pl_BuggyEngineSpeed
+pl_BuggySpeed
+pl_BuggySpinSpeed
+pl_Elevating
+pl_L_Stick_FRInputRate
+pl_L_Stick_LRInputRate
+pl_R_Stick_FRInputRate
+pl_R_Stick_LRInputRate
+pl_VehicleAngle
+
+### VARIABLE NAMES (pl0050.bnk)
+pl0050_Mov_Jump
+SE_HeadphoneMode
+# 1867478515
+# 901088268
+# 330029982
+# 670711219
+# 670711213
+# 3204438774
+# 1416190420
+
+### VALUE NAMES (pl0050.bnk)
+LAND
+move_front
+Move_Lr
+Move_none
+Move_Rear
+Moveing
+NowJump
+stop
+
+### EVENT NAMES (pl0060.bnk)
+evr401_Mov_PeppyFall_SFC
+evr402_Peppy_Dmg_SFC
+pl0060_Chg_Shoot_Charge
+pl0060_Chg_Shoot_Charge_DRC
+pl0060_Dmg_AvoidanceHit
+pl0060_Dmg_DeathExp
+pl0060_Dmg_DeathFall
+pl0060_Dmg_DeathLand
+pl0060_Dmg_Exp_l
+pl0060_Dmg_Exp_S
+pl0060_Dmg_KnockBack
+pl0060_Dmg_KnockBackAlert
+pl0060_Exp_charge
+pl0060_exp_SmartBomb
+pl0060_Fir_Shoot_Charge
+pl0060_Fir_Shoot_Hyper
+pl0060_Fir_Shoot_Normal
+pl0060_Fir_Shoot_SmartBomb
+pl0060_Fir_Shoot_Twin
+pl0060_Mov_Boost
+pl0060_Mov_Boost_Add
+pl0060_Mov_CancelBoost
+pl0060_Mov_CancelDeboost
+pl0060_Mov_CirclingEnd
+pl0060_Mov_CirclingStart
+pl0060_Mov_Deboost
+pl0060_Mov_Down
+pl0060_Mov_Engin
+pl0060_Mov_FastFlip
+pl0060_Mov_flip
+pl0060_Mov_MidCirclingEnd
+pl0060_Mov_MidCirclingStart
+pl0060_Mov_MidCirclingStart_LP
+pl0060_Mov_Up
+pl0060_Mov_Uturn
+pl0060_Mov_Whs_Avoidance
+pl0060_Mov_WingClose
+pl0060_Mov_WingCloseLock
+pl0060_Mov_WingLock
+pl0060_Mov_WingOpen
+pl2060_Dmg_Exp_S
+pl2060_Fir_Shoot_hyper
+pl2060_Fir_Shoot_Normal
+pl2060_Fir_Shoot_Twin
+pl2060_Mov_Boost
+pl2060_Mov_CancelBoost
+pl2060_Mov_FastFlip
+pl2060_Mov_FirstBoost
+pl2060_Mov_Flip
+pl2060_Mov_Idle_Lp
+pl2060_Mov_WingClose
+pl2060_Mov_WingCloseLock
+pl2060_Mov_WingLock
+pl2060_Mov_WingOpen
+pl2060_PassFly
+Stop_pl0060_All
+Stop_pl0060_Chg_Shoot_Charge
+Stop_pl0060_Chg_Shoot_Charge_DRC
+Stop_pl0060_Mov_Engin
+Stop_pl0060_Mov_flip
+Stop_pl0060_Mov_Uturn
+Stop_pl2060_All
+stop_pl2060_Mov_Idle_Lp
+Stop_pl2060_PassFly
+# 1452337422
+# 2174838115
+# 2406634848
+# 2406634849
+# 2406634850
+# 2406634851
+# 2406634852
+# 2406634853
+# 2440190016
+# 2440190017
+# 2440190018
+# 2440190019
+# 2440190020
+# 2440190021
+# 2440190022
+# 2440190023
+# 2440190030
+# 2440190031
+# 2456967728
+# 2456967729
+# 2456967736
+# 2456967737
+# 2456967738
+# 2456967739
+# 2456967740
+# 2456967741
+# 2456967742
+# 2456967743
+# 2473745316
+# 2473745317
+# 2473745320
+# 2473745321
+# 2473745322
+# 2473745323
+# 2473745324
+# 2473745325
+# 2473745326
+# 2473745327
+# 2490522902
+# 2490522903
+# 2490522904
+# 2490522905
+# 2490522906
+# 2490522907
+# 2490522908
+# 2490522909
+# 2490522910
+# 2490522911
+# 2507300592
+# 2507300593
+# 2507300595
+# 2507300596
+# 2507300597
+# 2507300598
+# 2507300599
+# 2507300602
+# 2507300603
+# 2524078176
+# 2524078177
+# 2524078178
+# 2524078179
+# 2524078180
+# 2524078181
+# 2524078182
+# 2524078183
+# 2524078188
+# 2524078189
+# 3974320755
+
+### RTPC/GAME-VARIABLE NAMES (pl0060.bnk)
+core_Mov_Speed
+pl_Elevating
+# 2943372332
+# 354543731
+# 2463073144
+# 2103772708
+# 2948766632
+
+### VARIABLE NAMES (pl0060.bnk)
+core_Collision_Type
+
+### VALUE NAMES (pl0060.bnk)
+# 2704704954
+# 2755205668
+# 3884975604
+# 3953886713
+# 1564980743
+# 1662155148
+# 2555618988
+# 4216507447
+# 735769930
+# 3822059507
+# 4007828943
+# 4239328342
+# 319765527
+# 2914981259
+
+### EVENT NAMES (pl0070.bnk)
+ev_Com_Mov_FootStep_SFC
+evr103_ev_WalkerTransform_SFC
+evr202_ev_WalkerTransform_SFC
+pl0070_Dmg_AvoidanceHit
+pl0070_Dmg_KnockBack
+pl0070_Dmg_KnockBackAlert
+pl0070_Mov_attach
+pl0070_Mov_Boost
+pl0070_Mov_CancelBoost
+pl0070_Mov_DmgLandStep
+pl0070_Mov_FootStep
+pl0070_Mov_HackingComp
+pl0070_Mov_HackingSignal_A_Lp
+pl0070_Mov_HackingSignal_B
+pl0070_Mov_HeadMoving
+pl0070_Mov_Jump_End
+pl0070_Mov_Jump_Start
+pl0070_Mov_LandStep
+pl0070_Mov_LandStep_EV
+pl0070_Mov_QualityDummy
+pl0070_Mov_Whs_Avoidance
+pl2070_Mov_FootStep
+pl2070_Mov_Jump_End
+pl2070_Mov_Jump_Start
+pl2070_Mov_LandStep
+pl2070_Mov_QualityDummy
+pl2070_Mov_Whs_Avoidance
+Stop_pl0070_All
+Stop_pl0070_Mov_HackingSignal_A_Lp
+Stop_pl0070_Mov_HeadMoving
+Stop_pl0070_Mov_Hover_Lp
+stop_pl0070_Mov_Jump_Start
+Stop_pl0070_Mov_LandStep
+Stop_pl0070_Mov_QualityDummy
+Stop_pl2070_All
+Stop_pl2070_Mov_Hover_Lp
+Stop_pl2070_Mov_Jump_Start
+Stop_pl2070_Mov_LandStep
+Stop_pl2070_Mov_QualityDummy
+# 2013607488
+# 2013607489
+# 2013607490
+# 2013607491
+# 2013607492
+# 2013607493
+# 2013607494
+# 2013607495
+# 2030385200
+# 2030385201
+# 2030385202
+# 2030385203
+# 2030385204
+# 2030385205
+# 2030385206
+# 2030385207
+# 2030385214
+# 2030385215
+# 2047162784
+# 2047162785
+# 2047162792
+# 2047162794
+# 2047162795
+# 2047162796
+# 2047162797
+# 2047162798
+# 2047162799
+
+### RTPC/GAME-VARIABLE NAMES (pl0070.bnk)
+pl_Mov_HeadSpeed
+# 2943372332
+# 2103772708
+# 2948766632
+
+### EVENT NAMES (pl2500.bnk)
+ev_com_pl2500_Mov_Boost
+ev_com_pl2500_Mov_Hover_Lp
+ev_com_pl2500_Mov_Idle_Lp
+ev_com_pl2500_Mov_Pass
+ev_com_pl2500_Mov_Rolling
+evr401_Mov_CatDemoA
+evr401_Mov_CatDemoB
+evr401_Mov_CatDemoC
+pl2500_Circling
+pl2500_Dmg_Exp_S
+pl2500_Ev_Mov_Boost
+pl2500_Fir_Shoot_Normal
+pl2500_Fir_Shoot_Twin
+pl2500_Mov_Boost
+pl2500_Mov_BoostAdd
+pl2500_Mov_CancelBoost
+pl2500_Mov_Hover_Lp
+pl2500_Mov_Idle_Lp
+pl2500_Mov_Rolling
+pl2500_PassFly
+Stop_pl2500_All
+Stop_pl2500_Circling
+stop_pl2500_Mov_Boost
+Stop_pl2500_Mov_Hover_Lp
+stop_pl2500_Mov_Idle_Lp
+Stop_pl2500_PassFly
+# 4104080501
+
+### RTPC/GAME-VARIABLE NAMES (pl2500.bnk)
+# 2103772708
+# 2948766632
+
+### EVENT NAMES (r101.bnk)
+ba0011_Brk_BuildingA1
+ba0011_Brk_BuildingB1
+ba0011_Brk_BuildingC1
+evr101_Branch_Start
+evr104_Mov_Atmosphere
+evr104_Mov_Atmosphere_DRC
+evr104_Mov_Atmosphere_onWater
+evr104_Mov_AtmosphereSkip
+r101_Pas_em_Sneak_L
+r101_Pas_em_Sneak_R
+Stop_r101_Pas_em_Sneak_L
+Stop_r101_Pas_em_Sneak_R
+# 1176972648
+# 1176972662
+# 3695701601
+# 3695701602
+# 3695701603
+# 3695701604
+# 3695701605
+# 3695701606
+# 3695701607
+# 3695701608
+# 3695701609
+# 3712479184
+# 3712479185
+# 3712479186
+# 3712479187
+# 3712479190
+# 3712479191
+# 3732258704
+# 3732258705
+# 3732258707
+# 3732258708
+# 3732258709
+# 3732258710
+# 3732258711
+# 3732258714
+# 3833436856
+
+### VARIABLE NAMES (r101.bnk)
+Set_Player_Type
+
+### VALUE NAMES (r101.bnk)
+Arwing
+Arwing_Sfc
+Buggy
+Hoverwing
+Landmaster
+none
+Walker
+Walker_Sfc
+
+### EVENT NAMES (r102.bnk)
+# 507517461
+# 1754716897
+
+### EVENT NAMES (r103.bnk)
+evr103_BossAppear
+evr103_em1100_Escape
+evr103_em1100_Escape_Flash
+evr103_em1100_ExpDeath
+evr103_em1100_ExpDeathOmen
+r103_Ship_Alarm
+Stop_r103_Ship_Alarm
+# 478763315
+# 782780324
+# 1344471208
+# 1568593101
+# 2645280794
+# 3417287295
+# 3609918078
+# 3980509139
+# 4023603996
+# 4087935609
+
+### VARIABLE NAMES (r103.bnk)
+# 542191723
+# 542191720
+# 458303562
+# 458303561
+# 508636293
+# 558969340
+# 508636294
+# 558969343
+
+### VALUE NAMES (r103.bnk)
+off
+
+### EVENT NAMES (r104.bnk)
+evr104_Mov_CameraPan1
+evr104_Mov_CameraPan2
+
+### EVENT NAMES (r200.bnk)
+r202_ship_quake
+r202_ship_quake_L
+r202_ship_quake_m
+r202_ship_quake_S
+Stop_r202_ship_quake
+# 179684848
+# 179684849
+# 179684850
+# 179684851
+# 179684852
+# 179684853
+# 179684854
+# 179684855
+# 179684856
+# 179684857
+# 196462432
+# 196462433
+# 196462434
+# 196462436
+# 196462437
+# 196462438
+# 196462439
+# 196462442
+# 196462443
+# 230017608
+# 230017609
+# 230017610
+# 230017611
+# 230017613
+
+### EVENT NAMES (r201.bnk)
+evr201_Camera_Whoosh
+evr201_em01a0_FirLaser
+evr201_em01a0_PasLaser
+evr201_pl0000_Mov_Whoosh
+# 1903791504
+# 1903791513
+# 1903791514
+# 1903791515
+# 1903791516
+# 1903791517
+# 1903791518
+# 1903791519
+
+### EVENT NAMES (r202.bnk)
+r202_BeamWall_LP
+r202_ship_Alarm
+r202_ship_Alarm_S
+r202_Ship_Engine_Lp_r201
+r202_Ship_Engine_Lp_r202
+Stop_r202_ship_Alarm
+Stop_r202_Ship_Engine_Lp
+# 2309489808
+# 2309489809
+# 2309489816
+# 2309489817
+# 2309489818
+# 2309489819
+# 2309489820
+# 2309489821
+# 2309489822
+# 2309489823
+# 2326267394
+# 2326267395
+# 2326267400
+# 2326267401
+# 2326267402
+# 2326267403
+# 2326267404
+# 2326267405
+# 2326267406
+# 2326267407
+# 2343045110
+# 2343045111
+# 2343045112
+# 2343045113
+# 2343045114
+# 2343045115
+# 2343045116
+# 2343045117
+# 2343045118
+# 2343045119
+# 2359822672
+# 2359822674
+# 2359822675
+# 2359822676
+# 2359822677
+# 2359822678
+# 2359822679
+# 2359822680
+# 2359822681
+# 2410155554
+# 2410155560
+# 2410155561
+# 2410155562
+# 2410155563
+# 2410155564
+# 2410155565
+# 2410155566
+# 2410155567
+# 2426933140
+# 2426933141
+# 2426933144
+# 2426933145
+# 2426933146
+# 2426933147
+# 2426933148
+# 2426933149
+# 2426933150
+# 2426933151
+
+### RTPC/GAME-VARIABLE NAMES (r202.bnk)
+# 755446471
+# 2863949213
+
+### EVENT NAMES (r300.bnk)
+r300_SandWind_Lp
+Start_Quicksand_Lp
+Stop_Quicksand_Lp
+Stop_r300_SandWind_Lp
+# 797030983
+# 1294679101
+# 1397390179
+# 2056693921
+# 2056693922
+# 2056693923
+# 2056693924
+# 2056693925
+# 2056693926
+# 2056693927
+# 2056693928
+# 2056693929
+# 2073471504
+# 2073471505
+# 2073471506
+# 2073471507
+# 2073471508
+# 2073471509
+# 2073471510
+# 2073471511
+# 2073471514
+# 2073471515
+# 2090249088
+# 2090249089
+# 2090249090
+# 2090249091
+# 2090249092
+# 2090249093
+# 2090249094
+# 2090249095
+# 2090249102
+# 2090249103
+# 2107026800
+# 2107026801
+# 2107026808
+# 2107026809
+# 2107026810
+# 2107026811
+# 2107026812
+# 2107026813
+# 2107026814
+# 2107026815
+# 2123804396
+
+### EVENT NAMES (r301.bnk)
+evr301_bm0043_Break
+evr301_bm0043_Impact
+evr301_bm0043_Whoosh
+evr301_Npc_Avoidance_Back
+evr301_Npc_Avoidance_SFC_A
+evr301_Npc_Avoidance_SFC_B
+evr301_Npc_Avoidance_SFC_C
+evr301_Npc_Avoidance_WiiU
+r301_Debris_FallA
+r301_Debris_FallB
+r301_Debris_FallC
+r301_Debris_FallDown_pre
+r301_Debris_FallDownA
+r301_Debris_Whoosh
+Stop_r301_Debris_Whoosh
+# 3201468585
+# 3201468586
+
+### EVENT NAMES (r303.bnk)
+# 136223711
+# 3415638624
+# 3415638625
+# 3415638626
+# 3415638627
+# 3415638628
+# 3415638629
+# 3415638630
+# 3415638631
+# 3415638632
+# 3415638633
+# 3432416208
+# 3432416209
+# 3432416210
+# 3432416211
+# 3432416212
+# 3432416213
+# 3432416214
+# 3432416215
+# 3432416218
+# 3432416219
+# 3449193792
+# 3449193793
+# 3449193794
+# 3449193795
+# 3449193796
+# 3449193797
+# 3449193798
+# 3449193799
+# 3449193806
+# 3449193807
+# 3465971504
+# 3465971505
+# 3465971512
+# 3465971514
+# 3465971515
+# 3465971516
+# 3465971517
+# 3465971518
+# 3465971519
+# 3533081956
+# 3533081957
+# 3533081958
+# 3533081959
+
+### EVENT NAMES (r400.bnk)
+ev0401_Mov_Cut1
+ev0401_Mov_Cut2
+ev0401_Mov_Cut2Add
+ev0401_Mov_Cut3
+evr401_em5100_Appear_DRC
+evr401_em5100_Appear_TV
+evr401_em5100_Appear_Wolf_DRC
+evr401_em5100_Appear_Wolf_TV
+evr401_em5100_Atk_Peppy_Whs_DRC
+evr401_em5100_Atk_Peppy_Whs_TV
+r401_BeamWall_LP
+r401_BeamWall_off
+r401_ship_quake
+r401_ship_quake_L
+r401_ship_quake_M
+r401_ship_quake_S
+Stop_r401_ship_quake_All
+# 3768569897
+# 3768569900
+# 3768569902
+# 3768569903
+
+### VARIABLE NAMES (r400.bnk)
+SE_HeadphoneMode
+# 558969340
+
+### VALUE NAMES (r400.bnk)
+off
+on
+
+### EVENT NAMES (r501.bnk)
+evr501_OilField_Collapse
+evr501_OilField_Exp
+evr501_OilField_Exp_Blast_01
+evr501_OilField_Exp_Blast_02
+evr501_OilField_Exp_Omen
+evr501_Warp_Appear
+evr501_Warp_Disappear_01
+r501_Alarm_Device
+r501_BeamWall_LP
+r501_BurnerFiring_Lp
+r501_BurnerFiring_Pre
+r501_Collapse_Exp
+r501_Collapse_Exp_WhiteOut
+r501_Collapse_LP
+r501_Collapse_Start
+r501_Collapse_WhiteOut_01
+r501_Collapse_WhiteOut_02
+r501_ElectricFence_LP
+r501_steam_LP
+r501_WhiteOut_toEvent
+State_SE_ba0071_A_off
+State_SE_ba0071_B_off
+State_SE_ba0072_A_off
+State_SE_ba0072_B_off
+State_SE_r501_Barrier_Left_off
+State_SE_r501_Barrier_Left_on
+State_SE_r501_Barrier_Right_off
+State_SE_r501_Barrier_Right_on
+State_SE_r501_ElectricFence_off
+State_SE_r501_ElectricFence_off_Add
+State_SE_r501_ElectricFence_on
+State_SE_r501_Indoor
+State_SE_r501_outdoor
+Stop_evr501_OilField_Collapse
+Stop_r501_BurnerFiring_Lp
+# 387419021
+# 1081545237
+# 1507933658
+# 1507933659
+# 1507933660
+# 1507933661
+# 1507933662
+# 1507933663
+# 1524711344
+# 1524711346
+# 1524711347
+# 1524711348
+# 1524711349
+# 1524711350
+# 1524711351
+# 1524711352
+# 1524711353
+# 2163317301
+# 3330415681
+# 3352462989
+# 4078248924
+# 4080692172
+
+### VARIABLE NAMES (r501.bnk)
+# 1915831270
+# 542191723
+# 558969340
+# 458303562
+# 4117796502
+# 4117796501
+# 542191720
+# 4134574312
+# 508636294
+# 508636293
+# 4134574315
+
+### VALUE NAMES (r501.bnk)
+Indoor
+off
+outdoor
+
+### EVENT NAMES (r600.bnk)
+ev0601_Mov_CameraPan
+ev0601_Mov_GreatFoxAppear
+ev0601_Mov_KingMandrillAppear
+evc611_bm0104_Exp_Death
+evr611_bm007a_Mov_Appear
+evr611_bm007a_Mov_Disappear
+evr611_bm0104_ExpDeath
+evr611_bm0104_ExpDeathOmen
+evr611_Mov_Elec
+evr611_Mov_PreExp
+evr611_Ship_Engine_Lp
+Stop_ev0601_Mov_GreatFoxAppear
+Stop_evr611_Ship_Engine_Lp
+# 1451892960
+# 1451892961
+# 1451892969
+# 1451892970
+# 1451892971
+# 1451892972
+# 1451892973
+# 1451892974
+# 1451892975
+# 3296026172
+# 3296026173
+# 3296026174
+
+### EVENT NAMES (r700.bnk)
+bm0022_Mov_DefenseWall_Appear
+bm0022_Mov_DefenseWall_LP
+bm0022_Mov_DefenseWall_LP_drc
+bm0022_Mov_Impact_L_r702
+bm0022_Mov_Impact_L_rb01
+bm0022_Mov_Impact_M_r702
+bm0022_Mov_Impact_M_rb01
+bm0022_Mov_Impact_RollWall
+bm0022_Mov_Paul_Whoosh_l
+bm0022_Mov_Paul_Whoosh_R
+bm0022_Pas
+bm0022_Pas_Wall
+bm0022_Pas_Wall_drc
+Stop_bm0022_Pas_Wall
+# 1330624574
+# 1492052042
+# 1637058653
+# 1637058654
+# 1637058655
+# 2208030502
+# 2389081270
+
+### VARIABLE NAMES (r700.bnk)
+SE_HeadphoneMode
+# 3032284089
+
+### VALUE NAMES (r700.bnk)
+Ground
+none
+on
+space
+
+### EVENT NAMES (r701.bnk)
+evr701_Ambience_Lp
+evr701_core_Warp_Appear
+evr701_em5100_Appear_DRC
+evr701_em5100_Appear_TV
+evr701_EventStart
+evr701_Mov_Boost
+evr701_Mov_Fly
+evr701_Mov_Turn
+evr701_pl0000_Mov_CirclingStart06
+evr701_Warp_Appear_Start
+evr701_Warp_Appear_Whs
+r701_Ambience_Lp
+r701_CameraEvent_BeamVanish_Lv01
+r701_CameraEvent_BeamVanish_Lv02
+r701_Mov_IdleLoop
+Reset_Volume_r701_Ambience_Lp
+Set_Volume_r701_Ambience_Lp
+Stop_evr701_Ambience_Lp
+Stop_r701_Mov_IdleLoop
+# 403530935
+# 1055156087
+# 1055622647
+# 1095189025
+# 1095189026
+# 1095189027
+# 1095189028
+# 1095189029
+# 1095189030
+# 1095189031
+# 1095189032
+# 1095189033
+# 1111966608
+# 1111966609
+# 1111966610
+# 1111966611
+# 1111966612
+# 1111966613
+# 1111966614
+# 1111966615
+# 1111966618
+# 1111966619
+# 1128744192
+# 1128744193
+# 1128744194
+# 1128744195
+# 1128744196
+# 1128744197
+# 1128744198
+# 1128744199
+# 1128744206
+# 1128744207
+# 1896102204
+# 2017299300
+# 2263554053
+# 2493725602
+# 2792257431
+# 3782650871
+# 3796273860
+# 4066129936
+# 4066129937
+# 4066129938
+# 4066129939
+# 4066129940
+# 4066129941
+# 4066129942
+# 4066129943
+# 4066129948
+# 4066129949
+# 4082907520
+# 4082907521
+# 4082907522
+# 4082907523
+# 4082907524
+# 4082907525
+# 4082907526
+# 4082907534
+# 4082907535
+# 4099685234
+# 4099685235
+# 4099685240
+# 4099685241
+# 4099685242
+# 4099685243
+# 4099685244
+# 4099685245
+# 4099685246
+# 4099685247
+# 4116462820
+# 4116462821
+# 4116462824
+# 4116462825
+# 4116462826
+# 4116462827
+# 4116462828
+# 4116462829
+# 4116462830
+# 4116462831
+# 4178783799
+
+### RTPC/GAME-VARIABLE NAMES (r701.bnk)
+# 1051008250
+# 2266645365
+# 2103772708
+# 332780323
+
+### VARIABLE NAMES (r701.bnk)
+SE_HeadphoneMode
+Set_Player_Type
+# 558969340
+# 542191723
+
+### VALUE NAMES (r701.bnk)
+Arwing
+Arwing_Sfc
+Buggy
+Hoverwing
+Landmaster
+none
+off
+on
+Walker
+Walker_Sfc
+
+### EVENT NAMES (r702.bnk)
+evr701_Mov_IntoHole
+evr701_Mov_WarpIn
+# 567990932
+# 567990934
+# 567990935
+# 915567280
+# 932344864
+# 932344865
+# 932344866
+# 932344868
+# 932344869
+# 932344870
+# 932344871
+# 932344874
+# 932344875
+# 949122454
+# 965900032
+# 965900033
+# 965900040
+# 965900042
+# 965900043
+# 965900044
+# 965900045
+# 965900046
+# 965900047
+# 2653622456
+# 3486256124
+# 3709790522
+
+### VARIABLE NAMES (r702.bnk)
+Set_Player_Type
+
+### VALUE NAMES (r702.bnk)
+Arwing
+Arwing_Sfc
+Buggy
+Hoverwing
+Landmaster
+none
+Walker
+Walker_Sfc
+
+### EVENT NAMES (r703.bnk)
+ev7031_Mov_Ambient
+ev7031_Mov_Appear
+ev7031_Mov_CameraPan
+ev7031_Mov_CylinderAppear
+ev7031_Mov_FloorAppear
+Stop_ev7031_Mov_Ambient
+# 1438251264
+# 1438251265
+# 1438251272
+# 1438251273
+# 1438251274
+# 1438251275
+# 1438251276
+# 1438251277
+# 1438251278
+# 1438251279
+# 1455028978
+# 1455028979
+# 1455028984
+# 1455028985
+# 1455028986
+# 1455028987
+# 1455028988
+# 1455028989
+# 1455028990
+# 1455028991
+# 1471806566
+# 1471806567
+# 1471806568
+# 1471806569
+# 1471806570
+# 1471806571
+# 1471806572
+# 1471806573
+# 1471806575
+# 1488584128
+# 1488584129
+# 1488584130
+# 1488584131
+# 1488584132
+# 1488584133
+# 1488584134
+# 1488584135
+# 1488584136
+# 1488584137
+# 1538917010
+# 1538917011
+# 1538917016
+# 1538917017
+# 1538917018
+# 1538917019
+# 1538917020
+# 1538917021
+# 1538917022
+# 1538917023
+# 1555694597
+# 1555694600
+# 1555694601
+# 1555694602
+# 1555694603
+# 1555694604
+# 1555694605
+# 1555694606
+# 1555694607
+
+### EVENT NAMES (r704.bnk)
+evr704_Exp_Collapse_01
+evr704_Exp_Collapse_02_Lp
+evr704_Exp_EnergyWhs
+evr704_Exp_First
+evr704_Exp_Front_01
+evr704_Exp_Front_02
+evr704_Exp_Last
+evr704_Exp_Sur_01
+evr704_Exp_Sur_02
+evr704_pl0000_Mov_CirclingStart_01
+evr704_pl0000_Mov_CirclingStart_02
+evr704_pl0000_Mov_MidCirclingStart
+r704_Collapse_Exp
+Stop_evr704_Exp_Collapse_01
+Stop_evr704_Exp_Collapse_02_Lp
+Stop_evr704_Exp_EnergyWhs
+Stop_evr704_Exp_Front_01
+Stop_evr704_Exp_Front_02
+Stop_evr704_Exp_Sur_01
+Stop_evr704_Exp_Sur_02
+Stop_evr704_pl0000_Mov_CirclingStart_02
+# 3010699506
+# 3010699508
+# 3010699509
+# 3010699510
+# 3010699511
+# 3027477088
+# 3027477089
+# 3027477096
+# 3027477098
+# 3027477099
+# 3027477100
+# 3027477101
+# 3027477102
+# 3027477103
+
+### EVENT NAMES (r800.bnk)
+r800_IntoCloud
+# 1801210112
+# 1801210113
+# 1801210114
+# 1801210115
+# 1801210116
+# 1801210117
+# 1801210118
+# 1801210119
+# 1801210120
+# 1801210121
+# 1817987824
+# 1817987825
+# 1817987826
+# 1817987827
+# 1817987828
+# 1817987829
+# 1817987830
+# 1817987831
+# 1817987834
+# 1817987835
+# 1834765408
+# 1834765409
+# 1834765410
+# 1834765411
+# 1834765412
+# 1834765413
+# 1834765414
+# 1834765415
+# 1834765422
+# 1834765423
+# 1851542992
+# 1851542993
+# 1851543000
+# 1851543002
+# 1851543003
+# 1851543004
+# 1851543005
+# 1851543006
+# 1851543007
+# 1901875856
+# 1901875857
+# 1901875858
+# 1901875859
+# 1901875862
+# 1918653440
+# 1918653441
+# 1918653442
+# 1918653443
+# 1918653444
+# 1918653445
+# 1918653446
+# 1918653447
+# 1918653452
+# 1918653453
+
+### EVENT NAMES (r801.bnk)
+evr0801_Air_Ambient
+evr0801_Whoosh
+evr0801_Whs_em4100
+# 2116258998
+# 2116258999
+# 2116259000
+# 2116259001
+# 2116259002
+# 2116259003
+# 2116259004
+# 2116259005
+# 2116259007
+# 2133036560
+# 2133036561
+# 2133036562
+# 2133036563
+# 2133036564
+# 2133036565
+
+### EVENT NAMES (r802.bnk)
+em4100_Mov_Earthquake
+evr802_em4100_Exp_FalltoCloud
+evr802_em4100_Exp_First
+evr802_em4100_Exp_Main
+evr802_em4100_Exp_Omen
+evr802_em4100_Exp_Smalls
+evr802_em4100_Exp_Voice
+r802_Ambience_Wind
+Stop_evr802_em4100_Exp_Omen
+Stop_r802_Ambience_Wind
+# 4194514371
+# 4194514376
+# 4194514377
+# 4194514378
+# 4194514380
+# 4194514381
+# 4194514382
+# 4194514383
+
+### EVENT NAMES (r900.bnk)
+ba0011_Brk_BuildingA1
+ba0011_Brk_BuildingB1
+ba0011_Brk_BuildingC1
+# 2206200736
+# 2206200737
+# 2206200738
+# 2206200739
+# 2206200740
+# 2206200741
+# 2206200742
+# 2206200743
+# 2206200744
+# 2206200745
+# 2222978320
+# 2222978321
+# 2222978322
+# 2222978323
+# 2222978324
+# 2222978325
+# 2222978326
+# 2222978327
+# 2222978330
+# 2222978331
+# 2239755904
+# 2239755905
+# 2239755906
+# 2239755907
+# 2239755908
+# 2239755909
+# 2239755911
+# 2239755918
+# 2239755919
+# 2256533616
+# 2256533617
+# 2256533624
+# 2256533625
+# 2256533626
+# 2256533627
+# 2256533628
+# 2256533629
+# 2256533630
+# 2256533631
+# 2306866480
+# 2306866481
+# 2306866482
+# 2306866483
+# 2306866486
+# 2306866487
+
+### EVENT NAMES (r901.bnk)
+ev0901_Mov_CrowdEnemy
+evr901_em5100_Appear_DRC
+evr901_em5100_Appear_TV
+evr901_em5100_BoostEscape_DRC
+evr901_em5100_BoostEscape_TV
+evr901_em5100_DmgSpark_DRC
+evr901_em5100_DmgSpark_tv
+evr901_em_Escape
+stop_evr901_em5100_DmgSpark
+# 3534645592
+# 3534645593
+# 3534645594
+# 3534645595
+# 3534645599
+# 3551423174
+# 3551423175
+# 3551423176
+# 3551423177
+# 3551423178
+# 3551423179
+# 3551423180
+# 3551423181
+# 3551423182
+# 3551423183
+# 3568200864
+# 3568200866
+# 3568200867
+# 3568200868
+# 3568200869
+# 3568200870
+# 3568200871
+# 3568200872
+# 3568200873
+
+### VARIABLE NAMES (r901.bnk)
+SE_HeadphoneMode
+
+### VALUE NAMES (r901.bnk)
+on
+
+### EVENT NAMES (r902.bnk)
+evr902_Mov_GyroWingStartup
+evr902_Mov_WalkerHatchCl
+evr921_em5100_Mov_Escape
+evr921_em5100_Mov_Turn
+r902_Power_Off
+r902_Power_Recovery
+r902_Power_Recovery_start
+r902_Spark
+Stop_evr902_Mov_GyroWingStartup
+# 333580762
+# 974719722
+# 1404460009
+# 1404460010
+# 1404460011
+# 1404460012
+# 3622513131
+# 4009874652
+
+### RTPC/GAME-VARIABLE NAMES (r902.bnk)
+# 2103772708
+# 1051008250
+
+### VARIABLE NAMES (r902.bnk)
+# 508636293
+
+### VALUE NAMES (r902.bnk)
+off
+
+### EVENT NAMES (ra00.bnk)
+evra01_Ambience_Wind
+evra01_CameraPan_01
+evra01_CameraPan_02
+evra01_em5100_Appear_DRC
+evra01_em5100_Appear_TV
+evra01_em9100_Appear_DRC
+evra01_em9100_Appear_End
+evra01_em9100_Appear_TV
+evra01_em9100_ExpDeath
+evra01_Pas_em0250
+evra01_pl0000_Mov_MidCirclingStart
+# 3640669178
+# 3640669179
+# 3640669180
+# 3640669181
+# 3640669183
+# 4246373904
+
+### VARIABLE NAMES (ra00.bnk)
+SE_HeadphoneMode
+
+### VALUE NAMES (ra00.bnk)
+on
+
+### EVENT NAMES (rb00.bnk)
+# 2174675104
+# 2174675105
+# 2174675106
+# 2174675107
+# 2174675108
+# 2174675109
+# 2174675110
+# 2174675111
+# 2174675112
+# 2174675113
+# 2191452688
+# 2191452689
+# 2191452690
+# 2191452692
+# 2191452693
+# 2191452694
+# 2191452695
+# 2191452698
+# 2191452699
+# 2208230272
+# 2208230273
+# 2208230274
+# 2208230275
+# 2208230276
+# 2208230277
+# 2208230278
+# 2208230279
+# 2208230286
+# 2208230287
+# 2225007984
+# 2225007985
+# 2225007992
+# 2225007993
+# 2225007994
+# 2225007995
+# 2225007996
+# 2225007997
+# 2225007998
+# 2225007999
+# 2241785576
+# 2241785580
+# 2241785581
+# 2241785582
+# 2241785583
+# 2258563158
+# 2258563159
+# 2258563160
+# 2258563161
+# 2258563162
+# 2258563163
+# 2258563164
+# 2258563165
+# 2258563166
+# 2258563167
+# 2653622456
+
+### EVENT NAMES (rb01.bnk)
+bm0022_Mov_DefenseWall_Appear
+bm0022_Mov_DefenseWall_LP
+bm0022_Mov_DefenseWall_LP_drc
+bm0022_Mov_Impact_L_r702
+bm0022_Mov_Impact_L_rb01
+bm0022_Mov_Impact_M_r702
+bm0022_Mov_Impact_M_rb01
+bm0022_Mov_Impact_RollWall
+bm0022_Mov_Paul_Whoosh_l
+bm0022_Mov_Paul_Whoosh_R
+bm0022_Pas
+bm0022_Pas_Wall
+bm0022_Pas_Wall_drc
+ev0b01_Mov_Boost_Falco
+ev0b01_Mov_Boost_Falco_SFC
+ev0b01_Mov_Boost_Peppy
+ev0b01_Mov_Boost_Peppy_SFC
+ev0b01_Mov_Boost_Slippy
+ev0b01_Mov_Boost_Slippy_SFC
+ev0b01_Mov_CameraPan
+ev0b01_Mov_Pre_GDBoost
+ev0b01_Mov_Pre_GDBoost_SFC
+rb01_Dash_Effect
+rb01_Dash_Effect_bm100b
+rb01_Dash_Effect_Long
+Stop_bm0022_Pas_Wall
+# 611378504
+# 611378505
+# 611378506
+# 611378507
+# 611378508
+# 611378509
+# 611378510
+# 611378511
+# 628156210
+# 628156211
+# 628156216
+# 628156217
+# 628156218
+# 628156219
+# 628156220
+# 628156221
+# 628156222
+# 628156223
+# 644933798
+# 644933799
+# 644933800
+# 644933801
+# 644933802
+# 644933803
+# 644933804
+# 644933805
+# 644933806
+# 644933807
+# 661711360
+# 661711362
+# 661711363
+# 661711364
+# 661711365
+# 661711366
+# 661711367
+# 661711368
+# 661711369
+# 1330624574
+# 1492052042
+# 1688567513
+# 1688567514
+# 1925931258
+# 3619787520
+# 3619787521
+# 3619787529
+# 3619787530
+# 3619787531
+# 3619787532
+# 3619787533
+# 3619787534
+# 3619787535
+# 3628538133
+# 3636565240
+# 3636565241
+# 3636565242
+# 3636565243
+
+### VARIABLE NAMES (rb01.bnk)
+SE_HeadphoneMode
+# 3032284089
+
+### VALUE NAMES (rb01.bnk)
+Ground
+none
+on
+space
+
+### EVENT NAMES (rb28.bnk)
+evb281_Mov_Meteor
+evrb28_CameraPan
+evrb28_em4100_Exp_Death
+evrb28_em4100_Exp_Death_LP
+evrb28_em4100_Exp_First
+evrb28_em4100_Exp_Omen
+evrb28_em4100_Exp_Smalls
+evrb28_em4100_Exp_Voice
+mSet_stb28_m1_RageSirenEnd
+mSet_stb28_m1_RageSirenStart
+stop_evrb28_em4100_Exp_Death_LP
+# 692614116
+# 692614117
+# 692614120
+# 692614121
+# 692614122
+# 692614123
+# 692614125
+# 692614126
+# 692614127
+# 709391702
+# 709391703
+# 709391704
+# 709391705
+# 709391706
+# 709391707
+# 709391708
+# 709391709
+# 709391710
+# 709391711
+# 726169392
+# 726169393
+# 726169394
+# 726169395
+# 726169396
+# 726169397
+# 726169398
+# 726169399
+# 726169402
+# 726169403
+
+### VARIABLE NAMES (rb28.bnk)
+bgm_player_sfx
+
+### VALUE NAMES (rb28.bnk)
+sfx_siren
+
+### EVENT NAMES (rc00.bnk)
+ev0c01_Mov_onWater
+# 112385566
+# 780187097
+# 1280419002
+# 2374120545
+# 2747952668
+# 2841201996
+# 2841202002
+# 3176474162
+# 3835856063
+# 4134728145
+# 4134728146
+# 4134728147
+# 4134728148
+# 4134728149
+# 4134728150
+# 4134728151
+# 4134728152
+# 4134728153
+# 4151505728
+# 4151505729
+# 4151505730
+# 4151505731
+# 4151505732
+# 4151505733
+# 4151505734
+# 4151505735
+# 4151505738
+# 4151505739
+# 4168283440
+# 4168283441
+# 4168283442
+# 4168283443
+# 4168283444
+# 4168283445
+# 4168283446
+# 4168283447
+# 4168283454
+# 4168283455
+# 4185061024
+# 4185061025
+# 4185061032
+# 4185061033
+# 4185061034
+# 4185061035
+# 4185061036
+# 4185061037
+# 4185061038
+# 4185061039
+# 4201838616
+# 4201838620
+# 4201838621
+# 4201838622
+# 4201838623
+
+### EVENT NAMES (rc01.bnk)
+# 1491117984
+# 1491117985
+# 1491117992
+# 1491117993
+# 1491117994
+# 1491117995
+# 1491117996
+# 1491117997
+# 1491117998
+# 1491117999
+# 1507895570
+# 1507895571
+# 1507895576
+# 1507895577
+# 1507895578
+# 1507895580
+# 1507895581
+# 1507895582
+# 1507895583
+# 1524673158
+# 1524673159
+# 1524673160
+# 1524673161
+# 1524673162
+# 1524673163
+# 1524673164
+# 1524673165
+# 1524673166
+# 1524673167
+# 1541450848
+# 1541450849
+# 1541450850
+# 1541450851
+# 1541450852
+# 1541450853
+# 1541450854
+# 1541450855
+# 1541450856
+# 1541450857
+# 1558228432
+# 1558228436
+# 1558228437
+# 1558228438
+# 1558228439
+# 1575006016
+# 1575006017
+# 1575006018
+# 1575006019
+# 1575006020
+# 1575006021
+# 1575006022
+# 1575006023
+# 1575006030
+# 1575006031
+
+### EVENT NAMES (rc02.bnk)
+ev0c03_Mov_0000AndrossAppear
+ev0c03_Mov_0839AndrossDisappear
+ev0c03_Mov_0970WarpHole
+ev0c03_Mov_1185CameraPan
+ev0c03_Mov_1496FoxStinger_A
+ev0c03_Mov_1676FoxStinger_B
+ev0c03_Mov_1743FoxVanish
+ev0c03_Mov_1769Wind
+stop_ev0c03_Mov_0000AndrossAppear
+stop_ev0c03_Mov_0839AndrossDisappear
+stop_ev0c03_Mov_0970WarpHole
+stop_ev0c03_Mov_1185CameraPan
+stop_ev0c03_Mov_1769Wind
+# 814458547
+# 3230957509
+
+### VARIABLE NAMES (rc02.bnk)
+Set_Player_Type
+
+### VALUE NAMES (rc02.bnk)
+Arwing
+Arwing_Sfc
+Buggy
+Hoverwing
+Landmaster
+none
+Walker
+Walker_Sfc
+
+### EVENT NAMES (rc25.bnk)
+evrc25_bm007a_Mov_Appear
+evrc25_bm007a_Mov_Disappear
+evrc25_emc100_Exp_Death
+evrc25_emc100_Exp_Omen_A
+evrc25_emc100_Exp_Omen_B
+evrc25_emc100_Mov_BigSplash
+evrc25_emc100_Mov_BigSplash_Omen
+evrc25_emc100_Mov_BigSplash_Plus_01
+evrc25_emc100_Mov_BigSplash_Plus_02
+# 155663103
+# 1003574352
+# 1003574357
+# 1003574358
+# 1003574359
+
+### EVENT NAMES (rf80.bnk)
+SE_Init_rf80
+# 2082891887
+
+### EVENT NAMES (rf93.bnk)
+rf93_BeamWall_LP
+State_SE_rf93_BeamWall_Left_off
+State_SE_rf93_BeamWall_Right_off
+# 2163317301
+
+### VARIABLE NAMES (rf93.bnk)
+# 508636293
+# 542191720
+# 558969340
+
+### VALUE NAMES (rf93.bnk)
+off
+
+### EVENT NAMES (wp0006.bnk)
+# 1111492584
+
+### EVENT NAMES (wp000c.bnk)
+stop_wp000c_Exp_Bomb
+wp000c_Bomb_Fall
+wp000c_Exp_Bomb
+
+### RTPC/GAME-VARIABLE NAMES (wp000c.bnk)
+# 2266645365
+
+### EVENT NAMES (wp0011.bnk)
+stop_wp0011_Pas_Missile
+wp0011_Exp_em1070
+wp0011_Exp_Missile
+wp0011_Fir_Missile
+wp0011_Missile_Lp
+wp0011_Pas_Missile
+
+### EVENT NAMES (wp0013.bnk)
+wp0013_Fir_Shoot
+wp0013_Pas_Shoot
+
+### EVENT NAMES (wp0014.bnk)
+stop_wp0014_Mov_Idle_Lp
+wp0014_Fir_Missile
+wp0014_Mov_Idle_Lp
+wp0014_Mov_release
+
+### EVENT NAMES (wp001c.bnk)
+stop_wp001c_Fir_Laser_LP
+wp001c_Chg_Laser_Charge
+wp001c_Fir_Laser_Charge
+wp001c_Fir_Laser_LP
+
+### EVENT NAMES (wp001e.bnk)
+wp001e_Brk_Shoot
+wp001e_Pas_Shoot
+
+### EVENT NAMES (wp0021.bnk)
+stop_wp0021_Exp_Bomb_Lp
+wp0021_Bomb_Fall
+wp0021_Bomb_FallImpact
+wp0021_Exp_Bomb_Lp
+
+### EVENT NAMES (langs/vo_core.bnk)
+ANDREW_AREA3_001
+ANDREW_COMMON_001
+ANDREW_COMMON_002
+ANDREW_COMMON_003
+ANDREW_COMMON_004
+ANDREW_COMMON_005
+ANDREW_COMMON_006
+ANDREW_COMMON_007
+ANDREW_COMMON_008
+ANDREW_COMMON_009
+ANDREW_COMMON_010
+ANDREW_COMMON_011
+ANDREW_COMMON_012
+ANDREW_COMMON_013
+ANDREW_COMMON_014
+ANDREW_COMMON_015
+ANDREW_COMMON_016
+ANDREW_SECTOR_B_001
+ANDREW_SECTOR_B_002
+ANDREW_SECTOR_B_003
+ANDREW_SECTOR_B_004
+ANDREW_SECTOR_B_005
+ANDREW_SECTOR_B_006
+ANDREW_VENOM_001
+ANDREW_VENOM_002
+ANDREW_VENOM_003
+ANDREW_VENOM_004
+ANDROSS_ACTION_VOICE_BITE
+ANDROSS_ACTION_VOICE_BITE_OMEN
+ANDROSS_ACTION_VOICE_CLAP_OMEN
+ANDROSS_ACTION_VOICE_death
+ANDROSS_ACTION_VOICE_EYEBEAM
+ANDROSS_ACTION_VOICE_FIRE_BLOCK
+ANDROSS_ACTION_VOICE_Flame
+ANDROSS_ACTION_VOICE_HAND_DEATH
+ANDROSS_ACTION_VOICE_HAND_DMG
+ANDROSS_ACTION_VOICE_KNOCK
+ANDROSS_ACTION_VOICE_KNOCKOUT
+ANDROSS_ACTION_VOICE_PUNCH
+ANDROSS_ACTION_VOICE_PUNCH_OMEN
+ANDROSS_ACTION_VOICE_SHOCKWAVE
+ANDROSS_ACTION_VOICE_SLAP_OMEN
+ANDROSS_COMMON_001
+ANDROSS_COMMON_001_Aux
+ANDROSS_COMMON_002
+ANDROSS_COMMON_002_Aux
+ANDROSS_COMMON_003
+ANDROSS_COMMON_003_Aux
+ANDROSS_COMMON_004
+ANDROSS_COMMON_004_Aux
+ANDROSS_COMMON_005
+ANDROSS_COMMON_005_Aux
+ANDROSS_COMMON_006
+ANDROSS_COMMON_006_Aux
+ANDROSS_COMMON_007
+ANDROSS_COMMON_007_Aux
+ANDROSS_COMMON_008
+ANDROSS_COMMON_008_Aux
+ANDROSS_COMMON_009
+ANDROSS_COMMON_009_Aux
+ANDROSS_COMMON_010
+ANDROSS_COMMON_010_Aux
+ANDROSS_COMMON_011
+ANDROSS_COMMON_011_Aux
+ANDROSS_CORNERIA2_001
+ANDROSS_CORNERIA2_001_Aux
+ANDROSS_CORNERIA2_002
+ANDROSS_CORNERIA2_002_Aux
+ANDROSS_CORNERIA2_003
+ANDROSS_CORNERIA2_003_Aux
+ANDROSS_VENOM_001
+ANDROSS_VENOM_001_Aux
+ANDROSS_VENOM_002
+ANDROSS_VENOM_002_Aux
+ANDROSS_VENOM_003
+ANDROSS_VENOM_003_Aux
+ANDROSS_VENOM_004
+ANDROSS_VENOM_004_Aux
+ANDROSS_VENOM_005
+ANDROSS_VENOM_005_Aux
+ANDROSS_VENOM_006
+ANDROSS_VENOM_006_Aux
+ANDROSS_VENOM_007
+ANDROSS_VENOM_007_Aux
+ANDROSS_VENOM_008
+ANDROSS_VENOM_008_Aux
+ANDROSS_VENOM_009
+ANDROSS_VENOM_009_Aux
+ANDROSS_VENOM_010
+ANDROSS_VENOM_010_Aux
+ANDROSS_VENOM_011
+ANDROSS_VENOM_011_Aux
+ANDROSS_VENOM_012
+ANDROSS_VENOM_012_Aux
+ANDROSS_VENOM_013
+ANDROSS_VENOM_013_Aux
+BILL_SECTOR_B_001
+BILL_SECTOR_B_002
+BILL_SECTOR_B_003
+BILL_SECTOR_B_006
+BILL_SECTOR_B_007
+BILL_SECTOR_B_008
+BILL_SECTOR_B_009
+BILL_SECTOR_B_010
+BILL_SECTOR_B_011
+BILL_SECTOR_B_012
+BILL_SECTOR_B_013
+BILL_SECTOR_B_014
+BILL_SECTOR_B_015
+BILL_SECTOR_B_016
+BILL_SECTOR_B_017
+BILL_SECTOR_B_018
+BILL_SECTOR_B_019
+BILL_SECTOR_B_020
+BILL_SECTOR_B_021
+BILL_SECTOR_B_022
+BILL_SECTOR_B_023
+BILL_SECTOR_B_024
 C_SOLDIER_COMMON_001
 C_SOLDIER_COMMON_002
 C_SOLDIER_CORNERIA_001
@@ -629,6 +6539,7 @@ C_SOLDIER_SECTOR_B_016
 C_SOLDIER_SECTOR_B_017
 C_SOLDIER_SECTOR_B_018
 C_SOLDIER_SECTOR_B_019
+core_vo_GoodLuck
 DIRECT_COMMON_001
 DIRECT_COMMON_002
 DIRECT_COMMON_003
@@ -651,772 +6562,6 @@ DIRECT_COMMON_019
 DIRECT_COMMON_020
 DIRECT_COMMON_021
 DIRECT_END_001
-em00b0_Mov_Wing
-em00f0_Fir_Beam_Lp
-em00f0_Mov_Idle
-em0100_Mov_Appear
-em0130_Dmg_Hit
-em0130_Dmg_Hit_toDeath
-em0130_Mov_FlyPass
-em0130_Mov_idling_Lp
-em0150_Mov_Appear
-em0150_Mov_Disappear
-em0150_Mov_Roll
-em0170_Mov_Land
-em0170_Mov_Start
-em0170_Mov_Stop_Squeal
-em0180_Atk_Spark_Lp
-em0180_Mov_Start
-em0180_Mov_Stop
-em0190_Charge_Fir_Laser_Charge
-em0190_Fir_Laser_Charge
-em01f0_Mov_Open
-em1000_Exp
-em1000_Exp_Shake
-em1000_Mov_Arm_Lp
-em1000_Mov_Start
-em1000_Mov_Stop
-em1000_Mov_Turn
-em1000_Thr_Building
-em1011_Atk_BombBound_Second
-em1011_Atk_BombBound_Third
-em1011_BombAlart
-em1011_Dmg_Falling
-em1011_Dmg_Mov_Foot
-em1011_Fir_LazerRing
-em1011_Fir_Lazer_Lp
-em1011_Mov_FootStep
-em1011_Mov_FootStep_Wall
-em1011_Mov_Idle_Lp
-em1011_Mov_Stand
-em1011_Mov_TurnOver
-em1020_Mov_FlyIn
-em1020_Mov_FlyOut
-em1030_Exp_First
-em1030_Exp_Second
-em1030_Mov
-em1030_Mov_BigSplash
-em1030_Mov_IdleA_Lp
-em1030_Mov_IdleB_Lp
-em1030_Mov_IdleC_Lp
-em1050_Mov_CannonEnd
-em1050_Mov_CannonStart
-em1050_Mov_End
-em1050_Mov_Land
-em1050_Mov_Start
-em1050_Mov_Transform_Ignition
-em1050_Mov_Transform_toGround
-em1050_Mov_Transform_toGround_B
-em1050_Mov_Transform_toSky
-em1050_Mov_Transform_toSky_B
-em1050_Set_Ground
-em1050_Set_Sky
-em1100_Brk_Body
-em1100_Chg_Laser_Charge
-em1100_Fir_Laser_Charge
-em1100_Mov_CannonEnd
-em1100_Mov_CannonStart
-em1100_Mov_Cannon_Lp
-em1100_Mov_Idle_IN
-em1100_Mov_Idle_Out
-em1100_Mov_StartUp
-em1108_Dmg_EmHit
-em1108_Exp_S
-em2000_Catch_TractorBeam
-em2000_Catch_TractorBeam_Lp
-em2000_Catch_TractorBeam_Lp_NPC
-em2000_Chg_TractorBeam
-em2000_Fir_TractorBeam
-em2000_Fir_TractorBeam_Lp
-em2000_Mov_RushOut
-em2000_Whs_Neck
-em2000_Whs_Neck_Impact
-em2010_Mov_Foot_Run
-em2010_Mov_Land_First
-em2010_Mov_Land_Second
-em2010_Mov_Roll
-em2010_Mov_Transform_toRoll
-em2010_Mov_Transform_toRoll_s
-em2010_Mov_Transform_toRun
-em2010_Mov_Transform_toStand
-em2020_Fir_Lazer_Charge
-em2020_Mov_FootStep
-em2020_Mov_StartUp
-em2020_Mov_Stop
-em2030_Atk_Stomp
-em2030_Dmg_Mov_Foot
-em2030_Mov_FootStep
-em2030_Mov_Idle_Lp
-em2030_Mov_Land
-em2030_Mov_RaiseFoot
-em2030_Mov_RushOut
-em2030_Whs_Jump
-em2100_Atk_Bite_FinishImpact
-em2100_Atk_Bite_Impact
-em2100_Atk_Rush_Impact
-em2100_Atk_Slam
-em2100_Catch_TractorBeam
-em2100_Catch_TractorBeam_Lp
-em2100_Chg_Laser_Charge
-em2100_Dmg_Down
-em2100_Exp_Death
-em2100_Fir_Laser_Charge
-em2100_Fir_Laser_Charge_End
-em2100_Fir_TractorBeam
-em2100_Fir_TractorBeam_End
-em2100_Fir_TractorBeam_Lp_NPC
-em2100_Mov_Appear_Ground
-em2100_Mov_Appear_Impact
-em2100_Mov_Bite_Mouth
-em2100_Mov_Bite_MouthB
-em2100_Mov_Body_01
-em2100_Mov_Body_02
-em2100_Mov_Close_Mouth
-em2100_Mov_Close_Mouth_Impact
-em2100_Mov_Disappear_Impact
-em2100_Mov_Dmg
-em2100_Mov_Idle
-em2100_Mov_Quicksand_End
-em2100_Mov_Quicksand_Start
-em2100_Mov_RushBody
-em2100_Mov_SlamBack
-em2100_Mov_Slide
-em2100_Mov_SlideStart
-em2100_Release_TractorBeam
-em2100_Vo_Appear
-em2100_Vo_Atk_01
-em2100_Vo_Atk_02
-em2100_Vo_Atk_03
-em2100_Vo_Atk_04
-em2100_Vo_Dmg
-em2100_Vo_Dmg_S
-em2100_Whs_Bite
-em2100_Whs_Bite_Finish
-em2100_Whs_Pull
-em2100_Wsh_NeckSwingA
-em2100_Wsh_NeckSwingB
-em2100_Wsh_Slam
-em3060_Exp_Spark
-em3060_Mov_Runaway
-em3060_Mov_Start
-em3060_Mov_Stop
-em3080_Mov_Body_Back
-em3080_Mov_Body_BackStop
-em3080_Mov_Body_Start
-em3080_Mov_Body_Stop
-em3080_Mov_GunBarrel_Back
-em3080_Mov_GunBarrel_Start
-em3080_Mov_GunBarrel_Stop
-em3090_Atk_Bite_A
-em3090_Atk_Bite_B
-em3090_Exp_S_noWater
-em3090_Exp_S_Water
-em3090_FlyIn
-em3090_FlyIn_noWater
-em3090_FlyOut
-em3090_FlyOut_noWater
-em3090_Mov_MouthClose
-em3090_Mov_MouthOpen
-em3090_Mov_Swim
-em3100_BarrierDeviceSwitch_off_left
-em3100_BarrierDeviceSwitch_off_right
-em3100_BarrierDevice_off
-em3101_BarrierDevice_off
-em3101_Mov_Board_Impact
-em3101_Mov_Board_Start_Lp
-em3102_Dmg_EmHit
-em4001_Exp_End
-em4001_MovA
-em4001_MovB
-em4001_Mov_Fast
-em4010_Mov_Close_End
-em4010_Mov_Close_Start
-em4010_Mov_Open_Start
-em4100_Atk_Blow
-em4100_Atk_EggBrk
-em4100_Atk_EggIncubate
-em4100_Atk_EggLand_p01
-em4100_Atk_EggLand_p02
-em4100_Atk_EggWhs
-em4100_Atk_FireOmen
-em4100_Atk_Rush
-em4100_Atk_Tail
-em4100_Atk_TailOmen
-em4100_Atk_Tornade_Unite
-em4100_Atk_Tornade_UniteOmen
-em4100_Brk_Ivy
-em4100_Brk_Ivy_Far
-em4100_Brk_Ivy_Second
-em4100_Charge_Fir_Laser_Charge
-em4100_Fir_Fire
-em4100_Fir_Fire_InScroll
-em4100_Fir_Fire_Rapid
-em4100_Fir_Laser_Charge
-em4100_Fir_Tornado
-em4100_Fir_Tornado_Single
-em4100_Mov_Appear
-em4100_Mov_Appear_a
-em4100_Mov_Appear_B
-em4100_Mov_Earthquake
-em4100_Mov_FoldWing_L
-em4100_Mov_FoldWing_R
-em4100_Mov_FootStep
-em4100_Mov_IntoCloud
-em4100_Mov_Jump
-em4100_Mov_Land
-em4100_Mov_Metal
-em4100_Mov_OpenWing_L
-em4100_Mov_OpenWing_R
-em4100_Mov_Rage_End
-em4100_Mov_Rage_Start
-em4100_Mov_Wing_M
-em4100_Mov_Wing_M_noAdd
-em4100_Mov_Wing_M_noAdd_S
-em4100_Mov_Wing_s
-em4100_Mov_Wing_Whs
-em4100_Mov_Wing_Whs_S
-em4100_TornadoPart_End
-em4100_TornadoPart_Start
-em4100_vo_Dmg_L
-em4100_vo_Dmg_R
-em4100_vo_FireOmen
-em4100_vo_General
-em4100_vo_Growl
-em4100_vo_InScroll_Part1
-em4100_vo_InScroll_Part2
-em4100_vo_Roar_A
-em4100_vo_Roar_B
-em4100_vo_Rush
-em4100_vo_SpeedUp
-em4100_vo_Tornado_Outside
-em5000_Fir_Shoot
-em5000_Pas_Shoot
-em5010_Fir_Shoot
-em5010_Pas_Shoot
-em5100_Atk_SetPigmaBomb
-em5100_Atk_SetPigmaBomb_DRC
-em5100_Atk_SetPigmaBomb_TV
-em5100_Chg_LightningVolt
-em5100_Chg_LightningVolt_DRC
-em5100_Chg_LightningVolt_TV
-em5100_Dmg_AvoidanceHit
-em5100_Dmg_falling
-em5100_Fir_LightningVolt
-em5100_Fir_PigmaBomb
-em5100_Fir_PigmaBomb_DRC
-em5100_Fir_PlasmaShield
-em5100_Fir_PlasmaShield_DRC
-em5100_Fir_PlasmaShield_TV
-em5100_Fir_Shoot
-em5100_Fir_Shoot_Twin
-em5100_Mov_Boost
-em5100_Mov_Boost_Ev
-em5100_Mov_CrossSlow_out
-em5100_Mov_Flip
-em5100_Mov_Footstep_Run
-em5100_Mov_Footstep_Walk
-em5100_Mov_Idle_Lp
-em5100_Mov_Jump
-em5100_Mov_Land
-em5100_Mov_Transform_toGround
-em5100_Mov_Transform_toGround_Ev
-em5100_Mov_Transform_toSky
-em5100_Mov_Uturn
-em5100_Mov_Whs_Avoidance_A
-em5100_Mov_Whs_Avoidance_Fast
-em5100_Pas_Shoot
-em6100_Atk_DashImpact
-em6100_Atk_StompImpact
-em6100_Atk_StompRubble
-em6100_Fir_ArmGun_L
-em6100_Fir_ArmGun_r
-em6100_Mov_DashStance
-em6100_Mov_DashStopFoot
-em6100_Mov_DashStopSlideFoot
-em6100_Mov_Dmg
-em6100_Mov_Druming_End
-em6100_Mov_Druming_Start
-em6100_Mov_Drumming
-em6100_Mov_FootStep
-em6100_Mov_FootStep_S
-em6100_Mov_GrabContainer
-em6100_Mov_GrabContainer_Up
-em6100_Mov_LaserMisslie_Stance
-em6100_Mov_MissileHatch_Close
-em6100_Mov_MissileHatch_Open
-em6100_Mov_PanelOpen
-em6100_Mov_PunchStance
-em6100_Mov_PunchStance_Back_S01
-em6100_Mov_PunchStance_S01
-em6100_Mov_PunchStance_Short
-em6100_Mov_Run
-em6100_Mov_ShootBack_Stance
-em6100_Mov_ShootBack_Stance_L
-em6100_Mov_ShootBack_Stance_r
-em6100_Mov_ShootStance_01
-em6100_Mov_ShootStance_02
-em6100_Mov_ShootStance_03
-em6100_Mov_StartUp_01
-em6100_Mov_StartUp_02
-em6100_Mov_StartUp_03
-em6100_Mov_StartUp_04
-em6100_Mov_StartUp_Second
-em6100_Mov_StompStance
-em6100_Mov_StompStance_Back
-em6100_Mov_StompStance_S
-em6100_Mov_Stop_01
-em6100_Mov_Stop_02
-em6100_Mov_Walk
-em6100_Thr_Container
-em6100_Whs_Punch
-em6100_Whs_Stomp
-em7200_Dmg_EmHit
-em7200_Exp_S
-em7200_Mov_StartUp
-em8100_Atk_Spark_Lp
-em8100_Exp_L
-em8100_Exp_Omen
-em8100_Exp_S
-em8100_EXP_XL
-em8100_Mov_GunHatch_Open
-em8100_Mov_GunHatch_OpenImpact
-em8100_Mov_Gun_StartUp
-em8100_Mov_Gun_StartUpImpact
-em8100_Mov_Idle
-em8101_Mov_Idle
-em8102_Mov_Idle
-em9100_Block_Laser
-em9100_Dmg_Alert_Lp
-em9100_Dmg_Spark_Lp
-em9100_Mov_Core_Close
-em9100_Mov_Core_Close_Impact
-em9100_Mov_Core_Open
-em9100_Mov_Core_Open_Impact
-em9100_Mov_Down
-em9100_Mov_Down_Impact
-em9100_Mov_FootRecoverA
-em9100_Mov_FootRecoverB
-em9100_Mov_FootStep_Near
-em9100_Mov_GetUp
-em9100_Mov_Idle
-em9100_Mov_Jump
-em9100_Mov_Jump_Land
-em9100_Whs_Jump_Fall
-ema0000_Mov_Idle
-ema100_Chg_Laser_Charge
-ema100_Fir_4Laser
-ema100_Fir_4Laser_end
-ema100_Fir_LazerRing
-ema100_Mov_Angle
-ema100_Mov_BodyCl
-ema100_Mov_BodyOp
-ema100_Mov_IdleLoop
-ema100_Mov_LargeHatchCl
-ema100_Mov_LargeHatchCl_Lock
-ema100_Mov_LargeHatchOp
-ema100_Mov_LargeHatchOp_Lock
-ema100_Mov_Pass
-ema100_Mov_RollSpeed
-ema100_Mov_SmallHatchCl
-ema100_Mov_SmallHatchCl_Lock
-ema100_Mov_SmallHatchOp
-ema100_Mov_SmallHatchOp_Lock
-ema100_Mov_Speed
-emb100_Atk_Bite
-emb100_Atk_HandMov_Post
-emb100_Atk_HandMov_Pre
-emb100_Atk_Hand_Clap_Hit
-emb100_Atk_Hand_Clap_Pre
-emb100_Atk_Hand_Clap_Swing
-emb100_Atk_Hand_Fly_Lp
-emb100_Atk_Hand_Knock_Hit
-emb100_Atk_Hand_Knock_Pre
-emb100_Atk_Hand_Knok_Swing
-emb100_Atk_Hand_Punch_Omen
-emb100_Atk_Hand_Punch_Pre
-emb100_Atk_Hand_Punch_Swing
-emb100_Atk_Hand_Slap_Hit
-emb100_Atk_Hand_Slap_Pre
-emb100_Atk_Hand_Slap_Swing
-emb100_Atk_Hand_Spin_Lp
-emb100_Catch_TractorBeam
-emb100_Catch_TractorBeam_Lp
-emb100_Chg_AroundLaser
-emb100_Chg_AroundLaser_Long
-emb100_Chg_EyeLaser
-emb100_Dmg_FaceCore_Disappear
-emb100_Dmg_FaceCore_Hit_Last
-emb100_Dmg_Face_Death_A
-emb100_Dmg_Face_Death_b
-emb100_Dmg_Hand
-emb100_Dmg_KnockOut_Lp
-emb100_Fir_AroundLaser
-emb100_Fir_AroundLaserEnd
-emb100_Fir_Block_A
-emb100_Fir_Block_B
-emb100_Fir_EyeLaser
-emb100_Fir_EyeLaserEnd
-emb100_Fir_TractorBeam_Lp
-emb100_Mov_Arm
-emb100_Mov_Bite
-emb100_Mov_Bite_Omen
-emb100_Mov_BlockWhs_Lp
-emb100_Mov_Block_Construct
-emb100_Mov_Block_Destruct
-emb100_Mov_FaceCore_Appear
-emb100_Mov_FaceCore_Disappear
-emb100_Mov_Face_Appear_a
-emb100_Mov_Face_Appear_B
-emb100_Mov_Face_Eye_Close
-emb100_Mov_Face_Eye_Open
-emb100_Mov_Face_Idle_Lp_A
-emb100_Mov_Face_Idle_Lp_B
-emb100_Mov_Face_Mouth_Open
-emb100_Mov_Face_Shake
-emb100_Mov_Face_Turn
-emb100_Mov_Hand_Appear
-emb100_Mov_Hand_Disappear
-emb100_Mov_Hand_Idle_Lp_A
-emb100_Mov_Hand_Idle_Lp_B
-emb100_Mov_KnockOut
-emb100_Mov_Roar
-emb100_Thr_Hand
-emb100_Whs_EyeBeam
-emc100_Atk_RangeOmen
-emc100_Fir_Range
-emc105_Fir_LazerRing
-emc105_Fir_LazerRing_Lp
-End_core_Map_Briefing
-ev0202_Mov_EnemyBaseExp
-ev0302_pl0010_Mov_Engin
-ev0302_pl0010_Mov_Jump_Start
-ev0302_pl0030_Mov_CirclingStart
-ev0302_pl0030_Mov_Engin
-ev0401_Mov_Cut1
-ev0401_Mov_Cut2
-ev0401_Mov_Cut2Add
-ev0401_Mov_Cut3
-ev0601_Mov_CameraPan
-ev0601_Mov_GreatFoxAppear
-ev0601_Mov_KingMandrillAppear
-ev0901_Mov_CrowdEnemy
-ev0903_ResetVolume_bm0109
-ev0903_SetVolume_bm0109
-ev0a02_pl00x0_Mov_Transform_toSky
-ev0b01_Mov_Boost_Falco
-ev0b01_Mov_Boost_Falco_SFC
-ev0b01_Mov_Boost_Peppy
-ev0b01_Mov_Boost_Peppy_SFC
-ev0b01_Mov_Boost_Slippy
-ev0b01_Mov_Boost_Slippy_SFC
-ev0b01_Mov_CameraPan
-ev0b01_Mov_Pre_GDBoost
-ev0b01_Mov_Pre_GDBoost_SFC
-ev0c01_Mov_onWater
-ev0c03_Mov_0000AndrossAppear
-ev0c03_Mov_0839AndrossDisappear
-ev0c03_Mov_0970WarpHole
-ev0c03_Mov_1185CameraPan
-ev0c03_Mov_1496FoxStinger_A
-ev0c03_Mov_1676FoxStinger_B
-ev0c03_Mov_1743FoxVanish
-ev0c03_Mov_1769Wind
-ev7031_Mov_Ambient
-ev7031_Mov_Appear
-ev7031_Mov_CameraPan
-ev7031_Mov_CylinderAppear
-ev7031_Mov_FloorAppear
-evb281_ba1000_Chg_MainLaserLp
-evb281_ba1000_Fir_MainLaser
-evb281_ba1000_Mov_EngineLoop
-evb281_ba1000_Mov_NozzleLoop
-evb281_ba1000_Mov_SlowPass
-evb281_Mov_Meteor
-evc100_pl_Mov_WaterSplashLp
-evc611_bm0104_Exp_Death
-event
-evr0801_Air_Ambient
-evr0801_Whoosh
-evr0801_Whs_em4100
-evr101_bm1040_Branch_CameraPan
-evr101_bm1040_Branch_Start
-evr101_Branch_Start
-evr101_pl0000_Branch_Boost
-evr101_pl0000_Branch_CameraPan
-evr101_pl0000_Branch_Start
-evr101_pl0060_Branch_Boost_SFC
-evr101_pl0060_Branch_CameraPan_SFC
-evr101_pl0060_Branch_Start_SFC
-evr103_ArwingEngine_Falco
-evr103_ArwingEngine_Falco_SFC
-evr103_ArwingEngine_Fox
-evr103_ArwingEngine_Fox_SFC
-evr103_ArwingEngine_Peppy
-evr103_ArwingEngine_Peppy_SFC
-evr103_ArwingEngine_Slippy
-evr103_ArwingEngine_Slippy_SFC
-evr103_ArwingPass_Falco
-evr103_ArwingPass_Falco_SFC
-evr103_ArwingPass_Fox
-evr103_ArwingPass_Fox_SFC
-evr103_ArwingPass_Peppy
-evr103_ArwingPass_Peppy_SFC
-evr103_ArwingPass_Slippy
-evr103_ArwingPass_Slippy_SFC
-evr103_BossAppear
-evr103_em1100_Escape
-evr103_em1100_Escape_Flash
-evr103_em1100_ExpDeath
-evr103_em1100_ExpDeathOmen
-evr103_ev_WalkerTransform
-evr103_ev_WalkerTransform_SFC
-evr104_Mov_Atmosphere
-evr104_Mov_AtmosphereSkip
-evr104_Mov_Atmosphere_DRC
-evr104_Mov_CameraPan1
-evr104_Mov_CameraPan2
-evr201_Camera_Whoosh
-evr201_em01a0_FirLaser
-evr201_em01a0_PasLaser
-evr201_em5100_Branch_Boost
-evr201_em5100_Branch_Start
-evr201_pl0000_Branch_Boost
-evr201_pl0000_Branch_Start
-evr201_pl0060_Branch_Boost_SFC
-evr201_pl0060_Branch_Start_SFC
-evr202_2200_pl_Mov_Pass
-evr202_bm0104_ExpDeath
-evr202_ev_WalkerTransform
-evr202_ev_WalkerTransform_SFC
-evr21f_em5100_Andrew_Appear_DRC
-evr21f_em5100_Andrew_Appear_TV
-evr21f_em5100_Pigma_Appear_DRC
-evr21f_em5100_Pigma_Appear_TV
-evr301_bm0043_Break
-evr301_bm0043_Impact
-evr301_bm0043_Whoosh
-evr301_Npc_Avoidance_Back
-evr301_Npc_Avoidance_SFC_A
-evr301_Npc_Avoidance_SFC_B
-evr301_Npc_Avoidance_SFC_C
-evr301_Npc_Avoidance_WiiU
-evr401_em5000_Pas_Fly_A
-evr401_em5000_Pas_Fly_B
-evr401_em5000_Pas_Fly_C
-evr401_em5000_Pas_Fly_D
-evr401_em5000_Pas_Fly_E
-evr401_em5000_Pas_Fly_F
-evr401_em5010_Pas_Fly_A
-evr401_em5010_Pas_Fly_B
-evr401_em5010_Pas_Fly_C
-evr401_em5010_Pas_Fly_D
-evr401_em5010_Pas_Fly_E
-evr401_em5010_Pas_Fly_F
-evr401_em5100_Appear_DRC
-evr401_em5100_Appear_TV
-evr401_em5100_Appear_Wolf_DRC
-evr401_em5100_Appear_Wolf_TV
-evr401_em5100_Atk_Peppy_Whs_DRC
-evr401_em5100_Atk_Peppy_Whs_TV
-evr401_Mov_CatDemoA
-evr401_Mov_CatDemoB
-evr401_Mov_CatDemoC
-evr401_Mov_PeppyFall
-evr401_Mov_PeppyFall_SFC
-evr402_Peppy_Dmg
-evr402_Peppy_Dmg_SFC
-evr402_Whs_Laser_Blue_A
-evr402_Whs_Laser_Blue_B
-evr402_Whs_Laser_Blue_C
-evr501_OilField_Collapse
-evr501_OilField_Exp
-evr501_OilField_Exp_Blast_01
-evr501_OilField_Exp_Blast_02
-evr501_OilField_Exp_Omen
-evr501_Warp_Appear
-evr501_Warp_Disappear_01
-evr611_bm007a_Mov_Appear
-evr611_bm007a_Mov_Disappear
-evr611_Mov_Elec
-evr611_Mov_PreExp
-evr701_Ambience_Lp
-evr701_core_Warp_Appear
-evr701_em5100_Appear_DRC
-evr701_em5100_Appear_TV
-evr701_EventStart
-evr701_Mov_Boost
-evr701_Mov_Fly
-evr701_Mov_IntoHole
-evr701_Mov_WarpIn
-evr701_pl0000_Mov_CirclingStart06
-evr701_Warp_Appear_Start
-evr701_Warp_Appear_Whs
-evr704_ArwingPass_Fox #alt
-evr704_Exp_Collapse_01
-evr704_Exp_Collapse_02_Lp
-evr704_Exp_EnergyWhs
-evr704_Exp_First
-evr704_Exp_Front_01
-evr704_Exp_Front_02
-evr704_Exp_Last
-evr704_Exp_Sur_01
-evr704_Exp_Sur_02
-evr704_pl0000_Mov_CirclingStart_01
-evr704_pl0000_Mov_CirclingStart_02
-evr801_em5100_Branch_Boost
-evr801_em5100_Branch_Start
-evr801_pl0000_Branch_Boost
-evr801_pl0000_Branch_Start
-evr801_pl0060_Branch_Boost_SFC
-evr801_pl0060_Branch_Start_SFC
-evr802_em4100_Exp_FalltoCloud
-evr802_em4100_Exp_First
-evr802_em4100_Exp_Main
-evr802_em4100_Exp_Omen
-evr802_em4100_Exp_Smalls
-evr802_em4100_Exp_Voice
-evr901_em5100_Appear_DRC
-evr901_em5100_Appear_TV
-evr901_em5100_BoostEscape_DRC
-evr901_em5100_BoostEscape_TV
-evr901_em5100_DmgSpark_DRC
-evr901_em_Escape
-evr902_Mov_GyroWingStartup
-evr902_Mov_WalkerHatchCl
-evr918_ba1000_EndEV_c1_Start
-evr918_ba1000_EndEV_c2_Start
-evr918_ba1000_StartEV_End
-evr918_ba1000_StartEV_Start
-evr918_pl0000_EndEV_c1_Start
-evr918_pl0000_EndEV_c2_Start
-evr918_pl0000_StartEV_End
-evr918_pl0000_StartEV_Start
-evr918_pl0060_EndEV_c1_Start_SFC
-evr918_pl0060_EndEV_c2_Start_SFC
-evr918_pl0060_StartEV_End_SFC
-evr918_pl0060_StartEV_Start_SFC
-evr921_em5100_Mov_Escape
-evr921_em5100_Mov_Turn
-evra01_Ambience_Wind
-evra01_CameraPan_01
-evra01_CameraPan_02
-evra01_em5100_Appear_DRC
-evra01_em5100_Appear_TV
-evra01_em9100_Appear_DRC
-evra01_em9100_Appear_End
-evra01_em9100_Appear_TV
-evra01_Mov_HoverEnd
-evra01_Mov_HoverStart
-evra01_Pas_em0250
-evra01_pl0000_Mov_MidCirclingStart
-evra01_pl0010_Mov_Engin
-evra01_pl0010_Mov_Land
-evra01_pl0030_Mov_Boost
-evra01_pl0030_Mov_CancelBoost
-evra01_pl0030_Mov_Engin
-evra01_pl00x0_Mov_Transform_toGround
-evra1f_em5100_Appear_DRC
-evra1f_em5100_Appear_TV
-evrb28_CameraPan
-evrb28_em4100_Exp_Death
-evrb28_em4100_Exp_First
-evrb28_em4100_Exp_Omen
-evrb28_em4100_Exp_Voice
-evrb28_em4100_Mov_Appear_A
-evrb28_em4100_Mov_Appear_B
-evrb28_em4100_Mov_Wing_M
-evrb28_em4100_Mov_Wing_M_Far
-evrb28_em4100_Mov_Wing_M_noAdd
-evrb28_em4100_vo_Roar_A
-evrb28_em4100_vo_Roar_B
-evrc25_bm007a_Mov_Appear
-evrc25_bm007a_Mov_Disappear
-evrc25_emc100_Exp_Death
-evrc25_emc100_Exp_Omen_A
-evrc25_emc100_Exp_Omen_B
-evrc25_emc100_Mov_BigSplash
-evrc25_emc100_Mov_BigSplash_Omen
-evrc25_emc100_Mov_BigSplash_Plus_01
-evrc25_emc100_Mov_BigSplash_Plus_02
-evt_andorf_pre
-evt_bill
-evt_bossappear1
-evt_cat
-evt_cat_2
-evt_decision
-evt_emergency1
-evt_emergency2
-evt_emergency3
-evt_opening
-evt_titledemo
-ev_com_ArwingEngine_Falco
-ev_com_ArwingEngine_Falco_SFC
-ev_com_ArwingEngine_Fox
-ev_com_ArwingEngine_Fox_SFC
-ev_com_ArwingEngine_Peppy
-ev_com_ArwingEngine_Peppy_SFC
-ev_com_ArwingEngine_Slippy
-ev_com_ArwingEngine_Slippy_SFC
-ev_com_ArwingPass_Falco
-ev_com_ArwingPass_Falco_SFC
-ev_com_ArwingPass_Fox
-ev_com_ArwingPass_Fox_SFC
-ev_com_ArwingPass_Peppy
-ev_com_ArwingPass_Peppy_SFC
-ev_com_ArwingPass_Slippy
-ev_com_ArwingPass_Slippy_SFC
-ev_com_ba1000_Mov_EngineLoop
-ev_com_ba1000_Mov_NozzleLoop
-ev_com_ba1000_Mov_SlowPass
-ev_com_bm1040_Mov_IdleLoop
-ev_com_em5100_Mov_Idle_Lp
-ev_com_Grav_Boost
-ev_com_Grav_CirclingStart
-ev_com_Grav_Engine
-ev_com_Mov_Avoidance
-ev_com_Mov_Avoidance_Fox
-ev_com_Mov_Avoidance_Fox_SFC
-ev_com_Mov_Boost
-ev_com_Mov_Boost_Fox
-ev_com_Mov_Boost_Fox_SFC
-ev_com_Mov_Boost_SFC
-ev_com_Mov_CirclingLoop
-ev_com_Mov_CirclingLoop_Fox
-ev_com_Mov_CirclingLoop_Fox_SFC
-ev_com_Mov_CirclingLoop_SFC
-ev_com_Mov_CirclingStart
-ev_com_Mov_CirclingStart_Fox
-ev_com_Mov_CirclingStart_Fox_SFC
-ev_com_Mov_CirclingStart_SFC
-ev_com_Mov_Flip_Fox
-ev_com_Mov_Flip_Fox_SFC
-ev_Com_Mov_FootStepSw
-ev_Com_Mov_FootStep_SFC
-ev_com_pl0040_Mov_NoseDown
-ev_com_pl0040_Mov_RotorBoostMove
-ev_com_pl0040_Mov_RotorFrontMove
-ev_com_pl0040_Mov_RotorLoop
-ev_com_pl2500_Mov_Boost
-ev_com_pl2500_Mov_Idle_Lp
-ev_com_pl2500_Mov_Pass
-ev_com_Warp_Appear
-ev_com_WingClose
-ev_com_WingCloseLock
-ev_com_WingCloseLock_Fox
-ev_com_WingCloseLock_Fox_SFC
-ev_com_WingCloseLock_SFC
-ev_com_WingClose_Fox
-ev_com_WingClose_Fox_SFC
-ev_com_WingClose_SFC
-ev_com_WingLock
-ev_com_WingLock_Fox
-ev_com_WingLock_Fox_SFC
-ev_com_WingOpen
-ev_com_WingOpen_Fox
-ev_com_WingOpen_Fox_SFC
-ev_r103_em1100_Mov_Idle_Out
-FadeIn01_ev_com_pl0040_Mov_RotorLoop
-FadeOut01_ev_com_pl0040_Mov_RotorLoop
 FALCO_AREA3_001
 FALCO_AREA3_002
 FALCO_AREA3_003
@@ -1678,9 +6823,11 @@ JAMES_VENOM_007
 JAMES_VENOM_008
 JAMES_VENOM_009
 JAMES_VENOM_010
+JAMES_VENOM_010_Aux
 JAMES_VENOM_011
 JAMES_VENOM_012
 JAMES_VENOM_013
+JAMES_VENOM_013_Aux
 KATT_COMMON_001
 KATT_FORTUNA_001
 KATT_FORTUNA_002
@@ -1739,178 +6886,6 @@ LEON_VENOM_001
 LEON_VENOM_002
 LEON_VENOM_003
 LEON_VENOM_004
-mot_em2100_0210_s1
-mot_em4100_0009_s1
-mot_em4100_000b_s1
-mot_em6100_0003_s1
-mot_et0000_1100_s1
-mot_et0000_1100_s2
-mot_et0000_2100_s1
-mot_et0000_2200_s1
-mot_et0000_2200_s2_sf
-mot_et0000_2220_s1
-mot_et0000_3100_s1
-mot_et0000_3200_s1_sf
-mot_et0000_3220_s1
-mot_et0000_3300_s1_sf
-mot_et0000_3320_s1
-mot_et0000_4100_s1
-mot_et0000_4400_s1
-mot_et0000_4400_s2
-mot_et0000_4420_s1
-mot_et0000_4500_s1
-mot_et0000_4520_s1
-mot_et0000_5100_s1
-mot_et0000_5200_s1
-mot_et0000_5200_s2_sf
-mot_et0000_5220_s1
-mot_et0000_6100_s1
-mot_et0000_6200_s1_sf
-mot_et0000_6220_s1
-mot_et0000_7100_s1
-mot_et0000_7100_s2
-mot_et0000_7100_s3
-mot_et0000_7300_s1
-mot_et0000_7300_s2
-mot_et0000_7320_s1
-mot_et0000_8100_s1
-mot_et0000_8300_s1
-mot_et0000_8300_s2_sf
-mot_et0000_8320_s1
-mot_et0000_9100_s1
-mot_et0000_9300_s1
-mot_et0000_9300_s2_sf
-mot_et0000_9320_s1
-mot_et0000_9400_s1
-mot_et0000_9400_s2_sf
-mot_et0000_9420_s1
-mot_et0000_a100_s1
-mot_et0000_a200_s1_sf
-mot_et0000_a220_s1
-mot_et0000_b100_s1
-mot_et0000_b200_s1
-mot_et0000_b200_s2_sf
-mot_et0000_b220_s1
-mot_et0000_c100_s1
-mot_et0000_c300_s1
-mot_et0000_c300_s2
-mot_et0000_d200_s1
-mot_et0000_d200_s2
-mot_et0000_d300_s1
-mot_et0000_d320_s1
-mot_et0000_d400_s1
-mot_et0000_d400_s2
-mot_et0000_d500_s1
-mot_et0000_d600_s1
-mot_et0000_d610_s1
-mot_et0000_d700_s1
-mot_et0000_d900_s1
-mot_et0000_d900_s2
-mot_et0000_da00_s1
-mot_et0000_da00_s2
-mot_et0000_da10_s1
-mot_et0000_de10_s1
-mot_et0000_de10_s2
-mot_et0000_de10_s3
-mot_et0000_df00_s0
-mot_et0000_df00_s1
-mot_et0000_e002_s1_5
-mot_et0000_e002_s2
-mot_et0000_e003_s1_sf
-mot_et0000_e005_s1
-mSet_AppearWolfen
-mSet_Attention_Camera_in
-mSet_Attention_Camera_in_shortterm
-mSet_Attention_Camera_out
-mSet_DisappearWolfen
-mSet_EnemySearch_in
-mSet_EnemySearch_in_shortterm
-mSet_EnemySearch_out
-mSet_s04_m02_GetAwayWolf
-mSet_st1_m1_evskip_to_rc25
-mSet_st1_m1_opening_to_End
-mSet_st1_m1_THXstarfox
-mSet_st1_m2_MissionFailure
-mSet_st1_m3_BossDisappear
-mSet_st1_m3_core_Battle
-mSet_st2_m2_core_Battle
-mSet_st2_st8_m1_WolfResultDucking_in
-mSet_st2_st8_m1_WolfResultDucking_out
-mSet_st3_m1_evskip_to_r611
-mSet_st3_m1_ResultDucking_in
-mSet_st3_m1_ResultDucking_out
-mSet_st3_m2_BossAppear
-mSet_st4_m1_AppearKatt
-mSet_st4_m1_AppearPigma
-mSet_st4_m1_AppearWarship
-mSet_st4_m1_AppearWolf
-mSet_st4_m1_BarrierSlow_in
-mSet_st4_m1_BarrierSlow_out
-mSet_st4_m1_Barrier_in
-mSet_st4_m1_Barrier_out
-mSet_st4_m1_BGMDuckingEnd
-mSet_st4_m1_BGMDuckingStart
-mSet_st4_m1_BlastOff
-mSet_st4_m1_MissionFailure
-mSet_st4_m2_AppearFleet
-mSet_st4_m2_AttackWolf
-mSet_st4_m2_evskip_to_301
-mSet_st4_m2_GetAwayWolf_2
-mSet_st5_m1_DetonatorOn
-mSet_st5_m1_OpenGate_1
-mSet_st5_m1_OpenGate_2
-mSet_st5_m1_Restart_Escape
-mSet_st5_m1_WhiteOut
-mSet_st5_m1_WhiteOut_commet
-mSet_st611_m1_restart
-mSet_st6_m1_MissionClear
-mSet_st6_m1_MissionComplete
-mSet_st6_m1_MissionFailure_A
-mSet_st6_m1_MissionFailure_B
-mSet_st6_m1_StagebgmFadeout
-mSet_st7_m1_AnotherDimensionClear
-mSet_st7_m1_IntotheVenom
-mSet_st7_m1_Restart_Wolf
-mSet_st7_m3_AndorfTransformation
-mSet_st7_m3_FinalShot
-mSet_st7_m3_StreetPassJames_start
-mSet_st918_m1_fadeout
-mSet_st921_m1_AppearAndrew
-mSet_st921_m1_ResultDucking_in
-mSet_st921_m1_ResultDucking_out
-mSet_st9_m2_GateOpen
-mSet_st9_m2_GetHeli
-mSet_st9_m2_HipOpen
-mSet_st9_m2_hurryup
-mSet_st9_m2_MissionFailure
-mSet_st9_m2_PowerSupply
-mSet_st9_m2_Restart_Heli
-mSet_st9_m2_StartUpGorilla
-mSet_sta_m1_AppearBosstrider
-mSet_sta_m1_AppearStarwolf
-mSet_sta_m1_DisappearStarwolf
-mSet_sta_m2_BossDisappear
-mSet_sta_m2_Restart_Bosstrider
-mSet_sta_m2_StartGravmaster
-mSet_stb27_m1_DodoraRageEnd
-mSet_stb27_m1_DodoraRageStart
-mSet_stb27_m1_MissionFailure
-mSet_stb28_m1_RageSirenEnd
-mSet_stb28_m1_RageSirenStart
-mSet_stb28_m1_restart
-mSet_stb_m1_AnotherDimension_appear
-mSet_stb_m1_AnotherDimension_in
-mSet_stb_m1_AnotherDimension_out
-mSet_stc25_m1_restart
-mSet_stc_m2_TowerDissapear
-mSet_stc_m3_ResultEnd
-mSet_stc_m3_StartUpGorilla
-mSet_TrainingMode2_2
-mSet_TrainingMode_1
-mSet_TrainingMode_2
-mSet_TrainingMode_4
-mSet_TrainingMode_5
-Mute_core_CoopLoading
 NAUS_AREA3_001
 NAUS_AREA3_002
 NAUS_AREA3_003
@@ -2102,7 +7077,7 @@ PEPPER_BRIEFING_014
 PEPPER_BRIEFING_016
 PEPPER_BRIEFING_017
 PEPPER_BRIEFING_018
-PEPPER_BRIEFING_020 #alt
+PEPPER_BRIEFING_020
 PEPPER_BRIEFING_021
 PEPPER_BRIEFING_024
 PEPPER_BRIEFING_025
@@ -2424,514 +7399,6 @@ PIGMA_VENOM_001
 PIGMA_VENOM_002
 PIGMA_VENOM_003
 PIGMA_VENOM_004
-pl0000_Chg_Missile_Lp
-pl0000_Chg_Missile_Lp_DRC
-pl0000_Chg_Shoot_Charge
-pl0000_Chg_Shoot_Charge_DRC
-pl0000_Dmg_Air_l
-pl0000_Dmg_Air_S
-pl0000_Dmg_AvoidanceHit
-pl0000_Dmg_DeathLand
-pl0000_Dmg_Exp_l
-pl0000_Dmg_Exp_m
-pl0000_Dmg_Exp_S
-pl0000_Dmg_Exp_S_Scroll
-pl0000_ev901_PanChange
-pl0000_ev901_PanReset
-pl0000_Exp_Bomb
-pl0000_Exp_Missile
-pl0000_Fir_Bomb
-pl0000_Fir_Missile
-pl0000_Fir_Shoot_BlueCharge
-pl0000_Fir_Shoot_Charge
-pl0000_Fir_Shoot_Hyper
-pl0000_Fir_Shoot_Normal
-pl0000_Fir_Shoot_Twin
-pl0000_Mov_Boost
-pl0000_Mov_Boost_Add
-pl0000_Mov_CirclingStart
-pl0000_Mov_CrossSlow_out
-pl0000_Mov_G_DefuserBoost
-pl0000_Mov_G_DefuserDeBoost
-pl0000_Mov_MidCirclingStart
-pl0000_Mov_PowerDown
-pl0000_Mov_PowerUp
-pl0000_Mov_ReBoost
-pl0000_Mov_Turn_L
-pl0000_Mov_Turn_R
-pl0000_Mov_WingClose
-pl0000_Mov_WingCloseLock
-pl0000_Mov_WingLock
-pl0000_Mov_WingOpen
-pl0010_Dmg_Land
-pl0010_Fir_Shoot_Cannon
-pl0010_Mov_AvoidLand_A
-pl0010_Mov_AvoidLand_B
-pl0010_Mov_AvoidLand_C
-pl0010_Mov_Boost
-pl0010_Mov_CancelBoost
-pl0010_Mov_CannonMoving
-pl0010_Mov_Engin
-pl0010_Mov_Jump_End
-pl0010_Mov_Jump_Start
-pl0010_Mov_Land
-pl0010_Mov_SideBoost
-pl0010_Mov_Whs_Avoidance
-pl0020_Mov_BackStart
-pl0020_Mov_DmgLandStep
-pl0020_Mov_FootStep
-pl0020_Mov_FrontStart
-pl0020_Mov_HeadMoving
-pl0020_Mov_Jump_End
-pl0020_Mov_Jump_Start
-pl0020_Mov_LandStep
-pl0020_Mov_LandStep_EV
-pl0020_Mov_QualityDummy
-pl0020_Mov_Whs_Avoidance
-pl0030_Mov_Boost
-pl0030_Mov_CancelBoost
-pl0030_Mov_CirclingStart
-pl0030_Mov_Engin
-pl0030_Mov_FlyAleat
-pl0030_Mov_ReBoost
-pl0040_Chg_MissileCon_Lp_DRC
-pl0040_Chg_Missile_Lp
-pl0040_Chg_Missile_Lp_DRC
-pl0040_Exp_Missile
-pl0040_Fir_Missile_A
-pl0040_Fir_Missile_A_DRC
-pl0040_Fir_Missile_B
-pl0040_Fir_Shoot_Normal
-pl0040_Fir_Shoot_Normal_DRC
-pl0040_Fir_Shoot_Twin
-pl0040_Fir_Shoot_Twin_DRC
-pl0040_Mov_HatchClose
-pl0040_Mov_HatchClose_DRC
-pl0040_Mov_HatchOpen
-pl0040_Mov_HatchOpen_DRC
-pl0040_Mov_LandPossible
-pl0040_Mov_LiftLoop
-pl0040_Mov_LiftLoop_DRC
-pl0040_Mov_LiftRetLoop
-pl0040_Mov_LiftRetLoop_DRC
-pl0040_Mov_LiftStop
-pl0040_Mov_LiftStop_DRC
-pl0040_Mov_RoterLean_L
-pl0040_Mov_RoterLean_L_DRC
-pl0040_Mov_RoterLean_R
-pl0040_Mov_RoterLean_R_DRC
-pl0040_Mov_RotorBoostMove
-pl0040_Mov_RotorDownMove
-pl0040_Mov_RotorDownMove_DRC
-pl0040_Mov_RotorFrontMove
-pl0040_Mov_RotorFrontMove_DRC
-pl0040_Mov_RotorLoop
-pl0040_Mov_RotorLoop_DRC
-pl0040_Mov_RotorRearMove
-pl0040_Mov_RotorRearMove_DRC
-pl0040_Mov_RotorUpMove
-pl0040_Mov_RotorUpMove_DRC
-pl0040_Mov_UnderViewEnd
-pl0040_Mov_UnderViewStart
-pl0040_Mov_UtrunA
-pl0040_Mov_UtrunA_DRC
-pl0040_Mov_UtrunB
-pl0040_Mov_UtrunB_DRC
-pl0041_Dmg_AvoidanceHit
-pl0041_Dmg_Ingest
-pl0041_Dmg_Ingest_DRC
-pl0041_Fir_Shoot_Twin
-pl0041_Fir_Shoot_Twin_DRC
-pl0041_LimitRange
-pl0041_Mov_Attach
-pl0041_Mov_Attach_DRC
-pl0041_Mov_ConstPullUp
-pl0041_Mov_ConstPullUp_DRC
-pl0041_Mov_ConstRelease
-pl0041_Mov_ConstRelease_DRC
-pl0041_Mov_Engine
-pl0041_Mov_Engine_DRC
-pl0041_Mov_HackingComp
-pl0041_Mov_HackingComp_DRC
-pl0041_Mov_HackingSignal
-pl0041_Mov_HackingSignal_A_Lp
-pl0041_Mov_HackingSignal_A_Lp_DRC
-pl0041_Mov_HackingSignal_B
-pl0041_Mov_HackingSignal_B_DRC
-pl0041_Mov_Land
-pl0041_Mov_Land_DRC
-pl0041_Mov_LimitMove
-pl0041_Mov_LimitMove_DRC
-pl0050_Fir_Shoot_Normal
-pl0050_Fir_Shoot_Twin
-pl0050_Mov_Boost
-pl0050_Mov_CancelBoost
-pl0050_Mov_CancelDeboost
-pl0050_Mov_Deboost
-pl0050_Mov_Engine
-pl0050_Mov_InvinciblityIn
-pl0050_Mov_InvinciblityOut
-pl0050_Mov_Land
-pl0050_Mov_WallCollision
-pl0060_Chg_Shoot_Charge
-pl0060_Chg_Shoot_Charge_DRC
-pl0060_Dmg_DeathLand
-pl0060_Dmg_Exp_l
-pl0060_Dmg_Exp_S
-pl0060_Fir_Shoot_Charge
-pl0060_Fir_Shoot_Hyper
-pl0060_Fir_Shoot_Normal
-pl0060_Fir_Shoot_SmartBomb
-pl0060_Fir_Shoot_Twin
-pl0060_Mov_Boost
-pl0060_Mov_Boost_Add
-pl0060_Mov_WingClose
-pl0060_Mov_WingCloseLock
-pl0060_Mov_WingLock
-pl0060_Mov_WingOpen
-pl0070_Mov_DmgLandStep
-pl0070_Mov_FootStep
-pl0070_Mov_Jump_End
-pl0070_Mov_Jump_Start
-pl0070_Mov_LandStep
-pl0070_Mov_LandStep_EV
-pl0070_Mov_Whs_Avoidance
-pl00x0_Mov_Transform_toGround
-pl00x0_Mov_Transform_toGround_SFC
-pl00x0_Mov_Transform_toSky
-pl00x0_Mov_Transform_toSky_SFC
-pl2000_Dmg_Exp_S
-pl2000_Fir_Shoot_Normal
-pl2000_Mov_Boost
-pl2000_Mov_CancelBoost
-pl2000_Mov_FirstBoost
-pl2000_Mov_Flip
-pl2000_Mov_Idle_Lp
-pl2000_Mov_WingClose
-pl2000_Mov_WingCloseLock
-pl2000_Mov_WingLock
-pl2000_Mov_WingOpen
-pl2020_Mov_FootStep
-pl2020_Mov_Jump_End
-pl2020_Mov_Jump_Start
-pl2020_Mov_LandStep
-pl2020_Mov_Whs_Avoidance
-pl2060_Dmg_Exp_S
-pl2060_Fir_Shoot_Normal
-pl2060_Mov_Boost
-pl2060_Mov_CancelBoost
-pl2060_Mov_FirstBoost
-pl2060_Mov_Flip
-pl2060_Mov_WingClose
-pl2060_Mov_WingCloseLock
-pl2060_Mov_WingLock
-pl2060_Mov_WingOpen
-pl2070_Mov_FootStep
-pl2070_Mov_Jump_End
-pl2070_Mov_Jump_Start
-pl2070_Mov_LandStep
-pl2070_Mov_Whs_Avoidance
-pl20x0_Mov_Transform_toGround
-pl20x0_Mov_Transform_toGround_SFC
-pl20x0_Mov_Transform_toSky
-pl20x0_Mov_Transform_toSky_SFC
-pl2500_Dmg_Exp_S
-pl2500_Ev_Mov_Boost
-pl2500_Fir_Shoot_Normal
-pl2500_Mov_Boost
-pl2500_Mov_BoostAdd
-pl2500_Mov_CancelBoost
-pl2500_Mov_Idle_Lp
-pl2500_Mov_Rolling
-pl_BuggyDriftInputRate
-pl_BuggyDriftRate
-pl_BuggyEngineInputSpeed
-pl_BuggyEngineSpeed
-pl_BuggySpeed
-pl_BuggySpinSpeed
-pl_core_Dmg_DeathImpact
-pl_Elevating
-pl_HeriLRSlideInputRate
-pl_HeriLRSlideRate
-pl_HeriMoveInputSpeed
-pl_HeriMoveSpeed
-pl_HeriSpeed
-pl_HeriTurnInputRate
-pl_HeriTurnRate
-pl_HeriUDSlideInputRate
-pl_HeriUDSlideRate
-pl_L_Stick_FRInputRate
-pl_L_Stick_LRInputRate
-pl_Mov_HeadSpeed
-pl_Mov_HeadSpeed_X
-pl_Mov_HeadSpeed_Y
-pl_R_Stick_FRInputRate
-pl_R_Stick_LRInputRate
-pl_VehicleAngle
-pl_VehicleSpeed
-r101_Pas_em_Sneak_L
-r101_Pas_em_Sneak_R
-r103_Ship_Alarm
-r202_ship_Alarm
-r202_ship_Alarm_S
-r202_ship_quake
-r202_ship_quake_L
-r202_ship_quake_m
-r202_ship_quake_S
-r300_SandWind_Lp
-r301_Debris_FallA
-r301_Debris_FallB
-r301_Debris_FallC
-r301_Debris_FallDownA
-r301_Debris_FallDown_pre
-r301_Debris_Whoosh
-r401_ship_quake
-r401_ship_quake_L
-r401_ship_quake_M
-r401_ship_quake_S
-r501_Alarm_Device
-r501_BurnerFiring_Lp
-r501_BurnerFiring_Pre
-r501_Collapse_Start
-r501_WhiteOut_toEvent
-r701_Ambience_Lp
-r701_CameraEvent_BeamVanish_Lv01
-r701_CameraEvent_BeamVanish_Lv02
-r701_CameraEvent_BeamVanish_Lv03
-r800_IntoCloud
-r802_Ambience_Wind
-r902_Power_Off
-r902_Power_Recovery
-r921
-rb01_Dash_Effect
-rb01_Dash_Effect_bm100b
-Reset_Volume_r701_Ambience_Lp
-Set_evskip_2200_sf
-Set_evskip_2200_sfp
-Set_evskip_2220
-Set_evskip_3100
-Set_evskip_3200_sf
-Set_evskip_3200_sfp
-Set_evskip_3220
-Set_evskip_3300_sf
-Set_evskip_3300_sfp
-Set_evskip_3320
-Set_evskip_4400
-Set_evskip_4420
-Set_evskip_4500
-Set_evskip_4520
-Set_evskip_5100
-Set_evskip_5200_sf
-Set_evskip_5200_sfp
-Set_evskip_5220
-Set_evskip_6100
-Set_evskip_6200_sf
-Set_evskip_6200_sfp
-Set_evskip_6220
-Set_evskip_7100
-Set_evskip_7300
-Set_evskip_7320
-Set_evskip_8100
-Set_evskip_8300_sf
-Set_evskip_8300_sfp
-Set_evskip_8320
-Set_evskip_9100
-Set_evskip_9300
-Set_evskip_9320
-Set_evskip_9400
-Set_evskip_9420
-Set_evskip_a100
-Set_evskip_a200_sf
-Set_evskip_a200_sfp
-Set_evskip_a220
-Set_evskip_b100
-Set_evskip_b200_sf
-Set_evskip_b200_sfp
-Set_evskip_b220
-Set_evskip_c100
-Set_evskip_c300
-Set_evskip_d200
-Set_evskip_d300
-Set_evskip_d310
-Set_evskip_d400
-Set_evskip_d500
-Set_evskip_d600
-Set_evskip_d610
-Set_evskip_d700
-Set_evskip_d900
-Set_evskip_da00
-Set_evskip_da10
-Set_evskip_de00
-Set_evskip_de10
-Set_evskip_df00
-Set_evskip_e002
-Set_evskip_e005
-Set_Player_Type
-Set_Player_Type_Arwing
-Set_Player_Type_Buggy
-Set_Player_Type_Flight_Landmaster
-Set_Player_Type_Hoverwing
-Set_Player_Type_Landmaster
-Set_Player_Type_Walker
-Set_Player_Type_Walker_Sfc
-Set_r104
-Set_r10a
-Set_r10b
-Set_r121
-Set_r202
-Set_r21f
-Set_r314
-Set_r511
-Set_r711
-Set_r918
-Set_r925
-Set_r926
-Set_rA14
-Set_rA1f
-Set_rB2f
-Set_rF01
-Set_rF10
-Set_rF11
-Set_rF12
-Set_rF91
-Set_rF92
-Set_rF93
-Set_State_Event_to_BothScreen_In
-Set_State_Event_to_BothScreen_Out
-Set_State_Event_to_off
-Set_State_Event_to_RealTime
-Set_Volume_r701_Ambience_Lp
-SE_3DVoice_Off
-SE_3DVoice_On
-SE_Event
-SE_Event_Skip
-SE_evskip_2100
-SE_evskip_2200
-SE_evskip_2220
-SE_evskip_3100
-SE_evskip_3200
-SE_evskip_3220
-SE_evskip_3300
-SE_evskip_3320
-SE_evskip_4100
-SE_evskip_4400
-SE_evskip_4420
-SE_evskip_4500
-SE_evskip_4520
-SE_evskip_5100
-SE_evskip_5200
-SE_evskip_5220
-SE_evskip_608k
-SE_evskip_6100
-SE_evskip_6200
-SE_evskip_6220
-SE_evskip_7100
-SE_evskip_7300
-SE_evskip_7320
-SE_evskip_8100
-SE_evskip_8300
-SE_evskip_8320
-SE_evskip_9100
-SE_evskip_9300
-SE_evskip_9320
-SE_evskip_9400
-SE_evskip_9420
-SE_evskip_a100
-SE_evskip_a200
-SE_evskip_a220
-SE_evskip_b100
-SE_evskip_b200
-SE_evskip_b220
-SE_evskip_c100
-SE_evskip_c300
-SE_evskip_d200
-SE_evskip_d300
-SE_evskip_d310
-SE_evskip_d400
-SE_evskip_d500
-SE_evskip_d600
-SE_evskip_d610
-SE_evskip_d700
-SE_evskip_d900
-SE_evskip_da00
-SE_evskip_da10
-SE_evskip_de00
-SE_evskip_de10
-SE_evskip_df00
-SE_evskip_e001
-SE_evskip_e002
-SE_evskip_e003
-SE_evskip_e005
-SE_evskip_e006
-SE_evskip_r401
-SE_evskip_r401_PeppyCrash
-SE_evskip_rc03
-SE_EvSkip_SE
-SE_FadeOut
-SE_Fade_MissionFailure
-SE_HeadphoneMode
-SE_HeadphoneMode_Off
-SE_HeadphoneMode_On
-SE_Init_Default
-SE_Init_r101
-SE_Init_r102
-SE_Init_r103
-SE_Init_r104
-SE_Init_r10a
-SE_Init_r10b
-SE_Init_r10c
-SE_Init_r201
-SE_Init_r202
-SE_Init_r401
-SE_Init_r401_Restart_01
-SE_Init_r401_Restart_02
-SE_Init_r501
-SE_Init_r501_Restart_01
-SE_Init_r501_Restart_02
-SE_Init_r501_Restart_03_01
-SE_Init_r501_Restart_03_02
-SE_Init_r501_Restart_04
-SE_Init_r511
-SE_Init_r601
-SE_Init_r611
-SE_Init_r701
-SE_Init_r701_Restart_01
-SE_Init_r701_Restart_02
-SE_Init_r702
-SE_Init_r703
-SE_Init_r704
-SE_Init_r711
-SE_Init_r800
-SE_Init_r902
-SE_Init_r902_Restart_01
-SE_Init_r902_Restart_02
-SE_Init_r926
-SE_Init_ra01_Restart_01
-SE_Init_ra01_Restart_02
-SE_Init_ra01_Restart_03
-SE_Init_rb01
-SE_Init_rb02
-SE_Init_rb28
-SE_Init_rc01
-SE_Init_rf80
-SE_Init_rf92
-SE_Init_rf93
-SE_LipSyncControl
-SE_MessageSkip
-SE_MovieSkip_SE
-SE_Pause
-se_pause_in
-SE_Pause_out
-SE_PlayerDie
-SE_ra01_Ev_emMute
-SE_ResultDuck_End
-SE_Slow
-SE_Slow_in
-SE_Slow_in_James
-SE_Slow_out
-SE_Slow_out_James
-SE_UIStart_MissionFailure
-Skip_core_Map_Briefing
 SLIPPY_AREA3_007
 SLIPPY_AREA3_009
 SLIPPY_AREA3_010
@@ -3134,225 +7601,6 @@ SOLDIER_SECTOR_OMEGA_006
 SOLDIER_SECTOR_OMEGA_009
 SOLDIER_SECTOR_OMEGA_010
 SOLDIER_SECTOR_OMEGA_011
-Start_Event
-Start_Quicksand_Lp
-Start_Result_CountUp_Lp
-Start_SubResult_CountUp_Lp
-State_SE_ba0071_A_off
-State_SE_ba0071_B_off
-State_SE_ba0072_A_off
-State_SE_ba0072_B_off
-State_SE_emb100_Machine_Body
-State_SE_emb100_Normal_Body
-State_SE_r501_Barrier_Left_off
-State_SE_r501_Barrier_Right_off
-State_SE_r501_ElectricFence_off
-State_SE_r501_ElectricFence_on
-State_SE_rf93_BeamWall_Left_off
-State_SE_rf93_BeamWall_Right_off
-Stop_ba000c_Mov_Wall_Start_Lp
-stop_ba0094_Mov_Idle
-Stop_ba1000_All
-Stop_ba1000_Chg_MainLaserLp
-Stop_ba1000_Dmg_Alert_Loop
-Stop_ba1000_Mov_EngineLoop
-Stop_bh1008_Stone_Fall
-Stop_bm0022_Pas_Wall
-Stop_bm00c0_Mov_IdleLoop
-stop_bm0103_Fir_Laser_Lp_Ev
-stop_bm0106_Mov_Start
-Stop_core_CorporateAmbience_Lp
-stop_core_Fir_LazerRing_Lp
-Stop_core_Map_FreeCamera
-Stop_core_Map_Line_Draw
-Stop_core_Map_Line_Draw_GF
-Stop_core_Map_Line_Draw_SFC
-Stop_core_Mov_CockpitRoom_DRC
-Stop_CutSceneStream
-stop_em00f0_Fir_Beam_Lp
-stop_em00f0_Mov_Idle
-stop_em0130_Mov_idling_Lp
-stop_em0180_Atk_Spark_Lp
-stop_em1000_Mov
-Stop_em1000_Mov_Arm_Lp
-stop_em1011_Fir_LazerRing
-stop_em1011_Fir_Lazer_Lp
-stop_em1011_Mov_Idle_Lp
-Stop_em1030_Mov_IdleA_Lp
-Stop_em1030_Mov_IdleB_Lp
-Stop_em1030_Mov_IdleC_Lp
-stop_em1100_Mov_Cannon_Lp
-stop_em1100_Mov_Idle_IN
-stop_em1100_Mov_Idle_Out
-stop_em2010_Mov_Roll
-stop_em2030_Mov_Idle_Lp
-Stop_em2100
-stop_em2100_Catch_TractorBeam_Lp
-stop_em2100_Fir_Laser_Charge
-stop_em2100_Fir_TractorBeam
-stop_em2100_Fir_TractorBeam_Lp_NPC
-stop_em2100_Mov_Idle
-stop_em2100_Mov_Slide
-stop_em3060_Mov
-Stop_em4100_Fir_Tornado_Single
-stop_em5100_Mov_Idle_Lp
-Stop_em5100_Mov_PigmaBombOmen
-stop_em5100_Mov_Uturn
-stop_em8100_Atk_Spark_Lp
-stop_em8100_Mov_Idle
-stop_em8101_Mov_Idle
-stop_em8102_Mov_Idle
-Stop_em9100_Dmg_Alert_Lp
-Stop_em9100_Dmg_Spark_Lp
-Stop_em9100_Mov_Idle
-stop_ema0000_Mov_Idle
-Stop_ema100_Chg_Laser_Charge
-Stop_ema100_Fir_4Laser
-stop_ema100_Fir_LazerRing
-Stop_ema100_Mov_IdleLoop
-Stop_ema100_Mov_LargeHatchCl
-Stop_ema100_Mov_LargeHatchOp
-Stop_ema100_Mov_SmallHatchCl
-Stop_ema100_Mov_SmallHatchOp
-Stop_emb100_Atk_Hand_Fly_Lp
-Stop_emb100_Atk_Hand_Spin_Lp
-Stop_emb100_Catch_TractorBeam_Lp
-Stop_emb100_Chg_EyeLaser
-Stop_emb100_Dmg_KnockOut_Lp
-Stop_emb100_Fir_TractorBeam_Lp
-Stop_emb100_Mov_BlockWhs_Lp
-Stop_emb100_Mov_Face_Idle_Lp_A
-Stop_emb100_Mov_Face_Idle_Lp_B
-Stop_emb100_Mov_Hand_Idle_Lp_A
-Stop_emb100_Mov_Hand_Idle_Lp_B
-stop_emc100_Fir_Range
-Stop_ev0302_pl0010_Mov_Engin
-Stop_ev0302_pl0010_Mov_Jump_Start
-Stop_ev0601_Mov_GreatFoxAppear
-Stop_ev7031_Mov_Ambient
-Stop_evb281_ba1000_Chg_MainLaserLp
-Stop_evb281_ba1000_Fir_MainLaser
-Stop_evc100_pl_Mov_WaterSplashLp
-Stop_evr21f_em5100_Appear_DRC
-Stop_evr21f_em5100_Appear_TV
-Stop_evr501_OilField_Collapse
-Stop_evr701_Ambience_Lp
-Stop_evr704_Exp_Collapse_01
-Stop_evr704_Exp_Collapse_02_Lp
-Stop_evr704_Exp_EnergyWhs
-Stop_evr704_Exp_Front_01
-Stop_evr704_Exp_Front_02
-Stop_evr704_Exp_Sur_01
-Stop_evr704_Exp_Sur_02
-Stop_evr704_pl0000_Mov_CirclingStart_02
-Stop_evr802_em4100_Exp_Omen
-stop_evr901_em5100_DmgSpark
-Stop_evr902_Mov_GyroWingStartup
-Stop_evra01_pl0010_Mov_Engin
-Stop_evra01_pl0030_Mov_Engin
-Stop_evra1f_em5100_Appear_DRC
-Stop_evra1f_em5100_Appear_TV
-Stop_ev_com_ArwingEngine_Falco
-Stop_ev_com_ArwingEngine_Falco_SFC
-Stop_ev_com_ArwingEngine_Fox
-Stop_ev_com_ArwingEngine_Fox_SFC
-Stop_ev_com_ArwingEngine_Peppy
-Stop_ev_com_ArwingEngine_Peppy_SFC
-Stop_ev_com_ArwingEngine_Slippy
-Stop_ev_com_ArwingEngine_Slippy_SFC
-Stop_ev_com_ba1000_Mov_EngineLoop
-Stop_ev_com_ba1000_Mov_NozzleLoop
-Stop_ev_com_bm1040_Mov_IdleLoop
-Stop_ev_com_em5100_Mov_Idle_Lp
-Stop_ev_com_Grav_Engine
-Stop_ev_com_Mov_CirclingLoop
-Stop_ev_com_Mov_CirclingLoop_Fox
-Stop_ev_com_Mov_CirclingLoop_Fox_SFC
-Stop_ev_com_Mov_CirclingLoop_SFC
-Stop_ev_r103_em1100_Mov_Idle_Out
-Stop_pl0000_All
-Stop_pl0000_Chg_Missile_Lp
-Stop_pl0000_Chg_Missile_Lp_DRC
-Stop_pl0000_Chg_Shoot_Charge
-Stop_pl0000_Chg_Shoot_Charge_DRC
-Stop_pl0000_Mov_G_Defuser_Lp
-Stop_pl0010_All
-Stop_pl0010_Mov_CannonMoving
-Stop_pl0010_Mov_Engine
-Stop_pl0010_Mov_Hover_Lp
-Stop_pl0010_Mov_SideBoost
-Stop_pl0020_All
-Stop_pl0020_Mov_HeadMoving
-Stop_pl0020_Mov_Jump_Start
-Stop_pl0020_Mov_LandStep
-Stop_pl0030_All
-Stop_pl0040_All
-Stop_pl0040_Chg_MissileCon_Lp_DRC
-Stop_pl0040_Chg_Missile_Lp
-Stop_pl0040_Chg_Missile_Lp_DRC
-Stop_pl0040_Mov_LiftLoop
-Stop_pl0040_Mov_LiftLoop_DRC
-Stop_pl0040_Mov_RoterLean_L
-Stop_pl0040_Mov_RoterLean_L_DRC
-Stop_pl0040_Mov_RoterLean_R
-Stop_pl0040_Mov_RoterLean_R_DRC
-Stop_pl0040_Mov_RotorDownMove
-Stop_pl0040_Mov_RotorDownMove_DRC
-Stop_pl0040_Mov_RotorFrontMove
-Stop_pl0040_Mov_RotorFrontMove_DRC
-Stop_pl0040_Mov_RotorLoop
-Stop_pl0040_Mov_RotorLoop_DRC
-Stop_pl0040_Mov_RotorRearMove
-Stop_pl0040_Mov_RotorRearMove_DRC
-Stop_pl0040_Mov_RotorUpMove
-Stop_pl0040_Mov_RotorUpMove_DRC
-Stop_pl0040_Mov_UnderViewEnd
-Stop_pl0040_Mov_UnderViewStart
-Stop_pl0041_Mov_EngineLoop
-Stop_pl0041_Mov_EngineLoop_DRC
-Stop_pl0041_Mov_HackingSignal
-Stop_pl0041_Mov_HackingSignal_A_Lp
-Stop_pl0041_Mov_HackingSignal_A_Lp_DRC
-Stop_pl0050_Mov_Engine
-Stop_pl0050_Mov_Invinciblity
-Stop_pl0060_All
-Stop_pl0060_Chg_Shoot_Charge
-Stop_pl0060_Chg_Shoot_Charge_DRC
-Stop_pl0070_All
-Stop_pl0070_Mov_LandStep
-Stop_pl2000_All
-Stop_pl2000_Mov_Idle_Lp
-Stop_pl2020_All
-Stop_pl2020_Mov_Jump_Start
-Stop_pl2020_Mov_LandStep
-Stop_pl2060_All
-Stop_pl2070_All
-Stop_pl2070_Mov_Jump_Start
-Stop_pl2070_Mov_LandStep
-Stop_pl2500_All
-Stop_Quicksand_Lp
-Stop_r101_Pas_em_Sneak_L
-Stop_r101_Pas_em_Sneak_R
-Stop_r103_Ship_Alarm
-Stop_r202_ship_Alarm
-Stop_r202_Ship_Engine_Lp
-Stop_r202_ship_quake
-Stop_r300_SandWind_Lp
-Stop_r301_Debris_Whoosh
-Stop_r501_BurnerFiring_Lp
-Stop_r802_Ambience_Wind
-Stop_Result_CountUp_Lp
-Stop_SE_AllFadeOut
-Stop_SubResult_CountUp_Lp
-Stop_SubResult_CountUp_Lp_NewRecord
-Stop_wp0022_Mov_IdlePigmaBomb
-Stop_wp0023_Atk_PlasmaSpark_Lp
-UnMute_core_CoopLoading
-Volume_BGM
-Volume_ENV
-Volume_Master
-Volume_SE
-Volume_Voice
 WOLF_COMMON_001
 WOLF_COMMON_002
 WOLF_COMMON_003
@@ -3385,163 +7633,29 @@ WOLF_VENOM_002
 WOLF_VENOM_003
 WOLF_VENOM_004
 WOLF_VENOM_005
-wp000c_Bomb_Fall
-wp000c_Exp_Bomb
-wp0013_Pas_Shoot
-wp0014_Fir_Missile
-wp001c_Chg_Laser_Charge
-wp001c_Fir_Laser_Charge
-wp001d_Brk_Shoot
-wp001d_Fir_Shoot
-wp001d_Pas_Shoot
-wp001e_Pas_Shoot
-wp0021_Bomb_Fall
-wp0021_Bomb_FallImpact
-wp0021_Exp_Bomb_Lp
-wp0022_Exp_PigmaBomb
-wp0022_Mov_IdlePigmaBomb_Lp
-wp0022_Mov_PigmaBombOmen
-wp0023_Atk_PlasmaSpark_Lp
+# 3129826571
 
+### RTPC/GAME-VARIABLE NAMES (langs/vo_core.bnk)
+Voice_3D
 
+### VARIABLE NAMES (langs/vo_core.bnk)
+emb100_body
+SE_HeadphoneMode
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-alive
-amiibo
-angel
-Arwing
-Arwing_sfc
-aura
-bgm_a
-bgm_s
-break
-btl_andorf
-btl_andorf_pre
-btl_andorf_pre_evt
-btl_bossA
-btl_bossAcore
-btl_bossB
-btl_bossC
-btl_career
-btl_kong
-btl_pigma
-btl_wolf
-Buggy
-CameraAngle_H
-CameraAngle_V
-Canyon
-Cave
-Character
-Dark
-dead
-dialogue
-dodora
-DRCEnd
-end
-evskip
-evt_andorf
-False
-far
-Flesh
-FX
-GateOpen
-ground
-HDR
-Hoverwing
-In
-Indoor
-jingle
-Land
-Landmaster
-Load_in_BGM
-Load_in_SE
-Load_out_BGM
-Load_out_SE
-loop
+### VALUE NAMES (langs/vo_core.bnk)
 machine_body
-menu
-Mov_Boost
-Near
-NextTo
-No
-None
-normal
+none
 normal_body
-off
 on
-out
-Return
-reverb
-Se
-se_A
-se_s
-sit_emergency1
-sit_emergency1_2
-sit_emergency2
-sit_hurryup
-sit_stageallclear
-sit_stageclear
-sit_stageclear_fake
-sit_stagecomplete
-sit_superior
-Soundtest
-Soundtest_enter
-Soundtest_exit
-Soundtest_stop
-Soundtest_stop_next
-space
-stage
-start
-Start_core_Map_Briefing
-stg_cave
-stg_colony
-stg_corneria
-stg_corneria2
-stg_defence
-stg_desert
-stg_forest
-stg_forest2
-stg_forest3
-stg_meteo
-stg_oilfield
-stg_sfccorneria
-stg_space1
-stg_space1_inside
-stg_space2
-stg_space3
-stg_space4
-stg_space5
-stg_training
-stg_venom_inside
-Stop
-System
-sys_arcade
-sys_guard
-sys_mapselect
-sys_title
-sys_training
-Title
-True
-tutorial
-voice
-Vo
-Vo_a
-Vo_s
-Walker
-Walker_Sfc
-Yes
-pl_sys
-se_sys
 
-mSet_st1_m3_core_in
-mSet_st1_m3_core_out
-mSet_st2_m2_core_in
-mSet_st2_m2_core_out
+#755446471   : END_001_1s
+#3310517790  : _mot_et0000_4500_s2
+#2780821420  : _mot_et0000_d400_s3
+#942716203   : _Set_r921
+#3117745109  : _Set_rB28
+#1088203476  : mset_CoopRecovery_End_WaterEFX
+#782681301   : Stop_em1100_missile
+#1393553833  : BGM_Briefing_in_LongFade
+#1186173503  : State_Start_core_Off
+#2810475105  : SE_boundary_rf80
+#293772762   : PlateRev

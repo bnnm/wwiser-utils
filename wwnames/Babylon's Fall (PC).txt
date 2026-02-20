@@ -15549,3 +15549,60 @@ azimuth
 Distance
 elevation
 Volume_SE
+
+
+3558393913  : SE_premaster
+3933825301  : VO_Ingame_Action
+
+2988527371  : BGM_Boss_Choir
+1966167868  : BGM_Boss_Orch
+2352875034  : BGM_Boss_Reverb
+3694822849  : BGM_Dungeon_Layer1
+3694822850  : BGM_Dungeon_layer2
+3694822851  : BGM_Dungeon_Layer3
+3694822852  : BGM_Dungeon_Layer4
+3694822852  : BGM_Mob_Inst_gra
+3694822849  : BGM_Mob_Inst_GRD
+1457925577  : BGM_Mob_PERC
+
+2265504068  : moba_Lv5
+2265504071  : moba_LV6
+2903413719  : mobb_Lv5
+2903413716  : mobb_LV6
+1403740163  : BGM_Player_negative
+2504495164  : wpc010_vo_wolf_Razer
+2150685232  : em0425_dive_atk_dive_Sand
+2493954216  : em0425_dive_atk_start_Sand
+2688021453  : Set_bossB
+2688021452  : Set_bossC
+1413016063  : set_moba_Lv5
+1413016060  : set_moba_LV6
+2603157868  : set_mobb_Lv5
+2603157871  : set_mobb_LV6
+3335860705  : em0001_wp_arw_exp_eff
+4071024324  : Evening_rain
+2150653651  : Evening_sunny
+
+
+
+### EVENT NAMES (em0810.bnk)
+3025887870  : em0810_spear_heavy_swing_wsh
+
+### EVENT NAMES (em0900.bnk)
+3892287375  : em0900_s_down_small
+
+### EVENT NAMES (em1000.bnk)
+457235428   : em1000_move_gauntlet_pull_out
+
+### EVENT NAMES (pl0010.bnk)
+1097376532  : pl0014_spear_heavy_swing_wsh
+
+1619656162  : VO_Ingame_Action_Em
+1267326188  : VO_Ingame_Action_pl
+3024478027  : K_Reverb
+
+2033007009  : wpc010_wolf_Razer_charge
+3247363537  : wpc010_wolf_Razer_shot
+3200008899  : wpc010_wolf_Razer_tere
+280624521   : xc9101_Tower_thunder_1st
+4290939334  : xge0f0_ready_spark_loop

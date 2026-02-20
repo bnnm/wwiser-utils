@@ -142,8 +142,11 @@ DynamicDialogue
 
 # bus/fc related
 Master Audio Bus = 0
+Main Audio Bus = 0
 Master Secondary Bus = 0
+Main Secondary Bus = 0
 Master Motion Bus = 0
+Main Motion Bus = 0
 Environmental Bus = 0
 Non Recordable Bus = 0
 Voices

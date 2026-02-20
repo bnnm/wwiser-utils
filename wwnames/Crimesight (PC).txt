@@ -30,6 +30,7 @@ Master Audio Bus = 0
 music_Bus
 Reverb
 sfx_Bus
+SpecialEffects
 # 3004698059
 # 3940806919
 # 2625178604
@@ -37,17 +38,16 @@ sfx_Bus
 # 588873648
 # 1178639433
 # 2309826190
-# 3351527952
 
 ### SFX NAMES (Init.bnk)
 Bass
+Low_Pass_20KHz
 No_Output
+Plate_Large
 Room_Medium
 System
+Underground_Parking1
 # 705582029
-# 1008402193
-# 1144018367
-# 2098638826
 
 ### RTPC/GAME-VARIABLE NAMES (Init.bnk)
 bgVolume
@@ -55,6 +55,7 @@ DistancefromOuterWall
 HeightAboveGround
 MasterVolume
 MusicVolume
+Playback_Rate
 RPM
 SFXVolume
 SS_AIR_FEAR
@@ -67,8 +68,7 @@ SS_AIR_SIZE
 SS_AIR_STORM
 SS_AIR_TIMEOFDAY
 SS_AIR_TURBULENCE
-# 414646191
-# 1524500807
+VoiceVolume
 # 4218633498
 
 ### VARIABLE NAMES (Init.bnk)
@@ -139,6 +139,7 @@ Play_bgm_phase_command_moriarty
 Play_bgm_phase_command_sherlock
 Play_bgm_phase_command_watson
 Play_bgm_phase_final_turn
+Play_bgm_phase_Inference
 Play_bgm_phase_Prologue
 Play_bgm_phase_reasoning
 Play_bgm_phase_reasoning_moriarty
@@ -245,6 +246,7 @@ Play_sfx_p_fs_wlk_l
 Play_sfx_p_fs_wlk_r
 Play_sfx_p_generic_find_item
 Play_sfx_p_generic_get_item_bag
+Play_sfx_p_generic_get_item_pocket
 Play_sfx_p_generic_search_end
 Play_sfx_p_generic_search_injured
 Play_sfx_p_generic_search_injured_retry
@@ -333,6 +335,7 @@ Play_sfx_sys_count_down
 Play_sfx_sys_eat_food
 Play_sfx_sys_find_food
 Play_sfx_sys_game_start
+Play_sfx_sys_get_Evidence
 Play_sfx_sys_get_item
 Play_sfx_sys_get_medicine
 Play_sfx_sys_get_Weapon
@@ -379,6 +382,7 @@ Play_sfx_sys_notice_fix
 Play_sfx_sys_notice_order
 Play_sfx_sys_notice_room
 Play_sfx_sys_notice_room_out
+Play_sfx_sys_notice_Sabotage
 Play_sfx_sys_notice_side_i
 Play_sfx_sys_notice_side_m
 Play_sfx_sys_notice_side_s
@@ -455,12 +459,14 @@ Set_State_app_inactive_mute
 Set_State_app_inactive_no_change
 Set_State_cutscene
 Set_State_cutscene_blizzard
+Set_State_cutscene_blizzard_BU
 Set_State_gas_pipe_repair
 Set_State_gas_pipe_rupture
 Set_State_high_speed
 Set_State_ingame
 Set_State_normal_speed
 Set_State_rescue_blizzard
+Set_State_rescue_blizzard_BU
 Stop_bgm_credit_roll
 Stop_bgm_credit_roll_cancel
 Stop_bgm_home
@@ -483,6 +489,7 @@ Stop_bgm_phase_command_moriarty
 Stop_bgm_phase_command_sherlock
 Stop_bgm_phase_command_watson
 Stop_bgm_phase_final_turn
+Stop_bgm_phase_Inference
 Stop_bgm_phase_Prologue
 Stop_bgm_phase_reasoning
 Stop_bgm_phase_reasoning_moriarty
@@ -535,11 +542,8 @@ Stop_sfx_sys_text_type
 # 348521161
 # 410873530
 # 411028356
-# 485656843
 # 521524085
-# 670572352
 # 727136902
-# 775844416
 # 866637366
 # 916814869
 # 1179004360
@@ -547,20 +551,16 @@ Stop_sfx_sys_text_type
 # 1326265196
 # 1326265203
 # 1420882614
-# 1461877015
 # 1889637982
-# 2021269986
 # 2044455728
 # 2212728560
 # 2308571155
-# 2333262328
 # 2438199996
 # 2458209035
 # 2471873371
 # 2915481774
 # 3018261569
 # 3045318481
-# 3297458130
 # 3508133783
 # 3587520105
 # 3712171883
@@ -672,12 +672,14 @@ Play_sfx_sys_breaker_up
 Play_sfx_sys_chara_select
 Play_sfx_sys_count_down
 Play_sfx_sys_eat_food
+Play_sfx_sys_get_Evidence
 Play_sfx_sys_get_item
 Play_sfx_sys_get_medicine
 Play_sfx_sys_get_Weapon
 Play_sfx_sys_item_get
 Play_sfx_sys_notice_conflict
 Play_sfx_sys_notice_order
+Play_sfx_sys_notice_Sabotage
 Play_sfx_sys_notice_time
 Play_sfx_sys_notice_turn
 Play_sfx_sys_phase_change_final_turn
@@ -690,9 +692,7 @@ Stop_sfx_e_wolf_fs_lp
 Stop_sfx_sys_result_exp_lp_news
 # 304002466
 # 304554390
-# 485656843
 # 613252776
-# 670572352
 # 1583265447
 # 1668927966
 # 1706521819
@@ -801,12 +801,14 @@ Play_sfx_sys_breaker_up
 Play_sfx_sys_chara_select
 Play_sfx_sys_count_down
 Play_sfx_sys_eat_food
+Play_sfx_sys_get_Evidence
 Play_sfx_sys_get_item
 Play_sfx_sys_get_medicine
 Play_sfx_sys_get_Weapon
 Play_sfx_sys_item_get
 Play_sfx_sys_notice_conflict
 Play_sfx_sys_notice_order
+Play_sfx_sys_notice_Sabotage
 Play_sfx_sys_notice_time
 Play_sfx_sys_notice_turn
 Play_sfx_sys_phase_change_final_turn
@@ -816,9 +818,7 @@ Stop_sfx_e_wolf_fs_lp
 Stop_sfx_sys_result_exp_lp_news
 # 304002466
 # 304554390
-# 485656843
 # 613252776
-# 670572352
 # 1583265447
 # 1668927966
 # 1912306288
@@ -892,7 +892,6 @@ Play_sfx_sys_title_load
 Play_sfx_sys_window_close
 Play_sfx_sys_window_open
 Stop_sfx_sys_text_type
-
 
 ### MISSING EVENT NAMES (sfx.bnk)
 # 223965760

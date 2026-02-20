@@ -497,6 +497,7 @@ gramophone_duck
 Master Audio Bus = 0
 SE00_core
 SE00_UI
+SE00_UI_onPause
 SE01_pl
 SE02_em
 SE04_et
@@ -511,12 +512,18 @@ SFX_Voice
 SFX_Witchtime
 SFX_Witchtime_S
 SFX_Witchtime_V
+vo00_core
+vo00_UI
 VO01_pl
 VO01_pl_bayonetta
 VO01_pl_normal
 VO02_em
 VO02_pl_jeanne
 VO02_pl_Normal
+vo04_demon
+vo04_et
+vo05_env
+vo06_Cutscene
 z1200_inTrain
 z1200_inTrain_M
 z1200_inTrain_S
@@ -589,18 +596,11 @@ z8fff_HazamaArea_V
 # 234802845
 # 884087207
 # 916144971
-# 16924301
-# 73336166
 # 649489802
-# 1558194013
-# 2554533036
 # 1162452450
 # 2082234577
 # 4187059711
-# 4153274896
 # 1404372591
-# 4176299345
-# 1795992896
 # 339839419
 # 2439157786
 # 3519189195
@@ -1274,6 +1274,7 @@ BGM_moon_region_02
 BGM_moon_region_03
 BGM_none_0100ms
 BGM_none_0500ms
+BGM_none_10000ms
 BGM_none_1000ms
 BGM_none_1500ms
 BGM_none_2000ms
@@ -1604,6 +1605,8 @@ eva32e_bgm
 eva361_bgm
 eva36f_bgm
 eva38f_bgm
+light_off
+light_on
 stop_1khz
 # 22845425
 # 30439085
@@ -1627,7 +1630,6 @@ stop_1khz
 # 419141063
 # 452334123
 # 461480425
-# 497339030
 # 533483805
 # 577447931
 # 604397520
@@ -1758,7 +1760,6 @@ stop_1khz
 # 3299067962
 # 3309860983
 # 3348059478
-# 3376415477
 # 3376788116
 # 3414468137
 # 3434010546
@@ -1772,7 +1773,6 @@ stop_1khz
 # 3561993805
 # 3564126665
 # 3623603802
-# 3674512137
 # 3687766013
 # 3744937664
 # 3829428045
@@ -1917,6 +1917,7 @@ malphas_tower1_2nd
 none
 none_0100ms
 none_0500ms
+none_10000ms
 none_1000ms
 none_1500ms
 none_2000ms
@@ -2023,7 +2024,6 @@ st_thile_event
 # 119539802
 # 383551577
 # 1718129177
-# 3079130231
 # 4177986484
 # 108037993
 # 1213560798
@@ -2073,6 +2073,8 @@ BGM_bt_centipede
 BGM_bt_kraken1
 BGM_bt_kraken2
 BGM_bt_midboss_root_bayo3
+BGM_bt_Monkey1
+BGM_bt_Monkey2
 BGM_bt_shark_backfin
 BGM_bt_sharkboss_core
 BGM_bt_shin_demon
@@ -2203,9 +2205,9 @@ BGM_gallery_st_worldwar_play
 BGM_gallery_stop_fadeout
 BGM_gallery_stop_immediate
 BGM_Gameover_ev4015_ingame_music
-BGM_Gameover_in
+BGM_Gameover_In
 BGM_Gramophone_Mute
-BGM_gramophone_play
+BGM_Gramophone_Play
 BGM_Gramophone_Unmute
 BGM_InGame_Pause
 BGM_InGame_Resume
@@ -2218,15 +2220,15 @@ BGM_malphas_tower_step_2
 BGM_malphas_tower_step_3
 BGM_malphas_tower_step_4
 BGM_none_1000ms
-BGM_None_1500ms
+BGM_none_1500ms
 BGM_none_2000ms
 BGM_none_3000ms
 BGM_None_4000ms
 BGM_none_5000ms
 BGM_none_6000ms
-BGM_None_7000ms
-BGM_None_8000ms
-BGM_None_9000ms
+BGM_none_7000ms
+BGM_none_8000ms
+BGM_none_9000ms
 BGM_ot_backfire
 BGM_ot_backfire_outro
 BGM_ot_bluessong
@@ -2245,12 +2247,12 @@ BGM_ot_rush_2
 BGM_ot_sp_result
 BGM_ot_spy_op
 BGM_P260_Ch06_A2_Monkey_Boss_Appear
-BGM_p380_jg_impact1
+BGM_P380_JG_Impact1
 BGM_p380_jg_impact1_Pause
 BGM_p380_jg_impact1_Resume
-BGM_p380_Root_Pause
-BGM_p380_root_resume
-BGM_p960_Boss_Appear
+BGM_P380_Root_Pause
+BGM_P380_Root_Resume
+BGM_P960_Boss_Appear
 BGM_path_collapse
 BGM_Pause_In
 BGM_Pause_Out
@@ -2281,7 +2283,7 @@ BGM_root_pause_1000ms
 BGM_root_pause_2000ms
 BGM_root_pause_3000ms
 BGM_root_pause_immediate
-BGM_Root_Reset_Play
+BGM_root_reset_play
 BGM_root_resume
 BGM_root_resume_3000ms
 BGM_root_resume_immediate
@@ -2360,6 +2362,7 @@ BGM_Verse_bt_beta_jeanne
 BGM_Verse_bt_beta_rosa
 BGM_Verse_bt_bigboss
 BGM_Verse_bt_darkeve
+BGM_Verse_bt_fathier
 BGM_Verse_bt_free
 BGM_Verse_bt_kraken1
 BGM_Verse_bt_midboss_bayo1
@@ -2441,6 +2444,8 @@ eva290_bgm
 eva302_bgm
 eva304_bgm
 eva306_bgm
+light_off
+light_on
 st_shinbaal_play
 st_shinbaal_stop
 # 30665504
@@ -2571,8 +2576,6 @@ st_shinbaal_stop
 # 2446085633
 # 2476995316
 # 2488836162
-# 2548149384
-# 2548149387
 # 2549764300
 # 2658644371
 # 2702897473
@@ -2654,7 +2657,6 @@ st_shinbaal_stop
 # 3357822986
 # 3357822991
 # 3374600696
-# 3376415477
 # 3414468137
 # 3455934989
 # 3469443264
@@ -2678,11 +2680,9 @@ st_shinbaal_stop
 # 3587926612
 # 3595600416
 # 3595600418
-# 3595600420
 # 3595600422
 # 3595600428
 # 3604704195
-# 3674512137
 # 3687766013
 # 3710354365
 # 3722147532
@@ -2728,12 +2728,12 @@ SE_core_elevation
 BGM_area_marphas_tower_1
 BGM_area_marphas_tower_2
 BGM_area_marphas_tower_3
-BGM_Area_Sewer
+BGM_area_sewer
 BGM_Area_Story
-BGM_Battle_Ignore
-BGM_Battle_Normal
+BGM_battle_ignore
+BGM_battle_normal
 BGM_Battle_Normal_Segment
-BGM_Battle_Special
+BGM_battle_special
 BGM_Boss
 BGM_bt_dragon
 BGM_bt_gomorra
@@ -2788,6 +2788,8 @@ bt_kraken2
 bt_midboss_bayo1
 bt_midboss_bayo2
 bt_midboss_bayo3
+bt_Monkey1
+bt_Monkey2
 bt_moon
 bt_none
 bt_normal_bayo3
@@ -2800,7 +2802,7 @@ bt_shin_demon
 bt_shin_demon_intro
 bt_shingomorrah
 bt_shinmadame
-bt_shinmadame_Event
+bt_shinmadame_event
 bt_shinmadame_phase_1
 bt_shinmadame_phase_2
 bt_shinmadame_phase_3
@@ -2949,8 +2951,6 @@ start
 true
 veryshort
 # 2859472713
-# 2315431365
-# 2315431366
 # 383551577
 # 2212673982
 # 1132379175
@@ -3028,6 +3028,7 @@ SE_Doppler
 SE_em3010_RollingPow
 SE_em3071_Speed
 SE_em3100_DowsingSonar
+SE_GameMode
 SE_GramophoneDistance
 SE_ListenerPreset
 SE_ListenerPresetFadeTime
@@ -3036,6 +3037,7 @@ se_pl_PlayerType
 SE_pl_WeaponCount
 SE_RoomSide
 SE_Speed
+SE_wp1010_Speed
 SE_z1200_JAlertBroadcast
 SE_z1200_JAlertVol
 SE_z120x_Under_RoomSize
@@ -3070,7 +3072,6 @@ Volume_Voice
 # 842231238
 # 925719049
 # 1009038204
-# 1097893957
 # 1361707482
 # 1545198366
 # 1562902318
@@ -3079,7 +3080,6 @@ Volume_Voice
 # 2387954086
 # 2513103512
 # 2654288125
-# 2693655799
 # 2727409701
 # 2952628149
 # 3173583836
@@ -3097,8 +3097,8 @@ Volume_Voice
 BGM_area_marphas_tower_1
 BGM_area_marphas_tower_2
 BGM_area_marphas_tower_3
-BGM_Area_Sewer
-BGM_Battle_Ignore
+BGM_area_sewer
+BGM_battle_ignore
 BGM_battle_normal
 BGM_battle_normal_intro_moon
 BGM_battle_normal_intro_theme
@@ -3107,7 +3107,7 @@ BGM_battle_normal_outro
 BGM_battle_normal_region_moon
 BGM_battle_normal_region_theme
 BGM_battle_normal_region_viola
-BGM_Battle_Special
+BGM_battle_special
 BGM_bt_shinmadame
 BGM_bt_spy_boss
 BGM_bt_spy_boss_fx
@@ -3145,6 +3145,7 @@ SE_core_ROT
 SE_Core_TitleCall
 SE_Core_UI_ActionBt
 SE_core_WitchTimeslow
+SE_core_WitchTimeSlow_Demons
 SE_em3000_onBoat
 SE_em3000_onWater
 SE_em3010_RollingPow
@@ -3175,7 +3176,6 @@ SE_zafff_ThunderRain
 # 4222228434
 # 3888838402
 # 2681949582
-# 419454288
 # 1885894520
 # 2171841977
 # 1149918946
@@ -3731,8 +3731,8 @@ bh2024_Dmg_DoorBreak
 
 ### EVENT NAMES (ba2027.bnk)
 ba2027_Dmg_Break
+ba2027_Dmg_CannonHit
 ba2027_Mov_Cannon
-# 3654921379
 
 ### RTPC/GAME-VARIABLE NAMES (ba2027.bnk)
 SE_RoomSide
@@ -3890,10 +3890,10 @@ ba80ff_Dmg_Break
 ba80ff_Dmg_ShakeImpact
 ba80ff_Mov_CloseEnd
 ba80ff_Mov_CloseStart
+ba80ff_Mov_TransformEnd
+ba80ff_Mov_TransformStart
+ba80ff_Mov_TransformWhoosh
 # 674232427
-# 2083486775
-# 2215810596
-# 3501836938
 # 4084569560
 
 ### EVENT NAMES (ba8100.bnk)
@@ -3901,9 +3901,9 @@ ba8100_Dmg_Break
 ba8100_Dmg_ShakeImpact
 ba8100_Mov_CloseEnd
 ba8100_Mov_CloseStart
-# 433535671
-# 2034133767
-# 2374709252
+ba8100_Mov_TransformEnd
+ba8100_Mov_TransformStart
+ba8100_Mov_TransformWhoosh
 # 2434522728
 # 3585187471
 
@@ -3971,7 +3971,7 @@ Stop_ba9018_Mov_SawMove
 # 2609658270
 
 ### VALUE NAMES (ba9018.bnk)
-# 3523059132
+SE01_WaterOut
 
 ### EVENT NAMES (ba9019.bnk)
 ba9019_Mov_WaterFun
@@ -3981,7 +3981,7 @@ ba9019_Mov_WaterFunLpStop
 # 2609658270
 
 ### VALUE NAMES (ba9019.bnk)
-# 3523059132
+SE01_WaterOut
 
 ### EVENT NAMES (ba9046.bnk)
 ba9041_Mov_SmallLiftLp
@@ -4073,22 +4073,22 @@ SE00_on
 
 ### EVENT NAMES (bab001.bnk)
 bab001_Dmg_Break
+bab001_Dmg_GunHit
 bab001_Dmg_PunchHit
 bab001_Dmg_shake
 bab001_Dmg_SwordHit
-# 1706252332
-# 3110658054
+bab001_Dmg_WhipHit
 
 ### EVENT NAMES (bab002.bnk)
 bab002_Dmg_Break
+bab002_Dmg_GunHit
 bab002_Dmg_PunchHit
 bab002_Dmg_shake
 bab002_Dmg_SwordHit
+bab002_Dmg_WhipHit
 bab002_Mov_DisappearBoxParts
 bab002_Mov_GetBoxParts
 bab002_Mov_RestorationBox
-# 3063169147
-# 3067647943
 
 ### EVENT NAMES (bab030.bnk)
 bab030_idle_loop
@@ -5252,6 +5252,7 @@ bac001_Dmg_shake
 bac001_Mov_Slide
 bac002_Dmg_Break00
 bac002_Dmg_Collision
+bac002_Dmg_frame
 bac002_Dmg_shake
 bac002_Mov_Slide
 bac003_Dmg_Break00
@@ -5259,10 +5260,44 @@ bac003_Dmg_Collision
 bac003_Dmg_frame
 bac003_Dmg_shake
 bac003_Mov_Slide
+bac004_Dmg_Break00
+bac004_Dmg_Collision
+bac004_Dmg_frame
+bac004_Dmg_shake
+bac004_Mov_Slide
+bac005_Dmg_Break00
+bac005_Dmg_Collision
+bac005_Dmg_frame
+bac005_Dmg_shake
+bac005_Mov_Slide
+bac006_Dmg_Break00
+bac006_Dmg_Collision
+bac006_Dmg_frame
+bac006_Dmg_shake
+bac006_Mov_Slide
+bac007_Dmg_Break00
+bac007_Dmg_Collision
+bac007_Dmg_frame
+bac007_Dmg_shake
+bac007_Mov_Slide
+bac009_Dmg_Break00
+bac009_Dmg_Collision
+bac009_Dmg_frame
+bac009_Dmg_shake
+bac009_Mov_Slide
+bac00a_Dmg_Break00
+bac00a_Dmg_Collision
+bac00a_Dmg_frame
+bac00a_Dmg_shake
+bac00a_Mov_Slide
 bac00e_Dmg_Break00
 bac00e_Dmg_Collision
+bac00e_Dmg_frame
 bac00e_Dmg_shake
 bac00e_Mov_Slide
+bac030_Dmg_Break00
+bac030_Dmg_Collision
+bac030_Dmg_shake
 bac711_Dmg_Break00
 bac711_Dmg_Collision
 bac711_Dmg_frame
@@ -5286,6 +5321,7 @@ core_Dmg_CommonDownS
 core_Dmg_DarkDeathExp
 core_Dmg_DarkDeathPre
 core_Dmg_ElecLp
+core_Dmg_ElecLpl
 core_Dmg_em_CounterHit
 core_Dmg_em_SwingStabHit
 core_Dmg_em_SwingStabHitM
@@ -5348,10 +5384,12 @@ core_Mov_AngelAppearS
 core_Mov_AngelBarAppear
 core_Mov_AngelBarBreak
 core_Mov_AngelTelegraph
+core_Mov_AngelWeaponVanish
 core_Mov_BarrierBreak
 core_Mov_BarrierWall
 core_Mov_BaseWindNoiseLp_City
 core_Mov_BaseWindNoiseLp_Tunnel
+core_Mov_cartridges
 core_Mov_ComboSummonsLight
 core_Mov_DemonFemale
 core_Mov_DemonMale
@@ -5365,6 +5403,7 @@ core_Mov_DemonTelegraph
 core_Mov_DevilBarAppear
 core_Mov_DevilBarBreak
 core_Mov_DevilBibble
+core_Mov_DevilWeaponVanish
 core_Mov_EnemyGuard
 core_Mov_EnemyRageStart
 core_Mov_FinishSlowInL
@@ -5407,6 +5446,7 @@ core_Pause_Event
 core_Pause_Event_Body
 core_Pause_Normal
 core_Pause_SubMenu
+core_Pause_SubMenu_SwingRoll
 core_PE_GetWitchTears
 core_PE_toWitchTears
 core_Resume_Event
@@ -5467,6 +5507,7 @@ core_UI_ChallengeAppearA
 core_UI_ChallengeAppearB
 core_UI_ChallengeDisappearA
 core_UI_ChallengeDisappearB
+core_UI_ChapterMenu_AmbienceVolume
 core_UI_ChapterMenu_Cancel
 core_UI_ChapterMenu_In
 core_UI_ChapterMenu_MainCursol
@@ -5975,10 +6016,19 @@ Set_State_VerseIn_noCircle
 Set_State_VerseOut
 stop_bac000_Dmg_frame
 stop_bac001_Dmg_frame
+stop_bac002_Dmg_frame
 stop_bac003_Dmg_frame
+stop_bac004_Dmg_frame
+stop_bac005_Dmg_frame
+stop_bac006_Dmg_frame
+stop_bac007_Dmg_frame
+stop_bac009_Dmg_frame
+stop_bac00a_Dmg_frame
+stop_bac00e_Dmg_frame
 stop_bac711_Dmg_frame
 stop_bac712_Dmg_frame
 Stop_core_Dmg_ElecLp
+Stop_core_Dmg_ElecLpl
 Stop_core_Mov_AlfheimHoleLp
 Stop_core_Mov_BaseWindNoiseLp_City
 Stop_core_Mov_BaseWindNoiseLp_Tunnel
@@ -5993,13 +6043,11 @@ Stop_core_UI_SkillCharge
 Stop_core_UI_SP_CounterLp
 Stop_eva121
 Stop_Event_Effect_Global
+Stop_pl1010_All
 wp10f0_Dmg_wp013dExp
 wp3100_Atk_GroundScratch
 # 220813
-# 14764532
 # 32937051
-# 47034529
-# 58890930
 # 90505895
 # 130882452
 # 147254882
@@ -6012,25 +6060,18 @@ wp3100_Atk_GroundScratch
 # 292250168
 # 329840027
 # 349372422
-# 448932971
 # 452864509
 # 470579710
-# 485230684
-# 531866744
 # 536212698
-# 565535368
 # 565733556
 # 580073176
-# 600320289
 # 617420617
 # 633340283
 # 636351707
-# 651070492
 # 661649944
 # 703664160
 # 727120361
 # 728918146
-# 734693713
 # 748651022
 # 762701399
 # 772168564
@@ -6043,15 +6084,12 @@ wp3100_Atk_GroundScratch
 # 893486455
 # 895127994
 # 908326824
-# 923263185
 # 933270494
 # 947016514
-# 954442087
 # 994251020
 # 997496568
 # 1005314845
 # 1060237143
-# 1075406852
 # 1123677830
 # 1133530861
 # 1134450320
@@ -6059,72 +6097,55 @@ wp3100_Atk_GroundScratch
 # 1143665647
 # 1164688680
 # 1177483943
-# 1189183364
 # 1194829477
 # 1198938427
 # 1237588047
 # 1243660234
-# 1253428331
-# 1253563013
 # 1329101785
 # 1356091664
 # 1360618006
 # 1362969879
 # 1376003338
 # 1393564818
-# 1428916794
 # 1434231697
 # 1474251561
 # 1474932476
 # 1479071633
-# 1492676820
 # 1499118096
-# 1516014487
 # 1535735273
 # 1537500502
 # 1543701027
 # 1556665415
 # 1614515858
 # 1619822129
-# 1629978776
 # 1671489149
 # 1692155684
 # 1702303696
-# 1702760726
 # 1714365036
-# 1776692656
 # 1791130768
 # 1792110146
-# 1824120729
 # 1827485673
 # 1865223710
 # 1919101168
 # 1946325464
-# 1952552644
 # 1952642971
 # 1956293159
 # 1956845594
 # 1973854901
-# 1976225961
 # 1983109032
 # 2007221467
 # 2010801090
 # 2014070281
 # 2038787432
 # 2047971238
-# 2071182659
 # 2129599644
 # 2147900117
-# 2148813579
 # 2206543435
 # 2251410036
-# 2257661878
 # 2259953036
-# 2264500119
 # 2276742514
 # 2294395808
 # 2304571503
-# 2313360402
 # 2327713360
 # 2337632607
 # 2342119831
@@ -6146,10 +6167,8 @@ wp3100_Atk_GroundScratch
 # 2614115952
 # 2661444070
 # 2680868311
-# 2685590015
 # 2703238084
 # 2712001044
-# 2717515475
 # 2724226282
 # 2728944555
 # 2750728567
@@ -6157,7 +6176,6 @@ wp3100_Atk_GroundScratch
 # 2767575905
 # 2774284866
 # 2774284867
-# 2774284892
 # 2879745076
 # 2884913367
 # 2913470523
@@ -6174,17 +6192,11 @@ wp3100_Atk_GroundScratch
 # 3073255957
 # 3090844382
 # 3093656465
-# 3095726777
-# 3115787775
-# 3121697857
-# 3139043323
 # 3161948010
 # 3164230706
 # 3204309059
 # 3218046691
 # 3302686233
-# 3326835438
-# 3339809974
 # 3401348643
 # 3422514586
 # 3492888009
@@ -6192,13 +6204,8 @@ wp3100_Atk_GroundScratch
 # 3513020448
 # 3524676002
 # 3535293590
-# 3549653540
 # 3577476762
-# 3593806980
-# 3630207745
-# 3631978248
 # 3634475462
-# 3636754635
 # 3648260141
 # 3660664095
 # 3669882405
@@ -6207,34 +6214,27 @@ wp3100_Atk_GroundScratch
 # 3757851352
 # 3774847726
 # 3795607028
-# 3804663158
 # 3809539418
 # 3861220315
 # 3875837711
 # 3879974267
 # 3911108973
 # 3940148121
-# 3961388179
 # 3972150011
 # 3995706151
-# 3996824925
 # 3996863689
-# 4011617702
 # 4052839741
 # 4075716261
 # 4075980806
 # 4086786321
 # 4094984035
 # 4095488454
-# 4124621360
 # 4130069373
 # 4133210948
-# 4141678510
 # 4163724409
 # 4183512064
 # 4197787533
 # 4197905695
-# 4215850315
 # 4222699477
 # 4250125077
 
@@ -6260,9 +6260,9 @@ SE_core_elevation
 SE_Core_UI_ActionBt
 SE_core_UI_ActionBt_time
 SE_core_UI_CountDown
+SE_GameMode
 SE_RoomSide
 SE_z4fff_WarAmb_Subtract
-# 2693655799
 # 3282654400
 # 3383320150
 # 959592784
@@ -6341,6 +6341,7 @@ SE01_First
 SE01_In
 SE01_InBattle
 SE01_Look
+SE01_Lv01
 SE01_metal
 SE01_normal
 SE01_off
@@ -6372,13 +6373,14 @@ SE06_Stone
 SE07_Iron
 SE07_Lv07
 SE07_p460_start
+SE08_Ironplate
 SE08_Lv08
 SE08_p460_Gomo_Ride_Battle
 SE09_Lv09
+SE09_wiremesh
+SE10_Lv10
+SE10_tree
 # 4057376378
-# 3421924726
-# 1511455655
-# 1339693097
 # 3543274589
 # 3883740555
 # 2720972
@@ -6418,8 +6420,6 @@ SE09_Lv09
 # 2915182441
 # 4266952426
 # 2235435211
-# 880996
-# 1023316268
 # 3901459922
 # 1653127645
 # 1132379175
@@ -6446,6 +6446,8 @@ em0000_Mov_MagicLandEnd
 em0000_Mov_MagicLandEnd_EA
 em0000_Mov_MagicLandStart
 em0000_Mov_MagicLandStart_EA
+em0000_Mov_MagicTelegraph
+em0000_Mov_MagicTelegraph_EA
 em0000_Mov_Wing
 em0000_Mov_Wing_EA
 em0000_voe_Atk_Common
@@ -6470,6 +6472,8 @@ em0000_voe_Dmg_Heavy
 em0000_voe_Dmg_Heavy_EA
 em0000_voe_Dmg_Light
 em0000_voe_Dmg_Light_EA
+em0000_voe_Mov_FlyWait
+em0000_voe_Mov_FlyWait_EA
 em0000_voe_Mov_Howl
 em0000_voe_Mov_Howl_EA
 em0000_voe_Mov_Jump
@@ -6484,10 +6488,6 @@ em0000_voe_Mov_Wait
 em0000_voe_Mov_Wait_EA
 em0000_Wsh_ClawAttack
 em0000_Wsh_ClawAttack_EA
-# 1336439746
-# 2206975953
-# 2418491931
-# 3136515032
 
 ### SFX NAMES (em0000.bnk)
 SE_PG_Simple3D
@@ -6682,6 +6682,7 @@ em0030_Mov_RodeoImp_EA
 em0030_Mov_Takeoff
 em0030_Mov_Takeoff_EA
 em0030_Mov_Wing
+em0030_Mov_Wing_EA
 em0030_voe_Atk_BackKick
 em0030_voe_Atk_BackKick_EA
 em0030_voe_Atk_BangDown
@@ -6699,6 +6700,7 @@ em0030_voe_Atk_LanceSting_EA
 em0030_voe_Atk_LargeBrandish
 em0030_voe_Atk_LargeBrandish_EA
 em0030_voe_Atk_S
+em0030_voe_Atk_S_EA
 em0030_voe_Atk_Threat
 em0030_voe_Atk_Threat_EA
 em0030_voe_Dmg_Death
@@ -6708,17 +6710,15 @@ em0030_voe_Dmg_L_EA
 em0030_voe_Dmg_S
 em0030_voe_Dmg_S_EA
 em3010_voe_Dmg_Light_Dmg_Burning
+em3010_voe_Dmg_Light_Dmg_Burning_EA
 stop_em0030_Atk_ChargeLp
 # 878484373
 # 893930867
 # 1097419118
-# 1109461946
 # 1160290872
-# 1217650745
 # 1260024874
 # 1463359583
 # 2032391453
-# 2061794796
 # 2422749937
 # 2887161433
 # 2909166692
@@ -6752,6 +6752,7 @@ em0050_Atk_AntiAirWsh
 em0050_Atk_FaceHit
 em0050_Atk_GroundShaverEnd
 em0050_Atk_GroundShaverLp
+em0050_Atk_GroundSweepRock
 em0050_Atk_JumpThrushDownWsh
 em0050_Atk_JumpThrustImpact
 em0050_Atk_PlumeMissileExp
@@ -6772,6 +6773,7 @@ em0050_Atk_ViolentSwordSwingA
 em0050_Atk_ViolentSwordSwingB
 em0050_Atk_ViolentSwordSwingC
 em0050_Atk_ViolentSwordSwingD
+em0050_Dmg_BodyBreak
 em0050_Dmg_DownImpact
 em0050_Mov_Armor
 em0050_Mov_ArmorFast
@@ -6818,11 +6820,9 @@ em0050_voe_DmgLight
 em0050_voe_DmgMid
 em0050_voe_DmgStaggerReturn
 em0050_voe_DmgWallStaggerRetrun
-# 556880821
 # 1024461714
 # 1052246013
 # 1317544195
-# 1413273274
 # 1697121867
 # 2020030904
 # 3543663725
@@ -6965,6 +6965,7 @@ em0150_Atk_LavaGush
 em0150_Atk_StompImpact
 em0150_Atk_VerticalImpact
 em0150_Dmg_LargeDown
+em0150_Mov_ArmorBreak
 em0150_Mov_AxePull
 em0150_Mov_Debris
 em0150_Mov_Down
@@ -7005,7 +7006,6 @@ em0150_Wsh_VerticalSwish
 # 1322266867
 # 2219133903
 # 2288710623
-# 4006395747
 
 ### SFX NAMES (em0150.bnk)
 SE_PG_Simple3D
@@ -7121,6 +7121,7 @@ em0410_Atk_TypeD_SpinStompEd
 em0410_Atk_TypeD_SpinStompImpact
 em0410_Atk_TypeD_SpinStompSt
 em0410_Dmg_BreakPartsDrop
+em0410_Dmg_CoreDamage
 em0410_Dmg_DeathExp
 em0410_Dmg_PartsBreak
 em0410_Mov_Appear
@@ -7153,7 +7154,6 @@ Stop_em0410_Mov_TypeB_BaseLp
 Stop_em0410_Mov_TypeC_BaseLp
 Stop_em0410_Mov_TypeD_BaseLp
 # 1508785970
-# 1691973534
 # 1713839336
 # 4218950211
 
@@ -7221,12 +7221,12 @@ em1010_Mov_Footsteps_End
 em1010_Mov_Footsteps_Start
 em1010_Mov_Gun
 em1010_Mov_Sit
+em1010_Mov_Squatting
 em1010_Mov_Standing
 em1010_Mov_Standup
 em1010_Mov_Stop
 em1010_Mov_Wavehand
 em1010_Mov_Wavehand_strong
-# 1608101763
 
 ### SFX NAMES (em1010.bnk)
 SE_PG_Simple3D
@@ -7419,11 +7419,11 @@ em2020_voe_Rush
 em2020_voe_ViolentA
 em2020_voe_Violentb
 Stop_em2020_Mov_RushWshLp
+Stop_em2020_Mov_Slideing
 # 2888252
 # 1984111319
 # 2036731308
 # 3128469842
-# 4216164229
 
 ### SFX NAMES (em202f.bnk)
 SE_PG_Simple3D
@@ -7714,6 +7714,7 @@ em2080_Atk_BiteGroundImpact_EA
 em2080_Atk_BiteImpactA
 em2080_Atk_BiteImpactA_EA
 em2080_Atk_BiteImpactB
+em2080_Atk_BiteImpactB_EA
 em2080_Atk_BiteImpactC
 em2080_Atk_BiteImpactC_EA
 em2080_Atk_BladeFiringMidST
@@ -7767,6 +7768,7 @@ em2080_voe_Death_EA
 em2080_voe_Dmg
 em2080_voe_Dmg_EA
 em2080_voe_Missile
+em2080_voe_Missile_EA
 em2080_voe_PreStomp
 em2080_voe_PreStomp_EA
 em2080_voe_PreStompSTG
@@ -7774,8 +7776,6 @@ em2080_voe_Stomp
 em2080_voe_Stomp_EA
 Stop_em2080_Atk_LaserFiringLpST
 Stop_em2080_Atk_LaserPass
-# 911303394
-# 1316205740
 
 ### SFX NAMES (em2080.bnk)
 SE_PG_Simple3D
@@ -7954,6 +7954,7 @@ em20c0_Mov_FallWsh
 em20c0_Mov_LampLighting
 em20c0_Mov_RebuildLock
 em20c0_Mov_TimeArea_After
+em20c0_Mov_TimeArea_befor
 em20c0_Mov_TimeAreaEnd
 em20c0_Mov_TimeAreaLp
 em20c0_Mov_TimeCount
@@ -7989,7 +7990,6 @@ Stop_em20c0_Mov_WaitSleepLp
 # 2157225705
 # 2157225706
 # 2157225707
-# 3095778787
 
 ### SFX NAMES (em20c0.bnk)
 SE_PG_Simple3D
@@ -8067,6 +8067,7 @@ em2100_Atk_LaserExplosion
 em2100_Atk_LaserFiring
 em2100_Atk_LaserFiring_EA
 em2100_Atk_LaserFiring_Hazama
+em2100_Atk_LaserLandImpact
 em2100_Atk_LaserPass
 em2100_Atk_LaserPass_EA
 em2100_Atk_LaserPass_Hazama
@@ -8148,6 +8149,7 @@ em2100_Mov_PreFingerAction
 em2100_Mov_PreFingerAction_EA
 em2100_Mov_PreFingerAction_RT
 em2100_Mov_Skin
+em2100_Mov_Skin_EA
 em2100_Mov_Skin_RT
 em2100_Mov_SpAppear_EA
 em2100_Mov_SpAppear_RT
@@ -8205,6 +8207,7 @@ Stop_em2100_All
 Stop_em2100_Atk_GuidedFiringLp
 Stop_em2100_Atk_GuidedFiringLp_EA
 Stop_em2100_Atk_LaserFiring
+Stop_em2100_Atk_LaserFiring_EA
 Stop_em2100_Atk_LaserPass
 Stop_em2100_Atk_LaserPass_EA
 Stop_em2100_Atk_LaserPass_Hazama
@@ -8214,11 +8217,8 @@ Stop_em2100_Atk_LightLaserPass
 # 589834180
 # 700654118
 # 1029728666
-# 2647839326
 # 2782571091
 # 2967124983
-# 3376514894
-# 3461313788
 # 3536276472
 # 3693260542
 # 3787940680
@@ -8594,6 +8594,7 @@ em2620_Atk_BarrierSpellEd
 em2620_Atk_BarrierSpellLp
 em2620_Atk_BarrierSpellStart
 em2620_Atk_BlackHoleAppear
+em2620_Atk_BlackHoleDisappear
 em2620_Atk_BlackHoleVacuumLp
 em2620_Atk_BladeFiringMidST
 em2620_Atk_BladeFiringSide
@@ -8654,7 +8655,6 @@ Stop_em2620_Atk_VanishLp
 Stop_em2620_Mov_FlyLp
 # 814474082
 # 3365143403
-# 3446171307
 
 ### EVENT NAMES (em2800.bnk)
 em2800_Atk_FallLaserCharge
@@ -8774,6 +8774,7 @@ em3000_Atk_FireBallShot_RT
 em3000_Atk_FireBreath
 em3000_Atk_FireBreath_RT
 em3000_Atk_FireBreathCharge
+em3000_Atk_FireBreathCharge_RT
 em3000_Atk_FireBreathEnd
 em3000_Atk_FireBreathEnd_RT
 em3000_Atk_FireBreathStart_RT
@@ -8783,16 +8784,27 @@ em3000_Atk_PredationCatch
 em3000_Atk_PredationCatch_RT
 em3000_Atk_PredationThrow
 em3000_Atk_TORNADE
+em3000_Atk_TORNADE_RT
 em3000_Atk_TornadeChinCrash
 em3000_Atk_TornadeChinCrash_RT
 em3000_Atk_TornadeChinFailed
 em3000_Atk_TornadeChinFailed_RT
 em3000_Atk_TornadeDeathImpact
 em3000_Atk_TornadeDeathImpact_RT
+em3000_Atk_TornadeEnd
+em3000_Atk_TornadeEnd_RT
+em3000_Atk_TripleBombEnergy
+em3000_Atk_TripleBombEnergy_RT
+em3000_Atk_TripleBombExp
+em3000_Atk_TripleBombExp_RT
+em3000_Atk_TripleBombShot
+em3000_Atk_TripleBombShot_RT
 em3000_Dmg_PreSplitDeath
 em3000_Dmg_PreSplitDeath_RT
 em3000_Dmg_SplitDeath
 em3000_Dmg_SplitDeath_RT
+em3000_Dmg_WallHit
+em3000_Dmg_WallHit_RT
 em3000_Mov_FootStep
 em3000_Mov_FootStep_RT
 em3000_Mov_Land
@@ -8814,6 +8826,8 @@ em3000_voe_Atk_FireBreathStart
 em3000_voe_Atk_FireBreathStart_RT
 em3000_voe_Atk_Roar
 em3000_voe_Atk_Roar_RT
+em3000_voe_Atk_RoarCharge
+em3000_voe_Atk_RoarCharge_RT
 em3000_voe_Atk_Slam_A
 em3000_voe_Atk_Slam_A_RT
 em3000_voe_Atk_Slam_B
@@ -8851,30 +8865,16 @@ em3000_Wsh_TailSwing
 Stop_em3000_Atk_DarkLaserFiringLp
 Stop_em3000_Atk_DiffuseLaserFiringLp
 Stop_em3000_Atk_FireBreath
-# 114927328
 # 151670632
-# 173767874
-# 309358550
 # 342000409
 # 612009012
-# 653224005
-# 731739577
-# 804802912
 # 865678312
-# 962994921
 # 1197313480
-# 1413014046
-# 1469818185
-# 1847733246
 # 2406466305
 # 2486216037
 # 2904313694
 # 3020619055
 # 3160157921
-# 3220786611
-# 3620792633
-# 3764824212
-# 3993948549
 # 4157522618
 # 4208277983
 
@@ -9023,6 +9023,7 @@ em3010_voe_Atk_ClawSlash
 em3010_voe_Atk_FireBall
 em3010_voe_Atk_FireBlast
 em3010_voe_Atk_Upper
+em3010_voe_Dmg_Heavy
 em3010_voe_Dmg_Light
 em3010_voe_Mov_Cave
 em3010_voe_Mov_ChildBreed
@@ -9039,7 +9040,6 @@ Stop_em3010_Mov_FireballPassLoop
 # 80768617
 # 319493986
 # 375393750
-# 606960859
 # 1511433645
 # 1588764542
 # 1964529906
@@ -9162,6 +9162,7 @@ em3030_Dmg_Down
 em3030_Mov_ActionSound
 em3030_Mov_AttackPlantGround
 em3030_Mov_AttackPlantPrep
+em3030_Mov_BigMagicExplosion
 em3030_Mov_BigMagicShotCharge
 em3030_Mov_Footsteps_FL
 em3030_Mov_Footsteps_FR
@@ -9211,7 +9212,6 @@ em3031_Mov_FlowerSwingRet
 em3031_Mov_FlowerWait
 em3031_Wsh_FlowerSwing
 # 2447484677
-# 3331973797
 # 3470703378
 
 ### SFX NAMES (em303f.bnk)
@@ -9302,6 +9302,7 @@ em3050_Atk_ElecLaserLp
 em3050_Atk_LightningThunder
 em3050_Atk_RushWsh
 em3050_Atk_SingleShot
+em3050_Atk_SonicBoom
 em3050_Atk_TailWshA
 em3050_Atk_TailWshB
 em3050_Atk_TailWshC
@@ -9337,7 +9338,6 @@ em3050_Wsh_Upper
 Stop_em3050_Atk_BitCutterLp
 Stop_em3050_Atk_ElecLaserLp
 Stop_em3050_Mov_LaserCharge
-# 891665182
 # 2823917633
 
 ### SFX NAMES (em305f.bnk)
@@ -9431,9 +9431,12 @@ em1020_Mov_DashLoop
 em1020_Mov_EvadeEnd
 em1020_Mov_EvadeStart
 em1020_Mov_FlyLoop
+em1020_Mov_FootStep_L
+em1020_Mov_FootStep_R
 em1020_Mov_GattlingStance
 em1020_Mov_GattlingStanceEnd
 em1020_Mov_JetLoop_TurnScrape
+em1020_Mov_JetStart
 em1020_Mov_Jump
 em1020_Mov_Land
 em1020_Mov_LegShotStance
@@ -9464,6 +9467,7 @@ em3071_Mov_FootStep_R
 em3071_Mov_GattlingStance
 em3071_Mov_GattlingStanceEnd
 em3071_Mov_JetLoop_TurnScrape
+em3071_Mov_JetStart
 em3071_Mov_Jump
 em3071_Mov_Land
 em3071_Mov_LegShotStance
@@ -9482,12 +9486,8 @@ stop_em1020_Mov_FlyLoop
 Stop_em3071_Mov_DashLoop
 Stop_em3071_Mov_FlyLoop
 # 904602660
-# 1552755375
 # 1715587054
 # 3063939750
-# 3377436631
-# 3705898721
-# 3705898751
 # 3950298700
 
 ### SFX NAMES (em307e.bnk)
@@ -9752,6 +9752,7 @@ em3090_voe_Dmg_Death
 em3090_voe_Dmg_Dizzy
 em3090_voe_Dmg_Down
 em3090_voe_Dmg_Numb
+em3090_voe_Dmg_PreDeath
 em3090_voe_Dmg_Tighten
 em3090_voe_Mov_Avoid
 em3090_voe_Mov_Jump
@@ -9762,6 +9763,7 @@ em3090_voe_Mov_MoreJump
 em3090_voe_Mov_PreKiss
 em3090_voe_Mov_RunBreath
 em3090_voe_Mov_SexyAppeal
+em3090_voe_Mov_SideStep
 em3090_Wsh_ClawSwing
 em3090_Wsh_FinishSwing
 em3090_Wsh_RushSting
@@ -9769,10 +9771,8 @@ em3090_Wsh_Sting
 em3090_Wsh_Swing
 Stop_em3090_Atk_BombCharge
 Stop_em3090_Mov_ButterflyLp
-# 1536961827
 # 1591016280
 # 2519756454
-# 3915896061
 
 ### SFX NAMES (em309f.bnk)
 SE_PG_Simple3D
@@ -9792,6 +9792,33 @@ SE01_normal
 SE02_playable
 
 ### EVENT NAMES (em30af.bnk)
+em0072_Atk_ShakeOffImpact
+em0072_Atk_StepIn
+em0072_Atk_TailWsh
+em0072_Dmg_BlowOffFallA
+em0072_Dmg_BlowOffFallb
+em0072_Dmg_BlowOffFallC
+em0072_Mov_DarkDisappear
+em0072_Mov_DarkPortal
+em0072_Mov_Footstep_Run
+em0072_Mov_Footstep_Walk
+em0072_Mov_HornGrow
+em0072_Mov_PreWingGuardOp
+em0072_Mov_RaiseBodyFaceDown
+em0072_Mov_RaiseBodyFaceUp
+em0072_Mov_RunWing
+em0072_Mov_ShakeOffWing
+em0072_Mov_TailMove
+em0072_Mov_Takeoff
+em0072_Mov_WalkSkin
+em0072_Mov_Wing
+em0072_Mov_WingGuardCl
+em0072_Mov_WingGuardOp
+em0072_voe_AtkLong
+em0072_voe_AtkShort
+em0072_voe_Death
+em0072_voe_DmgStrong
+em0072_voe_DmgWeak
 em30a0_Atk_3BatteryFiring
 em30a0_Atk_BatteryFiring
 em30a0_Atk_CoalFire
@@ -9818,6 +9845,7 @@ em30a0_voe_Bite
 Stop_em30a0_Atk_SpiritBelchLp
 Stop_em30a0_Mov_RunLp
 Stop_em30a0_Mov_SpiritRailLp
+Stop_wp0151_Atk_SwordGroundHit
 wp0150_Atk_SickleDownWsh
 wp0150_Atk_SickleRaises
 wp0150_Atk_SickleShakeOffImp
@@ -9834,39 +9862,11 @@ wp0152_Atk_ShotgunReady
 wp0152_Atk_ShotgunShot
 wp0152_Atk_ShotgunSpin
 wp0152_Atk_ShotgunSwing
-# 9302970
-# 30223585
-# 39300663
-# 172514454
-# 503797454
-# 522663686
-# 889643292
 # 910280186
-# 927203387
 # 1079039657
 # 1146668773
-# 1333667084
-# 1527075588
-# 1707845677
-# 1823175389
-# 1948625330
-# 2111417370
 # 2138315511
-# 2242386565
-# 2242386566
-# 2242386567
-# 2797578889
-# 2916702286
-# 2927881874
-# 2976437660
-# 3160535143
-# 3249017166
-# 3593150834
-# 3615547427
 # 3629903217
-# 4067439517
-# 4198208432
-# 4267157631
 
 ### SFX NAMES (em30af.bnk)
 SE_PG_Simple3D
@@ -9880,8 +9880,11 @@ SE_core_elevation
 ### EVENT NAMES (em30ff.bnk)
 em30f0_Atk_BlackHoleAppear
 em30f0_Atk_BlackHoleLp
+em30f0_Atk_BlackHoleVanish
 em30f0_Atk_Blocking
 em30f0_Atk_ChargeDashStraightPunch
+em30f0_Atk_ChargeHeadButt
+em30f0_Atk_ChargeSlam
 em30f0_Atk_EyeBeamHit
 em30f0_Atk_EyeBeamShot
 em30f0_Atk_LightningThunder
@@ -9921,9 +9924,6 @@ em30f0_Wsh_PunchSwing
 Stop_em30f0_Atk_BlackHoleLp
 Stop_em30f0_Atk_VacuumLp
 # 143377085
-# 733430693
-# 1887784739
-# 3399823296
 
 ### SFX NAMES (em30ff.bnk)
 SE_PG_Simple3D
@@ -9944,10 +9944,10 @@ SE03_Sand
 SE04_gravel
 SE06_Stone
 SE07_Iron
+SE08_Ironplate
+SE09_wiremesh
+SE10_tree
 # 4057376378
-# 3421924726
-# 1511455655
-# 1339693097
 # 3543274589
 # 3883740555
 # 2720972
@@ -10020,6 +10020,7 @@ em3100_Mov_TailReturn
 em3100_Mov_WalkSkin
 em3100_voe_Act_Badlucky
 em3100_voe_Act_EmDefeat
+em3100_voe_Act_Flinch
 em3100_voe_Act_Lucky
 em3100_voe_Act_toFriendEmDefeat
 em3100_voe_Act_toFriendPinch
@@ -10040,6 +10041,7 @@ em3100_voe_Dmg_Dizzy
 em3100_voe_Dmg_Down
 em3100_voe_Dmg_LowLife
 em3100_voe_Dmg_Numb
+em3100_voe_Dmg_PreDeath
 em3100_voe_Dmg_Tighten
 em3100_voe_Mov_Avoid
 em3100_voe_Mov_DashBreath
@@ -10050,8 +10052,6 @@ em3100_voe_Mov_RunBreath
 em3100_voe_Mov_SideStep
 Stop_em3100_Mov_DowsingBingoLp
 Stop_em3100_Mov_DowsingSonarLp
-# 24966203
-# 2699197438
 
 ### SFX NAMES (em3100.bnk)
 # 43236866
@@ -10135,11 +10135,11 @@ SE_core_Azimuth
 SE_core_elevation
 
 ### EVENT NAMES (eme005.bnk)
+eme005_Atk_LaserExp
 eme005_Atk_TailLaserEnd
 eme005_Atk_TailLaserLp
 eme005_idle_loop
 stop_eme005_idle_loop
-# 1825718355
 
 ### SFX NAMES (eme005.bnk)
 SE_PG_Simple3D
@@ -10151,23 +10151,28 @@ SE_RoomSide
 # 155906175
 
 ### EVENT NAMES (eme006.bnk)
+eme006_Atk_ArrowFiring
 eme006_Atk_BladeWsh
 eme006_Atk_BulletExplosion
 eme006_Atk_BulletFiring
 eme006_Atk_ClawWsh
 eme006_Atk_DualClawWsh
 eme006_Atk_LanceStrikeWsh
+eme006_Atk_LanceSwingWsh
 eme006_Atk_LanceThrowWsh
 eme006_Atk_Scratch
 eme006_Dmg_Down
+eme006_Dmg_DownFoot
 eme006_Dmg_WallDown
 eme006_Mov_Appear
 eme006_Mov_BladeAppear
 eme006_Mov_BladeDisappear
 eme006_Mov_BowCharge
 eme006_Mov_ClawApper
+eme006_Mov_ClawClose
 eme006_Mov_ClawOpen
 eme006_Mov_Disappear
+eme006_Mov_Dive
 eme006_Mov_FlyLp
 eme006_Mov_Footstep
 eme006_Mov_Jump
@@ -10177,11 +10182,6 @@ eme006_Mov_Rise
 eme006_Mov_Skin
 eme006_Mov_Spin
 Stop_eme006_Mov_FlyLp
-# 1248493569
-# 1977700402
-# 1979807170
-# 2744610379
-# 2775590178
 
 ### SFX NAMES (eme006.bnk)
 SE_PG_Simple3D
@@ -10200,6 +10200,7 @@ eme007_Atk_LaserEnd
 eme007_Atk_LaserFiring
 eme007_Atk_LaserFiring_01
 eme007_Atk_RotationSwingWsh_STG
+eme007_Atk_TailSwingWsh_STG
 eme007_Mov_BodyRockImpact
 eme007_Mov_BodySandImpact
 eme007_Mov_FootstepF_STG
@@ -10216,7 +10217,6 @@ eme007_voe_Thunder
 Stop_eme007_Atk_ChargeLineLp
 Stop_eme007_Atk_LaserFiring
 Stop_eme007_Atk_LaserFiring_01
-# 1345977220
 
 ### SFX NAMES (eme007.bnk)
 SE_PG_Simple3D
@@ -10246,12 +10246,12 @@ SE_core_elevation
 ### EVENT NAMES (et0026.bnk)
 et0026_Atk_TombstoneLand
 et0026_Atk_TombstoneLandNull
+et0026_Mov_DevilsHand
 et0026_Mov_TombstoneFall
 Set_et0026_Sw_16t
 Set_et0026_Sw_Normal
 Set_et0026_Sw_Small
 # 6668154
-# 296068010
 
 ### SFX NAMES (et0026.bnk)
 SE_PG_Simple3D
@@ -10267,7 +10267,7 @@ SE_core_elevation
 ### VALUE NAMES (et0026.bnk)
 SE00_Small
 SE01_normal
-# 596715009
+SE02_16t
 
 ### EVENT NAMES (et0027.bnk)
 et0027_Atk_BreakNeck
@@ -10486,7 +10486,7 @@ et0110_Mov_Flap
 et0110_Mov_Flutter_Fly
 et0110_Mov_Flutter_Land
 et0110_voe_Mov_Cry
-# 1226709948
+et0110_voe_Mov_crys
 # 3221755764
 
 ### SFX NAMES (et0110.bnk)
@@ -10586,12 +10586,12 @@ et5001_Mov_Footsteps_End
 et5001_Mov_Footsteps_Start
 et5001_Mov_Gun
 et5001_Mov_Sit
+et5001_Mov_Squatting
 et5001_Mov_Standing
 et5001_Mov_Standup
 et5001_Mov_Stop
 et5001_Mov_Wavehand
 et5001_Mov_Wavehand_strong
-# 1242220120
 
 ### SFX NAMES (et5001.bnk)
 SE_PG_Simple3D
@@ -10659,6 +10659,7 @@ pl0000_Atk_MahaaKalaaBlocking
 pl0000_Atk_TetuzankoImpact
 pl0000_Dmg_Down
 pl0000_Dmg_Sink
+pl0000_Mov_Accessories
 pl0000_Mov_Avoidance
 pl0000_Mov_BigLand
 pl0000_Mov_Cloth
@@ -10671,6 +10672,7 @@ pl0000_Mov_Kiss
 pl0000_Mov_Land
 pl0000_Mov_LittleDevilAppear
 pl0000_Mov_LittleDevilVanish
+pl0000_Mov_LongFall
 pl0000_Mov_RunFootStep_L
 pl0000_Mov_RunFootStep_R
 pl0000_Mov_SandSlidingLp
@@ -10724,16 +10726,14 @@ pl3100_Wsh_RollKickSwing
 pl3100_Wsh_RushSwing
 pl3100_Wsh_SlidingSwing
 pl3100_Wsh_SomersaultSwing
+pl3100_Wsh_TwistSwing
 pl3100_Wsh_UpperSwing
 Stop_em3040_Mov_NimbusAppear_Lp
+stop_pl0000_Dmg_Sink
 Stop_pl0000_Mov_SandSlidingLp
-# 74292848
 # 587545883
 # 1949943794
 # 2172172781
-# 3378566792
-# 3395851997
-# 3545849865
 # 3598012688
 # 4138096719
 
@@ -10757,10 +10757,10 @@ SE03_Sand
 SE04_gravel
 SE06_Stone
 SE07_Iron
+SE08_Ironplate
+SE09_wiremesh
+SE10_tree
 # 4057376378
-# 3421924726
-# 1511455655
-# 1339693097
 # 3543274589
 # 3883740555
 # 2720972
@@ -10830,10 +10830,10 @@ SE03_Sand
 SE04_gravel
 SE06_Stone
 SE07_Iron
+SE08_Ironplate
+SE09_wiremesh
+SE10_tree
 # 4057376378
-# 3421924726
-# 1511455655
-# 1339693097
 # 3543274589
 # 3883740555
 # 2720972
@@ -10903,10 +10903,10 @@ SE03_Sand
 SE04_gravel
 SE06_Stone
 SE07_Iron
+SE08_Ironplate
+SE09_wiremesh
+SE10_tree
 # 4057376378
-# 3421924726
-# 1511455655
-# 1339693097
 # 3543274589
 # 3883740555
 # 2720972
@@ -11018,10 +11018,10 @@ SE03_Sand
 SE04_gravel
 SE06_Stone
 SE07_Iron
+SE08_Ironplate
+SE09_wiremesh
+SE10_tree
 # 4057376378
-# 3421924726
-# 1511455655
-# 1339693097
 # 3543274589
 # 3883740555
 # 2720972
@@ -11082,6 +11082,7 @@ pl1000_Mov_RunMuscle
 pl1000_Mov_WalkMuscle
 Stop_pl1000_Atk_ArmCharge
 Stop_pl1000_Atk_FlameFiring
+stop_pl1000_Mov_JumpCharge
 Stop_wp1000_Atk_PreShot
 wp1000_Atk_DownSwingWsh
 wp1000_Atk_FireBreath
@@ -11097,7 +11098,6 @@ wp1000_Mov_ReturnFlamethrower
 wp1000_Mov_ReturnLauncher
 wp1000_Mov_ToLauncher
 wp1000_Mov_ToMagicLauncher
-# 322199
 # 317084397
 # 1935883141
 # 2439272077
@@ -11313,6 +11313,7 @@ pl1010_Mov_SpiderSilk_L
 pl1010_Mov_SpiderSilk_S
 pl1010_Mov_TailShorten
 pl1010_Mov_WalkMuscle
+Stop_pl1010_All
 Stop_pl1010_Atk_RollingDigLp
 Stop_pl1010_Atk_RollingWshLp
 Stop_pl1010_Mov_SP_EnergyApply
@@ -11431,7 +11432,6 @@ wp1010_Mov_YoyoThrow_HR
 wp1010_Mov_YoyoThrow_LL
 wp1010_Mov_YoyoThrow_LR
 # 23774108
-# 531866744
 # 700338825
 # 700338839
 # 767449387
@@ -11505,6 +11505,8 @@ pl1030_Mov_RunSt
 Stop_pl1030_Mov_RunLp
 wp1030_Atk_GunMaxFiring
 wp1030_Atk_GunMaxHit
+wp1030_Atk_WhipCatchDam
+wp1030_Atk_WhipHit
 wp1030_Mov_FinishWhoosh
 wp1030_Mov_GroundHit
 wp1030_Mov_LongSpin
@@ -11516,8 +11518,6 @@ wp1030_Mov_Swing
 wp1030_Mov_ThrowSwing
 # 884493490
 # 2174346011
-# 2994339697
-# 3217907547
 
 ### SFX NAMES (pl103f.bnk)
 SE_PG_Simple3D
@@ -11533,10 +11533,10 @@ SE_core_elevation
 ### VALUE NAMES (pl103f.bnk)
 SE00_Angel
 SE02_Dark
+SE03_DarkMetal
 SE04_homun
 SE06_flesh
 # 3961511691
-# 3502723650
 # 2580982045
 
 ### EVENT NAMES (pl104c.bnk)
@@ -11647,6 +11647,7 @@ pl105a_Mov_GliderFlyLp
 pl105a_Mov_Jump
 pl105a_Mov_Rush
 pl105a_Mov_Skin
+Stop_et1c58_Mov_EngineLp
 Stop_pl1050_Atk_SpLaserFiringLp
 Stop_pl105a_Atk_SpLaserFiringLp
 Stop_pl105a_Atk_SpLaserLandLp
@@ -11671,14 +11672,13 @@ wp105a_Mov_PreMagicSmokeL
 wp105a_Mov_StickLightWsh
 wp105a_Mov_StickRoll
 wp105a_Mov_WarpFly
+wp105a_Mov_WarpIn
 wp105a_Mov_WarpOut
 # 630786813
 # 1249091703
-# 1668499896
 # 1937125132
 # 1943231550
 # 2799099844
-# 3725956478
 
 ### SFX NAMES (pl105c.bnk)
 SE_PG_Simple3D
@@ -11804,12 +11804,16 @@ SE_CharacterType
 SE_pl_WeaponCount
 
 ### EVENT NAMES (pl107c.bnk)
+stop_wp107a_Atk_Inbreathe
+Stop_wp107a_Mov_Charge
+Stop_wp107a_Mov_PushRunSlide
 wp107a_Atk_ArmGroundImpact
 wp107a_Atk_GroundImpact
 wp107a_Atk_GunAppear
 wp107a_Atk_GunDisappear
 wp107a_Atk_GunFiring
 wp107a_Atk_Inbreathe
+wp107a_Atk_MechaHandGrasp
 wp107a_Atk_MechaHandWsh
 wp107a_Atk_MorningStarWsh
 wp107a_Atk_ShieldStingWsh
@@ -11820,17 +11824,15 @@ wp107a_Mov_PushRunSlide
 wp107a_Mov_ReturnMorningStar
 wp107a_Mov_ShieldStdUpImp
 wp107a_Mov_ShieldStdUpWsh
+wp107a_Mov_SummonsDoorCl
 wp107a_Mov_SummonsDoorOp
 wp107a_Mov_UniteShieldImpact
 wp107a_Mov_WarpIn
 wp107a_Mov_WarpOut
-# 112343616
 # 218970076
 # 323598175
 # 392217353
-# 600097235
 # 952530880
-# 1019253154
 # 1168829662
 # 1446683504
 # 1473846659
@@ -11847,9 +11849,7 @@ wp107a_Mov_WarpOut
 # 3474231308
 # 3738748910
 # 3798019897
-# 3825393276
 # 3962169213
-# 4227720572
 
 ### SFX NAMES (pl107c.bnk)
 SE_PG_Simple3D
@@ -11879,6 +11879,7 @@ pl1070_Mov_PostDash
 pl1070_Mov_RunLp
 Stop_pl1070_Atk_MStarRotationWshLp
 Stop_pl1070_Mov_RunLp
+stop_wp1070_Atk_Inbreathe
 Stop_wp1070_Mov_Charge
 Stop_wp1070_Mov_PushRunSlide
 wp1070_Atk_ArmGroundImpact
@@ -11903,7 +11904,6 @@ wp1070_Mov_SummonsDoorOp
 wp1070_Mov_UniteShieldImpact
 wp1070_Mov_WarpIn
 wp1070_Mov_WarpOut
-# 1270151617
 # 3269959072
 # 3484307892
 
@@ -12064,6 +12064,7 @@ pl10a0_Mov_Stop
 Stop_pl10a0_Atk_SawSparkLp
 Stop_pl10a0_Mov_RunLp
 Stop_wp10a0_Atk_SawRollingLp
+Stop_wp10a0_Atk_SawRollingSpLp
 Stop_wp10a0_Mov_RideLp
 Stop_wp10a0_Mov_RideLpFast
 wp10a0_Atk_FallImpact
@@ -12087,7 +12088,6 @@ wp10a0_Mov_SawSwing
 wp10a0_Mov_Sideslip
 wp10a0_Mov_SteamCharge
 wp10a0_Mov_SteamChargeFailed
-# 193956862
 
 ### SFX NAMES (pl10af.bnk)
 SE_PG_Simple3D
@@ -12116,6 +12116,7 @@ Stop_wp10f0_Atk_wp0127ShotgunRetWsh
 Stop_wp10f0_Atk_wp0127ShotgunStanceWsh
 Stop_wp10f0_Atk_wp012dSpin
 Stop_wp10f0_Atk_wp0136ChargeLoop
+Stop_wp10f0_Atk_wp0137SwordWsh
 Stop_wp10f0_Atk_wp013cSwing
 Stop_wp10f0_wp012a
 wp10f0_Atk_wp0110CaneAbsorbA
@@ -12188,7 +12189,6 @@ wp10f0_Atk_wp013dSpark
 wp10f0_Mov_wp0128Catch
 # 201924496
 # 1463571034
-# 1910957471
 # 1994788562
 # 2612461590
 
@@ -12225,6 +12225,7 @@ pl2010_Mov_FootStep
 pl2010_Mov_FootstepRun
 pl2010_Mov_FootstepWalk
 pl2010_Mov_Jump
+pl2010_Mov_Jump_old
 pl2010_Mov_Jump_Slash
 pl2010_Mov_LargeSizeUp
 pl2010_Mov_RunSkin
@@ -12240,7 +12241,6 @@ pl2010_voe_SubSpaceStart
 # 838857939
 # 1038064118
 # 1127971021
-# 1596457360
 # 1679965157
 # 2374339221
 # 2603660489
@@ -12306,10 +12306,10 @@ SE03_Sand
 SE04_gravel
 SE06_Stone
 SE07_Iron
+SE08_Ironplate
+SE09_wiremesh
+SE10_tree
 # 4057376378
-# 3421924726
-# 1511455655
-# 1339693097
 # 3543274589
 # 3883740555
 # 2720972
@@ -12408,10 +12408,10 @@ SE03_Sand
 SE04_gravel
 SE06_Stone
 SE07_Iron
+SE08_Ironplate
+SE09_wiremesh
+SE10_tree
 # 4057376378
-# 3421924726
-# 1511455655
-# 1339693097
 # 3543274589
 # 3883740555
 # 2720972
@@ -13606,6 +13606,7 @@ pl0000_vo_Dmg_ComS
 pl0000_vo_Dmg_Death
 pl0000_vo_Dmg_DemonBerserk
 pl0000_vo_Dmg_Dizzy
+PL0000_VO_DMG_DOWN
 pl0000_vo_Dmg_LowLife
 pl0000_vo_Dmg_Numb
 pl0000_vo_Dmg_Tighten
@@ -13673,7 +13674,6 @@ pl3200_vo_Mov_LaughAvoid
 # 3075792922
 # 3161786470
 # 3241659973
-# 3378393367
 # 3603332576
 # 3620924604
 # 3711291357
@@ -14110,6 +14110,7 @@ pl3000_vo_Atk_pl10a0_CF_RlS_SW
 pl3000_vo_Atk_pl10a0_CF_SW
 pl3000_vo_Atk_pl10a0_Sp_Finish
 pl3000_vo_Atk_pl10a0_Sp_PreStart
+pl3000_vo_Atk_pl10a0_Sp_start
 pl3000_vo_Atk_pl10f0_CF_DUP_SW
 pl3000_vo_Atk_pl10f0_CF_RDP_SW
 pl3000_vo_Atk_pl10f0_CF_RlK_SW
@@ -14179,7 +14180,6 @@ pl3000_vo_Mov_WitchEscape
 # 2504813003
 # 2647361755
 # 2733223079
-# 2792092403
 # 3072823982
 # 3120636054
 # 3137413641
@@ -14541,10 +14541,10 @@ SE_core_elevation
 
 ### EVENT NAMES (wp0125.bnk)
 Stop_wp0125_Atk_SwordGroundHit
+wp0125_Atk_SwordBodyHit
 wp0125_Atk_SwordGroundHit
 wp0125_Atk_SwordWhoosh
 wp0125_Atk_SwordWhooshStrong
-# 2907240182
 
 ### SFX NAMES (wp0125.bnk)
 SE_PG_Simple3D
@@ -14622,10 +14622,10 @@ wp2020_Atk_Shot
 ### EVENT NAMES (wp3000.bnk)
 wp3000_Atk_GunFiring
 wp3000_Atk_GunFiringStart
+wp3000_Atk_GunMaxFiring
 wp3000_Atk_GunMaxHit
 wp3000_Atk_HandGunFiring
 wp3000_Mov_GunTurn
-# 536943956
 # 1716093410
 # 3160818055
 
@@ -14678,11 +14678,11 @@ SE_pl_WeaponCount
 
 ### EVENT NAMES (wp3080.bnk)
 wp3080_Atk_GunFiring
+wp3080_Atk_GunFiringStart
 wp3080_Atk_GunMaxFiring
 wp3080_Atk_GunMaxHit
 wp3080_Atk_HandGunFiring
 wp3080_Mov_GunTurn
-# 9726544
 # 1380760015
 # 2012212362
 
@@ -14752,8 +14752,10 @@ Stop_z1000_Mov_TrainAmbi
 z1000_Mov_BuildingBreak
 z1000_Mov_BuildingDown
 z1000_Mov_BuildingWaterDown
+z1000_Mov_DiveIn
 z1000_Mov_DiveOut
 z1000_Mov_ShipLp
+z1000_Mov_ShipSlide
 z1000_Mov_SlideLp
 z1000_Mov_TrainAmbi
 z1000_Mov_TrainBreak
@@ -14762,10 +14764,8 @@ z1000_Mov_TrainBreak
 # 1672601690
 # 1686966744
 # 2049337296
-# 2062869083
 # 2190017256
 # 2669911047
-# 2683912873
 # 3293432163
 # 4091550986
 # 4277893492
@@ -14806,8 +14806,8 @@ Stop_z1207_Mov_BombardmentShake
 z1207_Amb_ShinjyukuWar
 z1207_Mov_BombardmentShake
 z1207_Mov_BombardmentTrigger
+z1207_Mov_DebrisFall
 z1207_Mov_TrainShake
-# 3680786161
 
 ### VARIABLE NAMES (z1207.bnk)
 SE_AreaCtrl00
@@ -14854,6 +14854,9 @@ z1800_Dmg_Lantern
 
 ### EVENT NAMES (z1fff.bnk)
 ba1800_Dmg_Break
+bac030_Dmg_Break00
+bac030_Dmg_Collision
+bac030_Dmg_shake
 bh1050_Dmg_Break00
 bh1050_Dmg_Break01
 bh1052_Dmg_Break00
@@ -14910,12 +14913,22 @@ bh1080_Dmg_Break01
 bh1080_Dmg_shake
 Bh1206_Dmg_Break00
 Bh1206_Dmg_Shake
+bh1210_Dmg_Break00
+bh1210_Dmg_Break01
+bh1210_Dmg_shake
+bh1220_Dmg_Break00
+bh1220_Dmg_Break01
+bh1220_Dmg_shake
 bh1257_Dmg_Break00
+Stop_z1200_Mov_FlameLp
 Stop_z1200_Mov_JAlertMixSW
 Stop_z1200_Mov_JAlertMixSW_inDoor
+Stop_z1200_Mov_market
+z1200_Mov_drugstore
 z1200_Mov_FlameLp
 z1200_Mov_JAlertMixSW
 z1200_Mov_JAlertMixSW_inDoor
+z1200_Mov_market
 z1fff_Dmg_Break01
 z1fff_Dmg_Break02
 z1fff_Dmg_Break03
@@ -14994,7 +15007,6 @@ z1fff_Mov_VanishRoad_B
 # 942685472
 # 996648388
 # 996648389
-# 996866542
 # 1015777272
 # 1015777273
 # 1057796356
@@ -15014,7 +15026,6 @@ z1fff_Mov_VanishRoad_B
 # 1174958673
 # 1208360362
 # 1208360363
-# 1213557879
 # 1221314016
 # 1221314017
 # 1234523089
@@ -15035,10 +15046,8 @@ z1fff_Mov_VanishRoad_B
 # 1379809879
 # 1402093752
 # 1415808806
-# 1451918600
 # 1468858056
 # 1468858057
-# 1492676820
 # 1526962041
 # 1541510615
 # 1554073283
@@ -15126,7 +15135,6 @@ z1fff_Mov_VanishRoad_B
 # 2594653627
 # 2601180034
 # 2621459138
-# 2626897079
 # 2641189858
 # 2641189859
 # 2646842702
@@ -15141,7 +15149,6 @@ z1fff_Mov_VanishRoad_B
 # 2856744286
 # 2856744287
 # 2895567680
-# 2921757731
 # 2949117988
 # 2949117989
 # 2955012577
@@ -15163,7 +15170,6 @@ z1fff_Mov_VanishRoad_B
 # 3087825719
 # 3090630658
 # 3090630659
-# 3139043323
 # 3148096415
 # 3162774238
 # 3171419376
@@ -15178,7 +15184,6 @@ z1fff_Mov_VanishRoad_B
 # 3331606989
 # 3356544972
 # 3357518258
-# 3374179986
 # 3407991742
 # 3416488289
 # 3439262899
@@ -15205,11 +15210,8 @@ z1fff_Mov_VanishRoad_B
 # 3766164605
 # 3771858064
 # 3779051380
-# 3789333576
-# 3789333577
 # 3789445532
 # 3789445533
-# 3804663158
 # 3864316170
 # 3869761175
 # 3894919430
@@ -15229,8 +15231,6 @@ z1fff_Mov_VanishRoad_B
 # 4057655297
 # 4078991650
 # 4078991651
-# 4126483004
-# 4126483005
 # 4141757296
 # 4191087598
 # 4191087599
@@ -15292,6 +15292,7 @@ SE02_large
 SE02_mud
 SE03
 SE03_Sand
+SE03_xlarge
 SE04
 SE04_gravel
 SE05
@@ -15300,12 +15301,12 @@ SE06_Stone
 SE07
 SE07_Iron
 SE08
+SE08_Ironplate
 SE09
-# 1330184800
+SE09_wiremesh
+SE10
+SE10_tree
 # 4057376378
-# 3421924726
-# 1511455655
-# 1339693097
 # 3543274589
 # 3883740555
 # 2720972
@@ -15343,7 +15344,6 @@ SE09
 # 2881627215
 # 2931959958
 # 2915182441
-# 3571453334
 
 ### EVENT NAMES (z2000.bnk)
 z2000_Dmg_ChinaDmgVoice
@@ -15373,6 +15373,7 @@ z2002_Mov_PhantomLp
 SE_RoomSide
 
 ### EVENT NAMES (z2200.bnk)
+z2200_Mov_RockImpact
 z2200_Mov_RukaFlyJumpSkin
 z2200_Mov_RukaFlyJumpSkinLong
 z2200_Mov_RukaFlySkin
@@ -15383,20 +15384,19 @@ z2200_Mov_RukaSkin
 z2200_Mov_RukaWireReel
 z2200_Mov_RukaWireShot
 z2200_Mov_RukaWireStrike
-# 1337712340
 
 ### EVENT NAMES (z2206.bnk)
 z2006_Mov_RukaPillarHit
 
 ### EVENT NAMES (z220a.bnk)
+core_Mov_BaseWindNoiseLp_Cave
+Stop_core_Mov_BaseWindNoiseLp_Cave
 Stop_z220a_Mov_CavewaterFallLp
 Stop_z220a_Mov_CaveWaterSideLp
 z220a_Mov_CavewaterFallLp
 z220a_Mov_CaveWaterSideLp
 z220a_Mov_ViolaWaterDive
 z220a_Mov_waterdrop
-# 1280861385
-# 1629230802
 
 ### SFX NAMES (z220a.bnk)
 # 665667509
@@ -15406,8 +15406,8 @@ z220a_Mov_waterdrop
 
 ### RTPC/GAME-VARIABLE NAMES (z220a.bnk)
 SE_core_Azimuth
+SE_GameMode
 SE_RoomSide
-# 2693655799
 # 959592784
 # 72250616
 # 454610497
@@ -15430,8 +15430,8 @@ z2600_Mov_LavaLp_P260
 
 ### RTPC/GAME-VARIABLE NAMES (z2600.bnk)
 SE_core_Azimuth
+SE_GameMode
 SE_RoomSide
-# 2693655799
 
 ### EVENT NAMES (z2601.bnk)
 ba201e_Dmg_RoadCollapse
@@ -15474,6 +15474,7 @@ z2200_Dmg_RockFallEvent
 z2fff_Dmg_Break01
 z2fff_Dmg_Break02
 z2fff_Dmg_Break03
+z2fff_Dmg_RockImpact
 z2fff_Mov_buildingLaveLp
 z2fff_Mov_buildingLaveLp_L
 z2fff_Mov_buildingLaveLp_R
@@ -15498,7 +15499,6 @@ z2fff_Mov_WarAmbLp_R_Rs
 # 2198719108
 # 2282980522
 # 2616529830
-# 2712669698
 # 2713378981
 # 3351569003
 # 3553706524
@@ -15516,7 +15516,7 @@ SE_p820
 SE00_Small
 SE01_middle
 SE02_large
-# 1330184800
+SE03_xlarge
 
 ### EVENT NAMES (z3000.bnk)
 z3000_Mov_Amb
@@ -15613,16 +15613,16 @@ z3202_Mov_WaterPoison_Splash
 ### EVENT NAMES (z3600.bnk)
 Stop_z3600_Mov_MagicalAura_Mono_Loop
 z3600_Mov_Lake_Inside
+z3600_Mov_Lake_Outside
 z3600_Mov_Lake_Splash
 z3600_Mov_Lake_Splash_sml
 z3600_Mov_MagicalAura_Mono_Loop
 z3600_Mov_NomalAmb_4ch_loop
 z3600_Mov_Sandstorm_L_loop
 z3600_Mov_Sandstorm_R_loop
+z3600_Mov_TempleAmb_loop
 z3600_Mov_WaterFall_L
 z3600_Mov_WaterFall_R
-# 378963589
-# 505995910
 
 ### RTPC/GAME-VARIABLE NAMES (z3600.bnk)
 SE_z3200_LargeAmbSubtract
@@ -15651,6 +15651,7 @@ z3602_Mov_PhantomLp
 # 433386540
 
 ### EVENT NAMES (z3800.bnk)
+p380_Mov_FloorBreak
 p380_Mov_PreFloorBreak
 z3800_Mov_CaveAmb_loop
 z3800_Mov_MaRide_PillarBreak
@@ -15658,7 +15659,6 @@ z3800_Mov_MaRide_RockBreakA
 z3800_Mov_MaRide_RockBreakB
 z3800_Mov_MaRide_Wind_Loop
 z3800_Mov_TempleAmb_loop
-# 261005119
 
 ### SFX NAMES (z3800.bnk)
 # 778199893
@@ -15719,6 +15719,8 @@ bab312_Dmg_Fire_Set
 bab312_Dmg_Set
 bh3002_Dmg_Break00
 bh3002_Dmg_shake
+bh3003_Dmg_Break00
+bh3003_Dmg_shake
 bh3007_Dmg_Break00
 bh3007_Dmg_shake
 bh3009_Dmg_Break00
@@ -15727,12 +15729,10 @@ Bh3010_Dmg_Break00
 bh3010_Dmg_shake
 bh3011_Dmg_Break00
 bh3011_Dmg_shake
+stop_bab312_Dmg_Set
 # 121811193
 # 1114495384
-# 1319892811
 # 1848515361
-# 1971120504
-# 2081595623
 # 3846495568
 
 ### RTPC/GAME-VARIABLE NAMES (z3fff.bnk)
@@ -15744,9 +15744,9 @@ SE_ba_spin
 # 2681949582
 
 ### VALUE NAMES (z3fff.bnk)
+frame_off
 off
 on
-# 835247842
 # 2235435211
 
 ### EVENT NAMES (z4000.bnk)
@@ -16100,20 +16100,20 @@ SE02_mud
 SE02_p420_start
 SE03_p440_startroad
 SE03_Sand
+SE03_xlarge
 SE04_gravel
 SE04_p440_paris_shooting_sideview
 SE06_p440_paris_shooting_behindview2
 SE06_Stone
 SE07_Iron
 SE07_p460_start
+SE08_Ironplate
 SE08_p460_Gomo_Ride_Battle
+SE09_wiremesh
+SE10_tree
 # 4266952426
 # 2235435211
-# 1330184800
 # 4057376378
-# 3421924726
-# 1511455655
-# 1339693097
 # 3543274589
 # 3883740555
 # 2720972
@@ -16316,11 +16316,13 @@ z9400_Dmg_StageExplosion
 z9400_Mov_Shutter
 
 ### EVENT NAMES (z9b00.bnk)
+z9b00_Mov_MissionFailed
 z9b00_Mov_MissionStart
 z9b00_Mov_PortalApper
-# 3871295979
 
 ### EVENT NAMES (z9fff.bnk)
+FilterIn
+FilterOut
 Stop_z9001_Mov_Office
 Stop_z9002_Mov_Factory
 Stop_z9003_Mov_UnderWater
@@ -16339,20 +16341,18 @@ z9fff_Mov_RestRoomLp
 z9fff_Mov_RocketFall
 z9fff_Mov_RocketFly
 z9fff_Mov_RocketThrow
-# 780277982
 # 3496727247
 # 4189595302
-# 4292611713
 
 ### RTPC/GAME-VARIABLE NAMES (z9fff.bnk)
-# 2693655799
+SE_GameMode
 
 ### VARIABLE NAMES (z9fff.bnk)
 # 2609658270
 
 ### VALUE NAMES (z9fff.bnk)
-# 3523059132
-# 1014216824
+SE00_WaterIn
+SE01_WaterOut
 
 ### EVENT NAMES (zafff.bnk)
 baca09_Dmg_MonitorBreak
@@ -16418,7 +16418,6 @@ zc201_Mov_CS_PhotoAppear
 # 326349866
 # 1205827157
 
-
 ### MISSING EVENT NAMES (ba1024.bnk)
 # 2152107324
 
@@ -16429,12 +16428,6 @@ zc201_Mov_CS_PhotoAppear
 # 430883460
 # 3273539335
 
-
+#687838275   : bh3200_FilterOut
 #ot_race_Bullet_Fly_Loop
-
-780277982   : FilterIn
-4292611713  : FilterOut
-3376415477  : light_off
-3674512137  : light_on
-
-3378393367  : PL0000_VO_DMG_DOWN
+#3560413474  : BGM_gallery_bt_superior_3_play
