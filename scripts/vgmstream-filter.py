@@ -1,6 +1,6 @@
 # VGMSTREAM FILTER
 #
-# Moves files playable by vgmstream that don't match filters to a subfolder
+# Moves files playable by vgmstream that don't match filters to a subfolder.
 #
 import argparse, subprocess, hashlib, os, re, fnmatch, logging as log, glob
 
@@ -15,13 +15,15 @@ class Cli(object):
             "examples:\n"
             "  %(prog)s *.adx\n"
             "  - does nothing (needs at least one filter)\n"
-            "  %(prog)s *.txtp -fcm 2 -fms 5.0\n"
+            "  %(prog)s -r *.txtp -fcm 2 -fsm 5.0\n"
             "  - move files that have less that 2 channels and 5 seconds (mono voices)\n"
-            "  %(prog)s *.adx -fd\n"
+            "  %(prog)s -r *.adx -fd\n"
             "  - move files that have output (.wav) duplicates\n"
-            "  %(prog)s *.* -p \"{fs}: channels={ch}, samples={sn}\"\n"
+            "  %(prog)s -r *.* -p \"{fs}: channels={ch}, samples={sn}\"\n"
             "  - prints formatted info for all files\n"
-            "  %(prog)s *.* -fcm 2 -p \"{fn}: channels={ch}, samples={ns}\"\n"
+            "  %(prog)s -r *.bao -fe\n"
+            "  - move files that don't have any audio\n"
+            "  %(prog)s -r *.* -fcm 2 -p \"{fn}: channels={ch}, samples={ns}\"\n"
             "  - prints formatted info for all non-mono files\n"
         )
 
@@ -29,6 +31,7 @@ class Cli(object):
         p.add_argument('files', help="Files to process (wildcards work)", nargs='+')
         p.add_argument('-c',   dest='cli', help="Set path to CLI (default: auto)")
         p.add_argument('-r',   dest='recursive', help="Find files recursively", action='store_true')
+        p.add_argument('-as',  dest='any_subsong', help="For files with subsongs, filter if any filter matches (default is 'all')", action='store_true')
         p.add_argument('-m',   dest='move_dir', help="Set subdir where filtered files go", default=DEFAULT_MOVE_DIR)
         p.add_argument('-mc',  dest='move_current', help="Moves filtered files to subdir in current dir, rather than their own", action='store_true')
         p.add_argument('-fd',  dest='dupes', help="Filter by duplicate wavs (slower)", action='store_true')
@@ -157,6 +160,9 @@ class CliFilter(object):
         if not res:
            return 0
         return int(res)
+
+    def has_subsongs(self):
+        return self.stream_count and self.stream_count >= 1
 
     def is_ignorable(self):
         return self.ignorable
@@ -422,18 +428,43 @@ class App(object):
             return
 
         filter = CliFilter(self.args, output_b, basename_in)
+        filtered = False
 
-        is_dupe = False
-        if not filter.is_ignorable():
-            is_dupe = hasher.check(filename_tmp)
-        filtered = filter.is_ignorable() or is_dupe
+        if filter.has_subsongs():
+            # filter files with subsongs
+            is_all_filtered = True
+
+            #TODO: cleanup this trash
+            #TODO: may consider dupe same file with N subsongs that are the same
+            for subsong in range(filter.stream_count):
+                try:
+                    cmd = converter.make_cmd(filename_in, filename_tmp, subsong + 1)
+                    log.debug("calling: %s", cmd)
+                    output_b = subprocess.check_output(cmd, shell=False) #stderr=subprocess.STDOUT
+                except subprocess.CalledProcessError as e:
+                    log.debug("ignoring CLI error in %s: %s", filename_in, str(e.output))
+                    break
+
+
+                filter = CliFilter(self.args, output_b, basename_in)
+                if filter.is_ignorable() or hasher.check(filename_tmp):
+                    if self.args.any_subsong:
+                        break
+                else:
+                    is_all_filtered = False
+            filtered = is_all_filtered
+
+        else:
+            # filter regular files
+            if filter.is_ignorable() or hasher.check(filename_tmp):
+                filtered = True
 
         if self.args.print_info and (filtered or not filter.has_filters):
             # print only
             printer.print(filter)
-        elif filter.is_ignorable() or is_dupe:
+        elif filtered:
             # move filtered
-            files.move(filename_in)
+            #files.move(filename_in)
             self.total_filtered += 1
 
         files.clean_tmp(filename_tmp)

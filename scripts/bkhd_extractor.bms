@@ -4,6 +4,7 @@
 # Note that it's impossible to extract .wem like this (wrong RIFF sizes and no ID in file).
 
 math USE_BASENAME = 0
+math USE_LANGS = 0
 get BASE_NAME basename
 
 get FILE_SIZE asize
@@ -26,8 +27,9 @@ for OFFSET = 0 < FILE_SIZE
     
     get TEST long
     endian guess TEST
-    get DUMMY long
+    get VERSION long
     get ID long
+    get LANG_ID long
 
     # wrong size = bad match
     if TEST > 0x10000
@@ -90,6 +92,11 @@ for OFFSET = 0 < FILE_SIZE
     else
         string NAME p= "%u.bnk" ID
     endif
+    if USE_LANGS == 1 && LANG_ID != 393239870 #sfx
+        string NAME_TEMP = NAME
+        string NAME p= "%u/%s" LANG_ID NAME_TEMP
+    endif
+    
     #print "%NAME%: %OFFSET|h% %SIZE|h%"
     log NAME OFFSET SIZE
 
