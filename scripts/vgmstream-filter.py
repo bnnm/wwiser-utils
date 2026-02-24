@@ -464,7 +464,7 @@ class App(object):
             printer.print(filter)
         elif filtered:
             # move filtered
-            #files.move(filename_in)
+            files.move(filename_in)
             self.total_filtered += 1
 
         files.clean_tmp(filename_tmp)
