@@ -1,5 +1,8 @@
 # Wwise BKHD soundbanks (.BNK) extractor
 #
+# DO NOT USE unless you really, really need loose .wem.
+# vgmstream can open .bnk directly
+#
 # v1 by Nicknine
 # v2 by bnnm (old extensions)
 
