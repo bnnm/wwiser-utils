@@ -2,7 +2,7 @@
  *
  * Finds valid strings within files recursively, mainly to reverse Wwise names (or "parts" for words.py).
  *
- * Similar to strings2 with these diffs:
+ * Similar to strings2 (https://github.com/glmcdona/strings2) with these diffs:
  * - skips dupes (case insensitive by default for wwise)
  *   - may not skip all dupes depending on set memory limit, but that's fine for this use case
  * - ignores some short strings that aren't useful for Wwise
@@ -13,7 +13,6 @@
  * Compile as 64-bit to open large files:
  *     gcc -m64 -Wall -O3 wstrings.c
  */
-//TODO: test linux support
 //TODO: remove more useless strings such as trailing spaces contrinubting to length
 //TODO: use int64s instead of size_t?
 //TODO: skip useless stuff like .png or fourccs with a flag? (can't test renamed files or bigfile with N types though)
@@ -478,7 +477,7 @@ static void get_real_directory(const char* src, char *dst, int dst_len) {
         snprintf(dst, dst_len, "%s", src);
     }
 #else
-    char tmp[WSTRINGS_MAX_PATH];
+    char tmp[CFG_MAX_PATH];
     if (realpath(src, tmp) == NULL) {
         snprintf(dst, dst_len, "%s", src);
         return;
@@ -487,12 +486,36 @@ static void get_real_directory(const char* src, char *dst, int dst_len) {
 #endif
 }
 
+static inline int32_t get_s32be(const uint8_t* p) {
+    return ((uint32_t)p[0]<<24) | ((uint32_t)p[1]<<16) | ((uint32_t)p[2]<<8) | ((uint32_t)p[3]);
+}
+static inline uint32_t get_u32be(const uint8_t* p) { return (uint32_t)get_s32be(p); }
+
+static inline /*const*/ uint32_t get_id32be(const char* s) {
+    return (uint32_t)((uint8_t)s[0] << 24) | ((uint8_t)s[1] << 16) | ((uint8_t)s[2] << 8) | ((uint8_t)s[3] << 0);
+}
+
 static bool is_skippable_filename(const char* path, const config_t* cfg) {
     // ignore program name itself
     const char* base = extract_name(path);
     if (strcmp(base, cfg->exe_name) == 0)
         return true;
     if (strcmp(base, cfg->out_name) == 0)
+        return true;
+
+    return false;
+}
+
+static bool is_skippable_header(const uint8_t* buf, size_t size) {
+    if (size <= 4)
+        return true;
+    
+    uint32_t header_id = get_u32be(buf);
+    if (header_id == get_id32be("BKHD"))
+        return true;
+    if (header_id == get_id32be("RIFF"))
+        return true;
+    if (header_id == get_id32be("AKPK"))
         return true;
 
     return false;
@@ -518,87 +541,87 @@ typedef struct {
     bool is_mapped;
 } mmap_t;
 
-static bool mmap_open(mmap_t* mmap, const char* path) {
+static bool mmap_open(mmap_t* mmap_ctx, const char* path) {
 #ifdef _WIN32
     wchar_t wpath[MAX_PATH];
     MultiByteToWideChar(CP_UTF8, 0, path, -1, wpath, MAX_PATH);
 
-    mmap->hFile = CreateFileW(wpath, GENERIC_READ, FILE_SHARE_READ, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL | FILE_FLAG_SEQUENTIAL_SCAN, NULL);
-    if (mmap->hFile == INVALID_HANDLE_VALUE)
+    mmap_ctx->hFile = CreateFileW(wpath, GENERIC_READ, FILE_SHARE_READ, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL | FILE_FLAG_SEQUENTIAL_SCAN, NULL);
+    if (mmap_ctx->hFile == INVALID_HANDLE_VALUE)
         return false;
 
     LARGE_INTEGER size = {0};
-    if (!GetFileSizeEx(mmap->hFile, &size) || size.QuadPart == 0)
+    if (!GetFileSizeEx(mmap_ctx->hFile, &size) || size.QuadPart == 0)
         return false;
-    mmap->size = size.QuadPart;
+    mmap_ctx->size = size.QuadPart;
 
-    if (mmap->size <= CFG_SMALL_FILE_THRESHOLD) {
-        mmap->data = mmap_buf;
+    if (mmap_ctx->size <= CFG_SMALL_FILE_THRESHOLD) {
+        mmap_ctx->data = mmap_buf;
 
         DWORD read = 0;
-        if (!ReadFile(mmap->hFile, mmap->data, (DWORD)mmap->size, &read, NULL) || read != mmap->size)
+        if (!ReadFile(mmap_ctx->hFile, mmap_ctx->data, (DWORD)mmap_ctx->size, &read, NULL) || read != mmap_ctx->size)
             return false;
     }
     else {
-        mmap->hMap = CreateFileMappingW(mmap->hFile, NULL, PAGE_READONLY, 0, 0, NULL);
-        if (!mmap->hMap)
+        mmap_ctx->hMap = CreateFileMappingW(mmap_ctx->hFile, NULL, PAGE_READONLY, 0, 0, NULL);
+        if (!mmap_ctx->hMap)
             return false;
 
-        mmap->data = (uint8_t*)MapViewOfFile(mmap->hMap, FILE_MAP_READ, 0, 0, 0);
-        if (!mmap->data)
+        mmap_ctx->data = (uint8_t*)MapViewOfFile(mmap_ctx->hMap, FILE_MAP_READ, 0, 0, 0);
+        if (!mmap_ctx->data)
             return false;
 
-        mmap->is_mapped = true;
+        mmap_ctx->is_mapped = true;
     }
 
     return true;
 #else
-    int mmap->fd = open(path, O_RDONLY);
-    if (mmap->fd < 0)
+    mmap_ctx->fd = open(path, O_RDONLY);
+    if (mmap_ctx->fd < 0)
         return false;
 
     struct stat st;
-    if (fstat(mmap->fd, &st) < 0 || st.st_size == 0)
+    if (fstat(mmap_ctx->fd, &st) < 0 || st.st_size == 0)
         return false;
-    mmap->size = st.st_size;
+    mmap_ctx->size = st.st_size;
 
-    if (m->size <= CFG_SMALL_FILE_THRESHOLD) {
-        mmap->data = mmap_buf;
+    if (mmap_ctx->size <= CFG_SMALL_FILE_THRESHOLD) {
+        mmap_ctx->data = mmap_buf;
 
-        ssize_t bytes = read(mmap->fd, mmap->data, mmap->size);
-        if (bytes != mmap->size)
+        ssize_t bytes = read(mmap_ctx->fd, mmap_ctx->data, mmap_ctx->size);
+        if (bytes != mmap_ctx->size)
             return false;
     }
     else {
-        mmap->data = (uint8_t*)mmap(NULL, st.st_size, PROT_READ, MAP_PRIVATE, fd, 0);
-        if (mmap->data == MAP_FAILED) {
-            mmap->data = NULL;
+        mmap_ctx->data = (uint8_t*)mmap(NULL, st.st_size, PROT_READ, MAP_PRIVATE, mmap_ctx->fd, 0);
+        if (mmap_ctx->data == MAP_FAILED) {
+            mmap_ctx->data = NULL;
             return false;
         }
 
-        m->is_mapped = true;
+        mmap_ctx->is_mapped = true;
     }
 
     return true;
 #endif
 }
 
-static void mmap_close(mmap_t* mmap) {
+static void mmap_close(mmap_t* mmap_ctx) {
 #ifdef _WIN32
-    if (mmap->data && mmap->is_mapped)
-        UnmapViewOfFile(mmap->data);
+    if (mmap_ctx->data && mmap_ctx->is_mapped)
+        UnmapViewOfFile(mmap_ctx->data);
 
-    if(mmap->hMap)
-        CloseHandle(mmap->hMap);
+    if(mmap_ctx->hMap)
+        CloseHandle(mmap_ctx->hMap);
     
-    if (mmap->hFile)
-        CloseHandle(mmap->hFile);
+    if (mmap_ctx->hFile)
+        CloseHandle(mmap_ctx->hFile);
 #else
-    if (mmap->datammap->is_mapped)
-        munmap(mmap->data, mmap->size);
+    if (mmap_ctx->data && mmap_ctx->is_mapped)
+        munmap(mmap_ctx->data, mmap_ctx->size);
 
-    if (mmap->fd >= 0)
-        close(mmap->fd);
+    if (mmap_ctx->fd >= 0)
+        close(mmap_ctx->fd);
 #endif
 }
 
@@ -610,14 +633,16 @@ static void process_file(const char* path, const config_t* cfg, u64set_t* set) {
         printf("processing: %s\n", path);
     fprintf(cfg->out, "\n%s\n", path); //write bytes up to expected length
 
-    mmap_t mmap = {0};
-    bool ok = mmap_open(&mmap, path) ;
+    mmap_t mmap_ctx = {0};
+    bool ok = mmap_open(&mmap_ctx, path) ;
     if (ok) {
-        extract_ascii(mmap.data, mmap.size, cfg, set);
-        extract_utf16le(mmap.data, mmap.size, cfg, set);
+        if (!is_skippable_header(mmap_ctx.data, mmap_ctx.size)) {
+            extract_ascii(mmap_ctx.data, mmap_ctx.size, cfg, set);
+            extract_utf16le(mmap_ctx.data, mmap_ctx.size, cfg, set);
+        }
     }
 
-    mmap_close(&mmap);
+    mmap_close(&mmap_ctx);
 }
 
 
@@ -693,7 +718,7 @@ static bool walkdir_get_next_entry(walkdir_t* wd) {
         return false;
     return true;
 #else
-    wd->entry = readdir(wd->dir)
+    wd->entry = readdir(wd->dir);
     if (!wd->entry)
         return false;
     return true;
@@ -709,9 +734,9 @@ static bool walkdir_setup_entry(walkdir_t* wd, const char* path) {
 
     return true;
 #else
-    snprintf(wd->pathtmp, wd->pathtmp_len, "%s/%s", path, wd.entry->d_name);
+    snprintf(wd->pathtmp, wd->pathtmp_len, "%s/%s", path, wd->entry->d_name);
 
-    if (stat(wd->pathtmp, &wd.st) < 0)
+    if (stat(wd->pathtmp, &wd->st) < 0)
         return false;
 
     return true;
@@ -738,7 +763,7 @@ static bool walkdir_is_dotpath(walkdir_t* wd) {
 #if _WIN32
     return wcscmp(wd->fd.cFileName, L".") == 0 || wcscmp(wd->fd.cFileName, L"..") == 0;
 #else
-    return strcmp(wd.entry->d_name, ".") == 0 || strcmp(wd.entry->d_name, "..") == 0;
+    return strcmp(wd->entry->d_name, ".") == 0 || strcmp(wd->entry->d_name, "..") == 0;
 #endif
 }
 
