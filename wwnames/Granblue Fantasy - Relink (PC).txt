@@ -1444,6 +1444,7 @@ red
 Reverb
 reverb_1st
 reverb_2st
+reverb_3st
 reverb_4st
 reverb_5st
 reverb_6st
@@ -1497,6 +1498,7 @@ SE
 SE_cutscene
 SE_cutscene_lfe
 SE_Ducking
+SE_InGameEvent
 SE_S
 ship
 Ship_Fall
@@ -1623,7 +1625,6 @@ Yellow
 # 1864451418
 # 2195133558
 # 2453350970
-# 3092935242
 # 1445180094
 # 1878047168
 # 2403751041
@@ -1747,7 +1748,6 @@ Yellow
 # 984748284
 # 3326671835
 # 3701164330
-# 4196927585
 # 485969082
 # 1110764048
 # 3186086727
@@ -1845,6 +1845,8 @@ Room_Medium_38
 Room_Medium_39
 Room_Medium_40
 Room_Medium_41
+SE_fall_vo
+SE_Forest_Rev
 SE_Hit_Duck_Finish
 SE_Hit_Duck_l
 SE_link_Duck
@@ -1880,7 +1882,6 @@ Wwise_Motion
 # 1081683773
 # 1081683775
 # 1170181002
-# 1221077031
 # 1374210955
 # 1457845952
 # 1457845953
@@ -1957,7 +1958,6 @@ Wwise_Motion
 # 4127444964
 # 4127444966
 # 4246668432
-# 4260608029
 
 ### BASE RTPC/GAME-VARIABLE NAMES (Init.bnk)
 BGM_Finish_Slow
@@ -1983,6 +1983,7 @@ GP_em2100_a_sword_type
 GP_em2100_sword_number
 GP_em7000_ougicut_laser_balance
 GP_em7100_atk
+GP_em7100_ougi_charge
 GP_em7100_wait
 GP_em7200_tornado
 GP_em7500_odcharge_time
@@ -2091,7 +2092,6 @@ volume_voice_vt
 # 3495741594
 # 3617495597
 # 3671138082
-# 3706068403
 # 3777441152
 # 3862828464
 # 4008162408
@@ -2611,6 +2611,7 @@ Immersive
 in
 IN_Box_passage_m__0000
 in_camera_p
+in_camera_p_online
 In_Fast
 In_Immediate
 in_over_m
@@ -2799,7 +2800,6 @@ W_Box_tunnel_s__0000
 # 3091764830
 # 782250840
 # 34366384
-# 4120990431
 # 3492409622
 # 4197344798
 # 4197344768
@@ -3525,242 +3525,242 @@ BGM_Vol_20
 BGM_Vol_Reset
 BGM_VolCtrl_Default_00sec
 BGM_VolCtrl_Default_01sec
+BGM_VolCtrl_Default_02Sec
 BGM_VolCtrl_Default_03sec
+BGM_VolCtrl_Default_04Sec
+BGM_VolCtrl_Default_05Sec
+BGM_VolCtrl_Default_05Sec_Sine
 BGM_VolCtrl_Default_06sec
 BGM_VolCtrl_Default_06sec_Sine
+BGM_VolCtrl_Default_07Sec
+BGM_VolCtrl_Default_08Sec
+BGM_VolCtrl_Default_09Sec
 BGM_VolCtrl_Default_10sec
 BGM_VolCtrl_Minus_01dB_01sec
+BGM_VolCtrl_Minus_01dB_02Sec
 BGM_VolCtrl_Minus_01dB_03sec
+BGM_VolCtrl_Minus_01dB_04Sec
+BGM_VolCtrl_Minus_01dB_05Sec
 BGM_VolCtrl_Minus_01dB_06sec
+BGM_VolCtrl_Minus_01dB_07Sec
+BGM_VolCtrl_Minus_01dB_08Sec
+BGM_VolCtrl_Minus_01dB_09Sec
 BGM_VolCtrl_Minus_01dB_10sec
+BGM_VolCtrl_Minus_02dB_01Sec
+BGM_VolCtrl_Minus_02dB_02Sec
+BGM_VolCtrl_Minus_02dB_03Sec
+BGM_VolCtrl_Minus_02dB_04Sec
+BGM_VolCtrl_Minus_02dB_05Sec
+BGM_VolCtrl_Minus_02dB_06Sec
+BGM_VolCtrl_Minus_02dB_07Sec
+BGM_VolCtrl_Minus_02dB_08Sec
+BGM_VolCtrl_Minus_02dB_09Sec
+BGM_VolCtrl_Minus_02dB_10Sec
 BGM_VolCtrl_Minus_03dB_01sec
+BGM_VolCtrl_Minus_03dB_02Sec
 BGM_VolCtrl_Minus_03dB_03sec
+BGM_VolCtrl_Minus_03dB_04Sec
+BGM_VolCtrl_Minus_03dB_05Sec
 BGM_VolCtrl_Minus_03dB_06sec
+BGM_VolCtrl_Minus_03dB_07Sec
+BGM_VolCtrl_Minus_03dB_08Sec
+BGM_VolCtrl_Minus_03dB_09Sec
 BGM_VolCtrl_Minus_03dB_10sec
 BGM_VolCtrl_Minus_04dB_01sec
+BGM_VolCtrl_Minus_04dB_02Sec
 BGM_VolCtrl_Minus_04dB_03sec
+BGM_VolCtrl_Minus_04dB_04Sec
+BGM_VolCtrl_Minus_04dB_05Sec
 BGM_VolCtrl_Minus_04dB_06sec
+BGM_VolCtrl_Minus_04dB_07Sec
+BGM_VolCtrl_Minus_04dB_08Sec
+BGM_VolCtrl_Minus_04dB_09Sec
 BGM_VolCtrl_Minus_04dB_10sec
+BGM_VolCtrl_Minus_05dB_00Sec
+BGM_VolCtrl_Minus_05dB_01Sec
+BGM_VolCtrl_Minus_05dB_02Sec
+BGM_VolCtrl_Minus_05dB_03Sec
+BGM_VolCtrl_Minus_05dB_04Sec
+BGM_VolCtrl_Minus_05dB_05Sec
+BGM_VolCtrl_Minus_05dB_06Sec
+BGM_VolCtrl_Minus_05dB_07Sec
+BGM_VolCtrl_Minus_05dB_08Sec
+BGM_VolCtrl_Minus_05dB_09Sec
+BGM_VolCtrl_Minus_05dB_10Sec
+BGM_VolCtrl_Minus_06dB_01Sec
+BGM_VolCtrl_Minus_06dB_02Sec
+BGM_VolCtrl_Minus_06dB_03Sec
+BGM_VolCtrl_Minus_06dB_04Sec
+BGM_VolCtrl_Minus_06dB_05Sec
+BGM_VolCtrl_Minus_06dB_06Sec
+BGM_VolCtrl_Minus_06dB_08Sec
+BGM_VolCtrl_Minus_06dB_09Sec
+BGM_VolCtrl_Minus_06dB_10Sec
+BGM_VolCtrl_Minus_07dB_01Sec
+BGM_VolCtrl_Minus_07dB_02Sec
+BGM_VolCtrl_Minus_07dB_03Sec
+BGM_VolCtrl_Minus_07dB_04Sec
+BGM_VolCtrl_Minus_07dB_05Sec
+BGM_VolCtrl_Minus_07dB_06Sec
+BGM_VolCtrl_Minus_07dB_07Sec
+BGM_VolCtrl_Minus_07dB_08Sec
+BGM_VolCtrl_Minus_07dB_09Sec
+BGM_VolCtrl_Minus_07dB_10Sec
+BGM_VolCtrl_Minus_08dB_01Sec
+BGM_VolCtrl_Minus_08dB_02Sec
+BGM_VolCtrl_Minus_08dB_03Sec
+BGM_VolCtrl_Minus_08dB_04Sec
+BGM_VolCtrl_Minus_08dB_05Sec
+BGM_VolCtrl_Minus_08dB_06Sec
+BGM_VolCtrl_Minus_08dB_07Sec
+BGM_VolCtrl_Minus_08dB_08Sec
+BGM_VolCtrl_Minus_08dB_09Sec
+BGM_VolCtrl_Minus_08dB_10Sec
+BGM_VolCtrl_Minus_09dB_01Sec
+BGM_VolCtrl_Minus_09dB_02Sec
+BGM_VolCtrl_Minus_09dB_03Sec
+BGM_VolCtrl_Minus_09dB_04Sec
+BGM_VolCtrl_Minus_09dB_05Sec
+BGM_VolCtrl_Minus_09dB_06Sec
+BGM_VolCtrl_Minus_09dB_07Sec
+BGM_VolCtrl_Minus_09dB_08Sec
+BGM_VolCtrl_Minus_09dB_09Sec
+BGM_VolCtrl_Minus_09dB_10Sec
 BGM_VolCtrl_Minus_10dB_01sec
+BGM_VolCtrl_Minus_10dB_02Sec
 BGM_VolCtrl_Minus_10dB_03sec
+BGM_VolCtrl_Minus_10dB_04Sec
+BGM_VolCtrl_Minus_10dB_05Sec
 BGM_VolCtrl_Minus_10dB_06sec
+BGM_VolCtrl_Minus_10dB_07Sec
+BGM_VolCtrl_Minus_10dB_08Sec
+BGM_VolCtrl_Minus_10dB_09Sec
 BGM_VolCtrl_Minus_10dB_10sec
+BGM_VolCtrl_Minus_78dB_01Sec
 BGM_VolCtrl_Plus_01dB_01sec
+BGM_VolCtrl_Plus_01dB_02Sec
 BGM_VolCtrl_Plus_01dB_03sec
+BGM_VolCtrl_Plus_01dB_04Sec
+BGM_VolCtrl_Plus_01dB_05Sec
 BGM_VolCtrl_Plus_01dB_06sec
+BGM_VolCtrl_Plus_01dB_07Sec
+BGM_VolCtrl_Plus_01dB_08Sec
+BGM_VolCtrl_Plus_01dB_09Sec
 BGM_VolCtrl_Plus_01dB_10sec
+BGM_VolCtrl_Plus_02dB_00Sec
+BGM_VolCtrl_Plus_02dB_01Sec
+BGM_VolCtrl_Plus_02dB_02Sec
+BGM_VolCtrl_Plus_02dB_03Sec
+BGM_VolCtrl_Plus_02dB_04Sec
+BGM_VolCtrl_Plus_02dB_05Sec
+BGM_VolCtrl_Plus_02dB_06Sec
+BGM_VolCtrl_Plus_02dB_07Sec
+BGM_VolCtrl_Plus_02dB_08Sec
+BGM_VolCtrl_Plus_02dB_09Sec
+BGM_VolCtrl_Plus_02dB_10Sec
 BGM_VolCtrl_Plus_03dB_00sec
 BGM_VolCtrl_Plus_03dB_01sec
+BGM_VolCtrl_Plus_03dB_02Sec
 BGM_VolCtrl_Plus_03dB_03sec
+BGM_VolCtrl_Plus_03dB_04Sec
+BGM_VolCtrl_Plus_03dB_05Sec
 BGM_VolCtrl_Plus_03dB_06sec
+BGM_VolCtrl_Plus_03dB_07Sec
+BGM_VolCtrl_Plus_03dB_08Sec
+BGM_VolCtrl_Plus_03dB_09Sec
 BGM_VolCtrl_Plus_03dB_10sec
 BGM_VolCtrl_Plus_04dB_00sec
 BGM_VolCtrl_Plus_04dB_01sec
+BGM_VolCtrl_Plus_04dB_02Sec
 BGM_VolCtrl_Plus_04dB_03sec
+BGM_VolCtrl_Plus_04dB_04Sec
+BGM_VolCtrl_Plus_04dB_05Sec
 BGM_VolCtrl_Plus_04dB_06sec
+BGM_VolCtrl_Plus_04dB_07Sec
+BGM_VolCtrl_Plus_04dB_08Sec
+BGM_VolCtrl_Plus_04dB_09Sec
 BGM_VolCtrl_Plus_04dB_10sec
+BGM_VolCtrl_Plus_05dB_00Sec
+BGM_VolCtrl_Plus_05dB_01Sec
+BGM_VolCtrl_Plus_05dB_02Sec
+BGM_VolCtrl_Plus_05dB_03Sec
+BGM_VolCtrl_Plus_05dB_04Sec
+BGM_VolCtrl_Plus_05dB_05Sec
+BGM_VolCtrl_Plus_05dB_06Sec
+BGM_VolCtrl_Plus_05dB_07Sec
+BGM_VolCtrl_Plus_05dB_08Sec
+BGM_VolCtrl_Plus_05dB_09Sec
+BGM_VolCtrl_Plus_05dB_10Sec
+BGM_VolCtrl_Plus_06dB_00Sec
+BGM_VolCtrl_Plus_06dB_01Sec
+BGM_VolCtrl_Plus_06dB_02Sec
+BGM_VolCtrl_Plus_06dB_03Sec
+BGM_VolCtrl_Plus_06dB_04Sec
+BGM_VolCtrl_Plus_06dB_05Sec
+BGM_VolCtrl_Plus_06dB_06Sec
+BGM_VolCtrl_Plus_06dB_07Sec
+BGM_VolCtrl_Plus_06dB_08Sec
+BGM_VolCtrl_Plus_06dB_09Sec
+BGM_VolCtrl_Plus_06dB_10Sec
+BGM_VolCtrl_Plus_07dB_01Sec
+BGM_VolCtrl_Plus_07dB_02Sec
+BGM_VolCtrl_Plus_07dB_03Sec
+BGM_VolCtrl_Plus_07dB_04Sec
+BGM_VolCtrl_Plus_07dB_05Sec
+BGM_VolCtrl_Plus_07dB_06Sec
+BGM_VolCtrl_Plus_07dB_07Sec
+BGM_VolCtrl_Plus_07dB_08Sec
+BGM_VolCtrl_Plus_07dB_09Sec
+BGM_VolCtrl_Plus_07dB_10Sec
+BGM_VolCtrl_Plus_08dB_00Sec
+BGM_VolCtrl_Plus_08dB_01Sec
+BGM_VolCtrl_Plus_08dB_02Sec
+BGM_VolCtrl_Plus_08dB_03Sec
+BGM_VolCtrl_Plus_08dB_04Sec
+BGM_VolCtrl_Plus_08dB_05Sec
+BGM_VolCtrl_Plus_08dB_06Sec
+BGM_VolCtrl_Plus_08dB_07Sec
+BGM_VolCtrl_Plus_08dB_08Sec
+BGM_VolCtrl_Plus_08dB_09Sec
+BGM_VolCtrl_Plus_08dB_10Sec
+BGM_VolCtrl_Plus_09dB_01Sec
+BGM_VolCtrl_Plus_09dB_02Sec
+BGM_VolCtrl_Plus_09dB_03Sec
+BGM_VolCtrl_Plus_09dB_04Sec
+BGM_VolCtrl_Plus_09dB_05Sec
+BGM_VolCtrl_Plus_09dB_06Sec
+BGM_VolCtrl_Plus_09dB_07Sec
+BGM_VolCtrl_Plus_09dB_08Sec
+BGM_VolCtrl_Plus_09dB_09Sec
+BGM_VolCtrl_Plus_09dB_10Sec
 BGM_VolCtrl_Plus_10dB_00sec
 BGM_VolCtrl_Plus_10dB_01sec
+BGM_VolCtrl_Plus_10dB_02Sec
 BGM_VolCtrl_Plus_10dB_03sec
+BGM_VolCtrl_Plus_10dB_04Sec
+BGM_VolCtrl_Plus_10dB_05Sec
 BGM_VolCtrl_Plus_10dB_06sec
+BGM_VolCtrl_Plus_10dB_07Sec
+BGM_VolCtrl_Plus_10dB_08Sec
+BGM_VolCtrl_Plus_10dB_09Sec
 BGM_VolCtrl_Plus_10dB_10sec
 BGM_VolCtrl_Plus_12dB_01sec
+BGM_VolCtrl_Plus_14dB_00Sec
 BGM_Yt_Alley
 BGM_Yt_PreBar
 BGM_Yt_PreBar_fast
 BGM_Yt_Town
 NEW_EVENT
-# 40128147
-# 68135396
-# 74187800
-# 143190403
-# 154449289
-# 175361718
-# 191789068
-# 192176007
-# 204961904
-# 231108973
-# 236526513
-# 242374591
 # 245183125
-# 248098556
-# 293400902
 # 337204527
-# 367424441
-# 387240060
-# 393307710
-# 429270851
-# 436990436
-# 469864162
-# 475738877
-# 528740104
-# 532449214
-# 544900171
-# 545619051
-# 604547449
-# 609005666
-# 631734343
-# 672505661
-# 722464768
-# 730922271
-# 763029109
-# 785441323
-# 798125891
-# 866091365
-# 887609398
-# 920945459
-# 942428298
-# 960052545
-# 979256154
-# 1006100438
-# 1008523839
-# 1017002719
-# 1031399170
-# 1044105529
-# 1050674494
-# 1083427966
 # 1121340332
-# 1152171557
-# 1172980818
-# 1173309740
 # 1177825973
 # 1180291474
-# 1203269003
-# 1221720109
-# 1230396178
-# 1262577933
-# 1303294903
-# 1318519150
-# 1347765791
-# 1360400627
-# 1365043541
-# 1366603425
-# 1393515855
-# 1409354511
-# 1460740067
-# 1461458691
-# 1472846937
 # 1499526316
-# 1503222509
-# 1505744929
-# 1508646870
-# 1509365750
-# 1511107534
-# 1516373458
-# 1521026597
-# 1540346384
-# 1592554856
-# 1594780192
-# 1631812043
-# 1652688926
-# 1681094341
-# 1688121275
-# 1701384387
-# 1736610923
-# 1736908495
-# 1744705692
-# 1765894005
-# 1790867894
-# 1805841335
-# 1806560215
 # 1808501266
-# 1827262779
-# 1901976024
-# 1949883647
-# 2023970209
-# 2024879724
-# 2043173818
-# 2047822811
-# 2087959191
-# 2097326624
-# 2103985609
-# 2111193617
-# 2184160860
-# 2185927790
-# 2186619396
-# 2208592406
-# 2236145992
-# 2245420198
-# 2249841572
-# 2337970944
-# 2349489805
-# 2405799293
-# 2412711981
-# 2473371912
-# 2505683959
-# 2513481518
-# 2544940797
-# 2547945842
-# 2548664466
-# 2595558742
-# 2602526996
-# 2645188250
-# 2700357622
-# 2758214590
-# 2765500573
-# 2769384664
-# 2788486994
-# 2797272416
-# 2823441297
-# 2832586118
-# 2834771042
-# 2842009605
-# 2892753207
-# 2900295668
-# 2903470347
-# 2912827080
-# 2923887962
-# 2942035505
-# 2947502491
-# 2968091484
-# 3011569446
-# 3055305887
-# 3097041560
-# 3129780839
-# 3184238496
-# 3206211506
-# 3240547728
 # 3255018342
-# 3289037376
-# 3300094952
-# 3321869338
-# 3350811398
-# 3358986668
-# 3379689232
-# 3399844492
-# 3402907353
 # 3444056644
-# 3444581937
-# 3445300817
-# 3464902443
-# 3502310100
-# 3505980842
-# 3542048857
-# 3570749059
-# 3600249264
-# 3634857714
 # 3639794494
-# 3640385900
-# 3726699793
-# 3764590845
-# 3855392751
-# 3874835882
-# 3915850583
-# 3918614671
-# 3994181653
-# 4004516285
-# 4019710052
-# 4035006794
-# 4035548708
-# 4058213580
-# 4086934072
-# 4087652952
-# 4121862857
-# 4134166948
-# 4144527729
-# 4182683629
-# 4198419117
-# 4293650021
 
 ### TRIGGER NAMES (BGM.bnk)
 BGM_St1_Fill_01
@@ -8670,10 +8670,10 @@ ci0320
 ### EVENT NAMES (ci0510.bnk)
 BGM_Ot_Crysis
 BGM_VolCtrl_Default_03sec
+BGM_VolCtrl_Default_07Sec
 BGM_VolCtrl_Plus_04dB_01sec
+BGM_VolCtrl_Plus_07dB_01Sec
 ci0510
-# 604547449
-# 1050674494
 
 ### VARIABLE NAMES (ci0510.bnk)
 BGM_Music
@@ -8685,10 +8685,10 @@ Ot_Crysis
 
 ### EVENT NAMES (ci0520.bnk)
 BGM_VolCtrl_Default_01sec
+BGM_VolCtrl_Default_08Sec
 BGM_VolCtrl_Plus_03dB_03sec
+BGM_VolCtrl_Plus_06dB_01Sec
 ci0520
-# 1744705692
-# 2892753207
 
 ### EVENT NAMES (ci0530.bnk)
 BGM_VolCtrl_Default_06sec_Sine
@@ -8723,8 +8723,8 @@ ci1610
 ### EVENT NAMES (ci1620.bnk)
 BGM_Bt_Battle1_A
 BGM_VolCtrl_Default_06sec_Sine
+BGM_VolCtrl_Plus_06dB_01Sec
 ci1620
-# 2892753207
 
 ### VARIABLE NAMES (ci1620.bnk)
 BGM_Battle_Progress
@@ -8942,8 +8942,8 @@ ci4510
 
 ### EVENT NAMES (ci4520.bnk)
 BGM_Set_St_Stage_4_1
+BGM_VolCtrl_Plus_06dB_01Sec
 ci4520
-# 2892753207
 
 ### VARIABLE NAMES (ci4520.bnk)
 BGM_Music
@@ -9092,8 +9092,8 @@ ci5515
 ### EVENT NAMES (ci5520.bnk)
 BGM_Set_St_Stage_5_2
 BGM_VolCtrl_Default_06sec_Sine
+BGM_VolCtrl_Plus_05dB_00Sec
 ci5520
-# 544900171
 
 ### VARIABLE NAMES (ci5520.bnk)
 BGM_Music
@@ -9307,8 +9307,8 @@ ci7570
 ### EVENT NAMES (ci7580.bnk)
 BGM_Bt_AngraMainyu_D
 BGM_VolCtrl_Default_03sec
+BGM_VolCtrl_Minus_02dB_01Sec
 ci7580
-# 866091365
 
 ### VARIABLE NAMES (ci7580.bnk)
 BGM_Battle_Progress
@@ -9517,6 +9517,12 @@ core_em_fear_s
 core_em_Finish_end
 core_em_Finish_Slow_hit
 core_em_Finish_start
+core_em_Freez
+core_em_Freez_break
+core_em_Freez_break_l
+core_em_Freez_death
+core_em_Freez_l
+core_em_Freez_s
 core_em_guard_break
 core_em_hateup_l
 core_em_hateup_s
@@ -9541,6 +9547,7 @@ core_em_vt_00_start
 core_em_vt_01_end
 core_em_vt_01_start
 core_ev_ingame_fadeout
+core_ev_pl_fadeout
 core_fade_out
 core_Finish_Slow_hit
 core_Finish_Slow_hit_s
@@ -9688,6 +9695,8 @@ core_pl_just_dodge_em7000
 core_pl_just_dodge_npc
 core_pl_just_guard
 core_pl_just_guard_npc
+core_pl_just_Parry
+core_pl_just_Parry_npc
 core_pl_mov_hold_m
 core_pl_mov_leaf_impact
 core_pl_mov_throw_m
@@ -9939,6 +9948,7 @@ core_sys_ct_ingame_fadein_ct0080
 core_sys_ct_ingame_fadeout
 core_sys_ct_ingame_fadeout_ct1040
 core_sys_ct_ingame_fadeout_ct6030
+core_sys_ct_ingame_setvol
 core_sys_ct_into_fadein_01
 core_sys_ct_out
 core_sys_ct_out_cn1400
@@ -9974,6 +9984,7 @@ core_sys_cw_ingame_fadein_cw1330
 core_sys_cw_ingame_fadein_cw2015
 core_sys_cw_ingame_fadein_cw2020
 core_sys_cw_ingame_fadeout
+core_sys_cw_ingame_setvol
 core_sys_cw_out
 core_sys_cw_out_cw0375
 core_sys_cw_out_cw0380
@@ -10148,8 +10159,10 @@ core_target_lock_off
 core_Title_return
 core_Title_return_SE
 core_Title_start
+core_ui_skip_ItemExp
 em0005_0910_default
 em0102_5010_default
+em0103_5010_default
 em0500_5000_default
 em0501_5000_default
 em0502_5000_default
@@ -10170,7 +10183,9 @@ em2200_2170_default
 em2300_2170_default
 em7100_5000_default
 em7110_5000_default
+em7201_1600_default
 em7210_0910_default
+em7211_1600_default
 em7300_5000_default
 em7300_5010_default
 em7310_5000_default
@@ -10312,7 +10327,6 @@ stop_env_5sec_liner
 # 24566297
 # 63826852
 # 79925280
-# 88922480
 # 89966928
 # 96928409
 # 129297712
@@ -10349,7 +10363,6 @@ stop_env_5sec_liner
 # 536072684
 # 543067394
 # 546001258
-# 591326891
 # 602544206
 # 602595914
 # 611121999
@@ -10374,13 +10387,10 @@ stop_env_5sec_liner
 # 900203069
 # 905184079
 # 920664174
-# 929967840
 # 945181735
 # 950874487
 # 963233562
 # 982620856
-# 994610945
-# 994610974
 # 998603524
 # 1008391304
 # 1023921553
@@ -10390,9 +10400,7 @@ stop_env_5sec_liner
 # 1056642132
 # 1098083793
 # 1135031796
-# 1137608439
 # 1144424376
-# 1159577554
 # 1189336805
 # 1230782227
 # 1239595628
@@ -10411,7 +10419,6 @@ stop_env_5sec_liner
 # 1433028671
 # 1458852514
 # 1459717508
-# 1473539521
 # 1483695157
 # 1484054982
 # 1487928966
@@ -10459,20 +10466,16 @@ stop_env_5sec_liner
 # 2072509073
 # 2086629731
 # 2103211690
-# 2112301154
 # 2134118197
 # 2150706625
 # 2169910234
 # 2176730181
 # 2230857707
 # 2241328574
-# 2246509918
 # 2248858883
 # 2276554428
 # 2277594831
-# 2281283275
 # 2281977952
-# 2286323226
 # 2292579538
 # 2316028948
 # 2329483934
@@ -10486,7 +10489,6 @@ stop_env_5sec_liner
 # 2452165124
 # 2453232013
 # 2457336608
-# 2458371671
 # 2467613833
 # 2479002525
 # 2481125437
@@ -10500,7 +10502,6 @@ stop_env_5sec_liner
 # 2550217537
 # 2589718257
 # 2591958556
-# 2596479136
 # 2643036755
 # 2648613262
 # 2651394147
@@ -10531,7 +10532,6 @@ stop_env_5sec_liner
 # 3046647433
 # 3058795861
 # 3092630104
-# 3110249019
 # 3128490863
 # 3130665117
 # 3195113973
@@ -12117,9 +12117,9 @@ Ot_Relief
 
 ### EVENT NAMES (ct1010.bnk)
 BGM_St_RedTown1
+BGM_VolCtrl_Plus_04dB_04Sec
+BGM_VolCtrl_Plus_08dB_01Sec
 ct1010
-# 979256154
-# 1152171557
 
 ### VARIABLE NAMES (ct1010.bnk)
 BGM_Church
@@ -12167,8 +12167,8 @@ Ot_Roland_Light
 BGM_Ot_RolandLight
 BGM_VolCtrl_Default_06sec
 BGM_VolCtrl_Minus_03dB_01sec
+BGM_VolCtrl_Minus_78dB_01Sec
 ct1040
-# 1083427966
 # 1180291474
 
 ### VARIABLE NAMES (ct1040.bnk)
@@ -12194,12 +12194,12 @@ gran
 BGM_Bt_CrystalBeastWind_A
 BGM_VolCtrl_Default_03sec
 BGM_VolCtrl_Plus_01dB_01sec
+BGM_VolCtrl_Plus_02dB_01Sec
+BGM_VolCtrl_Plus_04dB_02Sec
+BGM_VolCtrl_Plus_05dB_02Sec
+BGM_VolCtrl_Plus_06dB_01Sec
+BGM_VolCtrl_Plus_06dB_02Sec
 ct1060
-# 528740104
-# 785441323
-# 2892753207
-# 3444581937
-# 3634857714
 
 ### VARIABLE NAMES (ct1060.bnk)
 BGM_Battle_Progress
@@ -12245,8 +12245,8 @@ gran
 ### EVENT NAMES (ct1110.bnk)
 BGM_Set_Ot_ReLinkStartup
 BGM_VolCtrl_Default_10sec
+BGM_VolCtrl_Plus_06dB_01Sec
 ct1110
-# 2892753207
 
 ### VARIABLE NAMES (ct1110.bnk)
 BGM_Music
@@ -12259,15 +12259,15 @@ Ot_ReLinkStartup
 
 ### EVENT NAMES (ct2010.bnk)
 BGM_St_Stage2_1_A
+BGM_VolCtrl_Default_05Sec
 BGM_VolCtrl_Plus_03dB_01sec
+BGM_VolCtrl_Plus_03dB_04Sec
+BGM_VolCtrl_Plus_06dB_01Sec
+BGM_VolCtrl_Plus_08dB_01Sec
+BGM_VolCtrl_Plus_08dB_05Sec
+BGM_VolCtrl_Plus_09dB_01Sec
 BGM_VolCtrl_Plus_10dB_00sec
 ct2010
-# 154449289
-# 920945459
-# 1152171557
-# 2024879724
-# 2892753207
-# 2942035505
 
 ### VARIABLE NAMES (ct2010.bnk)
 BGM_Battle_Ignore
@@ -12377,10 +12377,10 @@ None_4000mm
 
 ### EVENT NAMES (ct3060.bnk)
 BGM_St_YellowTown1
+BGM_VolCtrl_Default_02Sec
+BGM_VolCtrl_Plus_04dB_02Sec
 BGM_VolCtrl_Plus_10dB_01sec
 ct3060
-# 528740104
-# 2923887962
 
 ### VARIABLE NAMES (ct3060.bnk)
 BGM_Music
@@ -12410,10 +12410,10 @@ ct3080
 ### EVENT NAMES (ct4010.bnk)
 BGM_St_Stage4_2
 BGM_VolCtrl_Default_10sec
+BGM_VolCtrl_Plus_06dB_02Sec
+BGM_VolCtrl_Plus_06dB_06Sec
 BGM_VolCtrl_Plus_10dB_01sec
 ct4010
-# 2595558742
-# 3634857714
 
 ### VARIABLE NAMES (ct4010.bnk)
 BGM_Battle_Ignore
@@ -12444,8 +12444,8 @@ gran
 ### EVENT NAMES (ct4030.bnk)
 BGM_Ot_GranCypherBrave
 BGM_VolCtrl_Default_10sec
+BGM_VolCtrl_Plus_08dB_01Sec
 ct4030
-# 1152171557
 
 ### VARIABLE NAMES (ct4030.bnk)
 BGM_Music
@@ -12458,8 +12458,8 @@ Ot_GranCypherBrave
 
 ### EVENT NAMES (ct5020.bnk)
 BGM_VolCtrl_Default_10sec
+BGM_VolCtrl_Plus_06dB_01Sec
 ct5020
-# 2892753207
 
 ### VARIABLE NAMES (ct5020.bnk)
 SW_PlayerGender
@@ -12470,10 +12470,10 @@ gran
 
 ### EVENT NAMES (ct5030.bnk)
 BGM_Bt_Lilith
+BGM_VolCtrl_Default_05Sec
+BGM_VolCtrl_Minus_05dB_00Sec
+BGM_VolCtrl_Minus_07dB_06Sec
 ct5030
-# 920945459
-# 1365043541
-# 1505744929
 
 ### VARIABLE NAMES (ct5030.bnk)
 BGM_Music
@@ -12537,11 +12537,11 @@ gran
 ### EVENT NAMES (ct6040.bnk)
 BGM_None_2000mm
 BGM_Ot_MainTheme_B_Loop
+BGM_VolCtrl_Default_02Sec
 BGM_VolCtrl_Default_10sec
+BGM_VolCtrl_Plus_06dB_01Sec
+BGM_VolCtrl_Plus_08dB_01Sec
 ct6040
-# 1152171557
-# 2892753207
-# 2923887962
 
 ### VARIABLE NAMES (ct6040.bnk)
 BGM_Music
@@ -12591,8 +12591,8 @@ gran
 ### EVENT NAMES (ct7030.bnk)
 BGM_Bt_AngraMainyu_B_All
 BGM_VolCtrl_Default_10sec
+BGM_VolCtrl_Plus_05dB_00Sec
 ct7030
-# 544900171
 
 ### VARIABLE NAMES (ct7030.bnk)
 BGM_Battle_Progress
@@ -12608,9 +12608,9 @@ gran
 ### EVENT NAMES (ct7040.bnk)
 BGM_Bt_BigCrystalBeast
 BGM_None_6000mm
+BGM_VolCtrl_Default_04Sec
+BGM_VolCtrl_Plus_05dB_00Sec
 ct7040
-# 544900171
-# 2473371912
 
 ### VARIABLE NAMES (ct7040.bnk)
 BGM_Music
@@ -12699,9 +12699,9 @@ gran
 
 ### EVENT NAMES (ct9030.bnk)
 BGM_Bt_ShinLB_D
+BGM_VolCtrl_Default_02Sec
+BGM_VolCtrl_Plus_05dB_02Sec
 ct9030
-# 2923887962
-# 3444581937
 
 ### VARIABLE NAMES (ct9030.bnk)
 BGM_Battle_Progress
@@ -13459,6 +13459,7 @@ quest_start_clear
 em0004_atk_cleavingslash_emitter
 em0004_atk_cleavingslash_prepare
 em0004_atk_cleavingslash_vanish
+em0004_atk_guard_bounce
 em0004_atk_guard_break
 em0004_atk_guard_down
 em0004_atk_guard_hold
@@ -13514,7 +13515,6 @@ em0004_vo_provoke_s
 em0004_vo_sign_m
 em0004_vo_status_abnormal
 em0004_vo_status_recovery
-# 383411713
 
 ### RTPC/GAME-VARIABLE NAMES (em0004.bnk)
 em_slowrate
@@ -13531,6 +13531,7 @@ quest_start_clear
 ### EVENT NAMES (em0005.bnk)
 em0005_0008_default
 em0005_atk_eye_sign
+em0005_atk_guard_bounce
 em0005_atk_guard_break
 em0005_atk_guard_down
 em0005_atk_guard_hold
@@ -13623,7 +13624,6 @@ em0005_vo_status_recovery
 et3012_3004_default
 we0012_0900_default
 # 799573506
-# 3519939966
 
 ### RTPC/GAME-VARIABLE NAMES (em0005.bnk)
 em_slowrate
@@ -13687,6 +13687,7 @@ em0100_atk_counter_sign
 em0100_atk_counter_whoosh
 em0100_atk_HOLD
 em0100_atk_kick
+em0100_atk_RiderKick
 em0100_atk_rock
 em0100_atk_shield_swing_s
 em0100_atk_swish_sign
@@ -13713,6 +13714,7 @@ em0100_mov_appear_fall_mouth
 em0100_mov_appear_ground
 em0100_mov_appear_hand
 em0100_mov_bone_break
+em0100_mov_bone_Clink
 em0100_mov_bone_cloth_l
 em0100_mov_bone_cloth_m
 em0100_mov_bone_cloth_s
@@ -13760,9 +13762,7 @@ Stop_em0100_mov_bone_mouth_lp
 Stop_em0100_se
 stop_em0100_vo
 # 262395628
-# 1321497850
 # 2003297238
-# 2627182436
 # 2638128476
 # 3487457475
 # 3852421116
@@ -13830,6 +13830,7 @@ em0100_atk_counter_sign
 em0100_atk_counter_whoosh
 em0100_atk_HOLD
 em0100_atk_kick
+em0100_atk_RiderKick
 em0100_atk_rock
 em0100_atk_shield_swing_s
 em0100_atk_swish_sign
@@ -13856,6 +13857,7 @@ em0100_mov_appear_fall_mouth
 em0100_mov_appear_ground
 em0100_mov_appear_hand
 em0100_mov_bone_break
+em0100_mov_bone_Clink
 em0100_mov_bone_cloth_l
 em0100_mov_bone_cloth_m
 em0100_mov_bone_cloth_s
@@ -13908,10 +13910,8 @@ Stop_em0100_mov_bone_mouth_lp
 Stop_em0100_se
 stop_em0100_vo
 # 262395628
-# 1321497850
 # 1411461657
 # 2003297238
-# 2627182436
 # 2638128476
 # 3487457475
 # 3852421116
@@ -14404,7 +14404,7 @@ stop_em0400_atk_wind_area_pre_lp
 # 2860166859
 
 ### SFX NAMES (em0400.bnk)
-# 2661119576
+SE_Colosseum_Rev
 # 2985832520
 
 ### RTPC/GAME-VARIABLE NAMES (em0400.bnk)
@@ -20825,6 +20825,7 @@ em7100_etffff_8220_stop
 em7100_mov_body_l
 em7100_mov_body_m
 em7100_mov_body_s
+em7100_mov_CrystalBreak
 em7100_mov_cut_hand_land_a
 em7100_mov_cut_hand_land_b
 em7100_mov_flyingloop_1s
@@ -20940,7 +20941,6 @@ we7100_7500_default
 # 1563136215
 # 1574012637
 # 1879361176
-# 2010197132
 # 2311406966
 # 2369516557
 # 2658195304
@@ -20965,12 +20965,12 @@ SE_em7100_wait
 em_slowrate
 GP_Elevation
 GP_em7100_atk
+GP_em7100_ougi_charge
 GP_em7100_wait
 GP_se_contentsgauge
 se_speed
 volume_se
 # 1644144091
-# 3706068403
 
 ### VARIABLE NAMES (em7100.bnk)
 em_nihira
@@ -23134,7 +23134,7 @@ we7703_0161_default
 # 3945210022
 
 ### SFX NAMES (em7700_01_01_00.bnk)
-# 4125610083
+SE_em7700_ougi
 
 ### RTPC/GAME-VARIABLE NAMES (em7700_01_01_00.bnk)
 em_slowrate
@@ -23232,7 +23232,7 @@ Stop_em7700_atk_hl_rndlaser_shot_lp
 # 4200885270
 
 ### SFX NAMES (em7700_01_03_00.bnk)
-# 4125610083
+SE_em7700_ougi
 
 ### RTPC/GAME-VARIABLE NAMES (em7700_01_03_00.bnk)
 em_slowrate
@@ -24163,6 +24163,7 @@ pl0000_mov_emo_cloth_s
 pl0000_mov_emo_cloth_ss
 pl0000_mov_emo_cloth_whoosh
 pl0000_mov_emo_hand_clap
+pl0000_mov_emo_hand_grasp
 pl0000_mov_emo_heavyArmorA_m
 pl0000_mov_emo_heavyArmorA_s
 pl0000_mov_emo_imp_l_lightArmorA
@@ -24225,7 +24226,6 @@ stop_pl0000_ctl_cancel
 wp0000_Mov_quest_shine
 # 12393801
 # 44446907
-# 2676030738
 # 2677490856
 
 ### RTPC/GAME-VARIABLE NAMES (pl0000.bnk)
@@ -24521,6 +24521,7 @@ PL0100_mov_emo_cloth_s
 PL0100_mov_emo_cloth_ss
 PL0100_mov_emo_cloth_whoosh
 PL0100_mov_emo_hand_clap
+PL0100_mov_emo_hand_grasp
 PL0100_mov_emo_imp_l_lightArmorA
 PL0100_mov_emo_imp_m_lightArmorA_b
 PL0100_mov_emo_imp_m_lightArmorc
@@ -24580,11 +24581,10 @@ stop_pl0100_ab_revive_lv3_a_lp
 stop_pl0100_ab_revive_lv4_a_lp
 stop_pl0100_ctl_cancel
 wp0100_atk_sword_swing_m
+wp0100_mov_quest_sword_charge_hold
+wp0100_mov_quest_sword_shine
 wp0100_mov_quest_whoosh
-# 297267883
 # 1588746266
-# 2700246942
-# 2978188505
 # 3479253303
 
 ### RTPC/GAME-VARIABLE NAMES (pl0100.bnk)
@@ -24734,6 +24734,7 @@ pl0200_mov_emo_cloth_whoosh_b
 pl0200_mov_emo_cloth_whoosh_C
 pl0200_Mov_emo_hand
 pl0200_mov_emo_hand_clap
+pl0200_Mov_emo_hand_grasp
 pl0200_mov_emo_imp_m_lightArmorA
 pl0200_Mov_emo_Jump
 pl0200_mov_emo_pocket_pickup
@@ -24787,7 +24788,6 @@ wp0200_mov_quest_sword_move
 # 2415651540
 # 2574635804
 # 2574635805
-# 3501700124
 # 3909668021
 # 3934722523
 # 3983639952
@@ -24931,6 +24931,7 @@ PL0300_mov_emo_cloth_ss
 PL0300_mov_emo_cloth_whoosh
 PL0300_mov_emo_hand_clap
 PL0300_mov_emo_hand_clap_b
+PL0300_mov_emo_hand_grasp
 PL0300_mov_emo_imp_s_leatherA
 PL0300_Mov_emo_Jump
 PL0300_Mov_emo_m_Jump
@@ -24972,7 +24973,6 @@ wp0300_mov_quest_equip_out
 # 617980927
 # 764145629
 # 1585636767
-# 1628816387
 # 1695712311
 # 1783909317
 # 2326618444
@@ -25310,6 +25310,8 @@ pl0500_mov_emo_cloth_m_b
 pl0500_mov_emo_cloth_s
 pl0500_mov_emo_cloth_whoosh
 pl0500_mov_emo_cloth_whoosh_b
+pl0500_mov_emo_cloth_Wipe
+pl0500_mov_emo_cloth_Wipe_b
 PL0500_mov_emo_hand_clap
 pl0500_mov_emo_imp_cloth_s
 PL0500_mov_emo_Jump_b
@@ -25344,11 +25346,9 @@ vib_I_link_attac_
 # 986447289
 # 986447290
 # 986447291
-# 1216197492
 # 1518138656
 # 1518138659
 # 1595262305
-# 1761353627
 # 2142710266
 # 2510281189
 # 2848334861
@@ -25643,6 +25643,8 @@ PL0700_ab_benediction_start
 PL0700_ab_counter_charge
 PL0700_ab_slow_appear
 PL0700_ab_slow_charge
+PL0700_ab_slow_point_end
+PL0700_ab_slow_point_start
 PL0700_foot_dash
 PL0700_foot_idle
 PL0700_foot_land
@@ -25675,6 +25677,8 @@ PL0700_Mov_emo_body_s_c
 PL0700_mov_emo_body_ss
 PL0700_mov_emo_body_ss_b
 PL0700_mov_emo_body_ss_c
+PL0700_mov_emo_cloth_imp_s
+PL0700_mov_emo_cloth_imp_s_b
 PL0700_mov_emo_cloth_quake
 PL0700_mov_emo_hand_clap
 PL0700_mov_emo_pocket_pickup
@@ -25718,15 +25722,11 @@ wp0790_mov_quest_appear
 wp0791_mov_quest_appear
 wp0793_mov_quest_appear
 # 555915677
-# 606862534
-# 612504806
 # 1135203709
 # 1899998848
 # 1899998849
 # 1899998851
 # 3047397337
-# 3109174861
-# 3709956449
 
 ### RTPC/GAME-VARIABLE NAMES (pl0700.bnk)
 GP_Azimuth
@@ -26187,6 +26187,8 @@ pl0800_mov_emo_body_ss_c
 pl0800_mov_emo_body_ss_E
 PL0800_mov_emo_hand_clap
 PL0800_mov_emo_hand_clap_b
+PL0800_mov_emo_hand_grasp
+PL0800_mov_emo_hand_grasp_b
 PL0800_mov_emo_imp_m
 PL0800_mov_emo_imp_m_lightArmorA_b
 PL0800_mov_emo_imp_m_lightArmorA_c
@@ -26234,8 +26236,6 @@ wp0800_mov_quest_sword_whoosh
 wp0800_sword_guard
 # 3496314081
 # 743700595
-# 1453043386
-# 1939009057
 # 1964297583
 # 2248172353
 # 2556276106
@@ -26418,8 +26418,12 @@ pl0900_mov_emo_cloth_swing_l
 pl0900_mov_emo_cloth_swing_s
 pl0900_mov_emo_cloth_swing_ss
 PL0900_mov_emo_hand_clap
+pl0900_mov_emo_hand_grasp_m
+pl0900_mov_emo_hand_grasp_s
+pl0900_mov_emo_hand_grasp_ss
 PL0900_Mov_emo_hand_ground
 PL0900_Mov_emo_hand_ground_b
+PL0900_mov_emo_hand_imp_cloth
 PL0900_Mov_emo_Jump
 PL0900_mov_emo_pocket_pickup
 PL0900_Mov_emo_sit
@@ -26460,19 +26464,15 @@ ui_battle_ex_chr09_01_level_1
 ui_battle_ex_chr09_01_level_2
 ui_battle_ex_chr09_01_level_3
 ui_battle_ex_chr09_01_level_4
-# 230821507
 # 499384283
 # 549215084
 # 611531115
 # 1219778464
-# 1241802057
-# 1241802071
 # 1793604600
 # 1885480380
 # 1885480381
 # 3254783321
 # 3474327942
-# 3689645958
 # 3731420882
 # 4228388809
 
@@ -26585,6 +26585,7 @@ pl1000_ab_IksSeele_A
 pl1000_ab_IksSeele_B
 pl1000_ab_LohenWolf_A
 pl1000_ab_LohenWolf_B
+pl1000_ab_LohenWolf_line_start
 pl1000_ab_Traumerei_A
 pl1000_ab_Traumerei_B
 pl1000_ab_Uchiage_A
@@ -26687,7 +26688,6 @@ wp1000_sword_move_01
 # 2219311865
 # 2470547539
 # 2706103608
-# 3571391271
 # 3867007091
 
 ### RTPC/GAME-VARIABLE NAMES (pl1000.bnk)
@@ -26888,6 +26888,8 @@ wp1100_mov_move
 wp1100_mov_quest_grip_m
 wp1100_mov_quest_grip_s
 wp1100_mov_quest_swing
+wp1100_mov_quest_swing_s_b_01
+wp1100_mov_quest_swing_s_b_02
 wp1100_mov_quest_sword_ground_hit
 # 342671883
 # 405433192
@@ -26895,8 +26897,6 @@ wp1100_mov_quest_sword_ground_hit
 # 1794037532
 # 2926445885
 # 2981048733
-# 3045735001
-# 3045735002
 # 3535941229
 
 ### RTPC/GAME-VARIABLE NAMES (pl1100.bnk)
@@ -27077,6 +27077,7 @@ pl1200_ougi_c2_start
 pl1200_ougi_start
 Stop_pl1200_ctl_cancel
 wp1200_mov_quest_shine
+wp1200_mov_quest_sp_fall_stance
 wp1200_mov_quest_sp_swing_ss
 wp1200_mov_quest_swing_s
 wp1200_mov_quest_sword_swing_02
@@ -27087,7 +27088,6 @@ wp1200_sword_guard
 # 346358089
 # 452559624
 # 452559630
-# 1441201466
 # 1587900548
 # 1736060950
 # 2061312423
@@ -27225,6 +27225,8 @@ pl1300_jack_pl1_quest_start_1
 pl1300_jack_win_1
 pl1300_la_start
 PL1300_link_attack_hit
+pl1300_mov_Backflip_m
+pl1300_mov_Backflip_s
 pl1300_mov_body_l
 pl1300_mov_body_m
 pl1300_mov_body_s
@@ -27248,6 +27250,7 @@ pl1300_mov_emo_cloth_m
 pl1300_mov_emo_cloth_m_b
 pl1300_mov_emo_cloth_s
 pl1300_mov_emo_cloth_ss
+pl1300_mov_emo_foot_slide_s
 pl1300_mov_emo_hand_clap
 pl1300_mov_emo_jump_s
 pl1300_mov_emo_Jump_s_b
@@ -27260,6 +27263,7 @@ pl1300_mov_emo_step_b
 pl1300_mov_emo_step_c
 pl1300_mov_emo_swing_cloth
 pl1300_mov_emo_swing_cloth_b
+pl1300_mov_emo_swing_s_roll
 PL1300_mov_grip
 pl1300_mov_jump
 pl1300_mov_jump_s
@@ -27281,18 +27285,16 @@ Stop_pl1300_ctl_cancel
 wp1300_mov_quest_equip_in_m
 wp1300_mov_quest_equip_out
 wp1300_mov_quest_slash
+wp1300_mov_quest_swish_s_b
 # 663746558
 # 685703642
 # 732852335
-# 786247717
-# 806114727
 # 941319526
 # 1143471908
 # 1494900122
 # 1644041828
 # 1664882729
 # 2020600533
-# 2201021274
 # 2512535671
 # 2698325299
 # 3363927710
@@ -27302,8 +27304,6 @@ wp1300_mov_quest_slash
 # 3923553996
 # 3998301874
 # 4056613405
-# 4119653487
-# 4119653489
 
 ### RTPC/GAME-VARIABLE NAMES (pl1300.bnk)
 GP_Azimuth
@@ -27446,6 +27446,7 @@ PL1400_mov_emo_cloth_s_b
 PL1400_mov_emo_cloth_ss
 PL1400_mov_emo_cloth_ss_b
 PL1400_mov_emo_cloth_ss_c
+PL1400_mov_emo_foot_slide_s
 PL1400_mov_emo_hand_clap
 PL1400_mov_emo_pocket_pickup
 PL1400_Mov_emo_sit
@@ -27477,7 +27478,6 @@ Stop_pl1400_ctl_cancel
 # 2604125645
 # 2931580866
 # 3179533458
-# 3290014452
 # 3343170406
 # 3362378061
 # 3820942568
@@ -27649,11 +27649,13 @@ pl1500_mov_emo_whoosh_s_D
 pl1500_mov_emo_whoosh_s_E
 pl1500_mov_emo_whoosh_s_F
 pl1500_mov_emo_whoosh_s_G
+pl1500_mov_emo_whoosh_s_imp_s
 PL1500_mov_equip_in_a
 pl1500_mov_getup
 PL1500_Mov_Jump
 PL1500_mov_jump_s
 PL1500_Mov_quest_m_leatherA
+pl1500_mov_quest_whoosh_s_imp_s
 pl1500_mov_rolling_step
 PL1500_mov_standup
 PL1500_mov_step_l
@@ -27695,7 +27697,6 @@ wp1500_atk_RISE
 wp1500_atk_swing_s
 # 433879937
 # 433879938
-# 457598662
 # 918772393
 # 1291168402
 # 1343205864
@@ -27715,7 +27716,6 @@ wp1500_atk_swing_s
 # 3295772574
 # 3640806147
 # 3768299533
-# 4017579543
 # 4133322428
 # 4133322431
 # 4158731825
@@ -27921,16 +27921,19 @@ pl1600_mov_emo_cloth_ss
 pl1600_mov_emo_cloth_ss_b
 pl1600_mov_emo_cloth_ss_c
 pl1600_mov_emo_cloth_ss_d
+pl1600_mov_emo_handclap_s
 pl1600_mov_emo_imp_m
 pl1600_mov_emo_imp_m_b
 pl1600_mov_emo_imp_m_c
 PL1600_mov_emo_Jump
 PL1600_mov_emo_pocket_pickup
 PL1600_mov_emo_sit
+PL1600_mov_emo_sit_down_s
 pl1600_mov_emo_slow_m
 pl1600_mov_emo_slow_m_b
 pl1600_mov_emo_slow_s
 pl1600_mov_emo_slow_s_b
+PL1600_Mov_emo_step_l_cloth
 PL1600_mov_hand_throw
 PL1600_Mov_Jump
 PL1600_Mov_Jump_cloth
@@ -27978,15 +27981,12 @@ wp1600_swing_m2_quest
 # 97255240
 # 464363871
 # 952274224
-# 1160880727
 # 1163746238
-# 2413627229
 # 2568274296
 # 2624937046
 # 2705196695
 # 2746337929
 # 2931670569
-# 3175866460
 # 3284888995
 # 3342275847
 # 3461560025
@@ -28174,6 +28174,7 @@ PL1700_mov_emo_body_ss
 PL1700_mov_emo_body_ss_b
 PL1700_mov_emo_body_ss_c
 PL1700_mov_emo_body_ss_d
+PL1700_mov_emo_handclap_m
 PL1700_Mov_emo_imp_l
 PL1700_Mov_emo_imp_m
 PL1700_Mov_emo_imp_m_b
@@ -28185,6 +28186,7 @@ PL1700_mov_emo_m_clothC_d
 PL1700_mov_emo_pocket_pickup
 PL1700_mov_emo_s_clothC_c
 PL1700_mov_emo_s_clothC_d
+PL1700_mov_emo_s_grasp
 PL1700_mov_emo_sit
 PL1700_Mov_emo_sit_B
 PL1700_mov_emo_whoosh_m
@@ -28207,6 +28209,7 @@ ui_battle_ex_chr17_01_level_1
 ui_battle_ex_chr17_01_level_2
 ui_battle_ex_chr17_01_level_3
 wp1700_mov_quest_equip_out
+wp1700_mov_quest_ground_hit
 wp1700_mov_quest_whoosh_m
 # 25816549
 # 239374467
@@ -28223,13 +28226,10 @@ wp1700_mov_quest_whoosh_m
 # 2645854402
 # 2695767304
 # 2822009367
-# 3070668204
 # 3122641955
-# 3182465948
 # 3242862448
 # 3441697972
 # 3443688105
-# 3541647156
 # 4103541310
 # 4227835274
 # 4248673476
@@ -28706,7 +28706,9 @@ pl1900_mov_emo_body_s
 pl1900_mov_emo_body_s_b
 pl1900_mov_emo_body_s_c
 pl1900_mov_emo_body_ss
+pl1900_mov_emo_cloth_Wipe
 pl1900_mov_emo_hand_hold
+pl1900_mov_emo_handclap
 pl1900_mov_emo_imp_m_leatherB
 pl1900_mov_emo_Jump
 pl1900_mov_emo_l_clotha
@@ -28784,12 +28786,10 @@ wp1900_mov_quest_fire_move
 # 1323998327
 # 1509919910
 # 1541235233
-# 1548030505
 # 1869419221
 # 1869419222
 # 1958849187
 # 2012301013
-# 2155809918
 # 2676899479
 # 3177479298
 # 3245949704
@@ -29016,6 +29016,7 @@ pl2000_ougi_1820_seq1_0091
 pl2000_sword_guard
 PL2000_ui_transform
 Stop_pl2000_ctl_cancel
+wp2000_cmn_stop
 # 108436418
 # 238018968
 # 737316481
@@ -29024,7 +29025,6 @@ Stop_pl2000_ctl_cancel
 # 2525489559
 # 2783251938
 # 3641864393
-# 3789343800
 
 ### RTPC/GAME-VARIABLE NAMES (pl2000.bnk)
 GP_Azimuth
@@ -29168,6 +29168,7 @@ pl2100_ab_02_finish
 pl2100_ab_02_finish_upper
 pl2100_ab_02_start
 pl2100_ab_02_start_upper
+pl2100_ab_03_hit_point_start
 pl2100_ab_03_shoot
 pl2100_ab_03_start
 pl2100_ab_04_start
@@ -29179,9 +29180,12 @@ pl2100_ab_05_start
 pl2100_ab_06_counter
 pl2100_ab_06_counter_hit
 pl2100_ab_06_start
+pl2100_ab_06_swing_ss
 pl2100_ab_07_finish
 pl2100_ab_07_just
 pl2100_ab_07_swing
+pl2100_ab_08_charge_lp
+pl2100_ab_08_charge_lp_stop
 pl2100_atk_charge_lp
 pl2100_atk_charge_lp_stop
 pl2100_atk_charge_max
@@ -29243,6 +29247,8 @@ pl2100_mov_emo_whoosh_m
 pl2100_mov_emo_whoosh_s_b
 pl2100_mov_emo_whoosh_s_c
 pl2100_mov_hand_quest
+pl2100_mov_hand_swing_m
+pl2100_mov_hand_swing_s
 PL2100_Mov_imp_s_leatherA
 pl2100_mov_jump
 pl2100_mov_jump_fall
@@ -29279,13 +29285,9 @@ Stop_pl2100_ctl_cancel
 wp2100_mov_equip_in_a_quest
 wp2100_mov_equip_in_set_quest
 # 35606140
-# 219733787
 # 301885076
 # 595404420
-# 645179844
 # 650223811
-# 953000648
-# 953000662
 # 967906462
 # 1132232434
 # 1140570511
@@ -29294,7 +29296,6 @@ wp2100_mov_equip_in_set_quest
 # 1723929969
 # 2071796629
 # 2229870422
-# 2260114188
 # 2273776108
 # 2304448335
 # 2695912927
@@ -29303,7 +29304,6 @@ wp2100_mov_equip_in_set_quest
 # 2902872406
 # 3112849524
 # 3203874714
-# 3489052537
 # 4019594773
 
 ### RTPC/GAME-VARIABLE NAMES (pl2100_01_03_00.bnk)
@@ -29522,11 +29522,18 @@ pl2200_ab_04_finish
 pl2200_ab_05_charge
 pl2200_ab_05_finish
 pl2200_ab_05_finish_stop
+pl2200_ab_06_charge1
+pl2200_ab_06_charge2
 pl2200_ab_06_finish
 pl2200_ab_06_impact
+pl2200_ab_06_swing1
+pl2200_ab_06_swing2
+pl2200_ab_06_swing3
+pl2200_ab_06_swing4
 pl2200_ab_07_charge
 pl2200_ab_07_finish
 pl2200_ab_08_charge
+pl2200_ab_08_charge2
 pl2200_ab_08_finish1
 pl2200_ab_08_finish2
 pl2200_ab_08_start
@@ -29544,10 +29551,13 @@ PL2200_god_disappear
 PL2200_hp_return_reaction
 pl2200_jack_pl1_quest_start_1
 pl2200_jack_win_1
+pl2200_mov_armor_body_m_quest
 pl2200_mov_cloth
 pl2200_mov_cloth_quest
 pl2200_mov_down_l
 pl2200_mov_down_s
+pl2200_Mov_emo_armor_mv_m_b
+pl2200_mov_emo_armor_mv_s
 pl2200_mov_emo_body_l
 pl2200_mov_emo_body_m
 pl2200_mov_emo_body_s
@@ -29558,6 +29568,7 @@ pl2200_mov_emo_cloth_s_b
 pl2200_mov_emo_cloth_s_c
 pl2200_mov_emo_cloth_whoosh
 pl2200_Mov_emo_hand_ground
+pl2200_mov_emo_handclap_s
 pl2200_Mov_emo_imp_l
 pl2200_Mov_emo_imp_m
 pl2200_Mov_emo_imp_m_b
@@ -29603,22 +29614,13 @@ wp2291_1023_default
 wp2291_1024_default
 wp2291_1025_default
 wp2291_1026_default
-# 19187975
-# 391811461
-# 391811462
 # 714814311
 # 808730212
 # 895397686
-# 1065046971
-# 1065046972
-# 1065046973
-# 1065046974
-# 1164849683
 # 1180679381
 # 1495027050
 # 1495027060
 # 1495027061
-# 1496765622
 # 1630203447
 # 1699804404
 # 1916728120
@@ -29633,8 +29635,6 @@ wp2291_1026_default
 # 3223765878
 # 3302813785
 # 3704283999
-# 3844107602
-# 4066475894
 # 4104454584
 
 ### SFX NAMES (pl2200_01_02_00.bnk)
@@ -31885,6 +31885,7 @@ r600_env_posi_bug_night_vo_c
 r600_env_posi_cloth_s_sway_m__c
 r600_env_posi_fire_a_hight
 r600_env_posi_fire_b_hight
+r600_env_posi_fire_s_d_hight
 r600_env_posi_glass_m_window_rattle
 r600_env_posi_glass_m_window_rattle_b_hight
 r600_env_posi_glass_s_lanthanum_s_swing_b
@@ -31920,7 +31921,6 @@ r600_ironship_appear_bofore
 # 1622994909
 # 1784527939
 # 2445021970
-# 3382373480
 # 3956831337
 # 4287066047
 
@@ -33504,6 +33504,9 @@ ui_battle_bonus01_window_open
 ui_battle_bossbattle01_window_open
 ui_battle_chainburst01_max
 ui_battle_cmn_cancel
+ui_battle_cmn_DESIDE
+ui_battle_cmn_select_Cansel
+ui_battle_cmn_select_DESIDE
 ui_battle_cmn_select_lock
 ui_battle_cmn_tab_lr
 ui_battle_cmn_view_lr
@@ -33529,6 +33532,7 @@ ui_battle_gauge_time01_count_5
 ui_battle_gauge_time01_count_6_10
 ui_battle_guide_action01_decide
 ui_battle_guide_action01_window_open
+ui_battle_guide_command01_DESIDE
 ui_battle_guide_command01_error
 ui_battle_guide_command01_level_1
 ui_battle_guide_command01_level_2
@@ -33940,15 +33944,12 @@ ui_system_wmap_map01_other5
 # 104677823
 # 123156729
 # 137259805
-# 151967529
 # 162056061
-# 179371526
 # 265093316
 # 316323231
 # 334958605
 # 368603380
 # 423610123
-# 448008697
 # 553504420
 # 583256253
 # 615533353
@@ -34065,7 +34066,6 @@ ui_system_wmap_map01_other5
 # 4035980165
 # 4057943819
 # 4078325626
-# 4156401063
 # 4191146359
 # 4193583268
 # 4219643056
@@ -34529,13 +34529,13 @@ wp0100_mov_equip_in_set_s
 wp0100_mov_equip_in_Stop
 wp0100_mov_equip_out
 wp0100_mov_equip_out_Stop
+wp0100_mov_quest_sword_charge_hold
+wp0100_mov_quest_sword_shine
 wp0100_mov_quest_whoosh
 wp0100_sword_CHARGE_HOLD
 wp0100_sword_draw
 wp0100_sword_guard
 wp0100_sword_noutou_MOV
-# 297267883
-# 2700246942
 
 ### RTPC/GAME-VARIABLE NAMES (wp0100.bnk)
 GP_Azimuth
@@ -34791,6 +34791,10 @@ wp0300_atk_swing_l
 wp0300_atk_swing_m
 wp0300_atk_swing_s
 wp0300_atk_swing_ss
+wp0300_mov_emo_equip_in_01
+wp0300_mov_emo_equip_in_02
+wp0300_mov_emo_equip_out_01
+wp0300_mov_emo_equip_out_02
 wp0300_mov_emo_equip_swing_01
 wp0300_mov_emo_imp
 wp0300_mov_emo_whoosh_m
@@ -34811,16 +34815,12 @@ wp0300_mov_quest_equip_out
 wp0300_mov_sp_equip_in
 wp0300_mov_sp_equip_out
 wp1100_mov_swinr
-# 1237769301
-# 1237769302
 # 1533463436
 # 1533463442
 # 1695712311
 # 2741462463
 # 3010853694
 # 3395182173
-# 3492366445
-# 3492366446
 # 3982105716
 # 4101518439
 # 4155888868
@@ -36139,6 +36139,8 @@ wp1100_mov_noutou_scrape
 wp1100_mov_quest_grip_m
 wp1100_mov_quest_grip_s
 wp1100_mov_quest_swing
+wp1100_mov_quest_swing_s_b_01
+wp1100_mov_quest_swing_s_b_02
 wp1100_mov_quest_swing_ss
 wp1100_mov_quest_sword_ground_hit
 wp1100_mov_stab
@@ -36146,8 +36148,6 @@ wp1100_mov_swing_m
 wp1100_sword_guard
 # 1960708795
 # 2507673276
-# 3045735001
-# 3045735002
 # 4249770757
 # 4249770779
 
@@ -36239,6 +36239,7 @@ wp1200_mov_equip_out_stop
 wp1200_mov_hold
 wp1200_mov_quest_rise
 wp1200_mov_quest_shine
+wp1200_mov_quest_sp_fall_stance
 wp1200_mov_quest_sp_swing_ss
 wp1200_mov_quest_swing_s
 wp1200_mov_quest_sword_swing_02
@@ -36254,7 +36255,6 @@ wp1200_sword_guard
 # 1211592323
 # 1251713412
 # 1251713434
-# 1441201466
 # 1503713346
 # 1725287691
 # 1844932547
@@ -36298,6 +36298,7 @@ wp1300_ab_dotenkyuchi_wave
 wp1300_ab_dotenkyuchi_wave_UPPER
 wp1300_ab_jikki_charge
 wp1300_ab_jikki_rush
+wp1300_ab_jikki_rush_SwordRoll
 wp1300_ab_jikki_swing_l
 wp1300_ab_jikki_swing_s
 wp1300_ab_senku_charge
@@ -36351,18 +36352,17 @@ wp1300_mov_quest_equip_in
 wp1300_mov_quest_equip_in_m
 wp1300_mov_quest_equip_out
 wp1300_mov_quest_slash
+wp1300_mov_quest_swish_s_b
 wp1300_sword_guard
 # 62381428
 # 482997257
 # 482997271
 # 576785048
-# 636013745
 # 1354207371
 # 1469604819
 # 1484482284
 # 1494900122
 # 1515740133
-# 2201021274
 # 2486424830
 # 2863057397
 # 3101051441
@@ -36444,6 +36444,7 @@ wp1400_atk_ground_hit
 wp1400_atk_just
 wp1400_atk_m_lp
 wp1400_atk_m_lp_stop
+wp1400_atk_naginata_swing_s
 wp1400_atk_saw_swing_m
 wp1400_atk_saw_swing_roll
 wp1400_atk_saw_swing_s
@@ -36469,6 +36470,7 @@ wp1400_atk_swing_s
 wp1400_atk_swing_ss
 wp1400_cmn_stop
 wp1400_mov_down_saya
+wp1400_mov_emo_equip_drow
 wp1400_mov_emo_equip_grip
 wp1400_mov_emo_equip_grip_b
 wp1400_mov_emo_equip_grip_c
@@ -36512,7 +36514,6 @@ wp1400_sword_guard
 # 1692950238
 # 1806031433
 # 2017625416
-# 2539901736
 # 2601632157
 # 2855238991
 # 2975913983
@@ -36520,7 +36521,6 @@ wp1400_sword_guard
 # 3179533458
 # 3234241435
 # 3362378061
-# 3555606919
 # 3814844277
 
 ### RTPC/GAME-VARIABLE NAMES (wp1400.bnk)
@@ -37045,6 +37045,12 @@ wp2100_atk_transform_finish_start
 wp2100_cmn_stop
 wp2100_magicsword_appear
 wp2100_magicsword_vanish
+wp2100_mov_Backflip_a
+wp2100_mov_Backflip_b
+wp2100_mov_Backflip_c
+wp2100_mov_Backflip_d
+wp2100_mov_Backflip_E
+wp2100_mov_Backflip_F
 wp2100_mov_emo_equip_in
 wp2100_mov_emo_equip_in_set
 wp2100_mov_emo_equip_out
@@ -37076,12 +37082,6 @@ wp2190_0011_default
 wp2190_0012_default
 # 55607168
 # 55607198
-# 223041368
-# 223041370
-# 223041371
-# 223041372
-# 223041373
-# 223041375
 # 323372194
 # 436189889
 # 1052414085
@@ -56762,7 +56762,9 @@ PL0200_vo_ATK_ares_line_range
 PL0200_vo_ATK_ares_line_rush
 PL0200_vo_ATK_charge_l
 PL0200_vo_ATK_charge_line
+PL0200_vo_ATK_charge_line_fsm
 PL0200_vo_ATK_charge_s
+PL0200_vo_ATK_charge_s_fsm
 PL0200_VO_ATK_DEFAULT_L
 PL0200_vo_ATK_default_l_fsm
 PL0200_vo_ATK_default_l_pst
@@ -56892,6 +56894,7 @@ PL0200_vo_MOV_DODGE_Pst
 PL0200_vo_MOV_FALL
 PL0200_vo_MOV_FALL_NPC
 PL0200_vo_mov_jump_s
+PL0200_vo_mov_jump_s_fsm
 PL0200_vo_MOV_UKEMI
 PL0200_vo_MOV_ukemi_line
 PL0200_vo_MOV_wait_0002_A
@@ -57252,12 +57255,9 @@ PL0200_vo_SP_link_talk2_c_pl1900
 pl0200_VO_SP_LINK_TALK2_C_PL2000
 PL0200_vo_SP_link_time_reaction
 PL0200_vo_SP_link_time_start
-# 464947150
-# 489060422
 # 614995293
 # 698657048
 # 799469825
-# 2065687367
 # 2611746899
 # 2712559708
 # 2813372485
@@ -58339,15 +58339,19 @@ PL0400_vo_ATK_ability_8
 PL0400_vo_ATK_ability_8_charge
 PL0400_vo_ATK_charge_l
 PL0400_vo_ATK_charge_line
+PL0400_vo_ATK_charge_line_fsm
 PL0400_vo_ATK_charge_s
+PL0400_vo_ATK_charge_s_fsm
 PL0400_VO_ATK_DEFAULT_L
 PL0400_vo_ATK_default_line_magic_charge_l
 PL0400_vo_ATK_default_line_magic_charge_m
 PL0400_vo_ATK_default_line_magic_charge_s
+PL0400_vo_ATK_default_line_magic_charge_s_fsm
 PL0400_vo_ATK_default_line_magic_token_a
 PL0400_vo_ATK_default_line_magic_token_b
 PL0400_vo_ATK_default_line_magic_token_c
 PL0400_VO_ATK_DEFAULT_LINE_S
+PL0400_VO_ATK_default_line_s_fsm
 PL0400_VO_ATK_DEFAULT_M
 PL0400_vo_ATK_default_m_fsm
 PL0400_VO_ATK_DEFAULT_s
@@ -58370,8 +58374,11 @@ PL0400_vo_DMG_BIND
 PL0400_VO_DMG_BIND_STAY
 PL0400_vo_DMG_blocked
 PL0400_vo_DMG_default_l
+PL0400_vo_DMG_default_l_fsm
 PL0400_vo_DMG_default_m
+PL0400_vo_DMG_default_m_fsm
 PL0400_VO_DMG_DEFAULT_S
+PL0400_VO_DMG_default_s_fsm
 PL0400_vo_DMG_DOWN
 PL0400_VO_DMG_DOWN_MOVE
 PL0400_VO_DMG_DOWN_STAY
@@ -58459,6 +58466,7 @@ PL0400_vo_MOV_DODGE_3rd
 PL0400_vo_MOV_FALL
 PL0400_vo_MOV_FALL_NPC
 PL0400_vo_mov_jump_s
+PL0400_vo_mov_jump_s_fsm
 PL0400_vo_MOV_UKEMI
 PL0400_vo_MOV_wait_0002_a
 PL0400_vo_MOV_wait_0002_b
@@ -58820,19 +58828,11 @@ PL0400_vo_SP_link_time_reaction
 PL0400_vo_SP_link_time_start
 # 30768454
 # 63485081
-# 72502229
 # 131581263
 # 268006304
-# 396768793
-# 1328626032
-# 1585869496
-# 1621298445
 # 2513458804
 # 2551630732
 # 2614271613
-# 2655648343
-# 2748518296
-# 2931601260
 # 2948248735
 # 4257639568
 
@@ -70386,6 +70386,9 @@ EM2300_vo_mov_guard
 EM2300_vo_SP_ougi_cut_D_roar
 EM2300_vo_SP_ougi_cut_E_breath
 EM2300_vo_SP_ougi_cut_line
+EM2300_vo_SP_ougi_cut_line_1
+EM2300_vo_SP_ougi_cut_line_2
+EM2300_vo_SP_ougi_cut_line_3
 EM2300_vo_SP_ougi_end
 EM2300_vo_SP_ougi_finish_a
 EM2300_vo_SP_ougi_finish_a_1
@@ -71028,9 +71031,6 @@ PL2000_vo_SP_link_time_start
 # 1692063239
 # 2554554403
 # 2728461464
-# 2821244585
-# 2821244586
-# 2821244587
 # 3038193888
 # 3139006697
 
@@ -82911,33 +82911,35 @@ none
 red
 Yellow
 
-#3633885856  : big_slime
+### VALUE NAMES (BGM.bnk)
 #2406289329  : w_HLP
 #3200016212  : Duck_r1b0_1
 #3958858529  : cn_env_stop
-#2709690594  : BGM_Pause_LGH
 #1608180379  : em0502_ev_scene
-#4120990431  : em1804_ev_5830
-#4120990431  : in_camera_p_online
 #1647861443  : PL0200_vo_MOV_wait_sit_C
-#3092935242  : reverb_3st
 #1862912632  : huge_TownDuck_On
-#3099350088  : ete154_wp0100_default
-#837270157   : ete154_wp0100_stop
 #432112859   : em0805_4000_default
 #3320863356  : em0805_4003_default
 #1264011810  : em7000_5041_stop
-#2112301154  : em0103_5010_default
-#3110249019  : em7201_1600_default
-#1159577554  : em7211_1600_default
 #436189889   : wp2190_7012_default
 #4038103256  : ui_system_window_dialog26_cursor
 #3877421883  : ui_system_window_dialog27_cursor
 #3882697106  : ui_system_window_assist24_window_close
 #2636316400  : ui_system_window_assist11_01_window_open
 #4015745080  : ui_system_var04_window_assist11_window_open
-#2134780650  : pl0400_ougi_upper_rush
+#3216690150  : xxxx_hfl
+#3216690168  : xxxx_hfr
+
 #1844932547  : wp1200_mov_emo_sword_swing_03_mov_vs_body_m
 #1623507769  : em7700_atk_circle_fruits
 #902463958   : em1900_shut_barrier_ball_appear
-#887609398   : BGM_Fade_jade_NotMasterResume
+#1180291474  : BGM_Finish_OnPick_Off
+
+#3047397337  : wp0794_mov_quest_vo_swing_m
+#2556276106  : pl0800_mov_quest_Winger_lp_start
+#3245949704  : em1900_rushingthrust_vanish_point_start
+#1494900122  : wp1300_mov_quest_pay_s_b
+#260255932   : wp1000_mov_battle_field_put_s
+
+#3202548505  : wp0800_mov_quest_sword_grip_01
+#743700595   : wp0800_mov_quest_sword_Ice_Upper
