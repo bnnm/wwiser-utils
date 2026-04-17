@@ -416,439 +416,438 @@ Tempo
 
 ### EVENT NAMES (Vol1Global.bnk)
 exe1_000_bgm00
+exe1_000_bgm00_stop
 exe1_001_bgm01
+exe1_001_bgm01_stop
 exe1_002_bgm02
+exe1_002_bgm02_stop
 exe1_003_bgm03
+exe1_003_bgm03_stop
 exe1_004_bgm04
+exe1_004_bgm04_stop
 exe1_005_bgm05
+exe1_005_bgm05_loop
 exe1_006_bgm06
+exe1_006_bgm06_stop
 exe1_007_bgm07
+exe1_007_bgm07_stop
 exe1_008_bgm08
+exe1_008_bgm08_stop
 exe1_009_bgm09
+exe1_009_bgm09_stop
 exe1_010_bgm0a
+exe1_010_bgm0a_stop
 exe1_011_bgm0b
+exe1_011_bgm0b_stop
 exe1_012_bgm0c
+exe1_012_bgm0c_stop
 exe1_013_bgm0d
+exe1_013_bgm0d_stop
 exe1_014_bgm0e
+exe1_014_bgm0e_stop
 exe1_015_bgm0f
+exe1_015_bgm0f_stop
 exe1_016_bgm10
+exe1_016_bgm10_stop
 exe1_017_bgm11
+exe1_017_bgm11_stop
 exe1_018_bgm12
+exe1_018_bgm12_loop
 exe1_019_bgm13
+exe1_019_bgm13_stop
 exe1_020_bgm14
+exe1_020_bgm14_stop
 exe1_021_bgm15
+exe1_021_bgm15_stop
 exe2_000_bgm00
+exe2_000_bgm00_stop
 exe2_001_bgm01
+exe2_001_bgm01_stop
 exe2_002_bgm02
+exe2_002_bgm02_stop
 exe2_003_bgm03
+exe2_003_bgm03_stop
 exe2_004_bgm04
+exe2_004_bgm04_stop
 exe2_005_bgm05
+exe2_005_bgm05_stop
 exe2_006_bgm06
+exe2_006_bgm06_stop
 exe2_007_bgm07
+exe2_007_bgm07_stop
 exe2_008_bgm08
+exe2_008_bgm08_stop
 exe2_009_bgm09
+exe2_009_bgm09_stop
 exe2_010_bgm0a
+exe2_010_bgm0a_stop
 exe2_011_bgm0b
+exe2_011_bgm0b_stop
 exe2_012_bgm0c
+exe2_012_bgm0c_stop
 exe2_013_bgm0d
+exe2_013_bgm0d_stop
 exe2_014_bgm0e
+exe2_014_bgm0e_stop
 exe2_015_bgm0f
+exe2_015_bgm0f_stop
 exe2_016_bgm10
+exe2_016_bgm10_stop
 exe2_017_bgm11
+exe2_017_bgm11_loop
 exe2_018_bgm12
+exe2_018_bgm12_stop
 exe2_019_bgm13
+exe2_019_bgm13_stop
 exe2_020_bgm14
+exe2_020_bgm14_stop
 exe2_021_bgm15
+exe2_021_bgm15_stop
 exe2_022_bgm16
+exe2_022_bgm16_stop
 exe2_023_bgm17
+exe2_023_bgm17_stop
 exe2_024_bgm18
+exe2_024_bgm18_stop
 exe2_025_bgm19
+exe2_025_bgm19_stop
 exe2_026_bgm1a
+exe2_026_bgm1a_stop
 exe2_027_bgm1b
+exe2_027_bgm1b_stop
 exe2_028_bgm1c
+exe2_028_bgm1c_stop
 exe2_029_bgm1d
+exe2_029_bgm1d_stop
 exe2_030_bgm1e
+exe2_030_bgm1e_stop
 exe2_031_bgm1f
+exe2_031_bgm1f_stop
 exe2_032_bgm20
+exe2_032_bgm20_stop
 exe2_033_bgm21
+exe2_033_bgm21_stop
 exe2_034_bgm22
+exe2_034_bgm22_stop
 exe2_035_bgm23
+exe2_035_bgm23_stop
 exe2_036_bgm24
+exe2_036_bgm24_stop
 exe2_037_bgm25
+exe2_037_bgm25_stop
 exe3_000_bgm00
+exe3_000_bgm00_stop
 exe3_001_bgm01
+exe3_001_bgm01_stop
 exe3_002_bgm02
+exe3_002_bgm02_stop
 exe3_003_bgm03
+exe3_003_bgm03_stop
 exe3_004_bgm04
+exe3_004_bgm04_stop
 exe3_005_bgm05
+exe3_005_bgm05_stop
 exe3_006_bgm06
+exe3_006_bgm06_stop
 exe3_007_bgm07
+exe3_007_bgm07_stop
 exe3_008_bgm08
+exe3_008_bgm08_stop
 exe3_009_bgm09
+exe3_009_bgm09_stop
 exe3_010_bgm0a
+exe3_010_bgm0a_stop
 exe3_011_bgm0b
+exe3_011_bgm0b_stop
 exe3_012_bgm0c
+exe3_012_bgm0c_stop
 exe3_013_bgm0d
+exe3_013_bgm0d_stop
 exe3_014_bgm0e
+exe3_014_bgm0e_stop
 exe3_015_bgm0f
+exe3_015_bgm0f_stop
 exe3_016_bgm10
+exe3_016_bgm10_loop
 exe3_017_bgm11
+exe3_017_bgm11_stop
 exe3_018_bgm12
+exe3_018_bgm12_stop
 exe3_019_bgm13
+exe3_019_bgm13_stop
 exe3_021_bgm15
+exe3_021_bgm15_stop
 exe3_022_bgm16
+exe3_022_bgm16_stop
 exe3_023_bgm17
+exe3_023_bgm17_stop
 exe3_024_bgm18
+exe3_024_bgm18_stop
 exe3_025_bgm19
+exe3_025_bgm19_stop
 exe3_026_bgm1a
+exe3_026_bgm1a_stop
 exe3_027_bgm1b
+exe3_027_bgm1b_stop
 exe3_028_bgm1c
+exe3_028_bgm1c_stop
 exe3_030_bgm1e
+exe3_030_bgm1e_stop
 exe3_031_bgm1f
+exe3_031_bgm1f_stop
 exe3_032_bgm20
+exe3_032_bgm20_stop
 exe3_033_bgm21
 exe3_034_bgm22
+exe3_034_bgm22_stop
 exe3_035_bgm23
+exe3_035_bgm23_stop
 exe3_036_bgm24
+exe3_036_bgm24_stop
 exe3_037_bgm25
+exe3_037_bgm25_stop
 music_launcher_01
 music_Title_01
-# 30108139
-# 36100739
-# 93895748
-# 220655794
-# 319091009
-# 369265771
-# 395363051
-# 422250583
-# 465536601
-# 567345251
-# 599559825
-# 748020344
-# 930626240
-# 943421726
-# 969382788
-# 975548739
-# 1005132352
-# 1062090159
-# 1085462547
-# 1107276376
-# 1136966142
-# 1216440609
-# 1246025309
-# 1268991153
-# 1522427922
-# 1535627227
-# 1552857365
-# 1687075913
-# 1713507952
-# 1716497014
-# 1718089156
-# 1739073438
-# 1789344149
-# 1809795416
-# 1814286063
-# 1830809115
-# 1904355248
-# 1908975177
-# 1948572309
-# 2043291626
-# 2051016712
-# 2074413335
-# 2091566553
-# 2106693007
-# 2166764185
-# 2198297627
-# 2278917227
-# 2320325345
-# 2334275951
-# 2373004643
-# 2388573144
-# 2411166964
-# 2446234279
-# 2481411446
-# 2540351060
-# 2550625168
-# 2552687664
-# 2585781643
-# 2628901006
-# 2634442681
-# 2653677459
-# 2766843129
-# 2793021256
-# 2872814291
-# 2879694929
-# 2921336582
-# 2926526180
-# 2985799925
-# 3066872448
-# 3088375500
-# 3198149923
-# 3219197251
-# 3232512867
-# 3293411180
-# 3296765331
-# 3297836284
-# 3330376563
-# 3524291859
-# 3531394088
-# 3555334651
-# 3557935152
-# 3572539640
-# 3638526303
-# 3759730061
-# 3781432415
-# 3878328115
-# 3920835968
-# 3928583846
-# 3958518831
-# 4074149973
-# 4092217465
-# 4093208065
-# 4184410331
-# 4227046656
-# 4251543595
 
 ### EVENT NAMES (Vol2Global.bnk)
 exe4_000_BGM46agb
+exe4_000_BGM46agb_stop
 exe4_001_BGM31agb
+exe4_001_BGM31agb_stop
 exe4_002_BGM30agb
+exe4_002_BGM30agb_stop
 exe4_003_BGM39agb
+exe4_003_BGM39agb_stop
 exe4_004_BGM14agb
+exe4_004_BGM14agb_stop
 exe4_005_BGM15agb
+exe4_005_BGM15agb_stop
 exe4_006_BGM07agb
+exe4_006_BGM07agb_stop
 exe4_007_BGM23agb
+exe4_007_BGM23agb_stop
 exe4_008_BGM20agb
+exe4_008_BGM20agb_stop
 exe4_009_BGM27agb
+exe4_009_BGM27agb_stop
 exe4_010_BGM21agb
+exe4_010_BGM21agb_stop
 exe4_011_BGM17agb
+exe4_011_BGM17agb_stop
 exe4_012_BGM37agb
+exe4_012_BGM37agb_stop
 exe4_013_BGM38agb
+exe4_013_BGM38agb_stop
 exe4_014_BGM41agb
+exe4_014_BGM41agb_loop
 exe4_015_BGM18agb
+exe4_015_BGM18agb_stop
 exe4_016_BGM22agb
+exe4_016_BGM22agb_stop
 exe4_017_BGM03agb
+exe4_017_BGM03agb_stop
 exe4_018_BGM47agb
+exe4_018_BGM47agb_stop
 exe4_019_BGM24agb
+exe4_019_BGM24agb_stop
 exe4_020_BGM08agb
+exe4_020_BGM08agb_stop
 exe4_021_BGM04agb
+exe4_021_BGM04agb_stop
 exe4_022_BGM32agb
+exe4_022_BGM32agb_stop
 exe4_023_BGM36agb
+exe4_023_BGM36agb_stop
 exe4_024_BGM42agb
+exe4_024_BGM42agb_stop
 exe4_025_BGM44agb
+exe4_025_BGM44agb_stop
 exe4_026_BGM45agb
+exe4_026_BGM45agb_loop
 exe4_027_BGM29agb
+exe4_027_BGM29agb_stop
 exe4_028_BGM50agb
+exe4_028_BGM50agb_stop
 exe4_029_BGM51agb
+exe4_029_BGM51agb_stop
 exe4_030_BGM43agb
 exe4_031_BGM48agb
+exe4_031_BGM48agb_stop
 exe4_032_BGM52agb
+exe4_032_BGM52agb_stop
 exe4_033_BGM53agb
+exe4_033_BGM53agb_stop
 exe5_001_bgm01
+exe5_001_bgm01_stop
 exe5_002_bgm02
+exe5_002_bgm02_stop
 exe5_003_bgm03
+exe5_003_bgm03_stop
 exe5_004_bgm04
+exe5_004_bgm04_stop
 exe5_005_bgm05
+exe5_005_bgm05_MUSICPLAYER
+exe5_005_bgm05_stop
 exe5_006_bgm06
+exe5_006_bgm06_stop
 exe5_007_bgm07
+exe5_007_bgm07_stop
 exe5_008_bgm08
+exe5_008_bgm08_stop
 exe5_009_bgm09
+exe5_009_bgm09_stop
 exe5_011_bgm11
+exe5_011_bgm11_stop
 exe5_012_bgm12
+exe5_012_bgm12_stop
 exe5_013_bgm13
+exe5_013_bgm13_stop
 exe5_014_bgm14
+exe5_014_bgm14_stop
 exe5_015_bgm15
+exe5_015_bgm15_loop
 exe5_016_bgm16
+exe5_016_bgm16_stop
 exe5_017_bgm17
+exe5_017_bgm17_stop
 exe5_018_bgm18
+exe5_018_bgm18_stop
 exe5_019_bgm19
+exe5_019_bgm19_MUSICPLAYER
+exe5_019_bgm19_stop
 exe5_020_bgm20
+exe5_020_bgm20_MUSICPLAYER
+exe5_020_bgm20_stop
 exe5_021_bgm21
+exe5_021_bgm21_stop
 exe5_022_bgm22
+exe5_022_bgm22_stop
 exe5_023_bgm23
+exe5_023_bgm23_stop
 exe5_024_bgm24
+exe5_024_bgm24_loop
 exe5_025_bgm25
+exe5_025_bgm25_stop
 exe5_026_bgm26
+exe5_026_bgm26_stop
 exe5_027_bgm27
+exe5_027_bgm27_loop
 exe5_028_bgm28
+exe5_028_bgm28_stop
 exe5_029_bgm29
+exe5_029_bgm29_stop
 exe5_030_bgm30
+exe5_030_bgm30_stop
 exe5_031_bgm31
 exe5_032_bgm32
+exe5_032_bgm32_stop
 exe5_033_bgm33
+exe5_033_bgm33_stop
 exe5_034_bgm34
+exe5_034_bgm34_stop
 exe5_035_bgm35
+exe5_035_bgm35_stop
 exe5_036_bgm36
+exe5_036_bgm36_loop
 exe6_001_bgm01
+exe6_001_bgm01_stop
 exe6_002_bgm02
+exe6_002_bgm02_MUSICPLAYER
+exe6_002_bgm02_stop
 exe6_003_bgm03
+exe6_003_bgm03_MUSICPLAYER
+exe6_003_bgm03_stop
 exe6_004_bgm04
+exe6_004_bgm04_MUSICPLAYER
+exe6_004_bgm04_stop
 exe6_005_bgm05
+exe6_005_bgm05_MUSICPLAYER
+exe6_005_bgm05_stop
 exe6_006_bgm06
+exe6_006_bgm06_MUSICPLAYER
+exe6_006_bgm06_stop
 exe6_007_bgm07
+exe6_007_bgm07_stop
 exe6_008_bgm08
+exe6_008_bgm08_stop
 exe6_009_bgm09
+exe6_009_bgm09_stop
 exe6_010_bgm10
+exe6_010_bgm10_stop
 exe6_011_bgm11
+exe6_011_bgm11_MUSICPLAYER
+exe6_011_bgm11_stop
 exe6_012_bgm12
+exe6_012_bgm12_MUSICPLAYER
+exe6_012_bgm12_stop
 exe6_013_bgm13
+exe6_013_bgm13_stop
 exe6_014_bgm14
+exe6_014_bgm14_MUSICPLAYER
+exe6_014_bgm14_stop
 exe6_015_bgm15
+exe6_015_bgm15_loop
+exe6_015_bgm15_stop
 exe6_016_bgm16
+exe6_016_bgm16_stop
 exe6_017_bgm17
+exe6_017_bgm17_stop
 exe6_018_bgm18
+exe6_018_bgm18_stop
 exe6_019_bgm19
+exe6_019_bgm19_MUSICPLAYER
+exe6_019_bgm19_stop
 exe6_020_bgm20
+exe6_020_bgm20_MUSICPLAYER
+exe6_020_bgm20_stop
 exe6_021_bgm21
+exe6_021_bgm21_stop
 exe6_022_bgm22
+exe6_022_bgm22_stop
 exe6_023_bgm23
+exe6_023_bgm23_stop
 exe6_024_bgm24
+exe6_024_bgm24_MUSICPLAYER
+exe6_024_bgm24_stop
 exe6_025_bgm25
+exe6_025_bgm25_stop
 exe6_026_bgm26
+exe6_026_bgm26_stop
 exe6_027_bgm27
+exe6_027_bgm27_loop
+exe6_027_bgm27_stop
 exe6_028_bgm28
+exe6_028_bgm28_MUSICPLAYER
+exe6_028_bgm28_stop
 exe6_029_bgm29
+exe6_029_bgm29_stop
 exe6_030_bgm30
+exe6_030_bgm30_stop
 exe6_031_bgm31
+exe6_031_bgm31_stop
 exe6_032_bgm32
+exe6_032_bgm32_stop
 exe6_033_bgm33
+exe6_033_bgm33_stop
 exe6_035_bgm35
+exe6_035_bgm35_stop
 exe6_036_bgm36
+exe6_036_bgm36_stop
 exe6_037_bgm37
+exe6_037_bgm37_stop
 exe6_049_bgm49
+exe6_049_bgm49_stop
 music_launcher_02
 music_Title_02
-# 31559740
 # 41116893
-# 47586909
-# 72881641
-# 129207417
-# 137416378
-# 150204707
-# 180150652
-# 269416972
-# 308408754
-# 313114481
-# 354991921
-# 450865861
-# 526630368
-# 611202093
-# 674602188
-# 688672978
-# 719932007
-# 721101649
-# 734465509
-# 752640004
-# 770872181
-# 870556996
-# 969644116
-# 1019616269
-# 1098083524
-# 1104928769
-# 1121153396
-# 1148766884
-# 1168511665
-# 1184780818
-# 1192915249
-# 1279632201
-# 1281347408
-# 1303297657
 # 1340670416
-# 1426362660
-# 1427194621
-# 1434560692
-# 1441746622
-# 1451948445
-# 1521779942
-# 1531793496
-# 1573069568
-# 1576010964
-# 1578254335
-# 1601321424
-# 1609590254
-# 1627263045
-# 1639529428
-# 1701343959
-# 1701671232
-# 1746291410
-# 1748070572
-# 1799309411
-# 1805987136
-# 1879526392
-# 1879964692
-# 1918656309
-# 1950510929
-# 1965717051
-# 1974334865
-# 2070920178
-# 2081810472
-# 2144417688
-# 2149395670
-# 2219521432
-# 2367989385
-# 2371978180
-# 2393023674
-# 2448059803
-# 2460369476
-# 2463401400
-# 2489875060
-# 2600211980
-# 2607713204
-# 2620562830
-# 2635817288
-# 2645990216
-# 2745332583
-# 2746366357
-# 2759664625
-# 2804694890
-# 2805771116
-# 2824322498
-# 2836066263
-# 2852287054
-# 2880921690
-# 2938045594
-# 2944462861
-# 3052719365
-# 3052737620
-# 3076562517
-# 3168235640
-# 3169534581
-# 3247257793
-# 3299415397
-# 3314469231
-# 3338521537
 # 3338733433
-# 3347699745
-# 3391080611
-# 3424157465
-# 3502140676
-# 3503436112
-# 3541119124
-# 3599341888
-# 3617911453
-# 3669670901
-# 3688553613
-# 3702358957
-# 3723297297
-# 3746148697
-# 3757700797
-# 3767117244
-# 3903528964
-# 3979909958
-# 4008050614
-# 4057812189
-# 4147373244
-# 4174942456
-# 4257112806
-# 4259154946
-# 4287223029
 
 ### SFX NAMES (Vol2Global.bnk)
 # 814918516
 
 ### RTPC/GAME-VARIABLE NAMES (Vol2Global.bnk)
 BGMSpeedUp
-
 
 ### MISSING EVENT NAMES (EXE3.bnk)
 # 5370148

@@ -9429,3 +9429,8 @@ play_ingame_cmn_finish_ko_enemy_registration_start_st
 play_ingame_cmn_finish_ko_enemy_registration_capture_st
 play_ingame_cmn_finish_ko_enemy_registration_end_st
 _ducker_special_ending_whitefade
+
+# bus
+bgm_amp_hi
+bgm_amp_lo
+bgm_amp_mid
