@@ -45,6 +45,7 @@ def get_solved(line):
         return None
     if not is_hashable(hashname):
         return None
+    sid = int(sid)
     return (sid, hashname)
 
 # remove double \n
@@ -116,7 +117,7 @@ def order_list(clines):
 
 
 def fix_wwnames(inname):
-    blines = []
+    blines = [] #base lines
     hashed = {}
     koed   = set()
     cases  = {}
@@ -172,23 +173,39 @@ def fix_wwnames(inname):
 
     ko_all = False
     section = False
+    section_lines = set()
     clines = []
     for bline in blines:
         if bline.startswith('### '):
             section = True
+            section_lines = set()
 
         if bline.startswith('#@ko-all'):
             ko_all = True
+            hashed = {}
             continue
-    
-        if ko_all and bline and not bline.startswith('#'):
-            hashnames = bline.split(' ')
-            sid = get_fnv(hashnames[0])
-            if section:
-                bline = "# %s" % (sid)
-            else:
-                continue
 
+        # ko all flag: change hashname into # sid
+        if ko_all:
+            if not bline:
+                # ignore line feed
+                pass
+
+            elif bline.startswith('### ') and ':' in bline:
+                # remove bankname comment from sections
+                idx = bline.index(':')
+                bline = bline[idx:-1]
+            
+            elif not bline.startswith('#'):
+                # unhash hashed names
+                hashnames = bline.split(' ')
+                sid = get_fnv(hashnames[0])
+                if section:
+                    bline = "# %s" % (sid)
+                else:
+                    continue
+
+        # ko line flag: change hashname into # sid
         if bline and bline.startswith('#ko') and ':' in bline and FULL_CLEAN:
             _, hashname = bline.split(':')
             hashname = hashname.strip()
@@ -199,6 +216,7 @@ def fix_wwnames(inname):
             else:
                 continue
 
+        # ko line flag: change hashname into # sid
         if bline.endswith('#ko') and FULL_CLEAN:
             if bline.startswith('# '):
                 fnv = bline.split(' ')[1]
@@ -207,7 +225,7 @@ def fix_wwnames(inname):
             elif bline.startswith('#'):
                 pass
             else:
-                hashname, _ = bline.split('#ko', 1)
+                hashname = bline.split('#ko', 1)[0]
                 hashname = hashname.strip()
                 sid = get_fnv(hashname)
                 koed.add(hashname.lower())
@@ -216,9 +234,22 @@ def fix_wwnames(inname):
                 else:
                     continue
 
+        # remove ko'ed lines from other places
+        if bline.lower() in koed and FULL_CLEAN:
+            sid = get_fnv(bline)
+            if section: # '#ko' on top get ignored
+                bline = "# %s" % (sid)
+            else:
+                continue
 
+        # remove solved # sid
         if bline.startswith('# ') and ':' not in bline:
             sid = bline[2:].strip()
+            try:
+                sid = int(sid)
+            except:
+                pass
+
             if sid in hashed:
                 hashnames = hashed[sid]
                 for i, hashname in enumerate(hashnames):
@@ -228,10 +259,16 @@ def fix_wwnames(inname):
                         bline = "%s: %s" % (sid, hashname)
                     if i > 0:
                         bline += ' #alt'
-                    clines.append(bline)
+                        
+                    if bline not in section_lines:
+                        clines.append(bline)
+                        section_lines.add(bline)
                 continue
 
-        clines.append(bline)
+        # include regular hashname or # sid
+        if bline not in section_lines:
+            clines.append(bline)
+            section_lines.add(bline)
 
 
     clines = order_list(clines)
