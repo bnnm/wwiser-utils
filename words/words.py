@@ -184,7 +184,9 @@ class Words(object):
         p.add_argument('-ns', '--no-split',     help="Disable splitting words by '_'", action='store_true')
         p.add_argument('-cf', '--cut-first',    help="Cut first N chars (for strings2.exe off results like 8bgm_main)", type=int)
         p.add_argument('-cl', '--cut-last',     help="Cut last N chars (for strings2.exe off results like bgm_main8)", type=int)
-        return p.parse_args()
+        
+        args = p.parse_args()
+        return args
 
     #--------------------------------------------------------------------------
 
@@ -731,6 +733,28 @@ class Words(object):
 
         return True
 
+    # converts getBlah > get_blah
+    def _transform_caps(self, elem):
+        if not elem or len(elem) == 0:
+            return elem
+        
+        if elem.islower() or elem.isupper():
+            return elem
+    
+        curr = b''
+        prev = b''
+        for letter in elem:
+            letter_b = bytes([letter])
+            if letter_b.isupper() or letter_b.isdigit():
+                if prev.islower():
+                    curr += b'_'
+                curr += letter_b.lower()
+            else:
+                curr += letter_b
+            prev = letter_b
+
+        return curr
+
     def _read_words_lines(self, infile):
         ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         print("reading words: %s (%s)" % (infile.name, ts))
@@ -807,25 +831,13 @@ class Words(object):
 
             elems = self.PATTERN_LINE.split(line)
             for elem in elems:
-                #if not self._args.split_caps:
-                self._add_word(elem)
 
-                if elem and len(elem) > 1 and self._args.split_caps and not elem.islower() and not elem.isupper():
-                    # TODO fix
-                    new_elem_b = b''
-                    pre_letter_b = b''
-                    for letter in elem:
-                        letter_b = bytes([letter])
-                        if letter_b.isupper() or letter_b.isdigit():
-                            if pre_letter_b.islower():
-                                new_elem_b += b'_'
-                            new_elem_b += letter_b.lower()
-                        else:
-                            new_elem_b += letter_b
-                        pre_letter_b = letter_b
-    
-                    if b'_' in new_elem_b:
-                        self._add_word(new_elem_b)
+                # convert caps to _ (first so other flags work over this)
+                if self._args.split_caps:
+                    elem = self._transform_caps(elem)
+
+                # regular elem
+                self._add_word(elem)
 
                 if self._args.cut_first and elem:
                     elem_len = len(elem)
