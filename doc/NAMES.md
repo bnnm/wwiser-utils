@@ -8,18 +8,19 @@ Sometimes you can only recover a few names yet the rest is just too hard to figu
 
 
 ## TL;DR
-Quick guide to (possibly) get extra names:
+Quick guide to (possibly) get extra names. These names are used in *wwiser* to get named `.txtp` (can't reverse `.wem` names).
 
-- make some folder and put files/dirs that may contain names
-  - bigfiles, executables (.exe/so/main/xex/eboot/etc), etc
-  - default instalation folder is fine too
-  - doesn't matter if there are "wrong" or unrelated files, but they tend to add false positives
-- to improve the resulting names:
+- make a "names" folder and put files/bigfiles/dirs that may contain files with names
+  - copy the main executable (.exe/so/main/xex/eboot/etc) as it usually has most names
+  - doesn't matter if there are unrelated files (may add a few wrong names though)
+  - using the default instalation folder is fine too (also may add wrong names)
+- tweak files to get even more names:
+  - some executables like main/xex/eboot should be decompressed first (ask in hcs64/discord)
   - some bigfiles are compressed and should be extracted with appropriate programs (won't find names otherwise)
-  - some executables like main/xex/eboot/exe should be decompressed first (ask in hcs64/discord, or just won't worry)
-  - for Unreal Engine files, open .pak and such bigfiles with to UModel/Fmodel, then extract folders like `audio`, `sound`, `wwise`
-  - for Unity files, use a Unity Asset Studio clone "decompress folder" (or just extract .unity files normally, but that's slower)
-  - avoid including textures/shaders/models/videos/etc if possible to reduce false positives
+  - for *Unreal Engine*, use UModel/Fmodel to open with `.pak/utoc/etc`, then extract folders like `audio`, `sound`, `wwise`
+  - for *Unity*, use a *Unity Asset Studio* clone and "decompress folder" with `.unity` and similar files first
+  - if possible avoid including textures/shaders/models/videos/etc to reduce false positives
+  - move those extracted/decompressed files to the "names" folder
 - copy `wstrings.exe` to the folder: https://github.com/bnnm/wwiser-utils/tree/master/wstrings
 - run the program and wait a while
 
@@ -27,28 +28,30 @@ That will create `ww_(folder-name).txt` with candidate (not necessarily used) na
 - many "names" will be garbage-looking strings like `x7d9ak`, that is ok and will be ignored by *wwiser*
 - some "names" will be long lines or contain crap like `  "bgm"="name"  `, that is ok too and will be cleaned up automatically (reads `bgm` and `name`)
 
-
 Here you can do 2 things:
 
-Simple method (sometimes good enough):
+Simple method (sometimes good enough, but messy):
 - rename `ww_(folder-name).txt` to `wwnames.txt`
 - put it together with the `.bnk`
 - use *wwiser* normally to load the base folder with all `.bnk`
-- valid names in `wwnames.txt` will be used by *wwiser*
+- valid names in `wwnames.txt` will be used by *wwiser*, but there may be false positives
   - if the `.txt` file is big it will take a while to load
-  - there may be false positives
+  
+Complex method (better results, but more involved)
+- load the base folder with all `.bnk` + press *redump clean wwnames.txt* button
+  - or in CLI: `wwiser.pyz *.bnk -r -sl`
+- upload `wwnames-banks-(date).txt` and `ww_(folder-name).txt` and ask in github or hcs64 discord
+  - with those 2 files and some tools below it's quite possible to reverse many names.
 
-Complex method (better results but harder)
-- get words.py (https://github.com/bnnm/wwiser-utils/blob/master/words/words.py)
-- go to the `.bnk` folder, open CLI and use this: `wwiser.pyz *.bnk -r -sl`
-  - or with GUI: load folder with all `.bnk` + *redump clean wwnames.txt* button
-- put the generated `wwnames-banks-(date).txt` with words.py
-- rename `ww_(folder-name).txt` to `ww.txt` and put it with words.py
+Or if you are feeling adventurous:
+- get *words.py* (https://github.com/bnnm/wwiser-utils/blob/master/words/words.py)
+- put the generated `wwnames-banks-(date).txt` with *words.py*
+- rename `ww_(folder-name).txt` to `ww.txt` and put it with *words.py*
 - run words.py, this will create a `words_out.txt`
 - open that .txt, take good names while removing false positives (weird-looking strings) and put them at the bottom of `wwnames-banks-(date).txt`
   - every now and then use this script to clean up the .txt: https://github.com/bnnm/wwiser-utils/blob/master/wwnames/_wwnames-fixer.py
-- repeat this process with various `words.py` flags, see "Words.py quick guide" below
-  - this can be done with/withouht the `ww.txt` we created with `wstrings.exe` since other words they become "ingredients" for words.py
+- repeat this process several times with various `words.py` flags, see "*Words.py quick guide*" below
+  - this can be done with/without the `ww.txt` we created with `wstrings.exe` since other words they become "ingredients" for *words.py*
 - once bored, remove old `wwnames.txt` and rename `wwnames-banks-(date).txt` to `wwnames.txt`
 
 
