@@ -67,6 +67,117 @@ import fnmatch
 # TODO:
 # - load words that end with "= 0" as-is for buses (not useful?)
 
+class ResultsSorter():
+    def __init__(self, args, contexts):
+        self._results_contexts = True
+        self._output_file = args.output_file
+        self._contexts = contexts #TODO: read again
+        self._ctx_filter = '' #TODO add
+
+    def _sort_results(self):
+
+        inname = self._output_file
+
+        # separate fnv + hash(es)
+        names = {}
+        try:
+            with open(inname, 'r') as f:
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    if ':' not in line:
+                        continue
+
+                    fnv, name = line.split(':')
+                    fnv = int(fnv.strip())
+                    name = name.strip()
+                    if fnv not in names:
+                        names[fnv] = []
+                    names[fnv].append(name)
+        except FileNotFoundError:
+            return
+
+        if self._results_contexts:
+            remove_repeats = True
+
+            done = {} #fnv set
+            lines = []
+
+            sections = self._sort_results_get_sections()
+            for section in sections:
+                # note that the same key may be in multiple contexts (ignored by default)
+
+                # mark names per section and repeats
+                subitems = {}
+                for fnv in self._contexts[section]:
+                    if fnv in done and done[fnv] != section and remove_repeats:
+                        continue
+                    if fnv in names:
+                        done[fnv] = section
+                        subitems[fnv] = names[fnv]
+                if not subitems:
+                    continue
+
+                if section:
+                    ctx_str = section.decode("utf-8")
+                    if self._ctx_filter and self._ctx_filter in ctx_str:
+                        continue
+                    lines.append(ctx_str)
+                lines += self._sort_results_lines(subitems)
+                lines.append('')
+
+            # rare but just in case of bugs
+            subitems = {}
+            for fnv in names:
+                if fnv in done and remove_repeats:
+                    continue
+                #done[fnv] = section
+                subitems[fnv] = names[fnv]
+                
+            if subitems:
+                lines += self._sort_results_lines(subitems)
+            
+        else:
+            lines = self._sort_results_lines(names)
+
+        outname = inname #.replace('.txt', '-order.txt')
+        with open(outname, 'w') as f:
+           f.write('\n'.join(lines))
+
+    def _sort_results_lines(self, subitems):
+        lines = []
+        items = []
+        #items = [(key,val) for key,val in items.items()]
+        for key,vals in subitems.items():
+            for val in vals:
+                items.append( (key, val) )
+        #items = list(items.values())
+        items.sort(key=lambda x : x[1].lower())
+        for fnv, name in items:
+            #fnv += ':'
+            fnv = str(fnv).ljust(12)
+
+            name = name.strip()
+            lines.append("%s: %s" % (fnv, name))
+        return lines
+
+    def _sort_results_get_sections(self):
+        # put variables + values at the end, since they are simpler to clasify
+        sections = []
+        sections_vars = []
+        for section in self._contexts.keys():
+            if section and b'### VA' in section.upper(): #TODO: put other sections
+                sections_vars.append(section)
+            else:
+                sections.append(section)
+        sections.extend(sections_vars)
+        return sections
+
+    def sort_results(self):
+        self._sort_results()
+
+
 class WordsDefaults():
     FILENAME_WWNAMES = 'wwnames*.txt'
     FILENAME_IN = 'ww.txt'
@@ -116,7 +227,6 @@ class Words():
         self._curr_context = None
         self._curr_context_lw = None
         self._contexts[self._curr_context] = []
-        self._ctx_filter = ''
 
         self._filter_fnvs = []
         self._filter_names = []
@@ -1119,110 +1229,6 @@ class Words():
 
     #--------------------------------------------------------------------------
 
-    def _sort_results(self):
-        if not self._args.results_sort:
-            return
-
-        inname = self._args.output_file
-
-        # separate fnv + hash(es)
-        names = {}
-        try:
-            with open(inname, 'r') as f:
-                for line in f:
-                    line = line.strip()
-                    if not line:
-                        continue
-                    if ':' not in line:
-                        continue
-
-                    fnv, name = line.split(':')
-                    fnv = int(fnv.strip())
-                    name = name.strip()
-                    if fnv not in names:
-                        names[fnv] = []
-                    names[fnv].append(name)
-        except FileNotFoundError:
-            return
-
-        if self._args.results_contexts:
-            remove_repeats = True
-        
-            done = {} #fnv set
-            lines = []
-
-            sections = self._sort_results_get_sections()
-            for section in sections:
-                # note that the same key may be in multiple contexts (ignored by default)
-
-                # mark names per section and repeats
-                subitems = {}
-                for fnv in self._contexts[section]:
-                    if fnv in done and done[fnv] != section and remove_repeats:
-                        continue
-                    if fnv in names:
-                        done[fnv] = section
-                        subitems[fnv] = names[fnv]
-                if not subitems:
-                    continue
-
-                if section:
-                    ctx_str = section.decode("utf-8")
-                    if self._ctx_filter and self._ctx_filter in ctx_str:
-                        continue
-                    lines.append(ctx_str)
-                lines += self._sort_results_lines(subitems)
-                lines.append('')
-
-            # rare but just in case of bugs
-            subitems = {}
-            for fnv in names:
-                if fnv in done and remove_repeats:
-                    continue
-                #done[fnv] = section
-                subitems[fnv] = names[fnv]
-                
-            if subitems:
-                lines += self._sort_results_lines(subitems)
-            
-        else:
-            lines = self._sort_results_lines(names)
-
-        outname = inname #.replace('.txt', '-order.txt')
-        with open(outname, 'w') as f:
-           f.write('\n'.join(lines))
-
-    def _sort_results_lines(self, subitems):
-        lines = []
-        items = []
-        #items = [(key,val) for key,val in items.items()]
-        for key,vals in subitems.items():
-            for val in vals:
-                items.append( (key, val) )
-        #items = list(items.values())
-        items.sort(key=lambda x : x[1].lower())
-        for fnv, name in items:
-            #fnv += ':'
-            fnv = str(fnv).ljust(12)
-
-            name = name.strip()
-            lines.append("%s: %s" % (fnv, name))
-        return lines
-
-    def _sort_results_get_sections(self):
-        # put variables + values at the end, since they are simpler to clasify
-        sections = []
-        sections_vars = []
-        for section in self._contexts.keys():
-            if section and b'### VA' in section.upper(): #TODO: put other sections
-                sections_vars.append(section)
-            else:
-                sections.append(section)
-        sections.extend(sections_vars)
-        return sections
-
-    #--------------------------------------------------------------------------
-
     def _preprocess_config(self):
         if self._args.format_auto_prefix or self._args.format_auto_suffix or self._args.format_auto_mix:
             self._args.format_auto = True
@@ -1268,7 +1274,8 @@ class Words():
 
         self._postprocess_config()
         self._write_words()
-        self._sort_results()
+
+        ResultsSorter(self._args, self._contexts).sort_results()
 
 ###############################################################################
 
@@ -1370,8 +1377,6 @@ def parse():
     p.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs in the list", default=WordsDefaults.FILENAME_REVERSABLES)
     p.add_argument('-to', '--text-output',  help="Write words rather than reversing", action='store_true')
     p.add_argument('-de', '--delete-empty', help="Delete empty output files", action='store_true')
-    p.add_argument('-rs', '--results-sort', help="Sort results after processing", action='store_true', default=True)
-    p.add_argument('-rc', '--results-contexts',help="Order by #@classify-bank section (if found)", action='store_true', default=True)
     # modes
     p.add_argument('-c',  '--combinations',         help="Combine words in input list by N (repeats words)\nWARNING! don't set high with lots of formats/words")
     p.add_argument('-p',  '--permutations',         help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words list and start next with #@section\nWARNING! don't combine many sections+words", action='store_true')
