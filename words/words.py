@@ -358,15 +358,11 @@ class Words():
     #PATTERN_WRONG = re.compile(r'[\t.<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
     WORD_ALLOWED = [b'xiii', b'xviii', b'zzz']
 
-    FORMAT_TYPE_NONE = 0
-    FORMAT_TYPE_PREFIX = 1
-    FORMAT_TYPE_SUFFIX = 2
-    FORMAT_TYPE_BOTH = 3
-
     def __init__(self, args):
         self._args = args
 
-        self._formats = {}
+        self._formats = {} # format_lw > format_lw, format, prefix, suffix, pre_hash
+
         self._skips = set()
         self._reversables = set()
         self._fuzzies = set()
@@ -600,33 +596,27 @@ class Words():
             return
 
         if format == b'%s':
-            type = self.FORMAT_TYPE_NONE
-            pre = None
-            suf = None
+            prefix = None
+            suffix = None
 
         elif format.endswith(b'%s'):
-            type = self.FORMAT_TYPE_PREFIX
-            pre = format_lw[:-2]
-            suf = None
+            prefix = format_lw[:-2]
+            suffix = None
 
         elif format.startswith(b'%s'):
-            type = self.FORMAT_TYPE_SUFFIX
-            pre = None
-            suf = format_lw[2:]
+            prefix = None
+            suffix = format_lw[2:]
 
         else:
-            type = self.FORMAT_TYPE_BOTH
             presuf = format_lw.split(b'%s')
-            pre = presuf[0]
-            suf = presuf[1]
-
-        val = key
+            prefix = presuf[0]
+            suffix = presuf[1]
 
         pre_hash = None
-        if pre:
-            pre_hash = self._hasher.get_hash_nb(pre)
+        if prefix:
+            pre_hash = self._hasher.get_hash_nb(prefix)
 
-        self._formats[key] = (val, format, type, pre, suf, pre_hash)
+        self._formats[key] = (key, format, prefix, suffix, pre_hash)
 
         #index = format.index(b'%')
         #if index:
@@ -1144,7 +1134,7 @@ class Words():
         fuzzies = self._fuzzies
 
         joiner = self._get_joiner()
-        combine = self._args.combinations or self._args.permutations
+        mode_combine = self._args.combinations or self._args.permutations
 
         # seemingly 1-2% faster, but in theory the same?
         #reversables = frozenset(reversables)
@@ -1162,8 +1152,8 @@ class Words():
         progress_top = progress_add
 
         # formats x words is a bit faster
-        for (format, _, type, pre, suf, pre_hash) in formats:
-            #format, _, type, pre, suf, pre_hash = full_format #slightly slower?
+        for (format_key, _format, prefix, suffix, pre_hash) in formats:
+            #format, _, pre, suf, pre_hash = full_format #slightly slower?
             combos = combinator.get_combos()
             for word in combos:
                 # progress info, shouldn't affect performance too much and useful to see it's working
@@ -1173,20 +1163,21 @@ class Words():
                     print("%i..." % (progress_count), word)
 
                 # concats, slower (30-50%?)
-                #out = self._get_outword(type, pre, suf, word, joiner, combine)
-                # inline'd FNV hash, ~5% speedup
+                #out = self._get_outword(pre, suf, word, joiner, mode_combine)
+
+                # inline'd hash, ~5% speedup
                 #hash = self._hasher.get_hash(out_lower)
 
                 hash = 2166136261 #base FNV hash
 
-                if pre:
+                if prefix:
                     hash = pre_hash
                     #for namebyte in pre:
                     #    hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
 
-                if combine:
+                if mode_combine:
                     # quick ignore non-hashable
-                    if not pre and 0x30 <= word[0][0] <= 0x39: #.isdigit():
+                    if not prefix and 0x30 <= word[0][0] <= 0x39: #.isdigit():
                         continue
 
                     #TODO: with joiners
@@ -1210,8 +1201,8 @@ class Words():
                     for namebyte in word:
                         hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
 
-                if suf:
-                    for namebyte in suf:
+                if suffix:
+                    for namebyte in suffix:
                         hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
 
                 #----------------------------------------------------------
@@ -1227,7 +1218,7 @@ class Words():
                 if hash_fuzzy not in fuzzies:
                     continue
 
-                done = self._handle_match(word, joiner, hash, hash_fuzzy, format, type, pre, suf)
+                done = self._handle_match(word, joiner, hash, hash_fuzzy, format_key)
                 written += done
 
         return written
@@ -1235,9 +1226,9 @@ class Words():
     # handles a confirmed match
     # this doesn't happen often so there is no need to over-optimize
     # (it's faster to hash > match > check, than check > ... )
-    def _handle_match(self, word, joiner, hash, hash_fuzzy, format, type, pre, suf):
+    def _handle_match(self, word, joiner, hash, hash_fuzzy, format_key):
         reversables = self._reversables
-        combine = self._args.combinations or self._args.permutations
+        mode_combine = self._args.combinations or self._args.permutations
         written = 0
 
         # match (regular or fuzzy)
@@ -1246,14 +1237,14 @@ class Words():
                 # regular match
                 if rev_hash != hash:
                     continue
-                out_final = self._get_original_case(format, word, joiner)
+                out_final = self._get_original_case(format_key, word, joiner)
             else:
                 # multiple fnv may use the same fuzz
                 if hash_fuzzy != rev_hash & 0xFFFFFF00:
                     continue
-                out_final = self._get_original_case(format, word, joiner)
+                out_final = self._get_original_case(format_key, word, joiner)
                 if rev_hash != hash:
-                    out_lower = self._get_outword(type, pre, suf, word, joiner, combine)
+                    out_lower = self._get_outword(format_key, word, joiner, mode_combine)
                     out_final = self._hasher.unfuzzy_hashname_lw(rev_hash, out_lower, out_final)
                     if not out_final: #may happen in rare cases
                         continue
@@ -1280,28 +1271,29 @@ class Words():
 
         return written
 
-    def _get_outword(self, type, pre, suf, word, joiner, combine):
-        if combine:
+    def _get_outword(self, format_key, word, joiner, mode_combine):
+        _format_key, format, prefix, suffix, _pre_hash = self._formats[format_key]
+
+        if mode_combine:
             baseword = joiner.join(word)
         else:
             baseword = word
 
         # doing "str % (str)" every time is ~40% slower
-        if   type == self.FORMAT_TYPE_NONE:
+        if prefix and suffix:
+            out = prefix + baseword + suffix
+        elif prefix:
+            out = prefix + baseword
+        elif suffix:
+            out = baseword + suffix
+        else:
             out = baseword
-        elif type == self.FORMAT_TYPE_PREFIX:
-            out = pre + baseword
-        elif type == self.FORMAT_TYPE_SUFFIX:
-            out = baseword + suf
-        else: #prefix+suffix
-            #out = format % (baseword)
-            out = pre + baseword + suf
 
         return out
 
     # when reversing format/word are lowercase, but we have regular case saved to get original combo
-    def _get_original_case(self, format, word, joiner):
-        _, format_og, _type, _pre, _suf, _pre_hash = self._formats[format]
+    def _get_original_case(self, format_key, word, joiner):
+        _format_key, format, _prefix, _suffix, _pre_hash = self._formats[format_key]
 
         if self._args.permutations:
             #joiner = b'' #with joiners part of word
@@ -1311,7 +1303,7 @@ class Words():
                 subword_og = self._sections[i].get(subword, subword)
                 i += 1
                 word_og.append(subword_og)
-            return format_og % (joiner.join(word_og))
+            return format % (joiner.join(word_og))
 
         elif  self._args.combinations:
             #joiner = b'' #with joiners part of word
@@ -1319,11 +1311,11 @@ class Words():
             for subword in word:
                 subword_og = self._words.get(subword, subword)
                 word_og.append(subword_og)
-            return format_og % (joiner.join(word_og))
+            return format % (joiner.join(word_og))
 
         else:
             word_og = self._words[word]
-            return format_og % (word_og)
+            return format % (word_og)
 
     #--------------------------------------------------------------------------
 
