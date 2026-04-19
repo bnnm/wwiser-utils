@@ -3,7 +3,7 @@
 # Reads word from input files, splitting by _ and applying formats, and makes word combos. Files:
 # - wwnames*.txt: lists of words, in the form of (word1), (word2)_(word3), etc, that are split in
 #   various ways (configurable). Lower/uppercase/symbols/incorrect words are fine (will be ignored
-#   or adjusted as needed). Should include a list of FNV IDs, to reverse instead of creating words.
+#   or adjusted as needed). Should include a list of hashes, to reverse instead of creating words.
 #
 # - formats.txt: list of formats, in the form of %(command). By default uses %s if not found/empty.
 #   This is meant to be used to include "probable" prefixes/suffixes ("Play_%s", "%s_bgm").
@@ -18,17 +18,17 @@
 #   - "%c": same as [abcd(..)z]
 #   Any can be combined but may only use one %s (play_%02x_%s, play_%i_%i_%d but not play_%s_%s)
 #
-#   Filters to only accept or skip only some names/fnv:
+#   Filters to only accept or skip only some names/hashes within sections ("### (something)" in wwnames.txt):
 #    #@filter-names *music_data* *_mu_playgo* *_Music* *MasteryChallenge_Music*
-#    #@filter-fnv *BNK_DLC_14800_Music_Data*
+#    #@filter-hashes *BNK_DLC_14800_Music_Data*
 #    #@skip-names *(langs*
-#    #@skip-fnv *(langs*
+#    #@skip-hashes *(langs*
 #
-# - ww.txt: extra list of wwise words only (may use this instead of wwnames.txt)
+# - ww.txt: extra list of words only (may use this instead of wwnames.txt)
 #
-# - fnv.txt: extra list of fnv IDs only (may use this instead of wwnames.txt)
+# - hashes.txt: extra list of hashable IDs only (may use this instead of wwnames.txt)
 #
-# - words_out.txt: output of reversed FNV IDs.
+# - words_out.txt: output of reversed hashes
 #
 # Some of the above can be passed with parameters.
 #
@@ -44,7 +44,7 @@
 # All those are also combines with formats.txt ("play_%s": play_A_C, ...)
 # By default words are combined adding "_" but can be avoided via parameters.
 # 
-# When reversing it may enable/disable "fuzzy matches" (ignores last letter) to find FNV IDs,
+# When reversing it may enable/disable "fuzzy matches" (ignores last letter) to find hashes,
 # as some modes are very prone to false positives.
 #
 # Examples:
@@ -57,9 +57,6 @@
 # - using combinator mode with value 3 + word list with "BGM", "Play", "Stage"
 #   * makes: BGM_Play_Stage, BGM_Stage_Play Stage_BGM_Play, Stage_Play_BGM, etc
 #   * also applies formats
-# - using the "reverse" it only prints results that match a FNV id list
-#   * with combinator/permutation mode and big word list may take ages and make lots
-#     of false positives, use with care 
 
 import argparse, re, itertools, time, glob, os, datetime
 import fnmatch
@@ -67,19 +64,20 @@ import fnmatch
 # TODO:
 # - load words that end with "= 0" as-is for buses (not useful?)
 
+
+#------------------------------------------------------------------------------
+
 class ResultsSorter():
     def __init__(self, args, contexts):
         self._results_contexts = True
         self._output_file = args.output_file
-        self._contexts = contexts #TODO: read again
+        self._contexts = contexts
         self._ctx_filter = '' #TODO add
 
-    def _sort_results(self):
-
-        inname = self._output_file
-
-        # separate fnv + hash(es)
-        names = {}
+    # read output file and separate hash + name(s)
+    @staticmethod
+    def _read_results(inname):
+        results = {}
         try:
             with open(inname, 'r') as f:
                 for line in f:
@@ -89,19 +87,23 @@ class ResultsSorter():
                     if ':' not in line:
                         continue
 
-                    fnv, name = line.split(':')
-                    fnv = int(fnv.strip())
+                    hash, name = line.split(':')
+                    hash = int(hash.strip())
                     name = name.strip()
-                    if fnv not in names:
-                        names[fnv] = []
-                    names[fnv].append(name)
+                    if hash not in results:
+                        results[hash] = []
+                    results[hash].append(name)
         except FileNotFoundError:
-            return
+            pass
+        return results
+
+    # sort results by context (if any) and name
+    def _sort_results(self, items):
 
         if self._results_contexts:
             remove_repeats = True
 
-            done = {} #fnv set
+            done = {} #hash > section
             lines = []
 
             sections = self._sort_results_get_sections()
@@ -110,12 +112,12 @@ class ResultsSorter():
 
                 # mark names per section and repeats
                 subitems = {}
-                for fnv in self._contexts[section]:
-                    if fnv in done and done[fnv] != section and remove_repeats:
+                for hash in self._contexts[section]:
+                    if hash in done and done[hash] != section and remove_repeats:
                         continue
-                    if fnv in names:
-                        done[fnv] = section
-                        subitems[fnv] = names[fnv]
+                    if hash in items:
+                        done[hash] = section
+                        subitems[hash] = items[hash]
                 if not subitems:
                     continue
 
@@ -129,37 +131,38 @@ class ResultsSorter():
 
             # rare but just in case of bugs
             subitems = {}
-            for fnv in names:
-                if fnv in done and remove_repeats:
+            for hash in items:
+                if hash in done and remove_repeats:
                     continue
-                #done[fnv] = section
-                subitems[fnv] = names[fnv]
+                #done[hash] = section
+                subitems[hash] = items[hash]
                 
             if subitems:
                 lines += self._sort_results_lines(subitems)
             
         else:
-            lines = self._sort_results_lines(names)
+            lines = self._sort_results_lines(items)
 
-        outname = inname #.replace('.txt', '-order.txt')
-        with open(outname, 'w') as f:
-           f.write('\n'.join(lines))
+        return lines
 
+    # sort a hash=name dict
     def _sort_results_lines(self, subitems):
         lines = []
         items = []
+
         #items = [(key,val) for key,val in items.items()]
         for key,vals in subitems.items():
             for val in vals:
                 items.append( (key, val) )
+
         #items = list(items.values())
         items.sort(key=lambda x : x[1].lower())
-        for fnv, name in items:
-            #fnv += ':'
-            fnv = str(fnv).ljust(12)
+        for hash, name in items:
+            hash = str(hash).ljust(12)
 
             name = name.strip()
-            lines.append("%s: %s" % (fnv, name))
+            lines.append("%s: %s" % (hash, name))
+
         return lines
 
     def _sort_results_get_sections(self):
@@ -174,9 +177,24 @@ class ResultsSorter():
         sections.extend(sections_vars)
         return sections
 
-    def sort_results(self):
-        self._sort_results()
+    # overwrite output file
+    @staticmethod
+    def _write_results(outname, lines):
+        #outname = outname.replace('.txt', '-order.txt')
+        with open(outname, 'w') as f:
+           f.write('\n'.join(lines))
 
+    def sort(self):
+        inname = self._output_file
+        results = self._read_results(inname)
+        if not results:
+            return
+
+        lines = self._sort_results(results)
+
+        self._write_results(inname, lines)
+
+#------------------------------------------------------------------------------
 
 class WordsDefaults():
     FILENAME_WWNAMES = 'wwnames*.txt'
@@ -185,7 +203,7 @@ class WordsDefaults():
     FILENAME_OUT_EX = 'words_out%s.txt'
     FILENAME_FORMATS = 'formats.txt'
     FILENAME_SKIPS = 'skips.txt'
-    FILENAME_REVERSABLES = 'fnv.txt'
+    FILENAME_REVERSABLES = 'hashes.txt'
 
 
 class Words():
@@ -215,8 +233,8 @@ class Words():
         self._words = {} #OrderedDict() # dicts are ordered in python 3.7+
         self._words_reversed = set()
 
-        #self._format_fnvs = {} #stem = base FNV
-        #self._format_baselen = {} #stem = base lenth
+        #self._format_hashes = {} #stem = base hashes
+        #self._format_baselen = {} #stem = base length
 
         self._sections = []
         self._sections.append(self._words)
@@ -228,12 +246,12 @@ class Words():
         self._curr_context_lw = None
         self._contexts[self._curr_context] = []
 
-        self._filter_fnvs = []
+        self._filter_hashes = []
         self._filter_names = []
-        self._skip_fnvs = []
+        self._skip_hashes = []
         self._skip_names = []
 
-        self._fnv = Fnv()
+        self._hasher = WwiseHasher()
 
     #--------------------------------------------------------------------------
 
@@ -260,14 +278,14 @@ class Words():
         return self._is_filtered_internal(filters, True)
 
     def _read_format_flags(self, elem):
-        # use only FNV that match these
-        if elem.startswith(b'#@filter-fnv'):
+        # use only hashes that match these
+        if elem.startswith(b'#@filter-hashes'):
             items = elem.split(b' ')[1:]
-            self._filter_fnvs = [item.lower() for item in items]
+            self._filter_hashes = [item.lower() for item in items]
 
-        if elem.startswith(b'#@skip-fnv'):
+        if elem.startswith(b'#@skip-hashes'):
             items = elem.split(b' ')[1:]
-            self._skip_fnvs = [item.lower() for item in items]
+            self._skip_hashes = [item.lower() for item in items]
 
         if elem.startswith(b'#@filter-names'):
             items = elem.split(b' ')[1:]
@@ -459,26 +477,20 @@ class Words():
             pre = presuf[0]
             suf = presuf[1]
 
-        if self._args.text_output:
-            val = format
-        else:
-            val = key
+        val = key
 
-        pre_fnv = None
+        pre_hash = None
         if pre:
-            #pre = bytes(pre, 'UTF-8')
-            pre_fnv = self._fnv.get_hash_nb(pre)
-        #if suf:
-        #    suf = bytes(suf, 'UTF-8')
+            pre_hash = self._hasher.get_hash_nb(pre)
 
-        self._formats[key] = (val, format, type, pre, suf, pre_fnv)
+        self._formats[key] = (val, format, type, pre, suf, pre_hash)
 
         #index = format.index(b'%')
         #if index:
-        #    val = self._fnv.get_hash(format[0:index])
+        #    val = self._hasher.get_hash(format[0:index])
         #else:
         #    val = None
-        #self._format_fnvs[key] = val
+        #self._format_hashes[key] = val
         #self._format_baselen[key] = index
 
     def _read_formats(self, file):
@@ -559,7 +571,7 @@ class Words():
 
             # makes only sense on simpler cases with no formats
             # (ex. if combining format "play_bgm_%s" and number in list is reasonable)
-            #if self._args.hashable_only and not self._fnv.is_hashable(combo_hashable):
+            #if self._args.hashable_only and not self._hasher.is_hashable(combo_hashable):
             #    continue
             if self._args.alpha_only and any(char_n < 0x30 and char_n > 0x39 for char_n in combo_hashable): #char.isdigit()
                 continue
@@ -581,7 +593,7 @@ class Words():
 
         for elem in elems:
             elem_hashable = elem.lower()
-            if not self._fnv.is_hashable(elem_hashable):
+            if not self._hasher.is_hashable(elem_hashable):
                 continue
             self._skips.add(elem_hashable)
             self._skips.add(elem)
@@ -604,12 +616,12 @@ class Words():
                 self._contexts[self._curr_context] = []
             return
 
-        if self._is_filtered(self._filter_fnvs):
+        if self._is_filtered(self._filter_hashes):
             return
-        if self._is_skipped(self._skip_fnvs):
+        if self._is_skipped(self._skip_hashes):
             return
 
-        if line.startswith(b'# '): #allow fnv in wwnames.txt with -sm
+        if line.startswith(b'# '): #allow hashes in wwnames.txt with -sm
             line = line[2:]
         if line.startswith(b'#'):
             return
@@ -641,7 +653,7 @@ class Words():
             self._reset_contexts()
             with open(file, 'rb') as infile:
                 if reset_if_found:
-                    print("ignoring existing wwnames FNV to use external list")
+                    print("ignoring existing wwnames hashes to use external list")
                     self._reversables = set()
 
                 for line in infile:
@@ -650,8 +662,8 @@ class Words():
             pass
 
         for elem in self._reversables:
-            fnv = elem & 0xFFFFFF00
-            self._fuzzies.add(fnv) #may be smaller than fnv_dict with similar FNVs
+            fuzzy_hash = elem & 0xFFFFFF00
+            self._fuzzies.add(fuzzy_hash) #may be smaller than hash dict
 
     #--------------------------------------------------------------------------
 
@@ -743,20 +755,18 @@ class Words():
 
             # makes only sense on simpler cases with no formats
             # (ex. if combining format "play_bgm_%s" and number in list is reasonable)
-            if self._args.hashable_only and not self._fnv.is_hashable(combo_hashable):
+            if self._args.hashable_only and not self._hasher.is_hashable(combo_hashable):
                 continue
             if self._args.alpha_only and any(char_n < 0x30 and char_n > 0x39 for char_n in combo_hashable): #char.isdigit()
             #if self._args.alpha_only and any(char.isdigit() for char in combo_hashable):
                 continue
 
-            #combo_hashable = bytes(combo_hashable, "UTF-8")
             words[combo_hashable] = combo
 
         # add itself (needed when joiner is not _)
         if add_self:
             elem_hashable = elem.lower()
-            if self._fnv.is_hashable(elem_hashable):
-                #elem_hashable = bytes(elem_hashable, "UTF-8")
+            if self._hasher.is_hashable(elem_hashable):
                 words[elem_hashable] = elem
 
     def _is_line_ok(self, line, line_lw):
@@ -862,7 +872,7 @@ class Words():
             for var_type in var_types:
                 line = line.replace(var_type, b'')
 
-            # clean copied fnvs
+            # clean copied hashes
             if b': ' in line:
                 index = line.index(b': ')
                 if line[0:index].strip().isdigit():
@@ -909,9 +919,9 @@ class Words():
                 # Only for base elem and not derived parts.
                 if self._parsing_wwnames:
                     elem_lw = elem.lower()
-                    if self._fnv.is_hashable(elem_lw):
-                        fnv = self._fnv.get_hash(elem_lw)
-                        self._words_reversed.add(int(fnv))
+                    if self._hasher.is_hashable(elem_lw):
+                        hash = self._hasher.get_hash(elem_lw)
+                        self._words_reversed.add(int(hash))
 
             # most of the time only makes sense to automake formats from wwnames and not ww.txt
             if self._args.format_auto and self._parsing_wwnames:
@@ -946,10 +956,9 @@ class Words():
         permutations = 1
         sections = []
         for section in self._sections:
-            if self._args.text_output:
-                words = section.values() #original
-            else:
-                words = section.keys() #lowercase
+            #if self._args.text_output:
+            #    words = section.values() #original
+            words = section.keys() #lowercase
 
             permutations *= len(words)
             sections.append(words)
@@ -962,10 +971,10 @@ class Words():
         return elems
 
     def _get_combinations(self):
-        if self._args.text_output:
-            words = self._words.values() #original
-        else:
-            words = self._words.keys() #lowercase bytes
+        #if self._args.text_output:
+        #    words = self._words.values() #original
+        #else:
+        words = self._words.keys() #lowercase bytes
 
         w_len = len(words)
         f_len = len(self._formats)
@@ -989,10 +998,10 @@ class Words():
         return elems
 
     def _get_basewords(self):
-        if self._args.text_output:
-            words = self._words.values() #original
-        else:
-            words = self._words.keys() #lowercase bytes
+        #if self._args.text_output:
+        #    words = self._words.values() #original
+        #else:
+        words = self._words.keys() #lowercase bytes
 
         w_len = len(words)
         f_len = len(self._formats)
@@ -1003,7 +1012,6 @@ class Words():
     #--------------------------------------------------------------------------
 
     def _write_words(self):
-        is_text_output = self._args.text_output
         no_fuzzy = self._args.fuzzy_disable
 
         # huge memory consumption, not iterator?
@@ -1025,14 +1033,11 @@ class Words():
 
         reversables = self._reversables
         fuzzies = self._fuzzies
-        if not is_text_output and not reversables:
+        if not reversables:
             print("no reversable IDs found")
             return
 
-        if is_text_output:
-            print("generating words")
-        else:
-            print("reversing %i FNVs" % (len(reversables)))
+        print("reversing %i hashes" % (len(reversables)))
 
         joiner = self._get_joiner()
         combine = self._args.combinations or self._args.permutations
@@ -1049,19 +1054,12 @@ class Words():
         with open(self._args.output_file, 'w') as outfile, open(self._args.skips_file, 'a') as skipfile:
             for word in words:
                 for full_format in formats:
-                    format, _, type, pre, suf, pre_fnv = full_format
-
-                    if is_text_output:
-                        out = self._get_outword(full_format, word, joiner, combine)
-                        out = str(out, 'utf-8') #for standard linesep'ing
-                        outfile.write(out + '\n')
-                        written += 1
-                        continue
+                    format, _, type, pre, suf, pre_hash = full_format
 
                     # concats, slower (30-50%?)
                     #out = self._get_outword(full_format, word, joiner, combine)
                     # inline'd FNV hash, ~5% speedup
-                    #fnv_base = self._fnv.get_hash_lw(out_lower)
+                    #fnv_base = self._hasher.get_hash_lw(out_lower)
 
                     #----------------------------------------------------------
                     # MAIN HASHING (inline'd)
@@ -1073,7 +1071,7 @@ class Words():
                     hash = 2166136261 #base FNV hash
 
                     if pre:
-                        hash = pre_fnv
+                        hash = pre_hash
                         #for namebyte in pre:
                         #    hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
 
@@ -1134,7 +1132,7 @@ class Words():
                                 out_final = self._get_original_case(format, word, joiner)
                                 if fnv != fnv_base:
                                     out_lower = self._get_outword(full_format, word, joiner, combine)
-                                    out_final = self._fnv.unfuzzy_hashname_lw(fnv, out_lower, out_final)
+                                    out_final = self._hasher.unfuzzy_hashname_lw(fnv, out_lower, out_final)
                                     if not out_final: #may happen in rare cases
                                         continue
 
@@ -1144,7 +1142,7 @@ class Words():
                             self._skips.add(out_final_lw)
 
                             # don't print non-useful hashes
-                            if not self._fnv.is_hashable(out_final_lw):
+                            if not self._hasher.is_hashable(out_final_lw):
                                 continue
                             if self._args.max_chars and len(out_final) > self._args.max_chars:
                                 continue
@@ -1179,11 +1177,6 @@ class Words():
     def _get_outword(self, full_format, word, joiner, combine):
         format, _, type, pre, suf, _ = full_format    
 
-        #if pre:
-        #    pre = pre.decode("utf-8")
-        #if suf:
-        #    suf = suf.decode("utf-8")
-
         if combine:
             baseword = joiner.join(word)
         else:
@@ -1204,7 +1197,7 @@ class Words():
 
     # when reversing format/word are lowercase, but we have regular case saved to get original combo
     def _get_original_case(self, format, word, joiner):
-        _, format_og, _type, _pre, _suf, _pre_fnv = self._formats[format]
+        _, format_og, _type, _pre, _suf, _pre_hash = self._formats[format]
 
         if self._args.permutations:
             word_og = []
@@ -1275,11 +1268,11 @@ class Words():
         self._postprocess_config()
         self._write_words()
 
-        ResultsSorter(self._args, self._contexts).sort_results()
+        ResultsSorter(self._args, self._contexts).sort()
 
 ###############################################################################
 
-class Fnv(object):
+class WwiseHasher(object):
     FNV_DICT = b'0123456789abcdefghijklmnopqrstuvwxyz_'
     FNV_FORMAT = re.compile(b"^[a-z_][a-z0-9\_]*$")
     FNV_FORMAT_EX = re.compile(b"^[a-z_0-9][a-z0-9_()\- ]*$")
@@ -1297,7 +1290,6 @@ class Fnv(object):
         if not id or not hashname:
             return None
 
-        #namebytes = bytearray(lowname, 'UTF-8')
         namebytes = lowname
         basehash = self._get_hash(namebytes[:-1]) #up to last byte
         for c in self.FNV_DICT: #try each last char
@@ -1341,41 +1333,38 @@ class Fnv(object):
         return self.get_hash_lw(name.lower())
 
     def get_hash_lw(self, lowname):
-        #namebytes = bytes(lowname, 'UTF-8')
         namebytes = lowname
         return self._get_hash(namebytes)
 
     def get_hash_nb(self, namebytes):
         return self._get_hash(namebytes)
 
-# #####################################
+#------------------------------------------------------------------------------
 
 def parse():
     description = (
-        "word generator"
+        "Reverses hashes by combining words in various ways\n"
     )
     epilog = (
-        "Creates lists of words from wwnames.txt + formats.txt to words_out.txt\n"
-        "Reverse FNV IDs if fnv.txt is provided instead\n"
+        "Splits input words into various stems then joins them in various way.\n"
+        "It's a type of dictionary attack, so it needs words lists from the game to work properly."
+        "The theory being, if a game uses 'play_bgm_01' it might as well use 'stop_bgm_01' or 'play_sfx_01'\n"
+        "\n"
         "Examples:\n"
         "  %(prog)s\n"
-        "  - makes output with default files\n"
+        "  - reverses with default files\n"
         "  %(prog)s -c 2\n"
-        "  - combines words from list: A_A, A_B, A_C ...\n"
-        "  %(prog)s -p\n"
-        "  - combines words from sections in list: A1_B1_C1, A1_B2_C1, ...\n"
-        "    (end sections in word list with #@section)\n"
+        "  - reverses by doing combinations of 2 words from input list: A_A, A_B, A_C ...\n"
     )
 
     p = argparse.ArgumentParser(description=description, epilog=epilog, formatter_class=argparse.RawTextHelpFormatter)
     # files
-    p.add_argument('-w',  '--wwnames-file', help="wwnames input list (word list + FNV list)", default=WordsDefaults.FILENAME_WWNAMES)
-    p.add_argument('-i',  '--input-file',   help="Input list (ignores FNVs)", default=WordsDefaults.FILENAME_IN)
+    p.add_argument('-w',  '--wwnames-file', help="input names (word list + hash list)", default=WordsDefaults.FILENAME_WWNAMES)
+    p.add_argument('-i',  '--input-file',   help="input word lists (ignores hashes)", default=WordsDefaults.FILENAME_IN)
     p.add_argument('-o',  '--output-file',  help="Output list", default=WordsDefaults.FILENAME_OUT)
     p.add_argument('-f',  '--formats-file', help="Format list file\n- use %%s to replace a word from input list", default=WordsDefaults.FILENAME_FORMATS)
-    p.add_argument('-s',  '--skips-file',   help="List of words to ignore\n(so they arent tested again when doing test variations)", default=WordsDefaults.FILENAME_SKIPS)
-    p.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs in the list", default=WordsDefaults.FILENAME_REVERSABLES)
-    p.add_argument('-to', '--text-output',  help="Write words rather than reversing", action='store_true')
+    p.add_argument('-s',  '--skips-file',   help="List of words to ignore (so they arent tested again when doing test variations)", default=WordsDefaults.FILENAME_SKIPS)
+    p.add_argument('-r',  '--reverse-file', help="Hash list to reverse", default=WordsDefaults.FILENAME_REVERSABLES)
     p.add_argument('-de', '--delete-empty', help="Delete empty output files", action='store_true')
     # modes
     p.add_argument('-c',  '--combinations',         help="Combine words in input list by N (repeats words)\nWARNING! don't set high with lots of formats/words")
