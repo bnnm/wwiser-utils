@@ -297,36 +297,36 @@ Remember the basic get-names loop is:
 # more or less suitable for wwnames.txt and ww.txt of any size
 
 # standard results
-words.py -de -o words1_out.txt 
+words.py -o words1_out.txt 
 
 # various ways to split/join names
-words.py -de -o words1_all-js.txt  -js
-words.py -de -o words1_all-jb.txt  -jb
-words.py -de -o words1_all-sp.txt  -sp
-words.py -de -o words1_all-sc.txt  -sc
-words.py -de -o words1_all-sc-jb.txt  -sc -jb
+words.py -o words1_all-js.txt  -js
+words.py -o words1_all-jb.txt  -jb
+words.py -o words1_all-sp.txt  -sp
+words.py -o words1_all-sc.txt  -sc
+words.py -o words1_all-sc-jb.txt  -sc -jb
 
 # typical suffixes + removes some letters for cases like "play_things" > "play_thing"
-words.py -de -o words1_all-cl0.txt  -fs 0 1 2 3 5 6 7 8 9 00 01 02 03 05 06 07 08 09 10 A B C D E L R M S LP
-words.py -de -o words1_all-cl1.txt  -cl 1 -fs 0 1 2 3 5 6 7 8 9 00 01 02 03 05 06 07 08 09 10 A B C D E L R M S LP
-words.py -de -o words1_all-cl2.txt  -cl 2 -fs 0 1 2 3 5 6 7 8 9 00 01 02 03 05 06 07 08 09 10 A B C D E L R M S LP
-words.py -de -o words1_all-c1b.txt  -cf 1
-words.py -de -o words1_all-c2b.txt  -cf 2
+words.py -o words1_all-cl0.txt  -fs 0 1 2 3 5 6 7 8 9 00 01 02 03 05 06 07 08 09 10 A B C D E L R M S LP
+words.py -o words1_all-cl1.txt  -cl 1 -fs 0 1 2 3 5 6 7 8 9 00 01 02 03 05 06 07 08 09 10 A B C D E L R M S LP
+words.py -o words1_all-cl2.txt  -cl 2 -fs 0 1 2 3 5 6 7 8 9 00 01 02 03 05 06 07 08 09 10 A B C D E L R M S LP
+words.py -o words1_all-c1b.txt  -cf 1
+words.py -o words1_all-c2b.txt  -cf 2
 
 # will try english words, makes quite a few false positives but a few good too like place names
-words.py -de -o words_wwe.txt -i english.txt
+words.py -o words_wwe.txt -i english.txt
 
 # combinations of 2 words
-words.py -de -c 2 -zd -sf -o words2_sf.txt
+words.py -c 2 -zd -sf -o words2_sf.txt
 
 # combinations of 2-4 words, may be a bit slow
-words.py -de -c 2 -mc 80  -sn 2 -o words2_out.txt
+words.py -c 2 -mc 80  -sn 2 -o words2_out.txt
 
 # variations of the above
-words.py -c 2 -de -mc 70 -sf -ho -sc -o words2_all-sc.txt 
-words.py -c 2 -de -mc 70 -sf -ho -sc -jb -o words2_all-sc-jb.txt 
-words.py -c 2 -de -mc 70 -sf -ho -js -o words2_all-js.txt 
-words.py -c 2 -de -mc 70 -sf -ho -jb -o words2_all-jb.txt 
+words.py -c 2 -mc 70 -sf -ho -sc -o words2_all-sc.txt 
+words.py -c 2 -mc 70 -sf -ho -sc -jb -o words2_all-sc-jb.txt 
+words.py -c 2 -mc 70 -sf -ho -js -o words2_all-js.txt 
+words.py -c 2 -mc 70 -sf -ho -jb -o words2_all-jb.txt 
 
 
 ## advanced commands
@@ -334,28 +334,28 @@ words.py -c 2 -de -mc 70 -sf -ho -jb -o words2_all-jb.txt
 # but very useful with the right txt. Remove less useful names and keep it <300kb for best results.
 
 # words based on existing prefixes/sufixes, some value between 2-4 is a good compromise
-words.py -de -o words_fa-pn.txt -fap 3
-words.py -de -o words_fa-sn.txt -fas 3
-words.py -de -o words_fa-pn-fs-sc.txt -fap 3 -fs -sc
-words.py -de -o words_fa-sn-fs-sc.txt -fas 3 -fs -sc
-words.py -de -o words_fa-pn-fs-jb.txt -fap 3 -fs -jb
-words.py -de -o words_fa-sn-fs-jb.txt -fas 3 -fs -jb
+words.py -o words_fa-pn.txt -fap 3
+words.py -o words_fa-sn.txt -fas 3
+words.py -o words_fa-pn-fs-sc.txt -fap 3 -fs -sc
+words.py -o words_fa-sn-fs-sc.txt -fas 3 -fs -sc
+words.py -o words_fa-pn-fs-jb.txt -fap 3 -fs -jb
+words.py -o words_fa-sn-fs-jb.txt -fas 3 -fs -jb
 
 # combos
-words.py -c 2 -mc 80  -de -o words2_out.txt
+words.py -c 2 -mc 80  -o words2_out.txt
 
 # more combos
-words.py -c 2 -mc 70 -jb -de -o words2_c2-jb.txt 
-words.py -c 2 -mc 70 -js -de -o words2_c2-js.txt 
-words.py -c 2 -mc 70 -sc -de -o words2_c2-sc.txt 
-words.py -c 2 -mc 70 -sc -jb -de -o words2_c2-sc-jb.txt 
+words.py -c 2 -mc 70 -jb -o words2_c2-jb.txt 
+words.py -c 2 -mc 70 -js -o words2_c2-js.txt 
+words.py -c 2 -mc 70 -sc -o words2_c2-sc.txt 
+words.py -c 2 -mc 70 -sc -jb -o words2_c2-sc-jb.txt 
 
 # creates words based on all chunks of the words, slow but may get trickier combos
-words.py -de -o words_fa-sf.txt -fa -sf
-words.py -de -o words_fa-jb.txt -fa -jb
-words.py -de -o words_fa-sc.txt -fa -sc
-words.py -de -o words_fa-sc-sf.txt -fa -sc -sf
-words.py -de -o words_fa-sc-jb.txt -fa -sc -jb
+words.py -o words_fa-sf.txt -fa -sf
+words.py -o words_fa-jb.txt -fa -jb
+words.py -o words_fa-sc.txt -fa -sc
+words.py -o words_fa-sc-sf.txt -fa -sc -sf
+words.py -o words_fa-sc-jb.txt -fa -sc -jb
 
 
 ## extra commands
@@ -363,35 +363,35 @@ words.py -de -o words_fa-sc-jb.txt -fa -sc -jb
 
 # use all existing wwnames as base (set to the proper path)
 # slow but good chance you'll get useful stuff since devs are previsible and reuse names
-words.py -de -o words_all.txt -i ../wwiser-utils/wwnames/*.txt
+words.py -o words_all.txt -i ../wwiser-utils/wwnames/*.txt
 
 # very slow but creates words in a way that still gets good results
-words.py -de -o words_faw.txt -zd -fa -de
+words.py -o words_faw.txt -zd -fa
 
 # not really useful but may get some stuff here and there
-words.py -c 2 -de -sf  -o words2_all-jb-cl0.txt -fs 0 1 2 3 5 6 00 01 02 03 05 06 A B C D E L M S LP
-words.py -c 2 -de -sf  -o words2_all-jb-cl1.txt -cl 1  -fs 0 1 2 3 5 6 00 01 02 03 05 06 A B C D E L M S LP
-words.py -c 2 -de -sf  -o words2_all-jb-cl2.txt -cl 2  -fs 0 1 2 3 5 6 00 01 02 03 05 06 A B C D E L M S LP
+words.py -c 2 -sf  -o words2_all-jb-cl0.txt -fs 0 1 2 3 5 6 00 01 02 03 05 06 A B C D E L M S LP
+words.py -c 2 -sf  -o words2_all-jb-cl1.txt -cl 1  -fs 0 1 2 3 5 6 00 01 02 03 05 06 A B C D E L M S LP
+words.py -c 2 -sf  -o words2_all-jb-cl2.txt -cl 2  -fs 0 1 2 3 5 6 00 01 02 03 05 06 A B C D E L M S LP
 
 # if you use a smaller english words list (WIP) this is useful sometimes
-words.py -de -o words_wwe.txt -zd -c 2 -sf -i english-small.txt
+words.py -o words_wwe.txt -zd -c 2 -sf -i english-small.txt
 
 # this will take ages and create too much crap unless your txt is pretty small, but just in case:
-words.py -de -c 3 -mc 40 -ho -sf -o words3_sf.txt
+words.py -c 3 -mc 40 -ho -sf -o words3_sf.txt
 
 
 ## extra stuff
 # not commands but a few extra tips:
 
 # - use sample formats from wwiser-utils/words
-words.py -de -zd -o words1_fmt.txt -f ../wwiser-utils/words/formats.txt
+words.py -zd -o words1_fmt.txt -f ../wwiser-utils/words/formats.txt
 
 # - use sample formats existing wwnames from wwiser-utils/wwnames
-words.py -de -zd -o words1_all.txt -i ../wwiser-utils/wwnames/*.txt (other flags)
+words.py -zd -o words1_all.txt -i ../wwiser-utils/wwnames/*.txt (other flags)
 
 # - use english-small.txt or ww.txt (extra names), add "#@section" on top then try the "permutations" mode
-words.py -p -mc 40 -de -i ww.txt
-words.py -p -mc 40 -de -i ../wwiser-utils/wwnames/dict/english-small.txt
+words.py -p -mc 40 -i ww.txt
+words.py -p -mc 40 -i ../wwiser-utils/wwnames/dict/english-small.txt
 
 
 ## pypy setup
