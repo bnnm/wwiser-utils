@@ -1011,8 +1011,7 @@ class Words():
 
     #--------------------------------------------------------------------------
 
-    def _write_words(self):
-        no_fuzzy = self._args.fuzzy_disable
+    def _reverse_words(self):
 
         # huge memory consumption, not iterator?
         #words = ["_".join(x) for x in self._get_xxx()]
@@ -1039,6 +1038,36 @@ class Words():
 
         print("reversing %i hashes" % (len(reversables)))
 
+        # info
+
+        ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print("writting %s (%s)" % (self._args.output_file, ts))
+
+        # main process
+        with open(self._args.output_file, 'w') as outfile, open(self._args.skips_file, 'a') as skipfile:
+            start_time = time.time()
+            written = self._reverse_main(words, formats, outfile, skipfile)
+            end_time = time.time()
+    
+        print("total %i results" % (written))
+
+        if written == 0:
+            os.remove(self._args.output_file)
+        else:
+            print("wrote %s" % (self._args.output_file))
+
+        ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print("reversing done (%s, elapsed %ss)" % (ts, end_time - start_time))
+
+
+    def _reverse_main(self, words, formats, outfile, skipfile):
+        written = 0
+
+        no_fuzzy = self._args.fuzzy_disable
+
+        reversables = self._reversables
+        fuzzies = self._fuzzies
+
         joiner = self._get_joiner()
         combine = self._args.combinations or self._args.permutations
 
@@ -1046,133 +1075,117 @@ class Words():
         info_count = 0
         info_add = 5000000 // len(formats)
         info_top = info_add
-        written = 0
-        start_time = time.time()
 
-        ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        print("writting %s (%s)" % (self._args.output_file, ts))
-        with open(self._args.output_file, 'w') as outfile, open(self._args.skips_file, 'a') as skipfile:
-            for word in words:
-                for full_format in formats:
-                    format, _, type, pre, suf, pre_hash = full_format
+        for word in words:
+            for full_format in formats:
+                format, _, type, pre, suf, pre_hash = full_format
 
-                    # concats, slower (30-50%?)
-                    #out = self._get_outword(full_format, word, joiner, combine)
-                    # inline'd FNV hash, ~5% speedup
-                    #fnv_base = self._hasher.get_hash_lw(out_lower)
+                # concats, slower (30-50%?)
+                #out = self._get_outword(full_format, word, joiner, combine)
+                # inline'd FNV hash, ~5% speedup
+                #fnv_base = self._hasher.get_hash_lw(out_lower)
 
-                    #----------------------------------------------------------
-                    # MAIN HASHING (inline'd)
-                    #
-                    # 'word' is a list on combos like ("aaa", "bbb") + formats "base_%s".
-                    # Instead of hash("base_aaa_bbb") we can avoid str concat by doing
-                    # hash("base_"), hash("aaa"), hash("_"), hash("bbb") passing output as next seed.
-                    # combos are pre-converted to bytes for a minor speed up too.
-                    hash = 2166136261 #base FNV hash
+                #----------------------------------------------------------
+                # MAIN HASHING (inline'd)
+                #
+                # 'word' is a list on combos like ("aaa", "bbb") + formats "base_%s".
+                # Instead of hash("base_aaa_bbb") we can avoid str concat by doing
+                # hash("base_"), hash("aaa"), hash("_"), hash("bbb") passing output as next seed.
+                # combos are pre-converted to bytes for a minor speed up too.
+                hash = 2166136261 #base FNV hash
 
-                    if pre:
-                        hash = pre_hash
-                        #for namebyte in pre:
-                        #    hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
+                if pre:
+                    hash = pre_hash
+                    #for namebyte in pre:
+                    #    hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
 
-                    if combine:
-                        # quick ignore non-hashable
-                        if not pre and 0x30 <= word[0][0] <= 0x39: #.isdigit():
-                            continue
-
-                        #TODO: with joiners
-                        #for subword in word:
-                        #    for namebyte in subword:
-                        #        hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
-
-                        len_word = len(word) - 1
-                        for i, subword in enumerate(word):
-                            for namebyte in subword:
-                                hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
-                            if i < len_word:
-                                for namebyte in joiner:
-                                    hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
-
-                    else:
-                        # quick ignore non-hashable
-                        if not pre and 0x30 <= word[0] <= 0x39: #.isdigit():
-                            continue
-
-                        for namebyte in word:
-                            hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
-
-                    if suf:
-                        for namebyte in suf:
-                            hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
-
-                    fnv_base = hash
-
-                    #----------------------------------------------------------
-
-                    # its ~2-5% faster calc FNV + check if it a target FNV, than checking for skips first (less common)
-                    # non-empty test first = minor speedup if file doesn't exist
-                    #if self._skips and out in self._skips:
-                    #    continue
-
-                    if no_fuzzy and fnv_base not in reversables:
+                if combine:
+                    # quick ignore non-hashable
+                    if not pre and 0x30 <= word[0][0] <= 0x39: #.isdigit():
                         continue
 
-                    fnv_fuzz = fnv_base & 0xFFFFFF00
-                    if fnv_fuzz in fuzzies:
-                        for fnv in reversables:
-                            if self._args.fuzzy_disable:
-                                # regular match
-                                if fnv != fnv_base:
+                    #TODO: with joiners
+                    #for subword in word:
+                    #    for namebyte in subword:
+                    #        hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
+
+                    len_word = len(word) - 1
+                    for i, subword in enumerate(word):
+                        for namebyte in subword:
+                            hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
+                        if i < len_word:
+                            for namebyte in joiner:
+                                hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
+
+                else:
+                    # quick ignore non-hashable
+                    if not pre and 0x30 <= word[0] <= 0x39: #.isdigit():
+                        continue
+
+                    for namebyte in word:
+                        hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
+
+                if suf:
+                    for namebyte in suf:
+                        hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
+
+                fnv_base = hash
+
+                #----------------------------------------------------------
+
+                # its ~2-5% faster calc FNV + check if it a target FNV, than checking for skips first (less common)
+                # non-empty test first = minor speedup if file doesn't exist
+                #if self._skips and out in self._skips:
+                #    continue
+
+                if no_fuzzy and fnv_base not in reversables:
+                    continue
+
+                fnv_fuzz = fnv_base & 0xFFFFFF00
+                if fnv_fuzz in fuzzies:
+                    for fnv in reversables:
+                        if self._args.fuzzy_disable:
+                            # regular match
+                            if fnv != fnv_base:
+                                continue
+                            out_final = self._get_original_case(format, word, joiner)
+                        else:
+                            # multiple fnv may use the same fuzz
+                            if fnv_fuzz != fnv & 0xFFFFFF00:
+                                continue
+                            out_final = self._get_original_case(format, word, joiner)
+                            if fnv != fnv_base:
+                                out_lower = self._get_outword(full_format, word, joiner, combine)
+                                out_final = self._hasher.unfuzzy_hashname_lw(fnv, out_lower, out_final)
+                                if not out_final: #may happen in rare cases
                                     continue
-                                out_final = self._get_original_case(format, word, joiner)
-                            else:
-                                # multiple fnv may use the same fuzz
-                                if fnv_fuzz != fnv & 0xFFFFFF00:
-                                    continue
-                                out_final = self._get_original_case(format, word, joiner)
-                                if fnv != fnv_base:
-                                    out_lower = self._get_outword(full_format, word, joiner, combine)
-                                    out_final = self._hasher.unfuzzy_hashname_lw(fnv, out_lower, out_final)
-                                    if not out_final: #may happen in rare cases
-                                        continue
 
-                            out_final_lw = out_final.lower()
-                            if out_final_lw in self._skips:
-                                continue
-                            self._skips.add(out_final_lw)
+                        out_final_lw = out_final.lower()
+                        if out_final_lw in self._skips:
+                            continue
+                        self._skips.add(out_final_lw)
 
-                            # don't print non-useful hashes
-                            if not self._hasher.is_hashable(out_final_lw):
-                                continue
-                            if self._args.max_chars and len(out_final) > self._args.max_chars:
-                                continue
+                        # don't print non-useful hashes
+                        if not self._hasher.is_hashable(out_final_lw):
+                            continue
+                        if self._args.max_chars and len(out_final) > self._args.max_chars:
+                            continue
 
-                            out_final = str(out_final, 'utf-8')
-                            outfile.write("%s: %s\n" % (fnv, out_final))
-                            outfile.flush() #reversing is most interesting with lots of loops = slow, keep flushing
+                        out_final = str(out_final, 'utf-8')
+                        outfile.write("%s: %s\n" % (fnv, out_final))
+                        outfile.flush() #reversing is most interesting with lots of loops = slow, keep flushing
 
-                            out_final_lw = str(out_final_lw, 'utf-8')
-                            skipfile.write("%s: %s\n" % (fnv, out_final_lw))
+                        out_final_lw = str(out_final_lw, 'utf-8')
+                        skipfile.write("%s: %s\n" % (fnv, out_final_lw))
 
-                            written += 1
+                        written += 1
 
-                info_count += 1
-                if info_count == info_top:
-                    info_top += info_add
-                    print("%i..." % (info_count), word)
+            info_count += 1
+            if info_count == info_top:
+                info_top += info_add
+                print("%i..." % (info_count), word)
 
-
-        print("total %i results" % (written))
-
-        if written == 0 and self._args.delete_empty:
-            os.remove(self._args.output_file)
-        else:
-            print("wrote %s" % (self._args.output_file))
-
-        end_time = time.time()
-        ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        print("writting done (%s, elapsed %ss)" % (ts, end_time - start_time))
-
+        return written
 
     def _get_outword(self, full_format, word, joiner, combine):
         format, _, type, pre, suf, _ = full_format    
@@ -1266,7 +1279,7 @@ class Words():
         self._read_skips(self._args.skips_file)
 
         self._postprocess_config()
-        self._write_words()
+        self._reverse_words()
 
         ResultsSorter(self._args, self._contexts).sort()
 
@@ -1365,7 +1378,6 @@ def parse():
     p.add_argument('-f',  '--formats-file', help="Format list file\n- use %%s to replace a word from input list", default=WordsDefaults.FILENAME_FORMATS)
     p.add_argument('-s',  '--skips-file',   help="List of words to ignore (so they arent tested again when doing test variations)", default=WordsDefaults.FILENAME_SKIPS)
     p.add_argument('-r',  '--reverse-file', help="Hash list to reverse", default=WordsDefaults.FILENAME_REVERSABLES)
-    p.add_argument('-de', '--delete-empty', help="Delete empty output files", action='store_true')
     # modes
     p.add_argument('-c',  '--combinations',         help="Combine words in input list by N (repeats words)\nWARNING! don't set high with lots of formats/words")
     p.add_argument('-p',  '--permutations',         help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words list and start next with #@section\nWARNING! don't combine many sections+words", action='store_true')
@@ -1397,8 +1409,8 @@ def parse():
     p.add_argument('-sn', '--split-number', help="Splits in N parts: a_b_c with 2 = a_b, b_c", type=int)
     p.add_argument('-sf', '--split-full',   help="Only adds stems (from 'aa_bb_cc' only adds 'aa', 'bb', 'cc')", action='store_true')
     p.add_argument('-ns', '--no-split',     help="Disable splitting words by '_'", action='store_true')
-    p.add_argument('-cf', '--cut-first',    help="Cut first N chars (for strings2.exe off results like 8bgm_main)", type=int)
-    p.add_argument('-cl', '--cut-last',     help="Cut last N chars (for strings2.exe off results like bgm_main8)", type=int)
+    p.add_argument('-cf', '--cut-first',    help="Cut first N chars (for strings2.exe odd results like 8bgm_main)", type=int)
+    p.add_argument('-cl', '--cut-last',     help="Cut last N chars (for strings2.exe odd results like bgm_main8)", type=int)
 
     args = p.parse_args()
     return args
