@@ -197,12 +197,27 @@ class ResultsSorter():
 #------------------------------------------------------------------------------
 
 class WordsCombinator():
-    def __init__(self, args, words, formats, sections):
+    def __init__(self, args, words, formats, sections, joiners):
         self._args = args
         self._words = words
         self._formats = formats
         self._sections = sections
+        self._joiners = joiners
 
+    @staticmethod
+    def test(combos):
+        start_time = time.time()
+
+        i = 0
+        for combo in combos:
+            #print(combo)
+            i += 1
+
+        end_time = time.time()
+
+        elapsed = end_time - start_time
+        print(f"words test done, elapsed: {elapsed:.5f}s")
+        exit()
 
     def get_formats(self):
         #formats = []
@@ -214,21 +229,15 @@ class WordsCombinator():
         return self._formats.values()
 
     def _get_permutations(self):
-        permutations = 1
         sections = []
         for section in self._sections:
             #if self._args.text_output:
             #    words = section.values() #original
+            #else:
             words = section.keys() #lowercase
-
-            permutations *= len(words)
             sections.append(words)
 
-        f_len = len(self._formats)
-        print("creating %i permutations * %i formats (%s sections)" % (permutations, f_len, len(self._sections)) )
-
         elems = itertools.product(*sections)
-
         return elems
 
     def _get_combinations(self):
@@ -237,24 +246,14 @@ class WordsCombinator():
         #else:
         words = self._words.keys() #lowercase bytes
 
-        w_len = len(words)
-        f_len = len(self._formats)
         combinations = int(self._args.combinations)
-
         if self._args.combinations_unique:
-            total = 1
-            for i in range(w_len, w_len - combinations, -1):
-                total *= i
-
             elems = itertools.permutations(words, r=combinations)
             # not appropriate due to removed elems
             #elems = itertools.combinations(words, r=combinations)
             #elems = itertools.combinations_with_replacement(words, r=combinations)
         else:
-            total = pow(w_len, combinations)
-
             elems = itertools.product(words, repeat=combinations)
-        print("creating %i combinations * %i formats" % (total, f_len) )
 
         return elems
 
@@ -264,14 +263,13 @@ class WordsCombinator():
         #else:
         words = self._words.keys() #lowercase bytes
 
-        w_len = len(words)
-        f_len = len(self._formats)
-        print("creating %i words * %i formats" % (w_len, f_len))
-
         return words
 
-    def get_words(self):
+    def get_combos(self):
+
+        # huge memory consumption, not iterator
         #words = ["_".join(x) for x in self._get_xxx()]
+
         if self._args.permutations:
             words = self._get_permutations()
         elif self._args.combinations:
@@ -279,9 +277,46 @@ class WordsCombinator():
         else:
             words = self._get_basewords()
 
-        #formats = self._get_formats()
+        #self.test(words)
 
         return words
+
+    # can't use len() with generators 
+    def show_totals(self):
+        w_len = len(self._words)
+        f_len = len(self._formats)
+        s_len = len(self._sections)
+
+        total = 0
+        type_name = '?'
+        if self._args.permutations:
+            type_name = 'permutations'
+            total = 1
+            for section in self._sections:
+                total *= len(section)
+
+        elif self._args.combinations:
+            type_name = 'combinations'
+
+            combinations = int(self._args.combinations)
+            if self._args.combinations_unique:
+                total = 1
+                for i in range(w_len, w_len - combinations, -1):
+                    total *= i
+            else:
+                total = pow(w_len, combinations)
+
+        else:
+            type_name = 'words'
+            total = w_len
+
+        if self._args.permutations:
+            print(f"creating {total} {type_name} * {f_len} formats ({s_len} sections)")
+        else:
+            print(f"creating {total} {type_name} * {f_len} formats")
+
+        return total
+
 
 class WordsDefaults():
     FILENAME_WWNAMES = 'wwnames*.txt'
@@ -1037,10 +1072,13 @@ class Words():
             return
         print("reversing %i hashes" % (len(reversables)))
 
-        combinator = WordsCombinator(args, self._words, self._formats, self._sections)
+        joiner = self._get_joiner()
+        joiners = [joiner]
+        combinator = WordsCombinator(args, self._words, self._formats, self._sections, joiners)
 
-        words = combinator.get_words()
-        if not words:
+        totals = combinator.show_totals()
+        combos = combinator.get_combos()
+        if not totals:
             print("no words found")
             return
 
@@ -1056,7 +1094,7 @@ class Words():
         # main process
         with open(self._args.output_file, 'w') as outfile, open(self._args.skips_file, 'a') as skipfile:
             start_time = time.time()
-            written = self._reverse_main(words, formats, outfile, skipfile)
+            written = self._reverse_main(combos, formats, outfile, skipfile)
             end_time = time.time()
     
         print("total %i results" % (written))
@@ -1070,39 +1108,45 @@ class Words():
         print("reversing done (%s, elapsed %ss)" % (ts, end_time - start_time))
 
 
-    def _reverse_main(self, words, formats, outfile, skipfile):
+    # MAIN HASHING (inline'd with various microoptimizations, see comments)
+    #
+    # 'words' is a list on combos like ("aaa", "bbb") + formats "base_%s".
+    # Instead of hash("base_aaa_bbb") we can avoid str concat by doing
+    # hash("base_"), hash("aaa"), hash("_"), hash("bbb")
+    # combos are pre-converted to bytes for some speed up.
+    def _reverse_main(self, combos, formats, outfile, skipfile):
         written = 0
 
+        # local variables, possibly faster
         no_fuzzy = self._args.fuzzy_disable
-
         reversables = self._reversables
         fuzzies = self._fuzzies
 
         joiner = self._get_joiner()
         combine = self._args.combinations or self._args.permutations
 
+        # seemingly 1-2% faster, more memory
+        reversables = frozenset(reversables)
+        fuzzies = frozenset(fuzzies)
+
+        # not noticeable, probably optimized out in pypy
+        #reversables_in = reversables.__contains__
+        #fuzzies_in = fuzzies.__contains__
+
         # info
         info_count = 0
-        info_add = 20000000 // len(formats)
+        info_add = 20000000 #// len(formats)
         info_top = info_add
 
-        # formats x words ~5% faster
-        for word in words:
+        for word in combos:
             for (format, _, type, pre, suf, pre_hash) in formats:
-                #format, _, type, pre, suf, pre_hash = full_format #slightly slower 
+                #format, _, type, pre, suf, pre_hash = full_format #slightly slower
 
                 # concats, slower (30-50%?)
-                #out = self._get_outword(full_format, word, joiner, combine)
+                #out = self._get_outword(type, pre, suf, word, joiner, combine)
                 # inline'd FNV hash, ~5% speedup
                 #hash = self._hasher.get_hash(out_lower)
 
-                #----------------------------------------------------------
-                # MAIN HASHING (inline'd)
-                #
-                # 'word' is a list on combos like ("aaa", "bbb") + formats "base_%s".
-                # Instead of hash("base_aaa_bbb") we can avoid str concat by doing
-                # hash("base_"), hash("aaa"), hash("_"), hash("bbb") passing output as next seed.
-                # combos are pre-converted to bytes for a minor speed up too.
                 hash = 2166136261 #base FNV hash
 
                 if pre:
@@ -1370,6 +1414,8 @@ def parse():
     )
     epilog = (
         "Splits input words into various stems then joins them in various way.\n"
+        "NOTE: use pypy for better performance..\n"
+        "\n"
         "It's a type of dictionary attack, so it needs words lists from the game to work properly."
         "The theory being, if a game uses 'play_bgm_01' it might as well use 'stop_bgm_01' or 'play_sfx_01'\n"
         "\n"
