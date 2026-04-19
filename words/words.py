@@ -67,8 +67,7 @@ import fnmatch
 # TODO:
 # - load words that end with "= 0" as-is for buses (not useful?)
 
-class Words(object):
-    DEFAULT_FORMAT = b'%s'
+class WordsDefaults():
     FILENAME_WWNAMES = 'wwnames*.txt'
     FILENAME_IN = 'ww.txt'
     FILENAME_OUT = 'words_out.txt'
@@ -76,6 +75,10 @@ class Words(object):
     FILENAME_FORMATS = 'formats.txt'
     FILENAME_SKIPS = 'skips.txt'
     FILENAME_REVERSABLES = 'fnv.txt'
+
+
+class Words():
+    DEFAULT_FORMAT = b'%s'
     #PATTERN_LINE = re.compile(r'[\t\n\r .<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
     PATTERN_LINE = re.compile(b'[^A-Za-z0-9_]')
     PATTERN_WORD = re.compile(b'[_]')
@@ -88,8 +91,8 @@ class Words(object):
     FORMAT_TYPE_SUFFIX = 2
     FORMAT_TYPE_BOTH = 3
 
-    def __init__(self):
-        self._args = None
+    def __init__(self, args):
+        self._args = args
 
         self._formats = {}
         self._skips = set()
@@ -121,72 +124,6 @@ class Words(object):
         self._skip_names = []
 
         self._fnv = Fnv()
-
-    def _parse(self):
-        description = (
-            "word generator"
-        )
-        epilog = (
-            "Creates lists of words from wwnames.txt + formats.txt to words_out.txt\n"
-            "Reverse FNV IDs if fnv.txt is provided instead\n"
-            "Examples:\n"
-            "  %(prog)s\n"
-            "  - makes output with default files\n"
-            "  %(prog)s -c 2\n"
-            "  - combines words from list: A_A, A_B, A_C ...\n"
-            "  %(prog)s -p\n"
-            "  - combines words from sections in list: A1_B1_C1, A1_B2_C1, ...\n"
-            "    (end sections in word list with #@section)\n"
-        )
-
-        p = argparse.ArgumentParser(description=description, epilog=epilog, formatter_class=argparse.RawTextHelpFormatter)
-        # files
-        p.add_argument('-w',  '--wwnames-file', help="wwnames input list (word list + FNV list)", default=self.FILENAME_WWNAMES)
-        p.add_argument('-i',  '--input-file',   help="Input list (ignores FNVs)", default=self.FILENAME_IN)
-        p.add_argument('-o',  '--output-file',  help="Output list", default=self.FILENAME_OUT)
-        p.add_argument('-f',  '--formats-file', help="Format list file\n- use %%s to replace a word from input list", default=self.FILENAME_FORMATS)
-        p.add_argument('-s',  '--skips-file',   help="List of words to ignore\n(so they arent tested again when doing test variations)", default=self.FILENAME_SKIPS)
-        p.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs in the list", default=self.FILENAME_REVERSABLES)
-        p.add_argument('-to', '--text-output',  help="Write words rather than reversing", action='store_true')
-        p.add_argument('-de', '--delete-empty', help="Delete empty output files", action='store_true')
-        p.add_argument('-rs', '--results-sort', help="Sort results after processing", action='store_true', default=True)
-        p.add_argument('-rc', '--results-contexts',help="Order by #@classify-bank section (if found)", action='store_true', default=True)
-        # modes
-        p.add_argument('-c',  '--combinations',         help="Combine words in input list by N (repeats words)\nWARNING! don't set high with lots of formats/words")
-        p.add_argument('-p',  '--permutations',         help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words list and start next with #@section\nWARNING! don't combine many sections+words", action='store_true')
-        p.add_argument('-cu', '--combinations-unique',  help="Combine words with unique combos only\nMakes a_b, b_a but not a_a, b_b", action='store_true')
-        p.add_argument('-zd', '--fuzzy-disable',        help="Disable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
-        p.add_argument('-ze', '--fuzzy-enable',         help="Enable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
-
-        # other flags
-        p.add_argument('-mc',  '--max-chars',   help="Ignores results that go beyond N chars", type=int)
-        p.add_argument('-js', '--join-spaces',  help="Join words with spaces in lines\n('Word Word' = 'Word_Word')", action='store_true')
-        p.add_argument('-jb', '--join-blank',   help="Join words without '_'\n('Word' + 'Word' = WordWord instead of Word_Word)", action='store_true')
-        p.add_argument('-j',  '--joiner',       help="Set word joiner")
-
-        p.add_argument('-fa', '--format-auto',  help="Auto-makes format combos of (prefix)_%%s_(suffix)", action='store_true')
-        p.add_argument('-fam','--format-auto-mix',     help="Autoformats mixes words like blah_blah_blah = blah_%s_blah", action='store_true')
-        p.add_argument('-fap','--format-auto-prefix',  help="Autoformats include up to N prefix parts", type=int)
-        p.add_argument('-fas','--format-auto-suffix',  help="Autoformats include up to N suffix parts", type=int)
-        p.add_argument('-fj', '--format-joiner',help="Set auto-format joiner")
-        p.add_argument('-fp', '--format-prefix',help="Add prefixes to all formats", nargs='*')
-        p.add_argument('-fs', '--format-suffix',help="Add suffixes to all formats", nargs='*')
-        p.add_argument('-fb', '--format-begins',help="Use only auto-formats that begin with text", nargs='*')
-        p.add_argument('-iw', '--ignore-wrong', help="Ignores words that don't make much sense\nMay remove unusual valid words, like rank_sss", action='store_true')
-        p.add_argument('-ho', '--hashable-only',help="Consider only hashable chunks", action='store_true')
-        p.add_argument('-ao', '--alpha-only',   help="Ignores words with numbers (no play_12345)", action='store_true')
-        p.add_argument('-sc', '--split-caps',   help="Splits words by (Word)(...)(Word) and makes (word)_(...)_(word)", action='store_true')
-        p.add_argument('-sp', '--split-prefix', help="Splits words by (prefix)_(word) rather than any '_'", action='store_true')
-        p.add_argument('-ss', '--split-suffix', help="Splits words by (word)_(suffix) rather than any '_'", action='store_true')
-        p.add_argument('-sb', '--split-both',   help="Splits words by (prefix)_(word)_(suffix) rather than any '_'", action='store_true')
-        p.add_argument('-sn', '--split-number', help="Splits in N parts: a_b_c with 2 = a_b, b_c", type=int)
-        p.add_argument('-sf', '--split-full',   help="Only adds stems (from 'aa_bb_cc' only adds 'aa', 'bb', 'cc')", action='store_true')
-        p.add_argument('-ns', '--no-split',     help="Disable splitting words by '_'", action='store_true')
-        p.add_argument('-cf', '--cut-first',    help="Cut first N chars (for strings2.exe off results like 8bgm_main)", type=int)
-        p.add_argument('-cl', '--cut-last',     help="Cut last N chars (for strings2.exe off results like bgm_main8)", type=int)
-        
-        args = p.parse_args()
-        return args
 
     #--------------------------------------------------------------------------
 
@@ -988,7 +925,6 @@ class Words(object):
             print("reversing %i FNVs" % (len(reversables)))
 
         joiner = self._get_joiner()
-        #joiner = bytes(joiner, 'UTF-8')
         combine = self._args.combinations or self._args.permutations
 
         # info
@@ -1035,6 +971,11 @@ class Words(object):
                         # quick ignore non-hashable
                         if not pre and 0x30 <= word[0][0] <= 0x39: #.isdigit():
                             continue
+
+                        #TODO: with joiners
+                        #for subword in word:
+                        #    for namebyte in subword:
+                        #        hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
 
                         len_word = len(word) - 1
                         for i, subword in enumerate(word):
@@ -1165,9 +1106,10 @@ class Words(object):
             return format_og % (joiner.join(word_og))
 
         elif  self._args.combinations:
+            #joiner = b'' #joiners already part of combinations TODO: withouh joiner
             word_og = []
             for subword in word:
-                subword_og = self._words[subword]
+                subword_og = self._words.get(subword, subword)
                 word_og.append(subword_og)
             return format_og % (joiner.join(word_og))
 
@@ -1272,7 +1214,7 @@ class Words(object):
         sections = []
         sections_vars = []
         for section in self._contexts.keys():
-            if section and b'### VA' in section:
+            if section and b'### VA' in section.upper(): #TODO: put other sections
                 sections_vars.append(section)
             else:
                 sections.append(section)
@@ -1292,11 +1234,11 @@ class Words(object):
         fa = self._args.format_auto
 
         # separate output files to make it clearer
-        if self._args.output_file == self.FILENAME_OUT:
+        if self._args.output_file == WordsDefaults.FILENAME_OUT:
             if cb:
-                self._args.output_file = self.FILENAME_OUT_EX % (cb)
+                self._args.output_file = WordsDefaults.FILENAME_OUT_EX % (cb)
             elif pt:
-                self._args.output_file = self.FILENAME_OUT_EX % ('p')
+                self._args.output_file = WordsDefaults.FILENAME_OUT_EX % ('p')
 
         # unless splicitly enabled, don't use fuzzy in these modes
         if not self._args.fuzzy_enable and (cb or pt or fa):
@@ -1304,7 +1246,6 @@ class Words(object):
 
 
     def start(self):
-        self._args = self._parse()
         self._preprocess_config()
 
         self._read_formats(self._args.formats_file)
@@ -1402,5 +1343,72 @@ class Fnv(object):
 
 # #####################################
 
+def parse():
+    description = (
+        "word generator"
+    )
+    epilog = (
+        "Creates lists of words from wwnames.txt + formats.txt to words_out.txt\n"
+        "Reverse FNV IDs if fnv.txt is provided instead\n"
+        "Examples:\n"
+        "  %(prog)s\n"
+        "  - makes output with default files\n"
+        "  %(prog)s -c 2\n"
+        "  - combines words from list: A_A, A_B, A_C ...\n"
+        "  %(prog)s -p\n"
+        "  - combines words from sections in list: A1_B1_C1, A1_B2_C1, ...\n"
+        "    (end sections in word list with #@section)\n"
+    )
+
+    p = argparse.ArgumentParser(description=description, epilog=epilog, formatter_class=argparse.RawTextHelpFormatter)
+    # files
+    p.add_argument('-w',  '--wwnames-file', help="wwnames input list (word list + FNV list)", default=WordsDefaults.FILENAME_WWNAMES)
+    p.add_argument('-i',  '--input-file',   help="Input list (ignores FNVs)", default=WordsDefaults.FILENAME_IN)
+    p.add_argument('-o',  '--output-file',  help="Output list", default=WordsDefaults.FILENAME_OUT)
+    p.add_argument('-f',  '--formats-file', help="Format list file\n- use %%s to replace a word from input list", default=WordsDefaults.FILENAME_FORMATS)
+    p.add_argument('-s',  '--skips-file',   help="List of words to ignore\n(so they arent tested again when doing test variations)", default=WordsDefaults.FILENAME_SKIPS)
+    p.add_argument('-r',  '--reverse-file', help="FNV list to reverse\nOutput will only write words that match FND IDs in the list", default=WordsDefaults.FILENAME_REVERSABLES)
+    p.add_argument('-to', '--text-output',  help="Write words rather than reversing", action='store_true')
+    p.add_argument('-de', '--delete-empty', help="Delete empty output files", action='store_true')
+    p.add_argument('-rs', '--results-sort', help="Sort results after processing", action='store_true', default=True)
+    p.add_argument('-rc', '--results-contexts',help="Order by #@classify-bank section (if found)", action='store_true', default=True)
+    # modes
+    p.add_argument('-c',  '--combinations',         help="Combine words in input list by N (repeats words)\nWARNING! don't set high with lots of formats/words")
+    p.add_argument('-p',  '--permutations',         help="Permute words in input sections (section 1 * 2 * 3...)\n.End a section in words list and start next with #@section\nWARNING! don't combine many sections+words", action='store_true')
+    p.add_argument('-cu', '--combinations-unique',  help="Combine words with unique combos only\nMakes a_b, b_a but not a_a, b_b", action='store_true')
+    p.add_argument('-zd', '--fuzzy-disable',        help="Disable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
+    p.add_argument('-ze', '--fuzzy-enable',         help="Enable 'fuzzy matching' (auto last letter) when reversing", action='store_true')
+
+    # other flags
+    p.add_argument('-mc', '--max-chars',    help="Ignores results that go beyond N chars", type=int)
+    p.add_argument('-js', '--join-spaces',  help="Join words with spaces in lines\n('Word Word' = 'Word_Word')", action='store_true')
+    p.add_argument('-jb', '--join-blank',   help="Join words without '_'\n('Word' + 'Word' = WordWord instead of Word_Word)", action='store_true')
+    p.add_argument('-j',  '--joiner',       help="Set word joiner")
+
+    p.add_argument('-fa', '--format-auto',  help="Auto-makes format combos of (prefix)_%%s_(suffix)", action='store_true')
+    p.add_argument('-fam','--format-auto-mix',     help="Autoformats mixes words like blah_blah_blah = blah_%s_blah", action='store_true')
+    p.add_argument('-fap','--format-auto-prefix',  help="Autoformats include up to N prefix parts", type=int)
+    p.add_argument('-fas','--format-auto-suffix',  help="Autoformats include up to N suffix parts", type=int)
+    p.add_argument('-fj', '--format-joiner',help="Set auto-format joiner")
+    p.add_argument('-fp', '--format-prefix',help="Add prefixes to all formats", nargs='*')
+    p.add_argument('-fs', '--format-suffix',help="Add suffixes to all formats", nargs='*')
+    p.add_argument('-fb', '--format-begins',help="Use only auto-formats that begin with text", nargs='*')
+    p.add_argument('-iw', '--ignore-wrong', help="Ignores words that don't make much sense\nMay remove unusual valid words, like rank_sss", action='store_true')
+    p.add_argument('-ho', '--hashable-only',help="Consider only hashable chunks", action='store_true')
+    p.add_argument('-ao', '--alpha-only',   help="Ignores words with numbers (no play_12345)", action='store_true')
+    p.add_argument('-sc', '--split-caps',   help="Splits words by (Word)(...)(Word) and makes (word)_(...)_(word)", action='store_true')
+    p.add_argument('-sp', '--split-prefix', help="Splits words by (prefix)_(word) rather than any '_'", action='store_true')
+    p.add_argument('-ss', '--split-suffix', help="Splits words by (word)_(suffix) rather than any '_'", action='store_true')
+    p.add_argument('-sb', '--split-both',   help="Splits words by (prefix)_(word)_(suffix) rather than any '_'", action='store_true')
+    p.add_argument('-sn', '--split-number', help="Splits in N parts: a_b_c with 2 = a_b, b_c", type=int)
+    p.add_argument('-sf', '--split-full',   help="Only adds stems (from 'aa_bb_cc' only adds 'aa', 'bb', 'cc')", action='store_true')
+    p.add_argument('-ns', '--no-split',     help="Disable splitting words by '_'", action='store_true')
+    p.add_argument('-cf', '--cut-first',    help="Cut first N chars (for strings2.exe off results like 8bgm_main)", type=int)
+    p.add_argument('-cl', '--cut-last',     help="Cut last N chars (for strings2.exe off results like bgm_main8)", type=int)
+
+    args = p.parse_args()
+    return args
+
 if __name__ == "__main__":
-    Words().start()
+    args = parse()
+    Words(args).start()
