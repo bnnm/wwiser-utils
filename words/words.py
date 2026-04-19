@@ -229,31 +229,52 @@ class WordsCombinator():
         return self._formats.values()
 
     def _get_permutations(self):
-        sections = []
-        for section in self._sections:
+        #joiners = self._joiners
+        #combinations = len(self._sections)
+
+        parts = []
+        for i, section in enumerate(self._sections):
             #if self._args.text_output:
             #    words = section.values() #original
             #else:
             words = section.keys() #lowercase
-            sections.append(words)
 
-        elems = itertools.product(*sections)
+            parts.append(words)
+
+            # prepare [words, joiner, words, joiner, ...]
+            #if i < combinations - 1 and joiners:
+            #    parts.append(joiners)
+
+        elems = itertools.product(*parts)
         return elems
 
     def _get_combinations(self):
+        #joiners = self._joiners
+        combinations = int(self._args.combinations)
+
         #if self._args.text_output:
         #    words = self._words.values() #original
         #else:
         words = self._words.keys() #lowercase bytes
 
-        combinations = int(self._args.combinations)
         if self._args.combinations_unique:
             elems = itertools.permutations(words, r=combinations)
             # not appropriate due to removed elems
             #elems = itertools.combinations(words, r=combinations)
             #elems = itertools.combinations_with_replacement(words, r=combinations)
         else:
-            elems = itertools.product(words, repeat=combinations)
+            parts = []
+            for i in range(combinations):
+                parts.append(words)
+
+                # prepare [words, joiner, words, joiner, ...]
+                #if i < combinations - 1 and joiners:
+                #    parts.append(joiners)
+
+            elems = itertools.product(*parts)
+
+            # without joiners
+            #elems = itertools.product(words, repeat=combinations)
 
         return elems
 
@@ -1077,14 +1098,8 @@ class Words():
         combinator = WordsCombinator(args, self._words, self._formats, self._sections, joiners)
 
         totals = combinator.show_totals()
-        combos = combinator.get_combos()
         if not totals:
             print("no words found")
-            return
-
-        formats = combinator.get_formats()
-        if not formats:
-            print("no formats found")
             return
 
         # info
@@ -1093,10 +1108,16 @@ class Words():
 
         # main process
         with open(self._args.output_file, 'w') as outfile, open(self._args.skips_file, 'a') as skipfile:
+            self.outfile = outfile
+            self.skipfile = skipfile
+
             start_time = time.time()
-            written = self._reverse_main(combos, formats, outfile, skipfile)
+            written = self._reverse_wwise(combinator)
             end_time = time.time()
-    
+
+            self.outfile = None
+            self.skipfile = None
+   
         print("total %i results" % (written))
 
         if written == 0:
@@ -1114,7 +1135,7 @@ class Words():
     # Instead of hash("base_aaa_bbb") we can avoid str concat by doing
     # hash("base_"), hash("aaa"), hash("_"), hash("bbb")
     # combos are pre-converted to bytes for some speed up.
-    def _reverse_main(self, combos, formats, outfile, skipfile):
+    def _reverse_wwise(self, combinator):
         written = 0
 
         # local variables, possibly faster
@@ -1125,22 +1146,31 @@ class Words():
         joiner = self._get_joiner()
         combine = self._args.combinations or self._args.permutations
 
-        # seemingly 1-2% faster, more memory
-        reversables = frozenset(reversables)
-        fuzzies = frozenset(fuzzies)
+        # seemingly 1-2% faster, but in theory the same?
+        #reversables = frozenset(reversables)
+        #fuzzies = frozenset(fuzzies)
 
         # not noticeable, probably optimized out in pypy
         #reversables_in = reversables.__contains__
         #fuzzies_in = fuzzies.__contains__
 
-        # info
-        info_count = 0
-        info_add = 20000000 #// len(formats)
-        info_top = info_add
+        formats = combinator.get_formats()
 
-        for word in combos:
-            for (format, _, type, pre, suf, pre_hash) in formats:
-                #format, _, type, pre, suf, pre_hash = full_format #slightly slower
+        # info
+        progress_count = 0
+        progress_add = 20000000 #// len(formats)
+        progress_top = progress_add
+
+        # formats x words is a bit faster
+        for (format, _, type, pre, suf, pre_hash) in formats:
+            #format, _, type, pre, suf, pre_hash = full_format #slightly slower?
+            combos = combinator.get_combos()
+            for word in combos:
+                # progress info, shouldn't affect performance too much and useful to see it's working
+                progress_count += 1
+                if progress_count == progress_top:
+                    progress_top += progress_add
+                    print("%i..." % (progress_count), word)
 
                 # concats, slower (30-50%?)
                 #out = self._get_outword(type, pre, suf, word, joiner, combine)
@@ -1186,8 +1216,7 @@ class Words():
 
                 #----------------------------------------------------------
 
-                # its ~2-5% faster calc FNV + check if it a target FNV, than checking for skips first (less common)
-                # non-empty test first = minor speedup if file doesn't exist
+                # its ~2-5% faster to hash + check, than check skips first (less common)
                 #if self._skips and out in self._skips:
                 #    continue
 
@@ -1198,48 +1227,56 @@ class Words():
                 if hash_fuzzy not in fuzzies:
                     continue
 
-                # match (regular or fuzzy)
-                for rev_hash in reversables:
-                    if self._args.fuzzy_disable:
-                        # regular match
-                        if rev_hash != hash:
-                            continue
-                        out_final = self._get_original_case(format, word, joiner)
-                    else:
-                        # multiple fnv may use the same fuzz
-                        if hash_fuzzy != rev_hash & 0xFFFFFF00:
-                            continue
-                        out_final = self._get_original_case(format, word, joiner)
-                        if rev_hash != hash:
-                            out_lower = self._get_outword(type, pre, suf, word, joiner, combine)
-                            out_final = self._hasher.unfuzzy_hashname_lw(rev_hash, out_lower, out_final)
-                            if not out_final: #may happen in rare cases
-                                continue
+                done = self._handle_match(word, joiner, hash, hash_fuzzy, format, type, pre, suf)
+                written += done
 
-                    out_final_lw = out_final.lower()
-                    if out_final_lw in self._skips:
+        return written
+
+    # handles a confirmed match
+    # this doesn't happen often so there is no need to over-optimize
+    # (it's faster to hash > match > check, than check > ... )
+    def _handle_match(self, word, joiner, hash, hash_fuzzy, format, type, pre, suf):
+        reversables = self._reversables
+        combine = self._args.combinations or self._args.permutations
+        written = 0
+
+        # match (regular or fuzzy)
+        for rev_hash in reversables:
+            if self._args.fuzzy_disable:
+                # regular match
+                if rev_hash != hash:
+                    continue
+                out_final = self._get_original_case(format, word, joiner)
+            else:
+                # multiple fnv may use the same fuzz
+                if hash_fuzzy != rev_hash & 0xFFFFFF00:
+                    continue
+                out_final = self._get_original_case(format, word, joiner)
+                if rev_hash != hash:
+                    out_lower = self._get_outword(type, pre, suf, word, joiner, combine)
+                    out_final = self._hasher.unfuzzy_hashname_lw(rev_hash, out_lower, out_final)
+                    if not out_final: #may happen in rare cases
                         continue
-                    self._skips.add(out_final_lw)
 
-                    # don't print non-useful hashes
-                    if not self._hasher.is_hashable(out_final_lw):
-                        continue
-                    if self._args.max_chars and len(out_final) > self._args.max_chars:
-                        continue
+            out_final_lw = out_final.lower()
+            if out_final_lw in self._skips:
+                continue
+            self._skips.add(out_final_lw)
 
-                    out_final = str(out_final, 'utf-8')
-                    outfile.write("%s: %s\n" % (rev_hash, out_final))
-                    outfile.flush() #reversing is most interesting with lots of loops = slow, keep flushing
+            # don't print non-useful hashes
+            if not self._hasher.is_hashable(out_final_lw):
+                continue
+            if self._args.max_chars and len(out_final) > self._args.max_chars:
+                continue
 
-                    out_final_lw = str(out_final_lw, 'utf-8')
-                    skipfile.write("%s: %s\n" % (rev_hash, out_final_lw))
+            out_final = str(out_final, 'utf-8')
+            self.outfile.write("%s: %s\n" % (rev_hash, out_final))
+            self.outfile.flush() #reversing is most interesting with lots of loops = slow, keep flushing
 
-                    written += 1
+            out_final_lw = str(out_final_lw, 'utf-8')
+            self.skipfile.write("%s: %s\n" % (rev_hash, out_final_lw))
 
-            info_count += 1
-            if info_count == info_top:
-                info_top += info_add
-                print("%i..." % (info_count), word)
+            written += 1
 
         return written
 
@@ -1267,16 +1304,17 @@ class Words():
         _, format_og, _type, _pre, _suf, _pre_hash = self._formats[format]
 
         if self._args.permutations:
+            #joiner = b'' #with joiners part of word
             word_og = []
             i = 0
             for subword in word:
-                subword_og = self._sections[i][subword]
+                subword_og = self._sections[i].get(subword, subword)
                 i += 1
                 word_og.append(subword_og)
             return format_og % (joiner.join(word_og))
 
         elif  self._args.combinations:
-            #joiner = b'' #joiners already part of combinations TODO: withouh joiner
+            #joiner = b'' #with joiners part of word
             word_og = []
             for subword in word:
                 subword_og = self._words.get(subword, subword)
