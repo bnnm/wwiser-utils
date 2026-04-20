@@ -247,6 +247,9 @@ class WordsCombinator():
 
         return words
 
+    def get_joiner(self):
+        return self._joiners[0] if self._joiners else b''
+
     # can't use len() with generators 
     def show_totals(self):
         w_len = len(self._words)
@@ -294,7 +297,7 @@ class WordsDefaults():
     FILENAME_REVERSABLES = 'hashes.txt'
 
 
-class Words():
+class WordsLoader():
     DEFAULT_FORMAT = b'%s'
     #PATTERN_LINE = re.compile(r'[\t\n\r .<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
     PATTERN_LINE = re.compile(b'[^A-Za-z0-9_]')
@@ -303,8 +306,9 @@ class Words():
     #PATTERN_WRONG = re.compile(r'[\t.<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
     WORD_ALLOWED = [b'xiii', b'xviii', b'zzz']
 
-    def __init__(self, args):
+    def __init__(self, args, hasher):
         self._args = args
+        self._hasher = hasher
 
         self._formats = {} # format_lw > format_lw, format, prefix, suffix, pre_hash
 
@@ -317,14 +321,11 @@ class Words():
         self._words = {} #OrderedDict() # dicts are ordered in python 3.7+
         self._words_reversed = set()
 
-        #self._format_hashes = {} #stem = base hashes
-        #self._format_baselen = {} #stem = base length
-
         self._sections = []
         self._sections.append(self._words)
         self._section = 0
         
-        # info about current "### (type) NAMES" where the ID was found (context > ids)
+        # info about current "### (type)" where the ID was found (context > ids)
         self._contexts = {}
         self._curr_context = None
         self._curr_context_lw = None
@@ -334,8 +335,6 @@ class Words():
         self._filter_names = []
         self._skip_hashes = []
         self._skip_names = []
-
-        self._hasher = WwiseHasher()
 
     #--------------------------------------------------------------------------
 
@@ -687,7 +686,7 @@ class Words():
     #--------------------------------------------------------------------------
 
     def _add_reversable(self, line):
-        if line.startswith(b'### ') and b' NAMES' in line:
+        if self._is_context(line):
             self._curr_context = line.strip()
             self._curr_context_lw = self._curr_context.lower()
             if self._curr_context not in self._contexts: # in case of repeats
@@ -900,7 +899,7 @@ class Words():
             if num % 1000000 == 0:
                 print(" %i lines..." % (num))
 
-            if line.startswith(b'### ') and b' NAMES' in line:
+            if self._is_context(line):
                 self._curr_context = line.strip()
                 self._curr_context_lw = self._curr_context.lower()
                 #if self._curr_context not in self._contexts: # in case of repeats
@@ -1019,18 +1018,51 @@ class Words():
         except FileNotFoundError:
             pass
 
-    #--------------------------------------------------------------------------
+    def _is_context(self, line):
+        return line.startswith(b'### ') and b' NAMES' in line
 
-    def _reverse_words(self):
-        reversables = self._reversables
+
+    def parse_files(self):
+        self._read_formats(self._args.formats_file)
+
+        self._parsing_wwnames = True
+        files = glob.glob(self._args.wwnames_file)
+        for file in files:
+            if file == self._args.input_file:
+                continue
+            self._read_words(file)
+            self._read_reversables(file)
+        self._parsing_wwnames = False
+
+        files = glob.glob(self._args.input_file)
+        for file in files:
+            self._read_words(file)
+
+        self._read_reversables(self._args.reverse_file, True)
+        self._read_skips(self._args.skips_file)
+
+#--------------------------------------------------------------------------
+
+class WordsReverser():
+
+    def __init__(self, args, hasher, loader):
+        self._args = args
+        self._hasher = hasher
+        self._loader = loader
+
+    def reverse_words(self):
+        args = self._args
+        loader = self._loader
+
+        reversables = loader._reversables
         if not reversables:
             print("no reversable IDs found")
             return
         print("reversing %i hashes" % (len(reversables)))
 
-        joiner = self._get_joiner()
+        joiner = loader._get_joiner()
         joiners = [joiner]
-        combinator = WordsCombinator(args, self._words, self._formats, self._sections, joiners)
+        combinator = WordsCombinator(args, loader._words, loader._formats, loader._sections, joiners)
 
         totals = combinator.show_totals()
         if not totals:
@@ -1039,26 +1071,26 @@ class Words():
 
         # info
         ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        print("writting %s (%s)" % (self._args.output_file, ts))
+        print("writting %s (%s)" % (args.output_file, ts))
 
         # main process
-        with open(self._args.output_file, 'w') as outfile, open(self._args.skips_file, 'a') as skipfile:
-            self.outfile = outfile
-            self.skipfile = skipfile
+        with open(args.output_file, 'w') as outfile, open(args.skips_file, 'a') as skipfile:
+            self._outfile = outfile
+            self._skipfile = skipfile
 
             start_time = time.time()
             written = self._reverse_wwise(combinator)
             end_time = time.time()
 
-            self.outfile = None
-            self.skipfile = None
+            self._outfile = None
+            self._skipfile = None
    
         print("total %i results" % (written))
 
         if written == 0:
-            os.remove(self._args.output_file)
+            os.remove(args.output_file)
         else:
-            print("wrote %s" % (self._args.output_file))
+            print("wrote %s" % (args.output_file))
 
         ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         print("reversing done (%s, elapsed %ss)" % (ts, end_time - start_time))
@@ -1086,16 +1118,17 @@ class Words():
     # - unrolled words for combinations 2/3: ~<1% and ugly
     def _reverse_wwise(self, combinator):
         written = 0
+        loader = self._loader
 
         # local variables, possibly faster
         no_fuzzy = self._args.fuzzy_disable
-        reversables = self._reversables
-        fuzzies = self._fuzzies
+        mode_combine = self._args.combinations or self._args.permutations
         hash_fuzzy = 0
 
-        joiner = self._get_joiner()
-        mode_combine = self._args.combinations or self._args.permutations
+        reversables = loader._reversables
+        fuzzies = loader._fuzzies
 
+        joiner = combinator.get_joiner()
         formats = combinator.get_formats()
 
         # info
@@ -1162,13 +1195,17 @@ class Words():
     # this doesn't happen often so there is no need to over-optimize
     # (it's faster to hash > match > check, than check > ... )
     def _handle_match(self, word, joiner, hash, hash_fuzzy, format_key):
-        reversables = self._reversables
-        mode_combine = self._args.combinations or self._args.permutations
+        args = self._args
+        hasher = self._hasher
+        loader = self._loader
+
+        reversables = loader._reversables
+        mode_combine = args.combinations or args.permutations
         written = 0
 
         # match (regular or fuzzy)
         for rev_hash in reversables:
-            if self._args.fuzzy_disable:
+            if args.fuzzy_disable:
                 # regular match
                 if rev_hash != hash:
                     continue
@@ -1180,34 +1217,35 @@ class Words():
                 out_final = self._get_original_case(format_key, word, joiner)
                 if rev_hash != hash:
                     out_lower = self._get_outword(format_key, word, joiner, mode_combine)
-                    out_final = self._hasher.unfuzzy_hashname_lw(rev_hash, out_lower, out_final)
+                    out_final = hasher.unfuzzy_hashname_lw(rev_hash, out_lower, out_final)
                     if not out_final: #may happen in rare cases
                         continue
 
             out_final_lw = out_final.lower()
-            if out_final_lw in self._skips:
+            if out_final_lw in loader._skips:
                 continue
-            self._skips.add(out_final_lw)
+            loader._skips.add(out_final_lw)
 
             # don't print non-useful hashes
-            if not self._hasher.is_hashable(out_final_lw):
+            if not hasher.is_hashable(out_final_lw):
                 continue
-            if self._args.max_chars and len(out_final) > self._args.max_chars:
+            if args.max_chars and len(out_final) > args.max_chars:
                 continue
 
             out_final = str(out_final, 'utf-8')
-            self.outfile.write("%s: %s\n" % (rev_hash, out_final))
-            self.outfile.flush() #reversing is most interesting with lots of loops = slow, keep flushing
+            self._outfile.write("%s: %s\n" % (rev_hash, out_final))
+            self._outfile.flush() #reversing is most interesting with lots of loops = slow, keep flushing
 
             out_final_lw = str(out_final_lw, 'utf-8')
-            self.skipfile.write("%s: %s\n" % (rev_hash, out_final_lw))
+            self._skipfile.write("%s: %s\n" % (rev_hash, out_final_lw))
 
             written += 1
 
         return written
 
     def _get_outword(self, format_key, word, joiner, mode_combine):
-        _format_key, format, prefix, suffix, _pre_hash = self._formats[format_key]
+        loader = self._loader
+        _format_key, format, prefix, suffix, _pre_hash = loader._formats[format_key]
 
         if mode_combine:
             baseword = joiner.join(word)
@@ -1228,79 +1266,46 @@ class Words():
 
     # when reversing format/word are lowercase, but we have regular case saved to get original combo
     def _get_original_case(self, format_key, word, joiner):
-        _format_key, format, _prefix, _suffix, _pre_hash = self._formats[format_key]
+        args = self._args
+        loader = self._loader
 
-        if self._args.permutations:
+        _format_key, format, _prefix, _suffix, _pre_hash = loader._formats[format_key]
+
+        if args.permutations:
             #joiner = b'' #with joiners part of word
             word_og = []
             i = 0
             for subword in word:
-                subword_og = self._sections[i].get(subword, subword)
+                subword_og = loader._sections[i].get(subword, subword)
                 i += 1
                 word_og.append(subword_og)
             return format % (joiner.join(word_og))
 
-        elif  self._args.combinations:
+        elif  args.combinations:
             #joiner = b'' #with joiners part of word
             word_og = []
             for subword in word:
-                subword_og = self._words.get(subword, subword)
+                subword_og = loader._words.get(subword, subword)
                 word_og.append(subword_og)
             return format % (joiner.join(word_og))
 
         else:
-            word_og = self._words[word]
+            word_og = loader._words[word]
             return format % (word_og)
 
     #--------------------------------------------------------------------------
 
-    def _preprocess_config(self):
-        if self._args.format_auto_prefix or self._args.format_auto_suffix or self._args.format_auto_mix:
-            self._args.format_auto = True
+class Words():
+    def start(self, args):
+        hasher = WwiseHasher()
 
+        loader = WordsLoader(args, hasher)
+        loader.parse_files()
 
-    def _postprocess_config(self):
-        cb = self._args.combinations
-        pt = self._args.permutations
-        fa = self._args.format_auto
+        reverser = WordsReverser(args, hasher, loader)
+        reverser.reverse_words()
 
-        # separate output files to make it clearer
-        if self._args.output_file == WordsDefaults.FILENAME_OUT:
-            if cb:
-                self._args.output_file = WordsDefaults.FILENAME_OUT_EX % (cb)
-            elif pt:
-                self._args.output_file = WordsDefaults.FILENAME_OUT_EX % ('p')
-
-        # unless splicitly enabled, don't use fuzzy in these modes
-        if not self._args.fuzzy_enable and (cb or pt or fa):
-            self._args.fuzzy_disable = True
-
-
-    def start(self):
-        self._preprocess_config()
-
-        self._read_formats(self._args.formats_file)
-
-        self._parsing_wwnames = True
-        files = glob.glob(self._args.wwnames_file)
-        for file in files:
-            if file == self._args.input_file:
-                continue
-            self._read_words(file)
-            self._read_reversables(file)
-        self._parsing_wwnames = False
-
-        files = glob.glob(self._args.input_file)
-        for file in files:
-            self._read_words(file)
-
-        self._read_reversables(self._args.reverse_file, True)
-        self._read_skips(self._args.skips_file)
-
-        self._postprocess_config()
-        self._reverse_words()
-
-        ResultsSorter(self._args, self._contexts).sort()
+        ResultsSorter(args, loader._contexts).sort()
 
 ###############################################################################
 
@@ -1411,7 +1416,7 @@ def parse():
     p.add_argument('-fap','--format-auto-prefix',  help="Autoformats include up to N prefix parts", type=int)
     p.add_argument('-fas','--format-auto-suffix',  help="Autoformats include up to N suffix parts", type=int)
     p.add_argument('-faa','--format-auto-all',     help="Autoformats includes words from extra -i lists rather than just wwnames", action='store_true')
-    p.add_argument('-fj', '--format-joiner',help="Set auto-format joiner")
+    p.add_argument('-fj', '--format-joiner',help="Set auto-format joiner (different than main joiner for flexibility)")
     p.add_argument('-fp', '--format-prefix',help="Add prefixes to all formats", nargs='*')
     p.add_argument('-fs', '--format-suffix',help="Add suffixes to all formats", nargs='*')
     p.add_argument('-fb', '--format-begins',help="Use only auto-formats that begin with text", nargs='*')
@@ -1429,8 +1434,28 @@ def parse():
     p.add_argument('-cl', '--cut-last',     help="Cut last N chars (for strings2.exe odd results like bgm_main8)", type=int)
 
     args = p.parse_args()
+
+    # simplify
+    if args.format_auto_prefix or args.format_auto_suffix or args.format_auto_mix:
+        args.format_auto = True
+
+    cb = args.combinations
+    pt = args.permutations
+    fa = args.format_auto
+
+    # separate output files to make it clearer
+    if args.output_file == WordsDefaults.FILENAME_OUT:
+        if cb:
+            args.output_file = WordsDefaults.FILENAME_OUT_EX % (cb)
+        elif pt:
+            args.output_file = WordsDefaults.FILENAME_OUT_EX % ('p')
+
+    # unless splicitly enabled, don't use fuzzy in these modes
+    if not args.fuzzy_enable and (cb or pt or fa):
+        args.fuzzy_disable = True
+
     return args
 
 if __name__ == "__main__":
     args = parse()
-    Words(args).start()
+    Words().start(args)
