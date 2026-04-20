@@ -1,62 +1,7 @@
 # WORDS.PY
-# 
-# Reads word from input files, splitting by _ and applying formats, and makes word combos. Files:
-# - wwnames*.txt: lists of words, in the form of (word1), (word2)_(word3), etc, that are split in
-#   various ways (configurable). Lower/uppercase/symbols/incorrect words are fine (will be ignored
-#   or adjusted as needed). Should include a list of hashes, to reverse instead of creating words.
 #
-# - formats.txt: list of formats, in the form of %(command). By default uses %s if not found/empty.
-#   This is meant to be used to include "probable" prefixes/suffixes ("Play_%s", "%s_bgm").
-#   Available commands:
-#   - "%s": basic ("Play_%s": combines with existing words)
-#   - "%Nd/%Ni/%Nx": adds 0, 1, 2..., where N is max number of chars (up to 8)
-#   - "%0Nd/%0Ni/%0Nx": same but 0-padded
-#   - "%0Nd:M:": same but adds numbers in steps of M ("Play_BGM_%03i:5:" makes Play_BGM_000, Play_BGM_005, ...)
-#   - "%0Nd^M^": same but limits numbers to M ("Play_BGM_%03i^20^" makes Play_BGM_000 up to Play_BGM_020)
-#   - "%0Nd:M:^M^": same combined
-#   - "%[123abc]": adds 1,2,3,a,b,c ("Play_BGM_1%[ab]" makes Play_BGM_1a, Play_BGM_1b)
-#   - "%c": same as [abcd(..)z]
-#   Any can be combined but may only use one %s (play_%02x_%s, play_%i_%i_%d but not play_%s_%s)
-#
-#   Filters to only accept or skip only some names/hashes within sections ("### (something)" in wwnames.txt):
-#    #@filter-names *music_data* *_mu_playgo* *_Music* *MasteryChallenge_Music*
-#    #@filter-hashes *BNK_DLC_14800_Music_Data*
-#    #@skip-names *(langs*
-#    #@skip-hashes *(langs*
-#
-# - ww.txt: extra list of words only (may use this instead of wwnames.txt)
-#
-# - hashes.txt: extra list of hashable IDs only (may use this instead of wwnames.txt)
-#
-# - words_out.txt: output of reversed hashes
-#
-# Some of the above can be passed with parameters.
-#
-# This is meant to be used with some base list of wwnames.txt, when some working
-# variations might not be included, but we can guess some prefixes/suffixes.
-# Using useful word lists + formats this can find a bunch of good names.
-#
-# Modes of operation:
-# - default: creates words from words
-# - combinations: takes input words and combines them: A, B, C: A_B, A_C, B_A, C_A, etc.
-# - permutations: takes input words divided into "sections". Add "#@section#" in words list to end
-#   a section, or a new file. If section 1 has A, B and section 2 has C, D, makes: A_C, A_D, B_C, B_D.
-# All those are also combines with formats.txt ("play_%s": play_A_C, ...)
-# By default words are combined adding "_" but can be avoided via parameters.
-# 
-# When reversing it may enable/disable "fuzzy matches" (ignores last letter) to find hashes,
-# as some modes are very prone to false positives.
-#
-# Examples:
-# - from word Play_Stage_01 + format %s (default)
-#   * makes: Play, Stage, 01, Play_Stage, Stage_01, Play_Stage_01
-#   * "Stage", "Stage_01" could be valid names
-# - from word Play_Stage_01 + format BGM_%s:
-#   * makes: BGM_Play, BGM_Stage, BGM_01, BGM_Play_Stage, BGM_Stage_01, BGM_Play_Stage_01
-#   * "BGM_Play", "BGM_Stage", "BGM_Play_Stage" could be valid names
-# - using combinator mode with value 3 + word list with "BGM", "Play", "Stage"
-#   * makes: BGM_Play_Stage, BGM_Stage_Play Stage_BGM_Play, Stage_Play_BGM, etc
-#   * also applies formats
+# Reverses hashes by combining words in various ways (see README.md)
+# NOTE: use pypy for better performance.
 
 import argparse, re, itertools, time, glob, os, datetime
 import fnmatch
@@ -64,9 +9,9 @@ import fnmatch
 # TODO:
 # - load words that end with "= 0" as-is for buses (not useful?)
 
-
 #------------------------------------------------------------------------------
 
+# sorts output results by section
 class ResultsSorter():
     def __init__(self, args, contexts):
         self._results_contexts = True
@@ -334,7 +279,7 @@ class WordsCombinator():
         if self._args.permutations:
             print(f"creating {total} {type_name} * {f_len} formats ({s_len} sections)")
         else:
-            print(f"creating {total} {type_name} * {f_len} formats")
+            print(f"creating {total} {type_name} * {f_len} formats = {total * f_len}")
 
         return total
 
@@ -1057,7 +1002,7 @@ class Words():
                         self._words_reversed.add(int(hash))
 
             # most of the time only makes sense to automake formats from wwnames and not ww.txt
-            if self._args.format_auto and self._parsing_wwnames:
+            if self._args.format_auto and (self._parsing_wwnames or self._args.format_auto_all):
                 for elem in elems:
                     self._add_format_auto(elem)
 
@@ -1124,7 +1069,21 @@ class Words():
     # 'words' is a list on combos like ("aaa", "bbb") + formats "base_%s".
     # Instead of hash("base_aaa_bbb") we can avoid str concat by doing
     # hash("base_"), hash("aaa"), hash("_"), hash("bbb")
-    # combos are pre-converted to bytes for some speed up.
+    #
+    # micro-optimizations:
+    # - uses words as bytes (rather than encoding/decoding) for some speed up.
+    # - local variables (slightly faster)
+    # - inline'd hash (25-50% speed up). calling a static func as a var is slow, and object's method call even slower
+    # - ifs: could use separate functions to avoid ifs but don't seem much faster
+    # - mixing formats x words (rather than words x formats)
+    #
+    # ignored optimizations:
+    # - frozenset(reversables): ignored, no apparent changes
+    # - reversables_in = reversables.__contains__: not noticeable, probably optimized out in pypy
+    # - in mode_combine, using word_iter = iter(word) to avoid if: not noticeable
+    # - in mode_combine, including joiners as part of the generator to void if: not noticeable
+    # - don't check for skips first: its ~2-5% faster to hash + check, than check skips first (less common)
+    # - unrolled words for combinations 2/3: ~<1% and ugly
     def _reverse_wwise(self, combinator):
         written = 0
 
@@ -1132,17 +1091,10 @@ class Words():
         no_fuzzy = self._args.fuzzy_disable
         reversables = self._reversables
         fuzzies = self._fuzzies
+        hash_fuzzy = 0
 
         joiner = self._get_joiner()
         mode_combine = self._args.combinations or self._args.permutations
-
-        # seemingly 1-2% faster, but in theory the same?
-        #reversables = frozenset(reversables)
-        #fuzzies = frozenset(fuzzies)
-
-        # not noticeable, probably optimized out in pypy
-        #reversables_in = reversables.__contains__
-        #fuzzies_in = fuzzies.__contains__
 
         formats = combinator.get_formats()
 
@@ -1151,7 +1103,6 @@ class Words():
         progress_add = 20000000 #// len(formats)
         progress_top = progress_add
 
-        # formats x words is a bit faster
         for (format_key, _format, prefix, suffix, pre_hash) in formats:
             #format, _, pre, suf, pre_hash = full_format #slightly slower?
             combos = combinator.get_combos()
@@ -1162,36 +1113,23 @@ class Words():
                     progress_top += progress_add
                     print("%i..." % (progress_count), word)
 
-                # concats, slower (30-50%?)
-                #out = self._get_outword(pre, suf, word, joiner, mode_combine)
-
-                # inline'd hash, ~5% speedup
-                #hash = self._hasher.get_hash(out_lower)
 
                 hash = 2166136261 #base FNV hash
 
                 if prefix:
                     hash = pre_hash
-                    #for namebyte in pre:
-                    #    hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
 
                 if mode_combine:
                     # quick ignore non-hashable
                     if not prefix and 0x30 <= word[0][0] <= 0x39: #.isdigit():
                         continue
 
-                    #TODO: with joiners
-                    #for subword in word:
-                    #    for namebyte in subword:
-                    #        hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
-
-                    len_word = len(word) - 1
                     for i, subword in enumerate(word):
-                        for namebyte in subword:
-                            hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
-                        if i < len_word:
+                        if i > 0:
                             for namebyte in joiner:
                                 hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
+                        for namebyte in subword:
+                            hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
 
                 else:
                     # quick ignore non-hashable
@@ -1207,16 +1145,13 @@ class Words():
 
                 #----------------------------------------------------------
 
-                # its ~2-5% faster to hash + check, than check skips first (less common)
-                #if self._skips and out in self._skips:
-                #    continue
-
-                if no_fuzzy and hash not in reversables:
-                    continue
-
-                hash_fuzzy = hash & 0xFFFFFF00
-                if hash_fuzzy not in fuzzies:
-                    continue
+                if no_fuzzy:
+                    if hash not in reversables:
+                        continue
+                else:
+                    hash_fuzzy = hash & 0xFFFFFF00
+                    if hash_fuzzy not in fuzzies:
+                        continue
 
                 done = self._handle_match(word, joiner, hash, hash_fuzzy, format_key)
                 written += done
@@ -1443,12 +1378,6 @@ def parse():
         "Reverses hashes by combining words in various ways\n"
     )
     epilog = (
-        "Splits input words into various stems then joins them in various way.\n"
-        "NOTE: use pypy for better performance..\n"
-        "\n"
-        "It's a type of dictionary attack, so it needs words lists from the game to work properly."
-        "The theory being, if a game uses 'play_bgm_01' it might as well use 'stop_bgm_01' or 'play_sfx_01'\n"
-        "\n"
         "Examples:\n"
         "  %(prog)s\n"
         "  - reverses with default files\n"
@@ -1481,6 +1410,7 @@ def parse():
     p.add_argument('-fam','--format-auto-mix',     help="Autoformats mixes words like blah_blah_blah = blah_%s_blah", action='store_true')
     p.add_argument('-fap','--format-auto-prefix',  help="Autoformats include up to N prefix parts", type=int)
     p.add_argument('-fas','--format-auto-suffix',  help="Autoformats include up to N suffix parts", type=int)
+    p.add_argument('-faa','--format-auto-all',     help="Autoformats includes words from extra -i lists rather than just wwnames", action='store_true')
     p.add_argument('-fj', '--format-joiner',help="Set auto-format joiner")
     p.add_argument('-fp', '--format-prefix',help="Add prefixes to all formats", nargs='*')
     p.add_argument('-fs', '--format-suffix',help="Add suffixes to all formats", nargs='*')
