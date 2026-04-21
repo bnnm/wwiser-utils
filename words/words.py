@@ -9,7 +9,6 @@ import fnmatch
 # TODO: simplify word loader
 # TODO: multicommand mode
 # TODO: improve loader._words, etc
-# TODO: add more hash modes
 # TODO: change cut-last/first for %s[x:x]
 
 # max length of a line in input files (typically pre-split by tools like wstrings)
@@ -421,6 +420,15 @@ class WordsLoader():
         done = self._contexts.add_filters(elem)
         if done:
             return
+
+        if elem.startswith(b'#@uppercase'):
+            self._args.line_uppercase = True
+            return
+
+        if elem.startswith(b'#@lowercase'):
+            self._args.line_lowercase = True
+            return
+
         return
 
     def _add_format(self, format):
@@ -551,7 +559,7 @@ class WordsLoader():
                         self._add_format_subformats(subformat)
                     return
 
-                print("unknown format")    
+                print("unknown format: %s" % (format))
                 return
 
         except (ValueError, IndexError) as e:
@@ -960,6 +968,11 @@ class WordsLoader():
             if not line:
                 continue
 
+            if self._args.line_lowercase:
+                line = line.lower()
+            if self._args.line_uppercase:
+                line = line.upper()
+
             # skip wonky words created by strings2
             if self._args.ignore_wrong and self._is_line_ok(line):
                 continue
@@ -971,18 +984,14 @@ class WordsLoader():
                     hash, name = match
                     self._add_word(name)
                     self._words_reversed.add(hash)
-                    continue
+                    # for autoformats
+                    line = name
+                    #continue
 
             # clean vars
             var_types = [b'%d' b'%c' b'%s' b'%f' b'0x%08x' b'%02d' b'%u' b'%4d' b'%10d']
             for var_type in var_types:
                 line = line.replace(var_type, b'')
-
-            # clean copied hashes
-            if b': ' in line:
-                index = line.index(b': ')
-                if line[0:index].strip().isdigit():
-                    line = line[index+1:].strip()
 
             # games like Death Stranding somehow have spaces in their names
             if self._args.join_spaces:
@@ -1441,12 +1450,15 @@ class Hasher(object):
         return b"%-11d : %s" % (hash, name)
 
     # reads a "hash : match" format, or None if not valid
-    def split_match(self, text):
+    def split_match(self, text, base=0):
         items = text.split(b':')
         if len(items) != 2:
             return None
         hash, name = items
-        hash = int(hash.strip())
+        try:
+            hash = int(hash.strip(), base)
+        except:
+            return None
         name = name.strip()
         return hash, name
 
@@ -1550,19 +1562,13 @@ class IntiCreatesHasher(Hasher):
         return b"%08x  : %s" % (hash, name)
 
     def split_match(self, text):
-        items = text.split(b':')
-        if len(items) != 2:
-            return None
-        hash, name = items
-        hash = int(hash.strip(), 16)
-        name = name.strip()
-        return hash, name
+        return super().split_match(text, 16)
 
     def get_hash(self, namebytes):
         hash = 0xCDE723A5
         for namebyte in namebytes:
-            temp = (hash + namebyte) & 0xffffffff
-            hash = (141 * temp) & 0xffffffff
+            temp = (hash + namebyte) & 0xFFFFFFFF
+            hash = (141 * temp) & 0xFFFFFFFF
         return hash
 
     def get_hash_base(self):
@@ -1570,13 +1576,73 @@ class IntiCreatesHasher(Hasher):
 
     def get_hash_update(self, namebytes, hash):
         for namebyte in namebytes:
-            temp = (hash + namebyte) & 0xffffffff
-            hash = (141 * temp) & 0xffffffff
+            temp = (hash + namebyte) & 0xFFFFFFFF
+            hash = (141 * temp) & 0xFFFFFFFF
         return hash
 
     def allow_fuzzy(self):
         return False # TODO: possibly ok but unsure
 
+
+## TODO: untested
+#class RageHasher():
+#    _LOOKUP_TABLE = bytearray([
+#        0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x0E, 0x0F,
+#        0x10, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16, 0x17, 0x18, 0x19, 0x1A, 0x1B, 0x1C, 0x1D, 0x1E, 0x1F,
+#        0x20, 0x21, 0x22, 0x23, 0x24, 0x25, 0x26, 0x27, 0x28, 0x29, 0x2A, 0x2B, 0x2C, 0x2D, 0x2E, 0x2F,
+#        0x30, 0x31, 0x32, 0x33, 0x34, 0x35, 0x36, 0x37, 0x38, 0x39, 0x3A, 0x3B, 0x3C, 0x3D, 0x3E, 0x3F,
+#        0x40, 0x61, 0x62, 0x63, 0x64, 0x65, 0x66, 0x67, 0x68, 0x69, 0x6A, 0x6B, 0x6C, 0x6D, 0x6E, 0x6F,
+#        0x70, 0x71, 0x72, 0x73, 0x74, 0x75, 0x76, 0x77, 0x78, 0x79, 0x7A, 0x5B, 0x2F, 0x5D, 0x5E, 0x5F,
+#        0x60, 0x61, 0x62, 0x63, 0x64, 0x65, 0x66, 0x67, 0x68, 0x69, 0x6A, 0x6B, 0x6C, 0x6D, 0x6E, 0x6F,
+#        0x70, 0x71, 0x72, 0x73, 0x74, 0x75, 0x76, 0x77, 0x78, 0x79, 0x7A, 0x7B, 0x7C, 0x7D, 0x7E, 0x7F,
+#        0x80, 0x81, 0x82, 0x83, 0x84, 0x85, 0x86, 0x87, 0x88, 0x89, 0x8A, 0x8B, 0x8C, 0x8D, 0x8E, 0x8F,
+#        0x90, 0x91, 0x92, 0x93, 0x94, 0x95, 0x96, 0x97, 0x98, 0x99, 0x9A, 0x9B, 0x9C, 0x9D, 0x9E, 0x9F,
+#        0xA0, 0xA1, 0xA2, 0xA3, 0xA4, 0xA5, 0xA6, 0xA7, 0xA8, 0xA9, 0xAA, 0xAB, 0xAC, 0xAD, 0xAE, 0xAF,
+#        0xB0, 0xB1, 0xB2, 0xB3, 0xB4, 0xB5, 0xB6, 0xB7, 0xB8, 0xB9, 0xBA, 0xBB, 0xBC, 0xBD, 0xBE, 0xBF,
+#        0xC0, 0xC1, 0xC2, 0xC3, 0xC4, 0xC5, 0xC6, 0xC7, 0xC8, 0xC9, 0xCA, 0xCB, 0xCC, 0xCD, 0xCE, 0xCF,
+#        0xD0, 0xD1, 0xD2, 0xD3, 0xD4, 0xD5, 0xD6, 0xD7, 0xD8, 0xD9, 0xDA, 0xDB, 0xDC, 0xDD, 0xDE, 0xDF,
+#        0xE0, 0xE1, 0xE2, 0xE3, 0xE4, 0xE5, 0xE6, 0xE7, 0xE8, 0xE9, 0xEA, 0xEB, 0xEC, 0xED, 0xEE, 0xEF,
+#        0xF0, 0xF1, 0xF2, 0xF3, 0xF4, 0xF5, 0xF6, 0xF7, 0xF8, 0xF9, 0xFA, 0xFB, 0xFC, 0xFD, 0xFE, 0xFF,
+#    ])
+#
+#    def transform(self, text):
+#        return text #case sensitive
+#
+#    def is_hashable(self, text):
+#        return True #TODO limit to some chars
+#
+#    def format_match(self, hash, name):
+#        name = name.strip()
+#        return b"0x%08x  : %s" % (hash, name)
+#
+#    def get_hash(self, namebytes):
+#        hash = 0
+#        for namebyte in namebytes:
+#            hash += self._LOOKUP_TABLE[namebyte]
+#            hash &= 0xFFFFFFFF
+#            hash += (hash << 10)
+#            hash &= 0xFFFFFFFF
+#            hash ^= (hash >> 6)
+#            hash &= 0xFFFFFFFF
+#        return hash
+#
+#    def get_hash_base(self):
+#        return 0
+#
+#    def get_hash_update(self, namebytes, hash):
+#        for namebyte in namebytes:
+#            hash += self._LOOKUP_TABLE[namebyte]
+#            hash &= 0xFFFFFFFF
+#            hash += (hash << 10)
+#            hash &= 0xFFFFFFFF
+#            hash ^= (hash >> 6)
+#            hash &= 0xFFFFFFFF
+#        return hash
+#
+#    def allow_fuzzy(self):
+#        # TODO: maybe handle hash_awc = hash & 0x1FFFFFFF as fuzzy?
+#        return False
+#
 #------------------------------------------------------------------------------
 
 class WordsDefaults():
@@ -1593,6 +1659,7 @@ class WordsDefaults():
         'wwise': WwiseHasher,
         'wwise-ex': WwiseExHasher,
         'inti': IntiCreatesHasher,
+        #'rage': RageHasher,
     }
     HASH_NAMES = '; '.join(HASH_TYPES.keys())
 
@@ -1672,6 +1739,8 @@ def parse():
     p.add_argument('-ns', '--no-split',     help="Disable splitting words by '_'", action='store_true')
     p.add_argument('-cf', '--cut-first',    help="Cut first N chars (for strings2.exe odd results like 8bgm_main)", type=int)
     p.add_argument('-cl', '--cut-last',     help="Cut last N chars (for strings2.exe odd results like bgm_main8)", type=int)
+    p.add_argument('-lu', '--line-uppercase', help="Force lines to be read as uppercase", type=int)
+    p.add_argument('-ll', '--line-lowercase', help="Force lines to be read as lowercase", type=int)
 
     args = p.parse_args()
 
