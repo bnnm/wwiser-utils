@@ -299,11 +299,6 @@ class WordsDefaults():
 
 class WordsLoader():
     DEFAULT_FORMAT = b'%s'
-    #PATTERN_LINE = re.compile(r'[\t\n\r .<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
-    PATTERN_LINE = re.compile(b'[^A-Za-z0-9_]')
-    PATTERN_WORD = re.compile(b'[_]')
-    PATTERN_WRONG = re.compile(b'[^A-Za-z0-9_]')
-    #PATTERN_WRONG = re.compile(r'[\t.<>,;.:{}\[\]()\'"$&/=!\\/#@+\^`´¨?|~*%]')
     WORD_ALLOWED = [b'xiii', b'xviii', b'zzz']
 
     def __init__(self, args, hasher):
@@ -324,7 +319,7 @@ class WordsLoader():
         self._sections = []
         self._sections.append(self._words)
         self._section = 0
-        
+
         # info about current "### (type)" where the ID was found (context > ids)
         self._contexts = {}
         self._curr_context = None
@@ -335,6 +330,15 @@ class WordsLoader():
         self._filter_names = []
         self._skip_hashes = []
         self._skip_names = []
+
+    #--------------------------------------------------------------------------
+
+    @staticmethod
+    def is_alpha(word):
+        return all(
+            0x41 <= ch <= 0x5A or 0x61 <= ch <= 0x7A
+            for ch in word
+        )
 
     #--------------------------------------------------------------------------
 
@@ -562,13 +566,6 @@ class WordsLoader():
 
         self._formats[key] = (key, format, prefix, suffix, pre_hash)
 
-        #index = format.index(b'%')
-        #if index:
-        #    val = self._hasher.get_hash(format[0:index])
-        #else:
-        #    val = None
-        #self._format_hashes[key] = val
-        #self._format_baselen[key] = index
 
     def _read_formats(self, file):
         try:
@@ -599,7 +596,7 @@ class WordsLoader():
                 self._add_format(subformat)
             return
 
-        subwords = self.PATTERN_WORD.split(elem)
+        subwords = self._hasher.split_word(elem)
         combos = []
 
 
@@ -641,7 +638,6 @@ class WordsLoader():
                 if not any(combo_lw.startswith(fb) for fb in self._args.format_begins):
                     continue
 
-            #print(combo)
             if not combo:
                 continue
             combo_hashable = combo.lower()
@@ -650,8 +646,10 @@ class WordsLoader():
             # (ex. if combining format "play_bgm_%s" and number in list is reasonable)
             #if self._args.hashable_only and not self._hasher.is_hashable(combo_hashable):
             #    continue
-            if self._args.alpha_only and any(char_n < 0x30 and char_n > 0x39 for char_n in combo_hashable): #char.isdigit()
+
+            if self._args.alpha_only and not self.is_alpha(combo_hashable):
                 continue
+
             self._add_format(combo)
 
     #--------------------------------------------------------------------------
@@ -773,7 +771,7 @@ class WordsLoader():
 
         joiner = self._get_joiner()
 
-        subwords = self.PATTERN_WORD.split(elem)
+        subwords = self._hasher.split_word(elem)
         combos = []
         add_self = True
 
@@ -834,8 +832,8 @@ class WordsLoader():
             # (ex. if combining format "play_bgm_%s" and number in list is reasonable)
             if self._args.hashable_only and not self._hasher.is_hashable(combo_hashable):
                 continue
-            if self._args.alpha_only and any(char_n < 0x30 and char_n > 0x39 for char_n in combo_hashable): #char.isdigit()
-            #if self._args.alpha_only and any(char.isdigit() for char in combo_hashable):
+
+            if self._args.alpha_only and not self.is_alpha(combo_hashable):
                 continue
 
             words[combo_hashable] = combo
@@ -846,6 +844,7 @@ class WordsLoader():
             if self._hasher.is_hashable(elem_hashable):
                 words[elem_hashable] = elem
 
+
     def _is_line_ok(self, line, line_lw):
         #line = line.strip()
         line_len = len(line)
@@ -854,7 +853,7 @@ class WordsLoader():
             return True
 
         # skip wonky mini words
-        if line_len < 4 and self._PATTERN_WRONG.search(line):
+        if line_len < 4 and not self._hasher.is_hashable(line_lw):
             return False
 
         #if line_len < 12:
@@ -963,7 +962,7 @@ class WordsLoader():
             if self._parsing_wwnames:
                 self._add_skip(line, full=True)
 
-            elems = self.PATTERN_LINE.split(line)
+            elems = self._hasher.split_line(line)
             for elem in elems:
 
                 # convert caps to _ (first so other flags work over this)
@@ -1309,17 +1308,32 @@ class Words():
 
 ###############################################################################
 
-class WwiseHasher(object):
-    FNV_DICT = b'0123456789abcdefghijklmnopqrstuvwxyz_'
-    FNV_FORMAT = re.compile(b"^[a-z_][a-z0-9\_]*$")
-    FNV_FORMAT_EX = re.compile(b"^[a-z_0-9][a-z0-9_()\- ]*$")
+class Hasher(object):
+    _SPLITTER_LINE = re.compile(b'[^A-Za-z0-9_]')
+    _SPLITTER_WORD = re.compile(b'[_]')
+    _HASHABLE_CHECKER = re.compile(b'^[a-z_][a-z0-9_]*$')
 
-    def is_hashable(self, lowname):
-        return self.FNV_FORMAT.match(lowname)
+    # change case/etc depending on hash's needs
+    def transform(self, text):
+        return text.lower()
 
-    def is_hashable_extended(self, lowname):
-        return self.FNV_FORMAT_EX.match(lowname)
+    # check if hash is possible, assuming it has been transformed first
+    def is_hashable(self, text):
+        return self._HASHABLE_CHECKER.match(text)
 
+    # split line into words that can be used for hashing
+    def split_line(self, line):
+        return self._SPLITTER_LINE.split(line)
+
+    # split words into subwords that can be used for hashing
+    def split_word(self, line):
+        return self._SPLITTER_WORD.split(line)
+
+
+class WwiseHasher(Hasher):
+    _FNV_DICT = b'0123456789abcdefghijklmnopqrstuvwxyz_'
+
+    #--------------------------------------------------------------------------
 
     # Find actual name from a close name (same up to last char) using some fuzzy searching
     # ('bgm0' and 'bgm9' IDs only differ in the last byte, so it calcs 'bgm' + '0', '1'...)
@@ -1329,7 +1343,7 @@ class WwiseHasher(object):
 
         namebytes = lowname
         basehash = self._get_hash(namebytes[:-1]) #up to last byte
-        for c in self.FNV_DICT: #try each last char
+        for c in self._FNV_DICT: #try each last char
             id_hash = self._get_partial_hash(basehash, c)  #ord(c) #already byte
 
             if id_hash == id:
@@ -1343,7 +1357,7 @@ class WwiseHasher(object):
                 hashname = hashname[:-1] + c_str.encode() #todo better way?
                 return hashname
         # it's possible to reach here with incorrect (manually input) ids,
-        # since not all 255 values are in FNV_DICT
+        # since not all 255 values are in _FNV_DICT
         return None
 
     def unfuzzy_hashname(self, id, hashname):
@@ -1375,6 +1389,12 @@ class WwiseHasher(object):
 
     def get_hash_nb(self, namebytes):
         return self._get_hash(namebytes)
+
+class WwiseExHasher(WwiseHasher):
+    _PATTERN_LINE = re.compile(b'[^A-Za-z0-9_ ()-]')
+    _SPLITTER_WORD = re.compile(b'[_ ]')
+    _FNV_FORMAT = re.compile(b"^[a-z_0-9][a-z0-9_()\- ]*$")
+
 
 #------------------------------------------------------------------------------
 
