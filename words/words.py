@@ -38,11 +38,11 @@ class ResultsSorter():
                     if not line:
                         continue
 
-                    items = self._hasher.split_match(line)
-                    if not items:
+                    match = self._hasher.split_match(line)
+                    if not match:
                         continue
 
-                    hash, name = items
+                    hash, name = match
                     if hash not in results:
                         results[hash] = []
                     results[hash].append(name)
@@ -729,15 +729,9 @@ class WordsLoader():
         elem = line.strip()
         if not elem:
             return
-        if not elem.isdigit():
-            return
 
-        try:
-            key = int(elem)
-        except (TypeError, ValueError):
-            return
-
-        if key < 0xFFF or key > 0xFFFFFFFF:
+        key = self._hasher.read_hash(elem)
+        if not key:
             return
 
         # skip already useful names in wwnames.txt
@@ -970,6 +964,14 @@ class WordsLoader():
             if self._args.ignore_wrong and self._is_line_ok(line):
                 continue
 
+            # ignore matches like '(number) : name' copied from results'
+            if self._parsing_wwnames:
+                match = self._hasher.split_match(line)
+                if match:
+                    hash, name = match
+                    self._add_word(name)
+                    self._words_reversed.add(hash)
+                    continue
 
             # clean vars
             var_types = [b'%d' b'%c' b'%s' b'%f' b'0x%08x' b'%02d' b'%u' b'%4d' b'%10d']
@@ -1022,10 +1024,10 @@ class WordsLoader():
                 # This way we keep can keep adding reversed names to wwnames.txt without having to remove IDs
                 # Only for base elem and not derived parts.
                 if self._parsing_wwnames:
-                    elem_hashable = elem.lower()
+                    elem_hashable = self._hasher.transform(elem)
                     if self._hasher.is_hashable(elem_hashable):
                         hash = self._hasher.get_hash(elem_hashable)
-                        self._words_reversed.add(int(hash))
+                        self._words_reversed.add(hash)
 
             # most of the time only makes sense to automake formats from wwnames and not ww.txt
             if self._args.format_auto and (self._parsing_wwnames or self._args.format_auto_all):
@@ -1102,7 +1104,10 @@ class WordsReverser():
             self._skipfile = skipfile
 
             start_time = time.time()
-            written = self._reverse_wwise(combinator)
+            if isinstance(self._hasher, (WwiseHasher, WwiseExHasher)):
+                written = self._reverse_wwise(combinator)
+            else:
+                written = self._reverse_common(combinator)
             end_time = time.time()
 
             self._outfile = None
@@ -1198,6 +1203,71 @@ class WordsReverser():
                 if suffix:
                     for namebyte in suffix:
                         hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
+
+                #----------------------------------------------------------
+
+                if no_fuzzy:
+                    if hash not in reversables:
+                        continue
+                else:
+                    hash_fuzzy = hash & 0xFFFFFF00
+                    if hash_fuzzy not in fuzzies:
+                        continue
+
+                done = self._handle_match(word, joiner, hash, hash_fuzzy, format_key)
+                written += done
+
+        return written
+
+    # similar to the above, but less optimized
+    def _reverse_common(self, combinator):
+        written = 0
+        loader = self._loader
+        hasher = self._hasher
+
+        # local variables, possibly faster
+        no_fuzzy = self._args.fuzzy_disable
+        mode_combine = self._args.combinations or self._args.permutations
+        hash_fuzzy = 0
+        hash_default = hasher.get_hash_base()
+
+        reversables = loader._reversables
+        fuzzies = loader._fuzzies
+
+        joiner = combinator.get_joiner()
+        formats = combinator.get_formats()
+
+        # info
+        progress_count = 0
+        progress_add = 20000000 #// len(formats)
+        progress_top = progress_add
+
+        for (format_key, _format, prefix, suffix, pre_hash) in formats:
+            #format, _, pre, suf, pre_hash = full_format #slightly slower?
+            combos = combinator.get_combos()
+            for word in combos:
+                # progress info, shouldn't affect performance too much and useful to see it's working
+                progress_count += 1
+                if progress_count == progress_top:
+                    progress_top += progress_add
+                    print("%i..." % (progress_count), word)
+
+
+                hash = hash_default
+
+                if prefix:
+                    hash = pre_hash
+
+                if mode_combine:
+                    for i, subword in enumerate(word):
+                        if i > 0:
+                            hash = hasher.get_hash_update(joiner, hash)
+                        hash = hasher.get_hash_update(subword, hash)
+                else:
+                    hash = hasher.get_hash_update(word, hash)
+
+                if suffix:
+                    hash = hasher.get_hash_update(suffix, hash)
 
                 #----------------------------------------------------------
 
@@ -1335,6 +1405,8 @@ class Hasher(object):
     _SPLITTER_WORD = re.compile(b'[_]')
     _HASHABLE_CHECKER = re.compile(b'^[a-z_][a-z0-9_]*$')
 
+    # ------------
+    # hash reading
 
     # change case/etc depending on hash's needs
     def transform(self, text):
@@ -1352,6 +1424,17 @@ class Hasher(object):
     def split_word(self, line):
         return self._SPLITTER_WORD.split(line)
 
+    def read_hash(self, text, base=0):
+        try:
+            key = int(text, base)
+        except (TypeError, ValueError):
+            return 0
+
+        if key < 0xFFF or key > 0xFFFFFFFF:
+            return 0
+
+        return key
+
     # writes a "hash : match" format
     def format_match(self, hash, name):
         name = name.strip()
@@ -1366,6 +1449,9 @@ class Hasher(object):
         hash = int(hash.strip())
         name = name.strip()
         return hash, name
+
+    # ---------------
+    # hash processing
 
     # hash an array of bytes
     def get_hash(self, namebytes):
@@ -1445,7 +1531,51 @@ class WwiseHasher(Hasher):
 class WwiseExHasher(WwiseHasher):
     _PATTERN_LINE = re.compile(b'[^A-Za-z0-9_ ()-]')
     _SPLITTER_WORD = re.compile(b'[_ ]')
-    _FNV_FORMAT = re.compile(b"^[a-z_0-9][a-z0-9_()\- ]*$")
+    _HASHABLE_CHECKER = re.compile(b"^[a-z_0-9][a-z0-9_()\- ]*$")
+
+
+class IntiCreatesHasher(Hasher):
+    _SPLITTER_LINE = re.compile(b'[^A-Za-z0-9_.]')
+    _SPLITTER_WORD = re.compile(b'[_.]') #currently must join exts manually though
+    _HASHABLE_CHECKER = re.compile(b'^[A-Za-z_][A-Za-z0-9_.]*$')
+
+    def transform(self, text):
+        return text #case sensitive
+
+    def read_hash(self, text):
+        return super().read_hash(text, 16)
+
+    def format_match(self, hash, name):
+        name = name.strip()
+        return b"%08x  : %s" % (hash, name)
+
+    def split_match(self, text):
+        items = text.split(b':')
+        if len(items) != 2:
+            return None
+        hash, name = items
+        hash = int(hash.strip(), 16)
+        name = name.strip()
+        return hash, name
+
+    def get_hash(self, namebytes):
+        hash = 0xCDE723A5
+        for namebyte in namebytes:
+            temp = (hash + namebyte) & 0xffffffff
+            hash = (141 * temp) & 0xffffffff
+        return hash
+
+    def get_hash_base(self):
+        return 0xCDE723A5
+
+    def get_hash_update(self, namebytes, hash):
+        for namebyte in namebytes:
+            temp = (hash + namebyte) & 0xffffffff
+            hash = (141 * temp) & 0xffffffff
+        return hash
+
+    def allow_fuzzy(self):
+        return False # TODO: possibly ok but unsure
 
 #------------------------------------------------------------------------------
 
@@ -1462,6 +1592,7 @@ class WordsDefaults():
     HASH_TYPES = {
         'wwise': WwiseHasher,
         'wwise-ex': WwiseExHasher,
+        'inti': IntiCreatesHasher,
     }
     HASH_NAMES = '; '.join(HASH_TYPES.keys())
 
