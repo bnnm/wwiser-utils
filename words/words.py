@@ -8,6 +8,9 @@ import fnmatch
 
 # TODO: simplify word loader
 # TODO: multicommand mode
+# TODO: improve loader._words, etc
+# TODO: add more hash modes
+# TODO: change cut-last/first for %s[x:x]
 
 # max length of a line in input files (typically pre-split by tools like wstrings)
 WORDS_LINE_MAX = 500
@@ -18,28 +21,28 @@ WORDS_LINE_MAX = 500
 class ResultsSorter():
     _CONTEXT_BOTTOM = b'### VA'  #TODO: other contexts?
 
-    def __init__(self, args, contexts):
+    def __init__(self, args, contexts, hasher):
         self._results_contexts = True
         self._output_file = args.output_file
         self._contexts = contexts
+        self._hasher = hasher
         self._ctx_filter = '' #TODO add
 
     # read output file and separate hash + name(s)
-    @staticmethod
-    def _read_results(inname):
+    def _read_results(self, inname):
         results = {}
         try:
-            with open(inname, 'r') as f:
+            with open(inname, 'rb') as f:
                 for line in f:
                     line = line.strip()
                     if not line:
                         continue
-                    if ':' not in line:
+
+                    items = self._hasher.split_match(line)
+                    if not items:
                         continue
 
-                    hash, name = line.split(':')
-                    hash = int(hash.strip())
-                    name = name.strip()
+                    hash, name = items
                     if hash not in results:
                         results[hash] = []
                     results[hash].append(name)
@@ -108,10 +111,8 @@ class ResultsSorter():
         #items = list(items.values())
         items.sort(key=lambda x : x[1].lower())
         for hash, name in items:
-            hash = str(hash).ljust(12)
-
-            name = name.strip()
-            lines.append("%s: %s" % (hash, name))
+            match = self._hasher.format_match(hash, name)
+            lines.append(str(match, 'utf-8'))
 
         return lines
 
@@ -451,9 +452,6 @@ class WordsLoader():
         return
 
     def _add_format_subformats(self, format):
-        #if b':' in format:
-        #    format = format[0: format.find(b':')]
-
         count = format.count(b'%')
 
         if count == 0: #'leaf' word (for blah_%d)
@@ -1229,44 +1227,56 @@ class WordsReverser():
         written = 0
 
         # match (regular or fuzzy)
-        for rev_hash in reversables:
-            if args.fuzzy_disable:
-                # regular match
-                if rev_hash != hash:
+        if args.fuzzy_disable:
+            name = self._get_original_case(format_key, word, joiner)
+            done = self._write_match(hash, name)
+            if done:
+                written += 1
+        else:
+            # multiple words may use the same fuzz
+            for valid_hash in reversables:
+                if hash_fuzzy != valid_hash & 0xFFFFFF00:
                     continue
-                out_final = self._get_original_case(format_key, word, joiner)
-            else:
-                # multiple fnv may use the same fuzz
-                if hash_fuzzy != rev_hash & 0xFFFFFF00:
-                    continue
-                out_final = self._get_original_case(format_key, word, joiner)
-                if rev_hash != hash:
-                    out_lower = self._get_outword(format_key, word, joiner, mode_combine)
-                    out_final = hasher.unfuzzy_hashname(rev_hash, out_lower, out_final)
-                    if not out_final: #may happen in rare cases
+                name = self._get_original_case(format_key, word, joiner)
+                if valid_hash != hash: #TODO: recheck
+                    outword = self._get_outword(format_key, word, joiner, mode_combine)
+                    name = hasher.unfuzzy_hashname(valid_hash, outword, name)
+                    if not name: #may happen in rare cases
                         continue
 
-            out_final_lw = out_final.lower()
-            if out_final_lw in loader._skips:
-                continue
-            loader._skips.add(out_final_lw)
+                done = self._write_match(valid_hash, name)
+                if done:
+                    written += 1
 
-            # don't print non-useful hashes
-            if not hasher.is_hashable(out_final_lw):
-                continue
-            if args.max_chars and len(out_final) > args.max_chars:
-                continue
-
-            out_final = str(out_final, 'utf-8')
-            self._outfile.write("%s: %s\n" % (rev_hash, out_final))
-            self._outfile.flush() #reversing is most interesting with lots of loops = slow, keep flushing
-
-            out_final_lw = str(out_final_lw, 'utf-8')
-            self._skipfile.write("%s: %s\n" % (rev_hash, out_final_lw))
-
-            written += 1
+        if written:
+            # reversing is most interesting with lots of loops = slow, keep flushing (rare)
+            self._outfile.flush()
 
         return written
+    
+    def _write_match(self, hash, name):
+        args = self._args
+        hasher = self._hasher
+        skips = self._loader._skips
+
+        name_hashable = hasher.transform(name)
+        if name_hashable in skips:
+            return False
+        skips.add(name_hashable)
+
+        # don't print non-useful hashes
+        if not hasher.is_hashable(name_hashable):
+            return False
+        if args.max_chars and len(name) > args.max_chars:
+            return False
+
+        match = hasher.format_match(hash, name)
+        self._outfile.write(str(match, 'utf-8') + "\n")
+
+        match = hasher.format_match(hash, name_hashable)
+        self._skipfile.write(str(match, 'utf-8') + "\n")
+
+        return True
 
     def _get_outword(self, format_key, word, joiner, mode_combine):
         loader = self._loader
@@ -1325,6 +1335,7 @@ class Hasher(object):
     _SPLITTER_WORD = re.compile(b'[_]')
     _HASHABLE_CHECKER = re.compile(b'^[a-z_][a-z0-9_]*$')
 
+
     # change case/etc depending on hash's needs
     def transform(self, text):
         return text.lower()
@@ -1340,6 +1351,21 @@ class Hasher(object):
     # split words into subwords that can be used for hashing
     def split_word(self, line):
         return self._SPLITTER_WORD.split(line)
+
+    # writes a "hash : match" format
+    def format_match(self, hash, name):
+        name = name.strip()
+        return b"%-11d : %s" % (hash, name)
+
+    # reads a "hash : match" format, or None if not valid
+    def split_match(self, text):
+        items = text.split(b':')
+        if len(items) != 2:
+            return None
+        hash, name = items
+        hash = int(hash.strip())
+        name = name.strip()
+        return hash, name
 
     # hash an array of bytes
     def get_hash(self, namebytes):
@@ -1456,7 +1482,7 @@ def main(args):
     reverser = WordsReverser(args, hasher, loader)
     reverser.reverse_words()
 
-    sorter = ResultsSorter(args, contexts)
+    sorter = ResultsSorter(args, contexts, hasher)
     sorter.sort()
 
 
