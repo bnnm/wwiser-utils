@@ -11,8 +11,13 @@ import fnmatch
 
 #------------------------------------------------------------------------------
 
-# sorts output results by section
+# max lenght of a line in input files (typically pre-split by tools like wstrings)
+WORDS_LINE_MAX = 500
+
+# sorts output results by context
 class ResultsSorter():
+    _CONTEXT_BOTTOM = b'### VA'  #TODO: other contexts?
+
     def __init__(self, args, contexts):
         self._results_contexts = True
         self._output_file = args.output_file
@@ -48,30 +53,30 @@ class ResultsSorter():
         if self._results_contexts:
             remove_repeats = True
 
-            done = {} #hash > section
+            done = {} #hash > context
             lines = []
 
-            sections = self._sort_results_get_sections()
-            for section in sections:
+            contexts = self._get_contexts()
+            for context in contexts:
                 # note that the same key may be in multiple contexts (ignored by default)
 
-                # mark names per section and repeats
+                # mark names per context and repeats
                 subitems = {}
-                for hash in self._contexts[section]:
-                    if hash in done and done[hash] != section and remove_repeats:
+                for hash in self._contexts.get_context_hashes(context):
+                    if hash in done and done[hash] != context and remove_repeats:
                         continue
                     if hash in items:
-                        done[hash] = section
+                        done[hash] = context
                         subitems[hash] = items[hash]
                 if not subitems:
                     continue
 
-                if section:
-                    ctx_str = section.decode("utf-8")
+                if context:
+                    ctx_str = context.decode("utf-8")
                     if self._ctx_filter and self._ctx_filter in ctx_str:
                         continue
                     lines.append(ctx_str)
-                lines += self._sort_results_lines(subitems)
+                lines += self._sort_lines(subitems)
                 lines.append('')
 
             # rare but just in case of bugs
@@ -79,19 +84,19 @@ class ResultsSorter():
             for hash in items:
                 if hash in done and remove_repeats:
                     continue
-                #done[hash] = section
+                #done[hash] = context
                 subitems[hash] = items[hash]
                 
             if subitems:
-                lines += self._sort_results_lines(subitems)
+                lines += self._sort_lines(subitems)
             
         else:
-            lines = self._sort_results_lines(items)
+            lines = self._sort_lines(items)
 
         return lines
 
     # sort a hash=name dict
-    def _sort_results_lines(self, subitems):
+    def _sort_lines(self, subitems):
         lines = []
         items = []
 
@@ -110,17 +115,19 @@ class ResultsSorter():
 
         return lines
 
-    def _sort_results_get_sections(self):
+    def _get_contexts(self):
         # put variables + values at the end, since they are simpler to clasify
-        sections = []
-        sections_vars = []
-        for section in self._contexts.keys():
-            if section and b'### VA' in section.upper(): #TODO: put other sections
-                sections_vars.append(section)
+        contexts = []
+        contexts_bottom = []
+
+        for context in self._contexts.get_context_names():
+            if context and self._CONTEXT_BOTTOM in context.upper():
+                contexts_bottom.append(context)
             else:
-                sections.append(section)
-        sections.extend(sections_vars)
-        return sections
+                contexts.append(context)
+
+        contexts.extend(contexts_bottom)
+        return contexts
 
     # overwrite output file
     @staticmethod
@@ -138,6 +145,103 @@ class ResultsSorter():
         lines = self._sort_results(results)
 
         self._write_results(inname, lines)
+
+#------------------------------------------------------------------------------
+
+# Info about current "### (context)" where a hash was found
+# This is used to sort results or filter contexts to fine-tune searches.
+class WordsContexts():
+    def __init__(self):
+        self._contexts = {}
+        self._curr_context = None
+        self._curr_context_lw = None
+        self._contexts[self._curr_context] = []
+
+        self._filter_hashes = []
+        self._filter_names = []
+        self._skip_hashes = []
+        self._skip_names = []
+
+    def get_context_names(self):
+        return self._contexts.keys()
+
+    def get_context_hashes(self, context):
+        return self._contexts[context]
+
+    def set_context(self, line):
+        self._curr_context = line.strip()
+        self._curr_context_lw = self._curr_context.lower()
+        if self._curr_context not in self._contexts: # in case of repeats
+            self._contexts[self._curr_context] = []
+
+    def set_context_temp(self, line):
+        self._curr_context = line.strip()
+        self._curr_context_lw = self._curr_context.lower()
+        #if self._curr_context not in self._contexts: # in case of repeats
+        #    self._contexts[self._curr_context] = []
+
+    def reset_context(self):
+        self._curr_context = None
+
+    def is_context(self, line):
+        return line.startswith(b'### ') # and b' NAMES' in line
+
+    def add_hash(self, hash):
+        self._contexts[self._curr_context].append(hash)
+
+    def _is_filtered_internal(self, filters, flag):
+        if not self._curr_context:
+            return False
+
+        if not filters:
+            return False
+
+        found = any(fnmatch.fnmatch(self._curr_context_lw, pattern) for pattern in filters)
+        if found:
+            return flag
+
+        return not flag
+
+    def add_filters(self, line):
+
+        # allow hashes in the listed contexts
+        if line.startswith(b'#@filter-hashes'):
+            items = line.split(b' ')[1:]
+            self._filter_hashes = [item.lower() for item in items]
+            return True
+
+        # allow names in the listed contexts
+        if line.startswith(b'#@skip-hashes'):
+            items = line.split(b' ')[1:]
+            self._skip_hashes = [item.lower() for item in items]
+            return True
+
+        # allow names in the listed contexts
+        if line.startswith(b'#@filter-names'):
+            items = line.split(b' ')[1:]
+            self._filter_names = [item.lower() for item in items]
+            return True
+
+        # skip names in the listed contexts
+        if line.startswith(b'#@skip-names'):
+            items = line.split(b' ')[1:]
+            self._skip_names = [item.lower() for item in items]
+            return True
+
+        return False
+
+    # current context has any of the filters: allow/ignore
+    def is_hashes_filtered(self):
+        return self._is_filtered_internal(self._filter_hashes, False)
+
+    def is_names_filtered(self):
+        return self._is_filtered_internal(self._filter_names, False)
+
+    def is_hashes_skipped(self):
+        return self._is_filtered_internal(self._skip_hashes, True)
+
+    def is_names_skipped(self):
+        return self._is_filtered_internal(self._skip_names, True)
 
 #------------------------------------------------------------------------------
 
@@ -298,12 +402,13 @@ class WordsDefaults():
 
 
 class WordsLoader():
-    DEFAULT_FORMAT = b'%s'
-    WORD_ALLOWED = [b'xiii', b'xviii', b'zzz']
+    _DEFAULT_FORMAT = b'%s'
+    _WORD_ALLOWED = [b'xiii', b'xviii', b'zzz']
 
-    def __init__(self, args, hasher):
+    def __init__(self, args, hasher, contexts):
         self._args = args
         self._hasher = hasher
+        self._contexts = contexts
 
         self._formats = {} # format_lw > format_lw, format, prefix, suffix, pre_hash
 
@@ -311,25 +416,14 @@ class WordsLoader():
         self._reversables = set()
         self._fuzzies = set()
 
-        # With dicts we use: words[index] = value, index = lowercase name, value = normal case.
-        # When reversing uses lowercase to avoid lower() loops, but normal case when returning results
+        # With dicts we use: words[index] = value, index = transformed name, value = original name.
+        # When reversing uses transformed to avoid hasher.transform() loops, while using original name when returning results
         self._words = {} #OrderedDict() # dicts are ordered in python 3.7+
         self._words_reversed = set()
 
         self._sections = []
         self._sections.append(self._words)
         self._section = 0
-
-        # info about current "### (type)" where the ID was found (context > ids)
-        self._contexts = {}
-        self._curr_context = None
-        self._curr_context_lw = None
-        self._contexts[self._curr_context] = []
-
-        self._filter_hashes = []
-        self._filter_names = []
-        self._skip_hashes = []
-        self._skip_names = []
 
     #--------------------------------------------------------------------------
 
@@ -342,46 +436,10 @@ class WordsLoader():
 
     #--------------------------------------------------------------------------
 
-    def _reset_contexts(self):
-        self._curr_context = None
-
-    def _is_filtered_internal(self, filters, flag):
-
-        if not self._curr_context:
-            return False
-        if not filters:
-            return False
-        found = any(fnmatch.fnmatch(self._curr_context_lw, pattern) for pattern in filters)
-        if found:
-            return flag
-        return not flag
-
-    # current context has any of the filters: allow
-    def _is_filtered(self, filters):
-        return self._is_filtered_internal(filters, False)
-
-    # current context has any of the filters: ignore
-    def _is_skipped(self, filters):
-        return self._is_filtered_internal(filters, True)
-
     def _read_format_flags(self, elem):
-        # use only hashes that match these
-        if elem.startswith(b'#@filter-hashes'):
-            items = elem.split(b' ')[1:]
-            self._filter_hashes = [item.lower() for item in items]
-
-        if elem.startswith(b'#@skip-hashes'):
-            items = elem.split(b' ')[1:]
-            self._skip_hashes = [item.lower() for item in items]
-
-        if elem.startswith(b'#@filter-names'):
-            items = elem.split(b' ')[1:]
-            self._filter_names = [item.lower() for item in items]
-
-        if elem.startswith(b'#@skip-names'):
-            items = elem.split(b' ')[1:]
-            self._skip_names = [item.lower() for item in items]
-
+        done = self._contexts.add_filters(elem)
+        if done:
+            return
         return
 
     def _add_format(self, format):
@@ -576,7 +634,7 @@ class WordsLoader():
             pass
 
         if not self._formats:
-            self._add_format(self.DEFAULT_FORMAT)
+            self._add_format(self._DEFAULT_FORMAT)
 
     def _add_format_auto(self, elem):
         if not elem:
@@ -684,16 +742,13 @@ class WordsLoader():
     #--------------------------------------------------------------------------
 
     def _add_reversable(self, line):
-        if self._is_context(line):
-            self._curr_context = line.strip()
-            self._curr_context_lw = self._curr_context.lower()
-            if self._curr_context not in self._contexts: # in case of repeats
-                self._contexts[self._curr_context] = []
+        if self._contexts.is_context(line):
+            self._contexts.set_context(line)
             return
 
-        if self._is_filtered(self._filter_hashes):
+        if self._contexts.is_hashes_filtered():
             return
-        if self._is_skipped(self._skip_hashes):
+        if self._contexts.is_hashes_skipped():
             return
 
         if line.startswith(b'# '): #allow hashes in wwnames.txt with -sm
@@ -721,11 +776,11 @@ class WordsLoader():
                 return
 
         self._reversables.add(key)
-        self._contexts[self._curr_context].append(key)
+        self._contexts.add_hash(key)
 
     def _read_reversables(self, file, reset_if_found=False):
         try:
-            self._reset_contexts()
+            self._contexts.reset_context()
             with open(file, 'rb') as infile:
                 if reset_if_found:
                     print("ignoring existing wwnames hashes to use external list")
@@ -849,10 +904,10 @@ class WordsLoader():
         #line = line.strip()
         line_len = len(line)
 
-        if line_lw in self.WORD_ALLOWED:
+        if line_lw in self._WORD_ALLOWED:
             return True
 
-        # skip wonky mini words
+        # skip wonky mini words #TODO: remove? may be split anyway
         if line_len < 4 and not self._hasher.is_hashable(line_lw):
             return False
 
@@ -898,11 +953,13 @@ class WordsLoader():
             if num % 1000000 == 0:
                 print(" %i lines..." % (num))
 
-            if self._is_context(line):
-                self._curr_context = line.strip()
-                self._curr_context_lw = self._curr_context.lower()
-                #if self._curr_context not in self._contexts: # in case of repeats
-                #    self._contexts[self._curr_context] = []
+            if self._contexts.is_context(line):
+                self._contexts.set_context_temp(line)
+                continue
+
+            if self._contexts.is_names_filtered():
+                continue
+            if self._contexts.is_names_skipped():
                 continue
 
             # section end when using permutations
@@ -925,7 +982,7 @@ class WordsLoader():
             if line.startswith(b'#'):
                 continue
 
-            if len(line) > 500:
+            if len(line) > WORDS_LINE_MAX:
                 continue
 
             line = line.strip(b'\n')
@@ -938,10 +995,6 @@ class WordsLoader():
             if self._args.ignore_wrong and self._is_line_ok(line, line_lw):
                 continue
 
-            if self._is_filtered(self._filter_names):
-                continue
-            if self._is_skipped(self._skip_names):
-                continue
 
             # clean vars
             var_types = [b'%d' b'%c' b'%s' b'%f' b'0x%08x' b'%02d' b'%u' b'%4d' b'%10d']
@@ -1011,15 +1064,11 @@ class WordsLoader():
     def _read_words(self, file):
         try:
             # lines are read as binary (works fine) to simplify and slightly speed up loading
-            self._reset_contexts()
+            self._contexts.reset_context()
             with open(file, 'rb') as infile:
                 self._read_words_lines(infile)
         except FileNotFoundError:
             pass
-
-    def _is_context(self, line):
-        return line.startswith(b'### ') and b' NAMES' in line
-
 
     def parse_files(self):
         self._read_formats(self._args.formats_file)
@@ -1297,14 +1346,16 @@ class WordsReverser():
 class Words():
     def start(self, args):
         hasher = WwiseHasher()
+        contexts = WordsContexts()
 
-        loader = WordsLoader(args, hasher)
+        loader = WordsLoader(args, hasher, contexts)
         loader.parse_files()
 
         reverser = WordsReverser(args, hasher, loader)
         reverser.reverse_words()
 
-        ResultsSorter(args, loader._contexts).sort()
+        sorter = ResultsSorter(args, contexts)
+        sorter.sort()
 
 ###############################################################################
 
