@@ -6,13 +6,13 @@
 import argparse, re, itertools, time, glob, os, datetime
 import fnmatch
 
-# TODO:
-# - load words that end with "= 0" as-is for buses (not useful?)
+# TODO: simplify word loader
+# TODO: multicommand mode
+
+# max length of a line in input files (typically pre-split by tools like wstrings)
+WORDS_LINE_MAX = 500
 
 #------------------------------------------------------------------------------
-
-# max lenght of a line in input files (typically pre-split by tools like wstrings)
-WORDS_LINE_MAX = 500
 
 # sorts output results by context
 class ResultsSorter():
@@ -269,11 +269,6 @@ class WordsCombinator():
         exit()
 
     def get_formats(self):
-        #formats = []
-        #for key in self._formats:
-        #    format, format_og, type, sub = self._formats[key]
-        #    formats.append(format) #original/lowercase
-
         # pre-loaded
         return self._formats.values()
 
@@ -283,10 +278,8 @@ class WordsCombinator():
 
         parts = []
         for i, section in enumerate(self._sections):
-            #if self._args.text_output:
-            #    words = section.values() #original
-            #else:
-            words = section.keys() #lowercase
+            # .values() = original, .keys() = transformed
+            words = section.keys()
 
             parts.append(words)
 
@@ -301,10 +294,8 @@ class WordsCombinator():
         #joiners = self._joiners
         combinations = int(self._args.combinations)
 
-        #if self._args.text_output:
-        #    words = self._words.values() #original
-        #else:
-        words = self._words.keys() #lowercase bytes
+        # .values() = original, .keys() = transformed
+        words = self._words.keys()
 
         if self._args.combinations_unique:
             elems = itertools.permutations(words, r=combinations)
@@ -328,10 +319,8 @@ class WordsCombinator():
         return elems
 
     def _get_basewords(self):
-        #if self._args.text_output:
-        #    words = self._words.values() #original
-        #else:
-        words = self._words.keys() #lowercase bytes
+        # .values() = original, .keys() = transformed
+        words = self._words.keys()
 
         return words
 
@@ -391,15 +380,6 @@ class WordsCombinator():
         return total
 
 
-class WordsDefaults():
-    FILENAME_WWNAMES = 'wwnames*.txt'
-    FILENAME_IN = 'ww.txt'
-    FILENAME_OUT = 'words_out.txt'
-    FILENAME_OUT_EX = 'words_out%s.txt'
-    FILENAME_FORMATS = 'formats.txt'
-    FILENAME_SKIPS = 'skips.txt'
-    FILENAME_REVERSABLES = 'hashes.txt'
-
 
 class WordsLoader():
     _DEFAULT_FORMAT = b'%s'
@@ -410,7 +390,7 @@ class WordsLoader():
         self._hasher = hasher
         self._contexts = contexts
 
-        self._formats = {} # format_lw > format_lw, format, prefix, suffix, pre_hash
+        self._formats = {} # format_hashable > format_hashable, format, prefix, suffix, pre_hash
 
         self._skips = set()
         self._reversables = set()
@@ -592,35 +572,28 @@ class WordsLoader():
         if self._args.format_suffix:
             for sf in self._args.format_suffix:
                 sf = sf.encode('utf-8')
-                self._add_format_main(format + sf)
-        self._add_format_main(format)
+                self._add_format_s(format + sf)
+        self._add_format_s(format)
 
-    def _add_format_main(self, format):
-        format_lw = format.lower()
-        key = format.lower()
+    def _add_format_s(self, format):
+        flag = b'%s'
+        parts = format.split(flag)
+        prefix = self._hasher.transform(parts[0])
+        suffix = self._hasher.transform(parts[1])
+
+        key = prefix + flag + suffix
         if key in self._formats:
             return
 
-        if format == b'%s':
+        # useful?
+        if not prefix:
             prefix = None
+        if not suffix:
             suffix = None
-
-        elif format.endswith(b'%s'):
-            prefix = format_lw[:-2]
-            suffix = None
-
-        elif format.startswith(b'%s'):
-            prefix = None
-            suffix = format_lw[2:]
-
-        else:
-            presuf = format_lw.split(b'%s')
-            prefix = presuf[0]
-            suffix = presuf[1]
 
         pre_hash = None
         if prefix:
-            pre_hash = self._hasher.get_hash_nb(prefix)
+            pre_hash = self._hasher.get_hash(prefix)
 
         self._formats[key] = (key, format, prefix, suffix, pre_hash)
 
@@ -691,14 +664,9 @@ class WordsLoader():
 
 
         for combo in combos:
-            if self._args.format_begins:
-                combo_lw = combo.lower()
-                if not any(combo_lw.startswith(fb) for fb in self._args.format_begins):
-                    continue
-
             if not combo:
                 continue
-            combo_hashable = combo.lower()
+            combo_hashable = self._hasher.transform(combo)
 
             # makes only sense on simpler cases with no formats
             # (ex. if combining format "play_bgm_%s" and number in list is reasonable)
@@ -707,6 +675,10 @@ class WordsLoader():
 
             if self._args.alpha_only and not self.is_alpha(combo_hashable):
                 continue
+
+            if self._args.format_begins:
+                if not any(combo_hashable.startswith(fb) for fb in self._args.format_begins):
+                    continue
 
             self._add_format(combo)
 
@@ -725,7 +697,7 @@ class WordsLoader():
             elems = line.split()
 
         for elem in elems:
-            elem_hashable = elem.lower()
+            elem_hashable = self._hasher.transform(elem)
             if not self._hasher.is_hashable(elem_hashable):
                 continue
             self._skips.add(elem_hashable)
@@ -791,9 +763,10 @@ class WordsLoader():
         except FileNotFoundError:
             pass
 
-        for elem in self._reversables:
-            fuzzy_hash = elem & 0xFFFFFF00
-            self._fuzzies.add(fuzzy_hash) #may be smaller than hash dict
+        if not self._args.fuzzy_disable:
+            for elem in self._reversables:
+                fuzzy_hash = elem & 0xFFFFFF00
+                self._fuzzies.add(fuzzy_hash) #may be smaller than hash dict
 
     #--------------------------------------------------------------------------
 
@@ -821,7 +794,8 @@ class WordsLoader():
 
         words = self._words
         if self._args.no_split:
-            words[elem.lower()] = elem
+            elem_hashable = self._hasher.transform(elem)
+            words[elem_hashable] = elem
             return
 
         joiner = self._get_joiner()
@@ -881,7 +855,7 @@ class WordsLoader():
         for combo in combos:
             if not combo:
                 continue
-            combo_hashable = combo.lower()
+            combo_hashable = self._hasher.transform(combo)
 
             # makes only sense on simpler cases with no formats
             # (ex. if combining format "play_bgm_%s" and number in list is reasonable)
@@ -895,20 +869,24 @@ class WordsLoader():
 
         # add itself (needed when joiner is not _)
         if add_self:
-            elem_hashable = elem.lower()
+            elem_hashable = self._hasher.transform(elem)
             if self._hasher.is_hashable(elem_hashable):
                 words[elem_hashable] = elem
 
-
-    def _is_line_ok(self, line, line_lw):
+    #TODO: improve, not very useful and possibly slower
+    def _is_line_ok(self, line):
         #line = line.strip()
         line_len = len(line)
 
-        if line_lw in self._WORD_ALLOWED:
+        line_transformed = line
+        if line_len <= 6:
+            line_transformed = self._hasher.transform(line)
+
+        if line_transformed in self._WORD_ALLOWED:
             return True
 
         # skip wonky mini words #TODO: remove? may be split anyway
-        if line_len < 4 and not self._hasher.is_hashable(line_lw):
+        if line_len < 4 and not self._hasher.is_hashable(line_transformed):
             return False
 
         #if line_len < 12:
@@ -921,7 +899,7 @@ class WordsLoader():
 
         return True
 
-    # converts getBlah > get_blah
+    # converts getBlah > get_blah (will be transformed later if needed)
     def _transform_caps(self, elem):
         if not elem or len(elem) == 0:
             return elem
@@ -989,10 +967,9 @@ class WordsLoader():
             line = line.strip(b'\r')
             if not line:
                 continue
-            line_lw = line.lower()
 
             # skip wonky words created by strings2
-            if self._args.ignore_wrong and self._is_line_ok(line, line_lw):
+            if self._args.ignore_wrong and self._is_line_ok(line):
                 continue
 
 
@@ -1047,9 +1024,9 @@ class WordsLoader():
                 # This way we keep can keep adding reversed names to wwnames.txt without having to remove IDs
                 # Only for base elem and not derived parts.
                 if self._parsing_wwnames:
-                    elem_lw = elem.lower()
-                    if self._hasher.is_hashable(elem_lw):
-                        hash = self._hasher.get_hash(elem_lw)
+                    elem_hashable = elem.lower()
+                    if self._hasher.is_hashable(elem_hashable):
+                        hash = self._hasher.get_hash(elem_hashable)
                         self._words_reversed.add(int(hash))
 
             # most of the time only makes sense to automake formats from wwnames and not ww.txt
@@ -1214,7 +1191,7 @@ class WordsReverser():
 
                 else:
                     # quick ignore non-hashable
-                    #if not pre and 0x30 <= word[0] <= 0x39: #.isdigit():
+                    #if not prefix and 0x30 <= word[0] <= 0x39: #.isdigit():
                     #    continue
 
                     for namebyte in word:
@@ -1265,7 +1242,7 @@ class WordsReverser():
                 out_final = self._get_original_case(format_key, word, joiner)
                 if rev_hash != hash:
                     out_lower = self._get_outword(format_key, word, joiner, mode_combine)
-                    out_final = hasher.unfuzzy_hashname_lw(rev_hash, out_lower, out_final)
+                    out_final = hasher.unfuzzy_hashname(rev_hash, out_lower, out_final)
                     if not out_final: #may happen in rare cases
                         continue
 
@@ -1341,22 +1318,6 @@ class WordsReverser():
             word_og = loader._words[word]
             return format % (word_og)
 
-    #--------------------------------------------------------------------------
-
-class Words():
-    def start(self, args):
-        hasher = WwiseHasher()
-        contexts = WordsContexts()
-
-        loader = WordsLoader(args, hasher, contexts)
-        loader.parse_files()
-
-        reverser = WordsReverser(args, hasher, loader)
-        reverser.reverse_words()
-
-        sorter = ResultsSorter(args, contexts)
-        sorter.sort()
-
 ###############################################################################
 
 class Hasher(object):
@@ -1380,6 +1341,25 @@ class Hasher(object):
     def split_word(self, line):
         return self._SPLITTER_WORD.split(line)
 
+    # hash an array of bytes
+    def get_hash(self, namebytes):
+        return 0
+
+    # default base hash to use in get_hash_update
+    def get_hash_base(self):
+        return 0
+
+    # hash a partial array of bytes, with an existing hash
+    def get_hash_update(self, namebytes, hash):
+        return 0
+
+    # def allow fuzzy matching (ex. bgm0 and bgm9 have same fuzzy hash)
+    def allow_fuzzy(self):
+        return True
+
+    def unfuzzy_hashname(self, id, namebytes, hashname):
+        return None
+
 
 class WwiseHasher(Hasher):
     _FNV_DICT = b'0123456789abcdefghijklmnopqrstuvwxyz_'
@@ -1388,31 +1368,29 @@ class WwiseHasher(Hasher):
 
     # Find actual name from a close name (same up to last char) using some fuzzy searching
     # ('bgm0' and 'bgm9' IDs only differ in the last byte, so it calcs 'bgm' + '0', '1'...)
-    def unfuzzy_hashname_lw(self, id, lowname, hashname):
-        if not id or not hashname:
+    def unfuzzy_hashname(self, hash, namebytes, hashname):
+        if not hash or not hashname:
             return None
 
-        namebytes = lowname
-        basehash = self._get_hash(namebytes[:-1]) #up to last byte
+        basehash = self.get_hash(namebytes[:-1]) #up to last byte
         for c in self._FNV_DICT: #try each last char
-            id_hash = self._get_partial_hash(basehash, c)  #ord(c) #already byte
+            temp_hash = self._get_partial_hash(basehash, c)  #ord(c) #already byte
 
-            if id_hash == id:
-                c_str = chr(c)
-                for cs in hashname: #upper only if all base name is all upper
-                    cs_str = chr(cs)
-                    if cs_str.islower():
-                       c_str = c_str.lower()
-                       break
+            if temp_hash != hash:
+                continue
+            c_str = chr(c)
+            for cs in hashname: #upper only if all base name is all upper
+                cs_str = chr(cs)
+                if cs_str.islower():
+                    c_str = c_str.lower()
+                    break
 
-                hashname = hashname[:-1] + c_str.encode() #todo better way?
-                return hashname
+            hashname = hashname[:-1] + c_str.encode() #TODO: improve?
+            return hashname
+
         # it's possible to reach here with incorrect (manually input) ids,
         # since not all 255 values are in _FNV_DICT
         return None
-
-    def unfuzzy_hashname(self, id, hashname):
-        return self.unfuzzy_hashname_lw(id, hashname.lower(), hashname)
 
     # Partial hashing for unfuzzy'ing.
     def _get_partial_hash(self, hash, value):
@@ -1422,32 +1400,65 @@ class WwiseHasher(Hasher):
         return hash
 
     # Standard AK FNV-1 with 32-bit.
-    def _get_hash(self, namebytes):
-        hash = 2166136261 #FNV offset basis
-
-        for namebyte in namebytes:  #for i in range(len(namebytes)):
-            hash = hash * 16777619 #FNV prime
-            hash = hash ^ namebyte #FNV xor
-            hash = hash & 0xFFFFFFFF #python clamp
+    # This variation seems slightly faster in python+pypy vs separate ops or local vars
+    def get_hash(self, namebytes):
+        hash = 2166136261
+        for namebyte in namebytes:
+            hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
         return hash
 
-    def get_hash(self, name):
-        return self.get_hash_lw(name.lower())
+    def get_hash_base(self):
+        return 2166136261
 
-    def get_hash_lw(self, lowname):
-        namebytes = lowname
-        return self._get_hash(namebytes)
+    def get_hash_update(self, namebytes, hash):
+        for namebyte in namebytes:
+            hash = ((hash * 16777619) ^ namebyte) & 0xFFFFFFFF
+        return hash
 
-    def get_hash_nb(self, namebytes):
-        return self._get_hash(namebytes)
 
 class WwiseExHasher(WwiseHasher):
     _PATTERN_LINE = re.compile(b'[^A-Za-z0-9_ ()-]')
     _SPLITTER_WORD = re.compile(b'[_ ]')
     _FNV_FORMAT = re.compile(b"^[a-z_0-9][a-z0-9_()\- ]*$")
 
-
 #------------------------------------------------------------------------------
+
+class WordsDefaults():
+    FILENAME_WWNAMES = 'wwnames*.txt'
+    FILENAME_IN = 'ww.txt'
+    FILENAME_OUT = 'words_out.txt'
+    FILENAME_OUT_EX = 'words_out%s.txt'
+    FILENAME_FORMATS = 'formats.txt'
+    FILENAME_SKIPS = 'skips.txt'
+    FILENAME_REVERSABLES = 'hashes.txt'
+
+    HASH_TYPE_DEFAULT = 'wwise'
+    HASH_TYPES = {
+        'wwise': WwiseHasher,
+        'wwise-ex': WwiseExHasher,
+    }
+    HASH_NAMES = '; '.join(HASH_TYPES.keys())
+
+#--------------------------------------------------------------------------
+
+def main(args):
+    HasherClass = WordsDefaults.HASH_TYPES.get(args.type.lower())
+
+    hasher = HasherClass()
+    if not hasher.allow_fuzzy():
+        args.fuzzy_disable = True
+
+    contexts = WordsContexts()
+
+    loader = WordsLoader(args, hasher, contexts)
+    loader.parse_files()
+
+    reverser = WordsReverser(args, hasher, loader)
+    reverser.reverse_words()
+
+    sorter = ResultsSorter(args, contexts)
+    sorter.sort()
+
 
 def parse():
     description = (
@@ -1463,6 +1474,7 @@ def parse():
 
     p = argparse.ArgumentParser(description=description, epilog=epilog, formatter_class=argparse.RawTextHelpFormatter)
     # files
+    p.add_argument('-t',  '--type',         help="Hash method: %s" % (WordsDefaults.HASH_NAMES), default=WordsDefaults.HASH_TYPE_DEFAULT)
     p.add_argument('-w',  '--wwnames-file', help="input names (word list + hash list)", default=WordsDefaults.FILENAME_WWNAMES)
     p.add_argument('-i',  '--input-file',   help="input word lists (ignores hashes)", default=WordsDefaults.FILENAME_IN)
     p.add_argument('-o',  '--output-file',  help="Output list", default=WordsDefaults.FILENAME_OUT)
@@ -1483,7 +1495,7 @@ def parse():
     p.add_argument('-j',  '--joiner',       help="Set word joiner")
 
     p.add_argument('-fa', '--format-auto',  help="Auto-makes format combos of (prefix)_%%s_(suffix)", action='store_true')
-    p.add_argument('-fam','--format-auto-mix',     help="Autoformats mixes words like blah_blah_blah = blah_%s_blah", action='store_true')
+    p.add_argument('-fam','--format-auto-mix',     help="Autoformats mixes words like blah_blah_blah = blah_%%s_blah", action='store_true')
     p.add_argument('-fap','--format-auto-prefix',  help="Autoformats include up to N prefix parts", type=int)
     p.add_argument('-fas','--format-auto-suffix',  help="Autoformats include up to N suffix parts", type=int)
     p.add_argument('-faa','--format-auto-all',     help="Autoformats includes words from extra -i lists rather than just wwnames", action='store_true')
@@ -1529,4 +1541,4 @@ def parse():
 
 if __name__ == "__main__":
     args = parse()
-    Words().start(args)
+    main(args)
