@@ -10,6 +10,7 @@ import fnmatch
 # TODO: multicommand mode
 # TODO: improve loader._words, etc
 # TODO: change cut-last/first for %s[x:x]
+# TODO: accept hash | without name as a non-reversed hash
 
 # max length of a line in input files (typically pre-split by tools like wstrings)
 WORDS_LINE_MAX = 500
@@ -422,11 +423,15 @@ class WordsLoader():
             return
 
         if elem.startswith(b'#@uppercase'):
-            self._args.line_uppercase = True
+            self._args.word_uppercase = True
             return
 
         if elem.startswith(b'#@lowercase'):
-            self._args.line_lowercase = True
+            self._args.word_lowercase = True
+            return
+
+        if elem.startswith(b'#@capitalize'):
+            self._args.word_capitalize = True
             return
 
         return
@@ -968,9 +973,9 @@ class WordsLoader():
             if not line:
                 continue
 
-            if self._args.line_lowercase:
+            if self._args.word_lowercase:
                 line = line.lower()
-            if self._args.line_uppercase:
+            if self._args.word_uppercase:
                 line = line.upper()
 
             # skip wonky words created by strings2
@@ -1007,6 +1012,9 @@ class WordsLoader():
                 # convert caps to _ (first so other flags work over this)
                 if self._args.split_caps:
                     elem = self._transform_caps(elem)
+
+                if self._args.word_capitalize:
+                    elem = elem.capitalize()
 
                 # regular elem
                 self._add_word(elem)
@@ -1181,7 +1189,7 @@ class WordsReverser():
                 progress_count += 1
                 if progress_count == progress_top:
                     progress_top += progress_add
-                    print("%i..." % (progress_count), word)
+                    print("%i..." % (progress_count), prefix, word, suffix)
 
 
                 hash = 2166136261 #base FNV hash
@@ -1259,7 +1267,7 @@ class WordsReverser():
                 progress_count += 1
                 if progress_count == progress_top:
                     progress_top += progress_add
-                    print("%i..." % (progress_count), word)
+                    print("%i..." % (progress_count), prefix, word, suffix)
 
 
                 hash = hash_default
@@ -1455,11 +1463,13 @@ class Hasher(object):
         if len(items) != 2:
             return None
         hash, name = items
+        name = name.strip()
         try:
             hash = int(hash.strip(), base)
         except:
             return None
-        name = name.strip()
+        if not name:
+            return None
         return hash, name
 
     # ---------------
@@ -1581,7 +1591,8 @@ class IntiCreatesHasher(Hasher):
         return hash
 
     def allow_fuzzy(self):
-        return False # TODO: possibly ok but unsure
+        # possibly ok, but most files have a filename so fuzzyness becomes useless
+        return False
 
 
 ## TODO: untested
@@ -1739,8 +1750,10 @@ def parse():
     p.add_argument('-ns', '--no-split',     help="Disable splitting words by '_'", action='store_true')
     p.add_argument('-cf', '--cut-first',    help="Cut first N chars (for strings2.exe odd results like 8bgm_main)", type=int)
     p.add_argument('-cl', '--cut-last',     help="Cut last N chars (for strings2.exe odd results like bgm_main8)", type=int)
-    p.add_argument('-lu', '--line-uppercase', help="Force lines to be read as uppercase", type=int)
-    p.add_argument('-ll', '--line-lowercase', help="Force lines to be read as lowercase", type=int)
+    # mainly for case sensitive hashes
+    p.add_argument('-wu', '--word-uppercase', help="Force words to be added as uppercase", type=int)
+    p.add_argument('-wl', '--word-lowercase', help="Force words to be added as lowercase", type=int)
+    p.add_argument('-wc', '--word-capitalize', help="Force words to be added as lowercase", type=int)
 
     args = p.parse_args()
 
