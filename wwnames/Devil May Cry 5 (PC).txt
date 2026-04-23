@@ -18990,7 +18990,18 @@ normal
 #1581173830  : boss_ml_SUCCESS
 #2356070310  : m14_differentworld_ONOFF
 #1842836167  : m14_differentworld_param
-#2090372151  : play_pl0000_BUSTER_ARTEMIS_BLOOD_GIRIGIRI1
-#2090372148  : play_pl0000_BUSTER_ARTEMIS_BLOOD_GIRIGIRI2
-#3129950484  : play_ingame_parry_result_servant
 #3150137146  : _ducker_ingame_event01
+
+3724992350  : trigger_test_add
+2333681237  : play_em0200_tail_woosh_run_start
+2099077530  : play_wp08_001_OVER_DIVE_SHELL_WALLHIT_bst
+2090372151  : play_pl0000_BUSTER_ARTEMIS_BLOOD_GIRIGIRI1
+2090372148  : play_pl0000_BUSTER_ARTEMIS_BLOOD_GIRIGIRI2
+3129950484  : play_ingame_parry_result_servant
+1605673768  : play_ui_res_BOSS_REGISTRATION_DOUBLE_start
+1386093401  : play_ui_res_BOSS_REGISTRATION_end
+2726693242  : play_ui_res_BOSS_REGISTRATION_start
+2799524028  : play_ui_cmn_cursol_OPEX_DISPLAY
+3846552967  : play_sm0451_katamarimakaijin_03_break
+4142172928  : play_sm0451_katamarimakaijin_04_break
+3922988945  : play_sm0451_katamarimakaijin_05_break
