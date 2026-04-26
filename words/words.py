@@ -89,10 +89,10 @@ class ResultsSorter():
                     continue
                 #done[hash] = context
                 subitems[hash] = items[hash]
-                
+
             if subitems:
                 lines += self._sort_lines(subitems)
-            
+
         else:
             lines = self._sort_lines(items)
 
@@ -373,12 +373,13 @@ class WordsCombinator():
             type_name = 'words'
             total = w_len
 
+        final_total = total * f_len
         if self._args.permutations:
-            print(f"creating {total} {type_name} * {f_len} formats ({s_len} sections)")
+            print(f"creating {total} {type_name} * {f_len} formats ({s_len} sections) = {final_total}")
         else:
-            print(f"creating {total} {type_name} * {f_len} formats = {total * f_len}")
+            print(f"creating {total} {type_name} * {f_len} formats = {final_total}")
 
-        return total
+        return final_total
 
 
 
@@ -488,12 +489,15 @@ class WordsLoader():
                     continue
 
                 # letters
-                if nxt == ord(b'c'):
+                if nxt == ord(b'c') or nxt == ord(b'C'):
                     ed = st + 1
-                    items = b'abcdefghijklmnopkrstuvwxyz'
+                    if nxt == ord(b'C'):
+                        items = b'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+                    else:
+                        items = b'abcdefghijklmnopkrstuvwxyz'
                     prefix = format[0:st]
                     suffix = format[ed+1:]
-                    
+
                     for item in items:
                         subformat = b'%s%c%s' % (prefix, item, suffix)
                         self._add_format_subformats(subformat)
@@ -505,7 +509,7 @@ class WordsLoader():
                     items = format[st+2:ed]
                     prefix = format[0:st]
                     suffix = format[ed+1:]
-                    
+
                     for item in items:
                         subformat = b'%s%c%s' % (prefix, item, suffix)
                         self._add_format_subformats(subformat)
@@ -570,7 +574,7 @@ class WordsLoader():
         except (ValueError, IndexError) as e:
             print("ignoring bad format", e)
             return
-        
+
     def _add_format_pf(self, format):
         if self._args.format_prefix:
             for pf in self._args.format_prefix:
@@ -908,10 +912,10 @@ class WordsLoader():
     def _transform_caps(self, elem):
         if not elem or len(elem) == 0:
             return elem
-        
+
         if elem.islower() or elem.isupper():
             return elem
-    
+
         curr = b''
         prev = b''
         for letter in elem:
@@ -973,11 +977,6 @@ class WordsLoader():
             if not line:
                 continue
 
-            if self._args.word_lowercase:
-                line = line.lower()
-            if self._args.word_uppercase:
-                line = line.upper()
-
             # skip wonky words created by strings2
             if self._args.ignore_wrong and self._is_line_ok(line):
                 continue
@@ -1013,7 +1012,12 @@ class WordsLoader():
                 if self._args.split_caps:
                     elem = self._transform_caps(elem)
 
-                if self._args.word_capitalize:
+                # after skips/transformations
+                if self._args.word_lowercase:
+                    elem = elem.lower()
+                elif self._args.word_uppercase:
+                    elem = elem.upper()
+                elif self._args.word_capitalize:
                     elem = elem.capitalize()
 
                 # regular elem
@@ -1049,6 +1053,13 @@ class WordsLoader():
             # most of the time only makes sense to automake formats from wwnames and not ww.txt
             if self._args.format_auto and (self._parsing_wwnames or self._args.format_auto_all):
                 for elem in elems:
+                    if self._args.word_lowercase:
+                        elem = elem.lower()
+                    elif self._args.word_uppercase:
+                        elem = elem.upper()
+                    elif self._args.word_capitalize:
+                        elem = elem.capitalize()
+
                     self._add_format_auto(elem)
 
         ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -1091,6 +1102,8 @@ class WordsReverser():
         self._args = args
         self._hasher = hasher
         self._loader = loader
+        self._written = 0
+        self._totals = 0
 
     def reverse_words(self):
         args = self._args
@@ -1106,8 +1119,8 @@ class WordsReverser():
         joiners = [joiner]
         combinator = WordsCombinator(args, loader._words, loader._formats, loader._sections, joiners)
 
-        totals = combinator.show_totals()
-        if not totals:
+        self._totals = combinator.show_totals()
+        if not self._totals:
             print("no words found")
             return
 
@@ -1121,18 +1134,22 @@ class WordsReverser():
             self._skipfile = skipfile
 
             start_time = time.time()
-            if isinstance(self._hasher, (WwiseHasher, WwiseExHasher)):
-                written = self._reverse_wwise(combinator)
-            else:
-                written = self._reverse_common(combinator)
+            try:
+                if isinstance(self._hasher, (WwiseHasher, WwiseExHasher)):
+                    self._reverse_wwise(combinator)
+                else:
+                    self._reverse_common(combinator)
+            except KeyboardInterrupt:
+                # mainly useful when one has multiple reversing flags in separate processes
+                print("forcefully stopped")
             end_time = time.time()
 
             self._outfile = None
             self._skipfile = None
-   
-        print("total %i results" % (written))
 
-        if written == 0:
+        print("total %i results" % (self._written))
+
+        if self._written == 0:
             os.remove(args.output_file)
         else:
             print("wrote %s" % (args.output_file))
@@ -1151,18 +1168,17 @@ class WordsReverser():
     # - uses words as bytes (rather than encoding/decoding) for some speed up.
     # - local variables (slightly faster)
     # - inline'd hash (25-50% speed up). calling a static func as a var is slow, and object's method call even slower
-    # - ifs: could use separate functions to avoid ifs but don't seem much faster
     # - mixing formats x words (rather than words x formats)
     #
     # ignored optimizations:
-    # - frozenset(reversables): ignored, no apparent changes
+    # - ifs: could use separate functions to avoid ifs but don't seem much faster
+    # - frozenset(reversables): no apparent changes
     # - reversables_in = reversables.__contains__: not noticeable, probably optimized out in pypy
     # - in mode_combine, using word_iter = iter(word) to avoid if: not noticeable
     # - in mode_combine, including joiners as part of the generator to void if: not noticeable
     # - don't check for skips first: its ~2-5% faster to hash + check, than check skips first (less common)
     # - unrolled words for combinations 2/3: ~<1% and ugly
     def _reverse_wwise(self, combinator):
-        written = 0
         loader = self._loader
 
         # local variables, possibly faster
@@ -1189,7 +1205,7 @@ class WordsReverser():
                 progress_count += 1
                 if progress_count == progress_top:
                     progress_top += progress_add
-                    print("%i..." % (progress_count), prefix, word, suffix)
+                    self.show_progress_info(progress_count, prefix, word, suffix)
 
 
                 hash = 2166136261 #base FNV hash
@@ -1231,14 +1247,10 @@ class WordsReverser():
                     if hash_fuzzy not in fuzzies:
                         continue
 
-                done = self._handle_match(word, joiner, hash, hash_fuzzy, format_key)
-                written += done
-
-        return written
+                self._handle_match(word, joiner, hash, hash_fuzzy, format_key)
 
     # similar to the above, but less optimized
     def _reverse_common(self, combinator):
-        written = 0
         loader = self._loader
         hasher = self._hasher
 
@@ -1267,7 +1279,7 @@ class WordsReverser():
                 progress_count += 1
                 if progress_count == progress_top:
                     progress_top += progress_add
-                    print("%i..." % (progress_count), prefix, word, suffix)
+                    self.show_progress_info(progress_count, prefix, word, suffix)
 
 
                 hash = hash_default
@@ -1296,10 +1308,7 @@ class WordsReverser():
                     if hash_fuzzy not in fuzzies:
                         continue
 
-                done = self._handle_match(word, joiner, hash, hash_fuzzy, format_key)
-                written += done
-
-        return written
+                self._handle_match(word, joiner, hash, hash_fuzzy, format_key)
 
     # handles a confirmed match
     # this doesn't happen often so there is no need to over-optimize
@@ -1338,9 +1347,8 @@ class WordsReverser():
         if written:
             # reversing is most interesting with lots of loops = slow, keep flushing (rare)
             self._outfile.flush()
+            self._written += written
 
-        return written
-    
     def _write_match(self, hash, name):
         args = self._args
         hasher = self._hasher
@@ -1414,6 +1422,10 @@ class WordsReverser():
         else:
             word_og = loader._words[word]
             return format % (word_og)
+
+    def show_progress_info(self, progress_count, prefix, word, suffix):
+        pct = progress_count / self._totals * 100
+        print("%i... (%i%%, w=%i): " % (progress_count, pct, self._written), prefix, word, suffix)
 
 ###############################################################################
 
