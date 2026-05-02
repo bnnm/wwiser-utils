@@ -1135,7 +1135,7 @@ class WordsReverser():
 
             start_time = time.time()
             try:
-                if isinstance(self._hasher, (WwiseHasher, WwiseExHasher)):
+                if self._hasher.is_wwise():
                     self._reverse_wwise(combinator)
                 else:
                     self._reverse_common(combinator)
@@ -1487,6 +1487,10 @@ class Hasher(object):
     # ---------------
     # hash processing
 
+    # Wwise hashing is inline'd for speed
+    def is_wwise(self):
+        return False
+
     # hash an array of bytes
     def get_hash(self, namebytes):
         return 0
@@ -1511,6 +1515,9 @@ class WwiseHasher(Hasher):
     _FNV_DICT = b'0123456789abcdefghijklmnopqrstuvwxyz_'
 
     #--------------------------------------------------------------------------
+
+    def is_wwise(self):
+        return True
 
     # Find actual name from a close name (same up to last char) using some fuzzy searching
     # ('bgm0' and 'bgm9' IDs only differ in the last byte, so it calcs 'bgm' + '0', '1'...)
