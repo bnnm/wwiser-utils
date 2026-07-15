@@ -1,0 +1,9894 @@
+
+### BANK NAMES
+amb_A1M4_ext
+amb_A1M4_ladder_main
+amb_a1m4_lobby_a
+Amb_A3M5_DamWaterfall
+Amb_Air_Raid
+Amb_AL_Bar
+amb_AL_border_main
+Amb_AL_Cemetery
+Amb_AL_ChemicalFactory
+Amb_AL_Chinatown
+Amb_AL_Church
+Amb_Al_Church_Country
+Amb_AL_Construction
+Amb_AL_Dopp_Factory
+Amb_AL_Factory
+amb_AL_hq_BDN_Stage
+amb_AL_hq_catacombs_01b
+amb_AL_hq_catacombs_02b
+Amb_AL_hq_LeHavre
+amb_AL_hq_RedOx
+amb_AL_HQ_slaughterHouse
+amb_AL_hq_waterfall
+AMB_AL_LaHavre_OceanFar
+AMB_AL_LaHavre_OceanNear
+Amb_AL_Market_French
+Amb_AL_Monument
+Amb_AL_Monument_Country
+Amb_AL_Nazi
+amb_AL_P1_LaVillette_MainRoom
+Amb_AL_P1FP_GetMeds_Party
+Amb_AL_Pantheon_Ext
+Amb_AL_Pantheon_Int
+Amb_AL_Park
+Amb_AL_Poor
+Amb_AL_Sacrecoeur_Church
+Amb_AL_SmVillage
+Amb_AL_Train_Ext
+Amb_AL_Train_Ext_Country
+Amb_AL_Wealthy
+Amb_Bar
+Amb_Barrel_Fire
+Amb_Bell_Impacts
+amb_car_factory
+Amb_Centre_River_S2M2
+Amb_Checkpoint_Gate
+Amb_Chicken
+Amb_Civ_Cry
+Amb_Civ_Drunk
+Amb_Civ_Fire
+Amb_Civ_Fish
+Amb_Civ_News
+Amb_Civ_Sick
+Amb_Civ_Smoke
+Amb_Civ_Violin
+Amb_Coin_Drop
+Amb_Cows
+Amb_Dopp_Factory_Car
+amb_doppelsieg_office_a
+Amb_Dyn_Countryside_HWTF_A
+Amb_Dyn_Countryside_HWTF_B
+Amb_Dyn_Countryside_HWTF_C
+Amb_Dyn_Countryside_LWTF_A
+Amb_Dyn_Countryside_LWTF_B
+Amb_Dyn_Countryside_LWTF_C
+Amb_Dyn_Cyclotron
+Amb_Dyn_FP_Lossuaire
+amb_dyn_hq_BDN_mainRoom
+amb_Dyn_hq_BDN_SeansRoom
+amb_Dyn_hq_catacombs_01a
+amb_Dyn_hq_catacombs_02a
+Amb_Dyn_HQ_Sacrecoeur_Church
+amb_Dyn_HQ_slaughterHouse
+amb_Dyn_hq_waterfall
+Amb_Dyn_Pantheon_Int
+Amb_Dyn_Paris_Generic_Hwtf_A
+Amb_Dyn_Paris_Generic_Hwtf_B
+Amb_Dyn_Paris_Generic_Hwtf_C
+Amb_Dyn_Paris_Generic_Hwtf_D
+Amb_Dyn_Paris_Generic_Hwtf_E
+Amb_Dyn_Paris_Generic_Lwtf_A
+Amb_Dyn_Paris_Generic_Lwtf_B
+Amb_Dyn_Paris_Generic_Lwtf_C
+Amb_Dyn_Paris_Generic_Lwtf_D
+Amb_Dyn_Paris_Generic_Lwtf_E
+Amb_Elec_Box
+amb_factory_ventilation
+Amb_Generator
+amb_hq_waterfall_ext
+Amb_Knock_Door
+amb_MoriniFarm
+amb_P6_sewers
+Amb_Radar_Dish
+Amb_Sleep_Snore
+Amb_Train_Slim
+amb_turbine_room
+Amb_Wine_Drink
+Amb_Work_Hammer
+Amb_Work_Motorcycle
+Amb_Work_Pitchfork
+Amb_Work_Shovel
+Amb_Work_Sweep
+Amb_Work_Whistling
+Ambiances
+AmbRainBank
+Common
+Door_Belle_Back_Open
+Door_Belle_Front_Open
+Door_Belle_Secret
+Door_Catacombs_Entrance
+Door_Catacombs_Int_MtlGate
+Door_Elevator_Button
+Door_Hide_Hatch_Open
+Door_Hide_Spots_Hatch
+Door_Hide_Spots_Piss
+Door_Hide_Spots_Shed
+Door_Jail_Cell_Swing
+Door_Large_Wood_Open
+Door_LeHavre_Church_Open
+Door_LeHavre_Skylar_Apt_Open
+Door_Medium_Wood_Open
+Door_Slaughterhouse_Open
+emt_Belle_Gramaphone
+emt_Console_Tower
+Emt_EiffelTower_Elevator
+Emt_EiffelTower_Wind
+emt_ElectricBox01
+Emt_Fountain_Dierker
+Emt_Fountain_Dopp
+Emt_Fountain_Large
+Emt_Fountain_Med
+Emt_Fountain_Small
+Emt_Guitar_Anim
+Emt_OccMed_Converter
+Emt_OccMed_V2Rocket
+Emt_oil_fire
+Emt_PRes_Candle
+emt_Radar_C_MAX
+Emt_Radios_01
+Emt_River_Ctry
+Emt_Steam
+Emt_Stream
+Emt_WaterDrop_ParticleFX
+emt_waterFountain_01
+Explosions_Impacts
+init
+Lever_Jail_Release
+Lever_Klaxon_Alarm
+m_A1M0_inGame
+m_A1M1_inGame
+m_A1M1b_inGame
+m_A1M2_inGame
+m_A1M3_inGame
+m_A1M4_inGame
+m_A1M4_planes
+m_A1M5_inGame
+m_A3M1_inGame
+m_A3M2_inGame
+m_A3M3_inGame
+m_A3M5_inGame
+m_A3M6_inGame
+m_fp_ChemicalFactory
+m_fp_CountryRace_1
+m_fp_CountryRace_2
+m_fp_L_ossuaire
+m_fp_nz_wedding
+m_fp_P3FP_Hit
+m_fp_P3FP_PantheonGun
+m_fp_SaarbruckenTimeTrial
+m_P1FP_GetMeds
+m_P1fP_Jailbreak
+m_P1FP_KillCourtyard
+m_P1FP_PalaisBombe
+m_P1M1_inGame
+m_P1M1b_inGame
+m_P1M6_inGame
+m_P2M5_Boiler
+m_P2M5_inGame
+m_P2M5_inGame_02
+m_P3FP_FountainSniper
+m_P3FP_Jardin
+m_P3FP_RadioSabotage
+m_P3M1_inGame
+m_P4M1_inGame
+m_P5M3_inGame
+m_P6M1_inGame
+m_S1M6_inGame_01
+m_S1M6_inGame_02
+m_S1M7_inGame
+m_S2M2_inGame
+Music
+SwimBank
+UI
+UI_alwaysLoaded
+ui_hq_belle
+Vehicles
+VH_CV_CR_AlfaRom_12C
+VH_CV_CR_AlfaRom_12C_npc
+VH_CV_CR_AlfaRomera
+VH_CV_CR_AlfaRomera_npc
+VH_CV_CR_Allard
+VH_CV_CR_Allard_npc
+VH_CV_CR_Aurora
+VH_CV_CR_Aurora_npc
+VH_CV_CR_Bugatti
+VH_CV_CR_Bugatti_npc
+VH_CV_CR_CeltaQuatre
+VH_CV_CR_CeltaQuatre_npc
+VH_CV_CR_Citroen15
+VH_CV_CR_Citroen15_npc
+VH_CV_CR_Citroen6C
+VH_CV_CR_Citroen6C_npc
+VH_CV_CR_Citroen7C
+VH_CV_CR_Citroen7C_npc
+VH_CV_CR_Dierker
+VH_CV_CR_Dierker_npc
+VH_CV_CR_Horch853
+VH_CV_CR_Horch853_npc
+VH_CV_CR_MaterTipo4CL
+VH_CV_CR_MaterTipo4CL_npc
+VH_CV_CR_Peugeot402
+VH_CV_CR_Peugeot402_npc
+VH_CV_CR_Peugeot402_npc_escalated
+VH_CV_CR_RenaultPolice
+VH_CV_CR_RenaultPolice_npc
+VH_CV_CR_RenaultvivaGS
+VH_CV_CR_RenaultvivaGS_npc
+VH_CV_CR_SilverDart
+VH_CV_CR_SilverDart_npc
+VH_CV_CR_TalbotLago
+VH_CV_CR_TalbotLago_npc
+VH_CV_TR_CitroenType45
+VH_CV_TR_CitroenType45_npc
+VH_CV_TR_Firetruck
+VH_CV_TR_Firetruck_npc
+VH_CV_TR_FrenchPoliceWagon
+VH_CV_TR_FrenchPoliceWagon_npc
+VH_CV_TR_FrenchTractor
+VH_CV_TR_FrenchTractor_npc
+VH_CV_TR_RenaultBrigitte
+VH_CV_TR_RenaultBrigitte_npc
+VH_NZ_CR_6WheelNaziLimo
+VH_NZ_CR_6WheelNaziLimo_npc
+VH_NZ_CR_Kubelwagen
+VH_NZ_CR_Kubelwagen_npc
+VH_NZ_MO_KS750Sidecar
+VH_NZ_MO_KS750Sidecar_npc
+VH_NZ_TK_Flammwagen
+VH_NZ_TK_Flammwagen_npc
+VH_NZ_TK_KingTiger
+VH_NZ_TK_KingTiger_npc
+VH_NZ_TK_Maus
+VH_NZ_TK_Maus_npc
+VH_NZ_TK_PanzerMk3
+VH_NZ_TK_PanzerMk3_npc
+VH_NZ_TK_Renault_FT17
+VH_NZ_TK_Renault_FT17_npc
+VH_NZ_TK_Stum_III
+VH_NZ_TK_Stum_III_npc
+VH_NZ_TR_Am33p
+VH_NZ_TR_Am33p_npc
+VH_NZ_TR_FraSaurer
+VH_NZ_TR_FraSaurer_npc
+VH_NZ_TR_Getaway_OpelGun
+VH_NZ_TR_Getaway_OpelGun_npc
+VH_NZ_TR_HalfTrack
+VH_NZ_TR_HalfTrack_npc
+VH_NZ_TR_OM_OpelFlameVan
+VH_NZ_TR_OM_OpelFlameVan_npc
+VH_NZ_TR_OpelCanvas
+VH_NZ_TR_OpelCanvas_npc
+VH_NZ_TR_OpelFuelTruck
+VH_NZ_TR_OpelFuelTruck_npc
+VH_NZ_TR_OpelGasVan
+VH_NZ_TR_OpelGasVan_npc
+VH_NZ_TR_OpelGun
+VH_NZ_TR_OpelGun_npc
+VH_NZ_TR_OpelMed
+VH_NZ_TR_OpelMed_npc
+VH_NZ_TR_OpelTruck
+VH_NZ_TR_OpelTruck_npc
+VH_NZ_TR_PumaZ234
+VH_NZ_TR_PumaZ234_npc
+VH_NZ_TR_V1OpelTruck
+VH_NZ_TR_V1OpelTruck_npc
+Weapons
+wp_at_105mm
+wp_at_37mm
+wp_at_4Barrel
+wp_at_AAgun
+wp_at_Am33p
+wp_at_FlakGun
+wp_at_KingTiger
+wp_at_panzer
+wp_at_PnthnDome
+wp_at_PumaZ234
+wp_at_trainBarrel
+wp_ft_Flamethrower
+wp_ft_TerrorSquad
+wp_mg_MG42
+wp_mg_MP40
+wp_mg_MP44
+wp_mg_Sten
+wp_mg_Sten_Silencer
+wp_mg_TerrorSquad
+wp_mg_Thompson
+wp_ps_DierkerGun
+wp_ps_Luger
+wp_ps_Mauser
+wp_ps_Revolver
+wp_ps_WaltherPPK
+wp_ps_WaltherPPK_Silencer
+wp_rf_Gewehr_Scope
+wp_rf_Gewehr_Scope_Silencer
+wp_rf_Hunting
+wp_rf_Karbine
+wp_rpg_Panzerfaust
+wp_rpg_Panzrshrek
+WP_SAB_BridgeKiller
+WP_SAB_DynamiteFuse
+WP_SAB_RDX_Charge
+wp_sh_12GaugeDouble
+wp_sh_12GaugeDouble_SawedOff
+wp_sh_12GaugePump
+wp_sh_TerrorSquad
+# 1291325753
+# 1778565386
+# 2112739996
+# 2316740868
+# 2374690239
+# 2661997104
+# 2835285379
+# 3198824696
+# 3572798788
+# 3572798789
+# 3572798791
+# 3994764637
+# 524734152
+# 692555434
+# 709286575
+# 752065870
+# 778194250
+# 866478645
+
+### BUS NAMES
+# 565654233
+# 991723606
+# 1052692187
+# 440923617
+# 1041539902
+# 651269699
+# 743132434
+# 916055585
+# 1046947627
+# 644298379
+# 584180997
+# 45924896
+# 690866084
+# 1030479823
+# 662673439
+# 682341632
+# 505514006
+# 343100869
+# 63504279
+# 93579632
+# 285304144
+# 124671069
+# 396957171
+# 638588259
+# 1026893897
+# 245684248
+# 297829472
+# 512258301
+# 375509680
+# 386090617
+# 780072554
+# 699465187
+# 486447509
+# 345789595
+# 529516036
+# 373322108
+# 614291867
+# 230401857
+# 698121631
+# 406126018
+# 715844724
+# 859570233
+# 390034643
+# 140534836
+# 582959145
+# 970540951
+# 722226409
+# 483030528
+# 742915648
+# 1008244072
+# 998617953
+# 497658921
+# 481238626
+# 947144884
+# 1044598956
+# 863837110
+# 584874649
+# 902568667
+# 232221180
+# 896278814
+# 913784239
+# 833744280
+# 542534157
+# 603676855
+# 1055307942
+# 344655534
+# 1045337811
+# 778260177
+# 511541998
+# 272033355
+# 572266597
+# 687508052
+# 750323727
+
+### BASE RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
+ALTITUDE
+CABINT
+DISGUISE_AMOUNT
+distance
+DISTANCE_BELL
+distance_EMITTERS
+doppler
+EQUALIZER
+EXHAUSTION
+GROUNDWETNESS
+Health
+LFO
+LOAD
+MASS
+RAIN
+SLIDESPEED
+SPEED
+SUSPENSIONDEF
+TIMEOFDAY
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BRAKE
+VEH_BRAKE_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_HBRAKE_LOAD
+VEH_Health
+VEH_REV
+VEH_RPM
+VEH_SPD
+Volume_Master
+volume_music
+Volume_Radio
+volume_sfx
+Volume_VO
+WEAPON_AMMO
+WeaponFire
+WILLTOFIGHT
+
+### RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
+ALTITUDE
+distance
+EQUALIZER
+EXHAUSTION
+GROUNDWETNESS
+Health
+MASS
+RAIN
+SPEED
+SUSPENSIONDEF
+VEH_ACCEL
+VEH_BRAKE_LOAD
+VEH_HBRAKE
+VEH_Health
+VEH_REV
+VEH_SPD
+Volume_Master
+volume_music
+volume_sfx
+Volume_VO
+
+### VARIABLE NAMES (1355168291.bnk: init)
+CINEMATIC
+escalation_onoff
+Explosion_Distance
+fp_CountryRace1
+fp_CountryRace2
+fp_P1FP_entourage
+fp_P1FP_GetMeds
+fp_P1FP_KillCourtyard
+fp_P1FP_NaziWedding
+fp_P1FP_traitor
+fp_P2FP_RadioRescue
+fp_P2FP_trap
+fp_P3FP_FountainSniper
+fp_P3FP_Hit
+fp_P3FP_Jardin
+fp_P3FP_RadioSabotage
+Houb
+intensity
+interior
+location
+m_A1M1_race
+m_A1M2_barfight
+m_A1M3_GetCaught
+m_A1M4_escape
+m_A3M2_Dierker
+m_P3M1_Catacombs
+m_P4M1_Cemetary
+m_P6M1_PrisonBreak
+m_S1M6_zeppelin
+m_S2M2_Train
+Radio
+RadioClarity
+RadioTrack
+REV_up
+reverse_switch
+shift_down
+shift_up
+size_EXPLOSIONS
+size_impacts
+TIMEOFDAY
+Train
+TrainBrake
+VEH_ACCEL_zero
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_motorcycle
+VEH_gear_Racecar
+VEH_gear_reverse
+VEH_gear_sound
+VEH_gear_tank
+VEH_gear_truck
+VEH_Health_size
+VEH_LOAD
+VEH_low_ACCEL
+Vehicle_Brakes
+Vehicle_shift
+WeaponDistance
+WeaponDistanceMg
+WeaponFire
+WILLTOFIGHT
+# 3177880885
+# 3009626804
+# 3755331875
+# 2781278498
+# 4090672321
+# 2689498483
+# 49571316
+# 332553816
+# 1930230363
+# 2839136352
+# 3252033208
+# 1400507559
+# 2721664204
+# 2946516166
+# 3969253159
+# 4284950544
+# 1257001493
+# 3130866830
+# 3099681633
+# 3518356543
+# 3846766534
+# 1554147866
+# 1674151172
+# 1219207518
+# 2067639245
+# 2305636090
+# 3294099918
+
+### VALUE NAMES (1355168291.bnk: init)
+A1M1_race
+A1M2_BarFight
+A1M3_GetCaught
+A1M4_escape
+A3M2_Dierker
+Belle_de_Nuit
+default
+fp_CountryRace1
+fp_CountryRace2
+fp_P1FP_entourage
+fp_P1FP_GetMeds
+fp_P1FP_KillCourtyard
+fp_P1FP_NaziWedding
+fp_P1FP_traitor
+fp_P2FP_RadioRescue
+fp_P2FP_trap
+fp_P3FP_FountainSniper
+fp_P3FP_Hit
+fp_P3FP_Jardin
+fp_P3FP_RadioSabotage
+germany
+high
+low
+mg_beneficial
+none
+P3M1_Catacombs
+P4M1_Cemetary
+P6M1_PrisonBreak
+PARIS
+S1M6_zeppelin
+S2M2_Train
+silence
+ui_StartMenu
+ui_StartMenu_Belle
+ui_StartMenu_Belle_02
+ui_StartMenu_Belle_03
+ui_StartMenu_Belle_04
+# 1914442175
+# 319395526
+# 759976971
+# 3052837021
+# 2080562319
+# 944004480
+# 3318974055
+# 3209104524
+# 3178450919
+# 845621618
+# 2573698391
+# 3519105908
+# 2207586203
+# 2102507797
+# 2456814331
+# 3311553952
+# 4087120975
+# 3062335792
+# 712262114
+# 2411624035
+# 4009156943
+# 1845223089
+# 969842834
+# 353713079
+# 116096275
+# 4058701252
+# 4075651229
+# 3579257964
+# 4175718304
+# 3351544973
+# 2950451639
+# 3498740607
+# 1385096478
+# 2128249156
+# 2198566525
+# 1638837369
+# 2918548019
+# 1014231039
+# 775560213
+# 3745252589
+# 3328094239
+# 345909357
+# 496394434
+# 1502108972
+# 3853251040
+# 3816450516
+# 3252033208
+# 1400507559
+# 2721664204
+# 2946516166
+# 1257001493
+# 3969253159
+# 4284950544
+# 3338989314
+# 4039462898
+# 4013382613
+# 4265045155
+# 3064799170
+# 330869522
+# 330869521
+# 330869520
+# 1871513934
+# 2242709163
+# 1654784908
+# 3010910309
+
+### EVENT NAMES (1557809985.bnk: AMB_AL_LaHavre_OceanFar)
+# 169256660
+# 204958202
+
+### RTPC/GAME-VARIABLE NAMES (1557809985.bnk: AMB_AL_LaHavre_OceanFar)
+SPEED
+
+### EVENT NAMES (3437474080.bnk: AMB_AL_LaHavre_OceanNear)
+# 937955123
+# 3000752757
+
+### RTPC/GAME-VARIABLE NAMES (3437474080.bnk: AMB_AL_LaHavre_OceanNear)
+SPEED
+
+### EVENT NAMES (2709630467.bnk: AmbRainBank)
+# 480617133
+# 1595271507
+# 2021497619
+
+### RTPC/GAME-VARIABLE NAMES (2709630467.bnk: AmbRainBank)
+RAIN
+
+### VARIABLE NAMES (2709630467.bnk: AmbRainBank)
+# 3518356543
+
+### VALUE NAMES (2709630467.bnk: AmbRainBank)
+off
+on
+
+### EVENT NAMES (3052846759.bnk: Amb_A3M5_DamWaterfall)
+play_Emt_A3M5_DamWaterfall
+stop_Emt_A3M5_DamWaterfall
+# 1313606501
+# 1313606502
+# 1313606503
+# 1544044678
+# 1778550961
+# 1788212009
+# 3020344678
+# 3103718747
+# 3465191444
+# 3498106824
+# 3640441528
+# 3640441529
+# 3640441531
+# 4109341059
+
+### RTPC/GAME-VARIABLE NAMES (3052846759.bnk: Amb_A3M5_DamWaterfall)
+distance
+
+### EVENT NAMES (1256161787.bnk: Amb_AL_Bar)
+play_Amb_Bar
+stop_Amb_Bar
+
+### RTPC/GAME-VARIABLE NAMES (1256161787.bnk: Amb_AL_Bar)
+RAIN
+
+### EVENT NAMES (2909468136.bnk: Amb_AL_Cemetery)
+play_Amb_Cemetery
+stop_Amb_Cemetery
+
+### RTPC/GAME-VARIABLE NAMES (2909468136.bnk: Amb_AL_Cemetery)
+RAIN
+
+### EVENT NAMES (3375525233.bnk: Amb_AL_Chinatown)
+play_Amb_Chinatown
+stop_Amb_Chinatown
+
+### RTPC/GAME-VARIABLE NAMES (3375525233.bnk: Amb_AL_Chinatown)
+RAIN
+
+### EVENT NAMES (1561257765.bnk: Amb_AL_Church)
+play_Amb_Church
+stop_Amb_Church
+
+### RTPC/GAME-VARIABLE NAMES (1561257765.bnk: Amb_AL_Church)
+RAIN
+
+### EVENT NAMES (4005555955.bnk: Amb_AL_Construction)
+play_Amb_Construction
+stop_Amb_Construction
+
+### RTPC/GAME-VARIABLE NAMES (4005555955.bnk: Amb_AL_Construction)
+RAIN
+
+### EVENT NAMES (2913738384.bnk: Amb_AL_Dopp_Factory)
+play_amb_car_factory
+stop_amb_car_factory
+# 32333884
+# 741625288
+# 741625289
+# 741625291
+# 1316784194
+# 1593647989
+# 1593647990
+# 1593647991
+
+### EVENT NAMES (230107190.bnk: Amb_AL_Factory)
+play_amb_factory
+stop_amb_factory
+
+### RTPC/GAME-VARIABLE NAMES (230107190.bnk: Amb_AL_Factory)
+RAIN
+
+### EVENT NAMES (1076127395.bnk: Amb_AL_Market_French)
+play_Amb_Market_French
+stop_Amb_Market_French
+
+### RTPC/GAME-VARIABLE NAMES (1076127395.bnk: Amb_AL_Market_French)
+RAIN
+
+### EVENT NAMES (4119646603.bnk: Amb_AL_Monument)
+play_Amb_Monument_Ext
+stop_Amb_Monument_Ext
+
+### RTPC/GAME-VARIABLE NAMES (4119646603.bnk: Amb_AL_Monument)
+RAIN
+
+### EVENT NAMES (2868341552.bnk: Amb_AL_Monument_Country)
+play_Amb_Monument_Ext_Country
+stop_Amb_Monument_Ext_Country
+
+### RTPC/GAME-VARIABLE NAMES (2868341552.bnk: Amb_AL_Monument_Country)
+RAIN
+
+### EVENT NAMES (2335622428.bnk: Amb_AL_Nazi)
+play_Amb_Nazi
+stop_Amb_Nazi
+
+### RTPC/GAME-VARIABLE NAMES (2335622428.bnk: Amb_AL_Nazi)
+RAIN
+
+### EVENT NAMES (1891661578.bnk: Amb_AL_P1FP_GetMeds_Party)
+# 1540606440
+# 3093500122
+# 4014708686
+# 4251108960
+
+### EVENT NAMES (3101267177.bnk: Amb_AL_Pantheon_Ext)
+# 467166304
+# 2548576198
+
+### EVENT NAMES (3267174963.bnk: Amb_AL_Pantheon_Int)
+# 161165607
+# 3594092921
+
+### EVENT NAMES (3312884740.bnk: Amb_AL_Park)
+play_Amb_Park
+stop_Amb_Park
+# 1898981772
+# 4197675806
+
+### RTPC/GAME-VARIABLE NAMES (3312884740.bnk: Amb_AL_Park)
+RAIN
+
+### EVENT NAMES (3093201760.bnk: Amb_AL_Poor)
+play_Amb_Poor
+stop_Amb_Poor
+
+### RTPC/GAME-VARIABLE NAMES (3093201760.bnk: Amb_AL_Poor)
+RAIN
+
+### EVENT NAMES (2116160140.bnk: Amb_AL_Sacrecoeur_Church)
+# 192495550
+# 2405985264
+
+### EVENT NAMES (904094376.bnk: Amb_AL_SmVillage)
+play_Amb_SmVillage
+stop_Amb_SmVillage
+
+### RTPC/GAME-VARIABLE NAMES (904094376.bnk: Amb_AL_SmVillage)
+RAIN
+
+### EVENT NAMES (2548495066.bnk: Amb_AL_Train_Ext)
+play_Amb_Train_Ext
+stop_Amb_Train_Ext
+
+### RTPC/GAME-VARIABLE NAMES (2548495066.bnk: Amb_AL_Train_Ext)
+RAIN
+
+### EVENT NAMES (2105607017.bnk: Amb_AL_Train_Ext_Country)
+play_Amb_Train_Ext_Country
+stop_Amb_Train_Ext_Country
+
+### RTPC/GAME-VARIABLE NAMES (2105607017.bnk: Amb_AL_Train_Ext_Country)
+RAIN
+
+### EVENT NAMES (564437412.bnk: Amb_AL_Wealthy)
+play_Amb_Wealthy
+stop_Amb_Wealthy
+
+### RTPC/GAME-VARIABLE NAMES (564437412.bnk: Amb_AL_Wealthy)
+RAIN
+
+### EVENT NAMES (1526700773.bnk: Amb_AL_hq_LeHavre)
+# 192495550
+# 2405985264
+
+### EVENT NAMES (4121757429.bnk: Amb_Air_Raid)
+play_Amb_Air_Raid
+stop_Amb_Air_Raid
+
+### EVENT NAMES (1542877086.bnk: Amb_Al_Church_Country)
+play_Amb_Church_Country
+stop_Amb_Church_Country
+
+### RTPC/GAME-VARIABLE NAMES (1542877086.bnk: Amb_Al_Church_Country)
+RAIN
+
+### EVENT NAMES (3654710941.bnk: Amb_Bar)
+play_Amb_Bar
+stop_Amb_Bar
+
+### RTPC/GAME-VARIABLE NAMES (3654710941.bnk: Amb_Bar)
+RAIN
+
+### EVENT NAMES (3539243805.bnk: Amb_Barrel_Fire)
+play_Amb_Barrel_Fire
+stop_Amb_Barrel_Fire
+
+### EVENT NAMES (3010948405.bnk: Amb_Bell_Impacts)
+# 450028918
+# 817963332
+# 2282059363
+# 2796975213
+
+### EVENT NAMES (790009565.bnk: Amb_Centre_River_S2M2)
+# 153601790
+# 169540674
+# 1009539724
+# 2300766616
+# 2858120704
+# 3466984942
+
+### RTPC/GAME-VARIABLE NAMES (790009565.bnk: Amb_Centre_River_S2M2)
+distance
+
+### EVENT NAMES (192317022.bnk: Amb_Checkpoint_Gate)
+# 377562246
+# 812356660
+# 1270374610
+# 1612041040
+
+### EVENT NAMES (2364451291.bnk: Amb_Chicken)
+play_chickendeath
+stop_chickendeath
+# 1246146255
+# 1569555777
+
+### EVENT NAMES (1147096021.bnk: Amb_Civ_Cry)
+play_cry_female
+stop_cry_female
+
+### EVENT NAMES (3640588515.bnk: Amb_Civ_Drunk)
+play_drunk_hiccup
+play_Sleep_Snore
+play_Sleep_Snore_stop
+stop_drunk_hiccup
+stop_Sleep_Snore
+# 45422493
+# 1861982812
+# 2635744342
+# 3533992107
+
+### EVENT NAMES (2439112247.bnk: Amb_Civ_Fire)
+# 553752871
+# 2386293013
+# 3176249866
+# 3413807464
+
+### EVENT NAMES (2455889805.bnk: Amb_Civ_Fish)
+play_civ_fish_cast
+play_civ_fish_reel
+play_stop_civ_fish
+# 1469173847
+
+### EVENT NAMES (81448174.bnk: Amb_Civ_News)
+# 1117396065
+# 1369184440
+# 2829139954
+# 3101434859
+
+### EVENT NAMES (3279568369.bnk: Amb_Civ_Sick)
+# 517791270
+# 1415518005
+# 1541592885
+# 2366294068
+# 3505102374
+# 3615290476
+
+### EVENT NAMES (4163820870.bnk: Amb_Civ_Smoke)
+play_Smoke_Exhale
+play_smoke_inhale
+stop_Smoke_Exhale
+stop_smoke_inhale
+# 925283078
+# 1857896339
+# 2992208096
+# 3840871917
+
+### EVENT NAMES (748699940.bnk: Amb_Civ_Violin)
+# 98807363
+# 168728301
+# 4109076654
+
+### EVENT NAMES (346847927.bnk: Amb_Coin_Drop)
+play_Coin_Drop
+stop_Coin_Drop
+
+### RTPC/GAME-VARIABLE NAMES (346847927.bnk: Amb_Coin_Drop)
+ALTITUDE
+
+### EVENT NAMES (4041595982.bnk: Amb_Cows)
+# 1173566602
+# 3104856971
+
+### EVENT NAMES (2686134445.bnk: Amb_Dopp_Factory_Car)
+# 32333884
+# 741625288
+# 741625289
+# 741625291
+# 1316784194
+# 1593647989
+# 1593647990
+# 1593647991
+
+### EVENT NAMES (861414989.bnk: Amb_Dyn_Countryside_HWTF_A)
+# 842499232
+# 2478436990
+
+### EVENT NAMES (861414990.bnk: Amb_Dyn_Countryside_HWTF_B)
+# 2478436989
+# 4169130471
+
+### EVENT NAMES (861414991.bnk: Amb_Dyn_Countryside_HWTF_C)
+# 2478436988
+# 4169130470
+
+### EVENT NAMES (3186695553.bnk: Amb_Dyn_Countryside_LWTF_A)
+play_Amb_Countryside_LWTF_A
+stop_Amb_Countryside_LWTF_A
+
+### EVENT NAMES (3186695554.bnk: Amb_Dyn_Countryside_LWTF_B)
+play_Amb_Countryside_LWTF_B
+stop_Amb_Countryside_LWTF_B
+
+### EVENT NAMES (3186695555.bnk: Amb_Dyn_Countryside_LWTF_C)
+play_Amb_Countryside_LWTF_C
+stop_Amb_Countryside_LWTF_C
+
+### EVENT NAMES (2522374227.bnk: Amb_Dyn_Cyclotron)
+# 37347730
+# 651599676
+# 1309167094
+# 2124510342
+# 2807012434
+# 3007593964
+# 3215085536
+
+### EVENT NAMES (3440210126.bnk: Amb_Dyn_FP_Lossuaire)
+play_emt_Console_desk
+stop_emt_Console_desk
+
+### EVENT NAMES (3092126990.bnk: Amb_Dyn_HQ_Sacrecoeur_Church)
+play_Amb_Church_01
+stop_Amb_Church_01
+
+### EVENT NAMES (3108401425.bnk: Amb_Dyn_Pantheon_Int)
+# 1590124430
+# 3795402124
+
+### RTPC/GAME-VARIABLE NAMES (3108401425.bnk: Amb_Dyn_Pantheon_Int)
+SPEED
+
+### EVENT NAMES (21422865.bnk: Amb_Dyn_Paris_Generic_Hwtf_A)
+# 361251922
+# 378994656
+
+### EVENT NAMES (21422866.bnk: Amb_Dyn_Paris_Generic_Hwtf_B)
+# 361251921
+# 378994659
+
+### EVENT NAMES (21422867.bnk: Amb_Dyn_Paris_Generic_Hwtf_C)
+# 361251920
+# 378994658
+
+### EVENT NAMES (21422868.bnk: Amb_Dyn_Paris_Generic_Hwtf_D)
+# 361251927
+# 378994661
+
+### EVENT NAMES (21422869.bnk: Amb_Dyn_Paris_Generic_Hwtf_E)
+# 361251926
+# 378994660
+
+### EVENT NAMES (2022240413.bnk: Amb_Dyn_Paris_Generic_Lwtf_A)
+# 228615398
+# 1788724796
+
+### EVENT NAMES (2022240414.bnk: Amb_Dyn_Paris_Generic_Lwtf_B)
+# 228615397
+# 1788724799
+
+### EVENT NAMES (2022240415.bnk: Amb_Dyn_Paris_Generic_Lwtf_C)
+# 228615396
+# 1788724798
+
+### EVENT NAMES (2022240408.bnk: Amb_Dyn_Paris_Generic_Lwtf_D)
+# 228615395
+# 1788724793
+
+### EVENT NAMES (2022240409.bnk: Amb_Dyn_Paris_Generic_Lwtf_E)
+# 228615394
+# 1788724792
+
+### EVENT NAMES (1885023619.bnk: Amb_Elec_Box)
+play_Amb_Elec_Box
+stop_Amb_Elec_Box
+
+### EVENT NAMES (3580319665.bnk: Amb_Generator)
+play_Amb_Generator
+play_Amb_Generator_stop
+stop_Amb_Generator
+
+### EVENT NAMES (1588121933.bnk: Amb_Knock_Door)
+# 130366012
+# 237011601
+# 3349334442
+# 4016093119
+
+### EVENT NAMES (2292961781.bnk: Amb_Radar_Dish)
+play_Amb_Radar
+play_Amb_Radar_stop
+stop_Amb_Radar
+
+### EVENT NAMES (380076899.bnk: Amb_Sleep_Snore)
+play_Sleep_Snore
+stop_Sleep_Snore
+
+### EVENT NAMES (2153767336.bnk: Amb_Train_Slim)
+play_Amb_Train_Slim
+stop_Amb_Train_Slim
+
+### RTPC/GAME-VARIABLE NAMES (2153767336.bnk: Amb_Train_Slim)
+RAIN
+
+### EVENT NAMES (64116966.bnk: Amb_Wine_Drink)
+play_Drink_down
+play_drink_gulp
+stop_drink_gulp
+
+### EVENT NAMES (4276425646.bnk: Amb_Work_Hammer)
+play_Work_Hammer
+stop_Work_Hammer
+
+### EVENT NAMES (36417131.bnk: Amb_Work_Motorcycle)
+# 538346930
+# 3360541463
+# 4243929929
+
+### EVENT NAMES (1138694146.bnk: Amb_Work_Pitchfork)
+play_Work_Pitchfork
+stop_Work_Pitchfork
+
+### EVENT NAMES (1456936033.bnk: Amb_Work_Shovel)
+play_Shovel_dirt
+play_Shovel_Impact
+stop_Shovel_dirt
+stop_Shovel_Impact
+
+### EVENT NAMES (2887008660.bnk: Amb_Work_Sweep)
+play_Work_Sweep
+stop_Work_Sweep
+# 869189014
+
+### EVENT NAMES (1302135091.bnk: Amb_Work_Whistling)
+play_Work_Whistling
+stop_Work_Whistling
+
+### EVENT NAMES (1404066300.bnk: Ambiances)
+play_Amb_Bar
+play_amb_BDN_mainRoom
+play_amb_BDN_SeansRoom_LP
+play_Amb_Cemetery
+play_Amb_Church
+play_Amb_Church_Country
+play_Amb_Church_hq
+play_Amb_Construction
+play_amb_factory
+play_Amb_Market_French
+play_Amb_Monument_Ext
+play_Amb_Monument_Ext_Country
+play_Amb_Nazi
+play_Amb_PARIS_01
+play_Amb_Park
+play_Amb_Poor
+play_Amb_SmVillage
+play_Amb_Train_Ext
+play_Amb_Train_Ext_Country
+play_Amb_Wealthy
+stop_Amb_Bar
+stop_amb_BDN_mainRoom
+stop_amb_BDN_SeansRoom_LP
+stop_Amb_Cemetery
+stop_Amb_Church
+stop_Amb_Church_Country
+stop_Amb_Church_hq
+stop_Amb_Construction
+stop_amb_factory
+stop_Amb_Market_French
+stop_Amb_Monument_Ext
+stop_Amb_Monument_Ext_Country
+stop_Amb_Nazi
+stop_Amb_PARIS_01
+stop_Amb_Park
+stop_Amb_Poor
+stop_Amb_SmVillage
+stop_Amb_Train_Ext
+stop_Amb_Train_Ext_Country
+stop_Amb_Wealthy
+stop_Fire_Loop_01
+stop_fire_loop_02
+# 27704617
+# 44691000
+# 79755919
+# 107274619
+# 118788337
+# 127283162
+# 153601790
+# 156540900
+# 158774032
+# 169256660
+# 169540674
+# 204958202
+# 211654494
+# 220400141
+# 253528970
+# 278331835
+# 304659926
+# 306367429
+# 331483330
+# 337589895
+# 355252959
+# 383258021
+# 465363790
+# 480617133
+# 509790762
+# 542373079
+# 567337882
+# 593321229
+# 667840468
+# 670666732
+# 732441219
+# 767421812
+# 851242734
+# 917816756
+# 932761307
+# 937955123
+# 950415045
+# 973066757
+# 1032681577
+# 1048227555
+# 1063757699
+# 1080165617
+# 1090581414
+# 1175667620
+# 1218235384
+# 1242329970
+# 1268551246
+# 1354284014
+# 1391769051
+# 1497300090
+# 1595271507
+# 1616902473
+# 1632976836
+# 1660532724
+# 1687385778
+# 1702308032
+# 1819483372
+# 1866428834
+# 1979957836
+# 2021497619
+# 2062209871
+# 2273163706
+# 2323900562
+# 2335519586
+# 2351354833
+# 2585678493
+# 2615396023
+# 2644463169
+# 2648545226
+# 2683398119
+# 2722467911
+# 2761887966
+# 2766384801
+# 2833042171
+# 2849573632
+# 2869310258
+# 2891136976
+# 2895340595
+# 2936516876
+# 2936534938
+# 3000752757
+# 3047847349
+# 3055267603
+# 3055584352
+# 3068153258
+# 3089170572
+# 3153572945
+# 3173365141
+# 3198343605
+# 3220354528
+# 3225160069
+# 3283449849
+# 3301829902
+# 3372350668
+# 3399870841
+# 3424345070
+# 3465022892
+# 3467035968
+# 3599042148
+# 3601015343
+# 3616657771
+# 3656756987
+# 3661215883
+# 3662557305
+# 3693071313
+# 3730607004
+# 3742315680
+# 3759353182
+# 3804728485
+# 3810889294
+# 3849733892
+# 3872961765
+# 3937204340
+# 3967400605
+# 3976783234
+# 3980591286
+# 3983894238
+# 4101494069
+# 4103937067
+# 4251584027
+
+### RTPC/GAME-VARIABLE NAMES (1404066300.bnk: Ambiances)
+ALTITUDE
+distance
+DISTANCE_BELL
+RAIN
+SPEED
+
+### VARIABLE NAMES (1404066300.bnk: Ambiances)
+interior
+WILLTOFIGHT
+# 3518356543
+
+### VALUE NAMES (1404066300.bnk: Ambiances)
+high
+in
+low
+none
+off
+on
+out
+
+### EVENT NAMES (2395677314.bnk: Common)
+BodyFalls
+footsteps
+play_Amb_lightning
+play_amb_rain
+play_back_break
+play_Bird_Death
+Play_Bodyfall
+play_clothGrab
+play_clothGrab_lite
+play_firstBodyfall
+play_GearRustle
+play_Generic_Door_Open
+play_GetUp
+play_head_butt
+play_impactblock
+play_ImpactBody
+play_kick_spine
+play_kick_whoosh
+play_kickbody
+play_kneeface
+play_KnockBack
+play_ladder_slide_start
+play_ladder_slide_stop
+play_Neck_Break
+play_neckdeath
+play_poleslide
+play_punch_body
+play_punch_whoosh
+play_punch_whoosh_lite
+play_PunchFace
+play_swim_out
+play_swimin
+play_Tap_Shoulder
+stop_amb_rain
+stop_ladder_slide_stop
+# 31973660
+# 101225938
+# 117264551
+# 137319866
+# 176633369
+# 202065940
+# 205732796
+# 212187190
+# 222492984
+# 306367429
+# 396481702
+# 440405082
+# 478563833
+# 619469654
+# 672360657
+# 679903494
+# 697464670
+# 749721251
+# 824239254
+# 832607778
+# 860948971
+# 890926521
+# 897824526
+# 905339438
+# 942421057
+# 1047641732
+# 1102084900
+# 1136353798
+# 1141044816
+# 1173566602
+# 1217083214
+# 1238333847
+# 1298084898
+# 1302010741
+# 1332905188
+# 1394593858
+# 1468491980
+# 1495450096
+# 1541473983
+# 1564747240
+# 1574474699
+# 1589050219
+# 1631056106
+# 1672408141
+# 1837962181
+# 1901586079
+# 1912674605
+# 1943274278
+# 2024329721
+# 2025049770
+# 2055654191
+# 2150728835
+# 2159833509
+# 2201880810
+# 2209571362
+# 2279603079
+# 2338526488
+# 2339208287
+# 2351354833
+# 2356993808
+# 2432570492
+# 2454135070
+# 2504854085
+# 2505649621
+# 2530440470
+# 2539303964
+# 2570754468
+# 2622721646
+# 2739591556
+# 2761848379
+# 2784119423
+# 2798692925
+# 2841201118
+# 2844906738
+# 2936103888
+# 2937117708
+# 3039132942
+# 3043655980
+# 3048391387
+# 3065847781
+# 3077101583
+# 3090120958
+# 3102832760
+# 3104856971
+# 3146054442
+# 3155129752
+# 3300416516
+# 3323310308
+# 3370214346
+# 3389181136
+# 3434670264
+# 3467035968
+# 3559026062
+# 3575932439
+# 3624637682
+# 3629343058
+# 3746946566
+# 3819233685
+# 3821411364
+# 3830426797
+# 3892531164
+# 3899877840
+# 3936704773
+# 3983894238
+# 3987402158
+# 4025213365
+# 4027160134
+# 4044473860
+# 4079647429
+# 4100565781
+# 4114152325
+# 4167545551
+# 4177019082
+# 4188941704
+
+### RTPC/GAME-VARIABLE NAMES (2395677314.bnk: Common)
+ALTITUDE
+distance
+doppler
+GROUNDWETNESS
+RAIN
+SPEED
+
+### VARIABLE NAMES (2395677314.bnk: Common)
+BodyFalls_surface
+CharacterType
+footstep_type
+footsteps_surface
+FootstepType
+Houb
+m_A1M2_barfight
+SurfaceType
+WILLTOFIGHT
+# 3518356543
+# 3846766534
+
+### VALUE NAMES (2395677314.bnk: Common)
+A1M2_Start
+beep
+cable
+CAR_BODY
+CARPET
+civilian
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+FlyBy
+GAS_CONTAINER
+GLASS
+grass
+high
+JUMP
+LAND
+low
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+Nazi
+none
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+run
+Scuff
+Sean
+Stealth
+TERRACOTTA
+TerrorSquad
+VEGETATION
+walk
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 2702559744
+# 3829824117
+# 3135251562
+
+### EVENT NAMES (1705243725.bnk: Door_Belle_Back_Open)
+# 1032165139
+# 1114288859
+# 1685235721
+# 1999685797
+# 3048391387
+
+### EVENT NAMES (3366036895.bnk: Door_Belle_Front_Open)
+play_Generic_Door_Open
+# 3048391387
+
+### EVENT NAMES (2202515631.bnk: Door_Belle_Secret)
+# 3348108184
+# 3398014476
+
+### EVENT NAMES (426637174.bnk: Door_Catacombs_Entrance)
+play_Generic_Door_Open
+# 3048391387
+
+### EVENT NAMES (2067284066.bnk: Door_Catacombs_Int_MtlGate)
+play_Generic_Door_Open
+# 3048391387
+
+### EVENT NAMES (1322450405.bnk: Door_Elevator_Button)
+play_p3fp_pantheon_Elevator
+stop_p3fp_pantheon_Elevator
+# 879080864
+# 900896058
+# 1421429942
+# 2029282284
+
+### EVENT NAMES (1515418934.bnk: Door_Hide_Hatch_Open)
+play_Generic_Door_Open
+
+### EVENT NAMES (3389194937.bnk: Door_Hide_Spots_Hatch)
+play_Door_Hide_Hatch_Open
+# 3294453893
+# 3922256247
+
+### EVENT NAMES (1413300702.bnk: Door_Hide_Spots_Piss)
+# 1044052892
+# 1284753147
+# 3077792134
+
+### EVENT NAMES (149969607.bnk: Door_Hide_Spots_Shed)
+# 106468881
+# 2899671001
+# 3922256247
+
+### EVENT NAMES (2096072488.bnk: Door_Jail_Cell_Swing)
+play_Generic_Door_Open
+# 1001993112
+# 2806445580
+# 3048391387
+# 4100565781
+
+### EVENT NAMES (1603751906.bnk: Door_Large_Wood_Open)
+play_Generic_Door_Open
+# 3048391387
+
+### EVENT NAMES (2037384436.bnk: Door_LeHavre_Church_Open)
+play_Generic_Door_Open
+# 3048391387
+
+### EVENT NAMES (3226380295.bnk: Door_LeHavre_Skylar_Apt_Open)
+play_Generic_Door_Open
+# 3048391387
+
+### EVENT NAMES (2100859426.bnk: Door_Medium_Wood_Open)
+play_Door_Medium_Wood_Open
+play_Generic_Door_Open
+stop_Door_Medium_Wood_Open
+# 3048391387
+
+### EVENT NAMES (2596656620.bnk: Door_Slaughterhouse_Open)
+play_Generic_Door_Open
+# 3048391387
+
+### EVENT NAMES (1222227545.bnk: Emt_EiffelTower_Elevator)
+play_Elevator_EiffelTower
+stop_Elevator_EiffelTower
+
+### EVENT NAMES (683974193.bnk: Emt_EiffelTower_Wind)
+# 1213358404
+# 1998782964
+# 2554831836
+# 3188269574
+# 3358294934
+# 3940243662
+
+### EVENT NAMES (2574304967.bnk: Emt_Fountain_Dierker)
+play_Emt_Fountain_Dierker
+stop_Emt_Fountain_Dierker
+
+### EVENT NAMES (2596223576.bnk: Emt_Fountain_Dopp)
+play_Emt_Fountain_Dopp
+stop_Emt_Fountain_Dopp
+
+### EVENT NAMES (2574201064.bnk: Emt_Fountain_Large)
+play_Emt_Fountain_Large
+stop_Emt_Fountain_Large
+
+### EVENT NAMES (461694831.bnk: Emt_Fountain_Med)
+play_Emt_Fountain_Medium
+stop_Emt_Fountain_Medium
+
+### EVENT NAMES (955015936.bnk: Emt_Fountain_Small)
+play_Emt_Fountain_Small
+stop_Emt_Fountain_Small
+
+### EVENT NAMES (2873197602.bnk: Emt_Guitar_Anim)
+# 2634187514
+# 2634187516
+# 2634187517
+# 2634187519
+
+### EVENT NAMES (1589571288.bnk: Emt_OccMed_Converter)
+play_Emt_OccMed_Converter_exp
+stop_Emt_OccMed_Converter_exp
+# 2808944961
+# 3043600331
+
+### EVENT NAMES (2177261444.bnk: Emt_OccMed_V2Rocket)
+# 770841738
+# 1019992500
+# 1021600243
+
+### EVENT NAMES (2113817890.bnk: Emt_PRes_Candle)
+# 192495550
+# 2405985264
+
+### EVENT NAMES (1969152622.bnk: Emt_Radios_01)
+# 900896058
+# 2641023906
+# 3041842896
+
+### EVENT NAMES (583282247.bnk: Emt_River_Ctry)
+# 153601790
+# 169540674
+# 1009539724
+# 1310473552
+# 2300766616
+# 2858120704
+# 3270918726
+# 3466984942
+
+### RTPC/GAME-VARIABLE NAMES (583282247.bnk: Emt_River_Ctry)
+distance
+
+### EVENT NAMES (102587024.bnk: Emt_Steam)
+# 24133117
+# 2912536703
+
+### EVENT NAMES (2825942680.bnk: Emt_Stream)
+# 180007977
+# 731637070
+# 1133341356
+# 1813569676
+# 2916303958
+# 4283460011
+
+### EVENT NAMES (3352662393.bnk: Emt_WaterDrop_ParticleFX)
+# 1089923983
+# 2128007201
+
+### RTPC/GAME-VARIABLE NAMES (3352662393.bnk: Emt_WaterDrop_ParticleFX)
+SPEED
+
+### EVENT NAMES (2224775891.bnk: Emt_oil_fire)
+play_Emt_oil_fire_big
+play_Emt_oil_fire_Small
+stop_Emt_oil_fire_big
+stop_Emt_oil_fire_Small
+
+### EVENT NAMES (3002436401.bnk: Explosions_Impacts)
+play_Bullet_Impacts
+Play_exp_BridgeKiller
+Play_exp_car
+Play_exp_CarBomb
+Play_exp_Cockpit
+Play_EXP_Dopp_Medium
+Play_EXP_dynamite_big
+Play_EXP_dynamite_Medium
+Play_EXP_dynamite_Small
+Play_EXP_Generic_large
+Play_EXP_Generic_Medium
+Play_EXP_Generic_Small
+Play_exp_grenade
+Play_EXP_large_Raft
+Play_EXP_large_Small_radius
+Play_EXP_pantheon_gun_shell
+Play_exp_rpg
+Play_EXP_Small
+Play_EXP_Small_radius
+Play_EXP_Small_shell
+Play_exp_train
+Play_exp_truck
+Play_exp_water
+Play_exp_Zepplin
+play_explosion_debris
+play_glass_break_medium
+Play_Imp_Grenade
+Play_Physics_Collision
+Play_Physics_roll
+Play_Physics_slide
+play_punch_collision
+play_stone_break_medium
+play_wood_break_medium
+stop_EXP_Zepplin
+stop_Physics_roll
+stop_Physics_slide
+# 5398492
+# 75477636
+# 139344439
+# 147054587
+# 471016006
+# 564530244
+# 646797584
+# 719132234
+# 840838106
+# 1028057018
+# 1041619953
+# 1116340893
+# 1225143805
+# 1373931917
+# 1470416776
+# 1532737091
+# 1554276107
+# 1563742401
+# 1701640859
+# 1735039955
+# 2052701140
+# 2115164439
+# 2218186778
+# 2398430381
+# 2404476394
+# 2404476395
+# 2440206877
+# 2547686093
+# 2810733327
+# 2852741236
+# 2937109900
+# 3116200649
+# 3234250119
+# 3295526776
+# 3465756766
+# 3496459615
+# 3565822654
+# 3820254155
+# 3927975974
+# 3956039812
+# 3956039813
+# 4140994647
+# 4170988274
+
+### RTPC/GAME-VARIABLE NAMES (3002436401.bnk: Explosions_Impacts)
+ALTITUDE
+distance
+SPEED
+VEH_SPD
+
+### VARIABLE NAMES (3002436401.bnk: Explosions_Impacts)
+Explosion_Distance
+size_EXPLOSIONS
+size_impacts
+SurfaceType
+
+### VALUE NAMES (3002436401.bnk: Explosions_Impacts)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+far
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+Near
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2232180584.bnk: Lever_Jail_Release)
+play_lever_jail_release_switch
+
+### EVENT NAMES (3900796025.bnk: Lever_Klaxon_Alarm)
+# 1099631091
+# 1410295073
+
+### EVENT NAMES (3991942870.bnk: Music)
+play_CarRadio
+play_music
+play_radio
+stop_CarRadio
+stop_music
+stop_radio
+# 22951429
+# 203920520
+# 305428702
+# 1009451317
+# 1150912443
+# 1274753518
+# 2319204534
+# 2333866479
+# 2753475827
+# 3024039848
+# 3152667436
+# 3311460181
+# 3333036857
+# 3745284817
+
+### TRIGGER NAMES (3991942870.bnk: Music)
+Diversion
+Trigger_RadioClick
+# 664592857
+# 3126374595
+# 3368017627
+
+### RTPC/GAME-VARIABLE NAMES (3991942870.bnk: Music)
+distance
+Volume_Radio
+
+### VARIABLE NAMES (3991942870.bnk: Music)
+CINEMATIC
+escalation_onoff
+fp_CountryRace1
+fp_CountryRace2
+fp_P1FP_entourage
+fp_P1FP_GetMeds
+fp_P1FP_KillCourtyard
+fp_P1FP_NaziWedding
+fp_P1FP_traitor
+fp_P2FP_RadioRescue
+fp_P2FP_trap
+fp_P3FP_FountainSniper
+fp_P3FP_Hit
+fp_P3FP_Jardin
+fp_P3FP_RadioSabotage
+intensity
+location
+m_A1M1_race
+m_A1M2_barfight
+m_A1M3_GetCaught
+m_A1M4_escape
+m_A3M2_Dierker
+m_P3M1_Catacombs
+m_P4M1_Cemetary
+m_P6M1_PrisonBreak
+m_S1M6_zeppelin
+m_S2M2_Train
+Radio
+RadioClarity
+RadioTrack
+# 2839136352
+# 1930230363
+# 49571316
+# 3252033208
+# 332553816
+# 2946516166
+# 3130866830
+# 4284950544
+# 2689498483
+# 1400507559
+# 2721664204
+# 4090672321
+# 3969253159
+# 2781278498
+# 1257001493
+# 3755331875
+# 3099681633
+
+### VALUE NAMES (3991942870.bnk: Music)
+A1M1_ahead
+A1M1_behind
+A1M1_race
+A1M1_Start
+A1M2_BarFight
+A1M2_Start
+A1M3_GetCaught
+A1M4_Clamber
+A1M4_driving
+A1M4_escape
+A1M4_sneak
+A1M4_Start
+A3M1_lap1
+A3M1_lap2
+A3M2_Dierker
+Action1
+Action2
+AllClear
+arrive
+arrives
+Belle_de_Nuit
+BelleReturn
+BlowBoiler
+BlowDepot
+BridgeSabotage
+BridgeSabotage_done
+Chasm
+CINEMATIC
+default
+DefendRear
+DestroyCore
+DestroyTank
+Disguised
+Drive
+ElevatorUp
+EnterBuilding
+EnterCatacombs
+EnterUnderground
+escalation_off
+escalation_on
+escape
+explore
+FindControlRoom
+FindLab
+FollowDierker
+fp_CountryRace1
+fp_CountryRace2
+fp_P1FP_entourage
+fp_P1FP_GetMeds
+fp_P1FP_KillCourtyard
+fp_P1FP_NaziWedding
+fp_P1FP_traitor
+fp_P2FP_RadioRescue
+fp_P2FP_trap
+fp_P3FP_FountainSniper
+fp_P3FP_Hit
+fp_P3FP_Jardin
+fp_P3FP_RadioSabotage
+FreePrisoners
+germany
+GrabBottle
+Grainy
+Grainy_NoVoc
+in
+KillGuards
+KillTarget
+LibraryDoor
+MeetContact
+mg_beneficial
+none
+NoVoc_01
+NoVoc_02
+NoVoc_03
+NoVoc_04
+NoVoc_05
+NoVoc_06
+NoVoc_07
+NoVoc_08
+NoVoc_09
+NoVoc_10
+NoVoc_11
+NoVoc_12
+out
+P1M6_Start
+P3M1_Catacombs
+P4M1_Cemetary
+P4M1_escape
+P4M1_FightBack
+P4M1_mausoleum
+P4M1_Start
+P4M1_underground
+P5M3_courtyard
+P6M1_PrisonBreak
+ParadeStart
+PARIS
+ParkCar
+RescueAurora
+restricted_area
+rich
+rich_NoVoc
+RoofFight
+S1M6_truck
+S1M6_zeppelin
+S1M6_ZeppelinInterior
+S2M2_Train
+silence
+silent
+StartRace
+TerrorSquad
+TimeLapse
+TimerStart
+TrainStation
+TrashCar
+TruckDestroyed
+Tutorial
+ui_StartMenu
+ui_StartMenu_Belle
+ui_StartMenu_Belle_02
+ui_StartMenu_Belle_03
+ui_StartMenu_Belle_04
+Voc_01
+Voc_02
+Voc_03
+Voc_04
+Voc_05
+Voc_06
+Voc_07
+Voc_08
+wedding
+# 1783557865
+# 3594158867
+# 3988962410
+# 1689489330
+# 950358095
+# 1349168095
+# 2968838882
+# 2490875267
+# 28206557
+# 973228634
+# 4184001359
+# 3772596031
+# 1101629691
+# 2013517053
+# 3096609635
+# 3463627679
+# 4139821853
+# 2925910425
+# 742693766
+# 3213207205
+# 507395057
+# 3256587275
+# 2032831965
+# 2365853983
+# 303888944
+# 2606323164
+# 296176143
+# 231097693
+# 1184026384
+# 1920358627
+# 3330518495
+# 3756690773
+# 1894957844
+# 3719319074
+# 3724550294
+# 657421687
+# 1067837868
+# 3221873968
+# 3194801202
+# 2702559744
+# 1914442175
+# 319395526
+# 759976971
+# 3052837021
+# 2080562319
+# 944004480
+# 3318974055
+# 3209104524
+# 3178450919
+# 845621618
+# 2573698391
+# 3519105908
+# 2207586203
+# 2102507797
+# 2456814331
+# 3311553952
+# 4087120975
+# 3062335792
+# 712262114
+# 2411624035
+# 4009156943
+# 1845223089
+# 969842834
+# 353713079
+# 116096275
+# 4058701252
+# 4075651229
+# 3579257964
+# 4175718304
+# 3351544973
+# 2950451639
+# 3498740607
+# 1385096478
+# 2128249156
+# 2198566525
+# 1638837369
+# 2918548019
+# 1014231039
+# 775560213
+# 3745252589
+# 3328094239
+# 345909357
+# 496394434
+# 1502108972
+# 3853251040
+# 3816450516
+# 3252033208
+# 1400507559
+# 2721664204
+# 2946516166
+# 1257001493
+# 3969253159
+# 4284950544
+# 3338989314
+# 4039462898
+# 4013382613
+# 4265045155
+# 3064799170
+# 330869522
+# 330869521
+# 330869520
+# 1871513934
+# 2242709163
+# 1654784908
+# 3010910309
+
+### EVENT NAMES (4029415847.bnk: SwimBank)
+play_swim_hands
+play_swim_out
+play_swimin
+# 1655280114
+
+### EVENT NAMES (1551306167.bnk: UI)
+Play_UI_Map_close
+Play_UI_Map_expand
+Play_UI_Map_Zoom
+play_UI_Objective_New
+play_ui_pause_Map_scroll
+play_ui_pause_scroll
+play_ui_pause_select
+play_ui_pause_tab
+play_ui_perk_exit
+play_ui_perk_screen
+play_ui_perk_select
+play_ui_perk_unlocked
+play_ui_start_back
+play_ui_start_scroll
+play_ui_start_select
+play_ui_Tutorial_next
+play_ui_Tutorial_slide
+Stop_UI_Map_close
+Stop_UI_Map_expand
+Stop_UI_Map_Zoom
+stop_UI_Objective_New
+stop_ui_pause_Map_scroll
+stop_ui_pause_scroll
+stop_ui_pause_select
+stop_ui_pause_tab
+stop_ui_perk_exit
+stop_ui_perk_screen
+stop_ui_perk_select
+stop_ui_perk_unlocked
+stop_ui_start_scroll
+stop_ui_start_select
+stop_ui_Tutorial_next
+stop_ui_Tutorial_slide
+# 11375887
+# 18310596
+# 105102766
+# 149790876
+# 296431689
+# 415172290
+# 548101322
+# 613277966
+# 619349588
+# 730442558
+# 793463508
+# 832810752
+# 923686429
+# 1007743263
+# 1038530874
+# 1038660040
+# 1042493996
+# 1049497872
+# 1099087528
+# 1129494447
+# 1156362776
+# 1244170099
+# 1264645045
+# 1487853313
+# 1537128111
+# 1583215778
+# 1616135638
+# 1620415037
+# 1685643332
+# 1751964768
+# 1764473590
+# 1822781954
+# 2020748332
+# 2195191418
+# 2197377706
+# 2208181279
+# 2209258323
+# 2213345440
+# 2346578348
+# 2432538904
+# 2433693153
+# 2439732289
+# 2575751133
+# 2576509082
+# 2579860954
+# 2726095713
+# 2818717730
+# 2848030363
+# 2917960919
+# 2988998905
+# 3101146457
+# 3126909548
+# 3134165013
+# 3325610320
+# 3368239870
+# 3387747000
+# 3396258788
+# 3479928104
+# 3527076177
+# 3541458086
+# 3559386896
+# 3696564892
+# 3758920935
+# 3858796920
+# 3988020609
+# 3996131210
+# 4017466312
+# 4186040483
+# 4270821573
+
+### EVENT NAMES (544872382.bnk: UI_alwaysLoaded)
+play_Camera_Shake
+Play_UI_Checkpoint_close
+Play_UI_Checkpoint_Open
+play_ui_Gamepause
+play_ui_Gamepause_completely
+play_ui_Gamepause_notes
+play_ui_Gamepause_tutorial
+Play_UI_Mission_Complete
+Play_UI_Mission_Complete_pause
+Play_UI_Mission_Complete_resume
+play_UI_Objective_New
+Play_UI_pause_Open
+play_ui_perk_screen
+play_ui_perk_unlocked
+play_ui_start_duck
+play_ui_start_resume
+play_ui_start_scroll
+play_ui_start_select
+play_ui_Tutorial
+Stop_UI_Mission_Complete
+stop_UI_Objective_New
+stop_ui_perk_screen
+stop_ui_perk_unlocked
+stop_ui_start_scroll
+stop_ui_start_select
+# 11551385
+# 112392139
+# 149790876
+# 205289472
+# 272808472
+# 472648329
+# 517201499
+# 548101322
+# 590203290
+# 613277966
+# 648072148
+# 790722108
+# 793463508
+# 827249848
+# 1038660040
+# 1059728208
+# 1355447986
+# 1405975435
+# 1537128111
+# 1559747074
+# 1568584756
+# 1587681537
+# 1600397045
+# 1858996641
+# 1914824014
+# 1947677873
+# 2020748332
+# 2094736019
+# 2209258323
+# 2238181759
+# 2328650386
+# 2444992164
+# 2486141912
+# 2575751133
+# 2848030363
+# 3101146457
+# 3157518426
+# 3208322471
+# 3251908869
+# 3274868718
+# 3459798784
+# 3707612245
+# 3768610218
+# 3884265797
+# 3988020609
+# 4017466312
+# 4114028526
+# 4220288750
+# 4221292311
+# 4247441157
+
+### RTPC/GAME-VARIABLE NAMES (544872382.bnk: UI_alwaysLoaded)
+Health
+volume_sfx
+
+### EVENT NAMES (1169572365.bnk: VH_CV_CR_AlfaRom_12C)
+play_VH_CV_CR_AlfaRom12C
+stop_VH_CV_CR_AlfaRom12C
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (1169572365.bnk: VH_CV_CR_AlfaRom_12C)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (1169572365.bnk: VH_CV_CR_AlfaRom_12C)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2067639245
+
+### VALUE NAMES (1169572365.bnk: VH_CV_CR_AlfaRom_12C)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (527675765.bnk: VH_CV_CR_AlfaRom_12C_npc)
+play_VH_CV_CR_AlfaRom12C_npc
+stop_VH_CV_CR_AlfaRom12C_npc
+
+### RTPC/GAME-VARIABLE NAMES (527675765.bnk: VH_CV_CR_AlfaRom_12C_npc)
+doppler
+SLIDESPEED
+VEH_ACCEL_LOAD
+VEH_DRIVE_OFF_GROUND
+VEH_SPD
+
+### VARIABLE NAMES (527675765.bnk: VH_CV_CR_AlfaRom_12C_npc)
+SurfaceType
+VEH_gear_Racecar
+# 3846766534
+
+### VALUE NAMES (527675765.bnk: VH_CV_CR_AlfaRom_12C_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (580816954.bnk: VH_CV_CR_AlfaRomera)
+play_VH_CV_CR_AlfaRomera
+stop_VH_CV_CR_AlfaRomera
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (580816954.bnk: VH_CV_CR_AlfaRomera)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (580816954.bnk: VH_CV_CR_AlfaRomera)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2067639245
+
+### VALUE NAMES (580816954.bnk: VH_CV_CR_AlfaRomera)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3402518534.bnk: VH_CV_CR_AlfaRomera_npc)
+play_VH_CV_CR_AlfaRomera_npc
+stop_VH_CV_CR_AlfaRomera_npc
+
+### RTPC/GAME-VARIABLE NAMES (3402518534.bnk: VH_CV_CR_AlfaRomera_npc)
+doppler
+SLIDESPEED
+VEH_ACCEL_LOAD
+VEH_DRIVE_OFF_GROUND
+VEH_SPD
+
+### VARIABLE NAMES (3402518534.bnk: VH_CV_CR_AlfaRomera_npc)
+SurfaceType
+VEH_gear_Racecar
+# 3846766534
+
+### VALUE NAMES (3402518534.bnk: VH_CV_CR_AlfaRomera_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (992291634.bnk: VH_CV_CR_Allard)
+play_VH_CV_CR_Allard
+play_VH_CV_CR_Allard_Skylar
+stop_VH_CV_CR_Allard
+stop_VH_CV_CR_Allard_Skylar
+# 305941241
+# 1541200606
+# 3700994736
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (992291634.bnk: VH_CV_CR_Allard)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (992291634.bnk: VH_CV_CR_Allard)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2067639245
+
+### VALUE NAMES (992291634.bnk: VH_CV_CR_Allard)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (323539390.bnk: VH_CV_CR_Allard_npc)
+play_VH_CV_CR_Allard_npc
+play_VH_CV_CR_Allard_Skylar_npc
+stop_VH_CV_CR_Allard_npc
+stop_VH_CV_CR_Allard_Skylar_npc
+# 515579608
+# 2873290474
+
+### RTPC/GAME-VARIABLE NAMES (323539390.bnk: VH_CV_CR_Allard_npc)
+doppler
+SLIDESPEED
+VEH_ACCEL_LOAD
+VEH_DRIVE_OFF_GROUND
+VEH_SPD
+
+### VARIABLE NAMES (323539390.bnk: VH_CV_CR_Allard_npc)
+SurfaceType
+VEH_gear_Racecar
+# 3846766534
+
+### VALUE NAMES (323539390.bnk: VH_CV_CR_Allard_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3289968854.bnk: VH_CV_CR_Aurora)
+play_VH_CV_CR_Aurora
+play_wp_mg_Aurora
+stop_VH_CV_CR_Aurora
+stop_wp_mg_Aurora
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (3289968854.bnk: VH_CV_CR_Aurora)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_HBRAKE_LOAD
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (3289968854.bnk: VH_CV_CR_Aurora)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_Health_size
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2067639245
+
+### VALUE NAMES (3289968854.bnk: VH_CV_CR_Aurora)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3545202946.bnk: VH_CV_CR_Aurora_npc)
+play_VH_CV_CR_Aurora_npc
+stop_VH_CV_CR_Aurora_npc
+
+### RTPC/GAME-VARIABLE NAMES (3545202946.bnk: VH_CV_CR_Aurora_npc)
+distance
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (3545202946.bnk: VH_CV_CR_Aurora_npc)
+SurfaceType
+VEH_gear
+# 3846766534
+
+### VALUE NAMES (3545202946.bnk: VH_CV_CR_Aurora_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2824599306.bnk: VH_CV_CR_Bugatti)
+play_VH_CV_CR_Bugatti
+stop_VH_CV_CR_Bugatti
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (2824599306.bnk: VH_CV_CR_Bugatti)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (2824599306.bnk: VH_CV_CR_Bugatti)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2305636090
+
+### VALUE NAMES (2824599306.bnk: VH_CV_CR_Bugatti)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3952146518.bnk: VH_CV_CR_Bugatti_npc)
+play_VH_CV_CR_Bugatti_npc
+stop_VH_CV_CR_Bugatti_npc
+
+### RTPC/GAME-VARIABLE NAMES (3952146518.bnk: VH_CV_CR_Bugatti_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (3952146518.bnk: VH_CV_CR_Bugatti_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (3952146518.bnk: VH_CV_CR_Bugatti_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3299788725.bnk: VH_CV_CR_CeltaQuatre)
+play_VH_CV_CR_CeltaQuatre
+stop_VH_CV_CR_CeltaQuatre
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (3299788725.bnk: VH_CV_CR_CeltaQuatre)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (3299788725.bnk: VH_CV_CR_CeltaQuatre)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2305636090
+
+### VALUE NAMES (3299788725.bnk: VH_CV_CR_CeltaQuatre)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2686909565.bnk: VH_CV_CR_CeltaQuatre_npc)
+play_VH_CV_CR_CeltaQuatre_npc
+stop_VH_CV_CR_CeltaQuatre_npc
+
+### RTPC/GAME-VARIABLE NAMES (2686909565.bnk: VH_CV_CR_CeltaQuatre_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (2686909565.bnk: VH_CV_CR_CeltaQuatre_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (2686909565.bnk: VH_CV_CR_CeltaQuatre_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3550456968.bnk: VH_CV_CR_Citroen15)
+play_VH_CV_CR_Citroen15
+stop_VH_CV_CR_Citroen15
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (3550456968.bnk: VH_CV_CR_Citroen15)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (3550456968.bnk: VH_CV_CR_Citroen15)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2305636090
+
+### VALUE NAMES (3550456968.bnk: VH_CV_CR_Citroen15)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1082819120.bnk: VH_CV_CR_Citroen15_npc)
+play_VH_CV_CR_Citroen15_npc
+stop_VH_CV_CR_Citroen15_npc
+
+### RTPC/GAME-VARIABLE NAMES (1082819120.bnk: VH_CV_CR_Citroen15_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (1082819120.bnk: VH_CV_CR_Citroen15_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (1082819120.bnk: VH_CV_CR_Citroen15_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3433013723.bnk: VH_CV_CR_Citroen6C)
+play_VH_CV_CR_Citroen6C
+stop_VH_CV_CR_Citroen6C
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (3433013723.bnk: VH_CV_CR_Citroen6C)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (3433013723.bnk: VH_CV_CR_Citroen6C)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2305636090
+
+### VALUE NAMES (3433013723.bnk: VH_CV_CR_Citroen6C)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1942530375.bnk: VH_CV_CR_Citroen6C_npc)
+play_VH_CV_CR_Citroen6C_npc
+stop_VH_CV_CR_Citroen6C_npc
+
+### RTPC/GAME-VARIABLE NAMES (1942530375.bnk: VH_CV_CR_Citroen6C_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (1942530375.bnk: VH_CV_CR_Citroen6C_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (1942530375.bnk: VH_CV_CR_Citroen6C_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3449791272.bnk: VH_CV_CR_Citroen7C)
+play_VH_CV_CR_Citroen7C
+stop_VH_CV_CR_Citroen7C
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (3449791272.bnk: VH_CV_CR_Citroen7C)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (3449791272.bnk: VH_CV_CR_Citroen7C)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2305636090
+
+### VALUE NAMES (3449791272.bnk: VH_CV_CR_Citroen7C)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (130194960.bnk: VH_CV_CR_Citroen7C_npc)
+play_VH_CV_CR_Citroen7C_npc
+stop_VH_CV_CR_Citroen7C_npc
+
+### RTPC/GAME-VARIABLE NAMES (130194960.bnk: VH_CV_CR_Citroen7C_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (130194960.bnk: VH_CV_CR_Citroen7C_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (130194960.bnk: VH_CV_CR_Citroen7C_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2431419800.bnk: VH_CV_CR_Dierker)
+play_VH_CV_CR_SilverDart
+play_VH_CV_CR_SilverDartDierker
+stop_VH_CV_CR_SilverDart
+stop_VH_CV_CR_SilverDartDierker
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (2431419800.bnk: VH_CV_CR_Dierker)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (2431419800.bnk: VH_CV_CR_Dierker)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2067639245
+
+### VALUE NAMES (2431419800.bnk: VH_CV_CR_Dierker)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3572172864.bnk: VH_CV_CR_Dierker_npc)
+play_VH_CV_CR_SilverDartDierker_npc
+stop_VH_CV_CR_SilverDartDierker_npc
+
+### RTPC/GAME-VARIABLE NAMES (3572172864.bnk: VH_CV_CR_Dierker_npc)
+doppler
+SLIDESPEED
+VEH_ACCEL_LOAD
+VEH_DRIVE_OFF_GROUND
+VEH_SPD
+
+### VARIABLE NAMES (3572172864.bnk: VH_CV_CR_Dierker_npc)
+SurfaceType
+VEH_gear_Racecar
+# 3846766534
+
+### VALUE NAMES (3572172864.bnk: VH_CV_CR_Dierker_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (548219044.bnk: VH_CV_CR_Horch853)
+play_VH_CV_CR_Horch853
+stop_VH_CV_CR_Horch853
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (548219044.bnk: VH_CV_CR_Horch853)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (548219044.bnk: VH_CV_CR_Horch853)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2305636090
+
+### VALUE NAMES (548219044.bnk: VH_CV_CR_Horch853)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2610235052.bnk: VH_CV_CR_Horch853_npc)
+play_VH_CV_CR_Horch853_npc
+stop_VH_CV_CR_Horch853_npc
+
+### RTPC/GAME-VARIABLE NAMES (2610235052.bnk: VH_CV_CR_Horch853_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (2610235052.bnk: VH_CV_CR_Horch853_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (2610235052.bnk: VH_CV_CR_Horch853_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2107062396.bnk: VH_CV_CR_MaterTipo4CL)
+play_VH_CV_CR_MaterTipo4CL
+stop_VH_CV_CR_MaterTipo4CL
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (2107062396.bnk: VH_CV_CR_MaterTipo4CL)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (2107062396.bnk: VH_CV_CR_MaterTipo4CL)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2067639245
+
+### VALUE NAMES (2107062396.bnk: VH_CV_CR_MaterTipo4CL)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1241938660.bnk: VH_CV_CR_MaterTipo4CL_npc)
+play_VH_CV_CR_MaterTipo4CL_npc
+stop_VH_CV_CR_MaterTipo4CL_npc
+
+### RTPC/GAME-VARIABLE NAMES (1241938660.bnk: VH_CV_CR_MaterTipo4CL_npc)
+doppler
+SLIDESPEED
+VEH_ACCEL_LOAD
+VEH_DRIVE_OFF_GROUND
+VEH_SPD
+
+### VARIABLE NAMES (1241938660.bnk: VH_CV_CR_MaterTipo4CL_npc)
+SurfaceType
+VEH_gear_Racecar
+# 3846766534
+
+### VALUE NAMES (1241938660.bnk: VH_CV_CR_MaterTipo4CL_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (686059289.bnk: VH_CV_CR_Peugeot402)
+play_VH_CV_CR_Peugeot402
+stop_VH_CV_CR_Peugeot402
+# 305941241
+# 2820494923
+# 2857150921
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (686059289.bnk: VH_CV_CR_Peugeot402)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (686059289.bnk: VH_CV_CR_Peugeot402)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2305636090
+
+### VALUE NAMES (686059289.bnk: VH_CV_CR_Peugeot402)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2852140065.bnk: VH_CV_CR_Peugeot402_npc)
+play_VH_CV_CR_Peugeot402_npc
+stop_VH_CV_CR_Peugeot402_npc
+
+### RTPC/GAME-VARIABLE NAMES (2852140065.bnk: VH_CV_CR_Peugeot402_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (2852140065.bnk: VH_CV_CR_Peugeot402_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (2852140065.bnk: VH_CV_CR_Peugeot402_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3020471696.bnk: VH_CV_CR_Peugeot402_npc_escalated)
+play_VH_CV_CR_Peugeot402_npc_escalated
+stop_VH_CV_CR_Peugeot402_npc_escalated
+
+### RTPC/GAME-VARIABLE NAMES (3020471696.bnk: VH_CV_CR_Peugeot402_npc_escalated)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (3020471696.bnk: VH_CV_CR_Peugeot402_npc_escalated)
+escalation_onoff
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (3020471696.bnk: VH_CV_CR_Peugeot402_npc_escalated)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+escalation_off
+escalation_on
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+none
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (4287371661.bnk: VH_CV_CR_RenaultPolice)
+play_VH_CV_CR_RenaultPolice
+stop_VH_CV_CR_RenaultPolice
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (4287371661.bnk: VH_CV_CR_RenaultPolice)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (4287371661.bnk: VH_CV_CR_RenaultPolice)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2305636090
+
+### VALUE NAMES (4287371661.bnk: VH_CV_CR_RenaultPolice)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (548372725.bnk: VH_CV_CR_RenaultPolice_npc)
+play_VH_CV_CR_RenaultPolice_npc
+stop_VH_CV_CR_RenaultPolice_npc
+
+### RTPC/GAME-VARIABLE NAMES (548372725.bnk: VH_CV_CR_RenaultPolice_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (548372725.bnk: VH_CV_CR_RenaultPolice_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (548372725.bnk: VH_CV_CR_RenaultPolice_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3011950237.bnk: VH_CV_CR_RenaultvivaGS)
+play_VH_CV_CR_RenaultvivaGS
+stop_VH_CV_CR_RenaultvivaGS
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (3011950237.bnk: VH_CV_CR_RenaultvivaGS)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (3011950237.bnk: VH_CV_CR_RenaultvivaGS)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2305636090
+
+### VALUE NAMES (3011950237.bnk: VH_CV_CR_RenaultvivaGS)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1877602757.bnk: VH_CV_CR_RenaultvivaGS_npc)
+play_VH_CV_CR_RenaultvivaGS_npc
+stop_VH_CV_CR_RenaultvivaGS_npc
+
+### RTPC/GAME-VARIABLE NAMES (1877602757.bnk: VH_CV_CR_RenaultvivaGS_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (1877602757.bnk: VH_CV_CR_RenaultvivaGS_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (1877602757.bnk: VH_CV_CR_RenaultvivaGS_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2500946514.bnk: VH_CV_CR_SilverDart)
+play_VH_CV_CR_SilverDart
+stop_VH_CV_CR_SilverDart
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (2500946514.bnk: VH_CV_CR_SilverDart)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (2500946514.bnk: VH_CV_CR_SilverDart)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2067639245
+
+### VALUE NAMES (2500946514.bnk: VH_CV_CR_SilverDart)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1214440350.bnk: VH_CV_CR_SilverDart_npc)
+play_VH_CV_CR_SilverDart_npc
+play_VH_CV_CR_SilverDartDierker_npc
+stop_VH_CV_CR_SilverDart_npc
+stop_VH_CV_CR_SilverDartDierker_npc
+
+### RTPC/GAME-VARIABLE NAMES (1214440350.bnk: VH_CV_CR_SilverDart_npc)
+doppler
+SLIDESPEED
+VEH_ACCEL_LOAD
+VEH_DRIVE_OFF_GROUND
+VEH_SPD
+
+### VARIABLE NAMES (1214440350.bnk: VH_CV_CR_SilverDart_npc)
+SurfaceType
+VEH_gear_Racecar
+# 3846766534
+
+### VALUE NAMES (1214440350.bnk: VH_CV_CR_SilverDart_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1233958899.bnk: VH_CV_CR_TalbotLago)
+play_VH_CV_CR_TalbotLago
+stop_VH_CV_CR_TalbotLago
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (1233958899.bnk: VH_CV_CR_TalbotLago)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (1233958899.bnk: VH_CV_CR_TalbotLago)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 2305636090
+
+### VALUE NAMES (1233958899.bnk: VH_CV_CR_TalbotLago)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3891221535.bnk: VH_CV_CR_TalbotLago_npc)
+play_VH_CV_CR_TalbotLago_npc
+stop_VH_CV_CR_TalbotLago_npc
+
+### RTPC/GAME-VARIABLE NAMES (3891221535.bnk: VH_CV_CR_TalbotLago_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (3891221535.bnk: VH_CV_CR_TalbotLago_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (3891221535.bnk: VH_CV_CR_TalbotLago_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2280051354.bnk: VH_CV_TR_CitroenType45)
+play_VH_CV_TR_CitroenType45
+stop_VH_CV_TR_CitroenType45
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (2280051354.bnk: VH_CV_TR_CitroenType45)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (2280051354.bnk: VH_CV_TR_CitroenType45)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (2280051354.bnk: VH_CV_TR_CitroenType45)
+accel_blip_off
+accel_blip_on
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1980716966.bnk: VH_CV_TR_CitroenType45_npc)
+play_VH_CV_TR_CitroenType45_npc
+stop_VH_CV_TR_CitroenType45_npc
+
+### RTPC/GAME-VARIABLE NAMES (1980716966.bnk: VH_CV_TR_CitroenType45_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (1980716966.bnk: VH_CV_TR_CitroenType45_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (1980716966.bnk: VH_CV_TR_CitroenType45_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1249990010.bnk: VH_CV_TR_Firetruck)
+play_VH_CV_TR_Firetruck
+stop_VH_CV_TR_Firetruck
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (1249990010.bnk: VH_CV_TR_Firetruck)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (1249990010.bnk: VH_CV_TR_Firetruck)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (1249990010.bnk: VH_CV_TR_Firetruck)
+accel_blip_off
+accel_blip_on
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (452971846.bnk: VH_CV_TR_Firetruck_npc)
+play_VH_CV_TR_Firetruck_npc
+stop_VH_CV_TR_Firetruck_npc
+
+### RTPC/GAME-VARIABLE NAMES (452971846.bnk: VH_CV_TR_Firetruck_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (452971846.bnk: VH_CV_TR_Firetruck_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (452971846.bnk: VH_CV_TR_Firetruck_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (724717205.bnk: VH_CV_TR_FrenchPoliceWagon)
+play_VH_CV_TR_FrenchPoliceWagon
+stop_VH_CV_TR_FrenchPoliceWagon
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (724717205.bnk: VH_CV_TR_FrenchPoliceWagon)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (724717205.bnk: VH_CV_TR_FrenchPoliceWagon)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (724717205.bnk: VH_CV_TR_FrenchPoliceWagon)
+accel_blip_off
+accel_blip_on
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (756173853.bnk: VH_CV_TR_FrenchPoliceWagon_npc)
+play_VH_CV_TR_FrenchPoliceWagon_npc
+stop_VH_CV_TR_FrenchPoliceWagon_npc
+
+### RTPC/GAME-VARIABLE NAMES (756173853.bnk: VH_CV_TR_FrenchPoliceWagon_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (756173853.bnk: VH_CV_TR_FrenchPoliceWagon_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (756173853.bnk: VH_CV_TR_FrenchPoliceWagon_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (4228606930.bnk: VH_CV_TR_FrenchTractor)
+play_VH_CV_TR_FrenchTractor
+stop_VH_CV_TR_FrenchTractor
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (4228606930.bnk: VH_CV_TR_FrenchTractor)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (4228606930.bnk: VH_CV_TR_FrenchTractor)
+reverse_switch
+SurfaceType
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (4228606930.bnk: VH_CV_TR_FrenchTractor)
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3881532702.bnk: VH_CV_TR_FrenchTractor_npc)
+play_VH_CV_TR_FrenchTractor_npc
+stop_VH_CV_TR_FrenchTractor_npc
+
+### RTPC/GAME-VARIABLE NAMES (3881532702.bnk: VH_CV_TR_FrenchTractor_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (3881532702.bnk: VH_CV_TR_FrenchTractor_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (3881532702.bnk: VH_CV_TR_FrenchTractor_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2229485664.bnk: VH_CV_TR_RenaultBrigitte)
+play_VH_CV_TR_RenaultBrigitte
+stop_VH_CV_TR_RenaultBrigitte
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (2229485664.bnk: VH_CV_TR_RenaultBrigitte)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (2229485664.bnk: VH_CV_TR_RenaultBrigitte)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (2229485664.bnk: VH_CV_TR_RenaultBrigitte)
+accel_blip_off
+accel_blip_on
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2063915144.bnk: VH_CV_TR_RenaultBrigitte_npc)
+play_VH_CV_TR_RenaultBrigitte_npc
+stop_VH_CV_TR_RenaultBrigitte_npc
+
+### RTPC/GAME-VARIABLE NAMES (2063915144.bnk: VH_CV_TR_RenaultBrigitte_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (2063915144.bnk: VH_CV_TR_RenaultBrigitte_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (2063915144.bnk: VH_CV_TR_RenaultBrigitte_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (110172755.bnk: VH_NZ_CR_6WheelNaziLimo)
+play_VH_NZ_CR_6WheelNaziLimo
+stop_VH_NZ_CR_6WheelNaziLimo
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (110172755.bnk: VH_NZ_CR_6WheelNaziLimo)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (110172755.bnk: VH_NZ_CR_6WheelNaziLimo)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_gear
+VEH_gear_reverse
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+# 2305636090
+# 3846766534
+
+### VALUE NAMES (110172755.bnk: VH_NZ_CR_6WheelNaziLimo)
+accel_blip_off
+accel_blip_on
+ACCEL_high
+ACCEL_low
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (848198591.bnk: VH_NZ_CR_6WheelNaziLimo_npc)
+play_VH_NZ_CR_6WheelNaziLimo_npc
+stop_VH_NZ_CR_6WheelNaziLimo_npc
+
+### RTPC/GAME-VARIABLE NAMES (848198591.bnk: VH_NZ_CR_6WheelNaziLimo_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (848198591.bnk: VH_NZ_CR_6WheelNaziLimo_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (848198591.bnk: VH_NZ_CR_6WheelNaziLimo_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1728416432.bnk: VH_NZ_CR_Kubelwagen)
+play_VH_NZ_CR_Kubelwagen
+stop_VH_NZ_CR_Kubelwagen
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (1728416432.bnk: VH_NZ_CR_Kubelwagen)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_RPM
+VEH_SPD
+
+### VARIABLE NAMES (1728416432.bnk: VH_NZ_CR_Kubelwagen)
+reverse_switch
+SurfaceType
+VEH_BRAKE_LOAD_on
+VEH_gear
+VEH_gear_reverse
+VEH_LOAD
+VEH_low_ACCEL
+VEH_REV_delta
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+
+### VALUE NAMES (1728416432.bnk: VH_NZ_CR_Kubelwagen)
+ACCEL_high
+ACCEL_low
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+REV_delta_down
+REV_delta_stable
+REV_delta_up
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (958232280.bnk: VH_NZ_CR_Kubelwagen_npc)
+play_VH_NZ_CR_Kubelwagen_npc
+stop_VH_NZ_CR_Kubelwagen_npc
+
+### RTPC/GAME-VARIABLE NAMES (958232280.bnk: VH_NZ_CR_Kubelwagen_npc)
+distance
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (958232280.bnk: VH_NZ_CR_Kubelwagen_npc)
+escalation_onoff
+
+### VALUE NAMES (958232280.bnk: VH_NZ_CR_Kubelwagen_npc)
+escalation_off
+escalation_on
+none
+
+### EVENT NAMES (3082699711.bnk: VH_NZ_MO_KS750Sidecar)
+play_VH_NZ_MO_KS750Sidecar
+stop_VH_NZ_MO_KS750Sidecar
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (3082699711.bnk: VH_NZ_MO_KS750Sidecar)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (3082699711.bnk: VH_NZ_MO_KS750Sidecar)
+reverse_switch
+SurfaceType
+VEH_gear_motorcycle
+VEH_LOAD
+Vehicle_Brakes
+# 3846766534
+
+### VALUE NAMES (3082699711.bnk: VH_NZ_MO_KS750Sidecar)
+beep
+Brake
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1248315467.bnk: VH_NZ_MO_KS750Sidecar_npc)
+play_VH_NZ_MO_KS750Sidecar_npc
+stop_VH_NZ_MO_KS750Sidecar_npc
+
+### RTPC/GAME-VARIABLE NAMES (1248315467.bnk: VH_NZ_MO_KS750Sidecar_npc)
+distance
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (1248315467.bnk: VH_NZ_MO_KS750Sidecar_npc)
+escalation_onoff
+
+### VALUE NAMES (1248315467.bnk: VH_NZ_MO_KS750Sidecar_npc)
+escalation_off
+escalation_on
+none
+
+### EVENT NAMES (2924029596.bnk: VH_NZ_TK_Flammwagen)
+play_VH_NZ_TK_Flammwagen
+# 443652524
+# 827882592
+# 851657274
+# 1600408133
+# 2675979253
+# 3729332458
+
+### RTPC/GAME-VARIABLE NAMES (2924029596.bnk: VH_NZ_TK_Flammwagen)
+distance
+doppler
+SLIDESPEED
+VEH_DRIVE_OFF_GROUND
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (2924029596.bnk: VH_NZ_TK_Flammwagen)
+reverse_switch
+SurfaceType
+VEH_gear_tank
+VEH_LOAD
+
+### VALUE NAMES (2924029596.bnk: VH_NZ_TK_Flammwagen)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off_LOAD
+OIL_CONTAINER
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2127336644.bnk: VH_NZ_TK_Flammwagen_npc)
+play_VH_NZ_TK_Flammwagen_npc
+stop_VH_NZ_TK_Flammwagen_npc
+# 412210312
+# 839549908
+# 2002513037
+# 2097947142
+# 4218139126
+
+### RTPC/GAME-VARIABLE NAMES (2127336644.bnk: VH_NZ_TK_Flammwagen_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### EVENT NAMES (2760189461.bnk: VH_NZ_TK_KingTiger)
+play_VH_NZ_TK_KingTiger
+stop_VH_NZ_TK_KingTiger
+# 1718923018
+# 2374721002
+# 2473907264
+# 2623474724
+
+### RTPC/GAME-VARIABLE NAMES (2760189461.bnk: VH_NZ_TK_KingTiger)
+distance
+doppler
+SLIDESPEED
+VEH_DRIVE_OFF_GROUND
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (2760189461.bnk: VH_NZ_TK_KingTiger)
+reverse_switch
+SurfaceType
+VEH_gear_tank
+VEH_LOAD
+
+### VALUE NAMES (2760189461.bnk: VH_NZ_TK_KingTiger)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off_LOAD
+OIL_CONTAINER
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2828737437.bnk: VH_NZ_TK_KingTiger_npc)
+play_VH_NZ_TK_KingTiger_npc
+stop_VH_NZ_TK_KingTiger_npc
+# 1081946198
+# 3009520172
+# 3385673462
+# 4258866216
+
+### RTPC/GAME-VARIABLE NAMES (2828737437.bnk: VH_NZ_TK_KingTiger_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (2828737437.bnk: VH_NZ_TK_KingTiger_npc)
+SurfaceType
+
+### VALUE NAMES (2828737437.bnk: VH_NZ_TK_KingTiger_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3122766223.bnk: VH_NZ_TK_Maus)
+play_VH_NZ_TK_Maus
+stop_VH_NZ_TK_Maus
+# 6523818
+# 2281279636
+# 3842353696
+# 4016197578
+
+### RTPC/GAME-VARIABLE NAMES (3122766223.bnk: VH_NZ_TK_Maus)
+distance
+doppler
+SLIDESPEED
+VEH_DRIVE_OFF_GROUND
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (3122766223.bnk: VH_NZ_TK_Maus)
+reverse_switch
+SurfaceType
+VEH_gear_tank
+VEH_LOAD
+
+### VALUE NAMES (3122766223.bnk: VH_NZ_TK_Maus)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off_LOAD
+OIL_CONTAINER
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2315346139.bnk: VH_NZ_TK_Maus_npc)
+play_VH_NZ_TK_Maus_npc
+stop_VH_NZ_TK_Maus_npc
+# 1820838582
+# 1917540316
+# 2134772758
+# 2419516488
+
+### RTPC/GAME-VARIABLE NAMES (2315346139.bnk: VH_NZ_TK_Maus_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### EVENT NAMES (49496388.bnk: VH_NZ_TK_PanzerMk3)
+play_VH_NZ_TK_PanzerMk3
+stop_VH_NZ_TK_PanzerMk3
+# 457806578
+# 690682210
+# 1217785492
+# 3359912528
+
+### RTPC/GAME-VARIABLE NAMES (49496388.bnk: VH_NZ_TK_PanzerMk3)
+distance
+doppler
+SLIDESPEED
+VEH_DRIVE_OFF_GROUND
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (49496388.bnk: VH_NZ_TK_PanzerMk3)
+reverse_switch
+SurfaceType
+VEH_gear_tank
+VEH_LOAD
+
+### VALUE NAMES (49496388.bnk: VH_NZ_TK_PanzerMk3)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off_LOAD
+OIL_CONTAINER
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1563232780.bnk: VH_NZ_TK_PanzerMk3_npc)
+play_VH_NZ_TK_PanzerMk3_npc
+stop_VH_NZ_TK_PanzerMk3_npc
+# 3037615032
+# 3374677934
+# 3754923484
+
+### RTPC/GAME-VARIABLE NAMES (1563232780.bnk: VH_NZ_TK_PanzerMk3_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (1563232780.bnk: VH_NZ_TK_PanzerMk3_npc)
+WeaponFire
+
+### VALUE NAMES (1563232780.bnk: VH_NZ_TK_PanzerMk3_npc)
+Fire_01
+Fire_02
+Fire_03
+Fire_04
+Fire_05
+Fire_06
+Fire_07
+Fire_08
+Fire_09
+Fire_10
+
+### EVENT NAMES (2482844799.bnk: VH_NZ_TK_Renault_FT17)
+play_VH_NZ_TK_Renault_FT17
+stop_VH_NZ_TK_Renault_FT17
+# 682756049
+# 4123573147
+
+### RTPC/GAME-VARIABLE NAMES (2482844799.bnk: VH_NZ_TK_Renault_FT17)
+distance
+doppler
+SLIDESPEED
+VEH_DRIVE_OFF_GROUND
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (2482844799.bnk: VH_NZ_TK_Renault_FT17)
+reverse_switch
+SurfaceType
+VEH_gear_tank
+VEH_LOAD
+
+### VALUE NAMES (2482844799.bnk: VH_NZ_TK_Renault_FT17)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off_LOAD
+OIL_CONTAINER
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3602472203.bnk: VH_NZ_TK_Renault_FT17_npc)
+play_VH_NZ_TK_Renault_FT17_npc
+stop_VH_NZ_TK_Renault_FT17_npc
+# 288971244
+# 1279773274
+
+### RTPC/GAME-VARIABLE NAMES (3602472203.bnk: VH_NZ_TK_Renault_FT17_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### EVENT NAMES (3426083808.bnk: VH_NZ_TK_Stum_III)
+play_VH_NZ_TK_Stum_III
+stop_VH_NZ_TK_Stum_III
+# 889431879
+# 1750102693
+
+### RTPC/GAME-VARIABLE NAMES (3426083808.bnk: VH_NZ_TK_Stum_III)
+distance
+doppler
+SLIDESPEED
+VEH_DRIVE_OFF_GROUND
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (3426083808.bnk: VH_NZ_TK_Stum_III)
+reverse_switch
+SurfaceType
+VEH_gear_tank
+VEH_LOAD
+
+### VALUE NAMES (3426083808.bnk: VH_NZ_TK_Stum_III)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off_LOAD
+OIL_CONTAINER
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2814260232.bnk: VH_NZ_TK_Stum_III_npc)
+play_VH_NZ_TK_Stum_III_npc
+stop_VH_NZ_TK_Stum_III_npc
+# 3726195245
+# 3855388211
+
+### RTPC/GAME-VARIABLE NAMES (2814260232.bnk: VH_NZ_TK_Stum_III_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (2814260232.bnk: VH_NZ_TK_Stum_III_npc)
+SurfaceType
+
+### VALUE NAMES (2814260232.bnk: VH_NZ_TK_Stum_III_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2545394202.bnk: VH_NZ_TR_Am33p)
+play_VH_NZ_TR_Am33p
+stop_VH_NZ_TR_Am33p
+# 1930897664
+# 2963123174
+
+### RTPC/GAME-VARIABLE NAMES (2545394202.bnk: VH_NZ_TR_Am33p)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (2545394202.bnk: VH_NZ_TR_Am33p)
+reverse_switch
+SurfaceType
+VEH_BRAKE_LOAD_on
+VEH_gear_tank
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (2545394202.bnk: VH_NZ_TR_Am33p)
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2415763238.bnk: VH_NZ_TR_Am33p_npc)
+play_VH_NZ_TR_Am33p_npc
+stop_VH_NZ_TR_Am33p_npc
+# 2270826465
+
+### RTPC/GAME-VARIABLE NAMES (2415763238.bnk: VH_NZ_TR_Am33p_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (2415763238.bnk: VH_NZ_TR_Am33p_npc)
+SurfaceType
+
+### VALUE NAMES (2415763238.bnk: VH_NZ_TR_Am33p_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3119456827.bnk: VH_NZ_TR_FraSaurer)
+play_VH_NZ_TR_FraSaurer
+stop_VH_NZ_TR_FraSaurer
+# 624040539
+# 2222940665
+
+### RTPC/GAME-VARIABLE NAMES (3119456827.bnk: VH_NZ_TR_FraSaurer)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (3119456827.bnk: VH_NZ_TR_FraSaurer)
+reverse_switch
+SurfaceType
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (3119456827.bnk: VH_NZ_TR_FraSaurer)
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2546388711.bnk: VH_NZ_TR_FraSaurer_npc)
+play_VH_NZ_TR_FraSaurer_npc
+stop_VH_NZ_TR_FraSaurer_npc
+# 1613553985
+
+### RTPC/GAME-VARIABLE NAMES (2546388711.bnk: VH_NZ_TR_FraSaurer_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (2546388711.bnk: VH_NZ_TR_FraSaurer_npc)
+SurfaceType
+
+### VALUE NAMES (2546388711.bnk: VH_NZ_TR_FraSaurer_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (78577001.bnk: VH_NZ_TR_Getaway_OpelGun)
+play_VH_NZ_TR_Getaway_OpelGun
+stop_VH_NZ_TR_Getaway_OpelGun
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (78577001.bnk: VH_NZ_TR_Getaway_OpelGun)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (78577001.bnk: VH_NZ_TR_Getaway_OpelGun)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (78577001.bnk: VH_NZ_TR_Getaway_OpelGun)
+accel_blip_off
+accel_blip_on
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1299196593.bnk: VH_NZ_TR_Getaway_OpelGun_npc)
+play_VH_NZ_TR_Getaway_OpelGun_npc
+stop_VH_NZ_TR_Getaway_OpelGun_npc
+
+### RTPC/GAME-VARIABLE NAMES (1299196593.bnk: VH_NZ_TR_Getaway_OpelGun_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (1299196593.bnk: VH_NZ_TR_Getaway_OpelGun_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (1299196593.bnk: VH_NZ_TR_Getaway_OpelGun_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2093615946.bnk: VH_NZ_TR_HalfTrack)
+play_VH_NZ_TR_HalfTrack
+stop_VH_NZ_TR_HalfTrack
+
+### RTPC/GAME-VARIABLE NAMES (2093615946.bnk: VH_NZ_TR_HalfTrack)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (2093615946.bnk: VH_NZ_TR_HalfTrack)
+reverse_switch
+SurfaceType
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (2093615946.bnk: VH_NZ_TR_HalfTrack)
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2756050838.bnk: VH_NZ_TR_HalfTrack_npc)
+play_VH_NZ_TR_HalfTrack_npc
+play_wp_mg_mg42_Fire_npc
+stop_VH_NZ_TR_HalfTrack_npc
+stop_wp_mg_mg42_Fire_npc
+
+### RTPC/GAME-VARIABLE NAMES (2756050838.bnk: VH_NZ_TR_HalfTrack_npc)
+distance
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (2756050838.bnk: VH_NZ_TR_HalfTrack_npc)
+escalation_onoff
+SurfaceType
+WeaponFire
+
+### VALUE NAMES (2756050838.bnk: VH_NZ_TR_HalfTrack_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+escalation_off
+escalation_on
+Fire_01
+Fire_02
+Fire_03
+Fire_04
+Fire_05
+Fire_06
+Fire_07
+Fire_08
+Fire_09
+Fire_10
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+none
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (773045639.bnk: VH_NZ_TR_OM_OpelFlameVan)
+play_VH_NZ_TR_OM_OpelFlameVan
+stop_VH_NZ_TR_OM_OpelFlameVan
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (773045639.bnk: VH_NZ_TR_OM_OpelFlameVan)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (773045639.bnk: VH_NZ_TR_OM_OpelFlameVan)
+reverse_switch
+SurfaceType
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (773045639.bnk: VH_NZ_TR_OM_OpelFlameVan)
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (753785203.bnk: VH_NZ_TR_OM_OpelFlameVan_npc)
+play_VH_NZ_TR_OM_OpelFlameVan_npc
+stop_VH_NZ_TR_OM_OpelFlameVan_npc
+
+### RTPC/GAME-VARIABLE NAMES (753785203.bnk: VH_NZ_TR_OM_OpelFlameVan_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (753785203.bnk: VH_NZ_TR_OM_OpelFlameVan_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (753785203.bnk: VH_NZ_TR_OM_OpelFlameVan_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2292103152.bnk: VH_NZ_TR_OpelCanvas)
+play_VH_NZ_TR_OpelCanvas
+stop_VH_NZ_TR_OpelCanvas
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (2292103152.bnk: VH_NZ_TR_OpelCanvas)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (2292103152.bnk: VH_NZ_TR_OpelCanvas)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (2292103152.bnk: VH_NZ_TR_OpelCanvas)
+accel_blip_off
+accel_blip_on
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (4216360984.bnk: VH_NZ_TR_OpelCanvas_npc)
+play_VH_NZ_TR_OpelCanvas_npc
+stop_VH_NZ_TR_OpelCanvas_npc
+
+### RTPC/GAME-VARIABLE NAMES (4216360984.bnk: VH_NZ_TR_OpelCanvas_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (4216360984.bnk: VH_NZ_TR_OpelCanvas_npc)
+escalation_onoff
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (4216360984.bnk: VH_NZ_TR_OpelCanvas_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+escalation_off
+escalation_on
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+none
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1188495913.bnk: VH_NZ_TR_OpelFuelTruck)
+play_VH_NZ_TR_OpelFuelTruck
+stop_VH_NZ_TR_OpelFuelTruck
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (1188495913.bnk: VH_NZ_TR_OpelFuelTruck)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (1188495913.bnk: VH_NZ_TR_OpelFuelTruck)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (1188495913.bnk: VH_NZ_TR_OpelFuelTruck)
+accel_blip_off
+accel_blip_on
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1356554097.bnk: VH_NZ_TR_OpelFuelTruck_npc)
+play_VH_NZ_TR_OpelFuelTruck_npc
+stop_VH_NZ_TR_OpelFuelTruck_npc
+
+### RTPC/GAME-VARIABLE NAMES (1356554097.bnk: VH_NZ_TR_OpelFuelTruck_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (1356554097.bnk: VH_NZ_TR_OpelFuelTruck_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (1356554097.bnk: VH_NZ_TR_OpelFuelTruck_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2407860946.bnk: VH_NZ_TR_OpelGasVan)
+play_VH_NZ_TR_OpelGasVan
+stop_VH_NZ_TR_OpelGasVan
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (2407860946.bnk: VH_NZ_TR_OpelGasVan)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (2407860946.bnk: VH_NZ_TR_OpelGasVan)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (2407860946.bnk: VH_NZ_TR_OpelGasVan)
+accel_blip_off
+accel_blip_on
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (4103080990.bnk: VH_NZ_TR_OpelGasVan_npc)
+play_VH_NZ_TR_OpelGasVan_npc
+stop_VH_NZ_TR_OpelGasVan_npc
+
+### RTPC/GAME-VARIABLE NAMES (4103080990.bnk: VH_NZ_TR_OpelGasVan_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (4103080990.bnk: VH_NZ_TR_OpelGasVan_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (4103080990.bnk: VH_NZ_TR_OpelGasVan_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2755029770.bnk: VH_NZ_TR_OpelGun)
+play_VH_NZ_TR_OpelGun
+stop_VH_NZ_TR_OpelGun
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (2755029770.bnk: VH_NZ_TR_OpelGun)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (2755029770.bnk: VH_NZ_TR_OpelGun)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (2755029770.bnk: VH_NZ_TR_OpelGun)
+accel_blip_off
+accel_blip_on
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1470016598.bnk: VH_NZ_TR_OpelGun_npc)
+play_VH_NZ_TR_OpelGun_npc
+play_VH_NZ_TR_OpelGun_npc_P6M1
+stop_VH_NZ_TR_OpelGun_npc
+stop_VH_NZ_TR_OpelGun_npc_P6M1
+
+### RTPC/GAME-VARIABLE NAMES (1470016598.bnk: VH_NZ_TR_OpelGun_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+volume_sfx
+
+### VARIABLE NAMES (1470016598.bnk: VH_NZ_TR_OpelGun_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (1470016598.bnk: VH_NZ_TR_OpelGun_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2554684270.bnk: VH_NZ_TR_OpelMed)
+play_VH_NZ_TR_OpelMed
+stop_VH_NZ_TR_OpelMed
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (2554684270.bnk: VH_NZ_TR_OpelMed)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (2554684270.bnk: VH_NZ_TR_OpelMed)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (2554684270.bnk: VH_NZ_TR_OpelMed)
+accel_blip_off
+accel_blip_on
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2428404602.bnk: VH_NZ_TR_OpelMed_npc)
+play_VH_NZ_TR_OpelMed_npc
+stop_VH_NZ_TR_OpelMed_npc
+
+### RTPC/GAME-VARIABLE NAMES (2428404602.bnk: VH_NZ_TR_OpelMed_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (2428404602.bnk: VH_NZ_TR_OpelMed_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (2428404602.bnk: VH_NZ_TR_OpelMed_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2601512085.bnk: VH_NZ_TR_OpelTruck)
+play_VH_NZ_TR_OpelTruck
+stop_VH_NZ_TR_OpelTruck
+# 305941241
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (2601512085.bnk: VH_NZ_TR_OpelTruck)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (2601512085.bnk: VH_NZ_TR_OpelTruck)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (2601512085.bnk: VH_NZ_TR_OpelTruck)
+accel_blip_off
+accel_blip_on
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1286326813.bnk: VH_NZ_TR_OpelTruck_npc)
+play_VH_NZ_TR_OpelTruck_npc
+stop_VH_NZ_TR_OpelTruck_npc
+
+### RTPC/GAME-VARIABLE NAMES (1286326813.bnk: VH_NZ_TR_OpelTruck_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (1286326813.bnk: VH_NZ_TR_OpelTruck_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (1286326813.bnk: VH_NZ_TR_OpelTruck_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (2189970656.bnk: VH_NZ_TR_PumaZ234)
+play_VH_NZ_TR_PumaZ234
+stop_VH_NZ_TR_PumaZ234
+# 304923643
+# 1684418964
+# 3177630266
+# 3389025408
+# 3664768786
+# 4217913657
+
+### RTPC/GAME-VARIABLE NAMES (2189970656.bnk: VH_NZ_TR_PumaZ234)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (2189970656.bnk: VH_NZ_TR_PumaZ234)
+reverse_switch
+SurfaceType
+VEH_BRAKE_LOAD_on
+VEH_gear_tank
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (2189970656.bnk: VH_NZ_TR_PumaZ234)
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (386805000.bnk: VH_NZ_TR_PumaZ234_npc)
+play_VH_NZ_TR_PumaZ234_npc
+stop_VH_NZ_TR_PumaZ234_npc
+# 1348479494
+
+### RTPC/GAME-VARIABLE NAMES (386805000.bnk: VH_NZ_TR_PumaZ234_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (386805000.bnk: VH_NZ_TR_PumaZ234_npc)
+SurfaceType
+
+### VALUE NAMES (386805000.bnk: VH_NZ_TR_PumaZ234_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (4040728452.bnk: VH_NZ_TR_V1OpelTruck)
+play_VH_NZ_TR_V1OpelTruck
+stop_VH_NZ_TR_V1OpelTruck
+# 305941241
+# 2439600100
+# 3793870630
+# 4012706727
+
+### RTPC/GAME-VARIABLE NAMES (4040728452.bnk: VH_NZ_TR_V1OpelTruck)
+distance
+doppler
+SLIDESPEED
+VEH_ACCEL
+VEH_ACCEL_LOAD
+VEH_BURNOUT
+VEH_DRIVE_OFF_GROUND
+VEH_HBRAKE
+VEH_REV
+VEH_SPD
+
+### VARIABLE NAMES (4040728452.bnk: VH_NZ_TR_V1OpelTruck)
+reverse_switch
+SurfaceType
+VEH_ACCEL_blip
+VEH_BRAKE_LOAD_on
+VEH_gear_truck
+VEH_LOAD
+VEH_Skid
+Vehicle_Brakes
+# 3846766534
+# 3294099918
+
+### VALUE NAMES (4040728452.bnk: VH_NZ_TR_V1OpelTruck)
+accel_blip_off
+accel_blip_on
+beep
+Brake
+Brake_on
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+forward
+GAS_CONTAINER
+gear_01
+gear_02
+gear_03
+gear_04
+gear_rev
+GLASS
+grass
+large
+MEAT
+Medium
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+off_LOAD
+OIL_CONTAINER
+on
+on_LOAD
+RED_BRICK
+reverse
+ROCK
+ROPE
+RUBBER
+skidding_off
+skidding_on
+Small
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3657694284.bnk: VH_NZ_TR_V1OpelTruck_npc)
+play_VH_NZ_TR_V1OpelTruck_npc
+stop_VH_NZ_TR_V1OpelTruck_npc
+# 2439600100
+# 3793870630
+
+### RTPC/GAME-VARIABLE NAMES (3657694284.bnk: VH_NZ_TR_V1OpelTruck_npc)
+doppler
+VEH_ACCEL_LOAD
+VEH_SPD
+
+### VARIABLE NAMES (3657694284.bnk: VH_NZ_TR_V1OpelTruck_npc)
+SurfaceType
+# 3846766534
+
+### VALUE NAMES (3657694284.bnk: VH_NZ_TR_V1OpelTruck_npc)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+off
+OIL_CONTAINER
+on
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (971393558.bnk: Vehicles)
+play_VH_CV_CR_Peugeot402_npc
+play_VH_NZ_CR_Kubelwagen_npc
+play_VH_NZ_MO_KS750Sidecar_npc
+play_VH_NZ_TR_HalfTrack_npc
+play_VH_NZ_TR_OpelCanvas_npc
+play_wp_mg42_Fire_peugeot
+play_wp_mg42_Fire_plane
+stop_VH_CV_CR_Peugeot402_npc
+stop_VH_NZ_CR_Kubelwagen_npc
+stop_VH_NZ_MO_KS750Sidecar_npc
+stop_VH_NZ_TR_HalfTrack_npc
+stop_VH_NZ_TR_OpelCanvas_npc
+stop_wp_mg42_Fire_peugeot
+stop_wp_mg42_Fire_plane
+# 67833013
+# 304923643
+# 792255045
+# 829263423
+# 853202609
+# 990089080
+# 990089082
+# 990089083
+# 996317419
+# 1153132828
+# 1153132829
+# 1153132830
+# 1433704705
+# 1433704706
+# 1433704707
+# 1433704708
+# 1496003386
+# 1683437186
+# 1683437188
+# 1683437189
+# 1683437191
+# 1684418964
+# 1714098667
+# 2162124348
+# 2236645366
+# 2251089433
+# 2251089434
+# 2323567748
+# 2439600100
+# 2599458380
+# 2599458383
+# 3082168290
+# 3407695145
+# 3664768786
+# 3793870630
+# 4100565781
+# 4217913657
+# 4232767427
+
+### RTPC/GAME-VARIABLE NAMES (971393558.bnk: Vehicles)
+distance
+doppler
+SPEED
+
+### VARIABLE NAMES (971393558.bnk: Vehicles)
+escalation_onoff
+
+### VALUE NAMES (971393558.bnk: Vehicles)
+escalation_off
+escalation_on
+none
+
+### EVENT NAMES (1467963052.bnk: Weapons)
+play_Bullet_FlyBy
+play_wp_AMMO
+play_wp_ft_flamethrower_Fire_npc
+play_wp_ft_TerrorSquad_Fire_npc
+play_wp_mg42_Fire_plane
+play_wp_mg_mg42_Fire_npc
+play_wp_mg_mp40_Fire_npc
+play_wp_mg_mp44_Fire_npc
+play_wp_mg_sten_Fire_npc
+play_wp_mg_sten_silencer_Fire_npc
+play_wp_mg_TerrorSquad_Fire_npc
+play_wp_mg_thompson_Fire_npc
+play_wp_ps_DierkerGun_Fire_npc
+play_wp_ps_luger_Fire_npc
+play_wp_ps_mauser_Fire_npc
+play_wp_ps_revolver_Fire_npc
+play_wp_ps_WaltherPPK_Fire_npc
+play_wp_ps_WaltherPPK_Silencer_Fire_npc
+play_wp_rf_gewehr_scope_Fire_npc
+play_wp_rf_gewehr_scope_silencer_Fire_npc
+play_wp_rf_hunting_Fire_npc
+play_wp_rf_karbine_Fire_npc
+play_wp_rpg_panzerfaust_Fire_npc
+play_wp_rpg_panzrshrek_Fire_npc
+play_wp_sh_12GaugeDouble_Fire_npc
+play_wp_sh_12GaugeDouble_SawedOff_Fire_npc
+play_wp_sh_12GaugePump_Fire_npc
+play_wp_sh_TerrorSquad_Fire_npc
+stop_Bullet_FlyBy
+stop_wp_ft_flamethrower_Fire_npc
+stop_wp_ft_TerrorSquad_Fire_npc
+stop_wp_mg42_Fire_plane
+stop_wp_mg_mg42_Fire_npc
+stop_wp_mg_mp40_Fire_npc
+stop_wp_mg_mp44_Fire_npc
+stop_wp_mg_sten_Fire_npc
+stop_wp_mg_sten_silencer_Fire_npc
+stop_wp_mg_TerrorSquad_Fire_npc
+stop_wp_mg_thompson_Fire_npc
+# 991950379
+# 1343362536
+# 1527665037
+# 1532777426
+# 1910411478
+# 2059066736
+# 2071446492
+# 2165437318
+# 3117117233
+# 3211159985
+# 3469612562
+# 3537929609
+# 3584916623
+# 4126693335
+
+### RTPC/GAME-VARIABLE NAMES (1467963052.bnk: Weapons)
+distance
+
+### VARIABLE NAMES (1467963052.bnk: Weapons)
+SurfaceType
+WeaponFire
+
+### VALUE NAMES (1467963052.bnk: Weapons)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+Fire_01
+Fire_02
+Fire_03
+Fire_04
+Fire_05
+Fire_06
+Fire_07
+Fire_08
+Fire_09
+Fire_10
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (728993735.bnk: amb_A1M4_ext)
+play_amb_a1m4_ext_main_LP
+stop_amb_a1m4_ext_main_LP
+# 206952560
+# 698343578
+# 1885651923
+# 2826872853
+# 3926020458
+
+### EVENT NAMES (4278118182.bnk: amb_A1M4_ladder_main)
+play_amb_a1m4_ext_ladder_LP
+stop_amb_a1m4_ext_ladder_LP
+
+### EVENT NAMES (4094611433.bnk: amb_AL_HQ_slaughterHouse)
+play_A1M3_flys
+play_Amb_P1FP_GetMeds
+stop_A1M3_flys
+stop_Amb_P1FP_GetMeds
+# 109199097
+# 161165607
+# 192495550
+# 276255052
+# 663185503
+# 2405985264
+# 2666269530
+# 3594092921
+
+### EVENT NAMES (529062061.bnk: amb_AL_P1_LaVillette_MainRoom)
+# 275592630
+# 275592631
+# 1175667620
+# 1546542128
+# 3155312840
+# 3155312841
+# 3435721338
+# 3752881135
+# 3759353182
+# 3888978081
+
+### RTPC/GAME-VARIABLE NAMES (529062061.bnk: amb_AL_P1_LaVillette_MainRoom)
+SPEED
+
+### EVENT NAMES (3767750442.bnk: amb_AL_border_main)
+# 3467035968
+# 3983894238
+
+### EVENT NAMES (3613803983.bnk: amb_AL_hq_BDN_Stage)
+# 1185819475
+# 1446700073
+
+### EVENT NAMES (2516292288.bnk: amb_AL_hq_RedOx)
+# 1591651997
+# 2895154699
+
+### EVENT NAMES (2135927669.bnk: amb_AL_hq_catacombs_01b)
+# 283301297
+# 1969362799
+# 3041778545
+# 3527992807
+# 3723269310
+# 3945508576
+
+### EVENT NAMES (2152705224.bnk: amb_AL_hq_catacombs_02b)
+# 192495550
+# 283301297
+# 1969362799
+# 2273472753
+# 2405985264
+# 2415822735
+
+### EVENT NAMES (2450275658.bnk: amb_AL_hq_waterfall)
+play_hq_waterfall_a01
+stop_hq_waterfall_a01
+# 161165607
+# 192495550
+# 224977460
+# 526441174
+# 2405985264
+# 3594092921
+
+### EVENT NAMES (1919304087.bnk: amb_Dyn_HQ_slaughterHouse)
+play_amb_Dyn_HQ_slaughterHouse
+stop_amb_Dyn_HQ_slaughterHouse
+
+### EVENT NAMES (328290682.bnk: amb_Dyn_hq_BDN_SeansRoom)
+play_amb_BDN_SeansRoom_LP
+stop_amb_BDN_SeansRoom_LP
+# 443786171
+# 4174953005
+
+### EVENT NAMES (366342940.bnk: amb_Dyn_hq_catacombs_01a)
+# 927647040
+# 2626299254
+
+### RTPC/GAME-VARIABLE NAMES (366342940.bnk: amb_Dyn_hq_catacombs_01a)
+SPEED
+
+### EVENT NAMES (316010149.bnk: amb_Dyn_hq_catacombs_02a)
+# 416149772
+# 3820617030
+
+### RTPC/GAME-VARIABLE NAMES (316010149.bnk: amb_Dyn_hq_catacombs_02a)
+SPEED
+
+### EVENT NAMES (688142772.bnk: amb_Dyn_hq_waterfall)
+play_hq_waterfall_a01
+stop_hq_waterfall_a01
+# 161165607
+# 192495550
+# 224977460
+# 526441174
+# 2405985264
+# 3594092921
+
+### EVENT NAMES (2647841426.bnk: amb_MoriniFarm)
+# 2273163706
+# 3465022892
+
+### EVENT NAMES (1927627822.bnk: amb_P6_sewers)
+# 709297036
+# 711160684
+# 711160687
+# 732441219
+# 1066608469
+# 1307043250
+# 1664601753
+# 1664601754
+# 1955490731
+# 3047847349
+
+### EVENT NAMES (963108418.bnk: amb_a1m4_lobby_a)
+# 27704617
+# 176190437
+# 238204231
+# 834916521
+# 4103937067
+
+### RTPC/GAME-VARIABLE NAMES (963108418.bnk: amb_a1m4_lobby_a)
+distance
+
+### EVENT NAMES (4271580455.bnk: amb_car_factory)
+play_amb_a1m4_carfactory
+play_Emt_car_factory
+stop_amb_a1m4_carfactory
+stop_Emt_car_factory
+
+### EVENT NAMES (368178685.bnk: amb_doppelsieg_office_a)
+# 1416741484
+# 2989364430
+
+### EVENT NAMES (2480616439.bnk: amb_dyn_hq_BDN_mainRoom)
+# 1185819475
+# 1446700073
+# 2294133270
+# 2609017201
+# 2929110202
+# 3480927584
+
+### EVENT NAMES (3025744984.bnk: amb_factory_ventilation)
+# 899350112
+# 899350114
+# 931264577
+# 1727767495
+# 2823763448
+# 2823763450
+
+### RTPC/GAME-VARIABLE NAMES (3025744984.bnk: amb_factory_ventilation)
+distance
+
+### EVENT NAMES (3924013324.bnk: amb_hq_waterfall_ext)
+play_hq_waterfall_a01_01
+play_hq_waterfall_mill
+stop_hq_waterfall_mill
+# 917816756
+# 3379786418
+
+### EVENT NAMES (335441543.bnk: amb_turbine_room)
+play_Emt_computers
+stop_Emt_computers
+# 651599676
+# 2807012434
+
+### EVENT NAMES (3498187521.bnk: emt_Belle_Gramaphone)
+# 1274753518
+# 3152667436
+
+### TRIGGER NAMES (3498187521.bnk: emt_Belle_Gramaphone)
+Diversion
+Trigger_RadioClick
+# 664592857
+# 3126374595
+# 3368017627
+
+### RTPC/GAME-VARIABLE NAMES (3498187521.bnk: emt_Belle_Gramaphone)
+Volume_Radio
+
+### VARIABLE NAMES (3498187521.bnk: emt_Belle_Gramaphone)
+Radio
+
+### VALUE NAMES (3498187521.bnk: emt_Belle_Gramaphone)
+Grainy
+Grainy_NoVoc
+rich
+rich_NoVoc
+
+### EVENT NAMES (4203561429.bnk: emt_Console_Tower)
+play_emt_Console_Tower
+stop_emt_Console_Tower
+
+### EVENT NAMES (277469793.bnk: emt_ElectricBox01)
+# 1957178235
+# 3760872313
+
+### EVENT NAMES (593491905.bnk: emt_Radar_C_MAX)
+play_emt_Radar_C_MAX
+stop_emt_Radar_C_MAX
+
+### EVENT NAMES (1322375449.bnk: emt_waterFountain_01)
+# 934440923
+# 3917661177
+
+### EVENT NAMES (916475748.bnk: m_A1M0_inGame)
+play_A1M0_Gate
+# 2523651645
+
+### EVENT NAMES (2606146211.bnk: m_A1M1_inGame)
+play_a1m1_race_start
+play_race_Start
+# 285696961
+# 312447604
+# 312447605
+# 312447606
+# 574414833
+# 669075453
+# 673051087
+# 727651145
+# 788179529
+# 920119196
+# 1061397775
+# 1229222731
+# 1456040475
+# 1602091773
+# 1682537120
+# 1781470172
+# 2521931101
+# 3085617599
+# 3445383291
+# 3591006310
+# 3833931826
+# 4124189344
+
+### RTPC/GAME-VARIABLE NAMES (2606146211.bnk: m_A1M1_inGame)
+distance
+
+### EVENT NAMES (1006942995.bnk: m_A1M1b_inGame)
+# 2146564115
+# 2576268085
+# 3040122543
+# 4095086757
+
+### RTPC/GAME-VARIABLE NAMES (1006942995.bnk: m_A1M1b_inGame)
+distance
+
+### EVENT NAMES (3037283454.bnk: m_A1M2_inGame)
+play_A1M2_Fire
+stop_A1M2_Fire
+# 615521311
+# 1680385560
+# 2133973492
+# 2402203850
+# 2523651645
+# 2757213470
+# 2932767045
+# 3445514039
+# 3677631166
+
+### EVENT NAMES (1433986197.bnk: m_A1M3_inGame)
+# 845694665
+# 2019345078
+# 2294756499
+
+### EVENT NAMES (2871343032.bnk: m_A1M4_inGame)
+play_amb_a1m4_ext_main
+play_amb_a1m4_ext_main_LP
+stop_amb_a1m4_ext_main
+stop_amb_a1m4_ext_main_LP
+# 16813588
+# 119546160
+# 144595343
+# 176190437
+# 197062547
+# 224977460
+# 306367429
+# 378328804
+# 411645712
+# 473288255
+# 481346290
+# 526441174
+# 554448395
+# 563053817
+# 714774226
+# 793875476
+# 882836592
+# 968266513
+# 969413872
+# 975668998
+# 1334248702
+# 1360842478
+# 1390632794
+# 1456185640
+# 1820138720
+# 1833653825
+# 1833653826
+# 2075823908
+# 2089816874
+# 2211554146
+# 2283798685
+# 2351354833
+# 2364598428
+# 2364598431
+# 2423299811
+# 2784330624
+# 2914656718
+# 2966030033
+# 3196714065
+# 3204839052
+# 3314093786
+# 3316492993
+# 3406226576
+# 3503843370
+# 3505360049
+# 3531524036
+# 3590948402
+# 3606694126
+# 3817540118
+# 3839909015
+# 3913207818
+# 4018523638
+# 4112843646
+# 4169556464
+# 4197950058
+
+### RTPC/GAME-VARIABLE NAMES (2871343032.bnk: m_A1M4_inGame)
+distance
+doppler
+
+### EVENT NAMES (3709373530.bnk: m_A1M4_planes)
+# 16813588
+# 481346290
+# 1390632794
+
+### EVENT NAMES (284447479.bnk: m_A1M5_inGame)
+# 403408404
+# 575413482
+# 735688619
+# 853202609
+# 895643632
+# 1094438585
+# 1270600480
+# 1452313520
+# 1479771812
+# 1714098667
+# 1927963102
+# 2366957962
+# 2433512278
+# 2663840884
+# 3142929405
+# 3748446587
+
+### RTPC/GAME-VARIABLE NAMES (284447479.bnk: m_A1M5_inGame)
+distance
+SPEED
+
+### EVENT NAMES (3066571009.bnk: m_A3M1_inGame)
+# 312447604
+# 312447605
+# 312447606
+# 727651145
+# 1061397775
+# 1173137662
+# 1456040475
+# 1781470172
+# 2521931101
+# 2606176396
+# 3591006310
+
+### RTPC/GAME-VARIABLE NAMES (3066571009.bnk: m_A3M1_inGame)
+distance
+
+### EVENT NAMES (1757144704.bnk: m_A3M2_inGame)
+# 85188393
+# 526352240
+# 526846987
+# 994212809
+# 994212810
+# 1075261607
+# 1281978076
+# 1993594744
+# 2145726733
+# 2211238139
+# 2480182230
+# 2513977005
+# 2878923412
+# 2878923415
+# 2991399322
+# 3205774844
+# 3561935283
+# 3682475996
+# 4123166103
+# 4127934686
+# 4160161896
+# 4170870562
+
+### RTPC/GAME-VARIABLE NAMES (1757144704.bnk: m_A3M2_inGame)
+distance
+SPEED
+
+### VARIABLE NAMES (1757144704.bnk: m_A3M2_inGame)
+m_A1M2_barfight
+SurfaceType
+
+### VALUE NAMES (1757144704.bnk: m_A3M2_inGame)
+A1M2_Start
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+none
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 2702559744
+# 3829824117
+
+### EVENT NAMES (1695691935.bnk: m_A3M3_inGame)
+play_Emt_computers
+Play_EXP_Dopp_Medium
+stop_Emt_computers
+stop_EXP_Dopp_Medium
+# 119546160
+# 224977460
+# 255814608
+# 328510296
+# 410897629
+# 411645712
+# 526441174
+# 569890869
+# 651599676
+# 698147649
+# 714774226
+# 793875479
+# 882836592
+# 895532608
+# 1118388393
+# 1289053126
+# 1309167094
+# 1727617735
+# 1744068932
+# 1801590181
+# 1833653825
+# 1833653826
+# 1981442715
+# 1985317151
+# 2124510342
+# 2211554146
+# 2253428485
+# 2364598428
+# 2364598431
+# 2676916724
+# 2784330624
+# 2807012434
+# 2820494923
+# 2901572418
+# 2940485231
+# 2966030033
+# 3007593964
+# 3204839052
+# 3291612312
+# 3314093786
+# 3356913255
+# 3495940128
+# 3819449888
+# 3833335917
+# 3852943752
+# 3925560625
+# 4017744596
+
+### RTPC/GAME-VARIABLE NAMES (1695691935.bnk: m_A3M3_inGame)
+distance
+
+### EVENT NAMES (327739869.bnk: m_A3M5_inGame)
+play_A3M5_Elevator
+play_Emt_Steamloop
+stop_A3M5_Elevator
+stop_Emt_Steamloop
+# 198485238
+# 239119164
+# 276255053
+# 276255054
+# 314629170
+# 549930322
+# 552984756
+# 731845473
+# 731845474
+# 731845475
+# 731845476
+# 807351148
+# 846675128
+# 962055590
+# 1172299235
+# 1188138307
+# 1293862273
+# 1345155717
+# 1436643715
+# 1777684772
+# 1855621617
+# 1881741931
+# 1896353455
+# 2171932186
+# 2196332158
+# 2237796308
+# 2264323534
+# 2264819190
+# 2666269528
+# 2666269531
+# 2813582083
+# 2895642053
+# 3068087778
+# 3351503337
+# 3353279294
+# 3660655846
+# 3867127212
+# 3938821131
+# 3954319396
+# 4026030849
+# 4277097669
+
+### RTPC/GAME-VARIABLE NAMES (327739869.bnk: m_A3M5_inGame)
+SPEED
+
+### EVENT NAMES (1113205226.bnk: m_P1FP_GetMeds)
+# 333481919
+# 488235263
+# 1863025377
+# 3600120745
+
+### EVENT NAMES (3335999558.bnk: m_P1FP_KillCourtyard)
+# 1803558568
+# 2771792330
+# 2848788061
+# 3030057463
+
+### EVENT NAMES (1097045278.bnk: m_P1FP_PalaisBombe)
+# 2007590974
+# 3322874520
+
+### EVENT NAMES (3127642114.bnk: m_P1M1_inGame)
+# 1048566691
+# 1357581446
+# 2208601629
+# 2909668043
+# 3005238441
+# 3014401712
+
+### EVENT NAMES (1864805924.bnk: m_P1M1b_inGame)
+play_Emt_ClockTower
+stop_Emt_ClockTower
+# 204451459
+# 232791301
+# 257014232
+# 257014235
+# 336490790
+# 467501124
+# 1209354215
+# 1270406136
+# 1646323288
+# 3560526719
+# 3622694506
+# 3823568029
+# 3947339026
+# 4229890257
+# 4229890258
+# 4252496445
+
+### RTPC/GAME-VARIABLE NAMES (1864805924.bnk: m_P1M1b_inGame)
+distance
+volume_sfx
+
+### EVENT NAMES (1782896243.bnk: m_P1M6_inGame)
+# 289307890
+# 328629388
+# 737897146
+# 983489464
+# 1024048932
+# 1024048933
+# 1024048935
+# 1158715014
+# 1241128589
+# 1396726950
+# 1753547765
+# 2381374540
+# 2519705788
+# 2594452068
+# 2775011496
+# 3196714065
+# 3303650899
+# 3518423373
+# 3518423374
+# 3518423375
+
+### RTPC/GAME-VARIABLE NAMES (1782896243.bnk: m_P1M6_inGame)
+doppler
+
+### EVENT NAMES (2680030978.bnk: m_P1fP_Jailbreak)
+# 2422152470
+# 2860388928
+
+### EVENT NAMES (4024723023.bnk: m_P2M5_Boiler)
+# 103901804
+# 332640492
+# 332640495
+# 421095564
+# 421095567
+# 529674286
+# 1273192137
+# 1273192138
+# 2398134181
+# 2398134182
+
+### EVENT NAMES (381687723.bnk: m_P2M5_inGame)
+# 66242042
+# 74016696
+# 75477636
+# 176190437
+# 186524612
+# 211654494
+# 253528970
+# 258858391
+# 279488836
+# 337589895
+# 355252959
+# 407850578
+# 467501124
+# 554448395
+# 778951597
+# 950415045
+# 973066757
+# 1048227555
+# 1149064346
+# 1250437810
+# 1293862273
+# 1293862274
+# 1335232066
+# 1497300090
+# 1498985103
+# 1616902473
+# 1632976836
+# 1759643905
+# 1778714128
+# 1881741928
+# 1881741931
+# 1928065453
+# 1979957836
+# 2059130359
+# 2334222792
+# 2378333508
+# 2419906915
+# 2594452068
+# 2673717166
+# 3133005386
+# 3153572945
+# 3168446298
+# 3196714065
+# 3372350668
+# 3505360049
+# 3616657771
+# 3678330534
+# 4045909922
+
+### RTPC/GAME-VARIABLE NAMES (381687723.bnk: m_P2M5_inGame)
+distance
+SPEED
+
+### EVENT NAMES (2802618844.bnk: m_P2M5_inGame_02)
+# 17626441
+# 66242042
+# 79755919
+# 238847379
+# 554448395
+# 656710727
+# 922821445
+# 922821446
+# 1100235028
+# 1100235031
+# 1455965397
+# 1498985103
+# 1778714128
+# 1919651112
+# 1928065453
+# 2008483741
+# 2059130359
+# 2086041212
+# 2101911086
+# 2198919126
+# 2378333508
+# 2419906915
+# 2540889338
+# 2594452068
+# 2761887966
+# 2936534938
+# 3196714065
+# 3198343605
+# 3220354528
+# 3505360049
+# 3678330534
+# 3742315680
+# 3788379666
+# 4280378501
+
+### EVENT NAMES (3518554234.bnk: m_P3FP_FountainSniper)
+# 3600110575
+
+### EVENT NAMES (1483855879.bnk: m_P3FP_Jardin)
+# 3522429716
+
+### EVENT NAMES (747616712.bnk: m_P3FP_RadioSabotage)
+# 127679907
+
+### EVENT NAMES (1807794740.bnk: m_P3M1_inGame)
+# 72965929
+# 844601612
+# 1253868727
+# 1453183884
+# 1500345437
+# 2247995078
+# 2518126731
+# 3028360942
+# 3432768688
+# 3432768691
+# 4103555885
+# 4103555886
+
+### EVENT NAMES (3771720713.bnk: m_P4M1_inGame)
+play_Amb_P4M1_Cemetary_Ext
+play_Amb_P4M1_ladder
+play_Amb_P4M1_tunnel
+stop_Amb_P4M1_Cemetary_Ext
+stop_Amb_P4M1_ladder
+stop_Amb_P4M1_tunnel
+# 238204231
+# 459501573
+# 834916521
+# 999846955
+# 1321884212
+# 1993594744
+# 2753657710
+# 3161628457
+# 3451543576
+# 3701497303
+# 4170870562
+# 4221043610
+
+### RTPC/GAME-VARIABLE NAMES (3771720713.bnk: m_P4M1_inGame)
+RAIN
+SPEED
+WILLTOFIGHT
+
+### EVENT NAMES (3505122964.bnk: m_P5M3_inGame)
+# 1337624596
+# 2707224158
+# 4191622456
+
+### RTPC/GAME-VARIABLE NAMES (3505122964.bnk: m_P5M3_inGame)
+volume_sfx
+
+### EVENT NAMES (3200470891.bnk: m_P6M1_inGame)
+# 14861549
+# 24133117
+# 151270829
+# 181744131
+# 709297036
+# 929155117
+# 1066608469
+# 1307043250
+# 1330436711
+# 1415693922
+# 1955490731
+# 1998609589
+# 2250700543
+# 2275680905
+# 2621869251
+# 2912536703
+# 3662616741
+# 3779821214
+# 4192381276
+
+### RTPC/GAME-VARIABLE NAMES (3200470891.bnk: m_P6M1_inGame)
+doppler
+VEH_SPD
+
+### EVENT NAMES (2874995262.bnk: m_S1M6_inGame_01)
+play_emt_S1M6_Radar
+stop_emt_S1M6_Radar
+# 3396378
+# 139289235
+# 639723601
+# 813129936
+# 851242734
+# 1029866336
+# 1063757699
+# 1138757123
+# 1687385778
+# 2015953102
+# 2642078992
+# 3055584352
+# 3182384554
+# 3693071313
+# 3849733892
+# 4027094181
+
+### RTPC/GAME-VARIABLE NAMES (2874995262.bnk: m_S1M6_inGame_01)
+distance
+LFO
+SPEED
+
+### EVENT NAMES (2874995261.bnk: m_S1M6_inGame_02)
+# 100126672
+# 1210912651
+# 1417776647
+# 2624362410
+# 3373839641
+# 3526761848
+# 3526761850
+# 3526761851
+# 3526761852
+# 3526761853
+# 3531539153
+
+### RTPC/GAME-VARIABLE NAMES (2874995261.bnk: m_S1M6_inGame_02)
+SPEED
+
+### EVENT NAMES (1925197671.bnk: m_S1M7_inGame)
+play_Emt_S1M7_Steamloop
+stop_Emt_S1M7_Steamloop
+# 12132591
+# 100138238
+# 727048668
+# 1180095033
+# 2034438604
+# 2277539368
+# 2858879554
+# 3004007258
+# 3046418469
+# 3269545393
+# 3457383751
+# 3542708101
+# 3899569011
+# 3986656208
+
+### EVENT NAMES (3957112749.bnk: m_S2M2_inGame)
+# 1180095033
+# 1183264938
+# 1244433581
+# 1339921284
+# 1496003386
+# 1583958464
+# 1588469213
+# 1863339180
+# 2007856207
+# 2096311482
+# 2323567748
+# 2429519206
+# 3140915643
+# 3158455080
+# 3517800403
+# 3773588561
+# 3790273178
+# 4013497878
+# 4137194358
+
+### RTPC/GAME-VARIABLE NAMES (3957112749.bnk: m_S2M2_inGame)
+CABINT
+distance
+doppler
+SPEED
+
+### VARIABLE NAMES (3957112749.bnk: m_S2M2_inGame)
+Train
+TrainBrake
+
+### VALUE NAMES (3957112749.bnk: m_S2M2_inGame)
+Brake
+Steam
+
+### EVENT NAMES (1878526208.bnk: m_fp_ChemicalFactory)
+# 737350951
+# 875032663
+# 1644977369
+# 3670104461
+
+### EVENT NAMES (1875164115.bnk: m_fp_CountryRace_1)
+# 312447604
+# 312447605
+# 312447606
+# 1061397775
+
+### EVENT NAMES (1875164112.bnk: m_fp_CountryRace_2)
+# 312447604
+# 312447605
+# 312447606
+# 1061397775
+
+### EVENT NAMES (381338298.bnk: m_fp_L_ossuaire)
+play_emt_Console_desk
+stop_emt_Console_desk
+# 336615698
+# 3841334352
+
+### EVENT NAMES (532642709.bnk: m_fp_P3FP_Hit)
+# 1185819475
+# 1446700073
+# 1784267827
+# 2860890745
+# 3573932813
+
+### EVENT NAMES (1082546479.bnk: m_fp_P3FP_PantheonGun)
+# 395532866
+# 534003593
+# 534003607
+# 759715589
+# 1287510900
+# 1842577347
+# 1842577373
+# 2393581595
+
+### RTPC/GAME-VARIABLE NAMES (1082546479.bnk: m_fp_P3FP_PantheonGun)
+SPEED
+
+### EVENT NAMES (2692273324.bnk: m_fp_SaarbruckenTimeTrial)
+# 312447604
+# 312447605
+# 312447606
+# 1061397775
+
+### EVENT NAMES (327521727.bnk: m_fp_nz_wedding)
+# 265556917
+# 1020749493
+# 1038765459
+# 1950807824
+# 2814231530
+# 2831495710
+# 3812930716
+
+### EVENT NAMES (1924390490.bnk: ui_hq_belle)
+play_ui_hq_belle
+stop_ui_hq_belle
+
+### EVENT NAMES (3494206135.bnk: wp_at_105mm)
+# 304923643
+# 1684418964
+# 2288450025
+# 3664768786
+# 4217913657
+
+### RTPC/GAME-VARIABLE NAMES (3494206135.bnk: wp_at_105mm)
+distance
+doppler
+
+### EVENT NAMES (970959515.bnk: wp_at_37mm)
+play_turret_01_pitch
+play_turret_01_yaw
+stop_turret_01_pitch
+stop_turret_01_yaw
+# 1923180587
+# 3851050821
+
+### EVENT NAMES (1958709009.bnk: wp_at_4Barrel)
+# 2309534090
+# 3556195476
+
+### RTPC/GAME-VARIABLE NAMES (1958709009.bnk: wp_at_4Barrel)
+volume_sfx
+
+### EVENT NAMES (2148778305.bnk: wp_at_AAgun)
+# 2288450025
+# 3129744483
+
+### EVENT NAMES (2484524309.bnk: wp_at_FlakGun)
+# 3129744483
+
+### EVENT NAMES (1427695780.bnk: wp_at_PnthnDome)
+# 304923643
+# 793605441
+# 868747675
+# 1684418964
+# 2366211246
+# 3664768786
+# 4217913657
+
+### RTPC/GAME-VARIABLE NAMES (1427695780.bnk: wp_at_PnthnDome)
+distance
+doppler
+
+### EVENT NAMES (962068551.bnk: wp_at_trainBarrel)
+# 937884602
+
+### EVENT NAMES (3213469754.bnk: wp_ft_Flamethrower)
+play_wp_ft_flamethrower_DryFire
+play_wp_ft_flamethrower_Fire
+play_wp_ft_flamethrower_reload
+stop_wp_ft_flamethrower_Fire
+
+### EVENT NAMES (504019964.bnk: wp_ft_TerrorSquad)
+play_wp_ft_TerrorSquad_DryFire
+play_wp_ft_TerrorSquad_Fire
+play_wp_ft_TerrorSquad_reload
+stop_wp_ft_TerrorSquad_Fire
+
+### EVENT NAMES (489040960.bnk: wp_mg_MG42)
+play_wp_mg42_DryFire
+play_wp_mg_mg42_Fire
+play_wp_mg_mg42_reload
+stop_wp_mg_mg42_Fire
+
+### EVENT NAMES (524420645.bnk: wp_mg_MP40)
+play_wp_mg_mp40_DryFire
+play_wp_mg_mp40_Fire
+play_wp_mg_mp40_reload
+stop_wp_mg_mp40_Fire
+
+### EVENT NAMES (524420641.bnk: wp_mg_MP44)
+play_wp_mg_mp44_DryFire
+play_wp_mg_mp44_Fire
+play_wp_mg_mp44_reload
+stop_wp_mg_mp44_Fire
+
+### EVENT NAMES (215462578.bnk: wp_mg_Sten)
+play_wp_mg_sten_DryFire
+play_wp_mg_sten_Fire
+play_wp_mg_sten_reload
+stop_wp_mg_sten_Fire
+
+### EVENT NAMES (1512718992.bnk: wp_mg_Sten_Silencer)
+play_wp_mg_sten_silencer_DryFire
+play_wp_mg_sten_silencer_Fire
+play_wp_mg_sten_silencer_reload
+stop_wp_mg_sten_silencer_Fire
+
+### EVENT NAMES (3476449702.bnk: wp_mg_TerrorSquad)
+play_wp_mg_TerrorSquad_DryFire
+play_wp_mg_TerrorSquad_Fire
+play_wp_mg_TerrorSquad_reload
+stop_wp_mg_TerrorSquad_Fire
+
+### RTPC/GAME-VARIABLE NAMES (3476449702.bnk: wp_mg_TerrorSquad)
+distance
+
+### EVENT NAMES (2580087450.bnk: wp_mg_Thompson)
+play_wp_mg_thompson_DryFire
+play_wp_mg_thompson_Fire
+play_wp_mg_thompson_reload
+stop_wp_mg_thompson_Fire
+
+### RTPC/GAME-VARIABLE NAMES (2580087450.bnk: wp_mg_Thompson)
+ALTITUDE
+
+### EVENT NAMES (2365061423.bnk: wp_ps_DierkerGun)
+play_wp_ps_DierkerGun_DryFire
+play_wp_ps_DierkerGun_Fire
+play_wp_ps_DierkerGun_reload
+
+### VARIABLE NAMES (2365061423.bnk: wp_ps_DierkerGun)
+SurfaceType
+
+### VALUE NAMES (2365061423.bnk: wp_ps_DierkerGun)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (1900378656.bnk: wp_ps_Luger)
+play_wp_ps_luger_DryFire
+play_wp_ps_luger_Fire
+play_wp_ps_luger_reload
+
+### VARIABLE NAMES (1900378656.bnk: wp_ps_Luger)
+SurfaceType
+
+### VALUE NAMES (1900378656.bnk: wp_ps_Luger)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3634030708.bnk: wp_ps_Mauser)
+play_wp_ps_mauser_DryFire
+play_wp_ps_mauser_Fire
+play_wp_ps_mauser_reload
+
+### VARIABLE NAMES (3634030708.bnk: wp_ps_Mauser)
+SurfaceType
+
+### VALUE NAMES (3634030708.bnk: wp_ps_Mauser)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (475481654.bnk: wp_ps_Revolver)
+play_wp_ps_revolver_DryFire
+play_wp_ps_revolver_Fire
+play_wp_ps_revolver_Fire_npc_old
+play_wp_ps_revolver_reload
+stop_wp_ps_revolver_Fire
+stop_wp_ps_revolver_Fire_npc
+stop_wp_ps_revolver_reload
+
+### RTPC/GAME-VARIABLE NAMES (475481654.bnk: wp_ps_Revolver)
+distance
+
+### EVENT NAMES (2546599923.bnk: wp_ps_WaltherPPK)
+play_wp_ps_WaltherPPK_DryFire
+play_wp_ps_WaltherPPK_Fire
+play_wp_ps_WaltherPPK_reload
+
+### VARIABLE NAMES (2546599923.bnk: wp_ps_WaltherPPK)
+SurfaceType
+
+### VALUE NAMES (2546599923.bnk: wp_ps_WaltherPPK)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (4066200615.bnk: wp_ps_WaltherPPK_Silencer)
+play_wp_ps_WaltherPPK_Silencer_DryFire
+play_wp_ps_WaltherPPK_Silencer_Fire
+play_wp_ps_WaltherPPK_Silencer_reload
+
+### VARIABLE NAMES (4066200615.bnk: wp_ps_WaltherPPK_Silencer)
+SurfaceType
+
+### VALUE NAMES (4066200615.bnk: wp_ps_WaltherPPK_Silencer)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3163111149.bnk: wp_rf_Gewehr_Scope)
+play_wp_rf_gewehr_scope_DryFire
+play_wp_rf_gewehr_scope_Fire
+play_wp_rf_gewehr_scope_reload
+
+### RTPC/GAME-VARIABLE NAMES (3163111149.bnk: wp_rf_Gewehr_Scope)
+distance
+
+### VARIABLE NAMES (3163111149.bnk: wp_rf_Gewehr_Scope)
+SurfaceType
+
+### VALUE NAMES (3163111149.bnk: wp_rf_Gewehr_Scope)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (4113654129.bnk: wp_rf_Gewehr_Scope_Silencer)
+play_wp_rf_gewehr_scope_silencer_DryFire
+play_wp_rf_gewehr_scope_silencer_Fire
+play_wp_rf_gewehr_scope_silencer_reload
+
+### VARIABLE NAMES (4113654129.bnk: wp_rf_Gewehr_Scope_Silencer)
+SurfaceType
+
+### VALUE NAMES (4113654129.bnk: wp_rf_Gewehr_Scope_Silencer)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (4250394543.bnk: wp_rf_Hunting)
+play_wp_rf_hunting_DryFire
+play_wp_rf_hunting_Fire
+play_wp_rf_hunting_reload
+
+### RTPC/GAME-VARIABLE NAMES (4250394543.bnk: wp_rf_Hunting)
+distance
+
+### VARIABLE NAMES (4250394543.bnk: wp_rf_Hunting)
+SurfaceType
+
+### VALUE NAMES (4250394543.bnk: wp_rf_Hunting)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (14175512.bnk: wp_rf_Karbine)
+play_wp_rf_karbine_DryFire
+play_wp_rf_karbine_Fire
+play_wp_rf_karbine_reload
+
+### RTPC/GAME-VARIABLE NAMES (14175512.bnk: wp_rf_Karbine)
+distance
+
+### VARIABLE NAMES (14175512.bnk: wp_rf_Karbine)
+SurfaceType
+
+### VALUE NAMES (14175512.bnk: wp_rf_Karbine)
+beep
+cable
+CAR_BODY
+CARPET
+COBBLESTONE
+CONCRETE
+DIRT_DRY
+DIRT_WET
+ELECTRIC_EMITTER
+FLESH
+GAS_CONTAINER
+GLASS
+grass
+MEAT
+Metal
+METAL_FENCE
+METAL_GRATE
+METAL_HOLLOW
+METAL_SHINGLE
+OIL_CONTAINER
+RED_BRICK
+ROCK
+ROPE
+RUBBER
+TERRACOTTA
+TerrorSquad
+VEGETATION
+Water
+WATER_CONTAINER
+WOOD_HARD
+WOOD_SOFT
+# 3829824117
+
+### EVENT NAMES (3859358888.bnk: wp_rpg_Panzerfaust)
+play_wp_rpg_panzerfaust_DryFire
+play_wp_rpg_panzerfaust_Fire
+play_wp_rpg_panzerfaust_reload
+stop_wp_rpg_panzerfaust_Fire
+
+### RTPC/GAME-VARIABLE NAMES (3859358888.bnk: wp_rpg_Panzerfaust)
+distance
+
+### EVENT NAMES (3762790473.bnk: wp_rpg_Panzrshrek)
+play_wp_rpg_panzrshrek_DryFire
+play_wp_rpg_panzrshrek_Fire
+play_wp_rpg_panzrshrek_reload
+stop_wp_rpg_panzrshrek_Fire
+
+### EVENT NAMES (882917470.bnk: wp_sh_12GaugeDouble)
+play_wp_sh_12GaugeDouble_DryFire
+play_wp_sh_12GaugeDouble_Fire
+play_wp_sh_12GaugeDouble_reload
+
+### EVENT NAMES (2771093418.bnk: wp_sh_12GaugeDouble_SawedOff)
+play_wp_sh_12GaugeDouble_SawedOff_DryFire
+play_wp_sh_12GaugeDouble_SawedOff_Fire
+play_wp_sh_12GaugeDouble_SawedOff_reload
+
+### EVENT NAMES (3158272071.bnk: wp_sh_12GaugePump)
+play_wp_sh_12GaugePump_DryFire
+play_wp_sh_12GaugePump_Fire
+play_wp_sh_12GaugePump_reload
+
+### EVENT NAMES (1156822103.bnk: wp_sh_TerrorSquad)
+play_wp_sh_TerrorSquad_DryFire
+play_wp_sh_TerrorSquad_Fire
+play_wp_sh_TerrorSquad_reload

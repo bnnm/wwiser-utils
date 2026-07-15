@@ -1,0 +1,458 @@
+
+### BANK NAMES
+Ambience
+Card_Panel
+Hero_Skill
+Init
+Mount_Skill
+Music
+Temp
+UI
+Voice
+
+### LANGUAGE NAMES
+Chinese
+English(US) = 0
+SFX
+
+### BUS NAMES
+Ambience
+Battle
+card_bus
+heroskill_bus
+Master Audio Bus = 0
+MountSkill_Bus
+Music
+SFX
+ui_Bus
+Voice
+Voice_hero
+Voice_Player
+Voice_prior
+Voice_story
+
+### SFX NAMES (Init.bnk)
+master_peak_limiter
+Meter_Voice_hero
+Meter_Voice_prior
+Meter_Voice_story
+No_Output
+System
+
+### ACOUSTIC TEXTURE NAMES (Init.bnk)
+Acoustic_Banner
+Anechoic
+BRick
+Carpet
+concrete
+Cork_Tiles
+Curtains
+Drywall
+Fabric
+Mountain
+Tile
+Wood
+Wood_Bright
+Wood_Deep
+
+### BASE RTPC/GAME-VARIABLE NAMES (Init.bnk)
+Main_Volume
+Music_volume
+Sound_Volume
+SS_AIR_FEAR
+SS_AIR_FREEFALL
+SS_AIR_FURY
+SS_AIR_MONTH
+SS_AIR_PRESENCE
+SS_AIR_RPM
+SS_AIR_SIZE
+SS_AIR_STORM
+SS_AIR_TIMEOFDAY
+SS_AIR_TURBULENCE
+UI_Tournament_Score
+Voice_hero_volume
+Voice_level
+Voice_prior_volume
+Voice_story_volume
+Voice_volume
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+Main_Volume
+Music_volume
+Sound_Volume
+Voice_hero_volume
+Voice_level
+Voice_prior_volume
+Voice_story_volume
+Voice_volume
+
+### VARIABLE NAMES (Init.bnk)
+Music
+# 2192137778
+
+### EVENT NAMES (Ambience.bnk)
+Amb_Stream_Loop
+
+### EVENT NAMES (Card_Panel.bnk)
+Card_Anim_PaiQuan
+Card_baosan
+Card_Bomb_Common
+Card_Bomb_DiaoChan_FengHua
+Card_Bomb_Great
+Card_Bomb_Great_DiaoChan_FengHua
+Card_Bomb_Great_XiaoQiao_YuYan
+Card_Bomb_XiaoQiao_YuYan
+Card_Bomb_ZhaoYun_LongYao
+Card_Bomb_ZhuGeLiang_KongCheng
+Card_Bomb_ZuoCi_DengHuo
+Card_CallCard
+Card_ChangeCard
+Card_Deal
+Card_Discard
+Card_GetCard_Quick
+Card_Landlord_Get
+Card_LiftCard
+Card_Plane
+Card_SendCards
+Card_shunzi
+
+### EVENT NAMES (Hero_Skill.bnk)
+Hero_ShowSkill_DiaoChan_FengHua
+Hero_ShowSkill_DiaoChan_FengHua_Mini
+Hero_ShowSkill_MaChao_ShuangJing
+Hero_ShowSkill_MaChao_ShuangJing_Mini
+Hero_ShowSkill_XiaoQiao_YuYan
+Hero_ShowSkill_XiaoQiao_YuYan_Mini
+Hero_ShowSkill_ZhaoYun_LongYao
+Hero_ShowSkill_ZhaoYun_LongYao_Mini
+Hero_ShowSkill_ZhuGeLiang_KongCheng
+Hero_ShowSkill_ZhuGeLiang_KongCheng_Mini
+Hero_ShowSkill_ZuoCi_DengHuo
+Hero_ShowSkill_ZuoCi_DengHuo_Mini
+Hero_Skill_ChengYu_XianBing
+Hero_Skill_Common_Logo_Big
+Hero_Skill_Common_Logo_Small
+Hero_Skill_DiaoChan_MeiHuo
+Hero_Skill_HuangZhong_ChuanYang
+Hero_Skill_HuangZhong_ChuanYang_FlyBy
+Hero_Skill_HuangZhong_ChuanYang_hit
+Hero_Skill_HuangZhong_ChuanYang_pre
+Hero_Skill_HuangZhong_MiaoZhun_01
+Hero_Skill_HuangZhong_MiaoZhun_02
+Hero_Skill_ZhenJi_JingHua_01
+Hero_Skill_ZhenJi_JingHua_02
+Hero_Skill_ZhenJi_JingHua_03
+Hero_Skill_ZhenJi_JingHua_04
+Hero_Skill_ZhenJi_JingHua_05
+
+### EVENT NAMES (Mount_Skill.bnk)
+ElephantEnter
+Horse2
+HorseEnter
+HorseSkill
+Mount_Skill_Horse_Enter
+
+### EVENT NAMES (Music.bnk)
+HeroLose
+HeroRecruitBGM
+HeroWin
+Music_Battle_CardPlay
+Music_Battle_CardPlay_FiveMatch
+Music_Battle_CardPlay_SanGuoFengYun
+Music_Battle_GamePoint
+Music_Play
+Music_Story_Begin
+Music_Story_OpenEyes
+Music_System_Login
+Music_System_MainHall
+Music_System_MainHall_FiveMatch
+Music_System_MainHall_SanGuoFengYun
+Music_System_Match
+SanGuoBGM
+SanGuoRoomListBGM
+SanGuoWarningBGM
+
+### VARIABLE NAMES (Music.bnk)
+Music
+# 2192137778
+
+### VALUE NAMES (Music.bnk)
+Battle_CardPlay
+Battle_GamePoint
+FiveMatch
+HeroLose
+HeroRecruitBGM
+HeroWin
+None
+SanGuoBGM
+SanGuoFengYun
+SanGuoRoomListBGM
+SanGuoWarningBGM
+Story_Begin
+Story_OpenEyes
+System_Login
+System_MainHall
+System_Match
+
+### EVENT NAMES (UI.bnk)
+Button
+Call_Card
+Card_Bomb_Great_LuXun_LiHuo
+Card_Bomb_LuXun_LiHuo
+CardPack_ShineCard_X4
+Choujiangyinxiao
+click1
+click2
+Clock
+Come
+DDZ_Skillup
+DealFold
+DealNoShuffle
+Dianji
+eff_bean_fall
+End
+f_littlecard
+GetItem
+Hero_DynCard_200000
+Hero_DynCard_200003
+Hero_DynCard_200013
+Hero_DynCard_200016
+Hero_DynCard_200020
+Hero_DynCard_200465
+Hero_DynCard_200833
+Hero_DynCard_200870
+Hero_DynCard_200896
+Hero_ShowSkill_LuXun_LiHuo_Mini
+huojianzhadan
+KHz_Test
+lost1
+lost2
+m_littlecard
+Mute_Hero_DynamicCard_Amb
+OpenDoor
+outcard1
+outcard2
+Pass
+pikan
+PV_Chapter1_Huoqi
+PV_Chapter2_Taoni
+PV_Chapter3_Aozhan
+PV_Chapter4_Qixi
+PV_Skip
+rankmark
+Ready
+Rewards
+Rewards_1
+round_effect
+Select
+select_once_effect
+SendCards
+SpecCancelOrReturn
+Special_alert
+Special_baoxiangwupintanchu
+Special_Bomb_New
+Special_Chaojijiabei
+Special_Chuntian
+Special_ChuPai
+Special_daojufeixing
+Special_Dengjitisheng
+Special_game_redenvelope
+Special_GIVE
+Special_Goumaichenggong
+Special_Goumaishibai
+Special_Jueseshengji
+Special_laizixuanze
+Special_Lianshengjiaxin
+Special_match_landlord_down
+special_match_lose
+Special_Match_Start_Tip
+Special_Match_vs
+special_match_win
+Special_Mingpaijiabei
+Special_Multiply
+Special_Plane
+Special_sail_gift
+Special_shiyonglianshengfu
+SpecOk
+SpecSelectCard
+Start
+Stop_UI_Battle_Queueing_Loop
+Stop_UI_Tournament_Score_Increase
+stop_ui_treasurebox_loop
+suijilaizi
+Tip
+tishiyin
+tishiyin_1
+UI_Bag_Open
+UI_Battle_End_Settlement
+UI_Battle_Great_Victory
+UI_Battle_Hero_Confirm
+ui_battle_identity
+UI_Battle_LandLord_Confirm
+ui_battle_lose
+UI_Battle_Queueing_Loop
+UI_Battle_RoundGame_Lose
+UI_Battle_RoundGame_Win
+UI_Battle_SendCard
+UI_Battle_SmashSeat
+UI_Battle_SmashSeat_DiaoChan_FengHua
+UI_Battle_SmashSeat_LuXun_LiHuo
+UI_Battle_SmashSeat_XiaoQiao_YuYan
+UI_Battle_SmashSeat_ZhaoYun_LongYao
+UI_Battle_SmashSeat_ZuoCi_DengHuo
+ui_battle_start
+ui_battle_win
+ui_battle_win_classic
+UI_Battle_WinStreak_L1
+UI_Battle_WinStreak_L2
+UI_Battle_WinStreak_L3
+UI_Battle_WinStreak_L4
+UI_Battle_WinStreak_L5
+UI_BeaconGift_Buy_Deluxe
+UI_BeaconGift_Buy_Normal
+UI_BeaconGift_Show
+UI_Button_Buy
+UI_Button_Buy_Gold
+UI_Button_Buy_Jade
+UI_Button_Click
+UI_Button_Click_Metal
+UI_Button_Click_Number
+UI_Button_Close
+UI_Button_Confirm
+UI_Button_Recruit
+UI_CardPack_Collect
+UI_CardPack_Get
+UI_CardPack_Open_Normal
+UI_CardPack_Open_Reveal
+UI_CardPack_Open_Thumbthrough
+UI_CardPack_ShineCard
+UI_CardPack_Showcase
+UI_CardPack_Skip
+UI_CardPack_SlideOut
+UI_CardPack_ThumbThrough
+UI_Classic_War_Book_Open
+UI_Classic_War_Open
+ui_clock_tick
+UI_Common_Door_Close
+UI_Common_Door_Open
+UI_Common_Function_Unlock
+UI_Common_Function_Unlock_Short
+UI_Drum_Countdown
+UI_Drum_Countdown_Short
+UI_GeneralStar_Increase
+UI_GeneralStar_LevelUp
+UI_GetHeroNew
+UI_Guide_Guanyu_DanQi
+UI_Guide_Guanyu_WuSheng
+UI_Guide_Zhangfei_PaoXiao
+UI_HandBook_Open
+UI_HeroBook_Collect
+UI_HeroBook_Collect_Finish
+UI_HeroBook_Open
+UI_HeroBook_Page
+UI_HeroBook_Turn_Left
+UI_HeroBook_Turn_Multi
+UI_HeroBook_Turn_Right
+UI_HeroBook_Turn_Start
+UI_HeroBook_Turn_TwoPages_Left
+UI_HeroBook_Turn_TwoPages_Right
+UI_HeroBook_Write
+ui_item_get
+ui_item_get_all
+ui_item_get_army
+ui_item_get_common
+ui_item_get_gold
+ui_loginposter
+UI_Mail_Open
+UI_Menu_Main_Close
+UI_Menu_Main_Open
+UI_Menu_MonthCard_Close
+UI_Menu_MonthCard_Open
+UI_Menu_Select
+UI_Menu_Select_Small
+UI_Menu_ShouChong_Open
+UI_Menu_Small_Close
+UI_Menu_Small_Open
+UI_Menu_SubMain_Close
+UI_Menu_SubMain_Open
+UI_PlayerCenter_CareerTasks_Open
+UI_Progress_Unlock
+UI_Recruit_Anim
+UI_Recruit_Draw_Single_CardFall
+UI_Recruit_Draw_Ten_CardFall
+UI_Recruit_Get_Card_SR
+UI_Recruit_Get_Card_SSR
+UI_Recruit_Get_Card_SSR_Twist
+UI_Recruit_Get_Card_Whoosh
+UI_Recruit_Get_Hero_Gold
+UI_Recruit_QuikDraw_Single_CardFall
+UI_Recruit_QuikDraw_Ten_CardFall
+UI_Recruit_QuikDraw_Ten_Get_Card
+ui_reward
+UI_SGFY_Season_Open
+UI_Shop_LuoPan
+UI_Shop_Open
+UI_Shop_XunLi
+UI_Skill_Refresh
+UI_Slider_ValueChange
+ui_Special_alert
+UI_StarRoad_Unlock
+UI_Switch_Small
+UI_Throwables_200766
+UI_Throwables_201015
+UI_Throwables_201016
+UI_Throwables_201017
+UI_Throwables_201018
+UI_Throwables_201122
+UI_Throwables_KirinBow
+UI_Throwables_Tea
+UI_Throwables_Tea_Ten
+UI_Tournament_LevelUp
+UI_Tournament_Score_Increase
+UI_Tournament_Score_Increase_Begin
+UI_Tournament_Score_Increase_Oneshot
+UI_treasurebox_Get
+UI_treasurebox_loop
+UI_treasurebox_Open
+UI_Xinrui_Flyin
+UI_Xinrui_Levelup
+Unmute_Hero_DynamicCard_Amb
+Win1
+Win2
+xintexiaofeiji
+xintexiaoliandui
+xintexiaoshunzi
+# 154757861
+# 171535455
+# 238645890
+# 524665415
+# 553194761
+# 1117355470
+# 1652136150
+# 1753879151
+# 1878971280
+# 1878971282
+# 1878971290
+# 2016127237
+# 2016127239
+# 2016127245
+# 2203775614
+# 2243580609
+# 2960462781
+# 3334662696
+# 3795065589
+# 3836995760
+# 3853773354
+# 4038327133
+
+### RTPC/GAME-VARIABLE NAMES (UI.bnk)
+UI_Tournament_Score
+
+### EVENT NAMES (langs/Voice.bnk)
+Vo_Hero
+Vo_Player
+Vo_prior
+Vo_Story
+
+#1117355470  : Choujiangyinxiao_1
+#2960462781  : Clock_1
