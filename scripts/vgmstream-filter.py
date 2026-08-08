@@ -34,6 +34,7 @@ class Cli(object):
         p.add_argument('-as',  dest='any_subsong', help="For files with subsongs, filter if any filter matches (default is 'all')", action='store_true')
         p.add_argument('-m',   dest='move_dir', help="Set subdir where filtered files go", default=DEFAULT_MOVE_DIR)
         p.add_argument('-mc',  dest='move_current', help="Moves filtered files to subdir in current dir, rather than their own", action='store_true')
+        p.add_argument('-v',   dest='verbose', help="Print extra info", action='store_true')
         p.add_argument('-fd',  dest='dupes', help="Filter by duplicate wavs (slower)", action='store_true')
         p.add_argument('-fe',  dest='empty', help="Filter banks with no audio", action='store_true')
         p.add_argument('-fa',  dest='all_filters', help="Filter only if file meets all filters below", action='store_true')
@@ -70,12 +71,15 @@ class Cli(object):
 #******************************************************************************
 
 class Logger(object):
-    def __init__(self, cfg):
+    def __init__(self, args):
         levels = {
             'info': log.INFO,
             'debug': log.DEBUG,
         }
-        self.level = levels.get('info', log.ERROR) #cfg.log_level
+        self.level = log.INFO
+        if args.verbose: #args.log_level
+            self.level = log.DEBUG
+        
 
     def setup_cli(self):
         log.basicConfig(level=self.level, format='%(message)s')
@@ -162,6 +166,10 @@ class CliFilter(object):
         return int(res)
 
     def has_subsongs(self):
+        # TODO: improve detection
+        if self.basename.endswith('.txtp'):
+            return False
+
         return self.stream_count and self.stream_count >= 1
 
     def is_ignorable(self):
@@ -392,11 +400,13 @@ class App(object):
         filenames_in = files.get_files()
 
         for filename_in in filenames_in:
+            log.debug("processing: %s", filename_in)
 
             # skip starting dot for extensionless files
-            if filename_in.startswith(".\\"):
-                filename_in = filename_in[2:]
-                self._process(filename_in)
+            if not filename_in.startswith(".\\"):
+                continue
+            filename_in = filename_in[2:]
+            self._process(filename_in)
 
 
         if not self.args.print_info:
