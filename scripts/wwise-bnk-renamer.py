@@ -1,9 +1,9 @@
 # renames (number).bnk to (name).bnk from a wwnames.txt file
 
 
-import glob, os, hashlib, struct
+import glob, os, struct
 
-force_internal_id = False #use internal data to get bank ID rathen than filename
+force_internal_id = True #use internal data to get bank ID rathen than filename
 undo_rename = False
 unused_dir = 'unused'
 dupe_dir = 'dupe'
