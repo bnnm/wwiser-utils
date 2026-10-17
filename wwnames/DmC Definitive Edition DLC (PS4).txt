@@ -355,13 +355,18 @@ Music_Cutscene
 Music_duck_EQ
 Music_Ingame
 NE_Ambience
+NE_bob_laser_2D
+NE_bob_laser_metered
 NE_bobtower
+NE_ch20_wind
 NE_Cutscene
 NE_Cutscene_01
 NE_SFX
+NE_Vergil_specials
 NE_Vo
 NE_Vo_Dante
 NE_VO_DLC_Vergil
+NE_Vo_vortex
 NE_vosecondary
 NE_votertiary
 POISON
@@ -410,7 +415,6 @@ Wisp_backing
 # 3902461730
 # 1918638453
 # 2309921975
-# 2127098519
 # 3024299990
 # 3059453395
 # 3146785757
@@ -423,15 +427,11 @@ Wisp_backing
 # 3986627518
 # 2220133616
 # 2919680239
-# 1542758327
 # 2539645627
 # 3867660285
 # 475600341
-# 924895347
-# 1753202631
 # 3206109742
 # 260585244
-# 2200742803
 # 3102969263
 # 3676653945
 
@@ -483,6 +483,7 @@ DMC_upsidedown_streets
 DMC_vault
 DMC_vault_corridor
 Music_duck_EQ
+Music_Limiter
 poison_finale_meter
 SetpieceMeter
 testverb
@@ -491,7 +492,6 @@ The_Carnival_Outdoors
 vortexvo
 # 441522663
 # 1270531439
-# 1399739703
 # 1453419348
 # 1615127361
 # 1993344445
@@ -499,6 +499,7 @@ vortexvo
 ### BASE RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
 ANGEL_LIFT
 angspeed
+bob_laser_meter_ouput
 Breaks_LPF
 ch13_club_music_cf
 ch13_club_proxy
@@ -515,6 +516,8 @@ descent_timer
 DevilTrigger
 DevilTriggerMeter
 dlc_pickup_proxy
+Ducker_hold
+Ducker_release
 event_pitch
 event_volume
 FORCE
@@ -554,11 +557,9 @@ vortexvo_RTPC
 # 1671366616
 # 2656142798
 # 2681407051
-# 2773983438
-# 3025813773
-# 3800431893
 
 ### RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
+bob_laser_meter_ouput
 DevilTriggerMeter
 HitStop
 music_eq
@@ -570,7 +571,6 @@ setpiece_peak
 user_MUSIC_volume
 user_SFX_volume
 # 401499758
-# 2773983438
 # 1671366616
 
 ### VARIABLE NAMES (1355168291.bnk: init)
@@ -623,9 +623,9 @@ Music_style
 ScytheTier
 slomoGroup
 UI_button_hack
+ui_close_screen
 # 675583530
 # 1063345258
-# 3140534481
 # 1252764949
 # 111675247
 # 4010641201
@@ -1143,7 +1143,7 @@ DLC_Ch_01_Mid_Combat_01_end
 DLC_Ch_01_Mood_Swell_02
 DLC_Ch_01_Music_Fade_2_sec
 DLC_Ch_01_Music_Fade_5_sec
-# 644433557
+DLC_Ch_01_Music_Stop_current
 
 ### EVENT NAMES (3391679449.bnk: DLC_Ch_02_Music_Persistent)
 Play_DLC_Chapter_02_Music
@@ -1169,7 +1169,7 @@ DLC_Ch_02_Mid_Combat_01
 DLC_Ch_02_Mid_Combat_01_alt
 DLC_Ch_02_Music_Fade_2_sec
 DLC_Ch_02_Music_Fade_5_sec
-# 1944541868
+DLC_Ch_02_Music_Stop_current
 
 ### EVENT NAMES (3959341830.bnk: DLC_Ch_03_Music_Persistent)
 Play_DLC_Chapter_03_Music
@@ -1196,7 +1196,7 @@ DLC_Ch_03_Mid_Combat_01
 DLC_Ch_03_Mid_Combat_01_alt
 DLC_Ch_03_Music_Fade_2_sec
 DLC_Ch_03_Music_Fade_5_sec
-# 369567455
+DLC_Ch_03_Music_Stop_current
 
 ### EVENT NAMES (3160911623.bnk: DLC_Ch_04_Music_Persistent)
 Play_DLC_Chapter_04_Music
@@ -1223,7 +1223,7 @@ DLC_Ch_04_Mid_Combat_01_alt
 DLC_Ch_04_Mood_Swell_02
 DLC_Ch_04_Music_Fade_2_sec
 DLC_Ch_04_Music_Fade_5_sec
-# 561119694
+DLC_Ch_04_Music_Stop_current
 
 ### EVENT NAMES (2908301652.bnk: DLC_Ch_05_Music_Persistent)
 Play_DLC_Chapter_05_Music
@@ -1240,10 +1240,10 @@ DLC_Ch_05_Invulnerable_A
 DLC_Ch_05_Invulnerable_B
 DLC_Ch_05_Music_Fade_2_sec
 DLC_Ch_05_Music_Fade_5_sec
+DLC_Ch_05_Music_Stop_current
 DLC_Ch_05_Phase_01
 DLC_Ch_05_Phase_02
 DLC_Ch_05_Phase_03
-# 3916149105
 
 ### EVENT NAMES (4063196533.bnk: DLC_Ch_06_Music_Persistent)
 Play_DLC_Chapter_06_Music
@@ -1272,7 +1272,7 @@ DLC_Ch_06_Mood_Swell_01
 DLC_Ch_06_Mood_Swell_03
 DLC_Ch_06_Music_Fade_2_sec
 DLC_Ch_06_Music_Fade_5_sec
-# 52344536
+DLC_Ch_06_Music_Stop_current
 
 ### EVENT NAMES (893157903.bnk: DLC_Gamewide_Platform_Pulls)
 Play_DLC_Platform_Pull_In
@@ -2011,11 +2011,13 @@ Play_metal
 Play_OcclusionTest
 Play_ReverbTest
 Play_rock_hit
+Play_test_Boing
 Play_test_cuckoo
 Play_test_cuckoo_loop
 Play_test_horn
 Play_test_horn_low
 Play_test_pam
+Play_test_squeak
 Play_voline
 Play_voline_01
 Play_wood
@@ -2033,9 +2035,7 @@ Stop_wood
 Stop_wood_slide_loop
 # 298593649
 # 329830549
-# 491172060
 # 863154807
-# 1151989575
 # 1405995526
 # 1460003900
 # 1795753612
@@ -3689,13 +3689,13 @@ off
 on
 
 ### EVENT NAMES (1930489279.bnk: test_tones)
+Play_test_Boing
 Play_test_cuckoo
 Play_test_cuckoo_loop
 Play_test_horn
 Play_test_pam
+Play_test_squeak
 Stop_test_cuckoo_loop
-# 491172060
-# 1151989575
 # 2416525605
 # 2929001547
 # 3187221782
@@ -4122,5 +4122,3 @@ event_volume
 ### RTPC/GAME-VARIABLE NAMES (langs/90224061.bnk: env_secret_area_wormhole_VO)
 vortexvo_RTPC
 
-#2127098519  : Angel_Boost_Portalx
-#2235074015  : VolcanoExe

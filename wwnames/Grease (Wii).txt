@@ -1,0 +1,1394 @@
+
+### BANK NAMES
+ATFOTF_SFX
+BSB_Crowd
+FDB_Crowd
+FieldDay_SFX
+Front_End
+FS_Crowd
+GlobalSound
+HJH_Crowd
+HJH_Song01
+HJH_Song02
+HJH_Song03
+HJH_Song04
+HJH_Song05
+HJH_Song06
+HJH_Song10
+HJH_Song11
+HJH_Song13
+Init
+MC01_SFX
+MC09_SFX
+Microphone
+RA_Global
+RR_Crowd
+RR_Song03
+RR_Song04
+RR_Song05
+RR_Song07
+RR_Song09
+RR_Song11
+RR_Song12
+SM_Music1
+SM_Music10
+SM_Music11
+SM_Music12
+SM_Music2
+SM_Music3
+SM_Music4
+SM_Music5
+SM_Music6
+SM_Music7
+SM_Music8
+SM_Music9
+Song01_Grease
+Song02_HopelesslyDevoted
+Song03_Sandy
+Song04_YoureTheOneThatIWant
+Song05_GreaseLightnin
+Song06_BornToHandJive
+Song07_ThoseMagicChanges
+Song08_ItsRainingOnPromNight
+Song09_RockNRollPartyQueen
+Song10_LookAtMeImSandraDee
+Song11_SummerNights
+Song12_WeGoTogether
+Song13_BeautySchoolDropout
+Song14_FreddyMyLove
+Song15_ThereAreWorseThings
+Song16_AloneAtTheDriveIn
+SS_Crowd
+ST_Crowd
+ThunderRoad_SFX
+
+### BUS NAMES
+# 682109150
+# 66400739
+# 149995021
+# 700194257
+# 390483418
+# 706504533
+# 695900052
+# 884148353
+# 324827133
+# 111852838
+# 776101638
+# 963883136
+# 447897757
+# 700417358
+# 579868014
+# 1056627563
+# 372228089
+# 215348427
+# 401355958
+# 133426301
+
+### BASE RTPC/GAME-VARIABLE NAMES (Init.bnk)
+ClosestNeighbour
+CPR_P1
+CPR_P2
+DH_P1
+DH_P2
+FS_Combo
+GBar
+HJH_Combo
+Mic_Level_01
+Mic_Level_02
+Music_Level
+P1
+P1_CarPos
+P1_CarSpeed
+P1_HitLongPerc
+P1_RunSpeed
+P1_Solo_HitLongPerc
+P1_SprayCan
+P1_X
+P1_Y
+P2
+P2_CarPos
+P2_CarSpeed
+P2_HitLongPerc
+P2_RunSpeed
+P2_SprayCan
+P2_X
+P2_Y
+PanelBeat_Dent_P1
+PanelBeat_Dent_P2
+RA_SFXLevel
+RR_Combo
+SBar
+ScoreToggle
+SFX_Level
+SS_Combo
+ST_Combo
+StoryProgression
+Winner
+# 7351656
+# 1489314517
+# 3053458260
+# 3993147075
+
+### RTPC/GAME-VARIABLE NAMES (Init.bnk)
+ClosestNeighbour
+Mic_Level_01
+Mic_Level_02
+Music_Level
+ScoreToggle
+SFX_Level
+StoryProgression
+
+### VARIABLE NAMES (Init.bnk)
+Song
+StoryMode
+# 3002815259
+
+### EVENT NAMES (ATFOTF_SFX.bnk)
+Clown1_Silly
+Clown1Hit
+Clown1PopUp
+Clown2_Silly
+Clown2Hit
+Clown2PopUp
+Clown3_Silly
+Clown3Hit
+Clown3PopUp
+Clown4_Silly
+Clown4Hit
+Clown4PopUp
+Clown5_Silly
+Clown5Hit
+Clown5PopUp
+CountIn_AT
+DH_Atmos
+GDuckHit_P1
+GDuckHit_P2
+GDuckOff
+GDuckOn
+HitStickMote
+P1_HookDuck
+P1_PoleIn
+P1_PoleOut
+P1_RefillGun
+P1_SabotagePie
+P1_SabotagePieHit
+P1_Splat
+P1_Spray
+P1_TargetLock
+P1_TargetRollover_CPR
+P1_TargetRollover_DH
+P1_ThrowPie
+P1_WinRound
+P1_WinRoundFinal
+P2_HookDuck
+P2_PoleIn
+P2_PoleOut
+P2_RefillGun
+P2_SabotagePie
+P2_SabotagePieHit
+P2_Splat
+P2_Spray
+P2_TargetLock
+P2_TargetRollover_CPR
+P2_TargetRollover_DH
+P2_ThrowPie
+P2_WinRound
+P2_WinRoundFinal
+PlateReveal
+Play_Rizzo_Intro
+PlayersDraw_Fair
+RangerHit_P1
+RangerHit_P2
+RangerOff
+RangerOn
+ResetAtmos
+SignTurn
+Target1Hit
+Target1PopUp
+Target2Hit
+Target2PopUp
+Target3Hit
+Target3PopUp
+Target4Hit
+Target4PopUp
+Target5Hit
+Target5PopUp
+ThrowPieWiiMote
+WinRoundFinalDraw
+
+### RTPC/GAME-VARIABLE NAMES (ATFOTF_SFX.bnk)
+CPR_P1
+CPR_P2
+DH_P1
+DH_P2
+P1_X
+P1_Y
+P2_X
+P2_Y
+SFX_Level
+
+### EVENT NAMES (BSB_Crowd.bnk)
+BSB_Claps
+BSB_Comb
+BSB_Intro
+BSB_Outro
+BSB_P1_Hit
+BSB_P1_HitLate
+BSB_P1_Miss
+BSB_P1_Poison
+BSB_P1_Solo_Hit
+BSB_P1_Solo_HitLate
+BSB_P1_Solo_Miss
+BSB_P2_Hit
+BSB_P2_HitLate
+
+### EVENT NAMES (FDB_Crowd.bnk)
+FDB_AtmosBenches
+FDB_AtmosBleachers
+FDB_Claps
+FDB_Crowd_Start
+FDB_CrowdSwell
+FDB_Intro
+FDB_Outro
+FDB_P1_Hit
+FDB_P1_HitLate
+FDB_P1_Miss
+FDB_P1_Poison
+FDB_P1_Solo_Hit
+FDB_P1_Solo_HitLate
+FDB_P1_Solo_Miss
+FDB_P2_Hit
+FDB_P2_HitLate
+FDB_P2_Miss
+FDB_P2_Poison
+FDB_StartAtmos
+
+### EVENT NAMES (FS_Crowd.bnk)
+Comb
+FrenchieGiggle
+FS_Claps
+FS_Crowd_Start
+FS_Crowd_State_Excel
+FS_Crowd_State_Good
+FS_Crowd_State_OK
+FS_Intro
+FS_Outro
+FS_P1_Hit
+FS_P1_HitLate
+FS_P1_Miss
+FS_P1_Poison
+FS_P1_Solo_Hit
+FS_P1_Solo_HitLate
+FS_P1_Solo_Miss
+FS_P1_Solo_StartHitLong
+FS_P1_Solo_StopHitLong
+FS_P1_StartHitLong
+FS_P1_StopHitLong
+FS_P2_Hit
+FS_P2_HitLate
+FS_P2_Miss
+FS_P2_Poison
+FS_P2_StartHitLong
+FS_P2_StopHitLong
+PillowHits
+RizzoFan
+RizzoGiggle
+RizzoPillowHits
+SandyPillowHits
+Stop_All_Except
+
+### EVENT NAMES (FieldDay_SFX.bnk)
+CountIn_FD
+Court_Atmos
+Danny_BallThrow
+Danny_Dissapoint
+Danny_GetBall
+Danny_GetBat
+Danny_Grapple
+Danny_Huff
+Danny_JumpHigh1
+Danny_JumpHigh2
+Danny_JumpHigh3
+Danny_JumpMedium1
+Danny_JumpMedium2
+Danny_JumpMedium2_B4
+Danny_JumpMedium3
+Danny_Sabbotage
+Danny_WR_LosesPin
+Danny_WR_MissGrapple
+DannyCatch
+DannyFail
+DannyHomeRun
+DannyMissSab
+DannyMoveBackward
+DannyMoveForward
+DannySabHit
+DannySuccess
+DannySwing
+DannySwingHit
+DannyWinsOutro
+FD_Intro
+Gym_Atmos
+HomerunBirds
+HomeRunMoteDanny
+HomeRunMoteTom
+Hub_Atmos
+MachineHitP1
+MachineHitP2
+Machines_Start
+Pitcher1
+Pitcher2
+PlayersDraw
+Stop_All_Except
+Tom_BallThrow
+Tom_Dissapoint
+Tom_GetBall
+Tom_GetBat
+Tom_Grapple
+Tom_Huff
+Tom_JumpHigh1
+Tom_JumpHigh2
+Tom_JumpHigh3
+Tom_JumpMedium1
+Tom_JumpMedium2
+Tom_JumpMedium2_B4
+Tom_JumpMedium3
+Tom_Sab
+Tom_WR_LosesPin
+Tom_WR_MissGrapple
+TomCatch
+TomFail
+TomHit
+TomHomeRun
+TomMissSab
+TomMoveBackward
+TomMoveForward
+TomSuccess
+TomSwing
+TomSwingHit
+TomsWinsOutro
+
+### EVENT NAMES (Front_End.bnk)
+Back
+CarOn
+Fe_Atmos
+Fe_Atmos_Stop
+Locked
+MainMenuSelect
+MusicalMenuComplete
+Play_B2HJ_Preview
+Play_BSD_Preview
+Play_GITW_Preview
+Play_GL_Preview
+Play_HD_Preview
+Play_LATM_Preview
+Play_ROPN_Preview
+Play_RPQ_Preview
+Play_S_Preview
+Play_SL_Preview
+Play_TAWT_Preview
+Play_TMC_Preview
+Play_WGT_Preview
+Play_YTWTIW_Preview
+Rollover
+SongPreviewSelect
+StopRecord
+VideoStart
+VideoStop
+# 3772396269
+
+### EVENT NAMES (GlobalSound.bnk)
+accept
+AS_MIC_Down
+AS_MIC_Up
+AS_MUSIC_Down
+AS_MUSIC_Up
+AS_SFX_Down
+AS_SFX_Up
+Back
+BlueTeamWins
+ChangeTeams
+ErrorMsgClose
+ErrorMsgUp
+FinalConfirm_Trigger
+FinalContinue
+HighscoreBeat
+HomeMenu_Enter
+HomeMenu_Exit
+Letter
+Loading
+LoadingStop
+NameAlert
+P1_SabMote
+P2_SabMote
+Paragraph
+Pause_All
+Play_BeautySchoolDropout_Reprise
+Play_BornToHandJive_Inst
+Play_BornToHandJive_Reprise
+Play_BSD_Inst
+Play_GL_Inst
+Play_Grease_Inst
+Play_Grease_Reprise
+Play_GreaseLightnin_Reprise
+Play_HopelesslyDev_Inst
+Play_HopelesslyDevoted_Reprise
+Play_ItsRaining_Inst
+Play_LookAtMe_Inst
+Play_LookAtMe_Reprise
+Play_RainingOnPromNight_Reprise
+Play_RockNRoll_Inst
+Play_RockNRollPartyQueen_Reprise
+Play_Sandy_Inst
+Play_SandyReprise
+Play_SummerNights_Inst
+Play_SummerNightsReprise
+Play_ThereAreWorse_Inst
+Play_ThereAreWorseThingsICouldDo_Reprise
+Play_ThoseMagic_Inst
+Play_ThoseMagicChanges_Reprise
+Play_WeGot_Inst
+Play_WeGoTogether_Reprise
+Play_YoureTheOne_Inst
+Play_YoureTheOneThatIWant_Reprise
+RedTeamWins
+Resume_All
+RolloverSmall
+RoundClick
+RoundSum_TeamScore
+ScoreBellsStop
+ScoreBellStart
+select
+SM_Atmos_Stop
+Stop_All
+Stop_All_Except
+Stop_TESTMUSIC
+StopLoading
+Timer
+UnlockReward
+YourSure
+# 1854599054
+# 3486532393
+
+### RTPC/GAME-VARIABLE NAMES (GlobalSound.bnk)
+Music_Level
+
+### VARIABLE NAMES (GlobalSound.bnk)
+Song
+
+### VALUE NAMES (GlobalSound.bnk)
+BeautySchoolDropOut
+BornToHandJive
+Grease
+GreaseLightnin
+HopelesslyDevoted
+ItsRainingOnPromNight
+LookAtMe
+RockNRollPartyQueen
+Sandy
+SummerNights
+ThoseMagicChanges
+WeGoTogether
+YoureTheOneThatIWant
+# 2544104353
+
+### EVENT NAMES (HJH_Crowd.bnk)
+HJH_Combo_ChangeDown_P2
+HJH_Crowd_Start
+HJH_Crowd_State_Excel
+HJH_Crowd_State_Good
+HJH_Crowd_State_OK
+HJH_CrowdSwell
+HJH_Intro
+HJH_OutroDanny
+HJH_OutroDraw
+HJH_OutroSandy
+HJH_P1_Hit
+HJH_P1_HitLate
+HJH_P1_Miss
+HJH_P1_Poison
+HJH_P1_Solo_Hit
+HJH_P1_Solo_HitLate
+HJH_P1_Solo_Miss
+HJH_P2_Hit
+HJH_P2_HitLate
+HJH_P2_Miss
+HJH_P2_Poison
+
+### RTPC/GAME-VARIABLE NAMES (HJH_Crowd.bnk)
+RA_SFXLevel
+
+### VARIABLE NAMES (HJH_Crowd.bnk)
+CrowdLevel
+
+### VALUE NAMES (HJH_Crowd.bnk)
+Excel
+Good
+ok
+
+### EVENT NAMES (HJH_Song01.bnk)
+HJH_Start_Song_01
+
+### EVENT NAMES (HJH_Song02.bnk)
+HJH_Start_Song_02
+
+### EVENT NAMES (HJH_Song03.bnk)
+HJH_Start_Song_03
+
+### EVENT NAMES (HJH_Song04.bnk)
+HJH_Start_Song_04
+
+### EVENT NAMES (HJH_Song05.bnk)
+HJH_Start_Song_05
+
+### EVENT NAMES (HJH_Song06.bnk)
+HJH_Start_Song_06
+
+### EVENT NAMES (HJH_Song10.bnk)
+HJH_Start_Song_10
+
+### EVENT NAMES (HJH_Song11.bnk)
+HJH_Start_Song_11
+
+### EVENT NAMES (HJH_Song13.bnk)
+HJH_Start_Song_13
+
+### EVENT NAMES (MC01_SFX.bnk)
+Atmos_MC01
+CountIn_MC01
+Danny_Fail
+Danny_GetNextHammer
+Danny_GetNextSpanner
+Danny_GetNextSprayCan
+Danny_Success
+DannyOutro
+DrawOutro
+EndRoundBell
+intro
+Leo_Fail
+Leo_GetNextHammer
+Leo_GetNextSpanner
+Leo_GetNextSprayCan
+Leo_Success
+LeoOutro
+MC01_CountIn
+P1_SetTransition
+P1Solo_SetTransition
+P2_SetTransition
+Panel_PopUpP1
+Panel_PopUpP2
+Panel_RolloverP1
+Panel_RolloverP2
+Panel_SelectP1
+Panel_SelectP2
+PanelHeavy_HitP1
+PanelHeavy_HitP2
+PanelLight_HitP1
+PanelLight_HitP2
+PanelMed_HitP1
+PanelMed_HitP2
+Sabotage_P1
+Sabotage_P2
+Screw_BreakP1
+Screw_BreakP2
+Screw_OverTightenP1
+Screw_OverTightenP2
+Screw_RolloverP1
+Screw_RolloverP2
+Screw_SelectP1
+Screw_SelectP2
+ScrewP1
+ScrewP2
+SprayCan_EmptyP1
+SprayCan_EmptyP2
+SprayCan_FullP1
+SprayCan_FullP2
+SprayCan_Refill_Mote
+SprayCan_StartP1
+SprayCan_StartP2
+SprayCan_StopLoopP1
+SprayCan_StopLoopP2
+Stencil_ApplyP1
+Stencil_ApplyP2
+Stencil_RemoveP1
+Stencil_RemoveP2
+Stop_All_Except
+
+### RTPC/GAME-VARIABLE NAMES (MC01_SFX.bnk)
+P1
+P1_SprayCan
+P2
+P2_SprayCan
+PanelBeat_Dent_P1
+PanelBeat_Dent_P2
+
+### EVENT NAMES (MC09_SFX.bnk)
+Atmos_Start
+Bleacher_Crowd
+Bleacher_Crowd2
+Burnout_P1
+Burnout_P2
+CountIn
+CountInMote
+Danny_ChangeLane
+Danny_Run
+DannyBarged
+DannyJump
+DannyJump02
+DannyJump_Fail
+DannyJump_Whoosh
+DannyOutroR4YL
+DannyStart
+DannyWinsRace
+IntroCinematic_R4YL
+P1_heart
+P1_HurdlePoint
+P2_heart
+P2_HurdlePoint
+Pause_All
+RaceFinish_Danny
+RaceFinish_Tom
+Resume_All
+Stop_All_Except
+Tom_ChangeLane
+Tom_Run
+TomBarged
+TomJump
+TomJump02
+TomJump_Fail
+TomJump_Whoosh
+TomOutroR4YL
+TomStart
+TomWinsRace
+
+### RTPC/GAME-VARIABLE NAMES (MC09_SFX.bnk)
+P1_RunSpeed
+P2_RunSpeed
+Winner
+
+### EVENT NAMES (Microphone.bnk)
+Play_Microphone_01
+Play_Microphone_02
+Stop_Microphone_01
+Stop_Microphone_02
+
+### RTPC/GAME-VARIABLE NAMES (Microphone.bnk)
+Mic_Level_01
+Mic_Level_02
+
+### EVENT NAMES (RA_Global.bnk)
+Biscuit_On
+BSB_Combo_Change_P1
+BSB_Combo_Change_P2
+FDB_Combo_Change_P1
+FDB_Combo_Change_P2
+FS_Combo_Change_P1
+FS_Combo_Change_P2
+Gbar_Fill
+Gbar_P1Wins
+Gbar_P2Wins
+HJH_Combo_Change_P1
+HJH_Combo_Change_P2
+P1_RA_Sab
+P2_RA_Sab
+RR_Combo_Change_P1
+RR_Combo_Change_P2
+Sbar_Fill
+Sbar_P1Wins
+Sbar_P2Wins
+SS_Combo_Change_P1
+SS_Combo_Change_P2
+ST_Combo_Change_P1
+ST_Combo_Change_P2
+
+### RTPC/GAME-VARIABLE NAMES (RA_Global.bnk)
+GBar
+SBar
+
+### EVENT NAMES (RR_Crowd.bnk)
+Pause_All
+Resume_All
+RR_Claps
+RR_Crowd_Start
+RR_Crowd_State_Excel
+RR_Crowd_State_Good
+RR_Crowd_State_OK
+RR_CrowdSwell
+RR_Intro
+RR_IntroDrums
+RR_Outro
+RR_P1_Hit
+RR_P1_HitLate
+RR_P1_Miss
+RR_P1_Poison
+RR_P1_Solo_Hit
+RR_P1_Solo_HitLate
+RR_P1_Solo_Miss
+RR_P1_Solo_StartHitLong
+RR_P1_Solo_StopHitLong
+RR_P1_StartHitLong
+RR_P1_StopHitLong
+RR_P2_Hit
+RR_P2_HitLate
+RR_P2_Miss
+RR_P2_Poison
+RR_P2_StartHitLong
+RR_P2_StopHitLong
+Stop_All_Except
+
+### VARIABLE NAMES (RR_Crowd.bnk)
+CrowdLevel
+
+### VALUE NAMES (RR_Crowd.bnk)
+Excel
+Good
+ok
+
+### EVENT NAMES (RR_Song03.bnk)
+RR_Start_Song_03
+
+### EVENT NAMES (RR_Song04.bnk)
+RR_Start_Song_04
+
+### EVENT NAMES (RR_Song05.bnk)
+RR_Start_Song_05
+
+### EVENT NAMES (RR_Song07.bnk)
+RR_Start_Song_07
+
+### EVENT NAMES (RR_Song09.bnk)
+RR_Start_Song_09
+
+### EVENT NAMES (RR_Song11.bnk)
+RR_Start_Song_11
+
+### EVENT NAMES (RR_Song12.bnk)
+RR_Start_Song_12
+
+### EVENT NAMES (SM_Music1.bnk)
+SM_Continue
+SM_Music1
+
+### VARIABLE NAMES (SM_Music1.bnk)
+StoryMode
+
+### VALUE NAMES (SM_Music1.bnk)
+Story1
+Story10
+Story11
+Story12
+Story2
+Story3
+Story4
+Story5
+Story6
+Story7
+Story8
+Story9
+
+### EVENT NAMES (SM_Music10.bnk)
+SM_Continue
+SM_Music10
+
+### VARIABLE NAMES (SM_Music10.bnk)
+StoryMode
+
+### VALUE NAMES (SM_Music10.bnk)
+Story1
+Story10
+Story11
+Story12
+Story2
+Story3
+Story4
+Story5
+Story6
+Story7
+Story8
+Story9
+
+### EVENT NAMES (SM_Music11.bnk)
+SM_Continue
+SM_Music11
+
+### VARIABLE NAMES (SM_Music11.bnk)
+StoryMode
+
+### VALUE NAMES (SM_Music11.bnk)
+Story1
+Story10
+Story11
+Story12
+Story2
+Story3
+Story4
+Story5
+Story6
+Story7
+Story8
+Story9
+
+### EVENT NAMES (SM_Music12.bnk)
+SM_Continue
+SM_Music12
+
+### VARIABLE NAMES (SM_Music12.bnk)
+StoryMode
+
+### VALUE NAMES (SM_Music12.bnk)
+Story1
+Story10
+Story11
+Story12
+Story2
+Story3
+Story4
+Story5
+Story6
+Story7
+Story8
+Story9
+
+### EVENT NAMES (SM_Music2.bnk)
+SM_Continue
+SM_Music2
+
+### VARIABLE NAMES (SM_Music2.bnk)
+StoryMode
+
+### VALUE NAMES (SM_Music2.bnk)
+Story1
+Story10
+Story11
+Story12
+Story2
+Story3
+Story4
+Story5
+Story6
+Story7
+Story8
+Story9
+
+### EVENT NAMES (SM_Music3.bnk)
+SM_Continue
+SM_Music3
+
+### VARIABLE NAMES (SM_Music3.bnk)
+StoryMode
+
+### VALUE NAMES (SM_Music3.bnk)
+Story1
+Story10
+Story11
+Story12
+Story2
+Story3
+Story4
+Story5
+Story6
+Story7
+Story8
+Story9
+
+### EVENT NAMES (SM_Music4.bnk)
+SM_Continue
+SM_Music4
+
+### VARIABLE NAMES (SM_Music4.bnk)
+StoryMode
+
+### VALUE NAMES (SM_Music4.bnk)
+Story1
+Story10
+Story11
+Story12
+Story2
+Story3
+Story4
+Story5
+Story6
+Story7
+Story8
+Story9
+
+### EVENT NAMES (SM_Music5.bnk)
+SM_Continue
+SM_Music5
+
+### VARIABLE NAMES (SM_Music5.bnk)
+StoryMode
+
+### VALUE NAMES (SM_Music5.bnk)
+Story1
+Story10
+Story11
+Story12
+Story2
+Story3
+Story4
+Story5
+Story6
+Story7
+Story8
+Story9
+
+### EVENT NAMES (SM_Music6.bnk)
+SM_Continue
+SM_Music6
+
+### VARIABLE NAMES (SM_Music6.bnk)
+StoryMode
+
+### VALUE NAMES (SM_Music6.bnk)
+Story1
+Story10
+Story11
+Story12
+Story2
+Story3
+Story4
+Story5
+Story6
+Story7
+Story8
+Story9
+
+### EVENT NAMES (SM_Music7.bnk)
+SM_Continue
+SM_Music7
+
+### VARIABLE NAMES (SM_Music7.bnk)
+StoryMode
+
+### VALUE NAMES (SM_Music7.bnk)
+Story1
+Story10
+Story11
+Story12
+Story2
+Story3
+Story4
+Story5
+Story6
+Story7
+Story8
+Story9
+
+### EVENT NAMES (SM_Music8.bnk)
+SM_Continue
+SM_Music8
+
+### VARIABLE NAMES (SM_Music8.bnk)
+StoryMode
+
+### VALUE NAMES (SM_Music8.bnk)
+Story1
+Story10
+Story11
+Story12
+Story2
+Story3
+Story4
+Story5
+Story6
+Story7
+Story8
+Story9
+
+### EVENT NAMES (SM_Music9.bnk)
+SM_Continue
+SM_Music9
+
+### VARIABLE NAMES (SM_Music9.bnk)
+StoryMode
+
+### VALUE NAMES (SM_Music9.bnk)
+Story1
+Story10
+Story11
+Story12
+Story2
+Story3
+Story4
+Story5
+Story6
+Story7
+Story8
+Story9
+
+### EVENT NAMES (SS_Crowd.bnk)
+DannyGetAll
+DannyWins_SS
+DannyWinsRound
+KenickieGetAll
+KenickieWins_SS
+KenickieWinsRound
+Sandy_Intro
+SandyGiggle
+SandyInstructionDown
+SandyInstructionLeft
+SandyInstructionRight
+SandyInstructionUp
+SS_Claps
+SS_Combo_ChangeDown_P1
+SS_Combo_ChangeDown_P2
+SS_Crowd_Start
+SS_CrowdSwell
+SS_Intro
+SS_IntroMusic
+SS_Outro
+SS_P1_Hit
+SS_P1_HitLate
+SS_P1_Miss
+SS_P1_Poison
+SS_P1_Solo_Hit
+SS_P1_Solo_HitLate
+SS_P1_Solo_Miss
+SS_P1_Solo_StartHitLong
+SS_P1_Solo_StopHitLong
+SS_P1_StartHitLong
+SS_P1_StopHitLong
+SS_P2_Hit
+SS_P2_HitLate
+SS_P2_Miss
+SS_P2_Poison
+SS_P2_StartHitLong
+SS_P2_StopHitLong
+SS_SandyWhistle
+Stop_All_Except
+
+### VARIABLE NAMES (SS_Crowd.bnk)
+Players
+
+### VALUE NAMES (SS_Crowd.bnk)
+OnePlayer
+TwoPlayer
+
+### EVENT NAMES (ST_Crowd.bnk)
+ST_Claps
+ST_Combo_ChangeDown_P1
+ST_Combo_ChangeDown_P2
+ST_Crowd_Start
+ST_Crowd_State_Excel
+ST_Crowd_State_Good
+ST_Crowd_State_OK
+ST_CrowdSwell
+ST_Intro
+ST_Outro
+ST_P1_Cymbal_Hit
+ST_P1_Cymbal_HitLate
+ST_P1_Hit
+ST_P1_Kick_Hit
+ST_P1_Kick_HitLate
+ST_P1_Miss
+ST_P1_Poison
+ST_P1_Snare_Hit
+ST_P1_Snare_HitLate
+ST_P1_SnareRoll_Hit
+ST_P1_Solo_Hit
+ST_P1_Solo_Miss
+ST_P1_TomRoll_Hit
+ST_P2_Cymbal_Hit
+ST_P2_Cymbal_HitLate
+ST_P2_Hit
+ST_P2_Kick_Hit
+ST_P2_Kick_HitLate
+ST_P2_Miss
+ST_P2_Poison
+ST_P2_Snare_Hit
+ST_P2_Snare_HitLate
+ST_P2_SnareRoll_Hit
+ST_P2_TomRoll_Hit
+ST_Solo_Cymbal_Hit
+ST_Solo_Cymbal_HitLate
+ST_Solo_Kick_Hit
+ST_Solo_Kick_HitLate
+ST_Solo_Snare_Hit
+ST_Solo_Snare_HitLate
+ST_Solo_SnareRoll_Hit
+ST_Solo_TomRoll_Hit
+
+### VARIABLE NAMES (ST_Crowd.bnk)
+CrowdLevel
+
+### VALUE NAMES (ST_Crowd.bnk)
+Excel
+Good
+ok
+
+### EVENT NAMES (Song01_Grease.bnk)
+BSB_Start_Song_01
+FDB_Start_Song_01
+FS_Start_Song_01
+FS_Stop_Song_01
+HJH_Stop_Song_01
+SS_Start_Song_01
+SS_Stop_Song_01
+ST_Start_Song_01
+Start_Song_01
+Stop_All_Except
+Stop_Song_01
+
+### EVENT NAMES (Song02_HopelesslyDevoted.bnk)
+BSB_Start_Song_02
+FDB_Start_Song_02
+FS_Start_Song_02
+FS_Stop_Song_02
+SS_Start_Song_02
+SS_Stop_Song_02
+ST_Start_Song_02
+Start_Song_02
+Stop_All_Except
+Stop_Song_02
+
+### EVENT NAMES (Song03_Sandy.bnk)
+BSB_Start_Song_03
+FDB_Start_Song_03
+FS_Start_Song_03
+FS_Stop_Song_03
+SS_Start_Song_03
+SS_Stop_Song_03
+ST_Start_Song_03
+Start_Song_03
+Stop_All_Except
+Stop_Song_03
+
+### EVENT NAMES (Song04_YoureTheOneThatIWant.bnk)
+BSB_Start_Song_04
+FDB_Start_Song_04
+FS_Start_Song_04
+FS_Stop_Song_04
+SS_Start_Song_04
+SS_Stop_Song_04
+ST_Start_Song_04
+Start_Song_04
+Stop_All_Except
+Stop_Song_04
+
+### EVENT NAMES (Song05_GreaseLightnin.bnk)
+BSB_Start_Song_05
+FDB_Start_Song_05
+FS_Start_Song_05
+FS_Stop_Song_05
+HJH_Stop_Song_05
+SS_Start_Song_05
+SS_Stop_Song_05
+ST_P1_Solo_Hit
+ST_P1_Solo_Miss
+ST_Start_Song_05
+Start_Song_05
+Stop_All_Except
+Stop_Song_05
+
+### EVENT NAMES (Song06_BornToHandJive.bnk)
+BSB_Start_Song_06
+FDB_Start_Song_06
+FS_Start_Song_06
+FS_Stop_Song_06
+HJH_Stop_Song_06
+SS_Start_Song_06
+SS_Stop_Song_06
+ST_Start_Song_06
+Start_Song_06
+Stop_All_Except
+Stop_Song_06
+
+### EVENT NAMES (Song07_ThoseMagicChanges.bnk)
+BSB_Start_Song_07
+FDB_Start_Song_07
+FS_Start_Song_07
+FS_Stop_Song_07
+HJH_Start_Song_07
+HJH_Stop_Song_07
+SS_Start_Song_07
+SS_Stop_Song_07
+ST_Start_Song_07
+Start_Song_07
+Stop_All_Except
+Stop_Song_07
+
+### EVENT NAMES (Song08_ItsRainingOnPromNight.bnk)
+BSB_Start_Song_08
+FDB_Start_Song_08
+FS_Start_Song_08
+FS_Stop_Song_08
+HJH_Start_Song_08
+HJH_Stop_Song_08
+SS_Start_Song_08
+SS_Stop_Song_08
+ST_Start_Song_08
+Start_Song_08
+Stop_All_Except
+Stop_Song_08
+
+### EVENT NAMES (Song09_RockNRollPartyQueen.bnk)
+BSB_Start_Song_09
+FDB_Start_Song_09
+FS_Start_Song_09
+FS_Stop_Song_09
+HJH_Start_Song_09
+HJH_Stop_Song_09
+SS_Start_Song_09
+SS_Stop_Song_09
+ST_Start_Song_09
+Start_Song_09
+Stop_Song_09
+
+### EVENT NAMES (Song10_LookAtMeImSandraDee.bnk)
+BSB_Start_Song_10
+FDB_Start_Song_10
+FS_Start_Song_10
+FS_Stop_Song_10
+SS_Start_Song_10
+SS_Stop_Song_10
+ST_Start_Song_10
+Start_Song_10
+Stop_All_Except
+Stop_Song_10
+
+### EVENT NAMES (Song11_SummerNights.bnk)
+BSB_Start_Song_11
+FDB_Start_Song_11
+FS_Start_Song_11
+FS_Stop_Song_11
+SS_Start_Song_11
+SS_Stop_Song_11
+ST_Start_Song_11
+Start_Song_11
+Stop_All_Except
+Stop_Song_11
+
+### EVENT NAMES (Song12_WeGoTogether.bnk)
+BSB_Start_Song_12
+FDB_Start_Song_12
+FS_Start_Song_12
+FS_Stop_Song_12
+HJH_Start_Song_12
+HJH_Stop_Song_12
+SS_Start_Song_12
+SS_Stop_Song_12
+ST_P1_Solo_Hit
+ST_P1_Solo_Miss
+ST_Start_Song_12
+Start_Song_12
+Stop_All_Except
+Stop_Song_12
+
+### EVENT NAMES (Song13_BeautySchoolDropout.bnk)
+BSB_Start_Song_13
+FDB_Start_Song_13
+FS_Start_Song_13
+FS_Stop_Song_13
+SS_Start_Song_13
+SS_Stop_Song_13
+ST_Start_Song_13
+Start_Song_13
+Stop_All_Except
+Stop_Song_13
+
+### EVENT NAMES (Song14_FreddyMyLove.bnk)
+BSB_Start_Song_14
+FDB_Start_Song_14
+FS_Start_Song_14
+FS_Stop_Song_14
+HJH_Start_Song_14
+HJH_Stop_Song_14
+SS_Start_Song_14
+SS_Stop_Song_14
+ST_Start_Song_14
+Start_Song_14
+Stop_All_Except
+Stop_Song_14
+
+### EVENT NAMES (Song15_ThereAreWorseThings.bnk)
+BSB_Start_Song_15
+FDB_Start_Song_15
+FS_Start_Song_15
+FS_Stop_Song_15
+HJH_Start_Song_15
+HJH_Stop_Song_15
+SS_Start_Song_15
+SS_Stop_Song_15
+ST_Start_Song_15
+Start_Song_15
+Stop_All_Except
+Stop_Song_15
+
+### EVENT NAMES (Song16_AloneAtTheDriveIn.bnk)
+Pause_All
+Resume_All
+Start_Song_16
+Stop_All_Except
+Stop_Song_16
+
+### EVENT NAMES (ThunderRoad_SFX.bnk)
+Atmos_TR01
+CountIn_TR
+Hit_CardboardBox
+Hit_Crate
+Hit_Oil
+Hit_Palette
+Hit_PlasticBag
+Hit_Puddle
+Hit_TrafficCone
+Hit_TrashCan
+Midway_Danny
+Midway_LeoWinning
+P1_Blast
+P1_CarImpact
+P1_GearDown
+P1_GearDownTo1
+P1_GearDownTo2
+P1_GearFail
+P1_GearSuccess1
+P1_GearSuccess1_wiimote
+P1_GearSuccess2
+P1_GearUp
+P1_GearUpTo2
+P1_GearUpTo3
+P1_Horn
+P1_Rocket
+P1_RocketStop
+P1_Shunt
+P1_ThruWater
+P1_ThruWaterStop
+P1_Turn
+P1_UpSide
+P2_Blast
+P2_CarImpact
+P2_GearDown
+P2_GearDownTo1
+P2_GearDownTo2
+P2_GearFail
+P2_GearSuccess1
+P2_GearSuccess1_wiimote
+P2_GearSuccess2
+P2_GearUp
+P2_GearUpTo2
+P2_GearUpTo3
+P2_Horn
+P2_Rocket
+P2_RocketStop
+P2_Shunt
+P2_ThruWater
+P2_ThruWaterStop
+P2_Turn
+P2_UpSide
+Stop_All_Except
+ThunderRoad_Intro
+TrainPassLeft
+TrainPassRight
+WinRace_Danny
+WinRace_Leo
+# 333422421
+# 769475797
+# 1008031916
+# 2007149560
+
+### RTPC/GAME-VARIABLE NAMES (ThunderRoad_SFX.bnk)
+P1_CarPos
+P1_CarSpeed
+P2_CarPos
+P2_CarSpeed
+

@@ -1008,6 +1008,7 @@ bg_Props
 bg_specifics
 bgs
 bob_laser_2D
+bob_laser_metered
 bobtower
 boss
 boss_grunts
@@ -1136,7 +1137,6 @@ weapons
 # 3146785757
 # 1918638453
 # 3024299990
-# 885627915
 # 3059453395
 # 3598349687
 # 1043976537
@@ -1205,13 +1205,13 @@ DMC_vault
 DMC_vault_corridor
 MundusMeter
 Music_duck_EQ
+Music_Limiter
 poison_finale_meter
 SetpieceMeter
 testverb
 The_Carnival_Indoors
 The_Carnival_Outdoors
 vortexvo
-# 1399739703
 # 1453419348
 # 1615127361
 # 1993344445
@@ -1220,6 +1220,7 @@ vortexvo
 ### BASE RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
 ANGEL_LIFT
 angspeed
+bob_laser_meter_ouput
 Breaks_LPF
 ch13_club_music_cf
 ch13_club_proxy
@@ -1236,6 +1237,8 @@ descent_timer
 Deviltrigger
 DevilTriggerMeter
 dlc_pickup_proxy
+Ducker_hold
+Ducker_release
 event_pitch
 event_volume
 FORCE
@@ -1274,11 +1277,9 @@ vortexvo_RTPC
 # 1671366616
 # 2656142798
 # 2681407051
-# 2773983438
-# 3025813773
-# 3800431893
 
 ### RTPC/GAME-VARIABLE NAMES (1355168291.bnk: init)
+bob_laser_meter_ouput
 DevilTriggerMeter
 HitStop
 music_eq
@@ -1290,7 +1291,6 @@ setpiece_peak
 user_MUSIC_volume
 user_SFX_volume
 # 401499758
-# 2773983438
 # 1671366616
 
 ### VARIABLE NAMES (1355168291.bnk: init)
@@ -1336,9 +1336,9 @@ Music_style
 ScytheTier
 slomoGroup
 UI_button_hack
+ui_close_screen
 # 675583530
 # 1063345258
-# 3140534481
 # 1252764949
 # 111675247
 # 4010641201
@@ -1801,8 +1801,8 @@ Play_BobBigShout
 Play_BobBigShout_short
 
 ### RTPC/GAME-VARIABLE NAMES (2798064230.bnk: BobBarbas_BobFight_Head_Actions)
+bob_laser_meter_ouput
 event_volume
-# 2773983438
 
 ### EVENT NAMES (3521133912.bnk: BobBarbas_BobFight_Lasers)
 Play_barbas_fight_arena_power_down_01
@@ -2237,7 +2237,7 @@ event_pitch
 event_volume
 
 ### EVENT NAMES (548713642.bnk: Break_In_swat_murder2)
-# 429893367
+Play_swat_murder_scientist_b
 
 ### RTPC/GAME-VARIABLE NAMES (548713642.bnk: Break_In_swat_murder2)
 event_pitch
@@ -2967,7 +2967,7 @@ Play_Music_Ch10_Bob_Barbas
 Stop_Music_Ch10_Bob_Barbas
 
 ### RTPC/GAME-VARIABLE NAMES (1256681047.bnk: Music_ch10_Bob_Barbas_Persistent)
-# 2773983438
+bob_laser_meter_ouput
 
 ### VARIABLE NAMES (1256681047.bnk: Music_ch10_Bob_Barbas_Persistent)
 Ch10_Bob_Barbas
@@ -3287,6 +3287,7 @@ Stop_Music_Ch01_Hunter_0_vision_version
 Ch1_Hunter
 
 ### VALUE NAMES (3543190706.bnk: Music_ch1_Hunter_Persistent)
+Hunter_all_Fade_out_10secs
 Hunter_all_Fade_out_5secs
 Hunter_Ambience_01
 Hunter_Ambience_01_v2
@@ -3324,7 +3325,6 @@ Hunter_Sec18_Main
 Hunter_Sec22_End
 Hunter_Sec22b_Main
 Hunter_Stop_current
-# 1894269845
 
 ### EVENT NAMES (3943837452.bnk: Music_ch20_Vergil_Persistent)
 Play_Music_Ch20_Vergil
@@ -3364,6 +3364,7 @@ Mansion_ambience_02_b
 Mansion_ambience_02_b_lp
 Mansion_ambience_03_a
 Mansion_chords_theme
+Mansion_chords_theme_Outro
 Mansion_End_Crush_Chase_01
 Mansion_End_Crush_Chase_02
 Mansion_End_Crush_End
@@ -3389,7 +3390,6 @@ Mansion_Stop_current
 Music_Secret_World_end
 Music_Secret_World_main
 Music_Secret_World_main_alt_start
-# 131690392
 
 ### EVENT NAMES (3892419256.bnk: Music_ch3_Plaza_Persistent)
 Play_Music_Ch03_Plaza
@@ -6080,11 +6080,13 @@ Play_metal
 Play_OcclusionTest
 Play_ReverbTest
 Play_rock_hit
+Play_test_Boing
 Play_test_cuckoo
 Play_test_cuckoo_loop
 Play_test_horn
 Play_test_horn_low
 Play_test_pam
+Play_test_squeak
 play_voline
 Play_voline_01
 Play_wood
@@ -6102,9 +6104,7 @@ Stop_Wood
 Stop_wood_slide_loop
 # 298593649
 # 329830549
-# 491172060
 # 863154807
-# 1151989575
 # 1405995526
 # 1460003900
 # 1795753612
@@ -8244,9 +8244,9 @@ Play_scythe_blocked
 Play_whip_blocked
 
 ### RTPC/GAME-VARIABLE NAMES (1110422488.bnk: sword_impacts)
+bob_laser_meter_ouput
 event_pitch
 event_volume
-# 2773983438
 
 ### VARIABLE NAMES (1110422488.bnk: sword_impacts)
 Deviltrigger
@@ -8257,13 +8257,13 @@ off
 on
 
 ### EVENT NAMES (1930489279.bnk: test_tones)
+Play_test_Boing
 Play_test_cuckoo
 Play_test_cuckoo_loop
 Play_test_horn
 Play_test_pam
+Play_test_squeak
 Stop_test_cuckoo_loop
-# 491172060
-# 1151989575
 # 2416525605
 # 2929001547
 # 3187221782
@@ -10384,10 +10384,7 @@ event_pitch
 ### RTPC/GAME-VARIABLE NAMES (langs/90224061.bnk: env_secret_area_wormhole_VO)
 vortexvo_RTPC
 
-#2235074015  : VolcanoExe
 #793415545   : Play_dante_angel_lift_wide_options
-#41722817    : Play_tanker_glass_crack
-#2944108850  : Play_dante_big_followthrough
+#1479468681  : Play_stinger_moderator_loop
 #3576764175  : sktest
-#344451456   : Play_cs10_lake_of_jam
-#834173513   : Play_throughwall_city_3D
+#41722817    : Play_tanker_glass_crack
